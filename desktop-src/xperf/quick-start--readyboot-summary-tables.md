@@ -1,7 +1,12 @@
 ---
 title: Quick Start ReadyBoot Summary Tables
 description: Quick Start ReadyBoot Summary Tables
-ms.assetid: '05d0de6e-1080-4f50-b587-8e607f0bbdda'
+ms.assetid: 05d0de6e-1080-4f50-b587-8e607f0bbdda
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Start: ReadyBoot Summary Tables

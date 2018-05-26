@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to use the Windows Explorer Browser control to embed Windows Explorer in an application and how to implement search functionality with an in-memory search folder.'
+Description: Demonstrates how to use the Windows Explorer Browser control to embed Windows Explorer in an application and how to implement search functionality with an in-memory search folder.
 title: Explorer Browser Search Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Explorer Browser Search Sample

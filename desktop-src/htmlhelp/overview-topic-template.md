@@ -1,7 +1,12 @@
 ---
 title: Overview Topic Template
 description: Overview Topic Template
-ms.assetid: '9E3572F9-DD6F-4add-93BE-AF5FF802000A'
+ms.assetid: 9E3572F9-DD6F-4add-93BE-AF5FF802000A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview Topic Template

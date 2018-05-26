@@ -1,8 +1,11 @@
 ---
 title: IDeliveryOptimizationFile GetStats method
 description: Returns download and upload stats for a specific file.
-ms.assetid: '8A3AD658-F1AD-4EA5-B010-AB7B88126FD6'
-keywords: ["GetStats method", "GetStats method, IDeliveryOptimizationFile interface", "IDeliveryOptimizationFile interface, GetStats method"]
+ms.assetid: 8A3AD658-F1AD-4EA5-B010-AB7B88126FD6
+keywords:
+- GetStats method
+- GetStats method, IDeliveryOptimizationFile interface
+- IDeliveryOptimizationFile interface, GetStats method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDeliveryOptimizationFile::GetStats method
@@ -22,7 +30,7 @@ Returns download and upload stats for a specific file.
 
 ```C++
 HRESULT GetStats(
-  [out] DOSwarmStats *swarmStats
+  [out] DOSwarmStats *swarmStats
 );
 ```
 
@@ -49,7 +57,7 @@ This method should return **S\_OK**.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -66,9 +74,9 @@ This method should return **S\_OK**.
 [**IDeliveryOptimizationFile**](ideliveryoptimizationfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

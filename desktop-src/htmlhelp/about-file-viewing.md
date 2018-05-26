@@ -1,7 +1,12 @@
 ---
 title: About File Viewing
 description: About File Viewing
-ms.assetid: 'C9964D22-0E5F-4f04-B867-326D4F99FA6B'
+ms.assetid: C9964D22-0E5F-4f04-B867-326D4F99FA6B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About File Viewing

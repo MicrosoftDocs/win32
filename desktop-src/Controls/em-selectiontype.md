@@ -1,8 +1,9 @@
 ---
 title: EM\_SELECTIONTYPE message
 description: Determines the selection type for a rich edit control.
-ms.assetid: 'a4200e32-1056-47bd-be47-5fabaf99c058'
-keywords: ["EM_SELECTIONTYPE message Windows Controls"]
+ms.assetid: a4200e32-1056-47bd-be47-5fabaf99c058
+keywords:
+- EM_SELECTIONTYPE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SELECTIONTYPE message
@@ -52,7 +58,7 @@ If the selection is not empty, the return value is a set of flags containing one
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,8 +70,8 @@ This message is useful during [**WM\_SIZE**](https://msdn.microsoft.com/library/
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -77,9 +83,9 @@ This message is useful during [**WM\_SIZE**](https://msdn.microsoft.com/library/
 [**WM\_SIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632646)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

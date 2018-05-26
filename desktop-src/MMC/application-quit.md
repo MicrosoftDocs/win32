@@ -1,14 +1,19 @@
 ---
-title: \_Application Quit method
+title: '\_Application Quit method'
 description: The Quit method causes the MMC application to quit.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '59eaaa60-457b-4f5a-84c7-2c704850749e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 59eaaa60-457b-4f5a-84c7-2c704850749e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Quit method MMC", "Quit method MMC , Application object", "Application object MMC , Quit method", "Quit method MMC , _Application interface", "_Application interface MMC , Quit method"]
+keywords:
+- Quit method MMC
+- Quit method MMC , Application object
+- Application object MMC , Quit method
+- Quit method MMC , _Application interface
+- _Application interface MMC , Quit method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_Application::Quit method
@@ -59,8 +67,8 @@ Set objMMC = Nothing
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -76,9 +84,9 @@ Set objMMC = Nothing
 [**Application.OnQuit**](application-onquit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

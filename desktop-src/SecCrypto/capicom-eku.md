@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the extended key usage names based on where they can be used.'
-ms.assetid: '78f9f9cb-46e7-4f81-a16e-503750a0d743'
-title: 'CAPICOM\_EKU enumeration'
+---
+Description: Defines the extended key usage names based on where they can be used.
+ms.assetid: 78f9f9cb-46e7-4f81-a16e-503750a0d743
+title: CAPICOM\_EKU enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_EKU enumeration

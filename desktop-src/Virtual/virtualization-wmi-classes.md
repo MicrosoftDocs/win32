@@ -1,8 +1,14 @@
 ---
 title: Hyper-V WMI Classes
 description: The following are the Hyper-V WMI classes.
-ms.assetid: '5b7fd9d7-756d-4c98-a164-970990b6118a'
-keywords: ["Hyper-V Hyper-V , WMI classes"]
+ms.assetid: 5b7fd9d7-756d-4c98-a164-970990b6118a
+keywords:
+- Hyper-V Hyper-V , WMI classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hyper-V WMI Classes
@@ -33,11 +39,11 @@ The following are the Hyper-V WMI classes.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

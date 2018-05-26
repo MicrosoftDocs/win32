@@ -1,7 +1,12 @@
 ---
-Description: 'The ExpertIndicateStatus function indicates the percentage of completion of the expert's analysis of the capture file.'
-ms.assetid: '6dbaa6d3-6068-4a28-9d9f-bcc7a25da407'
+Description: The ExpertIndicateStatus function indicates the percentage of completion of the experts analysis of the capture file.
+ms.assetid: 6dbaa6d3-6068-4a28-9d9f-bcc7a25da407
 title: ExpertIndicateStatus function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExpertIndicateStatus function
@@ -13,11 +18,11 @@ The **ExpertIndicateStatus** function indicates the percentage of completion of 
 
 ```C++
 DWORD WINAPI ExpertIndicateStatus(
-  _In_  HEXPERTKEY              hExpertKey,
-  _In_  EXPERTSTATUSENUMERATION Status,
-  _In_  DWORD                   SubStatus,
-  _In_  char                    *sztext,
-  _Out_ long                    PercentDone
+  _In_  HEXPERTKEY              hExpertKey,
+  _In_  EXPERTSTATUSENUMERATION Status,
+  _In_  DWORD                   SubStatus,
+  _In_  char                    *sztext,
+  _Out_ long                    PercentDone
 );
 ```
 
@@ -52,7 +57,7 @@ Current status of the analysis. Specify one of the following [EXPERTSTATUSENUMER
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -97,17 +102,17 @@ The **ExpertIndicateStatus** function can only be called by experts that impleme
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

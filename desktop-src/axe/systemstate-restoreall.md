@@ -1,8 +1,11 @@
 ---
 title: SystemState RestoreAll method
 description: Restores all system settings originally modified through SetBoolean back to their original values.
-ms.assetid: 'BC630F4B-DFC9-4AF8-B412-AC6FF947037F'
-keywords: ["RestoreAll method Access Execution Engine", "RestoreAll method Access Execution Engine , SystemState interface", "SystemState interface Access Execution Engine , RestoreAll method"]
+ms.assetid: BC630F4B-DFC9-4AF8-B412-AC6FF947037F
+keywords:
+- RestoreAll method Access Execution Engine
+- RestoreAll method Access Execution Engine , SystemState interface
+- SystemState interface Access Execution Engine , RestoreAll method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemState::RestoreAll method
@@ -46,8 +54,8 @@ Managed code uses [**SystemState.RestoreAll**](axe-systemstate_restoreall_om) me
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -60,9 +68,9 @@ Managed code uses [**SystemState.RestoreAll**](axe-systemstate_restoreall_om) me
 [**SystemState**](systemstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

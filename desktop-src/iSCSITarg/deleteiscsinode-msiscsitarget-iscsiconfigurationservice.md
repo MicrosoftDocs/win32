@@ -4,13 +4,16 @@ description: Deletes an instance of CIM\_SCSIProtocolController that represents 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'aca45716-2040-42a7-b6d6-06c2c6bb10ec'
-ms.prod: 'windows-server-dev'
+ms.assetid: aca45716-2040-42a7-b6d6-06c2c6bb10ec
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DeleteiSCSINode method iSCSI Software Target API", "DeleteiSCSINode method iSCSI Software Target API , MSISCSITARGET_iSCSIConfigurationService class", "MSISCSITARGET_iSCSIConfigurationService class iSCSI Software Target API , DeleteiSCSINode method"]
+keywords:
+- DeleteiSCSINode method iSCSI Software Target API
+- DeleteiSCSINode method iSCSI Software Target API , MSISCSITARGET_iSCSIConfigurationService class
+- MSISCSITARGET_iSCSIConfigurationService class iSCSI Software Target API , DeleteiSCSINode method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeleteiSCSINode method of the MSISCSITARGET\_iSCSIConfigurationService class
@@ -32,7 +38,7 @@ This method overrides the method that is inherited from the **CIM\_iSCSIConfigur
 
 ```mof
 uint32 DeleteiSCSINode(
-  [in] CIM_SCSIProtocolController REF iSCSINode
+  [in] CIM_SCSIProtocolController REF iSCSINode
 );
 ```
 
@@ -73,7 +79,7 @@ This method returns one of the following values.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **SCSIProtocolController Non-Existent** (4096)
@@ -82,10 +88,10 @@ This method returns one of the following values.
 **Sessions Active on Node Ports** (4097)
 </dt> <dt>
 
-**Method Reserved** (4098–32767)
+**Method Reserved** (4098 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -95,7 +101,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -109,9 +115,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_iSCSIConfigurationService**](msiscsitarget-iscsiconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

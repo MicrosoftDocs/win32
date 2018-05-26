@@ -1,7 +1,12 @@
 ---
 title: Size Attribute (Fill)(VML)
 description: Size Attribute (Fill)(VML)
-ms.assetid: 'a84d2d81-0f6f-4011-867d-516225a314aa'
+ms.assetid: a84d2d81-0f6f-4011-867d-516225a314aa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Size Attribute (Fill)(VML)

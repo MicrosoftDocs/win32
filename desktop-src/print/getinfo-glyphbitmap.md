@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GETINFO\_GLYPHBITMAP structure is used as input to the UNIFONTOBJ\_GetInfo callback function.'
-ms.assetid: '6a5887fd-0269-4cd1-acf1-f7242016d993'
-title: 'GETINFO\_GLYPHBITMAP structure'
+---
+Description: The GETINFO\_GLYPHBITMAP structure is used as input to the UNIFONTOBJ\_GetInfo callback function.
+ms.assetid: 6a5887fd-0269-4cd1-acf1-f7242016d993
+title: GETINFO\_GLYPHBITMAP structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GETINFO\_GLYPHBITMAP structure

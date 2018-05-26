@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Disconnect method terminates a fax client application''s connection to a fax server. The method fails if the client is not connected to an active fax server.'
-ms.assetid: 'b56d60b7-e483-48e6-a7fc-1edc119d9e54'
-title: 'FaxServer.Disconnect method'
+---
+Description: The Disconnect method terminates a fax client applications connection to a fax server. The method fails if the client is not connected to an active fax server.
+ms.assetid: b56d60b7-e483-48e6-a7fc-1edc119d9e54
+title: FaxServer.Disconnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.Disconnect method
@@ -41,7 +46,7 @@ This method has no parameters.
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

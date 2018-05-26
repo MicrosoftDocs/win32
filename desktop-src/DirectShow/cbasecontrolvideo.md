@@ -1,14 +1,19 @@
 ---
-Description: 'The CBaseControlVideo class implements the IBasicVideo interface and controls the video properties of a generic video window. Generally, a CBaseControlVideo object is a video renderer that draws video into a window on the display.'
-ms.assetid: '16fc1b0a-e5b5-4f33-ac2b-5acff61bab81'
+Description: The CBaseControlVideo class implements the IBasicVideo interface and controls the video properties of a generic video window. Generally, a CBaseControlVideo object is a video renderer that draws video into a window on the display.
+ms.assetid: 16fc1b0a-e5b5-4f33-ac2b-5acff61bab81
 title: CBaseControlVideo class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo class
 
 ![cbasecontrolvideo class hierarchy](images/wctrl02.png)
 
-The **CBaseControlVideo** class implements the [**IBasicVideo**](ibasicvideo.md) interface and controls the video properties of a generic video window. Generally, a **CBaseControlVideo** object is a video renderer that draws video into a window on the display.
+The **CBaseControlVideo** class implements the [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master) interface and controls the video properties of a generic video window. Generally, a **CBaseControlVideo** object is a video renderer that draws video into a window on the display.
 
 Many **CBaseControlVideo** member functions require only that the video renderer be connected to a filter graph. If it is not connected, member functions will return **VFW\_E\_NOT\_CONNECTED**. Properties set on a video renderer persist between successive connections and disconnections. All applications should ensure that they reset the renderer properties before starting a presentation.
 
@@ -32,7 +37,7 @@ When working with video, the application can select a portion of the video to us
 | [**GetSourceRect**](cbasecontrolvideo-getsourcerect.md)                                 | Retrieves the current source video rectangle (pure virtual).                                    |
 | [**GetStaticImage**](cbasecontrolvideo-getstaticimage.md)                               | Returns the current image in a memory buffer (pure virtual).                                    |
 | [**GetTargetRect**](cbasecontrolvideo-gettargetrect.md)                                 | Retrieves the current target video rectangle (pure virtual).                                    |
-| [**GetVideoFormat**](cbasecontrolvideo-getvideoformat.md)                               | Retrieves the [**VIDEOINFOHEADER**](videoinfoheader.md) structure containing the video format. |
+| [**GetVideoFormat**](cbasecontrolvideo-getvideoformat.md)                               | Retrieves the [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure containing the video format. |
 | [**IsDefaultSourceRect**](cbasecontrolvideo-isdefaultsourcerect.md)                     | Determines if the renderer is using the default source rectangle (pure virtual).                |
 | [**IsDefaultTargetRect**](cbasecontrolvideo-isdefaulttargetrect.md)                     | Determines if the renderer is using the default target rectangle (pure virtual).                |
 | [**OnUpdateRectangles**](cbasecontrolvideo-onupdaterectangles.md)                       | Called when the source or target rectangle changes.                                             |

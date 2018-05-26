@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxDoc object permits a Microsoft Visual Basic fax client application to transmit fax documents and cover pages, and to retrieve and set information about fax transmissions.'
-ms.assetid: '6bf5be89-efc8-41e7-bde9-0c0ba7f0e61c'
+---
+Description: The FaxDoc object permits a Microsoft Visual Basic fax client application to transmit fax documents and cover pages, and to retrieve and set information about fax transmissions.
+ms.assetid: 6bf5be89-efc8-41e7-bde9-0c0ba7f0e61c
 title: FaxDoc object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc object

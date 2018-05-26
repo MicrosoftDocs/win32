@@ -1,7 +1,12 @@
 ---
-Description: 'One of the most common uses of strings in a public key infrastructure (PKI) is to create an X.500 Distinguished Name.'
-ms.assetid: '01e8749b-a040-4267-bc12-f58f2c300337'
+Description: One of the most common uses of strings in a public key infrastructure (PKI) is to create an X.500 Distinguished Name.
+ms.assetid: 01e8749b-a040-4267-bc12-f58f2c300337
 title: String Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # String Types

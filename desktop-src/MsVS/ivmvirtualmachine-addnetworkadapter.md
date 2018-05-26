@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine AddNetworkAdapter method
 description: The AddNetworkAdapter method adds a network interface to the virtual machine.
-ms.assetid: '4bf423e2-172b-43fc-bbf5-dae132ae670b'
-keywords: ["AddNetworkAdapter method Virtual Server", "AddNetworkAdapter method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , AddNetworkAdapter method"]
+ms.assetid: 4bf423e2-172b-43fc-bbf5-dae132ae670b
+keywords:
+- AddNetworkAdapter method Virtual Server
+- AddNetworkAdapter method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , AddNetworkAdapter method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::AddNetworkAdapter method
@@ -22,7 +30,7 @@ The **AddNetworkAdapter** method adds a network interface to the virtual machine
 
 ```C++
 HRESULT AddNetworkAdapter(
-  [out] IVMNetworkAdapter **networkAdapter
+  [out] IVMNetworkAdapter **networkAdapter
 );
 ```
 
@@ -55,7 +63,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,8 +75,8 @@ You can only add a new network interface to a stopped virtual machine. The newly
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -80,9 +88,9 @@ You can only add a new network interface to a stopped virtual machine. The newly
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

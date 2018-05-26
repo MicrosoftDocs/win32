@@ -1,7 +1,12 @@
 ---
-Description: 'An optional entry point into a dynamic-link library (DLL). When the system starts or terminates a process or thread, it calls the entry-point function for each loaded DLL using the first thread of the process.'
-ms.assetid: '0c3e3083-9297-4626-b2a7-0062d1c2cf9e'
+Description: An optional entry point into a dynamic-link library (DLL). When the system starts or terminates a process or thread, it calls the entry-point function for each loaded DLL using the first thread of the process.
+ms.assetid: 0c3e3083-9297-4626-b2a7-0062d1c2cf9e
 title: DllMain entry point
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DllMain entry point
@@ -11,16 +16,16 @@ An optional entry point into a dynamic-link library (DLL). When the system start
 > \[!Warning\]  
 > There are significant limits on what you can safely do in a DLL entry point. See [General Best Practices](dynamic-link-library-best-practices.md#general-best-practices) for specific Windows APIs that are unsafe to call in DllMain. If you need anything but the simplest initialization then do that in an initialization function for the DLL. You can require applications to call the initialization function after DllMain has run and before they call any other functions in the DLL.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 BOOL WINAPI DllMain(
-  _In_ HINSTANCE hinstDLL,
-  _In_ DWORD     fdwReason,
-  _In_ LPVOID    lpvReserved
+  _In_ HINSTANCE hinstDLL,
+  _In_ DWORD     fdwReason,
+  _In_ LPVOID    lpvReserved
 );
 ```
 
@@ -53,7 +58,7 @@ The reason code that indicates why the DLL entry-point function is being called.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -91,7 +96,7 @@ When handling **DLL\_PROCESS\_DETACH**, a DLL should free resources such as heap
 
 If you terminate a process by calling [**TerminateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms686714) or [**TerminateJobObject**](https://msdn.microsoft.com/library/windows/desktop/ms686709), the DLLs of that process do not receive **DLL\_PROCESS\_DETACH** notifications. If you terminate a thread by calling [**TerminateThread**](https://msdn.microsoft.com/library/windows/desktop/ms686717), the DLLs of that thread do not receive **DLL\_THREAD\_DETACH** notifications.
 
-The entry-point function should perform only simple initialization or termination tasks. It must not call the [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](loadlibraryex.md) function (or a function that calls these functions), because this may create dependency loops in the DLL load order. This can result in a DLL being used before the system has executed its initialization code. Similarly, the entry-point function must not call the [**FreeLibrary**](freelibrary.md) function (or a function that calls **FreeLibrary**) during process termination, because this can result in a DLL being used after the system has executed its termination code.
+The entry-point function should perform only simple initialization or termination tasks. It must not call the [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master) function (or a function that calls these functions), because this may create dependency loops in the DLL load order. This can result in a DLL being used before the system has executed its initialization code. Similarly, the entry-point function must not call the [**FreeLibrary**](freelibrary.md) function (or a function that calls **FreeLibrary**) during process termination, because this can result in a DLL being used after the system has executed its termination code.
 
 Because Kernel32.dll is guaranteed to be loaded in the process address space when the entry-point function is called, calling functions in Kernel32.dll does not result in the DLL being used before its initialization code has been executed. Therefore, the entry-point function can call functions in Kernel32.dll that do not load other DLLs. For example, *DllMain* can create [synchronization objects](https://msdn.microsoft.com/library/windows/desktop/ms686364) such as critical sections and mutexes, and use TLS. Unfortunately, there is not a comprehensive list of safe functions in Kernel32.dll.
 
@@ -113,8 +118,8 @@ For an example, see [Dynamic-Link Library Entry-Point Function](dynamic-link-lib
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Process.h</dt> </dl> |
 
 
@@ -144,9 +149,9 @@ For an example, see [Dynamic-Link Library Entry-Point Function](dynamic-link-lib
 [**TlsFree**](https://msdn.microsoft.com/library/windows/desktop/ms686804)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A read-only aggregation of tag-like properties for use in building views.'
-ms.assetid: '45637ce4-43bf-4921-b50f-80e6c2bfc18b'
-title: 'System.Photo.TagViewAggregate'
+Description: A read-only aggregation of tag-like properties for use in building views.
+ms.assetid: 45637ce4-43bf-4921-b50f-80e6c2bfc18b
+title: System.Photo.TagViewAggregate
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.TagViewAggregate

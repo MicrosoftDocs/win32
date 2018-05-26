@@ -1,16 +1,21 @@
 ---
 Description: Samples and Allocators
-ms.assetid: 'd6283bf0-0460-4519-9a56-fd4c78cfaabc'
+ms.assetid: d6283bf0-0460-4519-9a56-fd4c78cfaabc
 title: Samples and Allocators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Samples and Allocators
 
-When a pin delivers media data to another pin, it does not pass a direct pointer to the memory buffer. Instead, it delivers a pointer to a COM object that manages the memory. This object, called a *media sample*, exposes the [**IMediaSample**](imediasample.md) interface. The receiving pin accesses the memory buffer by calling **IMediaSample** methods, such as [**IMediaSample::GetPointer**](imediasample-getpointer.md), [**IMediaSample::GetSize**](imediasample-getsize.md), and [**IMediaSample::GetActualDataLength**](imediasample-getactualdatalength.md).
+When a pin delivers media data to another pin, it does not pass a direct pointer to the memory buffer. Instead, it delivers a pointer to a COM object that manages the memory. This object, called a *media sample*, exposes the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface. The receiving pin accesses the memory buffer by calling **IMediaSample** methods, such as [**IMediaSample::GetPointer**](/windows/win32/Strmif/nf-strmif-imediasample-getpointer?branch=master), [**IMediaSample::GetSize**](/windows/win32/Strmif/nf-strmif-imediasample-getsize?branch=master), and [**IMediaSample::GetActualDataLength**](/windows/win32/Dshow/nf-strmif-imediasample-getactualdatalength?branch=master).
 
-Samples always travel downstream, from output pin to input pin. In the push model, the output pin delivers a sample by calling [**IMemInputPin::Receive**](imeminputpin-receive.md) on the input pin. The input pin will either process the data synchronously (that is, completely inside the **Receive** method), or process it asynchronously on a worker thread. The input pin is allowed to block within the **Receive** method, if it needs to wait for resources.
+Samples always travel downstream, from output pin to input pin. In the push model, the output pin delivers a sample by calling [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) on the input pin. The input pin will either process the data synchronously (that is, completely inside the **Receive** method), or process it asynchronously on a worker thread. The input pin is allowed to block within the **Receive** method, if it needs to wait for resources.
 
-Another COM object, called an *allocator*, is responsible for creating and managing media samples. Allocators expose the [**IMemAllocator**](imemallocator.md) interface. Whenever a filter needs a media sample with an empty buffer, it calls the [**IMemAllocator::GetBuffer**](imemallocator-getbuffer.md) method, which returns a pointer to the sample. Every pin connection shares one allocator. When two pins connect, they decide which filter will provide the allocator. The pins also set properties on the allocator, such as the number of buffers and the size of each buffer. (For details, see [How Filters Connect](how-filters-connect.md) and [Negotiating Allocators](negotiating-allocators.md).)
+Another COM object, called an *allocator*, is responsible for creating and managing media samples. Allocators expose the [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface. Whenever a filter needs a media sample with an empty buffer, it calls the [**IMemAllocator::GetBuffer**](/windows/win32/Strmif/nf-strmif-imemallocator-getbuffer?branch=master) method, which returns a pointer to the sample. Every pin connection shares one allocator. When two pins connect, they decide which filter will provide the allocator. The pins also set properties on the allocator, such as the number of buffers and the size of each buffer. (For details, see [How Filters Connect](how-filters-connect.md) and [Negotiating Allocators](negotiating-allocators.md).)
 
 The following illustration shows the relationships among the allocator, the media samples, and the filter.
 
@@ -30,9 +35,9 @@ A filter can use separate allocators for input and output. It might do this if i
 
 **Committing and Decommitting Allocators**
 
-When a filter first creates an allocator, the allocator has not reserved any memory buffers. At this point, any calls to the **GetBuffer** method will fail. When streaming starts, the output pin calls [**IMemAllocator::Commit**](imemallocator-commit.md), which commits the allocator, causing it to allocate memory. Pins can now call **GetBuffer**.
+When a filter first creates an allocator, the allocator has not reserved any memory buffers. At this point, any calls to the **GetBuffer** method will fail. When streaming starts, the output pin calls [**IMemAllocator::Commit**](/windows/win32/Strmif/nf-strmif-imemallocator-commit?branch=master), which commits the allocator, causing it to allocate memory. Pins can now call **GetBuffer**.
 
-When streaming stops, the pin calls [**IMemAllocator::Decommit**](imemallocator-decommit.md), which decommits the allocator. All subsequent calls to **GetBuffer** fail until the allocator is committed again. Also, if any calls to **GetBuffer** are currently blocked waiting for a sample, they immediately return a failure code. The **Decommit** method may or may not free the memory, depending on the implementation. For example, the [**CMemAllocator**](cmemallocator.md) class waits until its destructor method to free memory.
+When streaming stops, the pin calls [**IMemAllocator::Decommit**](/windows/win32/Strmif/nf-strmif-imemallocator-decommit?branch=master), which decommits the allocator. All subsequent calls to **GetBuffer** fail until the allocator is committed again. Also, if any calls to **GetBuffer** are currently blocked waiting for a sample, they immediately return a failure code. The **Decommit** method may or may not free the memory, depending on the implementation. For example, the [**CMemAllocator**](cmemallocator.md) class waits until its destructor method to free memory.
 
 ## Related topics
 

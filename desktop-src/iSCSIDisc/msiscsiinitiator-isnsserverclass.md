@@ -1,7 +1,12 @@
-﻿---
-Description: 'This MSIscsiInitiator\_IsnsServerClass class retrieves and contains information about the iSNS server, which is used to discover targets on a network.'
-ms.assetid: 'd22afb5d-0c48-48b9-97d9-ee2871c9c4e0'
-title: 'MSIscsiInitiator\_IsnsServerClass class'
+---
+Description: This MSIscsiInitiator\_IsnsServerClass class retrieves and contains information about the iSNS server, which is used to discover targets on a network.
+ms.assetid: d22afb5d-0c48-48b9-97d9-ee2871c9c4e0
+title: MSIscsiInitiator\_IsnsServerClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_IsnsServerClass class

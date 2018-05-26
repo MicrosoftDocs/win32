@@ -4,13 +4,16 @@ description: Removes a managed element from a CIM\_CollectionOfMSEs object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ce12a27d-9ac4-4622-8812-9b9b2a0bb875'
-ms.prod: 'windows-server-dev'
+ms.assetid: ce12a27d-9ac4-4622-8812-9b9b2a0bb875
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveMember method", "RemoveMember method, Msvm_CollectionManagementService class", "Msvm_CollectionManagementService class, RemoveMember method"]
+keywords:
+- RemoveMember method
+- RemoveMember method, Msvm_CollectionManagementService class
+- Msvm_CollectionManagementService class, RemoveMember method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveMember method of the Msvm\_CollectionManagementService class
@@ -30,9 +36,9 @@ Removes a managed element from a [**CIM\_CollectionOfMSEs**](cim-collectionofmse
 
 ```mof
 uint32 RemoveMember(
-  [in]  CIM_ManagedElement   REF Member,
-  [in]  CIM_CollectionOfMSEs REF Collection,
-  [out] CIM_ConcreteJob      REF Job
+  [in]  CIM_ManagedElement   REF Member,
+  [in]  CIM_CollectionOfMSEs REF Collection,
+  [out] CIM_ConcreteJob      REF Job
 );
 ```
 
@@ -118,7 +124,7 @@ The possible returns values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -132,9 +138,9 @@ The possible returns values are:
 [**Msvm\_CollectionManagementService**](msvm-collectionmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

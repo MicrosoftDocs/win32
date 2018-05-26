@@ -1,14 +1,22 @@
 ---
 title: Device.Services property
 description: The Services property provides read-only access to a collection of all the services on the device.
-ms.assetid: 'cee13298-19f0-466b-8948-9b69c7128072'
-keywords: ["Services property WPD Automation", "Services property WPD Automation , Device object", "Device object WPD Automation , Services property"]
+ms.assetid: cee13298-19f0-466b-8948-9b69c7128072
+keywords:
+- Services property WPD Automation
+- Services property WPD Automation , Device object
+- Device object WPD Automation , Services property
 topic_type:
 - apiref
 api_name:
 - Device.Services
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device.Services property
@@ -115,8 +123,8 @@ var serviceByObjectId = deviceObject.Services[serviceObjectId];
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -133,9 +141,9 @@ var serviceByObjectId = deviceObject.Services[serviceObjectId];
 [**servicesCollection Object**](servicescollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

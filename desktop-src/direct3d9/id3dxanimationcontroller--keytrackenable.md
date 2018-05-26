@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an event key that enables or disables an animation track.'
-ms.assetid: 'de81e646-0b94-40d3-89c2-060d118d17b2'
-title: 'ID3DXAnimationController::KeyTrackEnable method'
+---
+Description: Sets an event key that enables or disables an animation track.
+ms.assetid: de81e646-0b94-40d3-89c2-060d118d17b2
+title: ID3DXAnimationControllerKeyTrackEnable method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::KeyTrackEnable method

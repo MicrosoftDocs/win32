@@ -1,19 +1,24 @@
 ---
-Description: 'Occurs when the size of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.'
-ms.assetid: '7fe0249c-c43d-498b-9029-cf5969201d96'
-title: 'InkOverlay.SelectionResizing event'
+Description: Occurs when the size of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
+ms.assetid: 7fe0249c-c43d-498b-9029-cf5969201d96
+title: InkOverlay.SelectionResizing event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkOverlay.SelectionResizing event
 
-Occurs when the size of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](inkoverlay-selection.md) property.
+Occurs when the size of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](/windows/win32/msinkaut/?branch=master) property.
 
 ## Syntax
 
 
 ```C++
 void SelectionResizing(
-  [in] IInkRectangle *CurSelectionRect
+  [in] IInkRectangle *CurSelectionRect
 );
 ```
 
@@ -31,7 +36,7 @@ The bounding rectangle of the selection after the **SelectionResizing** event.
 > [!Note]  
 > This rectangle is specified in client window coordinates, which allows for scenarios such as maintaining the aspect ratio when resizing.
 
- 
+ 
 
 </dd> </dl>
 
@@ -49,7 +54,7 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -60,18 +65,18 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 <dl> <dt>
 
-[**InkOverlay Class**](inkoverlay-class.md)
+[**InkOverlay Class**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
-[**Selection Property**](inkoverlay-selection.md)
+[**Selection Property**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
-[**InkRectangle Class**](inkrectangle-class.md)
+[**InkRectangle Class**](/windows/win32/msinkaut/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

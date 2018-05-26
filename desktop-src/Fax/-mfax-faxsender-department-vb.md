@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Department property is a null-terminated string that contains the department associated with the sender.'
-ms.assetid: '5c3c2407-fcd8-45d9-9024-d90df26758f2'
-title: 'FaxSender.Department property'
+---
+Description: The Department property is a null-terminated string that contains the department associated with the sender.
+ms.assetid: 5c3c2407-fcd8-45d9-9024-d90df26758f2
+title: FaxSender.Department property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSender.Department property
@@ -46,7 +51,7 @@ A **String** that specifies or receives the name or identifier of the department
 [**FaxSender**](-mfax-faxsender.md)
 </dt> <dt>
 
-[**IFaxSender**](-mfax-faxsender-cpp.md)
+[**IFaxSender**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsender?branch=master)
 </dt> </dl>
 
  

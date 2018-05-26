@@ -4,13 +4,16 @@ description: Opens a session to enumerate class instances of this registered pro
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0435aa56-89a7-496b-b16e-9fda776a26d9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0435aa56-89a7-496b-b16e-9fda776a26d9
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["OpenConformantInstances method iSCSI Software Target API", "OpenConformantInstances method iSCSI Software Target API , MSFTSM_RegisteredSubProfile class", "MSFTSM_RegisteredSubProfile class iSCSI Software Target API , OpenConformantInstances method"]
+keywords:
+- OpenConformantInstances method iSCSI Software Target API
+- OpenConformantInstances method iSCSI Software Target API , MSFTSM_RegisteredSubProfile class
+- MSFTSM_RegisteredSubProfile class iSCSI Software Target API , OpenConformantInstances method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OpenConformantInstances method of the MSFTSM\_RegisteredSubProfile class
@@ -32,15 +38,15 @@ This method is inherited from the **CIM\_RegisteredSubProfile** class.
 
 ```mof
 uint32 OpenConformantInstances(
-  [in]  string  ResultClass,
-  [in]  string  IncludedPropertyList[],
-  [in]  uint32  OperationTimeout,
-  [in]  boolean ContinueOnError,
-  [in]  uint32  MaxObjectCount,
-  [out] string  EnumerationContext,
-  [out] boolean EndOfSequence,
-  [out] uint16  InstanceType[],
-  [out] string  InstanceWithPathList[]
+  [in]  string  ResultClass,
+  [in]  string  IncludedPropertyList[],
+  [in]  uint32  OperationTimeout,
+  [in]  boolean ContinueOnError,
+  [in]  uint32  MaxObjectCount,
+  [out] string  EnumerationContext,
+  [out] boolean EndOfSequence,
+  [out] uint16  InstanceType[],
+  [out] string  InstanceWithPathList[]
 );
 ```
 
@@ -83,7 +89,7 @@ If set to **True**, and the implementation supports continuation on error, the e
 > [!Note]  
 > For more information about continuation on error, see the DSP0223 standard on the [DMTF](http://dmtf.org/standards/wbem) website at http://dmtf.org/standards/wbem.
 
- 
+ 
 
 If set to **True**, and the implementation does not support continuation on error, this method returns a failure code of **CIM\_ERR\_CONTINUATION\_ON\_ERROR\_NOT\_SUPPORTED**, and the session is closed.
 
@@ -169,7 +175,7 @@ Returns zero on success; otherwise returns an error.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\Interop<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -183,9 +189,9 @@ Returns zero on success; otherwise returns an error.
 [**MSFTSM\_RegisteredSubProfile**](msftsm-registeredsubprofile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

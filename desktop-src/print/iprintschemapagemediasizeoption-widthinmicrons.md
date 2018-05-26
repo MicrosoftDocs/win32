@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the width of the page in microns.'
-ms.assetid: 'D44C8782-DA25-4189-AECA-B899A4AA9279'
-title: 'IPrintSchemaPageMediaSizeOption::WidthInMicrons property'
+---
+Description: Gets the width of the page in microns.
+ms.assetid: D44C8782-DA25-4189-AECA-B899A4AA9279
+title: IPrintSchemaPageMediaSizeOptionWidthInMicrons property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaPageMediaSizeOption::WidthInMicrons property

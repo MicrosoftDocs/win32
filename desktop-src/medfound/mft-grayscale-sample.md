@@ -1,7 +1,12 @@
 ---
-Description: 'Shows how to implement a video effect as a Media Foundation Transform (MFT).'
-ms.assetid: 'ad7d20bc-5eab-4390-a48b-5ea8e97ead7d'
-title: 'MFT\_Grayscale Sample'
+Description: Shows how to implement a video effect as a Media Foundation Transform (MFT).
+ms.assetid: ad7d20bc-5eab-4390-a48b-5ea8e97ead7d
+title: MFT\_Grayscale Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_Grayscale Sample
@@ -12,7 +17,7 @@ Shows how to implement a video effect as a Media Foundation Transform (MFT). The
 
 This sample demonstrates the following Microsoft Media Foundation interfaces:
 
--   [**IMFTransform**](imftransform.md)
+-   [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)
 
 ## Usage
 

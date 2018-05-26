@@ -1,7 +1,12 @@
 ---
 title: Texture Block Compression in Direct3D 11
 description: Block Compression (BC) support for textures has been extended in Direct3D 11 to include the BC6H and BC7 algorithms.
-ms.assetid: 'E0735D4E-9C0F-45DC-854A-C27EB8367D86'
+ms.assetid: E0735D4E-9C0F-45DC-854A-C27EB8367D86
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture Block Compression in Direct3D 11
@@ -28,7 +33,7 @@ For more specific information about block compression algorithm support prior to
 
 
 
- 
+ 
 
 \*"Half" floating point is a 16 bit value that consists of an optional sign bit, a 5 bit biased exponent, and a 10 or 11 bit mantissa.
 
@@ -46,7 +51,7 @@ The BC1, BC2, and BC3 formats are equivalent to the Direct3D 9 DXTn texture comp
 
 
 
- 
+ 
 
 \*These compression schemes (DXT2 and DXT4) make no distinction between the Direct3D 9 pre-multiplied alpha formats and the standard alpha formats. This distinction must be handled by the programmable shaders at render time.
 
@@ -61,7 +66,7 @@ The BC1, BC2, and BC3 formats are equivalent to the Direct3D 9 DXTn texture comp
 
 
 
- 
+ 
 
 ## BC6H Format
 
@@ -75,7 +80,7 @@ For more detailed information about this format, see the [BC6H Format](bc6h-form
 
 
 
- 
+ 
 
 The BC6H format can select different encoding modes for each 4x4 pixel block. A total of 14 different encoding modes are available, each with slightly different trade-offs in the resulting visual quality of the displayed texture. The choice of modes allows for fast decoding by the hardware with the quality level selected or adapted according to the source content, but it also greatly increases the complexity of the search space.
 
@@ -91,7 +96,7 @@ For more detailed information about this format, see the [BC7 Format](bc7-format
 
 
 
- 
+ 
 
 The BC7 format can select different encoding modes for each 4x4 pixel block. A total of 8 different encoding modes are available, each with slightly different trade-offs in the resulting visual quality of the displayed texture. The choice of modes allows for fast decoding by the hardware with the quality level selected or adapted according to the source content, but it also greatly increases the complexity of the search space.
 
@@ -107,7 +112,7 @@ The BC7 format can select different encoding modes for each 4x4 pixel block. A t
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -119,9 +124,9 @@ The BC7 format can select different encoding modes for each 4x4 pixel block. A t
 [Textures](overviews-direct3d-11-resources-textures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

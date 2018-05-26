@@ -4,11 +4,12 @@ description: Verifies that control codes are being processed on the node where e
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ec23ea78-8cd5-4366-a65d-98eb46c90362'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ec23ea78-8cd5-4366-a65d-98eb46c90362
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_TYPE_UNKNOWN control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_TYPE_UNKNOWN control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_TYPE\_UNKNOWN control code
 
-This [control code](about-control-codes.md) verifies that [control codes](about-control-codes.md) are being processed on the node where execution of the control is directed. Applications use this control code as a [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a [**ResourceTypeControl**](resourcetypecontrol.md) parameter.
+This [control code](about-control-codes.md) verifies that [control codes](about-control-codes.md) are being processed on the node where execution of the control is directed. Applications use this control code as a [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) parameter.
 
 
 ```C++
@@ -41,13 +45,13 @@ ClusterResourceTypeControl(
 
 ## Parameters
 
-For complete parameter descriptions, see [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) or [**ResourceTypeControl**](resourcetypecontrol.md). This control code has no parameters associated with it.
+For complete parameter descriptions, see [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) or [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master). This control code has no parameters associated with it.
 
 <dl></dl>
 
 ## Return value
 
-When an application uses CLUSCTL\_RESOURCE\_TYPE\_UNKNOWN as a parameter for [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md), **ClusterResourceTypeControl** always returns **ERROR\_SUCCESS**.
+When an application uses CLUSCTL\_RESOURCE\_TYPE\_UNKNOWN as a parameter for [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master), **ClusterResourceTypeControl** always returns **ERROR\_SUCCESS**.
 
 ## Remarks
 
@@ -57,23 +61,23 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_TYPE\_UNKNOWN as follows (fo
 
 | Component      | Bit location | Value                                             |
 |----------------|--------------|---------------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_RESOURCE\_TYPE** (0x2)<br/> |
+| Object code    | 24 31        | **CLUS\_OBJECT\_RESOURCE\_TYPE** (0x2)<br/> |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)<br/>            |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)<br/>             |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>         |
 | Type bit       | 20           | External (0x0)<br/>                         |
-| Operation code | 0–23         | **CLCTL\_UNKNOWN** (0x0)<br/>               |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)<br/>           |
+| Operation code | 0 23         | **CLCTL\_UNKNOWN** (0x0)<br/>               |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)<br/>           |
 
 
 
- 
+ 
 
 ### Resource DLL Support
 
 Conditional. If your DLL supports any other resource type control codes for the indicated resource type, return **ERROR\_SUCCESS**. Otherwise, return **ERROR\_INVALID\_FUNCTION**.
 
-For more information on the [**ResourceTypeControl**](resourcetypecontrol.md) entry point, see [Implementing ResourceTypeControl](implementing-resourcetypecontrol.md).
+For more information on the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) entry point, see [Implementing ResourceTypeControl](implementing-resourcetypecontrol.md).
 
 ## Requirements
 
@@ -82,7 +86,7 @@ For more information on the [**ResourceTypeControl**](resourcetypecontrol.md) en
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -94,15 +98,15 @@ For more information on the [**ResourceTypeControl**](resourcetypecontrol.md) en
 [External Resource Type Control Codes](external-resource-type-control-codes.md)
 </dt> <dt>
 
-[**ClusterResourceTypeControl**](clusterresourcetypecontrol.md)
+[**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master)
 </dt> <dt>
 
-[**ResourceTypeControl**](resourcetypecontrol.md)
+[**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

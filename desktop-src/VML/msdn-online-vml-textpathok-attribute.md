@@ -1,7 +1,12 @@
 ---
 title: VML TextPathOK Attribute
 description: VML TextPathOK Attribute
-ms.assetid: '5d061258-1c4d-4391-81ce-13af90a4231c'
+ms.assetid: 5d061258-1c4d-4391-81ce-13af90a4231c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML TextPathOK Attribute

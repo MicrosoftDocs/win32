@@ -1,8 +1,15 @@
 ---
 title: CIM\_ResourcePoolSettingData class
 description: TBD
-ms.assetid: 'd6d46688-313a-4df3-ac61-5f48f9e0ce05'
-keywords: ["CIM_ResourcePoolSettingData class Hyper-V", "CIM_ResourcePoolSettingData class Hyper-V , described"]
+ms.assetid: d6d46688-313a-4df3-ac61-5f48f9e0ce05
+keywords:
+- CIM_ResourcePoolSettingData class Hyper-V
+- CIM_ResourcePoolSettingData class Hyper-V , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ResourcePoolSettingData class
@@ -125,7 +132,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 > -   If the above pattern is not used, the defining entity must assure that the resultant **InstanceID** value is not re-used across any **InstanceID** properties that are produced by this provider or other providers for this namespace.
 > -   For DMTF defined instances, the pattern must be used with the *OrgID* set to "CIM".
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -138,9 +145,9 @@ This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -153,9 +160,9 @@ This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

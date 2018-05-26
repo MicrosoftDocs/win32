@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo ProcessorSpeedString property
 description: The ProcessorSpeedString property contains the speed, in megahertz, of the host processor.
-ms.assetid: 'ca9eee46-1062-44be-9fd3-ee2df58746f4'
-keywords: ["ProcessorSpeedString property Virtual Server", "ProcessorSpeedString property Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , ProcessorSpeedString property", "ProcessorSpeedString property Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , ProcessorSpeedString property"]
+ms.assetid: ca9eee46-1062-44be-9fd3-ee2df58746f4
+keywords:
+- ProcessorSpeedString property Virtual Server
+- ProcessorSpeedString property Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , ProcessorSpeedString property
+- ProcessorSpeedString property Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , ProcessorSpeedString property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::ProcessorSpeedString property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ProcessorSpeedString(
-  [out] BSTR *processorSpeedString
+  [out] BSTR *processorSpeedString
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

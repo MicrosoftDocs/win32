@@ -1,8 +1,25 @@
 ---
 title: Required Libraries and Headers for a Service Provider
 description: Required Libraries and Headers for a Service Provider
-ms.assetid: '13ef830d-c1cf-4e4c-8fbd-20b5c38b9208'
-keywords: ["Windows Media Device Manager,libraries", "Device Manager,libraries", "programming guide,libraries", "service providers,libraries", "creating service providers,libraries", "libraries", "Windows Media Device Manager,header files", "Device Manager,header files", "programming guide,header files", "service providers,header files", "creating service providers,header files", "header files"]
+ms.assetid: 13ef830d-c1cf-4e4c-8fbd-20b5c38b9208
+keywords:
+- Windows Media Device Manager,libraries
+- Device Manager,libraries
+- programming guide,libraries
+- service providers,libraries
+- creating service providers,libraries
+- libraries
+- Windows Media Device Manager,header files
+- Device Manager,header files
+- programming guide,header files
+- service providers,header files
+- creating service providers,header files
+- header files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Required Libraries and Headers for a Service Provider
@@ -20,16 +37,16 @@ Not all applications will require all files; read the description to learn if yo
 | mswmdm.h                         | WMDM.idl<br/> WMSP.idl<br/> icomponentauthenticate.idl<br/> | Required by all service providers. Defines all the service provider interfaces, structures, metadata, error codes, and other constants.                                                                                                                        |
 | sac.h                            | none                                                                          | Required by all service providers. Defines SAC protocols.                                                                                                                                                                                                      |
 | scserver.h                       | none                                                                          | Required by all service providers. Declares the [CSecureChannelServer](csecurechannelserver-class.md) class.                                                                                                                                                  |
-| wmdmlog.hwmdmlog\_i.c<br/> | Wmdmlog.idl                                                                   | Required by service providers that use the [**IWMDMLogger**](iwmdmlogger.md) interface.                                                                                                                                                                       |
+| wmdmlog.hwmdmlog\_i.c<br/> | Wmdmlog.idl                                                                   | Required by service providers that use the [**IWMDMLogger**](/windows/win32/wmdmlog/nn-wmdmlog-iwmdmlogger?branch=master) interface.                                                                                                                                                                       |
 | wmsdk.h                          | none (provided by Windows Media Format SDK)                                   | Required for service providers that use Windows Media Format SDK methods.                                                                                                                                                                                      |
 | wmvcore.lib                      | none                                                                          | Required by service providers that use Windows Media Format SDK objects or functions.                                                                                                                                                                          |
 | mmreg.h                          | none (Platform SDK header)                                                    | Required by service providers that reference various standard Windows Media format definitions, such as **WAVEFORMATEX**.                                                                                                                                      |
-| MtpExt.h                         | none                                                                          | Required for service providers that handle [**IMDSPDevice3::DeviceIoControl**](imdspdevice3-deviceiocontrol.md) on MTP devices. Defines various standard MTP constants and structures.                                                                        |
+| MtpExt.h                         | none                                                                          | Required for service providers that handle [**IMDSPDevice3::DeviceIoControl**](/windows/win32/mswmdm/nf-mswmdm-imdspdevice3-deviceiocontrol?branch=master) on MTP devices. Defines various standard MTP constants and structures.                                                                        |
 | Key.c                            | none                                                                          | Defines a key and certificate from Microsoft. The version shipped with the SDK includes a test dummy key that will allow the use of non-DRM protected Windows Media files.                                                                                     |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -38,9 +55,9 @@ Not all applications will require all files; read the description to learn if yo
 [**Creating a Service Provider**](creating-a-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: StartBoundary (triggerBaseType) Element
 description: Specifies the date and time when the trigger is activated.
-ms.assetid: '95a62ae5-4eba-49df-a25f-0d1181772833'
-keywords: ["StartBoundary element Task Scheduler"]
+ms.assetid: 95a62ae5-4eba-49df-a25f-0d1181772833
+keywords:
+- StartBoundary element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - StartBoundary
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StartBoundary (triggerBaseType) Element
@@ -45,7 +51,7 @@ The **&lt;StartBoundary&gt;** element is a required element for time and calenda
 
 For scripting development, the end boundary is specified using the [**Trigger.StartBoundary**](trigger-startboundary.md) property that is inherited by the all trigger objects.
 
-For C++ development, the end boundary is specified using the [**ITrigger::StartBoundary**](itrigger-startboundary.md) property that is inherited by the all trigger interfaces.
+For C++ development, the end boundary is specified using the [**ITrigger::StartBoundary**](/windows/win32/taskschd/nf-taskschd-itrigger-get_startboundary?branch=master) property that is inherited by the all trigger interfaces.
 
 ## Examples
 
@@ -71,8 +77,8 @@ The following XML defines a boot trigger element that defines a start boundary o
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -86,9 +92,9 @@ The following XML defines a boot trigger element that defines a start boundary o
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

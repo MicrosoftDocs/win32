@@ -1,6 +1,11 @@
 ---
-ms.assetid: '0BD57F02-D682-44AC-9C20-744E04AD19E2'
+ms.assetid: 0BD57F02-D682-44AC-9C20-744E04AD19E2
 title: Miscellaneous Print reference constructs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Miscellaneous Print reference constructs

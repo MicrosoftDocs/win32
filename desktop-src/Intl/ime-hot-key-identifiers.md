@@ -1,12 +1,17 @@
 ---
-Description: 'These identifiers are used with the ImmSimulateHotKey function.'
-ms.assetid: 'a262ef4e-d8ab-4eb6-88c6-023b90850cc6'
+Description: These identifiers are used with the ImmSimulateHotKey function.
+ms.assetid: a262ef4e-d8ab-4eb6-88c6-023b90850cc6
 title: IME Hot Key Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IME Hot Key Identifiers
 
-These identifiers are used with the [**ImmSimulateHotKey**](immsimulatehotkey.md) function.
+These identifiers are used with the [**ImmSimulateHotKey**](/windows/win32/Imm/nf-imm-immsimulatehotkey?branch=master) function.
 
 
 

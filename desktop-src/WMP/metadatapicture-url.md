@@ -1,8 +1,9 @@
 ---
 title: MetadataPicture.URL
 description: This property is for internal use only.
-ms.assetid: '76ce4726-6655-4a78-91db-4bc176f702a8'
-keywords: ["MetadataPicture.URL Windows Media Player"]
+ms.assetid: 76ce4726-6655-4a78-91db-4bc176f702a8
+keywords:
+- MetadataPicture.URL Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetadataPicture.URL
@@ -43,9 +49,9 @@ This property is a read-only **String**.
 [**MetadataPicture Object**](metadatapicture-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

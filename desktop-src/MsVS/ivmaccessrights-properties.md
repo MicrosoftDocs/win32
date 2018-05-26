@@ -1,7 +1,12 @@
 ---
 title: IVMAccessRights Properties
 description: The IVMAccessRights interface defines the following properties
-ms.assetid: '08faa2cb-1872-4e63-a4a0-9a257f4add55'
+ms.assetid: 08faa2cb-1872-4e63-a4a0-9a257f4add55
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccessRights Properties

@@ -1,8 +1,9 @@
 ---
 title: WcsEnumColorProfiles function
 description: Enumerates all color profiles that satisfy the enumeration criteria in the specified profile management scope.
-ms.assetid: '45d670ae-a2f1-4281-bcd8-0663ee3e7fe4'
-keywords: ["WcsEnumColorProfiles function Windows Color System"]
+ms.assetid: 45d670ae-a2f1-4281-bcd8-0663ee3e7fe4
+keywords:
+- WcsEnumColorProfiles function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsEnumColorProfiles function
@@ -24,11 +30,11 @@ Enumerates all color profiles that satisfy the enumeration criteria in the speci
 
 ```C++
 BOOL WINAPI WcsEnumColorProfiles(
-  _In_      WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
-  _In_      PENUMTYPEW                   pEnumRecord,
-  _Out_     PBYTE                        pBuffer,
-  _In_      DWORD                        dwSize,
-  _Out_opt_ PDWORD                       pnProfiles
+  _In_      WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
+  _In_      PENUMTYPEW                   pEnumRecord,
+  _Out_     PBYTE                        pBuffer,
+  _In_      DWORD                        dwSize,
+  _Out_opt_ PDWORD                       pnProfiles
 );
 ```
 
@@ -95,8 +101,8 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -123,9 +129,9 @@ This function is executable in Least-Privileged User Account (LUA) context.
 [**WcsEnumColorProfilesSize**](wcsenumcolorprofilessize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

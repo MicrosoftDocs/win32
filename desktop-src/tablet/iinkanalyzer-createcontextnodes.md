@@ -1,7 +1,12 @@
 ---
-Description: 'Creates an IContextNodes object.'
-ms.assetid: 'd6d37595-307b-4cbc-9d48-ad10f8b272dd'
-title: 'IInkAnalyzer::CreateContextNodes method'
+Description: Creates an IContextNodes object.
+ms.assetid: d6d37595-307b-4cbc-9d48-ad10f8b272dd
+title: IInkAnalyzerCreateContextNodes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::CreateContextNodes method
@@ -13,7 +18,7 @@ Creates an [**IContextNodes**](icontextnodes.md) object.
 
 ```C++
 HRESULT CreateContextNodes(
-  [out] IContextNodes **ppContextNodes
+  [out] IContextNodes **ppContextNodes
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppContextNodes* when you no longer need to use the object.
 
- 
+ 
 
 Use this method to create an empty [**IContextNodes**](icontextnodes.md) collection that is associated with the [**IInkAnalyzer**](iinkanalyzer.md). The new **IContextNodes** collection is not part of the **IInkAnalyzer** object's context tree.
 
@@ -49,7 +54,7 @@ Use this method to create an empty [**IContextNodes**](icontextnodes.md) collect
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -69,9 +74,9 @@ Use this method to create an empty [**IContextNodes**](icontextnodes.md) collect
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

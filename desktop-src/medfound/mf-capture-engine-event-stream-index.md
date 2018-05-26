@@ -1,7 +1,12 @@
-﻿---
-Description: 'Identifies which stream generated a capture event.'
-ms.assetid: 'A15B334A-716A-467E-AEA5-C13710FFE109'
-title: 'MF\_CAPTURE\_ENGINE\_EVENT\_STREAM\_INDEX attribute'
+---
+Description: Identifies which stream generated a capture event.
+ms.assetid: A15B334A-716A-467E-AEA5-C13710FFE109
+title: MF\_CAPTURE\_ENGINE\_EVENT\_STREAM\_INDEX attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_CAPTURE\_ENGINE\_EVENT\_STREAM\_INDEX attribute
@@ -14,11 +19,11 @@ Identifies which stream generated a capture event.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
 ## Remarks
 
-This attribute appears on some events from the capture engine. To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md) on the event object. The event object is passed to the application through the [**IMFCaptureEngineOnEventCallback::OnEvent**](imfcaptureengineoneventcallback-onevent.md) method.
+This attribute appears on some events from the capture engine. To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master) on the event object. The event object is passed to the application through the [**IMFCaptureEngineOnEventCallback::OnEvent**](/windows/win32/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineoneventcallback-onevent?branch=master) method.
 
 ## Requirements
 
@@ -39,7 +44,7 @@ This attribute appears on some events from the capture engine. To get this attri
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFCaptureEngineOnEventCallback::OnEvent**](imfcaptureengineoneventcallback-onevent.md)
+[**IMFCaptureEngineOnEventCallback::OnEvent**](/windows/win32/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineoneventcallback-onevent?branch=master)
 </dt> </dl>
 
  

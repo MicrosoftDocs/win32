@@ -1,7 +1,12 @@
 ---
 title: Formatting Results in an Active Server Pages File
 description: Formatting Results in an Active Server Pages File
-ms.assetid: '7ce262a7-84fa-4ef0-8ec9-603ac6557698'
+ms.assetid: 7ce262a7-84fa-4ef0-8ec9-603ac6557698
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Formatting Results in an Active Server Pages File

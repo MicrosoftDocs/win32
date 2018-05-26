@@ -2,13 +2,15 @@
 title: DnsServerGlobalQueryBlockList class
 description: Represents a global query block list on a DNS server.
 audience: developer
-ms.assetid: '881316ba-f6db-4e7e-a113-5af9d09e4e96'
-ms.prod: 'windows-server-dev'
+ms.assetid: 881316ba-f6db-4e7e-a113-5af9d09e4e96
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerGlobalQueryBlockList class", "DnsServerGlobalQueryBlockList class, described"]
+keywords:
+- DnsServerGlobalQueryBlockList class
+- DnsServerGlobalQueryBlockList class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerGlobalQueryBlockList class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerGlobalQueryBlockList
 {
-  string  List[];
+  string  List[];
   boolean Enable;
 };
 ```
@@ -83,7 +88,7 @@ An array that contains the items on block list.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -97,9 +102,9 @@ An array that contains the items on block list.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

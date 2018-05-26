@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob Resume method
 description: Activates a new job or restarts a job that has been suspended.
-ms.assetid: 'B745BDA6-36B9-41FD-9737-61D14150A9E4'
-keywords: ["Resume method", "Resume method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, Resume method"]
+ms.assetid: B745BDA6-36B9-41FD-9737-61D14150A9E4
+keywords:
+- Resume method
+- Resume method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, Resume method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::Resume method
@@ -44,7 +52,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,7 +66,7 @@ If a job that is in the BG\_JOB\_STATE\_TRANSIENT\_ERROR or BG\_JOB\_STATE\_ERRO
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -81,9 +89,9 @@ If a job that is in the BG\_JOB\_STATE\_TRANSIENT\_ERROR or BG\_JOB\_STATE\_ERRO
 [**IBackgroundCopyJob::Suspend**](ibackgroundcopyjob-suspend.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

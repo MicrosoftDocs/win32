@@ -4,11 +4,15 @@ description: To create an inetOrgPerson object, bind to the object that will con
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3a7be148-ba09-449c-b343-a1fb30497c62'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 3a7be148-ba09-449c-b343-a1fb30497c62
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , creating inetOrgPerson objects"]
+keywords:
+- AD LDS examples ADAM , creating inetOrgPerson objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating inetOrgPerson Objects

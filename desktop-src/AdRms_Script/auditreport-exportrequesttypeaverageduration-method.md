@@ -1,13 +1,16 @@
 ---
-Description: 'Generates a report for the number of total requests and average durations, in milliseconds, for all request types.'
+Description: Generates a report for the number of total requests and average durations, in milliseconds, for all request types.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'dc8bb6c3-dc7a-459d-91f5-3f73fd843cab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: dc8bb6c3-dc7a-459d-91f5-3f73fd843cab
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'AuditReport.ExportRequestTypeAverageDuration method'
+title: AuditReport.ExportRequestTypeAverageDuration method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AuditReport.ExportRequestTypeAverageDuration method
@@ -185,7 +188,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -197,9 +200,9 @@ END SUB
 [**AuditReport**](auditreport-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

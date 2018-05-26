@@ -1,7 +1,12 @@
 ---
-Description: 'Convert an existing collection snapshot to a reference point collection. The snapshot collection gets deleted as a side effect. Only recovery snapshots can be converted to reference points.'
-ms.assetid: '6b304782-9e5e-43b1-af7d-08617d65850c'
-title: 'ConvertToReferencePoint method of the Msvm\_CollectionSnapshotService class'
+Description: Convert an existing collection snapshot to a reference point collection. The snapshot collection gets deleted as a side effect. Only recovery snapshots can be converted to reference points.
+ms.assetid: 6b304782-9e5e-43b1-af7d-08617d65850c
+title: ConvertToReferencePoint method of the Msvm\_CollectionSnapshotService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConvertToReferencePoint method of the Msvm\_CollectionSnapshotService class
@@ -13,9 +18,9 @@ Convert an existing collection snapshot to a reference point collection. The sna
 
 ```mof
 uint32 ConvertToReferencePoint(
-  [in]      Msvm_SnapshotCollection       REF AffectedSnapshotCollection,
-  [in, out] Msvm_ReferencePointCollection REF ResultingReferencePointCollection,
-  [out]     CIM_ConcreteJob               REF Job
+  [in]      Msvm_SnapshotCollection       REF AffectedSnapshotCollection,
+  [in, out] Msvm_ReferencePointCollection REF ResultingReferencePointCollection,
+  [out]     CIM_ConcreteJob               REF Job
 );
 ```
 
@@ -91,8 +96,8 @@ On success, returns either 0 (Complete) or 4096 (Job Started); otherwise, return
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -106,9 +111,9 @@ On success, returns either 0 (Complete) or 4096 (Job Started); otherwise, return
 [**Msvm\_CollectionSnapshotService**](msvm-collectionsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

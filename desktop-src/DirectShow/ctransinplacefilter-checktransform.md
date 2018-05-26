@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckTransform method checks whether an input media type is compatible with an output media type. This method overrides the CTransformFilter::CheckTransform method.'
-ms.assetid: 'd0953014-4a49-4738-a449-c247396a6794'
-title: 'CTransInPlaceFilter.CheckTransform method'
+Description: The CheckTransform method checks whether an input media type is compatible with an output media type. This method overrides the CTransformFilterCheckTransform method.
+ms.assetid: d0953014-4a49-4738-a449-c247396a6794
+title: CTransInPlaceFilter.CheckTransform method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceFilter.CheckTransform method
@@ -13,8 +18,8 @@ The `CheckTransform` method checks whether an input media type is compatible wit
 
 ```C++
 HRESULT CheckTransform(
-   const CMediaType *mtIn,
-   const CMediaType *mtOut
+   const CMediaType *mtIn,
+   const CMediaType *mtOut
 );
 ```
 
@@ -64,9 +69,9 @@ The **CTransInPlace** filter never calls `CheckTransform`. Instead, all pin conn
 [**CTransInPlaceFilter Class**](ctransinplacefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

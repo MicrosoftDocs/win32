@@ -1,8 +1,9 @@
 ---
 title: CardQueryFreeSpace function
 description: Gets the amount of available memory on a smart card.
-ms.assetid: '83c3c58b-9985-4d57-b8a3-94c64618c65b'
-keywords: ["CardQueryFreeSpace function Security"]
+ms.assetid: 83c3c58b-9985-4d57-b8a3-94c64618c65b
+keywords:
+- CardQueryFreeSpace function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardQueryFreeSpace function
@@ -24,9 +30,9 @@ The **CardQueryFreeSpace** function, defined by a smart card module, gets the am
 
 ```C++
 DWORD WINAPI CardQueryFreeSpace(
-  _In_    PCARD_DATA            pCardData,
-  _In_    DWORD                 dwFlags,
-  _Inout_ PCARD_FREE_SPACE_INFO pCardFreeSpaceInfo
+  _In_    PCARD_DATA            pCardData,
+  _In_    DWORD                 dwFlags,
+  _Inout_ PCARD_FREE_SPACE_INFO pCardFreeSpaceInfo
 );
 ```
 
@@ -71,7 +77,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -79,8 +85,8 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -98,9 +104,9 @@ If the function fails, it returns a nonzero error value or one of the following 
 [**CardAcquireContext**](cardacquirecontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

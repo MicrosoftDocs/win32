@@ -1,8 +1,11 @@
 ---
 title: ITransformProperty CalcValueAtTime method
 description: The CalcValueAtTime method calculates the property value at a particular time, using the evaluation function type that was specified for the property.
-ms.assetid: 'aae70f7a-a097-4668-8730-35921aa3d572'
-keywords: ["CalcValueAtTime method Windows Movie Maker and DVD Maker", "CalcValueAtTime method Windows Movie Maker and DVD Maker , ITransformProperty interface", "ITransformProperty interface Windows Movie Maker and DVD Maker , CalcValueAtTime method"]
+ms.assetid: aae70f7a-a097-4668-8730-35921aa3d572
+keywords:
+- CalcValueAtTime method Windows Movie Maker and DVD Maker
+- CalcValueAtTime method Windows Movie Maker and DVD Maker , ITransformProperty interface
+- ITransformProperty interface Windows Movie Maker and DVD Maker , CalcValueAtTime method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformProperty::CalcValueAtTime method
@@ -25,8 +33,8 @@ The **CalcValueAtTime** method calculates the property value at a particular tim
 
 ```C++
 HRESULT CalcValueAtTime(
-  [in]  double      dblTime,
-  [out] PROPVARIANT *varCalculatedValue
+  [in]  double      dblTime,
+  [out] PROPVARIANT *varCalculatedValue
 );
 ```
 
@@ -60,8 +68,8 @@ The method returns an **HRESULT** of S\_OK for success, or a standard COM error 
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -74,9 +82,9 @@ The method returns an **HRESULT** of S\_OK for success, or a standard COM error 
 [**ITransformProperty Interface**](itransformproperty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

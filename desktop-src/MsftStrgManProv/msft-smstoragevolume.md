@@ -4,11 +4,16 @@ description: Represents a storage volume.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b2573546-fc9f-428b-9fb9-53d7b5443472'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: b2573546-fc9f-428b-9fb9-53d7b5443472
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMStorageVolume class", "MSFT_SMStorageVolume class, described"]
+keywords:
+- MSFT_SMStorageVolume class
+- MSFT_SMStorageVolume class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMStorageVolume class
@@ -17,7 +22,7 @@ Represents a storage volume.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) which is new for Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) which is new for Windows Server 2016.
 
 ## Syntax
 
@@ -25,39 +30,39 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMStorageVolume : MSFT_SMStorageObject
 {
-  String  ObjectId;
-  String  Identifier;
-  String  DisplayName;
-  String  Name;
-  Uint16  NameFormat;
-  Uint16  NameNamespace;
-  String  OtherNameFormat;
-  String  OtherNameNamespace;
-  String  SMLunId;
-  Uint16  SMLunIdFormat;
-  String  SMLunIdFormatDescription;
-  Uint16  SMLunIdNamespace;
-  String  SMLunIdNamespaceDescription;
-  uint16  HealthStatus;
-  string  HealthStatusDescription;
-  uint16  OperationalStatus[];
-  string  StatusDescription;
-  Uint64  BlockSize;
-  Uint64  NumberOfBlocks;
-  Uint64  ConsumableBlocks;
+  String  ObjectId;
+  String  Identifier;
+  String  DisplayName;
+  String  Name;
+  Uint16  NameFormat;
+  Uint16  NameNamespace;
+  String  OtherNameFormat;
+  String  OtherNameNamespace;
+  String  SMLunId;
+  Uint16  SMLunIdFormat;
+  String  SMLunIdFormatDescription;
+  Uint16  SMLunIdNamespace;
+  String  SMLunIdNamespaceDescription;
+  uint16  HealthStatus;
+  string  HealthStatusDescription;
+  uint16  OperationalStatus[];
+  string  StatusDescription;
+  Uint64  BlockSize;
+  Uint64  NumberOfBlocks;
+  Uint64  ConsumableBlocks;
   Boolean Primordial;
-  String  OtherIdentifyingInfo[];
-  String  IdentifyingDescriptions[];
+  String  OtherIdentifyingInfo[];
+  String  IdentifyingDescriptions[];
   boolean NoSinglePointOfFailure;
-  uint16  ExtentStripeLength;
-  uint64  UserDataStripeDepth;
-  uint16  DataRedundancy;
-  uint16  PackageRedundancy;
-  uint16  ParityLayout;
-  uint16  Access;
-  String  AccessDescription;
+  uint16  ExtentStripeLength;
+  uint64  UserDataStripeDepth;
+  uint16  DataRedundancy;
+  uint16  PackageRedundancy;
+  uint16  ParityLayout;
+  uint16  Access;
+  String  AccessDescription;
   Boolean ThinlyProvisioned = FALSE;
-  uint16  Usage;
+  uint16  Usage;
   Boolean IsSnapshot;
 };
 ```
@@ -78,17 +83,17 @@ The **MSFT\_SMStorageVolume** class has these methods.
 | Method                                                                                | Description                                                                                                                                                                                  |
 |:--------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CreateClone**](createclone-msft-smstoragevolume.md)                               | Starts a job to create an associated un-synced Clone of the **MSFT\_SMStorageVolume**.<br/>                                                                                            |
-| [**CreateReplica**](createreplica-msft-smstoragevolume.md)                           | Creates a replication relationship between virtual disks.<br/> **Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.<br/> |
+| [**CreateReplica**](createreplica-msft-smstoragevolume.md)                           | Creates a replication relationship between virtual disks.<br/> **Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.<br/> |
 | [**CreateSnapshot**](createsnapshot-msft-smstoragevolume.md)                         | Starts a job to create an associated un-synced snapshot of the **MSFT\_SMStorageVolume**.<br/>                                                                                         |
 | [**Delete**](delete-msft-smstoragevolume.md)                                         | Starts a job to delete a storage volume previously created from a storage pool.<br/>                                                                                                   |
 | [**ModifySize**](modifysize-msft-smstoragevolume.md)                                 | Starts a job to modify the size of a storage volume.<br/>                                                                                                                              |
 | [**SetReadonly**](setreadonly-msft-smstoragevolume.md)                               | Changes the device access of the storage volume to Readable.<br/>                                                                                                                      |
 | [**SetReadWrite**](setreadwrite-msft-smstoragevolume.md)                             | Changes the device access of the storage volume to Read/Write.<br/>                                                                                                                    |
-| [**SetReplicationRelationship**](setreplicationrelationship-msft-smstoragevolume.md) | Updates a replication relationship between virtual disks.<br/> **Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.<br/> |
+| [**SetReplicationRelationship**](setreplicationrelationship-msft-smstoragevolume.md) | Updates a replication relationship between virtual disks.<br/> **Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.<br/> |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -299,7 +304,7 @@ The ID of the logical instance of the object. This ID must be unique within the 
 
 This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
 
 </dd> <dt>
 
@@ -413,7 +418,7 @@ The ID of this class instance. This ID must be unique within the scope of the Wi
 
 This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
 
 </dd> <dt>
 
@@ -810,14 +815,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>18–32767</dd> <dt>
+</dt> <dd>18 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -841,7 +846,7 @@ TBD
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -858,9 +863,9 @@ TBD
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

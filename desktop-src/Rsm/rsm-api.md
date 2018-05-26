@@ -1,7 +1,12 @@
 ---
-Description: 'The RSM API is the interface that applications use to access the services and media in an RSM system.'
-ms.assetid: 'ed36df18-8db8-4e0a-af4f-3f37dbfdf384'
+Description: The RSM API is the interface that applications use to access the services and media in an RSM system.
+ms.assetid: ed36df18-8db8-4e0a-af4f-3f37dbfdf384
 title: RSM API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSM API

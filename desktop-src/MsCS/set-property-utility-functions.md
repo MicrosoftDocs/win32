@@ -4,10 +4,13 @@ description: The set property utility functions use the contents of a property l
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '88c198e5-a819-486c-a459-749f805196db'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 88c198e5-a819-486c-a459-749f805196db
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set Property Utility Functions
@@ -18,12 +21,12 @@ The set property utility functions use the contents of a [property list](propert
 
 | Function                                                                         | Description                                                                                                                                   |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ResUtilSetPrivatePropertyList**](resutilsetprivatepropertylist.md)           | Writes [private properties](private-properties.md) to the [cluster database](cluster-database.md) based on the contents of a property list. |
-| [**ResUtilSetPropertyParameterBlock**](resutilsetpropertyparameterblock.md)     | Conditionally writes properties to the cluster database based on the contents of a parameter block.                                           |
-| [**ResUtilSetPropertyParameterBlockEx**](resutilsetpropertyparameterblockex.md) | Force writes properties to the cluster database based on the contents of a parameter block.                                                   |
-| [**ResUtilSetPropertyTable**](resutilsetpropertytable.md)                       | Conditionally writes properties to the cluster database based on the contents of a property table.                                            |
-| [**ResUtilSetPropertyTableEx**](resutilsetpropertytableex.md)                   | Force writes properties to the cluster database based on the contents of a property table.                                                    |
-| [**ResUtilSetUnknownProperties**](resutilsetunknownproperties.md)               | Sets [unknown properties](unknown-properties.md) based on the contents of a property table.                                                  |
+| [**ResUtilSetPrivatePropertyList**](/windows/previous-versions/ResApi/nc-resapi-presutil_set_private_property_list?branch=master)           | Writes [private properties](private-properties.md) to the [cluster database](cluster-database.md) based on the contents of a property list. |
+| [**ResUtilSetPropertyParameterBlock**](/windows/previous-versions/ResApi/nc-resapi-presutil_set_property_parameter_block?branch=master)     | Conditionally writes properties to the cluster database based on the contents of a parameter block.                                           |
+| [**ResUtilSetPropertyParameterBlockEx**](/windows/previous-versions/ResApi/nc-resapi-presutil_set_property_parameter_block_ex?branch=master) | Force writes properties to the cluster database based on the contents of a parameter block.                                                   |
+| [**ResUtilSetPropertyTable**](/windows/previous-versions/ResApi/nc-resapi-presutil_set_property_table?branch=master)                       | Conditionally writes properties to the cluster database based on the contents of a property table.                                            |
+| [**ResUtilSetPropertyTableEx**](/windows/previous-versions/ResApi/nc-resapi-presutil_set_property_table_ex?branch=master)                   | Force writes properties to the cluster database based on the contents of a property table.                                                    |
+| [**ResUtilSetUnknownProperties**](/windows/previous-versions/ResApi/nc-resapi-presutil_set_unknown_properties?branch=master)               | Sets [unknown properties](unknown-properties.md) based on the contents of a property table.                                                  |
 
 
 

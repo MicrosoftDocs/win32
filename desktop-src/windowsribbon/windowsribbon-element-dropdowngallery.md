@@ -1,14 +1,20 @@
 ---
 title: DropDownGallery element
 description: Represents a Drop-Down Gallery control with a gallery-based menu.
-ms.assetid: 'fee6b3ad-fc84-49da-97da-2d53ff4dd0d8'
-keywords: ["DropDownGallery element Windows Ribbon"]
+ms.assetid: fee6b3ad-fc84-49da-97da-2d53ff4dd0d8
+keywords:
+- DropDownGallery element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - DropDownGallery
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DropDownGallery element
@@ -154,7 +160,7 @@ Applies only to galleries where the value of the <em>Type</em> attribute is equa
 <td>[<strong>QuickAccessToolbar.ApplicationDefaults</strong>](windowsribbon-element-quickaccesstoolbar-applicationdefaults.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-Windows 8 and newer.
+Windows 8 and newer.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -175,7 +181,7 @@ May occur one or more times for each [**ControlGroup**](windowsribbon-element-co
 
 **DropDownGallery** supports [application modes](ribbon-applicationmodes.md).
 
-The following screen shot illustrates the Ribbon [Drop-Down Gallery](windowsribbon-controls-dropdowngallery.md) control in Microsoft Paint for Windows 7.
+The following screen shot illustrates the Ribbon [Drop-Down Gallery](windowsribbon-controls-dropdowngallery.md) control in Microsoft Paint for Windows 7.
 
 ![screen shot of a drop-down gallery control in microsoft paint for windows 7.](images/controls/dropdowngallery.png)
 
@@ -237,7 +243,7 @@ This section of code shows the **DropDownGallery** control declarations.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -258,9 +264,9 @@ This section of code shows the **DropDownGallery** control declarations.
 [Gallery Sample](windowsribbon-gallerysample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

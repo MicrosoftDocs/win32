@@ -1,7 +1,12 @@
 ---
-Description: 'A master key is key data material from which other keys are derived.'
-ms.assetid: 'c8445f74-659a-470b-9007-07ea98d36dcd'
+Description: A master key is key data material from which other keys are derived.
+ms.assetid: c8445f74-659a-470b-9007-07ea98d36dcd
 title: Creating the Master Key
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Master Key

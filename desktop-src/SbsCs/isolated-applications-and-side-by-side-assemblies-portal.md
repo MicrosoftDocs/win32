@@ -1,7 +1,12 @@
 ---
-Description: 'Manage assembly sharing and DLL versioning in the system's side by side assembly store from programs. Write assembly manifests and self describing applications for assembly sharing and redirecting DLLs.'
-ms.assetid: '2f841eb6-9a6c-4c9b-b057-a3da6cd6b0b0'
-title: 'Isolated Applications and Side-by-side Assemblies'
+Description: Manage assembly sharing and DLL versioning in the systems side by side assembly store from programs. Write assembly manifests and self describing applications for assembly sharing and redirecting DLLs.
+ms.assetid: 2f841eb6-9a6c-4c9b-b057-a3da6cd6b0b0
+title: Isolated Applications and Side-by-side Assemblies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Isolated Applications and Side-by-side Assemblies
@@ -30,7 +35,7 @@ As the primary reference for side-by-side assembly sharing and isolated applicat
 
 ## Run-time requirements
 
-Windows Server 2003 and later or Windows XP and later is required to use side-by-side assemblies and manifests to isolate applications and to use the Activation Context API.
+Windows Server 2003 and later or Windows XP and later is required to use side-by-side assemblies and manifests to isolate applications and to use the Activation Context API.
 
 ## In this section
 
@@ -42,11 +47,11 @@ Windows Server 2003 and later or Windows XP and later is required to use side-by
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

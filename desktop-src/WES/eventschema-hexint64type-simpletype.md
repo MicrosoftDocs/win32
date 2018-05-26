@@ -1,14 +1,20 @@
 ---
 title: HexInt64Type Simple Type
 description: Defines an 8-byte hexadecimal type.
-ms.assetid: 'b4d8f416-d9e3-4a07-9b08-6f634c0de06c'
-keywords: ["HexInt64Type simple type EventLog"]
+ms.assetid: b4d8f416-d9e3-4a07-9b08-6f634c0de06c
+keywords:
+- HexInt64Type simple type EventLog
 topic_type:
 - apiref
 api_name:
 - HexInt64Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HexInt64Type Simple Type
@@ -41,14 +47,14 @@ The **HexInt64Type** simple type is a **string** that is restricted by the follo
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

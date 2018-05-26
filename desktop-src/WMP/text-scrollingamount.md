@@ -1,14 +1,20 @@
 ---
 title: TEXT.scrollingAmount
 description: The scrollingAmount attribute specifies or retrieves the number of pixels that the text moves during each scrolling movement.
-ms.assetid: '46f74531-69dd-4505-8937-5b48b6e9be7b'
-keywords: ["TEXT.scrollingAmount Windows Media Player"]
+ms.assetid: 46f74531-69dd-4505-8937-5b48b6e9be7b
+keywords:
+- TEXT.scrollingAmount Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.scrollingAmount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.scrollingAmount
@@ -49,9 +55,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT.scrolling**](text-scrolling.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

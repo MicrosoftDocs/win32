@@ -1,7 +1,12 @@
 ---
 title: Mapping Service Description Data Types to IDL Data Types
 description: The following table shows the mapping of XML data types specified in a service description to the corresponding data types used in IDL.
-ms.assetid: 'eeb86177-8c3b-47f1-bbe1-f9aabd2dde76'
+ms.assetid: eeb86177-8c3b-47f1-bbe1-f9aabd2dde76
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mapping Service Description Data Types to IDL Data Types

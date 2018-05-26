@@ -1,8 +1,14 @@
 ---
 title: AppID
 description: Identifies the AppID GUID that corresponds to the named executable.
-ms.assetid: '960abcc5-c97f-47d6-9d8a-840473c136bf'
-keywords: ["AppID registry value (AppID) COM"]
+ms.assetid: 960abcc5-c97f-47d6-9d8a-840473c136bf
+keywords:
+- AppID registry value (AppID) COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AppID

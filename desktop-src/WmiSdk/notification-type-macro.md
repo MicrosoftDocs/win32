@@ -1,13 +1,16 @@
 ---
-Description: 'The NOTIFICATION-TYPE macro contains the following elements.'
+Description: The NOTIFICATION-TYPE macro contains the following elements.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b7c6ec2b-640b-4373-a1e3-ff6c130b07d0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b7c6ec2b-640b-4373-a1e3-ff6c130b07d0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'NOTIFICATION-TYPE Macro'
+title: NOTIFICATION-TYPE Macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NOTIFICATION-TYPE Macro
@@ -17,7 +20,7 @@ The NOTIFICATION-TYPE macro contains the following elements.
 > [!Note]  
 > For more information about installing the provider, see [Setting up the WMI SNMP Environment](setting-up-the-wmi-snmp-environment.md).
 
- 
+ 
 
 ## Components
 
@@ -37,7 +40,7 @@ Attaches a name to an SNMP event in a NOTIFICATION-TYPE macro. The following lis
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -79,9 +82,9 @@ An encapsulated class definition does not expose the instance information associ
 
 A referent class defines an MIB object and the instance information used to obtain the object. The class definition encodes the OBJECTS clause as a series of properties of the CIM event class. Each CIM property reflects the name of the corresponding MIB object in the OBJECTS clause and the type as an embedded object that reflects an instance of the class associated with that MIB object. The provider then generates a class associated with the MIB object. For example, **ifIndex** maps to an embedded class named **SNMP\_RFC1213\_MIB\_ifIndex**. For more information about this type of class, see [OBJECT-TYPE Macro](object-type-macro.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: SBM\_SETRANGEREDRAW message
 description: An application sends the SBM\_SETRANGEREDRAW message to a scroll bar control to set the minimum and maximum position values and to redraw the control.
-ms.assetid: 'badb58cc-9e3a-4766-a67f-631a7feb6285'
-keywords: ["SBM_SETRANGEREDRAW message Windows Controls"]
+ms.assetid: badb58cc-9e3a-4766-a67f-631a7feb6285
+keywords:
+- SBM_SETRANGEREDRAW message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SBM\_SETRANGEREDRAW message
@@ -53,8 +59,8 @@ If the minimum and maximum position values are equal, the scroll bar control is 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -78,9 +84,9 @@ If the minimum and maximum position values are equal, the scroll bar control is 
 [**SBM\_SETRANGE**](sbm-setrange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

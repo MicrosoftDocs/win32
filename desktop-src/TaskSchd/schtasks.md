@@ -1,14 +1,20 @@
 ---
 title: Schtasks.exe
 description: Enables an administrator to create, delete, query, change, run, and end scheduled tasks on a local or remote computer.
-ms.assetid: '3cf973de-14c4-4ca9-86a7-7f97181bd9e0'
-keywords: ["Schtasks.exe Task Scheduler"]
+ms.assetid: 3cf973de-14c4-4ca9-86a7-7f97181bd9e0
+keywords:
+- Schtasks.exe Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Schtasks.exe
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Schtasks.exe
@@ -139,7 +145,7 @@ A value that specifies the start time to run the task. The time format is HH:mm 
 
 A value that specifies the repetition interval in minutes. This is not applicable for the following schedule types: MINUTE, HOURLY, ONSTART, ONLOGON, ONIDLE, and ONEVENT. The valid range is 1 - 599940 minutes. If either the /ET or /DU parameters are specified, the default is 10 minutes.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -148,7 +154,7 @@ A value that specifies the repetition interval in minutes. This is not applicabl
 
 A value that specifies the end time to run the task. The time format is HH:mm (24-hour time). For example, 14:50 specifies 2:50PM. This is not applicable for the following schedule types: ONSTART, ONLOGON, ONIDLE, and ONEVENT.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -157,7 +163,7 @@ A value that specifies the end time to run the task. The time format is HH:mm (2
 
 A value that specifies the duration to run the task. The time format is HH:mm (24-hour time). For example, 14:50 specifies 2:50PM. This is not applicable with /ET and for the following schedule types: ONSTART, ONLOGON, ONIDLE, and ONEVENT. For /V1 tasks (Task Scheduler 1.0 tasks), if /RI is specified, then the duration default is one hour.
 
-**Windows XP:** This option is not available.
+**Windows XP:** This option is not available.
 
 </dd> <dt>
 
@@ -166,7 +172,7 @@ A value that specifies the duration to run the task. The time format is HH:mm (2
 
 A value that terminates the task at the end time or duration time. This is not applicable for the following schedule types: ONSTART, ONLOGON, ONIDLE, and ONEVENT. Either /ET or /DU must be specified.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -189,7 +195,7 @@ A value that specifies the last date that the task will run. The format is mm/dd
 
 A value that specifies the event channel for ONEVENT triggers.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -198,7 +204,7 @@ A value that specifies the event channel for ONEVENT triggers.
 
 A value that enables the task to run interactively only if the /RU user is currently logged on at the time the task runs. The task runs only if the user is logged on.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -207,7 +213,7 @@ A value that enables the task to run interactively only if the /RU user is curre
 
 A value that indicates that no password is stored. The task does not run interactively as the given user. Only local resources are available.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -216,7 +222,7 @@ A value that indicates that no password is stored. The task does not run interac
 
 A value that marks the task to be deleted after its final run.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -225,16 +231,16 @@ A value that marks the task to be deleted after its final run.
 
 A value that creates a task from an XML file. This parameter can be combined with /RU and /RP switches, or with the /RP switch alone when the task XML already contains the principal.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
 <span id="_V1_"></span><span id="_v1_"></span>**/V1** 
 </dt> <dd>
 
-A value that creates a task visible to Windows 2000, Windows Server 2003, and Windows XP platforms.
+A value that creates a task visible to Windows 2000, Windows Server 2003, and Windows XP platforms.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -243,7 +249,7 @@ A value that creates a task visible to Windows 2000, Windows Server 2003, and Wi
 
 A value that forcefully creates the task and suppresses warnings if the specified task already exists.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -252,7 +258,7 @@ A value that forcefully creates the task and suppresses warnings if the specifie
 
 A value that sets the run level for the task. Valid values are LIMITED and HIGHEST. The default is LIMITED.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -261,7 +267,7 @@ A value that sets the run level for the task. Valid values are LIMITED and HIGHE
 
 A value that specifies the wait time to delay the task after the trigger is fired. The time format is mmmm:ss. This option is only valid for schedule types ONSTART, ONLOGON, and ONEVENT.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -274,7 +280,7 @@ A value that displays the help message for Schtasks.exe.
 
 ## Remarks
 
-When creating a task on a remote computer running on the Windows XP, Windows Server 2003, or Windows 2000 operating system, use the /V1 switch.
+When creating a task on a remote computer running on the Windows XP, Windows Server 2003, or Windows 2000 operating system, use the /V1 switch.
 
 You cannot create a non-interactive remote Task Scheduler 1.0 task (create a task by not using the /IT switch and using the /V1 switch) if the remote computer has the File and Printer Sharing firewall exception enabled and the Remote Scheduled Tasks Management firewall exception disabled.
 
@@ -390,7 +396,7 @@ The following syntax is used to stop a running scheduled task.
 > [!Note]  
 > To stop a remote task from running, ensure that the remote computer has the File and Printer Sharing and Remote Scheduled Tasks Management firewall exceptions enabled.
 
- 
+ 
 
 ``` syntax
 schtasks /End 
@@ -494,7 +500,7 @@ A value that displays verbose task output.
 > [!Note]  
 > If a task was scheduled to run only one time, then the displayed schedule information is "Scheduling data is not available in this format."
 
- 
+ 
 
 </dd> <dt>
 
@@ -503,7 +509,7 @@ A value that displays verbose task output.
 
 A value that specifies the task name for which to retrieve the information. If no task name is specified, then information for all the tasks will be displayed.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -512,7 +518,7 @@ A value that specifies the task name for which to retrieve the information. If n
 
 A value that is used to display the task definitions in XML format.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -593,7 +599,7 @@ A value that specifies a new program that the task will run.
 
 A value that specifies the start time to run the task. The time format is HH:mm (24-hour time). For example, 14:30 specifies 2:30PM.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -602,7 +608,7 @@ A value that specifies the start time to run the task. The time format is HH:mm 
 
 A value that specifies the repetition interval, in minutes. The valid range is 1 - 599940 minutes.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -611,7 +617,7 @@ A value that specifies the repetition interval, in minutes. The valid range is 1
 
 A value that specifies the end time for the task. The time format is HH:mm (24-hour time). For example, 14:50 specifies 2:50PM.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -620,7 +626,7 @@ A value that specifies the end time for the task. The time format is HH:mm (24-h
 
 A value that specifies the duration to run the task. The time format is HH:mm (24-hour time). For example, 14:50 specifies 2:50PM. This is not applicable with the /ET parameter.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -629,7 +635,7 @@ A value that specifies the duration to run the task. The time format is HH:mm (2
 
 A value that terminates the task at the end time or duration time.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -638,7 +644,7 @@ A value that terminates the task at the end time or duration time.
 
 A value that specifies the first date on which to run the task. The format is mm/dd/yyyy.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -647,7 +653,7 @@ A value that specifies the first date on which to run the task. The format is mm
 
 A value that specifies the last date that the task will run. The format is mm/dd/yyyy.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -656,7 +662,7 @@ A value that specifies the last date that the task will run. The format is mm/dd
 
 A value that enables the task to run interactively only if the /RU user is currently logged on at the time the task runs. The task runs only if the user is logged on.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -665,7 +671,7 @@ A value that enables the task to run interactively only if the /RU user is curre
 
 A value that sets the run level for the task. Valid values are LIMITED and HIGHEST.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -674,7 +680,7 @@ A value that sets the run level for the task. Valid values are LIMITED and HIGHE
 
 A value that enables the scheduled task. An enabled task can run, and a disabled task cannot run.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -686,9 +692,9 @@ A value that disables the scheduled task from running.
 > [!Note]  
 > If a remote Task Scheduler 1.0 task is disabled by Schtasks.exe and the remote computer has the File and Printer Sharing firewall exception enabled and the Remote Scheduled Tasks Management firewall exception disabled, then the task will not be disabled when read from a Task Scheduler 2.0 API.
 
- 
+ 
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -697,7 +703,7 @@ A value that disables the scheduled task from running.
 
 A value that marks the task to be deleted after its final run.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -706,7 +712,7 @@ A value that marks the task to be deleted after its final run.
 
 A value that specifies the wait time to delay the running of the task after the trigger is fired. The time format is mmmm:ss. This option is only valid for tasks with the schedule types ONSTART, ONLOGON, and ONEVENT.
 
-**Windows XP and Windows Server 2003:** This option is not available.
+**Windows XP and Windows Server 2003:** This option is not available.
 
 </dd> <dt>
 
@@ -723,14 +729,14 @@ A value that displays the Help message for Schtasks.exe.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

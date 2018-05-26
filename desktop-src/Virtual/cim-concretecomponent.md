@@ -1,8 +1,10 @@
 ---
 title: CIM\_ConcreteComponent class
 description: Represents a generic association used to establish the parts of a relationship between managed elements.
-ms.assetid: 'a815c466-83a4-4795-8910-2ae539bbbce5'
-keywords: ["CIM_ConcreteComponent class Hyper-V", "CIM_ConcreteComponent class Hyper-V , described"]
+ms.assetid: a815c466-83a4-4795-8910-2ae539bbbce5
+keywords:
+- CIM_ConcreteComponent class Hyper-V
+- CIM_ConcreteComponent class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ConcreteComponent class
@@ -85,9 +92,9 @@ The child element in the association.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -100,9 +107,9 @@ The child element in the association.
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

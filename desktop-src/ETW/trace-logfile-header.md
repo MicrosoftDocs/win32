@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TRACE\_LOGFILE\_HEADER structure contains information about an event tracing session and its events.'
-ms.assetid: '13fdabe6-c904-4546-b876-c145f6a6c345'
-title: 'TRACE\_LOGFILE\_HEADER structure'
+---
+Description: The TRACE\_LOGFILE\_HEADER structure contains information about an event tracing session and its events.
+ms.assetid: 13fdabe6-c904-4546-b876-c145f6a6c345
+title: TRACE\_LOGFILE\_HEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TRACE\_LOGFILE\_HEADER structure

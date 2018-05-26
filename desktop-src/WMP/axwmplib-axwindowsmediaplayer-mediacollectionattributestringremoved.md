@@ -1,8 +1,9 @@
 ---
 title: MediaCollectionAttributeStringRemoved Event of the AxWindowsMediaPlayer Object
 description: The MediaCollectionAttributeStringRemoved event occurs when an attribute value is removed from the library.
-ms.assetid: '2f264416-0bc5-41d0-8863-32c284393082'
-keywords: ["MediaCollectionAttributeStringRemoved Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 2f264416-0bc5-41d0-8863-32c284393082
+keywords:
+- MediaCollectionAttributeStringRemoved Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollectionAttributeStringRemoved Event of the AxWindowsMediaPlayer Object
@@ -44,7 +50,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Med
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -75,9 +81,9 @@ When a media item is removed from the library, its metadata is removed from the 
 [**IWMPMediaCollection Interface (VB and C#)**](iwmpmediacollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

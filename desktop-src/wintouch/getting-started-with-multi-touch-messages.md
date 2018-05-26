@@ -1,8 +1,16 @@
 ---
 title: Getting Started with Windows Touch Messages
 description: This section explains the tasks associated with getting Windows Touch input to function in your application.
-ms.assetid: 'cd4e140e-a0b8-494f-82d9-bc0bfba55ecd'
-keywords: ["Windows Touch,messages", "Windows Touch,registering for touch input", "Windows Touch,testing input digitizers"]
+ms.assetid: cd4e140e-a0b8-494f-82d9-bc0bfba55ecd
+keywords:
+- Windows Touch,messages
+- Windows Touch,registering for touch input
+- Windows Touch,testing input digitizers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with Windows Touch Messages
@@ -89,7 +97,7 @@ Before receiving Windows Touch input, applications must first register to receiv
  
 
 > [!Note]  
-> By default, you receive [**WM\_GESTURE**](wm-gesture.md) messages instead of [**WM\_TOUCH**](wm-touchdown.md) messages. If you call [**RegisterTouchWindow**](registertouchwindow.md), you will stop receiving **WM\_GESTURE** messages.
+> By default, you receive [**WM\_GESTURE**](wm-gesture.md) messages instead of [**WM\_TOUCH**](wm-touchdown.md) messages. If you call [**RegisterTouchWindow**](/windows/win32/winuser/nf-winuser-registertouchwindow?branch=master), you will stop receiving **WM\_GESTURE** messages.
 
  
 
@@ -168,7 +176,7 @@ You can handle the Windows Touch messages from applications in Windows operating
 
 
 
-The following code shows how you can implement the message map and a message handler. Note that the messages must be declared in the message map and then the handler for the message should be implemented. For example, in an MFC application, this could be declared in the dialog code. Note also, that the `OnInitDialog` function for your dialog window would have to include a call to [**RegisterTouchWindow**](registertouchwindow.md) such as `RegisterTouchWindow(m_hWnd, 0)`.
+The following code shows how you can implement the message map and a message handler. Note that the messages must be declared in the message map and then the handler for the message should be implemented. For example, in an MFC application, this could be declared in the dialog code. Note also, that the `OnInitDialog` function for your dialog window would have to include a call to [**RegisterTouchWindow**](/windows/win32/winuser/nf-winuser-registertouchwindow?branch=master) such as `RegisterTouchWindow(m_hWnd, 0)`.
 
 
 ```C++

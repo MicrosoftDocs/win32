@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the parent node of this IContextNode in the context node tree.'
-ms.assetid: '782fd973-f8f3-4902-b8e0-cc5e70a66d28'
-title: 'IContextNode::GetParentNode method'
+Description: Retrieves the parent node of this IContextNode in the context node tree.
+ms.assetid: 782fd973-f8f3-4902-b8e0-cc5e70a66d28
+title: IContextNodeGetParentNode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::GetParentNode method
@@ -13,7 +18,7 @@ Retrieves the parent node of this [**IContextNode**](icontextnode.md) in the con
 
 ```C++
 HRESULT GetParentNode(
-  [out] IContextNode **ppParentContextNode
+  [out] IContextNode **ppParentContextNode
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppParentContextNode* when you no longer need to use the parent context node.
 
- 
+ 
 
 If this is the root node, the *ppParentContextNode* parameter is set to **NULL**.
 
@@ -130,7 +135,7 @@ HRESULT CMyClass::GetNodeInformation(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -150,9 +155,9 @@ HRESULT CMyClass::GetNodeInformation(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

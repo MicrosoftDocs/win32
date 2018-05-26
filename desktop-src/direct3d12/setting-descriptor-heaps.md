@@ -1,7 +1,12 @@
 ---
 title: Setting and Populating Descriptor Heaps
 description: The descriptor heap types that can be set on a command list are those that contain descriptors for which descriptor tables can be used (at most one of each at a time).
-ms.assetid: 'F0FF3D7C-1DAC-48C3-B47D-0378BE369F37'
+ms.assetid: F0FF3D7C-1DAC-48C3-B47D-0378BE369F37
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting and Populating Descriptor Heaps
@@ -27,7 +32,7 @@ After a descriptor heap is set on a command list, subsequent calls that define d
 
 In a bundle, by contrast, the descriptor heaps can only be set once (redundant calls setting the same heap twice do not produce an error); otherwise, the behavior is undefined. The descriptor heaps that are set must match the state when any command list calls the bundle; otherwise, the behavior is undefined. This allows bundles to inherit and edit the command list’s descriptor table settings. Bundles that don’t change descriptor tables (only inherit them) don’t need to set a descriptor heap at all and will just inherit from the calling command list.
 
-When descriptor heaps are set (using [**ID3D12GraphicsCommandList::SetDescriptorHeaps**](id3d12graphicscommandlist-setdescriptorheaps.md)), all the heaps being used are set in a single call (and all previously set heaps are unset by the call). At most one heap of each type listed above can be set in the call.
+When descriptor heaps are set (using [**ID3D12GraphicsCommandList::SetDescriptorHeaps**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps?branch=master)), all the heaps being used are set in a single call (and all previously set heaps are unset by the call). At most one heap of each type listed above can be set in the call.
 
 ## Populating descriptor heaps
 

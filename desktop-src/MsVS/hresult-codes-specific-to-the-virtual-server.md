@@ -1,7 +1,7 @@
 ---
 title: HRESULT Codes Specific to the Virtual Server
 description: HRESULT Codes Specific to the Virtual Server
-ms.assetid: '3b3e2a9a-c88b-4712-aa17-de17b0db4a5f'
+ms.assetid: 3b3e2a9a-c88b-4712-aa17-de17b0db4a5f
 topic_type:
 - apiref
 api_name:
@@ -79,6 +79,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HRESULT Codes Specific to the Virtual Server
@@ -1001,15 +1006,15 @@ An attempt was made to add a duplicate user or group to a security object.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: FETCH\_BODY\_PART structure
 description: Contains a partial message body returned by the Internet Message Access Protocol (IMAP) server in a FETCH response.
-ms.assetid: '1bea642d-0781-47ef-ab16-df26077ed000'
-keywords: ["FETCH_BODY_PART structure Windows Mail (formerly Outlook Express)"]
+ms.assetid: 1bea642d-0781-47ef-ab16-df26077ed000
+keywords:
+- FETCH_BODY_PART structure Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FETCH\_BODY\_PART structure
@@ -24,13 +30,13 @@ Contains a partial message body returned by the Internet Message Access Protocol
 
 ```C++
 typedef struct tagFETCH_BODY_PART {
-  DWORD  dwMsgSeqNum;
-  LPSTR  pszBodyTag;
-  DWORD  dwTotalBytes;
-  DWORD  dwSizeOfData;
-  DWORD  dwOffset;
-  BOOL   fDone;
-  LPSTR  pszData;
+  DWORD  dwMsgSeqNum;
+  LPSTR  pszBodyTag;
+  DWORD  dwTotalBytes;
+  DWORD  dwSizeOfData;
+  DWORD  dwOffset;
+  BOOL   fDone;
+  LPSTR  pszData;
   LPARAM lpFetchCookie1;
   LPARAM lpFetchCookie2;
 } FETCH_BODY_PART;
@@ -147,17 +153,17 @@ Contains an **LPARAM** that contains a user-settable value that persists through
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

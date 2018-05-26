@@ -1,8 +1,18 @@
 ---
 title: Writing Video Image Samples
 description: Writing Video Image Samples
-ms.assetid: '1d375186-230a-4a18-a995-b331c72a76e7'
-keywords: ["Advanced Systems Format (ASF),writing video image samples", "ASF (Advanced Systems Format),writing video image samples", "video images,writing samples", "streams,writing video image samples", "codecs,writing video image samples"]
+ms.assetid: 1d375186-230a-4a18-a995-b331c72a76e7
+keywords:
+- Advanced Systems Format (ASF),writing video image samples
+- ASF (Advanced Systems Format),writing video image samples
+- video images,writing samples
+- streams,writing video image samples
+- codecs,writing video image samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing Video Image Samples
@@ -11,7 +21,7 @@ A Video Image stream is a video that contains a series of still images. The imag
 
 To create a profile that contains a Video Image stream, start by enumerating the video codecs as described in [Getting Stream Configuration Information from Codecs](getting-stream-configuration-information-from-codecs.md). Search for the codec that supports the WMMEDIASUBTYPE\_WVP2 subtype.
 
-After you set the profile on the writer object, call [**IWMWriter::GetInputProps**](iwmwriter-getinputprops.md) to get the media properties for the Video Image input stream. Get the media type from the media properties object, by calling [**IWMMediaProps::GetMediaType**](iwmmediaprops-getmediatype.md), and change the subtype to WMMEDIASUBTYPE\_VIDEOIMAGE. You should set the video width and height to the maximum dimensions needed to encompass the images you will add to the stream. Then call [**IWMMediaProps::SetMediaType**](iwmmediaprops-setmediatype.md) with the modified input type. Now you are ready to begin sending samples to the writer object.
+After you set the profile on the writer object, call [**IWMWriter::GetInputProps**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops?branch=master) to get the media properties for the Video Image input stream. Get the media type from the media properties object, by calling [**IWMMediaProps::GetMediaType**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype?branch=master), and change the subtype to WMMEDIASUBTYPE\_VIDEOIMAGE. You should set the video width and height to the maximum dimensions needed to encompass the images you will add to the stream. Then call [**IWMMediaProps::SetMediaType**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmmediaprops-setmediatype?branch=master) with the modified input type. Now you are ready to begin sending samples to the writer object.
 
 Each sample must begin with a **WMT\_VIDEOIMAGE\_SAMPLE2** structure. Additionally, samples may contain bitmap images. An image is only attached to a sample for the first frame in which it appears. All additional frames using that image need only information in the structure. Input bitmaps must be formatted as RGB, 24 bits per pixel.
 
@@ -23,7 +33,7 @@ The basic composition of a Video Image frame is determined by two factors for ea
 
 By manipulating the region of interest for an image, you can create pan and zoom effects. The blend coefficients enable you to cross-fade (dissolve) between images. In addition to these effects, you can use one of the predefined transitions to create more complex frames. The available transitions are described in the [Video Image Transitions](video-image-transitions.md) section of this documentation. When using a transition, you must configure each frame. The easiest way to do this is to create a function that incrementally changes members of the **WMT\_VIDEOIMAGE\_SAMPLE2** structure for a complete effect.
 
-For more information about the values to set for deformations, see [**WMT\_VIDEOIMAGE\_SAMPLE2**](wmt-videoimage-sample2.md).
+For more information about the values to set for deformations, see [**WMT\_VIDEOIMAGE\_SAMPLE2**](/windows/win32/Wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2?branch=master).
 
 **Note** If you want to include audio in a file with a Video Image stream, you must use uncompressed audio input. To combine a Video Image stream with an existing compressed audio stream, you must decompress the audio and pass the samples in uncompressed. If you pass compressed samples to the writer when writing a Video Image stream, an error will occur, resulting in samples being dropped from the video.
 

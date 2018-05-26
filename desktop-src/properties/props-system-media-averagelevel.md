@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'e5500ae2-f250-4b27-8eaa-bff8c2f7c797'
-title: 'System.Media.AverageLevel'
+Description: .
+ms.assetid: e5500ae2-f250-4b27-8eaa-bff8c2f7c797
+title: System.Media.AverageLevel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.AverageLevel

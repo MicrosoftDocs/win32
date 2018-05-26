@@ -1,14 +1,20 @@
 ---
 title: ServerNames (ServerValidationParameters) Element
 description: Represents a list of semicolon delimited server names.
-ms.assetid: 'c6cfcc67-4e6a-4bf0-87d9-37cc1d504598'
-keywords: ["ServerNames element EAPHost"]
+ms.assetid: c6cfcc67-4e6a-4bf0-87d9-37cc1d504598
+keywords:
+- ServerNames element EAPHost
 topic_type:
 - apiref
 api_name:
 - ServerNames
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServerNames (ServerValidationParameters) Element
@@ -34,8 +40,8 @@ Each server name is delimited by semicolons, and can be represented by regular e
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -67,9 +73,9 @@ Each server name is delimited by semicolons, and can be represented by regular e
 [eaptlsconnectionpropertiesv1 Schema Elements](eaptlsconnectionpropertiesv1schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

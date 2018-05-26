@@ -1,7 +1,12 @@
 ---
-Description: 'CIM\_SAPSAPDependency is an association between one ServiceAccessPoint and another ServiceAccessPoint that indicates that the latter is required for the former to utilize or connect with its Service.'
-ms.assetid: '0b806e1e-2536-4c68-8a69-acedbb929023'
-title: 'CIM\_SAPSAPDependency class'
+Description: CIM\_SAPSAPDependency is an association between one ServiceAccessPoint and another ServiceAccessPoint that indicates that the latter is required for the former to utilize or connect with its Service.
+ms.assetid: 0b806e1e-2536-4c68-8a69-acedbb929023
+title: CIM\_SAPSAPDependency class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SAPSAPDependency class
@@ -71,8 +76,8 @@ The [**CIM\_ServiceAccessPoint**](cim-serviceaccesspoint.md) that is dependent o
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -86,9 +91,9 @@ The [**CIM\_ServiceAccessPoint**](cim-serviceaccesspoint.md) that is dependent o
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

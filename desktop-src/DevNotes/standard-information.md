@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the standard information attribute. This attribute is present in every base file record and must be resident.'
-ms.assetid: '8e668309-2722-4115-923d-bf0aa78d24f1'
-title: 'STANDARD\_INFORMATION structure'
+Description: Contains the standard information attribute. This attribute is present in every base file record and must be resident.
+ms.assetid: 8e668309-2722-4115-923d-bf0aa78d24f1
+title: STANDARD\_INFORMATION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STANDARD\_INFORMATION structure

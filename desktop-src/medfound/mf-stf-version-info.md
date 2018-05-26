@@ -1,7 +1,12 @@
-﻿---
-Description: 'This attribute represents the version information sensor transform factory. This is the only attribute that is required for sensor transforms. The value is defined by the sensor transform developer and is treated as opaque by the media pipeline.'
-ms.assetid: 'C9128AA0-E86B-4E83-8173-2568377235FB'
-title: 'MF\_STF\_VERSION\_INFO attribute'
+---
+Description: This attribute represents the version information sensor transform factory. This is the only attribute that is required for sensor transforms. The value is defined by the sensor transform developer and is treated as opaque by the media pipeline.
+ms.assetid: C9128AA0-E86B-4E83-8173-2568377235FB
+title: MF\_STF\_VERSION\_INFO attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_STF\_VERSION\_INFO attribute

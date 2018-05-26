@@ -1,14 +1,20 @@
 ---
 title: Exclusive element
-description: Indicates that when AXE compares values to the MetricThresholdValue it is to use a greater-than test or a less-than test. The direction is determined by the BettterDirection of the metric's definition.
-ms.assetid: 'E1ADBBB3-8959-4F4F-BAAF-BBDB4CFB954B'
-keywords: ["Exclusive element Access Execution Engine"]
+description: Indicates that when AXE compares values to the MetricThresholdValue it is to use a greater-than test or a less-than test. The direction is determined by the BettterDirection of the metrics definition.
+ms.assetid: E1ADBBB3-8959-4F4F-BAAF-BBDB4CFB954B
+keywords:
+- Exclusive element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Exclusive
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exclusive element

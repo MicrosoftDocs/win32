@@ -1,8 +1,18 @@
 ---
 title: Rendering Content
 description: Rendering Content
-ms.assetid: '9a3baa33-dac4-4742-8f80-33b05caada09'
-keywords: ["Windows Media Format SDK,rendering content", "Advanced Systems Format (ASF),rendering content", "ASF (Advanced Systems Format),rendering content", "Advanced Systems Format (ASF),content rendering", "ASF (Advanced Systems Format),content rendering"]
+ms.assetid: 9a3baa33-dac4-4742-8f80-33b05caada09
+keywords:
+- Windows Media Format SDK,rendering content
+- Advanced Systems Format (ASF),rendering content
+- ASF (Advanced Systems Format),rendering content
+- Advanced Systems Format (ASF),content rendering
+- ASF (Advanced Systems Format),content rendering
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rendering Content

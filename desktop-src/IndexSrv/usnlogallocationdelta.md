@@ -1,7 +1,12 @@
 ---
 title: UsnLogAllocationDelta
 description: UsnLogAllocationDelta
-ms.assetid: '412b9f2c-6475-48df-ab1f-22184de8fe32'
+ms.assetid: 412b9f2c-6475-48df-ab1f-22184de8fe32
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UsnLogAllocationDelta

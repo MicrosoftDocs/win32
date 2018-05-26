@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.Sidebar.dockSide property
 description: Gets the Windows Sidebar dock state.
-ms.assetid: '1dad3291-5a0e-45f0-ba3d-df3831f413b6'
-keywords: ["dockSide property Windows Sidebar", "dockSide property Windows Sidebar , System.Gadget.Sidebar object", "System.Gadget.Sidebar object Windows Sidebar , dockSide property"]
+ms.assetid: 1dad3291-5a0e-45f0-ba3d-df3831f413b6
+keywords:
+- dockSide property Windows Sidebar
+- dockSide property Windows Sidebar , System.Gadget.Sidebar object
+- System.Gadget.Sidebar object Windows Sidebar , dockSide property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.Sidebar.dockSide property
@@ -82,10 +90,10 @@ function Init()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -101,9 +109,9 @@ function Init()
 [**onDockSideChanged**](system-gadget-sidebar-ondocksidechanged.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

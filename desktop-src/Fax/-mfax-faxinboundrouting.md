@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxInboundRouting configuration object is used by a fax client application to access the inbound routing extensions registered with the fax service, represented by FaxInboundRoutingExtensions objects, and the routing methods the extensions expose, represented by FaxInboundRoutingMethods objects.'
-ms.assetid: '4cf71225-fcd8-4d2f-b8b3-acbb32708f3b'
+---
+Description: The FaxInboundRouting configuration object is used by a fax client application to access the inbound routing extensions registered with the fax service, represented by FaxInboundRoutingExtensions objects, and the routing methods the extensions expose, represented by FaxInboundRoutingMethods objects.
+ms.assetid: 4cf71225-fcd8-4d2f-b8b3-acbb32708f3b
 title: FaxInboundRouting object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRouting object
@@ -60,7 +65,7 @@ To create a **FaxInboundRouting** object in C++, call the [**InboundRouting**](-
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxInboundRouting**](-mfax-faxinboundrouting-cpp.md)
+[**IFaxInboundRouting**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundrouting?branch=master)
 </dt> </dl>
 
  

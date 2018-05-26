@@ -4,11 +4,13 @@ description: Contains information about the target computer and IP addresses whe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '60612E10-9D82-4F38-87F7-B24F51E6EBDA'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 60612E10-9D82-4F38-87F7-B24F51E6EBDA
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["CB_TARGET_INFO structure Remote Desktop Services", "PCB_TARGET_INFO structure pointer Remote Desktop Services"]
+keywords:
+- CB_TARGET_INFO structure Remote Desktop Services
+- PCB_TARGET_INFO structure pointer Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - Cbclient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # CB\_TARGET\_INFO structure
@@ -67,8 +72,8 @@ An array of strings that contain the IP addresses where the incoming connections
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Cbclient.h</dt> </dl> |
 
 
@@ -80,9 +85,9 @@ An array of strings that contain the IP addresses where the incoming connections
 [**IConnectionBrokerClient::GetTargetInfo**](iconnectionbrokerclient-gettargetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

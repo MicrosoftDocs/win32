@@ -1,7 +1,12 @@
 ---
-Description: 'Uniscribe provides APIs to support typography and to support the display and editing of international text, including the complex rules of Middle Eastern and Asian scripts.'
-ms.assetid: 'd27e82df-ee97-4f55-bfab-0d1e10eaa1b7'
+Description: Uniscribe provides APIs to support typography and to support the display and editing of international text, including the complex rules of Middle Eastern and Asian scripts.
+ms.assetid: d27e82df-ee97-4f55-bfab-0d1e10eaa1b7
 title: Using Uniscribe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Uniscribe

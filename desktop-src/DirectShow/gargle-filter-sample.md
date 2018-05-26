@@ -1,7 +1,12 @@
 ---
 Description: Gargle Filter Sample
-ms.assetid: '13002a71-2da6-4713-825b-5275d41e4cb8'
+ms.assetid: 13002a71-2da6-4713-825b-5275d41e4cb8
 title: Gargle Filter Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gargle Filter Sample

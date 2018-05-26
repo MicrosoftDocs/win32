@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Certificates property retrieves a Certificates collection that represents the certificates in the chain. This is the default property.'
-ms.assetid: 'c3e6953f-35e5-469a-a1aa-e3a4ebe21ac3'
-title: 'IChain2::Certificates property'
+---
+Description: The Certificates property retrieves a Certificates collection that represents the certificates in the chain. This is the default property.
+ms.assetid: c3e6953f-35e5-469a-a1aa-e3a4ebe21ac3
+title: IChain2Certificates property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IChain2::Certificates property

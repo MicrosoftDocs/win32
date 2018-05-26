@@ -1,14 +1,20 @@
 ---
 title: NEWHEADER structure
 description: Contains the number of icon or cursor components in a resource group. The structure definition provided here is for explanation only; it is not present in any standard header file.
-ms.assetid: '1549579a-b558-42a9-9b3b-5b382334221c'
-keywords: ["NEWHEADER structure Menus and Other Resources"]
+ms.assetid: 1549579a-b558-42a9-9b3b-5b382334221c
+keywords:
+- NEWHEADER structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - NEWHEADER
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NEWHEADER structure
@@ -61,7 +67,7 @@ The resource type. This member must have one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -86,8 +92,8 @@ One or more [**RESDIR**](resdir.md) structures immediately follow the **NEWHEADE
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -107,9 +113,9 @@ One or more [**RESDIR**](resdir.md) structures immediately follow the **NEWHEADE
 [Resources](resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: WM/Director
 description: The WM/Director attribute contains the name of the director.
-ms.assetid: '1bbb640a-9d8c-4e03-b4ce-706aabe772d5'
-keywords: ["WM/Director windows Media Format"]
+ms.assetid: 1bbb640a-9d8c-4e03-b4ce-706aabe772d5
+keywords:
+- WM/Director windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/Director
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Director

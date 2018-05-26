@@ -1,7 +1,12 @@
 ---
 title: CiMaxLineLength
 description: CiMaxLineLength
-ms.assetid: '42faa57d-3078-4035-841b-c2b9547c91b0'
+ms.assetid: 42faa57d-3078-4035-841b-c2b9547c91b0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CiMaxLineLength

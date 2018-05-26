@@ -1,7 +1,12 @@
 ---
 title: The mktyplib203 Option
 description: The MIDL compiler behaves differently from the now unsupported MkTypLib utility. The /mktyplib203 option removes most of these differences and makes MIDL act like MkTypLib did, version 2.03.
-ms.assetid: 'e0e0e03c-5875-4535-aee2-f395dd5a41dc'
+ms.assetid: e0e0e03c-5875-4535-aee2-f395dd5a41dc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The mktyplib203 Option

@@ -1,7 +1,12 @@
 ---
-Description: 'The Postpone method specifies a new presentation time for a previously queued command.'
-ms.assetid: '6201eb18-8180-445c-8d29-980511748fe4'
-title: 'CDeferredCommand.Postpone method'
+Description: The Postpone method specifies a new presentation time for a previously queued command.
+ms.assetid: 6201eb18-8180-445c-8d29-980511748fe4
+title: CDeferredCommand.Postpone method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDeferredCommand.Postpone method
@@ -13,7 +18,7 @@ The `Postpone` method specifies a new presentation time for a previously queued 
 
 ```C++
 HRESULT Postpone(
-   REFTIME newtime
+   REFTIME newtime
 );
 ```
 
@@ -36,7 +41,7 @@ Returns VFW\_E\_TIME\_ALREADY\_PASSED if *newtime* is already passed. Otherwise,
 
 ## Remarks
 
-This member function implements the [**IDeferredCommand::Postpone**](ideferredcommand-postpone.md) method.
+This member function implements the [**IDeferredCommand::Postpone**](/windows/win32/Control/nf-control-ideferredcommand-postpone?branch=master) method.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ This member function implements the [**IDeferredCommand::Postpone**](ideferredco
 [**CDeferredCommand Class**](cdeferredcommand.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

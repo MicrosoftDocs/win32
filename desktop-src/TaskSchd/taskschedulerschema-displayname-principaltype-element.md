@@ -1,14 +1,20 @@
 ---
 title: DisplayName (principalType) Element
 description: Specifies the name of the principal that is displayed in the Task Scheduler UI.
-ms.assetid: 'a8640cc9-fc16-4e73-9f0c-1ebff338fb84'
-keywords: ["DisplayName element Task Scheduler"]
+ms.assetid: a8640cc9-fc16-4e73-9f0c-1ebff338fb84
+keywords:
+- DisplayName element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - DisplayName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisplayName (principalType) Element
@@ -37,7 +43,7 @@ The **DisplayName** element is defined by the [**principalType**](taskschedulers
 
 For scripting development, the display name of the principal is specified using the [**Principal.DisplayName**](principal-displayname.md) property.
 
-For C++ development, the display name of the principal is specified using the [**IPrincipal::DisplayName**](iprincipal-displayname.md) property.
+For C++ development, the display name of the principal is specified using the [**IPrincipal::DisplayName**](/windows/win32/taskschd/nf-taskschd-iprincipal-get_displayname?branch=master) property.
 
 ## Examples
 
@@ -72,8 +78,8 @@ The following XML defines a principal using a user identifier and a display name
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -84,9 +90,9 @@ The following XML defines a principal using a user identifier and a display name
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

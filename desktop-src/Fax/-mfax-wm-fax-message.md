@@ -1,12 +1,17 @@
-﻿---
-Description: 'The fax server sends a WM\_FAX\_MESSAGE message to a window to notify a fax client application when asynchronous events occur within the fax server.'
-ms.assetid: 'c70dc3e8-2525-44b8-a7e3-0be1af40a8c9'
-title: 'WM\_FAX\_MESSAGE message'
+---
+Description: The fax server sends a WM\_FAX\_MESSAGE message to a window to notify a fax client application when asynchronous events occur within the fax server.
+ms.assetid: c70dc3e8-2525-44b8-a7e3-0be1af40a8c9
+title: WM\_FAX\_MESSAGE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_FAX\_MESSAGE message
 
-The fax server sends a **WM\_FAX\_MESSAGE** message to a window to notify a fax client application when asynchronous events occur within the fax server. The application will receive messages only if it calls the [**FaxInitializeEventQueue**](-mfax-faxinitializeeventqueue.md) function and registers to receive events as notification messages.
+The fax server sends a **WM\_FAX\_MESSAGE** message to a window to notify a fax client application when asynchronous events occur within the fax server. The application will receive messages only if it calls the [**FaxInitializeEventQueue**](/windows/previous-versions/Winfax/nc-winfax-pfaxinitializeeventqueue?branch=master) function and registers to receive events as notification messages.
 
 The message definition provided here is for explanation only; it is not present in any standard header file.
 
@@ -43,11 +48,11 @@ An application returns zero if it processes this message.
 
 ## Remarks
 
-The fax server sends notification messages to the window specified by the *hWnd* parameter to the [**FaxInitializeEventQueue**](-mfax-faxinitializeeventqueue.md) function.
+The fax server sends notification messages to the window specified by the *hWnd* parameter to the [**FaxInitializeEventQueue**](/windows/previous-versions/Winfax/nc-winfax-pfaxinitializeeventqueue?branch=master) function.
 
-A window can process a message as a fax message if the message falls between the range of the client application's base window message and the base window message + **FEI\_NEVENTS**. An application specifies the base window message using the *MessageStart* parameter of the [**FaxInitializeEventQueue**](-mfax-faxinitializeeventqueue.md) function. A **WM\_FAX\_MESSAGE** is an event that falls within the range of *MessageStart* to *MessageStart* + **FEI\_NEVENTS**.
+A window can process a message as a fax message if the message falls between the range of the client application's base window message and the base window message + **FEI\_NEVENTS**. An application specifies the base window message using the *MessageStart* parameter of the [**FaxInitializeEventQueue**](/windows/previous-versions/Winfax/nc-winfax-pfaxinitializeeventqueue?branch=master) function. A **WM\_FAX\_MESSAGE** is an event that falls within the range of *MessageStart* to *MessageStart* + **FEI\_NEVENTS**.
 
-For a list of the asynchronous events that can occur within the fax server, see [**FAX\_EVENT**](-mfax-fax-event-str.md). For more information, see [Enabling an Application to Receive Notifications of Fax Events](-mfax-enabling-an-application-to-receive-notifications-of-fax-events.md).
+For a list of the asynchronous events that can occur within the fax server, see [**FAX\_EVENT**](/windows/previous-versions/Winfax/ns-winfax-_fax_eventa?branch=master). For more information, see [Enabling an Application to Receive Notifications of Fax Events](-mfax-enabling-an-application-to-receive-notifications-of-fax-events.md).
 
 ## Requirements
 
@@ -67,10 +72,10 @@ For a list of the asynchronous events that can occur within the fax server, see 
 [Fax Service Client API for Windows 2000](-mfax-fax-service-client-api-for-windows-2000.md)
 </dt> <dt>
 
-[**FaxInitializeEventQueue**](-mfax-faxinitializeeventqueue.md)
+[**FaxInitializeEventQueue**](/windows/previous-versions/Winfax/nc-winfax-pfaxinitializeeventqueue?branch=master)
 </dt> <dt>
 
-[**FAX\_EVENT**](-mfax-fax-event-str.md)
+[**FAX\_EVENT**](/windows/previous-versions/Winfax/ns-winfax-_fax_eventa?branch=master)
 </dt> </dl>
 
  

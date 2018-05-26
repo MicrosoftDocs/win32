@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'ad20504c-4920-4d72-86ef-04c82d71be70'
-title: 'System.Sensitivity'
+Description: .
+ms.assetid: ad20504c-4920-4d72-86ef-04c82d71be70
+title: System.Sensitivity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Sensitivity

@@ -1,8 +1,11 @@
 ---
 title: IMimePropertySchema RegisterProperty method
 description: Registers a new property in the MimeOLE global property schema.
-ms.assetid: 'd50bac09-18b2-4c08-b23c-2264136ffb43'
-keywords: ["RegisterProperty method Windows Mail (formerly Outlook Express)", "RegisterProperty method Windows Mail (formerly Outlook Express) , IMimePropertySchema interface", "IMimePropertySchema interface Windows Mail (formerly Outlook Express) , RegisterProperty method"]
+ms.assetid: d50bac09-18b2-4c08-b23c-2264136ffb43
+keywords:
+- RegisterProperty method Windows Mail (formerly Outlook Express)
+- RegisterProperty method Windows Mail (formerly Outlook Express) , IMimePropertySchema interface
+- IMimePropertySchema interface Windows Mail (formerly Outlook Express) , RegisterProperty method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimePropertySchema::RegisterProperty method
@@ -22,11 +30,11 @@ Registers a new property in the MimeOLE global property schema.
 
 ```C++
 HRESULT RegisterProperty(
-  [in]  LPCSTR  pszName,
-  [in]  DWORD   dwFlags,
-  [in]  DWORD   dwRowNumber,
-  [in]  VARTYPE vtDefault,
-  [out] LPDWORD pdwPropId
+  [in]  LPCSTR  pszName,
+  [in]  DWORD   dwFlags,
+  [in]  DWORD   dwRowNumber,
+  [in]  VARTYPE vtDefault,
+  [out] LPDWORD pdwPropId
 );
 ```
 
@@ -134,7 +142,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -142,8 +150,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -151,9 +159,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

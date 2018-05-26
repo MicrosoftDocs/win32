@@ -1,11 +1,16 @@
 ---
-Description: 'The system stores user profile information in a specific directory, which has different names in different versions of Windows: &\#0034;Documents and Settings&\#0034; in Windows XP and &\#0034;Users&\#0034; in Windows Vista and later.'
+Description: The system stores user profile information in a specific directory, which has different names in different versions of Windows &\#0034;Documents and Settings&\#0034; in Windows XP and &\#0034;Users&\#0034; in Windows Vista and later.
 title: Profiles Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Profiles Directory
 
-The system stores user profile information in a specific directory, which has different names in different versions of Windows: "Documents and Settings" in Windows XP and "Users" in Windows Vista and later. To obtain the path of the profiles directory, use the [**GetProfilesDirectory**](getprofilesdirectory.md) function.
+The system stores user profile information in a specific directory, which has different names in different versions of Windows: "Documents and Settings" in Windows XP and "Users" in Windows Vista and later. To obtain the path of the profiles directory, use the [**GetProfilesDirectory**](/windows/win32/Userenv/nf-userenv-getprofilesdirectorya?branch=master) function.
 
 The profiles directory contains the following subdirectories for user profiles.
 
@@ -21,7 +26,7 @@ The profiles directory contains the following subdirectories for user profiles.
 
  
 
-To obtain the location of the ProgramData/All Users directory, call the [**GetAllUsersProfileDirectory**](getallusersprofiledirectory.md) function. This directory contains the following subdirectories:
+To obtain the location of the ProgramData/All Users directory, call the [**GetAllUsersProfileDirectory**](/windows/win32/Userenv/nf-userenv-getallusersprofiledirectorya?branch=master) function. This directory contains the following subdirectories:
 
 
 
@@ -34,7 +39,7 @@ To obtain the location of the ProgramData/All Users directory, call the [**GetAl
 
  
 
-To obtain the location of the default user's directory, call the [**GetDefaultUserProfileDirectory**](getdefaultuserprofiledirectory.md) function. To obtain the location of a particular user's directory, call the [**GetUserProfileDirectory**](getuserprofiledirectory.md) function. Both the default user and specific user directories contain the following subdirectories. Directories in italics indicate directories that are hidden by default. You can view these directories by selecting the **Show hidden files, folders, and drives** option in the **Folder Options** control panel item.
+To obtain the location of the default user's directory, call the [**GetDefaultUserProfileDirectory**](/windows/win32/Userenv/nf-userenv-getdefaultuserprofiledirectorya?branch=master) function. To obtain the location of a particular user's directory, call the [**GetUserProfileDirectory**](/windows/win32/Userenv/nf-userenv-getuserprofiledirectorya?branch=master) function. Both the default user and specific user directories contain the following subdirectories. Directories in italics indicate directories that are hidden by default. You can view these directories by selecting the **Show hidden files, folders, and drives** option in the **Folder Options** control panel item.
 
 
 
@@ -111,7 +116,7 @@ To obtain the location of the default user's directory, call the [**GetDefaultUs
 
  
 
-To obtain the location of subdirectories of these directories, use the [**SHGetFolderPath**](shgetfolderpath.md) or [**SHGetKnownFolderPath**](shgetknownfolderpath.md) functions.
+To obtain the location of subdirectories of these directories, use the [**SHGetFolderPath**](/windows/win32/shlobj_core/nf-shlobj_core-shgetfolderpatha?branch=master) or [**SHGetKnownFolderPath**](/windows/win32/shlobj_core/nf-shlobj_core-shgetknownfolderpath?branch=master) functions.
 
  
 

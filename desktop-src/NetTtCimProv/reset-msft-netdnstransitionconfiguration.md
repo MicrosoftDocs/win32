@@ -1,7 +1,12 @@
 ---
-Description: 'Resets the configuration for DNS64.'
-ms.assetid: '04603286-947c-4708-8cd3-468f9142e27f'
-title: 'Reset method of the MSFT\_NetDnsTransitionConfiguration class'
+Description: Resets the configuration for DNS64.
+ms.assetid: 04603286-947c-4708-8cd3-468f9142e27f
+title: Reset method of the MSFT\_NetDnsTransitionConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the MSFT\_NetDnsTransitionConfiguration class
@@ -13,15 +18,15 @@ Resets the configuration for DNS64.
 
 ```mof
 uint32 Reset(
-  [in]  boolean                            State,
-  [in]  boolean                            OnlySendAQuery,
-  [in]  boolean                            Latency,
-  [in]  boolean                            AlwaysSynthesize,
-  [in]  boolean                            PrefixMapping,
-  [in]  boolean                            SendInterface,
-  [in]  boolean                            AcceptInterface,
-  [in]  boolean                            PassThru,
-  [out] MSFT_NetDnsTransitionConfiguration OutputObject
+  [in]  boolean                            State,
+  [in]  boolean                            OnlySendAQuery,
+  [in]  boolean                            Latency,
+  [in]  boolean                            AlwaysSynthesize,
+  [in]  boolean                            PrefixMapping,
+  [in]  boolean                            SendInterface,
+  [in]  boolean                            AcceptInterface,
+  [in]  boolean                            PassThru,
+  [out] MSFT_NetDnsTransitionConfiguration OutputObject
 );
 ```
 
@@ -100,8 +105,8 @@ Receives the reset [**MSFT\_NetDnsTransitionConfiguration**](msft-netdnstransiti
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
@@ -115,9 +120,9 @@ Receives the reset [**MSFT\_NetDnsTransitionConfiguration**](msft-netdnstransiti
 [**MSFT\_NetDnsTransitionConfiguration**](msft-netdnstransitionconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

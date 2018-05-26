@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to write a handler used to display a file preview inside the Windows Explorer preview pane or other preview handler hosts.'
+Description: Demonstrates how to write a handler used to display a file preview inside the Windows Explorer preview pane or other preview handler hosts.
 title: Recipe Preview Handler Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recipe Preview Handler Sample
@@ -98,10 +103,10 @@ To make both the 32-bit (x86) and 64-bit (x64) output work on a 64-bit version o
 
 <dl> <dt>
 
-[**IPreviewHandler**](ipreviewhandler.md)
+[**IPreviewHandler**](/windows/win32/Shobjidl/nn-shobjidl_core-ipreviewhandler?branch=master)
 </dt> <dt>
 
-[**IPreviewHandlerFrame**](ipreviewhandlerframe.md)
+[**IPreviewHandlerFrame**](/windows/win32/Shobjidl/nn-shobjidl_core-ipreviewhandlerframe?branch=master)
 </dt> <dt>
 
 [Application User Model IDs (AppUserModelIDs)](appids.md)

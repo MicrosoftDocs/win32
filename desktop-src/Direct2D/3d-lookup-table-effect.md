@@ -1,7 +1,12 @@
 ---
 title: 3D Lookup Table effect
 description: A 3D look-up table is a general-purpose effect that is used to encapsulate any 1 1 imaging effect by pre-computing how the effect maps inputs to outputs for a subset of all input values.
-ms.assetid: '2f0b4b6d-f371-101c-918a-bf564778e593'
+ms.assetid: 2f0b4b6d-f371-101c-918a-bf564778e593
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 3D Lookup Table effect
@@ -10,7 +15,7 @@ A 3D look-up table is a general-purpose effect that is used to encapsulate any 1
 
 The 3D Lookup Table (LUT) effect modifies an input image by using the image's RGB color value to index a 3D texture, where the texture contains a precomputed output value of an arbitrary effect pipeline.
 
-The 3D LUT must be loaded into a GPU texture resource in order to be rendered, and this can be expensive depending on the size of the texture and the device capabilities. Application developers can specify when to pay this cost using the [**ID2D1LookupTable3D**](id2d1lookuptable3d.md) D2D resource. **ID2D1LookupTable3D** has the following attributes:
+The 3D LUT must be loaded into a GPU texture resource in order to be rendered, and this can be expensive depending on the size of the texture and the device capabilities. Application developers can specify when to pay this cost using the [**ID2D1LookupTable3D**](/windows/win32/d2d1_3/?branch=master) D2D resource. **ID2D1LookupTable3D** has the following attributes:
 
 -   Provides an abstracted representation of 3D LUT's GPU resource.
 -   Depending on the device capabilities, either a 2D or 3D texture will be created and filled with the provided LUT data.
@@ -114,7 +119,7 @@ The CLSID for this effect is CLSID\_D2D1LookupTable3D.
 
 ## Effect Properties
 
-The properties for the 3D lookup table effect are defined by the [**D2D1\_LOOKUPTABLE3D\_PROP**](d2d1-lookuptable3d-prop.md) enumeration.
+The properties for the 3D lookup table effect are defined by the [**D2D1\_LOOKUPTABLE3D\_PROP**](/windows/win32/d2d1effects_2/ne-d2d1effects_2-d2d1_lookuptable3d_prop?branch=master) enumeration.
 
 ## Requirements
 
@@ -135,7 +140,7 @@ The properties for the 3D lookup table effect are defined by the [**D2D1\_LOOKUP
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
  

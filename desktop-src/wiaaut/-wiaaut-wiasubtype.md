@@ -1,8 +1,10 @@
 ---
 title: WiaSubType enumeration
 description: Specifies more detail about the property value. Use the SubType property on the Property object to obtain these details for the property.
-ms.assetid: 'c259b2f8-fa2a-4913-b6c5-6a1b56f2f079'
-keywords: ["WiaSubType enumeration WIA Automation", "WiaDeviceType enumeration WIA Automation"]
+ms.assetid: c259b2f8-fa2a-4913-b6c5-6a1b56f2f079
+keywords:
+- WiaSubType enumeration WIA Automation
+- WiaDeviceType enumeration WIA Automation
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WiaSubType enumeration
@@ -42,16 +49,16 @@ For example code, see [Display Detailed Property Information](-wiaaut-shared-sam
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

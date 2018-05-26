@@ -1,7 +1,12 @@
 ---
 title: NDF Reference
 description: The NDF reference is divided into the following sections
-ms.assetid: 'c1133b7f-1cc0-47b7-8dec-ae7ce41efc0e'
+ms.assetid: c1133b7f-1cc0-47b7-8dec-ae7ce41efc0e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDF Reference

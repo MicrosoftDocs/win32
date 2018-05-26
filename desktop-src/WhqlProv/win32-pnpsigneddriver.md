@@ -1,8 +1,10 @@
 ---
 title: Win32\_PnPSignedDriver class
 description: The Win32\_PnPSignedDriver WMI class provides digital signature information about drivers.
-ms.assetid: '8ada3b4d-c9de-4847-ba78-470bae70820e'
-keywords: ["Win32_PnPSignedDriver class", "Win32_PnPSignedDriver class, described"]
+ms.assetid: 8ada3b4d-c9de-4847-ba78-470bae70820e
+keywords:
+- Win32_PnPSignedDriver class
+- Win32_PnPSignedDriver class, described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,11 @@ api_location:
 - SignDrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_PnPSignedDriver class
@@ -50,32 +57,32 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_PnPSignedDriver : CIM_Service
 {
-  string   ClassGuid;
-  string   CompatID;
-  string   Description;
-  string   DeviceClass;
-  string   DeviceID;
-  string   DeviceName;
-  string   DevLoader;
-  string   DriverDate;
-  string   DriverName;
-  string   DriverVersion;
-  string   FriendlyName;
-  string   HardWareID;
-  string   InfName;
+  string   ClassGuid;
+  string   CompatID;
+  string   Description;
+  string   DeviceClass;
+  string   DeviceID;
+  string   DeviceName;
+  string   DevLoader;
+  string   DriverDate;
+  string   DriverName;
+  string   DriverVersion;
+  string   FriendlyName;
+  string   HardWareID;
+  string   InfName;
   datetime InstallDate;
-  boolean  IsSigned;
-  string   Location;
-  string   Manufacturer;
-  string   Name;
-  string   PDO;
-  string   DriverProviderName;
-  string   Signer;
-  boolean  Started;
-  string   StartMode;
-  string   Status;
-  string   SystemCreationClassName;
-  string   SystemName;
+  boolean  IsSigned;
+  string   Location;
+  string   Manufacturer;
+  string   Name;
+  string   PDO;
+  string   DriverProviderName;
+  string   Signer;
+  boolean  Started;
+  string   StartMode;
+  string   Status;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -99,7 +106,7 @@ The **Win32\_PnPSignedDriver** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -507,8 +514,8 @@ For more information on using this class, see [How Can I Get a List of Installed
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>WhqlProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SignDrv.dll</dt> </dl>  |
@@ -522,9 +529,9 @@ For more information on using this class, see [How Can I Get a List of Installed
 [Computer System Hardware Classes](https://msdn.microsoft.com/library/aa389273)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

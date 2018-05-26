@@ -1,8 +1,17 @@
 ---
 title: Attribute Groups
 description: Attribute Groups
-ms.assetid: '9fd7dc6e-6749-4e32-b795-21b63b64c291'
-keywords: ["OpenGL,attribute groups", "OpenGL reference,attribute groups", "reference for OpenGL,attribute groups", "attribute groups"]
+ms.assetid: 9fd7dc6e-6749-4e32-b795-21b63b64c291
+keywords:
+- OpenGL,attribute groups
+- OpenGL reference,attribute groups
+- reference for OpenGL,attribute groups
+- attribute groups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attribute Groups

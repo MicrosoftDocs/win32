@@ -4,13 +4,15 @@ description: Defines the capabilities of a CIM\_iSCSIConfigurationService.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '15472831-255c-4a48-8cad-26a3d716e8e5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 15472831-255c-4a48-8cad-26a3d716e8e5
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_iSCSIConfigurationCapabilities class iSCSI Software Target API", "MSISCSITARGET_iSCSIConfigurationCapabilities class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_iSCSIConfigurationCapabilities class iSCSI Software Target API
+- MSISCSITARGET_iSCSIConfigurationCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_iSCSIConfigurationCapabilities class
@@ -40,10 +45,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Static, Experimental, Version("1.0.0")]
 class MSISCSITARGET_iSCSIConfigurationCapabilities : CIM_iSCSIConfigurationCapabilities
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
   boolean iSCSIProtocolEndpointCreationSupported = FALSE;
   boolean IdentifierSelectionSupported = FALSE;
   boolean iSCSINodeCreationSupported = FALSE;
@@ -183,7 +188,7 @@ This property is inherited from [**CIM\_iSCSIConfigurationCapabilities**](cim-is
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -212,9 +217,9 @@ This property is inherited from [**CIM\_iSCSIConfigurationCapabilities**](cim-is
 [**CIM\_SCSIProtocolController**](https://msdn.microsoft.com/library/cc136905)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

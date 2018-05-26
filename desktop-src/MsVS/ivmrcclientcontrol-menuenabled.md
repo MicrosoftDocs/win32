@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl MenuEnabled property
-description: The MenuEnabled property indicates whether the client's menu is displayed.
-ms.assetid: 'c8afa3f8-6b43-460a-bf2d-b5dd4536de71'
-keywords: ["MenuEnabled property Virtual Server", "MenuEnabled property Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , MenuEnabled property", "MenuEnabled property Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , MenuEnabled property"]
+description: The MenuEnabled property indicates whether the clients menu is displayed.
+ms.assetid: c8afa3f8-6b43-460a-bf2d-b5dd4536de71
+keywords:
+- MenuEnabled property Virtual Server
+- MenuEnabled property Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , MenuEnabled property
+- MenuEnabled property Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , MenuEnabled property
 topic_type:
 - apiref
 api_name:
@@ -15,6 +20,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::MenuEnabled property
@@ -28,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_MenuEnabled(
-  [in]  VARIANT_BOOL menuEnabled
+  [in]  VARIANT_BOOL menuEnabled
 );
 
 HRESULT get_MenuEnabled(
-  [out] VARIANT_BOOL *menuEnabled
+  [out] VARIANT_BOOL *menuEnabled
 );
 ```
 
@@ -83,8 +93,8 @@ This property value is read/write.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -97,9 +107,9 @@ This property value is read/write.
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

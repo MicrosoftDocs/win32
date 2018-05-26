@@ -1,14 +1,19 @@
 ---
 Description: Retrieving Properties for a Single Object
-ms.assetid: 'e4e3b286-6330-4147-a367-57accf5beae6'
+ms.assetid: e4e3b286-6330-4147-a367-57accf5beae6
 title: Retrieving Properties for a Single Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Properties for a Single Object
 
-After your application retrieves an object identifier (see the [Enumerating Content](enumerating-content.md) topic) for a given object, it can retrieve descriptive information about that object by calling methods in the [**IPortableDeviceProperties interface**](iportabledeviceproperties.md) and the [**IPortableDeviceKeyCollection interface**](iportabledevicekeycollection.md).
+After your application retrieves an object identifier (see the [Enumerating Content](enumerating-content.md) topic) for a given object, it can retrieve descriptive information about that object by calling methods in the [**IPortableDeviceProperties interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master) and the [**IPortableDeviceKeyCollection interface**](iportabledevicekeycollection.md).
 
-The [**IPortableDeviceProperties::GetValues**](iportabledeviceproperties-getvalues.md) method retrieves a list of specified properties for a given object. (Your application could also call the GetValues method and specify a **NULL** value for the pKeys parameter to retrieve all properties for a given object; however, the performance of this method may be significantly slower when retrieving all properties.)
+The [**IPortableDeviceProperties::GetValues**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getvalues?branch=master) method retrieves a list of specified properties for a given object. (Your application could also call the GetValues method and specify a **NULL** value for the pKeys parameter to retrieve all properties for a given object; however, the performance of this method may be significantly slower when retrieving all properties.)
 
 Before your application calls GetValues, however, it needs to identify the properties to retrieve by setting corresponding keys in an [**IPortableDeviceKeyCollection object**](iportabledevicekeycollection.md). Your application will identify the properties of interest by calling the [**IPortableDeviceKeyCollection::Add**](iportabledevicekeycollection-add.md) method and supplying a PROPERTYKEY value that identifies each property that it will retrieve.
 
@@ -79,7 +84,7 @@ if (SUCCEEDED(hr))
 
 
 
-Once the sample application set the appropriate keys, it called the [**IPortableDeviceProperties::GetValues**](iportabledeviceproperties-getvalues.md) method to retrieve the specified values for the given object.
+Once the sample application set the appropriate keys, it called the [**IPortableDeviceProperties::GetValues**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getvalues?branch=master) method to retrieve the specified values for the given object.
 
 
 ```C++
@@ -101,13 +106,13 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
 [**IPortableDeviceKeyCollection Interface**](iportabledevicekeycollection.md)
 </dt> <dt>
 
-[**IPortableDeviceProperties Interface**](iportabledeviceproperties.md)
+[**IPortableDeviceProperties Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master)
 </dt> <dt>
 
 [**Programming Guide**](programming-guide.md)

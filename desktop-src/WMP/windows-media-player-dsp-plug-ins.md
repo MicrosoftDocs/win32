@@ -1,8 +1,19 @@
 ---
 title: Windows Media Player DSP Plug-ins
 description: Windows Media Player DSP Plug-ins
-ms.assetid: '1c7202c4-ca66-491d-9a5f-26032cad1dcc'
-keywords: ["Windows Media Player,plug-ins", "Windows Media Player,DSP plug-ins", "Windows Media Player plug-ins,digital signal processing (DSP)", "plug-ins,digital signal processing (DSP)", "digital signal processing plug-ins,about", "DSP plug-ins,about"]
+ms.assetid: 1c7202c4-ca66-491d-9a5f-26032cad1dcc
+keywords:
+- Windows Media Player,plug-ins
+- Windows Media Player,DSP plug-ins
+- Windows Media Player plug-ins,digital signal processing (DSP)
+- plug-ins,digital signal processing (DSP)
+- digital signal processing plug-ins,about
+- DSP plug-ins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Player DSP Plug-ins

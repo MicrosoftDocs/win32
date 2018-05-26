@@ -4,11 +4,13 @@ description: Retrieves a cluster reference object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0136CF16-7814-4EC7-9117-D3C0CF3A8216'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0136CF16-7814-4EC7-9117-D3C0CF3A8216
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusRefObject object Failover Cluster", "ClusRefObject object Failover Cluster , described"]
+keywords:
+- ClusRefObject object Failover Cluster
+- ClusRefObject object Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusRefObject object
@@ -44,7 +49,7 @@ The **ClusRefObject** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,7 +58,7 @@ The **ClusRefObject** object has these properties.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -69,9 +74,9 @@ The **ClusRefObject** object has these properties.
 [Cluster Management Objects](cluster-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

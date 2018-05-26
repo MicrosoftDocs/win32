@@ -1,14 +1,17 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: 'noindex, nofollow'
+Robots: noindex, nofollow
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5354bc0b-8fcf-4982-8611-839458bb2ef7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5354bc0b-8fcf-4982-8611-839458bb2ef7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: W
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # W
@@ -34,7 +37,7 @@ A template for a type of [*managed object*](gloss-m.md#wmi-gloss-managed-object)
 <span id="wmi.gloss_wmi_class_provider"></span><span id="WMI.GLOSS_WMI_CLASS_PROVIDER"></span>**WMI Class Provider**
 </dt> <dd>
 
-A COM server that supplies class definitions. Class providers implement methods in the [**IWbemServices**](iwbemservices.md) interface to support data retrieval, modification, deletion, enumeration, and query processing.
+A COM server that supplies class definitions. Class providers implement methods in the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) interface to support data retrieval, modification, deletion, enumeration, and query processing.
 
 </dd> <dt>
 
@@ -69,7 +72,7 @@ A subset of structured query language (SQL) with extensions to support WMI event
 <span id="wmi.gloss_wmi_method"></span><span id="WMI.GLOSS_WMI_METHOD"></span>**WMI method**
 </dt> <dd>
 
-A method implemented by the WMI [COM API](com-api-for-wmi.md) or the [Scripting API](scripting-api-for-wmi.md). Two examples are the COM method [**IWbemServices::ExecMethod**](iwbemservices-execmethod.md) and the similar scripting API method [**SWbemServices.ExecMethod**](swbemservices-execmethod.md).
+A method implemented by the WMI [COM API](com-api-for-wmi.md) or the [Scripting API](scripting-api-for-wmi.md). Two examples are the COM method [**IWbemServices::ExecMethod**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execmethod?branch=master) and the similar scripting API method [**SWbemServices.ExecMethod**](swbemservices-execmethod.md).
 
 </dd> <dt>
 

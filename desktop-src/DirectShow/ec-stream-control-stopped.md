@@ -1,7 +1,12 @@
 ---
-Description: 'A stream-control stop command has taken effect.'
-ms.assetid: 'a2f7a959-fafd-47ff-9b3d-1a898fdb1f81'
-title: 'EC\_STREAM\_CONTROL\_STOPPED'
+Description: A stream-control stop command has taken effect.
+ms.assetid: a2f7a959-fafd-47ff-9b3d-1a898fdb1f81
+title: EC\_STREAM\_CONTROL\_STOPPED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_STREAM\_CONTROL\_STOPPED
@@ -15,7 +20,7 @@ A stream-control stop command has taken effect.
 <span id="pSender"></span><span id="psender"></span><span id="PSENDER"></span>*pSender*
 </dt> <dd>
 
-(**IUnknown**\*) Pointer to the [**IPin**](ipin.md) interface of the pin that stopped the stream.
+(**IUnknown**\*) Pointer to the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface of the pin that stopped the stream.
 
 </dd> <dt>
 
@@ -32,11 +37,11 @@ None.
 
 ## Remarks
 
-Filters send this event in response to the [**IAMStreamControl::StopAt**](iamstreamcontrol-stopat.md) method. The **StopAt** method specifies a reference time for a pin to stop streaming. When streaming does halt, the filter sends this event.
+Filters send this event in response to the [**IAMStreamControl::StopAt**](/windows/win32/Strmif/nf-strmif-iamstreamcontrol-stopat?branch=master) method. The **StopAt** method specifies a reference time for a pin to stop streaming. When streaming does halt, the filter sends this event.
 
-The *pSender* parameter specifies the pin that executes the stop command. Depending on the implementation, it might not be the pin that received the [**StopAt**](iamstreamcontrol-stopat.md) call.
+The *pSender* parameter specifies the pin that executes the stop command. Depending on the implementation, it might not be the pin that received the [**StopAt**](/windows/win32/Strmif/nf-strmif-iamstreamcontrol-stopat?branch=master) call.
 
-The *dwCookie* parameter is specified by the application in the [**StopAt**](iamstreamcontrol-stopat.md) method. This parameter enables the application to track multiple calls to the method.
+The *dwCookie* parameter is specified by the application in the [**StopAt**](/windows/win32/Strmif/nf-strmif-iamstreamcontrol-stopat?branch=master) method. This parameter enables the application to track multiple calls to the method.
 
 ## Requirements
 
@@ -58,9 +63,9 @@ The *dwCookie* parameter is specified by the application in the [**StopAt**](iam
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

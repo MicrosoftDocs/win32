@@ -1,7 +1,12 @@
 ---
-Description: 'A WS-Discovery message used to announce the presence of a device or service on the network.'
-ms.assetid: 'a7402e02-9bdc-49ec-ba93-8a32f55b9dd8'
+Description: A WS-Discovery message used to announce the presence of a device or service on the network.
+ms.assetid: a7402e02-9bdc-49ec-ba93-8a32f55b9dd8
 title: Hello Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hello Message

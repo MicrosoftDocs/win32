@@ -1,14 +1,17 @@
 ---
 title: IFsrmPropertyCondition Name property
-description: The name of the classification property whose value you want to compare to the property condition's value.
+description: The name of the classification property whose value you want to compare to the property conditions value.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '45efc964-9632-434a-a4ae-93a65fcb2951'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 45efc964-9632-434a-a4ae-93a65fcb2951
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["Name property File Server Resource Manager", "Name property File Server Resource Manager , IFsrmPropertyCondition interface", "IFsrmPropertyCondition interface File Server Resource Manager , Name property"]
+keywords:
+- Name property File Server Resource Manager
+- Name property File Server Resource Manager , IFsrmPropertyCondition interface
+- IFsrmPropertyCondition interface File Server Resource Manager , Name property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IFsrmPropertyCondition::Name property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Name(
-  [in]  BSTR name
+  [in]  BSTR name
 );
 
 HRESULT get_Name(
-  [out] BSTR *pName
+  [out] BSTR *pName
 );
 ```
 
@@ -80,7 +86,7 @@ The name is not an existing property definition.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
 | IID<br/>                      | IID\_IFsrmPropertyCondition is defined as 326af66f-2ac0-4f68-bf8c-4759f054fa29<br/> |
 
@@ -90,12 +96,12 @@ The name is not an existing property definition.
 
 <dl> <dt>
 
-[**IFsrmPropertyCondition**](ifsrmpropertycondition.md)
+[**IFsrmPropertyCondition**](/windows/previous-versions/Fsrm/nn-fsrmreports-ifsrmpropertycondition?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

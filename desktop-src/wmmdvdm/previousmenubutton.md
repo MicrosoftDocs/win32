@@ -1,14 +1,20 @@
 ---
 title: PreviousMenuButton element
 description: Specifies the location and size of the \ 0034;Previous Menu \ 0034; button.
-ms.assetid: '932775ea-dd73-4e45-ad61-09abe080e768'
-keywords: ["PreviousMenuButton element Windows Movie Maker and DVD Maker"]
+ms.assetid: 932775ea-dd73-4e45-ad61-09abe080e768
+keywords:
+- PreviousMenuButton element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - PreviousMenuButton
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PreviousMenuButton element
@@ -49,7 +55,7 @@ When available, the "Previous Menu" button sends users from the current scenes m
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -94,9 +100,9 @@ When available, the "Previous Menu" button sends users from the current scenes m
 [**ScenesMenu6 Element**](scenesmenu6.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

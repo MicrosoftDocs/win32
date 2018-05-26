@@ -1,8 +1,10 @@
 ---
 title: ID3DX11EffectType interface
 description: The ID3DX11EffectType interface accesses effect variables by type.The lifetime of an ID3DX11EffectType object is equal to the lifetime of its parent ID3DX11Effect object.
-ms.assetid: '700076ee-a5fe-4af2-a5f4-053c05d8ddf0'
-keywords: ["ID3DX11EffectType interface Direct3D 11", "ID3DX11EffectType interface Direct3D 11 , described"]
+ms.assetid: 700076ee-a5fe-4af2-a5f4-053c05d8ddf0
+keywords:
+- ID3DX11EffectType interface Direct3D 11
+- ID3DX11EffectType interface Direct3D 11 , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectType interface
@@ -40,7 +47,7 @@ The **ID3DX11EffectType** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -49,7 +56,7 @@ To get information about an effect type from an effect variable, call [**ID3DX11
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -72,9 +79,9 @@ To get information about an effect type from an effect variable, call [**ID3DX11
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

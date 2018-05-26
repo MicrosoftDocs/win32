@@ -1,7 +1,12 @@
 ---
 title: Creating Links from One Contents File to Another
 description: HTML Help provides the capability to link from one contents file to another.
-ms.assetid: '4684B6A8-03E2-433c-BEEE-45A96DBCAE0E'
+ms.assetid: 4684B6A8-03E2-433c-BEEE-45A96DBCAE0E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Links from One Contents File to Another
@@ -18,7 +23,7 @@ HTML Help provides the capability to link from one contents file to another. Thi
 
     
 
-     
+     
 
 2.  Type a name for the heading that will include your contents entries from another help file, and then click **OK**.
 3.  Right-click the heading, and then click **Insert File**.
@@ -35,7 +40,7 @@ HTML Help provides the capability to link from one contents file to another. Thi
     > [!Note]  
     > The contents are merged at run time, which is when the compiled help (.chm) file is opened. Because of this, you must always ship the compiled help file whose contents you are merging with your main help file, and they must be stored in the same directory.
 
-     
+     
 
 ## Related topics
 
@@ -44,9 +49,9 @@ HTML Help provides the capability to link from one contents file to another. Thi
 [About Creating Table of Contents Files](create-a-table-of-contents-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

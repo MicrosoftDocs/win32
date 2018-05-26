@@ -1,14 +1,20 @@
 ---
 title: ProcessIsolineTessFactors function
 description: Generates the rounded tessellation factors for an isoline.
-ms.assetid: '0816b3e0-cb03-4a7a-9732-e84c637b3d48'
-keywords: ["ProcessIsolineTessFactors function HLSL"]
+ms.assetid: 0816b3e0-cb03-4a7a-9732-e84c637b3d48
+keywords:
+- ProcessIsolineTessFactors function HLSL
 topic_type:
 - apiref
 api_name:
 - ProcessIsolineTessFactors
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProcessIsolineTessFactors function

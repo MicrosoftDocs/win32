@@ -4,13 +4,16 @@ description: Gets free/unassigned IP Address(es) from the specified scope.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a838ea7a-0cee-4a7d-bd14-604be1924b00'
-ms.prod: 'windows-server-dev'
+ms.assetid: a838ea7a-0cee-4a7d-bd14-604be1924b00
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv4FreeIPAddress class", "PS_DhcpServerv4FreeIPAddress class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv4FreeIPAddress class
+- PS_DhcpServerv4FreeIPAddress class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv4FreeIPAddress class
@@ -30,12 +36,12 @@ Gets free/unassigned IP Address(es) from the specified scope.
 
 ```mof
 uint32 Get(
-  [in]  string ComputerName,
-  [in]  string ScopeId,
-  [in]  uint32 NumAddress,
-  [in]  string StartAddress,
-  [in]  string EndAddress,
-  [out] string cmdletOutput[]
+  [in]  string ComputerName,
+  [in]  string ScopeId,
+  [in]  uint32 NumAddress,
+  [in]  string StartAddress,
+  [in]  string EndAddress,
+  [out] string cmdletOutput[]
 );
 ```
 
@@ -94,7 +100,7 @@ An array of IP addresses from the scopes which are unallocated/ not leased.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -108,9 +114,9 @@ An array of IP addresses from the scopes which are unallocated/ not leased.
 [**PS\_DhcpServerv4FreeIPAddress**](ps-dhcpserverv4freeipaddress.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

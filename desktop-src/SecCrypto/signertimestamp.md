@@ -1,7 +1,12 @@
-﻿---
-Description: 'Time stamps the specified subject. This function supports Authenticode time stamping. To perform X.509 Public Key Infrastructure (RFC 3161) time stamping, use the SignerTimeStampEx2 function.'
-ms.assetid: 'fb2c149b-dba2-4879-be97-831037e1110b'
+---
+Description: Time stamps the specified subject. This function supports Authenticode time stamping. To perform X.509 Public Key Infrastructure (RFC 3161) time stamping, use the SignerTimeStampEx2 function.
+ms.assetid: fb2c149b-dba2-4879-be97-831037e1110b
 title: SignerTimeStamp function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SignerTimeStamp function
@@ -48,7 +53,7 @@ The address of a null-terminated Unicode string that contains the URL of a time 
 *psRequest* \[in, optional\]
 </dt> <dd>
 
-The address of a [**CRYPT\_ATTRIBUTES**](crypt-attributes.md) structure that contains additional attributes that are added to the time stamp request.
+The address of a [**CRYPT\_ATTRIBUTES**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_attributes?branch=master) structure that contains additional attributes that are added to the time stamp request.
 
 This parameter is optional and can be **NULL** if it is not included.
 

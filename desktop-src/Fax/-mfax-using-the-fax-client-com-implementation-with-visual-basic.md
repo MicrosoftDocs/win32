@@ -1,7 +1,12 @@
 ---
-Description: 'The Fax Service Client API Component Object Model (COM) interface documentation for Microsoft Visual Basic programmers is organized around the fax client object model.'
-ms.assetid: 'f1aaee48-dd16-402e-99e6-266625b8929b'
+Description: The Fax Service Client API Component Object Model (COM) interface documentation for Microsoft Visual Basic programmers is organized around the fax client object model.
+ms.assetid: f1aaee48-dd16-402e-99e6-266625b8929b
 title: Using the Fax Client COM Implementation with Visual Basic
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Fax Client COM Implementation with Visual Basic
@@ -14,7 +19,7 @@ The Fax Service Client API Component Object Model (COM) interface documentation
 
 Note that the corresponding C/C++ interface method topics contain information that is of interest to Visual Basic programmers. For example, these equivalent topics provide cross-references to related topics and remarks of interest, and they may also contain detailed parameter descriptions.
 
-The C/C++ interface method names begin with **IFax**. Hyperlinks to these topics are provided in the tables describing the Visual Basic properties and methods. For example, when you click the Visual Basic  **Send** method of the [**FaxDoc object**](-mfax-faxdoc-object-visual-basic-.md), it displays the [**IFaxDoc::Send**](-mfax-ifaxdoc-mfax-ifaxdoc-send-cpp.md) method C/C++ reference topic. You can return to the Visual Basic  **FaxDoc** object reference topic from the C/C++ topic by clicking the Visual Basic reference hyperlink located above the C/C++ syntax block.
+The C/C++ interface method names begin with **IFax**. Hyperlinks to these topics are provided in the tables describing the Visual Basic properties and methods. For example, when you click the Visual Basic  **Send** method of the [**FaxDoc object**](-mfax-faxdoc-object-visual-basic-.md), it displays the [**IFaxDoc::Send**](/windows/previous-versions/Faxcom/?branch=master) method C/C++ reference topic. You can return to the Visual Basic  **FaxDoc** object reference topic from the C/C++ topic by clicking the Visual Basic reference hyperlink located above the C/C++ syntax block.
 
 ## Related topics
 

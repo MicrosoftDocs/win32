@@ -1,7 +1,12 @@
 ---
 title: f32tof16 (sm5 - asm)
 description: Component-wise float16 to float32 conversion.
-ms.assetid: '36BCCFC5-722A-45EB-8A66-7544833BBBA5'
+ms.assetid: 36BCCFC5-722A-45EB-8A66-7544833BBBA5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # f32tof16 (sm5 - asm)
@@ -15,7 +20,7 @@ Component-wise float16 to float32 conversion.
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Component-wise float16 to float32 conversion.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -46,7 +51,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -65,7 +70,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -74,9 +79,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

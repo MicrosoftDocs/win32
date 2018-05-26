@@ -1,7 +1,12 @@
 ---
 Description: Directory Access Technologies
-ms.assetid: '9880a969-b72a-4fb3-b1db-0c16425affa9'
+ms.assetid: 9880a969-b72a-4fb3-b1db-0c16425affa9
 title: Directory Access Technologies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Directory Access Technologies

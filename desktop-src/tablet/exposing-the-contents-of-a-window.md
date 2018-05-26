@@ -1,7 +1,12 @@
 ---
-Description: 'Overview of exposing the contents of a window for the Tablet PC.'
-ms.assetid: 'fb8319ee-28f4-483a-bfca-1cded4594d9a'
+Description: Overview of exposing the contents of a window for the Tablet PC.
+ms.assetid: fb8319ee-28f4-483a-bfca-1cded4594d9a
 title: Exposing the Contents of a Window
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exposing the Contents of a Window

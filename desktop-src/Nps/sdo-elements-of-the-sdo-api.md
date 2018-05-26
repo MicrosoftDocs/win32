@@ -4,10 +4,13 @@ description: The SDO API is designed around an object model consisting of object
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd181da35-dea1-4660-a9aa-40f66920fafd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: d181da35-dea1-4660-a9aa-40f66920fafd
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Elements of the SDO API

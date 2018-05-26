@@ -1,8 +1,9 @@
 ---
 title: PGN\_HOTITEMCHANGE message
-description: Notifies a pager control's parent window that the hot (highlighted) item has change. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '0f59677c-0251-49f4-b909-6fac6d93f354'
-keywords: ["PGN_HOTITEMCHANGE message Windows Controls"]
+description: Notifies a pager controls parent window that the hot (highlighted) item has change. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 0f59677c-0251-49f4-b909-6fac6d93f354
+keywords:
+- PGN_HOTITEMCHANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PGN\_HOTITEMCHANGE message
@@ -33,7 +39,7 @@ PGN_HOTITEMCHANGE
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**NMPGHOTITEM**](nmpghotitem.md) structure that contains information about this notification code.
+Pointer to a [**NMPGHOTITEM**](/windows/win32/Commctrl/ns-commctrl-tagnmpghotitem?branch=master) structure that contains information about this notification code.
 
 </dd> </dl>
 
@@ -46,7 +52,7 @@ Return zero to highlight the item or nonzero to prevent highlighting.
 > [!Note]  
 > To use this notification code, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -54,15 +60,15 @@ Return zero to highlight the item or nonzero to prevent highlighting.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

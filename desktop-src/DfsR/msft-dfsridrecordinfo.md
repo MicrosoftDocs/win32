@@ -4,13 +4,15 @@ description: This class provides access to ID Table records. The ID Table has a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '173c3262-0ed1-420b-a8ec-ac722a1fb9de'
-ms.prod: 'windows-server-dev'
+ms.assetid: 173c3262-0ed1-420b-a8ec-ac722a1fb9de
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsrIdRecordInfo class Distributed File System Replication", "MSFT_DfsrIdRecordInfo class Distributed File System Replication , described"]
+keywords:
+- MSFT_DfsrIdRecordInfo class Distributed File System Replication
+- MSFT_DfsrIdRecordInfo class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -36,6 +38,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsrIdRecordInfo class
@@ -48,23 +53,23 @@ This class provides access to ID Table records. The ID Table has a record for ea
 [ClassVersion("1.0.0"), dynamic, provider("DfsrWMIV2"), AMENDMENT]
 class MSFT_DfsrIdRecordInfo
 {
-  string   Uid;
-  uint8    Flags;
-  uint32   Attributes;
-  string   GVsn;
-  sint64   Usn;
-  string   ParentUid;
-  uint64   Fid;
-  string   Volume;
-  string   Fence;
-  uint64   Clock;
+  string   Uid;
+  uint8    Flags;
+  uint32   Attributes;
+  string   GVsn;
+  sint64   Usn;
+  string   ParentUid;
+  uint64   Fid;
+  string   Volume;
+  string   Fence;
+  uint64   Clock;
   datetime CreateTime;
   datetime UpdateTime;
-  string   FileHash;
-  string   FileName;
-  string   FullPathName;
-  uint32   Index;
-  string   ReplicatedFolderGuid;
+  string   FileHash;
+  string   FileName;
+  string   FullPathName;
+  uint32   Index;
+  string   ReplicatedFolderGuid;
 };
 ```
 
@@ -88,7 +93,7 @@ The **MSFT\_DfsrIdRecordInfo** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -491,7 +496,7 @@ The volume where the file or folder is located. The volume format is either "\\\
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -505,9 +510,9 @@ The volume where the file or folder is located. The volume format is either "\\\
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,34 @@
 ---
 title: Using Skins with the Windows Media Player Control
 description: Using Skins with the Windows Media Player Control
-ms.assetid: '0381e0e4-c686-4ab4-b947-b883b6f4e06e'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player,C++", "Windows Media Player object model,C++", "object model,C++", "Windows Media Player Mobile,C++", "Windows Media Player ActiveX control,C++", "Windows Media Player Mobile ActiveX control,C++", "ActiveX control,C++", "C++ program embedding", "embedding,C++ programs", "Windows Media Player ActiveX control,skins", "Windows Media Player Mobile ActiveX control,skins", "ActiveX control,skins", "skins,embedding ActiveX control", "Windows Media Player skins,embedding ActiveX control"]
+ms.assetid: 0381e0e4-c686-4ab4-b947-b883b6f4e06e
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player,C++
+- Windows Media Player object model,C++
+- object model,C++
+- Windows Media Player Mobile,C++
+- Windows Media Player ActiveX control,C++
+- Windows Media Player Mobile ActiveX control,C++
+- ActiveX control,C++
+- C++ program embedding
+- embedding,C++ programs
+- Windows Media Player ActiveX control,skins
+- Windows Media Player Mobile ActiveX control,skins
+- ActiveX control,skins
+- skins,embedding ActiveX control
+- Windows Media Player skins,embedding ActiveX control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Skins with the Windows Media Player Control

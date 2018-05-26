@@ -1,7 +1,12 @@
 ---
 title: Source-code Topic Template
 description: Source-code Topic Template
-ms.assetid: '61E6635F-9603-48e7-A7B7-89115B9A5034'
+ms.assetid: 61E6635F-9603-48e7-A7B7-89115B9A5034
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source-code Topic Template

@@ -1,7 +1,12 @@
 ---
-Description: 'PNRP uses the WSASetService function to register or remove peer names.'
-ms.assetid: 'ea7941cd-2b3c-42d1-a291-759cbc32db0c'
+Description: PNRP uses the WSASetService function to register or remove peer names.
+ms.assetid: ea7941cd-2b3c-42d1-a291-759cbc32db0c
 title: PNRP and WSASetService
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PNRP and WSASetService
@@ -120,13 +125,13 @@ Ignored. Set to zero (0).
 <span id="lpBlob"></span><span id="lpblob"></span><span id="LPBLOB"></span>**lpBlob**
 </dt> <dd>
 
-Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPINFO**](pnrpinfo.md) structure. Specific parameters in the **PNRPINFO** structure must be set. For more information, see the following **PNRPINFO** structure section.
+Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpinfo_v1?branch=master) structure. Specific parameters in the **PNRPINFO** structure must be set. For more information, see the following **PNRPINFO** structure section.
 
 </dd> </dl>
 
 ## PNRPINFO Structure
 
-If the **lpBlob** member of the [**LPWSAQUERYSET**](pnrp-and-wsaqueryset.md) structure is set, the following members of the [**PNRPINFO**](pnrpinfo.md) structure must be set:
+If the **lpBlob** member of the [**LPWSAQUERYSET**](pnrp-and-wsaqueryset.md) structure is set, the following members of the [**PNRPINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpinfo_v1?branch=master) structure must be set:
 
 <dl> <dt>
 
@@ -140,7 +145,7 @@ Specifies the size of this structure.
 <span id="lpwszIdentity"></span><span id="lpwszidentity"></span><span id="LPWSZIDENTITY"></span>**lpwszIdentity**
 </dt> <dd>
 
-Specifies the identity of the peer name that is created by using [**PeerIdentityCreate**](peeridentitycreate.md). If a peer name is unsecured, then the identity is optional. If the identity is specified as **NULL**, PNRP uses the computer local identity—by default.
+Specifies the identity of the peer name that is created by using [**PeerIdentityCreate**](/windows/win32/P2P/nf-p2p-peeridentitycreate?branch=master). If a peer name is unsecured, then the identity is optional. If the identity is specified as **NULL**, PNRP uses the computer local identity—by default.
 
 </dd> <dt>
 
@@ -302,7 +307,7 @@ Ignored. Set to zero (0).
 <span id="lpBlob"></span><span id="lpblob"></span><span id="LPBLOB"></span>**lpBlob**
 </dt> <dd>
 
-Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPINFO**](pnrpinfo.md) structure. The **lpszIdentity** member of the **lpBlob** structure identifies the name of the identity that is used to register a peer name. The remaining members must be set to the same values that are used when registering a name.
+Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to a [**PNRPINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpinfo_v1?branch=master) structure. The **lpszIdentity** member of the **lpBlob** structure identifies the name of the identity that is used to register a peer name. The remaining members must be set to the same values that are used when registering a name.
 
 </dd> </dl>
 
@@ -316,7 +321,7 @@ Pointer to a [**BLOB**](winsock-nsp-reference-links.md) structure that points to
 [PNRP and WSAQUERYSET](pnrp-and-wsaqueryset.md)
 </dt> <dt>
 
-[**PNRPINFO**](pnrpinfo.md)
+[**PNRPINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpinfo_v1?branch=master)
 </dt> <dt>
 
 [PNRP NSP Error Codes](pnrp-nsp-error-codes.md)

@@ -1,7 +1,12 @@
 ---
 title: HH\_ALINK\_LOOKUP command
 description: Looks up one or more Associative link (ALink) names in a compiled help (.chm) file.
-ms.assetid: 'E9BA3037-1402-4021-A1BB-B15774AAD5A3'
+ms.assetid: E9BA3037-1402-4021-A1BB-B15774AAD5A3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_ALINK\_LOOKUP command
@@ -14,7 +19,7 @@ The ALink names to search for, and the action to be taken if no matches are foun
 
 | *pszFile*                                                          | *dwData*                                                          |
 |--------------------------------------------------------------------|-------------------------------------------------------------------|
-| Specifies the compiled help (.chm) file that contains ALink names. | Points to an [**HH\_AKLINK**](hh-aklink-structure.md) structure. |
+| Specifies the compiled help (.chm) file that contains ALink names. | Points to an [**HH\_AKLINK**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_aklink?branch=master) structure. |
 
 
 

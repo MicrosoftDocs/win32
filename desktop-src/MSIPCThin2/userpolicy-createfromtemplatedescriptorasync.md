@@ -4,11 +4,14 @@ description: Publishing using templates.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.UserPolicy.CreateFromTemplateDescriptorAsync(Microsoft.RightsManagement.TemplateDescriptor,System.String,Microsoft.RightsManagement.IAuthenticationCallback,Microsoft.RightsManagement.UserPolicyCreationOptions)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.UserPolicy.CreateFromTemplateDescriptorAsync(Microsoft.RightsManagement.TemplateDescriptor,System.String,Microsoft.RightsManagement.IAuthenticationCallback,Microsoft.RightsManagement.UserPolicyCreationOptions)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CreateFromTemplateDescriptorAsync method", "CreateFromTemplateDescriptorAsync method, UserPolicy class", "UserPolicy class, CreateFromTemplateDescriptorAsync method"]
+keywords:
+- CreateFromTemplateDescriptorAsync method
+- CreateFromTemplateDescriptorAsync method, UserPolicy class
+- UserPolicy class, CreateFromTemplateDescriptorAsync method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.CreateFromTemplateDescriptorAsync method
@@ -119,9 +125,9 @@ A [**UserPolicy**](userpolicy.md) object.
 [**UserPolicy**](userpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the extended port ACL settings.'
-ms.assetid: '357dd891-6692-4ffc-b8a8-4ece40d4af28'
-title: 'Msvm\_EthernetSwitchPortExtendedAclSettingData class'
+Description: Represents the extended port ACL settings.
+ms.assetid: 357dd891-6692-4ffc-b8a8-4ece40d4af28
+title: Msvm\_EthernetSwitchPortExtendedAclSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortExtendedAclSettingData class
@@ -16,18 +21,18 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, UUID("CD168FF0-A16D-4514-B7B5-8BBBA791A928"), ExtensionId("11EC6134-128A-4A23-B12F-164184B48348"), Provider("VmmsWmiInstanceAndMethodProvider"), InterfaceVersion("1"), InterfaceRevision("0"), DisplayName("Ethernet Switch Port Extended ACL Settings"), AMENDMENT]
 class Msvm_EthernetSwitchPortExtendedAclSettingData : Msvm_EthernetSwitchPortFeatureSettingData
 {
-  string  Name = "";
-  uint8   Direction = 0;
-  uint8   Action = 0;
-  string  LocalIPAddress = "ANY";
-  string  RemoteIPAddress = "ANY";
-  string  LocalPort = "ANY";
-  string  RemotePort = "ANY";
-  string  Protocol = "ANY";
-  Uint16  Weight = 0;
+  string  Name = "";
+  uint8   Direction = 0;
+  uint8   Action = 0;
+  string  LocalIPAddress = "ANY";
+  string  RemoteIPAddress = "ANY";
+  string  LocalPort = "ANY";
+  string  RemotePort = "ANY";
+  string  Protocol = "ANY";
+  Uint16  Weight = 0;
   Boolean Stateful = FALSE;
-  Uint16  IdleSessionTimeout = 255;
-  Uint32  IsolationID = 0;
+  Uint16  IdleSessionTimeout = 255;
+  Uint32  IsolationID = 0;
 };
 ```
 
@@ -287,8 +292,8 @@ The weight applied to the extended ACL.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -302,9 +307,9 @@ The weight applied to the extended ACL.
 [**Msvm\_EthernetSwitchPortFeatureSettingData**](msvm-ethernetswitchportfeaturesettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

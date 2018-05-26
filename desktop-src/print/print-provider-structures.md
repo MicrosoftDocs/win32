@@ -1,7 +1,12 @@
 ---
 Description: Print Provider Structures
-ms.assetid: '100de03d-bdea-4535-889b-de2bbfc1174f'
+ms.assetid: 100de03d-bdea-4535-889b-de2bbfc1174f
 title: Print Provider Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Print Provider Structures

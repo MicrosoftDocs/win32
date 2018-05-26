@@ -1,14 +1,20 @@
 ---
 title: Iterations element
 description: A container element for one or more Iteration elements.
-ms.assetid: '47DDC69B-3997-4DBA-A488-DA50CE8D52E9'
-keywords: ["Iterations element Access Execution Engine"]
+ms.assetid: 47DDC69B-3997-4DBA-A488-DA50CE8D52E9
+keywords:
+- Iterations element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Iterations
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iterations element
@@ -89,9 +95,9 @@ The hierarchy looks like this with irrelevant elements omitted.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

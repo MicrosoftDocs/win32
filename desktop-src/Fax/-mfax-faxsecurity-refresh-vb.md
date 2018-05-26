@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Refresh method refreshes FaxSecurity object information from the fax server.'
-ms.assetid: '79d5e895-0306-4a40-a101-b83ab012d723'
-title: 'FaxSecurity.Refresh method'
+---
+Description: The Refresh method refreshes FaxSecurity object information from the fax server.
+ms.assetid: 79d5e895-0306-4a40-a101-b83ab012d723
+title: FaxSecurity.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSecurity.Refresh method
@@ -25,7 +30,7 @@ This method has no parameters.
 
 When the **Refresh** method is called, any configuration changes made after the last [**Save**](-mfax-faxsecurity-save-vb.md) method call are lost.
 
-To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -47,7 +52,7 @@ To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax
 [**FaxSecurity**](-mfax-faxsecurity.md)
 </dt> <dt>
 
-[**IFaxSecurity**](-mfax-faxsecurity-cpp.md)
+[**IFaxSecurity**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsecurity?branch=master)
 </dt> </dl>
 
  

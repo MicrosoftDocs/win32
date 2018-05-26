@@ -1,8 +1,11 @@
 ---
 title: IEnumFsiItems RemoteNext method
 description: Supports a remote client that wants to retrieve a specified number of items in the enumeration sequence.
-ms.assetid: 'a5ae59ed-08d7-4225-9aec-91049789e8fe'
-keywords: ["RemoteNext method IMAPI", "RemoteNext method IMAPI , IEnumFsiItems interface", "IEnumFsiItems interface IMAPI , RemoteNext method"]
+ms.assetid: a5ae59ed-08d7-4225-9aec-91049789e8fe
+keywords:
+- RemoteNext method IMAPI
+- RemoteNext method IMAPI , IEnumFsiItems interface
+- IEnumFsiItems interface IMAPI , RemoteNext method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Imapi2fs.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumFsiItems::RemoteNext method
@@ -22,9 +30,9 @@ Supports a remote client that wants to retrieve a specified number of items in t
 
 ```C++
 HRESULT RemoteNext(
-  [in]  ULONG    celt,
-  [out] IFsiItem **rgelt,
-  [out] ULONG    *pceltFetched
+  [in]  ULONG    celt,
+  [out] IFsiItem **rgelt,
+  [out] ULONG    *pceltFetched
 );
 ```
 
@@ -44,7 +52,7 @@ Number of items to retrieve.
 *rgelt* \[out\]
 </dt> <dd>
 
-Array of [**IFsiItem**](ifsiitem.md) interfaces. You must release each interface in rgelt when done.
+Array of [**IFsiItem**](/windows/win32/imapi2fs/nn-imapi2fs-ifsiitem?branch=master) interfaces. You must release each interface in rgelt when done.
 
 </dd> <dt>
 
@@ -71,7 +79,7 @@ Other success codes may be returned as a result of implementation. The following
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -79,8 +87,8 @@ Other success codes may be returned as a result of implementation. The following
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows XP with SP2 \[desktop apps only\]<br/>                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista, Windows XP with SP2 \[desktop apps only\]<br/>                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | IDL<br/>                      | <dl> <dt>Imapi2fs.idl</dt> </dl> |
 
 
@@ -89,15 +97,15 @@ Other success codes may be returned as a result of implementation. The following
 
 <dl> <dt>
 
-[**IEnumFsiItems**](ienumfsiitems.md)
+[**IEnumFsiItems**](/windows/win32/imapi2fs/nn-imapi2fs-ienumfsiitems?branch=master)
 </dt> <dt>
 
-[IEnumFsiItems::Next](ienumfsiitems-next.md)
+[IEnumFsiItems::Next](/windows/win32/imapi2fs/nf-imapi2fs-ienumfsiitems-next?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

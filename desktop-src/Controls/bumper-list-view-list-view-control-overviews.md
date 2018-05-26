@@ -1,7 +1,12 @@
 ---
 title: List-View Control Overviews
 description: .
-ms.assetid: 'dd4968c9-35ee-49d6-bca1-f96969643544'
+ms.assetid: dd4968c9-35ee-49d6-bca1-f96969643544
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List-View Control Overviews

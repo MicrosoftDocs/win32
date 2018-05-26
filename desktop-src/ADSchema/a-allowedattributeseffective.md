@@ -4,17 +4,22 @@ description: A list of attributes that can be modified on the object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bf2db8d5-bbef-4063-be94-f657f3b2768b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bf2db8d5-bbef-4063-be94-f657f3b2768b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Allowed-Attributes-Effective attribute AD Schema", "allowedAttributesEffective attribute AD Schema"]
+keywords:
+- Allowed-Attributes-Effective attribute AD Schema
+- allowedAttributesEffective attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Allowed-Attributes-Effective
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Allowed-Attributes-Effective attribute
@@ -38,13 +43,13 @@ A list of attributes that can be modified on the object.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ A list of attributes that can be modified on the object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

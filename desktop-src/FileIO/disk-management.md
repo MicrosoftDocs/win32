@@ -1,7 +1,12 @@
 ---
-Description: 'A hard disk is a rigid disk inside a computer that stores and provides relatively quick access to large amounts of data. It is the type of storage most often used with Windows. The system also supports removable media.'
-ms.assetid: '67e4ef00-2b2d-4287-8cb1-144d9610ccec'
+Description: A hard disk is a rigid disk inside a computer that stores and provides relatively quick access to large amounts of data. It is the type of storage most often used with Windows. The system also supports removable media.
+ms.assetid: 67e4ef00-2b2d-4287-8cb1-144d9610ccec
 title: Disk Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk Management
@@ -20,11 +25,11 @@ A *hard disk* is a rigid disk inside a computer that stores and provides relativ
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: ID2D1Geometry Tessellate methods
 description: Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance.
-ms.assetid: '4e0af188-d14b-43c0-be11-16577f054b90'
-keywords: ["Tessellate methods Direct2D"]
+ms.assetid: 4e0af188-d14b-43c0-be11-16577f054b90
+keywords:
+- Tessellate methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1Geometry::Tessellate methods
@@ -21,10 +27,10 @@ Creates a set of clockwise-wound triangles that cover the geometry after it has 
 
 | Method                                                                                                                                                    | Description                                                                                                                                                                          |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Tessellate(D2D1\_MATRIX\_3X2\_F\*,ID2D1TessellationSink\*)**](id2d1geometry-tessellate-ptr-d2d-matrix-3x2-f-ptr-id2d1tessellationsink.md)             | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the default tolerance. <br/>   |
-| [**Tessellate(D2D1\_MATRIX\_3X2\_F&,ID2D1TessellationSink\*)**](id2d1geometry-tessellate-ref-d2d-matrix-3x2-f-ptr-id2d1tessellationsink.md)              | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the default tolerance. <br/>   |
-| [**Tessellate(D2D1\_MATRIX\_3X2\_F\*,FLOAT,ID2D1TessellationSink\*)**](id2d1geometry-tessellate-ptr-d2d-matrix-3x2-f-float-ptr-id2d1tessellationsink.md) | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance. <br/> |
-| [**Tessellate(D2D1\_MATRIX\_3X2\_F&,FLOAT,ID2D1TessellationSink\*)**](id2d1geometry-tessellate-ref-d2d-matrix-3x2-f-float-ptr-id2d1tessellationsink.md)  | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance.<br/>  |
+| [**Tessellate(D2D1\_MATRIX\_3X2\_F\*,ID2D1TessellationSink\*)**](/windows/win32/d2d1/?branch=master)             | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the default tolerance. <br/>   |
+| [**Tessellate(D2D1\_MATRIX\_3X2\_F&,ID2D1TessellationSink\*)**](/windows/win32/d2d1/?branch=master)              | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the default tolerance. <br/>   |
+| [**Tessellate(D2D1\_MATRIX\_3X2\_F\*,FLOAT,ID2D1TessellationSink\*)**](/windows/win32/d2d1/?branch=master) | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance. <br/> |
+| [**Tessellate(D2D1\_MATRIX\_3X2\_F&,FLOAT,ID2D1TessellationSink\*)**](/windows/win32/d2d1/?branch=master)  | Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance.<br/>  |
 
 
 
@@ -98,12 +104,12 @@ The following code example shows how to use Tessellate to create a set of clockw
 
 <dl> <dt>
 
-[**ID2D1Geometry**](id2d1geometry.md)
+[**ID2D1Geometry**](/windows/win32/d2d1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

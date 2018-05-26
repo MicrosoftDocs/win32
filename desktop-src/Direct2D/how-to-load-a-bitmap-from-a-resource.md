@@ -1,12 +1,17 @@
 ---
 title: How to Load a Bitmap from a Resource
 description: Shows how to load a Direct2D bitmap stored as an application resource.
-ms.assetid: '7285e6ea-ebc7-4693-8a77-99bff0b5d0d1'
+ms.assetid: 7285e6ea-ebc7-4693-8a77-99bff0b5d0d1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Load a Bitmap from a Resource
 
-As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap-from-a-file.md), Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bitmap from a resource, use WIC objects to load the image and to convert it to a Direct2D-compatible format; then, use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](id2d1bitmap.md).
+As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap-from-a-file.md), Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bitmap from a resource, use WIC objects to load the image and to convert it to a Direct2D-compatible format; then, use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master).
 
 1.  In the [application resource definition file](https://msdn.microsoft.com/library/windows/desktop/aa380599), define the resource. The following example defines a resource named "SampleImage".
 
@@ -206,7 +211,7 @@ As described in [How to Load a Bitmap from a File](how-to-load-a-direct2d-bitmap
 
     
 
-8.  Finally, use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](id2d1bitmap.md) object that can be drawn by a render target and used with other Direct2D objects.
+8.  Finally, use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master) object that can be drawn by a render target and used with other Direct2D objects.
     ```C++
         if (SUCCEEDED(hr))
         {

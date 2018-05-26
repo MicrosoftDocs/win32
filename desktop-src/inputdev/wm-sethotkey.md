@@ -1,8 +1,9 @@
 ---
 title: WM\_SETHOTKEY message
 description: Sent to a window to associate a hot key with the window. When the user presses the hot key, the system activates the window.
-ms.assetid: 'b2c7e6ca-da71-440b-a05e-17f2da419d18'
-keywords: ["WM_SETHOTKEY message Keyboard and Mouse Input"]
+ms.assetid: b2c7e6ca-da71-440b-a05e-17f2da419d18
+keywords:
+- WM_SETHOTKEY message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_SETHOTKEY message
@@ -48,7 +54,7 @@ Setting *wParam* to **NULL** removes the hot key associated with a window.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -67,14 +73,14 @@ The return value is one of the following.
 
 | Return value                                                                  | Description                                                                             |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| <dl> <dt>-1</dt> </dl> | The function is unsuccessful—the hot key is invalid.<br/>                         |
-| <dl> <dt>0</dt> </dl>  | The function is unsuccessful—the window is invalid.<br/>                          |
+| <dl> <dt>-1</dt> </dl> | The function is unsuccessful the hot key is invalid.<br/>                         |
+| <dl> <dt>0</dt> </dl>  | The function is unsuccessful the window is invalid.<br/>                          |
 | <dl> <dt>1</dt> </dl>  | The function is successful, and no other window has the same hot key.<br/>        |
 | <dl> <dt>2</dt> </dl>  | The function is successful, but another window already has the same hot key.<br/> |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -94,8 +100,8 @@ These hot keys are unrelated to the hot keys set by [**RegisterHotKey**](registe
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -122,9 +128,9 @@ These hot keys are unrelated to the hot keys set by [**RegisterHotKey**](registe
 [Keyboard Input](keyboard-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,7 +2,13 @@
 title: Data Type Attributes
 description: You can apply these attributes to data types in a typedef statement to further define the usage or effect of the data type.
 ms.assetid: 9a2e7c3d-f18f-4162-877c-5fc48a36b05d
-keywords: ["IDL MIDL , attributes, data type"]
+keywords:
+- IDL MIDL , attributes, data type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Type Attributes

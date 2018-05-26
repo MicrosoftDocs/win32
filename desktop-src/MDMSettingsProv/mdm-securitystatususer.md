@@ -1,8 +1,10 @@
 ---
 title: MDM\_SecurityStatusUser class
 description: Represents security health metrics on the device that are specific to the user.
-ms.assetid: '8b130592-9eff-4bc5-a05c-ea22150afd23'
-keywords: ["MDM_SecurityStatusUser class MDM Settings", "MDM_SecurityStatusUser class MDM Settings , described"]
+ms.assetid: 8b130592-9eff-4bc5-a05c-ea22150afd23
+keywords:
+- MDM_SecurityStatusUser class MDM Settings
+- MDM_SecurityStatusUser class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_SecurityStatusUser class
@@ -31,12 +38,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("MDMSettingsProv"), AMENDMENT]
 class MDM_SecurityStatusUser
 {
-  uint32  key;
+  uint32  key;
   boolean HasConnectedAccount;
-  uint32  ConnectedAccountPolicy;
-  uint32  PasswordStatus;
-  uint32  EncryptionStatus;
-  uint32  DeviceEncryptionPolicy;
+  uint32  ConnectedAccountPolicy;
+  uint32  PasswordStatus;
+  uint32  EncryptionStatus;
+  uint32  DeviceEncryptionPolicy;
 };
 ```
 
@@ -200,7 +207,7 @@ The following list shows the possible values.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -215,9 +222,9 @@ The following list shows the possible values.
 [**MDM\_SecurityStatus**](https://msdn.microsoft.com/library/dn610394)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

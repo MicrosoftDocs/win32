@@ -1,14 +1,20 @@
 ---
 title: Contents Complex Type
 description: Defines the contents of the custom detail that the package author added to the report.
-ms.assetid: '3bc346a1-cf5c-447b-a0aa-286d185dc924'
-keywords: ["Contents complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 3bc346a1-cf5c-447b-a0aa-286d185dc924
+keywords:
+- Contents complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Contents
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Contents Complex Type
@@ -40,14 +46,14 @@ If the author used the *-File* parameter, the **Contents** node contains a **Dat
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

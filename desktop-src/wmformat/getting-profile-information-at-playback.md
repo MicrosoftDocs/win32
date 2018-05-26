@@ -1,8 +1,24 @@
 ---
 title: Getting Profile Information at Playback
 description: Getting Profile Information at Playback
-ms.assetid: '4ea6c063-fd53-4b5e-ac01-9e2790322ace'
-keywords: ["Windows Media Format SDK,profiles", "Advanced Systems Format (ASF),profiles", "ASF (Advanced Systems Format),profiles", "Advanced Systems Format (ASF),mutual exclusion", "ASF (Advanced Systems Format),mutual exclusion", "Advanced Systems Format (ASF),bandwidth sharing", "ASF (Advanced Systems Format),bandwidth sharing", "streams,getting profile information at playback", "profiles,getting information at playback", "mutual exclusion,getting profile information at playback", "bandwidth sharing,getting profile information at playback"]
+ms.assetid: 4ea6c063-fd53-4b5e-ac01-9e2790322ace
+keywords:
+- Windows Media Format SDK,profiles
+- Advanced Systems Format (ASF),profiles
+- ASF (Advanced Systems Format),profiles
+- Advanced Systems Format (ASF),mutual exclusion
+- ASF (Advanced Systems Format),mutual exclusion
+- Advanced Systems Format (ASF),bandwidth sharing
+- ASF (Advanced Systems Format),bandwidth sharing
+- streams,getting profile information at playback
+- profiles,getting information at playback
+- mutual exclusion,getting profile information at playback
+- bandwidth sharing,getting profile information at playback
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Profile Information at Playback
@@ -19,7 +35,7 @@ When receiving uncompressed stream samples from either reader object, you must u
 
 You also need to access stream information when using smart recompression to transcode an audio stream to a lower bit rate.
 
-You may want to determine whether a stream was written using variable bit rate (VBR) encoding. You cannot access any VBR information from the **IWMProfile** interface of either reader object. This is because the VBR information is not stored in the file after encoding. You can determine whether a stream was created using VBR encoding by obtaining a pointer to the [**IWMHeaderInfo**](iwmheaderinfo.md) interface of the reader object and calling [**IWMHeaderInfo::GetAttributeByName**](iwmheaderinfo-getattributebyname.md). You must specify the stream number and pass g\_wszIsVBR as the attribute name.
+You may want to determine whether a stream was written using variable bit rate (VBR) encoding. You cannot access any VBR information from the **IWMProfile** interface of either reader object. This is because the VBR information is not stored in the file after encoding. You can determine whether a stream was created using VBR encoding by obtaining a pointer to the [**IWMHeaderInfo**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmheaderinfo?branch=master) interface of the reader object and calling [**IWMHeaderInfo::GetAttributeByName**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyname?branch=master). You must specify the stream number and pass g\_wszIsVBR as the attribute name.
 
 ## Mutual Exclusion Information
 
@@ -30,7 +46,7 @@ If you want to create a reading application that uses mutual exclusion, you will
 Bandwidth sharing objects that are included in a profile are included only for informational purposes. Neither the writer object nor either of the reader objects takes any action as a result of bandwidth sharing data. If you want to use bandwidth sharing in your reading application, you must access the bandwidth sharing information from the profile data.
 
 > [!Note]  
-> Not all of the information from the profile used to create a file is present in the file header. As a general rule, data that is used only at the time of encoding is not persisted in the file. This includes input settings that were set using the [**IWMWriterAdvanced2::SetInputSetting**](iwmwriteradvanced2-setinputsetting.md) method, as well as properties set using the [**IWMPropertyVault::SetProperty**](iwmpropertyvault-setproperty.md) method.
+> Not all of the information from the profile used to create a file is present in the file header. As a general rule, data that is used only at the time of encoding is not persisted in the file. This includes input settings that were set using the [**IWMWriterAdvanced2::SetInputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting?branch=master) method, as well as properties set using the [**IWMPropertyVault::SetProperty**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty?branch=master) method.
 
  
 

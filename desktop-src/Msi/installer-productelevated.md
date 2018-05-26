@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ProductElevated property of the Installer object returns True if the product is managed or False if the product is not managed.'
-ms.assetid: '8126f5a0-751f-46c3-9014-208e9c2db34c'
-title: 'Installer::ProductElevated property'
+---
+Description: The ProductElevated property of the Installer object returns True if the product is managed or False if the product is not managed.
+ms.assetid: 8126f5a0-751f-46c3-9014-208e9c2db34c
+title: InstallerProductElevated property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer::ProductElevated property
@@ -25,7 +30,7 @@ The full product code GUID of the product. This parameter is required.
 
 ## Remarks
 
-The **ProductElevated** property uses the [**MsiIsProductElevated**](msiisproductelevated.md) function. The return of the property does not take into account the [AlwaysInstallElevated](alwaysinstallelevated.md) policy.
+The **ProductElevated** property uses the [**MsiIsProductElevated**](/windows/win32/Msi/nf-msi-msiisproductelevateda?branch=master) function. The return of the property does not take into account the [AlwaysInstallElevated](alwaysinstallelevated.md) policy.
 
 ## Examples
 

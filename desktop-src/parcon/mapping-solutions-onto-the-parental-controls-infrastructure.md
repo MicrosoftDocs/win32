@@ -1,7 +1,12 @@
 ---
 Description: Mapping Solutions onto the Parental Controls Infrastructure
-ms.assetid: '09677019-2cf9-43fe-b16c-e802767bef3a'
+ms.assetid: 09677019-2cf9-43fe-b16c-e802767bef3a
 title: Mapping Solutions onto the Parental Controls Infrastructure
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mapping Solutions onto the Parental Controls Infrastructure
@@ -28,11 +33,11 @@ Recommendations for implementing compliant solutions for each category are speci
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

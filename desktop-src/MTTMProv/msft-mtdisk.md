@@ -4,11 +4,13 @@ description: The disk drive data object. Statistic data is calculated based on c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7b14f98d-a9f8-49aa-9f12-ed621ec66336'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 7b14f98d-a9f8-49aa-9f12-ed621ec66336
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_MTDisk class", "MSFT_MTDisk class, described"]
+keywords:
+- MSFT_MTDisk class
+- MSFT_MTDisk class, described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,9 @@ api_location:
 - MtTmProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_MTDisk class
@@ -45,20 +50,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), dynamic, provider("mttmprov"), AMENDMENT]
 class MSFT_MTDisk : CIM_ManagedElement
 {
-  string            InstanceID;
-  string            Caption;
-  string            Description;
-  string            ElementName;
-  string            Name;
-  uint32            DiskNumber;
-  uint64            Capacity;
-  real32            AverageResponseTime;
+  string            InstanceID;
+  string            Caption;
+  string            Description;
+  string            ElementName;
+  string            Name;
+  uint32            DiskNumber;
+  uint64            Capacity;
+  real32            AverageResponseTime;
   MSFT_MTDiskVolume Volumes[];
-  uint16            IntervalSeconds;
-  uint16            CurrentIndex;
-  real32            ActiveTime[];
-  real32            ReadTransferRate[];
-  real32            WriteTransferRate[];
+  uint16            IntervalSeconds;
+  uint16            CurrentIndex;
+  real32            ActiveTime[];
+  real32            ReadTransferRate[];
+  real32            WriteTransferRate[];
 };
 ```
 
@@ -280,7 +285,7 @@ Gets a list of historical statistics of average disk write transfer rate, in byt
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                    |
 | MOF<br/>                      | <dl> <dt>MtTmProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MtTmProv.dll</dt> </dl> |
@@ -297,9 +302,9 @@ Gets a list of historical statistics of average disk write transfer rate, in byt
 [Management Tools Task Manager WMI Provider](management-tools-task-manager-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

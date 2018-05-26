@@ -1,8 +1,11 @@
 ---
 title: LinkCollection AddItem method
 description: Creates a Link and adds it to the LinkCollection.
-ms.assetid: '9D61575F-C960-4AB1-AD3F-695E9EBFB1D3'
-keywords: ["AddItem method Access Execution Engine", "AddItem method Access Execution Engine , LinkCollection interface", "LinkCollection interface Access Execution Engine , AddItem method"]
+ms.assetid: 9D61575F-C960-4AB1-AD3F-695E9EBFB1D3
+keywords:
+- AddItem method Access Execution Engine
+- AddItem method Access Execution Engine , LinkCollection interface
+- LinkCollection interface Access Execution Engine , AddItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LinkCollection::AddItem method
@@ -22,9 +30,9 @@ Creates a [**Link**](link-struct.md) and adds it to the **LinkCollection**.
 
 ```C++
 virtual HRESULT AddItem(
-  [in]            LPCWSTR linkTitle,
-  [in]            LPCWSTR linkValue,
-  [out, optional] Link    **link
+  [in]            LPCWSTR linkTitle,
+  [in]            LPCWSTR linkValue,
+  [out, optional] Link    **link
 ) = 0;
 ```
 
@@ -75,8 +83,8 @@ The link value is the value of element **Link/LinkURI**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -89,9 +97,9 @@ The link value is the value of element **Link/LinkURI**.
 [**LinkCollection**](linkcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

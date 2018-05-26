@@ -1,7 +1,12 @@
 ---
 title: StompLastAccessDelay
 description: StompLastAccessDelay
-ms.assetid: '50c6088e-6d61-4f15-8b9d-9880f34a1636'
+ms.assetid: 50c6088e-6d61-4f15-8b9d-9880f34a1636
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StompLastAccessDelay

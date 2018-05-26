@@ -1,8 +1,9 @@
 ---
 title: TB\_SETBUTTONWIDTH message
 description: Sets the minimum and maximum button widths in the toolbar control.
-ms.assetid: '3311216a-e0b2-48bb-bad7-0a04185573cf'
-keywords: ["TB_SETBUTTONWIDTH message Windows Controls"]
+ms.assetid: 3311216a-e0b2-48bb-bad7-0a04185573cf
+keywords:
+- TB_SETBUTTONWIDTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETBUTTONWIDTH message
@@ -51,15 +57,15 @@ Use **TB\_SETBUTTONWIDTH** to set the maximum and minimum allowed widths for but
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

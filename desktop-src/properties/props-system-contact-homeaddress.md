@@ -1,7 +1,12 @@
 ---
-Description: 'Home address of the contact.'
-ms.assetid: 'c187317a-5636-4542-a97d-e9cc80e9aaa9'
-title: 'System.Contact.HomeAddress'
+Description: Home address of the contact.
+ms.assetid: c187317a-5636-4542-a97d-e9cc80e9aaa9
+title: System.Contact.HomeAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeAddress

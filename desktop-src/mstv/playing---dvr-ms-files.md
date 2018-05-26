@@ -1,7 +1,12 @@
 ---
 title: Playing \ .dvr-ms Files
 description: Playing \ .dvr-ms Files
-ms.assetid: 'b7edd6ee-33fb-49ac-8935-9d779ae4a386'
+ms.assetid: b7edd6ee-33fb-49ac-8935-9d779ae4a386
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playing \*.dvr-ms Files

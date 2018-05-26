@@ -1,7 +1,7 @@
 ---
 title: Binding Time-out Constants
 description: The RPC library uses the binding time-out constants to specify the relative amount of time that should be spent to establish a binding to the server before giving up.
-ms.assetid: 'bf5f3f08-ab29-4732-9ce3-d6d7ad699369'
+ms.assetid: bf5f3f08-ab29-4732-9ce3-d6d7ad699369
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,16 @@ api_location:
 - Rpcdce.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Binding Time-out Constants
 
-The RPC library uses the binding time-out constants to specify the relative amount of time that should be spent to establish a binding to the server before giving up. The timeout can be enabled with a call to the [**RpcMgmtSetComTimeout**](rpcmgmtsetcomtimeout.md) function. The following list contains the valid time-out values.
+The RPC library uses the binding time-out constants to specify the relative amount of time that should be spent to establish a binding to the server before giving up. The timeout can be enabled with a call to the [**RpcMgmtSetComTimeout**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout?branch=master) function. The following list contains the valid time-out values.
 
 
 
@@ -40,15 +45,15 @@ The values in the preceding table are not in seconds. These values represent a r
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Rpcdce.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

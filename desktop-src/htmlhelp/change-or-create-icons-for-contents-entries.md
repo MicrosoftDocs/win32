@@ -1,7 +1,12 @@
 ---
 title: Change or Create Icons for Contents Entries
 description: By default, HTML Help Workshop provides a book icon for main topics and a question mark icon for subtopics.
-ms.assetid: 'B5C46038-0B0A-4e46-BADB-68181BCAE4B2'
+ms.assetid: B5C46038-0B0A-4e46-BADB-68181BCAE4B2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Change or Create Icons for Contents Entries

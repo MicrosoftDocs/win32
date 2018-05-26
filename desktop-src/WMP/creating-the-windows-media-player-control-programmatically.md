@@ -1,8 +1,21 @@
 ---
 title: Creating the Windows Media Player Control Programmatically
 description: Creating the Windows Media Player Control Programmatically
-ms.assetid: '9a4856ce-6a44-47fb-b863-59ce4deb0597'
-keywords: ["Windows Media Player,creating ActiveX control programmatically", "Windows Media Player object model,creating ActiveX control programmatically", "object model,creating ActiveX control programmatically", "Windows Media Player Mobile,creating ActiveX control programmatically", "Windows Media Player ActiveX control,creating programmatically", "Windows Media Player Mobile ActiveX control,creating programmatically", "ActiveX control,creating programmatically", "creating ActiveX control programmatically"]
+ms.assetid: 9a4856ce-6a44-47fb-b863-59ce4deb0597
+keywords:
+- Windows Media Player,creating ActiveX control programmatically
+- Windows Media Player object model,creating ActiveX control programmatically
+- object model,creating ActiveX control programmatically
+- Windows Media Player Mobile,creating ActiveX control programmatically
+- Windows Media Player ActiveX control,creating programmatically
+- Windows Media Player Mobile ActiveX control,creating programmatically
+- ActiveX control,creating programmatically
+- creating ActiveX control programmatically
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Windows Media Player Control Programmatically

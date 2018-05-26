@@ -1,7 +1,12 @@
 ---
-Description: 'MSFT\_NetAdapter\_EncapsulationTypes.'
-ms.assetid: '64b93158-5966-4d69-b2a7-7c152cdec1af'
-title: 'MSFT\_NetAdapterChecksumOffloadEncapsulationTypes class'
+Description: MSFT\_NetAdapter\_EncapsulationTypes.
+ms.assetid: 64b93158-5966-4d69-b2a7-7c152cdec1af
+title: MSFT\_NetAdapterChecksumOffloadEncapsulationTypes class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterChecksumOffloadEncapsulationTypes class
@@ -122,16 +127,16 @@ Specifies that no encapsulation offload is supported.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

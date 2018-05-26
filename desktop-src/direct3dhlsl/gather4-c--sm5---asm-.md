@@ -1,7 +1,12 @@
 ---
 title: gather4\_c (sm5 - asm)
 description: Same as gather4, except this instrution performs comparison on texels, similar to sample\_c.
-ms.assetid: '6265151A-36CE-4D31-B7B2-233CEEBDCF87'
+ms.assetid: 6265151A-36CE-4D31-B7B2-233CEEBDCF87
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gather4\_c (sm5 - asm)
@@ -15,7 +20,7 @@ Same as [**gather4**](gather4--sm5---asm-.md), except this instrution performs c
 
 
 
- 
+ 
 
 
 
@@ -29,13 +34,13 @@ Same as [**gather4**](gather4--sm5---asm-.md), except this instrution performs c
 
 
 
- 
+ 
 
 ## Remarks
 
 See [**sample\_c**](sample-c--sm4---asm-.md) for a description of how *srcReferenceValue* gets compared against each fetched texel. Unlike **sample\_c**, **gather4\_c** returns each comparison result, rather than filtering them.
 
-For TextureCube corners, where there are three real texels and a fourth must be synthesized, the synthesis must occur after the comparison step. This means the returned comparison result for the syntesized texel can be 0, 0.33…, 0.66…, or 1. Some implementations may only return either 0 or 1 for the synthesized texel. Aside from this listing of possible results, the method for synthesizing the texel is unspecified.
+For TextureCube corners, where there are three real texels and a fourth must be synthesized, the synthesis must occur after the comparison step. This means the returned comparison result for the syntesized texel can be 0, 0.33 , 0.66 , or 1. Some implementations may only return either 0 or 1 for the synthesized texel. Aside from this listing of possible results, the method for synthesizing the texel is unspecified.
 
 For formats with float32 components, if the value being fetched is normalized, or +-INF, it is used in the comparison operation untouched. NaN is used in the comparison operation as NaN, but the exact bit representation of the NaN may be changed. Denorms are flushed to zero going into the comparison. For TextureCubes, some synthesis of the missing 4th texel must occur at corners, so the notion of returning bits unchanged for the synthesized texel does not apply.
 
@@ -53,7 +58,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -72,7 +77,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -81,9 +86,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

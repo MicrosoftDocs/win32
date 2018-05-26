@@ -1,7 +1,12 @@
 ---
 Description: Glossary for Understanding MUI
-ms.assetid: '7e435787-afdc-42cc-bdbc-9b8b81d23ebd'
+ms.assetid: 7e435787-afdc-42cc-bdbc-9b8b81d23ebd
 title: Glossary for Understanding MUI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Glossary for Understanding MUI

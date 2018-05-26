@@ -1,8 +1,9 @@
 ---
 title: CopyRootCauseInfo function
 description: Creates a copy of a RootCauseInfo structure.
-ms.assetid: '6bcd1341-657a-40c1-bebd-1c0f780ae337'
-keywords: ["CopyRootCauseInfo function NDF"]
+ms.assetid: 6bcd1341-657a-40c1-bebd-1c0f780ae337
+keywords:
+- CopyRootCauseInfo function NDF
 topic_type:
 - apiref
 api_name:
@@ -11,19 +12,24 @@ api_location:
 - ndattributils.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CopyRootCauseInfo function
 
-The **CopyRootCauseInfo** function creates a copy of a [**RootCauseInfo**](rootcauseinfo.md) structure.
+The **CopyRootCauseInfo** function creates a copy of a [**RootCauseInfo**](/windows/win32/ndattrib/ns-ndattrib-tagrootcauseinfo?branch=master) structure.
 
 ## Syntax
 
 
 ```C++
 HRESULT CopyRootCauseInfo(
-  _Out_       RootCauseInfo *Dest,
-  _In_  const RootCauseInfo *Source
+  _Out_       RootCauseInfo *Dest,
+  _In_  const RootCauseInfo *Source
 );
 ```
 
@@ -36,7 +42,7 @@ HRESULT CopyRootCauseInfo(
 *Dest* \[out\]
 </dt> <dd>
 
-Type: **[**RootCauseInfo**](rootcauseinfo.md)\***
+Type: **[**RootCauseInfo**](/windows/win32/ndattrib/ns-ndattrib-tagrootcauseinfo?branch=master)\***
 
 The structure to be updated.
 
@@ -45,7 +51,7 @@ The structure to be updated.
 *Source* \[in\]
 </dt> <dd>
 
-Type: **const [**RootCauseInfo**](rootcauseinfo.md)\***
+Type: **const [**RootCauseInfo**](/windows/win32/ndattrib/ns-ndattrib-tagrootcauseinfo?branch=master)\***
 
 The existing structure to be copied.
 
@@ -67,7 +73,7 @@ Possible return values include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,8 +81,8 @@ Possible return values include, but are not limited to, the following.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Ndattributils.h</dt> </dl> |
 
 
@@ -85,12 +91,12 @@ Possible return values include, but are not limited to, the following.
 
 <dl> <dt>
 
-[**RootCauseInfo**](rootcauseinfo.md)
+[**RootCauseInfo**](/windows/win32/ndattrib/ns-ndattrib-tagrootcauseinfo?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

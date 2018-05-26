@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetThumbnail method removes the current thumbnail object from the document and inserts a new one.'
-ms.assetid: '47211c8f-e112-47fd-bd9e-57ff7ec586a5'
-title: 'IXpsDocument::SetThumbnail method'
+---
+Description: The SetThumbnail method removes the current thumbnail object from the document and inserts a new one.
+ms.assetid: 47211c8f-e112-47fd-bd9e-57ff7ec586a5
+title: IXpsDocumentSetThumbnail method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsDocument::SetThumbnail method

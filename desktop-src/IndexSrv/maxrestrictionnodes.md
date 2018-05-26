@@ -1,7 +1,12 @@
 ---
 title: MaxRestrictionNodes
 description: MaxRestrictionNodes
-ms.assetid: '3277768f-2c07-423c-8def-06737874d06a'
+ms.assetid: 3277768f-2c07-423c-8def-06737874d06a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxRestrictionNodes

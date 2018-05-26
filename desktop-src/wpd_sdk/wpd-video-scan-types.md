@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_VIDEO\_SCAN\_TYPES enumeration type describes how the fields in a video file are encoded.'
-ms.assetid: 'ea0dab57-6783-4d02-a43c-414e313f1e80'
-title: 'WPD\_VIDEO\_SCAN\_TYPES enumeration'
+Description: The WPD\_VIDEO\_SCAN\_TYPES enumeration type describes how the fields in a video file are encoded.
+ms.assetid: ea0dab57-6783-4d02-a43c-414e313f1e80
+title: WPD\_VIDEO\_SCAN\_TYPES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_VIDEO\_SCAN\_TYPES enumeration
@@ -13,14 +18,14 @@ The **WPD\_VIDEO\_SCAN\_TYPES** enumeration type describes how the fields in a v
 
 ```C++
 typedef enum WPD_VIDEO_SCAN_TYPES { 
-  WPD_VIDEO_SCAN_TYPE_UNUSED                           = 0,
-  WPD_VIDEO_SCAN_TYPE_PROGRESSIVE                      = 1,
-  WPD_VIDEO_SCAN_TYPE_FIELD_INTERLEAVED_UPPER_FIRST    = 2,
-  WPD_VIDEO_SCAN_TYPE_FIELD_INTERLEAVED_LOWER_FIRST    = 3,
-  WPD_VIDEO_SCAN_TYPE_FIELD_SINGLE_UPPER_FIRST         = 4,
-  WPD_VIDEO_SCAN_TYPE_FIELD_SINGLE_LOWER_FIRST         = 5,
-  WPD_VIDEO_SCAN_TYPE_MIXED_INTERLACE                  = 6,
-  WPD_VIDEO_SCAN_TYPE_MIXED_INTERLACE_AND_PROGRESSIVE  = 7
+  WPD_VIDEO_SCAN_TYPE_UNUSED                           = 0,
+  WPD_VIDEO_SCAN_TYPE_PROGRESSIVE                      = 1,
+  WPD_VIDEO_SCAN_TYPE_FIELD_INTERLEAVED_UPPER_FIRST    = 2,
+  WPD_VIDEO_SCAN_TYPE_FIELD_INTERLEAVED_LOWER_FIRST    = 3,
+  WPD_VIDEO_SCAN_TYPE_FIELD_SINGLE_UPPER_FIRST         = 4,
+  WPD_VIDEO_SCAN_TYPE_FIELD_SINGLE_LOWER_FIRST         = 5,
+  WPD_VIDEO_SCAN_TYPE_MIXED_INTERLACE                  = 6,
+  WPD_VIDEO_SCAN_TYPE_MIXED_INTERLACE_AND_PROGRESSIVE  = 7
 } ;
 ```
 
@@ -90,7 +95,7 @@ A video file with a mix of interlaced and progressive modes.
 
 This enumeration is used by the [WPD\_VIDEO\_SCAN\_TYPE](properties-and-attributes.md) property.
 
-There are two types of interleaved file formats that are specified by this enumeration. **WPD\_VIDEO\_SCAN\_TYPE\_FIELD\_INTERLEAVED** refers to a file format where frames are delivered as they were scanned—fields alternate and data goes line by line, as shown here:
+There are two types of interleaved file formats that are specified by this enumeration. **WPD\_VIDEO\_SCAN\_TYPE\_FIELD\_INTERLEAVED** refers to a file format where frames are delivered as they were scanned fields alternate and data goes line by line, as shown here:
 
 **Frame 1**
 
@@ -147,9 +152,9 @@ Field 2: Line 3
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

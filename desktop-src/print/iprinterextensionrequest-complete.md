@@ -1,7 +1,12 @@
-﻿---
-Description: 'Completes the extension event.'
-ms.assetid: '2182A3E0-6CFD-4B29-BE78-EE38CA630FA1'
-title: 'IPrinterExtensionRequest::Complete method'
+---
+Description: Completes the extension event.
+ms.assetid: 2182A3E0-6CFD-4B29-BE78-EE38CA630FA1
+title: IPrinterExtensionRequestComplete method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionRequest::Complete method

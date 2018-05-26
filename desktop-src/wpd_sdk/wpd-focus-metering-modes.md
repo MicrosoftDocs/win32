@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_FOCUS\_METERING\_MODES enumeration type describes how a device should decide what part of a frame to use to set focus.'
-ms.assetid: '0e68d0e8-2ce3-4994-99c2-2ff2293d8a20'
-title: 'WPD\_FOCUS\_METERING\_MODES enumeration'
+Description: The WPD\_FOCUS\_METERING\_MODES enumeration type describes how a device should decide what part of a frame to use to set focus.
+ms.assetid: 0e68d0e8-2ce3-4994-99c2-2ff2293d8a20
+title: WPD\_FOCUS\_METERING\_MODES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_FOCUS\_METERING\_MODES enumeration
@@ -13,9 +18,9 @@ The **WPD\_FOCUS\_METERING\_MODES** enumeration type describes how a device shou
 
 ```C++
 typedef enum WPD_FOCUS_METERING_MODES { 
-  WPD_FOCUS_METERING_MODE_UNDEFINED    = 0,
-  WPD_FOCUS_METERING_MODE_CENTER_SPOT  = 1,
-  WPD_FOCUS_METERING_MODE_MULTI_SPOT   = 2
+  WPD_FOCUS_METERING_MODE_UNDEFINED    = 0,
+  WPD_FOCUS_METERING_MODE_CENTER_SPOT  = 1,
+  WPD_FOCUS_METERING_MODE_MULTI_SPOT   = 2
 } ;
 ```
 
@@ -67,9 +72,9 @@ This enumeration is specified by the [WPD\_STILL\_IMAGE\_FOCUS\_METERING\_MODE](
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

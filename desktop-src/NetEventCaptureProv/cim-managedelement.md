@@ -1,8 +1,10 @@
 ---
 title: CIM\_ManagedElement class
 description: ManagedElement is an abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
-ms.assetid: '6cbd618d-2b8c-4d31-b78b-cd9628970a0c'
-keywords: ["CIM_ManagedElement class", "CIM_ManagedElement class, described"]
+ms.assetid: 6cbd618d-2b8c-4d31-b78b-cd9628970a0c
+keywords:
+- CIM_ManagedElement class
+- CIM_ManagedElement class, described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - NetEventPacketCapture.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ManagedElement class
@@ -121,17 +128,17 @@ If not set to null for DMTF-defined instances, the "preferred" algorithm must be
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                                       |
 | MOF<br/>                      | <dl> <dt>NetEventPacketCapture.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetEventPacketCapture.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

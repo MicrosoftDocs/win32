@@ -1,14 +1,20 @@
 ---
 title: FONTDIRENTRY structure
 description: Contains information about an individual font in a font resource group. The structure definition provided here is for explanation only; it is not present in any standard header file.
-ms.assetid: '0ada2afe-b299-4ef2-99b7-96da10ee218a'
-keywords: ["FONTDIRENTRY structure Menus and Other Resources"]
+ms.assetid: 0ada2afe-b299-4ef2-99b7-96da10ee218a
+keywords:
+- FONTDIRENTRY structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - FONTDIRENTRY
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FONTDIRENTRY structure
@@ -20,36 +26,36 @@ Contains information about an individual font in a font resource group. The stru
 
 ```C++
 typedef struct {
-  WORD  dfVersion;
+  WORD  dfVersion;
   DWORD dfSize;
-  CHAR  dfCopyright[60];
-  WORD  dfType;
-  WORD  dfPoints;
-  WORD  dfVertRes;
-  WORD  dfHorizRes;
-  WORD  dfAscent;
-  WORD  dfInternalLeading;
-  WORD  dfExternalLeading;
-  BYTE  dfItalic;
-  BYTE  dfUnderline;
-  BYTE  dfStrikeOut;
-  WORD  dfWeight;
-  BYTE  dfCharSet;
-  WORD  dfPixWidth;
-  WORD  dfPixHeight;
-  BYTE  dfPitchAndFamily;
-  WORD  dfAvgWidth;
-  WORD  dfMaxWidth;
-  BYTE  dfFirstChar;
-  BYTE  dfLastChar;
-  BYTE  dfDefaultChar;
-  BYTE  dfBreakChar;
-  WORD  dfWidthBytes;
+  CHAR  dfCopyright[60];
+  WORD  dfType;
+  WORD  dfPoints;
+  WORD  dfVertRes;
+  WORD  dfHorizRes;
+  WORD  dfAscent;
+  WORD  dfInternalLeading;
+  WORD  dfExternalLeading;
+  BYTE  dfItalic;
+  BYTE  dfUnderline;
+  BYTE  dfStrikeOut;
+  WORD  dfWeight;
+  BYTE  dfCharSet;
+  WORD  dfPixWidth;
+  WORD  dfPixHeight;
+  BYTE  dfPitchAndFamily;
+  WORD  dfAvgWidth;
+  WORD  dfMaxWidth;
+  BYTE  dfFirstChar;
+  BYTE  dfLastChar;
+  BYTE  dfDefaultChar;
+  BYTE  dfBreakChar;
+  WORD  dfWidthBytes;
   DWORD dfDevice;
   DWORD dfFace;
   DWORD dfReserved;
-  CHAR  szDeviceName;
-  CHAR  szFaceName;
+  CHAR  szDeviceName;
+  CHAR  szFaceName;
 } FONTDIRENTRY;
 ```
 
@@ -401,8 +407,8 @@ Font declarations can be mixed with other resource declarations in the .RC file 
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -431,9 +437,9 @@ Font declarations can be mixed with other resource declarations in the .RC file 
 [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

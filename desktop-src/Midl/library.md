@@ -2,13 +2,19 @@
 title: library attribute
 description: The library statement contains all the information that the MIDL compiler uses to generate a type library.
 ms.assetid: d73acb17-abe4-4c31-a264-a131d1f9fa51
-keywords: ["library attribute MIDL"]
+keywords:
+- library attribute MIDL
 topic_type:
 - apiref
 api_name:
 - library
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # library attribute

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get a constant from the constant table.'
-ms.assetid: 'ebb05a09-af20-4c71-8594-940fce3a97e7'
-title: 'ID3DXTextureShader::GetConstantElement method'
+---
+Description: Get a constant from the constant table.
+ms.assetid: ebb05a09-af20-4c71-8594-940fce3a97e7
+title: ID3DXTextureShaderGetConstantElement method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureShader::GetConstantElement method

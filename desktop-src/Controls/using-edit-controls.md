@@ -1,7 +1,12 @@
 ---
 title: Using Edit Controls
 description: This section provides information and example code for implementing edit controls.
-ms.assetid: 'a35a8ad6-3207-49f0-ae38-f5151a606de0'
+ms.assetid: a35a8ad6-3207-49f0-ae38-f5151a606de0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Edit Controls
@@ -23,11 +28,11 @@ The following topics are discussed.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

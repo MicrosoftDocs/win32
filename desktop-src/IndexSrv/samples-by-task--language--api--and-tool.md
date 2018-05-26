@@ -1,7 +1,12 @@
 ---
 title: Samples by Task, Language, API, and Tool
 description: Samples by Task, Language, API, and Tool
-ms.assetid: '01248333-c726-4c6d-970f-ab40d5aaf2a6'
+ms.assetid: 01248333-c726-4c6d-970f-ab40d5aaf2a6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Samples by Task, Language, API, and Tool

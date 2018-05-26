@@ -1,8 +1,11 @@
 ---
 title: IVMUSBDevice AttachedToVM property
 description: Retrieves the name of the virtual machine to which the USB Device is attached.
-ms.assetid: '214ed891-1fca-4311-945a-0ce3d05d604e'
-keywords: ["AttachedToVM property Virtual PC", "AttachedToVM property Virtual PC , IVMUSBDevice interface", "IVMUSBDevice interface Virtual PC , AttachedToVM property"]
+ms.assetid: 214ed891-1fca-4311-945a-0ce3d05d604e
+keywords:
+- AttachedToVM property Virtual PC
+- AttachedToVM property Virtual PC , IVMUSBDevice interface
+- IVMUSBDevice interface Virtual PC , AttachedToVM property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMUSBDevice::AttachedToVM property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the name of the virtual machine to which the USB Device is attached.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_AttachedToVM(
-  [out, retval] BSTR *ConfigName
+  [out, retval] BSTR *ConfigName
 );
 ```
 
@@ -56,9 +64,9 @@ The name of the virtual machine (VM).
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMUSBDevice is defined as 63C1258C-5721-4070-B86B-A6CE2AFEC0B3<br/>               |
@@ -72,9 +80,9 @@ The name of the virtual machine (VM).
 [**IVMUSBDevice**](ivmusbdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IDWriteFontFace GetGdiCompatibleMetrics method
 description: Obtains design units and common metrics for the font face. These metrics are applicable to all the glyphs within a fontface and are used by applications for layout calculations.
-ms.assetid: '9e132ec0-64cb-4681-b079-02a0047badd5'
-keywords: ["GetGdiCompatibleMetrics method Direct Write", "GetGdiCompatibleMetrics method Direct Write , IDWriteFontFace interface", "IDWriteFontFace interface Direct Write , GetGdiCompatibleMetrics method"]
+ms.assetid: 9e132ec0-64cb-4681-b079-02a0047badd5
+keywords:
+- GetGdiCompatibleMetrics method Direct Write
+- GetGdiCompatibleMetrics method Direct Write , IDWriteFontFace interface
+- IDWriteFontFace interface Direct Write , GetGdiCompatibleMetrics method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteFontFace::GetGdiCompatibleMetrics method
@@ -22,10 +30,10 @@ Obtains design units and common metrics for the font face. These metrics are app
 
 ```C++
 virtual HRESULT GetGdiCompatibleMetrics(
-                       FLOAT               emSize,
-                       FLOAT               pixelsPerDip,
-  [in, optional] const DWRITE_MATRIX       *transform,
-  [out]                DWRITE_FONT_METRICS *fontFaceMetrics
+                       FLOAT               emSize,
+                       FLOAT               pixelsPerDip,
+  [in, optional] const DWRITE_MATRIX       *transform,
+  [out]                DWRITE_FONT_METRICS *fontFaceMetrics
 ) = 0;
 ```
 
@@ -56,7 +64,7 @@ The number of physical pixels per DIP.
 *transform* \[in, optional\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_MATRIX**](dwrite-matrix.md)\***
+Type: **const [**DWRITE\_MATRIX**](/windows/win32/dwrite/ns-dwrite-dwrite_matrix?branch=master)\***
 
 An optional transform applied to the glyphs and their positions. This transform is applied after the scaling specified by the font size and *pixelsPerDip*.
 
@@ -65,9 +73,9 @@ An optional transform applied to the glyphs and their positions. This transform 
 *fontFaceMetrics* \[out\]
 </dt> <dd>
 
-Type: **[**DWRITE\_FONT\_METRICS**](dwrite-font-metrics.md)\***
+Type: **[**DWRITE\_FONT\_METRICS**](/windows/win32/dwrite/ns-dwrite-dwrite_font_metrics?branch=master)\***
 
-A pointer to a [**DWRITE\_FONT\_METRIC**](dwrite-font-metrics.md)S structure to fill in. The metrics returned by this function are in font design units.
+A pointer to a [**DWRITE\_FONT\_METRIC**](/windows/win32/dwrite/ns-dwrite-dwrite_font_metrics?branch=master)S structure to fill in. The metrics returned by this function are in font design units.
 
 </dd> </dl>
 
@@ -92,15 +100,15 @@ Standard HRESULT error code.
 
 <dl> <dt>
 
-[**IDWriteFontFace**](idwritefontface.md)
+[**IDWriteFontFace**](/windows/win32/dwrite/?branch=master)
 </dt> <dt>
 
 [**IDWriteFontFace**](https://msdn.microsoft.com/library/windows/desktop/dd370983)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

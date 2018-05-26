@@ -1,7 +1,12 @@
 ---
 title: Tab Control Notifications
 description: .
-ms.assetid: '16a5549a-59e0-4d3d-ad3a-effd3a55e55b'
+ms.assetid: 16a5549a-59e0-4d3d-ad3a-effd3a55e55b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tab Control Notifications

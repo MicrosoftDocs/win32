@@ -1,8 +1,13 @@
 ---
 title: IVMHardDisk MergeTo method
 description: The MergeTo method merges a differencing hard disk image with all of its parents (up to and including the root parent hard disk image) to a new hard disk file.
-ms.assetid: '4104e560-0444-4614-9abd-5afdf4809d33'
-keywords: ["MergeTo method Virtual Server", "MergeTo method Virtual Server , IVMHardDisk interface", "IVMHardDisk interface Virtual Server , MergeTo method", "MergeTo method Virtual Server , VMHardDisk interface", "VMHardDisk interface Virtual Server , MergeTo method"]
+ms.assetid: 4104e560-0444-4614-9abd-5afdf4809d33
+keywords:
+- MergeTo method Virtual Server
+- MergeTo method Virtual Server , IVMHardDisk interface
+- IVMHardDisk interface Virtual Server , MergeTo method
+- MergeTo method Virtual Server , VMHardDisk interface
+- VMHardDisk interface Virtual Server , MergeTo method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk::MergeTo method
@@ -23,9 +33,9 @@ The **MergeTo** method merges a differencing hard disk image with all of its par
 
 ```C++
 HRESULT MergeTo(
-  [in]  BSTR           newDiskImagePath,
-  [in]  VMHardDiskType newDiskImageType,
-  [out] IVMTask        **mergeTask
+  [in]  BSTR           newDiskImagePath,
+  [in]  VMHardDiskType newDiskImageType,
+  [out] IVMTask        **mergeTask
 );
 ```
 
@@ -80,7 +90,7 @@ The task which is used to track the completion of the merging process.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -88,8 +98,8 @@ The task which is used to track the completion of the merging process.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -101,9 +111,9 @@ The task which is used to track the completion of the merging process.
 [**IVMHardDisk**](ivmharddisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

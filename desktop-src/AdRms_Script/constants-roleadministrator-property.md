@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a value that specifies administrator privileges.'
+Description: Retrieves a value that specifies administrator privileges.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'd98610bb-8088-4523-9024-69213358c782'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: d98610bb-8088-4523-9024-69213358c782
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Constants.RoleAdministrator property'
+title: Constants.RoleAdministrator property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Constants.RoleAdministrator property
@@ -43,7 +46,7 @@ The role is returned when you call the [**Initialize**](configurationmanager-ini
 
 
 
- 
+ 
 
 ## Examples
 
@@ -117,7 +120,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -135,9 +138,9 @@ END FUNCTION
 [**RoleTemplateEditor**](constants-roletemplateeditor-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

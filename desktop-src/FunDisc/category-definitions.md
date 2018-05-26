@@ -1,7 +1,12 @@
 ---
-Description: 'Categories are the namespaces in which components which provide similar base functionality are grouped.'
-ms.assetid: '84633d91-d193-437c-b1cf-9bc491ad416c'
+Description: Categories are the namespaces in which components which provide similar base functionality are grouped.
+ms.assetid: 84633d91-d193-437c-b1cf-9bc491ad416c
 title: Category Definitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Category Definitions
@@ -41,8 +46,8 @@ The category type (layered or provider) is specified at the beginning of the val
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>FunctionDiscoveryCategories.h</dt> </dl> |
 
 
@@ -60,9 +65,9 @@ The category type (layered or provider) is specified at the beginning of the val
 [**Subcategory Definitions**](subcategory-definitions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

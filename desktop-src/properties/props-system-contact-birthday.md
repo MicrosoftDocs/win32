@@ -1,7 +1,12 @@
 ---
-Description: 'Birthday of the contact.'
-ms.assetid: 'a4bde9d0-5460-4f27-8ca0-7500b735f9d4'
-title: 'System.Contact.Birthday'
+Description: Birthday of the contact.
+ms.assetid: a4bde9d0-5460-4f27-8ca0-7500b735f9d4
+title: System.Contact.Birthday
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.Birthday

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MONITOREX structure is obsolete and supported for compatibility purposes only.'
-ms.assetid: '1a619b27-4367-419c-985f-588e3f556425'
+---
+Description: The MONITOREX structure is obsolete and supported for compatibility purposes only.
+ms.assetid: 1a619b27-4367-419c-985f-588e3f556425
 title: MONITOREX structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MONITOREX structure

@@ -1,8 +1,10 @@
 ---
 title: WINBIO\_CREDENTIAL\_STATE enumeration
 description: Defines values that specify whether a credential has been associated with the biometric data for an end user.
-ms.assetid: 'c24f1771-7a1f-403e-8100-dfb3f4cd77a1'
-keywords: ["WINBIO_CREDENTIAL_STATE enumeration Windows Biometric Framework API", "PWINBIO_CREDENTIAL_STATE enumeration pointer Windows Biometric Framework API"]
+ms.assetid: c24f1771-7a1f-403e-8100-dfb3f4cd77a1
+keywords:
+- WINBIO_CREDENTIAL_STATE enumeration Windows Biometric Framework API
+- PWINBIO_CREDENTIAL_STATE enumeration pointer Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,19 +13,24 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_CREDENTIAL\_STATE enumeration
 
-Defines values that specify whether a credential has been associated with the biometric data for an end user. This enumeration is used by the [**WinBioGetCredentialState**](winbiogetcredentialstate.md) function.
+Defines values that specify whether a credential has been associated with the biometric data for an end user. This enumeration is used by the [**WinBioGetCredentialState**](/windows/win32/Winbio/nf-winbio-winbiogetcredentialstate?branch=master) function.
 
 ## Syntax
 
 
 ```C++
 typedef enum _WINBIO_CREDENTIAL_STATE { 
-  WINBIO_CREDENTIAL_NOT_SET  = 0x00000001,
-  WINBIO_CREDENTIAL_SET      = 0x00000002
+  WINBIO_CREDENTIAL_NOT_SET  = 0x00000001,
+  WINBIO_CREDENTIAL_SET      = 0x00000002
 } WINBIO_CREDENTIAL_STATE, *PWINBIO_CREDENTIAL_STATE;
 ```
 
@@ -53,8 +60,8 @@ A credential has not been associated with the end user.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -66,12 +73,12 @@ A credential has not been associated with the end user.
 [Client Application Enumerations](client-application-enumerations.md)
 </dt> <dt>
 
-[**WinBioGetCredentialState**](winbiogetcredentialstate.md)
+[**WinBioGetCredentialState**](/windows/win32/Winbio/nf-winbio-winbiogetcredentialstate?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

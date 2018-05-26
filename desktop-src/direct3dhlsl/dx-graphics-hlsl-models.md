@@ -1,7 +1,12 @@
 ---
 title: Shader Models vs Shader Profiles
 description: Shader Models vs Shader Profiles
-ms.assetid: '6224f05e-20b1-42ea-96fb-63dd0edb720e'
+ms.assetid: 6224f05e-20b1-42ea-96fb-63dd0edb720e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Models vs Shader Profiles
@@ -30,7 +35,7 @@ A shader profile is the target for compiling a shader; this table lists the shad
 
 
 
- 
+ 
 
 
 
@@ -40,7 +45,7 @@ A shader profile is the target for compiling a shader; this table lists the shad
 
 
 
- 
+ 
 
 ## Effect Profiles
 
@@ -50,16 +55,16 @@ An effect profile is the target for compiling an effect/shader; this table lists
 
 |                                                                                                                                                                                                                                                                                                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10:<br/> Direct3D 9 introduced effect-framework profiles fx\_1\_0 and fx\_2\_0.<br/> Direct3D 10 introduced effect-framework profile fx\_4\_0.<br/> Direct3D 10.1 introduced effect-framework profile fx\_4\_1.<br/> Direct3D 11 introduced effect-framework profile fx\_5\_0.<br/> |
+| Differences between Direct3D 9 and Direct3D 10:<br/> Direct3D 9 introduced effect-framework profiles fx\_1\_0 and fx\_2\_0.<br/> Direct3D 10 introduced effect-framework profile fx\_4\_0.<br/> Direct3D 10.1 introduced effect-framework profile fx\_4\_1.<br/> Direct3D 11 introduced effect-framework profile fx\_5\_0.<br/> |
 
 
 
- 
+ 
 
 > [!Note]  
 > These legacy effects profiles are deprecated.
 
- 
+ 
 
 ## Related topics
 
@@ -68,9 +73,9 @@ An effect profile is the target for compiling an effect/shader; this table lists
 [Reference for HLSL](dx-graphics-hlsl-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

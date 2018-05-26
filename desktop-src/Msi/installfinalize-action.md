@@ -1,7 +1,12 @@
 ---
-Description: 'The InstallFinalize action runs a script that contains all operations in the action sequence since either the start of the installation or the execution of the InstallExecute or InstallExecuteAgain actions.'
-ms.assetid: 'ed0e3c4f-d1ee-43b7-84a2-f4afe3ec28c6'
+Description: The InstallFinalize action runs a script that contains all operations in the action sequence since either the start of the installation or the execution of the InstallExecute or InstallExecuteAgain actions.
+ms.assetid: ed0e3c4f-d1ee-43b7-84a2-f4afe3ec28c6
 title: InstallFinalize Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InstallFinalize Action

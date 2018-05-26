@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item property is a read-only property that returns a string in the StringList Object collection.'
-ms.assetid: '5c654927-41cf-4e47-9d4f-76524f8bbc97'
-title: 'StringList.Item property'
+---
+Description: The Item property is a read-only property that returns a string in the StringList Object collection.
+ms.assetid: 5c654927-41cf-4e47-9d4f-76524f8bbc97
+title: StringList.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StringList.Item property

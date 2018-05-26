@@ -1,7 +1,12 @@
 ---
-Description: 'The GetMediaTime method retrieves the time stamps on the current sample.'
-ms.assetid: '13710373-04fd-4c1d-ba97-78be5cf27e7d'
-title: 'CRendererPosPassThru.GetMediaTime method'
+Description: The GetMediaTime method retrieves the time stamps on the current sample.
+ms.assetid: 13710373-04fd-4c1d-ba97-78be5cf27e7d
+title: CRendererPosPassThru.GetMediaTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererPosPassThru.GetMediaTime method
@@ -13,8 +18,8 @@ The `GetMediaTime` method retrieves the time stamps on the current sample.
 
 ```C++
 HRESULT GetMediaTime(
-   LONGLONG *pStartTime,
-   LONGLONG *pEndTime
+   LONGLONG *pStartTime,
+   LONGLONG *pEndTime
 );
 ```
 
@@ -52,7 +57,7 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,9 +74,9 @@ This method overrides the [**CPosPassThru::GetMediaTime**](cpospassthru-getmedia
 
 
 
- 
+ 
 
- 
+ 
 
 
 

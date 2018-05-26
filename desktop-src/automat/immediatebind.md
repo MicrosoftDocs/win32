@@ -1,7 +1,12 @@
 ---
 title: immediatebind
 description: Allows individual bindable properties on a form to specify this behavior. When this bit is set, all changes will be notified.
-ms.assetid: '304b3c85-d477-410d-829f-fe6a4f3cb1b0'
+ms.assetid: 304b3c85-d477-410d-829f-fe6a4f3cb1b0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # immediatebind

@@ -1,8 +1,20 @@
 ---
 title: Buffered Services
 description: Buffered Services
-ms.assetid: '4816ab05-42fc-4c22-b753-8fd153d88c27'
-keywords: ["multimedia file I/O,buffered services", "file I/O,buffered services", "input and output (I/O),buffered services", "I/O (input and output),buffered services", "buffered I/O", "mmioOpen function", "internal I/O buffer"]
+ms.assetid: 4816ab05-42fc-4c22-b753-8fd153d88c27
+keywords:
+- multimedia file I/O,buffered services
+- file I/O,buffered services
+- input and output (I/O),buffered services
+- I/O (input and output),buffered services
+- buffered I/O
+- mmioOpen function
+- internal I/O buffer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Buffered Services

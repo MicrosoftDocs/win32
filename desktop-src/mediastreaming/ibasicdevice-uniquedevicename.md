@@ -1,26 +1,34 @@
 ---
 title: IBasicDevice UniqueDeviceName method
-description: Retrieves the device’s unique device name (UDN).
-ms.assetid: '393EFF96-69E1-4081-905D-D8CC47B5FC4A'
-keywords: ["UniqueDeviceName method Media Streaming API", "UniqueDeviceName method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , UniqueDeviceName method"]
+description: Retrieves the device s unique device name (UDN).
+ms.assetid: 393EFF96-69E1-4081-905D-D8CC47B5FC4A
+keywords:
+- UniqueDeviceName method Media Streaming API
+- UniqueDeviceName method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , UniqueDeviceName method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.UniqueDeviceName
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::UniqueDeviceName method
 
-Retrieves the device’s unique device name (UDN).
+Retrieves the device s unique device name (UDN).
 
 ## Syntax
 
 
 ```C++
 HRESULT UniqueDeviceName(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -33,7 +41,7 @@ HRESULT UniqueDeviceName(
 *value* \[out\]
 </dt> <dd>
 
-Receives a pointer to the device’s model UDN.
+Receives a pointer to the device s model UDN.
 
 </dd> </dl>
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

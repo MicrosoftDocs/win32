@@ -2,13 +2,19 @@
 title: union attribute
 description: The union keyword appears in functions that relate to discriminated unions.
 ms.assetid: 135a6581-e03e-4b90-9fd8-15690820dbd0
-keywords: ["union attribute MIDL"]
+keywords:
+- union attribute MIDL
 topic_type:
 - apiref
 api_name:
 - union
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # union attribute

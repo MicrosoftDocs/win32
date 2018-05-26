@@ -1,7 +1,12 @@
 ---
-Description: 'Tests whether a pointer is aligned to a specified boundary. If not, this macro invokes the ASSERT macro. Ignored in retail builds.'
-ms.assetid: '4d9ec3a9-7107-45a3-a7aa-28d6e38fa92a'
+Description: Tests whether a pointer is aligned to a specified boundary. If not, this macro invokes the ASSERT macro. Ignored in retail builds.
+ms.assetid: 4d9ec3a9-7107-45a3-a7aa-28d6e38fa92a
 title: DbgAssertAligned macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgAssertAligned macro
@@ -13,8 +18,8 @@ Tests whether a pointer is aligned to a specified boundary. If not, this macro i
 
 ```C++
 void DbgAssertAligned(
-    ptr,
-    alignment
+    ptr,
+    alignment
 );
 ```
 
@@ -59,9 +64,9 @@ This macro does not return a value.
 [Assert and Breakpoint Macros](assert-and-breakpoint-macros.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

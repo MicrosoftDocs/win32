@@ -1,8 +1,10 @@
 ---
 title: BITS\_JOB\_TRANSFER\_POLICY enumeration
 description: The BITS\_JOB\_TRANSFER\_POLICY enumeration defines ID values corresponding to DO properties.
-ms.assetid: '4811ADBF-F097-4340-BFF2-52CC9556ACF6'
-keywords: ["BITS_JOB_TRANSFER_POLICY enumeration", "BITS_JOB_TRANSFER_POLICY enumeration"]
+ms.assetid: 4811ADBF-F097-4340-BFF2-52CC9556ACF6
+keywords:
+- BITS_JOB_TRANSFER_POLICY enumeration
+- BITS_JOB_TRANSFER_POLICY enumeration
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITS\_JOB\_TRANSFER\_POLICY enumeration
@@ -22,11 +29,11 @@ The **BITS\_JOB\_TRANSFER\_POLICY** enumeration defines ID values corresponding 
 
 ```C++
 typedef enum _BITS_JOB_TRANSFER_POLICY { 
-  BITS_JOB_TRANSFER_POLICY_ALWAYS        = 0x800000ff,
-  BITS_JOB_TRANSFER_POLICY_NOT_ROAMING   = 0x8000007f,
-  BITS_JOB_TRANSFER_POLICY_NO_SURCHARGE  = 0x8000006f,
-  BITS_JOB_TRANSFER_POLICY_STANDARD      = 0x80000067,
-  BITS_JOB_TRANSFER_POLICY_UNRESTRICTED  = 0x80000021
+  BITS_JOB_TRANSFER_POLICY_ALWAYS        = 0x800000ff,
+  BITS_JOB_TRANSFER_POLICY_NOT_ROAMING   = 0x8000007f,
+  BITS_JOB_TRANSFER_POLICY_NO_SURCHARGE  = 0x8000006f,
+  BITS_JOB_TRANSFER_POLICY_STANDARD      = 0x80000067,
+  BITS_JOB_TRANSFER_POLICY_UNRESTRICTED  = 0x80000021
 } BITS_JOB_TRANSFER_POLICY;
 ```
 
@@ -77,15 +84,15 @@ Specifies that the job will be transferred only when connectivity is available w
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

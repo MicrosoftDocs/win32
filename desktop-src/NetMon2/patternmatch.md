@@ -1,7 +1,12 @@
 ---
-Description: 'The PATTERNMATCH structure defines pattern elements used to evaluate a frame.'
-ms.assetid: '3ad27197-92da-49e5-bb0e-daf54de6c54c'
+Description: The PATTERNMATCH structure defines pattern elements used to evaluate a frame.
+ms.assetid: 3ad27197-92da-49e5-bb0e-daf54de6c54c
 title: PATTERNMATCH structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PATTERNMATCH structure
@@ -13,12 +18,12 @@ The **PATTERNMATCH** structure defines pattern elements used to evaluate a frame
 
 ```C++
 typedef struct _PATTERNMATCH {
-  DWORD        Flags;
-  BYTE         OffsetBasis;
+  DWORD        Flags;
+  BYTE         OffsetBasis;
   GENERIC_PORT Port;
-  WORD         Offset;
-  WORD         Length;
-  BYTE         PatternToMatch[MAX_PATTERN_LENGTH];
+  WORD         Offset;
+  WORD         Length;
+  BYTE         PatternToMatch[MAX_PATTERN_LENGTH];
 } PATTERNMATCH, *LPPATTERNMATCH;
 ```
 
@@ -42,7 +47,7 @@ Pattern match flags:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -62,7 +67,7 @@ Types of offset, which can be one of the following:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -106,8 +111,8 @@ A capture filter can contain up to four **PATTERNMATCH** structures.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -119,9 +124,9 @@ A capture filter can contain up to four **PATTERNMATCH** structures.
 [CAPTUREFILTER](capturefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

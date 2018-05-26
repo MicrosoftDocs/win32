@@ -4,11 +4,14 @@ description: Moves a group and all of its resources from one node to another.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8f923a22-31b2-4a41-b88d-8eb7bac9725e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 8f923a22-31b2-4a41-b88d-8eb7bac9725e
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Move method Failover Cluster", "Move method Failover Cluster , ClusResGroup object", "ClusResGroup object Failover Cluster , Move method"]
+keywords:
+- Move method Failover Cluster
+- Move method Failover Cluster , ClusResGroup object
+- ClusResGroup object Failover Cluster , Move method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResGroup.Move method
@@ -76,7 +82,7 @@ Unless a node is specified, **Move** automatically selects the destination node 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -95,9 +101,9 @@ Unless a node is specified, **Move** automatically selects the destination node 
 [**ClusResGroup**](clusresgroup-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

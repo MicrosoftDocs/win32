@@ -1,8 +1,9 @@
 ---
 title: ResultsDisplayStyle enumeration
 description: Used by IResultsViewer ResultsStyle to set or determine how results are displayed.
-ms.assetid: '24b474f2-1aca-4556-ba9a-3b8139e80bf0'
-keywords: ["ResultsDisplayStyle enumeration Legacy Windows Environment Features"]
+ms.assetid: 24b474f2-1aca-4556-ba9a-3b8139e80bf0
+keywords:
+- ResultsDisplayStyle enumeration Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - WdsView.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResultsDisplayStyle enumeration
@@ -24,8 +30,8 @@ Used by [**IResultsViewer::ResultsStyle**](-search-2x-iresultsviewer-resultsstyl
 
 ```C++
 typedef enum ResultsDisplayStyleEnum { 
-  SmallIconResults  = 0,
-  LargeIconResults  = 1
+  SmallIconResults  = 0,
+  LargeIconResults  = 1
 } ResultsDisplayStyle;
 ```
 
@@ -59,9 +65,9 @@ Indicates Results are displayed as large icons.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

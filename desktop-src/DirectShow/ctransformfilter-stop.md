@@ -1,12 +1,17 @@
 ---
-Description: 'Stops the filter. This method implements the IMediaFilter::Stop method.'
-ms.assetid: 'e95537d6-b3ec-49a4-aa28-333d69eff3bb'
-title: 'CTransformFilter.Stop method'
+Description: Stops the filter. This method implements the IMediaFilterStop method.
+ms.assetid: e95537d6-b3ec-49a4-aa28-333d69eff3bb
+title: CTransformFilter.Stop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.Stop method
 
-Stops the filter. This method implements the [**IMediaFilter::Stop**](imediafilter-stop.md) method.
+Stops the filter. This method implements the [**IMediaFilter::Stop**](/windows/win32/Strmif/nf-strmif-imediafilter-stop?branch=master) method.
 
 ## Syntax
 
@@ -47,9 +52,9 @@ After this method decommits both allocators, it calls the [**StopStreaming**](ct
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

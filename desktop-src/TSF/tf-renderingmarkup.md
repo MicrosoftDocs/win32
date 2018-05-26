@@ -1,19 +1,25 @@
 ---
 title: TF\_RENDERINGMARKUP structure
 description: The TF\_RENDERINGMARKUP structure structure contains a range and the display attribute information.
-ms.assetid: '206e679b-f2eb-4f28-ac2a-58f3c222a020'
-keywords: ["TF_RENDERINGMARKUP structure Text Services Framework"]
+ms.assetid: 206e679b-f2eb-4f28-ac2a-58f3c222a020
+keywords:
+- TF_RENDERINGMARKUP structure Text Services Framework
 topic_type:
 - apiref
 api_name:
 - TF_RENDERINGMARKUP
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TF\_RENDERINGMARKUP structure
 
-The [**TF\_RENDERINGMARKUP**](tf-da-color.md) structure structure contains a range and the display attribute information.
+The [**TF\_RENDERINGMARKUP**](/windows/win32/Msctf/ns-msctf-tf_da_color?branch=master) structure structure contains a range and the display attribute information.
 
 ## Syntax
 
@@ -34,7 +40,7 @@ typedef struct {
 **pRange**
 </dt> <dd>
 
-A pointer to an [ITfRange](itfrange.md) interface.
+A pointer to an [ITfRange](/windows/win32/Msctf/nn-msctf-itfrange?branch=master) interface.
 
 </dd> <dt>
 

@@ -1,7 +1,12 @@
 ---
 title: Characters
 description: Characters
-ms.assetid: 'd3eac94b-7899-4695-b0e5-0276c1f5e9cb'
+ms.assetid: d3eac94b-7899-4695-b0e5-0276c1f5e9cb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Characters

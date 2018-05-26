@@ -1,8 +1,9 @@
 ---
 title: glMapGrid1f function
 description: Defines a one-dimensional mesh.
-ms.assetid: '242c0197-2fa6-4356-b536-627660ebd3a7'
-keywords: ["glMapGrid1f function OpenGL"]
+ms.assetid: 242c0197-2fa6-4356-b536-627660ebd3a7
+keywords:
+- glMapGrid1f function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glMapGrid1f function
@@ -22,9 +28,9 @@ Defines a one-dimensional mesh.
 
 ```C++
 void WINAPI glMapGrid1f(
-   GLint   un,
-   GLfloat u1,
-   GLfloat u2
+   GLint   un,
+   GLfloat u1,
+   GLfloat u2
 );
 ```
 
@@ -119,8 +125,8 @@ The following functions retrieve information related to [**glMapGrid**](glmapgri
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -152,9 +158,9 @@ The following functions retrieve information related to [**glMapGrid**](glmapgri
 [**glMap2**](glmap2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

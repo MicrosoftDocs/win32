@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for hard page fault events. The following syntax is simplified from MOF code.'
-ms.assetid: '9837cc45-6485-46c3-a5d9-0d33e443cd32'
-title: 'PageFault\_HardFault class'
+---
+Description: This class is the event type class for hard page fault events. The following syntax is simplified from MOF code.
+ms.assetid: 9837cc45-6485-46c3-a5d9-0d33e443cd32
+title: PageFault\_HardFault class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PageFault\_HardFault class

@@ -4,17 +4,22 @@ description: Short Name DFS link path relative to the DFS root target share (tha
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0589d3f5-9734-4f95-bba9-22f13bb1c9f1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0589d3f5-9734-4f95-bba9-22f13bb1c9f1
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFS-Short-Name-Link-Path-v2 attribute AD Schema", "msDFS-ShortNameLinkPathv2 attribute AD Schema"]
+keywords:
+- ms-DFS-Short-Name-Link-Path-v2 attribute AD Schema
+- msDFS-ShortNameLinkPathv2 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFS-Short-Name-Link-Path-v2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFS-Short-Name-Link-Path-v2 attribute
@@ -38,9 +43,9 @@ Short Name DFS link path relative to the DFS root target share (that is, without
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Short Name DFS link path relative to the DFS root target share (that is, without
 
 
 
- 
+ 
 
- 
+ 
 
 
 

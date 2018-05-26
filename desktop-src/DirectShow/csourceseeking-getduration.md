@@ -1,19 +1,24 @@
 ---
-Description: 'The GetDuration method retrieves the duration of the stream. This method implements the IMediaSeeking::GetDuration method.'
-ms.assetid: '074eb2d0-a7a3-4bc1-82e8-2f42c6d43dac'
-title: 'CSourceSeeking.GetDuration method'
+Description: The GetDuration method retrieves the duration of the stream. This method implements the IMediaSeekingGetDuration method.
+ms.assetid: 074eb2d0-a7a3-4bc1-82e8-2f42c6d43dac
+title: CSourceSeeking.GetDuration method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.GetDuration method
 
-The `GetDuration` method retrieves the duration of the stream. This method implements the [**IMediaSeeking::GetDuration**](imediaseeking-getduration.md) method.
+The `GetDuration` method retrieves the duration of the stream. This method implements the [**IMediaSeeking::GetDuration**](/windows/win32/Strmif/nf-strmif-imediaseeking-getduration?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetDuration(
-   LONGLONG *pDuration
+   LONGLONG *pDuration
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ The duration is specified by the [**CSourceSeeking::m\_rtDuration**](csourceseek
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

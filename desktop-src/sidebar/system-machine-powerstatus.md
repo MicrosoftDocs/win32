@@ -1,8 +1,10 @@
 ---
 title: System.Machine.PowerStatus object
-description: Defines the properties and events for the computer's power status.
-ms.assetid: '5ed6827a-049e-40e5-af67-098e12b30ef5'
-keywords: ["System.Machine.PowerStatus object Windows Sidebar", "System.Machine.PowerStatus object Windows Sidebar , described"]
+description: Defines the properties and events for the computers power status.
+ms.assetid: 5ed6827a-049e-40e5-af67-098e12b30ef5
+keywords:
+- System.Machine.PowerStatus object Windows Sidebar
+- System.Machine.PowerStatus object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Machine.PowerStatus object
@@ -38,7 +45,7 @@ The **System.Machine.PowerStatus** object has these events.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -57,7 +64,7 @@ The **System.Machine.PowerStatus** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,18 +72,18 @@ The **System.Machine.PowerStatus** object has these properties.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

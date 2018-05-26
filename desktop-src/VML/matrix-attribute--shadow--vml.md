@@ -1,7 +1,12 @@
 ---
 title: Matrix Attribute (Shadow)(VML)
 description: Matrix Attribute (Shadow)(VML)
-ms.assetid: '29bebd2f-7f66-4883-8c12-57fef4a0ac9e'
+ms.assetid: 29bebd2f-7f66-4883-8c12-57fef4a0ac9e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Matrix Attribute (Shadow)(VML)

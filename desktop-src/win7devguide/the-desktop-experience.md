@@ -1,7 +1,12 @@
 ---
 title: The Desktop Experience
 description: The new Windows 7 desktop brings your applications to life.
-ms.assetid: 'e706167a-435b-4c32-bb64-87113f368866'
+ms.assetid: e706167a-435b-4c32-bb64-87113f368866
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Desktop Experience

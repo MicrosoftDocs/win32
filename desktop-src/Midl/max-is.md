@@ -2,13 +2,19 @@
 title: max\_is attribute
 description: The \ max\_is\ attribute designates the maximum value for a valid array index.
 ms.assetid: 8d09f610-cae6-45f6-815c-5ba916d8a5e7
-keywords: ["max_is attribute MIDL"]
+keywords:
+- max_is attribute MIDL
 topic_type:
 - apiref
 api_name:
 - max_is
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # max\_is attribute

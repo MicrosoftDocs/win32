@@ -4,11 +4,17 @@ description: You can create quotas directly but typically you create quota templ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '88ff3968-cb83-4b66-83e9-a58205b4be82'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 88ff3968-cb83-4b66-83e9-a58205b4be82
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , using templates to define quotas", "quota templates File Server Resource Manager", "templates for quotas File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , using templates to define quotas
+- quota templates File Server Resource Manager
+- templates for quotas File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Templates to Define Quotas

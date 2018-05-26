@@ -1,7 +1,12 @@
 ---
-Description: 'The GetIDsOfNames method maps a set of names to a corresponding set of DISPIDs.'
-ms.assetid: '0c0a2726-e89a-4eaf-aab0-e7e9e82e3c34'
-title: 'CBaseDispatch.GetIDsOfNames method'
+Description: The GetIDsOfNames method maps a set of names to a corresponding set of DISPIDs.
+ms.assetid: 0c0a2726-e89a-4eaf-aab0-e7e9e82e3c34
+title: CBaseDispatch.GetIDsOfNames method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseDispatch.GetIDsOfNames method
@@ -13,11 +18,11 @@ The `GetIDsOfNames` method maps a set of names to a corresponding set of DISPIDs
 
 ```C++
 HRESULT GetIDsOfNames(
-   REFIID  riid,
-   OLECHAR **rgszNames,
-   UINT    cNames,
-   LCID    lcid,
-   DISPID  *rgdispid
+   REFIID  riid,
+   OLECHAR **rgszNames,
+   UINT    cNames,
+   LCID    lcid,
+   DISPID  *rgdispid
 );
 ```
 
@@ -76,7 +81,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -102,9 +107,9 @@ If the method returns DISP\_E\_UNKNOWNNAME, the returned DISPIDs contain DISPID\
 [**CBaseDispatch Class**](cbasedispatch.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

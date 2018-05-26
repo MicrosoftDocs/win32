@@ -1,12 +1,17 @@
-﻿---
-Description: 'The PKEY\_AudioEngine\_DeviceFormat property specifies the device format, which is the format that the user has selected for the stream that flows between the audio engine and the audio endpoint device when the device operates in shared mode.'
-ms.assetid: 'eb3c734f-0bb8-47cc-a01f-99569f472cde'
-title: 'PKEY\_AudioEngine\_DeviceFormat'
+---
+Description: The PKEY\_AudioEngine\_DeviceFormat property specifies the device format, which is the format that the user has selected for the stream that flows between the audio engine and the audio endpoint device when the device operates in shared mode.
+ms.assetid: eb3c734f-0bb8-47cc-a01f-99569f472cde
+title: PKEY\_AudioEngine\_DeviceFormat
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKEY\_AudioEngine\_DeviceFormat
 
-The **PKEY\_AudioEngine\_DeviceFormat** property specifies the device format, which is the format that the user has selected for the stream that flows between the audio engine and the audio endpoint device when the device operates in shared mode. This format might not be the best default format for an exclusive-mode application to use. Typically, an exclusive-mode application finds a suitable device format by making some number of calls to the [**IAudioClient::IsFormatSupported**](iaudioclient-isformatsupported.md) method. For more information, see [Device Formats](device-formats.md).
+The **PKEY\_AudioEngine\_DeviceFormat** property specifies the device format, which is the format that the user has selected for the stream that flows between the audio engine and the audio endpoint device when the device operates in shared mode. This format might not be the best default format for an exclusive-mode application to use. Typically, an exclusive-mode application finds a suitable device format by making some number of calls to the [**IAudioClient::IsFormatSupported**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-isformatsupported?branch=master) method. For more information, see [Device Formats](device-formats.md).
 
 The **vt** member of the **PROPVARIANT** structure is set to VT\_BLOB.
 

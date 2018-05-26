@@ -1,7 +1,12 @@
 ---
-Description: 'Number of items in the list.'
-ms.assetid: '61ef047d-c7c7-4ec3-8853-7e2e6311fa36'
-title: 'CBaseList::m\_Count member'
+Description: Number of items in the list.
+ms.assetid: 61ef047d-c7c7-4ec3-8853-7e2e6311fa36
+title: CBaseListm\_Count member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList::m\_Count member
@@ -35,9 +40,9 @@ long m_Count;
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

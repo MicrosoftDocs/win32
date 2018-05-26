@@ -1,8 +1,11 @@
 ---
 title: External.changeViewOnlineList method
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: 'd7a45ced-431f-4d35-8c9c-c6eeba6fcbf3'
-keywords: ["changeViewOnlineList method Windows Media Player", "changeViewOnlineList method Windows Media Player , External class", "External class Windows Media Player , changeViewOnlineList method"]
+ms.assetid: d7a45ced-431f-4d35-8c9c-c6eeba6fcbf3
+keywords:
+- changeViewOnlineList method Windows Media Player
+- changeViewOnlineList method Windows Media Player , External class
+- External class Windows Media Player , changeViewOnlineList method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.changeViewOnlineList method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **changeViewOnlineList** method changes the view in Windows Media Player to display a list generated dynamically by the online store.
 
@@ -59,7 +67,7 @@ A [library location constant](library-location-constants.md) that specifies the 
 *Params* \[in\]
 </dt> <dd>
 
-**String** containing parameters that Windows Media Player passes along to the online store's plug-in by calling [IWMPContentPartner::GetTemplate](iwmpcontentpartner-gettemplate.md). These parameters are not interpreted by Windows Media Player. They are created by the online store and have meaning only to the online store. This string can be empty
+**String** containing parameters that Windows Media Player passes along to the online store's plug-in by calling [IWMPContentPartner::GetTemplate](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate?branch=master). These parameters are not interpreted by Windows Media Player. They are created by the online store and have meaning only to the online store. This string can be empty
 
 </dd> <dt>
 
@@ -100,7 +108,7 @@ This method does not return a value.
 
 ## Remarks
 
-When script on a discovery page calls **changeViewOnlineList**, Windows Media Player passes some of the parameters along to the [IWMPContentPartner::GetListContents](iwmpcontentpartner-getlistcontents.md) and [IWMPContentPartner::GetTemplate](iwmpcontentpartner-gettemplate.md) methods, which are implemented by the online store's plug-in. The following table shows the correspondence between the parameters of the three methods.
+When script on a discovery page calls **changeViewOnlineList**, Windows Media Player passes some of the parameters along to the [IWMPContentPartner::GetListContents](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents?branch=master) and [IWMPContentPartner::GetTemplate](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate?branch=master) methods, which are implemented by the online store's plug-in. The following table shows the correspondence between the parameters of the three methods.
 
 
 
@@ -113,7 +121,7 @@ When script on a discovery page calls **changeViewOnlineList**, Windows Media Pl
 
 
 
- 
+ 
 
 Because all three of the methods shown in the preceding table are implemented by the online store, you have some flexibility in how you use the parameters. The idea is that you provide enough information for **GetListContents** to determine which list it should retrieve and for **GetTemplate** to determine which discovery page should be displayed next. The following examples illustrate two possibilities.
 
@@ -165,21 +173,21 @@ Note that the *LocationType* and *LocationID* parameters do not specify the list
 [**External Object for Type 1 Online Stores**](external-object-for-type-1-online-stores.md)
 </dt> <dt>
 
-[**IWMPContentPartner::GetListContents**](iwmpcontentpartner-getlistcontents.md)
+[**IWMPContentPartner::GetListContents**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents?branch=master)
 </dt> <dt>
 
-[**IWMPContentPartnerCallback::AddListContents**](iwmpcontentpartnercallback-addlistcontents.md)
+[**IWMPContentPartnerCallback::AddListContents**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-addlistcontents?branch=master)
 </dt> <dt>
 
-[**IWMPContentPartner::GetTemplate**](iwmpcontentpartner-gettemplate.md)
+[**IWMPContentPartner::GetTemplate**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate?branch=master)
 </dt> <dt>
 
 [**Location and Selected Item**](location-and-selected-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

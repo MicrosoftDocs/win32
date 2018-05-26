@@ -2,13 +2,16 @@
 title: Set method of the PS\_DAClientDnsConfiguration class
 description: This cmdlet does the following1. Configures the DNS server and proxy server addresses of an NRPT entry 2. Configures the local name resolution property.
 audience: developer
-ms.assetid: '2e7a3e34-fbff-41e9-b028-3d807c2029e5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2e7a3e34-fbff-41e9-b028-3d807c2029e5
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DAClientDnsConfiguration class", "PS_DAClientDnsConfiguration class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DAClientDnsConfiguration class
+- PS_DAClientDnsConfiguration class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DAClientDnsConfiguration class
@@ -28,13 +34,13 @@ This cmdlet does the following1. Configures the DNS server and proxy server addr
 
 ```mof
 uint32 Set(
-  [in]  string                   DnsSuffix,
-  [in]  string                   DnsIPAddress[],
-  [in]  string                   ProxyServer,
-  [in]  string                   Local,
-  [in]  string                   ComputerName,
-  [in]  boolean                  PassThru,
-  [out] DAClientDnsConfiguration cmdletOutput
+  [in]  string                   DnsSuffix,
+  [in]  string                   DnsIPAddress[],
+  [in]  string                   ProxyServer,
+  [in]  string                   Local,
+  [in]  string                   ComputerName,
+  [in]  boolean                  PassThru,
+  [out] DAClientDnsConfiguration cmdletOutput
 );
 ```
 
@@ -121,7 +127,7 @@ Returns an object for the DA DNS configuration consisting of the NRPT rules and 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -135,9 +141,9 @@ Returns an object for the DA DNS configuration consisting of the NRPT rules and 
 [**PS\_DAClientDnsConfiguration**](ps-daclientdnsconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Use the Same Word Used in the Interface
 description: Use consistent terminology.
-ms.assetid: '847c208e-3b0b-4960-9c63-be611de62576'
+ms.assetid: 847c208e-3b0b-4960-9c63-be611de62576
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use the Same Word Used in the Interface

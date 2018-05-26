@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '5d36b057-3712-4d00-99b7-3ddf45620b7a'
+---
+Description: .
+ms.assetid: 5d36b057-3712-4d00-99b7-3ddf45620b7a
 title: Video
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video

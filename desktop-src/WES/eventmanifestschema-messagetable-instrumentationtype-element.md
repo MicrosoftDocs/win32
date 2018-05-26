@@ -1,14 +1,20 @@
 ---
 title: messageTable (EventsType) Element
 description: Contains a reference to a string in the localization section of the manifest.
-ms.assetid: '4dcc1afe-8f2b-4baf-b40b-406f60368575'
-keywords: ["messageTable element EventLog"]
+ms.assetid: 4dcc1afe-8f2b-4baf-b40b-406f60368575
+keywords:
+- messageTable element EventLog
 topic_type:
 - apiref
 api_name:
 - messageTable
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # messageTable (EventsType) Element
@@ -78,8 +84,8 @@ The **messageTable** element is defined by the [**EventsType**](eventmanifestsch
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -93,9 +99,9 @@ The **messageTable** element is defined by the [**EventsType**](eventmanifestsch
 [**events (InstrumentationType) Element**](eventmanifestschema-events-instrumentationtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

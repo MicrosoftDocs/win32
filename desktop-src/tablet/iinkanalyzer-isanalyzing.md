@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a value indicating whether the IInkAnalyzer is performing ink analysis.'
-ms.assetid: '3f3f6f29-0c90-47e1-938c-f1ce6ed8df47'
-title: 'IInkAnalyzer::IsAnalyzing method'
+Description: Retrieves a value indicating whether the IInkAnalyzer is performing ink analysis.
+ms.assetid: 3f3f6f29-0c90-47e1-938c-f1ce6ed8df47
+title: IInkAnalyzerIsAnalyzing method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::IsAnalyzing method
@@ -13,7 +18,7 @@ Retrieves a value indicating whether the [**IInkAnalyzer**](iinkanalyzer.md) is 
 
 ```C++
 HRESULT IsAnalyzing(
-  [out] VARIANT_BOOL *pbAnalyzing
+  [out] VARIANT_BOOL *pbAnalyzing
 );
 ```
 
@@ -106,7 +111,7 @@ HRESULT CMyClass::ExploreAnalysisResults(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -129,9 +134,9 @@ HRESULT CMyClass::ExploreAnalysisResults(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

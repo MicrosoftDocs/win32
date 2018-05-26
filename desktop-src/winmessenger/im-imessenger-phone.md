@@ -1,8 +1,11 @@
 ---
 title: IMessenger Phone method
 description: Launches the Phone Call dialog box.
-ms.assetid: '99961081-1bdc-4311-8ca4-9eb1ed73c903'
-keywords: ["Phone method Windows Messenger", "Phone method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , Phone method"]
+ms.assetid: 99961081-1bdc-4311-8ca4-9eb1ed73c903
+keywords:
+- Phone method Windows Messenger
+- Phone method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , Phone method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::Phone method
 
-\[**Phone** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Phone** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Launches the **Phone Call** dialog box.
 
@@ -24,10 +32,10 @@ Launches the **Phone Call** dialog box.
 
 ```C++
 HRESULT Phone(
-  [in]          VARIANT     vContact,
-  [in]          MPHONE_TYPE ePhoneNumber,
-  [in]          BSTR        bstrNumber,
-  [out, retval] IDispatch   **ppMWindow
+  [in]          VARIANT     vContact,
+  [in]          MPHONE_TYPE ePhoneNumber,
+  [in]          BSTR        bstrNumber,
+  [out, retval] IDispatch   **ppMWindow
 );
 ```
 
@@ -113,11 +121,11 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
-The Microsoft Exchange Instant Messaging Service (IM) cannot support this method. Calling this method on an Exchange service contact will fail.
+The Microsoft Exchange Instant Messaging Service (IM) cannot support this method. Calling this method on an Exchange service contact will fail.
 
 *ppMWindow* should be released when it is no longer needed.
 
@@ -128,7 +136,7 @@ In anticipation of numbers that exceed normal limits because of extensions, key 
 > [!Note]  
 > This method is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -136,17 +144,17 @@ In anticipation of numbers that exceed normal limits because of extensions, key 
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

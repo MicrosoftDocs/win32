@@ -1,7 +1,12 @@
-﻿---
-Description: 'Removes all Certificate objects from the collection.'
-ms.assetid: '7349a9dd-d17b-4f79-b31d-0d79ff7641d1'
-title: 'ICertificates2::Clear method'
+---
+Description: Removes all Certificate objects from the collection.
+ms.assetid: 7349a9dd-d17b-4f79-b31d-0d79ff7641d1
+title: ICertificates2Clear method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertificates2::Clear method

@@ -4,18 +4,23 @@ description: Represents settings for a storage pool.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '47e749d8-6224-4b69-b985-6a2cdac4a359'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 47e749d8-6224-4b69-b985-6a2cdac4a359
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMPoolSetting class", "MSFT_SMPoolSetting class, described"]
+keywords:
+- MSFT_SMPoolSetting class
+- MSFT_SMPoolSetting class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMPoolSetting class
 
 Represents settings for a storage pool.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) which is new for Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) which is new for Windows Server 2016.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -25,26 +30,26 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMPoolSetting : MSFT_SMStorageObject
 {
-  String  ObjectId;
-  String  Identifier;
-  String  DisplayName;
+  String  ObjectId;
+  String  Identifier;
+  String  DisplayName;
   boolean NoSinglePointOfFailure;
-  uint16  DataRedundancyMin;
-  uint16  DataRedundancyMax;
-  uint16  DataRedundancyGoal;
-  uint16  PackageRedundancyMin;
-  uint16  PackageRedundancyMax;
-  uint16  PackageRedundancyGoal;
-  uint16  ChangeableType;
-  uint16  ExtentStripeLength;
-  uint16  ExtentStripeLengthMin;
-  uint16  ExtentStripeLengthMax;
-  uint16  ParityLayout;
-  uint64  UserDataStripeDepth;
-  uint64  UserDataStripeDepthMin;
-  uint64  UserDataStripeDepthMax;
-  uint16  ThinProvisionedPoolType;
-  string  ThinProvisionedPoolTypeDescription;
+  uint16  DataRedundancyMin;
+  uint16  DataRedundancyMax;
+  uint16  DataRedundancyGoal;
+  uint16  PackageRedundancyMin;
+  uint16  PackageRedundancyMax;
+  uint16  PackageRedundancyGoal;
+  uint16  ChangeableType;
+  uint16  ExtentStripeLength;
+  uint16  ExtentStripeLengthMin;
+  uint16  ExtentStripeLengthMax;
+  uint16  ParityLayout;
+  uint64  UserDataStripeDepth;
+  uint64  UserDataStripeDepthMin;
+  uint64  UserDataStripeDepthMax;
+  uint16  ThinProvisionedPoolType;
+  string  ThinProvisionedPoolTypeDescription;
 };
 ```
 
@@ -180,7 +185,7 @@ The ID of the logical instance of the object. This ID must be unique within the 
 
 This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
 
 </dd> <dt>
 
@@ -213,7 +218,7 @@ The ID of this class instance. This ID must be unique within the scope of the Wi
 
 This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
 
 </dd> <dt>
 
@@ -310,14 +315,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>10–2047</dd> <dt>
+</dt> <dd>10 2047</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>2048–65535</dd> </dl>
+</dt> <dd>2048 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -380,16 +385,16 @@ TBD
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

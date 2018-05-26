@@ -1,8 +1,9 @@
 ---
 title: NM\_RETURN (tree view) notification code
-description: Notifies a tree-view control's parent window that the control has the input focus and that the user has pressed the key. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'e4a048ec-4643-458a-bf75-f5b08163d6c6'
-keywords: ["NM_RETURN (tree view) notification code Windows Controls"]
+description: Notifies a tree-view controls parent window that the control has the input focus and that the user has pressed the key. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: e4a048ec-4643-458a-bf75-f5b08163d6c6
+keywords:
+- NM_RETURN (tree view) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_RETURN (tree view) notification code
@@ -33,7 +39,7 @@ NM_RETURN
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMHDR**](nmhdr.md) structure that contains additional information about this notification.
+Pointer to an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure that contains additional information about this notification.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ Return nonzero to prevent the default processing, or zero to allow the default p
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This operator assigns a new reference time.'
-ms.assetid: 'ae6a33ab-f4e0-4f1c-80a0-8a25ee1e9dc5'
-title: 'COARefTime.operator= method'
+Description: This operator assigns a new reference time.
+ms.assetid: ae6a33ab-f4e0-4f1c-80a0-8a25ee1e9dc5
+title: COARefTime.operator= method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COARefTime.operator= method
@@ -13,7 +18,7 @@ This operator assigns a new reference time.
 
 ```C++
 COARefTime&amp; operator=(
-  [ref] const double &amp;rd
+  [ref] const double &amp;rd
 );
 ```
 
@@ -52,9 +57,9 @@ Returns a reference to the object.
 [**COARefTime Class**](coareftime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

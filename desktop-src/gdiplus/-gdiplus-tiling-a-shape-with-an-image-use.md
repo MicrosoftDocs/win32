@@ -1,14 +1,19 @@
 ---
-Description: 'Just as tiles can be placed next to each other to cover a floor, rectangular images can be placed next to each other to fill (tile) a shape.'
-ms.assetid: 'c92aa519-647a-4cd9-b88e-b79be0116d05'
+Description: Just as tiles can be placed next to each other to cover a floor, rectangular images can be placed next to each other to fill (tile) a shape.
+ms.assetid: c92aa519-647a-4cd9-b88e-b79be0116d05
 title: Tiling a Shape with an Image
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tiling a Shape with an Image
 
-Just as tiles can be placed next to each other to cover a floor, rectangular images can be placed next to each other to fill (tile) a shape. To tile the interior of a shape, use a texture brush. When you construct a [**TextureBrush**](-gdiplus-class-texturebrush-class.md) object, one of the arguments you pass to the constructor is the address of an [**Image**](-gdiplus-class-image-class.md) object. When you use the texture brush to paint the interior of a shape, the shape is filled with repeated copies of this image.
+Just as tiles can be placed next to each other to cover a floor, rectangular images can be placed next to each other to fill (tile) a shape. To tile the interior of a shape, use a texture brush. When you construct a [**TextureBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-texturebrush?branch=master) object, one of the arguments you pass to the constructor is the address of an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object. When you use the texture brush to paint the interior of a shape, the shape is filled with repeated copies of this image.
 
-The wrap mode property of the [**TextureBrush**](-gdiplus-class-texturebrush-class.md) object determines how the image is oriented as it is repeated in a rectangular grid. You can make all the tiles in the grid have the same orientation, or you can make the image flip from one grid position to the next. The flipping can be horizontal, vertical, or both. The following examples demonstrate tiling with different types of flipping.
+The wrap mode property of the [**TextureBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-texturebrush?branch=master) object determines how the image is oriented as it is repeated in a rectangular grid. You can make all the tiles in the grid have the same orientation, or you can make the image flip from one grid position to the next. The flipping can be horizontal, vertical, or both. The following examples demonstrate tiling with different types of flipping.
 
 ## Tiling an Image
 

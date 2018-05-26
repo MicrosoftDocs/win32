@@ -1,7 +1,12 @@
 ---
-Description: 'The user-friendly display path of an item''s parent folder.'
-ms.assetid: '16f67edc-ca8a-4c2e-9d9b-be8600446e51'
-title: 'System.ItemFolderPathDisplay'
+Description: The user-friendly display path of an items parent folder.
+ms.assetid: 16f67edc-ca8a-4c2e-9d9b-be8600446e51
+title: System.ItemFolderPathDisplay
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ItemFolderPathDisplay

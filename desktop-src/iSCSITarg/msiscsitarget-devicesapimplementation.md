@@ -4,13 +4,15 @@ description: Describes an association between one or more Service Access Points 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5202b818-72b4-414c-a4f4-862d862afdb3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5202b818-72b4-414c-a4f4-862d862afdb3
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_DeviceSAPImplementation class iSCSI Software Target API", "MSISCSITARGET_DeviceSAPImplementation class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_DeviceSAPImplementation class iSCSI Software Target API
+- MSISCSITARGET_DeviceSAPImplementation class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_DeviceSAPImplementation class
@@ -37,7 +42,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Association, Version("1.0.0")]
 class MSISCSITARGET_DeviceSAPImplementation : CIM_DeviceSAPImplementation
 {
-  CIM_LogicalDevice      REF Antecedent;
+  CIM_LogicalDevice      REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
 };
 ```
@@ -91,7 +96,7 @@ This property is inherited from [**CIM\_DeviceSAPImplementation**](cim-devicesap
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -108,9 +113,9 @@ This property is inherited from [**CIM\_DeviceSAPImplementation**](cim-devicesap
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

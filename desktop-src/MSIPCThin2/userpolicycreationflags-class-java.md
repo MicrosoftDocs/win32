@@ -4,17 +4,21 @@ description: Option flags for creating user policies.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'FCBE4ECF-BE2C-439B-8A1F-6EFEF44266D6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: FCBE4ECF-BE2C-439B-8A1F-6EFEF44266D6
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserPolicyCreationFlags class"]
+keywords:
+- UserPolicyCreationFlags class
 topic_type:
 - apiref
 api_name:
 - UserPolicyCreationFlags class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicyCreationFlags class
@@ -39,7 +43,7 @@ public class UserPolicyCreationFlags
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -55,7 +59,7 @@ UserPolicy.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -65,9 +69,9 @@ com.microsoft.rightsmanagement
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

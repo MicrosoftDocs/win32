@@ -1,8 +1,13 @@
 ---
 title: IVMSupportDriver Type property
 description: The Type property contains the type of support driver.
-ms.assetid: 'f49b1c7d-c491-4f17-b48b-3b3f620b52d2'
-keywords: ["Type property Virtual Server", "Type property Virtual Server , IVMSupportDriver interface", "IVMSupportDriver interface Virtual Server , Type property", "Type property Virtual Server , VMSupportDriver interface", "VMSupportDriver interface Virtual Server , Type property"]
+ms.assetid: f49b1c7d-c491-4f17-b48b-3b3f620b52d2
+keywords:
+- Type property Virtual Server
+- Type property Virtual Server , IVMSupportDriver interface
+- IVMSupportDriver interface Virtual Server , Type property
+- Type property Virtual Server , VMSupportDriver interface
+- VMSupportDriver interface Virtual Server , Type property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSupportDriver::Type property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Type(
-  [out] VMSupportDriverType *driverType
+  [out] VMSupportDriverType *driverType
 );
 ```
 
@@ -75,8 +85,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -88,9 +98,9 @@ This property value is read-only.
 [**IVMSupportDriver**](ivmsupportdriver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

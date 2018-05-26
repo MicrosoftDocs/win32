@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the state of the TPM device.'
-ms.assetid: '74f43334-a578-4288-b5d7-83423d8af15f'
-title: 'Msvm\_TPM class'
+Description: Represents the state of the TPM device.
+ms.assetid: 74f43334-a578-4288-b5d7-83423d8af15f
+title: Msvm\_TPM class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_TPM class
@@ -29,8 +34,8 @@ The **Msvm\_TPM** class does not define any members.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -44,9 +49,9 @@ The **Msvm\_TPM** class does not define any members.
 [**CIM\_TPM**](cim-tpm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

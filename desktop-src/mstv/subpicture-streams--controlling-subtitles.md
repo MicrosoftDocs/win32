@@ -1,7 +1,12 @@
 ---
 title: Subpicture Streams Controlling Subtitles
 description: Subpicture Streams Controlling Subtitles
-ms.assetid: 'c98cfd7a-ef62-4ac2-96bc-82ee8e30dc0d'
+ms.assetid: c98cfd7a-ef62-4ac2-96bc-82ee8e30dc0d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subpicture Streams: Controlling Subtitles

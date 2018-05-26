@@ -1,7 +1,12 @@
 ---
-Description: 'This topic shows you how to use an effect created with the XAPO API in an XAudio2 effect chain.'
-ms.assetid: 'd4d24177-25eb-13ca-0e38-0c876a273e0d'
-title: 'How to: Use an XAPO in XAudio2'
+Description: This topic shows you how to use an effect created with the XAPO API in an XAudio2 effect chain.
+ms.assetid: d4d24177-25eb-13ca-0e38-0c876a273e0d
+title: How to Use an XAPO in XAudio2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Use an XAPO in XAudio2
@@ -21,7 +26,7 @@ This topic shows you how to use an effect created with the XAPO API in an XAudio
 
     
 
-3.  Populate an [**XAUDIO2\_EFFECT\_DESCRIPTOR**](xaudio2-effect-descriptor.md) structure with data.
+3.  Populate an [**XAUDIO2\_EFFECT\_DESCRIPTOR**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_effect_descriptor?branch=master) structure with data.
 
     ```
     XAUDIO2_EFFECT_DESCRIPTOR descriptor;
@@ -32,7 +37,7 @@ This topic shows you how to use an effect created with the XAPO API in an XAudio
 
     
 
-4.  Populate an [**XAUDIO2\_EFFECT\_CHAIN**](xaudio2-effect-chain.md) structure with data.
+4.  Populate an [**XAUDIO2\_EFFECT\_CHAIN**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_effect_chain?branch=master) structure with data.
 
     ```
     XAUDIO2_EFFECT_CHAIN chain;

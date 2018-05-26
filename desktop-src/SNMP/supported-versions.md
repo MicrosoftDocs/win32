@@ -1,7 +1,12 @@
 ---
 title: Supported Versions
 description: Windows Vista and Windows Server 2008 support SNMPv1 and SNMPv2c. This topic provides basic information about each of these versions of SNMP.
-ms.assetid: '6eb5d83a-030b-4a26-9962-620dded79578'
+ms.assetid: 6eb5d83a-030b-4a26-9962-620dded79578
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supported Versions

@@ -4,11 +4,14 @@ description: Retrieves the device with the specified identifier.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b64e83fa-5a94-4080-8efa-45cbfe5ceb88'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b64e83fa-5a94-4080-8efa-45cbfe5ceb88
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DeviceById property Remote Desktop Services", "DeviceById property Remote Desktop Services , IMsRdpDeviceCollection interface", "IMsRdpDeviceCollection interface Remote Desktop Services , DeviceById property"]
+keywords:
+- DeviceById property Remote Desktop Services
+- DeviceById property Remote Desktop Services , IMsRdpDeviceCollection interface
+- IMsRdpDeviceCollection interface Remote Desktop Services , DeviceById property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDeviceCollection::DeviceById property
@@ -31,8 +37,8 @@ This property is read-only.
 
 ```C++
 HRESULT get_DeviceById(
-  [in]          BSTR devInstanceId,
-  [out, retval] IMsRdpDevice **ppDevice
+  [in]          BSTR devInstanceId,
+  [out, retval] IMsRdpDevice **ppDevice
 );
 ```
 
@@ -52,8 +58,8 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | IID<br/>                      | IID\_IMsRdpDeviceCollection is defined as 56540617-d281-488c-8738-6a8fdf64a118<br/> |
@@ -67,9 +73,9 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 [**IMsRdpDeviceCollection**](imsrdpdevicecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

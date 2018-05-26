@@ -1,7 +1,12 @@
 ---
-Description: 'The Error object returns the information of a single merge error.'
-ms.assetid: '38025e21-2d31-40f8-a088-2d3912c2893e'
+Description: The Error object returns the information of a single merge error.
+ms.assetid: 38025e21-2d31-40f8-a088-2d3912c2893e
 title: Error object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error object
@@ -32,7 +37,7 @@ The **Error** object has these properties.
 
 
 
- 
+ 
 
 ## C++
 
@@ -48,7 +53,7 @@ interface **IMsmError : IDispatch**
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,9 +67,9 @@ interface **IMsmError : IDispatch**
 
 
 
- 
+ 
 
- 
+ 
 
 
 

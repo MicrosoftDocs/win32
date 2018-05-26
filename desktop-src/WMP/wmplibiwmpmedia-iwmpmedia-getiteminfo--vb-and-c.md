@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia getItemInfo method
 description: The getItemInfo method returns the value of the specified attribute for the media item.
-ms.assetid: 'b95fa61d-a600-4f31-a930-d80516204034'
-keywords: ["getItemInfo method Windows Media Player", "getItemInfo method Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , getItemInfo method"]
+ms.assetid: b95fa61d-a600-4f31-a930-d80516204034
+keywords:
+- getItemInfo method Windows Media Player
+- getItemInfo method Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , getItemInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::getItemInfo method
@@ -110,9 +118,9 @@ Before calling this method, you must have read access to the library. For more i
 [**IWMPMedia3.getItemInfoByType (VB and C#)**](wmplibiwmpmedia3-iwmpmedia3-getiteminfobytype--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

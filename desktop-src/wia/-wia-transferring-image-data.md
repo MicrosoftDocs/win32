@@ -1,7 +1,12 @@
 ---
-Description: 'Use the methods of the IWiaDataTransfer interface to transfer data from a Windows Image Acquisition (WIA) 1.0 device to an application.'
-ms.assetid: '67fbf3d9-6965-4464-b04c-10989b2fd55d'
-title: 'Transferring Image Data in WIA 1.0'
+Description: Use the methods of the IWiaDataTransfer interface to transfer data from a Windows Image Acquisition (WIA) 1.0 device to an application.
+ms.assetid: 67fbf3d9-6965-4464-b04c-10989b2fd55d
+title: Transferring Image Data in WIA 1.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transferring Image Data in WIA 1.0
@@ -11,9 +16,9 @@ title: 'Transferring Image Data in WIA 1.0'
 
  
 
-Use the methods of the [**IWiaDataTransfer**](-wia-iwiadatatransfer.md) interface to transfer data from a Windows Image Acquisition (WIA) 1.0 device to an application. This interface supports a shared memory window to transfer data from the device object to the application and eliminate unnecessary data copies during marshalling.
+Use the methods of the [**IWiaDataTransfer**](/windows/win32/wia_xp/nn-wia_xp-iwiadatatransfer?branch=master) interface to transfer data from a Windows Image Acquisition (WIA) 1.0 device to an application. This interface supports a shared memory window to transfer data from the device object to the application and eliminate unnecessary data copies during marshalling.
 
-Applications must query an image item to obtain a pointer to its [**IWiaDataTransfer**](-wia-iwiadatatransfer.md) interface, as in the following code sample:
+Applications must query an image item to obtain a pointer to its [**IWiaDataTransfer**](/windows/win32/wia_xp/nn-wia_xp-iwiadatatransfer?branch=master) interface, as in the following code sample:
 
 
 ```
@@ -25,7 +30,7 @@ Applications must query an image item to obtain a pointer to its [**IWiaDataTran
 
 
 
-In the previous code, it is assumed that **pWiaItem** is a valid pointer to the [**IWiaItem**](-wia-iwiaitem.md) interface. The call to [IUnknown::QueryInterface](com.iunknown_queryinterface) fills **pWiaDataTransfer** with a pointer to the [**IWiaDataTransfer**](-wia-iwiadatatransfer.md) interface of the item referred to by **pWiaItem**.
+In the previous code, it is assumed that **pWiaItem** is a valid pointer to the [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) interface. The call to [IUnknown::QueryInterface](com.iunknown_queryinterface) fills **pWiaDataTransfer** with a pointer to the [**IWiaDataTransfer**](/windows/win32/wia_xp/nn-wia_xp-iwiadatatransfer?branch=master) interface of the item referred to by **pWiaItem**.
 
 The application then sets the [STGMEDIUM](com.stgmedium) structure members. For information, see STGMEDIUM and [TYMED](com.tymed).
 
@@ -41,7 +46,7 @@ The application then sets the [STGMEDIUM](com.stgmedium) structure members. For 
 
 If you supply a filename, it should include the proper file extension; WIA 1.0 does not provide file extensions. If the **lpszFileName** member of **StgMedium** is **NULL**, WIA 1.0 generates a random file name and path for the transferred data. Move or copy this file before calling ReleaseStgMedium, because this function will delete the file.
 
-The application then calls the [**IWiaDataTransfer::idtGetData**](-wia-iwiadatatransfer-idtgetdata.md) method to run the data transfer:
+The application then calls the [**IWiaDataTransfer::idtGetData**](/windows/win32/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetdata?branch=master) method to run the data transfer:
 
 
 ```
@@ -52,9 +57,9 @@ The application then calls the [**IWiaDataTransfer::idtGetData**](-wia-iwiadatat
 
 
 
-In the call to [**IWiaDataTransfer::idtGetData**](-wia-iwiadatatransfer-idtgetdata.md), the second parameter specifies a pointer to the [**IWiaDataCallback**](-wia-iwiadatacallback.md) interface. Applications must implement this interface to receive callbacks during data transfers. For information about implementing this interface, see [**IWiaDataCallback::BandedDataCallback**](-wia-iwiadatacallback-bandeddatacallback.md).
+In the call to [**IWiaDataTransfer::idtGetData**](/windows/win32/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetdata?branch=master), the second parameter specifies a pointer to the [**IWiaDataCallback**](/windows/win32/wia_xp/nn-wia_xp-iwiadatacallback?branch=master) interface. Applications must implement this interface to receive callbacks during data transfers. For information about implementing this interface, see [**IWiaDataCallback::BandedDataCallback**](/windows/win32/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback?branch=master).
 
-The application then releases the pointers to the [**IWiaDataTransfer**](-wia-iwiadatatransfer.md) interface and frees any data allocated in the [STGMEDIUM](com.stgmedium) structure.
+The application then releases the pointers to the [**IWiaDataTransfer**](/windows/win32/wia_xp/nn-wia_xp-iwiadatatransfer?branch=master) interface and frees any data allocated in the [STGMEDIUM](com.stgmedium) structure.
 
 The application can also transfer the image using in-memory data transfers instead of file transfers. In this case, the application uses the idtGetBandedData method in place of the idtGetData method.
 

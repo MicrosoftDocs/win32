@@ -1,8 +1,34 @@
 ---
 title: Installing the Online Store Plug-in Wizard
 description: Installing the Online Store Plug-in Wizard
-ms.assetid: '75f7c279-4800-4146-8198-1dc76472237d'
-keywords: ["Windows Media Player online stores,plug-ins", "online stores,plug-ins", "type 1 online stores,plug-ins", "Windows Media Player online stores,plug-in wizard", "online stores,plug-in wizard", "type 1 online stores,plug-in wizard", "Windows Media Player online stores,installing plug-in wizard", "online stores,installing plug-in wizard", "type 1 online stores,installing plug-in wizard", "plug-ins,Windows Media Player online stores", "plug-ins,online stores", "plug-ins,type 1 online stores", "plug-ins,installing plug-in wizard", "plug-ins,plug-in wizard", "Windows Media Player plug-ins,type 1 online stores", "Windows Media Player plug-ins,online stores", "Windows Media Player plug-ins,Windows Media Player online stores", "Windows Media Player plug-ins,installing plug-in wizard", "Windows Media Player plug-ins,plug-in wizard", "installing plug-in wizard", "plug-in wizard"]
+ms.assetid: 75f7c279-4800-4146-8198-1dc76472237d
+keywords:
+- Windows Media Player online stores,plug-ins
+- online stores,plug-ins
+- type 1 online stores,plug-ins
+- Windows Media Player online stores,plug-in wizard
+- online stores,plug-in wizard
+- type 1 online stores,plug-in wizard
+- Windows Media Player online stores,installing plug-in wizard
+- online stores,installing plug-in wizard
+- type 1 online stores,installing plug-in wizard
+- plug-ins,Windows Media Player online stores
+- plug-ins,online stores
+- plug-ins,type 1 online stores
+- plug-ins,installing plug-in wizard
+- plug-ins,plug-in wizard
+- Windows Media Player plug-ins,type 1 online stores
+- Windows Media Player plug-ins,online stores
+- Windows Media Player plug-ins,Windows Media Player online stores
+- Windows Media Player plug-ins,installing plug-in wizard
+- Windows Media Player plug-ins,plug-in wizard
+- installing plug-in wizard
+- plug-in wizard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing the Online Store Plug-in Wizard

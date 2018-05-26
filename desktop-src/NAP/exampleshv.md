@@ -1,7 +1,12 @@
 ---
 title: Example SHV
 description: The following example sets up a system health validator (SHV) on a NAP health policy server.
-ms.assetid: '2264c1d7-b1fb-4937-bf24-d6fa05bdc6fe'
+ms.assetid: 2264c1d7-b1fb-4937-bf24-d6fa05bdc6fe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example SHV

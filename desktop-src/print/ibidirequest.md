@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IBidiRequest interface allows an application or other objects to compose a bidi request.'
-ms.assetid: 'e7b16853-7f1d-45e4-af5e-4ae9cbb9b191'
+---
+Description: The IBidiRequest interface allows an application or other objects to compose a bidi request.
+ms.assetid: e7b16853-7f1d-45e4-af5e-4ae9cbb9b191
 title: IBidiRequest interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiRequest interface

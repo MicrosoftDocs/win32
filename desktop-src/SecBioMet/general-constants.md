@@ -1,7 +1,7 @@
 ---
 title: General Constants
 description: Specify maximum SID length, handles, IDs, maximum string length, and maximum sample buffer size.
-ms.assetid: '62e87bd8-a708-4d00-aaa8-9cac8e3736a7'
+ms.assetid: 62e87bd8-a708-4d00-aaa8-9cac8e3736a7
 topic_type:
 - apiref
 api_name:
@@ -17,6 +17,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Constants
@@ -44,8 +49,8 @@ The following constants are used throughout the Windows Biometric Framework.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -57,9 +62,9 @@ The following constants are used throughout the Windows Biometric Framework.
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

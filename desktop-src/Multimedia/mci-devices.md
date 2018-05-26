@@ -1,7 +1,12 @@
 ---
 title: MCI Devices
 description: MCI Devices
-ms.assetid: '2408f8e4-d040-40f5-a880-1ecb8025656c'
+ms.assetid: 2408f8e4-d040-40f5-a880-1ecb8025656c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI Devices

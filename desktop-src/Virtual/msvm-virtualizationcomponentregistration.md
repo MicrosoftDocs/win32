@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VirtualizationComponentRegistration class
 description: Represents the registration of a service in the Microsoft Hyper-V platform.
-ms.assetid: 'e7907d9c-96df-4ea3-9983-2496a1f575c9'
-keywords: ["Msvm_VirtualizationComponentRegistration class Hyper-V", "Msvm_VirtualizationComponentRegistration class Hyper-V , described"]
+ms.assetid: e7907d9c-96df-4ea3-9983-2496a1f575c9
+keywords:
+- Msvm_VirtualizationComponentRegistration class Hyper-V
+- Msvm_VirtualizationComponentRegistration class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualizationComponentRegistration class
@@ -28,7 +35,7 @@ The following syntax is simplified Managed Object Format (MOF) code.
 class Msvm_VirtualizationComponentRegistration
 {
   Msvm_VirtualizationComponent REF Component;
-  Msvm_ResourceTypeDefinition  REF ResourceType;
+  Msvm_ResourceTypeDefinition  REF ResourceType;
 };
 ```
 
@@ -87,9 +94,9 @@ Access to the **Msvm\_VirtualizationComponentRegistration** class might be restr
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -102,9 +109,9 @@ Access to the **Msvm\_VirtualizationComponentRegistration** class might be restr
 [Profile Registration Classes](profile-registration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

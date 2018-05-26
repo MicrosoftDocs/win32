@@ -1,7 +1,7 @@
 ---
 title: NAP Type Constants
 description: The following NAP constants are defined.
-ms.assetid: '2727487c-8c6a-4cd9-b6d8-253191a7d7f6'
+ms.assetid: 2727487c-8c6a-4cd9-b6d8-253191a7d7f6
 topic_type:
 - apiref
 api_name:
@@ -35,14 +35,19 @@ api_location:
 - NapEnforcementClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NAP Type Constants
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The following NAP constants are defined.
 
@@ -58,7 +63,7 @@ The following NAP constants are defined in NapTypes.h:
 
 
 
-The maximum number of [**SoHAttribute**](sohattribute-struct.md) type-length-value (TLV) objects associated with an [**SoH**](soh-struct.md) packet.
+The maximum number of [**SoHAttribute**](/windows/win32/NapTypes/ns-naptypes-tagsohattribute?branch=master) type-length-value (TLV) objects associated with an [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) packet.
 
 
 </dt> </dl> </dd> <dt>
@@ -71,7 +76,7 @@ The maximum number of [**SoHAttribute**](sohattribute-struct.md) type-length-val
 
 
 
-The maximum size, in bytes, of a [**SoHAttribute**](sohattribute-struct.md) object associated with a statement of health ([**SoH**](soh-struct.md)) packet.
+The maximum size, in bytes, of a [**SoHAttribute**](/windows/win32/NapTypes/ns-naptypes-tagsohattribute?branch=master) object associated with a statement of health ([**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master)) packet.
 
 
 </dt> </dl> </dd> <dt>
@@ -84,7 +89,7 @@ The maximum size, in bytes, of a [**SoHAttribute**](sohattribute-struct.md) obje
 
 
 
-The minimum size, in bytes, of an [**SoH**](soh-struct.md) packet.
+The minimum size, in bytes, of an [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) packet.
 
 
 </dt> </dl> </dd> <dt>
@@ -97,7 +102,7 @@ The minimum size, in bytes, of an [**SoH**](soh-struct.md) packet.
 
 
 
-The maximum size, in bytes, of an [**SoH**](soh-struct.md) packet.
+The maximum size, in bytes, of an [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) packet.
 
 
 </dt> </dl> </dd> <dt>
@@ -110,7 +115,7 @@ maxSoHAttributeSize / sizeof(DWORD)
 
 
 
-The maximum number of DWORD values associated with an [**SoHAttribute**](sohattribute-struct.md).
+The maximum number of DWORD values associated with an [**SoHAttribute**](/windows/win32/NapTypes/ns-naptypes-tagsohattribute?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -123,7 +128,7 @@ maxSoHAttributeSize / 0x4
 
 
 
-The maximum number of IPv4 addresses associated with an [**SoHAttribute**](sohattribute-struct.md).
+The maximum number of IPv4 addresses associated with an [**SoHAttribute**](/windows/win32/NapTypes/ns-naptypes-tagsohattribute?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -136,7 +141,7 @@ maxSoHAttributeSize / 0x10
 
 
 
-The maximum number of IPv6 addresses associated with an [**SoHAttribute**](sohattribute-struct.md).
+The maximum number of IPv6 addresses associated with an [**SoHAttribute**](/windows/win32/NapTypes/ns-naptypes-tagsohattribute?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -149,7 +154,7 @@ The maximum number of IPv6 addresses associated with an [**SoHAttribute**](sohat
 
 
 
-The maximum length of a string specified by the [**CountedString**](countedstring-struct.md) structure.
+The maximum length of a string specified by the [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) structure.
 
 
 </dt> </dl> </dd> <dt>
@@ -162,7 +167,7 @@ The maximum length of a string specified by the [**CountedString**](countedstrin
 
 
 
-The maximum length, in bytes, of a string specified by the [**CountedString**](countedstring-struct.md) structure.
+The maximum length, in bytes, of a string specified by the [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) structure.
 
 
 </dt> </dl> </dd> <dt>
@@ -227,7 +232,7 @@ The range of possible values for the number of enforcement entities.
 
 
 
-The maximum size, in bytes, of a [**PrivateData**](privatedata-struct.md) structure.
+The maximum size, in bytes, of a [**PrivateData**](/windows/win32/NapTypes/ns-naptypes-tagprivatedata?branch=master) structure.
 
 
 </dt> </dl> </dd> <dt>
@@ -266,7 +271,7 @@ The maximum number of cached SoH connections for all system health and enforceme
 
 
 
-Specifies that an [**SoHResponse**](networksoh-struct.md)is due to a new request, not a cached request. This flag is used by the NAP agent on an [**INapEnforcementClientConnection**](inapenforcementclientconnection.md) object.
+Specifies that an [**SoHResponse**](/windows/win32/NapTypes/ns-naptypes-tagnetworksoh?branch=master)is due to a new request, not a cached request. This flag is used by the NAP agent on an [**INapEnforcementClientConnection**](inapenforcementclientconnection.md) object.
 
 
 </dt> </dl> </dd> <dt>
@@ -292,7 +297,7 @@ Specifies that fix-up is required. This flag is used by a SHA.
 
 
 
-The number of failure categories contained within a [**FailureCategoryMapping**](failurecategorymapping-struct.md) structure.
+The number of failure categories contained within a [**FailureCategoryMapping**](/windows/win32/NapTypes/ns-naptypes-tagfailurecategorymapping?branch=master) structure.
 
 
 </dt> </dl> </dd> <dt>
@@ -305,12 +310,12 @@ The number of failure categories contained within a [**FailureCategoryMapping**]
 
 
 
-The component is a quarantine enforcement client (QEC) that sends an [**SoH**](soh-struct.md) packet in-band during connection authentication.
+The component is a quarantine enforcement client (QEC) that sends an [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) packet in-band during connection authentication.
 
 > [!Note]  
 > This value is not used by SHAs and SHVs.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -328,7 +333,7 @@ The component is a QEC that implements [**INapCertRelyingParty**](inapcertrelyin
 > [!Note]  
 > This value is not used by SHAs and SHVs.
 
- 
+ 
 
 
 </dt> </dl> </dd> </dl>
@@ -395,8 +400,8 @@ The range of possible values for the maximum size of a SoH packet.
 
 |                                     |                                                                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                |
 | Header<br/>                   | <dl> <dt>NapTypes.h; </dt> <dt>NapEnforcementClient.h</dt> </dl> |
 
 
@@ -408,9 +413,9 @@ The range of possible values for the maximum size of a SoH packet.
 [**NAP Constants**](nap-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

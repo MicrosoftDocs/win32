@@ -1,8 +1,9 @@
 ---
 title: TB\_ADDBUTTONS message
 description: Adds one or more buttons to a toolbar.
-ms.assetid: '65294dfc-b04b-475d-b38e-9d84c0fb000b'
-keywords: ["TB_ADDBUTTONS message Windows Controls"]
+ms.assetid: 65294dfc-b04b-475d-b38e-9d84c0fb000b
+keywords:
+- TB_ADDBUTTONS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_ADDBUTTONS message
@@ -33,7 +39,7 @@ Number of buttons to add.
 *lParam* 
 </dt> <dd>
 
-Pointer to an array of [**TBBUTTON**](tbbutton.md) structures that contain information about the buttons to add. There must be the same number of elements in the array as buttons specified by *wParam*.
+Pointer to an array of [**TBBUTTON**](/windows/win32/Commctrl/ns-commctrl-_tbbutton?branch=master) structures that contain information about the buttons to add. There must be the same number of elements in the array as buttons specified by *wParam*.
 
 </dd> </dl>
 
@@ -90,8 +96,8 @@ SendMessage(hWndToolbar, TB_ADDBUTTONS, numButtons, (LPARAM)tbButtonsAdd);
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TB\_ADDBUTTONSW** (Unicode) and **TB\_ADDBUTTONSA** (ANSI)<br/>               |
 
@@ -104,9 +110,9 @@ SendMessage(hWndToolbar, TB_ADDBUTTONS, numButtons, (LPARAM)tbButtonsAdd);
 [**Toolbar Standard Button Image Index Values**](toolbar-standard-button-image-index-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Prepares a device for drawing lines.'
-ms.assetid: 'c597703d-6466-4b55-b1a6-a4e7c667e50c'
-title: 'ID3DXLine::Begin method'
+---
+Description: Prepares a device for drawing lines.
+ms.assetid: c597703d-6466-4b55-b1a6-a4e7c667e50c
+title: ID3DXLineBegin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXLine::Begin method
@@ -31,9 +36,9 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 Calling **ID3DXLine::Begin** is optional. If called outside of a ID3DXLine::Begin/ID3DXLine::End sequence, the draw functions will internally call ID3DXLine::Begin and ID3DXLine::End. To avoid extra overhead, this method should be used if more than one draw function will be called successively.
 
-This method must be called from inside an [**IDirect3DDevice9::BeginScene**](idirect3ddevice9--beginscene.md) and [**IDirect3DDevice9::EndScene**](idirect3ddevice9--endscene.md) sequence.
+This method must be called from inside an [**IDirect3DDevice9::BeginScene**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-beginscene?branch=master) and [**IDirect3DDevice9::EndScene**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-endscene?branch=master) sequence.
 
-ID3DXLine::Begin cannot be used as a substitute for either [**IDirect3DDevice9::BeginScene**](idirect3ddevice9--beginscene.md) or [**ID3DXRenderToSurface::BeginScene**](id3dxrendertosurface--beginscene.md).
+ID3DXLine::Begin cannot be used as a substitute for either [**IDirect3DDevice9::BeginScene**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-beginscene?branch=master) or [**ID3DXRenderToSurface::BeginScene**](id3dxrendertosurface--beginscene.md).
 
 ## Requirements
 

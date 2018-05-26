@@ -4,10 +4,13 @@ description: The available drag-and-drop operations are determined by the enable
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '61d18dc4-cc6f-4ec8-a23b-cdd4d7ac7fb8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 61d18dc4-cc6f-4ec8-a23b-cdd4d7ac7fb8
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Copy as the Default Drag-and-Drop Verb

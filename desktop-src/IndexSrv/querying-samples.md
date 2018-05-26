@@ -1,7 +1,12 @@
 ---
 title: Querying Samples
 description: Querying Samples
-ms.assetid: '621b3636-cfcd-4040-a839-46bed7483ab6'
+ms.assetid: 621b3636-cfcd-4040-a839-46bed7483ab6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying Samples

@@ -4,13 +4,21 @@ description: The Active Directory provider, also known as the Directory Services
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '655d7e24-9464-439a-a75f-076e4942603e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 655d7e24-9464-439a-a75f-076e4942603e
+ms.prod: windows-server-dev
 ms.technology:
-- 'active-directory-domain-services'
-- 'windows-management-instrumentation'
+- active-directory-domain-services
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["providers Windows Management Instrumentation , Active Directory", "Active Directory provider Windows Management Instrumentation", "__PUT_EXT_PROPERTIES", "__PUT_EXTENSIONS", "__PUT_EXT_CLIENT_REQUEST"]
+keywords:
+- providers Windows Management Instrumentation , Active Directory
+- Active Directory provider Windows Management Instrumentation
+- __PUT_EXT_PROPERTIES
+- __PUT_EXTENSIONS
+- __PUT_EXT_CLIENT_REQUEST
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Active Directory Provider

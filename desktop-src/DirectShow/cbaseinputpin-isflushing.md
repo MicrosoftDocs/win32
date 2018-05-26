@@ -1,7 +1,12 @@
 ---
-Description: 'The IsFlushing method queries whether the filter is currently flushing.'
-ms.assetid: '366b6162-7a2c-4882-8774-8b4bf83012b4'
-title: 'CBaseInputPin.IsFlushing method'
+Description: The IsFlushing method queries whether the filter is currently flushing.
+ms.assetid: 366b6162-7a2c-4882-8774-8b4bf83012b4
+title: CBaseInputPin.IsFlushing method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin.IsFlushing method
@@ -43,9 +48,9 @@ Returns the [**CBaseInputPin::m\_bFlushing**](cbaseinputpin-m-bflushing.md) memb
 [**CBaseInputPin Class**](cbaseinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Touch Flags
 description: Values that can appear in the touchFlags field of the POINTER\_TOUCH\_INFO structure.
-ms.assetid: '87CE2BF4-BD33-4D45-B001-065048702064'
+ms.assetid: 87CE2BF4-BD33-4D45-B001-065048702064
 topic_type:
 - apiref
 api_name:
@@ -10,11 +10,16 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Touch Flags
 
-Values that can appear in the **touchFlags** field of the [**POINTER\_TOUCH\_INFO**](pointer-touch-info-struct.md) structure.
+Values that can appear in the **touchFlags** field of the [**POINTER\_TOUCH\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_touch_info?branch=master) structure.
 
 <dl> <dt>
 
@@ -37,8 +42,8 @@ The default value.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -50,12 +55,12 @@ The default value.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](pointer-info-struct.md)
+[**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

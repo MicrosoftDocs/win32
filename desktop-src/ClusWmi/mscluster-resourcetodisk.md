@@ -4,13 +4,15 @@ description: A dynamic WMI class that associates an instance of the MSCluster\_R
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eed143d2-7704-4acb-94e2-ab072288d05e'
-ms.prod: 'windows-server-dev'
+ms.assetid: eed143d2-7704-4acb-94e2-ab072288d05e
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ResourceToDisk class", "MSCluster_ResourceToDisk class, described"]
+keywords:
+- MSCluster_ResourceToDisk class
+- MSCluster_ResourceToDisk class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ResourceToDisk class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSCluster_ResourceToDisk : CIM_Component
 {
   MSCluster_Resource REF GroupComponent;
-  MSCluster_Disk     REF PartComponent;
+  MSCluster_Disk     REF PartComponent;
 };
 ```
 
@@ -95,7 +100,7 @@ The **MSCluster\_ResourceToDisk** class is derived from the [**CIM\_Component**]
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -118,9 +123,9 @@ The **MSCluster\_ResourceToDisk** class is derived from the [**CIM\_Component**]
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

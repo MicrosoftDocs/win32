@@ -1,7 +1,12 @@
 ---
-Description: 'A Windows Installer user interface unit is approximately equal to one-twelfth (1/12) the height of the 10-point MS Sans Serif font size.'
-ms.assetid: '5ef6dee1-71e7-446b-b526-5c6c4e7525f2'
+Description: A Windows Installer user interface unit is approximately equal to one-twelfth (1/12) the height of the 10-point MS Sans Serif font size.
+ms.assetid: 5ef6dee1-71e7-446b-b526-5c6c4e7525f2
 title: Installer Units
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer Units

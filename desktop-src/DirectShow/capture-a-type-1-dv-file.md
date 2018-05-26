@@ -1,7 +1,12 @@
 ---
-Description: 'Capture a Type-1 DV File'
-ms.assetid: 'fba11e9b-4900-4b29-a0c9-702272cd7387'
-title: 'Capture a Type-1 DV File'
+Description: Capture a Type-1 DV File
+ms.assetid: fba11e9b-4900-4b29-a0c9-702272cd7387
+title: Capture a Type-1 DV File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capture a Type-1 DV File
@@ -45,8 +50,8 @@ hr = pBuilder->RenderStream(&amp;PIN_CATEGORY_PREVIEW, &amp;MEDIATYPE_Interleave
 
 
 
-1.  Call [**ICaptureGraphBuilder2::SetOutputFileName**](icapturegraphbuilder2-setoutputfilename.md) to connect the AVI Mux filter to the File Writer filter.
-2.  Call [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) with the pin category PIN\_CATEGORY\_CAPTURE to render the capture stream. The Capture Graph Builder automatically inserts the Smart Tee filter.
+1.  Call [**ICaptureGraphBuilder2::SetOutputFileName**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-setoutputfilename?branch=master) to connect the AVI Mux filter to the File Writer filter.
+2.  Call [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) with the pin category PIN\_CATEGORY\_CAPTURE to render the capture stream. The Capture Graph Builder automatically inserts the Smart Tee filter.
 3.  Call RenderStream again, but with the pin category PIN\_CATEGORY\_PREVIEW, to render the preview stream. Skip this call if you do not want to preview the video.
 
 For both calls to RenderStream, the media type is MEDIATYPE\_Interleaved, meaning interleaved DV video. In this code, the Capture Graph Builder automatically adds every filter that is needed, except for the MSDV capture filter.

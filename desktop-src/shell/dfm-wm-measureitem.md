@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to the owner window of a control or menu item when the control or menu is created.'
-ms.assetid: '4584a3da-6c92-4ecd-8cf2-e4afc1b8321d'
-title: 'DFM\_WM\_MEASUREITEM message'
+---
+Description: Sent to the owner window of a control or menu item when the control or menu is created.
+ms.assetid: 4584a3da-6c92-4ecd-8cf2-e4afc1b8321d
+title: DFM\_WM\_MEASUREITEM message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DFM\_WM\_MEASUREITEM message

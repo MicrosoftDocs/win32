@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC structure
 description: A helper structure to enable easy initialization of a D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC structure.
-ms.assetid: '4505C1CE-CAA5-4092-B990-75740A2B194C'
-keywords: ["CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC structure"]
+ms.assetid: 4505C1CE-CAA5-4092-B990-75740A2B194C
+keywords:
+- CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC structure
 topic_type:
 - apiref
 api_name:
@@ -11,24 +12,29 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC structure
 
-A helper structure to enable easy initialization of a [**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](d3d12-versioned-root-signature-desc.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc?branch=master) structure.
 
 ## Syntax
 
 
 ```C++
 struct CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC  : public D3D12_VERSIONED_ROOT_SIGNATURE_DESC{
-       CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC();
-       explicit CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC(const D3D12_VERSIONED_ROOT_SIGNATURE_DESC &amp;o);
-       explicit CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC(const D3D12_ROOT_SIGNATURE_DESC &amp;o);
-       explicit CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC(const D3D12_ROOT_SIGNATURE_DESC1 &amp;o);
-       CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC(UINT numParameters, const D3D12_ROOT_PARAMETER* _pParameters, UINT numStaticSamplers = 0, const D3D12_STATIC_SAMPLER_DESC* _pStaticSamplers = NULL, D3D12_ROOT_SIGNATURE_FLAGS flags = D3D12_ROOT_SIGNATURE_FLAG_NONE);
-       CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC(UINT numParameters, const D3D12_ROOT_PARAMETER1* _pParameters, UINT numStaticSamplers = 0, const D3D12_STATIC_SAMPLER_DESC* _pStaticSamplers = NULL, D3D12_ROOT_SIGNATURE_FLAGS flags = D3D12_ROOT_SIGNATURE_FLAG_NONE);
-       CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC(CD3DX12_DEFAULT);
+       CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC();
+       explicit CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC(const D3D12_VERSIONED_ROOT_SIGNATURE_DESC &amp;o);
+       explicit CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC(const D3D12_ROOT_SIGNATURE_DESC &amp;o);
+       explicit CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC(const D3D12_ROOT_SIGNATURE_DESC1 &amp;o);
+       CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC(UINT numParameters, const D3D12_ROOT_PARAMETER* _pParameters, UINT numStaticSamplers = 0, const D3D12_STATIC_SAMPLER_DESC* _pStaticSamplers = NULL, D3D12_ROOT_SIGNATURE_FLAGS flags = D3D12_ROOT_SIGNATURE_FLAG_NONE);
+       CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC(UINT numParameters, const D3D12_ROOT_PARAMETER1* _pParameters, UINT numStaticSamplers = 0, const D3D12_STATIC_SAMPLER_DESC* _pStaticSamplers = NULL, D3D12_ROOT_SIGNATURE_FLAGS flags = D3D12_ROOT_SIGNATURE_FLAG_NONE);
+       CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC(CD3DX12_DEFAULT);
   void inline Init_1_0(UINT numParameters, const D3D12_ROOT_PARAMETER* _pParameters, UINT numStaticSamplers = 0, const D3D12_STATIC_SAMPLER_DESC* _pStaticSamplers = NULL, D3D12_ROOT_SIGNATURE_FLAGS flags = D3D12_ROOT_SIGNATURE_FLAG_NONE);
   void static inline Init_1_0(D3D12_VERSIONED_ROOT_SIGNATURE_DESC &amp;desc, UINT numParameters, const D3D12_ROOT_PARAMETER* _pParameters, UINT numStaticSamplers = 0, const D3D12_STATIC_SAMPLER_DESC* _pStaticSamplers = NULL, D3D12_ROOT_SIGNATURE_FLAGS flags = D3D12_ROOT_SIGNATURE_FLAG_NONE);
   void inline Init_1_1(UINT numParameters, const D3D12_ROOT_PARAMETER1* _pParameters, UINT numStaticSamplers = 0, const D3D12_STATIC_SAMPLER_DESC* _pStaticSamplers = NULL, D3D12_ROOT_SIGNATURE_FLAGS flags = D3D12_ROOT_SIGNATURE_FLAG_NONE);
@@ -52,21 +58,21 @@ Creates a new, uninitialized, instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\
 **explicit CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC(const D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC, initialized with the contents of a [**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](d3d12-versioned-root-signature-desc.md) structure.
+Creates a new instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC, initialized with the contents of a [**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc?branch=master) structure.
 
 </dd> <dt>
 
 **explicit CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC(const D3D12\_ROOT\_SIGNATURE\_DESC &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC, initialized with the contents of a [**D3D12\_ROOT\_SIGNATURE\_DESC**](d3d12-root-signature-desc.md) structure.
+Creates a new instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC, initialized with the contents of a [**D3D12\_ROOT\_SIGNATURE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_root_signature_desc?branch=master) structure.
 
 </dd> <dt>
 
 **explicit CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC(const D3D12\_ROOT\_SIGNATURE\_DESC1 &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC, initialized with the contents of a [**D3D12\_ROOT\_SIGNATURE\_DESC1**](d3d12-root-signature-desc1.md) structure.
+Creates a new instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC, initialized with the contents of a [**D3D12\_ROOT\_SIGNATURE\_DESC1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_signature_desc1?branch=master) structure.
 
 </dd> <dt>
 
@@ -77,13 +83,13 @@ Creates a new instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC, initializ
 
 UINT numParameters
 
-const [**D3D12\_ROOT\_PARAMETER**](d3d12-root-parameter.md)\* \_pParameters
+const [**D3D12\_ROOT\_PARAMETER**](/windows/win32/D3D12/ns-d3d12-d3d12_root_parameter?branch=master)\* \_pParameters
 
 UINT numStaticSamplers = 0
 
-const [**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md)\* \_pStaticSamplers = NULL
+const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_static_sampler_desc?branch=master)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](d3d12-root-signature-flags.md) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_root_signature_flags?branch=master) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -94,13 +100,13 @@ Creates a new instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC, initializ
 
 UINT numParameters
 
-const [**D3D12\_ROOT\_PARAMETER1**](d3d12-root-parameter1.md)\* \_pParameters
+const [**D3D12\_ROOT\_PARAMETER1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_parameter1?branch=master)\* \_pParameters
 
 UINT numStaticSamplers = 0
 
-const [**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md)\* \_pStaticSamplers = NULL
+const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_static_sampler_desc?branch=master)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](d3d12-root-signature-flags.md) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_root_signature_flags?branch=master) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -111,13 +117,13 @@ Creates a new instance of a CD3DX12\_VERSIONED\_ROOT\_SIGNATURE\_DESC, initializ
 
 UINT numParameters = 0
 
-const [**D3D12\_ROOT\_PARAMETER1**](d3d12-root-parameter1.md)\* \_pParameters = NULL
+const [**D3D12\_ROOT\_PARAMETER1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_parameter1?branch=master)\* \_pParameters = NULL
 
 UINT numStaticSamplers = 0
 
-const [**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md)\* \_pStaticSamplers = NULL
+const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_static_sampler_desc?branch=master)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](d3d12-root-signature-flags.md) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_root_signature_flags?branch=master) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -128,13 +134,13 @@ Specifies a function that initializes the following parameters:
 
 UINT numParameters
 
-const [**D3D12\_ROOT\_PARAMETER**](d3d12-root-parameter.md)\* \_pParameters
+const [**D3D12\_ROOT\_PARAMETER**](/windows/win32/D3D12/ns-d3d12-d3d12_root_parameter?branch=master)\* \_pParameters
 
 UINT numStaticSamplers = 0
 
-const [**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md)\* \_pStaticSamplers = NULL
+const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_static_sampler_desc?branch=master)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](d3d12-root-signature-flags.md) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_root_signature_flags?branch=master) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -143,17 +149,17 @@ const [**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md)\* \_pStat
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](d3d12-versioned-root-signature-desc.md) &desc
+[**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc?branch=master) &desc
 
 UINT numParameters
 
-const [**D3D12\_ROOT\_PARAMETER**](d3d12-root-parameter.md)\* \_pParameters
+const [**D3D12\_ROOT\_PARAMETER**](/windows/win32/D3D12/ns-d3d12-d3d12_root_parameter?branch=master)\* \_pParameters
 
 UINT numStaticSamplers = 0
 
-const [**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md)\* \_pStaticSamplers = NULL
+const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_static_sampler_desc?branch=master)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](d3d12-root-signature-flags.md) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_root_signature_flags?branch=master) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -164,13 +170,13 @@ Specifies a function that initializes the following parameters:
 
 UINT numParameters
 
-const [**D3D12\_ROOT\_PARAMETER1**](d3d12-root-parameter1.md)\* \_pParameters
+const [**D3D12\_ROOT\_PARAMETER1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_parameter1?branch=master)\* \_pParameters
 
 UINT numStaticSamplers = 0
 
-const [**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md)\* \_pStaticSamplers = NULL
+const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_static_sampler_desc?branch=master)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](d3d12-root-signature-flags.md) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_root_signature_flags?branch=master) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -179,17 +185,17 @@ const [**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md)\* \_pStat
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](d3d12-versioned-root-signature-desc.md) &desc
+[**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc?branch=master) &desc
 
 UINT numParameters
 
-const [**D3D12\_ROOT\_PARAMETER1**](d3d12-root-parameter1.md)\* \_pParameters
+const [**D3D12\_ROOT\_PARAMETER1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_parameter1?branch=master)\* \_pParameters
 
 UINT numStaticSamplers = 0
 
-const [**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md)\* \_pStaticSamplers = NULL
+const [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_static_sampler_desc?branch=master)\* \_pStaticSamplers = NULL
 
-[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](d3d12-root-signature-flags.md) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
+[**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_root_signature_flags?branch=master) flags = D3D12\_ROOT\_SIGNATURE\_FLAG\_NONE
 
 </dd> </dl>
 
@@ -207,15 +213,15 @@ const [**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md)\* \_pStat
 
 <dl> <dt>
 
-[**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](d3d12-versioned-root-signature-desc.md)
+[**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

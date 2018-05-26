@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the content of the InkEdit control changes.'
-ms.assetid: '6c65fcca-c84a-414c-a4e5-c5fdffb13e51'
-title: 'InkEdit.Change event'
+Description: Occurs when the content of the InkEdit control changes.
+ms.assetid: 6c65fcca-c84a-414c-a4e5-c5fdffb13e51
+title: InkEdit.Change event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkEdit.Change event
@@ -37,7 +42,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>Inked.h (also requires inked\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |
@@ -51,9 +56,9 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 [InkEdit](inkedit-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

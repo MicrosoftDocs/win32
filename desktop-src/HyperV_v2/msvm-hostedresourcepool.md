@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a specialization of the system component association that establishes that the resource pool is defined in the context of the system.'
-ms.assetid: '72b68687-2b5f-4fef-bdca-a5c0bbfa3564'
-title: 'Msvm\_HostedResourcePool class'
+Description: Represents a specialization of the system component association that establishes that the resource pool is defined in the context of the system.
+ms.assetid: 72b68687-2b5f-4fef-bdca-a5c0bbfa3564
+title: Msvm\_HostedResourcePool class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_HostedResourcePool class
@@ -17,7 +22,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_HostedResourcePool : CIM_SystemComponent
 {
   Msvm_ComputerSystem REF GroupComponent;
-  CIM_ResourcePool    REF PartComponent;
+  CIM_ResourcePool    REF PartComponent;
 };
 ```
 
@@ -71,17 +76,17 @@ The resource pool that is a component of the system.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

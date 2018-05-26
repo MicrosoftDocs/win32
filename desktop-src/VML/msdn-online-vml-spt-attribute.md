@@ -1,7 +1,12 @@
 ---
 title: VML Spt Attribute
 description: VML Spt Attribute
-ms.assetid: 'f53841b6-77f3-447f-8614-890b751efa93'
+ms.assetid: f53841b6-77f3-447f-8614-890b751efa93
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Spt Attribute

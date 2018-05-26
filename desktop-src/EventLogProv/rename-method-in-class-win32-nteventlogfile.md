@@ -1,7 +1,12 @@
 ---
-Description: 'Renames the logical file (or directory) specified in the Win32\_NTEventlogFile.Name property.'
-ms.assetid: '2455e23d-e1d3-4e23-bfdf-a9cb04549e34'
-title: 'Rename method of the Win32\_NTEventlogFile class'
+Description: Renames the logical file (or directory) specified in the Win32\_NTEventlogFile.Name property.
+ms.assetid: 2455e23d-e1d3-4e23-bfdf-a9cb04549e34
+title: Rename method of the Win32\_NTEventlogFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rename method of the Win32\_NTEventlogFile class
@@ -15,7 +20,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Rename(
-  [in] string FileName
+  [in] string FileName
 );
 ```
 
@@ -56,7 +61,7 @@ Example: c:\\temp\\newfile.txt
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,8 +69,8 @@ Example: c:\\temp\\newfile.txt
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntevt.dll</dt> </dl> |
@@ -82,9 +87,9 @@ Example: c:\\temp\\newfile.txt
 [**Win32\_NTEventlogFile**](win32-nteventlogfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TBM\_GETCHANNELRECT message
-description: Retrieves the size and position of the bounding rectangle for a trackbar's channel.
-ms.assetid: '353edae3-1a26-4e85-8a32-ba8b5a976d24'
-keywords: ["TBM_GETCHANNELRECT message Windows Controls"]
+description: Retrieves the size and position of the bounding rectangle for a trackbars channel.
+ms.assetid: 353edae3-1a26-4e85-8a32-ba8b5a976d24
+keywords:
+- TBM_GETCHANNELRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_GETCHANNELRECT message
@@ -41,15 +47,15 @@ No return value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

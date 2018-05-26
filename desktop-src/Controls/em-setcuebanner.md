@@ -1,8 +1,9 @@
 ---
 title: EM\_SETCUEBANNER message
 description: Sets the textual cue, or tip, that is displayed by the edit control to prompt the user for information.
-ms.assetid: '1b1ff5e7-e0b8-40c1-8b7e-7003e9ef959b'
-keywords: ["EM_SETCUEBANNER message Windows Controls"]
+ms.assetid: 1b1ff5e7-e0b8-40c1-8b7e-7003e9ef959b
+keywords:
+- EM_SETCUEBANNER message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETCUEBANNER message
@@ -24,7 +30,7 @@ Sets the textual cue, or tip, that is displayed by the edit control to prompt th
 *wParam* \[in\]
 </dt> <dd>
 
-**TRUE** if the cue banner should show even when the edit control has focus; otherwise, **FALSE**. **FALSE** is the default behavior—the cue banner disappears when the user clicks in the control.
+**TRUE** if the cue banner should show even when the edit control has focus; otherwise, **FALSE**. **FALSE** is the default behavior the cue banner disappears when the user clicks in the control.
 
 </dd> <dt>
 
@@ -48,7 +54,7 @@ You cannot set a cue banner on a multiline edit control or on a rich edit contro
 > [!Note]  
 > To use this API, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -56,8 +62,8 @@ You cannot set a cue banner on a multiline edit control or on a rich edit contro
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -66,12 +72,12 @@ You cannot set a cue banner on a multiline edit control or on a rich edit contro
 
 <dl> <dt>
 
-[**Edit\_SetCueBannerText**](edit-setcuebannertext.md)
+[**Edit\_SetCueBannerText**](/windows/win32/Commctrl/nf-commctrl-edit_setcuebannertext?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

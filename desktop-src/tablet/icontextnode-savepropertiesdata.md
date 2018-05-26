@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves an array of bytes that contains the application-specific and internal property data for this IContextNode.'
-ms.assetid: 'f26d71a7-fe71-48a8-9c8f-9c4d99261df1'
-title: 'IContextNode::SavePropertiesData method'
+Description: Retrieves an array of bytes that contains the application-specific and internal property data for this IContextNode.
+ms.assetid: f26d71a7-fe71-48a8-9c8f-9c4d99261df1
+title: IContextNodeSavePropertiesData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::SavePropertiesData method
@@ -13,8 +18,8 @@ Retrieves an array of bytes that contains the application-specific and internal 
 
 ```C++
 HRESULT SavePropertiesData(
-  [in, out] ULONG *pulPropertiesDataSize,
-  [out]     BYTE  **ppbPropertiesData
+  [in, out] ULONG *pulPropertiesDataSize,
+  [out]     BYTE  **ppbPropertiesData
 );
 ```
 
@@ -47,7 +52,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, use [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) to release the memory from \**ppbPropertiesData* when you no longer need the information.
 
- 
+ 
 
 Use this method when your application maintains its own data structure, which is synchronized with that of the [**IInkAnalyzer**](iinkanalyzer.md). This method saves the property data that the **IInkAnalyzer** has set on the [**IContextNode**](icontextnode.md).
 
@@ -59,7 +64,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -94,9 +99,9 @@ For more information about synchronizing your application data with the [**IInkA
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

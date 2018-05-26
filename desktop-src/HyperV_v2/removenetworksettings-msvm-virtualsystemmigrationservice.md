@@ -1,7 +1,12 @@
 ---
-Description: 'Removes migration network subnets from the virtual system migration service.'
-ms.assetid: '6ae8de07-552b-4525-8806-bfb9da73bd42'
-title: 'RemoveNetworkSettings method of the Msvm\_VirtualSystemMigrationService class'
+Description: Removes migration network subnets from the virtual system migration service.
+ms.assetid: 6ae8de07-552b-4525-8806-bfb9da73bd42
+title: RemoveNetworkSettings method of the Msvm\_VirtualSystemMigrationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveNetworkSettings method of the Msvm\_VirtualSystemMigrationService class
@@ -13,8 +18,8 @@ Removes migration network subnets from the virtual system migration service.
 
 ```mof
 uint32 RemoveNetworkSettings(
-  [in]  Msvm_VirtualSystemMigrationNetworkSettingData REF NetworkSettings[],
-  [out] CIM_ConcreteJob                               REF Job
+  [in]  Msvm_VirtualSystemMigrationNetworkSettingData REF NetworkSettings[],
+  [out] CIM_ConcreteJob                               REF Job
 );
 ```
 
@@ -89,8 +94,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -110,9 +115,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

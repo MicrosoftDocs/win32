@@ -1,8 +1,10 @@
 ---
 title: CIM\_TransparentBridgingDynamicForwarding class
 description: Associates a transparent bridging service with an entry of its forwarding database.
-ms.assetid: 'c1bb7506-ecab-4bd9-bd5f-45037ebd0b01'
-keywords: ["CIM_TransparentBridgingDynamicForwarding class Hyper-V", "CIM_TransparentBridgingDynamicForwarding class Hyper-V , described"]
+ms.assetid: c1bb7506-ecab-4bd9-bd5f-45037ebd0b01
+keywords:
+- CIM_TransparentBridgingDynamicForwarding class Hyper-V
+- CIM_TransparentBridgingDynamicForwarding class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_TransparentBridgingDynamicForwarding class
@@ -28,7 +35,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_TransparentBridgingDynamicForwarding : CIM_Dependency
 {
   CIM_TransparentBridgingService REF Antecedent;
-  CIM_DynamicForwardingEntry     REF Dependent;
+  CIM_DynamicForwardingEntry     REF Dependent;
 };
 ```
 
@@ -83,9 +90,9 @@ A reference to the forwarding database entry.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ A reference to the forwarding database entry.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

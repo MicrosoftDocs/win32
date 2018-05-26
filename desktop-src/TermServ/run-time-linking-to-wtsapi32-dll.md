@@ -4,10 +4,13 @@ description: Your application can use the Remote Desktop Services API to dynamic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b8227e65-be08-4045-a74e-dd3f398a7b9f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b8227e65-be08-4045-a74e-dd3f398a7b9f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Run-Time linking to Wtsapi32.dll

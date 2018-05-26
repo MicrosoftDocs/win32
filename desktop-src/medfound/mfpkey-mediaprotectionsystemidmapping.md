@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a IPropertySet that defines the mapping from a property system id to a property system activation id.'
-ms.assetid: 'CA333C46-3C5A-40AC-9885-454E380428A7'
-title: 'MFPKEY\_MediaProtectionSystemIdMapping property'
+---
+Description: Specifies a IPropertySet that defines the mapping from a property system id to a property system activation id.
+ms.assetid: CA333C46-3C5A-40AC-9885-454E380428A7
+title: MFPKEY\_MediaProtectionSystemIdMapping property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_MediaProtectionSystemIdMapping property

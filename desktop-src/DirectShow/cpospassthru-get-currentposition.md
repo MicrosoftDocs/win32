@@ -1,19 +1,24 @@
 ---
-Description: 'The get\_CurrentPosition method retrieves the current position, relative to the total duration of the stream. This method implements the IMediaPosition::get\_CurrentPosition method.'
-ms.assetid: '6e68af98-440d-4ecc-b1aa-d5e241de4999'
-title: 'CPosPassThru.get\_CurrentPosition method'
+Description: The get\_CurrentPosition method retrieves the current position, relative to the total duration of the stream. This method implements the IMediaPositionget\_CurrentPosition method.
+ms.assetid: 6e68af98-440d-4ecc-b1aa-d5e241de4999
+title: CPosPassThru.get\_CurrentPosition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.get\_CurrentPosition method
 
-The `get_CurrentPosition` method retrieves the current position, relative to the total duration of the stream. This method implements the [**IMediaPosition::get\_CurrentPosition**](imediaposition-get-currentposition.md) method.
+The `get_CurrentPosition` method retrieves the current position, relative to the total duration of the stream. This method implements the [**IMediaPosition::get\_CurrentPosition**](/windows/win32/Control/nf-control-imediaposition-get_currentposition?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT get_CurrentPosition(
-   REFTIME *pllTime
+   REFTIME *pllTime
 );
 ```
 
@@ -52,9 +57,9 @@ Returns the **HRESULT** value from the connected pin.
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

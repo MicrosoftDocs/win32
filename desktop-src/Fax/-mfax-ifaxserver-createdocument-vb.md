@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CreateDocument method creates a FaxDoc object for a specified FaxServer object. The FaxDoc object allows a user to create and transmit a document to one or more fax recipients.'
-ms.assetid: 'd0aee512-5bf3-4446-ae5a-529c30a4ef33'
-title: 'FaxServer.CreateDocument method'
+---
+Description: The CreateDocument method creates a FaxDoc object for a specified FaxServer object. The FaxDoc object allows a user to create and transmit a document to one or more fax recipients.
+ms.assetid: d0aee512-5bf3-4446-ae5a-529c30a4ef33
+title: FaxServer.CreateDocument method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.CreateDocument method
@@ -46,9 +51,9 @@ Pointer to a [VARIANT](e305240e-9e11-4006-98cc-26f4932d2118) structure that rece
 
 ## Remarks
 
-The **CreateDocument** method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxDoc](-mfax-faxdoc.md) object. A fax client application can also access the [**IFaxDoc**](-mfax-ifaxdoc.md) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an interface pointer. The **IFaxDoc** interface allows a user to set the properties for a fax document, and then transmit the document.
+The **CreateDocument** method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxDoc](-mfax-faxdoc.md) object. A fax client application can also access the [**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an interface pointer. The **IFaxDoc** interface allows a user to set the properties for a fax document, and then transmit the document.
 
-A fax client application should not call the [CoCreateInstance](http://msdn.microsoft.com/en-us/library/ms686615.aspx) function to retrieve an [**IFaxDoc**](-mfax-ifaxdoc.md) interface pointer because it will not be instantiated correctly.
+A fax client application should not call the [CoCreateInstance](http://msdn.microsoft.com/en-us/library/ms686615.aspx) function to retrieve an [**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master) interface pointer because it will not be instantiated correctly.
 
 ## Requirements
 

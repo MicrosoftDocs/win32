@@ -1,7 +1,12 @@
 ---
-Description: 'The ISCardAuth interface exposes the following methods.'
-ms.assetid: '83B01082-2B1A-4075-9A79-E63FE385834B'
+Description: The ISCardAuth interface exposes the following methods.
+ms.assetid: 83B01082-2B1A-4075-9A79-E63FE385834B
 title: ISCardAuth Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardAuth Methods

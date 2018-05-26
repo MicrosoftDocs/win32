@@ -1,7 +1,12 @@
-﻿---
-Description: 'Note  This API is deprecated. New applications should not use it. The STREAM\_TIME data type is used to express reference times in Microsoft DirectShow multimedia streaming. Units are 100 nanoseconds.'
-ms.assetid: 'eff79c58-09d8-4665-9138-752ffaf02e26'
-title: 'STREAM\_TIME'
+---
+Description: Note  This API is deprecated. New applications should not use it. The STREAM\_TIME data type is used to express reference times in Microsoft DirectShow multimedia streaming. Units are 100 nanoseconds.
+ms.assetid: eff79c58-09d8-4665-9138-752ffaf02e26
+title: STREAM\_TIME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STREAM\_TIME

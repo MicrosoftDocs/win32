@@ -1,8 +1,17 @@
 ---
 title: Hardware Feature Levels
 description: Describes the functionality of the 11\_0 through 12\_1 hardware feature levels.
-ms.assetid: 'B8304E29-A532-464E-8FAF-075228D8FB73'
-keywords: ["DX feature level", "DirectX feature level", "feature level, DX", "feature level, DirectX"]
+ms.assetid: B8304E29-A532-464E-8FAF-075228D8FB73
+keywords:
+- DX feature level
+- DirectX feature level
+- feature level, DX
+- feature level, DirectX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hardware Feature Levels
@@ -24,8 +33,8 @@ The basic properties of feature levels are:
 -   A GPU that allows a device to be created meets or exceeds the functionality of that feature level.
 -   A feature level always includes the functionality of previous or lower feature levels.
 -   A feature level does not imply performance, only functionality. Performance is dependent on hardware implementation.
--   A feature level is chosen when you call [**D3D12CreateDevice**](d3d12createdevice.md).
--   For more detailed information on supported features (especially those marked *Optional* in the table below, which means that the hardware might support the feature but is not required to) call [**CheckFeatureSupport**](id3d12device-checkfeaturesupport.md).
+-   A feature level is chosen when you call [**D3D12CreateDevice**](/windows/win32/D3D12/nf-d3d12-d3d12createdevice?branch=master).
+-   For more detailed information on supported features (especially those marked *Optional* in the table below, which means that the hardware might support the feature but is not required to) call [**CheckFeatureSupport**](/windows/win32/D3D12/nf-d3d12-id3d12device-checkfeaturesupport?branch=master).
 
 For information about limitations creating non-hardware type devices on certain feature levels, see [Limitations Creating WARP and Reference Devices](https://msdn.microsoft.com/library/windows/desktop/ff728764). For more information on the introduction of feature levels, refer to the Direct3D 11 documentation on [Direct3D feature levels](https://msdn.microsoft.com/library/windows/desktop/ff476876).
 
@@ -51,10 +60,10 @@ The headings across the top row are Direct3D feature levels. The headings in the
 |--------------------------------------------------------------------------------------------------------------------------|---------------------------|---------------------------|--------------------------|--------------------------|
 | Shader Model                                                                                                             | 5.1                       | 5.1                       | 5.1²                     | 5.1²                     |
 | [Resource Binding Tier](hardware-support.md)                                                                            | Tier2³                    | Tier2³                    | Tier1³                   | Tier1³                   |
-| [Tiled Resources](d3d12-tiled-resources-tier.md)                                                                        | Tier2³                    | Tier2³                    | Optional                 | Optional                 |
+| [Tiled Resources](/windows/win32/D3D12/ne-d3d12-d3d12_tiled_resources_tier?branch=master)                                                                        | Tier2³                    | Tier2³                    | Optional                 | Optional                 |
 | [Conservative Rasterization](conservative-rasterization.md)                                                             | Tier1³                    | Optional                  | Optional                 | No                       |
 | [Rasterizer Ordered Views](rasterizer-order-views.md)                                                                   | Yes                       | Optional                  | Optional                 | No                       |
-| [Min/Max Filters](d3d12-filter.md)                                                                                      | Yes                       | Yes                       | Optional                 | No                       |
+| [Min/Max Filters](/windows/win32/D3D12/ne-d3d12-d3d12_filter?branch=master)                                                                                      | Yes                       | Yes                       | Optional                 | No                       |
 | Map Default Buffer                                                                                                       | Optional                  | Optional                  | Optional                 | Optional                 |
 | [Shader Specified Stencil Reference Value](shader-specified-stencil-reference-value.md)                                 | Optional                  | Optional                  | Optional                 | No                       |
 | [Typed Unordered Access View Loads](typed-unordered-access-view-loads.md)                                               | 18 formats, more optional | 18 formats, more optional | 3 formats, more optional | 3 formats, more optional |
@@ -92,7 +101,7 @@ The headings across the top row are Direct3D feature levels. The headings in the
 
 -   ⁰ Requires the Direct3D 11.3 or Direct3D 12 runtime.
 -   ¹ Requires the Direct3D 11.1 runtime.
--   ² Shader model 5.0 can optionally support double-precision shaders, extended double-precision shaders, the **SAD4** shader instruction, and partial-precision shaders. To determine the shader model 5.0 options that are available, call [**ID3D12Device::CheckFeatureSupport**](id3d12device-checkfeaturesupport.md). Some compatibility depends on what hardware you are running on: Shader model 5.1 is only supported on hardware that supports the DirectX 12 API, regardless of the feature level that's being used. DirectX 11 hardware only supports up to shader model 5.0. The DirectX 12 API only goes down to feature level 11\_0.
+-   ² Shader model 5.0 can optionally support double-precision shaders, extended double-precision shaders, the **SAD4** shader instruction, and partial-precision shaders. To determine the shader model 5.0 options that are available, call [**ID3D12Device::CheckFeatureSupport**](/windows/win32/D3D12/nf-d3d12-id3d12device-checkfeaturesupport?branch=master). Some compatibility depends on what hardware you are running on: Shader model 5.1 is only supported on hardware that supports the DirectX 12 API, regardless of the feature level that's being used. DirectX 11 hardware only supports up to shader model 5.0. The DirectX 12 API only goes down to feature level 11\_0.
 -   ³ Higher tiers are optional.
 -   Feature levels 12.0 and 12.1 require the Direct3D 11.3 or Direct3D 12 runtime.
 -   Feature level 11.1 requires the Direct3D 11.1 runtime.

@@ -1,8 +1,15 @@
 ---
 title: HTTP Version 2.0 Features
 description: The following feature are supported for HTTP Server version 2.0 API.
-ms.assetid: '1c8d0c44-ee46-4873-a081-05b77227f40f'
-keywords: ["HTTP Server version 2.0 API Features", "features, HTTP Server version 2.0 API"]
+ms.assetid: 1c8d0c44-ee46-4873-a081-05b77227f40f
+keywords:
+- HTTP Server version 2.0 API Features
+- features, HTTP Server version 2.0 API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP Version 2.0 Features

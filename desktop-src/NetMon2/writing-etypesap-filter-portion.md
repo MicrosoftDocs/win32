@@ -1,7 +1,12 @@
 ---
-Description: 'The Etype/SAP portion of the capture filter notifies the Network Monitor driver to accept frames that have a specific combination of Etypes and service access points (SAPs).'
-ms.assetid: '57dcf1cd-f27f-4bd3-a5a8-9e978a2d213e'
-title: 'Writing Etype/SAP Filter Portion'
+Description: The Etype/SAP portion of the capture filter notifies the Network Monitor driver to accept frames that have a specific combination of Etypes and service access points (SAPs).
+ms.assetid: 57dcf1cd-f27f-4bd3-a5a8-9e978a2d213e
+title: Writing Etype/SAP Filter Portion
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing Etype/SAP Filter Portion
@@ -27,7 +32,7 @@ Use the following information to set the flags in the **FilterFlags** member of 
 
 
 
- 
+ 
 
 ## Etype/SAP Capture Filter Settings
 
@@ -42,11 +47,11 @@ Use the following information to set the **lpSapTable** and **lpEtypeTable** mem
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

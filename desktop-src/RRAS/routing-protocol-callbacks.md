@@ -1,7 +1,12 @@
 ---
 title: Routing Protocol Callbacks
 description: The following topics describe the calls into routing protocols made by the multicast group manager.
-ms.assetid: 'c71ff1ad-de0a-4cb4-8605-2967c9db7f3b'
+ms.assetid: c71ff1ad-de0a-4cb4-8605-2967c9db7f3b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing Protocol Callbacks

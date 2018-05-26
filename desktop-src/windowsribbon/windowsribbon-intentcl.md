@@ -1,8 +1,22 @@
 ---
 title: Compiling Ribbon Markup
 description: For the Windows Ribbon framework to consume the Ribbon markup file, the markup file must be compiled into a binary format resource file.
-ms.assetid: 'ef9fea92-8c67-461d-9d74-2e259e407fb0'
-keywords: ["Windows Ribbon,compiling markup", "Ribbon,compiling markup", "Windows Ribbon,compiler workflow", "Ribbon,compiler workflow", "Windows Ribbon,UI Command Compiler (UICC.exe)", "Ribbon,UI Command Compiler (UICC.exe)", "UI Command Compiler (UICC.exe)", "UICC.exe (UI Command Compiler)", "compiling Windows Ribbon markup"]
+ms.assetid: ef9fea92-8c67-461d-9d74-2e259e407fb0
+keywords:
+- Windows Ribbon,compiling markup
+- Ribbon,compiling markup
+- Windows Ribbon,compiler workflow
+- Ribbon,compiler workflow
+- Windows Ribbon,UI Command Compiler (UICC.exe)
+- Ribbon,UI Command Compiler (UICC.exe)
+- UI Command Compiler (UICC.exe)
+- UICC.exe (UI Command Compiler)
+- compiling Windows Ribbon markup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compiling Ribbon Markup
@@ -39,7 +53,7 @@ The arguments and options for this tool are described in the following table.
 > [!Note]  
 > The command-line options listed must be specified in the order given.
 
- 
+ 
 
 
 
@@ -87,14 +101,14 @@ The arguments and options for this tool are described in the following table.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ### Example
 
@@ -112,9 +126,9 @@ The following example demonstrates how to use the Ribbon markup compiler to gene
 [Creating a Ribbon Application](windowsribbon-stepbystep.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

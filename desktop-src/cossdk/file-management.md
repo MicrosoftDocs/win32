@@ -1,7 +1,12 @@
 ---
-Description: 'To enable the transfer of application files, COMREPL automatically manages sets of file system folders on the source and target. These COMREPL folders are all rooted in %systemdir%\\com\\replication.'
-ms.assetid: '8c59577b-34ea-4675-aaea-a2732fd5ce14'
+Description: To enable the transfer of application files, COMREPL automatically manages sets of file system folders on the source and target. These COMREPL folders are all rooted in %systemdir%\\com\\replication.
+ms.assetid: 8c59577b-34ea-4675-aaea-a2732fd5ce14
 title: File Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Management
@@ -18,7 +23,7 @@ To enable the transfer of application files, COMREPL automatically manages sets 
 
 
 
- 
+ 
 
 ## Target folders
 
@@ -32,7 +37,7 @@ To enable the transfer of application files, COMREPL automatically manages sets 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -50,9 +55,9 @@ To enable the transfer of application files, COMREPL automatically manages sets 
 [What Gets Replicated](what-gets-replicated.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

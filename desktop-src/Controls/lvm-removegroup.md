@@ -1,8 +1,9 @@
 ---
 title: LVM\_REMOVEGROUP message
 description: Removes a group from a list-view control.
-ms.assetid: 'c6f4f54c-4cf8-47d0-8e96-fa8a1df0501b'
-keywords: ["LVM_REMOVEGROUP message Windows Controls"]
+ms.assetid: c6f4f54c-4cf8-47d0-8e96-fa8a1df0501b
+keywords:
+- LVM_REMOVEGROUP message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_REMOVEGROUP message
@@ -40,7 +46,7 @@ Returns the index of the group if successful, or -1 otherwise.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -48,15 +54,15 @@ Returns the index of the group if successful, or -1 otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

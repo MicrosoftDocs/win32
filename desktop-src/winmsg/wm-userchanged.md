@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sent to all windows after the user has logged on or off. When the user logs on or off, the system updates the user-specific settings. The system sends this message immediately after updating the settings.'
-title: 'WM\_USERCHANGED message'
+---
+Description: Sent to all windows after the user has logged on or off. When the user logs on or off, the system updates the user-specific settings. The system sends this message immediately after updating the settings.
+title: WM\_USERCHANGED message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_USERCHANGED message

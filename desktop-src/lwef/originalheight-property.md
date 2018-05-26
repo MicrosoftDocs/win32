@@ -1,7 +1,12 @@
 ---
 title: OriginalHeight Property
 description: OriginalHeight Property
-ms.assetid: '632de2d1-a809-4539-9bd3-e97c9046357e'
+ms.assetid: 632de2d1-a809-4539-9bd3-e97c9046357e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OriginalHeight Property

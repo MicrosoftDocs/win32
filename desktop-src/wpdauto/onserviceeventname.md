@@ -1,14 +1,22 @@
 ---
 title: Service.onServiceEventName event
 description: The name and occurrence of this event are defined by the service.
-ms.assetid: '59f94a3f-7eac-4231-b3dc-d85e29e254c5'
-keywords: ["onServiceEventName event WPD Automation", "onServiceEventName event WPD Automation , Service object", "Service object WPD Automation , onServiceEventName event"]
+ms.assetid: 59f94a3f-7eac-4231-b3dc-d85e29e254c5
+keywords:
+- onServiceEventName event WPD Automation
+- onServiceEventName event WPD Automation , Service object
+- Service object WPD Automation , onServiceEventName event
 topic_type:
 - apiref
 api_name:
 - Service.onServiceEventName
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.onServiceEventName event
@@ -70,8 +78,8 @@ Service.onSomethingHappened = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -82,9 +90,9 @@ Service.onSomethingHappened = HandlerFunction;
 [**Service Object**](service-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

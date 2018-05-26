@@ -1,8 +1,16 @@
 ---
 title: Library Files and Compiler Settings
 description: Library Files and Compiler Settings
-ms.assetid: 'ae043b1e-1d61-4d5a-be98-54f899fa24ed'
-keywords: ["Windows Media Format SDK,library files", "Windows Media Format SDK,compiler settings", "Windows Media Format SDK,header files"]
+ms.assetid: ae043b1e-1d61-4d5a-be98-54f899fa24ed
+keywords:
+- Windows Media Format SDK,library files
+- Windows Media Format SDK,compiler settings
+- Windows Media Format SDK,header files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Library Files and Compiler Settings
@@ -20,7 +28,7 @@ The contents of the various header files included with this SDK are described in
 | dshowasf.h                  | Defines the Microsoft DirectShow QASF filters. Include this header when writing a DirectShow application that creates or reads ASF files. For more information, see [DirectShow and Windows Media](directshow-and-windows-media.md).               |
 | msnetobj.h                  | Defines the [**IRMGetLicense**](irmgetlicense.md) interface, which is implemented in one of the runtime libraries installed with the Windows Media Format SDK.                                                                                     |
 | nserror.h                   | Defines error codes for Windows Media Technologies. Only a subset of these error codes are relevant to the Windows Media Format SDK. This header is included in wmsdk.h.                                                                            |
-| wmdxva.h                    | Includes other headers and definitions needed to enable Microsoft DirectX Video Acceleration for playback of Windows Media–based content. For more information, see [Enabling DirectX Video Acceleration](enabling-directx-video-acceleration.md). |
+| wmdxva.h                    | Includes other headers and definitions needed to enable Microsoft DirectX Video Acceleration for playback of Windows Media based content. For more information, see [Enabling DirectX Video Acceleration](enabling-directx-video-acceleration.md). |
 | wmnetsourcecreator.h        | Contains information needed to create network source plug-ins.                                                                                                                                                                                      |
 | wmsbuffer.h                 | Defines the interfaces used by buffer objects. Include this header when creating your own buffers for file reading.                                                                                                                                 |
 | wmsdk.h                     | The main header for applications using the Windows Media Format SDK. This header contains no definitions, but includes asferr.h, nserror.h, windows.h, and wmsdkidl.h. Include this header for all applications using this SDK.                     |
@@ -30,7 +38,7 @@ The contents of the various header files included with this SDK are described in
 
 
 
- 
+ 
 
 To use the Windows Media Format SDK, your compiler must be properly configured. The configuration is different for building in debug mode than for release mode. Configure your setting according to the following table. All these setting are configured in the Project Settings dialog box. To get to the dialog box, select **Settings** from the **Project** menu.
 
@@ -44,7 +52,7 @@ To use the Windows Media Format SDK, your compiler must be properly configured. 
 
 
 
- 
+ 
 
 If you are using Microsoft Visual Studio .NET, the settings have been changed to different locations, as shown in the following table. All of these settings are configured in the **Property Pages** dialog box. To get to the dialog box, right-click on your project in the **Solution Explorer** pane and select **Properties** from the context menu.
 
@@ -58,7 +66,7 @@ If you are using Microsoft Visual Studio .NET, the settings have been changed to
 
 
 
- 
+ 
 
 If you want to delay the loading of Wmvcore.dll, or any other DLL, use the link option /DELAYLOAD in Microsoft Visual C++ 6.0, or Delay Loaded DLLs in Microsoft Visual C++ .NET.
 
@@ -73,7 +81,7 @@ Additionally, you need to include the directories for the libraries and headers 
 
 
 
- 
+ 
 
 If you are using the Platform SDK then the default paths would appear as follows:
 
@@ -86,7 +94,7 @@ If you are using the Platform SDK then the default paths would appear as follows
 
 
 
- 
+ 
 
 Before calling any of the creation functions, COM should be initialized with a call to **Coinitialize** or **CoinitializeEx**. Either the free threading model or the apartment threading model can be used, but the apartment threading model imposes threading restrictions on the application. For more information on the Microsoft Component Object Model (COM), see the COM page at the [Microsoft Web site](http://go.microsoft.com/fwlink/p/?linkid=3282).
 
@@ -99,9 +107,9 @@ Before calling any of the creation functions, COM should be initialized with a c
 [**Getting Started**](getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

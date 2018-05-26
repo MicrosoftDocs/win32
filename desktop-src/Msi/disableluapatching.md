@@ -1,7 +1,12 @@
 ---
-Description: 'If this per-machine system policy is set to &\#0034;1&\#0034;, the installer prevents non-administrators from using User Account Control (UAC) Patching for any application installed on the computer.'
-ms.assetid: 'b122d6f4-2be6-4b9b-b8e0-ca08fe9c4f94'
+Description: If this per-machine system policy is set to &\#0034;1&\#0034;, the installer prevents non-administrators from using User Account Control (UAC) Patching for any application installed on the computer.
+ms.assetid: b122d6f4-2be6-4b9b-b8e0-ca08fe9c4f94
 title: DisableLUAPatching
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisableLUAPatching

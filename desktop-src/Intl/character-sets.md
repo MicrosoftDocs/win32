@@ -1,7 +1,12 @@
 ---
-Description: 'A &\#0034;character set&\#0034; is a mapping of characters to their identifying code values.'
-ms.assetid: '539ad3c7-45ef-476b-bedc-48986f184796'
+Description: A &\#0034;character set&\#0034; is a mapping of characters to their identifying code values.
+ms.assetid: 539ad3c7-45ef-476b-bedc-48986f184796
 title: Character Sets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Character Sets

@@ -4,11 +4,14 @@ description: Deletes the deployment settings for a virtual desktop collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '68e102a3-8f3f-4997-bdf0-c2ae3640ed42'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 68e102a3-8f3f-4997-bdf0-c2ae3640ed42
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RemoveDeploymentSetting method Remote Desktop Services", "RemoveDeploymentSetting method Remote Desktop Services , Win32_RDMSDeploymentSettings class", "Win32_RDMSDeploymentSettings class Remote Desktop Services , RemoveDeploymentSetting method"]
+keywords:
+- RemoveDeploymentSetting method Remote Desktop Services
+- RemoveDeploymentSetting method Remote Desktop Services , Win32_RDMSDeploymentSettings class
+- Win32_RDMSDeploymentSettings class Remote Desktop Services , RemoveDeploymentSetting method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveDeploymentSetting method of the Win32\_RDMSDeploymentSettings class
@@ -28,7 +34,7 @@ Deletes the deployment settings for a virtual desktop collection.
 
 ```mof
 uint32 RemoveDeploymentSetting(
-  [in] string Key
+  [in] string Key
 );
 ```
 
@@ -52,7 +58,7 @@ The alias of the virtual desktop collection.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -66,9 +72,9 @@ The alias of the virtual desktop collection.
 [**Win32\_RDMSDeploymentSettings**](win32-rdmsdeploymentsettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

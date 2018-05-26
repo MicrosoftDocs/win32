@@ -1,14 +1,20 @@
 ---
 title: ExtensionPoint (LocalDiagnosticPackage) Element
 description: Defines one or more extensions that the client supports to extend the functionality of the AdvDiagnosticPackage node.
-ms.assetid: 'f3259c28-167c-40b5-b502-5004e3af2f91'
-keywords: ["ExtensionPoint element Windows Troubleshooting Toolkit"]
+ms.assetid: f3259c28-167c-40b5-b502-5004e3af2f91
+keywords:
+- ExtensionPoint element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - ExtensionPoint
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExtensionPoint (LocalDiagnosticPackage) Element
@@ -27,14 +33,14 @@ The **ExtensionPoint** element is defined by the [**LocalDiagnosticPackage**](pa
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

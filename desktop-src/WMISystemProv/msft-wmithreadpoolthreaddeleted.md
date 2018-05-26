@@ -4,11 +4,13 @@ description: TBD.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a3930d1d-5c80-439f-a81f-030ca2c7d3a4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a3930d1d-5c80-439f-a81f-030ca2c7d3a4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiThreadPoolThreadDeleted class", "MSFT_WmiThreadPoolThreadDeleted class, described"]
+keywords:
+- MSFT_WmiThreadPoolThreadDeleted class
+- MSFT_WmiThreadPoolThreadDeleted class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiThreadPoolThreadDeleted class
@@ -33,7 +38,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 ``` syntax
 class MSFT_WmiThreadPoolThreadDeleted : MSFT_WmiThreadPoolEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   uint32 ThreadID;
 };
@@ -104,8 +109,8 @@ This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/libra
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\cimv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -119,9 +124,9 @@ This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/libra
 [**MSFT\_WmiThreadPoolEvent**](msft-wmithreadpoolevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

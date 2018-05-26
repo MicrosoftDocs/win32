@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '5861e0a9-6a3f-4bc8-ae8b-d51c9de28217'
+Description: .
+ms.assetid: 5861e0a9-6a3f-4bc8-ae8b-d51c9de28217
 title: Offline Registry Library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Offline Registry Library

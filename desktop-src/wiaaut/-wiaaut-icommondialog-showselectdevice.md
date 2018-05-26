@@ -1,8 +1,11 @@
 ---
 title: CommonDialog.ShowSelectDevice method
 description: Displays a dialog box that enables the user to select a hardware device for image acquisition.
-ms.assetid: '1dfb76ca-5147-4e01-a7f3-1d579025474a'
-keywords: ["ShowSelectDevice method WIA Automation", "ShowSelectDevice method WIA Automation , CommonDialog object", "CommonDialog object WIA Automation , ShowSelectDevice method"]
+ms.assetid: 1dfb76ca-5147-4e01-a7f3-1d579025474a
+keywords:
+- ShowSelectDevice method WIA Automation
+- ShowSelectDevice method WIA Automation , CommonDialog object
+- CommonDialog object WIA Automation , ShowSelectDevice method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CommonDialog.ShowSelectDevice method
@@ -49,7 +57,7 @@ Type: **[**WiaDeviceType**](-wiaaut-wiadevicetype.md)**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -69,7 +77,7 @@ Type: **VARIANT\_BOOL**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -89,7 +97,7 @@ Type: **VARIANT\_BOOL**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -109,8 +117,8 @@ For example code, see [Take a Picture](-wiaaut-shared-samples.md#take-a-picture)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -153,9 +161,9 @@ For example code, see [Take a Picture](-wiaaut-shared-samples.md#take-a-picture)
 [**Device (VideoPreview)**](-wiaaut-ivideopreview-device.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

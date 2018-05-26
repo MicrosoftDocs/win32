@@ -1,7 +1,12 @@
 ---
 title: Packaging API Programming Guide
 description: This section contains conceptual topics that describe how to use the Windows 7 Packaging APIs.
-ms.assetid: 'cb35d87e-bbec-42d3-9f9d-d1cf36f39419'
+ms.assetid: cb35d87e-bbec-42d3-9f9d-d1cf36f39419
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Packaging API Programming Guide

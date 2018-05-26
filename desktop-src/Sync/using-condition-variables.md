@@ -1,14 +1,19 @@
 ---
-Description: 'The following code implements a producer/consumer queue.'
-ms.assetid: '0f79de15-6ce9-4d89-afb5-b4a2f0cf2fe3'
+Description: The following code implements a producer/consumer queue.
+ms.assetid: 0f79de15-6ce9-4d89-afb5-b4a2f0cf2fe3
 title: Using Condition Variables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Condition Variables
 
 The following code implements a producer/consumer queue. The queue is represented as a bounded circular buffer, and is protected by a critical section. The code uses two condition variables: one used by producers (`BufferNotFull`) and one used by consumers (`BufferNotEmpty`).
 
-The code calls the [**InitializeConditionVariable**](initializeconditionvariable.md) function to create the condition variables. The consumer threads call the [**SleepConditionVariableCS**](sleepconditionvariablecs.md) function to wait for items to be added to the queue and the [**WakeConditionVariable**](wakeconditionvariable.md) function to signal the producer that it is ready for more items. The producer threads call **SleepConditionVariableCS** to wait for the consumer to remove items from the queue and **WakeConditionVariable** to signal the consumer that there are more items in the queue.
+The code calls the [**InitializeConditionVariable**](/windows/win32/WinBase/nf-synchapi-initializeconditionvariable?branch=master) function to create the condition variables. The consumer threads call the [**SleepConditionVariableCS**](/windows/win32/WinBase/nf-synchapi-sleepconditionvariablecs?branch=master) function to wait for items to be added to the queue and the [**WakeConditionVariable**](/windows/win32/WinBase/nf-synchapi-wakeconditionvariable?branch=master) function to signal the producer that it is ready for more items. The producer threads call **SleepConditionVariableCS** to wait for the consumer to remove items from the queue and **WakeConditionVariable** to signal the consumer that there are more items in the queue.
 
 **Windows Server 2003 and Windows XP:** Condition variables are not supported.
 

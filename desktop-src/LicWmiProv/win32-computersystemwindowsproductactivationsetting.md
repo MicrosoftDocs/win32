@@ -1,7 +1,12 @@
 ---
-Description: 'The Win32\_ComputerSystemWindowsProductActivationSetting WMI class represents an association between instances of Win32\_ComputerSystem and Win32\_WindowsProductActivation.'
-ms.assetid: 'e1c87d3a-1942-42ab-85ba-9be0f031ac33'
-title: 'Win32\_ComputerSystemWindowsProductActivationSetting class'
+Description: The Win32\_ComputerSystemWindowsProductActivationSetting WMI class represents an association between instances of Win32\_ComputerSystem and Win32\_WindowsProductActivation.
+ms.assetid: e1c87d3a-1942-42ab-85ba-9be0f031ac33
+title: Win32\_ComputerSystemWindowsProductActivationSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ComputerSystemWindowsProductActivationSetting class
@@ -15,7 +20,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_ComputerSystemWindowsProductActivationSetting : CIM_ElementSetting
 {
-  Win32_ComputerSystem           REF Element;
+  Win32_ComputerSystem           REF Element;
   Win32_WindowsProductActivation REF Setting;
 };
 ```
@@ -65,7 +70,7 @@ The **Win32\_ComputerSystemWindowsProductActivationSetting** class is derived fr
 > [!Note]  
 > Windows Product Activation is not available on the 64-bit versions of the Windows operating system.
 
- 
+ 
 
 ## Requirements
 
@@ -73,10 +78,10 @@ The **Win32\_ComputerSystemWindowsProductActivationSetting** class is derived fr
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows XP<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Licwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Licwmi.dll</dt> </dl> |
@@ -96,9 +101,9 @@ The **Win32\_ComputerSystemWindowsProductActivationSetting** class is derived fr
 [**Win32\_WindowsProductActivation**](win32-windowsproductactivation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

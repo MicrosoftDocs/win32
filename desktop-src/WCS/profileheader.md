@@ -1,8 +1,9 @@
 ---
 title: PROFILEHEADER structure
 description: The PROFILEHEADER structure contains information that describes the contents of a device profile file. This header occurs at the beginning of a device profile file.
-ms.assetid: '7006cae0-0166-4fd9-8bf9-f0f0ed249956'
-keywords: ["PROFILEHEADER structure Windows Color System"]
+ms.assetid: 7006cae0-0166-4fd9-8bf9-f0f0ed249956
+keywords:
+- PROFILEHEADER structure Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Icm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROFILEHEADER structure
@@ -22,23 +28,23 @@ The **PROFILEHEADER** structure contains information that describes the contents
 
 ```C++
 typedef struct tagPROFILEHEADER {
-  DWORD  phSize;
-  DWORD  phCMMType;
-  DWORD  phVersion;
-  DWORD  phClass;
-  DWORD  phDataColorSpace;
-  DWORD  phConnectionSpace;
-  DWORD  phDateTime[3];
-  DWORD  phSignature;
-  DWORD  phPlatform;
-  DWORD  phProfileFlags;
-  DWORD  phManufacturer;
-  DWORD  phModel;
-  DWORD  phAttributes[2];
-  DWORD  phRenderingIntent;
+  DWORD  phSize;
+  DWORD  phCMMType;
+  DWORD  phVersion;
+  DWORD  phClass;
+  DWORD  phDataColorSpace;
+  DWORD  phConnectionSpace;
+  DWORD  phDateTime[3];
+  DWORD  phSignature;
+  DWORD  phPlatform;
+  DWORD  phProfileFlags;
+  DWORD  phManufacturer;
+  DWORD  phModel;
+  DWORD  phAttributes[2];
+  DWORD  phRenderingIntent;
   CIEXYZ phIlluminant;
-  DWORD  phCreator;
-  BYTE   phReserved[44];
+  DWORD  phCreator;
+  BYTE   phReserved[44];
 } PROFILEHEADER;
 ```
 
@@ -78,7 +84,7 @@ The version number of the profile. The version number is determined by the ICC. 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -103,7 +109,7 @@ Indicates the profile class. For a description of profile classes, see [Using De
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -128,7 +134,7 @@ A signature value that indicates the color space in which the profile connection
 
 
 
- 
+ 
 
 When the **phClass** member is set to CLASS\_LINK, the PCS is taken from the **phDataColorSpace** member.
 
@@ -165,7 +171,7 @@ The primary platform for which the profile was created. The primary platform can
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -199,7 +205,7 @@ Bit flags containing hints that the CMM uses to interpret the profile data. The 
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 <td>
 <table>
 <tbody>
@@ -210,7 +216,7 @@ Bit flags containing hints that the CMM uses to interpret the profile data. The 
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td>
@@ -223,7 +229,7 @@ Bit flags containing hints that the CMM uses to interpret the profile data. The 
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 <td>
 <table>
 <tbody>
@@ -234,14 +240,14 @@ Bit flags containing hints that the CMM uses to interpret the profile data. The 
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -273,7 +279,7 @@ Attributes of profile. The profile attributes can be any of the following values
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -284,15 +290,15 @@ The profile rendering intent. The member can be set to one of the following valu
 
 INTENT\_PERCEPTUAL
 
- 
+ 
 
 INTENT\_SATURATION
 
- 
+ 
 
 INTENT\_RELATIVE\_COLORIMETRIC
 
- 
+ 
 
 INTENT\_ABSOLUTE\_COLORIMETRIC
 
@@ -327,8 +333,8 @@ Reservedfuture.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl> |
 
 
@@ -346,9 +352,9 @@ Reservedfuture.
 [Rendering Intents](rendering-intents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

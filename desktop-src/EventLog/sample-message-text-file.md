@@ -1,7 +1,12 @@
 ---
-Description: 'The following sample message file shows how to create and use a message text file that defines messages in multiple languages.'
-ms.assetid: '403eaccc-07a3-4368-a39a-18c706c65537'
+Description: The following sample message file shows how to create and use a message text file that defines messages in multiple languages.
+ms.assetid: 403eaccc-07a3-4368-a39a-18c706c65537
 title: Sample Message Text File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Message Text File

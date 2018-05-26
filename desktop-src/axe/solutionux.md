@@ -1,14 +1,20 @@
 ---
 title: SolutionUX element
 description: The mode of interacting with the user when the job runs.
-ms.assetid: '5C53066A-079A-4E1A-A77D-D1C841D2AEE0'
-keywords: ["SolutionUX element Access Execution Engine"]
+ms.assetid: 5C53066A-079A-4E1A-A77D-D1C841D2AEE0
+keywords:
+- SolutionUX element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - SolutionUX
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SolutionUX element
@@ -59,9 +65,9 @@ There are no parent elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

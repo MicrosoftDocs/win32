@@ -1,7 +1,12 @@
 ---
-Description: 'On Windows XP, per-application configuration overrides both default configuration and publisher configuration on a per-application basis.'
-ms.assetid: '5b55d12d-8805-4820-91af-5ef583de3463'
-title: 'Per-application Configuration on Windows XP'
+Description: On Windows XP, per-application configuration overrides both default configuration and publisher configuration on a per-application basis.
+ms.assetid: 5b55d12d-8805-4820-91af-5ef583de3463
+title: Per-application Configuration on Windows XP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Per-application Configuration on Windows XP

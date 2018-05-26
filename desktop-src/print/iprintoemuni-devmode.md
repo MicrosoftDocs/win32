@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::DevMode method, provided by rendering plug-ins for Unidrv, performs operations on private DEVMODEW members.'
-ms.assetid: 'df6bde70-ba14-411b-88a1-b45f2e2756ef'
-title: 'IPrintOemUni::DevMode method'
+---
+Description: The IPrintOemUniDevMode method, provided by rendering plug-ins for Unidrv, performs operations on private DEVMODEW members.
+ms.assetid: df6bde70-ba14-411b-88a1-b45f2e2756ef
+title: IPrintOemUniDevMode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::DevMode method

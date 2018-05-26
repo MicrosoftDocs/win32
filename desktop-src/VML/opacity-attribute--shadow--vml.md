@@ -1,7 +1,12 @@
 ---
 title: Opacity Attribute (Shadow)(VML)
 description: Opacity Attribute (Shadow)(VML)
-ms.assetid: '394d755c-72cf-46f5-a258-1844b07a97bc'
+ms.assetid: 394d755c-72cf-46f5-a258-1844b07a97bc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opacity Attribute (Shadow)(VML)

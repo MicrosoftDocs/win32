@@ -1,8 +1,11 @@
 ---
 title: Vector.Remove method
 description: Removes the designated element.
-ms.assetid: '635371bb-97a8-4b2c-af59-e835dc067881'
-keywords: ["Remove method WIA Automation", "Remove method WIA Automation , Vector object", "Vector object WIA Automation , Remove method"]
+ms.assetid: 635371bb-97a8-4b2c-af59-e835dc067881
+keywords:
+- Remove method WIA Automation
+- Remove method WIA Automation , Vector object
+- Vector object WIA Automation , Remove method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector.Remove method
@@ -57,8 +65,8 @@ For example code, see [Use a Vector Object](-wiaaut-shared-samples.md#use-a-vect
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -71,9 +79,9 @@ For example code, see [Use a Vector Object](-wiaaut-shared-samples.md#use-a-vect
 [**Vector**](-wiaaut-vector.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

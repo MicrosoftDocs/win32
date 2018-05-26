@@ -1,7 +1,12 @@
 ---
-Description: 'You can use the WM\_PAINT message to carry out the drawing necessary for displaying information.'
-ms.assetid: 'cc56745f-95d0-4607-a206-1e7ed7109bf0'
-title: 'Using the WM\_PAINT Message'
+Description: You can use the WM\_PAINT message to carry out the drawing necessary for displaying information.
+ms.assetid: cc56745f-95d0-4607-a206-1e7ed7109bf0
+title: Using the WM\_PAINT Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the WM\_PAINT Message

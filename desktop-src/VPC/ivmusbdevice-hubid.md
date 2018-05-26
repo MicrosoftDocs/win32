@@ -1,8 +1,11 @@
 ---
 title: IVMUSBDevice HubID property
 description: Retrieves the identifier of the hub on which the device is connected.
-ms.assetid: '22e1d8fb-33f4-43a3-883f-174ddafa17c2'
-keywords: ["HubID property Virtual PC", "HubID property Virtual PC , IVMUSBDevice interface", "IVMUSBDevice interface Virtual PC , HubID property"]
+ms.assetid: 22e1d8fb-33f4-43a3-883f-174ddafa17c2
+keywords:
+- HubID property Virtual PC
+- HubID property Virtual PC , IVMUSBDevice interface
+- IVMUSBDevice interface Virtual PC , HubID property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMUSBDevice::HubID property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the identifier of the hub on which the device is connected.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HubID(
-  [out, retval] long *hubID
+  [out, retval] long *hubID
 );
 ```
 
@@ -54,9 +62,9 @@ The hub identifier. This value is assigned by the USB connector driver.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMUSBDevice is defined as 63C1258C-5721-4070-B86B-A6CE2AFEC0B3<br/>               |
@@ -70,9 +78,9 @@ The hub identifier. This value is assigned by the USB connector driver.
 [**IVMUSBDevice**](ivmusbdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

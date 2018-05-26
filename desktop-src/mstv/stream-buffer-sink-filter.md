@@ -1,7 +1,12 @@
 ---
 title: Stream Buffer Sink Filter
 description: Stream Buffer Sink Filter
-ms.assetid: 'e49fe3c2-e77f-419a-910c-78f72ebdfdbc'
+ms.assetid: e49fe3c2-e77f-419a-910c-78f72ebdfdbc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream Buffer Sink Filter
@@ -20,7 +25,7 @@ The Stream Buffer Sink filter is the sink filter for the Stream Buffer Engine. I
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IBaseFilter</strong>](https://msdn.microsoft.com/library/windows/desktop/dd389526), <strong>ISpecifyPropertyPages</strong>, [<strong>IStreamBufferInitialize</strong>](istreambufferinitialize.md), [<strong>IStreamBufferSink</strong>](istreambuffersink.md), [<strong>IStreamBufferSink2</strong>](istreambuffersink2.md), [<strong>IStreamBufferSink3</strong>](istreambuffersink3.md)</td>
+<td>[<strong>IBaseFilter</strong>](https://msdn.microsoft.com/library/windows/desktop/dd389526), <strong>ISpecifyPropertyPages</strong>, [<strong>IStreamBufferInitialize</strong>](/windows/previous-versions/Sbe/nn-sbe-istreambufferinitialize?branch=master), [<strong>IStreamBufferSink</strong>](/windows/previous-versions/Sbe/nn-sbe-istreambuffersink?branch=master), [<strong>IStreamBufferSink2</strong>](/windows/previous-versions/Sbe/nn-sbe-istreambuffersink2?branch=master), [<strong>IStreamBufferSink3</strong>](/windows/previous-versions/Sbe/nn-sbe-istreambuffersink3?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -34,7 +39,7 @@ The Stream Buffer Sink filter is the sink filter for the Stream Buffer Engine. I
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IMemInputPin</strong>](https://msdn.microsoft.com/library/windows/desktop/dd407073), [<strong>IPin</strong>](https://msdn.microsoft.com/library/windows/desktop/dd390397), [<strong>IQualityControl</strong>](https://msdn.microsoft.com/library/windows/desktop/dd376912), [<strong>IStreamBufferDataCounters</strong>](istreambufferdatacounters.md)</td>
+<td>[<strong>IMemInputPin</strong>](https://msdn.microsoft.com/library/windows/desktop/dd407073), [<strong>IPin</strong>](https://msdn.microsoft.com/library/windows/desktop/dd390397), [<strong>IQualityControl</strong>](https://msdn.microsoft.com/library/windows/desktop/dd376912), [<strong>IStreamBufferDataCounters</strong>](/windows/previous-versions/Sbe/nn-sbe-istreambufferdatacounters?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -69,7 +74,7 @@ The Stream Buffer Sink filter is the sink filter for the Stream Buffer Engine. I
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -87,9 +92,9 @@ If the Stream Buffer Sink is stopped and restarted, the render graph will lose c
 [Using the Stream Buffer Engine](using-the-stream-buffer-engine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

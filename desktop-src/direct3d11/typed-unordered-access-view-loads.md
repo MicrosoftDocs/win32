@@ -1,7 +1,12 @@
 ---
 title: Typed Unordered Access View Loads
 description: Unordered Access View (UAV) Typed Load is the ability for a shader to read from a UAV with a specific DXGI\_FORMAT.
-ms.assetid: 'BA72BF21-8621-461D-8677-9DFB7D5BC6AA'
+ms.assetid: BA72BF21-8621-461D-8677-9DFB7D5BC6AA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Typed Unordered Access View Loads
@@ -73,7 +78,7 @@ The following formats are optionally and individually supported on D3D12 and D3D
 -   B5G5R5A1\_UNORM
 -   B4G4R4A4\_UNORM
 
-To determine the support for any additional formats, call [**ID3D11Device::CheckFeatureSupport**](id3d11device-checkfeaturesupport.md) with the [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS2**](d3d11-feature-data-d3d11-options2.md) structure as the first parameter. The `TypedUAVLoadAdditionalFormats` bit will be set if the "supported as a set" list above is supported. Make a second call to **CheckFeatureSupport**, using a [**D3D11\_FEATURE\_DATA\_FORMAT\_SUPPORT2**](d3d11-feature-data-format-support2.md) structure (checking the returned structure against the D3D12\_FORMAT\_SUPPORT2\_UAV\_TYPED\_LOAD member of the [**D3D11\_FORMAT\_SUPPORT2**](d3d11-format-support2.md) enum) to determine support in the list of optionally supported formats above, for example:
+To determine the support for any additional formats, call [**ID3D11Device::CheckFeatureSupport**](/windows/win32/D3D11/nf-d3d11-id3d11device-checkfeaturesupport?branch=master) with the [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS2**](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options2?branch=master) structure as the first parameter. The `TypedUAVLoadAdditionalFormats` bit will be set if the "supported as a set" list above is supported. Make a second call to **CheckFeatureSupport**, using a [**D3D11\_FEATURE\_DATA\_FORMAT\_SUPPORT2**](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_format_support2?branch=master) structure (checking the returned structure against the D3D12\_FORMAT\_SUPPORT2\_UAV\_TYPED\_LOAD member of the [**D3D11\_FORMAT\_SUPPORT2**](/windows/win32/D3D11/ne-d3d11-d3d11_format_support2?branch=master) enum) to determine support in the list of optionally supported formats above, for example:
 
 ``` syntax
 D3D11_FEATURE_DATA_D3D11_OPTIONS2 FeatureData;

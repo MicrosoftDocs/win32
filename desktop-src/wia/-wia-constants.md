@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics cover Windows Image Acquisition (WIA) constants: WIA Device CommandsWIA Property ConstantsProperty AttributesImage Intent ConstantsWIA Event IdentifiersWIA Device Type SpecifiersWIA Item Type FlagsError CodesWIA 2.0 Item Category GUIDsWIA 2.0 Page Size Constants'
-ms.assetid: '710a7cc6-23a2-43ef-8e18-5592ac262b9f'
+Description: The following topics cover Windows Image Acquisition (WIA) constants WIA Device CommandsWIA Property ConstantsProperty AttributesImage Intent ConstantsWIA Event IdentifiersWIA Device Type SpecifiersWIA Item Type FlagsError CodesWIA 2.0 Item Category GUIDsWIA 2.0 Page Size Constants
+ms.assetid: 710a7cc6-23a2-43ef-8e18-5592ac262b9f
 title: Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants

@@ -4,11 +4,14 @@ description: The Get3QuarterDarkHex method derives a \ 0034;darker \ 0034; color
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a3f349dc-fa76-4bf6-9aa3-f425fe49a914'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a3f349dc-fa76-4bf6-9aa3-f425fe49a914
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Get3QuarterDarkHex method MMC", "Get3QuarterDarkHex method MMC , SysColorCtrl class", "SysColorCtrl class MMC , Get3QuarterDarkHex method"]
+keywords:
+- Get3QuarterDarkHex method MMC
+- Get3QuarterDarkHex method MMC , SysColorCtrl class
+- SysColorCtrl class MMC , Get3QuarterDarkHex method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SysColorCtrl.Get3QuarterDarkHex method
@@ -101,9 +107,9 @@ A string that contains the hexadecimal value for the derived color specified by 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

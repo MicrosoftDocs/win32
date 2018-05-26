@@ -1,7 +1,12 @@
 ---
-Description: 'The NewSegment method notifies the filter that media samples received after this call are grouped as a segment.'
-ms.assetid: '78ddaac7-9c1f-47b6-835d-dd16b1f5b01f'
-title: 'CTransformFilter.NewSegment method'
+Description: The NewSegment method notifies the filter that media samples received after this call are grouped as a segment.
+ms.assetid: 78ddaac7-9c1f-47b6-835d-dd16b1f5b01f
+title: CTransformFilter.NewSegment method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.NewSegment method
@@ -13,9 +18,9 @@ The `NewSegment` method notifies the filter that media samples received after th
 
 ```C++
 virtual HRESULT NewSegment(
-   REFERENCE_TIME tStart,
-   REFERENCE_TIME tStop,
-   double         dRate
+   REFERENCE_TIME tStart,
+   REFERENCE_TIME tStop,
+   double         dRate
 );
 ```
 
@@ -72,9 +77,9 @@ The input pin's [**CTransformInputPin::NewSegment**](ctransforminputpin-newsegme
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

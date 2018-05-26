@@ -1,12 +1,17 @@
 ---
-Description: 'The user SID for the enumerated component.'
-ms.assetid: '52dd8514-bb06-4c67-ba07-950e5e21b85a'
-title: 'Component.UserSID property'
+Description: The user SID for the enumerated component.
+ms.assetid: 52dd8514-bb06-4c67-ba07-950e5e21b85a
+title: Component.UserSID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Component.UserSID property
 
-The user SID for the enumerated component. This property calls the [**MsiEnumComponentsEx**](msienumcomponentsex.md) function.
+The user SID for the enumerated component. This property calls the [**MsiEnumComponentsEx**](/windows/win32/Msi/nf-msi-msienumcomponentsexa?branch=master) function.
 
 **[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported. This property is available beginning with Windows Installer 5.0.
 
@@ -26,9 +31,9 @@ The user SID for the enumerated component. This property calls the [**MsiEnumCom
 
 
 
- 
+ 
 
- 
+ 
 
 
 

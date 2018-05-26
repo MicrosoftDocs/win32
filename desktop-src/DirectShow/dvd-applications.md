@@ -1,7 +1,12 @@
 ---
 Description: DVD Applications
-ms.assetid: '6f41e0f1-e550-4ca6-9a80-ce4d498289e2'
+ms.assetid: 6f41e0f1-e550-4ca6-9a80-ce4d498289e2
 title: DVD Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD Applications

@@ -1,7 +1,12 @@
 ---
-Description: 'Third parties can create applications that query the index for data programmatically and can extend Windows Search to index data from custom file formats and data stores.'
-ms.assetid: '70046df0-ce48-472d-b24b-8231ea3a43c0'
-title: 'Windows Search Developer''s Guide'
+Description: Third parties can create applications that query the index for data programmatically and can extend Windows Search to index data from custom file formats and data stores.
+ms.assetid: 70046df0-ce48-472d-b24b-8231ea3a43c0
+title: Windows Search Developers Guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Search Developer's Guide

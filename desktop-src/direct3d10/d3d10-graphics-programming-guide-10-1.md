@@ -1,14 +1,19 @@
 ---
-Description: 'Direct3D 10.1 Features'
-ms.assetid: 'e60c6116-e2f9-46b7-aed8-13e3e5ae2b90'
-title: 'Direct3D 10.1 Features'
+Description: Direct3D 10.1 Features
+ms.assetid: e60c6116-e2f9-46b7-aed8-13e3e5ae2b90
+title: Direct3D 10.1 Features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 10.1 Features
 
 Direct3D 10.1 extends the feature set of Direct3D 10.0 with the following new features:
 
--   Blend Modes - Independent blend modes per render target using the new blend-state interface (see [**ID3D10BlendState1 Interface**](id3d10blendstate1.md)). Dual source blending operations are restricted to render target slot 0; you may not write to other outputs or have any render targets bound to slots other than slot 0.
+-   Blend Modes - Independent blend modes per render target using the new blend-state interface (see [**ID3D10BlendState1 Interface**](/windows/win32/D3D10_1/nn-d3d10_1-id3d10blendstate1?branch=master)). Dual source blending operations are restricted to render target slot 0; you may not write to other outputs or have any render targets bound to slots other than slot 0.
 -   Culling Behavior - Zero-area faces are automatically culled; this affects wireframe rendering only.
 -   Floating Point Rules - Uses the same IEEE-754 rules for floating-point EXCEPT 32-bit floating point operations have been tightened to produce a result within 0.5 unit-last-place (0.5 ULP) of the infinitely precise result. This applies to addition, subtraction, and multiplication. (accuracy to 0.5 ULP for multiply, 1.0 ULP for reciprocal).
 -   Formats - The precision of float16 blending has increased to 0.5 ULP. Blending is also required for UNORM16/SNORM16/SNORM8 formats.
@@ -32,9 +37,9 @@ Direct3D 10.1 extends the feature set of Direct3D 10.0 with the following new fe
     -   Both color and depth/stencil MSAA surfaces can now be used with CopyResource as either a source or destination
     -   Format Conversion while copying between certain 32/64/128 bit prestructured, typed resources and compressed representations of the same bit widths.
 -   Texture Sampling - sample\_c and sample\_c\_lz instructions are defined to work with both Texture2DArrays and TextureCubeArrays, use the Location member (the alpha component) to specify an an array index.
--   Views - TextureCube and the new TextureCubeArray (see [**D3D10\_TEXCUBE\_ARRAY\_SRV1**](d3d10-texcube-array-srv1.md)) are not actual resources, but are new views on a Texture2DArray resource. Create a resource view from a Texture2DArray resource with a new usage flag (D3D10\_RESOURCE\_MISC\_TEXTURECUBE), use the new [**ID3D10ShaderResourceView1 Interface**](id3d10shaderresourceview1.md) interface to bind a cube-texture view to the pipeline.
+-   Views - TextureCube and the new TextureCubeArray (see [**D3D10\_TEXCUBE\_ARRAY\_SRV1**](/windows/win32/d3d10_1/ns-d3d10_1-d3d10_texcube_array_srv1?branch=master)) are not actual resources, but are new views on a Texture2DArray resource. Create a resource view from a Texture2DArray resource with a new usage flag (D3D10\_RESOURCE\_MISC\_TEXTURECUBE), use the new [**ID3D10ShaderResourceView1 Interface**](/windows/win32/d3d10_1/nn-d3d10_1-id3d10shaderresourceview1?branch=master) interface to bind a cube-texture view to the pipeline.
 
-The new features require a 10.1 device type (see [**ID3D10Device1 Interface**](id3d10device1.md)) which can be created by calling [**D3D10CreateDevice1**](d3d10createdevice1.md), or you can create the device and swap chain at the same time by calling [**D3D10CreateDeviceAndSwapChain1**](d3d10createdeviceandswapchain1.md).
+The new features require a 10.1 device type (see [**ID3D10Device1 Interface**](/windows/win32/D3D10_1/nn-d3d10_1-id3d10device1?branch=master)) which can be created by calling [**D3D10CreateDevice1**](/windows/win32/D3D10_1/nf-d3d10_1-d3d10createdevice1?branch=master), or you can create the device and swap chain at the same time by calling [**D3D10CreateDeviceAndSwapChain1**](/windows/win32/D3D10_1/nf-d3d10_1-d3d10createdeviceandswapchain1?branch=master).
 
 In Windows Vista Service Pack 1, Direct3D 10.0 and Direct3D 10.1 DLLs exist side-by-side on the system. To access 10.1 features, do either of the following:
 

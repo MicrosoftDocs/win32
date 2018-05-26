@@ -1,7 +1,12 @@
-﻿---
-Description: 'Lists the triangle test functions provided by the DirectXMath TriangleTests namespace.'
-ms.assetid: '97c5fa38-e88c-debb-f3ed-76c5878778c4'
+---
+Description: Lists the triangle test functions provided by the DirectXMath TriangleTests namespace.
+ms.assetid: 97c5fa38-e88c-debb-f3ed-76c5878778c4
 title: DirectXMath Triangle Test Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectXMath Triangle Test Functions
@@ -12,10 +17,10 @@ Lists the triangle test functions provided by the DirectXMath **TriangleTests** 
 
 | Term                                                                                                                                                                                                                 | Description                                                                                |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| <span id="ContainedBy"></span><span id="containedby"></span><span id="CONTAINEDBY"></span>[**ContainedBy**](containedby.md)<br/>                                                                              | Tests whether a triangle is contained within six planes (typically a frustum). <br/> |
-| <span id="Intersects__triangle-plane_"></span><span id="intersects__triangle-plane_"></span><span id="INTERSECTS__TRIANGLE-PLANE_"></span>[**Intersects (triangle-plane)**](intersects-1.md)<br/>             | Tests whether a triangle and a plane intersect.<br/>                                 |
-| <span id="Intersects__triangle-ray_"></span><span id="intersects__triangle-ray_"></span><span id="INTERSECTS__TRIANGLE-RAY_"></span>[**Intersects (triangle-ray)**](intersects-2.md)<br/>                     | Test whether a triangle intersects with a ray.<br/>                                  |
-| <span id="Intersects__triangle-triangle_"></span><span id="intersects__triangle-triangle_"></span><span id="INTERSECTS__TRIANGLE-TRIANGLE_"></span>[**Intersects (triangle-triangle)**](intersects-3.md)<br/> | Test whether two triangles intersect.<br/>                                           |
+| <span id="ContainedBy"></span><span id="containedby"></span><span id="CONTAINEDBY"></span>[**ContainedBy**](/windows/win32/DirectXCollision/nf-directxcollision-boundingbox-containedby?branch=master)<br/>                                                                              | Tests whether a triangle is contained within six planes (typically a frustum). <br/> |
+| <span id="Intersects__triangle-plane_"></span><span id="intersects__triangle-plane_"></span><span id="INTERSECTS__TRIANGLE-PLANE_"></span>[**Intersects (triangle-plane)**](/windows/win32/DirectXCollision/?branch=master)<br/>             | Tests whether a triangle and a plane intersect.<br/>                                 |
+| <span id="Intersects__triangle-ray_"></span><span id="intersects__triangle-ray_"></span><span id="INTERSECTS__TRIANGLE-RAY_"></span>[**Intersects (triangle-ray)**](/windows/win32/DirectXCollision/?branch=master)<br/>                     | Test whether a triangle intersects with a ray.<br/>                                  |
+| <span id="Intersects__triangle-triangle_"></span><span id="intersects__triangle-triangle_"></span><span id="INTERSECTS__TRIANGLE-TRIANGLE_"></span>[**Intersects (triangle-triangle)**](/windows/win32/DirectXCollision/?branch=master)<br/> | Test whether two triangles intersect.<br/>                                           |
 
 
 

@@ -4,17 +4,21 @@ description: Thrown when the SDK has received an invalid certificate. Extends th
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '0018671D-7962-4024-AB33-A3A0282293EE'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 0018671D-7962-4024-AB33-A3A0282293EE
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["InvalidCertificateException class"]
+keywords:
+- InvalidCertificateException class
 topic_type:
 - apiref
 api_name:
 - InvalidCertificateException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InvalidCertificateException class
@@ -32,7 +36,7 @@ public class InvalidCertificateException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -43,7 +47,7 @@ public class InvalidCertificateException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -56,7 +60,7 @@ public class InvalidCertificateException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -74,9 +78,9 @@ For more information, see the SDK documentation for the [**ProtectionException**
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

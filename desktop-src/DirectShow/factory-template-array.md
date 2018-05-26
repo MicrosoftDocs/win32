@@ -1,7 +1,12 @@
 ---
 Description: Factory Template Array
-ms.assetid: '310afccd-42a6-426e-b455-7bf98062bf36'
+ms.assetid: 310afccd-42a6-426e-b455-7bf98062bf36
 title: Factory Template Array
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Factory Template Array

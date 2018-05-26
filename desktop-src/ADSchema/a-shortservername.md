@@ -1,25 +1,30 @@
 ---
 title: Short-Server-Name attribute
-description: Pre-Windows 2000 compatible server name for print servers.
+description: Pre-Windows 2000 compatible server name for print servers.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '639704f4-e2b6-43e1-9b1b-6afffe8f0f6a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 639704f4-e2b6-43e1-9b1b-6afffe8f0f6a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Short-Server-Name attribute AD Schema", "shortServerName attribute AD Schema"]
+keywords:
+- Short-Server-Name attribute AD Schema
+- shortServerName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Short-Server-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Short-Server-Name attribute
 
-Pre-Windows 2000 compatible server name for print servers.
+Pre-Windows 2000 compatible server name for print servers.
 
 
 
@@ -38,12 +43,12 @@ Pre-Windows 2000 compatible server name for print servers.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Pre-Windows 2000 compatible server name for print servers.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

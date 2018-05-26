@@ -1,8 +1,24 @@
 ---
 title: Performance Considerations and Best Practices
 description: This topic presents a set of best practices for using the Desktop Window Manager (DWM) APIs.
-ms.assetid: '5b1f6ff8-1d3f-4a70-8efd-90f8802e8532'
-keywords: ["Desktop Window Manager (DWM),best practices", "DWM (Desktop Window Manager),best practices", "Desktop Window Manager (DWM),application practices", "DWM (Desktop Window Manager),application practices", "Desktop Window Manager (DWM),drawing practices", "DWM (Desktop Window Manager),drawing practices", "Desktop Window Manager (DWM),blur behind effect", "DWM (Desktop Window Manager),blur behind effect", "application practices", "drawing practices", "blur behind effect"]
+ms.assetid: 5b1f6ff8-1d3f-4a70-8efd-90f8802e8532
+keywords:
+- Desktop Window Manager (DWM),best practices
+- DWM (Desktop Window Manager),best practices
+- Desktop Window Manager (DWM),application practices
+- DWM (Desktop Window Manager),application practices
+- Desktop Window Manager (DWM),drawing practices
+- DWM (Desktop Window Manager),drawing practices
+- Desktop Window Manager (DWM),blur behind effect
+- DWM (Desktop Window Manager),blur behind effect
+- application practices
+- drawing practices
+- blur behind effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance Considerations and Best Practices
@@ -27,7 +43,7 @@ Use regions or layering to create shaped or blended windows. Note that in Window
 
 APIs such as [**GetDCOrgEx**](https://msdn.microsoft.com/library/windows/desktop/dd144874) can be used to determine certain actual values. If you have a device context (DC) for a redirected window, the origin returned by **GetDCOrgEx** will not match the origin of your window on the screen. The origin will instead be the origin of the back-buffer surface for your window: (0, 0).
 
-When all else fails, disable window rendering by calling the [**DwmSetWindowAttribute**](dwmsetwindowattribute.md) function.
+When all else fails, disable window rendering by calling the [**DwmSetWindowAttribute**](/windows/win32/Dwmapi/nf-dwmapi-dwmsetwindowattribute?branch=master) function.
 
 ## Drawing Practices for DWM
 

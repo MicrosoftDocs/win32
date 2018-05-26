@@ -1,7 +1,12 @@
 ---
-Description: 'Generates C structure definitions for known types.'
-ms.assetid: '38ba2e8a-d5b1-47b2-b410-ae161f5039bf'
+Description: Generates C structure definitions for known types.
+ms.assetid: 38ba2e8a-d5b1-47b2-b410-ae161f5039bf
 title: structDefinitions element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # structDefinitions element
@@ -42,14 +47,14 @@ Structures for known types are referenced by much of the generated code and by a
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: sample.Operator\ \ \ \ function
 description: Returns a read-only resource variable.
-ms.assetid: '5334c1d5-dfbd-4987-875c-0b92967b0f13'
-keywords: ["sample.Operator function HLSL"]
+ms.assetid: 5334c1d5-dfbd-4987-875c-0b92967b0f13
+keywords:
+- sample.Operator function HLSL
 topic_type:
 - apiref
 api_name:
 - sample.Operator
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sample.Operator\[\]\[\] function

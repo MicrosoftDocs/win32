@@ -1,8 +1,23 @@
 ---
 title: Names for WPD GUIDs
 description: The following table lists the names that WPD Automation assigns to WPD GUIDs.
-ms.assetid: '5050a11e-a642-452c-8b5b-e4609ac7a241'
-keywords: ["WPD Automation,WPD GUIDs", "WPD Automation,names for WPD GUIDs", "Windows Portable Devices (WPD),WPD Automation", "WPD (Windows Portable Devices),WPD Automation", "Windows Portable Devices (WPD),GUIDs", "WPD (Windows Portable Devices),GUIDs", "Windows Portable Devices (WPD),names for WPD GUIDs", "WPD (Windows Portable Devices),names for WPD GUIDs", "WPD GUIDs,list of", "GUIDs,list of"]
+ms.assetid: 5050a11e-a642-452c-8b5b-e4609ac7a241
+keywords:
+- WPD Automation,WPD GUIDs
+- WPD Automation,names for WPD GUIDs
+- Windows Portable Devices (WPD),WPD Automation
+- WPD (Windows Portable Devices),WPD Automation
+- Windows Portable Devices (WPD),GUIDs
+- WPD (Windows Portable Devices),GUIDs
+- Windows Portable Devices (WPD),names for WPD GUIDs
+- WPD (Windows Portable Devices),names for WPD GUIDs
+- WPD GUIDs,list of
+- GUIDs,list of
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Names for WPD GUIDs

@@ -2,10 +2,13 @@
 title: Displaying the Status of an Event Collector Subscription
 description: You can display the status of an Event Collector subscription. The status includes the availability of the subscription, the last error that occurred for the subscription, the time of the last error, and the next time the subscription will be retried.
 audience: developer
-ms.assetid: 'e1c3c3ed-2f7c-433d-a51d-66c2abd2e961'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-event-collector'
+ms.assetid: e1c3c3ed-2f7c-433d-a51d-66c2abd2e961
+ms.prod: windows-server-dev
+ms.technology: windows-event-collector
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Displaying the Status of an Event Collector Subscription
@@ -28,12 +31,12 @@ The following example follows a procedure to display the status of an Event Coll
 
 **To display the status of an Event Collector subscription**
 
-1.  Open the subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](ecopensubscription.md) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
-2.  Get the status of the subscription by calling the [**EcGetSubscriptionRunTimeStatus**](ecgetsubscriptionruntimestatus.md) function (do not specify an event source when calling the function).
-3.  Get the event sources array of the subscription by calling the [**EcGetSubscriptionRunTimeStatus**](ecgetsubscriptionruntimestatus.md) function and passing in the EcSubscriptionRunTimeStatusEventSources flag.
-4.  Get the status information for each event source by calling the [**EcGetSubscriptionRunTimeStatus**](ecgetsubscriptionruntimestatus.md) function and passing in the event source name. For more information about the status information that can be retrieved, see the [**EC\_SUBSCRIPTION\_RUNTIME\_STATUS\_INFO\_ID**](ec-subscription-runtime-status-info-id.md) enumeration.
+1.  Open the subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](/windows/win32/Evcoll/nf-evcoll-ecopensubscription?branch=master) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
+2.  Get the status of the subscription by calling the [**EcGetSubscriptionRunTimeStatus**](/windows/win32/Evcoll/nf-evcoll-ecgetsubscriptionruntimestatus?branch=master) function (do not specify an event source when calling the function).
+3.  Get the event sources array of the subscription by calling the [**EcGetSubscriptionRunTimeStatus**](/windows/win32/Evcoll/nf-evcoll-ecgetsubscriptionruntimestatus?branch=master) function and passing in the EcSubscriptionRunTimeStatusEventSources flag.
+4.  Get the status information for each event source by calling the [**EcGetSubscriptionRunTimeStatus**](/windows/win32/Evcoll/nf-evcoll-ecgetsubscriptionruntimestatus?branch=master) function and passing in the event source name. For more information about the status information that can be retrieved, see the [**EC\_SUBSCRIPTION\_RUNTIME\_STATUS\_INFO\_ID**](/windows/win32/Evcoll/ne-evcoll-_ec_subscription_runtime_status_info_id?branch=master) enumeration.
 5.  Print the status information for the subscription.
-6.  Close the subscription by calling the [**EcClose**](ecclose.md) function.
+6.  Close the subscription by calling the [**EcClose**](/windows/win32/Evcoll/nf-evcoll-ecclose?branch=master) function.
 
 The following C++ code example shows how to display the status of an Event Collector subscription.
 

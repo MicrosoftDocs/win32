@@ -1,14 +1,20 @@
 ---
 title: Silent element
 description: Indicates no interaction with the user.
-ms.assetid: 'D37F3050-E7F7-44FF-84B1-E9E974371E96'
-keywords: ["Silent element Access Execution Engine"]
+ms.assetid: D37F3050-E7F7-44FF-84B1-E9E974371E96
+keywords:
+- Silent element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Silent
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Silent element

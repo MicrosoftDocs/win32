@@ -1,7 +1,12 @@
 ---
-Description: 'Because image data transfer is stream-based in Windows Image Acquisition (WIA) 2.0, you do not need to specify a destination type (e.g.'
-ms.assetid: 'ebb9fce5-9450-4ffe-b480-b21670b60f90'
-title: 'Transferring Image Data in WIA 2.0'
+Description: Because image data transfer is stream-based in Windows Image Acquisition (WIA) 2.0, you do not need to specify a destination type (e.g.
+ms.assetid: ebb9fce5-9450-4ffe-b480-b21670b60f90
+title: Transferring Image Data in WIA 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transferring Image Data in WIA 2.0
@@ -40,7 +45,7 @@ The application then instantiates the callback object, as shown here.
 
 
 
-The application next sets the properties by using [**IWiaPropertyStorage**](-wia-iwiapropertystorage.md) interface of [**IWiaItem2**](-wia-iwiaitem2.md) item, and performs the transfer.
+The application next sets the properties by using [**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master) interface of [**IWiaItem2**](-wia-iwiaitem2.md) item, and performs the transfer.
 
 Downloading:
 

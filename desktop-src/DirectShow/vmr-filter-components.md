@@ -1,7 +1,12 @@
 ---
 Description: VMR Filter Components
-ms.assetid: '86fd8d6f-a742-457d-bb30-d04542431a0a'
+ms.assetid: 86fd8d6f-a742-457d-bb30-d04542431a0a
 title: VMR Filter Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMR Filter Components
@@ -16,7 +21,7 @@ The VMR employs a modular design that enables applications to configure it for m
 
 **Allocator-Presenter:** The allocator-presenter is a COM object that allocates the DirectDraw or Direct3D object and handles the communication with the graphics card. The drawing can be performed either as a flip or as a blit. You can plug in your own allocator-presenter in order to create and control the DirectDraw or Direct3D object, and/or to obtain access to the video bits at presentation time.
 
-**Window Manager:** The Window Manager is used only in windowed mode. The Window Manager supports the legacy [**IVideoWindow**](ivideowindow.md) and [**IBasicVideo**](ibasicvideo.md) interfaces for backward-compatibility.
+**Window Manager:** The Window Manager is used only in windowed mode. The Window Manager supports the legacy [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) and [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master) interfaces for backward-compatibility.
 
 ## Related topics
 

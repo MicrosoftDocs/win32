@@ -1,7 +1,12 @@
 ---
-Description: 'You can stream audio data in XAudio2 by creating a separate thread and perform buffer reads of the audio data in the streaming thread, and then use callbacks to control that thread.'
-ms.assetid: '48b80a66-91c1-973f-069b-6f63422d7154'
-title: 'How to: Stream a Sound from Disk'
+Description: You can stream audio data in XAudio2 by creating a separate thread and perform buffer reads of the audio data in the streaming thread, and then use callbacks to control that thread.
+ms.assetid: 48b80a66-91c1-973f-069b-6f63422d7154
+title: How to Stream a Sound from Disk
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Stream a Sound from Disk
@@ -41,7 +46,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
     
 
-3.  Call the [**Start**](ixaudio2sourcevoice-interface-start.md) function on the [**source voice**](ixaudio2sourcevoice.md) that will be playing the streaming audio.
+3.  Call the [**Start**](ixaudio2sourcevoice-interface-start.md) function on the [**source voice**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2sourcevoice?branch=master) that will be playing the streaming audio.
 
     ```
     hr = pSourceVoice->Start( 0, 0 );
@@ -91,9 +96,9 @@ To perform buffer reads in the streaming thread follow these steps:
 
         
 
-    3.  Wait for the number of buffers queued on the [**source voice**](ixaudio2sourcevoice.md) to be less than the number of read buffers.
+    3.  Wait for the number of buffers queued on the [**source voice**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2sourcevoice?branch=master) to be less than the number of read buffers.
 
-        The state of the [**source voice**](ixaudio2sourcevoice.md) is checked with the [**GetState**](ixaudio2sourcevoice-interface-getstate.md) function.
+        The state of the [**source voice**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2sourcevoice?branch=master) is checked with the [**GetState**](ixaudio2sourcevoice-interface-getstate.md) function.
 
         ```
         XAUDIO2_VOICE_STATE state;
@@ -105,7 +110,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
         
 
-    4.  Submit the current read buffer to the [**source voice**](ixaudio2sourcevoice.md) using the [**SubmitSourceBuffer**](ixaudio2sourcevoice-interface-submitsourcebuffer.md) function.
+    4.  Submit the current read buffer to the [**source voice**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2sourcevoice?branch=master) using the [**SubmitSourceBuffer**](ixaudio2sourcevoice-interface-submitsourcebuffer.md) function.
 
         ```
         XAUDIO2_BUFFER buf = {0};
@@ -145,7 +150,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
 ## Creating the callback class
 
-To create the callback class, create a class that inherits from the [**IXAudio2VoiceCallback**](ixaudio2voicecallback.md) interface.
+To create the callback class, create a class that inherits from the [**IXAudio2VoiceCallback**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2voicecallback?branch=master) interface.
 
 The class should set an event in its [**OnBufferEnd**](ixaudio2voicecallback-interface-onbufferend.md) method. This allows the streaming thread to put itself to sleep until the event signals it that XAudio2 has finished reading from an audio buffer. For more information about using callbacks with XAudio2, see [How to: Use Source Voice Callbacks](how-to--use-source-voice-callbacks.md).
 

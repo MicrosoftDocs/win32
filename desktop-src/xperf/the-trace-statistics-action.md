@@ -1,7 +1,12 @@
 ---
 title: The Trace Statistics Action
 description: The Trace Statistics Action
-ms.assetid: '657115df-bc14-4782-ae0b-d72411955f5d'
+ms.assetid: 657115df-bc14-4782-ae0b-d72411955f5d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Trace Statistics Action
@@ -27,13 +32,13 @@ The trace statistics action produces a text file that summarizes the various met
 
 
 
- 
+ 
 
 If no time zone is specified, the local time zone is used by default.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: CIM\_ResourceAllocationFromPool class
 description: Represents an association in which a CIM\_ResourceAllocationSettingData instance is allocated from a resource pool.
-ms.assetid: '326c28af-78cb-417b-bee8-a87e06bcb598'
-keywords: ["CIM_ResourceAllocationFromPool class Hyper-V", "CIM_ResourceAllocationFromPool class Hyper-V , described"]
+ms.assetid: 326c28af-78cb-417b-bee8-a87e06bcb598
+keywords:
+- CIM_ResourceAllocationFromPool class Hyper-V
+- CIM_ResourceAllocationFromPool class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ResourceAllocationFromPool class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Experimental, Association, Version("2.13.0"), AMENDMENT]
 class CIM_ResourceAllocationFromPool : CIM_Dependency
 {
-  CIM_ResourcePool                  REF Antecedent;
+  CIM_ResourcePool                  REF Antecedent;
   CIM_ResourceAllocationSettingData REF Dependent;
 };
 ```
@@ -83,9 +90,9 @@ The resource allocation data.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ The resource allocation data.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

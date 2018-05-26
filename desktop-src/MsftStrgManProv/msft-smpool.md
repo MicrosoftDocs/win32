@@ -4,11 +4,16 @@ description: Represents a storage pool. A storage pool is a logical grouping of 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5e32a339-a229-493f-88c5-4d1d210bf94a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 5e32a339-a229-493f-88c5-4d1d210bf94a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMPool class", "MSFT_SMPool class, described"]
+keywords:
+- MSFT_SMPool class
+- MSFT_SMPool class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMPool class
@@ -17,7 +22,7 @@ Represents a storage pool. A storage pool is a logical grouping of physical disk
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) which is new for Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) which is new for Windows Server 2016.
 
 ## Syntax
 
@@ -25,38 +30,38 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMPool : MSFT_SMStorageObject
 {
-  String  ObjectId;
-  String  Identifier;
-  String  DisplayName;
-  String  Name;
-  String  PoolID;
+  String  ObjectId;
+  String  Identifier;
+  String  DisplayName;
+  String  Name;
+  String  PoolID;
   Boolean Primordial;
-  Uint64  RemainingManagedSpace;
-  Uint64  TotalManagedSpace;
-  String  DefaultSettingName;
+  Uint64  RemainingManagedSpace;
+  Uint64  TotalManagedSpace;
+  String  DefaultSettingName;
   boolean NoSinglePointOfFailure;
   boolean NoSinglePointOfFailureDefault;
-  uint16  DataRedundancyMax;
-  uint16  DataRedundancyMin;
-  uint16  DataRedundancyDefault;
-  uint16  PackageRedundancyMax;
-  uint16  PackageRedundancyMin;
-  uint16  PackageRedundancyDefault;
-  uint16  ExtentStripeLengthDefault;
-  uint16  ParityLayoutDefault;
-  uint64  UserDataStripeDepthDefault;
-  uint16  Usage;
-  string  UsageDescription;
+  uint16  DataRedundancyMax;
+  uint16  DataRedundancyMin;
+  uint16  DataRedundancyDefault;
+  uint16  PackageRedundancyMax;
+  uint16  PackageRedundancyMin;
+  uint16  PackageRedundancyDefault;
+  uint16  ExtentStripeLengthDefault;
+  uint16  ParityLayoutDefault;
+  uint64  UserDataStripeDepthDefault;
+  uint16  Usage;
+  string  UsageDescription;
   boolean SupportsStorageVolumeCreation;
   boolean SupportsThinlyProvisionedStorageVolume;
-  uint64  SpaceLimit;
-  uint16  SpaceLimitDetermination;
-  uint16  LowSpaceWarningThreshold;
-  uint64  ThinProvisionMetaDataSpace;
-  uint16  OperationalStatus[];
-  string  StatusDescriptions[];
-  uInt16  HealthStatus;
-  string  HealthStatusDescription;
+  uint64  SpaceLimit;
+  uint16  SpaceLimitDetermination;
+  uint16  LowSpaceWarningThreshold;
+  uint64  ThinProvisionMetaDataSpace;
+  uint16  OperationalStatus[];
+  string  StatusDescriptions[];
+  uInt16  HealthStatus;
+  string  HealthStatusDescription;
 };
 ```
 
@@ -83,7 +88,7 @@ The **MSFT\_SMPool** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -236,7 +241,7 @@ The ID of the logical instance of the object. This ID must be unique within the 
 
 This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
 
 </dd> <dt>
 
@@ -311,7 +316,7 @@ The ID of this class instance. This ID must be unique within the scope of the Wi
 
 This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
 
 </dd> <dt>
 
@@ -478,14 +483,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>20–32767</dd> <dt>
+</dt> <dd>20 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -786,14 +791,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -830,7 +835,7 @@ TBD
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -847,9 +852,9 @@ TBD
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

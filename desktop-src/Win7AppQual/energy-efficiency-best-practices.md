@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '355abd0e-928e-442e-a724-855d9dd946fc'
+Description: .
+ms.assetid: 355abd0e-928e-442e-a724-855d9dd946fc
 title: Best Practices for Energy Efficiency
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Best Practices for Energy Efficiency

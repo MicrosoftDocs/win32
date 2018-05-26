@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ID3DXTextureGutterHelper interface is used to build and manage gutter regions in a texture. Gutter regions separate textures and allow for bilinear interpolation to avoid rendering artifacts at texture boundaries.'
-ms.assetid: '097e27bf-a1a6-4e7e-bdad-33015b50f91f'
+---
+Description: The ID3DXTextureGutterHelper interface is used to build and manage gutter regions in a texture. Gutter regions separate textures and allow for bilinear interpolation to avoid rendering artifacts at texture boundaries.
+ms.assetid: 097e27bf-a1a6-4e7e-bdad-33015b50f91f
 title: ID3DXTextureGutterHelper interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureGutterHelper interface
@@ -26,7 +31,7 @@ The **ID3DXTextureGutterHelper** interface has these methods.
 |:-------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
 | [**ApplyGuttersFloat**](id3dxtexturegutterhelper--applyguttersfloat.md) | Applies gutters to a FLOAT texture buffer.<br/>                                                  |
 | [**ApplyGuttersPRT**](id3dxtexturegutterhelper--applyguttersprt.md)     | Applies gutters to an [**ID3DXPRTBuffer**](id3dxprtbuffer.md) buffer object.<br/>               |
-| [**ApplyGuttersTex**](id3dxtexturegutterhelper--applygutterstex.md)     | Applies gutters to an [**IDirect3DTexture9**](idirect3dtexture9.md) texture object.<br/>        |
+| [**ApplyGuttersTex**](id3dxtexturegutterhelper--applygutterstex.md)     | Applies gutters to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) texture object.<br/>        |
 | [**GetBaryMap**](id3dxtexturegutterhelper--getbarymap.md)               | Retrieves texel barycentric coordinates.<br/>                                                    |
 | [**GetFaceMap**](id3dxtexturegutterhelper--getfacemap.md)               | Retrieves the index of the mesh face to which each texel belongs.<br/>                           |
 | [**GetGutterMap**](id3dxtexturegutterhelper--getguttermap.md)           | Receives a texel class value that indicates texel class according to each texel's location.<br/> |

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to control audio volume when using MFPlay for audio/video playback.'
-ms.assetid: '4cf3dd0f-4c8a-4720-9eb3-d23352f3a85e'
+Description: This topic describes how to control audio volume when using MFPlay for audio/video playback.
+ms.assetid: 4cf3dd0f-4c8a-4720-9eb3-d23352f3a85e
 title: Managing the Audio Session
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing the Audio Session
@@ -16,9 +21,9 @@ MFPlay provides the following methods to control the audio volume during playbac
 
 | Method                                                            | Description                                           |
 |-------------------------------------------------------------------|-------------------------------------------------------|
-| [**IMFPMediaPlayer::SetBalance**](imfpmediaplayer-setbalance.md) | Sets the balance between the left and right channels. |
-| [**IMFPMediaPlayer::SetMute**](imfpmediaplayer-setmute.md)       | Mutes or unmutes the audio.                           |
-| [**IMFPMediaPlayer::SetVolume**](imfpmediaplayer-setvolume.md)   | Sets the volume level.                                |
+| [**IMFPMediaPlayer::SetBalance**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-setbalance?branch=master) | Sets the balance between the left and right channels. |
+| [**IMFPMediaPlayer::SetMute**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-setmute?branch=master)       | Mutes or unmutes the audio.                           |
+| [**IMFPMediaPlayer::SetVolume**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-setvolume?branch=master)   | Sets the volume level.                                |
 
 
 
@@ -38,9 +43,9 @@ The MFPlay audio methods control only the streams that belong to the current med
 
 It is important to understand some implications of this feature of MFPlay. First, an application can adjust the playback volume without affecting other audio streams. You could use this feature if MFPlay to implement audio cross-fading, by creating two instances of the MFPlay object and adjusting the volume separately.
 
-If you use MFPlay methods to change the volume or mute state, the changes do not appear in Sndvol. For example, you can call [**SetMute**](imfpmediaplayer-setmute.md) to mute the audio, but Sndvol will not show the session as muted. Conversely, if SndVol is used to adjust the session volume, the changes are not reflected in the values returned by [**IMFPMediaPlayer::GetVolume**](imfpmediaplayer-getvolume.md) or [**IMFPMediaPlayer::GetMute**](imfpmediaplayer-getmute.md).
+If you use MFPlay methods to change the volume or mute state, the changes do not appear in Sndvol. For example, you can call [**SetMute**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-setmute?branch=master) to mute the audio, but Sndvol will not show the session as muted. Conversely, if SndVol is used to adjust the session volume, the changes are not reflected in the values returned by [**IMFPMediaPlayer::GetVolume**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-getvolume?branch=master) or [**IMFPMediaPlayer::GetMute**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-getmute?branch=master).
 
-For each instance of the MFPlay player object, the effective volume level equals *fPlayerVolume* × *fSessionVolume*, where *fPlayerVolume* is the value returned by [**GetVolume**](imfpmediaplayer-getvolume.md), and *fSessionVolume* is the master volume for the session.
+For each instance of the MFPlay player object, the effective volume level equals *fPlayerVolume* × *fSessionVolume*, where *fPlayerVolume* is the value returned by [**GetVolume**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-getvolume?branch=master), and *fSessionVolume* is the master volume for the session.
 
 For simple playback scenarios, it might be preferable to use the WASAPI to control the audio volume for the entire session, rather than use the MFPlay methods.
 

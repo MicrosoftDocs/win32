@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '6e9b5825-2db7-40a5-ac33-26c3b417fac9'
-title: 'System.Contact.OtherAddress2Street'
+Description: .
+ms.assetid: 6e9b5825-2db7-40a5-ac33-26c3b417fac9
+title: System.Contact.OtherAddress2Street
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.OtherAddress2Street

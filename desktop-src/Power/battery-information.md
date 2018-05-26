@@ -1,7 +1,12 @@
 ---
-Description: 'Batteries can provide power for portable computers and computers running on an uninterruptible power supply (UPS).'
-ms.assetid: '3580b37d-611c-46b4-9300-4943833d6852'
+Description: Batteries can provide power for portable computers and computers running on an uninterruptible power supply (UPS).
+ms.assetid: 3580b37d-611c-46b4-9300-4943833d6852
 title: Battery Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Battery Information
@@ -10,7 +15,7 @@ Batteries can provide power for portable computers and computers running on an u
 
 Note that this overview assumes you are familiar with [device management](https://msdn.microsoft.com/library/windows/desktop/aa363224).
 
-To obtain information about the battery status, use the [**GetSystemPowerStatus**](getsystempowerstatus.md) function, which returns general information about all power sources in the system. You should use **GetSystemPowerStatus** whenever possible.
+To obtain information about the battery status, use the [**GetSystemPowerStatus**](/windows/win32/Winbase/nf-winbase-getsystempowerstatus?branch=master) function, which returns general information about all power sources in the system. You should use **GetSystemPowerStatus** whenever possible.
 
 In some cases, however, detailed information about each individual battery is necessary. For this purpose, each battery device exposes an IOCTL interface. The following IOCTL operations are performed using the [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216) function:
 

@@ -1,8 +1,11 @@
 ---
 title: Filters.Add method
 description: Appends or inserts a new Filter of the specified FilterID into a Filters collection.
-ms.assetid: '506a555c-cdc1-4852-a398-f3cdc77e3214'
-keywords: ["Add method WIA Automation", "Add method WIA Automation , Filters object", "Filters object WIA Automation , Add method"]
+ms.assetid: 506a555c-cdc1-4852-a398-f3cdc77e3214
+keywords:
+- Add method WIA Automation
+- Add method WIA Automation , Filters object
+- Filters object WIA Automation , Add method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filters.Add method
@@ -57,7 +65,7 @@ Type: **LONG**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -77,8 +85,8 @@ For example code, see [Display all the Properties for the Selected Device](-wiaa
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -100,9 +108,9 @@ For example code, see [Display all the Properties for the Selected Device](-wiaa
 [**Filters**](-wiaaut-filters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

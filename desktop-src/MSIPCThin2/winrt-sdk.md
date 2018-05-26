@@ -4,11 +4,18 @@ description: Windows Store applications can use the Rights Management SDK 4.2 t
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '2720aa0e-0d37-469f-be99-678bf95a9c51'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 2720aa0e-0d37-469f-be99-678bf95a9c51
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["WinRT", "RMS", "rights", "Microsoft Information Protection Client thin"]
+keywords:
+- WinRT
+- RMS
+- rights
+- Microsoft Information Protection Client thin
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Store setup

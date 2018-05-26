@@ -4,17 +4,21 @@ description: Indicates what condition is used to indicate a group set is ready.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'D18E2572-F23A-4EE9-8727-23092B9BE92C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: D18E2572-F23A-4EE9-8727-23092B9BE92C
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ReadySetting Failover Cluster"]
+keywords:
+- ReadySetting Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ReadySetting
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ReadySetting
@@ -27,14 +31,14 @@ Indicates what condition is used to indicate a group set is ready.
 |----------------------|-----------------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                            |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>              |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/>            |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/>            |
 | Minimum<br/>   | **GROUPSET\_READY\_SETTING\_DELAY** (1)<br/>              |
 | Maximum<br/>   | **GROUPSET\_READY\_SETTING\_APPLICATION\_READY** (4)<br/> |
 | Default<br/>   | **GROUPSET\_READY\_SETTING\_ONLINE** (2)<br/>             |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,7 +58,7 @@ The possible values for this property are:
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -65,9 +69,9 @@ The possible values for this property are:
 [Collection Common Properties](collection-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

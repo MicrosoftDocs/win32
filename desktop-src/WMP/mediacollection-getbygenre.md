@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.getByGenre method
 description: The getByGenre method retrieves a playlist of the media items with the specified genre.
-ms.assetid: '292189a5-06ec-4870-b279-5190c57c77c9'
-keywords: ["getByGenre method Windows Media Player", "getByGenre method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , getByGenre method"]
+ms.assetid: 292189a5-06ec-4870-b279-5190c57c77c9
+keywords:
+- getByGenre method Windows Media Player
+- getByGenre method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , getByGenre method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.getByGenre method
@@ -105,9 +113,9 @@ onClick = "
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

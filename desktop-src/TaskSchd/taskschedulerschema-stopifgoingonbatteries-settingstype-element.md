@@ -1,14 +1,20 @@
 ---
 title: StopIfGoingOnBatteries (settingsType) Element
 description: Specifies that the task will be stopped if the computer is going onto batteries.
-ms.assetid: '0d772dbb-a552-45ed-9dc0-7159f6ef12ed'
-keywords: ["StopIfGoingOnBatteries element Task Scheduler"]
+ms.assetid: 0d772dbb-a552-45ed-9dc0-7159f6ef12ed
+keywords:
+- StopIfGoingOnBatteries element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - StopIfGoingOnBatteries
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StopIfGoingOnBatteries (settingsType) Element
@@ -41,7 +47,7 @@ The default setting for this element is False. Note that the default value has c
 
 For scripting development, this setting is specified using the [**TaskSettings.StopIfGoingOnBatteries**](tasksettings-stopifgoingonbatteries.md) property.
 
-For C++ development, this setting is specified using the [**ITaskSettings::StopIfGoingOnBatteries**](itasksettings-stopifgoingonbatteries.md) property.
+For C++ development, this setting is specified using the [**ITaskSettings::StopIfGoingOnBatteries**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_stopifgoingonbatteries?branch=master) property.
 
 ## Examples
 
@@ -62,8 +68,8 @@ The following XML defines a settings element that allows a hard termination of t
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -74,9 +80,9 @@ The following XML defines a settings element that allows a hard termination of t
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

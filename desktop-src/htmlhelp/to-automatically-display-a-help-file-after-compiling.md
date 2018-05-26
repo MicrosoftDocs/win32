@@ -1,7 +1,12 @@
 ---
 title: To automatically display a help file after compiling
 description: To automatically display a help file after compiling
-ms.assetid: '27F7A3F4-9099-4546-A70D-FB779DC58BA4'
+ms.assetid: 27F7A3F4-9099-4546-A70D-FB779DC58BA4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To automatically display a help file after compiling

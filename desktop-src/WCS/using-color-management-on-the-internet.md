@@ -1,8 +1,18 @@
 ---
 title: Using Color Management on the Internet
 description: Color images and graphics are an increasingly important way of communicating information for users of the Internet.
-ms.assetid: 'd4d922ec-0883-451a-98c1-94aae860ec6b'
-keywords: ["Windows Color System (WCS),Internet issues", "WCS (Windows Color System),Internet issues", "image color management,Internet issues", "color management,Internet issues", "colors,Internet issues"]
+ms.assetid: d4d922ec-0883-451a-98c1-94aae860ec6b
+keywords:
+- Windows Color System (WCS),Internet issues
+- WCS (Windows Color System),Internet issues
+- image color management,Internet issues
+- color management,Internet issues
+- colors,Internet issues
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Color Management on the Internet

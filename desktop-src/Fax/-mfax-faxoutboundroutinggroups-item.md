@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item property returns a FaxOutboundRoutingGroup object from the FaxOutboundRoutingGroups collection.'
-ms.assetid: '7e62c037-1fe9-4186-a0aa-d4147b024af7'
-title: 'FaxOutboundRoutingGroups.Item property'
+---
+Description: The Item property returns a FaxOutboundRoutingGroup object from the FaxOutboundRoutingGroups collection.
+ms.assetid: 7e62c037-1fe9-4186-a0aa-d4147b024af7
+title: FaxOutboundRoutingGroups.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingGroups.Item property
@@ -52,7 +57,7 @@ To return the group consisting of all of the devices, set *vIndex* equal to the 
 [**FaxOutboundRoutingGroups**](-mfax-faxoutboundroutinggroups.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingGroups**](-mfax-faxoutboundroutinggroups-cpp.md)
+[**IFaxOutboundRoutingGroups**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutinggroups?branch=master)
 </dt> </dl>
 
  

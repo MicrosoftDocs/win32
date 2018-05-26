@@ -1,7 +1,12 @@
 ---
-Description: 'Defines constant string values that are used to increase recognition accuracy by providing contextual information to the recognizer.'
-ms.assetid: '247a1f7d-8205-4e4d-9cfc-daad9bd2191f'
+Description: Defines constant string values that are used to increase recognition accuracy by providing contextual information to the recognizer.
+ms.assetid: 247a1f7d-8205-4e4d-9cfc-daad9bd2191f
 title: Factoid Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Factoid Constants
@@ -36,7 +41,7 @@ Defines constant string values that are used to increase recognition accuracy by
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="___________FACTOID_WORDLIST_________"></span><span id="___________factoid_wordlist_________"></span><dl> <dt> <strong>FACTOID_WORDLIST</strong> </dt> </dl></td>
-<td style="text-align: left;">Indicates to a recognizer to use a programmatically-defined list of words. The list of words is defined by the [<strong>WordList</strong>](inkrecognizercontext-wordlist.md) property of a [<strong>InkRecognizerContext</strong>](inkrecognizercontext-class.md) object. <br/>
+<td style="text-align: left;">Indicates to a recognizer to use a programmatically-defined list of words. The list of words is defined by the [<strong>WordList</strong>](/windows/win32/msinkaut/?branch=master) property of a [<strong>InkRecognizerContext</strong>](/windows/win32/msinkaut/?branch=master) object. <br/>
 <blockquote>
 [!Note]<br />
 If a string is added to a word list, its capitalized versions are also implicitly added. For instance, adding &quot;hello&quot; implicitly adds &quot;Hello&quot; and &quot;HELLO&quot;.
@@ -93,7 +98,7 @@ This factoid is not supported in this version of the Tablet PC SDK.
 <tr class="odd">
 <td style="text-align: left;"><span id="___________FACTOID_CURRENCY_________"></span><span id="___________factoid_currency_________"></span><dl> <dt> <strong>FACTOID_CURRENCY</strong> </dt> </dl></td>
 <td style="text-align: left;">Indicates to a recognizer to look for characters that denote a currency value.<br/>
-<pre class="syntax" data-space="preserve"><code>$45.95, €60, £50.25, ¥3000</code></pre></td>
+<pre class="syntax" data-space="preserve"><code>$45.95,  60,  50.25,  3000</code></pre></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="___________FACTOID_POSTALCODE_________"></span><span id="___________factoid_postalcode_________"></span><dl> <dt> <strong>FACTOID_POSTALCODE</strong> </dt> </dl></td>
@@ -217,16 +222,16 @@ In C++, you can access these constants in the Msinkaut.h header file, which is l
 > [!Note]  
 > These constants are WCHARs, not BSTRs. They must be converted into BSTRs before use as parameters to object methods. For more information about the BSTR data type, see [Using the COM Library](using-the-com-library.md).
 
- 
+ 
 
 > [!Note]  
 > For recognizers of Latin script, the factoids defined in this class are provided for backward compatibility only. For new development, you are encouraged to use the values defined in the [SetInputScope](https://msdn.microsoft.com/library/windows/desktop/ms629025) function. For details, see [Using Context to Improve Accuracy](using-context-to-improve-accuracy.md).
 
- 
+ 
 
 Use these identifiers to specify which factoid should be used during recognition.
 
-The following combinations of factoids are supported for western languages only. These do not have separate definitions, but are acceptable string literal inputs to the [**Factoid**](inkrecognizercontext-factoid.md) property of objects that use factoids. These factoid string constants allow the input to match any of the factoids in the expression.
+The following combinations of factoids are supported for western languages only. These do not have separate definitions, but are acceptable string literal inputs to the [**Factoid**](/windows/win32/msinkaut/?branch=master) property of objects that use factoids. These factoid string constants allow the input to match any of the factoids in the expression.
 
 
 
@@ -238,18 +243,18 @@ The following combinations of factoids are supported for western languages only.
 
 
 
- 
+ 
 
 If you are using the [InkEdit](inkedit-control-reference.md) control, the factoid can be set as a property of the control.
 
-If you are using the Tablet PC Platform APIs, you can set the [**Factoid**](inkrecognizercontext-factoid.md) property on an [**InkRecognizerContext**](inkrecognizercontext-class.md) object.
+If you are using the Tablet PC Platform APIs, you can set the [**Factoid**](/windows/win32/msinkaut/?branch=master) property on an [**InkRecognizerContext**](/windows/win32/msinkaut/?branch=master) object.
 
 Alternatively, you can set this property with the actual factoid string constant.
 
 > [!Note]  
 > Factoid string constants are case sensitive. For more information about factoids and how to use them, see Using Context to [Improve Accuracy](using-context-to-improve-accuracy.md). To determine whether a factoid is available in a specific language, see [Supported Factoids from Version 1](supported-factoids-from-version-1.md).
 
- 
+ 
 
 ## Requirements
 
@@ -257,7 +262,7 @@ Alternatively, you can set this property with the actual factoid string constant
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 
@@ -267,13 +272,13 @@ Alternatively, you can set this property with the actual factoid string constant
 
 <dl> <dt>
 
-[**Factoid Property \[InkRecognizeContext Class\]**](inkrecognizercontext-factoid.md)
+[**Factoid Property \[InkRecognizeContext Class\]**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
-[**Factoid Property \[PenInputPanel Class\]**](peninputpanel-factoid.md)
+[**Factoid Property \[PenInputPanel Class\]**](/windows/win32/peninputpanel/?branch=master)
 </dt> <dt>
 
-[**Factoid Property \[InkEdit Control\]**](inkedit-factoid.md)
+[**Factoid Property \[InkEdit Control\]**](/windows/win32/inked/?branch=master)
 </dt> <dt>
 
 [Using Context to Improve Accuracy](using-context-to-improve-accuracy.md)
@@ -282,9 +287,9 @@ Alternatively, you can set this property with the actual factoid string constant
 [Supported Factoids from Version 1](supported-factoids-from-version-1.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

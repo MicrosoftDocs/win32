@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_LogicalShareAccess association WMI class relates the security settings of a share and one member of its discretionary access control list (DACL).'
+Description: The Win32\_LogicalShareAccess association WMI class relates the security settings of a share and one member of its discretionary access control list (DACL).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fb4bd8fc-3ea4-40cf-a61c-0fbec62b040b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fb4bd8fc-3ea4-40cf-a61c-0fbec62b040b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LogicalShareAccess class'
+title: Win32\_LogicalShareAccess class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LogicalShareAccess class
@@ -22,13 +25,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("SECRCW32"), UUID("{8502C593-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_LogicalShareAccess : Win32_SecuritySettingAccess
 {
-  uint32                                AccessMask;
-  string                                GuidInheritedObjectType;
-  string                                GuidObjectType;
-  uint32                                Inheritance;
-  uint32                                Type;
+  uint32                                AccessMask;
+  string                                GuidInheritedObjectType;
+  string                                GuidObjectType;
+  uint32                                Inheritance;
+  uint32                                Type;
   Win32_LogicalShareSecuritySetting REF SecuritySetting;
-  Win32_SID                         REF Trustee;
+  Win32_SID                         REF Trustee;
 };
 ```
 
@@ -116,7 +119,7 @@ Grants the right to write extended attributes.
 
 <span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>
 
-<span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>**FILE\_EXECUTE (file) FILE\_TRAVERSE (directory)** (32 (0x20))
+<span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>**FILE\_EXECUTE (file) FILE\_TRAVERSE (directory)** (32 (0x20))
 
 
 </dt> <dd>
@@ -333,8 +336,8 @@ The **Win32\_LogicalShareAccess** class is derived from [**Win32\_SecuritySettin
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -351,9 +354,9 @@ The **Win32\_LogicalShareAccess** class is derived from [**Win32\_SecuritySettin
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

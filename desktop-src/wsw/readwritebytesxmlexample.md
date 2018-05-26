@@ -1,8 +1,16 @@
 ---
 title: ReadWriteBytesXmlExample
 description: This example writes binary data using the MTOM encoding and reads it back out.
-ms.assetid: '6b80846e-6959-4c38-bf1b-17827ecb9d1a'
-keywords: ["ReadWriteBytesXmlExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 6b80846e-6959-4c38-bf1b-17827ecb9d1a
+keywords:
+- ReadWriteBytesXmlExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadWriteBytesXmlExample

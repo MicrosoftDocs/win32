@@ -1,7 +1,12 @@
 ---
 title: IVMDHCPVirtualNetworkServer Properties
 description: The IVMDHCPVirtualNetworkServer interface defines the following properties
-ms.assetid: '526c4710-2466-432b-8127-ac36d8c68600'
+ms.assetid: 526c4710-2466-432b-8127-ac36d8c68600
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDHCPVirtualNetworkServer Properties

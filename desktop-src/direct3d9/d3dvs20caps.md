@@ -1,12 +1,17 @@
 ---
-Description: 'Vertex shader caps constants. These constants are used by the VS20Caps member of D3DCAPS9.'
-ms.assetid: 'c1321957-4ba5-45d0-984a-4f4267221c59'
+Description: Vertex shader caps constants. These constants are used by the VS20Caps member of D3DCAPS9.
+ms.assetid: c1321957-4ba5-45d0-984a-4f4267221c59
 title: D3DVS20CAPS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DVS20CAPS
 
-Vertex shader caps constants. These constants are used by the VS20Caps member of [**D3DCAPS9**](d3dcaps9.md).
+Vertex shader caps constants. These constants are used by the VS20Caps member of [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 
 
@@ -44,7 +49,7 @@ Vertex shader caps constants. These constants are used by the VS20Caps member of
 [Direct3D Constants](dx9-graphics-reference-d3d-constants.md)
 </dt> <dt>
 
-[**D3DVSHADERCAPS2\_0**](d3dvshadercaps2-0.md)
+[**D3DVSHADERCAPS2\_0**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dvshadercaps2_0?branch=master)
 </dt> </dl>
 
  

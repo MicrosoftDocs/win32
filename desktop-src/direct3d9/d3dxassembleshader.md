@@ -1,7 +1,12 @@
-﻿---
-Description: 'Assemble a shader.'
-ms.assetid: '24c3dcae-9397-4856-b072-0ae340157bf9'
+---
+Description: Assemble a shader.
+ms.assetid: 24c3dcae-9397-4856-b072-0ae340157bf9
 title: D3DXAssembleShader function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXAssembleShader function

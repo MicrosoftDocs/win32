@@ -1,13 +1,16 @@
 ---
-Description: 'WMI has objects and methods that allow you to read and manipulate security descriptors to determine who has access to securable objects.'
+Description: WMI has objects and methods that allow you to read and manipulate security descriptors to determine who has access to securable objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ce4b7c9e-2c16-40d4-8839-76e69ddb2d8c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ce4b7c9e-2c16-40d4-8839-76e69ddb2d8c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Security Descriptor Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Security Descriptor Objects
@@ -26,7 +29,7 @@ WMI has objects and methods that allow you to read and manipulate security descr
 
 Security descriptors define the security attributes of securable objects such as files, registry keys, WMI namespaces, printers, services, or shares. A security descriptor contains information about the owner and primary group of an object. A provider can compare the resource security descriptor to the identity of a requesting user, and determine whether or not the user has the right to access the resource that a user is requesting. For more information, see [Access to WMI Securable Objects](access-to-wmi-securable-objects.md).
 
-Some WMI methods, such as [**GetSD**](--systemsecurity-getsd.md), return a security descriptor in the binary byte array format. Starting with Windows Vista, use the methods of the [**Win32\_SecurityDescriptorHelper**](https://msdn.microsoft.com/library/aa394403) class to convert a binary security descriptor to an instance of [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402), which can be manipulated more easily. For more information, see [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
+Some WMI methods, such as [**GetSD**](--systemsecurity-getsd.md), return a security descriptor in the binary byte array format. Starting with Windows Vista, use the methods of the [**Win32\_SecurityDescriptorHelper**](https://msdn.microsoft.com/library/aa394403) class to convert a binary security descriptor to an instance of [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402), which can be manipulated more easily. For more information, see [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
 
 ## Access Control and WMI Security Objects
 
@@ -59,7 +62,7 @@ The following table lists the [**Win32\_SecurityDescriptor**](https://msdn.micro
 
 
 
- 
+ 
 
 ## DACL and SACL
 
@@ -70,7 +73,7 @@ When a DACL property does not contain an access control entry (ACE), access righ
 > [!Note]  
 > A **NULL** DACL gives full access to everyone, which is a serious security risk. For more information, see [Creating a DACL](https://msdn.microsoft.com/library/windows/desktop/ms717798).
 
- 
+ 
 
 ## Win32\_ACE, Win32\_Trustee, Win32\_SID
 
@@ -79,7 +82,7 @@ A [**Win32\_ACE**](https://msdn.microsoft.com/library/aa394063) object contains 
 > [!Note]  
 > The [**Win32\_ACE**](https://msdn.microsoft.com/library/aa394063) order in a DACL is important because both allow and deny access control entry (ACE) are permitted in a DACL. For more information, see [Order of ACEs in a DACL](https://msdn.microsoft.com/library/windows/desktop/aa379298).
 
- 
+ 
 
 Each user account or group represented by a [**Win32\_Trustee**](https://msdn.microsoft.com/library/aa394501) has a security identifier (SID) that uniquely identifies an account, and specifies the access privileges of the account. How you specify the SID data depends on the operating system. For more information, see [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
 
@@ -156,9 +159,9 @@ Next
 [Access to WMI Namespaces](access-to-wmi-namespaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following subtypes are defined for use with the Video Mixing Renderer (VMR) filter.'
-ms.assetid: '74dec302-5ef7-41db-abe9-c3e9cbed17de'
+---
+Description: The following subtypes are defined for use with the Video Mixing Renderer (VMR) filter.
+ms.assetid: 74dec302-5ef7-41db-abe9-c3e9cbed17de
 title: Video Mixing Renderer Video Subtypes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Mixing Renderer Video Subtypes

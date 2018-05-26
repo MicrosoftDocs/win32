@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'df5efbb3-6bce-4e30-b1b1-d69bf64fa87d'
-title: 'CBaseRenderer.CBaseRenderer constructor'
+Description: Constructor method.
+ms.assetid: df5efbb3-6bce-4e30-b1b1-d69bf64fa87d
+title: CBaseRenderer.CBaseRenderer constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.CBaseRenderer constructor
@@ -13,11 +18,11 @@ Constructor method.
 
 ```C++
 CBaseRenderer(
-   REFCLSID  RenderClass,
-   TCHAR     *pName,
-   LPUNKNOWN pUnk,
-   HRESULT   *phr,
-   UINT      TimerResolution = 1
+   REFCLSID  RenderClass,
+   TCHAR     *pName,
+   LPUNKNOWN pUnk,
+   HRESULT   *phr,
+   UINT      TimerResolution = 1
 );
 ```
 
@@ -80,9 +85,9 @@ Timer resolution.
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

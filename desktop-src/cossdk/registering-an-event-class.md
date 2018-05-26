@@ -1,7 +1,12 @@
 ---
-Description: 'So that subscribers can find an event class and subscribe to it, event classes must be registered in the COM+ catalog.'
-ms.assetid: 'b9d59b9d-52ba-4c71-9226-9cb5b93ec3d4'
+Description: So that subscribers can find an event class and subscribe to it, event classes must be registered in the COM+ catalog.
+ms.assetid: b9d59b9d-52ba-4c71-9226-9cb5b93ec3d4
 title: Registering an Event Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering an Event Class
@@ -24,7 +29,7 @@ You can use the Component Services administrative tool or the COM+ Administrativ
 
 6.  Click **OK**.
 
-The event class is registered in the COM+ catalog and can be located by subscribers interested in obtaining the information provided by the event class. For information about how to register the event class by using the COM+ administrative interfaces, see [**ICOMAdminCatalog::InstallEventClass**](icomadmincatalog-installeventclass.md).
+The event class is registered in the COM+ catalog and can be located by subscribers interested in obtaining the information provided by the event class. For information about how to register the event class by using the COM+ administrative interfaces, see [**ICOMAdminCatalog::InstallEventClass**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog-installeventclass?branch=master).
 
 ## Related topics
 

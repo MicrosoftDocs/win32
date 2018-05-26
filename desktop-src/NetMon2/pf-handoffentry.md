@@ -1,7 +1,12 @@
 ---
-Description: 'The PF\_HANDOFFENTRY structure defines a protocol that Network Monitor adds to the handoff set of a parser.'
-ms.assetid: 'c26bee6e-7dbf-4994-a0a7-a280cf4838be'
-title: 'PF\_HANDOFFENTRY structure'
+Description: The PF\_HANDOFFENTRY structure defines a protocol that Network Monitor adds to the handoff set of a parser.
+ms.assetid: c26bee6e-7dbf-4994-a0a7-a280cf4838be
+title: PF\_HANDOFFENTRY structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PF\_HANDOFFENTRY structure
@@ -13,10 +18,10 @@ The **PF\_HANDOFFENTRY** structure defines a protocol that Network Monitor adds 
 
 ```C++
 typedef struct _PF_HANDOFFENTRY {
-  char                      szIniFile[MAX_PATH];
-  char                      szIniSection[MAX_PATH];
-  char                      szProtocol[MAX_PROTOCOL_NAME_LEN];
-  DWORD                     dwHandOffValue;
+  char                      szIniFile[MAX_PATH];
+  char                      szIniSection[MAX_PATH];
+  char                      szProtocol[MAX_PROTOCOL_NAME_LEN];
+  DWORD                     dwHandOffValue;
   PF_HANDOFFVALUEFORMATBASE ValueFormatBase;
 } PF_HANDOFFENTRY, *PPF_HANDOFFENTRY;
 ```
@@ -70,7 +75,7 @@ Numeric base of the protocol value that is specified in **dwHandOffValue**. The 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -84,8 +89,8 @@ An array of the **PF\_HANDOFFENTRY** structures is used in the [PF\_HANDOFFSET](
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -97,9 +102,9 @@ An array of the **PF\_HANDOFFENTRY** structures is used in the [PF\_HANDOFFSET](
 [PF\_HANDOFFSET](pf-handoffset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

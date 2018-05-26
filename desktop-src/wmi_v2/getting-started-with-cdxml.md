@@ -4,10 +4,13 @@ description: This section includes topics to get you started understanding and u
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '917ADD05-9E68-4B09-8C96-52AC6F1A77F7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 917ADD05-9E68-4B09-8C96-52AC6F1A77F7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting started with CDXML

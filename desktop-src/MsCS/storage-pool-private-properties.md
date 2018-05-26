@@ -4,10 +4,13 @@ description: Storage Pool resources have the following private properties
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'E509AC14-02D1-4C70-A0EC-CEF62677AD81'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: E509AC14-02D1-4C70-A0EC-CEF62677AD81
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Storage Pool Private Properties

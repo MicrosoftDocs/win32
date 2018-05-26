@@ -3,12 +3,16 @@ title: FSRM Reference
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ee54a336-95b6-44c7-b0ea-358ef9db1e85'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: ee54a336-95b6-44c7-b0ea-358ef9db1e85
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
 description: 
-keywords: ["File Server Resource Manager File Server Resource Manager , reference"]
+keywords:
+- File Server Resource Manager File Server Resource Manager , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FSRM Reference

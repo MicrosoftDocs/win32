@@ -4,13 +4,16 @@ description: Deletes a virtual system snapshot. As a side effect, if other snaps
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '56880346-46fa-4adc-8324-13403585d6a8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 56880346-46fa-4adc-8324-13403585d6a8
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DestroySnapshot method", "DestroySnapshot method, CIM_VirtualSystemSnapshotService class", "CIM_VirtualSystemSnapshotService class, DestroySnapshot method"]
+keywords:
+- DestroySnapshot method
+- DestroySnapshot method, CIM_VirtualSystemSnapshotService class
+- CIM_VirtualSystemSnapshotService class, DestroySnapshot method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DestroySnapshot method of the CIM\_VirtualSystemSnapshotService class
@@ -30,8 +36,8 @@ Deletes a virtual system snapshot. As a side effect, if other snapshots are depe
 
 ```mof
 uint32 DestroySnapshot(
-  [in]  CIM_VirtualSystemSettingData REF AffectedSnapshot,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_VirtualSystemSettingData REF AffectedSnapshot,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -82,16 +88,16 @@ The possible return values are.
 **Invalid Type** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -101,7 +107,7 @@ The possible return values are.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -115,9 +121,9 @@ The possible return values are.
 [**CIM\_VirtualSystemSnapshotService**](cim-virtualsystemsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

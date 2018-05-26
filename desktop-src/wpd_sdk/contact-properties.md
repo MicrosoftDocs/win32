@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following contact properties.'
-ms.assetid: '8571b5a3-c3ac-40f2-86e1-33a8d5d0e550'
+Description: Windows Portable Devices supports the following contact properties.
+ms.assetid: 8571b5a3-c3ac-40f2-86e1-33a8d5d0e550
 title: Contact Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Contact Properties
@@ -77,7 +82,7 @@ Windows Portable Devices supports the following contact properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -96,9 +101,9 @@ Windows Portable Devices supports the following contact properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

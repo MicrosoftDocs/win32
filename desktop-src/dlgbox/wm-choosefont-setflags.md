@@ -1,8 +1,9 @@
 ---
 title: WM\_CHOOSEFONT\_SETFLAGS message
 description: An application sends the WM\_CHOOSEFONT\_SETFLAGS message to a Font dialog box to set the display options for the dialog box.
-ms.assetid: '945ebc07-440d-4466-8255-ad344bdc568a'
-keywords: ["WM_CHOOSEFONT_SETFLAGS message Dialog Boxes"]
+ms.assetid: 945ebc07-440d-4466-8255-ad344bdc568a
+keywords:
+- WM_CHOOSEFONT_SETFLAGS message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CHOOSEFONT\_SETFLAGS message
@@ -39,7 +45,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**CHOOSEFONT**](choosefont-str.md) structure that contains new settings in the **Flags** member.
+A pointer to a [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure that contains new settings in the **Flags** member.
 
 </dd> </dl>
 
@@ -49,7 +55,7 @@ No return value.
 
 ## Remarks
 
-The [**ChooseFont**](choosefont.md) function creates a **Font** dialog box and uses a [**CHOOSEFONT**](choosefont-str.md) structure to specify the initial values for the **Flags** member. Use the **WM\_CHOOSEFONT\_SETFLAGS** message to specify different values for the **Flags** member while the **Font** dialog box is open.
+The [**ChooseFont**](choosefont.md) function creates a **Font** dialog box and uses a [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure to specify the initial values for the **Flags** member. Use the **WM\_CHOOSEFONT\_SETFLAGS** message to specify different values for the **Flags** member while the **Font** dialog box is open.
 
 Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CFHookProc**](cfhookproc.md) hook procedure.
 
@@ -59,8 +65,8 @@ Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CF
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 
 
@@ -78,7 +84,7 @@ Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CF
 [**ChooseFont**](choosefont.md)
 </dt> <dt>
 
-[**CHOOSEFONT**](choosefont-str.md)
+[**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -87,9 +93,9 @@ Typically, you should send the **WM\_CHOOSEFONT\_SETFLAGS** message from a [**CF
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

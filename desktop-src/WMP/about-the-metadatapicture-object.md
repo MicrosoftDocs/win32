@@ -1,8 +1,21 @@
 ---
 title: About the MetadataPicture Object
 description: About the MetadataPicture Object
-ms.assetid: '522f6491-e84a-4cde-98db-e55742ed50a2'
-keywords: ["Windows Media Player,MetadataPicture object", "Windows Media Player object model,MetadataPicture object", "object model,MetadataPicture object", "Windows Media Player ActiveX control,MetadataPicture object", "ActiveX control,MetadataPicture object", "Windows Media Player Mobile ActiveX control,MetadataPicture object", "Windows Media Player Mobile,MetadataPicture object", "MetadataPicture object"]
+ms.assetid: 522f6491-e84a-4cde-98db-e55742ed50a2
+keywords:
+- Windows Media Player,MetadataPicture object
+- Windows Media Player object model,MetadataPicture object
+- object model,MetadataPicture object
+- Windows Media Player ActiveX control,MetadataPicture object
+- ActiveX control,MetadataPicture object
+- Windows Media Player Mobile ActiveX control,MetadataPicture object
+- Windows Media Player Mobile,MetadataPicture object
+- MetadataPicture object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the MetadataPicture Object

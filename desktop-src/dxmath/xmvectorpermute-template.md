@@ -1,7 +1,12 @@
-﻿---
-Description: 'Permutes the components of two vectors to create a new vector.'
-ms.assetid: '14b4ff5a-464f-410d-957a-adfbf17bd25e'
+---
+Description: Permutes the components of two vectors to create a new vector.
+ms.assetid: 14b4ff5a-464f-410d-957a-adfbf17bd25e
 title: XMVectorPermute template
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMVectorPermute template

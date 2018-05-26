@@ -1,13 +1,16 @@
 ---
-Description: 'Defines a view class for a physical computer system.'
+Description: Defines a view class for a physical computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'aad87489-6b2d-41b6-845a-70c7bb735c58'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: aad87489-6b2d-41b6-845a-70c7bb735c58
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_PCSVDevice class'
+title: MSFT\_PCSVDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_PCSVDevice class
@@ -22,86 +25,86 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), dynamic, provider("MSFT_PCSVDevice"), AMENDMENT]
 class MSFT_PCSVDevice : CIM_PhysicalComputerSystemView
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
-  uint16  EnabledState;
-  uint16  RequestedState;
-  uint16  OperationalStatus[];
-  uint16  HealthState;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
+  uint16  EnabledState;
+  uint16  RequestedState;
+  uint16  OperationalStatus[];
+  uint16  HealthState;
   boolean FRUInfoSupported;
-  string  Tag;
-  string  Manufacturer;
-  string  Model;
-  string  SKU;
-  string  SerialNumber;
-  string  Version;
-  string  PartNumber;
-  uint16  PowerUtilizationModesSupported[];
-  uint16  PowerUtilizationMode;
-  uint64  PowerAllocationLimit;
-  string  NumericSensorElementName[];
-  uint16  NumericSensorEnabledState[];
-  uint16  NumericSensorHealthState[];
-  string  NumericSensorCurrentState[];
-  uint16  NumericSensorPrimaryStatus[];
-  uint16  NumericSensorBaseUnits[];
-  sint32  NumericSensorUnitModifier[];
-  uint16  NumericSensorRateUnits[];
-  sint32  NumericSensorCurrentReading[];
-  uint16  NumericSensorSensorType[];
-  string  NumericSensorOtherSensorTypeDescription[];
-  sint32  NumericSensorUpperThresholdNonCritical[];
-  sint32  NumericSensorUpperThresholdCritical[];
-  sint32  NumericSensorUpperThresholdFatal[];
-  string  LogInstanceID[];
-  uint64  LogMaxNumberOfRecords[];
-  uint64  LogCurrentNumberOfRecords[];
-  uint16  LogOverwritePolicy[];
-  uint16  LogState[];
-  string  StructuredBootString[];
-  uint8   PersistentBootConfigOrder[];
-  uint8   OneTimeBootSource;
-  uint16  NumberOfProcessors;
-  uint16  NumberOfProcessorCores;
-  uint16  NumberOfProcessorThreads;
-  uint16  ProcessorFamily;
-  uint32  ProcessorMaxClockSpeed;
-  uint64  MemoryBlockSize;
-  uint64  MemoryNumberOfBlocks;
-  uint64  MemoryConsumableBlocks;
-  uint16  CurrentBIOSMajorVersion;
-  uint16  CurrentBIOSMinorVersion;
-  uint16  CurrentBIOSRevisionNumber;
-  uint16  CurrentBIOSBuildNumber;
-  uint16  CurrentManagementFirmwareMajorVersion;
-  uint16  CurrentManagementFirmwareMinorVersion;
-  uint16  CurrentManagementFirmwareRevisionNumber;
-  uint16  CurrentManagementFirmwareBuildNumber;
-  string  CurrentManagementFirmwareElementName;
-  string  CurrentManagementFirmwareVersionString;
-  uint16  OSType;
-  string  OSVersion;
-  uint16  OSEnabledState;
-  string  CurrentBIOSVersionString;
-  uint16  Dedicated[];
-  string  IdentifyingDescriptions[];
-  string  OtherDedicatedDescriptions[];
-  string  OtherIdentifyingInfo[];
-  uint32  ProcessorCurrentClockSpeed;
-  string  NumericSensorContext[];
-  string  TargetAddress;
-  string  SMBIOSGuid;
-  uint16  IPv4AddressOrigin;
-  string  IPv4Address;
-  string  IPv4SubnetMask;
-  string  IPv4DefaultGateway;
-  string  MacAddress;
-  uint16  LogFreeSpace;
-  sint32  NumericSensorLowerThresholdNonCritical[];
-  sint32  NumericSensorLowerThresholdCritical[];
-  sint32  NumericSensorLowerThresholdFatal[];
+  string  Tag;
+  string  Manufacturer;
+  string  Model;
+  string  SKU;
+  string  SerialNumber;
+  string  Version;
+  string  PartNumber;
+  uint16  PowerUtilizationModesSupported[];
+  uint16  PowerUtilizationMode;
+  uint64  PowerAllocationLimit;
+  string  NumericSensorElementName[];
+  uint16  NumericSensorEnabledState[];
+  uint16  NumericSensorHealthState[];
+  string  NumericSensorCurrentState[];
+  uint16  NumericSensorPrimaryStatus[];
+  uint16  NumericSensorBaseUnits[];
+  sint32  NumericSensorUnitModifier[];
+  uint16  NumericSensorRateUnits[];
+  sint32  NumericSensorCurrentReading[];
+  uint16  NumericSensorSensorType[];
+  string  NumericSensorOtherSensorTypeDescription[];
+  sint32  NumericSensorUpperThresholdNonCritical[];
+  sint32  NumericSensorUpperThresholdCritical[];
+  sint32  NumericSensorUpperThresholdFatal[];
+  string  LogInstanceID[];
+  uint64  LogMaxNumberOfRecords[];
+  uint64  LogCurrentNumberOfRecords[];
+  uint16  LogOverwritePolicy[];
+  uint16  LogState[];
+  string  StructuredBootString[];
+  uint8   PersistentBootConfigOrder[];
+  uint8   OneTimeBootSource;
+  uint16  NumberOfProcessors;
+  uint16  NumberOfProcessorCores;
+  uint16  NumberOfProcessorThreads;
+  uint16  ProcessorFamily;
+  uint32  ProcessorMaxClockSpeed;
+  uint64  MemoryBlockSize;
+  uint64  MemoryNumberOfBlocks;
+  uint64  MemoryConsumableBlocks;
+  uint16  CurrentBIOSMajorVersion;
+  uint16  CurrentBIOSMinorVersion;
+  uint16  CurrentBIOSRevisionNumber;
+  uint16  CurrentBIOSBuildNumber;
+  uint16  CurrentManagementFirmwareMajorVersion;
+  uint16  CurrentManagementFirmwareMinorVersion;
+  uint16  CurrentManagementFirmwareRevisionNumber;
+  uint16  CurrentManagementFirmwareBuildNumber;
+  string  CurrentManagementFirmwareElementName;
+  string  CurrentManagementFirmwareVersionString;
+  uint16  OSType;
+  string  OSVersion;
+  uint16  OSEnabledState;
+  string  CurrentBIOSVersionString;
+  uint16  Dedicated[];
+  string  IdentifyingDescriptions[];
+  string  OtherDedicatedDescriptions[];
+  string  OtherIdentifyingInfo[];
+  uint32  ProcessorCurrentClockSpeed;
+  string  NumericSensorContext[];
+  string  TargetAddress;
+  string  SMBIOSGuid;
+  uint16  IPv4AddressOrigin;
+  string  IPv4Address;
+  string  IPv4SubnetMask;
+  string  IPv4DefaultGateway;
+  string  MacAddress;
+  uint16  LogFreeSpace;
+  sint32  NumericSensorLowerThresholdNonCritical[];
+  sint32  NumericSensorLowerThresholdCritical[];
+  sint32  NumericSensorLowerThresholdFatal[];
 };
 ```
 
@@ -120,19 +123,19 @@ The **MSFT\_PCSVDevice** class has these methods.
 
 | Method                                                                                     | Description                                                                                                                                                                                                                                    |
 |:-------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ChangeBootConfiguration**](msft-pcsvdevice-changebootconfiguration.md)                 | A wrapper method to set either the one time boot source or persistent boot source order.<br/> **Windows 8.1 and Windows Server 2012 R2:** This method is not supported before Windows 10 and Windows Server 2016.<br/> <br/> |
-| [**ChangeNetworkConfiguration**](msft-pcsvdevice-changenetworkconfiguration.md)           | A wrapper method used to change the network configuration of the BMC.<br/> **Windows 8.1 and Windows Server 2012 R2:** This method is not supported before Windows 10 and Windows Server 2016.<br/> <br/>                    |
-| [**ChangeUserPassword**](changeuserpassword-msft-pcsvdevice.md)                           | A wrapper method used to change the BMC user password.<br/> **Windows 8.1 and Windows Server 2012 R2:** This method is not supported before Windows 10 and Windows Server 2016.<br/> <br/>                                   |
+| [**ChangeBootConfiguration**](msft-pcsvdevice-changebootconfiguration.md)                 | A wrapper method to set either the one time boot source or persistent boot source order.<br/> **Windows 8.1 and Windows Server 2012 R2:** This method is not supported before Windows 10 and Windows Server 2016.<br/> <br/> |
+| [**ChangeNetworkConfiguration**](msft-pcsvdevice-changenetworkconfiguration.md)           | A wrapper method used to change the network configuration of the BMC.<br/> **Windows 8.1 and Windows Server 2012 R2:** This method is not supported before Windows 10 and Windows Server 2016.<br/> <br/>                    |
+| [**ChangeUserPassword**](changeuserpassword-msft-pcsvdevice.md)                           | A wrapper method used to change the BMC user password.<br/> **Windows 8.1 and Windows Server 2012 R2:** This method is not supported before Windows 10 and Windows Server 2016.<br/> <br/>                                   |
 | [**ClearLog**](clearlog-msft-pcsvdevice.md)                                               | Requests that the specified log on the physical computer system be cleared of all entries.<br/>                                                                                                                                          |
 | [**InstallSoftwareFromURI**](installsoftwarefromuri-msft-pcsvdevice.md)                   | Installs software on the physical computer system.<br/>                                                                                                                                                                                  |
 | [**ModifyPersistentBootConfigOrder**](modifypersistentbootconfigorder-msft-pcsvdevice.md) | Changes the order of boot sources for the persistent boot configuration specified by the **MSFT\_PCSVDevice**.**PersistentBootConfigOrder** property.<br/>                                                                               |
-| [**ReadLog**](readlog-msft-pcsvdevice.md)                                                 | Reads the BMC SEL log.<br/> **Windows 8.1 and Windows Server 2012 R2:** This method is not supported before Windows 10 and Windows Server 2016.<br/> <br/>                                                                   |
+| [**ReadLog**](readlog-msft-pcsvdevice.md)                                                 | Reads the BMC SEL log.<br/> **Windows 8.1 and Windows Server 2012 R2:** This method is not supported before Windows 10 and Windows Server 2016.<br/> <br/>                                                                   |
 | [**RequestStateChange**](requeststatechange-msft-pcsvdevice.md)                           | Requests that the state of the element be changed to the specified value.<br/>                                                                                                                                                           |
 | [**SetOneTimeBootSource**](setonetimebootsource-msft-pcsvdevice.md)                       | Sets the one time boot source for the next boot on this computer system.<br/>                                                                                                                                                            |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -656,14 +659,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>39–32767</dd> <dt>
+</dt> <dd>39 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -801,14 +804,14 @@ This property is inherited from [**CIM\_PhysicalComputerSystemView**](cim-physic
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -902,14 +905,14 @@ This property is inherited from [**CIM\_PhysicalComputerSystemView**](cim-physic
 **DMTF Reserved**
 
 
-</dt> <dd>31–32767</dd> <dt>
+</dt> <dd>31 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -960,7 +963,7 @@ Access type: Read-only
 
 IPv4 Address of the target PCSV device.
 
-**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -975,7 +978,7 @@ Access type: Read-only
 
 Identifies the method by which the IPv4 Address, Subnet Mask, and Gateway were assigned to the network interface card.
 
-**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
 
 The possible values are.
 
@@ -1028,7 +1031,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
@@ -1050,7 +1053,7 @@ Access type: Read-only
 
 IPv4 Default Gateway of the target PCSV device
 
-**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -1065,7 +1068,7 @@ Access type: Read-only
 
 IPv4 Subnet Mask of the target PCSV device.
 
-**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -1098,7 +1101,7 @@ Access type: Read-only
 
 SEL free space in Bytes.
 
-**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -1184,14 +1187,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>8–32767</dd> <dt>
+</dt> <dd>8 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1248,14 +1251,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1270,7 +1273,7 @@ Access type: Read-only
 
 LAN MAC Address of the target PCSV device.
 
-**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -1909,7 +1912,7 @@ The possible values are.
 **Reserved**
 
 
-</dt> <dd>67–65535</dd> </dl>
+</dt> <dd>67 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2087,14 +2090,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2172,14 +2175,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>31–32767</dd> <dt>
+</dt> <dd>31 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2302,14 +2305,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2408,7 +2411,7 @@ The possible values are.
 **Reserved**
 
 
-</dt> <dd>10–65535</dd> </dl>
+</dt> <dd>10 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2549,14 +2552,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>16–32767</dd> <dt>
+</dt> <dd>16 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2810,14 +2813,14 @@ This property is inherited from [**CIM\_PhysicalComputerSystemView**](cim-physic
 **DMTF Reserved**
 
 
-</dt> <dd>20–32767</dd> <dt>
+</dt> <dd>20 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2923,14 +2926,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -3104,14 +3107,14 @@ This property is inherited from [**CIM\_PhysicalComputerSystemView**](cim-physic
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -3152,14 +3155,14 @@ This property is inherited from [**CIM\_PhysicalComputerSystemView**](cim-physic
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -3324,14 +3327,14 @@ This property is inherited from [**CIM\_PhysicalComputerSystemView**](cim-physic
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -3382,7 +3385,7 @@ Access type: Read-only
 
 SMBios Guid of the target PCSV device.
 
-**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -3459,8 +3462,8 @@ This property is inherited from [**CIM\_PhysicalComputerSystemView**](cim-physic
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>PCSVDevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVDevice.dll</dt> </dl> |
@@ -3477,9 +3480,9 @@ This property is inherited from [**CIM\_PhysicalComputerSystemView**](cim-physic
 [Device Management Classes](device-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

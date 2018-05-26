@@ -1,8 +1,25 @@
 ---
 title: Sample Windows DVD Maker XML File
 description: Sample Windows DVD Maker XML File
-ms.assetid: '8317be27-4a50-4476-9d2b-5daa8fcec5bd'
-keywords: ["Windows DVD Maker,sample XML file", "DVD Maker,sample XML file", "programming reference,Windows DVD Maker sample XML file", "reference for Windows DVD Maker,sample XML file", "Windows DVD Maker,transitions", "DVD Maker,transitions", "transitions,sample XML file", "Windows DVD Maker,buttons", "DVD Maker,buttons", "Windows DVD Maker,menus", "DVD Maker,menus", "XML,sample Windows DVD Maker file"]
+ms.assetid: 8317be27-4a50-4476-9d2b-5daa8fcec5bd
+keywords:
+- Windows DVD Maker,sample XML file
+- DVD Maker,sample XML file
+- programming reference,Windows DVD Maker sample XML file
+- reference for Windows DVD Maker,sample XML file
+- Windows DVD Maker,transitions
+- DVD Maker,transitions
+- transitions,sample XML file
+- Windows DVD Maker,buttons
+- DVD Maker,buttons
+- Windows DVD Maker,menus
+- DVD Maker,menus
+- XML,sample Windows DVD Maker file
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Windows DVD Maker XML File

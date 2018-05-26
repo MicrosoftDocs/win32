@@ -1,8 +1,20 @@
 ---
 title: Audio Line and Control Queries
 description: Audio Line and Control Queries
-ms.assetid: 'f0954fc7-9961-410a-a638-a7025fb2616a'
-keywords: ["multimedia audio,mixer controls", "audio,mixer controls", "audio mixers,audio lines", "audio lines", "audio mixers,controls", "mixers,controls", "mixers,audio lines"]
+ms.assetid: f0954fc7-9961-410a-a638-a7025fb2616a
+keywords:
+- multimedia audio,mixer controls
+- audio,mixer controls
+- audio mixers,audio lines
+- audio lines
+- audio mixers,controls
+- mixers,controls
+- mixers,audio lines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Line and Control Queries
@@ -17,7 +29,7 @@ The [**mixerGetLineControls**](mixergetlinecontrols.md) function retrieves gener
 -   A specified control for a specified source line
 -   The first control of a specific class for a specified source line
 
-The [**mixerGetControlDetails**](mixergetcontroldetails.md) function retrieves properties of a single control associated with an audio line. This function fills the [**MIXERCONTROLDETAILS**](mixercontroldetails.md) structure with the current values for a control.
+The [**mixerGetControlDetails**](mixergetcontroldetails.md) function retrieves properties of a single control associated with an audio line. This function fills the [**MIXERCONTROLDETAILS**](/windows/win32/mmeapi/ns-mmeapi-tagmixercontroldetails_listtexta?branch=master) structure with the current values for a control.
 
 The [**mixerSetControlDetails**](mixersetcontroldetails.md) function uses the contents of the **MIXERCONTROLDETAILS** structure to set the properties of the specified control. You must ensure that all members of this structure are filled before you call **mixerSetControlDetails**.
 

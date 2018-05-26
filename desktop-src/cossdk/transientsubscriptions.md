@@ -1,14 +1,19 @@
 ---
-Description: 'Contains an object for each transient subscription. Transient subscriptions can be created on the fly for running object instances, and they vanish when the object is destroyed.'
-ms.assetid: 'beee291c-e03f-4ee0-b1f2-99dcf113c46e'
+Description: Contains an object for each transient subscription. Transient subscriptions can be created on the fly for running object instances, and they vanish when the object is destroyed.
+ms.assetid: beee291c-e03f-4ee0-b1f2-99dcf113c46e
 title: TransientSubscriptions collection
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TransientSubscriptions collection
 
 Contains an object for each transient subscription. Transient subscriptions can be created on the fly for running object instances, and they vanish when the object is destroyed.
 
-This collection supports the [**Add**](icatalogcollection-add.md) and [**Remove**](icatalogcollection-remove.md) methods of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object.
+This collection supports the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) and [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) methods of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object.
 
 ## Members
 
@@ -30,7 +35,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object within the collection:
 
 -   [Description](#description)
 -   [Enabled](#enabled)
@@ -117,7 +122,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                      |
 |----------------|----------------------------------------------------------------------------------------------------------------------|
-| Description    | A string that indicates the filter criteria. Can be a CLSID for a [**PublisherFilter**](ipublisherfilter.md) class. |
+| Description    | A string that indicates the filter criteria. Can be a CLSID for a [**PublisherFilter**](/windows/win32/EventSys/nn-eventsys-ipublisherfilter?branch=master) class. |
 | Access         | ReadWrite                                                                                                            |
 | Type           | String                                                                                                               |
 | Default        | N/A                                                                                                                  |
@@ -133,7 +138,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                  |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | Identifier for the subscription. This property is returned when the [**Key**](icatalogobject-key.md) property method is called on an object of this collection. |
+| Description    | Identifier for the subscription. This property is returned when the [**Key**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_key?branch=master) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                        |
 | Type           | String                                                                                                                                                           |
 | Default        | &lt;Generated&gt;                                                                                                                                                |
@@ -181,7 +186,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                                                                                        |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | The name for the subscription. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Name**](icatalogobject-name.md) property method is called on an object of this collection. |
+| Description    | The name for the subscription. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Name**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_name?branch=master) property method is called on an object of this collection. |
 | Access         | ReadWrite                                                                                                                                                                                                                              |
 | Type           | String                                                                                                                                                                                                                                 |
 | Default        | "New Subscription"                                                                                                                                                                                                                     |

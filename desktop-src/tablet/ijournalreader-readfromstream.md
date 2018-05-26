@@ -1,7 +1,12 @@
 ---
-Description: 'Takes a stream to a Journal Note file and returns an XML stream representing the contents of the document.'
-ms.assetid: '5a169dfe-b102-4aef-9efe-5db2cd2fb96f'
-title: 'IJournalReader::ReadFromStream method'
+Description: Takes a stream to a Journal Note file and returns an XML stream representing the contents of the document.
+ms.assetid: 5a169dfe-b102-4aef-9efe-5db2cd2fb96f
+title: IJournalReaderReadFromStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IJournalReader::ReadFromStream method
@@ -11,15 +16,15 @@ Takes a stream to a Journal Note file and returns an XML stream representing the
 > [!Note]  
 > The Journal Reader component cannot read Windows Journal files created by machines running Windows 7 or later. The IJournalReader interface should be considered deprecated or obsolete and should not be used.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 HRESULT ReadFromStream(
-  [in]          IStream *pJournalFileStream,
-  [out, retval] IStream **ppXmlStream
+  [in]          IStream *pJournalFileStream,
+  [out, retval] IStream **ppXmlStream
 );
 ```
 
@@ -138,7 +143,7 @@ void CJntlReaderMFCDlg::OnBnClickedButton1()
 
 |                                     |                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                                         |
 | Header<br/>                   | <dl> <dt>Journal.h (also requires journal\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Journal.dll</dt> </dl>                            |
@@ -155,9 +160,9 @@ void CJntlReaderMFCDlg::OnBnClickedButton1()
 [Journal Reader Schema Reference](journal-reader-schema-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

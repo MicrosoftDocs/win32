@@ -1,14 +1,20 @@
 ---
 title: WM/Conductor Attribute
 description: The WM/Conductor attribute is the name of the conductor of the music.
-ms.assetid: '31c7d310-da6a-4c30-86b0-15defaee1743'
-keywords: ["WM/Conductor Attribute Windows Media Player"]
+ms.assetid: 31c7d310-da6a-4c30-86b0-15defaee1743
+keywords:
+- WM/Conductor Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/Conductor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Conductor Attribute
@@ -53,9 +59,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Media.getItemInfoByType**](media-getiteminfobytype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

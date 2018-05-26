@@ -1,7 +1,12 @@
 ---
 title: C/C++ Code Example Retrieving Trigger Strings
 description: This example retrieves a trigger string for all the triggers associated with a known task.
-ms.assetid: 'cd605c68-efaa-4ce7-9e44-59f516d85627'
+ms.assetid: cd605c68-efaa-4ce7-9e44-59f516d85627
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving Trigger Strings

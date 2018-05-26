@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes how to write a custom Media Foundation Transform (MFT).'
-ms.assetid: 'a95828d3-afc5-4f6b-aedd-5b6a72621e0e'
+---
+Description: This section describes how to write a custom Media Foundation Transform (MFT).
+ms.assetid: a95828d3-afc5-4f6b-aedd-5b6a72621e0e
 title: Writing a Custom MFT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing a Custom MFT
@@ -22,7 +27,7 @@ When you implement a custom MFT, use the following checklist to determine the re
 <tbody>
 <tr class="odd">
 <td>All MFTs</td>
-<td>All MFTs must implement [<strong>IMFTransform</strong>](imftransform.md).<br/> The following topics give more information about implementing this interface:
+<td>All MFTs must implement [<strong>IMFTransform</strong>](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master).<br/> The following topics give more information about implementing this interface:
 <ul>
 <li>[Basic MFT Processing Model](basic-mft-processing-model.md)</li>
 <li>[Time Stamps and Durations](time-stamps-and-durations.md)</li>
@@ -32,7 +37,7 @@ When you implement a custom MFT, use the following checklist to determine the re
 </tr>
 <tr class="even">
 <td>Encoders and decoders</td>
-<td>Requirements: See [Implementing a Codec MFT](implementing-a-codec-mft.md).<br/> Recommended: Implement [<strong>IMFQualityAdvise</strong>](imfqualityadvise.md) or [<strong>IMFQualityAdvise2</strong>](imfqualityadvise2.md), to support quality-of-service (QoS) notifications.<br/></td>
+<td>Requirements: See [Implementing a Codec MFT](implementing-a-codec-mft.md).<br/> Recommended: Implement [<strong>IMFQualityAdvise</strong>](/windows/win32/mfidl/nn-mfidl-imfqualityadvise?branch=master) or [<strong>IMFQualityAdvise2</strong>](/windows/win32/mfidl/nn-mfidl-imfqualityadvise2?branch=master), to support quality-of-service (QoS) notifications.<br/></td>
 </tr>
 <tr class="odd">
 <td>Video decoders and video processors</td>
@@ -60,7 +65,7 @@ When you implement a custom MFT, use the following checklist to determine the re
 </tr>
 <tr class="even">
 <td>If your MFT creates threads...</td>
-<td>Implement the [<strong>IMFRealTimeClient</strong>](imfrealtimeclient.md) interface.</td>
+<td>Implement the [<strong>IMFRealTimeClient</strong>](/windows/win32/mfidl/nn-mfidl-imfrealtimeclient?branch=master) interface.</td>
 </tr>
 <tr class="odd">
 <td>If your MFT has licensing restrictions...</td>

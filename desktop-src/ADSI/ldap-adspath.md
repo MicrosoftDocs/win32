@@ -4,11 +4,16 @@ description: This topic shows the syntax that you should use for the LDAP ADsPat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'adacf6af-8683-4c3c-91bf-9489f2d5d817'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: adacf6af-8683-4c3c-91bf-9489f2d5d817
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["LDAP ADsPath", "ADsPath, LDAP, description"]
+keywords:
+- LDAP ADsPath
+- ADsPath, LDAP, description
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP ADsPath
@@ -53,7 +58,7 @@ If Kerberos authentication is required for the successful completion of a specif
 
 For more information and examples of LDAP binding strings, as well as a description of special characters that can be used in LDAP binding strings, see LDAP ADsPath.
 
-**Windows 2000 with SP1 and later:** With the LDAP provider, if a binding string includes a server name, you can increase performance by using the **ADS\_SERVER\_BIND** flag with the [**ADsOpenObject**](adsopenobject.md) function or the [**IADsOpenDSObject::OpenDSObject**](iadsopendsobject-opendsobject.md) method. The **ADS\_SERVER\_BIND** flag indicates that a server name was specified, which enables ADSI to avoid additional, unnecessary network traffic.
+**Windows 2000 with SP1 and later:** With the LDAP provider, if a binding string includes a server name, you can increase performance by using the **ADS\_SERVER\_BIND** flag with the [**ADsOpenObject**](/windows/win32/Adshlp/nf-adshlp-adsopenobject?branch=master) function or the [**IADsOpenDSObject::OpenDSObject**](/windows/win32/Iads/nf-iads-iadsopendsobject-opendsobject?branch=master) method. The **ADS\_SERVER\_BIND** flag indicates that a server name was specified, which enables ADSI to avoid additional, unnecessary network traffic.
 
 ## LDAP Special Characters
 

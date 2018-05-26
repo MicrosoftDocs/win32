@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies information about the video signal, other than the protection level.'
-ms.assetid: 'ed78b7eb-bf15-4068-ab86-ae42a5e62096'
-title: 'OPM\_SET\_ACP\_AND\_CGMSA\_SIGNALING'
+---
+Description: Specifies information about the video signal, other than the protection level.
+ms.assetid: ed78b7eb-bf15-4068-ab86-ae42a5e62096
+title: OPM\_SET\_ACP\_AND\_CGMSA\_SIGNALING
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM\_SET\_ACP\_AND\_CGMSA\_SIGNALING
@@ -13,7 +18,7 @@ Specifies information about the video signal, other than the protection level.
 |              |                                                                                                                     |
 |--------------|---------------------------------------------------------------------------------------------------------------------|
 | Command GUID | OPM\_SET\_ACP\_AND\_CGMSA\_SIGNALING                                                                                |
-| Input data   | An [**OPM\_SET\_ACP\_AND\_CGMSA\_SIGNALING\_PARAMETERS**](opm-set-acp-and-cgmsa-signaling-parameters.md) structure |
+| Input data   | An [**OPM\_SET\_ACP\_AND\_CGMSA\_SIGNALING\_PARAMETERS**](/windows/win32/opmapi/ns-opmapi-_opm_set_acp_and_cgmsa_signaling_parameters?branch=master) structure |
 
 
 
@@ -41,7 +46,7 @@ For CGMS-A, certain protection standards require that the television signal cont
 
 <dl> <dt>
 
-[**IOPMVideoOutput::Configure**](iopmvideooutput-iopmvideooutput--configure.md)
+[**IOPMVideoOutput::Configure**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-configure?branch=master)
 </dt> <dt>
 
 [OPM Commands](opm-commands.md)

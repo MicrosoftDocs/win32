@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example demonstrates how to retrieve a fax from the outgoing archive using the outgoing fax iterator. It also displays the fax''s properties and provides an option for deleting the fax.'
-ms.assetid: '072eb2cc-7fd9-4f8e-8583-44384357e708'
+Description: The following Microsoft Visual Basic code example demonstrates how to retrieve a fax from the outgoing archive using the outgoing fax iterator. It also displays the faxs properties and provides an option for deleting the fax.
+ms.assetid: 072eb2cc-7fd9-4f8e-8583-44384357e708
 title: Opening a Fax from the Outgoing Archive
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening a Fax from the Outgoing Archive

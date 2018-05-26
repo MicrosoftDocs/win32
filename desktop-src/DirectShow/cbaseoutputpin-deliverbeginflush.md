@@ -1,7 +1,12 @@
 ---
-Description: 'The DeliverBeginFlush method requests the connected input pin to begin a flush operation.'
-ms.assetid: '0d7c7bd7-2a7a-42a4-a0de-60205b62e49c'
-title: 'CBaseOutputPin.DeliverBeginFlush method'
+Description: The DeliverBeginFlush method requests the connected input pin to begin a flush operation.
+ms.assetid: 0d7c7bd7-2a7a-42a4-a0de-60205b62e49c
+title: CBaseOutputPin.DeliverBeginFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin.DeliverBeginFlush method
@@ -34,11 +39,11 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
-This method calls the [**IPin::BeginFlush**](ipin-beginflush.md) method on the input pin.
+This method calls the [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) method on the input pin.
 
 ## Requirements
 
@@ -58,9 +63,9 @@ This method calls the [**IPin::BeginFlush**](ipin-beginflush.md) method on the i
 [**CBaseOutputPin Class**](cbaseoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

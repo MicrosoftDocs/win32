@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SKEYBOARDSTOINSTALL'
-ms.assetid: '67bb616f-319b-42ab-969e-009258ec458d'
-title: 'LOCALE\_SKEYBOARDSTOINSTALL'
+Description: LOCALE\_SKEYBOARDSTOINSTALL
+ms.assetid: 67bb616f-319b-42ab-969e-009258ec458d
+title: LOCALE\_SKEYBOARDSTOINSTALL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SKEYBOARDSTOINSTALL

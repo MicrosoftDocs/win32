@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '1a3f8772-3b49-4db3-adca-68626d6f80c2'
-title: 'System.LastSyncError'
+Description: .
+ms.assetid: 1a3f8772-3b49-4db3-adca-68626d6f80c2
+title: System.LastSyncError
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.LastSyncError

@@ -1,8 +1,10 @@
 ---
 title: Win32\_PowerMeterEvent class
 description: Provides metering and budgeting information.
-ms.assetid: '9db06d75-7056-4fef-93b9-3288df94eabc'
-keywords: ["Win32_PowerMeterEvent class", "Win32_PowerMeterEvent class, described"]
+ms.assetid: 9db06d75-7056-4fef-93b9-3288df94eabc
+keywords:
+- Win32_PowerMeterEvent class
+- Win32_PowerMeterEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - UmPoWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_PowerMeterEvent class
@@ -28,7 +35,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_PowerMeterEvent : __ExtrinsicEvent
 {
   CIM_PowerMeter REF EventSource;
-  uint32             EventType;
+  uint32             EventType;
 };
 ```
 
@@ -80,7 +87,7 @@ Specifies the type of event. The following events are possible.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -94,17 +101,17 @@ The **Win32\_PowerMeterEvent** class is derived from the [**\_\_ExtrinsicEvent**
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                 |
+| Minimum supported client<br/> | Windows 7<br/>                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                 |
 | Namespace<br/>                | Root\\CIMV2\\power<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>PowerMeterProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>UmPoWmi.dll</dt> </dl>            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: A cluster-aware setup application typically deploys one or more res
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7019dbc8-910e-4bb0-b236-90ae620d1bae'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7019dbc8-910e-4bb0-b236-90ae620d1bae
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster-aware applications Failover Cluster ,creating setup applications"]
+keywords:
+- cluster-aware applications Failover Cluster ,creating setup applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Setup Applications for Resource Types

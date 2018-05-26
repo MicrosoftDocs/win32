@@ -4,13 +4,15 @@ description: EndpointOfNetworkPipe describes the endpoints between which a pipe 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f2f047a7-44f2-4bc6-90f6-51ebc2cd1e6c'
-ms.prod: 'windows-server-dev'
+ms.assetid: f2f047a7-44f2-4bc6-90f6-51ebc2cd1e6c
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_EndpointOfNetworkPipe class iSCSI Software Target API", "CIM_EndpointOfNetworkPipe class iSCSI Software Target API , described"]
+keywords:
+- CIM_EndpointOfNetworkPipe class iSCSI Software Target API
+- CIM_EndpointOfNetworkPipe class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_EndpointOfNetworkPipe class
@@ -37,8 +42,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_EndpointOfNetworkPipe : CIM_Dependency
 {
   CIM_ProtocolEndpoint REF Antecedent;
-  CIM_NetworkPipe      REF Dependent;
-  uint16                   SourceOrSink;
+  CIM_NetworkPipe      REF Dependent;
+  uint16                   SourceOrSink;
 };
 ```
 
@@ -136,7 +141,7 @@ Indicates whether the endpoint is a source (value = 2), or sink (value = 3) for 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -150,9 +155,9 @@ Indicates whether the endpoint is a source (value = 2), or sink (value = 3) for 
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

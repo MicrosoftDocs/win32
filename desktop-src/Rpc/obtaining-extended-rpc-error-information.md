@@ -1,8 +1,14 @@
 ---
 title: Obtaining Extended RPC Error Information
 description: RPC provides the capability to obtain extended error information. This section describes how such error information can be obtained, and offers recommendations on how to use the information.
-ms.assetid: '7a386def-c640-42f4-9869-b6a1c522984a'
-keywords: ["Remote Procedure Call RPC , best practices, extended error information"]
+ms.assetid: 7a386def-c640-42f4-9869-b6a1c522984a
+keywords:
+- Remote Procedure Call RPC , best practices, extended error information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining Extended RPC Error Information

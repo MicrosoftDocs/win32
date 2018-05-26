@@ -1,8 +1,18 @@
 ---
 title: Sample Text Section
 description: Sample Text Section
-ms.assetid: '7e59ec56-dedc-46c5-8302-11a7d7c38911'
-keywords: ["Windows Media Player Mobile skins,text", "skins,text", "reference for skins,text", "text in skins,Text section", "skin definition files,Text section"]
+ms.assetid: 7e59ec56-dedc-46c5-8302-11a7d7c38911
+keywords:
+- Windows Media Player Mobile skins,text
+- skins,text
+- reference for skins,text
+- text in skins,Text section
+- skin definition files,Text section
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Text Section

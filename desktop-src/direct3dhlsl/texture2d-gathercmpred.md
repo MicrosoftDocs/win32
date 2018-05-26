@@ -1,12 +1,18 @@
 ---
 title: Texture2D GatherCmpRed methods
 description: Samples and compares a Texture2D and returns the red component.
-ms.assetid: 'bd5fdd3b-c1b0-4cb0-aec5-9fe020420e6c'
-keywords: ["GatherCmpRed methods HLSL"]
+ms.assetid: bd5fdd3b-c1b0-4cb0-aec5-9fe020420e6c
+keywords:
+- GatherCmpRed methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2D::GatherCmpRed methods
@@ -33,9 +39,9 @@ Samples and compares a [**Texture2D**](sm5-object-texture2d.md) and returns the 
 [Texture2D](sm5-object-texture2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

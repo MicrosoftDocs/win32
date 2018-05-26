@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the low-level software that is loaded into non-volatile storage and used to start up and configure a computer system (CIM\_ComputerSystem).'
-ms.assetid: 'e34c9b00-2723-4858-805e-5e3e51a5dfd2'
-title: 'CIM\_BIOSElement class'
+Description: Represents the low-level software that is loaded into non-volatile storage and used to start up and configure a computer system (CIM\_ComputerSystem).
+ms.assetid: e34c9b00-2723-4858-805e-5e3e51a5dfd2
+title: CIM\_BIOSElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_BIOSElement class
@@ -14,16 +19,16 @@ Represents the low-level software that is loaded into non-volatile storage and u
 [Abstract, Version("2.17.0"), UMLPackagePath("CIM::Application::BIOS"), AMENDMENT]
 class CIM_BIOSElement : CIM_SoftwareElement
 {
-  string   Version;
-  string   Manufacturer;
-  boolean  PrimaryBIOS;
-  string   ListOfLanguages[];
-  string   CurrentLanguage;
-  uint64   LoadedStartingAddress;
-  uint64   LoadedEndingAddress;
-  string   LoadUtilityInformation;
+  string   Version;
+  string   Manufacturer;
+  boolean  PrimaryBIOS;
+  string   ListOfLanguages[];
+  string   CurrentLanguage;
+  uint64   LoadedStartingAddress;
+  uint64   LoadedEndingAddress;
+  string   LoadUtilityInformation;
   datetime ReleaseDate;
-  string   RegistryURIs[];
+  string   RegistryURIs[];
 };
 ```
 
@@ -202,8 +207,8 @@ The version of the operation. The version of the operation should be in one of t
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -217,9 +222,9 @@ The version of the operation. The version of the operation should be in one of t
 [**CIM\_SoftwareElement**](cim-softwareelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

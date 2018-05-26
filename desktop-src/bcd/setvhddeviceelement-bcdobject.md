@@ -1,8 +1,11 @@
 ---
 title: SetVhdDeviceElement method of the BcdObject class
 description: Creates a virtual hard disk (VHD) boot device element.
-ms.assetid: 'b39c0117-ede1-4eea-a784-0312c259cdc7'
-keywords: ["SetVhdDeviceElement method Boot Config", "SetVhdDeviceElement method Boot Config , BcdObject class", "BcdObject class Boot Config , SetVhdDeviceElement method"]
+ms.assetid: b39c0117-ede1-4eea-a784-0312c259cdc7
+keywords:
+- SetVhdDeviceElement method Boot Config
+- SetVhdDeviceElement method Boot Config , BcdObject class
+- BcdObject class Boot Config , SetVhdDeviceElement method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetVhdDeviceElement method of the BcdObject class
@@ -22,12 +30,12 @@ Creates a virtual hard disk (VHD) boot device element.
 
 ```mof
 boolean SetVhdDeviceElement(
-  [in] ULONG  Type,
-  [in] PCWSTR Path,
-  [in] ULONG  ParentDeviceType,
-  [in] PCWSTR ParentAdditionalOptions,
-  [in] PCWSTR ParentPath,
-  [in] ULONG  CustomLocate
+  [in] ULONG  Type,
+  [in] PCWSTR Path,
+  [in] ULONG  ParentDeviceType,
+  [in] PCWSTR ParentAdditionalOptions,
+  [in] PCWSTR ParentPath,
+  [in] ULONG  CustomLocate
 );
 ```
 
@@ -77,7 +85,7 @@ The device type. This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -120,8 +128,8 @@ To enumerate a VHD boot device, use the locate data types [**BcdDeviceLocateData
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -146,9 +154,9 @@ To enumerate a VHD boot device, use the locate data types [**BcdDeviceLocateData
 [**BcdObject**](bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

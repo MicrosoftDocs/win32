@@ -1,14 +1,20 @@
 ---
 title: RWByteAddressBuffer
 description: A read/write buffer that indexes in bytes.
-ms.assetid: '8370c14c-5822-4240-942d-565aa223d48c'
-keywords: ["RWByteAddressBuffer HLSL"]
+ms.assetid: 8370c14c-5822-4240-942d-565aa223d48c
+keywords:
+- RWByteAddressBuffer HLSL
 topic_type:
 - apiref
 api_name:
 - RWByteAddressBuffer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RWByteAddressBuffer
@@ -40,7 +46,7 @@ A read/write buffer that indexes in bytes.
 
 
 
- 
+ 
 
 RWByteAddressBuffer objects can be prefixed with the storage class **globallycoherent**. This storage class causes memory barriers and syncs to flush data across the entire GPU such that other groups can see writes. Without this specifier, a memory barrier or sync will flush a UAV only within the current group.
 
@@ -62,7 +68,7 @@ This object is supported in the following shader models.
 
 
 
- 
+ 
 
 This object is supported for the following types of shaders:
 
@@ -74,7 +80,7 @@ This object is supported for the following types of shaders:
 
 
 
- 
+ 
 
 ## See also
 
@@ -83,9 +89,9 @@ This object is supported for the following types of shaders:
 [Shader Model 5 Objects](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

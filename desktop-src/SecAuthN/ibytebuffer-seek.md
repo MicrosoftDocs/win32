@@ -1,12 +1,17 @@
 ---
-Description: 'The Seek method changes the seek pointer to a new location relative to the beginning of the buffer, to the end of the buffer, or to the current seek pointer.'
-ms.assetid: '3541f3dd-7b92-4f72-89b7-4e04e007aaa3'
-title: 'IByteBuffer::Seek method'
+Description: The Seek method changes the seek pointer to a new location relative to the beginning of the buffer, to the end of the buffer, or to the current seek pointer.
+ms.assetid: 3541f3dd-7b92-4f72-89b7-4e04e007aaa3
+title: IByteBufferSeek method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IByteBuffer::Seek method
 
-\[The **Seek** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
+\[The **Seek** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
 
 The **Seek** method changes the seek pointer to a new location relative to the beginning of the buffer, to the end of the buffer, or to the current seek pointer.
 
@@ -15,9 +20,9 @@ The **Seek** method changes the seek pointer to a new location relative to the b
 
 ```C++
 HRESULT Seek(
-  [in]  LONG dlibMove,
-  [in]  LONG dwOrigin,
-  [out] LONG *plibNewPosition
+  [in]  LONG dlibMove,
+  [in]  LONG dwOrigin,
+  [out] LONG *plibNewPosition
 );
 ```
 
@@ -49,7 +54,7 @@ Specifies the origin for the displacement specified in *dlibMove*. The origin ca
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -95,10 +100,10 @@ else
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Scardssp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Scardssp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scardssp.dll</dt> </dl> |
@@ -106,9 +111,9 @@ else
 
 
 
- 
+ 
 
- 
+ 
 
 
 

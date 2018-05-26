@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ConfigureFeature method of the Installer object configures the installed state of a product feature.'
-ms.assetid: 'cc950951-3b43-4d86-9ff1-80aa2ccd11d5'
-title: 'Installer.ConfigureFeature method'
+---
+Description: The ConfigureFeature method of the Installer object configures the installed state of a product feature.
+ms.assetid: cc950951-3b43-4d86-9ff1-80aa2ccd11d5
+title: Installer.ConfigureFeature method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ConfigureFeature method
@@ -80,7 +85,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**MsiConfigureFeature**](msiconfigurefeature.md)
+[**MsiConfigureFeature**](/windows/win32/Msi/nf-msi-msiconfigurefeaturea?branch=master)
 </dt> <dt>
 
 [Installation and Configuration Functions](installer-function-reference.md)

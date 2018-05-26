@@ -1,14 +1,19 @@
 ---
 Description: Establishing a Connection
-ms.assetid: '16286da5-5979-413b-a4db-ca157b10a571'
+ms.assetid: 16286da5-5979-413b-a4db-ca157b10a571
 title: Establishing a Connection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Establishing a Connection
 
-Once the user selects a device, the ChooseDevice function, in turn, calls the [**IPortableDevice::Open**](iportabledevice-open.md) method to establish a connection between the application and the device. The IPortableDevice::Open method takes two arguments:
+Once the user selects a device, the ChooseDevice function, in turn, calls the [**IPortableDevice::Open**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open?branch=master) method to establish a connection between the application and the device. The IPortableDevice::Open method takes two arguments:
 
--   A pointer to a null-terminated string that specifies the Plug and Play name of the device. (This string is retrieved by calling the [**IPortableDeviceManager::GetDevices**](iportabledevicemanager-getdevices.md) method.)
+-   A pointer to a null-terminated string that specifies the Plug and Play name of the device. (This string is retrieved by calling the [**IPortableDeviceManager::GetDevices**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdevices?branch=master) method.)
 -   A pointer to an [**IPortableDeviceValues interface**](iportabledevicevalues.md) that specifies client information for the application.
 
 
@@ -56,7 +61,7 @@ else
 
 
 
-For Windows 7, [**IPortableDevice**](iportabledevice.md) supports two CLSIDs for **CoCreateInstance**. **CLSID\_PortableDevice** returns an **IPortableDevice** pointer that does not aggregate the free-threaded marshaler; **CLSID\_PortableDeviceFTM** is a new CLSID that returns an **IPortableDevice** pointer that aggregates the free-threaded marshaler. Both pointers support the same functionality otherwise.
+For Windows 7, [**IPortableDevice**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master) supports two CLSIDs for **CoCreateInstance**. **CLSID\_PortableDevice** returns an **IPortableDevice** pointer that does not aggregate the free-threaded marshaler; **CLSID\_PortableDeviceFTM** is a new CLSID that returns an **IPortableDevice** pointer that aggregates the free-threaded marshaler. Both pointers support the same functionality otherwise.
 
 Applications that live in Single Threaded Apartments should use **CLSID\_PortableDeviceFTM** as this eliminates the overhead of interface pointer marshaling. **CLSID\_PortableDevice** is still supported for legacy applications.
 

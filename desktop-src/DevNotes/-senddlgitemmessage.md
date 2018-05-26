@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sends a message to the specified control in a dialog box.'
-ms.assetid: '7c91e432-662c-4dd0-980c-892ce1092077'
+---
+Description: Sends a message to the specified control in a dialog box.
+ms.assetid: 7c91e432-662c-4dd0-980c-892ce1092077
 title: '\_SendDlgItemMessage function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_SendDlgItemMessage function

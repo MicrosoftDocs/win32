@@ -1,7 +1,12 @@
 ---
-Description: 'Returns the USBDevice descriptor as specified by the input parameters.'
-ms.assetid: '89bb8a49-6fca-422c-808d-70ae77aae4c3'
-title: 'GetDescriptor method of the CIM\_USBDevice class'
+Description: Returns the USBDevice descriptor as specified by the input parameters.
+ms.assetid: 89bb8a49-6fca-422c-808d-70ae77aae4c3
+title: GetDescriptor method of the CIM\_USBDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDescriptor method of the CIM\_USBDevice class
@@ -13,11 +18,11 @@ Returns the USBDevice descriptor as specified by the input parameters.
 
 ```mof
 uint32 GetDescriptor(
-  [in]      uint8  RequestType,
-  [in]      uint16 RequestValue,
-  [in]      uint16 RequestIndex,
-  [in, out] uint16 RequestLength,
-  [out]     uint8  Buffer[]
+  [in]      uint8  RequestType,
+  [in]      uint16 RequestValue,
+  [in]      uint16 RequestIndex,
+  [in, out] uint16 RequestLength,
+  [out]     uint8  Buffer[]
 );
 ```
 
@@ -72,8 +77,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -87,9 +92,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_USBDevice**](cim-usbdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

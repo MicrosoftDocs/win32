@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_CNAMEType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Canonical Name (CNAME) record.
-ms.assetid: '93a972e3-abb1-425f-beb7-32abe7d0b485'
-keywords: ["MicrosoftDNS_CNAMEType class DNS", "MicrosoftDNS_CNAMEType class DNS , described"]
+ms.assetid: 93a972e3-abb1-425f-beb7-32abe7d0b485
+keywords:
+- MicrosoftDNS_CNAMEType class DNS
+- MicrosoftDNS_CNAMEType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_CNAMEType class
@@ -51,7 +58,7 @@ The **MicrosoftDNS\_CNAMEType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ Canonical, or primary name for the owner of the CNAME record.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ Canonical, or primary name for the owner of the CNAME record.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

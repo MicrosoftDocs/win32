@@ -1,14 +1,20 @@
 ---
 title: WaveActiveMin function
 description: Returns the minimum value of the expression across all active lanes in the current wave replicates it back to all active lanes.
-ms.assetid: 'BA762C02-894C-4AF9-A226-C1E3AAC286FF'
-keywords: ["WaveAllMin function HLSL"]
+ms.assetid: BA762C02-894C-4AF9-A226-C1E3AAC286FF
+keywords:
+- WaveAllMin function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveAllMin
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveActiveMin function

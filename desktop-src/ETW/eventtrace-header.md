@@ -1,7 +1,12 @@
-﻿---
-Description: 'The event type class for the log file header event. This class contains information about the event tracing session.'
-ms.assetid: '3d0c4044-da06-4850-95c4-99b4ea28fcd9'
-title: 'EventTrace\_Header class'
+---
+Description: The event type class for the log file header event. This class contains information about the event tracing session.
+ms.assetid: 3d0c4044-da06-4850-95c4-99b4ea28fcd9
+title: EventTrace\_Header class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventTrace\_Header class

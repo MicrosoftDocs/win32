@@ -1,8 +1,22 @@
 ---
 title: Differences Between the Object Models
 description: Differences Between the Object Models
-ms.assetid: 'a6d2a2d5-2892-461a-aa6d-7e11b504b2af'
-keywords: ["Windows Media Player,object model", "Windows Media Player object model,version differences", "object model,version differences", "Windows Media Player ActiveX control,version differences", "ActiveX control,version differences", "Windows Media Player Mobile ActiveX control,version differences", "Windows Media Player Mobile,object model", "migration guide,version differences", "versions of Windows Media Player,object model"]
+ms.assetid: a6d2a2d5-2892-461a-aa6d-7e11b504b2af
+keywords:
+- Windows Media Player,object model
+- Windows Media Player object model,version differences
+- object model,version differences
+- Windows Media Player ActiveX control,version differences
+- ActiveX control,version differences
+- Windows Media Player Mobile ActiveX control,version differences
+- Windows Media Player Mobile,object model
+- migration guide,version differences
+- versions of Windows Media Player,object model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Differences Between the Object Models

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'fc656149-15b7-4460-a572-a83cccf7d14f'
-title: 'System.RemoteConflictingFile'
+Description: .
+ms.assetid: fc656149-15b7-4460-a572-a83cccf7d14f
+title: System.RemoteConflictingFile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RemoteConflictingFile

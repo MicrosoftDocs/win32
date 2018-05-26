@@ -1,8 +1,28 @@
 ---
 title: Inserting Native Stream Formats Into ASF Files (QASF)
 description: Inserting Native Stream Formats Into ASF Files (QASF)
-ms.assetid: 'ec7a69f3-0d4c-43dd-8d4b-fe066329a98f'
-keywords: ["Windows Media Format SDK,native stream formats (QASF)", "Windows Media Format SDK,inserting native stream formats into ASF files (QASF)", "Windows Media Format SDK,DirectShow", "Advanced Systems Format (ASF),inserting native stream formats (QASF)", "ASF (Advanced Systems Format),inserting native stream formats (QASF)", "Advanced Systems Format (ASF),native stream formats (QASF)", "ASF (Advanced Systems Format),native stream formats (QASF)", "Advanced Systems Format (ASF),DirectShow", "ASF (Advanced Systems Format),DirectShow", "DirectShow,native stream formats (QASF)", "DirectShow,inserting native stream formats into ASF files (QASF)", "Windows Media Format SDK,QASF", "Advanced Systems Format (ASF),QASF", "ASF (Advanced Systems Format),QASF", "DirectShow,QASF"]
+ms.assetid: ec7a69f3-0d4c-43dd-8d4b-fe066329a98f
+keywords:
+- Windows Media Format SDK,native stream formats (QASF)
+- Windows Media Format SDK,inserting native stream formats into ASF files (QASF)
+- Windows Media Format SDK,DirectShow
+- Advanced Systems Format (ASF),inserting native stream formats (QASF)
+- ASF (Advanced Systems Format),inserting native stream formats (QASF)
+- Advanced Systems Format (ASF),native stream formats (QASF)
+- ASF (Advanced Systems Format),native stream formats (QASF)
+- Advanced Systems Format (ASF),DirectShow
+- ASF (Advanced Systems Format),DirectShow
+- DirectShow,native stream formats (QASF)
+- DirectShow,inserting native stream formats into ASF files (QASF)
+- Windows Media Format SDK,QASF
+- Advanced Systems Format (ASF),QASF
+- ASF (Advanced Systems Format),QASF
+- DirectShow,QASF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inserting Native Stream Formats Into ASF Files (QASF)

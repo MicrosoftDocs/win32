@@ -4,11 +4,16 @@ description: Performing Advanced Operations
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9145b2a8-6b18-47db-92df-492004684833'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 9145b2a8-6b18-47db-92df-492004684833
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Performing Advanced Operations DSML", "DSML Services for Windows, tasks, advanced"]
+keywords:
+- Performing Advanced Operations DSML
+- DSML Services for Windows, tasks, advanced
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Performing Advanced Operations

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the number of property IDs in a profile.'
-ms.assetid: 'fa587c8a-8d09-4dfc-938a-5ec8cc9265f5'
-title: 'IScanProfile::GetNumPropIDS method'
+---
+Description: Gets the number of property IDs in a profile.
+ms.assetid: fa587c8a-8d09-4dfc-938a-5ec8cc9265f5
+title: IScanProfileGetNumPropIDS method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfile::GetNumPropIDS method

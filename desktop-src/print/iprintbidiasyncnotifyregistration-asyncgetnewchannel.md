@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'A5E2FA41-0871-4416-B501-051BD67A60AF'
-title: 'IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel method'
+---
+Description: .
+ms.assetid: A5E2FA41-0871-4416-B501-051BD67A60AF
+title: IPrintBidiAsyncNotifyRegistrationAsyncGetNewChannel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel method

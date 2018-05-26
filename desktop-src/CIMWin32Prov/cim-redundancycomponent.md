@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_RedundancyComponent class associates a redundancy group composed of managed system elements and indicates that, together, the elements provide redundancy.'
+Description: The CIM\_RedundancyComponent class associates a redundancy group composed of managed system elements and indicates that, together, the elements provide redundancy.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2511ae26-011a-4e0d-ad34-d5fe9c78f0ff'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2511ae26-011a-4e0d-ad34-d5fe9c78f0ff
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_RedundancyComponent class'
+title: CIM\_RedundancyComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_RedundancyComponent class
@@ -19,7 +22,7 @@ The **CIM\_RedundancyComponent** class associates a redundancy group composed of
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,7 +32,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{FB9D6E62-DB36-11d2-85FC-0000F8102E5F}"), AMENDMENT]
 class CIM_RedundancyComponent : CIM_Component
 {
-  CIM_RedundancyGroup      REF GroupComponent;
+  CIM_RedundancyGroup      REF GroupComponent;
   CIM_ManagedSystemElement REF PartComponent;
 };
 ```
@@ -91,8 +94,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -106,9 +109,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

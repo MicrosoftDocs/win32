@@ -1,7 +1,12 @@
-﻿---
-Description: 'When RevertToPrinterSelf is called on an impersonating thread, it returns the token for the thread that is being impersonated.'
-ms.assetid: '3d94d363-fc8b-4b12-b90d-43dfc5923bdf'
+---
+Description: When RevertToPrinterSelf is called on an impersonating thread, it returns the token for the thread that is being impersonated.
+ms.assetid: 3d94d363-fc8b-4b12-b90d-43dfc5923bdf
 title: RevertToPrinterSelf function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RevertToPrinterSelf function

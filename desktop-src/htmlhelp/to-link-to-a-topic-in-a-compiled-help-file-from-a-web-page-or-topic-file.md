@@ -1,7 +1,12 @@
 ---
 title: To link to a topic in a compiled help file from a Web page or topic file
 description: To link to a topic in a compiled help file from a Web page or topic file
-ms.assetid: '49457E11-C506-4999-BAC6-9A386B940C10'
+ms.assetid: 49457E11-C506-4999-BAC6-9A386B940C10
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To link to a topic in a compiled help file from a Web page or topic file

@@ -1,7 +1,12 @@
 ---
-Description: 'When overridden in a derived class, evaluates whether a specified IContextNode object meets the criteria.'
-ms.assetid: 'ade8e59c-6aeb-4a87-a95d-229f8f0b2223'
-title: 'IMatchesCriteriaCallBack::EvaluateContextNode method'
+Description: When overridden in a derived class, evaluates whether a specified IContextNode object meets the criteria.
+ms.assetid: ade8e59c-6aeb-4a87-a95d-229f8f0b2223
+title: IMatchesCriteriaCallBackEvaluateContextNode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMatchesCriteriaCallBack::EvaluateContextNode method
@@ -13,8 +18,8 @@ When overridden in a derived class, evaluates whether a specified [**IContextNod
 
 ```C++
 HRESULT EvaluateContextNode(
-  [in]  IContextNode *pContextNodeToEvaluate,
-  [out] VARIANT_BOOL *pbResult
+  [in]  IContextNode *pContextNodeToEvaluate,
+  [out] VARIANT_BOOL *pbResult
 );
 ```
 
@@ -52,7 +57,7 @@ To use [**IInkAnalyzer::FindNodesWithCallBack Method**](iinkanalyzer-findnodeswi
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -75,9 +80,9 @@ To use [**IInkAnalyzer::FindNodesWithCallBack Method**](iinkanalyzer-findnodeswi
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

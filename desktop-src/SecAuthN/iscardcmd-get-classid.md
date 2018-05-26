@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the class identifier from the application protocol data unit (APDU).'
-ms.assetid: '03ea997d-7698-43c7-aa9a-dfc1bac6fcdd'
-title: 'ISCardCmd::get\_ClassId method'
+---
+Description: Retrieves the class identifier from the application protocol data unit (APDU).
+ms.assetid: 03ea997d-7698-43c7-aa9a-dfc1bac6fcdd
+title: ISCardCmdget\_ClassId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardCmd::get\_ClassId method

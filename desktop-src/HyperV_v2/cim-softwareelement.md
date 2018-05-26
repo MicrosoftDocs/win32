@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an individually manageable or deployable part of a CIM\_SoftwareFeature.'
-ms.assetid: '96affc55-b001-4122-b883-3610bf95a786'
-title: 'CIM\_SoftwareElement class'
+Description: Represents an individually manageable or deployable part of a CIM\_SoftwareFeature.
+ms.assetid: 96affc55-b001-4122-b883-3610bf95a786
+title: CIM\_SoftwareElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SoftwareElement class
@@ -1056,8 +1061,8 @@ The software version in the format *&lt;Major&gt;*.*&lt;Minor&gt;*.*&lt;Revision
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1071,9 +1076,9 @@ The software version in the format *&lt;Major&gt;*.*&lt;Minor&gt;*.*&lt;Revision
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

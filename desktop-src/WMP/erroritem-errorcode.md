@@ -1,8 +1,9 @@
 ---
 title: ErrorItem.errorCode
 description: The errorCode property retrieves the current error code.
-ms.assetid: '1495ec34-0995-40c6-bfd0-f3695784e057'
-keywords: ["ErrorItem.errorCode Windows Media Player"]
+ms.assetid: 1495ec34-0995-40c6-bfd0-f3695784e057
+keywords:
+- ErrorItem.errorCode Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorItem.errorCode
@@ -76,9 +82,9 @@ document.write(message);
 [**ErrorItem.errorDescription**](erroritem-errordescription.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

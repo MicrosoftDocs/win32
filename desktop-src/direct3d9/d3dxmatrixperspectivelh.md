@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a left-handed perspective projection matrix'
-ms.assetid: '07bbbca8-ad1e-4177-97d4-601b33179b47'
+---
+Description: Builds a left-handed perspective projection matrix
+ms.assetid: 07bbbca8-ad1e-4177-97d4-601b33179b47
 title: D3DXMatrixPerspectiveLH function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixPerspectiveLH function

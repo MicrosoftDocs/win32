@@ -1,7 +1,12 @@
 ---
-Description: 'This topic discusses alternatives to using Transactional NTFS API (TxF) in common usage scenarios.'
-ms.assetid: '9ee26e7e-990e-4cd3-8180-f0fcaac2b752'
+Description: This topic discusses alternatives to using Transactional NTFS API (TxF) in common usage scenarios.
+ms.assetid: 9ee26e7e-990e-4cd3-8180-f0fcaac2b752
 title: Alternatives to using Transactional NTFS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Alternatives to using Transactional NTFS
@@ -29,7 +34,7 @@ With the limitations described above, developers should investigate alternatives
 
 ## Applications updating a single file with "document-like" data
 
-Many applications which deal with "document-like" data tend to load the entire document into memory, operate on it, and then write it back out to save the changes. The needed atomicity here is that the changes either are completely applied or not applied at all, as an inconsistent state would render the file corrupt. A common approach is to write the document to a new file, then replace the original file with the new one. One method to do this is with the [**ReplaceFile**](replacefile.md) API.
+Many applications which deal with "document-like" data tend to load the entire document into memory, operate on it, and then write it back out to save the changes. The needed atomicity here is that the changes either are completely applied or not applied at all, as an inconsistent state would render the file corrupt. A common approach is to write the document to a new file, then replace the original file with the new one. One method to do this is with the [**ReplaceFile**](/windows/win32/WinBase/nf-winbase-replacefilea?branch=master) API.
 
 ## Applications performing updates to multiple files and/or to the registry hive
 

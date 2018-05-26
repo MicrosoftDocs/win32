@@ -1,7 +1,12 @@
 ---
-Description: 'A security identifier (SID) is a unique value of variable length used to identify a trustee.'
-ms.assetid: '7cb07bcd-70f4-43dd-8382-320fcff151c7'
+Description: A security identifier (SID) is a unique value of variable length used to identify a trustee.
+ms.assetid: 7cb07bcd-70f4-43dd-8382-320fcff151c7
 title: Security Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Identifiers
@@ -24,22 +29,22 @@ If you do need to work with SIDs, do not manipulate them directly. Instead, use 
 
 | Function                                                       | Description                                                                                                                                               |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AllocateAndInitializeSid**](allocateandinitializesid.md)   | Allocates and initializes a SID with the specified number of subauthorities.                                                                              |
-| [**ConvertSidToStringSid**](convertsidtostringsid.md)         | Converts a SID to a string format suitable for display, storage, or transport.                                                                            |
-| [**ConvertStringSidToSid**](convertstringsidtosid.md)         | Converts a string-format SID to a valid, functional SID.                                                                                                  |
+| [**AllocateAndInitializeSid**](/windows/win32/Winbase/nf-ntifs-rtlallocateandinitializesidex?branch=master)   | Allocates and initializes a SID with the specified number of subauthorities.                                                                              |
+| [**ConvertSidToStringSid**](/windows/win32/Sddl/nf-sddl-convertsidtostringsida?branch=master)         | Converts a SID to a string format suitable for display, storage, or transport.                                                                            |
+| [**ConvertStringSidToSid**](/windows/win32/Sddl/nf-sddl-convertstringsidtosida?branch=master)         | Converts a string-format SID to a valid, functional SID.                                                                                                  |
 | [**CopySid**](copysid.md)                                     | Copies a source SID to a buffer.                                                                                                                          |
 | [**EqualPrefixSid**](equalprefixsid.md)                       | Tests two SID prefix values for equality. A SID prefix is the entire SID except for the last subauthority value.                                          |
 | [**EqualSid**](equalsid.md)                                   | Tests two SIDs for equality. They must match exactly to be considered equal.                                                                              |
-| [**FreeSid**](freesid.md)                                     | Frees a previously allocated SID by using the [**AllocateAndInitializeSid**](allocateandinitializesid.md) function.                                      |
+| [**FreeSid**](freesid.md)                                     | Frees a previously allocated SID by using the [**AllocateAndInitializeSid**](/windows/win32/Winbase/nf-ntifs-rtlallocateandinitializesidex?branch=master) function.                                      |
 | [**GetLengthSid**](getlengthsid.md)                           | Retrieves the length of a SID.                                                                                                                            |
 | [**GetSidIdentifierAuthority**](getsididentifierauthority.md) | Retrieves a pointer to the identifier authority for a SID.                                                                                                |
 | [**GetSidLengthRequired**](getsidlengthrequired.md)           | Retrieves the size of the buffer required to store a SID with a specified number of subauthorities.                                                       |
 | [**GetSidSubAuthority**](getsidsubauthority.md)               | Retrieves a pointer to a specified subauthority in a SID.                                                                                                 |
 | [**GetSidSubAuthorityCount**](getsidsubauthoritycount.md)     | Retrieves the number of subauthorities in a SID.                                                                                                          |
-| [**InitializeSid**](initializesid.md)                         | Initializes a [**SID**](sid.md) structure.                                                                                                               |
+| [**InitializeSid**](/windows/win32/Winbase/nf-ntifs-rtlallocateandinitializesidex?branch=master)                         | Initializes a [**SID**](/windows/win32/Winnt/ns-winnt-_sid?branch=master) structure.                                                                                                               |
 | [**IsValidSid**](isvalidsid.md)                               | Tests the validity of a SID by verifying that the revision number is within a known range and that the number of subauthorities is less than the maximum. |
-| [**LookupAccountName**](lookupaccountname.md)                 | Retrieves the SID that corresponds to a specified account name.                                                                                           |
-| [**LookupAccountSid**](lookupaccountsid.md)                   | Retrieves the account name that corresponds to a specified SID.                                                                                           |
+| [**LookupAccountName**](/windows/win32/Winbase/nf-winbase-lookupaccountnamea?branch=master)                 | Retrieves the SID that corresponds to a specified account name.                                                                                           |
+| [**LookupAccountSid**](/windows/win32/Winbase/nf-winbase-lookupaccountsida?branch=master)                   | Retrieves the account name that corresponds to a specified SID.                                                                                           |
 
 
 

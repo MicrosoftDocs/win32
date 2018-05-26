@@ -1,8 +1,9 @@
 ---
 title: exp2
 description: Returns the base 2 exponential, or 2x, of the specified value.
-ms.assetid: '68b0057c-864d-440b-84f6-781d5fa3b019'
-keywords: ["exp2 HLSL"]
+ms.assetid: 68b0057c-864d-440b-84f6-781d5fa3b019
+keywords:
+- exp2 HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # exp2
@@ -24,7 +30,7 @@ Returns the base 2 exponential, or 2<sup>x</sup>, of the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Returns the base 2 exponential, or 2<sup>x</sup>, of the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The base 2 exponential of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +74,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,9 +93,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

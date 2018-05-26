@@ -1,7 +1,12 @@
-﻿---
-Description: 'Not implemented.'
-ms.assetid: 'f3be3b5a-7ab9-44ca-8a03-33fb905d3aea'
-title: 'IAMTimelineObj::SetDirtyRange method'
+---
+Description: Not implemented.
+ms.assetid: f3be3b5a-7ab9-44ca-8a03-33fb905d3aea
+title: IAMTimelineObjSetDirtyRange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::SetDirtyRange method

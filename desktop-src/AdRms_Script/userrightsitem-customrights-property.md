@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a collection of user-defined rights.'
+Description: Retrieves a collection of user-defined rights.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'ca2b5196-a9e0-49ac-a354-dc567278ec1b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: ca2b5196-a9e0-49ac-a354-dc567278ec1b
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'UserRightsItem.CustomRights property'
+title: UserRightsItem.CustomRights property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserRightsItem.CustomRights property
@@ -145,7 +148,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -157,9 +160,9 @@ END SUB
 [**UserRightsItem**](userrightsitem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

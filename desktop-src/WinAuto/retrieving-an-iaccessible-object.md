@@ -1,20 +1,25 @@
 ---
 title: Retrieving an IAccessible Object
 description: Microsoft Active Accessibility provides functions such as AccessibleObjectFromWindow and AccessibleObjectFromPoint that allow clients to retrieve accessible objects.
-ms.assetid: '971cbead-128b-465a-8e77-2a20217f8d0f'
+ms.assetid: 971cbead-128b-465a-8e77-2a20217f8d0f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving an IAccessible Object
 
-Microsoft Active Accessibility provides functions such as [**AccessibleObjectFromWindow**](accessibleobjectfromwindow.md) and [**AccessibleObjectFromPoint**](accessibleobjectfrompoint.md) that allow clients to retrieve accessible objects. These functions return either an [**IDispatch**](idispatch-interface.md) or [**IAccessible**](iaccessible.md) interface pointer through which clients get information about the accessible object.
+Microsoft Active Accessibility provides functions such as [**AccessibleObjectFromWindow**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfromwindow?branch=master) and [**AccessibleObjectFromPoint**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfrompoint?branch=master) that allow clients to retrieve accessible objects. These functions return either an [**IDispatch**](idispatch-interface.md) or [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface pointer through which clients get information about the accessible object.
 
-When a client calls [**AccessibleObjectFromWindow**](accessibleobjectfromwindow.md) or any of the other **AccessibleObjectFrom***X* functions that retrieve an interface to an object, Microsoft Active Accessibility sends the [**WM\_GETOBJECT**](wm-getobject.md) window message to the applicable window procedure within the appropriate application. To provide information to clients, servers must respond to the **WM\_GETOBJECT** message.
+When a client calls [**AccessibleObjectFromWindow**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfromwindow?branch=master) or any of the other **AccessibleObjectFrom***X* functions that retrieve an interface to an object, Microsoft Active Accessibility sends the [**WM\_GETOBJECT**](wm-getobject.md) window message to the applicable window procedure within the appropriate application. To provide information to clients, servers must respond to the **WM\_GETOBJECT** message.
 
-To collect specific information about a UI element, clients must first retrieve an [**IAccessible**](iaccessible.md) interface for the element. To retrieve an element's **IAccessible** object, clients can use one of the following functions:
+To collect specific information about a UI element, clients must first retrieve an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface for the element. To retrieve an element's **IAccessible** object, clients can use one of the following functions:
 
--   [**AccessibleObjectFromPoint**](accessibleobjectfrompoint.md)
--   [**AccessibleObjectFromWindow**](accessibleobjectfromwindow.md)
--   [**AccessibleObjectFromEvent**](accessibleobjectfromevent.md)
+-   [**AccessibleObjectFromPoint**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfrompoint?branch=master)
+-   [**AccessibleObjectFromWindow**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfromwindow?branch=master)
+-   [**AccessibleObjectFromEvent**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfromevent?branch=master)
 
 **To retrieve an IAccessible Interface Pointer**
 
@@ -25,10 +30,10 @@ To collect specific information about a UI element, clients must first retrieve 
 
     Or
 
-    Returns an [**IAccessible**](iaccessible.md) object (native implementation). To do this, it:
+    Returns an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) object (native implementation). To do this, it:
 
-    -   Constructs an [**IAccessible**](iaccessible.md) object for the element.
-    -   Calls [**LresultFromObject**](lresultfromobject.md) to marshal the object's pointer.
+    -   Constructs an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) object for the element.
+    -   Calls [**LresultFromObject**](/windows/win32/Oleacc/nf-oleacc-lresultfromobject?branch=master) to marshal the object's pointer.
     -   Returns the LRESULT to Oleacc.dll.
 
 5.  Oleacc.dll examines the return value from [**WM\_GETOBJECT**](wm-getobject.md).
@@ -37,7 +42,7 @@ To collect specific information about a UI element, clients must first retrieve 
 
     Or
 
-    If it is nonzero, Oleacc.dll calls [**ObjectFromLresult**](objectfromlresult.md) to unmarshal the native [**IAccessible**](iaccessible.md) object pointer and returns it to the client.
+    If it is nonzero, Oleacc.dll calls [**ObjectFromLresult**](/windows/win32/Oleacc/nf-oleacc-objectfromlresult?branch=master) to unmarshal the native [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) object pointer and returns it to the client.
 
  
 

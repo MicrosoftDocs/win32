@@ -1,8 +1,13 @@
 ---
 title: IVMHardDisk SizeInGuest property
 description: The SizeInGuest property contains the size, in bytes, of the hard disk image, as represented in the guest operating system.
-ms.assetid: '6dacde8e-0b35-4c2f-bab2-6ab93826bb49'
-keywords: ["SizeInGuest property Virtual Server", "SizeInGuest property Virtual Server , IVMHardDisk interface", "IVMHardDisk interface Virtual Server , SizeInGuest property", "SizeInGuest property Virtual Server , VMHardDisk interface", "VMHardDisk interface Virtual Server , SizeInGuest property"]
+ms.assetid: 6dacde8e-0b35-4c2f-bab2-6ab93826bb49
+keywords:
+- SizeInGuest property Virtual Server
+- SizeInGuest property Virtual Server , IVMHardDisk interface
+- IVMHardDisk interface Virtual Server , SizeInGuest property
+- SizeInGuest property Virtual Server , VMHardDisk interface
+- VMHardDisk interface Virtual Server , SizeInGuest property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk::SizeInGuest property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_SizeInGuest(
-  [out] VARIANT *fileSize
+  [out] VARIANT *fileSize
 );
 ```
 
@@ -79,8 +89,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -92,9 +102,9 @@ This property value is read-only.
 [**IVMHardDisk**](ivmharddisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

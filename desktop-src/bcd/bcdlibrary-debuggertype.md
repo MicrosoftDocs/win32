@@ -1,14 +1,20 @@
 ---
 title: BcdLibrary\_DebuggerType enumeration
 description: Specifies the debugger type.
-ms.assetid: 'c7277bab-7047-451f-a671-e68adcfe0f90'
-keywords: ["BcdLibrary_DebuggerType enumeration Boot Config"]
+ms.assetid: c7277bab-7047-451f-a671-e68adcfe0f90
+keywords:
+- BcdLibrary_DebuggerType enumeration Boot Config
 topic_type:
 - apiref
 api_name:
 - BcdLibrary_DebuggerType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdLibrary\_DebuggerType enumeration
@@ -20,10 +26,10 @@ Specifies the debugger type.
 
 ```C++
 typedef enum BcdLibrary_DebuggerType { 
-  DebuggerSerial  = 0,
-  Debugger1394    = 1,
-  DebuggerUsb     = 2,
-  DebuggerNet     = 3
+  DebuggerSerial  = 0,
+  Debugger1394    = 1,
+  DebuggerUsb     = 2,
+  DebuggerNet     = 3
 } BcdLibrary_DebuggerType;
 ```
 
@@ -67,8 +73,8 @@ Network debugger.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -82,9 +88,9 @@ Network debugger.
 [**BcdLibraryElementTypes**](bcdlibraryelementtypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

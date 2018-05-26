@@ -1,7 +1,12 @@
 ---
 Description: Setting the Synchronization Attribute
-ms.assetid: 'e7983732-b206-4e9e-8446-9412832f4712'
+ms.assetid: e7983732-b206-4e9e-8446-9412832f4712
 title: Setting the Synchronization Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Synchronization Attribute

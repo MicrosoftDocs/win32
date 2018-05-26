@@ -4,11 +4,15 @@ description: Implements plug-ins that replace the default authentication and aut
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3cbfd9a7-659d-4cb6-9e87-387504b8ed25'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3cbfd9a7-659d-4cb6-9e87-387504b8ed25
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , Remote Desktop Gateway API reference"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , Remote Desktop Gateway API reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Gateway API reference

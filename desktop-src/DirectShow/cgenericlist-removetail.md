@@ -1,7 +1,12 @@
 ---
-Description: 'The RemoveTail method removes the last item in the list.'
-ms.assetid: '377af676-8042-430e-87a6-b41c00482a90'
-title: 'CGenericList.RemoveTail method'
+Description: The RemoveTail method removes the last item in the list.
+ms.assetid: 377af676-8042-430e-87a6-b41c00482a90
+title: CGenericList.RemoveTail method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.RemoveTail method
@@ -47,9 +52,9 @@ This method deletes the list node, but not the item that is contained in the nod
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

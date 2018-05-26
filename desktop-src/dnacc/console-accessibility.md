@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: '641156c4-774e-49fd-b790-f5a83ea22268'
+ms.assetid: 641156c4-774e-49fd-b790-f5a83ea22268
 title: Console Accessibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Console Accessibility

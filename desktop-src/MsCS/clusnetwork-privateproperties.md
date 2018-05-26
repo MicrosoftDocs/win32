@@ -4,11 +4,14 @@ description: Read/write private properties of a network.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7afb5824-b8b1-4e3a-99cc-7f06964f6724'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7afb5824-b8b1-4e3a-99cc-7f06964f6724
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["PrivateProperties property Failover Cluster", "PrivateProperties property Failover Cluster , ClusNetwork object", "ClusNetwork object Failover Cluster , PrivateProperties property"]
+keywords:
+- PrivateProperties property Failover Cluster
+- PrivateProperties property Failover Cluster , ClusNetwork object
+- ClusNetwork object Failover Cluster , PrivateProperties property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusNetwork.PrivateProperties property
@@ -47,7 +53,7 @@ A [**ClusProperties**](clusproperties-collection.md) collection that receives th
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -66,9 +72,9 @@ A [**ClusProperties**](clusproperties-collection.md) collection that receives th
 [**ClusProperties**](clusproperties-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

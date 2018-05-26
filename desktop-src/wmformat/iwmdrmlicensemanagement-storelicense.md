@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseManagement StoreLicense method
 description: The StoreLicense method includes a license that was generated outside of the local DRM subsystem in the local license store.
-ms.assetid: '2190ff8c-8969-4f03-9f90-331bff8f4da2'
-keywords: ["StoreLicense method windows Media Format", "StoreLicense method windows Media Format , IWMDRMLicenseManagement interface", "IWMDRMLicenseManagement interface windows Media Format , StoreLicense method"]
+ms.assetid: 2190ff8c-8969-4f03-9f90-331bff8f4da2
+keywords:
+- StoreLicense method windows Media Format
+- StoreLicense method windows Media Format , IWMDRMLicenseManagement interface
+- IWMDRMLicenseManagement interface windows Media Format , StoreLicense method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseManagement::StoreLicense method
@@ -23,7 +31,7 @@ The **StoreLicense** method includes a license that was generated outside of the
 
 ```C++
 HRESULT StoreLicense(
-  [in] BSTR bstrLicenseResponse
+  [in] BSTR bstrLicenseResponse
 );
 ```
 
@@ -52,7 +60,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,9 +84,9 @@ You can use this method to add XMR licenses that you have created to the local l
 [**IWMDRMLicenseManagement Interface**](iwmdrmlicensemanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,21 @@ description: Synchronously creates an OutputStream for writing protected content
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '46AE2AEF-C331-40CA-B1A9-B3077BB76662'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 46AE2AEF-C331-40CA-B1A9-B3077BB76662
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CustomProtectedOutputStream.create synchronous method"]
+keywords:
+- CustomProtectedOutputStream.create synchronous method
 topic_type:
 - apiref
 api_name:
 - CustomProtectedOutputStream.create synchronous method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedOutputStream.create synchronous method
@@ -47,7 +51,7 @@ public static CustomProtectedOutputStream create(
 
 
 
- 
+ 
 
 ## Returns
 
@@ -71,11 +75,11 @@ CustomProtectedOutputStream.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

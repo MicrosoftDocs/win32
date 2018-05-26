@@ -1,7 +1,12 @@
 ---
-Description: 'Office location of the contact.'
-ms.assetid: '2141d58a-30e8-4364-9d48-f9b2c11d5ed7'
-title: 'System.Contact.OfficeLocation'
+Description: Office location of the contact.
+ms.assetid: 2141d58a-30e8-4364-9d48-f9b2c11d5ed7
+title: System.Contact.OfficeLocation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.OfficeLocation

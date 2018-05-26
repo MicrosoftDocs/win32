@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StoragePoolToResiliencySetting class
 description: Association between StoragePool and ResiliencySetting.
-ms.assetid: '8EA9D275-ED5D-4901-B0CD-546247512800'
-keywords: ["MSFT_StoragePoolToResiliencySetting class Windows Storage Management API", "MSFT_StoragePoolToResiliencySetting class Windows Storage Management API , described"]
+ms.assetid: 8EA9D275-ED5D-4901-B0CD-546247512800
+keywords:
+- MSFT_StoragePoolToResiliencySetting class Windows Storage Management API
+- MSFT_StoragePoolToResiliencySetting class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StoragePoolToResiliencySetting class
@@ -26,7 +33,7 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 [Association]
 class MSFT_StoragePoolToResiliencySetting
 {
-  MSFT_StoragePool       REF StoragePool;
+  MSFT_StoragePool       REF StoragePool;
   MSFT_ResiliencySetting REF ResiliencySetting;
 };
 ```
@@ -77,8 +84,8 @@ Qualifiers: **Key**
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -94,9 +101,9 @@ Qualifiers: **Key**
 [**MSFT\_StoragePool**](msft-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

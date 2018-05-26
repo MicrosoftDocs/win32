@@ -1,8 +1,21 @@
 ---
 title: Text Services Framework Constants
 description: Text Services Framework Constants
-ms.assetid: '38d1b81b-dc72-45d7-ac8a-7718556b6666'
-keywords: ["Text Services Framework (TSF),constants", "TSF (Text Services Framework),constants", "text services,constants", "TSF-enabled applications,constants", "TSF reference,constants", "reference for TSF,constants", "language bar", "text stores"]
+ms.assetid: 38d1b81b-dc72-45d7-ac8a-7718556b6666
+keywords:
+- Text Services Framework (TSF),constants
+- TSF (Text Services Framework),constants
+- text services,constants
+- TSF-enabled applications,constants
+- TSF reference,constants
+- reference for TSF,constants
+- language bar
+- text stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Services Framework Constants

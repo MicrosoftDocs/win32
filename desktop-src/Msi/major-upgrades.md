@@ -1,7 +1,12 @@
 ---
-Description: 'A major upgrade is a comprehensive update of a product that needs a change of the ProductCode Property.'
-ms.assetid: '0c8f2aad-b301-4404-9051-694d97db1a8d'
+Description: A major upgrade is a comprehensive update of a product that needs a change of the ProductCode Property.
+ms.assetid: 0c8f2aad-b301-4404-9051-694d97db1a8d
 title: Major Upgrades
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Major Upgrades

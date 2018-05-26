@@ -1,8 +1,17 @@
 ---
 title: Direct3D feature levels
 description: This topic discusses Direct3D feature levels.
-ms.assetid: '5ad0525c-249f-452d-950b-df8fa2addde2'
-keywords: ["DX feature level", "DirectX feature level", "feature level, DX", "feature level, DirectX"]
+ms.assetid: 5ad0525c-249f-452d-950b-df8fa2addde2
+keywords:
+- DX feature level
+- DirectX feature level
+- feature level, DX
+- feature level, DirectX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D feature levels
@@ -17,7 +26,7 @@ Each video card implements a certain level of Microsoft DirectX (DX) functionali
 
 With Direct3D 11, a new paradigm is introduced called feature levels. A feature level is a well defined set of GPU functionality. For instance, the 9\_1 feature level implements the functionality that was implemented in Microsoft Direct3D 9, which exposes the capabilities of shader models [ps\_2\_x](https://msdn.microsoft.com/library/windows/desktop/bb219844) and [vs\_2\_x](https://msdn.microsoft.com/library/windows/desktop/bb172929), while the 11\_0 feature level implements the functionality that was implemented in Direct3D 11.
 
-Now when you create a device, you can attempt to create a device for the feature level that you want to request. If the device creation works, that feature level exists, if not, the hardware does not support that feature level. You can either try to recreate a device at a lower feature level or you can choose to exit the application. For more info about creating a device, see the [**D3D11CreateDevice**](d3d11createdevice.md) function.
+Now when you create a device, you can attempt to create a device for the feature level that you want to request. If the device creation works, that feature level exists, if not, the hardware does not support that feature level. You can either try to recreate a device at a lower feature level or you can choose to exit the application. For more info about creating a device, see the [**D3D11CreateDevice**](/windows/win32/D3D11/nf-d3d11-d3d11createdevice?branch=master) function.
 
 Using feature levels, you can develop an application for Direct3D 9, Microsoft Direct3D 10, or Direct3D 11, and then run it on 9, 10 or 11 hardware (with some exceptions; for example, new 11 features will not run on an existing 9 card). Here is a couple of other basic properties of feature levels:
 
@@ -30,7 +39,7 @@ For information about limitations creating nonhardware-type devices on certain f
 
 To assist you in deciding what feature level to design with, compare the features for each feature level.
 
-The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the differences between how various [**ID3D11Device**](id3d11device.md) and [**ID3D11DeviceContext**](id3d11devicecontext.md) methods behave at various 10Level9 feature levels.
+The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the differences between how various [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) and [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) methods behave at various 10Level9 feature levels.
 
 ## Numbering Systems
 
@@ -54,7 +63,7 @@ The headings across the top row are Direct3D feature levels. The headings in the
 | [Tiled resources](tiled-resources.md)                                                                                   | Tier2⁶                    | Tier2⁶                    | Optional                 | Optional                 | No        | No        | No                                             | No                      | No                      |
 | [Conservative Rasterization](conservative-rasterization.md)                                                             | Tier1⁶                    | Optional                  | Optional                 | No                       | No        | No        | No                                             | No                      | No                      |
 | [Rasterizer Order Views](rasterizer-order-views.md)                                                                     | Yes                       | Optional                  | Optional                 | No                       | No        | No        | No                                             | No                      | No                      |
-| [Min/Max Filters](d3d11-filter.md)                                                                                      | Yes                       | Yes                       | Optional                 | No                       | No        | No        | No                                             | No                      | No                      |
+| [Min/Max Filters](/windows/win32/D3D11/ne-d3d11-d3d11_filter?branch=master)                                                                                      | Yes                       | Yes                       | Optional                 | No                       | No        | No        | No                                             | No                      | No                      |
 | Map Default Buffer                                                                                                       | Optional                  | Optional                  | Optional                 | Optional                 | No        | No        | No                                             | No                      | No                      |
 | [Shader Specified Stencil Reference Value](shader-specified-stencil-reference-value.md)                                 | Optional                  | Optional                  | Optional                 | No                       | No        | No        | No                                             | No                      | No                      |
 | Typed Unordered Access View Loads                                                                                        | 18 formats, more optional | 18 formats, more optional | 3 formats, more optional | 3 formats, more optional | No        | No        | No                                             | No                      | No                      |
@@ -69,12 +78,12 @@ The headings across the top row are Direct3D feature levels. The headings in the
 | [Alpha-to-coverage](https://msdn.microsoft.com/library/windows/desktop/bb205072#alpha-to-coverage)         | Yes                       | Yes                       | Yes                      | Yes                      | Yes       | Yes       | No                                             | No                      | No                      |
 | [Extended Formats (BGRA, and so on)](overviews-direct3d-11-devices-downlevel-exceptions.md#extended-formats)            | Yes                       | Yes                       | Yes                      | Yes                      | Optional  | Optional  | Yes                                            | Yes                     | Yes                     |
 | [10-bit XR High Color Format](overviews-direct3d-11-devices-downlevel-exceptions.md#extended-formats)                   | Yes                       | Yes                       | Yes                      | Yes                      | Optional  | Optional  | N/A                                            | N/A                     | N/A                     |
-| [Logic Operations (Output Merger)](d3d11-feature-data-d3d11-options.md)                                                 | Yes                       | Yes                       | Yes                      | Optional¹                | Optional¹ | Optional¹ | No                                             | No                      | No                      |
+| [Logic Operations (Output Merger)](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options?branch=master)                                                 | Yes                       | Yes                       | Yes                      | Optional¹                | Optional¹ | Optional¹ | No                                             | No                      | No                      |
 | Target-independent rasterization                                                                                         | Yes                       | Yes                       | Yes                      | No                       | No        | No        | No                                             | No                      | No                      |
-| [Multiple render target(MRT) with ForcedSampleCount 1](d3d11-feature-data-d3d11-options.md)                             | Yes                       | Yes                       | Yes                      | Optional¹                | Optional¹ | Optional¹ | No                                             | No                      | No                      |
+| [Multiple render target(MRT) with ForcedSampleCount 1](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options?branch=master)                             | Yes                       | Yes                       | Yes                      | Optional¹                | Optional¹ | Optional¹ | No                                             | No                      | No                      |
 | UAV slots                                                                                                                | 64                        | 64                        | 64                       | 8                        | 1         | 1         | N/A                                            | N/A                     | N/A                     |
 | UAVs at every stage                                                                                                      | Yes                       | Yes                       | Yes                      | No                       | No        | No        | N/A                                            | N/A                     | N/A                     |
-| [Max forced sample count for UAV-only rendering](d3d11-feature-data-d3d11-options.md)                                   | 16                        | 16                        | 16                       | 8                        | N/A       | N/A       | N/A                                            | N/A                     | N/A                     |
+| [Max forced sample count for UAV-only rendering](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options?branch=master)                                   | 16                        | 16                        | 16                       | 8                        | N/A       | N/A       | N/A                                            | N/A                     | N/A                     |
 | Constant buffer offsetting and partial updates                                                                           | Yes                       | Yes                       | Yes                      | Optional¹                | Optional¹ | Optional¹ | Yes¹                                           | Yes¹                    | Yes¹                    |
 | 16 bits per pixel (bpp) formats                                                                                          | Yes                       | Yes                       | Yes                      | Optional¹                | Optional¹ | Optional¹ | Optional¹                                      | Optional¹               | Optional¹               |
 | Max Texture Dimension                                                                                                    | 16384                     | 16384                     | 16384                    | 16384                    | 8192      | 8192      | 4096                                           | 2048                    | 2048                    |
@@ -103,9 +112,9 @@ The headings across the top row are Direct3D feature levels. The headings in the
 
 ¹ Requires the Direct3D 11.1 runtime.
 
-² Shader model 5.0 can optionally support double-precision shaders, extended double-precision shaders, the **SAD4** shader instruction, and partial-precision shaders. To determine the shader model 5.0 options that are available, call [**ID3D11Device::CheckFeatureSupport**](id3d11device-checkfeaturesupport.md). Some compatibility depends on what hardware you are running on: Shader model 5.1 is only supported on hardware that supports the DirectX 12 API, regardless of the feature level that's being used. DirectX 11 hardware only supports up to shader model 5.0. The DirectX 12 API only goes down to feature level 11\_0.
+² Shader model 5.0 can optionally support double-precision shaders, extended double-precision shaders, the **SAD4** shader instruction, and partial-precision shaders. To determine the shader model 5.0 options that are available, call [**ID3D11Device::CheckFeatureSupport**](/windows/win32/D3D11/nf-d3d11-id3d11device-checkfeaturesupport?branch=master). Some compatibility depends on what hardware you are running on: Shader model 5.1 is only supported on hardware that supports the DirectX 12 API, regardless of the feature level that's being used. DirectX 11 hardware only supports up to shader model 5.0. The DirectX 12 API only goes down to feature level 11\_0.
 
-³ At feature levels 9\_1, 9\_2 and 9\_3, the display device supports the use of 2-D textures with dimensions that are not powers of two under two conditions. First, only one MIP-map level for each texture can be created, and second, no wrap sampler modes for textures are allowed (that is, the **AddressU**, **AddressV**, and **AddressW** members of [**D3D11\_SAMPLER\_DESC**](d3d11-sampler-desc.md) cannot be set to [**D3D11\_TEXTURE\_ADDRESS\_WRAP**](d3d11-texture-address-mode.md)).
+³ At feature levels 9\_1, 9\_2 and 9\_3, the display device supports the use of 2-D textures with dimensions that are not powers of two under two conditions. First, only one MIP-map level for each texture can be created, and second, no wrap sampler modes for textures are allowed (that is, the **AddressU**, **AddressV**, and **AddressW** members of [**D3D11\_SAMPLER\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_sampler_desc?branch=master) cannot be set to [**D3D11\_TEXTURE\_ADDRESS\_WRAP**](/windows/win32/D3D11/ne-d3d11-d3d11_texture_address_mode?branch=master)).
 
 ⁴ At feature levels 10\_0, 10\_1 and 11\_0, the display device unconditionally supports the use of 2-D textures with dimensions that are not powers of two.
 

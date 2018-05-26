@@ -1,8 +1,9 @@
 ---
 title: WiaDeviceType enumeration
-description: Specifies the type of device attached to a user's computer. Use Type (DeviceInfo) or Type (Device) to obtain these values from the device.
-ms.assetid: '79d53e0f-515f-4f8a-b7a3-d16dfc3822d9'
-keywords: ["WiaDeviceType enumeration WIA Automation"]
+description: Specifies the type of device attached to a users computer. Use Type (DeviceInfo) or Type (Device) to obtain these values from the device.
+ms.assetid: 79d53e0f-515f-4f8a-b7a3-d16dfc3822d9
+keywords:
+- WiaDeviceType enumeration WIA Automation
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WiaDeviceType enumeration
@@ -42,8 +48,8 @@ For example code, see [Determine if the Selected Device is a Camera](-wiaaut-sha
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -62,9 +68,9 @@ For example code, see [Determine if the Selected Device is a Camera](-wiaaut-sha
 [**ShowSelectDevice**](-wiaaut-icommondialog-showselectdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

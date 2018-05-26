@@ -1,7 +1,12 @@
 ---
-Description: 'The ThreadProc method is the thread procedure for the worker thread. This method implements the pure virtual CAMThread::ThreadProc method.'
-ms.assetid: '8e66b609-d795-45a8-8fe5-774c659ee350'
-title: 'CSourceStream.ThreadProc method'
+Description: The ThreadProc method is the thread procedure for the worker thread. This method implements the pure virtual CAMThreadThreadProc method.
+ms.assetid: 8e66b609-d795-45a8-8fe5-774c659ee350
+title: CSourceStream.ThreadProc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.ThreadProc method
@@ -47,9 +52,9 @@ This method waits indefinitely for thread requests, by calling the [**CAMThread:
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

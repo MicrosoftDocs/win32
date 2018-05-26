@@ -1,8 +1,11 @@
 ---
 title: ID3DX11Effect GetTechniqueByName method
 description: Get a technique by name.
-ms.assetid: '0f7fa02c-dfbf-4971-86ad-3429f99f84e0'
-keywords: ["GetTechniqueByName method Direct3D 11", "GetTechniqueByName method Direct3D 11 , ID3DX11Effect interface", "ID3DX11Effect interface Direct3D 11 , GetTechniqueByName method"]
+ms.assetid: 0f7fa02c-dfbf-4971-86ad-3429f99f84e0
+keywords:
+- GetTechniqueByName method Direct3D 11
+- GetTechniqueByName method Direct3D 11 , ID3DX11Effect interface
+- ID3DX11Effect interface Direct3D 11 , GetTechniqueByName method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11Effect::GetTechniqueByName method
@@ -23,7 +31,7 @@ Get a technique by name.
 
 ```C++
 ID3DX11EffectTechnique* GetTechniqueByName(
-   LPCSTR Name
+   LPCSTR Name
 );
 ```
 
@@ -55,7 +63,7 @@ An effect contains one or more techniques; each technique contains one or more p
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ An effect contains one or more techniques; each technique contains one or more p
 [ID3DX11Effect](id3dx11effect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

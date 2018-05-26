@@ -4,13 +4,16 @@ description: Introduces a new instance of SharedSecret in the specified namespac
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a4e04895-9148-441f-b57c-986ef22c1548'
-ms.prod: 'windows-server-dev'
+ms.assetid: a4e04895-9148-441f-b57c-986ef22c1548
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddSharedSecret method iSCSI Software Target API", "AddSharedSecret method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , AddSharedSecret method"]
+keywords:
+- AddSharedSecret method iSCSI Software Target API
+- AddSharedSecret method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , AddSharedSecret method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddSharedSecret method of the CIM\_ReplicationService class
@@ -30,10 +36,10 @@ Introduces a new instance of SharedSecret in the specified namespace and optiona
 
 ```mof
 uint32 AddSharedSecret(
-  [in]  string                     SharedSecret,
-  [in]  CIM_ServiceAccessPoint REF ServiceAccessPoint,
-  [in]  string                     InstanceNamespace,
-  [out] CIM_SharedSecret       REF SharedSecretPath
+  [in]  string                     SharedSecret,
+  [in]  CIM_ServiceAccessPoint REF ServiceAccessPoint,
+  [in]  string                     InstanceNamespace,
+  [out] CIM_SharedSecret       REF SharedSecretPath
 );
 ```
 
@@ -96,10 +102,10 @@ Reference to the created instance.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -109,7 +115,7 @@ Reference to the created instance.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -123,9 +129,9 @@ Reference to the created instance.
 **CIM\_ReplicationService**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The remaining battery life of the device, and the device''s charging state as a string.'
-ms.assetid: 'b0a0600f-db2f-4220-8cd9-d5e71880b267'
-title: 'System.Devices.BatteryPlusChargingText'
+Description: The remaining battery life of the device, and the devices charging state as a string.
+ms.assetid: b0a0600f-db2f-4220-8cd9-d5e71880b267
+title: System.Devices.BatteryPlusChargingText
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.BatteryPlusChargingText

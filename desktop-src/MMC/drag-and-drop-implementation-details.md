@@ -4,11 +4,15 @@ description: The following procedure describes how to implement drag-and-drop fu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '494575ea-a7fb-4baf-a2c3-530ea18ce104'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 494575ea-a7fb-4baf-a2c3-530ea18ce104
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["drag-and-drop operations MMC , implementation details"]
+keywords:
+- drag-and-drop operations MMC , implementation details
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Drag-and-Drop: Implementation Details

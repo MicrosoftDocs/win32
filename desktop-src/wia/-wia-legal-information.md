@@ -1,7 +1,12 @@
 ---
-Description: 'Information in this document, including URL and other Internet Web site references, is subject to change without notice.'
-ms.assetid: '343c8f3c-3172-4e38-b276-082199b2d48b'
+Description: Information in this document, including URL and other Internet Web site references, is subject to change without notice.
+ms.assetid: 343c8f3c-3172-4e38-b276-082199b2d48b
 title: Legal Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Legal Information

@@ -1,8 +1,9 @@
 ---
 title: VMStartupOption enumeration
 description: Specifies the start-up option.
-ms.assetid: 'ac4de9a7-7fc7-4361-89dd-e7da8f5dbb92'
-keywords: ["VMStartupOption enumeration Virtual PC"]
+ms.assetid: ac4de9a7-7fc7-4361-89dd-e7da8f5dbb92
+keywords:
+- VMStartupOption enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMStartupOption enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies the start-up option.
 
@@ -24,8 +30,8 @@ Specifies the start-up option.
 
 ```C++
 typedef enum  { 
-  vmStartupOption_Normal                      = 0,
-  vmStartupOption_FixParentTimestampMismatch  = 1
+  vmStartupOption_Normal                      = 0,
+  vmStartupOption_FixParentTimestampMismatch  = 1
 } VMStartupOption;
 ```
 
@@ -55,9 +61,9 @@ Fix the parent timestamp mismatch.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -70,9 +76,9 @@ Fix the parent timestamp mismatch.
 [**IVMVirtualMachine::Startup2**](ivmvirtualmachine-startup2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: User Account Control for Game Developers
 description: This article describes the guidelines and best practices for game developers to work effectively with the User Account Control (UAC) security feature introduced in Windows Vista.
-ms.assetid: 'dbac1c07-73dd-f2bc-3c5c-d6160368a88f'
+ms.assetid: dbac1c07-73dd-f2bc-3c5c-d6160368a88f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Account Control for Game Developers
@@ -29,12 +34,12 @@ UAC is also responsible for privilege elevation of a process by use of a dialog-
 
 The UAC feature is enabled by default. While it is possible for an administrator to disable UAC system-wide, doing so has a number of negative ramifications. First, this weakens the security of all administrative accounts, as all processes would be run with administrative credentials, even when most applications do not actually require them. With UAC disabled, a standard user application that exposes an exploitable vulnerability in security can potentially be used to steal private information, install rootkits or spyware, destroy the system integrity, or host zombie attacks on other systems. Whereas with UAC enabled, running the majority of software as a standard user greatly limits the potential damage from such a bug. Secondly, turning off UAC disables many of the workarounds for application compatibility that allow true standard users to successfully run a broad range of applications. Disabling UAC should never be recommended as a compatibility workaround.
 
-It is important to note that applications should strive to only use standard user rights if at all possible. While administrators can easily elevate the privileges of a process, the elevation still requires user interaction and acknowledgement every time that an application is run that requires administrative credentials. This elevation must also be done at the time that the program starts, so requiring administrative credentials — even for a single operation — requires exposing the system to greater risk for the entire running time of the application. Standard users without any ability to elevate their privileges are also common in family and business settings. "Run As Administrator" is not a good workaround for compatibility, exposes the user and the system to greater security risk, and creates frustration for users in many situations.
+It is important to note that applications should strive to only use standard user rights if at all possible. While administrators can easily elevate the privileges of a process, the elevation still requires user interaction and acknowledgement every time that an application is run that requires administrative credentials. This elevation must also be done at the time that the program starts, so requiring administrative credentials   even for a single operation   requires exposing the system to greater risk for the entire running time of the application. Standard users without any ability to elevate their privileges are also common in family and business settings. "Run As Administrator" is not a good workaround for compatibility, exposes the user and the system to greater security risk, and creates frustration for users in many situations.
 
 > [!Note]  
 > The User Account Control feature introduced in Windows Vista is also present in Windows 7. While the user experience working with the various system features has been improved with respect to User Account Control, the impact on applications is basically the same. All of the Windows Vista recommendations in this article apply to Windows 7 as well. For details on the UAC UI changes for Windows 7, see [User Interface - User Account Control Dialog Updates](https://msdn.microsoft.com/library/windows/desktop/dd371774).
 
- 
+ 
 
 ## User Accounts in Windows Vista
 
@@ -50,7 +55,7 @@ If your game is already working on Windows XP with limited-user accounts, then t
 
 ## File Access as a Standard User
 
-The aspect of your game most affected by standard user restrictions is file system organization and accessibility. You should never assume that your game can write files to the folder where your game is installed. In Windows Vista for instance, a user’s privileges must be elevated by the operating system before an application can write to the Program Files folder. To avoid this, you should categorize your game’s data files by scope and accessibility, and use the [**SHGetFolderPath**](https://msdn.microsoft.com/library/windows/desktop/bb762181) function, along with the CSIDL constants provided by the Windows shell, to generate the appropriate file paths. The CSIDL constants correspond to known folders in the file system that the operating system uses and promotes to partition global and user-specific files.
+The aspect of your game most affected by standard user restrictions is file system organization and accessibility. You should never assume that your game can write files to the folder where your game is installed. In Windows Vista for instance, a user s privileges must be elevated by the operating system before an application can write to the Program Files folder. To avoid this, you should categorize your game s data files by scope and accessibility, and use the [**SHGetFolderPath**](https://msdn.microsoft.com/library/windows/desktop/bb762181) function, along with the CSIDL constants provided by the Windows shell, to generate the appropriate file paths. The CSIDL constants correspond to known folders in the file system that the operating system uses and promotes to partition global and user-specific files.
 
 Attempting to create or write a file or directory under a folder which does not grant write permission to the process will fail under Windows Vista if the application does not have administrative privileges. If your 32-bit game executable is running in legacy mode, because it did not declare a requested execution level, its write operations will succeed, but they will be subjected to virtualization as described in the section "UAC Compatibility with Older Games" later in this article.
 
@@ -63,11 +68,11 @@ Attempting to create or write a file or directory under a folder which does not 
 | CSIDL\_PERSONAL        | C:\\Users\\user name\\Documents                                                | Read/Write           | Read/Write           | Per-User     | User-specific game files that are read and modified and can be manipulated outside of the game context.                          | Screen shots. Saved game files with a file extension association. |
 | CSIDL\_LOCAL\_APPDATA  | C:\\Users\\user name\\AppData\\Local                                           | Read/Write           | Read/Write           | Per-User     | User-specific game files that are read and modified and are of use only within the game context.                                 | Game cache files. Player configurations.                          |
 | CSIDL\_COMMON\_APPDATA | C:\\ProgramData                                                                | Read/Write if owner  | Read/Write           | All Users    | Game files that can be created by a user and read by all users. Write access is granted only to the creator of the file (owner). | User Profiles                                                     |
-| CSIDL\_PROGRAM\_FILES  | C:\\Program Files<br/> or<br/> C:\\Program Files (x86) <br/> | Read only            | Read/Write           | All Users    | Static game files written by the game’s installer that are read by all users.                                                    | Game assets, such as materials and meshes.                        |
+| CSIDL\_PROGRAM\_FILES  | C:\\Program Files<br/> or<br/> C:\\Program Files (x86) <br/> | Read only            | Read/Write           | All Users    | Static game files written by the game s installer that are read by all users.                                                    | Game assets, such as materials and meshes.                        |
 
 
 
- 
+ 
 
 Your game will typically be installed in a folder under the folder represented by the CSIDL\_PROGRAM\_FILES constant. However, this is not always the case. You should instead use a relative path from your executable file when generating path strings to files or directories located under your installation folder.
 
@@ -141,7 +146,7 @@ If the current user is an administrator, UAC prompts the user for permission bef
 
 The application will only be granted administrative privileges if a standard user provides the proper administrative credentials or an administrative user provides acknowledgement; anything else will cause the application to terminate.
 
-It is important to note that a process with elevated privileges runs as the administrative user who entered credentials in the UAC prompt rather than as the standard user who is currently logged in. This is similar to **RunAs** in Windows XP — the elevated process gets the administrator's folder and registry keys when accessing per-user data, and all programs that the elevated process launches also inherit both the administrative rights and user account locations. For administrators who are prompted for acknowledgement (**Continue** or **Cancel**), these locations will match the currently user's locations. In general, however, processes that require elevation should not operate on per-user data. Note that this can substantially affect how your installer must operate! If the installer, running as an administrator, writes to HKCU or to a user's profile, it may very well be writing to the wrong location. Consider creating these per-user values upon the first run of the game.
+It is important to note that a process with elevated privileges runs as the administrative user who entered credentials in the UAC prompt rather than as the standard user who is currently logged in. This is similar to **RunAs** in Windows XP   the elevated process gets the administrator's folder and registry keys when accessing per-user data, and all programs that the elevated process launches also inherit both the administrative rights and user account locations. For administrators who are prompted for acknowledgement (**Continue** or **Cancel**), these locations will match the currently user's locations. In general, however, processes that require elevation should not operate on per-user data. Note that this can substantially affect how your installer must operate! If the installer, running as an administrator, writes to HKCU or to a user's profile, it may very well be writing to the wrong location. Consider creating these per-user values upon the first run of the game.
 
 ## UAC Implications with CreateProcess()
 
@@ -149,7 +154,7 @@ The UAC elevation mechanism will not be invoked from a call to the Win32 [**Crea
 
 ## Setting the Execution Level in the Application Manifest
 
-You declare the requested execution level of your game by adding an extension to the application’s manifest. The following XML code shows the minimal configuration required to set the execution level for an application:
+You declare the requested execution level of your game by adding an extension to the application s manifest. The following XML code shows the minimal configuration required to set the execution level for an application:
 
 ``` syntax
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -170,7 +175,7 @@ In the preceding code, the operating system is informed that the game only requi
 <ms_asmv2:requestedExecutionLevel level="asInvoker" uiAccess="false" />
 ```
 
-By explicitly setting requestedExecutionLevel to "asInvoker", this example asserts to the operating system that the game will behave properly without administrative privileges. As a result, UAC disables virtualization and runs the game with the same privileges as the invoker — which is typically standard user privileges, since Windows Explorer runs as standard user.
+By explicitly setting requestedExecutionLevel to "asInvoker", this example asserts to the operating system that the game will behave properly without administrative privileges. As a result, UAC disables virtualization and runs the game with the same privileges as the invoker   which is typically standard user privileges, since Windows Explorer runs as standard user.
 
 The operating system can be informed a game requires elevation to administrative privileges by replacing "asInvoker" with "requireAdministrator", to create the following tag:
 
@@ -195,7 +200,7 @@ The manifest that is auto-generated by Visual Studio 2005 will not contain a &lt
 > [!Note]  
 > There is a bug in the Manifest Tool (mt.exe) provided by Visual Studio 2005 that results in a merged and embedded manifest which can cause problems when the executable is run on Windows XP prior to SP3. The bug is a result of how the tool redefines the default namespace upon declaration of the &lt;trustInfo&gt; block. Fortunately, it is easy to bypass the issue entirely by explicitly declaring a different namespace in the &lt;trustInfo&gt; block and by scoping the child nodes to the new namespace. The XML provided in the previous section demonstrates this fix.
 
- 
+ 
 
 A caveat in using the mt.exe tool included in Visual Studio 2005 is that it will generate a warning when processing the &lt;trustInfo&gt; block as the tool does not contain an updated schema to validate the XML against. To remedy this warning, it is recommended that you replace all mt.exe files under the Visual Studio 2005 install directory (there are multiple instances) with the mt.exe provided in the latest Windows SDK.
 
@@ -233,7 +238,7 @@ it will be redirected instead to:
 
 Files and registry keys affected by virtualization are only be accessed by file and registry operations from virtualized applications that are running as the current user.
 
-However, there are many restrictions to virtualization. One is that 64-bit applications are never run in legacy mode for compatibility — operations subjected to virtualization in 32-bit applications will just fail in 64-bit. Also if a legacy application running as a standard user tries to write any type of executable file to a location that requires administrative credentials, then virtualization will not occur and the write will fail.
+However, there are many restrictions to virtualization. One is that 64-bit applications are never run in legacy mode for compatibility   operations subjected to virtualization in 32-bit applications will just fail in 64-bit. Also if a legacy application running as a standard user tries to write any type of executable file to a location that requires administrative credentials, then virtualization will not occur and the write will fail.
 
 **Figure 4. Virtualization Process**
 
@@ -247,15 +252,15 @@ Note that if UAC is disabled, then virtualization is also disabled. If virtualiz
 
 ## Legacy Scenarios and Manifests
 
-For the majority of usage scenarios, simply marking the .exe with the correct UAC manifest elements and ensuring the application works correctly as a Standard User is sufficient for excellent UAC compatibility. Most gamers are running Windows Vista or Windows 7 with User Account Control enabled. For Windows XP and users on Windows Vista or Windows7 with the User Account Control feature disabled, they typically run using administrator accounts. While this is a less secure mode of operation, it will generally not run into any additional compatibility issues—although as noted above, disabling UAC disables virtualization as well.
+For the majority of usage scenarios, simply marking the .exe with the correct UAC manifest elements and ensuring the application works correctly as a Standard User is sufficient for excellent UAC compatibility. Most gamers are running Windows Vista or Windows 7 with User Account Control enabled. For Windows XP and users on Windows Vista or Windows7 with the User Account Control feature disabled, they typically run using administrator accounts. While this is a less secure mode of operation, it will generally not run into any additional compatibility issues although as noted above, disabling UAC disables virtualization as well.
 
 There is a special case worth noting when the program is marked as "requireAdministrator" in the UAC manifest. On Windows XP and on Windows Vista or Windows 7 with User Account Control disabled, the UAC manifest elements are ignored by the system. In this situation, users with administrator accounts will always run all programs with full administrator rights, and thus these programs will function as expected. Windows XP Restricted Users and Standard Users running on Windows Vista or Windows 7, however, will always run these programs with restricted rights and all administrator-level operations will fail. It is therefore recommended that programs marked as "requiretAdministrator" call [**IsUserAnAdmin**](https://msdn.microsoft.com/library/windows/desktop/bb776463) on startup, and display a fatal error message if it returns FALSE. For the majority scenario above, this will always succeed, but provides a better user experience and a clear error message for this rare situation.
 
 ## Conclusion
 
-As a game developer targeting the Windows multi-user environment, it is imperative that you design your game to operate effectively and responsibly. Your game's main executable file should not be dependent on administrative privileges. This not only prevents the appearance of prompts for elevation every time that your game is run — which can negatively impact the overall user experience — but it also enables your game to take advantage of other features that require execution with standard user privileges, such as Parental Controls.
+As a game developer targeting the Windows multi-user environment, it is imperative that you design your game to operate effectively and responsibly. Your game's main executable file should not be dependent on administrative privileges. This not only prevents the appearance of prompts for elevation every time that your game is run   which can negatively impact the overall user experience   but it also enables your game to take advantage of other features that require execution with standard user privileges, such as Parental Controls.
 
-Applications that are properly designed to operate as with the credentials of a standard user (or limited user) under previous versions of Windows will not be impacted by UAC — they will run without elevation. However, they should include a manifest with their requested execution level set to "asInvoker" to conform to application standards for Vista.
+Applications that are properly designed to operate as with the credentials of a standard user (or limited user) under previous versions of Windows will not be impacted by UAC   they will run without elevation. However, they should include a manifest with their requested execution level set to "asInvoker" to conform to application standards for Vista.
 
 ## Further Reading
 
@@ -269,9 +274,9 @@ Another useful resource is the article [Teach Your Apps To Play Nicely with Wind
 
 For more information about the bug and the fix for mt.exe, the tool used by Visual Studio 2005 to automatically merge and embed a manifest into an executable, see [Exploring Manifests Part 2: Default Namespaces and UAC Manifests in Windows Vista](http://blogs.msdn.com/b/cjacks/archive/2006/09/08/745729.aspx) on Chris Jackson's blog on [MSDN](http://blogs.msdn.com/).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IWiaSegmentationFilter interface detects sub-regions of an image stream and makes separate IWiaItem2 items for each.'
-ms.assetid: 'eb7f1284-ab98-4d86-8b30-7abd504cee12'
+---
+Description: The IWiaSegmentationFilter interface detects sub-regions of an image stream and makes separate IWiaItem2 items for each.
+ms.assetid: eb7f1284-ab98-4d86-8b30-7abd504cee12
 title: IWiaSegmentationFilter interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaSegmentationFilter interface

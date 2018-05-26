@@ -1,8 +1,11 @@
 ---
 title: PlaylistCollection.setDeleted method
 description: The setDeleted method moves a playlist to the deleted items folder.
-ms.assetid: 'c41f7e89-11c8-4d55-91eb-a89e6f39e56b'
-keywords: ["setDeleted method Windows Media Player", "setDeleted method Windows Media Player , PlaylistCollection class", "PlaylistCollection class Windows Media Player , setDeleted method"]
+ms.assetid: c41f7e89-11c8-4d55-91eb-a89e6f39e56b
+keywords:
+- setDeleted method Windows Media Player
+- setDeleted method Windows Media Player , PlaylistCollection class
+- PlaylistCollection class Windows Media Player , setDeleted method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistCollection.setDeleted method
@@ -73,9 +81,9 @@ This method does not return a value.
 [**PlaylistCollection Object**](playlistcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

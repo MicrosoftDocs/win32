@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains information about the dialog box displayed by the CryptUIDlgSelectCertificate function.'
-ms.assetid: '073a67a0-427b-4b81-82a0-1bb0a216a335'
-title: 'CRYPTUI\_SELECTCERTIFICATE\_STRUCT structure'
+---
+Description: Contains information about the dialog box displayed by the CryptUIDlgSelectCertificate function.
+ms.assetid: 073a67a0-427b-4b81-82a0-1bb0a216a335
+title: CRYPTUI\_SELECTCERTIFICATE\_STRUCT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRYPTUI\_SELECTCERTIFICATE\_STRUCT structure
@@ -111,7 +116,7 @@ Text that is displayed in the dialog box to instruct the user. If the value of t
 **pFilterCallback**
 </dt> <dd>
 
-A pointer to a [**PFNCFILTERPROC**](pfncfilterproc.md) callback function that filters the certificates that are displayed in the dialog box.
+A pointer to a [**PFNCFILTERPROC**](/windows/win32/Cryptuiapi/nc-cryptuiapi-pfncfilterproc?branch=master) callback function that filters the certificates that are displayed in the dialog box.
 
 </dd> <dt>
 

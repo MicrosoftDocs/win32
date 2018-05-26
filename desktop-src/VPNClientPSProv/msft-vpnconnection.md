@@ -2,11 +2,13 @@
 title: MSFT\_VpnConnection class
 description: The MSFT\_VpnConnection class provides a method to configure a virtual private network (VPN) connection profile.
 audience: developer
-ms.assetid: '8be81e82-55fd-4784-ba10-5431d76d40b8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 8be81e82-55fd-4784-ba10-5431d76d40b8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_VpnConnection class", "MSFT_VpnConnection class, described"]
+keywords:
+- MSFT_VpnConnection class
+- MSFT_VpnConnection class, described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_VpnConnection class
@@ -33,8 +38,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_VpnConnection
 {
   boolean AllUserConnection;
-  string  Name;
-  string  Profile;
+  string  Name;
+  string  Profile;
 };
 ```
 
@@ -57,7 +62,7 @@ The **MSFT\_VpnConnection** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -116,8 +121,8 @@ The serialized and encoded string form of the VPN connection profile.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -131,9 +136,9 @@ The serialized and encoded string form of the VPN connection profile.
 [**VpnConnection**](vpnconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

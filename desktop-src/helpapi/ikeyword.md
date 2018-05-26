@@ -1,8 +1,10 @@
 ---
 title: IKeyword interface
 description: Help Keyword interface, contains methods to retrieve keyword information
-ms.assetid: 'f82142fb-e1d8-4db2-8dbe-6037cc35bda4'
-keywords: ["IKeyword interface HelpAPI", "IKeyword interface HelpAPI , described"]
+ms.assetid: f82142fb-e1d8-4db2-8dbe-6037cc35bda4
+keywords:
+- IKeyword interface HelpAPI
+- IKeyword interface HelpAPI , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IKeyword interface
@@ -38,7 +45,7 @@ The **IKeyword** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -46,15 +53,15 @@ The **IKeyword** interface has these properties.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

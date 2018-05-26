@@ -4,17 +4,22 @@ description: A bitfield that maintains information about aspects of an NC replic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8e838e7b-b19f-4c9e-8fb9-cf9f1076af56'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8e838e7b-b19f-4c9e-8fb9-cf9f1076af56
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-NC-Type attribute AD Schema", "msDS-NcType attribute AD Schema"]
+keywords:
+- ms-DS-NC-Type attribute AD Schema
+- msDS-NcType attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-NC-Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-NC-Type attribute
@@ -38,9 +43,9 @@ A bitfield that maintains information about aspects of an NC replica that is rel
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ A bitfield that maintains information about aspects of an NC replica that is rel
 
 
 
- 
+ 
 
- 
+ 
 
 
 

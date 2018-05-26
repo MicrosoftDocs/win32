@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'f4c21c8b-7886-4e7c-b8d8-21c4d12b9e57'
-title: 'System.Contact.OtherAddress2Locality'
+Description: .
+ms.assetid: f4c21c8b-7886-4e7c-b8d8-21c4d12b9e57
+title: System.Contact.OtherAddress2Locality
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.OtherAddress2Locality

@@ -1,14 +1,20 @@
 ---
 title: VIDEO.backgroundColor
 description: The backgroundColor attribute specifies or retrieves the background color of the Video control.
-ms.assetid: '7acf7dc8-80c3-4620-ad89-4c8de20d17ee'
-keywords: ["VIDEO.backgroundColor Windows Media Player"]
+ms.assetid: 7acf7dc8-80c3-4620-ad89-4c8de20d17ee
+keywords:
+- VIDEO.backgroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEO.backgroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEO.backgroundColor
@@ -50,9 +56,9 @@ When the video is smaller than the window and **stretchToFit** is false, the bac
 [**VIDEO.stretchToFit**](video-stretchtofit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

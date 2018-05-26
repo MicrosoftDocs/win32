@@ -1,7 +1,12 @@
 ---
 title: Pointers and RPC
 description: It is very efficient to use pointers as C-function parameters.
-ms.assetid: '5792bd45-9c2a-4dd2-b050-17082fd0c929'
+ms.assetid: 5792bd45-9c2a-4dd2-b050-17082fd0c929
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pointers and RPC

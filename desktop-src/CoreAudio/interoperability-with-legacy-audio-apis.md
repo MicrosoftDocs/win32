@@ -1,7 +1,12 @@
 ---
 Description: Interoperability with Legacy Audio APIs
-ms.assetid: '34939f6d-a6e4-4f7a-afa3-b1fed52b471f'
+ms.assetid: 34939f6d-a6e4-4f7a-afa3-b1fed52b471f
 title: Interoperability with Legacy Audio APIs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interoperability with Legacy Audio APIs

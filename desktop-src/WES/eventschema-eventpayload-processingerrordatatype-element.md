@@ -1,14 +1,20 @@
 ---
 title: EventPayload (ProcessingErrorDataType) Element
 description: Contains binary event data for the event that caused an error when the event data was processed.
-ms.assetid: '0ba72d72-8f43-40ca-b3ee-89fe27a4dd07'
-keywords: ["EventPayload element EventLog"]
+ms.assetid: 0ba72d72-8f43-40ca-b3ee-89fe27a4dd07
+keywords:
+- EventPayload element EventLog
 topic_type:
 - apiref
 api_name:
 - EventPayload
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventPayload (ProcessingErrorDataType) Element
@@ -29,8 +35,8 @@ The **EventPayload** element is defined by the [**ProcessingErrorDataType**](eve
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **EventPayload** element is defined by the [**ProcessingErrorDataType**](eve
 [**ProcessingErrorData (EventType)**](eventschema-processingerrordata-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork getProxyExceptionList method
 description: The getProxyExceptionList method returns the proxy exception list.
-ms.assetid: '1b209d75-0fa7-420e-831c-160f3826cf3a'
-keywords: ["getProxyExceptionList method Windows Media Player", "getProxyExceptionList method Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , getProxyExceptionList method"]
+ms.assetid: 1b209d75-0fa7-420e-831c-160f3826cf3a
+keywords:
+- getProxyExceptionList method Windows Media Player
+- getProxyExceptionList method Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , getProxyExceptionList method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::getProxyExceptionList method
@@ -170,9 +178,9 @@ proxyExceptionList.Lines = proxyExList</code></pre></td>
 [**IWMPNetwork.setProxyExceptionList (VB and C#)**](wmplibiwmpnetwork-iwmpnetwork-setproxyexceptionlist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

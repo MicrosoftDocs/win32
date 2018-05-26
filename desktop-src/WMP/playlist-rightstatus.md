@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.rightStatus
 description: The rightStatus attribute specifies or retrieves the status text that is displayed on the right side and bottom of the PLAYLIST element.
-ms.assetid: '82861572-ee8d-4780-a890-f018662499ff'
-keywords: ["PLAYLIST.rightStatus Windows Media Player"]
+ms.assetid: 82861572-ee8d-4780-a890-f018662499ff
+keywords:
+- PLAYLIST.rightStatus Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.rightStatus
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.rightStatus
@@ -48,7 +54,7 @@ The following keywords can be used.
 
 
 
- 
+ 
 
 The value "Total Time: %duration%" for a playlist that contains a total duration of seven minutes will display "Total Time: 07:00".
 
@@ -69,9 +75,9 @@ The value "Total Time: %duration%" for a playlist that contains a total duration
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

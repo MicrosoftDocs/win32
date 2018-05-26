@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DisplayName property is a null-terminated string that contains the user-friendly name to associate with the fax job.'
-ms.assetid: 'f8dd3a5a-9f3d-4c3e-b023-ee9f9aef2930'
-title: 'FaxJob.DisplayName property'
+---
+Description: The DisplayName property is a null-terminated string that contains the user-friendly name to associate with the fax job.
+ms.assetid: f8dd3a5a-9f3d-4c3e-b023-ee9f9aef2930
+title: FaxJob.DisplayName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.DisplayName property
@@ -55,10 +60,10 @@ You can use the [**JobId**](-mfax-ifaxjob-get-jobid-vb.md) property to uniquely 
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> <dt>
 
 [**JobId**](-mfax-ifaxjob-get-jobid-vb.md)

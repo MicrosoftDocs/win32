@@ -1,8 +1,18 @@
 ---
 title: Output Protection Levels
 description: Output Protection Levels
-ms.assetid: '6232ecd4-9829-4de3-9810-70e3d3c129a9'
-keywords: ["Windows Media Format SDK,output protection levels (OPL)", "digital rights management (DRM),output protection levels (OPL)", "DRM (digital rights management),output protection levels (OPL)", "output protection levels (OPL)", "OPL (output protection levels)"]
+ms.assetid: 6232ecd4-9829-4de3-9810-70e3d3c129a9
+keywords:
+- Windows Media Format SDK,output protection levels (OPL)
+- digital rights management (DRM),output protection levels (OPL)
+- DRM (digital rights management),output protection levels (OPL)
+- output protection levels (OPL)
+- OPL (output protection levels)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Output Protection Levels

@@ -1,8 +1,11 @@
 ---
 title: SetClientCertificateById method of the BitsClientJob class
 description: The SetClientCertificateById method sets the client certificate to use for client authentication in an HTTPS (SSL) request.
-ms.assetid: '79391c4b-9d46-4e36-83d6-a09e41e7d611'
-keywords: ["SetClientCertificateById method", "SetClientCertificateById method, BitsClientJob class", "BitsClientJob class, SetClientCertificateById method"]
+ms.assetid: 79391c4b-9d46-4e36-83d6-a09e41e7d611
+keywords:
+- SetClientCertificateById method
+- SetClientCertificateById method, BitsClientJob class
+- BitsClientJob class, SetClientCertificateById method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - bits2_5.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetClientCertificateById method of the BitsClientJob class
@@ -22,9 +30,9 @@ The **SetClientCertificateById** method sets the client certificate to use for c
 
 ```mof
 uint32 SetClientCertificateById(
-  [in] uint16 CertStoreLocation,
-  [in] string StoreName,
-  [in] uint8  CertHash[]
+  [in] uint16 CertStoreLocation,
+  [in] string StoreName,
+  [in] uint8  CertHash[]
 );
 ```
 
@@ -54,7 +62,7 @@ Defines the location of the client certificate store. This parameter can be set 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -79,8 +87,8 @@ Specifies the SHA1 hash that identifies the certificate.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | Header<br/>                   | <dl> <dt>Bits2\_5.h</dt> </dl>       |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
@@ -94,9 +102,9 @@ Specifies the SHA1 hash that identifies the certificate.
 [**BitsClientJob**](bitsclientjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

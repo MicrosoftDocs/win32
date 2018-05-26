@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a system with a logical device that is a component of the system.'
-ms.assetid: 'd5a36f71-5ebe-46e2-aaa9-5d99fa075d31'
-title: 'CIM\_SystemDevice class'
+Description: Associates a system with a logical device that is a component of the system.
+ms.assetid: d5a36f71-5ebe-46e2-aaa9-5d99fa075d31
+title: CIM\_SystemDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SystemDevice class
@@ -14,7 +19,7 @@ Associates a system with a logical device that is a component of the system.
 [Association, Aggregation, Composition, Abstract, Version("2.10.0"), UMLPackagePath("CIM::Core::Device"), AMENDMENT]
 class CIM_SystemDevice : CIM_SystemComponent
 {
-  CIM_System        REF GroupComponent;
+  CIM_System        REF GroupComponent;
   CIM_LogicalDevice REF PartComponent;
 };
 ```
@@ -69,8 +74,8 @@ A [**CIM\_LogicalDevice**](cim-logicaldevice.md) reference to the logical device
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ A [**CIM\_LogicalDevice**](cim-logicaldevice.md) reference to the logical device
 [**CIM\_SystemComponent**](cim-systemcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

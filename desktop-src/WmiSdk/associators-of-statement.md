@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves all instances that are associated with a particular source instance.'
+Description: Retrieves all instances that are associated with a particular source instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd6bd9643-523d-4d81-8bf1-da52ccc7524d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d6bd9643-523d-4d81-8bf1-da52ccc7524d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ASSOCIATORS OF Statement
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ASSOCIATORS OF Statement

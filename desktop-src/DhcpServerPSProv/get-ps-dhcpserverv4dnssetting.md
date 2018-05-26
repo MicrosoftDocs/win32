@@ -4,13 +4,16 @@ description: Gets the DNS Update settings configured for a specific scope or res
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '162babdc-2bc6-4707-bada-4124d4d0e731'
-ms.prod: 'windows-server-dev'
+ms.assetid: 162babdc-2bc6-4707-bada-4124d4d0e731
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv4DnsSetting class", "PS_DhcpServerv4DnsSetting class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv4DnsSetting class
+- PS_DhcpServerv4DnsSetting class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv4DnsSetting class
@@ -30,11 +36,11 @@ Gets the DNS Update settings configured for a specific scope or reservation or s
 
 ```mof
 uint32 Get(
-  [in]  string                 IPAddress,
-  [in]  string                 ScopeId,
-  [in]  string                 ComputerName,
-  [in]  string                 PolicyName,
-  [out] DhcpServerv4DnsSetting cmdletOutput
+  [in]  string                 IPAddress,
+  [in]  string                 ScopeId,
+  [in]  string                 ComputerName,
+  [in]  string                 PolicyName,
+  [out] DhcpServerv4DnsSetting cmdletOutput
 );
 ```
 
@@ -70,7 +76,7 @@ DNS name or IP address of the target computer running the DHCP server service.
 
 Specifies the policy for which DNS settings are to be modified.
 
-**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -88,7 +94,7 @@ An embedded instance of a [**DhcpServerv4DnsSetting**](dhcpserverv4dnssetting.md
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -102,9 +108,9 @@ An embedded instance of a [**DhcpServerv4DnsSetting**](dhcpserverv4dnssetting.md
 [**PS\_DhcpServerv4DnsSetting**](ps-dhcpserverv4dnssetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

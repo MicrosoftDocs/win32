@@ -1,7 +1,12 @@
 ---
 title: FMAPI Enumerations
-ms.assetid: 'eab36aac-d62d-4041-95fa-52eabe4379f2'
+ms.assetid: eab36aac-d62d-4041-95fa-52eabe4379f2
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FMAPI Enumerations

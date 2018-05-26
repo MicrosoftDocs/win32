@@ -4,11 +4,16 @@ description: The Name property returns the name of the property. This property i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5734191f-9fc4-4970-bcfb-38cdaac47c66'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5734191f-9fc4-4970-bcfb-38cdaac47c66
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Name property MMC", "Name property MMC , Property object", "Property object MMC , Name property", "Name property MMC , Property interface", "Property interface MMC , Name property"]
+keywords:
+- Name property MMC
+- Name property MMC , Property object
+- Property object MMC , Name property
+- Name property MMC , Property interface
+- Property interface MMC , Name property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Property::Name property
@@ -43,8 +51,8 @@ The name of the property.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -59,9 +67,9 @@ The name of the property.
 [**Property.Value**](property-value.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

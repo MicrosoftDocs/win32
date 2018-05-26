@@ -1,8 +1,11 @@
 ---
 title: IMimeSecurity EncodeMessage method
 description: Encodes the body of the specified IMimeMessageTree object using Secure/Multipurpose Internet Mail Extensions (S/MIME).
-ms.assetid: '5ed8830f-9320-4932-ab81-f01f9be2ccc8'
-keywords: ["EncodeMessage method Windows Mail (formerly Outlook Express)", "EncodeMessage method Windows Mail (formerly Outlook Express) , IMimeSecurity interface", "IMimeSecurity interface Windows Mail (formerly Outlook Express) , EncodeMessage method"]
+ms.assetid: 5ed8830f-9320-4932-ab81-f01f9be2ccc8
+keywords:
+- EncodeMessage method Windows Mail (formerly Outlook Express)
+- EncodeMessage method Windows Mail (formerly Outlook Express) , IMimeSecurity interface
+- IMimeSecurity interface Windows Mail (formerly Outlook Express) , EncodeMessage method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeSecurity::EncodeMessage method
@@ -22,8 +30,8 @@ Encodes the body of the specified [**IMimeMessageTree**](oe-imimemessagetree.md)
 
 ```C++
 HRESULT EncodeMessage(
-  [in] IMimeMessageTree pTree,
-  [in] DWORD            dwFlags
+  [in] IMimeMessageTree pTree,
+  [in] DWORD            dwFlags
 );
 ```
 
@@ -84,7 +92,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -96,8 +104,8 @@ S/MIME is the version of MIME.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -105,9 +113,9 @@ S/MIME is the version of MIME.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

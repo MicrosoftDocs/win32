@@ -4,13 +4,18 @@ description: Represents the configuration of an SMB server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ae50d789-4cce-4c27-b50d-813d467ffc2a'
-ms.prod: 'windows-server-dev'
+ms.assetid: ae50d789-4cce-4c27-b50d-813d467ffc2a
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SmbServerConfiguration class SMB", "MSFT_SmbServerConfiguration class SMB , described"]
+keywords:
+- MSFT_SmbServerConfiguration class SMB
+- MSFT_SmbServerConfiguration class SMB , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SmbServerConfiguration class
@@ -26,39 +31,39 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_SmbServerConfiguration
 {
   boolean AnnounceServer;
-  uint32  AsynchronousCredits;
+  uint32  AsynchronousCredits;
   boolean AutoShareServer;
   boolean AutoShareWorkstation;
-  uint32  CachedOpenLimit;
-  string  AnnounceComment;
+  uint32  CachedOpenLimit;
+  string  AnnounceComment;
   boolean EnableDownlevelTimewarp;
   boolean EnableLeasing;
   boolean EnableMultiChannel;
   boolean EnableStrictNameChecking;
-  uint32  AutoDisconnectTimeout;
-  uint32  DurableHandleV2TimeoutInSeconds;
+  uint32  AutoDisconnectTimeout;
+  uint32  DurableHandleV2TimeoutInSeconds;
   boolean EnableAuthenticateUserSharing;
   boolean EnableForcedLogoff;
   boolean EnableOplocks;
   boolean EnableSecuritySignature;
   boolean ServerHidden;
-  uint32  IrpStackSize;
-  uint32  KeepAliveTime;
-  uint32  MaxChannelPerSession;
-  uint32  MaxMpxCount;
-  uint32  MaxSessionPerConnection;
-  uint32  MaxThreadsPerQueue;
-  uint32  MaxWorkItems;
-  string  NullSessionPipes;
-  string  NullSessionShares;
-  uint32  OplockBreakWait;
-  uint32  PendingClientTimeoutInSeconds;
+  uint32  IrpStackSize;
+  uint32  KeepAliveTime;
+  uint32  MaxChannelPerSession;
+  uint32  MaxMpxCount;
+  uint32  MaxSessionPerConnection;
+  uint32  MaxThreadsPerQueue;
+  uint32  MaxWorkItems;
+  string  NullSessionPipes;
+  string  NullSessionShares;
+  uint32  OplockBreakWait;
+  uint32  PendingClientTimeoutInSeconds;
   boolean RequireSecuritySignature;
   boolean EnableSMB1Protocol;
   boolean EnableSMB2Protocol;
-  uint32  Smb2CreditsMax;
-  uint32  Smb2CreditsMin;
-  uint32  SmbServerNameHardeningLevel;
+  uint32  Smb2CreditsMax;
+  uint32  Smb2CreditsMin;
+  uint32  SmbServerNameHardeningLevel;
   boolean TreatHostAsStableStorage;
   boolean ValidateAliasNotCircular;
   boolean ValidateShareScope;
@@ -90,7 +95,7 @@ The **MSFT\_SmbServerConfiguration** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -148,7 +153,7 @@ Access type: Read/write
 
 TBD.
 
-**Windows Server 2012 R2, Windows 8.1, Windows Server 2012 and Windows 8:** This property is not supported before Windows Server 2016 and Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012 and Windows 8:** This property is not supported before Windows Server 2016 and Windows 10.
 
 </dd> <dt>
 
@@ -652,17 +657,17 @@ Controls whether to validate target name on alias creation.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>SmbWmiV2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IUIAutomationElement8 CurrentHeadingLevel property
 description: Gets the current heading level of the automation element.
-ms.assetid: '0D93F1BA-E95A-436F-82EC-4191AD5D9074'
-keywords: ["CurrentHeadingLevel property Windows Accessibility", "CurrentHeadingLevel property Windows Accessibility , IUIAutomationElement8 interface", "IUIAutomationElement8 interface Windows Accessibility , CurrentHeadingLevel property"]
+ms.assetid: 0D93F1BA-E95A-436F-82EC-4191AD5D9074
+keywords:
+- CurrentHeadingLevel property Windows Accessibility
+- CurrentHeadingLevel property Windows Accessibility , IUIAutomationElement8 interface
+- IUIAutomationElement8 interface Windows Accessibility , CurrentHeadingLevel property
 topic_type:
 - apiref
 api_name:
@@ -10,6 +13,11 @@ api_name:
 - IUIAutomationElement8.get_CurrentHeadingLevel
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IUIAutomationElement8::CurrentHeadingLevel property

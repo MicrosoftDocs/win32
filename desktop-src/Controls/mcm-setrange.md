@@ -1,8 +1,9 @@
 ---
 title: MCM\_SETRANGE message
 description: Sets the minimum and maximum allowable dates for a month calendar control. You can send this message explicitly or by using the MonthCal\_SetRange macro.
-ms.assetid: 'dab9ebb0-f397-4e71-b060-ef8d7d89a6bc'
-keywords: ["MCM_SETRANGE message Windows Controls"]
+ms.assetid: dab9ebb0-f397-4e71-b060-ef8d7d89a6bc
+keywords:
+- MCM_SETRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_SETRANGE message
 
-Sets the minimum and maximum allowable dates for a month calendar control. You can send this message explicitly or by using the [**MonthCal\_SetRange**](monthcal-setrange.md) macro.
+Sets the minimum and maximum allowable dates for a month calendar control. You can send this message explicitly or by using the [**MonthCal\_SetRange**](/windows/win32/Commctrl/nf-commctrl-monthcal_setrange?branch=master) macro.
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Flag values that specify which date limits are being set. This value must be one
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -56,8 +62,8 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -69,9 +75,9 @@ Returns nonzero if successful, or zero otherwise.
 [Times in the Month Calendar Control](month-calendar-controls.md#times-in-the-month-calendar-control)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

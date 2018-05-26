@@ -4,11 +4,14 @@ description: Constructor for UserRoles object.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.UserRoles.UserRoles'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.UserRoles.UserRoles
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserRoles constructor", "UserRoles constructor, UserRoles class", "UserRoles class, UserRoles constructor"]
+keywords:
+- UserRoles constructor
+- UserRoles constructor, UserRoles class
+- UserRoles class, UserRoles constructor
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserRoles.UserRoles constructor
@@ -81,9 +87,9 @@ Roles
 [**UserRoles**](userroles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

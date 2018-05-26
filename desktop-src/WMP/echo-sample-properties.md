@@ -1,8 +1,18 @@
 ---
 title: Echo Sample Properties
 description: Echo Sample Properties
-ms.assetid: '16f6f963-d746-42dc-872f-6f4db296cab9'
-keywords: ["Windows Media Player plug-ins,Echo sample properties", "plug-ins,Echo sample properties", "digital signal processing plug-ins,Echo sample properties", "DSP plug-ins,Echo sample properties", "Echo DSP plug-in sample,properties"]
+ms.assetid: 16f6f963-d746-42dc-872f-6f4db296cab9
+keywords:
+- Windows Media Player plug-ins,Echo sample properties
+- plug-ins,Echo sample properties
+- digital signal processing plug-ins,Echo sample properties
+- DSP plug-ins,Echo sample properties
+- Echo DSP plug-in sample,properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Echo Sample Properties

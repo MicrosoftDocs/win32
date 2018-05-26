@@ -1,7 +1,12 @@
 ---
-Description: 'The following attributes are used with the transcode API.'
-ms.assetid: '6cddb5b9-75da-4640-9810-35a8203fc4bc'
+Description: The following attributes are used with the transcode API.
+ms.assetid: 6cddb5b9-75da-4640-9810-35a8203fc4bc
 title: Transcode Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transcode Attributes
@@ -18,7 +23,7 @@ The following attributes are used with the transcode API.
 | [MF\_TRANSCODE\_ENCODINGPROFILE](mf-transcode-encodingprofile.md)                 | Specifies the device conformance profile for encoding Advanced Streaming Format (ASF) files. |
 | [MF\_TRANSCODE\_QUALITYVSSPEED](mf-transcode-qualityvsspeed.md)                   | Specifies the tradeoff between encoding quality and encoding speed.                          |
 | [MF\_TRANSCODE\_SKIP\_METADATA\_TRANSFER](mf-transcode-skip-metadata-transfer.md) | Specifies whether metadata is written to the transcoded file.                                |
-| [**MF\_TRANSCODE\_TOPOLOGYMODE**](mf-transcode-topologymode-flags.md)             | Specifies whether the topology loader will load hardware-based transforms.                   |
+| [**MF\_TRANSCODE\_TOPOLOGYMODE**](/windows/win32/mfidl/ne-mfidl-_mf_transcode_topologymode_flags?branch=master)             | Specifies whether the topology loader will load hardware-based transforms.                   |
 
 
 

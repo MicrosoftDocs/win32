@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the current state of the object.'
-ms.assetid: '5a642fff-5855-4b5e-8682-5f7fdf1254cb'
-title: 'CBaseMediaFilter::m\_State member'
+Description: Indicates the current state of the object.
+ms.assetid: 5a642fff-5855-4b5e-8682-5f7fdf1254cb
+title: CBaseMediaFilterm\_State member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseMediaFilter::m\_State member
@@ -38,9 +43,9 @@ FILTER_STATE m_State;
 [**CBaseMediaFilter::GetState**](cbasemediafilter-getstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

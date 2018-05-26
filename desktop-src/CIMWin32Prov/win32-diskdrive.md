@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a physical disk drive as seen by a computer running the Windows operating system.'
+Description: Represents a physical disk drive as seen by a computer running the Windows operating system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c1fc6a1e-e725-484b-aacf-279f777e9b19'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c1fc6a1e-e725-484b-aacf-279f777e9b19
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_DiskDrive class'
+title: Win32\_DiskDrive class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DiskDrive class
@@ -24,57 +27,57 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C4B2-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_DiskDrive : CIM_DiskDrive
 {
-  uint16   Availability;
-  uint32   BytesPerSector;
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  string   Caption;
-  string   CompressionMethod;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  uint64   DefaultBlockSize;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  string   ErrorMethodology;
-  string   FirmwareRevision;
-  uint32   Index;
+  uint16   Availability;
+  uint32   BytesPerSector;
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  string   Caption;
+  string   CompressionMethod;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  uint64   DefaultBlockSize;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  string   ErrorMethodology;
+  string   FirmwareRevision;
+  uint32   Index;
   datetime InstallDate;
-  string   InterfaceType;
-  uint32   LastErrorCode;
-  string   Manufacturer;
-  uint64   MaxBlockSize;
-  uint64   MaxMediaSize;
-  boolean  MediaLoaded;
-  string   MediaType;
-  uint64   MinBlockSize;
-  string   Model;
-  string   Name;
-  boolean  NeedsCleaning;
-  uint32   NumberOfMediaSupported;
-  uint32   Partitions;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint32   SCSIBus;
-  uint16   SCSILogicalUnit;
-  uint16   SCSIPort;
-  uint16   SCSITargetId;
-  uint32   SectorsPerTrack;
-  string   SerialNumber;
-  uint32   Signature;
-  uint64   Size;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint64   TotalCylinders;
-  uint32   TotalHeads;
-  uint64   TotalSectors;
-  uint64   TotalTracks;
-  uint32   TracksPerCylinder;
+  string   InterfaceType;
+  uint32   LastErrorCode;
+  string   Manufacturer;
+  uint64   MaxBlockSize;
+  uint64   MaxMediaSize;
+  boolean  MediaLoaded;
+  string   MediaType;
+  uint64   MinBlockSize;
+  string   Model;
+  string   Name;
+  boolean  NeedsCleaning;
+  uint32   NumberOfMediaSupported;
+  uint32   Partitions;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint32   SCSIBus;
+  uint16   SCSILogicalUnit;
+  uint16   SCSIPort;
+  uint16   SCSITargetId;
+  uint32   SectorsPerTrack;
+  string   SerialNumber;
+  uint32   Signature;
+  uint64   Size;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint64   TotalCylinders;
+  uint32   TotalHeads;
+  uint64   TotalSectors;
+  uint64   TotalTracks;
+  uint32   TracksPerCylinder;
 };
 ```
 
@@ -98,7 +101,7 @@ The **Win32\_DiskDrive** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1933,8 +1936,8 @@ The [Map Drive to Drive Letter Using the Win32\_DiskDrive Interface Type Propert
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1954,9 +1957,9 @@ The [Map Drive to Drive Letter Using the Win32\_DiskDrive Interface Type Propert
 [WMI Tasks: Disks and File Systems](https://msdn.microsoft.com/library/aa394592)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Error Codes Specific To WCS
 description: The following is a list of error codes that are specifically related to the use of WCS 1.0.
-ms.assetid: 'c6a0cacc-f83e-4f5c-9002-7718bb2ffb6c'
+ms.assetid: c6a0cacc-f83e-4f5c-9002-7718bb2ffb6c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Codes Specific To WCS

@@ -1,14 +1,19 @@
 ---
-Description: 'One of the properties of the Graphics class is the clipping region. All drawing done by a given Graphics object is restricted to the clipping region of that Graphics object. You can set the clipping region by calling the SetClip method.'
-ms.assetid: '816a5845-ca03-46c6-bdda-e6a7d02ff614'
+Description: One of the properties of the Graphics class is the clipping region. All drawing done by a given Graphics object is restricted to the clipping region of that Graphics object. You can set the clipping region by calling the SetClip method.
+ms.assetid: 816a5845-ca03-46c6-bdda-e6a7d02ff614
 title: Clipping with a Region
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clipping with a Region
 
-One of the properties of the [**Graphics**](-gdiplus-class-graphics-class.md) class is the clipping region. All drawing done by a given **Graphics** object is restricted to the clipping region of that **Graphics** object. You can set the clipping region by calling the **SetClip** method.
+One of the properties of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class is the clipping region. All drawing done by a given **Graphics** object is restricted to the clipping region of that **Graphics** object. You can set the clipping region by calling the **SetClip** method.
 
-The following example constructs a path that consists of a single polygon. Then the code constructs a region based on that path. The address of the region is passed to the **SetClip** method of a [**Graphics**](-gdiplus-class-graphics-class.md) object, and then two strings are drawn.
+The following example constructs a path that consists of a single polygon. Then the code constructs a region based on that path. The address of the region is passed to the **SetClip** method of a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object, and then two strings are drawn.
 
 
 ```

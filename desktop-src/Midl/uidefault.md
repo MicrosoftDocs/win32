@@ -2,13 +2,19 @@
 title: uidefault attribute
 description: The \ uidefault\ attribute indicates that the type information member is the default member for display in the user interface.
 ms.assetid: e789be38-a509-437d-89c9-ebbc830e5ae2
-keywords: ["uidefault attribute MIDL"]
+keywords:
+- uidefault attribute MIDL
 topic_type:
 - apiref
 api_name:
 - uidefault
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # uidefault attribute

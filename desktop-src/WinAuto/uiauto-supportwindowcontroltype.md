@@ -1,8 +1,29 @@
 ---
 title: Window Control Type
 description: This topic provides information about Microsoft UI Automation support for the Window control type.
-ms.assetid: '521fb514-e083-48b3-b4a0-52c530154740'
-keywords: ["UI Automation,support for Window control type", "UI Automation,Window control type", "UI Automation,tree structure for Window control type", "UI Automation,properties for Window control type", "UI Automation,control patterns for Window control type", "UI Automation,events for Window control type", "tree structures,Window control type", "properties,Window control type", "control patterns,Window control type", "events,Window control type", "support for Window control type", "Window control type", "control types,tree structure for Window control type", "control types,control patterns for Window control type", "control types,support for Window", "control types,Window"]
+ms.assetid: 521fb514-e083-48b3-b4a0-52c530154740
+keywords:
+- UI Automation,support for Window control type
+- UI Automation,Window control type
+- UI Automation,tree structure for Window control type
+- UI Automation,properties for Window control type
+- UI Automation,control patterns for Window control type
+- UI Automation,events for Window control type
+- tree structures,Window control type
+- properties,Window control type
+- control patterns,Window control type
+- events,Window control type
+- support for Window control type
+- Window control type
+- control types,tree structure for Window control type
+- control types,control patterns for Window control type
+- control types,support for Window
+- control types,Window
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Control Type
@@ -85,9 +106,9 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                        | Support/Value | Notes                                                                                                                                                                        |
 |---------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IDockProvider**](uiauto-idockprovider.md)           | Conditional   | The [Dock](uiauto-implementingdock.md) control pattern must be supported if the window can be docked.                                                                       |
-| [**ITransformProvider**](uiauto-itransformprovider.md) | Required      | The [Transform](uiauto-implementingtransform.md) control pattern enables the window to be moved, resized, or rotated on the screen. (Does not apply to Windows Store apps.) |
-| [**IWindowProvider**](uiauto-iwindowprovider.md)       | Required      | The [Window](uiauto-implementingwindow.md) control pattern enables specific operations for the window.                                                                      |
+| [**IDockProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-idockprovider?branch=master)           | Conditional   | The [Dock](uiauto-implementingdock.md) control pattern must be supported if the window can be docked.                                                                       |
+| [**ITransformProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itransformprovider?branch=master) | Required      | The [Transform](uiauto-implementingtransform.md) control pattern enables the window to be moved, resized, or rotated on the screen. (Does not apply to Windows Store apps.) |
+| [**IWindowProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iwindowprovider?branch=master)       | Required      | The [Window](uiauto-implementingwindow.md) control pattern enables specific operations for the window.                                                                      |
 
 
 
@@ -117,7 +138,7 @@ The following table lists the UI Automation events that **Window** controls are 
 | [**UIA\_StructureChangedEventId**](uiauto-event-ids.md#uia-structurechangedeventid)                                                                       |                                                                                                                                                                                                                           |
 | [**UIA\_Window\_WindowClosedEventId**](uiauto-event-ids.md#uia-window-windowclosedeventid)                                                                |                                                                                                                                                                                                                           |
 | [**UIA\_Window\_WindowOpenedEventId**](uiauto-event-ids.md#uia-window-windowopenedeventid)                                                                |                                                                                                                                                                                                                           |
-| [**UIA\_WindowWindowVisualStatePropertyId**](uiauto-control-pattern-propids.md#uia-windowwindowvisualstatepropertyid) property-changed event.             | If the control supports the [**WindowVisualState**](uiauto-iuiautomationwindowpattern-cachedwindowvisualstate.md) property of the [Window](uiauto-implementingwindow.md) control pattern, this event must be supported. |
+| [**UIA\_WindowWindowVisualStatePropertyId**](uiauto-control-pattern-propids.md#uia-windowwindowvisualstatepropertyid) property-changed event.             | If the control supports the [**WindowVisualState**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationwindowpattern-get_cachedwindowvisualstate?branch=master) property of the [Window](uiauto-implementingwindow.md) control pattern, this event must be supported. |
 
 
 

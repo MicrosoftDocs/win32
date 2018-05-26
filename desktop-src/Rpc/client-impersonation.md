@@ -1,7 +1,12 @@
 ---
 title: Client Impersonation
 description: Impersonation is useful in a distributed computing environment when servers must pass client requests to other server processes or to the operating system.
-ms.assetid: '49d833d8-c61c-4746-91cf-c0753847cd3d'
+ms.assetid: 49d833d8-c61c-4746-91cf-c0753847cd3d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Impersonation
@@ -12,7 +17,7 @@ Impersonation is useful in a distributed computing environment when servers must
 
 For example, a client makes a request to Server A. If Server A must query Server B to complete the request, Server A impersonates the client security context and makes the request to Server B on behalf of the client. Server B uses the original client's security context, instead of the security identity for Server A, to determine whether to complete the task.
 
-The server calls [**RpcImpersonateClient**](rpcimpersonateclient.md) to overwrite the security for the server thread with the client security context. After the task is completed, the server calls [**RpcRevertToSelf**](rpcreverttoself.md) or [**RpcRevertToSelfEx**](rpcreverttoselfex.md) to restore the security context defined for the server thread.
+The server calls [**RpcImpersonateClient**](/windows/win32/Rpcdce/nf-rpcdce-rpcimpersonateclient?branch=master) to overwrite the security for the server thread with the client security context. After the task is completed, the server calls [**RpcRevertToSelf**](/windows/win32/Rpcdce/nf-rpcdce-rpcreverttoself?branch=master) or [**RpcRevertToSelfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcreverttoselfex?branch=master) to restore the security context defined for the server thread.
 
 When binding, the client can specify quality-of-service information about security which specifies how the server can impersonate the client. For example, one of the settings lets the client specify that the server is not allowed to impersonate it. For more information, see [Quality of Service](quality-of-service.md).
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines a cipher algorithm for data encryption and decryption.'
-ms.assetid: '6b634d76-a159-438e-8fc6-5f05b326ed68'
-title: 'DOT11\_CIPHER\_ALGORITHM enumeration'
+---
+Description: Defines a cipher algorithm for data encryption and decryption.
+ms.assetid: 6b634d76-a159-438e-8fc6-5f05b326ed68
+title: DOT11\_CIPHER\_ALGORITHM enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOT11\_CIPHER\_ALGORITHM enumeration
@@ -122,10 +127,10 @@ Specifies the end of the range that is used to define proprietary cipher algorit
 [**DOT11\_AUTH\_CIPHER\_PAIR**](dot11-auth-cipher-pair.md)
 </dt> <dt>
 
-[**WLAN\_AVAILABLE\_NETWORK**](wlan-available-network.md)
+[**WLAN\_AVAILABLE\_NETWORK**](/windows/win32/wlanapi/ns-wlanapi-_wlan_available_network?branch=master)
 </dt> <dt>
 
-[**WLAN\_SECURITY\_ATTRIBUTES**](wlan-security-attributes.md)
+[**WLAN\_SECURITY\_ATTRIBUTES**](/windows/win32/wlanapi/ns-wlanapi-_wlan_security_attributes?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'The ResetFormatBuffer method deletes the format block. The method sets the cbFormat and pbFormat members of the AM\_MEDIA\_TYPE structure to NULL.'
-ms.assetid: '5eb6dfc8-cfba-41dd-b422-8fe93ca904c1'
-title: 'CMediaType.ResetFormatBuffer method'
+Description: The ResetFormatBuffer method deletes the format block. The method sets the cbFormat and pbFormat members of the AM\_MEDIA\_TYPE structure to NULL.
+ms.assetid: 5eb6dfc8-cfba-41dd-b422-8fe93ca904c1
+title: CMediaType.ResetFormatBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.ResetFormatBuffer method
@@ -43,9 +48,9 @@ This method does not return a value.
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

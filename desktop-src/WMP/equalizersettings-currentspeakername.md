@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.currentSpeakerName
 description: The currentSpeakerName attribute retrieves the name of the current speaker setting.
-ms.assetid: '22a7fb76-1345-42b1-9b6b-ef36dfb027bd'
-keywords: ["EQUALIZERSETTINGS.currentSpeakerName Windows Media Player"]
+ms.assetid: 22a7fb76-1345-42b1-9b6b-ef36dfb027bd
+keywords:
+- EQUALIZERSETTINGS.currentSpeakerName Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.currentSpeakerName
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.currentSpeakerName
@@ -33,7 +39,7 @@ This attribute is a read-only **String** containing one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -55,9 +61,9 @@ This attribute is a read-only **String** containing one of the following values.
 [**EQUALIZERSETTINGS.speakerSize**](equalizersettings-speakersize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A double-byte character set (DBCS), also known as an &\#0034;expanded 8-bit character set&\#0034;, is an extended single-byte character set (SBCS), implemented as a code page.'
-ms.assetid: 'df049d22-02e2-48b2-8b74-52f71c00c549'
-title: 'Double-byte Character Sets'
+Description: A double-byte character set (DBCS), also known as an &\#0034;expanded 8-bit character set&\#0034;, is an extended single-byte character set (SBCS), implemented as a code page.
+ms.assetid: df049d22-02e2-48b2-8b74-52f71c00c549
+title: Double-byte Character Sets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Double-byte Character Sets
@@ -15,7 +20,7 @@ A double-byte character set (DBCS), also known as an "expanded 8-bit character s
 
 To interpret a DBCS string, an application must start at the beginning of the string and scan forward. It keeps track when it encounters a lead byte in the string, and treats the next byte as the trailing part of the same character. If the application simply scans the string one byte at a time and encounters a byte that appears to be the code value representing a backslash ("\\"), that byte might simply be the trail byte of a two-byte character. The application cannot just back up one byte to see if the preceding byte is a lead byte, as that byte value might be eligible to be used as both a lead byte and a trail byte. Thus the application has essentially the same problem with it as with the possible backslash. In other words, substring searches are much more complicated with a DBCS than with either SBCSs or Unicode. Accordingly, applications that support a DBCS must use special functions, such as [\_mbsstr](http://msdn.microsoft.com/en-us/library/z9da80kz.aspx), instead of the [**StrStr**](03d70c3f-2473-45cb-a5f8-b35beeb2748a) function.
 
-Your applications use DBCS Windows code pages with the "A" versions of Windows functions. See [Conventions for Function Prototypes](conventions-for-function-prototypes.md) and [Code Pages](code-pages.md). To help identify a DBCS code page, an application can use the [**GetCPInfo**](getcpinfo.md) or [**GetCPInfoEx**](getcpinfoex.md) function. An application can use the [**IsDBCSLeadByte**](isdbcsleadbyte.md) function to determine if a given value can be used as the lead byte of a 2-byte character. In addition, an application can use the [**MultiByteToWideChar**](multibytetowidechar.md) and [**WideCharToMultiByte**](widechartomultibyte.md) functions to map between Unicode and DBCS strings.
+Your applications use DBCS Windows code pages with the "A" versions of Windows functions. See [Conventions for Function Prototypes](conventions-for-function-prototypes.md) and [Code Pages](code-pages.md). To help identify a DBCS code page, an application can use the [**GetCPInfo**](/windows/win32/Winnls/nf-winnls-getcpinfo?branch=master) or [**GetCPInfoEx**](/windows/win32/Winnls/nf-winnls-getcpinfoexa?branch=master) function. An application can use the [**IsDBCSLeadByte**](/windows/win32/Winnls/nf-winnls-isdbcsleadbyte?branch=master) function to determine if a given value can be used as the lead byte of a 2-byte character. In addition, an application can use the [**MultiByteToWideChar**](/windows/win32/Stringapiset/nf-stringapiset-multibytetowidechar?branch=master) and [**WideCharToMultiByte**](/windows/win32/Stringapiset/nf-stringapiset-widechartomultibyte?branch=master) functions to map between Unicode and DBCS strings.
 
 ## Related topics
 

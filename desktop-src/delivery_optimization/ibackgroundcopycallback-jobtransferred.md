@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyCallback JobTransferred method
 description: Delivery Optimization (DO) calls your implementation of the JobTransferred method when all of the files in the job have been successfully transferred.
-ms.assetid: 'D3088279-2D26-4707-9BA2-19D2758EA1CC'
-keywords: ["JobTransferred method", "JobTransferred method, IBackgroundCopyCallback interface", "IBackgroundCopyCallback interface, JobTransferred method"]
+ms.assetid: D3088279-2D26-4707-9BA2-19D2758EA1CC
+keywords:
+- JobTransferred method
+- JobTransferred method, IBackgroundCopyCallback interface
+- IBackgroundCopyCallback interface, JobTransferred method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyCallback::JobTransferred method
@@ -22,7 +30,7 @@ Delivery Optimization (DO) calls your implementation of the **JobTransferred** m
 
 ```C++
 HRESULT JobTransferred(
-  [in] IBackgroundCopyJob *pJob
+  [in] IBackgroundCopyJob *pJob
 );
 ```
 
@@ -55,7 +63,7 @@ If you do not call the [**Complete**](ibackgroundcopyjob-complete.md) method or 
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -81,9 +89,9 @@ If you do not call the [**Complete**](ibackgroundcopyjob-complete.md) method or 
 [**IBackgroundCopyJob::Cancel**](ibackgroundcopyjob-cancel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

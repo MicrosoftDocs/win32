@@ -1,7 +1,12 @@
 ---
 title: Command Representation of Queries
 description: Command Representation of Queries
-ms.assetid: 'af5335ce-d8d7-45e2-b663-703632e401c7'
+ms.assetid: af5335ce-d8d7-45e2-b663-703632e401c7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Representation of Queries

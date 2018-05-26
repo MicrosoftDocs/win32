@@ -1,7 +1,12 @@
 ---
-Description: 'Text output is the most common type of graphic output found within the client area; it is used by applications in different ways.'
-ms.assetid: 'd19d7618-367a-408f-b4c1-7f76f13e5e90'
+Description: Text output is the most common type of graphic output found within the client area; it is used by applications in different ways.
+ms.assetid: d19d7618-367a-408f-b4c1-7f76f13e5e90
 title: About Text Output
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Text Output

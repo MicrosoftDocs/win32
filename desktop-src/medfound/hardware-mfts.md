@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes how to write a Media Foundation transform (MFT) that acts as a proxy to a hardware encoder, decoder, or digital signal processor (DSP).'
-ms.assetid: '9922d403-5d0d-433f-ad9f-c86142ac0f46'
+---
+Description: This topic describes how to write a Media Foundation transform (MFT) that acts as a proxy to a hardware encoder, decoder, or digital signal processor (DSP).
+ms.assetid: 9922d403-5d0d-433f-ad9f-c86142ac0f46
 title: Hardware MFTs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hardware MFTs
@@ -46,11 +51,11 @@ Hardware MFTs have the following general requirements:
 
 A hardware MFT must implement following methods related to attributes:
 
--   [**IMFTransform::GetAttributes**](imftransform-getattributes.md): Returns an attribute store for global MFT attributes.
--   [**IMFTransform::GetInputStreamAttributes**](imftransform-getinputstreamattributes.md): Returns an attribute store for an input stream.
--   [**IMFTransform::GetOutputStreamAttributes**](imftransform-getoutputstreamattributes.md): Returns an attribute store for an output stream.
+-   [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master): Returns an attribute store for global MFT attributes.
+-   [**IMFTransform::GetInputStreamAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputstreamattributes?branch=master): Returns an attribute store for an input stream.
+-   [**IMFTransform::GetOutputStreamAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstreamattributes?branch=master): Returns an attribute store for an output stream.
 
-When the MFT is first created, it must set the following attributes on its own global attribute store (that is, the attribute store returned by [**GetAttributes**](imftransform-getattributes.md)):
+When the MFT is first created, it must set the following attributes on its own global attribute store (that is, the attribute store returned by [**GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master)):
 
 
 
@@ -72,13 +77,13 @@ In the following diagram, the MFTs labeled "A" and "B" represent functional bloc
 
 ![diagram showing boxes labeled a through c, and a hardware codec: a points to b and the codec, the codec points to b, and b points to c](images/proxy-mft.png)
 
-To establish a hardware connection, the two hardware MFTs must use a private communication channel. This connection is established during format negotiation, before the media types are set and before the first call to [**ProcessInput**](imftransform-processinput.md). The connection process works as follows:
+To establish a hardware connection, the two hardware MFTs must use a private communication channel. This connection is established during format negotiation, before the media types are set and before the first call to [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master). The connection process works as follows:
 
 1.  The topology loader checks both MFTs for the presence of the [MFT\_ENUM\_HARDWARE\_URL\_Attribute](mft-enum-hardware-url-attribute.md) attribute. Note that it does not examine the value of this attribute.
 2.  If [MFT\_ENUM\_HARDWARE\_URL\_Attribute](mft-enum-hardware-url-attribute.md) is present on both MFTs, the topology loader does the following:
-    1.  The topology loader calls [**IMFTransform::GetOutputStreamAttributes**](imftransform-getoutputstreamattributes.md) on the upstream MFT (A). This method returns an [**IMFAttributes**](imfattributes.md) pointer. Let this pointer be denoted *pUpstream*.
-    2.  The topology loader calls [**IMFTransform::GetInputStreamAttributes**](imftransform-getinputstreamattributes.md) on the downstream MFT (B). This call also returns an [**IMFAttributes**](imfattributes.md) pointer. Let this pointer be denoted *pDownstream*.
-    3.  The topology loader sets the [MFT\_CONNECTED\_STREAM\_ATTRIBUTE](mft-connected-stream-attribute.md) attribute on *pDownstream* by calling [**IMFAttributes::SetUnknown**](imfattributes-setunknown.md). The value of the attribute is the *pUpstream* pointer.
+    1.  The topology loader calls [**IMFTransform::GetOutputStreamAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstreamattributes?branch=master) on the upstream MFT (A). This method returns an [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) pointer. Let this pointer be denoted *pUpstream*.
+    2.  The topology loader calls [**IMFTransform::GetInputStreamAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputstreamattributes?branch=master) on the downstream MFT (B). This call also returns an [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) pointer. Let this pointer be denoted *pDownstream*.
+    3.  The topology loader sets the [MFT\_CONNECTED\_STREAM\_ATTRIBUTE](mft-connected-stream-attribute.md) attribute on *pDownstream* by calling [**IMFAttributes::SetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setunknown?branch=master). The value of the attribute is the *pUpstream* pointer.
     4.  The topology loader sets the [MFT\_CONNECTED\_TO\_HW\_STREAM](mft-connected-to-hw-stream.md) attribute to **TRUE** on both *pDownstream* and *pUpstream*.
 3.  At this point, the downstream MFT has a pointer to the upstream MFT's attribute store, as shown in the following diagram.
 
@@ -89,7 +94,7 @@ To establish a hardware connection, the two hardware MFTs must use a private com
 
      
 
-4.  The downstream MFT uses the [**IMFAttributes**](imfattributes.md) pointer to establish a private communication channel with the upstream MFT. Because the channel is private, the exact mechanism is defined by the implementation. For example, the MFT might query for a private COM interface.
+4.  The downstream MFT uses the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) pointer to establish a private communication channel with the upstream MFT. Because the channel is private, the exact mechanism is defined by the implementation. For example, the MFT might query for a private COM interface.
 
 During step 4, the downstream MFT must verify whether the two MFTs share the same physical device. If not, they must fall back to using system memory for data transport. This enables the MFT to operate correctly with software MFTs and other hardware devices.
 
@@ -100,21 +105,21 @@ If the handshake succeeds and the two MFTs share a private data channel, they do
 When a hardware MFT uses system memory for data transport, the process works as follows:
 
 1.  To request more input, the MFT sends an [METransformNeedInput](metransformneedinput.md) event.
-2.  The [METransformNeedInput](metransformneedinput.md) event causes the pipeline to call [**IMFTransform::ProcessInput**](imftransform-processinput.md).
+2.  The [METransformNeedInput](metransformneedinput.md) event causes the pipeline to call [**IMFTransform::ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master).
 3.  When the MFT has output data, the MFT sends an [METransformHaveOutput](metransformhaveoutput.md) event.
-4.  The [METransformHaveOutput](metransformhaveoutput.md) event causes the pipeline to call [**IMFTransform::ProcessOutput**](imftransform-processoutput.md).
+4.  The [METransformHaveOutput](metransformhaveoutput.md) event causes the pipeline to call [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master).
 
 For details, refer to [Asynchronous MFTs](asynchronous-mfts.md).
 
-If the MFT uses a hardware channel, however, it does not send these events at the hardware connection point, because all data transfer happens internally within the hardware. Therefore, the pipeline does not call [**ProcessInput**](imftransform-processinput.md) or [**ProcessOutput**](imftransform-processoutput.md) at the connection point.
+If the MFT uses a hardware channel, however, it does not send these events at the hardware connection point, because all data transfer happens internally within the hardware. Therefore, the pipeline does not call [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) or [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) at the connection point.
 
 For example, consider the first diagram in this topic. Given this configuration, data processing would occur as follows:
 
 1.  "A" sends [METransformNeedInput](metransformneedinput.md) to request data.
-2.  The pipeline calls [**ProcessInput**](imftransform-processinput.md) on "A".
+2.  The pipeline calls [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) on "A".
 3.  "A" and "B" process the data in hardware.
 4.  When the processing is complete, "B" sends an [METransformHaveOutput](metransformhaveoutput.md) event.
-5.  The pipeline calls [**ProcessOutput**](imftransform-processoutput.md) on "B".
+5.  The pipeline calls [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) on "B".
 
 ## Paired Decoder/Encoder
 
@@ -123,7 +128,7 @@ If a decoder and encoder are located on the same hardware chip, it may be prefer
 -   Set the [**MF\_MT\_MAJOR\_TYPE**](mf-mt-major-type-attribute.md) attribute to **MFMediaType\_Audio** or **MFMediaType\_Video**, as appropriate.
 -   Set the [**MF\_MT\_SUBTYPE**](mf-mt-subtype-attribute.md) attribute to a custom GUID value.
 
-Other type attributes are optional. The decoder returns the custom type from its [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md), and the encoder returns the custom type from its [**IMFTransform::GetInputAvailableType**](imftransform-getinputavailabletype.md) method. In both cases, the custom type must be the first entry in the list (*dwTypeIndex* = 0).
+Other type attributes are optional. The decoder returns the custom type from its [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master), and the encoder returns the custom type from its [**IMFTransform::GetInputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputavailabletype?branch=master) method. In both cases, the custom type must be the first entry in the list (*dwTypeIndex* = 0).
 
 To work with software codecs, the codec should also return at least one standard format, such as NV12 for video. Standard formats should appear after the custom type (*dwTypeIndex* &gt; 0). If the two codecs must always be paired and cannot interoperate with software codecs, the MFTs should return only the custom format and not return any standard formats.
 

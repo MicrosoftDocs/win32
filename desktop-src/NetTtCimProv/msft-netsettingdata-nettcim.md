@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a base class for classes that contain networks settings data, such as MSFT\_Net6to4Configuration, MSFT\_NetDnsTransitionConfiguration, MSFT\_NetDnsTransitionMonitoring, MSFT\_NetIPHttpsConfiguration, MSFT\_NetISATAPConfiguration, MSFT\_NetNatTransitionConfiguration, MSFT\_NetNatTransitionMonitoring, and MSFT\_NetTeredoConfiguration.'
-ms.assetid: '4fdc59d3-bde7-4a53-a654-e5c99fea8ef4'
-title: 'MSFT\_NetSettingData class'
+Description: Defines a base class for classes that contain networks settings data, such as MSFT\_Net6to4Configuration, MSFT\_NetDnsTransitionConfiguration, MSFT\_NetDnsTransitionMonitoring, MSFT\_NetIPHttpsConfiguration, MSFT\_NetISATAPConfiguration, MSFT\_NetNatTransitionConfiguration, MSFT\_NetNatTransitionMonitoring, and MSFT\_NetTeredoConfiguration.
+ms.assetid: 4fdc59d3-bde7-4a53-a654-e5c99fea8ef4
+title: MSFT\_NetSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetSettingData class
@@ -28,8 +33,8 @@ The **MSFT\_NetSettingData** class does not define any members.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
@@ -67,9 +72,9 @@ The **MSFT\_NetSettingData** class does not define any members.
 [**MSFT\_NetTeredoConfiguration**](msft-netteredoconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

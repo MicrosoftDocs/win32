@@ -4,11 +4,24 @@ description: Controls the presence and appearance of the dialog box that notifie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1aa79fc3-9620-466d-a93f-77a55ad76ede'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 1aa79fc3-9620-466d-a93f-77a55ad76ede
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RedirectionWarningType property Remote Desktop Services", "RedirectionWarningType property Remote Desktop Services , IMsRdpClientNonScriptable4 interface", "IMsRdpClientNonScriptable4 interface Remote Desktop Services , RedirectionWarningType property", "RedirectionWarningType property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , RedirectionWarningType property", "RedirectionWarningType property Remote Desktop Services , MsRdpClient6 object", "MsRdpClient6 object Remote Desktop Services , RedirectionWarningType property", "RedirectionWarningType property Remote Desktop Services , MsRdpClient7 object", "MsRdpClient7 object Remote Desktop Services , RedirectionWarningType property", "RedirectionWarningType property Remote Desktop Services , MsRdpClient8 object", "MsRdpClient8 object Remote Desktop Services , RedirectionWarningType property", "RedirectionWarningType property Remote Desktop Services , MsRdpClient9 object", "MsRdpClient9 object Remote Desktop Services , RedirectionWarningType property"]
+keywords:
+- RedirectionWarningType property Remote Desktop Services
+- RedirectionWarningType property Remote Desktop Services , IMsRdpClientNonScriptable4 interface
+- IMsRdpClientNonScriptable4 interface Remote Desktop Services , RedirectionWarningType property
+- RedirectionWarningType property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , RedirectionWarningType property
+- RedirectionWarningType property Remote Desktop Services , MsRdpClient6 object
+- MsRdpClient6 object Remote Desktop Services , RedirectionWarningType property
+- RedirectionWarningType property Remote Desktop Services , MsRdpClient7 object
+- MsRdpClient7 object Remote Desktop Services , RedirectionWarningType property
+- RedirectionWarningType property Remote Desktop Services , MsRdpClient8 object
+- MsRdpClient8 object Remote Desktop Services , RedirectionWarningType property
+- RedirectionWarningType property Remote Desktop Services , MsRdpClient9 object
+- MsRdpClient9 object Remote Desktop Services , RedirectionWarningType property
 topic_type:
 - apiref
 api_name:
@@ -26,6 +39,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable4::RedirectionWarningType property
@@ -39,11 +55,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_RedirectionWarningType(
-  [in]  RedirectionWarningType wrnType
+  [in]  RedirectionWarningType wrnType
 );
 
 HRESULT get_RedirectionWarningType(
-  [out] RedirectionWarningType *pWrnType
+  [out] RedirectionWarningType *pWrnType
 );
 ```
 
@@ -146,8 +162,8 @@ The value **RedirectionWarningTypeDefault**, which is the default value of this 
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | IID<br/>                      | IMsRdpClientNonScriptable4 is defined as f50fa8aa-1c7d-4f59-b15c-a90cacae1fcb<br/> |
@@ -164,9 +180,9 @@ The value **RedirectionWarningTypeDefault**, which is the default value of this 
 [**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

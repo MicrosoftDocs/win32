@@ -1,14 +1,19 @@
 ---
-Description: 'Direct3D can blend as many as eight textures onto primitives in a single pass.'
-ms.assetid: '1e7c31cb-dc63-4f4a-9ddc-d1d1d0b69085'
-title: 'Texture Blending (Direct3D 9)'
+Description: Direct3D can blend as many as eight textures onto primitives in a single pass.
+ms.assetid: 1e7c31cb-dc63-4f4a-9ddc-d1d1d0b69085
+title: Texture Blending (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture Blending (Direct3D 9)
 
 Direct3D can blend as many as eight textures onto primitives in a single pass. The use of multiple texture blending can profoundly increase the frame rate of a Direct3D application. An application employs multiple texture blending to apply textures, shadows, specular lighting, diffuse lighting, and other special effects in a single pass.
 
-To use texture blending, your application should first check if the user's hardware supports it. This information is found in the TextureCaps member of the [**D3DCAPS9**](d3dcaps9.md) structure. For details about how to query the user's hardware for texture blending capabilities, see [**IDirect3DDevice9::GetDeviceCaps**](idirect3ddevice9--getdevicecaps.md).
+To use texture blending, your application should first check if the user's hardware supports it. This information is found in the TextureCaps member of the [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure. For details about how to query the user's hardware for texture blending capabilities, see [**IDirect3DDevice9::GetDeviceCaps**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getdevicecaps?branch=master).
 
 ## Texture Stages and the Texture Blending Cascade
 

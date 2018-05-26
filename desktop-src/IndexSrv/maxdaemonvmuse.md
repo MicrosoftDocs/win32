@@ -1,7 +1,12 @@
 ---
 title: MaxDaemonVmUse
 description: MaxDaemonVmUse
-ms.assetid: '9dd0f966-e9f7-4447-b1f0-24b6b8e0fc1d'
+ms.assetid: 9dd0f966-e9f7-4447-b1f0-24b6b8e0fc1d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxDaemonVmUse

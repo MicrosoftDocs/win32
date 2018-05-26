@@ -2,13 +2,19 @@
 title: licensed attribute
 description: The \ licensed\ attribute indicates that the coclass to which it applies is licensed, and must be instantiated using IClassFactory2.
 ms.assetid: c4789ea2-8ff6-423e-8b69-22a7a5392854
-keywords: ["licensed attribute MIDL"]
+keywords:
+- licensed attribute MIDL
 topic_type:
 - apiref
 api_name:
 - licensed
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # licensed attribute

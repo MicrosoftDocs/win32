@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the requirements enforced by strong password system administration tools.'
-ms.assetid: 'a84f83b2-181b-4f65-82bd-bc7f0689aad3'
-title: 'Strong Password Enforcement and Passfilt.dll'
+Description: Lists the requirements enforced by strong password system administration tools.
+ms.assetid: a84f83b2-181b-4f65-82bd-bc7f0689aad3
+title: Strong Password Enforcement and Passfilt.dll
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Strong Password Enforcement and Passfilt.dll
@@ -17,15 +22,15 @@ Strong password enforcement can be enabled by using the system administration to
 
 | Character categories                                                                                                                                                      | Examples                               |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| Uppercase letters of European languages (A through Z, with diacritic marks, Greek and Cyrillic characters)<br/>                                                     | A, B, C, … Z<br/>                |
-| Lowercase letters of European languages (a through z, sharp-s, with diacritic marks, Greek and Cyrillic characters)<br/>                                            | a, b, c, … z<br/>                |
-| Base 10 digits (0 through 9)<br/>                                                                                                                                   | 0, 1, 2, … 9<br/>                |
+| Uppercase letters of European languages (A through Z, with diacritic marks, Greek and Cyrillic characters)<br/>                                                     | A, B, C,   Z<br/>                |
+| Lowercase letters of European languages (a through z, sharp-s, with diacritic marks, Greek and Cyrillic characters)<br/>                                            | a, b, c,   z<br/>                |
+| Base 10 digits (0 through 9)<br/>                                                                                                                                   | 0, 1, 2,   9<br/>                |
 | Non-alphanumeric characters (special characters)<br/>                                                                                                               | $,!,%,^,(){}\[\];:&lt;&gt;?<br/> |
 | Any Unicode character that is categorized as an alphabetic character but is not uppercase or lowercase. This includes Unicode characters from Asian languages.<br/> |                                        |
 
 
 
- 
+ 
 
 **To enable strong password enforcement**
 
@@ -36,11 +41,11 @@ Strong password enforcement can be enabled by using the system administration to
 > [!Note]  
 > A given character can satisfy only one category. The [GetStringTypeW](http://go.microsoft.com/fwlink/p/?linkid=205607) function is used to test whether each character in the password is uppercase, lowercase, or alphanumeric.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

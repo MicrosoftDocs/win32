@@ -1,13 +1,16 @@
 ---
-Description: 'Controls when a class or instance provider is unloaded.'
+Description: Controls when a class or instance provider is unloaded.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4cbeb820-8a65-4fab-97f1-2a973b2a4310'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4cbeb820-8a65-4fab-97f1-2a973b2a4310
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_ObjectProviderCacheControl class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_ObjectProviderCacheControl class
@@ -61,8 +64,8 @@ The **\_\_ObjectProviderCacheControl** class is derived from [**\_\_CacheControl
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | Root<br/>                |
 
 
@@ -80,9 +83,9 @@ The **\_\_ObjectProviderCacheControl** class is derived from [**\_\_CacheControl
 [Receiving Events at All Times](receiving-events-at-all-times.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

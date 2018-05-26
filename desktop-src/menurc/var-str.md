@@ -1,14 +1,20 @@
 ---
 title: Var structure
 description: Represents the organization of data in a file-version resource. It typically contains a list of language and code page identifier pairs that the version of the application or DLL supports.
-ms.assetid: 'edd2f2e5-100c-49c2-841f-f75e2909460a'
-keywords: ["Var structure Menus and Other Resources"]
+ms.assetid: edd2f2e5-100c-49c2-841f-f75e2909460a
+keywords:
+- Var structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - Var
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Var structure
@@ -20,11 +26,11 @@ Represents the organization of data in a file-version resource. It typically con
 
 ```C++
 typedef struct {
-  WORD  wLength;
-  WORD  wValueLength;
-  WORD  wType;
+  WORD  wLength;
+  WORD  wValueLength;
+  WORD  wType;
   WCHAR szKey;
-  WORD  Padding;
+  WORD  Padding;
   DWORD Value;
 } Var;
 ```
@@ -113,8 +119,8 @@ If you use the **Var** structure to list the languages your application or DLL s
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -143,9 +149,9 @@ If you use the **Var** structure to list the languages your application or DLL s
 [Version Information](version-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

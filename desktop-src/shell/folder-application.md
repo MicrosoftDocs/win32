@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the folder''s Application object.'
-ms.assetid: '1dba83eb-1af6-42d9-b2c9-ab7767888efe'
-title: 'Folder.Application property'
+---
+Description: Contains the folders Application object.
+ms.assetid: 1dba83eb-1af6-42d9-b2c9-ab7767888efe
+title: Folder.Application property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Folder.Application property

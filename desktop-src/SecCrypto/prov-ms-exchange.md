@@ -1,7 +1,12 @@
 ---
-Description: 'Designed for the cryptographic needs of the Microsoft Exchange mail application and other applications compatible with Microsoft Mail.'
-ms.assetid: '40b28dee-85b6-431c-834f-b1e5b3242d4b'
-title: 'PROV\_MS\_EXCHANGE'
+Description: Designed for the cryptographic needs of the Microsoft Exchange mail application and other applications compatible with Microsoft Mail.
+ms.assetid: 40b28dee-85b6-431c-834f-b1e5b3242d4b
+title: PROV\_MS\_EXCHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROV\_MS\_EXCHANGE

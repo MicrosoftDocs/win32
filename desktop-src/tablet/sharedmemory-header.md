@@ -1,7 +1,12 @@
 ---
-Description: 'Stores information about shared memory sections.'
-ms.assetid: '73a650ee-110c-43f2-a5e2-783d52fd29ee'
-title: 'SHAREDMEMORY\_HEADER structure'
+Description: Stores information about shared memory sections.
+ms.assetid: 73a650ee-110c-43f2-a5e2-783d52fd29ee
+title: SHAREDMEMORY\_HEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SHAREDMEMORY\_HEADER structure
@@ -85,7 +90,7 @@ The system event, prefixed SE\_\*, associated with this header. See the remarks 
 **sysEvtData**
 </dt> <dd>
 
-The [**SYSTEM\_EVENT\_DATA**](system-event-data.md) structure associated with the system event.
+The [**SYSTEM\_EVENT\_DATA**](/windows/win32/tpcshrd/ns-tpcshrd-tagsystem_event_data?branch=master) structure associated with the system event.
 
 </dd> <dt>
 
@@ -135,7 +140,7 @@ The following values are defined for the **sysEvt** member.
 
 <dl> <dt>
 
-[**SYSTEM\_EVENT\_DATA**](system-event-data.md)
+[**SYSTEM\_EVENT\_DATA**](/windows/win32/tpcshrd/ns-tpcshrd-tagsystem_event_data?branch=master)
 </dt> </dl>
 
  

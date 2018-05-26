@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft Network Monitor 3 (Netmon) is a packet analyzer used to inspect network traffic.'
-ms.assetid: '015a6a6d-9e07-4f22-b931-dcce77051bef'
+Description: Microsoft Network Monitor 3 (Netmon) is a packet analyzer used to inspect network traffic.
+ms.assetid: 015a6a6d-9e07-4f22-b931-dcce77051bef
 title: Downloading Netmon and Sample DPWS Filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Downloading Netmon and Sample DPWS Filters

@@ -1,14 +1,20 @@
 ---
 title: OptionalResource Simple Type
 description: Defines a string type that may or may not contain content.
-ms.assetid: 'b7caee52-1373-4b89-b208-efa48fd81ea5'
-keywords: ["OptionalResource simple type Windows Troubleshooting Toolkit"]
+ms.assetid: b7caee52-1373-4b89-b208-efa48fd81ea5
+keywords:
+- OptionalResource simple type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - OptionalResource
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OptionalResource Simple Type
@@ -40,8 +46,8 @@ The string can be empty or contain up to 1,024 characters.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -52,9 +58,9 @@ The string can be empty or contain up to 1,024 characters.
 [**DisplayInformation**](package-displayinformation-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

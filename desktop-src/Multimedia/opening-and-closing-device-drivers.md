@@ -1,8 +1,21 @@
 ---
 title: Opening and Closing Device Drivers
 description: Opening and Closing Device Drivers
-ms.assetid: '441bc0ec-41c9-4595-92f9-4c2304b10f16'
-keywords: ["Musical Instrument Digital Interface (MIDI),opening devices", "MIDI (Musical Instrument Digital Interface),opening devices", "MIDI services,opening devices", "opening MIDI devices", "Musical Instrument Digital Interface (MIDI),closing devices", "MIDI (Musical Instrument Digital Interface),closing devices", "MIDI services,closing devices", "closing MIDI devices"]
+ms.assetid: 441bc0ec-41c9-4595-92f9-4c2304b10f16
+keywords:
+- Musical Instrument Digital Interface (MIDI),opening devices
+- MIDI (Musical Instrument Digital Interface),opening devices
+- MIDI services,opening devices
+- opening MIDI devices
+- Musical Instrument Digital Interface (MIDI),closing devices
+- MIDI (Musical Instrument Digital Interface),closing devices
+- MIDI services,closing devices
+- closing MIDI devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening and Closing Device Drivers

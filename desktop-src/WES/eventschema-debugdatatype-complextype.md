@@ -1,14 +1,20 @@
 ---
 title: DebugDataType Complex Type
 description: Defines the data that can be logged for Windows software trace preprocessor (WPP) events.
-ms.assetid: '75638e0f-7a26-473e-a0c4-bd8972ac171f'
-keywords: ["DebugDataType complex type EventLog"]
+ms.assetid: 75638e0f-7a26-473e-a0c4-bd8972ac171f
+keywords:
+- DebugDataType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - DebugDataType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DebugDataType Complex Type
@@ -89,14 +95,14 @@ The elements are included only if the provider set the %TRACE\_FORMAT\_PREFIX% e
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

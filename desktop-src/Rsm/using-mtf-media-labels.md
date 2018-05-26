@@ -1,7 +1,12 @@
 ---
-Description: 'RSM provides a generic media label library for Microsoft Tape Format (MTF). If your application writes MTF labels on tapes, there are certain requirements it must follow in how the labels are written.'
-ms.assetid: 'bad2311d-181e-4902-9793-4744e5b72d3e'
+Description: RSM provides a generic media label library for Microsoft Tape Format (MTF). If your application writes MTF labels on tapes, there are certain requirements it must follow in how the labels are written.
+ms.assetid: bad2311d-181e-4902-9793-4744e5b72d3e
 title: Using MTF Media Labels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using MTF Media Labels

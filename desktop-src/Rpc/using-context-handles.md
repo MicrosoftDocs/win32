@@ -1,8 +1,14 @@
 ---
 title: Using Context Handles
 description: This section refers to Windows 2000 and Windows XP.
-ms.assetid: 'fcbdfb1e-4f1e-4d22-9a3e-cf5a29d300d0'
-keywords: ["Remote Procedure Call RPC , best practices, using context handles"]
+ms.assetid: fcbdfb1e-4f1e-4d22-9a3e-cf5a29d300d0
+keywords:
+- Remote Procedure Call RPC , best practices, using context handles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Context Handles

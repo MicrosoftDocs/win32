@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether this option is selected.'
-ms.assetid: '639D25DC-027F-4B53-AD7B-B26011B66171'
-title: 'IPrintSchemaOption::Selected property'
+---
+Description: Indicates whether this option is selected.
+ms.assetid: 639D25DC-027F-4B53-AD7B-B26011B66171
+title: IPrintSchemaOptionSelected property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaOption::Selected property

@@ -1,8 +1,9 @@
 ---
 title: BN\_PUSHED notification code
 description: Sent when the push state of a button is set to pushed.
-ms.assetid: '34000def-189c-4a37-bcef-4ca09a67df00'
-keywords: ["BN_PUSHED notification code Windows Controls"]
+ms.assetid: 34000def-189c-4a37-bcef-4ca09a67df00
+keywords:
+- BN_PUSHED notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BN\_PUSHED notification code
@@ -18,9 +24,9 @@ api_type:
 Sent when the push state of a button is set to pushed.
 
 > [!Note]  
-> This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [**BS\_OWNERDRAW**](button-styles.md#bs-ownerdraw) button style and the [**DRAWITEMSTRUCT**](drawitemstruct.md) structure for this task.
+> This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [**BS\_OWNERDRAW**](button-styles.md#bs-ownerdraw) button style and the [**DRAWITEMSTRUCT**](/windows/win32/Winuser/ns-winuser-tagdrawitemstruct?branch=master) structure for this task.
 
- 
+ 
 
 The parent window of the button receives this notification code through the [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.
 
@@ -62,8 +68,8 @@ BN\_PUSHED is the same as the [BN\_HILITE](bn-hilite.md) notification code.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -75,9 +81,9 @@ BN\_PUSHED is the same as the [BN\_HILITE](bn-hilite.md) notification code.
 [**BN\_UNPUSHED**](bn-unpushed.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

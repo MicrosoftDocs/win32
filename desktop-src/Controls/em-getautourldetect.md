@@ -1,8 +1,9 @@
 ---
 title: EM\_GETAUTOURLDETECT message
 description: Indicates whether the auto URL detection is turned on in the rich edit control.
-ms.assetid: 'f723f15c-bf8f-41ab-aef0-bd8f2c0b9e5d'
-keywords: ["EM_GETAUTOURLDETECT message Windows Controls"]
+ms.assetid: f723f15c-bf8f-41ab-aef0-bd8f2c0b9e5d
+keywords:
+- EM_GETAUTOURLDETECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETAUTOURLDETECT message
@@ -66,8 +72,8 @@ Rich Edit also recognizes standard path names that start with \\\\. When Rich Ed
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -79,9 +85,9 @@ Rich Edit also recognizes standard path names that start with \\\\. When Rich Ed
 [EN\_LINK](en-link.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

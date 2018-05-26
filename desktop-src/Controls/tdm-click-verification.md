@@ -1,8 +1,9 @@
 ---
 title: TDM\_CLICK\_VERIFICATION message
 description: Simulates a click of the verification checkbox of a task dialog, if it exists.
-ms.assetid: '1c6c135e-4e39-4f1a-88f4-5e9f7181a2dd'
-keywords: ["TDM_CLICK_VERIFICATION message Windows Controls"]
+ms.assetid: 1c6c135e-4e39-4f1a-88f4-5e9f7181a2dd
+keywords:
+- TDM_CLICK_VERIFICATION message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDM\_CLICK\_VERIFICATION message
@@ -45,15 +51,15 @@ The return value is ignored.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,19 @@
 title: AddByServer method of the PS\_DnsServerQueryResolutionPolicy class
 description: Adds a query resolution policy to the DNS server by server.
 audience: developer
-ms.assetid: 'f2fdc8b1-451d-4802-8b50-93832ab190d5'
-ms.prod: 'windows-server-dev'
+ms.assetid: f2fdc8b1-451d-4802-8b50-93832ab190d5
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByServer method", "AddByServer method, PS_DnsServerQueryResolutionPolicy class", "PS_DnsServerQueryResolutionPolicy class, AddByServer method"]
+keywords:
+- AddByServer method
+- AddByServer method, PS_DnsServerQueryResolutionPolicy class
+- PS_DnsServerQueryResolutionPolicy class, AddByServer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByServer method of the PS\_DnsServerQueryResolutionPolicy class
@@ -20,23 +26,23 @@ Adds a query resolution policy to the DNS server by server.
 
 ```mof
 uint32 AddByServer(
-  [in]  boolean         PassThru,
-  [in]  string          ComputerName,
-  [in]  string          Name,
-  [in]  string          Fqdn,
-  [in]  string          ClientSubnet,
-  [in]  string          TimeOfDay,
-  [in]  string          TransportProtocol,
-  [in]  string          InternetProtocol,
-  [in]  string          Action,
-  [in]  boolean         ApplyOnRecursion,
-  [in]  string          ServerInterfaceIP,
-  [in]  string          QType,
-  [in]  uint32          ProcessingOrder,
-  [in]  string          Condition,
-  [in]  string          RecursionScope,
-  [in]  boolean         Disable,
-  [out] DnsServerPolicy cmdletOutput
+  [in]  boolean         PassThru,
+  [in]  string          ComputerName,
+  [in]  string          Name,
+  [in]  string          Fqdn,
+  [in]  string          ClientSubnet,
+  [in]  string          TimeOfDay,
+  [in]  string          TransportProtocol,
+  [in]  string          InternetProtocol,
+  [in]  string          Action,
+  [in]  boolean         ApplyOnRecursion,
+  [in]  string          ServerInterfaceIP,
+  [in]  string          QType,
+  [in]  uint32          ProcessingOrder,
+  [in]  string          Condition,
+  [in]  string          RecursionScope,
+  [in]  boolean         Disable,
+  [out] DnsServerPolicy cmdletOutput
 );
 ```
 
@@ -176,7 +182,7 @@ On return, contains a [**DnsServerPolicy**](dnsserverpolicy.md). This parameter 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -190,9 +196,9 @@ On return, contains a [**DnsServerPolicy**](dnsserverpolicy.md). This parameter 
 [**PS\_DnsServerQueryResolutionPolicy**](ps-dnsserverqueryresolutionpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

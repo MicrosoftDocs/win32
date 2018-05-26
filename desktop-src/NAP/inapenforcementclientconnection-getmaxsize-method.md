@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientConnection GetMaxSize method
 description: Gets the maximum size of the SoH packet for this client.
-ms.assetid: '054bc783-db5d-4801-8984-6b8a131744a2'
-keywords: ["GetMaxSize method NAP", "GetMaxSize method NAP , INapEnforcementClientConnection interface", "INapEnforcementClientConnection interface NAP , GetMaxSize method"]
+ms.assetid: 054bc783-db5d-4801-8984-6b8a131744a2
+keywords:
+- GetMaxSize method NAP
+- GetMaxSize method NAP , INapEnforcementClientConnection interface
+- INapEnforcementClientConnection interface NAP , GetMaxSize method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientConnection::GetMaxSize method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientConnection::GetMaxSize** method gets the maximum size of the SoH packet for this client.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientConnection::GetMaxSize** method gets the maximum size
 
 ```C++
 HRESULT GetMaxSize(
-  [out] ProtocolMaxSize *maxSize
+  [out] ProtocolMaxSize *maxSize
 );
 ```
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Other COM-specific error codes also may be returned.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -81,9 +89,9 @@ Other COM-specific error codes also may be returned.
 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

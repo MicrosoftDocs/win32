@@ -1,7 +1,12 @@
 ---
-Description: 'The track element defines a track object.'
-ms.assetid: '5cc11f26-80b2-4548-af33-2fdf883e3189'
+Description: The track element defines a track object.
+ms.assetid: 5cc11f26-80b2-4548-af33-2fdf883e3189
 title: track Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # track Element

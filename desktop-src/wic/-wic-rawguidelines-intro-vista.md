@@ -1,7 +1,12 @@
 ---
 Description: RAW Image Formats in Windows Vista
-ms.assetid: 'e28b642c-03c8-4ecc-b5f5-e3911b8003a7'
+ms.assetid: e28b642c-03c8-4ecc-b5f5-e3911b8003a7
 title: RAW Image Formats in Windows Vista
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAW Image Formats in Windows Vista
@@ -12,7 +17,7 @@ Because WIC is an extensible imaging architecture, any WIC application can consu
 
 Today, most mainstream consumer applications have no special knowledge of RAW image formats and do not expose a user interface for adjusting RAW processing settings.
 
-However, to support specialized imaging applications, RAW codec authors must also implement the [**IWICDevelopRaw**](-wic-codec-iwicdevelopraw.md) interface. This interface exposes special features for RAW images, such as the ability to make common image adjustments and to process (develop) RAW images into specified red-green-blue (RGB) color spaces.
+However, to support specialized imaging applications, RAW codec authors must also implement the [**IWICDevelopRaw**](/windows/win32/Wincodec/nn-wincodec-iwicdevelopraw?branch=master) interface. This interface exposes special features for RAW images, such as the ability to make common image adjustments and to process (develop) RAW images into specified red-green-blue (RGB) color spaces.
 
 Several other WIC interfaces are important for RAW codec authors to implement. These are discussed in more detail in this series of topics.
 

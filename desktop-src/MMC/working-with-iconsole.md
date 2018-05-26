@@ -4,11 +4,15 @@ description: Every instance of a snap-in that exists in the scope pane is unique
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c2a42d41-9b87-45dd-acc1-c8e001659ba9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: c2a42d41-9b87-45dd-acc1-c8e001659ba9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["working with IConsole MMC"]
+keywords:
+- working with IConsole MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with IConsole
@@ -19,9 +23,9 @@ The [**QueryScopeImageList**](iconsole2-queryscopeimagelist.md) and [**QueryResu
 
 The [**IConsole2**](iconsole2.md) interface is a newer version of the **IConsole** interface and is introduced in MMC version 1.1. **IConsole2** contains all the methods of **IConsole**, as well as three additional ones. The [**Expand**](iconsole2-expand.md) method enables the snap-in to expand or collapse an item in the scope pane. The [**IsTaskpadViewPreferred**](iconsole2-istaskpadviewpreferred.md) method determines whether the user prefers taskpad views by default. Finally, the [**SetStatusText**](iconsole2-setstatustext.md) method enables the snap-in to change the text in the status bar.
 
-A pointer to the [**IConsole2**](iconsole2.md) interface is passed to the snap-in through [**IComponent::Initialize**](icomponent-initialize.md) and [**IComponentData::Initialize**](icomponentdata-initialize.md). Each [**IComponent**](icomponent.md) and [**IComponentData**](icomponentdata.md) object gets its own private **IConsole2** interface pointer.
+A pointer to the [**IConsole2**](iconsole2.md) interface is passed to the snap-in through [**IComponent::Initialize**](icomponent-initialize.md) and [**IComponentData::Initialize**](icomponentdata-initialize.md). Each [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) and [**IComponentData**](icomponentdata.md) object gets its own private **IConsole2** interface pointer.
 
-When using the [**IConsole2**](iconsole2.md) interface for manipulating the result pane and result items, you should use the **IConsole2** interface pointer passed to the snap-in's [**IComponent**](icomponent.md) implementation that owns the view. When using **IConsole2** for manipulating the scope pane and scope items, use the **IConsole2** interface pointer passed to the snap-in's [**IComponentData**](icomponentdata.md) implementation.
+When using the [**IConsole2**](iconsole2.md) interface for manipulating the result pane and result items, you should use the **IConsole2** interface pointer passed to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation that owns the view. When using **IConsole2** for manipulating the scope pane and scope items, use the **IConsole2** interface pointer passed to the snap-in's [**IComponentData**](icomponentdata.md) implementation.
 
 ## Related topics
 

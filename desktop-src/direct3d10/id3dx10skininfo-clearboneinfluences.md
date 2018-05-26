@@ -1,7 +1,12 @@
-﻿---
-Description: 'Clear a bone''s list of vertices that it influences.'
-ms.assetid: '1ba6f43a-1f85-4057-b0ed-247cc38d4932'
-title: 'ID3DX10SkinInfo::ClearBoneInfluences method'
+---
+Description: Clear a bones list of vertices that it influences.
+ms.assetid: 1ba6f43a-1f85-4057-b0ed-247cc38d4932
+title: ID3DX10SkinInfoClearBoneInfluences method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10SkinInfo::ClearBoneInfluences method

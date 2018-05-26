@@ -1,13 +1,16 @@
 ---
-Description: 'Unlike deleting a dynamic instance, deleting a class is a simple procedure.'
+Description: Unlike deleting a dynamic instance, deleting a class is a simple procedure.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bc0ee1e8-7515-4f35-ace3-6344c2ef0ab8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bc0ee1e8-7515-4f35-ace3-6344c2ef0ab8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Deleting a Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Deleting a Class
@@ -20,9 +23,9 @@ The following procedure describes how to delete a base class or derived class.
 
 **To delete a base class or derived class**
 
--   Call either the [**IWbemServices::DeleteClass**](iwbemservices-deleteclass.md) or [**IWbemServices::DeleteClassAsync**](iwbemservices-deleteclassasync.md) method.
+-   Call either the [**IWbemServices::DeleteClass**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteclass?branch=master) or [**IWbemServices::DeleteClassAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteclassasync?branch=master) method.
 
-    As the name suggests, [**DeleteClassAsync**](iwbemservices-deleteclassasync.md) deletes an instance asynchronously while [**DeleteClass**](iwbemservices-deleteclass.md) deletes an instance synchronously. To use **DeleteClassAsync**, you must also implement an [**IWbemObjectSink**](iwbemobjectsink.md) object.
+    As the name suggests, [**DeleteClassAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteclassasync?branch=master) deletes an instance asynchronously while [**DeleteClass**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteclass?branch=master) deletes an instance synchronously. To use **DeleteClassAsync**, you must also implement an [**IWbemObjectSink**](iwbemobjectsink.md) object.
 
 > [!Note]  
 > Because the callback to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. For more information, see [Calling a Method](calling-a-method.md).

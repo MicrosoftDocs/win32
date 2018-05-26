@@ -1,8 +1,20 @@
 ---
 title: Reading or Changing the Scope of the Windows Photo Gallery
 description: Reading or Changing the Scope of the Windows Photo Gallery
-ms.assetid: '2765b44b-203c-49c5-a345-e46e2a2b8dbc'
-keywords: ["Windows Movie Maker,Windows Photo Gallery", "Movie Maker,Windows Photo Gallery", "Windows DVD Maker,Windows Photo Gallery", "DVD Maker,Windows Photo Gallery", "programming guide,Windows Photo Gallery", "Windows Vista,Windows Photo Gallery", "Windows Photo Gallery"]
+ms.assetid: 2765b44b-203c-49c5-a345-e46e2a2b8dbc
+keywords:
+- Windows Movie Maker,Windows Photo Gallery
+- Movie Maker,Windows Photo Gallery
+- Windows DVD Maker,Windows Photo Gallery
+- DVD Maker,Windows Photo Gallery
+- programming guide,Windows Photo Gallery
+- Windows Vista,Windows Photo Gallery
+- Windows Photo Gallery
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading or Changing the Scope of the Windows Photo Gallery
@@ -23,7 +35,7 @@ The **GalleryScopedFolders** registry entry has the form shown in the following 
 
 
 
- 
+ 
 
 This registry key is used primarily for informational purposes; it's the way that Windows Photo Gallery publishes its scope so that other applications can determine what is in or out of the gallery's library of photos and video files without having to start Windows Photo Gallery.
 
@@ -42,9 +54,9 @@ The Windows Photo Gallery has additional registry entries that affect the way th
 [**Getting Information from Windows Vista About Windows Movie Maker and Windows DVD Maker**](getting-information-from-windows-vista-about-windows-movie-maker-and-windows-dvd-maker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

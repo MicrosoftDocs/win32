@@ -1,8 +1,14 @@
 ---
 title: Using Serialization Services
 description: MIDL generates a serialization stub for the procedure with the attributes \ encode\ and \ decode\ .
-ms.assetid: 'b1fce133-32e3-4b5e-9f9d-ffbe60e9d9cd'
-keywords: ["Remote Procedure Call RPC , tasks, using serialization services"]
+ms.assetid: b1fce133-32e3-4b5e-9f9d-ffbe60e9d9cd
+keywords:
+- Remote Procedure Call RPC , tasks, using serialization services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Serialization Services

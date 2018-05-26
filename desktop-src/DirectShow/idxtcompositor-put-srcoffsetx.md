@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_SrcOffsetX method specifies the horizontal offset of the source rectangle.'
-ms.assetid: '54f38dfd-3804-4ce4-ac70-5c7933e1a03f'
-title: 'IDxtCompositor::put\_SrcOffsetX method'
+---
+Description: The put\_SrcOffsetX method specifies the horizontal offset of the source rectangle.
+ms.assetid: 54f38dfd-3804-4ce4-ac70-5c7933e1a03f
+title: IDxtCompositorput\_SrcOffsetX method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtCompositor::put\_SrcOffsetX method

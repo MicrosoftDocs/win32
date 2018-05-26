@@ -1,8 +1,10 @@
 ---
 title: Win32\_PowerSettingElementSettingDataIndex class
 description: Represents the association between the power setting and the corresponding setting data.
-ms.assetid: '1c3e5fff-4fc1-489e-8d36-2686d3ede008'
-keywords: ["Win32_PowerSettingElementSettingDataIndex class", "Win32_PowerSettingElementSettingDataIndex class, described"]
+ms.assetid: 1c3e5fff-4fc1-489e-8d36-2686d3ede008
+keywords:
+- Win32_PowerSettingElementSettingDataIndex class
+- Win32_PowerSettingElementSettingDataIndex class, described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - PowerWmiProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_PowerSettingElementSettingDataIndex class
@@ -29,10 +36,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("PowerWmiProvider"), Dynamic]
 class Win32_PowerSettingElementSettingDataIndex : CIM_ElementSettingData
 {
-  Win32_PowerSetting          REF ManagedElement;
+  Win32_PowerSetting          REF ManagedElement;
   Win32_PowerSettingDataIndex REF SettingData;
-  uint16                          IsACSetting;
-  uint16                          IsCurrent;
+  uint16                          IsACSetting;
+  uint16                          IsCurrent;
 };
 ```
 
@@ -128,17 +135,17 @@ Specifies the **InstanceID** of the setting data that corresponds to the value o
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
+| Minimum supported client<br/> | Windows 7<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
 | Namespace<br/>                | Root\\CIMV2\\power<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>PowerWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PowerWmiProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

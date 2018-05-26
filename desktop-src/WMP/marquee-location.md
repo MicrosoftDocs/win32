@@ -1,8 +1,17 @@
 ---
 title: Marquee Location
 description: Marquee Location
-ms.assetid: '5e4a93b6-a7ca-46b9-b85c-494efc869370'
-keywords: ["Windows Media Player Mobile skins,marquees", "skins,marquees", "reference for skins,marquees", "marquees in skins,location"]
+ms.assetid: 5e4a93b6-a7ca-46b9-b85c-494efc869370
+keywords:
+- Windows Media Player Mobile skins,marquees
+- skins,marquees
+- reference for skins,marquees
+- marquees in skins,location
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Marquee Location

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetNextTrans2 method retrieves the first transition that appears at the specified time or later. This method is equivalent to IAMTimelineTransable::GetNextTrans, but takes a REFTIME value.'
-ms.assetid: 'e6910e94-f289-4a5d-9976-1e8f7373c882'
-title: 'IAMTimelineTransable::GetNextTrans2 method'
+---
+Description: The GetNextTrans2 method retrieves the first transition that appears at the specified time or later. This method is equivalent to IAMTimelineTransableGetNextTrans, but takes a REFTIME value.
+ms.assetid: e6910e94-f289-4a5d-9976-1e8f7373c882
+title: IAMTimelineTransableGetNextTrans2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTransable::GetNextTrans2 method

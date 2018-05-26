@@ -2,7 +2,13 @@
 title: Aliasing and Marshaling Attributes
 description: Distributed applications almost always pass data between client and server programs when they call interface procedures.
 ms.assetid: 64895c64-f16b-47c4-928d-5149808b0476
-keywords: ["IDL MIDL , attributes MIDL , aliasing and marshaling"]
+keywords:
+- IDL MIDL , attributes MIDL , aliasing and marshaling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Aliasing and Marshaling Attributes

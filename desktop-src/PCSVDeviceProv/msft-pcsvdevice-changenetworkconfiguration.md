@@ -1,13 +1,16 @@
 ---
-Description: 'A wrapper method used to change the network configuration of the BMC.'
+Description: A wrapper method used to change the network configuration of the BMC.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'A030FF83-E618-484A-B36F-E2AE6D2D6754'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: A030FF83-E618-484A-B36F-E2AE6D2D6754
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ChangeNetworkConfiguration method of the MSFT\_PCSVDevice class'
+title: ChangeNetworkConfiguration method of the MSFT\_PCSVDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ChangeNetworkConfiguration method of the MSFT\_PCSVDevice class
@@ -19,11 +22,11 @@ A wrapper method used to change the network configuration of the BMC.
 
 ```mof
 uint32 ChangeNetworkConfiguration(
-  [in]      uint16              IPv4AddressOrigin,
-  [in]      string              IPv4Address,
-  [in]      string              IPv4SubnetMask,
-  [in]      string              IPv4DefaultGateway,
-  [in, out] CIM_ConcreteJob REF Job
+  [in]      uint16              IPv4AddressOrigin,
+  [in]      string              IPv4Address,
+  [in]      string              IPv4SubnetMask,
+  [in]      string              IPv4DefaultGateway,
+  [in, out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -87,14 +90,14 @@ Identifies the method by which the IPv4 address, subnet mask, and gateway were a
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *IPv4Address* \[in\]
 </dt> <dd>
@@ -139,16 +142,16 @@ This method returns one of the following values.
 **Failed** (2)
 </dt> <dt>
 
-**Reserved** (3–4095)
+**Reserved** (3 4095)
 </dt> <dt>
 
 **Job Started** (4096)
 </dt> <dt>
 
-**DMTF Reserved** (4097–32767)
+**DMTF Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Reserved** (32768–65535)
+**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -157,8 +160,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>PCSVDevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVDevice.dll</dt> </dl> |
@@ -172,9 +175,9 @@ This method returns one of the following values.
 [**MSFT\_PCSVdevice**](msft-pcsvdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

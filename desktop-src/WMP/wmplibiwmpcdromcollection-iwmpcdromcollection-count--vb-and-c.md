@@ -1,8 +1,11 @@
 ---
 title: IWMPCdromCollection count property
 description: The count property gets the number of available CD and DVD drives on the system.
-ms.assetid: '1359ab7e-fbe3-461c-801b-7c986f6e5687'
-keywords: ["count property Windows Media Player", "count property Windows Media Player , IWMPCdromCollection interface", "IWMPCdromCollection interface Windows Media Player , count property"]
+ms.assetid: 1359ab7e-fbe3-461c-801b-7c986f6e5687
+keywords:
+- count property Windows Media Player
+- count property Windows Media Player , IWMPCdromCollection interface
+- IWMPCdromCollection interface Windows Media Player , count property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromCollection::count property
@@ -116,9 +124,9 @@ System.Windows.Forms.MessageBox.Show(&quot;Number of available CD and DVD drives
 [**IWMPSettings2.requestMediaAccessRights (VB and C#)**](wmplibiwmpsettings2-iwmpsettings2-requestmediaaccessrights--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

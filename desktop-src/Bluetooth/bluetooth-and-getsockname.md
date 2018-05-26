@@ -1,8 +1,16 @@
 ---
 title: Bluetooth and getsockname
 description: Bluetooth uses the getsockname function to retrieve the server device address and port number allocated to a socket through a previous call to the bind function.
-ms.assetid: '3892bd59-97ac-4b76-bff9-7329f22a66cc'
-keywords: ["Bluetooth", "getsockname", "Bluetooth and getsockname"]
+ms.assetid: 3892bd59-97ac-4b76-bff9-7329f22a66cc
+keywords:
+- Bluetooth
+- getsockname
+- Bluetooth and getsockname
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and getsockname

@@ -1,12 +1,17 @@
 ---
-Description: 'Define for applications well-known capabilities by using the AllocateAndInitializeSid function.'
-ms.assetid: 'CD27774F-0B70-4D97-96C9-B247536CC88E'
+Description: Define for applications well-known capabilities by using the AllocateAndInitializeSid function.
+ms.assetid: CD27774F-0B70-4D97-96C9-B247536CC88E
 title: Capability SID Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capability SID Constants
 
-The capability SID constants define for applications well-known capabilities by using the [**AllocateAndInitializeSid**](allocateandinitializesid.md) function.
+The capability SID constants define for applications well-known capabilities by using the [**AllocateAndInitializeSid**](/windows/win32/Winbase/nf-ntifs-rtlallocateandinitializesidex?branch=master) function.
 
 <dl> <dt>
 
@@ -142,7 +147,7 @@ An account has access to removable storage.
 
 ## Remarks
 
-When constructing a capability SID, you need to include the package authority, SECURITY\_APP\_PACKAGE\_AUTHORITY {0,0,0,0,0,15}, in the call to the [**AllocateAndInitializeSid**](allocateandinitializesid.md) function. Additionally, you need the base RID and RID count for the built-in capabilities, SECURITY\_CAPABILITY\_BASE\_RID (0x00000003L) and SECURITY\_BUILTIN\_CAPABILITY\_RID\_COUNT (2L).
+When constructing a capability SID, you need to include the package authority, SECURITY\_APP\_PACKAGE\_AUTHORITY {0,0,0,0,0,15}, in the call to the [**AllocateAndInitializeSid**](/windows/win32/Winbase/nf-ntifs-rtlallocateandinitializesidex?branch=master) function. Additionally, you need the base RID and RID count for the built-in capabilities, SECURITY\_CAPABILITY\_BASE\_RID (0x00000003L) and SECURITY\_BUILTIN\_CAPABILITY\_RID\_COUNT (2L).
 
 ## Requirements
 
@@ -150,15 +155,15 @@ When constructing a capability SID, you need to include the package authority, S
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Winnt.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

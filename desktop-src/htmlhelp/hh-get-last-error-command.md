@@ -1,7 +1,12 @@
 ---
 title: HH\_GET\_LAST\_ERROR command
 description: Returns information about the last error that occurred in the HTML Help ActiveX control (Hhctrl.ocx).
-ms.assetid: '94EA23C7-86F7-420a-8FA0-4F683CD830FC'
+ms.assetid: 94EA23C7-86F7-420a-8FA0-4F683CD830FC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_GET\_LAST\_ERROR command

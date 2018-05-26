@@ -1,8 +1,21 @@
 ---
 title: Runtime Registry Entry
 description: Runtime Registry Entry
-ms.assetid: '3b2880f9-acb9-4a13-8364-67fbe76f8d29'
-keywords: ["Windows Media Player,runtime registry entries", "Windows Media Player,file name extensions", "Windows Media Player,registry", "registry,file name extensions", "registry,runtime entries", "registry,settings for Windows Media Player", "file name extension registry settings", "runtime registry entries"]
+ms.assetid: 3b2880f9-acb9-4a13-8364-67fbe76f8d29
+keywords:
+- Windows Media Player,runtime registry entries
+- Windows Media Player,file name extensions
+- Windows Media Player,registry
+- registry,file name extensions
+- registry,runtime entries
+- registry,settings for Windows Media Player
+- file name extension registry settings
+- runtime registry entries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Runtime Registry Entry

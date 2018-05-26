@@ -1,7 +1,12 @@
 ---
-Description: 'A block clone operation instructs the file system to copy a range of file bytes on behalf of an application.'
-ms.assetid: 'E18E8D79-3985-40B8-A4C5-A73A21E5C527'
+Description: A block clone operation instructs the file system to copy a range of file bytes on behalf of an application.
+ms.assetid: E18E8D79-3985-40B8-A4C5-A73A21E5C527
 title: Block Cloning
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Block Cloning
@@ -24,7 +29,7 @@ This implementation requires that the starting and ending file offsets be aligne
 
 -   The source and destination regions must begin and end at a cluster boundary.
 -   The cloned region must be less than 4GB in length.
--   The destination region must not extend past the end of file. If the application wishes to extend the destination with cloned data, it must first call [**SetEndOfFile**](setendoffile.md).
+-   The destination region must not extend past the end of file. If the application wishes to extend the destination with cloned data, it must first call [**SetEndOfFile**](/windows/win32/FileAPI/nf-fileapi-setendoffile?branch=master).
 -   If the source and destination regions are in the same file, they must not overlap. (The application may able to proceed by splitting up the block clone operation into multiple block clones that no longer overlap.)
 -   The source and destination files must be on the same ReFS volume.
 -   The source and destination files must have the same [**Integrity Streams**](file-attribute-constants.md) setting (that is, Integrity Streams must be enabled in both files, or disabled in both files).
@@ -56,10 +61,10 @@ After the modifying write, region B is still shared on disk. Note that if region
 
 <dl> <dt>
 
-[**DUPLICATE\_EXTENTS\_DATA**](duplicate-extents-data.md)
+[**DUPLICATE\_EXTENTS\_DATA**](/windows/win32/WinIoCtl/ns-winioctl-_duplicate_extents_data?branch=master)
 </dt> <dt>
 
-[**FSCTL\_DUPLICATE\_EXTENTS\_TO\_FILE**](fsctl-duplicate-extents-to-file.md)
+[**FSCTL\_DUPLICATE\_EXTENTS\_TO\_FILE**](/windows/win32/WinIoCtl/?branch=master)
 </dt> </dl>
 
  

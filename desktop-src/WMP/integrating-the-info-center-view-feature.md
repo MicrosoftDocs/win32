@@ -1,8 +1,23 @@
 ---
 title: Integrating the Info Center View Feature
 description: Integrating the Info Center View Feature
-ms.assetid: 'ce6692d2-a780-4aab-809f-c63236edd912'
-keywords: ["Windows Media Player online stores,integrating Info Center View", "online stores,integrating Info Center View", "type 1 online stores,integrating Info Center View", "type 2 online stores,integrating Info Center View", "Windows Media Player online stores,Info Center View", "online stores,Info Center View", "type 1 online stores,Info Center View", "type 2 online stores,Info Center View", "integrating Info Center View", "Info Center View"]
+ms.assetid: ce6692d2-a780-4aab-809f-c63236edd912
+keywords:
+- Windows Media Player online stores,integrating Info Center View
+- online stores,integrating Info Center View
+- type 1 online stores,integrating Info Center View
+- type 2 online stores,integrating Info Center View
+- Windows Media Player online stores,Info Center View
+- online stores,Info Center View
+- type 1 online stores,Info Center View
+- type 2 online stores,Info Center View
+- integrating Info Center View
+- Info Center View
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Integrating the Info Center View Feature

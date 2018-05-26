@@ -1,8 +1,20 @@
 ---
 title: Porting NURBS Objects
 description: OpenGL treats NURBS as objects, similar to the way it treats quadrics you create a NURBS object and then specify how it should be rendered. The following table lists the OpenGL GLU functions for managing NURBS objects.
-ms.assetid: 'baddf81b-219f-44bb-aa17-37404028b258'
-keywords: ["IRIS GL porting,NURBS objects", "porting from IRIS GL,NURBS objects", "porting to OpenGL from IRIS GL,NURBS objects", "OpenGL porting from IRIS GL,NURBS objects", "NURBS objects", "NURBS (Non-Uniform Rational B-Spline)", "Non-Uniform Rational B-Spline (NURBS)"]
+ms.assetid: baddf81b-219f-44bb-aa17-37404028b258
+keywords:
+- IRIS GL porting,NURBS objects
+- porting from IRIS GL,NURBS objects
+- porting to OpenGL from IRIS GL,NURBS objects
+- OpenGL porting from IRIS GL,NURBS objects
+- NURBS objects
+- NURBS (Non-Uniform Rational B-Spline)
+- Non-Uniform Rational B-Spline (NURBS)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting NURBS Objects

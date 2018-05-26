@@ -1,7 +1,12 @@
 ---
 title: Parameter for Use with Bookmarks
 description: Parameter for Use with Bookmarks
-ms.assetid: 'c3f0af10-1c45-413b-bf08-55ed05c7f343'
+ms.assetid: c3f0af10-1c45-413b-bf08-55ed05c7f343
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameter for Use with Bookmarks

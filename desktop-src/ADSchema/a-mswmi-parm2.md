@@ -4,17 +4,22 @@ description: The ms-WMI-Parm2 attribute is reserved for internal use.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a6cd7744-179b-4841-b7c2-f9a01c17455a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a6cd7744-179b-4841-b7c2-f9a01c17455a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-Parm2 attribute AD Schema", "msWMI-Parm2 attribute AD Schema"]
+keywords:
+- ms-WMI-Parm2 attribute AD Schema
+- msWMI-Parm2 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-Parm2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-Parm2 attribute
@@ -38,11 +43,11 @@ The **ms-WMI-Parm2** attribute is reserved for internal use.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ The **ms-WMI-Parm2** attribute is reserved for internal use.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

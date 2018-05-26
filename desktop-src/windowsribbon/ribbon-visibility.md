@@ -1,8 +1,16 @@
 ---
 title: Displaying the Ribbon
 description: The Windows Ribbon framework exposes a set of properties that allow an application to specify how the Ribbon UI is displayed at run time.
-ms.assetid: 'c6716183-ef32-4fb2-812a-2d8f27448db5'
-keywords: ["Windows Ribbon,customizing colors", "Ribbon,customizing colors", "customizing Windows Ribbon colors"]
+ms.assetid: c6716183-ef32-4fb2-812a-2d8f27448db5
+keywords:
+- Windows Ribbon,customizing colors
+- Ribbon,customizing colors
+- customizing Windows Ribbon colors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying the Ribbon

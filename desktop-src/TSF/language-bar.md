@@ -1,8 +1,25 @@
 ---
 title: Language Bar
 description: Language Bar
-ms.assetid: '82b92567-fdc1-488c-b395-4cb95257955c'
-keywords: ["Text Services Framework (TSF),language bar", "TSF (Text Services Framework),language bar", "text services,language bar", "language bar", "Text Services Framework (TSF),buttons", "TSF (Text Services Framework),buttons", "text services,buttons", "Text Services Framework (TSF),menus", "TSF (Text Services Framework),menus", "text services,menus", "button styles", "menu buttons"]
+ms.assetid: 82b92567-fdc1-488c-b395-4cb95257955c
+keywords:
+- Text Services Framework (TSF),language bar
+- TSF (Text Services Framework),language bar
+- text services,language bar
+- language bar
+- Text Services Framework (TSF),buttons
+- TSF (Text Services Framework),buttons
+- text services,buttons
+- Text Services Framework (TSF),menus
+- TSF (Text Services Framework),menus
+- text services,menus
+- button styles
+- menu buttons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Language Bar
@@ -44,11 +61,11 @@ A button element can function as any of the following. The function of the butto
 
 ## Implementing a Menu Button
 
-When the user clicks a menu button, the language bar calls [ITfLangBarItemButton::InitMenu](itflangbaritembutton-initmenu.md). The item adds items to the menu using the [ITfMenu](https://msdn.microsoft.com/library/windows/desktop/ms628780) interface passed to InitMenu.
+When the user clicks a menu button, the language bar calls [ITfLangBarItemButton::InitMenu](/windows/win32/Ctfutb/nf-ctfutb-itflangbaritembutton-initmenu?branch=master). The item adds items to the menu using the [ITfMenu](https://msdn.microsoft.com/library/windows/desktop/ms628780) interface passed to InitMenu.
 
-To add a submenu to the menu, call [ITfMenu::AddMenuItem](itfmenu-addmenuitem.md) with TF\_LBMENUF\_SUBMENU. When this is done, a new **ITfMenu** object that represents the submenu is returned in the *ppMenu* parameter of AddMenuItem. This new menu object is used to add items to the submenu.
+To add a submenu to the menu, call [ITfMenu::AddMenuItem](/windows/win32/Ctfutb/nf-ctfutb-itfmenu-addmenuitem?branch=master) with TF\_LBMENUF\_SUBMENU. When this is done, a new **ITfMenu** object that represents the submenu is returned in the *ppMenu* parameter of AddMenuItem. This new menu object is used to add items to the submenu.
 
-When the user selects an item in the menu, the language bar calls [ITfLangBarItemButton::OnMenuSelect](itflangbaritembutton-onmenuselect.md) with the identifier of the selected menu item.
+When the user selects an item in the menu, the language bar calls [ITfLangBarItemButton::OnMenuSelect](/windows/win32/Ctfutb/nf-ctfutb-itflangbaritembutton-onmenuselect?branch=master) with the identifier of the selected menu item.
 
 ## Adding Items to the Language Bar
 
@@ -62,7 +79,7 @@ The text service must remove the item when deactivated. The text service either 
 
 TSF provides the ability to add menu items to existing language bar menus. This enables a text service to add items to the menu of another text service without having to add a separate button to the toolbar. This also enables the menu items to be organized into logical groups. For example, a text service that provides additional features to the standard speech text service can add items to the speech text service menu rather than adding its own top-level menu button.
 
-A text service provides a language bar menu extension by implementing an object that supports the [ITfSystemLangBarItemSink](https://msdn.microsoft.com/library/windows/desktop/ms628957) interface. This interface works exactly like the [ITfLangBarItemButton](itflangbaritembutton.md) interface for a menu button. When the menu is displayed, the text service being extended calls [ITfSystemLangBarItemSink::InitMenu](https://msdn.microsoft.com/library/windows/desktop/ms628958). The extension adds items to the menu using the [ITfMenu](https://msdn.microsoft.com/library/windows/desktop/ms628780) interface passed to **InitMenu**. When the user selects an item added by the extension, the text service being extended calls [ITfSystemLangBarItemSink::OnMenuSelect](https://msdn.microsoft.com/library/windows/desktop/ms628959) with the identifier of the selected menu item.
+A text service provides a language bar menu extension by implementing an object that supports the [ITfSystemLangBarItemSink](https://msdn.microsoft.com/library/windows/desktop/ms628957) interface. This interface works exactly like the [ITfLangBarItemButton](/windows/win32/Ctfutb/nn-ctfutb-itflangbaritembutton?branch=master) interface for a menu button. When the menu is displayed, the text service being extended calls [ITfSystemLangBarItemSink::InitMenu](https://msdn.microsoft.com/library/windows/desktop/ms628958). The extension adds items to the menu using the [ITfMenu](https://msdn.microsoft.com/library/windows/desktop/ms628780) interface passed to **InitMenu**. When the user selects an item added by the extension, the text service being extended calls [ITfSystemLangBarItemSink::OnMenuSelect](https://msdn.microsoft.com/library/windows/desktop/ms628959) with the identifier of the selected menu item.
 
 To install a language bar menu extension, the text service completes the following steps.
 
@@ -79,8 +96,8 @@ A text service can enable other text services to add items to its language bar m
 To support menu extensions, the text service must support the [ITfSource](https://msdn.microsoft.com/library/windows/desktop/ms628941) interface. The following steps enable support for one or more menu extensions.
 
 1.  When [ITfSource::AdviseSink](https://msdn.microsoft.com/library/windows/desktop/ms628945) with IID\_ITfSystemLangBarItemSink is called, the text service must store the **ITfSystemLangBarItemSink** interface and return a cookie value that will identify the extension.
-2.  When [ITfLangBarItemButton::InitMenu](itflangbaritembutton-initmenu.md) is called, the text service calls the extension's [ITfSystemLangBarItemSink::InitMenu](https://msdn.microsoft.com/library/windows/desktop/ms628958) method. The text service must implement a way to identify the menu items added by the extension as opposed to the items added by the text service itself.
-3.  When [ITfLangBarItemButton::OnMenuSelect](itflangbaritembutton-onmenuselect.md) is called with a menu item identifier that belongs to an extension, the text service calls the extensions's **ITfSystemLangBarItemSink::OnMenuSelect** method.
+2.  When [ITfLangBarItemButton::InitMenu](/windows/win32/Ctfutb/nf-ctfutb-itflangbaritembutton-initmenu?branch=master) is called, the text service calls the extension's [ITfSystemLangBarItemSink::InitMenu](https://msdn.microsoft.com/library/windows/desktop/ms628958) method. The text service must implement a way to identify the menu items added by the extension as opposed to the items added by the text service itself.
+3.  When [ITfLangBarItemButton::OnMenuSelect](/windows/win32/Ctfutb/nf-ctfutb-itflangbaritembutton-onmenuselect?branch=master) is called with a menu item identifier that belongs to an extension, the text service calls the extensions's **ITfSystemLangBarItemSink::OnMenuSelect** method.
 4.  When [ITfSource::UnadviseSink](https://msdn.microsoft.com/library/windows/desktop/ms628946) is called with the appropriate cookie, the text service removes the menu extension.
 
 ## Related topics

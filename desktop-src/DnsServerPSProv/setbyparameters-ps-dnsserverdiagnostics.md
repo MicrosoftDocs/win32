@@ -2,13 +2,16 @@
 title: SetByParameters method of the PS\_DnsServerDiagnostics class
 description: Sets debug and logging parameters.
 audience: developer
-ms.assetid: 'da93fd19-22ff-4526-aa4a-3907697f31c1'
-ms.prod: 'windows-server-dev'
+ms.assetid: da93fd19-22ff-4526-aa4a-3907697f31c1
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByParameters method", "SetByParameters method, PS_DnsServerDiagnostics class", "PS_DnsServerDiagnostics class, SetByParameters method"]
+keywords:
+- SetByParameters method
+- SetByParameters method, PS_DnsServerDiagnostics class
+- PS_DnsServerDiagnostics class, SetByParameters method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByParameters method of the PS\_DnsServerDiagnostics class
@@ -28,37 +34,37 @@ Sets debug and logging parameters.
 
 ```mof
 uint32 SetByParameters(
-  [in]  boolean              Answers,
-  [in]  uint32               EventLogLevel,
-  [in]  boolean              FullPackets,
-  [in]  string               IPFilterList[],
-  [in]  string               LogFilePath,
-  [in]  uint32               MaxMBFileSize,
-  [in]  boolean              Notifications,
-  [in]  boolean              Queries,
-  [in]  boolean              QuestionTransactions,
-  [in]  boolean              ReceivePackets,
-  [in]  boolean              SendPackets,
-  [in]  boolean              TcpPackets,
-  [in]  boolean              UdpPackets,
-  [in]  boolean              UnmatchedResponse,
-  [in]  boolean              Updates,
-  [in]  boolean              WriteThrough,
-  [in]  boolean              SaveLogsToPersistentStorage,
-  [in]  boolean              EnableLoggingForServerStartStopEvent,
-  [in]  boolean              EnableLoggingForZoneLoadingEvent,
-  [in]  boolean              EnableLoggingForLocalLookupEvent,
-  [in]  boolean              EnableLoggingToFile,
-  [in]  boolean              EnableLogFileRollover,
-  [in]  boolean              EnableLoggingForZoneDataWriteEvent,
-  [in]  boolean              EnableLoggingForTombstoneEvent,
-  [in]  boolean              EnableLoggingForRecursiveLookupEvent,
-  [in]  boolean              EnableLoggingForRemoteServerEvent,
-  [in]  boolean              EnableLoggingForPluginDllEvent,
-  [in]  boolean              UseSystemEventLog,
-  [in]  string               ComputerName,
-  [in]  boolean              PassThru,
-  [out] DnsServerDiagnostics cmdletOutput
+  [in]  boolean              Answers,
+  [in]  uint32               EventLogLevel,
+  [in]  boolean              FullPackets,
+  [in]  string               IPFilterList[],
+  [in]  string               LogFilePath,
+  [in]  uint32               MaxMBFileSize,
+  [in]  boolean              Notifications,
+  [in]  boolean              Queries,
+  [in]  boolean              QuestionTransactions,
+  [in]  boolean              ReceivePackets,
+  [in]  boolean              SendPackets,
+  [in]  boolean              TcpPackets,
+  [in]  boolean              UdpPackets,
+  [in]  boolean              UnmatchedResponse,
+  [in]  boolean              Updates,
+  [in]  boolean              WriteThrough,
+  [in]  boolean              SaveLogsToPersistentStorage,
+  [in]  boolean              EnableLoggingForServerStartStopEvent,
+  [in]  boolean              EnableLoggingForZoneLoadingEvent,
+  [in]  boolean              EnableLoggingForLocalLookupEvent,
+  [in]  boolean              EnableLoggingToFile,
+  [in]  boolean              EnableLogFileRollover,
+  [in]  boolean              EnableLoggingForZoneDataWriteEvent,
+  [in]  boolean              EnableLoggingForTombstoneEvent,
+  [in]  boolean              EnableLoggingForRecursiveLookupEvent,
+  [in]  boolean              EnableLoggingForRemoteServerEvent,
+  [in]  boolean              EnableLoggingForPluginDllEvent,
+  [in]  boolean              UseSystemEventLog,
+  [in]  string               ComputerName,
+  [in]  boolean              PassThru,
+  [out] DnsServerDiagnostics cmdletOutput
 );
 ```
 
@@ -292,7 +298,7 @@ On return, contains an instance of a [**DnsServerDiagnostics**](dnsserverdiagnos
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -306,9 +312,9 @@ On return, contains an instance of a [**DnsServerDiagnostics**](dnsserverdiagnos
 [**PS\_DnsServerDiagnostics**](ps-dnsserverdiagnostics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

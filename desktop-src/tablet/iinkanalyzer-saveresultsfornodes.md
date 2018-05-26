@@ -1,7 +1,12 @@
 ---
-Description: 'Saves analysis results for a specific context node collection associated with an IInkAnalyzer.'
-ms.assetid: '671bdb11-6e30-4254-b320-208face1f593'
-title: 'IInkAnalyzer::SaveResultsForNodes method'
+Description: Saves analysis results for a specific context node collection associated with an IInkAnalyzer.
+ms.assetid: 671bdb11-6e30-4254-b320-208face1f593
+title: IInkAnalyzerSaveResultsForNodes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::SaveResultsForNodes method
@@ -13,9 +18,9 @@ Saves analysis results for a specific context node collection associated with an
 
 ```C++
 HRESULT SaveResultsForNodes(
-  [in]      IContextNodes *pContextNodes,
-  [in, out] ULONG         *pulSerializedDataSize,
-  [out]     BYTE          **ppbSerializedData
+  [in]      IContextNodes *pContextNodes,
+  [in, out] ULONG         *pulSerializedDataSize,
+  [out]     BYTE          **ppbSerializedData
 );
 ```
 
@@ -55,7 +60,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) on \**ppbSerializedData* when you no longer need the information.
 
- 
+ 
 
 This method saves the current analysis results for the [**IContextNode**](icontextnode.md) objects in *pContextNodes* and all of their ancestor and descendant context nodes. This method does not save any stroke data. It is the responsibility of your application to synchronize any analysis results and corresponding stroke data, if it persists.
 
@@ -67,7 +72,7 @@ If the [**IContextNode**](icontextnode.md) object to be saved is only partially 
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -96,9 +101,9 @@ If the [**IContextNode**](icontextnode.md) object to be saved is only partially 
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: This topic shows how to get objects that are associated with a give
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '536AB0AC-32A3-437B-A4EE-1E3C5D9B3558'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 536AB0AC-32A3-437B-A4EE-1E3C5D9B3558
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to get associated objects

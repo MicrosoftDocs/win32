@@ -1,8 +1,18 @@
 ---
 title: Global Attributes
 description: Global Attributes
-ms.assetid: '2ed09506-990e-4da2-89d6-6ff77dc43eb2'
-keywords: ["Windows Media Player skins,global attributes", "skins,global attributes", "reference for skins,global attributes", "global attributes", "attributes,global"]
+ms.assetid: 2ed09506-990e-4da2-89d6-6ff77dc43eb2
+keywords:
+- Windows Media Player skins,global attributes
+- skins,global attributes
+- reference for skins,global attributes
+- global attributes
+- attributes,global
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Global Attributes

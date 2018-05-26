@@ -4,10 +4,13 @@ description: Importing GPOs from a Test to a Production Forest
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '04f2bce6-e279-4b80-bc15-2a988abee486'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 04f2bce6-e279-4b80-bc15-2a988abee486
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Importing GPOs from a Test to a Production Forest

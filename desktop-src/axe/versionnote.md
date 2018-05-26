@@ -1,14 +1,20 @@
 ---
 title: VersionNote element
 description: This element contains a note that is associated with the version of this assessment.
-ms.assetid: 'DFC27320-2847-4331-832B-B28CC27C24D2'
-keywords: ["VersionNote element Access Execution Engine"]
+ms.assetid: DFC27320-2847-4331-832B-B28CC27C24D2
+keywords:
+- VersionNote element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - VersionNote
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VersionNote element
@@ -65,9 +71,9 @@ There are no child elements.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

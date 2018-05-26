@@ -1,8 +1,18 @@
 ---
 title: Security Considerations Windows User Interface
 description: This topic provides information about security considerations in the Windows User Interface.
-ms.assetid: 'D560E59A-D6C8-40a9-AABB-DE5A47C94E6E'
-keywords: ["Windows User Interface,security", "security for Windows User Interface", "string security", "user input,validation", "validating user inputs"]
+ms.assetid: D560E59A-D6C8-40a9-AABB-DE5A47C94E6E
+keywords:
+- Windows User Interface,security
+- security for Windows User Interface
+- string security
+- user input,validation
+- validating user inputs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Considerations: Windows User Interface

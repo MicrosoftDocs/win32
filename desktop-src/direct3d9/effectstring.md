@@ -1,7 +1,12 @@
 ---
-Description: 'Legacy template used to assign a value in an effect file. This template has been replaced by the EffectParamString template.'
-ms.assetid: 'a9cebdfe-c70e-4e3f-8fde-41947bd9a1fa'
+Description: Legacy template used to assign a value in an effect file. This template has been replaced by the EffectParamString template.
+ms.assetid: a9cebdfe-c70e-4e3f-8fde-41947bd9a1fa
 title: EffectString
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EffectString

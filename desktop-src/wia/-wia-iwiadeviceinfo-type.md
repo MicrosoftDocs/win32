@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the type of Windows Image Acquisition (WIA) hardware device.'
-ms.assetid: '5f10bcd1-03a0-4cd9-8886-e1f957312c3b'
-title: 'DeviceInfo.Type property'
+---
+Description: Retrieves the type of Windows Image Acquisition (WIA) hardware device.
+ms.assetid: 5f10bcd1-03a0-4cd9-8886-e1f957312c3b
+title: DeviceInfo.Type property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceInfo.Type property

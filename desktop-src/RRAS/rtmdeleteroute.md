@@ -1,8 +1,9 @@
 ---
 title: RtmDeleteRoute function
 description: The RtmDeleteRoute function deletes a route entry.
-ms.assetid: 'a98026e9-40f5-42e9-943c-dfc561feef6d'
-keywords: ["RtmDeleteRoute function RAS"]
+ms.assetid: a98026e9-40f5-42e9-943c-dfc561feef6d
+keywords:
+- RtmDeleteRoute function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtmDeleteRoute function
@@ -24,10 +30,10 @@ The **RtmDeleteRoute** function deletes a route entry.
 
 ```C++
 DWORD RtmDeleteRoute(
-  _In_  HANDLE ClientHandle,
-  _In_  PVOID  Route,
-  _Out_ DWORD  Flags,
-  _Out_ PVOID  CurBestRoute
+  _In_  HANDLE ClientHandle,
+  _In_  PVOID  Route,
+  _Out_ DWORD  Flags,
+  _Out_ PVOID  CurBestRoute
 );
 ```
 
@@ -59,7 +65,7 @@ Pointer to a protocol-family-specific structure that specifies the new or update
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -78,7 +84,7 @@ Pointer to a set of flags that indicate the type of the change message, and what
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -108,7 +114,7 @@ If the function fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -121,8 +127,8 @@ The function generates a route-change message if the best route to a destination
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
-| End of server support<br/>    | Windows Server 2003<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| End of server support<br/>    | Windows Server 2003<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Rtm.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
@@ -145,9 +151,9 @@ The function generates a route-change message if the best route to a destination
 [**RtmDequeueRouteChangeMessage**](rtmdequeueroutechangemessage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

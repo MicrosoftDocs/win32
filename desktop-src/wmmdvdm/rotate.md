@@ -1,14 +1,20 @@
 ---
 title: Rotate element
 description: Defines a three-dimensional (3-D) rotation for a specified object.
-ms.assetid: 'f6b543c0-e150-486e-9b1d-5a6a4783ee9b'
-keywords: ["Rotate element Windows Movie Maker and DVD Maker"]
+ms.assetid: f6b543c0-e150-486e-9b1d-5a6a4783ee9b
+keywords:
+- Rotate element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Rotate
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rotate element
@@ -63,7 +69,7 @@ You may also apply key-frame animation to properties such as **Rotate**. For exa
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -84,9 +90,9 @@ You may also apply key-frame animation to properties such as **Rotate**. For exa
 [**Scale Element**](scale.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

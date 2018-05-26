@@ -1,8 +1,11 @@
 ---
 title: TypeScancodes method of the Msvm\_Keyboard class
 description: Simulates a key sequence using scan codes.
-ms.assetid: '393fb049-63fa-43e1-914d-1786451d878f'
-keywords: ["TypeScancodes method Hyper-V", "TypeScancodes method Hyper-V , Msvm_Keyboard class", "Msvm_Keyboard class Hyper-V , TypeScancodes method"]
+ms.assetid: 393fb049-63fa-43e1-914d-1786451d878f
+keywords:
+- TypeScancodes method Hyper-V
+- TypeScancodes method Hyper-V , Msvm_Keyboard class
+- Msvm_Keyboard class Hyper-V , TypeScancodes method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TypeScancodes method of the Msvm\_Keyboard class
@@ -22,7 +30,7 @@ Simulates a key sequence using scan codes.
 
 ```mof
 uint32 TypeScancodes(
-  [in] uint8 Scancodes[]
+  [in] uint8 Scancodes[]
 );
 ```
 
@@ -99,9 +107,9 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -114,9 +122,9 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 [**Msvm\_Keyboard**](msvm-keyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

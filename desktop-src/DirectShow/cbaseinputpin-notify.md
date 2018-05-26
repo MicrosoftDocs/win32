@@ -1,20 +1,25 @@
 ---
-Description: 'The Notify method notifies the pin that a quality change is requested. This method implements the IQualityControl::Notify method.'
-ms.assetid: '76124321-0d2d-4fee-a08a-4db23078e8df'
-title: 'CBaseInputPin.Notify method'
+Description: The Notify method notifies the pin that a quality change is requested. This method implements the IQualityControlNotify method.
+ms.assetid: 76124321-0d2d-4fee-a08a-4db23078e8df
+title: CBaseInputPin.Notify method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin.Notify method
 
-The `Notify` method notifies the pin that a quality change is requested. This method implements the [**IQualityControl::Notify**](iqualitycontrol-notify.md) method.
+The `Notify` method notifies the pin that a quality change is requested. This method implements the [**IQualityControl::Notify**](/windows/win32/Strmif/nf-strmif-iqualitycontrol-notify?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT Notify(
-   IBaseFilter *pSelf,
-   Quality     q
+   IBaseFilter *pSelf,
+   Quality     q
 );
 ```
 
@@ -34,7 +39,7 @@ Pointer to the filter that is sending the quality-control message.
 *q* 
 </dt> <dd>
 
-[**Quality**](quality.md) structure that contains the quality-control message.
+[**Quality**](/windows/win32/strmif/ns-strmif-tagquality?branch=master) structure that contains the quality-control message.
 
 </dd> </dl>
 
@@ -67,9 +72,9 @@ Filters usually pass quality-control messages to an upstream output pin, not to 
 [Quality-Control Management](quality-control-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

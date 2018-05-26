@@ -1,8 +1,17 @@
 ---
 title: Color-Index Mode and Windows Palette Management
 description: The color-index mode specifies colors in a logical palette with an index to a specific logical-palette entry.
-ms.assetid: '8cf07c3e-8a8b-4f28-a363-34d3c0d33890'
-keywords: ["OpenGL on Windows,palette management", "OpenGL on Windows,color-index mode", "color-index mode OpenGL", "palette management OpenGL"]
+ms.assetid: 8cf07c3e-8a8b-4f28-a363-34d3c0d33890
+keywords:
+- OpenGL on Windows,palette management
+- OpenGL on Windows,color-index mode
+- color-index mode OpenGL
+- palette management OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color-Index Mode and Windows Palette Management
@@ -11,7 +20,7 @@ The color-index mode specifies colors in a logical palette with an index to a sp
 
 ## Color-Index Mode Palette Sample
 
-The following code sets up a [**PIXELFORMATDESCRIPTOR**](pixelformatdescriptor.md) structure that sets the flag of the **iPixelType** member to PFD\_TYPE\_COLORINDEX. This specifies that the application use a color-index palette.
+The following code sets up a [**PIXELFORMATDESCRIPTOR**](/windows/win32/Wingdi/ns-wingdi-tagpixelformatdescriptor?branch=master) structure that sets the flag of the **iPixelType** member to PFD\_TYPE\_COLORINDEX. This specifies that the application use a color-index palette.
 
 
 ```C++

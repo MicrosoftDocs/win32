@@ -1,30 +1,35 @@
 ---
-Description: 'Demonstrates how to use the CryptMsgOpenToEncode, CryptMsgOpenToDecode, and CryptMsgUpdate functions with the CMSG\_STREAM\_INFO structure to encode and decode a message using the streaming features of these functions.'
-ms.assetid: '6c9c0509-1ad9-42cd-9589-e77752df6739'
-title: 'Example C Program: Encoding and Decoding a Message Using a Stream'
+Description: Demonstrates how to use the CryptMsgOpenToEncode, CryptMsgOpenToDecode, and CryptMsgUpdate functions with the CMSG\_STREAM\_INFO structure to encode and decode a message using the streaming features of these functions.
+ms.assetid: 6c9c0509-1ad9-42cd-9589-e77752df6739
+title: Example C Program Encoding and Decoding a Message Using a Stream
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Encoding and Decoding a Message Using a Stream
 
-The following example demonstrates how to use the [**CryptMsgOpenToEncode**](cryptmsgopentoencode.md), [**CryptMsgOpenToDecode**](cryptmsgopentodecode.md), and [**CryptMsgUpdate**](cryptmsgupdate.md) functions with the [**CMSG\_STREAM\_INFO**](cmsg-stream-info.md) structure to encode and decode a message using the streaming features of these functions.
+The following example demonstrates how to use the [**CryptMsgOpenToEncode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentoencode?branch=master), [**CryptMsgOpenToDecode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentodecode?branch=master), and [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master) functions with the [**CMSG\_STREAM\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cmsg_stream_info?branch=master) structure to encode and decode a message using the streaming features of these functions.
 
 Signing and encoding a message does not ensure privacy for that message. Rather it ensures the authenticity of the message. Because the message is signed with the sender's private key, when the receiver of the message decrypts the signature with the sender's [*public key*](security.p_gly#-security-public-key-gly) (available from the certificate that is sent along with the message), the receiver can be sure that the message was sent by the person or entity associated with the certificate and that the message was not changed after it was signed.
 
 This encoding signing portion of this example illustrates the following tasks and CryptoAPI functions:
 
--   Opening a certificate store by using [**CertOpenStore**](certopenstore.md).
--   Retrieving a certificate with a specific subject name by using [**CertFindCertificateInStore**](certfindcertificateinstore.md).
--   Getting and printing a certificate's subject name by using [**CertGetNameString**](certgetnamestring.md).
--   Getting the handle to a cryptographic provider that can provide a private key with the [**CryptAcquireCertificatePrivateKey**](cryptacquirecertificateprivatekey.md) function.
--   Initializing the [**CMSG\_SIGNED\_ENCODE\_INFO**](cmsg-signed-encode-info.md) and [**CMSG\_STREAM\_INFO**](cmsg-stream-info.md) structures to be used in a call to [**CryptMsgOpenToEncode**](cryptmsgopentoencode.md).
--   Signing and encoding a message by using [**CryptMsgOpenToEncode**](cryptmsgopentoencode.md) and [**CryptMsgUpdate**](cryptmsgupdate.md).
+-   Opening a certificate store by using [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master).
+-   Retrieving a certificate with a specific subject name by using [**CertFindCertificateInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindcertificateinstore?branch=master).
+-   Getting and printing a certificate's subject name by using [**CertGetNameString**](/windows/win32/Wincrypt/nf-wincrypt-certgetnamestringa?branch=master).
+-   Getting the handle to a cryptographic provider that can provide a private key with the [**CryptAcquireCertificatePrivateKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey?branch=master) function.
+-   Initializing the [**CMSG\_SIGNED\_ENCODE\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cmsg_signed_encode_info?branch=master) and [**CMSG\_STREAM\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cmsg_stream_info?branch=master) structures to be used in a call to [**CryptMsgOpenToEncode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentoencode?branch=master).
+-   Signing and encoding a message by using [**CryptMsgOpenToEncode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentoencode?branch=master) and [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master).
 -   Implementing a stream callback function that can save an encoded and signed message in any persistent format, such as writing it to a file.
 
 The decoding portion of this example illustrates the following tasks and CryptoAPI functions:
 
--   Initializing a [**CMSG\_STREAM\_INFO**](cmsg-stream-info.md) structure to be used in a call to [**CryptMsgOpenToDecode**](cryptmsgopentodecode.md).
+-   Initializing a [**CMSG\_STREAM\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cmsg_stream_info?branch=master) structure to be used in a call to [**CryptMsgOpenToDecode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentodecode?branch=master).
 -   Implementing a stream callback function that can save a decoded message in any persistent format, such as printing it to the screen.
--   Reading an encoded message from a file and decoding the message by using [**CryptMsgUpdate**](cryptmsgupdate.md).
+-   Reading an encoded message from a file and decoding the message by using [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master).
 
 For an example of how to perform these same operations without using a stream callback, see [Example C Program: Signing, Encoding, Decoding, and Verifying a Message](example-c-program-signing-encoding-decoding-and-verifying-a-message.md).
 

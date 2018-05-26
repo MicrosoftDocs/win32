@@ -1,7 +1,12 @@
 ---
-Description: 'As the Kerberos protocol was originally designed, a master key for a user was derived from a password provided by the user.'
-ms.assetid: 'b8fcb68d-751e-4495-ab92-8b70c96aaa7a'
-title: 'Ticket-Granting Tickets'
+Description: As the Kerberos protocol was originally designed, a master key for a user was derived from a password provided by the user.
+ms.assetid: b8fcb68d-751e-4495-ab92-8b70c96aaa7a
+title: Ticket-Granting Tickets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ticket-Granting Tickets

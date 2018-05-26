@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: 'eca1c6f1-f426-4b46-a569-e9b1587c49da'
+ms.assetid: eca1c6f1-f426-4b46-a569-e9b1587c49da
 title: Using Customized Sounds Effectively
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Customized Sounds Effectively

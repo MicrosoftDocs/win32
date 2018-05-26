@@ -1,7 +1,12 @@
 ---
-Description: 'The InkEdit control provides an easy way to capture, recognize, and display ink.'
-ms.assetid: 'a1dfa254-cade-44c5-8fdd-74bb40849063'
+Description: The InkEdit control provides an easy way to capture, recognize, and display ink.
+ms.assetid: a1dfa254-cade-44c5-8fdd-74bb40849063
 title: InkEdit Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkEdit Control
@@ -29,7 +34,7 @@ The primary purpose of the [InkEdit](inkedit-control-reference.md) control is to
 
 
 
- 
+ 
 
 Gesture events that you can handle contain gesture, stroke, and cursor information you can use to send text to [InkEdit](inkedit-control-reference.md) or place data on the clipboard.
 
@@ -40,23 +45,23 @@ Gesture events that you can handle contain gesture, stroke, and cursor informati
 [InkEdit](inkedit-control-reference.md) is designed to work well in a form scenario for single line as well as multiline text entry and editing. The primary intended use for InkEdit is to get text input from a user in the form of handwriting. By default, ink input is recognized and text is inserted in its place. The default user interface for InkEdit resembles that of the [**RichTextBox**](T:System.Windows.Controls.RichTextBox) control, except when the user is laying down ink. You can display original ink rather than text; however, the ink is scaled to the current input font size of the InkEdit control and is displayed inline with other text.
 
 > [!Note]  
-> For security reasons, you must use standard procedures to open or close a file, stream the input/output, and set the [**RTF**](inkedit-selrtf.md) or [**Text**](inkedit-seltext.md) property.
+> For security reasons, you must use standard procedures to open or close a file, stream the input/output, and set the [**RTF**](/windows/win32/inked/?branch=master) or [**Text**](/windows/win32/inked/?branch=master) property.
 
- 
+ 
 
-The [InkEdit](inkedit-control-reference.md) control is set to recognize ink as text by default. To enable users to add ink as ink, set the [**InkInsertMode**](inkedit-inkinsertmode.md) property to **InsertAsInk**.
+The [InkEdit](inkedit-control-reference.md) control is set to recognize ink as text by default. To enable users to add ink as ink, set the [**InkInsertMode**](/windows/win32/inked/?branch=master) property to **InsertAsInk**.
 
 For detailed reference information about the [InkEdit](inkedit-control-reference.md) control, see InkEdit.
 
 > [!Note]  
 > If you use the Win32 [InkEdit](inkedit-control-reference.md) control and place it inside a group box, make sure the box has a transparent style; otherwise, InkEdit is not able to collect ink.
 
- 
+ 
 
 > [!Note]  
-> To ensure ink is displayed properly, call the [InkEdit](inkedit-control-reference.md) control [**Refresh**](inkedit-refresh.md) method when it receives an [**HScroll**](frlrfSystemWindowsFormsRichTextBoxClassHScrollTopic) or [**VScroll**](frlrfSystemWindowsFormsRichTextBoxClassVScrollTopic) event.
+> To ensure ink is displayed properly, call the [InkEdit](inkedit-control-reference.md) control [**Refresh**](/windows/win32/inked/?branch=master) method when it receives an [**HScroll**](frlrfSystemWindowsFormsRichTextBoxClassHScrollTopic) or [**VScroll**](frlrfSystemWindowsFormsRichTextBoxClassVScrollTopic) event.
 
- 
+ 
 
 The following sections detail the use of the [InkEdit](inkedit-control-reference.md) control:
 
@@ -66,9 +71,9 @@ The following sections detail the use of the [InkEdit](inkedit-control-reference
 -   [Using InkEdit on Earlier Versions of Windows](using-inkedit-on-earlier-versions-of-windows.md)
 -   [Using an Application Dictionary with InkEdit](using-an-application-dictionary-with-inkedit.md)
 
- 
+ 
 
- 
+ 
 
 
 

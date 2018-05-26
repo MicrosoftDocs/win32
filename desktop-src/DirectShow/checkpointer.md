@@ -1,7 +1,12 @@
 ---
-Description: 'Checks whether a pointer is NULL. If the pointer is NULL, the function or method in which the macro appears returns the specified value.'
-ms.assetid: 'eca73fbf-5fd8-4b76-af06-ca0c22510b55'
+Description: Checks whether a pointer is NULL. If the pointer is NULL, the function or method in which the macro appears returns the specified value.
+ms.assetid: eca73fbf-5fd8-4b76-af06-ca0c22510b55
 title: CheckPointer macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CheckPointer macro
@@ -13,8 +18,8 @@ Checks whether a pointer is **NULL**. If the pointer is **NULL**, the function o
 
 ```C++
 HRESULT CheckPointer(
-    p,
-    ret
+    p,
+    ret
 );
 ```
 
@@ -74,9 +79,9 @@ HRESULT MyFunction(VOID *pSomeParameter)
 [Pointer Validation Macros](pointer-validation-macros.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

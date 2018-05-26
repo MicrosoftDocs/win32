@@ -1,8 +1,14 @@
 ---
 title: COLOR union
 description: TBD.
-ms.assetid: 'af0b0522-b519-4fe8-8dab-3d9f40643902'
-keywords: ["COLOR union Windows Color System"]
+ms.assetid: af0b0522-b519-4fe8-8dab-3d9f40643902
+keywords:
+- COLOR union Windows Color System
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLOR union
@@ -14,18 +20,18 @@ TBD
 
 ```C++
 typedef union tagCOLOR {
-  struct GRAYCOLOR  gray;
-  struct RGBCOLOR  rbg;
-  struct CMYKCOLOR  cmyk;
-  struct XYZCOLOR  XYZ;
-  struct YxyCOLOR  Yxy;
-  struct LabCOLOR  Lab;
-  struct GENERIC3CHANNEL  gen3ch;
-  struct NAMEDCOLOR  named;
-  struct HiFiCOLOR  hifi;
+  struct GRAYCOLOR  gray;
+  struct RGBCOLOR  rbg;
+  struct CMYKCOLOR  cmyk;
+  struct XYZCOLOR  XYZ;
+  struct YxyCOLOR  Yxy;
+  struct LabCOLOR  Lab;
+  struct GENERIC3CHANNEL  gen3ch;
+  struct NAMEDCOLOR  named;
+  struct HiFiCOLOR  hifi;
   struct {
     DWORD reserved1;
-    VOID  *reserved2;
+    VOID  *reserved2;
   };
 } COLOR;
 ```
@@ -137,9 +143,9 @@ the red, green and blue values could be set in the following manner:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_MDType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Mail Agent for Domain (MD) record.
-ms.assetid: '11242372-65fe-44ee-845b-2430aec59127'
-keywords: ["MicrosoftDNS_MDType class DNS", "MicrosoftDNS_MDType class DNS , described"]
+ms.assetid: 11242372-65fe-44ee-845b-2430aec59127
+keywords:
+- MicrosoftDNS_MDType class DNS
+- MicrosoftDNS_MDType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_MDType class
@@ -51,7 +58,7 @@ The **MicrosoftDNS\_MDType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ FQDN that specifies a host with a mail agent capable of delivering mail for the 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ FQDN that specifies a host with a mail agent capable of delivering mail for the 
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

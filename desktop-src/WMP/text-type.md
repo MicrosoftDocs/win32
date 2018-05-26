@@ -1,8 +1,17 @@
 ---
 title: Text Type
 description: Text Type
-ms.assetid: '0ef8b680-994b-4c5e-93ca-9642c2532cd4'
-keywords: ["Windows Media Player Mobile skins,text", "skins,text", "reference for skins,text", "text in skins,types"]
+ms.assetid: 0ef8b680-994b-4c5e-93ca-9642c2532cd4
+keywords:
+- Windows Media Player Mobile skins,text
+- skins,text
+- reference for skins,text
+- text in skins,types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Type

@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_SUBRESOURCE\_RANGE\_UINT64 structure
 description: A helper structure to enable easy initialization of a D3D12\_SUBRESOURCE\_RANGE\_UINT64 structure.
-ms.assetid: '607A60ED-98D2-4A77-9A7A-6B54342EA101'
-keywords: ["CD3DX12_SUBRESOURCE_RANGE_UINT64 structure"]
+ms.assetid: 607A60ED-98D2-4A77-9A7A-6B54342EA101
+keywords:
+- CD3DX12_SUBRESOURCE_RANGE_UINT64 structure
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_SUBRESOURCE\_RANGE\_UINT64 structure
 
-A helper structure to enable easy initialization of a [**D3D12\_SUBRESOURCE\_RANGE\_UINT64**](d3d12-subresource-range-uint64.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_SUBRESOURCE\_RANGE\_UINT64**](/windows/win32/D3D12/ns-d3d12-d3d12_subresource_range_uint64?branch=master) structure.
 
 ## Syntax
 
@@ -26,7 +32,7 @@ struct CD3DX12_SUBRESOURCE_RANGE_UINT64  : public D3D12_SUBRESOURCE_RANGE_UINT64
   CD3DX12_SUBRESOURCE_RANGE_UINT64 explicit CD3DX12_SUBRESOURCE_RANGE_UINT64(const D3D12_SUBRESOURCE_RANGE_UINT64 &amp;o);
   CD3DX12_SUBRESOURCE_RANGE_UINT64 CD3DX12_SUBRESOURCE_RANGE_UINT64(UINT subresource, const D3D12_RANGE_UINT64&amp; range);
   CD3DX12_SUBRESOURCE_RANGE_UINT64 CD3DX12_SUBRESOURCE_RANGE_UINT64(UINT subresource, UINT64 begin, UINT64 end);
-                                   operator const D3D12_SUBRESOURCE_RANGE_UINT64&amp;() const;
+                                   operator const D3D12_SUBRESOURCE_RANGE_UINT64&amp;() const;
 };
 ```
 
@@ -46,7 +52,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_SUBRESOURCE\_RANGE\_UINT64.
 **explicit CD3DX12\_SUBRESOURCE\_RANGE\_UINT64(const D3D12\_SUBRESOURCE\_RANGE\_UINT64 &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_SUBRESOURCE\_RANGE\_UINT64, initialized with values copied from a [**D3D12\_SUBRESOURCE\_RANGE\_UINT64**](d3d12-subresource-range-uint64.md) structure.
+Creates a new instance of a CD3DX12\_SUBRESOURCE\_RANGE\_UINT64, initialized with values copied from a [**D3D12\_SUBRESOURCE\_RANGE\_UINT64**](/windows/win32/D3D12/ns-d3d12-d3d12_subresource_range_uint64?branch=master) structure.
 
 </dd> <dt>
 
@@ -88,12 +94,12 @@ Implicit conversion to a D3D12\_SUBRESOURCE\_RANGE\_UINT64 structure. Because D3
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> <dt>
 
-[**D3D12\_SUBRESOURCE\_RANGE\_UINT64**](d3d12-subresource-range-uint64.md)
+[**D3D12\_SUBRESOURCE\_RANGE\_UINT64**](/windows/win32/D3D12/ns-d3d12-d3d12_subresource_range_uint64?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

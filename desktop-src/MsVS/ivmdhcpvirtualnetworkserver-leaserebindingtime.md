@@ -1,8 +1,13 @@
 ---
 title: IVMDHCPVirtualNetworkServer LeaseRebindingTime property
 description: The LeaseRebindingTime property contains the time in seconds after which the client virtual machine should rebind if the virtual DHCP server has not responded.
-ms.assetid: 'f85db0ad-cba4-49d5-b6a1-f44d4a45a93d'
-keywords: ["LeaseRebindingTime property Virtual Server", "LeaseRebindingTime property Virtual Server , IVMDHCPVirtualNetworkServer interface", "IVMDHCPVirtualNetworkServer interface Virtual Server , LeaseRebindingTime property", "LeaseRebindingTime property Virtual Server , VMDHCPVirtualNetworkServer interface", "VMDHCPVirtualNetworkServer interface Virtual Server , LeaseRebindingTime property"]
+ms.assetid: f85db0ad-cba4-49d5-b6a1-f44d4a45a93d
+keywords:
+- LeaseRebindingTime property Virtual Server
+- LeaseRebindingTime property Virtual Server , IVMDHCPVirtualNetworkServer interface
+- IVMDHCPVirtualNetworkServer interface Virtual Server , LeaseRebindingTime property
+- LeaseRebindingTime property Virtual Server , VMDHCPVirtualNetworkServer interface
+- VMDHCPVirtualNetworkServer interface Virtual Server , LeaseRebindingTime property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDHCPVirtualNetworkServer::LeaseRebindingTime property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_LeaseRebindingTime(
-  [out] VARIANT *leaseRebindingTime
+  [out] VARIANT *leaseRebindingTime
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMDHCPVirtualNetworkServer**](ivmdhcpvirtualnetworkserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

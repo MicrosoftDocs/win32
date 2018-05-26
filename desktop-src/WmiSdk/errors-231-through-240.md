@@ -1,13 +1,16 @@
 ---
-Description: 'Describes WMI SNMP provider errors 231 through 240.'
+Description: Describes WMI SNMP provider errors 231 through 240.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'edb3dabb-6a65-4285-97d3-f7025d3bb5da'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: edb3dabb-6a65-4285-97d3-f7025d3bb5da
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Errors 231 through 240
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Errors 231 through 240

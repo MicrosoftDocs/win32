@@ -4,17 +4,21 @@ description: Provides the XML data object associated with the scope or result pa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '197a5e80-4542-4d52-89f9-20b06b0b8256'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 197a5e80-4542-4d52-89f9-20b06b0b8256
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CCF_AUTOPROF_XMLDOM clipboard format MMC"]
+keywords:
+- CCF_AUTOPROF_XMLDOM clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - CCF_AUTOPROF_XMLDOM
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CCF\_AUTOPROF\_XMLDOM clipboard format
@@ -35,14 +39,14 @@ For an example that uses the **CCF\_AUTOPROF\_XMLDOM** clipboard format, see [He
 
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1<br/> |
-| Minimum supported server<br/> | Windows Server 2008<br/>    |
+| Minimum supported client<br/> | Windows Vista with SP1<br/> |
+| Minimum supported server<br/> | Windows Server 2008<br/>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

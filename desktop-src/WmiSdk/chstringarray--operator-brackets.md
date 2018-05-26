@@ -1,20 +1,23 @@
 ---
-Description: 'These subscript operators set or get the element at the specified index. These operators are a convenient substitute for the SetAt and GetAt methods.'
+Description: These subscript operators set or get the element at the specified index. These operators are a convenient substitute for the SetAt and GetAt methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '93b10bef-908e-4c5e-aac3-b13051b2e7c9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 93b10bef-908e-4c5e-aac3-b13051b2e7c9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CHStringArray::operator \[ \]'
+title: CHStringArrayoperator \[ \]
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CHStringArray::operator \[ \]
 
-\[The [**CHStringArray**](chstringarray.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://msdn.microsoft.com/library/jj152383) should be used for all new development.\]
+\[The [**CHStringArray**](/windows/win32/ChStrArr/nl-chstrarr-chstringarray?branch=master) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://msdn.microsoft.com/library/jj152383) should be used for all new development.\]
 
-These subscript operators set or get the element at the specified index. These operators are a convenient substitute for the [**SetAt**](chstringarray-setat.md) and [**GetAt**](chstringarray-getat.md) methods.
+These subscript operators set or get the element at the specified index. These operators are a convenient substitute for the [**SetAt**](/windows/win32/ChStrArr/nf-chstrarr-chstringarray-setat(int,lpcwstr)?branch=master) and [**GetAt**](/windows/win32/ChStrArr/nf-chstrarr-chstringarray-getat(int)?branch=master) methods.
 
 ``` syntax
 CHString& operator []( 
@@ -33,7 +36,7 @@ CHString operator [](
 <span id="nIndex"></span><span id="nindex"></span><span id="NINDEX"></span>*nIndex*
 </dt> <dd>
 
-An integer index that is greater than or equal to zero and less than or equal to the value returned by [**GetUpperBound**](chstringarray-getupperbound.md)
+An integer index that is greater than or equal to zero and less than or equal to the value returned by [**GetUpperBound**](/windows/win32/ChStrArr/nf-chstrarr-chstringarray-getupperbound?branch=master)
 
 </dd> </dl>
 
@@ -49,7 +52,7 @@ The debug version of the library asserts if the subscript (either on the left or
 
 ## Examples
 
-The following code example shows the use of [**CHStringArray::operator \[\]**](chptrarray--operator-brackets.md).
+The following code example shows the use of [**CHStringArray::operator \[\]**](/windows/win32/ChPtrArr/?branch=master).
 
 
 ```C++
@@ -73,8 +76,8 @@ assert( array[0] == L"String 3" );
 
 |                                     |                                                                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |
 | Header<br/>                   | <dl> <dt>ChStrArr.h (include FwCommon.h)</dt> </dl>                                                    |
 | Library<br/>                  | <dl> <dt>FrameDyn.lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
@@ -85,18 +88,18 @@ assert( array[0] == L"String 3" );
 
 <dl> <dt>
 
-[**CHStringArray::Add**](chstringarray-add.md)
+[**CHStringArray::Add**](/windows/win32/ChStrArr/nf-chstrarr-chstringarray-add?branch=master)
 </dt> <dt>
 
-[**CHStringArray::GetAt**](chstringarray-getat.md)
+[**CHStringArray::GetAt**](/windows/win32/ChStrArr/nf-chstrarr-chstringarray-getat(int)?branch=master)
 </dt> <dt>
 
-[**CHStringArray::SetAt**](chstringarray-setat.md)
+[**CHStringArray::SetAt**](/windows/win32/ChStrArr/nf-chstrarr-chstringarray-setat(int,lpcwstr)?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

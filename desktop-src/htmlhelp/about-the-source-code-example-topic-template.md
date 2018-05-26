@@ -1,7 +1,12 @@
 ---
 title: About the Source-Code Example Topic Template
 description: About the Source-Code Example Topic Template
-ms.assetid: '4A926582-6728-47c0-8BA0-9DC27BDA7C8C'
+ms.assetid: 4A926582-6728-47c0-8BA0-9DC27BDA7C8C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Source-Code Example Topic Template

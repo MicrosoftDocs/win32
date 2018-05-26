@@ -1,12 +1,17 @@
 ---
-Description: 'Lists protected files.'
-ms.assetid: '46a1ff83-afed-4ce3-bb62-551446efdb78'
+Description: Lists protected files.
+ms.assetid: 46a1ff83-afed-4ce3-bb62-551446efdb78
 title: SfcGetFiles function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SfcGetFiles function
 
-\[This function is available for use in the operating systems specified in the Requirements section. Support for this function was removed in Windows Vista and Windows Server 2008. Use the supported functions listed in [WRP Functions](wfp-functions.md) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. Support for this function was removed in Windows Vista and Windows Server 2008. Use the supported functions listed in [WRP Functions](wfp-functions.md) instead.\]
 
 Lists protected files.
 
@@ -15,8 +20,8 @@ Lists protected files.
 
 ```C++
 NTSTATUS WINAPI SfcGetFiles(
-  _Out_ PPROTECT_FILE_ENTRY ProtFileData,
-  _Out_ PULONG              FileCount
+  _Out_ PPROTECT_FILE_ENTRY ProtFileData,
+  _Out_ PULONG              FileCount
 );
 ```
 
@@ -50,10 +55,10 @@ If the function succeeds, the return value is STATUS\_SUCCESS. If the function f
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Sfcfiles.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Sfcfiles.dll</dt> </dl> |
 
@@ -66,9 +71,9 @@ If the function succeeds, the return value is STATUS\_SUCCESS. If the function f
 [**PPROTECT\_FILE\_ENTRY**](pprotect-file-entry.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,15 @@
 title: DnsServerDnsSecZoneSetting class
 description: Represents Domain Name System Security Extensions (DNSSEC) settings for a DNS zone.
 audience: developer
-ms.assetid: '0c783b89-6b5f-466c-9589-2efc412dd810'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0c783b89-6b5f-466c-9589-2efc412dd810
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerDnsSecZoneSetting class", "DnsServerDnsSecZoneSetting class, described"]
+keywords:
+- DnsServerDnsSecZoneSetting class
+- DnsServerDnsSecZoneSetting class, described
 topic_type:
 - apiref
 api_name:
@@ -39,6 +41,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerDnsSecZoneSetting class
@@ -53,28 +58,28 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerDnsSecZoneSetting
 {
-  String   ZoneName;
-  String   DenialOfExistence;
-  String   NSec3HashAlgorithm;
-  Uint16   NSec3Iterations;
-  boolean  NSec3OptOut;
-  Uint8    NSec3RandomSaltLength;
-  String   NSec3UserSalt;
-  String   DistributeTrustAnchor[];
-  boolean  EnableRfc5011KeyRollover;
-  String   DSRecordGenerationAlgorithm[];
+  String   ZoneName;
+  String   DenialOfExistence;
+  String   NSec3HashAlgorithm;
+  Uint16   NSec3Iterations;
+  boolean  NSec3OptOut;
+  Uint8    NSec3RandomSaltLength;
+  String   NSec3UserSalt;
+  String   DistributeTrustAnchor[];
+  boolean  EnableRfc5011KeyRollover;
+  String   DSRecordGenerationAlgorithm[];
   datetime DSRecordSetTtl;
   datetime DnsKeyRecordSetTtl;
   datetime SignatureInceptionOffset;
   datetime SecureDelegationPollingPeriod;
   datetime PropagationTime;
-  boolean  ParentHasSecureDelegation;
-  boolean  IsKeyMasterServer;
-  String   KeyMasterServer;
-  String   KeyMasterStatus;
-  boolean  IsSigned;
-  String   NSec3CurrentSalt;
-  String   CurrentRollingSkdGuid;
+  boolean  ParentHasSecureDelegation;
+  boolean  IsKeyMasterServer;
+  String   KeyMasterServer;
+  String   KeyMasterStatus;
+  boolean  IsSigned;
+  String   NSec3CurrentSalt;
+  String   CurrentRollingSkdGuid;
 };
 ```
 
@@ -101,7 +106,7 @@ Access type: Read-only
 
 The **GUID** of the currently rolling SKD.
 
-**Windows Server 2012:** This property is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This property is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -275,7 +280,7 @@ Access type: Read-only
 
 **True** if the current zone is signed; otherwise, **false**.
 
-**Windows Server 2012:** This property is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This property is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -334,7 +339,7 @@ Access type: Read-only
 
 The current NSEC3 salt string used to sign the DNS zone.
 
-**Windows Server 2012:** This property is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This property is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -500,7 +505,7 @@ The name of the zone.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -514,9 +519,9 @@ The name of the zone.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

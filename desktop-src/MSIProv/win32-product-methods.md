@@ -1,7 +1,12 @@
 ---
 title: Win32\_Product Methods
 description: The Win32\_Product class exposes the following methods.
-ms.assetid: '97B727C6-6F84-4D27-B80D-707D3FE23272'
+ms.assetid: 97B727C6-6F84-4D27-B80D-707D3FE23272
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_Product Methods

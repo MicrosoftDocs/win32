@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree FindFirst method
 description: Finds the first body in the message tree that matches a specified content type.
-ms.assetid: '5b9e4ef8-5d1e-44d3-9c00-d3e22600671c'
-keywords: ["FindFirst method Windows Mail (formerly Outlook Express)", "FindFirst method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , FindFirst method"]
+ms.assetid: 5b9e4ef8-5d1e-44d3-9c00-d3e22600671c
+keywords:
+- FindFirst method Windows Mail (formerly Outlook Express)
+- FindFirst method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , FindFirst method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::FindFirst method
@@ -22,8 +30,8 @@ Finds the first body in the message tree that matches a specified content type.
 
 ```C++
 HRESULT FindFirst(
-  [in, out] LPFINDBODY pFindBody,
-  [out]     LPHBODY    phBody
+  [in, out] LPFINDBODY pFindBody,
+  [out]     LPHBODY    phBody
 );
 ```
 
@@ -68,7 +76,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,8 +90,8 @@ If *pFindBody*-&gt;**pszPriType** and *pFindBody*-&gt;**pszSubType** are both **
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -91,9 +99,9 @@ If *pFindBody*-&gt;**pszPriType** and *pFindBody*-&gt;**pszSubType** are both **
 
 
 
- 
+ 
 
- 
+ 
 
 
 

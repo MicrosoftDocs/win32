@@ -1,8 +1,11 @@
 ---
 title: IPropertyContainer GetPropDw method
 description: Retrieves the data and size for a specified property ID.
-ms.assetid: '7fc1d14c-9e93-433d-b785-c7ba1181228c'
-keywords: ["GetPropDw method Windows Mail (formerly Outlook Express)", "GetPropDw method Windows Mail (formerly Outlook Express) , IPropertyContainer interface", "IPropertyContainer interface Windows Mail (formerly Outlook Express) , GetPropDw method"]
+ms.assetid: 7fc1d14c-9e93-433d-b785-c7ba1181228c
+keywords:
+- GetPropDw method Windows Mail (formerly Outlook Express)
+- GetPropDw method Windows Mail (formerly Outlook Express) , IPropertyContainer interface
+- IPropertyContainer interface Windows Mail (formerly Outlook Express) , GetPropDw method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertyContainer::GetPropDw method
@@ -24,8 +32,8 @@ Retrieves the data and size for a specified property ID.
 
 ```C++
 HRESULT GetPropDw(
-  [in]  DWORD dwPropTag,
-  [out] DWORD *pdw
+  [in]  DWORD dwPropTag,
+  [out] DWORD *pdw
 );
 ```
 
@@ -72,7 +80,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -84,8 +92,8 @@ The **IPropertyContainer::GetPropDw** and [**IPropertyContainer::GetPropSz**](oe
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -93,9 +101,9 @@ The **IPropertyContainer::GetPropDw** and [**IPropertyContainer::GetPropSz**](oe
 
 
 
- 
+ 
 
- 
+ 
 
 
 

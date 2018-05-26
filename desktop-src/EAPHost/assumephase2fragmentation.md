@@ -1,7 +1,12 @@
 ---
 title: AssumePhase2Fragmentation
 description: The AssumePhase2Fragmentation registry key determines if the server and client assume phase 2 fragmentation.
-ms.assetid: '3d6ececf-8871-4038-9706-4da57857d25a'
+ms.assetid: 3d6ececf-8871-4038-9706-4da57857d25a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssumePhase2Fragmentation

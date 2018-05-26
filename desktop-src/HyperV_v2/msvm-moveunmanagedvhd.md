@@ -1,7 +1,12 @@
 ---
-Description: 'Moves a virtual hard drive from the source to the destination path.'
-ms.assetid: 'f51f7bf3-585a-442d-b84d-51d633c38dea'
-title: 'Msvm\_MoveUnmanagedVhd class'
+Description: Moves a virtual hard drive from the source to the destination path.
+ms.assetid: f51f7bf3-585a-442d-b84d-51d633c38dea
+title: Msvm\_MoveUnmanagedVhd class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_MoveUnmanagedVhd class
@@ -65,8 +70,8 @@ The source path of the virtual hard drive to move.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -80,9 +85,9 @@ The source path of the virtual hard drive to move.
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

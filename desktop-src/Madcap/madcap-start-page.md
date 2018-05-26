@@ -1,8 +1,16 @@
 ---
 title: Multicast Address Dynamic Client Allocation Protocol
 description: The Multicast Address Dynamic Client Allocation Protocol (MADCAP) enables applications to obtain, renew, and release multicast addresses.
-ms.assetid: 'be313f7a-6332-4601-98b2-01561582213b'
-keywords: ["MADCAP MADCAP", "MADCAP MADCAP , (See Multicast Address Dynamic Client Allocation Protocol MADCAP )", "Multicast Address Dynamic Client Allocation Protocol MADCAP , start page"]
+ms.assetid: be313f7a-6332-4601-98b2-01561582213b
+keywords:
+- MADCAP MADCAP
+- MADCAP MADCAP , (See Multicast Address Dynamic Client Allocation Protocol MADCAP )
+- Multicast Address Dynamic Client Allocation Protocol MADCAP , start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multicast Address Dynamic Client Allocation Protocol
@@ -27,7 +35,7 @@ MADCAP is designed for use by C/C++ programmers. Familiarity with Windows networ
 
 ## Run-time requirements
 
-MADCAP requires Windows 2000 or later.
+MADCAP requires Windows 2000 or later.
 
 ## In this section
 
@@ -40,7 +48,7 @@ MADCAP requires Windows 2000 or later.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -49,9 +57,9 @@ MADCAP requires Windows 2000 or later.
 [Quality of Service](_gqos_qos_start_page)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: In the example provider component, a code example that shows the di
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '75824777-f329-4143-9383-bd18e1e42445'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 75824777-f329-4143-9383-bd18e1e42445
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CDISPMGR.CPP

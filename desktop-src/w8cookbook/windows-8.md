@@ -1,7 +1,12 @@
 ---
 title: Windows 8 and Windows Server 2012
 description: Windows 8 and Windows Server 2012
-ms.assetid: 'C61BF746-63EE-4F4E-81D3-52947FD4954D'
+ms.assetid: C61BF746-63EE-4F4E-81D3-52947FD4954D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows 8 and Windows Server 2012

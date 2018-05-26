@@ -1,14 +1,20 @@
 ---
 title: ControlSizeDefinition element
 description: Represents the layout style of a group of controls in a custom template.
-ms.assetid: 'f9b875f4-e0cf-4823-81b5-ed19c201dcbb'
-keywords: ["ControlSizeDefinition element Windows Ribbon"]
+ms.assetid: f9b875f4-e0cf-4823-81b5-ed19c201dcbb
+keywords:
+- ControlSizeDefinition element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ControlSizeDefinition
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ControlSizeDefinition element
@@ -205,7 +211,7 @@ The following code example demonstrates the basic markup for a custom four-butto
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
@@ -217,9 +223,9 @@ The following code example demonstrates the basic markup for a custom four-butto
 [Customizing a Ribbon Through Size Definitions and Scaling Policies](windowsribbon-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

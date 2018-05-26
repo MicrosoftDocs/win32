@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft® Windows® Rally™ technologies provide device manufacturers with an architecture and toolset for improving the security, reliability, and usability of network-connected devices.'
-ms.assetid: 'E0536A01-8250-4500-BCF3-E23B1FF9DD6A'
+Description: Microsoft® Windows® Rally™ technologies provide device manufacturers with an architecture and toolset for improving the security, reliability, and usability of network-connected devices.
+ms.assetid: E0536A01-8250-4500-BCF3-E23B1FF9DD6A
 title: Windows Rally Technologies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Rally Technologies

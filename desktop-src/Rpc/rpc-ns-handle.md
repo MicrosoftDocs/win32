@@ -1,8 +1,14 @@
 ---
 title: RPC\_NS\_HANDLE
 description: The data type RPC\_NS\_HANDLE defines a name-service handle.
-ms.assetid: 'd9c2a376-4972-4f16-aa8d-f0e43d5ddb8d'
-keywords: ["RPC_NS_HANDLE"]
+ms.assetid: d9c2a376-4972-4f16-aa8d-f0e43d5ddb8d
+keywords:
+- RPC_NS_HANDLE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC\_NS\_HANDLE
@@ -34,8 +40,8 @@ Applications are responsible for concurrency control of name-service handles acr
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>Rpcnsi.h (include Rpc.h)</dt> </dl> |
 
 
@@ -44,27 +50,27 @@ Applications are responsible for concurrency control of name-service handles acr
 
 <dl> <dt>
 
-[**RpcNsBindingImportBegin**](rpcnsbindingimportbegin.md)
+[**RpcNsBindingImportBegin**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina?branch=master)
 </dt> <dt>
 
-[**RpcNsBindingImportDone**](rpcnsbindingimportdone.md)
+[**RpcNsBindingImportDone**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportdone?branch=master)
 </dt> <dt>
 
-[**RpcNsBindingImportNext**](rpcnsbindingimportnext.md)
+[**RpcNsBindingImportNext**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportnext?branch=master)
 </dt> <dt>
 
-[**RpcNsBindingLookupBegin**](rpcnsbindinglookupbegin.md)
+[**RpcNsBindingLookupBegin**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina?branch=master)
 </dt> <dt>
 
-[**RpcNsBindingLookupDone**](rpcnsbindinglookupdone.md)
+[**RpcNsBindingLookupDone**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupdone?branch=master)
 </dt> <dt>
 
-[**RpcNsBindingLookupNext**](rpcnsbindinglookupnext.md)
+[**RpcNsBindingLookupNext**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: Used with the dwControlCode member of ADS\_ATTR\_INFO structure to 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e9a454c8-e067-4730-97f4-85c4f5889e05'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e9a454c8-e067-4730-97f4-85c4f5889e05
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["attribute modification types ADSI"]
+keywords:
+- attribute modification types ADSI
 topic_type:
 - apiref
 api_name:
@@ -20,11 +21,14 @@ api_location:
 - Iads.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI Attribute Modification Types
 
-The following constants are used with the **dwControlCode** member of [**ADS\_ATTR\_INFO**](ads-attr-info.md) structure to specify the type of operation to be performed when an attribute is modified with the [**IDirectoryObject::SetObjectAttributes**](idirectoryobject-setobjectattributes.md) method. For more information about using these values, see [Modifying Attributes with ADSI](modifying-attributes-with-adsi.md).
+The following constants are used with the **dwControlCode** member of [**ADS\_ATTR\_INFO**](/windows/win32/Iads/ns-iads-_ads_attr_info?branch=master) structure to specify the type of operation to be performed when an attribute is modified with the [**IDirectoryObject::SetObjectAttributes**](/windows/win32/Iads/nf-iads-idirectoryobject-setobjectattributes?branch=master) method. For more information about using these values, see [Modifying Attributes with ADSI](modifying-attributes-with-adsi.md).
 
 <dl> <dt>
 
@@ -82,7 +86,7 @@ Causes the specified attribute values to be removed from an object.
 
 ## Remarks
 
-These constants are intended to be used with the [**ADS\_ATTR\_INFO**](ads-attr-info.md) structure in the [**IDirectoryObject::SetObjectAttributes**](idirectoryobject-setobjectattributes.md) method. These constants should not be confused with members of the [**ADS\_PROPERTY\_OPERATION\_ENUM**](ads-property-operation-enum.md) enumeration, which are intended to be used with the [**IADs::PutEx**](iads-putex.md) method.
+These constants are intended to be used with the [**ADS\_ATTR\_INFO**](/windows/win32/Iads/ns-iads-_ads_attr_info?branch=master) structure in the [**IDirectoryObject::SetObjectAttributes**](/windows/win32/Iads/nf-iads-idirectoryobject-setobjectattributes?branch=master) method. These constants should not be confused with members of the [**ADS\_PROPERTY\_OPERATION\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0027?branch=master) enumeration, which are intended to be used with the [**IADs::PutEx**](/windows/win32/Iads/nf-iads-iads-putex?branch=master) method.
 
 ## Requirements
 
@@ -90,8 +94,8 @@ These constants are intended to be used with the [**ADS\_ATTR\_INFO**](ads-attr-
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                    |
+| Minimum supported client<br/> | Windows Vista<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl> |
 
 
@@ -100,18 +104,18 @@ These constants are intended to be used with the [**ADS\_ATTR\_INFO**](ads-attr-
 
 <dl> <dt>
 
-[**ADS\_ATTR\_INFO**](ads-attr-info.md)
+[**ADS\_ATTR\_INFO**](/windows/win32/Iads/ns-iads-_ads_attr_info?branch=master)
 </dt> <dt>
 
-[**IDirectoryObject::SetObjectAttributes**](idirectoryobject-setobjectattributes.md)
+[**IDirectoryObject::SetObjectAttributes**](/windows/win32/Iads/nf-iads-idirectoryobject-setobjectattributes?branch=master)
 </dt> <dt>
 
 [Modifying Attributes with ADSI](modifying-attributes-with-adsi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

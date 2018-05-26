@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_GET\_USER\_DATA message
 description: The WM\_CAP\_GET\_USER\_DATA message retrieves a LONG\_PTR data value associated with a capture window. You can send this message explicitly or by using the capGetUserData macro.
-ms.assetid: 'f7c121ba-44a1-4916-b602-c53d8332c2af'
-keywords: ["WM_CAP_GET_USER_DATA message Windows Multimedia"]
+ms.assetid: f7c121ba-44a1-4916-b602-c53d8332c2af
+keywords:
+- WM_CAP_GET_USER_DATA message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_GET\_USER\_DATA message
 
-The **WM\_CAP\_GET\_USER\_DATA** message retrieves a **LONG\_PTR** data value associated with a capture window. You can send this message explicitly or by using the [**capGetUserData**](capgetuserdata.md) macro.
+The **WM\_CAP\_GET\_USER\_DATA** message retrieves a **LONG\_PTR** data value associated with a capture window. You can send this message explicitly or by using the [**capGetUserData**](/windows/win32/Vfw/nf-vfw-capgetuserdata?branch=master) macro.
 
 
 ```C++
@@ -36,8 +42,8 @@ Returns a value previously saved by using the [**WM\_CAP\_SET\_USER\_DATA**](wm-
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -52,9 +58,9 @@ Returns a value previously saved by using the [**WM\_CAP\_SET\_USER\_DATA**](wm-
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

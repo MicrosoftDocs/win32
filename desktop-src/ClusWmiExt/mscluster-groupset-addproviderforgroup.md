@@ -4,13 +4,16 @@ description: Adds a provider for the group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '77f1cb6c-855b-46bf-a15c-198f59db9d97'
-ms.prod: 'windows-server-dev'
+ms.assetid: 77f1cb6c-855b-46bf-a15c-198f59db9d97
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddProviderForGroup method", "AddProviderForGroup method, MSCluster_GroupSet class", "MSCluster_GroupSet class, AddProviderForGroup method"]
+keywords:
+- AddProviderForGroup method
+- AddProviderForGroup method, MSCluster_GroupSet class
+- MSCluster_GroupSet class, AddProviderForGroup method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddProviderForGroup method of the MSCluster\_GroupSet class
@@ -30,9 +36,9 @@ Adds a provider for the group.
 
 ```mof
 uint32 AddProviderForGroup(
-  [in] string Group,
-  [in] string ProviderGroup,
-  [in] string provider
+  [in] string Group,
+  [in] string ProviderGroup,
+  [in] string provider
 );
 ```
 
@@ -70,7 +76,7 @@ The name of the set to add as a provider.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
@@ -84,9 +90,9 @@ The name of the set to add as a provider.
 [**MSCluster\_GroupSet**](mscluster-groupset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

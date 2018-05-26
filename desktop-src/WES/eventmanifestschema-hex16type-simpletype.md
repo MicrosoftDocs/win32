@@ -1,14 +1,20 @@
 ---
 title: HexInt16Type Simple Type
 description: Defines a 2-byte hexadecimal type.
-ms.assetid: 'd33d24e7-d260-49ea-a8ba-187b9b7a3a9c'
-keywords: ["HexInt16Type simple type EventLog"]
+ms.assetid: d33d24e7-d260-49ea-a8ba-187b9b7a3a9c
+keywords:
+- HexInt16Type simple type EventLog
 topic_type:
 - apiref
 api_name:
 - HexInt16Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HexInt16Type Simple Type
@@ -41,14 +47,14 @@ The **HexInt16Type** simple type is a **string** that is restricted by the follo
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

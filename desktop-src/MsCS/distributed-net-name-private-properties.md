@@ -4,11 +4,18 @@ description: Distributed network name resources have the following private prope
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1A27633B-C30C-4996-9C7B-65B633C61565'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1A27633B-C30C-4996-9C7B-65B633C61565
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Distributed Network Name resource type Failover Cluster ,properties", "properties Failover Cluster ,Distributed Network Name (private) properties", "Distributed Network Name resource type Failover Cluster ,properties", "properties Failover Cluster ,Distributed Network Name (private) properties"]
+keywords:
+- Distributed Network Name resource type Failover Cluster ,properties
+- properties Failover Cluster ,Distributed Network Name (private) properties
+- Distributed Network Name resource type Failover Cluster ,properties
+- properties Failover Cluster ,Distributed Network Name (private) properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Distributed Network Name Private Properties
@@ -36,11 +43,11 @@ keywords: ["Distributed Network Name resource type Failover Cluster ,properties"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

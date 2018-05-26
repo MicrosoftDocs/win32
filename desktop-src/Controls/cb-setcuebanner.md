@@ -1,8 +1,9 @@
 ---
 title: CB\_SETCUEBANNER message
 description: Sets the cue banner text that is displayed for the edit control of a combo box.
-ms.assetid: '4b2b5042-ba64-4e3f-adeb-9aea66773b0e'
-keywords: ["CB_SETCUEBANNER message Windows Controls"]
+ms.assetid: 4b2b5042-ba64-4e3f-adeb-9aea66773b0e
+keywords:
+- CB_SETCUEBANNER message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_SETCUEBANNER message
@@ -49,8 +55,8 @@ The cue banner is text that is displayed in the edit control of a combo box when
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -62,9 +68,9 @@ The cue banner is text that is displayed in the edit control of a combo box when
 [Combo Box Features](combo-box-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

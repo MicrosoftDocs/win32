@@ -1,7 +1,12 @@
 ---
 title: Architecture of Indexing Service
 description: Architecture of Indexing Service
-ms.assetid: '0a9f3e0d-b69e-4f4e-80c1-af174fecf93e'
+ms.assetid: 0a9f3e0d-b69e-4f4e-80c1-af174fecf93e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Architecture of Indexing Service

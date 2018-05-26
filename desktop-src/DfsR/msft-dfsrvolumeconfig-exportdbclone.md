@@ -4,13 +4,16 @@ description: Starts the process of exporting the Distributed File System Replica
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2C167CE6-7D8E-40C0-98C7-2BA97540C6F5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2C167CE6-7D8E-40C0-98C7-2BA97540C6F5
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ExportDBClone method Distributed File System Replication", "ExportDBClone method Distributed File System Replication , MSFT_DfsrVolumeConfig interface", "MSFT_DfsrVolumeConfig interface Distributed File System Replication , ExportDBClone method"]
+keywords:
+- ExportDBClone method Distributed File System Replication
+- ExportDBClone method Distributed File System Replication , MSFT_DfsrVolumeConfig interface
+- MSFT_DfsrVolumeConfig interface Distributed File System Replication , ExportDBClone method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExportDBClone method of the MSFT\_DfsrVolumeConfig class
@@ -30,10 +36,10 @@ Starts the process of exporting the Distributed File System Replication (DFSR) d
 
 ```mof
 uint32 ExportDBClone(
-  [in] string  Source,
-  [in] string  Destination,
-  [in] uint32  ValidationLevel,
-  [in] boolean Overwrite
+  [in] string  Source,
+  [in] string  Destination,
+  [in] uint32  ValidationLevel,
+  [in] boolean Overwrite
 );
 ```
 
@@ -115,7 +121,7 @@ This method returns a system error code.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -129,9 +135,9 @@ This method returns a system error code.
 [**MSFT\_DfsrVolumeConfig**](msft-dfsrvolumeconfig.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A superclass for miscellaneous control-related devices that provide a classic bus master interface.'
-ms.assetid: 'eaa8711b-11e9-4f69-b81e-49a3c8a99fa7'
-title: 'CIM\_Controller class'
+Description: A superclass for miscellaneous control-related devices that provide a classic bus master interface.
+ms.assetid: eaa8711b-11e9-4f69-b81e-49a3c8a99fa7
+title: CIM\_Controller class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_Controller class
@@ -15,9 +20,9 @@ A superclass for miscellaneous control-related devices that provide a classic bu
 class CIM_Controller : CIM_LogicalDevice
 {
   datetime TimeOfLastReset;
-  uint16   ProtocolSupported;
-  uint32   MaxNumberControlled;
-  string   ProtocolDescription;
+  uint16   ProtocolSupported;
+  uint32   MaxNumberControlled;
+  string   ProtocolDescription;
 };
 ```
 
@@ -438,8 +443,8 @@ The last time when the controller was reset.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -453,9 +458,9 @@ The last time when the controller was reset.
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ElementCapacity class associates a CIM\_PhysicalCapacity object with one or more physical elements. It associates a description of the minimum and maximum hardware requirements (or capabilities) to the physical elements being described.'
+Description: The CIM\_ElementCapacity class associates a CIM\_PhysicalCapacity object with one or more physical elements. It associates a description of the minimum and maximum hardware requirements (or capabilities) to the physical elements being described.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '368c31e8-d56b-4b90-ba3f-20d9b0de8730'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 368c31e8-d56b-4b90-ba3f-20d9b0de8730
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ElementCapacity class'
+title: CIM\_ElementCapacity class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ElementCapacity class
@@ -19,7 +22,7 @@ The **CIM\_ElementCapacity** class associates a [**CIM\_PhysicalCapacity**](cim-
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -30,7 +33,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ElementCapacity
 {
   CIM_PhysicalCapacity REF Capacity;
-  CIM_PhysicalElement  REF Element;
+  CIM_PhysicalElement  REF Element;
 };
 ```
 
@@ -87,17 +90,17 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

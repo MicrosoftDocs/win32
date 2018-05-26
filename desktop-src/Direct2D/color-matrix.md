@@ -1,8 +1,14 @@
 ---
 title: Color matrix effect
 description: Use the color matrix effect to alter the RGBA values of a bitmap.
-ms.assetid: '093EEEF1-8C38-414E-8261-58A6C3DD930D'
-keywords: ["color matrix effect"]
+ms.assetid: 093EEEF1-8C38-414E-8261-58A6C3DD930D
+keywords:
+- color matrix effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color matrix effect
@@ -40,7 +46,7 @@ The example here shows the input and output images of the color matrix effect th
 
 
 
- 
+ 
 
 
 ```C++
@@ -76,7 +82,7 @@ This effect works on straight and premultiplied alpha images.
 
 
 
- 
+ 
 
 ## Alpha modes
 
@@ -89,7 +95,7 @@ This effect works on straight and premultiplied alpha images.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -97,25 +103,25 @@ This effect works on straight and premultiplied alpha images.
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

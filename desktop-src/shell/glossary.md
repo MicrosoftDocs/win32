@@ -1,7 +1,12 @@
 ---
 Description: Glossary page
-Robots: 'noindex, nofollow'
+Robots: noindex, nofollow
 title: Shell Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell Glossary

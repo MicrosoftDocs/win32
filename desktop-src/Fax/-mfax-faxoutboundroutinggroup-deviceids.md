@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DeviceIds property retrieves the ordered collection of device IDs that participate in the outbound routing group. The order of the devices in the collection determines the relative order in which available devices send outgoing transmissions.'
-ms.assetid: '46046834-2098-49b5-9514-b87356fcc4cb'
-title: 'FaxOutboundRoutingGroup.DeviceIds property'
+---
+Description: The DeviceIds property retrieves the ordered collection of device IDs that participate in the outbound routing group. The order of the devices in the collection determines the relative order in which available devices send outgoing transmissions.
+ms.assetid: 46046834-2098-49b5-9514-b87356fcc4cb
+title: FaxOutboundRoutingGroup.DeviceIds property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingGroup.DeviceIds property
@@ -46,7 +51,7 @@ A [**FaxDeviceIds**](-mfax-faxdeviceids.md) object.
 [**FaxOutboundRoutingGroup**](-mfax-faxoutboundroutinggroup.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingGroup**](-mfax-faxoutboundroutinggroup-cpp.md)
+[**IFaxOutboundRoutingGroup**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutinggroup?branch=master)
 </dt> </dl>
 
  

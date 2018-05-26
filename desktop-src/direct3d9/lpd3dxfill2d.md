@@ -1,7 +1,12 @@
 ---
-Description: 'Function type used by the texture fill functions.'
-ms.assetid: 'faa2d610-cf85-42d0-833c-a46fb7fe3dbf'
+Description: Function type used by the texture fill functions.
+ms.assetid: faa2d610-cf85-42d0-833c-a46fb7fe3dbf
 title: LPD3DXFILL2D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LPD3DXFILL2D

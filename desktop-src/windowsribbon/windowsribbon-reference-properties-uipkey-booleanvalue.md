@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_BooleanValue
 description: Identifies the UI\_PKEY\_BooleanValue property.
-ms.assetid: 'afe79b8d-8a83-49aa-bcc9-8a1e6ebe1569'
+ms.assetid: afe79b8d-8a83-49aa-bcc9-8a1e6ebe1569
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_BooleanValue

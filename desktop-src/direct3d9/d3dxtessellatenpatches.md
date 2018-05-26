@@ -1,7 +1,12 @@
-﻿---
-Description: 'Tessellates the given mesh using the N-patch tessellation scheme.'
-ms.assetid: 'e804905d-ee0b-484f-a621-58b197bd370b'
+---
+Description: Tessellates the given mesh using the N-patch tessellation scheme.
+ms.assetid: e804905d-ee0b-484f-a621-58b197bd370b
 title: D3DXTessellateNPatches function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXTessellateNPatches function

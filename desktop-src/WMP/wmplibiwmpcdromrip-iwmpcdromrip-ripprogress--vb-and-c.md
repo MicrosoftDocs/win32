@@ -1,8 +1,11 @@
 ---
 title: IWMPCdromRip ripProgress property
 description: The ripProgress property gets the CD ripping progress as percent complete.
-ms.assetid: '00d4f074-a16d-4c5f-930f-4411b90303f1'
-keywords: ["ripProgress property Windows Media Player", "ripProgress property Windows Media Player , IWMPCdromRip interface", "IWMPCdromRip interface Windows Media Player , ripProgress property"]
+ms.assetid: 00d4f074-a16d-4c5f-930f-4411b90303f1
+keywords:
+- ripProgress property Windows Media Player
+- ripProgress property Windows Media Player , IWMPCdromRip interface
+- IWMPCdromRip interface Windows Media Player , ripProgress property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromRip::ripProgress property
@@ -74,9 +82,9 @@ The progress value represents the completed percentage of the entire ripping pro
 [**Ripping a CD**](ripping-a-cd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

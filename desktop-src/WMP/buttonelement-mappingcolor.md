@@ -1,14 +1,20 @@
 ---
 title: BUTTONELEMENT.mappingColor
 description: The mappingColor attribute specifies or retrieves the color key that identifies this BUTTONELEMENT in the BUTTONGROUP.
-ms.assetid: 'e7b1663c-3263-41d5-9a69-4cf1dcf0fc1f'
-keywords: ["BUTTONELEMENT.mappingColor Windows Media Player"]
+ms.assetid: e7b1663c-3263-41d5-9a69-4cf1dcf0fc1f
+keywords:
+- BUTTONELEMENT.mappingColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONELEMENT.mappingColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONELEMENT.mappingColor
@@ -95,9 +101,9 @@ The following sample is a complete skin definition file that illustrates how som
 [**BUTTONGROUP.mappingImage**](buttongroup-mappingimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMAccountant CPUUtilization property
 description: The CPUUtilization property contains the current CPU use of this virtual machine.
-ms.assetid: '718ccd16-edb0-4389-8b2a-b106d2abdfc6'
-keywords: ["CPUUtilization property Virtual Server", "CPUUtilization property Virtual Server , IVMAccountant interface", "IVMAccountant interface Virtual Server , CPUUtilization property", "CPUUtilization property Virtual Server , VMAccountant interface", "VMAccountant interface Virtual Server , CPUUtilization property"]
+ms.assetid: 718ccd16-edb0-4389-8b2a-b106d2abdfc6
+keywords:
+- CPUUtilization property Virtual Server
+- CPUUtilization property Virtual Server , IVMAccountant interface
+- IVMAccountant interface Virtual Server , CPUUtilization property
+- CPUUtilization property Virtual Server , VMAccountant interface
+- VMAccountant interface Virtual Server , CPUUtilization property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccountant::CPUUtilization property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_CPUUtilization(
-  [out] long *percentageUtilization
+  [out] long *percentageUtilization
 );
 ```
 
@@ -96,8 +106,8 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -109,9 +119,9 @@ Next
 [**IVMAccountant**](ivmaccountant.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

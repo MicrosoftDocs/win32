@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IRenderEngine2 interface enables the application to replace the default video resizing filter used by DirectShow Editing Services (DES). The Basic Render Engine and the Smart Render Engine both support this interface.'
-ms.assetid: '37603c73-e199-431a-9a1e-a40c77755c70'
+---
+Description: The IRenderEngine2 interface enables the application to replace the default video resizing filter used by DirectShow Editing Services (DES). The Basic Render Engine and the Smart Render Engine both support this interface.
+ms.assetid: 37603c73-e199-431a-9a1e-a40c77755c70
 title: IRenderEngine2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine2 interface

@@ -1,7 +1,12 @@
 ---
 title: Navigating Between Pages in Query Results
 description: Navigating Between Pages in Query Results
-ms.assetid: 'c2e7cf38-1409-4313-a14e-737acbc92e69'
+ms.assetid: c2e7cf38-1409-4313-a14e-737acbc92e69
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Navigating Between Pages in Query Results

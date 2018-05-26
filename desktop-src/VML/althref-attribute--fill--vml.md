@@ -1,7 +1,12 @@
 ---
 title: AltHRef Attribute (Fill)(VML)
 description: AltHRef Attribute (Fill)(VML)
-ms.assetid: '3f6376e3-24db-412c-b265-5916950c3824'
+ms.assetid: 3f6376e3-24db-412c-b265-5916950c3824
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AltHRef Attribute (Fill)(VML)

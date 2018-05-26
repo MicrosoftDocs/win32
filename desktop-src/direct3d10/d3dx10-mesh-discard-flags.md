@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies which pieces of mesh data to discard from the device. Used with ID3DX10Mesh::Discard.'
-ms.assetid: '8b3c22ab-1337-4a66-ae32-17bd1b73f624'
-title: 'D3DX10\_MESH\_DISCARD\_FLAGS enumeration'
+---
+Description: Specifies which pieces of mesh data to discard from the device. Used with ID3DX10MeshDiscard.
+ms.assetid: 8b3c22ab-1337-4a66-ae32-17bd1b73f624
+title: D3DX10\_MESH\_DISCARD\_FLAGS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10\_MESH\_DISCARD\_FLAGS enumeration

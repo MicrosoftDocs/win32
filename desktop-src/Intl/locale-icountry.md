@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_IDIALINGCODE and LOCALE\_ICOUNTRY'
-ms.assetid: 'fd3a85cf-7227-497d-9f52-9e4cd15d9ad6'
-title: 'LOCALE\_IDIALINGCODE and LOCALE\_ICOUNTRY'
+Description: LOCALE\_IDIALINGCODE and LOCALE\_ICOUNTRY
+ms.assetid: fd3a85cf-7227-497d-9f52-9e4cd15d9ad6
+title: LOCALE\_IDIALINGCODE and LOCALE\_ICOUNTRY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_IDIALINGCODE and LOCALE\_ICOUNTRY

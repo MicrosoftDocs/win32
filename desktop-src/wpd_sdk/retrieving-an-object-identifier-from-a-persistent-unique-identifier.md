@@ -1,7 +1,12 @@
 ---
 Description: Retrieving an Object Identifier from a Persistent Unique Identifier
-ms.assetid: '146f8943-d4e1-4b87-a812-e534082a4f14'
+ms.assetid: 146f8943-d4e1-4b87-a812-e534082a4f14
 title: Retrieving an Object Identifier from a Persistent Unique Identifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving an Object Identifier from a Persistent Unique Identifier
@@ -18,7 +23,7 @@ Your application can retrieve an object identifier for a corresponding PUID usin
 
 | Interface                                                                                      | Description                                                                                         |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [**IPortableDeviceContent Interface**](iportabledevicecontent.md)                             | Provides access to the retrieval method.                                                            |
+| [**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)                             | Provides access to the retrieval method.                                                            |
 | [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md) | Used to store both the object identifier and the corresponding persistent unique identifier (PUID). |
 
 
@@ -40,7 +45,7 @@ if (FAILED(hr))
 
 
 
-After this, the sample application retrieves an [**IPortableDeviceContent**](iportabledevicecontent.md) object, which it will use to invoke the [**GetObjectIDsFromPersistentUniqueIDs**](iportabledevicecontent-getobjectidsfrompersistentuniqueids.md) method.
+After this, the sample application retrieves an [**IPortableDeviceContent**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master) object, which it will use to invoke the [**GetObjectIDsFromPersistentUniqueIDs**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-getobjectidsfrompersistentuniqueids?branch=master) method.
 
 
 ```C++
@@ -68,7 +73,7 @@ hr = CoCreateInstance(CLSID_PortableDevicePropVariantCollection,
 
 
 
-Once the previous three steps are taken, the sample is ready to retrieve the object identifier that matches the PUID supplied by the user. This is accomplished by calling the [**IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs**](iportabledevicecontent-getobjectidsfrompersistentuniqueids.md) method. Prior to calling this method, the sample initializes a PROPVARIANT structure, writes the PUID supplied by the user to this structure, and adds it to the IPortableDevicePropVariantCollection object at which pPersistentUniqueIDs points. This pointer is passed as the first argument to the GetObjectIDsFromPersistentUniqueIDs method. The second argument of GetObjectIDsFromPersistentUniqueIDs is an IPortableDevicePropVariantCollection object that receives the matching object identifier.
+Once the previous three steps are taken, the sample is ready to retrieve the object identifier that matches the PUID supplied by the user. This is accomplished by calling the [**IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-getobjectidsfrompersistentuniqueids?branch=master) method. Prior to calling this method, the sample initializes a PROPVARIANT structure, writes the PUID supplied by the user to this structure, and adds it to the IPortableDevicePropVariantCollection object at which pPersistentUniqueIDs points. This pointer is passed as the first argument to the GetObjectIDsFromPersistentUniqueIDs method. The second argument of GetObjectIDsFromPersistentUniqueIDs is an IPortableDevicePropVariantCollection object that receives the matching object identifier.
 
 
 ```C++
@@ -139,10 +144,10 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceContent Interface**](iportabledevicecontent.md)
+[**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)
 </dt> <dt>
 
 [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md)

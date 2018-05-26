@@ -1,7 +1,12 @@
 ---
 title: TTSModeID Property
 description: TTSModeID Property
-ms.assetid: '9205c37e-e006-466a-9b33-b98408c01ed7'
+ms.assetid: 9205c37e-e006-466a-9b33-b98408c01ed7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTSModeID Property

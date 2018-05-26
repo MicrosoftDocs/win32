@@ -4,13 +4,15 @@ description: HostedResourcePool is a specialization of the SystemComponent assoc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5725df05-b71a-418b-b232-792b1735a2f9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5725df05-b71a-418b-b232-792b1735a2f9
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_HostedResourcePool class iSCSI Software Target API", "CIM_HostedResourcePool class iSCSI Software Target API , described"]
+keywords:
+- CIM_HostedResourcePool class iSCSI Software Target API
+- CIM_HostedResourcePool class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_HostedResourcePool class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Experimental, Aggregation, Composition, Version("2.15.0"), UMLPackagePath("CIM::Core::Resource")]
 class CIM_HostedResourcePool : CIM_SystemComponent
 {
-  CIM_System       REF GroupComponent;
+  CIM_System       REF GroupComponent;
   CIM_ResourcePool REF PartComponent;
 };
 ```
@@ -91,7 +96,7 @@ The ResourcePool that is a component of the system
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -105,9 +110,9 @@ The ResourcePool that is a component of the system
 [**CIM\_SystemComponent**](cim-systemcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

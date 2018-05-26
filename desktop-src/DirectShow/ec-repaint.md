@@ -1,7 +1,12 @@
 ---
-Description: 'A video renderer requires a repaint.'
-ms.assetid: '2e756dea-366c-4024-8fc8-6feabaef1954'
-title: 'EC\_REPAINT'
+Description: A video renderer requires a repaint.
+ms.assetid: 2e756dea-366c-4024-8fc8-6feabaef1954
+title: EC\_REPAINT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_REPAINT
@@ -15,7 +20,7 @@ A video renderer requires a repaint.
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-(**IUnknown**\*) Pointer to the [**IPin**](ipin.md) interface of the video renderer's input pin, or **NULL**.
+(**IUnknown**\*) Pointer to the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface of the video renderer's input pin, or **NULL**.
 
 </dd> <dt>
 
@@ -28,9 +33,9 @@ Zero.
 
 ## Default Action
 
-The *lParam1* parameter might specify the video renderer's input pin. If so, the filter graph manager finds the output pin connected to that pin and queries it for the [**IMediaEventSink**](imediaeventsink.md) interface. If the output pin supports **IMediaEventSink**, the filter graph manager calls [**IMediaEventSink::Notify**](imediaeventsink-notify.md) with the EC\_REPAINT event code. This gives the upstream filter the opportunity to re-send the last sample.
+The *lParam1* parameter might specify the video renderer's input pin. If so, the filter graph manager finds the output pin connected to that pin and queries it for the [**IMediaEventSink**](/windows/win32/Strmif/nn-strmif-imediaeventsink?branch=master) interface. If the output pin supports **IMediaEventSink**, the filter graph manager calls [**IMediaEventSink::Notify**](/windows/win32/Strmif/nf-strmif-imediaeventsink-notify?branch=master) with the EC\_REPAINT event code. This gives the upstream filter the opportunity to re-send the last sample.
 
-If *lParam1* is **NULL**, or if the pin does not support [**IMediaEventSink**](imediaeventsink.md), or if the [**Notify**](imediaeventsink-notify.md) method fails, the filter graph manager handles the EC\_REPAINT event by itself. Its behavior depends on the state of the graph:
+If *lParam1* is **NULL**, or if the pin does not support [**IMediaEventSink**](/windows/win32/Strmif/nn-strmif-imediaeventsink?branch=master), or if the [**Notify**](/windows/win32/Strmif/nf-strmif-imediaeventsink-notify?branch=master) method fails, the filter graph manager handles the EC\_REPAINT event by itself. Its behavior depends on the state of the graph:
 
 -   Running: Ignores the event. (The renderer will receive the next sample in the stream.)
 -   Paused: Seeks the graph to its current location, thereby flushing the filter and re-queuing the data.
@@ -62,9 +67,9 @@ Video renderers send this message when they receive a [**WM\_PAINT**](https://ms
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

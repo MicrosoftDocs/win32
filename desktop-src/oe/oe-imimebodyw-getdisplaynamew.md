@@ -1,8 +1,11 @@
 ---
 title: IMimeBodyW GetDisplayNameW method
 description: Gets the display name for the body. If a display name is set, MimeOLE generates a display name based on the content of the body.
-ms.assetid: 'ddaaf0a4-6182-4209-8c6b-6a8ad1575949'
-keywords: ["GetDisplayNameW method Windows Mail (formerly Outlook Express)", "GetDisplayNameW method Windows Mail (formerly Outlook Express) , IMimeBodyW interface", "IMimeBodyW interface Windows Mail (formerly Outlook Express) , GetDisplayNameW method"]
+ms.assetid: ddaaf0a4-6182-4209-8c6b-6a8ad1575949
+keywords:
+- GetDisplayNameW method Windows Mail (formerly Outlook Express)
+- GetDisplayNameW method Windows Mail (formerly Outlook Express) , IMimeBodyW interface
+- IMimeBodyW interface Windows Mail (formerly Outlook Express) , GetDisplayNameW method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeBodyW::GetDisplayNameW method
@@ -22,7 +30,7 @@ Gets the display name for the body. If a display name is set, MimeOLE generates 
 
 ```C++
 HRESULT GetDisplayNameW(
-  [out] LPWSTR *ppwszDisplay
+  [out] LPWSTR *ppwszDisplay
 );
 ```
 
@@ -58,7 +66,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -75,9 +83,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

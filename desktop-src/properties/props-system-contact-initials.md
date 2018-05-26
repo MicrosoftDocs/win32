@@ -1,7 +1,12 @@
 ---
-Description: 'Initials of the contact.'
-ms.assetid: '84f85431-27cb-485a-8ced-53b708451714'
-title: 'System.Contact.Initials'
+Description: Initials of the contact.
+ms.assetid: 84f85431-27cb-485a-8ced-53b708451714
+title: System.Contact.Initials
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.Initials

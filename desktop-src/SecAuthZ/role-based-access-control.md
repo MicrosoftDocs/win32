@@ -1,7 +1,12 @@
 ---
-Description: 'The Authorization Manager API and MMC snap-in provide applications with a role-based access control framework.'
-ms.assetid: 'f5981e6b-d679-48ff-9f88-1733dbecbdeb'
-title: 'Role-based Access Control'
+Description: The Authorization Manager API and MMC snap-in provide applications with a role-based access control framework.
+ms.assetid: f5981e6b-d679-48ff-9f88-1733dbecbdeb
+title: Role-based Access Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Role-based Access Control

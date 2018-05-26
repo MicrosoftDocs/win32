@@ -1,7 +1,12 @@
 ---
-Description: 'A device error has occurred in an audio capture filter.'
-ms.assetid: '13f8641b-7881-4f1c-816c-77c140e48ed4'
-title: 'EC\_SNDDEV\_IN\_ERROR'
+Description: A device error has occurred in an audio capture filter.
+ms.assetid: 13f8641b-7881-4f1c-816c-77c140e48ed4
+title: EC\_SNDDEV\_IN\_ERROR
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_SNDDEV\_IN\_ERROR
@@ -15,7 +20,7 @@ A device error has occurred in an audio capture filter.
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-DWORD value from the [**SNDDEV\_ERR**](snddev-err.md) enumerated type, indicating how the device was being accessed when the failure occurred.
+DWORD value from the [**SNDDEV\_ERR**](/windows/win32/audevcod/ne-audevcod-_tagsnd_device_error?branch=master) enumerated type, indicating how the device was being accessed when the failure occurred.
 
 </dd> <dt>
 
@@ -50,9 +55,9 @@ None.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

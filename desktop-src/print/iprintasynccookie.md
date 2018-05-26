@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'CF323800-F4C3-4CDB-B4EC-13359E262BF3'
+---
+Description: .
+ms.assetid: CF323800-F4C3-4CDB-B4EC-13359E262BF3
 title: IPrintAsyncCookie interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintAsyncCookie interface

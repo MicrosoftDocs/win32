@@ -4,11 +4,16 @@ description: The ScopeTreeVisible property sets or returns the scope tree visibl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5648ed7d-c9a9-472b-aee3-bfc80eafc087'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5648ed7d-c9a9-472b-aee3-bfc80eafc087
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ScopeTreeVisible property MMC", "ScopeTreeVisible property MMC , View object", "View object MMC , ScopeTreeVisible property", "ScopeTreeVisible property MMC , View interface", "View interface MMC , ScopeTreeVisible property"]
+keywords:
+- ScopeTreeVisible property MMC
+- ScopeTreeVisible property MMC , View object
+- View object MMC , ScopeTreeVisible property
+- ScopeTreeVisible property MMC , View interface
+- View interface MMC , ScopeTreeVisible property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::ScopeTreeVisible property
@@ -62,8 +70,8 @@ objView.ScopeTreeVisible = 0
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -78,9 +86,9 @@ objView.ScopeTreeVisible = 0
 [**ViewOptions**](viewoptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

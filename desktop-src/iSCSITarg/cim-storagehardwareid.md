@@ -4,13 +4,15 @@ description: CIM\_StorageHardwareID is a hardware ID that serves as an authoriza
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '66fb046c-d9fa-4486-8f10-510abc9c890f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 66fb046c-d9fa-4486-8f10-510abc9c890f
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_StorageHardwareID class iSCSI Software Target API", "CIM_StorageHardwareID class iSCSI Software Target API , described"]
+keywords:
+- CIM_StorageHardwareID class iSCSI Software Target API
+- CIM_StorageHardwareID class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_StorageHardwareID class
@@ -41,14 +46,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Version("2.13.0"), UMLPackagePath("CIM::User::StorageHardwareID")]
 class CIM_StorageHardwareID : CIM_Identity
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
   boolean CurrentlyAuthenticated = FALSE;
-  string  StorageID;
-  uint16  IDType;
-  string  OtherIDType;
+  string  StorageID;
+  uint16  IDType;
+  string  OtherIDType;
 };
 ```
 
@@ -249,7 +254,7 @@ The hardware worldwide unique ID.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -263,9 +268,9 @@ The hardware worldwide unique ID.
 [**CIM\_Identity**](cim-identity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

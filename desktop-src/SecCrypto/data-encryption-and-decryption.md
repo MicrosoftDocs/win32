@@ -1,7 +1,12 @@
 ---
-Description: 'Encryption is the process of translating plain text data (plaintext) into something that appears to be random and meaningless (ciphertext). Decryption is the process of converting ciphertext back to plaintext.'
-ms.assetid: '6a4b5c82-f74c-4cc8-b824-690f165453bd'
+Description: Encryption is the process of translating plain text data (plaintext) into something that appears to be random and meaningless (ciphertext). Decryption is the process of converting ciphertext back to plaintext.
+ms.assetid: 6a4b5c82-f74c-4cc8-b824-690f165453bd
 title: Data Encryption and Decryption
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Encryption and Decryption

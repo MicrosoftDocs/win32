@@ -2,13 +2,16 @@
 title: Get method of the PS\_DnsServerResponseRateLimitingExceptionlist class
 description: The Get-DnsServerResponseRateExceptionlist cmdlet enumerates the RRL exceptionlists on the DNS Server.
 audience: developer
-ms.assetid: '84e439c5-5675-4420-a080-43a41357bcc9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 84e439c5-5675-4420-a080-43a41357bcc9
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DnsServerResponseRateLimitingExceptionlist class", "PS_DnsServerResponseRateLimitingExceptionlist class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DnsServerResponseRateLimitingExceptionlist class
+- PS_DnsServerResponseRateLimitingExceptionlist class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DnsServerResponseRateLimitingExceptionlist class
@@ -28,9 +34,9 @@ The Get-DnsServerResponseRateExceptionlist cmdlet enumerates the RRL exceptionli
 
 ```mof
 uint32 Get(
-  [in]  string                                     ComputerName,
-  [in]  string                                     Name,
-  [out] DnsServerResponseRateLimitingExceptionlist cmdletOutput[]
+  [in]  string                                     ComputerName,
+  [in]  string                                     Name,
+  [out] DnsServerResponseRateLimitingExceptionlist cmdletOutput[]
 );
 ```
 
@@ -75,8 +81,8 @@ This parameter returns a value only if *PassThru* is set to **true.**
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ This parameter returns a value only if *PassThru* is set to **true.**
 [**PS\_DnsServerResponseRateLimitingExceptionlist**](ps-dnsserverresponseratelimitingexceptionlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

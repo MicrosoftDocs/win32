@@ -1,8 +1,14 @@
 ---
 title: ATA Miniport Driver Routines
 description: ATA Miniport Driver Routines
-ms.assetid: '735157e2-4457-46c9-bd05-7dd9db1df633'
-keywords: ["interface"]
+ms.assetid: 735157e2-4457-46c9-bd05-7dd9db1df633
+keywords:
+- interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Miniport Driver Routines

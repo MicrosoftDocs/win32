@@ -1,21 +1,26 @@
 ---
 Description: OPM Commands
-ms.assetid: '52165e1b-a178-4483-bf76-4197281f856d'
+ms.assetid: 52165e1b-a178-4483-bf76-4197281f856d
 title: OPM Commands
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM Commands
 
 This section lists the available commands for [Output Protection Manager](output-protection-manager.md) (OPM).
 
-To send an OPM command, call [**IOPMVideoOutput::Configure**](iopmvideooutput-iopmvideooutput--configure.md). For each command, the following information is listed.
+To send an OPM command, call [**IOPMVideoOutput::Configure**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-configure?branch=master). For each command, the following information is listed.
 
 
 
 |              |                                                                                                                                                             |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Command GUID | Identifies the command. Set the **guidSetting** member of the [**OPM\_CONFIGURE\_PARAMETERS**](opm-configure-parameters.md) structure equal to this value. |
-| Input data   | Specifies how to interpret the **abParameters** array in the [**OPM\_CONFIGURE\_PARAMETERS**](opm-configure-parameters.md) structure.                      |
+| Command GUID | Identifies the command. Set the **guidSetting** member of the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/win32/opmapi/ns-opmapi-_opm_configure_parameters?branch=master) structure equal to this value. |
+| Input data   | Specifies how to interpret the **abParameters** array in the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/win32/opmapi/ns-opmapi-_opm_configure_parameters?branch=master) structure.                      |
 
 
 

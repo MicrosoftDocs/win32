@@ -1,7 +1,12 @@
 ---
 title: AutoLogger
 description: AutoLogger
-ms.assetid: '28232075-cae9-42cf-9f81-5acae5f50851'
+ms.assetid: 28232075-cae9-42cf-9f81-5acae5f50851
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AutoLogger

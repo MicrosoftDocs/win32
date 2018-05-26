@@ -1,7 +1,12 @@
 ---
-Description: 'You can configure a fax device using scripts.'
-ms.assetid: '64bdc08c-1902-448a-9eda-b557ab4bb095'
+Description: You can configure a fax device using scripts.
+ms.assetid: 64bdc08c-1902-448a-9eda-b557ab4bb095
 title: Configuring a Fax Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring a Fax Device

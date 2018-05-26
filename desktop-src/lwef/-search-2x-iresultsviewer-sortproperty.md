@@ -1,8 +1,11 @@
 ---
 title: IResultsViewer SortProperty property
 description: This property will set or return the IndexColumn of the property to sort results by.
-ms.assetid: '5b117f2e-52cc-43ef-9ebd-d7a800015465'
-keywords: ["SortProperty property Legacy Windows Environment Features", "SortProperty property Legacy Windows Environment Features , IResultsViewer interface", "IResultsViewer interface Legacy Windows Environment Features , SortProperty property"]
+ms.assetid: 5b117f2e-52cc-43ef-9ebd-d7a800015465
+keywords:
+- SortProperty property Legacy Windows Environment Features
+- SortProperty property Legacy Windows Environment Features , IResultsViewer interface
+- IResultsViewer interface Legacy Windows Environment Features , SortProperty property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - WdsView.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultsViewer::SortProperty property
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_SortProperty(
-  [in]          BSTR column
+  [in]          BSTR column
 );
 
 HRESULT get_SortProperty(
-  [out, retval] BSTR *column
+  [out, retval] BSTR *column
 );
 ```
 
@@ -48,16 +56,16 @@ Sets the IndexColumn property.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                        |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                        |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                        |
 | Header<br/>                   | <dl> <dt>WdsView.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Add members to an existing replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a5f3c3d3-f124-4700-b6f2-39ca3be93061'
-ms.prod: 'windows-server-dev'
+ms.assetid: a5f3c3d3-f124-4700-b6f2-39ca3be93061
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddMembers method iSCSI Software Target API", "AddMembers method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , AddMembers method"]
+keywords:
+- AddMembers method iSCSI Software Target API
+- AddMembers method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , AddMembers method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddMembers method of the CIM\_ReplicationService class
@@ -30,10 +36,10 @@ Add members to an existing replication group.
 
 ```mof
 uint32 AddMembers(
-  [in] CIM_LogicalElement     REF Members[],
-  [in] CIM_ReplicationGroup   REF ReplicationGroup,
-  [in] CIM_ServiceAccessPoint REF ServiceAccessPoint,
-  [in] string                     ReplicationSettingData
+  [in] CIM_LogicalElement     REF Members[],
+  [in] CIM_ReplicationGroup   REF ReplicationGroup,
+  [in] CIM_ServiceAccessPoint REF ServiceAccessPoint,
+  [in] string                     ReplicationSettingData
 );
 ```
 
@@ -101,10 +107,10 @@ This method returns one of the following values.
 **Group does not exist** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–32767)
+**DMTF Reserved** (8 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -114,7 +120,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -128,9 +134,9 @@ This method returns one of the following values.
 **CIM\_ReplicationService**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

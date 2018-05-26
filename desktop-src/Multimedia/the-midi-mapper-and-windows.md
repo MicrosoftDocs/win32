@@ -1,8 +1,16 @@
 ---
 title: The MIDI Mapper and Windows
 description: The MIDI Mapper and Windows
-ms.assetid: 'a077f935-e085-4148-9975-7926ac018f0c'
-keywords: ["Musical Instrument Digital Interface (MIDI),MIDI Mapper", "MIDI (Musical Instrument Digital Interface),MIDI Mapper", "MIDI Mapper,architecture"]
+ms.assetid: a077f935-e085-4148-9975-7926ac018f0c
+keywords:
+- Musical Instrument Digital Interface (MIDI),MIDI Mapper
+- MIDI (Musical Instrument Digital Interface),MIDI Mapper
+- MIDI Mapper,architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The MIDI Mapper and Windows

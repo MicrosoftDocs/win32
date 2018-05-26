@@ -1,12 +1,12 @@
 ---
 title: Error codes
-description: Error codes returned by the Rights Management Services SDK 2.1 system.
+description: Error codes returned by the Rights Management Services SDK 2.1 system.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'A02E4F40-5231-46F3-9BFB-0B4DFCD7AE30'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: A02E4F40-5231-46F3-9BFB-0B4DFCD7AE30
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -45,16 +45,19 @@ api_location:
 - Ipcerror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Error codes
 
-Error codes returned by the Rights Management Services SDK 2.1 system.
+Error codes returned by the Rights Management Services SDK 2.1 system.
 
 > [!Note]  
 > This topic is for software developers that create applications using the RMS SDK. If you're a user who is receiving error codes, refer to the [Microsoft Support](https://support.microsoft.com) website.
 
- 
+ 
 
 For error condition processing, always use a call to [**IpcGetErrorMessageText**](ipcgeterrormessagetext.md) right after an SDK API call fails, so you get complete information about the nature of the error.
 
@@ -224,7 +227,7 @@ Too many users have been granted access to this protected content. Reduce the nu
 
 
 
-The RMS Client 2.1 needs network access to complete the operation, but it cannot get network access because the application requested offline mode.
+The RMS Client 2.1 needs network access to complete the operation, but it cannot get network access because the application requested offline mode.
 
 
 </dt> </dl> </dd> <dt>
@@ -237,7 +240,7 @@ The RMS Client 2.1 needs network access to complete the operation, but it cannot
 
 
 
-The RMS Client 2.1 needs to display a window to complete the operation, but it cannot display a window because the application requested silent mode.
+The RMS Client 2.1 needs to display a window to complete the operation, but it cannot display a window because the application requested silent mode.
 
 
 </dt> </dl> </dd> <dt>
@@ -250,7 +253,7 @@ The RMS Client 2.1 needs to display a window to complete the operation, but it c
 
 
 
-The data passed to the RMS Client 2.1 was not a multiple of the cipher block size. Contact your application support for further investigation.
+The data passed to the RMS Client 2.1 was not a multiple of the cipher block size. Contact your application support for further investigation.
 
 
 </dt> </dl> </dd> <dt>
@@ -289,7 +292,7 @@ You have not been granted the rights necessary to complete the specified operati
 
 
 
-The RMS Client 2.1 cannot be started when the operating system is in safe mode. Try the operation again when the operating system is in normal mode.
+The RMS Client 2.1 cannot be started when the operating system is in safe mode. Try the operation again when the operating system is in normal mode.
 
 
 </dt> </dl> </dd> <dt>
@@ -456,15 +459,15 @@ The PDF Protector does not support the specified file for native protection.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                          |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                          |
 | Header<br/>                   | <dl> <dt>Ipcerror.h (include Msipc.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

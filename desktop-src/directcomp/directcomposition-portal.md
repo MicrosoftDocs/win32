@@ -1,8 +1,16 @@
 ---
 title: DirectComposition
 description: This topic explains the purpose of Microsoft DirectComposition, identifies its run-time requirements, and describes the programming background that you need to use Microsoft DirectComposition effectively.
-ms.assetid: '40e2d02b-77e8-425f-ac5e-3dcddef08173'
-keywords: ["DirectComposition", "DirectComposition API", "Microsoft DirectComposition"]
+ms.assetid: 40e2d02b-77e8-425f-ac5e-3dcddef08173
+keywords:
+- DirectComposition
+- DirectComposition API
+- Microsoft DirectComposition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectComposition
@@ -21,7 +29,7 @@ The DirectComposition API is intended for experienced and highly-capable graphic
 
 ## Run-time requirements
 
-DirectComposition was introduced in Windows 8. It is included in 32-bit, 64-bit, and ARM platforms.
+DirectComposition was introduced in Windows 8. It is included in 32-bit, 64-bit, and ARM platforms.
 
 ## In this section
 
@@ -38,11 +46,11 @@ DirectComposition was introduced in Windows 8. It is included in 32-bit, 64-bit,
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

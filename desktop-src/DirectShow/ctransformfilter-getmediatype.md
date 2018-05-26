@@ -1,7 +1,12 @@
 ---
-Description: 'The GetMediaType method retrieves a preferred media type for the output pin.'
-ms.assetid: '9a1b123b-aa8a-4bf0-a926-466ded24e506'
-title: 'CTransformFilter.GetMediaType method'
+Description: The GetMediaType method retrieves a preferred media type for the output pin.
+ms.assetid: 9a1b123b-aa8a-4bf0-a926-466ded24e506
+title: CTransformFilter.GetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.GetMediaType method
@@ -13,8 +18,8 @@ The `GetMediaType` method retrieves a preferred media type for the output pin.
 
 ```C++
 virtual HRESULT GetMediaType(
-   int        iPosition,
-   CMediaType *pMediaType
+   int        iPosition,
+   CMediaType *pMediaType
 ) = 0;
 ```
 
@@ -52,7 +57,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,9 +81,9 @@ The output pin's [**CTransformOutputPin::GetMediaType**](ctransformoutputpin-get
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

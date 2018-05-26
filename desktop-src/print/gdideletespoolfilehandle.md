@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GdiDeleteSpoolFileHandle function releases a spool file handle.'
-ms.assetid: 'ff22498e-404f-42f6-82fd-f0178f6c7789'
+---
+Description: The GdiDeleteSpoolFileHandle function releases a spool file handle.
+ms.assetid: ff22498e-404f-42f6-82fd-f0178f6c7789
 title: GdiDeleteSpoolFileHandle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GdiDeleteSpoolFileHandle function

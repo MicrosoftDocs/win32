@@ -1,8 +1,9 @@
 ---
 title: glClear function
 description: The glClear function clears buffers to preset values.
-ms.assetid: '9818f969-3145-45ea-aa9c-2abed953a8e0'
-keywords: ["glClear function OpenGL"]
+ms.assetid: 9818f969-3145-45ea-aa9c-2abed953a8e0
+keywords:
+- glClear function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glClear function
@@ -22,7 +28,7 @@ The **glClear** function clears buffers to preset values.
 
 ```C++
 void WINAPI glClear(
-   GLbitfield mask
+   GLbitfield mask
 );
 ```
 
@@ -48,7 +54,7 @@ Bitwise OR operators of masks that indicate the buffers to be cleared. The four 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -112,8 +118,8 @@ The following functions retrieve information related to **glClear**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -148,9 +154,9 @@ The following functions retrieve information related to **glClear**:
 [**glScissor**](glscissor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

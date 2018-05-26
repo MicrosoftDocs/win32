@@ -1,7 +1,12 @@
 ---
 title: Process Isolation
 description: The HTTP Server version 2.0 API provides the ability to build a safer, more reliable service by isolating worker processes that are servicing requests on the request queue.
-ms.assetid: '893741b7-025c-4642-aff4-a5d69244763f'
+ms.assetid: 893741b7-025c-4642-aff4-a5d69244763f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process Isolation

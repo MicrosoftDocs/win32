@@ -1,7 +1,7 @@
 ---
 title: Image List Creation Flags
 description: The set of bit flags that specifies the type of image list to create. This parameter can be a combination of the following values, but it can include only one of the ILC\_COLOR values. Used by ImageList\_Create and IImageList2 Initialize.
-ms.assetid: 'DFEB1934-DB7F-4151-97F9-DDB2BCCC782A'
+ms.assetid: DFEB1934-DB7F-4151-97F9-DDB2BCCC782A
 topic_type:
 - apiref
 api_name:
@@ -22,11 +22,16 @@ api_location:
 - Shlobj.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image List Creation Flags
 
-The set of bit flags that specifies the type of image list to create. This parameter can be a combination of the following values, but it can include only one of the ILC\_COLOR values. Used by [**ImageList\_Create**](imagelist-create.md) and [**IImageList2::Initialize**](iimagelist2-initialize.md).
+The set of bit flags that specifies the type of image list to create. This parameter can be a combination of the following values, but it can include only one of the ILC\_COLOR values. Used by [**ImageList\_Create**](/windows/win32/Commctrl/nf-commctrl-imagelist_create?branch=master) and [**IImageList2::Initialize**](/windows/win32/Commoncontrols/nf-commoncontrols-iimagelist2-initialize?branch=master).
 
 
 
@@ -54,15 +59,15 @@ The set of bit flags that specifies the type of image list to create. This param
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Shlobj.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

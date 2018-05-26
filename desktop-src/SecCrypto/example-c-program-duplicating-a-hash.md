@@ -1,7 +1,12 @@
 ---
-Description: 'The following example creates and duplicates a hash of some text. It then adds additional text to the original hash and different text to the duplicate.'
-ms.assetid: '7aa7c9a1-471b-4b40-9967-b1da946c83a5'
-title: 'Example C Program: Duplicating a Hash'
+Description: The following example creates and duplicates a hash of some text. It then adds additional text to the original hash and different text to the duplicate.
+ms.assetid: 7aa7c9a1-471b-4b40-9967-b1da946c83a5
+title: Example C Program Duplicating a Hash
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Duplicating a Hash
@@ -10,13 +15,13 @@ The following example creates and duplicates a [*hash*](security.h_gly#-security
 
 This example uses the following CryptoAPI functions:
 
--   [**CryptAcquireContext**](cryptacquirecontext.md)
--   [**CryptCreateHash**](cryptcreatehash.md)
--   [**CryptHashData**](crypthashdata.md)
--   [**CryptDuplicateHash**](cryptduplicatehash.md)
--   [**CryptGetHashParam**](cryptgethashparam.md)
--   [**CryptDestroyHash**](cryptdestroyhash.md)
--   [**CryptReleaseContext**](cryptreleasecontext.md)
+-   [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master)
+-   [**CryptCreateHash**](/windows/win32/Wincrypt/nf-wincrypt-cryptcreatehash?branch=master)
+-   [**CryptHashData**](/windows/win32/Wincrypt/nf-wincrypt-crypthashdata?branch=master)
+-   [**CryptDuplicateHash**](/windows/win32/Wincrypt/nf-wincrypt-cryptduplicatehash?branch=master)
+-   [**CryptGetHashParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptgethashparam?branch=master)
+-   [**CryptDestroyHash**](/windows/win32/Wincrypt/nf-wincrypt-cryptdestroyhash?branch=master)
+-   [**CryptReleaseContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptreleasecontext?branch=master)
 
 This example uses the function [**MyHandleError**](myhandleerror.md). Code for this function is included at the end of the example. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

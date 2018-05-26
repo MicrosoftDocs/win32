@@ -4,17 +4,22 @@ description: Contains the display names of groups to which this user belongs.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c29547d2-ee35-463a-9769-3d9d2260a845'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c29547d2-ee35-463a-9769-3d9d2260a845
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["msSFU-30-Posix-Member-Of attribute AD Schema", "msSFU30PosixMemberOf attribute AD Schema"]
+keywords:
+- msSFU-30-Posix-Member-Of attribute AD Schema
+- msSFU30PosixMemberOf attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - msSFU-30-Posix-Member-Of
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msSFU-30-Posix-Member-Of attribute
@@ -38,10 +43,10 @@ Contains the display names of groups to which this user belongs.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -127,9 +132,9 @@ Contains the display names of groups to which this user belongs.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

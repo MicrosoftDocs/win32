@@ -4,11 +4,16 @@ description: The IsSaved property returns whether the file has been saved. This 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '658a6f9b-50ae-4bd1-9223-bed97b272770'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 658a6f9b-50ae-4bd1-9223-bed97b272770
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["IsSaved property MMC", "IsSaved property MMC , Document object", "Document object MMC , IsSaved property", "IsSaved property MMC , Document interface", "Document interface MMC , IsSaved property"]
+keywords:
+- IsSaved property MMC
+- IsSaved property MMC , Document object
+- Document object MMC , IsSaved property
+- IsSaved property MMC , Document interface
+- Document interface MMC , IsSaved property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Document::IsSaved property
@@ -53,8 +61,8 @@ nSaved = objDoc.IsSaved
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -75,9 +83,9 @@ nSaved = objDoc.IsSaved
 [**Document.SaveAs**](document-saveas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

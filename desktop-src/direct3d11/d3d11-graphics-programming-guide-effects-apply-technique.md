@@ -1,7 +1,12 @@
 ---
 title: Apply a Technique (Direct3D 11)
 description: With the constants, textures, and shader state declared and initialized, the only thing left to do is to set the effect state in the device.
-ms.assetid: '16001913-7ae2-4629-a625-eb850e29fc77'
+ms.assetid: 16001913-7ae2-4629-a625-eb850e29fc77
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Apply a Technique (Direct3D 11)

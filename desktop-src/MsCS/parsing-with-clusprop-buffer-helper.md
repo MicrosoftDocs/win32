@@ -4,25 +4,30 @@ description: To read data from a value or property list with CLUSPROP\_BUFFER\_H
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '83239274-f3c1-463a-b91d-13db6da86846'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 83239274-f3c1-463a-b91d-13db6da86846
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["property lists Failover Cluster ,parsing with CLUSPROP_BUFFER_HELPER", "value lists Failover Cluster ,parsing with CLUSPROP_BUFFER_HELPER"]
+keywords:
+- property lists Failover Cluster ,parsing with CLUSPROP_BUFFER_HELPER
+- value lists Failover Cluster ,parsing with CLUSPROP_BUFFER_HELPER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Parsing with CLUSPROP\_BUFFER\_HELPER
 
-To read data from a [value](value-lists.md) or [property list](property-lists.md) with [**CLUSPROP\_BUFFER\_HELPER**](clusprop-buffer-helper.md), use the following procedure.
+To read data from a [value](value-lists.md) or [property list](property-lists.md) with [**CLUSPROP\_BUFFER\_HELPER**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_buffer_helper?branch=master), use the following procedure.
 
 **To read data from a value or property list**
 
 1.  Obtain a buffer containing data.
-2.  Set the **pb** member of [**CLUSPROP\_BUFFER\_HELPER**](clusprop-buffer-helper.md) to the start of the buffer.
-3.  Use one of [**CLUSPROP\_BUFFER\_HELPER**](clusprop-buffer-helper.md)'s member pointers to read the **Syntax** member of the next data structure.
+2.  Set the **pb** member of [**CLUSPROP\_BUFFER\_HELPER**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_buffer_helper?branch=master) to the start of the buffer.
+3.  Use one of [**CLUSPROP\_BUFFER\_HELPER**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_buffer_helper?branch=master)'s member pointers to read the **Syntax** member of the next data structure.
 4.  If the **Syntax** matches what you are looking for, use other member pointers to get the data.
 5.  Otherwise, use the [**Length**](cluspropertyvalue-length.md) member to get the byte size of the current entry.
-6.  Verify that there is room in the buffer to advance [**CLUSPROP\_BUFFER\_HELPER**](clusprop-buffer-helper.md) to the next read position.
+6.  Verify that there is room in the buffer to advance [**CLUSPROP\_BUFFER\_HELPER**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_buffer_helper?branch=master) to the next read position.
 7.  Use the **pb** member to advance to the next read position.
 8.  Repeat steps 3-6 until the item is found
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the EKU object used to build the Chain object.'
-ms.assetid: 'd02f1614-6a4f-4c60-b406-ce174a99e9a5'
-title: 'CertificateStatus.EKU method'
+---
+Description: Returns the EKU object used to build the Chain object.
+ms.assetid: d02f1614-6a4f-4c60-b406-ce174a99e9a5
+title: CertificateStatus.EKU method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertificateStatus.EKU method

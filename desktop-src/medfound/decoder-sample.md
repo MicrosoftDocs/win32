@@ -1,7 +1,12 @@
 ---
-Description: 'Shows how to write a decoder for Microsoft Media Foundation.'
-ms.assetid: '941e5400-e679-41f4-9830-3548dc6037aa'
+Description: Shows how to write a decoder for Microsoft Media Foundation.
+ms.assetid: 941e5400-e679-41f4-9830-3548dc6037aa
 title: Decoder Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Decoder Sample
@@ -21,7 +26,7 @@ This sample implements a mock MPEG-1 video decoder that displays the time code f
 
 This sample demonstrates the following Media Foundation interfaces:
 
--   [**IMFTransform**](imftransform.md)
+-   [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)
 
 ## Requirements
 

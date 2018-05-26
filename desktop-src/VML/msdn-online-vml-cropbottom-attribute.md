@@ -1,7 +1,12 @@
 ---
 title: VML CropBottom Attribute
 description: VML CropBottom Attribute
-ms.assetid: '9548d0fa-1708-4206-90d8-1d90cb42de87'
+ms.assetid: 9548d0fa-1708-4206-90d8-1d90cb42de87
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML CropBottom Attribute

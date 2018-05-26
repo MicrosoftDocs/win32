@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies an application when the status window position in the input context is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as follows.'
-ms.assetid: '15e65aff-67d9-4d1a-a6a7-b921cecb3aec'
-title: 'IMN\_SETSTATUSWINDOWPOS notification code'
+---
+Description: Notifies an application when the status window position in the input context is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as follows.
+ms.assetid: 15e65aff-67d9-4d1a-a6a7-b921cecb3aec
+title: IMN\_SETSTATUSWINDOWPOS notification code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMN\_SETSTATUSWINDOWPOS notification code

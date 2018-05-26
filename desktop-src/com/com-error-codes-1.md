@@ -1,7 +1,7 @@
 ---
 title: COM Error Codes (Generic)
 description: The following table provides a list of error codes used by COM-based APIs.
-ms.assetid: 'b7dc2a45-2dc7-48e3-8288-942373b7be1d'
+ms.assetid: b7dc2a45-2dc7-48e3-8288-942373b7be1d
 topic_type:
 - apiref
 api_name:
@@ -205,6 +205,11 @@ api_location:
 - Winerror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Error Codes (Generic)
@@ -433,9 +438,9 @@ If you are experiencing difficulty with an application you are installing or run
 [COM Error Codes](com-error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

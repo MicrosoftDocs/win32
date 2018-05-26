@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the values returned by functions in authentication APIs.'
-ms.assetid: 'ea519e5c-98b0-4a01-b2cc-e5ff736a5396'
+Description: Lists the values returned by functions in authentication APIs.
+ms.assetid: ea519e5c-98b0-4a01-b2cc-e5ff736a5396
 title: Authentication Return Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication Return Values
@@ -18,7 +23,7 @@ The [Network Provider API](network-provider-api.md) uses the following defined v
 
 
 
- 
+ 
 
 ## Smart Card Return Values
 
@@ -27,7 +32,7 @@ The [Network Provider API](network-provider-api.md) uses the following defined v
 > [!Note]  
 > Some return values may have the same value as existing Windows return values that signify a similar condition. For information about error codes not listed here, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).
 
- 
+ 
 
 
 
@@ -35,7 +40,7 @@ The [Network Provider API](network-provider-api.md) uses the following defined v
 |---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ERROR\_BROKEN\_PIPE<br/> 0x00000109<br/>                | The client attempted a smart card operation in a remote session, such as a client session running on a terminal server, and the operating system in use does not support smart card redirection.<br/> |
 | SCARD\_E\_BAD\_SEEK<br/> 0x80100029<br/>                | An error occurred in setting the smart card file object pointer.<br/>                                                                                                                                 |
-| SCARD\_E\_CANCELLED<br/> 0x80100002<br/>                | The action was canceled by an [**SCardCancel**](scardcancel.md) request.<br/>                                                                                                                        |
+| SCARD\_E\_CANCELLED<br/> 0x80100002<br/>                | The action was canceled by an [**SCardCancel**](/windows/win32/Winscard/nf-winscard-scardcancel?branch=master) request.<br/>                                                                                                                        |
 | SCARD\_E\_CANT\_DISPOSE<br/> 0x8010000E<br/>            | The system could not dispose of the media in the requested manner.<br/>                                                                                                                               |
 | SCARD\_E\_CARD\_UNSUPPORTED<br/> 0x8010001C<br/>        | The smart card does not meet minimal requirements for support.<br/>                                                                                                                                   |
 | SCARD\_E\_CERTIFICATE\_UNAVAILABLE<br/> 0x8010002D<br/> | The requested certificate could not be obtained.<br/>                                                                                                                                                 |
@@ -57,7 +62,7 @@ The [Network Provider API](network-provider-api.md) uses the following defined v
 | SCARD\_E\_NO\_FILE<br/> 0x80100026<br/>                 | The supplied path does not represent a smart card file.<br/>                                                                                                                                          |
 | SCARD\_E\_NO\_KEY\_CONTAINER<br/> 0x80100030<br/>       | The requested key container does not exist on the smart card.<br/>                                                                                                                                    |
 | SCARD\_E\_NO\_MEMORY<br/> 0x80100006<br/>               | Not enough memory available to complete this command.<br/>                                                                                                                                            |
-| SCARD\_E\_NO\_PIN\_CACHE<br/> 0x80100033<br/>           | The smart card PIN cannot be cached.<br/> **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This error code is not available.<br/> <br/>                        |
+| SCARD\_E\_NO\_PIN\_CACHE<br/> 0x80100033<br/>           | The smart card PIN cannot be cached.<br/> **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This error code is not available.<br/> <br/>                        |
 | SCARD\_E\_NO\_READERS\_AVAILABLE<br/> 0x8010002E<br/>   | No smart card reader is available.<br/>                                                                                                                                                               |
 | SCARD\_E\_NO\_SERVICE<br/> 0x8010001D<br/>              | The smart card [*resource manager*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-resource-manager-gly) is not running.<br/>                                                                |
 | SCARD\_E\_NO\_SMARTCARD<br/> 0x8010000C<br/>            | The operation requires a smart card, but no smart card is currently in the device.<br/>                                                                                                               |
@@ -65,9 +70,9 @@ The [Network Provider API](network-provider-api.md) uses the following defined v
 | SCARD\_E\_NOT\_READY<br/> 0x80100010<br/>               | The reader or card is not ready to accept commands.<br/>                                                                                                                                              |
 | SCARD\_E\_NOT\_TRANSACTED<br/> 0x80100016<br/>          | An attempt was made to end a nonexistent transaction.<br/>                                                                                                                                            |
 | SCARD\_E\_PCI\_TOO\_SMALL<br/> 0x80100019<br/>          | The PCI receive buffer was too small.<br/>                                                                                                                                                            |
-| SCARD\_E\_PIN\_CACHE\_EXPIRED<br/> 0x80100032<br/>      | The smart card PIN cache has expired.<br/> **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This error code is not available.<br/> <br/>                       |
+| SCARD\_E\_PIN\_CACHE\_EXPIRED<br/> 0x80100032<br/>      | The smart card PIN cache has expired.<br/> **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This error code is not available.<br/> <br/>                       |
 | SCARD\_E\_PROTO\_MISMATCH<br/> 0x8010000F<br/>          | The requested protocols are incompatible with the protocol currently in use with the card.<br/>                                                                                                       |
-| SCARD\_E\_READ\_ONLY\_CARD<br/> 0x80100034<br/>         | The smart card is read-only and cannot be written to.<br/> **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This error code is not available.<br/> <br/>       |
+| SCARD\_E\_READ\_ONLY\_CARD<br/> 0x80100034<br/>         | The smart card is read-only and cannot be written to.<br/> **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This error code is not available.<br/> <br/>       |
 | SCARD\_E\_READER\_UNAVAILABLE<br/> 0x80100017<br/>      | The specified reader is not currently available for use.<br/>                                                                                                                                         |
 | SCARD\_E\_READER\_UNSUPPORTED<br/> 0x8010001A<br/>      | The reader driver does not meet minimal requirements for support.<br/>                                                                                                                                |
 | SCARD\_E\_SERVER\_TOO\_BUSY<br/> 0x80100031<br/>        | The smart card resource manager is too busy to complete this operation.<br/>                                                                                                                          |
@@ -104,7 +109,7 @@ The [Network Provider API](network-provider-api.md) uses the following defined v
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -113,9 +118,9 @@ The [Network Provider API](network-provider-api.md) uses the following defined v
 [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

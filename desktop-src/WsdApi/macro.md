@@ -1,7 +1,12 @@
 ---
-Description: 'Defines text or CDATA to be reused by the include element.'
-ms.assetid: 'bf5cc1e2-b08e-45b6-8e07-5c69865b695b'
+Description: Defines text or CDATA to be reused by the include element.
+ms.assetid: bf5cc1e2-b08e-45b6-8e07-5c69865b695b
 title: macro element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # macro element
@@ -55,14 +60,14 @@ The following XML shows how to include the **DoNotModify** macro. This XML can b
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

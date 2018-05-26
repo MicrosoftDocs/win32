@@ -1,8 +1,15 @@
 ---
 title: Resource Information for the DNS WMI Provider
 description: For more information about the DNS WMI Provider, see the topics listed in the following table.
-ms.assetid: '2b48baad-a6cb-4ebb-948a-d1066c171783'
-keywords: ["Resource Information for the DNS WMI Provider DNS", "Domain Name System DNS , WMI provider, resources"]
+ms.assetid: 2b48baad-a6cb-4ebb-948a-d1066c171783
+keywords:
+- Resource Information for the DNS WMI Provider DNS
+- Domain Name System DNS , WMI provider, resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Information for the DNS WMI Provider

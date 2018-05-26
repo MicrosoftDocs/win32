@@ -4,11 +4,14 @@ description: Creates a new storage hardware ID.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8c3d0a4d-d7e6-4ae9-9353-fb3402c2b41b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 8c3d0a4d-d7e6-4ae9-9353-fb3402c2b41b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateStorageHardwareID method", "CreateStorageHardwareID method, MSFT_SMSystem class", "MSFT_SMSystem class, CreateStorageHardwareID method"]
+keywords:
+- CreateStorageHardwareID method
+- CreateStorageHardwareID method, MSFT_SMSystem class
+- MSFT_SMSystem class, CreateStorageHardwareID method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateStorageHardwareID method of the MSFT\_SMSystem class
@@ -28,15 +34,15 @@ Creates a new storage hardware ID.
 
 ```mof
 Uint32 CreateStorageHardwareID(
-  [in]            String                       Name,
-  [in]            String                       StorageID,
-  [in]            Uint16                       IDType,
-  [in]            String                       OtherIDType,
-  [in, optional]  Uint16                       HostType = Microsoft Windows,
-  [out]           MSFT_SMStorageHardwareID REF StorageHardwareID,
-  [out, optional] MSFT_SMExtendedStatus        ExtendedStatus,
-  [in, optional]  String                       username,
-  [in, optional]  String                       password
+  [in]            String                       Name,
+  [in]            String                       StorageID,
+  [in]            Uint16                       IDType,
+  [in]            String                       OtherIDType,
+  [in, optional]  Uint16                       HostType = Microsoft Windows,
+  [out]           MSFT_SMStorageHardwareID REF StorageHardwareID,
+  [out, optional] MSFT_SMExtendedStatus        ExtendedStatus,
+  [in, optional]  String                       username,
+  [in, optional]  String                       password
 );
 ```
 
@@ -295,14 +301,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>22–32767</dd> <dt>
+</dt> <dd>22 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *StorageHardwareID* \[out\]
 </dt> <dd>
@@ -484,7 +490,7 @@ Used to authenticate with the SMI-S provider. If not provided, the storage servi
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -498,9 +504,9 @@ Used to authenticate with the SMI-S provider. If not provided, the storage servi
 [**MSFT\_SMSystem**](msft-smsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

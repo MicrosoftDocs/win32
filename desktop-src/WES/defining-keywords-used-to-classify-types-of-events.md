@@ -1,7 +1,12 @@
 ---
 title: Defining Keywords Used to Classify Types of Events
 description: Providers use keywords to classify different types of events.
-ms.assetid: '1cbad719-bc59-4255-8a15-9e45f363d199'
+ms.assetid: 1cbad719-bc59-4255-8a15-9e45f363d199
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining Keywords Used to Classify Types of Events

@@ -1,7 +1,12 @@
 ---
 title: Y-axis Automatic Rescale
 description: Y-axis Automatic Rescale
-ms.assetid: 'e7c2d183-71fd-4c54-9fcc-022dcf73fdb6'
+ms.assetid: e7c2d183-71fd-4c54-9fcc-022dcf73fdb6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Y-axis Automatic Rescale

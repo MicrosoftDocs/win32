@@ -4,17 +4,22 @@ description: Contains the Distributed File System (DFS) Replication service sett
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a7e57bd9-2b02-4d3c-bc05-f4d53e92567d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a7e57bd9-2b02-4d3c-bc05-f4d53e92567d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-LocalSettings class AD Schema", "msDFSR-LocalSettings class AD Schema"]
+keywords:
+- ms-DFSR-LocalSettings class AD Schema
+- msDFSR-LocalSettings class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-LocalSettings
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-LocalSettings class
@@ -35,10 +40,10 @@ Contains the Distributed File System (DFS) Replication service settings that are
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -65,7 +70,7 @@ Contains the Distributed File System (DFS) Replication service settings that are
 
 ## Windows Server 2003 R2 Attributes
 
-This class contains the following attributes for Windows Server 2003 R2:
+This class contains the following attributes for Windows Server 2003 R2:
 
 
 
@@ -197,7 +202,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -344,7 +349,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -498,7 +503,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -637,9 +642,9 @@ This class contains the following attributes for Windows Server 2012:
 
 The **ms-DFSR-LocalSettings** class is a part of the DFS Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

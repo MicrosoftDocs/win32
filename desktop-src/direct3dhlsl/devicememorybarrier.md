@@ -1,14 +1,20 @@
 ---
 title: DeviceMemoryBarrier function
 description: Blocks execution of all threads in a group until all device memory accesses have been completed.
-ms.assetid: '904ab8f6-4849-4b13-8fac-3967cf66574e'
-keywords: ["DeviceMemoryBarrier function HLSL"]
+ms.assetid: 904ab8f6-4849-4b13-8fac-3967cf66574e
+keywords:
+- DeviceMemoryBarrier function HLSL
 topic_type:
 - apiref
 api_name:
 - DeviceMemoryBarrier
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceMemoryBarrier function

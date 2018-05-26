@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RoutingInformation property is a null-terminated string that indicates inbound routing information for the fax message.'
-ms.assetid: '9b4677de-cb69-4ef3-8f63-eb9991bc86ff'
-title: 'FaxIncomingMessage.RoutingInformation property'
+---
+Description: The RoutingInformation property is a null-terminated string that indicates inbound routing information for the fax message.
+ms.assetid: 9b4677de-cb69-4ef3-8f63-eb9991bc86ff
+title: FaxIncomingMessage.RoutingInformation property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.RoutingInformation property
@@ -25,7 +30,7 @@ A **String** that receives the inbound routing information for the fax message.
 
 ## Remarks
 
-For more information about routing information, see the [**RoutingInfo**](-mfax-fax-dev-status-str.md) member of the **FAX\_DEV\_STATUS** structure.
+For more information about routing information, see the [**RoutingInfo**](/windows/previous-versions/FaxDev/ns-faxdev-_fax_dev_status?branch=master) member of the **FAX\_DEV\_STATUS** structure.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ For more information about routing information, see the [**RoutingInfo**](-mfax-
 [**FaxIncomingMessage**](-mfax-faxincomingmessage.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage**](-mfax-faxincomingmessage-cpp.md)
+[**IFaxIncomingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage?branch=master)
 </dt> </dl>
 
  

@@ -1,12 +1,18 @@
 ---
 title: Texture2DArray Gather methods
 description: Samples a Texture2DArray and returns all four components.
-ms.assetid: 'b0355158-01c8-45a1-bb5d-29a8c43b1685'
-keywords: ["Gather methods HLSL"]
+ms.assetid: b0355158-01c8-45a1-bb5d-29a8c43b1685
+keywords:
+- Gather methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DArray::Gather methods
@@ -31,9 +37,9 @@ Samples a [**Texture2DArray**](sm5-object-texture2darray.md) and returns all fou
 [Texture2DArray](sm5-object-texture2darray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

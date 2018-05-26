@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the submission time, in the “DATE” format, provided in the user’s local time (not in the UTC format that is provided by the spooler).'
-ms.assetid: '23433B59-A376-4D92-863E-4492621F3BF5'
-title: 'IPrintJob::SubmissionTime property'
+---
+Description: Gets the submission time, in the “DATE” format, provided in the user’s local time (not in the UTC format that is provided by the spooler).
+ms.assetid: 23433B59-A376-4D92-863E-4492621F3BF5
+title: IPrintJobSubmissionTime property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintJob::SubmissionTime property

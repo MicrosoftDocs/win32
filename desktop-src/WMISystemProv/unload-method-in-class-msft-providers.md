@@ -4,11 +4,16 @@ description: The UnLoad Windows Management Instrumentation (WMI) class method un
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '24c58ec1-5b1a-42d6-900b-218e862d4114'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 24c58ec1-5b1a-42d6-900b-218e862d4114
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["UnLoad method", "UnLoad method, MSFT_Providers class", "MSFT_Providers class, UnLoad method", "UnLoad method, MSFT_Providers class", "MSFT_Providers class, UnLoad method"]
+keywords:
+- UnLoad method
+- UnLoad method, MSFT_Providers class
+- MSFT_Providers class, UnLoad method
+- UnLoad method, MSFT_Providers class
+- MSFT_Providers class, UnLoad method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UnLoad method of the MSFT\_Providers class
@@ -49,8 +57,8 @@ Returns a value of 0 (zero) if the provider is unloaded successfully. Any other 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -64,9 +72,9 @@ Returns a value of 0 (zero) if the provider is unloaded successfully. Any other 
 [**MSFT\_Providers**](msft-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

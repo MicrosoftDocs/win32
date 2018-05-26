@@ -1,7 +1,12 @@
-﻿---
-Description: 'Disables auto provisioning of the TPM if it is currently enabled.'
-ms.assetid: '30CC2581-9C16-4A11-92F1-625992F2AF20'
-title: 'Win32\_Tpm::DisableAutoProvisioning method'
+---
+Description: Disables auto provisioning of the TPM if it is currently enabled.
+ms.assetid: 30CC2581-9C16-4A11-92F1-625992F2AF20
+title: Win32\_TpmDisableAutoProvisioning method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_Tpm::DisableAutoProvisioning method

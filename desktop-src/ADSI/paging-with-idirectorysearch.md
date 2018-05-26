@@ -4,16 +4,21 @@ description: Paging specifies how many rows that the server returns to the clien
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cf4aa56a-c6f7-47c8-956d-512a5cffbf22'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: cf4aa56a-c6f7-47c8-956d-512a5cffbf22
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Paging with IDirectorySearch ADSI", "ADSI, Searching, IDirectorySearch, Other Search Options, Paging"]
+keywords:
+- Paging with IDirectorySearch ADSI
+- ADSI, Searching, IDirectorySearch, Other Search Options, Paging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Paging with IDirectorySearch
 
-Paging specifies how many rows that the server returns to the client. A page can be defined by the number of rows or a time limit. The ADSI COM object retrieves each page of results based on the values listed in the following table. The caller calls [**IDirectorySearch::GetNextRow**](idirectorysearch-getnextrow.md) when it has reached the page end, and the ADSI COM object retrieves the next page.
+Paging specifies how many rows that the server returns to the client. A page can be defined by the number of rows or a time limit. The ADSI COM object retrieves each page of results based on the values listed in the following table. The caller calls [**IDirectorySearch::GetNextRow**](/windows/win32/Iads/nf-iads-idirectorysearch-getnextrow?branch=master) when it has reached the page end, and the ADSI COM object retrieves the next page.
 
 
 
@@ -40,7 +45,7 @@ ADSI handles the page size for the client. The client does not have to count the
 
 It is recommended that paging is used.
 
-To specify a maximum page size, set an **ADS\_SEARCHPREF\_PAGESIZE** search option with an **ADSTYPE\_INTEGER** value set to the maximum number of rows per page in the [**ADS\_SEARCHPREF\_INFO**](ads-searchpref-info.md) array passed to the [**IDirectorySearch::SetSearchPreference**](idirectorysearch-setsearchpreference.md) method.
+To specify a maximum page size, set an **ADS\_SEARCHPREF\_PAGESIZE** search option with an **ADSTYPE\_INTEGER** value set to the maximum number of rows per page in the [**ADS\_SEARCHPREF\_INFO**](/windows/win32/Iads/ns-iads-ads_searchpref_info?branch=master) array passed to the [**IDirectorySearch::SetSearchPreference**](/windows/win32/Iads/nf-iads-idirectorysearch-setsearchpreference?branch=master) method.
 
 The following code example shows how to set the maximum page size.
 
@@ -54,7 +59,7 @@ SearchPref.vValue.Integer = 1000;
 
 
 
-To specify a page time, set an **ADS\_SEARCHPREF\_PAGED\_TIME\_LIMIT** search option with an **ADSTYPE\_INTEGER** value set to the maximum number of seconds that the server should spend retrieving a page in the [**ADS\_SEARCHPREF\_INFO**](ads-searchpref-info.md) array passed to the [**IDirectorySearch::SetSearchPreference**](idirectorysearch-setsearchpreference.md) method.
+To specify a page time, set an **ADS\_SEARCHPREF\_PAGED\_TIME\_LIMIT** search option with an **ADSTYPE\_INTEGER** value set to the maximum number of seconds that the server should spend retrieving a page in the [**ADS\_SEARCHPREF\_INFO**](/windows/win32/Iads/ns-iads-ads_searchpref_info?branch=master) array passed to the [**IDirectorySearch::SetSearchPreference**](/windows/win32/Iads/nf-iads-idirectorysearch-setsearchpreference?branch=master) method.
 
 The following code example shows how to specify page time.
 

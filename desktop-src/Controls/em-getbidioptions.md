@@ -1,8 +1,9 @@
 ---
 title: EM\_GETBIDIOPTIONS message
 description: Indicates the current state of the bidirectional options in the rich edit control.
-ms.assetid: '055581c0-ae59-4601-a3e9-416705af429a'
-keywords: ["EM_GETBIDIOPTIONS message Windows Controls"]
+ms.assetid: 055581c0-ae59-4601-a3e9-416705af429a
+keywords:
+- EM_GETBIDIOPTIONS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETBIDIOPTIONS message
@@ -31,7 +37,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-A [**BIDIOPTIONS**](bidioptions.md) structure that receives the current state of the bidirectional options in the rich edit control.
+A [**BIDIOPTIONS**](/windows/win32/Richedit/ns-richedit-_bidioptions?branch=master) structure that receives the current state of the bidirectional options in the rich edit control.
 
 </dd> </dl>
 
@@ -49,8 +55,8 @@ This message sets the values of the **wMask** and **wEffects** members to the va
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Redistributable<br/>          | Rich Edit 3.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
@@ -63,15 +69,15 @@ This message sets the values of the **wMask** and **wEffects** members to the va
 **Reference**
 </dt> <dt>
 
-[**BIDIOPTIONS**](bidioptions.md)
+[**BIDIOPTIONS**](/windows/win32/Richedit/ns-richedit-_bidioptions?branch=master)
 </dt> <dt>
 
 [**EM\_SETBIDIOPTIONS**](em-setbidioptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter Prepare
 description: IAgentCharacter Prepare
-ms.assetid: 'e016039f-a0b1-4ae9-bff6-7212b02c1ad8'
+ms.assetid: e016039f-a0b1-4ae9-bff6-7212b02c1ad8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::Prepare
@@ -38,7 +43,7 @@ A value that indicates the animation data type to load that must be one of the f
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -77,7 +82,7 @@ For states, the value can be one of the following:
 
 
 
- 
+ 
 
 For .WAV files, set *bszName* to the URL or file specification for the .WAV file. If the specification is not complete, it is interpreted as being relative to the specification used in the [**Load**](lwef-iagentcharacter_load) method.
 
@@ -103,9 +108,9 @@ Animation or sound data retrieved with the [**Prepare**](https://msdn.microsoft.
 
 You can specify multiple animations and states by separating them with commas. However, you cannot mix types in the same [**Prepare**](https://msdn.microsoft.com/library/windows/desktop/ms699189) statement.
 
- 
+ 
 
- 
+ 
 
 
 

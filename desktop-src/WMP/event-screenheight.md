@@ -1,14 +1,20 @@
 ---
 title: event.screenHeight
 description: The screenHeight attribute retrieves the height of the available screen size in pixels.
-ms.assetid: '84f5c70b-ef00-44e9-a24e-ef292936a88c'
-keywords: ["event.screenHeight Windows Media Player"]
+ms.assetid: 84f5c70b-ef00-44e9-a24e-ef292936a88c
+keywords:
+- event.screenHeight Windows Media Player
 topic_type:
 - apiref
 api_name:
 - event.screenHeight
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # event.screenHeight
@@ -47,9 +53,9 @@ This is useful for determining the amount of space there is in the monitor. If t
 [**event.screenWidth**](event-screenwidth.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

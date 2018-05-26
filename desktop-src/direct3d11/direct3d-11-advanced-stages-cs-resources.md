@@ -1,8 +1,17 @@
 ---
 title: New Resource Types
 description: Several new resource types have been added in Direct3D 11.
-ms.assetid: '597cc12f-dd0e-4603-b670-3f584f25e192'
-keywords: ["Byte Address Buffer (Overview)", "Read/Write Buffer (Overview)", "Structured Buffer (Overview)", "Unordered Access Buffer"]
+ms.assetid: 597cc12f-dd0e-4603-b670-3f584f25e192
+keywords:
+- Byte Address Buffer (Overview)
+- Read/Write Buffer (Overview)
+- Structured Buffer (Overview)
+- Unordered Access Buffer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # New Resource Types
@@ -78,7 +87,7 @@ Shader model 5 introduces objects for accessing a [read-only byte address buffer
 
 An unordered access resource (which includes buffers, textures, and texture arrays - without multisampling), allows temporally unordered read/write access from multiple threads. This means that this resource type can be read/written simultaneously by multiple threads without generating memory conflicts through the use of [Atomic Functions](direct3d-11-advanced-stages-cs-atomic-functions.md).
 
-Create an unordered access buffer or texture by calling a function such as [**ID3D11Device::CreateBuffer**](id3d11device-createbuffer.md) or [**ID3D11Device::CreateTexture2D**](id3d11device-createtexture2d.md) and passing in the **D3D11\_BIND\_UNORDERED\_ACCESS** flag from the [**D3D11\_BIND\_FLAG**](d3d11-bind-flag.md) enumeration.
+Create an unordered access buffer or texture by calling a function such as [**ID3D11Device::CreateBuffer**](/windows/win32/D3D11/nf-d3d11-id3d11device-createbuffer?branch=master) or [**ID3D11Device::CreateTexture2D**](/windows/win32/D3D11/nf-d3d11-id3d11device-createtexture2d?branch=master) and passing in the **D3D11\_BIND\_UNORDERED\_ACCESS** flag from the [**D3D11\_BIND\_FLAG**](/windows/win32/D3D11/ne-d3d11-d3d11_bind_flag?branch=master) enumeration.
 
 Unordered access resources can only be bound to pixel shaders and compute shaders. During execution, pixel shaders or compute shaders running in parallel have the same unordered access resources bound.
 

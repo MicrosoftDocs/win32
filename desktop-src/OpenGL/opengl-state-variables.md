@@ -1,8 +1,15 @@
 ---
 title: OpenGL State Variables
 description: The following topics list the names of state variables that can be queried
-ms.assetid: 'f4bc4ec1-a529-4b9e-84af-94caa0ef7131'
-keywords: ["OpenGL state variables", "state variables, OpenGL"]
+ms.assetid: f4bc4ec1-a529-4b9e-84af-94caa0ef7131
+keywords:
+- OpenGL state variables
+- state variables, OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenGL State Variables

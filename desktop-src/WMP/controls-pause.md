@@ -1,8 +1,11 @@
 ---
 title: Controls.pause method
 description: The pause method pauses playback of the media item.
-ms.assetid: '7307a3b2-e5d6-4067-bdb5-38011565142a'
-keywords: ["pause method Windows Media Player", "pause method Windows Media Player , Controls class", "Controls class Windows Media Player , pause method"]
+ms.assetid: 7307a3b2-e5d6-4067-bdb5-38011565142a
+keywords:
+- pause method Windows Media Player
+- pause method Windows Media Player , Controls class
+- Controls class Windows Media Player , pause method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.pause method
@@ -80,9 +88,9 @@ The following example creates an HTML BUTTON element that uses **pause** to paus
 [**Controls.isAvailable**](controls-isavailable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

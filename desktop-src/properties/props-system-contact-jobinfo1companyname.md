@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'd4f92294-3e86-4fb2-9f90-ba9ef394804c'
-title: 'System.Contact.JobInfo1CompanyName'
+Description: .
+ms.assetid: d4f92294-3e86-4fb2-9f90-ba9ef394804c
+title: System.Contact.JobInfo1CompanyName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.JobInfo1CompanyName

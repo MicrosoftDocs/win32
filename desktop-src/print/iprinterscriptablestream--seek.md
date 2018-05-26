@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the seek pointer.'
-ms.assetid: '82080353-2252-4BF2-B7F4-F297DCA99FA0'
-title: 'IPrinterScriptableStream::Seek method'
+---
+Description: Sets the seek pointer.
+ms.assetid: 82080353-2252-4BF2-B7F4-F297DCA99FA0
+title: IPrinterScriptableStreamSeek method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptableStream::Seek method

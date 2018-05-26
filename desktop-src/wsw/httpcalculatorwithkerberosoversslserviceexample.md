@@ -1,8 +1,16 @@
 ---
 title: HttpCalculatorWithKerberosOverSslServiceExample
 description: This example shows how to use service host for hosting a calculator service over HTTP, with kerberos over SSL mixed-mode security.
-ms.assetid: 'a006ce15-9470-49f7-80d6-8d40ffec8651'
-keywords: ["HttpCalculatorWithKerberosOverSslServiceExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: a006ce15-9470-49f7-80d6-8d40ffec8651
+keywords:
+- HttpCalculatorWithKerberosOverSslServiceExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCalculatorWithKerberosOverSslServiceExample

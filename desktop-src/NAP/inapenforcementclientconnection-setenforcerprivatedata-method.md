@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientConnection SetEnforcerPrivateData method
 description: Is used by the enforcer to set private data.
-ms.assetid: '56f6fec7-47ec-4b2c-b8c8-a4d519ba0f91'
-keywords: ["SetEnforcerPrivateData method NAP", "SetEnforcerPrivateData method NAP , INapEnforcementClientConnection interface", "INapEnforcementClientConnection interface NAP , SetEnforcerPrivateData method"]
+ms.assetid: 56f6fec7-47ec-4b2c-b8c8-a4d519ba0f91
+keywords:
+- SetEnforcerPrivateData method NAP
+- SetEnforcerPrivateData method NAP , INapEnforcementClientConnection interface
+- INapEnforcementClientConnection interface NAP , SetEnforcerPrivateData method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientConnection::SetEnforcerPrivateData method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientConnection::SetEnforcerPrivateData** method is used by the enforcer to set private data.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientConnection::SetEnforcerPrivateData** method is used b
 
 ```C++
 HRESULT SetEnforcerPrivateData(
-  [in] const PrivateData *privateData
+  [in] const PrivateData *privateData
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT SetEnforcerPrivateData(
 *privateData* \[in\]
 </dt> <dd>
 
-A pointer to a [**PrivateData**](privatedata-struct.md) opaque data blob that only the enforcer can interpret.
+A pointer to a [**PrivateData**](/windows/win32/NapTypes/ns-naptypes-tagprivatedata?branch=master) opaque data blob that only the enforcer can interpret.
 
 </dd> </dl>
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Other COM-specific error codes also may be returned.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -81,9 +89,9 @@ Other COM-specific error codes also may be returned.
 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

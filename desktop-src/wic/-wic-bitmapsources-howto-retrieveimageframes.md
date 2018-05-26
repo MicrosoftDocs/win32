@@ -1,7 +1,12 @@
 ---
-Description: 'This topic demonstrates how to decode a multi-frame image and retrieve each frame for processing.'
-ms.assetid: 'e4f69608-7bf1-4d54-b586-b749526700c9'
+Description: This topic demonstrates how to decode a multi-frame image and retrieve each frame for processing.
+ms.assetid: e4f69608-7bf1-4d54-b586-b749526700c9
 title: How to Retrieve the Frames from an Image
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Retrieve the Frames from an Image
@@ -10,7 +15,7 @@ This topic demonstrates how to decode a multi-frame image and retrieve each fram
 
 To retrieve the frames of an image
 
-1.  Create an [**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md) to create Windows Imaging Component (WIC) objects.
+1.  Create an [**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master) to create Windows Imaging Component (WIC) objects.
 
     ```C++
     // Create WIC factory
@@ -24,7 +29,7 @@ To retrieve the frames of an image
 
     
 
-2.  Use the [**CreateDecoderFromFilename**](-wic-codec-iwicimagingfactory-createdecoderfromfilename.md) method to create an [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) from an image file.
+2.  Use the [**CreateDecoderFromFilename**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename?branch=master) method to create an [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) from an image file.
 
     ```C++
     HRESULT hr = S_OK;
@@ -58,7 +63,7 @@ To retrieve the frames of an image
 
     
 
-4.  Process each frame by obtaining an [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) for each frame in the image.
+4.  Process each frame by obtaining an [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) for each frame in the image.
 
     ```C++
     // Process each frame in the image.

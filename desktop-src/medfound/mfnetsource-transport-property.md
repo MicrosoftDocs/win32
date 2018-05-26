@@ -1,12 +1,17 @@
-﻿---
-Description: 'Specifies the transport protocol used by the network source.'
-ms.assetid: '7c8598ff-f408-42d0-9eee-3ef1e82f0466'
-title: 'MFNETSOURCE\_TRANSPORT property'
+---
+Description: Specifies the transport protocol used by the network source.
+ms.assetid: 7c8598ff-f408-42d0-9eee-3ef1e82f0466
+title: MFNETSOURCE\_TRANSPORT property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_TRANSPORT property
 
-Specifies the transport protocol used by the network source. The value of this property is a member of the [**MFNETSOURCE\_TRANSPORT\_TYPE**](mfnetsource-transport-type.md) enumeration.
+Specifies the transport protocol used by the network source. The value of this property is a member of the [**MFNETSOURCE\_TRANSPORT\_TYPE**](/windows/win32/mfidl/ne-mfidl-_mfnetsource_transport_type?branch=master) enumeration.
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Installable Driver Reference
 description: Installable Driver Reference
-ms.assetid: '869b92f1-2711-4198-9911-3df1ebc58d5f'
-keywords: ["Windows multimedia,installable driver reference", "multimedia,installable driver reference", "installable drivers,reference", "installable driver reference,about", "reference for installable drivers,about"]
+ms.assetid: 869b92f1-2711-4198-9911-3df1ebc58d5f
+keywords:
+- Windows multimedia,installable driver reference
+- multimedia,installable driver reference
+- installable drivers,reference
+- installable driver reference,about
+- reference for installable drivers,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installable Driver Reference
@@ -38,7 +48,7 @@ The functions and messages associated with installable drivers are grouped as fo
 ## Driver Functions
 
 -   [DefDriverProc](defdriverproc.md)
--   [DriverCallback](drivercallback.md)
+-   [DriverCallback](/windows/win32/Digitalv/nf-mmiscapi-drivercallback?branch=master)
 -   [DriverProc](driverproc.md)
 
 ## Related topics

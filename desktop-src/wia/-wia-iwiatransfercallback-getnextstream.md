@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a new stream for the specified item.'
-ms.assetid: 'fe25843c-2051-42fe-8737-eea39f6aeab9'
-title: 'IWiaTransferCallback::GetNextStream method'
+---
+Description: Gets a new stream for the specified item.
+ms.assetid: fe25843c-2051-42fe-8737-eea39f6aeab9
+title: IWiaTransferCallbackGetNextStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaTransferCallback::GetNextStream method

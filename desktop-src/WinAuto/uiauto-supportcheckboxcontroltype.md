@@ -1,8 +1,29 @@
 ---
 title: CheckBox Control Type
 description: This topic provides information about Microsoft UI Automation support for the CheckBox control type.
-ms.assetid: '5a9061bc-2eac-4839-8f2c-32b9d58fe712'
-keywords: ["UI Automation,support for CheckBox control type", "UI Automation,CheckBox control type", "UI Automation,tree structure for CheckBox control type", "UI Automation,properties for CheckBox control type", "UI Automation,control patterns for CheckBox control type", "UI Automation,events for CheckBox control type", "tree structures,CheckBox control type", "properties,CheckBox control type", "control patterns,CheckBox control type", "events,CheckBox control type", "support for CheckBox control type", "CheckBox control type", "control types,tree structure for CheckBox control type", "control types,control patterns for CheckBox control type", "control types,support for CheckBox", "control types,CheckBox"]
+ms.assetid: 5a9061bc-2eac-4839-8f2c-32b9d58fe712
+keywords:
+- UI Automation,support for CheckBox control type
+- UI Automation,CheckBox control type
+- UI Automation,tree structure for CheckBox control type
+- UI Automation,properties for CheckBox control type
+- UI Automation,control patterns for CheckBox control type
+- UI Automation,events for CheckBox control type
+- tree structures,CheckBox control type
+- properties,CheckBox control type
+- control patterns,CheckBox control type
+- events,CheckBox control type
+- support for CheckBox control type
+- CheckBox control type
+- control types,tree structure for CheckBox control type
+- control types,control patterns for CheckBox control type
+- control types,support for CheckBox
+- control types,CheckBox
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CheckBox Control Type
@@ -72,7 +93,7 @@ The following table lists the UI Automation properties whose value or definition
 | [**UIA\_IsKeyboardFocusablePropertyId**](uiauto-automation-element-propids.md#uia-iskeyboardfocusablepropertyid)   | See notes.   | If the control can receive keyboard focus, it must support this property.                                                                                                                                                                                                          |
 | [**UIA\_LabeledByPropertyId**](uiauto-automation-element-propids.md#uia-labeledbypropertyid)                       | Null         | Check box controls are self-labeling.                                                                                                                                                                                                                                              |
 | [**UIA\_LocalizedControlTypePropertyId**](uiauto-automation-element-propids.md#uia-localizedcontroltypepropertyid) | See notes.   | Localized string corresponding to the **CheckBox** control type. The default value is "check box" for en-US or English (United States).                                                                                                                                            |
-| [**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid)                                 | See notes.   | The value of the check box control's [**IUIAutomationElement::CurrentName**](uiauto-iuiautomationelement-currentname.md) (or [**CachedName**](uiauto-iuiautomationelement-cachedname.md)) property is the text that is displayed beside the box that maintains the toggle state. |
+| [**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid)                                 | See notes.   | The value of the check box control's [**IUIAutomationElement::CurrentName**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentname?branch=master) (or [**CachedName**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_cachedname?branch=master)) property is the text that is displayed beside the box that maintains the toggle state. |
 
 
 
@@ -86,7 +107,7 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                  | Support/Value | Notes                                                                                                                                                             |
 |---------------------------------------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IToggleProvider**](uiauto-itoggleprovider.md) | Required      | Check boxes support the [Toggle](uiauto-implementingtoggle.md) control pattern to allow the check box to be programmatically cycled through its internal states. |
+| [**IToggleProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itoggleprovider?branch=master) | Required      | Check boxes support the [Toggle](uiauto-implementingtoggle.md) control pattern to allow the check box to be programmatically cycled through its internal states. |
 
 
 

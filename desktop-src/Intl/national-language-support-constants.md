@@ -1,7 +1,12 @@
 ---
 Description: National Language Support Constants
-ms.assetid: '4cdecae5-f993-491b-bb54-6eb2e742c57d'
+ms.assetid: 4cdecae5-f993-491b-bb54-6eb2e742c57d
 title: National Language Support Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # National Language Support Constants

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetBoolValue method retrieves a Boolean value (type VT\_BOOL) specified by a key.'
-ms.assetid: 'cb5fed7a-50b5-4af1-806a-c6582409d265'
-title: 'IPortableDeviceValues::GetBoolValue method'
+Description: The GetBoolValue method retrieves a Boolean value (type VT\_BOOL) specified by a key.
+ms.assetid: cb5fed7a-50b5-4af1-806a-c6582409d265
+title: IPortableDeviceValuesGetBoolValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetBoolValue method
@@ -13,8 +18,8 @@ The **GetBoolValue** method retrieves a **Boolean** value (type VT\_BOOL) specif
 
 ```C++
 HRESULT GetBoolValue(
-  [in]  REFPROPERTYKEY key,
-  [out] BOOL           *pValue
+  [in]  REFPROPERTYKEY key,
+  [out] BOOL           *pValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -88,9 +93,9 @@ For an example of how to use this method, see [Setting Properties for a Single O
 [Writing Content-Object Properties](writing-content-object-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

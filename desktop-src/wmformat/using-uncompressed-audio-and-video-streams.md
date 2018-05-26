@@ -1,15 +1,25 @@
 ---
 title: Using Uncompressed Audio and Video Streams
 description: Using Uncompressed Audio and Video Streams
-ms.assetid: '1a8fe604-bd99-4ba1-878f-8e1fd89483b3'
-keywords: ["streams,configuring uncompressed audio and video streams", "codecs,configuring uncompressed audio and video streams", "video streams,uncompressed", "audio streams,uncompressed", "uncompressed audio and video streams"]
+ms.assetid: 1a8fe604-bd99-4ba1-878f-8e1fd89483b3
+keywords:
+- streams,configuring uncompressed audio and video streams
+- codecs,configuring uncompressed audio and video streams
+- video streams,uncompressed
+- audio streams,uncompressed
+- uncompressed audio and video streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Uncompressed Audio and Video Streams
 
 Under most circumstances, uncompressed media has prohibitively large storage and delivery requirements, but for some local playback scenarios, the quality level is important enough to warrant not using compression..
 
-The settings for an uncompressed media stream should reflect the settings of the source media. When configuring an uncompressed stream, you must calculate the bit rate of the media and set the stream appropriately by calling [**IWMStreamConfig::SetBitrate**](iwmstreamconfig-setbitrate.md). Because uncompressed streams are not viable for streaming, you should always set the buffer window for uncompressed media streams to zero by calling [**IWMStreamConfig::SetBufferWindow**](iwmstreamconfig-setbufferwindow.md).
+The settings for an uncompressed media stream should reflect the settings of the source media. When configuring an uncompressed stream, you must calculate the bit rate of the media and set the stream appropriately by calling [**IWMStreamConfig::SetBitrate**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setbitrate?branch=master). Because uncompressed streams are not viable for streaming, you should always set the buffer window for uncompressed media streams to zero by calling [**IWMStreamConfig::SetBufferWindow**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setbufferwindow?branch=master).
 
 The following pixel formats are supported for uncompressed video streams:
 

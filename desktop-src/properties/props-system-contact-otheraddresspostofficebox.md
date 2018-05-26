@@ -1,7 +1,12 @@
 ---
-Description: 'Other address post office box number of the contact.'
-ms.assetid: '213e0fa2-895e-4028-9b55-5bbc6e19439f'
-title: 'System.Contact.OtherAddressPostOfficeBox'
+Description: Other address post office box number of the contact.
+ms.assetid: 213e0fa2-895e-4028-9b55-5bbc6e19439f
+title: System.Contact.OtherAddressPostOfficeBox
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.OtherAddressPostOfficeBox

@@ -1,7 +1,12 @@
 ---
 title: Extended Error Information for the User
 description: If extended error information is available, the components participating in the creation of the extended error information must make it easy to find the problem.
-ms.assetid: '10c54f53-f449-4e7d-ba84-7b000beaee22'
+ms.assetid: 10c54f53-f449-4e7d-ba84-7b000beaee22
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extended Error Information for the User

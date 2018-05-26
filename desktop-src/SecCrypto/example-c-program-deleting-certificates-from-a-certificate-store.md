@@ -1,7 +1,12 @@
 ---
-Description: 'The following example lists the certificates in a system certificate store, displaying the name of the subject of each certificate, and it allows the user to choose to delete any certificates from the store.'
-ms.assetid: '52a0287b-7d2a-483e-8bbc-43621c4b7103'
-title: 'Example C Program: Deleting Certificates from a Certificate Store'
+Description: The following example lists the certificates in a system certificate store, displaying the name of the subject of each certificate, and it allows the user to choose to delete any certificates from the store.
+ms.assetid: 52a0287b-7d2a-483e-8bbc-43621c4b7103
+title: Example C Program Deleting Certificates from a Certificate Store
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Deleting Certificates from a Certificate Store
@@ -10,15 +15,15 @@ The following example lists the certificates in a system [*certificate store*](s
 
 This example illustrates the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
--   Opening a system certificate store using [**CertOpenSystemStore**](certopensystemstore.md).
--   Listing the certificates in a certificate store using [**CertEnumCertificatesInStore**](certenumcertificatesinstore.md).
--   Getting the name of the subject of a certificate using [**CertGetNameString**](certgetnamestring.md).
--   Comparing the name of the subject of the certificate with the name of the issuer of the certificate using [**CertCompareCertificateName**](certcomparecertificatename.md).
--   Checking to determine whether the public key of the current certificate matches the public key of a previous certificate using [**CertComparePublicKeyInfo**](certcomparepublickeyinfo.md).
--   Duplicating a pointer to a [*certificate context*](security.c_gly#-security-certificate-context-gly) using [**CertDuplicateCertificateContext**](certduplicatecertificatecontext.md).
--   Comparing the [**CERT\_INFO**](cert-info.md) members of each certificate using [**CertCompareCertificate**](certcomparecertificate.md).
--   Deleting a certificate from a store using [**CertDeleteCertificateFromStore**](certdeletecertificatefromstore.md).
--   Closing a certificate store using [**CertCloseStore**](certclosestore.md).
+-   Opening a system certificate store using [**CertOpenSystemStore**](/windows/win32/Wincrypt/nf-wincrypt-certopensystemstorea?branch=master).
+-   Listing the certificates in a certificate store using [**CertEnumCertificatesInStore**](/windows/win32/Wincrypt/nf-wincrypt-certenumcertificatesinstore?branch=master).
+-   Getting the name of the subject of a certificate using [**CertGetNameString**](/windows/win32/Wincrypt/nf-wincrypt-certgetnamestringa?branch=master).
+-   Comparing the name of the subject of the certificate with the name of the issuer of the certificate using [**CertCompareCertificateName**](/windows/win32/Wincrypt/nf-wincrypt-certcomparecertificatename?branch=master).
+-   Checking to determine whether the public key of the current certificate matches the public key of a previous certificate using [**CertComparePublicKeyInfo**](/windows/win32/Wincrypt/nf-wincrypt-certcomparepublickeyinfo?branch=master).
+-   Duplicating a pointer to a [*certificate context*](security.c_gly#-security-certificate-context-gly) using [**CertDuplicateCertificateContext**](/windows/win32/Wincrypt/nf-wincrypt-certduplicatecertificatecontext?branch=master).
+-   Comparing the [**CERT\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cert_info?branch=master) members of each certificate using [**CertCompareCertificate**](/windows/win32/Wincrypt/nf-wincrypt-certcomparecertificate?branch=master).
+-   Deleting a certificate from a store using [**CertDeleteCertificateFromStore**](/windows/win32/Wincrypt/nf-wincrypt-certdeletecertificatefromstore?branch=master).
+-   Closing a certificate store using [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master).
 
 This example gets the name of a system certificate store from the user, opens that store, and goes through the certificates in that store. For each certificate, the name of the certificate's subject is displayed and the user is given an option to delete that certificate.
 

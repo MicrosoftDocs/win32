@@ -1,14 +1,19 @@
 ---
-Description: 'How to get a volume GUID path for each local volume associated with a drive letter that is currently in use on the computer.'
-ms.assetid: 'f6590a46-2e09-472c-8231-bb24c9b0b5f6'
+Description: How to get a volume GUID path for each local volume associated with a drive letter that is currently in use on the computer.
+ms.assetid: f6590a46-2e09-472c-8231-bb24c9b0b5f6
 title: Enumerating Volume GUID Paths
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Volume GUID Paths
 
 The code example in this topic shows you how to obtain a volume **GUID** path for each local volume associated with a drive letter that is currently in use on the computer.
 
-The code example uses the [**GetVolumeNameForVolumeMountPoint**](getvolumenameforvolumemountpoint.md) function.
+The code example uses the [**GetVolumeNameForVolumeMountPoint**](/windows/win32/FileAPI/nf-fileapi-getvolumenameforvolumemountpointw?branch=master) function.
 
 
 ```C++

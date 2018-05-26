@@ -1,8 +1,9 @@
 ---
 title: CdromRipMediaError Event of the AxWindowsMediaPlayer Object
 description: The CdromRipMediaError event occurs when an error happens while ripping an individual track from a CD.
-ms.assetid: '542d0184-d893-4b98-903e-339909276fd6'
-keywords: ["CdromRipMediaError Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 542d0184-d893-4b98-903e-339909276fd6
+keywords:
+- CdromRipMediaError Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CdromRipMediaError Event of the AxWindowsMediaPlayer Object
@@ -44,7 +50,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cdr
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -71,9 +77,9 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cdr
 [**IWMPMedia Interface (VB and C#)**](iwmpmedia--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

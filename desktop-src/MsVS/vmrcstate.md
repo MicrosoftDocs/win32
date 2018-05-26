@@ -1,8 +1,9 @@
 ---
 title: VMRCState enumeration
 description: The VMRCState enumeration specifies the state of the IVMRCClientControl object.
-ms.assetid: '14d61129-a8cc-40ea-b236-b43c4957918f'
-keywords: ["VMRCState enumeration Virtual Server"]
+ms.assetid: 14d61129-a8cc-40ea-b236-b43c4957918f
+keywords:
+- VMRCState enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VMRCClientControl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMRCState enumeration
@@ -22,11 +28,11 @@ The **VMRCState** enumeration specifies the state of the [**IVMRCClientControl**
 
 ```C++
 typedef enum  { 
-  vmrcState_NotConnected      = 0,
-  vmrcState_Connecting        = 1,
-  vmrcState_Authenticating    = 2,
-  vmrcState_Connected         = 3,
-  vmrcState_ConnectionFailed  = 4
+  vmrcState_NotConnected      = 0,
+  vmrcState_Connecting        = 1,
+  vmrcState_Authenticating    = 2,
+  vmrcState_Connected         = 3,
+  vmrcState_ConnectionFailed  = 4
 } VMRCState;
 ```
 
@@ -77,15 +83,15 @@ The client control failed to connect to the VMRC server.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

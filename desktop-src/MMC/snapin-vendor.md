@@ -4,11 +4,16 @@ description: The Vendor property returns the name of the snap-in vendor if avail
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a0808409-1837-40e3-9131-90f00a976688'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a0808409-1837-40e3-9131-90f00a976688
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Vendor property MMC", "Vendor property MMC , SnapIn object", "SnapIn object MMC , Vendor property", "Vendor property MMC , SnapIn interface", "SnapIn interface MMC , Vendor property"]
+keywords:
+- Vendor property MMC
+- Vendor property MMC , SnapIn object
+- SnapIn object MMC , Vendor property
+- Vendor property MMC , SnapIn interface
+- SnapIn interface MMC , Vendor property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SnapIn::Vendor property
@@ -55,8 +63,8 @@ MsgBox ("Vendor: " & strVndr)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -77,9 +85,9 @@ MsgBox ("Vendor: " & strVndr)
 [**SnapIn.Version**](snapin-version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

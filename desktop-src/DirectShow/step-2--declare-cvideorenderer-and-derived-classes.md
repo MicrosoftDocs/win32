@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is step 2 of the tutorial Audio/Video Playback in DirectShow.'
-ms.assetid: '61106781-d10c-41a8-993e-121e0a1e4c4d'
-title: 'Step 2: Declare CVideoRenderer and Derived Classes'
+Description: This topic is step 2 of the tutorial Audio/Video Playback in DirectShow.
+ms.assetid: 61106781-d10c-41a8-993e-121e0a1e4c4d
+title: Step 2 Declare CVideoRenderer and Derived Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 2: Declare CVideoRenderer and Derived Classes
@@ -53,7 +58,7 @@ Next, declare a derived class to wrap each of the three video renderers: the EVR
 
 ### CEVR Class
 
-The `CEVR` class manages the EVR. It contains a pointer to the [**IBaseFilter**](ibasefilter.md) and [**IMFVideoDisplayControl**](mf.imfvideodisplaycontrol) interfaces of the EVR.
+The `CEVR` class manages the EVR. It contains a pointer to the [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) and [**IMFVideoDisplayControl**](mf.imfvideodisplaycontrol) interfaces of the EVR.
 
 
 ```C++
@@ -80,7 +85,7 @@ public:
 
 ### CVMR9 Class
 
-The `CVMR9` class manages the VMR-9. It contains a pointer to the [**IVMRWindowlessControl9**](ivmrwindowlesscontrol9.md) interface.
+The `CVMR9` class manages the VMR-9. It contains a pointer to the [**IVMRWindowlessControl9**](/windows/win32/Vmr9/nn-vmr9-ivmrwindowlesscontrol9?branch=master) interface.
 
 
 ```C++
@@ -106,7 +111,7 @@ public:
 
 ### CVMR7 Class
 
-The `CVMR7` class manages the VMR-7. It contains a pointer to the [**IVMRWindowlessControl**](ivmrwindowlesscontrol.md) interface.
+The `CVMR7` class manages the VMR-7. It contains a pointer to the [**IVMRWindowlessControl**](/windows/win32/Strmif/nn-strmif-ivmrwindowlesscontrol?branch=master) interface.
 
 
 ```C++

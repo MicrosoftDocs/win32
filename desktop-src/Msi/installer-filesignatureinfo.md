@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FileSignatureInfo method of the Installer object takes the path to a file and returns a SAFEARRAY of bytes that represent the hash or the encoded certificate.'
-ms.assetid: 'ab34bc46-8a8f-4b48-a1d1-d824ff36a9cc'
-title: 'Installer.FileSignatureInfo method'
+---
+Description: The FileSignatureInfo method of the Installer object takes the path to a file and returns a SAFEARRAY of bytes that represent the hash or the encoded certificate.
+ms.assetid: ab34bc46-8a8f-4b48-a1d1-d824ff36a9cc
+title: Installer.FileSignatureInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.FileSignatureInfo method
@@ -101,7 +106,7 @@ To author a fully verified signed installation by using automation, use the **Fi
 [Digital Signatures and Windows Installer](digital-signatures-and-windows-installer.md)
 </dt> <dt>
 
-[**MsiGetFileSignatureInformation**](msigetfilesignatureinformation.md)
+[**MsiGetFileSignatureInformation**](/windows/win32/Msi/nf-msi-msigetfilesignatureinformationa?branch=master)
 </dt> </dl>
 
  

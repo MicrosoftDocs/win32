@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Receive property is a Boolean value that indicates whether a specified fax port is enabled to receive faxes.'
-ms.assetid: '17d98cd9-b305-495b-a0ae-5a92d0b71169'
-title: 'FaxPort.Receive property'
+---
+Description: The Receive property is a Boolean value that indicates whether a specified fax port is enabled to receive faxes.
+ms.assetid: 17d98cd9-b305-495b-a0ae-5a92d0b71169
+title: FaxPort.Receive property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPort.Receive property
@@ -58,10 +63,10 @@ The **Receive** property returns a value of TRUE if the fax port is enabled to r
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> </dl>
 
  

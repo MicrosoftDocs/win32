@@ -1,7 +1,12 @@
 ---
 title: DPI compensation effect
 description: Use the DPI compensation effect to automatically adjust an input bitmap to match the DPI of the context. This is useful for situations where a bitmap is created or loaded at a different DPI than the screen.
-ms.assetid: 'EA8AD89B-A710-468F-A6F3-474DA29586F1'
+ms.assetid: EA8AD89B-A710-468F-A6F3-474DA29586F1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DPI compensation effect
@@ -22,7 +27,7 @@ The CLSID for this effect is CLSID\_D2D1DpiCompensation.
 
 
 
- 
+ 
 
 ## Interpolation modes
 
@@ -39,12 +44,12 @@ The CLSID for this effect is CLSID\_D2D1DpiCompensation.
 
 
 
- 
+ 
 
 > [!Note]  
 > If you don't select a mode, the effect defaults to D2D1\_DPICOMPENSTION\_INTERPOLATION\_MODE\_LINEAR.
 
- 
+ 
 
 ## Border modes
 
@@ -57,7 +62,7 @@ The CLSID for this effect is CLSID\_D2D1DpiCompensation.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,25 +70,25 @@ The CLSID for this effect is CLSID\_D2D1DpiCompensation.
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: Supports interfaces and structures that you can use to create custo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4f4e8883-9f89-47c2-919f-44f4c6e44591'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4f4e8883-9f89-47c2-919f-44f4c6e44591
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , virtualization API reference"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , virtualization API reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Virtualization API reference

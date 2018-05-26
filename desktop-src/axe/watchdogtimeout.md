@@ -1,14 +1,20 @@
 ---
 title: WatchDogTimeOut element
 description: Describes a time limit for when a solution should cancel or terminate an assessment.
-ms.assetid: 'DDB832DC-CFFC-41F1-B663-F85189E52493'
-keywords: ["WatchDogTimeOut element Access Execution Engine"]
+ms.assetid: DDB832DC-CFFC-41F1-B663-F85189E52493
+keywords:
+- WatchDogTimeOut element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - WatchDogTimeOut
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WatchDogTimeOut element
@@ -70,9 +76,9 @@ Note that neither the framework, Assessment Launcher or AXE.EXE utilize this val
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

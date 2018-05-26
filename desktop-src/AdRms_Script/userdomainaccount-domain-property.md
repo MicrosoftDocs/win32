@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the account domain name.'
+Description: Specifies or retrieves the account domain name.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '32ecef91-1d97-4f12-8dc8-8c6018085edb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 32ecef91-1d97-4f12-8dc8-8c6018085edb
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'UserDomainAccount.Domain property'
+title: UserDomainAccount.Domain property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserDomainAccount.Domain property
@@ -99,7 +102,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -111,9 +114,9 @@ END FUNCTION
 [**UserDomainAccount**](userdomainaccount-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

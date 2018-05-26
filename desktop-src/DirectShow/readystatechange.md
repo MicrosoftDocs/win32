@@ -1,7 +1,12 @@
 ---
-Description: 'The ReadyStateChange event is sent when the ReadyState property of the MSWebDVD control has changed.'
-ms.assetid: '814a09e1-2e85-4ea3-9135-8377dc2acf64'
+Description: The ReadyStateChange event is sent when the ReadyState property of the MSWebDVD control has changed.
+ms.assetid: 814a09e1-2e85-4ea3-9135-8377dc2acf64
 title: ReadyStateChange
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadyStateChange

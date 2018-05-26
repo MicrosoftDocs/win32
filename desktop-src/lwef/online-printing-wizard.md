@@ -1,8 +1,15 @@
 ---
 title: Online Printing Wizard
 description: The Windows Vista Online Printing Wizard helps users order prints of photos from participating online printing retailers.
-ms.assetid: '1e73a5d0-2ca8-4eca-846a-bd69eee257cb'
-keywords: ["Online Printing Wizard", "icons,Online Printing Wizard"]
+ms.assetid: 1e73a5d0-2ca8-4eca-846a-bd69eee257cb
+keywords:
+- Online Printing Wizard
+- icons,Online Printing Wizard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Online Printing Wizard

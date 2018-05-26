@@ -1,7 +1,12 @@
 ---
-Description: 'Places a C or IDL include statement in the generated code.'
-ms.assetid: '7a7ffd54-09e9-412d-a637-5dc27597b46e'
+Description: Places a C or IDL include statement in the generated code.
+ms.assetid: 7a7ffd54-09e9-412d-a637-5dc27597b46e
 title: literalInclude element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # literalInclude element
@@ -121,14 +126,14 @@ import wsdclient.idl;
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Saves analysis results for the specified strokes associated with an IInkAnalyzer.'
-ms.assetid: '6ff29b95-6c76-4e3d-b4c0-5e7cb6a9ddf9'
-title: 'IInkAnalyzer::SaveResultsForStrokes method'
+Description: Saves analysis results for the specified strokes associated with an IInkAnalyzer.
+ms.assetid: 6ff29b95-6c76-4e3d-b4c0-5e7cb6a9ddf9
+title: IInkAnalyzerSaveResultsForStrokes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::SaveResultsForStrokes method
@@ -13,10 +18,10 @@ Saves analysis results for the specified strokes associated with an [**IInkAnaly
 
 ```C++
 HRESULT SaveResultsForStrokes(
-  [in]          ULONG ulStrokeIdsCount,
-  [in]          LONG  *plStrokeIds,
-  [in, out]     ULONG *pulSerializedDataSize,
-  [out, retval] BYTE  **ppbSerializedData
+  [in]          ULONG ulStrokeIdsCount,
+  [in]          LONG  *plStrokeIds,
+  [in, out]     ULONG *pulSerializedDataSize,
+  [out, retval] BYTE  **ppbSerializedData
 );
 ```
 
@@ -63,7 +68,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) on \**ppbSerializedData* when you no longer need the information.
 
- 
+ 
 
 This method saves the current analysis results for the specified strokes. This method saves the ink leaf [**IContextNode**](icontextnode.md) objects containing the strokes and all of the ancestors of those context nodes. This method does not save any stroke data or analysis hint nodes. It is the responsibility of your application to synchronize any analysis results and corresponding stroke data, if it persists.
 
@@ -75,7 +80,7 @@ This method returns an error code when an [**IContextNode**](icontextnode.md) ob
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -104,9 +109,9 @@ This method returns an error code when an [**IContextNode**](icontextnode.md) ob
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

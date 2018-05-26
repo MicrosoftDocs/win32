@@ -1,14 +1,20 @@
 ---
 title: DROPDOWNPLAYLIST
 description: This is a predefined PLAYLIST element with the following default values.
-ms.assetid: '5ac2ed28-dc48-4ced-9426-a0681e089c58'
-keywords: ["DROPDOWNPLAYLIST Windows Media Player"]
+ms.assetid: 5ac2ed28-dc48-4ced-9426-a0681e089c58
+keywords:
+- DROPDOWNPLAYLIST Windows Media Player
 topic_type:
 - apiref
 api_name:
 - DROPDOWNPLAYLIST
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DROPDOWNPLAYLIST
@@ -40,9 +46,9 @@ This will create a simple dropdown **PLAYLIST** with no items displayed. All pro
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

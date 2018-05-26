@@ -1,7 +1,12 @@
 ---
 title: The Component Object Model
 description: The Component Object Model
-ms.assetid: 'f5f66603-466c-496b-be29-89a8ed9361dd'
+ms.assetid: f5f66603-466c-496b-be29-89a8ed9361dd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Component Object Model

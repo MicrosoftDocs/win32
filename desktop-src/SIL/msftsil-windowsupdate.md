@@ -4,13 +4,15 @@ description: The MsftSil\_WindowsUpdate WMI class retrieves a list of the Quick 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b215c053-13e9-4aff-baf6-3e74303fd031'
-ms.prod: 'windows-server-dev'
+ms.assetid: b215c053-13e9-4aff-baf6-3e74303fd031
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MsftSil_WindowsUpdate class Software Inventory Logging", "MsftSil_WindowsUpdate class Software Inventory Logging , described"]
+keywords:
+- MsftSil_WindowsUpdate class Software Inventory Logging
+- MsftSil_WindowsUpdate class Software Inventory Logging , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SILProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MsftSil\_WindowsUpdate class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("silprovider"), AMENDMENT]
 class MsftSil_WindowsUpdate : MsftSil_Data
 {
-  string   ID;
+  string   ID;
   datetime InstallDate;
 };
 ```
@@ -88,7 +93,7 @@ Gets the date and time that the update was installed.
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                          |
 | Namespace<br/>                | Root\\InventoryLogging<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>SILProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SILProvider.dll</dt> </dl> |
@@ -105,9 +110,9 @@ Gets the date and time that the update was installed.
 [Software Inventory Logging WMI Data Provider Classes](software-inventory-logging-wmi-data-provider-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

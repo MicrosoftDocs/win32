@@ -1,7 +1,12 @@
 ---
-Description: 'The AddAfter method inserts a list after the specified position.'
-ms.assetid: 'c2a2e599-0a83-4eb0-aceb-c483f153ba7e'
-title: 'CBaseList.AddAfter method'
+Description: The AddAfter method inserts a list after the specified position.
+ms.assetid: c2a2e599-0a83-4eb0-aceb-c483f153ba7e
+title: CBaseList.AddAfter method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.AddAfter method
@@ -13,8 +18,8 @@ The `AddAfter` method inserts a list after the specified position.
 
 ```C++
 BOOL AddAfter(
-   POSITION  pos,
-   CBaseList *pList
+   POSITION  pos,
+   CBaseList *pList
 );
 ```
 
@@ -64,9 +69,9 @@ Existing position indicators, including the one specified in the *pos* parameter
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

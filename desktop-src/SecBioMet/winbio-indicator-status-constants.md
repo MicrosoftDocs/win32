@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_INDICATOR\_STATUS Constants
 description: Set an indicator light.
-ms.assetid: '1e00ff9d-6693-4763-8ac3-b42d2a3e987d'
+ms.assetid: 1e00ff9d-6693-4763-8ac3-b42d2a3e987d
 topic_type:
 - apiref
 api_name:
@@ -11,15 +11,20 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_INDICATOR\_STATUS Constants
 
 The following values can be used to set an indicator light. By default, sensors will not have a light on, but applications can use these values to enable or disable indicator lights. The **WINBIO\_SENSOR\_STATUS** value provides more detail about the status of an indicator light that is on. For more information, see the following functions:
 
--   [**SensorAdapterSetIndicatorStatus**](sensoradaptersetindicatorstatus.md)
--   [**SensorAdapterGetIndicatorStatus**](sensoradaptergetindicatorstatus.md)
--   [**SensorAdapterQueryStatus**](sensoradapterquerystatus.md)
+-   [**SensorAdapterSetIndicatorStatus**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_sensor_set_indicator_status_fn?branch=master)
+-   [**SensorAdapterGetIndicatorStatus**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_sensor_get_indicator_status_fn?branch=master)
+-   [**SensorAdapterQueryStatus**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_sensor_query_status_fn?branch=master)
 
 
 
@@ -36,8 +41,8 @@ The following values can be used to set an indicator light. By default, sensors 
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -49,9 +54,9 @@ The following values can be used to set an indicator light. By default, sensors 
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

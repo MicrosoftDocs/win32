@@ -1,8 +1,21 @@
 ---
 title: glTexEnv Functions
 description: These functions set a texture environment parameter.
-ms.assetid: '7a130cbe-e34b-4381-b6f2-53e2b9234067'
-keywords: ["OpenGL,glTexEnv functions", "OpenGL reference,glTexEnv functions", "reference for OpenGL,glTexEnv functions", "glTexEnv functions", "OpenGL,texture functions", "OpenGL reference,texture functions", "reference for OpenGL,texture functions", "texture functions"]
+ms.assetid: 7a130cbe-e34b-4381-b6f2-53e2b9234067
+keywords:
+- OpenGL,glTexEnv functions
+- OpenGL reference,glTexEnv functions
+- reference for OpenGL,glTexEnv functions
+- glTexEnv functions
+- OpenGL,texture functions
+- OpenGL reference,texture functions
+- reference for OpenGL,texture functions
+- texture functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glTexEnv Functions

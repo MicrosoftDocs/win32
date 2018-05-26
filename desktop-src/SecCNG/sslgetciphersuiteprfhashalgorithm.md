@@ -1,7 +1,12 @@
 ---
-Description: 'Returns the Cryptography API: Next Generation (CNG) Algorithm Identifier of the hashing algorithm that is used for the Transport Layer Security protocol (TLS) pseudo-random function (PRF) for the input protocol, cipher suite, and key type.'
-ms.assetid: '8d20b2da-390e-458e-b122-f5ef3722ad87'
+Description: Returns the Cryptography API Next Generation (CNG) Algorithm Identifier of the hashing algorithm that is used for the Transport Layer Security protocol (TLS) pseudo-random function (PRF) for the input protocol, cipher suite, and key type.
+ms.assetid: 8d20b2da-390e-458e-b122-f5ef3722ad87
 title: SslGetCipherSuitePRFHashAlgorithm function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslGetCipherSuitePRFHashAlgorithm function
@@ -13,12 +18,12 @@ The **SslGetCipherSuitePRFHashAlgorithm** function returns the Cryptography API:
 
 ```C++
 SECURITY_STATUS WINAPI SslGetCipherSuitePRFHashAlgorithm(
-  _In_  NCRYPT_PROV_HANDLE hSslProvider,
-  _In_  DWORD              dwProtocol,
-  _In_  DWORD              dwCipherSuite,
-  _In_  DWORD              dwKeyType,
-  _Out_ WCHAR              szPRFHash[NCRYPT_SSL_MAX_NAME_SIZE],
-  _In_  DWORD              dwFlags
+  _In_  NCRYPT_PROV_HANDLE hSslProvider,
+  _In_  DWORD              dwProtocol,
+  _In_  DWORD              dwCipherSuite,
+  _In_  DWORD              dwKeyType,
+  _Out_ WCHAR              szPRFHash[NCRYPT_SSL_MAX_NAME_SIZE],
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -89,7 +94,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -101,16 +106,16 @@ This **SslGetCipherSuitePRFHashAlgorithm** function is called for TLS 1.2 or lat
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

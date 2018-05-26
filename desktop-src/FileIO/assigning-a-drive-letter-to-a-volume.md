@@ -1,12 +1,17 @@
 ---
-Description: 'You can assign a drive letter (for example, X:\) to a local volume by using the SetVolumeMountPoint function, provided there is no volume already assigned to that drive letter.'
-ms.assetid: '8c78b2e8-199a-4934-a9c4-6f3913f44efe'
+Description: You can assign a drive letter (for example, X\) to a local volume by using the SetVolumeMountPoint function, provided there is no volume already assigned to that drive letter.
+ms.assetid: 8c78b2e8-199a-4934-a9c4-6f3913f44efe
 title: Assigning a Drive Letter to a Volume
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assigning a Drive Letter to a Volume
 
-You can assign a drive letter (for example, X:\) to a local volume by using the [**SetVolumeMountPoint**](setvolumemountpoint.md) function, provided there is no volume already assigned to that drive letter. If the local volume already has a drive letter. then [**SetVolumeMountPoint**](setvolumemountpoint.md) will fail. To handle this, first delete the drive letter by using the [**DeleteVolumeMountPoint**](deletevolumemountpoint.md) function. For example code, see [Editing Drive Letter Assignments](editing-drive-letter-assignments.md).
+You can assign a drive letter (for example, X:\) to a local volume by using the [**SetVolumeMountPoint**](/windows/win32/WinBase/nf-winbase-setvolumemountpointa?branch=master) function, provided there is no volume already assigned to that drive letter. If the local volume already has a drive letter. then [**SetVolumeMountPoint**](/windows/win32/WinBase/nf-winbase-setvolumemountpointa?branch=master) will fail. To handle this, first delete the drive letter by using the [**DeleteVolumeMountPoint**](/windows/win32/FileAPI/nf-fileapi-deletevolumemountpointw?branch=master) function. For example code, see [Editing Drive Letter Assignments](editing-drive-letter-assignments.md).
 
 The system supports at most one drive letter per volume. Therefore, you cannot have C:\\ and F:\\ represent the same volume.
 

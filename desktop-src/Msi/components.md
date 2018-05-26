@@ -1,7 +1,12 @@
 ---
-Description: 'The Component object represents a unique instance of a component that is available for enumeration.'
-ms.assetid: '3d0791b1-8706-4a80-9938-07481594e408'
+Description: The Component object represents a unique instance of a component that is available for enumeration.
+ms.assetid: 3d0791b1-8706-4a80-9938-07481594e408
 title: Component object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Component object
@@ -30,7 +35,7 @@ The **Component** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,9 +59,9 @@ The **Component** object has these properties.
 [Windows Installer Scripting Examples](windows-installer-scripting-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

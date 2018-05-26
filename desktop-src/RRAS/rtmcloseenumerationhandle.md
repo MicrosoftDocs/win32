@@ -1,8 +1,9 @@
 ---
 title: RtmCloseEnumerationHandle function
 description: The RtmCloseEnumerationHandle terminates a specified enumeration and frees the associated resources.
-ms.assetid: '8daea42f-4304-4749-9894-d37f6ba733da'
-keywords: ["RtmCloseEnumerationHandle function RAS"]
+ms.assetid: 8daea42f-4304-4749-9894-d37f6ba733da
+keywords:
+- RtmCloseEnumerationHandle function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtmCloseEnumerationHandle function
@@ -24,7 +30,7 @@ The **RtmCloseEnumerationHandle** terminates a specified enumeration and frees t
 
 ```C++
 DWORD RtmCloseEnumerationHandle(
-  _In_ HANDLE EnumerationHandle
+  _In_ HANDLE EnumerationHandle
 );
 ```
 
@@ -56,7 +62,7 @@ If the function fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +71,8 @@ If the function fails, the return value is one of the following error codes.
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
-| End of server support<br/>    | Windows Server 2003<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| End of server support<br/>    | Windows Server 2003<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Rtm.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
@@ -89,9 +95,9 @@ If the function fails, the return value is one of the following error codes.
 [**RtmEnumerateGetNextRoute**](rtmenumerategetnextroute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

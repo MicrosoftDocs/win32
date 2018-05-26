@@ -1,8 +1,11 @@
 ---
 title: ID3DX11Effect GetDesc method
 description: Get an effect description.
-ms.assetid: 'ca684786-c813-48d1-acad-e78aafd1c0db'
-keywords: ["GetDesc method Direct3D 11", "GetDesc method Direct3D 11 , ID3DX11Effect interface", "ID3DX11Effect interface Direct3D 11 , GetDesc method"]
+ms.assetid: ca684786-c813-48d1-acad-e78aafd1c0db
+keywords:
+- GetDesc method Direct3D 11
+- GetDesc method Direct3D 11 , ID3DX11Effect interface
+- ID3DX11Effect interface Direct3D 11 , GetDesc method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11Effect::GetDesc method
@@ -23,7 +31,7 @@ Get an effect description.
 
 ```C++
 HRESULT GetDesc(
-   D3DX11_EFFECT_DESC *pDesc
+   D3DX11_EFFECT_DESC *pDesc
 );
 ```
 
@@ -55,7 +63,7 @@ An effect description contains basic information about an effect such as the tec
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ An effect description contains basic information about an effect such as the tec
 [ID3DX11Effect](id3dx11effect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

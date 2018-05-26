@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a virtual Fibre Channel switch.'
-ms.assetid: '4300747b-3ffc-4caf-8f0b-76cab6d2294e'
-title: 'Msvm\_VirtualFcSwitch class'
+Description: Represents a virtual Fibre Channel switch.
+ms.assetid: 4300747b-3ffc-4caf-8f0b-76cab6d2294e
+title: Msvm\_VirtualFcSwitch class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualFcSwitch class
@@ -16,38 +21,38 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualFcSwitch : CIM_ComputerSystem
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   CreationClassName;
-  string   Name;
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   Roles[];
-  string   NameFormat;
-  string   OtherIdentifyingInfo[];
-  string   IdentifyingDescriptions[];
-  uint16   Dedicated[];
-  string   OtherDedicatedDescriptions[];
-  uint16   ResetCapability;
-  uint16   PowerManagementCapabilities[];
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   CreationClassName;
+  string   Name;
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   Roles[];
+  string   NameFormat;
+  string   OtherIdentifyingInfo[];
+  string   IdentifyingDescriptions[];
+  uint16   Dedicated[];
+  string   OtherDedicatedDescriptions[];
+  uint16   ResetCapability;
+  uint16   PowerManagementCapabilities[];
 };
 ```
 
@@ -71,7 +76,7 @@ The **Msvm\_VirtualFcSwitch** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -328,7 +333,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.mic
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -696,17 +701,17 @@ Indicates the target state to which the instance is transitioning. This property
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

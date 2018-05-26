@@ -4,13 +4,15 @@ description: This association defines settings that can be used to create or mod
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd0c4679b-2418-4514-810d-ae7d6e597519'
-ms.prod: 'windows-server-dev'
+ms.assetid: d0c4679b-2418-4514-810d-ae7d6e597519
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_SettingAssociatedToCapabilities class iSCSI Software Target API", "CIM_SettingAssociatedToCapabilities class iSCSI Software Target API , described"]
+keywords:
+- CIM_SettingAssociatedToCapabilities class iSCSI Software Target API
+- CIM_SettingAssociatedToCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SettingAssociatedToCapabilities class
@@ -39,8 +44,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_SettingAssociatedToCapabilities : CIM_Dependency
 {
   CIM_Capabilities REF Antecedent;
-  CIM_SettingData  REF Dependent;
-  boolean              DefaultSetting = FALSE;
+  CIM_SettingData  REF Dependent;
+  boolean              DefaultSetting = FALSE;
 };
 ```
 
@@ -111,7 +116,7 @@ The Setting.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -125,9 +130,9 @@ The Setting.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

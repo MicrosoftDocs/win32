@@ -1,12 +1,17 @@
-﻿---
-Description: 'The get\_ItemById property returns a FaxDevice object from the FaxDevices collection, using its device ID.'
-ms.assetid: 'b9629ce2-03ea-4eb1-8e35-1d725658508d'
-title: 'FaxDevices.ItemById property'
+---
+Description: The get\_ItemById property returns a FaxDevice object from the FaxDevices collection, using its device ID.
+ms.assetid: b9629ce2-03ea-4eb1-8e35-1d725658508d
+title: FaxDevices.ItemById property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevices.ItemById property
 
-The [**get\_ItemById**](-mfax-faxdevices-itembyid.md) property returns a [**FaxDevice**](-mfax-faxdevice.md) object from the [**FaxDevices**](-mfax-faxdevices.md) collection, using its device ID.
+The [**get\_ItemById**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxdevices-get_itembyid?branch=master) property returns a [**FaxDevice**](-mfax-faxdevice.md) object from the [**FaxDevices**](-mfax-faxdevices.md) collection, using its device ID.
 
 This property is read-only.
 
@@ -23,7 +28,7 @@ Property ItemById( _
 
 ## Property value
 
-A variable of type [**IFaxDevice**](-mfax-faxdevice-cpp.md) that receives a [**FaxDevice**](-mfax-faxdevice.md) object.
+A variable of type [**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master) that receives a [**FaxDevice**](-mfax-faxdevice.md) object.
 
 ## Remarks
 
@@ -52,7 +57,7 @@ To retrieve an item from the [**FaxDevices**](-mfax-faxdevices.md) collection us
 [**FaxDevices**](-mfax-faxdevices.md)
 </dt> <dt>
 
-[**IFaxDevices**](-mfax-faxdevices-cpp.md)
+[**IFaxDevices**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevices?branch=master)
 </dt> </dl>
 
  

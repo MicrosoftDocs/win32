@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PKEY\_Device\_DeviceDesc property contains the device description of the endpoint device (for example, &\#0034;Speakers&\#0034;).'
-ms.assetid: '23715497-a74d-4dab-aade-c7779fe80aa6'
-title: 'PKEY\_Device\_DeviceDesc'
+---
+Description: The PKEY\_Device\_DeviceDesc property contains the device description of the endpoint device (for example, &\#0034;Speakers&\#0034;).
+ms.assetid: 23715497-a74d-4dab-aade-c7779fe80aa6
+title: PKEY\_Device\_DeviceDesc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKEY\_Device\_DeviceDesc

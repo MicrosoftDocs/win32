@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemRefreshableItem.Refresher property represents the parent SWbemRefresher object which contains the SWbemRefreshableItem object.SWbemRefresher object which contains the SWbemRefreshableItem object.'
+Description: The SWbemRefreshableItem.Refresher property represents the parent SWbemRefresher object which contains the SWbemRefreshableItem object.SWbemRefresher object which contains the SWbemRefreshableItem object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '238722e0-63e6-4907-993e-67693746d487'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 238722e0-63e6-4907-993e-67693746d487
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemRefreshableItem.Refresher property'
+title: SWbemRefreshableItem.Refresher property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemRefreshableItem.Refresher property
@@ -35,8 +38,8 @@ SWbemRefreshableItem.Refresher As Object
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -55,9 +58,9 @@ SWbemRefreshableItem.Refresher As Object
 [**SWbemRefreshableItem**](swbemrefresher.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

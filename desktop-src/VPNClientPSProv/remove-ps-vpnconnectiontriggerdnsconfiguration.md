@@ -2,11 +2,14 @@
 title: Remove method of the PS\_VpnConnectionTriggerDnsConfiguration class
 description: Removes DNS suffixes and the corresponding DNS servers from the configuration.
 audience: developer
-ms.assetid: 'B8B87ABB-F4F5-4700-81AE-99488A95E576'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: B8B87ABB-F4F5-4700-81AE-99488A95E576
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_VpnConnectionTriggerDnsConfiguration class", "PS_VpnConnectionTriggerDnsConfiguration class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_VpnConnectionTriggerDnsConfiguration class
+- PS_VpnConnectionTriggerDnsConfiguration class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_VpnConnectionTriggerDnsConfiguration class
@@ -26,11 +32,11 @@ Removes DNS suffixes and the corresponding DNS servers from the configuration.
 
 ```mof
 uint32 Remove(
-  [in]  string                               ConnectionName,
-  [in]  string                               DnsSuffix[],
-  [in]  boolean                              PassThru,
-  [in]  boolean                              Force,
-  [out] VpnConnectionTriggerDnsConfiguration cmdletOutput[]
+  [in]  string                               ConnectionName,
+  [in]  string                               DnsSuffix[],
+  [in]  boolean                              PassThru,
+  [in]  boolean                              Force,
+  [out] VpnConnectionTriggerDnsConfiguration cmdletOutput[]
 );
 ```
 
@@ -81,8 +87,8 @@ When this method returns, contains the [**VpnConnectionTriggerDnsConfiguration**
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -96,9 +102,9 @@ When this method returns, contains the [**VpnConnectionTriggerDnsConfiguration**
 [**PS\_VpnConnectionTriggerDnsConfiguration**](ps-vpnconnectiontriggerdnsconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

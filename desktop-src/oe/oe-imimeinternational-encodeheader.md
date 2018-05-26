@@ -1,8 +1,11 @@
 ---
 title: IMimeInternational EncodeHeader method
 description: Encodes a message header string.
-ms.assetid: '2c946961-cd2b-4fcc-857a-6318653af8bf'
-keywords: ["EncodeHeader method Windows Mail (formerly Outlook Express)", "EncodeHeader method Windows Mail (formerly Outlook Express) , IMimeInternational interface", "IMimeInternational interface Windows Mail (formerly Outlook Express) , EncodeHeader method"]
+ms.assetid: 2c946961-cd2b-4fcc-857a-6318653af8bf
+keywords:
+- EncodeHeader method Windows Mail (formerly Outlook Express)
+- EncodeHeader method Windows Mail (formerly Outlook Express) , IMimeInternational interface
+- IMimeInternational interface Windows Mail (formerly Outlook Express) , EncodeHeader method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeInternational::EncodeHeader method
@@ -22,10 +30,10 @@ Encodes a message header string.
 
 ```C++
 HRESULT EncodeHeader(
-  [in]      HCHARSET      hCharset,
-  [in]      LPPROPVARIANT pData,
-  [out]     LPSTR         *ppszEncoded,
-  [in, out] LPRFC1522INFO pRfc1522Info
+  [in]      HCHARSET      hCharset,
+  [in]      LPPROPVARIANT pData,
+  [out]     LPSTR         *ppszEncoded,
+  [in, out] LPRFC1522INFO pRfc1522Info
 );
 ```
 
@@ -89,7 +97,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -115,8 +123,8 @@ When the header is going to be encoded into UTF-7 or UTF-8, it is always encoded
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -124,9 +132,9 @@ When the header is going to be encoded into UTF-7 or UTF-8, it is always encoded
 
 
 
- 
+ 
 
- 
+ 
 
 
 

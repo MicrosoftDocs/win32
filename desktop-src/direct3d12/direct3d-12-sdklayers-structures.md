@@ -1,7 +1,12 @@
 ---
 title: Debug Layer Structures
 description: The following structures are declared in d3d12sdklayers.h.
-ms.assetid: 'FE8796A7-98D1-4333-8755-2A47567560B3'
+ms.assetid: FE8796A7-98D1-4333-8755-2A47567560B3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debug Layer Structures
@@ -14,16 +19,16 @@ The following structures are declared in d3d12sdklayers.h.
 
 | Topic                                                                                                                                      | Description                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| [**D3D12\_DEBUG\_COMMAND\_LIST\_GPU\_BASED\_VALIDATION\_SETTINGS**](d3d12-debug-command-list-gpu-based-validation-settings.md)<br/> | Describes per-command-list settings used by GPU-Based Validation. <br/>                                                        |
-| [**D3D12\_DEBUG\_DEVICE\_GPU\_BASED\_VALIDATION\_SETTINGS**](d3d12-debug-device-gpu-based-validation-settings.md)<br/>              | Describes settings used by GPU-Based Validation. <br/>                                                                         |
-| [**D3D12\_DEBUG\_DEVICE\_GPU\_SLOWDOWN\_PERFORMANCE\_FACTOR**](d3d12-debug-device-gpu-slowdown-performance-factor.md)<br/>          | Describes the amount of artificial slowdown inserted by the debug device to simulate lower-performance graphics adapters.<br/> |
-| [**D3D12\_INFO\_QUEUE\_FILTER**](d3d12-info-queue-filter.md)<br/>                                                                   | Debug message filter; contains a lists of message types to allow or deny.<br/>                                                 |
-| [**D3D12\_INFO\_QUEUE\_FILTER\_DESC**](d3d12-info-queue-filter-desc.md)<br/>                                                        | Allow or deny certain types of messages to pass through a filter.<br/>                                                         |
-| [**D3D12\_MESSAGE**](d3d12-message.md)<br/>                                                                                         | A debug message in the Information Queue.<br/>                                                                                 |
+| [**D3D12\_DEBUG\_COMMAND\_LIST\_GPU\_BASED\_VALIDATION\_SETTINGS**](/windows/win32/d3d12sdklayers/ns-d3d12sdklayers-d3d12_debug_command_list_gpu_based_validation_settings?branch=master)<br/> | Describes per-command-list settings used by GPU-Based Validation. <br/>                                                        |
+| [**D3D12\_DEBUG\_DEVICE\_GPU\_BASED\_VALIDATION\_SETTINGS**](/windows/win32/d3d12sdklayers/ns-d3d12sdklayers-d3d12_debug_device_gpu_based_validation_settings?branch=master)<br/>              | Describes settings used by GPU-Based Validation. <br/>                                                                         |
+| [**D3D12\_DEBUG\_DEVICE\_GPU\_SLOWDOWN\_PERFORMANCE\_FACTOR**](/windows/win32/d3d12sdklayers/ns-d3d12sdklayers-d3d12_debug_device_gpu_slowdown_performance_factor?branch=master)<br/>          | Describes the amount of artificial slowdown inserted by the debug device to simulate lower-performance graphics adapters.<br/> |
+| [**D3D12\_INFO\_QUEUE\_FILTER**](/windows/win32/d3d12sdklayers/ns-d3d12sdklayers-d3d12_info_queue_filter?branch=master)<br/>                                                                   | Debug message filter; contains a lists of message types to allow or deny.<br/>                                                 |
+| [**D3D12\_INFO\_QUEUE\_FILTER\_DESC**](/windows/win32/d3d12sdklayers/ns-d3d12sdklayers-d3d12_info_queue_filter_desc?branch=master)<br/>                                                        | Allow or deny certain types of messages to pass through a filter.<br/>                                                         |
+| [**D3D12\_MESSAGE**](/windows/win32/d3d12sdklayers/ns-d3d12sdklayers-d3d12_message?branch=master)<br/>                                                                                         | A debug message in the Information Queue.<br/>                                                                                 |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -38,9 +43,9 @@ The following structures are declared in d3d12sdklayers.h.
 [Direct3D 12 Reference](direct3d-12-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

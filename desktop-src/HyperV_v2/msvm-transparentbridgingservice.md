@@ -1,7 +1,12 @@
 ---
-Description: 'Serves as a placeholder for the service inside the switch that learns MAC addresses and serves as a bridge between the Msvm\_VirtualEthernetSwitch and Msvm\_DynamicForwardingEntry classes.'
-ms.assetid: 'E617DBC3-F5DD-4875-B3CC-E120A2218EBE'
-title: 'Msvm\_TransparentBridgingService class'
+Description: Serves as a placeholder for the service inside the switch that learns MAC addresses and serves as a bridge between the Msvm\_VirtualEthernetSwitch and Msvm\_DynamicForwardingEntry classes.
+ms.assetid: E617DBC3-F5DD-4875-B3CC-E120A2218EBE
+title: Msvm\_TransparentBridgingService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_TransparentBridgingService class
@@ -16,42 +21,42 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_TransparentBridgingService : CIM_TransparentBridgingService
 {
-  string   InstanceID;
-  string   Caption = "Virtual Switch Transparent Bridging Service";
-  string   Description = "Microsoft Virtual Switch Transparent Bridging Service";
-  string   ElementName;
+  string   InstanceID;
+  string   Caption = "Virtual Switch Transparent Bridging Service";
+  string   Description = "Microsoft Virtual Switch Transparent Bridging Service";
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = "OK";
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = "OK";
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_TransparentBridgingService";
-  string   Name;
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   StartMode = "Automatic";
-  boolean  Started = True;
-  string   Keywords[];
-  string   ServiceURL;
-  string   StartupConditions[];
-  string   StartupParameters[];
-  uint16   ProtocolType = 15;
-  string   OtherProtocolType;
-  uint32   AgingTime = 300;
-  uint32   FID = 0;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_TransparentBridgingService";
+  string   Name;
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   StartMode = "Automatic";
+  boolean  Started = True;
+  string   Keywords[];
+  string   ServiceURL;
+  string   StartupConditions[];
+  string   StartupParameters[];
+  uint16   ProtocolType = 15;
+  string   OtherProtocolType;
+  uint32   AgingTime = 300;
+  uint32   FID = 0;
 };
 ```
 
@@ -76,7 +81,7 @@ The **Msvm\_TransparentBridgingService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -693,8 +698,8 @@ Access to the **Msvm\_TransparentBridgingService** class might be restricted by 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -711,9 +716,9 @@ Access to the **Msvm\_TransparentBridgingService** class might be restricted by 
 [**CIM\_TransparentBridgingService**](https://msdn.microsoft.com/library/mt146308)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

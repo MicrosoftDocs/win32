@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the PKEYs associated with PnP-X providers.'
-ms.assetid: 'd297705b-d825-4aa5-8269-ef44bc5875d7'
-title: 'PnP-X Provider PKEYs'
+Description: Defines the PKEYs associated with PnP-X providers.
+ms.assetid: d297705b-d825-4aa5-8269-ef44bc5875d7
+title: PnP-X Provider PKEYs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PnP-X Provider PKEYs
@@ -72,7 +77,7 @@ The unique identifier of the device. For root devices, this property has the sam
 > [!Note]  
 > Devices cannot share an identifier, even if the devices use different protocols. If a device implements more than one protocol, the device must have a unique identifier for each protocol.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -227,7 +232,7 @@ The following table shows the possible device categories.
 
 
 
- 
+ 
 
 PROPVARIANT type VT\_LPWSTR \| VT\_VECTOR.
 
@@ -446,8 +451,8 @@ Specifies whether the device uses HTTPS for metadata exchange and service messag
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>FunctionDiscoveryKeys.h</dt> </dl> |
 
 
@@ -459,9 +464,9 @@ Specifies whether the device uses HTTPS for metadata exchange and service messag
 [**Key Definitions**](key-definitions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

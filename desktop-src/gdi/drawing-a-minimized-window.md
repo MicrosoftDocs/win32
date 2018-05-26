@@ -1,7 +1,12 @@
 ---
-Description: 'You can draw your own minimized windows rather than having the system draw them for you.'
-ms.assetid: '607d987a-5bdc-46bc-bde7-6dc52745ac79'
+Description: You can draw your own minimized windows rather than having the system draw them for you.
+ms.assetid: 607d987a-5bdc-46bc-bde7-6dc52745ac79
 title: Drawing a Minimized Window
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing a Minimized Window

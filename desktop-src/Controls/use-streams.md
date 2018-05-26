@@ -1,12 +1,17 @@
 ---
 title: How to Use Streams
 description: You can use streams to transfer data into or out of a rich edit control. A stream is defined by an EDITSTREAM structure, which specifies a buffer and an application-defined callback function.
-ms.assetid: 'A7ED47F1-968C-4E41-B1E2-4449072D2FC4'
+ms.assetid: A7ED47F1-968C-4E41-B1E2-4449072D2FC4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use Streams
 
-You can use streams to transfer data into or out of a rich edit control. A stream is defined by an [**EDITSTREAM**](editstream.md) structure, which specifies a buffer and an application-defined callback function.
+You can use streams to transfer data into or out of a rich edit control. A stream is defined by an [**EDITSTREAM**](/windows/win32/Richedit/ns-richedit-_editstream?branch=master) structure, which specifies a buffer and an application-defined callback function.
 
 To read data into a rich edit control (that is, stream in the data), use the [**EM\_STREAMIN**](em-streamin.md) message. The control repeatedly calls the application's callback function, which transfers a portion of the data into the buffer each time.
 
@@ -27,7 +32,7 @@ To save the contents of a rich edit control (that is, stream out the data), you 
 
 ### Use a Stream
 
-The following code example shows how to read an .rtf file into a rich edit control. The file handle is passed to the callback function through the **dwCookie** member of the [**EDITSTREAM**](editstream.md) structure.
+The following code example shows how to read an .rtf file into a rich edit control. The file handle is passed to the callback function through the **dwCookie** member of the [**EDITSTREAM**](/windows/win32/Richedit/ns-richedit-_editstream?branch=master) structure.
 
 
 ```C++

@@ -1,12 +1,17 @@
 ---
-Description: 'The PdhVbOpenLog function opens the specified log file for reading and writing. This function calls PdhOpenLog.'
-ms.assetid: 'd9b8d98c-64f2-4319-8ab2-67b776143cf7'
+Description: The PdhVbOpenLog function opens the specified log file for reading and writing. This function calls PdhOpenLog.
+ms.assetid: d9b8d98c-64f2-4319-8ab2-67b776143cf7
 title: PdhVbOpenLog function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PdhVbOpenLog function
 
-The **PdhVbOpenLog** function opens the specified log file for reading and writing. This function calls [**PdhOpenLog**](pdhopenlog.md).
+The **PdhVbOpenLog** function opens the specified log file for reading and writing. This function calls [**PdhOpenLog**](/windows/win32/Pdh/nf-pdh-pdhopenloga?branch=master).
 
 Function PdhVbOpenLog( \_ ByVal szLogFileName As LPCTSTR, \_ ByVal dwAccessFlags As DWORD, \_ ByVal lpdwLogType As LPDWORD, \_ ByVal hQuery As PDH\_HQUERY, \_ ByVal dwMaxSize As DWORD, \_ ByVal szUserCaption As LPCSTR, \_ ByRef phLog As PDH\_HLOG \_ ) As DWORD
 
@@ -38,7 +43,7 @@ Type of access to be specified when the log file is opened. This parameter can b
 
 
 
- 
+ 
 
 The value selected from the previous table can be combined using the OR operator with one of the following create access flags.
 
@@ -53,7 +58,7 @@ The value selected from the previous table can be combined using the OR operator
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -75,7 +80,7 @@ Pointer to a variable that indicates the type of log file to be opened. This par
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -127,7 +132,7 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -143,8 +148,8 @@ Note that log files in the Perfmon format can only be opened for reading.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Library<br/>                  | <dl> <dt>Pdh.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 
@@ -154,7 +159,7 @@ Note that log files in the Perfmon format can only be opened for reading.
 
 <dl> <dt>
 
-[**PdhOpenLog**](pdhopenlog.md)
+[**PdhOpenLog**](/windows/win32/Pdh/nf-pdh-pdhopenloga?branch=master)
 </dt> <dt>
 
 [**PdhVbGetLogFileSize**](pdhvbgetlogfilesize.md)
@@ -163,9 +168,9 @@ Note that log files in the Perfmon format can only be opened for reading.
 [**PdhVbUpdateLog**](pdhvbupdatelog.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

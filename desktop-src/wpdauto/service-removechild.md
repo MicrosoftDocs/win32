@@ -1,14 +1,22 @@
 ---
 title: Service.RemoveChild method
 description: The RemoveChild method deletes a child object from this Service object.
-ms.assetid: '273bdca8-e493-4e67-a838-2f0d657f63fb'
-keywords: ["RemoveChild method WPD Automation", "RemoveChild method WPD Automation , Service object", "Service object WPD Automation , RemoveChild method"]
+ms.assetid: 273bdca8-e493-4e67-a838-2f0d657f63fb
+keywords:
+- RemoveChild method WPD Automation
+- RemoveChild method WPD Automation , Service object
+- Service object WPD Automation , RemoveChild method
 topic_type:
 - apiref
 api_name:
 - Service.RemoveChild
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.RemoveChild method
@@ -78,8 +86,8 @@ contactsService.RemoveChild(someContact, true);
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -93,9 +101,9 @@ contactsService.RemoveChild(someContact, true);
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

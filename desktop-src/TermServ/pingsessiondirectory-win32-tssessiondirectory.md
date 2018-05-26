@@ -1,14 +1,17 @@
 ---
 title: PingSessionDirectory method of the Win32\_TSSessionDirectory class
-description: Checks whether the Remote Desktop Connection Broker (RD Connection Broker) server is available.
+description: Checks whether the Remote Desktop Connection Broker (RD Connection Broker) server is available.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '89243998-5ab2-4ea6-aa31-95ec63289055'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 89243998-5ab2-4ea6-aa31-95ec63289055
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["PingSessionDirectory method Remote Desktop Services", "PingSessionDirectory method Remote Desktop Services , Win32_TSSessionDirectory class", "Win32_TSSessionDirectory class Remote Desktop Services , PingSessionDirectory method"]
+keywords:
+- PingSessionDirectory method Remote Desktop Services
+- PingSessionDirectory method Remote Desktop Services , Win32_TSSessionDirectory class
+- Win32_TSSessionDirectory class Remote Desktop Services , PingSessionDirectory method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PingSessionDirectory method of the Win32\_TSSessionDirectory class
 
-Checks whether the Remote Desktop Connection Broker (RD Connection Broker) server is available.
+Checks whether the Remote Desktop Connection Broker (RD Connection Broker) server is available.
 
 ## Syntax
 
 
 ```mof
 uint32 PingSessionDirectory(
-  [in] string ServerName
+  [in] string ServerName
 );
 ```
 
@@ -43,7 +49,7 @@ uint32 PingSessionDirectory(
 
 Type: **string**
 
-Name of the RD Connection Broker server.
+Name of the RD Connection Broker server.
 
 </dd> </dl>
 
@@ -64,7 +70,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -78,9 +84,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSSessionDirectory**](win32-tssessiondirectory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

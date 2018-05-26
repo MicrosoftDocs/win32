@@ -1,7 +1,12 @@
 ---
-Description: 'The DeleteBookmark method deletes the saved bookmark.'
-ms.assetid: 'f408a65d-3b95-446b-9a48-a98dc920ea30'
+Description: The DeleteBookmark method deletes the saved bookmark.
+ms.assetid: f408a65d-3b95-446b-9a48-a98dc920ea30
 title: DeleteBookmark Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteBookmark Method
@@ -9,7 +14,7 @@ title: DeleteBookmark Method
 > [!Note]  
 > This component is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
 
- 
+ 
 
 The **DeleteBookmark** method deletes the saved bookmark.
 
@@ -35,9 +40,9 @@ There can only be one bookmark at a time.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

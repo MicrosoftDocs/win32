@@ -1,7 +1,12 @@
 ---
 title: Disk Structures
 description: Disk Structures
-ms.assetid: 'c4b3fc0e-6a5c-4e84-85b2-3299d55297bc'
+ms.assetid: c4b3fc0e-6a5c-4e84-85b2-3299d55297bc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk Structures

@@ -1,7 +1,12 @@
 ---
-Description: 'Collecting Fine-Tuning Information'
-ms.assetid: '0d9ea896-e0a9-411b-9a10-e366e3686a34'
-title: 'Collecting Fine-Tuning Information'
+Description: Collecting Fine-Tuning Information
+ms.assetid: 0d9ea896-e0a9-411b-9a10-e366e3686a34
+title: Collecting Fine-Tuning Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Collecting Fine-Tuning Information
@@ -10,9 +15,9 @@ Although cable frequencies are generally expected to be exact, broadcast frequen
 
 When the TV Tuner filter tunes to a channel, it scans for the most precise signal. To save this information in the registry for subsequent tuning operations, do the following:
 
-1.  Call [**IAMTuner::ChannelMinMax**](iamtuner-channelminmax.md) to determine the range of frequency entries in the current frequency table.
-2.  Call the [**IAMTuner::put\_Channel**](iamtuner-put-channel.md) method once for each frequency index in the range.
-3.  Call [**IAMTVTuner::StoreAutoTune**](iamtvtuner-storeautotune.md) to save the fine-tuning information in the registry. The information is stored under the registry key for the current tuning space.
+1.  Call [**IAMTuner::ChannelMinMax**](/windows/win32/Strmif/nf-strmif-iamtuner-channelminmax?branch=master) to determine the range of frequency entries in the current frequency table.
+2.  Call the [**IAMTuner::put\_Channel**](/windows/win32/Strmif/nf-strmif-iamtuner-put_channel?branch=master) method once for each frequency index in the range.
+3.  Call [**IAMTVTuner::StoreAutoTune**](/windows/win32/Strmif/nf-strmif-iamtvtuner-storeautotune?branch=master) to save the fine-tuning information in the registry. The information is stored under the registry key for the current tuning space.
 
 The following code shows these steps:
 
@@ -33,7 +38,7 @@ if (SUCCEEDED(hr))
 
 
 
-With earlier versions of the TV Tuner filter, the [**IAMTVTuner::AutoTune**](iamtvtuner-autotune.md) method was recommended for fine-tuning. However, this method ignores any frequency overrides, so its use is no longer recommended. The following code is equivalent to the **AutoTune** method, but works correctly with frequency overrides:
+With earlier versions of the TV Tuner filter, the [**IAMTVTuner::AutoTune**](/windows/win32/Strmif/nf-strmif-iamtvtuner-autotune?branch=master) method was recommended for fine-tuning. However, this method ignores any frequency overrides, so its use is no longer recommended. The following code is equivalent to the **AutoTune** method, but works correctly with frequency overrides:
 
 
 ```C++
@@ -51,7 +56,7 @@ HRESULT MyAutoTune(IAMTVTuner *pTuner, long lIndex, long *plFoundSignal)
 
 
 
-With broadcast reception, it is not always possible to get a horizontal lock, although the picture is viewable. In these cases, the tuner hardware will have a frequency lock, but the decoder will not have horizontal lock. This condition can be detected when using [**put\_Channel**](iamtuner-put-channel.md) or [**AutoTune**](iamtvtuner-autotune.md) by examining the return code.
+With broadcast reception, it is not always possible to get a horizontal lock, although the picture is viewable. In these cases, the tuner hardware will have a frequency lock, but the decoder will not have horizontal lock. This condition can be detected when using [**put\_Channel**](/windows/win32/Strmif/nf-strmif-iamtuner-put_channel?branch=master) or [**AutoTune**](/windows/win32/Strmif/nf-strmif-iamtvtuner-autotune?branch=master) by examining the return code.
 
 
 
@@ -66,7 +71,7 @@ With broadcast reception, it is not always possible to get a horizontal lock, al
 
 Any other return code indicates that some error occurred.
 
-A return value of S\_OK does not guarantee that the decoder has a horizontal lock. The [**AutoTune**](iamtvtuner-autotune.md) method updates the *FoundSignal* parameter to indicate whether or not horizontal lock was achieved. The [**IAMTuner::SignalPresent**](iamtuner-signalpresent.md) method returns the same information.
+A return value of S\_OK does not guarantee that the decoder has a horizontal lock. The [**AutoTune**](/windows/win32/Strmif/nf-strmif-iamtvtuner-autotune?branch=master) method updates the *FoundSignal* parameter to indicate whether or not horizontal lock was achieved. The [**IAMTuner::SignalPresent**](/windows/win32/Strmif/nf-strmif-iamtuner-signalpresent?branch=master) method returns the same information.
 
 When the return value is S\_OK, however, the application has the option of ignoring the *FoundSignal* parameter, because the tuner is reporting a frequency lock. There is the possibility of a frequency lock on noise, but this possibility should be weighed against the possibility of skipping viewable channels.
 
@@ -74,7 +79,7 @@ When the return value is S\_OK, however, the application has the option of ignor
 
 To support frequency overrides, the internal format of the registry key that holds fine-tuning information has changed. The original format is still supported for backward compatibility, but it does not support frequency overrides.
 
-The old registry format is converted to the new format whenever the [**IAMTVTuner::StoreAutoTune**](iamtvtuner-storeautotune.md) method is called. If your application adds frequency overrides, it should call the **StoreAutoTune** method to convert to the new registry format. It is not necessary to collect any fine-tuning information before calling **StoreAutoTune**.
+The old registry format is converted to the new format whenever the [**IAMTVTuner::StoreAutoTune**](/windows/win32/Strmif/nf-strmif-iamtvtuner-storeautotune?branch=master) method is called. If your application adds frequency overrides, it should call the **StoreAutoTune** method to convert to the new registry format. It is not necessary to collect any fine-tuning information before calling **StoreAutoTune**.
 
 ## Related topics
 

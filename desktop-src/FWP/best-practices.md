@@ -1,7 +1,12 @@
 ---
 title: Best Practices
 description: The following list contains best practices for developing applications using the Windows Filtering Platform (WFP) API.
-ms.assetid: '017ff210-8666-466e-8424-c95e750fd5ac'
+ms.assetid: 017ff210-8666-466e-8424-c95e750fd5ac
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Best Practices
@@ -22,7 +27,7 @@ The following list contains best practices for developing applications using the
 
 -   Use MUI compliant strings.
 
-    All the localizable strings are stored in a common data structure: [**FWPM\_DISPLAY\_DATA0**](fwpm-display-data0-struct.md). The strings within this structure can be indirect strings of the type supported by [**SHLoadIndirectString**](_shell_SHLoadIndirectString). Before an **FWPM\_DISPLAY\_DATA0** structure is returned by any of the functions, the indirect strings are resolved to the specified string resource using the caller's locale.
+    All the localizable strings are stored in a common data structure: [**FWPM\_DISPLAY\_DATA0**](/windows/win32/Fwptypes/ns-fwptypes-fwpm_display_data0_?branch=master). The strings within this structure can be indirect strings of the type supported by [**SHLoadIndirectString**](_shell_SHLoadIndirectString). Before an **FWPM\_DISPLAY\_DATA0** structure is returned by any of the functions, the indirect strings are resolved to the specified string resource using the caller's locale.
 
 -   Associate all objects to a provider.
 

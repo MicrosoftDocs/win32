@@ -1,8 +1,9 @@
 ---
 title: MCI\_REALIZE command
 description: The MCI\_REALIZE command causes a graphic device to realize its palette into a device context (DC). Digital-video devices recognize this command.
-ms.assetid: 'cbc9e6ef-a372-4ddb-b7f3-ea99ac14ec95'
-keywords: ["MCI_REALIZE command Windows Multimedia"]
+ms.assetid: cbc9e6ef-a372-4ddb-b7f3-ea99ac14ec95
+keywords:
+- MCI_REALIZE command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_REALIZE command
 
 The MCI\_REALIZE command causes a graphic device to realize its palette into a device context (DC). Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -90,8 +96,8 @@ For digital-video devices, the *lpRealize* parameter points to an **MCI\_REALIZE
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -106,9 +112,9 @@ For digital-video devices, the *lpRealize* parameter points to an **MCI\_REALIZE
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

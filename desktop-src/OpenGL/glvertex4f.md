@@ -1,8 +1,9 @@
 ---
 title: glVertex4f function
 description: Specifies a vertex.
-ms.assetid: '877fce8c-095e-4ae4-8633-7c84659ee8a6'
-keywords: ["glVertex4f function OpenGL"]
+ms.assetid: 877fce8c-095e-4ae4-8633-7c84659ee8a6
+keywords:
+- glVertex4f function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glVertex4f function
@@ -22,10 +28,10 @@ Specifies a vertex.
 
 ```C++
 void WINAPI glVertex4f(
-   GLfloat x,
-   GLfloat y,
-   GLfloat z,
-   GLfloat w
+   GLfloat x,
+   GLfloat y,
+   GLfloat z,
+   GLfloat w
 );
 ```
 
@@ -77,8 +83,8 @@ The glVertex function commands are used within [**glBegin**](glbegin.md)/[**glEn
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -122,9 +128,9 @@ The glVertex function commands are used within [**glBegin**](glbegin.md)/[**glEn
 [**glTexCoord**](gltexcoord-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

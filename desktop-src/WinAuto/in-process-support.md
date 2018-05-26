@@ -1,7 +1,12 @@
 ---
 title: In-Process Support
 description: The current implementation of Dynamic Annotation is entirely in-process and consequently allows only UI elements to be annotated by the process that owns those UI elements.
-ms.assetid: '3d32c444-47fb-49fe-be18-0330fea77926'
+ms.assetid: 3d32c444-47fb-49fe-be18-0330fea77926
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # In-Process Support

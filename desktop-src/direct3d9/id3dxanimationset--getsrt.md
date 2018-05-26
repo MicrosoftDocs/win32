@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the scale, rotation, and translation values of the animation set.'
-ms.assetid: '84fc56f3-15bf-4e27-ad06-57fab94f3a33'
-title: 'ID3DXAnimationSet::GetSRT method'
+---
+Description: Gets the scale, rotation, and translation values of the animation set.
+ms.assetid: 84fc56f3-15bf-4e27-ad06-57fab94f3a33
+title: ID3DXAnimationSetGetSRT method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationSet::GetSRT method

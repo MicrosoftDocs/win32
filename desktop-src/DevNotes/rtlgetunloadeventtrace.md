@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables the dump code to get the unloaded module information from Ntdll.dll for storage in the minidump.'
-ms.assetid: '017398da-e13e-4261-bda5-6f400a91dbe3'
+---
+Description: Enables the dump code to get the unloaded module information from Ntdll.dll for storage in the minidump.
+ms.assetid: 017398da-e13e-4261-bda5-6f400a91dbe3
 title: RtlGetUnloadEventTrace function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtlGetUnloadEventTrace function

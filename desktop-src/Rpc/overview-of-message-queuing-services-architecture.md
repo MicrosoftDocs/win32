@@ -1,7 +1,12 @@
 ---
 title: Overview of Message Queuing Services Architecture
 description: Message Queuing Services (MSMQ) uses a site/enterprise model. Typically, a site is a physical location, such as a building. An enterprise consists of one or more sites and represents an organization.
-ms.assetid: 'f5c54c58-8ec5-49b7-a184-aed9a8100960'
+ms.assetid: f5c54c58-8ec5-49b7-a184-aed9a8100960
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of Message Queuing Services Architecture

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MONITOR2 structure contains pointers to the functions defined by print monitors.'
-ms.assetid: '73348405-0cc1-412a-b9b1-cfcc300190d7'
+---
+Description: The MONITOR2 structure contains pointers to the functions defined by print monitors.
+ms.assetid: 73348405-0cc1-412a-b9b1-cfcc300190d7
 title: MONITOR2 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MONITOR2 structure

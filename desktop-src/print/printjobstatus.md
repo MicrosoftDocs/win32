@@ -1,7 +1,12 @@
-﻿---
-Description: 'This enumeration is a one-to-one mapping to the spooler flags suppled in the JOB\_INFO\_X structures.'
-ms.assetid: '856FDAE1-C1D9-458D-B386-0A2D8612EA33'
+---
+Description: This enumeration is a one-to-one mapping to the spooler flags suppled in the JOB\_INFO\_X structures.
+ms.assetid: 856FDAE1-C1D9-458D-B386-0A2D8612EA33
 title: PrintJobStatus enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrintJobStatus enumeration

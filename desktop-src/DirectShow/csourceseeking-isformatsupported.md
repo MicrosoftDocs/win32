@@ -1,19 +1,24 @@
 ---
-Description: 'The IsFormatSupported method determines whether a specified time format is supported. This method implements the IMediaSeeking::IsFormatSupported method.'
-ms.assetid: '79b6dfd4-7f03-479b-b855-8f389bf6cbc7'
-title: 'CSourceSeeking.IsFormatSupported method'
+Description: The IsFormatSupported method determines whether a specified time format is supported. This method implements the IMediaSeekingIsFormatSupported method.
+ms.assetid: 79b6dfd4-7f03-479b-b855-8f389bf6cbc7
+title: CSourceSeeking.IsFormatSupported method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.IsFormatSupported method
 
-The `IsFormatSupported` method determines whether a specified time format is supported. This method implements the [**IMediaSeeking::IsFormatSupported**](imediaseeking-isformatsupported.md) method.
+The `IsFormatSupported` method determines whether a specified time format is supported. This method implements the [**IMediaSeeking::IsFormatSupported**](/windows/win32/Strmif/nf-strmif-imediaseeking-isformatsupported?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IsFormatSupported(
-   const GUID *pFormat
+   const GUID *pFormat
 );
 ```
 
@@ -44,7 +49,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +73,9 @@ The only time format supported by the base class is TIME\_FORMAT\_MEDIA\_TIME (1
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

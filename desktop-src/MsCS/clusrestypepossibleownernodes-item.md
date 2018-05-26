@@ -4,11 +4,14 @@ description: Returns a possible owner node from the collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0d698f44-7480-43da-871b-51e7be2f9eff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0d698f44-7480-43da-871b-51e7be2f9eff
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Item property Failover Cluster", "Item property Failover Cluster , ClusResTypePossibleOwnerNodes class", "ClusResTypePossibleOwnerNodes class Failover Cluster , Item property"]
+keywords:
+- Item property Failover Cluster
+- Item property Failover Cluster , ClusResTypePossibleOwnerNodes class
+- ClusResTypePossibleOwnerNodes class Failover Cluster , Item property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResTypePossibleOwnerNodes.Item property
@@ -53,7 +59,7 @@ A node obtained from **Item** is one of the possible owner nodes of the [resourc
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                          |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>                |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>              |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>              |
@@ -72,9 +78,9 @@ A node obtained from **Item** is one of the possible owner nodes of the [resourc
 [**ClusResTypePossibleOwnerNodes.Count**](clusrestypepossibleownernodes-count.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

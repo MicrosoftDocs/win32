@@ -1,14 +1,20 @@
 ---
 title: ParameterIds element
 description: A container element for ParameterId elements.
-ms.assetid: '6309E0C1-4C83-460E-88DD-A5E6F61B5248'
-keywords: ["ParameterIds element Access Execution Engine"]
+ms.assetid: 6309E0C1-4C83-460E-88DD-A5E6F61B5248
+keywords:
+- ParameterIds element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ParametersIds
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParameterIds element
@@ -64,9 +70,9 @@ There are no parent elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

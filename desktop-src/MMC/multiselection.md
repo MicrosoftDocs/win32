@@ -4,11 +4,16 @@ description: Multiselection is allowed only in the result pane.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9fe5db82-d3b7-4050-b653-6c19cdc21525'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 9fe5db82-d3b7-4050-b653-6c19cdc21525
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["multiselection MMC", "multiselection MMC"]
+keywords:
+- multiselection MMC
+- multiselection MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enabling Multiselection in the MMC
@@ -47,7 +52,7 @@ Multiselection for items owned by a single snap-in works in the following way:
 
 Scope items owned (inserted) by multiple snap-ins can be part of a multiselection. In this case, multiselection works in essentially the same way as it does in the case when all items are owned by a single snap-in, with the following differences:
 
--   MMC calls the [**IComponent::QueryDataObject**](icomponent-querydataobject.md) implementation (with cookie == MMC\_MULTI\_SELECT\_COOKIE) of the primary snap-in and each namespace extension that owns any of the selected items to request a multiselection data object. Consequently, all namespace extensions whose items are allowed to be part of a multiselection must implement [**IComponent**](icomponent.md).
+-   MMC calls the [**IComponent::QueryDataObject**](icomponent-querydataobject.md) implementation (with cookie == MMC\_MULTI\_SELECT\_COOKIE) of the primary snap-in and each namespace extension that owns any of the selected items to request a multiselection data object. Consequently, all namespace extensions whose items are allowed to be part of a multiselection must implement [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master).
 
     Be aware that, in the call to [**IResultData::GetNextItem**](iresultdata-getnextitem.md) with RESULTDATAITEM.nState = LVIS\_SELECTED, MMC will only return items that the calling snap-in owns, skipping over the items owned by other snap-ins. Therefore, each snap-in involved in a multiselection provides a multiselection data object that identifies only its items currently selected in the result pane.
 
@@ -90,7 +95,7 @@ The following table lists the types of data objects that can be sent to snap-ins
 
 
 
- 
+ 
 
 ## Multiselection and Drag and Drop Operations
 
@@ -130,9 +135,9 @@ The [Drag and Drop](drag-and-drop.md) section discusses how to support drag-and-
 [Using IPropertySheetProvider Directly](using-ipropertysheetprovider-directly.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

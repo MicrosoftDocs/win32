@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualPC CreateFloppyDiskImage method
 description: Creates a floppy disk image file.
-ms.assetid: '474e86a4-2019-41bd-9361-e494291d1961'
-keywords: ["CreateFloppyDiskImage method Virtual PC", "CreateFloppyDiskImage method Virtual PC , IVMVirtualPC interface", "IVMVirtualPC interface Virtual PC , CreateFloppyDiskImage method"]
+ms.assetid: 474e86a4-2019-41bd-9361-e494291d1961
+keywords:
+- CreateFloppyDiskImage method Virtual PC
+- CreateFloppyDiskImage method Virtual PC , IVMVirtualPC interface
+- IVMVirtualPC interface Virtual PC , CreateFloppyDiskImage method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPC::CreateFloppyDiskImage method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Creates a floppy disk image file.
 
@@ -24,8 +32,8 @@ Creates a floppy disk image file.
 
 ```C++
 HRESULT CreateFloppyDiskImage(
-  [in] BSTR                  imagePath,
-  [in] VMFloppyDiskImageType imageType
+  [in] BSTR                  imagePath,
+  [in] VMFloppyDiskImageType imageType
 );
 ```
 
@@ -71,7 +79,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -79,9 +87,9 @@ This method can return one of these values.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualPC is defined as 236ba0d9-a24a-4292-a132-27c1421dfd01<br/>               |
@@ -95,9 +103,9 @@ This method can return one of these values.
 [**IVMVirtualPC**](ivmvirtualpc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

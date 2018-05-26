@@ -1,19 +1,24 @@
 ---
 title: The Component Categories Manager
 description: The Component Categories Manager
-ms.assetid: 'bd43ef98-2299-4c8a-9f35-bf9aceb074ab'
+ms.assetid: bd43ef98-2299-4c8a-9f35-bf9aceb074ab
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Component Categories Manager
 
 To facilitate the handling of component categories and to guarantee consistency of the registry, the system provides the Component Categories Manager, a COM object with a CLSID of CLSID\_StdComponentCategoriesMgr. This COM object provides the following interfaces:
 
--   [**ICatInformation**](icatinformation.md)
--   [**ICatRegister**](icatregister.md)
+-   [**ICatInformation**](/windows/win32/ComCat/nn-comcat-icatinformation?branch=master)
+-   [**ICatRegister**](/windows/win32/ComCat/nn-comcat-icatregister?branch=master)
 
-[**ICatInformation**](icatinformation.md) provides methods for obtaining information about the categories implemented or required by a certain class and provides information about the categories registered on a given machine.
+[**ICatInformation**](/windows/win32/ComCat/nn-comcat-icatinformation?branch=master) provides methods for obtaining information about the categories implemented or required by a certain class and provides information about the categories registered on a given machine.
 
-[**ICatRegister**](icatregister.md) provides methods for registering and unregistering component category information in the registry. This includes both the human-readable names of categories and the categories implemented or required by a given component or class.
+[**ICatRegister**](/windows/win32/ComCat/nn-comcat-icatregister?branch=master) provides methods for registering and unregistering component category information in the registry. This includes both the human-readable names of categories and the categories implemented or required by a given component or class.
 
 ## Related topics
 

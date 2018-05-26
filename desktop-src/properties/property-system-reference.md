@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '8f2df462-c22d-4059-8599-4eefd24560f1'
+Description: .
+ms.assetid: 8f2df462-c22d-4059-8599-4eefd24560f1
 title: Property System Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property System Reference

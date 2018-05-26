@@ -1,7 +1,12 @@
 ---
-Description: 'Your application can support a different set of user interface languages from those supported by the target operating system. This topic discusses this type of support, using snippets from complete samples.'
-ms.assetid: 'cb9f2a5f-3bb8-4287-a542-c71d20b37194'
-title: 'Supporting Application-Specific Language Settings'
+Description: Your application can support a different set of user interface languages from those supported by the target operating system. This topic discusses this type of support, using snippets from complete samples.
+ms.assetid: cb9f2a5f-3bb8-4287-a542-c71d20b37194
+title: Supporting Application-Specific Language Settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supporting Application-Specific Language Settings
@@ -84,7 +89,7 @@ BOOL ConvertMyLangStrToMultiLangStr(WCHAR * langStr, WCHAR * langMultiStr, DWORD
 
 ## Set the Application Language
 
-After reading the language preference information, the application code must use the retrieved setting to set the application language. On Windows 7 and later, the application can set the language at the process level by calling the [**SetProcessPreferredUILanguages**](setprocesspreferreduilanguages.md) function.
+After reading the language preference information, the application code must use the retrieved setting to set the application language. On Windows 7 and later, the application can set the language at the process level by calling the [**SetProcessPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-setprocesspreferreduilanguages?branch=master) function.
 
 
 ```C++
@@ -101,7 +106,7 @@ if(!SetProcessPreferredUILanguages(MUI_LANGUAGE_NAME, userLanguagesMultiString, 
 
 
 
-On Windows Vista and later, the application language is set at the thread level by calling the [**SetThreadPreferredUILanguages**](setthreadpreferreduilanguages.md) function.
+On Windows Vista and later, the application language is set at the thread level by calling the [**SetThreadPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-setthreadpreferreduilanguages?branch=master) function.
 
 
 ```C++

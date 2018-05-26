@@ -4,10 +4,13 @@ description: Volume Shadow Copy Service Task resources have the following privat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f98cdadc-6ba1-4629-8952-71423c55a605'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f98cdadc-6ba1-4629-8952-71423c55a605
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Volume Shadow Copy Service Task Private Properties

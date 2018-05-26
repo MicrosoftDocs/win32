@@ -1,8 +1,11 @@
 ---
 title: IVMAccountant CPUUtilizationHistory property
 description: Retrieves the recent CPU utilization of this virtual machine (as an array of percentage values).
-ms.assetid: 'f6b92b25-9455-4061-8db0-3e42f9f7391d'
-keywords: ["CPUUtilizationHistory property Virtual PC", "CPUUtilizationHistory property Virtual PC , IVMAccountant interface", "IVMAccountant interface Virtual PC , CPUUtilizationHistory property"]
+ms.assetid: f6b92b25-9455-4061-8db0-3e42f9f7391d
+keywords:
+- CPUUtilizationHistory property Virtual PC
+- CPUUtilizationHistory property Virtual PC , IVMAccountant interface
+- IVMAccountant interface Virtual PC , CPUUtilizationHistory property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccountant::CPUUtilizationHistory property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the recent CPU utilization of this virtual machine (as an array of percentage values).
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_CPUUtilizationHistory(
-  [out, retval] VARIANT *percentageUtilization
+  [out, retval] VARIANT *percentageUtilization
 );
 ```
 
@@ -56,9 +64,9 @@ The recent CPU use of this virtual machine. This data is returned as an array of
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMAccountant is defined as 6376c067-7f57-4d63-b754-06e2e4f51d73<br/>              |
@@ -72,9 +80,9 @@ The recent CPU use of this virtual machine. This data is returned as an array of
 [**IVMAccountant**](ivmaccountant.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

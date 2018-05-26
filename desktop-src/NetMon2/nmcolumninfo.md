@@ -1,7 +1,12 @@
 ---
-Description: 'The NMCOLUMNINFO structure defines one column in the top pane of the Event Viewer.'
-ms.assetid: '21e0a129-464b-45b3-9c6b-6594e62fbce9'
+Description: The NMCOLUMNINFO structure defines one column in the top pane of the Event Viewer.
+ms.assetid: 21e0a129-464b-45b3-9c6b-6594e62fbce9
 title: NMCOLUMNINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NMCOLUMNINFO structure
@@ -13,7 +18,7 @@ The **NMCOLUMNINFO** structure defines one column in the top pane of the Event V
 
 ```C++
 typedef struct {
-  LPSTR           szColumnName;
+  LPSTR           szColumnName;
   NMCOLUMNVARIANT VariantData;
 } EVENTCOLUMNINFO;
 ```
@@ -44,15 +49,15 @@ The data inserted into the column.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

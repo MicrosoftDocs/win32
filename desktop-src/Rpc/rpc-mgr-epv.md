@@ -1,8 +1,9 @@
 ---
 title: RPC\_MGR\_EPV
 description: The data type RPC\_MGR\_EPV defines a manager entry-point vector.
-ms.assetid: '396e76de-065f-471e-ade9-34770b16a958'
-keywords: ["RPC_MGR_EPV RPC"]
+ms.assetid: 396e76de-065f-471e-ade9-34770b16a958
+keywords:
+- RPC_MGR_EPV RPC
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rpcdce.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC\_MGR\_EPV
@@ -71,8 +77,8 @@ When the server offers multiple implementations of the same interface, the serve
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>Rpcdce.h (include Rpc.h)</dt> </dl> |
 
 
@@ -81,24 +87,24 @@ When the server offers multiple implementations of the same interface, the serve
 
 <dl> <dt>
 
-[**RpcServerRegisterIf**](rpcserverregisterif.md)
+[**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master)
 </dt> <dt>
 
-[**RpcServerRegisterIf2**](rpcserverregisterif2.md)
+[**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master)
 </dt> <dt>
 
-[**RpcServerRegisterIfEx**](rpcserverregisterifex.md)
+[**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master)
 </dt> <dt>
 
-[**RpcServerUnregisterIf**](rpcserverunregisterif.md)
+[**RpcServerUnregisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverunregisterif?branch=master)
 </dt> <dt>
 
-[**RpcServerUnregisterIfEx**](rpcserverunregisterifex.md)
+[**RpcServerUnregisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverunregisterifex?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

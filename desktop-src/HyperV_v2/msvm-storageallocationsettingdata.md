@@ -1,7 +1,12 @@
 ---
-Description: 'Represents settings specifically related to the allocation of virtual storage.'
-ms.assetid: 'de6787c0-9998-4f1d-9715-f0dfa0ff70c6'
-title: 'Msvm\_StorageAllocationSettingData class'
+Description: Represents settings specifically related to the allocation of virtual storage.
+ms.assetid: de6787c0-9998-4f1d-9715-f0dfa0ff70c6
+title: Msvm\_StorageAllocationSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_StorageAllocationSettingData class
@@ -16,47 +21,47 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_StorageAllocationSettingData : CIM_StorageAllocationSettingData
 {
-  string  InstanceID;
-  string  Caption = "Hard Disk Image Default Settings";
-  string  Description = "Describes the default settings for the hard disk image resources";
-  string  ElementName;
-  uint16  ResourceType;
-  string  OtherResourceType;
-  string  ResourceSubType;
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits;
-  uint64  VirtualQuantity;
-  uint64  Limit = 1;
-  uint32  Weight;
-  string  StorageQoSPolicyID;
+  string  InstanceID;
+  string  Caption = "Hard Disk Image Default Settings";
+  string  Description = "Describes the default settings for the hard disk image resources";
+  string  ElementName;
+  uint16  ResourceType;
+  string  OtherResourceType;
+  string  ResourceSubType;
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits;
+  uint64  VirtualQuantity;
+  uint64  Limit = 1;
+  uint32  Weight;
+  string  StorageQoSPolicyID;
   boolean AutomaticAllocation;
   boolean AutomaticDeallocation;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  string  AddressOnParent;
-  uint64  VirtualResourceBlockSize;
-  string  VirtualQuantityUnits = "count(fixed size block)";
-  uint16  Access;
-  uint64  HostResourceBlockSize;
-  uint64  Reservation;
-  uint64  HostExtentStartingAddress;
-  string  HostExtentName;
-  uint16  HostExtentNameFormat;
-  string  OtherHostExtentNameFormat;
-  uint16  HostExtentNameNamespace;
-  string  OtherHostExtentNameNamespace;
-  uint64  IOPSLimit;
-  uint64  IOPSReservation;
-  string  IOPSAllocationUnits;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  string  AddressOnParent;
+  uint64  VirtualResourceBlockSize;
+  string  VirtualQuantityUnits = "count(fixed size block)";
+  uint16  Access;
+  uint64  HostResourceBlockSize;
+  uint64  Reservation;
+  uint64  HostExtentStartingAddress;
+  string  HostExtentName;
+  uint16  HostExtentNameFormat;
+  string  OtherHostExtentNameFormat;
+  uint16  HostExtentNameNamespace;
+  string  OtherHostExtentNameNamespace;
+  uint64  IOPSLimit;
+  uint64  IOPSReservation;
+  string  IOPSAllocationUnits;
   boolean PersistentReservationsSupported;
-  uint16  CachingMode;
-  string  SnapshotId = "";
+  uint16  CachingMode;
+  string  SnapshotId = "";
   boolean IgnoreFlushes;
-  uint16  WriteHardeningMethod;
+  uint16  WriteHardeningMethod;
 };
 ```
 
@@ -176,9 +181,9 @@ Access type: Read-only
 Indicates whether and how in-memory file caching should be used for this VHD. The default policy is set in the **DefaultVirtualHardDiskCachingMode** field of the [**Msvm\_VirtualSystemManagementServiceSettingData**](msvm-virtualsystemmanagementservicesettingdata.md) class.
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 <dt>
 
@@ -443,7 +448,7 @@ Access type: Read-only
 
 If set to true, Hyper-V will ignore write back flushing for that particular virtual machine. If set to false, Hyper-V will continue to write back to the disk on every flush. The default setting is false.
 
-**Windows 10:** This value is not supported until Windows 10.
+**Windows 10:** This value is not supported until Windows 10.
 
 </dd> <dt>
 
@@ -478,7 +483,7 @@ Specifies the allocation units used by the **IOPSLimit** and **IOPSReservation**
 
 Throughput is measured in normalized I/O operations per second (IOPS) instead of raw IOPS. When using normalized IOPS, each I/O request is accounted for as 1 normalized I/O if the size of the request is less than or equal to a predefined base size (8 KB). Requests that are larger than the base size are accounted for as N I/O operations, where N is the rounded-up value of the request size divided by the base size. For example, if the base size is 8 KB, a 16-KB request is counted as 2 normalized I/O operations, a 32-KB request as 4 normalized I/O operations, and so on.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -499,9 +504,9 @@ The maximum number of I/O operations per second (IOPS) that will be serviced for
 > [!Note]  
 > You can use the [**ModifyResourceSettings**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class to modify the value of this property. This property is meaningful only for **Msvm\_StorageAllocationSettingData** instances that request resource allocations for virtual machines. It's ignored when allocating resources to a child pool.
 
- 
+ 
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -524,9 +529,9 @@ If both **IOPSLimit** and **IOPSReservation** are defined, the value of **IOPSLi
 > [!Note]  
 > You can use the [**ModifyResourceSettings**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class to modify the value of this property. This property is meaningful only for **Msvm\_StorageAllocationSettingData** instances that request resource allocations for virtual machines. It's ignored when allocating resources to a child pool.
 
- 
+ 
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -619,7 +624,7 @@ Access type: Read-only
 
 Indicates whether the virtual hard disk supports SCSI-3 persistent reservations.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -777,10 +782,10 @@ The type of resource this allocation setting represents. This property is inheri
 <span id="Ethernet_connection"></span><span id="ethernet_connection"></span><span id="ETHERNET_CONNECTION"></span>**Ethernet connection** (33)
 </dt> <dt>
 
-<span id="DMTF_reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF reserved** (30–32767)
+<span id="DMTF_reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF reserved** (30 32767)
 </dt> <dt>
 
-<span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>**Vendor Reserved** (32768–65535)
+<span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 </dd> <dt>
@@ -797,9 +802,9 @@ Access type: Read-only
 A GUID representing which snapshot within the VHD Set file is to be attached.
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -815,9 +820,9 @@ Access type: Read-only
 Specifies the unique identifier of the Storage QoS Policy to be applied to this virtual storage extent.
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -854,7 +859,7 @@ Specifies the units used by the **VirtualQuantity** property. This property is i
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -885,7 +890,7 @@ Qualifiers: [**Override**](https://msdn.microsoft.com/library/aa393650) ("Weight
 
 Specifies a relative priority for this allocation in relation to other allocations from the same resource pool. This property has no unit of measure and is only relevant when compared to other allocations vying for the same host resources. This property is inherited from [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214).
 
-Range: 1–10000
+Range: 1 10000
 
 </dd> <dt>
 
@@ -901,9 +906,9 @@ Access type: Read-only
 Indicates what write hardening method is supported by the disk.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 <dt>
 
@@ -943,17 +948,17 @@ Indicates what write hardening method is supported by the disk.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

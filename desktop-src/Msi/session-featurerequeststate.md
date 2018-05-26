@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FeatureRequestState property is a read-write property of the Session object.'
-ms.assetid: 'ba19603b-ac81-4a8b-81ca-ad5f28974599'
-title: 'Session.FeatureRequestState property'
+---
+Description: The FeatureRequestState property is a read-write property of the Session object.
+ms.assetid: ba19603b-ac81-4a8b-81ca-ad5f28974599
+title: Session.FeatureRequestState property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session.FeatureRequestState property

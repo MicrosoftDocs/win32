@@ -4,17 +4,21 @@ description: Posted to the Active Directory MMC snap-in when a secondary propert
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '74271550-e1f7-4576-a04f-52d5b7c619cb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 74271550-e1f7-4576-a04f-52d5b7c619cb
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["WM_DSA_SHEET_CLOSE_NOTIFY message Active Directory"]
+keywords:
+- WM_DSA_SHEET_CLOSE_NOTIFY message Active Directory
 topic_type:
 - apiref
 api_name:
 - WM_DSA_SHEET_CLOSE_NOTIFY
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WM\_DSA\_SHEET\_CLOSE\_NOTIFY message
@@ -24,7 +28,7 @@ The **WM\_DSA\_SHEET\_CLOSE\_NOTIFY** message is posted to the Active Directory 
 > [!Note]  
 > This message value is not defined in a published header file. To use this message value, you must define it yourself in the exact format shown.
 
- 
+ 
 
 
 ```C++
@@ -78,8 +82,8 @@ The return value for this message is not used.
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -90,9 +94,9 @@ The return value for this message is not used.
 [**PROPSHEETCFG**](propsheetcfg.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

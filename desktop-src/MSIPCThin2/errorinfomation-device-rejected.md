@@ -4,11 +4,14 @@ description: This device is disabled by the tenant admin.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ErrorInfomation.DEVICE\_REJECTED'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ErrorInfomation.DEVICE\_REJECTED
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["DEVICE_REJECTED property", "DEVICE_REJECTED property, ErrorInfomation class", "ErrorInfomation class, DEVICE_REJECTED property"]
+keywords:
+- DEVICE_REJECTED property
+- DEVICE_REJECTED property, ErrorInfomation class
+- ErrorInfomation class, DEVICE_REJECTED property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ErrorInfomation.DEVICE\_REJECTED property
@@ -61,9 +67,9 @@ static property ErrorInfomation DEVICE_REJECTED {
 [**ErrorInfomation**](errorinfomation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: The property methods of the IGPMConstants2 interface get the proper
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7afe2354-7d0a-45c5-bbd8-1aae8519ba5f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 7afe2354-7d0a-45c5-bbd8-1aae8519ba5f
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMConstants2 Property Methods GPMC"]
+keywords:
+- IGPMConstants2 Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMConstants2 Property Methods
 
-The property methods of the [**IGPMConstants2**](igpmconstants2.md) interface get the properties described in the following table. For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation.
+The property methods of the [**IGPMConstants2**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmconstants2?branch=master) interface get the properties described in the following table. For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation.
 
-The [**IGPMConstants2**](igpmconstants.md) interface defines the following properties.
+The [**IGPMConstants2**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmconstants?branch=master) interface defines the following properties.
 
 ## Properties
 
@@ -161,7 +165,7 @@ HRESULT get_PermStarterGPORead(
 
 </dt> </dl> </dd> <dt>
 
-[**ReportComments**](igpmconstants.md)
+[**ReportComments**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmconstants?branch=master)
 </dt> <dd> <dl>
 
 Value corresponding to the **ReportComments** property. Passed to **GenerateReport** methods to Specifies whether comments should be included in the report.
@@ -183,7 +187,7 @@ HRESULT get_ReportComments(
 
 </dt> </dl> </dd> <dt>
 
-[**ReportLegacy**](igpmconstants.md)
+[**ReportLegacy**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmconstants?branch=master)
 </dt> <dd> <dl>
 
 Value corresponding to the **ReportLegacy** property. Passed to **GenerateReport** methods to generate a report.
@@ -359,13 +363,13 @@ HRESULT get_StarterGPOTypeSystem(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
 Properties that begin with **PermGPO** apply only to GPOs; properties that begin with **PermWMIFilter** apply only to WMI filters.
 
-For more information about policy-related permissions, see [**IGPM::CreatePermission**](igpm-createpermission.md).
+For more information about policy-related permissions, see [**IGPM::CreatePermission**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpm-createpermission?branch=master).
 
 ## Requirements
 
@@ -373,8 +377,8 @@ For more information about policy-related permissions, see [**IGPM::CreatePermis
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -386,18 +390,18 @@ For more information about policy-related permissions, see [**IGPM::CreatePermis
 
 <dl> <dt>
 
-[IGPMConstants2](igpmconstants2.md)
+[IGPMConstants2](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmconstants2?branch=master)
 </dt> <dt>
 
-[**IGPMConstants**](igpmconstants.md)
+[**IGPMConstants**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmconstants?branch=master)
 </dt> <dt>
 
-[**IGPM**](igpm.md)
+[**IGPM**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpm?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

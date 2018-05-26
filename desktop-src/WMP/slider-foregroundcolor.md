@@ -1,14 +1,20 @@
 ---
 title: SLIDER.foregroundColor
 description: The foregroundColor attribute specifies or retrieves the foreground color of the slider control.
-ms.assetid: '8c8de4a9-0021-41ed-aeb8-75653855b6f1'
-keywords: ["SLIDER.foregroundColor Windows Media Player"]
+ms.assetid: 8c8de4a9-0021-41ed-aeb8-75653855b6f1
+keywords:
+- SLIDER.foregroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.foregroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.foregroundColor
@@ -65,9 +71,9 @@ See the *CUSTOMSLIDER*.[positionImage](customslider-positionimage.md) attribute 
 [**SLIDER.foregroundImage**](slider-foregroundimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

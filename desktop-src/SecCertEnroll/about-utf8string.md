@@ -1,12 +1,17 @@
 ---
-Description: 'The ASN.1 UTF8String data type is encoded into a TLV triplet that begins with a Tag byte of 0x0C.'
-ms.assetid: 'e30737d3-8294-48d8-9e42-f21918acc73c'
+Description: The ASN.1 UTF8String data type is encoded into a TLV triplet that begins with a Tag byte of 0x0C.
+ms.assetid: e30737d3-8294-48d8-9e42-f21918acc73c
 title: UTF8String
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UTF8String
 
-The ASN.1 **UTF8String** data type is encoded into a TLV triplet that begins with a **Tag** byte of 0x0C. The following example, from the [CMC Encoded ASN.1](cmc-encoded-asn-1.md) topic, shows how the **ClientId** attribute is encoded as an integer and three **UTF8String** types. The object identifier for the attribute is 1.3.6.1.4.1.311.21.20. The information, which can be specified by using the [**IX509AttributeClientId**](ix509attributeclientid.md) interface, includes a client ID number, the Domain Name System (DNS) computer name, the Security Accounts Manager (SAM) user name, and the name of the application that created the certificate request.
+The ASN.1 **UTF8String** data type is encoded into a TLV triplet that begins with a **Tag** byte of 0x0C. The following example, from the [CMC Encoded ASN.1](cmc-encoded-asn-1.md) topic, shows how the **ClientId** attribute is encoded as an integer and three **UTF8String** types. The object identifier for the attribute is 1.3.6.1.4.1.311.21.20. The information, which can be specified by using the [**IX509AttributeClientId**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeclientid?branch=master) interface, includes a client ID number, the Domain Name System (DNS) computer name, the Security Accounts Manager (SAM) user name, and the name of the application that created the certificate request.
 
 ``` syntax
 06 09                                ; OBJECT_ID (9 Bytes)

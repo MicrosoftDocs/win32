@@ -1,7 +1,12 @@
 ---
-Description: 'The COM+ instrumentation service enables you to build your own COM+ event management and logging programs when you want to display various performance metrics for your COM+ components.'
-ms.assetid: '07f68734-a382-4fe5-86af-90805f61c68d'
+Description: The COM+ instrumentation service enables you to build your own COM+ event management and logging programs when you want to display various performance metrics for your COM+ components.
+ms.assetid: 07f68734-a382-4fe5-86af-90805f61c68d
 title: COM+ Instrumentation Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Instrumentation Concepts
@@ -22,7 +27,7 @@ By subscribing to the events published by the system events publisher, clients c
 
 Every metric has a timestamp that indicates the time when the metric was generated, not the time that it was dispatched or received. The client can correlate the timestamp and find out the cost of running a COM+ application, the cost of a transaction executed inside a COM+ application, or the cost of a method call inside of a COM+ application.
 
-You can also use the COM+ Instrumentation service to filter for the specific performance metrics information that you want to see. For example, when you subscribe to a COM+ instrumentation interface or method, you can specify properties for the subscription in the [**COMSVCSEVENTINFO**](comsvcseventinfo.md) structure, such as the application ID (**guidApp** member) or the process ID (**dwPid** member).
+You can also use the COM+ Instrumentation service to filter for the specific performance metrics information that you want to see. For example, when you subscribe to a COM+ instrumentation interface or method, you can specify properties for the subscription in the [**COMSVCSEVENTINFO**](/windows/win32/ComSvcs/ns-comsvcs-__midl___midl_itf_autosvcs_0000_0013_0001?branch=master) structure, such as the application ID (**guidApp** member) or the process ID (**dwPid** member).
 
 When the application ID is specified, you receive only the metrics from the specified application. When the process ID is specified, you receive metrics from the specified server application and library applications that are loaded in that process. The user can specify both the application ID and the process ID, but the application ID has to be that of the server application running in the process with the specified process ID. If neither is specified, the user receives metrics from all the server and library applications.
 

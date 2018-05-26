@@ -1,7 +1,12 @@
 ---
 Description: Grouping Applications into Partitions
-ms.assetid: 'bdfe2428-9769-4bcb-b74e-a141ba67a67e'
+ms.assetid: bdfe2428-9769-4bcb-b74e-a141ba67a67e
 title: Grouping Applications into Partitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Grouping Applications into Partitions
@@ -25,7 +30,7 @@ Other restrictions exist when deciding how to group COM+ applications. These res
 
 
 
- 
+ 
 
 ## Application IDs
 
@@ -43,7 +48,7 @@ The following table shows what happens to the application ID when an application
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -64,9 +69,9 @@ The following table shows what happens to the application ID when an application
 [Setting Administrative Rights for a Partition](setting-administrative-rights-for-a-partition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

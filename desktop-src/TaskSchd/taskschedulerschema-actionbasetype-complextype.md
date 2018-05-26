@@ -1,14 +1,20 @@
 ---
 title: actionBaseType Complex Type
 description: Defines the Id attribute for all elements of this type.
-ms.assetid: 'adc7117f-881f-4a32-8578-0530f2a0c179'
-keywords: ["actionBaseType complex type Task Scheduler"]
+ms.assetid: adc7117f-881f-4a32-8578-0530f2a0c179
+keywords:
+- actionBaseType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - actionBaseType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # actionBaseType Complex Type
@@ -42,8 +48,8 @@ Defines the Id attribute for all elements of this type.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -57,9 +63,9 @@ Defines the Id attribute for all elements of this type.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

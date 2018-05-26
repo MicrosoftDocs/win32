@@ -1,8 +1,9 @@
 ---
 title: SolutionParameters structure
 description: This structure defines configuration information for the Solution interface.
-ms.assetid: '7A8B1286-0FB9-41B2-8EBB-F55BAA9BE698'
-keywords: ["SolutionParameters structure Access Execution Engine"]
+ms.assetid: 7A8B1286-0FB9-41B2-8EBB-F55BAA9BE698
+keywords:
+- SolutionParameters structure Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SolutionParameters structure
@@ -57,8 +63,8 @@ The Solution interface can be configured to execute assessments or workloads in 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ The Solution interface can be configured to execute assessments or workloads in 
 [**Support**](support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

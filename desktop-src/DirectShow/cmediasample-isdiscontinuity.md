@@ -1,12 +1,17 @@
 ---
-Description: 'The IsDiscontinuity method determines if this sample represents a break in the data stream. This method implements the IMediaSample::IsDiscontinuity method.'
-ms.assetid: '125b4a86-bd26-4539-a9ab-281f1aed1836'
-title: 'CMediaSample.IsDiscontinuity method'
+Description: The IsDiscontinuity method determines if this sample represents a break in the data stream. This method implements the IMediaSampleIsDiscontinuity method.
+ms.assetid: 125b4a86-bd26-4539-a9ab-281f1aed1836
+title: CMediaSample.IsDiscontinuity method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.IsDiscontinuity method
 
-The `IsDiscontinuity` method determines if this sample represents a break in the data stream. This method implements the [**IMediaSample::IsDiscontinuity**](imediasample-isdiscontinuity.md) method.
+The `IsDiscontinuity` method determines if this sample represents a break in the data stream. This method implements the [**IMediaSample::IsDiscontinuity**](/windows/win32/Strmif/nf-strmif-imediasample-isdiscontinuity?branch=master) method.
 
 ## Syntax
 
@@ -47,9 +52,9 @@ The [**CMediaSample::m\_dwFlags**](cmediasample-m-dwflags.md) member variable sp
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

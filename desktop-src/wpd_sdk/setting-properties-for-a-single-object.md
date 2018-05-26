@@ -1,7 +1,12 @@
 ---
 Description: Setting Properties for a Single Object
-ms.assetid: '1c003534-96b4-419b-94d1-73b5ffa2eba1'
+ms.assetid: 1c003534-96b4-419b-94d1-73b5ffa2eba1
 title: Setting Properties for a Single Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Properties for a Single Object
@@ -12,15 +17,15 @@ After your application retrieves an object identifier (see the [Enumerating Cont
 
 | Interface                                                                | Description                                                                                                                                                 |
 |--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IPortableDeviceProperties Interface**](iportabledeviceproperties.md) | Used to determine whether a given property can be written and to send the write operation.                                                                  |
-| [**IPortableDeviceContent Interface**](iportabledevicecontent.md)       | Provides access to the content-specific methods.                                                                                                            |
+| [**IPortableDeviceProperties Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master) | Used to determine whether a given property can be written and to send the write operation.                                                                  |
+| [**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)       | Provides access to the content-specific methods.                                                                                                            |
 | [**IPortableDeviceValues Interface**](iportabledevicevalues.md)         | Used to hold the values to be written, determine results of the write operation, and retrieve attributes of properties (when determining write capability). |
 
 
 
  
 
-Applications set properties on an object by first creating a property bag that specifies the new values using the [**IPortableDeviceValues interface**](iportabledevicevalues.md). Once the property bag is created, an application sets those properties by calling the [**IPortableDeviceProperties::SetValues**](iportabledeviceproperties-setvalues.md) method.
+Applications set properties on an object by first creating a property bag that specifies the new values using the [**IPortableDeviceValues interface**](iportabledevicevalues.md). Once the property bag is created, an application sets those properties by calling the [**IPortableDeviceProperties::SetValues**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-setvalues?branch=master) method.
 
 The `WriteContentProperties` function in the sample application's ContentProperties.cpp module demonstrates how an application could set a new object-name property for a selected object.
 
@@ -166,19 +171,19 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceContent Interface**](iportabledevicecontent.md)
+[**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)
 </dt> <dt>
 
 [**IPortableDeviceKeyCollection Interface**](iportabledevicekeycollection.md)
 </dt> <dt>
 
-[**IPortableDeviceProperties Interface**](iportabledeviceproperties.md)
+[**IPortableDeviceProperties Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master)
 </dt> <dt>
 
-[**IPortableDevicePropertiesBulk Interface**](iportabledevicepropertiesbulk.md)
+[**IPortableDevicePropertiesBulk Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulk?branch=master)
 </dt> <dt>
 
 [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md)

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of extensions in the collection.'
-ms.assetid: '3922ff63-bd03-4d40-9146-33792ca42cfc'
-title: 'Extensions.Count property'
+---
+Description: Retrieves the number of extensions in the collection.
+ms.assetid: 3922ff63-bd03-4d40-9146-33792ca42cfc
+title: Extensions.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extensions.Count property

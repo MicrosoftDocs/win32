@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the state of the guest service be changed to the specified value.'
-ms.assetid: 'F2853BB3-4074-431C-9E10-26AA0757FE99'
-title: 'Msvm\_GuestService::RequestStateChange method'
+Description: Requests that the state of the guest service be changed to the specified value.
+ms.assetid: F2853BB3-4074-431C-9E10-26AA0757FE99
+title: Msvm\_GuestServiceRequestStateChange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_GuestService::RequestStateChange method
@@ -13,9 +18,9 @@ Requests that the state of the guest service be changed to the specified value.
 
 ```C++
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -140,7 +145,7 @@ This method returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -148,8 +153,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | \\\\Root\\Virtualization\\V2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -163,9 +168,9 @@ This method returns one of the following values.
 [**Msvm\_GuestService**](msvm-guestservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'An array is an indexed list of data values that are of the same data type, which you can reference. In addition to string and numeric arrays, MOF supports arrays of embedded objects and references.'
+Description: An array is an indexed list of data values that are of the same data type, which you can reference. In addition to string and numeric arrays, MOF supports arrays of embedded objects and references.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f63c222f-499d-4776-8901-65cb8b142d2b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f63c222f-499d-4776-8901-65cb8b142d2b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: MOF Arrays
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MOF Arrays

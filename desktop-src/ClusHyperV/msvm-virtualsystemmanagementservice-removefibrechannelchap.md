@@ -4,13 +4,16 @@ description: Removes DH-CHAP settings from a synthetic fibre channel port in a v
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7111ac3e-1c45-49eb-92d9-a1cd58f02217'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7111ac3e-1c45-49eb-92d9-a1cd58f02217
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveFibreChannelChap method", "RemoveFibreChannelChap method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, RemoveFibreChannelChap method"]
+keywords:
+- RemoveFibreChannelChap method
+- RemoveFibreChannelChap method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, RemoveFibreChannelChap method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveFibreChannelChap method of the Msvm\_VirtualSystemManagementService class
@@ -28,14 +34,14 @@ Removes DH-CHAP settings from a synthetic fibre channel port in a virtual machin
 > [!Note]  
 > This will fail if the virtual machine is running.
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 RemoveFibreChannelChap(
-  [in] string FcPortSettings[]
+  [in] string FcPortSettings[]
 );
 ```
 
@@ -101,7 +107,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -115,9 +121,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

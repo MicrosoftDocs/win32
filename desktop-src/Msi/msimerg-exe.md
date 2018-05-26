@@ -1,12 +1,17 @@
 ---
-Description: 'Msimerg.exe is a command line utility that uses MsiDatabaseMerge to merge a reference database into a base database.'
-ms.assetid: 'db0c9ae5-a8e8-4eff-ae14-67dcce352483'
-title: 'Msimerg.exe'
+Description: Msimerg.exe is a command line utility that uses MsiDatabaseMerge to merge a reference database into a base database.
+ms.assetid: db0c9ae5-a8e8-4eff-ae14-67dcce352483
+title: Msimerg.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msimerg.exe
 
-Msimerg.exe is a command line utility that uses [**MsiDatabaseMerge**](msidatabasemerge.md) to [merge](merges-and-transforms.md) a reference database into a base database.
+Msimerg.exe is a command line utility that uses [**MsiDatabaseMerge**](/windows/win32/Msiquery/nf-msiquery-msidatabasemergea?branch=master) to [merge](merges-and-transforms.md) a reference database into a base database.
 
 This tool is only available in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md).
 

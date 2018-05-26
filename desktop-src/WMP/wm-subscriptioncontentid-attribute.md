@@ -1,14 +1,20 @@
 ---
 title: WM/SubscriptionContentID Attribute
 description: The WM/SubscriptionContentID attribute is the subscription content identifier.
-ms.assetid: 'ef0fe575-3cea-4442-950b-40c60378364b'
-keywords: ["WM/SubscriptionContentID Attribute Windows Media Player"]
+ms.assetid: ef0fe575-3cea-4442-950b-40c60378364b
+keywords:
+- WM/SubscriptionContentID Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/SubscriptionContentID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/SubscriptionContentID Attribute
@@ -48,9 +54,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

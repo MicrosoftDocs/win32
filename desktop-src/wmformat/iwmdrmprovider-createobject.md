@@ -1,8 +1,11 @@
 ---
 title: IWMDRMProvider CreateObject method
 description: The CreateObject method retrieves a pointer to a specified interface, creating the implementing object if needed.
-ms.assetid: 'd408f7f3-9e49-4747-ac8f-d39db31d1240'
-keywords: ["CreateObject method windows Media Format", "CreateObject method windows Media Format , IWMDRMProvider interface", "IWMDRMProvider interface windows Media Format , CreateObject method"]
+ms.assetid: d408f7f3-9e49-4747-ac8f-d39db31d1240
+keywords:
+- CreateObject method windows Media Format
+- CreateObject method windows Media Format , IWMDRMProvider interface
+- IWMDRMProvider interface windows Media Format , CreateObject method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMProvider::CreateObject method
@@ -23,8 +31,8 @@ The **CreateObject** method retrieves a pointer to a specified interface, creati
 
 ```C++
 HRESULT CreateObject(
-  [in]  REFIID riid,
-  [out] void   **ppvObject
+  [in]  REFIID riid,
+  [out] void   **ppvObject
 );
 ```
 
@@ -66,7 +74,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -105,9 +113,9 @@ None.
 [**IWMDRMSecurity Interface**](iwmdrmsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

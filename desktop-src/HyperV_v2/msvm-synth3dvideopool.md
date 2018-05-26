@@ -1,7 +1,12 @@
 ---
-Description: 'Contains information about the synthetic 3-D video graphics processing units (GPUs) available on the host system.'
-ms.assetid: '771A42C3-4888-49DF-A389-161A2D0E3DBD'
-title: 'Msvm\_Synth3dVideoPool class'
+Description: Contains information about the synthetic 3-D video graphics processing units (GPUs) available on the host system.
+ms.assetid: 771A42C3-4888-49DF-A389-161A2D0E3DBD
+title: Msvm\_Synth3dVideoPool class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Synth3dVideoPool class
@@ -16,36 +21,36 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_Synth3dVideoPool : CIM_ResourcePool
 {
-  string   InstanceID;
-  string   Caption = "3D Display Controller Resource Pool";
-  string   Description = "Resource pool used to allocate synthetic 3D video controller resources to a virtual machine.";
-  string   ElementName;
+  string   InstanceID;
+  string   Caption = "3D Display Controller Resource Pool";
+  string   Description = "Resource pool used to allocate synthetic 3D video controller resources to a virtual machine.";
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[] = {"OK"};
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   PoolID;
-  boolean  Primordial = True;
-  uint64   Capacity;
-  uint64   Reserved = 0;
-  uint16   ResourceType;
-  string   OtherResourceType;
-  string   ResourceSubType = "Microsoft:Hyper-V:Synthetic 3D Display Controller";
-  string   AllocationUnits = "count";
-  string   ConsumedResourceUnits = "count";
-  uint64   CurrentlyConsumedResource;
-  uint64   MaxConsumableResource;
-  boolean  Is3dVideoSupported;
-  boolean  IsSLATCapable;
-  boolean  IsGPUCapable;
-  string   DirectXVersion;
-  string   RequiredMinimumDirectXVersion;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[] = {"OK"};
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   PoolID;
+  boolean  Primordial = True;
+  uint64   Capacity;
+  uint64   Reserved = 0;
+  uint16   ResourceType;
+  string   OtherResourceType;
+  string   ResourceSubType = "Microsoft:Hyper-V:Synthetic 3D Display Controller";
+  string   AllocationUnits = "count";
+  string   ConsumedResourceUnits = "count";
+  uint64   CurrentlyConsumedResource;
+  uint64   MaxConsumableResource;
+  boolean  Is3dVideoSupported;
+  boolean  IsSLATCapable;
+  boolean  IsGPUCapable;
+  string   DirectXVersion;
+  string   RequiredMinimumDirectXVersion;
 };
 ```
 
@@ -68,7 +73,7 @@ The **Msvm\_Synth3dVideoPool** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -344,9 +349,9 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 Specifies whether the host has a second level address translation (SLAT) capable CPU.
 
 > [!Note]  
-> Deprecated in Windows 10, version 1703 and Windows Server 2016.
+> Deprecated in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -623,8 +628,8 @@ Strings that describe the various [**OperationalStatus**](msvm-bioselement.md) a
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -638,9 +643,9 @@ Strings that describe the various [**OperationalStatus**](msvm-bioselement.md) a
 [**CIM\_ResourcePool**](cim-resourcepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

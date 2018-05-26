@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the Source Reader enables DirectX Video Acceleration (DXVA) on the video decoder.'
-ms.assetid: 'ec539038-3fd3-41b7-a0e6-e75e3f2828a7'
-title: 'MF\_SOURCE\_READER\_DISABLE\_DXVA attribute'
+---
+Description: Specifies whether the Source Reader enables DirectX Video Acceleration (DXVA) on the video decoder.
+ms.assetid: ec539038-3fd3-41b7-a0e6-e75e3f2828a7
+title: MF\_SOURCE\_READER\_DISABLE\_DXVA attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SOURCE\_READER\_DISABLE\_DXVA attribute
@@ -14,9 +19,9 @@ Specifies whether the [Source Reader](source-reader.md) enables DirectX Video Ac
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 

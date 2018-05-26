@@ -1,21 +1,26 @@
 ---
-Description: 'Proxy function for the Initialize method.'
-ms.assetid: '0db79eb4-dcb2-491a-9bea-a0dec418f80f'
-title: 'IWICBitmapEncoder\_Initialize\_Proxy function'
+Description: Proxy function for the Initialize method.
+ms.assetid: 0db79eb4-dcb2-491a-9bea-a0dec418f80f
+title: IWICBitmapEncoder\_Initialize\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICBitmapEncoder\_Initialize\_Proxy function
 
-Proxy function for the [**Initialize**](-wic-codec-iwicbitmapencoder-initialize.md) method.
+Proxy function for the [**Initialize**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapencoder-initialize?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICBitmapEncoder_Initialize_Proxy(
-  _In_ IWICBitmapEncoder           *THIS_PTR,
-  _In_ IStream                     *pIStream,
-  _In_ WICBitmapEncoderCacheOption cacheOption
+  _In_ IWICBitmapEncoder           *THIS_PTR,
+  _In_ IStream                     *pIStream,
+  _In_ WICBitmapEncoderCacheOption cacheOption
 );
 ```
 
@@ -28,9 +33,9 @@ HRESULT IWICBitmapEncoder_Initialize_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md)\***
+Type: **[**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master)\***
 
-Pointer to this [**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md) object.
+Pointer to this [**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master) object.
 
 </dd> <dt>
 
@@ -46,9 +51,9 @@ The output stream.
 *cacheOption* \[in\]
 </dt> <dd>
 
-Type: **[**WICBitmapEncoderCacheOption**](-wic-codec-wicbitmapencodercacheoption.md)**
+Type: **[**WICBitmapEncoderCacheOption**](/windows/win32/Wincodec/ne-wincodec-wicbitmapencodercacheoption?branch=master)**
 
-The [**WICBitmapEncoderCacheOption**](-wic-codec-wicbitmapencodercacheoption.md) used on initialization.
+The [**WICBitmapEncoderCacheOption**](/windows/win32/Wincodec/ne-wincodec-wicbitmapencodercacheoption?branch=master) used on initialization.
 
 </dd> </dl>
 
@@ -66,15 +71,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

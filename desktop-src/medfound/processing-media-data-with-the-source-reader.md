@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes how to use the Source Reader to process media data.'
-ms.assetid: '583f5736-f767-47c5-8fdc-b3645aed59f6'
+---
+Description: This topic describes how to use the Source Reader to process media data.
+ms.assetid: 583f5736-f767-47c5-8fdc-b3645aed59f6
 title: Using the Source Reader to Process Media Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Source Reader to Process Media Data
@@ -36,17 +41,17 @@ To create an instance of the Source Reader, call one of the following functions:
 
 | Function                                                                                                                                                                                                                                                        | Description                                                                                                                                                                                                 |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="MFCreateSourceReaderFromURL"></span><span id="mfcreatesourcereaderfromurl"></span><span id="MFCREATESOURCEREADERFROMURL"></span>[**MFCreateSourceReaderFromURL**](mfcreatesourcereaderfromurl.md)<br/>                                         | Takes a URL as input. This function uses the [Source Resolver](source-resolver.md) to create a media source from the URL.<br/>                                                                       |
-| <span id="MFCreateSourceReaderFromByteStream"></span><span id="mfcreatesourcereaderfrombytestream"></span><span id="MFCREATESOURCEREADERFROMBYTESTREAM"></span>[**MFCreateSourceReaderFromByteStream**](mfcreatesourcereaderfrombytestream.md)<br/>      | Takes a pointer to a byte stream. This function also uses the Source Resolver to create the media source.<br/>                                                                                        |
-| <span id="MFCreateSourceReaderFromMediaSource"></span><span id="mfcreatesourcereaderfrommediasource"></span><span id="MFCREATESOURCEREADERFROMMEDIASOURCE"></span>[**MFCreateSourceReaderFromMediaSource**](mfcreatesourcereaderfrommediasource.md)<br/> | Takes a pointer to a media source that has already been created. This function is useful for media sources that the Source Resolver cannot create, such capture devices or custom media sources.<br/> |
+| <span id="MFCreateSourceReaderFromURL"></span><span id="mfcreatesourcereaderfromurl"></span><span id="MFCREATESOURCEREADERFROMURL"></span>[**MFCreateSourceReaderFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfromurl?branch=master)<br/>                                         | Takes a URL as input. This function uses the [Source Resolver](source-resolver.md) to create a media source from the URL.<br/>                                                                       |
+| <span id="MFCreateSourceReaderFromByteStream"></span><span id="mfcreatesourcereaderfrombytestream"></span><span id="MFCREATESOURCEREADERFROMBYTESTREAM"></span>[**MFCreateSourceReaderFromByteStream**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrombytestream?branch=master)<br/>      | Takes a pointer to a byte stream. This function also uses the Source Resolver to create the media source.<br/>                                                                                        |
+| <span id="MFCreateSourceReaderFromMediaSource"></span><span id="mfcreatesourcereaderfrommediasource"></span><span id="MFCREATESOURCEREADERFROMMEDIASOURCE"></span>[**MFCreateSourceReaderFromMediaSource**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrommediasource?branch=master)<br/> | Takes a pointer to a media source that has already been created. This function is useful for media sources that the Source Resolver cannot create, such capture devices or custom media sources.<br/> |
 
 
 
  
 
-Typically, for media files, use [**MFCreateSourceReaderFromURL**](mfcreatesourcereaderfromurl.md). For devices, such as webcams, use [**MFCreateSourceReaderFromMediaSource**](mfcreatesourcereaderfrommediasource.md). (For more information about capture devices in Microsoft Media Foundation, see [Audio/Video Capture](audio-video-capture.md).)
+Typically, for media files, use [**MFCreateSourceReaderFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfromurl?branch=master). For devices, such as webcams, use [**MFCreateSourceReaderFromMediaSource**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrommediasource?branch=master). (For more information about capture devices in Microsoft Media Foundation, see [Audio/Video Capture](audio-video-capture.md).)
 
-Each of these functions takes an optional [**IMFAttributes**](imfattributes.md) pointer, which is used to set various options on the Source Reader, as described in the reference topics for these functions. To get the default behavior, set this parameter to **NULL**. Each function returns an [**IMFSourceReader**](imfsourcereader.md) pointer as an output parameter. You must call **CoInitialize(Ex)** and [**MFStartup**](mfstartup.md) function before calling any of these functions.
+Each of these functions takes an optional [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) pointer, which is used to set various options on the Source Reader, as described in the reference topics for these functions. To get the default behavior, set this parameter to **NULL**. Each function returns an [**IMFSourceReader**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsourcereader?branch=master) pointer as an output parameter. You must call **CoInitialize(Ex)** and [**MFStartup**](/windows/win32/mfapi/nf-mfapi-mfstartup?branch=master) function before calling any of these functions.
 
 The following code creates the Source Reader from a URL.
 
@@ -89,13 +94,13 @@ int __cdecl wmain(int argc, __in_ecount(argc) PCWSTR* argv)
 
 ## Enumerating Output Formats
 
-Every media source has at least one stream. For example, a video file might contain a video stream and an audio stream. The format of each stream is described using a media type, represented by the [**IMFMediaType**](imfmediatype.md) interface. For more information about media types, see [Media Types](media-types.md). You must examine the media type to understand the format of the data that you get from the Source Reader.
+Every media source has at least one stream. For example, a video file might contain a video stream and an audio stream. The format of each stream is described using a media type, represented by the [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) interface. For more information about media types, see [Media Types](media-types.md). You must examine the media type to understand the format of the data that you get from the Source Reader.
 
-Initially, every stream has a default format, which you can find by calling the [**IMFSourceReader::GetCurrentMediaType**](imfsourcereader-getcurrentmediatype.md) method:
+Initially, every stream has a default format, which you can find by calling the [**IMFSourceReader::GetCurrentMediaType**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-getcurrentmediatype?branch=master) method:
 
 For each stream, the media source offers a list of possible media types for that stream. The number of types depends on the source. If the source represents a media file, there is typically only one type per stream. A webcam, on the other hand, might be able to stream video in several different formats. In that case, the application can select which format to use from the list of media types.
 
-To get one of the media types for a stream, call the [**IMFSourceReader::GetNativeMediaType**](imfsourcereader-getnativemediatype.md) method. This method takes two index parameters: The index of the stream, and an index into the list of media types for the stream. To enumerate all the types for a stream, increment the list index while keeping the stream index constant. When the list index goes out of bounds, **GetNativeMediaType** returns **MF\_E\_NO\_MORE\_TYPES**.
+To get one of the media types for a stream, call the [**IMFSourceReader::GetNativeMediaType**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-getnativemediatype?branch=master) method. This method takes two index parameters: The index of the stream, and an index into the list of media types for the stream. To enumerate all the types for a stream, increment the list index while keeping the stream index constant. When the list index goes out of bounds, **GetNativeMediaType** returns **MF\_E\_NO\_MORE\_TYPES**.
 
 
 ```C++
@@ -127,7 +132,7 @@ HRESULT EnumerateTypesForStream(IMFSourceReader *pReader, DWORD dwStreamIndex)
 
 
 
-To enumerate the media types for every stream, increment the stream index. When the stream index goes out of bounds, [**GetNativeMediaType**](imfsourcereader-getnativemediatype.md) returns **MF\_E\_INVALIDSTREAMNUMBER**.
+To enumerate the media types for every stream, increment the stream index. When the stream index goes out of bounds, [**GetNativeMediaType**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-getnativemediatype?branch=master) returns **MF\_E\_INVALIDSTREAMNUMBER**.
 
 
 ```C++
@@ -161,7 +166,7 @@ HRESULT EnumerateTypesForStream(IMFSourceReader *pReader, DWORD dwStreamIndex)
 
 ## Setting Output Formats
 
-To change the output format, call the [**IMFSourceReader::SetCurrentMediaType**](imfsourcereader-setcurrentmediatype.md) method. This method takes the stream index and a media type:
+To change the output format, call the [**IMFSourceReader::SetCurrentMediaType**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype?branch=master) method. This method takes the stream index and a media type:
 
 ``` syntax
 hr = pReader->SetCurrentMediaType(dwStreamIndex, pMediaType);
@@ -169,17 +174,17 @@ hr = pReader->SetCurrentMediaType(dwStreamIndex, pMediaType);
 
 For the media type, it depends on whether you want to insert a decoder.
 
--   To get data directly from the source without decoding it, use one of the types returned by [**GetNativeMediaType**](imfsourcereader-getnativemediatype.md).
+-   To get data directly from the source without decoding it, use one of the types returned by [**GetNativeMediaType**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-getnativemediatype?branch=master).
 -   To decode the stream, create a new media type that describes the desired uncompressed format.
 
 In the case of the decoder, create the media type as follows:
 
-1.  Call [**MFCreateMediaType**](mfcreatemediatype.md) to create a new media type.
+1.  Call [**MFCreateMediaType**](/windows/win32/mfapi/nf-mfapi-mfcreatemediatype?branch=master) to create a new media type.
 2.  Set the [**MF\_MT\_MAJOR\_TYPE**](mf-mt-major-type-attribute.md) attribute to specify audio or video.
 3.  Set the [**MF\_MT\_SUBTYPE**](mf-mt-subtype-attribute.md) attribute to specify the subtype of the decoding format. (See [Audio Subtype GUIDs](audio-subtype-guids.md) and [Video Subtype GUIDs](video-subtype-guids.md).)
-4.  Call [**IMFSourceReader::SetCurrentMediaType**](imfsourcereader-setcurrentmediatype.md).
+4.  Call [**IMFSourceReader::SetCurrentMediaType**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype?branch=master).
 
-The Source Reader will automatically load the decoder. To get the complete details of the decoded format, call [**IMFSourceReader::GetCurrentMediaType**](imfsourcereader-getcurrentmediatype.md) after the call to [**SetCurrentMediaType**](imfsourcereader-setcurrentmediatype.md)
+The Source Reader will automatically load the decoder. To get the complete details of the decoded format, call [**IMFSourceReader::GetCurrentMediaType**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-getcurrentmediatype?branch=master) after the call to [**SetCurrentMediaType**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype?branch=master)
 
 The following code configures the video stream for RGB-32 and the audio stream for PCM audio.
 
@@ -258,7 +263,7 @@ done:
 
 ## Processing Media Data
 
-To get media data from the source, call the [**IMFSourceReader::ReadSample**](imfsourcereader-readsample.md) method, as shown in the following code.
+To get media data from the source, call the [**IMFSourceReader::ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master) method, as shown in the following code.
 
 
 ```C++
@@ -277,9 +282,9 @@ To get media data from the source, call the [**IMFSourceReader::ReadSample**](im
 
 
 
-The first parameter is the index of the stream for which you want to get data. You can also specify **MF\_SOURCE\_READER\_ANY\_STREAM** to get the next available data from any stream. The second parameter contains optional flags; see [**MF\_SOURCE\_READER\_CONTROL\_FLAG**](mf-source-reader-control-flag.md) for a list of these. The third parameter receives the index of the stream that actually produces the data. You will need this information if you set the first parameter to **MF\_SOURCE\_READER\_ANY\_STREAM**. The fourth parameter receives status flags, indicating various events that can occur while reading the data, such as format changes in the stream. For a list of status flags, see [**MF\_SOURCE\_READER\_FLAG**](mf-source-reader-flag.md).
+The first parameter is the index of the stream for which you want to get data. You can also specify **MF\_SOURCE\_READER\_ANY\_STREAM** to get the next available data from any stream. The second parameter contains optional flags; see [**MF\_SOURCE\_READER\_CONTROL\_FLAG**](/windows/win32/mfreadwrite/ne-mfreadwrite-mf_source_reader_control_flag?branch=master) for a list of these. The third parameter receives the index of the stream that actually produces the data. You will need this information if you set the first parameter to **MF\_SOURCE\_READER\_ANY\_STREAM**. The fourth parameter receives status flags, indicating various events that can occur while reading the data, such as format changes in the stream. For a list of status flags, see [**MF\_SOURCE\_READER\_FLAG**](/windows/win32/mfreadwrite/ne-mfreadwrite-mf_source_reader_flag?branch=master).
 
-If the media source is able to produce data for the requested stream, the last parameter of [**ReadSample**](imfsourcereader-readsample.md) receives a pointer to the [**IMFSample**](imfsample.md) interface of a media sample object. Use the media sample to:
+If the media source is able to produce data for the requested stream, the last parameter of [**ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master) receives a pointer to the [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) interface of a media sample object. Use the media sample to:
 
 -   Get a pointer to the media data.
 -   Get the presentation time and sample duration.
@@ -287,9 +292,9 @@ If the media source is able to produce data for the requested stream, the last p
 
 The contents of the media data depend on the format of the stream. For an uncompressed video stream, each media sample contains a single video frame. For an uncompressed audio stream, each media sample contains a sequence of audio frames.
 
-The [**ReadSample**](imfsourcereader-readsample.md) method can return **S\_OK** and yet not return a media sample in the *pSample* parameter. For example, when you reach the end of the file, **ReadSample** sets the **MF\_SOURCE\_READERF\_ENDOFSTREAM** flag in *dwFlags* and sets *pSample* to **NULL**. In this case, the **ReadSample** method returns **S\_OK** because no error has occurred, even though the *pSample* parameter is set to **NULL**. Therefore, always check the value of *pSample* before you dereference it.
+The [**ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master) method can return **S\_OK** and yet not return a media sample in the *pSample* parameter. For example, when you reach the end of the file, **ReadSample** sets the **MF\_SOURCE\_READERF\_ENDOFSTREAM** flag in *dwFlags* and sets *pSample* to **NULL**. In this case, the **ReadSample** method returns **S\_OK** because no error has occurred, even though the *pSample* parameter is set to **NULL**. Therefore, always check the value of *pSample* before you dereference it.
 
-The following code shows how to call [**ReadSample**](imfsourcereader-readsample.md) in a loop and check the information returned by the method, until the end of the media file is reached.
+The following code shows how to call [**ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master) in a loop and check the information returned by the method, until the end of the media file is reached.
 
 
 ```C++
@@ -377,17 +382,17 @@ HRESULT ProcessSamples(IMFSourceReader *pReader)
 
 ## Draining the Data Pipeline
 
-During data processing, a decoder or other transform might buffer input samples. In the following diagram, the application calls [**ReadSample**](imfsourcereader-readsample.md) and receives a sample with a presentation time equal to *t1*. The decoder is holding samples for *t2* and *t3*.
+During data processing, a decoder or other transform might buffer input samples. In the following diagram, the application calls [**ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master) and receives a sample with a presentation time equal to *t1*. The decoder is holding samples for *t2* and *t3*.
 
 ![an illustration that shows buffering in a decoder.](images/sourcereader02.png)
 
-On the next call to [**ReadSample**](imfsourcereader-readsample.md), the Source Reader might give *t4* to the decoder and return *t2* to the application.
+On the next call to [**ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master), the Source Reader might give *t4* to the decoder and return *t2* to the application.
 
-If you want to decode all of the samples that are currently buffered in the decoder, without passing any new samples to the decoder, set the **MF\_SOURCE\_READER\_CONTROLF\_DRAIN** flag in the *dwControlFlags* parameter of [**ReadSample**](imfsourcereader-readsample.md). Continue to do this in a loop until **ReadSample** returns a **NULL** sample pointer. Depending on how the decoder buffers samples, that might happen immediately or after several calls to **ReadSample**.
+If you want to decode all of the samples that are currently buffered in the decoder, without passing any new samples to the decoder, set the **MF\_SOURCE\_READER\_CONTROLF\_DRAIN** flag in the *dwControlFlags* parameter of [**ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master). Continue to do this in a loop until **ReadSample** returns a **NULL** sample pointer. Depending on how the decoder buffers samples, that might happen immediately or after several calls to **ReadSample**.
 
 ## Getting the File Duration
 
-To get the duration of a media file, call the [**IMFSourceReader::GetPresentationAttribute**](imfsourcereader-getpresentationattribute.md) method and request the [**MF\_PD\_DURATION**](mf-pd-duration-attribute.md) attribute, as shown in the following code.
+To get the duration of a media file, call the [**IMFSourceReader::GetPresentationAttribute**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-getpresentationattribute?branch=master) method and request the [**MF\_PD\_DURATION**](mf-pd-duration-attribute.md) attribute, as shown in the following code.
 
 
 ```C++
@@ -413,7 +418,7 @@ The function shown here gets the duration in 100-nanosecond units. Divide by 10,
 
 A media source that gets data from a local file can usually seek to arbitrary positions in the file. Capture devices such as webcams generally cannot seek, because the data is live. A source that streams data over a network might be able to seek, depending on the network streaming protocol.
 
-To find out whether a media source can seek, call [**IMFSourceReader::GetPresentationAttribute**](imfsourcereader-getpresentationattribute.md) and request the [MF\_SOURCE\_READER\_MEDIASOURCE\_CHARACTERISTICS](mf-source-reader-mediasource-characteristics.md) attribute, as shown in the following code:
+To find out whether a media source can seek, call [**IMFSourceReader::GetPresentationAttribute**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-getpresentationattribute?branch=master) and request the [MF\_SOURCE\_READER\_MEDIASOURCE\_CHARACTERISTICS](mf-source-reader-mediasource-characteristics.md) attribute, as shown in the following code:
 
 
 ```C++
@@ -445,7 +450,7 @@ HRESULT GetSourceFlags(IMFSourceReader *pReader, ULONG *pulFlags)
 
 
 
-This function gets a set of capabilities flags from the source. These flags are defined in the [**MFMEDIASOURCE\_CHARACTERISTICS**](mfmediasource-characteristics.md) enumeration. Two flags relate to seeking:
+This function gets a set of capabilities flags from the source. These flags are defined in the [**MFMEDIASOURCE\_CHARACTERISTICS**](/windows/win32/mfidl/ne-mfidl-_mfmediasource_characteristics?branch=master) enumeration. Two flags relate to seeking:
 
 
 
@@ -476,7 +481,7 @@ BOOL SourceCanSeek(IMFSourceReader *pReader)
 
 
 
-To seek, call the [**IMFSourceReader::SetCurrentPosition**](imfsourcereader-setcurrentposition.md) method, as shown in the following code.
+To seek, call the [**IMFSourceReader::SetCurrentPosition**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentposition?branch=master) method, as shown in the following code.
 
 
 ```C++
@@ -507,22 +512,22 @@ Although you can set the playback rate using the Source Reader, doing is typical
 -   The application controls the presentation times, so the application can implement fast or slow play without setting the rate on the source.
 -   Some media sources support *thinning* mode, where the source delivers fewer samples—typically just the key frames. However, if you want to drop non-key frames, you can check each sample for the [MFSampleExtension\_CleanPoint](mfsampleextension-cleanpoint-attribute.md) attribute.
 
-To set the playback rate using the Source Reader, call the [**IMFSourceReader::GetServiceForStream**](imfsourcereader-getserviceforstream.md) method to get the [**IMFRateSupport**](imfratesupport.md) and [**IMFRateControl**](imfratecontrol.md) interfaces from the media source.
+To set the playback rate using the Source Reader, call the [**IMFSourceReader::GetServiceForStream**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-getserviceforstream?branch=master) method to get the [**IMFRateSupport**](/windows/win32/mfidl/nn-mfidl-imfratesupport?branch=master) and [**IMFRateControl**](/windows/win32/mfidl/nn-mfidl-imfratecontrol?branch=master) interfaces from the media source.
 
 ## Hardware Acceleration
 
 The Source Reader is compatible with Microsoft DirectX Video Acceleration (DXVA) 2.0 for hardware accelerated video decoding. To use DXVA with the Source Reader, perform the following steps.
 
 1.  Create a Microsoft Direct3D device.
-2.  Call the [**DXVA2CreateDirect3DDeviceManager9**](dxva2createdirect3ddevicemanager9.md) function to create the Direct3D device manager. This function gets a pointer to the [**IDirect3DDeviceManager9**](idirect3ddevicemanager9.md) interface.
-3.  Call the [**IDirect3DDeviceManager9::ResetDevice**](idirect3ddevicemanager9-resetdevice.md) method with a pointer to the Direct3D device.
-4.  Create an attribute store by calling the [**MFCreateAttributes**](mfcreateattributes.md) function.
+2.  Call the [**DXVA2CreateDirect3DDeviceManager9**](/windows/win32/dxva2api/nf-dxva2api-dxva2createdirect3ddevicemanager9?branch=master) function to create the Direct3D device manager. This function gets a pointer to the [**IDirect3DDeviceManager9**](/windows/win32/dxva2api/nn-dxva2api-idirect3ddevicemanager9?branch=master) interface.
+3.  Call the [**IDirect3DDeviceManager9::ResetDevice**](/windows/win32/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice?branch=master) method with a pointer to the Direct3D device.
+4.  Create an attribute store by calling the [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master) function.
 5.  Create the Source Reader. Pass the attribute store in the *pAttributes* parameter of the creation function.
 
 When you provide a Direct3D device, the Source Reader allocates video samples that are compatible with the DXVA video processor API. You can use DXVA video processing to perform hardware deinterlacing or video mixing. For more information, see [DXVA Video Processing](dxva-video-processing.md). Also, if the decoder supports DXVA 2.0, it will use the Direct3D device to perform hardware-accelerated decoding.
 
 > \[!Important\]  
-> Beginning in Windows 8, [**IMFDXGIDeviceManager**](imfdxgidevicemanager.md) can be used instead of the [**IDirect3DDeviceManager9**](idirect3ddevicemanager9.md). For Windows Store apps, you must use **IMFDXGIDeviceManager**. For more info, see the [Direct3D 11 Video APIs](direct3d-11-video-apis.md).
+> Beginning in Windows 8, [**IMFDXGIDeviceManager**](/windows/win32/mfobjects/nn-mfobjects-imfdxgidevicemanager?branch=master) can be used instead of the [**IDirect3DDeviceManager9**](/windows/win32/dxva2api/nn-dxva2api-idirect3ddevicemanager9?branch=master). For Windows Store apps, you must use **IMFDXGIDeviceManager**. For more info, see the [Direct3D 11 Video APIs](direct3d-11-video-apis.md).
 
  
 

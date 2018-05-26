@@ -2,13 +2,16 @@
 title: AddByA method of the PS\_DnsServerResourceRecord class
 description: Adds a host address (A) resource record resource to a DNS server.
 audience: developer
-ms.assetid: '69f3616f-da9d-4c73-9f9a-8289e927d7bd'
-ms.prod: 'windows-server-dev'
+ms.assetid: 69f3616f-da9d-4c73-9f9a-8289e927d7bd
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByA method", "AddByA method, PS_DnsServerResourceRecord class", "PS_DnsServerResourceRecord class, AddByA method"]
+keywords:
+- AddByA method
+- AddByA method, PS_DnsServerResourceRecord class
+- PS_DnsServerResourceRecord class, AddByA method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByA method of the PS\_DnsServerResourceRecord class
@@ -28,19 +34,19 @@ Adds a host address (A) resource record resource to a DNS server.
 
 ```mof
 uint32 AddByA(
-  [in]  boolean                 CreatePtr,
-  [in]  string                  IPv4Address,
-  [in]  string                  ZoneName,
-  [in]  string                  Name,
-  [in]  datetime                TimeToLive,
-  [in]  boolean                 AgeRecord,
-  [in]  boolean                 AllowUpdateAny,
-  [in]  boolean                 A,
-  [in]  string                  ComputerName,
-  [in]  boolean                 PassThru,
-  [in]  string                  ZoneScope,
-  [in]  string                  VirtualizationInstance,
-  [out] DnsServerResourceRecord cmdletOutput
+  [in]  boolean                 CreatePtr,
+  [in]  string                  IPv4Address,
+  [in]  string                  ZoneName,
+  [in]  string                  Name,
+  [in]  datetime                TimeToLive,
+  [in]  boolean                 AgeRecord,
+  [in]  boolean                 AllowUpdateAny,
+  [in]  boolean                 A,
+  [in]  string                  ComputerName,
+  [in]  boolean                 PassThru,
+  [in]  string                  ZoneScope,
+  [in]  string                  VirtualizationInstance,
+  [out] DnsServerResourceRecord cmdletOutput
 );
 ```
 
@@ -125,7 +131,7 @@ Specifies a DNS server. If you do not specify this parameter, the command runs o
 
 Name of the zone scope.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -134,7 +140,7 @@ Name of the zone scope.
 
 Unique identifier of the virtualization instance.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -152,7 +158,7 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -166,9 +172,9 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 [**PS\_DnsServerResourceRecord**](ps-dnsserverresourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

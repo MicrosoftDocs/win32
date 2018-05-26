@@ -1,7 +1,12 @@
 ---
 title: dp3 (sm4 - asm)
 description: 3-dimensional vector dot-product of components rgb, POS-swizzle.
-ms.assetid: '8E6EA6CD-B5BB-4D64-8846-F7B9F7135582'
+ms.assetid: 8E6EA6CD-B5BB-4D64-8846-F7B9F7135582
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dp3 (sm4 - asm)
@@ -15,7 +20,7 @@ ms.assetid: '8E6EA6CD-B5BB-4D64-8846-F7B9F7135582'
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ ms.assetid: '8E6EA6CD-B5BB-4D64-8846-F7B9F7135582'
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,7 +48,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -62,7 +67,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -71,9 +76,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

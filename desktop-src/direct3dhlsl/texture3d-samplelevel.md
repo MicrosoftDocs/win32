@@ -1,12 +1,18 @@
 ---
 title: Texture3D SampleLevel methods
 description: Samples a texture on the specified mipmap level.
-ms.assetid: '0C3CACD0-C870-4C69-9BB6-2D7376386711'
-keywords: ["SampleLevel methods HLSL"]
+ms.assetid: 0C3CACD0-C870-4C69-9BB6-2D7376386711
+keywords:
+- SampleLevel methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture3D::SampleLevel methods
@@ -34,9 +40,9 @@ Samples a texture on the specified mipmap level.
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

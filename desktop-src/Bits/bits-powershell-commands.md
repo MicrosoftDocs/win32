@@ -1,7 +1,12 @@
 ---
 title: Managed Reference for BITS PowerShell Commands
 description: Background Intelligent Transfer Service (BITS) 4.0 can use Windows PowerShell cmdlets to manage transfer jobs.
-ms.assetid: '2c151dfe-4f89-41ea-a533-21ffcf0aa39e'
+ms.assetid: 2c151dfe-4f89-41ea-a533-21ffcf0aa39e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managed Reference for BITS PowerShell Commands
@@ -16,7 +21,7 @@ Windows PowerShell cmdlets for BITS provide much of the same functionality as th
 > [!Note]  
 > To use these commands, you must first import the BITS PowerShell module, using the `Import-Module Bits Transfer` command. For more information, see the following [TechNet article](http://technet.microsoft.com/magazine/ff382721.aspx).
 
- 
+ 
 
 For more information on using Windows Powershell, see [Windows PowerShell](http://go.microsoft.com/fwlink/p/?linkid=142509).
 
@@ -43,11 +48,11 @@ These BITS command classes are implemented by Windows PowerShell. These classes 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

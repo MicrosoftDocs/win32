@@ -1,8 +1,11 @@
 ---
 title: IMimeMessage SetTextBody method
 description: Sets the text body for the message.
-ms.assetid: 'fc3e8bda-486d-4492-99bf-406c50c63fbc'
-keywords: ["SetTextBody method Windows Mail (formerly Outlook Express)", "SetTextBody method Windows Mail (formerly Outlook Express) , IMimeMessage interface", "IMimeMessage interface Windows Mail (formerly Outlook Express) , SetTextBody method"]
+ms.assetid: fc3e8bda-486d-4492-99bf-406c50c63fbc
+keywords:
+- SetTextBody method Windows Mail (formerly Outlook Express)
+- SetTextBody method Windows Mail (formerly Outlook Express) , IMimeMessage interface
+- IMimeMessage interface Windows Mail (formerly Outlook Express) , SetTextBody method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessage::SetTextBody method
@@ -22,11 +30,11 @@ Sets the text body for the message.
 
 ```C++
 HRESULT SetTextBody(
-  [in]  DWORD        dwTxtType,
-  [in]  ENCODINGTYPE ietEncoding,
-  [in]  HBODY        hAlternative,
-  [in]  IStream      *pStream,
-  [out] LPHBODY      phBody
+  [in]  DWORD        dwTxtType,
+  [in]  ENCODINGTYPE ietEncoding,
+  [in]  HBODY        hAlternative,
+  [in]  IStream      *pStream,
+  [out] LPHBODY      phBody
 );
 ```
 
@@ -52,7 +60,7 @@ Specifies the type of text body to retrieve.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -110,7 +118,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -183,8 +191,8 @@ HRESULT MyCreateMessage(LPCTSTR pszPath, IStream ** ppStream)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -192,9 +200,9 @@ HRESULT MyCreateMessage(LPCTSTR pszPath, IStream ** ppStream)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

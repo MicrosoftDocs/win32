@@ -1,6 +1,11 @@
-﻿---
-Description: 'Forwards the events fired by a specified ShellFolderView object to corresponding ShellFolderViewOC event handlers.'
+---
+Description: Forwards the events fired by a specified ShellFolderView object to corresponding ShellFolderViewOC event handlers.
 title: ShellFolderViewOC object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellFolderViewOC object

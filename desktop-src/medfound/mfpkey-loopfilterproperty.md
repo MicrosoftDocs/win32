@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the codec should use the in-loop deblocking filter during encoding.'
-ms.assetid: '395a356a-5f58-46b4-b2ff-47f98106f487'
-title: 'MFPKEY\_LOOPFILTER Property'
+---
+Description: Specifies whether the codec should use the in-loop deblocking filter during encoding.
+ms.assetid: 395a356a-5f58-46b4-b2ff-47f98106f487
+title: MFPKEY\_LOOPFILTER Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_LOOPFILTER Property

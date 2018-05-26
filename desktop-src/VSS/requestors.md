@@ -1,12 +1,17 @@
 ---
-Description: 'A requester is any application that uses the VSS API (specifically the IVssBackupComponents interface) to request the services of the Volume Shadow Copy Service to create and manage shadow copies and shadow copy sets of one or more volumes.'
-ms.assetid: 'e49920d0-5b66-4aa1-b3ca-641629df5f8a'
+Description: A requester is any application that uses the VSS API (specifically the IVssBackupComponents interface) to request the services of the Volume Shadow Copy Service to create and manage shadow copies and shadow copy sets of one or more volumes.
+ms.assetid: e49920d0-5b66-4aa1-b3ca-641629df5f8a
 title: Requesters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Requesters
 
-A [*requester*](vssgloss-r.md#base-vssgloss-requesters) is any application that uses the VSS API (specifically the [**IVssBackupComponents**](ivssbackupcomponents.md) interface) to request the services of the Volume Shadow Copy Service to create and manage shadow copies and shadow copy sets of one or more volumes.
+A [*requester*](vssgloss-r.md#base-vssgloss-requesters) is any application that uses the VSS API (specifically the [**IVssBackupComponents**](/windows/win32/VsBackup/nl-vsbackup-ivssbackupcomponents?branch=master) interface) to request the services of the Volume Shadow Copy Service to create and manage shadow copies and shadow copy sets of one or more volumes.
 
 The most typical example of a requester (and the only one addressed in this documentation) is a VSS-aware backup/restore application, which uses shadow-copied data as a stable source for its backup operations.
 
@@ -30,11 +35,11 @@ As part of a backup, both requester and writer metadata must be stored so that i
 
 The requester maintains control over VSS backup and restore operations by generating COM events through various calls in the requester API. These calls can do the following:
 
--   Make requests of the providers, for example, [**IVssBackupComponents::DoSnapshotSet**](ivssbackupcomponents-dosnapshotset.md) causes the provider to create a shadow copy of the selected volume.
--   Trigger the writers to return information, for example, [**IVssBackupComponents::GatherWriterMetadata**](ivssbackupcomponents-gatherwritermetadata.md) enables the requester to obtain each writer's Writer Metadata Document.
--   Require writers to prepare for or handle various phases of the shadow copy and backup operations, for example, [**IVssBackupComponents::PrepareForBackup**](ivssbackupcomponents-prepareforbackup.md) signals writers to set up for the I/O freeze.
+-   Make requests of the providers, for example, [**IVssBackupComponents::DoSnapshotSet**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset?branch=master) causes the provider to create a shadow copy of the selected volume.
+-   Trigger the writers to return information, for example, [**IVssBackupComponents::GatherWriterMetadata**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata?branch=master) enables the requester to obtain each writer's Writer Metadata Document.
+-   Require writers to prepare for or handle various phases of the shadow copy and backup operations, for example, [**IVssBackupComponents::PrepareForBackup**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup?branch=master) signals writers to set up for the I/O freeze.
 
-A requester receives information from the writers through live or stored Writer Metadata Documents and through the use of the [**IVssComponent**](ivsscomponent.md) interface, which the writer can update.
+A requester receives information from the writers through live or stored Writer Metadata Documents and through the use of the [**IVssComponent**](/windows/win32/VsWriter/nl-vswriter-ivsscomponent?branch=master) interface, which the writer can update.
 
 ## Life Cycle of a Requester during Backup
 

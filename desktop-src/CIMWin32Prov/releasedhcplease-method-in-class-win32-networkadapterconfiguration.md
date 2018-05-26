@@ -1,15 +1,18 @@
 ---
-Description: 'The ReleaseDHCPLease WMI class method releases the IP address bound to a specific DHCP-enabled network adapter.'
+Description: The ReleaseDHCPLease WMI class method releases the IP address bound to a specific DHCP-enabled network adapter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0cf4b531-8626-4388-bffa-e16a4aa8c794'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0cf4b531-8626-4388-bffa-e16a4aa8c794
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ReleaseDHCPLease method of the Win32\_NetworkAdapterConfiguration class'
+title: ReleaseDHCPLease method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ReleaseDHCPLease method of the Win32\_NetworkAdapterConfiguration class
@@ -382,7 +385,7 @@ DHCP not enabled on adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -391,7 +394,7 @@ DHCP not enabled on adapter.
 > \[!Caution\]  
 > If DHCP is enabled on the local computer system, the option disables TCP/IP on this specific network adapter. Unless you have an alternate path to the target system, that is, another TCP/IP bound network adapter, all TCP/IP communications will be lost.
 
- 
+ 
 
 ## Examples
 
@@ -423,8 +426,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -450,9 +453,9 @@ Next
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: To view the complete frameset in a browser
 description: Open the frameset in Microsoft Internet Explorer. For this example, double-click frames.htm.
-ms.assetid: '5DA74423-82FB-4017-98CC-0A36F4B3751B'
+ms.assetid: 5DA74423-82FB-4017-98CC-0A36F4B3751B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To view the complete frameset in a browser

@@ -1,8 +1,16 @@
 ---
 title: StreamingTcpServerExample
 description: This example shows a TCP server that accepts a channel, and reads one-way messages in a streaming fashion.
-ms.assetid: '8b79735b-f238-4d49-8977-2935fc208d48'
-keywords: ["StreamingTcpServerExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 8b79735b-f238-4d49-8977-2935fc208d48
+keywords:
+- StreamingTcpServerExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StreamingTcpServerExample

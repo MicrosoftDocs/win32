@@ -1,7 +1,12 @@
 ---
 title: Annotation Syntax (Direct3D 11)
 description: An annotation is a user-defined piece of information, declared with the syntax described in this section.
-ms.assetid: 'a81198d2-c4d7-47b5-b3b8-2de11a9ee9a3'
+ms.assetid: a81198d2-c4d7-47b5-b3b8-2de11a9ee9a3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Annotation Syntax (Direct3D 11)
@@ -15,7 +20,7 @@ An annotation is a user-defined piece of information, declared with the syntax d
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -30,7 +35,7 @@ An annotation is a user-defined piece of information, declared with the syntax d
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -75,9 +80,9 @@ return pos;
 [Effect Variable Syntax](d3d11-effect-variable-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

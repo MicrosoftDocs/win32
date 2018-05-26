@@ -1,7 +1,12 @@
 ---
-Description: 'The TrustedDomain object stores information about a trust relationship with a domain.'
-ms.assetid: 'fab69367-2143-49ef-a1b9-9c1d846fd4e1'
+Description: The TrustedDomain object stores information about a trust relationship with a domain.
+ms.assetid: fab69367-2143-49ef-a1b9-9c1d846fd4e1
 title: TrustedDomain Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TrustedDomain Object

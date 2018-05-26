@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_FUNCTIONAL\_CATEGORY\_VIDEO\_CAPTURE'
-ms.assetid: '3b7f7f5f-9cb7-450a-ad4c-ae1688cb7878'
-title: 'WPD\_FUNCTIONAL\_CATEGORY\_VIDEO\_CAPTURE'
+Description: WPD\_FUNCTIONAL\_CATEGORY\_VIDEO\_CAPTURE
+ms.assetid: 3b7f7f5f-9cb7-450a-ad4c-ae1688cb7878
+title: WPD\_FUNCTIONAL\_CATEGORY\_VIDEO\_CAPTURE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_FUNCTIONAL\_CATEGORY\_VIDEO\_CAPTURE

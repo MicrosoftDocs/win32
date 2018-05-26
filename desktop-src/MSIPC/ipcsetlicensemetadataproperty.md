@@ -4,11 +4,12 @@ description: Used to set the metadata of the license.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'F6C686C2-B7D5-4149-B05C-968E9C5629EC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: F6C686C2-B7D5-4149-B05C-968E9C5629EC
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcSetLicenseMetadataProperty function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcSetLicenseMetadataProperty function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcSetLicenseMetadataProperty function
@@ -28,10 +32,10 @@ Used to set the metadata of the license.
 
 ```C++
 HRESULT WINAPI IpcSetLicenseMetadataProperty(
-  _In_     IPC_LICENSE_METADATA_HANDLE hLicenseMetadata,
-           BOOL                        fDelete,
-           DWORD                       dwPropID,
-  _In_opt_ LPCVOID                     pvProperty
+  _In_     IPC_LICENSE_METADATA_HANDLE hLicenseMetadata,
+           BOOL                        fDelete,
+           DWORD                       dwPropID,
+  _In_opt_ LPCVOID                     pvProperty
 );
 ```
 
@@ -81,7 +85,7 @@ For more information, see [**License metadata property types**](license-metadata
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 Possible values include, but are not limited to, those in the following list.
 
@@ -96,8 +100,8 @@ Possible values include, but are not limited to, those in the following list.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -135,9 +139,9 @@ Possible values include, but are not limited to, those in the following list.
 [**IpcRegisterLicense**](ipcregisterlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

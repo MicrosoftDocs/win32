@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'a3aeea9b-09c0-4834-892a-c378b67402f4'
+ms.assetid: a3aeea9b-09c0-4834-892a-c378b67402f4
 title: The Complete Service Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Complete Service Sample

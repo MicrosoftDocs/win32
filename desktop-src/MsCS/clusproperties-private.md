@@ -4,11 +4,14 @@ description: Indicates whether the properties in a ClusProperties collection are
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '94ce9052-98af-4edd-b3da-6aeff40d8242'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 94ce9052-98af-4edd-b3da-6aeff40d8242
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Private property Failover Cluster", "Private property Failover Cluster , ClusProperties collection", "ClusProperties collection Failover Cluster , Private property"]
+keywords:
+- Private property Failover Cluster
+- Private property Failover Cluster , ClusProperties collection
+- ClusProperties collection Failover Cluster , Private property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusProperties.Private property
@@ -47,7 +53,7 @@ A **Variant** set to **VARIANT\_TRUE** if the properties are private and **VARIA
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -63,9 +69,9 @@ A **Variant** set to **VARIANT\_TRUE** if the properties are private and **VARIA
 [**ClusProperties**](clusproperties-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

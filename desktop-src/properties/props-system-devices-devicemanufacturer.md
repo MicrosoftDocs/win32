@@ -1,7 +1,12 @@
 ---
-Description: 'Device manufacturer. Property on device object.'
-ms.assetid: '50a3f5b2-505f-4558-8d41-a0d95d2eecd2'
-title: 'System.Devices.DeviceManufacturer'
+Description: Device manufacturer. Property on device object.
+ms.assetid: 50a3f5b2-505f-4558-8d41-a0d95d2eecd2
+title: System.Devices.DeviceManufacturer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.DeviceManufacturer

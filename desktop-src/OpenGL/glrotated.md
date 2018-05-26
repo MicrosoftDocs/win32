@@ -1,8 +1,9 @@
 ---
 title: glRotated function
 description: The glRotated function multiplies the current matrix by a rotation matrix.
-ms.assetid: '9adfeb5b-8c2a-4acf-a251-6ba23cc4c3a6'
-keywords: ["glRotated function OpenGL"]
+ms.assetid: 9adfeb5b-8c2a-4acf-a251-6ba23cc4c3a6
+keywords:
+- glRotated function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glRotated function
@@ -22,10 +28,10 @@ The **glRotated** function multiplies the current matrix by a rotation matrix.
 
 ```C++
 void WINAPI glRotated(
-   GLdouble angle,
-   GLdouble x,
-   GLdouble y,
-   GLdouble z
+   GLdouble angle,
+   GLdouble x,
+   GLdouble y,
+   GLdouble z
 );
 ```
 
@@ -95,7 +101,7 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 The **glRotated** function computes a matrix that performs a counterclockwise rotation of *angle* degrees about the vector from the origin through the point (*x*, *y*, *z*).
 
-The current matrix (see [**glMatrixMode**](glmatrixmode.md)) is multiplied by this rotation matrix, with the product replacing the current matrix. That is, if M is the current matrix and R is the translation matrix, then M is replaced with M • R.
+The current matrix (see [**glMatrixMode**](glmatrixmode.md)) is multiplied by this rotation matrix, with the product replacing the current matrix. That is, if M is the current matrix and R is the translation matrix, then M is replaced with M   R.
 
 If the matrix mode is either GL\_MODELVIEW or GL\_PROJECTION, all objects drawn after **glRotated** is called are rotated. Use [**glPushMatrix**](glpushmatrix.md) and [**glPopMatrix**](glpopmatrix.md) to save and restore the unrotated coordinate system.
 
@@ -117,8 +123,8 @@ The following functions retrieve information related to **glRotated**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -153,9 +159,9 @@ The following functions retrieve information related to **glRotated**:
 [**glTranslate**](gltranslate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

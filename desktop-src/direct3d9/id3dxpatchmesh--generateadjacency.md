@@ -1,7 +1,12 @@
-﻿---
-Description: 'Generate a list of mesh edges and the patches that share each edge.'
-ms.assetid: '024528c0-2c0d-4448-9b38-05cf8d6ffc63'
-title: 'ID3DXPatchMesh::GenerateAdjacency method'
+---
+Description: Generate a list of mesh edges and the patches that share each edge.
+ms.assetid: 024528c0-2c0d-4448-9b38-05cf8d6ffc63
+title: ID3DXPatchMeshGenerateAdjacency method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPatchMesh::GenerateAdjacency method

@@ -1,7 +1,12 @@
 ---
-Description: 'Deletes an IContextLink object from the IContextNode object''s link collection.'
-ms.assetid: 'c4a69a74-30d6-4099-a02a-13c8a2e52bc7'
-title: 'IContextNode::DeleteContextLink method'
+Description: Deletes an IContextLink object from the IContextNode objects link collection.
+ms.assetid: c4a69a74-30d6-4099-a02a-13c8a2e52bc7
+title: IContextNodeDeleteContextLink method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::DeleteContextLink method
@@ -13,7 +18,7 @@ Deletes an [**IContextLink**](icontextlink.md) object from the [**IContextNode**
 
 ```C++
 HRESULT DeleteContextLink(
-  [in] IContextLink *pContextLinkToDelete
+  [in] IContextLink *pContextLinkToDelete
 );
 ```
 
@@ -44,7 +49,7 @@ A context link has a source node and a destination node (see [**IContextLink::Ge
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -70,9 +75,9 @@ A context link has a source node and a destination node (see [**IContextLink::Ge
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

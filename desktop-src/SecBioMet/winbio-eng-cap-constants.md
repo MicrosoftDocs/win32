@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_ENG\_CAP Constants
 description: Specify generic engine capabilities.
-ms.assetid: '31C4E8AF-6EF8-43FF-A944-D7363A26BB1A'
+ms.assetid: 31C4E8AF-6EF8-43FF-A944-D7363A26BB1A
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_ENG\_CAP Constants
@@ -32,15 +37,15 @@ The following constants are **WINBIO\_CAPABILITIES** values that can be used to 
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

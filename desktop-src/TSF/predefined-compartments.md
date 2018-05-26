@@ -1,8 +1,9 @@
 ---
 title: Predefined Compartments
 description: The following values identify compartments implemented by Text Services Framework.
-ms.assetid: '65177979-ff91-4f62-8ba5-3c426b221b6c'
-keywords: ["Predefined Compartments Text Services Framework"]
+ms.assetid: 65177979-ff91-4f62-8ba5-3c426b221b6c
+keywords:
+- Predefined Compartments Text Services Framework
 topic_type:
 - apiref
 api_name:
@@ -12,6 +13,11 @@ api_location:
 - Mstctf.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Predefined Compartments
@@ -31,7 +37,7 @@ The following compartment identifiers are defined in Ctffunc.idl and Ctffunc.h.
 
 
 
- 
+ 
 
 The following compartment identifiers are defined in MSCTF.IDL and MSCTF.H.
 
@@ -50,12 +56,12 @@ The following compartment identifiers are defined in MSCTF.IDL and MSCTF.H.
 | GUID\_COMPARTMENT\_SPEECH\_OPENCLOSE                    | VT\_I4 | A **DWORD** that is nonzero if speech input is active or zero if speech input is inactive. This is a global compartment.                                                                                                                                      |
 | GUID\_COMPARTMENT\_TIPUISTATUS                          | VT\_I4 | Not currently used.                                                                                                                                                                                                                                           |
 | GUID\_COMPARTMENT\_TRANSITORYEXTENSION                  | VT\_I4 | A **DWORD** value of [**TF\_TRANSITORYEXTENSION\_NONE**](values-for-guid-compartment-transitoryextension.md), **TF\_TRANSITORYEXTENSION\_FLOATING** or **TF\_TRANSITORYEXTENSION\_ATSELECTION**. This compartment is specific to a document manager object.  |
-| GUID\_COMPARTMENT\_TRANSITORYEXTENSION\_DOCUMENTMANAGER | VT\_I4 | An IUnknown value for the [**ITfDocumentMgr**](itfdocumentmgr.md) interface that refers the transitory document of this document manager. This compartment is specific to a document manager object.                                                         |
-| GUID\_COMPARTMENT\_TRANSITORYEXTENSION\_PARENT          | VT\_I4 | An IUnknown value for the [**ITfDocumentMgr**](itfdocumentmgr.md) interface that refers the parent document manager of this transitory document. This compartment is specific to a document manager object.                                                  |
+| GUID\_COMPARTMENT\_TRANSITORYEXTENSION\_DOCUMENTMANAGER | VT\_I4 | An IUnknown value for the [**ITfDocumentMgr**](/windows/win32/Msctf/nn-msctf-itfdocumentmgr?branch=master) interface that refers the transitory document of this document manager. This compartment is specific to a document manager object.                                                         |
+| GUID\_COMPARTMENT\_TRANSITORYEXTENSION\_PARENT          | VT\_I4 | An IUnknown value for the [**ITfDocumentMgr**](/windows/win32/Msctf/nn-msctf-itfdocumentmgr?branch=master) interface that refers the parent document manager of this transitory document. This compartment is specific to a document manager object.                                                  |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,9 +69,9 @@ The following compartment identifiers are defined in MSCTF.IDL and MSCTF.H.
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                                                                                          |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                                                                                          |
 | Header<br/>                   | <dl> <dt>Ctffunc.h; </dt> <dt>Mstctf.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>Ctffunc.idl; </dt> <dt>Mstctf.idl</dt> </dl> |
 
@@ -78,9 +84,9 @@ The following compartment identifiers are defined in MSCTF.IDL and MSCTF.H.
 [**Speech Recognition Constants**](speech-recognition-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

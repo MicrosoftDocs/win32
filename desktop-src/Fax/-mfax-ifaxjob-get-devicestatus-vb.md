@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DeviceStatus property is a null-terminated string that describes the status of the port associated with the fax job.'
-ms.assetid: 'e97bb951-22a5-46a8-a5de-7b56fa052f40'
-title: 'FaxJob.DeviceStatus property'
+---
+Description: The DeviceStatus property is a null-terminated string that describes the status of the port associated with the fax job.
+ms.assetid: e97bb951-22a5-46a8-a5de-7b56fa052f40
+title: FaxJob.DeviceStatus property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.DeviceStatus property
@@ -299,10 +304,10 @@ If the job is in the job queue waiting transmission, the fax server has not asso
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> </dl>
 
  

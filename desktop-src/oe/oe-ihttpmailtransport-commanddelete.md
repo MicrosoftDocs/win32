@@ -1,8 +1,11 @@
 ---
 title: IHTTPMailTransport CommandDELETE method
 description: Sends the DELETE command to the HTTPMail server.
-ms.assetid: 'ddc513ad-26b5-480a-8f51-51774cafffb9'
-keywords: ["CommandDELETE method Windows Mail (formerly Outlook Express)", "CommandDELETE method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface", "IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , CommandDELETE method"]
+ms.assetid: ddc513ad-26b5-480a-8f51-51774cafffb9
+keywords:
+- CommandDELETE method Windows Mail (formerly Outlook Express)
+- CommandDELETE method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface
+- IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , CommandDELETE method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHTTPMailTransport::CommandDELETE method
@@ -24,8 +32,8 @@ Sends the DELETE command to the HTTPMail server.
 
 ```C++
 HRESULT CommandDELETE(
-  [in] LPCSTR pszPath,
-  [in] DWORD  dwContext
+  [in] LPCSTR pszPath,
+  [in] DWORD  dwContext
 );
 ```
 
@@ -69,7 +77,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -77,8 +85,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -86,9 +94,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

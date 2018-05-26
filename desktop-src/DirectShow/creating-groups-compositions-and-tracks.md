@@ -1,7 +1,12 @@
 ---
 Description: Creating Groups Compositions and Tracks
-ms.assetid: 'c3bef3cd-5e3c-42c5-850f-b4cb00c414bd'
+ms.assetid: c3bef3cd-5e3c-42c5-850f-b4cb00c414bd
 title: Creating Groups Compositions and Tracks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Groups Compositions and Tracks

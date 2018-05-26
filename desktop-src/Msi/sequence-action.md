@@ -1,7 +1,12 @@
 ---
-Description: 'The SEQUENCE action sorts and runs in sequence the actions in a table.'
-ms.assetid: '1393bfaa-8649-40d3-9ff8-5e119c34aed3'
+Description: The SEQUENCE action sorts and runs in sequence the actions in a table.
+ms.assetid: 1393bfaa-8649-40d3-9ff8-5e119c34aed3
 title: SEQUENCE Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SEQUENCE Action

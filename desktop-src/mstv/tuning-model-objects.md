@@ -1,7 +1,12 @@
 ---
 title: Tuning Model Objects
 description: Tuning Model Objects
-ms.assetid: 'cf6a81cd-a955-4816-a43e-85138ecd8246'
+ms.assetid: cf6a81cd-a955-4816-a43e-85138ecd8246
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tuning Model Objects
@@ -67,7 +72,7 @@ Locator objects contain low-level information that a tuner and Network Provider 
 
 ## Tune Request Objects
 
-Tune request objects contains the information needed to tune to a channel within a particular network type. To create a tune request, call [**ITuningSpace::CreateTuneRequest**](ituningspace-createtunerequest.md) on the tuning space for that network type.
+Tune request objects contains the information needed to tune to a channel within a particular network type. To create a tune request, call [**ITuningSpace::CreateTuneRequest**](/windows/previous-versions/tuner/nf-tuner-ituningspace-createtunerequest?branch=master) on the tuning space for that network type.
 
 
 

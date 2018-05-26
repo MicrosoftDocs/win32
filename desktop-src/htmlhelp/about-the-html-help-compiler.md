@@ -1,7 +1,12 @@
 ---
 title: About the HTML Help Compiler
 description: About the HTML Help Compiler
-ms.assetid: '1A479729-3F48-45d5-80A3-55CFE1726FB0'
+ms.assetid: 1A479729-3F48-45d5-80A3-55CFE1726FB0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the HTML Help Compiler

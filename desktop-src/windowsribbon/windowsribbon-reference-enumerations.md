@@ -1,7 +1,12 @@
 ---
 title: Constants and Enumerations
 description: Reference documentation for the Windows Ribbon framework constants and enumerations.
-ms.assetid: '8499a096-aac3-4af3-a4c9-eebf53698744'
+ms.assetid: 8499a096-aac3-4af3-a4c9-eebf53698744
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants and Enumerations
@@ -37,7 +42,7 @@ Reference documentation for the Windows Ribbon framework constants and enumerati
 <td>Specifies values that identify the types of changes that can be made to a collection.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UI_COMMANDCATEGORY</strong>](ui-commandcategory.md)<br/></td>
+<td>[<strong>UI_COMMANDCATEGORY</strong>](/windows/win32/Uiribbon/?branch=master)<br/></td>
 <td>Specifies values that indicate whether a Command was defined at compile time or at run time.<br/></td>
 </tr>
 <tr class="odd">
@@ -53,11 +58,11 @@ Reference documentation for the Windows Ribbon framework constants and enumerati
 <td>Specifies values that identify the dock state of the Quick Access Toolbar (QAT). <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UI_EVENTLOCATION</strong>](ui-eventlocation.md)<br/></td>
+<td>[<strong>UI_EVENTLOCATION</strong>](/windows/win32/Uiribbon/ne-uiribbon-ui_eventlocation?branch=master)<br/></td>
 <td>Identifies the locations where events associated with a Ribbon control can originate.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UI_EVENTTYPE</strong>](ui-eventtype.md)<br/></td>
+<td>[<strong>UI_EVENTTYPE</strong>](/windows/win32/Uiribbon/ne-uiribbon-ui_eventtype?branch=master)<br/></td>
 <td>Identifies the types of events associated with a [<strong>Ribbon</strong>](windowsribbon-element-ribbon.md).<br/></td>
 </tr>
 <tr class="even">
@@ -89,7 +94,7 @@ Reference documentation for the Windows Ribbon framework constants and enumerati
 <td>Specifies values that identify the ownership conditions under which an image is created by the Ribbon framework.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UI_SWATCHCOLORMODE</strong>](ui-swatchcolormode.md)<br/></td>
+<td>[<strong>UI_SWATCHCOLORMODE</strong>](/windows/win32/Uiribbon/ne-uiribbon-ui_swatchcolormode?branch=master)<br/></td>
 <td>Specifies whether a swatch has normal or monochrome mode.<br/></td>
 </tr>
 <tr class="even">
@@ -114,7 +119,7 @@ These are recommendations only. The application can associate any fill type with
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -123,9 +128,9 @@ These are recommendations only. The application can associate any fill type with
 [Windows Ribbon Framework Reference](windowsribbon-reference-entry.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

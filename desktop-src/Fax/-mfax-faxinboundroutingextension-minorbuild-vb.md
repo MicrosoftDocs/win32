@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MinorBuild property is a value that specifies the minor part of the build number for the fax routing extension''s DLL.'
-ms.assetid: 'cf425b5f-fbca-40a9-8032-1438c91a19f1'
-title: 'FaxInboundRoutingExtension.MinorBuild property'
+---
+Description: The MinorBuild property is a value that specifies the minor part of the build number for the fax routing extensions DLL.
+ms.assetid: cf425b5f-fbca-40a9-8032-1438c91a19f1
+title: FaxInboundRoutingExtension.MinorBuild property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingExtension.MinorBuild property
@@ -50,7 +55,7 @@ The standard format for build numbers is MajorVersion.MinorVersion.MajorBuild.Mi
 [**FaxInboundRoutingExtension**](-mfax-faxinboundroutingextension.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingExtension**](-mfax-faxinboundroutingextension-cpp.md)
+[**IFaxInboundRoutingExtension**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingextension?branch=master)
 </dt> </dl>
 
  

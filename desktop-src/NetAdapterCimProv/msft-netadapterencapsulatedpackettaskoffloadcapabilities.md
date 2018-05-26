@@ -1,7 +1,12 @@
 ---
-Description: 'Used to report the offload capabilities of a network adapter when it transmits or receives encapsulated packets.'
-ms.assetid: '3fdb59a6-347f-437e-9e4d-22393593ef34'
-title: 'MSFT\_NetAdapterEncapsulatedPacketTaskOffloadCapabilities class'
+Description: Used to report the offload capabilities of a network adapter when it transmits or receives encapsulated packets.
+ms.assetid: 3fdb59a6-347f-437e-9e4d-22393593ef34
+title: MSFT\_NetAdapterEncapsulatedPacketTaskOffloadCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterEncapsulatedPacketTaskOffloadCapabilities class
@@ -108,7 +113,7 @@ Indicates network adapter support for Virtual Machine Queue (VMQ) for encapsulat
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
@@ -122,9 +127,9 @@ Indicates network adapter support for Virtual Machine Queue (VMQ) for encapsulat
 [NetAdapterCim Provider](network-adapter-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

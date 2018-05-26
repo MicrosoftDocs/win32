@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines constants that describe the type of back buffer.'
-ms.assetid: 'f099656b-4957-40a7-a92e-2c17e5fa8df9'
-title: 'D3DBACKBUFFER\_TYPE enumeration'
+---
+Description: Defines constants that describe the type of back buffer.
+ms.assetid: f099656b-4957-40a7-a92e-2c17e5fa8df9
+title: D3DBACKBUFFER\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DBACKBUFFER\_TYPE enumeration
@@ -75,10 +80,10 @@ Direct3D 9 does not support stereo view, so Direct3D does not use the D3DBACKBUF
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetBackBuffer**](idirect3ddevice9--getbackbuffer.md)
+[**IDirect3DDevice9::GetBackBuffer**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getbackbuffer?branch=master)
 </dt> <dt>
 
-[**IDirect3DSwapChain9::GetBackBuffer**](idirect3dswapchain9--getbackbuffer.md)
+[**IDirect3DSwapChain9::GetBackBuffer**](/windows/win32/d3d9helper/nf-d3d9-idirect3dswapchain9-getbackbuffer?branch=master)
 </dt> </dl>
 
  

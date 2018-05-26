@@ -1,7 +1,12 @@
-﻿---
-Description: 'The print spooler''s RouterAllocPrinterNotifyInfo function allocates a PRINTER\_NOTIFY\_INFO structure and an array of PRINTER\_NOTIFY\_INFO\_DATA structures.'
-ms.assetid: '319bee1b-c319-4c95-8343-edb9b08e6d6c'
+---
+Description: The print spoolers RouterAllocPrinterNotifyInfo function allocates a PRINTER\_NOTIFY\_INFO structure and an array of PRINTER\_NOTIFY\_INFO\_DATA structures.
+ms.assetid: 319bee1b-c319-4c95-8343-edb9b08e6d6c
 title: RouterAllocPrinterNotifyInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RouterAllocPrinterNotifyInfo function

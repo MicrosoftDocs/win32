@@ -1,13 +1,16 @@
 ---
-Description: 'An SWbemPrivilegeSet object is a collection of SWbemPrivilege objects in an SWbemSecurity object that requests specific privileges for a Windows Management Instrumentation (WMI) object.'
+Description: An SWbemPrivilegeSet object is a collection of SWbemPrivilege objects in an SWbemSecurity object that requests specific privileges for a Windows Management Instrumentation (WMI) object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '073cf2d4-f7ee-45a6-8fa6-ca77a4870346'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 073cf2d4-f7ee-45a6-8fa6-ca77a4870346
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemPrivilegeSet object
@@ -31,7 +34,7 @@ The **SWbemPrivilegeSet** object has these methods.
 
 | Method                                               | Description                                                                                                                                                             |
 |:-----------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Add**](swbemprivilegeset-add.md)                 | Adds an [**SWbemPrivilege**](swbemprivilege.md) object to the **SWbemPrivilegeSet** collection using a [WbemPrivilegeEnum](wbemprivilegeenum.md) constant.<br/> |
+| [**Add**](swbemprivilegeset-add.md)                 | Adds an [**SWbemPrivilege**](swbemprivilege.md) object to the **SWbemPrivilegeSet** collection using a [WbemPrivilegeEnum](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master) constant.<br/> |
 | [**AddAsString**](swbemprivilegeset-addasstring.md) | Adds an [**SWbemPrivilege**](swbemprivilege.md) object to the **SWbemPrivilegeSet** collection using a privilege string.<br/>                                    |
 | [**DeleteAll**](swbemprivilegeset-deleteall.md)     | Deletes all the privileges from the collection.<br/>                                                                                                              |
 | [**Item**](swbemprivilegeset-item.md)               | Retrieves an [**SWbemPrivilege**](swbemprivilege.md) object from the collection. This is the default method of this object.<br/>                                 |
@@ -39,7 +42,7 @@ The **SWbemPrivilegeSet** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -53,11 +56,11 @@ The **SWbemPrivilegeSet** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
-The following VBScript code example obtains an SWbemPrivileges object and adds all the available privileges to the collection by privilege value, as defined in [**WbemPrivilegeEnum**](wbemprivilegeenum.md).
+The following VBScript code example obtains an SWbemPrivileges object and adds all the available privileges to the collection by privilege value, as defined in [**WbemPrivilegeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master).
 
 
 ```VB
@@ -187,8 +190,8 @@ else
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -207,7 +210,7 @@ else
 [Executing Privileged Operations Using VBScript](executing-privileged-operations-using-vbscript.md)
 </dt> <dt>
 
-[WbemPrivilegeEnum](wbemprivilegeenum.md)
+[WbemPrivilegeEnum](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master)
 </dt> <dt>
 
 [Scripting API Objects](scripting-api-objects.md)
@@ -216,9 +219,9 @@ else
 [**Privilege Constants**](privilege-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

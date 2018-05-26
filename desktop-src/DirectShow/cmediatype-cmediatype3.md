@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'b7d5264a-2a5f-4111-96bb-1ea2b13405be'
-title: 'CMediaType.CMediaType constructor'
+Description: Constructor method.
+ms.assetid: b7d5264a-2a5f-4111-96bb-1ea2b13405be
+title: CMediaType.CMediaType constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.CMediaType constructor
@@ -13,8 +18,8 @@ Constructor method.
 
 ```C++
 CMediaType(
-  [ref] const AM_MEDIA_TYPE &amp;mtype,
-              HRESULT       *phr = NULL
+  [ref] const AM_MEDIA_TYPE &amp;mtype,
+              HRESULT       *phr = NULL
 );
 ```
 
@@ -27,7 +32,7 @@ CMediaType(
 *mtype* \[ref\]
 </dt> <dd>
 
-Reference to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure. The constructor copies the media type to the new object, including the format block, if any.
+Reference to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure. The constructor copies the media type to the new object, including the format block, if any.
 
 </dd> <dt>
 
@@ -60,9 +65,9 @@ The constructor calls the [**CMediaType::InitMediaType**](cmediatype-initmediaty
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

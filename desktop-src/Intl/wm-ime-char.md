@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to an application when the IME gets a character of the conversion result. A window receives this message through its WindowProc function.'
-ms.assetid: '1e1353c3-5215-4829-a00a-2fee47a430eb'
-title: 'WM\_IME\_CHAR message'
+---
+Description: Sent to an application when the IME gets a character of the conversion result. A window receives this message through its WindowProc function.
+ms.assetid: 1e1353c3-5215-4829-a00a-2fee47a430eb
+title: WM\_IME\_CHAR message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_IME\_CHAR message

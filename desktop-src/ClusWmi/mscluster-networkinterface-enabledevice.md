@@ -4,13 +4,19 @@ description: Requests that the device be enabled or disabled.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2a4c882d-7676-47d6-8db5-7f290ce36589'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2a4c882d-7676-47d6-8db5-7f290ce36589
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["EnableDevice method", "EnableDevice method, MSCluster_NetworkInterface class", "MSCluster_NetworkInterface class, EnableDevice method"]
+keywords:
+- EnableDevice method
+- EnableDevice method, MSCluster_NetworkInterface class
+- MSCluster_NetworkInterface class, EnableDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableDevice method of the MSCluster\_NetworkInterface class
@@ -22,7 +28,7 @@ Requests that the LogicalDevice be enabled ("*Enabled* parameter = TRUE) or disa
 
 ```mof
 uint32 EnableDevice(
-  [in] boolean Enabled
+  [in] boolean Enabled
 );
 ```
 
@@ -46,7 +52,7 @@ TBD
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -60,9 +66,9 @@ TBD
 [**MSCluster\_NetworkInterface**](mscluster-networkinterface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

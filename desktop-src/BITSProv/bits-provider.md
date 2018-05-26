@@ -1,7 +1,12 @@
 ---
 title: BITS Provider
 description: The Background Intelligent Transfer Service (BITS) Compact Server with BITS Remote Management allows authenticated administrators or controller applications to create, modify and manage BITS transfer jobs remotely without using the Internet Information Services (IIS) service.
-ms.assetid: 'f9d5c956-826c-4f50-951f-37dbe1f81480'
+ms.assetid: f9d5c956-826c-4f50-951f-37dbe1f81480
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITS Provider

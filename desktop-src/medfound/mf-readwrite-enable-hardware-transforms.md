@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables the source reader or sink writer to use hardware-based Media Foundation transforms (MFTs).'
-ms.assetid: '03f2fa76-b828-40b1-929d-60e7d5ab49bb'
-title: 'MF\_READWRITE\_ENABLE\_HARDWARE\_TRANSFORMS attribute'
+---
+Description: Enables the source reader or sink writer to use hardware-based Media Foundation transforms (MFTs).
+ms.assetid: 03f2fa76-b828-40b1-929d-60e7d5ab49bb
+title: MF\_READWRITE\_ENABLE\_HARDWARE\_TRANSFORMS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_READWRITE\_ENABLE\_HARDWARE\_TRANSFORMS attribute
@@ -14,9 +19,9 @@ Enables the source reader or sink writer to use hardware-based Media Foundation 
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
@@ -24,13 +29,13 @@ By default, the source reader and sink writer do not use hardware decoders or en
 
 Use this attribute with the following functions:
 
--   [**MFCreateSourceReaderFromByteStream**](mfcreatesourcereaderfrombytestream.md)
--   [**MFCreateSourceReaderFromMediaSource**](mfcreatesourcereaderfrommediasource.md)
--   [**MFCreateSourceReaderFromURL**](mfcreatesourcereaderfromurl.md)
--   [**MFCreateSinkWriterFromMediaSink**](mfcreatesinkwriterfrommediasink.md)
--   [**MFCreateSinkWriterFromURL**](mfcreatesinkwriterfromurl.md)
+-   [**MFCreateSourceReaderFromByteStream**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrombytestream?branch=master)
+-   [**MFCreateSourceReaderFromMediaSource**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrommediasource?branch=master)
+-   [**MFCreateSourceReaderFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfromurl?branch=master)
+-   [**MFCreateSinkWriterFromMediaSink**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfrommediasink?branch=master)
+-   [**MFCreateSinkWriterFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfromurl?branch=master)
 
-There is one exception to the default behavior. The source reader and sink writer automatically use MFTs that are registered locally in the caller's process. To register an MFT locally, call [**MFTRegisterLocal**](mftregisterlocal.md) or [**MFTRegisterLocalByCLSID**](mftregisterlocalbyclsid.md). Hardware MFTs that are registered locally are used even if the **MF\_READWRITE\_ENABLE\_HARDWARE\_TRANSFORMS** attribute is not set.
+There is one exception to the default behavior. The source reader and sink writer automatically use MFTs that are registered locally in the caller's process. To register an MFT locally, call [**MFTRegisterLocal**](/windows/win32/mfapi/nf-mfapi-mftregisterlocal?branch=master) or [**MFTRegisterLocalByCLSID**](/windows/win32/mfapi/nf-mfapi-mftregisterlocalbyclsid?branch=master). Hardware MFTs that are registered locally are used even if the **MF\_READWRITE\_ENABLE\_HARDWARE\_TRANSFORMS** attribute is not set.
 
 This attribute does not affect hardware-accelerated video decoding that uses DirectX Video Acceleration (DXVA). To enable DXVA decoding in the source reader, set the [MF\_SOURCE\_READER\_D3D\_MANAGER](mf-source-reader-d3d-manager.md) attribute.
 

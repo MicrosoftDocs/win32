@@ -1,19 +1,24 @@
 ---
-Description: 'The GetInfo method retrieves information about the current stream-control settings, including the start and stop times. This method implements the IAMStreamControl::GetInfo method.'
-ms.assetid: '3bc9bb32-eb33-4752-b22c-9033c28b41f7'
-title: 'CBaseStreamControl.GetInfo method'
+Description: The GetInfo method retrieves information about the current stream-control settings, including the start and stop times. This method implements the IAMStreamControlGetInfo method.
+ms.assetid: 3bc9bb32-eb33-4752-b22c-9033c28b41f7
+title: CBaseStreamControl.GetInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseStreamControl.GetInfo method
 
-The `GetInfo` method retrieves information about the current stream-control settings, including the start and stop times. This method implements the [**IAMStreamControl::GetInfo**](iamstreamcontrol-getinfo.md) method.
+The `GetInfo` method retrieves information about the current stream-control settings, including the start and stop times. This method implements the [**IAMStreamControl::GetInfo**](/windows/win32/Strmif/nf-strmif-iamstreamcontrol-getinfo?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetInfo(
-   AM_STREAM_INFO *pInfo
+   AM_STREAM_INFO *pInfo
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT GetInfo(
 *pInfo* 
 </dt> <dd>
 
-Pointer to an [**AM\_STREAM\_INFO**](am-stream-info.md) structure, allocated by the caller, that receives the current stream-control settings.
+Pointer to an [**AM\_STREAM\_INFO**](/windows/win32/strmif/ns-strmif-am_stream_info?branch=master) structure, allocated by the caller, that receives the current stream-control settings.
 
 </dd> </dl>
 
@@ -52,9 +57,9 @@ Returns S\_OK or E\_POINTER.
 [**CBaseStreamControl Class**](cbasestreamcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

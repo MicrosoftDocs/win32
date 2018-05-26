@@ -1,7 +1,12 @@
 ---
 title: Managing the Lifetime of an Object
 description: .
-ms.assetid: '0e522ded-8976-4cdd-9a61-eae7834c896b'
+ms.assetid: 0e522ded-8976-4cdd-9a61-eae7834c896b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing the Lifetime of an Object

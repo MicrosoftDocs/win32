@@ -1,7 +1,12 @@
 ---
 title: Procedure Header Descriptor
 description: The header has been extended several times over the life of the NDR engine. The current compiler still generates different headers depending on the mode of the compiler. However, more recent headers are a superset of the older ones.
-ms.assetid: '05b152b9-bd6d-49d1-8484-d104949c67b1'
+ms.assetid: 05b152b9-bd6d-49d1-8484-d104949c67b1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Procedure Header Descriptor
@@ -88,7 +93,7 @@ The following flags are overloaded.
 
  
 
-The rpc\_flags&lt;4&gt; field describes how to set the **RpcFlags** field of the [**RPC\_MESSAGE**](rpc-message.md) structure. This field is only present if the Oi\_flags&lt;1&gt; field has Oi\_HAD\_RPCFLAGS set. If this field is not present, then the RPC flags for the remote procedure are zero.
+The rpc\_flags&lt;4&gt; field describes how to set the **RpcFlags** field of the [**RPC\_MESSAGE**](/windows/win32/RpcdceP/ns-rpcdcep-_rpc_message?branch=master) structure. This field is only present if the Oi\_flags&lt;1&gt; field has Oi\_HAD\_RPCFLAGS set. If this field is not present, then the RPC flags for the remote procedure are zero.
 
 > [!Note]  
 > For performance, the async interpreters always have the rpc\_flags&lt;4&gt; field present.

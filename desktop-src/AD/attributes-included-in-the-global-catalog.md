@@ -4,11 +4,16 @@ description: The global catalog of a forest includes a partial replica of every 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '185467ed-7bcf-41e9-9862-02412009c437'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 185467ed-7bcf-41e9-9862-02412009c437
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Attributes Included in the Global Catalog AD", "Attributes AD ,included in the global catalog"]
+keywords:
+- Attributes Included in the Global Catalog AD
+- Attributes AD ,included in the global catalog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Including Attributes in the Global Catalog

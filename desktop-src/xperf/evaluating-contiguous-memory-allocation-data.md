@@ -1,7 +1,12 @@
 ---
 title: Evaluating Contiguous Memory Allocation Data
 description: Evaluating Contiguous Memory Allocation Data
-ms.assetid: 'fb458419-46cc-4546-be58-cb364b2ecbfe'
+ms.assetid: fb458419-46cc-4546-be58-cb364b2ecbfe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Evaluating Contiguous Memory Allocation Data

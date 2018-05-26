@@ -1,7 +1,12 @@
 ---
 title: Scroll Bar (MSAA UI Element Reference)
 description: Scroll bars let a user choose the direction and distance to scroll through information in a related window or list box. The window class name for a scroll bar is \ 0034;SCROLLBAR \ 0034;.
-ms.assetid: 'a4ec1708-d751-4526-bd69-9796c43872a0'
+ms.assetid: a4ec1708-d751-4526-bd69-9796c43872a0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scroll Bar (MSAA UI Element Reference)
@@ -13,7 +18,7 @@ ms.assetid: 'a4ec1708-d751-4526-bd69-9796c43872a0'
 
 Scroll bars let a user choose the direction and distance to scroll through information in a related window or list box. The window class name for a scroll bar is "SCROLLBAR".
 
-The contents of the [**IAccessible**](iaccessible.md) properties depends on whether the scroll bar is vertical or horizontal and on which of the following parts of the scroll bar is being queried by the client:
+The contents of the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) properties depends on whether the scroll bar is vertical or horizontal and on which of the following parts of the scroll bar is being queried by the client:
 
 -   The scroll bar itself
 -   The top or right arrow button
@@ -24,11 +29,11 @@ The contents of the [**IAccessible**](iaccessible.md) properties depends on whet
 
 ## IAccessible Methods
 
-A scroll bar supports the following [**IAccessible**](iaccessible.md) methods:
+A scroll bar supports the following [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) methods:
 
--   [**accDoDefaultAction**](iaccessible-iaccessible--accdodefaultaction.md)—The scroll bar object itself and the scroll thumb do not support the **accDoDefaultAction** method.
+-   [**accDoDefaultAction**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accdodefaultaction?branch=master)—The scroll bar object itself and the scroll thumb do not support the **accDoDefaultAction** method.
 
-    For the other scroll bar parts on a vertical scroll bar, [**accDoDefaultAction**](iaccessible-iaccessible--accdodefaultaction.md) calls [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) with the [**WM\_VSCROLL**](https://msdn.microsoft.com/library/windows/desktop/bb787577) message with *wParam* set to the following values.
+    For the other scroll bar parts on a vertical scroll bar, [**accDoDefaultAction**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accdodefaultaction?branch=master) calls [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) with the [**WM\_VSCROLL**](https://msdn.microsoft.com/library/windows/desktop/bb787577) message with *wParam* set to the following values.
 
     
 
@@ -43,7 +48,7 @@ A scroll bar supports the following [**IAccessible**](iaccessible.md) methods:
 
      
 
-    For the other scroll bar parts on a horizontal scroll bar, [**accDoDefaultAction**](iaccessible-iaccessible--accdodefaultaction.md) calls [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) with the [**WM\_HSCROLL**](https://msdn.microsoft.com/library/windows/desktop/bb787575) message with *wParam* set to the following values.
+    For the other scroll bar parts on a horizontal scroll bar, [**accDoDefaultAction**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accdodefaultaction?branch=master) calls [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) with the [**WM\_HSCROLL**](https://msdn.microsoft.com/library/windows/desktop/bb787575) message with *wParam* set to the following values.
 
     
 
@@ -58,17 +63,17 @@ A scroll bar supports the following [**IAccessible**](iaccessible.md) methods:
 
      
 
--   [**accHitTest**](iaccessible-iaccessible--acchittest.md)
--   [**accLocation**](iaccessible-iaccessible--acclocation.md)
--   [**accNavigate**](iaccessible-iaccessible--accnavigate.md)
+-   [**accHitTest**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acchittest?branch=master)
+-   [**accLocation**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acclocation?branch=master)
+-   [**accNavigate**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accnavigate?branch=master)
 
 ## IAccessible Properties
 
-A scroll bar supports the following [**IAccessible**](iaccessible.md) properties:
+A scroll bar supports the following [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) properties:
 
--   [**get\_accChildCount**](iaccessible-iaccessible--get-accchildcount.md)—The **ChildCount** property for the scroll bar object is five. For the other scroll bar parts, the **ChildCount** property is zero.
--   [**get\_accDefaultAction**](iaccessible-iaccessible--get-accdefaultaction.md)—The scroll bar object itself and the scroll thumb do not support the **DefaultAction** property. The **DefaultAction** property for the arrow buttons and the shaded areas on either side of the scroll thumb is "Press".
--   [**get\_accDescription**](iaccessible-iaccessible--get-accdescription.md)—The **Description** property depends on the part of the scroll bar that is queried.
+-   [**get\_accChildCount**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accchildcount?branch=master)—The **ChildCount** property for the scroll bar object is five. For the other scroll bar parts, the **ChildCount** property is zero.
+-   [**get\_accDefaultAction**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accdefaultaction?branch=master)—The scroll bar object itself and the scroll thumb do not support the **DefaultAction** property. The **DefaultAction** property for the arrow buttons and the shaded areas on either side of the scroll thumb is "Press".
+-   [**get\_accDescription**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accdescription?branch=master)—The **Description** property depends on the part of the scroll bar that is queried.
 
     The parts of a vertical scroll bar have the following descriptions.
 
@@ -104,9 +109,9 @@ A scroll bar supports the following [**IAccessible**](iaccessible.md) properties
 
      
 
--   [**get\_accHelp**](iaccessible-iaccessible--get-acchelp.md)
--   [**get\_accHelpTopic**](iaccessible-iaccessible--get-acchelptopic.md)
--   [**get\_accName**](iaccessible-iaccessible--get-accname.md)—The **Name** property depends on the part of the scroll bar that is queried.
+-   [**get\_accHelp**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_acchelp?branch=master)
+-   [**get\_accHelpTopic**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_acchelptopic?branch=master)
+-   [**get\_accName**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accname?branch=master)—The **Name** property depends on the part of the scroll bar that is queried.
 
     The parts of a vertical scroll bar have the following names.
 
@@ -140,8 +145,8 @@ A scroll bar supports the following [**IAccessible**](iaccessible.md) properties
 
      
 
--   [**get\_accParent**](iaccessible-iaccessible--get-accparent.md)—The **Parent** property of the arrow buttons, scroll thumb, and the shaded area on either side of the thumb is the scroll bar window. The **Parent** property of the scroll bar window is a window (ROLE\_SYSTEM\_WINDOW) that surrounds the control and has the same **Name** property and window class name.
--   [**get\_accRole**](iaccessible-iaccessible--get-accrole.md)—The **Role** property depends on the part of the scroll bar that is queried. The parts of a scroll bar have the following roles. 
+-   [**get\_accParent**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accparent?branch=master)—The **Parent** property of the arrow buttons, scroll thumb, and the shaded area on either side of the thumb is the scroll bar window. The **Parent** property of the scroll bar window is a window (ROLE\_SYSTEM\_WINDOW) that surrounds the control and has the same **Name** property and window class name.
+-   [**get\_accRole**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accrole?branch=master)—The **Role** property depends on the part of the scroll bar that is queried. The parts of a scroll bar have the following roles. 
 
     | Part                                                  | Role                                                                    |
     |-------------------------------------------------------|-------------------------------------------------------------------------|
@@ -154,7 +159,7 @@ A scroll bar supports the following [**IAccessible**](iaccessible.md) properties
 
      
 
--   [**get\_accState**](iaccessible-iaccessible--get-accstate.md)—The **State** property of each scroll bar component includes a combination of the following [values](object-state-constants.md).
+-   [**get\_accState**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accstate?branch=master)—The **State** property of each scroll bar component includes a combination of the following [values](object-state-constants.md).
 
     | State                                                                                 | Value                                                                                                                                                                                                                       |
     |---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -167,13 +172,13 @@ A scroll bar supports the following [**IAccessible**](iaccessible.md) properties
 
      
 
--   [**get\_accValue**](iaccessible-iaccessible--get-accvalue.md)—The **Value** property for the scroll bar window indicates the scroll bar position and is a string that contains an integer from "0" through "100".
+-   [**get\_accValue**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accvalue?branch=master)—The **Value** property for the scroll bar window indicates the scroll bar position and is a string that contains an integer from "0" through "100".
 
 ## Related topics
 
 <dl> <dt>
 
-[IAccessible Interface](iaccessible.md)
+[IAccessible Interface](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master)
 </dt> </dl>
 
  

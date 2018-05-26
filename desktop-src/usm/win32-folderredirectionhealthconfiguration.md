@@ -1,8 +1,10 @@
 ---
 title: Win32\_FolderRedirectionHealthConfiguration class
 description: Represents the health configuration properties for a known folder that is being redirected.
-ms.assetid: 'cde52493-4f84-4ce4-9432-41a01879d60a'
-keywords: ["Win32_FolderRedirectionHealthConfiguration class User State Manageability API", "Win32_FolderRedirectionHealthConfiguration class User State Manageability API , described"]
+ms.assetid: cde52493-4f84-4ce4-9432-41a01879d60a
+keywords:
+- Win32_FolderRedirectionHealthConfiguration class User State Manageability API
+- Win32_FolderRedirectionHealthConfiguration class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_FolderRedirectionHealthConfiguration class
@@ -79,8 +86,8 @@ The default value for this property is 480 hours (20 days).
 
 |                                     |                                                                                                                    |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                               |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                               |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                             |
 | MOF<br/>                      | <dl> <dt>UserProfileConfigurationWmiProvider.mof</dt> </dl> |
 
@@ -99,9 +106,9 @@ The default value for this property is 480 hours (20 days).
 [**Win32\_FolderRedirectionUserConfiguration**](win32-folderredirectionuserconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

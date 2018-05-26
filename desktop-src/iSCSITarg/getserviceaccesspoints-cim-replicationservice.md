@@ -1,16 +1,19 @@
 ---
 title: GetServiceAccessPoints method of the CIM\_ReplicationService class
-description: Get (or start a job to get) ServiceAccessPoints associated with a peer system. If a job is started, once the job completes, examine the AffectedJobElement associations for the peer system's ServiceAccessPoints.
+description: Get (or start a job to get) ServiceAccessPoints associated with a peer system. If a job is started, once the job completes, examine the AffectedJobElement associations for the peer systems ServiceAccessPoints.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bc760873-3853-4b42-be2c-7a4b5f6fb09c'
-ms.prod: 'windows-server-dev'
+ms.assetid: bc760873-3853-4b42-be2c-7a4b5f6fb09c
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetServiceAccessPoints method iSCSI Software Target API", "GetServiceAccessPoints method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , GetServiceAccessPoints method"]
+keywords:
+- GetServiceAccessPoints method iSCSI Software Target API
+- GetServiceAccessPoints method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , GetServiceAccessPoints method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetServiceAccessPoints method of the CIM\_ReplicationService class
@@ -30,9 +36,9 @@ Get (or start a job to get) ServiceAccessPoints associated with a peer system. I
 
 ```mof
 uint32 GetServiceAccessPoints(
-  [in]  CIM_ComputerSystem     REF System,
-  [out] CIM_ConcreteJob        REF Job,
-  [out] CIM_ServiceAccessPoint REF ServiceAccessPoints[]
+  [in]  CIM_ComputerSystem     REF System,
+  [out] CIM_ConcreteJob        REF Job,
+  [out] CIM_ServiceAccessPoint REF ServiceAccessPoints[]
 );
 ```
 
@@ -88,16 +94,16 @@ List of ServiceAccessPoints for the supplied System.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -107,7 +113,7 @@ List of ServiceAccessPoints for the supplied System.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -121,9 +127,9 @@ List of ServiceAccessPoints for the supplied System.
 **CIM\_ReplicationService**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: Used with an extended LDAP search function to instruct the server t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '03c51778-45ed-46de-94a2-425bf7030cf0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 03c51778-45ed-46de-94a2-425bf7030cf0
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_SERVER_SORT_OID control code LDAP"]
+keywords:
+- LDAP_SERVER_SORT_OID control code LDAP
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Winldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_SERVER\_SORT\_OID control code
 
 The LDAP\_SERVER\_SORT\_OID control is used with an extended LDAP search function to instruct the server to sort the search results before returning it to the client application. The control specifies the sort key and sort behavior to be used by the server.
 
-To use this control, format the control contents using the [**ldap\_create\_sort\_control**](ldap-create-sort-control.md) function, or set the members of the [**LDAPControl**](ldapcontrol.md) structure as follows.
+To use this control, format the control contents using the [**ldap\_create\_sort\_control**](/windows/previous-versions/Winldap/nf-winldap-ldap_create_sort_control?branch=master) function, or set the members of the [**LDAPControl**](/windows/previous-versions/Winldap/ns-winldap-ldapcontrola?branch=master) structure as follows.
 
 ``` syntax
 PWCHAR ldctl_oid = LDAP_SERVER_SORT_OID;
@@ -45,7 +49,7 @@ LDAP\_SERVER\_SORT\_OID, which is defined as "1.2.840.113556.1.4.473".
 **ldctl\_value**
 </dt> <dd>
 
-Specifies a BER-encoded sequence of parameters that enables the application to specify the sort keys and matching rules, if any. In the [**berval**](berval.md) structure, set **bv\_val** to a pointer to the sequence that contains the sort key data and set **bv\_len** to the length of the sequence. For more information, see Remarks.
+Specifies a BER-encoded sequence of parameters that enables the application to specify the sort keys and matching rules, if any. In the [**berval**](/windows/previous-versions/Winldap/ns-winldap-berval?branch=master) structure, set **bv\_val** to a pointer to the sequence that contains the sort key data and set **bv\_len** to the length of the sequence. For more information, see Remarks.
 
 </dd> <dt>
 
@@ -58,7 +62,7 @@ Can be **TRUE** or **FALSE** depending on whether sorting the search results is 
 
 ## Remarks
 
-The Sort control is used with the extended search functions, such as [**ldap\_search\_ext**](ldap-search-ext.md), to specify the key or keys used by the server to sort the search results before returning them to the client. The **ldctl\_value** field is set to the following BER-encoded sequence.
+The Sort control is used with the extended search functions, such as [**ldap\_search\_ext**](/windows/previous-versions/Winldap/nf-winldap-ldap_search_ext?branch=master), to specify the key or keys used by the server to sort the search results before returning them to the client. The **ldctl\_value** field is set to the following BER-encoded sequence.
 
 
 ```C++
@@ -71,7 +75,7 @@ Sequence of Sequence {
 
 
 
-The [**ber\_printf**](ber-printf.md) function is used to create the sequence data. The sort key list sequence is in order of highest to lowest sort key precedence.
+The [**ber\_printf**](/windows/previous-versions/Winber/nf-winber-ber_printf?branch=master) function is used to create the sequence data. The sort key list sequence is in order of highest to lowest sort key precedence.
 
 The following table lists the sequence fields.
 
@@ -85,7 +89,7 @@ The following table lists the sequence fields.
 
 
 
- 
+ 
 
 ### 
 
@@ -258,9 +262,9 @@ The matching rules, listed in the following table, are supported. The search res
 
 
 
- 
+ 
 
-Client applications should use the various API calls such as [**ldap\_create\_sort\_control**](ldap-create-sort-control.md), [**ldap\_search\_init\_page**](ldap-search-init-page.md), [**ldap\_parse\_result**](ldap-parse-result.md), [**ldap\_parse\_sort\_control**](ldap-parse-sort-control.md), and so on, instead of manually creating and specifying the sort controls.
+Client applications should use the various API calls such as [**ldap\_create\_sort\_control**](/windows/previous-versions/Winldap/nf-winldap-ldap_create_sort_control?branch=master), [**ldap\_search\_init\_page**](/windows/previous-versions/Winldap/nf-winldap-ldap_search_init_page?branch=master), [**ldap\_parse\_result**](/windows/previous-versions/Winldap/nf-winldap-ldap_parse_result?branch=master), [**ldap\_parse\_sort\_control**](/windows/previous-versions/Winldap/nf-winldap-ldap_parse_sort_control?branch=master), and so on, instead of manually creating and specifying the sort controls.
 
 ## Requirements
 
@@ -268,8 +272,8 @@ Client applications should use the various API calls such as [**ldap\_create\_so
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winldap.h</dt> </dl> |
 
 
@@ -281,15 +285,15 @@ Client applications should use the various API calls such as [**ldap\_create\_so
 [Data Structures](data-structures.md)
 </dt> <dt>
 
-[**LDAPMessage**](ldapmessage.md)
+[**LDAPMessage**](/windows/previous-versions/Winldap/ns-winldap-ldapmsg?branch=master)
 </dt> <dt>
 
 [Using Controls](using-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,36 @@
 ---
 title: Accessing the Library Programmatically
 description: Accessing the Library Programmatically
-ms.assetid: 'f48fbb49-5b79-4a78-af72-8509c460a149'
-keywords: ["Windows Media Player,library", "Windows Media Player object model,library", "object model,library", "Windows Media Player ActiveX control,library for object model", "ActiveX control,library for object model", "Windows Media Player Mobile ActiveX control,library for object model", "Windows Media Player Mobile,library for object model", "Windows Media Player library,accessing programmatically", "library,accessing", "accessing Windows Media Player library programmatically", "Windows Media Player library,adding media items", "library,adding media items", "Windows Media Player library,retrieving media items", "library,retrieving media items", "Windows Media Player library,removing media items", "library,removing media items", "adding media items to Windows Media Player library", "retrieving media items from Windows Media Player library", "removing media items from Windows Media Player library", "retrieving metadata", "Windows Media Player library,retrieving metadata from media items", "library,retrieving metadata from media items", "metadata,retrieving"]
+ms.assetid: f48fbb49-5b79-4a78-af72-8509c460a149
+keywords:
+- Windows Media Player,library
+- Windows Media Player object model,library
+- object model,library
+- Windows Media Player ActiveX control,library for object model
+- ActiveX control,library for object model
+- Windows Media Player Mobile ActiveX control,library for object model
+- Windows Media Player Mobile,library for object model
+- Windows Media Player library,accessing programmatically
+- library,accessing
+- accessing Windows Media Player library programmatically
+- Windows Media Player library,adding media items
+- library,adding media items
+- Windows Media Player library,retrieving media items
+- library,retrieving media items
+- Windows Media Player library,removing media items
+- library,removing media items
+- adding media items to Windows Media Player library
+- retrieving media items from Windows Media Player library
+- removing media items from Windows Media Player library
+- retrieving metadata
+- Windows Media Player library,retrieving metadata from media items
+- library,retrieving metadata from media items
+- metadata,retrieving
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing the Library Programmatically

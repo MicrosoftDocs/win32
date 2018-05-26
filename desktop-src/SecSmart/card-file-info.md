@@ -1,8 +1,10 @@
 ---
 title: CARD\_FILE\_INFO structure
 description: Contains information about a file on a smart card.
-ms.assetid: '9acabc20-1de5-44ee-827f-08a8042e6f75'
-keywords: ["CARD_FILE_INFO structure Security", "PCARD_FILE_INFO structure pointer Security"]
+ms.assetid: 9acabc20-1de5-44ee-827f-08a8042e6f75
+keywords:
+- CARD_FILE_INFO structure Security
+- PCARD_FILE_INFO structure pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CARD\_FILE\_INFO structure
@@ -24,8 +31,8 @@ The **CARD\_FILE\_INFO** structure contains information about a file on a [*smar
 
 ```C++
 typedef struct _CARD_FILE_INFO {
-  DWORD                      dwVersion;
-  DWORD                      cbFileSize;
+  DWORD                      dwVersion;
+  DWORD                      cbFileSize;
   CARD_FILE_ACCESS_CONDITION AccessCondition;
 } CARD_FILE_INFO, *PCARD_FILE_INFO;
 ```
@@ -67,8 +74,8 @@ The [**CardGetFileInfo**](cardgetfileinfo.md) function initializes this structur
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -86,9 +93,9 @@ The [**CardGetFileInfo**](cardgetfileinfo.md) function initializes this structur
 [**CardGetFileInfo**](cardgetfileinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

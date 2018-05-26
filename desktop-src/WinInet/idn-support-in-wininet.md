@@ -1,7 +1,12 @@
 ---
 title: IDN Support in WinINet
 description: Starting in Windows Server 2008 and Windows Vista, the host portion of the Unicode URL is converted to the Internationalized Domain Name (IDN).
-ms.assetid: '7c56908e-f6d0-48dc-9ac1-73f888fb7b6c'
+ms.assetid: 7c56908e-f6d0-48dc-9ac1-73f888fb7b6c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDN Support in WinINet

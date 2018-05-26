@@ -1,12 +1,17 @@
 ---
 title: Traversing the Module List
 description: The following example obtains a list of modules for the specified process.
-ms.assetid: '8efe1e13-6222-496a-bff3-90f53b03c750'
+ms.assetid: 8efe1e13-6222-496a-bff3-90f53b03c750
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Traversing the Module List
 
-The following example obtains a list of modules for the specified process. The `ListProcessModules` function takes a snapshot of the modules associated with a given process using the [**CreateToolhelp32Snapshot**](createtoolhelp32snapshot.md) function, and then walks through the list using the [**Module32First**](module32first.md) and [**Module32Next**](module32next.md) functions. The `dwPID` parameter of `ListProcessModules` identifies the process for which modules are to be enumerated, and is usually obtained by calling **CreateToolhelp32Snapshot** to enumerate the processes running on the system. See [Taking a Snapshot and Viewing Processes](taking-a-snapshot-and-viewing-processes.md) for a simple console application that uses this function.
+The following example obtains a list of modules for the specified process. The `ListProcessModules` function takes a snapshot of the modules associated with a given process using the [**CreateToolhelp32Snapshot**](/windows/win32/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot?branch=master) function, and then walks through the list using the [**Module32First**](/windows/win32/TlHelp32/nf-tlhelp32-module32first?branch=master) and [**Module32Next**](/windows/win32/TlHelp32/nf-tlhelp32-module32next?branch=master) functions. The `dwPID` parameter of `ListProcessModules` identifies the process for which modules are to be enumerated, and is usually obtained by calling **CreateToolhelp32Snapshot** to enumerate the processes running on the system. See [Taking a Snapshot and Viewing Processes](taking-a-snapshot-and-viewing-processes.md) for a simple console application that uses this function.
 
 A simple error-reporting function, `printError`, displays the reason for any failures, which usually result from security restrictions.
 

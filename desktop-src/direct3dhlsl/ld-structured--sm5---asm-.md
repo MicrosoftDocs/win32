@@ -1,7 +1,12 @@
 ---
 title: ld\_structured (sm5 - asm)
 description: Random-access read of 1-4 32bit components from a structured buffer.
-ms.assetid: 'ED572B76-FF6C-405E-9110-4B12AD5E5AE6'
+ms.assetid: ED572B76-FF6C-405E-9110-4B12AD5E5AE6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ld\_structured (sm5 - asm)
@@ -15,7 +20,7 @@ Random-access read of 1-4 32bit components from a structured buffer.
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Random-access read of 1-4 32bit components from a structured buffer.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -72,9 +77,9 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
-Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for UAVs for the Direct3D 11.1 runtime, which is available starting with Windows 8.
+Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for UAVs for the Direct3D 11.1 runtime, which is available starting with Windows 8.
 
 
 
@@ -84,7 +89,7 @@ Because UAVs are available at all shader stages for Direct3D 11.1, this instruct
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -103,7 +108,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 cs\_4\_0 and cs\_4\_1 support this instruction for UAV, SRV and TGSM.
 
@@ -114,9 +119,9 @@ cs\_4\_0 and cs\_4\_1 support this instruction for UAV, SRV and TGSM.
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

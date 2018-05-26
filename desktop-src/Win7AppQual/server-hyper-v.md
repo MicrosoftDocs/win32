@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '6a31cca3-f47c-4663-b2e8-aad6b4a6f28f'
-title: 'Server Hyper-V'
+Description: .
+ms.assetid: 6a31cca3-f47c-4663-b2e8-aad6b4a6f28f
+title: Server Hyper-V
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server Hyper-V

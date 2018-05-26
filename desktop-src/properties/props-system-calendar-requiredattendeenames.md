@@ -1,7 +1,12 @@
 ---
-Description: 'Names of all the required attendees.'
-ms.assetid: '6f83ab7e-8583-4872-b5d9-91ce227a7761'
-title: 'System.Calendar.RequiredAttendeeNames'
+Description: Names of all the required attendees.
+ms.assetid: 6f83ab7e-8583-4872-b5d9-91ce227a7761
+title: System.Calendar.RequiredAttendeeNames
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Calendar.RequiredAttendeeNames

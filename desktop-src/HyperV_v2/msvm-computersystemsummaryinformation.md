@@ -1,7 +1,12 @@
 ---
-Description: 'Contains an information summary about the specified virtual computer system.'
-ms.assetid: 'ab31d5db-a8d3-47bc-a024-0f4c4b93a34b'
-title: 'Msvm\_ComputerSystemSummaryInformation class'
+Description: Contains an information summary about the specified virtual computer system.
+ms.assetid: ab31d5db-a8d3-47bc-a024-0f4c4b93a34b
+title: Msvm\_ComputerSystemSummaryInformation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ComputerSystemSummaryInformation class
@@ -16,7 +21,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Association, Provider("VmmsWmiInstanceAndMethodProvider")]
 class Msvm_ComputerSystemSummaryInformation : CIM_ElementView
 {
-  CIM_ComputerSystem          REF Antecedent;
+  CIM_ComputerSystem          REF Antecedent;
   Msvm_SummaryInformationBase REF Dependent;
 };
 ```
@@ -49,9 +54,9 @@ A [**CIM\_ComputerSystem**](cim-computersystem.md) object that is an instance in
 
 > [!Note]
 >
-> Datatype upgraded from [**Msvm\_ComputerSystem**](msvm-computersystem.md) in Windows 10, version 1703.
+> Datatype upgraded from [**Msvm\_ComputerSystem**](msvm-computersystem.md) in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -71,9 +76,9 @@ An instance of [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) that r
 
 > [!Note]
 >
-> Datatype updated from [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) in Windows 10, version 1703.
+> Datatype updated from [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) in Windows 10, version 1703.
 
- 
+ 
 
 </dd> </dl>
 
@@ -83,8 +88,8 @@ An instance of [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) that r
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -98,9 +103,9 @@ An instance of [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) that r
 [**CIM\_ElementView**](cim-elementview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings playCount property
 description: The playCount property gets or sets the number of times a media item will play.
-ms.assetid: '5d18909d-8b7a-448e-b54a-23a312041066'
-keywords: ["playCount property Windows Media Player", "playCount property Windows Media Player , IWMPSettings interface", "IWMPSettings interface Windows Media Player , playCount property"]
+ms.assetid: 5d18909d-8b7a-448e-b54a-23a312041066
+keywords:
+- playCount property Windows Media Player
+- playCount property Windows Media Player , IWMPSettings interface
+- IWMPSettings interface Windows Media Player , playCount property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings::playCount property
@@ -67,9 +75,9 @@ A **System.Int32** that is the play count, with a minimum value of 1 and a defau
 [**IWMPSettings Interface (VB and C#)**](iwmpsettings--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

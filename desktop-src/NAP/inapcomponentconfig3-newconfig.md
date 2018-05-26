@@ -1,8 +1,11 @@
 ---
 title: INapComponentConfig3 NewConfig method
 description: Is implemented by system health validators (SHVs) to provide a way to create configuration data for a specific configuration ID.
-ms.assetid: 'cea762d3-815d-4034-94c1-5fa9a859cce8'
-keywords: ["NewConfig method NAP", "NewConfig method NAP , INapComponentConfig3 interface", "INapComponentConfig3 interface NAP , NewConfig method"]
+ms.assetid: cea762d3-815d-4034-94c1-5fa9a859cce8
+keywords:
+- NewConfig method NAP
+- NewConfig method NAP , INapComponentConfig3 interface
+- INapComponentConfig3 interface NAP , NewConfig method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentConfig3::NewConfig method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **NewConfig** method is implemented by system health validators (SHVs) to provide a way to create configuration data for a specific configuration ID. When this function is called, an SHV must allocate new configuration data and populate it with a copy of the default configuration data.
 
@@ -27,7 +35,7 @@ The **NewConfig** method is implemented by system health validators (SHVs) to pr
 
 ```C++
 HRESULT NewConfig(
-   UINT32 configID
+   UINT32 configID
 );
 ```
 
@@ -58,7 +66,7 @@ Returns one of the following error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,7 +79,7 @@ After the new configuration is created by **NewConfig**, the [**GetConfigFromID*
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -84,9 +92,9 @@ After the new configuration is created by **NewConfig**, the [**GetConfigFromID*
 [**INapComponentConfig3**](inapcomponentconfig3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: MMIOM\_WRITE message
 description: The MMIOM\_WRITE message is sent to an I/O procedure by the mmioWrite function to request that data be written to an open file.
-ms.assetid: '46e2dd9a-c4a7-4c99-86e4-a67b424411d1'
-keywords: ["MMIOM_WRITE message Windows Multimedia"]
+ms.assetid: 46e2dd9a-c4a7-4c99-86e4-a67b424411d1
+keywords:
+- MMIOM_WRITE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MMIOM\_WRITE message
@@ -46,7 +52,7 @@ Number of bytes to write to file.
 
 ## Return Value
 
-Returns the number of bytes actually written to the file. If there is an error, the return value is –1.
+Returns the number of bytes actually written to the file. If there is an error, the return value is  1.
 
 ## Remarks
 
@@ -58,15 +64,15 @@ The I/O procedure is responsible for updating the **lDiskOffset** member of the 
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

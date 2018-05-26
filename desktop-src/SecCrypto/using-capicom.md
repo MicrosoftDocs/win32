@@ -1,7 +1,12 @@
 ---
-Description: 'This section includes scenarios that use CAPICOM procedures.'
-ms.assetid: '8f74ff84-6165-46a3-976b-36c7f70546be'
+Description: This section includes scenarios that use CAPICOM procedures.
+ms.assetid: 8f74ff84-6165-46a3-976b-36c7f70546be
 title: Using CAPICOM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using CAPICOM

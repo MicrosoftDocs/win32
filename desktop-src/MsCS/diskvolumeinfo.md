@@ -4,17 +4,22 @@ description: Stores information about the volumes on a Physical Disk resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '610e8123-8726-4227-93b4-9e7b08b4583a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 610e8123-8726-4227-93b4-9e7b08b4583a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DiskVolumeInfo Failover Cluster , for Physical Disk private properties", "DiskVolumeInfo Failover Cluster"]
+keywords:
+- DiskVolumeInfo Failover Cluster , for Physical Disk private properties
+- DiskVolumeInfo Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DiskVolumeInfo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DiskVolumeInfo
@@ -28,13 +33,13 @@ Stores information about the volumes on a [*Physical Disk resource*](p-gly.md#-w
 | Data type | **BYTE**                                                         |
 | Access    | [Read/write](read-write-properties.md)                          |
 | Status    | Optional                                                         |
-| Structure | [**CLUSPROP\_BINARY**](clusprop-binary.md)                      |
+| Structure | [**CLUSPROP\_BINARY**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_binary?branch=master)                      |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | See Remarks                                                      |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,7 +63,7 @@ The constant for this property is **CLUSREG\_NAME\_PHYSDISK\_DISKVOLUMEINFO**.
 
 
 
- 
+ 
 
 For example, on a 64-bit Windows computer, the following **DiskVolumeInfo** data . . .
 
@@ -102,7 +107,7 @@ Padding
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -113,15 +118,15 @@ Padding
 [Physical Disk Private Properties](physical-disk-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_BINARY**](clusprop-binary.md)
+[**CLUSPROP\_BINARY**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_binary?branch=master)
 </dt> <dt>
 
 [**MountVolumeInfo**](physical-disks-mountvolumeinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

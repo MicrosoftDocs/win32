@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_MEDIA\_CAST'
-ms.assetid: '368e7381-8978-421a-b450-59915f8e70e2'
-title: 'WPD\_CONTENT\_TYPE\_MEDIA\_CAST'
+Description: WPD\_CONTENT\_TYPE\_MEDIA\_CAST
+ms.assetid: 368e7381-8978-421a-b450-59915f8e70e2
+title: WPD\_CONTENT\_TYPE\_MEDIA\_CAST
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_MEDIA\_CAST
@@ -60,7 +65,7 @@ This type of object supports the following properties.
 
 
 
- 
+ 
 
 ## Typical Resources
 
@@ -76,7 +81,7 @@ These objects typically include the following resources.
 
 
 
- 
+ 
 
 ## Mapping of RSS Elements and Mediacast properties
 
@@ -168,7 +173,7 @@ The following table lists the channel elements in an RSS feed and the correspond
 
 
 
- 
+ 
 
 The following table lists the image elements in an RSS feed and the corresponding WPD\_CONTENT\_TYPE\_MEDIA\_CAST properties.
 
@@ -186,7 +191,7 @@ The following table lists the image elements in an RSS feed and the correspondin
 
 
 
- 
+ 
 
 The following table lists the item elements in an RSS feed and the corresponding WPD\_CONTENT\_TYPE\_MEDIA\_CAST properties.
 
@@ -212,7 +217,7 @@ The following table lists the item elements in an RSS feed and the corresponding
 
 
 
- 
+ 
 
 The following example shows a complete RSS feed for a fictitious podcast supplied by the CEO of a publishing company.
 
@@ -295,12 +300,12 @@ The following table describes how the values in the RSS channel elements in the 
 | [WPD\_OBJECT\_ORIGINAL\_FILE\_NAME](object-properties.md#wpd-object-original-file-name)     | The Digital Publication                                                                       |
 | [WPD\_OBJECT\_PARENT\_ID](object-properties.md#wpd-object-parent-id)                        | MyPodcasts (a fictitious podcast folder on the device). Assume "0A0" for this example.        |
 | [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](object-properties.md#wpd-object-persistent-unique-id) | Session independent value. (Assume "0A1" for this example.)                                   |
-| [WPD\_OBJECT\_REFERENCES](object-properties.md#wpd-object-references)                       | 0A2… for N items<br/>                                                                   |
+| [WPD\_OBJECT\_REFERENCES](object-properties.md#wpd-object-references)                       | 0A2  for N items<br/>                                                                   |
 | [WPD\_OBJECT\_SIZE](object-properties.md#wpd-object-size)                                   | 13,790                                                                                        |
 
 
 
- 
+ 
 
 ## Mapping RSS Image Elements to WPD Property Values
 
@@ -325,7 +330,7 @@ The following table describes how the values in the RSS Image elements in the pr
 
 
 
- 
+ 
 
 ## Mapping RSS Item Elements to WPD Property Values
 
@@ -360,7 +365,7 @@ The following table describes how the values in the RSS Item elements in the pre
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -369,9 +374,9 @@ The following table describes how the values in the RSS Item elements in the pre
 [**Requirements for Objects**](requirements-for-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

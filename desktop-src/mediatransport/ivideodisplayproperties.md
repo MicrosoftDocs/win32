@@ -1,8 +1,10 @@
 ---
 title: IVideoDisplayProperties interface
 description: Provides properties for video information that is displayed by ISystemMediaTransportControlsDisplayUpdater.
-ms.assetid: '10171AD2-49B8-41C3-A3E5-D67735DB8C2F'
-keywords: ["IVideoDisplayProperties interface", "IVideoDisplayProperties interface, described"]
+ms.assetid: 10171AD2-49B8-41C3-A3E5-D67735DB8C2F
+keywords:
+- IVideoDisplayProperties interface
+- IVideoDisplayProperties interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Windows.Media.SystemMediaTransportControls.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVideoDisplayProperties interface
@@ -38,7 +45,7 @@ The **IVideoDisplayProperties** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -46,8 +53,8 @@ The **IVideoDisplayProperties** interface has these methods.
 
 |                                     |                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Windows.Media.SystemMediaTransportControls.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows.Media.SystemMediaTransportControls.idl</dt> </dl> |
 
@@ -60,9 +67,9 @@ The **IVideoDisplayProperties** interface has these methods.
 [**IInspectable**](https://msdn.microsoft.com/library/windows/desktop/br205821)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

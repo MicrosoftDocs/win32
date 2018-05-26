@@ -1,7 +1,12 @@
 ---
-Description: 'Function Discovery provides a programmatic interface for enumerating system resources.'
-ms.assetid: '014011ff-f41e-48d9-99c1-ad9dd1d2f62e'
+Description: Function Discovery provides a programmatic interface for enumerating system resources.
+ms.assetid: 014011ff-f41e-48d9-99c1-ad9dd1d2f62e
 title: Architectural Description
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Architectural Description

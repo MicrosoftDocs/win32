@@ -1,8 +1,10 @@
 ---
 title: CIM\_ManagedSystemElement class
 description: CIM\_ManagedSystemElement is the base class for the system element hierarchy. Any component of a system can potentially be represented by this class or its subclasses.
-ms.assetid: 'ff212250-fc27-48e1-b293-29cf05f8f5b3'
-keywords: ["CIM_ManagedSystemElement class Hyper-V", "CIM_ManagedSystemElement class Hyper-V , described"]
+ms.assetid: ff212250-fc27-48e1-b293-29cf05f8f5b3
+keywords:
+- CIM_ManagedSystemElement class Hyper-V
+- CIM_ManagedSystemElement class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ManagedSystemElement class
@@ -40,15 +47,15 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, Version("2.11.0"), AMENDMENT]
 class CIM_ManagedSystemElement : CIM_ManagedElement
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
 };
 ```
 
@@ -264,7 +271,7 @@ Contains indicators of the current status of the element. The first value of the
 > [!Note]  
 > The **OperationalStatus** property replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, we strongly recommend that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status**, because it is a single-valued property, should also provide the primary status of the element.
 
- 
+ 
 
 The possible values are.
 
@@ -520,7 +527,7 @@ Indicates the primary status of the object.
 > [!Note]  
 > This property is deprecated. It is replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility, it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 </dd> <dt>
 
@@ -547,9 +554,9 @@ Indicates descriptions of the corresponding values in the **OperationalStatus** 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -562,9 +569,9 @@ Indicates descriptions of the corresponding values in the **OperationalStatus** 
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

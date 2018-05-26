@@ -1,8 +1,9 @@
 ---
 title: WM\_DWMSENDICONICTHUMBNAIL message
 description: Instructs a window to provide a static bitmap to use as a thumbnail representation of that window.
-ms.assetid: '476c2542-f4d0-4777-93d3-bf50da26d94f'
-keywords: ["WM_DWMSENDICONICTHUMBNAIL message Desktop Window Manager"]
+ms.assetid: 476c2542-f4d0-4777-93d3-bf50da26d94f
+keywords:
+- WM_DWMSENDICONICTHUMBNAIL message Desktop Window Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Dwmapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DWMSENDICONICTHUMBNAIL message
@@ -44,17 +50,17 @@ If an application processes this message, it should return zero.
 DWM sends this message to a window if all of the following situations are true:
 
 -   DWM is displaying an iconic representation of the window.
--   The [**DWMWA\_HAS\_ICONIC\_BITMAP**](dwmwindowattribute.md) attribute is set on the window.
+-   The [**DWMWA\_HAS\_ICONIC\_BITMAP**](/windows/win32/Dwmapi/ne-dwmapi-dwmwindowattribute?branch=master) attribute is set on the window.
 -   The window did not set a cached bitmap.
 -   There is room in the cache for another bitmap.
 
-The window that receives this message should respond by generating a bitmap that is not larger than the size that is requested in the message parameters. The window then calls the [**DwmSetIconicThumbnail**](dwmseticonicthumbnail.md) function to override the default thumbnail. If the window does not supply a bitmap in a given amount of time, DWM uses its own default iconic representation for the window.
+The window that receives this message should respond by generating a bitmap that is not larger than the size that is requested in the message parameters. The window then calls the [**DwmSetIconicThumbnail**](/windows/win32/Dwmapi/nf-dwmapi-dwmseticonicthumbnail?branch=master) function to override the default thumbnail. If the window does not supply a bitmap in a given amount of time, DWM uses its own default iconic representation for the window.
 
 The window must belong to the calling process.
 
 ## Examples
 
-The following code example shows how to respond to the **WM\_DWMSENDICONICTHUMBNAIL** message. The example calls [**DwmSetIconicThumbnail**](dwmseticonicthumbnail.md), with a handle to a customized, device-indepedent bitmap to use as the windows' representation.
+The following code example shows how to respond to the **WM\_DWMSENDICONICTHUMBNAIL** message. The example calls [**DwmSetIconicThumbnail**](/windows/win32/Dwmapi/nf-dwmapi-dwmseticonicthumbnail?branch=master), with a handle to a customized, device-indepedent bitmap to use as the windows' representation.
 
 
 ```C++
@@ -82,8 +88,8 @@ For the complete example, see the [Customize an Iconic Thumbnail and a Live Prev
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Dwmapi.h</dt> </dl> |
 
 
@@ -92,15 +98,15 @@ For the complete example, see the [Customize an Iconic Thumbnail and a Live Prev
 
 <dl> <dt>
 
-[**DwmInvalidateIconicBitmaps**](dwminvalidateiconicbitmaps.md)
+[**DwmInvalidateIconicBitmaps**](/windows/win32/Dwmapi/nf-dwmapi-dwminvalidateiconicbitmaps?branch=master)
 </dt> <dt>
 
 [**WM\_DWMSENDICONICLIVEPREVIEWBITMAP**](wm-dwmsendiconiclivepreviewbitmap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

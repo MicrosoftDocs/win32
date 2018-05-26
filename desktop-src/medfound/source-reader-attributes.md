@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Source Reader Attributes
-ms.assetid: '312a588a-848b-4563-893a-fac49a4ca465'
+ms.assetid: 312a588a-848b-4563-893a-fac49a4ca465
 title: Source Reader Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source Reader Attributes
@@ -22,7 +27,7 @@ The following attributes can be used to initialize the [Source Reader](source-re
 | [MF\_SOURCE\_READER\_ENABLE\_ADVANCED\_VIDEO\_PROCESSING](mf-source-reader-enable-advanced-video-processing.md)     | Enables advanced video processing by the [Source Reader](source-reader.md), including color space conversion, deinterlacing, video resizing, and frame-rate conversion.                                                           |
 | [MF\_SOURCE\_READER\_ENABLE\_VIDEO\_PROCESSING](mf-source-reader-enable-video-processing.md)                        | Enables limited video processing by the source reader.                                                                                                                                                                             |
 | [MF\_SOURCE\_READER\_MEDIASOURCE\_CONFIG](mf-source-reader-mediasource-config.md)                                   | Contains configuration properties for the media source.                                                                                                                                                                            |
-| [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md)                                            | Contains an [**IMFFieldOfUseMFTUnlock**](imffieldofusemftunlock.md) pointer, which is used to unlock an MFT with field-of-use restrictions. For more information, see [Field of Use Restrictions](field-of-use-restrictions.md). |
+| [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md)                                            | Contains an [**IMFFieldOfUseMFTUnlock**](/windows/win32/mfidl/nn-mfidl-imffieldofusemftunlock?branch=master) pointer, which is used to unlock an MFT with field-of-use restrictions. For more information, see [Field of Use Restrictions](field-of-use-restrictions.md). |
 
 
 
@@ -30,13 +35,13 @@ The following attributes can be used to initialize the [Source Reader](source-re
 
 Use these attributes with the following methods and functions:
 
--   [**IMFReadWriteClassFactory::CreateInstanceFromObject**](imfreadwriteclassfactory-createinstancefromobject.md)
--   [**IMFReadWriteClassFactory::CreateInstanceFromURL**](imfreadwriteclassfactory-createinstancefromurl.md)
--   [**MFCreateSourceReaderFromByteStream**](mfcreatesourcereaderfrombytestream.md)
--   [**MFCreateSourceReaderFromMediaSource**](mfcreatesourcereaderfrommediasource.md)
--   [**MFCreateSourceReaderFromURL**](mfcreatesourcereaderfromurl.md)
+-   [**IMFReadWriteClassFactory::CreateInstanceFromObject**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfreadwriteclassfactory-createinstancefromobject?branch=master)
+-   [**IMFReadWriteClassFactory::CreateInstanceFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfreadwriteclassfactory-createinstancefromurl?branch=master)
+-   [**MFCreateSourceReaderFromByteStream**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrombytestream?branch=master)
+-   [**MFCreateSourceReaderFromMediaSource**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrommediasource?branch=master)
+-   [**MFCreateSourceReaderFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfromurl?branch=master)
 
-To use any of these attributes, first call [**MFCreateAttributes**](mfcreateattributes.md) to create a new attribute store. Then use the [**IMFAttributes**](imfattributes.md) interface to set the desired attributes on the attribute store. Pass the **IMFAttributes** pointer to the *pAttributes* parameter of any of the methods or functions listed previously.
+To use any of these attributes, first call [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master) to create a new attribute store. Then use the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface to set the desired attributes on the attribute store. Pass the **IMFAttributes** pointer to the *pAttributes* parameter of any of the methods or functions listed previously.
 
 ## Related topics
 
@@ -48,7 +53,7 @@ To use any of these attributes, first call [**MFCreateAttributes**](mfcreateattr
 [Source Reader](source-reader.md)
 </dt> <dt>
 
-[**IMFSourceReader**](imfsourcereader.md)
+[**IMFSourceReader**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsourcereader?branch=master)
 </dt> </dl>
 
  

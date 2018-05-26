@@ -1,8 +1,10 @@
 ---
 title: IOrpcDebugNotify interface
 description: Provides remote debugging functionality.
-ms.assetid: 'f91987c0-2e4b-4872-8ed6-e208a23baa49'
-keywords: ["IOrpcDebugNotify interface COM", "IOrpcDebugNotify interface COM , described"]
+ms.assetid: f91987c0-2e4b-4872-8ed6-e208a23baa49
+keywords:
+- IOrpcDebugNotify interface COM
+- IOrpcDebugNotify interface COM , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - N/A
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOrpcDebugNotify interface
@@ -27,7 +34,7 @@ This interface should be used for in-process remote debugging when software exce
 
 ## Members
 
-The **IOrpcDebugNotify** interface inherits from the [**IUnknown**](iunknown.md) interface. **IOrpcDebugNotify** also has these types of members:
+The **IOrpcDebugNotify** interface inherits from the [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) interface. **IOrpcDebugNotify** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -48,7 +55,7 @@ The **IOrpcDebugNotify** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,8 +67,8 @@ An import library containing the **IOrpcDebugNotify** interface is not included 
 
 |                                     |                                                                                |
 |-------------------------------------|--------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                           |
 | Header<br/>                   | <dl> <dt>N/A</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>N/A</dt> </dl> |
 
@@ -71,7 +78,7 @@ An import library containing the **IOrpcDebugNotify** interface is not included 
 
 <dl> <dt>
 
-[**IUnknown**](iunknown.md)
+[**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master)
 </dt> <dt>
 
 [**ORPC\_DBG\_ALL**](orpc-dbg-all.md)
@@ -86,9 +93,9 @@ An import library containing the **IOrpcDebugNotify** interface is not included 
 [**DllDebugObjectRPCHook**](dlldebugobjectrpchook.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Formats.Item property
 description: Retrieves the specified item in the Formats collection by position
-ms.assetid: '61caf842-f1f2-4c99-9de0-c413fb87772b'
-keywords: ["Item property WIA Automation", "Item property WIA Automation , Formats object", "Formats object WIA Automation , Item property"]
+ms.assetid: 61caf842-f1f2-4c99-9de0-c413fb87772b
+keywords:
+- Item property WIA Automation
+- Item property WIA Automation , Formats object
+- Formats object WIA Automation , Item property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Formats.Item property
@@ -42,8 +50,8 @@ For example code, see [List the Supported Transfer Formats](-wiaaut-shared-sampl
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -92,9 +100,9 @@ For example code, see [List the Supported Transfer Formats](-wiaaut-shared-sampl
 [**Item (Vector)**](-wiaaut-ivector-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

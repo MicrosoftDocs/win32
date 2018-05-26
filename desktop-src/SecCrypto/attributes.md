@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a collection of Attribute objects.'
-ms.assetid: '6116e61e-3ec5-4992-90ab-e3c7ced291b6'
+---
+Description: Represents a collection of Attribute objects.
+ms.assetid: 6116e61e-3ec5-4992-90ab-e3c7ced291b6
 title: Attributes object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes object

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the specified parameter information.'
-ms.assetid: 'fe3fe5cf-e8b8-40ca-9e12-9d92489982a7'
-title: 'IPStore::SetProvParam method'
+---
+Description: Sets the specified parameter information.
+ms.assetid: fe3fe5cf-e8b8-40ca-9e12-9d92489982a7
+title: IPStoreSetProvParam method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPStore::SetProvParam method

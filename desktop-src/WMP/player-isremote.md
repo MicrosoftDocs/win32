@@ -1,8 +1,9 @@
 ---
 title: Player.isRemote
 description: The isRemote property retrieves a value indicating whether the Windows Media Player control is running in remote mode.
-ms.assetid: 'bfeab968-affb-4d5d-b88b-5caf50d34cee'
-keywords: ["Player.isRemote Windows Media Player"]
+ms.assetid: bfeab968-affb-4d5d-b88b-5caf50d34cee
+keywords:
+- Player.isRemote Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.isRemote
@@ -34,7 +40,7 @@ This property is a read-only **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,9 +67,9 @@ This property is a read-only **Boolean**.
 [**Remoting the Windows Media Player Control**](remoting-the-windows-media-player-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

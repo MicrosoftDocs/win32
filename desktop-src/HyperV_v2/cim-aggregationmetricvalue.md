@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the instance value of a metric defined by an instance of CIM\_AggregationMetricDefinition.'
-ms.assetid: '663ef18a-0238-416f-9682-8809b271b4fc'
-title: 'CIM\_AggregationMetricValue class'
+Description: Represents the instance value of a metric defined by an instance of CIM\_AggregationMetricDefinition.
+ms.assetid: 663ef18a-0238-416f-9682-8809b271b4fc
+title: CIM\_AggregationMetricValue class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_AggregationMetricValue class
@@ -69,8 +74,8 @@ The time when the aggregation function was applied to determine the value of the
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The time when the aggregation function was applied to determine the value of the
 [**CIM\_BaseMetricValue**](cim-basemetricvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

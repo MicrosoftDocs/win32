@@ -1,8 +1,11 @@
 ---
 title: CreateResourcePool method of the CIM\_ResourcePoolConfigurationService class
 description: Starts a job to create a root resource pool. The resource pool will be scoped to the same system as this service.
-ms.assetid: '6f9c8fe9-63e6-4e70-b35d-7a781c36245a'
-keywords: ["CreateResourcePool method Hyper-V", "CreateResourcePool method Hyper-V , CIM_ResourcePoolConfigurationService class", "CIM_ResourcePoolConfigurationService class Hyper-V , CreateResourcePool method"]
+ms.assetid: 6f9c8fe9-63e6-4e70-b35d-7a781c36245a
+keywords:
+- CreateResourcePool method Hyper-V
+- CreateResourcePool method Hyper-V , CIM_ResourcePoolConfigurationService class
+- CIM_ResourcePoolConfigurationService class Hyper-V , CreateResourcePool method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateResourcePool method of the CIM\_ResourcePoolConfigurationService class
@@ -22,12 +30,12 @@ Starts a job to create a root resource pool. The resource pool will be scoped to
 
 ```mof
 uint32 CreateResourcePool(
-  [in]  string                ElementName,
-  [in]  CIM_LogicalDevice REF HostResources[],
-  [in]  string                ResourceType,
-  [out] CIM_ResourcePool  REF Pool,
-  [out] CIM_ConcreteJob   REF Job,
-  [out] string                Error
+  [in]  string                ElementName,
+  [in]  CIM_LogicalDevice REF HostResources[],
+  [in]  string                ResourceType,
+  [out] CIM_ResourcePool  REF Pool,
+  [out] CIM_ConcreteJob   REF Job,
+  [out] string                Error
 );
 ```
 
@@ -146,7 +154,7 @@ The job completed successfully.
 **DMTF Reserved**
 </dt> <dd>
 
-8–4095
+8 4095
 
 </dd> <dt>
 
@@ -167,14 +175,14 @@ The job completed successfully.
 **Method Reserved**
 </dt> <dd>
 
-4098–32767
+4098 32767
 
 </dd> <dt>
 
 **Vendor Specific**
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 </dd> </dl>
 
@@ -196,9 +204,9 @@ The job completed successfully.
 [**CIM\_ResourcePoolConfigurationService**](cim-resourcepoolconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Per-user event provided for logging initiation of conversations by Instant Messaging clients.'
-ms.assetid: 'b2cd1d37-9993-4990-83b7-b147a109e4af'
-title: 'WPCEVENT\_IM\_INVITATION event'
+Description: Per-user event provided for logging initiation of conversations by Instant Messaging clients.
+ms.assetid: b2cd1d37-9993-4990-83b7-b147a109e4af
+title: WPCEVENT\_IM\_INVITATION event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPCEVENT\_IM\_INVITATION event
@@ -64,7 +69,7 @@ The instant messaging account identity string for the account that is issuing th
 *Reason* 
 </dt> <dd>
 
-A value of the [**WPCFLAG\_ISBLOCKED**](wpcflag-isblocked.md) enumeration that indicates information about what events are blocked from use and what controls are in place.
+A value of the [**WPCFLAG\_ISBLOCKED**](/windows/win32/Wpcevent/ne-wpcevent-tagwpcflag_isblocked?branch=master) enumeration that indicates information about what events are blocked from use and what controls are in place.
 
 </dd> <dt>
 
@@ -88,7 +93,7 @@ A delimited string that contains instant messaging account identity strings for 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | None supported<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Wpcevent.h</dt> </dl> |
 
@@ -101,12 +106,12 @@ A delimited string that contains instant messaging account identity strings for 
 [Using Logging APIs for Parental Controls](using-logging-apis-for-parental-controls.md)
 </dt> <dt>
 
-[**WPC\_ARGS\_CONVERSATIONINITEVENT**](wpc-args-conversationinitevent.md)
+[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/win32/Wpcevent/ne-wpcevent-tagwpc_args_conversationinitevent?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

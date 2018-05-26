@@ -1,14 +1,20 @@
 ---
 title: ValueQueries (eventTriggerType) Element
 description: Contains a sequence of elements that each contain a name and an XPath query value.
-ms.assetid: '4b57568c-81b6-43fd-9194-9817c4817197'
-keywords: ["ValueQueries element Task Scheduler"]
+ms.assetid: 4b57568c-81b6-43fd-9194-9817c4817197
+keywords:
+- ValueQueries element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - ValueQueries
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ValueQueries (eventTriggerType) Element
@@ -36,7 +42,7 @@ The **ValueQueries** element is defined by the [**eventTriggerType**](taskschedu
 
 ## Remarks
 
-For C++ development, see [**ValueQueries Property of IEventTrigger**](ieventtrigger-valuequeries.md).
+For C++ development, see [**ValueQueries Property of IEventTrigger**](/windows/win32/taskschd/nf-taskschd-ieventtrigger-get_valuequeries?branch=master).
 
 For script development, see [**EventTrigger.ValueQueries**](eventtrigger-valuequeries.md).
 
@@ -50,14 +56,14 @@ For a complete example of the XML for a task that specifies a an event trigger u
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

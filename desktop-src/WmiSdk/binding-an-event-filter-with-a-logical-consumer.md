@@ -1,13 +1,16 @@
 ---
-Description: 'After you create the logical event consumer and the event filter you must link them, which registers the logical consumer to receive notification about the events specified by the filter.'
+Description: After you create the logical event consumer and the event filter you must link them, which registers the logical consumer to receive notification about the events specified by the filter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2fc3d781-2b93-4e9e-90a1-1b975ab40a01'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2fc3d781-2b93-4e9e-90a1-1b975ab40a01
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Binding an Event Filter with a Logical Consumer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Binding an Event Filter with a Logical Consumer

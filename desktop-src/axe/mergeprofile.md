@@ -1,14 +1,20 @@
 ---
 title: MergeProfile element
 description: The merge profile.
-ms.assetid: '90ED465C-3D76-49EA-A2F6-5F8084B74A04'
-keywords: ["MergeProfile element Access Execution Engine"]
+ms.assetid: 90ED465C-3D76-49EA-A2F6-5F8084B74A04
+keywords:
+- MergeProfile element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MergeProfile
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MergeProfile element

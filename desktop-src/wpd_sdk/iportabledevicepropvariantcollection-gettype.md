@@ -1,7 +1,12 @@
 ---
-Description: 'The GetType method retrieves the data type of the items in the collection.'
-ms.assetid: '2e389090-74ef-47af-9490-a4820d925246'
-title: 'IPortableDevicePropVariantCollection::GetType method'
+Description: The GetType method retrieves the data type of the items in the collection.
+ms.assetid: 2e389090-74ef-47af-9490-a4820d925246
+title: IPortableDevicePropVariantCollectionGetType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDevicePropVariantCollection::GetType method
@@ -13,7 +18,7 @@ The **GetType** method retrieves the data type of the items in the collection.
 
 ```C++
 HRESULT GetType(
-  [out] VARTYPE *pvt
+  [out] VARTYPE *pvt
 );
 ```
 
@@ -43,7 +48,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ All items that are stored in an **IPortableDevicePropVariantCollection** are the
 [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

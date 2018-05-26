@@ -1,7 +1,12 @@
 ---
-Description: 'A rating system that uses integer values between 1 and 99. This is the rating system used by the Windows Vista Shell.'
-ms.assetid: 'a6288d29-1ef3-4da1-bd30-577336ab6817'
-title: 'System.Rating'
+Description: A rating system that uses integer values between 1 and 99. This is the rating system used by the Windows Vista Shell.
+ms.assetid: a6288d29-1ef3-4da1-bd30-577336ab6817
+title: System.Rating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Rating

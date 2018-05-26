@@ -1,8 +1,9 @@
 ---
 title: RB\_PUSHCHEVRON message
 description: Sent to a rebar control to programmatically push a chevron.
-ms.assetid: '00a8ce10-1fb2-488a-a6f9-1814f73f82bd'
-keywords: ["RB_PUSHCHEVRON message Windows Controls"]
+ms.assetid: 00a8ce10-1fb2-488a-a6f9-1814f73f82bd
+keywords:
+- RB_PUSHCHEVRON message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_PUSHCHEVRON message
@@ -31,7 +37,7 @@ Zero-based index of the band whose chevron is to be pushed.
 *lParam* 
 </dt> <dd>
 
-An application defined 32-bit value. It will be passed back to the application as the **lParamNM** member of the [**NMREBARCHEVRON**](nmrebarchevron.md) structure that is passed with the [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification.
+An application defined 32-bit value. It will be passed back to the application as the **lParamNM** member of the [**NMREBARCHEVRON**](/windows/win32/Commctrl/ns-commctrl-tagnmrebarchevron?branch=master) structure that is passed with the [RBN\_CHEVRONPUSHED](rbn-chevronpushed.md) notification.
 
 </dd> </dl>
 
@@ -49,15 +55,15 @@ When this message is sent, the rebar control will send the application an [RBN\_
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Data Type Conversions
 description: Data Type Conversions
-ms.assetid: '54688ee9-2dd7-466b-b278-13d6f9d1e6ce'
+ms.assetid: 54688ee9-2dd7-466b-b278-13d6f9d1e6ce
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Type Conversions
@@ -34,21 +39,21 @@ The following table lists conversions between programming languages for common d
 | **BSTR**<br/>                     | **String**<br/>    | **java.lang.String**<br/>    | Automation string <br/> (VT\_BSTR, \[V\]\[T\]\[P\]\[S\])<br/>                      |
 | **BOOL**<br/>                     | **Boolean**<br/>   | **boolean**<br/>             | Boolean <br/> (VT\_BOOL, \[V\]\[T\]\[P\]\[S\])<br/>                                |
 | **VARIANT**<br/>                  | **Variant**<br/>   | **com.ms.com.Variant**<br/>  | VARIANT FAR\* <br/> (VT\_VARIANT, \[V\]\[T\]\[P\]\[S\])<br/>                       |
-| [**IUnknown**](iunknown.md)<br/> | **object**<br/>    | **com.ms.com.IUnknown**<br/> | IDispatch interface pointer <br/> (VT\_DISPATCH, \[V\]\[T\]\[P\]\[S\])<br/>        |
+| [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master)<br/> | **object**<br/>    | **com.ms.com.IUnknown**<br/> | IDispatch interface pointer <br/> (VT\_DISPATCH, \[V\]\[T\]\[P\]\[S\])<br/>        |
 | **DATE**<br/>                     | **Date**<br/>      | **com.ms.com.Variant**<br/>  | Date <br/> (VT\_DATE, \[V\]\[T\]\[P\]\[S\])<br/>                                   |
 | **CURRENCY**<br/>                 | **Currency**<br/>  | **com.ms.com.Variant**<br/>  | Currency <br/> (VT\_CY, \[V\]\[T\]\[P\]\[S\] or VT\_DECIMAL, \[V\]\[T\]\[S\])<br/> |
 
 
 
- 
+ 
 
 For information about VARTYPE values and how to use them, see the topic [IDispatch Data Types and Structures](http://go.microsoft.com/fwlink/p/?linkid=124543).
 
 The data type conversions between scripting languages are simpler than those for programming languages. JScript and JavaScript both support the same data types, and VBScript supports only a single data type, **Variant**. Thus, all JScript and JavaScript data types become **Variant** types when converted to VBScript. When you convert VBScript to JScript or JavaScript, the **Variant** types become numbers, strings, Boolean values, and so on.
 
- 
+ 
 
- 
+ 
 
 
 

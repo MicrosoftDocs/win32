@@ -1,8 +1,14 @@
 ---
 title: ARIA Container Role Keyboard Accessibility Error
 description: ARIA Container Role Keyboard Accessibility Error
-ms.assetid: '364F26D7-7B65-418B-9DA5-F3B7B59284F7'
-keywords: ["AriaContainerKeyboardAccessibilityErrorId"]
+ms.assetid: 364F26D7-7B65-418B-9DA5-F3B7B59284F7
+keywords:
+- AriaContainerKeyboardAccessibilityErrorId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARIA Container Role Keyboard Accessibility Error

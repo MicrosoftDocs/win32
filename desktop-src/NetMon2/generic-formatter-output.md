@@ -1,7 +1,12 @@
 ---
-Description: 'The lists and tables in this section show the output of the generic formatter. Be aware that the generic formatter uses the DataType and DataQualifier members of the PROPERTYINFO structure to determine how to format the displayed data.'
-ms.assetid: 'cf3dc6cd-7b24-464a-9d2b-5e35c4e8825e'
+Description: The lists and tables in this section show the output of the generic formatter. Be aware that the generic formatter uses the DataType and DataQualifier members of the PROPERTYINFO structure to determine how to format the displayed data.
+ms.assetid: cf3dc6cd-7b24-464a-9d2b-5e35c4e8825e
 title: Generic Formatter Output
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generic Formatter Output
@@ -55,7 +60,7 @@ In the formatter output column, the value of the data in the capture is XYZ.
 
 
 
- 
+ 
 
 ## PROP\_TYPE\_SUMMARY
 
@@ -78,7 +83,7 @@ In the example output column, the value of the data in the capture is XYZ.
 
 
 
- 
+ 
 
 ## PROP\_TYPE\_BYTE
 
@@ -102,7 +107,7 @@ In the example output column, the value of the data in the capture is 10.
 
 
 
- 
+ 
 
 ## PROP\_TYPE\_WORD
 
@@ -111,7 +116,7 @@ The following table lists the generic format output for a **PROP\_TYPE\_WORD** d
 > [!Note]  
 > For non-Intel, byte-swapped DWORD properties, you must change the data to an Intel format. To change the format, set the *IFlags* parameter of the **Attach** property instance function IFLAG\_SWAPPED when you map the property instance to a location.
 
- 
+ 
 
 In the example output column, the value of the data in the capture is 10.
 
@@ -131,7 +136,7 @@ In the example output column, the value of the data in the capture is 10.
 
 
 
- 
+ 
 
 ## PROP\_TYPE\_DWORD
 
@@ -140,7 +145,7 @@ The following table lists the generic format output for **PROP\_TYPE\_DWORD** da
 > [!Note]  
 > For non-Intel, byte-swapped DWORD properties, you must change the data to an Intel format. To change the format, set the *IFlags* parameter of the **Attach** property instance function IFLAG\_SWAPPED when you map the property instance to a location.
 
- 
+ 
 
 In the example output column, the value of the data in the capture is 10.
 
@@ -160,7 +165,7 @@ In the example output column, the value of the data in the capture is 10.
 
 
 
- 
+ 
 
 ## PROP\_TYPE\_RAW\_DATA
 
@@ -181,7 +186,7 @@ The following table lists the generic format output for a **PROP\_TYPE\_RAW\_DAT
 
 
 
- 
+ 
 
 ## PROP\_TYPE\_TIME
 
@@ -204,7 +209,7 @@ The generic formatter calls [**GetDateFormat**](https://msdn.microsoft.com/libra
 
 
 
- 
+ 
 
 ## PROP\_TYPE\_STRING
 
@@ -225,7 +230,7 @@ The following table lists the generic format output for **PROP\_TYPE\_STRING** d
 
 
 
- 
+ 
 
 ## PROP\_TYPE\_IP\_ADDRESS
 
@@ -248,11 +253,11 @@ In the example output column, the value of the data in the capture is "129.65.10
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

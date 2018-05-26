@@ -1,7 +1,12 @@
 ---
-Description: 'A fax client application can specify any one file to transmit.'
-ms.assetid: 'bee4d50b-d6e3-432b-9db6-c7df837079f4'
+Description: A fax client application can specify any one file to transmit.
+ms.assetid: bee4d50b-d6e3-432b-9db6-c7df837079f4
 title: Transmitting Faxes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transmitting Faxes

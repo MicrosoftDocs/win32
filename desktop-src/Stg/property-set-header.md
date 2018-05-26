@@ -1,8 +1,14 @@
 ---
 title: Property Set Header
 description: At the beginning of the property set stream is a header. It consists of a byte-order indicator, a format version, the originating operating system version, the class identifier (CLSID), and a reserved field.
-ms.assetid: '6f4531d5-99d8-43ff-b6c1-5975b7527fc0'
-keywords: ["Property Set Header Structured Storage"]
+ms.assetid: 6f4531d5-99d8-43ff-b6c1-5975b7527fc0
+keywords:
+- Property Set Header Structured Storage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Set Header

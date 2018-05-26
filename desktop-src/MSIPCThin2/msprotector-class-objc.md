@@ -4,17 +4,21 @@ description: Enables you to encrypt or decrypt any chunk of data and manage the 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'FEE226D2-AA7E-474D-8D17-1E9130560E34'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: FEE226D2-AA7E-474D-8D17-1E9130560E34
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSProtector class"]
+keywords:
+- MSProtector class
 topic_type:
 - apiref
 api_name:
 - MSProtector class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSProtector class
@@ -39,7 +43,7 @@ Enables you to encrypt or decrypt any chunk of data and manage the stream.
 
 
 
- 
+ 
 
 ## Methods
 
@@ -53,7 +57,7 @@ Enables you to encrypt or decrypt any chunk of data and manage the stream.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -69,21 +73,21 @@ MSProtection.h
 
 
 
- 
+ 
 
 
 
 
 
- 
+ 
 
 ## Thread Safety
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,16 +1,21 @@
 ---
-Description: 'The CBaseControlWindow class implements the IVideoWindow interface and controls external access to its associated filter.'
-ms.assetid: '3657ba24-ffaa-491f-9eb3-f9913d5d421a'
+Description: The CBaseControlWindow class implements the IVideoWindow interface and controls external access to its associated filter.
+ms.assetid: 3657ba24-ffaa-491f-9eb3-f9913d5d421a
 title: CBaseControlWindow class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow class
 
 ![cbasecontrolwindow class hierarchy](images/wctrl01.png)
 
-The **CBaseControlWindow** class implements the [**IVideoWindow**](ivideowindow.md) interface and controls external access to its associated filter. You must synchronize the **CBaseControlWindow** object with the filter by passing it a pointer to a critical section synchronization object. The **CBaseControlWindow** class provides a number of methods that return property settings without dealing with this critical section. For example, calling [**CBaseControlWindow::get\_AutoShow**](cbasecontrolwindow-get-autoshow.md) to retrieve the value of the **m\_bAutoShow** data member locks the critical section. The filter might already have a locked internal critical section, however, which could violate the filter's lock hierarchy. Instead, calling the [**CBaseControlWindow::IsAutoShowEnabled**](cbasecontrolwindow-isautoshowenabled.md) member function returns the required value without affecting the critical section.
+The **CBaseControlWindow** class implements the [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) interface and controls external access to its associated filter. You must synchronize the **CBaseControlWindow** object with the filter by passing it a pointer to a critical section synchronization object. The **CBaseControlWindow** class provides a number of methods that return property settings without dealing with this critical section. For example, calling [**CBaseControlWindow::get\_AutoShow**](cbasecontrolwindow-get-autoshow.md) to retrieve the value of the **m\_bAutoShow** data member locks the critical section. The filter might already have a locked internal critical section, however, which could violate the filter's lock hierarchy. Instead, calling the [**CBaseControlWindow::IsAutoShowEnabled**](cbasecontrolwindow-isautoshowenabled.md) member function returns the required value without affecting the critical section.
 
-All **CBaseControlWindow** implemented [**IVideoWindow**](ivideowindow.md) methods require that the filter be connected correctly with its upstream filter. For this reason, class objects require a synchronization pin, which you set by calling the [**CBaseControlWindow::SetControlWindowPin**](cbasecontrolwindow-setcontrolwindowpin.md) method. Whenever you call an **IVideoWindow** method, the **CBaseControlWindow** object checks that the pin is still connected.
+All **CBaseControlWindow** implemented [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) methods require that the filter be connected correctly with its upstream filter. For this reason, class objects require a synchronization pin, which you set by calling the [**CBaseControlWindow::SetControlWindowPin**](cbasecontrolwindow-setcontrolwindowpin.md) method. Whenever you call an **IVideoWindow** method, the **CBaseControlWindow** object checks that the pin is still connected.
 
 
 

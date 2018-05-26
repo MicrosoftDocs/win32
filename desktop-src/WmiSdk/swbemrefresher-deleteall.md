@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemRefresher.DeleteAll method removes all the items from the collection in the SWbemRefresher object.SWbemRefresher object.'
+Description: The SWbemRefresher.DeleteAll method removes all the items from the collection in the SWbemRefresher object.SWbemRefresher object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c6e462d3-52b3-40c0-9a9c-fa268415a5f0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c6e462d3-52b3-40c0-9a9c-fa268415a5f0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemRefresher.DeleteAll method'
+title: SWbemRefresher.DeleteAll method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemRefresher.DeleteAll method
@@ -43,8 +46,8 @@ The corresponding [**SWbemRefreshableItem**](swbemrefreshableitem.md) for each r
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -60,9 +63,9 @@ The corresponding [**SWbemRefreshableItem**](swbemrefreshableitem.md) for each r
 [**SWbemRefresher**](swbemrefresher.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

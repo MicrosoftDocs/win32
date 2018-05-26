@@ -1,8 +1,9 @@
 ---
 title: UFS\_ATTRIBUTES\_DESCRIPTOR enumeration
 description: UFS\_ATTRIBUTES\_DESCRIPTOR describes the different types of attributes used by Universal Flash Storage (UFS) descriptors.
-ms.assetid: '695D8FE9-FADB-488F-A5F7-7715EAD48DD6'
-keywords: ["UFS_ATTRIBUTES_DESCRIPTOR enumeration Storage Devices"]
+ms.assetid: 695D8FE9-FADB-488F-A5F7-7715EAD48DD6
+keywords:
+- UFS_ATTRIBUTES_DESCRIPTOR enumeration Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Ufs.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UFS\_ATTRIBUTES\_DESCRIPTOR enumeration
@@ -22,7 +28,7 @@ api_type:
 
 ```C++
 typedef enum _UFS_ATTRIBUTES_DESCRIPTOR { 
-  UFS_bBootLunEn              = 0,
+  UFS_bBootLunEn              = 0,
   UFS_Reserved01,
   UFS_bCurrentPowerMode,
   UFS_bActiveICCLevel,
@@ -88,7 +94,7 @@ Indicates the current power mode. Contains one of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -122,7 +128,7 @@ Specifies if the device has a need for background operations. Contains one of th
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -170,7 +176,7 @@ Specifies the reference clock frequency value.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -184,7 +190,7 @@ Specifies if the configuration descriptor is locked.
 <span id="UFS_bMaxNumOfRTT"></span><span id="ufs_bmaxnumofrtt"></span><span id="UFS_BMAXNUMOFRTT"></span>**UFS\_bMaxNumOfRTT**
 </dt> <dd>
 
-Defines the current maximum number of outstanding READY TO TRANSFER UPIU’s (RTT's) that are allowed. This value can be set by the host.
+Defines the current maximum number of outstanding READY TO TRANSFER UPIU s (RTT's) that are allowed. This value can be set by the host.
 
 </dd> <dt>
 
@@ -211,7 +217,7 @@ Specifies a bitmap of each exception event status.A bit will be set only if the 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -269,7 +275,7 @@ Specifies the Device Field Firmware Update (FFU) status.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -285,11 +291,11 @@ Specifies the current Product State Awareness (PSA) State.
 | 0x00  | Off              | PSA feature is off.                                                                                                                                          |
 | 0x01  | Pre-solder       | PSA feature is on and the device is in a pre-soldering state.                                                                                                |
 | 0x02  | Loading Complete | The PSA feature is on. The host will set to this value after the host finished writing data during pre-soldering state.                                      |
-| 0x03  | Soldered         | PSA feature is no longer available. Set by the Device to indicate it is in a post-soldering state. This attribute is locked after it is in ‘Soldered’ state. |
+| 0x03  | Soldered         | PSA feature is no longer available. Set by the Device to indicate it is in a post-soldering state. This attribute is locked after it is in  Soldered  state. |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -314,8 +320,8 @@ Specifies the amount of data that the host plans to load to all logical units wi
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                   |
+| Minimum supported client<br/> | Windows 10, version 1709<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ufs.h</dt> </dl> |
 
 
@@ -354,9 +360,9 @@ Specifies the amount of data that the host plans to load to all logical units wi
 [**UFS\_UNIT\_DESCRIPTOR**](ufs-unit-descriptor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20UFS_ATTRIBUTES_DESCRIPTOR%20enumeration%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

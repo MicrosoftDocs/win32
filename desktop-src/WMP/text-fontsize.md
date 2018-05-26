@@ -1,14 +1,20 @@
 ---
 title: TEXT.fontSize
 description: The fontSize attribute specifies or retrieves the font size for the Text control.
-ms.assetid: '066b7c8c-d029-464b-b2f3-7eb070046d99'
-keywords: ["TEXT.fontSize Windows Media Player"]
+ms.assetid: 066b7c8c-d029-464b-b2f3-7eb070046d99
+keywords:
+- TEXT.fontSize Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.fontSize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.fontSize
@@ -45,9 +51,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT.fontFace**](text-fontface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

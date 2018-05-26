@@ -1,13 +1,16 @@
 ---
-Description: 'The standard consumer that is implemented by the ActiveScriptEventConsumer class allows a computer to run a script and take action when important events occur to ensure that a computer can detect and resolve problems automatically.'
+Description: The standard consumer that is implemented by the ActiveScriptEventConsumer class allows a computer to run a script and take action when important events occur to ensure that a computer can detect and resolve problems automatically.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0d2ac139-3e2b-4089-ae9c-289d376e27a2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0d2ac139-3e2b-4089-ae9c-289d376e27a2
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Running a Script Based on an Event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Running a Script Based on an Event

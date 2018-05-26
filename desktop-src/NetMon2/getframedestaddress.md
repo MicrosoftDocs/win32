@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the destination address of a frame.'
-ms.assetid: 'f19a6753-37d8-4ec7-a7d4-ced0292d453c'
+Description: Retrieves the destination address of a frame.
+ms.assetid: f19a6753-37d8-4ec7-a7d4-ced0292d453c
 title: GetFrameDestAddress function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetFrameDestAddress function
@@ -13,10 +18,10 @@ The **GetFrameDestAddress** function retrieves the destination address of a fram
 
 ```C++
 DWORD WINAPI GetFrameDestAddress(
-   HFRAME    hFrame,
-   LPADDRESS lpAddress,
-   DWORD     AddressType,
-   DWORD     Flags
+   HFRAME    hFrame,
+   LPADDRESS lpAddress,
+   DWORD     AddressType,
+   DWORD     Flags
 );
 ```
 
@@ -61,7 +66,7 @@ The flags used to modify returned destination address data.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -80,7 +85,7 @@ If the function is unsuccessful, the return value is an error code.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -92,17 +97,17 @@ The **ADDRESS\_TYPE\_FIND\_HIGHEST** address type is allowed. When this address 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

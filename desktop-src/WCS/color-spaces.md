@@ -1,8 +1,20 @@
 ---
 title: Color Spaces
 description: The human eye is often able to detect many more colors than digital devices can reproduce.
-ms.assetid: 'e135b5ef-fa5c-49b7-8537-5dc31cde2418'
-keywords: ["Windows Color System (WCS),color spaces", "WCS (Windows Color System),color spaces", "image color management,color spaces", "color management,color spaces", "colors,color spaces", "color spaces,about", "color channels"]
+ms.assetid: e135b5ef-fa5c-49b7-8537-5dc31cde2418
+keywords:
+- Windows Color System (WCS),color spaces
+- WCS (Windows Color System),color spaces
+- image color management,color spaces
+- color management,color spaces
+- colors,color spaces
+- color spaces,about
+- color channels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Spaces

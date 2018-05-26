@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectTechnique GetPassByName method
 description: Get a pass by name.
-ms.assetid: '07c7502e-2af9-4898-8cd4-106d6814fb85'
-keywords: ["GetPassByName method Direct3D 11", "GetPassByName method Direct3D 11 , ID3DX11EffectTechnique interface", "ID3DX11EffectTechnique interface Direct3D 11 , GetPassByName method"]
+ms.assetid: 07c7502e-2af9-4898-8cd4-106d6814fb85
+keywords:
+- GetPassByName method Direct3D 11
+- GetPassByName method Direct3D 11 , ID3DX11EffectTechnique interface
+- ID3DX11EffectTechnique interface Direct3D 11 , GetPassByName method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectTechnique::GetPassByName method
@@ -23,7 +31,7 @@ Get a pass by name.
 
 ```C++
 ID3DX11EffectPass* GetPassByName(
-   LPCSTR Name
+   LPCSTR Name
 );
 ```
 
@@ -55,7 +63,7 @@ A technique contains one or more passes; get a pass using a name or an index.
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ A technique contains one or more passes; get a pass using a name or an index.
 [ID3DX11EffectTechnique](id3dx11effecttechnique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

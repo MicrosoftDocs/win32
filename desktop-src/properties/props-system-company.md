@@ -1,7 +1,12 @@
 ---
-Description: 'The company or publisher.'
-ms.assetid: '01b3b328-a419-4175-acee-ac6ac4dccc75'
-title: 'System.Company'
+Description: The company or publisher.
+ms.assetid: 01b3b328-a419-4175-acee-ac6ac4dccc75
+title: System.Company
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Company

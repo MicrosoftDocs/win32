@@ -1,8 +1,9 @@
 ---
 title: CdromMediaChange Event of the AxWindowsMediaPlayer Object
 description: The CdromMediaChange event occurs when a CD or DVD is inserted into or ejected from a CD or DVD drive.
-ms.assetid: '0a6378c1-59e4-4be3-8764-d5c4ab478b6c'
-keywords: ["CdromMediaChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 0a6378c1-59e4-4be3-8764-d5c4ab478b6c
+keywords:
+- CdromMediaChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CdromMediaChange Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cdr
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,9 +80,9 @@ The index of the CD drive corresponds to the index of an IWMPCdrom interface acc
 [**IWMPCdromCollection Interface (VB and C#)**](iwmpcdromcollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: ATSCTuningSpace Object
 description: ATSCTuningSpace Object
-ms.assetid: '8535a8c3-35df-4c6c-872a-437f5c7a2e56'
+ms.assetid: 8535a8c3-35df-4c6c-872a-437f5c7a2e56
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATSCTuningSpace Object
@@ -12,7 +17,7 @@ The **ATSCTuningSpace** object represents a tuning space for ATSC networks.
 
 |                           |                                                                                                            |
 |---------------------------|------------------------------------------------------------------------------------------------------------|
-| Interfaces                | [**IATSCTuningSpace**](iatsctuningspace.md), [**IMPEG2TuneRequestSupport**](impeg2tunerequestsupport.md) |
+| Interfaces                | [**IATSCTuningSpace**](/windows/previous-versions/tuner/nn-tuner-iatsctuningspace?branch=master), [**IMPEG2TuneRequestSupport**](/windows/previous-versions/tuner/?branch=master) |
 | Outgoing Event Interfaces | None                                                                                                       |
 | CLSID                     | CLSID\_ATSCTuningSpace                                                                                     |
 
@@ -26,9 +31,9 @@ Applications should get this object from the [SystemTuningSpaces](systemtuningsp
 
 Tune request objects created by this tuning space support following interfaces:
 
--   [**IATSCChannelTuneRequest**](iatscchanneltunerequest.md)
--   [**IChannelTuneRequest**](ichanneltunerequest.md)
--   [**ITuneRequest**](itunerequest.md)
+-   [**IATSCChannelTuneRequest**](/windows/previous-versions/tuner/nn-tuner-iatscchanneltunerequest?branch=master)
+-   [**IChannelTuneRequest**](/windows/previous-versions/tuner/nn-tuner-ichanneltunerequest?branch=master)
+-   [**ITuneRequest**](/windows/previous-versions/tuner/nn-tuner-itunerequest?branch=master)
 
 ## Related topics
 

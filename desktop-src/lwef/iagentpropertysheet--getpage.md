@@ -1,7 +1,12 @@
 ---
 title: IAgentPropertySheet GetPage
 description: IAgentPropertySheet GetPage
-ms.assetid: '40d00e9b-dd81-4e23-907a-6ca24a28fa95'
+ms.assetid: 40d00e9b-dd81-4e23-907a-6ca24a28fa95
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentPropertySheet::GetPage

@@ -1,12 +1,18 @@
 ---
 title: Texture1D SampleGrad methods
 description: Samples a Texture1D using a gradient to influence the way the sample location is calculated.
-ms.assetid: '20DE104D-79FD-410D-A8FC-7E810A0654A0'
-keywords: ["SampleGrad methods HLSL"]
+ms.assetid: 20DE104D-79FD-410D-A8FC-7E810A0654A0
+keywords:
+- SampleGrad methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture1D::SampleGrad methods
@@ -36,9 +42,9 @@ Refer to [Texture-Object](dx-graphics-hlsl-to-type.md).
 [Texture1D](sm5-object-texture1d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

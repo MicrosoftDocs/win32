@@ -1,8 +1,18 @@
 ---
 title: VIDEOSETTINGS Element
 description: VIDEOSETTINGS Element
-ms.assetid: '2d147bd2-0010-41ab-8073-a4dc2979be1e'
-keywords: ["Windows Media Player skins,VIDEOSETTINGS element", "skins,VIDEOSETTINGS element", "VIDEOSETTINGS element", "reference for skins,VIDEOSETTINGS element", "elements,VIDEOSETTINGS"]
+ms.assetid: 2d147bd2-0010-41ab-8073-a4dc2979be1e
+keywords:
+- Windows Media Player skins,VIDEOSETTINGS element
+- skins,VIDEOSETTINGS element
+- VIDEOSETTINGS element
+- reference for skins,VIDEOSETTINGS element
+- elements,VIDEOSETTINGS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEOSETTINGS Element

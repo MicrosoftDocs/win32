@@ -1,14 +1,22 @@
 ---
 title: IDCompositionMatrixTransform SetMatrixElement(int, int, IDCompositionAnimation\ ) method
 description: Animates the value of one element of the matrix of this 2D transform.
-ms.assetid: '16A9E136-5F0C-4F34-A127-BF06C4530499'
-keywords: ["SetMatrixElement method DirectComposition", "SetMatrixElement method DirectComposition , IDCompositionMatrixTransform interface", "IDCompositionMatrixTransform interface DirectComposition , SetMatrixElement method"]
+ms.assetid: 16A9E136-5F0C-4F34-A127-BF06C4530499
+keywords:
+- SetMatrixElement method DirectComposition
+- SetMatrixElement method DirectComposition , IDCompositionMatrixTransform interface
+- IDCompositionMatrixTransform interface DirectComposition , SetMatrixElement method
 topic_type:
 - apiref
 api_name:
 - IDCompositionMatrixTransform.SetMatrixElement
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDCompositionMatrixTransform::SetMatrixElement(int, int, IDCompositionAnimation\*) method
@@ -61,13 +69,13 @@ If the function succeeds, it returns S\_OK. Otherwise, it returns an **HRESULT**
 
 This method makes a copy of the specified animation. If the object referenced by the *animation* parameter is changed after calling this method, the change does not affect the element unless this method is called again. If the element was previously animated, calling this method replaces the previous animation with the new animation.
 
-This method fails if *animation* is an invalid pointer or if it was not created by the same [**IDCompositionDevice**](idcompositiondevice.md) interface as the affected transform. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+This method fails if *animation* is an invalid pointer or if it was not created by the same [**IDCompositionDevice**](/windows/win32/Dcomp/?branch=master) interface as the affected transform. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 ## See also
 
 <dl> <dt>
 
-[**IDCompositionMatrixTransform**](idcompositionmatrixtransform.md)
+[**IDCompositionMatrixTransform**](/windows/win32/Dcomp/?branch=master)
 </dt> </dl>
 
  

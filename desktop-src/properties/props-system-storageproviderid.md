@@ -1,7 +1,12 @@
 ---
-Description: 'This property represents the \[Storage Provider ID\] part of the fully-qualified provider identifier&\#0034;\[Storage Provider ID\]!\[Windows SID\]!\[Account ID\]&\#0034;.'
-ms.assetid: '361c5c25-2c8d-485b-83fd-55d94f6420a9'
-title: 'System.StorageProviderId'
+Description: This property represents the \[Storage Provider ID\] part of the fully-qualified provider identifier&\#0034;\[Storage Provider ID\]!\[Windows SID\]!\[Account ID\]&\#0034;.
+ms.assetid: 361c5c25-2c8d-485b-83fd-55d94f6420a9
+title: System.StorageProviderId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.StorageProviderId

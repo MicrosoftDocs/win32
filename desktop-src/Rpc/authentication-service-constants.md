@@ -1,7 +1,7 @@
 ---
 title: Authentication-Service Constants
 description: The authentication service constants represent the authentication services passed to various run-time functions.
-ms.assetid: 'ac95276f-230d-4993-92fe-1739d022c8b3'
+ms.assetid: ac95276f-230d-4993-92fe-1739d022c8b3
 topic_type:
 - apiref
 api_name:
@@ -23,6 +23,11 @@ api_location:
 - Rpcdce.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication-Service Constants
@@ -45,8 +50,8 @@ The following constants are valid values for the *AuthnSvc* parameter.
 | <span id="RPC_C_AUTHN_GSS_KERBEROS"></span><span id="rpc_c_authn_gss_kerberos"></span><dl> <dt>**RPC\_C\_AUTHN\_GSS\_KERBEROS**</dt> <dt>16</dt> </dl>    | Use the [Microsoft Kerberos SSP](https://msdn.microsoft.com/library/windows/desktop/aa378747).<br/>                                                                                                            |
 | <span id="RPC_C_AUTHN_DPA"></span><span id="rpc_c_authn_dpa"></span><dl> <dt>**RPC\_C\_AUTHN\_DPA**</dt> <dt>17</dt> </dl>                                | Use Distributed Password Authentication (DPA).<br/>                                                                                                                            |
 | <span id="RPC_C_AUTHN_MSN"></span><span id="rpc_c_authn_msn"></span><dl> <dt>**RPC\_C\_AUTHN\_MSN**</dt> <dt>18</dt> </dl>                                | Authentication protocol SSP used for the Microsoft Network (MSN).<br/>                                                                                                         |
-| <span id="RPC_C_AUTHN_DIGEST"></span><span id="rpc_c_authn_digest"></span><dl> <dt>**RPC\_C\_AUTHN\_DIGEST**</dt> <dt>21</dt> </dl>                       | Windows XP or later: Use the [Microsoft Digest SSP](https://msdn.microsoft.com/library/windows/desktop/aa378745)<br/>                                                                                        |
-| <span id="RPC_C_AUTHN_NEGO_EXTENDER"></span><span id="rpc_c_authn_nego_extender"></span><dl> <dt>**RPC\_C\_AUTHN\_NEGO\_EXTENDER**</dt> <dt>30</dt> </dl> | Windows 7 or later: Reserved. Do not use<br/>                                                                                                                                  |
+| <span id="RPC_C_AUTHN_DIGEST"></span><span id="rpc_c_authn_digest"></span><dl> <dt>**RPC\_C\_AUTHN\_DIGEST**</dt> <dt>21</dt> </dl>                       | Windows XP or later: Use the [Microsoft Digest SSP](https://msdn.microsoft.com/library/windows/desktop/aa378745)<br/>                                                                                        |
+| <span id="RPC_C_AUTHN_NEGO_EXTENDER"></span><span id="rpc_c_authn_nego_extender"></span><dl> <dt>**RPC\_C\_AUTHN\_NEGO\_EXTENDER**</dt> <dt>30</dt> </dl> | Windows 7 or later: Reserved. Do not use<br/>                                                                                                                                  |
 | <span id="RPC_C_AUTHN_MQ"></span><span id="rpc_c_authn_mq"></span><dl> <dt>**RPC\_C\_AUTHN\_MQ**</dt> <dt>100</dt> </dl>                                  | This SSP provides an SSPI-compatible wrapper for the Microsoft Message Queue (MSMQ) transport-level protocol.<br/>                                                             |
 | <span id="RPC_C_AUTHN_DEFAULT"></span><span id="rpc_c_authn_default"></span><dl> <dt>**RPC\_C\_AUTHN\_DEFAULT**</dt> <dt>0xffffffff</dt> </dl>            | Use the default authentication service.<br/>                                                                                                                                   |
 
@@ -62,8 +67,8 @@ Specify RPC\_C\_AUTHN\_NONE to turn off authentication for remote procedure call
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Rpcdce.h</dt> </dl> |
 
 
@@ -72,27 +77,27 @@ Specify RPC\_C\_AUTHN\_NONE to turn off authentication for remote procedure call
 
 <dl> <dt>
 
-[**RpcBindingInqAuthInfo**](rpcbindinginqauthinfo.md)
+[**RpcBindingInqAuthInfo**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindinginqauthinfo?branch=master)
 </dt> <dt>
 
-[**RpcBindingSetAuthInfo**](rpcbindingsetauthinfo.md)
+[**RpcBindingSetAuthInfo**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo?branch=master)
 </dt> <dt>
 
-[**RpcBindingInqAuthClient**](rpcbindinginqauthclient.md)
+[**RpcBindingInqAuthClient**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindinginqauthclient?branch=master)
 </dt> <dt>
 
-[**RpcBindingInqAuthClientEx**](rpcbindinginqauthclientex.md)
+[**RpcBindingInqAuthClientEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindinginqauthclientex?branch=master)
 </dt> <dt>
 
-[**RpcBindingSetAuthInfoEx**](rpcbindingsetauthinfoex.md)
+[**RpcBindingSetAuthInfoEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa?branch=master)
 </dt> <dt>
 
-[**RpcBindingInqAuthInfoEx**](rpcbindinginqauthinfoex.md)
+[**RpcBindingInqAuthInfoEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

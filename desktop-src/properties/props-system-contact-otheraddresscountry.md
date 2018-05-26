@@ -1,7 +1,12 @@
 ---
-Description: 'Other address country name of the contact.'
-ms.assetid: '4126e00c-aefb-4b47-8ec9-dc4a281e1af1'
-title: 'System.Contact.OtherAddressCountry'
+Description: Other address country name of the contact.
+ms.assetid: 4126e00c-aefb-4b47-8ec9-dc4a281e1af1
+title: System.Contact.OtherAddressCountry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.OtherAddressCountry

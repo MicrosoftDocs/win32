@@ -1,8 +1,11 @@
 ---
 title: Matrix4x3F Matrix4x3F(FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT) constructor
 description: Instantiates a new instance of a Matrix4x3F class that is initialized with all of the floating point matrix values.
-ms.assetid: '1B4359BD-9B92-4C9F-9FED-49246D45F0E3'
-keywords: ["Matrix4x3F constructor Direct2D", "Matrix4x3F constructor Direct2D , Matrix4x3F interface", "Matrix4x3F interface Direct2D , Matrix4x3F constructor"]
+ms.assetid: 1B4359BD-9B92-4C9F-9FED-49246D45F0E3
+keywords:
+- Matrix4x3F constructor Direct2D
+- Matrix4x3F constructor Direct2D , Matrix4x3F interface
+- Matrix4x3F interface Direct2D , Matrix4x3F constructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - D2d1.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Matrix4x3F::Matrix4x3F(FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT) constructor
@@ -22,18 +30,18 @@ Instantiates a new instance of a [**Matrix4x3F**](matrix4x3f.md) class that is i
 
 ```C++
 inline Matrix4x3F(
-   FLOAT m11,
-   FLOAT m12,
-   FLOAT m13,
-   FLOAT m21,
-   FLOAT m22,
-   FLOAT m23,
-   FLOAT m31,
-   FLOAT m32,
-   FLOAT m33,
-   FLOAT m41,
-   FLOAT m42,
-   FLOAT m43
+   FLOAT m11,
+   FLOAT m12,
+   FLOAT m13,
+   FLOAT m21,
+   FLOAT m22,
+   FLOAT m23,
+   FLOAT m31,
+   FLOAT m32,
+   FLOAT m33,
+   FLOAT m41,
+   FLOAT m42,
+   FLOAT m43
 );
 ```
 
@@ -157,9 +165,9 @@ The value in the fourth row and third column of the matrix.
 
 |                                     |                                                                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps only\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                           |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                           |
 | Namespace<br/>                | D2D1<br/>                                                                                                                   |
 | Header<br/>                   | <dl> <dt>D2d1\_helper.h</dt> </dl>                                         |
 | Library<br/>                  | <dl> <dt>D2d1.lib</dt> </dl>                                               |
@@ -174,9 +182,9 @@ The value in the fourth row and third column of the matrix.
 [**Matrix4x3F**](matrix4x3f.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

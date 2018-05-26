@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.toolbarVisible
 description: The toolbarVisible attribute specifies or retrieves a value indicating whether the Playlist toolbar displays.
-ms.assetid: 'cf5d1d53-ed0a-4018-8b07-758d6790260e'
-keywords: ["PLAYLIST.toolbarVisible Windows Media Player"]
+ms.assetid: cf5d1d53-ed0a-4018-8b07-758d6790260e
+keywords:
+- PLAYLIST.toolbarVisible Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.toolbarVisible
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.toolbarVisible
@@ -44,9 +50,9 @@ The Playlist toolbar provides user interface elements that make it easy to work 
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

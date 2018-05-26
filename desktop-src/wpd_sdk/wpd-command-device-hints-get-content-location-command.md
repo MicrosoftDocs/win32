@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_COMMAND\_DEVICE\_HINTS\_GET\_CONTENT\_LOCATION command retrieves the object IDs of folders that can hold an object of a specified type.'
-ms.assetid: '85de64cc-44ee-4536-b658-49d5936351e4'
-title: 'WPD\_COMMAND\_DEVICE\_HINTS\_GET\_CONTENT\_LOCATION Command'
+Description: The WPD\_COMMAND\_DEVICE\_HINTS\_GET\_CONTENT\_LOCATION command retrieves the object IDs of folders that can hold an object of a specified type.
+ms.assetid: 85de64cc-44ee-4536-b658-49d5936351e4
+title: WPD\_COMMAND\_DEVICE\_HINTS\_GET\_CONTENT\_LOCATION Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_COMMAND\_DEVICE\_HINTS\_GET\_CONTENT\_LOCATION Command
@@ -24,7 +29,7 @@ The driver expects the following parameters.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -40,11 +45,11 @@ The driver should return the following results.
 
 
 
- 
+ 
 
 ## Calling Methods
 
-Can only be called directly using [**IPortableDevice::SendCommand**](iportabledevice-sendcommand.md).
+Can only be called directly using [**IPortableDevice::SendCommand**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand?branch=master).
 
 ## Requirements
 
@@ -56,9 +61,9 @@ Can only be called directly using [**IPortableDevice::SendCommand**](iportablede
 
 
 
- 
+ 
 
- 
+ 
 
 
 

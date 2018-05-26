@@ -1,8 +1,19 @@
 ---
 title: DWM Thumbnail Overview
 description: Desktop Window Manager (DWM) enables the display of thumbnail representations of application windows.
-ms.assetid: '6d71fcda-0cf0-463c-8c60-0415109d154f'
-keywords: ["Desktop Window Manager (DWM),thumbnails", "DWM (Desktop Window Manager),thumbnails", "Desktop Window Manager (DWM),thumbnail relationships", "DWM (Desktop Window Manager),thumbnail relationships", "thumbnails", "thumbnail relationships"]
+ms.assetid: 6d71fcda-0cf0-463c-8c60-0415109d154f
+keywords:
+- Desktop Window Manager (DWM),thumbnails
+- DWM (Desktop Window Manager),thumbnails
+- Desktop Window Manager (DWM),thumbnail relationships
+- DWM (Desktop Window Manager),thumbnail relationships
+- thumbnails
+- thumbnail relationships
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DWM Thumbnail Overview
@@ -24,11 +35,11 @@ The following image illustrates the Windows Vista Flip (ALT-TAB) enabled by DWM
 
 ## DWM Thumbnail Relationships
 
-To display thumbnails in your application, you must first establish a relationship between a source window and a destination window. This is done by calling the [**DwmRegisterThumbnail**](dwmregisterthumbnail.md) function.
+To display thumbnails in your application, you must first establish a relationship between a source window and a destination window. This is done by calling the [**DwmRegisterThumbnail**](/windows/win32/Dwmapi/nf-dwmapi-dwmregisterthumbnail?branch=master) function.
 
-[**DwmRegisterThumbnail**](dwmregisterthumbnail.md) does not render a thumbnail on the destination window but merely creates the relationship and provides the thumbnail handle. The thumbnail is rendered after the [**DWM\_THUMBNAIL\_PROPERTIES**](dwm-thumbnail-properties.md) have been set and the [**DwmUpdateThumbnailProperties**](dwmupdatethumbnailproperties.md) function has been called. Subsequent calls to **DwmUpdateThumbnailProperties** update the thumbnail with a new set of properties. The DWM also provides the helper function [**DwmQueryThumbnailSourceSize**](dwmquerythumbnailsourcesize.md) to obtain the size of the source window from the thumbnail.
+[**DwmRegisterThumbnail**](/windows/win32/Dwmapi/nf-dwmapi-dwmregisterthumbnail?branch=master) does not render a thumbnail on the destination window but merely creates the relationship and provides the thumbnail handle. The thumbnail is rendered after the [**DWM\_THUMBNAIL\_PROPERTIES**](/windows/win32/Dwmapi/ns-dwmapi-_dwm_thumbnail_properties?branch=master) have been set and the [**DwmUpdateThumbnailProperties**](/windows/win32/Dwmapi/nf-dwmapi-dwmupdatethumbnailproperties?branch=master) function has been called. Subsequent calls to **DwmUpdateThumbnailProperties** update the thumbnail with a new set of properties. The DWM also provides the helper function [**DwmQueryThumbnailSourceSize**](/windows/win32/Dwmapi/nf-dwmapi-dwmquerythumbnailsourcesize?branch=master) to obtain the size of the source window from the thumbnail.
 
-To end a thumbnail relationship, call the [**DwmUnregisterThumbnail**](dwmunregisterthumbnail.md) function.
+To end a thumbnail relationship, call the [**DwmUnregisterThumbnail**](/windows/win32/Dwmapi/nf-dwmapi-dwmunregisterthumbnail?branch=master) function.
 
 The following example demonstrates how to create a releationship with the Windows desktop and display it in an application.
 

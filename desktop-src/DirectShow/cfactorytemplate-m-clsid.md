@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the CLSID of the object.'
-ms.assetid: '629675e9-4b8a-4c1d-a2be-9eb2764ff5a0'
-title: 'CFactoryTemplate::m\_ClsID member'
+Description: Pointer to the CLSID of the object.
+ms.assetid: 629675e9-4b8a-4c1d-a2be-9eb2764ff5a0
+title: CFactoryTemplatem\_ClsID member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CFactoryTemplate::m\_ClsID member
@@ -35,9 +40,9 @@ const CLSID *m_ClsID;
 [**CFactoryTemplate Class**](cfactorytemplate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

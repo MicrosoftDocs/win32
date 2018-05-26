@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Remove method removes an item from the FaxRecipients collection.'
-ms.assetid: '1c68631b-8cca-4109-9431-11983ccc8dba'
-title: 'FaxRecipients.Remove method'
+---
+Description: The Remove method removes an item from the FaxRecipients collection.
+ms.assetid: 1c68631b-8cca-4109-9431-11983ccc8dba
+title: FaxRecipients.Remove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRecipients.Remove method
@@ -47,7 +52,7 @@ A **Long** that specifies the index of the item to remove from the collection. V
 [**FaxRecipients**](-mfax-faxrecipients.md)
 </dt> <dt>
 
-[**IFaxRecipients**](-mfax-faxrecipients-cpp.md)
+[**IFaxRecipients**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxrecipients?branch=master)
 </dt> <dt>
 
 [Broadcasting a Fax](-mfax-broadcasting-a-fax.md)

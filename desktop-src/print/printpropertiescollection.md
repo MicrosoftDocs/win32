@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '824E8A5C-7530-4C7B-B093-386DD3D45A6B'
+---
+Description: .
+ms.assetid: 824E8A5C-7530-4C7B-B093-386DD3D45A6B
 title: PrintPropertiesCollection structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrintPropertiesCollection structure

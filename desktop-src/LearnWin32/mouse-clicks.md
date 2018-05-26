@@ -1,7 +1,12 @@
 ---
 title: Responding to Mouse Clicks
 description: Responding to Mouse Clicks
-ms.assetid: 'FED1CA3B-94C6-4780-B82D-C10171F36D98'
+ms.assetid: FED1CA3B-94C6-4780-B82D-C10171F36D98
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Responding to Mouse Clicks

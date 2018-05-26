@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the Voice Capture DSP stores time stamp statistics in the registry.'
-ms.assetid: 'c44462be-ccdf-4a49-bb77-6e816def4849'
-title: 'MFPKEY\_WMAAECMA\_RETRIEVE\_TS\_STATS Property'
+---
+Description: Specifies whether the Voice Capture DSP stores time stamp statistics in the registry.
+ms.assetid: c44462be-ccdf-4a49-bb77-6e816def4849
+title: MFPKEY\_WMAAECMA\_RETRIEVE\_TS\_STATS Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAAECMA\_RETRIEVE\_TS\_STATS Property

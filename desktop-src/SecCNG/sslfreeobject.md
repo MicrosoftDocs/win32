@@ -1,7 +1,12 @@
 ---
-Description: 'Frees a key, hash, or provider object.'
-ms.assetid: '73fa0a08-4654-4515-bdb2-9951936b689a'
+Description: Frees a key, hash, or provider object.
+ms.assetid: 73fa0a08-4654-4515-bdb2-9951936b689a
 title: SslFreeObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslFreeObject function
@@ -13,8 +18,8 @@ The **SslFreeObject** function frees a key, hash, or provider object.
 
 ```C++
 SECURITY_STATUS WINAPI SslFreeObject(
-  _In_ NCRYPT_HANDLE hObject,
-  _In_ DWORD         dwFlags
+  _In_ NCRYPT_HANDLE hObject,
+  _In_ DWORD         dwFlags
 );
 ```
 
@@ -55,7 +60,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,16 +68,16 @@ Possible return codes include, but are not limited to, the following.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

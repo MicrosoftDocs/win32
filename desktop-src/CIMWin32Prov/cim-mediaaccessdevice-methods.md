@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_MediaAccessDevice class exposes the following methods.'
+Description: The CIM\_MediaAccessDevice class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3035A975-4DED-4EDA-AEAD-9111C5C3301E'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3035A975-4DED-4EDA-AEAD-9111C5C3301E
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_MediaAccessDevice Methods'
+title: CIM\_MediaAccessDevice Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_MediaAccessDevice Methods

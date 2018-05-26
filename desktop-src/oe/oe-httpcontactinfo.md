@@ -1,8 +1,10 @@
 ---
 title: HTTPCONTACTINFO structure
 description: Contains the response information for the ListContactInfos method.
-ms.assetid: '8cca7f04-da40-40a9-b58f-5393fc84cf21'
-keywords: ["HTTPCONTACTINFO structure Windows Mail (formerly Outlook Express)", "LPHTTPCONTACTINFO structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 8cca7f04-da40-40a9-b58f-5393fc84cf21
+keywords:
+- HTTPCONTACTINFO structure Windows Mail (formerly Outlook Express)
+- LPHTTPCONTACTINFO structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTPCONTACTINFO structure
@@ -24,34 +31,34 @@ Contains the response information for the [**ListContactInfos**](oe-ihttpmailtra
 
 ```C++
 typedef struct tagHTTPCONTACTINFO {
-  LPSTR               pszHref;
-  LPSTR               pszId;
+  LPSTR               pszHref;
+  LPSTR               pszId;
   HTTPMAILCONTACTTYPE tyContact;
-  LPSTR               pszModified;
-  LPSTR               pszDisplayName;
-  LPSTR               pszGivenName;
-  LPSTR               pszSurname;
-  LPSTR               pszNickname;
-  LPSTR               pszEmail;
-  LPSTR               pszHomeStreet;
-  LPSTR               pszHomeCity;
-  LPSTR               pszHomeState;
-  LPSTR               pszHomePostalCode;
-  LPSTR               pszHomeCountry;
-  LPSTR               pszCompany;
-  LPSTR               pszWorkStreet;
-  LPSTR               pszWorkCity;
-  LPSTR               pszWorkState;
-  LPSTR               pszWorkPostalCode;
-  LPSTR               pszWorkCountry;
-  LPSTR               pszHomePhone;
-  LPSTR               pszHomeFax;
-  LPSTR               pszWorkPhone;
-  LPSTR               pszWorkFax;
-  LPSTR               pszMobilePhone;
-  LPSTR               pszOtherPhone;
-  LPSTR               pszBday;
-  LPSTR               pszPager;
+  LPSTR               pszModified;
+  LPSTR               pszDisplayName;
+  LPSTR               pszGivenName;
+  LPSTR               pszSurname;
+  LPSTR               pszNickname;
+  LPSTR               pszEmail;
+  LPSTR               pszHomeStreet;
+  LPSTR               pszHomeCity;
+  LPSTR               pszHomeState;
+  LPSTR               pszHomePostalCode;
+  LPSTR               pszHomeCountry;
+  LPSTR               pszCompany;
+  LPSTR               pszWorkStreet;
+  LPSTR               pszWorkCity;
+  LPSTR               pszWorkState;
+  LPSTR               pszWorkPostalCode;
+  LPSTR               pszWorkCountry;
+  LPSTR               pszHomePhone;
+  LPSTR               pszHomeFax;
+  LPSTR               pszWorkPhone;
+  LPSTR               pszWorkFax;
+  LPSTR               pszMobilePhone;
+  LPSTR               pszOtherPhone;
+  LPSTR               pszBday;
+  LPSTR               pszPager;
 } HTTPCONTACTINFO, *LPHTTPCONTACTINFO;
 ```
 
@@ -375,17 +382,17 @@ Contains an **LPSTR** that contains the pager number of the contact.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxOutgoingJobs messaging collection is used by a fax client application to manage the outbound fax jobs in a fax server''s job queue. Each outbound job is represented by a FaxOutgoingJob object.'
-ms.assetid: 'cfd8e842-838e-41d7-97c0-e75be908c5a0'
+---
+Description: The FaxOutgoingJobs messaging collection is used by a fax client application to manage the outbound fax jobs in a fax servers job queue. Each outbound job is represented by a FaxOutgoingJob object.
+ms.assetid: cfd8e842-838e-41d7-97c0-e75be908c5a0
 title: FaxOutgoingJobs object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJobs object

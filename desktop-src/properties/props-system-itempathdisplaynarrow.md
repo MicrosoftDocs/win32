@@ -1,7 +1,12 @@
 ---
-Description: 'The user-friendly display path to the item.'
-ms.assetid: '5dd44e13-bc5c-4e32-b5eb-2c7c40e10dfb'
-title: 'System.ItemPathDisplayNarrow'
+Description: The user-friendly display path to the item.
+ms.assetid: 5dd44e13-bc5c-4e32-b5eb-2c7c40e10dfb
+title: System.ItemPathDisplayNarrow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ItemPathDisplayNarrow

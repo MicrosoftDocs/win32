@@ -1,16 +1,21 @@
 ---
-Description: 'This topic demonstrates how to obtain a rectangular portion of an IWICBitmapSource using an IWICBitmapClipper component.'
-ms.assetid: 'c9834827-8e1d-436d-be82-c1a2a2f7ca5c'
+Description: This topic demonstrates how to obtain a rectangular portion of an IWICBitmapSource using an IWICBitmapClipper component.
+ms.assetid: c9834827-8e1d-436d-be82-c1a2a2f7ca5c
 title: How to Clip a Bitmap Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Clip a Bitmap Source
 
-This topic demonstrates how to obtain a rectangular portion of an [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) using an [**IWICBitmapClipper**](-wic-codec-iwicbitmapclipper.md) component.
+This topic demonstrates how to obtain a rectangular portion of an [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) using an [**IWICBitmapClipper**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapclipper?branch=master) component.
 
 To clip a bitmap source
 
-1.  Create an [**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md) object to create Windows Imaging Component (WIC) objects.
+1.  Create an [**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master) object to create Windows Imaging Component (WIC) objects.
 
     ```C++
     // Create WIC factory
@@ -24,7 +29,7 @@ To clip a bitmap source
 
     
 
-2.  Use the [**CreateDecoderFromFilename**](-wic-codec-iwicimagingfactory-createdecoderfromfilename.md) method to create an [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) from an image file.
+2.  Use the [**CreateDecoderFromFilename**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename?branch=master) method to create an [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) from an image file.
 
     ```C++
     HRESULT hr = S_OK;
@@ -43,7 +48,7 @@ To clip a bitmap source
 
     
 
-3.  Get the first [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) of the image.
+3.  Get the first [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) of the image.
 
     ```C++
     // Retrieve the first bitmap frame.
@@ -57,7 +62,7 @@ To clip a bitmap source
 
     The JPEG file format only supports a single frame. Because the file in this example is a JPEG file, the first frame (`0`) is used. For image formats that have multiple frames, see [How to Retrieve the Frames of an Image](-wic-bitmapsources-howto-retrieveimageframes.md) for accessing each frame of the image.
 
-4.  Create the [**IWICBitmapClipper**](-wic-codec-iwicbitmapclipper.md) to use for the image clipping.
+4.  Create the [**IWICBitmapClipper**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapclipper?branch=master) to use for the image clipping.
 
     ```C++
     IWICBitmapClipper *pIClipper = NULL;

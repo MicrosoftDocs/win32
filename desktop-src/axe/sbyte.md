@@ -1,14 +1,20 @@
 ---
 title: SByte element
 description: The data type is an integer value between -128 and 127.
-ms.assetid: '845D2AD5-B5CD-4596-9634-605FA50A7911'
-keywords: ["SByte element Access Execution Engine"]
+ms.assetid: 845D2AD5-B5CD-4596-9634-605FA50A7911
+keywords:
+- SByte element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - SByte
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SByte element

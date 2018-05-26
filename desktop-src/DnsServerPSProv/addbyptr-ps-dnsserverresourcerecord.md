@@ -2,13 +2,16 @@
 title: AddByPtr method of the PS\_DnsServerResourceRecord class
 description: Adds a type PTR resource record to a DNS server.
 audience: developer
-ms.assetid: '80544979-25e5-4fff-a903-3035415b0e8a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 80544979-25e5-4fff-a903-3035415b0e8a
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByPtr method", "AddByPtr method, PS_DnsServerResourceRecord class", "PS_DnsServerResourceRecord class, AddByPtr method"]
+keywords:
+- AddByPtr method
+- AddByPtr method, PS_DnsServerResourceRecord class
+- PS_DnsServerResourceRecord class, AddByPtr method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByPtr method of the PS\_DnsServerResourceRecord class
@@ -28,18 +34,18 @@ Adds a type PTR resource record to a DNS server.
 
 ```mof
 uint32 AddByPtr(
-  [in]  string                  PtrDomainName,
-  [in]  string                  ZoneName,
-  [in]  datetime                TimeToLive,
-  [in]  boolean                 AllowUpdateAny,
-  [in]  string                  Name,
-  [in]  string                  ComputerName,
-  [in]  boolean                 AgeRecord,
-  [in]  boolean                 Ptr,
-  [in]  boolean                 PassThru,
-  [in]  string                  ZoneScope,
-  [in]  string                  VirtualizationInstance,
-  [out] DnsServerResourceRecord cmdletOutput
+  [in]  string                  PtrDomainName,
+  [in]  string                  ZoneName,
+  [in]  datetime                TimeToLive,
+  [in]  boolean                 AllowUpdateAny,
+  [in]  string                  Name,
+  [in]  string                  ComputerName,
+  [in]  boolean                 AgeRecord,
+  [in]  boolean                 Ptr,
+  [in]  boolean                 PassThru,
+  [in]  string                  ZoneScope,
+  [in]  string                  VirtualizationInstance,
+  [out] DnsServerResourceRecord cmdletOutput
 );
 ```
 
@@ -80,7 +86,7 @@ Indicates that any authenticated user can update a resource record that has the 
 *Name* \[in\]
 </dt> <dd>
 
-Specifies part of the IP address for the host. You can use either an IPv4 or IPv6 address. For example, if an IPv4 class C reverse lookup zone is used, then –Name is the last octet of the IP address. If a class B reverse lookup zone is used, then –Name is the last two octets.
+Specifies part of the IP address for the host. You can use either an IPv4 or IPv6 address. For example, if an IPv4 class C reverse lookup zone is used, then  Name is the last octet of the IP address. If a class B reverse lookup zone is used, then  Name is the last two octets.
 
 </dd> <dt>
 
@@ -117,7 +123,7 @@ If specified, creates a PTR record.
 
 Name of the zone scope.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -126,7 +132,7 @@ Name of the zone scope.
 
 Unique identifier of the virtualization instance.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -144,7 +150,7 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -158,9 +164,9 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 [**PS\_DnsServerResourceRecord**](ps-dnsserverresourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

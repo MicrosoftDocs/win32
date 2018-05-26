@@ -1,8 +1,33 @@
 ---
 title: Using the Windows Media Player Control with Firefox
 description: Using the Windows Media Player Control with Firefox
-ms.assetid: 'a95529d6-7508-4e27-adfe-bbbf4dcaffce'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player ActiveX control,Web pages", "Windows Media Player Mobile ActiveX control,Web pages", "ActiveX control,Web pages", "Windows Media Player,Firefox", "Windows Media Player object model,Firefox", "object model,Firefox", "Windows Media Player Mobile,Firefox", "Windows Media Player ActiveX control,Firefox", "Windows Media Player Mobile ActiveX control,Firefox", "ActiveX control,Firefox", "Firefox,about webpage embedding", "embedding,Web pages", "Web page embedding,Firefox"]
+ms.assetid: a95529d6-7508-4e27-adfe-bbbf4dcaffce
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player ActiveX control,Web pages
+- Windows Media Player Mobile ActiveX control,Web pages
+- ActiveX control,Web pages
+- Windows Media Player,Firefox
+- Windows Media Player object model,Firefox
+- object model,Firefox
+- Windows Media Player Mobile,Firefox
+- Windows Media Player ActiveX control,Firefox
+- Windows Media Player Mobile ActiveX control,Firefox
+- ActiveX control,Firefox
+- Firefox,about webpage embedding
+- embedding,Web pages
+- Web page embedding,Firefox
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Windows Media Player Control with Firefox

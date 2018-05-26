@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.previous
 description: The previous method displays the previous visualization preset, moving to the last preset of the previous visualization if necessary.
-ms.assetid: '20ef8f8b-a308-4e79-a4a8-70d04f1f0be6'
-keywords: ["EFFECTS.previous Windows Media Player"]
+ms.assetid: 20ef8f8b-a308-4e79-a4a8-70d04f1f0be6
+keywords:
+- EFFECTS.previous Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.previous
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.previous
@@ -54,9 +60,9 @@ If the current preset is the first one in the series of all available visualizat
 [**EFFECTS.allowAll**](effects-allowall.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

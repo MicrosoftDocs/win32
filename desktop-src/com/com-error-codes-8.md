@@ -1,7 +1,7 @@
 ---
 title: COM Error Codes (VOLMGR, BCD, VHD, SDIAG)
 description: The following table provides a list of error codes used by COM-based APIs.
-ms.assetid: '039b1660-7df0-4d31-9e90-f7b71e5f9a7b'
+ms.assetid: 039b1660-7df0-4d31-9e90-f7b71e5f9a7b
 topic_type:
 - apiref
 api_name:
@@ -159,6 +159,11 @@ api_location:
 - Winerror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Error Codes (VOLMGR, BCD, VHD, SDIAG)
@@ -341,9 +346,9 @@ If you are experiencing difficulty with an application you are installing or run
 [COM Error Codes](com-error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

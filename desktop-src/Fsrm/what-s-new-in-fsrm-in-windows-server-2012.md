@@ -1,14 +1,18 @@
 ---
-title: What's New in FSRM in Windows Server 2012
+title: Whats New in FSRM in Windows Server 2012
 description: The following table identifies what is new or changed for File Server Resource Manager (FSRM).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9c058c3e-d6b0-4a7e-8160-b5518129dedc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 9c058c3e-d6b0-4a7e-8160-b5518129dedc
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager File Server Resource Manager , what's new in Windows ServerÂ 2012"]
+keywords:
+- File Server Resource Manager File Server Resource Manager , whats new in Windows ServerÂ 2012
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What's New in FSRM in Windows Server 2012
@@ -17,7 +21,7 @@ The following table identifies what is new or changed for File Server Resource M
 
 
 
-| Area                                                                 | Windows Server 2008 R2        | Windows Server 2012/Windows 8                                                                                                                                                              |
+| Area                                                                 | Windows Server 2008 R2        | Windows Server 2012/Windows 8                                                                                                                                                              |
 |----------------------------------------------------------------------|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Extensibility mechanism<br/>                                   | COM<br/>                | COM, WMI, and PowerShell<br/>                                                                                                                                                        |
 | Access Denied Remediation<br/>                                 | Not supported<br/>      | Supported<br/>                                                                                                                                                                       |
@@ -32,48 +36,48 @@ The following table identifies what is new or changed for File Server Resource M
 
 
 
- 
+ 
 
 ## Windows Server 2012
 
-Windows Server 2012 added the following interfaces:
+Windows Server 2012 added the following interfaces:
 
--   [**IFsrmAccessDeniedRemediationClient**](ifsrmaccessdeniedremediationclient.md)
--   [**IFsrmClassificationManager2**](ifsrmclassificationmanager2.md)
--   [**IFsrmFileConditionProperty**](ifsrmfileconditionproperty.md)
--   [**IFsrmPropertyBag2**](ifsrmpropertybag2.md)
--   [**IFsrmPropertyDefinition2**](ifsrmpropertydefinition2.md)
--   [**IFsrmPropertyDefinitionValue**](ifsrmpropertydefinitionvalue.md)
+-   [**IFsrmAccessDeniedRemediationClient**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmaccessdeniedremediationclient?branch=master)
+-   [**IFsrmClassificationManager2**](/windows/previous-versions/FsrmPipeline/nn-fsrmpipeline-ifsrmclassificationmanager2?branch=master)
+-   [**IFsrmFileConditionProperty**](/windows/previous-versions/FsrmReports/nn-fsrmreports-ifsrmfileconditionproperty?branch=master)
+-   [**IFsrmPropertyBag2**](/windows/previous-versions/FsrmPipeline/nn-fsrmpipeline-ifsrmpropertybag2?branch=master)
+-   [**IFsrmPropertyDefinition2**](/windows/previous-versions/FsrmPipeline/nn-fsrmpipeline-ifsrmpropertydefinition2?branch=master)
+-   [**IFsrmPropertyDefinitionValue**](/windows/previous-versions/FsrmPipeline/nn-fsrmpipeline-ifsrmpropertydefinitionvalue?branch=master)
 
-Windows Server 2012 added the following enumerations:
+Windows Server 2012 added the following enumerations:
 
--   [**AdrClientDisplayFlags**](adrclientdisplayflags.md)
--   [**AdrClientErrorType**](adrclienterrortype.md)
--   [**AdrClientFlags**](adrclientflags.md)
--   [**AdrEmailFlags**](adremailflags.md)
--   [**FsrmFileSystemPropertyId**](fsrmfilesystempropertyid.md)
--   [**FsrmPropertyBagField**](fsrmpropertybagfield.md)
--   [**FsrmPropertyDefinitionAppliesTo**](fsrmpropertydefinitionappliesto.md)
--   [**FsrmPropertyDefinitionFlags**](fsrmpropertydefinitionflags.md)
--   [**FsrmPropertyValueType**](fsrmpropertyvaluetype.md)
+-   [**AdrClientDisplayFlags**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_adrclientdisplayflags?branch=master)
+-   [**AdrClientErrorType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_adrclienterrortype?branch=master)
+-   [**AdrClientFlags**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_adrclientflags?branch=master)
+-   [**AdrEmailFlags**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_adremailflags?branch=master)
+-   [**FsrmFileSystemPropertyId**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmfilesystempropertyid?branch=master)
+-   [**FsrmPropertyBagField**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmpropertybagfield?branch=master)
+-   [**FsrmPropertyDefinitionAppliesTo**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmpropertydefinitionappliesto?branch=master)
+-   [**FsrmPropertyDefinitionFlags**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmpropertydefinitionflags?branch=master)
+-   [**FsrmPropertyValueType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmpropertyvaluetype?branch=master)
 
-Windows Server 2012 added the following classes:
+Windows Server 2012 added the following classes:
 
--   [**FsrmClassificationManager**](fsrmclassificationmanager.md)
--   [**FsrmExportImport**](fsrmexportimport.md)
--   [**FsrmFileGroupManager**](fsrmfilegroupmanager.md)
--   [**FsrmFileManagementJobManager**](fsrmfilemanagementjobmanager.md)
--   [**FsrmFileScreenManager**](fsrmfilescreenmanager.md)
--   [**FsrmFileScreenTemplateManager**](fsrmfilescreentemplatemanager.md)
--   [**FsrmPathMapper**](fsrmpathmapper.md)
--   [**FsrmPipelineModuleConnector**](fsrmpipelinemoduleconnector.md)
--   [**FsrmQuotaManager**](fsrmquotamanager.md)
--   [**FsrmQuotaTemplateManager**](fsrmquotatemplatemanager.md)
--   [**FsrmReportManager**](fsrmreportmanager.md)
--   [**FsrmReportScheduler**](fsrmreportscheduler.md)
--   [**FsrmSetting**](fsrmsetting.md)
+-   [**FsrmClassificationManager**](/windows/previous-versions/FsrmTlb/?branch=master)
+-   [**FsrmExportImport**](/windows/previous-versions/FsrmTlb/?branch=master)
+-   [**FsrmFileGroupManager**](/windows/previous-versions/FsrmTlb/?branch=master)
+-   [**FsrmFileManagementJobManager**](/windows/previous-versions/FsrmTlb/?branch=master)
+-   [**FsrmFileScreenManager**](/windows/previous-versions/FsrmTlb/?branch=master)
+-   [**FsrmFileScreenTemplateManager**](/windows/previous-versions/FsrmTlb/?branch=master)
+-   [**FsrmPathMapper**](/windows/previous-versions/FsrmTlb/?branch=master)
+-   [**FsrmPipelineModuleConnector**](/windows/previous-versions/FsrmTlb/?branch=master)
+-   [**FsrmQuotaManager**](/windows/previous-versions/FsrmTlb/?branch=master)
+-   [**FsrmQuotaTemplateManager**](/windows/previous-versions/FsrmTlb/?branch=master)
+-   [**FsrmReportManager**](/windows/previous-versions/FsrmTlb/?branch=master)
+-   [**FsrmReportScheduler**](/windows/previous-versions/FsrmTlb/?branch=master)
+-   [**FsrmSetting**](/windows/previous-versions/FsrmTlb/?branch=master)
 
-Windows Server 2012 added the following WMI classes:
+Windows Server 2012 added the following WMI classes:
 
 -   [**MSFT\_FSRMAction**](msft-fsrmaction.md)
 -   [**MSFT\_FSRMAdr**](msft-fsrmadr.md)
@@ -103,27 +107,27 @@ Windows Server 2012 added the following WMI classes:
 -   [**MSFT\_FSRMSettings**](msft-fsrmsettings.md)
 -   [**MSFT\_FSRMStorageReport**](msft-fsrmstoragereport.md)
 
-Windows Server 2012 changed the following enumerations:
+Windows Server 2012 changed the following enumerations:
 
--   [**FsrmAccountType**](fsrmaccounttype.md)
--   [**FsrmEnumOptions**](fsrmenumoptions.md)
--   [**FsrmFileManagementType**](fsrmfilemanagementtype.md)
--   [**FsrmGetFilePropertyOptions**](fsrmgetfilepropertyoptions.md)
--   [**FsrmPropertyConditionType**](fsrmpropertyconditiontype.md)
--   [**FsrmPropertyDefinitionType**](fsrmpropertydefinitiontype.md)
--   [**FsrmPropertyFlags**](fsrmpropertyflags.md)
--   [**FsrmReportLimit**](fsrmreportlimit.md)
--   [**FsrmReportType**](fsrmreporttype.md)
--   [**FsrmStorageModuleCaps**](fsrmstoragemodulecaps.md)
--   [**FsrmStorageModuleType**](fsrmstoragemoduletype.md)
+-   [**FsrmAccountType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmaccounttype?branch=master)
+-   [**FsrmEnumOptions**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmenumoptions?branch=master)
+-   [**FsrmFileManagementType**](/windows/previous-versions/Fsrm/ne-fsrmenums-_fsrmfilemanagementtype?branch=master)
+-   [**FsrmGetFilePropertyOptions**](/windows/previous-versions/Fsrm/ne-fsrmenums-_fsrmgetfilepropertyoptions?branch=master)
+-   [**FsrmPropertyConditionType**](/windows/previous-versions/Fsrm/ne-fsrmenums-_fsrmpropertyconditiontype?branch=master)
+-   [**FsrmPropertyDefinitionType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmpropertydefinitiontype?branch=master)
+-   [**FsrmPropertyFlags**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmpropertyflags?branch=master)
+-   [**FsrmReportLimit**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmreportlimit?branch=master)
+-   [**FsrmReportType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmreporttype?branch=master)
+-   [**FsrmStorageModuleCaps**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmstoragemodulecaps?branch=master)
+-   [**FsrmStorageModuleType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmstoragemoduletype?branch=master)
 
-Windows Server 2012 removed support for the following interface:
+Windows Server 2012 removed support for the following interface:
 
--   [**IFsrmReportScheduler**](ifsrmreportscheduler.md)
+-   [**IFsrmReportScheduler**](/windows/previous-versions/FsrmReports/nn-fsrmreports-ifsrmreportscheduler?branch=master)
 
- 
+ 
 
- 
+ 
 
 
 

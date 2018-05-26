@@ -1,8 +1,9 @@
 ---
 title: TBM\_SETLINESIZE message
-description: Sets the number of logical positions the trackbar's slider moves in response to keyboard input from the arrow keys, such as the or keys. The logical positions are the integer increments in the trackbar's range of minimum to maximum slider positions.
-ms.assetid: '7fe3f9b8-2ddf-4460-882f-6be439f83daa'
-keywords: ["TBM_SETLINESIZE message Windows Controls"]
+description: Sets the number of logical positions the trackbars slider moves in response to keyboard input from the arrow keys, such as the or keys. The logical positions are the integer increments in the trackbars range of minimum to maximum slider positions.
+ms.assetid: 7fe3f9b8-2ddf-4460-882f-6be439f83daa
+keywords:
+- TBM_SETLINESIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_SETLINESIZE message
@@ -47,8 +53,8 @@ The trackbar also sends a [**WM\_HSCROLL**](wm-hscroll.md) or [**WM\_VSCROLL**](
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ The trackbar also sends a [**WM\_HSCROLL**](wm-hscroll.md) or [**WM\_VSCROLL**](
 [**TBM\_GETLINESIZE**](tbm-getlinesize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

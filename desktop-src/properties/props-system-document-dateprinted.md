@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the date and time the document was last printed. The legacy name is &\#0034;DocLastPrinted&\#0034;.'
-ms.assetid: '57a08471-04b2-4c1e-9212-b76f6ca631f8'
-title: 'System.Document.DatePrinted'
+Description: Indicates the date and time the document was last printed. The legacy name is &\#0034;DocLastPrinted&\#0034;.
+ms.assetid: 57a08471-04b2-4c1e-9212-b76f6ca631f8
+title: System.Document.DatePrinted
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.DatePrinted

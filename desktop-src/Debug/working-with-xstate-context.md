@@ -1,7 +1,12 @@
 ---
-Description: 'This document contains an example that demonstrates how to use the XState context functions to retrieve and set extended features on a thread.'
-ms.assetid: 'F7937402-1173-4647-B9FF-856C0925C1C3'
+Description: This document contains an example that demonstrates how to use the XState context functions to retrieve and set extended features on a thread.
+ms.assetid: F7937402-1173-4647-B9FF-856C0925C1C3
 title: Working with XState Context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with XState Context
@@ -212,22 +217,22 @@ Cleanup:
 
 <dl> <dt>
 
-[**CopyContext**](copycontext.md)
+[**CopyContext**](/windows/win32/WinBase/nf-winbase-copycontext?branch=master)
 </dt> <dt>
 
-[**InitializeContext**](initializecontext.md)
+[**InitializeContext**](/windows/win32/WinBase/nf-winbase-initializecontext?branch=master)
 </dt> <dt>
 
-[**GetEnabledXStateFeatures**](getenabledxstatefeatures.md)
+[**GetEnabledXStateFeatures**](/windows/win32/WinBase/nf-winbase-getenabledxstatefeatures?branch=master)
 </dt> <dt>
 
-[**LocateXStateFeature**](locatexstatefeature.md)
+[**LocateXStateFeature**](/windows/win32/WinBase/nf-winbase-locatexstatefeature?branch=master)
 </dt> <dt>
 
-[**GetXStateFeaturesMask**](getxstatefeaturesmask.md)
+[**GetXStateFeaturesMask**](/windows/win32/WinBase/nf-winbase-getxstatefeaturesmask?branch=master)
 </dt> <dt>
 
-[**SetXStateFeaturesMask**](setxstatefeaturesmask.md)
+[**SetXStateFeaturesMask**](/windows/win32/WinBase/nf-winbase-setxstatefeaturesmask?branch=master)
 </dt> </dl>
 
  

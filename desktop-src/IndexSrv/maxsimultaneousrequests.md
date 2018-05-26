@@ -1,7 +1,12 @@
 ---
 title: MaxSimultaneousRequests
 description: MaxSimultaneousRequests
-ms.assetid: '364e20a4-aa35-495e-a1a3-936a541f8117'
+ms.assetid: 364e20a4-aa35-495e-a1a3-936a541f8117
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxSimultaneousRequests

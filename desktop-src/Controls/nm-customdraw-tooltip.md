@@ -1,8 +1,9 @@
 ---
 title: NM\_CUSTOMDRAW (tooltip) notification code
 description: Sent by a tooltip control to notify its parent window about drawing operations. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '82939901-baed-452b-85bf-3c0c01e1f5df'
-keywords: ["NM_CUSTOMDRAW (tooltip) notification code Windows Controls"]
+ms.assetid: 82939901-baed-452b-85bf-3c0c01e1f5df
+keywords:
+- NM_CUSTOMDRAW (tooltip) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_CUSTOMDRAW (tooltip) notification code
@@ -33,13 +39,13 @@ NM_CUSTOMDRAW
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTTCUSTOMDRAW**](nmttcustomdraw.md) structure that contains information about the drawing operation.
+Pointer to an [**NMTTCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmttcustomdraw?branch=master) structure that contains information about the drawing operation.
 
 </dd> </dl>
 
 ## Return value
 
-The value that your application can return depends on the current drawing stage. The **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](nmcustomdraw.md) structure holds a value that specifies the drawing stage. You must return one of the following values.
+The value that your application can return depends on the current drawing stage. The **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmcustomdrawinfo?branch=master) structure holds a value that specifies the drawing stage. You must return one of the following values.
 
 
 
@@ -55,7 +61,7 @@ The value that your application can return depends on the current drawing stage.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,8 +69,8 @@ The value that your application can return depends on the current drawing stage.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ The value that your application can return depends on the current drawing stage.
 [Using Custom Draw](custom-draw.md#customdraw-processingnm-customdraw)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

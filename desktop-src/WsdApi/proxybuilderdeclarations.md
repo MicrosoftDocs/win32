@@ -1,7 +1,12 @@
 ---
-Description: 'Generates declarations for functions that create typed proxies.'
-ms.assetid: '50182e77-a768-439f-bdbb-4f0d48aa4447'
+Description: Generates declarations for functions that create typed proxies.
+ms.assetid: 50182e77-a768-439f-bdbb-4f0d48aa4447
 title: proxyBuilderDeclarations element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # proxyBuilderDeclarations element
@@ -52,14 +57,14 @@ proxyClass
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

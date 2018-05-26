@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a video stream contains 3D content.'
-ms.assetid: '43B6337D-9812-4EF1-8FDB-9BB21FB5A8D3'
-title: 'MF\_MT\_VIDEO\_3D attribute'
+---
+Description: Specifies whether a video stream contains 3D content.
+ms.assetid: 43B6337D-9812-4EF1-8FDB-9BB21FB5A8D3
+title: MF\_MT\_VIDEO\_3D attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_VIDEO\_3D attribute

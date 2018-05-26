@@ -1,7 +1,12 @@
 ---
 title: Test Help in the User Interface
 description: If your help system is designed so that a help file can be opened from a Help menu or other item in the user interface, test to ensure that help will start when users expect it to.
-ms.assetid: '9661CBAA-7AA0-4151-8714-0563351F5E63'
+ms.assetid: 9661CBAA-7AA0-4151-8714-0563351F5E63
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Test Help in the User Interface

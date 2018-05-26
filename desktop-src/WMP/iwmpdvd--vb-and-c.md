@@ -1,8 +1,10 @@
 ---
 title: IWMPDVD (VB and C\ ) interface
 description: The IWMPDVD interface provides properties and methods for working with DVDs.The IWMPDVD interface exposes the following properties.
-ms.assetid: '6bb32eed-475e-4867-8318-34578dc430a4'
-keywords: ["IWMPDVD (VB and C ) interface Windows Media Player", "IWMPDVD (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 6bb32eed-475e-4867-8318-34578dc430a4
+keywords:
+- IWMPDVD (VB and C ) interface Windows Media Player
+- IWMPDVD (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPDVD (VB and C#) interface
@@ -41,7 +48,7 @@ The **IWMPDVD (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +63,7 @@ The **IWMPDVD (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPDVD** interface by using the following property.
 
@@ -68,7 +75,7 @@ Get an **IWMPDVD** interface by using the following property.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,9 +94,9 @@ Get an **IWMPDVD** interface by using the following property.
 [**Interfaces for Visual Basic .NET and C#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

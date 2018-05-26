@@ -1,8 +1,11 @@
 ---
 title: ID3DX11DataProcessor Destroy method
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Destroys the processor after a work item completes.
-ms.assetid: '759641c0-ef86-42ee-88b9-3fcb7a171d86'
-keywords: ["Destroy method Direct3D 11", "Destroy method Direct3D 11 , ID3DX11DataProcessor interface", "ID3DX11DataProcessor interface Direct3D 11 , Destroy method"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Destroys the processor after a work item completes.
+ms.assetid: 759641c0-ef86-42ee-88b9-3fcb7a171d86
+keywords:
+- Destroy method Direct3D 11
+- Destroy method Direct3D 11 , ID3DX11DataProcessor interface
+- ID3DX11DataProcessor interface Direct3D 11 , Destroy method
 topic_type:
 - apiref
 api_name:
@@ -12,14 +15,19 @@ api_location:
 - D3DX11.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11DataProcessor::Destroy method
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 Destroys the processor after a work item completes.
 
@@ -67,9 +75,9 @@ This method is used by an [**ID3DX11ThreadPump Interface**](id3dx11threadpump.md
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

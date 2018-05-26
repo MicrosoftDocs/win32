@@ -1,14 +1,20 @@
 ---
 title: Color Element
 description: Note This section describes functionality designed for use by online stores.
-ms.assetid: '36fafe16-b708-4dc1-9325-d4f39265069a'
-keywords: ["Color Element Windows Media Player"]
+ms.assetid: 36fafe16-b708-4dc1-9325-d4f39265069a
+keywords:
+- Color Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Color Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The Color element specifies the background color for online store navigation buttons, button text, and the Features taskbar.
 
@@ -56,7 +62,7 @@ Hexadecimal RGB color value. Specifies the color for the button text.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -87,9 +93,9 @@ Be sure to use colors that make it easy for the user to read the button text. Fo
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

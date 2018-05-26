@@ -1,8 +1,22 @@
 ---
 title: Using the MCI MIDI Sequencer
 description: Using the MCI MIDI Sequencer
-ms.assetid: 'e6958b28-a400-4060-9b1f-94d0b2cf26c3'
-keywords: ["Windows multimedia,MCI MIDI sequencer", "multimedia,MCI MIDI sequencer", "multimedia audio,MCI MIDI sequencer", "audio,MCI MIDI sequencer", "Musical Instrument Digital Interface (MIDI),MCI MIDI sequencer", "MIDI (Musical Instrument Digital Interface),MCI MIDI sequencer", "MCI MIDI sequencer,about", "Media Control Interface (MCI),MIDI sequencer", "MCI (Media Control Interface),MIDI sequencer"]
+ms.assetid: e6958b28-a400-4060-9b1f-94d0b2cf26c3
+keywords:
+- Windows multimedia,MCI MIDI sequencer
+- multimedia,MCI MIDI sequencer
+- multimedia audio,MCI MIDI sequencer
+- audio,MCI MIDI sequencer
+- Musical Instrument Digital Interface (MIDI),MCI MIDI sequencer
+- MIDI (Musical Instrument Digital Interface),MCI MIDI sequencer
+- MCI MIDI sequencer,about
+- Media Control Interface (MCI),MIDI sequencer
+- MCI (Media Control Interface),MIDI sequencer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the MCI MIDI Sequencer

@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving the Task Working Directory
 description: This example retrieves the working directory associated with a task and displays the path to the working directory on the screen. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: '46dfd996-6d5f-4a77-87a9-daf1909e1509'
-keywords: ["retrieving working directory Task Scheduler", "retrieving task properties Task Scheduler , working directory"]
+ms.assetid: 46dfd996-6d5f-4a77-87a9-daf1909e1509
+keywords:
+- retrieving working directory Task Scheduler
+- retrieving task properties Task Scheduler , working directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving the Task Working Directory

@@ -1,8 +1,11 @@
 ---
 title: IJobRestartEventHandler OnJobRestart method
 description: The AXE Core raises this event when a job is ending because the system is being restarted.
-ms.assetid: '2290FC67-E1CB-4682-9A3B-9747A018538D'
-keywords: ["OnJobRestart method Access Execution Engine", "OnJobRestart method Access Execution Engine , IJobRestartEventHandler interface", "IJobRestartEventHandler interface Access Execution Engine , OnJobRestart method"]
+ms.assetid: 2290FC67-E1CB-4682-9A3B-9747A018538D
+keywords:
+- OnJobRestart method Access Execution Engine
+- OnJobRestart method Access Execution Engine , IJobRestartEventHandler interface
+- IJobRestartEventHandler interface Access Execution Engine , OnJobRestart method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IJobRestartEventHandler::OnJobRestart method
@@ -22,8 +30,8 @@ The AXE Core raises this event when a job is ending because the system is being 
 
 ```C++
 virtual void OnJobRestart(
-         Engine              *sender,
-   const JobRestartEventArgs *e
+         Engine              *sender,
+   const JobRestartEventArgs *e
 ) = 0;
 ```
 
@@ -61,8 +69,8 @@ Managed code uses the [**JobRestartEventHandler**](https://msdn.microsoft.com/li
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -81,9 +89,9 @@ Managed code uses the [**JobRestartEventHandler**](https://msdn.microsoft.com/li
 [**ExecuteJob**](engine-executejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

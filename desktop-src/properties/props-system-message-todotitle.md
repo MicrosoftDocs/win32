@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '3b32eeaf-e605-4d8f-a63a-51cde818aa5e'
-title: 'System.Message.ToDoTitle'
+Description: .
+ms.assetid: 3b32eeaf-e605-4d8f-a63a-51cde818aa5e
+title: System.Message.ToDoTitle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.ToDoTitle

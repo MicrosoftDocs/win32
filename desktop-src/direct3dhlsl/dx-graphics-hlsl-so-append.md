@@ -1,7 +1,12 @@
 ---
 title: Append (DirectX HLSL Stream-Output Object)
 description: Append geometry-shader-output data to an existing stream.
-ms.assetid: '7df51383-7fc7-4a6f-aaa2-6c929f0443a3'
+ms.assetid: 7df51383-7fc7-4a6f-aaa2-6c929f0443a3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Append (DirectX HLSL Stream-Output Object)
@@ -16,7 +21,7 @@ Append geometry-shader-output data to an existing stream.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -28,7 +33,7 @@ Append geometry-shader-output data to an existing stream.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -78,7 +83,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -87,9 +92,9 @@ This function is supported in the following shader models.
 [Stream-Output Object](dx-graphics-hlsl-so-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

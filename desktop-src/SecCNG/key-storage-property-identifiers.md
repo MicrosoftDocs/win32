@@ -1,7 +1,12 @@
 ---
-Description: 'Used to identify a key storage property.'
-ms.assetid: '407f0e42-07c8-4ec6-81c6-f8bde005adb0'
+Description: Used to identify a key storage property.
+ms.assetid: 407f0e42-07c8-4ec6-81c6-f8bde005adb0
 title: Key Storage Property Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Key Storage Property Identifiers
@@ -32,7 +37,7 @@ A null-terminated Unicode string that contains the name of the object's algorith
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -60,7 +65,7 @@ L"SmartCardAssociatedECDHKey"
 
 An **LPWSTR** value that indicates the container name of the Elliptic Curve Diffie-Hellman (ECDH) key to use during logon for a given handle to an Elliptic Curve Digital Signature Algorithm (ECDSA) key. If there are no ECDH keys on the card, the [*key storage provider*](https://msdn.microsoft.com/library/windows/desktop/ms721590#-security-key-storage-provider-gly) (KSP) returns **NTE\_NOT\_FOUND**. This property applies to ECDSA keys for logon with smart cards. The property is supported by the Microsoft Smart Card key storage provider and not by the Microsoft Software key storage provider.
 
-**Windows Server 2008 and Windows Vista:** This value is not supported.
+**Windows Server 2008 and Windows Vista:** This value is not supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -88,7 +93,7 @@ L"SmartCardKeyCertificate"
 
 A [*BLOB*](https://msdn.microsoft.com/library/windows/desktop/ms721569#-security-blob-gly) that contains an X.509 certificate that is associated with the key.
 
-**Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** A [*BLOB*](https://msdn.microsoft.com/library/windows/desktop/ms721569#-security-blob-gly) that contains the [*smart card*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-smart-card-gly) key [*certificate*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-certificate-gly). This property is not supported by the Microsoft Software Key Storage Provider.
+**Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** A [*BLOB*](https://msdn.microsoft.com/library/windows/desktop/ms721569#-security-blob-gly) that contains the [*smart card*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-smart-card-gly) key [*certificate*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-certificate-gly). This property is not supported by the Microsoft Software Key Storage Provider.
 
 
 </dt> </dl> </dd> <dt>
@@ -101,7 +106,7 @@ L"DHParameters"
 
 
 
-Specifies parameters to use with a Diffie-Hellman key. This data type is a pointer to a [**BCRYPT\_DH\_PARAMETER\_HEADER**](bcrypt-dh-parameter-header.md) structure. This property can only be set and must be set for the key before the key is completed.
+Specifies parameters to use with a Diffie-Hellman key. This data type is a pointer to a [**BCRYPT\_DH\_PARAMETER\_HEADER**](/windows/win32/Bcrypt/ns-bcrypt-_bcrypt_dh_parameter_header?branch=master) structure. This property can only be set and must be set for the key before the key is completed.
 
 
 </dt> </dl> </dd> <dt>
@@ -127,7 +132,7 @@ A **DWORD** that contains a set of flags that specify the export policy for a pe
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -153,7 +158,7 @@ A **DWORD** that contains a set of flags that define implementation details of t
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -176,7 +181,7 @@ A **DWORD** that contains a set of flags that define the key type. This property
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -202,7 +207,7 @@ A **DWORD** that contains a set of flags that define the usage details for a key
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -241,7 +246,7 @@ L"Lengths"
 
 
 
-Indicates the key sizes that are supported by the key. This data type is a pointer to an [**NCRYPT\_SUPPORTED\_LENGTHS**](ncrypt-supported-lengths.md) structure that contains this information. This property only applies to keys.
+Indicates the key sizes that are supported by the key. This data type is a pointer to an [**NCRYPT\_SUPPORTED\_LENGTHS**](/windows/win32/Ncrypt/ns-ncrypt-__ncrypt_supported_lengths?branch=master) structure that contains this information. This property only applies to keys.
 
 
 </dt> </dl> </dd> <dt>
@@ -308,7 +313,7 @@ L"Provider Handle"
 
 
 
-An **NCRYPT\_PROV\_HANDLE** that contains the handle of the CNG key storage provider. When you are finished using the handle, you must call [**NCryptFreeObject**](ncryptfreeobject-func.md) to release it.
+An **NCRYPT\_PROV\_HANDLE** that contains the handle of the CNG key storage provider. When you are finished using the handle, you must call [**NCryptFreeObject**](/windows/win32/Ncrypt/nf-ncrypt-ncryptfreeobject?branch=master) to release it.
 
 
 </dt> </dl> </dd> <dt>
@@ -349,7 +354,7 @@ L"SmartCardPinId"
 
 A pointer to the **PIN\_ID** value associated with a given [*cryptographic key*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-cryptographic-key-gly) on a [*smart card*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-smart-card-gly). This is a read-only property. The **PIN\_ID** data type is defined in Cardmod.h.
 
-**Windows Server 2008 and Windows Vista:** This value is not supported.
+**Windows Server 2008 and Windows Vista:** This value is not supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -364,7 +369,7 @@ L"SmartCardPinInfo"
 
 A pointer to [**PIN\_INFO**](https://msdn.microsoft.com/library/windows/desktop/dd323226) structure of the PIN associated with a given cryptographic key on the smart card. The caller provides the key handle. This property is a read-only property. The **PIN\_INFO** structure is defined in Cardmod.h.
 
-**Windows Server 2008 and Windows Vista:** This value is not supported.
+**Windows Server 2008 and Windows Vista:** This value is not supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -379,7 +384,7 @@ L"SmartCardSecurePin"
 
 A pointer to a null-terminated Unicode string that contains the smart card session PIN. This property can only be set.
 
-**Windows Vista:** This property is not supported.
+**Windows Vista:** This property is not supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -392,7 +397,7 @@ L"Security Descr"
 
 
 
-A pointer to a [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) structure that contains access control information for the key. This property only applies to persistent keys. The *dwFlags* parameter of the [**NCryptGetProperty**](ncryptgetproperty-func.md) or [**NCryptSetProperty**](ncryptsetproperty-func.md) function identifies the part of the security descriptor to get or set.
+A pointer to a [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) structure that contains access control information for the key. This property only applies to persistent keys. The *dwFlags* parameter of the [**NCryptGetProperty**](/windows/win32/Ncrypt/nf-ncrypt-ncryptgetproperty?branch=master) or [**NCryptSetProperty**](/windows/win32/Ncrypt/nf-ncrypt-ncryptsetproperty?branch=master) function identifies the part of the security descriptor to get or set.
 
 
 </dt> </dl> </dd> <dt>
@@ -405,7 +410,7 @@ L"Security Descr Support"
 
 
 
-Indicates whether the provider supports security descriptors for keys. This property is a **DWORD** that contains 1 if the provider supports security descriptors for keys. If this property contains any other value, or if the [**NCryptGetProperty**](ncryptgetproperty-func.md) function returns **NTE\_NOT\_SUPPORTED**, then the provider does not support security descriptors for keys. This property only applies to providers.
+Indicates whether the provider supports security descriptors for keys. This property is a **DWORD** that contains 1 if the provider supports security descriptors for keys. If this property contains any other value, or if the [**NCryptGetProperty**](/windows/win32/Ncrypt/nf-ncrypt-ncryptgetproperty?branch=master) function returns **NTE\_NOT\_SUPPORTED**, then the provider does not support security descriptors for keys. This property only applies to providers.
 
 
 </dt> </dl> </dd> <dt>
@@ -431,7 +436,7 @@ L"UI Policy"
 
 
 
-If used with the [**NCryptSetProperty**](ncryptsetproperty-func.md) or [**NCryptGetProperty**](ncryptgetproperty-func.md) function, this is a pointer to an [**NCRYPT\_UI\_POLICY**](ncrypt-ui-policy.md) structure that contains the strong key user interface policy for the key. This property only applies to persistent keys. This property can only be set when the key is being generated. Once the [**NCryptFinalizeKey**](ncryptfinalizekey-func.md) function has been called for this key, this property becomes read-only.
+If used with the [**NCryptSetProperty**](/windows/win32/Ncrypt/nf-ncrypt-ncryptsetproperty?branch=master) or [**NCryptGetProperty**](/windows/win32/Ncrypt/nf-ncrypt-ncryptgetproperty?branch=master) function, this is a pointer to an [**NCRYPT\_UI\_POLICY**](/windows/win32/Ncrypt/ns-ncrypt-__ncrypt_ui_policy?branch=master) structure that contains the strong key user interface policy for the key. This property only applies to persistent keys. This property can only be set when the key is being generated. Once the [**NCryptFinalizeKey**](/windows/win32/Ncrypt/nf-ncrypt-ncryptfinalizekey?branch=master) function has been called for this key, this property becomes read-only.
 
 A key storage provider can receive this parameter through an [**NCryptSetPropertyFn**](security-ncryptgetkeypropertyfn) callback function. The parameter value is an NCRYPT\_UI\_POLICY\_BLOB structure that contains the same information. Similarly, when an application makes a request through NCryptSetPropertyFn to the provider to return this property, the provider is expected to return an NCRYPT\_UI\_POLICY\_BLOB structure.
 
@@ -446,7 +451,7 @@ L"Unique Name"
 
 
 
-A pointer to a null-terminated Unicode string that contains the unique name of the object. This is an alternate name that can be used when accessing the key. This property is used when it is thought that the key name originally passed to [**NCryptCreatePersistedKey**](ncryptcreatepersistedkey-func.md) is not unique enough to reliably identify the persisted key. The Microsoft key storage provider will return the file name of the key as this property.
+A pointer to a null-terminated Unicode string that contains the unique name of the object. This is an alternate name that can be used when accessing the key. This property is used when it is thought that the key name originally passed to [**NCryptCreatePersistedKey**](/windows/win32/Ncrypt/nf-ncrypt-ncryptcreatepersistedkey?branch=master) is not unique enough to reliably identify the persisted key. The Microsoft key storage provider will return the file name of the key as this property.
 
 
 </dt> </dl> </dd> <dt>
@@ -461,7 +466,7 @@ L"Use Context"
 
 A pointer to a null-terminated Unicode string that describes the context of the operation. This property is not persistent and can be set on either a provider or a key. A key does not have access to the **NCRYPT\_USE\_CONTEXT\_PROPERTY** property of the provider because the property is specific only to the handle it is set for.
 
-An example where this property would be used in the context of a provider is a key storage provider that needs to prompt the user during a call to [**NCryptOpenKey**](ncryptopenkey-func.md) (for example, "Insert your smart card in the reader."). Because the key handle is not available until after **NCryptOpenKey** returns, the application should set this property on the provider handle prior to calling **NCryptOpenKey**.
+An example where this property would be used in the context of a provider is a key storage provider that needs to prompt the user during a call to [**NCryptOpenKey**](/windows/win32/Ncrypt/nf-ncrypt-ncryptopenkey?branch=master) (for example, "Insert your smart card in the reader."). Because the key handle is not available until after **NCryptOpenKey** returns, the application should set this property on the provider handle prior to calling **NCryptOpenKey**.
 
 An example where this property would be used in the context of a key handle is a key storage provider that needs to prompt the user during an operation using the key (for example, "This application needs to use this key to sign a document."). The provider could then relay this context information to the user in any user interface shown during the operation.
 
@@ -476,7 +481,7 @@ L"Enabled Use Count"
 
 
 
-Indicates whether the provider supports usage counting for keys. This property is a **DWORD** that contains 1 if the provider supports usage counting for keys. If this property contains any other value, or if the [**NCryptGetProperty**](ncryptgetproperty-func.md) function returns **NTE\_NOT\_SUPPORTED**, then the provider does not support usage counting for keys. This property only applies to providers.
+Indicates whether the provider supports usage counting for keys. This property is a **DWORD** that contains 1 if the provider supports usage counting for keys. If this property contains any other value, or if the [**NCryptGetProperty**](/windows/win32/Ncrypt/nf-ncrypt-ncryptgetproperty?branch=master) function returns **NTE\_NOT\_SUPPORTED**, then the provider does not support usage counting for keys. This property only applies to providers.
 
 
 </dt> </dl> </dd> <dt>
@@ -552,8 +557,8 @@ The following values are used to define limits of property data.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Ncrypt.h</dt> </dl> |
 
 
@@ -562,15 +567,15 @@ The following values are used to define limits of property data.
 
 <dl> <dt>
 
-[**NCryptGetProperty**](ncryptgetproperty-func.md)
+[**NCryptGetProperty**](/windows/win32/Ncrypt/nf-ncrypt-ncryptgetproperty?branch=master)
 </dt> <dt>
 
-[**NCryptSetProperty**](ncryptsetproperty-func.md)
+[**NCryptSetProperty**](/windows/win32/Ncrypt/nf-ncrypt-ncryptsetproperty?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

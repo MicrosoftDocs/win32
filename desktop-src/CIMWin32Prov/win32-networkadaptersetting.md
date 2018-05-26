@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_NetworkAdapterSetting association WMI class relates a network adapter and its configuration settings.'
+---
+Description: The Win32\_NetworkAdapterSetting association WMI class relates a network adapter and its configuration settings.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6fc646c3-05f9-4c92-8598-07ea20fffaca'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6fc646c3-05f9-4c92-8598-07ea20fffaca
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_NetworkAdapterSetting class'
+title: Win32\_NetworkAdapterSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_NetworkAdapterSetting class

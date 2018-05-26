@@ -1,8 +1,28 @@
 ---
 title: Using HTML with Windows Media Player
 description: Using HTML with Windows Media Player
-ms.assetid: '321d4396-511b-4f0d-9ee9-8bdddceedc0e'
-keywords: ["Windows Media Player,HTML", "Windows Media Player object model,HTML", "object model,HTML", "Windows Media Player ActiveX control,HTML for object model", "ActiveX control,HTML for object model", "Windows Media Player Mobile ActiveX control,HTML for object model", "Windows Media Player Mobile,HTML for object model", "HTML with Windows Media Player", "Web page embedding,HTML", "embedding,Web pages", "script commands", "URL flipping", "rich media streaming", "browser support", "displaying webpages"]
+ms.assetid: 321d4396-511b-4f0d-9ee9-8bdddceedc0e
+keywords:
+- Windows Media Player,HTML
+- Windows Media Player object model,HTML
+- object model,HTML
+- Windows Media Player ActiveX control,HTML for object model
+- ActiveX control,HTML for object model
+- Windows Media Player Mobile ActiveX control,HTML for object model
+- Windows Media Player Mobile,HTML for object model
+- HTML with Windows Media Player
+- Web page embedding,HTML
+- embedding,Web pages
+- script commands
+- URL flipping
+- rich media streaming
+- browser support
+- displaying webpages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using HTML with Windows Media Player

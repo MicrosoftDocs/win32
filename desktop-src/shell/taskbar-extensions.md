@@ -1,7 +1,12 @@
 ---
-Description: 'Discusses new taskbar functionality, including consolidation of launching and switching, enhanced capabilities of taskbar buttons such as single-click access to documents and application-specific tasks, transport controls and status notifications, thumbnail representations and switch targets based on individual tabs in a tabbed application, and the ability to reorder taskbar buttons through a drag-and-drop operation.'
-ms.assetid: 'cbf2b07d-d67c-4755-888c-d40692d13cae'
+Description: Discusses new taskbar functionality, including consolidation of launching and switching, enhanced capabilities of taskbar buttons such as single-click access to documents and application-specific tasks, transport controls and status notifications, thumbnail representations and switch targets based on individual tabs in a tabbed application, and the ability to reorder taskbar buttons through a drag-and-drop operation.
+ms.assetid: cbf2b07d-d67c-4755-888c-d40692d13cae
 title: Taskbar Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Taskbar Extensions
@@ -60,7 +65,7 @@ By default, a standard Jump List contains two categories: recent items and pinne
 
 ## Destinations
 
-The **Recent** and **Frequent** categories are considered to contain destinations. A destination, usually a file, document, or URL, is something that can be edited, browsed, viewed, and so on. Think of a destination as a thing rather than an action. Typically, a destination is an item in the Shell namespace, represented by an [**IShellItem**](ishellitem.md) or [**IShellLink**](ishelllink.md). These portions of the destination list are analogous to the **Start** menu's recently used documents list (no longer shown by default) and frequently used application list, but they are specific to an application and therefore more accurate and useful to the user. The results used in the destination list are calculated through calls to [**SHAddToRecentDocs**](shaddtorecentdocs.md). Note that when the user opens a file from Windows Explorer or uses the common file dialog to open, save, or create a file, **SHAddToRecentDocs** is called for you automatically, which results in many applications getting their recent items shown in the destination list without any action on their part.
+The **Recent** and **Frequent** categories are considered to contain destinations. A destination, usually a file, document, or URL, is something that can be edited, browsed, viewed, and so on. Think of a destination as a thing rather than an action. Typically, a destination is an item in the Shell namespace, represented by an [**IShellItem**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellitem?branch=master) or [**IShellLink**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ishelllinka?branch=master). These portions of the destination list are analogous to the **Start** menu's recently used documents list (no longer shown by default) and frequently used application list, but they are specific to an application and therefore more accurate and useful to the user. The results used in the destination list are calculated through calls to [**SHAddToRecentDocs**](/windows/win32/shlobj_core/nf-shlobj_core-shaddtorecentdocs?branch=master). Note that when the user opens a file from Windows Explorer or uses the common file dialog to open, save, or create a file, **SHAddToRecentDocs** is called for you automatically, which results in many applications getting their recent items shown in the destination list without any action on their part.
 
 Launching a destination is much like launching an item using the **Open With** command. The application launches with that destination loaded and ready to use. Items in the destination list can also be dragged from the list to a drop destination such as an email message. By having these items centralized in a destination list, it gets users where they want to go that much faster, which is the goal.
 
@@ -70,14 +75,14 @@ A destination list can be regarded as an application-specific version of the **S
 
 ### APIs
 
--   [**IApplicationDestinations::RemoveDestination**](iapplicationdestinations-removedestination.md)
--   [**IApplicationDestinations::RemoveAllDestinations**](iapplicationdestinations-removealldestinations.md)
--   [**IApplicationDocumentLists::GetList**](iapplicationdocumentlists-getlist.md)
--   [**SHAddToRecentDocs**](shaddtorecentdocs.md)
+-   [**IApplicationDestinations::RemoveDestination**](/windows/win32/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-removedestination?branch=master)
+-   [**IApplicationDestinations::RemoveAllDestinations**](/windows/win32/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-removealldestinations?branch=master)
+-   [**IApplicationDocumentLists::GetList**](/windows/win32/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist?branch=master)
+-   [**SHAddToRecentDocs**](/windows/win32/shlobj_core/nf-shlobj_core-shaddtorecentdocs?branch=master)
 
 ## Tasks
 
-Another built-in portion of a Jump List is the **Tasks** category. While a destination is a thing, a task is an action, and in this case it is an application-specific action. Put another way, a destination is a noun and a task is a verb. Typically, tasks are [**IShellLink**](ishelllink.md) items with command-line arguments that indicate particular functionality that can be triggered by an application. Again, the idea is to centralize as much information related to an application as is practical.
+Another built-in portion of a Jump List is the **Tasks** category. While a destination is a thing, a task is an action, and in this case it is an application-specific action. Put another way, a destination is a noun and a task is a verb. Typically, tasks are [**IShellLink**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ishelllinka?branch=master) items with command-line arguments that indicate particular functionality that can be triggered by an application. Again, the idea is to centralize as much information related to an application as is practical.
 
 Applications define tasks based on both the program's features and the key things a user is expected to do with them. Tasks should be context-free, in that the application does not need to be running for them to work. They should also be the statistically most common actions that a normal user would perform in an application, such as compose an email message or open the calendar in a mail program, create a new document in a word processor, launch an application in a certain mode, or launch one of its subcommands. An application should not clutter the menu with advanced features that standard users won't need or one-time actions such as registration. Do not use tasks for promotional items such as upgrades or special offers.
 
@@ -85,7 +90,7 @@ It is strongly recommended that the task list be static. It should remain the sa
 
 ### APIs
 
--   [**ICustomDestinationList::AddUserTasks**](icustomdestinationlist-addusertasks.md)
+-   [**ICustomDestinationList::AddUserTasks**](/windows/win32/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-addusertasks?branch=master)
 
 ## Customizing Jump Lists
 
@@ -101,9 +106,9 @@ The maximum number of items in a destination list is determined by the system ba
 
 ### APIs
 
--   [**ICustomDestinationList**](icustomdestinationlist.md)
--   [**IApplicationDestinations**](iapplicationdestinations.md)
--   [**IApplicationDocumentLists**](iapplicationdocumentlists.md)
+-   [**ICustomDestinationList**](/windows/win32/shobjidl_core/nn-shobjidl_core-icustomdestinationlist?branch=master)
+-   [**IApplicationDestinations**](/windows/win32/shobjidl_core/nn-shobjidl_core-iapplicationdestinations?branch=master)
+-   [**IApplicationDocumentLists**](/windows/win32/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists?branch=master)
 
 ## Thumbnail Toolbars
 
@@ -116,16 +121,16 @@ This toolbar is simply the familiar standard toolbar common control. It has a ma
 Because there is limited room to display thumbnails and a variable number of thumbnails to display, applications are not guaranteed a given toolbar size. If space is restricted, buttons in the toolbar are truncated from right to left. Therefore, when you design your toolbar, you should prioritize the commands associated with your buttons and ensure that the most important come first and are least likely to be dropped because of space issues.
 
 > [!Note]  
-> When an application displays a window, its taskbar button is created by the system. When the button is in place, the taskbar sends a **TaskbarButtonCreated** message to the window. Its value is computed by calling [**RegisterWindowMessage**](winmsg.registerwindowmessage)(L("TaskbarButtonCreated")). That message must be received by your application before it calls any [**ITaskbarList3**](itaskbarlist3.md) method.
+> When an application displays a window, its taskbar button is created by the system. When the button is in place, the taskbar sends a **TaskbarButtonCreated** message to the window. Its value is computed by calling [**RegisterWindowMessage**](winmsg.registerwindowmessage)(L("TaskbarButtonCreated")). That message must be received by your application before it calls any [**ITaskbarList3**](/windows/win32/shobjidl_core/nn-shobjidl_core-itaskbarlist3?branch=master) method.
 
  
 
 ### API
 
--   [**ITaskbarList3::ThumbBarAddButtons**](itaskbarlist3-thumbbaraddbuttons.md)
--   [**ITaskbarList3::ThumbBarSetImageList**](itaskbarlist3-thumbbarsetimagelist.md)
--   [**ITaskbarList3::ThumbBarUpdateButtons**](itaskbarlist3-thumbbarupdatebuttons.md)
--   [**THUMBBUTTON**](thumbbutton.md)
+-   [**ITaskbarList3::ThumbBarAddButtons**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbaraddbuttons?branch=master)
+-   [**ITaskbarList3::ThumbBarSetImageList**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist?branch=master)
+-   [**ITaskbarList3::ThumbBarUpdateButtons**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarupdatebuttons?branch=master)
+-   [**THUMBBUTTON**](/windows/win32/Shobjidl_core/ns-shobjidl_core-thumbbutton?branch=master)
 
 ## Icon Overlays
 
@@ -139,7 +144,7 @@ Because a single overlay is overlaid on the taskbar button and not on the indivi
 
 ### APIs
 
--   [**ITaskbarList3::SetOverlayIcon**](itaskbarlist3-setoverlayicon.md)
+-   [**ITaskbarList3::SetOverlayIcon**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setoverlayicon?branch=master)
 
 ## Progress Bars
 
@@ -149,16 +154,16 @@ The taskbar button progress bar is a similar experience to the familiar Progress
 
 ### APIs
 
--   [**ITaskbarList3::SetProgressState**](itaskbarlist3-setprogressstate.md)
--   [**ITaskbarList3::SetProgressValue**](itaskbarlist3-setprogressvalue.md)
+-   [**ITaskbarList3::SetProgressState**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressstate?branch=master)
+-   [**ITaskbarList3::SetProgressValue**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setprogressvalue?branch=master)
 
 ## Deskbands
 
-In versions of Windows prior to Windows 7, something similar to thumbnail toolbar functionality could be achieved through a deskband—a toolbar hosted in the taskbar. For instance, Windows Media Player could minimize to the taskbar as a set of transport controls rather than a standard button. In Windows 7, deskbands can still be implemented and thumbnail toolbars are not intended to replace them all. Not all applications will lend themselves to a thumbnail toolbar, and another solution such as a deskband or a task in a destination list might be the right answer for your application; you must decide which solution works best for your application as part of your development cycle. However, be aware that deskbands must support Windows Aero with translucency ("glass") enabled and the [**IDeskBand2**](ideskband2.md) interface.
+In versions of Windows prior to Windows 7, something similar to thumbnail toolbar functionality could be achieved through a deskband—a toolbar hosted in the taskbar. For instance, Windows Media Player could minimize to the taskbar as a set of transport controls rather than a standard button. In Windows 7, deskbands can still be implemented and thumbnail toolbars are not intended to replace them all. Not all applications will lend themselves to a thumbnail toolbar, and another solution such as a deskband or a task in a destination list might be the right answer for your application; you must decide which solution works best for your application as part of your development cycle. However, be aware that deskbands must support Windows Aero with translucency ("glass") enabled and the [**IDeskBand2**](/windows/win32/Shobjidl/nn-shobjidl-ideskband2?branch=master) interface.
 
 ### APIs
 
--   [**IDeskBand2**](ideskband2.md)
+-   [**IDeskBand2**](/windows/win32/Shobjidl/nn-shobjidl-ideskband2?branch=master)
 
 ## Notification Area
 
@@ -179,11 +184,11 @@ In Windows 7, each member of a group is shown as a separate thumbnail and is no
 
 ### API
 
--   [**ITaskbarList3::RegisterTab**](itaskbarlist3-registertab.md)
--   [**ITaskbarList3::SetTabActive**](itaskbarlist3-settabactive.md)
--   [**ITaskbarList3::SetTabOrder**](itaskbarlist3-settaborder.md)
--   [**ITaskbarList3::UnregisterTab**](itaskbarlist3-unregistertab.md)
--   [**ITaskbarList4::SetTabProperties**](itaskbarlist4-settabproperties.md)
+-   [**ITaskbarList3::RegisterTab**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-registertab?branch=master)
+-   [**ITaskbarList3::SetTabActive**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settabactive?branch=master)
+-   [**ITaskbarList3::SetTabOrder**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settaborder?branch=master)
+-   [**ITaskbarList3::UnregisterTab**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-unregistertab?branch=master)
+-   [**ITaskbarList4::SetTabProperties**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist4-settabproperties?branch=master)
 
 Thumbnail representations for windows are normally automatic, but in cases where the result isn't optimal, the thumbnail can be explicitly specified. By default, only top-level windows have a thumbnail automatically generated for them, and the thumbnails for child windows appear as a generic representation. This can result in a less than ideal (and even confusing) experience for the end user. A specific switch target thumbnail for each child window, for instance, provides a much better user experience.
 
@@ -202,7 +207,7 @@ If there are more thumbnails than can be displayed, the preview reverts to the l
 
 ### API
 
--   [**ITaskbarList3::SetThumbnailClip**](itaskbarlist3-setthumbnailclip.md)
+-   [**ITaskbarList3::SetThumbnailClip**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setthumbnailclip?branch=master)
 
 To add **Pin to Taskbar** to an item's shortcut menu, which is normally required only for file types that include the [IsShortCut](shell.Links) entry, is done by registering the appropriate context menu handler. This also applies to **Pin to Start Menu**. See [Registering Shell Extension Handlers](reg-shell-exts.md) for more information.
 

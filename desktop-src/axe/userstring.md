@@ -1,14 +1,20 @@
 ---
 title: UserString element
 description: A string provided by a solution.
-ms.assetid: '71311648-6BD1-40EF-9941-E7C0901F4C07'
-keywords: ["UserString element Access Execution Engine"]
+ms.assetid: 71311648-6BD1-40EF-9941-E7C0901F4C07
+keywords:
+- UserString element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - UserString
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserString element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

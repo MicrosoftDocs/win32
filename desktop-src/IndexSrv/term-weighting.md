@@ -1,7 +1,12 @@
 ---
 title: Term Weighting
 description: Term Weighting
-ms.assetid: '4d616d53-8408-401f-90cf-41e7893a9de8'
+ms.assetid: 4d616d53-8408-401f-90cf-41e7893a9de8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Term Weighting

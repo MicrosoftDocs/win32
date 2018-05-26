@@ -1,14 +1,16 @@
 ---
 title: Win32\_TSVirtualDesktopServerSettings class
-description: Contains configuration information for a Remote Desktop Virtualization Host (RD Virtualization Host) server.
+description: Contains configuration information for a Remote Desktop Virtualization Host (RD Virtualization Host) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '749018aa-a8aa-433e-985b-40b44ef8aa7f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 749018aa-a8aa-433e-985b-40b44ef8aa7f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSVirtualDesktopServerSettings class Remote Desktop Services", "Win32_TSVirtualDesktopServerSettings class Remote Desktop Services , described"]
+keywords:
+- Win32_TSVirtualDesktopServerSettings class Remote Desktop Services
+- Win32_TSVirtualDesktopServerSettings class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -20,11 +22,14 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSVirtualDesktopServerSettings class
 
-Contains configuration information for a Remote Desktop Virtualization Host (RD Virtualization Host) server.
+Contains configuration information for a Remote Desktop Virtualization Host (RD Virtualization Host) server.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -87,7 +92,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-The fully qualified distinguished name of the session broker for the RD Virtualization Host server.
+The fully qualified distinguished name of the session broker for the RD Virtualization Host server.
 
 </dd> </dl>
 
@@ -98,16 +103,16 @@ The fully qualified distinguished name of the session broker for the RD Virtuali
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\CIMV2\\TerminalServices<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>TSVmHost.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TSVmHostWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: ID3DX11EffectPass interface
 description: An ID3DX11EffectPass interface encapsulates state assignments within a technique.The lifetime of an ID3DX11EffectPass object is equal to the lifetime of its parent ID3DX11Effect object.
-ms.assetid: '4d86c362-b0f8-4396-86de-c7c89710f46d'
-keywords: ["ID3DX11EffectPass interface Direct3D 11", "ID3DX11EffectPass interface Direct3D 11 , described"]
+ms.assetid: 4d86c362-b0f8-4396-86de-c7c89710f46d
+keywords:
+- ID3DX11EffectPass interface Direct3D 11
+- ID3DX11EffectPass interface Direct3D 11 , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectPass interface
@@ -45,7 +52,7 @@ The **ID3DX11EffectPass** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,7 +63,7 @@ To get an effect-pass interface, call a method like [**ID3DX11EffectTechnique::G
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -79,9 +86,9 @@ To get an effect-pass interface, call a method like [**ID3DX11EffectTechnique::G
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

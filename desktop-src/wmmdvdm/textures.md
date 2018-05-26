@@ -1,14 +1,20 @@
 ---
 title: Textures element
 description: Specifies the source files that Windows DVD Maker will create when the button or transition is created (depending on the context).
-ms.assetid: 'e2078775-ce50-44b8-adde-40d4a8eba35a'
-keywords: ["Textures element Windows Movie Maker and DVD Maker"]
+ms.assetid: e2078775-ce50-44b8-adde-40d4a8eba35a
+keywords:
+- Textures element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Textures
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Textures element
@@ -46,7 +52,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -58,9 +64,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

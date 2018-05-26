@@ -1,13 +1,34 @@
 ---
 title: Obtaining a Pointer to the Reader Object
 description: Obtaining a Pointer to the Reader Object
-ms.assetid: '70696ffc-2612-460d-b445-f200ba85d3c7'
-keywords: ["Windows Media Format SDK,DirectShow", "Windows Media Format SDK,reader objects", "Windows Media Format SDK,IWMReaderAdvanced2 interface", "Advanced Systems Format (ASF),DirectShow", "ASF (Advanced Systems Format),DirectShow", "Advanced Systems Format (ASF),reader objects", "ASF (Advanced Systems Format),reader objects", "Advanced Systems Format (ASF),IWMReaderAdvanced2 interface", "ASF (Advanced Systems Format),IWMReaderAdvanced2 interface", "DirectShow,Reader Objects", "DirectShow,pointers to Reader Objects", "DirectShow,IWMReaderAdvanced2 interface", "reader objects,obtaining pointers", "streams,Reader Objects", "streams,pointers to Reader Objects", "IWMReaderAdvanced2"]
+ms.assetid: 70696ffc-2612-460d-b445-f200ba85d3c7
+keywords:
+- Windows Media Format SDK,DirectShow
+- Windows Media Format SDK,reader objects
+- Windows Media Format SDK,IWMReaderAdvanced2 interface
+- Advanced Systems Format (ASF),DirectShow
+- ASF (Advanced Systems Format),DirectShow
+- Advanced Systems Format (ASF),reader objects
+- ASF (Advanced Systems Format),reader objects
+- Advanced Systems Format (ASF),IWMReaderAdvanced2 interface
+- ASF (Advanced Systems Format),IWMReaderAdvanced2 interface
+- DirectShow,Reader Objects
+- DirectShow,pointers to Reader Objects
+- DirectShow,IWMReaderAdvanced2 interface
+- reader objects,obtaining pointers
+- streams,Reader Objects
+- streams,pointers to Reader Objects
+- IWMReaderAdvanced2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining a Pointer to the Reader Object
 
-In certain cases, for example when determining which data unit extensions are set on a given stream, you may need to access the [Reader Object](reader-object.md) of the Windows Media Format SDK directly. The following function shows how to obtain the [**IWMReaderAdvanced2**](iwmreaderadvanced2.md) interface on the Reader Object itself:
+In certain cases, for example when determining which data unit extensions are set on a given stream, you may need to access the [Reader Object](reader-object.md) of the Windows Media Format SDK directly. The following function shows how to obtain the [**IWMReaderAdvanced2**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2?branch=master) interface on the Reader Object itself:
 
 
 ```C++

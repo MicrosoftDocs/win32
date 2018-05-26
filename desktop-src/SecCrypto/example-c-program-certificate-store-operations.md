@@ -1,19 +1,24 @@
 ---
-Description: 'Example C Program: Certificate Store Operations'
-ms.assetid: 'cf87791c-b98c-4dd7-b346-336c4b1a88ca'
-title: 'Example C Program: Certificate Store Operations'
+Description: Example C Program Certificate Store Operations
+ms.assetid: cf87791c-b98c-4dd7-b346-336c4b1a88ca
+title: Example C Program Certificate Store Operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Certificate Store Operations
 
 The following example demonstrates a number of common [*certificate store*](security.c_gly#-security-certificate-store-gly) operations as well as the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
--   Opening and closing memory and system stores using [**CertOpenStore**](certopenstore.md) and [**CertCloseStore**](certclosestore.md).
--   Duplicating an open store using [**CertDuplicateStore**](certduplicatestore.md).
--   Finding in stores certificates that meet some criteria using [**CertFindCertificateInStore**](certfindcertificateinstore.md).
--   Creating a new certificate context from the encoded portion of an existing certificate using [**CertCreateCertificateContext**](certcreatecertificatecontext.md).
--   Adding a retrieved certificate to a store in memory using [**CertAddCertificateContextToStore**](certaddcertificatecontexttostore.md).
--   Adding a link to a certificate to a store using [**CertAddCertificateLinkToStore**](certaddcertificatelinktostore.md).
+-   Opening and closing memory and system stores using [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master) and [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master).
+-   Duplicating an open store using [**CertDuplicateStore**](/windows/win32/Wincrypt/nf-wincrypt-certduplicatestore?branch=master).
+-   Finding in stores certificates that meet some criteria using [**CertFindCertificateInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindcertificateinstore?branch=master).
+-   Creating a new certificate context from the encoded portion of an existing certificate using [**CertCreateCertificateContext**](/windows/win32/Wincrypt/nf-wincrypt-certcreatecertificatecontext?branch=master).
+-   Adding a retrieved certificate to a store in memory using [**CertAddCertificateContextToStore**](/windows/win32/Wincrypt/nf-wincrypt-certaddcertificatecontexttostore?branch=master).
+-   Adding a link to a certificate to a store using [**CertAddCertificateLinkToStore**](/windows/win32/Wincrypt/nf-wincrypt-certaddcertificatelinktostore?branch=master).
 -   Saving the store in memory to a file on disk.
 -   Opening and closing a file-based certificate store.
 

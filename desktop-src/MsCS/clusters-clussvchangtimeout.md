@@ -4,17 +4,21 @@ description: Controls the amount of time, in seconds, that the cluster network d
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '88AD4C48-2DFE-4F67-B2F8-BA147DD64D09'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 88AD4C48-2DFE-4F67-B2F8-BA147DD64D09
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusSvcHangTimeout Failover Cluster"]
+keywords:
+- ClusSvcHangTimeout Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ClusSvcHangTimeout
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusSvcHangTimeout
@@ -27,14 +31,14 @@ Controls the amount of time, in seconds, that the cluster network driver waits b
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 6                                         |
 | Maximum   | 0xFFFFFFFF                                |
 | Default   | 60                                        |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSTER\_HANG\_TIMEOUT\_KEYNAME**.
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSTER\_HANG\_TIMEOUT\_KEYNAME**.
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

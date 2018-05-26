@@ -1,8 +1,9 @@
 ---
 title: BN\_DOUBLECLICKED notification code
 description: Sent when the user double-clicks a button.
-ms.assetid: '2fd7363a-5a02-453c-bfab-df5cbf8e42a5'
-keywords: ["BN_DOUBLECLICKED notification code Windows Controls"]
+ms.assetid: 2fd7363a-5a02-453c-bfab-df5cbf8e42a5
+keywords:
+- BN_DOUBLECLICKED notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BN\_DOUBLECLICKED notification code
@@ -57,15 +63,15 @@ BN\_DOUBLECLICKED is the same as the [BN\_DBLCLK](bn-dblclk.md) notification cod
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

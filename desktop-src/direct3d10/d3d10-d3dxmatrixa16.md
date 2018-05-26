@@ -1,7 +1,12 @@
-﻿---
-Description: 'A 4x4, 16-byte-aligned matrix that contains methods and operator overloads.'
-ms.assetid: 'd9e9c1cc-7555-4011-a4b4-8cce20404841'
+---
+Description: A 4x4, 16-byte-aligned matrix that contains methods and operator overloads.
+ms.assetid: d9e9c1cc-7555-4011-a4b4-8cce20404841
 title: D3DXMATRIXA16 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMATRIXA16 structure

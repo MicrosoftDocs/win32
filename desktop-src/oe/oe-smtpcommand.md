@@ -1,8 +1,10 @@
 ---
 title: SMTPCOMMAND enumeration
 description: Enumerates the Simple Mail Transport Protocol (SMTP) commands that have been issued to the server and the various states following an action.
-ms.assetid: '45ba9535-86c8-4647-a42b-2f99b16bbb51'
-keywords: ["SMTPCOMMAND enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 45ba9535-86c8-4647-a42b-2f99b16bbb51
+keywords:
+- SMTPCOMMAND enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMTPCOMMAND enumeration
@@ -24,21 +31,21 @@ Enumerates the Simple Mail Transport Protocol (SMTP) commands that have been iss
 
 ```C++
 typedef enum tagSMTPCOMMAND { 
-  SMTP_NONE          = 0,
-  SMTP_BANNER        = 1,
-  SMTP_CONNECTED     = 2,
-  SMTP_SEND_MESSAGE  = 3,
-  SMTP_AUTH          = 4,
-  SMTP_EHLO          = 5,
-  SMTP_HELO          = 6,
-  SMTP_MAIL          = 7,
-  SMTP_RCPT          = 8,
-  SMTP_RSET          = 9,
-  SMTP_QUIT          = 10,
-  SMTP_DATA          = 11,
-  SMTP_DOT           = 12,
-  SMTP_SEND_STREAM   = 13,
-  SMTP_CUSTOM        = 14
+  SMTP_NONE          = 0,
+  SMTP_BANNER        = 1,
+  SMTP_CONNECTED     = 2,
+  SMTP_SEND_MESSAGE  = 3,
+  SMTP_AUTH          = 4,
+  SMTP_EHLO          = 5,
+  SMTP_HELO          = 6,
+  SMTP_MAIL          = 7,
+  SMTP_RCPT          = 8,
+  SMTP_RSET          = 9,
+  SMTP_QUIT          = 10,
+  SMTP_DATA          = 11,
+  SMTP_DOT           = 12,
+  SMTP_SEND_STREAM   = 13,
+  SMTP_CUSTOM        = 14
 } ACCESSTYPE;
 ```
 
@@ -159,17 +166,17 @@ Indicates that a custom protocol command has been sent.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

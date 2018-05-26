@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the security feature setting data.'
-ms.assetid: '98e0de24-ccdc-4fc7-86a5-b68d454fde9d'
-title: 'Msvm\_EthernetSwitchPortSecuritySettingData class'
+Description: Represents the security feature setting data.
+ms.assetid: 98e0de24-ccdc-4fc7-86a5-b68d454fde9d
+title: Msvm\_EthernetSwitchPortSecuritySettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortSecuritySettingData class
@@ -16,24 +21,24 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), UUID("776E0BA7-94A1-41C8-8F28-951F524251B5"), ExtensionId("11EC6134-128A-4A23-B12F-164184B48348"), InterfaceVersion("3"), InterfaceRevision("0"), DisplayName("Ethernet Switch Port Security Settings"), AMENDMENT]
 class Msvm_EthernetSwitchPortSecuritySettingData : Msvm_EthernetSwitchPortFeatureSettingData
 {
-  string  InstanceID;
-  string  Caption = "Ethernet Switch Port Security Settings";
-  string  Description = "Represents the security feature setting data.";
-  string  ElementName = "Ethernet Switch Port Security Settings";
+  string  InstanceID;
+  string  Caption = "Ethernet Switch Port Security Settings";
+  string  Description = "Represents the security feature setting data.";
+  string  ElementName = "Ethernet Switch Port Security Settings";
   boolean AllowMacSpoofing = FALSE;
   boolean EnableDhcpGuard = FALSE;
   boolean EnableRouterGuard = FALSE;
-  uint8   MonitorMode = 0;
-  uint8   MonitorSession = 0;
+  uint8   MonitorMode = 0;
+  uint8   MonitorSession = 0;
   boolean AllowIeeePriorityTag = FALSE;
-  uint32  VirtualSubnetId = 0;
+  uint32  VirtualSubnetId = 0;
   boolean AllowTeaming = FALSE;
-  string  TeamName = ;
-  uint32  TeamNumber = 0;
+  string  TeamName = ;
+  uint32  TeamNumber = 0;
   boolean EnableFixSpeed10G = FALSE;
   boolean Reserved = FALSE;
-  uint32  DynamicIPAddressLimit = 0;
-  uint32  StormLimit = 0;
+  uint32  DynamicIPAddressLimit = 0;
+  uint32  StormLimit = 0;
 };
 ```
 
@@ -183,9 +188,9 @@ Qualifiers: **WmiDataId** (14), **InterfaceVersion** (3), **InterfaceRevision** 
 Set to TRUE if Fixed Speed 10G is enabled else FALSE. Default value is FALSE.
 
 > [!Note]  
-> Property added in Windows 10.
+> Property added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -291,9 +296,9 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 Reserved
 
 > [!Note]  
-> Property added in Windows 10.
+> Property added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -367,17 +372,17 @@ Specifies the identifier of the virtual subnet that the port is a member of. The
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

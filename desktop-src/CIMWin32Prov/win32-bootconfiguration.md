@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_BootConfiguration WMI class represents the boot configuration of a computer system running Windows.'
+Description: The Win32\_BootConfiguration WMI class represents the boot configuration of a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c2db28dd-3feb-44bb-a532-c91cab980ba3'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c2db28dd-3feb-44bb-a532-c91cab980ba3
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_BootConfiguration class'
+title: Win32\_BootConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_BootConfiguration class
@@ -273,8 +276,8 @@ Temp Directory     : C:\WINDOWS\system32\config\systemprofile\Local Settings\Tem
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -291,9 +294,9 @@ Temp Directory     : C:\WINDOWS\system32\config\systemprofile\Local Settings\Tem
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

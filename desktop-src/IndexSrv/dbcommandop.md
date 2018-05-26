@@ -1,8 +1,14 @@
 ---
 title: DBCOMMANDOP
 description: DBCOMMANDOP
-ms.assetid: '564e287b-ab3c-484e-8818-1d24ba5246ce'
-keywords: ["DBCOMMANDOP"]
+ms.assetid: 564e287b-ab3c-484e-8818-1d24ba5246ce
+keywords:
+- DBCOMMANDOP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBCOMMANDOP
@@ -20,13 +26,13 @@ typedef WORD DBCOMMANDOP;
 
 ### Remarks
 
-In each [**DBCOMMANDTREE**](dbcommandtree.md) structure representing a node in the command tree, **DBCOMMANDOP** takes on the appropriate DBOP\_\* operation value from the [**DBCOMMANDOPENUM**](dbcommandopenum.md) enumeration, as described in the [Data Manipulation Operators](data-manipulation-operators.md) and Data Definition Operators section of this reference.
+In each [**DBCOMMANDTREE**](dbcommandtree.md) structure representing a node in the command tree, **DBCOMMANDOP** takes on the appropriate DBOP\_\* operation value from the [**DBCOMMANDOPENUM**](/windows/previous-versions/cmdtree/ne-cmdtree-dbcommandopenum?branch=master) enumeration, as described in the [Data Manipulation Operators](data-manipulation-operators.md) and Data Definition Operators section of this reference.
 
 ## Related topics
 
 <dl> <dt>
 
-[**DBCOMMANDOPENUM**](dbcommandopenum.md)
+[**DBCOMMANDOPENUM**](/windows/previous-versions/cmdtree/ne-cmdtree-dbcommandopenum?branch=master)
 </dt> <dt>
 
 [**DBCOMMANDTREE**](dbcommandtree.md)

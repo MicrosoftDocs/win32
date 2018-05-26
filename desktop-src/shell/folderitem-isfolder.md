@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates if the item is a folder.'
-ms.assetid: 'fb080c8f-04b1-4f9a-9219-0951a2e950ea'
-title: 'FolderItem.IsFolder property'
+---
+Description: Indicates if the item is a folder.
+ms.assetid: fb080c8f-04b1-4f9a-9219-0951a2e950ea
+title: FolderItem.IsFolder property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItem.IsFolder property

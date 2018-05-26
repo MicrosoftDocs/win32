@@ -1,14 +1,20 @@
 ---
 title: SceneButtonTFXToken element
 description: Specifies the globally unique identifier (GUID) of the scene button style to be used by this menu style.
-ms.assetid: '42585a4a-e45a-49dd-ac0c-6c4bbc1076dd'
-keywords: ["SceneButtonTFXToken element Windows Movie Maker and DVD Maker"]
+ms.assetid: 42585a4a-e45a-49dd-ac0c-6c4bbc1076dd
+keywords:
+- SceneButtonTFXToken element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - SceneButtonTFXToken
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SceneButtonTFXToken element
@@ -59,7 +65,7 @@ In addition, some media nodes are referenced as follows:
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -71,9 +77,9 @@ In addition, some media nodes are referenced as follows:
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

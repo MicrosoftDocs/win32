@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetEnumObject method enumerates the bidi requests in a list.'
-ms.assetid: '1aa7b934-c56b-4bfb-800e-950e1dbd5ba3'
-title: 'IBidiRequestContainer::GetEnumObject method'
+---
+Description: The GetEnumObject method enumerates the bidi requests in a list.
+ms.assetid: 1aa7b934-c56b-4bfb-800e-950e1dbd5ba3
+title: IBidiRequestContainerGetEnumObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiRequestContainer::GetEnumObject method

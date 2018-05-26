@@ -1,29 +1,37 @@
 ---
 title: IWMPEvents4 SyncEstimationComplete method
 description: The SyncEstimationComplete event occurs when a size estimation, previously initiated by IWMPSyncDevice3 estimateSyncSize, is complete.
-ms.assetid: '2fb45a13-d82b-48b6-b9bb-46409f33a33f'
-keywords: ["SyncEstimationComplete method Windows Media Player", "SyncEstimationComplete method Windows Media Player , IWMPEvents4 interface", "IWMPEvents4 interface Windows Media Player , SyncEstimationComplete method"]
+ms.assetid: 2fb45a13-d82b-48b6-b9bb-46409f33a33f
+keywords:
+- SyncEstimationComplete method Windows Media Player
+- SyncEstimationComplete method Windows Media Player , IWMPEvents4 interface
+- IWMPEvents4 interface Windows Media Player , SyncEstimationComplete method
 topic_type:
 - apiref
 api_name:
 - IWMPEvents4.SyncEstimationComplete
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPEvents4::SyncEstimationComplete method
 
-The **SyncEstimationComplete** event occurs when a size estimation, previously initiated by [**IWMPSyncDevice3::estimateSyncSize**](iwmpsyncdevice3-estimatesyncsize.md), is complete.
+The **SyncEstimationComplete** event occurs when a size estimation, previously initiated by [**IWMPSyncDevice3::estimateSyncSize**](/windows/win32/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize?branch=master), is complete.
 
 ## Syntax
 
 
 ```C++
 void SyncEstimationComplete(
-  [in] IWMPSyncDevice *pDevice,
-  [in] long           hrResult,
-  [in] long           lEstimatedUsedSpace,
-  [in] long           lEstimatedSize
+  [in] IWMPSyncDevice *pDevice,
+  [in] long           hrResult,
+  [in] long           lEstimatedUsedSpace,
+  [in] long           lEstimatedSize
 );
 ```
 
@@ -36,7 +44,7 @@ void SyncEstimationComplete(
 *pDevice* \[in\]
 </dt> <dd>
 
-Pointer to the [**IWMPSyncDevice**](iwmpsyncdevice.md) interface that represents the device for which the size estimation was initiated.
+Pointer to the [**IWMPSyncDevice**](/windows/win32/wmp/nn-wmp-iwmpsyncdevice?branch=master) interface that represents the device for which the size estimation was initiated.
 
 </dd> <dt>
 
@@ -54,7 +62,7 @@ A value that indicates the success or failure of the estimation.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,15 +88,15 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**IWMPEvents4 Interface**](iwmpevents4.md)
+[**IWMPEvents4 Interface**](/windows/win32/wmp/nn-wmp-iwmpevents4?branch=master)
 </dt> <dt>
 
-[**IWMPSyncDevice3::estimateSyncSize**](iwmpsyncdevice3-estimatesyncsize.md)
+[**IWMPSyncDevice3::estimateSyncSize**](/windows/win32/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

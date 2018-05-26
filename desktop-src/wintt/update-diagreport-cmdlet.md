@@ -1,7 +1,12 @@
 ---
 title: Update-DiagReport Cmdlet
 description: Adds a custom section to the troubleshooting report.
-ms.assetid: 'ec10b88c-cfb1-460a-aa84-df1ec6d88fb2'
+ms.assetid: ec10b88c-cfb1-460a-aa84-df1ec6d88fb2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Update-DiagReport Cmdlet
@@ -43,7 +48,7 @@ Note that this parameter and the File parameter are mutually exclusive.
 
 
 
- 
+ 
 
 ### -File *String*
 
@@ -66,7 +71,7 @@ Note that this parameter and the Xml parameter are mutually exclusive.
 
 
 
- 
+ 
 
 ### -Id *String*
 
@@ -85,7 +90,7 @@ A string identifier used to identify this custom section of the report. The iden
 
 
 
- 
+ 
 
 ### -Name *String*
 
@@ -104,7 +109,7 @@ The localized name to use as the title for the section of the report that you ar
 
 
 
- 
+ 
 
 ### -Description *String*
 
@@ -123,7 +128,7 @@ A localized description that describes this section of the report. The descripti
 
 
 
- 
+ 
 
 ### -Verbosity *String*
 
@@ -151,7 +156,7 @@ This parameter also determines the icon to associate with the custom section tha
 
 
 
- 
+ 
 
 ### -RootcauseId *String*
 
@@ -176,7 +181,7 @@ Use this parameter only if status has been or will be reported using the [Update
 
 
 
- 
+ 
 
 ### -RootcauseInstanceId *String*
 
@@ -197,7 +202,7 @@ Use this parameter only if you specify the RootcauseId parameter.
 
 
 
- 
+ 
 
 ## Input and Return Types
 
@@ -210,7 +215,7 @@ The input type is the type of the objects that you can pipe to the cmdlet. The r
 
 
 
- 
+ 
 
 ## Notes
 
@@ -252,17 +257,17 @@ The following example shows how to add additional information to the report usin
 
 The following example shows how to add to the report a link to a file that contains the additional information.
 
-**PS:&gt;Update-DiagReport -File "SampleFile.ext" –Id "Sample\_File" -Name "Sample File"**
+**PS:&gt;Update-DiagReport -File "SampleFile.ext"  Id "Sample\_File" -Name "Sample File"**
 
 ### Example 3
 
 The following example shows how to add additional information to the report using the pipeline. In this case, an array of file name strings are added to the report. This example shows how to add additional information to the report using the Xml parameter. In this case, the Xml parameter is set to a variable that contains a valid XmlDocument object.
 
-**PS:&gt;Update-DiagReport -Xml $events –Id "Application\_Events" -Name "Application Event Log" -Description "All application events with ID 100."**
+**PS:&gt;Update-DiagReport -Xml $events  Id "Application\_Events" -Name "Application Event Log" -Description "All application events with ID 100."**
 
- 
+ 
 
- 
+ 
 
 
 

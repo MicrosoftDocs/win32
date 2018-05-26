@@ -1,13 +1,16 @@
 ---
-Description: 'The following sections describe common issues developers may have with creating a remote WMI connection.'
+Description: The following sections describe common issues developers may have with creating a remote WMI connection.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '328e420b-a859-4ce9-8a31-67150eb0a78f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 328e420b-a859-4ce9-8a31-67150eb0a78f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Troubleshooting a Remote WMI Connection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Troubleshooting a Remote WMI Connection
@@ -98,7 +101,7 @@ Due to network lag issues, the computer is simply not able to respond in time.
 <span id="Resolution"></span><span id="resolution"></span><span id="RESOLUTION"></span>Resolution
 </dt> <dd>
 
-When connecting to WMI through a call to [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md) or [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md), you can set the **wbemConnectFlagUseMaxWait** flag (scripting) or the **WBEM\_FLAG\_CONNECT\_USE\_MAX\_WAIT**in C++ value to 128 (0x80) to impose a two (2) minute time-out on the call.
+When connecting to WMI through a call to [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md) or [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master), you can set the **wbemConnectFlagUseMaxWait** flag (scripting) or the **WBEM\_FLAG\_CONNECT\_USE\_MAX\_WAIT**in C++ value to 128 (0x80) to impose a two (2) minute time-out on the call.
 
 </dd> </dl>
 

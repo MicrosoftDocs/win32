@@ -1,7 +1,12 @@
-﻿---
-Description: 'This article describes how to write a custom presenter for the enhanced video renderer (EVR).'
-ms.assetid: '1135b309-b158-4b70-9f76-5c93d0ad3250'
+---
+Description: This article describes how to write a custom presenter for the enhanced video renderer (EVR).
+ms.assetid: 1135b309-b158-4b70-9f76-5c93d0ad3250
 title: How to Write an EVR Presenter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Write an EVR Presenter
@@ -123,11 +128,11 @@ A presenter is required to implement the following interfaces:
 
 | Interface                                                                | Description                                                                                                                                                         |
 |--------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IMFClockStateSink**](imfclockstatesink.md)                           | Notifies the presenter when the EVR's clock changes state. See [Implementing IMFClockStateSink](#implementing-imfclockstatesink).                                   |
-| [**IMFGetService**](imfgetservice.md)                                   | Provides a way for the application and other components in the pipeline to get interfaces from the presenter.                                                       |
-| [**IMFTopologyServiceLookupClient**](imftopologyservicelookupclient.md) | Enables the presenter to get interfaces from the EVR or the mixer. See [Implementing IMFTopologyServiceLookupClient](#implementing-imftopologyservicelookupclient). |
-| [**IMFVideoDeviceID**](imfvideodeviceid.md)                             | Ensures that the presenter and the mixer use compatible technologies. See [Implementing IMFVideoDeviceID](#implementing-imfvideodeviceid).                          |
-| [**IMFVideoPresenter**](imfvideopresenter.md)                           | Processes messages from the EVR. See [Implementing IMFVideoPresenter](#implementing-imfvideopresenter).                                                             |
+| [**IMFClockStateSink**](/windows/win32/mfidl/nn-mfidl-imfclockstatesink?branch=master)                           | Notifies the presenter when the EVR's clock changes state. See [Implementing IMFClockStateSink](#implementing-imfclockstatesink).                                   |
+| [**IMFGetService**](/windows/win32/mfidl/nn-mfidl-imfgetservice?branch=master)                                   | Provides a way for the application and other components in the pipeline to get interfaces from the presenter.                                                       |
+| [**IMFTopologyServiceLookupClient**](/windows/win32/evr/nn-evr-imftopologyservicelookupclient?branch=master) | Enables the presenter to get interfaces from the EVR or the mixer. See [Implementing IMFTopologyServiceLookupClient](#implementing-imftopologyservicelookupclient). |
+| [**IMFVideoDeviceID**](/windows/win32/evr/nn-evr-imfvideodeviceid?branch=master)                             | Ensures that the presenter and the mixer use compatible technologies. See [Implementing IMFVideoDeviceID](#implementing-imfvideodeviceid).                          |
+| [**IMFVideoPresenter**](/windows/win32/evr/nn-evr-imfvideopresenter?branch=master)                           | Processes messages from the EVR. See [Implementing IMFVideoPresenter](#implementing-imfvideopresenter).                                                             |
 
 
 
@@ -139,22 +144,22 @@ The following interfaces are optional:
 
 | Interface                                                | Description                                                                                                                                                               |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IEVRTrustedVideoPlugin**](ievrtrustedvideoplugin.md) | Enables the presenter to work with protected media. Implement this interface if your presenter is a trusted component designed to work in the protected media path (PMP). |
-| [**IMFRateSupport**](imfratesupport.md)                 | Reports the range of playback rates that the presenter supports. See [Implementing IMFRateSupport](#implementing-imfratesupport).                                         |
-| [**IMFVideoPositionMapper**](imfvideopositionmapper.md) | Maps coordinates on the output video frame to coordinates on the input video frame.                                                                                       |
+| [**IEVRTrustedVideoPlugin**](/windows/win32/evr/nn-evr-ievrtrustedvideoplugin?branch=master) | Enables the presenter to work with protected media. Implement this interface if your presenter is a trusted component designed to work in the protected media path (PMP). |
+| [**IMFRateSupport**](/windows/win32/mfidl/nn-mfidl-imfratesupport?branch=master)                 | Reports the range of playback rates that the presenter supports. See [Implementing IMFRateSupport](#implementing-imfratesupport).                                         |
+| [**IMFVideoPositionMapper**](/windows/win32/evr/nn-evr-imfvideopositionmapper?branch=master) | Maps coordinates on the output video frame to coordinates on the input video frame.                                                                                       |
 | [**IQualProp**](dshow.iqualprop)                         | Reports performance information. The EVR uses this information for quality-control management. This interface is documented in the DirectShow SDK.                        |
 
 
 
  
 
-You can also provide interfaces for the application to communicate with the presenter. The standard presenter implements the [**IMFVideoDisplayControl**](imfvideodisplaycontrol.md) interface for this purpose. You can implement this interface or define your own. The application obtains interfaces from the presenter by calling [**IMFGetService::GetService**](imfgetservice-getservice.md) on the EVR. When the service GUID is **MR\_VIDEO\_RENDER\_SERVICE**, the EVR passes the **GetService** request to the presenter.
+You can also provide interfaces for the application to communicate with the presenter. The standard presenter implements the [**IMFVideoDisplayControl**](/windows/win32/evr/nn-evr-imfvideodisplaycontrol?branch=master) interface for this purpose. You can implement this interface or define your own. The application obtains interfaces from the presenter by calling [**IMFGetService::GetService**](/windows/win32/mfidl/nf-mfidl-imfgetservice-getservice?branch=master) on the EVR. When the service GUID is **MR\_VIDEO\_RENDER\_SERVICE**, the EVR passes the **GetService** request to the presenter.
 
 ### Implementing IMFVideoDeviceID
 
-The [**IMFVideoDeviceID**](imfvideodeviceid.md) interface contains one method, [**GetDeviceID**](imfvideodeviceid-getdeviceid.md), which returns a device GUID. The device GUID ensures that the presenter and the mixer use compatible technologies. If the device GUIDs do not match, the EVR fails to initialize.
+The [**IMFVideoDeviceID**](/windows/win32/evr/nn-evr-imfvideodeviceid?branch=master) interface contains one method, [**GetDeviceID**](/windows/win32/evr/nf-evr-imfvideodeviceid-getdeviceid?branch=master), which returns a device GUID. The device GUID ensures that the presenter and the mixer use compatible technologies. If the device GUIDs do not match, the EVR fails to initialize.
 
-The standard mixer and presenter both use Direct3D 9, with the device GUID equal to **IID\_IDirect3DDevice9**. If you intend to use your custom presenter with the standard mixer, the presenter's device GUID must be **IID\_IDirect3DDevice9**. If you replace both components, you could define a new device GUID. For the remainder of this article, it is assumed that the presenter uses Direct3D 9. Here is the standard implementation of [**GetDeviceID**](imfvideodeviceid-getdeviceid.md):
+The standard mixer and presenter both use Direct3D 9, with the device GUID equal to **IID\_IDirect3DDevice9**. If you intend to use your custom presenter with the standard mixer, the presenter's device GUID must be **IID\_IDirect3DDevice9**. If you replace both components, you could define a new device GUID. For the remainder of this article, it is assumed that the presenter uses Direct3D 9. Here is the standard implementation of [**GetDeviceID**](/windows/win32/evr/nf-evr-imfvideodeviceid-getdeviceid?branch=master):
 
 
 ```C++
@@ -176,24 +181,24 @@ The method should succeed even when the presenter is shut down.
 
 ### Implementing IMFTopologyServiceLookupClient
 
-The [**IMFTopologyServiceLookupClient**](imftopologyservicelookupclient.md) interface enables the presenter to get interface pointers from the EVR and from the mixer as follows:
+The [**IMFTopologyServiceLookupClient**](/windows/win32/evr/nn-evr-imftopologyservicelookupclient?branch=master) interface enables the presenter to get interface pointers from the EVR and from the mixer as follows:
 
-1.  When the EVR initializes the presenter, it calls the presenter's [**IMFTopologyServiceLookupClient::InitServicePointers**](imftopologyservicelookupclient-initservicepointers.md) method. The argument is a pointer to the EVR's [**IMFTopologyServiceLookup**](imftopologyservicelookup.md) interface.
-2.  The presenter calls [**IMFTopologyServiceLookup::LookupService**](imftopologyservicelookup-lookupservice.md) to get interface pointers from either the EVR or the mixer.
+1.  When the EVR initializes the presenter, it calls the presenter's [**IMFTopologyServiceLookupClient::InitServicePointers**](/windows/win32/evr/nf-evr-imftopologyservicelookupclient-initservicepointers?branch=master) method. The argument is a pointer to the EVR's [**IMFTopologyServiceLookup**](/windows/win32/evr/nn-evr-imftopologyservicelookup?branch=master) interface.
+2.  The presenter calls [**IMFTopologyServiceLookup::LookupService**](/windows/win32/evr/nf-evr-imftopologyservicelookup-lookupservice?branch=master) to get interface pointers from either the EVR or the mixer.
 
-The [**LookupService**](imftopologyservicelookup-lookupservice.md) method is similar to the [**IMFGetService::GetService**](imfgetservice-getservice.md) method. Both methods take a service GUID and an interface identifier (IID) as input, but **LookupService** returns an array of interface pointers, while **GetService** returns a single pointer. In practice, however, you can always set the array size to 1. The object queried depends on the service GUID:
+The [**LookupService**](/windows/win32/evr/nf-evr-imftopologyservicelookup-lookupservice?branch=master) method is similar to the [**IMFGetService::GetService**](/windows/win32/mfidl/nf-mfidl-imfgetservice-getservice?branch=master) method. Both methods take a service GUID and an interface identifier (IID) as input, but **LookupService** returns an array of interface pointers, while **GetService** returns a single pointer. In practice, however, you can always set the array size to 1. The object queried depends on the service GUID:
 
 -   If the service GUID is **MR\_VIDEO\_RENDER\_SERVICE**, the EVR is queried.
 -   If the service GUID is **MR\_VIDEO\_MIXER\_SERVICE**, the mixer is queried.
 
-In your implementation of [**InitServicePointers**](imftopologyservicelookupclient-initservicepointers.md), get the following interfaces from the EVR:
+In your implementation of [**InitServicePointers**](/windows/win32/evr/nf-evr-imftopologyservicelookupclient-initservicepointers?branch=master), get the following interfaces from the EVR:
 
 
 
 | EVR Interface                                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IMediaEventSink**](dshow.imediaeventsink) | Provides a way for the presenter to send messages to the EVR. This interface is defined in the DirectShow SDK, so the messages follow the pattern for DirectShow events, not Media Foundation events.<br/>                                                                                                                                                                                                                                                                                                                                              |
-| [**IMFClock**](imfclock.md)                 | Represents the EVR's clock. The presenter uses this interface to schedule samples for presentation. The EVR can run without a clock, so this interface might not be available. If not, ignore the error code from [**LookupService**](imftopologyservicelookup-lookupservice.md).<br/> The clock also implements the [**IMFTimer**](imftimer.md) interface. In the Media Foundation pipeline, the clock implements the [**IMFPresentationClock**](imfpresentationclock.md) interface. It does not implement this interface in DirectShow.<br/> |
+| [**IMFClock**](/windows/win32/mfidl/nn-mfidl-imfclock?branch=master)                 | Represents the EVR's clock. The presenter uses this interface to schedule samples for presentation. The EVR can run without a clock, so this interface might not be available. If not, ignore the error code from [**LookupService**](/windows/win32/evr/nf-evr-imftopologyservicelookup-lookupservice?branch=master).<br/> The clock also implements the [**IMFTimer**](/windows/win32/mfidl/nn-mfidl-imftimer?branch=master) interface. In the Media Foundation pipeline, the clock implements the [**IMFPresentationClock**](/windows/win32/mfidl/nn-mfidl-imfpresentationclock?branch=master) interface. It does not implement this interface in DirectShow.<br/> |
 
 
 
@@ -205,14 +210,14 @@ Get the following interfaces from the mixer:
 
 | Mixer Interface                              | Description                                                |
 |----------------------------------------------|------------------------------------------------------------|
-| [**IMFTransform**](imftransform.md)         | Enables the presenter to communicate with the mixer.       |
-| [**IMFVideoDeviceID**](imfvideodeviceid.md) | Enables the presenter to validate the mixer's device GUID. |
+| [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)         | Enables the presenter to communicate with the mixer.       |
+| [**IMFVideoDeviceID**](/windows/win32/evr/nn-evr-imfvideodeviceid?branch=master) | Enables the presenter to validate the mixer's device GUID. |
 
 
 
  
 
-The following code implements the [**InitServicePointers**](imftopologyservicelookupclient-initservicepointers.md) method :
+The following code implements the [**InitServicePointers**](/windows/win32/evr/nf-evr-imftopologyservicelookupclient-initservicepointers?branch=master) method :
 
 
 ```C++
@@ -297,7 +302,7 @@ done:
 
 
 
-When the interface pointers obtained from [**LookupService**](imftopologyservicelookup-lookupservice.md) are no longer valid, the EVR calls [**IMFTopologyServiceLookupClient::ReleaseServicePointers**](imftopologyservicelookupclient-releaseservicepointers.md). Inside this method, release all interface pointers and set the presenter state to shut down:
+When the interface pointers obtained from [**LookupService**](/windows/win32/evr/nf-evr-imftopologyservicelookup-lookupservice?branch=master) are no longer valid, the EVR calls [**IMFTopologyServiceLookupClient::ReleaseServicePointers**](/windows/win32/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers?branch=master). Inside this method, release all interface pointers and set the presenter state to shut down:
 
 
 ```C++
@@ -327,31 +332,31 @@ HRESULT EVRCustomPresenter::ReleaseServicePointers()
 
 
 
-The EVR calls [**ReleaseServicePointers**](imftopologyservicelookupclient-releaseservicepointers.md) for various reasons, including:
+The EVR calls [**ReleaseServicePointers**](/windows/win32/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers?branch=master) for various reasons, including:
 
 -   Disconnecting or reconnecting pins (DirectShow), or adding or removing stream sinks (Media Foundation).
 -   Changing format.
 -   Setting a new clock.
 -   Final shutdown of the EVR.
 
-During the lifetime of the presenter, the EVR might call [**InitServicePointers**](imftopologyservicelookupclient-initservicepointers.md) and [**ReleaseServicePointers**](imftopologyservicelookupclient-releaseservicepointers.md) several times.
+During the lifetime of the presenter, the EVR might call [**InitServicePointers**](/windows/win32/evr/nf-evr-imftopologyservicelookupclient-initservicepointers?branch=master) and [**ReleaseServicePointers**](/windows/win32/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers?branch=master) several times.
 
 ### Implementing IMFVideoPresenter
 
-The [**IMFVideoPresenter**](imfvideopresenter.md) interface inherits [**IMFClockStateSink**](imfclockstatesink.md) and adds two methods:
+The [**IMFVideoPresenter**](/windows/win32/evr/nn-evr-imfvideopresenter?branch=master) interface inherits [**IMFClockStateSink**](/windows/win32/mfidl/nn-mfidl-imfclockstatesink?branch=master) and adds two methods:
 
 
 
 | Method                                                               | Description                                            |
 |----------------------------------------------------------------------|--------------------------------------------------------|
-| [**GetCurrentMediaType**](imfvideopresenter-getcurrentmediatype.md) | Returns the media type of the composited video frames. |
-| [**ProcessMessage**](imfvideopresenter-processmessage.md)           | Signals the presenter to perform various actions.      |
+| [**GetCurrentMediaType**](/windows/win32/evr/nf-evr-imfvideopresenter-getcurrentmediatype?branch=master) | Returns the media type of the composited video frames. |
+| [**ProcessMessage**](/windows/win32/evr/nf-evr-imfvideopresenter-processmessage?branch=master)           | Signals the presenter to perform various actions.      |
 
 
 
  
 
-The [**GetCurrentMediaType**](imfvideopresenter-getcurrentmediatype.md) method returns the presenter's media type. (For details about setting the media type, see [Negotiating Formats](#negotiating-formats).) The media type is returned as an [**IMFVideoMediaType**](imfvideomediatype.md) interface pointer. The following example assumes that the presenter stores the media type as an [**IMFMediaType**](imfmediatype.md) pointer. To get the **IMFVideoMediaType** interface from the media type, call **QueryInterface**:
+The [**GetCurrentMediaType**](/windows/win32/evr/nf-evr-imfvideopresenter-getcurrentmediatype?branch=master) method returns the presenter's media type. (For details about setting the media type, see [Negotiating Formats](#negotiating-formats).) The media type is returned as an [**IMFVideoMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfvideomediatype?branch=master) interface pointer. The following example assumes that the presenter stores the media type as an [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) pointer. To get the **IMFVideoMediaType** interface from the media type, call **QueryInterface**:
 
 
 ```C++
@@ -392,7 +397,7 @@ done:
 
 
 
-The [**ProcessMessage**](imfvideopresenter-processmessage.md) method is the primary mechanism for the EVR to communicate with the presenter. The following messages are defined. The details of implementing each message are given in the remainder of this topic.
+The [**ProcessMessage**](/windows/win32/evr/nf-evr-imfvideopresenter-processmessage?branch=master) method is the primary mechanism for the EVR to communicate with the presenter. The following messages are defined. The details of implementing each message are given in the remainder of this topic.
 
 
 
@@ -401,7 +406,7 @@ The [**ProcessMessage**](imfvideopresenter-processmessage.md) method is the prim
 | **MFVP\_MESSAGE\_INVALIDATEMEDIATYPE** | The mixer's output media type is invalid. The presenter should negotiate a new media type with the mixer. See [Negotiating Formats](#negotiating-formats).                                                                                         |
 | **MFVP\_MESSAGE\_BEGINSTREAMING**      | Streaming has started. No particular action is required by this message, but you can use it to allocate resources.                                                                                                                                 |
 | **MFVP\_MESSAGE\_ENDSTREAMING**        | Streaming has ended. Release any resources that you allocated in response to the **MFVP\_MESSAGE\_BEGINSTREAMING** message.                                                                                                                        |
-| **MFVP\_MESSAGE\_PROCESSINPUTNOTIFY**  | The mixer has received a new input sample and might be able to generate a new output frame. The presenter should call [**IMFTransform::ProcessOutput**](imftransform-processoutput.md) on the mixer. See [Processing Output](#processing-output). |
+| **MFVP\_MESSAGE\_PROCESSINPUTNOTIFY**  | The mixer has received a new input sample and might be able to generate a new output frame. The presenter should call [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) on the mixer. See [Processing Output](#processing-output). |
 | **MFVP\_MESSAGE\_ENDOFSTREAM**         | The presentation has ended. See [End of Stream](#end-of-stream).                                                                                                                                                                                   |
 | **MFVP\_MESSAGE\_FLUSH**               | The EVR is flushing the data in its rendering pipeline. The presenter should discard any video frames that are scheduled for presentation.                                                                                                         |
 | **MFVP\_MESSAGE\_STEP**                | Requests the presenter to step forward N frames. The presenter should discard the next N-1 frames and display the Nth frame. See [Frame Stepping](#frame-stepping).                                                                                |
@@ -413,7 +418,7 @@ The [**ProcessMessage**](imfvideopresenter-processmessage.md) method is the prim
 
 ### Implementing IMFClockStateSink
 
-The presenter must implement the [**IMFClockStateSink**](imfclockstatesink.md) interface as part of its implementation of [**IMFVideoPresenter**](imfvideopresenter.md), which inherits **IMFClockStateSink**. The EVR uses this interface to notify the presenter whenever the EVR's clock changes state. For more information about the clock states, see [Presentation Clock](presentation-clock.md).
+The presenter must implement the [**IMFClockStateSink**](/windows/win32/mfidl/nn-mfidl-imfclockstatesink?branch=master) interface as part of its implementation of [**IMFVideoPresenter**](/windows/win32/evr/nn-evr-imfvideopresenter?branch=master), which inherits **IMFClockStateSink**. The EVR uses this interface to notify the presenter whenever the EVR's clock changes state. For more information about the clock states, see [Presentation Clock](presentation-clock.md).
 
 Here are some guidelines for implementing the methods in this interface. All of the methods should fail if the presenter is shut down.
 
@@ -426,7 +431,7 @@ Here are some guidelines for implementing the methods in this interface. All of 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>[<strong>OnClockStart</strong>](imfclockstatesink-onclockstart.md)</td>
+<td>[<strong>OnClockStart</strong>](/windows/win32/mfidl/nf-mfidl-imfclockstatesink-onclockstart?branch=master)</td>
 <td><ol>
 <li>Set the presenter state to started.</li>
 <li>If the <em>llClockStartOffset</em> is not <strong>PRESENTATION_CURRENT_POSITION</strong>, flush the presenter's queue of samples. (This is equivalent to receiving an <strong>MFVP_MESSAGE_FLUSH</strong> message.)</li>
@@ -434,7 +439,7 @@ Here are some guidelines for implementing the methods in this interface. All of 
 </ol></td>
 </tr>
 <tr class="even">
-<td>[<strong>OnClockStop</strong>](imfclockstatesink-onclockstop.md)</td>
+<td>[<strong>OnClockStop</strong>](/windows/win32/mfidl/nf-mfidl-imfclockstatesink-onclockstop?branch=master)</td>
 <td><ol>
 <li>Set the presenter state to stopped.</li>
 <li>Flush the presenter's queue of samples.</li>
@@ -442,15 +447,15 @@ Here are some guidelines for implementing the methods in this interface. All of 
 </ol></td>
 </tr>
 <tr class="odd">
-<td>[<strong>OnClockPause</strong>](imfclockstatesink-onclockpause.md)</td>
+<td>[<strong>OnClockPause</strong>](/windows/win32/mfidl/nf-mfidl-imfclockstatesink-onclockpause?branch=master)</td>
 <td>Set the presenter state to paused.</td>
 </tr>
 <tr class="even">
-<td>[<strong>OnClockRestart</strong>](imfclockstatesink-onclockrestart.md)</td>
-<td>Treat the same as [<strong>OnClockStart</strong>](imfclockstatesink-onclockstart.md) but do not flush the queue of samples.</td>
+<td>[<strong>OnClockRestart</strong>](/windows/win32/mfidl/nf-mfidl-imfclockstatesink-onclockrestart?branch=master)</td>
+<td>Treat the same as [<strong>OnClockStart</strong>](/windows/win32/mfidl/nf-mfidl-imfclockstatesink-onclockstart?branch=master) but do not flush the queue of samples.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>OnClockSetRate</strong>](imfclockstatesink-onclocksetrate.md)</td>
+<td>[<strong>OnClockSetRate</strong>](/windows/win32/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate?branch=master)</td>
 <td><ol>
 <li>If the rate is changing from zero to nonzero, cancel frame stepping.</li>
 <li>Store the new clock rate. The clock rate affects when samples are presented. For more information, see [Scheduling Samples](#scheduling-samples).</li>
@@ -465,21 +470,21 @@ Here are some guidelines for implementing the methods in this interface. All of 
 
 ### Implementing IMFRateSupport
 
-To support playback rates other than 1× speed, the presenter must implement the [**IMFRateSupport**](imfratesupport.md) interface. Here are some guidelines for implementing the methods in this interface. All of the methods should fail after the presenter is shut down. For more information about this interface, see [Rate Control](rate-control.md).
+To support playback rates other than 1× speed, the presenter must implement the [**IMFRateSupport**](/windows/win32/mfidl/nn-mfidl-imfratesupport?branch=master) interface. Here are some guidelines for implementing the methods in this interface. All of the methods should fail after the presenter is shut down. For more information about this interface, see [Rate Control](rate-control.md).
 
 
 
 |                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetSlowestRate**](imfratesupport-getslowestrate.md)   | Return zero to indicate no minimum playback rate.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [**GetFastestRate**](imfratesupport-getfastestrate.md)   | For non-thinned playback, the playback rate should not exceed the refresh rate of the monitor: *maximum rate* = *refresh rate* (Hz) / *video frame rate* (fps). The video frame rate is specified in the presenter's media type. <br/> For thinned playback, the playback rate is unbounded; return the value **FLT\_MAX**. In practice, the source and the decoder will be the limiting factors during thinned playback. <br/> For reverse playback, return the negative of the maximum rate.<br/> |
-| [**IsRateSupported**](imfratesupport-isratesupported.md) | Return **MF\_E\_UNSUPPORTED\_RATE** if the absolute value of *flRate* exceeds the presenter's maximum playback rate. Calculate the maximum playback rate as described for [**GetFastestRate**](imfratesupport-getfastestrate.md).                                                                                                                                                                                                                                                                                    |
+| [**GetSlowestRate**](/windows/win32/mfidl/nf-mfidl-imfratesupport-getslowestrate?branch=master)   | Return zero to indicate no minimum playback rate.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| [**GetFastestRate**](/windows/win32/mfidl/nf-mfidl-imfratesupport-getfastestrate?branch=master)   | For non-thinned playback, the playback rate should not exceed the refresh rate of the monitor: *maximum rate* = *refresh rate* (Hz) / *video frame rate* (fps). The video frame rate is specified in the presenter's media type. <br/> For thinned playback, the playback rate is unbounded; return the value **FLT\_MAX**. In practice, the source and the decoder will be the limiting factors during thinned playback. <br/> For reverse playback, return the negative of the maximum rate.<br/> |
+| [**IsRateSupported**](/windows/win32/mfidl/nf-mfidl-imfratesupport-isratesupported?branch=master) | Return **MF\_E\_UNSUPPORTED\_RATE** if the absolute value of *flRate* exceeds the presenter's maximum playback rate. Calculate the maximum playback rate as described for [**GetFastestRate**](/windows/win32/mfidl/nf-mfidl-imfratesupport-getfastestrate?branch=master).                                                                                                                                                                                                                                                                                    |
 
 
 
  
 
-The following example shows how to implement the [**GetFastestRate**](imfratesupport-getfastestrate.md) method:
+The following example shows how to implement the [**GetFastestRate**](/windows/win32/mfidl/nf-mfidl-imfratesupport-getfastestrate?branch=master) method:
 
 
 ```C++
@@ -517,7 +522,7 @@ float EVRCustomPresenter::GetMaxRate(BOOL bThin)
 
 The previous example calls a helper method, GetMaxRate, to calculate the maximum forward playback rate:
 
-The following example shows how to implement the [**IsRateSupported**](imfratesupport-isratesupported.md) method:
+The following example shows how to implement the [**IsRateSupported**](/windows/win32/mfidl/nf-mfidl-imfratesupport-isratesupported?branch=master) method:
 
 
 ```C++
@@ -572,7 +577,7 @@ done:
 
 ### Sending Events to the EVR
 
-The presenter must notify the EVR of various events. To do so, it uses the EVR's [**IMediaEventSink**](dshow.imediaeventsink) interface, obtained when the EVR calls the presenter's [**IMFTopologyServiceLookupClient::InitServicePointers**](imftopologyservicelookupclient-initservicepointers.md) method. (The **IMediaEventSink** interface is originally a DirectShow interface, but is used in both the DirectShow EVR and the Media Foundation.) The following code shows how to send an event to the EVR:
+The presenter must notify the EVR of various events. To do so, it uses the EVR's [**IMediaEventSink**](dshow.imediaeventsink) interface, obtained when the EVR calls the presenter's [**IMFTopologyServiceLookupClient::InitServicePointers**](/windows/win32/evr/nf-evr-imftopologyservicelookupclient-initservicepointers?branch=master) method. (The **IMediaEventSink** interface is originally a DirectShow interface, but is used in both the DirectShow EVR and the Media Foundation.) The following code shows how to send an event to the EVR:
 
 
 ```C++
@@ -681,7 +686,7 @@ A previous version of the documentation described <em>Param1</em> incorrectly. T
 
 Whenever the presenter receives an **MFVP\_MESSAGE\_INVALIDATEMEDIATYPE** message from the EVR, it must set the output format on the mixer, as follows:
 
-1.  Call [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md) on the mixer to get a possible output type. This type describes a format that the mixer can produce given the input streams and the video processing capabilities of the graphics device.
+1.  Call [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) on the mixer to get a possible output type. This type describes a format that the mixer can produce given the input streams and the video processing capabilities of the graphics device.
 2.  Check whether the presenter can use this media type as its rendering format. Here are some things to check, although your implementation might have its own requirements:
 
     -   The video must be uncompressed.
@@ -697,11 +702,11 @@ Whenever the presenter receives an **MFVP\_MESSAGE\_INVALIDATEMEDIATYPE** messag
     -   Set the [**MF\_MT\_PIXEL\_ASPECT\_RATIO**](mf-mt-pixel-aspect-ratio-attribute.md) attribute equal to the PAR of the display (typically 1:1).
     -   Set the geometric aperture ([**MF\_MT\_GEOMETRIC\_APERTURE**](mf-mt-geometric-aperture-attribute.md) attribute) equal to a rectangle within the Direct3D surface. When the mixer generates an output frame, it blits the source image onto this rectangle. The geometric aperture can be as large as the surface, or it can be a subrectangle within the surface. For more information, see [Source and Destination Rectangles](#source-and-destination-rectangles).
 
-4.  To test whether the mixer will accept the modified output type, call [**IMFTransform::SetOutputType**](imftransform-setoutputtype.md) with the **MFT\_SET\_TYPE\_TEST\_ONLY** flag. If the mixer rejects the type, go back to step 1 and get the next type.
+4.  To test whether the mixer will accept the modified output type, call [**IMFTransform::SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master) with the **MFT\_SET\_TYPE\_TEST\_ONLY** flag. If the mixer rejects the type, go back to step 1 and get the next type.
 5.  Allocate a pool of Direct3D surfaces, as described in [Allocating Direct3D Surfaces](#allocating-direct3d-surfaces). The mixer will use these surfaces when it draws the composited video frames.
-6.  Set the output type on the mixer by calling [**SetOutputType**](imftransform-setoutputtype.md) with no flags. If the first call to **SetOutputType** succeeded in step 4, the method should succeed again.
+6.  Set the output type on the mixer by calling [**SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master) with no flags. If the first call to **SetOutputType** succeeded in step 4, the method should succeed again.
 
-If the mixer runs out of types, the [**GetOutputAvailableType**](imftransform-getoutputavailabletype.md) method returns **MF\_E\_NO\_MORE\_TYPES**. If the presenter cannot find a suitable output type for the mixer, the stream cannot be rendered. In that case, DirectShow or Media Foundation might try another stream format. Therefore, the presenter might receive several **MFVP\_MESSAGE\_INVALIDATEMEDIATYPE** messages in a row until a valid type is found.
+If the mixer runs out of types, the [**GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) method returns **MF\_E\_NO\_MORE\_TYPES**. If the presenter cannot find a suitable output type for the mixer, the stream cannot be rendered. In that case, DirectShow or Media Foundation might try another stream format. Therefore, the presenter might receive several **MFVP\_MESSAGE\_INVALIDATEMEDIATYPE** messages in a row until a valid type is found.
 
 The mixer automatically letterboxes the video, taking into account the pixel aspect ratio (PAR) of the source and destination. For best results, the surface width and height and the geometric aperture should be equal to the actual size that you want the video to appear on the display. The following image illustrates this process.
 
@@ -808,14 +813,14 @@ To set up the Direct3D device, perform the following steps:
 
 1.  Create the Direct3D object by calling **Direct3DCreate9** or **Direct3DCreate9Ex**.
 2.  Create the device by calling **IDirect3D9::CreateDevice** or **IDirect3D9Ex::CreateDevice**.
-3.  Create the device manager by calling [**DXVA2CreateDirect3DDeviceManager9**](dxva2createdirect3ddevicemanager9.md).
-4.  Set the device on the device manager by calling [**IDirect3DDeviceManager9::ResetDevice**](idirect3ddevicemanager9-resetdevice.md).
+3.  Create the device manager by calling [**DXVA2CreateDirect3DDeviceManager9**](/windows/win32/dxva2api/nf-dxva2api-dxva2createdirect3ddevicemanager9?branch=master).
+4.  Set the device on the device manager by calling [**IDirect3DDeviceManager9::ResetDevice**](/windows/win32/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice?branch=master).
 
-If another pipeline component needs the device manager, it calls [**IMFGetService::GetService**](imfgetservice-getservice.md) on the EVR, specifying **MR\_VIDEO\_ACCELERATION\_SERVICE** for the service GUID. The EVR passes the request to the presenter. After the object gets the [**IDirect3DDeviceManager9**](idirect3ddevicemanager9.md) pointer, it can get a handle to the device by calling [**IDirect3DDeviceManager9::OpenDeviceHandle**](idirect3ddevicemanager9-opendevicehandle.md). When the object needs to use the device, it passes the device handle to the [**IDirect3DDeviceManager9::LockDevice**](idirect3ddevicemanager9-lockdevice.md) method, which returns an **IDirect3DDevice9** pointer.
+If another pipeline component needs the device manager, it calls [**IMFGetService::GetService**](/windows/win32/mfidl/nf-mfidl-imfgetservice-getservice?branch=master) on the EVR, specifying **MR\_VIDEO\_ACCELERATION\_SERVICE** for the service GUID. The EVR passes the request to the presenter. After the object gets the [**IDirect3DDeviceManager9**](/windows/win32/dxva2api/nn-dxva2api-idirect3ddevicemanager9?branch=master) pointer, it can get a handle to the device by calling [**IDirect3DDeviceManager9::OpenDeviceHandle**](/windows/win32/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle?branch=master). When the object needs to use the device, it passes the device handle to the [**IDirect3DDeviceManager9::LockDevice**](/windows/win32/dxva2api/nf-dxva2api-idirect3ddevicemanager9-lockdevice?branch=master) method, which returns an **IDirect3DDevice9** pointer.
 
-After the device is created, if the presenter destroys the device and creates a new one, the presenter must call [**ResetDevice**](idirect3ddevicemanager9-resetdevice.md) again. The **ResetDevice** method invalidates any existing device handles, which causes [**LockDevice**](idirect3ddevicemanager9-lockdevice.md) to return **DXVA2\_E\_NEW\_VIDEO\_DEVICE**. This error code signals to other objects using the device that they should open a new device handle. For more information about using the device manager, see [Direct3D Device Manager](direct3d-device-manager.md).
+After the device is created, if the presenter destroys the device and creates a new one, the presenter must call [**ResetDevice**](/windows/win32/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice?branch=master) again. The **ResetDevice** method invalidates any existing device handles, which causes [**LockDevice**](/windows/win32/dxva2api/nf-dxva2api-idirect3ddevicemanager9-lockdevice?branch=master) to return **DXVA2\_E\_NEW\_VIDEO\_DEVICE**. This error code signals to other objects using the device that they should open a new device handle. For more information about using the device manager, see [Direct3D Device Manager](direct3d-device-manager.md).
 
-The presenter can create the device in windowed mode or full-screen exclusive mode. For windowed mode, you should provide a way for the application to specify the video window. The standard presenter implements the [**IMFVideoDisplayControl::SetVideoWindow**](imfvideodisplaycontrol-setvideowindow.md) method for this purpose. You must create the device when the presenter is first created. Typically, you won't know all of the device parameters at this time, such as the window or the back buffer format. You can create a temporary device and replace it later&\#;just remember to call [**ResetDevice**](idirect3ddevicemanager9-resetdevice.md) on the device manager.
+The presenter can create the device in windowed mode or full-screen exclusive mode. For windowed mode, you should provide a way for the application to specify the video window. The standard presenter implements the [**IMFVideoDisplayControl::SetVideoWindow**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-setvideowindow?branch=master) method for this purpose. You must create the device when the presenter is first created. Typically, you won't know all of the device parameters at this time, such as the window or the back buffer format. You can create a temporary device and replace it later&\#;just remember to call [**ResetDevice**](/windows/win32/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice?branch=master) on the device manager.
 
 If you create a new device, or if you call **IDirect3DDevice9::Reset** or **IDirect3DDevice9Ex::ResetEx** on an existing device, send an [**EC\_DISPLAY\_CHANGED**](dshow.ec_display_changed) event to the EVR. This event notifies the EVR to renegotiate the media type. The EVR ignores the event parameters for this event.
 
@@ -834,29 +839,29 @@ First, decide how many swap chains to create. A minimum of three is recommended.
 
 1.  Call **IDirect3DDevice9::CreateAdditionalSwapChain** to create the swap chain.
 2.  Call **IDirect3DSwapChain9::GetBackBuffer** to get a pointer to the swap chain's back buffer surface.
-3.  Call [**MFCreateVideoSampleFromSurface**](mfcreatevideosamplefromsurface.md) and pass in a pointer to the surface. This function returns a pointer to a video sample object. The video sample object implements the [**IMFSample**](imfsample.md) interface, and the presenter uses this interface to deliver the surface to the mixer when the presenter calls the mixer's [**IMFTransform::ProcessOutput**](imftransform-processoutput.md) method. For more information about the video sample object, see [Video Samples](video-samples.md).
-4.  Store the [**IMFSample**](imfsample.md) pointer in a queue. The presenter will pull samples from this queue during processing as described in [Processing Output](#processing-output).
+3.  Call [**MFCreateVideoSampleFromSurface**](/windows/win32/evr/nc-evr-mfcreatevideosamplefromsurface?branch=master) and pass in a pointer to the surface. This function returns a pointer to a video sample object. The video sample object implements the [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) interface, and the presenter uses this interface to deliver the surface to the mixer when the presenter calls the mixer's [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) method. For more information about the video sample object, see [Video Samples](video-samples.md).
+4.  Store the [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) pointer in a queue. The presenter will pull samples from this queue during processing as described in [Processing Output](#processing-output).
 5.  Keep a reference to the **IDirect3DSwapChain9** pointer so the swap chain is not released.
 
 In full-screen exclusive mode, the device cannot have more than one swap chain. This swap chain is created implicitly when you create the full-screen device. The swap chain can have more than one back buffer. Unfortunately, however, if you present one back buffer while you write to another back buffer in the same swap chain, there is no easy way to coordinate the two operations. This is because of the way Direct3D implements surface flipping. When you call Present, the graphics driver updates the surface pointers in graphics memory. If you are holding any **IDirect3DSurface9** pointers when you call **Present**, they will point to different buffers after the **Present** call returns.
 
-The simplest option is to create one video sample for the swap chain. If you choose this option, follow the same steps given for windowed mode. The only difference is that the sample queue contains a single video sample. Another option is to create offscreen surfaces and then blit them to the back buffer. The surfaces that you create must support the [**IDirectXVideoProcessor::VideoProcessBlt**](idirectxvideoprocessor-videoprocessblt.md) method, which the mixer uses to composite the output frames.
+The simplest option is to create one video sample for the swap chain. If you choose this option, follow the same steps given for windowed mode. The only difference is that the sample queue contains a single video sample. Another option is to create offscreen surfaces and then blit them to the back buffer. The surfaces that you create must support the [**IDirectXVideoProcessor::VideoProcessBlt**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt?branch=master) method, which the mixer uses to composite the output frames.
 
 ### Tracking Samples
 
 When the presenter first allocates the video samples, it places them in a queue. The presenter draws from this queue whenever it needs to get a new frame from the mixer. After the mixer outputs the frame, the presenter moves the sample into a second queue. The second queue is for samples that are waiting for their scheduled presentation times.
 
-To make it easier to track the status of each sample, the video sample object implements the [**IMFTrackedSample**](imftrackedsample.md) interface. You can use this interface as follows:
+To make it easier to track the status of each sample, the video sample object implements the [**IMFTrackedSample**](/windows/win32/evr/nn-mfidl-imftrackedsample?branch=master) interface. You can use this interface as follows:
 
-1.  Implement the [**IMFAsyncCallback**](imfasynccallback.md) interface in your presenter.
-2.  Before you place a sample in the scheduled queue, query the video sample object for the [**IMFTrackedSample**](imftrackedsample.md) interface.
+1.  Implement the [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface in your presenter.
+2.  Before you place a sample in the scheduled queue, query the video sample object for the [**IMFTrackedSample**](/windows/win32/evr/nn-mfidl-imftrackedsample?branch=master) interface.
 
-3.  Call [**IMFTrackedSample::SetAllocator**](imftrackedsample-setallocator.md) with a pointer to your callback interface.
+3.  Call [**IMFTrackedSample::SetAllocator**](/windows/win32/evr/nf-mfidl-imftrackedsample-setallocator?branch=master) with a pointer to your callback interface.
 4.  When the sample is ready for presentation, remove it from the scheduled queue, present it, and release all references to the sample.
 5.  The sample invokes the callback. (The sample object is not deleted in this case because it holds a reference count on itself until the callback is invoked.)
 6.  Inside the callback, return the sample to the available queue.
 
-A presenter is not required to use [**IMFTrackedSample**](imftrackedsample.md) to track samples; you can implement any technique that works best for your design. One advantage of **IMFTrackedSample** is that you can move the presenter's scheduling and rendering functions into helper objects, and these objects do not need any special mechanism for calling back to the presenter when they release video samples because the sample object provides that mechanism.
+A presenter is not required to use [**IMFTrackedSample**](/windows/win32/evr/nn-mfidl-imftrackedsample?branch=master) to track samples; you can implement any technique that works best for your design. One advantage of **IMFTrackedSample** is that you can move the presenter's scheduling and rendering functions into helper objects, and these objects do not need any special mechanism for calling back to the presenter when they release video samples because the sample object provides that mechanism.
 
 The following code shows how to set the callback:
 
@@ -880,7 +885,7 @@ HRESULT EVRCustomPresenter::TrackSample(IMFSample *pSample)
 
 
 
-In the callback, call [**IMFAsyncResult::GetObject**](imfasyncresult-getobject.md) on the asynchronous result object to retrieve a pointer to the sample:
+In the callback, call [**IMFAsyncResult::GetObject**](/windows/win32/mfobjects/nf-mfobjects-imfasyncresult-getobject?branch=master) on the asynchronous result object to retrieve a pointer to the sample:
 
 
 ```C++
@@ -969,14 +974,14 @@ done:
 
 ## Processing Output
 
-Whenever the mixer receives a new input sample, the EVR sends an **MFVP\_MESSAGE\_PROCESSINPUTNOTIFY** message to the presenter. This message indicates that the mixer might have a new video frame to deliver. In response, the presenter calls [**IMFTransform::ProcessOutput**](imftransform-processoutput.md) on the mixer. If the method succeeds, the presenter schedules the sample for presentation.
+Whenever the mixer receives a new input sample, the EVR sends an **MFVP\_MESSAGE\_PROCESSINPUTNOTIFY** message to the presenter. This message indicates that the mixer might have a new video frame to deliver. In response, the presenter calls [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) on the mixer. If the method succeeds, the presenter schedules the sample for presentation.
 
 To get output from the mixer, perform the following steps:
 
 1.  Check the clock state. If the clock is paused, ignore the **MFVP\_MESSAGE\_PROCESSINPUTNOTIFY** message unless this is the first video frame. If the clock is running, or if this is the first video frame, continue.
 2.  Get a sample from the queue of available samples. If the queue is empty, it means that all allocated samples are currently scheduled for presenting. In that case, ignore the **MFVP\_MESSAGE\_PROCESSINPUTNOTIFY** message at this time. When the next sample becomes available, repeat the steps listed here.
-3.  (Optional.) If the clock is available, get the current clock time (*T1*) by calling [**IMFClock::GetCorrelatedTime**](imfclock-getcorrelatedtime.md).
-4.  Call [**IMFTransform::ProcessOutput**](imftransform-processoutput.md) on the mixer. If **ProcessOutput** succeeds, the sample contains a video frame. If the method fails, check the return code. The following error codes from **ProcessOutput** are not critical failures:
+3.  (Optional.) If the clock is available, get the current clock time (*T1*) by calling [**IMFClock::GetCorrelatedTime**](/windows/win32/mfidl/nf-mfidl-imfclock-getcorrelatedtime?branch=master).
+4.  Call [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) on the mixer. If **ProcessOutput** succeeds, the sample contains a video frame. If the method fails, check the return code. The following error codes from **ProcessOutput** are not critical failures:
 
     
 
@@ -990,16 +995,16 @@ To get output from the mixer, perform the following steps:
 
      
 
-    If [**ProcessOutput**](imftransform-processoutput.md) succeeds, continue.
+    If [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) succeeds, continue.
 
 5.  (Optional.) If the clock is available, get the current clock time (*T2*). The amount of latency introduced by the mixer is (*T2* - *T1*). Send an **EC\_PROCESSING\_LATENCY** event with this value to the EVR. The EVR uses this value for quality control. If no clock is available, there is no reason to send the **EC\_PROCESSING\_LATENCY** event.
-6.  (Optional.) Query the sample for [**IMFTrackedSample**](imftrackedsample.md) and call [**IMFTrackedSample::SetAllocator**](imftrackedsample-setallocator.md) as described in [Tracking Samples](#tracking-samples).
+6.  (Optional.) Query the sample for [**IMFTrackedSample**](/windows/win32/evr/nn-mfidl-imftrackedsample?branch=master) and call [**IMFTrackedSample::SetAllocator**](/windows/win32/evr/nf-mfidl-imftrackedsample-setallocator?branch=master) as described in [Tracking Samples](#tracking-samples).
 7.  Schedule the sample for presentation.
 
 This sequence of steps can terminate before the presenter gets any output from the mixer. To ensure that no requests are dropped, you should repeat the same steps when the following occur:
 
--   The presenter's [**IMFClockStateSink::OnClockStart**](imfclockstatesink-onclockstart.md) or **IMFClockStateSink::OnClockStart** method is called. This handles the case where the mixer ignores input because the clock is paused (step 1).
--   The [**IMFTrackedSample**](imftrackedsample.md) callback is invoked. This handles the case where the mixer receives input but all of the presenter's video samples are in use (step 2).
+-   The presenter's [**IMFClockStateSink::OnClockStart**](/windows/win32/mfidl/nf-mfidl-imfclockstatesink-onclockstart?branch=master) or **IMFClockStateSink::OnClockStart** method is called. This handles the case where the mixer ignores input because the clock is paused (step 1).
+-   The [**IMFTrackedSample**](/windows/win32/evr/nn-mfidl-imftrackedsample?branch=master) callback is invoked. This handles the case where the mixer receives input but all of the presenter's video samples are in use (step 2).
 
 The next several code examples show these steps in more detail. The presenter calls the `ProcessInputNotify` method (shown in the following example) when it gets the **MFVP\_MESSAGE\_PROCESSINPUTNOTIFY** message.
 
@@ -1256,22 +1261,22 @@ done:
 Some remarks about this example:
 
 -   The *m\_SamplePool* variable is assumed to be a collection object that holds the queue of available video samples. The object's `GetSample` method returns **MF\_E\_SAMPLEALLOCATOR\_EMPTY** if the queue is empty.
--   If the mixer's [**ProcessOutput**](imftransform-processoutput.md) method returns MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT, it means the mixer cannot produce any more output, so the presenter clears the *m\_fSampleNotify* flag.
--   The `TrackSample` method, which sets the [**IMFTrackedSample**](imftrackedsample.md) callback, is shown in the section [Tracking Samples](#tracking-samples).
+-   If the mixer's [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) method returns MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT, it means the mixer cannot produce any more output, so the presenter clears the *m\_fSampleNotify* flag.
+-   The `TrackSample` method, which sets the [**IMFTrackedSample**](/windows/win32/evr/nn-mfidl-imftrackedsample?branch=master) callback, is shown in the section [Tracking Samples](#tracking-samples).
 
 ### Repainting Frames
 
 Occasionally the presenter might need to repaint the most recent video frame. For example, the standard presenter repaints the frame in the following situations:
 
--   In windowed mode, in response to **WM\_PAINT** messages received by the application's window. See [**IMFVideoDisplayControl::RepaintVideo**](imfvideodisplaycontrol-repaintvideo.md).
--   If the destination rectangle changes when the application calls [**IMFVideoDisplayControl::SetVideoPosition**](imfvideodisplaycontrol-setvideoposition.md).
+-   In windowed mode, in response to **WM\_PAINT** messages received by the application's window. See [**IMFVideoDisplayControl::RepaintVideo**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-repaintvideo?branch=master).
+-   If the destination rectangle changes when the application calls [**IMFVideoDisplayControl::SetVideoPosition**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-setvideoposition?branch=master).
 
 Use the following steps to request the mixer to re-create the most recent frame:
 
 1.  Get a video sample from the queue.
-2.  Query the sample for the [**IMFDesiredSample**](imfdesiredsample.md) interface.
-3.  Call [**IMFDesiredSample::SetDesiredSampleTimeAndDuration**](imfdesiredsample-setdesiredsampletimeandduration.md). Specify the time stamp of the most recent video frame. (You will need to cache this value and update it for each frame.)
-4.  Call [**ProcessOutput**](imftransform-processoutput.md) on the mixer.
+2.  Query the sample for the [**IMFDesiredSample**](/windows/win32/evr/nn-evr-imfdesiredsample?branch=master) interface.
+3.  Call [**IMFDesiredSample::SetDesiredSampleTimeAndDuration**](/windows/win32/evr/nf-evr-imfdesiredsample-setdesiredsampletimeandduration?branch=master). Specify the time stamp of the most recent video frame. (You will need to cache this value and update it for each frame.)
+4.  Call [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) on the mixer.
 
 When repainting a frame, you can ignore the presentation clock and present the frame immediately.
 
@@ -1283,13 +1288,13 @@ Video frames can reach the EVR at any time. The presenter is responsible for pre
 -   Keep the sample on the queue because it is early.
 -   Discard the sample because it is late. Although you should avoid dropping frames if possible, you might need to if the presenter is continually falling behind.
 
-To get the time stamp for a video frame, call [**IMFSample::GetSampleTime**](imfsample-getsampletime.md) on the video sample. The time stamp is relative to the EVR's presentation clock. To get the current clock time, call [**IMFClock::GetCorrelatedTime**](imfclock-getcorrelatedtime.md). If the EVR does not have a presentation clock, or if a sample does not have a time stamp, you can present the sample immediately after you get it.
+To get the time stamp for a video frame, call [**IMFSample::GetSampleTime**](/windows/win32/mfobjects/nf-mfobjects-imfsample-getsampletime?branch=master) on the video sample. The time stamp is relative to the EVR's presentation clock. To get the current clock time, call [**IMFClock::GetCorrelatedTime**](/windows/win32/mfidl/nf-mfidl-imfclock-getcorrelatedtime?branch=master). If the EVR does not have a presentation clock, or if a sample does not have a time stamp, you can present the sample immediately after you get it.
 
-To get the duration of each sample, call [**IMFSample::GetSampleDuration**](imfsample-getsampleduration.md). If the sample does not have a duration, you can use the [**MFFrameRateToAverageTimePerFrame**](mfframeratetoaveragetimeperframe.md) function to calculate the duration from the frame rate.
+To get the duration of each sample, call [**IMFSample::GetSampleDuration**](/windows/win32/mfobjects/nf-mfobjects-imfsample-getsampleduration?branch=master). If the sample does not have a duration, you can use the [**MFFrameRateToAverageTimePerFrame**](/windows/win32/mfapi/nf-mfapi-mfframeratetoaveragetimeperframe?branch=master) function to calculate the duration from the frame rate.
 
 When you schedule samples, keep in mind the following:
 
--   If the playback rate is faster or slower than normal speed, the clock runs at a faster or slower rate. That means the time stamp on a sample always gives the correct target time relative to the presentation clock. However, if you translate presentation times into some other clock time (for example, the high-resolution performace counter), then you must scale the times based on the clock speed. If the clock speed changes, the EVR calls the presenter's [**IMFClockStateSink::OnClockSetRate**](imfclockstatesink-onclocksetrate.md) method.
+-   If the playback rate is faster or slower than normal speed, the clock runs at a faster or slower rate. That means the time stamp on a sample always gives the correct target time relative to the presentation clock. However, if you translate presentation times into some other clock time (for example, the high-resolution performace counter), then you must scale the times based on the clock speed. If the clock speed changes, the EVR calls the presenter's [**IMFClockStateSink::OnClockSetRate**](/windows/win32/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate?branch=master) method.
 -   The playback rate can be negative for reverse playback. When the playback rate is negative, the presentation clock runs backward. In other words, time *N* + 1 occurs before time *N*.
 
 The following example calculates how early or late a sample is, relative to the presentation clock:
@@ -1342,9 +1347,9 @@ The following functions can help you get accurate timing information:
 
 This section assumes that you created a separate swap chain for each surface as described in [Allocating Direct3D Surfaces](#allocating-direct3d-surfaces). To present a sample, get the swap chain from the video sample as follows:
 
-1.  Call [**IMFSample::GetBufferByIndex**](imfsample-getbufferbyindex.md) on the video sample to get the buffer.
-2.  Query the buffer for the [**IMFGetService**](imfgetservice.md) interface.
-3.  Call [**IMFGetService::GetService**](imfgetservice-getservice.md) to get the **IDirect3DSurface9** interface of the Direct3D surface. (You can combine this step and the previous step into one by calling [**MFGetService**](mfgetservice.md).)
+1.  Call [**IMFSample::GetBufferByIndex**](/windows/win32/mfobjects/nf-mfobjects-imfsample-getbufferbyindex?branch=master) on the video sample to get the buffer.
+2.  Query the buffer for the [**IMFGetService**](/windows/win32/mfidl/nn-mfidl-imfgetservice?branch=master) interface.
+3.  Call [**IMFGetService::GetService**](/windows/win32/mfidl/nf-mfidl-imfgetservice-getservice?branch=master) to get the **IDirect3DSurface9** interface of the Direct3D surface. (You can combine this step and the previous step into one by calling [**MFGetService**](/windows/win32/mfidl/nf-mfidl-mfgetservice?branch=master).)
 4.  Call **IDirect3DSurface9::GetContainer** on the surface to get a pointer to the swap chain.
 5.  Call **IDirect3DSwapChain9::Present** on the swap chain.
 
@@ -1438,7 +1443,7 @@ done:
 
 ### Source and Destination Rectangles
 
-The *source rectangle* is the portion of the video frame to display. It is defined relative to a normalized coordinate system, in which the entire video frame occupies a rectangle with coordinates {0, 0, 1, 1}. The *destination rectangle* is the area within the destination surface where the video frame is drawn. The standard presenter enables an application to set these rectangles by calling [**IMFVideoDisplayControl::SetVideoPosition**](imfvideodisplaycontrol-setvideoposition.md).
+The *source rectangle* is the portion of the video frame to display. It is defined relative to a normalized coordinate system, in which the entire video frame occupies a rectangle with coordinates {0, 0, 1, 1}. The *destination rectangle* is the area within the destination surface where the video frame is drawn. The standard presenter enables an application to set these rectangles by calling [**IMFVideoDisplayControl::SetVideoPosition**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-setvideoposition?branch=master).
 
 There are several options for applying source and destination rectangles. The first option is to let the mixer apply them:
 
@@ -1492,7 +1497,7 @@ This method checks the following states:
 -   The *m\_fEndStreaming* variable is a Boolean flag whose initial value **FALSE**. The presenter sets the flag to **TRUE** when the EVR sends the **MFVP\_MESSAGE\_ENDOFSTREAM** message.
 -   The `AreSamplesPending` method is assumed to return **TRUE** as long as one or more frames are waiting in the scheduled queue.
 
-In the [**IMFVideoPresenter::ProcessMessage**](imfvideopresenter-processmessage.md) method, set *m\_fEndStreaming* to **TRUE** and call `CheckEndOfStream` when the EVR sends the **MFVP\_MESSAGE\_ENDOFSTREAM** message:
+In the [**IMFVideoPresenter::ProcessMessage**](/windows/win32/evr/nf-evr-imfvideopresenter-processmessage?branch=master) method, set *m\_fEndStreaming* to **TRUE** and call `CheckEndOfStream` when the EVR sends the **MFVP\_MESSAGE\_ENDOFSTREAM** message:
 
 
 ```C++
@@ -1569,7 +1574,7 @@ done:
 
 
 
-In addition, call `CheckEndOfStream` if the mixer's [**IMFTransform::ProcessOutput**](imftransform-processoutput.md) method returns **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT**. This error code indicates that the mixer has no more input samples (see [Processing Output](#processing-output)).
+In addition, call `CheckEndOfStream` if the mixer's [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) method returns **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT**. This error code indicates that the mixer has no more input samples (see [Processing Output](#processing-output)).
 
 ## Frame Stepping
 
@@ -1582,8 +1587,8 @@ Frame stepping in DirectShow works as follows:
 
 Scrubbing in Media Foundation works as follows:
 
--   The application sets the playback rate to zero by calling [**IMFRateControl::SetRate**](imfratecontrol-setrate.md).
--   To render a new frame, the application calls [**IMFMediaSession::Start**](imfmediasession-start.md) with the desired position. The EVR sends an **MFVP\_MESSAGE\_STEP** message with *ulParam* equal to 1.
+-   The application sets the playback rate to zero by calling [**IMFRateControl::SetRate**](/windows/win32/mfidl/nf-mfidl-imfratecontrol-setrate?branch=master).
+-   To render a new frame, the application calls [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master) with the desired position. The EVR sends an **MFVP\_MESSAGE\_STEP** message with *ulParam* equal to 1.
 -   To stop scrubbing, the application sets the playback rate to a nonzero value. The EVR sends the **MFVP\_MESSAGE\_CANCELSTEP** message.
 
 After receiving the **MFVP\_MESSAGE\_STEP** message, the presenter waits for the target frame to arrive. If the number of steps is *N*, the presenter discards the next (*N* - 1) samples and presents the *N* th sample. When the presenter completes the frame step, it sends an [**EC\_STEP\_COMPLETE**](dshow.ec_step_complete) event to the EVR with *lParam1* set to **FALSE**. In addition, if the playback rate is zero, the presenter sends an [**EC\_SCRUB\_TIME**](dshow.ec_scrub_time) event. If the EVR cancels frame stepping while a frame-step operation is still pending, the presenter sends an **EC\_STEP\_COMPLETE** event with *lParam1* set to **TRUE**.
@@ -1595,7 +1600,7 @@ The application can frame step or scrub multiple times, so the presenter might r
 This section describes an algorithm to implement frame stepping. The frame stepping algorithm uses the following variables:
 
 -   *step\_count*. An unsigned integer that specifies the number of steps in the current frame stepping operation.
--   *step\_queue*. A queue of [**IMFSample**](imfsample.md) pointers.
+-   *step\_queue*. A queue of [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) pointers.
 -   *step\_state*. At any time, the presenter can be in one of the following states with respect to frame stepping: 
 
     | State         | Description                                                                                                                                                                                                     |
@@ -1655,11 +1660,11 @@ Call these procedures as follows:
 |-------------------------------------------------------------------------------|---------------------|
 | **MFVP\_MESSAGE\_STEP** message                                               | `PrepareFrameStep`  |
 | **MFVP\_MESSAGE\_STEP** message                                               | `CancelStep`        |
-| [**IMFClockStateSink::OnClockStart**](imfclockstatesink-onclockstart.md)     | `StartFrameStep`    |
-| [**IMFClockStateSink::OnClockRestart**](imfclockstatesink-onclockrestart.md) | `StartFrameStep`    |
-| [**IMFTrackedSample**](imftrackedsample.md) callback                         | `CompleteFrameStep` |
-| [**IMFClockStateSink::OnClockStop**](imfclockstatesink-onclockstop.md)       | `CancelFrameStep`   |
-| [**IMFClockStateSink::OnClockSetRate**](imfclockstatesink-onclocksetrate.md) | `CancelFrameStep`   |
+| [**IMFClockStateSink::OnClockStart**](/windows/win32/mfidl/nf-mfidl-imfclockstatesink-onclockstart?branch=master)     | `StartFrameStep`    |
+| [**IMFClockStateSink::OnClockRestart**](/windows/win32/mfidl/nf-mfidl-imfclockstatesink-onclockrestart?branch=master) | `StartFrameStep`    |
+| [**IMFTrackedSample**](/windows/win32/evr/nn-mfidl-imftrackedsample?branch=master) callback                         | `CompleteFrameStep` |
+| [**IMFClockStateSink::OnClockStop**](/windows/win32/mfidl/nf-mfidl-imfclockstatesink-onclockstop?branch=master)       | `CancelFrameStep`   |
+| [**IMFClockStateSink::OnClockSetRate**](/windows/win32/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate?branch=master) | `CancelFrameStep`   |
 
 
 
@@ -1680,8 +1685,8 @@ In a DirectShow application, set the presenter on the EVR as follows:
 1.  Create the EVR filter by calling **CoCreateInstance**. The CLSID is **CLSID\_EnhancedVideoRenderer**.
 2.  Add the EVR to the filter graph.
 3.  Create an instance of your presenter. Your presenter can support standard COM object creation through **IClassFactory**, but this is not mandatory.
-4.  Query the EVR filter for the [**IMFVideoRenderer**](imfvideorenderer.md) interface.
-5.  Call [**IMFVideoRenderer::InitializeRenderer**](imfvideorenderer-initializerenderer.md).
+4.  Query the EVR filter for the [**IMFVideoRenderer**](/windows/win32/evr/nn-evr-imfvideorenderer?branch=master) interface.
+5.  Call [**IMFVideoRenderer::InitializeRenderer**](/windows/win32/evr/nf-evr-imfvideorenderer-initializerenderer?branch=master).
 
 ### Setting the Presenter in Media Foundation
 
@@ -1689,19 +1694,19 @@ In Media Foundation, you have several options, depending on whether you create t
 
 For the EVR media sink, do the following:
 
-1.  Call [**MFCreateVideoRenderer**](mfcreatevideorenderer.md) to create the media sink.
+1.  Call [**MFCreateVideoRenderer**](/windows/win32/evr/nc-evr-mfcreatevideorenderer?branch=master) to create the media sink.
 2.  Create an instance of your presenter.
-3.  Query the EVR media sink for the [**IMFVideoRenderer**](imfvideorenderer.md) interface.
-4.  Call [**IMFVideoRenderer::InitializeRenderer**](imfvideorenderer-initializerenderer.md).
+3.  Query the EVR media sink for the [**IMFVideoRenderer**](/windows/win32/evr/nn-evr-imfvideorenderer?branch=master) interface.
+4.  Call [**IMFVideoRenderer::InitializeRenderer**](/windows/win32/evr/nf-evr-imfvideorenderer-initializerenderer?branch=master).
 
 For the EVR activation object, do the following:
 
-1.  Call [**MFCreateVideoRendererActivate**](mfcreatevideorendereractivate.md) to create the activation object.
+1.  Call [**MFCreateVideoRendererActivate**](/windows/win32/mfidl/nf-mfidl-mfcreatevideorendereractivate?branch=master) to create the activation object.
 2.  Set one of the following attributes on the activation object: 
 
     | Attribute                                                                                                         | Description                                                                                                                                                                                                                               |
     |-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | [**MF\_ACTIVATE\_CUSTOM\_VIDEO\_PRESENTER\_ACTIVATE**](mf-activate-custom-video-presenter-activate-attribute.md) | Pointer to an activation object for the presenter.<br/> With this flag, you must provide an activation object for your presenter. The activation object must implement the [**IMFActivate**](imfactivate.md) interface.<br/> |
+    | [**MF\_ACTIVATE\_CUSTOM\_VIDEO\_PRESENTER\_ACTIVATE**](mf-activate-custom-video-presenter-activate-attribute.md) | Pointer to an activation object for the presenter.<br/> With this flag, you must provide an activation object for your presenter. The activation object must implement the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) interface.<br/> |
     | [**MF\_ACTIVATE\_CUSTOM\_VIDEO\_PRESENTER\_CLSID**](mf-activate-custom-video-presenter-clsid-attribute.md)       | CLSID of the presenter.<br/> With this flag, your presenter must support standard COM object creation through **IClassFactory**.<br/>                                                                                         |
 
     

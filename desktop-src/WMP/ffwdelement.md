@@ -1,14 +1,20 @@
 ---
 title: FFWDELEMENT
 description: This is a predefined BUTTONELEMENT with the following default values.
-ms.assetid: '2745d960-9d86-42de-96cb-b9d14138d14e'
-keywords: ["FFWDELEMENT Windows Media Player"]
+ms.assetid: 2745d960-9d86-42de-96cb-b9d14138d14e
+keywords:
+- FFWDELEMENT Windows Media Player
 topic_type:
 - apiref
 api_name:
 - FFWDELEMENT
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FFWDELEMENT
@@ -43,9 +49,9 @@ All properties of this **BUTTONELEMENT** can be overridden by explicitly specify
 [**BUTTONELEMENT Element**](buttonelement-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

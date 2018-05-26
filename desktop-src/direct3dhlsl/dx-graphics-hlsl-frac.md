@@ -1,14 +1,20 @@
 ---
 title: frac
 description: Returns the fractional (or decimal) part of x; which is greater than or equal to 0 and less than 1.
-ms.assetid: '4e85390f-2b1a-402b-b932-09b80097f7e6'
-keywords: ["frac HLSL"]
+ms.assetid: 4e85390f-2b1a-402b-b932-09b80097f7e6
+keywords:
+- frac HLSL
 topic_type:
 - apiref
 api_name:
 - frac
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # frac
@@ -22,7 +28,7 @@ Returns the fractional (or decimal) part of x; which is greater than or equal to
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the fractional (or decimal) part of x; which is greater than or equal to
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The fractional part of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

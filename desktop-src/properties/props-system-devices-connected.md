@@ -1,7 +1,12 @@
 ---
-Description: 'Device connection state.'
-ms.assetid: '33c0aeed-3b68-4cdc-befe-4df3b1e6f2a3'
-title: 'System.Devices.Connected'
+Description: Device connection state.
+ms.assetid: 33c0aeed-3b68-4cdc-befe-4df3b1e6f2a3
+title: System.Devices.Connected
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Connected

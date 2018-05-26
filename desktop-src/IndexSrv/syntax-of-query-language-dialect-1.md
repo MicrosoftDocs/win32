@@ -1,7 +1,12 @@
 ---
 title: Syntax of Query Language Dialect 1
 description: Syntax of Query Language Dialect 1
-ms.assetid: 'b204520a-d6ff-4436-bb9a-0989114f973c'
+ms.assetid: b204520a-d6ff-4436-bb9a-0989114f973c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Syntax of Query Language Dialect 1

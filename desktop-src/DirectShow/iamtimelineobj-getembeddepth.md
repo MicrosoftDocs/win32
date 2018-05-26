@@ -1,7 +1,12 @@
-﻿---
-Description: 'Not supported.'
-ms.assetid: '1b9d0c78-ced9-496b-89c3-fc205b37d894'
-title: 'IAMTimelineObj::GetEmbedDepth method'
+---
+Description: Not supported.
+ms.assetid: 1b9d0c78-ced9-496b-89c3-fc205b37d894
+title: IAMTimelineObjGetEmbedDepth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::GetEmbedDepth method

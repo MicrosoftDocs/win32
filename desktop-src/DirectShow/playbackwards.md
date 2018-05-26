@@ -1,7 +1,12 @@
 ---
-Description: 'The PlayBackwards event is sent when the PlayBackwards command has been enabled or disabled.'
-ms.assetid: 'd195956b-a4e5-493f-a804-9095e3bba4e2'
+Description: The PlayBackwards event is sent when the PlayBackwards command has been enabled or disabled.
+ms.assetid: d195956b-a4e5-493f-a804-9095e3bba4e2
 title: PlayBackwards
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayBackwards

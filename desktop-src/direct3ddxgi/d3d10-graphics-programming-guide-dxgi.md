@@ -1,12 +1,17 @@
 ---
-Description: 'This topic contains the following sections.'
-ms.assetid: '0522ccbf-e754-470a-8199-004fcbaa927d'
+Description: This topic contains the following sections.
+ms.assetid: 0522ccbf-e754-470a-8199-004fcbaa927d
 title: DXGI Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXGI Overview
 
-Microsoft DirectX Graphics Infrastructure (DXGI) recognizes that some parts of graphics evolve more slowly than others. The primary goal of DXGI is to manage low-level tasks that can be independent of the DirectX graphics runtime. DXGI provides a common framework for future graphics components; the first component that takes advantage of DXGI is Microsoft Direct3D 10.
+Microsoft DirectX Graphics Infrastructure (DXGI) recognizes that some parts of graphics evolve more slowly than others. The primary goal of DXGI is to manage low-level tasks that can be independent of the DirectX graphics runtime. DXGI provides a common framework for future graphics components; the first component that takes advantage of DXGI is Microsoft Direct3D 10.
 
 In previous versions of Direct3D, low-level tasks like enumeration of hardware devices, presenting rendered frames to an output, controlling gamma, and managing a full-screen transition were included in the Direct3D runtime. These tasks are now implemented in DXGI.
 
@@ -19,7 +24,7 @@ An application can access DXGI directly, or call the Direct3D APIs in D3D11\_1.h
 This topic contains the following sections.
 
 -   [Enumerating Adapters](#enumerating-adapters)
-    -   [New info about enumerating adapters for Windows 8](#new-info-about-enumerating-adapters-for-windows-8)
+    -   [New info about enumerating adapters for Windows 8](#new-info-about-enumerating-adapters-for-windows-8)
 -   [Presentation](#presentation)
     -   [Create a Swap Chain](#create-a-swap-chain)
     -   [Care and Feeding of the Swap Chain](#care-and-feeding-of-the-swap-chain)
@@ -52,21 +57,21 @@ An adapter is an abstraction of the hardware and the software capability of your
 
 ![diagram of a computer with two video cards and three monitors](images/dxgi-terms.png)
 
-When enumerating these pieces of hardware, DXGI creates an [**IDXGIOutput1**](idxgioutput1.md) interface for each output (or monitor) and an [**IDXGIAdapter2**](idxgiadapter2.md) interface for each video card (even if it is a video card built into a motherboard). Enumeration is done by using an [**IDXGIFactory**](idxgifactory2.md) interface call, [**IDXGIFactory::EnumAdapters**](idxgifactory-enumadapters.md), to return a set of [**IDXGIAdapter**](idxgiadapter.md) interfaces that represent the video hardware.
+When enumerating these pieces of hardware, DXGI creates an [**IDXGIOutput1**](/windows/win32/DXGI1_2/nn-dxgi1_2-idxgioutput1?branch=master) interface for each output (or monitor) and an [**IDXGIAdapter2**](/windows/win32/DXGI1_2/nn-dxgi1_2-idxgiadapter2?branch=master) interface for each video card (even if it is a video card built into a motherboard). Enumeration is done by using an [**IDXGIFactory**](/windows/win32/DXGI1_2/nn-dxgi1_2-idxgifactory2?branch=master) interface call, [**IDXGIFactory::EnumAdapters**](/windows/win32/DXGI/nf-dxgi-idxgifactory-enumadapters?branch=master), to return a set of [**IDXGIAdapter**](/windows/win32/DXGI/nn-dxgi-idxgiadapter?branch=master) interfaces that represent the video hardware.
 
-DXGI 1.1 added the [**IDXGIFactory1**](idxgifactory1.md) interface. [**IDXGIFactory1::EnumAdapters1**](idxgifactory1-enumadapters1.md) returns a set of [**IDXGIAdapter1**](idxgiadapter1.md) interfaces that represents the video hardware.
+DXGI 1.1 added the [**IDXGIFactory1**](/windows/win32/DXGI/nn-dxgi-idxgifactory1?branch=master) interface. [**IDXGIFactory1::EnumAdapters1**](/windows/win32/DXGI/nf-dxgi-idxgifactory1-enumadapters1?branch=master) returns a set of [**IDXGIAdapter1**](/windows/win32/DXGI/nn-dxgi-idxgiadapter1?branch=master) interfaces that represents the video hardware.
 
 If you want to select specific video hardware capabilities when you use Direct3D APIs, we recommend that you iteratively call the [**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/desktop/ff476082) or [**D3D11CreateDeviceAndSwapChain**](https://msdn.microsoft.com/library/windows/desktop/ff476083) function with each adapter handle and possible hardware [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview). This function succeeds if the feature level is supported by the specified adapter.
 
 ### New info about enumerating adapters for Windows 8
 
-Starting with Windows 8, an adapter called the "Microsoft Basic Render Driver" is always present. This adapter has a VendorId of **0x1414** and a DeviceID of **0x8c**. This adapter also has the [**DXGI\_ADAPTER\_FLAG\_SOFTWARE**](https://msdn.microsoft.com/library/windows/desktop/ff471327#dxgi-adapter-flag-software) value set in the **Flags** member of its [**DXGI\_ADAPTER\_DESC2**](dxgi-adapter-desc2.md) structure. This adapter is a render-only device that has no display outputs. DXGI never returns [**DXGI\_ERROR\_DEVICE\_REMOVED**](dxgi-error.md#dxgi-error-device-removed) for this adapter.
+Starting with Windows 8, an adapter called the "Microsoft Basic Render Driver" is always present. This adapter has a VendorId of **0x1414** and a DeviceID of **0x8c**. This adapter also has the [**DXGI\_ADAPTER\_FLAG\_SOFTWARE**](https://msdn.microsoft.com/library/windows/desktop/ff471327#dxgi-adapter-flag-software) value set in the **Flags** member of its [**DXGI\_ADAPTER\_DESC2**](/windows/win32/DXGI1_2/ns-dxgi1_2-dxgi_adapter_desc2?branch=master) structure. This adapter is a render-only device that has no display outputs. DXGI never returns [**DXGI\_ERROR\_DEVICE\_REMOVED**](dxgi-error.md#dxgi-error-device-removed) for this adapter.
 
 If a computer's display driver is not functioning or is disabled, the computer's primary (**NULL**) adapter might also be called "Microsoft Basic Render Driver." But this adapter has outputs and doesn't have the [**DXGI\_ADAPTER\_FLAG\_SOFTWARE**](https://msdn.microsoft.com/library/windows/desktop/ff471327#dxgi-adapter-flag-software) value set. The operating system and apps use this adapter by default. If a display driver is installed or enabled, apps can receive [**DXGI\_ERROR\_DEVICE\_REMOVED**](dxgi-error.md#dxgi-error-device-removed) for this adapter and then must re-enumerate adapters again.
 
 When a computer's primary display adapter is the "Microsoft Basic Display Adapter" ([WARP](https://msdn.microsoft.com/library/windows/desktop/ff476871) adapter), that computer also has a second adapter. This second adapter is the render-only device that has no display outputs and for which DXGI never returns [**DXGI\_ERROR\_DEVICE\_REMOVED**](dxgi-error.md#dxgi-error-device-removed).
 
-If you want to use WARP for rendering, compute, or other long running tasks, we recommend to use the render-only device. You can obtain a pointer to the render-only device by calling the [**IDXGIFactory1::EnumAdapters1**](idxgifactory1-enumadapters1.md) method. You also create the render-only device when you specify [**D3D\_DRIVER\_TYPE\_WARP**](https://msdn.microsoft.com/library/windows/desktop/ff476328#d3d-driver-type-warp) in the *DriverType* parameter of [**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/desktop/ff476082) because the WARP device also uses the render-only WARP adapter.
+If you want to use WARP for rendering, compute, or other long running tasks, we recommend to use the render-only device. You can obtain a pointer to the render-only device by calling the [**IDXGIFactory1::EnumAdapters1**](/windows/win32/DXGI/nf-dxgi-idxgifactory1-enumadapters1?branch=master) method. You also create the render-only device when you specify [**D3D\_DRIVER\_TYPE\_WARP**](https://msdn.microsoft.com/library/windows/desktop/ff476328#d3d-driver-type-warp) in the *DriverType* parameter of [**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/desktop/ff476082) because the WARP device also uses the render-only WARP adapter.
 
 ## Presentation
 
@@ -106,8 +111,8 @@ A swap chain is set up to draw in full-screen or windowed mode, this eliminates 
 <td>Differences between Direct3D 9 and Direct3D 10: Direct3D 10 is the first graphics component to use DXGI. DXGI has some different swap chain behaviors.<br/>
 <ul>
 <li>In DXGI, a swap chain is tied to a window when the swap chain is created. This change improves performance and saves memory. Previous versions of Direct3D allowed the swap chain to change the window that the swap chain is tied to.</li>
-<li>In DXGI, a swap chain is tied to a rendering device on creation. The device object that the Direct3D create device functions return implements the [<strong>IUnknown</strong>](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. You can call [<strong>QueryInterface</strong>](https://msdn.microsoft.com/library/windows/desktop/ms682521) to query for the device's corresponding [<strong>IDXGIDevice2</strong>](idxgidevice2.md) interface. A change to the rendering device requires the swap chain to be recreated.</li>
-<li><p>In DXGI, the swap effects available are DXGI_SWAP_EFFECT_DISCARD and DXGI_SWAP_EFFECT_SEQUENTIAL. Starting with Windows 8 the DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL swap effect is also available. The following table shows a mapping of Direct3D 9 to DXGI swap effect defines. </p>
+<li>In DXGI, a swap chain is tied to a rendering device on creation. The device object that the Direct3D create device functions return implements the [<strong>IUnknown</strong>](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. You can call [<strong>QueryInterface</strong>](https://msdn.microsoft.com/library/windows/desktop/ms682521) to query for the device's corresponding [<strong>IDXGIDevice2</strong>](/windows/win32/DXGI1_2/nn-dxgi1_2-idxgidevice2?branch=master) interface. A change to the rendering device requires the swap chain to be recreated.</li>
+<li><p>In DXGI, the swap effects available are DXGI_SWAP_EFFECT_DISCARD and DXGI_SWAP_EFFECT_SEQUENTIAL. Starting with Windows 8 the DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL swap effect is also available. The following table shows a mapping of Direct3D 9 to DXGI swap effect defines. </p>
 <table>
 <thead>
 <tr class="header">
@@ -135,7 +140,7 @@ A swap chain is set up to draw in full-screen or windowed mode, this eliminates 
 </tbody>
 </table>
 <p></p>
-<p> </p></li>
+<p> </p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -143,7 +148,7 @@ A swap chain is set up to draw in full-screen or windowed mode, this eliminates 
 
 
 
- 
+ 
 
 A swap chain's buffers are created at a particular size and in a particular format. The application specifies these values (or you can inherit the size from the target window) at startup, and can then optionally modify them as the window size changes in response to user input or program events.
 
@@ -163,32 +168,32 @@ pD3D11DeviceContext->OMSetRenderTargets(1, &amp;pView, 0);
 
 
 
-After your application renders a frame into a swap-chain buffer, call [**IDXGISwapChain1::Present1**](idxgiswapchain1-present1.md). The application can then go render the next image.
+After your application renders a frame into a swap-chain buffer, call [**IDXGISwapChain1::Present1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master). The application can then go render the next image.
 
 ### Care and Feeding of the Swap Chain
 
-After you render your image, call [**IDXGISwapChain1::Present1**](idxgiswapchain1-present1.md) and go render the next image. That is the extent of your responsibility.
+After you render your image, call [**IDXGISwapChain1::Present1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master) and go render the next image. That is the extent of your responsibility.
 
-If you previously called [**IDXGIFactory::MakeWindowAssociation**](idxgifactory-makewindowassociation.md), the user can press the Alt-Enter key combination and DXGI will transition your application between windowed and full-screen mode. **IDXGIFactory::MakeWindowAssociation** is recommended, because a standard control mechanism for the user is strongly desired.
+If you previously called [**IDXGIFactory::MakeWindowAssociation**](/windows/win32/DXGI/nf-dxgi-idxgifactory-makewindowassociation?branch=master), the user can press the Alt-Enter key combination and DXGI will transition your application between windowed and full-screen mode. **IDXGIFactory::MakeWindowAssociation** is recommended, because a standard control mechanism for the user is strongly desired.
 
-While you don't have to write any more code than has been described, a few simple steps can make your application more responsive. The most important consideration is the resizing of the swap chain's buffers in response to the resizing of the output window. Naturally, the application's best route is to respond to WM\_SIZE, and call [**IDXGISwapChain::ResizeBuffers**](idxgiswapchain-resizebuffers.md), passing the size contained in the message's parameters. This behavior obviously makes your application respond well to the user when he or she drags the window's borders, but it is also exactly what enables a smooth full-screen transition. Your window will receive a WM\_SIZE message whenever such a transition happens, and calling **IDXGISwapChain::ResizeBuffers** is the swap chain's chance to re-allocate the buffers' storage for optimal presentation. This is why the application is required to release any references it has on the existing buffers before it calls **IDXGISwapChain::ResizeBuffers**.
+While you don't have to write any more code than has been described, a few simple steps can make your application more responsive. The most important consideration is the resizing of the swap chain's buffers in response to the resizing of the output window. Naturally, the application's best route is to respond to WM\_SIZE, and call [**IDXGISwapChain::ResizeBuffers**](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-resizebuffers?branch=master), passing the size contained in the message's parameters. This behavior obviously makes your application respond well to the user when he or she drags the window's borders, but it is also exactly what enables a smooth full-screen transition. Your window will receive a WM\_SIZE message whenever such a transition happens, and calling **IDXGISwapChain::ResizeBuffers** is the swap chain's chance to re-allocate the buffers' storage for optimal presentation. This is why the application is required to release any references it has on the existing buffers before it calls **IDXGISwapChain::ResizeBuffers**.
 
-Failure to call [**IDXGISwapChain::ResizeBuffers**](idxgiswapchain-resizebuffers.md) in response to switching to full-screen mode (most naturally, in response to WM\_SIZE), can preclude the optimization of flipping, wherein DXGI can simply swap which buffer is being displayed, rather than copying a full screen's worth of data around.
+Failure to call [**IDXGISwapChain::ResizeBuffers**](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-resizebuffers?branch=master) in response to switching to full-screen mode (most naturally, in response to WM\_SIZE), can preclude the optimization of flipping, wherein DXGI can simply swap which buffer is being displayed, rather than copying a full screen's worth of data around.
 
-[**IDXGISwapChain1::Present1**](idxgiswapchain1-present1.md) will inform you if your output window is entirely occluded via **DXGI\_STATUS\_OCCLUDED**. When this occurs, we recommended that your application go into standby mode (by calling **IDXGISwapChain1::Present1** with **DXGI\_PRESENT\_TEST**) since resources used to render the frame are wasted. Using **DXGI\_PRESENT\_TEST** will prevent any data from being presented while still performing the occlusion check. Once **IDXGISwapChain1::Present1** returns S\_OK, you should exit standby mode; do not use the return code to switch to standby mode as doing so can leave the swap chain unable to relinquish full-screen mode.
+[**IDXGISwapChain1::Present1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master) will inform you if your output window is entirely occluded via **DXGI\_STATUS\_OCCLUDED**. When this occurs, we recommended that your application go into standby mode (by calling **IDXGISwapChain1::Present1** with **DXGI\_PRESENT\_TEST**) since resources used to render the frame are wasted. Using **DXGI\_PRESENT\_TEST** will prevent any data from being presented while still performing the occlusion check. Once **IDXGISwapChain1::Present1** returns S\_OK, you should exit standby mode; do not use the return code to switch to standby mode as doing so can leave the swap chain unable to relinquish full-screen mode.
 
-The Direct3D 11.1 runtime, which is available starting with Windows 8, provides a flip-model swap chain (that is, a swap chain that has the [**DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL**](dxgi-swap-effect.md#dxgi-swap-effect-flip-sequential) value set in the **SwapEffect** member of [**DXGI\_SWAP\_CHAIN\_DESC**](dxgi-swap-chain-desc.md) or [**DXGI\_SWAP\_CHAIN\_DESC1**](dxgi-swap-chain-desc1.md)). When you present frames to an output with a flip-model swap chain, DXGI unbinds the back buffer from all pipeline state locations, like an output-merger render target, that write to back buffer 0. Therefore, we recommend that you call [**ID3D11DeviceContext::OMSetRenderTargets**](https://msdn.microsoft.com/library/windows/desktop/ff476464) immediately before you render to the back buffer. For example, don't call **OMSetRenderTargets** and then perform compute shader work that doesn't end up rendering to the resource. For more info about flip-model swap chains and their benefits, see [DXGI Flip Model](dxgi-flip-model.md).
+The Direct3D 11.1 runtime, which is available starting with Windows 8, provides a flip-model swap chain (that is, a swap chain that has the [**DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL**](dxgi-swap-effect.md#dxgi-swap-effect-flip-sequential) value set in the **SwapEffect** member of [**DXGI\_SWAP\_CHAIN\_DESC**](/windows/win32/DXGI/ns-dxgi-dxgi_swap_chain_desc?branch=master) or [**DXGI\_SWAP\_CHAIN\_DESC1**](/windows/win32/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1?branch=master)). When you present frames to an output with a flip-model swap chain, DXGI unbinds the back buffer from all pipeline state locations, like an output-merger render target, that write to back buffer 0. Therefore, we recommend that you call [**ID3D11DeviceContext::OMSetRenderTargets**](https://msdn.microsoft.com/library/windows/desktop/ff476464) immediately before you render to the back buffer. For example, don't call **OMSetRenderTargets** and then perform compute shader work that doesn't end up rendering to the resource. For more info about flip-model swap chains and their benefits, see [DXGI Flip Model](dxgi-flip-model.md).
 
 > [!Note]  
-> You don't have to call [**IDXGISwapChain::GetBuffer**](idxgiswapchain-getbuffer.md) to retrieve back buffer 0 after you call [**IDXGISwapChain1::Present1**](idxgiswapchain1-present1.md) because for convenience the identities of back buffers change.
+> You don't have to call [**IDXGISwapChain::GetBuffer**](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-getbuffer?branch=master) to retrieve back buffer 0 after you call [**IDXGISwapChain1::Present1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master) because for convenience the identities of back buffers change.
 
- 
+ 
 
 ### Handling Window Resizing
 
-You can use the [**IDXGISwapChain::ResizeBuffers**](idxgiswapchain-resizebuffers.md) method to handle window resizing. Before you call **ResizeBuffers**, you must release all outstanding references to the swap chain's buffers. The object that typically holds a reference to a swap chain's buffer is a render-target-view.
+You can use the [**IDXGISwapChain::ResizeBuffers**](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-resizebuffers?branch=master) method to handle window resizing. Before you call **ResizeBuffers**, you must release all outstanding references to the swap chain's buffers. The object that typically holds a reference to a swap chain's buffer is a render-target-view.
 
-The following example code shows how to call [**ResizeBuffers**](idxgiswapchain-resizebuffers.md) from within the WindowProc handler for WM\_SIZE messages:
+The following example code shows how to call [**ResizeBuffers**](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-resizebuffers?branch=master) from within the WindowProc handler for WM\_SIZE messages:
 
 
 ```
@@ -237,32 +242,32 @@ The following example code shows how to call [**ResizeBuffers**](idxgiswapchain-
 
 ### Choosing the DXGI Output and Size
 
-By default, DXGI chooses the output that contains most of the client area of the window. This is the only option available to DXGI when it goes full-screen itself in response to alt-enter. If the application chooses to go to full-screen mode by itself, then it can call [**IDXGISwapChain::SetFullscreenState**](idxgiswapchain-setfullscreenstate.md) and pass an explicit [**IDXGIOutput1**](idxgioutput1.md) (or **NULL**, if the application is happy to let DXGI decide).
+By default, DXGI chooses the output that contains most of the client area of the window. This is the only option available to DXGI when it goes full-screen itself in response to alt-enter. If the application chooses to go to full-screen mode by itself, then it can call [**IDXGISwapChain::SetFullscreenState**](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-setfullscreenstate?branch=master) and pass an explicit [**IDXGIOutput1**](/windows/win32/DXGI1_2/nn-dxgi1_2-idxgioutput1?branch=master) (or **NULL**, if the application is happy to let DXGI decide).
 
-To resize the output while either full screen or windowed, we recommend to call [**IDXGISwapChain::ResizeTarget**](idxgiswapchain-resizetarget.md), since this method resizes the target window also. Since the target window is resized, the operating system sends **WM\_SIZE**, and your code will naturally call [**IDXGISwapChain::ResizeBuffers**](idxgiswapchain-resizebuffers.md) in response. It's thus a waste of effort to resize your buffers, and then subsequently resize the target.
+To resize the output while either full screen or windowed, we recommend to call [**IDXGISwapChain::ResizeTarget**](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-resizetarget?branch=master), since this method resizes the target window also. Since the target window is resized, the operating system sends **WM\_SIZE**, and your code will naturally call [**IDXGISwapChain::ResizeBuffers**](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-resizebuffers?branch=master) in response. It's thus a waste of effort to resize your buffers, and then subsequently resize the target.
 
 ### Debugging in Full-Screen Mode
 
 A DXGI swap chain relinquishes full-screen mode only when absolutely necessary. This means that you can debug a full-screen application using multiple monitors, as long as the debug window doesn't overlap the swap chain's target window. Alternatively, you can prevent mode switching altogether by not setting the **DXGI\_SWAP\_CHAIN\_FLAG\_ALLOW\_MODE\_SWITCH** flag.
 
-If mode switching is allowed, a swap chain will relinquish full-screen mode whenever its output window is occluded by another window. The occlusion check is performed during [**IDXGISwapChain1::Present1**](idxgiswapchain1-present1.md), or by a separate thread whose purpose is to watch to see if the application has becomes unresponsive (and no longer calls **IDXGISwapChain1::Present1**). To disable the ability of the separate thread to cause a switch, set the following registry key to any non-zero value.
+If mode switching is allowed, a swap chain will relinquish full-screen mode whenever its output window is occluded by another window. The occlusion check is performed during [**IDXGISwapChain1::Present1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master), or by a separate thread whose purpose is to watch to see if the application has becomes unresponsive (and no longer calls **IDXGISwapChain1::Present1**). To disable the ability of the separate thread to cause a switch, set the following registry key to any non-zero value.
 
 **HKCU\\Software\\Microsoft\\DXGI\\DisableFullscreenWatchdog**
 
 ### Destroying a Swap Chain
 
-You may not release a swap chain in full-screen mode because doing so may create thread contention (which will cause DXGI to raise a non-continuable exception). Before releasing a swap chain, first switch to windowed mode (using [**IDXGISwapChain::SetFullscreenState**](idxgiswapchain-setfullscreenstate.md)( **FALSE**, **NULL** )) and then call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317).
+You may not release a swap chain in full-screen mode because doing so may create thread contention (which will cause DXGI to raise a non-continuable exception). Before releasing a swap chain, first switch to windowed mode (using [**IDXGISwapChain::SetFullscreenState**](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-setfullscreenstate?branch=master)( **FALSE**, **NULL** )) and then call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317).
 
 ### Using a Rotated Monitor
 
 An application does not need to worry about monitor orientation, DXGI will rotate a swap-chain buffer during presentation, if necessary. Of course, this additional rotation can impact performance. For best performance, take care of the rotation in your application by doing the following:
 
 -   Use the **DXGI\_SWAP\_CHAIN\_FLAG\_NONPREROTATED**. This notifies DXGI that the application will produce a rotated image (for example, by altering its projection matrix). One thing to note, this flag is only valid while in full-screen mode.
--   Allocate each swap-chain buffer in its rotated size. Use [**IDXGIOutput::GetDesc**](idxgioutput-getdesc.md) to get these values, if necessary.
+-   Allocate each swap-chain buffer in its rotated size. Use [**IDXGIOutput::GetDesc**](/windows/win32/DXGI/nf-dxgi-idxgioutput-getdesc?branch=master) to get these values, if necessary.
 
 By performing the rotation in your application, DXGI will simply do a copy instead of a copy and a rotate.
 
-The Direct3D 11.1 runtime, which is available starting with Windows 8, provides a flip-model swap chain (that is, a swap chain that has the [**DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL**](dxgi-swap-effect.md#dxgi-swap-effect-flip-sequential) value set in the **SwapEffect** member of [**DXGI\_SWAP\_CHAIN\_DESC1**](dxgi-swap-chain-desc1.md)). To maximize the presentation optimizations available with a flip-model swap chain, we recommend that you make your applications orient content to match the particular output on which the content resides when that content fully occupies the output. For more info about flip-model swap chains and their benefits, see [DXGI Flip Model](dxgi-flip-model.md).
+The Direct3D 11.1 runtime, which is available starting with Windows 8, provides a flip-model swap chain (that is, a swap chain that has the [**DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL**](dxgi-swap-effect.md#dxgi-swap-effect-flip-sequential) value set in the **SwapEffect** member of [**DXGI\_SWAP\_CHAIN\_DESC1**](/windows/win32/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1?branch=master)). To maximize the presentation optimizations available with a flip-model swap chain, we recommend that you make your applications orient content to match the particular output on which the content resides when that content fully occupies the output. For more info about flip-model swap chains and their benefits, see [DXGI Flip Model](dxgi-flip-model.md).
 
 ### Switching Modes
 
@@ -270,7 +275,7 @@ The DXGI swap chain might change the display mode of an output when making a ful
 
 ### Full-Screen Performance Tip
 
-When you call [**IDXGISwapChain1::Present1**](idxgiswapchain1-present1.md) on a full-screen application, the swap chain flips (as opposed to blits) the contents of the back buffer to the front buffer. This requires that the swap chain was created by using an enumerated display mode (specified in [**DXGI\_SWAP\_CHAIN\_DESC1**](dxgi-swap-chain-desc1.md)). If you fail to enumerate display modes, or incorrectly specify the display mode in the description, the swap chain may perform a bit-block transfer (bitblt) instead. The bitblt causes an extra stretching copy as well as some increased video memory usage, and is difficult to detect. To avoid this problem, enumerate display modes, and initialize the swap chain description correctly before you create the swap chain. This will ensure maximum performance when flipping in full-screen mode and avoid the extra memory overhead.
+When you call [**IDXGISwapChain1::Present1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master) on a full-screen application, the swap chain flips (as opposed to blits) the contents of the back buffer to the front buffer. This requires that the swap chain was created by using an enumerated display mode (specified in [**DXGI\_SWAP\_CHAIN\_DESC1**](/windows/win32/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1?branch=master)). If you fail to enumerate display modes, or incorrectly specify the display mode in the description, the swap chain may perform a bit-block transfer (bitblt) instead. The bitblt causes an extra stretching copy as well as some increased video memory usage, and is difficult to detect. To avoid this problem, enumerate display modes, and initialize the swap chain description correctly before you create the swap chain. This will ensure maximum performance when flipping in full-screen mode and avoid the extra memory overhead.
 
 ### Multithread Considerations
 
@@ -279,13 +284,13 @@ When you use DXGI in an application with multiple threads, you need to be carefu
 -   The rendering thread is not the message-pump thread.
 -   The thread executing a DXGI API is not the same thread that created the window.
 
-Be careful that you never have the message-pump thread wait on the render thread when you use full-screen swap chains. For instance, calling [**IDXGISwapChain1::Present1**](idxgiswapchain1-present1.md) (from the render thread) may cause the render thread to wait on the message-pump thread. When a mode change occurs, this scenario is possible if **Present1** calls ::SetWindowPos() or ::SetWindowStyle() and either of these methods call ::SendMessage(). In this scenario, if the message-pump thread has a critical section guarding it or if the render thread is blocked, then the two threads will deadlock.
+Be careful that you never have the message-pump thread wait on the render thread when you use full-screen swap chains. For instance, calling [**IDXGISwapChain1::Present1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master) (from the render thread) may cause the render thread to wait on the message-pump thread. When a mode change occurs, this scenario is possible if **Present1** calls ::SetWindowPos() or ::SetWindowStyle() and either of these methods call ::SendMessage(). In this scenario, if the message-pump thread has a critical section guarding it or if the render thread is blocked, then the two threads will deadlock.
 
 For more info about using DXGI with multiple threads, see [Multithreading and DXGI](https://msdn.microsoft.com/library/windows/desktop/ff476891#dxgi).
 
 ## DXGI Responses from DLLMain
 
-Because a [**DllMain**](https://msdn.microsoft.com/library/windows/desktop/ms682583) function can't guarantee the order in which it loads and unloads DLLs, we recommend that your app's **DllMain** function not call Direct3D or DXGI functions or methods, including functions or methods that create or release objects. If your app's **DllMain** function calls into a particular component, that component might call another DLL that isn't present on the operating system, which causes the operating system to crash. Direct3D and DXGI might load a set of DLLs, typically a set of drivers, that differs from computer to computer. Therefore, even if your app doesn’t crash on your development and test computers when its **DllMain** function calls Direct3D or DXGI functions or methods, it might crash when it runs on another computer.
+Because a [**DllMain**](https://msdn.microsoft.com/library/windows/desktop/ms682583) function can't guarantee the order in which it loads and unloads DLLs, we recommend that your app's **DllMain** function not call Direct3D or DXGI functions or methods, including functions or methods that create or release objects. If your app's **DllMain** function calls into a particular component, that component might call another DLL that isn't present on the operating system, which causes the operating system to crash. Direct3D and DXGI might load a set of DLLs, typically a set of drivers, that differs from computer to computer. Therefore, even if your app doesn t crash on your development and test computers when its **DllMain** function calls Direct3D or DXGI functions or methods, it might crash when it runs on another computer.
 
 To prevent you from creating an app that might cause the operating system to crash, DXGI provides the following responses in the specified situations:
 
@@ -298,7 +303,7 @@ We added the following functionality in DXGI 1.1.
 
 -   Synchronized Shared Surfaces Support
 
-    Synchronized shared surfaces for Direct3D 10.1 and Direct3D 11 enables efficient read and write surface sharing between multiple Direct3D devices (sharing between Direct3D 10 and Direct3D 11 devices is possible). See [**IDXGIKeyedMutex::AcquireSync**](idxgikeyedmutex-acquiresync.md) and [**IDXGIKeyedMutex::ReleaseSync**](idxgikeyedmutex-releasesync.md).
+    Synchronized shared surfaces for Direct3D 10.1 and Direct3D 11 enables efficient read and write surface sharing between multiple Direct3D devices (sharing between Direct3D 10 and Direct3D 11 devices is possible). See [**IDXGIKeyedMutex::AcquireSync**](/windows/win32/DXGI/nf-dxgi-idxgikeyedmutex-acquiresync?branch=master) and [**IDXGIKeyedMutex::ReleaseSync**](/windows/win32/DXGI/nf-dxgi-idxgikeyedmutex-releasesync?branch=master).
 
     The [DXGISyncSharedSurf](http://go.microsoft.com/fwlink/p/?linkid=215064) sample shows how to use DXGI 1.1 synchronized shared surfaces.
 
@@ -306,11 +311,11 @@ We added the following functionality in DXGI 1.1.
 
     Supports the DXGI\_FORMAT\_R10G10B10\_XR\_BIAS\_A2\_UNORM format.
 
--   [**IDXGIDevice1::SetMaximumFrameLatency**](idxgidevice1-setmaximumframelatency.md) and [**IDXGIDevice1::GetMaximumFrameLatency**](idxgidevice1-getmaximumframelatency.md)
--   [**IDXGIFactory1::EnumAdapters1**](idxgifactory1-enumadapters1.md) enumerates local adapter(s) without any monitors or outputs attached, as well as adapters(s) with outputs attached. The first adapter returned will be the local adapter on which the Desktop primary is displayed.
+-   [**IDXGIDevice1::SetMaximumFrameLatency**](/windows/win32/DXGI/nf-dxgi-idxgidevice1-setmaximumframelatency?branch=master) and [**IDXGIDevice1::GetMaximumFrameLatency**](/windows/win32/DXGI/nf-dxgi-idxgidevice1-getmaximumframelatency?branch=master)
+-   [**IDXGIFactory1::EnumAdapters1**](/windows/win32/DXGI/nf-dxgi-idxgifactory1-enumadapters1?branch=master) enumerates local adapter(s) without any monitors or outputs attached, as well as adapters(s) with outputs attached. The first adapter returned will be the local adapter on which the Desktop primary is displayed.
 -   BGRA format support
 
-    DXGI\_FORMAT\_B8G8R8A8\_UNORM and DXGI\_FORMAT\_B8G8R8A8\_UNORM\_SRGB, see [**IDXGISurface1::GetDC**](idxgisurface1-getdc.md) and [**IDXGISurface1::ReleaseDC**](idxgisurface1-releasedc.md).
+    DXGI\_FORMAT\_B8G8R8A8\_UNORM and DXGI\_FORMAT\_B8G8R8A8\_UNORM\_SRGB, see [**IDXGISurface1::GetDC**](/windows/win32/DXGI/nf-dxgi-idxgisurface1-getdc?branch=master) and [**IDXGISurface1::ReleaseDC**](/windows/win32/DXGI/nf-dxgi-idxgisurface1-releasedc?branch=master).
 
 ## DXGI 1.2 Changes
 
@@ -334,9 +339,9 @@ For more info about DXGI 1.2, see [DXGI 1.2 Improvements](dxgi-1-2-improvements.
 [Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

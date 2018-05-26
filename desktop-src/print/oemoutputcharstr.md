@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMOutputCharStr function
-ms.assetid: 'ac23ec89-b455-4bfd-93a5-2294d8b8ffc2'
+ms.assetid: ac23ec89-b455-4bfd-93a5-2294d8b8ffc2
 title: OEMOutputCharStr function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMOutputCharStr function

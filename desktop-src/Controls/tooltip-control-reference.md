@@ -1,7 +1,12 @@
 ---
 title: Tooltip
 description: This section contains information about the programming elements used with tooltip controls.
-ms.assetid: 'a6e5dc44-7878-462f-b2cb-4c3213f6b924'
+ms.assetid: a6e5dc44-7878-462f-b2cb-4c3213f6b924
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tooltip
@@ -19,7 +24,7 @@ This section contains information about the programming elements used with toolt
 
 
 
- 
+ 
 
 ### Messages
 
@@ -31,7 +36,7 @@ This section contains information about the programming elements used with toolt
 | [**TTM\_ADDTOOL**](ttm-addtool.md)                 | Registers a tool with a tooltip control. <br/>                                                                                                                                                              |
 | [**TTM\_ADJUSTRECT**](ttm-adjustrect.md)           | Calculates a tooltip control's text display rectangle from its window rectangle, or the tooltip window rectangle needed to display a specified text display rectangle. <br/>                                |
 | [**TTM\_DELTOOL**](ttm-deltool.md)                 | Removes a tool from a tooltip control. <br/>                                                                                                                                                                |
-| [**TTM\_ENUMTOOLS**](ttm-enumtools.md)             | Retrieves the information that a tooltip control maintains about the current tool—that is, the tool for which the tooltip is currently displaying text. <br/>                                               |
+| [**TTM\_ENUMTOOLS**](ttm-enumtools.md)             | Retrieves the information that a tooltip control maintains about the current tool that is, the tool for which the tooltip is currently displaying text. <br/>                                               |
 | [**TTM\_GETBUBBLESIZE**](ttm-getbubblesize.md)     | Returns the width and height of a tooltip control.<br/>                                                                                                                                                     |
 | [**TTM\_GETCURRENTTOOL**](ttm-getcurrenttool.md)   | Retrieves the information for the current tool in a tooltip control. <br/>                                                                                                                                  |
 | [**TTM\_GETDELAYTIME**](ttm-getdelaytime.md)       | Retrieves the initial, pop-up, and reshow durations currently set for a tooltip control.<br/>                                                                                                               |
@@ -64,7 +69,7 @@ This section contains information about the programming elements used with toolt
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -81,7 +86,7 @@ This section contains information about the programming elements used with toolt
 
 
 
- 
+ 
 
 ### Structures
 
@@ -89,15 +94,15 @@ This section contains information about the programming elements used with toolt
 
 | Topic                                    | Contents                                                                                                                                                                                                                           |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**NMTTCUSTOMDRAW**](nmttcustomdraw.md) | Contains information specific to an [NM\_CUSTOMDRAW](nm-customdraw-tooltip.md) notification code sent by a tooltip control. <br/>                                                                                           |
-| [**NMTTDISPINFO**](nmttdispinfo.md)     | Contains information used in handling the [TTN\_GETDISPINFO](ttn-getdispinfo.md) notification code. This structure supersedes the **TOOLTIPTEXT** structure. <br/>                                                          |
-| [**TOOLINFO**](toolinfo.md)             | The [**TOOLINFO**](toolinfo.md) structure contains information about a tool in a tooltip control.<br/>                                                                                                                      |
-| [**TTGETTITLE**](ttgettitle.md)         | Provides information about the title of a tooltip control. <br/>                                                                                                                                                             |
-| [**TTHITTESTINFO**](tthittestinfo.md)   | Contains information that a tooltip control uses to determine whether a point is in the bounding rectangle of the specified tool. If the point is in the rectangle, the structure receives information about the tool. <br/> |
+| [**NMTTCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmttcustomdraw?branch=master) | Contains information specific to an [NM\_CUSTOMDRAW](nm-customdraw-tooltip.md) notification code sent by a tooltip control. <br/>                                                                                           |
+| [**NMTTDISPINFO**](/windows/win32/Commctrl/ns-commctrl-tagnmttdispinfoa?branch=master)     | Contains information used in handling the [TTN\_GETDISPINFO](ttn-getdispinfo.md) notification code. This structure supersedes the **TOOLTIPTEXT** structure. <br/>                                                          |
+| [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master)             | The [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure contains information about a tool in a tooltip control.<br/>                                                                                                                      |
+| [**TTGETTITLE**](/windows/win32/Commctrl/ns-commctrl-_ttgettitle?branch=master)         | Provides information about the title of a tooltip control. <br/>                                                                                                                                                             |
+| [**TTHITTESTINFO**](/windows/win32/Commctrl/ns-commctrl-_tt_hittestinfoa?branch=master)   | Contains information that a tooltip control uses to determine whether a point is in the bounding rectangle of the specified tool. If the point is in the rectangle, the structure receives information about the tool. <br/> |
 
 
 
- 
+ 
 
 ### Constants
 
@@ -109,11 +114,11 @@ This section contains information about the programming elements used with toolt
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Introduction to DirectShow Filter Development
-ms.assetid: 'd5162ea4-ef37-4993-a82c-782f03b08c64'
+ms.assetid: d5162ea4-ef37-4993-a82c-782f03b08c64
 title: Introduction to DirectShow Filter Development
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction to DirectShow Filter Development
@@ -40,7 +45,7 @@ A filter must create one or more pins. The number of pins can be fixed at design
 
 When the Filter Graph Manager tries to connect two filters, the pins must agree on various things. If they cannot, the connection attempt fails. Generally, pins negotiate the following:
 
--   Transport. The transport is the mechanism that the filters will use to move media samples from the output pin to the input pin. For example, they can use the [**IMemInputPin**](imeminputpin.md) interface ("push model") or the [**IAsyncReader**](iasyncreader.md) interface ("pull model").
+-   Transport. The transport is the mechanism that the filters will use to move media samples from the output pin to the input pin. For example, they can use the [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interface ("push model") or the [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) interface ("pull model").
 -   Media type. Almost all pins use media types to describe the format of the data they will deliver.
 -   Allocator. The allocator is the object that creates the buffers that hold the data. The pins must agree which pin will provide the allocator. They must also agree on the size of the buffers, the number of buffers to create, and other buffer properties.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This interface encapsulates the minimum functionality required of an animation set by an animation controller.'
-ms.assetid: '079bd7f5-9867-46fe-8069-64781de2f6d8'
+---
+Description: This interface encapsulates the minimum functionality required of an animation set by an animation controller.
+ms.assetid: 079bd7f5-9867-46fe-8069-64781de2f6d8
 title: ID3DXAnimationSet interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationSet interface

@@ -1,7 +1,12 @@
 ---
-Description: 'The following examples demonstrate the use of an exception handler.'
-ms.assetid: 'c3b4e696-9f45-4616-ac6b-07ba29750bb2'
+Description: The following examples demonstrate the use of an exception handler.
+ms.assetid: c3b4e696-9f45-4616-ac6b-07ba29750bb2
 title: Using an Exception Handler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using an Exception Handler
@@ -33,7 +38,7 @@ BOOL SafeDiv(INT32 dividend, INT32 divisor, INT32 *pResult)
 
 ## Example 2
 
-The following example function calls the [**DebugBreak**](debugbreak.md) function and uses structured exception handling to check for a breakpoint exception. If one occurs, the function returns **FALSE**— otherwise it returns **TRUE**.
+The following example function calls the [**DebugBreak**](/windows/win32/WinBase/?branch=master) function and uses structured exception handling to check for a breakpoint exception. If one occurs, the function returns **FALSE**— otherwise it returns **TRUE**.
 
 The filter expression in the example uses the [**GetExceptionCode**](getexceptioncode.md) function to check the exception type before executing the handler. This enables the system to continue its search for an appropriate handler if some other type of exception occurs.
 
@@ -64,7 +69,7 @@ Only return EXCEPTION\_EXECUTE\_HANDLER from an exception filter when the except
 
 ## Example 3
 
-The following example shows the interaction of nested handlers. The [**RaiseException**](raiseexception.md) function causes an exception in the guarded body of a termination handler that is inside the guarded body of an exception handler. The exception causes the system to evaluate the FilterFunction function, whose return value in turn causes the exception handler to be invoked. However, before the exception-handler block is executed, the **\_\_finally** block of the termination handler is executed because the flow of control has left the **\_\_try** block of the termination handler.
+The following example shows the interaction of nested handlers. The [**RaiseException**](/windows/win32/WinBase/?branch=master) function causes an exception in the guarded body of a termination handler that is inside the guarded body of an exception handler. The exception causes the system to evaluate the FilterFunction function, whose return value in turn causes the exception handler to be invoked. However, before the exception-handler block is executed, the **\_\_finally** block of the termination handler is executed because the flow of control has left the **\_\_try** block of the termination handler.
 
 
 ```C++

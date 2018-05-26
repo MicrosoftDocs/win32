@@ -1,7 +1,12 @@
 ---
-Description: 'The SynchronousBlockOutputPin method blocks the pin; does not return until the pin is blocked.'
-ms.assetid: '10fdb788-bc72-4eda-b60b-af83f954d689'
-title: 'CDynamicOutputPin.SynchronousBlockOutputPin method'
+Description: The SynchronousBlockOutputPin method blocks the pin; does not return until the pin is blocked.
+ms.assetid: 10fdb788-bc72-4eda-b60b-af83f954d689
+title: CDynamicOutputPin.SynchronousBlockOutputPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.SynchronousBlockOutputPin method
@@ -35,7 +40,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,9 +64,9 @@ Do not call this method from the streaming thread.
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: MSFT\_NetEventProvider class
 description: This class encapsulates an ETW provider on a computer for the event capture.
-ms.assetid: '401c8c4e-7591-4f16-9ca6-257de0d5065b'
-keywords: ["MSFT_NetEventProvider class", "MSFT_NetEventProvider class, described"]
+ms.assetid: 401c8c4e-7591-4f16-9ca6-257de0d5065b
+keywords:
+- MSFT_NetEventProvider class
+- MSFT_NetEventProvider class, described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,11 @@ api_location:
 - NetEventPacketCapture.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetEventProvider class
@@ -45,26 +52,26 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), ClassVersion("1.0"), dynamic, provider("NetEventPacketCapture"), AMENDMENT]
 class MSFT_NetEventProvider : MSFT_NetEventProviderBase
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   Name;
-  string   Guid;
-  string   SessionGuid;
-  string   SessionName;
-  uint8    Level;
-  uint64   MatchAnyKeyword;
-  uint64   MatchAllKeyword;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   Name;
+  string   Guid;
+  string   SessionGuid;
+  string   SessionName;
+  uint8    Level;
+  uint64   MatchAnyKeyword;
+  uint64   MatchAllKeyword;
 };
 ```
 
@@ -137,7 +144,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -201,7 +208,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -284,7 +291,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -467,7 +474,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -537,7 +544,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -578,7 +585,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -657,7 +664,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -685,8 +692,8 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                                       |
 | MOF<br/>                      | <dl> <dt>NetEventPacketCapture.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetEventPacketCapture.dll</dt> </dl> |
@@ -700,9 +707,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [**MSFT\_NetEventProviderBase**](msft-neteventproviderbase.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

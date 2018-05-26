@@ -1,25 +1,43 @@
 ---
 title: Find and Replace Dialog Boxes
 description: Displays a modeless dialog box that allows the user to specify a string to search for, as well as options to use when searching for text in a document.
-ms.assetid: 'c8c035bf-795d-42a7-abc6-168dea43e6e9'
-keywords: ["Windows User Interface,user input", "Windows User Interface,Common Dialog Box Library", "user input,Common Dialog Box Library", "capturing user input,Common Dialog Box Library", "Common Dialog Box Library", "common dialog boxes", "Find dialog box", "Replace dialog box", "customizing Find dialog box", "customizing Replace dialog box", "predefined dialog boxes", "dialog boxes,Find", "dialog boxes,Replace"]
+ms.assetid: c8c035bf-795d-42a7-abc6-168dea43e6e9
+keywords:
+- Windows User Interface,user input
+- Windows User Interface,Common Dialog Box Library
+- user input,Common Dialog Box Library
+- capturing user input,Common Dialog Box Library
+- Common Dialog Box Library
+- common dialog boxes
+- Find dialog box
+- Replace dialog box
+- customizing Find dialog box
+- customizing Replace dialog box
+- predefined dialog boxes
+- dialog boxes,Find
+- dialog boxes,Replace
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Find and Replace Dialog Boxes
 
 Displays a modeless dialog box that allows the user to specify a string to search for, as well as options to use when searching for text in a document. The **Replace** dialog box lets the user specify a string to search for and a replacement string, as well as options to control the operation.
 
-You create and display a **Find** dialog box by initializing a [**FINDREPLACE**](findreplace-str.md) structure and passing the structure to the [**FindText**](findtext.md) function. The following illustration shows a typical **Find** dialog box.
+You create and display a **Find** dialog box by initializing a [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure and passing the structure to the [**FindText**](/windows/win32/Commdlg/nf-commdlg-findtexta?branch=master) function. The following illustration shows a typical **Find** dialog box.
 
 ![find dialog box](images/finddialogboxxp.png)
 
-You create and display a **Replace** dialog box by initializing a [**FINDREPLACE**](findreplace-str.md) structure and passing the structure to the [**ReplaceText**](replacetext.md) function. The following illustration shows a typical **Replace** dialog box.
+You create and display a **Replace** dialog box by initializing a [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure and passing the structure to the [**ReplaceText**](/windows/win32/Commdlg/nf-commdlg-replacetexta?branch=master) function. The following illustration shows a typical **Replace** dialog box.
 
 ![replace dialog box](images/replacedialogboxxp.png)
 
 Unlike other common dialog boxes, the **Find** and **Replace** dialog boxes are modeless. A modeless dialog box allows the user to switch between the dialog box and the window that created it. This is useful for letting the user search for a string, switch to the application window to work on the string, and switch back to the dialog box to search for another string without repeating the command needed to open the dialog box.
 
-If the [**FindText**](findtext.md) or [**ReplaceText**](replacetext.md) function successfully creates the dialog box, it returns a handle to the dialog box. You can use this handle to move and communicate with the dialog box. If the function cannot create the dialog box, it returns **NULL**. You can determine the cause of an error by calling the [**CommDlgExtendedError**](commdlgextendederror.md) function to retrieve the extended error value.
+If the [**FindText**](/windows/win32/Commdlg/nf-commdlg-findtexta?branch=master) or [**ReplaceText**](/windows/win32/Commdlg/nf-commdlg-replacetexta?branch=master) function successfully creates the dialog box, it returns a handle to the dialog box. You can use this handle to move and communicate with the dialog box. If the function cannot create the dialog box, it returns **NULL**. You can determine the cause of an error by calling the [**CommDlgExtendedError**](/windows/win32/Commdlg/nf-commdlg-commdlgextendederror?branch=master) function to retrieve the extended error value.
 
 This section discusses the following topics.
 
@@ -28,11 +46,11 @@ This section discusses the following topics.
 
 ## The FINDMSGSTRING Registered Message
 
-Before creating a **Find** or **Replace** dialog box, you must call the [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947) function to get a message identifier for the [**FINDMSGSTRING**](findmsgstring.md) registered message. You can then use the identifier to detect and process messages sent from the dialog box. When the user clicks the **Find Next**, **Replace**, or **Replace All** button in a dialog box, the dialog box procedure sends a **FINDMSGSTRING** message to the window procedure of the owner window. When you create the dialog box, the **hwndOwner** member of the [**FINDREPLACE**](findreplace-str.md) structure identifies the owner window.
+Before creating a **Find** or **Replace** dialog box, you must call the [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947) function to get a message identifier for the [**FINDMSGSTRING**](findmsgstring.md) registered message. You can then use the identifier to detect and process messages sent from the dialog box. When the user clicks the **Find Next**, **Replace**, or **Replace All** button in a dialog box, the dialog box procedure sends a **FINDMSGSTRING** message to the window procedure of the owner window. When you create the dialog box, the **hwndOwner** member of the [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure identifies the owner window.
 
-The *lParam* parameter of a [**FINDMSGSTRING**](findmsgstring.md) message is a pointer to the [**FINDREPLACE**](findreplace-str.md) structure that you specified when you created the dialog box. Before sending the message, the dialog box sets the members of this structure with the latest user input, including the string to search for, the replacement string (if any), and options for the find-and-replace operation.
+The *lParam* parameter of a [**FINDMSGSTRING**](findmsgstring.md) message is a pointer to the [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure that you specified when you created the dialog box. Before sending the message, the dialog box sets the members of this structure with the latest user input, including the string to search for, the replacement string (if any), and options for the find-and-replace operation.
 
-In a [**FINDMSGSTRING**](findmsgstring.md) message, the **Flags** member of the [**FINDREPLACE**](findreplace-str.md) structure includes one of the following flags to indicate the event that caused the message.
+In a [**FINDMSGSTRING**](findmsgstring.md) message, the **Flags** member of the [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure includes one of the following flags to indicate the event that caused the message.
 
 
 
@@ -65,18 +83,18 @@ For a **Find Next** or **Replace All** message, the **Flags** member can include
 
 To customize a **Find** or **Replace** dialog box, you can use any of the following methods:
 
--   Specify values in the [**FINDREPLACE**](findreplace-str.md) structure when you create the dialog box
+-   Specify values in the [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure when you create the dialog box
 -   Provide a custom template
 -   Provide a hook procedure
 
-When you create a **Find** or **Replace** dialog box, you can set flags in the **Flags** member of the [**FINDREPLACE**](findreplace-str.md) structure to hide or disable any of the search option controls. For example, you can set the FR\_NOMATCHCASE flag to disable the **Match Case** check box or set the FR\_HIDEMATCHCASE flag to hide it.
+When you create a **Find** or **Replace** dialog box, you can set flags in the **Flags** member of the [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure to hide or disable any of the search option controls. For example, you can set the FR\_NOMATCHCASE flag to disable the **Match Case** check box or set the FR\_HIDEMATCHCASE flag to hide it.
 
-You can provide a custom template for a **Find** or **Replace** dialog box, for example, if you want to include additional controls that are unique to your application. The [**FindText**](findtext.md) and [**ReplaceText**](replacetext.md) functions use your custom template in place of the default template.
+You can provide a custom template for a **Find** or **Replace** dialog box, for example, if you want to include additional controls that are unique to your application. The [**FindText**](/windows/win32/Commdlg/nf-commdlg-findtexta?branch=master) and [**ReplaceText**](/windows/win32/Commdlg/nf-commdlg-replacetexta?branch=master) functions use your custom template in place of the default template.
 
 **To provide a custom template for a Find or Replace dialog box**
 
 1.  Create the custom template by modifying the default template specified in the Findtext.dlg file. The control identifiers used in the default **Find** or **Replace** dialog template are defined in the Dlgs.h file.
-2.  Use the [**FINDREPLACE**](findreplace-str.md) structure to enable the template as follows:
+2.  Use the [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure to enable the template as follows:
     -   -   If your custom template is a resource in an application or dynamic-link library, set the FR\_ENABLETEMPLATE flag in the **Flags** member. Use the **hInstance** and **lpTemplateName** members of the structure to identify the module and resource name.
 
             -Or-
@@ -87,10 +105,10 @@ You can provide an [**FRHookProc**](frhookproc.md) hook procedure for a **Find**
 
 **To enable a hook procedure for a Find or Replace dialog box**
 
-1.  Set the FR\_ENABLEHOOK flag in the **Flags** member of the [**FINDREPLACE**](findreplace-str.md) structure.
+1.  Set the FR\_ENABLEHOOK flag in the **Flags** member of the [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure.
 2.  Specify the address of the hook procedure in the **lpfnHook** member.
 
-After processing its [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box procedure sends a **WM\_INITDIALOG** message to the hook procedure. The *lParam* parameter of this message is a pointer to the [**FINDREPLACE**](findreplace-str.md) structure used to initialize the dialog box.
+After processing its [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box procedure sends a **WM\_INITDIALOG** message to the hook procedure. The *lParam* parameter of this message is a pointer to the [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure used to initialize the dialog box.
 
 If the hook procedure returns **FALSE** in response to the [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box will not be shown unless the hook procedure displays it. To do this, first perform any other paint operations, and then call the [**ShowWindow**](https://msdn.microsoft.com/library/windows/desktop/ms633548) and [**UpdateWindow**](https://msdn.microsoft.com/library/windows/desktop/dd145167) functions. The following code provides an example:
 

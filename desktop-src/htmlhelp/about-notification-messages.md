@@ -1,7 +1,12 @@
 ---
 title: About Notification Messages
 description: HTML Help notification messages are sent from a help window to the window that you specify in an HtmlHelp() call.
-ms.assetid: 'C2A026AF-C759-4c72-8B7F-3848368E9AA6'
+ms.assetid: C2A026AF-C759-4c72-8B7F-3848368E9AA6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Notification Messages
@@ -16,7 +21,7 @@ Notification messages occur for the following events:
 
 ## To enable notification message tracking
 
-HTML Help sends notification messages from help windows that have the following [**HH\_WINTYPE**](hh-wintype-structure.md) property settings:
+HTML Help sends notification messages from help windows that have the following [**HH\_WINTYPE**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_wintype?branch=master) property settings:
 
 -   The value of *hwndCaller* must be non zero.
 -   The value of *idNotify* must be non zero.

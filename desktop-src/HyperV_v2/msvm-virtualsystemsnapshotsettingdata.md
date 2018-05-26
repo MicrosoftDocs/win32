@@ -1,7 +1,12 @@
 ---
-Description: 'Provides additional information to be used with the CreateSnapshot method of the Msvm\_VirtualSystemSnapshotService class.'
-ms.assetid: 'd4a025c4-6a3c-4ae0-8f2c-421c1aa1eb23'
-title: 'Msvm\_VirtualSystemSnapshotSettingData class'
+Description: Provides additional information to be used with the CreateSnapshot method of the Msvm\_VirtualSystemSnapshotService class.
+ms.assetid: d4a025c4-6a3c-4ae0-8f2c-421c1aa1eb23
+title: Msvm\_VirtualSystemSnapshotSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemSnapshotSettingData class
@@ -16,9 +21,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [AMENDMENT]
 class Msvm_VirtualSystemSnapshotSettingData : CIM_SettingData
 {
-  uint8   ConsistencyLevel;
+  uint8   ConsistencyLevel;
   boolean IgnoreNonSnapshottableDisks;
-  uint8   GuestBackupType;
+  uint8   GuestBackupType;
 };
 ```
 
@@ -82,9 +87,9 @@ Access type: Read-only
 Backup type to be used inside the guest.
 
 > [!Note]  
-> Property added in Windows 10, version 1703
+> Property added in Windows 10, version 1703
 
- 
+ 
 
 <dt>
 
@@ -130,8 +135,8 @@ Specifies if non-snapshottable disks like passthrough disks and Fibre Channel Di
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -145,9 +150,9 @@ Specifies if non-snapshottable disks like passthrough disks and Fibre Channel Di
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

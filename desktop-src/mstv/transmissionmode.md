@@ -1,8 +1,9 @@
 ---
 title: TransmissionMode enumeration
 description: Specifies the transmission mode.
-ms.assetid: 'b5722904-24a4-491f-8563-bfb2d5695d86'
-keywords: ["TransmissionMode enumeration Microsoft TV Technologies"]
+ms.assetid: b5722904-24a4-491f-8563-bfb2d5695d86
+keywords:
+- TransmissionMode enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TransmissionMode enumeration
@@ -22,8 +28,8 @@ Specifies the transmission mode.
 
 ```C++
 typedef enum TransmissionMode { 
-  BDA_XMIT_MODE_NOT_SET         = -1,
-  BDA_XMIT_MODE_NOT_DEFINED     = 0,
+  BDA_XMIT_MODE_NOT_SET         = -1,
+  BDA_XMIT_MODE_NOT_DEFINED     = 0,
   BDA_XMIT_MODE_2K,
   BDA_XMIT_MODE_8K,
   BDA_XMIT_MODE_4K,
@@ -133,15 +139,15 @@ Reserved; do not use.
 
 <dl> <dt>
 
-[**IDVBTLocator::get\_Mode**](idvbtlocator-get-mode.md)
+[**IDVBTLocator::get\_Mode**](/windows/previous-versions/tuner/nf-tuner-idvbtlocator-get_mode?branch=master)
 </dt> <dt>
 
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

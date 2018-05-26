@@ -4,12 +4,15 @@ description: The Gateway Health Monitor WMI Provider manages gateway health moni
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2f21de3b-c0b7-4d23-b956-ca9c0d479a7e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2f21de3b-c0b7-4d23-b956-ca9c0d479a7e
+ms.prod: windows-server-dev
 ms.technology:
-- 'gateway-health-monitor'
-- 'windows-management-instrumentation'
+- gateway-health-monitor
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Gateway Health Monitor WMI Provider

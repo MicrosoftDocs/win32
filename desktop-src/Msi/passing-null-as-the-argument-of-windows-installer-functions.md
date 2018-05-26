@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Installer functions that return data in a user provided–memory location should not be called with null as the value for the pointer.'
-ms.assetid: 'f566c4a4-b90c-4d73-9d7f-f5b836630636'
+Description: Windows Installer functions that return data in a user provided–memory location should not be called with null as the value for the pointer.
+ms.assetid: f566c4a4-b90c-4d73-9d7f-f5b836630636
 title: Passing null as the Argument of Windows Installer Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Passing null as the Argument of Windows Installer Functions
@@ -10,33 +15,33 @@ Windows Installer functions that return data in a user provided–memory locatio
 
 Do not pass Null as the value of the output argument for any of the following functions:
 
-[**MsiGetProperty**](msigetproperty.md)
+[**MsiGetProperty**](/windows/win32/Msiquery/nf-msiquery-msigetpropertya?branch=master)
 
-[**MsiRecordGetString**](msirecordgetstring.md)
+[**MsiRecordGetString**](/windows/win32/Msiquery/nf-msiquery-msirecordgetstringa?branch=master)
 
-[**MsiFormatRecord**](msiformatrecord.md)
+[**MsiFormatRecord**](/windows/win32/Msiquery/nf-msiquery-msiformatrecorda?branch=master)
 
-[**MsiGetSourcePath**](msigetsourcepath.md)
+[**MsiGetSourcePath**](/windows/win32/Msiquery/nf-msiquery-msigetsourcepatha?branch=master)
 
-[**MsiGetTargetPath**](msigettargetpath.md)
+[**MsiGetTargetPath**](/windows/win32/Msiquery/nf-msiquery-msigettargetpatha?branch=master)
 
-[**MsiGetFeatureState**](msigetfeaturestate.md)
+[**MsiGetFeatureState**](/windows/win32/Msiquery/nf-msiquery-msigetfeaturestatea?branch=master)
 
-[**MsiViewGetError**](msiviewgeterror.md)
+[**MsiViewGetError**](/windows/win32/Msiquery/nf-msiquery-msiviewgeterrora?branch=master)
 
-[**MsiSummaryInfoGetProperty**](msisummaryinfogetproperty.md)
+[**MsiSummaryInfoGetProperty**](/windows/win32/Msiquery/nf-msiquery-msisummaryinfogetpropertya?branch=master)
 
-[**MsiEvaluateCondition**](msievaluatecondition.md)
+[**MsiEvaluateCondition**](/windows/win32/Msiquery/nf-msiquery-msievaluateconditiona?branch=master)
 
-[**MsiGetFeatureCost**](msigetfeaturecost.md)
+[**MsiGetFeatureCost**](/windows/win32/Msiquery/nf-msiquery-msigetfeaturecosta?branch=master)
 
-[**MsiGetFeatureState**](msigetfeaturestate.md)
+[**MsiGetFeatureState**](/windows/win32/Msiquery/nf-msiquery-msigetfeaturestatea?branch=master)
 
-[**MsiGetComponentState**](msigetcomponentstate.md)
+[**MsiGetComponentState**](/windows/win32/Msiquery/nf-msiquery-msigetcomponentstatea?branch=master)
 
-[**MsiGetFeatureCost**](msigetfeaturecost.md)
+[**MsiGetFeatureCost**](/windows/win32/Msiquery/nf-msiquery-msigetfeaturecosta?branch=master)
 
-[**MsiGetFeatureValidStates**](msigetfeaturevalidstates.md)
+[**MsiGetFeatureValidStates**](/windows/win32/Msiquery/nf-msiquery-msigetfeaturevalidstatesa?branch=master)
 
  
 

@@ -1,8 +1,14 @@
 ---
 title: Using the Windows Deployment Services Client API
 description: In environments where a standard Windows Deployment Services (WDS) solution cannot be used to install Windows, the API of the WDS client enables developers to write custom deployment applications.
-ms.assetid: 'abe2a7c7-989a-456e-80df-90d5b816db38'
-keywords: ["Windows Deployment Services Windows Deployment Services , using the client API"]
+ms.assetid: abe2a7c7-989a-456e-80df-90d5b816db38
+keywords:
+- Windows Deployment Services Windows Deployment Services , using the client API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Windows Deployment Services Client API
@@ -26,41 +32,41 @@ Windows PE 2.0 must be started, if not already started. The WDS client and suppo
 
 The WDS client must open a session with a WDS server.
 
--   Use the [**WdsCliCreateSession**](wdsclicreatesession.md) function to open a session with a WDS server. This function takes the name or IP address of the server and receives the address of the handle for the WDS client session.
--   If opening the session with the server will require authenticating the WDS client, the application should provide the address of a [**WDS\_CLI\_CRED**](wds-cli-cred.md) structure containing the client credentials when calling the [**WdsCliCreateSession**](wdsclicreatesession.md) function. The application can use the [**WdsCliAuthorizeSession**](wdscliauthorizesession.md) function to convert an anonymous session into an authenticated session.
--   When the session opened with the [**WdsCliCreateSession**](wdsclicreatesession.md) function is no longer needed, the application should use the [**WdsCliClose**](wdscliclose.md) function to close the handle and release resources held by the session.
+-   Use the [**WdsCliCreateSession**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdsclicreatesession?branch=master) function to open a session with a WDS server. This function takes the name or IP address of the server and receives the address of the handle for the WDS client session.
+-   If opening the session with the server will require authenticating the WDS client, the application should provide the address of a [**WDS\_CLI\_CRED**](/windows/win32/WdsClientAPI/ns-wdsclientapi-tagwds_cli_cred?branch=master) structure containing the client credentials when calling the [**WdsCliCreateSession**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdsclicreatesession?branch=master) function. The application can use the [**WdsCliAuthorizeSession**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscliauthorizesession?branch=master) function to convert an anonymous session into an authenticated session.
+-   When the session opened with the [**WdsCliCreateSession**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdsclicreatesession?branch=master) function is no longer needed, the application should use the [**WdsCliClose**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscliclose?branch=master) function to close the handle and release resources held by the session.
 
 ## Enumerate system images on the WDS server
 
 The WDS client can use the API to enumerate the system images on the WDS server.
 
--   Use the [**WdsCliFindFirstImage**](wdsclifindfirstimage.md) function to obtain a handle to the first image and to initialize the enumeration of images on the WDS server.
--   Use the [**WdsCliFindNextImage**](wdsclifindnextimage.md) function to increment the enumeration started by the [**WdsCliFindFirstImage**](wdsclifindfirstimage.md) function. The **WdsCliFindNextImage** function gets the handle for the next image.
--   Use the [**WdsCliGetImageIndex**](wdscligetimageindex.md) function to obtain the image index for the current image. This value is valid only until the [**WdsCliFindNextImage**](wdsclifindnextimage.md) or [**WdsCliClose**](wdscliclose.md) functions are used again.
--   Use the [**WdsCliGetEnumerationFlags**](wdscligetenumerationflags.md) function to get informational flags about image filtering.
+-   Use the [**WdsCliFindFirstImage**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdsclifindfirstimage?branch=master) function to obtain a handle to the first image and to initialize the enumeration of images on the WDS server.
+-   Use the [**WdsCliFindNextImage**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdsclifindnextimage?branch=master) function to increment the enumeration started by the [**WdsCliFindFirstImage**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdsclifindfirstimage?branch=master) function. The **WdsCliFindNextImage** function gets the handle for the next image.
+-   Use the [**WdsCliGetImageIndex**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscligetimageindex?branch=master) function to obtain the image index for the current image. This value is valid only until the [**WdsCliFindNextImage**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdsclifindnextimage?branch=master) or [**WdsCliClose**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscliclose?branch=master) functions are used again.
+-   Use the [**WdsCliGetEnumerationFlags**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscligetenumerationflags?branch=master) function to get informational flags about image filtering.
 
 ## Get information about images
 
-The WDS client can use the API to get information about the images on a WDS server. The following functions get information about the current image. Because the [**WdsCliFindFirstImage**](wdsclifindfirstimage.md) and [**WdsCliFindNextImage**](wdsclifindnextimage.md) functions change the current image handle value, the application should store any information it gets and will need in the future before calling the **WdsCliFindFirstImage** or **WdsCliFindNextImage** functions again.
+The WDS client can use the API to get information about the images on a WDS server. The following functions get information about the current image. Because the [**WdsCliFindFirstImage**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdsclifindfirstimage?branch=master) and [**WdsCliFindNextImage**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdsclifindnextimage?branch=master) functions change the current image handle value, the application should store any information it gets and will need in the future before calling the **WdsCliFindFirstImage** or **WdsCliFindNextImage** functions again.
 
--   Use the [**WdsCliGetImageArchitecture**](wdscligetimagearchitecture.md) function to get the processor architecture of the current image.
--   Use the [**WdsCliGetImagePath**](wdscligetimagepath.md) function to get the relative path to the image file that contains the current image.
--   Use the [**WdsCliGetImageSize**](wdscligetimagesize.md) function to get the image size.
--   Use the [**WdsCliGetImageVersion**](wdscligetimageversion.md) function to get the image version.
--   Use the [**WdsCliGetImageLanguage**](wdscligetimagelanguage.md) function to get the default language of the current image.
--   Use the [**WdsCliGetImageLanguages**](wdscligetimagelanguages.md) function to get an array of languages supported by the current image.
--   Use the [**WdsCliGetImageLastModifiedTime**](wdscligetimagelastmodifiedtime.md) returns the last-modified time for the current image.
--   Use the [**WdsCliGetImageName**](wdscligetimagename.md) function to get the name of the current image.
--   Use the [**WdsCliGetImageDescription**](wdscligetimagedescription.md) function to get the description of the current image.
--   Use the [**WdsCliGetImageGroup**](wdscligetimagegroup.md) function to get the image group name for the current image.
--   Use the [**WdsCliGetImageHalName**](wdscligetimagehalname.md) function to get the Hardware Abstraction Layer (HAL) name for the current image.
+-   Use the [**WdsCliGetImageArchitecture**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscligetimagearchitecture?branch=master) function to get the processor architecture of the current image.
+-   Use the [**WdsCliGetImagePath**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscligetimagepath?branch=master) function to get the relative path to the image file that contains the current image.
+-   Use the [**WdsCliGetImageSize**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscligetimagesize?branch=master) function to get the image size.
+-   Use the [**WdsCliGetImageVersion**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscligetimageversion?branch=master) function to get the image version.
+-   Use the [**WdsCliGetImageLanguage**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscligetimagelanguage?branch=master) function to get the default language of the current image.
+-   Use the [**WdsCliGetImageLanguages**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscligetimagelanguages?branch=master) function to get an array of languages supported by the current image.
+-   Use the [**WdsCliGetImageLastModifiedTime**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscligetimagelastmodifiedtime?branch=master) returns the last-modified time for the current image.
+-   Use the [**WdsCliGetImageName**](/windows/win32/WdsClientApi/nf-wdsclientapi-wdscligetimagename?branch=master) function to get the name of the current image.
+-   Use the [**WdsCliGetImageDescription**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscligetimagedescription?branch=master) function to get the description of the current image.
+-   Use the [**WdsCliGetImageGroup**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscligetimagegroup?branch=master) function to get the image group name for the current image.
+-   Use the [**WdsCliGetImageHalName**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscligetimagehalname?branch=master) function to get the Hardware Abstraction Layer (HAL) name for the current image.
 
 ## Log WDS Client Events
 
 The logging functionality of the WDS client library enables installation progress events to be sent from the client to the WDS server.
 
--   Use the [**WdsCliInitializeLog**](wdscliinitializelog.md) function to initialize the log for the WDS client session.
--   Use the [**WdsCliLog**](wdsclilog.md) function to write event messages to the WDS server log.
+-   Use the [**WdsCliInitializeLog**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdscliinitializelog?branch=master) function to initialize the log for the WDS client session.
+-   Use the [**WdsCliLog**](/windows/win32/WdsClientAPI/nf-wdsclientapi-wdsclilog?branch=master) function to write event messages to the WDS server log.
 -   On Windows Server 2008, the WDS server writes client events to an application specific event log that is viewable through eventvwr.exe as well as the debug trace log. On Windows Server 2003 with debug logging enabled, the WDS server will write client events to the log file located at %windir%\\tracing\\wdsserver.log. WDS Client logging must be enabled on the server to capture these events.
 
 ## Related topics

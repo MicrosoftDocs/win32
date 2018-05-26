@@ -1,7 +1,12 @@
-﻿---
-Description: 'On Windows 2000 and later operating systems, the installer sets the MsiNTSuiteWebServer property to 1 if the installer is running on a web edition of the Windows Server 2003.'
-ms.assetid: 'de462ba2-4654-4f47-9dd7-3bc9c6f0af0e'
+---
+Description: On Windows 2000 and later operating systems, the installer sets the MsiNTSuiteWebServer property to 1 if the installer is running on a web edition of the Windows Server 2003.
+ms.assetid: de462ba2-4654-4f47-9dd7-3bc9c6f0af0e
 title: MsiNTSuiteWebServer property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiNTSuiteWebServer property

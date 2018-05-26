@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the longitude based on the reference in PKEY\_GPS\_LongitudeRef. Calculated from PKEY\_GPS\_LongitudeNumerator and PKEY\_GPS\_LongitudeDenominator.'
-ms.assetid: '3b5b421f-efdc-4a23-a6dd-58a4fe80431a'
-title: 'System.GPS.LongitudeDecimal'
+Description: Indicates the longitude based on the reference in PKEY\_GPS\_LongitudeRef. Calculated from PKEY\_GPS\_LongitudeNumerator and PKEY\_GPS\_LongitudeDenominator.
+ms.assetid: 3b5b421f-efdc-4a23-a6dd-58a4fe80431a
+title: System.GPS.LongitudeDecimal
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.LongitudeDecimal

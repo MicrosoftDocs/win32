@@ -1,7 +1,12 @@
 ---
 title: VML MiterLimit Attribute
 description: VML MiterLimit Attribute
-ms.assetid: '74744b8a-df73-4a2e-8df7-07fd0e423a47'
+ms.assetid: 74744b8a-df73-4a2e-8df7-07fd0e423a47
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML MiterLimit Attribute

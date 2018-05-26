@@ -1,8 +1,15 @@
 ---
 title: MCI Macros
 description: MCI Macros
-ms.assetid: '13aee98b-dd49-4479-acb2-0583b689500c'
-keywords: ["MCI macros", "MCI reference,macros"]
+ms.assetid: 13aee98b-dd49-4479-acb2-0583b689500c
+keywords:
+- MCI macros
+- MCI reference,macros
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI Macros
@@ -15,7 +22,7 @@ The following macros are used with MCI.
 -   [**MCI\_MAKE\_HMS**](mci-make-hms.md)
 -   [**MCI\_MAKE\_MSF**](mci-make-msf.md)
 -   [**MCI\_MAKE\_TMSF**](mci-make-tmsf.md)
--   [**MCI\_MSF\_FRAME**](mci-msf-frame.md)
+-   [**MCI\_MSF\_FRAME**](/windows/win32/Mmsystem/?branch=master)
 -   [**MCI\_MSF\_MINUTE**](mci-msf-minute.md)
 -   [**MCI\_MSF\_SECOND**](mci-msf-second.md)
 -   [**MCI\_TMSF\_FRAME**](mci-tmsf-frame.md)

@@ -1,7 +1,12 @@
 ---
-Description: 'Sensitivity information in Dbfs for a microphone device.'
-ms.assetid: '232e39e8-551c-4fc3-b26f-5912f57722b6'
-title: 'System.Devices.AudioDevice.Microphone.SensitivityInDbfs'
+Description: Sensitivity information in Dbfs for a microphone device.
+ms.assetid: 232e39e8-551c-4fc3-b26f-5912f57722b6
+title: System.Devices.AudioDevice.Microphone.SensitivityInDbfs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AudioDevice.Microphone.SensitivityInDbfs

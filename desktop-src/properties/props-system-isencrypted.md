@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies whether the item is encrypted.'
-ms.assetid: 'fd93f915-6af3-4bde-982e-6774a1ca83af'
-title: 'System.IsEncrypted'
+Description: Identifies whether the item is encrypted.
+ms.assetid: fd93f915-6af3-4bde-982e-6774a1ca83af
+title: System.IsEncrypted
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.IsEncrypted

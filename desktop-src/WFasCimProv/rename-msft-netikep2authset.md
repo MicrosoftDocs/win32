@@ -1,7 +1,12 @@
 ---
-Description: 'Rename this set.'
-ms.assetid: 'a2ae7eca-dba3-4455-a0a1-9011d73e226c'
-title: 'Rename method of the MSFT\_NetIKEP2AuthSet class'
+Description: Rename this set.
+ms.assetid: a2ae7eca-dba3-4455-a0a1-9011d73e226c
+title: Rename method of the MSFT\_NetIKEP2AuthSet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rename method of the MSFT\_NetIKEP2AuthSet class
@@ -13,7 +18,7 @@ Rename this set.
 
 ```mof
 uint32 Rename(
-  [in] string NewName
+  [in] string NewName
 );
 ```
 
@@ -36,8 +41,8 @@ The new name for the set.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
@@ -51,9 +56,9 @@ The new name for the set.
 [**MSFT\_NetIKEP2AuthSet**](msft-netikep2authset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

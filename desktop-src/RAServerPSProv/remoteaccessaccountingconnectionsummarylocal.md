@@ -2,13 +2,15 @@
 title: RemoteAccessAccountingConnectionSummaryLocal class
 description: Remote Access Connection Statistics Summary Record From Accounting Data.
 audience: developer
-ms.assetid: '2e6ab500-3689-484a-917e-195995d0f5ab'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2e6ab500-3689-484a-917e-195995d0f5ab
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessAccountingConnectionSummaryLocal class", "RemoteAccessAccountingConnectionSummaryLocal class, described"]
+keywords:
+- RemoteAccessAccountingConnectionSummaryLocal class
+- RemoteAccessAccountingConnectionSummaryLocal class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessAccountingConnectionSummaryLocal class
@@ -143,16 +148,16 @@ The total number of VPN sessions.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\microsoft\\windows\\remoteaccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

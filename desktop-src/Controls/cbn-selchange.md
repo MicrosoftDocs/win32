@@ -1,8 +1,9 @@
 ---
 title: CBN\_SELCHANGE notification code
 description: Sent when the user changes the current selection in the list box of a combo box.
-ms.assetid: '2d0d711c-dfc4-485b-97bb-9ccfa7c5864b'
-keywords: ["CBN_SELCHANGE notification code Windows Controls"]
+ms.assetid: 2d0d711c-dfc4-485b-97bb-9ccfa7c5864b
+keywords:
+- CBN_SELCHANGE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBN\_SELCHANGE notification code
@@ -57,8 +63,8 @@ The CBN\_SELCHANGE notification code is not sent when the current selection is s
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -94,9 +100,9 @@ The CBN\_SELCHANGE notification code is not sent when the current selection is s
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

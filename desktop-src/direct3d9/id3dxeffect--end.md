@@ -1,7 +1,12 @@
-﻿---
-Description: 'Ends an active technique.'
-ms.assetid: '7297aa67-5cd4-4557-b5ef-faa6c27eaeb5'
-title: 'ID3DXEffect::End method'
+---
+Description: Ends an active technique.
+ms.assetid: 7297aa67-5cd4-4557-b5ef-faa6c27eaeb5
+title: ID3DXEffectEnd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::End method

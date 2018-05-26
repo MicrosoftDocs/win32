@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseManagement RestoreLicenses method
 description: The RestoreLicenses method restores licenses from a license backup that was created by calling the BackupLicenses method.
-ms.assetid: '83e4b748-0f69-4a9e-b531-047c9a2be1fe'
-keywords: ["RestoreLicenses method windows Media Format", "RestoreLicenses method windows Media Format , IWMDRMLicenseManagement interface", "IWMDRMLicenseManagement interface windows Media Format , RestoreLicenses method"]
+ms.assetid: 83e4b748-0f69-4a9e-b531-047c9a2be1fe
+keywords:
+- RestoreLicenses method windows Media Format
+- RestoreLicenses method windows Media Format , IWMDRMLicenseManagement interface
+- IWMDRMLicenseManagement interface windows Media Format , RestoreLicenses method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseManagement::RestoreLicenses method
@@ -23,9 +31,9 @@ The **RestoreLicenses** method restores licenses from a license backup that was 
 
 ```C++
 HRESULT RestoreLicenses(
-  [in]  BSTR     bstrBackupDirectory,
-  [in]  DWORD    dwFlags,
-  [out] IUnknown **ppunkCancelationCookie
+  [in]  BSTR     bstrBackupDirectory,
+  [in]  DWORD    dwFlags,
+  [out] IUnknown **ppunkCancelationCookie
 );
 ```
 
@@ -68,7 +76,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -96,9 +104,9 @@ The backup can be from the local machine or from a different machine.
 [**IWMDRMLicenseManagement Interface**](iwmdrmlicensemanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

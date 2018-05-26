@@ -1,7 +1,12 @@
 ---
 title: The Listening Tip
 description: The Listening Tip
-ms.assetid: 'd363c1ac-53fc-4b93-b056-63eeee923380'
+ms.assetid: d363c1ac-53fc-4b93-b056-63eeee923380
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Listening Tip
@@ -21,7 +26,7 @@ The following table summarizes the display of the Listening Tip when speech reco
 
 
 
- 
+ 
 
 The Listening Tip automatically times out after being presented. If the "Heard" text time-out completes while the user is still holding down the hotkey, the tip reverts to the "listening" text unless the server receives another matching utterance. In this case, the tip displays the new "Heard" text and begins the time-out for that tip text. If the user releases the hotkey and the server is displaying the "Heard" text, the time-out continues and the Listening Tip window is hidden when the time-out interval elapses.
 
@@ -33,9 +38,9 @@ Client applications cannot write directly to the Listening Tip, but you can spec
 
 The Listening Tip text appears in the language based on the input-active client's character language ID setting, regardless of whether there is a language-compatible speech recognition engine available.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to enumerate libraries as containers.'
+Description: Demonstrates how to enumerate libraries as containers.
 title: Shell Library Backup Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell Library Backup Sample

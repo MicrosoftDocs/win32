@@ -1,14 +1,20 @@
 ---
 title: TemplateItemType Complex Type
 description: A template that defines the data to include with an event.
-ms.assetid: '1681af7d-03ef-47bc-bc02-ce1a9903fb44'
-keywords: ["TemplateItemType complex type EventLog"]
+ms.assetid: 1681af7d-03ef-47bc-bc02-ce1a9903fb44
+keywords:
+- TemplateItemType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - TemplateItemType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TemplateItemType Complex Type
@@ -115,14 +121,14 @@ The following example shows how to create a template definition.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

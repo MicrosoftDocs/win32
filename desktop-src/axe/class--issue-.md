@@ -1,14 +1,20 @@
 ---
 title: Class (Issue) element
 description: The issue class.
-ms.assetid: '0B2761A2-B726-4ADC-B91C-2BFEBB7BEE4C'
-keywords: ["Class (Issue) element Access Execution Engine"]
+ms.assetid: 0B2761A2-B726-4ADC-B91C-2BFEBB7BEE4C
+keywords:
+- Class (Issue) element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Class (Issue)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Class (Issue) element

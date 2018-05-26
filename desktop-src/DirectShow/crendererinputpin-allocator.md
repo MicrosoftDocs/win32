@@ -1,7 +1,12 @@
 ---
-Description: 'The Allocator method retrieves a pointer to the memory allocator.'
-ms.assetid: 'ac262502-eadc-482c-bc58-1e942889f0a7'
-title: 'CRendererInputPin.Allocator method'
+Description: The Allocator method retrieves a pointer to the memory allocator.
+ms.assetid: ac262502-eadc-482c-bc58-1e942889f0a7
+title: CRendererInputPin.Allocator method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererInputPin.Allocator method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns a pointer to the allocator's [**IMemAllocator**](imemallocator.md) interface, or **NULL**.
+Returns a pointer to the allocator's [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface, or **NULL**.
 
 ## Remarks
 
@@ -47,9 +52,9 @@ This method returns the [**CBaseInputPin::m\_pAllocator**](cbaseinputpin-m-pallo
 [**CRendererInputPin Class**](crendererinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

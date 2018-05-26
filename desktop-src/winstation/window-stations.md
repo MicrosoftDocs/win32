@@ -1,8 +1,14 @@
 ---
 title: Window Stations
 description: A window station contains a clipboard, an atom table, and one or more desktop objects. Each window station object is a securable object. When a window station is created, it is associated with the calling process and assigned to the current session.
-ms.assetid: '617661e2-3b0d-42a9-9769-2ba0957c31a8'
-keywords: ["window station objects"]
+ms.assetid: 617661e2-3b0d-42a9-9769-2ba0957c31a8
+keywords:
+- window station objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Stations

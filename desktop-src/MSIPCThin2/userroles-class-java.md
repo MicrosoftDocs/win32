@@ -4,17 +4,21 @@ description: Maps collections of users to a collection of roles.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'AB20E2B6-1CFB-4C8A-9A86-87EFB296EE43'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: AB20E2B6-1CFB-4C8A-9A86-87EFB296EE43
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserRoles class"]
+keywords:
+- UserRoles class
 topic_type:
 - apiref
 api_name:
 - UserRoles class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserRoles class
@@ -39,7 +43,7 @@ public final class UserRoless implements Serializable
 
 
 
- 
+ 
 
 ## Supported Platforms
 
@@ -51,7 +55,7 @@ public final class UserRoless implements Serializable
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -65,9 +69,9 @@ com.microsoft.rightsmanagement
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

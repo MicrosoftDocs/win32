@@ -1,7 +1,12 @@
 ---
 title: VML Height Attribute
 description: VML Height Attribute
-ms.assetid: '5667ddc5-c840-40d8-894e-58396f56e0fc'
+ms.assetid: 5667ddc5-c840-40d8-894e-58396f56e0fc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Height Attribute

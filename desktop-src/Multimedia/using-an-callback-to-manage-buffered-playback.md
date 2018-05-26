@@ -1,8 +1,22 @@
 ---
 title: Using an Event Callback to Manage Buffered Playback
 description: Using an Event Callback to Manage Buffered Playback
-ms.assetid: '3b60daea-574d-430b-b14e-1fefceb69dfb'
-keywords: ["Musical Instrument Digital Interface (MIDI),buffered playback", "MIDI (Musical Instrument Digital Interface),buffered playback", "playing MIDI files,buffered playback", "buffered playback", "CreateEvent function", "Musical Instrument Digital Interface (MIDI),event callback", "MIDI (Musical Instrument Digital Interface),event callback", "playing MIDI files,event callback", "event callback"]
+ms.assetid: 3b60daea-574d-430b-b14e-1fefceb69dfb
+keywords:
+- Musical Instrument Digital Interface (MIDI),buffered playback
+- MIDI (Musical Instrument Digital Interface),buffered playback
+- playing MIDI files,buffered playback
+- buffered playback
+- CreateEvent function
+- Musical Instrument Digital Interface (MIDI),event callback
+- MIDI (Musical Instrument Digital Interface),event callback
+- playing MIDI files,event callback
+- event callback
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using an Event Callback to Manage Buffered Playback

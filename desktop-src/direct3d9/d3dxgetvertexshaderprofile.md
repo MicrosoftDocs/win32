@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the name of the highest high-level shader language (HLSL) profile supported by a given device.'
-ms.assetid: 'a50e2a17-8170-4364-a562-7886593341b3'
+---
+Description: Returns the name of the highest high-level shader language (HLSL) profile supported by a given device.
+ms.assetid: a50e2a17-8170-4364-a562-7886593341b3
 title: D3DXGetVertexShaderProfile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXGetVertexShaderProfile function
@@ -26,9 +31,9 @@ LPCSTR D3DXGetVertexShaderProfile(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to the device. See [**IDirect3DDevice9**](idirect3ddevice9.md).
+Pointer to the device. See [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master).
 
 </dd> </dl>
 

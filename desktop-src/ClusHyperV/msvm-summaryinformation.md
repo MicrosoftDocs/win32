@@ -4,13 +4,15 @@ description: Used in the GetSummaryInformation method in the Msvm\_VirtualSystem
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e55bcbe3-c7cf-4722-be8d-4b59ff3b6555'
-ms.prod: 'windows-server-dev'
+ms.assetid: e55bcbe3-c7cf-4722-be8d-4b59ff3b6555
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_SummaryInformation class", "Msvm_SummaryInformation class, described"]
+keywords:
+- Msvm_SummaryInformation class
+- Msvm_SummaryInformation class, described
 topic_type:
 - apiref
 api_name:
@@ -63,6 +65,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_SummaryInformation class
@@ -77,50 +82,50 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SummaryInformation : Msvm_SummaryInformationBase
 {
-  string                       Caption;
-  string                       Description;
-  string                       InstanceID;
-  DateTime                     CreationTime;
-  string                       ElementName;
-  uint16                       EnabledState;
-  string                       OtherEnabledState;
-  uint16                       HealthState;
-  string                       Name;
-  string                       Notes;
-  string                       Version;
-  uint16                       NumberOfProcessors;
-  uint16                       OperationalStatus[];
-  string                       StatusDescriptions[];
-  uint64                       UpTime;
-  uint16                       EnhancedSessionModeState;
-  string                       VirtualSwitchNames[];
-  string                       VirtualSystemSubType;
-  string                       HostComputerSystemName;
-  string                       AllocatedGPU;
-  boolean                      Shielded;
-  CIM_ConcreteJob              AsynchronousTasks[];
-  string                       GuestOperatingSystem;
-  uint16                       Heartbeat;
-  uint64                       MemoryUsage;
-  sint32                       MemoryAvailable;
-  sint32                       AvailableMemoryBuffer;
-  boolean                      SwapFilesInUse;
-  uint16                       ProcessorLoad;
-  uint16                       ProcessorLoadHistory[];
+  string                       Caption;
+  string                       Description;
+  string                       InstanceID;
+  DateTime                     CreationTime;
+  string                       ElementName;
+  uint16                       EnabledState;
+  string                       OtherEnabledState;
+  uint16                       HealthState;
+  string                       Name;
+  string                       Notes;
+  string                       Version;
+  uint16                       NumberOfProcessors;
+  uint16                       OperationalStatus[];
+  string                       StatusDescriptions[];
+  uint64                       UpTime;
+  uint16                       EnhancedSessionModeState;
+  string                       VirtualSwitchNames[];
+  string                       VirtualSystemSubType;
+  string                       HostComputerSystemName;
+  string                       AllocatedGPU;
+  boolean                      Shielded;
+  CIM_ConcreteJob              AsynchronousTasks[];
+  string                       GuestOperatingSystem;
+  uint16                       Heartbeat;
+  uint64                       MemoryUsage;
+  sint32                       MemoryAvailable;
+  sint32                       AvailableMemoryBuffer;
+  boolean                      SwapFilesInUse;
+  uint16                       ProcessorLoad;
+  uint16                       ProcessorLoadHistory[];
   CIM_VirtualSystemSettingData Snapshots[];
-  uint8                        ThumbnailImage[];
-  uint16                       ThumbnailImageWidth;
-  uint16                       ThumbnailImageHeight;
-  uint16                       ReplicationState;
-  uint16                       ReplicationStateEx[];
-  uint16                       ReplicationHealth;
-  uint16                       ReplicationHealthEx[];
-  uint16                       ReplicationMode;
-  CIM_ComputerSystem       REF TestReplicaSystem;
-  string                       ReplicationProviderId[];
-  uint16                       ApplicationHealth;
-  uint16                       IntegrationServicesVersionState;
-  boolean                      MemorySpansPhysicalNumaNodes;
+  uint8                        ThumbnailImage[];
+  uint16                       ThumbnailImageWidth;
+  uint16                       ThumbnailImageHeight;
+  uint16                       ReplicationState;
+  uint16                       ReplicationStateEx[];
+  uint16                       ReplicationHealth;
+  uint16                       ReplicationHealthEx[];
+  uint16                       ReplicationMode;
+  CIM_ComputerSystem       REF TestReplicaSystem;
+  string                       ReplicationProviderId[];
+  uint16                       ApplicationHealth;
+  uint16                       IntegrationServicesVersionState;
+  boolean                      MemorySpansPhysicalNumaNodes;
 };
 ```
 
@@ -422,7 +427,7 @@ An optional property that uniquely and opaquely identifies an instance of this c
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**Msvm\_SummaryInformationBase**](msvm-summaryinformationbase.md).
 
@@ -1280,7 +1285,7 @@ This property is inherited from [**Msvm\_SummaryInformationBase**](msvm-summaryi
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -1294,9 +1299,9 @@ This property is inherited from [**Msvm\_SummaryInformationBase**](msvm-summaryi
 [**Msvm\_SummaryInformationBase**](msvm-summaryinformationbase.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

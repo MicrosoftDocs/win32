@@ -2,13 +2,16 @@
 title: Get method of the PS\_DAAppServer class
 description: This cmdlet displays the list of application server security groups that are part of the DA deployment and the properties of the connections made to them.
 audience: developer
-ms.assetid: '9e67b010-be50-441e-bbef-70acc31e509f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9e67b010-be50-441e-bbef-70acc31e509f
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DAAppServer class", "PS_DAAppServer class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DAAppServer class
+- PS_DAAppServer class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DAAppServer class
@@ -28,8 +34,8 @@ This cmdlet displays the list of application server security groups that are par
 
 ```mof
 uint32 Get(
-  [in]  string      ComputerName,
-  [out] DAAppServer cmdletOutput
+  [in]  string      ComputerName,
+  [out] DAAppServer cmdletOutput
 );
 ```
 
@@ -60,7 +66,7 @@ The following will be displayed 1. The list of application server security group
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -74,9 +80,9 @@ The following will be displayed 1. The list of application server security group
 [**PS\_DAAppServer**](ps-daappserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

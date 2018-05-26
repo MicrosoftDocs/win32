@@ -1,7 +1,12 @@
 ---
-Description: 'The ShouldUpdate method determines whether it is necessary to create a new palette.'
-ms.assetid: '50886277-189b-4102-ade9-0366f64fdbcb'
-title: 'CImagePalette.ShouldUpdate method'
+Description: The ShouldUpdate method determines whether it is necessary to create a new palette.
+ms.assetid: 50886277-189b-4102-ade9-0366f64fdbcb
+title: CImagePalette.ShouldUpdate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImagePalette.ShouldUpdate method
@@ -13,8 +18,8 @@ The `ShouldUpdate` method determines whether it is necessary to create a new pal
 
 ```C++
 BOOL ShouldUpdate(
-   const VIDEOINFOHEADER *pNewInfo,
-   const VIDEOINFOHEADER *pOldInfo
+   const VIDEOINFOHEADER *pNewInfo,
+   const VIDEOINFOHEADER *pOldInfo
 );
 ```
 
@@ -27,7 +32,7 @@ BOOL ShouldUpdate(
 *pNewInfo* 
 </dt> <dd>
 
-Pointer to a [**VIDEOINFOHEADER**](videoinfoheader.md) structure containing the new color table.
+Pointer to a [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure containing the new color table.
 
 </dd> <dt>
 
@@ -67,9 +72,9 @@ Returns **TRUE** if the palette needs to be updated, or **FALSE** otherwise.
 [**CImagePalette Class**](cimagepalette.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

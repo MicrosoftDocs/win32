@@ -1,8 +1,9 @@
 ---
 title: TCM\_SETITEMSIZE message
 description: Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can send this message explicitly or by using the TabCtrl\_SetItemSize macro.
-ms.assetid: '3935d686-f8bc-41fb-b025-04120cf03f02'
-keywords: ["TCM_SETITEMSIZE message Windows Controls"]
+ms.assetid: 3935d686-f8bc-41fb-b025-04120cf03f02
+keywords:
+- TCM_SETITEMSIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_SETITEMSIZE message
 
-Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can send this message explicitly or by using the [**TabCtrl\_SetItemSize**](tabctrl-setitemsize.md) macro.
+Sets the width and height of tabs in a fixed-width or owner-drawn tab control. You can send this message explicitly or by using the [**TabCtrl\_SetItemSize**](/windows/win32/Commctrl/nf-commctrl-tabctrl_setitemsize?branch=master) macro.
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Returns the old width and height. The width is in the [**LOWORD**](https://msdn.
 
 ## Remarks
 
-If the width is set to a value less than the image width set by [**ImageList\_Create**](imagelist-create.md), the width of the tab is set to the lowest value that is greater than the image width.
+If the width is set to a value less than the image width set by [**ImageList\_Create**](/windows/win32/Commctrl/nf-commctrl-imagelist_create?branch=master), the width of the tab is set to the lowest value that is greater than the image width.
 
 ## Requirements
 
@@ -45,15 +51,15 @@ If the width is set to a value less than the image width set by [**ImageList\_Cr
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

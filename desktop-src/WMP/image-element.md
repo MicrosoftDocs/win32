@@ -1,14 +1,20 @@
 ---
 title: Image Element
 description: Note This section describes functionality designed for use by online stores.
-ms.assetid: '06804c26-e847-43a7-bb75-60da600c7d4f'
-keywords: ["Image Element Windows Media Player"]
+ms.assetid: 06804c26-e847-43a7-bb75-60da600c7d4f
+keywords:
+- Image Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Image Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **Image** element specifies the images that Windows Media Player displays to the user to represent the online store.
 
@@ -74,7 +80,7 @@ URL for the logo that is displayed along with the marketing description specifie
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -107,9 +113,9 @@ You can provide an animated image for ServiceLargeURL. In Windows Media Player 1
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

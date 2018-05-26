@@ -1,18 +1,23 @@
 ---
 title: Graphics Pipeline
-description: This section describes the Direct3D 11 programmable pipeline.
-ms.assetid: '8e7a6f64-0a2b-4ea5-a6a6-7bfb87e27dcc'
+description: This section describes the Direct3D 11 programmable pipeline.
+ms.assetid: 8e7a6f64-0a2b-4ea5-a6a6-7bfb87e27dcc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Graphics Pipeline
 
-The Direct3D 11 programmable pipeline is designed for generating graphics for realtime gaming applications. This section describes the Direct3D 11 programmable pipeline. The following diagram shows the data flow from input to output through each of the programmable stages.
+The Direct3D 11 programmable pipeline is designed for generating graphics for realtime gaming applications. This section describes the Direct3D 11 programmable pipeline. The following diagram shows the data flow from input to output through each of the programmable stages.
 
 ![diagram of the data flow in the direct3d 11 programmable pipeline](images/d3d11-pipeline-stages.jpg)
 
-The graphics pipeline for Microsoft Direct3D 11 supports the same stages as the [Direct3D 10 graphics pipeline](https://msdn.microsoft.com/library/windows/desktop/bb205123), with additional stages to support advanced features.
+The graphics pipeline for Microsoft Direct3D 11 supports the same stages as the [Direct3D 10 graphics pipeline](https://msdn.microsoft.com/library/windows/desktop/bb205123), with additional stages to support advanced features.
 
-You can use the Direct3D 11API to configure all of the stages. Stages that feature common shader cores (the rounded rectangular blocks) are programmable by using the [HLSL](https://msdn.microsoft.com/library/windows/desktop/bb509561) programming language. As you will see, this makes the pipeline extremely flexible and adaptable.
+You can use the Direct3D 11API to configure all of the stages. Stages that feature common shader cores (the rounded rectangular blocks) are programmable by using the [HLSL](https://msdn.microsoft.com/library/windows/desktop/bb509561) programming language. As you will see, this makes the pipeline extremely flexible and adaptable.
 
 ## 
 
@@ -33,7 +38,7 @@ You can use the Direct3D 11API to configure all of the stages. Stages that featu
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -45,9 +50,9 @@ You can use the Direct3D 11API to configure all of the stages. Stages that featu
 [Programming Guide for Direct3D 11](dx-graphics-overviews.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Verifies whether a pending virtual system migration to a system is 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f31df329-11e9-41d1-b8bd-fb00b93abf98'
-ms.prod: 'windows-server-dev'
+ms.assetid: f31df329-11e9-41d1-b8bd-fb00b93abf98
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CheckVirtualSystemIsMigratableToSystem method", "CheckVirtualSystemIsMigratableToSystem method, Msvm_VirtualSystemMigrationService class", "Msvm_VirtualSystemMigrationService class, CheckVirtualSystemIsMigratableToSystem method"]
+keywords:
+- CheckVirtualSystemIsMigratableToSystem method
+- CheckVirtualSystemIsMigratableToSystem method, Msvm_VirtualSystemMigrationService class
+- Msvm_VirtualSystemMigrationService class, CheckVirtualSystemIsMigratableToSystem method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CheckVirtualSystemIsMigratableToSystem method of the Msvm\_VirtualSystemMigrationService class
@@ -28,19 +34,19 @@ Verifies whether a pending virtual system migration to a system is likely to suc
 > [!Note]  
 > Due to dynamic resource availability, this method does not guarantee that the pending migration will always succeed.
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 CheckVirtualSystemIsMigratableToSystem(
-  [in]      CIM_ComputerSystem REF ComputerSystem,
-  [in]      CIM_System         REF DestinationSystem,
-  [in]      string                 MigrationSettingData,
-  [in]      string                 NewSystemSettingData,
-  [in]      string                 NewResourceSettingData[],
-  [in, out] boolean                IsMigratable
+  [in]      CIM_ComputerSystem REF ComputerSystem,
+  [in]      CIM_System         REF DestinationSystem,
+  [in]      string                 MigrationSettingData,
+  [in]      string                 NewSystemSettingData,
+  [in]      string                 NewResourceSettingData[],
+  [in, out] boolean                IsMigratable
 );
 ```
 
@@ -164,7 +170,7 @@ Incompatible Parameters
 
 </dt> <dd>
 
-7–4096
+7 4096
 
 DMTF Reserved
 
@@ -173,7 +179,7 @@ DMTF Reserved
 
 </dt> <dd>
 
-4097–32767
+4097 32767
 
 Method Reserved
 
@@ -182,7 +188,7 @@ Method Reserved
 
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 Vendor Specific
 
@@ -195,7 +201,7 @@ Vendor Specific
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -209,9 +215,9 @@ Vendor Specific
 [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

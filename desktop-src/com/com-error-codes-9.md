@@ -1,7 +1,7 @@
 ---
 title: COM Error Codes (WPN, MBN, P2P, Bluetooth)
 description: The following table provides a list of error codes used by COM-based APIs.
-ms.assetid: '351E28F9-89E7-4F19-B72D-FFE12C95A6B3'
+ms.assetid: 351E28F9-89E7-4F19-B72D-FFE12C95A6B3
 topic_type:
 - apiref
 api_name:
@@ -169,6 +169,11 @@ api_location:
 - Winerror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Error Codes (WPN, MBN, P2P, Bluetooth)
@@ -2276,9 +2281,9 @@ An error that lies in the reserved range has been received.
 [COM Error Codes](com-error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

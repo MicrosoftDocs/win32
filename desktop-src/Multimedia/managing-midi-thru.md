@@ -1,8 +1,17 @@
 ---
 title: Managing MIDI Thru
 description: Managing MIDI Thru
-ms.assetid: 'ba03a2a1-d998-498d-ad53-027ba2b6e276'
-keywords: ["Musical Instrument Digital Interface (MIDI),thru driver", "MIDI (Musical Instrument Digital Interface),thru driver", "recording MIDI audio,thru driver", "MIDI thru driver"]
+ms.assetid: ba03a2a1-d998-498d-ad53-027ba2b6e276
+keywords:
+- Musical Instrument Digital Interface (MIDI),thru driver
+- MIDI (Musical Instrument Digital Interface),thru driver
+- recording MIDI audio,thru driver
+- MIDI thru driver
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing MIDI Thru
@@ -37,7 +46,7 @@ For the [**MM\_MIM\_LONGDATA**](mm-mim-longdata.md) message, *lpMidiHdr* specifi
 
 ## Using a Callback Function to Manage MIDI Recording
 
-You can define your own callback function to manage recording for MIDI input devices. The callback function is documented as [**MidiInProc**](midiinproc.md).
+You can define your own callback function to manage recording for MIDI input devices. The callback function is documented as [**MidiInProc**](/windows/win32/Mmsystem/?branch=master).
 
 The following messages can be sent to the *wMsg* parameter of the **MidiInProc** callback function.
 

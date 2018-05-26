@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_LogicalFileSecuritySetting class exposes the following methods.'
+Description: The Win32\_LogicalFileSecuritySetting class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0D7966DB-41D2-4DC9-BC45-5BB0CCC435E9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0D7966DB-41D2-4DC9-BC45-5BB0CCC435E9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LogicalFileSecuritySetting Methods'
+title: Win32\_LogicalFileSecuritySetting Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LogicalFileSecuritySetting Methods

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetDefaultEffect method retrieves the default effect. If the render engine cannot render an effect, it substitutes the default effect.'
-ms.assetid: '27eec6e8-702f-4e56-8d81-aa0633b8ec68'
-title: 'IAMTimeline::GetDefaultEffect method'
+---
+Description: The GetDefaultEffect method retrieves the default effect. If the render engine cannot render an effect, it substitutes the default effect.
+ms.assetid: 27eec6e8-702f-4e56-8d81-aa0633b8ec68
+title: IAMTimelineGetDefaultEffect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::GetDefaultEffect method

@@ -1,13 +1,16 @@
 ---
-Description: 'WMI contains an event infrastructure that produces notifications about changes in WMI data and services. WMI event classes provide notification when specific events occur.'
+Description: WMI contains an event infrastructure that produces notifications about changes in WMI data and services. WMI event classes provide notification when specific events occur.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '347808a7-0f7b-4687-93f4-bea55c96795a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 347808a7-0f7b-4687-93f4-bea55c96795a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving a WMI Event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Receiving a WMI Event
@@ -25,7 +28,7 @@ The following sections are discussed in this topic:
 
 ## Event Queries
 
-You can create a [semisynchronous](receiving-synchronous-and-semisynchronous-event-notifications.md) or [**asynchronous**](receiving-asynchronous-event-notifications.md) query to monitor changes to event logs, process creation, service status, computer availability or disk drive free space, and other entities or events. In scripting, the [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) method is used to subscribe to events. In C++, [**IWbemServices::ExecNotificationQuery**](iwbemservices-execnotificationquery.md) is used. For more information, see [Calling a Method](calling-a-method.md).
+You can create a [semisynchronous](receiving-synchronous-and-semisynchronous-event-notifications.md) or [**asynchronous**](receiving-asynchronous-event-notifications.md) query to monitor changes to event logs, process creation, service status, computer availability or disk drive free space, and other entities or events. In scripting, the [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) method is used to subscribe to events. In C++, [**IWbemServices::ExecNotificationQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery?branch=master) is used. For more information, see [Calling a Method](calling-a-method.md).
 
 Notification of a change in the standard WMI data model is called an [*intrinsic event*](gloss-i.md#wmi-gloss-intrinsic-event). [**\_\_InstanceCreationEvent**](--instancecreationevent.md) or [**\_\_NamespaceDeletionEvent**](--namespacedeletionevent.md) are examples of intrinsic events. Notification of a change that a provider makes to define a provider event is called an [*extrinsic event*](gloss-e.md#wmi-gloss-extrinsic-event). For example, the [System Registry Provider](https://msdn.microsoft.com/library/aa393886), [Power Management Event Provider](https://msdn.microsoft.com/library/aa392747), and [Win32 Provider](https://msdn.microsoft.com/library/aa394388) define their own events. For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
 
@@ -167,7 +170,7 @@ WMI currently enforces quotas using the properties of [**\_\_ArbitratorConfigura
 
 
 
- 
+ 
 
 An administrator or a user with **FULL\_WRITE** permission in the namespace can modify the singleton instance of [**\_\_ArbitratorConfiguration**](--arbitratorconfiguration.md). WMI tracks the per-user quota.
 
@@ -178,9 +181,9 @@ An administrator or a user with **FULL\_WRITE** permission in the namespace can 
 [Using WMI](using-wmi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

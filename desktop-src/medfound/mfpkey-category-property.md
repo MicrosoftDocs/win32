@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the category GUID for a Media Foundation transform (MFT).'
-ms.assetid: '3c0948fc-42ea-4e43-a312-c98038020214'
-title: 'MFPKEY\_CATEGORY property'
+---
+Description: Contains the category GUID for a Media Foundation transform (MFT).
+ms.assetid: 3c0948fc-42ea-4e43-a312-c98038020214
+title: MFPKEY\_CATEGORY property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_CATEGORY property
@@ -30,7 +35,7 @@ The value of this property is a GUID that identifies the MFT category. For a lis
 
 This property is optional and is informational only. An MFT can use this property to report the category under which it is registered. To get this property, query the MFT for the **IPropertyStore** interface.
 
-To enumerate an MFT category, call the [**MFTEnum**](mftenum.md) function. There is no direct link between the **MFTEnum** function and this property.
+To enumerate an MFT category, call the [**MFTEnum**](/windows/win32/mfapi/nf-mfapi-mftenum?branch=master) function. There is no direct link between the **MFTEnum** function and this property.
 
 ## Requirements
 

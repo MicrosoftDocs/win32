@@ -1,12 +1,18 @@
 ---
 title: Texture2DArray GatherCmpAlpha methods
 description: Samples and compares a Texture2DArray and returns the alpha component.
-ms.assetid: 'd5fc78eb-2378-4e63-a712-c6f4ef9fc729'
-keywords: ["GatherCmpAlpha methods HLSL"]
+ms.assetid: d5fc78eb-2378-4e63-a712-c6f4ef9fc729
+keywords:
+- GatherCmpAlpha methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DArray::GatherCmpAlpha methods
@@ -33,9 +39,9 @@ Samples and compares a [**Texture2DArray**](sm5-object-texture2darray.md) and re
 [Texture2DArray](sm5-object-texture2darray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

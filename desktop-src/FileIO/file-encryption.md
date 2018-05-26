@@ -1,7 +1,12 @@
 ---
-Description: 'The Encrypted File System (EFS) provides cryptographic protection of individual files on NTFS file system volumes by using a public-key system.'
-ms.assetid: '5f20109f-727d-44a9-90a1-0adc19b00d28'
+Description: The Encrypted File System (EFS) provides cryptographic protection of individual files on NTFS file system volumes by using a public-key system.
+ms.assetid: 5f20109f-727d-44a9-90a1-0adc19b00d28
 title: File Encryption
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Encryption
@@ -10,7 +15,7 @@ The Encrypted File System, or EFS, provides an additional level of security for 
 
 Typically, the access control to file and directory objects provided by the Windows security model is sufficient to protect unauthorized access to sensitive information. However, if a laptop that contains sensitive data is lost or stolen, the security protection of that data may be compromised. Encrypting the files increases security.
 
-To determine whether a file system supports file encryption for files and directories, call the [**GetVolumeInformation**](getvolumeinformation.md) function and examine the **FS\_FILE\_ENCRYPTION** bit flag. Note that the following items cannot be encrypted:
+To determine whether a file system supports file encryption for files and directories, call the [**GetVolumeInformation**](/windows/win32/FileAPI/nf-fileapi-getvolumeinformationa?branch=master) function and examine the **FS\_FILE\_ENCRYPTION** bit flag. Note that the following items cannot be encrypted:
 
 -   Compressed files
 -   System files
@@ -20,7 +25,7 @@ To determine whether a file system supports file encryption for files and direct
 
 Sparse files can be encrypted.
 
-TxF does not support most operations on Encrypted File System (EFS) files. The only operations TxF supports are read operations, such as [**ReadEncryptedFileRaw**](readencryptedfileraw.md).
+TxF does not support most operations on Encrypted File System (EFS) files. The only operations TxF supports are read operations, such as [**ReadEncryptedFileRaw**](/windows/win32/WinBase/nf-winbase-readencryptedfileraw?branch=master).
 
 ## In this section
 
@@ -34,15 +39,15 @@ TxF does not support most operations on Encrypted File System (EFS) files. The o
 
 
 
- 
+ 
 
 For more information about encryption, see [Adding Users to an Encrypted File](adding-users-to-an-encrypted-file.md).
 
 For more information about cryptography, see [Cryptography](https://msdn.microsoft.com/library/windows/desktop/aa380255).
 
- 
+ 
 
- 
+ 
 
 
 

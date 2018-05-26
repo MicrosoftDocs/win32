@@ -1,8 +1,10 @@
 ---
 title: IWMPStringCollection2 (VB and C\ ) interface
 description: Provides methods that supplement the IWMPStringCollection interface.
-ms.assetid: 'be93ff47-7f76-4b5e-ad30-3094a75147c8'
-keywords: ["IWMPStringCollection2 (VB and C ) interface Windows Media Player", "IWMPStringCollection2 (VB and C ) interface Windows Media Player , described"]
+ms.assetid: be93ff47-7f76-4b5e-ad30-3094a75147c8
+keywords:
+- IWMPStringCollection2 (VB and C ) interface Windows Media Player
+- IWMPStringCollection2 (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPStringCollection2 (VB and C#) interface
@@ -38,9 +45,9 @@ The **IWMPStringCollection2 (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
-Get an **IWMPStringCollection2** interface by casting the value returned by the [**IWMPMediaCollection.getAttributeStringCollection**](iwmpmediacollection-getattributestringcollection.md) method.
+Get an **IWMPStringCollection2** interface by casting the value returned by the [**IWMPMediaCollection.getAttributeStringCollection**](/windows/win32/wmp/nf-wmp-iwmpmediacollection-getattributestringcollection?branch=master) method.
 
 ## Requirements
 
@@ -62,9 +69,9 @@ Get an **IWMPStringCollection2** interface by casting the value returned by the 
 [**IWMPStringCollection Interface (VB and C#)**](iwmpstringcollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

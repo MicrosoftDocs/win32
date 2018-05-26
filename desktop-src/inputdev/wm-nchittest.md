@@ -1,8 +1,9 @@
 ---
 title: WM\_NCHITTEST message
 description: Sent to a window in order to determine what part of the window corresponds to a particular screen coordinate.
-ms.assetid: '4c860466-a9f8-4af8-96b9-cee005481875'
-keywords: ["WM_NCHITTEST message Keyboard and Mouse Input"]
+ms.assetid: 4c860466-a9f8-4af8-96b9-cee005481875
+keywords:
+- WM_NCHITTEST message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_NCHITTEST message
@@ -83,7 +89,7 @@ The return value of the [**DefWindowProc**](https://msdn.microsoft.com/library/w
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -102,7 +108,7 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 > \[!Important\]  
 > Do not use the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) or [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and **LOWORD** and **HIWORD** treat the coordinates as unsigned quantities.
 
- 
+ 
 
 **Windows Vista:** When creating custom frames that include the standard caption buttons, this message should first be passed to the [**DwmDefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/aa969507) function. This enables the Desktop Window Manager (DWM) to provide hit-testing for the captions buttons. If **DwmDefWindowProc** does not handle the message, further processing of **WM\_NCHITTEST** may be needed.
 
@@ -112,8 +118,8 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windowsx.h)</dt> </dl> |
 
 
@@ -149,9 +155,9 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 [**POINTS**](https://msdn.microsoft.com/library/windows/desktop/dd162808)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

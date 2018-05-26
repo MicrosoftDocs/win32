@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer can advertise the availability of an application to users or other applications without actually installing the application.'
-ms.assetid: '67170daa-448a-4a20-b38a-2dd36c95440f'
+Description: The Windows Installer can advertise the availability of an application to users or other applications without actually installing the application.
+ms.assetid: 67170daa-448a-4a20-b38a-2dd36c95440f
 title: Advertisement
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advertisement

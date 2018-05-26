@@ -1,7 +1,12 @@
 ---
 title: VML ExtrusionOK Attribute
 description: VML ExtrusionOK Attribute
-ms.assetid: '7060c744-5227-4a1e-b073-c5b5a823f8cd'
+ms.assetid: 7060c744-5227-4a1e-b073-c5b5a823f8cd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML ExtrusionOK Attribute

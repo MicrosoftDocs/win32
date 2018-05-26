@@ -1,7 +1,12 @@
 ---
-Description: 'For a server to accept client connections, it must be bound to a network address within the system.'
-ms.assetid: 'd08fb1a5-af17-4116-8757-ba0a513fb323'
+Description: For a server to accept client connections, it must be bound to a network address within the system.
+ms.assetid: d08fb1a5-af17-4116-8757-ba0a513fb323
 title: Binding a Socket
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Binding a Socket
@@ -12,7 +17,7 @@ For a server to accept client connections, it must be bound to a network address
 
 The [**sockaddr**](sockaddr-2.md) structure holds information regarding the address family, IP address, and port number.
 
-Call the [**bind**](bind-2.md) function, passing the created **socket** and [**sockaddr**](sockaddr-2.md) structure returned from the [**getaddrinfo**](getaddrinfo-2.md) function as parameters. Check for general errors.
+Call the [**bind**](/windows/win32/winsock/nf-winsock-bind?branch=master) function, passing the created **socket** and [**sockaddr**](sockaddr-2.md) structure returned from the [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) function as parameters. Check for general errors.
 
 
 ```C++
@@ -29,7 +34,7 @@ Call the [**bind**](bind-2.md) function, passing the created **socket** and [**s
 
 
 
-Once the [**bind**](bind-2.md) function is called, the address information returned by the [**getaddrinfo**](getaddrinfo-2.md) function is no longer needed. The [**freeaddrinfo**](freeaddrinfo-2.md) function is called to free the memory allocated by the **getaddrinfo** function for this address information.
+Once the [**bind**](/windows/win32/winsock/nf-winsock-bind?branch=master) function is called, the address information returned by the [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) function is no longer needed. The [**freeaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-freeaddrinfo?branch=master) function is called to free the memory allocated by the **getaddrinfo** function for this address information.
 
 
 ```C++

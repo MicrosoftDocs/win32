@@ -1,7 +1,12 @@
 ---
 title: Confirmations
 description: A confirmation is a modal dialog box that asks if the user wants to proceed with an action.
-ms.assetid: '086302cd-c8a1-479c-87be-580945e5d3e6'
+ms.assetid: 086302cd-c8a1-479c-87be-580945e5d3e6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Confirmations
@@ -59,11 +64,11 @@ The first Windows confirmation ever created undoubtedly looked like this:
 
 The original annoying confirmation.
 
-This was a very bad start. If you want users to hate your program, just sprinkle confirmations like this throughout. To understand why, consider the user's point of view. The user just asked to perform an action—by the definition of a confirmation—so unless something was somehow clicked or pressed accidentally, of course the user wants to proceed.
+This was a very bad start. If you want users to hate your program, just sprinkle confirmations like this throughout. To understand why, consider the user's point of view. The user just asked to perform an action by the definition of a confirmation so unless something was somehow clicked or pressed accidentally, of course the user wants to proceed.
 
 Not only are unnecessary confirmations annoying, but they aren't effective in protecting the user from mistakes. Users quickly discover when a program has unnecessary confirmations and their natural response is to dismiss them as quickly as possible, often without reading. Consequently, such confirmations do little more than add an extra step to these tasks.
 
-Don't use confirmations just because there is the possibility of users making a mistake. **Rather, confirmations are most effective when used to confirm actions that have significant or unintended consequences.** Good confirmations never state the obvious; they should communicate something users need to be aware of—a good reason not to continue. And they are used only when they are really needed by an action, such as asking users to save changes only when there are changes worth saving. Doing so demands the user's attention only when it is truly warranted.
+Don't use confirmations just because there is the possibility of users making a mistake. **Rather, confirmations are most effective when used to confirm actions that have significant or unintended consequences.** Good confirmations never state the obvious; they should communicate something users need to be aware of a good reason not to continue. And they are used only when they are really needed by an action, such as asking users to save changes only when there are changes worth saving. Doing so demands the user's attention only when it is truly warranted.
 
 For other types of confirmations, there is often a better design alternative than forcing users to answer a question.
 
@@ -130,7 +135,7 @@ Does this confirmation provide all the information users might need to answer th
 -   Keep the existing file and copy the other file using a different name.
 -   Cancel the operation if something is wrong or unexpected.
 
-Users can achieve scenario 1 by clicking Yes and scenario 2 by clicking No. They can achieve scenario 3 by comparing the file dates and clicking the appropriate button, but notice how much thought it takes to determine the newer file and then determine the appropriate button—especially for what is likely to be the most common scenario.
+Users can achieve scenario 1 by clicking Yes and scenario 2 by clicking No. They can achieve scenario 3 by comparing the file dates and clicking the appropriate button, but notice how much thought it takes to determine the newer file and then determine the appropriate button especially for what is likely to be the most common scenario.
 
 Scenarios 4, 5, and 6 are also surprisingly difficult. The file sizes are rounded off, so, for example, it is impossible to determine if these files have the same size or even if they are the same file. The icons are for the application used to open the file, so users would have to open the files to inspect and compare their content. Having thumbnails of the file content would be far more useful in answering the question.
 
@@ -152,7 +157,7 @@ This confirmation asks a question that users can't possibly answer intelligently
 
 The specific security issue that the page poses is not sufficiently explained, so the risk of continuing isn't clear. What information in the confirmation would cause the user ever to click No? Because of the vagueness of the message, the confirmation isn't likely to discourage users from continuing, but will make them feel bad about doing so.
 
-For this confirmation to be useful, it must provide more information—specific information that might cause the user to decide not to proceed. In general, for each response in a confirmation, consider the scenarios that require it and make sure that there is sufficient information provided for users to want to choose it. Provide choices, not dilemmas.
+For this confirmation to be useful, it must provide more information specific information that might cause the user to decide not to proceed. In general, for each response in a confirmation, consider the scenarios that require it and make sure that there is sufficient information provided for users to want to choose it. Provide choices, not dilemmas.
 
 ### How to determine if a confirmation is necessary
 
@@ -187,7 +192,7 @@ Confirmations have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -220,7 +225,7 @@ This example is incorrect when used for an empty e-mail or document that wasn't 
 
 
 
- 
+ 
 
 -   **Don't use warning icons for routine questions.** Doing so is counter to the encouraging [tone of Windows](text-style-tone.md) and makes using your program feel like a hazardous activity. Assume users understand the consequences of canceling a task before it is finished.
 
@@ -301,7 +306,7 @@ For more guidelines and examples, see [Command Links](ctrl-command-links.md).
 
 
 
- 
+ 
 
 ### Don't show this message again
 
@@ -369,7 +374,7 @@ In this example, the term "warning" is unnecessary.
 
 However, if the confirmation is from a long-running task and may display well after the task started, always use the command or feature to clearly identify the context.
 
--   **Don't use the title to explain what to do in the dialog**—that's the purpose of the main instruction.
+-   **Don't use the title to explain what to do in the dialog** that's the purpose of the main instruction.
 -   If it adds clarity, start the title with the word Confirm.
 -   **For risky action confirmations, you may add the name of the object involved for extra emphasis.**
 
@@ -393,10 +398,10 @@ In this example, the drive to be formatted is included in the title.
 
 
 
- 
+ 
 
--   **Be concise—use only a single, complete sentence.** Strip the main instruction down to the essential information. If you must explain anything more, use a supplemental instruction.
--   **Be specific—if there are objects involved, give their full names.**
+-   **Be concise use only a single, complete sentence.** Strip the main instruction down to the essential information. If you must explain anything more, use a supplemental instruction.
+-   **Be specific if there are objects involved, give their full names.**
 -   **Use positive phrasing.** Positive phrasing is easier for users to understand.
 
 **Correct:**
@@ -423,7 +428,7 @@ However, phrasing must match the associated command, even if the command is nega
 
 
 
- 
+ 
 
 -   For risky action confirmations, use the term permanently to indicate that an action can't be undone.
 
@@ -469,7 +474,7 @@ In this example, "permanently" indicates that the action can't be undone.
 
     
 
-     
+     
 
 -   **Don't repeat the main instruction with slightly different wording.** Instead, omit the supplemental instruction if there is not more to add.
 -   **For unintended consequence confirmations, consider using the term anyway to concisely indicate that there is a reason not to continue** in case the user overlooked the main instruction. See Design Concepts for more information.
@@ -486,9 +491,9 @@ When referring to confirmations:
 
 Example: In the **Copy File** message, click the newer file.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: ActiveBasicDevice PhysicalNetworkInterface property
 description: Gets the id of the physical network interface.
-ms.assetid: 'F426462F-CE26-4EE1-B679-A4C80B2919A5'
-keywords: ["PhysicalNetworkInterface property Media Streaming API", "PhysicalNetworkInterface property Media Streaming API , ActiveBasicDevice interface", "ActiveBasicDevice interface Media Streaming API , PhysicalNetworkInterface property"]
+ms.assetid: F426462F-CE26-4EE1-B679-A4C80B2919A5
+keywords:
+- PhysicalNetworkInterface property Media Streaming API
+- PhysicalNetworkInterface property Media Streaming API , ActiveBasicDevice interface
+- ActiveBasicDevice interface Media Streaming API , PhysicalNetworkInterface property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveBasicDevice::PhysicalNetworkInterface property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_PhysicalNetworkInterface(
-  [out] GUID *value
+  [out] GUID *value
 );
 ```
 
@@ -41,8 +49,8 @@ A pointer to a **GUID** that specifies the id of the physical network interface.
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>PlayToDevice.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>PlayToDevice.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Playtodevice.dll</dt> </dl> |
@@ -56,9 +64,9 @@ A pointer to a **GUID** that specifies the id of the physical network interface.
 [**ActiveBasicDevice**](activebasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

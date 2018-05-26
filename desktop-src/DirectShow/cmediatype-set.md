@@ -1,7 +1,12 @@
 ---
-Description: 'The Set method sets the media type from another media type.'
-ms.assetid: '71c19d0f-93b6-41db-8659-c64411b83e7c'
-title: 'CMediaType.Set method'
+Description: The Set method sets the media type from another media type.
+ms.assetid: 71c19d0f-93b6-41db-8659-c64411b83e7c
+title: CMediaType.Set method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.Set method
@@ -13,7 +18,7 @@ The `Set` method sets the media type from another media type.
 
 ```C++
 HRESULT Set(
-  [ref] const CMediaType &amp;cmtype
+  [ref] const CMediaType &amp;cmtype
 );
 ```
 
@@ -56,9 +61,9 @@ This method copies the entire media type from *cmtype*.
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

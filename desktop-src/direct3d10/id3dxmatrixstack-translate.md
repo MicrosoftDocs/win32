@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines the product of the current matrix and the computed translation matrix determined by the given factors (x, y, and z).'
-ms.assetid: 'd6e347a5-bb66-451d-b66e-49ea8eff70b3'
-title: 'ID3DXMATRIXStack::Translate method'
+---
+Description: Determines the product of the current matrix and the computed translation matrix determined by the given factors (x, y, and z).
+ms.assetid: d6e347a5-bb66-451d-b66e-49ea8eff70b3
+title: ID3DXMATRIXStackTranslate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXMATRIXStack::Translate method

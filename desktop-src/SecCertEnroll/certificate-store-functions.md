@@ -1,7 +1,12 @@
 ---
-Description: 'The Xenroll.dll library contains the following methods and properties that you can use to manage certificate stores.FunctionsDescriptionCAStoreFlagsSpecifies or returns flags that control access to the certification authority (CA) store.CAStoreNameWStrSpecifies or returns the name of the CA store.CAStoreTypeWStrSpecifies or returns the type of the store identified by the CAStoreName property.MyStoreFlagsSpecifies or returns a flag that determines the path of the personal store.MyStoreNameWStrSpecifies or returns the name of the personal store.MyStoreTypeWStrSpecifies or returns the type of the personal store.RequestStoreFlagsSpecifies or returns a flag that determines the path of the request store.RequestStoreNameWStrSpecifies or returns the name of the request store.RequestStoreTypeWStrSpecifies or returns the type of the request store.RootStoreFlagsSpecifies or returns a flag that determines the path of the root store.RootStoreNameWStrSpecifies or returns the name of the root store.RootStoreTypeWStrSpecifies or returns the type of the root store.SetHStoreCASpecifies the handle of the CA store.SetHStoreMySpecifies the handle of the personal store.SetHStoreRequestSpecifies the handle of the request store.SetHStoreROOTSpecifies the handle of the root store. '
-ms.assetid: '15e4368b-4199-415a-9c2c-2c1351b717e6'
+Description: The Xenroll.dll library contains the following methods and properties that you can use to manage certificate stores.FunctionsDescriptionCAStoreFlagsSpecifies or returns flags that control access to the certification authority (CA) store.CAStoreNameWStrSpecifies or returns the name of the CA store.CAStoreTypeWStrSpecifies or returns the type of the store identified by the CAStoreName property.MyStoreFlagsSpecifies or returns a flag that determines the path of the personal store.MyStoreNameWStrSpecifies or returns the name of the personal store.MyStoreTypeWStrSpecifies or returns the type of the personal store.RequestStoreFlagsSpecifies or returns a flag that determines the path of the request store.RequestStoreNameWStrSpecifies or returns the name of the request store.RequestStoreTypeWStrSpecifies or returns the type of the request store.RootStoreFlagsSpecifies or returns a flag that determines the path of the root store.RootStoreNameWStrSpecifies or returns the name of the root store.RootStoreTypeWStrSpecifies or returns the type of the root store.SetHStoreCASpecifies the handle of the CA store.SetHStoreMySpecifies the handle of the personal store.SetHStoreRequestSpecifies the handle of the request store.SetHStoreROOTSpecifies the handle of the root store.
+ms.assetid: 15e4368b-4199-415a-9c2c-2c1351b717e6
 title: Certificate Store Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Store Functions
@@ -29,7 +34,7 @@ The Xenroll.dll library contains the following methods and properties that you c
 
 
 
- 
+ 
 
 CertEnroll.dll does not export functionality that enables you to specify or retrieve store property values or copy certificates to specific stores.
 
@@ -40,9 +45,9 @@ CertEnroll.dll does not export functionality that enables you to specify or retr
 [Mapping Xenroll.dll to CertEnroll.dll](mapping-xenroll-dll-to-certenroll-dll.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

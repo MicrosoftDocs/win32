@@ -1,7 +1,12 @@
 ---
-Description: 'The Network Packet Provider (NPP) is a DLL that communicates with the Network Monitor driver and provides network statistics and packet data.'
-ms.assetid: 'ee258bf7-7894-458d-b418-57a19ac985f2'
+Description: The Network Packet Provider (NPP) is a DLL that communicates with the Network Monitor driver and provides network statistics and packet data.
+ms.assetid: ee258bf7-7894-458d-b418-57a19ac985f2
 title: Providing Network Statistics and Packet Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Providing Network Statistics and Packet Information

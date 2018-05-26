@@ -1,7 +1,12 @@
 ---
 title: Creating Type Information Browsers
 description: Type information browsers let users scan type libraries to determine what types of objects are available.
-ms.assetid: '6ddbd507-f43b-412c-a52c-13918af4be01'
+ms.assetid: 6ddbd507-f43b-412c-a52c-13918af4be01
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Type Information Browsers

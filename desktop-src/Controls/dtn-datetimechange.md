@@ -1,8 +1,9 @@
 ---
 title: DTN\_DATETIMECHANGE notification code
 description: Sent by a date and time picker (DTP) control whenever a change occurs. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '65cdd8fb-1f07-4447-b503-d40fdfa37202'
-keywords: ["DTN_DATETIMECHANGE notification code Windows Controls"]
+ms.assetid: 65cdd8fb-1f07-4447-b503-d40fdfa37202
+keywords:
+- DTN_DATETIMECHANGE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTN\_DATETIMECHANGE notification code
@@ -33,7 +39,7 @@ DTN_DATETIMECHANGE
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMDATETIMECHANGE**](nmdatetimechange.md) structure containing information about the change that took place in the control.
+A pointer to an [**NMDATETIMECHANGE**](/windows/win32/Commctrl/ns-commctrl-tagnmdatetimechange?branch=master) structure containing information about the change that took place in the control.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ The owner of the control must return zero.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

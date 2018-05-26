@@ -1,8 +1,9 @@
 ---
 title: TDM\_SET\_PROGRESS\_BAR\_POS message
 description: Sets the position of the progress bar in a task dialog.
-ms.assetid: '82247d70-8527-4195-87af-5c4e5fd1d1a2'
-keywords: ["TDM_SET_PROGRESS_BAR_POS message Windows Controls"]
+ms.assetid: 82247d70-8527-4195-87af-5c4e5fd1d1a2
+keywords:
+- TDM_SET_PROGRESS_BAR_POS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDM\_SET\_PROGRESS\_BAR\_POS message
@@ -45,15 +51,15 @@ Returns the previous position.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

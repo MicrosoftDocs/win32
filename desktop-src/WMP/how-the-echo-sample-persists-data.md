@@ -1,8 +1,18 @@
 ---
 title: How the Echo Sample Persists Data
 description: How the Echo Sample Persists Data
-ms.assetid: 'be75760f-c378-45d1-99de-43ef0ec4b8f0'
-keywords: ["Windows Media Player plug-ins,Echo sample property pages", "plug-ins,Echo sample property pages", "digital signal processing plug-ins,Echo sample property pages", "DSP plug-ins,Echo sample property pages", "Echo DSP plug-in sample,property pages"]
+ms.assetid: be75760f-c378-45d1-99de-43ef0ec4b8f0
+keywords:
+- Windows Media Player plug-ins,Echo sample property pages
+- plug-ins,Echo sample property pages
+- digital signal processing plug-ins,Echo sample property pages
+- DSP plug-ins,Echo sample property pages
+- Echo DSP plug-in sample,property pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How the Echo Sample Persists Data

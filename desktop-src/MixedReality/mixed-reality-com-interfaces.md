@@ -2,7 +2,12 @@
 title: Windows Mixed Reality COM Interfaces
 description: The topics contained in this section provide the reference specifications for Windows Mixed Reality interfaces.
 Search.Product: eADQiWindows 10XVcnh
-ms.assetid: 'E63A59A9-D00F-4C8E-A7F4-83FC665BF314'
+ms.assetid: E63A59A9-D00F-4C8E-A7F4-83FC665BF314
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Mixed Reality COM Interfaces
@@ -22,7 +27,7 @@ The topics contained in this section provide the reference specifications for Wi
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -34,9 +39,9 @@ The topics contained in this section provide the reference specifications for Wi
 [WinRT reference documentation](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicspace)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Initiates the failback for a recovery virtual machine.'
-ms.assetid: 'F4AE1911-46B2-4412-A17F-3CA7D388276F'
-title: 'Msvm\_ReplicationService::InitiateFailback method'
+Description: Initiates the failback for a recovery virtual machine.
+ms.assetid: F4AE1911-46B2-4412-A17F-3CA7D388276F
+title: Msvm\_ReplicationServiceInitiateFailback method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReplicationService::InitiateFailback method
@@ -13,10 +18,10 @@ Initiates the failback for a recovery virtual machine.
 
 ```C++
 uint32 InitiateFailback(
-  [in]  CIM_ComputerSystem ComputerSystem,
-  [in]  string                 ReplicationSettingData,
-  [in]  string                 RecoveryPointIdentifier,
-  [out] CIM_ConcreteJob    Job
+  [in]  CIM_ComputerSystem ComputerSystem,
+  [in]  string                 ReplicationSettingData,
+  [in]  string                 RecoveryPointIdentifier,
+  [out] CIM_ConcreteJob    Job
 );
 ```
 
@@ -112,8 +117,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | \\\\Root\\Virtualization\\V2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -127,9 +132,9 @@ This method returns one of the following values.
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

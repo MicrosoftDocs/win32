@@ -4,11 +4,15 @@ description: MMC taskpad controls and objects are introduced in MMC 1.1.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c27f58d4-02bb-4aba-a3f9-e8f72fbc6eb1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: c27f58d4-02bb-4aba-a3f9-e8f72fbc6eb1
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["taskpad controls and objects MMC 2.0"]
+keywords:
+- taskpad controls and objects MMC 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 Taskpad Controls and Objects

@@ -1,12 +1,17 @@
 ---
-Description: 'These values are used with ImmGetCompositionString and WM\_IME\_COMPOSITION.'
-ms.assetid: '14087598-8041-4e02-a168-f5538a437be0'
+Description: These values are used with ImmGetCompositionString and WM\_IME\_COMPOSITION.
+ms.assetid: 14087598-8041-4e02-a168-f5538a437be0
 title: IME Composition String Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IME Composition String Values
 
-These values are used with [**ImmGetCompositionString**](immgetcompositionstring.md) and [**WM\_IME\_COMPOSITION**](wm-ime-composition.md).
+These values are used with [**ImmGetCompositionString**](/windows/win32/Imm/nf-imm-immgetcompositionstringa?branch=master) and [**WM\_IME\_COMPOSITION**](wm-ime-composition.md).
 
 
 

@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_ProgramGroupContents association WMI class relates a program group order and an individual program group or item contained in it.'
+---
+Description: The Win32\_ProgramGroupContents association WMI class relates a program group order and an individual program group or item contained in it.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '687794d1-acc1-498a-9886-0c9ac762ebf4'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 687794d1-acc1-498a-9886-0c9ac762ebf4
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ProgramGroupContents class'
+title: Win32\_ProgramGroupContents class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ProgramGroupContents class

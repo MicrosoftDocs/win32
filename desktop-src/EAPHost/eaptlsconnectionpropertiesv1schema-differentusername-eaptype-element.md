@@ -1,14 +1,20 @@
 ---
 title: DifferentUsername (EapType) Element
 description: Determines which user name EAP-TLS is to use.
-ms.assetid: 'f0ce41a9-c774-4d12-8a5a-a8eb1eb84cb0'
-keywords: ["DifferentUsername element EAPHost"]
+ms.assetid: f0ce41a9-c774-4d12-8a5a-a8eb1eb84cb0
+keywords:
+- DifferentUsername element EAPHost
 topic_type:
 - apiref
 api_name:
 - DifferentUsername
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DifferentUsername (EapType) Element
@@ -35,8 +41,8 @@ The **DifferentUserName** element is optional.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -68,9 +74,9 @@ The **DifferentUserName** element is optional.
 [eaptlsconnectionpropertiesv1 Schema Elements](eaptlsconnectionpropertiesv1schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Creating an Instance of the Control
 description: Creating an Instance of the Control
-ms.assetid: '3da3ba83-ce1e-4dc2-b0cc-44f50e5f1c6c'
+ms.assetid: 3da3ba83-ce1e-4dc2-b0cc-44f50e5f1c6c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Instance of the Control

@@ -1,8 +1,44 @@
 ---
 title: Using the Windows Media Player Control with Microsoft Office
 description: Using the Windows Media Player Control with Microsoft Office
-ms.assetid: 'bc7b2623-8e6d-4af6-b4d0-8087c0159273'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player,Office", "Windows Media Player object model,Office", "object model,Office", "Windows Media Player Mobile,Office", "Windows Media Player ActiveX control,Office", "Windows Media Player Mobile ActiveX control,Office", "ActiveX control,Office", "Office document embedding", "embedding,Office documents", "Windows Media Player ActiveX control,Excel", "Windows Media Player Mobile ActiveX control,Excel", "ActiveX control,Excel", "embedding,Excel spreadsheets", "Excel spreadsheet embedding", "Windows Media Player ActiveX control,PowerPoint", "Windows Media Player Mobile ActiveX control,PowerPoint", "ActiveX control,PowerPoint", "embedding,PowerPoint slide shows", "PowerPoint slide show embedding", "Windows Media Player ActiveX control,Word", "Windows Media Player Mobile ActiveX control,Word", "ActiveX control,Word", "Word document embedding", "embedding,Word documents"]
+ms.assetid: bc7b2623-8e6d-4af6-b4d0-8087c0159273
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player,Office
+- Windows Media Player object model,Office
+- object model,Office
+- Windows Media Player Mobile,Office
+- Windows Media Player ActiveX control,Office
+- Windows Media Player Mobile ActiveX control,Office
+- ActiveX control,Office
+- Office document embedding
+- embedding,Office documents
+- Windows Media Player ActiveX control,Excel
+- Windows Media Player Mobile ActiveX control,Excel
+- ActiveX control,Excel
+- embedding,Excel spreadsheets
+- Excel spreadsheet embedding
+- Windows Media Player ActiveX control,PowerPoint
+- Windows Media Player Mobile ActiveX control,PowerPoint
+- ActiveX control,PowerPoint
+- embedding,PowerPoint slide shows
+- PowerPoint slide show embedding
+- Windows Media Player ActiveX control,Word
+- Windows Media Player Mobile ActiveX control,Word
+- ActiveX control,Word
+- Word document embedding
+- embedding,Word documents
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Windows Media Player Control with Microsoft Office

@@ -1,8 +1,17 @@
 ---
 title: Domain Name System
 description: Domain Name System (DNS), a locator service in Microsoft Windows, is an industry-standard protocol that locates computers on an IP-based network.
-ms.assetid: '4d1c2151-3995-4e7f-881b-4466bd7b7bb7'
-keywords: ["DNS", "DNS, (See Domain Name System)", "Domain Name System", "Domain Name System, start page"]
+ms.assetid: 4d1c2151-3995-4e7f-881b-4466bd7b7bb7
+keywords:
+- DNS
+- DNS, (See Domain Name System)
+- Domain Name System
+- Domain Name System, start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Domain Name System
@@ -23,7 +32,7 @@ Programmable DNS components are designed for use by C/C++ programmers. Familiari
 
 ## Run-time requirements
 
-DNS is used on all IP networks that require an Internet-compatible locator service. However, the DNS API requires Windows 2000 or later.
+DNS is used on all IP networks that require an Internet-compatible locator service. However, the DNS API requires Windows 2000 or later.
 
 ## In this section
 
@@ -39,7 +48,7 @@ DNS is used on all IP networks that require an Internet-compatible locator servi
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -54,9 +63,9 @@ DNS is used on all IP networks that require an Internet-compatible locator servi
 [Directory Services](dsportal-directory_services_portal)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

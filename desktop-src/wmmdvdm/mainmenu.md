@@ -1,14 +1,20 @@
 ---
 title: MainMenu element
 description: Describes the main menu of the DVD.
-ms.assetid: '0e0bff48-f1a6-4b5f-a143-2bf487f6571b'
-keywords: ["MainMenu element Windows Movie Maker and DVD Maker"]
+ms.assetid: 0e0bff48-f1a6-4b5f-a143-2bf487f6571b
+keywords:
+- MainMenu element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - MainMenu
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MainMenu element
@@ -49,7 +55,7 @@ This element is required in every menu style.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -61,9 +67,9 @@ This element is required in every menu style.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

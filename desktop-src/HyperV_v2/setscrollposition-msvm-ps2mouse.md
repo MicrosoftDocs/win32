@@ -1,7 +1,12 @@
 ---
-Description: 'Adjusts the z-coordinate of the wheel control of the pointing device.'
-ms.assetid: 'FF1929EE-4A2D-4761-8919-488369FAEE1F'
-title: 'SetScrollPosition method of the Msvm\_Ps2Mouse class'
+Description: Adjusts the z-coordinate of the wheel control of the pointing device.
+ms.assetid: FF1929EE-4A2D-4761-8919-488369FAEE1F
+title: SetScrollPosition method of the Msvm\_Ps2Mouse class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetScrollPosition method of the Msvm\_Ps2Mouse class
@@ -13,7 +18,7 @@ Adjusts the z-coordinate of the wheel control of the pointing device. Values wri
 
 ```mof
 uint32 SetScrollPosition(
-  [in] sint8 scrollPositionDelta
+  [in] sint8 scrollPositionDelta
 );
 ```
 
@@ -89,8 +94,8 @@ Access to the [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md) class might be restricted b
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -104,9 +109,9 @@ Access to the [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md) class might be restricted b
 [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

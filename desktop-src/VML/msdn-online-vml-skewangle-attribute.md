@@ -1,7 +1,12 @@
 ---
 title: VML SkewAngle Attribute
 description: VML SkewAngle Attribute
-ms.assetid: 'f9dc55ed-913c-409e-a045-8f95c83aabcb'
+ms.assetid: f9dc55ed-913c-409e-a045-8f95c83aabcb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML SkewAngle Attribute

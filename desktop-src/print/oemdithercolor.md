@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMDitherColor function requests the device to create a brush dithered against a device palette.'
-ms.assetid: 'bf8c2140-8917-42af-86bf-c2f25b0c42b7'
+---
+Description: The OEMDitherColor function requests the device to create a brush dithered against a device palette.
+ms.assetid: bf8c2140-8917-42af-86bf-c2f25b0c42b7
 title: OEMDitherColor function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMDitherColor function

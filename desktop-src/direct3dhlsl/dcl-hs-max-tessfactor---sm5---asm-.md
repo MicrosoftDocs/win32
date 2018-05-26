@@ -1,7 +1,12 @@
 ---
 title: dcl\_hs\_max\_tessfactor (sm5 - asm)
 description: Declare the maxTessFactor for the patch.
-ms.assetid: '7EF0FD81-69FE-49F6-95DF-0C452A90A713'
+ms.assetid: 7EF0FD81-69FE-49F6-95DF-0C452A90A713
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_hs\_max\_tessfactor (sm5 - asm)
@@ -15,7 +20,7 @@ Declare the maxTessFactor for the patch.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declare the maxTessFactor for the patch.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -41,7 +46,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -60,7 +65,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -69,9 +74,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

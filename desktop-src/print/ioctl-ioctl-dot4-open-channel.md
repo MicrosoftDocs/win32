@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes IOCTL\_DOT4\_OPEN\_CHANNEL.'
-ms.assetid: '9E71A230-5412-4248-A412-B92BE9E119FD'
-title: 'IOCTL\_DOT4\_OPEN\_CHANNEL control code'
+---
+Description: This topic describes IOCTL\_DOT4\_OPEN\_CHANNEL.
+ms.assetid: 9E71A230-5412-4248-A412-B92BE9E119FD
+title: IOCTL\_DOT4\_OPEN\_CHANNEL control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_DOT4\_OPEN\_CHANNEL control code

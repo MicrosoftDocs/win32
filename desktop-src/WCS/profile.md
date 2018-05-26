@@ -1,8 +1,9 @@
 ---
 title: PROFILE structure
 description: The PROFILE structure contains information that defines a color profile. See Using Device Profiles with WCS for more information.
-ms.assetid: '49656afa-64fc-4421-8948-34a65c9f829e'
-keywords: ["PROFILE structure Windows Color System"]
+ms.assetid: 49656afa-64fc-4421-8948-34a65c9f829e
+keywords:
+- PROFILE structure Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Icm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROFILE structure
@@ -48,7 +54,7 @@ Must be set to one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -72,8 +78,8 @@ The size in bytes of the data buffer pointed to by the **pProfileData** member.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl> |
 
 
@@ -85,9 +91,9 @@ The size in bytes of the data buffer pointed to by the **pProfileData** member.
 [Using Device Profiles with WCS](using-device-profiles-with-wcs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

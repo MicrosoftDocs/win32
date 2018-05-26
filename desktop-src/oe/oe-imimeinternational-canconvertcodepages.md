@@ -1,8 +1,11 @@
 ---
 title: IMimeInternational CanConvertCodePages method
 description: Determines whether the specified source code page can be translated to the specified destination code page.
-ms.assetid: '23d4dff0-3ea5-4436-aaf8-ae2c4abc9706'
-keywords: ["CanConvertCodePages method Windows Mail (formerly Outlook Express)", "CanConvertCodePages method Windows Mail (formerly Outlook Express) , IMimeInternational interface", "IMimeInternational interface Windows Mail (formerly Outlook Express) , CanConvertCodePages method"]
+ms.assetid: 23d4dff0-3ea5-4436-aaf8-ae2c4abc9706
+keywords:
+- CanConvertCodePages method Windows Mail (formerly Outlook Express)
+- CanConvertCodePages method Windows Mail (formerly Outlook Express) , IMimeInternational interface
+- IMimeInternational interface Windows Mail (formerly Outlook Express) , CanConvertCodePages method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeInternational::CanConvertCodePages method
@@ -22,8 +30,8 @@ Determines whether the specified source code page can be translated to the speci
 
 ```C++
 HRESULT CanConvertCodePages(
-  [in] CODEPAGEID cpiSource,
-  [in] CODEPAGEID cpiDest
+  [in] CODEPAGEID cpiSource,
+  [in] CODEPAGEID cpiDest
 );
 ```
 
@@ -66,7 +74,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -74,8 +82,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -83,9 +91,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

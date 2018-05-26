@@ -4,13 +4,15 @@ description: Describes an iSCSI virtual disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '518f9d66-043b-4b14-b4fe-f6c88f828526'
-ms.prod: 'windows-server-dev'
+ms.assetid: 518f9d66-043b-4b14-b4fe-f6c88f828526
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WT_Disk class iSCSI Software Target API", "WT_Disk class iSCSI Software Target API , described"]
+keywords:
+- WT_Disk class iSCSI Software Target API
+- WT_Disk class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -45,6 +47,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WT\_Disk class
@@ -58,32 +63,32 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class WT_Disk
 {
-  uint32               WTD;
-  sint32               Type;
-  sint32               Flags;
-  sint32               Status;
-  string               Description;
-  string               DevicePath;
-  string               ActiveDevicePath;
-  string               ParentPath;
-  uint32               ParentWTD;
-  uint32               Size;
-  uint32               AllocatedSize;
-  string               SerialNumber;
-  sint32               DVMountStatus;
-  datetime             DVTimeStamp;
-  string               DVDeviceId;
-  datetime             AsyncOpStartTime;
-  datetime             AsyncOpEndTime;
-  string               ResourceGroup;
-  boolean              Enabled;
-  string               Guid;
-  string               DeviceVolumeGuid;
+  uint32               WTD;
+  sint32               Type;
+  sint32               Flags;
+  sint32               Status;
+  string               Description;
+  string               DevicePath;
+  string               ActiveDevicePath;
+  string               ParentPath;
+  uint32               ParentWTD;
+  uint32               Size;
+  uint32               AllocatedSize;
+  string               SerialNumber;
+  sint32               DVMountStatus;
+  datetime             DVTimeStamp;
+  string               DVDeviceId;
+  datetime             AsyncOpStartTime;
+  datetime             AsyncOpEndTime;
+  string               ResourceGroup;
+  boolean              Enabled;
+  string               Guid;
+  string               DeviceVolumeGuid;
   WT_VDSLunInformation VdsLunInfo;
-  string               LMSnapshotId;
-  uint32               InternalCode;
-  uint64               BlockSize;
-  boolean              IsBasedOnUnderlyingRedundancy;
+  string               LMSnapshotId;
+  uint32               InternalCode;
+  uint64               BlockSize;
+  boolean              IsBasedOnUnderlyingRedundancy;
 };
 ```
 
@@ -102,21 +107,21 @@ The **WT\_Disk** class has these methods.
 
 | Method                                                                 | Description                                                                                                                                                                                                                                                                                            |
 |:-----------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CancelAsyncOperation**](cancelasyncoperation-wt-disk.md)           | **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> Cancel any asynchronous operation on this disk.<br/>                                                                                                                                              |
-| [**CreateRamWTDisk**](createramwtdisk-wt-disk.md)                     | **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> Create a new RAM-based iSCSI virtual disk.<br/>                                                                                                                                                   |
-| [**CreateVhdWTDisk**](createvhdwtdisk-wt-disk.md)                     | **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> Create a new VHDX-based iSCSI virtual disk.<br/>                                                                                                                                                  |
-| [**Extend**](extend-wt-disk.md)                                       | **Windows Server 2012 R2:** This method is deprecated. Use the [**Resize**](resize-wt-disk.md) method instead.<br/> Extends a virtual disk.<br/>                                                                                                                                          |
-| [**GetAsyncOperationProgress**](getasyncoperationprogress-wt-disk.md) | **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> Get the asynchronous operation progress information for this iSCSI virtual disk.<br/>                                                                                                             |
-| [**GetDVMountPoints**](getdvmountpoints-wt-disk.md)                   | **Windows Server 2012 R2:** This method is deprecated.<br/> Returns a list of all mount points that belong to the virtual disk. This is used for locally mounted shadow copies.<br/>                                                                                                       |
-| [**GetRollbackProgress**](wt-disk-getrollbackprogress.md)             | **Windows Server 2012 R2:** This method is deprecated. Use [**GetAsyncOperationProgress**](getasyncoperationprogress-wt-disk.md) instead.<br/> Retrieves the rollback progress information for the disk.<br/>                                                                             |
-| [**ImportWTDisk**](importwtdisk-wt-disk.md)                           | **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> Import an existing VHD or SCSI device as a iSCSI virtual disk.<br/>                                                                                                                               |
-| [**NewDiffWTDisk**](wt-disk-newdiffwtdisk.md)                         | **Windows Server 2012 R2:** This method is deprecated. Use the [**CreateRamWTDisk**](createramwtdisk-wt-disk.md), [**CreateVhdWTDisk**](createvhdwtdisk-wt-disk.md), or [**ImportWTDisk**](importwtdisk-wt-disk.md) methods instead.<br/> Creates a new differencing virtual disk.<br/> |
-| [**NewWTDisk**](newwtdisk-wt-disk.md)                                 | **Windows Server 2012 R2:** This method is deprecated. Use the [**CreateRamWTDisk**](createramwtdisk-wt-disk.md), [**CreateVhdWTDisk**](createvhdwtdisk-wt-disk.md), or [**ImportWTDisk**](importwtdisk-wt-disk.md) methods instead.<br/> Creates a new virtual disk.<br/>              |
-| [**Resize**](resize-wt-disk.md)                                       | **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> Resize iSCSI virtual disk.<br/>                                                                                                                                                                   |
+| [**CancelAsyncOperation**](cancelasyncoperation-wt-disk.md)           | **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> Cancel any asynchronous operation on this disk.<br/>                                                                                                                                              |
+| [**CreateRamWTDisk**](createramwtdisk-wt-disk.md)                     | **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> Create a new RAM-based iSCSI virtual disk.<br/>                                                                                                                                                   |
+| [**CreateVhdWTDisk**](createvhdwtdisk-wt-disk.md)                     | **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> Create a new VHDX-based iSCSI virtual disk.<br/>                                                                                                                                                  |
+| [**Extend**](extend-wt-disk.md)                                       | **Windows Server 2012 R2:** This method is deprecated. Use the [**Resize**](resize-wt-disk.md) method instead.<br/> Extends a virtual disk.<br/>                                                                                                                                          |
+| [**GetAsyncOperationProgress**](getasyncoperationprogress-wt-disk.md) | **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> Get the asynchronous operation progress information for this iSCSI virtual disk.<br/>                                                                                                             |
+| [**GetDVMountPoints**](getdvmountpoints-wt-disk.md)                   | **Windows Server 2012 R2:** This method is deprecated.<br/> Returns a list of all mount points that belong to the virtual disk. This is used for locally mounted shadow copies.<br/>                                                                                                       |
+| [**GetRollbackProgress**](wt-disk-getrollbackprogress.md)             | **Windows Server 2012 R2:** This method is deprecated. Use [**GetAsyncOperationProgress**](getasyncoperationprogress-wt-disk.md) instead.<br/> Retrieves the rollback progress information for the disk.<br/>                                                                             |
+| [**ImportWTDisk**](importwtdisk-wt-disk.md)                           | **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> Import an existing VHD or SCSI device as a iSCSI virtual disk.<br/>                                                                                                                               |
+| [**NewDiffWTDisk**](wt-disk-newdiffwtdisk.md)                         | **Windows Server 2012 R2:** This method is deprecated. Use the [**CreateRamWTDisk**](createramwtdisk-wt-disk.md), [**CreateVhdWTDisk**](createvhdwtdisk-wt-disk.md), or [**ImportWTDisk**](importwtdisk-wt-disk.md) methods instead.<br/> Creates a new differencing virtual disk.<br/> |
+| [**NewWTDisk**](newwtdisk-wt-disk.md)                                 | **Windows Server 2012 R2:** This method is deprecated. Use the [**CreateRamWTDisk**](createramwtdisk-wt-disk.md), [**CreateVhdWTDisk**](createvhdwtdisk-wt-disk.md), or [**ImportWTDisk**](importwtdisk-wt-disk.md) methods instead.<br/> Creates a new virtual disk.<br/>              |
+| [**Resize**](resize-wt-disk.md)                                       | **Windows Server 2012:** This method is not supported until Windows Server 2012 R2.<br/> Resize iSCSI virtual disk.<br/>                                                                                                                                                                   |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -137,7 +142,7 @@ Full active device path to the VHD file on the Microsoft iSCSI Target Server.
 
 For a pass-through device, this is a decorated active Win32 device path in the form "SCSI:&lt;*win32\_device\_path*&gt;". For other device types, this property always has the same value as the *DevicePath* property.
 
-**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
+**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -165,7 +170,7 @@ Access type: Read-only
 
 When an asynchronous operation ended, whether it ended successfully or not.
 
-**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
+**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -180,7 +185,7 @@ Access type: Read-only
 
 When an asynchronous operation started.
 
-**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
+**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -245,7 +250,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-**Windows Server 2012 R2:** This property is deprecated.
+**Windows Server 2012 R2:** This property is deprecated.
 
 Reserved for system use.
 
@@ -263,7 +268,7 @@ Access type: Read-only
 Qualifiers: **Values** (NotMounted, MountSnapshot), **ValueMap** (0, 1)
 </dt> </dl>
 
-**Windows Server 2012 R2:** This property is deprecated.
+**Windows Server 2012 R2:** This property is deprecated.
 
 The current data view mount status.
 
@@ -278,7 +283,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-**Windows Server 2012 R2:** This property is deprecated.
+**Windows Server 2012 R2:** This property is deprecated.
 
 If the value of *DVMountStatus* is **MountSnapshot**, *DVTimeStamp* contains the date and time when the snapshot was taken. Otherwise, *DVTimeStamp* is an empty string.
 
@@ -319,7 +324,7 @@ Flags that indicate characteristics of the disk. This property is a bitmask and 
 
 The disk is a read-only disk.
 
-**Windows Server 2012:** This property value is not supported before Windows Server 2012 R2.
+**Windows Server 2012:** This property value is not supported before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -480,7 +485,7 @@ Access type: Read-only
 
 VHD type.
 
-**Windows Server 2012:** The following property values are not supported before Windows Server 2012 R2.
+**Windows Server 2012:** The following property values are not supported before Windows Server 2012 R2.
 
 <dt>
 
@@ -533,7 +538,7 @@ VHD type.
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2012:** The following property values are the only ones supported on Windows Server 2012.
+**Windows Server 2012:** The following property values are the only ones supported on Windows Server 2012.
 
 <dt>
 
@@ -593,16 +598,16 @@ It is possible for one or more property values to return **NULL** intermittently
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

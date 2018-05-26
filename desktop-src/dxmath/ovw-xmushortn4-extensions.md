@@ -1,12 +1,17 @@
-﻿---
-Description: 'XMUSHORTN4 describes a 4D vector for storing unsigned, normalized values as signed 16-bit integers, (type uint16\_t).'
-ms.assetid: '207f2855-5158-4e33-80fb-bad2e2b173c6'
+---
+Description: XMUSHORTN4 describes a 4D vector for storing unsigned, normalized values as signed 16-bit integers, (type uint16\_t).
+ms.assetid: 207f2855-5158-4e33-80fb-bad2e2b173c6
 title: XMUSHORTN4 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMUSHORTN4 Extensions
 
-[**XMUSHORTN4**](xmushortn4.md) describes a 4D vector for storing unsigned, normalized values as signed 16-bit integers, (type `uint16_t`).
+[**XMUSHORTN4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmushortn4?branch=master) describes a 4D vector for storing unsigned, normalized values as signed 16-bit integers, (type `uint16_t`).
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -33,7 +38,7 @@ title: XMUSHORTN4 Extensions
 **Reference**
 </dt> <dt>
 
-[**XMUSHORTN4**](xmushortn4.md)
+[**XMUSHORTN4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmushortn4?branch=master)
 </dt> </dl>
 
  

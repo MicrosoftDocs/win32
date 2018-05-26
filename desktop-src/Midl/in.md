@@ -2,13 +2,19 @@
 title: in attribute
 description: The \ in\ attribute indicates that a parameter is to be passed from the calling procedure to the called procedure.
 ms.assetid: 85d5617e-8b73-449a-9627-2c8d5ab2b629
-keywords: ["in attribute MIDL"]
+keywords:
+- in attribute MIDL
 topic_type:
 - apiref
 api_name:
 - in
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # in attribute

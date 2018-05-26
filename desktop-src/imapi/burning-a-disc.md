@@ -1,7 +1,12 @@
 ---
 title: Burning a Disc Image
 description: Mastering (burning a disc) using IMAPI consists of the following steps Construct a file system image that contains the directories and files to write disc.Set up a disc recorder to communicate with the optical device.Create a data writer and burn the image to disc.
-ms.assetid: 'f2eee14e-695d-4678-b3c1-b521ab4d4a7e'
+ms.assetid: f2eee14e-695d-4678-b3c1-b521ab4d4a7e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Burning a Disc Image
@@ -16,31 +21,31 @@ For an example that burns a disc image, see [VBScript example](#vbscript-example
 
 ## Construct a burn image
 
-A burn image is a data stream that is ready to be written to optical media. The burn image for ISO9660, Joliet and UDF formats consists of a file system of individual files and directories. The **CFileSystemImage** object is the file system object that holds the files and directories to place on the optical media. The [**IFileSystemImage**](ifilesystemimage.md) interface provides access to the file system object and settings.
+A burn image is a data stream that is ready to be written to optical media. The burn image for ISO9660, Joliet and UDF formats consists of a file system of individual files and directories. The **CFileSystemImage** object is the file system object that holds the files and directories to place on the optical media. The [**IFileSystemImage**](/windows/win32/imapi2fs/nn-imapi2fs-ifilesystemimage?branch=master) interface provides access to the file system object and settings.
 
-After creating the file system object, call the [**IFileSystemImage::CreateFileItem**](ifilesystemimage-createfileitem.md) and [**IFileSystemImage::CreateDirectoryItem**](ifilesystemimage-createdirectoryitem.md) methods to create the file and directory objects, respectively. The file and directory objects can be used to provide specific details about the file and directory. The event handler methods available for [**IFileSystemImage**](ifilesystemimage.md) can identify the current file being added to the file system image, the number of sectors already copied, and the total number of sectors to be copied.
+After creating the file system object, call the [**IFileSystemImage::CreateFileItem**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-createfileitem?branch=master) and [**IFileSystemImage::CreateDirectoryItem**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-createdirectoryitem?branch=master) methods to create the file and directory objects, respectively. The file and directory objects can be used to provide specific details about the file and directory. The event handler methods available for [**IFileSystemImage**](/windows/win32/imapi2fs/nn-imapi2fs-ifilesystemimage?branch=master) can identify the current file being added to the file system image, the number of sectors already copied, and the total number of sectors to be copied.
 
-Optionally, a boot image can be attached to the file system using the [**IFileSystemImage::put\_BootImageOptions**](ifilesystemimage-put-bootimageoptions.md) property. For an example, see [Adding a Boot Image](adding-a-boot-image.md).
+Optionally, a boot image can be attached to the file system using the [**IFileSystemImage::put\_BootImageOptions**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions?branch=master) property. For an example, see [Adding a Boot Image](adding-a-boot-image.md).
 
-Finally, call [**IFileSystemImage::CreateResultImage**](ifilesystemimage-createresultimage.md) to create a data stream and provides access through [**IFileSystemImageResult**](ifilesystemimageresult.md). The new data stream can then be provided directly to the [**IDiscFormat2Data::Write**](idiscformat2data-write.md) method or be saved to a file for later use.
+Finally, call [**IFileSystemImage::CreateResultImage**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-createresultimage?branch=master) to create a data stream and provides access through [**IFileSystemImageResult**](/windows/win32/imapi2fs/nn-imapi2fs-ifilesystemimageresult?branch=master). The new data stream can then be provided directly to the [**IDiscFormat2Data::Write**](/windows/win32/imapi2/nf-imapi2-idiscformat2data-write?branch=master) method or be saved to a file for later use.
 
 ## Set up a disc recorder
 
-The **MsftDiscMaster2** object provides an enumeration of the optical devices on the system. The [**IDiscMaster2**](idiscmaster2.md) interface provides access to the resultant device enumeration. Traverse the enumerations to locate an appropriate recording device. The **MsftDiscMaster2** object also provides event notifications when optical devices are added to or deleted from a computer.
+The **MsftDiscMaster2** object provides an enumeration of the optical devices on the system. The [**IDiscMaster2**](/windows/win32/imapi2/nn-imapi2-idiscmaster2?branch=master) interface provides access to the resultant device enumeration. Traverse the enumerations to locate an appropriate recording device. The **MsftDiscMaster2** object also provides event notifications when optical devices are added to or deleted from a computer.
 
-After finding an optical recorder and retrieving its ID, create an **MsftDiscRecorder2** object and initialize the recorder using the device ID. The [**IDiscRecorder2**](idiscrecorder2.md) interface provides access to the recorder object as well as some basic device information such as vendor ID, product ID, product revision, and methods to eject the media and close the tray.
+After finding an optical recorder and retrieving its ID, create an **MsftDiscRecorder2** object and initialize the recorder using the device ID. The [**IDiscRecorder2**](/windows/win32/imapi2/nn-imapi2-idiscrecorder2?branch=master) interface provides access to the recorder object as well as some basic device information such as vendor ID, product ID, product revision, and methods to eject the media and close the tray.
 
 ## Create a data writer and write the burn image
 
-The **MsftDiscFormat2Data** object provides the writing method, the properties about the write function and media-specific properties. The [**IDiscFormat2Data**](idiscformat2data.md) interface provides access to the **MsftDiscFormat2Data** object.
+The **MsftDiscFormat2Data** object provides the writing method, the properties about the write function and media-specific properties. The [**IDiscFormat2Data**](/windows/win32/imapi2/nn-imapi2-idiscformat2data?branch=master) interface provides access to the **MsftDiscFormat2Data** object.
 
-The disc recorder links to the format writer using the [**IDiscFormat2Data::put\_Recorder**](idiscformat2data-put-recorder.md) property. After the recorder is bound to the format writer, you can perform queries regarding the media and update write-specific properties before writing the result image to disc using the [**IDiscFormat2Data::Write**](idiscformat2data-write.md) method.
+The disc recorder links to the format writer using the [**IDiscFormat2Data::put\_Recorder**](/windows/win32/imapi2/nf-imapi2-idiscformat2data-put_recorder?branch=master) property. After the recorder is bound to the format writer, you can perform queries regarding the media and update write-specific properties before writing the result image to disc using the [**IDiscFormat2Data::Write**](/windows/win32/imapi2/nf-imapi2-idiscformat2data-write?branch=master) method.
 
 Other format writing interfaces provided by IMAPI work similarly; additional format writing interfaces include:
 
--   [**IDiscFormat2Erase**](idiscformat2erase.md) erases rewritable optical media.
--   [**IDiscFormat2RawCD**](idiscformat2rawcd.md) writes a raw image to optical media.
--   [**IDiscFormat2TrackAtOnce**](idiscformat2trackatonce.md) writes audio tracks to optical media.
+-   [**IDiscFormat2Erase**](/windows/win32/imapi2/nn-imapi2-idiscformat2erase?branch=master) erases rewritable optical media.
+-   [**IDiscFormat2RawCD**](/windows/win32/imapi2/nn-imapi2-idiscformat2rawcd?branch=master) writes a raw image to optical media.
+-   [**IDiscFormat2TrackAtOnce**](/windows/win32/imapi2/nn-imapi2-idiscformat2trackatonce?branch=master) writes audio tracks to optical media.
 
 > [!Note]  
 > It is possible for a power state transition to take place during a burn operation (i.e. user log-off or system suspend) which leads to the interruption of the burn process and possible data loss. For programming considerations, see [Preventing Logoff or Suspend During a Burn](preventing-logoff-or-suspend-during-a-burn.md).
@@ -137,25 +142,25 @@ End Function
 [Using IMAPI](using-imapi.md)
 </dt> <dt>
 
-[**IDiscFormat2Data**](idiscformat2data.md)
+[**IDiscFormat2Data**](/windows/win32/imapi2/nn-imapi2-idiscformat2data?branch=master)
 </dt> <dt>
 
-[**IDiscFormat2Erase**](idiscformat2erase.md)
+[**IDiscFormat2Erase**](/windows/win32/imapi2/nn-imapi2-idiscformat2erase?branch=master)
 </dt> <dt>
 
-[**IDiscFormat2RawCD**](idiscformat2rawcd.md)
+[**IDiscFormat2RawCD**](/windows/win32/imapi2/nn-imapi2-idiscformat2rawcd?branch=master)
 </dt> <dt>
 
-[**IDiscFormat2TrackAtOnce**](idiscformat2trackatonce.md)
+[**IDiscFormat2TrackAtOnce**](/windows/win32/imapi2/nn-imapi2-idiscformat2trackatonce?branch=master)
 </dt> <dt>
 
-[**IDiscMaster2**](idiscmaster2.md)
+[**IDiscMaster2**](/windows/win32/imapi2/nn-imapi2-idiscmaster2?branch=master)
 </dt> <dt>
 
-[**IDiscRecorder2**](idiscrecorder2.md)
+[**IDiscRecorder2**](/windows/win32/imapi2/nn-imapi2-idiscrecorder2?branch=master)
 </dt> <dt>
 
-[**IFileSystemImage**](ifilesystemimage.md)
+[**IFileSystemImage**](/windows/win32/imapi2fs/nn-imapi2fs-ifilesystemimage?branch=master)
 </dt> <dt>
 
 [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034)

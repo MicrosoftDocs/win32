@@ -1,8 +1,9 @@
 ---
 title: RtmCreateEnumerationHandle function
 description: The RtmCreateEnumerationHandle function returns a handle to use with RtmEnumerateGetNextRoute to scan through all routes, or a subset of routes, known to the routing table manager.
-ms.assetid: '73e3ac7d-498a-4d89-a6b5-17aaf4b17ec2'
-keywords: ["RtmCreateEnumerationHandle function RAS"]
+ms.assetid: 73e3ac7d-498a-4d89-a6b5-17aaf4b17ec2
+keywords:
+- RtmCreateEnumerationHandle function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtmCreateEnumerationHandle function
@@ -24,9 +30,9 @@ The **RtmCreateEnumerationHandle** function returns a handle to use with [**RtmE
 
 ```C++
 HANDLE RtmCreateEnumerationHandle(
-  _In_ DWORD ProtocolFamily,
-  _In_ DWORD EnumerationFlags,
-  _In_ PVOID CriteriaRoute
+  _In_ DWORD ProtocolFamily,
+  _In_ DWORD EnumerationFlags,
+  _In_ PVOID CriteriaRoute
 );
 ```
 
@@ -59,7 +65,7 @@ Specifies which routes should be enumerated. This parameter limits the set of ro
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -87,7 +93,7 @@ If the function fails, or no routes exist with the specified criteria, the retur
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -96,8 +102,8 @@ If the function fails, or no routes exist with the specified criteria, the retur
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
-| End of server support<br/>    | Windows Server 2003<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| End of server support<br/>    | Windows Server 2003<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Rtm.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
@@ -129,9 +135,9 @@ If the function fails, or no routes exist with the specified criteria, the retur
 [**RtmEnumerateGetNextRoute**](rtmenumerategetnextroute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

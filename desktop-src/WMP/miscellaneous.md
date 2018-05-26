@@ -1,8 +1,16 @@
 ---
 title: Miscellaneous
 description: Miscellaneous
-ms.assetid: '39e5187d-1f71-4ca8-814c-0ea1d5367a2e'
-keywords: ["Windows Media Player skins,specialized attributes", "skins,specialized attributes", "reference for skins,specialized attributes"]
+ms.assetid: 39e5187d-1f71-4ca8-814c-0ea1d5367a2e
+keywords:
+- Windows Media Player skins,specialized attributes
+- skins,specialized attributes
+- reference for skins,specialized attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Miscellaneous

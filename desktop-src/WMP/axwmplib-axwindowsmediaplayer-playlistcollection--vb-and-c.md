@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.playlistCollection property
 description: The playlistCollection property gets an IWMPPlaylistCollection interface.
-ms.assetid: 'f3c65f70-b58f-41c1-afe0-3a9d9c95561c'
-keywords: ["playlistCollection property Windows Media Player", "playlistCollection property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , playlistCollection property"]
+ms.assetid: f3c65f70-b58f-41c1-afe0-3a9d9c95561c
+keywords:
+- playlistCollection property Windows Media Player
+- playlistCollection property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , playlistCollection property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.playlistCollection property
@@ -82,9 +90,9 @@ To retrieve the value of this property, read access to the library is required. 
 [**IWMPSettings2.requestMediaAccessRights (VB and C#)**](wmplibiwmpsettings2-iwmpsettings2-requestmediaaccessrights--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

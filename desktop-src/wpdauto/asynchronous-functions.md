@@ -1,7 +1,12 @@
 ---
 title: Asynchronous Functions
 description: For certain functions, asynchronous behavior can be enabled by setting an event handler for the completion events.
-ms.assetid: '2d902b43-c1b7-470d-a75c-8aee93ccef87'
+ms.assetid: 2d902b43-c1b7-470d-a75c-8aee93ccef87
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Asynchronous Functions

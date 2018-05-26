@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_MemoryDeviceArray association WMI class relates a memory device and the memory array in which it resides.'
+Description: The Win32\_MemoryDeviceArray association WMI class relates a memory device and the memory array in which it resides.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '39ea6333-2352-488b-99e4-97594bea7dcd'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 39ea6333-2352-488b-99e4-97594bea7dcd
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_MemoryDeviceArray class'
+title: Win32\_MemoryDeviceArray class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_MemoryDeviceArray class
@@ -24,7 +27,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{B24EF563-BBBE-11d2-ABFB-00805F538618}"), AMENDMENT]
 class Win32_MemoryDeviceArray : CIM_Component
 {
-  Win32_MemoryArray  REF GroupComponent;
+  Win32_MemoryArray  REF GroupComponent;
   Win32_MemoryDevice REF PartComponent;
 };
 ```
@@ -83,8 +86,8 @@ The **Win32\_MemoryDeviceArray** class is derived from [**CIM\_Component**](cim-
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -101,9 +104,9 @@ The **Win32\_MemoryDeviceArray** class is derived from [**CIM\_Component**](cim-
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

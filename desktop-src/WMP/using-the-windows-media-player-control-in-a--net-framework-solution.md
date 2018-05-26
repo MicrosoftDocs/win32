@@ -1,8 +1,29 @@
 ---
 title: Using the Windows Media Player Control in a .NET Framework Solution
 description: Using the Windows Media Player Control in a .NET Framework Solution
-ms.assetid: 'f1cc2ef0-a341-402f-bf7c-2ba07eea1f6a'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player,.NET Framework", "Windows Media Player object model,.NET Framework", "object model,.NET Framework", "Windows Media Player Mobile,.NET Framework", "Windows Media Player ActiveX control,.NET Framework", "Windows Media Player Mobile ActiveX control,.NET Framework", "ActiveX control,.NET Framework", ".NET Framework,about embedding ActiveX control", "embedding,.NET Framework solutions"]
+ms.assetid: f1cc2ef0-a341-402f-bf7c-2ba07eea1f6a
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player,.NET Framework
+- Windows Media Player object model,.NET Framework
+- object model,.NET Framework
+- Windows Media Player Mobile,.NET Framework
+- Windows Media Player ActiveX control,.NET Framework
+- Windows Media Player Mobile ActiveX control,.NET Framework
+- ActiveX control,.NET Framework
+- .NET Framework,about embedding ActiveX control
+- embedding,.NET Framework solutions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Windows Media Player Control in a .NET Framework Solution

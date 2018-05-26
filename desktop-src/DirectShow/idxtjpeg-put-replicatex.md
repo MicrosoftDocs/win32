@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_ReplicateX method specifies the number of times the wipe pattern is replicated horizontally.'
-ms.assetid: '8baa641c-c063-4c22-8b00-3559c173d627'
-title: 'IDxtJpeg::put\_ReplicateX method'
+---
+Description: The put\_ReplicateX method specifies the number of times the wipe pattern is replicated horizontally.
+ms.assetid: 8baa641c-c063-4c22-8b00-3559c173d627
+title: IDxtJpegput\_ReplicateX method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::put\_ReplicateX method

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the horizontal portion of the pixel aspect ratio. The Y portion of XX:YY. For example, 11 is the Y portion of 10:11 .'
-ms.assetid: 'b463b51e-3e00-4f80-a7b9-f5ff5432b7ef'
-title: 'System.Video.VerticalAspectRatio'
+Description: Indicates the horizontal portion of the pixel aspect ratio. The Y portion of XXYY. For example, 11 is the Y portion of 1011 .
+ms.assetid: b463b51e-3e00-4f80-a7b9-f5ff5432b7ef
+title: System.Video.VerticalAspectRatio
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Video.VerticalAspectRatio

@@ -1,8 +1,18 @@
 ---
 title: Background Plug-ins
 description: Background Plug-ins
-ms.assetid: '23c8cd49-052d-4c23-8676-b8cf5b684cbf'
-keywords: ["Windows Media Player plug-ins,background", "plug-ins,background", "user interface plug-ins,background", "UI plug-ins,background", "background plug-ins"]
+ms.assetid: 23c8cd49-052d-4c23-8676-b8cf5b684cbf
+keywords:
+- Windows Media Player plug-ins,background
+- plug-ins,background
+- user interface plug-ins,background
+- UI plug-ins,background
+- background plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Background Plug-ins

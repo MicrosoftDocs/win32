@@ -1,7 +1,12 @@
 ---
-Description: 'Each face in a mesh has a perpendicular unit normal vector, as shown in the following illustration.'
-ms.assetid: '86e2a460-7b58-4612-8f72-5a4e864ceb58'
-title: 'Face and Vertex Normal Vectors (Direct3D 9)'
+Description: Each face in a mesh has a perpendicular unit normal vector, as shown in the following illustration.
+ms.assetid: 86e2a460-7b58-4612-8f72-5a4e864ceb58
+title: Face and Vertex Normal Vectors (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Face and Vertex Normal Vectors (Direct3D 9)

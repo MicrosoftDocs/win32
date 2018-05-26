@@ -1,7 +1,12 @@
 ---
 title: Implementing and Exporting the DLL Entry Points
 description: Implementing and Exporting the DLL Entry Points
-ms.assetid: '95b4c251-6c45-48c6-a630-6d94532da25a'
+ms.assetid: 95b4c251-6c45-48c6-a630-6d94532da25a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing and Exporting the DLL Entry Points

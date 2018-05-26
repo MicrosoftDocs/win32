@@ -1,8 +1,22 @@
 ---
 title: Replacing the Windows Picture and Fax Viewer Application Using the Preview Verb
 description: As of Windows XP, users can view, rotate, print, and zoom images.
-ms.assetid: 'cb08756b-6a5d-424d-ab6d-2e34d180ec4e'
-keywords: ["Windows Picture and Fax Viewer", "Preview verb", "best practices,Windows Picture and Fax Viewer", "best practices,Preview verb", "performance,Windows Picture and Fax Viewer", "performance,Preview verb", "register,Preview verb", "register,Slideshow verb", "Slideshow verb"]
+ms.assetid: cb08756b-6a5d-424d-ab6d-2e34d180ec4e
+keywords:
+- Windows Picture and Fax Viewer
+- Preview verb
+- best practices,Windows Picture and Fax Viewer
+- best practices,Preview verb
+- performance,Windows Picture and Fax Viewer
+- performance,Preview verb
+- register,Preview verb
+- register,Slideshow verb
+- Slideshow verb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Replacing the Windows Picture and Fax Viewer Application Using the Preview Verb

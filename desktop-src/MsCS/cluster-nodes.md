@@ -4,11 +4,14 @@ description: Returns a ClusNodes collection providing access to the nodes in a c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '690c9635-114f-4109-a9b9-4ebb1961c58b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 690c9635-114f-4109-a9b9-4ebb1961c58b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Nodes property Failover Cluster", "Nodes property Failover Cluster , Cluster object", "Cluster object Failover Cluster , Nodes property"]
+keywords:
+- Nodes property Failover Cluster
+- Nodes property Failover Cluster , Cluster object
+- Cluster object Failover Cluster , Nodes property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster.Nodes property
@@ -48,7 +54,7 @@ A [**ClusNodes**](clusnodes-collection.md) collection.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -67,9 +73,9 @@ A [**ClusNodes**](clusnodes-collection.md) collection.
 [**Cluster**](cluster-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

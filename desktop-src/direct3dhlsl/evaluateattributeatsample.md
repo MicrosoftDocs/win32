@@ -1,14 +1,20 @@
 ---
 title: EvaluateAttributeAtSample function
 description: Evaluates at the indexed sample location.
-ms.assetid: 'b5886004-5960-461d-a0d2-f4c3b0d09d94'
-keywords: ["EvaluateAttributeAtSample function HLSL"]
+ms.assetid: b5886004-5960-461d-a0d2-f4c3b0d09d94
+keywords:
+- EvaluateAttributeAtSample function HLSL
 topic_type:
 - apiref
 api_name:
 - EvaluateAttributeAtSample
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EvaluateAttributeAtSample function

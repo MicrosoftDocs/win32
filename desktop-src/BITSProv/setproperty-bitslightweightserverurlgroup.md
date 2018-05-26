@@ -1,8 +1,11 @@
 ---
 title: SetProperty method of the BitsCompactServerUrlGroup class
 description: The SetProperty method sets either the bandwidth or connection limit in BYTEs per second.
-ms.assetid: 'f025ed37-0993-4cd3-adfe-5c4096e1d0b6'
-keywords: ["SetProperty method", "SetProperty method, BitsCompactServerUrlGroup class", "BitsCompactServerUrlGroup class, SetProperty method"]
+ms.assetid: f025ed37-0993-4cd3-adfe-5c4096e1d0b6
+keywords:
+- SetProperty method
+- SetProperty method, BitsCompactServerUrlGroup class
+- BitsCompactServerUrlGroup class, SetProperty method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetProperty method of the BitsCompactServerUrlGroup class
@@ -22,8 +30,8 @@ The **SetProperty** method sets either the bandwidth or connection limit in BYTE
 
 ```mof
 uint32 SetProperty(
-  [in] string Property,
-  [in] uint32 Value
+  [in] string Property,
+  [in] uint32 Value
 );
 ```
 
@@ -60,8 +68,8 @@ Specifies the value to set for the property. The minimum value for the **Bandwid
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
@@ -74,9 +82,9 @@ Specifies the value to set for the property. The minimum value for the **Bandwid
 [**BitsCompactServerUrlGroup**](bitslightweightserverurlgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

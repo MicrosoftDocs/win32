@@ -1,8 +1,14 @@
 ---
 title: Verb
 description: Specifies the verbs to be registered for an application.
-ms.assetid: 'fc9b3474-6f56-4274-af7d-72e0920c0457'
-keywords: ["Verb registry key COM"]
+ms.assetid: fc9b3474-6f56-4274-af7d-72e0920c0457
+keywords:
+- Verb registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verb
@@ -28,9 +34,9 @@ The *name* describes how the verb is appended by an [**AppendMenu**](_win32_Appe
 
 The *menu\_flag* value indicates how the verb should appear in the menu. All flags supported by [**AppendMenu**](_win32_AppendMenu_cpp) are supported, except for MF\_BITMAP, MF\_OWNERDRAW, and MF\_POPUP.
 
-The *verb\_flag* value describes attributes of the verbs. Use one of the values from [**OLEVERBATTRIB**](oleverbattrib.md), or 0.
+The *verb\_flag* value describes attributes of the verbs. Use one of the values from [**OLEVERBATTRIB**](/windows/win32/OleIdl/ne-oleidl-tagoleverbattrib?branch=master), or 0.
 
-For more information, see [**OLEVERB**](oleverb.md), [**IOleObject::DoVerb**](ioleobject-doverb.md), and [**IOleObject::EnumVerbs**](ioleobject-enumverbs.md).
+For more information, see [**OLEVERB**](/windows/win32/OleIdl/ns-oleidl-tagoleverb?branch=master), [**IOleObject::DoVerb**](/windows/win32/OleIdl/nf-oleidl-ioleobject-doverb?branch=master), and [**IOleObject::EnumVerbs**](/windows/win32/OleIdl/nf-oleidl-ioleobject-enumverbs?branch=master).
 
 ## Related topics
 
@@ -39,10 +45,10 @@ For more information, see [**OLEVERB**](oleverb.md), [**IOleObject::DoVerb**](io
 [**AppendMenu**](_win32_AppendMenu_cpp)
 </dt> <dt>
 
-[**OLEVERB**](oleverb.md)
+[**OLEVERB**](/windows/win32/OleIdl/ns-oleidl-tagoleverb?branch=master)
 </dt> <dt>
 
-[**OLEVERBATTRIB**](oleverbattrib.md)
+[**OLEVERBATTRIB**](/windows/win32/OleIdl/ne-oleidl-tagoleverbattrib?branch=master)
 </dt> </dl>
 
  

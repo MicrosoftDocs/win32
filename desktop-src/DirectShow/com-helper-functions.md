@@ -1,7 +1,12 @@
 ---
-Description: 'These functions provide support for implementing the IUnknown interface in DirectShow.'
-ms.assetid: '991e4c69-7d30-4ecf-9ccf-4920452c21d6'
+Description: These functions provide support for implementing the IUnknown interface in DirectShow.
+ms.assetid: 991e4c69-7d30-4ecf-9ccf-4920452c21d6
 title: COM Helper Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Helper Functions
@@ -19,7 +24,7 @@ These functions provide support for implementing the **IUnknown** interface in D
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -39,9 +44,9 @@ These functions provide support for implementing the **IUnknown** interface in D
 [Utility Functions](utility-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

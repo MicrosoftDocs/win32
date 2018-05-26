@@ -1,7 +1,12 @@
-﻿---
-Description: 'The KERNDATA structure is used for describing printer kerning pairs.'
-ms.assetid: 'b3f68c08-7097-46e7-ad47-6e5e1f2cb8b2'
+---
+Description: The KERNDATA structure is used for describing printer kerning pairs.
+ms.assetid: b3f68c08-7097-46e7-ad47-6e5e1f2cb8b2
 title: KERNDATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KERNDATA structure

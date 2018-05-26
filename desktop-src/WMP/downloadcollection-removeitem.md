@@ -1,8 +1,11 @@
 ---
 title: DownloadCollection.removeItem method
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The removeItem method removes a download item from a download collection.
-ms.assetid: '0008752e-c81a-4f91-a582-9d6b46569479'
-keywords: ["removeItem method Windows Media Player", "removeItem method Windows Media Player , DownloadCollection class", "DownloadCollection class Windows Media Player , removeItem method"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The removeItem method removes a download item from a download collection.
+ms.assetid: 0008752e-c81a-4f91-a582-9d6b46569479
+keywords:
+- removeItem method Windows Media Player
+- removeItem method Windows Media Player , DownloadCollection class
+- DownloadCollection class Windows Media Player , removeItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadCollection.removeItem method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **removeItem** method removes a download item from a download collection.
 
@@ -73,9 +81,9 @@ If the download represented by *itemID* is in progress, this method cancels the 
 [**DownloadCollection Object**](downloadcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

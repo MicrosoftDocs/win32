@@ -1,8 +1,18 @@
 ---
 title: Supporting UI Automation Control Types
 description: This section contains detailed information about the tree structure, properties, control patterns, and events that each Microsoft UI Automation control type is required to support.
-ms.assetid: '35232907-6c54-47cd-b82a-0daee279ef17'
-keywords: ["UI Automation,about control types", "UI Automation,control type overview", "support for control type", "control types,support", "control types,about"]
+ms.assetid: 35232907-6c54-47cd-b82a-0daee279ef17
+keywords:
+- UI Automation,about control types
+- UI Automation,control type overview
+- support for control type
+- control types,support
+- control types,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supporting UI Automation Control Types

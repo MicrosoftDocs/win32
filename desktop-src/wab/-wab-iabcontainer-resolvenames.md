@@ -1,8 +1,11 @@
 ---
 title: IABContainer ResolveNames method
 description: Resolves entries against the address book container.
-ms.assetid: '74991ff8-0ec4-413f-ba73-c60c9d0c8065'
-keywords: ["ResolveNames method Windows Address Book", "ResolveNames method Windows Address Book , IABContainer interface", "IABContainer interface Windows Address Book , ResolveNames method"]
+ms.assetid: 74991ff8-0ec4-413f-ba73-c60c9d0c8065
+keywords:
+- ResolveNames method Windows Address Book
+- ResolveNames method Windows Address Book , IABContainer interface
+- IABContainer interface Windows Address Book , ResolveNames method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IABContainer::ResolveNames method
@@ -22,10 +30,10 @@ Resolves entries against the address book container.
 
 ```C++
 HRESULT ResolveNames(
-   SPropTagArray *lpPropTagArray,
-   ULONG         ulFlags = ,
-   ADRLIST       *lpAdrList,
-   FlagList      *lpFlagList
+   SPropTagArray *lpPropTagArray,
+   ULONG         ulFlags = ,
+   ADRLIST       *lpAdrList,
+   FlagList      *lpFlagList
 );
 ```
 
@@ -38,9 +46,9 @@ HRESULT ResolveNames(
 *lpPropTagArray* 
 </dt> <dd>
 
-Type: **[**SPropTagArray**](-wab-sproptagarray.md)\***
+Type: **[**SPropTagArray**](/windows/previous-versions/Wabdefs/ns-wabdefs-_sproptagarray?branch=master)\***
 
-Pointer to a variable of type [**SPropTagArray**](-wab-sproptagarray.md) that specifies the set of properties to be included in the returned [**ADRLIST**](-wab-adrlist.md). Pass **NULL** to return the default columns.
+Pointer to a variable of type [**SPropTagArray**](/windows/previous-versions/Wabdefs/ns-wabdefs-_sproptagarray?branch=master) that specifies the set of properties to be included in the returned [**ADRLIST**](/windows/previous-versions/Wabdefs/ns-wabdefs-_adrlist?branch=master). Pass **NULL** to return the default columns.
 
 </dd> <dt>
 
@@ -78,9 +86,9 @@ Enables the caller to resolve names against the whole WAB, not just against the 
 *lpAdrList* 
 </dt> <dd>
 
-Type: **[**ADRLIST**](-wab-adrlist.md)\***
+Type: **[**ADRLIST**](/windows/previous-versions/Wabdefs/ns-wabdefs-_adrlist?branch=master)\***
 
-Pointer to a variable of type [**ADRLIST**](-wab-adrlist.md) that specifies the address list of entries whose names need to be resolved. On output, *lpFlagList* receives the list of resolved names.
+Pointer to a variable of type [**ADRLIST**](/windows/previous-versions/Wabdefs/ns-wabdefs-_adrlist?branch=master) that specifies the address list of entries whose names need to be resolved. On output, *lpFlagList* receives the list of resolved names.
 
 </dd> <dt>
 
@@ -136,14 +144,14 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 **IABContainer::ResolveNames** uses the address list passed in *lpAdrList* in attempting to resolve all the entries that have their corresponding **MAPI\_UNRESOLVED** flag set in *lpFlagList*. Entries in *lpAdrList* that lack the PR\_ENTRYID property are considered unresolved.
 
-The client uses the array of flags retrieved by **IABContainer::ResolveNames** in *lpFlagList* to track the results of the name resolution operation. The array indicates whether each entry name is resolved, unresolved, or matches more than one entry. If the container can uniquely match any unresolved entry, **IABContainer::ResolveNames** sets the flag for that entry in *lpFlagList* to **MAPI\_RESOLVED**. **IABContainer::ResolveNames** also adds the PR\_ENTRYID property for that entry to the entry's [**ADRENTRY**](-wab-adrentry.md) structure in the address list in *lpAdrList*. If a container holds more than one entry that matches a given unresolved entry, **IABContainer::ResolveNames** sets the flag for the unresolved entry in *lpFlagList* to **MAPI\_AMBIGUOUS** and leaves that entry's **ADRENTRY** unchanged.
+The client uses the array of flags retrieved by **IABContainer::ResolveNames** in *lpFlagList* to track the results of the name resolution operation. The array indicates whether each entry name is resolved, unresolved, or matches more than one entry. If the container can uniquely match any unresolved entry, **IABContainer::ResolveNames** sets the flag for that entry in *lpFlagList* to **MAPI\_RESOLVED**. **IABContainer::ResolveNames** also adds the PR\_ENTRYID property for that entry to the entry's [**ADRENTRY**](/windows/previous-versions/Wabdefs/ns-wabdefs-_adrentry?branch=master) structure in the address list in *lpAdrList*. If a container holds more than one entry that matches a given unresolved entry, **IABContainer::ResolveNames** sets the flag for the unresolved entry in *lpFlagList* to **MAPI\_AMBIGUOUS** and leaves that entry's **ADRENTRY** unchanged.
 
-If **IABContainer::ResolveNames** cannot retrieve all of the properties requested for an unresolved entry, and these properties do not exist in the [**ADRENTRY**](-wab-adrentry.md) structure passed in, **IABContainer::ResolveNames** sets the property type of each property not retrieved to PT\_ERROR. Any property columns that are already included for an entry are retained if that entry is resolved.
+If **IABContainer::ResolveNames** cannot retrieve all of the properties requested for an unresolved entry, and these properties do not exist in the [**ADRENTRY**](/windows/previous-versions/Wabdefs/ns-wabdefs-_adrentry?branch=master) structure passed in, **IABContainer::ResolveNames** sets the property type of each property not retrieved to PT\_ERROR. Any property columns that are already included for an entry are retained if that entry is resolved.
 
 > [!Note]  
-> The [**ADRENTRY**](-wab-adrentry.md) items in the [**ADRLIST**](-wab-adrlist.md) must be allocated separately, NOT allocated with [**AllocateMore**](-wab-iwabobject-allocatemore.md). When **IABContainer::ResolveNames** replaces an entry, it uses [**FreeBuffer**](-wab-iwabobject-freebuffer.md) to eliminate the **ADRENTRY** and [**AllocateBuffer**](-wab-iwabobject-allocatebuffer.md) to create a new one.
+> The [**ADRENTRY**](/windows/previous-versions/Wabdefs/ns-wabdefs-_adrentry?branch=master) items in the [**ADRLIST**](/windows/previous-versions/Wabdefs/ns-wabdefs-_adrlist?branch=master) must be allocated separately, NOT allocated with [**AllocateMore**](/windows/previous-versions/Wabapi/?branch=master). When **IABContainer::ResolveNames** replaces an entry, it uses [**FreeBuffer**](/windows/previous-versions/Wabapi/?branch=master) to eliminate the **ADRENTRY** and [**AllocateBuffer**](/windows/previous-versions/Wabapi/?branch=master) to create a new one.
 
- 
+ 
 
 ## Requirements
 
@@ -151,17 +159,17 @@ If **IABContainer::ResolveNames** cannot retrieve all of the properties requeste
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Internet Explorer 4.0<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Wabtmp.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Wab32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

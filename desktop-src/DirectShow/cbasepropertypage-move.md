@@ -1,7 +1,12 @@
 ---
-Description: 'The Move method positions and resizes the dialog box. This method implements the IPropertyPage::Move method.'
-ms.assetid: 'b6cabb5c-196d-489b-9dd4-194d26f4de83'
-title: 'CBasePropertyPage.Move method'
+Description: The Move method positions and resizes the dialog box. This method implements the IPropertyPageMove method.
+ms.assetid: b6cabb5c-196d-489b-9dd4-194d26f4de83
+title: CBasePropertyPage.Move method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.Move method
@@ -13,7 +18,7 @@ The `Move` method positions and resizes the dialog box. This method implements t
 
 ```C++
 HRESULT Move(
-   LPCRECT prect
+   LPCRECT prect
 );
 ```
 
@@ -44,7 +49,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,9 +69,9 @@ Returns an **HRESULT** value. Possible values include the following.
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

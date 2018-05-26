@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the different ready states of the Media Source Extension.'
-ms.assetid: '7455B92F-CC2D-4743-935D-F5EBFD834397'
-title: 'MF\_MSE\_READY enumeration'
+---
+Description: Defines the different ready states of the Media Source Extension.
+ms.assetid: 7455B92F-CC2D-4743-935D-F5EBFD834397
+title: MF\_MSE\_READY enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MSE\_READY enumeration

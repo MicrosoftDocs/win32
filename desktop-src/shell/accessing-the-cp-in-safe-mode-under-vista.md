@@ -1,6 +1,11 @@
 ---
-Description: 'By default, as of Windows Vista Control Panel items are not shown when Windows is run in safe mode.'
+Description: By default, as of Windows Vista Control Panel items are not shown when Windows is run in safe mode.
 title: Accessing the Control Panel in Safe Mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing the Control Panel in Safe Mode

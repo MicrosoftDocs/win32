@@ -4,11 +4,15 @@ description: The following code examples search for users in the domain of the u
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '53bbd57b-0bd2-4acb-a69f-89764b85e257'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 53bbd57b-0bd2-4acb-a69f-89764b85e257
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , searching for users"]
+keywords:
+- Active Directory examples Active Directory , searching for users
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Searching for Users

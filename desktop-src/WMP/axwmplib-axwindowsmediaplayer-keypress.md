@@ -1,8 +1,9 @@
 ---
 title: KeyPress Event of the AxWindowsMediaPlayer Object
 description: The KeyPress event occurs when a key is pressed and released.
-ms.assetid: '73ecd6f9-1b58-4e28-ad1b-2d930a235e1d'
-keywords: ["KeyPress Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 73ecd6f9-1b58-4e28-ad1b-2d930a235e1d
+keywords:
+- KeyPress Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeyPress Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Key
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +74,9 @@ This event occurs when the keystroke results in any printable keyboard character
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

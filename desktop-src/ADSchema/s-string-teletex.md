@@ -4,17 +4,21 @@ description: A case insensitive string that contains characters from the teletex
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f3217d22-147b-4d96-9169-14c2cc9573eb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: f3217d22-147b-4d96-9169-14c2cc9573eb
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["String(Teletex) syntax AD Schema"]
+keywords:
+- String(Teletex) syntax AD Schema
 topic_type:
 - apiref
 api_name:
 - String(Teletex)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # String(Teletex) syntax

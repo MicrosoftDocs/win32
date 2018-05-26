@@ -1,7 +1,12 @@
 ---
 title: LowResourceCheckInterval
 description: LowResourceCheckInterval
-ms.assetid: '8af2e26c-95e7-494b-a2ab-a223b57f4d3e'
+ms.assetid: 8af2e26c-95e7-494b-a2ab-a223b57f4d3e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LowResourceCheckInterval

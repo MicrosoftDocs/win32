@@ -1,8 +1,9 @@
 ---
 title: COLORMATCHSETUP structure
 description: The COLORMATCHSETUP structure contains information that the SetupColorMatching function uses to initialize the ColorManagement dialog box.
-ms.assetid: '920c9ac2-bb77-4805-9345-15611db1aade'
-keywords: ["COLORMATCHSETUP structure Windows Color System"]
+ms.assetid: 920c9ac2-bb77-4805-9345-15611db1aade
+keywords:
+- COLORMATCHSETUP structure Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Icm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLORMATCHSETUP structure
@@ -22,25 +28,25 @@ The **COLORMATCHSETUP** structure contains information that the [**SetupColorMat
 
 ```C++
 typedef struct _tagCOLORMATCHSETUP {
-  DWORD         dwSize;
-  DWORD         dwVersion;
-  DWORD         dwFlags;
-  HWND          hwndOwner;
-  PCTSTR        pSourceName;
-  PCTSTR        pDisplayName;
-  PCTSTR        pPrinterName;
-  DWORD         dwRenderIntent;
-  DWORD         dwProofingIntent;
-  PTSTR         pMonitorProfile;
-  DWORD         ccMonitorProfile;
-  PTSTR         pPrinterProfile;
-  DWORD         ccPrinterProfile;
-  PTSTR         pTargetProfile;
-  DWORD         ccTargetProfile;
-  DLGPROC       lpfnHook;
-  LPARAM        lParam;
+  DWORD         dwSize;
+  DWORD         dwVersion;
+  DWORD         dwFlags;
+  HWND          hwndOwner;
+  PCTSTR        pSourceName;
+  PCTSTR        pDisplayName;
+  PCTSTR        pPrinterName;
+  DWORD         dwRenderIntent;
+  DWORD         dwProofingIntent;
+  PTSTR         pMonitorProfile;
+  DWORD         ccMonitorProfile;
+  PTSTR         pPrinterProfile;
+  DWORD         ccPrinterProfile;
+  PTSTR         pTargetProfile;
+  DWORD         ccTargetProfile;
+  DLGPROC       lpfnHook;
+  LPARAM        lParam;
   PCMSCALLBACKA lpfnApplyCallback;
-  LPARAM        lParamApplyCallback;
+  LPARAM        lParamApplyCallback;
 } COLORMATCHSETUP;
 ```
 
@@ -93,7 +99,7 @@ This member can be set using a combination of the following flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -132,15 +138,15 @@ The type of color management desired. Valid values are:
 
 INTENT\_PERCEPTUAL
 
- 
+ 
 
 INTENT\_SATURATION
 
- 
+ 
 
 INTENT\_RELATIVE\_COLORIMETRIC
 
- 
+ 
 
 INTENT\_ABSOLUTE\_COLORIMETRIC
 
@@ -155,15 +161,15 @@ The type of color management desired for the proofed image. Valid values are:
 
 INTENT\_PERCEPTUAL
 
- 
+ 
 
 INTENT\_SATURATION
 
- 
+ 
 
 INTENT\_RELATIVE\_COLORIMETRIC
 
- 
+ 
 
 INTENT\_ABSOLUTE\_COLORIMETRIC
 
@@ -249,8 +255,8 @@ Contains a value that will be passed to the function **ApplyCallbackFunction** t
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl> |
 
 
@@ -268,9 +274,9 @@ Contains a value that will be passed to the function **ApplyCallbackFunction** t
 [EndDialog](_win32_enddialog)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

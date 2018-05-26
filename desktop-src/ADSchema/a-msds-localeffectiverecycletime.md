@@ -4,17 +4,22 @@ description: Recycle time of the object in the local DIT.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9e0ddff1-be68-4f12-90ad-4028000b4e37'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9e0ddff1-be68-4f12-90ad-4028000b4e37
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-local-Effective-Recycle-Time attribute AD Schema", "msDS-LocalEffectiveRecycleTime attribute AD Schema"]
+keywords:
+- ms-DS-local-Effective-Recycle-Time attribute AD Schema
+- msDS-LocalEffectiveRecycleTime attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-local-Effective-Recycle-Time
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-local-Effective-Recycle-Time attribute

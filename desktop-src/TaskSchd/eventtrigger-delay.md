@@ -1,8 +1,11 @@
 ---
 title: EventTrigger.Delay property
 description: For scripting, gets or sets a value that indicates the amount of time between when the event occurs and when the task is started.
-ms.assetid: '6f8b5e25-ad53-466e-adab-fe3c968e941b'
-keywords: ["Delay property Task Scheduler", "Delay property Task Scheduler , EventTrigger object", "EventTrigger object Task Scheduler , Delay property"]
+ms.assetid: 6f8b5e25-ad53-466e-adab-fe3c968e941b
+keywords:
+- Delay property Task Scheduler
+- Delay property Task Scheduler , EventTrigger object
+- EventTrigger object Task Scheduler , Delay property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventTrigger.Delay property
@@ -40,8 +48,8 @@ When reading or writing your own XML for a task, the event delay is specified us
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -57,9 +65,9 @@ When reading or writing your own XML for a task, the event delay is specified us
 [**EventTrigger**](eventtrigger.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

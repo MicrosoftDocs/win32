@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used by a cryptographic service provider (CSP) to verify the signature of a DLL.'
-ms.assetid: '477a6c9f-05ac-485a-8b27-5605fc11c1d6'
-title: 'CRYPT\_VERIFY\_IMAGE function pointer'
+---
+Description: Used by a cryptographic service provider (CSP) to verify the signature of a DLL.
+ms.assetid: 477a6c9f-05ac-485a-8b27-5605fc11c1d6
+title: CRYPT\_VERIFY\_IMAGE function pointer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRYPT\_VERIFY\_IMAGE function pointer

@@ -4,11 +4,14 @@ description: Releases a lock on a target.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ab2ae9f3-2d38-4b31-9889-58297c574bd4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ab2ae9f3-2d38-4b31-9889-58297c574bd4
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ReleaseTargetLock method Remote Desktop Services", "ReleaseTargetLock method Remote Desktop Services , ITsSbResourcePluginStoreEx interface", "ITsSbResourcePluginStoreEx interface Remote Desktop Services , ReleaseTargetLock method"]
+keywords:
+- ReleaseTargetLock method Remote Desktop Services
+- ReleaseTargetLock method Remote Desktop Services , ITsSbResourcePluginStoreEx interface
+- ITsSbResourcePluginStoreEx interface Remote Desktop Services , ReleaseTargetLock method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - SbTsV.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbResourcePluginStoreEx::ReleaseTargetLock method
@@ -28,7 +34,7 @@ Releases a lock on a target.
 
 ```C++
 HRESULT ReleaseTargetLock(
-  [in] IUnknown *pContext
+  [in] IUnknown *pContext
 );
 ```
 
@@ -41,7 +47,7 @@ HRESULT ReleaseTargetLock(
 *pContext* \[in\]
 </dt> <dd>
 
-A pointer to the context returned by the [**AcquireTargetLock**](itssbresourcepluginstore-acquiretargetlock.md) method.
+A pointer to the context returned by the [**AcquireTargetLock**](/windows/win32/sbtsv/nf-sbtsv-itssbresourcepluginstore-acquiretargetlock?branch=master) method.
 
 </dd> </dl>
 
@@ -51,7 +57,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-This method is only available on Windows Server 2012 R2 with [KB3091411](https://support.microsoft.com/kb/3091411) installed in the [**ITsSbResourcePluginStoreEx**](itssbresourcepluginstoreex.md) interface. This method is available on the [**ITsSbResourcePluginStore**](itssbresourcepluginstore.md) interface starting with Windows Server 2016.
+This method is only available on Windows Server 2012 R2 with [KB3091411](https://support.microsoft.com/kb/3091411) installed in the [**ITsSbResourcePluginStoreEx**](itssbresourcepluginstoreex.md) interface. This method is available on the [**ITsSbResourcePluginStore**](/windows/win32/sbtsv/nn-sbtsv-itssbresourcepluginstore?branch=master) interface starting with Windows Server 2016.
 
 ## Requirements
 
@@ -60,8 +66,8 @@ This method is only available on Windows Server 2012 R2 with [KB3091411](https:/
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                             |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                             |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                             |
 | IDL<br/>                      | <dl> <dt>SbTsV.idl</dt> </dl>          |
 | IID<br/>                      | IID\_ITsSbResourcePluginStoreEx is defined as 80b83ffd-625d-11e5-bea1-a0481c7e9064<br/> |
 
@@ -74,9 +80,9 @@ This method is only available on Windows Server 2012 R2 with [KB3091411](https:/
 [**ITsSbResourcePluginStoreEx**](itssbresourcepluginstoreex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

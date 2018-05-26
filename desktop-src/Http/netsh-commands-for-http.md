@@ -1,7 +1,12 @@
 ---
 title: Netsh commands for HTTP
 description: You can use the Netsh commands for HTTP context to query and configure HTTP.sys settings and parameters.
-ms.assetid: '695c309c-ab43-4c6a-b5f6-5bb9f715bf71'
+ms.assetid: 695c309c-ab43-4c6a-b5f6-5bb9f715bf71
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Netsh commands for HTTP

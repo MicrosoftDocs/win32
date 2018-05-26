@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IDxtJpeg interface sets properties on the SMPTE Wipe transition.This interface is used internally by DirectShow Editing Services (DES) when it renders the SMPTE Wipe transition.'
-ms.assetid: 'ce1920d4-ebe5-42d1-a2eb-d71ddeaf14fe'
+---
+Description: The IDxtJpeg interface sets properties on the SMPTE Wipe transition.This interface is used internally by DirectShow Editing Services (DES) when it renders the SMPTE Wipe transition.
+ms.assetid: ce1920d4-ebe5-42d1-a2eb-d71ddeaf14fe
 title: IDxtJpeg interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg interface

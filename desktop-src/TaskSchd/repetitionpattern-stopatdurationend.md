@@ -1,8 +1,11 @@
 ---
 title: RepetitionPattern.StopAtDurationEnd property
 description: For scripting, gets or sets a Boolean value that indicates if a running instance of the task is stopped at the end of the repetition pattern duration.
-ms.assetid: 'a43b5b32-a496-4f59-89f2-4b8566332e03'
-keywords: ["StopAtDurationEnd property Task Scheduler", "StopAtDurationEnd property Task Scheduler , RepetitionPattern object", "RepetitionPattern object Task Scheduler , StopAtDurationEnd property"]
+ms.assetid: a43b5b32-a496-4f59-89f2-4b8566332e03
+keywords:
+- StopAtDurationEnd property Task Scheduler
+- StopAtDurationEnd property Task Scheduler , RepetitionPattern object
+- RepetitionPattern object Task Scheduler , StopAtDurationEnd property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RepetitionPattern.StopAtDurationEnd property
@@ -40,8 +48,8 @@ When reading or writing XML for a task, this information is specified in the [**
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -54,9 +62,9 @@ When reading or writing XML for a task, this information is specified in the [**
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

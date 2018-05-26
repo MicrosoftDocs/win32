@@ -4,11 +4,14 @@ description: Returns the SCSI port number of the Physical Disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a05715d8-4eae-4a80-bba3-9b26e90ba6d4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: a05715d8-4eae-4a80-bba3-9b26e90ba6d4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["PortNumber property Failover Cluster", "PortNumber property Failover Cluster , ClusScsiAddress object", "ClusScsiAddress object Failover Cluster , PortNumber property"]
+keywords:
+- PortNumber property Failover Cluster
+- PortNumber property Failover Cluster , ClusScsiAddress object
+- ClusScsiAddress object Failover Cluster , PortNumber property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusScsiAddress.PortNumber property
@@ -47,7 +53,7 @@ A **Variant** that receives the port number of the disk.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -75,9 +81,9 @@ A **Variant** that receives the port number of the disk.
 [**ClusScsiAddress.TargetId**](clusscsiaddress-targetid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

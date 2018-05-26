@@ -1,8 +1,11 @@
 ---
 title: CreateSubResourcePool method of the CIM\_ResourcePoolConfigurationService class
 description: Start a job to create a sub-pool from a parent pool using the specified allocation settings.
-ms.assetid: 'c7adf18f-870f-474f-bc9d-00e742b32b82'
-keywords: ["CreateSubResourcePool method Hyper-V", "CreateSubResourcePool method Hyper-V , CIM_ResourcePoolConfigurationService class", "CIM_ResourcePoolConfigurationService class Hyper-V , CreateSubResourcePool method"]
+ms.assetid: c7adf18f-870f-474f-bc9d-00e742b32b82
+keywords:
+- CreateSubResourcePool method Hyper-V
+- CreateSubResourcePool method Hyper-V , CIM_ResourcePoolConfigurationService class
+- CIM_ResourcePoolConfigurationService class Hyper-V , CreateSubResourcePool method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateSubResourcePool method of the CIM\_ResourcePoolConfigurationService class
@@ -22,12 +30,12 @@ Start a job to create a sub-pool from a parent pool using the specified allocati
 
 ```mof
 uint32 CreateSubResourcePool(
-  [in]  string               ElementName,
-  [in]  string               settings,
-  [in]  CIM_ResourcePool REF ParentPool,
-  [out] CIM_ResourcePool REF Pool,
-  [out] CIM_ConcreteJob  REF Job,
-  [out] string               Error
+  [in]  string               ElementName,
+  [in]  string               settings,
+  [in]  CIM_ResourcePool REF ParentPool,
+  [out] CIM_ResourcePool REF Pool,
+  [out] CIM_ConcreteJob  REF Job,
+  [out] string               Error
 );
 ```
 
@@ -143,9 +151,9 @@ Contains an error message, if relevant.
 [**CIM\_ResourcePoolConfigurationService**](cim-resourcepoolconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

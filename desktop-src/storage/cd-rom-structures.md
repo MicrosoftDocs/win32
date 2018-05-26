@@ -1,7 +1,12 @@
 ---
 title: CD-ROM Structures
 description: CD-ROM Structures
-ms.assetid: '5d184d05-16e6-48db-b0b9-a8417d269297'
+ms.assetid: 5d184d05-16e6-48db-b0b9-a8417d269297
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD-ROM Structures

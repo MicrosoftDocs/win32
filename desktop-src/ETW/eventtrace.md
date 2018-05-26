@@ -1,7 +1,12 @@
-﻿---
-Description: 'An abstract class from which all event trace classes are derived.'
-ms.assetid: '03eea902-5050-4ab2-8a72-9bff7777e234'
+---
+Description: An abstract class from which all event trace classes are derived.
+ms.assetid: 03eea902-5050-4ab2-8a72-9bff7777e234
 title: EventTrace class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventTrace class

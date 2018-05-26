@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an color transform object that implements IWICColorTransform. This COM object supports the free-threaded object model.'
-ms.assetid: '43DCC3FB-B687-45F0-AAC6-DED76214716C'
-title: 'WICCreateColorTransform\_Proxy function'
+---
+Description: Creates an color transform object that implements IWICColorTransform. This COM object supports the free-threaded object model.
+ms.assetid: 43DCC3FB-B687-45F0-AAC6-DED76214716C
+title: WICCreateColorTransform\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WICCreateColorTransform\_Proxy function

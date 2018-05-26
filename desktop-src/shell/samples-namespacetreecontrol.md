@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to implement a custom namespace tree control for an application.'
+Description: Demonstrates how to implement a custom namespace tree control for an application.
 title: NameSpace Tree Control Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NameSpace Tree Control Sample

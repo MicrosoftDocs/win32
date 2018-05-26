@@ -1,8 +1,18 @@
 ---
 title: Porting Blending Code
 description: In IRIS GL, when drawing to both front and back buffers, blending is done by reading one of the buffers, blending with that color, and then writing the result to both buffers. In OpenGL, however, each buffer is read in turn, blended, and then written.
-ms.assetid: '18334c6b-586d-44a3-aa95-d10589ba99f4'
-keywords: ["IRIS GL porting,blending", "porting from IRIS GL,blending", "porting to OpenGL from IRIS GL,blending", "OpenGL porting from IRIS GL,blending", "blending"]
+ms.assetid: 18334c6b-586d-44a3-aa95-d10589ba99f4
+keywords:
+- IRIS GL porting,blending
+- porting from IRIS GL,blending
+- porting to OpenGL from IRIS GL,blending
+- OpenGL porting from IRIS GL,blending
+- blending
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Blending Code

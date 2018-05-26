@@ -1,8 +1,19 @@
 ---
 title: Implementing Your Code
 description: Implementing Your Code
-ms.assetid: '875b27b3-10ee-498a-bbd1-f9ce69fda17e'
-keywords: ["Windows Media Player plug-ins,visualizations", "plug-ins,visualizations", "visualizations,implementing code", "custom visualizations,implementing code", "visualizations,modifying sample code", "custom visualizations,modifying sample code"]
+ms.assetid: 875b27b3-10ee-498a-bbd1-f9ce69fda17e
+keywords:
+- Windows Media Player plug-ins,visualizations
+- plug-ins,visualizations
+- visualizations,implementing code
+- custom visualizations,implementing code
+- visualizations,modifying sample code
+- custom visualizations,modifying sample code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing Your Code

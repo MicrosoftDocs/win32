@@ -1,14 +1,20 @@
 ---
 title: MayEmptyRecycleBinInfo element
 description: If present then the user is notified that the assessment may empty the contents of the Recycle Bin.
-ms.assetid: '3A51E468-AD2E-420F-BA67-5120B42C0F6C'
-keywords: ["MayEmptyRecycleBinInfo element Access Execution Engine"]
+ms.assetid: 3A51E468-AD2E-420F-BA67-5120B42C0F6C
+keywords:
+- MayEmptyRecycleBinInfo element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MayEmptyRecycleBinInfo
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MayEmptyRecycleBinInfo element
@@ -49,9 +55,9 @@ There are no child elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Instructions - vs\_1\_1
 description: This section contains reference information for the vertex shader version 1\_1 instructions.
-ms.assetid: 'db3c14ce-6e50-4931-b07f-966acc7ffb0a'
+ms.assetid: db3c14ce-6e50-4931-b07f-966acc7ffb0a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Instructions - vs\_1\_1

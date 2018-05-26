@@ -4,13 +4,16 @@ description: Defines the desired power state for a LogicalDevice and when a Devi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '310040be-66f5-4a06-b540-0751440ec7b1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 310040be-66f5-4a06-b540-0751440ec7b1
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetPowerState method", "SetPowerState method, CIM_LogicalDevice class", "CIM_LogicalDevice class, SetPowerState method"]
+keywords:
+- SetPowerState method
+- SetPowerState method, CIM_LogicalDevice class
+- CIM_LogicalDevice class, SetPowerState method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPowerState method of the CIM\_LogicalDevice class
@@ -30,8 +36,8 @@ Defines the desired power state for a LogicalDevice and when a Device should be 
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -108,7 +114,7 @@ Returns 0 if successful, 1 if the values passed in the *PowerState* and *Time* p
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -122,9 +128,9 @@ Returns 0 if successful, 1 if the values passed in the *PowerState* and *Time* p
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

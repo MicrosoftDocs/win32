@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MinorVersion property is a value that specifies the minor part of the version number for the fax service.'
-ms.assetid: '65e20cef-4f32-403c-84aa-60633dc4e53f'
-title: 'FaxServer.MinorVersion property'
+---
+Description: The MinorVersion property is a value that specifies the minor part of the version number for the fax service.
+ms.assetid: 65e20cef-4f32-403c-84aa-60633dc4e53f
+title: FaxServer.MinorVersion property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.MinorVersion property
@@ -50,7 +55,7 @@ The format for the fax service build number is MajorVersion.MinorVersion.MajorBu
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

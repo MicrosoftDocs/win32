@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUI::UpgradePrinter method allows a user interface plug-in to upgrade device option values that are stored in the registry.'
-ms.assetid: '405f0000-c239-4f2c-83ad-5d35441a5df2'
-title: 'IPrintOemUI::UpgradePrinter method'
+---
+Description: The IPrintOemUIUpgradePrinter method allows a user interface plug-in to upgrade device option values that are stored in the registry.
+ms.assetid: 405f0000-c239-4f2c-83ad-5d35441a5df2
+title: IPrintOemUIUpgradePrinter method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI::UpgradePrinter method

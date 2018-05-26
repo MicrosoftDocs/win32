@@ -1,8 +1,15 @@
 ---
 title: Application Installation on 64-bit Systems
 description: The 64-bit Windows Installer can seamlessly install 32-bit MSI-based applications on 64-bit Windows.
-ms.assetid: 'fb9c5720-9906-4827-9daf-d7caa453e818'
-keywords: ["application installation 64-bit Windows Programming", "installation 64-bit Windows Programming"]
+ms.assetid: fb9c5720-9906-4827-9daf-d7caa453e818
+keywords:
+- application installation 64-bit Windows Programming
+- installation 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Installation on 64-bit Systems

@@ -1,8 +1,10 @@
 ---
 title: MDM\_Application class
 description: Retrieves information about an application on a device that is registered with the Mobile Device Management (MDM) service.
-ms.assetid: '57f6f5a7-9112-4ccf-9553-3155a139807c'
-keywords: ["MDM_Application class MDM App Management", "MDM_Application class MDM App Management , described"]
+ms.assetid: 57f6f5a7-9112-4ccf-9553-3155a139807c
+keywords:
+- MDM_Application class MDM App Management
+- MDM_Application class MDM App Management , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,11 @@ api_location:
 - MDMAppProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Application class
@@ -38,17 +45,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), Deprecated("No value"), dynamic, provider("MDMAppProv"), AMENDMENT]
 class MDM_Application
 {
-  string  PackageFullName;
-  string  UserSID;
-  string  PackageName;
-  string  PackagePublisher;
-  string  PackageVersion;
-  string  InstallPath;
+  string  PackageFullName;
+  string  UserSID;
+  string  PackageName;
+  string  PackagePublisher;
+  string  PackageVersion;
+  string  InstallPath;
   boolean IsFramework;
   boolean IsResourcePackage;
   boolean IsBundle;
   boolean IsDevelopmentMode;
-  string  Dependencies;
+  string  Dependencies;
 };
 ```
 
@@ -75,7 +82,7 @@ Access type: Read-only
 
 Gets a comma separated list that specifies the applications dependencies of the package.
 
-**Windows 8:** This property is not supported before Windows 8.1.
+**Windows 8:** This property is not supported before Windows 8.1.
 
 </dd> <dt>
 
@@ -90,7 +97,7 @@ Access type: Read-only
 
 Gets the installation path of the package.
 
-**Windows 8:** This property is not supported before Windows 8.1.
+**Windows 8:** This property is not supported before Windows 8.1.
 
 </dd> <dt>
 
@@ -105,7 +112,7 @@ Access type: Read-only
 
 Gets **TRUE** if the package contains an application bundle; otherwise **FALSE**.
 
-**Windows 8:** This property is not supported before Windows 8.1.
+**Windows 8:** This property is not supported before Windows 8.1.
 
 </dd> <dt>
 
@@ -120,7 +127,7 @@ Access type: Read-only
 
 Gets **TRUE** if the application is in development mode; otherwise **FALSE**.
 
-**Windows 8:** This property is not supported before Windows 8.1.
+**Windows 8:** This property is not supported before Windows 8.1.
 
 </dd> <dt>
 
@@ -135,7 +142,7 @@ Access type: Read-only
 
 Gets **TRUE** if the package contains a framework; otherwise **FALSE**.
 
-**Windows 8:** This property is not supported before Windows 8.1.
+**Windows 8:** This property is not supported before Windows 8.1.
 
 </dd> <dt>
 
@@ -150,7 +157,7 @@ Access type: Read-only
 
 Gets **TRUE** if the package is a resource package; otherwise **FALSE**.
 
-**Windows 8:** This property is not supported before Windows 8.1.
+**Windows 8:** This property is not supported before Windows 8.1.
 
 </dd> <dt>
 
@@ -228,7 +235,7 @@ Get the user security identifier of the package.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                      |
+| Minimum supported client<br/> | Windows 8<br/>                                                                      |
 | Minimum supported server<br/> | None supported<br/>                                                                 |
 | Namespace<br/>                | Root\\cimv2\\mdm<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>MDMAppProv.Mof</dt> </dl> |
@@ -243,9 +250,9 @@ Get the user security identifier of the package.
 [Mobile Device Management Application Provider Classes](https://msdn.microsoft.com/library/dn610374)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

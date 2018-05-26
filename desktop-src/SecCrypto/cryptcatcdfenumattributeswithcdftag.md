@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enumerates the attributes of member files in the CatalogFiles section of a catalog definition file (CDF).'
-ms.assetid: '056a5186-a37c-4255-aaa5-4c6e60f5392e'
+---
+Description: Enumerates the attributes of member files in the CatalogFiles section of a catalog definition file (CDF).
+ms.assetid: 056a5186-a37c-4255-aaa5-4c6e60f5392e
 title: CryptCATCDFEnumAttributesWithCDFTag function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CryptCATCDFEnumAttributesWithCDFTag function
@@ -37,7 +42,7 @@ CRYPTCATATTRIBUTE* WINAPI CryptCATCDFEnumAttributesWithCDFTag(
 *pCDF* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRYPTCATCDF**](cryptcatcdf.md) structure.
+A pointer to a [**CRYPTCATCDF**](/windows/win32/Mscat/ns-mscat-cryptcatcdf_?branch=master) structure.
 
 </dd> <dt>
 
@@ -51,14 +56,14 @@ A pointer to a **null**-terminated string that identifies the catalog file membe
 *pMember* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRYPTCATMEMBER**](cryptcatmember.md) structure that contains the member information.
+A pointer to a [**CRYPTCATMEMBER**](/windows/win32/Mscat/ns-mscat-cryptcatmember_?branch=master) structure that contains the member information.
 
 </dd> <dt>
 
 *pPrevAttr* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRYPTCATATTRIBUTE**](cryptcatattribute.md) structure for a file member attribute in the CDF pointed to by *pCDF*.
+A pointer to a [**CRYPTCATATTRIBUTE**](/windows/win32/Mscat/ns-mscat-cryptcatattribute_?branch=master) structure for a file member attribute in the CDF pointed to by *pCDF*.
 
 </dd> <dt>
 
@@ -71,7 +76,7 @@ A pointer to a user-defined function to handle file parse errors.
 
 ## Return value
 
-Upon success, this function returns a pointer to a [**CRYPTCATATTRIBUTE**](cryptcatattribute.md) structure. The **CryptCATCDFEnumAttributesWithCDFTag** function returns a **NULL** pointer if it fails.
+Upon success, this function returns a pointer to a [**CRYPTCATATTRIBUTE**](/windows/win32/Mscat/ns-mscat-cryptcatattribute_?branch=master) structure. The **CryptCATCDFEnumAttributesWithCDFTag** function returns a **NULL** pointer if it fails.
 
 ## Remarks
 
@@ -138,13 +143,13 @@ The following example shows the correct sequence of assignments for the *pPrevAt
 [MakeCat](makecat.md)
 </dt> <dt>
 
-[**CRYPTCATATTRIBUTE**](cryptcatattribute.md)
+[**CRYPTCATATTRIBUTE**](/windows/win32/Mscat/ns-mscat-cryptcatattribute_?branch=master)
 </dt> <dt>
 
-[**CRYPTCATCDF**](cryptcatcdf.md)
+[**CRYPTCATCDF**](/windows/win32/Mscat/ns-mscat-cryptcatcdf_?branch=master)
 </dt> <dt>
 
-[**CRYPTCATMEMBER**](cryptcatmember.md)
+[**CRYPTCATMEMBER**](/windows/win32/Mscat/ns-mscat-cryptcatmember_?branch=master)
 </dt> <dt>
 
 [**GetProcAddress**](base.getprocaddress)

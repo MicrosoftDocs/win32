@@ -1,8 +1,14 @@
 ---
 title: LPM API
 description: The local policy module application programming interface (LPM API) is the programmatic interface by which LPMs communicate and interact with the Admission Control Service (ACS).
-ms.assetid: 'bc44b96b-a18d-41e1-ad50-8119a6b215ee'
-keywords: ["Quality of Service QOS , described, local policy module API"]
+ms.assetid: bc44b96b-a18d-41e1-ad50-8119a6b215ee
+keywords:
+- Quality of Service QOS , described, local policy module API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LPM API

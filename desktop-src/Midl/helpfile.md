@@ -2,13 +2,19 @@
 title: helpfile attribute
 description: The \ helpfile\ attribute sets the name of the Help file for a type library. All types in a library share the same Help file.
 ms.assetid: caa248b1-a1a7-4c36-886a-079a66a01907
-keywords: ["helpfile attribute MIDL"]
+keywords:
+- helpfile attribute MIDL
 topic_type:
 - apiref
 api_name:
 - helpfile
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # helpfile attribute

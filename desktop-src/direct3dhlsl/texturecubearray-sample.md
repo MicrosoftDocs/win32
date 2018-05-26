@@ -1,12 +1,18 @@
 ---
 title: TextureCubeArray Sample methods
 description: Samples a texture.
-ms.assetid: 'D63751DB-68AB-4F62-8719-9232FA35F649'
-keywords: ["Sample methods HLSL"]
+ms.assetid: D63751DB-68AB-4F62-8719-9232FA35F649
+keywords:
+- Sample methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCubeArray::Sample methods
@@ -35,9 +41,9 @@ Samples a texture.
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

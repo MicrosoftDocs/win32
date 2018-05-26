@@ -1,8 +1,9 @@
 ---
 title: WM\_INPUT message
 description: Sent to the window that is getting raw input. A window receives this message through its WindowProc function.
-ms.assetid: 'a014d68c-841c-4120-b752-4b3fac60e12d'
-keywords: ["WM_INPUT message Keyboard and Mouse Input"]
+ms.assetid: a014d68c-841c-4120-b752-4b3fac60e12d
+keywords:
+- WM_INPUT message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_INPUT message
@@ -44,7 +50,7 @@ The input code. This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -73,8 +79,8 @@ Raw input is available only when the application calls [**RegisterRawInputDevice
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -104,9 +110,9 @@ Raw input is available only when the application calls [**RegisterRawInputDevice
 [Raw Input](raw-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

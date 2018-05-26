@@ -1,14 +1,20 @@
 ---
 title: BUTTONELEMENT.cursor
 description: The cursor attribute specifies or retrieves the value of the BUTTONELEMENT cursor that appears when the mouse is over the BUTTONELEMENT.
-ms.assetid: '29e7fadb-30d8-40e4-9a64-6b6f45eac80a'
-keywords: ["BUTTONELEMENT.cursor Windows Media Player"]
+ms.assetid: 29e7fadb-30d8-40e4-9a64-6b6f45eac80a
+keywords:
+- BUTTONELEMENT.cursor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONELEMENT.cursor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONELEMENT.cursor
@@ -40,7 +46,7 @@ This attribute is a read/write **String**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,9 +71,9 @@ Cursor file name paths are ignored, so the cursor file must reside in the defaul
 [**BUTTONELEMENT Element**](buttonelement-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

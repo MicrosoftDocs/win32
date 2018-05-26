@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_PUT\_SOURCE message
 description: The MCIWNDM\_PUT\_SOURCE message redefines the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can send this message explicitly or by using the MCIWndPutSource macro.
-ms.assetid: 'cff95139-0302-4db3-bf2e-559e75257e85'
-keywords: ["MCIWNDM_PUT_SOURCE message Windows Multimedia"]
+ms.assetid: cff95139-0302-4db3-bf2e-559e75257e85
+keywords:
+- MCIWNDM_PUT_SOURCE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_PUT\_SOURCE message
 
-The **MCIWNDM\_PUT\_SOURCE** message redefines the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can send this message explicitly or by using the [**MCIWndPutSource**](mciwndputsource.md) macro.
+The **MCIWNDM\_PUT\_SOURCE** message redefines the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can send this message explicitly or by using the [**MCIWndPutSource**](/windows/win32/Vfw/nf-vfw-mciwndputsource?branch=master) macro.
 
 
 ```C++
@@ -47,15 +53,15 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Associates two managed elements that represent different aspects of the same underlying entity.'
-ms.assetid: '107A2B15-09F2-490A-8AB2-F9FE5F6FEE60'
-title: 'Msvm\_LogicalIdentity class'
+Description: Associates two managed elements that represent different aspects of the same underlying entity.
+ms.assetid: 107A2B15-09F2-490A-8AB2-F9FE5F6FEE60
+title: Msvm\_LogicalIdentity class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_LogicalIdentity class
@@ -65,8 +70,8 @@ Reference to one aspect of the logical element.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -83,9 +88,9 @@ Reference to one aspect of the logical element.
 [**CIM\_LogicalIdentity**](https://msdn.microsoft.com/library/aa387895)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

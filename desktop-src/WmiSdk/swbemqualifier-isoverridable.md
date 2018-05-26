@@ -1,13 +1,16 @@
 ---
-Description: 'The IsOverridable property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be overridden when propagated.'
+Description: The IsOverridable property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be overridden when propagated.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3cd82407-6664-446e-bc84-68cc9a69fd6b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3cd82407-6664-446e-bc84-68cc9a69fd6b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemQualifier.IsOverridable property'
+title: SWbemQualifier.IsOverridable property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemQualifier.IsOverridable property
@@ -35,8 +38,8 @@ SWbemQualifier.IsOverridable As Boolean
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -45,9 +48,9 @@ SWbemQualifier.IsOverridable As Boolean
 
 
 
- 
+ 
 
- 
+ 
 
 
 

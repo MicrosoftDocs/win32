@@ -1,8 +1,11 @@
 ---
 title: StringCollection.getAttributeCountByType method
 description: The getAttributeCountByType method retrieves the number of attributes associated with the specified StringCollection item index, attribute name, and language.
-ms.assetid: '3671b7b7-d6d4-4049-8710-d0f34c740b1e'
-keywords: ["getAttributeCountByType method Windows Media Player", "getAttributeCountByType method Windows Media Player , StringCollection class", "StringCollection class Windows Media Player , getAttributeCountByType method"]
+ms.assetid: 3671b7b7-d6d4-4049-8710-d0f34c740b1e
+keywords:
+- getAttributeCountByType method Windows Media Player
+- getAttributeCountByType method Windows Media Player , StringCollection class
+- StringCollection class Windows Media Player , getAttributeCountByType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StringCollection.getAttributeCountByType method
@@ -83,9 +91,9 @@ To use this method, read access to the library is required. For more information
 [**StringCollection Object**](stringcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

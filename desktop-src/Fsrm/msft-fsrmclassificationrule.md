@@ -4,18 +4,23 @@ description: Defines a classification rule.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '845fc1e8-d06a-4bc4-9529-0748cb488727'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 845fc1e8-d06a-4bc4-9529-0748cb488727
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMClassificationRule class File Server Resource Manager", "MSFT_FSRMClassificationRule class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMClassificationRule class File Server Resource Manager
+- MSFT_FSRMClassificationRule class File Server Resource Manager , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMClassificationRule class
 
 Defines a classification rule. The rule defines the paths to which the rule applies, the classifier module to run on files in those paths, and the property and property value used to classify each file.
 
-To create a classification rule, call the [**IFsrmClassificationManager::CreateRule**](ifsrmclassificationmanager-createrule.md) method.
+To create a classification rule, call the [**IFsrmClassificationManager::CreateRule**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassificationmanager-createrule?branch=master) method.
 
 ## Syntax
 
@@ -23,20 +28,20 @@ To create a classification rule, call the [**IFsrmClassificationManager::CreateR
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMClassificationRule
 {
-  string   Name;
-  string   Description;
-  boolean  Disabled;
-  string   Property;
-  string   PropertyValue;
-  string   Namespace[];
-  uint32   ReevaluateProperty;
-  string   ClassificationMechanism;
-  string   Parameters[];
+  string   Name;
+  string   Description;
+  boolean  Disabled;
+  string   Property;
+  string   PropertyValue;
+  string   Namespace[];
+  uint32   ReevaluateProperty;
+  string   ClassificationMechanism;
+  string   Parameters[];
   datetime LastModified;
-  uint32   Flags[];
-  string   ContentRegularExpression[];
-  string   ContentString[];
-  string   ContentStringCaseSensitive[];
+  uint32   Flags[];
+  string   ContentRegularExpression[];
+  string   ContentString[];
+  string   ContentStringCaseSensitive[];
 };
 ```
 
@@ -163,7 +168,7 @@ The rule is deprecated.
 
 TBD
 
-**Windows Server 2012:** This value is not supported before Windows Server 2012 R2.
+**Windows Server 2012:** This value is not supported before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -176,7 +181,7 @@ TBD
 
 TBD
 
-**Windows Server 2012:** This value is not supported before Windows Server 2012 R2.
+**Windows Server 2012:** This value is not supported before Windows Server 2012 R2.
 
 </dd> </dl>
 
@@ -318,7 +323,7 @@ The rule is applied to the file but default and existing values are ignored.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -332,9 +337,9 @@ The rule is applied to the file but default and existing values are ignored.
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

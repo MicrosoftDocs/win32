@@ -1,7 +1,12 @@
 ---
 title: Getting MPEG-2 PSI Tables
 description: Getting MPEG-2 PSI Tables
-ms.assetid: 'e75ef5c2-7316-4f23-b108-ff16cd97622f'
+ms.assetid: e75ef5c2-7316-4f23-b108-ff16cd97622f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting MPEG-2 PSI Tables
@@ -10,13 +15,13 @@ The [**MPEG-2 Sections and Tables**](mpeg-2-sections-and-tables-filter.md) filte
 
 To use this filter, connect it to the [MPEG-2 Demultiplexer](https://msdn.microsoft.com/library/windows/desktop/dd390715) ("demux"). In a digital television graph, the filter is connected to pin 5 on the demux by default. For other kinds of filter graph, the application should create a new output pin on the demux and connect it to the filter. Create the output pin by calling the [**IMpeg2Demultiplexer::CreateOutputPin**](https://msdn.microsoft.com/library/windows/desktop/dd407129) method on the demux. Set the major type to MEDIATYPE\_MPEG2\_SECTIONS and the subtype to MEDIASUBTYPE\_MPEG2DATA.
 
-To get PSI tables from the transport stream, use the [**IMpeg2Data**](impeg2data.md) interface on the filter. If you already have a pointer to the filter from building the graph, call **QueryInterface** to get the interface pointer. Otherwise, use [**IFilterGraph::EnumFilters**](https://msdn.microsoft.com/library/windows/desktop/dd390019) to enumerate the filters in the graph, and then query each filter for the interface. (See the example code in [Find an Interface on a Filter or Pin](https://msdn.microsoft.com/library/windows/desktop/dd375791).) For digital television applications, if your application uses the Video Control to build the graph, call the [**IMSVidGraphSegmentContainer::get\_Graph**](imsvidgraphsegmentcontainer-get-graph.md) method to get a pointer to the filter graph.
+To get PSI tables from the transport stream, use the [**IMpeg2Data**](/windows/previous-versions/Mpeg2data/nn-mpeg2data-impeg2data?branch=master) interface on the filter. If you already have a pointer to the filter from building the graph, call **QueryInterface** to get the interface pointer. Otherwise, use [**IFilterGraph::EnumFilters**](https://msdn.microsoft.com/library/windows/desktop/dd390019) to enumerate the filters in the graph, and then query each filter for the interface. (See the example code in [Find an Interface on a Filter or Pin](https://msdn.microsoft.com/library/windows/desktop/dd375791).) For digital television applications, if your application uses the Video Control to build the graph, call the [**IMSVidGraphSegmentContainer::get\_Graph**](/windows/win32/segment/nf-segment-imsvidgraphsegmentcontainer-get_graph?branch=master) method to get a pointer to the filter graph.
 
 The application can retrieve a single table section, a complete table, or a continuous stream of table sections.
 
 ### Get a Section or Complete Table
 
-To get one section from a table, call the [**IMpeg2Data::GetSection**](impeg2data-getsection.md) method:
+To get one section from a table, call the [**IMpeg2Data::GetSection**](/windows/previous-versions/Mpeg2data/nf-mpeg2data-impeg2data-getsection?branch=master) method:
 
 
 ```C++
@@ -43,11 +48,11 @@ if (SUCCEEDED(hr))
 
 
 
-The first two parameters of [**GetSection**](impeg2data-getsection.md) specify a packet identifier (PID) and a table identifier (TID). The method blocks until the filter receives a section that matches these values or the method times out, whichever happens first. Note that you do not have to map the PID on the demux filter; the **GetSection** method automatically does this. The third parameter is an optional pointer to an [**MPEG2\_FILTER**](mpeg2-filter.md) structure; this can be used to specify additional fields to match, such as the version number or the current/next indicator. The [**GetSection**](isectionlist-getsectiondata.md) method returns a pointer to the [**ISectionList**](isectionlist.md) interface, which is used to get the section data.
+The first two parameters of [**GetSection**](/windows/previous-versions/Mpeg2data/nf-mpeg2data-impeg2data-getsection?branch=master) specify a packet identifier (PID) and a table identifier (TID). The method blocks until the filter receives a section that matches these values or the method times out, whichever happens first. Note that you do not have to map the PID on the demux filter; the **GetSection** method automatically does this. The third parameter is an optional pointer to an [**MPEG2\_FILTER**](/windows/previous-versions/Mpeg2Structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0019?branch=master) structure; this can be used to specify additional fields to match, such as the version number or the current/next indicator. The [**GetSection**](/windows/previous-versions/Mpeg2data/nf-mpeg2data-isectionlist-getsectiondata?branch=master) method returns a pointer to the [**ISectionList**](/windows/previous-versions/Mpeg2data/nn-mpeg2data-isectionlist?branch=master) interface, which is used to get the section data.
 
-To get a complete table, call the [**IMpeg2Data::GetTable**](impeg2data-gettable.md) method. This method has the same semantics as the [**GetSection**](impeg2data-getsection.md) method. However, it blocks until the filter has accumulated a complete table (or the method times out). If the method succeeds, the [**ISectionList**](isectionlist.md) interface references a list of all the sections in the table, rather than one section.
+To get a complete table, call the [**IMpeg2Data::GetTable**](/windows/previous-versions/Mpeg2data/nf-mpeg2data-impeg2data-gettable?branch=master) method. This method has the same semantics as the [**GetSection**](/windows/previous-versions/Mpeg2data/nf-mpeg2data-impeg2data-getsection?branch=master) method. However, it blocks until the filter has accumulated a complete table (or the method times out). If the method succeeds, the [**ISectionList**](/windows/previous-versions/Mpeg2data/nn-mpeg2data-isectionlist?branch=master) interface references a list of all the sections in the table, rather than one section.
 
-Use the [**ISectionList**](isectionlist.md) interface to access the section data. Call [**ISectionList::GetNumberOfSections**](isectionlist-getnumberofsections.md) to find how many sections were captured. Then call [**ISectionList::GetSectionData**](isectionlist-getsectiondata.md) to get data from each section:
+Use the [**ISectionList**](/windows/previous-versions/Mpeg2data/nn-mpeg2data-isectionlist?branch=master) interface to access the section data. Call [**ISectionList::GetNumberOfSections**](/windows/previous-versions/Mpeg2data/nf-mpeg2data-isectionlist-getnumberofsections?branch=master) to find how many sections were captured. Then call [**ISectionList::GetSectionData**](/windows/previous-versions/Mpeg2data/nf-mpeg2data-isectionlist-getsectiondata?branch=master) to get data from each section:
 
 
 ```C++
@@ -73,7 +78,7 @@ if (SUCCEEDED(hr))
 
 
 
-The [**GetSectionData**](isectionlist-getsectiondata.md) method returns the data as a [**SECTION**](section.md) structure. This structure contains the section header fields, plus a pointer to the rest of the data. If the section\_syntax\_indicator bit in the header is set to 1, it means the section contains extended header information. You can get the extended header fields by casting the **SECTION** structure to a [**LONG\_SECTION**](long-section.md) type. For DSM-CC messages, you can cast the **SECTION** structure to a [**DSMCC\_SECTION**](dsmcc-section.md) structure.
+The [**GetSectionData**](/windows/previous-versions/Mpeg2data/nf-mpeg2data-isectionlist-getsectiondata?branch=master) method returns the data as a [**SECTION**](/windows/previous-versions/Mpeg2Structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0006?branch=master) structure. This structure contains the section header fields, plus a pointer to the rest of the data. If the section\_syntax\_indicator bit in the header is set to 1, it means the section contains extended header information. You can get the extended header fields by casting the **SECTION** structure to a [**LONG\_SECTION**](/windows/previous-versions/Mpeg2Structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0008?branch=master) type. For DSM-CC messages, you can cast the **SECTION** structure to a [**DSMCC\_SECTION**](/windows/previous-versions/Mpeg2Structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0011?branch=master) structure.
 
 The following code is a function that displays section data in the debugger window. This function shows how to access all of the header fields; for the remaining data, it displays the raw byte values.
 
@@ -175,13 +180,13 @@ void PrintByteArray(const BYTE *pData, long cbSize)
 
 
 
-Note that some of the header information is packed into bit fields. Within the header structures, these fields are defined as simple byte and **WORD** types. To get the individual bit fields, you must coerce some of the structure members, as shown in the example. For example, the **Header.W** member of the [**SECTION**](section.md) structure can be cast to an [**MPEG\_HEADER\_BITS**](mpeg-header-bits.md) structure.
+Note that some of the header information is packed into bit fields. Within the header structures, these fields are defined as simple byte and **WORD** types. To get the individual bit fields, you must coerce some of the structure members, as shown in the example. For example, the **Header.W** member of the [**SECTION**](/windows/previous-versions/Mpeg2Structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0006?branch=master) structure can be cast to an [**MPEG\_HEADER\_BITS**](/windows/previous-versions/Mpeg2Bits/ns-mpeg2bits-mpeg_header_bits?branch=master) structure.
 
 The data that follows the header is returned as an unparsed byte array. It is up to the client to parse the data. Therefore, you must understand the format of the transport stream that you expect to receive. Often, this will depend on the network standard in use. For example, ATSC and DVB use different specifications for service information tables. Typically you will need to apply bit masks to get some of the fields, and convert the data from network byte order to host byte order.
 
 ### Get a Stream of Sections
 
-Instead of making synchronous requests for one section or one table at a time, you can use the [**IMpeg2Data::GetStreamOfSections**](impeg2data-getstreamofsections.md) method to get a continuous stream of sections. The **GetStreamOfSections** method returns immediately, and the caller provides an event which is signaled whenever new data arrives. Start by creating the event, and then call **GetStreamOfSections** with the PID and TID values to match against:
+Instead of making synchronous requests for one section or one table at a time, you can use the [**IMpeg2Data::GetStreamOfSections**](/windows/previous-versions/Mpeg2data/nf-mpeg2data-impeg2data-getstreamofsections?branch=master) method to get a continuous stream of sections. The **GetStreamOfSections** method returns immediately, and the caller provides an event which is signaled whenever new data arrives. Start by creating the event, and then call **GetStreamOfSections** with the PID and TID values to match against:
 
 
 ```C++
@@ -196,9 +201,9 @@ hr = pMPEG->GetStreamOfSections(pid, tid, NULL, hCompleted, &amp;pStream);
 
 
 
-If successful, the method returns an [**IMpeg2Stream**](impeg2stream.md) interface pointer. Use this interface to get the section data.
+If successful, the method returns an [**IMpeg2Stream**](/windows/previous-versions/Mpeg2data/nn-mpeg2data-impeg2stream?branch=master) interface pointer. Use this interface to get the section data.
 
-Allocate one or more buffers to hold the data. Each buffer must be 4096 bytes or larger. Also declare an [**MPEG\_STREAM\_BUFFER**](mpeg-stream-buffer.md) structure to manage the buffers. For each section that you retrieve, set the **pDataBuffer** member of the structure to point to a buffer, and set **dwDataBufferSize** equal to the size of the buffer. Set the other members to zero:
+Allocate one or more buffers to hold the data. Each buffer must be 4096 bytes or larger. Also declare an [**MPEG\_STREAM\_BUFFER**](/windows/previous-versions/Mpeg2Structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0023?branch=master) structure to manage the buffers. For each section that you retrieve, set the **pDataBuffer** member of the structure to point to a buffer, and set **dwDataBufferSize** equal to the size of the buffer. Set the other members to zero:
 
 
 ```C++
@@ -213,7 +218,7 @@ streamBuffer.pDataBuffer = (BYTE*)Buffer1;
 
 
 
-Call [**IMpeg2Stream::SupplyDataBuffer**](impeg2stream-supplydatabuffer.md) and wait for the event to be signaled. When the event is signaled, examine the **hr** field in the [**MPEG\_STREAM\_BUFFER**](mpeg-stream-buffer.md) structure. If this field contains a success code, it means the request was successful and the buffer contains one section. The **dwSizeOfDataRead** field specifies the size of the section data. The data is unparsed, in network byte order.
+Call [**IMpeg2Stream::SupplyDataBuffer**](/windows/previous-versions/Mpeg2data/nf-mpeg2data-impeg2stream-supplydatabuffer?branch=master) and wait for the event to be signaled. When the event is signaled, examine the **hr** field in the [**MPEG\_STREAM\_BUFFER**](/windows/previous-versions/Mpeg2Structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0023?branch=master) structure. If this field contains a success code, it means the request was successful and the buffer contains one section. The **dwSizeOfDataRead** field specifies the size of the section data. The data is unparsed, in network byte order.
 
 
 ```C++

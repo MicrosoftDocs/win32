@@ -1,8 +1,10 @@
 ---
 title: DRM\_OUTPUT\_PROTECTION structure
 description: The DRM\_OUTPUT\_PROTECTION structure holds information about an output protection technology.
-ms.assetid: 'e458013d-b77e-4e03-bff9-e3ecfc72ebdb'
-keywords: ["DRM_OUTPUT_PROTECTION structure windows Media Format", "structure windows Media Format"]
+ms.assetid: e458013d-b77e-4e03-bff9-e3ecfc72ebdb
+keywords:
+- DRM_OUTPUT_PROTECTION structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_OUTPUT\_PROTECTION structure
@@ -71,9 +78,9 @@ Configuration data for the technology.
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

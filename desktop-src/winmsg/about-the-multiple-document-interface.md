@@ -1,7 +1,12 @@
 ---
-Description: 'Each document in an multiple-document interface (MDI) application is displayed in a separate child window within the client area of the application''s main window.'
-ms.assetid: '35dff281-3b11-4954-85cf-a0f1c9ed346a'
+Description: Each document in an multiple-document interface (MDI) application is displayed in a separate child window within the client area of the applications main window.
+ms.assetid: 35dff281-3b11-4954-85cf-a0f1c9ed346a
 title: About the Multiple Document Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Multiple Document Interface
@@ -98,7 +103,7 @@ An MDI application should provide a different icon for each type of child window
 
 Because MDI child windows may be minimized, an MDI application must avoid manipulating icon title windows as if they were normal MDI child windows. Icon title windows appear when the application enumerates child windows of the MDI client window. Icon title windows differ from other child windows, however, in that they are owned by an MDI child window.
 
-To determine whether a child window is an icon title window, use the [**GetWindow**](getwindow.md) function with the GW\_OWNER index. Non-title windows return **NULL**. Note that this test is insufficient for top-level windows, because menus and dialog boxes are owned windows.
+To determine whether a child window is an icon title window, use the [**GetWindow**](/windows/win32/Winuser/nf-winuser-getwindowcontexthelpid?branch=master) function with the GW\_OWNER index. Non-title windows return **NULL**. Note that this test is insufficient for top-level windows, because menus and dialog boxes are owned windows.
 
 ## Child Window Data
 

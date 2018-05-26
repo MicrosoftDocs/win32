@@ -1,7 +1,12 @@
 ---
 title: Respond to toast activations
 description: In order for Win32 applications to respond to toast notifications, there are several steps they need to take. This topic explains how to have your app respond to those notifications.
-ms.assetid: '050E6944-6727-4632-85E8-8E68887D4786'
+ms.assetid: 050E6944-6727-4632-85E8-8E68887D4786
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Respond to toast activations
@@ -17,7 +22,7 @@ Notifications in the action center can stay around for several days before they 
 In order for your app to be able to be activated at any time, you will need to create a shortcut and have it installed on the Start menu. This should happen as part of the install process for your application. The shortcut needs to contain the following pieces of information.
 
 -   A **System.AppUserModel.ID** that is a unique identifier for your application. This is necessary so that the system knows the notification endpoint for your app. This is also needed in order to send toast notifications. For more information about this identifier, see [Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/library/windows/desktop/dd378459).
--   A CLSID that points to your COM component that implements [**INotificationActivationCallback**](inotificationactivationcallback.md).
+-   A CLSID that points to your COM component that implements [**INotificationActivationCallback**](/windows/previous-versions/NotificationActivationCallback/nn-notificationactivationcallback-inotificationactivationcallback?branch=master).
 
 The following sample code demonstrates how to install this shortcut.
 
@@ -80,7 +85,7 @@ HRESULT DesktopToastsApp::InstallShortcut(_In_ PCWSTR shortcutPath)
 
 ## Registering a COM activator
 
-Once you have overwritten the [**INotificationActivationCallback**](inotificationactivationcallback.md) interface in your COM component, you will need to tell COM how to start your app when it is necessary. In order to do this, you will need to update the registry. The following line will modify the registry
+Once you have overwritten the [**INotificationActivationCallback**](/windows/previous-versions/NotificationActivationCallback/nn-notificationactivationcallback-inotificationactivationcallback?branch=master) interface in your COM component, you will need to tell COM how to start your app when it is necessary. In order to do this, you will need to update the registry. The following line will modify the registry
 
 > \[!Important\]  
 > The identifier provided (23A5B06E-20BB-4E7E-A0AC-6982ED6A6041) in this step is just used as a sample. You will need to change this to your unique CLSID. In addition, you will need to update the install path (C:\\Users\\Sample\\Desktop\\DesktopToastsSample.exe) to point to the exe for your application.
@@ -100,7 +105,7 @@ Module::GetModule().RegisterObjects();
 
 ## Handling the notification
 
-In order to respond to the notification, you will need to implement [**Activate**](inotificationactivationcallback-activate.md). In this method, you can respond to both non-interactive and interactive toasts however you see fit. If your app is not running, it will be launched by your local COM service defined in the previous section. If you are responding to interactive toasts, the UI could be waiting for the callback to return by showing an indeterminate progress UI, so you need to make sure your callback returns at the appropriate time to indicate that the action is complete. If you want to respond to the interactive toast without showing any additional UI, you will need to register a non-UI process as the COM server. One example where this could be useful is replying to a message without bring your app to the foreground.
+In order to respond to the notification, you will need to implement [**Activate**](/windows/previous-versions/NotificationActivationCallback/nf-notificationactivationcallback-inotificationactivationcallback-activate?branch=master). In this method, you can respond to both non-interactive and interactive toasts however you see fit. If your app is not running, it will be launched by your local COM service defined in the previous section. If you are responding to interactive toasts, the UI could be waiting for the callback to return by showing an indeterminate progress UI, so you need to make sure your callback returns at the appropriate time to indicate that the action is complete. If you want to respond to the interactive toast without showing any additional UI, you will need to register a non-UI process as the COM server. One example where this could be useful is replying to a message without bring your app to the foreground.
 
 The following code demonstrates a simple way to handle the toast notification.
 

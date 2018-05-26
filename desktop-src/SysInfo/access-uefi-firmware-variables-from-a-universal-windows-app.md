@@ -1,7 +1,12 @@
 ---
-Description: 'How to access Unified Extensible Firmware Interface (UEFI) firmware variables from a Universal Windows app.'
-ms.assetid: '4131CCED-3B76-4569-B0A7-111E4E9215EF'
+Description: How to access Unified Extensible Firmware Interface (UEFI) firmware variables from a Universal Windows app.
+ms.assetid: 4131CCED-3B76-4569-B0A7-111E4E9215EF
 title: Access UEFI firmware variables from a Universal Windows App
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Access UEFI firmware variables from a Universal Windows App
@@ -10,7 +15,7 @@ title: Access UEFI firmware variables from a Universal Windows App
 
 How to access Unified Extensible Firmware Interface (UEFI) firmware variables from a Universal Windows app.
 
-Starting with Windows 10, version 1803, Universal Windows apps can use [**GetFirmwareEnvironmentVariable**](getfirmwareenvironmentvariable.md) and [**SetFirmwareEnvironmentVariable**](setfirmwareenvironmentvariable.md) (and their 'ex' variants) to access UEFI firmware variables by doing the following:
+Starting with Windows 10, version 1803, Universal Windows apps can use [**GetFirmwareEnvironmentVariable**](/windows/win32/Winbase/nf-winbase-getfirmwareenvironmentvariablea?branch=master) and [**SetFirmwareEnvironmentVariable**](/windows/win32/Winbase/nf-winbase-setfirmwareenvironmentvariablea?branch=master) (and their 'ex' variants) to access UEFI firmware variables by doing the following:
 
 -   Declare the **Microsoft.firmwareRead\_cw5n1h2txyewy** custom capability in the manifest to read a firmware variable, and/or the **Microsoft.firmwareWrite\_cw5n1h2txyewy** capability to write a firmware variable.
 -   Also declare the **protectedApp** restricted capability in the app manifest.
@@ -60,16 +65,16 @@ Starting with Windows 10, version 1803, Universal Windows apps can use [**GetFi
 [Special and restricted capabilities](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities)
 </dt> <dt>
 
-[**GetFirmwareEnvironmentVariable**](getfirmwareenvironmentvariable.md)
+[**GetFirmwareEnvironmentVariable**](/windows/win32/Winbase/nf-winbase-getfirmwareenvironmentvariablea?branch=master)
 </dt> <dt>
 
-[**GetFirmwareEnvironmentVariableEx**](getfirmwareenvironmentvariableex.md)
+[**GetFirmwareEnvironmentVariableEx**](/windows/win32/Winbase/nf-winbase-getfirmwareenvironmentvariableexa?branch=master)
 </dt> <dt>
 
-[**SetFirmwareEnvironmentVariable**](setfirmwareenvironmentvariable.md)
+[**SetFirmwareEnvironmentVariable**](/windows/win32/Winbase/nf-winbase-setfirmwareenvironmentvariablea?branch=master)
 </dt> <dt>
 
-[**SetFirmwareEnvironmentVariableEx**](setfirmwareenvironmentvariableex.md)
+[**SetFirmwareEnvironmentVariableEx**](/windows/win32/Winbase/nf-winbase-setfirmwareenvironmentvariableexa?branch=master)
 </dt> <dt>
 
 [Access SMBIOS information from a Universal Windows App](access-smbios-information-from-a-universal-windows-app.md)

@@ -1,30 +1,35 @@
 ---
-Description: 'Example code that shows how to create a temporary file for data manipulation purposes by using the GetTempFileName and GetTempPath functions.'
-ms.assetid: '6254c67d-5d34-499d-b1a4-8cac526dd294'
+Description: Example code that shows how to create a temporary file for data manipulation purposes by using the GetTempFileName and GetTempPath functions.
+ms.assetid: 6254c67d-5d34-499d-b1a4-8cac526dd294
 title: Creating and Using a Temporary File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating and Using a Temporary File
 
-Applications can obtain unique file and path names for temporary files by using the [**GetTempFileName**](gettempfilename.md) and [**GetTempPath**](gettemppath.md) functions. The **GetTempFileName** function generates a unique file name, and the **GetTempPath** function retrieves the path to a directory where temporary files should be created.
+Applications can obtain unique file and path names for temporary files by using the [**GetTempFileName**](/windows/win32/FileAPI/nf-fileapi-gettempfilenamea?branch=master) and [**GetTempPath**](/windows/win32/FileAPI/nf-fileapi-gettemppatha?branch=master) functions. The **GetTempFileName** function generates a unique file name, and the **GetTempPath** function retrieves the path to a directory where temporary files should be created.
 
 The following procedure describes how an application creates a temporary file for data manipulation purposes.
 
 **To create and use a temporary file**
 
-1.  The application opens the user-provided source text file by using [**CreateFile**](createfile.md).
-2.  The application retrieves a temporary file path and file name by using the [**GetTempPath**](gettemppath.md) and [**GetTempFileName**](gettempfilename.md) functions, and then uses [**CreateFile**](createfile.md) to create the temporary file.
+1.  The application opens the user-provided source text file by using [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master).
+2.  The application retrieves a temporary file path and file name by using the [**GetTempPath**](/windows/win32/FileAPI/nf-fileapi-gettemppatha?branch=master) and [**GetTempFileName**](/windows/win32/FileAPI/nf-fileapi-gettempfilenamea?branch=master) functions, and then uses [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) to create the temporary file.
 3.  The application reads blocks of text data into a buffer, converts the buffer contents to uppercase using the [CharUpperBuffA](Http://go.microsoft.com/fwlink/p/?linkid=163943) function, and writes the converted buffer to the temporary file.
-4.  When all of the source file is written to the temporary file, the application closes both files, and renames the temporary file to "allcaps.txt" by using the [**MoveFileEx**](movefileex.md) function.
+4.  When all of the source file is written to the temporary file, the application closes both files, and renames the temporary file to "allcaps.txt" by using the [**MoveFileEx**](/windows/win32/WinBase/nf-winbase-movefileexa?branch=master) function.
 
 Each of the previous steps is checked for success before moving to the next step, and a failure description is displayed if an error occurs. The application will terminate immediately after displaying the error message.
 
 Note that text file manipulation was chosen for ease of demonstration only and can be replaced with any desired data manipulation procedure required. The data file can be of any data type, not only text.
 
-The [**GetTempPath**](gettemppath.md) function retrieves a fully qualified path string from an environment variable but does not check in advance for the existence of the path or adequate access rights to that path, which is the responsibility of the application developer. For more information, see [**GetTempPath**](gettemppath.md). In the following example, an error is regarded as a terminal condition and the application exits after sending a descriptive message to standard output. However, many other options exist, such as prompting the user for a temporary directory or simply attempting to use the current directory.
+The [**GetTempPath**](/windows/win32/FileAPI/nf-fileapi-gettemppatha?branch=master) function retrieves a fully qualified path string from an environment variable but does not check in advance for the existence of the path or adequate access rights to that path, which is the responsibility of the application developer. For more information, see [**GetTempPath**](/windows/win32/FileAPI/nf-fileapi-gettemppatha?branch=master). In the following example, an error is regarded as a terminal condition and the application exits after sending a descriptive message to standard output. However, many other options exist, such as prompting the user for a temporary directory or simply attempting to use the current directory.
 
 > [!Note]  
-> The [**GetTempFileName**](gettempfilename.md) function does not require that the [**GetTempPath**](gettemppath.md) function be used.
+> The [**GetTempFileName**](/windows/win32/FileAPI/nf-fileapi-gettempfilenamea?branch=master) function does not require that the [**GetTempPath**](/windows/win32/FileAPI/nf-fileapi-gettemppatha?branch=master) function be used.
 
  
 

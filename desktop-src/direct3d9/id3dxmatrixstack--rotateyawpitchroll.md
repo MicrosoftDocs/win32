@@ -1,7 +1,12 @@
-﻿---
-Description: 'Rotates (relative to world coordinate space) around an arbitrary axis.'
-ms.assetid: '25a7eff4-a575-4ddb-85eb-ef3fa2d6ae3b'
-title: 'ID3DXMATRIXStack::RotateYawPitchRoll method'
+---
+Description: Rotates (relative to world coordinate space) around an arbitrary axis.
+ms.assetid: 25a7eff4-a575-4ddb-85eb-ef3fa2d6ae3b
+title: ID3DXMATRIXStackRotateYawPitchRoll method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXMATRIXStack::RotateYawPitchRoll method

@@ -1,7 +1,12 @@
 ---
 Description: Analog Video Crossbar Filter
-ms.assetid: '668f6a8b-a4ed-4e4a-956c-a87f165225fa'
+ms.assetid: 668f6a8b-a4ed-4e4a-956c-a87f165225fa
 title: Analog Video Crossbar Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Analog Video Crossbar Filter
@@ -10,7 +15,7 @@ The Analog Video Crossbar filter represents a video crossbar on a video capture 
 
 This filter is a wrapper filter for crossbars on WDM streaming devices. The filter's friendly name is taken from the device. Each output pin represents a hardware path for analog baseband video. One of the input pins comes from a TV Tuner (the [TV Tuner Filter](tv-tuner-filter.md)). Other input pins support video or audio streams. The filter supports any media subtypes and formats that are supported on the downstream connections.
 
-You cannot directly create this filter with CoCreateInstance. The [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md) interface automatically adds this filter to the graph as needed.
+You cannot directly create this filter with CoCreateInstance. The [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master) interface automatically adds this filter to the graph as needed.
 
 For more information on wrapper filters and WDM streaming devices, see [How Hardware Devices Participate in the Filter Graph](how-hardware-devices-participate-in-the-filter-graph.md).
 
@@ -18,7 +23,7 @@ For more information on wrapper filters and WDM streaming devices, see [How Hard
 
 |                                          |                                                                                                |
 |------------------------------------------|------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IAMCrossbar**](iamcrossbar.md), ISpecifyPropertyPages, IPersistPropertyBag, IPersistStream |
+| Filter Interfaces                        | [**IAMCrossbar**](/windows/win32/Strmif/nn-strmif-iamcrossbar?branch=master), ISpecifyPropertyPages, IPersistPropertyBag, IPersistStream |
 | Input Pin Media Types                    | MEDIATYPE\_AnalogAudio, MEDIATYPE\_AnalogVideo                                                 |
 | Input Pin Interfaces                     | [**IKsPropertySet**](ikspropertyset.md)                                                       |
 | Output Pin Media Types                   | MEDIATYPE\_AnalogAudio, MEDIATYPE\_AnalogVideo                                                 |

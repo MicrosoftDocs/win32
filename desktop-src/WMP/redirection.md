@@ -1,8 +1,18 @@
 ---
 title: Redirection
 description: Redirection
-ms.assetid: 'c8e3b43f-c11a-4ca7-b85c-038f0bfc3eb3'
-keywords: ["Windows Media metafile playlists,redirection", "playlists,redirection", "metafile playlists,redirection", "Windows Media Player,redirection", "redirection"]
+ms.assetid: c8e3b43f-c11a-4ca7-b85c-038f0bfc3eb3
+keywords:
+- Windows Media metafile playlists,redirection
+- playlists,redirection
+- metafile playlists,redirection
+- Windows Media Player,redirection
+- redirection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Redirection

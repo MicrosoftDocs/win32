@@ -1,8 +1,14 @@
 ---
 title: Implementing the Summary Information Property Set
 description: There are guidelines to follow when implementing a summary information property set for Structured Storage.
-ms.assetid: 'e1204de5-b712-4bd5-bffb-6a12ec8d7052'
-keywords: ["Implementing the Summary Information Property Set"]
+ms.assetid: e1204de5-b712-4bd5-bffb-6a12ec8d7052
+keywords:
+- Implementing the Summary Information Property Set
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing the Summary Information Property Set

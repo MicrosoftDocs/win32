@@ -1,14 +1,20 @@
 ---
 title: LinkTitle element
 description: Text that is displayed for the hyperlink.
-ms.assetid: 'EF6B9FB0-7B6F-4FB9-991F-A9D1261555AC'
-keywords: ["LinkTitle element Access Execution Engine"]
+ms.assetid: EF6B9FB0-7B6F-4FB9-991F-A9D1261555AC
+keywords:
+- LinkTitle element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - LinkTitle
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LinkTitle element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

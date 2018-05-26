@@ -1,7 +1,12 @@
 ---
 title: Retrieving the Connection Name
 description: To retrieve the name of the network resource associated with a local device, an application can call the WNetGetConnection function, as shown in the following sample.
-ms.assetid: '7c02cf9a-cca3-47d8-8a4b-f2245f1db92a'
+ms.assetid: 7c02cf9a-cca3-47d8-8a4b-f2245f1db92a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Connection Name

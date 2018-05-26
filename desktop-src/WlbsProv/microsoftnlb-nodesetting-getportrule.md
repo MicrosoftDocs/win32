@@ -4,13 +4,16 @@ description: Retrieves the port rule associated with a port number.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dfe74ec3-1e0d-49c9-85df-de70c2477e53'
-ms.prod: 'windows-server-dev'
+ms.assetid: dfe74ec3-1e0d-49c9-85df-de70c2477e53
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetPortRule method", "GetPortRule method, MicrosoftNLB_NodeSetting class", "MicrosoftNLB_NodeSetting class, GetPortRule method"]
+keywords:
+- GetPortRule method
+- GetPortRule method, MicrosoftNLB_NodeSetting class
+- MicrosoftNLB_NodeSetting class, GetPortRule method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetPortRule method of the MicrosoftNLB\_NodeSetting class
@@ -30,8 +36,8 @@ Retrieves the [*port rule*](https://msdn.microsoft.com/library/aa371764#mscs-n--
 
 ```mof
 void GetPortRule(
-  [in]  uint32                Port,
-  [out] MicrosoftNLB_PortRule PortRule
+  [in]  uint32                Port,
+  [out] MicrosoftNLB_PortRule PortRule
 );
 ```
 
@@ -66,7 +72,7 @@ This method returns a **uint32** set to one of the [standard return values](stan
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -86,9 +92,9 @@ This method returns a **uint32** set to one of the [standard return values](stan
 [**MicrosoftNLB\_PortRule**](microsoftnlb-portrule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

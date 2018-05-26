@@ -1,12 +1,17 @@
 ---
-Description: 'Windows authentication packages provide authentication services by implementing package-specific functionality for the LsaLogonUser and LsaCallAuthenticationPackage functions provided by the LSA.'
-ms.assetid: '71f7eccd-694d-475f-b6d0-1eaf9ac468f5'
+Description: Windows authentication packages provide authentication services by implementing package-specific functionality for the LsaLogonUser and LsaCallAuthenticationPackage functions provided by the LSA.
+ms.assetid: 71f7eccd-694d-475f-b6d0-1eaf9ac468f5
 title: Windows Authentication Packages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Authentication Packages
 
-Windows authentication packages provide authentication services by implementing package-specific functionality for the [**LsaLogonUser**](lsalogonuser.md) and [**LsaCallAuthenticationPackage**](lsacallauthenticationpackage.md) functions provided by the LSA.
+Windows authentication packages provide authentication services by implementing package-specific functionality for the [**LsaLogonUser**](/windows/win32/Ntsecapi/nf-ntsecapi-lsalogonuser?branch=master) and [**LsaCallAuthenticationPackage**](/windows/win32/Ntsecapi/nf-ntsecapi-lsacallauthenticationpackage?branch=master) functions provided by the LSA.
 
 MSV1\_0 is an example of a Windows [*authentication package*](security.a_gly#-security-authentication-package-gly). The MSV1\_0 package accepts a user name and a [*hashed*](security.h_gly#-security-hash-gly) password, which it looks up in the [*Security Accounts Manager*](security.s_gly#-security-security-accounts-manager-gly) (SAM) database. Depending on the results of the lookup, the MSV1\_0 authentication package accepts or rejects the authentication attempt.
 

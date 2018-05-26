@@ -1,7 +1,12 @@
 ---
-Description: 'The following interfaces are used with Output Protection Manager (OPM).'
-ms.assetid: 'c3eabc15-0c0f-4deb-9b7a-ec9ce6ce6bb4'
+Description: The following interfaces are used with Output Protection Manager (OPM).
+ms.assetid: c3eabc15-0c0f-4deb-9b7a-ec9ce6ce6bb4
 title: OPM Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM Interfaces
@@ -12,7 +17,7 @@ The following interfaces are used with Output Protection Manager (OPM).
 
 | Interface                                  | Description                                                               |
 |--------------------------------------------|---------------------------------------------------------------------------|
-| [**IOPMVideoOutput**](iopmvideooutput.md) | Represents a video output for an Output Protection Manager (OPM) session. |
+| [**IOPMVideoOutput**](/windows/win32/opmapi/nn-opmapi-iopmvideooutput?branch=master) | Represents a video output for an Output Protection Manager (OPM) session. |
 
 
 

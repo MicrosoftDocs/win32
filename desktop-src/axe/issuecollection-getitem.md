@@ -1,8 +1,11 @@
 ---
 title: IssueCollection GetItem method
 description: Returns an Issue of the IssueCollection.
-ms.assetid: 'E9893B47-5257-4B78-AFB7-8160878402A0'
-keywords: ["GetItem method Access Execution Engine", "GetItem method Access Execution Engine , IssueCollection interface", "IssueCollection interface Access Execution Engine , GetItem method"]
+ms.assetid: E9893B47-5257-4B78-AFB7-8160878402A0
+keywords:
+- GetItem method Access Execution Engine
+- GetItem method Access Execution Engine , IssueCollection interface
+- IssueCollection interface Access Execution Engine , GetItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IssueCollection::GetItem method
@@ -22,8 +30,8 @@ Returns an [**Issue**](issue-struct.md) of the **IssueCollection**.
 
 ```C++
 virtual HRESULT GetItem(
-  [in]  INT   index,
-  [out] Issue **issue
+  [in]  INT   index,
+  [out] Issue **issue
 ) = 0;
 ```
 
@@ -65,8 +73,8 @@ The **Issue** objects hold data from **Issues/Issue** elements.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -79,9 +87,9 @@ The **Issue** objects hold data from **Issues/Issue** elements.
 [**IssueCollection**](issuecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

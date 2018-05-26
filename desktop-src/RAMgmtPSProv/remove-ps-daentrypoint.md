@@ -2,13 +2,16 @@
 title: Remove method of the PS\_DAEntryPoint class
 description: Removes an entry point from a multisite deployment.
 audience: developer
-ms.assetid: '0a0bcc0a-e671-43aa-b26c-6a2352a5c7df'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0a0bcc0a-e671-43aa-b26c-6a2352a5c7df
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DAEntryPoint class", "PS_DAEntryPoint class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DAEntryPoint class
+- PS_DAEntryPoint class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DAEntryPoint class
@@ -28,11 +34,11 @@ Removes an entry point from a multisite deployment.
 
 ```mof
 uint32 Remove(
-  [in]  string       ComputerName,
-  [in]  string       Name,
-  [in]  boolean      PassThru,
-  [in]  boolean      Force,
-  [out] DAEntryPoint cmdletOutput
+  [in]  string       ComputerName,
+  [in]  string       Name,
+  [in]  boolean      PassThru,
+  [in]  boolean      Force,
+  [out] DAEntryPoint cmdletOutput
 );
 ```
 
@@ -84,7 +90,7 @@ If the PassThru flag is specified, the output will provide the entry point name,
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ If the PassThru flag is specified, the output will provide the entry point name,
 [**PS\_DAEntryPoint**](ps-daentrypoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

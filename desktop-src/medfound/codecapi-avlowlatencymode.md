@@ -1,7 +1,12 @@
 ---
-Description: 'Enables low-latency mode in a codec.'
-ms.assetid: '15E8FF6F-AD8C-436F-B3C0-5062B1F86E32'
-title: 'CODECAPI\_AVLowLatencyMode property'
+Description: Enables low-latency mode in a codec.
+ms.assetid: 15E8FF6F-AD8C-436F-B3C0-5062B1F86E32
+title: CODECAPI\_AVLowLatencyMode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVLowLatencyMode property
@@ -34,8 +39,8 @@ The encoder is expected to not add any sample delay due to frame reordering in e
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -50,9 +55,9 @@ The encoder is expected to not add any sample delay due to frame reordering in e
 [**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

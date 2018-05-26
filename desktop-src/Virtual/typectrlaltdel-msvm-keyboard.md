@@ -1,8 +1,11 @@
 ---
 title: TypeCtrlAltDel method of the Msvm\_Keyboard class
 description: Simulates a CTRL+ALT+DEL key sequence.
-ms.assetid: '82f3b8d1-20fb-4201-9135-896da43ce66c'
-keywords: ["TypeCtrlAltDel method Hyper-V", "TypeCtrlAltDel method Hyper-V , Msvm_Keyboard class", "Msvm_Keyboard class Hyper-V , TypeCtrlAltDel method"]
+ms.assetid: 82f3b8d1-20fb-4201-9135-896da43ce66c
+keywords:
+- TypeCtrlAltDel method Hyper-V
+- TypeCtrlAltDel method Hyper-V , Msvm_Keyboard class
+- Msvm_Keyboard class Hyper-V , TypeCtrlAltDel method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TypeCtrlAltDel method of the Msvm\_Keyboard class
@@ -88,9 +96,9 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -103,9 +111,9 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 [**Msvm\_Keyboard**](msvm-keyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

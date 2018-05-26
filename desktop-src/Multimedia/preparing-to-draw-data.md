@@ -1,13 +1,22 @@
 ---
 title: Preparing to Draw Data
 description: Preparing to Draw Data
-ms.assetid: '98adcee4-06c0-4684-bd9e-e030e3f9a59d'
-keywords: ["video compression manager (VCM),drawing", "VCM (video compression manager),drawing", "ICDrawBegin macro", "ICDrawEnd macro"]
+ms.assetid: 98adcee4-06c0-4684-bd9e-e030e3f9a59d
+keywords:
+- video compression manager (VCM),drawing
+- VCM (video compression manager),drawing
+- ICDrawBegin macro
+- ICDrawEnd macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preparing to Draw Data
 
-The following example shows the initialization sequence that instructs the decompressor to draw full-screen. It uses the [**ICDrawBegin**](icdrawbegin.md) and [**ICDrawEnd**](icdrawend.md) macros.
+The following example shows the initialization sequence that instructs the decompressor to draw full-screen. It uses the [**ICDrawBegin**](/windows/win32/Vfw/nf-vfw-icdrawbegin?branch=master) and [**ICDrawEnd**](/windows/win32/Vfw/nf-vfw-icdrawend?branch=master) macros.
 
 
 ```C++

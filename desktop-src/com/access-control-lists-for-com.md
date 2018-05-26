@@ -1,7 +1,12 @@
 ---
 title: Access Control Lists for COM
 description: Access Control Lists for COM
-ms.assetid: 'ceb37563-7e7f-4704-b671-72ed65e3e102'
+ms.assetid: ceb37563-7e7f-4704-b671-72ed65e3e102
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Access Control Lists for COM

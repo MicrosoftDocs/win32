@@ -1,13 +1,16 @@
 ---
-Description: 'The Managed Object Format (MOF) file that creates a namespace can also define the security descriptors for the namespace by including the NamespaceSecuritySDDL qualifier with the security descriptor in security descriptor definition language (SDDL) format.'
+Description: The Managed Object Format (MOF) file that creates a namespace can also define the security descriptors for the namespace by including the NamespaceSecuritySDDL qualifier with the security descriptor in security descriptor definition language (SDDL) format.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'eeda3351-11ec-4064-90dd-f67ccf5c8cb6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: eeda3351-11ec-4064-90dd-f67ccf5c8cb6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting Namespace Security When the Namespace is Created
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting Namespace Security When the Namespace is Created
@@ -56,7 +59,7 @@ The following procedure sets the security descriptor for the *root\\MyNamespace*
 
     **c:\\mofcomp MyNamespace\_security.mof**
 
-    In C++, use the [**IMoFCompiler**](imofcompiler.md) methods.
+    In C++, use the [**IMoFCompiler**](/windows/win32/Wbemcli/nn-wbemcli-imofcompiler?branch=master) methods.
 
 4.  If your attempt to set the namespace DACL fails, consider the following error messages:
 

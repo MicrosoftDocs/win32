@@ -1,8 +1,9 @@
 ---
 title: CleanupCredentialCache function
 description: Implemented by certain Security Support Providers (SSP) to flush the SSP credential cache.
-ms.assetid: 'e60870e6-22d3-4321-abca-a5b9d2b0ce2d'
-keywords: ["CleanupCredentialCache function WinINet"]
+ms.assetid: e60870e6-22d3-4321-abca-a5b9d2b0ce2d
+keywords:
+- CleanupCredentialCache function WinINet
 topic_type:
 - apiref
 api_name:
@@ -12,6 +13,11 @@ api_location:
 - MSAPSSPC.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CleanupCredentialCache function
@@ -53,7 +59,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 > [!Note]  
 > WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).
 
- 
+ 
 
 ## Requirements
 
@@ -61,15 +67,15 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 |                                     |                                                                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                                 |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                                 |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                       |
 | DLL<br/>                      | <dl> <dt>MSNSSPC.dll; </dt> <dt>MSAPSSPC.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

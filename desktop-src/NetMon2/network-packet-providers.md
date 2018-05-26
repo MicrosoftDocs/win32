@@ -1,7 +1,12 @@
 ---
-Description: 'Network packet providers (NPPs) are Network Monitor system components that collect network traffic (frames) from the network and pass them on to the Network Monitor UI, and NPP applications.'
-ms.assetid: 'c966cd00-5cab-4fcf-ad8e-b6c4ffb0e977'
+Description: Network packet providers (NPPs) are Network Monitor system components that collect network traffic (frames) from the network and pass them on to the Network Monitor UI, and NPP applications.
+ms.assetid: c966cd00-5cab-4fcf-ad8e-b6c4ffb0e977
 title: Network Packet Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Packet Providers

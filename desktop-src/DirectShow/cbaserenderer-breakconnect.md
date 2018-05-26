@@ -1,7 +1,12 @@
 ---
-Description: 'The BreakConnect method releases the input pin from a connection.'
-ms.assetid: 'e295cec1-8c8f-471c-8832-075ac7708cb1'
-title: 'CBaseRenderer.BreakConnect method'
+Description: The BreakConnect method releases the input pin from a connection.
+ms.assetid: e295cec1-8c8f-471c-8832-075ac7708cb1
+title: CBaseRenderer.BreakConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.BreakConnect method
@@ -35,7 +40,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,9 +64,9 @@ The filter's input pin calls this method from inside its own `BreakConnect` meth
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

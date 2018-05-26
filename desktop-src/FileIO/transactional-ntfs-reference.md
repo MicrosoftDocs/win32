@@ -1,7 +1,12 @@
 ---
-Description: 'Elements provided by Transactional NTFS (TxF).'
-ms.assetid: '7a610ba4-88d5-4274-b068-8cbde9a67a95'
+Description: Elements provided by Transactional NTFS (TxF).
+ms.assetid: 7a610ba4-88d5-4274-b068-8cbde9a67a95
 title: Transactional NTFS Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transactional NTFS Reference
@@ -21,11 +26,11 @@ Transactional NTFS (TxF) provides the following elements.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

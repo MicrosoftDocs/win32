@@ -1,7 +1,12 @@
 ---
 title: Kernel Mode Cache
 description: .
-ms.assetid: 'f9a46ff4-779b-4b3a-b8f5-1ae10a3c0a61'
+ms.assetid: f9a46ff4-779b-4b3a-b8f5-1ae10a3c0a61
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Kernel Mode Cache
@@ -34,12 +39,12 @@ In addition to the restrictions on the request, the response must also meet the 
                       UriMaxUriBytes
     ```
 
--   The entire response must be provided in a single call to [**HttpSendHttpResponse**](httpsendhttpresponse.md).
+-   The entire response must be provided in a single call to [**HttpSendHttpResponse**](/windows/win32/Http/nf-http-httpsendhttpresponse?branch=master).
 -   The date header on the response must not be suppressed.
 -   If the last-modified header is present, the value of the header must have the correct syntax. The time value in this header is used for cache control verification.
 -   The kernel mode cache has enough space left to store the response.
 
-By default, kernel mode response cache is enabled. If any of the conditions for the request or response listed above are not met, the response will be sent, but it will not be cached. In HTTP Server version 2.0 API, [**HttpSendHttpResponse**](httpsendhttpresponse.md) includes an optional *pCachePolicy* parameter to pass the [**HTTP\_CACHE\_POLICY**](http-cache-policy.md) structure. Applications use the cache policy structure to configure the cache.
+By default, kernel mode response cache is enabled. If any of the conditions for the request or response listed above are not met, the response will be sent, but it will not be cached. In HTTP Server version 2.0 API, [**HttpSendHttpResponse**](/windows/win32/Http/nf-http-httpsendhttpresponse?branch=master) includes an optional *pCachePolicy* parameter to pass the [**HTTP\_CACHE\_POLICY**](/windows/win32/Http/ns-http-_http_cache_policy?branch=master) structure. Applications use the cache policy structure to configure the cache.
 
  
 

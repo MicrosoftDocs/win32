@@ -1,8 +1,11 @@
 ---
 title: RequestStateChange method of the CIM\_ConcreteJob class
 description: Requests the specified state change to a concrete job.
-ms.assetid: 'f6962d14-1f55-4f5f-a998-2451b3d0b182'
-keywords: ["RequestStateChange method Hyper-V", "RequestStateChange method Hyper-V , CIM_ConcreteJob class", "CIM_ConcreteJob class Hyper-V , RequestStateChange method"]
+ms.assetid: f6962d14-1f55-4f5f-a998-2451b3d0b182
+keywords:
+- RequestStateChange method Hyper-V
+- RequestStateChange method Hyper-V , CIM_ConcreteJob class
+- CIM_ConcreteJob class Hyper-V , RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the CIM\_ConcreteJob class
@@ -20,15 +28,15 @@ Requests the specified state change to a concrete job.
 > [!Note]  
 > Invoking this method multiple times could result in earlier requests being overwritten or lost.
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 RequestStateChange(
-  [in] uint16   RequestedState,
-  [in] datetime TimeoutPeriod
+  [in] uint16   RequestedState,
+  [in] datetime TimeoutPeriod
 );
 ```
 
@@ -183,7 +191,7 @@ Cannot complete within Timeout Period
 **DMTF Reserved**
 </dt> <dd>
 
-7–4095
+7 4095
 
 </dd> <dt>
 
@@ -220,14 +228,14 @@ Method Parameters Checked - Job Started
 **Method Reserved**
 </dt> <dd>
 
-4100–32767
+4100 32767
 
 </dd> <dt>
 
 **Vendor Specific**
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 </dd> </dl>
 
@@ -249,9 +257,9 @@ Method Parameters Checked - Job Started
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

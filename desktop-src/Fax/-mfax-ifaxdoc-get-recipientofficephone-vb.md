@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the RecipientOfficePhone property of a FaxDoc object. The RecipientOfficePhone property is a null-terminated string that contains the office telephone number of the recipient of the fax transmission.'
-ms.assetid: 'a0a68dc0-a110-4548-8c53-d32f27dbddc9'
-title: 'FaxDoc.RecipientOfficePhone property'
+---
+Description: Sets or retrieves the RecipientOfficePhone property of a FaxDoc object. The RecipientOfficePhone property is a null-terminated string that contains the office telephone number of the recipient of the fax transmission.
+ms.assetid: a0a68dc0-a110-4548-8c53-d32f27dbddc9
+title: FaxDoc.RecipientOfficePhone property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.RecipientOfficePhone property
@@ -55,7 +60,7 @@ The **get\_RecipientOfficePhone** method allocates the memory required for the b
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

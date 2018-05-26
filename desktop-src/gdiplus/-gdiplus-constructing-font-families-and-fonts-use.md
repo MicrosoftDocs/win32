@@ -1,7 +1,12 @@
 ---
-Description: 'Windows GDI+ groups fonts with the same typeface but different styles into font families.'
-ms.assetid: '57428fae-6af4-47a5-a499-717dc378767a'
+Description: Windows GDI+ groups fonts with the same typeface but different styles into font families.
+ms.assetid: 57428fae-6af4-47a5-a499-717dc378767a
 title: Constructing Font Families and Fonts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constructing Font Families and Fonts
@@ -20,7 +25,7 @@ GDI+ uses four styles to form families: regular, bold, italic, and bold italic. 
 -   Arial Narrow Italic
 -   Arial Narrow Bold Italic
 
-Before you can draw text with GDI+, you need to construct a [**FontFamily**](-gdiplus-class-fontfamily-class.md) object and a [**Font**](-gdiplus-class-font-class.md) object. The **FontFamily** objects specifies the typeface (for example, Arial), and the **Font** object specifies the size, style, and units.
+Before you can draw text with GDI+, you need to construct a [**FontFamily**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontfamily?branch=master) object and a [**Font**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-font?branch=master) object. The **FontFamily** objects specifies the typeface (for example, Arial), and the **Font** object specifies the size, style, and units.
 
 The following example constructs a regular style Arial font with a size of 16 pixels:
 
@@ -33,9 +38,9 @@ Font font(&amp;fontFamily, 16, FontStyleRegular, UnitPixel);
 
 
 
-In the preceding code, the first argument passed to the [**Font**](-gdiplus-class-font-class.md) constructor is the address of the [**FontFamily**](-gdiplus-class-fontfamily-class.md) object. The second argument specifies the size of the font measured in units identified by the fourth argument. The third argument identifies the style.
+In the preceding code, the first argument passed to the [**Font**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-font?branch=master) constructor is the address of the [**FontFamily**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontfamily?branch=master) object. The second argument specifies the size of the font measured in units identified by the fourth argument. The third argument identifies the style.
 
-[****UnitPixel****](-gdiplus-enum-unit.md) is a member of the **Unit** enumeration, and [****FontStyleRegular****](-gdiplus-enum-fontstyle.md) is a member of the **FontStyle** enumeration. Both enumerations are declared in Gdiplusenums.h.
+[****UnitPixel****](/windows/win32/Gdiplusenums/ne-gdiplusenums-unit?branch=master) is a member of the **Unit** enumeration, and [****FontStyleRegular****](/windows/win32/Gdiplusenums/ne-gdiplusenums-fontstyle?branch=master) is a member of the **FontStyle** enumeration. Both enumerations are declared in Gdiplusenums.h.
 
  
 

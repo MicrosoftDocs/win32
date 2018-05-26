@@ -1,8 +1,9 @@
 ---
 title: BDA\_CONDITIONALACCESS\_REQUESTTYPE enumeration
 description: Specifies the type of content access that a media sink device (MSD) is requesting.
-ms.assetid: 'b21bca45-e219-4670-b209-9d7a63fbd65c'
-keywords: ["BDA_CONDITIONALACCESS_REQUESTTYPE enumeration Microsoft TV Technologies"]
+ms.assetid: b21bca45-e219-4670-b209-9d7a63fbd65c
+keywords:
+- BDA_CONDITIONALACCESS_REQUESTTYPE enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BDA\_CONDITIONALACCESS\_REQUESTTYPE enumeration
@@ -22,7 +28,7 @@ Specifies the type of content access that a media sink device (MSD) is requestin
 
 ```C++
 typedef enum BDA_CONDITIONALACCESS_REQUESTTYPE { 
-  CONDITIONALACCESS_ACCESS_UNSPECIFIED                       = 0,
+  CONDITIONALACCESS_ACCESS_UNSPECIFIED                       = 0,
   CONDITIONALACCESS_ACCESS_NOT_POSSIBLE,
   CONDITIONALACCESS_ACCESS_POSSIBLE,
   CONDITIONALACCESS_ACCESS_POSSIBLE_NO_STREAMING_DISRUPTION
@@ -69,8 +75,8 @@ The MSD can provide access to the content; however, the media transform device (
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Bdatypes.h</dt> </dl> |
 
 
@@ -79,12 +85,12 @@ The MSD can provide access to the content; however, the media transform device (
 
 <dl> <dt>
 
-[**IBDA\_ConditionalAccessEx::CheckEntitlementToken**](ibda-conditionalaccessex-checkentitlementtoken.md)
+[**IBDA\_ConditionalAccessEx::CheckEntitlementToken**](/windows/win32/bdaiface/nf-bdaiface-ibda_conditionalaccessex-checkentitlementtoken?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

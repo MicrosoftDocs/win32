@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '95074b6f-371b-449a-ba98-eadd3235e49b'
-title: 'System.RecordedTV.OriginalBroadcastDate'
+Description: .
+ms.assetid: 95074b6f-371b-449a-ba98-eadd3235e49b
+title: System.RecordedTV.OriginalBroadcastDate
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.OriginalBroadcastDate

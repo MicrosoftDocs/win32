@@ -1,14 +1,20 @@
 ---
 title: Rootcauses (LocalDiagnosticPackage) Element
 description: Contains a collection of root causes to detect.
-ms.assetid: 'add775d6-5d72-4f24-8116-f64eda88391e'
-keywords: ["Rootcauses element Windows Troubleshooting Toolkit"]
+ms.assetid: add775d6-5d72-4f24-8116-f64eda88391e
+keywords:
+- Rootcauses element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Rootcauses
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rootcauses (LocalDiagnosticPackage) Element
@@ -36,14 +42,14 @@ The **Rootcauses** element is defined by the [**LocalDiagnosticPackage**](packag
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

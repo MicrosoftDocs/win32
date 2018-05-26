@@ -1,7 +1,12 @@
 ---
 title: IDL Files
 description: IDL Files
-ms.assetid: '94a6752d-fcf3-47ce-ac3f-be1d1c9768e6'
+ms.assetid: 94a6752d-fcf3-47ce-ac3f-be1d1c9768e6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDL Files

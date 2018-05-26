@@ -1,7 +1,12 @@
 ---
 title: bufinfo (sm5 - asm)
 description: Query the element count on a buffer (but not the constant buffer).
-ms.assetid: '3A5C28F3-FE59-4C67-92AC-66B10E1D9692'
+ms.assetid: 3A5C28F3-FE59-4C67-92AC-66B10E1D9692
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # bufinfo (sm5 - asm)
@@ -15,7 +20,7 @@ Query the element count on a buffer (but not the constant buffer).
 
 
 
- 
+ 
 
 
 
@@ -26,11 +31,11 @@ Query the element count on a buffer (but not the constant buffer).
 
 
 
- 
+ 
 
 ## Remarks
 
-All components in *dest* receive the integer number of elements in the buffer’s shader resource view. The number of elements depends on the view parameters such as memory format.
+All components in *dest* receive the integer number of elements in the buffer s shader resource view. The number of elements depends on the view parameters such as memory format.
 
 For a typed buffer SRV or UAV, the return value is the number of elements in the view (where an element is one unit of the typed format).
 
@@ -48,7 +53,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -67,7 +72,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -76,9 +81,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Subclassing Controls
 description: If a control does almost everything you want, but you need a few more features, you can change or add features to the original control by subclassing it.
-ms.assetid: '7f558674-c8b2-4461-96ba-e139416b7a1c'
+ms.assetid: 7f558674-c8b2-4461-96ba-e139416b7a1c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subclassing Controls

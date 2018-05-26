@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the buffer window, in milliseconds, to be used for the voice codec.'
-ms.assetid: '48c84e6d-b21f-468e-8847-f5e2acd5b44a'
-title: 'MFPKEY\_WMAVOICE\_ENC\_BufferWindow Property'
+---
+Description: Specifies the buffer window, in milliseconds, to be used for the voice codec.
+ms.assetid: 48c84e6d-b21f-468e-8847-f5e2acd5b44a
+title: MFPKEY\_WMAVOICE\_ENC\_BufferWindow Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAVOICE\_ENC\_BufferWindow Property

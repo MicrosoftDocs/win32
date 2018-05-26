@@ -4,11 +4,16 @@ description: Cluster resources are categorized by type.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd02e4f51-7b86-451a-a51c-ea850ae464d1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d02e4f51-7b86-451a-a51c-ea850ae464d1
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster objects Failover Cluster ,resource types", "resource types Failover Cluster"]
+keywords:
+- cluster objects Failover Cluster ,resource types
+- resource types Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resource Types

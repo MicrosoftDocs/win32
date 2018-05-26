@@ -1,8 +1,9 @@
 ---
 title: SetDefaultLayoutOrTip function
 description: Sets the specified keyboard layout or a text service as the default input item of the current user.
-ms.assetid: 'e602065c-776b-47ba-b050-4325197e03de'
-keywords: ["SetDefaultLayoutOrTip function Text Services Framework"]
+ms.assetid: e602065c-776b-47ba-b050-4325197e03de
+keywords:
+- SetDefaultLayoutOrTip function Text Services Framework
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - input.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetDefaultLayoutOrTip function
@@ -22,8 +28,8 @@ Sets the specified keyboard layout or a text service as the default input item o
 
 ```C++
 BOOL CALLBACK SetDefaultLayoutOrTip(
-  _In_ LPCWSTR           psz,
-  _In_ LPCWSTR psz DWORD dwFlags
+  _In_ LPCWSTR           psz,
+  _In_ LPCWSTR psz DWORD dwFlags
 );
 ```
 
@@ -48,7 +54,7 @@ A bitfield that specifies the following flags.
 > [!Note]  
 > The following identifiers are not defined in a public header file. You must either use the hexadecimal value or \#define the identifiers. For example, to use SDLOT\_NOAPPLYTOCURRENTSESSION you must include \#define SDLOT\_NOAPPLYTOCURRENTSESSION 0x00000001 in your code.
 
- 
+ 
 
 
 
@@ -59,7 +65,7 @@ A bitfield that specifies the following flags.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -74,7 +80,7 @@ A bitfield that specifies the following flags.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -104,7 +110,7 @@ There is no import library available that defines this function, so it is necess
 > [!Note]  
 > Using [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to [Dynamic-Link Library Search Order](https://msdn.microsoft.com/library/windows/desktop/ms682586) for information on how to correctly load DLLs with different versions of Microsoft Windows.
 
- 
+ 
 
 
 ```C++
@@ -140,15 +146,15 @@ else
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Input.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

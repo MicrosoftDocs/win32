@@ -1,7 +1,12 @@
 ---
 title: Adding a GRE Rule
 description: This example adds a GRE rule using the Windows Firewall with Advanced Security APIs.C++/\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ++ Copyright (C) Microsoft.
-ms.assetid: 'a81ffc59-26f2-46e6-9ef4-e447b88b94a7'
+ms.assetid: a81ffc59-26f2-46e6-9ef4-e447b88b94a7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a GRE Rule

@@ -1,7 +1,12 @@
 ---
 title: About Working with ALinks
 description: About Working with ALinks
-ms.assetid: '9E22E426-7FA5-48e0-9551-9A8096D1C9D8'
+ms.assetid: 9E22E426-7FA5-48e0-9551-9A8096D1C9D8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Working with ALinks

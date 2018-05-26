@@ -1,8 +1,18 @@
 ---
 title: Image Source for Disabled Trackbar
 description: Image Source for Disabled Trackbar
-ms.assetid: 'ecbe1670-2914-4b66-92bd-d854e6c1e897'
-keywords: ["Windows Media Player Mobile skins,trackbars", "skins,trackbars", "reference for skins,trackbars", "trackbars in skins,image source", "image source for skins,trackbars"]
+ms.assetid: ecbe1670-2914-4b66-92bd-d854e6c1e897
+keywords:
+- Windows Media Player Mobile skins,trackbars
+- skins,trackbars
+- reference for skins,trackbars
+- trackbars in skins,image source
+- image source for skins,trackbars
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image Source for Disabled Trackbar

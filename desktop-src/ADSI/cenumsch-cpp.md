@@ -4,10 +4,13 @@ description: In the example provider component, the enumeration of a schema obje
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'edad1ad1-16b9-40f3-b841-a70aa7fff5d9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: edad1ad1-16b9-40f3-b841-a70aa7fff5d9
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CENUMSCH.CPP

@@ -1,16 +1,21 @@
 ---
 Description: Populating COM+ Collections
-ms.assetid: 'df86cbab-dcb8-46ac-aebf-8516276b6e81'
+ms.assetid: df86cbab-dcb8-46ac-aebf-8516276b6e81
 title: Populating COM+ Collections
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Populating COM+ Collections
 
-After you have retrieved a collection and before you can work directly with the items it contains, you must populate the collection by using the [**Populate**](icatalogcollection-populate.md) method. This fetches data for the collection's contents from the COM+ catalog.
+After you have retrieved a collection and before you can work directly with the items it contains, you must populate the collection by using the [**Populate**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-populate?branch=master) method. This fetches data for the collection's contents from the COM+ catalog.
 
-It is important to understand that whenever you use the COMAdmin objects to manipulate items or data in collections, you are really working on transiently cached data; you are not working directly with the persisted catalog. Nothing that you do with a collection or any of its items is reflected on the catalog until you call [**SaveChanges**](icatalogcollection-savechanges.md) on the collection. For more detail, see [Saving or Discarding Changes](saving-or-discarding-changes.md).
+It is important to understand that whenever you use the COMAdmin objects to manipulate items or data in collections, you are really working on transiently cached data; you are not working directly with the persisted catalog. Nothing that you do with a collection or any of its items is reflected on the catalog until you call [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master) on the collection. For more detail, see [Saving or Discarding Changes](saving-or-discarding-changes.md).
 
-Any subsequent calls to [**Populate**](icatalogcollection-populate.md), prior to calling [**SaveChanges**](icatalogcollection-savechanges.md), has the effect of discarding pending changes to all items in the collection. **Populate** always populates the cache you're working in with whatever data is persisted on the underlying catalog data store.
+Any subsequent calls to [**Populate**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-populate?branch=master), prior to calling [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master), has the effect of discarding pending changes to all items in the collection. **Populate** always populates the cache you're working in with whatever data is persisted on the underlying catalog data store.
 
 ## Related topics
 

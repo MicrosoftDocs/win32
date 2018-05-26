@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetResizerGUID method specifies the CLSID of a custom video resizing filter.'
-ms.assetid: '709a6e7f-64ae-406d-bb6d-29f6c65b63a8'
-title: 'IRenderEngine2::SetResizerGUID method'
+---
+Description: The SetResizerGUID method specifies the CLSID of a custom video resizing filter.
+ms.assetid: 709a6e7f-64ae-406d-bb6d-29f6c65b63a8
+title: IRenderEngine2SetResizerGUID method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine2::SetResizerGUID method

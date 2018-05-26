@@ -1,8 +1,17 @@
 ---
 title: Video Size
 description: Video Size
-ms.assetid: '6ea16cd3-946d-4959-ab43-ddfe96467d1b'
-keywords: ["Windows Media Player Mobile skins,video", "skins,video", "reference for skins,video", "video in skins,size"]
+ms.assetid: 6ea16cd3-946d-4959-ab43-ddfe96467d1b
+keywords:
+- Windows Media Player Mobile skins,video
+- skins,video
+- reference for skins,video
+- video in skins,size
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Size

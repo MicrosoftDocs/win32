@@ -1,7 +1,12 @@
 ---
-Description: 'To obtain a provider GUID or event trace class GUIDs, you can use the Uuidgen.exe or Guidgen.exe tool.'
-ms.assetid: '07483a78-ee67-4586-a75b-d376aa3351b7'
+Description: To obtain a provider GUID or event trace class GUIDs, you can use the Uuidgen.exe or Guidgen.exe tool.
+ms.assetid: 07483a78-ee67-4586-a75b-d376aa3351b7
 title: Obtaining a Provider and Class GUID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining a Provider and Class GUID

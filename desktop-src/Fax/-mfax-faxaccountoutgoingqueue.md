@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used by a fax client application to get the outbound fax jobs (FaxOutgoingJobs object) in the outbound job queue of a particular fax account.'
-ms.assetid: 'a1012b13-e629-4449-9b7c-c182dad56a9b'
+---
+Description: Used by a fax client application to get the outbound fax jobs (FaxOutgoingJobs object) in the outbound job queue of a particular fax account.
+ms.assetid: a1012b13-e629-4449-9b7c-c182dad56a9b
 title: FaxAccountOutgoingQueue object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountOutgoingQueue object
@@ -54,7 +59,7 @@ The **FaxAccountOutgoingQueue** object has these methods.
 [**FaxAccountFolders**](-mfax-faxaccountfolders.md)
 </dt> <dt>
 
-[**IFaxAccountOutgoingQueue**](-mfax-faxaccountoutgoingqueue-cpp.md)
+[**IFaxAccountOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountoutgoingqueue?branch=master)
 </dt> </dl>
 
  

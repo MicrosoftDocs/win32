@@ -1,7 +1,12 @@
 ---
 title: mspeapconnectionpropertiesv1 Schema
 description: Defines authentication configuration data using Protected Extensible Authentication Protocol (PEAP).
-ms.assetid: 'd32026f5-8c66-4eb6-bedd-559b3dd4dbb5'
+ms.assetid: d32026f5-8c66-4eb6-bedd-559b3dd4dbb5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mspeapconnectionpropertiesv1 Schema

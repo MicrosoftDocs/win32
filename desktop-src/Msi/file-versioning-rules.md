@@ -1,7 +1,12 @@
 ---
-Description: 'At the core of any installer is the actual installation of files.'
-ms.assetid: 'e6f6d6a5-bdb0-4866-8d2c-56313d92c94c'
+Description: At the core of any installer is the actual installation of files.
+ms.assetid: e6f6d6a5-bdb0-4866-8d2c-56313d92c94c
 title: File Versioning Rules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Versioning Rules

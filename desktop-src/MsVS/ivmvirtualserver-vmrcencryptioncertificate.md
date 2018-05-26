@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer VMRCEncryptionCertificate property
 description: The VMRCEncryptionCertificate property contains the security certificate used by SSL/TLS encryption to protect VMRC session data.
-ms.assetid: 'd0c4c660-792f-4462-a400-80b819307a7e'
-keywords: ["VMRCEncryptionCertificate property Virtual Server", "VMRCEncryptionCertificate property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , VMRCEncryptionCertificate property", "VMRCEncryptionCertificate property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , VMRCEncryptionCertificate property"]
+ms.assetid: d0c4c660-792f-4462-a400-80b819307a7e
+keywords:
+- VMRCEncryptionCertificate property Virtual Server
+- VMRCEncryptionCertificate property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , VMRCEncryptionCertificate property
+- VMRCEncryptionCertificate property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , VMRCEncryptionCertificate property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::VMRCEncryptionCertificate property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_VMRCEncryptionCertificate(
-  [in]  BSTR certificate
+  [in]  BSTR certificate
 );
 
 HRESULT get_VMRCEncryptionCertificate(
-  [out] BSTR *certificate
+  [out] BSTR *certificate
 );
 ```
 
@@ -108,8 +118,8 @@ End If
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -121,9 +131,9 @@ End If
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

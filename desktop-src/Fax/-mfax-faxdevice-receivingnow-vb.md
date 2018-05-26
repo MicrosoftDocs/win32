@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ReceivingNow property is a Boolean value that indicates whether the fax device is receiving a fax at the moment the property is retrieved (the status could change immediately thereafter).'
-ms.assetid: '782a54b1-a417-4daa-be02-497773cdc40c'
-title: 'FaxDevice.ReceivingNow property'
+---
+Description: The ReceivingNow property is a Boolean value that indicates whether the fax device is receiving a fax at the moment the property is retrieved (the status could change immediately thereafter).
+ms.assetid: 782a54b1-a417-4daa-be02-497773cdc40c
+title: FaxDevice.ReceivingNow property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.ReceivingNow property
@@ -55,7 +60,7 @@ If this property is equal to **True**, the fax device is currently receiving a f
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

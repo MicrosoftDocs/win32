@@ -1,7 +1,12 @@
 ---
 title: Stream Buffer Source Filter
 description: Stream Buffer Source Filter
-ms.assetid: '435081e9-8a3f-42ab-9091-30c7c3dd59c6'
+ms.assetid: 435081e9-8a3f-42ab-9091-30c7c3dd59c6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream Buffer Source Filter
@@ -20,13 +25,13 @@ The Stream Buffer Source filter is the source filter for the Stream Buffer Engin
 [<strong>IBaseFilter</strong>](https://msdn.microsoft.com/library/windows/desktop/dd389526)<br />
 [<strong>IFileSourceFilter</strong>](https://msdn.microsoft.com/library/windows/desktop/dd389981)<br />
 <strong>ISpecifyPropertyPages</strong><br />
-[<strong>IStreamBufferMediaSeeking</strong>](istreambuffermediaseeking.md)<br />
-[<strong>IStreamBufferMediaSeeking2</strong>](istreambuffermediaseeking2.md)<br />
-[<strong>IStreamBufferInitialize</strong>](istreambufferinitialize.md)<br />
-[<strong>IStreamBufferSource</strong>](istreambuffersource.md)<br />
-[<strong>ISBE2GlobalEvent</strong>](isbe2globalevent.md)<br />
-[<strong>ISBE2SpanningEvent</strong>](isbe2spanningevent.md)<br />
-[<strong>ISBE2Crossbar</strong>](isbe2crossbar.md)<br />
+[<strong>IStreamBufferMediaSeeking</strong>](/windows/previous-versions/Sbe/?branch=master)<br />
+[<strong>IStreamBufferMediaSeeking2</strong>](/windows/previous-versions/Sbe/nn-sbe-istreambuffermediaseeking2?branch=master)<br />
+[<strong>IStreamBufferInitialize</strong>](/windows/previous-versions/Sbe/nn-sbe-istreambufferinitialize?branch=master)<br />
+[<strong>IStreamBufferSource</strong>](/windows/previous-versions/Sbe/nn-sbe-istreambuffersource?branch=master)<br />
+[<strong>ISBE2GlobalEvent</strong>](/windows/previous-versions/sbe/nn-sbe-isbe2globalevent?branch=master)<br />
+[<strong>ISBE2SpanningEvent</strong>](/windows/previous-versions/sbe/nn-sbe-isbe2spanningevent?branch=master)<br />
+[<strong>ISBE2Crossbar</strong>](/windows/previous-versions/sbe/nn-sbe-isbe2crossbar?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="even">
@@ -46,8 +51,8 @@ The Stream Buffer Source filter is the source filter for the Stream Buffer Engin
 <td><dl>[<strong>IMediaSeeking</strong>](https://msdn.microsoft.com/library/windows/desktop/dd407023) (see Remarks)<br />
 [<strong>IPin</strong>](https://msdn.microsoft.com/library/windows/desktop/dd390397)<br />
 [<strong>IQualityControl</strong>](https://msdn.microsoft.com/library/windows/desktop/dd376912)<br />
-[<strong>IStreamBufferDataCounters</strong>](istreambufferdatacounters.md)<br />
-[<strong>ISBE2StreamMap</strong>](isbe2streammap.md)<br />
+[<strong>IStreamBufferDataCounters</strong>](/windows/previous-versions/Sbe/nn-sbe-istreambufferdatacounters?branch=master)<br />
+[<strong>ISBE2StreamMap</strong>](/windows/previous-versions/sbe/nn-sbe-isbe2streammap?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="even">
@@ -75,21 +80,21 @@ The Stream Buffer Source filter is the source filter for the Stream Buffer Engin
 
 
 
- 
+ 
 
 ## Remarks
 
-The Stream Buffer Source filter supports the [**IMediaSeeking**](https://msdn.microsoft.com/library/windows/desktop/dd407023) interface for completed recordings only. For live content, use the [**IStreamBufferMediaSeeking**](istreambuffermediaseeking.md) interface, which has the same methods but slightly different behavior for each method. This reflects the fact that live content continuously grows on one end, as the show is being recorded, and shrinks on the other end, as backing files are deleted. See the description of the **IStreamBufferMediaSeeking** interface for details.
+The Stream Buffer Source filter supports the [**IMediaSeeking**](https://msdn.microsoft.com/library/windows/desktop/dd407023) interface for completed recordings only. For live content, use the [**IStreamBufferMediaSeeking**](/windows/previous-versions/Sbe/?branch=master) interface, which has the same methods but slightly different behavior for each method. This reflects the fact that live content continuously grows on one end, as the show is being recorded, and shrinks on the other end, as backing files are deleted. See the description of the **IStreamBufferMediaSeeking** interface for details.
 
-You can use the [**IStreamBufferMediaSeeking**](istreambuffermediaseeking.md) interface with completed recordings, but do not mix **IStreamBufferMediaSeeking** calls and [**IMediaSeeking**](https://msdn.microsoft.com/library/windows/desktop/dd407023) calls. After the first call to an **IStreamBufferMediaSeeking** method, the filter will fail any subsequent calls to **IMediaSeeking** methods and will also fail any subsequent **QueryInterface** calls for the **IMediaSeeking** interface.
+You can use the [**IStreamBufferMediaSeeking**](/windows/previous-versions/Sbe/?branch=master) interface with completed recordings, but do not mix **IStreamBufferMediaSeeking** calls and [**IMediaSeeking**](https://msdn.microsoft.com/library/windows/desktop/dd407023) calls. After the first call to an **IStreamBufferMediaSeeking** method, the filter will fail any subsequent calls to **IMediaSeeking** methods and will also fail any subsequent **QueryInterface** calls for the **IMediaSeeking** interface.
 
-To use the [**IStreamBufferMediaSeeking**](istreambuffermediaseeking.md) methods, an application should query the filter directly. To use the [**IMediaSeeking**](https://msdn.microsoft.com/library/windows/desktop/dd407023) methods, the application should query the Filter Graph Manager. The Filter Graph Manager routes the seek commands to the filter, as described in [Seeking](https://msdn.microsoft.com/library/windows/desktop/dd377559).
+To use the [**IStreamBufferMediaSeeking**](/windows/previous-versions/Sbe/?branch=master) methods, an application should query the filter directly. To use the [**IMediaSeeking**](https://msdn.microsoft.com/library/windows/desktop/dd407023) methods, the application should query the Filter Graph Manager. The Filter Graph Manager routes the seek commands to the filter, as described in [Seeking](https://msdn.microsoft.com/library/windows/desktop/dd377559).
 
 Beginning with Windows Media Center TV Pack 2008 and Windows 7, the Stream Buffer Source filter supports the .WTV file format. H.264 is added as the default supported media type. Several new interfaces are also added to the filter:
 
--   The [**ISBE2GlobalEvent**](isbe2globalevent.md) and [**ISBE2SpanningEvent**](isbe2spanningevent.md) interfaces offer the ability to obtain event data from global spanning events and in-band spanning events, respectively. A *global spanning event* sends state information that applies to all streams in the pipeline. An *in-band spanning event* is an in-band event that can be recorded as part of the state information in a stream. For more information how to obtain data from global spanning events, see [Receiving Spanning Events in the Stream Buffer Engine](receiving-spanning-events-in-the-stream-buffer-engine.md).
--   The [**ISBE2Crossbar**](isbe2crossbar.md) interface provides the ability to define profiles of all media types (corresponding to output pins) for a Stream Buffer Source filter.
--   The [**ISBE2StreamMap**](isbe2streammap.md) interface provides the ability to enumerate streams that are available for mapping to a Stream Buffer Source filter's output pins, and specify custom mappings between streams and output pins.
+-   The [**ISBE2GlobalEvent**](/windows/previous-versions/sbe/nn-sbe-isbe2globalevent?branch=master) and [**ISBE2SpanningEvent**](/windows/previous-versions/sbe/nn-sbe-isbe2spanningevent?branch=master) interfaces offer the ability to obtain event data from global spanning events and in-band spanning events, respectively. A *global spanning event* sends state information that applies to all streams in the pipeline. An *in-band spanning event* is an in-band event that can be recorded as part of the state information in a stream. For more information how to obtain data from global spanning events, see [Receiving Spanning Events in the Stream Buffer Engine](receiving-spanning-events-in-the-stream-buffer-engine.md).
+-   The [**ISBE2Crossbar**](/windows/previous-versions/sbe/nn-sbe-isbe2crossbar?branch=master) interface provides the ability to define profiles of all media types (corresponding to output pins) for a Stream Buffer Source filter.
+-   The [**ISBE2StreamMap**](/windows/previous-versions/sbe/nn-sbe-isbe2streammap?branch=master) interface provides the ability to enumerate streams that are available for mapping to a Stream Buffer Source filter's output pins, and specify custom mappings between streams and output pins.
 
 For more information on crossbars, profiles, and stream mappings, see [Stream Buffer Source Filter Enhancements in Windows 7](stream-buffer-source-filter-enhancements-in-windows-7.md).
 
@@ -106,9 +111,9 @@ For more information on crossbars, profiles, and stream mappings, see [Stream Bu
 [Using the Stream Buffer Engine](using-the-stream-buffer-engine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

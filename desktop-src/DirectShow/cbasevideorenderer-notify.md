@@ -1,7 +1,12 @@
 ---
-Description: 'The Notify method receives a notification that a quality change is requested.'
-ms.assetid: 'bb9aa1c3-caef-42fb-87d2-75cc3691f64f'
-title: 'CBaseVideoRenderer.Notify method'
+Description: The Notify method receives a notification that a quality change is requested.
+ms.assetid: bb9aa1c3-caef-42fb-87d2-75cc3691f64f
+title: CBaseVideoRenderer.Notify method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.Notify method
@@ -13,8 +18,8 @@ The `Notify` method receives a notification that a quality change is requested.
 
 ```C++
 HRESULT Notify(
-  [in] IBaseFilter *pSelf,
-  [in] Quality     q
+  [in] IBaseFilter *pSelf,
+  [in] Quality     q
 );
 ```
 
@@ -44,7 +49,7 @@ Returns an **HRESULT** value.
 
 ## Remarks
 
-This member function implements the [**IQualityControl::Notify**](iqualitycontrol-notify.md) method on the video renderer. This is called, typically by the filter graph manager, when the quality must be cut back. This might occur when the quality of audio playback has been increased to the point that the video playback quality must be decreased.
+This member function implements the [**IQualityControl::Notify**](/windows/win32/Strmif/nf-strmif-iqualitycontrol-notify?branch=master) method on the video renderer. This is called, typically by the filter graph manager, when the quality must be cut back. This might occur when the quality of audio playback has been increased to the point that the video playback quality must be decreased.
 
 `Notify` sets the **m\_trThrottle** data member to a delay value to be inserted between frames by [**ThrottleWait**](cbasevideorenderer-throttlewait.md).
 
@@ -66,9 +71,9 @@ This member function implements the [**IQualityControl::Notify**](iqualitycontro
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

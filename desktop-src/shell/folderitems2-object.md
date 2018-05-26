@@ -1,6 +1,11 @@
-﻿---
-Description: 'Extends the FolderItems object. It supports one additional method.'
+---
+Description: Extends the FolderItems object. It supports one additional method.
 title: FolderItems2 object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItems2 object
@@ -45,10 +50,10 @@ The **FolderItems2** object has these methods.
 
 <dl> <dt>
 
-[**ShellExecute**](shellexecute.md)
+[**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master)
 </dt> <dt>
 
-[**ShellExecuteEx**](shellexecuteex.md)
+[**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master)
 </dt> </dl>
 
  

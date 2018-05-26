@@ -1,13 +1,16 @@
 ---
-Description: 'Describes how to include WMI COM provider as a component within an application rather than in-process to WMI. Called a decoupled provider, this is the recommended type of WMI COM provider to create for Windows 2000 and later operating systems.'
+Description: Describes how to include WMI COM provider as a component within an application rather than in-process to WMI. Called a decoupled provider, this is the recommended type of WMI COM provider to create for Windows 2000 and later operating systems.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a502f0dd-9add-4ebd-bc25-743a55eb78ac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a502f0dd-9add-4ebd-bc25-743a55eb78ac
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Incorporating a Provider in an Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Incorporating a Provider in an Application
@@ -18,7 +21,7 @@ The following diagram illustrates the relationship between WMI, a decoupled prov
 
 ![relationship between wmi, decoupled provider, and application](images/decoupledprov.png)
 
-For more information about decoupled provider methods, see [**IWbemDecoupledRegistrar**](iwbemdecoupledregistrar.md) and [**IWbemDecoupledBasicEventProvider**](iwbemdecoupledbasiceventprovider.md).
+For more information about decoupled provider methods, see [**IWbemDecoupledRegistrar**](/windows/win32/Wbemprov/nn-wbemprov-iwbemdecoupledregistrar?branch=master) and [**IWbemDecoupledBasicEventProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbemdecoupledbasiceventprovider?branch=master).
 
 > [!Note]  
 > The decoupled provider supports instance, method, event providers, and event consumers. It does not support class and property providers. For more information, see [Writing a Class Provider](writing-a-class-provider.md) and [Writing a Property Provider](writing-a-property-provider.md).

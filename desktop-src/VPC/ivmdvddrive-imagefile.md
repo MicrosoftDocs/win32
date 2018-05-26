@@ -1,8 +1,11 @@
 ---
 title: IVMDVDDrive ImageFile property
 description: Retrieves the full path of the image file set for this device.
-ms.assetid: 'e7910d37-d3a5-4291-b374-aaa67db50f1b'
-keywords: ["ImageFile property Virtual PC", "ImageFile property Virtual PC , IVMDVDDrive interface", "IVMDVDDrive interface Virtual PC , ImageFile property"]
+ms.assetid: e7910d37-d3a5-4291-b374-aaa67db50f1b
+keywords:
+- ImageFile property Virtual PC
+- ImageFile property Virtual PC , IVMDVDDrive interface
+- IVMDVDDrive interface Virtual PC , ImageFile property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDrive::ImageFile property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the full path of the image file set for this device.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ImageFile(
-  [out, retval] BSTR *imagePath
+  [out, retval] BSTR *imagePath
 );
 ```
 
@@ -59,9 +67,9 @@ The full path to the image file.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMDVDDrive is defined as b96328f6-6732-437d-a00d-ffa47e43971c<br/>                |
@@ -75,9 +83,9 @@ The full path to the image file.
 [**IVMDVDDrive**](ivmdvddrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

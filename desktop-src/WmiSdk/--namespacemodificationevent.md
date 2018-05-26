@@ -1,13 +1,16 @@
 ---
-Description: 'Reports a namespace modification event, which is a type of intrinsic event that is generated when a namespace is modified.'
+Description: Reports a namespace modification event, which is a type of intrinsic event that is generated when a namespace is modified.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '168505d7-4677-4f41-935e-149f22de2cb5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 168505d7-4677-4f41-935e-149f22de2cb5
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_NamespaceModificationEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_NamespaceModificationEvent class
@@ -21,11 +24,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __NamespaceModificationEvent : __NamespaceOperationEvent
 {
-  uint8       SECURITY_DESCRIPTOR[];
+  uint8       SECURITY_DESCRIPTOR[];
   __Namespace PreviousNamespace;
-  uint8       SECURITY_DESCRIPTOR [];
+  uint8       SECURITY_DESCRIPTOR [];
   __Namespace TargetNamespace;
-  uint64      TIME_CREATED;
+  uint64      TIME_CREATED;
 };
 ```
 
@@ -81,7 +84,7 @@ Descriptor that the event provider uses to determine the users that can receive 
 > [!Note]  
 > A **NULL** access control list (ACL) in the [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) grants unlimited access to everyone all the time. For more information, see [Creating a Security Descriptor for a New Object](https://msdn.microsoft.com/library/windows/desktop/aa446595).
 
- 
+ 
 
 </dd> <dt>
 
@@ -127,8 +130,8 @@ Note that the [**Name**](--namespace.md) property of a **\_\_Namespace** instanc
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -143,9 +146,9 @@ Note that the [**Name**](--namespace.md) property of a **\_\_Namespace** instanc
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

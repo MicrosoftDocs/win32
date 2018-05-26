@@ -1,14 +1,20 @@
 ---
 title: Properties (Parent of Color) element
 description: Specifies the properties of the media node.
-ms.assetid: '179cf1c7-049a-44b1-86ae-78e07778bd69'
-keywords: ["Properties (Parent of Color) element Windows Movie Maker and DVD Maker"]
+ms.assetid: 179cf1c7-049a-44b1-86ae-78e07778bd69
+keywords:
+- Properties (Parent of Color) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Properties
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties (Parent of Color) element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -72,9 +78,9 @@ There are no child elements.
 [**Properties Element (Child of SceneButton)**](properties--child-of-scenebutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

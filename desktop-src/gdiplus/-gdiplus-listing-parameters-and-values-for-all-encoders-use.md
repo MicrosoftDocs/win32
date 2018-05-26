@@ -1,14 +1,19 @@
-﻿---
-Description: 'The following console application lists all the parameters supported by the various encoders installed on the computer.'
-ms.assetid: 'c80ad013-0b92-461f-8714-4b6d0cb6de0d'
+---
+Description: The following console application lists all the parameters supported by the various encoders installed on the computer.
+ms.assetid: c80ad013-0b92-461f-8714-4b6d0cb6de0d
 title: Listing Parameters and Values for All Encoders
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Listing Parameters and Values for All Encoders
 
-The following console application lists all the parameters supported by the various encoders installed on the computer. The main function calls [**GetImageEncoders**](-gdiplus-func-getimageencoders-numencoders-size-encoders-.md) to discover which encoders are available. For each available encoder, the main function calls the helper function ShowAllEncoderParameters.
+The following console application lists all the parameters supported by the various encoders installed on the computer. The main function calls [**GetImageEncoders**](/windows/win32/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders?branch=master) to discover which encoders are available. For each available encoder, the main function calls the helper function ShowAllEncoderParameters.
 
-The ShowAllEncoderParameters function calls the [**Image::GetEncoderParameterList**](-gdiplus-class-image-getencoderparameterlist-clsidencoder-size-buffer-.md) method to discover which parameters are supported by a given encoder. For each supported parameter, the function lists the category, data type, and number of values. The ShowAllEncoderParameters function relies on two helper functions: EncoderParameterCategoryFromGUID and ValueTypeFromULONG.
+The ShowAllEncoderParameters function calls the [**Image::GetEncoderParameterList**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlist?branch=master) method to discover which parameters are supported by a given encoder. For each supported parameter, the function lists the category, data type, and number of values. The ShowAllEncoderParameters function relies on two helper functions: EncoderParameterCategoryFromGUID and ValueTypeFromULONG.
 
 
 ```
@@ -232,7 +237,7 @@ You can draw the following conclusions by examining the preceding program output
 -   The JPEG encoder supports the Transformation, Quality, LuminanceTable, and ChrominanceTable parameter categories.
 -   The TIFF encoder supports the Compression, ColorDepth, and SaveFlag parameter categories.
 
-You can also see the number of acceptable values for each parameter category. For example, you can see that the ColorDepth parameter category (TIFF codec) has five values of type **ULONG**. The following code lists those five values. Assume that **pEncoderParameters** is a pointer to an [**EncoderParameters**](-gdiplus-class-encoderparameters-class.md) object that represents the TIFF encoder.
+You can also see the number of acceptable values for each parameter category. For example, you can see that the ColorDepth parameter category (TIFF codec) has five values of type **ULONG**. The following code lists those five values. Assume that **pEncoderParameters** is a pointer to an [**EncoderParameters**](/windows/win32/Gdiplusimaging/?branch=master) object that represents the TIFF encoder.
 
 
 ```
@@ -265,7 +270,7 @@ The allowable values for ColorDepth are
 
 
 > [!Note]  
-> In some cases, the values in an [**EncoderParameter**](-gdiplus-class-encoderparameter-class.md) object are the numeric values of elements of the [**EncoderValue**](-gdiplus-enum-encodervalue.md) enumeration. However, the numbers in the preceding list do not relate to the **EncoderValue** enumeration. The numbers mean 1 bit per pixel, 2 bits per pixel, and so on.
+> In some cases, the values in an [**EncoderParameter**](/windows/win32/Gdiplusimaging/?branch=master) object are the numeric values of elements of the [**EncoderValue**](/windows/win32/Gdiplusenums/ne-gdiplusenums-encodervalue?branch=master) enumeration. However, the numbers in the preceding list do not relate to the **EncoderValue** enumeration. The numbers mean 1 bit per pixel, 2 bits per pixel, and so on.
 
  
 

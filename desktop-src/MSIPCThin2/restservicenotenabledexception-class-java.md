@@ -4,17 +4,21 @@ description: Thrown if the user has an Office 365 account, but the company has n
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '66bcb126-5caa-4f32-9ce3-17e6de24bf1b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 66bcb126-5caa-4f32-9ce3-17e6de24bf1b
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["RestServiceNotEnabledException class"]
+keywords:
+- RestServiceNotEnabledException class
 topic_type:
 - apiref
 api_name:
 - RestServiceNotEnabledException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RestServiceNotEnabledException class
@@ -32,7 +36,7 @@ public class RestServiceNotEnabledException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -43,7 +47,7 @@ public class RestServiceNotEnabledException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -55,7 +59,7 @@ public class RestServiceNotEnabledException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -83,9 +87,9 @@ Members of this class are not guaranteed to be thread safe.
 [**ProtectionException**](protectionexception-class-java.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

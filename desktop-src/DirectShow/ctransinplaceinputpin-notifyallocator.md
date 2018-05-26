@@ -1,20 +1,25 @@
 ---
-Description: 'The NotifyAllocator method specifies an allocator for the connection. This method implements the IMemInputPin::NotifyAllocator method.'
-ms.assetid: 'adc1c5b6-99da-4140-b644-7b98f6b8bad4'
-title: 'CTransInPlaceInputPin.NotifyAllocator method'
+Description: The NotifyAllocator method specifies an allocator for the connection. This method implements the IMemInputPinNotifyAllocator method.
+ms.assetid: adc1c5b6-99da-4140-b644-7b98f6b8bad4
+title: CTransInPlaceInputPin.NotifyAllocator method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceInputPin.NotifyAllocator method
 
-The `NotifyAllocator` method specifies an allocator for the connection. This method implements the [**IMemInputPin::NotifyAllocator**](imeminputpin-notifyallocator.md) method.
+The `NotifyAllocator` method specifies an allocator for the connection. This method implements the [**IMemInputPin::NotifyAllocator**](/windows/win32/Strmif/nf-strmif-imeminputpin-notifyallocator?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT NotifyAllocator(
-   IMemAllocator *pAllocator,
-   BOOL          bReadOnly
+   IMemAllocator *pAllocator,
+   BOOL          bReadOnly
 );
 ```
 
@@ -27,7 +32,7 @@ HRESULT NotifyAllocator(
 *pAllocator* 
 </dt> <dd>
 
-Pointer to the allocator's [**IMemAllocator**](imemallocator.md) interface.
+Pointer to the allocator's [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface.
 
 </dd> <dt>
 
@@ -52,7 +57,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -83,9 +88,9 @@ The previous case has the following exception:
 [**CTransInPlaceInputPin Class**](ctransinplaceinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

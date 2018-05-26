@@ -1,8 +1,17 @@
 ---
 title: Functions
 description: The topics in this section provide the reference specifications for Touch Hit Testing functions.
-ms.assetid: 'C7275A12-4F76-485D-896F-3CCB8CE92F8E'
-keywords: ["user interaction", "input", "pointer", "touch"]
+ms.assetid: C7275A12-4F76-485D-896F-3CCB8CE92F8E
+keywords:
+- user interaction
+- input
+- pointer
+- touch
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Functions
@@ -22,7 +31,7 @@ The topics in this section provide the reference specifications for [Touch Hit T
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +40,9 @@ The topics in this section provide the reference specifications for [Touch Hit T
 [Touch Hit Testing Reference](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

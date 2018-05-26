@@ -1,7 +1,12 @@
 ---
-Description: 'This glossary defines some of the terms found in the documentation for the fax service.'
-ms.assetid: 'ede1c31f-e53a-4ddc-ba25-6fcadadd513a'
+Description: This glossary defines some of the terms found in the documentation for the fax service.
+ms.assetid: ede1c31f-e53a-4ddc-ba25-6fcadadd513a
 title: Fax Service Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Glossary

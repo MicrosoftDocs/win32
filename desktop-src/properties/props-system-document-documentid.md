@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '1aa50e38-fa21-4aa1-8ac1-ca8625641423'
-title: 'System.Document.DocumentID'
+Description: .
+ms.assetid: 1aa50e38-fa21-4aa1-8ac1-ca8625641423
+title: System.Document.DocumentID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.DocumentID

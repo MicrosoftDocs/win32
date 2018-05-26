@@ -2,13 +2,16 @@
 title: Remove method of the Ps\_DnsServerClientSubnet class
 description: Deletes a client subnet record from the client subnet database on the DNS server.
 audience: developer
-ms.assetid: 'AA49AED3-6A7C-4FB8-BC7D-18E3EC2FB524'
-ms.prod: 'windows-server-dev'
+ms.assetid: AA49AED3-6A7C-4FB8-BC7D-18E3EC2FB524
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, Ps_DnsServerClientSubnet class", "Ps_DnsServerClientSubnet class, Remove method"]
+keywords:
+- Remove method
+- Remove method, Ps_DnsServerClientSubnet class
+- Ps_DnsServerClientSubnet class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the Ps\_DnsServerClientSubnet class
@@ -28,11 +34,11 @@ Deletes a client subnet record from the client subnet database on the DNS server
 
 ```mof
 uint32 Remove(
-  [in]  string                Name,
-  [in]  boolean               PassThru,
-  [in]  boolean               Force,
-  [in]  string                ComputerName,
-  [out] DnsServerClientSubnet cmdletOutput
+  [in]  string                Name,
+  [in]  boolean               PassThru,
+  [in]  boolean               Force,
+  [in]  string                ComputerName,
+  [out] DnsServerClientSubnet cmdletOutput
 );
 ```
 
@@ -88,7 +94,7 @@ If this operation succeeds, this method returns "0"; otherwise, it returns a WMI
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -102,9 +108,9 @@ If this operation succeeds, this method returns "0"; otherwise, it returns a WMI
 [**Ps\_DnsServerClientSubnet**](ps-dnsserverclientsubnet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create a UV atlas for a mesh.'
-ms.assetid: 'c46f3e47-8e72-435c-875d-cccfa4b893a2'
+---
+Description: Create a UV atlas for a mesh.
+ms.assetid: c46f3e47-8e72-435c-875d-cccfa4b893a2
 title: D3DXUVAtlasPartition function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXUVAtlasPartition function

@@ -2,13 +2,19 @@
 title: /no\_default\_epv switch
 description: The /no\_default\_epv switch directs the MIDL compiler not to generate a default entry-point vector (epv). The use of this attribute is not recommended.
 ms.assetid: 160b5fd3-cd9c-4f51-8c35-6cddab120021
-keywords: ["/no_default_epv switch MIDL"]
+keywords:
+- /no_default_epv switch MIDL
 topic_type:
 - apiref
 api_name:
 - /no_default_epv
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /no\_default\_epv switch

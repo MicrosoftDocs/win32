@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDeviceApp ProcessMeterResponse method
 description: The ProcessMeterResponse method resets some or all of the metering counts on a device, after data from the device has been sent to and processed by the server.
-ms.assetid: 'bafc4bb2-aa3c-4b2a-a818-1a78577cefc5'
-keywords: ["ProcessMeterResponse method windows Media Device Manager", "ProcessMeterResponse method windows Media Device Manager , IWMDRMDeviceApp interface", "IWMDRMDeviceApp interface windows Media Device Manager , ProcessMeterResponse method"]
+ms.assetid: bafc4bb2-aa3c-4b2a-a818-1a78577cefc5
+keywords:
+- ProcessMeterResponse method windows Media Device Manager
+- ProcessMeterResponse method windows Media Device Manager , IWMDRMDeviceApp interface
+- IWMDRMDeviceApp interface windows Media Device Manager , ProcessMeterResponse method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDeviceApp::ProcessMeterResponse method
@@ -23,10 +31,10 @@ The **ProcessMeterResponse** method resets some or all of the metering counts on
 
 ```C++
 HRESULT ProcessMeterResponse(
-  [in]  IWMDMDevice *pDevice,
-  [in]  BYTE        *pbResponse,
-  [in]  DWORD       cbResponse,
-  [out] DWORD       *pdwFlags
+  [in]  IWMDMDevice *pDevice,
+  [in]  BYTE        *pbResponse,
+  [in]  DWORD       cbResponse,
+  [out] DWORD       *pdwFlags
 );
 ```
 
@@ -39,7 +47,7 @@ HRESULT ProcessMeterResponse(
 *pDevice* \[in\]
 </dt> <dd>
 
-Pointer to an [**IWMDMDevice**](iwmdmdevice.md) object.
+Pointer to an [**IWMDMDevice**](/windows/win32/mswmdm/nn-mswmdm-iwmdmdevice?branch=master) object.
 
 </dd> <dt>
 
@@ -71,7 +79,7 @@ A **DWORD** from the following table indicating whether there is more metering d
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -87,11 +95,11 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 | <dl> <dt>**DRM\_E\_INVALIDARG**</dt> </dl>                | One or more arguments are not valid.<br/>                               |
 | <dl> <dt>**Errors from the device**</dt> </dl>            | Any of a number of device errors.<br/>                                  |
 | <dl> <dt>**Errors from the DRM Client**</dt> </dl>        | Any of a number of internal DRM client errors.<br/>                     |
-| <dl> <dt>**NS\_E\_DEVICE\_NOT\_WMDRM\_DEVICE**</dt> </dl> | The specified device is not a Windows Media DRM–compatible device.<br/> |
+| <dl> <dt>**NS\_E\_DEVICE\_NOT\_WMDRM\_DEVICE**</dt> </dl> | The specified device is not a Windows Media DRM compatible device.<br/> |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -115,15 +123,15 @@ More information on metering, including code examples, can be found in the white
 [**Handling Protected Content in the Application**](handling-protected-content-in-the-application.md)
 </dt> <dt>
 
-[**IWMDMDevice Interface**](iwmdmdevice.md)
+[**IWMDMDevice Interface**](/windows/win32/mswmdm/nn-mswmdm-iwmdmdevice?branch=master)
 </dt> <dt>
 
 [**IWMDRMDeviceApp Interface**](iwmdrmdeviceapp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

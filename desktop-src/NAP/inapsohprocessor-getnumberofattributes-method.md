@@ -1,8 +1,11 @@
 ---
 title: INapSoHProcessor GetNumberOfAttributes method
 description: Retrieves the total number of attributes in the SoH.
-ms.assetid: 'ee0b1857-65a7-47bb-ae91-c939344a24d0'
-keywords: ["GetNumberOfAttributes method NAP", "GetNumberOfAttributes method NAP , INapSoHProcessor interface", "INapSoHProcessor interface NAP , GetNumberOfAttributes method"]
+ms.assetid: ee0b1857-65a7-47bb-ae91-c939344a24d0
+keywords:
+- GetNumberOfAttributes method NAP
+- GetNumberOfAttributes method NAP , INapSoHProcessor interface
+- INapSoHProcessor interface NAP , GetNumberOfAttributes method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qutil.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSoHProcessor::GetNumberOfAttributes method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSoHProcessor::GetNumberOfAttributes** method retrieves the total number of attributes in the SoH.
 
@@ -27,7 +35,7 @@ The **INapSoHProcessor::GetNumberOfAttributes** method retrieves the total numbe
 
 ```C++
 HRESULT GetNumberOfAttributes(
-  [out] UINT16 *attributeCount
+  [out] UINT16 *attributeCount
 );
 ```
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Other COM-specific error codes also may be returned.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>NapProtocol.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapProtocol.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl>       |
@@ -81,9 +89,9 @@ Other COM-specific error codes also may be returned.
 [**INapSoHProcessor**](inapsohprocessor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

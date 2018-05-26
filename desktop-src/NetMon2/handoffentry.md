@@ -1,7 +1,12 @@
 ---
-Description: 'The HANDOFFENTRY structure defines a specific protocol entry in a HANDOFFTABLE structure.'
-ms.assetid: '85793326-3007-4dd9-9325-3447d6e09883'
+Description: The HANDOFFENTRY structure defines a specific protocol entry in a HANDOFFTABLE structure.
+ms.assetid: 85793326-3007-4dd9-9325-3447d6e09883
 title: HANDOFFENTRY structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HANDOFFENTRY structure
@@ -15,10 +20,10 @@ This structure is filled in by Network Monitor based on information in a user su
 
 ```C++
 typedef struct _SESSIONSTATS {
-  DWORD      hoe_sig;
-  DWORD      hoe_ProtIdentNumber;
+  DWORD      hoe_sig;
+  DWORD      hoe_ProtIdentNumber;
   HPPROTOCOL hoe_ProtocolHandle;
-  DWORD      hoe_ProtocolData;
+  DWORD      hoe_ProtocolData;
 } HANDOFFENTRY, *LPHANDOFFENTRY;
 ```
 
@@ -66,8 +71,8 @@ This structure is filled in by Network Monitor when Network Monitor creates a ha
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -79,9 +84,9 @@ This structure is filled in by Network Monitor when Network Monitor creates a ha
 [HANDOFFTABLE](handofftable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

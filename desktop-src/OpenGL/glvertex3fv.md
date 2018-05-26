@@ -1,8 +1,9 @@
 ---
 title: glVertex3fv function
 description: Specifies a vertex.
-ms.assetid: 'd8790ffe-73b1-49d8-a7f5-2117177573ac'
-keywords: ["glVertex3fv function OpenGL"]
+ms.assetid: d8790ffe-73b1-49d8-a7f5-2117177573ac
+keywords:
+- glVertex3fv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glVertex3fv function
@@ -22,7 +28,7 @@ Specifies a vertex.
 
 ```C++
 void WINAPI glVertex3fv(
-   const GLfloat *v
+   const GLfloat *v
 );
 ```
 
@@ -49,8 +55,8 @@ This function does not return a value.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -94,9 +100,9 @@ This function does not return a value.
 [**glTexCoord**](gltexcoord-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

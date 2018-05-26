@@ -1,7 +1,12 @@
-﻿---
-Description: 'Registers the Shell Dynamic Data Exchange (DDE) services in the current process, notifying the system that the current process wishes to host DDE objects.'
-ms.assetid: 'd7f65d6a-a697-475b-a739-c7950b7f4d5d'
+---
+Description: Registers the Shell Dynamic Data Exchange (DDE) services in the current process, notifying the system that the current process wishes to host DDE objects.
+ms.assetid: d7f65d6a-a697-475b-a739-c7950b7f4d5d
 title: ShellDDEInit function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellDDEInit function
@@ -38,7 +43,7 @@ This function does not return a value.
 
 ## Remarks
 
-The process that calls this function acts as the Shell and is used to view the content of folders opened with the [**ShellExecute**](shellexecute.md) 'open' verb.
+The process that calls this function acts as the Shell and is used to view the content of folders opened with the [**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master) 'open' verb.
 
 This function does not have an associated header or library file so it must be called by ordinal value. Call [**LoadLibrary**](base.loadlibrary) with the DLL name (Shdocvw.dll) to obtain a module handle. Then call [**GetProcAddress**](base.getprocaddress) with that module handle and the function ordinal number 118 to get the address of the function.
 

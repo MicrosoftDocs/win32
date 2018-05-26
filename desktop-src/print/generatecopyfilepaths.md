@@ -1,7 +1,12 @@
-﻿---
-Description: 'A Point and Print DLL''s GenerateCopyFilePaths function is used for modifying the source and destination paths used by print spoolers when they copy print queue-associated files to a print client.'
-ms.assetid: '61274493-1ec4-483b-85fa-f6087cf0631e'
+---
+Description: A Point and Print DLLs GenerateCopyFilePaths function is used for modifying the source and destination paths used by print spoolers when they copy print queue-associated files to a print client.
+ms.assetid: 61274493-1ec4-483b-85fa-f6087cf0631e
 title: GenerateCopyFilePaths function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GenerateCopyFilePaths function

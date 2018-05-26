@@ -1,8 +1,19 @@
 ---
 title: Using the Plug-in Wizard with Visual Studio
 description: Using the Plug-in Wizard with Visual Studio
-ms.assetid: '5d5521b7-5cbc-4259-92b1-a7250853fa2e'
-keywords: ["Windows Media Player plug-ins,Visual Studio", "plug-ins,Visual Studio", "building plug-ins,Visual Studio", "Windows Media Player Plug-in Wizard,Visual Studio", "Visual Studio,Windows Media Player Plug-in Wizard", "plug-in wizard"]
+ms.assetid: 5d5521b7-5cbc-4259-92b1-a7250853fa2e
+keywords:
+- Windows Media Player plug-ins,Visual Studio
+- plug-ins,Visual Studio
+- building plug-ins,Visual Studio
+- Windows Media Player Plug-in Wizard,Visual Studio
+- Visual Studio,Windows Media Player Plug-in Wizard
+- plug-in wizard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Plug-in Wizard with Visual Studio

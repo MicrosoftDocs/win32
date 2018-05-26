@@ -4,11 +4,14 @@ description: The Text property returns the text for an optional button.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '72c82451-df3a-46b2-bc96-37ef61b7efad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 72c82451-df3a-46b2-bc96-37ef61b7efad
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Text property MMC", "Text property MMC , MMCListPadInfo class", "MMCListPadInfo class MMC , Text property"]
+keywords:
+- Text property MMC
+- Text property MMC , MMCListPadInfo class
+- MMCListPadInfo class MMC , Text property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCListPadInfo.Text property
@@ -53,9 +59,9 @@ In the MMC standard list view template, the text is placed on a button that is d
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RemoveByCountryAndArea method removes an outbound routing rule (FaxOutboundRoutingRule object) from the collection using the routing rule''s country/region code and area code.'
-ms.assetid: '2394411f-c31a-4a5b-86c8-5003007dec95'
-title: 'FaxOutboundRoutingRules.RemoveByCountryAndArea method'
+---
+Description: The RemoveByCountryAndArea method removes an outbound routing rule (FaxOutboundRoutingRule object) from the collection using the routing rules country/region code and area code.
+ms.assetid: 2394411f-c31a-4a5b-86c8-5003007dec95
+title: FaxOutboundRoutingRules.RemoveByCountryAndArea method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingRules.RemoveByCountryAndArea method
@@ -29,7 +34,7 @@ FaxOutboundRoutingRules.RemoveByCountryAndArea( _
 
 Type: **Long**
 
-A **Long** value that specifies the country/region code of the outbound routing rule to remove from the collection. Specifying [**frrcANY\_CODE**](-mfax-fax-routing-rule-code-enum.md) will remove a rule that applies to all country/region codes.
+A **Long** value that specifies the country/region code of the outbound routing rule to remove from the collection. Specifying [**frrcANY\_CODE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_routing_rule_code_enum?branch=master) will remove a rule that applies to all country/region codes.
 
 </dd> <dt>
 
@@ -38,13 +43,13 @@ A **Long** value that specifies the country/region code of the outbound routing 
 
 Type: **Long**
 
-A **Long** value that specifies the area code of the outbound routing rule to remove from the collection. Specifying [**frrcANY\_CODE**](-mfax-fax-routing-rule-code-enum.md) will remove a rule that applies to all area codes within the specified country/region code.
+A **Long** value that specifies the area code of the outbound routing rule to remove from the collection. Specifying [**frrcANY\_CODE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_routing_rule_code_enum?branch=master) will remove a rule that applies to all area codes within the specified country/region code.
 
 </dd> </dl>
 
 ## Remarks
 
-You cannot set both *lCountryCode* and *lAreaCode* to [**frrcANY\_CODE**](-mfax-fax-routing-rule-code-enum.md) because this is equivalent to specifying the default outbound routing rule, which cannot be removed.
+You cannot set both *lCountryCode* and *lAreaCode* to [**frrcANY\_CODE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_routing_rule_code_enum?branch=master) because this is equivalent to specifying the default outbound routing rule, which cannot be removed.
 
 ## Requirements
 
@@ -69,7 +74,7 @@ You cannot set both *lCountryCode* and *lAreaCode* to [**frrcANY\_CODE**](-mfax-
 [**FaxOutboundRoutingRules**](-mfax-faxoutboundroutingrules.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingRules**](-mfax-faxoutboundroutingrules-cpp.md)
+[**IFaxOutboundRoutingRules**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutingrules?branch=master)
 </dt> </dl>
 
  

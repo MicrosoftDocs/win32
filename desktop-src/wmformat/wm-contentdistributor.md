@@ -1,14 +1,20 @@
 ---
 title: WM/ContentDistributor
 description: The WM/ContentDistributor attribute contains the name of the distributor of the file.
-ms.assetid: '813574e0-e6e1-4acd-b9ca-faab41db00a5'
-keywords: ["WM/ContentDistributor windows Media Format"]
+ms.assetid: 813574e0-e6e1-4acd-b9ca-faab41db00a5
+keywords:
+- WM/ContentDistributor windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/ContentDistributor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ContentDistributor

@@ -1,8 +1,16 @@
 ---
 title: Data Transfer and Connection Close
 description: Once a connection is established, the Windows Sockets send and recv function calls translate into TinyTP send and receive functions.
-ms.assetid: '1430ec5c-7ce0-416d-a648-72c2c62dd5cd'
-keywords: ["programming IrDA , data transfer and connection close", "data transfer IrDA", "connection close IrDA"]
+ms.assetid: 1430ec5c-7ce0-416d-a648-72c2c62dd5cd
+keywords:
+- programming IrDA , data transfer and connection close
+- data transfer IrDA
+- connection close IrDA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Transfer and Connection Close

@@ -4,17 +4,22 @@ description: Backward link for ms-DS-AuthenticatedAt-DC. Identifies which users 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd3f4d53d-7c44-4d1c-b6ec-f504057c6e8d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d3f4d53d-7c44-4d1c-b6ec-f504057c6e8d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-AuthenticatedTo-Accountlist attribute AD Schema", "msDS-AuthenticatedToAccountlist attribute AD Schema"]
+keywords:
+- ms-DS-AuthenticatedTo-Accountlist attribute AD Schema
+- msDS-AuthenticatedToAccountlist attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-AuthenticatedTo-Accountlist
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-AuthenticatedTo-Accountlist attribute
@@ -38,9 +43,9 @@ Backward link for [**ms-DS-AuthenticatedAt-DC**](a-msds-authenticatedatdc.md). I
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Backward link for [**ms-DS-AuthenticatedAt-DC**](a-msds-authenticatedatdc.md). I
 
 
 
- 
+ 
 
- 
+ 
 
 
 

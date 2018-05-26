@@ -1,14 +1,20 @@
 ---
 title: ControlGroup element
 description: Represents a group of controls in a SizeDefinition layout template.
-ms.assetid: '688f3fa5-f305-4554-b16a-590983cf23b9'
-keywords: ["ControlGroup element Windows Ribbon"]
+ms.assetid: 688f3fa5-f305-4554-b16a-590983cf23b9
+keywords:
+- ControlGroup element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ControlGroup
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ControlGroup element
@@ -201,7 +207,7 @@ The following code example demonstrates the basic markup for a custom four-butto
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -213,9 +219,9 @@ The following code example demonstrates the basic markup for a custom four-butto
 [Customizing a Ribbon Through Size Definitions and Scaling Policies](windowsribbon-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

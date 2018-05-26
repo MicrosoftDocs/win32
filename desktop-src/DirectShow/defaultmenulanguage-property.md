@@ -1,7 +1,12 @@
 ---
-Description: 'The DefaultMenuLanguage property retrieves the default menu language.'
-ms.assetid: '103f44f8-d9e3-4f88-a882-7bf3195a8546'
+Description: The DefaultMenuLanguage property retrieves the default menu language.
+ms.assetid: 103f44f8-d9e3-4f88-a882-7bf3195a8546
 title: DefaultMenuLanguage Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefaultMenuLanguage Property

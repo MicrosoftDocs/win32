@@ -1,8 +1,11 @@
 ---
 title: IWMDRMSecurity GetSecurityVersion method
 description: The GetSecurityVersion method retrieves the version of the DRM subsystem on the client computer.
-ms.assetid: 'ec97dec8-61ba-4424-b5eb-2e6885cc1f48'
-keywords: ["GetSecurityVersion method windows Media Format", "GetSecurityVersion method windows Media Format , IWMDRMSecurity interface", "IWMDRMSecurity interface windows Media Format , GetSecurityVersion method"]
+ms.assetid: ec97dec8-61ba-4424-b5eb-2e6885cc1f48
+keywords:
+- GetSecurityVersion method windows Media Format
+- GetSecurityVersion method windows Media Format , IWMDRMSecurity interface
+- IWMDRMSecurity interface windows Media Format , GetSecurityVersion method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMSecurity::GetSecurityVersion method
@@ -23,7 +31,7 @@ The **GetSecurityVersion** method retrieves the version of the DRM subsystem on 
 
 ```C++
 HRESULT GetSecurityVersion(
-  [out] BSTR *pbstrVersion
+  [out] BSTR *pbstrVersion
 );
 ```
 
@@ -52,7 +60,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,9 +84,9 @@ The version number is expressed as a string consisting of four numbers separated
 [**IWMDRMSecurity Interface**](iwmdrmsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

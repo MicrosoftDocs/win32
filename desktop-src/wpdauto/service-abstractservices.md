@@ -1,14 +1,22 @@
 ---
 title: Service.AbstractServices property
 description: The AbstractServices property gets a collection of the abstract service GUIDs that this service implements.
-ms.assetid: 'cab08bc9-41cb-4405-9634-ea0b2f16eb85'
-keywords: ["AbstractServices property WPD Automation", "AbstractServices property WPD Automation , Service object", "Service object WPD Automation , AbstractServices property"]
+ms.assetid: cab08bc9-41cb-4405-9634-ea0b2f16eb85
+keywords:
+- AbstractServices property WPD Automation
+- AbstractServices property WPD Automation , Service object
+- Service object WPD Automation , AbstractServices property
 topic_type:
 - apiref
 api_name:
 - Service.AbstractServices
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.AbstractServices property
@@ -36,8 +44,8 @@ A read-only **collection** of service GUIDs.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -48,9 +56,9 @@ A read-only **collection** of service GUIDs.
 [**Service Object**](service-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

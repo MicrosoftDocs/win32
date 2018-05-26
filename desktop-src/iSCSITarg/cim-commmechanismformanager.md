@@ -4,13 +4,15 @@ description: An association between an ObjectManager and an ObjectManagerCommuni
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '048c7988-6bc0-4993-8865-e01b3563d590'
-ms.prod: 'windows-server-dev'
+ms.assetid: 048c7988-6bc0-4993-8865-e01b3563d590
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_CommMechanismForManager class iSCSI Software Target API", "CIM_CommMechanismForManager class iSCSI Software Target API , described"]
+keywords:
+- CIM_CommMechanismForManager class iSCSI Software Target API
+- CIM_CommMechanismForManager class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_CommMechanismForManager class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Version("2.6.0"), UMLPackagePath("CIM::Interop")]
 class CIM_CommMechanismForManager : CIM_ServiceAccessBySAP
 {
-  CIM_ObjectManager                       REF Antecedent;
+  CIM_ObjectManager                       REF Antecedent;
   CIM_ObjectManagerCommunicationMechanism REF Dependent;
 };
 ```
@@ -91,7 +96,7 @@ The encoding/protocol/set of operations that may be used to communicate with the
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -105,9 +110,9 @@ The encoding/protocol/set of operations that may be used to communicate with the
 [**CIM\_ServiceAccessBySAP**](cim-serviceaccessbysap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

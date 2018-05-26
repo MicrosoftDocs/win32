@@ -1,7 +1,12 @@
 ---
-Description: 'The COM+ events service is used to manage the delivery of events from publishers to subscribers.'
-ms.assetid: '0945163b-1276-47f6-ae7f-9d932a1b586d'
+Description: The COM+ events service is used to manage the delivery of events from publishers to subscribers.
+ms.assetid: 0945163b-1276-47f6-ae7f-9d932a1b586d
 title: Using COM+ Events with COM+ Queued Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using COM+ Events with COM+ Queued Components

@@ -1,8 +1,17 @@
 ---
 title: Performance and Memory Consumption Under WOW64
 description: Performance and memory consumption under WOW64 are determined by the following factors.
-ms.assetid: '77759840-7b1a-4956-a038-d6374b6ec354'
-keywords: ["performance under WOW64 64-bit Windows Programming", "memory consumption under WOW64 64-bit Windows Programming", "WOW64 64-bit Windows Programming , performance", "WOW64 64-bit Windows Programming , memory consumption"]
+ms.assetid: 77759840-7b1a-4956-a038-d6374b6ec354
+keywords:
+- performance under WOW64 64-bit Windows Programming
+- memory consumption under WOW64 64-bit Windows Programming
+- WOW64 64-bit Windows Programming , performance
+- WOW64 64-bit Windows Programming , memory consumption
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance and Memory Consumption Under WOW64

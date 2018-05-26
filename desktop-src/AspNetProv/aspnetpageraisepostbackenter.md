@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the PageRaisePostbackEnter event.'
+---
+Description: The event type class for the PageRaisePostbackEnter event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7694559f-d414-4326-8a1d-f02c8f527db1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7694559f-d414-4326-8a1d-f02c8f527db1
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetPageRaisePostbackEnter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetPageRaisePostbackEnter class

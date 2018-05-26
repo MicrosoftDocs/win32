@@ -1,7 +1,12 @@
 ---
 title: IMAPSvcInstance
 description: IMAPSvcInstance
-ms.assetid: '1e334ad1-7bfe-4061-8856-e452f27f2cff'
+ms.assetid: 1e334ad1-7bfe-4061-8856-e452f27f2cff
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAPSvcInstance

@@ -1,8 +1,17 @@
 ---
 title: DRM Individualization
 description: DRM Individualization
-ms.assetid: '8f129bc1-3db9-4b41-9d60-daff037237ff'
-keywords: ["Windows Media Format SDK,DRM individualization", "digital rights management (DRM),individualization", "DRM (digital rights management),individualization", "individualization of DRM"]
+ms.assetid: 8f129bc1-3db9-4b41-9d60-daff037237ff
+keywords:
+- Windows Media Format SDK,DRM individualization
+- digital rights management (DRM),individualization
+- DRM (digital rights management),individualization
+- individualization of DRM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM Individualization

@@ -1,7 +1,12 @@
 ---
-Description: 'The PF\_FOLLOWSET structure defines the protocols that may precede or follow a protocol.'
-ms.assetid: 'ef444af9-edae-4547-9548-8a682c279f08'
-title: 'PF\_FOLLOWSET structure'
+Description: The PF\_FOLLOWSET structure defines the protocols that may precede or follow a protocol.
+ms.assetid: ef444af9-edae-4547-9548-8a682c279f08
+title: PF\_FOLLOWSET structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PF\_FOLLOWSET structure
@@ -13,7 +18,7 @@ The **PF\_FOLLOWSET** structure defines the protocols that may precede or follow
 
 ```C++
 typedef struct _PF_FOLLOWSET {
-  DWORD          nEntries;
+  DWORD          nEntries;
   PF_FOLLOWENTRY Entry[];
 } PF_FOLLOWSET, *PPF_FOLLOWSET;
 ```
@@ -50,8 +55,8 @@ Network Monitor uses the information in the **PF\_FOLLOWSET** structure to updat
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -66,9 +71,9 @@ Network Monitor uses the information in the **PF\_FOLLOWSET** structure to updat
 [PF\_PARSERINFO](pf-parserinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the data for one of the object''s members or the data for all members. Deprecated.'
-ms.assetid: '2a227705-371e-41f1-af5d-20e652cd07f6'
-title: 'IDirectXFileData::GetData method'
+---
+Description: Retrieves the data for one of the objects members or the data for all members. Deprecated.
+ms.assetid: 2a227705-371e-41f1-af5d-20e652cd07f6
+title: IDirectXFileDataGetData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileData::GetData method

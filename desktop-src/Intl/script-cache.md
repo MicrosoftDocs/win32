@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines a Uniscribe font metric cache.'
-ms.assetid: '56a98529-6ae9-4b71-bd7d-cf056a1e3683'
-title: 'SCRIPT\_CACHE'
+---
+Description: Defines a Uniscribe font metric cache.
+ms.assetid: 56a98529-6ae9-4b71-bd7d-cf056a1e3683
+title: SCRIPT\_CACHE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCRIPT\_CACHE

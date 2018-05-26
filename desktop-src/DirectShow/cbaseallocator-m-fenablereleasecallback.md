@@ -1,7 +1,12 @@
 ---
-Description: 'Flag indicating whether the release callback is enabled. This flag is set in the constructor method. If the value is FALSE, calling the CBaseAllocator::SetNotify method causes an assertion to fire (in debug builds).'
-ms.assetid: 'cc9adc7c-ec44-41e7-875a-b3e553120804'
-title: 'CBaseAllocator::m\_fEnableReleaseCallback member'
+Description: Flag indicating whether the release callback is enabled. This flag is set in the constructor method. If the value is FALSE, calling the CBaseAllocatorSetNotify method causes an assertion to fire (in debug builds).
+ms.assetid: cc9adc7c-ec44-41e7-875a-b3e553120804
+title: CBaseAllocatorm\_fEnableReleaseCallback member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator::m\_fEnableReleaseCallback member
@@ -35,9 +40,9 @@ BOOL m_fEnableReleaseCallback;
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

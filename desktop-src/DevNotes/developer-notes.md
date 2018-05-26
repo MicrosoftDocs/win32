@@ -1,7 +1,12 @@
 ---
-Description: 'This documentation set describes items that may be of interest to developers.'
-ms.assetid: 'e320733e-a9ec-4ead-9601-c736e6288c7a'
+Description: This documentation set describes items that may be of interest to developers.
+ms.assetid: e320733e-a9ec-4ead-9601-c736e6288c7a
 title: Developer Notes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developer Notes

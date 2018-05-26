@@ -1,8 +1,19 @@
 ---
 title: Registering the Service Provider
 description: Registering the Service Provider
-ms.assetid: '556d6519-bc24-446b-a360-e3d83b40d541'
-keywords: ["Windows Media Device Manager,registering service providers", "Device Manager,registering service providers", "programming guide,registering service providers", "service providers,registering service providers", "creating service providers,registering service providers", "registering service providers"]
+ms.assetid: 556d6519-bc24-446b-a360-e3d83b40d541
+keywords:
+- Windows Media Device Manager,registering service providers
+- Device Manager,registering service providers
+- programming guide,registering service providers
+- service providers,registering service providers
+- creating service providers,registering service providers
+- registering service providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering the Service Provider

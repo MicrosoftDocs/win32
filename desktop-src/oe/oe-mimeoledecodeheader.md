@@ -1,8 +1,9 @@
 ---
 title: MimeOleDecodeHeader function
 description: Do not use. Decodes a message header string.
-ms.assetid: '54c71463-7004-4bfd-82d3-73dc2553a6eb'
-keywords: ["MimeOleDecodeHeader function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 54c71463-7004-4bfd-82d3-73dc2553a6eb
+keywords:
+- MimeOleDecodeHeader function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleDecodeHeader function
@@ -22,10 +28,10 @@ Do not use. Decodes a message header string.
 
 ```C++
 HRESULT MimeOleDecodeHeader(
-  _In_    HCHARSET      hCharset,
-  _In_    LPCSTR        pszData,
-  _Out_   LPPROPVARIANT pDecoded,
-  _Inout_ LPRFC1522INFO pRfc1522Info
+  _In_    HCHARSET      hCharset,
+  _In_    LPCSTR        pszData,
+  _Out_   LPPROPVARIANT pDecoded,
+  _Inout_ LPRFC1522INFO pRfc1522Info
 );
 ```
 
@@ -90,7 +96,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -102,8 +108,8 @@ See [**DecodeHeader**](oe-imimeinternational-decodeheader.md) for more informati
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -111,9 +117,9 @@ See [**DecodeHeader**](oe-imimeinternational-decodeheader.md) for more informati
 
 
 
- 
+ 
 
- 
+ 
 
 
 

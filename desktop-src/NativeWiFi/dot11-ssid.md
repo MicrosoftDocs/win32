@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the SSID of an interface.'
-ms.assetid: 'f2b15ef9-99ee-4505-8575-224112024d7a'
-title: 'DOT11\_SSID structure'
+---
+Description: Contains the SSID of an interface.
+ms.assetid: f2b15ef9-99ee-4505-8575-224112024d7a
+title: DOT11\_SSID structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOT11\_SSID structure
@@ -61,13 +66,13 @@ A wildcard SSID is an SSID whose **uSSIDLength** member is set to zero. When the
 
 <dl> <dt>
 
-[**WLAN\_CONNECTION\_PARAMETERS**](wlan-connection-parameters.md)
+[**WLAN\_CONNECTION\_PARAMETERS**](/windows/win32/wlanapi/ns-wlanapi-_wlan_connection_parameters?branch=master)
 </dt> <dt>
 
-[**WlanGetNetworkBssList**](wlangetnetworkbsslist.md)
+[**WlanGetNetworkBssList**](/windows/win32/Wlanapi/nf-wlanapi-wlangetnetworkbsslist?branch=master)
 </dt> <dt>
 
-[**WlanScan**](wlanscan.md)
+[**WlanScan**](/windows/win32/wlanapi/nf-wlanapi-wlanscan?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'The names of the attachments in a message.'
-ms.assetid: 'c299ffa4-9bf9-4e05-8395-399d68cc6715'
-title: 'System.Message.AttachmentNames'
+Description: The names of the attachments in a message.
+ms.assetid: c299ffa4-9bf9-4e05-8395-399d68cc6715
+title: System.Message.AttachmentNames
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.AttachmentNames

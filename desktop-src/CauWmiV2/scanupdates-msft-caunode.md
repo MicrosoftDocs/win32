@@ -4,13 +4,16 @@ description: Scans for applicable updates.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0af9a10b-0577-4acb-afc6-79dd48615f35'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0af9a10b-0577-4acb-afc6-79dd48615f35
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-aware-patching'
-- 'windows-management-instrumentation'
+- failover-cluster-aware-patching
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ScanUpdates method", "ScanUpdates method, MSFT_CAUNode class", "MSFT_CAUNode class, ScanUpdates method"]
+keywords:
+- ScanUpdates method
+- ScanUpdates method, MSFT_CAUNode class
+- MSFT_CAUNode class, ScanUpdates method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - CauWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ScanUpdates method of the MSFT\_CAUNode class
@@ -30,9 +36,9 @@ Scans for applicable updates.
 
 ```mof
 uint32 ScanUpdates(
-  [in]  string                  QueryString,
-  [in]  boolean                 IncludeRecommendedUpdates,
-  [out] MSFT_CAU_ScanUpdateInfo Info[]
+  [in]  string                  QueryString,
+  [in]  boolean                 IncludeRecommendedUpdates,
+  [out] MSFT_CAU_ScanUpdateInfo Info[]
 );
 ```
 
@@ -70,7 +76,7 @@ An array of [**MSFT\_CAU\_ScanUpdateInfo**](msft-cau-scanupdateinfo.md) embedded
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ClusterUpdate<br/>                                      |
 | MOF<br/>                      | <dl> <dt>CAUWMIv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CauWmiV2.dll</dt> </dl> |
@@ -84,9 +90,9 @@ An array of [**MSFT\_CAU\_ScanUpdateInfo**](msft-cau-scanupdateinfo.md) embedded
 [**MSFT\_CAUNode**](msft-caunode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

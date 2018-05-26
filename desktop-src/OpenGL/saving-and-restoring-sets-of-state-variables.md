@@ -1,8 +1,16 @@
 ---
 title: Saving and Restoring Sets of State Variables
 description: You can save and restore the values of a collection of state variables on an attribute stack with the glPushAttrib and glPopAttrib functions.
-ms.assetid: '339de633-4158-4907-b985-2d75b465fb2a'
-keywords: ["OpenGL state variables", "saving state variables OpenGL", "restoring state variables OpenGL"]
+ms.assetid: 339de633-4158-4907-b985-2d75b465fb2a
+keywords:
+- OpenGL state variables
+- saving state variables OpenGL
+- restoring state variables OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Saving and Restoring Sets of State Variables

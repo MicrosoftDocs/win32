@@ -1,7 +1,12 @@
 ---
 title: Win32\_EnvironmentSpecification Methods
 description: The Win32\_EnvironmentSpecification class exposes the following methods.
-ms.assetid: '22211643-FA39-40AE-A413-286F00D0ACBD'
+ms.assetid: 22211643-FA39-40AE-A413-286F00D0ACBD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_EnvironmentSpecification Methods

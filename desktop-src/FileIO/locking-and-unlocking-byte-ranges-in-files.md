@@ -1,27 +1,32 @@
 ---
-Description: 'Example code that shows byte range locking and unlocking by using the LockFileEx and UnlockFileEx functions.'
-ms.assetid: '9d54fe11-b1ad-4723-a42a-00bc6dc64072'
+Description: Example code that shows byte range locking and unlocking by using the LockFileEx and UnlockFileEx functions.
+ms.assetid: 9d54fe11-b1ad-4723-a42a-00bc6dc64072
 title: Locking and Unlocking Byte Ranges in Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Locking and Unlocking Byte Ranges in Files
 
 Although the system allows more than one application to open a file and write to it, applications must not write over each other's work. An application can prevent this problem by temporarily locking a byte range in a file.
 
-The [**LockFile**](lockfile.md) and [**LockFileEx**](lockfileex.md) functions lock a specified range of bytes in a file. The range may extend beyond the current end of the file. Locking part of a file gives the threads of the locking processes exclusive access to the specified byte range by using the specified file handle. Attempts to access a byte range that is locked by another process always fail. If the locking process attempts to access a locked byte range through a second file handle, the attempt fails.
+The [**LockFile**](/windows/win32/FileAPI/nf-fileapi-lockfile?branch=master) and [**LockFileEx**](/windows/win32/FileAPI/nf-fileapi-lockfileex?branch=master) functions lock a specified range of bytes in a file. The range may extend beyond the current end of the file. Locking part of a file gives the threads of the locking processes exclusive access to the specified byte range by using the specified file handle. Attempts to access a byte range that is locked by another process always fail. If the locking process attempts to access a locked byte range through a second file handle, the attempt fails.
 
 > [!Note]  
 > Memory mapped files are not supported with byte range locks.
 
  
 
-The [**LockFileEx**](lockfileex.md) function allows an application to specify one of two types of locks. An *exclusive lock* denies all other processes both read and write access to the specified byte range of a file. A *shared lock* denies all processes write access to the specified byte range of a file, including the process that first locks the byte range. This can be used to create a read-only byte range in a file.
+The [**LockFileEx**](/windows/win32/FileAPI/nf-fileapi-lockfileex?branch=master) function allows an application to specify one of two types of locks. An *exclusive lock* denies all other processes both read and write access to the specified byte range of a file. A *shared lock* denies all processes write access to the specified byte range of a file, including the process that first locks the byte range. This can be used to create a read-only byte range in a file.
 
-An application unlocks the byte range by using the [**UnlockFile**](unlockfile.md) or [**UnlockFileEx**](unlockfileex.md) function and should unlock all locked areas before closing a file.
+An application unlocks the byte range by using the [**UnlockFile**](/windows/win32/FileAPI/nf-fileapi-unlockfile?branch=master) or [**UnlockFileEx**](/windows/win32/FileAPI/nf-fileapi-unlockfileex?branch=master) function and should unlock all locked areas before closing a file.
 
-For an example of using [**LockFile**](lockfile.md), see [Appending One File to Another File](appending-one-file-to-another-file.md).
+For an example of using [**LockFile**](/windows/win32/FileAPI/nf-fileapi-lockfile?branch=master), see [Appending One File to Another File](appending-one-file-to-another-file.md).
 
-The following examples show how to use [**LockFileEx**](lockfileex.md). The first example is a simple demonstration to create a file, write some data to it, and then lock a section in the middle.
+The following examples show how to use [**LockFileEx**](/windows/win32/FileAPI/nf-fileapi-lockfileex?branch=master). The first example is a simple demonstration to create a file, write some data to it, and then lock a section in the middle.
 
 **Note**  This example does not change the data after the file is locked.
 
@@ -1035,7 +1040,7 @@ Because they write data to the data records, the record creation and record modi
 
 Exclusive byte range locks prevent both read and write access from all other handles to the file, and that's the reason why they are used when writing to a record. On the other hand, a shared byte range lock prevents write access from all handles, including the handle owning the lock, but allows read access from all of them.
 
-To demonstrate the use of byte range locks with the file, all I/O in this sample, other than new file initialization, is done via an asynchronous file handle. This can be seen in the **IoRecord** function in the **IoLock** and **IoUnlock** cases within the switch statement. The [**LockFileEx**](lockfileex.md) and [**UnlockFileEx**](unlockfileex.md) functions are used with the overlapped I/O model by passing an [**OVERLAPPED**](overlapped-entry.md) structure to them with the offset for the start of the locked range, and an event that will be signaled after the lock over that range is granted unless the function returns immediately.
+To demonstrate the use of byte range locks with the file, all I/O in this sample, other than new file initialization, is done via an asynchronous file handle. This can be seen in the **IoRecord** function in the **IoLock** and **IoUnlock** cases within the switch statement. The [**LockFileEx**](/windows/win32/FileAPI/nf-fileapi-lockfileex?branch=master) and [**UnlockFileEx**](/windows/win32/FileAPI/nf-fileapi-unlockfileex?branch=master) functions are used with the overlapped I/O model by passing an [**OVERLAPPED**](/windows/win32/MinWinBase/ns-minwinbase-_overlapped_entry?branch=master) structure to them with the offset for the start of the locked range, and an event that will be signaled after the lock over that range is granted unless the function returns immediately.
 
 After issuing the asynchronous I/O request, the next operation in the **IoRecord** function is to wait for the operation in-line. This is often a sub-optimal scenario when maximum performance is desired, and is used here for the sake of simplicity. In production applications, the use of [I/O completion ports](i-o-completion-ports.md) or similar mechanisms is preferred because it releases threads to do other processing while the I/O completes.
 

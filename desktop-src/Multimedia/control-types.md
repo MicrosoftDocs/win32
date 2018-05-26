@@ -1,8 +1,20 @@
 ---
 title: Control Types
 description: Control Types
-ms.assetid: '7d109d0e-360f-4a09-8498-15d37d6766b3'
-keywords: ["multimedia audio,mixer controls", "audio,mixer controls", "audio mixers,audio lines", "audio lines", "audio mixers,controls", "mixers,controls", "mixers,audio lines"]
+ms.assetid: 7d109d0e-360f-4a09-8498-15d37d6766b3
+keywords:
+- multimedia audio,mixer controls
+- audio,mixer controls
+- audio mixers,audio lines
+- audio lines
+- audio mixers,controls
+- mixers,controls
+- mixers,audio lines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Control Types

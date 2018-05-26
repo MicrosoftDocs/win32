@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachineEvents OnRequestShutdown method
 description: Receives notification that a shutdown request has been made.
-ms.assetid: 'e04131fd-5ca7-4392-9725-ba62b905324a'
-keywords: ["OnRequestShutdown method Virtual PC", "OnRequestShutdown method Virtual PC , IVMVirtualMachineEvents interface", "IVMVirtualMachineEvents interface Virtual PC , OnRequestShutdown method"]
+ms.assetid: e04131fd-5ca7-4392-9725-ba62b905324a
+keywords:
+- OnRequestShutdown method Virtual PC
+- OnRequestShutdown method Virtual PC , IVMVirtualMachineEvents interface
+- IVMVirtualMachineEvents interface Virtual PC , OnRequestShutdown method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachineEvents::OnRequestShutdown method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Receives notification that a shutdown request has been made.
 
@@ -48,9 +56,9 @@ This event notification is sent only when the virtual machines session is about 
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | DIID\_IVMVirtualMachineEvents is defined as 9d84f560-bb67-4961-bd12-a4da780c67e4<br/>   |
@@ -64,9 +72,9 @@ This event notification is sent only when the virtual machines session is about 
 [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

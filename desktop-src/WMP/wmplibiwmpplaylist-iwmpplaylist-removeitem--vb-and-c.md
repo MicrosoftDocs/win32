@@ -1,8 +1,11 @@
 ---
 title: IWMPPlaylist removeItem method
 description: The removeItem method removes the specified media item from the playlist.
-ms.assetid: '8b5a4c34-863d-4963-97c8-cc5aa2223ab5'
-keywords: ["removeItem method Windows Media Player", "removeItem method Windows Media Player , IWMPPlaylist interface", "IWMPPlaylist interface Windows Media Player , removeItem method"]
+ms.assetid: 8b5a4c34-863d-4963-97c8-cc5aa2223ab5
+keywords:
+- removeItem method Windows Media Player
+- removeItem method Windows Media Player , IWMPPlaylist interface
+- IWMPPlaylist interface Windows Media Player , removeItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylist::removeItem method
@@ -109,9 +117,9 @@ Before calling this method, you must have full access to the library. For more i
 [**IWMPSettings2.requestMediaAccessRights (VB and C#)**](wmplibiwmpsettings2-iwmpsettings2-requestmediaaccessrights--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

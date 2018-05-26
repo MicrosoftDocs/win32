@@ -4,10 +4,13 @@ description: This topic shows how to invoke an instance method using CDXML.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '821E602C-C5CB-42FF-B5E6-77F74E65BDB7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 821E602C-C5CB-42FF-B5E6-77F74E65BDB7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to perform operations on an instance

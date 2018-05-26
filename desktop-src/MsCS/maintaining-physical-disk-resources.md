@@ -4,10 +4,13 @@ description: When a Physical Disk Resource has been created and assigned to a cl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4ccc1145-fbb3-48ba-9709-065c024e657c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4ccc1145-fbb3-48ba-9709-065c024e657c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Maintaining Physical Disk Resources
@@ -24,7 +27,7 @@ Maintenance mode is a mechanism provided through failover cluster cmdlets and th
 
 Failover cluster cmdlets are not available; the Cluster.exe command is used instead. For more information, see [Extended maintenance mode functionality for cluster physical disk resources in Windows Server 2003](https://support.microsoft.com/kb/903650).
 
-The cluster administrator can set, remove, or query a disk resource's maintenance mode through failover cluster cmdlets, or a calling application can place the resource in maintenance mode by using the [**ClusterResourceControl**](clusterresourcecontrol.md) API function with either the [**CLUSCTL\_RESOURCE\_SET\_MAINTENANCE\_MODE**](clusctl-resource-set-maintenance-mode.md) or [**CLUSCTL\_RESOURCE\_QUERY\_MAINTENANCE\_MODE**](clusctl-resource-query-maintenance-mode.md) cluster resource control codes.
+The cluster administrator can set, remove, or query a disk resource's maintenance mode through failover cluster cmdlets, or a calling application can place the resource in maintenance mode by using the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) API function with either the [**CLUSCTL\_RESOURCE\_SET\_MAINTENANCE\_MODE**](clusctl-resource-set-maintenance-mode.md) or [**CLUSCTL\_RESOURCE\_QUERY\_MAINTENANCE\_MODE**](clusctl-resource-query-maintenance-mode.md) cluster resource control codes.
 
 **Windows Server 2008:  **
 

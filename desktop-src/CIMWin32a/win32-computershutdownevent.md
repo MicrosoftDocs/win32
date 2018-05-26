@@ -4,13 +4,15 @@ description: The Win32\_ComputerShutdownEvent is a Windows Management Instrument
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3787b9f2-d753-4918-aabf-050bbb5f6bc4'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3787b9f2-d753-4918-aabf-050bbb5f6bc4
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_ComputerShutdownEvent class", "Win32_ComputerShutdownEvent class, described"]
+keywords:
+- Win32_ComputerShutdownEvent class
+- Win32_ComputerShutdownEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - WmiPciMa.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ComputerShutdownEvent class
@@ -38,7 +43,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_ComputerShutdownEvent : Win32_ComputerSystemEvent
 {
   string MachineName;
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   uint32 Type;
 };
@@ -155,8 +160,8 @@ The **Win32\_ComputerShutdownEvent** class is derived from [**Win32\_ComputerSys
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>WmiPciMa.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiPciMa.dll</dt> </dl> |
@@ -173,9 +178,9 @@ The **Win32\_ComputerShutdownEvent** class is derived from [**Win32\_ComputerSys
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

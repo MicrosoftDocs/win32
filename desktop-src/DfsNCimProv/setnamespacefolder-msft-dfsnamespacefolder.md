@@ -4,13 +4,16 @@ description: Updates the properties of a DFS folder.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '97045f58-3ecb-4cf0-a0fd-be5603658968'
-ms.prod: 'windows-server-dev'
+ms.assetid: 97045f58-3ecb-4cf0-a0fd-be5603658968
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetNamespaceFolder method", "SetNamespaceFolder method, MSFT_DfsNamespaceFolder class", "MSFT_DfsNamespaceFolder class, SetNamespaceFolder method"]
+keywords:
+- SetNamespaceFolder method
+- SetNamespaceFolder method, MSFT_DfsNamespaceFolder class
+- MSFT_DfsNamespaceFolder class, SetNamespaceFolder method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetNamespaceFolder method of the MSFT\_DfsNamespaceFolder class
@@ -30,12 +36,12 @@ Updates the properties of a DFS folder.
 
 ```mof
 uint32 SetNamespaceFolder(
-  [in]  string                  NamespacePath,
-  [in]  string                  Description,
-  [in]  uint32                  Flags,
-  [in]  uint32                  State,
-  [in]  uint32                  TimeToLive,
-  [out] MSFT_DfsNamespaceFolder cmdletOutput
+  [in]  string                  NamespacePath,
+  [in]  string                  Description,
+  [in]  uint32                  Flags,
+  [in]  uint32                  State,
+  [in]  uint32                  TimeToLive,
+  [out] MSFT_DfsNamespaceFolder cmdletOutput
 );
 ```
 
@@ -142,7 +148,7 @@ When this method returns, contains output from the **Set-DFSNamespaceFolder** cm
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
@@ -156,9 +162,9 @@ When this method returns, contains output from the **Set-DFSNamespaceFolder** cm
 [**MSFT\_DfsNamespaceFolder**](msft-dfsnamespacefolder.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

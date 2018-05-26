@@ -1,8 +1,11 @@
 ---
 title: SetAttributes method of the MSFT\_Volume class
 description: Sets or changes the volume attributes.
-ms.assetid: '526F2E01-6E34-4891-ACF9-A8A87FDF0271'
-keywords: ["SetAttributes method Windows Storage Management API", "SetAttributes method Windows Storage Management API , MSFT_Volume class", "MSFT_Volume class Windows Storage Management API , SetAttributes method"]
+ms.assetid: 526F2E01-6E34-4891-ACF9-A8A87FDF0271
+keywords:
+- SetAttributes method Windows Storage Management API
+- SetAttributes method Windows Storage Management API , MSFT_Volume class
+- MSFT_Volume class Windows Storage Management API , SetAttributes method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetAttributes method of the MSFT\_Volume class
@@ -24,8 +32,8 @@ Only one attribute can be set or changed.
 
 ```mof
 UInt32 SetAttributes(
-  [in]  Boolean EnableVolumeScrub,
-  [out] String  ExtendedStatus
+  [in]  Boolean EnableVolumeScrub,
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -87,8 +95,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -101,9 +109,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_Volume**](msft-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

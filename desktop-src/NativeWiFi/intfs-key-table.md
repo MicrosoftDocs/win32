@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the table of key information for all wireless LAN interfaces managed by the Wireless Configuration Service.'
-ms.assetid: '5d5fe222-6ca1-4778-9f64-1c6a63467a6c'
-title: 'INTFS\_KEY\_TABLE structure'
+---
+Description: Contains the table of key information for all wireless LAN interfaces managed by the Wireless Configuration Service.
+ms.assetid: 5d5fe222-6ca1-4778-9f64-1c6a63467a6c
+title: INTFS\_KEY\_TABLE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INTFS\_KEY\_TABLE structure

@@ -1,8 +1,11 @@
 ---
 title: INapComponentConfig2 InvokeUIFromConfigBlob method
 description: Is implemented by system health validators (SHVs) as needed to load the configuration of a remote or local machine in memory and display a UI that allows manipulation of the configuration data.
-ms.assetid: '9c012690-6751-4a47-8683-74abac610c77'
-keywords: ["InvokeUIFromConfigBlob method NAP", "InvokeUIFromConfigBlob method NAP , INapComponentConfig2 interface", "INapComponentConfig2 interface NAP , InvokeUIFromConfigBlob method"]
+ms.assetid: 9c012690-6751-4a47-8683-74abac610c77
+keywords:
+- InvokeUIFromConfigBlob method NAP
+- InvokeUIFromConfigBlob method NAP , INapComponentConfig2 interface
+- INapComponentConfig2 interface NAP , InvokeUIFromConfigBlob method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentConfig2::InvokeUIFromConfigBlob method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **InvokeUIFromConfigBlob** method is implemented by system health validators (SHVs) as needed to load the configuration of a remote or local machine in memory and display a UI that allows manipulation of the configuration data. The configuration component must support the usage of [**INapComponentConfig**](inapcomponentconfig.md) through DCOM.
 
@@ -27,12 +35,12 @@ The **InvokeUIFromConfigBlob** method is implemented by system health validators
 
 ```C++
 HRESULT InvokeUIFromConfigBlob(
-  [in, unique] HWND   hwndParent,
-  [in]         UINT16 inbCount,
-  [in]         BYTE   *inData,
-  [out]        UINT16 *outbCount,
-  [out]        BYTE   **outdata,
-  [out]        BOOL   *fConfigChanged
+  [in, unique] HWND   hwndParent,
+  [in]         UINT16 inbCount,
+  [in]         BYTE   *inData,
+  [out]        UINT16 *outbCount,
+  [out]        BYTE   **outdata,
+  [out]        BOOL   *fConfigChanged
 );
 ```
 
@@ -99,7 +107,7 @@ If used for a local machine, this function can be used for per policy SHV config
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -112,9 +120,9 @@ If used for a local machine, this function can be used for per policy SHV config
 [**INapComponentConfig2**](inapcomponentconfig2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

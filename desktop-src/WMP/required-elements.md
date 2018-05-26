@@ -1,8 +1,18 @@
 ---
 title: Required Elements
 description: Required Elements
-ms.assetid: '6aabbdcc-f834-4908-b25a-1dfce038132a'
-keywords: ["Windows Media Player Mobile skins,elements", "skins,elements", "skin definition files,elements", "elements,skin definition files", "elements,Windows Media Player Mobile"]
+ms.assetid: 6aabbdcc-f834-4908-b25a-1dfce038132a
+keywords:
+- Windows Media Player Mobile skins,elements
+- skins,elements
+- skin definition files,elements
+- elements,skin definition files
+- elements,Windows Media Player Mobile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Required Elements

@@ -1,6 +1,11 @@
-﻿---
-Description: 'Adds an entry to the most recently used (MRU) list.'
-title: 'IACLCustomMRU::AddMRUString method'
+---
+Description: Adds an entry to the most recently used (MRU) list.
+title: IACLCustomMRUAddMRUString method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IACLCustomMRU::AddMRUString method

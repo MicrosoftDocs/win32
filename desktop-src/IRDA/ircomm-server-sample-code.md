@@ -1,8 +1,16 @@
 ---
 title: IrCOMM Server Sample Code
 description: The following code sample demonstrates the steps necessary to build an IrDA server that listens for incoming IrCOMM connections. For more information on IrDA and Windows Sockets programming elements, see IrDA Programming with Windows Sockets.
-ms.assetid: '9dcb0955-d42d-4cf0-ae23-e6307adb262a'
-keywords: ["Infrared Data Association IrDA , samples", "IrCOMM code IrDA", "IrCOMM IrDA , server sample code"]
+ms.assetid: 9dcb0955-d42d-4cf0-ae23-e6307adb262a
+keywords:
+- Infrared Data Association IrDA , samples
+- IrCOMM code IrDA
+- IrCOMM IrDA , server sample code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrCOMM Server Sample Code

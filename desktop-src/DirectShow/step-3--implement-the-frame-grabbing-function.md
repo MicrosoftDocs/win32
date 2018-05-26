@@ -1,7 +1,12 @@
 ---
-Description: 'Step 3: Implement the Frame-Grabbing Function'
-ms.assetid: '4ec2e4a4-3ab0-45f1-b29a-313599fe9e7d'
-title: 'Step 3: Implement the Frame-Grabbing Function'
+Description: Step 3 Implement the Frame-Grabbing Function
+ms.assetid: 4ec2e4a4-3ab0-45f1-b29a-313599fe9e7d
+title: Step 3 Implement the Frame-Grabbing Function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 3: Implement the Frame-Grabbing Function
@@ -61,7 +66,7 @@ if (!bFound) return VFW_E_INVALIDMEDIATYPE;
 
 If no video stream was found, the function exits.
 
-In the previous code, the [**IMediaDet::get\_StreamType**](imediadet-get-streamtype.md) method returns just the major type GUID. This is convenient if you do not need to examine the complete media type. To get the video dimensions, however, it is necessary to examine the format block, so the full media type is needed. You can retrieve that by calling the [**IMediaDet::get\_StreamMediaType**](imediadet-get-streammediatype.md) method, which fills in an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure. The Media Detector converts all video streams into uncompressed format, with a [**VIDEOINFOHEADER**](videoinfoheader.md) format block.
+In the previous code, the [**IMediaDet::get\_StreamType**](imediadet-get-streamtype.md) method returns just the major type GUID. This is convenient if you do not need to examine the complete media type. To get the video dimensions, however, it is necessary to examine the format block, so the full media type is needed. You can retrieve that by calling the [**IMediaDet::get\_StreamMediaType**](imediadet-get-streammediatype.md) method, which fills in an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure. The Media Detector converts all video streams into uncompressed format, with a [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) format block.
 
 
 ```C++

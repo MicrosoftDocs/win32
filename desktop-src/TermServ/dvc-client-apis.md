@@ -4,10 +4,13 @@ description: The dynamic virtual channel (DVC) client APIs are implemented speci
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '976a6cc2-7bbe-4ecc-91b4-b7c659eca5ba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 976a6cc2-7bbe-4ecc-91b4-b7c659eca5ba
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DVC Client APIs
@@ -18,42 +21,42 @@ The dynamic virtual channel (DVC) client APIs are implemented specifically for t
 
 <dl> <dt>
 
-[**IWTSPlugin**](iwtsplugin.md)
+[**IWTSPlugin**](/windows/win32/TsVirtualChannels/nn-tsvirtualchannels-iwtsplugin?branch=master)
 </dt> <dd>
 
 Allows for the Remote Desktop Connection (RDC) client plug-in to be loaded by the Remote Desktop Connection (RDC) client.
 
 </dd> <dt>
 
-[**IWTSListener**](iwtslistener.md)
+[**IWTSListener**](/windows/win32/TsVirtualChannels/nn-tsvirtualchannels-iwtslistener?branch=master)
 </dt> <dd>
 
 Manages configuration settings for each listener for the dynamic virtual channel (DVC) connection.
 
 </dd> <dt>
 
-[**IWTSListenerCallback**](iwtslistenercallback.md)
+[**IWTSListenerCallback**](/windows/win32/TsVirtualChannels/nn-tsvirtualchannels-iwtslistenercallback?branch=master)
 </dt> <dd>
 
 Used to notify the Remote Desktop Connection (RDC) client plug-in about incoming requests on a particular listener.
 
 </dd> <dt>
 
-[**IWTSVirtualChannelManager**](iwtsvirtualchannelmanager.md)
+[**IWTSVirtualChannelManager**](/windows/win32/TsVirtualChannels/nn-tsvirtualchannels-iwtsvirtualchannelmanager?branch=master)
 </dt> <dd>
 
 Manages all Remote Desktop Connection (RDC) client plug-ins and dynamic virtual channel (DVC) listeners.
 
 </dd> <dt>
 
-[**IWTSVirtualChannel**](iwtsvirtualchannel.md)
+[**IWTSVirtualChannel**](/windows/win32/TsVirtualChannels/nn-tsvirtualchannels-iwtsvirtualchannel?branch=master)
 </dt> <dd>
 
 Used to control the channel state, and writes on the channel.
 
 </dd> <dt>
 
-[**IWTSVirtualChannelCallback**](iwtsvirtualchannelcallback.md)
+[**IWTSVirtualChannelCallback**](/windows/win32/TsVirtualChannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback?branch=master)
 </dt> <dd>
 
 Receives notifications about channel state changes or data received.
@@ -70,7 +73,7 @@ This interface is not supported.
 [**VirtualChannelGetInstance**](virtualchannelgetinstance.md)
 </dt> <dd>
 
-Called to have the plug-in create an instance of the [**IWTSPlugin**](iwtsplugin.md) interface for all plug-ins implemented by the DLL.
+Called to have the plug-in create an instance of the [**IWTSPlugin**](/windows/win32/TsVirtualChannels/nn-tsvirtualchannels-iwtsplugin?branch=master) interface for all plug-ins implemented by the DLL.
 
 </dd> </dl>
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the namespace URI value of the &\#0034;name&\#0034; attribute of this node.'
-ms.assetid: 'F03FFC6A-6186-4C59-97EB-0D954BF198D3'
-title: 'IPrintSchemaElement::NamespaceUri property'
+---
+Description: Gets the namespace URI value of the &\#0034;name&\#0034; attribute of this node.
+ms.assetid: F03FFC6A-6186-4C59-97EB-0D954BF198D3
+title: IPrintSchemaElementNamespaceUri property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaElement::NamespaceUri property

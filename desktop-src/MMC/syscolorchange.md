@@ -4,11 +4,14 @@ description: The SysColorChange event fires when a system color changes. This ev
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '774747ed-46a4-411a-8035-8c4d1a12babd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 774747ed-46a4-411a-8035-8c4d1a12babd
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["SysColorChange event MMC", "SysColorChange event MMC , SysColorCtrl class", "SysColorCtrl class MMC , SysColorChange event"]
+keywords:
+- SysColorChange event MMC
+- SysColorChange event MMC , SysColorCtrl class
+- SysColorCtrl class MMC , SysColorChange event
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SysColorCtrl.SysColorChange event
@@ -66,17 +72,17 @@ height=0>
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

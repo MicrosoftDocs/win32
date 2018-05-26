@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains info about the constants provided by DXGI.'
-ms.assetid: 'f2eb846e-b887-413f-84f3-5bfb8bcfeb78'
+Description: This section contains info about the constants provided by DXGI.
+ms.assetid: f2eb846e-b887-413f-84f3-5bfb8bcfeb78
 title: DXGI Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXGI Constants
@@ -24,7 +29,7 @@ This section contains info about the constants provided by DXGI.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -33,9 +38,9 @@ This section contains info about the constants provided by DXGI.
 [DXGI Reference](d3d10-graphics-reference-dxgi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

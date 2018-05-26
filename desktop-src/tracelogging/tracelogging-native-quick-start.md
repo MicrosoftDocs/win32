@@ -1,7 +1,12 @@
 ---
 title: TraceLogging C/C++ Quick Start
 description: The following section describes the basic steps required to add TraceLogging to native user-mode code.
-ms.assetid: '444DA34B-7949-457D-A3EC-2F0CFBEDD1E2'
+ms.assetid: 444DA34B-7949-457D-A3EC-2F0CFBEDD1E2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TraceLogging C/C++ Quick Start
@@ -42,7 +47,7 @@ The header file includes TraceLoggingProvider.h which defines the native TraceLo
 
 The header file forward declares the provider handle `g_hMyComponentProvider` that you will pass to the TraceLogging APIs to log events. This handle needs to be accessible to any code that wishes to use TraceLogging.
 
-[**TRACELOGGING\_DECLARE\_PROVIDER**](tracelogging-declare-provider.md) is a macro that creates an `extern const TraceLoggingHProvider` handle using the name that you provide, which in the example above is `g_hMyComponentProvider`. You will allocate the actual provider handle variable in a code file.
+[**TRACELOGGING\_DECLARE\_PROVIDER**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-tracelogging_declare_provider?branch=master) is a macro that creates an `extern const TraceLoggingHProvider` handle using the name that you provide, which in the example above is `g_hMyComponentProvider`. You will allocate the actual provider handle variable in a code file.
 
 ### SimpleTraceLoggingExample.cpp
 
@@ -80,11 +85,11 @@ void main()
 
 The example above includes SimpleTraceLoggingExample.h which contains the global provider variable that your code will use to log events.
 
-The [**TRACELOGGING\_DEFINE\_PROVIDER**](tracelogging-define-provider.md) macro allocates storage and defines the provider handle variable. The variable name that you provide to this macro must match the name you used in the [**TRACELOGGING\_DECLARE\_PROVIDER**](tracelogging-declare-provider.md) macro in your header file. This handle will remain valid as long as it is in scope.
+The [**TRACELOGGING\_DEFINE\_PROVIDER**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-tracelogging_define_provider?branch=master) macro allocates storage and defines the provider handle variable. The variable name that you provide to this macro must match the name you used in the [**TRACELOGGING\_DECLARE\_PROVIDER**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-tracelogging_declare_provider?branch=master) macro in your header file. This handle will remain valid as long as it is in scope.
 
 ### Register the provider handle
 
-Before you can use the provider handle to log events you must call [**TraceLoggingRegister**](traceloggingregister.md) to register your provider handle. This is typically done in Main() or DLLMain() but can be done at any time as long as it precedes any attempt to log an event. If you log an event before registering the provider handle, no error will occur but the event will not be logged. The following code from the example above registers the provider handle.
+Before you can use the provider handle to log events you must call [**TraceLoggingRegister**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingregister?branch=master) to register your provider handle. This is typically done in Main() or DLLMain() but can be done at any time as long as it precedes any attempt to log an event. If you log an event before registering the provider handle, no error will occur but the event will not be logged. The following code from the example above registers the provider handle.
 
 
 ```C++
@@ -121,15 +126,15 @@ After the provider is registered, the following code logs a simple event.
 
 
 
-The [**TraceLoggingWrite**](traceloggingwrite.md) macro takes up to ninety-nine arguments and executes as several statements. This means that the values being logged should not be C++ temporary objects. The event name is stored in UTF-8 format. You must not use embedded `nul` characters in the event or other field names. There are no other limits on permitted characters.
+The [**TraceLoggingWrite**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite?branch=master) macro takes up to ninety-nine arguments and executes as several statements. This means that the values being logged should not be C++ temporary objects. The event name is stored in UTF-8 format. You must not use embedded `nul` characters in the event or other field names. There are no other limits on permitted characters.
 
 Each argument following the event name must be wrapped inside of a [TraceLogging Wrapper Macro](tracelogging-wrapper-macros.md). If you are using C++, you can use the `TraceLoggingValue` wrapper macro to automatically infer the type of the argument. If you are writing your driver in C, you must use type-specific field macros such as `TraceLoggingInt32`, `TraceLoggingUnicodeString`, `TraceLoggingString`, etc. The TraceLogging wrapper macros are defined in TraceLoggingProvider.h
 
-In addition to logging single events you can also group events by activity by using the [**TraceLoggingWriteActivity**](traceloggingwriteactivity.md) or [**TraceLoggingWriteStart**](traceloggingwritestart.md)/[**TraceLoggingWriteStop**](traceloggingwritestop.md) macros found in TraceLoggingActivity.h. Activities correlate events and are useful for scenarios that have a beginning and an end. For example, you might use an activity to measure a scenario that starts with the launch of an application, includes the time it takes for the splash screen becomes available, and ends when the initial screen of the application becomes visible.
+In addition to logging single events you can also group events by activity by using the [**TraceLoggingWriteActivity**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingwriteactivity?branch=master) or [**TraceLoggingWriteStart**](/windows/win32/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestart?branch=master)/[**TraceLoggingWriteStop**](/windows/win32/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestop?branch=master) macros found in TraceLoggingActivity.h. Activities correlate events and are useful for scenarios that have a beginning and an end. For example, you might use an activity to measure a scenario that starts with the launch of an application, includes the time it takes for the splash screen becomes available, and ends when the initial screen of the application becomes visible.
 
 Activities capture single events and nest other activities that occur between the start and end of that activity. Activities have per-process scope and must be passed from thread to thread to properly nest multi-threaded events.
 
-The scope of a provider handle is strictly limited to the module (DLL, EXE, or SYS file) in which it is defined – the handle should not be passed to other DLLs. If a [**TraceLoggingWrite**](traceloggingwrite.md) macro is invoked in A.DLL using a provider handle defined in B.DLL, it may cause problems. The safest and most efficient way to meet this requirement is to just always directly reference the global provider handle and never pass the provider handle as a parameter.
+The scope of a provider handle is strictly limited to the module (DLL, EXE, or SYS file) in which it is defined – the handle should not be passed to other DLLs. If a [**TraceLoggingWrite**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite?branch=master) macro is invoked in A.DLL using a provider handle defined in B.DLL, it may cause problems. The safest and most efficient way to meet this requirement is to just always directly reference the global provider handle and never pass the provider handle as a parameter.
 
 ### Unregister the provider
 

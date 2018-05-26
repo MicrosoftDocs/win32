@@ -1,7 +1,12 @@
 ---
 title: Command Scheduling
 description: Each command has a priority associated with it.
-ms.assetid: '63f6ba9d-0b87-403b-916b-aa8550f98a11'
+ms.assetid: 63f6ba9d-0b87-403b-916b-aa8550f98a11
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Scheduling

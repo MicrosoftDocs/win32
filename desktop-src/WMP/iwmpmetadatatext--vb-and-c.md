@@ -1,8 +1,10 @@
 ---
 title: IWMPMetadataText (VB and C\ ) interface
 description: Provides properties for getting information about complex textual metadata attributes.
-ms.assetid: 'c0f300d2-6ddb-470b-849d-771d3719bb97'
-keywords: ["IWMPMetadataText (VB and C ) interface Windows Media Player", "IWMPMetadataText (VB and C ) interface Windows Media Player , described"]
+ms.assetid: c0f300d2-6ddb-470b-849d-771d3719bb97
+keywords:
+- IWMPMetadataText (VB and C ) interface Windows Media Player
+- IWMPMetadataText (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMetadataText (VB and C#) interface
@@ -28,7 +35,7 @@ The **IWMPMetadataText** interface exposes the following properties.
 
 
 
- 
+ 
 
 Get an **IWMPMetadataText** interface by passing in an attribute name such as **WM/UserWebURL** to the following method and casting the object that is returned.
 
@@ -41,7 +48,7 @@ Get an **IWMPMetadataText** interface by passing in an attribute name such as **
 
 
 
- 
+ 
 
 ## Members
 
@@ -64,9 +71,9 @@ The **IWMPMetadataText (VB and C#)** interface does not define any members.
 [**Interfaces for Visual Basic .NET and C#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

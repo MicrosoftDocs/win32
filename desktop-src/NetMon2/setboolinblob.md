@@ -1,7 +1,12 @@
 ---
-Description: 'The SetBoolInBlob function sets a Boolean value at a given location within a BLOB.'
-ms.assetid: '354d22be-b8c4-4068-8356-19b30ac188d0'
+Description: The SetBoolInBlob function sets a Boolean value at a given location within a BLOB.
+ms.assetid: 354d22be-b8c4-4068-8356-19b30ac188d0
 title: SetBoolInBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetBoolInBlob function
@@ -13,11 +18,11 @@ The **SetBoolInBlob** function sets a Boolean value at a given location within a
 
 ```C++
 DWORD SetBoolInBlob(
-  _In_       HBLOB hBlob,
-  _In_ const char  *pOwnerName,
-  _In_ const char  *pCategoryName,
-  _In_ const char  *pTagName,
-  _In_       BOOL  Bool
+  _In_       HBLOB hBlob,
+  _In_ const char  *pOwnerName,
+  _In_ const char  *pCategoryName,
+  _In_ const char  *pTagName,
+  _In_       BOOL  Bool
 );
 ```
 
@@ -74,8 +79,8 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -113,9 +118,9 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 [SetStringInBlob](setstringinblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

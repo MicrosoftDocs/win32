@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates that a memory page has been removed from system use due to excessive hardware Error Checking and Correcting (ECC) errors. This class is available only in 64-bit Windows systems.'
-ms.assetid: '364a2520-8d7c-44f2-95f6-eea9a5531975'
-title: 'MSMCAEvent\_MemoryPageRemoved class'
+Description: Indicates that a memory page has been removed from system use due to excessive hardware Error Checking and Correcting (ECC) errors. This class is available only in 64-bit Windows systems.
+ms.assetid: 364a2520-8d7c-44f2-95f6-eea9a5531975
+title: MSMCAEvent\_MemoryPageRemoved class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAEvent\_MemoryPageRemoved class
@@ -16,8 +21,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSMCAEvent_MemoryPageRemoved : WmiEvent
 {
   boolean Active;
-  string  InstanceName;
-  uint64  PhysicalAddress;
+  string  InstanceName;
+  uint64  PhysicalAddress;
 };
 ```
 
@@ -87,8 +92,8 @@ The **MSMCAEvent\_MemoryPageRemoved** class is derived from [**WMIEvent**](wmiev
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -105,9 +110,9 @@ The **MSMCAEvent\_MemoryPageRemoved** class is derived from [**WMIEvent**](wmiev
 [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

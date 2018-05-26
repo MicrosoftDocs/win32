@@ -1,13 +1,19 @@
 ---
 title: Registering Endpoints
 description: Registering the server program in the endpoint map of the server host computer enables client programs to determine which endpoint (usually a TCP/IP port or a named pipe) the server program is listening to.
-ms.assetid: 'd09874f8-2b55-4af2-bfe1-8978301d6692'
-keywords: ["Remote Procedure Call RPC , tasks, registering endpoints"]
+ms.assetid: d09874f8-2b55-4af2-bfe1-8978301d6692
+keywords:
+- Remote Procedure Call RPC , tasks, registering endpoints
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Endpoints
 
-Registering the server program in the endpoint map of the server host computer enables client programs to determine which endpoint (usually a TCP/IP port or a named pipe) the server program is listening to. To register itself in the server host system's endpoint map, a server program calls the [**RpcEpRegister**](rpcepregister.md) function as shown in the following code fragment:
+Registering the server program in the endpoint map of the server host computer enables client programs to determine which endpoint (usually a TCP/IP port or a named pipe) the server program is listening to. To register itself in the server host system's endpoint map, a server program calls the [**RpcEpRegister**](/windows/win32/Rpcdce/nf-rpcdce-rpcepregister?branch=master) function as shown in the following code fragment:
 
 
 ```C++
@@ -24,9 +30,9 @@ status = RpcEpRegister(
 
 
 
-The first parameter to [**RpcEpRegister**](rpcepregister.md) is the structure that represents the interface. You can find it in the header file that the MIDL compiler generated from your MIDL file for this distributed application. See [Developing the Interface](developing-the-interface.md). Next, **RpcEpRegister** needs your application to pass a set of binding handles that are stored in a binding vector.
+The first parameter to [**RpcEpRegister**](/windows/win32/Rpcdce/nf-rpcdce-rpcepregister?branch=master) is the structure that represents the interface. You can find it in the header file that the MIDL compiler generated from your MIDL file for this distributed application. See [Developing the Interface](developing-the-interface.md). Next, **RpcEpRegister** needs your application to pass a set of binding handles that are stored in a binding vector.
 
-In addition to registering interface names, your server application can also register object UUIDs in the endpoint map. In this example, there are no object UUIDs to register, so the third parameter to [**RpcEpRegister**](rpcepregister.md) is set to **NULL**.
+In addition to registering interface names, your server application can also register object UUIDs in the endpoint map. In this example, there are no object UUIDs to register, so the third parameter to [**RpcEpRegister**](/windows/win32/Rpcdce/nf-rpcdce-rpcepregister?branch=master) is set to **NULL**.
 
 The last parameter is a comment string. Although the RPC run-time library does not use this string, setting the string is recommended, as it improves manageability of the system. A system administrator can use the string to detect which ports are used by which applications, which can then be used to determine which ports to be managed by firewalls.
 

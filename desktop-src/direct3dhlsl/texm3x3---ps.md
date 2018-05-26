@@ -1,7 +1,12 @@
 ---
 title: texm3x3 - ps
 description: Performs a 3x3 matrix multiply when used in conjunction with two texm3x3pad - ps instructions.
-ms.assetid: 'd0b14c87-3507-4237-9f2c-1eb94a6df71c'
+ms.assetid: d0b14c87-3507-4237-9f2c-1eb94a6df71c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # texm3x3 - ps

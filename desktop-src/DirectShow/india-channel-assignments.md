@@ -1,7 +1,12 @@
 ---
-Description: 'This topic lists the frequency tables used for analog TV tuning for India.'
-ms.assetid: '4bf7a67e-0434-4177-96c7-dcaad14c6545'
+Description: This topic lists the frequency tables used for analog TV tuning for India.
+ms.assetid: 4bf7a67e-0434-4177-96c7-dcaad14c6545
 title: India Channel Assignments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # India Channel Assignments

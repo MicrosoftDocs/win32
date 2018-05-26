@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an event key that changes the weight of an animation track. The weight is used as a multiplier when combining multiple tracks together.'
-ms.assetid: 'fb2859de-9e77-49dd-be48-a50e22e2fc3a'
-title: 'ID3DXAnimationController::KeyTrackWeight method'
+---
+Description: Sets an event key that changes the weight of an animation track. The weight is used as a multiplier when combining multiple tracks together.
+ms.assetid: fb2859de-9e77-49dd-be48-a50e22e2fc3a
+title: ID3DXAnimationControllerKeyTrackWeight method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::KeyTrackWeight method

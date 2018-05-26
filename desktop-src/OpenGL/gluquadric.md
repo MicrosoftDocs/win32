@@ -1,8 +1,9 @@
 ---
 title: gluQuadricCallback function
 description: The gluQuadricCallback function defines a callback for a quadric object.
-ms.assetid: '1f1e9fe9-7239-419c-92b6-af2534850ac5'
-keywords: ["gluQuadricCallback function OpenGL"]
+ms.assetid: 1f1e9fe9-7239-419c-92b6-af2534850ac5
+keywords:
+- gluQuadricCallback function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluQuadricCallback function
@@ -22,9 +28,9 @@ The **gluQuadricCallback** function defines a callback for a quadric object.
 
 ```C++
 void WINAPI gluQuadricCallback(
-   GLUquadric *qobj,
-   GLenum     which,
-   void (CALLBACK *fn)()
+   GLUquadric *qobj,
+   GLenum     which,
+   void (CALLBACK *fn)()
 );
 ```
 
@@ -54,7 +60,7 @@ The callback being defined. The only valid value is GLU\_ERROR.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -79,8 +85,8 @@ Use **gluQuadricCallback** to define a new callback to be used by a quadric obje
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -97,9 +103,9 @@ Use **gluQuadricCallback** to define a new callback to be used by a quadric obje
 [**gluNewQuadric**](glunewquadric.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

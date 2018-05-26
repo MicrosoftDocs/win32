@@ -1,8 +1,39 @@
 ---
 title: About Microsoft Windows Image Acquisition Automation Layer
 description: The Windows Image Acquisition (WIA) Automation Layer is a high-quality, full-featured image manipulation component that provides end-to-end image processing capabilities for Microsoft Visual Basic 6.0, Active Server Pages (ASP), and scripting languages.
-ms.assetid: '808b575e-e3ba-4229-9625-651b33e77c3f'
-keywords: ["Windows Image Acquisition (WIA),about", "WIA (Windows Image Acquisition),about", "Windows Image Acquisition Automation Layer,about", "WIA Automation Layer,about", "Image Acquisition Automation Layer,about", "Windows Image Acquisition (WIA),objects", "WIA (Windows Image Acquisition),objects", "Windows Image Acquisition Automation Layer,objects", "WIA Automation Layer,objects", "Image Acquisition Automation Layer,objects", "Windows Image Acquisition (WIA),accessing imaging devices", "WIA (Windows Image Acquisition),accessing maging devices", "Windows Image Acquisition Automation Layer,accessing imaging devices", "WIA Automation Layer,accessing imaging devices", "Image Acquisition Automation Layer,accessing imaging devices", "accessing imaging devices", "Windows Image Acquisition (WIA),examples", "WIA (Windows Image Acquisition),examples", "Windows Image Acquisition Automation Layer,examples", "WIA Automation Layer,examples", "Image Acquisition Automation Layer,examples", "Windows Image Acquisition (WIA),sample code", "WIA (Windows Image Acquisition),sample code", "Windows Image Acquisition Automation Layer,sample code", "WIA Automation Layer,sample code", "Image Acquisition Automation Layer,sample code"]
+ms.assetid: 808b575e-e3ba-4229-9625-651b33e77c3f
+keywords:
+- Windows Image Acquisition (WIA),about
+- WIA (Windows Image Acquisition),about
+- Windows Image Acquisition Automation Layer,about
+- WIA Automation Layer,about
+- Image Acquisition Automation Layer,about
+- Windows Image Acquisition (WIA),objects
+- WIA (Windows Image Acquisition),objects
+- Windows Image Acquisition Automation Layer,objects
+- WIA Automation Layer,objects
+- Image Acquisition Automation Layer,objects
+- Windows Image Acquisition (WIA),accessing imaging devices
+- WIA (Windows Image Acquisition),accessing maging devices
+- Windows Image Acquisition Automation Layer,accessing imaging devices
+- WIA Automation Layer,accessing imaging devices
+- Image Acquisition Automation Layer,accessing imaging devices
+- accessing imaging devices
+- Windows Image Acquisition (WIA),examples
+- WIA (Windows Image Acquisition),examples
+- Windows Image Acquisition Automation Layer,examples
+- WIA Automation Layer,examples
+- Image Acquisition Automation Layer,examples
+- Windows Image Acquisition (WIA),sample code
+- WIA (Windows Image Acquisition),sample code
+- Windows Image Acquisition Automation Layer,sample code
+- WIA Automation Layer,sample code
+- Image Acquisition Automation Layer,sample code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Microsoft Windows Image Acquisition Automation Layer

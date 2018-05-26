@@ -1,7 +1,12 @@
 ---
 title: Item Parameter
 description: The Item parameter is dependent on the specified command. For usage information, see the individual commands that use this parameter.
-ms.assetid: '3E9A7781-0CBC-4e99-BB37-BC2BB4FD721A'
+ms.assetid: 3E9A7781-0CBC-4e99-BB37-BC2BB4FD721A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Item Parameter
@@ -62,7 +67,7 @@ Valid values depend on which [command](about-commands.md) is specified.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -71,9 +76,9 @@ Valid values depend on which [command](about-commands.md) is specified.
 [About Parameters](parameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

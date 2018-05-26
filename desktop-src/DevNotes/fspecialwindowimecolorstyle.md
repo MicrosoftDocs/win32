@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the specified color is a special window color.'
-ms.assetid: '41f7d4fb-9718-42a8-89df-c29bd8c0665b'
+---
+Description: Specifies whether the specified color is a special window color.
+ms.assetid: 41f7d4fb-9718-42a8-89df-c29bd8c0665b
 title: FSpecialWindowIMEColorStyle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FSpecialWindowIMEColorStyle function

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '947391B5-5355-4ADB-B26E-A51FE0B0B85F'
+---
+Description: .
+ms.assetid: 947391B5-5355-4ADB-B26E-A51FE0B0B85F
 title: SplDeleteSpoolerPortEnd function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SplDeleteSpoolerPortEnd function

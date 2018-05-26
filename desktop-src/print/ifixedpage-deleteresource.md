@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DeleteResource method deletes a resource that is associated with the page.'
-ms.assetid: '11aefa65-9f1c-4a6e-aac0-8727c6e00a02'
-title: 'IFixedPage::DeleteResource method'
+---
+Description: The DeleteResource method deletes a resource that is associated with the page.
+ms.assetid: 11aefa65-9f1c-4a6e-aac0-8727c6e00a02
+title: IFixedPageDeleteResource method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedPage::DeleteResource method

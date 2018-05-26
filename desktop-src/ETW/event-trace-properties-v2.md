@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EVENT\_TRACE\_PROPERTIES\_V2 structure contains information about an event tracing session.'
-ms.assetid: '2EEDB53B-75BC-48AC-A70D-9AEAED526C40'
-title: 'EVENT\_TRACE\_PROPERTIES\_V2 structure'
+---
+Description: The EVENT\_TRACE\_PROPERTIES\_V2 structure contains information about an event tracing session.
+ms.assetid: 2EEDB53B-75BC-48AC-A70D-9AEAED526C40
+title: EVENT\_TRACE\_PROPERTIES\_V2 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EVENT\_TRACE\_PROPERTIES\_V2 structure
@@ -423,9 +428,9 @@ The version of the structure. This should be set to "2" for this version.
 **FilterDesc**
 </dt> <dd>
 
-Supported [**EVENT\_FILTER\_DESCRIPTOR**](event-filter-descriptor.md) filter types for system wide private loggers: **EVENT\_FILTER\_TYPE\_EXECUTABLE\_NAME** and **EVENT\_FILTER\_TYPE\_PID**
+Supported [**EVENT\_FILTER\_DESCRIPTOR**](/windows/win32/Evntprov/ns-evntprov-_event_filter_descriptor?branch=master) filter types for system wide private loggers: **EVENT\_FILTER\_TYPE\_EXECUTABLE\_NAME** and **EVENT\_FILTER\_TYPE\_PID**
 
-A pointer to an array of [**EVENT\_FILTER\_DESCRIPTOR**](event-filter-descriptor.md) structures that points to the filter data. The number of elements in the array is specified in the **FilterDescCount** member. There can only be one filter for a specific filter type as specified by the **Type** member of the **EVENT\_FILTER\_DESCRIPTOR** structure.
+A pointer to an array of [**EVENT\_FILTER\_DESCRIPTOR**](/windows/win32/Evntprov/ns-evntprov-_event_filter_descriptor?branch=master) structures that points to the filter data. The number of elements in the array is specified in the **FilterDescCount** member. There can only be one filter for a specific filter type as specified by the **Type** member of the **EVENT\_FILTER\_DESCRIPTOR** structure.
 
 This is only applicable to Private Loggers. The only time this should not be null is when it is used for system wide Private Loggers.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SelectUpperButton method selects the upper directional button from the displayed menu.'
-ms.assetid: 'ace9e5b4-5461-46d6-94a5-420ec0825c70'
+---
+Description: The SelectUpperButton method selects the upper directional button from the displayed menu.
+ms.assetid: ace9e5b4-5461-46d6-94a5-420ec0825c70
 title: SelectUpperButton Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SelectUpperButton Method

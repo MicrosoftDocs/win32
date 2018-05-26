@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a Boolean value that indicates whether the keyEncipherment bit is set.'
-ms.assetid: '2bdce181-3de7-4dc1-8059-1e1ca96c0d2d'
-title: 'KeyUsage.IsKeyEnciphermentEnabled property'
+---
+Description: Retrieves a Boolean value that indicates whether the keyEncipherment bit is set.
+ms.assetid: 2bdce181-3de7-4dc1-8059-1e1ca96c0d2d
+title: KeyUsage.IsKeyEnciphermentEnabled property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeyUsage.IsKeyEnciphermentEnabled property

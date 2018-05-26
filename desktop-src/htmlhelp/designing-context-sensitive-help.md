@@ -1,7 +1,12 @@
 ---
 title: Designing Context-Sensitive Help
 description: Designing Context-Sensitive Help
-ms.assetid: 'A46DD6FA-9054-4b49-8F98-BDEE00DBE21E'
+ms.assetid: A46DD6FA-9054-4b49-8F98-BDEE00DBE21E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing Context-Sensitive Help

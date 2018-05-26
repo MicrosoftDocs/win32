@@ -1,8 +1,11 @@
 ---
 title: IMimeHeaderTable SetRowData method
 description: Sets or changes the data for a row in the header table.
-ms.assetid: '6064cc70-78fb-4ed0-867c-f71b1df4ef57'
-keywords: ["SetRowData method Windows Mail (formerly Outlook Express)", "SetRowData method Windows Mail (formerly Outlook Express) , IMimeHeaderTable interface", "IMimeHeaderTable interface Windows Mail (formerly Outlook Express) , SetRowData method"]
+ms.assetid: 6064cc70-78fb-4ed0-867c-f71b1df4ef57
+keywords:
+- SetRowData method Windows Mail (formerly Outlook Express)
+- SetRowData method Windows Mail (formerly Outlook Express) , IMimeHeaderTable interface
+- IMimeHeaderTable interface Windows Mail (formerly Outlook Express) , SetRowData method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeHeaderTable::SetRowData method
@@ -22,10 +30,10 @@ Sets or changes the data for a row in the header table.
 
 ```C++
 HRESULT SetRowData(
-  [in] HHEADERROW hRow,
-  [in] DWORD      dwFlags,
-  [in] LPCSTR     pszData,
-  [in] ULONG      cchData
+  [in] HHEADERROW hRow,
+  [in] DWORD      dwFlags,
+  [in] LPCSTR     pszData,
+  [in] ULONG      cchData
 );
 ```
 
@@ -59,7 +67,7 @@ Specifies a bitmask that indicates that the name of the header is contained in *
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -99,7 +107,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -107,8 +115,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -116,9 +124,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Scene3Button element
 description: Specifies the location and size of the \ 0034;Scene 3 \ 0034; button.
-ms.assetid: '8ddf97f3-0f6c-4855-861e-ca8cab607b8b'
-keywords: ["Scene3Button element Windows Movie Maker and DVD Maker"]
+ms.assetid: 8ddf97f3-0f6c-4855-861e-ca8cab607b8b
+keywords:
+- Scene3Button element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Scene3Button
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scene3Button element
@@ -49,7 +55,7 @@ When available, this button plays the clip that the user assigned to the "Scene 
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -61,9 +67,9 @@ When available, this button plays the clip that the user assigned to the "Scene 
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the mouse pointer is moved over the InkPicture control and a mouse button is released.'
-ms.assetid: '5e49acc8-1ce1-45ff-b87c-04bdc653156a'
-title: 'InkPicture.MouseUp event'
+Description: Occurs when the mouse pointer is moved over the InkPicture control and a mouse button is released.
+ms.assetid: 5e49acc8-1ce1-45ff-b87c-04bdc653156a
+title: InkPicture.MouseUp event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture.MouseUp event
@@ -13,11 +18,11 @@ Occurs when the mouse pointer is moved over the [InkPicture](inkpicture-control-
 
 ```C++
 void MouseUp(
-  [in]      InkMouseButton           Button,
-  [in]      InkShiftKeyModifierFlags Shift,
-  [in]      long                     pX,
-  [in]      long                     pY,
-  [in, out] VARIANT_BOOL             *Cancel
+  [in]      InkMouseButton           Button,
+  [in]      InkShiftKeyModifierFlags Shift,
+  [in]      long                     pX,
+  [in]      long                     pY,
+  [in, out] VARIANT_BOOL             *Cancel
 );
 ```
 
@@ -44,14 +49,14 @@ The state of the SHIFT key.
 *pX* \[in\]
 </dt> <dd>
 
-The x-coordinate, in pixels, of the [**IInkCursor**](iinkcursor.md) object.
+The x-coordinate, in pixels, of the [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object.
 
 </dd> <dt>
 
 *pY* \[in\]
 </dt> <dd>
 
-The y-coordinate, in pixels, of the [**IInkCursor**](iinkcursor.md) object.
+The y-coordinate, in pixels, of the [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object.
 
 </dd> <dt>
 
@@ -71,12 +76,12 @@ This event does not return a value.
 > [!Note]  
 > The parameters *pX* and *pY* are in pixels, and not the HIMETRIC units that are associated with the ink space coordinate system. This is because this event replaces the related mouse event of an application that is not pen-aware, and that type of application refers only to pixels.
 
- 
+ 
 
 > \[!Caution\]  
 > Some controls rely on a specific relationship between [**MouseDown**](inkpicture-mousedown.md), [**MouseMove**](inkpicture-mousemove.md), and **MouseUp** events. Canceling some of these events may have unanticipated results.
 
- 
+ 
 
 This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface with an identifier of DISPID\_IPEMouseDown.
 
@@ -86,7 +91,7 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -100,9 +105,9 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 [InkPicture](inkpicture-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Network Management Function Buffer Lengths
 description: This topic discusses the requirements for function buffer lengths when used with the network management APIs.
-ms.assetid: '08599966-68a1-420b-bbc7-6daac833d08f'
+ms.assetid: 08599966-68a1-420b-bbc7-6daac833d08f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Management Function Buffer Lengths

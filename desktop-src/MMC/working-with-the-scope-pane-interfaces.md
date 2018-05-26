@@ -4,11 +4,15 @@ description: The MMC SDK specifies several interfaces and other language constru
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dea974cd-4161-4edd-a383-7e45d0e7ae07'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: dea974cd-4161-4edd-a383-7e45d0e7ae07
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["working with the scope pane MMC , interfaces"]
+keywords:
+- working with the scope pane MMC , interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with the Scope Pane: Interfaces

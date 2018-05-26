@@ -1,13 +1,16 @@
 ---
-Description: 'Convert a security descriptor between the Win32\_SecurityDescriptor, Security Descriptor Definition Language (SDDL), and binary byte array formats.'
+Description: Convert a security descriptor between the Win32\_SecurityDescriptor, Security Descriptor Definition Language (SDDL), and binary byte array formats.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b9454a2d-5bcc-4e8b-aca8-4294698480e3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b9454a2d-5bcc-4e8b-aca8-4294698480e3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SecurityDescriptorHelper class'
+title: Win32\_SecurityDescriptorHelper class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SecurityDescriptorHelper class
@@ -46,7 +49,7 @@ The **Win32\_SecurityDescriptorHelper** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,8 +57,8 @@ The **Win32\_SecurityDescriptorHelper** class has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -78,9 +81,9 @@ The **Win32\_SecurityDescriptorHelper** class has these methods.
 [Access to WMI Namespaces](https://msdn.microsoft.com/library/aa822575)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

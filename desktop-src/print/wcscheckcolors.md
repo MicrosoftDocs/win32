@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WcsCheckColors function determines whether the colors in an array lie within the output gamut of a specified WCS color transform.'
-ms.assetid: '1254b0d4-cb72-4171-b09d-f0bca58a137a'
+---
+Description: The WcsCheckColors function determines whether the colors in an array lie within the output gamut of a specified WCS color transform.
+ms.assetid: 1254b0d4-cb72-4171-b09d-f0bca58a137a
 title: WcsCheckColors function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsCheckColors function

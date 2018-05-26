@@ -1,7 +1,12 @@
 ---
 title: VML V-Text-Anchor Attribute
 description: VML V-Text-Anchor Attribute
-ms.assetid: 'd6e2f60c-5cc7-4340-a9cd-b6c2b0b5b0be'
+ms.assetid: d6e2f60c-5cc7-4340-a9cd-b6c2b0b5b0be
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML V-Text-Anchor Attribute

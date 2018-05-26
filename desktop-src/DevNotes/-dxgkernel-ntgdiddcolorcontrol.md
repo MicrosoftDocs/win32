@@ -1,7 +1,12 @@
-﻿---
-Description: 'Controls the luminance and brightness controls of an overlay surface.'
-ms.assetid: '2f617c89-5505-4d84-be7d-473b216c0571'
+---
+Description: Controls the luminance and brightness controls of an overlay surface.
+ms.assetid: 2f617c89-5505-4d84-be7d-473b216c0571
 title: NtGdiDdColorControl function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdColorControl function

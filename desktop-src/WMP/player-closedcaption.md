@@ -1,8 +1,9 @@
 ---
 title: Player.closedCaption
 description: The closedCaption property retrieves the ClosedCaption object.
-ms.assetid: '09bb0fb0-bb02-43d1-af07-55389ee2b165'
-keywords: ["Player.closedCaption Windows Media Player"]
+ms.assetid: 09bb0fb0-bb02-43d1-af07-55389ee2b165
+keywords:
+- Player.closedCaption Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.closedCaption
@@ -46,9 +52,9 @@ This property is a read-only **ClosedCaption** object.
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,15 @@
 ---
 title: Blending
-description: Blending combines a fragment's R, G, B, and A values with those stored in the framebuffer at the corresponding location.
-ms.assetid: '02a78ce3-bb0a-4e9c-a2b1-6da8e95bcee5'
-keywords: ["OpenGL processing pipeline,blending", "blending OpenGL"]
+description: Blending combines a fragments R, G, B, and A values with those stored in the framebuffer at the corresponding location.
+ms.assetid: 02a78ce3-bb0a-4e9c-a2b1-6da8e95bcee5
+keywords:
+- OpenGL processing pipeline,blending
+- blending OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Blending

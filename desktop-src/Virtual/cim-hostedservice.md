@@ -1,8 +1,10 @@
 ---
 title: CIM\_HostedService class
 description: Represents an association between a service and the system that hosts the service. A System can host many services, however this class does not represent services hosted across multiple systems.
-ms.assetid: '2a193332-507e-42e0-b51c-0b7a36257b2e'
-keywords: ["CIM_HostedService class Hyper-V", "CIM_HostedService class Hyper-V , described"]
+ms.assetid: 2a193332-507e-42e0-b51c-0b7a36257b2e
+keywords:
+- CIM_HostedService class Hyper-V
+- CIM_HostedService class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_HostedService class
@@ -27,7 +34,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, Association, Version("2.10.0"), AMENDMENT]
 class CIM_HostedService : CIM_HostedDependency
 {
-  CIM_System  REF Antecedent;
+  CIM_System  REF Antecedent;
   CIM_Service REF Dependent;
 };
 ```
@@ -83,9 +90,9 @@ The Service hosted on the System.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ The Service hosted on the System.
 [**CIM\_HostedDependency**](cim-hosteddependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

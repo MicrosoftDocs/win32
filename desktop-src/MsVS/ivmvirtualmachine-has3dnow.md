@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine Has3DNow property
 description: The Has3DNow property contains TRUE if the processor supports the 3DNow instruction set.
-ms.assetid: 'ea9bf1a9-f084-4a0f-af21-0d01d17c1d08'
-keywords: ["Has3DNow property Virtual Server", "Has3DNow property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , Has3DNow property", "Has3DNow property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , Has3DNow property"]
+ms.assetid: ea9bf1a9-f084-4a0f-af21-0d01d17c1d08
+keywords:
+- Has3DNow property Virtual Server
+- Has3DNow property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , Has3DNow property
+- Has3DNow property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , Has3DNow property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Has3DNow property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Has3DNow(
-  [out] VARIANT_BOOL *threeDNowEnabled
+  [out] VARIANT_BOOL *threeDNowEnabled
 );
 ```
 
@@ -92,8 +102,8 @@ WScript.Echo "Has3DNow: " & objVM.Has3DNow
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -105,9 +115,9 @@ WScript.Echo "Has3DNow: " & objVM.Has3DNow
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

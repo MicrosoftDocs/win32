@@ -1,8 +1,16 @@
 ---
 title: SessionfullCalculatorServiceExample
 description: An implementation of a sessionful calculator service using the Service Host.
-ms.assetid: '7501025b-5692-4f89-ad74-c60694c29163'
-keywords: ["SessionfullCalculatorServiceExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 7501025b-5692-4f89-ad74-c60694c29163
+keywords:
+- SessionfullCalculatorServiceExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SessionfullCalculatorServiceExample

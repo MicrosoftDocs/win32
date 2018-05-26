@@ -1,18 +1,23 @@
 ---
 Description: Encoding
-ms.assetid: '501e63bf-26ef-42fb-b181-f1a8b26c122c'
+ms.assetid: 501e63bf-26ef-42fb-b181-f1a8b26c122c
 title: Encoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encoding
 
 The encoder author must do the following:
 
--   Implement [**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md) and [**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md) interfaces.
--   Implement [**IWICMetadataBlockWriter**](-wic-codec-iwicmetadatablockwriter.md) on the frame encoder. If the codec supports container-level metadata, this interface must be implemented on the container-level encoder as well as on the frame encoder.
+-   Implement [**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master) and [**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master) interfaces.
+-   Implement [**IWICMetadataBlockWriter**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter?branch=master) on the frame encoder. If the codec supports container-level metadata, this interface must be implemented on the container-level encoder as well as on the frame encoder.
 -   If the container format implicitly contains any mandatory metadata blocks, instantiate a metadata writer for each such block. For example, the TIFF format requires an interface device (IFD) for each frame, so the IFD writer must always be exposed.
 -   Implement support for managing the collection of metadata writers. The block writer manages any order requirements or container restrictions on the kinds of metadata blocks that can be encoded. The block writer must verify that any new metadata writers can be embedded within the container format.
--   When encoding the image stream, call [**WICSerializeMetadataContent**](-wic-codec-wicserializemetadatacontent.md) to serialize each metadata writer’s content into the stream. If the metadata block contains "critical" metadata the encoder must set the critical metadata items before asking the metadata writer to serialize content.
+-   When encoding the image stream, call [**WICSerializeMetadataContent**](/windows/win32/wincodecsdk/nf-wincodecsdk-wicserializemetadatacontent?branch=master) to serialize each metadata writer’s content into the stream. If the metadata block contains "critical" metadata the encoder must set the critical metadata items before asking the metadata writer to serialize content.
 -   Check for any unknown metadata handlers to ensure that redundant metadata blocks are not present. This is important because, while preserving metadata in a decode or encode scenario, unknown blocks might be a duplicate of mandatory metadata blocks.
 
 ## Related topics

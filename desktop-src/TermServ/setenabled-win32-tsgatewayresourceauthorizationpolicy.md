@@ -4,11 +4,14 @@ description: Enables or disables the Remote Desktop resource authorization polic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ee5830ba-36a1-4f28-a902-be5867439ada'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ee5830ba-36a1-4f28-a902-be5867439ada
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetEnabled method Remote Desktop Services", "SetEnabled method Remote Desktop Services , Win32_TSGatewayResourceAuthorizationPolicy class", "Win32_TSGatewayResourceAuthorizationPolicy class Remote Desktop Services , SetEnabled method"]
+keywords:
+- SetEnabled method Remote Desktop Services
+- SetEnabled method Remote Desktop Services , Win32_TSGatewayResourceAuthorizationPolicy class
+- Win32_TSGatewayResourceAuthorizationPolicy class Remote Desktop Services , SetEnabled method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetEnabled method of the Win32\_TSGatewayResourceAuthorizationPolicy class
 
-Enables or disables the Remote Desktop resource authorization policy (RD RAP) by setting the **Enabled** property.
+Enables or disables the Remote Desktop resource authorization policy (RD RAP) by setting the **Enabled** property.
 
 ## Syntax
 
 
 ```mof
 uint32 SetEnabled(
-  [in] boolean Enabled
+  [in] boolean Enabled
 );
 ```
 
@@ -41,7 +47,7 @@ uint32 SetEnabled(
 *Enabled* \[in\]
 </dt> <dd>
 
-If **True**, the RD RAP will be enabled. If **False**, the RD RAP will be disabled.
+If **True**, the RD RAP will be enabled. If **False**, the RD RAP will be disabled.
 
 </dd> </dl>
 
@@ -62,7 +68,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -76,9 +82,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayResourceAuthorizationPolicy**](win32-tsgatewayresourceauthorizationpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

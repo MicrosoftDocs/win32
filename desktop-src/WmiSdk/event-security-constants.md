@@ -1,13 +1,16 @@
 ---
-Description: 'The following shows the WMI security constants used for events. They are used to set access control entries (ACEs) in security descriptors used for events or sinks.'
+Description: The following shows the WMI security constants used for events. They are used to set access control entries (ACEs) in security descriptors used for events or sinks.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '18318262-d948-4329-8d48-23664798fc58'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 18318262-d948-4329-8d48-23664798fc58
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Event Security Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Event Security Constants
@@ -37,7 +40,7 @@ Specifies that the account can publish events to the instance of [**\_\_EventFil
 
 
 
-Specifies that a consumer can subscribe to the events delivered to a sink. Used in [**IWbemEventSink::SetSinkSecurity**](iwbemeventsink-setsinksecurity.md). Available in wbemcli.h.
+Specifies that a consumer can subscribe to the events delivered to a sink. Used in [**IWbemEventSink::SetSinkSecurity**](/windows/win32/Wbemprov/nf-wbemprov-iwbemeventsink-setsinksecurity?branch=master). Available in wbemcli.h.
 
 
 </dt> </dl> </dd> <dt>
@@ -61,8 +64,8 @@ Event provider indicates that WMI checks the **SECURITY\_DESCRIPTOR** property i
 
 |                                     |                                                                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                         |
 | Header<br/>                   | <dl> <dt>Wbemcli.h; </dt> <dt>Wbemprov.h</dt> </dl> |
 
 
@@ -80,9 +83,9 @@ Event provider indicates that WMI checks the **SECURITY\_DESCRIPTOR** property i
 [Securing WMI Events](securing-wmi-events.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

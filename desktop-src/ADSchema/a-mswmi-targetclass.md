@@ -4,17 +4,22 @@ description: Class name of the policy object to be created.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3b6dbdd2-e87f-4ae5-97a0-ccbee7221593'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 3b6dbdd2-e87f-4ae5-97a0-ccbee7221593
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-TargetClass attribute AD Schema", "msWMI-TargetClass attribute AD Schema"]
+keywords:
+- ms-WMI-TargetClass attribute AD Schema
+- msWMI-TargetClass attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-TargetClass
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-TargetClass attribute
@@ -38,11 +43,11 @@ Class name of the policy object to be created.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Class name of the policy object to be created.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

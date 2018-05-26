@@ -4,13 +4,16 @@ description: Applies a fence to a specific file or directory.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd53ff41f-d397-45be-ba2e-c0dd5d702b29'
-ms.prod: 'windows-server-dev'
+ms.assetid: d53ff41f-d397-45be-ba2e-c0dd5d702b29
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Fence method Distributed File System Replication", "Fence method Distributed File System Replication , DfsrReplicatedFolderInfo class", "DfsrReplicatedFolderInfo class Distributed File System Replication , Fence method"]
+keywords:
+- Fence method Distributed File System Replication
+- Fence method Distributed File System Replication , DfsrReplicatedFolderInfo class
+- DfsrReplicatedFolderInfo class Distributed File System Replication , Fence method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Fence method of the DfsrReplicatedFolderInfo class
@@ -30,9 +36,9 @@ Applies a fence to a specific file or directory.
 
 ```mof
 uint32 Fence(
-  [in] uint8   Mode,
-  [in] string  FilePath,
-  [in] boolean IsRecursive
+  [in] uint8   Mode,
+  [in] string  FilePath,
+  [in] boolean IsRecursive
 );
 ```
 
@@ -128,9 +134,9 @@ This method returns one of the [MONITOR\_STATUS return codes](monitor-status-ret
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -144,9 +150,9 @@ This method returns one of the [MONITOR\_STATUS return codes](monitor-status-ret
 [**DfsrReplicatedFolderInfo**](dfsrreplicatedfolderinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

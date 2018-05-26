@@ -4,13 +4,15 @@ description: Describes the available storage pool.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'FEC98164-0A71-4818-83F4-FF2D4AFB81CD'
-ms.prod: 'windows-server-dev'
+ms.assetid: FEC98164-0A71-4818-83F4-FF2D4AFB81CD
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_AvailableStoragePool class", "MSCluster_AvailableStoragePool class, described"]
+keywords:
+- MSCluster_AvailableStoragePool class
+- MSCluster_AvailableStoragePool class, described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_AvailableStoragePool class
@@ -47,20 +52,20 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{5C689C85-D436-481B-966C-8845EF9DF920}"), AMENDMENT]
 class MSCluster_AvailableStoragePool : MSCluster_LogicalElement
 {
-  string   Caption;
+  string   Caption;
   datetime InstallDate;
-  string   Status;
-  uint32   Flags;
-  uint32   Characteristics;
-  string   Id;
-  string   Name;
-  string   Description;
-  uint32   HealthStatus;
-  uint32   QuorumStatus;
-  uint64   Attributes;
-  uint64   TotalSize;
-  uint64   Usage;
-  string   ConnectedNodes[];
+  string   Status;
+  uint32   Flags;
+  uint32   Characteristics;
+  string   Id;
+  string   Name;
+  string   Description;
+  uint32   HealthStatus;
+  uint32   QuorumStatus;
+  uint64   Attributes;
+  uint64   TotalSize;
+  uint64   Usage;
+  string   ConnectedNodes[];
 };
 ```
 
@@ -83,7 +88,7 @@ The **MSCluster\_AvailableStoragePool** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -165,9 +170,9 @@ Access type: Read-only
 
 Provides the characteristics of the object. The cluster defines characteristics only for [resources](https://msdn.microsoft.com/library/aa372152). For a description of these characteristics, see [CLUSCTL\_RESOURCE\_GET\_CHARACTERISTICS](https://msdn.microsoft.com/library/aa367466).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -213,9 +218,9 @@ Access type: Read-only
 
 Provides access to the flags set for the object. The cluster defines flags only for resources. For a description of these flags, see [CLUSCTL\_RESOURCE\_GET\_FLAGS](https://msdn.microsoft.com/library/aa367471).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -484,7 +489,7 @@ The size of this storage pool that is used by spaces.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -498,9 +503,9 @@ The size of this storage pool that is used by spaces.
 [**MSCluster\_LogicalElement**](mscluster-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

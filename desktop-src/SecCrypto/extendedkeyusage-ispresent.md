@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a Boolean value that indicates whether the EKU extension is present. This is the default property.'
-ms.assetid: 'd7568525-1054-47e1-a176-f154792f9589'
-title: 'ExtendedKeyUsage.IsPresent property'
+---
+Description: Returns a Boolean value that indicates whether the EKU extension is present. This is the default property.
+ms.assetid: d7568525-1054-47e1-a176-f154792f9589
+title: ExtendedKeyUsage.IsPresent property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExtendedKeyUsage.IsPresent property

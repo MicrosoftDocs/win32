@@ -1,7 +1,12 @@
 ---
-Description: 'You can specify that the driver clip the frames.'
-ms.assetid: 'a4f53568-684b-48cf-835b-915cefb45a5d'
+Description: You can specify that the driver clip the frames.
+ms.assetid: a4f53568-684b-48cf-835b-915cefb45a5d
 title: Clipping a Frame
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clipping a Frame

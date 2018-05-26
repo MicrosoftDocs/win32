@@ -1,8 +1,14 @@
 ---
 title: Pixel Formats
 description: Pixel Formats
-ms.assetid: '1ebeb051-2dc9-4753-a0f3-7d2737b5f7f2'
-keywords: ["OpenGL on Windows,pixels"]
+ms.assetid: 1ebeb051-2dc9-4753-a0f3-7d2737b5f7f2
+keywords:
+- OpenGL on Windows,pixels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pixel Formats
@@ -17,7 +23,7 @@ A *pixel format* specifies several properties of an OpenGL drawing surface. Some
 -   The number of overlay and underlay planes.
 -   Various visibility masks.
 
-Microsoft's implementation of OpenGL for Windows uses the [**PIXELFORMATDESCRIPTOR**](pixelformatdescriptor.md) data structure to convey pixel format data. The structure's members specify the preceding properties and several others.
+Microsoft's implementation of OpenGL for Windows uses the [**PIXELFORMATDESCRIPTOR**](/windows/win32/Wingdi/ns-wingdi-tagpixelformatdescriptor?branch=master) data structure to convey pixel format data. The structure's members specify the preceding properties and several others.
 
 A given device context can support several pixel formats. Windows identifies the pixel formats that a device context supports with consecutive one-based index values (1, 2, 3, 4, and so on). A device context can have just one current pixel format, chosen from the set of pixel formats it supports.
 

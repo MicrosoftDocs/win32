@@ -1,12 +1,18 @@
 ---
 title: TextureCubeArray SampleCmpLevelZero methods
 description: Samples a texture on mipmap level 0 only, using a comparison value to reject samples.
-ms.assetid: '85A7DAC6-25E3-4BB5-BE80-F0A32FCBEF80'
-keywords: ["SampleCmpLevelZero methods HLSL"]
+ms.assetid: 85A7DAC6-25E3-4BB5-BE80-F0A32FCBEF80
+keywords:
+- SampleCmpLevelZero methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCubeArray::SampleCmpLevelZero methods
@@ -34,9 +40,9 @@ Samples a texture on mipmap level 0 only, using a comparison value to reject sam
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

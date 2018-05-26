@@ -1,7 +1,12 @@
 ---
 Description: Driver Interfaces
-ms.assetid: 'e21ee6fd-6ecf-4cea-808d-3798b13f566c'
+ms.assetid: e21ee6fd-6ecf-4cea-808d-3798b13f566c
 title: Driver Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Driver Interfaces

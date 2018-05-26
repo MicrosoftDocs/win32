@@ -1,8 +1,15 @@
 ---
 title: Photo Printing Wizard
 description: The Photo Printing Wizard helps users print photos by providing an easy-to-use wizard interface.
-ms.assetid: '9cc2c7d4-a2aa-4abc-9c63-b091e044804f'
-keywords: ["Photo Printing Wizard", "IDropTarget,Photo Printing Wizard"]
+ms.assetid: 9cc2c7d4-a2aa-4abc-9c63-b091e044804f
+keywords:
+- Photo Printing Wizard
+- IDropTarget,Photo Printing Wizard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Photo Printing Wizard

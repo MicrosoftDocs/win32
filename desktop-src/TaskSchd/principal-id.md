@@ -1,8 +1,11 @@
 ---
 title: Principal.Id property
 description: For scripting, gets or sets the identifier of the principal.
-ms.assetid: '70c31ea8-508a-4971-b62a-b94e87a8857d'
-keywords: ["Id property Task Scheduler", "Id property Task Scheduler , Principal object", "Principal object Task Scheduler , Id property"]
+ms.assetid: 70c31ea8-508a-4971-b62a-b94e87a8857d
+keywords:
+- Id property Task Scheduler
+- Id property Task Scheduler , Principal object
+- Principal object Task Scheduler , Id property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Principal.Id property
@@ -42,8 +50,8 @@ When reading or writing XML for a task, the identifier of the principal is speci
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -62,9 +70,9 @@ When reading or writing XML for a task, the identifier of the principal is speci
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

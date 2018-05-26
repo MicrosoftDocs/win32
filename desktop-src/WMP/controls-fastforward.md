@@ -1,8 +1,11 @@
 ---
 title: Controls.fastForward method
 description: The fastForward method starts fast play of the media item in the forward direction.
-ms.assetid: '69cee803-f76b-4a8c-a2c2-1870665afaf9'
-keywords: ["fastForward method Windows Media Player", "fastForward method Windows Media Player , Controls class", "Controls class Windows Media Player , fastForward method"]
+ms.assetid: 69cee803-f76b-4a8c-a2c2-1870665afaf9
+keywords:
+- fastForward method Windows Media Player
+- fastForward method Windows Media Player , Controls class
+- Controls class Windows Media Player , fastForward method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.fastForward method
@@ -89,9 +97,9 @@ The following example creates an HTML BUTTON element that uses **fastForward** t
 [**Settings.rate**](settings-rate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

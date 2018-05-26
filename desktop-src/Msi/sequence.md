@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SEQUENCE property specifies a table having the same schema as the InstallExecuteSequence table, that is Action, Condition, and Sequence columns. This property is used by the SEQUENCE action.'
-ms.assetid: '8b1da4a3-0b82-4b71-8a32-59e90025cbfa'
+---
+Description: The SEQUENCE property specifies a table having the same schema as the InstallExecuteSequence table, that is Action, Condition, and Sequence columns. This property is used by the SEQUENCE action.
+ms.assetid: 8b1da4a3-0b82-4b71-8a32-59e90025cbfa
 title: SEQUENCE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SEQUENCE property

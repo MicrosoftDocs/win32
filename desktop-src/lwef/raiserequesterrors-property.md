@@ -1,7 +1,12 @@
 ---
 title: RaiseRequestErrors Property
 description: RaiseRequestErrors Property
-ms.assetid: '60eb4478-526e-492a-8fb3-d1e54eff9868'
+ms.assetid: 60eb4478-526e-492a-8fb3-d1e54eff9868
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RaiseRequestErrors Property
@@ -26,11 +31,11 @@ Returns or sets whether errors for requests are raised.
 
 | Part      | Description                                                                                                                                                                                            |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *boolean* | A Boolean value that determines whether errors in requests are raised.<br/> **True**    (Default) Request errors are raised. <br/> **False**     Request errors are not raised.<br/> |
+| *boolean* | A Boolean value that determines whether errors in requests are raised.<br/> **True**    (Default) Request errors are raised. <br/> **False**     Request errors are not raised.<br/> |
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -40,9 +45,9 @@ This property enables you to determine whether the server raises errors that occ
 
 It may be useful for programming languages that do not provide recovery when an error is raised. However, use care when setting this property to **False**, because it might be harder to find errors in your code.
 
- 
+ 
 
- 
+ 
 
 
 

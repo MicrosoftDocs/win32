@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_COMClass abstract WMI class represents the properties of a Component Object Model (COM) component.'
+Description: The Win32\_COMClass abstract WMI class represents the properties of a Component Object Model (COM) component.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0e1d3930-1499-423a-96b0-89b2f05a1191'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0e1d3930-1499-423a-96b0-89b2f05a1191
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_COMClass class'
+title: Win32\_COMClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_COMClass class
@@ -24,11 +27,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, UUID("{0F73ED50-8ED9-11d2-B340-00105A1F8569}"), AMENDMENT]
 class Win32_COMClass : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
+  string   Name;
+  string   Status;
 };
 ```
 
@@ -234,8 +237,8 @@ The **Win32\_COMClass** class is derived from [**CIM\_LogicalElement**](cim-logi
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -252,9 +255,9 @@ The **Win32\_COMClass** class is derived from [**CIM\_LogicalElement**](cim-logi
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

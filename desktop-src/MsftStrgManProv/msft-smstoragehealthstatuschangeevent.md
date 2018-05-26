@@ -4,11 +4,13 @@ description: Represents a health status change event for a storage system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f979d5d0-74c8-4001-96ae-397efc1c3109'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: f979d5d0-74c8-4001-96ae-397efc1c3109
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMStorageHealthStatusChangeEvent class", "MSFT_SMStorageHealthStatusChangeEvent class, described"]
+keywords:
+- MSFT_SMStorageHealthStatusChangeEvent class
+- MSFT_SMStorageHealthStatusChangeEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMStorageHealthStatusChangeEvent class
@@ -40,15 +45,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Indication, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMStorageHealthStatusChangeEvent : MSFT_SMStorageEvent
 {
-  string               StorageSubsystemObjectId;
+  string               StorageSubsystemObjectId;
   MSFT_SMStorageObject SourceInstance;
-  string               Description;
-  datetime             EventTime;
-  uint16               PerceivedSeverity;
-  string               SourceClassName;
-  MSFT_SMSystem        StorageSystem;
-  UInt16               PreviousHealthStatus;
-  UInt16               CurrentHealthStatus;
+  string               Description;
+  datetime             EventTime;
+  uint16               PerceivedSeverity;
+  string               SourceClassName;
+  MSFT_SMSystem        StorageSystem;
+  UInt16               PreviousHealthStatus;
+  UInt16               CurrentHealthStatus;
 };
 ```
 
@@ -360,7 +365,7 @@ The storage system object that is associated with the event.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -377,9 +382,9 @@ The storage system object that is associated with the event.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

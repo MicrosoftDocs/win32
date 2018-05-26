@@ -1,14 +1,20 @@
 ---
 title: Execution element
 description: This node describes how AXE executes an assessment.
-ms.assetid: '2B29D5E4-B61F-4F4B-85C4-6630B9AFD19E'
-keywords: ["Execution element Access Execution Engine"]
+ms.assetid: 2B29D5E4-B61F-4F4B-85C4-6630B9AFD19E
+keywords:
+- Execution element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Execution
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Execution element
@@ -79,9 +85,9 @@ Note that this node is marked as optional, but it is somewhat of a special case.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

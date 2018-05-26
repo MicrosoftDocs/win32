@@ -1,7 +1,12 @@
 ---
 title: Listen, Dont Just Recognize
 description: Listen, Dont Just Recognize
-ms.assetid: '74bb2122-98c1-4a51-b894-93e1481aa46b'
+ms.assetid: 74bb2122-98c1-4a51-b894-93e1481aa46b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Listen, Dont Just Recognize

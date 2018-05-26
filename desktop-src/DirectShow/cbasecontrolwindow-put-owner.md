@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_Owner method sets the video window''s parent window; the parent window then forwards certain messages to the video window.'
-ms.assetid: '8ed85cb0-47be-40c1-947a-dd9f7850d867'
-title: 'CBaseControlWindow.put\_Owner method'
+Description: The put\_Owner method sets the video windows parent window; the parent window then forwards certain messages to the video window.
+ms.assetid: 8ed85cb0-47be-40c1-947a-dd9f7850d867
+title: CBaseControlWindow.put\_Owner method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.put\_Owner method
@@ -13,7 +18,7 @@ The `put_Owner` method sets the video window's parent window; the parent window 
 
 ```C++
 HRESULT put_Owner(
-   OAHWND Owner
+   OAHWND Owner
 );
 ```
 
@@ -58,9 +63,9 @@ After you set the video window's owner, you must set the owner to **NULL** and t
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

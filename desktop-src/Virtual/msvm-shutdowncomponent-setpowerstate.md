@@ -1,8 +1,11 @@
 ---
 title: SetPowerState method of the Msvm\_ShutdownComponent class
 description: This method is deprecated. Instead, use the SetPowerState property of the CIM\_PowerManagementService class.
-ms.assetid: 'd90d7547-9170-4fea-a218-ba3d7ccadb11'
-keywords: ["SetPowerState method Hyper-V", "SetPowerState method Hyper-V , Msvm_ShutdownComponent class", "Msvm_ShutdownComponent class Hyper-V , SetPowerState method"]
+ms.assetid: d90d7547-9170-4fea-a218-ba3d7ccadb11
+keywords:
+- SetPowerState method Hyper-V
+- SetPowerState method Hyper-V , Msvm_ShutdownComponent class
+- Msvm_ShutdownComponent class Hyper-V , SetPowerState method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetPowerState method of the Msvm\_ShutdownComponent class
@@ -24,8 +32,8 @@ This method is deprecated. Instead, use the **SetPowerState** property of the **
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -145,9 +153,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_ShutdownComponent**](msvm-shutdowncomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

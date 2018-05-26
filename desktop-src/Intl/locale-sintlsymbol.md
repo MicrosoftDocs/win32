@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SINTLSYMBOL'
-ms.assetid: '731d56e9-1676-43c5-b218-25924d615a2b'
-title: 'LOCALE\_SINTLSYMBOL'
+Description: LOCALE\_SINTLSYMBOL
+ms.assetid: 731d56e9-1676-43c5-b218-25924d615a2b
+title: LOCALE\_SINTLSYMBOL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SINTLSYMBOL

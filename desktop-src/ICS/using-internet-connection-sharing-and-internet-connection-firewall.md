@@ -1,8 +1,14 @@
 ---
 title: Using Internet Connection Sharing and Internet Connection Firewall
 description: The following sections contain sample code that demonstrates how to use the Internet Connection Sharing and Internet Connection Firewall (ICS) API.
-ms.assetid: 'f51fb5f2-2197-4e16-9e75-45fb206b7ee7'
-keywords: ["Using Internet Connection Sharing"]
+ms.assetid: f51fb5f2-2197-4e16-9e75-45fb206b7ee7
+keywords:
+- Using Internet Connection Sharing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Internet Connection Sharing and Internet Connection Firewall

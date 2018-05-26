@@ -4,11 +4,14 @@ description: Enables a user profile VHD on an RDSH server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bb39fa19-38eb-4caf-ae81-2bccd901ee2f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: bb39fa19-38eb-4caf-ae81-2bccd901ee2f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["EnableUserVhd method Remote Desktop Services", "EnableUserVhd method Remote Desktop Services , Win32_TSSessionDirectory class", "Win32_TSSessionDirectory class Remote Desktop Services , EnableUserVhd method"]
+keywords:
+- EnableUserVhd method Remote Desktop Services
+- EnableUserVhd method Remote Desktop Services , Win32_TSSessionDirectory class
+- Win32_TSSessionDirectory class Remote Desktop Services , EnableUserVhd method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableUserVhd method of the Win32\_TSSessionDirectory class
@@ -28,8 +34,8 @@ Enables a user profile VHD on an RDSH server.
 
 ```mof
 uint32 EnableUserVhd(
-  [in] string UvhdShareUrl,
-  [in] string UvhdRoamingPolicyXml
+  [in] string UvhdShareUrl,
+  [in] string UvhdRoamingPolicyXml
 );
 ```
 
@@ -60,7 +66,7 @@ The roaming policy for the user profile VHD.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -74,9 +80,9 @@ The roaming policy for the user profile VHD.
 [**Win32\_TSSessionDirectory**](win32-tssessiondirectory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

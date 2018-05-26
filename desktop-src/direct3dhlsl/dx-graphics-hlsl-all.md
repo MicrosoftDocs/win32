@@ -1,14 +1,20 @@
 ---
 title: all
 description: Determines if all components of the specified value are non-zero.
-ms.assetid: '9ee079ff-cd2c-41f5-98cd-ea1f4215e7d5'
-keywords: ["all HLSL"]
+ms.assetid: 9ee079ff-cd2c-41f5-98cd-ea1f4215e7d5
+keywords:
+- all HLSL
 topic_type:
 - apiref
 api_name:
 - all
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # all
@@ -22,7 +28,7 @@ Determines if all components of the specified value are non-zero.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Determines if all components of the specified value are non-zero.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -55,7 +61,7 @@ This function is similar to the [**any**](dx-graphics-hlsl-any.md) HLSL intrinsi
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

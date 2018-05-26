@@ -1,7 +1,12 @@
-﻿---
-Description: 'Initialize the last vertex element in a vertex declaration array.'
-ms.assetid: '04cf7624-2e4a-4720-9ca0-894bf963e9f9'
-title: 'D3DDECL\_END macro'
+---
+Description: Initialize the last vertex element in a vertex declaration array.
+ms.assetid: 04cf7624-2e4a-4720-9ca0-894bf963e9f9
+title: D3DDECL\_END macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDECL\_END macro

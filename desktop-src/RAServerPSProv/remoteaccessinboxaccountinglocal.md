@@ -2,13 +2,15 @@
 title: RemoteAccessInboxAccountingLocal class
 description: Remote Access Inbox Accounting Configuration Record.
 audience: developer
-ms.assetid: '6d576e5a-5463-40f7-abff-f2af82e9b369'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6d576e5a-5463-40f7-abff-f2af82e9b369
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessInboxAccountingLocal class", "RemoteAccessInboxAccountingLocal class, described"]
+keywords:
+- RemoteAccessInboxAccountingLocal class
+- RemoteAccessInboxAccountingLocal class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessInboxAccountingLocal class
@@ -38,11 +43,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAServerPSProvider"), AMENDMENT]
 class RemoteAccessInboxAccountingLocal
 {
-  boolean  AccountingStatus;
-  uint32   StoreLimit;
-  uint32   StoreLimitUnits;
-  uint64   StoreUsedBytes;
-  uint64   StoreFreeBytes;
+  boolean  AccountingStatus;
+  uint32   StoreLimit;
+  uint32   StoreLimitUnits;
+  uint64   StoreUsedBytes;
+  uint64   StoreFreeBytes;
   datetime StoreFirstRecordDate;
   datetime StoreLastRecordDate;
 };
@@ -158,16 +163,16 @@ Used Space in the store in bytes
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\microsoft\\windows\\remoteaccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob GetTimes method
 description: Retrieves job-related time stamps, such as the time that the job was created or last modified.
-ms.assetid: '9002FB8D-08CB-4878-980F-15FE0DC952A6'
-keywords: ["GetTimes method", "GetTimes method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, GetTimes method"]
+ms.assetid: 9002FB8D-08CB-4878-980F-15FE0DC952A6
+keywords:
+- GetTimes method
+- GetTimes method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, GetTimes method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::GetTimes method
@@ -22,7 +30,7 @@ Retrieves job-related time stamps, such as the time that the job was created or 
 
 ```C++
 HRESULT GetTimes(
-  [out] BG_JOB_TIMES *pTimes
+  [out] BG_JOB_TIMES *pTimes
 );
 ```
 
@@ -51,7 +59,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +67,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -79,9 +87,9 @@ This method returns the following **HRESULT** values, as well as others.
 [**BG\_JOB\_TIMES**](bg-job-times.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

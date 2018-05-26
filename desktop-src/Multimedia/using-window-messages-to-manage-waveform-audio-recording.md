@@ -1,8 +1,22 @@
 ---
 title: Using Window Messages to Manage Waveform-Audio Recording
 description: Using Window Messages to Manage Waveform-Audio Recording
-ms.assetid: '65637d51-9d30-48db-8681-48332442130e'
-keywords: ["waveform audio,managing recording with messages", "waveform-audio interface,managing recording with messages", "recording waveform audio,managing recording with messages", "waveform audio,messages", "waveform-audio interface,messages", "recording waveform audio,messages", "MM_WIM_CLOSE message", "MM_WIM_DATA message", "MM_WIM_OPEN message"]
+ms.assetid: 65637d51-9d30-48db-8681-48332442130e
+keywords:
+- waveform audio,managing recording with messages
+- waveform-audio interface,managing recording with messages
+- recording waveform audio,managing recording with messages
+- waveform audio,messages
+- waveform-audio interface,messages
+- recording waveform audio,messages
+- MM_WIM_CLOSE message
+- MM_WIM_DATA message
+- MM_WIM_OPEN message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Window Messages to Manage Waveform-Audio Recording
@@ -25,7 +39,7 @@ The *lParam* parameter of [**MM\_WIM\_DATA**](mm-wim-data.md) specifies a pointe
 
 The most useful message is probably [**MM\_WIM\_DATA**](mm-wim-data.md). When your application finishes using the data block sent by the device driver, you can clean up and free the data block. Unless you need to allocate memory or initialize variables, you probably do not need to use the [**MM\_WIM\_OPEN**](mm-wim-open.md) and [**MM\_WIM\_CLOSE**](mm-wim-close.md) messages.
 
-The callback function for waveform-audio input devices is supplied by the application. For information about this callback function, see the [**waveInProc**](waveinproc.md) function.
+The callback function for waveform-audio input devices is supplied by the application. For information about this callback function, see the [**waveInProc**](/windows/win32/Mmsystem/?branch=master) function.
 
 ## Related topics
 

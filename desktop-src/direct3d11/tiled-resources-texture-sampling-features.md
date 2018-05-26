@@ -1,7 +1,12 @@
 ---
 title: Tiled resources texture sampling features
 description: This section describes tiled resources texture sampling features.
-ms.assetid: 'E56737CE-C468-4D3C-84EE-E8EB2AB6F505'
+ms.assetid: E56737CE-C468-4D3C-84EE-E8EB2AB6F505
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tiled resources texture sampling features
@@ -52,7 +57,7 @@ The min/max operations follow Direct3D arithmetic precision rules. The order of 
 
 During filter operations that aren't min/max, sometimes the weight of a given texel ends up being 0.0. An example is a linear sample with texture coordinates that fall directly on a texel center - 3 other texels (which ones they are may vary by hardware) contribute to the filter but with 0 weight. For any of these texels that would be 0 weight on a non-min/max filter, if the filter is min/max, these texels still do not contribute to the result (and the weights do not otherwise affect the min/max filter operation).
 
-The full list of filter modes is shown in the [**D3D11\_FILTER**](d3d11-filter.md) enumeration with MINIMUM and MAXIMUM in the enumeration values.
+The full list of filter modes is shown in the [**D3D11\_FILTER**](/windows/win32/D3D11/ne-d3d11-d3d11_filter?branch=master) enumeration with MINIMUM and MAXIMUM in the enumeration values.
 
 Support for this feature depends on [Tier 2](tier-2.md) support for tiled resources.
 

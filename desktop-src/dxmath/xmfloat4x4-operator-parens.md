@@ -1,14 +1,19 @@
-﻿---
-Description: 'Accesses specific matrix elements referenced by row and column from the current instance of XMFLOAT4X4.'
-ms.assetid: 'de367692-6974-4e54-9f1e-d8c56b3aa752'
-title: 'operator () operators'
+---
+Description: Accesses specific matrix elements referenced by row and column from the current instance of XMFLOAT4X4.
+ms.assetid: de367692-6974-4e54-9f1e-d8c56b3aa752
+title: operator () operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # operator () operators
 
 Accesses specific matrix elements referenced by row and column from the current instance of `XMFLOAT4X4`.
 
-Accesses specific matrix elements referenced by row and column from the current instance of [**XMFLOAT4X4**](xmfloat4x4.md)
+Accesses specific matrix elements referenced by row and column from the current instance of [**XMFLOAT4X4**](/windows/win32/DirectXMath/?branch=master)
 
 ### Overload list
 
@@ -37,7 +42,7 @@ This operator is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMFLOAT4X4::operator () (size_t,size_t)</strong>](xmfloat4x4-operator-parens-2.md)</td>
-<td style="text-align: left;">Return the value of a matrix element in an instance <code>XMFLOAT4X4</code> as specified by row and column arguments. <br/> This operator returns the value of a matrix element of an instance [<strong>XMFLOAT4X4</strong>](xmfloat4x4.md) as specified by row and column arguments. <br/>
+<td style="text-align: left;">Return the value of a matrix element in an instance <code>XMFLOAT4X4</code> as specified by row and column arguments. <br/> This operator returns the value of a matrix element of an instance [<strong>XMFLOAT4X4</strong>](/windows/win32/DirectXMath/?branch=master) as specified by row and column arguments. <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available when developing with C++.
@@ -59,7 +64,7 @@ This operator is only available when developing with C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X4**](xmfloat4x4.md)
+[**XMFLOAT4X4**](/windows/win32/DirectXMath/?branch=master)
 </dt> </dl>
 
  

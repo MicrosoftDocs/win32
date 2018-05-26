@@ -1,13 +1,16 @@
 ---
-Description: 'The first type of object you can retrieve is a WMI class.'
+Description: The first type of object you can retrieve is a WMI class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cfe4bcca-692e-45cd-a840-93ebfe4ae267'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cfe4bcca-692e-45cd-a840-93ebfe4ae267
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Retrieving a WMI Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Retrieving a WMI Class
@@ -119,14 +122,14 @@ You can retrieve a class definition in VBScript in a similar way to retrieving a
 3.  A class or instance can also be specified, in which case the returned object is a WMI object, for example, an instance of [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173), rather than a services object. Note that you cannot use the VBScript [**GetObject**](47dd01cb-9468-481e-be7e-55f69a744635) functions to create an instance of the generic object [**SWbemObject**](swbemobject.md).
 4.  In HTML pages running in Microsoft Internet Explorer (IE), [**GetObject**](47dd01cb-9468-481e-be7e-55f69a744635) and [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx) can fail because WMI scripting objects, like ActiveX controls, are not marked as safe for scripting. The one exception is the [**SWbemDateTime**](swbemdatetime.md) object. The only way that these calls can succeed is when you lower the IE security settings, which is not recommended.
 
-When retrieving a class in C++, call the [**IWbemServices**](iwbemservices.md) version of [**GetObject**](iwbemservices-getobject.md).
+When retrieving a class in C++, call the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) version of [**GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master).
 
 **To retrieve a class definition in C++**
 
-1.  Call the [**IWbemServices::GetObject**](iwbemservices-getobject.md) or [**IWbemServices::GetObjectAsync**](iwbemservices-getobjectasync.md) methods to retrieve the definition of a class.
+1.  Call the [**IWbemServices::GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) or [**IWbemServices::GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master) methods to retrieve the definition of a class.
 2.  One class can have multiple class definitions, which happens typically when you have more than one class provider loaded into one namespace. When a class has multiple class definitions, WMI returns the first definition discovered and the **WBEM\_S\_DUPLICATE\_OBJECTS** status code.
 
-Because [**GetObject**](iwbemservices-getobject.md) returns a class definition, it is commonly used as the first step in creating an instance. For more information on how to use **GetObject**, see [Creating and Declaring an Instance Using C++](creating-and-declaring-an-instance-using-c-.md).
+Because [**GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) returns a class definition, it is commonly used as the first step in creating an instance. For more information on how to use **GetObject**, see [Creating and Declaring an Instance Using C++](creating-and-declaring-an-instance-using-c-.md).
 
  
 

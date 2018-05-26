@@ -1,8 +1,11 @@
 ---
 title: IWMDRMSecurity GetMachineCertificate method
 description: The GetMachineCertificate method retrieves the machine certificate of the DRM subsystem on the client computer.
-ms.assetid: '38b8e812-e997-4a63-b906-ebd26a5556be'
-keywords: ["GetMachineCertificate method windows Media Format", "GetMachineCertificate method windows Media Format , IWMDRMSecurity interface", "IWMDRMSecurity interface windows Media Format , GetMachineCertificate method"]
+ms.assetid: 38b8e812-e997-4a63-b906-ebd26a5556be
+keywords:
+- GetMachineCertificate method windows Media Format
+- GetMachineCertificate method windows Media Format , IWMDRMSecurity interface
+- IWMDRMSecurity interface windows Media Format , GetMachineCertificate method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMSecurity::GetMachineCertificate method
@@ -23,10 +31,10 @@ The **GetMachineCertificate** method retrieves the machine certificate of the DR
 
 ```C++
 HRESULT GetMachineCertificate(
-  [in]      DWORD dwCertificateType,
-  [out]     BYTE  rgbVersion[4],
-  [out]     BYTE  **ppbCertificate,
-  [in, out] DWORD *pcbCertificate
+  [in]      DWORD dwCertificateType,
+  [out]     BYTE  rgbVersion[4],
+  [out]     BYTE  **ppbCertificate,
+  [in, out] DWORD *pcbCertificate
 );
 ```
 
@@ -50,7 +58,7 @@ Type of certificate to retrieve. Set to one of the values in the following table
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -87,7 +95,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -107,9 +115,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWMDRMSecurity Interface**](iwmdrmsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

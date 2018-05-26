@@ -1,7 +1,12 @@
 ---
 title: User-Defined Data Types
 description: User-defined data types (UDT) are groups of related data items declared as one type of information.
-ms.assetid: '66fde40c-1e22-4697-a658-fa1e749cebb3'
+ms.assetid: 66fde40c-1e22-4697-a658-fa1e749cebb3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User-Defined Data Types
@@ -16,9 +21,9 @@ Beginning with Windows NT 4.0 SP4, Windows 95 with DCOM 1.2, and Windows 98, Aut
 
 For information on how to pass single UDTs and safearrays of UDTs, see [Passing UDTs](passing-udts.md).
 
-For the methods, [**GetRecordInfoFromTypeInfo**](getrecordinfofromtypeinfo.md) and **GetRecordInfoFromGUID**, used to create a self-describing array of records, see [Support Functions for User-Defined Data Types](BADF90A3-82B6-4F2D-8F85-DA159E5A1988).
+For the methods, [**GetRecordInfoFromTypeInfo**](/windows/previous-versions/OleAuto/nf-oleauto-getrecordinfofromtypeinfo?branch=master) and **GetRecordInfoFromGUID**, used to create a self-describing array of records, see [Support Functions for User-Defined Data Types](BADF90A3-82B6-4F2D-8F85-DA159E5A1988).
 
-For the member functions and descriptions of the **IRecordInfo** interface, see [**IRecordInfo**](irecordinfo.md).
+For the member functions and descriptions of the **IRecordInfo** interface, see [**IRecordInfo**](/windows/previous-versions/oaidl/nn-oaidl-irecordinfo?branch=master).
 
  
 

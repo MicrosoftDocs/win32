@@ -1,14 +1,19 @@
 ---
-Description: 'The following example reboots the local system using the InitiateSystemShutdown function.'
-ms.assetid: '928c2d48-daa5-4c27-816b-766adedba7eb'
+Description: The following example reboots the local system using the InitiateSystemShutdown function.
+ms.assetid: 928c2d48-daa5-4c27-816b-766adedba7eb
 title: Displaying the Shutdown Dialog Box
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying the Shutdown Dialog Box
 
-The following example reboots the local system using the [**InitiateSystemShutdown**](initiatesystemshutdown.md) function. The system displays a dialog box with a custom message and a message to the user to close applications within the specified time-out interval (30 seconds). After the time-out interval elapses, the system is restarted.
+The following example reboots the local system using the [**InitiateSystemShutdown**](/windows/win32/Winreg/nf-winreg-initiatesystemshutdowna?branch=master) function. The system displays a dialog box with a custom message and a message to the user to close applications within the specified time-out interval (30 seconds). After the time-out interval elapses, the system is restarted.
 
-The application must enable the SE\_SHUTDOWN\_NAME privilege before calling [**InitiateSystemShutdown**](initiatesystemshutdown.md). For more information, see [Privileges](security.privileges).
+The application must enable the SE\_SHUTDOWN\_NAME privilege before calling [**InitiateSystemShutdown**](/windows/win32/Winreg/nf-winreg-initiatesystemshutdowna?branch=master). For more information, see [Privileges](security.privileges).
 
 
 ```C++
@@ -72,7 +77,7 @@ BOOL MySystemShutdown( LPTSTR lpMsg )
 
 
 
-If the [**AbortSystemShutdown**](abortsystemshutdown.md) function is executed in the time-out period specified by [**InitiateSystemShutdown**](initiatesystemshutdown.md), the system does not shut down. For example, if PreventSystemShutdown is called after MySystemShutdown, the system closes the dialog box and does not restart the system.
+If the [**AbortSystemShutdown**](/windows/win32/Winreg/nf-winreg-abortsystemshutdowna?branch=master) function is executed in the time-out period specified by [**InitiateSystemShutdown**](/windows/win32/Winreg/nf-winreg-initiatesystemshutdowna?branch=master), the system does not shut down. For example, if PreventSystemShutdown is called after MySystemShutdown, the system closes the dialog box and does not restart the system.
 
 
 ```C++

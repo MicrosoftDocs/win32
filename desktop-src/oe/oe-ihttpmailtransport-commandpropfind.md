@@ -1,8 +1,11 @@
 ---
 title: IHTTPMailTransport CommandPROPFIND method
 description: Sends the PROPFIND command to the HTTPMail server.
-ms.assetid: '5c947f74-c31a-46d0-8d27-80d6e9b1922f'
-keywords: ["CommandPROPFIND method Windows Mail (formerly Outlook Express)", "CommandPROPFIND method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface", "IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , CommandPROPFIND method"]
+ms.assetid: 5c947f74-c31a-46d0-8d27-80d6e9b1922f
+keywords:
+- CommandPROPFIND method Windows Mail (formerly Outlook Express)
+- CommandPROPFIND method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface
+- IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , CommandPROPFIND method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHTTPMailTransport::CommandPROPFIND method
@@ -24,10 +32,10 @@ Sends the PROPFIND command to the HTTPMail server.
 
 ```C++
 HRESULT CommandPROPFIND(
-  [in] LPCSTR           pszPath,
-  [in] IPropFindRequest *pRequest,
-  [in] DWORD            dwDepth,
-  [in] DWORD            dwContext
+  [in] LPCSTR           pszPath,
+  [in] IPropFindRequest *pRequest,
+  [in] DWORD            dwDepth,
+  [in] DWORD            dwContext
 );
 ```
 
@@ -72,7 +80,7 @@ Specifies the depth of request.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -101,7 +109,7 @@ Returns the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -109,8 +117,8 @@ Returns the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -118,9 +126,9 @@ Returns the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

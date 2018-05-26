@@ -1,7 +1,12 @@
-﻿---
-Description: 'Constructs an APDU command that initiates one of the listed operations.'
-ms.assetid: '2ce313b9-ccd7-4be0-a91f-d0747e35fab8'
-title: 'ISCardISO7816::WriteRecord method'
+---
+Description: Constructs an APDU command that initiates one of the listed operations.
+ms.assetid: 2ce313b9-ccd7-4be0-a91f-d0747e35fab8
+title: ISCardISO7816WriteRecord method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardISO7816::WriteRecord method

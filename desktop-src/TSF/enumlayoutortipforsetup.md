@@ -1,8 +1,9 @@
 ---
 title: EnumLayoutOrTipForSetup function
 description: Enumerates the installed keyboard layouts and text services of the setup UI or OOBE.
-ms.assetid: '3c6fc11c-36a5-4718-b584-b7f98f1b4180'
-keywords: ["EnumLayoutOrTipForSetup function Text Services Framework"]
+ms.assetid: 3c6fc11c-36a5-4718-b584-b7f98f1b4180
+keywords:
+- EnumLayoutOrTipForSetup function Text Services Framework
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - input.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnumLayoutOrTipForSetup function
@@ -22,10 +28,10 @@ Enumerates the installed keyboard layouts and text services of the setup UI or O
 
 ```C++
 UINT CALLBACK EnumLayoutOrTipForSetup(
-  _In_  LANGID      langid,
-  _Out_ LAYOUTORTIP *pLayoutOrTip,
-  _In_  UINT        uBufLength,
-  _In_  DWORD       dwFlags
+  _In_  LANGID      langid,
+  _Out_ LAYOUTORTIP *pLayoutOrTip,
+  _In_  UINT        uBufLength,
+  _In_  DWORD       dwFlags
 );
 ```
 
@@ -74,7 +80,7 @@ There is no import library available that defines this function, so it is necess
 > [!Note]  
 > Using [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to [Dynamic-Link Library Search Order](https://msdn.microsoft.com/library/windows/desktop/ms682586) for information on how to correctly load DLLs with different versions of Microsoft Windows.
 
- 
+ 
 
 The definition of LAYOUTORTIP is:
 
@@ -94,15 +100,15 @@ typedef struct tagLAYOUTORTIP {
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Input.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,23 @@
 ---
 title: Verification and Initialization
 description: Verification and Initialization
-ms.assetid: 'e92abaa2-0bac-4c78-bda7-d118c4f5b332'
-keywords: ["Windows Media Format SDK,verification", "Windows Media Format SDK,initialization", "digital rights management (DRM),verification", "DRM (digital rights management),verification", "digital rights management (DRM),initialization", "DRM (digital rights management),initialization", "DRM Client Extended APIs,verification", "Client Extended APIs,verification", "DRM Client Extended APIs,initialization", "Client Extended APIs,initialization"]
+ms.assetid: e92abaa2-0bac-4c78-bda7-d118c4f5b332
+keywords:
+- Windows Media Format SDK,verification
+- Windows Media Format SDK,initialization
+- digital rights management (DRM),verification
+- DRM (digital rights management),verification
+- digital rights management (DRM),initialization
+- DRM (digital rights management),initialization
+- DRM Client Extended APIs,verification
+- Client Extended APIs,verification
+- DRM Client Extended APIs,initialization
+- Client Extended APIs,initialization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verification and Initialization
@@ -10,9 +25,9 @@ keywords: ["Windows Media Format SDK,verification", "Windows Media Format SDK,in
 You should perform the following steps to verify that transcryption is allowed and to initialize an object that will decrypt the content:
 
 1.  If you already have the Key ID for the content, skip to step 5.
-2.  Call the [**WMCreateEditor**](wmcreateeditor.md) function to create a metadata editor object and get an instance of that object's [**IWMMetadataEditor**](iwmmetadataeditor.md) interface.
-3.  Call **IWMMetadataEditor::QueryInterface** to get an instance of the [**IWMDRMEditor**](iwmdrmeditor.md) interface.
-4.  Call [**IWMDRMEditor::GetDRMProperty**](iwmdrmeditor-getdrmproperty.md) to get the **DRM\_DRMHeader\_KeyID** property.
+2.  Call the [**WMCreateEditor**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreateeditor?branch=master) function to create a metadata editor object and get an instance of that object's [**IWMMetadataEditor**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor?branch=master) interface.
+3.  Call **IWMMetadataEditor::QueryInterface** to get an instance of the [**IWMDRMEditor**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmdrmeditor?branch=master) interface.
+4.  Call [**IWMDRMEditor::GetDRMProperty**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmeditor-getdrmproperty?branch=master) to get the **DRM\_DRMHeader\_KeyID** property.
 5.  Initialize the Windows Media DRM Client Extended APIs by calling the [**WMDRMStartup**](wmdrmstartup.md) function.
 6.  Call the [**WMDRMCreateProtectedProvider**](wmdrmcreateprotectedprovider.md) function to create a secure provider object and get an instance of that object's [**IWMDRMProvider**](iwmdrmprovider.md) interface.
 7.  Call [**IWMDRMProvider::CreateObject**](iwmdrmprovider-createobject.md) to create a license management object and get an instance of its [**IWMDRMLicenseManagement**](iwmdrmlicensemanagement.md) interface.

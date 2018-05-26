@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Installer can use digital signatures to detect corrupted resources.'
-ms.assetid: '49f1c1f9-d342-47e0-8888-2eadc5dbd000'
+Description: Windows Installer can use digital signatures to detect corrupted resources.
+ms.assetid: 49f1c1f9-d342-47e0-8888-2eadc5dbd000
 title: Digital Signatures and External Cabinet Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Digital Signatures and External Cabinet Files
@@ -15,7 +20,7 @@ Windows Installer does the following when installing a file stored in an externa
 
 For more information regarding the use of digital signatures, digital certificates, and [**WinVerifyTrust**](https://msdn.microsoft.com/library/windows/desktop/aa388208), see the [Security](Http://go.microsoft.com/fwlink/p/?linkid=83879) section of the Microsoft Windows Software Development Kit (SDK).
 
-For more information, see [**MsiGetFileSignatureInformation**](msigetfilesignatureinformation.md), [MsiDigitalCertificate table](msidigitalcertificate-table.md), and [MsiDigitalSignature table](msidigitalsignature-table.md).
+For more information, see [**MsiGetFileSignatureInformation**](/windows/win32/Msi/nf-msi-msigetfilesignatureinformationa?branch=master), [MsiDigitalCertificate table](msidigitalcertificate-table.md), and [MsiDigitalSignature table](msidigitalsignature-table.md).
 
  
 

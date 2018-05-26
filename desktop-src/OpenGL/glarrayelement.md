@@ -1,8 +1,9 @@
 ---
 title: glArrayElement function
 description: The glArrayElement function specifies the array elements used to render a vertex.
-ms.assetid: '2c4d76bb-e4c9-4baa-a190-66298b8a4335'
-keywords: ["glArrayElement function OpenGL"]
+ms.assetid: 2c4d76bb-e4c9-4baa-a190-66298b8a4335
+keywords:
+- glArrayElement function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glArrayElement function
@@ -22,7 +28,7 @@ The **glArrayElement** function specifies the array elements used to render a ve
 
 ```C++
 void WINAPI glArrayElement(
-   GLint index
+   GLint index
 );
 ```
 
@@ -58,7 +64,7 @@ When you call **glArrayElement** without first calling **glEnableClientState**(G
 > [!Note]  
 > The **glArrayElement** function is only available in OpenGL version 1.1 or later.
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +72,8 @@ When you call **glArrayElement** without first calling **glEnableClientState**(G
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -114,9 +120,9 @@ When you call **glArrayElement** without first calling **glEnableClientState**(G
 [**glVertexPointer**](glvertexpointer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

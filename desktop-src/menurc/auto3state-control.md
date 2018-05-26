@@ -1,14 +1,20 @@
 ---
 title: AUTO3STATE control
 description: Defines an automatic three-state check box.
-ms.assetid: '8b27367c-30d0-4591-93d0-756c65255b26'
-keywords: ["AUTO3STATE control Menus and Other Resources"]
+ms.assetid: 8b27367c-30d0-4591-93d0-756c65255b26
+keywords:
+- AUTO3STATE control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - AUTO3STATE
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AUTO3STATE control

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following constants form the set of valid Windows Image Acquisition (WIA) hardware device commands.'
-ms.assetid: 'f86a0944-2f2a-467e-a9e8-4cdecfc50175'
+---
+Description: The following constants form the set of valid Windows Image Acquisition (WIA) hardware device commands.
+ms.assetid: f86a0944-2f2a-467e-a9e8-4cdecfc50175
 title: WIA Device Commands
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIA Device Commands
@@ -24,7 +29,7 @@ The following constants form the set of valid Windows Image Acquisition (WIA) ha
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_CMD_SYNCHRONIZE"></span><span id="wia_cmd_synchronize"></span><dl> <dt><strong>WIA_CMD_SYNCHRONIZE</strong></dt> </dl></td>
-<td style="text-align: left;">Causes the device's minidriver to synchronize cached items with the hardware device. If the device supports the [<strong>IWiaItem::AnalyzeItem</strong>](-wia-iwiaitem-analyzeitem.md) method, issuing this command causes the minidriver to discard the analysis results and reset the item to its initial state. All drivers must support this command.<br/></td>
+<td style="text-align: left;">Causes the device's minidriver to synchronize cached items with the hardware device. If the device supports the [<strong>IWiaItem::AnalyzeItem</strong>](/windows/win32/wia_xp/nf-wia_xp-iwiaitem-analyzeitem?branch=master) method, issuing this command causes the minidriver to discard the analysis results and reset the item to its initial state. All drivers must support this command.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_CMD_TAKE_PICTURE"></span><span id="wia_cmd_take_picture"></span><dl> <dt><strong>WIA_CMD_TAKE_PICTURE</strong></dt> </dl></td>
@@ -32,7 +37,7 @@ The following constants form the set of valid Windows Image Acquisition (WIA) ha
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_CMD_DELETE_ALL_ITEMS"></span><span id="wia_cmd_delete_all_items"></span><dl> <dt><strong>WIA_CMD_DELETE_ALL_ITEMS</strong></dt> </dl></td>
-<td style="text-align: left;">Tells the device to delete all items that can be deleted from the tree of [<strong>IWiaItem</strong>](-wia-iwiaitem.md) objects that represent the device. Item deletion is prevented by setting the item's properties. For details, see [<strong>IWiaPropertyStorage::SetPropertyStream</strong>](-wia-iwiapropertystorage-setpropertystream.md) and [Property Attributes](-wia-property-attributes.md).<br/></td>
+<td style="text-align: left;">Tells the device to delete all items that can be deleted from the tree of [<strong>IWiaItem</strong>](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) objects that represent the device. Item deletion is prevented by setting the item's properties. For details, see [<strong>IWiaPropertyStorage::SetPropertyStream</strong>](/windows/win32/wia_xp/nf-wia_xp-iwiapropertystorage-setpropertystream?branch=master) and [Property Attributes](-wia-property-attributes.md).<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_CMD_CHANGE_DOCUMENT"></span><span id="wia_cmd_change_document"></span><dl> <dt><strong>WIA_CMD_CHANGE_DOCUMENT</strong></dt> </dl></td>

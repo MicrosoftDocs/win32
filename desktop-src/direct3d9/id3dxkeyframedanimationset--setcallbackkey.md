@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets information about a specific callback in the animation set.'
-ms.assetid: '899f3a85-c878-4eeb-8bda-fc4e9083bd1f'
-title: 'ID3DXKeyframedAnimationSet::SetCallbackKey method'
+---
+Description: Sets information about a specific callback in the animation set.
+ms.assetid: 899f3a85-c878-4eeb-8bda-fc4e9083bd1f
+title: ID3DXKeyframedAnimationSetSetCallbackKey method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXKeyframedAnimationSet::SetCallbackKey method

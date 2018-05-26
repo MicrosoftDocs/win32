@@ -1,8 +1,11 @@
 ---
 title: IMimeBody GetEstimatedSize method
 description: Gets the estimated size of the data stored in the body.
-ms.assetid: '4848833f-9525-4173-b245-3bacf647b7a9'
-keywords: ["GetEstimatedSize method Windows Mail (formerly Outlook Express)", "GetEstimatedSize method Windows Mail (formerly Outlook Express) , IMimeBody interface", "IMimeBody interface Windows Mail (formerly Outlook Express) , GetEstimatedSize method"]
+ms.assetid: 4848833f-9525-4173-b245-3bacf647b7a9
+keywords:
+- GetEstimatedSize method Windows Mail (formerly Outlook Express)
+- GetEstimatedSize method Windows Mail (formerly Outlook Express) , IMimeBody interface
+- IMimeBody interface Windows Mail (formerly Outlook Express) , GetEstimatedSize method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeBody::GetEstimatedSize method
@@ -22,8 +30,8 @@ Gets the estimated size of the data stored in the body.
 
 ```C++
 HRESULT GetEstimatedSize(
-  [in]  ENCODINGTYPE ietEncoding,
-  [out] ULONG        *pcbSize
+  [in]  ENCODINGTYPE ietEncoding,
+  [out] ULONG        *pcbSize
 );
 ```
 
@@ -69,7 +77,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,8 +89,8 @@ The size returned is estimated because the actual cannot always be determined. F
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -90,9 +98,9 @@ The size returned is estimated because the actual cannot always be determined. F
 
 
 
- 
+ 
 
- 
+ 
 
 
 

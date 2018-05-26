@@ -1,8 +1,9 @@
 ---
 title: DownloadMode enumeration
 description: Defines the different download modes that Delivery Optimization uses.
-ms.assetid: '7E9407C6-A22F-459E-B316-5E7809F0067A'
-keywords: ["Bypass Delivery Optimization and use BITS, instead. For example, select this mode so that clients can use BranchCache. enumeration"]
+ms.assetid: 7E9407C6-A22F-459E-B316-5E7809F0067A
+keywords:
+- Bypass Delivery Optimization and use BITS, instead. For example, select this mode so that clients can use BranchCache. enumeration
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadMode enumeration
@@ -22,12 +28,12 @@ Defines the different download modes that Delivery Optimization uses.
 
 ```C++
 typedef enum _DownloadMode { 
-  DownloadMode_CdnOnly   = 0,
-  DownloadMode_Lan       = 1,
-  DownloadMode_Group     = 2,
-  DownloadMode_Internet  = 3,
-  DownloadMode_Simple    = 99,
-  DownloadMode_Bypass    = 100
+  DownloadMode_CdnOnly   = 0,
+  DownloadMode_Lan       = 1,
+  DownloadMode_Group     = 2,
+  DownloadMode_Internet  = 3,
+  DownloadMode_Simple    = 99,
+  DownloadMode_Bypass    = 100
 } DownloadMode;
 ```
 
@@ -54,7 +60,7 @@ This default operating mode for Delivery Optimization enables peer sharing on th
 <span id="DownloadMode_Group"></span><span id="downloadmode_group"></span><span id="DOWNLOADMODE_GROUP"></span>**DownloadMode\_Group**
 </dt> <dd>
 
-When group mode is set, the group is automatically selected based on the device’s Active Directory Domain Services (AD DS) site (Windows 10, version 1607) or the domain the device is authenticated to (Windows 10, version 1511). In group mode, peering occurs across internal subnets, between devices that belong to the same group, including devices in remote offices. You can use the GroupID option to create your own custom group independently of domains and AD DS sites. Group download mode is the recommended option for most organizations looking to achieve the best bandwidth optimization with Delivery Optimization.
+When group mode is set, the group is automatically selected based on the device s Active Directory Domain Services (AD DS) site (Windows 10, version 1607) or the domain the device is authenticated to (Windows 10, version 1511). In group mode, peering occurs across internal subnets, between devices that belong to the same group, including devices in remote offices. You can use the GroupID option to create your own custom group independently of domains and AD DS sites. Group download mode is the recommended option for most organizations looking to achieve the best bandwidth optimization with Delivery Optimization.
 
 </dd> <dt>
 
@@ -85,15 +91,15 @@ Bypass Delivery Optimization and use BITS, instead. For example, select this mod
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,15 @@
 title: RemoteAccessMonitoringConnection class
 description: Remote Access Monitoring Connection Record.
 audience: developer
-ms.assetid: '1e2c809a-0446-40d6-afa8-fbd2fc9546c5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1e2c809a-0446-40d6-afa8-fbd2fc9546c5
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessMonitoringConnection class", "RemoteAccessMonitoringConnection class, described"]
+keywords:
+- RemoteAccessMonitoringConnection class
+- RemoteAccessMonitoringConnection class, described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessMonitoringConnection class
@@ -48,23 +53,23 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("2.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class RemoteAccessMonitoringConnection : RemoteAccessConnection
 {
-  string   ClientIPv4Address;
-  string   ClientIPv6Address;
-  string   HostName;
-  string   ClientExternalAddress;
-  string   TunnelType;
-  string   TransitionTechnology;
+  string   ClientIPv4Address;
+  string   ClientIPv6Address;
+  string   HostName;
+  string   ClientExternalAddress;
+  string   TunnelType;
+  string   TransitionTechnology;
   datetime ConnectionStartTime;
-  uint32   ConnectionDuration;
-  uint64   TotalBytesIn;
-  uint64   TotalBytesOut;
-  string   ConnectionType;
-  string   HealthStatus;
-  string   AuthMethod;
-  string   UserActivityState;
-  uint32   Bandwidth;
-  string   UserName[];
-  string   RoutingDomain;
+  uint32   ConnectionDuration;
+  uint64   TotalBytesIn;
+  uint64   TotalBytesOut;
+  string   ConnectionType;
+  string   HealthStatus;
+  string   AuthMethod;
+  string   UserActivityState;
+  uint32   Bandwidth;
+  string   UserName[];
+  string   RoutingDomain;
 };
 ```
 
@@ -407,9 +412,9 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is not supported starting with Windows Server 2016.
+This property is not supported starting with Windows Server 2016.
 
-**Windows Server 2012 R2 and Windows Server 2012:** Indicates the health status.
+**Windows Server 2012 R2 and Windows Server 2012:** Indicates the health status.
 
 This property is inherited from [**RemoteAccessConnection**](remoteaccessconnection.md).
 
@@ -480,7 +485,7 @@ Access type: Read-only
 
 The routing domain of the connection record
 
-**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
+**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -694,16 +699,16 @@ Users in this connection
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

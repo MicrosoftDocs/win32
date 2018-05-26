@@ -4,11 +4,14 @@ description: The SetFallbackPrintDriverType method sets the FallbackPrintDriverT
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'be738134-199a-41a6-b2f8-cccfa14fa02b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: be738134-199a-41a6-b2f8-cccfa14fa02b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetFallbackPrintDriverType method Remote Desktop Services", "SetFallbackPrintDriverType method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , SetFallbackPrintDriverType method"]
+keywords:
+- SetFallbackPrintDriverType method Remote Desktop Services
+- SetFallbackPrintDriverType method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , SetFallbackPrintDriverType method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetFallbackPrintDriverType method of the Win32\_TerminalServiceSetting class
@@ -28,7 +34,7 @@ The **SetFallbackPrintDriverType** method sets the **FallbackPrintDriverType** p
 
 ```mof
 uint32 SetFallbackPrintDriverType(
-  [in] uint32 FallbackPrintDriverType
+  [in] uint32 FallbackPrintDriverType
 );
 ```
 
@@ -114,8 +120,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -129,9 +135,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

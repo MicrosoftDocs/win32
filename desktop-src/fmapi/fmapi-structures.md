@@ -1,7 +1,12 @@
 ---
 title: FMAPI Structures
-ms.assetid: '2cc47835-6690-4a83-bad9-082b89056cdb'
+ms.assetid: 2cc47835-6690-4a83-bad9-082b89056cdb
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FMAPI Structures

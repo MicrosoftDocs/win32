@@ -1,29 +1,34 @@
 ---
-Description: 'Describes how up-to-date the OS on a device is.'
-ms.assetid: '157E241E-E8D8-41F8-9565-5C9298DCD1BE'
+Description: Describes how up-to-date the OS on a device is.
+ms.assetid: 157E241E-E8D8-41F8-9565-5C9298DCD1BE
 title: UpdateAssessmentStatus enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpdateAssessmentStatus enumeration
 
-Describes how up-to-date the OS on a device is.**UpdateAssessmentStatus** is used by the [**UpdateAssessment**](updateassessment.md) and [**OSUpdateAssessment**](osupdateassessment.md) structures, in the **assessmentForCurrent**, **assessmentForUpToDate**, and **securityStatus** members. Exactly one constant is returned.
+Describes how up-to-date the OS on a device is.**UpdateAssessmentStatus** is used by the [**UpdateAssessment**](/windows/win32/waasapitypes/ns-waasapitypes-tagupdateassessment?branch=master) and [**OSUpdateAssessment**](/windows/win32/waasapitypes/ns-waasapitypes-tagosupdateassessment?branch=master) structures, in the **assessmentForCurrent**, **assessmentForUpToDate**, and **securityStatus** members. Exactly one constant is returned.
 
 ## Syntax
 
 
 ```C++
 typedef enum TagUpdateAssessmentStatus { 
-      UpdateAssessmentStatus_Latest                    = 0,
-      UpdateAssessmentStatus_NotLatestSoftRestriction  = 1,
-      UpdateAssessmentStatus_NotLatestHardRestriction  = 2,
-      UpdateAssessmentStatus_NotLatestEndOfSupport     = 3,
-      UpdateAssessmentStatus_NotLatestServicingTrain   = 4,
-      UpdateAssessmentStatus_NotLatestDeferredFeature  = 5,
-      UpdateAssessmentStatus_NotLatestDeferredQuality  = 6,
-      UpdateAssessmentStatus_NotLatestPausedFeature    = 7,
-      UpdateAssessmentStatus_NotLatestPausedQuality    = 8,
-      UpdateAssessmentStatus_NotLatestManaged          = 9,
-      UpdateAssessmentStatus_NotLatestUnknown          = 10
+      UpdateAssessmentStatus_Latest                    = 0,
+      UpdateAssessmentStatus_NotLatestSoftRestriction  = 1,
+      UpdateAssessmentStatus_NotLatestHardRestriction  = 2,
+      UpdateAssessmentStatus_NotLatestEndOfSupport     = 3,
+      UpdateAssessmentStatus_NotLatestServicingTrain   = 4,
+      UpdateAssessmentStatus_NotLatestDeferredFeature  = 5,
+      UpdateAssessmentStatus_NotLatestDeferredQuality  = 6,
+      UpdateAssessmentStatus_NotLatestPausedFeature    = 7,
+      UpdateAssessmentStatus_NotLatestPausedQuality    = 8,
+      UpdateAssessmentStatus_NotLatestManaged          = 9,
+      UpdateAssessmentStatus_NotLatestUnknown          = 10
 } UpdateAssessmentStatus;
 ```
 
@@ -62,7 +67,7 @@ The device is not on the latest update because the device's feature update is no
 > [!Note]  
 > When **UpdateAssessmentStatus\_NotLatestEndOfSupport** is returned, the assessment's **UpdateImpactLevel** is always **UpdateImpactLevel\_High**.
 
- 
+ 
 
 </dd> <dt>
 
@@ -117,7 +122,7 @@ The device is not on the latest update due to a reason that cannot be determined
 
 ## Remarks
 
-This enumeration is used most often with the [**UpdateAssessment**](updateassessment.md) and [**OSUpdateAssessment**](osupdateassessment.md) structures, which are in turn used with the [**GetOSUpdateAssessment**](iwaasassessor-getosupdateassessment.md) method for [**IWaaSAssessor**](iwaasassessor.md).
+This enumeration is used most often with the [**UpdateAssessment**](/windows/win32/waasapitypes/ns-waasapitypes-tagupdateassessment?branch=master) and [**OSUpdateAssessment**](/windows/win32/waasapitypes/ns-waasapitypes-tagosupdateassessment?branch=master) structures, which are in turn used with the [**GetOSUpdateAssessment**](/windows/win32/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment?branch=master) method for [**IWaaSAssessor**](/windows/win32/waasapi/nn-waasapi-iwaasassessor?branch=master).
 
 ## Requirements
 
@@ -125,15 +130,15 @@ This enumeration is used most often with the [**UpdateAssessment**](updateassess
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                   |
 | IDL<br/>                      | <dl> <dt>WaaSAPI.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

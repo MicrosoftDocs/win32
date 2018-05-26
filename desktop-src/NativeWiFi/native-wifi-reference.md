@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the reference material on using the client programming interface for Native Wifi.'
-ms.assetid: 'e1384805-d5e2-42c6-b70a-3472d3d387ac'
+Description: Contains the reference material on using the client programming interface for Native Wifi.
+ms.assetid: e1384805-d5e2-42c6-b70a-3472d3d387ac
 title: Native Wifi Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Native Wifi Reference

@@ -1,7 +1,12 @@
 ---
 title: Rich Edit Control Reference
 description: .
-ms.assetid: '979e10fe-1844-4786-9aa8-d634526a6eb0'
+ms.assetid: 979e10fe-1844-4786-9aa8-d634526a6eb0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rich Edit Control Reference

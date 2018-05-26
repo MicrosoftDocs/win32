@@ -1,7 +1,12 @@
-﻿---
-Description: 'Constructs an application protocol data unit (APDU) command that initiates the computation of the authentication data by the card using the challenge data sent from the interface device and a relevant secret (for example, a key) stored in the card.'
-ms.assetid: 'cb0b2535-6e5b-4fb2-b540-cd037259baab'
-title: 'ISCardISO7816::InternalAuthenticate method'
+---
+Description: Constructs an application protocol data unit (APDU) command that initiates the computation of the authentication data by the card using the challenge data sent from the interface device and a relevant secret (for example, a key) stored in the card.
+ms.assetid: cb0b2535-6e5b-4fb2-b540-cd037259baab
+title: ISCardISO7816InternalAuthenticate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardISO7816::InternalAuthenticate method

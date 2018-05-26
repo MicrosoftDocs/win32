@@ -1,13 +1,16 @@
 ---
-Description: 'WMI C++ classes that are part of the WMI Provider Framework are no longer recommended for use.'
+Description: WMI C++ classes that are part of the WMI Provider Framework are no longer recommended for use.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd2414a72-3435-4035-bcd9-b3ec87f5709c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d2414a72-3435-4035-bcd9-b3ec87f5709c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Provider Framework Utility Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Provider Framework Utility Classes
@@ -20,8 +23,8 @@ You can unload individual providers that are no longer required.
 
 To use this capability, you must make the three following changes to your provider in MainDll.cpp:
 
--   In the function **DllMain** where you call [**CWbemProviderGlue::FrameworkLoginDLL**](cwbemproviderglue-frameworklogindll.md), you must add a second parameter which is a pointer to a long.
--   In the function **DllCanUnloadNow** where you call [**CWbemProviderGlue::FrameworkLogoffDLL**](cwbemproviderglue-frameworklogoffdll.md), you must add a second parameter which is a pointer to a long.
+-   In the function **DllMain** where you call [**CWbemProviderGlue::FrameworkLoginDLL**](/windows/win32/WbemGlue/nf-wbemglue-cwbemproviderglue-frameworklogindll(lpcwstr,plong)?branch=master), you must add a second parameter which is a pointer to a long.
+-   In the function **DllCanUnloadNow** where you call [**CWbemProviderGlue::FrameworkLogoffDLL**](/windows/win32/WbemGlue/nf-wbemglue-cwbemproviderglue-frameworklogoffdll(lpcwstr,plong)?branch=master), you must add a second parameter which is a pointer to a long.
 -   In the function **DllGetClassObject** where you create an instance of **CWbemGlueFactory**, you must add a parameter which is a pointer to a long.
 
 In all three cases, the pointer to a long must be the same pointer.
@@ -43,23 +46,23 @@ The following table lists the provider framework utility classes.
 | Utility class                                          | Description                                                                                                                     |
 |--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | [**CHString**](chstring.md)                           | Provides string comparison and manipulation functions for WMI.                                                                  |
-| [**CHStringArray**](chstringarray.md)                 | Contains for creating and manipulating arrays of CHString.                                                                      |
-| [**TRefPointerCollection**](trefpointercollection.md) | Grants access to a container class for pointers.                                                                                |
+| [**CHStringArray**](/windows/win32/ChStrArr/nl-chstrarr-chstringarray?branch=master)                 | Contains for creating and manipulating arrays of CHString.                                                                      |
+| [**TRefPointerCollection**](/windows/win32/RefPtrCo/nl-refptrco-trefpointercollection?branch=master) | Grants access to a container class for pointers.                                                                                |
 | [**WBEMTime**](wbemtime.md)                           | Facilitates conversions between various Windows and ANSI C run-time time formats.                                               |
-| [**WBEMTimeSpan**](wbemtimespan.md)                   | Contains helper functions used to calculate and hold the time span difference between two [**WBEMTime**](wbemtime.md) objects. |
+| [**WBEMTimeSpan**](/windows/win32/WbemTime/nl-wbemtime-wbemtimespan?branch=master)                   | Contains helper functions used to calculate and hold the time span difference between two [**WBEMTime**](wbemtime.md) objects. |
 
 
 
  
 
 > [!Note]  
-> The [**CHString**](chstring.md) and [**CHStringArray**](chstringarray.md) classes are similar to the Microsoft Foundation Classes (MFC) **CString** and **CStringArray**. The WMI versions exist so that developers can access to string manipulation and comparison methods without having to access MFC. The [**WBEMTime**](wbemtime.md) and [**WBEMTimeSpan**](wbemtimespan.md) classes are also similar to the MFC **CTime** and **CTimeSpan** classes. The WMI versions are capable of storing time to nanosecond accuracy, and can also convert to and from **BSTR**. For more information about the CString, CStringArray, CTime, and CTimeSpan classes, see the [Microsoft Foundation Classes](https://msdn.microsoft.com/library/d06h2x6e(VS.71).aspx) on MSDN.
+> The [**CHString**](chstring.md) and [**CHStringArray**](/windows/win32/ChStrArr/nl-chstrarr-chstringarray?branch=master) classes are similar to the Microsoft Foundation Classes (MFC) **CString** and **CStringArray**. The WMI versions exist so that developers can access to string manipulation and comparison methods without having to access MFC. The [**WBEMTime**](wbemtime.md) and [**WBEMTimeSpan**](/windows/win32/WbemTime/nl-wbemtime-wbemtimespan?branch=master) classes are also similar to the MFC **CTime** and **CTimeSpan** classes. The WMI versions are capable of storing time to nanosecond accuracy, and can also convert to and from **BSTR**. For more information about the CString, CStringArray, CTime, and CTimeSpan classes, see the [Microsoft Foundation Classes](https://msdn.microsoft.com/library/d06h2x6e(VS.71).aspx) on MSDN.
 
  
 
 **BSTR** values returned by [**WBEMTime**](wbemtime.md) methods are in [Date and Time Format](date-and-time-format.md): "yyyymmddHHMMSS.mmmmmmsUUU"
 
-**BSTR** values returned by [**WBEMTimeSpan**](wbemtimespan.md) methods are in [Interval Format](interval-format.md): "ddddddddHHMMSS.mmmmmm:000"
+**BSTR** values returned by [**WBEMTimeSpan**](/windows/win32/WbemTime/nl-wbemtime-wbemtimespan?branch=master) methods are in [Interval Format](interval-format.md): "ddddddddHHMMSS.mmmmmm:000"
 
 Although times and time spans are stored internally as nanoseconds, they are not necessarily stored with nanosecond accuracy. This is because [**WBEMTime**](wbemtime.md) objects can be constructed using time formats that are accurate to a second (**struct tm**, and **time\_t**). Adding artificial decimal places does not increase the accuracy.
 

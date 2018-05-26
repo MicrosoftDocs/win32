@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the current AC and DC backlight levels.'
-ms.assetid: 'baa77811-046d-4a07-b3df-2a31fba2d9a7'
-title: 'IOCTL\_VIDEO\_SET\_DISPLAY\_BRIGHTNESS control code'
+Description: Sets the current AC and DC backlight levels.
+ms.assetid: baa77811-046d-4a07-b3df-2a31fba2d9a7
+title: IOCTL\_VIDEO\_SET\_DISPLAY\_BRIGHTNESS control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_VIDEO\_SET\_DISPLAY\_BRIGHTNESS control code
@@ -47,7 +52,7 @@ The control code for the operation. This value identifies the specific operation
 *lpInBuffer* 
 </dt> <dd>
 
-A pointer to a [**DISPLAY\_BRIGHTNESS**](display-brightness.md) structure.
+A pointer to a [**DISPLAY\_BRIGHTNESS**](/windows/win32/WinNT/?branch=master) structure.
 
 </dd> <dt>
 
@@ -102,7 +107,7 @@ If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microso
 
 ## Remarks
 
-The values specified in the **ucACBrightness** and **ucDCBrightness** members of the [**DISPLAY\_BRIGHTNESS**](display-brightness.md) structure must have been previously returned by [**IOCTL\_VIDEO\_QUERY\_SUPPORTED\_BRIGHTNESS**](ioctl-video-query-supported-brightness.md). For example, if the supported values are 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100, then using a value of 33 would be an error.
+The values specified in the **ucACBrightness** and **ucDCBrightness** members of the [**DISPLAY\_BRIGHTNESS**](/windows/win32/WinNT/?branch=master) structure must have been previously returned by [**IOCTL\_VIDEO\_QUERY\_SUPPORTED\_BRIGHTNESS**](ioctl-video-query-supported-brightness.md). For example, if the supported values are 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100, then using a value of 33 would be an error.
 
 The header file used to build applications that include this functionality, Ntddvdeo.h, is included in the Microsoft Windows Driver Development Kit (DDK). For information on obtaining the DDK, see [http://www.microsoft.com/whdc/devtools/ddk/default.mspx](Http://go.microsoft.com/fwlink/p/?linkid=84136).
 
@@ -119,8 +124,8 @@ Alternatively, you can define this control code as follows:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows XP with SP1 \[desktop apps only\]<br/>                   |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista, Windows XP with SP1 \[desktop apps only\]<br/>                   |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Ntddvdeo.h</dt> </dl> |
 
 
@@ -135,7 +140,7 @@ Alternatively, you can define this control code as follows:
 [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216)
 </dt> <dt>
 
-[**DISPLAY\_BRIGHTNESS**](display-brightness.md)
+[**DISPLAY\_BRIGHTNESS**](/windows/win32/WinNT/?branch=master)
 </dt> <dt>
 
 [**IOCTL\_VIDEO\_QUERY\_DISPLAY\_BRIGHTNESS**](ioctl-video-query-display-brightness.md)
@@ -144,9 +149,9 @@ Alternatively, you can define this control code as follows:
 [**IOCTL\_VIDEO\_QUERY\_SUPPORTED\_BRIGHTNESS**](ioctl-video-query-supported-brightness.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

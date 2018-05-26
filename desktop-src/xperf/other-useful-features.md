@@ -1,8 +1,16 @@
 ---
 title: Other Useful Features
 description: Other Useful Features
-ms.assetid: 'd7324263-8e66-4008-84dd-c95c7f69ad65'
-keywords: ["runtag", "before", "after"]
+ms.assetid: d7324263-8e66-4008-84dd-c95c7f69ad65
+keywords:
+- runtag
+- before
+- after
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other Useful Features

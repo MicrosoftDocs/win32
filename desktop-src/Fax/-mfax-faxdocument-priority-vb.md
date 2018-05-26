@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Priority property specifies the priority to use when sending the fax; for example, normal, low, or high priority.'
-ms.assetid: 'e3dc385d-51e6-4174-b1a5-ff48bde19995'
-title: 'FaxDocument.Priority property'
+---
+Description: The Priority property specifies the priority to use when sending the fax; for example, normal, low, or high priority.
+ms.assetid: e3dc385d-51e6-4174-b1a5-ff48bde19995
+title: FaxDocument.Priority property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.Priority property
@@ -21,7 +26,7 @@ Property Priority As Integer
 
 ## Property value
 
-A variable of type [**FAX\_PRIORITY\_TYPE\_ENUM**](-mfax-fax-priority-type-enum.md) that specifies or receives the transmission priority. For possible values, see **FAX\_PRIORITY\_TYPE\_ENUM**.
+A variable of type [**FAX\_PRIORITY\_TYPE\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_priority_type_enum?branch=master) that specifies or receives the transmission priority. For possible values, see **FAX\_PRIORITY\_TYPE\_ENUM**.
 
 ## Remarks
 
@@ -50,7 +55,7 @@ By default, **Priority** is set to 0, which indicates low priority.
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

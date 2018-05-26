@@ -1,7 +1,12 @@
 ---
 Description: The Digest Access Protocol
-ms.assetid: '7b2fd75e-dd0d-4a63-a84b-a64f08f883f2'
+ms.assetid: 7b2fd75e-dd0d-4a63-a84b-a64f08f883f2
 title: The Digest Access Protocol
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Digest Access Protocol
@@ -24,14 +29,14 @@ The process starts with the client requesting an access-protected resource from 
 
 The server receives HTTP Request 1 and determines that the resource requires authentication information that was not included in the request. The server generates a challenge for the client as follows:
 
-1.  The server obtains its [*credentials*](security.c_gly#-security-credentials-gly) by calling the [**AcquireCredentialsHandle**](acquirecredentialshandle--general-.md) function.
-2.  The server generates the Digest challenge by calling the [**AcceptSecurityContext (General)**](acceptsecuritycontext--general-.md) function.
+1.  The server obtains its [*credentials*](security.c_gly#-security-credentials-gly) by calling the [**AcquireCredentialsHandle**](/windows/win32/Sspi/?branch=master) function.
+2.  The server generates the Digest challenge by calling the [**AcceptSecurityContext (General)**](/windows/win32/Sspi/?branch=master) function.
 3.  The server sends a WWW-Authenticate header as its response to the client's request (shown as HTTP Response 1). The header contains the Digest challenge and an opaque directive that contains a reference to a partial [*security context*](security.s_gly#-security-security-context-gly) established for the client. The header is sent with a 401 status code that indicates that the client request generated an unauthorized access error. For more information about the Digest challenge, see [Contents of a Digest Challenge](contents-of-a-digest-challenge.md) and [Generating the Digest Challenge](generating-the-digest-challenge.md).
 4.  The client receives HTTP Response 1, extracts the Digest challenge sent by the server, and generates a Digest challenge response as follows:
-    1.  The user's credentials are obtained either by calling the [**AcquireCredentialsHandle**](acquirecredentialshandle--general-.md) function or by interactively prompting the user for credentials.
-    2.  The challenge and credentials information are passed to the [**InitializeSecurityContext (General)**](initializesecuritycontext--general-.md) function, which generates the Digest challenge response.
+    1.  The user's credentials are obtained either by calling the [**AcquireCredentialsHandle**](/windows/win32/Sspi/?branch=master) function or by interactively prompting the user for credentials.
+    2.  The challenge and credentials information are passed to the [**InitializeSecurityContext (General)**](/windows/win32/Sspi/?branch=master) function, which generates the Digest challenge response.
 5.  The client sends an Authorization header that contains the challenge response to the server (shown as HTTP Request 2). For more information about the Digest challenge response, see [Contents of a Digest Challenge Response](contents-of-a-digest-challenge-response.md) and [Generating the Digest Challenge Response](generating-the-digest-challenge-response.md).
-6.  The server receives HTTP Request 2, extracts the challenge response sent by the client, and authenticates the information by calling the [**AcceptSecurityContext (General)**](acceptsecuritycontext--general-.md) function. For details about the authentication process, see [Initial Authentication using Microsoft Digest](initial-authentication-using-microsoft-digest.md).
+6.  The server receives HTTP Request 2, extracts the challenge response sent by the client, and authenticates the information by calling the [**AcceptSecurityContext (General)**](/windows/win32/Sspi/?branch=master) function. For details about the authentication process, see [Initial Authentication using Microsoft Digest](initial-authentication-using-microsoft-digest.md).
 7.  The server sends HTTP Response 2 back to the client as the second and final response required by the Digest Access protocol. If the authentication is successful, this response contains the requested resource.
 
 ## Related topics

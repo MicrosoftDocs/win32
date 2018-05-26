@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies the application when an IME is about to change the content of the candidate window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.'
-ms.assetid: '0a276f9c-cece-4fa6-b71a-ba0daad5ca05'
-title: 'IMN\_CHANGECANDIDATE notification code'
+---
+Description: Notifies the application when an IME is about to change the content of the candidate window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+ms.assetid: 0a276f9c-cece-4fa6-b71a-ba0daad5ca05
+title: IMN\_CHANGECANDIDATE notification code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMN\_CHANGECANDIDATE notification code
@@ -41,7 +46,7 @@ This command has no return value.
 
 An application should process this command if it displays candidates itself.
 
-The IME window changes the appearance of the candidate window when it processes this command. An application can get information about the system window with the [**ImmGetCandidateListCount**](immgetcandidatelistcount.md) and [**ImmGetCandidateList**](immgetcandidatelist.md)
+The IME window changes the appearance of the candidate window when it processes this command. An application can get information about the system window with the [**ImmGetCandidateListCount**](/windows/win32/Imm/nf-imm-immgetcandidatelistcounta?branch=master) and [**ImmGetCandidateList**](/windows/win32/Imm/nf-imm-immgetcandidatelista?branch=master)
 
 ## Requirements
 
@@ -65,10 +70,10 @@ The IME window changes the appearance of the candidate window when it processes 
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**ImmGetCandidateList**](immgetcandidatelist.md)
+[**ImmGetCandidateList**](/windows/win32/Imm/nf-imm-immgetcandidatelista?branch=master)
 </dt> <dt>
 
-[**ImmGetCandidateListCount**](immgetcandidatelistcount.md)
+[**ImmGetCandidateListCount**](/windows/win32/Imm/nf-imm-immgetcandidatelistcounta?branch=master)
 </dt> <dt>
 
 [**WM\_IME\_NOTIFY**](wm-ime-notify.md)

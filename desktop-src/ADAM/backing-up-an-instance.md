@@ -4,11 +4,15 @@ description: You can back up an instance of AD LDS using the operating system in
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '64be837a-4994-4b55-97b8-b341e5602f8f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 64be837a-4994-4b55-97b8-b341e5602f8f
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , backing up an instance"]
+keywords:
+- AD LDS examples ADAM , backing up an instance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Backing Up an Instance
@@ -46,7 +50,7 @@ For more information about backing up an AD LDS instance using the operating sys
 
     
 
-     
+     
 
     To back up the system state, select the **System State** check box.
 
@@ -75,7 +79,7 @@ For more information about backing up an AD LDS instance using the operating sys
 > \[!Caution\]  
 > If data has been backed up from an NTFS volume, we recommend that you restore the data to an NTFS volume of the same version to prevent loss of data.
 
- 
+ 
 
 ## Using a command line to back up an instance of AD LDS
 
@@ -98,7 +102,7 @@ Specify a command that requires the following form:
 
 
 
- 
+ 
 
 For example, to back up the files and folders listed in the backup selection file C:\\adaminstance.bks to file C:\\backup.bkf with the job name "Backup Job 1", use the command: "ntbackup backup @C:\\adaminstance.bks /j "Backup Job 1" /f "C:\\Backup.bkf"".
 
@@ -112,9 +116,9 @@ To back up the same files to a tape drive, use the command "ntbackup backup @C:\
 >
 > Some tape drives may not support hardware compression.
 
- 
+ 
 
-For more information about additional file and tape backup options, see the Help topic on the **ntbackup** command-line utility in Help and Support Center in Windows Server 2003.
+For more information about additional file and tape backup options, see the Help topic on the **ntbackup** command-line utility in Help and Support Center in Windows Server 2003.
 
 ## To use a script or a program to back up an instance of AD LDS
 
@@ -378,9 +382,9 @@ namespace ADAM_Examples
 
 
 
- 
+ 
 
- 
+ 
 
 
 

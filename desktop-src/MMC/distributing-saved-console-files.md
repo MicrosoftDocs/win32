@@ -4,10 +4,13 @@ description: Provides a mechanism for distributing saved console files.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '45291ec4-f2a1-4d45-9598-3ea0d3d29390'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 45291ec4-f2a1-4d45-9598-3ea0d3d29390
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Distributing Saved Console Files

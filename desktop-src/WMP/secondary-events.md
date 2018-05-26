@@ -1,8 +1,18 @@
 ---
 title: Secondary Events
 description: Secondary Events
-ms.assetid: 'cc9eb382-82ca-4416-a04e-1572e4c69c90'
-keywords: ["Windows Media Player skins,secondary events", "skins,secondary events", "events,secondary", "writing code for skins,secondary events", "secondary events"]
+ms.assetid: cc9eb382-82ca-4416-a04e-1572e4c69c90
+keywords:
+- Windows Media Player skins,secondary events
+- skins,secondary events
+- events,secondary
+- writing code for skins,secondary events
+- secondary events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Secondary Events

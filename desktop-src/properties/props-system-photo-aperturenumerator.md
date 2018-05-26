@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of System.Photo.Aperture.'
-ms.assetid: 'dad7787f-417d-409c-bc7d-c7d5298bdfb0'
-title: 'System.Photo.ApertureNumerator'
+Description: The numerator of System.Photo.Aperture.
+ms.assetid: dad7787f-417d-409c-bc7d-c7d5298bdfb0
+title: System.Photo.ApertureNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ApertureNumerator

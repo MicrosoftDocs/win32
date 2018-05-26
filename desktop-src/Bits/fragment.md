@@ -1,14 +1,20 @@
 ---
 title: Fragment
 description: Use the Fragment packet to send a fragment of the upload file to the server.
-ms.assetid: 'f5466489-2d5e-4850-a39c-37bc4923a7ac'
-keywords: ["Fragment BITS"]
+ms.assetid: f5466489-2d5e-4850-a39c-37bc4923a7ac
+keywords:
+- Fragment BITS
 topic_type:
 - apiref
 api_name:
 - Fragment
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fragment

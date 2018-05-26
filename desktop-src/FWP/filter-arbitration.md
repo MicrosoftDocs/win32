@@ -1,7 +1,12 @@
 ---
 title: Filter Arbitration
 description: Filter arbitration is the logic built into the Windows Filtering Platform (WFP) that is used to determine how filters interact with each other when making network traffic filtering decisions.
-ms.assetid: 'd097f307-113e-4dc3-ad59-ddfb85061583'
+ms.assetid: d097f307-113e-4dc3-ad59-ddfb85061583
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filter Arbitration
@@ -55,7 +60,7 @@ The basic policy is as follows.
 The basic policy does not support the scenario of an exception not overridden by a firewall. Typical examples of this type of scenario are:
 
 -   Remote administration port required to be opened even in the presence of a third-party firewall.
--   Components that require ports to be opened in order to function (for example, Universal Plug and Play—UPnP). If the administrator has explicitly enabled the component, the firewall should not silently block the traffic.
+-   Components that require ports to be opened in order to function (for example, Universal Plug and Play UPnP). If the administrator has explicitly enabled the component, the firewall should not silently block the traffic.
 
 In order to support the above scenarios, a filtering decision must be made more difficult to override than another filtering decision by managing the action override permission. This permission is implemented as the **FWPS\_RIGHT\_ACTION\_WRITE** flag and it is set on a per-filter basis.
 
@@ -72,9 +77,9 @@ The evaluation algorithm maintains the current action ("Permit" or "Block") alon
 
 
 
- 
+ 
 
-The filter action can be set by setting the **type** member in the structure [**FWPM\_ACTION0**](fwpm-action0-struct.md) to either **FWP\_ACTION\_BLOCK** or **FWP\_ACTION\_PERMIT**. Along with the action type, a filter also exposes the flag **FWPM\_FILTER\_FLAG\_CLEAR\_ACTION\_RIGHT**. If this flag is cleared, then the action type is hard and cannot be overridden except when a hard permit is overridden by a **Veto** as explained later on, else it is soft which can be overridden by high priority action.
+The filter action can be set by setting the **type** member in the structure [**FWPM\_ACTION0**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_action0_?branch=master) to either **FWP\_ACTION\_BLOCK** or **FWP\_ACTION\_PERMIT**. Along with the action type, a filter also exposes the flag **FWPM\_FILTER\_FLAG\_CLEAR\_ACTION\_RIGHT**. If this flag is cleared, then the action type is hard and cannot be overridden except when a hard permit is overridden by a **Veto** as explained later on, else it is soft which can be overridden by high priority action.
 
 The following table lists the default behavior for filter and callout actions.
 
@@ -87,7 +92,7 @@ The following table lists the default behavior for filter and callout actions.
 
 
 
- 
+ 
 
 A **Veto** is a "Block" action returned by the filter when the **FWPS\_RIGHT\_ACTION\_WRITE** flag was reset prior to calling the filter. A **Veto** will block traffic that was permitted with a hard permit.
 
@@ -99,19 +104,19 @@ When a **Veto** is issued, it is an indication of conflict in the configuration.
     > [!Note]  
     > The notification is received by all entities that have subscribed to it. This will typically include the firewall (in order to detect mis-configurations), or applications (in order to detect if their particular filter is overridden).
 
-     
+     
 
     > [!Note]  
     > There is no mandatory user interface (UI) instantiated when a "Hard Permit" filter is overridden. The notifications of the override are sent to any provider that registered to receive them, which allows firewalls, or the applications that created the "Permit" filters, to show UI asking for user action. There is no value in having a platform UI notification for these override events since firewall ISVs that do not want to silently block can do so by registering at a different place in WFP, or (less preferred) handle all their logic in a call-out driver. ISVs that do think prompting users is a good idea will want to own the user experience and create their own UI.
 
-     
+     
 
 The mitigation behavior described above ensures that a "Hard Permit" filter is not silently overridden by a "Block" filter, and covers the scenario where a remote administration port is not allowed to be blocked by the firewall. In order to silently override "Hard Permit" filters a firewall has to add its filters within a higher priority sub-layer.
 
 > [!Note]  
 > Since there is no cross-layer arbitration, traffic permitted with "Hard Permit" may still be blocked at another layer. It is the responsibility of the policy author to ensure that traffic is permitted at each layer if necessary.
 
- 
+ 
 
 User applications requesting ports to be opened add overridable filters to a low priority sub-layer. The firewall can subscribe to the filter add notification events and add a matching filter after user (or policy) validation.
 
@@ -122,9 +127,9 @@ User applications requesting ports to be opened add overridable filters to a low
 [Filter Weight Assignment](filter-weight-assignment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

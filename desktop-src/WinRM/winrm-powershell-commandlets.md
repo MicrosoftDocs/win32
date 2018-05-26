@@ -4,11 +4,31 @@ description: Windows Remote Management 2.0 (WinRM) can use Windows PowerShell cm
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1ecdd41e-7257-483a-9a20-ae817f5f5ebe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 1ecdd41e-7257-483a-9a20-ae817f5f5ebe
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["ConnectWSManCommand", "DisableWSManCredSSPCommand", "DisconnectWSManCommand", "EnableWSManCredSSPCommand", "GetWSManCredSSPCommand", "GetWSManInstanceCommand", "InvokeWSManActionCommand", "NewWSManInstanceCommand", "NewWSManSessionOptionCommand", "RemoveWSManInstanceCommand", "SetWSManInstanceCommand", "SetWSManQuickConfigCommand", "TestWSManCommand", "SessionOption", "AuthenticationMechanism", "ProxyAccessType", "ProxyAuthentication"]
+keywords:
+- ConnectWSManCommand
+- DisableWSManCredSSPCommand
+- DisconnectWSManCommand
+- EnableWSManCredSSPCommand
+- GetWSManCredSSPCommand
+- GetWSManInstanceCommand
+- InvokeWSManActionCommand
+- NewWSManInstanceCommand
+- NewWSManSessionOptionCommand
+- RemoveWSManInstanceCommand
+- SetWSManInstanceCommand
+- SetWSManQuickConfigCommand
+- TestWSManCommand
+- SessionOption
+- AuthenticationMechanism
+- ProxyAccessType
+- ProxyAuthentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Managed Reference for WinRM Windows PowerShell Command Classes
@@ -51,7 +71,7 @@ The following WinRM command classes are implemented by Windows PowerShell. These
 
 
 
- 
+ 
 
 ## WS-Management Windows PowerShell Enumerations
 
@@ -67,11 +87,11 @@ The following enumerations are implemented by Windows PowerShell. These enumerat
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

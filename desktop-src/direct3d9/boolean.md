@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a simple Boolean type.'
-ms.assetid: 'aa6eb842-193c-4cde-bfb2-4d428ffa7267'
+Description: Defines a simple Boolean type.
+ms.assetid: aa6eb842-193c-4cde-bfb2-4d428ffa7267
 title: Boolean
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Boolean

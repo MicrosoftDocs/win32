@@ -4,11 +4,13 @@ description: Represents a classification property definition.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2221a226-60cd-45db-86c1-eae11ad41ff0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 2221a226-60cd-45db-86c1-eae11ad41ff0
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMClassificationPropertyDefinition class File Server Resource Manager", "MSFT_FSRMClassificationPropertyDefinition class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMClassificationPropertyDefinition class File Server Resource Manager
+- MSFT_FSRMClassificationPropertyDefinition class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMClassificationPropertyDefinition class
@@ -39,14 +44,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMClassificationPropertyDefinition
 {
-  string                               Name;
-  string                               DisplayName;
-  string                               Description;
-  uint32                               Type;
+  string                               Name;
+  string                               DisplayName;
+  string                               Description;
+  uint32                               Type;
   MSFT_FSRMClassificationPropertyValue PossibleValue[];
-  string                               Parameters[] = {};
-  uint32                               Flags[];
-  uint32                               AppliesTo[];
+  string                               Parameters[] = {};
+  uint32                               Flags[];
+  uint32                               AppliesTo[];
 };
 ```
 
@@ -69,7 +74,7 @@ The **MSFT\_FSRMClassificationPropertyDefinition** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -377,7 +382,7 @@ You can use the following comparison operators with this type: Equal, Not equal,
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -394,9 +399,9 @@ You can use the following comparison operators with this type: Equal, Not equal,
 [**MSFT\_FSRMClassificationPropertyValue**](msft-fsrmclassificationpropertyvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Disconnect method terminates a fax client application''s connection to a fax server.'
-ms.assetid: '669a0120-ed0d-4078-a4c0-e41ef4917162'
-title: 'FaxServer.Disconnect method'
+---
+Description: The Disconnect method terminates a fax client applications connection to a fax server.
+ms.assetid: 669a0120-ed0d-4078-a4c0-e41ef4917162
+title: FaxServer.Disconnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.Disconnect method

@@ -1,7 +1,12 @@
 ---
 title: Registering Interfaces
 description: Applications that add interfaces need to register the interfaces so OLE can find the appropriate remoting code for interprocess communication.
-ms.assetid: 'd7f96d58-3124-438d-9e3d-b52737d307cc'
+ms.assetid: d7f96d58-3124-438d-9e3d-b52737d307cc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Interfaces
@@ -47,7 +52,7 @@ The universally unique ID associated with the type library in which the interfac
 <span id="CLSID"></span><span id="clsid"></span>*CLSID*
 </dt> <dd>
 
-The universally unique ID associated with the proxy/stub implementation of the interface, used internally by OLE for interprocess communication. ActiveX objects use the proxy/stub implementation of [**IDispatch**](idispatch.md).
+The universally unique ID associated with the proxy/stub implementation of the interface, used internally by OLE for interprocess communication. ActiveX objects use the proxy/stub implementation of [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master).
 
 </dd> </dl>
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a CMC request object from an inner nested PKCS \#10 request.'
-ms.assetid: '8a0dc078-22ca-4bff-9cc0-46823912d3da'
+Description: Creates a CMC request object from an inner nested PKCS \#10 request.
+ms.assetid: 8a0dc078-22ca-4bff-9cc0-46823912d3da
 title: createCNGCustomCMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # createCNGCustomCMC
@@ -21,17 +26,17 @@ The createCNGCustomCMC sample:
     -   The name of the algorithm used to generate an asymmetric private key.
     -   The name of the algorithm used to [*hash*](https://msdn.microsoft.com/library/windows/desktop/ms721586#-security-hash-gly) the [*certificate request*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-certificate-request-gly).
     -   An output file in which to save the certificate request.
-    -   An optional string (AlternateSignature) which, if present, specifies that a discrete rather than a combined signature algorithm be used. For more information, see the [**AlternateSignatureAlgorithm**](ix509certificaterequest-alternatesignaturealgorithm-property.md) property.
-2.  Creates an [**IX509PrivateKey**](ix509privatekey.md) object and sets the following properties:
-    -   [**LegacyCsp**](ix509privatekey-legacycsp.md)
-    -   [**ProviderName**](ix509privatekey-providername.md)
-    -   [**Algorithm**](ix509privatekey-algorithm.md)
-    -   [**KeyProtection**](ix509privatekey-keyprotection.md)
-    -   [**ExportPolicy**](ix509privatekey-exportpolicy.md)
+    -   An optional string (AlternateSignature) which, if present, specifies that a discrete rather than a combined signature algorithm be used. For more information, see the [**AlternateSignatureAlgorithm**](/windows/win32/CertEnroll/nf-certenroll-ix509certificaterequest-get_alternatesignaturealgorithm?branch=master) property.
+2.  Creates an [**IX509PrivateKey**](/windows/win32/CertEnroll/nn-certenroll-ix509privatekey?branch=master) object and sets the following properties:
+    -   [**LegacyCsp**](/windows/win32/CertEnroll/nf-certenroll-ix509privatekey-get_legacycsp?branch=master)
+    -   [**ProviderName**](/windows/win32/CertEnroll/nf-certenroll-ix509privatekey-get_providername?branch=master)
+    -   [**Algorithm**](/windows/win32/CertEnroll/nf-certenroll-ix509privatekey-get_algorithm?branch=master)
+    -   [**KeyProtection**](/windows/win32/CertEnroll/nf-certenroll-ix509privatekey-get_keyprotection?branch=master)
+    -   [**ExportPolicy**](/windows/win32/CertEnroll/nf-certenroll-ix509privatekey-get_exportpolicy?branch=master)
 3.  Creates an asymmetric private key.
-4.  Creates an [**IX509CertificateRequestPkcs10**](ix509certificaterequestpkcs10.md) object and initializes it by using the private key.
-5.  Creates an [**IX509CertificateRequestCmc**](ix509certificaterequestcmc.md) object and initializes it by using the PKCS \#10 request object created in step 4.
-6.  Sets the alternate signature algorithm flag to **VARIANT\_TRUE** or **VARIANT\_FALSE** depending on whether an alternate signature string is specified on the command line. For more information, see [**AlternateSignatureAlgorithm**](ix509certificaterequest-alternatesignaturealgorithm-property.md).
+4.  Creates an [**IX509CertificateRequestPkcs10**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestpkcs10?branch=master) object and initializes it by using the private key.
+5.  Creates an [**IX509CertificateRequestCmc**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestcmc?branch=master) object and initializes it by using the PKCS \#10 request object created in step 4.
+6.  Sets the alternate signature algorithm flag to **VARIANT\_TRUE** or **VARIANT\_FALSE** depending on whether an alternate signature string is specified on the command line. For more information, see [**AlternateSignatureAlgorithm**](/windows/win32/CertEnroll/nf-certenroll-ix509certificaterequest-get_alternatesignaturealgorithm?branch=master).
 7.  Creates a [*hashing algorithm*](https://msdn.microsoft.com/library/windows/desktop/ms721586#-security-hashing-algorithm-gly) [*object identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721599#-security-object-identifier-gly) (OID) from the algorithm name specified on the command line and sets the OID on the CMC request object.
 8.  Signs the certificate request and encodes it by using [*Distinguished Encoding Rules*](https://msdn.microsoft.com/library/windows/desktop/ms721573#-security-distinguished-encoding-rules-gly) (DER).
 9.  Retrieves a string that contains the encoded CMC certificate request and saves it to a file. The EncodeToFileW function is defined in EnrollCommon.cpp.
@@ -49,7 +54,7 @@ The createCNGCustomCMC sample:
 [Using the Included Samples](using-the-included-samples.md)
 </dt> <dt>
 
-[**IX509PrivateKey**](ix509privatekey.md)
+[**IX509PrivateKey**](/windows/win32/CertEnroll/nn-certenroll-ix509privatekey?branch=master)
 </dt> </dl>
 
  

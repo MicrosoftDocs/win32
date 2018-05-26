@@ -1,7 +1,12 @@
 ---
 title: Windows System Assessment Tool Provider
 description: The Windows System Assessment Tool (WinSAT) exposes a number of classes that assesses the performance characteristics and capabilities of a computer.
-ms.assetid: 'f0ce8b55-25b4-40fa-b17f-32a021b50395'
+ms.assetid: f0ce8b55-25b4-40fa-b17f-32a021b50395
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows System Assessment Tool Provider
@@ -20,7 +25,7 @@ WinSAT is designed for C, C++, and Visual Basic developers and those who write s
 
 ## Run-time requirements
 
-WinSAT is available on client computers starting with the Windows Vista operating system.
+WinSAT is available on client computers starting with the Windows Vista operating system.
 
 ## In this section
 
@@ -33,11 +38,11 @@ WinSAT is available on client computers starting with the Windows Vista operatin
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

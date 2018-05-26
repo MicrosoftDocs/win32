@@ -1,7 +1,12 @@
 ---
 title: Start Symbol
 description: Start Symbol
-ms.assetid: 'f9c3d6de-6ef5-4f66-bd90-fc84968ec7d7'
+ms.assetid: f9c3d6de-6ef5-4f66-bd90-fc84968ec7d7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Start Symbol

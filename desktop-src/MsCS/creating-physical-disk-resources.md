@@ -4,11 +4,16 @@ description: Applications may need to obtain access to a disk on a shared bus in
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '003bc879-d526-4f7d-8f58-a9002f78819d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 003bc879-d526-4f7d-8f58-a9002f78819d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resources Failover Cluster ,creating,Physical Disk", "Physical Disk resource type Failover Cluster ,resources,creating"]
+keywords:
+- resources Failover Cluster ,creating,Physical Disk
+- Physical Disk resource type Failover Cluster ,resources,creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Physical Disk Resources
@@ -21,15 +26,15 @@ Note that the Physical Disk resources cannot be created for partitions or logica
 
 **To Create a Physical Disk Resource**
 
-1.  Determine search criteria for selecting a disk. Refer to [**CLUSPROP\_PARTITION\_INFO**](clusprop-partition-info.md) and [**CLUSPROP\_PARTITION\_INFO\_EX**](clusprop-partition-info-ex.md) for the kinds of data that can be searched for.
-2.  Create or select a [group](groups.md) in which to create the new resource (see [**CreateClusterGroup**](createclustergroup.md) and [**OpenClusterGroup**](openclustergroup.md).)
-3.  Get a list of available disks. Call [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) with the [CLUSCTL\_RESOURCE\_TYPE\_STORAGE\_GET\_AVAILABLE\_DISKS](clusctl-resource-type-storage-get-available-disks.md) or [CLUSCTL\_RESOURCE\_TYPE\_STORAGE\_GET\_AVAILABLE\_DISKS\_EX](clusctl-resource-type-storage-get-available-disks-ex.md) control code.
+1.  Determine search criteria for selecting a disk. Refer to [**CLUSPROP\_PARTITION\_INFO**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_partition_info?branch=master) and [**CLUSPROP\_PARTITION\_INFO\_EX**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_partition_info_ex?branch=master) for the kinds of data that can be searched for.
+2.  Create or select a [group](groups.md) in which to create the new resource (see [**CreateClusterGroup**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_create_cluster_group?branch=master) and [**OpenClusterGroup**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster_group?branch=master).)
+3.  Get a list of available disks. Call [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) with the [CLUSCTL\_RESOURCE\_TYPE\_STORAGE\_GET\_AVAILABLE\_DISKS](clusctl-resource-type-storage-get-available-disks.md) or [CLUSCTL\_RESOURCE\_TYPE\_STORAGE\_GET\_AVAILABLE\_DISKS\_EX](clusctl-resource-type-storage-get-available-disks-ex.md) control code.
 4.  Parse the resulting [value list](value-lists.md) for a disk matching the criteria determined in step 1. (See [Parsing a Value List](parsing-a-value-list.md).) If a disk is found:
 
     -   Get the signature or **GUID** of the disk.
     -   Get the drive letters of all partitions of the disk.
 
-5.  Create a resource by calling [**CreateClusterResource**](createclusterresource.md), specifying "Physical Disk" as the [resource type](resource-types.md).
+5.  Create a resource by calling [**CreateClusterResource**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_create_cluster_resource?branch=master), specifying "Physical Disk" as the [resource type](resource-types.md).
 6.  Set the new resource's [**DiskSignature**](disksignature.md) or [**DiskIdGuid**](diskidguid.md) private property to the signature or **GUID** obtained in step 4. You must set one or the other of these properties, but not both. Do not change either property after this assignment is made.
 
 Once created, the Physical Disk resource can be brought online, used as a dependency, or otherwise controlled with the [Resource Management Functions](resource-management-functions.md). It will appear as a cluster resource in failover cluster cmdlet reporting commands.

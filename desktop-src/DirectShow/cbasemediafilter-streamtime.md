@@ -1,7 +1,12 @@
 ---
-Description: 'The StreamTime method retrieves the current stream time.'
-ms.assetid: '2e1ff6f1-9815-4ee6-97e8-a5ab5f472b27'
-title: 'CBaseMediaFilter.StreamTime method'
+Description: The StreamTime method retrieves the current stream time.
+ms.assetid: 2e1ff6f1-9815-4ee6-97e8-a5ab5f472b27
+title: CBaseMediaFilter.StreamTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseMediaFilter.StreamTime method
@@ -13,7 +18,7 @@ The `StreamTime` method retrieves the current stream time.
 
 ```C++
 virtual HRESULT StreamTime(
-  [ref] CRefTime &amp;rtStream
+  [ref] CRefTime &amp;rtStream
 );
 ```
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ Stream time is defined as the current reference time (as given by the reference 
 [**CBaseMediaFilter Class**](cbasemediafilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

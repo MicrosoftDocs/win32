@@ -1,14 +1,20 @@
 ---
 title: PREVBUTTON
 description: This is a predefined BUTTON with the following default values.
-ms.assetid: '3beb8084-9edb-4ccd-b611-8365ddcbdff1'
-keywords: ["PREVBUTTON Windows Media Player"]
+ms.assetid: 3beb8084-9edb-4ccd-b611-8365ddcbdff1
+keywords:
+- PREVBUTTON Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PREVBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PREVBUTTON
@@ -43,9 +49,9 @@ All properties of this BUTTON can be overridden by explicitly specifying them.
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

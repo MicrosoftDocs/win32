@@ -1,7 +1,12 @@
 ---
 title: To assign a window type to a contents or index entry
 description: To assign a window type to a contents or index entry
-ms.assetid: 'D5D5CACA-9542-4310-A26A-F866500CE296'
+ms.assetid: D5D5CACA-9542-4310-A26A-F866500CE296
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To assign a window type to a contents or index entry
@@ -14,7 +19,7 @@ ms.assetid: 'D5D5CACA-9542-4310-A26A-F866500CE296'
 
     
 
-     
+     
 
 2.  Click the **Advanced** tab, and in the **Window** box, type the name of the window type.
 
@@ -30,9 +35,9 @@ ms.assetid: 'D5D5CACA-9542-4310-A26A-F866500CE296'
 [About Secondary Help Windows](creating-secondary-windows.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

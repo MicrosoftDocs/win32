@@ -1,14 +1,20 @@
 ---
 title: atan
 description: Returns the arctangent of the specified value.
-ms.assetid: 'e3ce3ac3-1012-414f-a193-102208083e39'
-keywords: ["atan HLSL"]
+ms.assetid: e3ce3ac3-1012-414f-a193-102208083e39
+keywords:
+- atan HLSL
 topic_type:
 - apiref
 api_name:
 - atan
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # atan
@@ -22,7 +28,7 @@ Returns the arctangent of the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the arctangent of the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The arctangent of the *x* parameter. This value is within the range of -?/2 to ?
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

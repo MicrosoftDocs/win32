@@ -1,8 +1,11 @@
 ---
 title: INetFwV6Mgr LogfileMaximumSize property
 description: Specifies the maximum size of the log file.
-ms.assetid: '6f438e7b-4e52-4410-b82c-c272c49354cb'
-keywords: ["LogfileMaximumSize property ICS/ICF", "LogfileMaximumSize property ICS/ICF , INetFwV6Mgr interface", "INetFwV6Mgr interface ICS/ICF , LogfileMaximumSize property"]
+ms.assetid: 6f438e7b-4e52-4410-b82c-c272c49354cb
+keywords:
+- LogfileMaximumSize property ICS/ICF
+- LogfileMaximumSize property ICS/ICF , INetFwV6Mgr interface
+- INetFwV6Mgr interface ICS/ICF , LogfileMaximumSize property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Mgr::LogfileMaximumSize property
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_LogfileMaximumSize(
-  [in]  Long *lLogfileMaximumSize
+  [in]  Long *lLogfileMaximumSize
 );
 
 HRESULT get_LogfileMaximumSize(
-  [out] Long *plLogfileMaximumSize
+  [out] Long *plLogfileMaximumSize
 );
 ```
 
@@ -69,10 +77,10 @@ If the method fails, the return value is one of the following error codes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -91,9 +99,9 @@ If the method fails, the return value is one of the following error codes.
 [**INetFwV6Mgr**](inetfwv6mgr.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

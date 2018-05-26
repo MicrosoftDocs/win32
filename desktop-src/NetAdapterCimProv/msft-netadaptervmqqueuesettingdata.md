@@ -1,7 +1,12 @@
 ---
-Description: 'Network adapter VMQ settings for each queue.'
-ms.assetid: '22b55552-dbd8-4d36-b049-761a3a5cb3ef'
-title: 'MSFT\_NetAdapterVmqQueueSettingData class'
+Description: Network adapter VMQ settings for each queue.
+ms.assetid: 22b55552-dbd8-4d36-b049-761a3a5cb3ef
+title: MSFT\_NetAdapterVmqQueueSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterVmqQueueSettingData class
@@ -16,30 +21,30 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterVmqQueueSettingData : MSFT_NetAdapterSettingData
 {
-  string                         Caption;
-  string                         Description;
-  string                         ElementName;
-  string                         InstanceID;
-  string                         Name;
-  string                         InterfaceDescription;
-  uint32                         Source;
-  string                         SystemName;
-  uint16                     REF IsDefault;
-  uint16                     REF IsCurrent;
-  uint16                     REF IsNext;
-  uint16                     REF IsMinimum = 0;
-  uint16                     REF IsMaximum = 0;
-  MSFT_NetAdapter            REF ManagedElement;
+  string                         Caption;
+  string                         Description;
+  string                         ElementName;
+  string                         InstanceID;
+  string                         Name;
+  string                         InterfaceDescription;
+  uint32                         Source;
+  string                         SystemName;
+  uint16                     REF IsDefault;
+  uint16                     REF IsCurrent;
+  uint16                     REF IsNext;
+  uint16                     REF IsMinimum = 0;
+  uint16                     REF IsMaximum = 0;
+  MSFT_NetAdapter            REF ManagedElement;
   MSFT_NetAdapterSettingData REF SettingData;
-  uint32                         QueueID;
-  uint32                         State;
-  uint32                         NumFilters;
-  uint64                         ProcessorAffinityMask;
-  uint16                         ProcessorGroup;
-  string                         VmID;
-  string                         VmFriendlyName;
-  string                         QueueName;
-  string                         FilterList[];
+  uint32                         QueueID;
+  uint32                         State;
+  uint32                         NumFilters;
+  uint64                         ProcessorAffinityMask;
+  uint16                         ProcessorGroup;
+  string                         VmID;
+  string                         VmFriendlyName;
+  string                         QueueName;
+  string                         FilterList[];
 };
 ```
 
@@ -63,7 +68,7 @@ The **MSFT\_NetAdapterVmqQueueSettingData** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -508,16 +513,16 @@ The ID of the Virtual Machine to which the queue is assigned.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

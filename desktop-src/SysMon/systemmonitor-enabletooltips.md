@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.EnableToolTips property
 description: Retrieves or sets a value that determines if a tool tip is shown when the mouse hovers over a counter in one of the graph views (not supported for report view).
-ms.assetid: 'af9a78ea-a9de-4343-8978-4316769a5f30'
-keywords: ["EnableToolTips property SysMon", "EnableToolTips property SysMon , SystemMonitor object", "SystemMonitor object SysMon , EnableToolTips property"]
+ms.assetid: af9a78ea-a9de-4343-8978-4316769a5f30
+keywords:
+- EnableToolTips property SysMon
+- EnableToolTips property SysMon , SystemMonitor object
+- SystemMonitor object SysMon , EnableToolTips property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.EnableToolTips property
@@ -44,15 +52,15 @@ For real time activity, the tool tip contains the counter path, counter value, a
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings balance property
 description: The balance property gets or sets the current stereo balance.
-ms.assetid: '6b9b6305-3bab-418d-a172-d47ca4dbaba5'
-keywords: ["balance property Windows Media Player", "balance property Windows Media Player , IWMPSettings interface", "IWMPSettings interface Windows Media Player , balance property"]
+ms.assetid: 6b9b6305-3bab-418d-a172-d47ca4dbaba5
+keywords:
+- balance property Windows Media Player
+- balance property Windows Media Player , IWMPSettings interface
+- IWMPSettings interface Windows Media Player , balance property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings::balance property
@@ -46,11 +54,11 @@ public System.Int32 balance {get; set;}
 
 ## Property value
 
-A **System.Int32** that is the balance value. This value can range from –100 to 100. The default value is zero.
+A **System.Int32** that is the balance value. This value can range from  100 to 100. The default value is zero.
 
 ## Remarks
 
-The value zero indicates that the audio plays at equal volume on both left and right channels. A value of –100 indicates that audio plays only on the left channel. A value of 100 indicates that audio plays only on the right channel.
+The value zero indicates that the audio plays at equal volume on both left and right channels. A value of  100 indicates that audio plays only on the left channel. A value of 100 indicates that audio plays only on the right channel.
 
 ## Requirements
 
@@ -71,9 +79,9 @@ The value zero indicates that the audio plays at equal volume on both left and r
 [**IWMPSettings Interface (VB and C#)**](iwmpsettings--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

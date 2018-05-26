@@ -1,7 +1,12 @@
 ---
-Description: 'The BreakConnect method releases the pin from a connection.'
-ms.assetid: '9874717d-f4d8-426d-a717-9f5d83b4683c'
-title: 'CTransformInputPin.BreakConnect method'
+Description: The BreakConnect method releases the pin from a connection.
+ms.assetid: 9874717d-f4d8-426d-a717-9f5d83b4683c
+title: CTransformInputPin.BreakConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformInputPin.BreakConnect method
@@ -40,9 +45,9 @@ This method overrides the [**CBaseInputPin::BreakConnect**](cbaseinputpin-breakc
 
 
 
- 
+ 
 
- 
+ 
 
 
 

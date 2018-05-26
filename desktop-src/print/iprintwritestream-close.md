@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Close method closes a stream and ends the writing to that stream. This method is mandatory. You must call this method when the filter is done writing.'
-ms.assetid: 'd3f828bf-854f-4d2d-a869-ee5c002a1728'
-title: 'IPrintWriteStream::Close method'
+---
+Description: The Close method closes a stream and ends the writing to that stream. This method is mandatory. You must call this method when the filter is done writing.
+ms.assetid: d3f828bf-854f-4d2d-a869-ee5c002a1728
+title: IPrintWriteStreamClose method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintWriteStream::Close method

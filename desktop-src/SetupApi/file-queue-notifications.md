@@ -1,7 +1,12 @@
 ---
-Description: 'The following notifications are used with file queues. For more information about the format and use of notifications, see Notifications.'
-ms.assetid: '4a171b4a-8623-4be3-81ee-99081fe23034'
+Description: The following notifications are used with file queues. For more information about the format and use of notifications, see Notifications.
+ms.assetid: 4a171b4a-8623-4be3-81ee-99081fe23034
 title: File Queue Notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Queue Notifications
@@ -22,7 +27,7 @@ The following notifications are used with file queues. For more information abou
 | [**SPFILENOTIFY\_FILEOPDELAYED**](spfilenotify-fileopdelayed.md) | The file was in use, and the current operation has been delayed until the system is rebooted.       |
 | [**SPFILENOTIFY\_LANGMISMATCH**](spfilenotify-langmismatch.md)   | The language of the current operation does not match the system language.                           |
 | [**SPFILENOTIFY\_NEEDMEDIA**](spfilenotify-needmedia.md)         | New source media is needed.                                                                         |
-| [**SPFILENOTIFY\_QUEUESCAN**](spfilenotify-queuescan.md)         | A node in the file queue has been scanned. ( [**SetupScanFileQueue**](setupscanfilequeue.md) only) |
+| [**SPFILENOTIFY\_QUEUESCAN**](spfilenotify-queuescan.md)         | A node in the file queue has been scanned. ( [**SetupScanFileQueue**](/windows/win32/Setupapi/nf-setupapi-setupscanfilequeuea?branch=master) only) |
 | [**SPFILENOTIFY\_RENAMEERROR**](spfilenotify-renameerror.md)     | An error occurred during a file renaming operation.                                                 |
 | [**SPFILENOTIFY\_STARTCOPY**](spfilenotify-startcopy.md)         | A file copy operation has started.                                                                  |
 | [**SPFILENOTIFY\_STARTDELETE**](spfilenotify-startdelete.md)     | A file delete operation has started.                                                                |

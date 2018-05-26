@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a network adapter with the setting data of its VMQ queues.'
-ms.assetid: 'cae3b336-4555-4bbe-8bd2-48eab2427a97'
-title: 'MSFT\_NetAdapterVmqQueueElementSetting class'
+Description: Associates a network adapter with the setting data of its VMQ queues.
+ms.assetid: cae3b336-4555-4bbe-8bd2-48eab2427a97
+title: MSFT\_NetAdapterVmqQueueElementSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterVmqQueueElementSetting class
@@ -55,16 +60,16 @@ The VMQ Queue setting data for the network adapter.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

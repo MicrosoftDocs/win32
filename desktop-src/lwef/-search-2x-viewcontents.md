@@ -1,8 +1,9 @@
 ---
 title: ViewContents enumeration
 description: Used by IResultsViewer Contents to indicate or set how the current query return set is displayed.
-ms.assetid: 'aebcbcac-4c45-4097-91a1-5e00611c152c'
-keywords: ["ViewContents enumeration Legacy Windows Environment Features"]
+ms.assetid: aebcbcac-4c45-4097-91a1-5e00611c152c
+keywords:
+- ViewContents enumeration Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - WdsView.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ViewContents enumeration
@@ -24,9 +30,9 @@ Used by [**IResultsViewer::Contents**](-search-2x-iresultsviewer-contents.md) to
 
 ```C++
 typedef enum ViewContentsEnum { 
-  ResultsDisplayed     = 0,
-  ShellViewDisplayed   = 1,
-  WebBrowserDisplayed  = 2
+  ResultsDisplayed     = 0,
+  ShellViewDisplayed   = 1,
+  WebBrowserDisplayed  = 2
 } ViewContents;
 ```
 
@@ -67,9 +73,9 @@ Indicates the type of contents being displayed in the results view is currently 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

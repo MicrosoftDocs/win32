@@ -1,7 +1,7 @@
 ---
 title: UI\_ANIMATION\_REPEAT\_INDEFINITELY\_CONCLUDE\_AT\_END
 description: Indicates that the interval between two keyframes in a storyboard should repeat indefinitely until the keyframe loop terminates on the ending keyframe when the IUIAnimationStoryboard Conclude method is called.
-ms.assetid: 'DB333A87-C969-4B47-AAE3-898B052F00F3'
+ms.assetid: DB333A87-C969-4B47-AAE3-898B052F00F3
 topic_type:
 - apiref
 api_name:
@@ -10,11 +10,16 @@ api_location:
 - UIAnimation.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_ANIMATION\_REPEAT\_INDEFINITELY\_CONCLUDE\_AT\_END
 
-Indicates that the interval between two keyframes in a storyboard should repeat indefinitely until the keyframe loop terminates on the ending keyframe when the [**IUIAnimationStoryboard::Conclude**](iuianimationstoryboard-conclude.md) method is called.
+Indicates that the interval between two keyframes in a storyboard should repeat indefinitely until the keyframe loop terminates on the ending keyframe when the [**IUIAnimationStoryboard::Conclude**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-conclude?branch=master) method is called.
 
 
 
@@ -30,7 +35,7 @@ Indicates that the interval between two keyframes in a storyboard should repeat 
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8, Windows 7 and Platform Update for Windows 7 \[desktop apps only\]<br/>    |
+| Minimum supported client<br/> | Windows 8, Windows 7 and Platform Update for Windows 7 \[desktop apps only\]<br/>    |
 | Minimum supported server<br/> | None supported<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>UIAnimation.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>UIAnimation.idl</dt> </dl> |
@@ -44,12 +49,12 @@ Indicates that the interval between two keyframes in a storyboard should repeat 
 [Constants](constants.md)
 </dt> <dt>
 
-[**IUIAnimationStoryboard2::RepeatBetweenKeyframes**](iuianimationstoryboard2-repeatbetweenkeyframes.md)
+[**IUIAnimationStoryboard2::RepeatBetweenKeyframes**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard2-repeatbetweenkeyframes?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

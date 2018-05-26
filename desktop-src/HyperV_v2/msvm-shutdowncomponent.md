@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the state of the shutdown service, which provides a mechanism to shut down the operating system of the virtual machine from the management interfaces on the host system.'
-ms.assetid: 'E9BBB08C-A3FE-4226-A2CF-458706E759D6'
-title: 'Msvm\_ShutdownComponent class'
+Description: Represents the state of the shutdown service, which provides a mechanism to shut down the operating system of the virtual machine from the management interfaces on the host system.
+ms.assetid: E9BBB08C-A3FE-4226-A2CF-458706E759D6
+title: Msvm\_ShutdownComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ShutdownComponent class
@@ -16,44 +21,44 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ShutdownComponent : CIM_LogicalDevice
 {
-  string   InstanceID;
-  string   Caption = "Shutdown";
-  string   Description = "Microsoft Shutdown Service";
-  string   ElementName = "Shutdown";
+  string   InstanceID;
+  string   Caption = "Shutdown";
+  string   Description = "Microsoft Shutdown Service";
+  string   ElementName = "Shutdown";
   datetime InstallDate;
-  string   Name = "Shutdown";
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 7;
+  string   Name = "Shutdown";
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 7;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_ShutdownComponent";
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_ShutdownComponent";
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
 };
 ```
 
@@ -85,7 +90,7 @@ The **Msvm\_ShutdownComponent** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -112,7 +117,7 @@ Additional availability and status of the device. This property is inherited fro
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -135,7 +140,7 @@ The primary availability and status of the device. This property is inherited fr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -311,7 +316,7 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.mi
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -335,7 +340,7 @@ The enabled state of the element. This property is inherited from [**CIM\_Enable
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -556,7 +561,7 @@ The following are the possible values for the **OperationalStatus**\[0\] propert
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -677,7 +682,7 @@ The last requested or desired state for the element. The actual state of the ele
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -795,8 +800,8 @@ Access to the **Msvm\_ShutdownComponent** class might be restricted by UAC Filte
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -813,9 +818,9 @@ Access to the **Msvm\_ShutdownComponent** class might be restricted by UAC Filte
 [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

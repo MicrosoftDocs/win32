@@ -1,8 +1,13 @@
 ---
 title: IVMHardDisk Compact method
 description: The Compact method compacts a dynamically expanding hard disk image.
-ms.assetid: 'b8336ebb-908f-4516-8563-677a0241f592'
-keywords: ["Compact method Virtual Server", "Compact method Virtual Server , IVMHardDisk interface", "IVMHardDisk interface Virtual Server , Compact method", "Compact method Virtual Server , VMHardDisk interface", "VMHardDisk interface Virtual Server , Compact method"]
+ms.assetid: b8336ebb-908f-4516-8563-677a0241f592
+keywords:
+- Compact method Virtual Server
+- Compact method Virtual Server , IVMHardDisk interface
+- IVMHardDisk interface Virtual Server , Compact method
+- Compact method Virtual Server , VMHardDisk interface
+- VMHardDisk interface Virtual Server , Compact method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk::Compact method
@@ -23,7 +33,7 @@ The **Compact** method compacts a dynamically expanding hard disk image.
 
 ```C++
 HRESULT Compact(
-  [out] IVMTask **compactTask
+  [out] IVMTask **compactTask
 );
 ```
 
@@ -59,7 +69,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,8 +81,8 @@ To compact a dynamically expanding hard disk image, free space on the disk image
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -84,9 +94,9 @@ To compact a dynamically expanding hard disk image, free space on the disk image
 [**IVMHardDisk**](ivmharddisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

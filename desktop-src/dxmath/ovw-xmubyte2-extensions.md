@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a 2D vector made up of unsigned integers, 8-bits (1 byte) in length.'
-ms.assetid: '552af402-2995-4b07-b982-83be27caa017'
+---
+Description: Describes a 2D vector made up of unsigned integers, 8-bits (1 byte) in length.
+ms.assetid: 552af402-2995-4b07-b982-83be27caa017
 title: XMUBYTE2 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMUBYTE2 Extensions
@@ -33,7 +38,7 @@ Describes a 2D vector made up of unsigned integers, 8-bits (1 byte) in length.
 **Reference**
 </dt> <dt>
 
-[**XMUBYTE2**](xmubyte2.md)
+[**XMUBYTE2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmubyte2?branch=master)
 </dt> </dl>
 
  

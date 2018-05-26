@@ -1,8 +1,14 @@
 ---
 title: Directory Services for IrLMP Through IAS
 description: IrLMP includes a directory services protocol, Information Advertising Service (IAS), that runs directly on top of IrLMP.
-ms.assetid: '32f20548-4a0d-419f-8090-f12e5dfb1c9a'
-keywords: ["IrLAP IrDA , directory services"]
+ms.assetid: 32f20548-4a0d-419f-8090-f12e5dfb1c9a
+keywords:
+- IrLAP IrDA , directory services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Directory Services for IrLMP Through IAS

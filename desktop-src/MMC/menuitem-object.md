@@ -4,11 +4,13 @@ description: The MenuItem object encapsulates a single context menu item.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '43e25217-d9b5-45aa-a90c-7d5d6a50f8b0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 43e25217-d9b5-45aa-a90c-7d5d6a50f8b0
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MenuItem Object object MMC", "MenuItem Object object MMC , described"]
+keywords:
+- MenuItem Object object MMC
+- MenuItem Object object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # MenuItem Object object
@@ -42,7 +47,7 @@ The **MenuItem Object** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -60,7 +65,7 @@ The **MenuItem Object** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,8 +73,8 @@ The **MenuItem Object** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -87,9 +92,9 @@ The **MenuItem Object** object has these properties.
 [**ContextMenu object**](contextmenu-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

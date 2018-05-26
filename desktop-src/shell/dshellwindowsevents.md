@@ -1,12 +1,17 @@
-﻿---
-Description: 'Receives IShellWindows window registration events.'
-ms.assetid: 'c340296d-f8eb-43a1-809d-912ea7412fe2'
+---
+Description: Receives IShellWindows window registration events.
+ms.assetid: c340296d-f8eb-43a1-809d-912ea7412fe2
 title: DShellWindowsEvents object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DShellWindowsEvents object
 
-Receives [**IShellWindows**](ishellwindows.md) window registration events.
+Receives [**IShellWindows**](/windows/win32/Exdisp/nn-exdisp-ishellwindows?branch=master) window registration events.
 
 ## Members
 
@@ -31,7 +36,7 @@ The **DShellWindowsEvents** object has these methods.
 
 ## Remarks
 
-Use **DShellWindowsEvents** to monitor when a Shell window is registered or revoked. For more information, see [**IShellWindows**](ishellwindows.md).
+Use **DShellWindowsEvents** to monitor when a Shell window is registered or revoked. For more information, see [**IShellWindows**](/windows/win32/Exdisp/nn-exdisp-ishellwindows?branch=master).
 
 ## Requirements
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Recipient property retrieves an object containing information about the recipient of the fax job.'
-ms.assetid: '35886149-ed3e-4380-a4ad-a00182b77d98'
-title: 'FaxOutgoingJob.Recipient property'
+---
+Description: The Recipient property retrieves an object containing information about the recipient of the fax job.
+ms.assetid: 35886149-ed3e-4380-a4ad-a00182b77d98
+title: FaxOutgoingJob.Recipient property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.Recipient property

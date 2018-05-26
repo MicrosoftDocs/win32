@@ -1,8 +1,14 @@
 ---
 title: Getting an Online Music Store On Board
 description: Getting an Online Music Store On Board
-ms.assetid: 'f7eff687-9832-41bc-8f3d-a2ab11917eb0'
-keywords: ["Windows Media Player Online Stores"]
+ms.assetid: f7eff687-9832-41bc-8f3d-a2ab11917eb0
+keywords:
+- Windows Media Player Online Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting an Online Music Store On Board
@@ -41,7 +47,7 @@ This topic describes the process of bringing an online digital media store on bo
 
 
 
- 
+ 
 
 After you complete the pending and validation stages, Microsoft will publish your online store.
 
@@ -60,7 +66,7 @@ You should test all aspects of your online store, including its user interface a
 > [!Note]  
 > Type 1 stores must pass all of the validation tests for type 2 stores plus some additional tests that are specific to the type 1 experience. For information about type 1 validation tests, contact the Windows Media Player Services Virtual Team at mpsvctm@microsoft.com.
 
- 
+ 
 
 ## Contact Information
 
@@ -90,7 +96,7 @@ The following table shows the contact information that Microsoft requires for yo
 
 
 
- 
+ 
 
 ## Startup Information
 
@@ -117,17 +123,17 @@ The following table describes the startup information that Microsoft requires fo
 
 
 
- 
+ 
 
 > [!Note]  
 > The 108 x 108 pixel browse-all image is a requirement for Windows Media Player 11 and later.
 
- 
+ 
 
 > [!Note]  
 > In Windows Media Player 11 and later, the ServiceTask2 and ServiceTask3 elements of the ServiceInfo XML document are ignored. For detailed information about the ServiceInfo XML document, see [ServiceInfo Document](serviceinfo-document.md).
 
- 
+ 
 
 ## Validation Accounts
 
@@ -174,9 +180,9 @@ For a more complete list of common on-boarding problems and frequently asked que
 [Online Stores Welcome Kit](online-stores-welcome-kit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

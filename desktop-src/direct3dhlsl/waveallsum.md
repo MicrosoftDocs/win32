@@ -1,14 +1,20 @@
 ---
 title: WaveActiveSum function
 description: Sums up the value of the expression across all active lanes in the current wave and replicates it to all lanes in the current wave.
-ms.assetid: '94CEF4AA-D6DE-4B00-9743-F491F255FE3D'
-keywords: ["WaveAllSum function HLSL"]
+ms.assetid: 94CEF4AA-D6DE-4B00-9743-F491F255FE3D
+keywords:
+- WaveAllSum function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveAllSum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveActiveSum function

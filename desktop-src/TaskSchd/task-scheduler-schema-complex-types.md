@@ -1,7 +1,12 @@
 ---
 title: Task Scheduler Schema Complex Types
 description: This section contains the complex types used to define the child elements and attributes used by other elements. This information is provided for those who want to extend the Task Scheduler schema.
-ms.assetid: '1db9049d-f2c7-4dc1-b7f0-b25bec551bf3'
+ms.assetid: 1db9049d-f2c7-4dc1-b7f0-b25bec551bf3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Scheduler Schema Complex Types

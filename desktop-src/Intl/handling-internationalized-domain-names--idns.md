@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how you can work with internationalized domain names (IDNs) in your applications.'
-ms.assetid: 'e0ca356e-f8c1-4845-ae1e-ce2ae8987515'
-title: 'Handling Internationalized Domain Names (IDNs)'
+Description: This topic describes how you can work with internationalized domain names (IDNs) in your applications.
+ms.assetid: e0ca356e-f8c1-4845-ae1e-ce2ae8987515
+title: Handling Internationalized Domain Names (IDNs)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Internationalized Domain Names (IDNs)
@@ -22,15 +27,15 @@ This topic describes how you can work with internationalized domain names (IDNs)
 
 NLS includes the following conversion functions that your application can use to convert an IDN to different representations. For an example of the use of these functions, see [NLS: Internationalized Domain Name (IDN) Conversion Sample](nls--internationalized-domain-name--idn--conversion-sample.md).
 
--   [**IdnToAscii**](idntoascii.md). Converts an IDN to Punycode.
--   [**IdnToNameprepUnicode**](idntonameprepunicode.md). Performs the NamePrep portion of the conversion of an IDN to an ASCII name. This function creates a canonical Unicode representation of a string.
--   [**IdnToUnicode**](idntounicode.md). Converts a Punycode string to a normal UTF-16 string.
+-   [**IdnToAscii**](/windows/win32/Winnls/nf-winnls-idntoascii?branch=master). Converts an IDN to Punycode.
+-   [**IdnToNameprepUnicode**](/windows/win32/Winnls/nf-winnls-idntonameprepunicode?branch=master). Performs the NamePrep portion of the conversion of an IDN to an ASCII name. This function creates a canonical Unicode representation of a string.
+-   [**IdnToUnicode**](/windows/win32/Winnls/nf-winnls-idntounicode?branch=master). Converts a Punycode string to a normal UTF-16 string.
 
 NLS also defines several API functions that can be used to mitigate some of the security risks presented by the IDN technology. On Windows Vista and later, the following functions are used to verify that the characters in a given IDN are drawn entirely from the scripts associated with a particular locale or locales. For an example of the use of these functions, see [NLS: Internationalized Domain Name (IDN) Mitigation Sample](nls--internationalized-domain-name--idn--mitigation-sample.md).
 
--   [**GetStringScripts**](getstringscripts.md). Provides a list of scripts used in a particular string.
--   [**GetLocaleInfo**](getlocaleinfo.md), [**GetLocaleInfoEx**](getlocaleinfoex.md). Retrieve locale information. Using the functions with *LCType* set to [LOCALE\_SSCRIPTS](locale-sscripts.md) provides a list of scripts normally used for a particular locale.
--   [**VerifyScripts**](verifyscripts.md). Compares lists of scripts. To verify against multiple locales, the application can make multiple calls to [**GetLocaleInfo**](getlocaleinfo.md) or [**GetLocaleInfoEx**](getlocaleinfoex.md) and [**VerifyScripts**](verifyscripts.md).
+-   [**GetStringScripts**](/windows/win32/Winnls/nf-winnls-getstringscripts?branch=master). Provides a list of scripts used in a particular string.
+-   [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master), [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master). Retrieve locale information. Using the functions with *LCType* set to [LOCALE\_SSCRIPTS](locale-sscripts.md) provides a list of scripts normally used for a particular locale.
+-   [**VerifyScripts**](/windows/win32/Winnls/nf-winnls-verifyscripts?branch=master). Compares lists of scripts. To verify against multiple locales, the application can make multiple calls to [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) or [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master) and [**VerifyScripts**](/windows/win32/Winnls/nf-winnls-verifyscripts?branch=master).
 
 For applications that run on Windows XP and Windows Server 2003, the functions [**DownlevelGetLocaleScripts**](downlevelgetlocalescripts.md), [**DownlevelGetStringScripts**](downlevelgetstringscripts.md), and [**DownlevelVerifyScripts**](downlevelverifyscripts.md) play a similar role to the functions listed above in mitigating security risk. The ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](http://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en) download is available at the [MSDN Download Center](http://go.microsoft.com/fwlink/p/?linkid=362).
 
@@ -56,7 +61,7 @@ Unassigned code points are not allowed in the stored strings used in protocol id
 
 ## Convert Domain Names to ASCII Names
 
-Your application can use the [**IdnToAscii**](idntoascii.md) function and certain mitigation functions to convert IDNs to ASCII.
+Your application can use the [**IdnToAscii**](/windows/win32/Winnls/nf-winnls-idntoascii?branch=master) function and certain mitigation functions to convert IDNs to ASCII.
 
 > \[!Caution\]  
 > Because strings with very different binary representations can compare as identical, this function can raise certain security concerns. For more information, see the discussion of comparison functions in [Security Considerations: International Features](security-considerations--international-features.md).

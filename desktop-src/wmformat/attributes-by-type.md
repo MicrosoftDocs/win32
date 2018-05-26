@@ -1,8 +1,17 @@
 ---
 title: Attributes By Type
 description: Attributes By Type
-ms.assetid: '52216e11-9369-4036-9c16-e3e9db63efcf'
-keywords: ["Windows Media Format SDK,attributes", "Advanced Systems Format (ASF),attributes", "ASF (Advanced Systems Format),attributes", "attributes,types"]
+ms.assetid: 52216e11-9369-4036-9c16-e3e9db63efcf
+keywords:
+- Windows Media Format SDK,attributes
+- Advanced Systems Format (ASF),attributes
+- ASF (Advanced Systems Format),attributes
+- attributes,types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes By Type

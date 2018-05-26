@@ -1,19 +1,24 @@
 ---
-Description: 'The QueryVendorInfo method retrieves a string containing vendor information. This method implements the IBaseFilter::QueryVendorInfo method.'
-ms.assetid: '083c0556-d516-4daf-8621-e158ea78b5a3'
-title: 'CBaseFilter.QueryVendorInfo method'
+Description: The QueryVendorInfo method retrieves a string containing vendor information. This method implements the IBaseFilterQueryVendorInfo method.
+ms.assetid: 083c0556-d516-4daf-8621-e158ea78b5a3
+title: CBaseFilter.QueryVendorInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.QueryVendorInfo method
 
-The `QueryVendorInfo` method retrieves a string containing vendor information. This method implements the [**IBaseFilter::QueryVendorInfo**](ibasefilter-queryvendorinfo.md) method.
+The `QueryVendorInfo` method retrieves a string containing vendor information. This method implements the [**IBaseFilter::QueryVendorInfo**](/windows/win32/Strmif/nf-strmif-ibasefilter-queryvendorinfo?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT QueryVendorInfo(
-   LPWSTR *pVendorInfo
+   LPWSTR *pVendorInfo
 );
 ```
 
@@ -56,9 +61,9 @@ To provide vendor information for a filter, override this method. If you impleme
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
