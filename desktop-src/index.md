@@ -105,4 +105,23 @@ Create Windows desktop applications that your customers can use at work and play
             </div>
         </div>
     </li>
+        <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_api.svg?branch=master" alt="Get started icon" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>API reference</h3>
+                        <p>
+                            <a href="desktop-programming">Windows API reference</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
 </ul>
