@@ -117,7 +117,7 @@ Create Windows desktop applications that your customers can use at work and play
                     <div class="cardText">
                         <h3>API reference</h3>
                         <p>
-                            <a href="desktop-programming">Windows API reference</a>
+                            <a href="api">Windows API reference</a>
                         </p>
                     </div>
                 </div>
