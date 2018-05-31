@@ -1,108 +1,80 @@
 #[Windows Desktop Apps](/windows/desktop)
 ##[Design](uxguide/TOC.md)
 ##Get Started
-###[Choose Your Technology](choose-your-technology.md)
-###[What's new](windows-8.md)
-####[Windows 8 and 8.1 Technologies](whatsnew/windows-8-technologies.md)
-####[Compatibility cookbook for Windows](w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal.md)
-####[Windows 7](windows-7.md)
-#####[Windows 7 and Windows Server 2008 R2 Application Quality Cookbook](win7appqual/windows-7-application-quality-cookbook.md)
-#####[Windows 7 Developer Guide](win7devguide/windows-7-developer-guide.md)
-#####[Platform Update for Windows Vista](win7ip/platform-update-for-windows-vista-portal.md)
-###[Desktop Programming](desktop-programming.md)
-####[Create your first Windows app using DirectX](direct3dgetstarted/building-your-first-directx-app.md)
+###Choose Your Technology
+###What's New
+####whatsnew
+####w8cookbook
+####Earlier versions
+#####win7appqual
+#####win7devguide
+#####win7ip
+###Desktop Programming
+####direct3dgetstarted
 ####[Get Started with Win32 and C++](learnwin32/learn-to-program-for-windows.md)
-####[Programming Guide for 64-bit Windows](winprog64/programming-guide-for-64-bit-windows.md)
-####[Using the Windows Headers](winprog/using-the-windows-headers.md)
+####winprog64
+####winprog
 ###Downloads and Tools
 ##Develop
-###[Desktop app technologies](desktop-app-technologies.md)
-####[Desktop App User Interface](windows-application-ui-development.md)
-#####[Getting Started Developing User Interfaces for Windows Applications](appuistart/getting-started-developing-user-interfaces-portal.md)
-#####[Internationalization for Windows Applications](intl/international-support.md)
-#####[Accessibility](accessibility.md)
-######[Windows Accessibility Features](winauto/windows-accessibility-features.md)
-######[Magnification API](magapi/entry-magapi-sdk.md)
-#####[User Interaction](user-interaction.md)
-######[Direct Manipulation](directmanipulation/direct-manipulation-portal.md)
-######[Ink input](input_ink/input-ink-portal.md)
-######[Input Feedback Configuration](input_feedback/input-feedback-configuration-portal.md)
-######[Input Source Identification](input_sourceid/input-source-identification-portal.md)
-######[Interaction Context](input_intcontext/interaction-context-portal.md)
-######[Pointer Device Input Stack](input_pointerdevice/pointer-device-stack-portal.md)
-######[Pointer Input Messages and Notifications](inputmsg/messages-and-notifications.md)
-######[Radial controller input](input_radial/radialcontroller-portal.md)
-######[Text Services Framework](tsf/text-services-framework.md)
-######[Touch Hit Testing](input_touchhittest/touch-hit-testing-portal.md)
-######[Touch Injection](input_touchinjection/touch-injection-portal.md)
-######[Legacy User Interaction Features](legacy-user-interaction-features.md)
-#######[Touch Input](wintouch/windows-touch-portal.md)
-#######[Keyboard and Mouse Input](inputdev/user-input.md)
+###Desktop App Technologies
+####Desktop App UI
+#####appuistart
+#####intl
+#####Accessibility
+######winauto
+#####User Interaction
+######tsf
+######Legacy User Interaction Features
+#######wintouch
+#######inputdev
 #######MultiPoint Mouse
-#######[Tablet PC](tablet/tablet-pc-development-guide.md)
+#######tablet
 #######dinput
-#####[Windows and Messages](winmsg/windowing.md)
-#####[Desktop Window Manager (DWM)](dwm/DWM)
-#####[Dialog Boxes](dlgbox/dialog-boxes.md)
-#####[Menus and Other Resources](menurc/resources.md)
-#####[Data Exchange](dataxchg/data-exchange.md)
-#####[High DPI](hidpi/high-dpi-desktop-application-development-on-windows.md)
-#####[Windows Animation Manager](uianimation/-main-portal.md)
-#####[Windows Controls](controls/window-controls.md)
-#####[Windows Ribbon Framework](windowsribbon/-uiplat-windowsribbon-entry.md)
-#####[Tiles, badges, and notifications for Classic desktop applications](win32_tile_badge_notif/tiles--badges--and-notifications-for-classic-desktop-applications-portal.md)
-#####[Title Callable UI](tcui/title-callable-ui-portal.md)
-####[Desktop Environment](user-interface.md)
-#####[The Windows Shell](shell/shell-entry.md)
-#####[Windows Property System](properties/windows-properties-system.md)
-#####[Windows Search](search/windows-search.md)
-#####[Window Stations and Desktops](winstation/window-stations-and-desktops.md)
-#####[Windows Help](windows-help.md)
+#####winmsg
+#####dwm
+#####dlgbox
+#####menurc
+#####dataxchg
+#####hidpi
+#####uianimation
+#####controls
+#####windowsribbon
+####Desktop Environment
+#####shell
+#####properties
+#####search
+#####winstation
+#####Windows Help
 ######vista_help_sdk
-######[Microsoft HTML Help 1.4](htmlhelp/microsoft-html-help-1-4-sdk.md)
-#####[Legacy Windows Environment Features](lwef/legacy-windows-environment.md)
-####[Application Installation and Servicing](application-installing-and-servicing.md)
+#####lwef
+####Application Installation and Servicing
 #####gamesexplorer
-#####[Isolated Applications and Side-by-side Assemblies](sbscs/isolated-applications-and-side-by-side-assemblies-portal.md)
-#####[Packaging, deployment, and query of Windows Store apps](appxpkg/appx-portal.md)
-#####[Developer licensing](devlic/developer-licensing-portal.md)
-#####[Restart Manager](rstmgr/restart-manager-portal.md)
-#####[Windows Installer](msi/windows-installer-portal.md)
-####[Audio and Video](audio-and-video.md)
-#####[Core Audio APIs](coreaudio/core-audio-apis-in-windows-vista.md)
-#####[DirectShow](directshow/directshow.md)
-#####[Microsoft Media Foundation](medfound/microsoft-media-foundation-sdk.md)
-#####[Microsoft TV Technologies](mstv/microsoft-tv-technologies-portal.md)
-#####[Windows Media Format 11 SDK](wmformat/windows-media-format-11-sdk.md)
-#####[Windows Media Library Sharing Services](wmlss/windowsmedialibrarysharingservicesportal.md)
-#####[Windows Media Player SDK](wmp/windows-media-player-sdk.md)
+#####sbscs
+#####appxpkg
+#####devlic
+#####rstmgr
+#####msi
+####Audio and Video
+#####coreaudio
+#####directshow
+#####medfound
+#####wmformat
+#####wmp
 #####wms_sdk
-#####[Media Streaming API](mediastreaming/media-streaming-api-portal.md)
-#####[Media Transport Controls](mediatransport/media-transport-controls-portal.md)
+#####mediastreaming
 #####wmm3sdk
-#####[Windows Multimedia](multimedia/windows-multimedia-start-page.md)
-####[Data Access and Storage](data-access-and-storage.md)
-#####[Background Intelligent Transfer Service](bits/background-intelligent-transfer-service-portal.md)
-#####[Backup](backup.md)
-######[Backup](backup/backup.md)
-######[Data Deduplication API](dedup/data-deduplication-api-portal.md)
-######[Volume Shadow Copy Service](vss/volume-shadow-copy-service-portal.md)
-######[Windows Server Backup](wsb/windows-server-backup-portal.md)
-#####[Cloud Filter API](cfapi/cloud-files-api-portal.md)
-#####[Common Log File System](clfs/common-log-file-system-portal.md)
-#####p_dism
-#####[Distributed File System](dfs/distributed-file-system.md)
-#####[Distributed File System Replication](dfsr/distributed-file-system-replication--dfsr-.md)
+#####multimedia
+####Data Access and Storage
+#####bits
+#####Backup
+######backup
+######vss
+#####dfs
 #####Extensible Storage Engine
-#####[File Management API (FMAPI)](fmapi/FMAPI)
-#####[Image Mastering API](imapi/portal.md)
+#####imapi
 #####Imaging API
-#####[iSCSI Discovery Library API](iscsidisc/iscsi-discovery-library-api-portal.md)
-#####[Local File Systems](fileio/file-systems.md)
+#####fileio
 #####xmlsdk
-#####[Offline Files](offlinefiles/offline-files-portal.md)
-#####[Packaging](opc/packaging.md)
-#####[Remote Differential Compression](rdc/remote-differential-compression.md)
 #####vstor
 #####vds
 #####Windows Data Access Components
@@ -111,148 +83,112 @@
 ######ODBC Data Source Administrator Help
 ######oledb
 ######ado
-#####winsync
 #####xmllite
-#####edp
-####[Devices](devices.md)
-#####[Device Access API](deviceaccess/device-access-broker-api-portal.md)
-#####[AllJoyn API](alljoyn/alljoyn-api-portal.md)
-#####[Communications Resources](devio/communications-resources.md)
-#####[Enhanced Storage](enstor/enhanced-storage-portal.md)
-#####[Function Discovery](fundisc/fd-portal.md)
+####Devices
+#####devio
 #####locationapi
 #####sensorsapi
-#####[UPnP APIs](upnp/universal-plug-and-play-start-page.md)
-#####[Web Services on Devices](wsdapi/wsd-portal.md)
-#####[Windows Image Acquisition (WIA)](windows-image-acquisition--wia-.md)
-######[WIA](wia/-wia-startpage.md)
-######[Still Image](stillimg/still-image.md)
-######[WIA Automation](wiaaut/-wiaaut-startpage.md)
-#####[Windows Media Device Manager 11 SDK](wmdm/windows-media-device-manager-11-sdk.md)
-#####[Windows Portable Devices](windows-portable-devices.md)
-######[WPD Application Programming Interface](wpd_sdk/wpd-application-programming-interface.md)
-######[WPD Automation Object Model](wpdauto/wpd-automation-object-model.md)
-####[Diagnostics](diagnostics.md)
-#####[Assessment Execution Engine](axe-access-portal.md)
-######[Unmanaged C++ Version of the AXE API](axe/unmanaged-c---version-of-the-axe-api.md)
-#####[Debugging and authoring support](debug_wwahost/reference.md)
-#####[Debugging and Error Handling](debugging-and-error-handling.md)
-######[Application Recovery and Restart](recovery/application-recovery-and-restart-portal.md)
-######[Error Handling](debug/error-handling.md)
-#####[Hardware Counter Profiling](hcp/hardware-counter-profiling-portal.md)
-#####[Network Diagnostics Framework](ndf/portal.md)
-#####[Network Monitor](netmon2/network-monitor.md)
-#####[Performance Counters](perfctrs/performance-counters-portal.md)
-#####[Performance Logs and Alerts](pla/pla-portal.md)
-#####[Process Snapshotting](proc_snap/process-snapshotting-portal.md)
-#####[Process Status API (PSAPI)](psapi/PSAPI)
-#####[System Event Notification Service](sens/system-event-notification-service-portal.md)
-#####[System Monitor](sysmon/system-monitor-portal.md)
-#####[Tool Help Library](toolhelp/tool-help-library.md)
-#####[Windows Error Reporting](wer/windows-error-reporting.md)
+#####upnp
+#####wsdapi
+#####wia
+####wmdm
+####Windows Portable Devices
+#####wpd_sdk
+####Diagnostics
+#####Assessment Execution Engine
+#####Debugging and Error Handling
+######recovery
+######debug
+#####ndf
+#####netmon2
+#####perfctrs
+#####proc_snap
+#####psapi
+#####sens
+#####sysmon
+#####toolhelp
+#####wer
 #####Windows Events
-######[TraceLogging](tracelogging/trace-logging-portal.md)
-######[Event Tracing](etw/event-tracing-portal.md)
-######[Event Logging](eventlog/event-logging.md)
-######[Windows Event Log](wes/windows-event-log.md)
-######[Windows Event Collector](wec/windows-event-collector.md)
-#####[Windows Troubleshooting Platform](wintt/windows-troubleshooting-toolkit-portal.md)
-#####[XAML Diagnostics](xaml_diagnostics/xaml-diagnostics-portal.md)
+######tracelogging
+######etw
+######eventlog
+######wes
+######wec
 ####printdocs
-####[Graphics and Gaming](graphics-and-multimedia.md)
-#####[DirectX Graphics and Gaming](directx.md)
-######[Getting Started with DirectX Graphics](getting-started-with-directx-graphics.md)
-######[Direct2D](direct2d/direct2d-portal.md)
-######[Direct3D](direct3d.md)
-#######[Getting Started with Direct3D](getting-started-with-direct3d.md)
-#######[Direct3D 12 Graphics](direct3d12/direct3d-12-graphics.md)
-#######[Direct3D 11 Graphics](direct3d11/atoc-dx-graphics-direct3d-11.md)
-#######[DXGI](direct3ddxgi/dx-graphics-dxgi.md)
-#######[HLSL](direct3dhlsl/dx-graphics-hlsl.md)
-#######[DDS](direct3ddds/dx-graphics-dds.md)
-######[DirectWrite](directwrite/direct-write-portal.md)
-######[DirectXMath](dxmath/directxmath-portal.md)
-######[Classic DirectX Graphics](classic-directx-graphics.md)
-#######[Direct3D 10 Graphics](direct3d10/d3d10-graphics.md)
-#######[Direct3D 9 Graphics](direct3d9/dx9-graphics.md)
-#######[DirectDraw](directdraw/directdraw.md)
-#######[Technical Articles](dxtecharts/dx9-technical-articles.md)
-#######[Where is the DirectX SDK?](directx-sdk--august-2009-.md)
+####Graphics and Gaming
+#####DirectX Graphics and Gaming
+######Getting Started with DirectX Graphics
+######direct2d
+######Direct3D
+#######Getting Started with Direct3D
+#######direct3d12
+#######direct3d11
+#######direct3ddxgi
+#######direct3dhlsl
+#######direct3ddds
+######directwrite
+######dxmath
+######Classic DirectX Graphics
+#######direct3d10
+#######direct3d9
+#######directdraw
+#######dxtecharts
+#######Where is the DirectX SDK?
 #######directx9_m
 ######direct3dtools
-######[DirectX Graphics Articles](direct3darticles/directx-graphics-articles-portal.md)
-######[XAudio2 APIs](xaudio2/xaudio2-apis-portal.md)
-######[XInput Game Controller APIs](xinput/xinput-game-controller-apis-portal.md)
-#####[DirectComposition](directcomp/directcomposition-portal.md)
-#####[Game Mode](gamemode/game-mode-portal.md)
-#####[Gaming Device Information](gamingdvcinfo/gaming-device-information-portal.md)
+######direct3darticles
+######xaudio2
+######xinput
+#####directcomp
 #####[GDI+](gdiplus/-gdiplus-gdi-start.md)
-#####[Windows GDI](gdi/windows-gdi.md)
+#####gdi
 #####[Monitor Configuration](monitor/monitor-configuration.md)
-#####[OpenGL](opengl/opengl.md)
-#####[Windows Imaging Component](wic/-wic-lh.md)
-#####[windowsnumerics.h APIs](numerics_h/windowsnumerics-h-apis-portal.md)
-####[Networking and Internet](networking.md)
-#####[Delivery Optimization (DO)](delivery_optimization/DO)
-#####[Domain Name System (DNS)](dns/DNS)
-#####[Dynamic Host Configuration Protocol (DHCP)](dhcp/DHCP)
-#####[Fax Service](fax/-mfax-fax-service-start-page.md)
-#####[Get Connected Wizard API](get_connected/get-connected-wizard-api-portal.md)
-#####[HTTP Server API](http/http-api-start-page.md)
-#####[IP Helper](iphlp/ip-helper-start-page.md)
-#####[Management Information Base](mib/portal.md)
+#####opengl
+#####wic
+####Networking and Internet
+#####dns
+#####http
+#####iphlp
 #####Message Queuing (MSMQ)
-#####[Multicast Address Dynamic Client Allocation Protocol (MADCAP)](madcap/MADCAP)
-#####[Network List Manager](nla/portal.md)
-#####[Network Management](netmgmt/network-management.md)
-#####[Network Share Management](netshare/network-share-management.md)
-#####[Peer-to-Peer](p2psdk/portal.md)
-#####[Quality of Service (QOS)](qos/QOS)
-#####[Remote Procedure Call (RPC)](rpc/RPC)
-#####[Routing and Remote Access Service](rras/portal.md)
-#####[Simple Network Management Protocol](snmp/snmp-start-page.md)
+#####nla
+#####netmgmt
+#####netshare
+#####p2psdk
+#####rpc
+#####rras
+#####snmp
 #####tapi
-#####[Teredo](teredo/portal.md)
-#####[WebSocket Protocol Component API](websock/web-socket-protocol-component-api-portal.md)
-#####[Windows Filtering Platform](fwp/windows-filtering-platform-start-page.md)
-#####[Windows Firewall Technologies](ics/portal.md)
-#####[Windows Networking (WNet)](wnet/WNet)
-#####[Windows Network Virtualization](wnv/windows-network-virtualization-portal.md)
+#####teredo
+#####websock
+#####fwp
+#####wnet
 #####feedsapi
-#####[Windows Sockets 2](winsock/windows-sockets-start-page-2.md)
-#####[Wireless Networking](wireless-networking.md)
-######[Bluetooth](bluetooth/bluetooth-start-page.md)
-######[IrDA](irda/irda-start-page.md)
+#####winsock
+#####Wireless Networking
+######bluetooth
 ######mbn
-######[Native Wifi](nativewifi/portal.md)
-######[Windows Connect Now](wcn/portal.md)
-######[Windows Connection Manager](wcm/windows-connection-manager-portal.md)
-#####[WebDAV](webdav/webdav-portal.md)
-#####[Windows HTTP Services (WinHTTP)](winhttp/WinHTTP)
-#####[XML HTTP Extended Request](ixhr2/ixmlhttprequest2-portal.md)
-#####[Windows Internet](wininet/portal.md)
-#####[Windows Web Services](wsw/portal.md)
-####[Security and Identity](security.md)
-#####[Antimalware Scan Interface](amsi/antimalware-scan-interface-portal.md)
-#####[Authentication](secauthn/authentication-portal.md)
-#####[Authorization](secauthz/authorization-portal.md)
-#####[Best Practices for the Security APIs](secbp/best-practices-for-the-security-apis.md)
-#####[Certificate Enrollment API](seccertenroll/certenroll-portal.md)
-#####[Cryptography](seccrypto/cryptography-portal.md)
-#####[Cryptography API: Next Generation](seccng/cng-portal.md)
-#####[Dynamic Access Control developer extensibility](dacx/dynamic-access-control-developer-extensibility-roadmap.md)
+######nativewifi
+######wcn
+######wcm
+#####webdav
+#####winhttp
+#####wininet
+#####wsw
+####Security and Identity
+#####amsi
+#####secauthn
+#####secauthz
+#####secbp
+#####seccertenroll
+#####seccrypto
+#####seccng
 #####Directory, Identity, and Access Services
 ######Directory Services
 #######Directories
-########[Active Directory Domain Services](ad/active-directory-domain-services.md)
-########[Active Directory Lightweight Directory Services](adam/active-directory-lightweight-directory-services.md)
-########[Active Directory Schema](adschema/active-directory-schema.md)
+########ad
+########adschema
 #######Directory Access Technologies
-########[Active Directory Service Interfaces](adsi/active-directory-service-interfaces-adsi.md)
-########[Directory Services Data Exchange](dsde/dsde-portal.md)
-########[DSML Services for Windows](dsml/portal.md)
-########[Lightweight Directory Access Protocol](ldap/lightweight-directory-access-protocol-ldap-api.md)
-#######[Glossary](dsglossary/glossary.md)
+########adsi
 ######Identity Services
 #######Microsoft Identity Manager 2016 Developer Reference
 ####### Forefront Identity Manager 2010 R2 Developer Reference 
@@ -264,187 +200,71 @@
 ######Access Management Services
 #######Active Directory Federation Services
 ########Active Directory Federation Services Overview 
-#####[Extensible Authentication Protocol](eap/eap-start-page.md)
-#####[Extensible Authentication Protocol Host](eaphost/portal.md)
-#####[MS-CHAP Password Management API](mschap/portal.md)
-#####[Network Access Protection](nap/network-access-protection-start-page.md)
-#####[Network Policy Server](nps/portal.md)
-#####[Parental Controls](parcon/parental-controls-portal.md)
+#####nap
+#####nps
+#####parcon
 #####Rights Management
 ######RMS Scenarios, Code and Tools
-######[Microsoft Rights Management SDK 4.2](msipcthin2/active-directory-rights-management-services-multi-platform-thin-client-sdk-portal.md)
-######[Rights Management SDK 2.1](msipc/microsoft-information-protection-and-control-client-portal.md)
-######[Active Directory Rights Management Services SDK](adrms_sdk/active-directory-rights-management-services-sdk-portal.md)
-######[Active Directory Rights Management Services Scripting API](adrms_script/adrms-script-portal.md)
-#####[Security Management](secmgmt/management-portal.md)
-#####[Security Glossary](secgloss/security-glossary.md)
-#####[TPM Base Services](tbs/tpm-base-services-portal.md)
-#####[Windows Biometric Framework](secbiomet/biometric-service-api-portal.md)
-#####[XblIdpAuthManager](xblidp/xblidpauthmanager-portal.md)
-####[System Services](system-services.md)
-#####[COM](com.md)
-######[Component Object Model (COM)](com/COM)
-######[Automation](automat/automation-programming-reference.md)
-######[Microsoft Interface Definition Language (MIDL)](midl/MIDL)
-######[Structured Storage](stg/structured-storage-start-page.md)
-#####[COM+ (Component Services)](cossdk/Component Services)
-#####[Compression API](cmpapi/-compression-portal.md)
+#####secmgmt
+#####secgloss
+#####tbs
+#####secbiomet
+####System Services
+#####com
+#####midl
+#####stg
+#####cossdk
+#####cmpapi
 #####Distributed Transaction Coordinator
-#####[Dynamic-Link Libraries](dlls/dynamic-link-libraries.md)
-#####[Help API](helpapi/helpapi-portal.md)
-#####[Interprocess Communications](ipc/interprocess-communications.md)
-#####[Kernel Transaction Manager](ktm/kernel-transaction-manager-portal.md)
-#####[Memory Management](memory/memory-management.md)
-#####[MultiPoint Services](multipoint/windows-multipoint-server-portal.md)
-#####[Operation Recorder](oprec/-operation-portal.md)
-#####[Power Management](power/power-management-portal.md)
-#####[Processes and Threads](procthread/processes-and-threads.md)
-#####[Remote Desktop Services](termserv/terminal-services-portal.md)
-#####[Services](services/services.md)
-#####[Setup API](setupapi/setup-api-portal.md)
-#####[Synchronization](sync/synchronization.md)
-#####[Windows Desktop Sharing](rdp/rdp-portal.md)
-#####[OOBE APIs for setup state and notification](wnf/windows-setup-and-migration-portal.md)
-#####[Windows Subsystem for Linux](wsl/windows-subsystem-for-linux-portal.md)
-#####[Windows System Information](sysinfo/windows-system-information.md)
-####[Windows Machine Learning](machinelearning/machine-learning-portal.md)
-####[Developer Notes](devnotes/developer-notes.md)
-###[Develop with server technologies](server-and-system-technologies.md)
+#####dlls
+#####ipc
+#####ktm
+#####memory
+#####power
+#####procthread
+#####termserv
+#####services
+#####setupapi
+#####sync
+#####sysinfo
+####machinelearning
+####devnotes
+###Server and System Technologies
 ####Server Technologies
-#####[File Server Resource Manager](fsrm/file-server-resource-manager-portal.md)
 #####File Server Resource Manager Reference
-#####[Windows Clustering](mscs/windows-clustering.md)
 ####System Administration
 #####Group Policy
-######[Group Policy Management Console](gpmc/group-policy-management-console-portal.md)
 ######GPMC Class Library Reference
 #####Microsoft Management Console (MMC)
 ######mmc3.0guidelines
 ######Microsoft Management Console 3.0
 #######managedmmc
 #######MMC Class Library
-######[Microsoft Management Console 2.0](mmc/microsoft-management-console-start-page.md)
-#####[Mobile Device Management Registration](mdmreg/mobile-device-management-registration-portal.md)
-#####[NetShell](netshell/netshell-start-page.md)
-#####[Settings Management Infrastructure (SMI)](smi/SMI)
-#####[Software Licensing API](secslapi/software-licensing-api-portal.md)
-#####[System Restore](sr/system-restore-portal.md)
-#####[System Shutdown](shutdown/system-shutdown.md)
-#####[Task Scheduler](taskschd/task-scheduler-start-page.md)
-#####[Windows Deployment Services](wds/windows-deployment-services-portal.md)
-#####[Windows Genuine Advantage API](wingen/windows-genuine-advantage-api-portal.md)
-#####[Windows Management Instrumentation](wmisdk/wmi-start-page.md)
-#####[Windows Management Infrastructure (MI)](wmi_v2/MI)
+#####mdmreg
+#####sr
+#####shutdown
+#####taskschd
+#####wds
+#####wmisdk
 #####Windows Management Infrastructure Managed API
 #####WMI Providers
-######[Active Directory Provider](dsprov/active-directory-provider.md)
-######[Application inventory classes](appdevinvprov/applicationanddeviceinventory-portal.md)
-######[Application Proxy WMI Provider](appproxypsprov/application-proxy-wmi-provider-portal.md)
-######[ADO.NET Diagnostics Provider](adonetdiagprov/ado-net-diagnostics-provider-portal.md)
-######[ASP.NET WMI Provider](aspnetprov/asp-net-wmi-provider-portal.md)
-######[BITS Provider](bitsprov/bits-provider.md)
-######[Boot Configuration Data WMI Provider](bcd/boot-configuration-data-portal.md)
-######[Boot Event Collector WMI Provider](bevtcolprov/boot-event-collector-wmi-provider-portal.md)
-######[Failover Cluster Aware Patching MI Provider](cauwmiv2/failover-cluster-aware-patching-mi-provider-portal.md)
-######[Failover Clustering Hyper-V WMI Provider](clushyperv/failover-clustering-hyper-v-wmi-provider-portal.md)
-######[Failover Clustering Storage QoS Provider](clusstorageqosprov/failover-clustering-storage-qos-mi-provider-portal.md)
-######[Failover Cluster WMI Provider](cluswmi/failover-cluster-wmi-provider-portal.md)
-######[Failover Cluster WMI Provider Extensions](cluswmiext/failover-cluster-wmi-provider-extensions-portal.md)
-######[Gateway Health Monitor WMI Provider](gatewayhealthmonprov/gateway-health-monitor-wmi-provider-portal.md)
-######[CIMWin32 WMI Providers](cimwin32prov/cimwin32-wmi-providers.md)
-######[CIMWin32a Provider](cimwin32a/cimwin32a-provider-classes.md)
-######[DcbQosCim Provider](dcbwmiprov/dcb-qos.md)
-######[DFS Provider](wmipdfs/dfs-provider.md)
-######[Dfsncimprov Provider](dfsncimprov/dfs-namespace-classes.md)
-######[DhcpServerPSProvider Provider](dhcpserverpsprov/dhcp-classes.md)
-######[Disk Quota Provider](wmipdskq/disk-quota-provider.md)
-######[Distributed Transaction Coordinator WMI Provider](msdtcwmi/distributed-transaction-coordinator-wmi-provider-portal.md)
-######[Dnsclientcim Provider Classes](dnsclientcimprov/dns-client-classes.md)
-######[DnsClientPSProvider Provider](dnsclientpsprov/dns-nrpt-classes.md)
-######[DnsServerPSProvider Provider](dnsserverpsprov/dns-server-classes.md)
-######[Event Log Provider](eventlogprov/event-log-provider.md)
-######[Event Tracing Management WMI Provider](etwmgmt/event-tracing-management-wmi-provider-portal.md)
-######[Host Guardian Service WMI Provider](hgsclientwmi/hoster-guardian-service-wmi-provider-portal.md)
-######[Hyper-V WMI Provider](virtual/windows-virtualization-portal.md)
-######[Hyper-V management](hyperv_v2/hyper-v-management.md)
-######[Internet Protocol Address Management (IPAM) Server WMI Provider](ipamserverpsprov/IPAM)
-######[WMI IP Route Provider](wmiiprouteprov/ip-route-provider.md)
-######[IPMI Provider](ipmiprv/ipmi-provider.md)
-######[iSCSI Target Server Provider](iscsitarg/iscsi-software-target-api-portal.md)
-######[Job Object Provider](wmipjobobjprov/job-object-provider.md)
-######[Kernel Trace Provider](krnlprov/kernel-trace-provider.md)
-######[ManagementTools Registry WMI Provider](mtregprov/managementtools-registry-wmi-provider-portal.md)
-######[Management Tools Task Manager WMI Provider](mttmprov/management-tools-task-manager-wmi-provider-portal.md)
-######[Mobile Device Management Application Provider](mdmappprov/mobile-device-management-application-provider-portal.md)
-######[MDM Bridge WMI Provider](dmwmibridgeprov/mdm-bridge-wmi-provider-portal.md)
-######[Mobile Device Management Settings Provider](mdmsettingsprov/mobile-device-management-settings-provider-portal.md)
-######[MsNetImPlatform Provider](ndisimplatcimprov/lbfo-classes.md)
-######[NetAdapterCim Provider](netadaptercimprov/network-adapter-classes.md)
-######[NetDaCim Provider](netdacimprov/direct-access-client-components-classes.md)
-######[NetNcCim Provider Classes](netnccimprov/network-connectivity-status.md)
-######[NetPeerDist Provider](netpeerdistcimprov/branch-cache.md)
-######[NetQosCim Provider](qoswmiprov/net-qos-classes.md)
-######[NetSwitchTeam Provider](netswitchteamprov/network-switch-team-classes.md)
-######[NetTCPIP Provider](nettcpipprov/net-tcpip-classes.md)
-######[NetTtCim Provider](netttcimprov/network-transition-classes.md)
-######[NetWNV Provider](netwnvprov/net-virtualization-classes.md)
-######[Network Access Protection WMI Provider](napprov/network-access-protection-wmi-provider-portal.md)
-######[Network Controller Server WMI Provider](ncserverpsprov/networkcontroller-server-wmi-provider-portal.md)
-######[Network Load Balancing Provider](wlbsprov/network-load-balancing-provider-portal.md)
-######[Physical Computer System View Provider](pcsvdeviceprov/device-management-classes.md)
-######[Ping Provider](wmipicmp/ping-provider.md)
-######[Policy Provider](policmanprov/policy-provider.md)
-######policy
-######[Power Meter Provider](powermeterprov/power-meter-provider-.md)
-######[Power Policy Provider](powerwmiprov/power-policy-provider-.md)
-######[RAMgmtPSProvider Provider](ramgmtpsprov/remote-access-management.md)
-######[RAServerPSProvider Provider](raserverpsprov/remote-access-server.md)
-######[ReliabilityMetricsProvider Provider](racwmiprov/reliabilitymetricsprovider-provider-classes.md)
-######[Security Provider](secrcw32prov/security-provider.md)
-######[Security WMI Providers](secprov/secprov-portal.md)
-######[ServerManager.DeploymentProvider Provider](srvmgrdeployprov/server-manager-deployment.md)
-######[Session Provider](wmipsess/session-provider.md)
-######[Shadow Copy Provider](vsswmi/shadow-copy-provider.md)
-######[Shielded VM Provisioning WMI Provider](mspsprov/shielded-vm-provisioning-wmi-provider-portal.md)
-######[Shielded VM Provisioning Service WMI Provider](mspsserviceprov/shielded-vm-provisioning-service-wmi-provider-portal.md)
-######[SMB Management API](smb/smb-management-api-portal.md)
-######[Software Inventory Logging](sil/software-inventory-logging-portal.md)
-######[Software Licensing Classes for Windows Vista](slwmiprov/software-licensing-classes-for-windows-vista.md)
-######[Storage Replica Provider](wvrcimprov/storage-replica-mi-provider-portal.md)
-######[Software License Provider](sppwmi/software-license-provider-.md)
-######[Storage Volume Provider](vdswmi/storage-volume-provider.md)
-######[System Registry Provider](regprov/system-registry-provider.md)
-######[Trustmon Provider](trustmonprov/trustmon-provider.md)
-######[User Access Logging](ual/user-access-logging.md)
-######[UserProfileProvider Provider](userprofileprov/userprofileprovider-provider-classes.md)
-######[User State Management Provider](usm/user-state-management-api-portal.md)
-######[VPNClientPSProvider Provider](vpnclientpsprov/remote-access-client.md)
-######[WFasCim Provider](wfascimprov/network-security-classes.md)
-######[WhqlProvider Provider](whqlprov/whqlprovider-provider-classes.md)
-######[Win32ClockProvider Provider](wmitimepprov/win32clockprovider-provider-classes.md)
-######[Windows Data Access Components WMI Provider](wdacwmiprov/windows-data-access-components-wmi-provider-portal.md)
-######[Windows Defender WMIv2 APIs](defender/windows-defender-wmiv2-apis-portal.md)
-######[Windows Installer Provider](msiprov/windows-installer-provider.md)
-######[Windows Product Activation Provider](licwmiprov/windows-product-activation-provider.md)
-######[Windows Server Manager WMI provider](mgmtprovider/windows-server-manager-wmi-provider-portal.md)
-######[Windows Storage Management API](stormgmt/windows-storage-management-api-portal.md)
-######[Windows Server Storage Management (MsftStrgMan) Provider](msftstrgmanprov/MsftStrgMan)
-######[Windows System Assessment Tool](winsat/windows-system-assessment-tool-portal.md)
-######[WMI Core Provider](wmicoreprov/wmi-core-provider-.md)
-######nfswmi
-######[Msft_ProviderSubSystem Provider](wmisystemprov/msft-providersubsystem-provider-.md)
-######[Work Folders](syncshareservermgmt/sync-share-server-management-portal.md)
-#####[Windows Remote Management](winrm/portal.md)
-#####[Windows Resource Protection](wfp/windows-resource-protection-portal.md)
+######bcd
+######bevtcolprov
+######cimwin32a
+######hyperv_v2
+######dmwmibridgeprov
+######sppwmi
+######winsat
+######wmicoreprov
+#####winrm
+#####wfp
 #####Windows Server Update Services
 ######Windows Server Update Services API Reference
 ######Windows Server Update Services 2.0 Class Library
 #######wsus2_mref
 ######wua_sdk
 ####Virtualization
-#####[Microsoft Virtual Server](msvs/microsoft-virtual-server-portal.md)
-#####[Windows Virtual PC](vpc/virtual-pc-portal.md)
-####srvcore
-###[API Index](apiindex/api-index-portal.md)
-###[Windows Runtime C++ reference](winrt/reference.md)
-###[Windows Certification](win_cert/windows-certification-portal.md)
+#####vpc
+###apiindex
+###winrt
+###win_cert
