@@ -2,6 +2,11 @@
 Description: '.'
 ms.assetid: '49E0D0C2-E6EC-4849-A44F-36FDEFBB9838'
 title: Getting Started with DirectX Graphics
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Getting Started with DirectX Graphics

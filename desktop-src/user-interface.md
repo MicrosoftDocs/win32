@@ -1,7 +1,12 @@
-﻿---
+---
 Description: 'This section provides guidance for integrating and extending the desktop user-facing features of Windows.'
 ms.assetid: '1ffeeb4f-b337-45b9-885f-307b81670557'
 title: Desktop Environment
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Desktop Environment

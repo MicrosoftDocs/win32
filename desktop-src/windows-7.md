@@ -2,6 +2,11 @@
 Description: Windows 7
 ms.assetid: 'e9392fa6-7a73-43d2-b9be-b45bb2422e91'
 title: Windows 7
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Windows 7

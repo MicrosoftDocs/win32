@@ -2,6 +2,11 @@
 Description: '.'
 ms.assetid: 'FF115416-220F-4FCD-8690-F9C0890CD6CC'
 title: Desktop app technologies
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Desktop app technologies

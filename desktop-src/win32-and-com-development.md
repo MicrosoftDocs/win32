@@ -2,6 +2,11 @@
 Description: 'This documentation provides info about developing applications and drivers for the Windows operating system.'
 ms.assetid: 'f61a75b8-8745-4146-8d76-d68614d838b4'
 title: Windows desktop apps
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Windows desktop apps

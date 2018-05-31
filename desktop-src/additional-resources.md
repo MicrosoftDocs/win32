@@ -2,6 +2,11 @@
 Description: 'This section of the Library contains archived articles. Some articles cover deprecated or superseded technologies, and some cover niche subject areas that you may still find interesting.'
 ms.assetid: 'FEDA4A1A-31F9-4B1E-9083-FB047281CCC7'
 title: Archived articles
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Archived articles
@@ -22,7 +27,7 @@ This section of the Library contains archived articles. Some articles cover depr
 
 
 
- 
+ 
 
 The following includes our archived articles.
 
@@ -51,9 +56,9 @@ The following includes our archived articles.
 -   [Windows Runtime C++ Reference](https://msdn.microsoft.com/library/windows/desktop/br224617)
 -   [Windows SideShow](e56672bc-c341-4c5d-b5bb-5aa3a68debbb)
 
- 
+ 
 
- 
+ 
 
 
 

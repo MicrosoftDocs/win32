@@ -2,6 +2,11 @@
 Description: 'Get started learning the basics of building great desktop apps in this section.'
 ms.assetid: '15690E05-9AF7-41A3-AF7C-8DB7C5FB9BE4'
 title: Desktop Programming
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Desktop Programming
@@ -23,7 +28,7 @@ When you want to create a new desktop app, the first decision you make is whethe
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -32,9 +37,9 @@ When you want to create a new desktop app, the first decision you make is whethe
 [Get started with the .NET Framework](https://docs.microsoft.com/en-us/dotnet/framework/get-started/index)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

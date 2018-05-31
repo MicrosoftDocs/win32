@@ -1,7 +1,12 @@
-﻿---
+---
 Description: 'Develop more secure desktop apps by using Windows APIs and services.'
 ms.assetid: '1d078a53-250e-4f40-8a3b-83396f2201fc'
 title: Security and Identity
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Security and Identity

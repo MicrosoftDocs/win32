@@ -2,6 +2,11 @@
 Description: 'This section provides information on the OLE DB Provider for Internet Publishing.'
 ms.assetid: 'F928AA64-1B6C-41E7-9EF8-403E6414A98F'
 title: OLE DB Provider for Internet Publishing
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # OLE DB Provider for Internet Publishing

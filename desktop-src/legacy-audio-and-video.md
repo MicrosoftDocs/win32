@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Legacy Audio and Video
 ms.assetid: '39127F5B-BF69-4C3C-87C6-DCB7B961E69A'
 title: Legacy Audio and Video
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Legacy Audio and Video

@@ -2,6 +2,11 @@
 Description: Globalization and Localization Archive
 ms.assetid: 'FE6E9C28-C375-4F8A-B3B5-33DD3214C96C'
 title: Globalization and Localization Archive
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Globalization and Localization Archive

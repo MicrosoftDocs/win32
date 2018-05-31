@@ -1,7 +1,12 @@
-﻿---
+---
 Description: 'Get your existing apps compatible with newer versions of Windows or get started programming new desktop apps for Windows.'
 ms.assetid: 'AB1B155E-A769-43EB-BB1B-6BC1B13518CD'
 title: 'What''s new'
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # What's new

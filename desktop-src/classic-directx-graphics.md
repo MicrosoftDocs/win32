@@ -2,6 +2,11 @@
 Description: 'This section describes Microsoft DirectX graphics technologies that are minimally supported. This information is provided to support existing applications. We do not recommend using these technologies in new applications.'
 ms.assetid: 'CD246474-3360-4588-86F7-21EB36B8B121'
 title: Classic DirectX Graphics
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Classic DirectX Graphics
@@ -25,11 +30,11 @@ For information about getting started with DirectX graphics, see [Getting Starte
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

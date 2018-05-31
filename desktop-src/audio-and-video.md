@@ -2,6 +2,11 @@
 Description: 'Microsoft provides components that are designed to enable application developers, Web developers, and systems administrators to develop audio and video programs and to create Windows Media-compatible applications and Web sites.'
 ms.assetid: '30595274-5234-4722-ac4e-4471b4d8dae2'
 title: Audio and Video
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Audio and Video
@@ -31,7 +36,7 @@ Microsoft provides components that are designed to enable application developers
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -43,9 +48,9 @@ Microsoft provides components that are designed to enable application developers
 [Graphics](graphics-and-multimedia.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

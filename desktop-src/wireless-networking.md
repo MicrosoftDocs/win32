@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Wireless Networking
 ms.assetid: '54303cfc-7737-47d4-a0ea-b5a531c3014d'
 title: Wireless Networking
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Wireless Networking

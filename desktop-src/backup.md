@@ -2,6 +2,11 @@
 Description: Backup
 ms.assetid: 'da599a95-10ae-4164-b419-cdf72a0061a4'
 title: Backup
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Backup
@@ -19,11 +24,11 @@ title: Backup
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

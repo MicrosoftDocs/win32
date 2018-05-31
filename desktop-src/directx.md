@@ -1,7 +1,12 @@
-﻿---
+---
 Description: 'For information on using DirectX in UWP apps, see Games and DirectX (UWP)'
 ms.assetid: '23693eb7-cc8d-4757-bca7-394114d9a3c9'
 title: DirectX Graphics and Gaming
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # DirectX Graphics and Gaming
