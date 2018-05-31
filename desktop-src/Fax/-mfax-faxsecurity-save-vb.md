@@ -1,0 +1,62 @@
+---
+Description: The Save method saves the FaxSecurity object data.
+ms.assetid: 114bb347-39fa-4001-a3ea-6cc94ff772c7
+title: FaxSecurity.Save method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# FaxSecurity.Save method
+
+The **Save** method saves the [**FaxSecurity**](-mfax-faxsecurity.md) object data.
+
+## Syntax
+
+
+```VB
+FaxSecurity.Save() As Long
+```
+
+
+
+## Parameters
+
+This method has no parameters.
+
+## Remarks
+
+To use this method, a user must have the [****farMANAGE\_CONFIG****](/previous-versions/windows/desktop/api/FaxComex/ne-faxcomex-fax_access_rights_enum) and [****farQUERY\_CONFIG****](/previous-versions/windows/desktop/api/FaxComex/ne-faxcomex-fax_access_rights_enum) access rights.
+
+## Requirements
+
+
+
+|                                     |                                                                                         |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Header<br/>                   | <dl> <dt>FaxComex.h</dt> </dl>   |
+| DLL<br/>                      | <dl> <dt>Fxscomex.dll</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**FaxSecurity**](-mfax-faxsecurity.md)
+</dt> <dt>
+
+[**IFaxSecurity**](/previous-versions/windows/desktop/api/FaxComex/nn-faxcomex-ifaxsecurity)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
