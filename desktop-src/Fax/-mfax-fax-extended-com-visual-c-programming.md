@@ -101,7 +101,7 @@ The exceptions to this rule are the data types specific to COM: **VARIANT**, **B
 
 ## Variant
 
-A **VARIANT** is a structured data type that contains a value member and a data type member. A **VARIANT** may contain a wide range of other data types including another **VARIANT**, **BSTR**, **BOOL**, [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) or [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509.aspx) pointer, currency, date, and so on. COM also provides methods that make it easy to convert one data type to another.
+A **VARIANT** is a structured data type that contains a value member and a data type member. A **VARIANT** may contain a wide range of other data types including another **VARIANT**, **BSTR**, **BOOL**, [IDispatch](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) or [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509.aspx) pointer, currency, date, and so on. COM also provides methods that make it easy to convert one data type to another.
 
 The **\_variant\_t** class encapsulates and manages the **VARIANT** data type.
 

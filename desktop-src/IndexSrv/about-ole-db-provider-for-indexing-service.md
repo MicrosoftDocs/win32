@@ -28,7 +28,7 @@ This section gives an overview of the OLE DB Provider for Indexing Service. It i
 -   [Command Properties](command-properties.md)
 -   [Memory Allocation](memory-allocation.md)
 
-For more information about OLE DB objects, see the [OLE DB Programmer's Reference](3c5e2dd5-35e5-4a93-ac3a-3818bb43bbf8) in the Platform Software Development Kit (SDK). For an example of how to connect the Indexing Service data source provider, see [Using OLE DB Provider for Indexing Service](using-ole-db-provider-for-indexing-service.md). For sample applications that show how to use these objects, see the [Querying Samples](querying-samples.md) in the samples directory of the Platform SDK.
+For more information about OLE DB objects, see the [OLE DB Programmer's Reference](https://msdn.microsoft.com/windows/desktop/3c5e2dd5-35e5-4a93-ac3a-3818bb43bbf8) in the Platform Software Development Kit (SDK). For an example of how to connect the Indexing Service data source provider, see [Using OLE DB Provider for Indexing Service](using-ole-db-provider-for-indexing-service.md). For sample applications that show how to use these objects, see the [Querying Samples](querying-samples.md) in the samples directory of the Platform SDK.
 
  
 

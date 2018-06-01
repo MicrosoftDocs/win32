@@ -36,7 +36,7 @@ typedef struct tagDBPARAMETER {
 
 ### Remarks
 
-Note that there is no entry for the ordinal position of the parameter. The assumption is that the ordinal position will be determined by the provider after evaluating the tree as a whole, and not by assigning a specific value to an individual member within the tree. Data consumers can determine the ordinal position based on the name using **ICommandWithParameters::MapParameterNames**. For more information about the interface, see [**ICommandWithParameters**](2cacfa5c-766b-4e1f-a31f-320f390de681).
+Note that there is no entry for the ordinal position of the parameter. The assumption is that the ordinal position will be determined by the provider after evaluating the tree as a whole, and not by assigning a specific value to an individual member within the tree. Data consumers can determine the ordinal position based on the name using **ICommandWithParameters::MapParameterNames**. For more information about the interface, see [**ICommandWithParameters**](https://msdn.microsoft.com/windows/desktop/2cacfa5c-766b-4e1f-a31f-320f390de681).
 
  
 

@@ -27,7 +27,7 @@ Indexing Service supports command-tree extensions for OLE DB, which are a part o
 
 
 
-For more information on property sets supported by this provider, see [Property Sets and Property Groups](4307e19f-e34e-4cd2-af15-8a67f7e8c24c).
+For more information on property sets supported by this provider, see [Property Sets and Property Groups](https://msdn.microsoft.com/windows/desktop/4307e19f-e34e-4cd2-af15-8a67f7e8c24c).
 
 The OLE DB provider for Indexing Service provides read-only access to the content and property indexes created by the indexing process. Clients of Indexing Service are OLE DB consumers of the Indexing Service data source object (DSO) that represents the content and property indexes.
 

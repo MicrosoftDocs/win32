@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-Several errors can occur when submitting queries to the SQL parser. When these errors occur, the OLE DB Provider returns a DB\_E\_ERRORSINCOMMAND error (see [**ICommand::Execute**](95b4c895-a55c-4f01-a641-68a7f9a5f106)). It can usually also return a string describing the error. These errors are usually syntax related.
+Several errors can occur when submitting queries to the SQL parser. When these errors occur, the OLE DB Provider returns a DB\_E\_ERRORSINCOMMAND error (see [**ICommand::Execute**](https://msdn.microsoft.com/windows/desktop/95b4c895-a55c-4f01-a641-68a7f9a5f106)). It can usually also return a string describing the error. These errors are usually syntax related.
 
 The following error messages are not defined in a public header and the error codes associated with them are not exposed. They are also localized. Parameters shown in italics are specific to each query that is in error.
 

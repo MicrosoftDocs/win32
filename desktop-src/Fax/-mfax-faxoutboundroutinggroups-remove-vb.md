@@ -38,7 +38,7 @@ FaxOutboundRoutingGroups.Remove( _
 
 Type: **Variant**
 
-[Variant](e305240e-9e11-4006-98cc-26f4932d2118) that specifies the item to remove from the collection.
+[Variant](https://msdn.microsoft.com/windows/desktop/e305240e-9e11-4006-98cc-26f4932d2118) that specifies the item to remove from the collection.
 
 If this parameter is type VT\_I2 or VT\_I4, it specifies the index of the item to remove from the collection. Valid values for this parameter are in the range from 1 to n, where n is the number of objects returned by a call to the [**Count**](-mfax-faxoutboundroutinggroups-count-vb.md) method. The index is 1-based. If this parameter is type VT\_BSTR, the parameter is a unique name that identifies the outbound routing group to remove. Other types are not supported.
 

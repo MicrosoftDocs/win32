@@ -30,7 +30,7 @@ It is used to retrieve basic information about the authentication methods suppor
 
 ## Members
 
-The **IVMRCAuthenticator** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMRCAuthenticator** also has these types of members:
+The **IVMRCAuthenticator** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMRCAuthenticator** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -66,7 +66,7 @@ The **IVMRCAuthenticator** interface has these properties.
 
 <dl> <dt>
 
-[**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
  

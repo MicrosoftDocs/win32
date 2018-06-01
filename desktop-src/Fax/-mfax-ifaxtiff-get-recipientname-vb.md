@@ -36,7 +36,7 @@ The **get\_RecipientName** method sets the *pVal* parameter to the name of the f
 
 The **RecipientName** property is a string that represents the name of the fax recipient, if it is available. If the information is not available, **RecipientName** is an empty string.
 
-The **get\_RecipientName** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
+The **get\_RecipientName** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
 
 ## Requirements
 
@@ -70,7 +70,7 @@ The **get\_RecipientName** method allocates the memory required for the buffer p
 [**Image**](-mfax-ifaxtiff-get-image-vb.md)
 </dt> <dt>
 
-[SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)
+[SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)
 </dt> </dl>
 
  

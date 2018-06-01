@@ -30,7 +30,7 @@ A virtual network consists of a virtual switch, which performs all internal rout
 
 ## Members
 
-The **IVMVirtualNetwork** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMVirtualNetwork** also has these types of members:
+The **IVMVirtualNetwork** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMVirtualNetwork** also has these types of members:
 
 -   [Properties](#properties)
 

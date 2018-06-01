@@ -32,7 +32,7 @@ A **String** that receives the user-friendly name to associate with the fax job.
 
 You can use the [**JobId**](-mfax-ifaxjob-get-jobid-vb.md) property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same **DisplayName** property.
 
-**DisplayName** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
+**DisplayName** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
 
 ## Requirements
 

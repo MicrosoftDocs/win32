@@ -26,7 +26,7 @@ The **IVMSupportDriver** interface defines an interface to a support driver inst
 
 ## Members
 
-The **IVMSupportDriver** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMSupportDriver** also has these types of members:
+The **IVMSupportDriver** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMSupportDriver** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -65,7 +65,7 @@ The **IVMSupportDriver** interface has these properties.
 
 <dl> <dt>
 
-[**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> <dt>
 
 [Virtual Server Interfaces](interfaces.md)

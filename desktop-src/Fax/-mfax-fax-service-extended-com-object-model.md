@@ -15,7 +15,7 @@ Most of the objects in the Fax Service Extended Component Object Model (COM) are
 
 The client application must call the [**Connect**](/previous-versions/windows/desktop/api/FaxComex/nf-faxcomex-ifaxserver-connect) method of the [**FaxServer**](-mfax-faxserver.md) object to establish a connection with a fax server before accessing other interfaces in the fax extended COM API or other fax client objects.
 
-Note also that an application can call the [CoCreateInstance](http://msdn.microsoft.com/en-us/library/ms686615.aspx) function or the Microsoft Visual Basic [**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) function to create only two of the objects in the model: the [**FaxServer**](-mfax-faxserver.md) and the [**FaxDocument**](-mfax-faxdocument.md) objects. (This is indicated by shading in the diagram.) All of the other objects, with the exception of notification objects, can be accessed only through existing objects.
+Note also that an application can call the [CoCreateInstance](http://msdn.microsoft.com/en-us/library/ms686615.aspx) function or the Microsoft Visual Basic [**CreateObject**](https://msdn.microsoft.com/windows/desktop/ec11fd03-b420-412f-b25a-057f877cefbc) function to create only two of the objects in the model: the [**FaxServer**](-mfax-faxserver.md) and the [**FaxDocument**](-mfax-faxdocument.md) objects. (This is indicated by shading in the diagram.) All of the other objects, with the exception of notification objects, can be accessed only through existing objects.
 
 For a list and brief description of all of the objects, see [Fax Service Extended COM Objects](-mfax-fax-service-extended-com-objects.md).
 

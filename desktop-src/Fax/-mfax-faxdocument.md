@@ -203,7 +203,7 @@ You can send a fax to one or more recipients.
 
 ![faxdocument, faxsender, faxrecipients, and faxrecipient objects](images/faxdocument2.png)
 
-To create a **FaxDocument** object in Microsoft Visual Basic, call the Visual Basic [**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) function.
+To create a **FaxDocument** object in Microsoft Visual Basic, call the Visual Basic [**CreateObject**](https://msdn.microsoft.com/windows/desktop/ec11fd03-b420-412f-b25a-057f877cefbc) function.
 
 To create a [**FaxDevices**](-mfax-faxdevices.md) object in C++, call the [CoCreateInstance](http://msdn.microsoft.com/en-us/library/ms686615.aspx) function. An example of the creation of a **FaxDocument** object is provided in the topic [Creating the Root Object in C++](-mfax-creating-the-root-object-in-c-.md).
 

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The following code segments from the **IssueQuery** function of the sample create and execute a query. The function first declares an [**ICommand**](089427ad-5ba3-4613-b89e-8e86420ccc30) interface and uses the [**CIMakeICommand**](/windows/desktop/api/Ntquery/nf-ntquery-cimakeicommand) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to get a pointer to an **ICommand** interface for the specified scope, catalog, and machine properties.
+The following code segments from the **IssueQuery** function of the sample create and execute a query. The function first declares an [**ICommand**](https://msdn.microsoft.com/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30) interface and uses the [**CIMakeICommand**](/windows/desktop/api/Ntquery/nf-ntquery-cimakeicommand) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to get a pointer to an **ICommand** interface for the specified scope, catalog, and machine properties.
 
 
 ```C++
@@ -33,7 +33,7 @@ The following code segments from the **IssueQuery** function of the sample creat
 
 
 
-The function next declares an [**ICommand**](089427ad-5ba3-4613-b89e-8e86420ccc30) interface and queries the **ICommand** interface for a pointer to an [**ICommandTree**](/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree) interface.
+The function next declares an [**ICommand**](https://msdn.microsoft.com/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30) interface and queries the **ICommand** interface for a pointer to an [**ICommandTree**](/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree) interface.
 
 
 ```C++
@@ -79,7 +79,7 @@ The function next uses the [**SetCommandTree**](/previous-versions/windows/deskt
 
 
 
-The function finally declares an [**IRowset**](b14147c4-8b03-49c6-ab5d-00186643a6b4) interface to represent the results of the query and uses it with the [**Execute**](95b4c895-a55c-4f01-a641-68a7f9a5f106) method of the [**ICommand**](089427ad-5ba3-4613-b89e-8e86420ccc30) interface to execute the query.
+The function finally declares an [**IRowset**](https://msdn.microsoft.com/windows/desktop/b14147c4-8b03-49c6-ab5d-00186643a6b4) interface to represent the results of the query and uses it with the [**Execute**](https://msdn.microsoft.com/windows/desktop/95b4c895-a55c-4f01-a641-68a7f9a5f106) method of the [**ICommand**](https://msdn.microsoft.com/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30) interface to execute the query.
 
 
 ```C++

@@ -276,7 +276,7 @@ The fax service processed the outbound fax document; the fax service provider wi
 
 If the job is in the job queue waiting transmission, the fax server has not associated a device with the job. In this instance, **DeviceStatus** is "Unknown".
 
-**DeviceStatus** allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
+**DeviceStatus** allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
 
 ## Requirements
 

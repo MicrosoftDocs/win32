@@ -30,7 +30,7 @@ Use the **FaxServer** object to connect to and disconnect from an active fax ser
 
  
 
-To create a **FaxServer** object, call the Visual Basic [**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) function as illustrated in the following sample:
+To create a **FaxServer** object, call the Visual Basic [**CreateObject**](https://msdn.microsoft.com/windows/desktop/ec11fd03-b420-412f-b25a-057f877cefbc) function as illustrated in the following sample:
 
 
 ```

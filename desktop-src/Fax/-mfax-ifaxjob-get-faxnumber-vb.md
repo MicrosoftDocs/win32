@@ -32,7 +32,7 @@ A **String** that receives the fax number of the recipient of the transmission. 
 
 A fax number is only available for faxes that have a [**Type**](-mfax-ifaxjob-get-type-vb.md) property equal to **JT\_SEND**. If the fax number is not available, the **FaxNumber** property contains an empty string.
 
-**FaxNumber** allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
+**FaxNumber** allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
 
 ## Requirements
 

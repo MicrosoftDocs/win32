@@ -36,7 +36,7 @@ The **get\_ReceiveTime** method sets the *pVal* parameter to the time at which r
 
 The **ReceiveTime** property is a string that represents the time at which reception began for an inbound fax file, if it is available. If the information is not available, **RecipientName** is "Unavailable".
 
-The **get\_ReceiveTime** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
+The **get\_ReceiveTime** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
 
 The fax service formats the string according to the user's locale. It is a concatenation of the date and time the service transmitted the fax. The date is separated from the time by an "@" character. For example, in the English locale, a string would be formatted as follows:
 
@@ -79,7 +79,7 @@ The [**RawReceiveTime**](-mfax-ifaxtiff-get-rawreceivetime-vb.md) property conta
 [**RawReceiveTime**](-mfax-ifaxtiff-get-rawreceivetime-vb.md)
 </dt> <dt>
 
-[SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)
+[SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)
 </dt> </dl>
 
  

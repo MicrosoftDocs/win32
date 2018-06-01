@@ -26,7 +26,7 @@ The **IVMSCSIControllerCollection** interface defines the collection of SCSI con
 
 ## Members
 
-The **IVMSCSIControllerCollection** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMSCSIControllerCollection** also has these types of members:
+The **IVMSCSIControllerCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMSCSIControllerCollection** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -62,7 +62,7 @@ The **IVMSCSIControllerCollection** interface has these properties.
 
 <dl> <dt>
 
-[**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> <dt>
 
 [**IVMSCSIController**](ivmscsicontroller.md)

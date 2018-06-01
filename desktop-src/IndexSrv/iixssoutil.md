@@ -30,7 +30,7 @@ The programmatic identifier (ProgID) for the object is IXSSO.Util.2. The version
 
 ## Members
 
-The **IixssoUtil** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IixssoUtil** also has these types of members:
+The **IixssoUtil** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IixssoUtil** also has these types of members:
 
 -   [Methods](#methods)
 

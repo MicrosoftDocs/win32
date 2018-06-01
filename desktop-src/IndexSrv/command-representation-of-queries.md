@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-OLE DB uses a tree format to represent commands associated with the [**Command object**](c72d0308-7e30-4250-b85e-557b8c399a3c). For Indexing Service, the command represents a query. A typical query involves the following steps, where the terms in brackets suggest actions familiar to database users:
+OLE DB uses a tree format to represent commands associated with the [**Command object**](https://msdn.microsoft.com/windows/desktop/c72d0308-7e30-4250-b85e-557b8c399a3c). For Indexing Service, the command represents a query. A typical query involves the following steps, where the terms in brackets suggest actions familiar to database users:
 
 -   Step 1 \[PROJECT\]: Choose the columns you want to display in the search results table and copy the appropriate values from the files that had hits.
 -   Step 2 \[SELECT\]: Define a search on the content and property indexes for some values you specify. The query languages supported allow you to express property-value queries as [*relational queries*](relational-queries.md) or [*pattern-matching queries*](pattern-matching-queries.md) in addition to expressing [*content queries*](content-queries.md). For each part of the search expression, indicate the values that should be searched for in specific properties (including the contents property) for a file. Execute the query.

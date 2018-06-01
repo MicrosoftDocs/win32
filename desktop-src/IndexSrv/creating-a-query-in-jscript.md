@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The JSQuery.js script of the [SQuery Sample](squery-sample.md) executes a query that is embedded in the script. The query produces a parent, chaptered recordset (which represents a [hierarchical rowset](1844d85b-5197-4824-a254-9b3d63c421c2)) that contains selected columns forming a child chapter. The JSQuery.js script is a translation of the VBScript.vbs script into the JScript language. For a discussion of the VBScript version, see [Creating a Query in Visual Basic Scripting Edition](creating-a-query-in-visual-basic-scripting-edition.md).
+The JSQuery.js script of the [SQuery Sample](squery-sample.md) executes a query that is embedded in the script. The query produces a parent, chaptered recordset (which represents a [hierarchical rowset](https://msdn.microsoft.com/windows/desktop/1844d85b-5197-4824-a254-9b3d63c421c2)) that contains selected columns forming a child chapter. The JSQuery.js script is a translation of the VBScript.vbs script into the JScript language. For a discussion of the VBScript version, see [Creating a Query in Visual Basic Scripting Edition](creating-a-query-in-visual-basic-scripting-edition.md).
 
 The following list divides the sample script into segments and shows the structure of the complete script. The individual topic for each segment describes the details of the code for that segment.
 

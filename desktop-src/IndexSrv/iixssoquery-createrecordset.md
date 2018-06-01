@@ -46,7 +46,7 @@ HRESULT CreateRecordset(
 *pwszSequential* \[in\]
 </dt> <dd>
 
-Either "sequential" or "nonsequential" to create an [**IRowset**](b14147c4-8b03-49c6-ab5d-00186643a6b4) (sequential) or an [**IRowsetScroll**](3319b1ef-736c-41da-a09b-aaf9e239b69c) (nonsequential) recordset.
+Either "sequential" or "nonsequential" to create an [**IRowset**](https://msdn.microsoft.com/windows/desktop/b14147c4-8b03-49c6-ab5d-00186643a6b4) (sequential) or an [**IRowsetScroll**](https://msdn.microsoft.com/windows/desktop/3319b1ef-736c-41da-a09b-aaf9e239b69c) (nonsequential) recordset.
 
 </dd> <dt>
 

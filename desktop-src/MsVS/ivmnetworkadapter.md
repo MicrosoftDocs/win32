@@ -47,7 +47,7 @@ The following procedures explain how to use the **IVMNetworkAdapter** interface.
 
 ## Members
 
-The **IVMNetworkAdapter** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMNetworkAdapter** also has these types of members:
+The **IVMNetworkAdapter** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMNetworkAdapter** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -105,7 +105,7 @@ The default Ethernet address for a network interface is "00-00-00-00-00-00", whi
 
 <dl> <dt>
 
-[**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> <dt>
 
 [Virtual Server Interfaces](interfaces.md)

@@ -119,7 +119,7 @@ if ( SUCCEEDED( hr ) )
 
 <dl> <dt>
 
-[**IRowsetInfo**](edc17ecf-242b-4910-8da1-7251fd8fc3c8)
+[**IRowsetInfo**](https://msdn.microsoft.com/windows/desktop/edc17ecf-242b-4910-8da1-7251fd8fc3c8)
 </dt> <dt>
 
 [DBPROPSET\_MSIDXS\_ROWSETEXT](dbpropset-msidxs-rowsetext.md)

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
-The VBSQuery.vbs script of the [SQuery Sample](squery-sample.md) executes a query that is embedded in the script. The query produces a parent, chaptered Recordset object (which represents a [hierarchical rowset](1844d85b-5197-4824-a254-9b3d63c421c2)) with selected columns forming a child chapter. This script is also translated into the JScript language. For a discussion of the JScript version, see [Creating a Query in JScript](creating-a-query-in-jscript.md).
+The VBSQuery.vbs script of the [SQuery Sample](squery-sample.md) executes a query that is embedded in the script. The query produces a parent, chaptered Recordset object (which represents a [hierarchical rowset](https://msdn.microsoft.com/windows/desktop/1844d85b-5197-4824-a254-9b3d63c421c2)) with selected columns forming a child chapter. This script is also translated into the JScript language. For a discussion of the JScript version, see [Creating a Query in JScript](creating-a-query-in-jscript.md).
 
 The following list divides the sample script into segments and shows the structure of the complete script. The individual topic for each segment describes the details of the code for that segment.
 

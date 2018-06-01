@@ -81,7 +81,7 @@ You should not implement this class. The Microsoft standard implementation provi
 
 ### To create a FaxStatus object
 
-1.  Call the Visual Basic [**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) function to create a [**FaxServer**](-mfax-faxserver-object-visual-basic-.md) object.
+1.  Call the Visual Basic [**CreateObject**](https://msdn.microsoft.com/windows/desktop/ec11fd03-b420-412f-b25a-057f877cefbc) function to create a [**FaxServer**](-mfax-faxserver-object-visual-basic-.md) object.
 2.  Call the [**GetPorts**](-mfax-ifaxserver-getports-vb.md) method of the [**FaxServer**](-mfax-faxserver-object-visual-basic-.md) object to create a [**FaxPorts**](-mfax-faxports-object-visual-basic-.md) object for the connected fax server.
 3.  Retrieve the [**Count**](/previous-versions/windows/desktop/api/Faxcom/nf-faxcom-ifaxports-get_count) property and then the [**Item**](/previous-versions/windows/desktop/api/Faxcom/nf-faxcom-ifaxports-get_item) property for the [**FaxPorts**](-mfax-faxports-object-visual-basic-.md) collection to create a [**FaxPort**](-mfax-faxport-object-visual-basic-.md) object.
 4.  Call the [**GetStatus**](-mfax-ifaxport-getstatus-vb.md) method of the [**FaxPort**](-mfax-faxport-object-visual-basic-.md) object to create a **FaxStatus** object.

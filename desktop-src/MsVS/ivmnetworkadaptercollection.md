@@ -26,7 +26,7 @@ The **IVMNetworkAdapterCollection** interface defines a collection of [**IVMNetw
 
 ## Members
 
-The **IVMNetworkAdapterCollection** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMNetworkAdapterCollection** also has these types of members:
+The **IVMNetworkAdapterCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMNetworkAdapterCollection** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -38,7 +38,7 @@ The **IVMNetworkAdapterCollection** interface has these properties.
 
 | Property                                                             | Access type          | Description                                                                                                                  |
 |:---------------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](ivmnetworkadaptercollection--newenum.md)<br/> | Read-only<br/> | An [**IEnumVariant**](139e3c93-faef-4003-9079-e0e94494db3e) enumerator for the collection<br/>                         |
+| [**\_NewEnum**](ivmnetworkadaptercollection--newenum.md)<br/> | Read-only<br/> | An [**IEnumVariant**](https://msdn.microsoft.com/windows/desktop/139e3c93-faef-4003-9079-e0e94494db3e) enumerator for the collection<br/>                         |
 | [**Count**](ivmnetworkadaptercollection-count.md)<br/>        | Read-only<br/> | The number of network interfaces in the collection.<br/>                                                               |
 | [**Item**](ivmnetworkadaptercollection-item.md)<br/>          | Read-only<br/> | The [**IVMNetworkAdapter**](ivmnetworkadapter.md) object that corresponds to the given index in this collection.<br/> |
 

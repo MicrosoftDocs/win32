@@ -31,7 +31,7 @@ DBGUID_ACCESSSQL   // Reserved for future use.
 
 ### Remarks
 
-To determine which dialects a provider supports, call [**IDBProperties::GetProperties**](5011f2ab-2131-49ed-bd8c-afd3b0daa32a) for the DBPROP\_SQLDIALECTS property. (For more information on using the **IDBProperties** interface, see the [OLE DB Programmer's Reference](3c5e2dd5-35e5-4a93-ac3a-3818bb43bbf8) in the Platform SDK.)
+To determine which dialects a provider supports, call [**IDBProperties::GetProperties**](https://msdn.microsoft.com/windows/desktop/5011f2ab-2131-49ed-bd8c-afd3b0daa32a) for the DBPROP\_SQLDIALECTS property. (For more information on using the **IDBProperties** interface, see the [OLE DB Programmer's Reference](https://msdn.microsoft.com/windows/desktop/3c5e2dd5-35e5-4a93-ac3a-3818bb43bbf8) in the Platform SDK.)
 
  
 

@@ -59,7 +59,7 @@ The **FaxTiff** object has these properties.
 
 You should not implement this class. The Microsoft standard implementation provides complete functionality. You can use the Microsoft Visual Basic Object Browser to view the **FaxTiff** object's type library information in Visual Basic syntax.
 
-To create a **FaxTiff** object, call the Visual Basic [**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) function as illustrated in the following sample:
+To create a **FaxTiff** object, call the Visual Basic [**CreateObject**](https://msdn.microsoft.com/windows/desktop/ec11fd03-b420-412f-b25a-057f877cefbc) function as illustrated in the following sample:
 
 
 ```

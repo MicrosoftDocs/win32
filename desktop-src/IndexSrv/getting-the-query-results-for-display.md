@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The following code segments from the **IssueQuery** function of the sample get the results of the query for subsequent display. The function first declares an [**IAccessor**](a39058b6-ecfa-418b-80a3-66eea4a7bf89) interface and uses the [**QueryInterface**](_com_iunknown_queryinterface) method of the [**IRowset**](b14147c4-8b03-49c6-ab5d-00186643a6b4) interface to get a pointer to an **IAccessor** interface for the query's rowset.
+The following code segments from the **IssueQuery** function of the sample get the results of the query for subsequent display. The function first declares an [**IAccessor**](https://msdn.microsoft.com/windows/desktop/a39058b6-ecfa-418b-80a3-66eea4a7bf89) interface and uses the [**QueryInterface**](_com_iunknown_queryinterface) method of the [**IRowset**](https://msdn.microsoft.com/windows/desktop/b14147c4-8b03-49c6-ab5d-00186643a6b4) interface to get a pointer to an **IAccessor** interface for the query's rowset.
 
 
 ```C++
@@ -29,7 +29,7 @@ The following code segments from the **IssueQuery** function of the sample get t
 
 
 
-After determining the number of columns in the result and binding each column with the appropriate buffer information, the function declares a handle to an accessor and uses the [**CreateAccessor**](b08e24a3-e732-431d-8972-ec37961ca5d2) method of the [**IAccessor**](a39058b6-ecfa-418b-80a3-66eea4a7bf89) interface to create the accessor from the bindings.
+After determining the number of columns in the result and binding each column with the appropriate buffer information, the function declares a handle to an accessor and uses the [**CreateAccessor**](https://msdn.microsoft.com/windows/desktop/b08e24a3-e732-431d-8972-ec37961ca5d2) method of the [**IAccessor**](https://msdn.microsoft.com/windows/desktop/a39058b6-ecfa-418b-80a3-66eea4a7bf89) interface to create the accessor from the bindings.
 
 
 ```C++
@@ -46,7 +46,7 @@ After determining the number of columns in the result and binding each column wi
 
 
 
-The function finally uses the [**GetData**](896745d0-52c4-4b27-a929-408787cca005) method of the [**IRowset**](b14147c4-8b03-49c6-ab5d-00186643a6b4) interface to get the data for subsequent display.
+The function finally uses the [**GetData**](https://msdn.microsoft.com/windows/desktop/896745d0-52c4-4b27-a929-408787cca005) method of the [**IRowset**](https://msdn.microsoft.com/windows/desktop/b14147c4-8b03-49c6-ab5d-00186643a6b4) interface to get the data for subsequent display.
 
 
 ```C++

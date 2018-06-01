@@ -31,7 +31,7 @@ FaxPort.GetRoutingMethods( _
 *retVal* \[out\]
 </dt> <dd>
 
-Type: **[IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)\***
+Type: **[IDispatch](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)\***
 
 Retrieves a [FaxRoutingMethods](-mfax-faxroutingmethods.md) object.
 
@@ -39,7 +39,7 @@ Retrieves a [FaxRoutingMethods](-mfax-faxroutingmethods.md) object.
 
 ## Remarks
 
-The **GetRoutingMethods** interface method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxRoutingMethods](-mfax-faxroutingmethods.md) object. This object is derived from the [FaxPort](-mfax-faxport.md) object specified by the [**IFaxPorts**](/previous-versions/windows/desktop/api/Faxcom/nn-faxcom-ifaxports) interface.
+The **GetRoutingMethods** interface method retrieves an [IDispatch](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxRoutingMethods](-mfax-faxroutingmethods.md) object. This object is derived from the [FaxPort](-mfax-faxport.md) object specified by the [**IFaxPorts**](/previous-versions/windows/desktop/api/Faxcom/nn-faxcom-ifaxports) interface.
 
 A fax client application can access the [**IFaxRoutingMethods**](/previous-versions/windows/desktop/api/Faxcom/nn-faxcom-ifaxroutingmethods) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an interface pointer.
 

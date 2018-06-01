@@ -96,7 +96,7 @@ You should not implement this class. The Microsoft standard implementation provi
 
 ### To create a FaxDoc object
 
-1.  Call the Visual Basic [**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) function to create a [**FaxServer object**](-mfax-faxserver-object-visual-basic-.md).
+1.  Call the Visual Basic [**CreateObject**](https://msdn.microsoft.com/windows/desktop/ec11fd03-b420-412f-b25a-057f877cefbc) function to create a [**FaxServer object**](-mfax-faxserver-object-visual-basic-.md).
 2.  Call the [**CreateDocument**](-mfax-ifaxserver-createdocument-vb.md) method of the [**FaxServer**](-mfax-faxserver-object-visual-basic-.md) object to create a **FaxDoc** object.
 
 ## Requirements

@@ -30,7 +30,7 @@ Use the **IVMTask2** interface to monitor and control asynchronous tasks for COM
 
 ## Members
 
-The **IVMTask2** interface inherits from [**IVMTask**](ivmtask.md) and [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5). **IVMTask2** also has these types of members:
+The **IVMTask2** interface inherits from [**IVMTask**](ivmtask.md) and [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5). **IVMTask2** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

@@ -36,7 +36,7 @@ If the fax server allows user-defined TSID strings, the service will transmit th
 
 The TSID is typically the fax number of the device sending the transmission. Note that the T.30 specification of the International Telecommunication Union (ITU) restricts the value of a TSID to 20 ASCII characters. If a fax client application specifies a TSID that contains non-ASCII characters, the fax service removes them. If the TSID exceeds 20 characters, the service truncates the extra characters.
 
-The **get\_Tsid** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
+The **get\_Tsid** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
 
 ## Requirements
 
@@ -70,7 +70,7 @@ The **get\_Tsid** method allocates the memory required for the buffer pointed to
 [**UseDeviceTsid**](-mfax-ifaxserver-get-usedevicetsid-vb.md)
 </dt> <dt>
 
-[SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)
+[SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)
 </dt> </dl>
 
  

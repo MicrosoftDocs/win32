@@ -29,7 +29,7 @@ The following steps summarize typical programming tasks required to incorporate 
 
 5.  After creating an instance of a [FaxDoc](-mfax-faxdoc.md) object, transmit a fax document by calling the [**IFaxDoc::Send**](/previous-versions/windows/desktop/api/Faxcom/) interface method. Note that the application must supply transmission information such as the fax number and the name of the file to transmit. The client can also supply other data that appears on the cover page by setting various properties of the FaxDoc object. For more information, see [Transmitting Faxes](-mfax-transmitting-faxes.md).
 
-6.  Call the [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function when appropriate to deallocate the resources allocated by all interface methods that end with **get\_PropertyName**. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
+6.  Call the [SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function when appropriate to deallocate the resources allocated by all interface methods that end with **get\_PropertyName**. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
 
 7.  Call the [**IFaxServer::Disconnect**](/previous-versions/windows/desktop/api/faxcomex/) interface method to terminate the connection to the fax server. Then call the [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509.aspx)::[IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317.aspx) method to allow the [**FaxServer**](-mfax-faxserver.md) object to deallocate itself. For more information, see [Disconnecting from a Fax Server](-mfax-disconnecting-from-a-fax-server.md).
 

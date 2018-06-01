@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The OLE DB Provider for Indexing Service supports the standard OLE DB properties in the following table. The provider does not support other OLE DB properties. For a complete description of these properties, refer to the [OLE DB Programmer's Reference](3c5e2dd5-35e5-4a93-ac3a-3818bb43bbf8).
+The OLE DB Provider for Indexing Service supports the standard OLE DB properties in the following table. The provider does not support other OLE DB properties. For a complete description of these properties, refer to the [OLE DB Programmer's Reference](https://msdn.microsoft.com/windows/desktop/3c5e2dd5-35e5-4a93-ac3a-3818bb43bbf8).
 
 
 

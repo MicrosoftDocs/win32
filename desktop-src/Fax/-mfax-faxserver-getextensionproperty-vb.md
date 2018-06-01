@@ -43,7 +43,7 @@ Specifies a string GUID that uniquely identifies the data to be retrieved.
 
 Type: **Variant\***
 
-[VARIANT](e305240e-9e11-4006-98cc-26f4932d2118) that specifies the data.
+[VARIANT](https://msdn.microsoft.com/windows/desktop/e305240e-9e11-4006-98cc-26f4932d2118) that specifies the data.
 
 </dd> </dl>
 

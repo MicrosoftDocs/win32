@@ -26,7 +26,7 @@ Manages the indexing service itself, including the collection of catalogs that i
 
 ## Members
 
-The **IAdminIndexServer** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IAdminIndexServer** also has these types of members:
+The **IAdminIndexServer** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IAdminIndexServer** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

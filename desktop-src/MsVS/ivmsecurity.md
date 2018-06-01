@@ -26,7 +26,7 @@ The **IVMSecurity** interface manipulates the access rights of an object in Virt
 
 ## Members
 
-The **IVMSecurity** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMSecurity** also has these types of members:
+The **IVMSecurity** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMSecurity** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -133,7 +133,7 @@ Dim vsApp
 
 <dl> <dt>
 
-[**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
  

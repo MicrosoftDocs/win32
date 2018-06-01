@@ -32,7 +32,7 @@ A **String** that receives the user-friendly name to associate with the fax port
 
 Note that it is possible for multiple fax ports to have the same user-friendly name. You can use the [**DeviceId**](-mfax-ifaxstatus-get-deviceid-vb.md) property of a [FaxStatus](-mfax-faxstatus.md) object to uniquely identify a fax port, and associate a FaxStatus object with a [FaxPort](-mfax-faxport.md) object.
 
-The **IFaxStatus::get\_DeviceName** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
+The **IFaxStatus::get\_DeviceName** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
 
 ## Requirements
 
@@ -72,7 +72,7 @@ The **IFaxStatus::get\_DeviceName** method allocates the memory required for the
 [**IFaxPort**](/previous-versions/windows/desktop/api/Faxcom/nn-faxcom-ifaxport)
 </dt> <dt>
 
-[SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)
+[SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)
 </dt> </dl>
 
  

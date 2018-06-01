@@ -35,7 +35,7 @@ A **String** that specifies or receives the MAPI user profile that the fax serve
 
  
 
-The **IFaxServer::get\_ServerMapiProfile** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter.
+The **IFaxServer::get\_ServerMapiProfile** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter.
 
 ## Requirements
 
@@ -66,7 +66,7 @@ The **IFaxServer::get\_ServerMapiProfile** method allocates the memory required 
 [FaxServer](-mfax-faxserver-client.md)
 </dt> <dt>
 
-[SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)
+[SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)
 </dt> </dl>
 
  

@@ -16,9 +16,9 @@ ms.date: 05/31/2018
 
  
 
-Indexing Service defines a number of properties for use with the [**ICommand**](089427ad-5ba3-4613-b89e-8e86420ccc30) interface that can be used to customize queries. These properties are specific to Indexing Service and might not apply to other OLE DB providers.
+Indexing Service defines a number of properties for use with the [**ICommand**](https://msdn.microsoft.com/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30) interface that can be used to customize queries. These properties are specific to Indexing Service and might not apply to other OLE DB providers.
 
-These extended properties are set using OLE DB's [**ICommandProperties**](cfda4b13-b99f-4b66-ad2b-bd9584c8b3ef) interface. The properties must be set before a query is executed to have an effect on the query.
+These extended properties are set using OLE DB's [**ICommandProperties**](https://msdn.microsoft.com/windows/desktop/cfda4b13-b99f-4b66-ad2b-bd9584c8b3ef) interface. The properties must be set before a query is executed to have an effect on the query.
 
 This section describes the following properties.
 

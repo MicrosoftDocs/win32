@@ -26,7 +26,7 @@ The **IVMGuestOS2** interface extends the [**IVMGuestOS**](ivmguestos.md) interf
 
 ## Members
 
-The **IVMGuestOS2** interface inherits from [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) and [**IVMGuestOS**](ivmguestos.md). **IVMGuestOS2** also has these types of members:
+The **IVMGuestOS2** interface inherits from [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) and [**IVMGuestOS**](ivmguestos.md). **IVMGuestOS2** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -84,7 +84,7 @@ The **IVMGuestOS2** interface has these properties.
 
 <dl> <dt>
 
-[**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> <dt>
 
 [Virtual Server Interfaces](interfaces.md)

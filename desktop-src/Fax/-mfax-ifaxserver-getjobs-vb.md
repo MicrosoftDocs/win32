@@ -33,13 +33,13 @@ FaxServer.GetJobs( _
 
 Type: **Variant\***
 
-Pointer to a [VARIANT](e305240e-9e11-4006-98cc-26f4932d2118) structure that receives an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxJobs](-mfax-faxjobs.md) object. The method returns a pdispVal member with a VT\_DISPATCH data type.
+Pointer to a [VARIANT](https://msdn.microsoft.com/windows/desktop/e305240e-9e11-4006-98cc-26f4932d2118) structure that receives an [IDispatch](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxJobs](-mfax-faxjobs.md) object. The method returns a pdispVal member with a VT\_DISPATCH data type.
 
 </dd> </dl>
 
 ## Remarks
 
-The **GetJobs** method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxJobs](-mfax-faxjobs.md) object. A fax client application can also access the [**IFaxJobs**](/previous-versions/windows/desktop/api/Faxcom/nn-faxcom-ifaxjobs) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an interface pointer.
+The **GetJobs** method retrieves an [IDispatch](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxJobs](-mfax-faxjobs.md) object. A fax client application can also access the [**IFaxJobs**](/previous-versions/windows/desktop/api/Faxcom/nn-faxcom-ifaxjobs) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an interface pointer.
 
 A fax client application should not call the [CoCreateInstance](http://msdn.microsoft.com/en-us/library/ms686615.aspx) function to retrieve an [**IFaxJobs**](/previous-versions/windows/desktop/api/Faxcom/nn-faxcom-ifaxjobs) interface pointer because it will not be instantiated correctly.
 

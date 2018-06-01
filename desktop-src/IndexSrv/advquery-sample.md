@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
-AdvQuery is an example of a command-line application written in C++ that executes a query using OLE DB Provider interfaces such as [**ICommand**](089427ad-5ba3-4613-b89e-8e86420ccc30) and [**ICommandTree**](/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree). It shows how to specify a catalog, machine name, and scope. It can also display the OLE DB command tree for the query.
+AdvQuery is an example of a command-line application written in C++ that executes a query using OLE DB Provider interfaces such as [**ICommand**](https://msdn.microsoft.com/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30) and [**ICommandTree**](/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree). It shows how to specify a catalog, machine name, and scope. It can also display the OLE DB command tree for the query.
 
 Source: mssdk\\samples\\winbase\\indexing\\AdvQuery\\
 

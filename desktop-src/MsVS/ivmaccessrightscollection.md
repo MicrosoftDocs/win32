@@ -26,7 +26,7 @@ The **IVMAccessRightsCollection** interface defines the collection of access con
 
 ## Members
 
-The **IVMAccessRightsCollection** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMAccessRightsCollection** also has these types of members:
+The **IVMAccessRightsCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMAccessRightsCollection** also has these types of members:
 
 -   [Properties](#properties)
 

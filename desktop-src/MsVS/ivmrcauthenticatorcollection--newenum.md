@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 
 # IVMRCAuthenticatorCollection::\_NewEnum property
 
-The **\_NewEnum** property contains an [**IEnumVariant**](139e3c93-faef-4003-9079-e0e94494db3e) enumerator for the collection.
+The **\_NewEnum** property contains an [**IEnumVariant**](https://msdn.microsoft.com/windows/desktop/139e3c93-faef-4003-9079-e0e94494db3e) enumerator for the collection.
 
 This property is read-only.
 

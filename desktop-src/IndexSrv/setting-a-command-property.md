@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The following example demonstrates how to set an OLE DB property for the [**ICommand**](089427ad-5ba3-4613-b89e-8e86420ccc30) interface. The example declares the **SetUseContentIndex** function, which sets Indexing Service's [**DBPROP\_USECONTENTINDEX**](dbprop-usecontentindex.md) property to VARIANT\_TRUE.
+The following example demonstrates how to set an OLE DB property for the [**ICommand**](https://msdn.microsoft.com/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30) interface. The example declares the **SetUseContentIndex** function, which sets Indexing Service's [**DBPROP\_USECONTENTINDEX**](dbprop-usecontentindex.md) property to VARIANT\_TRUE.
 
 
 ```

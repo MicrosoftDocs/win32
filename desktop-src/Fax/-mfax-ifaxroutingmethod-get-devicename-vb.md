@@ -32,7 +32,7 @@ A **String** that receives the user-friendly name for the fax port associated wi
 
 Note that it is possible for multiple fax ports to have the same user-friendly name. You can use the [**DeviceId**](-mfax-ifaxroutingmethod-get-deviceid-vb.md) property to uniquely identify a fax port.
 
-**DeviceName** allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
+**DeviceName** allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
 
 ## Requirements
 

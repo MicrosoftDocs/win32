@@ -63,7 +63,7 @@ String that specifies the full path and file name for the fax routing extension 
 
 Type: **Variant**
 
-[VARIANT](e305240e-9e11-4006-98cc-26f4932d2118) that specifies a safearray of **String**s. The array must be unidimensional, it cannot be empty, and it must have a lower limit of zero. Each item (string) in the array must identify a routing method. The string must have the following format: Method name; Friendly name; Function Name; Method GUID
+[VARIANT](https://msdn.microsoft.com/windows/desktop/e305240e-9e11-4006-98cc-26f4932d2118) that specifies a safearray of **String**s. The array must be unidimensional, it cannot be empty, and it must have a lower limit of zero. Each item (string) in the array must identify a routing method. The string must have the following format: Method name; Friendly name; Function Name; Method GUID
 
 </dd> </dl>
 

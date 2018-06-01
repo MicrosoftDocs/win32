@@ -32,7 +32,7 @@ A **String** that specifies or receives the fully qualified path of the director
 
 Set the [**ArchiveOutboundFaxes**](-mfax-ifaxserver-get-archiveoutboundfaxes-vb.md) property to **True** to archive faxes in the directory specified by the **ArchiveDirectory** property. The fax server must have access to the directory to successfully store outbound fax transmissions.
 
-The **get\_ArchiveDirectory** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
+The **get\_ArchiveDirectory** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
 
 ## Requirements
 

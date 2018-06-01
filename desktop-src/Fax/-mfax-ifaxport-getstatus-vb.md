@@ -31,7 +31,7 @@ FaxPort.GetStatus( _
 *retVal* \[out\]
 </dt> <dd>
 
-Type: **[IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)\***
+Type: **[IDispatch](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)\***
 
 Retrieves a [FaxStatus](-mfax-faxstatus.md) object.
 
@@ -39,7 +39,7 @@ Retrieves a [FaxStatus](-mfax-faxstatus.md) object.
 
 ## Remarks
 
-The **GetStatus** method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxStatus](-mfax-faxstatus.md) object. A fax client application can also access the [**IFaxStatus**](/previous-versions/windows/desktop/api/Faxcom/nn-faxcom-ifaxstatus) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an **IFaxStatus** interface pointer.
+The **GetStatus** method retrieves an [IDispatch](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxStatus](-mfax-faxstatus.md) object. A fax client application can also access the [**IFaxStatus**](/previous-versions/windows/desktop/api/Faxcom/nn-faxcom-ifaxstatus) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an **IFaxStatus** interface pointer.
 
 ## Requirements
 

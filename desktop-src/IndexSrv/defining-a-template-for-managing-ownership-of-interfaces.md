@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The following code segment defines a template to aid in the management of interface ownership. The sample uses this template with the [ICommand](089427ad-5ba3-4613-b89e-8e86420ccc30), [ICommandTree](/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree), [IRowset](b14147c4-8b03-49c6-ab5d-00186643a6b4), [IAccessor](a39058b6-ecfa-418b-80a3-66eea4a7bf89), and other interfaces.
+The following code segment defines a template to aid in the management of interface ownership. The sample uses this template with the [ICommand](https://msdn.microsoft.com/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30), [ICommandTree](/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree), [IRowset](https://msdn.microsoft.com/windows/desktop/b14147c4-8b03-49c6-ab5d-00186643a6b4), [IAccessor](https://msdn.microsoft.com/windows/desktop/a39058b6-ecfa-418b-80a3-66eea4a7bf89), and other interfaces.
 
 
 ```C++

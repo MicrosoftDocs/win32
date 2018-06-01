@@ -30,7 +30,7 @@ Use the **IVMDisplay** interface to access and manipulate the display settings o
 
 ## Members
 
-The **IVMDisplay** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMDisplay** also has these types of members:
+The **IVMDisplay** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMDisplay** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -83,7 +83,7 @@ The **IVMDisplay** interface has these properties.
 
 <dl> <dt>
 
-[**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
  

@@ -15,7 +15,7 @@ The following steps summarize typical programming tasks required to incorporate 
 
 ## To code a fax client application
 
-1.  Create an instance of a [**FaxServer**](-mfax-faxserver.md) object by calling the Visual Basic [**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) function. Then connect to an active fax server by calling the [**Connect**](/previous-versions/windows/desktop/api/FaxComex/nf-faxcomex-ifaxserver-connect) method of the object. For more information, see [Connecting to a Fax Server](-mfax-connecting-to-a-fax-server.md).
+1.  Create an instance of a [**FaxServer**](-mfax-faxserver.md) object by calling the Visual Basic [**CreateObject**](https://msdn.microsoft.com/windows/desktop/ec11fd03-b420-412f-b25a-057f877cefbc) function. Then connect to an active fax server by calling the [**Connect**](/previous-versions/windows/desktop/api/FaxComex/nf-faxcomex-ifaxserver-connect) method of the object. For more information, see [Connecting to a Fax Server](-mfax-connecting-to-a-fax-server.md).
 
 2.  To create other objects you need, call one or more of the following methods of the [**FaxServer**](-mfax-faxserver.md) object.
 

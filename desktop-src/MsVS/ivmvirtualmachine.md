@@ -26,7 +26,7 @@ The **IVMVirtualMachine** interface defines the interface for a virtual machine.
 
 ## Members
 
-The **IVMVirtualMachine** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMVirtualMachine** also has these types of members:
+The **IVMVirtualMachine** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMVirtualMachine** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

@@ -26,7 +26,7 @@ The **IVMHardDiskConnection** interface defines the connection for a hard disk w
 
 ## Members
 
-The **IVMHardDiskConnection** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMHardDiskConnection** also has these types of members:
+The **IVMHardDiskConnection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMHardDiskConnection** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -79,7 +79,7 @@ The **IVMHardDiskConnection** interface has these properties.
 
 <dl> <dt>
 
-[**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
  

@@ -24,7 +24,7 @@ For more information about creating an instance of a FaxTiff object, and for a l
 
 ## Visual Basic
 
-Create by calling the Microsoft Visual Basic [**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) function.
+Create by calling the Microsoft Visual Basic [**CreateObject**](https://msdn.microsoft.com/windows/desktop/ec11fd03-b420-412f-b25a-057f877cefbc) function.
 
 For more information about creating a FaxTiff object, and for a list of the properties and methods of the object, see [**FaxTiff object (Visual Basic)**](-mfax-faxtiff-object-visual-basic-.md).
 

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
  
 
-The DBPROPSET\_MSIDXS\_ROWSETEXT property set extends properties defined for the OLE DB [**Rowset**](3d41e965-292d-405d-a67c-9278f64f97aa) object.
+The DBPROPSET\_MSIDXS\_ROWSETEXT property set extends properties defined for the OLE DB [**Rowset**](https://msdn.microsoft.com/windows/desktop/3d41e965-292d-405d-a67c-9278f64f97aa) object.
 
 ``` syntax
 #define DBPROPSET_MSIDXS_ROWSETEXT \
@@ -60,7 +60,7 @@ Property ID 4. The query string associated with this rowset.
 [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md)
 </dt> <dt>
 
-[**Rowset**](3d41e965-292d-405d-a67c-9278f64f97aa)
+[**Rowset**](https://msdn.microsoft.com/windows/desktop/3d41e965-292d-405d-a67c-9278f64f97aa)
 </dt> </dl>
 
  

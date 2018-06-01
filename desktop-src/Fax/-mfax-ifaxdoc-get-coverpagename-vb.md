@@ -39,7 +39,7 @@ In addition, the [**ServerCoverpage**](-mfax-ifaxdoc-get-servercoverpage-vb.md) 
 
 You can call the [**ServerCoverpage**](-mfax-ifaxserver-get-servercoverpage-vb.md) method to determine whether the fax server is configured to permit personal cover pages.
 
-The **CoverpageName** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
+The **CoverpageName** method allocates the memory required for the buffer pointed to by the *pVal* parameter. The client application must call the [SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with this parameter. For more information, see [Freeing Fax Resources](-mfax-freeing-fax-resources.md).
 
 For more information, see [Cover Pages](-mfax-cover-pages.md) and [Sending a Cover Page](-mfax-sending-a-cover-page.md).
 
@@ -78,7 +78,7 @@ For more information, see [Cover Pages](-mfax-cover-pages.md) and [Sending a Cov
 [**ServerCoverpage**](-mfax-ifaxdoc-get-servercoverpage-vb.md)
 </dt> <dt>
 
-[SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)
+[SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)
 </dt> </dl>
 
  

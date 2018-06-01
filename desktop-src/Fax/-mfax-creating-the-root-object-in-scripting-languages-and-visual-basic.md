@@ -15,7 +15,7 @@ The code examples provided here demonstrate how to create a root object in scrip
 
 ## VBScript
 
-To create a root object in Microsoft Visual Basic Scripting Edition (VBScript), use the [**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) function.
+To create a root object in Microsoft Visual Basic Scripting Edition (VBScript), use the [**CreateObject**](https://msdn.microsoft.com/windows/desktop/ec11fd03-b420-412f-b25a-057f877cefbc) function.
 
 
 ```
@@ -93,7 +93,7 @@ Set objFaxDocument = New FAXCOMEXLib.FaxDocument
 
 
 
-[**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) is also available to Visual Basic programmers and so, alternatively, the following can be used.
+[**CreateObject**](https://msdn.microsoft.com/windows/desktop/ec11fd03-b420-412f-b25a-057f877cefbc) is also available to Visual Basic programmers and so, alternatively, the following can be used.
 
 
 ```

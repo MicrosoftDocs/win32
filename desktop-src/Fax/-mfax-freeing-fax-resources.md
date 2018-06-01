@@ -21,7 +21,7 @@ Data should not be referenced if an application has dereferenced it by calling t
 
 ## In the COM Implementation Environment
 
-If you are writing a C/C++ application, you must call the [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with the buffer pointed to by all pVal parameters. This is because all property methods that retrieve properties (those that end with get\_*PropertyName*) allocate the memory required for the buffer.
+If you are writing a C/C++ application, you must call the [SysFreeString](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) function to deallocate the resources associated with the buffer pointed to by all pVal parameters. This is because all property methods that retrieve properties (those that end with get\_*PropertyName*) allocate the memory required for the buffer.
 
 For more information about creating and deallocating fax client objects, see the steps listed with each interface topic and the hierarchical diagram in [The Fax Client Object Model](-mfax-the-fax-client-object-model.md).
 

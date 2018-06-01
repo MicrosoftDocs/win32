@@ -26,7 +26,7 @@ Manages a scope definition for a catalog within Indexing Service. Use scope obje
 
 ## Members
 
-The **IScopeAdm** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IScopeAdm** also has these types of members:
+The **IScopeAdm** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IScopeAdm** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

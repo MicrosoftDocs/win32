@@ -31,7 +31,7 @@ All other Virtual Server interface objects are retrieved through this object. **
 
 ## Members
 
-The **IVMVirtualServer** interface inherits from the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMVirtualServer** also has these types of members:
+The **IVMVirtualServer** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMVirtualServer** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

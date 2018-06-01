@@ -77,7 +77,7 @@ You should not implement this class. The Microsoft standard implementation provi
 
 ### To create a FaxJob object
 
-1.  Call the Visual Basic [**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) function to create a [**FaxServer object**](-mfax-faxserver-object-visual-basic-.md).
+1.  Call the Visual Basic [**CreateObject**](https://msdn.microsoft.com/windows/desktop/ec11fd03-b420-412f-b25a-057f877cefbc) function to create a [**FaxServer object**](-mfax-faxserver-object-visual-basic-.md).
 2.  Call the [**GetJobs**](-mfax-ifaxserver-getjobs-vb.md) method of the [**FaxServer**](-mfax-faxserver-object-visual-basic-.md) object to create a [**FaxJobs object**](-mfax-faxjobs-object-visual-basic-.md) on the connected fax server.
 3.  Retrieve the [**Count**](/previous-versions/windows/desktop/api/Faxcom/nf-faxcom-ifaxjobs-get_count) property and then the [**Item**](/previous-versions/windows/desktop/api/Faxcom/nf-faxcom-ifaxjobs-get_item) property for the [**FaxJobs**](-mfax-faxjobs-object-visual-basic-.md) collection to create a **FaxJob** object.
 
