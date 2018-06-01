@@ -1,21 +1,7 @@
 ---
-title: IixssoQuery Columns property
-description: Contains the list of case-insensitive column names used in formatting the query result set.
+Description: Contains the list of case-insensitive column names used in formatting the query result set.
 ms.assetid: 38a170d1-d078-4154-84f9-e9f2b77560b9
-keywords:
-- Columns property Indexing Service
-- Columns property Indexing Service , IixssoQuery interface
-- IixssoQuery interface Indexing Service , Columns property
-topic_type:
-- apiref
-api_name:
-- IixssoQuery.Columns
-- IixssoQuery.get_Columns
-- IixssoQuery.put_Columns
-api_location:
-- Ixsso.dll
-api_type:
-- COM
+title: IixssoQuery::Columns property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -25,7 +11,7 @@ ms.date: 05/31/2018
 
 # IixssoQuery::Columns property
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Contains the list of case-insensitive column names used in formatting the query result set.
 
@@ -36,11 +22,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Columns(
-  [in]          BSTR val
+  [in]          BSTR val
 );
 
 HRESULT get_Columns(
-  [out, retval] BSTR *val
+  [out, retval] BSTR *val
 );
 ```
 
@@ -69,10 +55,10 @@ objQuery.Columns = "DocAuthor, vpath, doctitle"
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -84,10 +70,9 @@ objQuery.Columns = "DocAuthor, vpath, doctitle"
 [**IixssoQuery**](iixssoquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

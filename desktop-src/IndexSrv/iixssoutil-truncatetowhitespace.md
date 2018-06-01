@@ -1,19 +1,7 @@
 ---
-title: IixssoUtil TruncateToWhitespace method
-description: Truncates a string at a white-space character. Script writers can call this method to display short forms of the value of long properties like the contents of the Description property without truncating in the middle of a word.
+Description: Truncates a string at a white-space character. Script writers can call this method to display short forms of the value of long properties like the contents of the Description property without truncating in the middle of a word.
 ms.assetid: 9f070c3d-1d72-4842-b893-2c3c6c17b494
-keywords:
-- TruncateToWhitespace method Indexing Service
-- TruncateToWhitespace method Indexing Service , IixssoUtil interface
-- IixssoUtil interface Indexing Service , TruncateToWhitespace method
-topic_type:
-- apiref
-api_name:
-- IixssoUtil.TruncateToWhitespace
-api_location:
-- Ixsso.dll
-api_type:
-- COM
+title: IixssoUtil::TruncateToWhitespace method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -23,7 +11,7 @@ ms.date: 05/31/2018
 
 # IixssoUtil::TruncateToWhitespace method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Truncates a string at a white-space character. Script writers can call this method to display short forms of the value of long properties like the contents of the Description property without truncating in the middle of a word.
 
@@ -32,9 +20,9 @@ Truncates a string at a white-space character. Script writers can call this meth
 
 ```C++
 HRESULT TruncateToWhitespace(
-  [in]          BSTR pwszString,
-  [in]          LONG cchLen,
-  [out, retval] BSTR *ppwszOutput
+  [in]          BSTR pwszString,
+  [in]          LONG cchLen,
+  [out, retval] BSTR *ppwszOutput
 );
 ```
 
@@ -79,10 +67,10 @@ The space checking of this method doesn't work well with NLS; however it works w
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -94,10 +82,9 @@ The space checking of this method doesn't work well with NLS; however it works w
 [**IixssoUtil**](iixssoutil.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

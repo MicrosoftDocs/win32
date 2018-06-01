@@ -1,7 +1,7 @@
 ---
-title: Alternate Word Forms
-description: Alternate Word Forms
+Description: Alternate Word Forms
 ms.assetid: 41b75168-0cd8-4066-998d-154a565cd408
+title: Alternate Word Forms
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -46,7 +46,6 @@ Some search engines may provide other forms of generation on words, such as deri
  
 
  
-
 
 
 

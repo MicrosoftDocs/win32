@@ -1,7 +1,7 @@
 ---
-title: Objects
-description: Indexing Service provides three categories of objects.
+Description: Indexing Service provides three categories of objects.
 ms.assetid: 434d8b9a-03a8-4e91-b6ff-c692f77b342d
+title: Objects
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Objects
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Indexing Service provides three categories of objects. The first two categories are used in scripting languages, such as Microsoft Visual Basic, Scripting Edition (VBScript) and Microsoft JScript, or any programming language that supports automation, to automate and manage Indexing Service. The third category of objects is used by language resources, such as word breakers and stemmers.
 
@@ -71,9 +71,9 @@ These objects are described in the following table.
 
 
 
-| Object name      | Interface                              | Description                       |
-|------------------|----------------------------------------|-----------------------------------|
-| **PhraseSink**   | [**IPhraseSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iphrasesink)     | Phrase sink used by word breakers |
+| Object name      | Interface                                   | Description                       |
+|------------------|---------------------------------------------|-----------------------------------|
+| **PhraseSink**   | [**IPhraseSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iphrasesink)          | Phrase sink used by word breakers |
 | **WordFormSink** | [**IWordFormSink**](https://www.bing.com/search?q=**IWordFormSink**) | Stem sink used by stemmers        |
 | **WordSink**     | [**IWordSink**](https://www.bing.com/search?q=**IWordSink**)iix      | Word sink used by word breakers   |
 
@@ -86,7 +86,6 @@ For an example of how these objects are used in querying and creating an index, 
  
 
  
-
 
 
 

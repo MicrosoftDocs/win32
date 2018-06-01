@@ -1,7 +1,7 @@
 ---
-title: ChgState Sample
-description: ChgState Sample
+Description: ChgState Sample
 ms.assetid: db0a624b-4788-42b2-aa38-569cfc1d3a9d
+title: ChgState Sample
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 # ChgState Sample
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 The ChgState example is a command-line application written in C++ that can either report the current state of a catalog or change the state of the catalog using the [**SetCatalogState**](/windows/desktop/api/Ntquery/nf-ntquery-setcatalogstate) function of the OLE DB Helper API.
 
@@ -44,7 +44,7 @@ Source: mssdk\\samples\\winbase\\indexing\\ChgState\\
 
     
 
-     
+     
 
 ## Programming Notes
 
@@ -79,10 +79,9 @@ Set the catalog CATALOGNAME on machine SERVERNAME to the Read-only state. (The c
 
 **chgstate /a:RO /c:CATALOGNAME /m:SERVERNAME**
 
- 
+ 
 
- 
-
+ 
 
 
 

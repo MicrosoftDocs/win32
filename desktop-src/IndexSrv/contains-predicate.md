@@ -1,7 +1,7 @@
 ---
-title: CONTAINS Predicate
-description: CONTAINS Predicate
+Description: CONTAINS Predicate
 ms.assetid: b7416c8f-3270-466a-89ac-32f7e30ccd48
+title: CONTAINS Predicate
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # CONTAINS Predicate
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -116,7 +116,7 @@ The **CONTAINS** predicate uses the following conventions when dealing with sing
 
 -   If a basic string literal with no spaces contains a single quote, use two single quotes to specify the single-quote character. For example:
     ```
-    'Phrase'Without'Spaces'
+    'Phrase''Without''Spaces'
     ```
 
     
@@ -479,7 +479,6 @@ The following example queries the Contents property for the words "railroad", "t
  
 
  
-
 
 
 

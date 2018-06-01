@@ -1,7 +1,7 @@
 ---
-title: Lists of Arguments
-description: Lists of Arguments
+Description: Lists of Arguments
 ms.assetid: 24c8cb0a-3a69-4d05-b571-fd77b688acb8
+title: Lists of Arguments
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Lists of Arguments
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -79,7 +79,6 @@ The anchor and an element in a list of columns for sorting. This list is differe
  
 
  
-
 
 
 

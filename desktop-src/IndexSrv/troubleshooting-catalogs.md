@@ -1,7 +1,7 @@
 ---
-title: Troubleshooting Catalogs
-description: Catalogs for removable media, including CD-ROMs, can be created by using the Microsoft Management Console (MMC) snap-in.
+Description: Catalogs for removable media, including CD-ROMs, can be created by using the Microsoft Management Console (MMC) snap-in.
 ms.assetid: 73c713f2-b8e7-45fc-888c-c9dceb82183e
+title: Troubleshooting Catalogs
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Troubleshooting Catalogs
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Catalogs for removable media, including CD-ROMs, can be created by using the Microsoft Management Console (MMC) snap-in. The catalogs can reside on the removable medium. When that medium is inserted into a computer running Indexing Service, the catalog is opened in read-only format for queries.
 
@@ -51,7 +51,6 @@ The symptoms are Indexing Service errors when removing a catalog, and the inabil
  
 
  
-
 
 
 

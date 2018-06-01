@@ -1,20 +1,7 @@
 ---
-title: ICatAdm FilteredDocumentCount property
-description: Contains the number of documents indexed since the last time Indexing Service was started.
+Description: Contains the number of documents indexed since the last time Indexing Service was started.
 ms.assetid: 8f36fb52-4263-427c-85ef-59bb10198ef4
-keywords:
-- FilteredDocumentCount property Indexing Service
-- FilteredDocumentCount property Indexing Service , ICatAdm interface
-- ICatAdm interface Indexing Service , FilteredDocumentCount property
-topic_type:
-- apiref
-api_name:
-- ICatAdm.FilteredDocumentCount
-- ICatAdm.get_FilteredDocumentCount
-api_location:
-- Ciodm.dll
-api_type:
-- COM
+title: ICatAdm::FilteredDocumentCount property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -24,7 +11,7 @@ ms.date: 05/31/2018
 
 # ICatAdm::FilteredDocumentCount property
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Contains the number of documents indexed since the last time Indexing Service was started.
 
@@ -35,7 +22,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_FilteredDocumentCount(
-  [out, retval] LONG *pVal
+  [out, retval] LONG *pVal
 );
 ```
 
@@ -55,10 +42,10 @@ Retrieving this property requires Indexing Service to be running. If it is not r
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -70,10 +57,9 @@ Retrieving this property requires Indexing Service to be running. If it is not r
 [**ICatAdm**](icatadm.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

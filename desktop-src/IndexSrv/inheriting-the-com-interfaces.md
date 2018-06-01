@@ -1,7 +1,7 @@
 ---
-title: Inheriting the COM Interfaces
-description: Inheriting the COM Interfaces
+Description: Inheriting the COM Interfaces
 ms.assetid: ab419547-87f8-41fe-a8f2-a538b835d8b5
+title: Inheriting the COM Interfaces
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Inheriting the COM Interfaces
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -23,7 +23,6 @@ The filter class can inherit one or more of the [IPersistFile](https://www.bing.
  
 
  
-
 
 
 

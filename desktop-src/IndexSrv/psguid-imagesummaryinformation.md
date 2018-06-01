@@ -1,9 +1,7 @@
 ---
-title: PSGUID\_IMAGESUMMARYINFORMATION
-description: PSGUID\_IMAGESUMMARYINFORMATION
+Description: PSGUID\_IMAGESUMMARYINFORMATION
 ms.assetid: 5ad7c1be-affa-4e6d-a4f4-eaa38041346e
-keywords:
-- PSGUID_IMAGESUMMARYINFORMATION
+title: PSGUID\_IMAGESUMMARYINFORMATION
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -14,7 +12,7 @@ ms.date: 05/31/2018
 # PSGUID\_IMAGESUMMARYINFORMATION
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -134,7 +132,6 @@ Property ID 0x0000000DL. Indicates the dimensions of the image.
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Dynamic ADO Properties
-description: Dynamic ADO Properties
+Description: Dynamic ADO Properties
 ms.assetid: 5881a894-0f05-4048-b405-60102bb8b2cd
+title: Dynamic ADO Properties
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Dynamic ADO Properties
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -25,7 +25,6 @@ OLE DB and the OLE DB Provider for Indexing Service provide a number of dynamic 
  
 
  
-
 
 
 

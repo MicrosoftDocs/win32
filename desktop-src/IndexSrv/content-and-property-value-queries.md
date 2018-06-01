@@ -1,7 +1,7 @@
 ---
-title: Content and Property-Value Queries
-description: Content and Property-Value Queries
+Description: Content and Property-Value Queries
 ms.assetid: c0b0bf19-4ae6-4df4-b457-6e6ea70f6999
+title: Content and Property-Value Queries
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Content and Property-Value Queries
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -23,7 +23,6 @@ Queries involving text-type properties or textual value-type properties are limi
  
 
  
-
 
 
 

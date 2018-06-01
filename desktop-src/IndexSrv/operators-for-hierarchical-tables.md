@@ -1,7 +1,7 @@
 ---
-title: Operators for Hierarchical Tables
-description: Operators for Hierarchical Tables
+Description: Operators for Hierarchical Tables
 ms.assetid: 15da90d7-8f9f-4a89-b385-9c91b72d9ac3
+title: Operators for Hierarchical Tables
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Operators for Hierarchical Tables
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -38,7 +38,6 @@ This operator has six inputs:
  
 
  
-
 
 
 

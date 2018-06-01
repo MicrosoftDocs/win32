@@ -1,7 +1,7 @@
 ---
-title: Programming Languages
-description: You can use a broad variety of programming languages when programming an Indexing Service task. Each language typically has more than one API to interface it to Indexing Service.
+Description: You can use a broad variety of programming languages when programming an Indexing Service task. Each language typically has more than one API to interface it to Indexing Service.
 ms.assetid: 2d5b46e6-33b2-41d3-8763-5e1df6ae3a5c
+title: Programming Languages
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Programming Languages
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 You can use a broad variety of programming languages when programming an Indexing Service task. Each language typically has more than one API to interface it to Indexing Service.
 
@@ -42,7 +42,6 @@ The following table lists the languages available from Microsoft and gives a bri
  
 
  
-
 
 
 

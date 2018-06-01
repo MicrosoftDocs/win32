@@ -1,7 +1,7 @@
 ---
-title: Bitwise-Comparison Operators
-description: Bitwise-Comparison Operators
+Description: Bitwise-Comparison Operators
 ms.assetid: 9343e7f6-67fd-422f-9364-bbdeabb2fb3a
+title: Bitwise-Comparison Operators
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Bitwise-Comparison Operators
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -47,7 +47,6 @@ The following table illustrates what happens with the comparison of two vectors 
  
 
  
-
 
 
 

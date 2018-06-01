@@ -1,7 +1,7 @@
 ---
-title: Starting an Incremental Rescan
-description: Starting an Incremental Rescan
+Description: Starting an Incremental Rescan
 ms.assetid: fe43fe60-4981-439b-b283-584c03aae379
+title: Starting an Incremental Rescan
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Starting an Incremental Rescan
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -38,7 +38,6 @@ End Sub
  
 
  
-
 
 
 

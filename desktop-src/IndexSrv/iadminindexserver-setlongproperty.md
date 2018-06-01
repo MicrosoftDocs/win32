@@ -1,19 +1,7 @@
 ---
-title: IAdminIndexServer SetLongProperty method
-description: Sets a content index registry value of type REG\_DWORD, as described in Registry Entries.
+Description: Sets a content index registry value of type REG\_DWORD, as described in Registry Entries.
 ms.assetid: 99912305-2523-43f5-87a3-6d9f1ac2a9e0
-keywords:
-- SetLongProperty method Indexing Service
-- SetLongProperty method Indexing Service , IAdminIndexServer interface
-- IAdminIndexServer interface Indexing Service , SetLongProperty method
-topic_type:
-- apiref
-api_name:
-- IAdminIndexServer.SetLongProperty
-api_location:
-- Ciodm.dll
-api_type:
-- COM
+title: IAdminIndexServer::SetLongProperty method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -23,7 +11,7 @@ ms.date: 05/31/2018
 
 # IAdminIndexServer::SetLongProperty method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Sets a content index registry value of type **REG\_DWORD**, as described in [Registry Entries](registry-entries.md).
 
@@ -32,8 +20,8 @@ Sets a content index registry value of type **REG\_DWORD**, as described in [Reg
 
 ```C++
 HRESULT SetLongProperty(
-  [in] BSTR bstrPropName,
-  [in] LONG lVal
+  [in] BSTR bstrPropName,
+  [in] LONG lVal
 );
 ```
 
@@ -82,10 +70,10 @@ objAdminIS.SetLongProperty( "FilterDirectories", 1)
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -97,10 +85,9 @@ objAdminIS.SetLongProperty( "FilterDirectories", 1)
 [**IAdminIndexServer**](iadminindexserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

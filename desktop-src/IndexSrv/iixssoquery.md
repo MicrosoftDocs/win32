@@ -1,25 +1,7 @@
 ---
-title: IixssoQuery interface
-description: The Query object of Indexing Service supports methods and properties that allow you to formulate a query and define an ActiveX Data Objects (ADO) recordset to manage and display the results of the query.
+Description: The Query object of Indexing Service supports methods and properties that allow you to formulate a query and define an ActiveX Data Objects (ADO) recordset to manage and display the results of the query.
 ms.assetid: 9cd79cd0-eff9-4e8f-a4a2-48d182aae668
-keywords:
-- IixssoQuery interface Indexing Service
-- IixssoQuery interface Indexing Service , described
-topic_type:
-- apiref
-api_name:
-- IixssoQuery
-- IixssoQuery.OnStartPage
-- IixssoQuery.StartHit
-- IixssoQuery.get_StartHit
-- IixssoQuery.put_StartHit
-- IixssoQuery.ResourceUseFactor
-- IixssoQuery.get_ResourceUseFactor
-- IixssoQuery.put_ResourceUseFactor
-api_location:
-- Ixsso.dll
-api_type:
-- COM
+title: IixssoQuery interface
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -29,7 +11,7 @@ ms.date: 05/31/2018
 
 # IixssoQuery interface
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 The Query object of Indexing Service supports methods and properties that allow you to formulate a query and define an ActiveX Data Objects (ADO) recordset to manage and display the results of the query.
 
@@ -60,7 +42,7 @@ The **IixssoQuery** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -91,7 +73,7 @@ The **IixssoQuery** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -99,18 +81,17 @@ The **IixssoQuery** interface has these properties.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
-
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Programming with Visual C++
-description: Programming with Visual C++
+Description: Programming with Visual C++
 ms.assetid: 6068f886-2a06-4370-a317-85aa151a85d7
+title: Programming with Visual C++
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Programming with Visual C++
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -32,7 +32,6 @@ Visual C++ is the most powerful development language for Windows. With Visual C+
  
 
  
-
 
 
 

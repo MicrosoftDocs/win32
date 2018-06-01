@@ -1,7 +1,7 @@
 ---
-title: Extensions for Properties
-description: Extensions for Properties
+Description: Extensions for Properties
 ms.assetid: 6f3379ea-bc19-4ed1-8356-e8d692341e5f
+title: Extensions for Properties
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Extensions for Properties
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -55,7 +55,6 @@ There is also a list of additional standard Indexing Service properties that are
  
 
  
-
 
 
 

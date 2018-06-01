@@ -1,7 +1,7 @@
 ---
-title: Extensions to SQL for Indexing Service
-description: Extensions to SQL for Indexing Service
+Description: Extensions to SQL for Indexing Service
 ms.assetid: dae72fc7-e034-4814-babe-ff9570ee8208
+title: Extensions to SQL for Indexing Service
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Extensions to SQL for Indexing Service
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -26,7 +26,6 @@ The SQL extensions for Indexing Service do not support cross-data source queries
  
 
  
-
 
 
 

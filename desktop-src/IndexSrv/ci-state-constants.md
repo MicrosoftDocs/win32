@@ -1,29 +1,7 @@
 ---
-title: CI\_STATE\_\ Constants
-description: Reflects the state of the current activities of Indexing Service, including merges, scans, and performance indicators on the computer running the service.
+Description: Reflects the state of the current activities of Indexing Service, including merges, scans, and performance indicators on the computer running the service.
 ms.assetid: c951a3bf-16d3-4f69-8485-c3d62a4fdd17
-topic_type:
-- apiref
-api_name:
-- CI_STATE_ANNEALING_MERGE
-- CI_STATE_BATTERY_POWER
-- CI_STATE_CONTENT_SCAN_REQUIRED
-- CI_STATE_HIGH_IO
-- CI_STATE_INDEX_MIGRATION_MERGE
-- CI_STATE_LOW_MEMORY
-- CI_STATE_MASTER_MERGE
-- CI_STATE_MASTER_MERGE_PAUSED
-- CI_STATE_READ_ONLY
-- CI_STATE_READING_USNS
-- CI_STATE_RECOVERING
-- CI_STATE_SCANNING
-- CI_STATE_SHADOW_MERGE
-- CI_STATE_STARTING
-- CI_STATE_USER_ACTIVE
-api_location:
-- Ntquery.h
-api_type:
-- HeaderDef
+title: CI\_STATE\_\* Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -33,7 +11,7 @@ ms.date: 05/31/2018
 
 # CI\_STATE\_\* Constants
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Reflects the state of the current activities of Indexing Service, including merges, scans, and performance indicators on the computer running the service.
 
@@ -65,10 +43,10 @@ Reflects the state of the current activities of Indexing Service, including merg
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Ntquery.h</dt> </dl> |
 
 
@@ -83,10 +61,9 @@ Reflects the state of the current activities of Indexing Service, including merg
 [**CI\_STATE**](/windows/desktop/api/Ntquery/ns-ntquery-_ci_state)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

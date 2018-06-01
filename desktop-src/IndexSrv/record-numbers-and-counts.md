@@ -1,7 +1,7 @@
 ---
-title: Record Numbers and Counts
-description: Record Numbers and Counts
+Description: Record Numbers and Counts
 ms.assetid: 98c933a3-dba3-4451-9f88-2c8e1ed3a332
+title: Record Numbers and Counts
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Record Numbers and Counts
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -23,7 +23,6 @@ The [CiMatchedRecordCount](https://www.bing.com/search?q=CiMatchedRecordCount) b
  
 
  
-
 
 
 

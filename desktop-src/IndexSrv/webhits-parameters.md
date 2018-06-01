@@ -1,7 +1,7 @@
 ---
-title: Webhits Parameters
-description: Webhits Parameters
+Description: Webhits Parameters
 ms.assetid: 175e3710-cb3b-4a9e-b8d7-bbfa4a248a3d
+title: Webhits Parameters
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Webhits Parameters
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -38,7 +38,6 @@ This section lists and describes the parameters that can help you fine-tune a qu
  
 
  
-
 
 
 

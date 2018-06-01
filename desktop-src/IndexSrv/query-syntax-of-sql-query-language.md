@@ -1,7 +1,7 @@
 ---
-title: Query Syntax of SQL Query Language
-description: Query Syntax of SQL Query Language
+Description: Query Syntax of SQL Query Language
 ms.assetid: 76f54565-4f05-4ba8-9179-944ba195a506
+title: Query Syntax of SQL Query Language
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Query Syntax of SQL Query Language
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -52,7 +52,6 @@ SQL statements can be submitted individually, or batched together. The following
  
 
  
-
 
 
 

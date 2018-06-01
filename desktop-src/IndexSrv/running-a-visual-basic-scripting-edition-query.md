@@ -1,7 +1,7 @@
 ---
-title: Running a Visual Basic Scripting Edition Query
-description: Running a Visual Basic Scripting Edition Query
+Description: Running a Visual Basic Scripting Edition Query
 ms.assetid: c77eec47-1ed2-47b6-a710-8d8b3d4365e5
+title: Running a Visual Basic Scripting Edition Query
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Running a Visual Basic Scripting Edition Query
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 You can run a script written in Visual Basic Scripting Edition (VBScript) to submit a query (or to perform a managing task) with Windows Script Host in several ways, which include the following.
 
@@ -32,7 +32,6 @@ The output of each **Echo** method in the script appears in a separate dialog bo
  
 
  
-
 
 
 

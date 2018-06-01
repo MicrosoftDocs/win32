@@ -1,7 +1,7 @@
 ---
-title: Combinations of Tasks, Languages, and APIs
-description: Many combinations of languages, APIs, and tools are available for programming Indexing Service to achieve your desired tasks.
+Description: Many combinations of languages, APIs, and tools are available for programming Indexing Service to achieve your desired tasks.
 ms.assetid: 4f538188-00ba-4084-beba-eaf963d84ece
+title: Combinations of Tasks, Languages, and APIs
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Combinations of Tasks, Languages, and APIs
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Many combinations of languages, APIs, and tools are available for programming Indexing Service to achieve your desired tasks. The combination you choose depends on many factors, including your orientation (file system or web server), programming background (application developer or script writer and language), desired performance, and task category.
 
@@ -38,7 +38,6 @@ The arrows in the diagram indicate calling or usage relationships between the la
  
 
  
-
 
 
 

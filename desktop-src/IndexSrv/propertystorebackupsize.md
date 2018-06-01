@@ -1,7 +1,7 @@
 ---
-title: PropertyStoreBackupSize
-description: PropertyStoreBackupSize
+Description: PropertyStoreBackupSize
 ms.assetid: d0b48421-9fc2-444d-9237-656331c04cdb
+title: PropertyStoreBackupSize
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 # PropertyStoreBackupSize
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 The **PropertyStoreBackupSize** entry determines the number of system pages held on disk to back up the primary property cache.
 
@@ -31,7 +31,7 @@ The **PropertyStoreBackupSize** entry determines the number of system pages held
 
 
 
- 
+ 
 
 ### Remarks
 
@@ -52,10 +52,9 @@ The [**SecPropertyStoreBackupSize**](secpropertystorebackupsize.md) entry serves
 [SecPropertyStoreBackupSize](secpropertystorebackupsize.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

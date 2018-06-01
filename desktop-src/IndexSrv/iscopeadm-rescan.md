@@ -1,17 +1,7 @@
 ---
-title: IScopeAdm Rescan method
-description: Initiates a full or incremental rescan.
+Description: Initiates a full or incremental rescan.
 ms.assetid: 2cdf9282-4d5d-447e-9981-bd6f8b14666e
-keywords:
-- Rescan method Indexing Service
-- Rescan method Indexing Service , IScopeAdm interface
-- IScopeAdm interface Indexing Service , Rescan method
-topic_type:
-- apiref
-api_name:
-- IScopeAdm.Rescan
-api_type:
-- COM
+title: IScopeAdm::Rescan method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -21,7 +11,7 @@ ms.date: 05/31/2018
 
 # IScopeAdm::Rescan method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Initiates a full or incremental rescan.
 
@@ -30,7 +20,7 @@ Initiates a full or incremental rescan.
 
 ```C++
 HRESULT Rescan(
-   VARIANT_BOOL fFull
+   VARIANT_BOOL fFull
 );
 ```
 
@@ -61,10 +51,10 @@ This method assumes that Indexing Service is already running. It initiates the s
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
-| End of client support<br/>    | Windows 7<br/>                                       |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                          |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| End of client support<br/>    | Windows 7<br/>                                       |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                          |
 
 
 
@@ -75,10 +65,9 @@ This method assumes that Indexing Service is already running. It initiates the s
 [**IScopeAdm**](iscopeadm.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

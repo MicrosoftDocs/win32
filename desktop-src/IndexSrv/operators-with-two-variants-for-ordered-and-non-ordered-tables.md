@@ -1,7 +1,7 @@
 ---
-title: Operators with Two Variants for Ordered and Non-Ordered Tables
-description: Operators with Two Variants for Ordered and Non-Ordered Tables
+Description: Operators with Two Variants for Ordered and Non-Ordered Tables
 ms.assetid: ff193501-d681-4cd7-8b63-aa602008beb5
+title: Operators with Two Variants for Ordered and Non-Ordered Tables
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Operators with Two Variants for Ordered and Non-Ordered Tables
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -37,7 +37,6 @@ Preserve a subset of columns, possibly with some arithmetic computation within e
  
 
  
-
 
 
 

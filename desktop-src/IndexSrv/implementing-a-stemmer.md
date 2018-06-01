@@ -1,7 +1,7 @@
 ---
-title: Implementing a Stemmer
-description: Implementing a Stemmer
+Description: Implementing a Stemmer
 ms.assetid: d8ace103-a4ca-424f-9358-cd5fc6263a87
+title: Implementing a Stemmer
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Implementing a Stemmer
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -51,7 +51,6 @@ Stemmers for Indexing Service run in the Local Security context. They should be 
  
 
  
-
 
 
 

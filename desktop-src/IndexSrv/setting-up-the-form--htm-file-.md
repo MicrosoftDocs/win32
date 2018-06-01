@@ -1,7 +1,7 @@
 ---
-title: Setting Up the Form (.Htm File)
-description: Setting Up the Form (.Htm File)
+Description: Setting Up the Form (.Htm File)
 ms.assetid: 9ab712bf-7c36-41f0-ba05-172810a8e6ab
+title: Setting Up the Form (.Htm File)
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Setting Up the Form (.Htm File)
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -66,7 +66,6 @@ When the **Execute Query** button is clicked, the data in the text field is sent
  
 
  
-
 
 
 

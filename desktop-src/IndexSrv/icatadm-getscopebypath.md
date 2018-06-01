@@ -1,19 +1,7 @@
 ---
-title: ICatAdm GetScopeByPath method
-description: Retrieves an existing scope object by path.
+Description: Retrieves an existing scope object by path.
 ms.assetid: d15f294a-2e0e-4cbc-9e3c-47e2bd504539
-keywords:
-- GetScopeByPath method Indexing Service
-- GetScopeByPath method Indexing Service , ICatAdm interface
-- ICatAdm interface Indexing Service , GetScopeByPath method
-topic_type:
-- apiref
-api_name:
-- ICatAdm.GetScopeByPath
-api_location:
-- Ciodm.dll
-api_type:
-- COM
+title: ICatAdm::GetScopeByPath method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -23,7 +11,7 @@ ms.date: 05/31/2018
 
 # ICatAdm::GetScopeByPath method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Retrieves an existing scope object by path.
 
@@ -32,8 +20,8 @@ Retrieves an existing scope object by path.
 
 ```C++
 HRESULT GetScopeByPath(
-  [in]          BSTR      bstrPath,
-  [out, retval] IDispatch **pIDisp
+  [in]          BSTR      bstrPath,
+  [out, retval] IDispatch **pIDisp
 );
 ```
 
@@ -71,10 +59,10 @@ The scope name must refer to a valid scope. If the scope path is not valid, an e
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -86,10 +74,9 @@ The scope name must refer to a valid scope. If the scope path is not valid, an e
 [**ICatAdm**](icatadm.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

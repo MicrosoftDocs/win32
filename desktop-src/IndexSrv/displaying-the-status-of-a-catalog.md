@@ -1,7 +1,7 @@
 ---
-title: Displaying the Status of a Catalog
-description: Displaying the Status of a Catalog
+Description: Displaying the Status of a Catalog
 ms.assetid: d0a80948-0a23-4af3-8036-0d1471441624
+title: Displaying the Status of a Catalog
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Displaying the Status of a Catalog
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -105,7 +105,6 @@ HRESULT DisplayStatus(
  
 
  
-
 
 
 

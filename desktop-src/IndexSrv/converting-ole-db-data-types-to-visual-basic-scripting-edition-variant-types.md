@@ -1,7 +1,7 @@
 ---
-title: Converting OLE DB Data Types to Visual Basic Scripting Edition Variant Types
-description: A table that lists the OLE DB data types supported, their equivalent Automation variant types, and any formatting restrictions imposed when displaying the data to an end user through VBScript.
+Description: A table that lists the OLE DB data types supported, their equivalent Automation variant types, and any formatting restrictions imposed when displaying the data to an end user through VBScript.
 ms.assetid: 7fe30f06-f70c-4171-9880-f61fd10b9e89
+title: Converting OLE DB Data Types to Visual Basic Scripting Edition Variant Types
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Converting OLE DB Data Types to Visual Basic Scripting Edition Variant Types
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Because all programming access to Indexing Service is through the [OLE DB Provider](ole-db-provider-for-indexing-service.md), you can retrieve only supported OLE DB data types when you ask for information back from a query. VBScript supports certain Automation data types within its **VARIANT** data-type implementation. The following table lists the OLE DB data types supported, their equivalent Automation variant types, and any formatting restrictions imposed when displaying the data to an end user through VBScript.
 
@@ -47,7 +47,6 @@ Because all programming access to Indexing Service is through the [OLE DB Provid
  
 
  
-
 
 
 

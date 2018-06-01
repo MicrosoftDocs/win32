@@ -1,7 +1,7 @@
 ---
-title: Example of Command Tree
-description: Example of Command Tree
+Description: Example of Command Tree
 ms.assetid: 48747048-a111-4cf9-9f8a-b6834cc4feb6
+title: Example of Command Tree
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Example of Command Tree
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -77,7 +77,6 @@ The following figure depicts the output as a tree for easier understanding.
  
 
  
-
 
 
 

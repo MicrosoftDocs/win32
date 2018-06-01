@@ -1,7 +1,7 @@
 ---
-title: Indexing Service Reference
-description: Indexing Service Reference
+Description: Indexing Service Reference
 ms.assetid: 4c07acf4-8893-4d74-ac18-fbc15d80c1a4
+title: Indexing Service Reference
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Indexing Service Reference
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -37,7 +37,6 @@ The reference material is divided into the following categories.
  
 
  
-
 
 
 

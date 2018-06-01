@@ -1,7 +1,7 @@
 ---
-title: Querying a Site in a Different Locale
-description: Querying a Site in a Different Locale
+Description: Querying a Site in a Different Locale
 ms.assetid: 94402bf1-64de-4a99-a2ac-937242117971
+title: Querying a Site in a Different Locale
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Querying a Site in a Different Locale
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -39,7 +39,6 @@ Cache&amp;CiLocale=EN&amp;CiCodepage=Windows-1252
  
 
  
-
 
 
 

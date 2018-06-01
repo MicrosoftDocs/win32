@@ -1,7 +1,7 @@
 ---
-title: Indexing Text-Type and Value-Type Properties
-description: Indexing Text-Type and Value-Type Properties
+Description: Indexing Text-Type and Value-Type Properties
 ms.assetid: 187e0142-8508-4779-96af-e8c60a8a0b8d
+title: Indexing Text-Type and Value-Type Properties
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Indexing Text-Type and Value-Type Properties
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -26,7 +26,6 @@ Indexing Service indexes value-type properties according to their data type iden
  
 
  
-
 
 
 

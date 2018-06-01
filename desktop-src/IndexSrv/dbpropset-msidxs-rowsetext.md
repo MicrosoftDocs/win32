@@ -1,9 +1,7 @@
 ---
-title: DBPROPSET\_MSIDXS\_ROWSETEXT
-description: DBPROPSET\_MSIDXS\_ROWSETEXT
+Description: DBPROPSET\_MSIDXS\_ROWSETEXT
 ms.assetid: dd8d22ab-fd63-43ff-ac96-6077bc0f37f6
-keywords:
-- DBPROPSET_MSIDXS_ROWSETEXT
+title: DBPROPSET\_MSIDXS\_ROWSETEXT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -14,7 +12,7 @@ ms.date: 05/31/2018
 # DBPROPSET\_MSIDXS\_ROWSETEXT
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -66,7 +64,6 @@ Property ID 4. The query string associated with this rowset.
  
 
  
-
 
 
 

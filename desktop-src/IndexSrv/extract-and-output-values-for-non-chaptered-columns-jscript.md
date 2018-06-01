@@ -1,7 +1,7 @@
 ---
-title: Extract and Output Values for Non-Chaptered Columns
-description: Extract and Output Values for Non-Chaptered Columns
+Description: Extract and Output Values for Non-Chaptered Columns
 ms.assetid: 4bdf0346-9871-46c2-a3b8-9abfecf8cc97
+title: Extract and Output Values for Non-Chaptered Columns
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Extract and Output Values for Non-Chaptered Columns
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -39,7 +39,6 @@ For the query properties set in this example, the *strRecord* variable is, for e
  
 
  
-
 
 
 

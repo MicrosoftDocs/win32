@@ -1,7 +1,7 @@
 ---
-title: IFilter Sample
-description: IFilter Sample
+Description: IFilter Sample
 ms.assetid: b6565c41-41f8-4e56-b166-d2d9abd00987
+title: IFilter Sample
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # IFilter Sample
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -57,7 +57,6 @@ HTMLFilt will extract text-type and value-type properties from HTML pages. In ad
  
 
  
-
 
 
 

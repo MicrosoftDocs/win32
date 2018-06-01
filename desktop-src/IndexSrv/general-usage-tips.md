@@ -1,7 +1,7 @@
 ---
-title: General Usage Tips
-description: The following are general tips to help ensure optimal performance for Indexing Service.
+Description: The following are general tips to help ensure optimal performance for Indexing Service.
 ms.assetid: ca14b749-a381-4796-975f-1c6867272ddc
+title: General Usage Tips
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # General Usage Tips
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 The following are general tips to help ensure optimal performance for Indexing Service.
 
@@ -24,7 +24,6 @@ The following are general tips to help ensure optimal performance for Indexing S
  
 
  
-
 
 
 

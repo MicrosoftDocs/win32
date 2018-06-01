@@ -1,7 +1,7 @@
 ---
-title: Applying Filters
-description: Applying Filters
+Description: Applying Filters
 ms.assetid: 3d6ba1a9-4de0-4d1b-a08b-1976a1c4ab05
+title: Applying Filters
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -26,7 +26,6 @@ This section includes the following topics.
  
 
  
-
 
 
 

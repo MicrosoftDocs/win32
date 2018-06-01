@@ -1,7 +1,7 @@
 ---
-title: Querying a Site Without Language Resources
-description: Querying a Site Without Language Resources
+Description: Querying a Site Without Language Resources
 ms.assetid: 6374a9f5-2fd2-43b8-ae4a-1acaa9bf253d
+title: Querying a Site Without Language Resources
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Querying a Site Without Language Resources
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -25,7 +25,6 @@ For example, suppose a site in the United States has some documents in Russian. 
  
 
  
-
 
 
 

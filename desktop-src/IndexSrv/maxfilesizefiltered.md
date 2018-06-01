@@ -1,7 +1,7 @@
 ---
-title: MaxFilesizeFiltered
-description: MaxFilesizeFiltered
+Description: MaxFilesizeFiltered
 ms.assetid: 94a6ec0a-3b5d-4a95-823d-aca234f21593
+title: MaxFilesizeFiltered
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # MaxFilesizeFiltered
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -51,7 +51,6 @@ This limit does not apply for the filtering of registered file types.
  
 
  
-
 
 
 

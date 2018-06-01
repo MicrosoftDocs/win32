@@ -1,19 +1,7 @@
 ---
-title: IAdminIndexServer SetSZProperty method
-description: Sets a content index registry value of type REG\_SZ, as described in Registry Entries.
+Description: Sets a content index registry value of type REG\_SZ, as described in Registry Entries.
 ms.assetid: 22fc2023-68ea-4439-bbcf-85fcf3eca830
-keywords:
-- SetSZProperty method Indexing Service
-- SetSZProperty method Indexing Service , IAdminIndexServer interface
-- IAdminIndexServer interface Indexing Service , SetSZProperty method
-topic_type:
-- apiref
-api_name:
-- IAdminIndexServer.SetSZProperty
-api_location:
-- Ciodm.dll
-api_type:
-- COM
+title: IAdminIndexServer::SetSZProperty method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -23,7 +11,7 @@ ms.date: 05/31/2018
 
 # IAdminIndexServer::SetSZProperty method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Sets a content index registry value of type **REG\_SZ**, as described in [Registry Entries](registry-entries.md).
 
@@ -32,8 +20,8 @@ Sets a content index registry value of type **REG\_SZ**, as described in [Regist
 
 ```C++
 HRESULT SetSZProperty(
-  [in] BSTR bstrPropName,
-  [in] BSTR bstrVal
+  [in] BSTR bstrPropName,
+  [in] BSTR bstrVal
 );
 ```
 
@@ -81,10 +69,10 @@ objAdminIS.SetSZProperty("ISAPIDefaultCatalogDirectory","system")
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -96,10 +84,9 @@ objAdminIS.SetSZProperty("ISAPIDefaultCatalogDirectory","system")
 [**IAdminIndexServer**](iadminindexserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

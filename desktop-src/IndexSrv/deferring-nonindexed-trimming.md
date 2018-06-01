@@ -1,7 +1,7 @@
 ---
-title: Deferring Nonindexed Trimming
-description: Deferring Nonindexed Trimming
+Description: Deferring Nonindexed Trimming
 ms.assetid: 955327ea-334d-4e76-9e6d-7733048685c5
+title: Deferring Nonindexed Trimming
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Deferring Nonindexed Trimming
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -21,7 +21,6 @@ Special support has been added to Indexing Service to optimize content queries t
  
 
  
-
 
 
 

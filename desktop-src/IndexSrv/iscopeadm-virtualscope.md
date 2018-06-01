@@ -1,18 +1,7 @@
 ---
-title: IScopeAdm VirtualScope property
-description: Indicates whether this scope is a virtual path.
+Description: Indicates whether this scope is a virtual path.
 ms.assetid: eaaaa459-7b1d-4f4c-a00d-8eadfb19dede
-keywords:
-- VirtualScope property Indexing Service
-- VirtualScope property Indexing Service , IScopeAdm interface
-- IScopeAdm interface Indexing Service , VirtualScope property
-topic_type:
-- apiref
-api_name:
-- IScopeAdm.VirtualScope
-- IScopeAdm.get_VirtualScope
-api_type:
-- COM
+title: IScopeAdm::VirtualScope property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -22,7 +11,7 @@ ms.date: 05/31/2018
 
 # IScopeAdm::VirtualScope property
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Indicates whether this scope is a virtual path.
 
@@ -33,7 +22,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_VirtualScope(
-  [out, retval] VARIANT_BOOL *pVal
+  [out, retval] VARIANT_BOOL *pVal
 );
 ```
 
@@ -49,10 +38,10 @@ If **VARIANT\_TRUE**, the scope is virtual.
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
-| End of client support<br/>    | Windows 7<br/>                                       |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                          |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| End of client support<br/>    | Windows 7<br/>                                       |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                          |
 
 
 
@@ -63,10 +52,9 @@ If **VARIANT\_TRUE**, the scope is virtual.
 [**IScopeAdm**](iscopeadm.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Like Operator Constants
-description: Like Operator Constants
+Description: Like Operator Constants
 ms.assetid: 9eb2cfcb-9ed8-4e5f-9a75-080f6f71a74b
+title: Like Operator Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Like Operator Constants
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -40,7 +40,6 @@ The OLE DB Provider for Indexing Service uses only the DBGUID\_LIKE\_OFS constan
  
 
  
-
 
 
 

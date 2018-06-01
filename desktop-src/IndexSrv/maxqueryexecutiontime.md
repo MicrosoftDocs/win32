@@ -1,7 +1,7 @@
 ---
-title: MaxQueryExecutionTime
-description: MaxQueryExecutionTime
+Description: MaxQueryExecutionTime
 ms.assetid: 8a288982-b563-4217-8287-98521fc5b7df
+title: MaxQueryExecutionTime
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # MaxQueryExecutionTime
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -50,7 +50,6 @@ If a query takes more CPU time than specified by the value of the **MaxQueryExec
  
 
  
-
 
 
 

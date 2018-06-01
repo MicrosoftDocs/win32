@@ -1,7 +1,7 @@
 ---
-title: Connection Object Dynamic Properties
-description: Connection Object Dynamic Properties
+Description: Connection Object Dynamic Properties
 ms.assetid: c191e886-d6c1-4f3f-9c4d-421c7d257f70
+title: Connection Object Dynamic Properties
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Connection Object Dynamic Properties
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -64,7 +64,6 @@ The following table includes dynamic properties for use with the ADO **Connectio
  
 
  
-
 
 
 

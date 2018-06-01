@@ -1,27 +1,7 @@
 ---
-title: Filter-Interface Values
-description: Values 0xHHHH1700 to 0xHHHH172F are return values produced when calling the methods of the IFilter interface to extract the text from a document, including any embedded or linked objects within it.
+Description: Values 0xHHHH1700 to 0xHHHH172F are return values produced when calling the methods of the IFilter interface to extract the text from a document, including any embedded or linked objects within it.
 ms.assetid: a9f94b0d-f3d0-4cf1-9dfe-74c938601abc
-topic_type:
-- apiref
-api_name:
-- FILTER_E_ACCESS
-- FILTER_E_EMBEDDING_UNAVAILABLE
-- FILTER_E_END_OF_CHUNKS
-- FILTER_E_LINK_UNAVAILABLE
-- FILTER_E_NO_MORE_TEXT
-- FILTER_E_NO_MORE_VALUES
-- FILTER_E_NO_TEXT
-- FILTER_E_NO_VALUES
-- FILTER_E_PASSWORD
-- FILTER_E_UNKNOWNFORMAT
-- FILTER_S_LAST_TEXT
-- FILTER_S_LAST_VALUES
-- FILTER_W_MONIKER_CLIPPED
-api_location:
-- Cierror.h
-api_type:
-- HeaderDef
+title: Filter-Interface Values
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -31,7 +11,7 @@ ms.date: 05/31/2018
 
 # Filter-Interface Values
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Values 0x*HHHH*1700 to 0x*HHHH*172F are return values produced when calling the methods of the [**IFilter**](/windows/desktop/api/Filter/nn-filter-ifilter) interface to extract the text from a document, including any embedded or linked objects within it. The following table gives the filter-interface values in alphabetical order.
 
@@ -61,18 +41,17 @@ Values 0x*HHHH*1700 to 0x*HHHH*172F are return values produced when calling the 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Cierror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
-
+ 
 
 
 

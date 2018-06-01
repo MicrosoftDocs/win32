@@ -1,7 +1,7 @@
 ---
-title: MaxActiveRequestThreads
-description: MaxActiveRequestThreads
+Description: MaxActiveRequestThreads
 ms.assetid: 5a2f1914-e422-4a9a-82a6-f479bb6f717d
+title: MaxActiveRequestThreads
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # MaxActiveRequestThreads
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -52,7 +52,6 @@ The value of an identically named entry under the [**Catalog**](catalog--propert
  
 
  
-
 
 
 

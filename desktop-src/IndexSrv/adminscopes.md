@@ -1,7 +1,7 @@
 ---
-title: AdminScopes
-description: AdminScopes
+Description: AdminScopes
 ms.assetid: bc46e9d0-f784-49e1-b176-ec21f845c930
+title: AdminScopes
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -33,7 +33,6 @@ The following topics discuss selected code segments for the AdminScopes form tha
  
 
  
-
 
 
 

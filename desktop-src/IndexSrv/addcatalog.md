@@ -1,7 +1,7 @@
 ---
-title: AddCatalog
-description: AddCatalog
+Description: AddCatalog
 ms.assetid: e2542cb6-aaa6-4e67-83b1-b2349c57667b
+title: AddCatalog
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -41,7 +41,6 @@ End Sub
  
 
  
-
 
 
 

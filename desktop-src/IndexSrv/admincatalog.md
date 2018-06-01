@@ -1,7 +1,7 @@
 ---
-title: AdminCatalog
-description: AdminCatalog
+Description: AdminCatalog
 ms.assetid: 3a3882d1-6d3c-4a01-8abb-a309820721fe
+title: AdminCatalog
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -34,7 +34,6 @@ The following topics discuss selected code segments for the AdminCatalog form th
  
 
  
-
 
 
 

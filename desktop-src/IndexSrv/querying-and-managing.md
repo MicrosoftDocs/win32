@@ -1,7 +1,7 @@
 ---
-title: Querying and Managing
-description: Querying-related processing occurs when an application submits a request in one of the supported query languages.
+Description: Querying-related processing occurs when an application submits a request in one of the supported query languages.
 ms.assetid: 581bb9b2-e48a-4b59-b14a-1a87748b68e9
+title: Querying and Managing
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Querying and Managing
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Querying-related processing occurs when an application submits a request in one of the supported query languages. Queries execute based on several entries in the Windows registry. You can manage querying by adjusting the registry entries, selecting the catalogs and scopes, providing locale-specific word breakers and noise-word lists, and directly controlling the state of the [Querying component](querying-component.md).
 
@@ -26,7 +26,6 @@ An end user of Indexing Service usually manages querying through the MMC. An app
  
 
  
-
 
 
 

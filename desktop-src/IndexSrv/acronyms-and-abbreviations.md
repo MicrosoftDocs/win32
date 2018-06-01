@@ -1,7 +1,7 @@
 ---
-title: Acronyms and Abbreviations
-description: Acronyms and Abbreviations
+Description: Acronyms and Abbreviations
 ms.assetid: e2bce6b5-6011-4ebe-b2a6-251e9de9b079
+title: Acronyms and Abbreviations
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -21,7 +21,6 @@ Acronyms and abbreviations merit consideration when you implement a word breaker
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Setting Up the Header
-description: Setting Up the Header
+Description: Setting Up the Header
 ms.assetid: 08fbd123-d166-4f6f-b55e-ec81bff5c78e
+title: Setting Up the Header
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Setting Up the Header
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -105,7 +105,6 @@ Also, the line in bold type defines the query form as the current file. From tha
  
 
  
-
 
 
 

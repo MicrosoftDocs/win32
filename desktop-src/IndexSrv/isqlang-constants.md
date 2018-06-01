@@ -1,16 +1,7 @@
 ---
-title: ISQLANG\_\ Constants
-description: Specifies the dialect of the Indexing Service query language to use when creating the command text tree.
+Description: Specifies the dialect of the Indexing Service query language to use when creating the command text tree.
 ms.assetid: d6e08b9a-2e1c-46b3-a0a3-fdcab356e9b1
-topic_type:
-- apiref
-api_name:
-- ISQLANG_V1
-- ISQLANG_V2
-api_location:
-- Ntquery.h
-api_type:
-- HeaderDef
+title: ISQLANG\_\* Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -20,7 +11,7 @@ ms.date: 05/31/2018
 
 # ISQLANG\_\* Constants
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Specifies the dialect of the Indexing Service query language to use when creating the command text tree.
 
@@ -39,10 +30,10 @@ Specifies the dialect of the Indexing Service query language to use when creatin
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Ntquery.h</dt> </dl> |
 
 
@@ -57,10 +48,9 @@ Specifies the dialect of the Indexing Service query language to use when creatin
 [**CITextToSelectTreeEx**](/windows/desktop/api/Ntquery/nf-ntquery-citexttoselecttreeex)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

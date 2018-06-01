@@ -1,20 +1,7 @@
 ---
-title: IixssoQuery QueryTimedOut property
-description: Warns that Indexing Service exceeded the time limit for execution as specified by the MaxQueryExecutionTime set by administrators for Indexing Service.
+Description: Warns that Indexing Service exceeded the time limit for execution as specified by the MaxQueryExecutionTime set by administrators for Indexing Service.
 ms.assetid: 094a3cc4-4bd8-4d78-bb4d-0827184f05de
-keywords:
-- QueryTimedOut property Indexing Service
-- QueryTimedOut property Indexing Service , IixssoQuery interface
-- IixssoQuery interface Indexing Service , QueryTimedOut property
-topic_type:
-- apiref
-api_name:
-- IixssoQuery.QueryTimedOut
-- IixssoQuery.get_QueryTimedOut
-api_location:
-- Ixsso.dll
-api_type:
-- COM
+title: IixssoQuery::QueryTimedOut property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -24,7 +11,7 @@ ms.date: 05/31/2018
 
 # IixssoQuery::QueryTimedOut property
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Warns that Indexing Service exceeded the time limit for execution as specified by the **[MaxQueryExecutionTime](maxqueryexecutiontime.md)** set by administrators for Indexing Service.
 
@@ -35,7 +22,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_QueryTimedOut(
-  [out, retval] VARIANT_BOOL *val
+  [out, retval] VARIANT_BOOL *val
 );
 ```
 
@@ -55,10 +42,10 @@ You must call the [**CreateRecordset**](iixssoquery-createrecordset.md) method b
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -70,10 +57,9 @@ You must call the [**CreateRecordset**](iixssoquery-createrecordset.md) method b
 [**IixssoQuery**](iixssoquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

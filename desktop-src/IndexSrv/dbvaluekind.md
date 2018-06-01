@@ -1,9 +1,7 @@
 ---
-title: DBVALUEKIND
-description: DBVALUEKIND
+Description: DBVALUEKIND
 ms.assetid: 9d03bbf8-0c39-4762-acfb-74ce4ad1d9d6
-keywords:
-- DBVALUEKIND
+title: DBVALUEKIND
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -14,7 +12,7 @@ ms.date: 05/31/2018
 # DBVALUEKIND
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -41,7 +39,6 @@ In each [**DBCOMMANDTREE**](dbcommandtree.md) structure representing a node in t
  
 
  
-
 
 
 

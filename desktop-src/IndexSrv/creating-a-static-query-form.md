@@ -1,7 +1,7 @@
 ---
-title: Creating a Static Query Form
-description: Creating a Static Query Form
+Description: Creating a Static Query Form
 ms.assetid: 2babe437-f8c5-4ca9-b55c-575e3a05432e
+title: Creating a Static Query Form
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Creating a Static Query Form
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -30,7 +30,6 @@ This section contains the following topics:
  
 
  
-
 
 
 

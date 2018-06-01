@@ -1,7 +1,7 @@
 ---
-title: MaxShadowFreeForceMerge
-description: MaxShadowFreeForceMerge
+Description: MaxShadowFreeForceMerge
 ms.assetid: 3cbe7c90-290c-4a3b-bf4c-720eebf5f417
+title: MaxShadowFreeForceMerge
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # MaxShadowFreeForceMerge
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -53,7 +53,6 @@ If the percentage of disk space used by shadow indexes exceeds the value of the 
  
 
  
-
 
 
 

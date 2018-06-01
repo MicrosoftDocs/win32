@@ -1,7 +1,7 @@
 ---
-title: Recognized Character Set Tags
-description: Recognized Character Set Tags
+Description: Recognized Character Set Tags
 ms.assetid: ff89a15b-4df8-42aa-9c9f-46eaed8650ec
+title: Recognized Character Set Tags
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Recognized Character Set Tags
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -105,7 +105,6 @@ This section lists the International Organization for Standards (ISO) codes curr
  
 
  
-
 
 
 

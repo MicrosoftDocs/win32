@@ -1,7 +1,7 @@
 ---
-title: Content Queries
-description: Content queries search text-type properties of documents.
+Description: Content queries search text-type properties of documents.
 ms.assetid: 47f2e318-642f-4a3a-a62b-b3ec8a2b0237
+title: Content Queries
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Content Queries
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Content queries search text-type properties of documents. Content queries process the textual content of a sequence of words in one of two ways. A series of words such as "Web server administrator" can be treated as a phrase, where the proximity of words and the word order is significant (no intervening words, and words must appear in a specific order). Alternatively, the words can be treated independently, ignoring the order and proximity of the words.
 
@@ -31,11 +31,11 @@ The following table summarizes the text modes and their long and short forms.
 | Text Mode           | Long Form                                | Short Form                                                    |
 |---------------------|------------------------------------------|---------------------------------------------------------------|
 | phrase<br/>   | {phrase} *text* {/phrase}<br/>     | " *text* "<br/>                                         |
-| freetext<br/> | {freetext} *text* {/freetext}<br/> | *text*<br/>  Or <br/> $contents *text*<br/> |
+| freetext<br/> | {freetext} *text* {/freetext}<br/> | *text*<br/> —Or—<br/> $contents *text*<br/> |
 
 
 
- 
+ 
 
 The following table illustrates examples of the use of text modes in content queries.
 
@@ -43,12 +43,12 @@ The following table illustrates examples of the use of text modes in content que
 
 | To Search For                             | Example                                                                                                                                                          | Results                                                                 |
 |-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| Documents that match a phrase.<br/> | {phrase} big red truck {/phrase}<br/>  Or <br/> "big red truck"<br/>                                                                           | Documents that contain the phrase *big red truck*.<br/>           |
-| Documents that match terms.<br/>    | {freetext} Why is the sky blue? {/freetext}<br/>  Or <br/> Why is the sky blue?<br/>  Or <br/> $contents Why is the sky blue?<br/> | Documents about the blue sky, ranked by estimated relevance.<br/> |
+| Documents that match a phrase.<br/> | {phrase} big red truck {/phrase}<br/> —Or—<br/> "big red truck"<br/>                                                                           | Documents that contain the phrase *big red truck*.<br/>           |
+| Documents that match terms.<br/>    | {freetext} Why is the sky blue? {/freetext}<br/> —Or—<br/> Why is the sky blue?<br/> —Or—<br/> $contents Why is the sky blue?<br/> | Documents about the blue sky, ranked by estimated relevance.<br/> |
 
 
 
- 
+ 
 
 In Dialect 2, the query
 
@@ -58,10 +58,9 @@ without quotes around the text is a phrase-mode query equivalent to
 
 @contents "Why is the sky blue?"
 
- 
+ 
 
- 
-
+ 
 
 
 

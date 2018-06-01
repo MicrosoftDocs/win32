@@ -1,7 +1,7 @@
 ---
-title: Data Source Object Constant
-description: Data Source Object Constant
+Description: Data Source Object Constant
 ms.assetid: 5464a358-d422-41dc-adf2-e2c5267c72cd
+title: Data Source Object Constant
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Data Source Object Constant
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -31,7 +31,6 @@ For an example of using the DSO CLSID, see [Accessing OLE DB with the OLE DB Pro
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Optimizing and Processing Queries
-description: An end user, application, or script submits a query to Indexing Service using one of the Query Languages for Indexing Service.
+Description: An end user, application, or script submits a query to Indexing Service using one of the Query Languages for Indexing Service.
 ms.assetid: 52cadea3-0152-4d8a-bdf2-811d58fbeb00
+title: Optimizing and Processing Queries
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Optimizing and Processing Queries
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 An end user, application, or script submits a query to Indexing Service using one of the [Query Languages for Indexing Service](query-languages-for-indexing-service.md). The [Querying component](querying-component.md) first optimizes the query for fastest performance or for greatest hit recall, and then returns the resulting documents and locations for matches from the Indexing Service catalog.
 
@@ -26,7 +26,6 @@ An end-user of Indexing Service can query Indexing Service using the **Start**, 
  
 
  
-
 
 
 

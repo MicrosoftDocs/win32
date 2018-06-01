@@ -1,7 +1,7 @@
 ---
-title: Creating a Recordset Object with the Query Helper API
-description: Creating a Recordset Object with the Query Helper API
+Description: Creating a Recordset Object with the Query Helper API
 ms.assetid: b280c705-8b2b-4e08-b875-57e66bb453a2
+title: Creating a Recordset Object with the Query Helper API
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Creating a Recordset Object with the Query Helper API
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -28,7 +28,6 @@ Set RS = Q.CreateRecordset("sequential")
  
 
  
-
 
 
 

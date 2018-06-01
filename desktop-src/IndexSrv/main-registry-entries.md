@@ -1,7 +1,7 @@
 ---
-title: Main Registry Entries
-description: Main Registry Entries
+Description: Main Registry Entries
 ms.assetid: 4efc29eb-14d7-478b-89d9-7bcb42803ba9
+title: Main Registry Entries
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Main Registry Entries
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -138,7 +138,6 @@ The following table is an alphabetical list of the entries in this main registry
  
 
  
-
 
 
 

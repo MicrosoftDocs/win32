@@ -1,7 +1,7 @@
 ---
-title: Agglutinative Languages
-description: Agglutinative Languages
+Description: Agglutinative Languages
 ms.assetid: 426b28d6-2534-4e4a-95cb-adf1c610689a
+title: Agglutinative Languages
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -42,7 +42,6 @@ Stemmers for agglutinative languages must weigh the trade-off between performanc
  
 
  
-
 
 
 

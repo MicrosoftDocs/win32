@@ -1,7 +1,7 @@
 ---
-title: Parameter for Use with Bookmarks
-description: Parameter for Use with Bookmarks
+Description: Parameter for Use with Bookmarks
 ms.assetid: c3f0af10-1c45-413b-bf08-55ed05c7f343
+title: Parameter for Use with Bookmarks
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Parameter for Use with Bookmarks
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -33,7 +33,6 @@ The following variable can be set as a CGI variable, for navigating between page
  
 
  
-
 
 
 

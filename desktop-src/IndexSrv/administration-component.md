@@ -1,7 +1,7 @@
 ---
-title: Administration Component
-description: Administration Component
+Description: Administration Component
 ms.assetid: 45516ac3-4a01-438e-a24b-3d41af9a3c60
+title: Administration Component
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -33,7 +33,6 @@ The Administration component provides access to the indexing and filtering proce
  
 
  
-
 
 
 

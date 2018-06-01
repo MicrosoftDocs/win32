@@ -1,7 +1,7 @@
 ---
-title: Writing Internet Data Administration Scripts
-description: Writing Internet Data Administration Scripts
+Description: Writing Internet Data Administration Scripts
 ms.assetid: 034830bf-3798-4eaa-a927-0773d1fd08ce
+title: Writing Internet Data Administration Scripts
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Writing Internet Data Administration Scripts
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -42,7 +42,6 @@ Some administrative operations can change the state of the index. Administrative
  
 
  
-
 
 
 

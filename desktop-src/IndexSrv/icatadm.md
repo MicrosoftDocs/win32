@@ -1,18 +1,7 @@
 ---
-title: ICatAdm interface
-description: Manages a catalog definition for Indexing Service.
+Description: Manages a catalog definition for Indexing Service.
 ms.assetid: 72ed5a66-85aa-4e76-a826-1f952a547a39
-keywords:
-- ICatAdm interface Indexing Service
-- ICatAdm interface Indexing Service , described
-topic_type:
-- apiref
-api_name:
-- ICatAdm
-api_location:
-- Ciodm.dll
-api_type:
-- COM
+title: ICatAdm interface
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -22,7 +11,7 @@ ms.date: 05/31/2018
 
 # ICatAdm interface
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Manages a catalog definition for Indexing Service. The catalog defines the set of documents to index by specifying the list of directories that are used by Indexing Service to determine the files to index. Catalog objects can be created only by means of the [**AddCatalog**](iadminindexserver-addcatalog.md) method on the AdminIndexServer object and can be retrieved by either of the following:
 
@@ -66,7 +55,7 @@ The **ICatAdm** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -95,7 +84,7 @@ The **ICatAdm** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -109,18 +98,17 @@ This object supports IErrorInfo to report errors.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
-
+ 
 
 
 

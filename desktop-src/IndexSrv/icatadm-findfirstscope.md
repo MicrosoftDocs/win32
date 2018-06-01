@@ -1,19 +1,7 @@
 ---
-title: ICatAdm FindFirstScope method
-description: Initializes scope enumeration for a catalog and checks to see whether a catalog exists.
+Description: Initializes scope enumeration for a catalog and checks to see whether a catalog exists.
 ms.assetid: 39ac2ad6-fee7-4ddf-89bc-2c0effbbdf40
-keywords:
-- FindFirstScope method Indexing Service
-- FindFirstScope method Indexing Service , ICatAdm interface
-- ICatAdm interface Indexing Service , FindFirstScope method
-topic_type:
-- apiref
-api_name:
-- ICatAdm.FindFirstScope
-api_location:
-- Ciodm.dll
-api_type:
-- COM
+title: ICatAdm::FindFirstScope method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -23,7 +11,7 @@ ms.date: 05/31/2018
 
 # ICatAdm::FindFirstScope method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Initializes scope enumeration for a catalog and checks to see whether a catalog exists.
 
@@ -32,7 +20,7 @@ Initializes scope enumeration for a catalog and checks to see whether a catalog 
 
 ```C++
 HRESULT FindFirstScope(
-  [out, retval] VARIANT_BOOL *pfFound
+  [out, retval] VARIANT_BOOL *pfFound
 );
 ```
 
@@ -78,10 +66,10 @@ End If
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -93,10 +81,9 @@ End If
 [**ICatAdm**](icatadm.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

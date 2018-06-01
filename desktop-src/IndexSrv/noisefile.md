@@ -1,7 +1,7 @@
 ---
-title: NoiseFile
-description: NoiseFile
+Description: NoiseFile
 ms.assetid: e1093bd7-9dbd-4ad4-b9c5-b34d4192aa28
+title: NoiseFile
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # NoiseFile
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -44,7 +44,6 @@ The value of the **NoiseFile** entry must be either an absolute path name, or th
  
 
  
-
 
 
 

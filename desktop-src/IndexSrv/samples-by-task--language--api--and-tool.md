@@ -1,7 +1,7 @@
 ---
-title: Samples by Task, Language, API, and Tool
-description: Samples by Task, Language, API, and Tool
+Description: Samples by Task, Language, API, and Tool
 ms.assetid: 01248333-c726-4c6d-970f-ab40d5aaf2a6
+title: Samples by Task, Language, API, and Tool
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Samples by Task, Language, API, and Tool
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -35,7 +35,6 @@ For an alphabetical summary of the samples with brief descriptions, see [Install
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Tags for Creating Built-up Query Strings
-description: Tags for Creating Built-up Query Strings
+Description: Tags for Creating Built-up Query Strings
 ms.assetid: 9d476613-05ef-4512-9b3a-5966d65db732
+title: Tags for Creating Built-up Query Strings
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Tags for Creating Built-up Query Strings
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -33,7 +33,6 @@ The following tags create built-up query strings for the [**Query**](iixssoquery
  
 
  
-
 
 
 

@@ -1,9 +1,7 @@
 ---
-title: DBPROP\_CI\_CATALOG\_NAME
-description: DBPROP\_CI\_CATALOG\_NAME
+Description: DBPROP\_CI\_CATALOG\_NAME
 ms.assetid: cdbef8a8-a6ce-4a80-abd6-712e247dccd7
-keywords:
-- DBPROP_CI_CATALOG_NAME
+title: DBPROP\_CI\_CATALOG\_NAME
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -14,7 +12,7 @@ ms.date: 05/31/2018
 # DBPROP\_CI\_CATALOG\_NAME
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -48,7 +46,6 @@ This property corresponds to the *CiCatalog* variable in the [Internet Data Quer
  
 
  
-
 
 
 

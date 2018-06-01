@@ -1,7 +1,7 @@
 ---
-title: About Filters
-description: About Filters
+Description: About Filters
 ms.assetid: da6f9df5-2217-44bb-b75d-b516c74ba1cf
+title: About Filters
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -32,7 +32,6 @@ You use a filter for the following two purposes:
  
 
  
-
 
 
 

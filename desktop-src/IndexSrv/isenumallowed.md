@@ -1,7 +1,7 @@
 ---
-title: IsEnumAllowed
-description: IsEnumAllowed
+Description: IsEnumAllowed
 ms.assetid: 7627008a-a40d-46cd-b55a-9f1a94d92d5b
+title: IsEnumAllowed
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # IsEnumAllowed
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -52,7 +52,6 @@ Setting the value of this entry to zero reduces the vulnerability of a server to
  
 
  
-
 
 
 

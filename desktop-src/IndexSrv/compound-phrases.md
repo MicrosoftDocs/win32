@@ -1,7 +1,7 @@
 ---
-title: Compound Phrases
-description: Compound Phrases
+Description: Compound Phrases
 ms.assetid: 1d647a87-ce3c-4563-9606-318982441aaa
+title: Compound Phrases
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Compound Phrases
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -25,7 +25,6 @@ Another consideration is that in Korean, nouns and pronouns can be the stored in
  
 
  
-
 
 
 

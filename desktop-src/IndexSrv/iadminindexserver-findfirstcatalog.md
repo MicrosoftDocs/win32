@@ -1,19 +1,7 @@
 ---
-title: IAdminIndexServer FindFirstCatalog method
-description: Determines whether a catalog exists. It also initializes the enumeration of catalogs, enabling you to find additional catalogs using the FindNextCatalog method.
+Description: Determines whether a catalog exists. It also initializes the enumeration of catalogs, enabling you to find additional catalogs using the FindNextCatalog method.
 ms.assetid: 8be963c4-7d33-4ec3-adaf-21b27c9ba54c
-keywords:
-- FindFirstCatalog method Indexing Service
-- FindFirstCatalog method Indexing Service , IAdminIndexServer interface
-- IAdminIndexServer interface Indexing Service , FindFirstCatalog method
-topic_type:
-- apiref
-api_name:
-- IAdminIndexServer.FindFirstCatalog
-api_location:
-- Ciodm.dll
-api_type:
-- COM
+title: IAdminIndexServer::FindFirstCatalog method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -23,7 +11,7 @@ ms.date: 05/31/2018
 
 # IAdminIndexServer::FindFirstCatalog method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Determines whether a catalog exists. It also initializes the enumeration of catalogs, enabling you to find additional catalogs using the [**FindNextCatalog**](iadminindexserver-findnextcatalog.md) method.
 
@@ -32,7 +20,7 @@ Determines whether a catalog exists. It also initializes the enumeration of cata
 
 ```C++
 HRESULT FindFirstCatalog(
-  [out, retval] VARIANT_BOOL *pfFound
+  [out, retval] VARIANT_BOOL *pfFound
 );
 ```
 
@@ -80,10 +68,10 @@ EndIf
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -95,10 +83,9 @@ EndIf
 [**IAdminIndexServer**](iadminindexserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

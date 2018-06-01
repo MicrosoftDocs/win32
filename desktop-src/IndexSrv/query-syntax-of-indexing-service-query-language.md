@@ -1,7 +1,7 @@
 ---
-title: Query Syntax of Indexing Service Query Language
-description: Query Syntax of Indexing Service Query Language
+Description: Query Syntax of Indexing Service Query Language
 ms.assetid: d36a90d8-d9d8-48a8-af63-1f4a5ec5a150
+title: Query Syntax of Indexing Service Query Language
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Query Syntax of Indexing Service Query Language
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -26,7 +26,6 @@ This section describes the main features of Dialect 2 of the Indexing Service qu
  
 
  
-
 
 
 

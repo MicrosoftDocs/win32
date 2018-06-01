@@ -1,7 +1,7 @@
 ---
-title: AdvQuery Sample
-description: AdvQuery is an example of a command-line application written in C++ that executes a query using OLE DB Provider interfaces such as ICommand and ICommandTree.
+Description: AdvQuery is an example of a command-line application written in C++ that executes a query using OLE DB Provider interfaces such as ICommand and ICommandTree.
 ms.assetid: 288d6adc-56ac-4f81-b992-48446b917e9f
+title: AdvQuery Sample
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -81,7 +81,6 @@ Finds all files in the "system" catalog on computer "servername" that contain th
  
 
  
-
 
 
 

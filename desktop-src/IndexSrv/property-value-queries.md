@@ -1,7 +1,7 @@
 ---
-title: Property-Value Queries
-description: Property-value queries find documents with value-type properties that match a given criterion.
+Description: Property-value queries find documents with value-type properties that match a given criterion.
 ms.assetid: c0b0bf19-4ae6-4df4-b457-6e6ea70f6999
+title: Property-Value Queries
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Property-Value Queries
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Property-value queries find documents with value-type properties that match a given criterion. The properties for which you can query include basic document information (such as file name and file size), as well as ActiveX properties (such as the document summary stored in documents created by ActiveX-aware applications). For information about property names, see [Property-Name Syntax](property-name-syntax.md).
 
@@ -33,7 +33,6 @@ The following general rules apply to the syntax of property-value queries.
  
 
  
-
 
 
 

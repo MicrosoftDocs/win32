@@ -1,7 +1,7 @@
 ---
-title: About OLE DB Provider for Indexing Service
-description: About OLE DB Provider for Indexing Service
+Description: About OLE DB Provider for Indexing Service
 ms.assetid: 5ea90c4e-0d8b-4e99-ac30-8997bcb66c3c
+title: About OLE DB Provider for Indexing Service
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -33,7 +33,6 @@ For more information about OLE DB objects, see the [OLE DB Programmer's Referenc
  
 
  
-
 
 
 

@@ -1,9 +1,7 @@
 ---
-title: DBPROPSET\_FSCIFRMWRK\_EXT
-description: DBPROPSET\_FSCIFRMWRK\_EXT
+Description: DBPROPSET\_FSCIFRMWRK\_EXT
 ms.assetid: b53486be-b9c0-435b-b002-16c815b1b5f2
-keywords:
-- DBPROPSET_FSCIFRMWRK_EXT
+title: DBPROPSET\_FSCIFRMWRK\_EXT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -14,7 +12,7 @@ ms.date: 05/31/2018
 # DBPROPSET\_FSCIFRMWRK\_EXT
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -87,7 +85,6 @@ Property ID 7. Type of query. Reserved for future use.
  
 
  
-
 
 
 

@@ -1,9 +1,7 @@
 ---
-title: DBPROPSET\_QUERYEXT
-description: DBPROPSET\_QUERYEXT
+Description: DBPROPSET\_QUERYEXT
 ms.assetid: 1732d90c-4402-44d4-bea1-dac90b867082
-keywords:
-- DBPROPSET_QUERYEXT
+title: DBPROPSET\_QUERYEXT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -14,7 +12,7 @@ ms.date: 05/31/2018
 # DBPROPSET\_QUERYEXT
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -66,7 +64,6 @@ Property ID 4. When this value is TRUE, data returned is in [**PROPVARIANT**](ht
  
 
  
-
 
 
 

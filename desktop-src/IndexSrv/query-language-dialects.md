@@ -1,7 +1,7 @@
 ---
-title: Query-Language Dialects
-description: Query-Language Dialects
+Description: Query-Language Dialects
 ms.assetid: 2cf61134-2096-4de4-b231-d23502293889
+title: Query-Language Dialects
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Query-Language Dialects
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -31,7 +31,6 @@ For details about semantics and use of the query language dialects, see [Indexin
  
 
  
-
 
 
 

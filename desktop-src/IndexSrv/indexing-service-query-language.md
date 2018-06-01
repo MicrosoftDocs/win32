@@ -1,7 +1,7 @@
 ---
-title: Indexing Service Query Language
-description: Indexing Service Query Language
+Description: Indexing Service Query Language
 ms.assetid: 86151e29-0c08-41fe-a33a-9d9bc4fef749
+title: Indexing Service Query Language
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Indexing Service Query Language
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -37,7 +37,6 @@ For a reference to the Indexing Service query language, see [Query-Language Dial
  
 
  
-
 
 
 

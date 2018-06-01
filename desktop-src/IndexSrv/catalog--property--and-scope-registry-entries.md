@@ -1,7 +1,7 @@
 ---
-title: Catalog, Property, and Scope Registry Entries
-description: Catalog, Property, and Scope Registry Entries
+Description: Catalog, Property, and Scope Registry Entries
 ms.assetid: 8453a660-c93a-4986-8c1b-0b359925ff47
+title: Catalog, Property, and Scope Registry Entries
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Catalog, Property, and Scope Registry Entries
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -40,7 +40,6 @@ Each catalog subkey can include an alternative entry with a name identical to ma
  
 
  
-
 
 
 

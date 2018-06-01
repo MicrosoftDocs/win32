@@ -1,7 +1,7 @@
 ---
-title: Variables Affecting the Formatting of Results
-description: Variables Affecting the Formatting of Results
+Description: Variables Affecting the Formatting of Results
 ms.assetid: 8c6a9cf3-3022-45d3-9fe6-5e80a37eb956
+title: Variables Affecting the Formatting of Results
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Variables Affecting the Formatting of Results
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -38,7 +38,6 @@ A set of variables taken from the .idq file will be used to enclose and separate
  
 
  
-
 
 
 

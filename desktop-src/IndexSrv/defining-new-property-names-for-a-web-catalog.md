@@ -1,7 +1,7 @@
 ---
-title: Defining New Property Names for a Web Catalog
-description: Defining New Property Names for a Web Catalog
+Description: Defining New Property Names for a Web Catalog
 ms.assetid: 7482fbf4-7c45-46b2-9efe-db07eb07249a
+title: Defining New Property Names for a Web Catalog
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Defining New Property Names for a Web Catalog
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -91,7 +91,6 @@ For more information about defining columns and properties, see the following to
  
 
  
-
 
 
 

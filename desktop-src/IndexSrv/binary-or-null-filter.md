@@ -1,7 +1,7 @@
 ---
-title: Binary or Null Filter
-description: Binary or Null Filter
+Description: Binary or Null Filter
 ms.assetid: e4e536e4-ec78-413f-99b3-1a2aea4410df
+title: Binary or Null Filter
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -21,7 +21,6 @@ When a registered binary file is encountered, the null filter (in Query.dll) is 
  
 
  
-
 
 
 

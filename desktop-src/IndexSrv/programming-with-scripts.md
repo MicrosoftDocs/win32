@@ -1,7 +1,7 @@
 ---
-title: Programming with Scripts
-description: Programming with Scripts
+Description: Programming with Scripts
 ms.assetid: 25f6d107-e30b-46b9-b03b-fbdca8b2b494
+title: Programming with Scripts
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Programming with Scripts
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -34,7 +34,6 @@ For information about using scripts with a Web-server tool, see [Using Indexing 
  
 
  
-
 
 
 

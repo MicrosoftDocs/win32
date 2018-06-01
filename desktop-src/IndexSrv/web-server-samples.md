@@ -1,7 +1,7 @@
 ---
-title: Web Server Samples
-description: Web Server Samples
+Description: Web Server Samples
 ms.assetid: 0d5ca53b-1c8c-4478-a508-11f939a2f1e4
+title: Web Server Samples
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Web Server Samples
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -24,7 +24,6 @@ The web server samples illustrate dynamic HTML (DHTML) and Active Server Pages (
  
 
  
-
 
 
 

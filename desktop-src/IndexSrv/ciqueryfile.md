@@ -1,7 +1,7 @@
 ---
-title: CiQueryFile
-description: CiQueryFile
+Description: CiQueryFile
 ms.assetid: 5fe2bb09-c576-4caf-97c0-36f74e028d09
+title: CiQueryFile
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # CiQueryFile
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -23,7 +23,6 @@ Specifies the *Virtual path* of the .idq file containing the \[Names\] section d
  
 
  
-
 
 
 

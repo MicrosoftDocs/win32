@@ -1,7 +1,7 @@
 ---
-title: Creating Query Forms
-description: Creating Query Forms
+Description: Creating Query Forms
 ms.assetid: 40615954-2ec8-4abc-b7d8-88e68c88e0c9
+title: Creating Query Forms
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Creating Query Forms
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -38,7 +38,6 @@ Query forms for server-side scripting may be created in two ways:
  
 
  
-
 
 
 

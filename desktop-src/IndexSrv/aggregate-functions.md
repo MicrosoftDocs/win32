@@ -1,7 +1,7 @@
 ---
-title: Aggregate Functions
-description: Aggregate Functions
+Description: Aggregate Functions
 ms.assetid: faec3725-4cc2-4a0c-98a3-68b2774ad99b
+title: Aggregate Functions
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -30,7 +30,6 @@ These are aggregate functions, to be used in the aggregation operation, includin
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: MaxActiveQueryThreads
-description: MaxActiveQueryThreads
+Description: MaxActiveQueryThreads
 ms.assetid: 6646e4c4-9a52-42e0-b0df-86cec9e27be1
+title: MaxActiveQueryThreads
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # MaxActiveQueryThreads
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -56,7 +56,6 @@ The product of the value of the **MaxActiveQueryThreads** entry and the value of
  
 
  
-
 
 
 

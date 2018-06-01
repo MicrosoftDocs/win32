@@ -1,7 +1,7 @@
 ---
-title: Indexing Remote Computers
-description: Indexing Remote Computers
+Description: Indexing Remote Computers
 ms.assetid: 2e5d1949-4302-4482-b3d2-f23e8ff3a805
+title: Indexing Remote Computers
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Indexing Remote Computers
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -25,7 +25,6 @@ This topic contains the following sections to help you index remote computers:
  
 
  
-
 
 
 

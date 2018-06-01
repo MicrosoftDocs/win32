@@ -1,7 +1,7 @@
 ---
-title: Navigating Between Pages in Query Results
-description: Navigating Between Pages in Query Results
+Description: Navigating Between Pages in Query Results
 ms.assetid: c2e7cf38-1409-4313-a14e-737acbc92e69
+title: Navigating Between Pages in Query Results
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Navigating Between Pages in Query Results
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -97,7 +97,6 @@ The following example shows how the buttons for going to adjacent pages can be g
  
 
  
-
 
 
 

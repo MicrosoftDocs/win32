@@ -1,7 +1,7 @@
 ---
-title: Using Visual Basic Scripting Edition with Indexing Service
-description: Using Visual Basic Scripting Edition with Indexing Service
+Description: Using Visual Basic Scripting Edition with Indexing Service
 ms.assetid: 2c029842-0b62-4855-96d0-2bafe07dc569
+title: Using Visual Basic Scripting Edition with Indexing Service
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using Visual Basic Scripting Edition with Indexing Service
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 ## In this section
 
@@ -30,7 +30,6 @@ ms.date: 05/31/2018
  
 
  
-
 
 
 

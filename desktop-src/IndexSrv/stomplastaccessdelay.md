@@ -1,7 +1,7 @@
 ---
-title: StompLastAccessDelay
-description: StompLastAccessDelay
+Description: StompLastAccessDelay
 ms.assetid: 50c6088e-6d61-4f15-8b9d-9880f34a1636
+title: StompLastAccessDelay
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # StompLastAccessDelay
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -50,7 +50,6 @@ Files with last access times before the time determined by the value of the **St
  
 
  
-
 
 
 

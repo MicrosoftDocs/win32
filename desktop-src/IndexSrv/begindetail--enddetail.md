@@ -1,7 +1,7 @@
 ---
-title: begindetail, enddetail
-description: begindetail, enddetail
+Description: begindetail, enddetail
 ms.assetid: 7a912cbc-969f-46c5-9f96-267ee3253cae
+title: begindetail, enddetail
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -47,7 +47,6 @@ This query does the following:
  
 
  
-
 
 
 

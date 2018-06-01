@@ -1,7 +1,7 @@
 ---
-title: OLE DB Objects Used by Indexing Service
-description: OLE DB Objects Used by Indexing Service
+Description: OLE DB Objects Used by Indexing Service
 ms.assetid: b8af20ec-9409-4d70-ba27-8d6348bc3346
+title: OLE DB Objects Used by Indexing Service
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # OLE DB Objects Used by Indexing Service
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -43,7 +43,6 @@ Simply put, Indexing Service uses the OLE DB object model to manipulate the inde
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Read-Only Variables Available in .Htx Files
-description: Read-Only Variables Available in .Htx Files
+Description: Read-Only Variables Available in .Htx Files
 ms.assetid: 0167a1a9-0481-4b26-aa4c-dc20f212a731
+title: Read-Only Variables Available in .Htx Files
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Read-Only Variables Available in .Htx Files
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -50,7 +50,6 @@ The following variables are available for use in .htx files. These are set based
  
 
  
-
 
 
 

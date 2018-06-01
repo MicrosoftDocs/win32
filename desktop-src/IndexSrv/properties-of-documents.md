@@ -1,7 +1,7 @@
 ---
-title: Properties of Documents
-description: Properties of Documents
+Description: Properties of Documents
 ms.assetid: 103ddfc0-b431-4a52-bf3a-acaf39e34bc2
+title: Properties of Documents
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Properties of Documents
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -37,7 +37,6 @@ Indexing Service stores and accesses its information using the Microsoft [OLE DB
  
 
  
-
 
 
 

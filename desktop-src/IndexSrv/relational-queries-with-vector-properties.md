@@ -1,7 +1,7 @@
 ---
-title: Relational Queries with Vector Properties
-description: Relational Queries with Vector Properties
+Description: Relational Queries with Vector Properties
 ms.assetid: 1f64bff7-bbfb-4856-a5aa-9cc00cf255b2
+title: Relational Queries with Vector Properties
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Relational Queries with Vector Properties
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -40,7 +40,6 @@ The {/prop} construct is used to separate property clauses but it can usually be
  
 
  
-
 
 
 

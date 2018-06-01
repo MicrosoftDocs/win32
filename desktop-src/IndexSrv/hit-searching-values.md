@@ -1,17 +1,7 @@
 ---
-title: Hit-Searching Values
-description: Values 0xHHHH16A0 to 0xHHHH16AF are return values produced by calling the methods of the ISearchQueryHits interface when searching for query hits. The following table gives the hit-searching values in alphabetical order.
+Description: Values 0xHHHH16A0 to 0xHHHH16AF are return values produced by calling the methods of the ISearchQueryHits interface when searching for query hits. The following table gives the hit-searching values in alphabetical order.
 ms.assetid: 0a38627d-af78-484a-be35-62f121244345
-topic_type:
-- apiref
-api_name:
-- SEARCH_E_NOMONIKER
-- SEARCH_E_NOREGION
-- SEARCH_S_NOMOREHITS
-api_location:
-- Cierror.h
-api_type:
-- HeaderDef
+title: Hit-Searching Values
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -21,7 +11,7 @@ ms.date: 05/31/2018
 
 # Hit-Searching Values
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Values 0x*HHHH*16A0 to 0x*HHHH*16AF are return values produced by calling the methods of the **ISearchQueryHits** interface when searching for query hits. The following table gives the hit-searching values in alphabetical order.
 
@@ -41,18 +31,17 @@ Values 0x*HHHH*16A0 to 0x*HHHH*16AF are return values produced by calling the me
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Cierror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
-
+ 
 
 
 

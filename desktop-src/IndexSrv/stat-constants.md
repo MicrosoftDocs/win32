@@ -1,25 +1,7 @@
 ---
-title: STAT\_\ Constants
-description: Reflects the execution (fill) status and the reliability status of a query.
+Description: Reflects the execution (fill) status and the reliability status of a query.
 ms.assetid: 133a6f43-a708-45f3-8b36-3d3bcf070f82
-topic_type:
-- apiref
-api_name:
-- STAT_BUSY
-- STAT_ERROR
-- STAT_DONE
-- STAT_REFRESH
-- STAT_PARTIAL_SCOPE
-- STAT_NOISE_WORDS
-- STAT_CONTENT_OUT_OF_DATE
-- STAT_REFRESH_INCOMPLETE
-- STAT_CONTENT_QUERY_INCOMPLETE
-- STAT_TIME_LIMIT_EXCEEDED
-- STAT_SHARING_VIOLATION
-api_location:
-- Ntquery.h
-api_type:
-- HeaderDef
+title: STAT\_\* Constants
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -29,7 +11,7 @@ ms.date: 05/31/2018
 
 # STAT\_\* Constants
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Reflects the execution (fill) status and the reliability status of a query.
 
@@ -107,10 +89,10 @@ if ( SUCCEEDED( hr ) )
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Ntquery.h</dt> </dl> |
 
 
@@ -125,10 +107,9 @@ if ( SUCCEEDED( hr ) )
 [DBPROPSET\_MSIDXS\_ROWSETEXT](dbpropset-msidxs-rowsetext.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: .Htx File Errors
-description: .Htx File Errors
+Description: .Htx File Errors
 ms.assetid: 4c2bb15f-fcdb-4d3a-9627-dc96e2c47993
+title: .Htx File Errors
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # .Htx File Errors
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -44,7 +44,6 @@ These messages are for Internet Data Query (.idq) processing only and are return
  
 
  
-
 
 
 

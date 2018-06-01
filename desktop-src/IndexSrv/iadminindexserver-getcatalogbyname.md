@@ -1,19 +1,7 @@
 ---
-title: IAdminIndexServer GetCatalogByName method
-description: Retrieves an existing catalog object from a catalog collection, given its name.
+Description: Retrieves an existing catalog object from a catalog collection, given its name.
 ms.assetid: 11a10912-3c17-4c61-ad55-7ce7597b4faf
-keywords:
-- GetCatalogByName method Indexing Service
-- GetCatalogByName method Indexing Service , IAdminIndexServer interface
-- IAdminIndexServer interface Indexing Service , GetCatalogByName method
-topic_type:
-- apiref
-api_name:
-- IAdminIndexServer.GetCatalogByName
-api_location:
-- Ciodm.dll
-api_type:
-- COM
+title: IAdminIndexServer::GetCatalogByName method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -23,7 +11,7 @@ ms.date: 05/31/2018
 
 # IAdminIndexServer::GetCatalogByName method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Retrieves an existing catalog object from a catalog collection, given its name.
 
@@ -32,8 +20,8 @@ Retrieves an existing catalog object from a catalog collection, given its name.
 
 ```C++
 HRESULT GetCatalogByName(
-  [in]          BSTR      bstrCatalogName,
-  [out, retval] IDispatch **pDisp
+  [in]          BSTR      bstrCatalogName,
+  [out, retval] IDispatch **pDisp
 );
 ```
 
@@ -81,10 +69,10 @@ Set objCatAdm = objAdminIS.GetCatalogByName("Sources")
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -96,10 +84,9 @@ Set objCatAdm = objAdminIS.GetCatalogByName("Sources")
 [**IAdminIndexServer**](iadminindexserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

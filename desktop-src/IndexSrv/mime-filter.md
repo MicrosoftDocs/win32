@@ -1,7 +1,7 @@
 ---
-title: MIME Filter
-description: MIME Filter
+Description: MIME Filter
 ms.assetid: 3e0cbff4-adab-442b-b781-ebd93d69a2b9
+title: MIME Filter
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # MIME Filter
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -21,7 +21,6 @@ The MIME implementation for the [IFilter](/windows/desktop/api/Filter/nn-filter-
  
 
  
-
 
 
 

@@ -1,19 +1,7 @@
 ---
-title: IixssoQuery SetQueryFromURL method
-description: Sets the properties on the query object of a Web client request.
+Description: Sets the properties on the query object of a Web client request.
 ms.assetid: ae284340-7b1d-4be9-a9d9-d2d7ee3c2d87
-keywords:
-- SetQueryFromURL method Indexing Service
-- SetQueryFromURL method Indexing Service , IixssoQuery interface
-- IixssoQuery interface Indexing Service , SetQueryFromURL method
-topic_type:
-- apiref
-api_name:
-- IixssoQuery.SetQueryFromURL
-api_location:
-- Ixsso.dll
-api_type:
-- COM
+title: IixssoQuery::SetQueryFromURL method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -23,7 +11,7 @@ ms.date: 05/31/2018
 
 # IixssoQuery::SetQueryFromURL method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Sets the properties on the query object of a Web client request.
 
@@ -32,7 +20,7 @@ Sets the properties on the query object of a Web client request.
 
 ```C++
 HRESULT SetQueryFromURL(
-  [in] BSTR pwszQuery
+  [in] BSTR pwszQuery
 );
 ```
 
@@ -82,10 +70,10 @@ objQuery.SetQueryFromURL("qu=%40size+%3E+10000&amp;so=rank%5bd%5d&amp;mh=200")
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -97,10 +85,9 @@ objQuery.SetQueryFromURL("qu=%40size+%3E+10000&amp;so=rank%5bd%5d&amp;mh=200")
 [**IixssoQuery**](iixssoquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

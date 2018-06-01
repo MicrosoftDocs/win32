@@ -1,7 +1,7 @@
 ---
-title: Setting MS.Locale
-description: Setting MS.Locale
+Description: Setting MS.Locale
 ms.assetid: 6f78509a-5e89-4dc9-95ad-de852fd8bd12
+title: Setting MS.Locale
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Setting MS.Locale
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -41,7 +41,6 @@ When you have included **MS.Locale** in your HTML files, clients can query for t
  
 
  
-
 
 
 

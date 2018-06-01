@@ -1,7 +1,7 @@
 ---
-title: Controlling an Active Server Pages Search
-description: Controlling an Active Server Pages Search
+Description: Controlling an Active Server Pages Search
 ms.assetid: 195067e0-1ea3-40e1-9dee-e890b0df6fe9
+title: Controlling an Active Server Pages Search
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Controlling an Active Server Pages Search
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -104,7 +104,6 @@ Restricts the scope to the listed virtual directories. In this example, Indexing
  
 
  
-
 
 
 

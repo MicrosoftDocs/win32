@@ -1,7 +1,7 @@
 ---
-title: Effect of Parameters on Query Performance
-description: Effect of Parameters on Query Performance
+Description: Effect of Parameters on Query Performance
 ms.assetid: 03cf02c6-b21a-42a7-944d-06fce8a052cf
+title: Effect of Parameters on Query Performance
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Effect of Parameters on Query Performance
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -21,7 +21,6 @@ The fastest query is a *sequential* query that uses the *content index*. Certain
  
 
  
-
 
 
 

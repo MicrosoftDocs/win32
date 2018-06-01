@@ -1,7 +1,7 @@
 ---
-title: Constructing Language Resource Components
-description: Constructing Language Resource Components
+Description: Constructing Language Resource Components
 ms.assetid: 9d4d5936-d2ae-407c-a2bd-d838926c9523
+title: Constructing Language Resource Components
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Constructing Language Resource Components
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -27,7 +27,6 @@ This section includes the following topics:
  
 
  
-
 
 
 

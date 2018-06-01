@@ -1,21 +1,7 @@
 ---
-title: IixssoQuery OptimizeFor property
-description: Controls whether queries are optimized for better performance or for a greater number of hits.
+Description: Controls whether queries are optimized for better performance or for a greater number of hits.
 ms.assetid: 1fb853da-0e7a-4330-b722-346fcc469d78
-keywords:
-- OptimizeFor property Indexing Service
-- OptimizeFor property Indexing Service , IixssoQuery interface
-- IixssoQuery interface Indexing Service , OptimizeFor property
-topic_type:
-- apiref
-api_name:
-- IixssoQuery.OptimizeFor
-- IixssoQuery.get_OptimizeFor
-- IixssoQuery.put_OptimizeFor
-api_location:
-- Ixsso.dll
-api_type:
-- COM
+title: IixssoQuery::OptimizeFor property
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -25,7 +11,7 @@ ms.date: 05/31/2018
 
 # IixssoQuery::OptimizeFor property
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Controls whether queries are optimized for better performance or for a greater number of hits.
 
@@ -36,11 +22,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_OptimizeFor(
-  [in]          BSTR val
+  [in]          BSTR val
 );
 
 HRESULT get_OptimizeFor(
-  [out, retval] BSTR *val
+  [out, retval] BSTR *val
 );
 ```
 
@@ -64,7 +50,7 @@ The default is "recall". If "performance", Indexing Service first collects the m
 > [!Note]  
 > Optimizing for performance may result in less than the expected number of hits for queries in which scope checks or security checks remove hits.
 
- 
+ 
 
 </dd> <dt>
 
@@ -91,10 +77,10 @@ In former releases of Indexing Service, this property replaces the .idq paramete
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -106,10 +92,9 @@ In former releases of Indexing Service, this property replaces the .idq paramete
 [**IixssoQuery**](iixssoquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

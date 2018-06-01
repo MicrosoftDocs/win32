@@ -1,7 +1,7 @@
 ---
-title: Allocating a DBCOMMANDTREE Structure
-description: Allocating a DBCOMMANDTREE Structure
+Description: Allocating a DBCOMMANDTREE Structure
 ms.assetid: 0e2afeef-48dc-4b08-a610-b2fde6774b4c
+title: Allocating a DBCOMMANDTREE Structure
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -60,7 +60,6 @@ DBCOMMANDTREE* PctAllocNode(
  
 
  
-
 
 
 

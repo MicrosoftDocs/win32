@@ -1,56 +1,7 @@
 ---
-title: Query-Parsing Values
-description: Values 0xHHHH1650 to 0xHHHH167F are query-return values produced by utilities in query.lib. The following table gives the query-parsing values in alphabetical order.
+Description: Values 0xHHHH1650 to 0xHHHH167F are query-return values produced by utilities in query.lib. The following table gives the query-parsing values in alphabetical order.
 ms.assetid: ecb7a343-6921-49b8-8b31-717370787e6f
-topic_type:
-- apiref
-api_name:
-- QPARSE_E_EXPECTING_BRACE
-- QPARSE_E_EXPECTING_COMMA
-- QPARSE_E_EXPECTING_CURRENCY
-- QPARSE_E_EXPECTING_DATE
-- QPARSE_E_EXPECTING_EOS
-- QPARSE_E_EXPECTING_GUID
-- QPARSE_E_EXPECTING_INTEGER
-- QPARSE_E_EXPECTING_PAREN
-- QPARSE_E_EXPECTING_PHRASE
-- QPARSE_E_EXPECTING_PROPERTY
-- QPARSE_E_EXPECTING_REAL
-- QPARSE_E_EXPECTING_REGEX
-- QPARSE_E_EXPECTING_REGEX_PROPERTY
-- QPARSE_E_INVALID_GROUPING
-- QPARSE_E_INVALID_LITERAL
-- QPARSE_E_INVALID_QUERY
-- QPARSE_E_INVALID_RANKMETHOD
-- QPARSE_E_INVALID_SORT_ORDER
-- QPARSE_E_NO_SUCH_PROPERTY
-- QPARSE_E_NO_SUCH_SORT_PROPERTY
-- QPARSE_E_NOT_YET_IMPLEMENTED
-- QPARSE_E_UNEXPECTED_EOS
-- QPARSE_E_UNEXPECTED_NOT
-- QPARSE_E_UNSUPPORTED_PROPERTY_TYPE
-- QPARSE_E_WEIGHT_OUT_OF_RANGE
-- QPLIST_E_BAD_GUID
-- QPLIST_E_BYREF_USED_WITHOUT_PTRTYPE
-- QPLIST_E_CANT_OPEN_FILE
-- QPLIST_E_CANT_SET_PROPERTY
-- QPLIST_E_DUPLICATE
-- QPLIST_E_EXPECTING_CLOSE_PAREN
-- QPLIST_E_EXPECTING_GUID
-- QPLIST_E_EXPECTING_INTEGER
-- QPLIST_E_EXPECTING_NAME
-- QPLIST_E_EXPECTING_PROP_SPEC
-- QPLIST_E_EXPECTING_TYPE
-- QPLIST_E_READ_ERROR
-- QPLIST_E_UNRECOGNIZED_TYPE
-- QPLIST_E_VECTORBYREF_USED_ALONE
-- QPLIST_S_DUPLICATE
-- QUTIL_E_CANT_CONVERT_VROOT
-- QUTIL_E_INVALID_CODEPAGE
-api_location:
-- Cierror.h
-api_type:
-- HeaderDef
+title: Query-Parsing Values
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -60,7 +11,7 @@ ms.date: 05/31/2018
 
 # Query-Parsing Values
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Values 0x*HHHH*1650 to 0x*HHHH*167F are query-return values produced by utilities in query.lib. The following table gives the query-parsing values in alphabetical order.
 
@@ -119,18 +70,17 @@ Values 0x*HHHH*1650 to 0x*HHHH*167F are query-return values produced by utilitie
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Cierror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
-
+ 
 
 
 

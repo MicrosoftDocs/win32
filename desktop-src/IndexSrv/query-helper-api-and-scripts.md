@@ -1,7 +1,7 @@
 ---
-title: Query Helper API and Scripts
-description: Query Helper API and Scripts
+Description: Query Helper API and Scripts
 ms.assetid: 7571f851-e100-4e53-9b5c-4722d9950cd0
+title: Query Helper API and Scripts
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Query Helper API and Scripts
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -36,7 +36,6 @@ The Ixsso.dll file contains the objects of the Query Helper API.
  
 
  
-
 
 
 

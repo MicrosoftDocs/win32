@@ -1,9 +1,7 @@
 ---
-title: DBCOMMANDTREE
-description: DBCOMMANDTREE
+Description: DBCOMMANDTREE
 ms.assetid: 141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31
-keywords:
-- DBCOMMANDTREE
+title: DBCOMMANDTREE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -14,9 +12,9 @@ ms.date: 05/31/2018
 # DBCOMMANDTREE
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 The **DBCOMMANDTREE** structure is the primary data structure used to represent any node in an OLE DB command tree, as described in the [Data Manipulation Operators](data-manipulation-operators.md) and Data Definition Operators section of this reference. This structure is used for each data manipulation language (DML) or data definition language (DDL) node in an OLE DB command tree.
 
@@ -96,18 +94,17 @@ typedef struct tagDBCOMMANDTREE {
 
 
 
- 
+ 
 
 ### Remarks
 
-Many operations create a binding environment. For example, a DBOP\_select operation has two inputs   a table and a Boolean predicate. (For more information on this operation, see [Operators with Two Variants for Ordered and Non-Ordered Tables](operators-with-two-variants-for-ordered-and-non-ordered-tables.md).) By virtue of the "select" operation, the table becomes the binding environment for the predicate. That means that the predicate may freely reference column names defined in the table. Note that not all bindings must come from the nearest table operation. For example, there might be multiple table operations within an "exist" expression, and any predicate may reference a column defined outside the "exist" expression. (In SQL, this is called a "correlated subquery.")
+Many operations create a binding environment. For example, a DBOP\_select operation has two inputs — a table and a Boolean predicate. (For more information on this operation, see [Operators with Two Variants for Ordered and Non-Ordered Tables](operators-with-two-variants-for-ordered-and-non-ordered-tables.md).) By virtue of the "select" operation, the table becomes the binding environment for the predicate. That means that the predicate may freely reference column names defined in the table. Note that not all bindings must come from the nearest table operation. For example, there might be multiple table operations within an "exist" expression, and any predicate may reference a column defined outside the "exist" expression. (In SQL, this is called a "correlated subquery.")
 
 The typical size of a **DBCOMMANDTREE** structure for a node is 24 bytes. However, operators may store some specific information in the value field of the node. For programming convenience, the union field includes branches representing some common types that can fit within 8 bytes. Variable-length types are referenced via a pointer to the corresponding structure (such as [**DBTEXT**](dbtext.md)). The discriminator for the union is of type **WORD** rather than [**DBVALUEKIND**](dbvaluekind.md) so that it is possible to store node values such as DBVALUEKIND\_VECTOR \| DBVALUEKIND\_GUID, DBVALUEKIND\_BYREF \| DBVALUEKIND\_UI4, or DBVALUEKIND\_SAFEARRAY \| DBVALUEKIND\_I4.
 
- 
+ 
 
- 
-
+ 
 
 
 

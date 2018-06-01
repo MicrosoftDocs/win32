@@ -1,7 +1,7 @@
 ---
-title: Language Resource Samples
-description: Language Resource Samples
+Description: Language Resource Samples
 ms.assetid: 48241f14-3dba-4b55-947a-fd636361ed1e
+title: Language Resource Samples
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Language Resource Samples
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -23,7 +23,6 @@ This section describes language resource samples available in the Platform SDK. 
  
 
  
-
 
 
 

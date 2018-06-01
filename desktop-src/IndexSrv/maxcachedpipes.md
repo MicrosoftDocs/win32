@@ -1,7 +1,7 @@
 ---
-title: MaxCachedPipes
-description: MaxCachedPipes
+Description: MaxCachedPipes
 ms.assetid: 12c41130-f02d-49d7-b522-eb6fe3f615b1
+title: MaxCachedPipes
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # MaxCachedPipes
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -49,7 +49,6 @@ The value of an identically named entry under the [**Catalog**](catalog--propert
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Applying Language Resources
-description: Applying Language Resources
+Description: Applying Language Resources
 ms.assetid: d74559a9-e415-4b4d-914c-09b0980e59f4
+title: Applying Language Resources
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -16,14 +16,13 @@ ms.date: 05/31/2018
 
  
 
-The indexing and querying processes for Indexing Service use language resource dynamic-link libraries (DLLs) to bind to [**IWordBreaker**](https://www.bing.com/search?q=**IWordBreaker**) and [**IStemmer**](https://www.bing.com/search?q=**IStemmer**) interface implementations for a specific language locale.
+The indexing and querying processes for Indexing Service use language resource dynamic-link libraries (DLLs) to bind to [**IWordBreaker**](https://msdn.microsoft.com/library/windows/desktop/ms691079) and [**IStemmer**](https://msdn.microsoft.com/library/windows/desktop/ms690983) interface implementations for a specific language locale.
 
 For more information about registering custom language resource components, see [Language-Specific Registry Entries](language-specific-registry-entries.md).
 
  
 
  
-
 
 
 

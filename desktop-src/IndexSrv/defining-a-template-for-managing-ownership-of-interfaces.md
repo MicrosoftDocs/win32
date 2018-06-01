@@ -1,7 +1,7 @@
 ---
-title: Defining a Template for Managing Ownership of Interfaces
-description: Defining a Template for Managing Ownership of Interfaces
+Description: Defining a Template for Managing Ownership of Interfaces
 ms.assetid: 89d32113-1b42-4e6e-97e7-3f44f7c2b073
+title: Defining a Template for Managing Ownership of Interfaces
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Defining a Template for Managing Ownership of Interfaces
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -43,7 +43,6 @@ private:
  
 
  
-
 
 
 

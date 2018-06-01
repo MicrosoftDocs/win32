@@ -1,7 +1,7 @@
 ---
-title: Valid Locale Identifiers
-description: Valid Locale Identifiers
+Description: Valid Locale Identifiers
 ms.assetid: f082512e-f2dc-4e1f-83bf-c05b57402eee
+title: Valid Locale Identifiers
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Valid Locale Identifiers
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -94,7 +94,6 @@ HTTP_ACCEPT_LANGUAGE=EN, FR, CZ
  
 
  
-
 
 
 

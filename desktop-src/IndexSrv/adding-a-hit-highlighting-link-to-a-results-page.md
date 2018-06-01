@@ -1,7 +1,7 @@
 ---
-title: Adding a Hit-Highlighting Link to a Results Page
-description: Adding a Hit-Highlighting Link to a Results Page
+Description: Adding a Hit-Highlighting Link to a Results Page
 ms.assetid: e1a9a89c-0528-463a-9f78-1d5e9adf781b
+title: Adding a Hit-Highlighting Link to a Results Page
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -32,7 +32,6 @@ Here, *server\_name* is a variable storing the name of the server on which the w
  
 
  
-
 
 
 

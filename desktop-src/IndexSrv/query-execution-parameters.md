@@ -1,7 +1,7 @@
 ---
-title: Query Execution Parameters
-description: Query Execution Parameters
+Description: Query Execution Parameters
 ms.assetid: 9134acb9-13c6-488c-9e88-5f3868f601a4
+title: Query Execution Parameters
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Query Execution Parameters
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -27,7 +27,6 @@ A number of situations leading to unexpected query results are flagged by using 
  
 
  
-
 
 
 

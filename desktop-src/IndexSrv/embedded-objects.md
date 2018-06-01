@@ -1,7 +1,7 @@
 ---
-title: Embedded Objects
-description: Embedded Objects
+Description: Embedded Objects
 ms.assetid: 823f9dbe-82cd-4186-a465-1e28fda2a6e6
+title: Embedded Objects
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Embedded Objects
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -21,7 +21,6 @@ The parent container of an object is responsible for binding to the **IFilter** 
  
 
  
-
 
 
 

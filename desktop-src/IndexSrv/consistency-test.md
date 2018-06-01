@@ -1,7 +1,7 @@
 ---
-title: Consistency Test
-description: Consistency Test
+Description: Consistency Test
 ms.assetid: 3b557fd0-2527-4ee7-a67b-defd5f027d12
+title: Consistency Test
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Consistency Test
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -24,7 +24,6 @@ The ifilttxt.exe program reinitializes the [**IFilter**](/windows/desktop/api/Fi
  
 
  
-
 
 
 

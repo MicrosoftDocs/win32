@@ -1,7 +1,7 @@
 ---
-title: Word Breaker and Stemmer Sample
-description: Word Breaker and Stemmer Sample
+Description: Word Breaker and Stemmer Sample
 ms.assetid: ba252bb4-18bf-4837-9c11-b4a2c76b9964
+title: Word Breaker and Stemmer Sample
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Word Breaker and Stemmer Sample
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -50,13 +50,13 @@ The following table shows source files for the lrsample sample and provides a sh
 
 
 
-| File         | Description                                                                                                                                                                                                                            |
-|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| File         | Description                                                                                                                                                                                                                                      |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Lrsample.cxx | C++ source file that contains the [**IWordBreaker**](https://www.bing.com/search?q=**IWordBreaker**) interface implementation (**CSampleWordBreaker**), the [**IStemmer**](https://www.bing.com/search?q=**IStemmer**) interface implementation (**CSampleStemmer**), and the DLL export functions |
-| Lrsample.hxx | C++ header file that contains the class definitions for **CSampleWordBreaker**, **CSampleStemmer**, and **CLanguageResrouceSampleCF**, the class factory for the sample                                                                |
-| Langreg.hxx  | C++ header file that contains utilities for registering language resources                                                                                                                                                             |
-| Lrsample.def | Definition file that contains definitions for DLL export functions                                                                                                                                                                     |
-| Minici.hxx   | C++ header file that contains utility functions for the sample                                                                                                                                                                         |
+| Lrsample.hxx | C++ header file that contains the class definitions for **CSampleWordBreaker**, **CSampleStemmer**, and **CLanguageResrouceSampleCF**, the class factory for the sample                                                                          |
+| Langreg.hxx  | C++ header file that contains utilities for registering language resources                                                                                                                                                                       |
+| Lrsample.def | Definition file that contains definitions for DLL export functions                                                                                                                                                                               |
+| Minici.hxx   | C++ header file that contains utility functions for the sample                                                                                                                                                                                   |
 
 
 
@@ -73,7 +73,6 @@ Error handling in the language resource sample is rudimentary. The sample handle
  
 
  
-
 
 
 

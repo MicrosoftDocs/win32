@@ -1,7 +1,7 @@
 ---
-title: Using Indexing Service with Web Servers
-description: Using Indexing Service with Web Servers
+Description: Using Indexing Service with Web Servers
 ms.assetid: 2d7fd5ec-0e5b-4f08-85a6-541e9394fac4
+title: Using Indexing Service with Web Servers
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Using Indexing Service with Web Servers
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -41,7 +41,6 @@ In addition to querying, you can develop webpages to administer the content inde
  
 
  
-
 
 
 

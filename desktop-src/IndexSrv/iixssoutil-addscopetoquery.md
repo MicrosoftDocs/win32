@@ -1,19 +1,7 @@
 ---
-title: IixssoUtil AddScopeToQuery method
-description: Adds a search path to the Query property of the Query object.
+Description: Adds a search path to the Query property of the Query object.
 ms.assetid: 8aa75451-81d4-4180-aff2-4f98d1f947da
-keywords:
-- AddScopeToQuery method Indexing Service
-- AddScopeToQuery method Indexing Service , IixssoUtil interface
-- IixssoUtil interface Indexing Service , AddScopeToQuery method
-topic_type:
-- apiref
-api_name:
-- IixssoUtil.AddScopeToQuery
-api_location:
-- Ixsso.dll
-api_type:
-- COM
+title: IixssoUtil::AddScopeToQuery method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -23,7 +11,7 @@ ms.date: 05/31/2018
 
 # IixssoUtil::AddScopeToQuery method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Adds a search path to the Query property of the Query object.
 
@@ -34,9 +22,9 @@ Do not confuse this with [**IScopeAdm**](iscopeadm.md), which is the Indexing Se
 
 ```C++
 HRESULT AddScopeToQuery(
-  [in]           IDispatch *pDisp,
-  [in]           BSTR      pwszScope,
-  [in, optional] BSTR      pwszDepth
+  [in]           IDispatch *pDisp,
+  [in]           BSTR      pwszScope,
+  [in, optional] BSTR      pwszDepth
 );
 ```
 
@@ -81,10 +69,10 @@ When you first create an instance of the Query object or when you reset it, Quer
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -96,10 +84,9 @@ When you first create an instance of the Query object or when you reset it, Quer
 [**IixssoUtil**](iixssoutil.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

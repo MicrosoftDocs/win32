@@ -1,7 +1,7 @@
 ---
-title: Read through the Child Recordset Object, Extracting and Outputting Values for Chaptered Columns
-description: Read through the Child Recordset Object, Extracting and Outputting Values for Chaptered Columns
+Description: Read through the Child Recordset Object, Extracting and Outputting Values for Chaptered Columns
 ms.assetid: 2d0f629f-2f5b-4322-bafb-066cc05a7226
+title: Read through the Child Recordset Object, Extracting and Outputting Values for Chaptered Columns
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Read through the Child Recordset Object, Extracting and Outputting Values for Chaptered Columns
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -50,7 +50,6 @@ For the query properties set in this code example, the *strRecord* variable is, 
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Implementing and Exporting the DLL Entry Points
-description: Implementing and Exporting the DLL Entry Points
+Description: Implementing and Exporting the DLL Entry Points
 ms.assetid: 95b4c251-6c45-48c6-a630-6d94532da25a
+title: Implementing and Exporting the DLL Entry Points
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Implementing and Exporting the DLL Entry Points
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -45,7 +45,6 @@ The content-indexing client calls the [DllCanUnloadNow](https://www.bing.com/sea
  
 
  
-
 
 
 

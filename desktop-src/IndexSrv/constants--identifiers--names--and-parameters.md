@@ -1,7 +1,7 @@
 ---
-title: Constants, Identifiers, Names, and Parameters
-description: Constants, Identifiers, Names, and Parameters
+Description: Constants, Identifiers, Names, and Parameters
 ms.assetid: 2fe47b7d-92ef-49d8-87d7-5e43beb8365f
+title: Constants, Identifiers, Names, and Parameters
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Constants, Identifiers, Names, and Parameters
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -113,7 +113,6 @@ Specifies a column in a nested table. This node takes one DBOP\_nested\_table\_n
  
 
  
-
 
 
 

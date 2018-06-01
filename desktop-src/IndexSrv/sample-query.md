@@ -1,7 +1,7 @@
 ---
-title: Sample Query
-description: Sample Query
+Description: Sample Query
 ms.assetid: 9e943b8a-f384-4c79-9bf8-61551d75741a
+title: Sample Query
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Sample Query
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -60,7 +60,6 @@ CiRestriction=@DocAuthor%20%3D%20George%20AND%20@size%20%3E%20100
  
 
  
-
 
 
 

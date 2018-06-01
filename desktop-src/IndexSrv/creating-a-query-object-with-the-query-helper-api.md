@@ -1,7 +1,7 @@
 ---
-title: Creating a Query Object with the Query Helper API
-description: Creating a Query Object with the Query Helper API
+Description: Creating a Query Object with the Query Helper API
 ms.assetid: 9bfc91d9-ed65-4f79-8275-017150307e36
+title: Creating a Query Object with the Query Helper API
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Creating a Query Object with the Query Helper API
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -65,7 +65,6 @@ The next portion of the code segment sets several properties of the Q **Query** 
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Programming with Visual Basic
-description: Programming with Visual Basic
+Description: Programming with Visual Basic
 ms.assetid: 35e17239-ce60-4280-b5e4-620d6ca8a2aa
+title: Programming with Visual Basic
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Programming with Visual Basic
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -32,7 +32,6 @@ Visual Basic is a productive language for creating robust applications and compo
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Managing with Visual Basic
-description: Managing with Visual Basic
+Description: Managing with Visual Basic
 ms.assetid: bc007d5d-1de3-45f4-83b7-d6ee0398d208
+title: Managing with Visual Basic
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Managing with Visual Basic
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -27,7 +27,6 @@ The [VBAdmin Sample](vbadmin-sample.md) illustrates several management tasks for
  
 
  
-
 
 
 

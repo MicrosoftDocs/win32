@@ -1,7 +1,7 @@
 ---
-title: Filtering Text and Properties
-description: Filtering Text and Properties
+Description: Filtering Text and Properties
 ms.assetid: 8b73a4e9-6905-40a8-9878-858175eebab9
+title: Filtering Text and Properties
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Filtering Text and Properties
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -28,7 +28,6 @@ Several samples of [**IFilter**](/windows/desktop/api/Filter/nn-filter-ifilter) 
  
 
  
-
 
 
 

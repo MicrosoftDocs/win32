@@ -1,7 +1,7 @@
 ---
-title: FiltDump
-description: FiltDump
+Description: FiltDump
 ms.assetid: be2bc16b-11c0-4f10-9261-9f230ce6753b
+title: FiltDump
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # FiltDump
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -27,7 +27,6 @@ FiltDump uses the [LoadIFilter](/windows/desktop/api/Ntquery/nf-ntquery-loadifil
  
 
  
-
 
 
 

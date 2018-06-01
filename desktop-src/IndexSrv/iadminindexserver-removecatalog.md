@@ -1,19 +1,7 @@
 ---
-title: IAdminIndexServer RemoveCatalog method
-description: Removes an existing catalog from the collection of catalog objects managed by an AdminIndexServer object. It can also delete the catalog directory from the system.
+Description: Removes an existing catalog from the collection of catalog objects managed by an AdminIndexServer object. It can also delete the catalog directory from the system.
 ms.assetid: 869505f4-c389-4955-9907-5cc319184574
-keywords:
-- RemoveCatalog method Indexing Service
-- RemoveCatalog method Indexing Service , IAdminIndexServer interface
-- IAdminIndexServer interface Indexing Service , RemoveCatalog method
-topic_type:
-- apiref
-api_name:
-- IAdminIndexServer.RemoveCatalog
-api_location:
-- Ciodm.dll
-api_type:
-- COM
+title: IAdminIndexServer::RemoveCatalog method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -23,7 +11,7 @@ ms.date: 05/31/2018
 
 # IAdminIndexServer::RemoveCatalog method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Removes an existing catalog from the collection of catalog objects managed by an AdminIndexServer object. It can also delete the catalog directory from the system.
 
@@ -32,8 +20,8 @@ Removes an existing catalog from the collection of catalog objects managed by an
 
 ```C++
 HRESULT RemoveCatalog(
-  [in] BSTR         bstrCatName,
-  [in] VARIANT_BOOL fDelDirectory
+  [in] BSTR         bstrCatName,
+  [in] VARIANT_BOOL fDelDirectory
 );
 ```
 
@@ -83,10 +71,10 @@ objAdminIS.Start  'Start the indexing service up again
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -98,10 +86,9 @@ objAdminIS.Start  'Start the indexing service up again
 [**IAdminIndexServer**](iadminindexserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

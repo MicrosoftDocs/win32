@@ -1,7 +1,7 @@
 ---
-title: String Variables Useful for Formatting Displayed Columns
-description: String Variables Useful for Formatting Displayed Columns
+Description: String Variables Useful for Formatting Displayed Columns
 ms.assetid: 51e2a4bc-4e04-4ee4-8fbb-f94baa18b316
+title: String Variables Useful for Formatting Displayed Columns
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # String Variables Useful for Formatting Displayed Columns
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -45,7 +45,6 @@ The variables in the following table, like those in the table in [Variables in F
  
 
  
-
 
 
 

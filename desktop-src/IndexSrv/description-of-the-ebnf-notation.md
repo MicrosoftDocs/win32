@@ -1,7 +1,7 @@
 ---
-title: Description of the EBNF Notation
-description: Description of the EBNF Notation
+Description: Description of the EBNF Notation
 ms.assetid: 225c8dea-ee94-4b36-9d28-4b3c5aefd36d
+title: Description of the EBNF Notation
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Description of the EBNF Notation
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -32,7 +32,6 @@ The adopted EBNF notation is ISO/IEC 14977 *Extended BNF* with these minor modif
  
 
  
-
 
 
 

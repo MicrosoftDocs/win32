@@ -1,38 +1,7 @@
 ---
-title: Content-Indexing Values
-description: Values 0xHHHH1680 to 0xHHHH169F and 0xHHHH1730 to 0xHHHH173F are return values produced by the Content-Indexing daemon (CiDaemon) as it filters documents and adds their word lists to the existing indexes in the catalog.
+Description: Values 0xHHHH1680 to 0xHHHH169F and 0xHHHH1730 to 0xHHHH173F are return values produced by the Content-Indexing daemon (CiDaemon) as it filters documents and adds their word lists to the existing indexes in the catalog.
 ms.assetid: 96af0267-8d9d-4156-9a9c-e6fc6c4b0cb9
-topic_type:
-- apiref
-api_name:
-- FDAEMON_E_CHANGEUPDATEFAILED
-- FDAEMON_E_FATALERROR
-- FDAEMON_E_LOWRESOURCE
-- FDAEMON_E_NOWORDLIST
-- FDAEMON_E_PARTITIONDELETED
-- FDAEMON_E_TOOMANYFILTEREDBLOCKS
-- FDAEMON_E_WORDLISTCOMMITFAILED
-- FDAEMON_W_EMPTYWORDLIST
-- FDAEMON_W_WORDLISTFULL
-- FILTER_E_ALREADY_OPEN
-- FILTER_E_CONTENTINDEXCORRUPT
-- FILTER_E_IN_USE
-- FILTER_E_NO_SUCH_PROPERTY
-- FILTER_E_NOT_OPEN
-- FILTER_E_OFFLINE
-- FILTER_E_PARTIALLY_FILTERED
-- FILTER_E_TOO_BIG
-- FILTER_E_UNREACHABLE
-- FILTER_S_CONTENTSCAN_DELAYED
-- FILTER_S_DISK_FULL
-- FILTER_S_FULL_CONTENTSCAN_IMMEDIATE
-- FILTER_S_NO_PROPSETS
-- FILTER_S_NO_SECURITY_DESCRIPTOR
-- FILTER_S_PARTIAL_CONTENTSCAN_IMMEDIATE
-api_location:
-- Cierror.h
-api_type:
-- HeaderDef
+title: Content-Indexing Values
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -42,7 +11,7 @@ ms.date: 05/31/2018
 
 # Content-Indexing Values
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Values 0x*HHHH*1680 to 0x*HHHH*169F and 0x*HHHH*1730 to 0x*HHHH*173F are return values produced by the Content-Indexing daemon (CiDaemon) as it filters documents and adds their word lists to the existing indexes in the catalog. The following table gives the content-indexing values in alphabetical order.
 
@@ -83,18 +52,17 @@ Values 0x*HHHH*1680 to 0x*HHHH*169F and 0x*HHHH*1730 to 0x*HHHH*173F are return 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Cierror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
-
+ 
 
 
 

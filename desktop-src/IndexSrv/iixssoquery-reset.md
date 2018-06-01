@@ -1,19 +1,7 @@
 ---
-title: IixssoQuery Reset method
-description: Resets the state of the query object.
+Description: Resets the state of the query object.
 ms.assetid: b11e44b6-dcdf-4983-95c9-ecbcb3337893
-keywords:
-- Reset method Indexing Service
-- Reset method Indexing Service , IixssoQuery interface
-- IixssoQuery interface Indexing Service , Reset method
-topic_type:
-- apiref
-api_name:
-- IixssoQuery.Reset
-api_location:
-- Ixsso.dll
-api_type:
-- COM
+title: IixssoQuery::Reset method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -23,7 +11,7 @@ ms.date: 05/31/2018
 
 # IixssoQuery::Reset method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Resets the state of the query object.
 
@@ -54,10 +42,10 @@ This method clears any internal state on the query object. This method is useful
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -69,10 +57,9 @@ This method clears any internal state on the query object. This method is useful
 [**IixssoQuery**](iixssoquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

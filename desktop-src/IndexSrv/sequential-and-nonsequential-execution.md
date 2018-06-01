@@ -1,7 +1,7 @@
 ---
-title: Sequential and Nonsequential Execution
-description: Sequential and Nonsequential Execution
+Description: Sequential and Nonsequential Execution
 ms.assetid: 4658699a-79a0-4f10-80bd-920b56abd0de
+title: Sequential and Nonsequential Execution
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Sequential and Nonsequential Execution
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -26,7 +26,6 @@ Either of the following actions will force a query to be nonsequential:
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Setting Up a Remote Virtual Root
-description: Setting Up a Remote Virtual Root
+Description: Setting Up a Remote Virtual Root
 ms.assetid: 8adf7ac3-5e68-4fc3-abef-4db5b28b810b
+title: Setting Up a Remote Virtual Root
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,11 +12,11 @@ ms.date: 05/31/2018
 # Setting Up a Remote Virtual Root
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
-When specifying the logon ID for a remote virtual root, type both the domain name and the user name, separated by a backslash (\):
+When specifying the logon ID for a remote virtual root, type both the domain name and the user name, separated by a backslash (\\):
 
 *domain\\username*
 
@@ -27,7 +27,6 @@ User IDs associated with remote virtual-root setup must have interactive logon p
  
 
  
-
 
 
 

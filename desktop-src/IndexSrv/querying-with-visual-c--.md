@@ -1,7 +1,7 @@
 ---
-title: Querying with Visual C++
-description: Querying with Visual C++
+Description: Querying with Visual C++
 ms.assetid: 98ec7a2a-b868-42c9-93c6-26701feecccf
+title: Querying with Visual C++
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Querying with Visual C++
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -31,7 +31,6 @@ The following topics discuss selected code segments for the Simple Sample (from 
  
 
  
-
 
 
 

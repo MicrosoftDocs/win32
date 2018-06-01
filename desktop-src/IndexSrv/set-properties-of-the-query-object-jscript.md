@@ -1,7 +1,7 @@
 ---
-title: Set Properties of the Query Object
-description: Set Properties of the Query Object
+Description: Set Properties of the Query Object
 ms.assetid: aad45358-a8b9-4cfc-8a88-c4c9dfdd0315
+title: Set Properties of the Query Object
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Set Properties of the Query Object
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -36,7 +36,6 @@ The [Query](iixssoquery-query.md) property specifies the query text "\#filename 
  
 
  
-
 
 
 

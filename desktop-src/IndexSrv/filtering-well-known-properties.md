@@ -1,7 +1,7 @@
 ---
-title: Filtering Well-Known Properties
-description: Filtering Well-Known Properties
+Description: Filtering Well-Known Properties
 ms.assetid: 74c0da33-d0a5-4718-b995-a309c2761c96
+title: Filtering Well-Known Properties
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 # Filtering Well-Known Properties
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 Microsoft encourages all [**IFilter**](/windows/desktop/api/Filter/nn-filter-ifilter) interface implementers to adopt sets of well-known properties so that client applications can use one query to search for these properties on all file classes that have **IFilter** interface support. Clients calling **IFilter** interface implementations can request a set of properties they would like to see during the [**IFilter::Init**](/windows/desktop/api/Filter/nf-filter-ifilter-init) method call.
 
@@ -34,12 +34,11 @@ Properties have unique identifiers made up of the globally unique identifier (GU
 
 
 
- 
+ 
 
- 
+ 
 
- 
-
+ 
 
 
 

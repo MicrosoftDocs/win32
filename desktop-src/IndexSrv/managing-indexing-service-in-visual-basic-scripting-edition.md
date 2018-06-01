@@ -1,7 +1,7 @@
 ---
-title: Managing Indexing Service in Visual Basic Scripting Edition
-description: Managing Indexing Service in Visual Basic Scripting Edition
+Description: Managing Indexing Service in Visual Basic Scripting Edition
 ms.assetid: 863a3aef-5b80-45aa-b864-d27d2e9f6439
+title: Managing Indexing Service in Visual Basic Scripting Edition
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Managing Indexing Service in Visual Basic Scripting Edition
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 The QSample.vbs script of the [SQuery Sample](squery-sample.md) executes a query that you specify as part of the script input parameters. This script functions similarly to the [Simple sample](simple-sample.md), which is written in the C++ language. It also performs some managing tasks with Indexing Service.
 
@@ -54,7 +54,6 @@ These are just a few examples of using the [Admin Helper API](https://www.bing.c
  
 
  
-
 
 
 

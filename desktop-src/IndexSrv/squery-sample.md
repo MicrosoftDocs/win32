@@ -1,7 +1,7 @@
 ---
-title: SQuery Sample
-description: SQuery Sample
+Description: SQuery Sample
 ms.assetid: e5d8cc8c-df9e-4c48-b07d-6698cc8a32d4
+title: SQuery Sample
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # SQuery Sample
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -168,7 +168,6 @@ Finds all files in the "sources" catalog on the computer "index1" containing the
  
 
  
-
 
 
 

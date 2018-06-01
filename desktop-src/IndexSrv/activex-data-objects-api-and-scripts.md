@@ -1,7 +1,7 @@
 ---
-title: ActiveX Data Objects API and Scripts
-description: ActiveX Data Objects API and Scripts
+Description: ActiveX Data Objects API and Scripts
 ms.assetid: 97d59c4d-bcc7-4c0a-9ece-cbff64bf3477
+title: ActiveX Data Objects API and Scripts
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -35,7 +35,6 @@ The msad\*.dll files contain the ADO objects.
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Indexing Multiple Web Servers
-description: Indexing Multiple Web Servers
+Description: Indexing Multiple Web Servers
 ms.assetid: f3dbe0a3-c5c3-4e90-9b56-a8a51a610af8
+title: Indexing Multiple Web Servers
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Indexing Multiple Web Servers
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -55,7 +55,6 @@ This configuration allows the remote servers to do all the file serving, leaving
  
 
  
-
 
 
 

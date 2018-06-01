@@ -1,7 +1,7 @@
 ---
-title: Batched Statements
-description: Batched Statements
+Description: Batched Statements
 ms.assetid: 0e4c61e3-8a0d-465c-8e2b-fc7c84c8635e
+title: Batched Statements
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -88,7 +88,6 @@ SELECT * FROM #MyView
  
 
  
-
 
 
 

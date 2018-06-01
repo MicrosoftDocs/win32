@@ -1,7 +1,7 @@
 ---
-title: SQL Queries and SQL Extensions
-description: SQL Queries and SQL Extensions
+Description: SQL Queries and SQL Extensions
 ms.assetid: 681e8ad2-01cd-4aed-8987-4bf3dd1350d6
+title: SQL Queries and SQL Extensions
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # SQL Queries and SQL Extensions
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -35,7 +35,6 @@ For details about the semantics and use of SQL queries, see [SQL Query Language]
  
 
  
-
 
 
 

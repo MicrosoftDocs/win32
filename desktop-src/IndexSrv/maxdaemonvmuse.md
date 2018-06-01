@@ -1,7 +1,7 @@
 ---
-title: MaxDaemonVmUse
-description: MaxDaemonVmUse
+Description: MaxDaemonVmUse
 ms.assetid: 9dd0f966-e9f7-4447-b1f0-24b6b8e0fc1d
+title: MaxDaemonVmUse
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # MaxDaemonVmUse
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -50,7 +50,6 @@ Attempted allocations beyond the value of the **MaxDaemonVmUse** entry will fail
  
 
  
-
 
 
 

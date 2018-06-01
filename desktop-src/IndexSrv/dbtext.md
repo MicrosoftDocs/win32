@@ -1,9 +1,7 @@
 ---
-title: DBTEXT
-description: DBTEXT
+Description: DBTEXT
 ms.assetid: 24a96f9c-68a0-4e98-b2a4-3be12c56d069
-keywords:
-- DBTEXT
+title: DBTEXT
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -14,7 +12,7 @@ ms.date: 05/31/2018
 # DBTEXT
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -36,7 +34,6 @@ For additional information about the *guidDialect* parameter, see the descriptio
  
 
  
-
 
 
 

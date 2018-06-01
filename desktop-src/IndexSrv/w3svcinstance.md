@@ -1,7 +1,7 @@
 ---
-title: W3SvcInstance
-description: W3SvcInstance
+Description: W3SvcInstance
 ms.assetid: c715a59b-7485-4d23-8e5a-cdda0f44c4b9
+title: W3SvcInstance
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # W3SvcInstance
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -54,7 +54,6 @@ Different virtual servers are identified by different values of the **W3SvcInsta
  
 
  
-
 
 
 

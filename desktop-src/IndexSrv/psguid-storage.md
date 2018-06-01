@@ -1,9 +1,7 @@
 ---
-title: PSGUID\_STORAGE
-description: PSGUID\_STORAGE
+Description: PSGUID\_STORAGE
 ms.assetid: 6c095e28-ca06-43b1-8d3a-b481e8417625
-keywords:
-- PSGUID_STORAGE
+title: PSGUID\_STORAGE
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -14,7 +12,7 @@ ms.date: 05/31/2018
 # PSGUID\_STORAGE
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -182,7 +180,6 @@ Property ID 0x14. Identifies the last PID\_STG constant assigned.
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: About Language Resources
-description: About Language Resources
+Description: About Language Resources
 ms.assetid: f4a3c509-44cf-4df9-8a3c-906959105a92
+title: About Language Resources
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -88,7 +88,6 @@ This section contains the following topics:
  
 
  
-
 
 
 

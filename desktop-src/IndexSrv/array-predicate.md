@@ -1,7 +1,7 @@
 ---
-title: ARRAY Predicate
-description: ARRAY Predicate
+Description: ARRAY Predicate
 ms.assetid: c1630f2e-8384-4e27-9bd9-233a6b6d83d9
+title: ARRAY Predicate
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -221,7 +221,6 @@ The following example finds files that must be printed by printers named HP3 or 
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Indexing and Managing
-description: Indexing is triggered by changes to documents in the set of distributed documents indexed by a catalog.
+Description: Indexing is triggered by changes to documents in the set of distributed documents indexed by a catalog.
 ms.assetid: 46329626-cdc6-4c50-8a4d-f4b98b60673a
+title: Indexing and Managing
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Indexing and Managing
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Indexing is triggered by changes to documents in the set of distributed documents indexed by a catalog. Indexing proceeds based on several entries in the Windows registry. You can manage indexing by adjusting the registry entries, manipulating the catalogs, providing custom filters and locale-specific word breakers and noise-word lists, and directly controlling the state of the [Indexing component](indexing-component.md).
 
@@ -26,7 +26,6 @@ An end-user of Indexing Service usually manages indexing using the MMC. An appli
  
 
  
-
 
 
 

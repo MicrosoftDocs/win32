@@ -1,7 +1,7 @@
 ---
-title: Programming with Applications
-description: Programming with Applications
+Description: Programming with Applications
 ms.assetid: 4b6be922-a7f9-4844-a335-c4757eb20de8
+title: Programming with Applications
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Programming with Applications
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -34,7 +34,6 @@ For information about using the Microsoft Visual Basic Scripting Edition (VBScri
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Add the Physical Path and All Subdirectories
-description: Add the Physical Path and All Subdirectories
+Description: Add the Physical Path and All Subdirectories
 ms.assetid: 826b4e01-05b6-4eaa-8a20-34cba907534f
+title: Add the Physical Path and All Subdirectories
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -28,7 +28,6 @@ objU.AddScopeToQuery(objQ, "\\", "deep");
  
 
  
-
 
 
 

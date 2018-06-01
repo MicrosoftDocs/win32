@@ -1,7 +1,7 @@
 ---
-title: Admin Helper API and Scripts
-description: Admin Helper API and Scripts
+Description: Admin Helper API and Scripts
 ms.assetid: 20e64aa7-724c-4045-9365-cc8e5df364b7
+title: Admin Helper API and Scripts
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -37,7 +37,6 @@ The Ciodm.dll file contains the objects of the Admin Helper API.
  
 
  
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Implementing a Word Breaker
-description: Implementing a Word Breaker
+Description: Implementing a Word Breaker
 ms.assetid: c257db30-821a-44c0-8896-890090c9aedf
+title: Implementing a Word Breaker
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 # Implementing a Word Breaker
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 Word breakers for Indexing Service implement the [**IWordBreaker**](https://www.bing.com/search?q=**IWordBreaker**) interface. The [**BreakText**](https://www.bing.com/search?q=**BreakText**) method performs all text processing and parsing. To implement a word breaker component, you must have language heuristics for your language. This includes information about syntax and morphology. You may also need a list of words to exclude or include. You build the file of noise words for your language locale from the list of excluded words. For more information about linguistic considerations and how these considerations affect word breaker implementations, see [Linguistic and Unicode Considerations](linguistic-and-unicode-considerations.md).
 
@@ -32,7 +32,7 @@ When a document is included in the index, each word is assigned an integer value
 
 
 
- 
+ 
 
 In this example, the word breaker stores alternative forms for "Kyle" ("Kyle's") and "database" ("data base") in the index. The word breaker generates and stores alternative words during the index creation process under the following conditions:
 
@@ -86,10 +86,9 @@ For more information about troubleshooting word breakers, see [Troubleshooting L
 [Troubleshooting Language Resources](troubleshooting-language-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

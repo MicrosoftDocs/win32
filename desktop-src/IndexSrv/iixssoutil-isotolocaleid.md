@@ -1,19 +1,7 @@
 ---
-title: IixssoUtil ISOToLocaleID method
-description: Converts a language code to a locale identifier (LCID).
+Description: Converts a language code to a locale identifier (LCID).
 ms.assetid: 79f4bc71-86a2-49c2-a7a4-8dbb847805b2
-keywords:
-- ISOToLocaleID method Indexing Service
-- ISOToLocaleID method Indexing Service , IixssoUtil interface
-- IixssoUtil interface Indexing Service , ISOToLocaleID method
-topic_type:
-- apiref
-api_name:
-- IixssoUtil.ISOToLocaleID
-api_location:
-- Ixsso.dll
-api_type:
-- COM
+title: IixssoUtil::ISOToLocaleID method
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -23,7 +11,7 @@ ms.date: 05/31/2018
 
 # IixssoUtil::ISOToLocaleID method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Converts a language code to a locale identifier (LCID).
 
@@ -32,8 +20,8 @@ Converts a language code to a locale identifier (LCID).
 
 ```C++
 HRESULT ISOToLocaleID(
-  [in]          BSTR pwszLocale,
-  [out, retval] LONG *plcid
+  [in]          BSTR pwszLocale,
+  [out, retval] LONG *plcid
 );
 ```
 
@@ -71,10 +59,10 @@ The first recognized language code found in *pwszLocale* is converted to an LCID
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -86,10 +74,9 @@ The first recognized language code found in *pwszLocale* is converted to an LCID
 [**IixssoUtil**](iixssoutil.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
+ 
 
 
 

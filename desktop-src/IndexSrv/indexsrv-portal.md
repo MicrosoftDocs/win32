@@ -1,9 +1,7 @@
 ---
-title: Indexing Service
-description: Indexing Service is a base service that extracts content from files and constructs an indexed catalog to facilitate efficient and rapid searching.
+Description: Indexing Service is a base service that extracts content from files and constructs an indexed catalog to facilitate efficient and rapid searching.
 ms.assetid: 5c0b3646-eeec-4666-b4c7-451aba783030
-keywords:
-- Indexing Service
+title: Indexing Service
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -13,7 +11,7 @@ ms.date: 05/31/2018
 
 # Indexing Service
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 ## Purpose
 
@@ -52,7 +50,6 @@ The Indexing Service application programming interface (API) provides additional
  
 
  
-
 
 
 

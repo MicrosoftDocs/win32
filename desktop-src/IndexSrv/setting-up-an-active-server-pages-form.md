@@ -1,7 +1,7 @@
 ---
-title: Setting up an Active Server Pages Form
-description: Setting up an Active Server Pages Form
+Description: Setting up an Active Server Pages Form
 ms.assetid: 1c7cab4f-02b4-4e51-b72a-c3cd75f65f38
+title: Setting up an Active Server Pages Form
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Setting up an Active Server Pages Form
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -21,7 +21,6 @@ When setting up a query form for an Active Server Pages (ASP) page, you [set up 
  
 
  
-
 
 
 

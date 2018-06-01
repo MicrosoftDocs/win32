@@ -1,7 +1,7 @@
 ---
-title: Syntax of Query Language Dialect 1
-description: Syntax of Query Language Dialect 1
+Description: Syntax of Query Language Dialect 1
 ms.assetid: b204520a-d6ff-4436-bb9a-0989114f973c
+title: Syntax of Query Language Dialect 1
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Syntax of Query Language Dialect 1
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -201,7 +201,6 @@ DecimalDigit \| **a** \| **b** \| **c** \| **d** \| **e** \| **f** ;
  
 
  
-
 
 
 

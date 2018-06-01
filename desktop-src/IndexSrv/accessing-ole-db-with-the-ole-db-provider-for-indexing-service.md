@@ -1,7 +1,7 @@
 ---
-title: Accessing OLE DB with the OLE DB Provider for Indexing Service
-description: Accessing OLE DB with the OLE DB Provider for Indexing Service
+Description: Accessing OLE DB with the OLE DB Provider for Indexing Service
 ms.assetid: 9f0e2224-f652-4645-bcce-d8e82dbf6682
+title: Accessing OLE DB with the OLE DB Provider for Indexing Service
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -57,7 +57,6 @@ If (FAILED(hr))
  
 
  
-
 
 
 

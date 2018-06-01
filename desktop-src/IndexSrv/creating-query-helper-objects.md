@@ -1,7 +1,7 @@
 ---
-title: Creating Query Helper Objects
-description: Creating Query Helper Objects
+Description: Creating Query Helper Objects
 ms.assetid: 6a0b4a98-ba21-427d-8db3-3deed4874895
+title: Creating Query Helper Objects
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 # Creating Query Helper Objects
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 The [Query Helper API](https://www.bing.com/search?q=Query Helper API) provides the [**Query**](iixssoquery.md) and [**Utility**](iixssoutil.md) objects for creating and managing queries to the [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md). An application can use these objects along with an ADO [**Recordset**](https://www.bing.com/search?q=**Recordset**) object (see [Creating ADO Objects](creating-ado-objects.md)) that represents the resulting records from a query.
 
@@ -28,7 +28,7 @@ The following table shows how to declare a [**Query**](iixssoquery.md) object wi
 
 
 
- 
+ 
 
 You subsequently can use either of the following statements to create the [**Query**](iixssoquery.md) object.
 
@@ -50,7 +50,7 @@ The following table shows how to declare a [**Utility**](iixssoutil.md) object w
 
 
 
- 
+ 
 
 You subsequently can use either of the following statements to create the [**Utility**](iixssoutil.md) object.
 
@@ -62,10 +62,9 @@ Set objUtility = CreateObject("IXSSO.Util")
 
 
 
- 
+ 
 
- 
-
+ 
 
 
 

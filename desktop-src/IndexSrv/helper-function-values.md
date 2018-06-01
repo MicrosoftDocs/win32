@@ -1,55 +1,7 @@
 ---
-title: Helper-Function Values
-description: Values 0xHHHH1800 to 0xHHHH182F are return values produced by the content-indexing helper functions. The following table gives the content-indexing helper-function values in alphabetical order.
+Description: Values 0xHHHH1800 to 0xHHHH182F are return values produced by the content-indexing helper functions. The following table gives the content-indexing helper-function values in alphabetical order.
 ms.assetid: dae558db-00ce-4a5c-b771-0eb77e703c22
-topic_type:
-- apiref
-api_name:
-- CI_CORRUPT_CATALOG
-- CI_CORRUPT_DATABASE
-- CI_CORRUPT_FILTER_BUFFER
-- CI_E_ALREADY_INITIALIZED
-- CI_E_BUFFERTOOSMALL
-- CI_E_CARDINALITY_MISMATCH
-- CI_E_CLIENT_FILTER_ABORT
-- CI_E_CONFIG_DISK_FULL
-- CI_E_DISK_FULL
-- CI_E_DUPLICATE_NOTIFICATION
-- CI_E_ENUMERATION_STARTED
-- CI_E_FILTERING_DISABLED
-- CI_E_INVALID_FLAGS_COMBINATION
-- CI_E_INVALID_STATE
-- CI_E_LOGON_FAILURE
-- CI_E_NO_CATALOG
-- CI_E_NOT_FOUND
-- CI_E_NOT_INITIALIZED
-- CI_E_NOT_RUNNING
-- CI_E_OUTOFSEQ_INCREMENT_DATA
-- CI_E_PROPERTY_NOT_CACHED
-- CI_E_PROPERTY_TOOLARGE
-- CI_E_SHARING_VIOLATION
-- CI_E_SHUTDOWN
-- CI_E_STRANGE_PAGEORSECTOR_SIZE
-- CI_E_TIMEOUT
-- CI_E_UPDATES_DISABLED
-- CI_E_USE_DEFAULT_PID
-- CI_E_WORKID_NOTVALID
-- CI_INCORRECT_VERSION
-- CI_INVALID_INDEX
-- CI_INVALID_PARTITION
-- CI_INVALID_PRIORITY
-- CI_NO_CATALOG
-- CI_NO_STARTING_KEY
-- CI_OUT_OF_INDEX_IDS
-- CI_PROPSTORE_INCONSISTENCY
-- CI_S_CAT_STOPPED
-- CI_S_END_OF_ENUMERATION
-- CI_S_NO_DOCSTORE
-- CI_S_WORKID_DELETED
-api_location:
-- Cierror.h
-api_type:
-- HeaderDef
+title: Helper-Function Values
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -59,7 +11,7 @@ ms.date: 05/31/2018
 
 # Helper-Function Values
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Values 0x*HHHH*1800 to 0x*HHHH*182F are return values produced by the content-indexing helper functions. The following table gives the content-indexing helper-function values in alphabetical order.
 
@@ -117,18 +69,17 @@ Values 0x*HHHH*1800 to 0x*HHHH*182F are return values produced by the content-in
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Cierror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
-
+ 
 
 
 

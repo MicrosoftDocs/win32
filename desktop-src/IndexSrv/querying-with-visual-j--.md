@@ -1,7 +1,7 @@
 ---
-title: Querying with Visual J++
-description: Querying with Visual J++
+Description: Querying with Visual J++
 ms.assetid: 8998143b-5d8b-4741-ae51-855e858d7e1e
+title: Querying with Visual J++
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Querying with Visual J++
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -46,7 +46,6 @@ The Query.java module defines the public class **Query**, which encapsulates set
  
 
  
-
 
 
 

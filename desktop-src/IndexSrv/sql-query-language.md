@@ -1,7 +1,7 @@
 ---
-title: SQL Query Language
-description: SQL Query Language
+Description: SQL Query Language
 ms.assetid: ba3f329c-3aa0-4417-b597-41b6671b42ee
+title: SQL Query Language
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # SQL Query Language
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -29,7 +29,6 @@ For a reference to the SQL query language and its extensions, see [SQL Queries a
  
 
  
-
 
 
 

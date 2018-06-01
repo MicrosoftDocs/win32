@@ -1,7 +1,7 @@
 ---
-title: Creating ADO Objects
-description: Creating ADO Objects
+Description: Creating ADO Objects
 ms.assetid: 0f149af0-c0e7-4165-ab65-c1f3fb100c1d
+title: Creating ADO Objects
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 # Creating ADO Objects
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 The [ActiveX Data Objects (ADO) API](https://www.bing.com/search?q=ActiveX Data Objects (ADO) API) provides the [**Connection**](https://www.bing.com/search?q=**Connection**), [**Command**](https://www.bing.com/search?q=**Command**), and [**Recordset**](https://www.bing.com/search?q=**Recordset**) objects for accessing and manipulating data from the [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md). Of these objects, an Indexing Service application typically uses just the **Recordset** object to represent the set of records resulting from a query submitted using the [Query Helper API](https://www.bing.com/search?q=Query Helper API) (see [Creating Query Helper Objects](creating-query-helper-objects.md)).
 
@@ -28,7 +28,7 @@ The following table shows how to declare a **Recordset** object with either earl
 
 
 
- 
+ 
 
 You subsequently can use either of the following statements to create the **Recordset** object.
 
@@ -40,10 +40,9 @@ Set objRecordset = objQuery.CreateRecordset("ADODB.Recordset")
 
 
 
- 
+ 
 
- 
-
+ 
 
 
 

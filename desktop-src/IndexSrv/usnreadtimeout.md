@@ -1,7 +1,7 @@
 ---
-title: UsnReadTimeout
-description: UsnReadTimeout
+Description: UsnReadTimeout
 ms.assetid: c4ad7f3b-5c6a-4506-a6d4-cfb29a177cee
+title: UsnReadTimeout
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # UsnReadTimeout
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -53,7 +53,6 @@ The processing of change notifications proceeds when either an interval of time 
  
 
  
-
 
 
 

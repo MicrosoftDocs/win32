@@ -1,7 +1,7 @@
 ---
-title: LowResourceSleep
-description: LowResourceSleep
+Description: LowResourceSleep
 ms.assetid: 0cf42902-9be7-4b33-96cc-498d70fbd359
+title: LowResourceSleep
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # LowResourceSleep
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -53,7 +53,6 @@ When system resource limitations (such as low memory or heavy I/O initiated by t
  
 
  
-
 
 
 

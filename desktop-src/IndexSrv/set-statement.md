@@ -1,7 +1,7 @@
 ---
-title: SET Statement
-description: SET Statement
+Description: SET Statement
 ms.assetid: cf4483f5-c0f3-45b7-8e29-6fcc6c6d0117
+title: SET Statement
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # SET Statement
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/windows/desktop/6da601c6-3742-40ad-99f2-8817f7f642b3) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
  
 
@@ -62,7 +62,6 @@ The assigning of aliases done with **SET** is similar to that in the \[Names\] s
  
 
  
-
 
 
 
