@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The CLSID\_INDEX\_SERVER\_DSO constant is the Indexing Service data source object (DSO) class ID (CLSID) used to create an Indexing Service DSO with the [**CoCreateInstance**](_com_cocreateinstance) function.
+The CLSID\_INDEX\_SERVER\_DSO constant is the Indexing Service data source object (DSO) class ID (CLSID) used to create an Indexing Service DSO with the [**CoCreateInstance**](https://www.bing.com/search?q=**CoCreateInstance**) function.
 
 ``` syntax
 #define CLSID_INDEX_SERVER_DSO \

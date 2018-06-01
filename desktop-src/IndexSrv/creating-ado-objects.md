@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The [ActiveX Data Objects (ADO) API](programming-apis.md#-idxs-activex-data-objects-api) provides the [**Connection**](mdobjconnection), [**Command**](mdobjcommand), and [**Recordset**](mdobjodbrec) objects for accessing and manipulating data from the [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md). Of these objects, an Indexing Service application typically uses just the **Recordset** object to represent the set of records resulting from a query submitted using the [Query Helper API](programming-apis.md#-idxs-query-helper-api) (see [Creating Query Helper Objects](creating-query-helper-objects.md)).
+The [ActiveX Data Objects (ADO) API](https://www.bing.com/search?q=ActiveX Data Objects (ADO) API) provides the [**Connection**](https://www.bing.com/search?q=**Connection**), [**Command**](https://www.bing.com/search?q=**Command**), and [**Recordset**](https://www.bing.com/search?q=**Recordset**) objects for accessing and manipulating data from the [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md). Of these objects, an Indexing Service application typically uses just the **Recordset** object to represent the set of records resulting from a query submitted using the [Query Helper API](https://www.bing.com/search?q=Query Helper API) (see [Creating Query Helper Objects](creating-query-helper-objects.md)).
 
 The following table shows how to declare a **Recordset** object with either early or late binding.
 
@@ -24,7 +24,7 @@ The following table shows how to declare a **Recordset** object with either earl
 
 | Object                                  | Early Binding                                                                                               | Late Binding                            |
 |-----------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------|
-| [**Recordset**](mdobjodbrec)<br/> | `Dim objRecordset as ADODB.Recordset`<br/> Or<br/> `Reference to ADODB Type Library`<br/> | `Dim objRecordset as Object`<br/> |
+| [**Recordset**](https://www.bing.com/search?q=**Recordset**)<br/> | `Dim objRecordset as ADODB.Recordset`<br/> Or<br/> `Reference to ADODB Type Library`<br/> | `Dim objRecordset as Object`<br/> |
 
 
 

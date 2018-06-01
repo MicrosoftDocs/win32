@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-OLE DB and the OLE DB Provider for Indexing Service provide a number of dynamic properties for use when submitting queries with the [ActiveX Data Objects (ADO) API](programming-apis.md#-idxs-activex-data-objects-api). This includes the following properties.
+OLE DB and the OLE DB Provider for Indexing Service provide a number of dynamic properties for use when submitting queries with the [ActiveX Data Objects (ADO) API](https://www.bing.com/search?q=ActiveX Data Objects (ADO) API). This includes the following properties.
 
 -   [Command Object Dynamic Properties](command-object-dynamic-properties.md)
 -   [Connection Object Dynamic Properties](connection-object-dynamic-properties.md)

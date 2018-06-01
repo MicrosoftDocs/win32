@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The web server samples illustrate dynamic HTML (DHTML) and Active Server Pages (ASP) scripting. The DHTML sample is written in HTML and includes client-side scripting. The ASP samples are written in HTML and include both client-side and server-side scripting. Both types of samples use the [Admin Helper](programming-apis.md#-idxs-admin-helper-api) API or the [Query Helper](programming-apis.md#-idxs-query-helper-api) API. The Platform SDK includes the following samples.
+The web server samples illustrate dynamic HTML (DHTML) and Active Server Pages (ASP) scripting. The DHTML sample is written in HTML and includes client-side scripting. The ASP samples are written in HTML and include both client-side and server-side scripting. Both types of samples use the [Admin Helper](https://www.bing.com/search?q=Admin Helper) API or the [Query Helper](https://www.bing.com/search?q=Query Helper) API. The Platform SDK includes the following samples.
 
 -   [IISAdmin Sample](iisadmin-sample.md). A set of HTML and ASP pages that manages Indexing Service using Internet Information Services (IIS).
 -   [IISSearch Sample](iissearch-sample.md). A set of HTML and ASP pages that executes Indexing Service query language and structured query language (SQL) queries.

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 Hit-highlighting is an Indexing Service feature that you can use when querying a document. Hit-highlighting generates an HTML page that contains a list of the hits showing the exact portions (if any) of the document that satisfy your query.
 
-When using SQL to query for content, you can use the hit-highlighting feature by using Microsoft ActiveX Data Objects (ADO) to retrieve the **Query Restriction** property and using that property as the value for the [CiRestriction](variables-in-forms-and-in-idq-files.md#-idxs-cirestriction-var) parameter of Webhits.dll.
+When using SQL to query for content, you can use the hit-highlighting feature by using Microsoft ActiveX Data Objects (ADO) to retrieve the **Query Restriction** property and using that property as the value for the [CiRestriction](https://www.bing.com/search?q=CiRestriction) parameter of Webhits.dll.
 
 > [!Note]  
 > Hit-highlighting is available only for SQL content queries (**CONTAINS** predicate) and a **vpath** recordset field must be present in the **Select\_List** statement. Get the **Query Restriction** property only after the command is executed.

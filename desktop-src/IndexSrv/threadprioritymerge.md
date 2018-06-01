@@ -34,7 +34,7 @@ The **ThreadPriorityMerge** entry is the priority level of the merge thread.
 
 ### Remarks
 
-The value of the **ThreadPriorityMerge** entry is the only registry entry for controlling the [scheduling priority](_win32_scheduling_priorities) of the merge process.
+The value of the **ThreadPriorityMerge** entry is the only registry entry for controlling the [scheduling priority](https://www.bing.com/search?q=scheduling priority) of the merge process.
 
 ## Related topics
 

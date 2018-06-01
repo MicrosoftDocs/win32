@@ -33,7 +33,7 @@ This code segment defines the **Execute** method of the **Query** class.
 
 
 
-The first executable line of the method creates a new ADO [**Recordset**](mdidxrecordsetjavasyntax) object, m\_RS. The next line executes the query in the **m\_SqlText** member with the [**Open**](mdmthrstopen) method of the m\_RS **Recordset** object. The first parameter of the **Open** method is the text of the SQL query. The second parameter sets the data provider to Indexing Service. The subsequent parameters, which are [ADO enumerated constants](mdmscadoenumerations), define the properties of the query.
+The first executable line of the method creates a new ADO [**Recordset**](https://www.bing.com/search?q=**Recordset**) object, m\_RS. The next line executes the query in the **m\_SqlText** member with the [**Open**](https://www.bing.com/search?q=**Open**) method of the m\_RS **Recordset** object. The first parameter of the **Open** method is the text of the SQL query. The second parameter sets the data provider to Indexing Service. The subsequent parameters, which are [ADO enumerated constants](https://www.bing.com/search?q=ADO enumerated constants), define the properties of the query.
 
  
 

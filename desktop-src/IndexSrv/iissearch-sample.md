@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The IISSearch sample is a set of HTML and ASP forms that demonstrates how to use IIS to query Indexing Service. The forms use Indexing Service Query Language queries and the [Query Helper](programming-apis.md#-idxs-query-helper-api) API, use SQL queries and the [ADO](programming-apis.md#-idxs-activex-data-objects-api) and Query Helper APIs, and use IDQ+HTX and the [ISAPI Extensions](programming-apis.md#-idxs-isapi-extensions-api) API.
+The IISSearch sample is a set of HTML and ASP forms that demonstrates how to use IIS to query Indexing Service. The forms use Indexing Service Query Language queries and the [Query Helper](https://www.bing.com/search?q=Query Helper) API, use SQL queries and the [ADO](https://www.bing.com/search?q=ADO) and Query Helper APIs, and use IDQ+HTX and the [ISAPI Extensions](https://www.bing.com/search?q=ISAPI Extensions) API.
 
 Source: mssdk\\samples\\winbase\\indexing\\IISSearch\\
 
@@ -48,14 +48,14 @@ The sample files include the following.
 <span id="advquery.asp"></span><span id="ADVQUERY.ASP"></span>advquery.asp
 </dt> <dd>
 
-An advanced Active Server Pages (ASP) example written in VBScript and Microsoft JScript that illustrates server-side scripting to execute Indexing Service Query Language queries using the [Query Helper](programming-apis.md#-idxs-query-helper-api) API.
+An advanced Active Server Pages (ASP) example written in VBScript and Microsoft JScript that illustrates server-side scripting to execute Indexing Service Query Language queries using the [Query Helper](https://www.bing.com/search?q=Query Helper) API.
 
 </dd> <dt>
 
 <span id="advsqlq.asp"></span><span id="ADVSQLQ.ASP"></span>advsqlq.asp
 </dt> <dd>
 
-An advanced ASP example written in VBScript and JScript that illustrates server-side scripting to execute SQL queries using the [ADO](programming-apis.md#-idxs-activex-data-objects-api) and Query Helper APIs.
+An advanced ASP example written in VBScript and JScript that illustrates server-side scripting to execute SQL queries using the [ADO](https://www.bing.com/search?q=ADO) and Query Helper APIs.
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ An HTML page that provides easy access to each sample.
 <span id="fastq.htm__fastq.idq__fastq.htx"></span><span id="FASTQ.HTM__FASTQ.IDQ__FASTQ.HTX"></span>fastq.htm, fastq.idq, fastq.htx
 </dt> <dd>
 
-An optimized IDQ+HTX example that uses the [ISAPI Extensions](programming-apis.md#-idxs-isapi-extensions-api) API.
+An optimized IDQ+HTX example that uses the [ISAPI Extensions](https://www.bing.com/search?q=ISAPI Extensions) API.
 
 </dd> <dt>
 
@@ -90,7 +90,7 @@ A simple IDQ+HTX example that uses the ISAPI Extensions API.
 <span id="sqlqhit.asp__sqlqhit.htm"></span><span id="SQLQHIT.ASP__SQLQHIT.HTM"></span>sqlqhit.asp, sqlqhit.htm
 </dt> <dd>
 
-A simple ASP example written in VBScript that illustrates the execution of queries using the [OLE DB Provider](programming-apis.md#-idxs-ole-db-provider-api) for Indexing Service API.
+A simple ASP example written in VBScript that illustrates the execution of queries using the [OLE DB Provider](https://www.bing.com/search?q=OLE DB Provider) for Indexing Service API.
 
 </dd> </dl>
 

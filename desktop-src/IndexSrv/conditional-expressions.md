@@ -24,7 +24,7 @@ The following rules apply to conditional expressions in .idq files:
 -   Only one line can set a particular variable in an .idq file.
 -   Make sure variable references and statements are surrounded by percent signs (%).
 
-The following example shows how to set the [CiRestriction](variables-in-forms-and-in-idq-files.md#-idxs-cirestriction-var) variable:
+The following example shows how to set the [CiRestriction](https://www.bing.com/search?q=CiRestriction) variable:
 
 
 ```

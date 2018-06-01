@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The **IsapiDefaultCatalogDirectory** entry sets the default Indexing Service catalog name as it would be entered in the [CiCatalog](variables-in-forms-and-in-idq-files.md#-idxs-cicatalog-var) entry of an .idq file.
+The **IsapiDefaultCatalogDirectory** entry sets the default Indexing Service catalog name as it would be entered in the [CiCatalog](https://www.bing.com/search?q=CiCatalog) entry of an .idq file.
 
 ### Summary
 

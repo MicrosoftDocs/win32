@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The **ISAPIRestrictionErrorFile** entry specifies the full virtual path to the HTML error page returned in response to errors in a query restriction ([CiRestriction](variables-in-forms-and-in-idq-files.md#-idxs-cirestriction-var)).
+The **ISAPIRestrictionErrorFile** entry specifies the full virtual path to the HTML error page returned in response to errors in a query restriction ([CiRestriction](https://www.bing.com/search?q=CiRestriction)).
 
 ### Summary
 
@@ -37,7 +37,7 @@ The value of the **ISAPIRestrictionErrorFile** entry is the HTML error page that
 
 If a value for this entry is not specified, the error page specified by the value of the [ISAPIDefaultErrorFile](isapidefaulterrorfile.md) entry is used.
 
-The variables [CiRestriction](variables-in-forms-and-in-idq-files.md#-idxs-cirestriction-var), [CiErrorMessage](read-only-variables-available-in-htx-files.md#-idxs-cierrormessage-var), and [CiErrorNumber](read-only-variables-available-in-htx-files.md#-idxs-cierrornumber-var) can all be referenced.
+The variables [CiRestriction](https://www.bing.com/search?q=CiRestriction), [CiErrorMessage](https://www.bing.com/search?q=CiErrorMessage), and [CiErrorNumber](https://www.bing.com/search?q=CiErrorNumber) can all be referenced.
 
 The value of an identically named entry under the [**Catalog**](catalog--property--and-scope-registry-entries.md) subkey for a specific catalog cannot override the value of this entry.
 

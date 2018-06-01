@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-Visual J++ is Microsoft's implementation of the Java language. It can build console or Windows applications to manage and query Indexing Service. This section discusses several aspects of using Visual J++ with Indexing Service and includes code examples that use the [ActiveX Data Objects API](programming-apis.md#-idxs-activex-data-objects-api). The topics include the following.
+Visual J++ is Microsoft's implementation of the Java language. It can build console or Windows applications to manage and query Indexing Service. This section discusses several aspects of using Visual J++ with Indexing Service and includes code examples that use the [ActiveX Data Objects API](https://www.bing.com/search?q=ActiveX Data Objects API). The topics include the following.
 
 -   [Using Visual J++ with Indexing Service APIs](using-visual-j---with-indexing-service-apis.md)
 -   [Querying with Visual J++](querying-with-visual-j--.md)

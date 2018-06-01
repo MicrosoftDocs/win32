@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-This code segment executes when the specified query language is either Dialect 1 or 2 of the [Indexing Service query language](indexing-service-query-language.md). The first portion of the code segment uses the **CreateObject** function to create Q, a [Query](iixssoquery.md) object, and to create Util, a [Utility](iixssoutil.md) object, from the [Query Helper API](programming-apis.md#-idxs-query-helper-api).
+This code segment executes when the specified query language is either Dialect 1 or 2 of the [Indexing Service query language](indexing-service-query-language.md). The first portion of the code segment uses the **CreateObject** function to create Q, a [Query](iixssoquery.md) object, and to create Util, a [Utility](iixssoutil.md) object, from the [Query Helper API](https://www.bing.com/search?q=Query Helper API).
 
 
 ```VB

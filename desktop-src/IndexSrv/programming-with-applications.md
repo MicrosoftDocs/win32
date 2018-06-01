@@ -22,7 +22,7 @@ Prior to Indexing Service 3.0, you typically had to perform most Indexing Servic
 -   [Programming with Visual C++](programming-with-visual-c--.md)
 -   [Programming with Visual J++](programming-with-visual-j--.md)
 
-For information about using the Microsoft Visual Basic Scripting Edition (VBScript) and Microsoft JScript development software with Microsoft Windows Script Host, see [Programming with Scripts](programming-with-scripts.md). For information about using scripts with a Web-server tool, see [Using Indexing Service with Web Servers](using-indexing-service-with-web-servers.md). For information about Microsoft ActiveX Data Objects (ADO), see [ActiveX Data Objects](dasdkadooverview).
+For information about using the Microsoft Visual Basic Scripting Edition (VBScript) and Microsoft JScript development software with Microsoft Windows Script Host, see [Programming with Scripts](programming-with-scripts.md). For information about using scripts with a Web-server tool, see [Using Indexing Service with Web Servers](using-indexing-service-with-web-servers.md). For information about Microsoft ActiveX Data Objects (ADO), see [ActiveX Data Objects](https://www.bing.com/search?q=ActiveX Data Objects).
 
 ## Related topics
 

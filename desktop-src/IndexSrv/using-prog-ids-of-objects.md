@@ -24,7 +24,7 @@ You can declare and create objects from the Indexing Service APIs using the prog
 |--------------|--------------------------------------------------------------|-----------------------------------|
 | Admin Helper | [AdminIndexServer](iadminindexserver.md)                    | Microsoft.ISAdm                   |
 | Query Helper | [Query](iixssoquery.md)[Utility](iixssoutil.md)<br/> | IXSSO.Query IXSSO.Util<br/> |
-| ADO          | [Recordset](mdobjodbrec)                                     | ADODB.Recordset                   |
+| ADO          | [Recordset](https://www.bing.com/search?q=Recordset)                                     | ADODB.Recordset                   |
 
 
 

@@ -16,15 +16,15 @@ ms.date: 05/31/2018
 
  
 
-The [ActiveX Data Objects (ADO) API](programming-apis.md#-idxs-activex-data-objects-api) provides the [**Connection**](mdobjconnection), [**Command**](mdobjcommand), and [**Recordset**](mdobjodbrec) objects for accessing and manipulating data from the [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md). Of these objects, an Indexing Service script typically uses only the **Recordset** object to represent the set of records that results from a query submitted by means of the [Query Helper API](programming-apis.md#-idxs-query-helper-api) (see [Query Helper API and Scripts](query-helper-api-and-scripts.md)).
+The [ActiveX Data Objects (ADO) API](https://www.bing.com/search?q=ActiveX Data Objects (ADO) API) provides the [**Connection**](https://www.bing.com/search?q=**Connection**), [**Command**](https://www.bing.com/search?q=**Command**), and [**Recordset**](https://www.bing.com/search?q=**Recordset**) objects for accessing and manipulating data from the [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md). Of these objects, an Indexing Service script typically uses only the **Recordset** object to represent the set of records that results from a query submitted by means of the [Query Helper API](https://www.bing.com/search?q=Query Helper API) (see [Query Helper API and Scripts](query-helper-api-and-scripts.md)).
 
-The following table shows how to use the [**Query.CreateRecordset**](iixssoquery-createrecordset.md) method to create a [**Recordset**](mdobjodbrec) object in scripts.
+The following table shows how to use the [**Query.CreateRecordset**](iixssoquery-createrecordset.md) method to create a [**Recordset**](https://www.bing.com/search?q=**Recordset**) object in scripts.
 
 
 
 | Object                       | Creation in VBScript                                        | Creation in JScript                                      |
 |------------------------------|-------------------------------------------------------------|----------------------------------------------------------|
-| [**Recordset**](mdobjodbrec) | `Set objRecordset = objQuery.CreateRecordset("sequential")` | `objRecordset = objQuery.CreateRecordset("sequential");` |
+| [**Recordset**](https://www.bing.com/search?q=**Recordset**) | `Set objRecordset = objQuery.CreateRecordset("sequential")` | `objRecordset = objQuery.CreateRecordset("sequential");` |
 
 
 

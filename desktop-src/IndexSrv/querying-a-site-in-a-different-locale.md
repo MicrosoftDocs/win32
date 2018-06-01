@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-When querying a site for documents in different languages, you can send a [CiCodepage](variables-in-forms-and-in-idq-files.md#-idxs-cicodepage-var) variable in the URL to override the codepage character setting on the server and in the HTTP\_ACCEPT\_LANGUAGE variable in your browser. For example, suppose a client by the name of Yukio from Japan wants to query a site in the United States that contains documents in American English. Yukio wants a list of all documents containing the word *cache*. By appending the CiCodepage variable to his query, he can override the HTTP\_ACCEPT\_LANGUAGE setting in his browser, making sure the query results will be returned in English.
+When querying a site for documents in different languages, you can send a [CiCodepage](https://www.bing.com/search?q=CiCodepage) variable in the URL to override the codepage character setting on the server and in the HTTP\_ACCEPT\_LANGUAGE variable in your browser. For example, suppose a client by the name of Yukio from Japan wants to query a site in the United States that contains documents in American English. Yukio wants a list of all documents containing the word *cache*. By appending the CiCodepage variable to his query, he can override the HTTP\_ACCEPT\_LANGUAGE setting in his browser, making sure the query results will be returned in English.
 
 In the following example, Yukio is querying a server called **Example**, located at **example.microsoft.com**, and a virtual directory called **Software**.
 

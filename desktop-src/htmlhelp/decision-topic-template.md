@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Decision Topic Template
 
-To copy the template, select the text from the **&lt;!DOCTYPE&gt;** tag to the **&lt;/HTML&gt;** end tag, right-click, and then click [**Copy**](htmlhelp-iitresultset_copy).
+To copy the template, select the text from the **&lt;!DOCTYPE&gt;** tag to the **&lt;/HTML&gt;** end tag, right-click, and then click [**Copy**](https://www.bing.com/search?q=**Copy**).
 
 
 ```

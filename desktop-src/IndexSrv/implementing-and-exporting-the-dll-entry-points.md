@@ -20,7 +20,7 @@ Each filter DLL (denoted by filter.dll in this section) must implement and expor
 
 ### DllRegisterServer
 
-The [DllRegisterServer](_com_dllregisterserver) entry point registers the DLL as a persistent handler in the registry. You register the DLL by running the regsvr32.exe program with the filter DLL file name as an argument.
+The [DllRegisterServer](https://www.bing.com/search?q=DllRegisterServer) entry point registers the DLL as a persistent handler in the registry. You register the DLL by running the regsvr32.exe program with the filter DLL file name as an argument.
 
 **regsvr32.exe %SystemRoot%\\system32\\filter.dll**
 
@@ -28,7 +28,7 @@ All the sample filters use macros defined in the header file filtreg.hxx to impl
 
 ### DllUnregisterServer
 
-The [DllUnregisterServer](_com_dllunregisterserver) entry point removes the DLL as a persistent handler in the registry. You unregister the DLL by running the regsvr32.exe program with the /u flag:
+The [DllUnregisterServer](https://www.bing.com/search?q=DllUnregisterServer) entry point removes the DLL as a persistent handler in the registry. You unregister the DLL by running the regsvr32.exe program with the /u flag:
 
 **regsvr32.exe /u %SystemRoot%\\system32\\filter.dll**
 
@@ -36,11 +36,11 @@ All the sample filters use macros, defined in the header file filtreg.hxx, to im
 
 ### DllGetClassObject
 
-The content indexing client calls the [DllGetClassObject](_com_dllgetclassobject) entry point, through COM, to create a class factory object for the filter and to get a pointer to the class factory interface of that object.
+The content indexing client calls the [DllGetClassObject](https://www.bing.com/search?q=DllGetClassObject) entry point, through COM, to create a class factory object for the filter and to get a pointer to the class factory interface of that object.
 
 ### DllCanUnloadNow
 
-The content-indexing client calls the [DllCanUnloadNow](_com_dllcanunloadnow) entry point, through COM, to determine whether it is possible to unload the filter DLL. The filter is unloaded after it is unused for an interval of time as specified by the [FilterIdleTimeOut](filteridletimeout.md) registry value.
+The content-indexing client calls the [DllCanUnloadNow](https://www.bing.com/search?q=DllCanUnloadNow) entry point, through COM, to determine whether it is possible to unload the filter DLL. The filter is unloaded after it is unused for an interval of time as specified by the [FilterIdleTimeOut](filteridletimeout.md) registry value.
 
  
 

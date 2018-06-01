@@ -34,7 +34,7 @@ The **ThreadPriorityFilter** entry is the priority level of the filtering thread
 
 ### Remarks
 
-The combination of the value of the **ThreadPriorityFilter** entry and the value of the [**ThreadClassFilter**](threadclassfilter.md) entry controls the [scheduling priority](_win32_scheduling_priorities) of the filtering process.
+The combination of the value of the **ThreadPriorityFilter** entry and the value of the [**ThreadClassFilter**](threadclassfilter.md) entry controls the [scheduling priority](https://www.bing.com/search?q=scheduling priority) of the filtering process.
 
 ## Related topics
 

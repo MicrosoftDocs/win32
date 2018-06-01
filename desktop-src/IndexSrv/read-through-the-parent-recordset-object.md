@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-This code segment steps through the parent objRS\_Parent [Recordset](mdobjodbrec) object until an end of file occurs. For each parent recordset (directory for this example), the code segment outputs the values of the child recordsets (file names, sizes, and writes for this example).
+This code segment steps through the parent objRS\_Parent [Recordset](https://www.bing.com/search?q=Recordset) object until an end of file occurs. For each parent recordset (directory for this example), the code segment outputs the values of the child recordsets (file names, sizes, and writes for this example).
 
 The following pseudo-code divides the segment into sub-segments and shows the structure of the complete segment. The individual topic for each sub-segment describes the details of the code for that sub-segment.
 

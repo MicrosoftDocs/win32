@@ -64,7 +64,7 @@ Source: mssdk\\samples\\winbase\\indexing\\SQuery\\
 
 ## QSample
 
-QSample uses the [Query Helper API](programming-apis.md#-idxs-query-helper-api) and is much more general and flexible than the VBSQuery and JSQuery scripts. It also uses the [Admin Helper API](programming-apis.md#-idxs-admin-helper-api) to perform some managing tasks.
+QSample uses the [Query Helper API](https://www.bing.com/search?q=Query Helper API) and is much more general and flexible than the VBSQuery and JSQuery scripts. It also uses the [Admin Helper API](https://www.bing.com/search?q=Admin Helper API) to perform some managing tasks.
 
 You can specify the following columns with the /o argument.
 
@@ -125,7 +125,7 @@ You can specify the following locales with the /e argument.
 
 ## Programming Notes
 
-The query executed by these scripts is embedded in the script. The query uses the [Query Helper API](programming-apis.md#-idxs-query-helper-api) and consists of the following:
+The query executed by these scripts is embedded in the script. The query uses the [Query Helper API](https://www.bing.com/search?q=Query Helper API) and consists of the following:
 
 -   Columns = file name, directory, size, write
 -   Query = \#filename \*.asp

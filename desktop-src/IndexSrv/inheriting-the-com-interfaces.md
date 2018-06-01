@@ -16,9 +16,9 @@ ms.date: 05/31/2018
 
  
 
-The filter-class factory inherits the [IClassFactory](_com_iclassfactory) interface. The filter class inherits the [IFilter](/windows/desktop/api/Filter/nn-filter-ifilter) interface and one or more derived [IPersist](_com_ipersist) interfaces. These interfaces are declared in files included from the mssdk\\include directory and have predefined interface identifiers (IIDs).
+The filter-class factory inherits the [IClassFactory](https://www.bing.com/search?q=IClassFactory) interface. The filter class inherits the [IFilter](/windows/desktop/api/Filter/nn-filter-ifilter) interface and one or more derived [IPersist](https://www.bing.com/search?q=IPersist) interfaces. These interfaces are declared in files included from the mssdk\\include directory and have predefined interface identifiers (IIDs).
 
-The filter class can inherit one or more of the [IPersistFile](_com_ipersistfile), [IPersistStorage](_com_ipersiststorage), and [IPersistStream](_com_ipersiststream) interfaces. The content-indexing client queries the filter through its [IUnknown](_com_iunknown) interface to determine which of these interfaces to use when filtering content.
+The filter class can inherit one or more of the [IPersistFile](https://www.bing.com/search?q=IPersistFile), [IPersistStorage](https://www.bing.com/search?q=IPersistStorage), and [IPersistStream](https://www.bing.com/search?q=IPersistStream) interfaces. The content-indexing client queries the filter through its [IUnknown](https://www.bing.com/search?q=IUnknown) interface to determine which of these interfaces to use when filtering content.
 
  
 

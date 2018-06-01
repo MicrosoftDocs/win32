@@ -19,7 +19,7 @@ There are two basic types of text strings: structure identifiers and content str
 
 DVD text strings are currently used almost exclusively on karaoke discs, and these discs mostly use the 0x01 and 0x02 structure identifiers and the 0x30 type content string. But it is reasonable to assume that as time goes by, (1) more types of DVD-Video discs will contain text strings and (2) these strings will be organized in more complex ways in order to provide fuller descriptions of disc contents.
 
-The following code shows how to determine the number of text string language blocks on the disc, and display the languages available in a list box *lboTextLanguages*. For more information on LCIDs and primary language IDs, see [**LanguageFromLCID**](mstv-msvidwebdvd_languagefromlcid_property)
+The following code shows how to determine the number of text string language blocks on the disc, and display the languages available in a list box *lboTextLanguages*. For more information on LCIDs and primary language IDs, see [**LanguageFromLCID**](https://www.bing.com/search?q=**LanguageFromLCID**)
 
 
 ```C++

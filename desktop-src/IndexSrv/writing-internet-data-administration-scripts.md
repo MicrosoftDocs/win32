@@ -22,9 +22,9 @@ Administrative requests are very similar to queries, except that the parameters 
 
 | Parameter                                                                  | Description                                                                                               | Optional |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|----------|
-| [CiCatalog](variables-in-forms-and-in-idq-files.md#-idxs-cicatalog-var)   | Specifies location of catalog. If not found, default specified in registry is used.                       | Yes      |
-| [CiTemplate](variables-in-forms-and-in-idq-files.md#-idxs-citemplate-var) | Specifies template to use if administration operation is successful. Standard .idq error semantics apply. | No       |
-| [CiLocale](variables-in-forms-and-in-idq-files.md#-idxs-cilocale-var)     | Defines the locale used to issue the query. Indexing Service supports standard HTML locale encoding.      | Yes      |
+| [CiCatalog](https://www.bing.com/search?q=CiCatalog)   | Specifies location of catalog. If not found, default specified in registry is used.                       | Yes      |
+| [CiTemplate](https://www.bing.com/search?q=CiTemplate) | Specifies template to use if administration operation is successful. Standard .idq error semantics apply. | No       |
+| [CiLocale](https://www.bing.com/search?q=CiLocale)     | Defines the locale used to issue the query. Indexing Service supports standard HTML locale encoding.      | Yes      |
 
 
 

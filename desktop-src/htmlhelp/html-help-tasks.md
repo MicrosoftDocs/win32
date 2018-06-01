@@ -48,7 +48,7 @@ This section contains a complete list of basic tasks. You will combine these tas
 -   [To clear help messages](to-clear-help-messages.md)
 -   [To compile a help project file](to-compile-a-help-project-file.md)
 -   [To compile a help project from the command prompt](to-compile-a-help-project-from-the-dos-prompt.md)
--   [To compile a project compatible with HTML Help version 1.0](htmlhelp.to_compile_a_project_compatible_with_html_help_version_1.0)
+-   [To compile a project compatible with HTML Help version 1.0](https://msdn.microsoft.com/windows/desktop/35E7F6D0-A88B-4d1d-BF9C-F145860D4C19)
 -   [To convert an existing help project to an HTML Help project](to-convert-an-existing-help-project-to-an-html-help-project.md)
 -   [To create a binary contents file](to-create-a-binary-contents-file.md)
 -   [To create a bookmark](to-create-a-bookmark.md)

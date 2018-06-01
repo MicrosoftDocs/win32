@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 Indexing Service accepts queries composed in a language designed especially for Indexing Service. This language has two dialects: Query Dialect 1 is the language used in Index Server 2.0 and earlier versions, and Query Dialect 2 is the language introduced in Indexing Service 3.0. Usually, Dialect 2 is the preferred dialect to use because it is more expressive, flexible, and extensible. The short form of Dialect 2 is compatible with Dialect 1 with a few exceptions. Usually a query submitted as Dialect 2 can employ Dialect 1 syntax.
 
-Microsoft Visual Basic and Microsoft Visual J++ applications and Microsoft Visual Basic Scripting Edition (VBScript) and Microsoft JScript scripts can submit queries in these dialects using the [Query Helper](programming-apis.md#-idxs-query-helper-api) functions. Microsoft Visual C++ applications can submit queries in these dialects using the [OLE DB Helper](programming-apis.md#-idxs-ole-db-helper-api) functions. IDQ+HTX scripts can submit queries in these dialects using the [ISAPI Extensions](programming-apis.md#-idxs-isapi-extensions-api).
+Microsoft Visual Basic and Microsoft Visual J++ applications and Microsoft Visual Basic Scripting Edition (VBScript) and Microsoft JScript scripts can submit queries in these dialects using the [Query Helper](https://www.bing.com/search?q=Query Helper) functions. Microsoft Visual C++ applications can submit queries in these dialects using the [OLE DB Helper](https://www.bing.com/search?q=OLE DB Helper) functions. IDQ+HTX scripts can submit queries in these dialects using the [ISAPI Extensions](https://www.bing.com/search?q=ISAPI Extensions).
 
 This section describes the syntax of the query-language dialects. The topics include:
 

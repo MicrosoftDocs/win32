@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IVMGuestOS2 Methods
 
-The [**IVMGuestOS2**](ivmguestos2.md) interface defines the following method in addition to those inherited from [**IVMGuestOS**](ivmguestos.md), [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5), and [**IUnknown**](_com_iunknown):
+The [**IVMGuestOS2**](ivmguestos2.md) interface defines the following method in addition to those inherited from [**IVMGuestOS**](ivmguestos.md), [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5), and [**IUnknown**](https://www.bing.com/search?q=**IUnknown**):
 
 -   [**GetParameter**](ivmguestos2-getparameter.md)
 

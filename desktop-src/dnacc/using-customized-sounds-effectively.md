@@ -46,7 +46,7 @@ There are a few standards for system sounds registration and handling. It is rec
 
  
 
-Properly registered sound events are customizable through the Control Panel. For design and registration of sound events, see the following technical article, [Windows User Experience Chapter 11 Integrating with the System: Creating System Sounds](ch11f)
+Properly registered sound events are customizable through the Control Panel. For design and registration of sound events, see the following technical article, [Windows User Experience Chapter 11 Integrating with the System: Creating System Sounds](https://www.bing.com/search?q=Windows User Experience Chapter 11 Integrating with the System: Creating System Sounds)
 
 ### Use ShowSounds for sounds with dialog spoken by a person or a machine
 
@@ -80,7 +80,7 @@ Finally, it is strongly recommended that application developers adhere to the st
 
 | Document                                                                                                   | Purpose                                                                   |
 |------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| [Windows User Experience Chapter 11 Integrating with the System "Creating System Sounds"](ch11f)           | General design guideline for sound events                                 |
+| [Windows User Experience Chapter 11 Integrating with the System "Creating System Sounds"](https://www.bing.com/search?q=Windows User Experience Chapter 11 Integrating with the System "Creating System Sounds")           | General design guideline for sound events                                 |
 | [Supporting ShowSounds in Your Applications](supporting-showsounds-in-your-applications.md)               | MSDN technical article about ShowSounds                                   |
 | [Captions and Audio Descriptions for PC Multimedia](captions-and-audio-descriptions-for-pc-multimedia.md) | MSDN technical article about captioning and audio descriptions in general |
 

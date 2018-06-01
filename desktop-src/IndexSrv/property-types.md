@@ -20,7 +20,7 @@ Each document property represents either unformatted text or a formatted value. 
 
 A text-type property has only unformatted text associated with its name. A value-type property has a data type ID and a value of that data type associated with its name. The data type ID can be textual (for example, VT\_LPWSTR) or non-textual (for example, VT\_I8). If a value-type property is cached, it also has an associated cached size and a storage level, which is either primary or secondary. For details about caching and storage level, see [Property Indexing](property-indexing.md).
 
-The following table gives either the friendly name or the [PROPSPEC](_stg_propspec) string name of several properties and fills in the details appropriate for each property type.
+The following table gives either the friendly name or the [PROPSPEC](https://www.bing.com/search?q=PROPSPEC) string name of several properties and fills in the details appropriate for each property type.
 
 
 

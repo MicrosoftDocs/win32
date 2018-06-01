@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The VBQuery sample is an example Windows application written in Visual Basic that illustrates how to query Indexing Service using the Indexing Service query languages and the [ActiveX Data Objects (ADO)](programming-apis.md#-idxs-activex-data-objects-api) and [Query Helper](programming-apis.md#-idxs-query-helper-api) APIs.
+The VBQuery sample is an example Windows application written in Visual Basic that illustrates how to query Indexing Service using the Indexing Service query languages and the [ActiveX Data Objects (ADO)](https://www.bing.com/search?q=ActiveX Data Objects (ADO)) and [Query Helper](https://www.bing.com/search?q=Query Helper) APIs.
 
 Source: mssdk\\samples\\winbase\\indexing\\VBQuery\\
 
@@ -45,7 +45,7 @@ The VBQuery sample illustrates how you can use the [Query](iixssoquery.md) and [
 
 In addition, the sample uses ADO objects to handle the recordsets returned by the Query Helper Automation objects.
 
-This sample also demonstrates making a dynamic-link library (DLL) call to the [LocateCatalogs](/windows/desktop/api/Ntquery/nf-ntquery-locatecatalogsa) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api). The application uses this function to locate catalogs suitable for the scope specified by the user.
+This sample also demonstrates making a dynamic-link library (DLL) call to the [LocateCatalogs](/windows/desktop/api/Ntquery/nf-ntquery-locatecatalogsa) function of the [OLE DB Helper API](https://www.bing.com/search?q=OLE DB Helper API). The application uses this function to locate catalogs suitable for the scope specified by the user.
 
  
 

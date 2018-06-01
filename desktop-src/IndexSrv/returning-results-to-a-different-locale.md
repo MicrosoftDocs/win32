@@ -16,9 +16,9 @@ ms.date: 05/31/2018
 
  
 
-If you are expecting queries from sites in different locales, you can set [CiCodepage](variables-in-forms-and-in-idq-files.md#-idxs-cicodepage-var) in the .htm file .htx (and .htw) file to make sure results are displayed correctly when returned to the client.
+If you are expecting queries from sites in different locales, you can set [CiCodepage](https://www.bing.com/search?q=CiCodepage) in the .htm file .htx (and .htw) file to make sure results are displayed correctly when returned to the client.
 
-You can set the value of [CiCodepage](variables-in-forms-and-in-idq-files.md#-idxs-cicodepage-var) to CiCodepage=&lt;%CiCodepage%&gt; through the URL. Indexing Service takes the value sent by the browser to parse the query with the proper character set. If the CiCodepage variable is set with the same CiCodepage value that is in the .idq file, the CiCodepage variable can be referenced in the .htx or .htw file to display the result in the proper character set.
+You can set the value of [CiCodepage](https://www.bing.com/search?q=CiCodepage) to CiCodepage=&lt;%CiCodepage%&gt; through the URL. Indexing Service takes the value sent by the browser to parse the query with the proper character set. If the CiCodepage variable is set with the same CiCodepage value that is in the .idq file, the CiCodepage variable can be referenced in the .htx or .htw file to display the result in the proper character set.
 
  
 

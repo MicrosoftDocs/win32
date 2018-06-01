@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The [VJQuery Sample](vjquery-sample.md) executes an Indexing Service query using the SQL language and the [ActiveX Data Objects API](programming-apis.md#-idxs-activex-data-objects-api). Depending on the parameters specified on the command line when the sample is run, it executes one of three different SQL queries.
+The [VJQuery Sample](vjquery-sample.md) executes an Indexing Service query using the SQL language and the [ActiveX Data Objects API](https://www.bing.com/search?q=ActiveX Data Objects API). Depending on the parameters specified on the command line when the sample is run, it executes one of three different SQL queries.
 
 -   If the command line doesn't specify a query, it executes the following default query.
     ```sql

@@ -16,12 +16,12 @@ ms.date: 05/31/2018
 
  
 
-A query can be executed sequentially (results fetched as needed) or it can be executed nonsequentially (results cached on the server). A sequential query requires fewer server resources, but also has some limitations. Backward scrolling ([CiBookmarkSkipCount](parameter-for-use-with-bookmarks.md#-idxs-cibookmarkskipcount-var) &lt; 0) will re-execute the query and scroll forward to the specified position. Sequential queries cannot refer to the following variables: [CiMatchedRecordCount](read-only-variables-available-in-htx-files.md#-idxs-cimatchedrecordcount-var), [CiRecordsNextPage](read-only-variables-available-in-htx-files.md#-idxs-cirecordsnextpage-var), and [CiTotalNumberPages](read-only-variables-available-in-htx-files.md#-idxs-citotalnumberpages-var).
+A query can be executed sequentially (results fetched as needed) or it can be executed nonsequentially (results cached on the server). A sequential query requires fewer server resources, but also has some limitations. Backward scrolling ([CiBookmarkSkipCount](https://www.bing.com/search?q=CiBookmarkSkipCount) &lt; 0) will re-execute the query and scroll forward to the specified position. Sequential queries cannot refer to the following variables: [CiMatchedRecordCount](https://www.bing.com/search?q=CiMatchedRecordCount), [CiRecordsNextPage](https://www.bing.com/search?q=CiRecordsNextPage), and [CiTotalNumberPages](https://www.bing.com/search?q=CiTotalNumberPages).
 
 Either of the following actions will force a query to be nonsequential:
 
--   Referring to the [CiMatchedRecordCount](read-only-variables-available-in-htx-files.md#-idxs-cimatchedrecordcount-var), [CiRecordsNextPage](read-only-variables-available-in-htx-files.md#-idxs-cirecordsnextpage-var) or [CiTotalNumberPages](read-only-variables-available-in-htx-files.md#-idxs-citotalnumberpages-var) variables in the .htx page.
--   Setting the [CiSort](variables-in-forms-and-in-idq-files.md#-idxs-cisort-var) parameter to sort of query results other than the native order of the result. CiSort can safely be set to sort ascending on WorkId (CiSort=WorkId\[a\]) or descending on Rank (CiSort=Rank\[d\]).
+-   Referring to the [CiMatchedRecordCount](https://www.bing.com/search?q=CiMatchedRecordCount), [CiRecordsNextPage](https://www.bing.com/search?q=CiRecordsNextPage) or [CiTotalNumberPages](https://www.bing.com/search?q=CiTotalNumberPages) variables in the .htx page.
+-   Setting the [CiSort](https://www.bing.com/search?q=CiSort) parameter to sort of query results other than the native order of the result. CiSort can safely be set to sort ascending on WorkId (CiSort=WorkId\[a\]) or descending on Rank (CiSort=Rank\[d\]).
 
  
 

@@ -22,7 +22,7 @@ The following sample provides an example of custom word breaker and stemmer impl
 
 | Name                                      | Tool          | Language   | API                                                                       |
 |-------------------------------------------|---------------|------------|---------------------------------------------------------------------------|
-| [Lrsample](language-resource-samples.md) | Visual Studio | Visual C++ | [IWordBreaker](iwordbreaker.md) and [IStemmer](istemmer.md) interfaces. |
+| [Lrsample](language-resource-samples.md) | Visual Studio | Visual C++ | [IWordBreaker](https://www.bing.com/search?q=IWordBreaker) and [IStemmer](https://www.bing.com/search?q=IStemmer) interfaces. |
 
 
 

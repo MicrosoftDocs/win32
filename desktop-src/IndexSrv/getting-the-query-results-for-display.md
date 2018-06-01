@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The following code segments from the **IssueQuery** function of the sample get the results of the query for subsequent display. The function first declares an [**IAccessor**](https://msdn.microsoft.com/windows/desktop/a39058b6-ecfa-418b-80a3-66eea4a7bf89) interface and uses the [**QueryInterface**](_com_iunknown_queryinterface) method of the [**IRowset**](https://msdn.microsoft.com/windows/desktop/b14147c4-8b03-49c6-ab5d-00186643a6b4) interface to get a pointer to an **IAccessor** interface for the query's rowset.
+The following code segments from the **IssueQuery** function of the sample get the results of the query for subsequent display. The function first declares an [**IAccessor**](https://msdn.microsoft.com/windows/desktop/a39058b6-ecfa-418b-80a3-66eea4a7bf89) interface and uses the [**QueryInterface**](https://www.bing.com/search?q=**QueryInterface**) method of the [**IRowset**](https://msdn.microsoft.com/windows/desktop/b14147c4-8b03-49c6-ab5d-00186643a6b4) interface to get a pointer to an **IAccessor** interface for the query's rowset.
 
 
 ```C++

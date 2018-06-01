@@ -116,7 +116,7 @@ This is an optional variable that, when set to TRUE, forces Indexing Service to 
 
 </dd> </dl>
 
-When the results are returned in raw format, Indexing Service formats the results according to the .htx file specified in the [CiTemplate](variables-in-forms-and-in-idq-files.md#-idxs-citemplate-var) parameter.
+When the results are returned in raw format, Indexing Service formats the results according to the .htx file specified in the [CiTemplate](https://www.bing.com/search?q=CiTemplate) parameter.
 
 For details about the .idq file and how to format it, see [Internet Data Query Files](internet-data-query-files.md).
 

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-Indexing Service provides functions for finding and managing catalogs, determining the catalog file's path, for creating Microsoft OLE DB [**Command**](mdobjcommand) objects to query catalogs using [Query Languages for Indexing Service](query-languages-for-indexing-service.md), and for filtering files.
+Indexing Service provides functions for finding and managing catalogs, determining the catalog file's path, for creating Microsoft OLE DB [**Command**](https://www.bing.com/search?q=**Command**) objects to query catalogs using [Query Languages for Indexing Service](query-languages-for-indexing-service.md), and for filtering files.
 
 The following tables list the functions in each category.
 
@@ -36,10 +36,10 @@ The following tables list the functions in each category.
 
 | For creating queries using OLE DB command objects          | Description                                                                                                                               |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CICreateCommand**](/windows/desktop/api/Ntquery/nf-ntquery-cicreatecommand)                 | Creates a [**Command**](mdobjcommand) object.                                                                                             |
-| [**CIMakeICommand**](/windows/desktop/api/Ntquery/nf-ntquery-cimakeicommand)                   | Creates a [**Command**](mdobjcommand) object, specifying computers, catalogs, and scopes.                                                 |
-| [**CIBuildQueryNode**](/windows/desktop/api/Ntquery/nf-ntquery-cibuildquerynode)               | Builds one node of a query restriction tree for a [**Command**](mdobjcommand) object.                                                     |
-| [**CIBuildQueryTree**](/windows/desktop/api/Ntquery/nf-ntquery-cibuildquerytree)               | Builds a query restriction tree for a [**Command**](mdobjcommand) object.                                                                 |
+| [**CICreateCommand**](/windows/desktop/api/Ntquery/nf-ntquery-cicreatecommand)                 | Creates a [**Command**](https://www.bing.com/search?q=**Command**) object.                                                                                             |
+| [**CIMakeICommand**](/windows/desktop/api/Ntquery/nf-ntquery-cimakeicommand)                   | Creates a [**Command**](https://www.bing.com/search?q=**Command**) object, specifying computers, catalogs, and scopes.                                                 |
+| [**CIBuildQueryNode**](/windows/desktop/api/Ntquery/nf-ntquery-cibuildquerynode)               | Builds one node of a query restriction tree for a [**Command**](https://www.bing.com/search?q=**Command**) object.                                                     |
+| [**CIBuildQueryTree**](/windows/desktop/api/Ntquery/nf-ntquery-cibuildquerytree)               | Builds a query restriction tree for a [**Command**](https://www.bing.com/search?q=**Command**) object.                                                                 |
 | [**CIRestrictionToFullTree**](/windows/desktop/api/Ntquery/nf-ntquery-cirestrictiontofulltree) | Converts a query restriction tree with columns, sort columns, and grouping columns to a [**DBCOMMANDTREE**](dbcommandtree.md) structure. |
 | [**CITextToFullTree**](/windows/desktop/api/Ntquery/nf-ntquery-citexttofulltree)               | Creates a full command tree using Query Language 1.                                                                                       |
 | [**CITextToFullTreeEx**](/windows/desktop/api/Ntquery/nf-ntquery-citexttofulltreeex)           | Creates a full command tree using the Query Language Dialect that you specify.                                                            |
@@ -55,8 +55,8 @@ The following tables list the functions in each category.
 | For filtering files                                      | Description                                                                                                      |
 |----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | [**LoadIFilter**](/windows/desktop/api/Ntquery/nf-ntquery-loadifilter)                       | Retrieves [**IFilter**](/windows/desktop/api/Filter/nn-filter-ifilter) from path name for object.                                                  |
-| [**BindIFilterFromStorage**](/windows/desktop/api/Ntquery/nf-ntquery-bindifilterfromstorage) | Given the [**IStorage**](_stg_istorage) interface pointer, retrieves the appropriate [**IFilter**](/windows/desktop/api/Filter/nn-filter-ifilter). |
-| [**BindIFilterFromStream**](/windows/desktop/api/Ntquery/nf-ntquery-bindifilterfromstream)   | Given the [**IStream**](_stg_istream) interface pointer, retrieves the appropriate [**IFilter**](/windows/desktop/api/Filter/nn-filter-ifilter).   |
+| [**BindIFilterFromStorage**](/windows/desktop/api/Ntquery/nf-ntquery-bindifilterfromstorage) | Given the [**IStorage**](https://www.bing.com/search?q=**IStorage**) interface pointer, retrieves the appropriate [**IFilter**](/windows/desktop/api/Filter/nn-filter-ifilter). |
+| [**BindIFilterFromStream**](/windows/desktop/api/Ntquery/nf-ntquery-bindifilterfromstream)   | Given the [**IStream**](https://www.bing.com/search?q=**IStream**) interface pointer, retrieves the appropriate [**IFilter**](/windows/desktop/api/Filter/nn-filter-ifilter).   |
 
 
 

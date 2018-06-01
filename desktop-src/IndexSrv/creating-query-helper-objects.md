@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The [Query Helper API](programming-apis.md#-idxs-query-helper-api) provides the [**Query**](iixssoquery.md) and [**Utility**](iixssoutil.md) objects for creating and managing queries to the [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md). An application can use these objects along with an ADO [**Recordset**](mdobjodbrec) object (see [Creating ADO Objects](creating-ado-objects.md)) that represents the resulting records from a query.
+The [Query Helper API](https://www.bing.com/search?q=Query Helper API) provides the [**Query**](iixssoquery.md) and [**Utility**](iixssoutil.md) objects for creating and managing queries to the [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md). An application can use these objects along with an ADO [**Recordset**](https://www.bing.com/search?q=**Recordset**) object (see [Creating ADO Objects](creating-ado-objects.md)) that represents the resulting records from a query.
 
 The following table shows how to declare a [**Query**](iixssoquery.md) object with either early or late binding.
 

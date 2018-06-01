@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-This code segment uses the [**LocateCatalogs**](/windows/desktop/api/Ntquery/nf-ntquery-locatecatalogsa) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to locate the Indexing Service catalog for a specified scope. The first portion of the code segment declares a reference to the **LocateCatalog** function as an external procedure in Query.dll
+This code segment uses the [**LocateCatalogs**](/windows/desktop/api/Ntquery/nf-ntquery-locatecatalogsa) function of the [OLE DB Helper API](https://www.bing.com/search?q=OLE DB Helper API) to locate the Indexing Service catalog for a specified scope. The first portion of the code segment declares a reference to the **LocateCatalog** function as an external procedure in Query.dll
 
 
 ```VB

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-Scripts can manage and query Indexing Service using the [Admin Helper API](programming-apis.md#-idxs-admin-helper-api) and the [Query Helper API](programming-apis.md#-idxs-query-helper-api), which make programming easier than directly using the [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md). Scripts can also use the [ActiveX Data Objects (ADO) API](programming-apis.md#-idxs-activex-data-objects-api), which represents the rowset of the OLE DB Provider as a [Recordset](mdobjodbrec) object. The topics in this section describe the use of these APIs with scripts and include the following.
+Scripts can manage and query Indexing Service using the [Admin Helper API](https://www.bing.com/search?q=Admin Helper API) and the [Query Helper API](https://www.bing.com/search?q=Query Helper API), which make programming easier than directly using the [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md). Scripts can also use the [ActiveX Data Objects (ADO) API](https://www.bing.com/search?q=ActiveX Data Objects (ADO) API), which represents the rowset of the OLE DB Provider as a [Recordset](https://www.bing.com/search?q=Recordset) object. The topics in this section describe the use of these APIs with scripts and include the following.
 
 -   [Admin Helper API and Scripts](admin-helper-api-and-scripts.md)
 -   [Query Helper API and Scripts](query-helper-api-and-scripts.md)

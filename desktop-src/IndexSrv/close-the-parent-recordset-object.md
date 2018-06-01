@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-This code segment uses the [**Close**](mdmthclose) method of the objRS\_Parent [**Recordset**](mdobjodbrec) object to free the system resources of the parent recordset. Setting the objRS\_Parent **Recordset** object to Nothing removes the parent object from memory.
+This code segment uses the [**Close**](https://www.bing.com/search?q=**Close**) method of the objRS\_Parent [**Recordset**](https://www.bing.com/search?q=**Recordset**) object to free the system resources of the parent recordset. Setting the objRS\_Parent **Recordset** object to Nothing removes the parent object from memory.
 
 
 ```VB

@@ -23,7 +23,7 @@ The properties of [**Command objects**](https://msdn.microsoft.com/windows/deskt
 <span id="DBPROP_USEEXTENDEDDBTYPES"></span><span id="dbprop_useextendeddbtypes"></span>DBPROP\_USEEXTENDEDDBTYPES
 </dt> <dd>
 
-Resulting rowsets should use [**PROPVARIANT**](_stg_propvariant) types.
+Resulting rowsets should use [**PROPVARIANT**](https://www.bing.com/search?q=**PROPVARIANT**) types.
 
 </dd> <dt>
 

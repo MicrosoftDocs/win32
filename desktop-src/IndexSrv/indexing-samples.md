@@ -22,9 +22,9 @@ The following samples are examples of indexing (the filtering component) with In
 
 | Name                                     | Tool          | Language   | API                                                                   |
 |------------------------------------------|---------------|------------|-----------------------------------------------------------------------|
-| [HtmlProp](htmlprop-sample.md)          | Visual Studio | Visual C++ | [IFilter Component](programming-apis.md#-idxs-ifilter-component-api) |
-| [IFilter (HtmlFilt)](ifilter-sample.md) | Visual Studio | Visual C++ | [IFilter Component](programming-apis.md#-idxs-ifilter-component-api) |
-| [SmpFilt](smpfilt-sample.md)            | Visual Studio | Visual C++ | [IFilter Component](programming-apis.md#-idxs-ifilter-component-api) |
+| [HtmlProp](htmlprop-sample.md)          | Visual Studio | Visual C++ | [IFilter Component](https://www.bing.com/search?q=IFilter Component) |
+| [IFilter (HtmlFilt)](ifilter-sample.md) | Visual Studio | Visual C++ | [IFilter Component](https://www.bing.com/search?q=IFilter Component) |
+| [SmpFilt](smpfilt-sample.md)            | Visual Studio | Visual C++ | [IFilter Component](https://www.bing.com/search?q=IFilter Component) |
 
 
 

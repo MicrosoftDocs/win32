@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-This code segment displays the results of the query. It gets the count of the number of fields in the m\_RS [**Recordset**](mdidxrecordsetjavasyntax) object and then reads through the **Recordset** object, printing the values of the fields, until it encounters an end of file.
+This code segment displays the results of the query. It gets the count of the number of fields in the m\_RS [**Recordset**](https://www.bing.com/search?q=**Recordset**) object and then reads through the **Recordset** object, printing the values of the fields, until it encounters an end of file.
 
 
 ```Java

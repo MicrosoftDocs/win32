@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-Visual Basic is a productive language for creating robust applications and components. With Visual Basic and the [Admin Helper](programming-apis.md#-idxs-admin-helper-api), [Query Helper](programming-apis.md#-idxs-query-helper-api), and [ActiveX Data Objects](programming-apis.md#-idxs-activex-data-objects-api) (ADO) APIs, you can build applications that manage and query Indexing Service. This section discusses several aspects of using Visual Basic with Indexing Service and includes Visual Basic code examples. The topics include the following.
+Visual Basic is a productive language for creating robust applications and components. With Visual Basic and the [Admin Helper](https://www.bing.com/search?q=Admin Helper), [Query Helper](https://www.bing.com/search?q=Query Helper), and [ActiveX Data Objects](https://www.bing.com/search?q=ActiveX Data Objects) (ADO) APIs, you can build applications that manage and query Indexing Service. This section discusses several aspects of using Visual Basic with Indexing Service and includes Visual Basic code examples. The topics include the following.
 
 -   [Using Visual Basic with Indexing Service APIs](using-visual-basic-with-indexing-service-apis.md)
 -   [Managing with Visual Basic](managing-with-visual-basic.md)

@@ -67,7 +67,7 @@ SAMI is not the only captioning technology available for PC multimedia today. Mu
 
 The Synchronized Multimedia Integration Language (SMIL) focuses on choreographing multimedia presentations of audio, video, text, and graphics in real-time. SMIL 1.0 is a World Wide Web Consortium (W3C) Recommendation (June 1998). W3C developed the succeeding version (SMIL 2.0). For more information about W3C and SMIL 2.0, see the website at [http://www.w3.org/AudioVideo/](http://go.microsoft.com/fwlink/p/?linkid=7974).
 
-Internet Explorer 5.5 (or later) supports HTML+TIME based on the SMIL 2.0 specification. The technical detail of HTML+TIME is available in the MSDN article [available here](htime_node_entry).
+Internet Explorer 5.5 (or later) supports HTML+TIME based on the SMIL 2.0 specification. The technical detail of HTML+TIME is available in the MSDN article [available here](https://www.bing.com/search?q=available here).
 
 ### SAMI
 
@@ -77,7 +77,7 @@ The SAMI specification is supported by Microsoft Encarta Encyclopedia, Windows M
 
 A sample of SAMI closed-caption captioning is provided in this document.
 
-For more information, see [Adding Closed Captions to Digital Media](wmp.adding_closed_captions_to_digital_media).
+For more information, see [Adding Closed Captions to Digital Media](https://msdn.microsoft.com/windows/desktop/0fdd2cdc-32d4-4fda-9596-b050107abd5f).
 
 **Open Captions**
 
@@ -134,7 +134,7 @@ For assistance in understanding the concepts behind SAMI captioning, developing 
 -   [Captioning Key Guidelines and Preferred Techniques](http://go.microsoft.com/fwlink/p/?linkid=208611) by the [Described and Captioned Media Program](http://go.microsoft.com/fwlink/p/?linkid=208612)
 -   [Hi-Caption](http://go.microsoft.com/fwlink/p/?linkid=208613), a captioning tool by HiSoftware
 -   [Adding Captions for Producer 2003 Presentations](http://go.microsoft.com/fwlink/p/?linkid=208614)
--   [Adding Closed Captions to Digital Media](wmp.adding_closed_captions_to_digital_media)
+-   [Adding Closed Captions to Digital Media](https://msdn.microsoft.com/windows/desktop/0fdd2cdc-32d4-4fda-9596-b050107abd5f)
 -   [Captions and Audio Descriptions for PC Multimedia](captions-and-audio-descriptions-for-pc-multimedia.md)
 
 ## Writing for SAMI 1.0
@@ -488,7 +488,7 @@ Properties exposed by the ClosedCaption object of the Windows Media Player contr
 
     Specifies or retrieves the font size and style used for the closed captioning.
 
-Windows Media Player ClosedCaption object also supports some methods to get information about the currently loaded SAMI file. For more information about ClosedCaption object properties and methods, see the Windows Media Player 9 Series Software Development Kit (SDK) and MSDN article [Adding Closed Captions to Digital Media](wmp.adding_closed_captions_to_digital_media).
+Windows Media Player ClosedCaption object also supports some methods to get information about the currently loaded SAMI file. For more information about ClosedCaption object properties and methods, see the Windows Media Player 9 Series Software Development Kit (SDK) and MSDN article [Adding Closed Captions to Digital Media](https://msdn.microsoft.com/windows/desktop/0fdd2cdc-32d4-4fda-9596-b050107abd5f).
 
 ### Internet Explorer
 

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The resulting RS [**Recordset**](mdobjodbrec) object for the query, whether created with the [Query Helper API](programming-apis.md#-idxs-query-helper-api) or directly with the [ActiveX Data Objects (ADO) API](programming-apis.md#-idxs-activex-data-objects-api), provides the information in the list view of the results on the **Main** form. This code segment uses the [**MoveNext**](mdmthmovefirst) method of the RS **Recordset** object to read through the results and provide the selected properties to the list view control.
+The resulting RS [**Recordset**](https://www.bing.com/search?q=**Recordset**) object for the query, whether created with the [Query Helper API](https://www.bing.com/search?q=Query Helper API) or directly with the [ActiveX Data Objects (ADO) API](https://www.bing.com/search?q=ActiveX Data Objects (ADO) API), provides the information in the list view of the results on the **Main** form. This code segment uses the [**MoveNext**](https://www.bing.com/search?q=**MoveNext**) method of the RS **Recordset** object to read through the results and provide the selected properties to the list view control.
 
 
 ```VB

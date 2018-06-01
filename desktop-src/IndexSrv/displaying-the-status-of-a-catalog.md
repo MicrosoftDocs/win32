@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The following code segment is the **DisplayStatus** function of the sample, which uses the [**CISTATE**](/windows/desktop/api/Ntquery/nf-ntquery-cistate) structure, the [**CI\_STATE\_\***](ci-state-constants.md) constants, and the **CIState** function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to determine the status of the specified catalog. It outputs the status using the sample's **DisplayStat** function and the IDS\_\* strings defined in QSample.rc.
+The following code segment is the **DisplayStatus** function of the sample, which uses the [**CISTATE**](/windows/desktop/api/Ntquery/nf-ntquery-cistate) structure, the [**CI\_STATE\_\***](ci-state-constants.md) constants, and the **CIState** function of the [OLE DB Helper API](https://www.bing.com/search?q=OLE DB Helper API) to determine the status of the specified catalog. It outputs the status using the sample's **DisplayStat** function and the IDS\_\* strings defined in QSample.rc.
 
 
 ```C++

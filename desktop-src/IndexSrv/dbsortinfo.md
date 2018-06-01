@@ -31,7 +31,7 @@ typedef struct  tagDBSORTINFO {
 
 The locale identifier (LCID) specifies a set of user preference information related to the user's language. It determines how times are formatted, how items are alphabetically sorted, and how strings are compared.
 
-For additional information on LCIDs see [Locales](_win32_locales).
+For additional information on LCIDs see [Locales](https://www.bing.com/search?q=Locales).
 
  
 

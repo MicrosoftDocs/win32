@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The following code segments from the **IssueQuery** function of the sample create and execute a query. The function first declares an [**ICommand**](https://msdn.microsoft.com/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30) interface and uses the [**CIMakeICommand**](/windows/desktop/api/Ntquery/nf-ntquery-cimakeicommand) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to get a pointer to an **ICommand** interface for the specified scope, catalog, and machine properties.
+The following code segments from the **IssueQuery** function of the sample create and execute a query. The function first declares an [**ICommand**](https://msdn.microsoft.com/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30) interface and uses the [**CIMakeICommand**](/windows/desktop/api/Ntquery/nf-ntquery-cimakeicommand) function of the [OLE DB Helper API](https://www.bing.com/search?q=OLE DB Helper API) to get a pointer to an **ICommand** interface for the specified scope, catalog, and machine properties.
 
 
 ```C++

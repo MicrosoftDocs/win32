@@ -48,7 +48,7 @@ End Function
 
 
 
-As part of error trapping, it is important to check for disabled user operations with the [**UOPValid**](mstv-msvidwebdvd_uopvalid_method) method. This method checks to see if the disc has enabled or disabled certain method or property calls. However, it is important to realize that **UOPValid** only checks to see if the DVD author has specifically disabled an action; it does not indicate whether checking the property or performing the method is normally valid at the current time. Error trapping should handle attempts to perform an action not valid for the current domain or time.
+As part of error trapping, it is important to check for disabled user operations with the [**UOPValid**](https://www.bing.com/search?q=**UOPValid**) method. This method checks to see if the disc has enabled or disabled certain method or property calls. However, it is important to realize that **UOPValid** only checks to see if the DVD author has specifically disabled an action; it does not indicate whether checking the property or performing the method is normally valid at the current time. Error trapping should handle attempts to perform an action not valid for the current domain or time.
 
 An additional source of unexpected errors stems from the fact that the DVD Navigator filter only sends messages every 1/2 second. Therefore, it is possible that domain or UOP changes may have occurred without notification yet being sent. Attempting to perform an action that has been disabled, or in the previous domain, is a common cause of errors that should be trapped.
 
@@ -61,7 +61,7 @@ For more information on error codes, as well as how Visual Basic handles them, s
 [Error and Success Codes](https://msdn.microsoft.com/library/windows/desktop/dd375623)
 </dt> <dt>
 
-[**MSVidWebDVD.UOPValid**](mstv-msvidwebdvd_uopvalid_method)
+[**MSVidWebDVD.UOPValid**](https://www.bing.com/search?q=**MSVidWebDVD.UOPValid**)
 </dt> </dl>
 
  

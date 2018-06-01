@@ -55,7 +55,7 @@ To read this property, a user must have the [**farQUERY\_CONFIG**](/previous-ver
 [**FaxConfiguration**](-mfax-faxconfiguration.md)
 </dt> <dt>
 
-[**FaxConfiguration**](fax._mfax_ifaxconfiguration)
+[**FaxConfiguration**](https://msdn.microsoft.com/windows/desktop/20a771ed-98c3-4d26-89dc-799008954767)
 </dt> </dl>
 
  

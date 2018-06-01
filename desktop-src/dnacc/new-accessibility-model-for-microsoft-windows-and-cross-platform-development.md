@@ -59,8 +59,8 @@ Namespaces are used as an organizational system   a way of presenting program co
 
 | Namespace                                                                      | Audience used by                                                                                   |
 |--------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [**System.Windows.Automation**](frlrfSystemWindowsAutomation)                  | Clients for finding automation elements, registering for events and working with control patterns. |
-| [**System.Windows.Automation.Provider**](frlrfSystemWindowsAutomationProvider) | Providers for implementing UI Automation on controls or applications.                              |
+| [**System.Windows.Automation**](https://www.bing.com/search?q=**System.Windows.Automation**)                  | Clients for finding automation elements, registering for events and working with control patterns. |
+| [**System.Windows.Automation.Provider**](https://www.bing.com/search?q=**System.Windows.Automation.Provider**) | Providers for implementing UI Automation on controls or applications.                              |
 
 
 
@@ -68,7 +68,7 @@ Namespaces are used as an organizational system   a way of presenting program co
 
 ## UI Automation Tree
 
-Standard Windows programming has always exposed the relationship between elements in the user interface in a parent/child relational structure. UI Automation clients view the UI elements on the desktop (a UI element would be, for example, the OK button) as a set of automation elements that are arranged in a tree structure. Automation elements are referenced through a common object ([**AutomationElement**](frlrfSystemWindowsAutomationAutomationElementClassTopic) to enable consistent information, interaction, and a navigation model. UI Automation unifies disparate UI Frameworks so that code can be written against one API rather than several.
+Standard Windows programming has always exposed the relationship between elements in the user interface in a parent/child relational structure. UI Automation clients view the UI elements on the desktop (a UI element would be, for example, the OK button) as a set of automation elements that are arranged in a tree structure. Automation elements are referenced through a common object ([**AutomationElement**](https://www.bing.com/search?q=**AutomationElement**) to enable consistent information, interaction, and a navigation model. UI Automation unifies disparate UI Frameworks so that code can be written against one API rather than several.
 
 Within the automation tree there is a root automation element that represents the current desktop and whose children represent application windows on the desktop. Each of these child elements can contain automation elements representing the UI elements that make up their UI, such as menus, buttons, toolbars, and others. Each piece of UI can contain automation elements representing their content, such as menu items or list items. Even a button, which does not contain any items, may have children automation elements that represent the basic UI components that make up the button, such as text and rectangles.
 
@@ -116,9 +116,9 @@ The following example compares the control view and content view of the automati
 
 UI Automation uses control patterns to express the functionality contained in each control. UI Automation differentiates between what a user would call the control and what can be programmatically done with the control by using control patterns to express only functionality, separate from the type or name of that control.
 
-Providers implement control pattern interfaces on UI elements. Control pattern interfaces are found in the [**System.Windows.Automation.Provider**](frlrfSystemWindowsAutomationProvider) namespace and have names that include the suffix "Provider" (for example, [**IScrollProvider**](frlrfSystemWindowsAutomationProviderIScrollProviderClassTopic) and [**IInvokeProvider**](frlrfSystemWindowsAutomationProviderIInvokeProviderClassTopic)).
+Providers implement control pattern interfaces on UI elements. Control pattern interfaces are found in the [**System.Windows.Automation.Provider**](https://www.bing.com/search?q=**System.Windows.Automation.Provider**) namespace and have names that include the suffix "Provider" (for example, [**IScrollProvider**](https://www.bing.com/search?q=**IScrollProvider**) and [**IInvokeProvider**](https://www.bing.com/search?q=**IInvokeProvider**)).
 
-Clients access methods and properties of control pattern classes and use them to access information about a UI element, or to manipulate the UI. These control patterns classes are found in the [**System.Windows.Automation**](frlrfSystemWindowsAutomation)namespace and have names that include the suffix "Pattern" (for example, [**InvokePattern**](frlrfSystemWindowsAutomationInvokePatternClassTopic) and [**SelectionPattern**](frlrfSystemWindowsAutomationSelectionPatternClassTopic)).
+Clients access methods and properties of control pattern classes and use them to access information about a UI element, or to manipulate the UI. These control patterns classes are found in the [**System.Windows.Automation**](https://www.bing.com/search?q=**System.Windows.Automation**)namespace and have names that include the suffix "Pattern" (for example, [**InvokePattern**](https://www.bing.com/search?q=**InvokePattern**) and [**SelectionPattern**](https://www.bing.com/search?q=**SelectionPattern**)).
 
 ### Control Pattern Components
 
@@ -130,7 +130,7 @@ The methods provide the ability to programmatically manipulate the control.
 
 The properties and events provide rich information and notifications relevant for that control.
 
-Control patterns relate to UI as interfaces relate to COM objects. In COM, you can query an object to ask what interfaces it supports, and then use those interfaces to access functionality. In UI Automation, clients can ask a control which patterns it supports and then interact with the control through the properties, methods, events, and structure of the supported control patterns. For example, providers implement [**IScrollProvider**](frlrfSystemWindowsAutomationProviderIScrollProviderClassTopic) for a multi-line edit box. When a client detects that a UI element supports [**ScrollPattern**](frlrfSystemWindowsAutomationScrollPatternClassTopic), it can use the properties, methods, and events from that class to gather scroll-specific information or programmatically scroll its content to a new position.
+Control patterns relate to UI as interfaces relate to COM objects. In COM, you can query an object to ask what interfaces it supports, and then use those interfaces to access functionality. In UI Automation, clients can ask a control which patterns it supports and then interact with the control through the properties, methods, events, and structure of the supported control patterns. For example, providers implement [**IScrollProvider**](https://www.bing.com/search?q=**IScrollProvider**) for a multi-line edit box. When a client detects that a UI element supports [**ScrollPattern**](https://www.bing.com/search?q=**ScrollPattern**), it can use the properties, methods, and events from that class to gather scroll-specific information or programmatically scroll its content to a new position.
 
 ### Standard UI Controls and Their Control Patterns
 
@@ -138,7 +138,7 @@ Controls can support zero or more control patterns. For example:
 
 The image control does not support any control patterns.
 
-The button control supports [**InvokePattern**](frlrfSystemWindowsAutomationInvokePatternClassTopic) to correspond to the functionality that it can be clicked.
+The button control supports [**InvokePattern**](https://www.bing.com/search?q=**InvokePattern**) to correspond to the functionality that it can be clicked.
 
 To define the full set of functionality for a control, providers implement multiple control patterns. The following table shows more examples of standard controls and the control patterns they support.
 
@@ -171,23 +171,23 @@ The following table lists some of the key control patterns and their classes and
 
 | Control Pattern | Client-Side Class                                                                        | Provider-Side Interfaces                                                                             |
 |-----------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| Dock            | [**DockPattern**](frlrfSystemWindowsAutomationDockPatternClassTopic)                     | [**IDockProvider**](frlrfSystemWindowsAutomationProviderIDockProviderClassTopic)                     |
-| ExpandCollapse  | [**ExpandCollapsePattern**](frlrfSystemWindowsAutomationExpandCollapsePatternClassTopic) | [**IExpandCollapseProvider**](frlrfSystemWindowsAutomationProviderIExpandCollapseProviderClassTopic) |
-| Grid            | [**GridPattern**](frlrfSystemWindowsAutomationGridPatternClassTopic)                     | [**IGridProvider**](frlrfSystemWindowsAutomationProviderIGridProviderClassTopic)                     |
-| Invoke          | [**InvokePattern**](frlrfSystemWindowsAutomationInvokePatternClassTopic)                 | [**IInvokeProvider**](frlrfSystemWindowsAutomationProviderIInvokeProviderClassTopic)                 |
-| Multiple View.  | [**MultipleViewPattern**](frlrfSystemWindowsAutomationMultipleViewPatternClassTopic)     | [**IMultipleViewProvider**](frlrfSystemWindowsAutomationProviderIMultipleViewProviderClassTopic)     |
-| RangeValue      | [**RangeValuePattern**](frlrfSystemWindowsAutomationRangeValuePatternClassTopic)         | [**IRangeValueProvider**](frlrfSystemWindowsAutomationProviderIRangeValueProviderClassTopic)         |
-| Scroll          | [**ScrollPattern**](frlrfSystemWindowsAutomationScrollPatternClassTopic)                 | [**IScrollProvider**](frlrfSystemWindowsAutomationProviderIScrollProviderClassTopic)                 |
-| ScrollItem      | [**ScrollItemPattern**](frlrfSystemWindowsAutomationScrollItemPatternClassTopic)         | [**IScrollItemProvider**](frlrfSystemWindowsAutomationProviderIScrollItemProviderClassTopic)         |
-| Selection       | [**SelectionPattern**](frlrfSystemWindowsAutomationSelectionPatternClassTopic)           | [**ISelectionProvider**](frlrfSystemWindowsAutomationProviderISelectionProviderClassTopic)           |
-| SelectionItem   | [**SelectionItemPattern**](frlrfSystemWindowsAutomationSelectionItemPatternClassTopic)   | [**ISelectionItemProvider**](frlrfSystemWindowsAutomationProviderISelectionItemProviderClassTopic)   |
-| Table           | [**TablePattern**](frlrfSystemWindowsAutomationTablePatternClassTopic)                   | [**ITableProvider**](frlrfSystemWindowsAutomationProviderITableProviderClassTopic)                   |
-| TableItem       | [**TableItem**](frlrfSystemWindowsAutomationTableItemPatternClassTopic)                  | [**ITableItemProvider**](frlrfSystemWindowsAutomationProviderITableItemProviderClassTopic)           |
-| Text            | [**TextPattern**](frlrfSystemWindowsAutomationTextPatternClassTopic)                     | [**ITextProvider**](frlrfSystemWindowsAutomationProviderITextProviderClassTopic)                     |
-| Toggle          | [**TogglePattern**](frlrfSystemWindowsAutomationTogglePatternClassTopic)                 | [**IToggleProvider**](frlrfSystemWindowsAutomationProviderIToggleProviderClassTopic)                 |
-| Transform       | [**TransformPattern**](frlrfSystemWindowsAutomationTransformPatternClassTopic)           | [**ITransformProvider**](frlrfSystemWindowsAutomationProviderITransformProviderClassTopic)           |
-| Value           | [**ValuePattern**](frlrfSystemWindowsAutomationValuePatternClassTopic)                   | [**IValueProvider**](frlrfSystemWindowsAutomationProviderIValueProviderClassTopic)                   |
-| Window          | [**WindowPattern**](frlrfSystemWindowsAutomationWindowPatternClassTopic)                 | [**IWindowProvider**](frlrfSystemWindowsAutomationProviderIWindowProviderClassTopic)                 |
+| Dock            | [**DockPattern**](https://www.bing.com/search?q=**DockPattern**)                     | [**IDockProvider**](https://www.bing.com/search?q=**IDockProvider**)                     |
+| ExpandCollapse  | [**ExpandCollapsePattern**](https://www.bing.com/search?q=**ExpandCollapsePattern**) | [**IExpandCollapseProvider**](https://www.bing.com/search?q=**IExpandCollapseProvider**) |
+| Grid            | [**GridPattern**](https://www.bing.com/search?q=**GridPattern**)                     | [**IGridProvider**](https://www.bing.com/search?q=**IGridProvider**)                     |
+| Invoke          | [**InvokePattern**](https://www.bing.com/search?q=**InvokePattern**)                 | [**IInvokeProvider**](https://www.bing.com/search?q=**IInvokeProvider**)                 |
+| Multiple View.  | [**MultipleViewPattern**](https://www.bing.com/search?q=**MultipleViewPattern**)     | [**IMultipleViewProvider**](https://www.bing.com/search?q=**IMultipleViewProvider**)     |
+| RangeValue      | [**RangeValuePattern**](https://www.bing.com/search?q=**RangeValuePattern**)         | [**IRangeValueProvider**](https://www.bing.com/search?q=**IRangeValueProvider**)         |
+| Scroll          | [**ScrollPattern**](https://www.bing.com/search?q=**ScrollPattern**)                 | [**IScrollProvider**](https://www.bing.com/search?q=**IScrollProvider**)                 |
+| ScrollItem      | [**ScrollItemPattern**](https://www.bing.com/search?q=**ScrollItemPattern**)         | [**IScrollItemProvider**](https://www.bing.com/search?q=**IScrollItemProvider**)         |
+| Selection       | [**SelectionPattern**](https://www.bing.com/search?q=**SelectionPattern**)           | [**ISelectionProvider**](https://www.bing.com/search?q=**ISelectionProvider**)           |
+| SelectionItem   | [**SelectionItemPattern**](https://www.bing.com/search?q=**SelectionItemPattern**)   | [**ISelectionItemProvider**](https://www.bing.com/search?q=**ISelectionItemProvider**)   |
+| Table           | [**TablePattern**](https://www.bing.com/search?q=**TablePattern**)                   | [**ITableProvider**](https://www.bing.com/search?q=**ITableProvider**)                   |
+| TableItem       | [**TableItem**](https://www.bing.com/search?q=**TableItem**)                  | [**ITableItemProvider**](https://www.bing.com/search?q=**ITableItemProvider**)           |
+| Text            | [**TextPattern**](https://www.bing.com/search?q=**TextPattern**)                     | [**ITextProvider**](https://www.bing.com/search?q=**ITextProvider**)                     |
+| Toggle          | [**TogglePattern**](https://www.bing.com/search?q=**TogglePattern**)                 | [**IToggleProvider**](https://www.bing.com/search?q=**IToggleProvider**)                 |
+| Transform       | [**TransformPattern**](https://www.bing.com/search?q=**TransformPattern**)           | [**ITransformProvider**](https://www.bing.com/search?q=**ITransformProvider**)           |
+| Value           | [**ValuePattern**](https://www.bing.com/search?q=**ValuePattern**)                   | [**IValueProvider**](https://www.bing.com/search?q=**IValueProvider**)                   |
+| Window          | [**WindowPattern**](https://www.bing.com/search?q=**WindowPattern**)                 | [**IWindowProvider**](https://www.bing.com/search?q=**IWindowProvider**)                 |
 
 
 

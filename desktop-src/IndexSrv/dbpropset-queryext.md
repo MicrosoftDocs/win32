@@ -49,7 +49,7 @@ Property ID 3. When this value is TRUE, Indexing Service first collects the maxi
 <span id="DBPROP_USEEXTENDEDDBTYPES"></span><span id="dbprop_useextendeddbtypes"></span>DBPROP\_USEEXTENDEDDBTYPES
 </dt> <dd>
 
-Property ID 4. When this value is TRUE, data returned is in [**PROPVARIANT**](_stg_propvariant) structures instead of the default automation **VARIANT** types. This is useful in improving performance because it obviates the need for type conversions. It is unique to OLE DB Provider for Indexing Service.
+Property ID 4. When this value is TRUE, data returned is in [**PROPVARIANT**](https://www.bing.com/search?q=**PROPVARIANT**) structures instead of the default automation **VARIANT** types. This is useful in improving performance because it obviates the need for type conversions. It is unique to OLE DB Provider for Indexing Service.
 
 </dd> </dl>
 
@@ -60,7 +60,7 @@ Property ID 4. When this value is TRUE, data returned is in [**PROPVARIANT**](_s
 [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md)
 </dt> <dt>
 
-[**PROPVARIANT**](_stg_propvariant)
+[**PROPVARIANT**](https://www.bing.com/search?q=**PROPVARIANT**)
 </dt> </dl>
 
  

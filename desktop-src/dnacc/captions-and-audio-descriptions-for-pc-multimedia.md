@@ -129,7 +129,7 @@ This section discusses these topics:
 
 Early versions of Microsoft Encarta Encyclopedia included approximately 4,000 media files. All of the video and animations and 99 percent of the audio content were closed-captioned. Encarta used SAMI for captioning because SAMI was the only technology available at the time, and is widely supported by Microsoft products to date. Today, there are approximately 10,000 media files captioned with SAMI. The content is available though several distribution formats, including Encarta CD products and Encarta Online.
 
-SAMI support is available in Windows Media Player, DirectShow, and Internet Explorer. For details about the SAMI format and the platforms, see the [MSDN Library](http://go.microsoft.com/fwlink/p/?linkid=208741). Examples are also available in the MSDN article [Understanding SAMI 1.0](dnacc.understanding_sami_1.0).
+SAMI support is available in Windows Media Player, DirectShow, and Internet Explorer. For details about the SAMI format and the platforms, see the [MSDN Library](http://go.microsoft.com/fwlink/p/?linkid=208741). Examples are also available in the MSDN article [Understanding SAMI 1.0](https://msdn.microsoft.com/windows/desktop/1a94f822-30f1-4198-ac33-f63ed5026c9f).
 
 ### SMIL 2.0 Support in Internet Explorer
 

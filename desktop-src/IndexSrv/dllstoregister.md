@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The **DLLsToRegister** entry determines which DLLs Indexing Service registers with a call to [**DllRegisterServer**](_com_dllregisterserver).
+The **DLLsToRegister** entry determines which DLLs Indexing Service registers with a call to [**DllRegisterServer**](https://www.bing.com/search?q=**DllRegisterServer**).
 
 ### Summary
 

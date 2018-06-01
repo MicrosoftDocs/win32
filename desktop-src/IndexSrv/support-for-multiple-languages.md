@@ -28,8 +28,8 @@ This section contains:
 
 -   [Querying a Site Without Language Resources:](querying-a-site-without-language-resources.md) Lists the languages shipped with Indexing Service and describes the effect of issuing queries to sites without language resources.
 -   [Setting Language Codes in HTML Files:](setting-language-codes-in-html-files.md) Tells how to use the **MS.Locale** property in HTML files.
--   [Getting Browsers to Recognize Different Languages:](getting-browsers-to-recognize-different-languages.md) Explains the effects of the HTTP\_ACCEPT\_LANGUAGE variable on [CiLocale](variables-in-forms-and-in-idq-files.md#-idxs-cilocale-var) variable settings.
--   [Displaying Results Correctly:](displaying-results-correctly.md) Tells how to get browsers to display correct results in the correct language through the variable [CiCodepage](variables-in-forms-and-in-idq-files.md#-idxs-cicodepage-var).
+-   [Getting Browsers to Recognize Different Languages:](getting-browsers-to-recognize-different-languages.md) Explains the effects of the HTTP\_ACCEPT\_LANGUAGE variable on [CiLocale](https://www.bing.com/search?q=CiLocale) variable settings.
+-   [Displaying Results Correctly:](displaying-results-correctly.md) Tells how to get browsers to display correct results in the correct language through the variable [CiCodepage](https://www.bing.com/search?q=CiCodepage).
 
  
 

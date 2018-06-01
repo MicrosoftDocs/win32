@@ -27,7 +27,7 @@ CiRestriction=<%escapeURL CiRestriction%>"><b>Highlight Hits</b></a><BR>
 
 
 
-Here, *server\_name* is a variable storing the name of the server on which the web server is located, and [CiRestriction](variables-in-forms-and-in-idq-files.md#-idxs-cirestriction-var) is the variable storing the query. You escape the restriction through the **EscapeURL** keyword, as shown in the sample query.
+Here, *server\_name* is a variable storing the name of the server on which the web server is located, and [CiRestriction](https://www.bing.com/search?q=CiRestriction) is the variable storing the query. You escape the restriction through the **EscapeURL** keyword, as shown in the sample query.
 
  
 

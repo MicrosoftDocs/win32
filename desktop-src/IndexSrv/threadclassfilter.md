@@ -34,7 +34,7 @@ The **ThreadClassFilter** entry is the priority class of the CiDaemon.exe proces
 
 ### Remarks
 
-The combination of the value of the **ThreadClassFilter** entry and the value of the [**ThreadPriorityFilter**](threadpriorityfilter.md) entry determines the [scheduling priority](_win32_scheduling_priorities) of the filtering process.
+The combination of the value of the **ThreadClassFilter** entry and the value of the [**ThreadPriorityFilter**](threadpriorityfilter.md) entry determines the [scheduling priority](https://www.bing.com/search?q=scheduling priority) of the filtering process.
 
 ## Related topics
 

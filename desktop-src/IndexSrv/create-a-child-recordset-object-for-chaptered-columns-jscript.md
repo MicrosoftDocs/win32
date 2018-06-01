@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-This code sub-segment uses the **Value** property of the "Chapter" [Field](mdobjfield) object of the parent objRS\_Parent [Recordset](mdobjodbrec) object to create a child objRS\_Child **Recordset** object.
+This code sub-segment uses the **Value** property of the "Chapter" [Field](https://www.bing.com/search?q=Field) object of the parent objRS\_Parent [Recordset](https://www.bing.com/search?q=Recordset) object to create a child objRS\_Child **Recordset** object.
 
 
 ```JScript

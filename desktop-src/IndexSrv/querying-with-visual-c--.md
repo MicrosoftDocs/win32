@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-With Visual C++, the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api), and optionally the [OLE DB Provider API](programming-apis.md#-idxs-ole-db-provider-api), you can construct, execute, and retrieve the results of queries.
+With Visual C++, the [OLE DB Helper API](https://www.bing.com/search?q=OLE DB Helper API), and optionally the [OLE DB Provider API](https://www.bing.com/search?q=OLE DB Provider API), you can construct, execute, and retrieve the results of queries.
 
 The [Simple Sample](simple-sample.md) (QSample) illustrates use of the OLE DB Helper API and the OLE DB Provider API to construct and execute a query with Indexing Service. Using the OLE DB Helper API simplifies construction of a command tree for a query. The Simple Sample uses the [CIMakeICommand](/windows/desktop/api/Ntquery/nf-ntquery-cimakeicommand), [CITextToFullTreeEx](/windows/desktop/api/Ntquery/nf-ntquery-citexttofulltreeex), [LocateCatalogs](/windows/desktop/api/Ntquery/nf-ntquery-locatecatalogsa), and [CIState](/windows/desktop/api/Ntquery/nf-ntquery-cistate) functions in addition to the [ICommandTree](/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree), [ICommand](https://msdn.microsoft.com/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30), [IAccessor](https://msdn.microsoft.com/windows/desktop/a39058b6-ecfa-418b-80a3-66eea4a7bf89), and [IRowset](https://msdn.microsoft.com/windows/desktop/b14147c4-8b03-49c6-ab5d-00186643a6b4) interfaces. For more complex examples that use the OLE DB Provider exclusively and that require using a data source object and a session object to construct a command tree, see the [AdvQuery Sample](advquery-sample.md).
 

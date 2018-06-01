@@ -31,7 +31,7 @@ ms.date: 05/31/2018
 -   The merge occurs at run time, which is when the compiled help (.chm) file is opened. Because of this, all merged compiled help files must be shipped with the main compiled help file, and all must be located in the same directory.
 -   This procedure merges the index, Keyword links (KLinks), Associative links (ALinks), and full-text search information from multiple compiled help files. Unified index and search information appears in the Navigation pane of the Help Viewer.
 -   If you also want a unified table of contents, you must [create a contents file that links to other contents files](creating-links-from-one-contents-file-to-another.md).
--   The merge feature will not work if you compile a help file and [set the compatibility to version 1.0](htmlhelp.to_compile_a_project_compatible_with_html_help_version_1.0).
+-   The merge feature will not work if you compile a help file and [set the compatibility to version 1.0](https://msdn.microsoft.com/windows/desktop/35E7F6D0-A88B-4d1d-BF9C-F145860D4C19).
 -   There are special considerations when [linking between merged help files](linking-between-merged-help-files.md).
 
 ## Related topics

@@ -76,7 +76,7 @@ From a Win32 or .NET application, call the GetSystemMetrics function with the SM
 
  
 
-From a .NET application, the ShowSounds system parameter is also accessible as the [**ShowSounds**](frlrfSystemWindowsFormsSystemInformationClassShowSoundsTopic) property of the [**SystemInformation**](frlrfSystemWindowsFormsSystemInformationClassTopic) class.
+From a .NET application, the ShowSounds system parameter is also accessible as the [**ShowSounds**](https://www.bing.com/search?q=**ShowSounds**) property of the [**SystemInformation**](https://www.bing.com/search?q=**SystemInformation**) class.
 
 ### Accessing ShowSounds from an HTML+TIME Application
 
@@ -85,7 +85,7 @@ From an HTML+TIME 2.0 application, access ShowSounds though the **systemCaptions
 If the user has selected ShowSounds, **systemCaptions** is set to "on" and **systemOverdubOrSubtitle** is set to "subtitle." If ShowSounds is disabled, **systemCaptions** is set to "off" and **systemOverdubOrSubtitle** is set to "overdub."
 
 > [!Note]  
-> For more information about HTML+TIME, see [HTML+TIME](htime_node_entry).
+> For more information about HTML+TIME, see [HTML+TIME](https://www.bing.com/search?q=HTML+TIME).
 
  
 

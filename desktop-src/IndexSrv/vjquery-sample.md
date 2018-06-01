@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The VJQuery sample is an example command-line application written in Microsoft Visual J++ that illustrates how to query Indexing Service using a SQL query language and the [ActiveX Data Objects (ADO) API](programming-apis.md#-idxs-activex-data-objects-api).
+The VJQuery sample is an example command-line application written in Microsoft Visual J++ that illustrates how to query Indexing Service using a SQL query language and the [ActiveX Data Objects (ADO) API](https://www.bing.com/search?q=ActiveX Data Objects (ADO) API).
 
 Source: mssdk\\samples\\winbase\\indexing\\VJQuery\\
 

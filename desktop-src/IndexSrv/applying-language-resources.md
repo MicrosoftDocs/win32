@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The indexing and querying processes for Indexing Service use language resource dynamic-link libraries (DLLs) to bind to [**IWordBreaker**](iwordbreaker.md) and [**IStemmer**](istemmer.md) interface implementations for a specific language locale.
+The indexing and querying processes for Indexing Service use language resource dynamic-link libraries (DLLs) to bind to [**IWordBreaker**](https://www.bing.com/search?q=**IWordBreaker**) and [**IStemmer**](https://www.bing.com/search?q=**IStemmer**) interface implementations for a specific language locale.
 
 For more information about registering custom language resource components, see [Language-Specific Registry Entries](language-specific-registry-entries.md).
 

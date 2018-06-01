@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-When you use Indexing Service APIs with Visual C++, you typically have a choice of using the [OLE DB Provider API](programming-apis.md#-idxs-ole-db-provider-api) or the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api). For the fastest execution, you usually will use the OLE DB Provider API. For information about using it with Indexing Service, see [Using OLE DB Provider for Indexing Service](using-ole-db-provider-for-indexing-service.md).
+When you use Indexing Service APIs with Visual C++, you typically have a choice of using the [OLE DB Provider API](https://www.bing.com/search?q=OLE DB Provider API) or the [OLE DB Helper API](https://www.bing.com/search?q=OLE DB Helper API). For the fastest execution, you usually will use the OLE DB Provider API. For information about using it with Indexing Service, see [Using OLE DB Provider for Indexing Service](using-ole-db-provider-for-indexing-service.md).
 
 For easier programming, you usually use the OLE DB Helper API or a combination of that API and the OLE DB Provider API. With the OLE DB Helper API, you need to include the header file Ntquery.h in any source files in which you use the [Helper functions](functions.md). You also need to link the Ntquery.lib library with your application.
 

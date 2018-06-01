@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-Visual C++ is the most powerful development language for Windows. With Visual C++ and the [OLE DB Provider API](programming-apis.md#-idxs-ole-db-provider-api) or the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api), you can build high-performance applications that manage and query Indexing Service. This section describes the use of Visual C++ with Indexing Service and includes Visual C++ code examples. The topics include the following.
+Visual C++ is the most powerful development language for Windows. With Visual C++ and the [OLE DB Provider API](https://www.bing.com/search?q=OLE DB Provider API) or the [OLE DB Helper API](https://www.bing.com/search?q=OLE DB Helper API), you can build high-performance applications that manage and query Indexing Service. This section describes the use of Visual C++ with Indexing Service and includes Visual C++ code examples. The topics include the following.
 
 -   [Using Visual C++ with Indexing Service APIs](using-visual-c---with-indexing-service-apis.md)
 -   [Managing with Visual C++](managing-with-visual-c--.md)

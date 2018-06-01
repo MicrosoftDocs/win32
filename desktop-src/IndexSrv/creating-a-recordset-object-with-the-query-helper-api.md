@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-This code segment executes when the specified query language is either Dialect 1 or 2 of the [Indexing Service query language](indexing-service-query-language.md). It uses the [**CreateRecordset**](iixssoquery-createrecordset.md) method of the [**Query**](iixssoquery.md) object, which creates RS — a [**Recordset**](mdobjodbrec) object to represent the results of the query — and executes the query.
+This code segment executes when the specified query language is either Dialect 1 or 2 of the [Indexing Service query language](indexing-service-query-language.md). It uses the [**CreateRecordset**](iixssoquery-createrecordset.md) method of the [**Query**](iixssoquery.md) object, which creates RS — a [**Recordset**](https://www.bing.com/search?q=**Recordset**) object to represent the results of the query — and executes the query.
 
 
 ```VB

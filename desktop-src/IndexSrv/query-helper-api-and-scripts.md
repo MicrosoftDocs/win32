@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The [Query Helper API](programming-apis.md#-idxs-query-helper-api) provides the [**Query**](iixssoquery.md) and [**Utility**](iixssoutil.md) objects for creating and managing queries to the [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md). A script can use these objects along with a Microsoft ActiveX Data Objects (ADO) [**Recordset**](mdobjodbrec) object (see [ActiveX Data Objects API and Scripts](activex-data-objects-api-and-scripts.md)), which represents the resulting records from a query.
+The [Query Helper API](https://www.bing.com/search?q=Query Helper API) provides the [**Query**](iixssoquery.md) and [**Utility**](iixssoutil.md) objects for creating and managing queries to the [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md). A script can use these objects along with a Microsoft ActiveX Data Objects (ADO) [**Recordset**](https://www.bing.com/search?q=**Recordset**) object (see [ActiveX Data Objects API and Scripts](activex-data-objects-api-and-scripts.md)), which represents the resulting records from a query.
 
 The following table shows how to create a [**Query**](iixssoquery.md) object and a [**Utility**](iixssoutil.md) object in scripts.
 

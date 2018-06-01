@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The first record on a page is identified in the variable [CiBookmark](read-only-variables-available-in-htx-files.md#-idxs-cibookmark-var), which can be used in a form to get to the next page or the previous page. The form variable [CiBookmarkSkipCount](parameter-for-use-with-bookmarks.md#-idxs-cibookmarkskipcount-var) should be used with CiBookmark to specify the relative offset from the current page. CiBookmarkSkipCount is typically set to either &lt;%CiMaxRecordsPerPage%&gt; or &lt;%CiMaxRecordsPerPage%&gt;, although it could be set to other multiples of [CiMaxRecordsPerPage](variables-in-forms-and-in-idq-files.md#-idxs-cimaxrecordsperpage-var).
+The first record on a page is identified in the variable [CiBookmark](https://www.bing.com/search?q=CiBookmark), which can be used in a form to get to the next page or the previous page. The form variable [CiBookmarkSkipCount](https://www.bing.com/search?q=CiBookmarkSkipCount) should be used with CiBookmark to specify the relative offset from the current page. CiBookmarkSkipCount is typically set to either &lt;%CiMaxRecordsPerPage%&gt; or &lt;%CiMaxRecordsPerPage%&gt;, although it could be set to other multiples of [CiMaxRecordsPerPage](https://www.bing.com/search?q=CiMaxRecordsPerPage).
 
 Here is an example of a form that will skip to the next page for a sequential query:
 
@@ -44,7 +44,7 @@ Here is an example of a form that will skip to the next page for a sequential qu
 
 
 
-The following example shows how the buttons for going to adjacent pages can be generated conditionally depending upon the variables [CiContainsFirstRecord](read-only-variables-available-in-htx-files.md#-idxs-cicontainsfirstrecord-var) and [CiContainsLastRecord](read-only-variables-available-in-htx-files.md#-idxs-cicontainslastrecord-var). It also shows how the number of hits on the next page can be displayed for a nonsequential query.
+The following example shows how the buttons for going to adjacent pages can be generated conditionally depending upon the variables [CiContainsFirstRecord](https://www.bing.com/search?q=CiContainsFirstRecord) and [CiContainsLastRecord](https://www.bing.com/search?q=CiContainsLastRecord). It also shows how the number of hits on the next page can be displayed for a nonsequential query.
 
 
 ```

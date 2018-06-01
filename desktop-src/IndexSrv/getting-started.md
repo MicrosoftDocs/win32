@@ -69,7 +69,7 @@ The following sections describe how Indexing Service interacts with web servers 
 |---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | An overview of programming for Indexing Service.<br/>                                             | [Programming for Indexing Service](programming-for-indexing-service.md)<br/>               |
 | How to program Indexing Service for web servers<br/>                                              | [Using Indexing Service with Web Servers](using-indexing-service-with-web-servers.md)<br/> |
-| Writing scripts to query Indexing Service using Dynamic HTML (DHTML)<br/>                         | [DHtml Sample](indexsrv-dhtml_sample)<br/>                                                  |
+| Writing scripts to query Indexing Service using Dynamic HTML (DHTML)<br/>                         | [DHtml Sample](https://www.bing.com/search?q=DHtml Sample)<br/>                                                  |
 | Writing queries using an Indexing Service Query Language or the SQL language and an ASP page<br/> | [IISSearch Sample](iissearch-sample.md)<br/>                                               |
 
 

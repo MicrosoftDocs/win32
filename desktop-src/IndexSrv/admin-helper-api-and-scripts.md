@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The [Admin Helper API](programming-apis.md#-idxs-admin-helper-api) provides the [**AdminIndexServer**](iadminindexserver.md), [**CatAdm**](icatadm.md), and [**ScopeAdm**](iscopeadm.md) objects for managing the tasks, catalogs, and scopes of Indexing Service. A script can use these objects, for example, to start, pause, or stop Indexing Service; set, get, or add a catalog; and set, get, or add a scope for a catalog.
+The [Admin Helper API](https://www.bing.com/search?q=Admin Helper API) provides the [**AdminIndexServer**](iadminindexserver.md), [**CatAdm**](icatadm.md), and [**ScopeAdm**](iscopeadm.md) objects for managing the tasks, catalogs, and scopes of Indexing Service. A script can use these objects, for example, to start, pause, or stop Indexing Service; set, get, or add a catalog; and set, get, or add a scope for a catalog.
 
 The following table shows how to create in scripts an [**AdminIndexServer**](iadminindexserver.md) object, shows one way to create a [**CatAdm**](icatadm.md) object, and shows one way to create a [**ScopeAdm**](iscopeadm.md) object. For additional ways of creating **CatAdm** objects, see the methods of the **AdminIndexServer** object. For additional ways of creating **ScopeAdm** objects, see the methods of the **CatAdm** object.
 

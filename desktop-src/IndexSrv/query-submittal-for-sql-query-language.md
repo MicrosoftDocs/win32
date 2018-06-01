@@ -22,8 +22,8 @@ To use the SQL query language, an application or script must use one of two APIs
 
 | API                                                                         | For Query Submittal, See                                                                                                                                            |
 |-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [ActiveX Data Objects](programming-apis.md#-idxs-activex-data-objects-api) | [Setting the Provider Property](setting-the-provider-property.md)[Setting the Locale and Other Properties](setting-the-locale-and-other-properties.md)<br/> |
-| [OLE DB Provider](programming-apis.md#-idxs-ole-db-provider-api)           | [Using OLE DB Provider for Indexing Service](using-ole-db-provider-for-indexing-service.md)                                                                        |
+| [ActiveX Data Objects](https://www.bing.com/search?q=ActiveX Data Objects) | [Setting the Provider Property](setting-the-provider-property.md)[Setting the Locale and Other Properties](setting-the-locale-and-other-properties.md)<br/> |
+| [OLE DB Provider](https://www.bing.com/search?q=OLE DB Provider)           | [Using OLE DB Provider for Indexing Service](using-ole-db-provider-for-indexing-service.md)                                                                        |
 
 
 

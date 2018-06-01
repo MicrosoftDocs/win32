@@ -23,8 +23,8 @@ The Administration component provides access to the indexing and filtering proce
 | File Name   | Description                                                                                                                                                                   |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ciadmin.dll | Indexing Service snap-in for the MMC.                                                                                                                                         |
-| Ciodm.dll   | [Admin Helper](programming-apis.md#-idxs-admin-helper-api) automation objects ([AdminIndexServer](iadminindexserver.md), [CatAdm](icatadm.md), [ScopeAdm](iscopeadm.md)). |
-| Idq.dll     | [Internet Server Application Programming Interface (ISAPI) extensions](programming-apis.md#-idxs-isapi-extensions-api) for Indexing Service.                                 |
+| Ciodm.dll   | [Admin Helper](https://www.bing.com/search?q=Admin Helper) automation objects ([AdminIndexServer](iadminindexserver.md), [CatAdm](icatadm.md), [ScopeAdm](iscopeadm.md)). |
+| Idq.dll     | [Internet Server Application Programming Interface (ISAPI) extensions](https://www.bing.com/search?q=Internet Server Application Programming Interface (ISAPI) extensions) for Indexing Service.                                 |
 
 
 

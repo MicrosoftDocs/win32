@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-With Visual C++ and the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api), you can locate the appropriate computer and catalog for a specified scope, query the state of a selected catalog, and control the state of a selected catalog.
+With Visual C++ and the [OLE DB Helper API](https://www.bing.com/search?q=OLE DB Helper API), you can locate the appropriate computer and catalog for a specified scope, query the state of a selected catalog, and control the state of a selected catalog.
 
 The [ChgState Sample](chgstate-sample.md) illustrates using the OLE DB Helper API to manage Indexing Service. The following code segment uses the [CICAT\_\* constants](cicat-constants.md) and the [SetCatalogState](/windows/desktop/api/Ntquery/nf-ntquery-setcatalogstate) function to get or set the catalog state as specified by the input arguments to the application.
 

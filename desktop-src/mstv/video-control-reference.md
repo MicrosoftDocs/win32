@@ -17,7 +17,7 @@ This section contains the reference documentation for the [Video Control](video-
 -   [Video Control Interfaces](video-control-interfaces.md)
 -   [Video Control Event Interfaces](video-control-event-interfaces.md)
 -   [Video Control Enumerations](video-control-enumerations.md)
--   [MSVidWebDVD Visual Basic Reference](mstv-msvidwebdvd_visual_basic_reference)
+-   [MSVidWebDVD Visual Basic Reference](https://www.bing.com/search?q=MSVidWebDVD Visual Basic Reference)
 
 ## Related topics
 

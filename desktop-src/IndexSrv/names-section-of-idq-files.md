@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The names section of the Internet Data Query (.idq) file defines nonstandard column names that can be referred to in the query. The columns refer to properties stored in the property cache, standard file system properties, or Microsoft ActiveX properties that have been created in document files with [**IPropertyStorage**](_stg_ipropertystorage), or in the Office summary and custom properties. The globally unique identifier (GUID) for Office is 0xF29F85E0,0x4FF9,0x1068,0xAB9108002B27B3D9. The following sample defines a few of the ActiveX Summary Information properties:
+The names section of the Internet Data Query (.idq) file defines nonstandard column names that can be referred to in the query. The columns refer to properties stored in the property cache, standard file system properties, or Microsoft ActiveX properties that have been created in document files with [**IPropertyStorage**](https://www.bing.com/search?q=**IPropertyStorage**), or in the Office summary and custom properties. The globally unique identifier (GUID) for Office is 0xF29F85E0,0x4FF9,0x1068,0xAB9108002B27B3D9. The following sample defines a few of the ActiveX Summary Information properties:
 
 ``` syntax
 [Names]

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The [VBAdmin Sample](vbadmin-sample.md) illustrates several management tasks for Indexing Service using the [Admin Helper API](programming-apis.md#-idxs-admin-helper-api). The sample can connect to a specified computer to display the status of Indexing Service as well as to start and stop the service. The VBAdmin sample has five forms, and the following topics discuss the code for each of those forms.
+The [VBAdmin Sample](vbadmin-sample.md) illustrates several management tasks for Indexing Service using the [Admin Helper API](https://www.bing.com/search?q=Admin Helper API). The sample can connect to a specified computer to display the status of Indexing Service as well as to start and stop the service. The VBAdmin sample has five forms, and the following topics discuss the code for each of those forms.
 
 -   [ISAdminForm](isadminform.md)
 -   [AddCatalog](addcatalog.md)

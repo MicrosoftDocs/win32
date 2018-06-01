@@ -25,7 +25,7 @@ The **Locale** entry specifies the LCID used for the language represented by the
 |        |                                                                                           |
 |--------|-------------------------------------------------------------------------------------------|
 | Type:  | **REG\_DWORD**                                                                            |
-| Range: | Any LCID made from a language identifier using the [**MAKELCID**](_win32_makelcid) macro. |
+| Range: | Any LCID made from a language identifier using the [**MAKELCID**](https://www.bing.com/search?q=**MAKELCID**) macro. |
 
 
 
@@ -33,7 +33,7 @@ The **Locale** entry specifies the LCID used for the language represented by the
 
 ### Remarks
 
-The Indexing Service ISAPI implementation variable [CiLocale](variables-in-forms-and-in-idq-files.md#-idxs-cilocale-var) selects a language subkey to use with a specific query.
+The Indexing Service ISAPI implementation variable [CiLocale](https://www.bing.com/search?q=CiLocale) selects a language subkey to use with a specific query.
 
 ## Related topics
 
@@ -42,7 +42,7 @@ The Indexing Service ISAPI implementation variable [CiLocale](variables-in-forms
 [Language-Specific Registry Entries](language-specific-registry-entries.md)
 </dt> <dt>
 
-[MAKELCID](_win32_makelcid)
+[MAKELCID](https://www.bing.com/search?q=MAKELCID)
 </dt> </dl>
 
  

@@ -40,7 +40,7 @@ The following two examples each draw a red line of width 3 from location (20, 10
 
 ### Drawing a line with GDI
 
-To draw a line with GDI, you need two objects: a device context and a pen. You get a handle to a device context by calling [**BeginPaint**](gdi.beginpaint), and a handle to a pen by calling [CreatePen](http://msdn.microsoft.com/library/en-us/gdi/pens_9wha.asp). Next, you call [SelectObject](http://msdn.microsoft.com/library/en-us/gdi/devcons_9v3o.asp) to select the pen into the device context. You set the pen position to (20, 10) by calling [MoveToEx](http://msdn.microsoft.com/library/en-us/gdi/linecurv_4660.asp) and then draw a line from that pen position to (200, 100) by calling **LineTo**. Note that MoveToEx and [LineTo](http://msdn.microsoft.com/library/en-us/gdi/linecurv_7567.asp) both receive **hdc** as an argument.
+To draw a line with GDI, you need two objects: a device context and a pen. You get a handle to a device context by calling [**BeginPaint**](https://msdn.microsoft.com/windows/desktop/513341d7-bed8-469c-a067-ee71dc8860f9), and a handle to a pen by calling [CreatePen](http://msdn.microsoft.com/library/en-us/gdi/pens_9wha.asp). Next, you call [SelectObject](http://msdn.microsoft.com/library/en-us/gdi/devcons_9v3o.asp) to select the pen into the device context. You set the pen position to (20, 10) by calling [MoveToEx](http://msdn.microsoft.com/library/en-us/gdi/linecurv_4660.asp) and then draw a line from that pen position to (200, 100) by calling **LineTo**. Note that MoveToEx and [LineTo](http://msdn.microsoft.com/library/en-us/gdi/linecurv_7567.asp) both receive **hdc** as an argument.
 
 
 ```

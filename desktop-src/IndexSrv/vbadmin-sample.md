@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The VBAdmin sample is an example Windows application written in Visual Basic that illustrates how to administer Indexing Service using the [AdminIndexServer](iadminindexserver.md), [CatAdm](icatadm.md), and [ScopeAdm](iscopeadm.md) automation objects of the [Admin Helper API](programming-apis.md#-idxs-admin-helper-api).
+The VBAdmin sample is an example Windows application written in Visual Basic that illustrates how to administer Indexing Service using the [AdminIndexServer](iadminindexserver.md), [CatAdm](icatadm.md), and [ScopeAdm](iscopeadm.md) automation objects of the [Admin Helper API](https://www.bing.com/search?q=Admin Helper API).
 
 Source: mssdk\\samples\\winbase\\indexing\\VBAdmin\\
 

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The lrsample sample includes an example [**IWordBreaker**](iwordbreaker.md) implementation, an example [**IStemmer**](istemmer.md) implementation, and the DLL entry points and exports for the component. The word breaker implementation parses Unicode text based on the occurrence of white space and punctuation. The stemmer implementation uses a small, static custom dictionary to look up and generate inflected forms for words. The sample words are English words and their inflected forms.
+The lrsample sample includes an example [**IWordBreaker**](https://www.bing.com/search?q=**IWordBreaker**) implementation, an example [**IStemmer**](https://www.bing.com/search?q=**IStemmer**) implementation, and the DLL entry points and exports for the component. The word breaker implementation parses Unicode text based on the occurrence of white space and punctuation. The stemmer implementation uses a small, static custom dictionary to look up and generate inflected forms for words. The sample words are English words and their inflected forms.
 
 The language resource code sample is located in *mssdk*\\samples\\winbase\\indexing\\lrsample (where *mssdk* is the directory where the Platform SDK is installed).
 
@@ -44,7 +44,7 @@ The word breaker and stemmer are available when Indexing Service starts.
 
 ### Programmer's Notes
 
-The lrsample sample demonstrates the basic structure of a word breaker and stemmer. It minimally implements the methods of the [**IWordBreaker**](iwordbreaker.md) and [**IStemmer**](istemmer.md) interfaces.
+The lrsample sample demonstrates the basic structure of a word breaker and stemmer. It minimally implements the methods of the [**IWordBreaker**](https://www.bing.com/search?q=**IWordBreaker**) and [**IStemmer**](https://www.bing.com/search?q=**IStemmer**) interfaces.
 
 The following table shows source files for the lrsample sample and provides a short description for each file.
 
@@ -52,7 +52,7 @@ The following table shows source files for the lrsample sample and provides a sh
 
 | File         | Description                                                                                                                                                                                                                            |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lrsample.cxx | C++ source file that contains the [**IWordBreaker**](iwordbreaker.md) interface implementation (**CSampleWordBreaker**), the [**IStemmer**](istemmer.md) interface implementation (**CSampleStemmer**), and the DLL export functions |
+| Lrsample.cxx | C++ source file that contains the [**IWordBreaker**](https://www.bing.com/search?q=**IWordBreaker**) interface implementation (**CSampleWordBreaker**), the [**IStemmer**](https://www.bing.com/search?q=**IStemmer**) interface implementation (**CSampleStemmer**), and the DLL export functions |
 | Lrsample.hxx | C++ header file that contains the class definitions for **CSampleWordBreaker**, **CSampleStemmer**, and **CLanguageResrouceSampleCF**, the class factory for the sample                                                                |
 | Langreg.hxx  | C++ header file that contains utilities for registering language resources                                                                                                                                                             |
 | Lrsample.def | Definition file that contains definitions for DLL export functions                                                                                                                                                                     |
@@ -62,9 +62,9 @@ The following table shows source files for the lrsample sample and provides a sh
 
  
 
-**CSampleWordBreaker** is the class implementation of the [**IWordBreaker**](iwordbreaker.md) interface. It implements a private method, **CSampleWordBreaker::Tokenize**, in addition to implementations for the public interface methods. **CSampleWordBreaker::BreakText** reads text from the text source, **TEXT\_SOURCE**, and calls the **Tokenize** method on the contents of the text buffer. **CSampleWordBreaker::Tokenize** breaks text based on the accuracy of white space and word separators for this locale, as determined by a call to **GetStringTypeW** in the Microsoft Win32 APIs. **CSampleWordBreaker::Tokenize** also removes punctuation and makes the appropriate calls methods of the **WordSink** object.
+**CSampleWordBreaker** is the class implementation of the [**IWordBreaker**](https://www.bing.com/search?q=**IWordBreaker**) interface. It implements a private method, **CSampleWordBreaker::Tokenize**, in addition to implementations for the public interface methods. **CSampleWordBreaker::BreakText** reads text from the text source, **TEXT\_SOURCE**, and calls the **Tokenize** method on the contents of the text buffer. **CSampleWordBreaker::Tokenize** breaks text based on the accuracy of white space and word separators for this locale, as determined by a call to **GetStringTypeW** in the Microsoft Win32 APIs. **CSampleWordBreaker::Tokenize** also removes punctuation and makes the appropriate calls methods of the **WordSink** object.
 
-**CSampleStemmer** is the class implementation of the [**IStemmer**](istemmer.md) interface. **CSampleStemmer::GenerateWordForms** takes input words and generates alternative, inflected, word forms for that word based on the contents of a small, custom dictionary contained in the aStemForms\[\] array. This stemmer implementation does not perform any morphological analysis in determining inflected forms for a word. The aStemForms\[\] array contains English words and their inflected forms. You can modify the array for words and alternative forms for any other inflected language. The custom dictionary is implemented as a static array in this sample to illustrate basic stemmer functionality. You should not expand or use this dictionary implementation in a production environment.
+**CSampleStemmer** is the class implementation of the [**IStemmer**](https://www.bing.com/search?q=**IStemmer**) interface. **CSampleStemmer::GenerateWordForms** takes input words and generates alternative, inflected, word forms for that word based on the contents of a small, custom dictionary contained in the aStemForms\[\] array. This stemmer implementation does not perform any morphological analysis in determining inflected forms for a word. The aStemForms\[\] array contains English words and their inflected forms. You can modify the array for words and alternative forms for any other inflected language. The custom dictionary is implemented as a static array in this sample to illustrate basic stemmer functionality. You should not expand or use this dictionary implementation in a production environment.
 
 ### Error Handling
 

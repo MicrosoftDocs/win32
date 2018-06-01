@@ -64,7 +64,7 @@ Default tuning spaces are provided for analog cable, analog antenna, ATSC cable,
 
 1.  Create a tuning space object.
 2.  Set properties on the tuning space, using [**ITuningSpace**](/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace) and derived interfaces.
-3.  Create a locator object. (See [Locator Objects](tuning-model-objects.md#locator-objects).)
+3.  Create a locator object. (See [Locator Objects](https://www.bing.com/search?q=Locator Objects).)
 4.  Set properties on the locator, using [**ILocator**](/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator) and derived interfaces. For more information about locators, see [Locators](locators.md).
 5.  Assign the locator as the default locator for the tuning space, by calling the [**ITuningSpace::put\_DefaultLocator**](/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put_defaultlocator) method.
 6.  Optionally, create default component types. Assign them as the perferred component types for the tuning space by calling the [**ITuningSpace::put\_DefaultPreferredComponentTypes**](/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put_defaultpreferredcomponenttypes) method. For more information, see [Components](components.md).

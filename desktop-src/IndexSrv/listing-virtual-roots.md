@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 Using Indexing Service with IIS, you can specify a list of virtual roots that are indexed for the Web catalog.
 
-To retrieve a list of virtual roots and their indexed state, you need only execute a special query. The results are returned in the same manner as a standard query results page, and can be formatted using standard .htx templates. To retrieve the list of virtual roots, set the [CiScope](variables-in-forms-and-in-idq-files.md#-idxs-ciscope-var) parameter in an .idq file to be the string: VIRTUAL\_ROOTS. The .idq syntax requires that [CiRestriction](variables-in-forms-and-in-idq-files.md#-idxs-cirestriction-var) be set to a non-null value, but a restriction such as \#vpath **\*** can be used to retrieve all roots.
+To retrieve a list of virtual roots and their indexed state, you need only execute a special query. The results are returned in the same manner as a standard query results page, and can be formatted using standard .htx templates. To retrieve the list of virtual roots, set the [CiScope](https://www.bing.com/search?q=CiScope) parameter in an .idq file to be the string: VIRTUAL\_ROOTS. The .idq syntax requires that [CiRestriction](https://www.bing.com/search?q=CiRestriction) be set to a non-null value, but a restriction such as \#vpath **\*** can be used to retrieve all roots.
 
 The properties that can be retrieved from this query are all the standard file properties (path, virtual path, and so on) of the directory to which the virtual root maps: metavrootused. This Boolean value is set to TRUE if the root is indexed, FALSE if it is not.
 

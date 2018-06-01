@@ -22,10 +22,10 @@ The following samples are examples of managing Indexing Service. The table gives
 
 | Name                            | Tool                | Language                   | API                                                                                                                              |
 |---------------------------------|---------------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| [ChgState](chgstate-sample.md) | Visual Studio       | Visual C++                 | [OLE DB Helper](programming-apis.md#-idxs-ole-db-helper-api)                                                                    |
-| [IISAdmin](iisadmin-sample.md) | IIS                 | VBScript, JScript, IDA+HTX | [Admin Helper](programming-apis.md#-idxs-admin-helper-api), [ISAPI Extensions](programming-apis.md#-idxs-isapi-extensions-api) |
-| [SQuery](squery-sample.md)     | Windows Script Host | VBScript, JScript          | [Admin Helper](programming-apis.md#-idxs-admin-helper-api)                                                                      |
-| [VBAdmin](vbadmin-sample.md)   | Visual Studio       | Visual Basic               | [Admin Helper](programming-apis.md#-idxs-admin-helper-api)                                                                      |
+| [ChgState](chgstate-sample.md) | Visual Studio       | Visual C++                 | [OLE DB Helper](https://www.bing.com/search?q=OLE DB Helper)                                                                    |
+| [IISAdmin](iisadmin-sample.md) | IIS                 | VBScript, JScript, IDA+HTX | [Admin Helper](https://www.bing.com/search?q=Admin Helper), [ISAPI Extensions](https://www.bing.com/search?q=ISAPI Extensions) |
+| [SQuery](squery-sample.md)     | Windows Script Host | VBScript, JScript          | [Admin Helper](https://www.bing.com/search?q=Admin Helper)                                                                      |
+| [VBAdmin](vbadmin-sample.md)   | Visual Studio       | Visual Basic               | [Admin Helper](https://www.bing.com/search?q=Admin Helper)                                                                      |
 
 
 

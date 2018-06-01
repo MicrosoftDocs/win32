@@ -22,8 +22,8 @@ Indexing Service supports two types of query languages: the Indexing Service que
 
 | Query Language                                                                    | Supporting APIs                                                                                                                                                                                                                  |
 |-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Indexing Service Query Language](indexing-service-query-language.md)<br/> | [ISAPI Extensions](programming-apis.md#-idxs-isapi-extensions-api),<br/> [OLE DB Helper](programming-apis.md#-idxs-ole-db-helper-api),<br/> [Query Helper](programming-apis.md#-idxs-query-helper-api)<br/> |
-| [SQL Query Language](sql-query-language.md)<br/>                           | [ActiveX Data Objects](programming-apis.md#-idxs-activex-data-objects-api),<br/> [OLE DB Provider](programming-apis.md#-idxs-ole-db-provider-api)<br/>                                                             |
+| [Indexing Service Query Language](indexing-service-query-language.md)<br/> | [ISAPI Extensions](https://www.bing.com/search?q=ISAPI Extensions),<br/> [OLE DB Helper](https://www.bing.com/search?q=OLE DB Helper),<br/> [Query Helper](https://www.bing.com/search?q=Query Helper)<br/> |
+| [SQL Query Language](sql-query-language.md)<br/>                           | [ActiveX Data Objects](https://www.bing.com/search?q=ActiveX Data Objects),<br/> [OLE DB Provider](https://www.bing.com/search?q=OLE DB Provider)<br/>                                                             |
 
 
 

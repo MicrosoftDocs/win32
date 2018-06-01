@@ -74,8 +74,8 @@ These objects are described in the following table.
 | Object name      | Interface                              | Description                       |
 |------------------|----------------------------------------|-----------------------------------|
 | **PhraseSink**   | [**IPhraseSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iphrasesink)     | Phrase sink used by word breakers |
-| **WordFormSink** | [**IWordFormSink**](iwordformsink.md) | Stem sink used by stemmers        |
-| **WordSink**     | [**IWordSink**](iwordsink.md)iix      | Word sink used by word breakers   |
+| **WordFormSink** | [**IWordFormSink**](https://www.bing.com/search?q=**IWordFormSink**) | Stem sink used by stemmers        |
+| **WordSink**     | [**IWordSink**](https://www.bing.com/search?q=**IWordSink**)iix      | Word sink used by word breakers   |
 
 
 

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-This section contains reference information for low-level API elements provided by the OLE DB Provider for Indexing Service. These programming elements make up the [OLE DB Provider API](programming-apis.md#-idxs-ole-db-provider-api).
+This section contains reference information for low-level API elements provided by the OLE DB Provider for Indexing Service. These programming elements make up the [OLE DB Provider API](https://www.bing.com/search?q=OLE DB Provider API).
 
 For information about high-level Indexing Service API elements, see the [Indexing Service Reference](indexing-service-reference.md).
 

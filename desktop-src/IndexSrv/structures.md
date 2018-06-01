@@ -23,7 +23,7 @@ Indexing Service defines several structures for use with interfaces and function
 -   [**FILTERREGION**](/windows/desktop/api/Filter/ns-filter-tagfilterregion)
 -   [**FULLPROPSPEC**](/windows/desktop/api/Filter/ns-filter-tagfullpropspec)
 -   [**STAT\_CHUNK**](/windows/desktop/api/Filter/ns-filter-tagstat_chunk)
--   [**TEXT\_SOURCE**](text-source.md)
+-   [**TEXT\_SOURCE**](https://www.bing.com/search?q=**TEXT\_SOURCE**)
 
  
 

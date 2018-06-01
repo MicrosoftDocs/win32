@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The fastest query is a *sequential* query that uses the *content index*. Certain parameter settings will force the query engine to use a less-efficient method to resolve the query. To guarantee fast queries, set [CiSort](variables-in-forms-and-in-idq-files.md#-idxs-cisort-var) to nothing (or descending by rank) set [CiForceUseCi](variables-in-forms-and-in-idq-files.md#-idxs-ciforceuseci-var) to TRUE, and do not reference [CiMatchedRecordCount](read-only-variables-available-in-htx-files.md#-idxs-cimatchedrecordcount-var), [CiRecordsNextPage](read-only-variables-available-in-htx-files.md#-idxs-cirecordsnextpage-var), or [CiTotalNumberPages](read-only-variables-available-in-htx-files.md#-idxs-citotalnumberpages-var) in the .htx template.
+The fastest query is a *sequential* query that uses the *content index*. Certain parameter settings will force the query engine to use a less-efficient method to resolve the query. To guarantee fast queries, set [CiSort](https://www.bing.com/search?q=CiSort) to nothing (or descending by rank) set [CiForceUseCi](https://www.bing.com/search?q=CiForceUseCi) to TRUE, and do not reference [CiMatchedRecordCount](https://www.bing.com/search?q=CiMatchedRecordCount), [CiRecordsNextPage](https://www.bing.com/search?q=CiRecordsNextPage), or [CiTotalNumberPages](https://www.bing.com/search?q=CiTotalNumberPages) in the .htx template.
 
  
 

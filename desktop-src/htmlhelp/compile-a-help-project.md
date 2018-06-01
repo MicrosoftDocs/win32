@@ -23,7 +23,7 @@ There are a variety of compiler settings you can specify in HTML Help Workshop.
 -   [Specify a location for a compiled help file](to-specify-a-location-for-a-compiled-help-file.md)
 -   [Compile a project file from the DOS prompt](to-compile-a-help-project-from-the-dos-prompt.md)
 -   [View compiled help file information](viewing-compiled-help-file-information.md)
--   [Compile a project compatible with HTML Help version 1.0](htmlhelp.to_compile_a_project_compatible_with_html_help_version_1.0)
+-   [Compile a project compatible with HTML Help version 1.0](https://msdn.microsoft.com/windows/desktop/35E7F6D0-A88B-4d1d-BF9C-F145860D4C19)
 
  
 

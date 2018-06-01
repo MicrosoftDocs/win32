@@ -51,7 +51,7 @@ CiRestriction=%Restriction%
 CiTemplate=/Scripts/Template.htx
 ```
 
-The [CiRestriction](variables-in-forms-and-in-idq-files.md#-idxs-cirestriction-var) parameter specifies the query string. In addition to the four required parameters, there are many optional parameters you can add, such as [CiSort](variables-in-forms-and-in-idq-files.md#-idxs-cisort-var) and [CiForceUseCi](variables-in-forms-and-in-idq-files.md#-idxs-ciforceuseci-var). For details, see the full list of parameters in Variables in Forms and in .Idq Files.
+The [CiRestriction](https://www.bing.com/search?q=CiRestriction) parameter specifies the query string. In addition to the four required parameters, there are many optional parameters you can add, such as [CiSort](https://www.bing.com/search?q=CiSort) and [CiForceUseCi](https://www.bing.com/search?q=CiForceUseCi). For details, see the full list of parameters in Variables in Forms and in .Idq Files.
 
  
 

@@ -23,7 +23,7 @@ Through registry settings, it is possible to configure .htx files to display in 
 <span id="Query_error"></span><span id="query_error"></span><span id="QUERY_ERROR"></span>Query error
 </dt> <dd>
 
-An error in a query specification ([CiRestriction](variables-in-forms-and-in-idq-files.md#-idxs-cirestriction-var)). This is most likely a user error.
+An error in a query specification ([CiRestriction](https://www.bing.com/search?q=CiRestriction)). This is most likely a user error.
 
 </dd> <dt>
 
@@ -48,7 +48,7 @@ An unspecified error occurred.
 
 </dd> </dl>
 
-Error pages have access to some of the variables available to .htx files. In addition, there is a variable [CiErrorMessage](read-only-variables-available-in-htx-files.md#-idxs-cierrormessage-var), which gives a message describing the error. See [.Idq File Errors](idq-file-errors.md) and [.Htx File Errors](htx-file-errors.md) for a list of the possible values of CiErrorMessage and [Error Messages and Error Pages](error-messages-and-error-pages.md) for details on Indexing Service error messages.
+Error pages have access to some of the variables available to .htx files. In addition, there is a variable [CiErrorMessage](https://www.bing.com/search?q=CiErrorMessage), which gives a message describing the error. See [.Idq File Errors](idq-file-errors.md) and [.Htx File Errors](htx-file-errors.md) for a list of the possible values of CiErrorMessage and [Error Messages and Error Pages](error-messages-and-error-pages.md) for details on Indexing Service error messages.
 
  
 

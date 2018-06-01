@@ -69,7 +69,7 @@ The scope is a virtual IIS directory. Cannot be combined with QUERY\_PHYSICAL\_P
 
 When you set a flag using these values, perform the logical **OR** operation of one of QUERY\_SHALLOW or QUERY\_DEEP with one of QUERY\_PHYSICAL\_PATH or QUERY\_VIRTUAL\_PATH.
 
-If more than one catalog or machine is specified, the [**DBPROP\_MACHINE**](dbprop-machine.md), [**DBPROP\_CI\_CATALOG\_NAME**](dbprop-ci-catalog-name.md), [**DBPROP\_CI\_INCLUDE\_SCOPES**](dbprop-ci-include-scopes.md), and [**DBPROP\_CI\_SCOPE\_FLAGS**](_idxs_dbprop_ci_scope_flags) properties must all have the same number of entries. The exception is that if more than one catalog or machine is specified, the count of scopes and flags can be either the count of catalogs and machines or 1.
+If more than one catalog or machine is specified, the [**DBPROP\_MACHINE**](dbprop-machine.md), [**DBPROP\_CI\_CATALOG\_NAME**](dbprop-ci-catalog-name.md), [**DBPROP\_CI\_INCLUDE\_SCOPES**](dbprop-ci-include-scopes.md), and [**DBPROP\_CI\_SCOPE\_FLAGS**](https://www.bing.com/search?q=**DBPROP\_CI\_SCOPE\_FLAGS**) properties must all have the same number of entries. The exception is that if more than one catalog or machine is specified, the count of scopes and flags can be either the count of catalogs and machines or 1.
 
 When more than one machine or catalog is specified, the query is executed on multiple machines and the results are merged on the local machine.
 

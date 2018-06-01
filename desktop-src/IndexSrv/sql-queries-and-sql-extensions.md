@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 Indexing Service accepts queries composed in structured query language (SQL). Indexing Service uses a SQL syntax which contains extensions to the subset of SQL-92 and SQL3 queries for relational database systems.
 
-Visual Basic and Visual J++ applications and VBScript and JScript scripts can submit SQL queries using the methods of Microsoft [ActiveX Data Objects](programming-apis.md#-idxs-activex-data-objects-api) (ADOs). Visual C++ applications can submit SQL queries using the interfaces of [OLE DB Provider](programming-apis.md#-idxs-ole-db-provider-api) for Indexing Service.
+Visual Basic and Visual J++ applications and VBScript and JScript scripts can submit SQL queries using the methods of Microsoft [ActiveX Data Objects](https://www.bing.com/search?q=ActiveX Data Objects) (ADOs). Visual C++ applications can submit SQL queries using the interfaces of [OLE DB Provider](https://www.bing.com/search?q=OLE DB Provider) for Indexing Service.
 
 This section describes the syntax of SQL queries for Indexing Service. The statements and clauses, in their usual order of use, include the following:
 

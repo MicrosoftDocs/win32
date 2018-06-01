@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The following code segment from the **LookupCatalog** function of the sample uses the [**LocateCatalogs**](/windows/desktop/api/Ntquery/nf-ntquery-locatecatalogsa) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to find a catalog and machine matching the specified scope.
+The following code segment from the **LookupCatalog** function of the sample uses the [**LocateCatalogs**](/windows/desktop/api/Ntquery/nf-ntquery-locatecatalogsa) function of the [OLE DB Helper API](https://www.bing.com/search?q=OLE DB Helper API) to find a catalog and machine matching the specified scope.
 
 
 ```C++

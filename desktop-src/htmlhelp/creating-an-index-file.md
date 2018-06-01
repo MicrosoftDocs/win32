@@ -22,7 +22,7 @@ A good index file helps users to locate the information they need. HTML Help Wor
 
 -   If you are designing a help system using the [Help Viewer](using-the-help-viewer-for-topics.md), adding an index file to your help project will also create the **Index** tab in the Navigation pane after the project is compiled.
 -   If you are designing for a Web site or your own frameset, make sure you [add the HTML Help ActiveX control](inserting-the-html-help-activex-control.md) to the appropriate files and [specify a default frame](to-specify-the-default-frame-in-a-contents-or-index-file.md) to display your index file.
--   If you compile a help file and [set the compatibility to version 1.0](htmlhelp.to_compile_a_project_compatible_with_html_help_version_1.0), a site map index will be created.
+-   If you compile a help file and [set the compatibility to version 1.0](https://msdn.microsoft.com/windows/desktop/35E7F6D0-A88B-4d1d-BF9C-F145860D4C19), a site map index will be created.
 
 ## Related topics
 

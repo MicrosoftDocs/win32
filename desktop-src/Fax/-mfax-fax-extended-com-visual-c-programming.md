@@ -145,7 +145,7 @@ In C/C++, all operands must be specified. If you want to specify a missing param
 
 In COM, most operations return an **HRESULT** return code that indicates whether a function completed successfully. The [\#import](http://msdn.microsoft.com/library/en-us/vclang/html/_predir_The_.23.import_Directive.asp) directive generates wrapper code around each "raw" method or property and checks the returned **HRESULT**. If the **HRESULT** indicates failure, the wrapper code generates a COM error by calling \_com\_issue\_errorex() with the **HRESULT** return code as an argument. COM error objects can be caught in a try-catch block. (For efficiency's sake, catch a reference to a \_com\_error object.)
 
-Errors may be errors specific to the fax extended COM, generic [HRESULT](com.error_handling_in_com) errors, or Win32 [system error codes](http://msdn.microsoft.com/library/en-us/debug/base/system_error_codes.asp). Fax-specific errors are described in the topic [Fax Error Codes](-mfax-fax-error-codes.md).
+Errors may be errors specific to the fax extended COM, generic [HRESULT](https://msdn.microsoft.com/windows/desktop/15f3ae3e-1794-4948-a7aa-6309a703364b) errors, or Win32 [system error codes](http://msdn.microsoft.com/library/en-us/debug/base/system_error_codes.asp). Fax-specific errors are described in the topic [Fax Error Codes](-mfax-fax-error-codes.md).
 
 ## Visual C++ Equivalents of Visual Basic Conventions
 

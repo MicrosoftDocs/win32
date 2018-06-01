@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-If you set [CiLocale](variables-in-forms-and-in-idq-files.md#-idxs-cilocale-var) in your .idq files, you can override the locale sent from a browser. The Web browser sends its locale through the HTTP\_ACCEPT\_LANGUAGE variable. To find a list of recognized locale codes, see [Valid Locale Identifiers](valid-locale-identifiers.md).
+If you set [CiLocale](https://www.bing.com/search?q=CiLocale) in your .idq files, you can override the locale sent from a browser. The Web browser sends its locale through the HTTP\_ACCEPT\_LANGUAGE variable. To find a list of recognized locale codes, see [Valid Locale Identifiers](valid-locale-identifiers.md).
 
 Instead of overriding the locale sent by a browser, you may want to use the locale sent by a browser that is querying text in variety of languages. For example, given a single HTML page, one query could be for German text (CiLocale=De) and another could be for Spanish text (CiLocale=Es). If CiLocale is not found in the .idq file the locale sent by the Web browser is used. If no locale is sent by the browser, Indexing Service uses the locale of the web server.
 

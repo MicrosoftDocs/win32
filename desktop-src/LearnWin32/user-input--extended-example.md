@@ -185,7 +185,7 @@ void MainWindow::OnMouseMove(int pixelX, int pixelY, DWORD flags)
 
 
 
-The logic to resize an ellipse was described previously, in the section [Example: Drawing Circles](mouse-movement.md#example-drawing-circles). Also note the call to [**InvalidateRect**](https://msdn.microsoft.com/library/windows/desktop/dd145002). This makes sure that the window is repainted. The following code handles [**WM\_LBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms645608) messages.
+The logic to resize an ellipse was described previously, in the section [Example: Drawing Circles](https://www.bing.com/search?q=Example: Drawing Circles). Also note the call to [**InvalidateRect**](https://msdn.microsoft.com/library/windows/desktop/dd145002). This makes sure that the window is repainted. The following code handles [**WM\_LBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms645608) messages.
 
 
 ```C++

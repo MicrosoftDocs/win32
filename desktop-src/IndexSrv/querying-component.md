@@ -24,10 +24,10 @@ The following files make up the Querying component.
 
 | File Name   | Description                                                                                                                           |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Idq.dll     | [ISAPI extensions](programming-apis.md#-idxs-isapi-extensions-api) for Indexing Service.                                             |
-| Ixsso.dll   | [Query Helper](programming-apis.md#-idxs-query-helper-api) automation objects ([Query](iixssoquery.md), [Utility](iixssoutil.md)). |
-| msad\*.dll  | Microsoft [ActiveX Data Objects](programming-apis.md#-idxs-activex-data-objects-api) (ADOs).                                         |
-| Ntquery.lib | [OLE DB Helper](programming-apis.md#-idxs-ole-db-helper-api) functions.                                                              |
+| Idq.dll     | [ISAPI extensions](https://www.bing.com/search?q=ISAPI extensions) for Indexing Service.                                             |
+| Ixsso.dll   | [Query Helper](https://www.bing.com/search?q=Query Helper) automation objects ([Query](iixssoquery.md), [Utility](iixssoutil.md)). |
+| msad\*.dll  | Microsoft [ActiveX Data Objects](https://www.bing.com/search?q=ActiveX Data Objects) (ADOs).                                         |
+| Ntquery.lib | [OLE DB Helper](https://www.bing.com/search?q=OLE DB Helper) functions.                                                              |
 | Query.dll   | [OLE DB Provider for Indexing Service](ole-db-provider-for-indexing-service.md).                                                     |
 
 

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-This code segment executes when the specified query language is the [SQL query language](sql-query-language.md). It sets several parameters and then uses the **CreateObject** function to create RS, a [Recordset](mdobjodbrec) object to represent the results of the query. It then executes the query using the [Open](mdmthrstopen) method of the RS **Recordset** object.
+This code segment executes when the specified query language is the [SQL query language](sql-query-language.md). It sets several parameters and then uses the **CreateObject** function to create RS, a [Recordset](https://www.bing.com/search?q=Recordset) object to represent the results of the query. It then executes the query using the [Open](https://www.bing.com/search?q=Open) method of the RS **Recordset** object.
 
 
 ```VB

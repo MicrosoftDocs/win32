@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-This code segment uses the [CreateRecordset](iixssoquery-createrecordset.md) method of the [Query](iixssoquery.md) object to execute the query and to create objRS\_Parent, an ADO parent [Recordset](mdobjodbrec) object of query results.
+This code segment uses the [CreateRecordset](iixssoquery-createrecordset.md) method of the [Query](iixssoquery.md) object to execute the query and to create objRS\_Parent, an ADO parent [Recordset](https://www.bing.com/search?q=Recordset) object of query results.
 
 
 ```JScript

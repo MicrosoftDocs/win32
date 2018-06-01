@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-This code sub-segment steps through the child objRS\_Child [**Recordset**](mdobjodbrec) object until an end of file occurs, and, for each child recordset (of filename, size, and write for this example), outputs the values in the child recordsets.
+This code sub-segment steps through the child objRS\_Child [**Recordset**](https://www.bing.com/search?q=**Recordset**) object until an end of file occurs, and, for each child recordset (of filename, size, and write for this example), outputs the values in the child recordsets.
 
 
 ```VB

@@ -37,11 +37,11 @@ The DBPROP\_USEEXTENDEDDBTYPES property controls the data type of columns bound 
 
 ### Remarks
 
-If the value is VARIANT\_TRUE, accessor column bindings can be based on [**PROPVARIANT**](_stg_propvariant) structures. By default, only OLE Automation **VARIANT** structures and any directory binding are allowed for accessor column bindings.
+If the value is VARIANT\_TRUE, accessor column bindings can be based on [**PROPVARIANT**](https://www.bing.com/search?q=**PROPVARIANT**) structures. By default, only OLE Automation **VARIANT** structures and any directory binding are allowed for accessor column bindings.
 
 Many frequently used properties are stored using types that are not OLE Automation **VARIANT** structures. This causes considerable overhead in the OLE DB accessor used to retrieve the data, since the data must be coerced into a different type.
 
-Clients that can make use of [**PROPVARIANT**](_stg_propvariant) structures should set DBPROP\_USEEXTENDEDDBTYPES to VARIANT\_TRUE and use OLE DB accessors with bindings that use **PROPVARIANT** types.
+Clients that can make use of [**PROPVARIANT**](https://www.bing.com/search?q=**PROPVARIANT**) structures should set DBPROP\_USEEXTENDEDDBTYPES to VARIANT\_TRUE and use OLE DB accessors with bindings that use **PROPVARIANT** types.
 
  
 

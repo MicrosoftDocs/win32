@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-Some variables that can be set in the .idq file affect the formatting of data in the .htx file. The variable [CiLocale](variables-in-forms-and-in-idq-files.md#-idxs-cilocale-var) can be set to affect the formatting of dates, times, currency values, and floating-point numbers according to NLS conventions. If CiLocale is not set, the locale is set from the client's browser or the server's default locale, in order of priority.
+Some variables that can be set in the .idq file affect the formatting of data in the .htx file. The variable [CiLocale](https://www.bing.com/search?q=CiLocale) can be set to affect the formatting of dates, times, currency values, and floating-point numbers according to NLS conventions. If CiLocale is not set, the locale is set from the client's browser or the server's default locale, in order of priority.
 
 To change the formatting of data types, modify format settings as needed in the **Regional Settings** in the system Control Panel.
 

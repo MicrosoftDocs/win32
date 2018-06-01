@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The [VBQuery Sample](vbquery-sample.md) illustrates several querying tasks for Indexing Service using the [Query Helper](programming-apis.md#-idxs-query-helper-api), [ActiveX Data Objects (ADO)](programming-apis.md#-idxs-activex-data-objects-api), and [OLE DB Helper](programming-apis.md#-idxs-ole-db-helper-api) APIs. The VBQuery Sample has one primary form, **Main**, which contains the following controls.
+The [VBQuery Sample](vbquery-sample.md) illustrates several querying tasks for Indexing Service using the [Query Helper](https://www.bing.com/search?q=Query Helper), [ActiveX Data Objects (ADO)](https://www.bing.com/search?q=ActiveX Data Objects (ADO)), and [OLE DB Helper](https://www.bing.com/search?q=OLE DB Helper) APIs. The VBQuery Sample has one primary form, **Main**, which contains the following controls.
 
 -   A text box for the query text.
 -   A text box for the selected scope of the query.

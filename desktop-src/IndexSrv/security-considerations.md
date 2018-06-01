@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-Be careful when substituting parameters for the [CiTemplate](variables-in-forms-and-in-idq-files.md#-idxs-citemplate-var) parameter because you could unintentionally allow files in scripts directories with only Execute permission to be sent over the network. For example, if an .idq file contained the line
+Be careful when substituting parameters for the [CiTemplate](https://www.bing.com/search?q=CiTemplate) parameter because you could unintentionally allow files in scripts directories with only Execute permission to be sent over the network. For example, if an .idq file contained the line
 
 ``` syntax
 CiTemplate=%CiTemplate%

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The **StompLastAccessDelay** entry determines whether Indexing Service updates the [last access time](_win32_file_times) of a file after indexing it.
+The **StompLastAccessDelay** entry determines whether Indexing Service updates the [last access time](https://www.bing.com/search?q=last access time) of a file after indexing it.
 
 ### Summary
 

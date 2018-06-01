@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 The Microsoft OLE DB Provider for Indexing Service supplies programmatic read-only access to Indexing Service content and property indexes. All programmatic access to Indexing Service occurs through this OLE DB provider, which allows you to access the Indexing Service index files as a data source object. Indexing Service supports all the OLE DB interfaces required for an OLE DB provider. The provider is free-threaded and Unicode-enabled.
 
-Applications written in Microsoft Visual C++ can access the OLE DB Provider directly using its [interfaces](interfaces.md), or they can use the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api). Applications written in Microsoft Visual Basic or Microsoft Visual J++ and scripts written in Microsoft Visual Basic Scripting Edition (VBScript) or Microsoft JScript development software can access the OLE DB Provider using the [Query Helper API](programming-apis.md#-idxs-query-helper-api) or the [ActiveX Data Objects API](programming-apis.md#-idxs-activex-data-objects-api).
+Applications written in Microsoft Visual C++ can access the OLE DB Provider directly using its [interfaces](interfaces.md), or they can use the [OLE DB Helper API](https://www.bing.com/search?q=OLE DB Helper API). Applications written in Microsoft Visual Basic or Microsoft Visual J++ and scripts written in Microsoft Visual Basic Scripting Edition (VBScript) or Microsoft JScript development software can access the OLE DB Provider using the [Query Helper API](https://www.bing.com/search?q=Query Helper API) or the [ActiveX Data Objects API](https://www.bing.com/search?q=ActiveX Data Objects API).
 
 This section describes the OLE DB Provider for Indexing Service with the following topics.
 

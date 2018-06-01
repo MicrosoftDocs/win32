@@ -49,7 +49,7 @@ End If
 
 
 
-These are just a few examples of using the [Admin Helper API](programming-apis.md#-idxs-admin-helper-api) in scripts to manage Indexing Service.
+These are just a few examples of using the [Admin Helper API](https://www.bing.com/search?q=Admin Helper API) in scripts to manage Indexing Service.
 
  
 

@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-This code segment iterates through all the fields of the objRS\_Parent [**Recordset**](mdobjodbrec) object and concatenates the names of the columns in the parent recordset, excluding any chaptered columns.
+This code segment iterates through all the fields of the objRS\_Parent [**Recordset**](https://www.bing.com/search?q=**Recordset**) object and concatenates the names of the columns in the parent recordset, excluding any chaptered columns.
 
 
 ```JScript

@@ -37,7 +37,7 @@ The value of the **ISAPIDefaultErrorFile** is the .htx template to process when 
 
 If a value for this entry is not specified, a generic error page is used.
 
-The variables [CiRestriction](variables-in-forms-and-in-idq-files.md#-idxs-cirestriction-var), [CiErrorMessage](read-only-variables-available-in-htx-files.md#-idxs-cierrormessage-var), and [CiErrorNumber](read-only-variables-available-in-htx-files.md#-idxs-cierrornumber-var) can all be referenced.
+The variables [CiRestriction](https://www.bing.com/search?q=CiRestriction), [CiErrorMessage](https://www.bing.com/search?q=CiErrorMessage), and [CiErrorNumber](https://www.bing.com/search?q=CiErrorNumber) can all be referenced.
 
 The value of an identically named entry under the [**Catalog**](catalog--property--and-scope-registry-entries.md) subkey for a specific catalog cannot override the value of this entry.
 

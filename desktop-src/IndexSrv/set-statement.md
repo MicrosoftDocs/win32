@@ -36,7 +36,7 @@ Specifies an association of a property set with a friendly name (column alias) a
 <span id="Set_Rank_Method_Clause"></span><span id="set_rank_method_clause"></span><span id="SET_RANK_METHOD_CLAUSE"></span>*Set\_Rank\_Method\_Clause*
 </dt> <dd>
 
-Sets the ranking method to use when issuing [Weighted Match](contains-predicate.md#weighted-match) (**ISABOUT**) queries. For details about this parameter, see [SET RANKMETHOD](set-rankmethod.md).
+Sets the ranking method to use when issuing [Weighted Match](https://www.bing.com/search?q=Weighted Match) (**ISABOUT**) queries. For details about this parameter, see [SET RANKMETHOD](set-rankmethod.md).
 
 </dd> </dl>
 

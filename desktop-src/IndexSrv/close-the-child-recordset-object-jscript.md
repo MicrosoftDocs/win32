@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-This code sub-segment uses the [**Close**](mdmthclose) method of the objRS\_Child [**Recordset**](mdobjodbrec) object to free the system resources of the child recordset. Setting the objRS\_Child **Recordset** object to null removes the child object from memory.
+This code sub-segment uses the [**Close**](https://www.bing.com/search?q=**Close**) method of the objRS\_Child [**Recordset**](https://www.bing.com/search?q=**Recordset**) object to free the system resources of the child recordset. Setting the objRS\_Child **Recordset** object to null removes the child object from memory.
 
 
 ```JScript

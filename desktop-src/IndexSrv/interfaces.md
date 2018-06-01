@@ -25,10 +25,10 @@ Indexing Service provides Component Object Model (COM) interfaces to facilitate 
 -   [**IixssoUtil**](iixssoutil.md)
 -   [**IPhraseSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iphrasesink)
 -   [**IScopeAdm**](iscopeadm.md)
--   [**IStemmer**](istemmer.md)
--   [**IWordBreaker**](iwordbreaker.md)
--   [**IWordFormSink**](iwordformsink.md)
--   [**IWordSink**](iwordsink.md)
+-   [**IStemmer**](https://www.bing.com/search?q=**IStemmer**)
+-   [**IWordBreaker**](https://www.bing.com/search?q=**IWordBreaker**)
+-   [**IWordFormSink**](https://www.bing.com/search?q=**IWordFormSink**)
+-   [**IWordSink**](https://www.bing.com/search?q=**IWordSink**)
 
  
 

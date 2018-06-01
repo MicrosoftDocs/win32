@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-To use the [ActiveX Data Objects (ADO) API](programming-apis.md#-idxs-activex-data-objects-api) with Visual J++, you need to import the appropriate Windows Foundation Classes (WFC) for Java packages. The WFC packages provide the following.
+To use the [ActiveX Data Objects (ADO) API](https://www.bing.com/search?q=ActiveX Data Objects (ADO) API) with Visual J++, you need to import the appropriate Windows Foundation Classes (WFC) for Java packages. The WFC packages provide the following.
 
 -   Base classes that encapsulate Windows application operations
 -   Base classes for the core component model.
@@ -35,7 +35,7 @@ import com.ms.com.*;
 
 
 
-To use the ADO API, you must specify "provider=MSIDXS" when creating an ADO [Recordset](mdidxrecordsetjavasyntax) object.
+To use the ADO API, you must specify "provider=MSIDXS" when creating an ADO [Recordset](https://www.bing.com/search?q=Recordset) object.
 
  
 

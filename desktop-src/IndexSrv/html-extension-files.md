@@ -32,7 +32,7 @@ This section explains the features of Indexing Service extension files.
 -   [Error Pages](error-pages.md): Describes error types that can cause an error page to be displayed.
 
 > [!Note]  
-> All path names to .htx files must be either full virtual paths or full physical paths with no “.” or “..” components. This applies to .htx files referenced in [CiTemplate](variables-in-forms-and-in-idq-files.md#-idxs-citemplate-var) or as include files.
+> All path names to .htx files must be either full virtual paths or full physical paths with no “.” or “..” components. This applies to .htx files referenced in [CiTemplate](https://www.bing.com/search?q=CiTemplate) or as include files.
 
  
 

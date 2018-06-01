@@ -22,7 +22,7 @@ An Indexing Service filter, also known as a content filter, is a dynamic-link li
 
 Filters register themselves for a particular file class. For example, an [HTML filter](html-filter.md) can process the class of "htmlfile" files, which include .htm and .html files. For information about filter registration, see [Finding the Filter DLL for a File](finding-the-filter-dll-for-a-file.md).
 
-Content filters also handle embedded or linked objects by having the parent object call the [**IFilter**](/windows/desktop/api/Filter/nn-filter-ifilter) interface methods of the embedded or linked objects. These objects should have their own **IFilter** implementations, supplied by the system or the programmer, which follow the standard COM [containment rules](_com_reusing_objects). [IFilter::Init](/windows/desktop/api/Filter/nf-filter-ifilter-init) accepts a flag to control whether filtering follows links to other objects.
+Content filters also handle embedded or linked objects by having the parent object call the [**IFilter**](/windows/desktop/api/Filter/nn-filter-ifilter) interface methods of the embedded or linked objects. These objects should have their own **IFilter** implementations, supplied by the system or the programmer, which follow the standard COM [containment rules](https://www.bing.com/search?q=containment rules). [IFilter::Init](/windows/desktop/api/Filter/nf-filter-ifilter-init) accepts a flag to control whether filtering follows links to other objects.
 
 You use a filter for the following two purposes:
 
