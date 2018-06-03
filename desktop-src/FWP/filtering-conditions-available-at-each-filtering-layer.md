@@ -1,0 +1,441 @@
+---
+title: Filtering Conditions Available at Each Filtering Layer
+description: The Windows Filtering Platform (WFP) filter engine supports a different set of filtering conditions at each of its filtering layers.
+ms.assetid: 6faace21-44ec-49dd-8e77-e403c258c14a
+topic_type:
+- apiref
+api_name:
+- FWPM_LAYER_INBOUND_IPPACKET_V4 / FWPM_LAYER_INBOUND_IPPACKET_V4_DISCARD / FWPM_LAYER_INBOUND_IPPACKET_V6 / FWPM_LAYER_INBOUND_IPPACKET_V6_DISCARD
+- FWPM_LAYER_OUTBOUND_IPPACKET_V4 / FWPM_LAYER_OUTBOUND_IPPACKET_V4_DISCARD / FWPM_LAYER_OUTBOUND_IPPACKET_V6 / FWPM_LAYER_OUTBOUND_IPPACKET_V6_DISCARD
+- FWPM_LAYER_IPFORWARD_V4 / FWPM_LAYER_IPFORWARD_V4_DISCARD / FWPM_LAYER_IPFORWARD_V6 / FWPM_LAYER_IPFORWARD_V6_DISCARD
+- FWPM_LAYER_INBOUND_TRANSPORT_V4 / FWPM_LAYER_INBOUND_TRANSPORT_V4_DISCARD / FWPM_LAYER_INBOUND_TRANSPORT_V6 / FWPM_LAYER_INBOUND_TRANSPORT_V6_DISCARD
+- FWPM_LAYER_OUTBOUND_TRANSPORT_V4 / FWPM_LAYER_OUTBOUND_TRANSPORT_V4_DISCARD / FWPM_LAYER_OUTBOUND_TRANSPORT_V6 / FWPM_LAYER_OUTBOUND_TRANSPORT_V6_DISCARD
+- FWPM_LAYER_STREAM_V4 / FWPM_LAYER_STREAM_V4_DISCARD / FWPM_LAYER_STREAM_V6 / FWPM_LAYER_STREAM_V6_DISCARD
+- FWPM_LAYER_DATAGRAM_DATA_V4 / FWPM_LAYER_DATAGRAM_DATA_V4_DISCARD / FWPM_LAYER_DATAGRAM_DATA_V6 / FWPM_LAYER_DATAGRAM_DATA_V6_DISCARD
+- FWPM_LAYER_STREAM_PACKET V4 / FWPM_LAYER_STREAM_PACKET V6
+- FWPM_LAYER_INBOUND_ICMP_ERROR_V4 / FWPM_LAYER_INBOUND_ICMP_ERROR_V4_DISCARD / FWPM_LAYER_INBOUND_ICMP_ERROR_V6 / FWPM_LAYER_INBOUND_ICMP_ERROR_V6_DISCARD
+- FWPM_LAYER_OUTBOUND_ICMP_ERROR_V4 / FWPM_LAYER_OUTBOUND_ICMP_ERROR_V4_DISCARD / FWPM_LAYER_OUTBOUND_ICMP_ERROR_V6 / FWPM_LAYER_OUTBOUND_ICMP_ERROR_V6_DISCARD
+- FWPM_LAYER_ALE_BIND_REDIRECT_V4 / FWPM_LAYER_ALE_BIND_REDIRECT V6
+- FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V4 / FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V4_DISCARD / FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V6 / FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V6_DISCARD
+- FWPM_LAYER_ALE_RESOURCE_RELEASE_V4 / FWPM_LAYER_ALE_RESOURCE_RELEASE_V6
+- FWPM_LAYER_ALE_ENDPOINT_CLOSURE_V4 / FWPM_LAYER_ALE_ENDPOINT_CLOSURE_V6
+- FWPM_LAYER_ALE_AUTH_LISTEN_V4 / FWPM_LAYER_ALE_AUTH_LISTEN_V4_DISCARD / FWPM_LAYER_ALE_AUTH_LISTEN_V6 / FWPM_LAYER_ALE_AUTH_LISTEN_V6_DISCARD
+- FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4 / FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4_DISCARD / FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6 / FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6_DISCARD
+- FWPM_LAYER_ALE_CONNECT_REDIRECT_V4 / FWPM_LAYER_ALE_CONNECT_REDIRECT V6
+- FWPM_LAYER_ALE_AUTH_CONNECT_V4 / FWPM_LAYER_ALE_AUTH_CONNECT_V4_DISCARD / FWPM_LAYER_ALE_AUTH_CONNECT_V6 / FWPM_LAYER_ALE_AUTH_CONNECT_V6_DISCARD
+- FWPM_LAYER_ALE_FLOW_ESTABLISHED_V4 / FWPM_LAYER_ALE_FLOW_ESTABLISHED_V4_DISCARD / FWPM_LAYER_ALE_FLOW_ESTABLISHED_V6 / FWPM_LAYER_ALE_FLOW_ESTABLISHED_V6_DISCARD
+- FWPM_LAYER_NAME_RESOLUTION_CACHE_V4 / FWPM_LAYER_NAME_RESOLUTION_CACHE_V6
+- FWPM_LAYER_IPSEC_KM_DEMUX_V4 / FWPM_LAYER_IPSEC_KM_DEMUX_V6
+- FWPM_LAYER_IPSEC_V4 / FWPM_LAYER_IPSEC_V6
+- FWPM_LAYER_IKEEXT_V4 / FWPM_LAYER_IKEEXT_V6
+- FWPM_LAYER_RPC_UM
+- FWPM_LAYER_RPC_EPMAP
+- FWPM_LAYER_RPC_EP_ADD
+- FWPM_LAYER_RPC_PROXY_CONN
+- FWPM_LAYER_RPC_PROXY_IF
+- FWPM_LAYER_KM_AUTHORIZATION
+- FWPM_LAYER_INBOUND_MAC_FRAME_ETHERNET / FWPM_LAYER_OUTBOUND_MAC_FRAME_ETHERNET
+- FWPM_LAYER_INBOUND_MAC_FRAME_NATIVE / FWPM_LAYER_OUTBOUND_MAC_FRAME_NATIVE
+- FWPM_LAYER_EGRESS_VSWITCH_ETHERNET / FWPM_LAYER_INGRESS_VSWITCH_ETHERNET
+- FWPM_LAYER_EGRESS_VSWITCH_TRANSPORT_V4 / FWPM_LAYER_INGRESS_VSWITCH_TRANSPORT_V4 / FWPM_LAYER_EGRESSVSWITCH_TRANSPORT_V6 / FWPM_LAYER_INGRESS_VSWITCH_TRANSPORT_V6
+api_location:
+- Fwpmu.h
+api_type:
+- HeaderDef
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Filtering Conditions Available at Each Filtering Layer
+
+The Windows Filtering Platform (WFP) filter engine supports a different set of filtering conditions at each of its filtering layers.
+
+The list of filtering conditions that are available at each layer are as follows.
+
+<dl> <dt>
+
+<span id="FWPM_LAYER_INBOUND_IPPACKET_V4___FWPM_LAYER_INBOUND_IPPACKET_V4_DISCARD___FWPM_LAYER_INBOUND_IPPACKET_V6___FWPM_LAYER_INBOUND_IPPACKET_V6_DISCARD"></span><span id="fwpm_layer_inbound_ippacket_v4___fwpm_layer_inbound_ippacket_v4_discard___fwpm_layer_inbound_ippacket_v6___fwpm_layer_inbound_ippacket_v6_discard"></span>**FWPM\_LAYER\_INBOUND\_IPPACKET\_V4 / FWPM\_LAYER\_INBOUND\_IPPACKET\_V4\_DISCARD / FWPM\_LAYER\_INBOUND\_IPPACKET\_V6 / FWPM\_LAYER\_INBOUND\_IPPACKET\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_OUTBOUND_IPPACKET_V4___FWPM_LAYER_OUTBOUND_IPPACKET_V4_DISCARD___FWPM_LAYER_OUTBOUND_IPPACKET_V6___FWPM_LAYER_OUTBOUND_IPPACKET_V6_DISCARD"></span><span id="fwpm_layer_outbound_ippacket_v4___fwpm_layer_outbound_ippacket_v4_discard___fwpm_layer_outbound_ippacket_v6___fwpm_layer_outbound_ippacket_v6_discard"></span>**FWPM\_LAYER\_OUTBOUND\_IPPACKET\_V4 / FWPM\_LAYER\_OUTBOUND\_IPPACKET\_V4\_DISCARD / FWPM\_LAYER\_OUTBOUND\_IPPACKET\_V6 / FWPM\_LAYER\_OUTBOUND\_IPPACKET\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_IPFORWARD_V4___FWPM_LAYER_IPFORWARD_V4_DISCARD___FWPM_LAYER_IPFORWARD_V6___FWPM_LAYER_IPFORWARD_V6_DISCARD"></span><span id="fwpm_layer_ipforward_v4___fwpm_layer_ipforward_v4_discard___fwpm_layer_ipforward_v6___fwpm_layer_ipforward_v6_discard"></span>**FWPM\_LAYER\_IPFORWARD\_V4 / FWPM\_LAYER\_IPFORWARD\_V4\_DISCARD / FWPM\_LAYER\_IPFORWARD\_V6 / FWPM\_LAYER\_IPFORWARD\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_DESTINATION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_DESTINATION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_FORWARD\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_SOURCE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_SOURCE\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_SOURCE\_SUB\_INTERFACE\_INDEX</dd> </dl>
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_IP\_PHYSICAL\_ARRIVAL\_INTERFACE </dd> <dd>FWPM\_CONDITION\_IP\_PHYSICAL\_NEXTHOP\_INTERFACE</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_INTERFACE\_PROFILE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_INBOUND_TRANSPORT_V4___FWPM_LAYER_INBOUND_TRANSPORT_V4_DISCARD___FWPM_LAYER_INBOUND_TRANSPORT_V6___FWPM_LAYER_INBOUND_TRANSPORT_V6_DISCARD"></span><span id="fwpm_layer_inbound_transport_v4___fwpm_layer_inbound_transport_v4_discard___fwpm_layer_inbound_transport_v6___fwpm_layer_inbound_transport_v6_discard"></span>**FWPM\_LAYER\_INBOUND\_TRANSPORT\_V4 / FWPM\_LAYER\_INBOUND\_TRANSPORT\_V4\_DISCARD / FWPM\_LAYER\_INBOUND\_TRANSPORT\_V6 / FWPM\_LAYER\_INBOUND\_TRANSPORT\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl>
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_CURRENT\_PROFILE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_OUTBOUND_TRANSPORT_V4___FWPM_LAYER_OUTBOUND_TRANSPORT_V4_DISCARD___FWPM_LAYER_OUTBOUND_TRANSPORT_V6___FWPM_LAYER_OUTBOUND_TRANSPORT_V6_DISCARD"></span><span id="fwpm_layer_outbound_transport_v4___fwpm_layer_outbound_transport_v4_discard___fwpm_layer_outbound_transport_v6___fwpm_layer_outbound_transport_v6_discard"></span>**FWPM\_LAYER\_OUTBOUND\_TRANSPORT\_V4 / FWPM\_LAYER\_OUTBOUND\_TRANSPORT\_V4\_DISCARD / FWPM\_LAYER\_OUTBOUND\_TRANSPORT\_V6 / FWPM\_LAYER\_OUTBOUND\_TRANSPORT\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl>
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_CURRENT\_PROFILE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_STREAM_V4___FWPM_LAYER_STREAM_V4_DISCARD___FWPM_LAYER_STREAM_V6___FWPM_LAYER_STREAM_V6_DISCARD"></span><span id="fwpm_layer_stream_v4___fwpm_layer_stream_v4_discard___fwpm_layer_stream_v6___fwpm_layer_stream_v6_discard"></span>**FWPM\_LAYER\_STREAM\_V4 / FWPM\_LAYER\_STREAM\_V4\_DISCARD / FWPM\_LAYER\_STREAM\_V6 / FWPM\_LAYER\_STREAM\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_DIRECTION</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_DATAGRAM_DATA_V4___FWPM_LAYER_DATAGRAM_DATA_V4_DISCARD___FWPM_LAYER_DATAGRAM_DATA_V6___FWPM_LAYER_DATAGRAM_DATA_V6_DISCARD"></span><span id="fwpm_layer_datagram_data_v4___fwpm_layer_datagram_data_v4_discard___fwpm_layer_datagram_data_v6___fwpm_layer_datagram_data_v6_discard"></span>**FWPM\_LAYER\_DATAGRAM\_DATA\_V4 / FWPM\_LAYER\_DATAGRAM\_DATA\_V4\_DISCARD / FWPM\_LAYER\_DATAGRAM\_DATA\_V6 / FWPM\_LAYER\_DATAGRAM\_DATA\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_DIRECTION</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_STREAM_PACKET_V4___FWPM_LAYER_STREAM_PACKET_V6"></span><span id="fwpm_layer_stream_packet_v4___fwpm_layer_stream_packet_v6"></span>**FWPM\_LAYER\_STREAM\_PACKET V4 / FWPM\_LAYER\_STREAM\_PACKET V6**
+</dt> <dd> <dl> <dt>
+
+
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_DIRECTION</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_INBOUND_ICMP_ERROR_V4___FWPM_LAYER_INBOUND_ICMP_ERROR_V4_DISCARD___FWPM_LAYER_INBOUND_ICMP_ERROR_V6___FWPM_LAYER_INBOUND_ICMP_ERROR_V6_DISCARD"></span><span id="fwpm_layer_inbound_icmp_error_v4___fwpm_layer_inbound_icmp_error_v4_discard___fwpm_layer_inbound_icmp_error_v6___fwpm_layer_inbound_icmp_error_v6_discard"></span>**FWPM\_LAYER\_INBOUND\_ICMP\_ERROR\_V4 / FWPM\_LAYER\_INBOUND\_ICMP\_ERROR\_V4\_DISCARD / FWPM\_LAYER\_INBOUND\_ICMP\_ERROR\_V6 / FWPM\_LAYER\_INBOUND\_ICMP\_ERROR\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_SUB\_INTERFACE\_INDEX
+
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX
+
+</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_TUNNEL\_TYPE</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_ICMP\_CODE</dd> <dd>FWPM\_CONDITION\_ICMP\_TYPE </dd> <dd>FWPM\_CONDITION\_EMBEDDED\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_EMBEDDED\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_EMBEDDED\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_EMBEDDED\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_EMBEDDED\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_ARRIVAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_LOCAL\_INTERFACE\_INDEX
+
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_INTERFACE\_INDEX
+
+</dd> <dd>FWPM\_CONDITION\_LOCAL\_INTERFACE\_TYPE
+
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_INTERFACE\_TYPE
+
+</dd> <dd>FWPM\_CONDITION\_LOCAL\_TUNNEL\_TYPE
+
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_TUNNEL\_TYPE
+
+</dd> </dl>
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_PROFILE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_OUTBOUND_ICMP_ERROR_V4___FWPM_LAYER_OUTBOUND_ICMP_ERROR_V4_DISCARD___FWPM_LAYER_OUTBOUND_ICMP_ERROR_V6___FWPM_LAYER_OUTBOUND_ICMP_ERROR_V6_DISCARD"></span><span id="fwpm_layer_outbound_icmp_error_v4___fwpm_layer_outbound_icmp_error_v4_discard___fwpm_layer_outbound_icmp_error_v6___fwpm_layer_outbound_icmp_error_v6_discard"></span>**FWPM\_LAYER\_OUTBOUND\_ICMP\_ERROR\_V4 / FWPM\_LAYER\_OUTBOUND\_ICMP\_ERROR\_V4\_DISCARD / FWPM\_LAYER\_OUTBOUND\_ICMP\_ERROR\_V6 / FWPM\_LAYER\_OUTBOUND\_ICMP\_ERROR\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_ICMP\_CODE</dd> <dd>FWPM\_CONDITION\_ICMP\_TYPE </dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl>
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_NEXTHOP\_INTERFACE\_PROFILE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_ALE_BIND_REDIRECT_V4___FWPM_LAYER_ALE_BIND_REDIRECT_V6"></span><span id="fwpm_layer_ale_bind_redirect_v4___fwpm_layer_ale_bind_redirect_v6"></span>**FWPM\_LAYER\_ALE\_BIND\_REDIRECT\_V4 / FWPM\_LAYER\_ALE\_BIND\_REDIRECT V6**
+</dt> <dd> <dl> <dt>
+
+
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> </dl>
+
+**Windows 8:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V4___FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V4_DISCARD___FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V6___FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V6_DISCARD"></span><span id="fwpm_layer_ale_resource_assignment_v4___fwpm_layer_ale_resource_assignment_v4_discard___fwpm_layer_ale_resource_assignment_v6___fwpm_layer_ale_resource_assignment_v6_discard"></span>**FWPM\_LAYER\_ALE\_RESOURCE\_ASSIGNMENT\_V4 / FWPM\_LAYER\_ALE\_RESOURCE\_ASSIGNMENT\_V4\_DISCARD / FWPM\_LAYER\_ALE\_RESOURCE\_ASSIGNMENT\_V6 / FWPM\_LAYER\_ALE\_RESOURCE\_ASSIGNMENT\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_PROMISCUOUS\_MODE</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl>
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_LOCAL\_INTERFACE\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_SIO\_FIREWALL\_SYSTEM\_PORT</dd> </dl>
+
+**Windows 8:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_ALE_RESOURCE_RELEASE_V4___FWPM_LAYER_ALE_RESOURCE_RELEASE_V6"></span><span id="fwpm_layer_ale_resource_release_v4___fwpm_layer_ale_resource_release_v6"></span>**FWPM\_LAYER\_ALE\_RESOURCE\_RELEASE\_V4 / FWPM\_LAYER\_ALE\_RESOURCE\_RELEASE\_V6**
+</dt> <dd> <dl> <dt>
+
+
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> </dl>
+
+**Windows 8:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_ALE_ENDPOINT_CLOSURE_V4___FWPM_LAYER_ALE_ENDPOINT_CLOSURE_V6"></span><span id="fwpm_layer_ale_endpoint_closure_v4___fwpm_layer_ale_endpoint_closure_v6"></span>**FWPM\_LAYER\_ALE\_ENDPOINT\_CLOSURE\_V4 / FWPM\_LAYER\_ALE\_ENDPOINT\_CLOSURE\_V6**
+</dt> <dd> <dl> <dt>
+
+
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> </dl>
+
+**Windows 8:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_ALE_AUTH_LISTEN_V4___FWPM_LAYER_ALE_AUTH_LISTEN_V4_DISCARD___FWPM_LAYER_ALE_AUTH_LISTEN_V6___FWPM_LAYER_ALE_AUTH_LISTEN_V6_DISCARD"></span><span id="fwpm_layer_ale_auth_listen_v4___fwpm_layer_ale_auth_listen_v4_discard___fwpm_layer_ale_auth_listen_v6___fwpm_layer_ale_auth_listen_v6_discard"></span>**FWPM\_LAYER\_ALE\_AUTH\_LISTEN\_V4 / FWPM\_LAYER\_ALE\_AUTH\_LISTEN\_V4\_DISCARD / FWPM\_LAYER\_ALE\_AUTH\_LISTEN\_V6 / FWPM\_LAYER\_ALE\_AUTH\_LISTEN\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl>
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_LOCAL\_INTERFACE\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_SIO\_FIREWALL\_SYSTEM\_PORT</dd> </dl>
+
+**Windows 8:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4___FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4_DISCARD___FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6___FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6_DISCARD"></span><span id="fwpm_layer_ale_auth_recv_accept_v4___fwpm_layer_ale_auth_recv_accept_v4_discard___fwpm_layer_ale_auth_recv_accept_v6___fwpm_layer_ale_auth_recv_accept_v6_discard"></span>**FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V4 / FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V4\_DISCARD / FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V6 / FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_NAP\_CONTEXT</dd> <dd>FWPM\_CONDITION\_ALE\_REMOTE\_MACHINE\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_REMOTE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_SIO\_FIREWALL\_SYSTEM\_PORT</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_SUB\_INTERFACE\_INDEX
+
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX
+
+</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_TUNNEL\_TYPE</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_IP\_ARRIVAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_LOCAL\_INTERFACE\_INDEX
+
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_INTERFACE\_INDEX
+
+</dd> <dd>FWPM\_CONDITION\_LOCAL\_INTERFACE\_TYPE
+
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_INTERFACE\_TYPE
+
+</dd> <dd>FWPM\_CONDITION\_LOCAL\_TUNNEL\_TYPE
+
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_TUNNEL\_TYPE
+
+</dd> </dl>
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_NEXTHOP\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_IP\_NEXTHOP\_INTERFACE</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_TUNNEL\_TYPE</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_ORIGINAL\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_CURRENT\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_REAUTHORIZE\_REASON</dd> <dd>FWPM\_CONDITION\_ORIGINAL\_ICMP\_TYPE</dd> </dl>
+
+**Windows 8:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_ALE_CONNECT_REDIRECT_V4___FWPM_LAYER_ALE_CONNECT_REDIRECT_V6"></span><span id="fwpm_layer_ale_connect_redirect_v4___fwpm_layer_ale_connect_redirect_v6"></span>**FWPM\_LAYER\_ALE\_CONNECT\_REDIRECT\_V4 / FWPM\_LAYER\_ALE\_CONNECT\_REDIRECT V6**
+</dt> <dd> <dl> <dt>
+
+
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS\_TYPE</dd> </dl>
+
+**Windows 8:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_ALE_AUTH_CONNECT_V4___FWPM_LAYER_ALE_AUTH_CONNECT_V4_DISCARD___FWPM_LAYER_ALE_AUTH_CONNECT_V6___FWPM_LAYER_ALE_AUTH_CONNECT_V6_DISCARD"></span><span id="fwpm_layer_ale_auth_connect_v4___fwpm_layer_ale_auth_connect_v4_discard___fwpm_layer_ale_auth_connect_v6___fwpm_layer_ale_auth_connect_v6_discard"></span>**FWPM\_LAYER\_ALE\_AUTH\_CONNECT\_V4 / FWPM\_LAYER\_ALE\_AUTH\_CONNECT\_V4\_DISCARD / FWPM\_LAYER\_ALE\_AUTH\_CONNECT\_V6 / FWPM\_LAYER\_ALE\_AUTH\_CONNECT\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_REMOTE\_MACHINE\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_REMOTE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_ARRIVAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_TUNNEL\_TYPE</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_INDEX
+
+**Windows Vista with SP1 and later:** FWPM\_CONDITION\_INTERFACE\_INDEX
+
+</dd> </dl>
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_NEXTHOP\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_IP\_NEXTHOP\_INTERFACE</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_TUNNEL\_TYPE</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_ORIGINAL\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_CURRENT\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_REAUTHORIZE\_REASON</dd> <dd>FWPM\_CONDITION\_PEER\_NAME</dd> <dd>FWPM\_CONDITION\_ORIGINAL\_ICMP\_TYPE</dd> </dl>
+
+**Windows 8:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_ALE_FLOW_ESTABLISHED_V4___FWPM_LAYER_ALE_FLOW_ESTABLISHED_V4_DISCARD___FWPM_LAYER_ALE_FLOW_ESTABLISHED_V6___FWPM_LAYER_ALE_FLOW_ESTABLISHED_V6_DISCARD"></span><span id="fwpm_layer_ale_flow_established_v4___fwpm_layer_ale_flow_established_v4_discard___fwpm_layer_ale_flow_established_v6___fwpm_layer_ale_flow_established_v6_discard"></span>**FWPM\_LAYER\_ALE\_FLOW\_ESTABLISHED\_V4 / FWPM\_LAYER\_ALE\_FLOW\_ESTABLISHED\_V4\_DISCARD / FWPM\_LAYER\_ALE\_FLOW\_ESTABLISHED\_V6 / FWPM\_LAYER\_ALE\_FLOW\_ESTABLISHED\_V6\_DISCARD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_REMOTE\_MACHINE\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_REMOTE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_DIRECTION</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl>
+
+**Windows 8:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_NAME_RESOLUTION_CACHE_V4___FWPM_LAYER_NAME_RESOLUTION_CACHE_V6"></span><span id="fwpm_layer_name_resolution_cache_v4___fwpm_layer_name_resolution_cache_v6"></span>**FWPM\_LAYER\_NAME\_RESOLUTION\_CACHE\_V4 / FWPM\_LAYER\_NAME\_RESOLUTION\_CACHE\_V6**
+</dt> <dd> <dl> <dt>
+
+
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_PEER\_NAME</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_IPSEC_KM_DEMUX_V4___FWPM_LAYER_IPSEC_KM_DEMUX_V6"></span><span id="fwpm_layer_ipsec_km_demux_v4___fwpm_layer_ipsec_km_demux_v6"></span>**FWPM\_LAYER\_IPSEC\_KM\_DEMUX\_V4 / FWPM\_LAYER\_IPSEC\_KM\_DEMUX\_V6**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_IPSEC_V4___FWPM_LAYER_IPSEC_V6"></span><span id="fwpm_layer_ipsec_v4___fwpm_layer_ipsec_v6"></span>**FWPM\_LAYER\_IPSEC\_V4 / FWPM\_LAYER\_IPSEC\_V6**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> </dl>
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_CURRENT\_PROFILE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_IKEEXT_V4___FWPM_LAYER_IKEEXT_V6"></span><span id="fwpm_layer_ikeext_v4___fwpm_layer_ikeext_v6"></span>**FWPM\_LAYER\_IKEEXT\_V4 / FWPM\_LAYER\_IKEEXT\_V6**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> </dl>
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_CURRENT\_PROFILE\_ID</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_RPC_UM"></span><span id="fwpm_layer_rpc_um"></span>**FWPM\_LAYER\_RPC\_UM**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_DCOM\_APP\_ID</dd> <dd>FWPM\_CONDITION\_IMAGE\_NAME</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_V4</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_V6</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS\_V4</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS\_V6</dd> <dd>FWPM\_CONDITION\_PIPE</dd> <dd>FWPM\_CONDITION\_REMOTE\_USER\_TOKEN</dd> <dd>FWPM\_CONDITION\_RPC\_AUTH\_LEVEL</dd> <dd>FWPM\_CONDITION\_RPC\_AUTH\_TYPE</dd> <dd>FWPM\_CONDITION\_RPC\_IF\_FLAG</dd> <dd>FWPM\_CONDITION\_RPC\_IF\_UUID</dd> <dd>FWPM\_CONDITION\_RPC\_IF\_VERSION</dd> <dd>FWPM\_CONDITION\_RPC\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_SEC\_ENCRYPT\_ALGORITHM</dd> <dd>FWPM\_CONDITION\_SEC\_KEY\_SIZE</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_RPC_EPMAP"></span><span id="fwpm_layer_rpc_epmap"></span>**FWPM\_LAYER\_RPC\_EPMAP**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_V4</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_V6</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS\_V4</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS\_V6 </dd> <dd>FWPM\_CONDITION\_PIPE</dd> <dd>FWPM\_CONDITION\_REMOTE\_USER\_TOKEN</dd> <dd>FWPM\_CONDITION\_RPC\_AUTH\_LEVEL</dd> <dd>FWPM\_CONDITION\_RPC\_AUTH\_TYPE</dd> <dd>FWPM\_CONDITION\_RPC\_IF\_UUID</dd> <dd>FWPM\_CONDITION\_RPC\_IF\_VERSION</dd> <dd>FWPM\_CONDITION\_RPC\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_SEC\_ENCRYPT\_ALGORITHM</dd> <dd>FWPM\_CONDITION\_SEC\_KEY\_SIZE</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_RPC_EP_ADD"></span><span id="fwpm_layer_rpc_ep_add"></span>**FWPM\_LAYER\_RPC\_EP\_ADD**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_PROCESS\_WITH\_RPC\_IF\_UUID</dd> <dd>FWPM\_CONDITION\_RPC\_EP\_FLAGS</dd> <dd>FWPM\_CONDITION\_RPC\_EP\_VALUE</dd> <dd>FWPM\_CONDITION\_RPC\_PROTOCOL</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_RPC_PROXY_CONN"></span><span id="fwpm_layer_rpc_proxy_conn"></span>**FWPM\_LAYER\_RPC\_PROXY\_CONN**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd> FWPM\_CONDITION\_CLIENT\_CERT\_KEY\_LENGTH</dd> <dd> FWPM\_CONDITION\_CLIENT\_CERT\_OID</dd> <dd> FWPM\_CONDITION\_CLIENT\_TOKEN</dd> <dd> FWPM\_CONDITION\_RPC\_PROXY\_AUTH\_TYPE</dd> <dd> FWPM\_CONDITION\_RPC\_SERVER\_NAME</dd> <dd> FWPM\_CONDITION\_RPC\_SERVER\_PORT</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_RPC_PROXY_IF"></span><span id="fwpm_layer_rpc_proxy_if"></span>**FWPM\_LAYER\_RPC\_PROXY\_IF**
+</dt> <dd> <dl> <dt>
+
+ <dl> <dd>FWPM\_CONDITION\_CLIENT\_CERT\_KEY\_LENGTH</dd> <dd>FWPM\_CONDITION\_CLIENT\_CERT\_OID</dd> <dd>FWPM\_CONDITION\_CLIENT\_TOKEN</dd> <dd>FWPM\_CONDITION\_RPC\_IF\_UUID</dd> <dd>FWPM\_CONDITION\_RPC\_IF\_VERSION</dd> <dd>FWPM\_CONDITION\_RPC\_PROXY\_AUTH\_TYPE</dd> <dd>FWPM\_CONDITION\_RPC\_SERVER\_NAME</dd> <dd>FWPM\_CONDITION\_RPC\_SERVER\_PORT</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_KM_AUTHORIZATION"></span><span id="fwpm_layer_km_authorization"></span>**FWPM\_LAYER\_KM\_AUTHORIZATION**
+</dt> <dd> <dl> <dt>
+
+
+
+**Windows 7 and later:  **
+
+<dl> <dd>FWPM\_CONDITION\_REMOTE\_ID</dd> <dd>FWPM\_CONDITION\_AUTHENTICATION\_TYPE</dd> <dd>FWPM\_CONDITION\_KM\_TYPE</dd> <dd>FWPM\_CONDITION\_KM\_MODE</dd> <dd>FWPM\_CONDITION\_DIRECTION</dd> <dd>FWPM\_CONDITION\_IPSEC\_POLICY\_KEY</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_INBOUND_MAC_FRAME_ETHERNET___FWPM_LAYER_OUTBOUND_MAC_FRAME_ETHERNET"></span><span id="fwpm_layer_inbound_mac_frame_ethernet___fwpm_layer_outbound_mac_frame_ethernet"></span>**FWPM\_LAYER\_INBOUND\_MAC\_FRAME\_ETHERNET / FWPM\_LAYER\_OUTBOUND\_MAC\_FRAME\_ETHERNET**
+</dt> <dd> <dl> <dt>
+
+
+
+**Windows 8:  **
+
+<dl> <dd>FWPM\_CONDITION\_INTERFACE\_MAC\_ADDRESS</dd> <dd>FWPM\_CONDITION\_MAC\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_MAC\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_MAC\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_MAC\_REMOTE\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_ETHER\_TYPE</dd> <dd>FWPM\_CONDITION\_VLAN\_ID</dd> <dd>FWPM\_CONDITION\_INTERFACE</dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_NDIS\_PORT</dd> <dd>FWPM\_CONDITION\_L2\_FLAGS</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="_FWPM_LAYER_INBOUND_MAC_FRAME_NATIVE___FWPM_LAYER_OUTBOUND_MAC_FRAME_NATIVE"></span><span id="_fwpm_layer_inbound_mac_frame_native___fwpm_layer_outbound_mac_frame_native"></span> **FWPM\_LAYER\_INBOUND\_MAC\_FRAME\_NATIVE / FWPM\_LAYER\_OUTBOUND\_MAC\_FRAME\_NATIVE**
+</dt> <dd> <dl> <dt>
+
+
+
+**Windows 8:  **
+
+<dl> <dd>FWPM\_CONDITION\_NDIS\_MEDIA\_TYPE</dd> <dd>FWPM\_CONDITION\_NDIS\_PHYSICAL\_MEDIA\_TYPE</dd> <dd>FWPM\_CONDITION\_INTERFACE</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_NDIS\_PORT</dd> <dd>FWPM\_CONDITION\_L2\_FLAGS</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="FWPM_LAYER_EGRESS_VSWITCH_ETHERNET___FWPM_LAYER_INGRESS_VSWITCH_ETHERNET"></span><span id="fwpm_layer_egress_vswitch_ethernet___fwpm_layer_ingress_vswitch_ethernet"></span>**FWPM\_LAYER\_EGRESS\_VSWITCH\_ETHERNET / FWPM\_LAYER\_INGRESS\_VSWITCH\_ETHERNET**
+</dt> <dd> <dl> <dt>
+
+
+
+**Windows 8:  **
+
+<dl> <dd>FWPM\_CONDITION\_MAC\_SOURCE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_MAC\_SOURCE\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_MAC\_DESTINATION\_ADDRESS</dd> <dd>FWPM\_CONDITION\_MAC\_DESTINATION\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_ETHER\_TYPE</dd> <dd>FWPM\_CONDITION\_VLAN\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_TENANT\_NETWORK\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_NETWORK\_TYPE</dd> <dd>FWPM\_CONDITION\_VSWITCH\_SOURCE\_INTERFACE\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_SOURCE\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_VSWITCH\_SOURCE\_VM\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_L2\_FLAGS</dd> </dl> 
+</dt> </dl> </dd> <dt>
+
+<span id="_FWPM_LAYER_EGRESS_VSWITCH_TRANSPORT_V4___FWPM_LAYER_INGRESS_VSWITCH_TRANSPORT_V4___FWPM_LAYER_EGRESSVSWITCH_TRANSPORT_V6___FWPM_LAYER_INGRESS_VSWITCH_TRANSPORT_V6"></span><span id="_fwpm_layer_egress_vswitch_transport_v4___fwpm_layer_ingress_vswitch_transport_v4___fwpm_layer_egressvswitch_transport_v6___fwpm_layer_ingress_vswitch_transport_v6"></span> **FWPM\_LAYER\_EGRESS\_VSWITCH\_TRANSPORT\_V4 / FWPM\_LAYER\_INGRESS\_VSWITCH\_TRANSPORT\_V4 / FWPM\_LAYER\_EGRESSVSWITCH\_TRANSPORT\_V6 / FWPM\_LAYER\_INGRESS\_VSWITCH\_TRANSPORT\_V6**
+</dt> <dd> <dl> <dt>
+
+
+
+**Windows 8:  **
+
+<dl> <dd>FWPM\_CONDITION\_IP\_SOURCE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_SOURCE\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_PORT</dd> <dd>FWPM\_CONDITION\_VLAN\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_TENANT\_NETWORK\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_NETWORK\_TYPE</dd> <dd>FWPM\_CONDITION\_VSWITCH\_SOURCE\_INTERFACE\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_SOURCE\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_VSWITCH\_SOURCE\_VM\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_DESTINATION\_INTERFACE\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_DESTINATION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_VSWITCH\_L2\_FLAGS</dd> </dl> 
+</dt> </dl> </dd> </dl>
+
+## Remarks
+
+The V4 and V6 suffixes at the end of the layer identifiers indicate whether the layer is located in the IPv4 network stack or in the IPv6 network stack.
+
+## Requirements
+
+
+
+|                                     |                                                                                    |
+|-------------------------------------|------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+
+

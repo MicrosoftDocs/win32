@@ -1,0 +1,143 @@
+---
+title: Characteristics of Object Classes
+description: Each object class in Active Directory Domain Services is defined by a classSchema object in the schema container.
+audience: developer
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 88a2b2a3-e8e2-4be1-9784-9709cbea08d6
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
+ms.tgt_platform: multiple
+keywords:
+- Characteristics of Object Classes AD
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Characteristics of Object Classes
+
+Each object class in Active Directory Domain Services is defined by a **classSchema** object in the schema container. The attributes of a **classSchema** object specify the characteristics of the class, such as:
+
+-   Class identifiers: Classes have several identifiers including **ldapDisplayName**, which are used by LDAP clients to identify the class in search filters, and **schemaIDGUID**, which are used in security descriptors to control access to the class.
+-   Possible attributes: An object class definition includes lists of the mandatory and optional attributes that can be set on an instance of the class.
+-   Possible parents: Every object instance, except the root of the directory hierarchy, has exactly one parent. An object class definition includes lists of possible parents, that is, of the object classes that can contain an instance of the class.
+-   Superclasses and auxiliary classes: Every object class (except [*top*](https://msdn.microsoft.com/library/ms681941#-ds-top)) is derived from another class. A class inherits possible attributes and possible parents from the classes above it in the class hierarchy. A class can also have any number of auxiliary classes from which it inherits lists of possible attributes. For more information, see [Class Inheritance in the Active Directory Schema](class-inheritance-in-the-active-directory-schema.md).
+
+The following table lists the **lDAPDisplayName** and description of the key attributes of a **classSchema** object. For more information, and a complete list of the mandatory and optional attributes of a **classSchema** object, see [**classSchema**](https://msdn.microsoft.com/library/ms680982).
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>lDAPDisplayName</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>cn</strong></td>
+<td>Every object in Active Directory Domain Services has a naming attribute from which its Relative Distinguished Name (RDN) is formed. The naming attribute for <strong>classSchema</strong> objects is <strong>cn</strong> (Common-Name). The value assigned to <strong>cn</strong> is the value that the object class will have as its RDN. For example, the <strong>cn</strong> of the <strong>organizationalUnit</strong> object class is Organizational-Unit, which would appear in a distinguished name as CN=Organizational-Unit. The <strong>cn</strong> must be unique in the schema container.</td>
+</tr>
+<tr class="even">
+<td><strong>lDAPDisplayName</strong></td>
+<td>The name used by LDAP clients, such as the ADSI LDAP provider, to refer to the class, for example to specify the class in a search filter. A class's <strong>lDAPDisplayName</strong> must be unique in the schema container, which means it must be unique across all <strong>classSchema</strong> and <strong>attributeSchema</strong> objects. For more information about composing a <strong>cn</strong> and an <strong>lDAPDisplayName</strong> for a new class, see [Naming Attributes and Classes](naming-attributes-and-classes.md).</td>
+</tr>
+<tr class="odd">
+<td><strong>schemaIDGUID</strong></td>
+<td>A GUID stored as an octet string. This GUID uniquely identifies the class. This GUID can be used in access control entries to control access to objects of this class. For more information, see [Setting Permissions on Child Object Operations](setting-permissions-on-child-object-operations.md). On creation of the <strong>classSchema</strong> object, the Active Directory server generates this value if it is not specified. If you create a new class, generate your own GUID for each class so that all installations of your extension use the same <strong>schemaIDGUID</strong> to refer to the class.<br/></td>
+</tr>
+<tr class="even">
+<td><strong>adminDisplayName</strong></td>
+<td>A display name of the class for use in administrative tools. If <strong>adminDisplayName</strong> is not specified when a class is created, the system uses the Common-Name value as the display name. This display name is used only if a mapping does not exist in the <strong>classDisplayName</strong> property of the display specifier for the class. For more information, see [Display Specifiers](display-specifiers.md) and [Class and Attribute Display Names](class-and-attribute-display-names.md).<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>governsID</strong></td>
+<td>The OID of the class. This value must be unique among the <strong>governsIDs</strong> of all <strong>classSchema</strong> objects and the <strong>attributeIDs</strong> of all <strong>attributeSchema</strong> objects. For more information, see [Object Identifiers](object-identifiers.md).</td>
+</tr>
+<tr class="even">
+<td><strong>rDnAttId</strong></td>
+<td>Identifies the naming attribute, which is the attribute that provides the RDN for this class   if different than the default (<strong>cn</strong>). Use of a naming attribute other than <strong>cn</strong> is discouraged. Naming attributes should be drawn from the well-known set (OU, CN, O, L, and DC) that is understood by all LDAP version 3 clients. For more information, see [Object Names and Identities](object-names-and-identities.md) and [Syntaxes for Attributes in Active Directory Domain Services](syntaxes-for-attributes-in-active-directory-domain-services.md). A naming attribute must have the Directory String syntax. For more information, see [Syntaxes for Attributes in Active Directory Domain Services](syntaxes-for-attributes-in-active-directory-domain-services.md).<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>mustContain</strong>, <strong>systemMustContain</strong></td>
+<td>A pair of multi-valued properties that specify the attributes that must be present on instances of this class. These are mandatory attributes that must be present during creation and cannot be cleared after creation. After creation of the class, these properties cannot be changed. The full set of mandatory attributes for a class is the union of the <strong>systemMustContain</strong> and <strong>mustContain</strong> values on this class and all inherited classes.<br/></td>
+</tr>
+<tr class="even">
+<td><strong>mayContain</strong>, <strong>systemMayContain</strong></td>
+<td>A pair of multi-valued properties that specify the attributes that MAY be present on instances of this class. These are optional attributes that are not mandatory and, therefore, may or may not be present on an instance of this class. You can add or remove <strong>mayContain</strong> values from an existing category 1 or category 2 <strong>classSchema</strong> object. Before removing a <strong>mayContain</strong> value from a <strong>classSchema</strong> object, you should search for instances of the object class and clear any values for the attribute that you are removing. After creation of the class, the <strong>systemMayContain</strong> property cannot be changed The full set of optional attributes for a class is the union of the <strong>systemMayContain</strong> and <strong>mayContain</strong> values on this class and all inherited classes.<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>possSuperiors</strong>, <strong>systemPossSuperiors</strong></td>
+<td>A pair of multi-valued properties that specify the structural classes that can be legal parents of instances of this class. The full set of possible superiors is the union of the <strong>systemPossSuperiors</strong> and <strong>possSuperiors</strong> values on this class and any inherited structural or abstract classes. <strong>systemPossSuperiors</strong> and <strong>possSuperiors</strong> values are not inherited from auxiliary classes. You can add or remove <strong>possSuperiors</strong> values from an existing category 1 or category 2 <strong>classSchema</strong> object. After creation of the class, the <strong>systemPossSuperiors</strong> property cannot be changed.<br/></td>
+</tr>
+<tr class="even">
+<td><strong>objectClassCategory</strong></td>
+<td>An integer value that specifies the category of the class, which can be one of the following:
+<ul>
+<li>Structural, meaning that it can be instantiated in the directory.</li>
+<li>Abstract, meaning that the class provides a basic definition of a class that can be used to form structural classes.</li>
+<li>Auxiliary, meaning that a class that can be used to extend the definition of a class that inherits from it but cannot be used to form a class by itself.</li>
+</ul>
+For more information, see [Structural, Abstract, and Auxiliary Classes](structural-abstract-and-auxiliary-classes.md).<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>subClassOf</strong></td>
+<td>An OID for the immediate superclass of this class, that is, the class from which this class is derived. For structural classes, <strong>subClassOf</strong> can be a structural or abstract class.<br/> For abstract classes, <strong>subClassOf</strong> can be an abstract class only.<br/> For auxiliary classes, <strong>subClassOf</strong> can be an abstract or auxiliary class.<br/> If you define a new class, ensure that the <strong>subClassOf</strong> class exists or will exist when the new class is written to the directory. If class does not exist, the <strong>classSchema</strong> object is not added to the directory.<br/></td>
+</tr>
+<tr class="even">
+<td><strong>auxiliaryClass</strong>, <strong>systemAuxiliaryClass</strong></td>
+<td>A pair of multi-valued properties that specify the auxiliary classes that this class inherits from. The full set of auxiliary classes is the union of the <strong>systemAuxiliaryClass</strong> and <strong>auxiliaryClass</strong> values on this class and all inherited classes. For an existing <strong>classSchema</strong> object, values can be added to the <strong>auxiliaryClass</strong> property but not removed. After creation of the class, the <strong>systemAuxiliaryClass</strong> property cannot be changed.<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>defaultObjectCategory</strong></td>
+<td>The distinguished name of this object class or one of its superclasses. When an instance of this object class is created, the system sets the <strong>objectCategory</strong> property of the new instance to the value specified in the <strong>defaultObjectCategory</strong> property of its object class. The <strong>objectCategory</strong> property is an indexed property used to increase the efficiency of object class searches. If <strong>defaultObjectCategory</strong> is not specified when a class is created, the system sets it to the distinguished name (DN) of the <strong>classSchema</strong> object for this class. If this object will be frequently queried by the value of a superclass rather than the object's own class, you can set <strong>defaultObjectCategory</strong> to the DN of the superclass. For example, if you are subclassing a predefined (category 1) class, the best practice is to set <strong>defaultObjectCategory</strong> to the same value as the superclass. This enables the standard UI to &quot;find&quot; your subclass.<br/> For more information, see [Object Class and Object Category](object-class-and-object-category.md).<br/></td>
+</tr>
+<tr class="even">
+<td><strong>defaultHidingValue</strong></td>
+<td>A Boolean value that specifies the default setting of the <strong>showInAdvancedViewOnly</strong> property of new instances of this class. Many directory objects are not interesting to end users. To keep these objects from cluttering the UI, every object has a Boolean attribute called <strong>showInAdvancedViewOnly</strong>. If <strong>defaultHidingValue</strong> is set to <strong>TRUE</strong>, new object instances are hidden in the Administrative snap-ins and the Windows shell. A menu item for the object class will not appear in the <strong>New</strong> context menu of the Administrative snap-ins even if the appropriate creation wizard properties are set on the object class's <strong>displaySpecifier</strong> object.<br/> If <strong>defaultHidingValue</strong> is set to <strong>FALSE</strong>, new instances of the object are displayed in the Administrative snap-ins and the Windows shell. Set this property to <strong>FALSE</strong> to see instances of the class in the administrative snap-ins and the shell and enable a creation wizard and its menu item in the <strong>New</strong> menu of the administrative snap-ins.<br/> If the <strong>defaultHidingValue</strong> value is not set, the default is <strong>TRUE</strong>.<br/></td>
+</tr>
+<tr class="odd">
+<td><strong>systemFlags</strong></td>
+<td>An integer value that contains flags that define additional properties of the class. The 0x10 bit identifies a category 1 class (a class that is part of the base schema that is included with the system). You cannot set this bit, which means that the bit is not set in category 2 classes (which are extensions to the schema).</td>
+</tr>
+<tr class="even">
+<td><strong>systemOnly</strong></td>
+<td>A Boolean value that specifies whether only the Active Directory server can modify the class. System-only classes can be created or deleted only by the Directory System Agent (DSA). System-only classes are those that the system depends on for normal operations.</td>
+</tr>
+<tr class="odd">
+<td><strong>defaultSecurityDescriptor</strong></td>
+<td>Specifies the default security descriptor for new objects of this class. For more information, see [Default Security Descriptor](default-security-descriptor.md) and [How Security Descriptors are Set on New Directory Objects](how-security-descriptors-are-set-on-new-directory-objects.md).</td>
+</tr>
+<tr class="even">
+<td><strong>isDefunct</strong></td>
+<td>A Boolean value that indicates whether the class is defunct. For more information, see [Disabling Existing Classes and Attributes](disabling-existing-classes-and-attributes.md).</td>
+</tr>
+<tr class="odd">
+<td><strong>description</strong></td>
+<td>A text description of the class for use by administrative applications.</td>
+</tr>
+<tr class="even">
+<td><strong>objectClass</strong></td>
+<td>Identifies the object class of which this object is an instance, which is the <strong>classSchema</strong> object class for all class definitions and the <strong>attributeSchema</strong> object class for all attribute definitions.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+

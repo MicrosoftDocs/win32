@@ -1,0 +1,103 @@
+---
+Description: Draw an array of sprites.
+ms.assetid: 3fcc7705-0d59-450e-b137-c9cb7ec6b1ea
+title: ID3DX10Sprite::DrawSpritesImmediate method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# ID3DX10Sprite::DrawSpritesImmediate method
+
+Draw an array of sprites. This will immediately send the sprites to the device for rendering, which is different from [**ID3DX10Sprite::DrawSpritesBuffered**](id3dx10sprite-drawspritesbuffered.md) which only adds an array of sprites to a batch of sprites to be rendered when [**ID3DX10Sprite::Flush**](id3dx10sprite-flush.md) is called. This draw method is most useful when drawing a large number of sprites that have already been sorted on the CPU (or do not need to be sorted), such as in a particle system. This must be called in between calls to [**ID3DX10Sprite::Begin**](id3dx10sprite-begin.md) and [**ID3DX10Sprite::End**](id3dx10sprite-end.md).
+
+## Syntax
+
+
+```C++
+HRESULT DrawSpritesImmediate(
+  [in] D3DX10_SPRITE *pSprites,
+  [in] UINT          cSprites,
+  [in] UINT          cbSprite,
+  [in] UINT          flags
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pSprites* \[in\]
+</dt> <dd>
+
+Type: **[**D3DX10\_SPRITE**](d3dx10-sprite.md)\***
+
+The array of sprites to draw. See [**D3DX10\_SPRITE**](d3dx10-sprite.md).
+
+</dd> <dt>
+
+*cSprites* \[in\]
+</dt> <dd>
+
+Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+The number of sprites in pSprites.
+
+</dd> <dt>
+
+*cbSprite* \[in\]
+</dt> <dd>
+
+Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+The size of the sprite structure you are passing into pSprites. Passing in 0 is the equivalent of passing in sizeof(D3DX10\_SPRITE).
+
+</dd> <dt>
+
+*flags* \[in\]
+</dt> <dd>
+
+Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+Reserved.
+
+</dd> </dl>
+
+## Return value
+
+Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+
+If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
+
+## Requirements
+
+
+
+|                    |                                                                                       |
+|--------------------|---------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
+| Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[ID3DX10Sprite](id3dx10sprite.md)
+</dt> <dt>
+
+[D3DX Interfaces](d3d10-graphics-reference-d3dx10-interfaces.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

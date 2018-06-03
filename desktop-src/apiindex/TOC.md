@@ -1,0 +1,13 @@
+# [API Index](api-index-portal.md)
+## [Windows API List](windows-api-list.md)
+## [Windows umbrella libraries](windows-umbrella-libraries.md)
+### [OneCore.lib umbrella library (by module)](umbrella-lib-onecore.md)
+### [OneCore.lib umbrella library (alphabetical)](umbrella-lib-onecore-alpha.md)
+### [OneCoreUap.lib umbrella library (by module)](umbrella-lib-onecoreuap.md)
+### [OneCoreUap.lib umbrella library (alphabetical)](umbrella-lib-onecoreuap-alpha.md)
+## [Windows API Sets](windows-apisets.md)
+### [Windows 8.1 API Sets](windows-81-api-sets.md)
+### [Windows 8 API Sets](windows-8-api-sets.md)
+## [UWP APIs callable from a classic desktop app](uwp-apis-callable-from-a-classic-desktop-app.md)
+## [WinRT 8.x APIs for desktop](winrt-apis-for-desktop-apps.md)
+

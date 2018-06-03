@@ -1,0 +1,95 @@
+---
+Description: Transforms vector (x, y, z, 1) by a given matrix.
+ms.assetid: 88b26d94-2550-4126-bf91-b06391ec5c75
+title: D3DXVec3Transform function
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# D3DXVec3Transform function
+
+Transforms vector (x, y, z, 1) by a given matrix.
+
+## Syntax
+
+
+```C++
+D3DXVECTOR4* D3DXVec3Transform(
+  _Inout_       D3DXVECTOR4 *pOut,
+  _In_    const D3DXVECTOR3 *pV,
+  _In_    const D3DXMATRIX  *pM
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pOut* \[in, out\]
+</dt> <dd>
+
+Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/windows/desktop/fbfe7851-7bec-4fa0-b4dc-52f5cb83d0a4)\***
+
+Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) structure that is the result of the operation.
+
+</dd> <dt>
+
+*pV* \[in\]
+</dt> <dd>
+
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/windows/desktop/4d73de4b-82fe-452a-8a1e-17208f172a03)\***
+
+Pointer to the source [**D3DXVECTOR3**](d3d10-d3dxvector3.md).
+
+</dd> <dt>
+
+*pM* \[in\]
+</dt> <dd>
+
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/windows/desktop/0911088b-50cf-4c4a-996e-351386fc359b)\***
+
+Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
+
+</dd> </dl>
+
+## Return value
+
+Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/windows/desktop/fbfe7851-7bec-4fa0-b4dc-52f5cb83d0a4)\***
+
+Pointer to a D3DXVECTOR4 structure that is the transformed vector.
+
+## Remarks
+
+This function transforms the vector, pV (x, y, z, 1), by the matrix pM.
+
+The return value for this function is the same value returned in the pOut parameter. In this way, the D3DXVec3Transform function can be used as a parameter for another function.
+
+## Requirements
+
+
+
+|                   |                                                                                         |
+|-------------------|-----------------------------------------------------------------------------------------|
+| Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Math Functions](d3d10-graphics-reference-d3dx10-functions-math.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,57 @@
+---
+title: SCSI Miniport Driver Routines
+description: SCSI Miniport Driver Routines
+ms.assetid: 33b57b4a-f972-42db-b75f-cdab922969f5
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# SCSI Miniport Driver Routines
+
+## 
+
+All SCSI miniport drivers must have some of the routines described in this section. Whether any particular miniport driver has others depends on the nature of its HBA(s) or on that miniport driver's designer.
+
+A miniport driver's *HwScsiXxx* routines can have any name chosen by the driver writer. **DriverEntry** is a required name.
+
+> [!Note]  
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver) and [Storport miniport](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers) driver models.
+
+ 
+
+This section describes the following miniport driver routines:
+
+<dl>
+
+[**DriverEntry of SCSI Miniport Driver**](driverentry-of-scsi-miniport-driver.md)  
+[**HwScsiAdapterControl**](hwscsiadaptercontrol.md)  
+[**HwScsiAdapterState**](hwscsiadapterstate.md)  
+[**HwScsiDisableInterruptsCallback**](hwscsidisableinterruptscallback.md)  
+[**HwScsiDmaStarted**](hwscsidmastarted.md)  
+[**HwScsiEnableInterruptsCallback**](hwscsienableinterruptscallback.md)  
+[*HwScsiFindAdapter*](hwscsifindadapter.md)  
+[*HwScsiInitialize*](hwscsiinitialize.md)  
+[**HwScsiInterrupt**](hwscsiinterrupt.md)  
+[*HwScsiResetBus*](hwscsiresetbus.md)  
+[**HwScsiStartIo**](hwscsistartio.md)  
+[*HwScsiTimer*](hwscsitimer.md)  
+[**HwScsiWmiExecuteMethod**](hwscsiwmiexecutemethod.md)  
+[**HwScsiWmiFunctionControl**](hwscsiwmifunctioncontrol.md)  
+[**HwScsiWmiQueryDataBlock**](hwscsiwmiquerydatablock.md)  
+[**HwScsiWmiQueryReginfo**](hwscsiwmiqueryreginfo.md)  
+[**HwScsiWmiSetDataBlock**](hwscsiwmisetdatablock.md)  
+[**HwScsiWmiSetDataItem**](hwscsiwmisetdataitem.md)  
+</dl>
+
+ 
+
+ 
+
+[Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20SCSI%20Miniport%20Driver%20Routines%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
+
+
+
+

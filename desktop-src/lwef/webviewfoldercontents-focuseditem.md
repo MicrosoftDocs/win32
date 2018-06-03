@@ -1,0 +1,100 @@
+---
+title: WebViewFolderContents.FocusedItem property
+description: Gets a FolderItem object that represents the item that has the input focus.
+ms.assetid: 84cf92ac-dadb-4741-8383-a8ae1d35d4e0
+keywords:
+- FocusedItem property Legacy Windows Environment Features
+- FocusedItem property Legacy Windows Environment Features , WebViewFolderContents object
+- WebViewFolderContents object Legacy Windows Environment Features , FocusedItem property
+topic_type:
+- apiref
+api_name:
+- WebViewFolderContents.FocusedItem
+api_location:
+- Shell32.dll
+api_type:
+- COM
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# WebViewFolderContents.FocusedItem property
+
+Gets a [**FolderItem**](https://msdn.microsoft.com/library/windows/desktop/bb787810) object that represents the item that has the input focus.
+
+This property is read-only.
+
+## Syntax
+
+
+```JScript
+objFocusedItem = WebViewFolderContents.FocusedItem
+```
+
+
+
+## Property value
+
+A variable of type [IDispatch](http://msdn.microsoft.com/en-US/library/ms221608.aspx) that receives the focused item object.
+
+## Examples
+
+The following example shows the proper usage of this property in JScript embedded in HTML.
+
+
+```HTML
+<html>
+<head>
+
+...
+
+<script language="JavaScript">
+    function fnWebViewFolderContentsFocusedItemJ()
+    {
+        var objFolderItem;
+
+        objFolderItem = FileList.FocusedItem;
+        if (objFolderItem != null)
+        {
+            alert(objFolderItem.Name);
+        }
+    }
+</script>
+
+</head>
+<body>
+
+...
+
+<object id=FileList classid="clsid:1820FED0-473E-11D0-A96C-00C04FD705A2" tabIndex=1>
+</body>
+</html>
+```
+
+
+
+## Requirements
+
+
+
+|                                     |                                                                                                                |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
+| Header<br/>                   | <dl> <dt>Shldisp.h</dt> </dl>                           |
+| IDL<br/>                      | <dl> <dt>Shldisp.idl</dt> </dl>                         |
+| DLL<br/>                      | <dl> <dt>Shell32.dll (version 4.71 or later)</dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+
+

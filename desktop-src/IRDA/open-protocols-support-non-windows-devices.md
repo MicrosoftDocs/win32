@@ -1,0 +1,27 @@
+---
+title: Open Protocols Support Non-Windows Devices
+description: Windows Sockets exposes the IrDA TinyTP protocol to programmers. A non-Windows device that implements TinyTP can easily exchange data with Windows applications.
+ms.assetid: 3e5f599b-9e48-45d1-b7f5-b3c43aafd76b
+keywords:
+- Infrared Data Association IrDA , described, open protocols device support
+- networking IrDA , open protocols
+- non-Windows devices IrDA
+- wireless IrDA , open protocols
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Open Protocols Support Non-Windows Devices
+
+Windows Sockets exposes the IrDA TinyTP protocol to programmers. A non-Windows device that implements TinyTP can easily exchange data with Windows applications.
+
+ 
+
+ 
+
+
+
+

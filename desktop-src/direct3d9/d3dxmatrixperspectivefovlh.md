@@ -1,0 +1,145 @@
+---
+Description: Builds a left-handed perspective projection matrix based on a field of view.
+ms.assetid: 90328798-f124-4b61-90a9-971946066b02
+title: D3DXMatrixPerspectiveFovLH function
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# D3DXMatrixPerspectiveFovLH function
+
+Builds a left-handed perspective projection matrix based on a field of view.
+
+## Syntax
+
+
+```C++
+D3DXMATRIX* D3DXMatrixPerspectiveFovLH(
+  _Inout_ D3DXMATRIX *pOut,
+  _In_    FLOAT      fovy,
+  _In_    FLOAT      Aspect,
+  _In_    FLOAT      zn,
+  _In_    FLOAT      zf
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pOut* \[in, out\]
+</dt> <dd>
+
+Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
+
+Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of the operation.
+
+</dd> <dt>
+
+*fovy* \[in\]
+</dt> <dd>
+
+Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+Field of view in the y direction, in radians.
+
+</dd> <dt>
+
+*Aspect* \[in\]
+</dt> <dd>
+
+Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+Aspect ratio, defined as view space width divided by height.
+
+</dd> <dt>
+
+*zn* \[in\]
+</dt> <dd>
+
+Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+Z-value of the near view-plane.
+
+</dd> <dt>
+
+*zf* \[in\]
+</dt> <dd>
+
+Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+Z-value of the far view-plane.
+
+</dd> </dl>
+
+## Return value
+
+Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
+
+Pointer to a [**D3DXMATRIX**](d3dxmatrix.md) structure that is a left-handed perspective projection matrix.
+
+## Remarks
+
+The return value for this function is the same value returned in the *pOut* parameter. In this way, the **D3DXMatrixPerspectiveFovLH** function can be used as a parameter for another function.
+
+This function computes the returned matrix as shown:
+
+
+```
+xScale     0          0               0
+0        yScale       0               0
+0          0       zf/(zf-zn)         1
+0          0       -zn*zf/(zf-zn)     0
+where:
+yScale = cot(fovY/2)
+
+xScale = yScale / aspect ratio
+```
+
+
+
+## Requirements
+
+
+
+|                    |                                                                                        |
+|--------------------|----------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
+| Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Math Functions](dx9-graphics-reference-d3dx-functions-math.md)
+</dt> <dt>
+
+[**D3DXMatrixPerspectiveRH**](d3dxmatrixperspectiverh.md)
+</dt> <dt>
+
+[**D3DXMatrixPerspectiveLH**](d3dxmatrixperspectivelh.md)
+</dt> <dt>
+
+[**D3DXMatrixPerspectiveFovRH**](d3dxmatrixperspectivefovrh.md)
+</dt> <dt>
+
+[**D3DXMatrixPerspectiveOffCenterRH**](d3dxmatrixperspectiveoffcenterrh.md)
+</dt> <dt>
+
+[**D3DXMatrixPerspectiveOffCenterLH**](d3dxmatrixperspectiveoffcenterlh.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,13 @@
+# [Windows Subsystem for Linux](windows-subsystem-for-linux-portal.md)
+## [WSL Reference](wsl-reference.md)
+### [WSL Enumerations](wsl-enumerations.md)
+#### [WSL_DISTRIBUTION_FLAGS](/previous-versions/windows/desktop/api/wslapi/ne-wslapi-wsl_distribution_flags)
+### [WSL Functions](wsl-functions.md)
+#### [WslConfigureDistribution](/previous-versions/windows/desktop/api/wslapi/nf-wslapi-wslconfiguredistribution)
+#### [WslGetDistributionConfiguration](/previous-versions/windows/desktop/api/wslapi/nf-wslapi-wslgetdistributionconfiguration)
+#### [WslIsDistributionRegistered](/previous-versions/windows/desktop/api/wslapi/nf-wslapi-wslisdistributionregistered)
+#### [WslLaunch](/previous-versions/windows/desktop/api/wslapi/nf-wslapi-wsllaunch)
+#### [WslLaunchInteractive](/previous-versions/windows/desktop/api/wslapi/nf-wslapi-wsllaunchinteractive)
+#### [WslRegisterDistribution](/previous-versions/windows/desktop/api/wslapi/nf-wslapi-wslregisterdistribution)
+#### [WslUnregisterDistribution](/previous-versions/windows/desktop/api/wslapi/nf-wslapi-wslunregisterdistribution)
+

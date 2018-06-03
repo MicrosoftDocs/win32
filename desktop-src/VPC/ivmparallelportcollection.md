@@ -1,0 +1,83 @@
+---
+title: IVMParallelPortCollection interface
+description: Defines the collection of parallel ports within the virtual machine. To obtain an IVMParallelPortCollection object, use the IVMVirtualMachine ParallelPorts property.
+ms.assetid: 038a5c08-cd92-426f-a059-9a4c2110548d
+keywords:
+- IVMParallelPortCollection interface Virtual PC
+- IVMParallelPortCollection interface Virtual PC , described
+topic_type:
+- apiref
+api_name:
+- IVMParallelPortCollection
+api_location:
+- VPCCOMInterfaces.h
+api_type:
+- COM
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: interface
+ms.date: 05/31/2018
+---
+
+# IVMParallelPortCollection interface
+
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+
+Defines the collection of parallel ports within the virtual machine. To obtain an **IVMParallelPortCollection** object, use the [**IVMVirtualMachine::ParallelPorts**](ivmvirtualmachine-parallelports.md) property.
+
+## Members
+
+The **IVMParallelPortCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMParallelPortCollection** also has these types of members:
+
+-   [Properties](#properties)
+
+### Properties
+
+The **IVMParallelPortCollection** interface has these properties.
+
+
+
+| Property                                                           | Access type          | Description                                                                  |
+|:-------------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------|
+| [**\_NewEnum**](ivmparallelportcollection--newenum.md)<br/> | Read-only<br/> | An enumerator for the collection.<br/>                                 |
+| [**Count**](ivmparallelportcollection-count.md)<br/>        | Read-only<br/> | The number of parallel ports in this collection.<br/>                  |
+| [**Item**](ivmparallelportcollection-item.md)<br/>          | Read-only<br/> | The parallel port object that corresponds to the specified index.<br/> |
+
+
+
+ 
+
+## Requirements
+
+
+
+|                                     |                                                                                               |
+|-------------------------------------|-----------------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported server<br/> | None supported<br/>                                                                     |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
+| Product<br/>                  | Windows Virtual PC<br/>                                                                 |
+| Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
+| IID<br/>                      | IID\_IVMParallelPortCollection is defined as 27c3e036-198f-430c-8735-6e652f7203fd<br/>  |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**IVMParallelPort**](ivmparallelport.md)
+</dt> <dt>
+
+[**IVMVirtualMachine::ParallelPorts**](ivmvirtualmachine-parallelports.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

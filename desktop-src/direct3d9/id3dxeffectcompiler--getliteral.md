@@ -1,0 +1,90 @@
+---
+Description: Gets a literal status of a parameter. A literal parameter has a value that doesn't change during the lifetime of an effect.
+ms.assetid: 417abbee-5193-462e-b0d1-b4928ad0a041
+title: ID3DXEffectCompiler::GetLiteral method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# ID3DXEffectCompiler::GetLiteral method
+
+Gets a literal status of a parameter. A literal parameter has a value that doesn't change during the lifetime of an effect.
+
+## Syntax
+
+
+```C++
+HRESULT GetLiteral(
+  [in]  D3DXHANDLE hParameter,
+  [out] BOOL       *pLiteral
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*hParameter* \[in\]
+</dt> <dd>
+
+Type: **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**
+
+Unique identifier to a parameter. See [Handles (Direct3D 9)](handles.md).
+
+</dd> <dt>
+
+*pLiteral* \[out\]
+</dt> <dd>
+
+Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+
+Returns True if the parameter is a literal, and False otherwise.
+
+</dd> </dl>
+
+## Return value
+
+Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+
+If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL.
+
+## Remarks
+
+This methods only changes whether the parameter is a literal or not. To change the value of a parameter, use a method like [**ID3DXBaseEffect::SetBool**](id3dxbaseeffect--setbool.md) or [**ID3DXBaseEffect::SetValue**](id3dxbaseeffect--setvalue.md).
+
+## Requirements
+
+
+
+|                    |                                                                                          |
+|--------------------|------------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
+| Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
+
+
+
+## See also
+
+<dl> <dt>
+
+[ID3DXEffectCompiler](id3dxeffectcompiler.md)
+</dt> <dt>
+
+[Usages and Literals (Direct3D 9)](usages-and-literals.md)
+</dt> <dt>
+
+[**ID3DXEffectCompiler::SetLiteral**](id3dxeffectcompiler--setliteral.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

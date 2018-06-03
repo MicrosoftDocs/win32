@@ -1,0 +1,90 @@
+---
+Description: Puts an alternative form of a word in the IWordFormSink object.
+ms.assetid: 4F6A3E88-A17C-4CA3-849D-FF0DC06D5DC3
+title: IWordFormSink::PutAltWord method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# IWordFormSink::PutAltWord method
+
+Puts an alternative form of a word in the [**IWordFormSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink) object.
+
+## Syntax
+
+
+```C++
+HRESULT PutAltWord(
+  [in] const WCHAR *pwcInBuf ,
+  [in]       ULONG cwc
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pwcInBuf* \[in\]
+</dt> <dd>
+
+A pointer to a buffer that contains an alternative form of a word.
+
+</dd> <dt>
+
+*cwc* \[in\]
+</dt> <dd>
+
+The number of characters in *pwcInBuf*.
+
+</dd> </dl>
+
+## Return value
+
+This method can return one of these values.
+
+
+
+| Return code                                                                                              | Description                                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| <dl> <dt>**S\_OK**</dt> </dl>                     | The operation was completed successfully. <br/>                                                                                             |
+| <dl> <dt>**LANGUAGE\_S\_LARGE\_WORD** </dt> </dl> | Value of *cwc* is larger than the value for *ulMaxTokenSize* that is specified in [**IStemmer::Init**](https://msdn.microsoft.com/windows/desktop/56440abe-c2d3-4224-af17-b220321a46ad). <br/> |
+
+
+
+ 
+
+## Remarks
+
+This method is called from the [**GenerateWordForms**](https://msdn.microsoft.com/windows/desktop/7996468d-3b5f-4bfc-837d-51082655cbbc) method of the [**IStemmer**](https://msdn.microsoft.com/windows/desktop/1a6e77ec-60f8-4e43-9420-7a6b50152e26) implementation. All alternative forms for a word, except the last, are put in the [**IWordFormSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink) object by calling **IWordFormSink::PutAltWord**. The final alternative form of a word, which is always the original form of the word, is handled by calling [**IWordFormSink::PutWord**](iwordformsink-putword.md).
+
+## Requirements
+
+
+
+|                                     |                                                                                     |
+|-------------------------------------|-------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Header<br/>                   | <dl> <dt>Search.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**IWordFormSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

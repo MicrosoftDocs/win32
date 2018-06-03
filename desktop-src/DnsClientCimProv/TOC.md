@@ -1,0 +1,10 @@
+# [Dnsclientcim Provider Classes](dns-client-classes.md)
+## [MSFT_DNSClient](msft-dnsclient.md)
+### [RequestStateChange method](msft-dnsclient-requeststatechange.md)
+### [Register method](register-msft-dnsclient.md)
+## [MSFT_DNSClientCache](msft-dnsclientcache.md)
+### [Clear method](clear-msft-dnsclientcache.md)
+## [MSFT_DNSClientGlobalSetting](msft-dnsclientglobalsetting.md)
+## [MSFT_DNSClientServerAddress](msft-dnsclientserveraddress.md)
+### [RequestStateChange method](msft-dnsclientserveraddress-requeststatechange.md)
+

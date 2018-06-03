@@ -1,0 +1,85 @@
+---
+Description: Converts a string to a GUID.
+ms.assetid: 109b99e6-7409-44e0-932c-658be66651f4
+title: GUIDFromString function
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# GUIDFromString function
+
+\[**GUIDFromString** is available through Windows XP with Service Pack 2 (SP2) or Windows Vista. It might be altered or unavailable in subsequent versions. Applications should use [**CLSIDFromString**](https://msdn.microsoft.com/windows/desktop/36cc9037-480f-491f-a9bb-5aa1e707781e) or [**IIDFromString**](https://msdn.microsoft.com/windows/desktop/7fa72a65-68f8-438e-8a0c-6e0e0208420d) in place of this function.\]
+
+Converts a string to a GUID.
+
+## Syntax
+
+
+```C++
+BOOL GUIDFromString(
+  _In_  LPCTSTR psz,
+  _Out_ LPGUID  pguid
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*psz* \[in\]
+</dt> <dd>
+
+Type: **LPCTSTR**
+
+A pointer to the null-terminated string to convert. The string should be in the following form:
+
+{00000000-0000-0000-0000-000000000000}
+
+</dd> <dt>
+
+*pguid* \[out\]
+</dt> <dd>
+
+Type: **LPGUID**
+
+Pointer to a buffer to receive the GUID when this method returns.
+
+</dd> </dl>
+
+## Return value
+
+Type: **BOOL**
+
+**TRUE** if the GUID was created successfully; otherwise, **FALSE**.
+
+## Remarks
+
+This function is not declared in a header or exported by name from a .dll file. It must be loaded from Shell32.dll as ordinal 703 for **GUIDFromStringA** and ordinal 704 for **GUIDFromStringW**.
+
+It can also be accessed from Shlwapi.dll as ordinal 269 for **GUIDFromStringA** and ordinal 270 for **GUIDFromStringW**.
+
+## Requirements
+
+
+
+|                                     |                                                                                        |
+|-------------------------------------|----------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| DLL<br/>                      | <dl> <dt>Shell32.dll</dt> </dl> |
+| Unicode and ANSI names<br/>   | **GUIDFromStringW** (Unicode) and **GUIDFromStringA** (ANSI)<br/>                |
+
+
+
+ 
+
+ 
+
+
+
+

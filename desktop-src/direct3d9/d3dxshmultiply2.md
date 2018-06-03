@@ -1,0 +1,95 @@
+---
+Description: Computes the product of two functions represented using SH (f and g).
+ms.assetid: 632400a4-2ac9-438d-85f7-869101f350c8
+title: D3DXSHMultiply2 function
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# D3DXSHMultiply2 function
+
+Computes the product of two functions represented using SH (f and g).
+
+## Syntax
+
+
+```C++
+FLOAT* D3DXSHMultiply2(
+  _In_       FLOAT *pOut,
+  _In_ const FLOAT *pF,
+  _In_ const FLOAT *pG
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pOut* \[in\]
+</dt> <dd>
+
+Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+
+Pointer to the output SH coefficients - basis function Ylm is stored at l\*l + m+l.
+
+</dd> <dt>
+
+*pF* \[in\]
+</dt> <dd>
+
+Type: **const [**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+
+Input SH coeffs for first function.
+
+</dd> <dt>
+
+*pG* \[in\]
+</dt> <dd>
+
+Type: **const [**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+
+Second set of input SH coeffs.
+
+</dd> </dl>
+
+## Return value
+
+Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+
+Pointer to SH output coefficients.
+
+## Remarks
+
+The order is a number between 2 and 6 inclusive. So this page actually documents several functions: D3DXSHMultiply2, D3DXSHMultiply3, ... D3DXSHMultiply6.
+
+Computes the product of two functions represented using SH (f and g), where *pOut*\[i\] = int(y\_i(s) \* f(s) \* g(s)), where y\_i(s) is the ith SH basis function, f(s) and g(s) are SH functions (sum\_i(y\_i(s)\*c\_i)). The order O determines the lengths of the arrays, where there should always be O^2 coefficients. In general the product of two SH functions of order O generates an SH function of order 2\*O - 1, but the results are truncated. This means that the product commutes (f\*g == g\*f) but doesn't associate (f\*(g\*h) != (f\*g)\*h.
+
+## Requirements
+
+
+
+|                   |                                                                                        |
+|-------------------|----------------------------------------------------------------------------------------|
+| Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Math Functions](dx9-graphics-reference-d3dx-functions-math.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

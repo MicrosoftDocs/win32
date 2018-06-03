@@ -1,0 +1,41 @@
+---
+Description: This section contains reference topics for the Windef.h header.
+ms.assetid: A711B1E2-8A93-45B2-97B7-CB55FF41B765
+title: Windef.h
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Windef.h
+
+This section contains reference topics for the Windef.h header.
+
+## In this section
+
+
+
+| Topic                               | Description                                                                                                      |
+|-------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| [**POINT**](/windows/desktop/api/windef/ns-windef-tagpoint)<br/>   | The POINT structure defines the x- and y-coordinates of a point.<br/>                                      |
+| [**POINTL**](/windows/desktop/api/windef/ns-windef-_pointl)<br/> | The POINTL structure defines the x- and y-coordinates of a point.<br/>                                     |
+| [**POINTS**](/windows/desktop/api/windef/ns-windef-tagpoints)<br/> | The POINTS structure defines the x- and y-coordinates of a point.<br/>                                     |
+| [**RECT**](/windows/desktop/api/windef/ns-windef-tagrect)<br/>     | The RECT structure defines a rectangle by the coordinates of its upper-left and lower-right corners.<br/>  |
+| [**RECTL**](/windows/desktop/api/windef/ns-windef-_rectl)<br/>   | The RECTL structure defines a rectangle by the coordinates of its upper-left and lower-right corners.<br/> |
+| [**SIZE**](/windows/desktop/api/windef/ns-windef-tagsize)<br/>     | The SIZE structure defines the width and height of a rectangle.<br/>                                       |
+
+
+
+ 
+
+ 
+
+ 
+
+[Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bdisplay\display%5D:%20Windef.h%20%20RELEASE:%20%285/12/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/en-us/default.aspx. "Send comments about this topic to Microsoft")
+
+
+
+

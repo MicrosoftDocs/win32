@@ -1,0 +1,61 @@
+---
+Description: Provides methods that define interaction between a user interface (UI) and the Search namespace objects created by the indexer.
+ms.assetid: e48c9e5b-9b15-4bc1-91ef-81ba7a05bfbd
+title: ISearchItem interface
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: interface
+ms.date: 05/31/2018
+---
+
+# ISearchItem interface
+
+Provides methods that define interaction between a user interface (UI) and the Search namespace objects created by the indexer.
+
+## Members
+
+The **ISearchItem** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ISearchItem** also has these types of members:
+
+-   [Methods](#methods)
+
+### Methods
+
+The **ISearchItem** interface has these methods.
+
+
+
+| Method                                                         | Description                                                                                                                               |
+|:---------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
+| [**GetParentFolder**](-search-isearchitem-getparentfolder.md) | Gets the **ISearchItem** object if the URL represents an actual Shell data source (also known as a Shell namespace extension).<br/> |
+| [**GetUIObjectOf**](/windows/desktop/api/shobjidl_core/)     | Gets the user interface (UI) object of **ISearchItem**.<br/>                                                                        |
+
+
+
+ 
+
+## Remarks
+
+The [**ISearchItem::GetParentFolder**](-search-isearchitem-getparentfolder.md) is supported only on Windows XP and Windows Server 2003, and should no longer be used.
+
+To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the **ISearchItem** interface, and the following APIs: the [**IItemPreviewerExt**](-search-iitempreviewerext.md), [**IItemPropertyBag**](iitempropertybag.md), and [**ISearchProtocolUI**](-search-isearchprotocolui.md) interfaces, the [**LINKINFO**](-search-linkinfo.md) structure, and the [**LINKTYPE**](-search-linktype.md) enumeration.
+
+## Requirements
+
+
+
+|                                     |                                                      |
+|-------------------------------------|------------------------------------------------------|
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
+| Redistributable<br/>          | Windows Desktop Search (WDS) 3.0<br/>          |
+
+
+
+ 
+
+ 
+
+
+
+

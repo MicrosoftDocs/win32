@@ -1,0 +1,89 @@
+---
+title: IVMHostInfo ThreeDNow property
+description: Determines whether the processor supports the 3DNow instruction set.
+ms.assetid: 4987e326-d8fa-4dfa-b592-9dd90cedb0ef
+keywords:
+- ThreeDNow property Virtual PC
+- ThreeDNow property Virtual PC , IVMHostInfo interface
+- IVMHostInfo interface Virtual PC , ThreeDNow property
+topic_type:
+- apiref
+api_name:
+- IVMHostInfo.ThreeDNow
+- IVMHostInfo.get_ThreeDNow
+api_location:
+- VPCCOMInterfaces.h
+api_type:
+- COM
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# IVMHostInfo::ThreeDNow property
+
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+
+Determines whether the processor supports the 3DNow instruction set.
+
+This property is read-only.
+
+## Syntax
+
+
+```C++
+HRESULT get_ThreeDNow(
+  [out, retval] VARIANT_BOOL *threeDNowEnabled
+);
+```
+
+
+
+## Property value
+
+**TRUE** if 3DNow instructions are supported by the host processor, **FALSE** otherwise.
+
+## Error codes
+
+
+
+| Name/value                                                                                                                                                    | Meaning                                      |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| <dl> <dt>S\_OK</dt> <dt>0</dt> </dl>                       | The operation was successful.<br/>     |
+| <dl> <dt>E\_POINTER</dt> <dt>0x80004003</dt> </dl>         | The parameter is **NULL**.<br/>        |
+| <dl> <dt>DISP\_E\_EXCEPTION</dt> <dt>0x80020009</dt> </dl> | An unexpected error has occurred.<br/> |
+
+
+
+## Requirements
+
+
+
+|                                     |                                                                                               |
+|-------------------------------------|-----------------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported server<br/> | None supported<br/>                                                                     |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
+| Product<br/>                  | Windows Virtual PC<br/>                                                                 |
+| Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
+| IID<br/>                      | IID\_IVMHostInfo is defined as 5b5cf343-05ad-453b-be99-adf4e27b2ebc<br/>                |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**IVMHostInfo**](ivmhostinfo.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

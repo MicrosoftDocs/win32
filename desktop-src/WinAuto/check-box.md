@@ -1,0 +1,80 @@
+---
+title: Check Box (MSAA UI Element Reference)
+description: Check boxes are used to enable or disable one or more features or options from a set, usually within a dialog box. Typically, a check box contains a small box with adjoining text. When an option is selected, a check mark appears in the box.
+ms.assetid: cdbaa152-82c2-4a5b-82a8-fed9b8ed63b4
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Check Box (MSAA UI Element Reference)
+
+> [!Note]  
+> This topic describes **Check Box** objects for purposes of MSAA UI Element Reference. How to create **Check Box** objects in various UI frameworks is not described here. See the API reference documentation for the UI framework you're using.
+
+ 
+
+Check boxes are used to enable or disable one or more features or options from a set, usually within a dialog box. Typically, a check box contains a small box with adjoining text. When an option is selected, a check mark appears in the box.
+
+The window class name for a check box is "BUTTON".
+
+## IAccessible Methods
+
+Check boxes support the following [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) methods:
+
+
+
+| Method                                                                    | Comments                                                                                                                                                                                                                         |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) | The [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) method calls [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) with the [**BM\_CLICK**](https://msdn.microsoft.com/library/windows/desktop/bb775985) button message to click the check box. |
+| [**accHitTest**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acchittest)                 |                                                                                                                                                                                                                                  |
+| [**accLocation**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation)               |                                                                                                                                                                                                                                  |
+| [**accNavigate**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accnavigate)               |                                                                                                                                                                                                                                  |
+| [**accSelect**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accselect)                   |                                                                                                                                                                                                                                  |
+
+
+
+ 
+
+## IAccessible Properties
+
+Check boxes support the following [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) properties:
+
+
+
+| Property                                                                        | Comments                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**get\_accChild**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchild)                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [**get\_accChildCount**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount)        | The **ChildCount** property is zero.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| [**get\_accDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accdefaultaction)  | The **DefaultAction** property of a check box depends on whether it is selected. A check box that is not selected has "Check" as its **DefaultAction**, and a check box that is selected has "UnCheck" as its **DefaultAction**. The **DefaultAction** for a three-state check box is "Toggle".                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [**get\_accDescription**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accdescription)      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [**accFocus**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accfocus)                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [**accKeyboardShortcut**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut) | The **KeyboardShortcut** property is the check box's access key, which is an underlined character in the control's window text. This string contains the access key character appended to the string "Alt+".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [**accHelp**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acchelp)                         | The **Name** property is obtained from the control's window text (or caption), which is displayed with the check box.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| [**accHelpTopic**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acchelptopic)               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [**accName**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accname)                         | The **Name** property is obtained from the control's window text (or caption), which is displayed with the check box.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| [**accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent)                     | The **Parent** property is a window ( [**ROLE\_SYSTEM\_WINDOW**](https://www.bing.com/search?q=**ROLE\_SYSTEM\_WINDOW**) ) that surrounds the control and has the same **Name property and window class name as the control.**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [**accRole**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole)                         | The **Role** property is [**ROLE\_SYSTEM\_CHECKBUTTON**](https://www.bing.com/search?q=**ROLE\_SYSTEM\_CHECKBUTTON**).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| [**accState**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate)                       | The **State** property is a combination of one or more of the following [values](object-state-constants.md):[**STATE\_SYSTEM\_INVISIBLE**](https://www.bing.com/search?q=**STATE\_SYSTEM\_INVISIBLE**) \| [**STATE\_SYSTEM\_UNAVAILABLE**](https://www.bing.com/search?q=**STATE\_SYSTEM\_UNAVAILABLE**) \| [**STATE\_SYSTEM\_FOCUSED**](https://www.bing.com/search?q=**STATE\_SYSTEM\_FOCUSED**) \| [**STATE\_SYSTEM\_FOCUSABLE**](https://www.bing.com/search?q=**STATE\_SYSTEM\_FOCUSABLE**) \| [**STATE\_SYSTEM\_MIXED**](https://www.bing.com/search?q=**STATE\_SYSTEM\_MIXED**) \| [**STATE\_SYSTEM\_CHECKED**](https://www.bing.com/search?q=**STATE\_SYSTEM\_CHECKED**) \| [**STATE\_SYSTEM\_NORMAL**](https://www.bing.com/search?q=**STATE\_SYSTEM\_NORMAL**)<br/> |
+
+
+
+ 
+
+## Related topics
+
+<dl> <dt>
+
+[IAccessible Interface](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

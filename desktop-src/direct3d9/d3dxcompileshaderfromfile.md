@@ -1,0 +1,163 @@
+---
+Description: Compile a shader file.
+ms.assetid: 2ad6042f-3601-4f4a-9624-6319a3372355
+title: D3DXCompileShaderFromFile function
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# D3DXCompileShaderFromFile function
+
+Compile a shader file.
+
+> [!Note]  
+> Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the [**D3DCompile**](https://msdn.microsoft.com/windows/desktop/feb3d4d1-06ce-4141-9267-c6c771659aa7) API.
+
+ 
+
+## Syntax
+
+
+```C++
+HRESULT D3DXCompileShaderFromFile(
+  _In_        LPCTSTR             pSrcFile,
+  _In_  const D3DXMACRO           *pDefines,
+  _In_        LPD3DXINCLUDE       pInclude,
+  _In_        LPCSTR              pFunctionName,
+  _In_        LPCSTR              pProfile,
+  _In_        DWORD               Flags,
+  _Out_       LPD3DXBUFFER        *ppShader,
+  _Out_       LPD3DXBUFFER        *ppErrorMsgs,
+  _Out_       LPD3DXCONSTANTTABLE *ppConstantTable
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pSrcFile* \[in\]
+</dt> <dd>
+
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+Pointer to a string that specifies the filename.
+
+</dd> <dt>
+
+*pDefines* \[in\]
+</dt> <dd>
+
+Type: **const [**D3DXMACRO**](d3dxmacro.md)\***
+
+An optional **NULL** terminated array of [**D3DXMACRO**](d3dxmacro.md) structures. This value may be **NULL**.
+
+</dd> <dt>
+
+*pInclude* \[in\]
+</dt> <dd>
+
+Type: **[**LPD3DXINCLUDE**](id3dxinclude.md)**
+
+Optional interface pointer, [**ID3DXInclude**](id3dxinclude.md), to use for handling \#include directives. If this value is **NULL**, \#includes will either be honored when compiling from a file or will cause an error when compiled from a resource or memory.
+
+</dd> <dt>
+
+*pFunctionName* \[in\]
+</dt> <dd>
+
+Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+Pointer to the shader entry point function where execution begins.
+
+</dd> <dt>
+
+*pProfile* \[in\]
+</dt> <dd>
+
+Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+Pointer to a shader profile which determines the shader instruction set. See [**D3DXGetVertexShaderProfile**](d3dxgetvertexshaderprofile.md) or [**D3DXGetPixelShaderProfile**](d3dxgetpixelshaderprofile.md) for a list of the profiles available.
+
+</dd> <dt>
+
+*Flags* \[in\]
+</dt> <dd>
+
+Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+Compile options identified by various flags. The Direct3D 10 HLSL compiler is now the default. See [D3DXSHADER Flags](d3dxshader-flags.md) for details.
+
+</dd> <dt>
+
+*ppShader* \[out\]
+</dt> <dd>
+
+Type: **[**LPD3DXBUFFER**](id3dxbuffer.md)\***
+
+Returns a buffer containing the created shader. This buffer contains the compiled shader code, as well as any embedded debug and symbol table information.
+
+</dd> <dt>
+
+*ppErrorMsgs* \[out\]
+</dt> <dd>
+
+Type: **[**LPD3DXBUFFER**](id3dxbuffer.md)\***
+
+Returns a buffer containing a listing of errors and warnings that were encountered during the compile. These are the same messages the debugger displays when running in debug mode. This value may be **NULL**.
+
+</dd> <dt>
+
+*ppConstantTable* \[out\]
+</dt> <dd>
+
+Type: **[**LPD3DXCONSTANTTABLE**](id3dxconstanttable.md)\***
+
+Returns an [**ID3DXConstantTable**](id3dxconstanttable.md) interface, which can be used to access shader constants. This value can be **NULL**. If you compile your application as large address aware (that is, you use the /LARGEADDRESSAWARE linker option to handle addresses larger than 2 GB), you cannot use this parameter and must set it to **NULL**. Instead, you must use the [**D3DXGetShaderConstantTableEx**](d3dxgetshaderconstanttableex.md) function to retrieve the shader-constant table that is embedded inside the shader. In this **D3DXGetShaderConstantTableEx** call, you must pass the **D3DXCONSTTABLE\_LARGEADDRESSAWARE** flag to the *Flags* parameter to specify to access up to 4 GB of virtual address space.
+
+</dd> </dl>
+
+## Return value
+
+Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+
+If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_NOTIMPL, E\_OUTOFMEMORY.
+
+E\_NOTIMPL is returned if you're using 1.1 shaders (vs\_1\_1 and ps\_1\_1).
+
+## Requirements
+
+
+
+|                    |                                                                                          |
+|--------------------|------------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
+| Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Shader Functions](dx9-graphics-reference-d3dx-functions-shader.md)
+</dt> <dt>
+
+[**D3DXCompileShader**](d3dxcompileshader.md)
+</dt> <dt>
+
+[**D3DXCompileShaderFromResource**](d3dxcompileshaderfromresource.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,13 @@
+# [Windows Product Activation Provider](windows-product-activation-provider.md)
+## [Win32_ComputerSystemWindowsProductActivationSetting](win32-computersystemwindowsproductactivationsetting.md)
+## [Win32_Proxy](win32-proxy.md)
+### [Win32_Proxy Methods](win32-proxy-methods.md)
+#### [SetProxySetting method](setproxysetting-method-in-class-win32-proxy.md)
+## [Win32_WindowsProductActivation](win32-windowsproductactivation.md)
+### [Win32_WindowsProductActivation Methods](win32-windowsproductactivation-methods.md)
+#### [ActivateOffline method](activateoffline-method-in-class-win32-windowsproductactivation.md)
+#### [ActivateOnline method](activateonline-method-in-class-win32-windowsproductactivation.md)
+#### [GetInstallationID method](getinstallationid-method-in-class-win32-windowsproductactivation.md)
+#### [SetNotification method](setnotification-method-in-class-win32-windowsproductactivation.md)
+#### [SetProductKey method](setproductkey-method-in-class-win32-windowsproductactivation.md)
+

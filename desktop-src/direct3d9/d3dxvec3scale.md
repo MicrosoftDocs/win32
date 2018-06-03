@@ -1,0 +1,100 @@
+---
+Description: Scales a 3D vector.
+ms.assetid: b2483d6e-56e4-4557-a603-d59c0767774d
+title: D3DXVec3Scale function
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# D3DXVec3Scale function
+
+Scales a 3D vector.
+
+## Syntax
+
+
+```C++
+D3DXVECTOR3* D3DXVec3Scale(
+  _Inout_       D3DXVECTOR3 *pOut,
+  _In_    const D3DXVECTOR3 *pV,
+  _In_          FLOAT       s
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pOut* \[in, out\]
+</dt> <dd>
+
+Type: **[**D3DXVECTOR3**](d3dxvector3.md)\***
+
+Pointer to the [**D3DXVECTOR3**](d3dxvector3.md) structure that is the result of the operation.
+
+</dd> <dt>
+
+*pV* \[in\]
+</dt> <dd>
+
+Type: **const [**D3DXVECTOR3**](d3dxvector3.md)\***
+
+Pointer to the source [**D3DXVECTOR3**](d3dxvector3.md) structure.
+
+</dd> <dt>
+
+*s* \[in\]
+</dt> <dd>
+
+Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+Scaling value.
+
+</dd> </dl>
+
+## Return value
+
+Type: **[**D3DXVECTOR3**](d3dxvector3.md)\***
+
+Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) structure that is the scaled vector.
+
+## Remarks
+
+The return value for this function is the same value returned in the *pOut* parameter. In this way, the **D3DXVec3Scale** function can be used as a parameter for another function.
+
+## Requirements
+
+
+
+|                    |                                                                                        |
+|--------------------|----------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
+| Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Math Functions](dx9-graphics-reference-d3dx-functions-math.md)
+</dt> <dt>
+
+[**D3DXVec3Add**](d3dxvec3add.md)
+</dt> <dt>
+
+[**D3DXVec3Subtract**](d3dxvec3subtract.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

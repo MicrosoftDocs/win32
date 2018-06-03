@@ -1,0 +1,40 @@
+---
+Description: The pipe server controls whether its handles can be inherited in the following ways.
+ms.assetid: 72302f8b-f3a2-4efc-aab1-e596b8323984
+title: Pipe Handle Inheritance
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Pipe Handle Inheritance
+
+The pipe server controls whether its handles can be inherited in the following ways:
+
+-   The [**CreatePipe**](/windows/desktop/api/Winbase/) function receives a [**SECURITY\_ATTRIBUTES**](https://msdn.microsoft.com/library/windows/desktop/aa379560) structure. If the pipe server sets the **bInheritHandle** member of this structure to **TRUE**, the handles created by **CreatePipe** can be inherited.
+-   The pipe server can use the [**DuplicateHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724251) function to change the inheritance of a pipe handle. The pipe server can create a noninheritable duplicate of an inheritable pipe handle or an inheritable duplicate of a noninheritable pipe handle.
+-   The [**CreateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms682425) function enables the pipe server to specify whether a child process inherits all or none of its inheritable handles.
+
+When a child process inherits a pipe handle, the system enables the process to access the pipe. However, the parent process must communicate the handle value to the child process. The parent process typically does this by redirecting the standard output handle to the child process, as shown in the following steps:
+
+1.  Call the [**GetStdHandle**](https://msdn.microsoft.com/library/windows/desktop/ms683231) function to get the current standard output handle; save this handle so you can restore the original standard output handle after the child process has been created.
+2.  Call the [**SetStdHandle**](https://msdn.microsoft.com/library/windows/desktop/ms686244) function to set the standard output handle to the write handle to the pipe. Now the parent process can create the child process.
+3.  Call the [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) function to close the write handle to the pipe. After the child process inherits the write handle, the parent process no longer needs its copy.
+4.  Call [**SetStdHandle**](https://msdn.microsoft.com/library/windows/desktop/ms686244) to restore the original standard output handle.
+
+The child process uses the [**GetStdHandle**](https://msdn.microsoft.com/library/windows/desktop/ms683231) function to get its standard output handle, which is now a handle to the write end of a pipe. The child process then uses the [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747) function to send its output to the pipe. When the child has finished with the pipe, it should close the pipe handle by calling [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) or by terminating, which automatically closes the handle.
+
+The parent process uses the [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467) function to receive input from the pipe. Data is written to an anonymous pipe as a stream of bytes. This means that the parent process reading from a pipe cannot distinguish between the bytes written in separate write operations, unless both the parent and child processes use a protocol to indicate where the write operation ends. When all write handles to the pipe are closed, the **ReadFile** function returns zero. It is important for the parent process to close its handle to the write end of the pipe before calling **ReadFile**. If this is not done, the **ReadFile** operation cannot return zero because the parent process has an open handle to the write end of the pipe.
+
+The procedure for redirecting the standard input handle is similar to that for redirecting the standard output handle, except that the pipe's read handle is used as the child's standard input handle. In this case, the parent process must ensure that the child process does not inherit the pipe's write handle. If this is not done, the [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467) operation performed by the child process cannot return zero because the child process has an open handle to the write end of the pipe.
+
+For an example program that uses anonymous pipes to redirect the standard handles of a child process, see [Creating a Child Process with Redirected Input and Output](https://msdn.microsoft.com/library/windows/desktop/ms682499).
+
+ 
+
+ 
+
+
+

@@ -1,0 +1,81 @@
+---
+Description: Credential Providers in Windows 10
+ms.assetid: BCF69196-D4E4-41D0-B372-5000FD50164B
+title: Credential Providers in Windows 10
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Credential Providers in Windows 10
+
+Credential providers are the primary mechanism for user authentication—they currently are the only method for users to prove their identity which is required for logon and other system authentication scenarios. With Windows 10 and the introduction of Microsoft Passport, credential providers are more important than ever; they will be used for authentication into apps, websites, and more.
+
+Microsoft provides a variety of credential providers as part of Windows, such as password, PIN, smartcard, and Windows Hello (Fingerprint, Face, and Iris recognition). These are referred to as "system credential providers" in this article. OEMs, Enterprises, and other entities can write their own credential providers and integrate them easily into Windows. These are referred to as "third-party credential providers" in this article. Note that both V1 and V2 credential providers are supported in Windows 10. It is important for creators and managers of third-party credential providers to understand these recommendations.
+
+## System credential providers
+
+We strongly recommend that there always be at least one system credential provider available for every user on the device in addition to any third-party credential providers. Additionally, during the set-up of the third-party credential provider, each user on the device should be prompted to set up at least one system credential provider (if no other recovery options are available; see Scenario A, below).
+
+### Scenario A
+
+A local account user has set up a third-party credential provider and regularly uses it to log into the device. One day, the user installs some update to the device that breaks the third-party credential provider, and the user is unaware of this change before restarting the machine.
+
+On the next restart, the user is on the logon screen and is unable to use the expected third-party credential provider. If the user has set up a system credential provider, the user will be able to log into the machine using it. If not, the user has no way to recover the account on the machine.
+
+### Scenario B
+
+An MSA/AD/AAD account user has set up a third-party credential provider and regularly uses it to log into the device. One day, the user installs some update to the device that breaks the third -party credential provider, and the user is unaware of this change before restarting the machine.
+
+On the next restart, the user is on the logon screen and is unable to use the expected third-party credential provider. If the user has set up a system credential provider, the user will be able to log into the machine using it. Alternatively, if the system's password credential provider is available, the user can remotely request/reset the password and use that to log into the machine. If neither option is available, the user has no way to recover the account on the machine.
+
+### Conclusion
+
+In summary, we want to discourage the disabling of all system credential providers on a device. While third-party credential providers may fulfill additional authentication requirements for particular groups of users, it is very important to ensure that the user can always regain access to their machine when a breaking change occurs. System credential providers provide this guarantee.
+
+## Custom credential providers
+
+The Windows credential provider framework enables developers to create custom credential providers. When [Winlogon](winlogon.md) wants to collect credentials, the Logon UI queries each credential provider for the number of credentials that it wishes to enumerate. After all providers have enumerated their tiles, the Logon UI displays them to the user. The user then interacts with a tile to supply the necessary credentials. The Logon UI submits these credentials for authentication. Credential providers can also be used by the Credential UI when credentials are necessary. See [**CREDENTIAL\_PROVIDER\_USAGE\_SCENARIO**](https://msdn.microsoft.com/library/windows/desktop/bb762493) for a list of scenarios where a credential provider can be supported.
+
+Thanks to this system, it is much easier to create a credential provider than it was historically. Much of the work is handled by the combination of [Winlogon](winlogon.md), the Logon UI and the Credential UI. In order to do so, you will need to create your own implementation of [**ICredentialProvider**](https://msdn.microsoft.com/library/windows/desktop/bb776042) and [**ICredentialProviderCredential**](https://msdn.microsoft.com/library/windows/desktop/bb776029). If you are implementing a V2 credential provider, which is recommended, you will also need to implement [**ICredentialProviderCredential2**](https://msdn.microsoft.com/library/windows/desktop/hh706912).
+
+It is important to note that credential providers are not enforcement mechanisms. They are simply used to gather and serialize credentials, submitting them for authorization. The local authority and authentication packages will handle and any necessary security enforcement.
+
+Combining credential providers with supported hardware, you can extend Windows to support logging on with biometric information, passwords, PINs, Smart Card certificates, or any custom authentication package you choose to create. You can customize the logon experience for the user in a variety of ways as well. For example, when the Logon UI queries your credential provider for the credential tiles, you can specify a default tile to provide a customized experience for a user. Credential providers can even be designed to support single sign on (SSO), authenticating users to a secure access point as well as machine logon.
+
+Credential providers are registered on a Windows machine and are responsible for the following.
+
+-   Describing the credential information required for authentication.
+-   Handling the communication and logic with any external authentication authorities.
+-   Packaging the credentials for interactive and network logon.
+
+> \[!Tip\]
+>
+> Keep in mind that multiple credential providers can be installed on a single machine.
+
+ 
+
+## Related topics
+
+<dl> <dt>
+
+[Credential Provider driven Windows Logon Experience](http://go.microsoft.com/fwlink/?LinkId=717287)
+</dt> <dt>
+
+[**ICredentialProvider**](https://msdn.microsoft.com/library/windows/desktop/bb776042)
+</dt> <dt>
+
+[**CREDENTIAL\_PROVIDER\_CREDENTIAL\_SERIALIZATION**](https://msdn.microsoft.com/library/windows/desktop/bb773242)
+</dt> <dt>
+
+[**CREDENTIAL\_PROVIDER\_USAGE\_SCENARIO**](https://msdn.microsoft.com/library/windows/desktop/bb762493)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

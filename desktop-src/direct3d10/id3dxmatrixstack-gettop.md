@@ -1,0 +1,68 @@
+---
+Description: Retrieves the current matrix at the top of the stack.
+ms.assetid: cf379742-3e7d-4309-a7af-b97348428682
+title: ID3DXMATRIXStack::GetTop method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# ID3DXMATRIXStack::GetTop method
+
+Retrieves the current matrix at the top of the stack.
+
+## Syntax
+
+
+```C++
+D3DXMATRIX* GetTop();
+```
+
+
+
+## Parameters
+
+This method has no parameters.
+
+## Return value
+
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/windows/desktop/0911088b-50cf-4c4a-996e-351386fc359b)\***
+
+This method returns a pointer to a D3DXMATRIX structure representing the current matrix.
+
+## Remarks
+
+The D3DXMATRIX pointer returned by this method is not guaranteed to be valid after subsequent stack operations.
+
+Note that this method does not remove the current matrix from the top of the stack; rather, it just returns the current matrix.
+
+## Requirements
+
+
+
+|                    |                                                                                       |
+|--------------------|---------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
+| Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[ID3DXMatrixStack](d3d10-id3dxmatrixstack.md)
+</dt> <dt>
+
+[D3DX Interfaces](d3d10-graphics-reference-d3dx10-interfaces.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

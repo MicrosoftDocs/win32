@@ -1,0 +1,29 @@
+---
+title: Property Sheet Functions
+description: .
+ms.assetid: e7f63c55-a443-4c59-be75-8c214de98d97
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Property Sheet Functions
+
+## In This Section
+
+-   [*AddPropSheetPageProc*](/windows/desktop/api/Prsht/nc-prsht-lpfnaddpropsheetpage)
+-   [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea)
+-   [**DestroyPropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-destroypropertysheetpage)
+-   [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta)
+-   [*PropSheetPageProc*](/windows/desktop/api/Prsht/nc-prsht-lpfnpspcallbacka)
+-   [*PropSheetProc*](/windows/desktop/api/Prsht/nc-prsht-pfnpropsheetcallback)
+
+ 
+
+ 
+
+
+
+

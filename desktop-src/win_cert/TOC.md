@@ -1,0 +1,13 @@
+# [Windows Certification](windows-certification-portal.md)
+## [What are the benefits?](what-are-the-benefits-.md)
+## [Certification requirements for Windows Desktop Apps](certification-requirements-for-windows-desktop-apps.md)
+### [Archive: Certification requirements for Windows Desktop Apps v3.3](certification-requirements-for-windows-desktop-apps-v3-3.md)
+### [Archive: Certification requirements for Windows Desktop Apps v3.1](archive--certification-requirements-for-windows-desktop-apps-v3-1.md)
+### [Archive: Certification requirements for Windows Desktop Apps v3.0](archive--certification-requirements-for-windows-desktop-apps-v3-0.md)
+### [Archive: Certification requirements for Windows Desktop Apps v1.2](archive--certification-requirements-for-windows-desktop-apps-v1-2.md)
+### [Archive: Certification requirements for Windows Desktop Apps v1.1](archive--certification-requirements-for-windows-desktop-apps-v1-1.md)
+## [Using the Windows App Certification Kit](using-the-windows-app-certification-kit.md)
+### [Windows App Certification Kit tests](windows-app-certification-kit-tests.md)
+### [Windows 7 Certification](windows-7-certification.md)
+#### [FAQ: Windows 7 software logo process](faq--windows-7-software-logo-process.md)
+

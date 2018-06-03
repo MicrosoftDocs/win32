@@ -1,0 +1,57 @@
+---
+Description: The Class property of the SWbemObjectPath object is the name of the class that is part of the object path.
+audience: developer
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 60123963-31be-4112-9d06-611b4c599fd4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
+ms.tgt_platform: multiple
+title: SWbemObjectPath.Class property
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# SWbemObjectPath.Class property
+
+The **Class** property of the [**SWbemObjectPath**](swbemobjectpath.md) object is the name of the class that is part of the object path.
+
+For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).
+
+This property is read/write.
+
+## Syntax
+
+
+```VB
+SWbemObjectPath.Class As String
+```
+
+
+
+## Property value
+
+## Requirements
+
+
+
+|                                     |                                                                                         |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
+| Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
+| CLSID<br/>                    | CLSID\_SWbemObjectPath<br/>                                                       |
+| IID<br/>                      | IID\_ISWbemObjectPath<br/>                                                        |
+
+
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,10 @@
+# [Input Source Identification](input-source-identification-portal.md)
+## [Input Source Identification Reference](input-source-identification-reference.md)
+### [Enumerations](enumerations.md)
+#### [INPUT_MESSAGE_DEVICE_TYPE](/windows/desktop/api/winuser/ne-winuser-taginput_message_device_type)
+#### [INPUT_MESSAGE_ORIGIN_ID](/windows/desktop/api/winuser/ne-winuser-taginput_message_origin_id)
+### [Functions](functions.md)
+#### [GetCIMSSM](/windows/desktop/api/winuser/nf-winuser-getcimssm)
+#### [GetCurrentInputMessageSource](/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource)
+### [INPUT_MESSAGE_SOURCE](/windows/desktop/api/winuser/ns-winuser-taginput_message_source)
+
