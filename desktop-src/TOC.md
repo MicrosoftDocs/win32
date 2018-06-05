@@ -3,7 +3,7 @@
 ##Get Started
 ###[Choose Your Technology](choose-your-technology.md)
 ###[What's new](windows-8.md)
-####[Windows 8 and 8.1 Technologies](whatsnew/windows-8-technologies.md)
+####whatsnew
 ####[Compatibility cookbook for Windows](w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal.md)
 ####[Windows 7](windows-7.md)
 #####[Windows 7 and Windows Server 2008 R2 Application Quality Cookbook](win7appqual/windows-7-application-quality-cookbook.md)
@@ -29,7 +29,6 @@
 #######[Keyboard and Mouse Input](inputdev/user-input.md)
 #######MultiPoint Mouse
 #######[Tablet PC](tablet/tablet-pc-development-guide.md)
-#######dinput
 #####[Windows and Messages](winmsg/windowing.md)
 #####[Desktop Window Manager (DWM)](dwm/DWM)
 #####[Dialog Boxes](dlgbox/dialog-boxes.md)
@@ -44,11 +43,8 @@
 #####[Windows Property System](properties/windows-properties-system.md)
 #####[Windows Search](search/windows-search.md)
 #####[Window Stations and Desktops](winstation/window-stations-and-desktops.md)
-#####[Windows Help](windows-help.md)
-######vista_help_sdk
 #####[Legacy Windows Environment Features](lwef/legacy-windows-environment.md)
 ####[Application Installation and Servicing](application-installing-and-servicing.md)
-#####gamesexplorer
 #####[Isolated Applications and Side-by-side Assemblies](sbscs/isolated-applications-and-side-by-side-assemblies-portal.md)
 #####[Packaging, deployment, and query of Windows Store apps](appxpkg/appx-portal.md)
 #####[Developer licensing](devlic/developer-licensing-portal.md)
@@ -60,9 +56,7 @@
 #####[Microsoft Media Foundation](medfound/microsoft-media-foundation-sdk.md)
 #####[Windows Media Format 11 SDK](wmformat/windows-media-format-11-sdk.md)
 #####[Windows Media Player SDK](wmp/windows-media-player-sdk.md)
-#####wms_sdk
 #####[Media Streaming API](mediastreaming/media-streaming-api-portal.md)
-#####wmm3sdk
 #####[Windows Multimedia](multimedia/windows-multimedia-start-page.md)
 ####[Data Access and Storage](data-access-and-storage.md)
 #####[Background Intelligent Transfer Service](bits/background-intelligent-transfer-service-portal.md)
@@ -70,21 +64,13 @@
 ######[Backup](backup/backup.md)
 ######[Volume Shadow Copy Service](vss/volume-shadow-copy-service-portal.md)
 #####[Cloud Filter API](cfapi/cloud-files-api-portal.md)
-#####[Distributed File System](dfs/distributed-file-system.md)
+#####dfs
 #####Extensible Storage Engine
 #####[Image Mastering API](imapi/portal.md)
 #####Imaging API
 #####[Local File Systems](fileio/file-systems.md)
-#####xmlsdk
 #####vstor
 #####vds
-#####Windows Data Access Components
-######windowsdacoverview
-######odbc
-######ODBC Data Source Administrator Help
-######oledb
-######ado
-#####xmllite
 ####[Devices](devices.md)
 #####[Communications Resources](devio/communications-resources.md)
 #####[Location API](locationapi/windows-location-api-portal.md)
@@ -103,7 +89,7 @@
 #####[Network Diagnostics Framework](ndf/portal.md)
 #####[Network Monitor](netmon2/network-monitor.md)
 #####[Performance Counters](perfctrs/performance-counters-portal.md)
-#####[Process Snapshotting](proc_snap/process-snapshotting-portal.md)
+#####proc_snap
 #####[Process Status API (PSAPI)](psapi/PSAPI)
 #####[System Event Notification Service](sens/system-event-notification-service-portal.md)
 #####[System Monitor](sysmon/system-monitor-portal.md)
@@ -115,7 +101,7 @@
 ######[Event Logging](eventlog/event-logging.md)
 ######[Windows Event Log](wes/windows-event-log.md)
 ######[Windows Event Collector](wec/windows-event-collector.md)
-####[Documents and Printing](printdocs/documents-and-printing.md)
+####printdocs
 ####[Graphics and Gaming](graphics-and-multimedia.md)
 #####[DirectX Graphics and Gaming](directx.md)
 ######[Getting Started with DirectX Graphics](getting-started-with-directx-graphics.md)
@@ -135,7 +121,6 @@
 #######[DirectDraw](directdraw/directdraw.md)
 #######[Technical Articles](dxtecharts/dx9-technical-articles.md)
 #######[Where is the DirectX SDK?](directx-sdk--august-2009-.md)
-#######directx9_m
 ######direct3dtools
 ######[DirectX Graphics Articles](direct3darticles/directx-graphics-articles-portal.md)
 ######[XAudio2 APIs](xaudio2/xaudio2-apis-portal.md)
@@ -190,14 +175,6 @@
 ########[Active Directory Schema](adschema/active-directory-schema.md)
 #######Directory Access Technologies
 ########[Active Directory Service Interfaces](adsi/active-directory-service-interfaces-adsi.md)
-######Identity Services
-#######Microsoft Identity Manager 2016 Developer Reference
-####### Forefront Identity Manager 2010 R2 Developer Reference 
-#######Forefront Identity Manager 2010 Developer Reference
-#######Identity Lifecycle Manager 2007
-########ilm_conc
-########ilm_mref
-#######mmsdev
 ######Access Management Services
 #######Active Directory Federation Services
 ########Active Directory Federation Services Overview 
@@ -236,11 +213,6 @@
 ####System Administration
 #####Group Policy
 ######GPMC Class Library Reference
-#####Microsoft Management Console (MMC)
-######mmc3.0guidelines
-######Microsoft Management Console 3.0
-#######managedmmc
-#######MMC Class Library
 #####[Mobile Device Management Registration](mdmreg/mobile-device-management-registration-portal.md)
 #####[System Restore](sr/system-restore-portal.md)
 #####[System Shutdown](shutdown/system-shutdown.md)
@@ -249,21 +221,16 @@
 #####[Windows Management Instrumentation](wmisdk/wmi-start-page.md)
 #####Windows Management Infrastructure Managed API
 #####WMI Providers
-######[Boot Configuration Data WMI Provider](bcd/boot-configuration-data-portal.md)
+######bcd
 ######[Boot Event Collector WMI Provider](bevtcolprov/boot-event-collector-wmi-provider-portal.md)
-######[CIMWin32a Provider](cimwin32a/cimwin32a-provider-classes.md)
+######cimwin32a
 ######[Hyper-V management](hyperv_v2/hyper-v-management.md)
 ######[MDM Bridge WMI Provider](dmwmibridgeprov/mdm-bridge-wmi-provider-portal.md)
-######[Software License Provider](sppwmi/software-license-provider-.md)
+######sppwmi
 ######[Windows System Assessment Tool](winsat/windows-system-assessment-tool-portal.md)
 ######[WMI Core Provider](wmicoreprov/wmi-core-provider-.md)
 #####[Windows Remote Management](winrm/portal.md)
 #####[Windows Resource Protection](wfp/windows-resource-protection-portal.md)
-#####Windows Server Update Services
-######Windows Server Update Services API Reference
-######Windows Server Update Services 2.0 Class Library
-#######wsus2_mref
-######wua_sdk
 ####Virtualization
 #####[Windows Virtual PC](vpc/virtual-pc-portal.md)
 ###[API Index](apiindex/api-index-portal.md)
