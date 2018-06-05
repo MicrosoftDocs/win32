@@ -1,7 +1,12 @@
-﻿---
-Description: 'An API Set is a strong name for a list of Win32 APIs.'
-ms.assetid: '0767BEA4-14C5-481A-8784-D3070C2E61DE'
+---
+Description: An API Set is a strong name for a list of Win32 APIs.
+ms.assetid: 0767BEA4-14C5-481A-8784-D3070C2E61DE
 title: Windows API Sets
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
 ---
 
 # Windows API Sets
