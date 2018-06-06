@@ -37,7 +37,7 @@ Constructs instances of the [**XMU555**](/windows/desktop/api/DirectXPackedVecto
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMU555 (uint16_t)</strong>](https://www.bing.com/search?q=<strong>XMU555 (uint16_t)</strong>)</td>
+<td style="text-align: left;">[<strong>XMU555 (uint16_t)</strong>](https://www.bing.com/search?q=<strong>XMU555+(uint16_t)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from a <code>uint16_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of [<strong>XMU555</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu555) from a <code>uint16_t</code> variable containing component data in a packed format. <br/>
 <blockquote>
 [!Note]<br />
@@ -46,7 +46,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMU555 (const float*,bool)</strong>](https://www.bing.com/search?q=<strong>XMU555 (const float*,bool)</strong>)</td>
+<td style="text-align: left;">[<strong>XMU555 (const float*,bool)</strong>](https://www.bing.com/search?q=<strong>XMU555+(const+float*,bool)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from a three element <code>float</code> array and one <code>bool</code> argument. <br/> This constructor initializes a new instance of [<strong>XMU555</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu555) from a three element <code>float</code> array (specifying x-, y- and z-components) and one <code>bool</code> argument (specifying a w-component). <br/>
 <blockquote>
 [!Note]<br />
@@ -55,7 +55,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMU555 (const int8_t*,bool)</strong>](https://www.bing.com/search?q=<strong>XMU555 (const int8_t*,bool)</strong>)</td>
+<td style="text-align: left;">[<strong>XMU555 (const int8_t*,bool)</strong>](https://www.bing.com/search?q=<strong>XMU555+(const+int8_t*,bool)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from a three element <code>int8_t</code> array and one <code>bool</code> argument. <br/> This constructor initializes a new instance of [<strong>XMU555</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu555) from a three element <code>int8_t</code> array (specifying x-, y- and z-components) and one <code>bool</code> argument (specifying a w-component). <br/>
 <blockquote>
 [!Note]<br />
@@ -64,7 +64,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMU555 (float,float,float,bool)</strong>](https://www.bing.com/search?q=<strong>XMU555 (float,float,float,bool)</strong>)</td>
+<td style="text-align: left;">[<strong>XMU555 (float,float,float,bool)</strong>](https://www.bing.com/search?q=<strong>XMU555+(float,float,float,bool)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from three <code>float</code> and one <code>bool</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMU555</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu555) from three <code>float</code> (specifying x-, y-, and z-components) and one <code>bool</code> (specifying the w-component) arguments. <br/>
 <blockquote>
 [!Note]<br />
@@ -73,7 +73,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMU555 (int8_t,int8_t,int8_t,bool)</strong>](https://www.bing.com/search?q=<strong>XMU555 (int8_t,int8_t,int8_t,bool)</strong>)</td>
+<td style="text-align: left;">[<strong>XMU555 (int8_t,int8_t,int8_t,bool)</strong>](https://www.bing.com/search?q=<strong>XMU555+(int8_t,int8_t,int8_t,bool)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMU555</code> from three <code>int8_t</code> and one <code>bool</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMU555</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu555) from three <code>int8_t</code> (specifying x-, y-, and z-components) and one <code>bool</code> (specifying a w-component) arguments. <br/>
 <blockquote>
 [!Note]<br />
@@ -82,7 +82,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMU555 ()</strong>](https://www.bing.com/search?q=<strong>XMU555 ()</strong>)</td>
+<td style="text-align: left;">[<strong>XMU555 ()</strong>](https://www.bing.com/search?q=<strong>XMU555+()</strong>)</td>
 <td style="text-align: left;">Default constructor for <code>XMU555</code><br/> Default constructor for [<strong>XMU555</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu555)<br/>
 <blockquote>
 [!Note]<br />

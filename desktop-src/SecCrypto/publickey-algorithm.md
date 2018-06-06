@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # PublicKey.Algorithm property
 
-\[The **Algorithm** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PublicKey Property**](https://www.bing.com/search?q=**X509Certificate2.PublicKey Property**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
+\[The **Algorithm** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PublicKey Property**](https://www.bing.com/search?q=**X509Certificate2.PublicKey+Property**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
 The **Algorithm** property retrieves the [**OID**](oid.md) object that identifies the algorithm used by the public key. This is the default property.
 

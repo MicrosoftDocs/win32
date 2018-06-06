@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemDriverUni::DrvGetStandardVariable method
 
-The `IPrintOemDriverUni::DrvGetStandardVariable` method is provided by the Unidrv driver so that rendering plug-ins can obtain the current value of Unidrv's [standard variables](https://www.bing.com/search?q=standard variables).
+The `IPrintOemDriverUni::DrvGetStandardVariable` method is provided by the Unidrv driver so that rendering plug-ins can obtain the current value of Unidrv's [standard variables](https://www.bing.com/search?q=standard+variables).
 
 ## Syntax
 

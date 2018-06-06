@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # OEMStretchBltROP function
 
-The `OEMStretchBltROP` function performs a stretching bit-block transfer using a [*raster operation (ROP)*](https://www.bing.com/search?q=*raster operation (ROP)*).
+The `OEMStretchBltROP` function performs a stretching bit-block transfer using a [*raster operation (ROP)*](wdkgloss.r#wdkgloss-raster-operation--rop-).
 
 ## Syntax
 
@@ -83,11 +83,11 @@ BOOL APIENTRY OEMStretchBltROP(
 
 ### Comments
 
-See [**DrvStretchBltROP**](https://www.bing.com/search?q=**DrvStretchBltROP**).
+See [**DrvStretchBltROP**](https://msdn.microsoft.com/eeaec7f4-2dfe-42a9-8789-a9ce11aec7b2).
 
 This function is not supported on Windows NT 4.0 and earlier.
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the drawing DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvStretchBltROP** function pointer.
 

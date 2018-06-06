@@ -43,7 +43,7 @@ Use the following steps to enable vertex fog in your application.
 
 1.  Enable fog blending by setting D3DRS\_FOGENABLE to **TRUE**.
 2.  Set the fog color in the D3DRS\_FOGCOLOR render state.
-3.  Choose the desired fog formula by setting the D3DRS\_FOGVERTEXMODE render state to a member of the [**D3DFOGMODE**](https://msdn.microsoft.com/windows/desktop/cd83c914-bc1d-4f66-b5a6-7984b7ec52cd) enumerated type.
+3.  Choose the desired fog formula by setting the D3DRS\_FOGVERTEXMODE render state to a member of the [**D3DFOGMODE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dfogmode.htm) enumerated type.
 4.  Set the fog parameters as desired for the selected fog formula in the render states.
 
 The following example, written in C++, shows what these steps might look like in code.

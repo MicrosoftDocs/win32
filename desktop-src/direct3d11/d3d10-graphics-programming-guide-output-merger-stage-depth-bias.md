@@ -61,14 +61,14 @@ if ( (DepthBias != 0) || (SlopeScaledDepthBias != 0) )
 
 
 
-Depth-bias operations occur on vertices after clipping, therefore, depth-bias has no effect on geometric clipping. The bias value is constant for a given primitive and is added to the z value for each vertex before interpolator setup. When you use [feature levels](https://www.bing.com/search?q=feature levels) 10.0 and higher, all bias calculations are performed using 32-bit floating-point arithmetic. Bias is not applied to any point or line primitives, except for lines drawn in wireframe mode.
+Depth-bias operations occur on vertices after clipping, therefore, depth-bias has no effect on geometric clipping. The bias value is constant for a given primitive and is added to the z value for each vertex before interpolator setup. When you use [feature levels](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 10.0 and higher, all bias calculations are performed using 32-bit floating-point arithmetic. Bias is not applied to any point or line primitives, except for lines drawn in wireframe mode.
 
 One of the artifacts with shadow buffer based shadows is shadow acne, or a surface shadowing itself due to minor differences between the depth computation in a shader, and the depth of the same surface in the shadow buffer. One way to alleviate this is to use **DepthBias** and **SlopeScaledDepthBias** when rendering a shadow buffer. The idea is to push surfaces out enough while rendering a shadow buffer so that the comparison result (between the shadow buffer z and the shader z) is consistent across the surface, and avoid local self-shadowing.
 
 However, using **DepthBias** and **SlopeScaledDepthBias** can introduce new rendering problems when a polygon viewed at an extremely sharp angle causes the bias equation to generate a very large z value. This in effect pushes the polygon extremely far away from the original surface in the shadow map. One way to help alleviate this particular problem is to use **DepthBiasClamp**, which provides an upper bound (positive or negative) on the magnitude of the z bias calculated.
 
 > [!Note]  
-> For [feature levels](https://www.bing.com/search?q=feature levels) 9.1, 9.2, 9.3, **DepthBiasClamp** is not supported.
+> For [feature levels](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9.1, 9.2, 9.3, **DepthBiasClamp** is not supported.
 
  
 

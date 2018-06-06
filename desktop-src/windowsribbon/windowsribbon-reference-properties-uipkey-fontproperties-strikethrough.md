@@ -33,7 +33,7 @@ The default value is `UI_FONTPROPERTIES_NOTSET`.
 
 The following screen shot shows the **Strikethrough** button of the Ribbon [**FontControl**](windowsribbon-element-fontcontrol.md).
 
-![screen shot of the fontcontrol element with the richfont attribute set to true.](https://www.bing.com/search?q=screen shot of the fontcontrol element with the richfont attribute set to true.)
+![screen shot of the fontcontrol element with the richfont attribute set to true.](https://www.bing.com/search?q=screen+shot+of+the+fontcontrol+element+with+the+richfont+attribute+set+to+true.)
 
 The following table describes the properties and the UI result.
 

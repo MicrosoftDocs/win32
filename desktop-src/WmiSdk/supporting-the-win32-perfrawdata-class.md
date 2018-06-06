@@ -66,7 +66,7 @@ The following procedure describes how to support the [**Win32\_PerfRawData**](ht
 
     This property immediately follows the property and is named *propertyname***\_Base**. For example, the average property **AvgDiskBytesPerRead** in the [**Win32\_PerfRawData\_PerfDisk\_LogicalDisk**](https://msdn.microsoft.com/library/aa394307) class requires a base property named **AvgDiskBytesPerRead\_Base** to count the number of samples. To determine if the counter type you want to use requires a base property, locate the counter type by name or decimal value in [WMI Performance Counter Types](wmi-performance-counter-types.md).
 
-9.  Make sure your provider meets the [performance requirements](https://www.bing.com/search?q=performance requirements).
+9.  Make sure your provider meets the [performance requirements](supporting-the-win32-perfformatteddata-class.md#performance-requirements).
 
 ## Related topics
 

@@ -47,7 +47,7 @@ The return value specifies the character to be displayed in place of any charact
 
 ## Remarks
 
-If an edit control is created with the [**ES\_PASSWORD**](https://www.bing.com/search?q=**ES\_PASSWORD**) style, the default password character is set to an asterisk (\*). If an edit control is created without the **ES\_PASSWORD** style, there is no password character. To change the password character, send the [**EM\_SETPASSWORDCHAR**](em-setpasswordchar.md) message.
+If an edit control is created with the [**ES\_PASSWORD**](edit-control-styles.md#es-password) style, the default password character is set to an asterisk (\*). If an edit control is created without the **ES\_PASSWORD** style, there is no password character. To change the password character, send the [**EM\_SETPASSWORDCHAR**](em-setpasswordchar.md) message.
 
 **Edit controls:** Multiline edit controls do not support the password style or messages.
 

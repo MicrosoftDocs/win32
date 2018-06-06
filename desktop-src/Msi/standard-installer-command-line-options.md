@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 The executable program that interprets packages and installs products is Msiexec.exe.
 
 > [!Note]  
-> Msiexec also sets an error level on return that corresponds to [System Error Codes](https://msdn.microsoft.com/windows/desktop/4a3a8feb-a05f-4614-8f04-1f507da7e5b7).
+> Msiexec also sets an error level on return that corresponds to [System Error Codes](https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7).
 
  
 

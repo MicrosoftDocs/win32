@@ -104,7 +104,7 @@ The [**PenInputPanel**](/windows/desktop/api/msinkaut/) object allows you to eas
 [**InkOverlay Class (C++)**](/windows/desktop/api/msinkaut/)
 </dt> <dt>
 
-[**Microsoft.Ink Namespace**](https://www.bing.com/search?q=**Microsoft.Ink Namespace**)
+[**Microsoft.Ink Namespace**](https://www.bing.com/search?q=**Microsoft.Ink+Namespace**)
 </dt> </dl>
 
  

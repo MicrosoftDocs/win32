@@ -34,7 +34,7 @@ typedef struct D3DTRIPATCH_INFO {
 **StartVertexOffset**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -45,7 +45,7 @@ Starting vertex offset, in number of vertices.
 **NumVertices**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -56,22 +56,22 @@ Number of vertices.
 **Basis**
 </dt> <dd>
 
-Type: **[**D3DBASISTYPE**](https://msdn.microsoft.com/windows/desktop/18c31c77-7ba3-449c-af4a-717b8c1dced1)**
+Type: **[**D3DBASISTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dbasistype.htm)**
 
 </dd> <dd>
 
-Member of the [**D3DBASISTYPE**](https://msdn.microsoft.com/windows/desktop/18c31c77-7ba3-449c-af4a-717b8c1dced1) enumerated type, which defines the basis type for the triangular high-order patch. The only valid value for this member is D3DBASIS\_BEZIER.
+Member of the [**D3DBASISTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dbasistype.htm) enumerated type, which defines the basis type for the triangular high-order patch. The only valid value for this member is D3DBASIS\_BEZIER.
 
 </dd> <dt>
 
 **Degree**
 </dt> <dd>
 
-Type: **[**D3DDEGREETYPE**](https://msdn.microsoft.com/windows/desktop/52a9c57e-a48d-4d8a-a208-97a3d09e7abf)**
+Type: **[**D3DDEGREETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddegreetype.htm)**
 
 </dd> <dd>
 
-Member of the [**D3DDEGREETYPE**](https://msdn.microsoft.com/windows/desktop/52a9c57e-a48d-4d8a-a208-97a3d09e7abf) enumerated type, defining the degree type for the triangular high-order patch.
+Member of the [**D3DDEGREETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddegreetype.htm) enumerated type, defining the degree type for the triangular high-order patch.
 
 
 

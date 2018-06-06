@@ -67,7 +67,7 @@ All of these aspects of finding your way in real space correspond to how users t
 Try to make Help unnecessary in the first place, by:
 
 -   Making common tasks easy to discover and perform.
--   Providing clear [main instructions](https://www.bing.com/search?q=main instructions).
+-   Providing clear [main instructions](text-ui.md#usage-patterns).
 -   Providing clear, concise control labels that are goal- and task-oriented.
 -   Providing supplemental instructions and explanations where needed.
 -   Anticipating avoidable problems by using controls constrained to valid choices, providing suitable default values, handling all input formats, and preventing errors.
@@ -204,7 +204,7 @@ Different kinds of content serve different purposes.
 -   **Avoid vague resolutions to problems.** For example, "contact your system administrator" or "reinstall the application" tend to frustrate users.
     -   **Exception:** Recommend contacting the system administrator if that is the only practical solution, and system administrators expect to be contacted for the problem.
 -   **Avoid content that addresses highly unlikely user scenarios.** Develop your main Help content for what you anticipate will be normal usage; note important exceptions to expected usage, but treat this content as a lower priority.
--   **Gather feedback from your users about how helpful your Help topics are.** Allow users to rate individual topics. Conduct [usability studies](https://www.bing.com/search?q=usability studies) on your documentation to ascertain problems involving quality and discoverability of content.
+-   **Gather feedback from your users about how helpful your Help topics are.** Allow users to rate individual topics. Conduct [usability studies](glossary.md#u) on your documentation to ascertain problems involving quality and discoverability of content.
     -   **Tip:** User feedback is also a great way to generate more task-based content, focused on what users are actually doing with your program, as opposed to feature-based content, focused simply on a description of the technology.
 -   **Provide multiple ways of accessing your content.** A table of contents, an index, and a [search](ctrl-search-boxes.md) mechanism are three of the most common methods of improving discoverability.
 -   **If there is more than one way to perform a task, in most cases you can just document the most common way used by inexperienced users.**

@@ -95,7 +95,7 @@ The method must return one of the following values.
 
 When the `IPrintOemDriverUni::DrvGetDriverSetting` method is called, either a string pointer or a constant value can be specified for *pFeatureKeyword*.
 
--   If *pFeatureKeyword* is a string, it must represent a feature name specified in a [Unidrv minidriver](https://www.bing.com/search?q=Unidrv minidriver) GPD file
+-   If *pFeatureKeyword* is a string, it must represent a feature name specified in a [Unidrv minidriver](https://www.bing.com/search?q=Unidrv+minidriver) GPD file
 
     The method should return one or more NULL-terminated strings in the buffer pointed to by *pOutput*. Each string should represent the name of a currently selected option. The number of strings should be returned in *pdwOptionsReturned*.
 

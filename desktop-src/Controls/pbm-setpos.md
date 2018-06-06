@@ -45,7 +45,7 @@ Returns the previous position.
 
 If *wParam* is outside the range of the control, the position is set to the closest boundary.
 
-Do not send this message to a control that has the [**PBS\_MARQUEE**](https://www.bing.com/search?q=**PBS\_MARQUEE**) style.
+Do not send this message to a control that has the [**PBS\_MARQUEE**](progress-bar-control-styles.md#pbs-marquee) style.
 
 ## Requirements
 

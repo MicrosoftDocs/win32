@@ -27,13 +27,13 @@ By default, the Quick Access Toolbar (QAT) is located in the title bar of the ap
 
 The following screen shot shows an example of the Ribbon Quick Access Toolbar (QAT).
 
-![screen shot of the qat in the microsoft paint ribbon.](https://www.bing.com/search?q=screen shot of the qat in the microsoft paint ribbon.)
+![screen shot of the qat in the microsoft paint ribbon.](https://www.bing.com/search?q=screen+shot+of+the+qat+in+the+microsoft+paint+ribbon.)
 
 The Quick Access Toolbar (QAT) consists of a combination of up to 20 Commands either specified by the application (known as the application defaults list) or selected by the user. The Quick Access Toolbar (QAT) can contain unique Commands that are not available elsewhere in the ribbon UI.
 
 > [!Note]While almost all ribbon controls allow their associated Command to be added to the Quick Access Toolbar (QAT) through the context menu shown in the following screen shot, Commands exposed in a [Context Popup](windowsribbon-controls-contextpopup.md) do not provide this context menu.
 >
-> ![screen shot of the command context menu in the microsoft paint ribbon.](https://www.bing.com/search?q=screen shot of the command context menu in the microsoft paint ribbon.)
+> ![screen shot of the command context menu in the microsoft paint ribbon.](https://www.bing.com/search?q=screen+shot+of+the+command+context+menu+in+the+microsoft+paint+ribbon.)
 
  
 
@@ -51,7 +51,7 @@ For consistency across Ribbon applications, it is recommended that the *Customiz
 
 The following screen shot shows a Quick Access Toolbar (QAT) drop-down menu with the **More Commands ** Command item.
 
-![screen shot of a qat menu with the more commands... command item.](https://www.bing.com/search?q=screen shot of a qat menu with the more commands... command item.)
+![screen shot of a qat menu with the more commands... command item.](https://www.bing.com/search?q=screen+shot+of+a+qat+menu+with+the+more+commands...+command+item.)
 
 The application defaults list for the Quick Access Toolbar (QAT) is specified through the [**QuickAccessToolbar.ApplicationDefaults**](windowsribbon-element-quickaccesstoolbar-applicationdefaults.md) property which identifies a default list of recommended Commands, all of which are listed in the Quick Access Toolbar (QAT) drop-down menu.
 

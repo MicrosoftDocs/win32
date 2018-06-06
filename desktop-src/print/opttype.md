@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # OPTTYPE structure
 
-The OPTTYPE structure is used by CPSUI applications (including printer interface DLLs) for describing the type and other characteristics of a [property sheet option](https://www.bing.com/search?q=property sheet option), if the option is specified by an [**OPTITEM**](optitem.md) structure.
+The OPTTYPE structure is used by CPSUI applications (including printer interface DLLs) for describing the type and other characteristics of a [property sheet option](https://www.bing.com/search?q=property+sheet+option), if the option is specified by an [**OPTITEM**](optitem.md) structure.
 
 ## Syntax
 
@@ -46,7 +46,7 @@ Size, in bytes, of the OPTTYPE structure.
 **Type**
 </dt> <dd>
 
-Specifies the [CPSUI option type](https://www.bing.com/search?q=CPSUI option type).
+Specifies the [CPSUI option type](https://www.bing.com/search?q=CPSUI+option+type).
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ All the OPTPARAM structures to which **pOptParam** points are disabled, so that 
 **Count**
 </dt> <dd>
 
-Specifies the number of [**OPTPARAM**](optparam.md) structures to which **pOptParam** points. This member's value is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI option type).
+Specifies the number of [**OPTPARAM**](optparam.md) structures to which **pOptParam** points. This member's value is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI+option+type).
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ Specifies the number of [**OPTPARAM**](optparam.md) structures to which **pOptPa
 
 If **pDlgPage** in [**COMPROPSHEETUI**](compropsheetui.md) identifies a CPSUI-supplied page, or if **DlgTemplateID** in [**DLGPAGE**](dlgpage.md) identifies a CPSUI-supplied template, **BegCtrlID** is not used.
 
-Otherwise, **BegCtrlID** must contain the first of a sequentially numbered set of Windows control identifiers. Control identifier usage is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI option type).
+Otherwise, **BegCtrlID** must contain the first of a sequentially numbered set of Windows control identifiers. Control identifier usage is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI+option+type).
 
 </dd> <dt>
 
@@ -101,7 +101,7 @@ Pointer to an array of [**OPTPARAM**](optparam.md) structures describing the par
 **Style**
 </dt> <dd>
 
-Specifies flags that can be used to modify the option's display characteristics. The flags that can be specified are dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI option type).
+Specifies flags that can be used to modify the option's display characteristics. The flags that can be specified are dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI+option+type).
 
 </dd> <dt>
 

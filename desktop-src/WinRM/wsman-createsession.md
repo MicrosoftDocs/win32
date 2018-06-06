@@ -56,7 +56,7 @@ The protocol and service to connect to, including either IPv4 or IPv6. The forma
 *flags* \[in, optional\]
 </dt> <dd>
 
-The session flags that specify the authentication method, such as [*Negotiate authentication*](https://www.bing.com/search?q=*Negotiate authentication*) or [*Digest authentication*](https://www.bing.com/search?q=*Digest authentication*), for connecting to a remote computer. These flags also specify other session connection information, such as encoding or encryption. This parameter must contain one or more of the flags in **\_\_WSManSessionFlags** for a remote connection. For more information, see [Session Constants](session-constants.md). No flag settings are required for a connection to WinRM on the local computer. The default is **WSManFlagUseNegotiate**.
+The session flags that specify the authentication method, such as [*Negotiate authentication*](windows-remote-management-glossary.md#winrm-gloss-negotiate-authentication) or [*Digest authentication*](windows-remote-management-glossary.md#winrm-gloss-digest-authentication), for connecting to a remote computer. These flags also specify other session connection information, such as encoding or encryption. This parameter must contain one or more of the flags in **\_\_WSManSessionFlags** for a remote connection. For more information, see [Session Constants](session-constants.md). No flag settings are required for a connection to WinRM on the local computer. The default is **WSManFlagUseNegotiate**.
 
 For more information, see [Authentication for Remote Connections](authentication-for-remote-connections.md) and the *connectionOptions* parameter.
 
@@ -75,7 +75,7 @@ A [**Session**](session.md) object that can then be used to perform local or rem
 
 ## Remarks
 
-The **CreateSession** method initializes the [**Session**](session.md) object by gathering parameters, such as flags, credentials, and a connection string for the *connection* parameter. **CreateSession** does not actually connect to the local or remote computer. If the connection cannot be established, a failure occurs on the first **Session** operation, such as a [**Get**](session-get.md) or [**Enumerate**](session-enumerate.md), after the call to **CreateSession**. This behavior differs from a [*WMI*](https://www.bing.com/search?q=*WMI*) connection to a [*namespace*](https://www.bing.com/search?q=*namespace*) on a remote computer. For more information, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
+The **CreateSession** method initializes the [**Session**](session.md) object by gathering parameters, such as flags, credentials, and a connection string for the *connection* parameter. **CreateSession** does not actually connect to the local or remote computer. If the connection cannot be established, a failure occurs on the first **Session** operation, such as a [**Get**](session-get.md) or [**Enumerate**](session-enumerate.md), after the call to **CreateSession**. This behavior differs from a [*WMI*](windows-remote-management-glossary.md#winrm-gloss-wmi) connection to a [*namespace*](windows-remote-management-glossary.md#winrm-gloss-namespace) on a remote computer. For more information, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
 
 The following VBScript code example is used to call this method.
 

@@ -41,7 +41,7 @@ This section contains information about interfaces provided by the Microsoft XAu
 [Programming Reference](programming-reference.md)
 </dt> <dt>
 
-[Programming Reference](https://msdn.microsoft.com/windows/desktop/f2f7c54d-85eb-a3c6-7333-d5adf16d95d9)
+[Programming Reference](https://msdn.microsoft.com/f2f7c54d-85eb-a3c6-7333-d5adf16d95d9)
 </dt> </dl>
 
  

@@ -17,7 +17,7 @@ Automatically generated texture coordinates can significantly reduce the bandwid
 
 ## Configuring Automatically Generated Texture Coordinates
 
-In C++, the D3DTSS\_TEXCOORDINDEX texture-stage state (from the [**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/windows/desktop/87a5a1bb-e748-4c72-8320-ea82250dcc0e) enumerated type) controls how the system generates texture coordinates.
+In C++, the D3DTSS\_TEXCOORDINDEX texture-stage state (from the [**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturestagestatetype.htm) enumerated type) controls how the system generates texture coordinates.
 
 Normally, this state instructs the system to use a particular set of texture coordinates encoded in the vertex format. When you include the D3DTSS\_TCI\_CAMERASPACENORMAL, D3DTSS\_TCI\_CAMERASPACEPOSITION, or D3DTSS\_TCI\_CAMERASPACEREFLECTIONVECTOR flags in the value that you assign to this state, the system behavior is quite different. If any of these flags are present, the texture stage ignores the texture coordinates within the vertex format in favor of coordinates that the system generates. The meanings for each flag are shown in the following list.
 

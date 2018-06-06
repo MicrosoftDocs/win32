@@ -25,11 +25,11 @@ This topic contains the following sections.
 
 ## Creating ComboBoxEx Controls
 
-Effectively, a ComboBoxEx control creates a child combo box and performs owner draw tasks for you based on an assigned image list. Therefore, the [**CBS\_OWNERDRAWFIXED**](https://www.bing.com/search?q=**CBS\_OWNERDRAWFIXED**) style is implied and it's not necessary to use it when creating the control. Because image lists are used to provide item graphics, the [**CBS\_OWNERDRAWVARIABLE**](https://www.bing.com/search?q=**CBS\_OWNERDRAWVARIABLE**) style cannot be used.
+Effectively, a ComboBoxEx control creates a child combo box and performs owner draw tasks for you based on an assigned image list. Therefore, the [**CBS\_OWNERDRAWFIXED**](combo-box-styles.md#cbs-ownerdrawfixed) style is implied and it's not necessary to use it when creating the control. Because image lists are used to provide item graphics, the [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style cannot be used.
 
 A ComboBoxEx control must be initialized by calling the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function, specifying ICC\_USEREX\_CLASSES in the accompanying [**INITCOMMONCONTROLSEX**](/windows/desktop/api/Commctrl/ns-commctrl-taginitcommoncontrolsex) structure.
 
-You can create a ComboBoxEx control by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and specifying [**WC\_COMBOBOXEX**](https://www.bing.com/search?q=**WC\_COMBOBOXEX**) as the window class. The class is registered when the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function is called as explained above.
+You can create a ComboBoxEx control by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and specifying [**WC\_COMBOBOXEX**](common-control-window-classes.md#wc-comboboxex) as the window class. The class is registered when the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function is called as explained above.
 
 ComboBoxEx controls are created without a default image list. To use item images, you must create an image list for the ComboBoxEx control and assign it to the control using the [**CBEM\_SETIMAGELIST**](cbem-setimagelist.md) message. If you do not assign an image list to the ComboBoxEx control, the control displays item text only.
 
@@ -45,11 +45,11 @@ ComboBoxEx controls support only the following ComboBox styles:
 There are also several [ComboBoxEx Control Extended Styles](comboboxex-control-extended-styles.md) that are used only by ComboBoxEx.
 
 > [!Note]  
-> The [**CBS\_SIMPLE**](https://www.bing.com/search?q=**CBS\_SIMPLE**) style may not work properly in some cases.
+> The [**CBS\_SIMPLE**](combo-box-styles.md#cbs-simple) style may not work properly in some cases.
 
  
 
-Because the ComboBoxEx control performs owner draw tasks for you based on an assigned image list, the [**CBS\_OWNERDRAWFIXED**](https://www.bing.com/search?q=**CBS\_OWNERDRAWFIXED**) style is implied; you need not use it when creating the control. Because image lists are used to provide item graphics, the [**CBS\_OWNERDRAWVARIABLE**](https://www.bing.com/search?q=**CBS\_OWNERDRAWVARIABLE**) style cannot be used. The ComboBoxEx control also supports [ComboBoxEx Control Extended Styles](comboboxex-control-extended-styles.md) that provide additional features.
+Because the ComboBoxEx control performs owner draw tasks for you based on an assigned image list, the [**CBS\_OWNERDRAWFIXED**](combo-box-styles.md#cbs-ownerdrawfixed) style is implied; you need not use it when creating the control. Because image lists are used to provide item graphics, the [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style cannot be used. The ComboBoxEx control also supports [ComboBoxEx Control Extended Styles](comboboxex-control-extended-styles.md) that provide additional features.
 
 ## ComboBoxEx Control Items
 
@@ -84,7 +84,7 @@ If you want a ComboBoxEx control to display icons with items, you must provide a
 The [**COMBOBOXEXITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema) structure contains members that represent the image indexes for each image list (selected, unselected, and overlay). For each item, set these members to display the desired images. It is not necessary to specify image indexes for each type of image. You can mix and match image types as you like, but always set the **mask** member of the **COMBOBOXEXITEM** structure to indicate which members are being used. The control ignores members that have not been flagged as valid.
 
 > [!Note]  
-> If you use the [**CBS\_SIMPLE**](https://www.bing.com/search?q=**CBS\_SIMPLE**) style, icons are not displayed.
+> If you use the [**CBS\_SIMPLE**](combo-box-styles.md#cbs-simple) style, icons are not displayed.
 
  
 

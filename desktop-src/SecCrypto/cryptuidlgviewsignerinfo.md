@@ -44,9 +44,9 @@ A pointer to a [**CRYPTUI\_VIEWSIGNERINFO\_STRUCT**](cryptui-viewsignerinfo-stru
 
 ## Return value
 
-This function returns a nonzero value on success and zero on failure. For extended error information, call the [**GetLastError**](https://msdn.microsoft.com/windows/desktop/d852e148-985c-416f-a5a7-27b6914b45d4) function.
+This function returns a nonzero value on success and zero on failure. For extended error information, call the [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4) function.
 
-Possible error codes returned from [**GetLastError**](https://msdn.microsoft.com/windows/desktop/d852e148-985c-416f-a5a7-27b6914b45d4) include, but are not limited to, the following.
+Possible error codes returned from [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4) include, but are not limited to, the following.
 
 
 

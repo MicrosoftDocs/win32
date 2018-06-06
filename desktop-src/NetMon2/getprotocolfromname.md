@@ -43,7 +43,7 @@ If the function is unsuccessful, the return value is **NULL**.
 
 ## Remarks
 
-[*Experts*](https://www.bing.com/search?q=*Experts*) and [*parsers*](https://www.bing.com/search?q=*parsers*) can call the **GetProtocolFromName** function.
+[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetProtocolFromName** function.
 
 ## Requirements
 

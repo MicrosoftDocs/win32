@@ -54,7 +54,7 @@ Using a pen for input has the following characteristics:
 
 Fortunately, if your program is already well designed and is touch-friendly, providing good pen support is easy to do. For this purpose, a well-designed program:
 
--   **Has good mouse support.** The interactive controls have clear, visible affordances, and have hover states for pointer feedback. Objects have standard behaviors for the standard mouse interactions (single and double left-click, right-click, drag, and hover). The [pointer shape](https://www.bing.com/search?q=pointer shape) changes as appropriate to indicate the type of direct manipulation.
+-   **Has good mouse support.** The interactive controls have clear, visible affordances, and have hover states for pointer feedback. Objects have standard behaviors for the standard mouse interactions (single and double left-click, right-click, drag, and hover). The [pointer shape](inter-mouse.md#common-pointer-shapes) changes as appropriate to indicate the type of direct manipulation.
 -   **Has good keyboard support.** The program makes users efficient by providing standard shortcut key assignments, especially for navigation and editing commands that can also be generated through gestures.
 -   **Has controls large enough for touch.** The controls have a minimum size of 23x23 pixels (13x13 dialog units \[DLUs\]), and the most commonly used controls are at least 40x40 pixels (23x22 DLUs). To avoid unresponsive behavior, there should be no small gaps between targets the UI elements should be spaced so that adjacent targets are either touching or have at least 5 pixels (3 DLUs) of space between them.
 -   **Is accessible.** Uses Microsoft Active Accessibility (MSAA) to provide programmatic access to the UI for assistive technologies. The program appropriately responds to theme and system metric changes.
@@ -88,7 +88,7 @@ Task locality reduces tedious repeating cross-screen movements. To minimize hand
 
 In this example from Windows XP, the color palette is too far from where it is likely to be used.
 
-Consider that the user's current location is the closest a target can be, making it trivial to acquire. Thus, context menus take full advantage of [Fitts' Law](https://www.bing.com/search?q=Fitts' Law), as do the mini-toolbars used by Microsoft Office.
+Consider that the user's current location is the closest a target can be, making it trivial to acquire. Thus, context menus take full advantage of [Fitts' Law](inter-mouse.md#fitts-law), as do the mini-toolbars used by Microsoft Office.
 
 ![screen shot of pointers near menus ](images/inter-pen-image4.png)
 

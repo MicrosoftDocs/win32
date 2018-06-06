@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemDriverUni::DrvWriteSpoolBuf method
 
-The `IPrintOemDriverUni::DrvWriteSpoolBuf` method is provided by the Unidrv driver so that a [rendering plug-in](https://www.bing.com/search?q=rendering plug-in) can send printer data to the spooler.
+The `IPrintOemDriverUni::DrvWriteSpoolBuf` method is provided by the Unidrv driver so that a [rendering plug-in](https://www.bing.com/search?q=rendering+plug-in) can send printer data to the spooler.
 
 ## Syntax
 
@@ -79,7 +79,7 @@ The method must return one of the following values.
 
 OEMs use the Unidrv helper function `IPrintOemDriverUni::DrvWriteSpoolBuf` to send output to the printer. If a print job is terminated by the user, `IPrintOemDriverUni::DrvWriteSpoolBuf` returns E\_FAIL and can no longer be used to send any data to the printer. When this occurs, certain printers must have a clean-up code fragment sent to them, resetting their states before they can start new print jobs. For these printers, [**IPrintOemDriverUni::DrvWriteAbortBuf**](iprintoemdriveruni-drvwriteabortbuf.md) can be used to send this code fragment to the printer.
 
-Rendering plug-ins are described in [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing Microsoft's Printer Drivers).
+Rendering plug-ins are described in [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing+Microsoft's+Printer+Drivers).
 
 ## Requirements
 

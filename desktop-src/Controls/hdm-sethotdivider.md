@@ -62,7 +62,7 @@ Returns a value equal to the index of the divider that the control highlighted.
 
 ## Remarks
 
-This message creates an effect that a header control automatically produces when it has the [**HDS\_DRAGDROP**](https://www.bing.com/search?q=**HDS\_DRAGDROP**) style. The **HDM\_SETHOTDIVIDER** message is intended to be used when the owner of the control handles drag-and-drop operations manually.
+This message creates an effect that a header control automatically produces when it has the [**HDS\_DRAGDROP**](header-control-styles.md#hds-dragdrop) style. The **HDM\_SETHOTDIVIDER** message is intended to be used when the owner of the control handles drag-and-drop operations manually.
 
 ## Requirements
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Character Count Summary property
 
-The **Character Count Summary** property is only used in transforms. This part of the summary information stream is divided into two 16-bit words. The upper word contains the [*transform validation flags*](https://www.bing.com/search?q=*transform validation flags*). The lower word contains the [*transform error condition flags*](https://www.bing.com/search?q=*transform error condition flags*).
+The **Character Count Summary** property is only used in transforms. This part of the summary information stream is divided into two 16-bit words. The upper word contains the [*transform validation flags*](t-gly.md#-msi-transform-validation-flags-gly). The lower word contains the [*transform error condition flags*](t-gly.md#-msi-transform-error-condition-flags-gly).
 
 This property should be Null in an installation package or patch package.
 

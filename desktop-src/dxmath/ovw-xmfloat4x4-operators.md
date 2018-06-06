@@ -24,7 +24,7 @@ The [**XMFLOAT4X4**](/windows/desktop/api/DirectXMath/) structure exposes the fo
 
 | Methods                                                      | Description                                                                                                              |
 |--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://www.bing.com/search?q=**operator =**)<br/>      | Assigns the vector component data from one instance of `XMFLOAT4X4` to the current instance of `XMFLOAT4X4`. <br/> |
+| [**operator =**](https://www.bing.com/search?q=**operator+=**)<br/>      | Assigns the vector component data from one instance of `XMFLOAT4X4` to the current instance of `XMFLOAT4X4`. <br/> |
 | [**operator ()**](xmfloat4x4-operator-parens.md)<br/> | Accesses specific matrix elements referenced by row and column from the current instance of `XMFLOAT4X4`. <br/>    |
 
 

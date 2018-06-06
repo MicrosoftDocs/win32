@@ -16,13 +16,13 @@ This topic describes the minimum steps required to play previously-loaded audio 
 ## To play a sound
 
 1.  Initialize the XAudio2 engine by following the steps described in [How to: Initialize XAudio2](how-to--initialize-xaudio2.md).
-2.  Populate a [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) and [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure by following the steps described in [How to: Load Audio Data Files in XAudio2](how-to--load-audio-data-files-in-xaudio2.md).
+2.  Populate a [**WAVEFORMATEX**](https://msdn.microsoft.com/f2f050d6-afe2-4647-932b-1287f4538702) and [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure by following the steps described in [How to: Load Audio Data Files in XAudio2](how-to--load-audio-data-files-in-xaudio2.md).
     > [!Note]  
-    > Depending on the format of the audio data, you may need to use a larger data structure containing a [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) structure in place of a **WAVEFORMATEX**. See the **WAVEFORMATEX** reference page for more information.
+    > Depending on the format of the audio data, you may need to use a larger data structure containing a [**WAVEFORMATEX**](https://msdn.microsoft.com/f2f050d6-afe2-4647-932b-1287f4538702) structure in place of a **WAVEFORMATEX**. See the **WAVEFORMATEX** reference page for more information.
 
      
 
-3.  Create a source voice by calling the [**IXAudio2::CreateSourceVoice**](https://www.bing.com/search?q=**IXAudio2::CreateSourceVoice**) method on an instance of the XAudio2 engine. The format of the voice is specified by the values set in a [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) structure.
+3.  Create a source voice by calling the [**IXAudio2::CreateSourceVoice**](https://www.bing.com/search?q=**IXAudio2::CreateSourceVoice**) method on an instance of the XAudio2 engine. The format of the voice is specified by the values set in a [**WAVEFORMATEX**](https://msdn.microsoft.com/f2f050d6-afe2-4647-932b-1287f4538702) structure.
     ```
     IXAudio2SourceVoice* pSourceVoice;
     if( FAILED(hr = pXAudio2->CreateSourceVoice( &amp;pSourceVoice, (WAVEFORMATEX*)&amp;wfx ) ) ) return hr;

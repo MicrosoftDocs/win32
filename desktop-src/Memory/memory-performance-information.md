@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Memory Performance Information
 
-Memory performance information is available from the memory manager through the system [performance counters](https://msdn.microsoft.com/windows/desktop/9dcb7e84-a7d6-43b5-8fe9-4e33d683c74c) and through functions such as [**GetPerformanceInfo**](https://www.bing.com/search?q=**GetPerformanceInfo**), [**GetProcessMemoryInfo**](https://www.bing.com/search?q=**GetProcessMemoryInfo**), and [**GlobalMemoryStatusEx**](/windows/desktop/api/WinBase/). Applications such as the Windows Task Manager, the Reliability and Performance Monitor, and the [Process Explorer](http://go.microsoft.com/fwlink/p/?linkid=107401) tool use performance counters to display memory information for the system and for individual processes.
+Memory performance information is available from the memory manager through the system [performance counters](https://msdn.microsoft.com/9dcb7e84-a7d6-43b5-8fe9-4e33d683c74c) and through functions such as [**GetPerformanceInfo**](https://www.bing.com/search?q=**GetPerformanceInfo**), [**GetProcessMemoryInfo**](https://www.bing.com/search?q=**GetProcessMemoryInfo**), and [**GlobalMemoryStatusEx**](/windows/desktop/api/WinBase/). Applications such as the Windows Task Manager, the Reliability and Performance Monitor, and the [Process Explorer](http://go.microsoft.com/fwlink/p/?linkid=107401) tool use performance counters to display memory information for the system and for individual processes.
 
 This topic associates performance counters with the data returned by memory performance functions and the Windows Task Manager:
 

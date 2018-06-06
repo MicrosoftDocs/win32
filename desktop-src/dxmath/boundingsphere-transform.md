@@ -19,8 +19,8 @@ Transforms the BoundingSphere.
 
 | Method                                                                                                    | Description                                                                                           |
 |:----------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------|
-| [**BoundingSphere::Transform (BoundingSphere&,XMMATRIX)**](https://www.bing.com/search?q=**BoundingSphere::Transform (BoundingSphere&,XMMATRIX)**)                | Transforms the BoundingSphere.<br/>                                                             |
-| [**BoundingSphere::Transform (BoundingSphere&,float,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingSphere::Transform (BoundingSphere&,float,XMVECTOR,XMVECTOR)**) | Transforms the BoundingSphere using the specified scale, rotation and translation vectors.<br/> |
+| [**BoundingSphere::Transform (BoundingSphere&,XMMATRIX)**](https://www.bing.com/search?q=**BoundingSphere::Transform+(BoundingSphere&,XMMATRIX)**)                | Transforms the BoundingSphere.<br/>                                                             |
+| [**BoundingSphere::Transform (BoundingSphere&,float,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingSphere::Transform+(BoundingSphere&,float,XMVECTOR,XMVECTOR)**) | Transforms the BoundingSphere using the specified scale, rotation and translation vectors.<br/> |
 
 
 

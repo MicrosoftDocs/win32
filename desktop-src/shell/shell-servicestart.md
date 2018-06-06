@@ -84,7 +84,7 @@ Returns **true** if successful; otherwise, **false**.
 
 ## Remarks
 
-The method returns **false** if the service has already been started. Before calling this method, you can call [**Shell.IsServiceRunning**](https://msdn.microsoft.com/windows/desktop/FDC41C2D-7462-458f-BBE6-D97260C26B6C) to ascertain the status of the service.
+The method returns **false** if the service has already been started. Before calling this method, you can call [**Shell.IsServiceRunning**](https://msdn.microsoft.com/FDC41C2D-7462-458f-BBE6-D97260C26B6C) to ascertain the status of the service.
 
 This method is not currently available in Microsoft Visual Basic.
 

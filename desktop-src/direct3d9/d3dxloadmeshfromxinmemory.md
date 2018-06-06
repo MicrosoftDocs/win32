@@ -39,7 +39,7 @@ HRESULT D3DXLoadMeshFromXInMemory(
 *Memory* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to the memory buffer which contains the mesh data.
 
@@ -48,7 +48,7 @@ Pointer to the memory buffer which contains the mesh data.
 *SizeOfMemory* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Size of the file in memory, in bytes.
 
@@ -57,9 +57,9 @@ Size of the file in memory, in bytes.
 *Options* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.com/windows/desktop/c94e19ab-8024-4a28-9d1a-6d57707c3a52) enumeration, specifying creation options for the mesh.
+Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmesh.htm) enumeration, specifying creation options for the mesh.
 
 </dd> <dt>
 
@@ -102,7 +102,7 @@ Pointer to a buffer containing an array of effect instances, one per attribute g
 *pNumMaterials* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to the number of [**D3DXMATERIAL**](d3dxmaterial.md) structures in the *ppMaterials* array, when the method returns.
 

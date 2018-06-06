@@ -42,7 +42,7 @@ Frame-Level Decoder Interfaces
 
  
 
-![wic interface inheritance hierarchy](https://www.bing.com/search?q=wic interface inheritance hierarchy)
+![wic interface inheritance hierarchy](https://www.bing.com/search?q=wic+interface+inheritance+hierarchy)
 
 ## Related topics
 

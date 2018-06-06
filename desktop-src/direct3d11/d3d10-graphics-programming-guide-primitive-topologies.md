@@ -68,7 +68,7 @@ The symbols in the preceding illustration are described in the following table.
 You can generate multiple strips through strip cutting. You can perform a strip cut by explicitly calling the [RestartStrip](https://msdn.microsoft.com/library/windows/desktop/bb509660) HLSL function, or by inserting a special index value into the index buffer. This value is –1, which is 0xffffffff for 32-bit indices or 0xffff for 16-bit indices. An index of –1 indicates an explicit 'cut' or 'restart' of the current strip. The previous index completes the previous primitive or strip and the next index starts a new primitive or strip. For more info about generating multiple strips, see [Geometry-Shader Stage](https://msdn.microsoft.com/library/windows/desktop/bb205146#geometry-shader-stage).
 
 > [!Note]  
-> You need [feature level](https://www.bing.com/search?q=feature level) 10.0 or higher hardware because not all 10level9 hardware implements this functionality.
+> You need [feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 10.0 or higher hardware because not all 10level9 hardware implements this functionality.
 
  
 

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # TBM\_SETTIPSIDE message
 
-Positions a tooltip control used by a trackbar control. Trackbar controls that use the [**TBS\_TOOLTIPS**](https://www.bing.com/search?q=**TBS\_TOOLTIPS**) style display tooltips.
+Positions a tooltip control used by a trackbar control. Trackbar controls that use the [**TBS\_TOOLTIPS**](trackbar-control-styles.md#tbs-tooltips) style display tooltips.
 
 ## Parameters
 

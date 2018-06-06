@@ -112,13 +112,13 @@ private void Form1_Closed(object sender, System.EventArgs e)
 
 <dl> <dt>
 
-[InkEdit Control](https://www.bing.com/search?q=InkEdit Control)
+[InkEdit Control](https://www.bing.com/search?q=InkEdit+Control)
 </dt> <dt>
 
-[Microsoft.Ink.RecognizerContext Class](https://www.bing.com/search?q=Microsoft.Ink.RecognizerContext Class)
+[Microsoft.Ink.RecognizerContext Class](https://www.bing.com/search?q=Microsoft.Ink.RecognizerContext+Class)
 </dt> <dt>
 
-[Mirosoft.Ink.Wordlist Class](https://www.bing.com/search?q=Mirosoft.Ink.Wordlist Class)
+[Mirosoft.Ink.Wordlist Class](https://www.bing.com/search?q=Mirosoft.Ink.Wordlist+Class)
 </dt> </dl>
 
  

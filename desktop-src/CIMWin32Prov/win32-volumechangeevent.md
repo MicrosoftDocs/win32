@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_VolumeChangeEvent class
 
-The **Win32\_VolumeChangeEvent** [WMI class](https://msdn.microsoft.com/windows/desktop/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents a local drive event that results from the addition of a drive letter or mounted drive on the computer system. Network drives are not currently supported.
+The **Win32\_VolumeChangeEvent** [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents a local drive event that results from the addition of a drive letter or mounted drive on the computer system. Network drives are not currently supported.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -68,7 +68,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32APIDevice Management Messages\|WM\_DEVICECHANGE\|wParam", "Win32APIDevice Management Messages\|WM\_SETTINGCHANGE")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32APIDevice Management Messages\|WM\_DEVICECHANGE\|wParam", "Win32APIDevice Management Messages\|WM\_SETTINGCHANGE")
 </dt> </dl>
 
 Type of event change notification that has occurred.
@@ -116,7 +116,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> </dl>
 
-Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/windows/desktop/4d2e4715-041c-49e9-b948-a148dfe85483). For more information about constants used to set this security descriptor, see [WMI Security Constants](https://msdn.microsoft.com/windows/desktop/f6808f50-a1fd-434f-8a42-efa3afbe7871).
+Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/4d2e4715-041c-49e9-b948-a148dfe85483). For more information about constants used to set this security descriptor, see [WMI Security Constants](https://msdn.microsoft.com/f6808f50-a1fd-434f-8a42-efa3afbe7871).
 
 </dd> <dt>
 
@@ -131,9 +131,9 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format.
 
-This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/windows/desktop/4d2e4715-041c-49e9-b948-a148dfe85483).
+This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/4d2e4715-041c-49e9-b948-a148dfe85483).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting in WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
 
 </dd> </dl>
 
@@ -162,7 +162,7 @@ The **Win32\_VolumeChangeEvent** class is derived from [**Win32\_DeviceChangeEve
 [**Win32\_DeviceChangeEvent**](win32-devicechangeevent.md)
 </dt> <dt>
 
-[Operating System Classes](https://www.bing.com/search?q=Operating System Classes)
+[Operating System Classes](https://www.bing.com/search?q=Operating+System+Classes)
 </dt> </dl>
 
  

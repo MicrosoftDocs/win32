@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Obtaining Default Digest Credentials
 
-Both clients and servers must obtain [*credentials*](https://www.bing.com/search?q=*credentials*) before they can establish a [*security context*](https://www.bing.com/search?q=*security context*) for message exchange. The default behavior of the [**AcquireCredentialsHandle**](/windows/desktop/api/Sspi/) function is to provide credentials for the security principal associated with the current logon [*session*](https://www.bing.com/search?q=*session*).
+Both clients and servers must obtain [*credentials*](security.c_gly#-security-credentials-gly) before they can establish a [*security context*](security.s_gly#-security-security-context-gly) for message exchange. The default behavior of the [**AcquireCredentialsHandle**](/windows/desktop/api/Sspi/) function is to provide credentials for the security principal associated with the current logon [*session*](security.s_gly#-security-session-gly).
 
 The following example demonstrates a server-side call to obtain the default credentials.
 

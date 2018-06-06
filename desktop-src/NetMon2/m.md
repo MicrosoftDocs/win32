@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 <span id="_netmon_mac_address_gly"></span><span id="_NETMON_MAC_ADDRESS_GLY"></span>**MAC address**
 </dt> <dd>
 
-See [*address*](https://www.bing.com/search?q=*address*).
+See [*address*](a.md#-netmon-address-gly).
 
 </dd> </dl>
 

@@ -121,7 +121,7 @@ This toolbar is simply the familiar standard toolbar common control. It has a ma
 Because there is limited room to display thumbnails and a variable number of thumbnails to display, applications are not guaranteed a given toolbar size. If space is restricted, buttons in the toolbar are truncated from right to left. Therefore, when you design your toolbar, you should prioritize the commands associated with your buttons and ensure that the most important come first and are least likely to be dropped because of space issues.
 
 > [!Note]  
-> When an application displays a window, its taskbar button is created by the system. When the button is in place, the taskbar sends a **TaskbarButtonCreated** message to the window. Its value is computed by calling [**RegisterWindowMessage**](https://msdn.microsoft.com/windows/desktop/51ddc767-ffce-42bf-885a-24b9ee1b25f0)(L("TaskbarButtonCreated")). That message must be received by your application before it calls any [**ITaskbarList3**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3) method.
+> When an application displays a window, its taskbar button is created by the system. When the button is in place, the taskbar sends a **TaskbarButtonCreated** message to the window. Its value is computed by calling [**RegisterWindowMessage**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\registerwindowmessage.htm)(L("TaskbarButtonCreated")). That message must be received by your application before it calls any [**ITaskbarList3**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3) method.
 
  
 
@@ -194,12 +194,12 @@ Thumbnail representations for windows are normally automatic, but in cases where
 
 ### API
 
--   [**DwmSetWindowAttribute**](https://msdn.microsoft.com/windows/desktop/51f6544a-edc4-4d0c-b39a-277a8dcbe94f)
--   [**DwmSetIconicThumbnail**](https://msdn.microsoft.com/windows/desktop/43fe71e7-4e5c-46fb-876b-e2699607166c)
--   [**DwmSetIconicLivePreviewBitmap**](https://msdn.microsoft.com/windows/desktop/7258c2cc-b9d2-46cf-8636-932e4da285a3)
--   [**DwmInvalidateIconicBitmaps**](https://msdn.microsoft.com/windows/desktop/c4833ce3-f8fb-4d98-9a02-5bf764579cc3)
--   [**WM\_DWMSENDICONICTHUMBNAIL**](https://msdn.microsoft.com/windows/desktop/476c2542-f4d0-4777-93d3-bf50da26d94f)
--   [**WM\_DWMSENDICONICLIVEPREVIEWBITMAP**](https://msdn.microsoft.com/windows/desktop/24bf3b42-a850-4aa5-966a-29baab6b4d21)
+-   [**DwmSetWindowAttribute**](https://msdn.microsoft.com/VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmsetwindowattribute.htm)
+-   [**DwmSetIconicThumbnail**](https://msdn.microsoft.com/VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmseticonicthumbnail.htm)
+-   [**DwmSetIconicLivePreviewBitmap**](https://msdn.microsoft.com/VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmseticoniclivepreviewbitmap.htm)
+-   [**DwmInvalidateIconicBitmaps**](https://msdn.microsoft.com/VS|winui|~\winui\desktopwindowmanager\reference\functions\dwminvalidateiconicbitmaps.htm)
+-   [**WM\_DWMSENDICONICTHUMBNAIL**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmessages\wm_dwmsendiconicthumbnail.htm)
+-   [**WM\_DWMSENDICONICLIVEPREVIEWBITMAP**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmessages\wm_dwmsendiconiclivepreviewbitmap.htm)
 
 You can select a particular area of the window to use as the thumbnail. This can be useful when an application knows that its documents or tabs will appear similar when viewed at thumbnail size. The application can then choose to show just the part of its client area that the user can use to distinguish between thumbnails. However, hovering over any thumbnail brings up a view of the full window behind it so the user can quickly glance through them as well.
 
@@ -209,7 +209,7 @@ If there are more thumbnails than can be displayed, the preview reverts to the l
 
 -   [**ITaskbarList3::SetThumbnailClip**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-setthumbnailclip)
 
-To add **Pin to Taskbar** to an item's shortcut menu, which is normally required only for file types that include the [IsShortCut](https://msdn.microsoft.com/windows/desktop/32ad306d-54bd-4130-ad30-08db50ef106e) entry, is done by registering the appropriate context menu handler. This also applies to **Pin to Start Menu**. See [Registering Shell Extension Handlers](reg-shell-exts.md) for more information.
+To add **Pin to Taskbar** to an item's shortcut menu, which is normally required only for file types that include the [IsShortCut](https://msdn.microsoft.com/32ad306d-54bd-4130-ad30-08db50ef106e) entry, is done by registering the appropriate context menu handler. This also applies to **Pin to Start Menu**. See [Registering Shell Extension Handlers](reg-shell-exts.md) for more information.
 
 ## Related topics
 

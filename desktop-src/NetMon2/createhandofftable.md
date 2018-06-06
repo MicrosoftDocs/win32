@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CreateHandoffTable function
 
-The **CreateHandoffTable** function creates a [*handoff table*](https://www.bing.com/search?q=*handoff table*) that includes the handoff set information stored in the INI file of the parser.
+The **CreateHandoffTable** function creates a [*handoff table*](h.md#-netmon-handoff-table-gly) that includes the handoff set information stored in the INI file of the parser.
 
 ## Syntax
 

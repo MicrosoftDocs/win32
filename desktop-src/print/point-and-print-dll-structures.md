@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## 
 
-This section describes the structures exported by [Point and Print DLLs](https://www.bing.com/search?q=Point and Print DLLs). Structure definitions are provided in *winsplp.h*.
+This section describes the structures exported by [Point and Print DLLs](https://www.bing.com/search?q=Point+and+Print+DLLs). Structure definitions are provided in *winsplp.h*.
 
  
 

@@ -77,7 +77,7 @@ This function is not supported as of Windows 8.
 </tr>
 <tr class="odd">
 <td>[<strong>CreateEnvironmentBlock</strong>](/windows/desktop/api/Userenv/nf-userenv-createenvironmentblock)<br/></td>
-<td>Retrieves the environment variables for the specified user. This block can then be passed to the [<strong>CreateProcessAsUser</strong>](https://msdn.microsoft.com/windows/desktop/6b3f4dd9-500b-420e-804a-401a9e188be8) function.<br/></td>
+<td>Retrieves the environment variables for the specified user. This block can then be passed to the [<strong>CreateProcessAsUser</strong>](https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8) function.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>CreateMRUListW</strong>](createmrulist.md)<br/></td>
@@ -213,7 +213,7 @@ This function is not supported as of Windows 8.
 </tr>
 <tr class="odd">
 <td>[<strong>GetDpiForShellUiComponent</strong>](/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-getdpiforshelluicomponent)<br/></td>
-<td>Retrieves the dots per inch (dpi) occupied by a [<strong>SHELL_UI_COMPONENT</strong>](/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-shell_ui_component) based on the current scale factor and [<strong>PROCESS_DPI_AWARENESS</strong>](https://msdn.microsoft.com/windows/desktop/50130739-E8A8-4B92-9B80-3BBBE57EBE0C).<br/></td>
+<td>Retrieves the dots per inch (dpi) occupied by a [<strong>SHELL_UI_COMPONENT</strong>](/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-shell_ui_component) based on the current scale factor and [<strong>PROCESS_DPI_AWARENESS</strong>](https://msdn.microsoft.com/50130739-E8A8-4B92-9B80-3BBBE57EBE0C).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>GetMenuContextHelpId</strong>](/windows/desktop/api/Winuser/nf-winuser-getmenucontexthelpid)<br/></td>
@@ -609,7 +609,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 </tr>
 <tr class="odd">
 <td>[<strong>SHEvaluateSystemCommandTemplate</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shevaluatesystemcommandtemplate)<br/></td>
-<td>Enforces strict validation of parameters used in a call to [<strong>CreateProcess</strong>](https://msdn.microsoft.com/windows/desktop/3ef0a5b2-4d71-4c17-8188-76a4025287fc) or [<strong>ShellExecute</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea).<br/></td>
+<td>Enforces strict validation of parameters used in a call to [<strong>CreateProcess</strong>](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc) or [<strong>ShellExecute</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SHFileOperation</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa)<br/></td>
@@ -661,7 +661,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 </tr>
 <tr class="even">
 <td>[<strong>SHGetItemFromDataObject</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetitemfromdataobject)<br/></td>
-<td>Creates an [<strong>IShellItem</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) or related object based on an item specified by an [<strong>IDataObject</strong>](https://msdn.microsoft.com/windows/desktop/8a002deb-2727-456c-8078-a9b0d5893ed4).<br/></td>
+<td>Creates an [<strong>IShellItem</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) or related object based on an item specified by an [<strong>IDataObject</strong>](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4).<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>SHGetItemFromObject</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetitemfromobject)<br/></td>
@@ -689,7 +689,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 </tr>
 <tr class="odd">
 <td>[<strong>SHGetNameFromPropertyKey</strong>](/windows/desktop/api/Shobjidl/)<br/></td>
-<td>Retrieves the property's canonical name given its [<strong>PROPERTYKEY</strong>](https://msdn.microsoft.com/windows/desktop/3f5f31af-f040-443b-9045-9761055381ea).<br/></td>
+<td>Retrieves the property's canonical name given its [<strong>PROPERTYKEY</strong>](https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SHGetNewLinkInfo</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shgetnewlinkinfoa)<br/></td>
@@ -720,7 +720,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 <td>Retrieves a specified user's unread message count for any or all email accounts.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHIsFileAvailableOffline</strong>](https://msdn.microsoft.com/windows/desktop/9acf212d-9309-42b0-ba96-faa0ecf0b865)<br/></td>
+<td>[<strong>SHIsFileAvailableOffline</strong>](https://msdn.microsoft.com/9acf212d-9309-42b0-ba96-faa0ecf0b865)<br/></td>
 <td>Determines whether a file or folder is available for offline use. This function also determines whether the file would be opened from the network, from the local Offline Files cache, or from both locations.<br/></td>
 </tr>
 <tr class="even">
@@ -728,7 +728,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 <td>Creates an instance of the specified object class from within the context of the Shell's process. <br/> <strong>Windows Vista</strong> and later: This function has been disabled and returns E_NOTIMPL.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHLoadNonloadedIconOverlayIdentifiers</strong>](https://msdn.microsoft.com/windows/desktop/d2c4f37e-6e9d-4536-90ea-d69461c4105a)<br/></td>
+<td>[<strong>SHLoadNonloadedIconOverlayIdentifiers</strong>](https://msdn.microsoft.com/d2c4f37e-6e9d-4536-90ea-d69461c4105a)<br/></td>
 <td>Signals the Shell that during the next operation requiring overlay information, it should load icon overlay identifiers that either failed creation or were not present for creation at startup. Identifiers that have already been loaded are not affected.<br/></td>
 </tr>
 <tr class="even">
@@ -748,7 +748,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 <td>Displays the <strong>Open With</strong> dialog box.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ShowShareFolderUI</strong>](https://msdn.microsoft.com/windows/desktop/e622e4bb-eaf7-494f-b2a2-78ba1311a496)<br/></td>
+<td>[<strong>ShowShareFolderUI</strong>](https://msdn.microsoft.com/e622e4bb-eaf7-494f-b2a2-78ba1311a496)<br/></td>
 <td>Displays the <strong>Folder Sharing</strong> tab on the properties sheet for the specified folder.<br/></td>
 </tr>
 <tr class="odd">
@@ -756,7 +756,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 <td>Translates a Shell namespace object's display name into an item identifier list and returns the attributes of the object. This function is the preferred method to convert a string to a PIDL.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHPathPrepareForWrite</strong>](https://msdn.microsoft.com/windows/desktop/1b65e34f-2c31-421b-9d27-ed263dfb372b)<br/></td>
+<td>[<strong>SHPathPrepareForWrite</strong>](https://msdn.microsoft.com/1b65e34f-2c31-421b-9d27-ed263dfb372b)<br/></td>
 <td>Checks to see if the path exists. This includes remounting mapped network drives, prompting for ejectable media to be reinserted, creating the paths, prompting for the media to be formatted, and providing the appropriate user interfaces, if necessary. Read/write permissions for the medium are not checked.<br/></td>
 </tr>
 <tr class="odd">
@@ -806,7 +806,7 @@ This function is not supported as of Windows Vista
 </tr>
 <tr class="odd">
 <td>[<strong>SHTestTokenMembership</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shtesttokenmembership)<br/></td>
-<td>Uses [<strong>CheckTokenMembership</strong>](https://msdn.microsoft.com/windows/desktop/c254a167-c4e7-4b84-9be3-6862761309f8) to test whether the given token is a member of the local group with the specified RID.<br/></td>
+<td>Uses [<strong>CheckTokenMembership</strong>](https://msdn.microsoft.com/c254a167-c4e7-4b84-9be3-6862761309f8) to test whether the given token is a member of the local group with the specified RID.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SHUpdateImage</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea)<br/></td>

@@ -55,7 +55,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 ## Remarks
 
-When **IDelaydC::Stop** is called, Network Monitor stops capturing data and closes the [*capture file*](https://www.bing.com/search?q=*capture file*). (The name of the capture file was returned when [IDelaydC::Start](idelaydc-start.md) was called). You can now look at the contents of the capture file.
+When **IDelaydC::Stop** is called, Network Monitor stops capturing data and closes the [*capture file*](c.md#-netmon-capture-file-gly). (The name of the capture file was returned when [IDelaydC::Start](idelaydc-start.md) was called). You can now look at the contents of the capture file.
 
 When you stop and start the capture, make sure you call the [IDelaydC::Configure](idelaydc-configure.md) method each time you call [IDelaydC::Start](idelaydc-start.md) to restart the capture.
 

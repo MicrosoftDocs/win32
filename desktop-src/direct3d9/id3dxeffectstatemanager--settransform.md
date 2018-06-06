@@ -32,9 +32,9 @@ HRESULT SetTransform(
 *State* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/windows/desktop/53535d9f-246a-42cf-82a2-fb3cf6d4ebac)**
+Type: **[**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtransformstatetype.htm)**
 
-The type of transform to apply the matrix to. See [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/windows/desktop/53535d9f-246a-42cf-82a2-fb3cf6d4ebac).
+The type of transform to apply the matrix to. See [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtransformstatetype.htm).
 
 </dd> <dt>
 

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Kerberos SSP/AP
 
-The [*Kerberos*](https://www.bing.com/search?q=*Kerberos*) authentication package is used when logging on to a network; local logons are handled by MSV1\_0.
+The [*Kerberos*](security.k_gly#-security-kerberos-protocol-gly) authentication package is used when logging on to a network; local logons are handled by MSV1\_0.
 
-When a user logs on using a network account, by default, Kerberos attempts to connect to the Kerberos [*Key Distribution Center*](https://www.bing.com/search?q=*Key Distribution Center*) (KDC) on the domain controller and obtain a ticket granting ticket (TGT) by using the logon data supplied by the user.
+When a user logs on using a network account, by default, Kerberos attempts to connect to the Kerberos [*Key Distribution Center*](security.k_gly#-security-key-distribution-center-gly) (KDC) on the domain controller and obtain a ticket granting ticket (TGT) by using the logon data supplied by the user.
 
 If a Kerberos KDC is not available, Windows uses MSV1\_0 and pass-through authentication as described in [MSV1\_0 Authentication Package](msv1-0-authentication-package.md).
 
@@ -25,7 +25,7 @@ For more information about Kerberos, see [Microsoft Kerberos](microsoft-kerberos
 
 ## Kerberos Credential Formats
 
-The user [*credentials*](https://www.bing.com/search?q=*credentials*) assigned by the Kerberos authentication package after a successful logon attempt are a ticket and a temporary encryption key, often called a [*session key*](https://www.bing.com/search?q=*session key*). The ticket contains both an encrypted copy of the client's credentials and the session key.
+The user [*credentials*](security.c_gly#-security-credentials-gly) assigned by the Kerberos authentication package after a successful logon attempt are a ticket and a temporary encryption key, often called a [*session key*](security.s_gly#-security-session-key-gly). The ticket contains both an encrypted copy of the client's credentials and the session key.
 
  
 

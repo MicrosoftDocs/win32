@@ -37,7 +37,7 @@ HRESULT D3DXSHEvalHemisphereLight(
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Order of the spherical harmonic (SH) evaluation. Must be in the range of D3DXSH\_MINORDER to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -46,7 +46,7 @@ Order of the spherical harmonic (SH) evaluation. Must be in the range of D3DXSH\
 *pDir* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/windows/desktop/4d73de4b-82fe-452a-8a1e-17208f172a03)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
 
 Pointer to the (x, y, z) hemisphere axis direction vector in which to evaluate the SH basis functions. See Remarks.
 
@@ -55,7 +55,7 @@ Pointer to the (x, y, z) hemisphere axis direction vector in which to evaluate t
 *Top* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/windows/desktop/53d3176a-f727-498e-8bea-0e30e0a1c66e)**
+Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxcolor.htm)**
 
 The sky color.
 
@@ -64,7 +64,7 @@ The sky color.
 *Bottom* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/windows/desktop/53d3176a-f727-498e-8bea-0e30e0a1c66e)**
+Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxcolor.htm)**
 
 The ground color.
 
@@ -73,7 +73,7 @@ The ground color.
 *pROut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to the output SH vector for the red component.
 
@@ -82,7 +82,7 @@ Pointer to the output SH vector for the red component.
 *pGOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to the output SH vector for the green component.
 
@@ -91,7 +91,7 @@ Pointer to the output SH vector for the green component.
 *pBOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to the output SH vector for the blue component.
 

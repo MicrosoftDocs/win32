@@ -108,7 +108,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 This method is supported for any Pscript5 render plug-in.
 
-For more information, see [Using GetGlobalAttribute](https://www.bing.com/search?q=Using GetGlobalAttribute).
+For more information, see [Using GetGlobalAttribute](https://www.bing.com/search?q=Using+GetGlobalAttribute).
 
 ## Requirements
 

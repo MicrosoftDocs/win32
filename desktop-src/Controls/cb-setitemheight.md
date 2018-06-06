@@ -32,7 +32,7 @@ An application sends a **CB\_SETITEMHEIGHT** message to set the height of list i
 
 Specifies the component of the combo box for which to set the height.
 
-This parameter must be  1 to set the height of the selection field. It must be zero to set the height of list items, unless the combo box has the [**CBS\_OWNERDRAWVARIABLE**](https://www.bing.com/search?q=**CBS\_OWNERDRAWVARIABLE**) style. In that case, the *wParam* parameter is the zero-based index of a specific list item.
+This parameter must be  1 to set the height of the selection field. It must be zero to set the height of list items, unless the combo box has the [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style. In that case, the *wParam* parameter is the zero-based index of a specific list item.
 
 </dd> <dt>
 

@@ -127,11 +127,11 @@ While color is the most obvious attribute of many designs, it must always be red
 
 ### Designing with color
 
-Ironically, the best way to design for color is to start by designing without color, using either [wireframes](https://www.bing.com/search?q=wireframes) or monochrome, and then add color later. Doing so helps ensure that information isn't being communicated using color alone. It also helps ensure that your printouts look great on monochrome printers.
+Ironically, the best way to design for color is to start by designing without color, using either [wireframes](glossary.md#w) or monochrome, and then add color later. Doing so helps ensure that information isn't being communicated using color alone. It also helps ensure that your printouts look great on monochrome printers.
 
 ### Use theme or system colors
 
-While there are many complex factors in using color effectively, in Windows UI choosing color often boils down to simply choosing the appropriate [theme color](https://www.bing.com/search?q=theme color) or [system color](https://www.bing.com/search?q=system color) according to a few simple rules. Users can then select and customize these color schemes as they choose.
+While there are many complex factors in using color effectively, in Windows UI choosing color often boils down to simply choosing the appropriate [theme color](glossary.md#t) or [system color](glossary.md#s) according to a few simple rules. Users can then select and customize these color schemes as they choose.
 
 By doing so, not only do you accommodate the color preferences of all your users, but you eliminate the burden of choosing the one perfect color scheme that works for all tastes, styles, and cultures (which, of course, is otherwise impossible).
 
@@ -141,7 +141,7 @@ Choose colors by selecting the appropriate theme color or system color. Never us
 
 ### Use theme or system colors correctly
 
-Assume that users choose theme or system colors based on their personal needs and that the theme or system colors are constructed appropriately. Based on this assumption, if you always choose theme or system colors based on their intended purpose and pair foregrounds with their associated backgrounds, the colors are guaranteed to be legible and respect users' wishes in all video modes, including [high-contrast mode](https://www.bing.com/search?q=high-contrast mode). For example, the window text system color is guaranteed to be legible against the window background system color.
+Assume that users choose theme or system colors based on their personal needs and that the theme or system colors are constructed appropriately. Based on this assumption, if you always choose theme or system colors based on their intended purpose and pair foregrounds with their associated backgrounds, the colors are guaranteed to be legible and respect users' wishes in all video modes, including [high-contrast mode](glossary.md#h). For example, the window text system color is guaranteed to be legible against the window background system color.
 
 Specifically, always:
 

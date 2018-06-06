@@ -13,11 +13,11 @@ ms.date: 05/31/2018
 
 Applying an encoding rule to the data structures described by an abstract syntax provides a transfer syntax that governs how bytes in a stream are organized when sent between computers. The transfer syntax used by Distinguished Encoding Rules always follows a *Tag, Length, Value* format. The format is usually referred to as a TLV triplet in which each field (T, L, or V) contains one or more bytes.
 
-![der type, length, and value (tlv) triplet](https://www.bing.com/search?q=der type, length, and value (tlv) triplet)
+![der type, length, and value (tlv) triplet](https://www.bing.com/search?q=der+type,+length,+and+value+(tlv)+triplet)
 
 The *Tag* field specifies the type of the data structure being sent, the *Length* field specifies the number of bytes of content being transferred, and the *Value* field contains the content. Note that the *Value* field can be a triplet if it contains a constructed data type as shown by the following illustration.
 
-![der tlv triplet recursion](https://www.bing.com/search?q=der tlv triplet recursion)
+![der tlv triplet recursion](https://www.bing.com/search?q=der+tlv+triplet+recursion)
 
 See the following topics for detailed information about the components of a TLV triplet.
 

@@ -37,7 +37,7 @@ A process executes until one of the following events occurs:
 -   Any thread of the process calls the [**ExitProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-exitprocess) function. Note that some implementation of the C run-time library (CRT) call **ExitProcess** if the primary thread of the process returns.
 -   The last thread of the process terminates.
 -   Any thread calls the [**TerminateProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-terminateprocess) function with a handle to the process.
--   For console processes, the default [console control handler](https://www.bing.com/search?q=console control handler) calls [**ExitProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-exitprocess) when the console receives a CTRL+C or CTRL+BREAK signal.
+-   For console processes, the default [console control handler](https://www.bing.com/search?q=console+control+handler) calls [**ExitProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-exitprocess) when the console receives a CTRL+C or CTRL+BREAK signal.
 -   The user shuts down the system or logs off.
 
 Do not terminate a process unless its threads are in known states. If a thread is waiting on a kernel object, it will not be terminated until the wait has completed. This can cause the application to stop responding.
@@ -46,7 +46,7 @@ The primary thread can avoid terminating other threads by directing them to call
 
 The exit code for a process is either the value specified in the call to [**ExitProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-exitprocess) or [**TerminateProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-terminateprocess), or the value returned by the main or [**WinMain**](https://www.bing.com/search?q=**WinMain**) function of the process. If a process is terminated due to a fatal exception, the exit code is the value of the exception that caused the termination. In addition, this value is used as the exit code for all the threads that were executing when the exception occurred.
 
-If a process is terminated by [**ExitProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-exitprocess), the system calls the entry-point function of each attached DLL with a value indicating that the process is detaching from the DLL. DLLs are not notified when a process is terminated by [**TerminateProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-terminateprocess). For more information about DLLs, see [Dynamic-Link Libraries](https://msdn.microsoft.com/windows/desktop/09e35b46-86a1-44ed-ab6d-207857b2605c).
+If a process is terminated by [**ExitProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-exitprocess), the system calls the entry-point function of each attached DLL with a value indicating that the process is detaching from the DLL. DLLs are not notified when a process is terminated by [**TerminateProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-terminateprocess). For more information about DLLs, see [Dynamic-Link Libraries](https://msdn.microsoft.com/09e35b46-86a1-44ed-ab6d-207857b2605c).
 
 If a process is terminated by [**TerminateProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-terminateprocess), all threads of the process are terminated immediately with no chance to run additional code. This means that the thread does not execute code in termination handler blocks. In addition, no attached DLLs are notified that the process is detaching. If you need to have one process terminate another process, the following steps provide a better solution:
 

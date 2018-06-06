@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # TLS Handshake Protocol
 
-The [*Transport Layer Security*](https://www.bing.com/search?q=*Transport Layer Security*) (TLS) Handshake Protocol is responsible for the authentication and key exchange necessary to establish or resume secure sessions. When establishing a secure [*session*](https://www.bing.com/search?q=*session*), the Handshake Protocol manages the following:
+The [*Transport Layer Security*](security.t_gly#-security-transport-layer-security-protocol-gly) (TLS) Handshake Protocol is responsible for the authentication and key exchange necessary to establish or resume secure sessions. When establishing a secure [*session*](security.s_gly#-security-session-gly), the Handshake Protocol manages the following:
 
 -   Cipher suite negotiation
 -   Authentication of the server and optionally, the client
@@ -23,11 +23,11 @@ The client and server make contact and choose the cipher suite that will be used
 
 ## Authentication
 
-In TLS, a server proves its identity to the client. The client might also need to prove its identity to the server. PKI, the use of [*public/private key pairs*](https://www.bing.com/search?q=*public/private key pairs*), is the basis of this authentication. The exact method used for authentication is determined by the cipher suite negotiated.
+In TLS, a server proves its identity to the client. The client might also need to prove its identity to the server. PKI, the use of [*public/private key pairs*](security.p_gly#-security-public-private-key-pair-gly), is the basis of this authentication. The exact method used for authentication is determined by the cipher suite negotiated.
 
 ## Key Exchange
 
-The client and server exchange random numbers and a special number called the Pre-Master Secret. These numbers are combined with additional data permitting client and server to create their shared secret, called the Master Secret. The Master Secret is used by client and server to generate the write MAC secret, which is the session key used for [*hashing*](https://www.bing.com/search?q=*hashing*), and the write key, which is the [*session key*](https://www.bing.com/search?q=*session key*) used for encryption.
+The client and server exchange random numbers and a special number called the Pre-Master Secret. These numbers are combined with additional data permitting client and server to create their shared secret, called the Master Secret. The Master Secret is used by client and server to generate the write MAC secret, which is the session key used for [*hashing*](security.h_gly#-security-hash-gly), and the write key, which is the [*session key*](security.s_gly#-security-session-key-gly) used for encryption.
 
 ## Establishing a Secure Session by Using TLS
 
@@ -37,10 +37,10 @@ The TLS Handshake Protocol involves the following steps:
 2.  The server responds by sending a "Server hello" message to the client, along with the server's random value.
 3.  The server sends its certificate to the client for authentication and may request a certificate from the client. The server sends the "Server hello done" message.
 4.  If the server has requested a certificate from the client, the client sends it.
-5.  The client creates a random Pre-Master Secret and encrypts it with the [*public key*](https://www.bing.com/search?q=*public key*) from the server's certificate, sending the encrypted Pre-Master Secret to the server.
-6.  The server receives the Pre-Master Secret. The server and client each generate the Master Secret and [*session keys*](https://www.bing.com/search?q=*session keys*) based on the Pre-Master Secret.
-7.  The client sends "Change cipher spec" notification to server to indicate that the client will start using the new [*session keys*](https://www.bing.com/search?q=*session keys*) for [*hashing*](https://www.bing.com/search?q=*hashing*) and encrypting messages. Client also sends "Client finished" message.
-8.  Server receives "Change cipher spec" and switches its record layer security state to [*symmetric encryption*](https://www.bing.com/search?q=*symmetric encryption*) using the [*session keys*](https://www.bing.com/search?q=*session keys*). Server sends "Server finished" message to the client.
+5.  The client creates a random Pre-Master Secret and encrypts it with the [*public key*](security.p_gly#-security-public-key-gly) from the server's certificate, sending the encrypted Pre-Master Secret to the server.
+6.  The server receives the Pre-Master Secret. The server and client each generate the Master Secret and [*session keys*](security.s_gly#-security-session-key-gly) based on the Pre-Master Secret.
+7.  The client sends "Change cipher spec" notification to server to indicate that the client will start using the new [*session keys*](security.s_gly#-security-session-key-gly) for [*hashing*](security.h_gly#-security-hash-gly) and encrypting messages. Client also sends "Client finished" message.
+8.  Server receives "Change cipher spec" and switches its record layer security state to [*symmetric encryption*](security.s_gly#-security-symmetric-encryption-gly) using the [*session keys*](security.s_gly#-security-session-key-gly). Server sends "Server finished" message to the client.
 9.  Client and server can now exchange application data over the secured channel they have established. All messages sent from client to server and from server to client are encrypted using session key.
 
 ## Resuming a Secure Session by Using TLS

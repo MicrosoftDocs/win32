@@ -84,9 +84,9 @@ Returns **true** if successful; otherwise, **false**.
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.ServiceStop**](https://msdn.microsoft.com/windows/desktop/AC22C91E-BBC6-4a2e-8D39-F9D7C0AC0947) method.
+This method is implemented and accessed through the [**Shell.ServiceStop**](https://msdn.microsoft.com/AC22C91E-BBC6-4a2e-8D39-F9D7C0AC0947) method.
 
-The method returns **false** if the service has already been stopped. Before calling this method, you can call [**Shell.IsServiceRunning**](https://msdn.microsoft.com/windows/desktop/FDC41C2D-7462-458f-BBE6-D97260C26B6C) to ascertain the status of the service.
+The method returns **false** if the service has already been stopped. Before calling this method, you can call [**Shell.IsServiceRunning**](https://msdn.microsoft.com/FDC41C2D-7462-458f-BBE6-D97260C26B6C) to ascertain the status of the service.
 
 This method is not currently available in Microsoft Visual Basic.
 

@@ -83,7 +83,7 @@ Pointer to the extended data, which is typically a stack variable that contains 
 
 Identifier (from 0 to 2047) used to set context-sensitive Help for a property.
 
-The *HelpID* number is relative to the Help file associated with the protocol [*property database*](https://www.bing.com/search?q=*property database*).
+The *HelpID* number is relative to the Help file associated with the protocol [*property database*](p.md#-netmon-property-database-gly).
 
 </dd> <dt>
 

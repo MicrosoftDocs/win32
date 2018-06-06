@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # OIDs.Add method
 
-\[The **Add** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**OidCollection Class**](https://www.bing.com/search?q=**OidCollection Class**) in the [**System.Security.Cryptography**](https://www.bing.com/search?q=**System.Security.Cryptography**) namespace.\]
+\[The **Add** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**OidCollection Class**](https://www.bing.com/search?q=**OidCollection+Class**) in the [**System.Security.Cryptography**](https://www.bing.com/search?q=**System.Security.Cryptography**) namespace.\]
 
 The **Add** method adds the specified [**OID**](oid.md) object to the collection.
 

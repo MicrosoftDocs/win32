@@ -50,7 +50,7 @@ The return value is a handle to the image previously associated with the button,
 
 ## Remarks
 
-The appearance of text, an icon, or both on a button control depends on the [**BS\_ICON**](https://www.bing.com/search?q=**BS\_ICON**) and [**BS\_BITMAP**](https://www.bing.com/search?q=**BS\_BITMAP**) styles, and whether the **BM\_SETIMAGE** message is called. The possible results are as follows:
+The appearance of text, an icon, or both on a button control depends on the [**BS\_ICON**](button-styles.md#bs-icon) and [**BS\_BITMAP**](button-styles.md#bs-bitmap) styles, and whether the **BM\_SETIMAGE** message is called. The possible results are as follows:
 
 
 

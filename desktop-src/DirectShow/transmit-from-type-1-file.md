@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 To transmit a type-1 file while previewing the file, use the filter graph shown in the following diagram.
 
-![type-1 transmit with preview](https://www.bing.com/search?q=type-1 transmit with preview)
+![type-1 transmit with preview](https://www.bing.com/search?q=type-1+transmit+with+preview)
 
 Filters in this graph include:
 

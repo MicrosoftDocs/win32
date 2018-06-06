@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintTicketProvider::ConvertPrintTicketToDevMode method
 
-The `IPrintTicketProvider::ConvertPrintTicketToDevMode` method converts a print ticket to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure.
+The `IPrintTicketProvider::ConvertPrintTicketToDevMode` method converts a print ticket to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure.
 
 ## Syntax
 
@@ -35,7 +35,7 @@ HRESULT ConvertPrintTicketToDevMode(
 *pPrintTicket* \[in\]
 </dt> <dd>
 
-A pointer to the input print ticket. `IPrintTicketProvider::ConvertPrintTicketToDevMode` converts the settings in the input print ticket into fields in the [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure.
+A pointer to the input print ticket. `IPrintTicketProvider::ConvertPrintTicketToDevMode` converts the settings in the input print ticket into fields in the [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure.
 
 </dd> <dt>
 
@@ -56,7 +56,7 @@ A pointer to the input DEVMODEW structure, which contains default settings. The 
 *pcbDevmodeOut* \[out\]
 </dt> <dd>
 
-A pointer to a variable that contains the size, in bytes, of the output [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure.
+A pointer to a variable that contains the size, in bytes, of the output [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure.
 
 </dd> <dt>
 
@@ -73,9 +73,9 @@ A pointer to a variable that contains the address of the output DEVMODEW structu
 
 ## Remarks
 
-The core driver calls the `IPrintTicketProvider::ConvertPrintTicketToDevMode` method before it performs its part of the conversion of a print ticket to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure. In the call to this method, the core driver passes an input print ticket that is fully populated and a DEVMODEW structure that is set to default values. In the conversion, the plug-in must undo any changes that it made to the print ticket during the previous conversion from a DEVMODEW structure to a print ticket. If, during this previous conversion, the plug-in moved a feature from a private namespace to the public namespace, the plug-in must restore the feature to the private namespace in a format that is suitable for the core driver, that is, to the format in which the core driver had previously placed the feature in the print ticket that was provided to the plug-in in the [**IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket**](iprintoemprintticketprovider-convertdevmodetoprintticket.md) method. This restoration is necessary so that the core driver can recognize a feature in the print ticket and reflect its settings in the private portion of the core driver's DEVMODEW structure while the core driver performs its part of the print ticket-to-DEVMODEW conversion.
+The core driver calls the `IPrintTicketProvider::ConvertPrintTicketToDevMode` method before it performs its part of the conversion of a print ticket to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure. In the call to this method, the core driver passes an input print ticket that is fully populated and a DEVMODEW structure that is set to default values. In the conversion, the plug-in must undo any changes that it made to the print ticket during the previous conversion from a DEVMODEW structure to a print ticket. If, during this previous conversion, the plug-in moved a feature from a private namespace to the public namespace, the plug-in must restore the feature to the private namespace in a format that is suitable for the core driver, that is, to the format in which the core driver had previously placed the feature in the print ticket that was provided to the plug-in in the [**IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket**](iprintoemprintticketprovider-convertdevmodetoprintticket.md) method. This restoration is necessary so that the core driver can recognize a feature in the print ticket and reflect its settings in the private portion of the core driver's DEVMODEW structure while the core driver performs its part of the print ticket-to-DEVMODEW conversion.
 
-Before the system converts a print ticket back to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure, it first loads the default DEVMODEW. The system then calls the provider's [**IPrintTicketProvider::BindPrinter**](iprintticketprovider-bindprinter.md) method. This method should then read all of the settings that it supported from the print ticket, and place those settings into the DEVMODEW structure. Note that not all of the features necessarily will be represented, and that often Option instances that are present might not contain all of the Scored Property instances that the provider would normally populate. If the provider makes any changes to the settings that were populated by the system during conversion from print ticket to DEVMODEW, the provider should perform the reverse of that change in this method. After the provider returns, the system then overwrites any public DEVMODEW settings that are represented in the print ticket but that are not explicitly disabled by the provider.
+Before the system converts a print ticket back to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure, it first loads the default DEVMODEW. The system then calls the provider's [**IPrintTicketProvider::BindPrinter**](iprintticketprovider-bindprinter.md) method. This method should then read all of the settings that it supported from the print ticket, and place those settings into the DEVMODEW structure. Note that not all of the features necessarily will be represented, and that often Option instances that are present might not contain all of the Scored Property instances that the provider would normally populate. If the provider makes any changes to the settings that were populated by the system during conversion from print ticket to DEVMODEW, the provider should perform the reverse of that change in this method. After the provider returns, the system then overwrites any public DEVMODEW settings that are represented in the print ticket but that are not explicitly disabled by the provider.
 
 ## Requirements
 

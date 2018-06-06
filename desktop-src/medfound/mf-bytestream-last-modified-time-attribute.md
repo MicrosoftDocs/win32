@@ -19,7 +19,7 @@ Byte array
 
 ## Remarks
 
-This attribute is optional. The value of the attribute is a [**FILETIME**](https://msdn.microsoft.com/windows/desktop/9baf8a0e-59e3-4fbd-9616-2ec9161520d1) structure.
+This attribute is optional. The value of the attribute is a [**FILETIME**](https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

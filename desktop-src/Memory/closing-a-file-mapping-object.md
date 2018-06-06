@@ -17,7 +17,7 @@ Unmapping a mapped view of a file invalidates the range occupied by the view in 
 
 Modified pages in the unmapped view are not written to disk until their share count reaches zero, or in other words, until they are unmapped or trimmed from the working sets of all processes that share the pages. Even then, the modified pages are written "lazily" to disk; that is, modifications may be cached in memory and written to disk at a later time. To minimize the risk of data loss in the event of a power failure or a system crash, applications should explicitly flush modified pages using the [**FlushViewOfFile**](https://www.bing.com/search?q=**FlushViewOfFile**) function.
 
-When each process finishes using the file mapping object and has unmapped all views, it must close the file mapping object's handle and the file on disk by calling [**CloseHandle**](https://msdn.microsoft.com/windows/desktop/9b84891d-62ca-4ddc-97b7-c4c79482abd9). These calls to **CloseHandle** succeed even when there are file views that are still open. However, leaving file views mapped causes memory leaks.
+When each process finishes using the file mapping object and has unmapped all views, it must close the file mapping object's handle and the file on disk by calling [**CloseHandle**](https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9). These calls to **CloseHandle** succeed even when there are file views that are still open. However, leaving file views mapped causes memory leaks.
 
  
 

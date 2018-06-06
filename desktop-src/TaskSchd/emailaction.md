@@ -65,7 +65,7 @@ When reading or writing your own XML for a task, an email action is specified us
 
 ## Examples
 
-For more information and example code for this scripting object, see [Event Trigger Example (Scripting)](https://www.bing.com/search?q=Event Trigger Example (Scripting)).
+For more information and example code for this scripting object, see [Event Trigger Example (Scripting)](https://www.bing.com/search?q=Event+Trigger+Example+(Scripting)).
 
 ## Requirements
 

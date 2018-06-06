@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## Rendering Options
 
-Text with formatting described by only an [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) object can be rendered with [Direct2D](https://www.bing.com/search?q=Direct2D), however, there are a few more options for rendering an [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) object.
+Text with formatting described by only an [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) object can be rendered with [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b), however, there are a few more options for rendering an [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) object.
 
 The string described by an [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) object can be rendered using the methods below.
 
@@ -33,7 +33,7 @@ pRT_->DrawTextLayout(
 
 
 
-For a more in depth look at drawing an [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) object using [Direct2D](https://www.bing.com/search?q=Direct2D), see [Getting Started with DirectWrite](getting-started-with-directwrite.md).
+For a more in depth look at drawing an [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) object using [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b), see [Getting Started with DirectWrite](getting-started-with-directwrite.md).
 
 ## 2. Render using a custom text renderer.
 

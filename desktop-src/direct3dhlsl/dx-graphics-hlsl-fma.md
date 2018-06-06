@@ -73,7 +73,7 @@ To use the **fma** intrinsic in your shader code, call the [**ID3D11Device::Chec
 
 | Name  | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size                         |
 |-------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------|
-| *a*   | [**scalar**](https://www.bing.com/search?q=**scalar**), **vector**, or **matrix** | [**double**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                       | any                          |
+| *a*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types), **vector**, or **matrix** | [**double**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                       | any                          |
 | *b*   | same as input *a*                                                                                              | [**double**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                       | same dimensions as input *a* |
 | *c*   | same as input *a*                                                                                              | [**double**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                       | same dimensions as input *a* |
 | *ret* | same as input *a*                                                                                              | [**double**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                       | same dimensions as input *a* |

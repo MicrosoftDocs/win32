@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # LB\_SETCOUNT message
 
-Sets the count of items in a list box created with the [**LBS\_NODATA**](https://www.bing.com/search?q=**LBS\_NODATA**) style and not created with the [**LBS\_HASSTRINGS**](https://www.bing.com/search?q=**LBS\_HASSTRINGS**) style.
+Sets the count of items in a list box created with the [**LBS\_NODATA**](list-box-styles.md#lbs-nodata) style and not created with the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style.
 
 ## Parameters
 
@@ -49,7 +49,7 @@ If an error occurs, the return value is LB\_ERR. If there is insufficient memory
 
 ## Remarks
 
-The **LB\_SETCOUNT** message is supported only by list boxes created with the [**LBS\_NODATA**](https://www.bing.com/search?q=**LBS\_NODATA**) style and not created with the [**LBS\_HASSTRINGS**](https://www.bing.com/search?q=**LBS\_HASSTRINGS**) style. All other list boxes return LB\_ERR.
+The **LB\_SETCOUNT** message is supported only by list boxes created with the [**LBS\_NODATA**](list-box-styles.md#lbs-nodata) style and not created with the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style. All other list boxes return LB\_ERR.
 
 ## Requirements
 

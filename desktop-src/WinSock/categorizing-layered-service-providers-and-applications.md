@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Categorizing Layered Service Providers and Applications
 
 > [!Note]  
-> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/windows/desktop/0436f559-20e6-4199-8391-10eb7d85df23).
+> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/0436f559-20e6-4199-8391-10eb7d85df23).
 
  
 
@@ -137,7 +137,7 @@ To map the LSP structure, execute the following console command:
 **instlsp -m**
 
 > [!Note]  
-> The TDI feature is deprecated and will be removed in future versions of Microsoft Windows. Depending on how you use TDI, use either the Winsock Kernel (WSK) or Windows Filtering Platform (WFP). For more information about WFP and WSK, see [Windows Filtering Platform](https://www.bing.com/search?q=Windows Filtering Platform) and [Winsock Kernel](https://www.bing.com/search?q=Winsock Kernel). For a Windows Core Networking blog entry about WSK and TDI, see [Introduction to Winsock Kernel (WSK)](http://go.microsoft.com/fwlink/p/?linkid=188455).
+> The TDI feature is deprecated and will be removed in future versions of Microsoft Windows. Depending on how you use TDI, use either the Winsock Kernel (WSK) or Windows Filtering Platform (WFP). For more information about WFP and WSK, see [Windows Filtering Platform](https://www.bing.com/search?q=Windows+Filtering+Platform) and [Winsock Kernel](https://msdn.microsoft.com/90264a3d-f002-4205-8e15-9060644117a3). For a Windows Core Networking blog entry about WSK and TDI, see [Introduction to Winsock Kernel (WSK)](http://go.microsoft.com/fwlink/p/?linkid=188455).
 
  
 

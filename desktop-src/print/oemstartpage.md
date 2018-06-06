@@ -35,9 +35,9 @@ BOOL APIENTRY OEMStartPage(
 
 ### Comments
 
-See [**DrvStartPage**](https://www.bing.com/search?q=**DrvStartPage**).
+See [**DrvStartPage**](https://msdn.microsoft.com/31e42524-de9a-459a-95a7-94b2597c3cd8).
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all drawing DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvStartPage** function pointer.
 

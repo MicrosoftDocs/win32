@@ -62,16 +62,16 @@ The size of the output buffer, in bytes.
 [**IOCTL\_USBPRINT\_VENDOR\_SET\_COMMAND**](ioctl-usbprint-vendor-set-command.md)
 </dt> <dt>
 
-[Creating IOCTL Requests in Drivers](https://www.bing.com/search?q=Creating IOCTL Requests in Drivers)
+[Creating IOCTL Requests in Drivers](https://www.bing.com/search?q=Creating+IOCTL+Requests+in+Drivers)
 </dt> <dt>
 
-[**WdfIoTargetSendInternalIoctlOthersSynchronously**](https://www.bing.com/search?q=**WdfIoTargetSendInternalIoctlOthersSynchronously**)
+[**WdfIoTargetSendInternalIoctlOthersSynchronously**](https://msdn.microsoft.com/53070b37-3836-49c2-91d1-369552afe214)
 </dt> <dt>
 
-[**WdfIoTargetSendInternalIoctlSynchronously**](https://www.bing.com/search?q=**WdfIoTargetSendInternalIoctlSynchronously**)
+[**WdfIoTargetSendInternalIoctlSynchronously**](https://msdn.microsoft.com/4028b259-a157-4e50-b1a2-25da3050cced)
 </dt> <dt>
 
-[**WdfIoTargetSendIoctlSynchronously**](https://www.bing.com/search?q=**WdfIoTargetSendIoctlSynchronously**)
+[**WdfIoTargetSendIoctlSynchronously**](https://msdn.microsoft.com/1c43f6cd-0026-4654-b3ce-71fd51b3821d)
 </dt> </dl>
 
  

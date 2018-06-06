@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Store.Export method
 
-\[The **Export** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://www.bing.com/search?q=**X509Store Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
+\[The **Export** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://www.bing.com/search?q=**X509Store+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
-The **Export** method copies the contents of an open [*certificate store*](https://www.bing.com/search?q=*certificate store*) to an encoded string.
+The **Export** method copies the contents of an open [*certificate store*](security.c_gly#-security-certificate-store-gly) to an encoded string.
 
 ## Syntax
 

@@ -508,7 +508,7 @@ The router calls each provider until one of them returns ROUTER\_SUCCESS or ROUT
 **fpGetPrinter**
 </dt> <dd>
 
-(Required.) Pointer to the provider's **GetPrinter** function (described in the Windows SDK documentation). If you are [writing a network print provider](https://www.bing.com/search?q=writing a network print provider) and **GetPrinter** is returning a PRINTER\_INFO\_2 structure, the function should supply only the cJobs and Status structure members. The [local print provider](https://www.bing.com/search?q=local print provider) supplies the rest of the structure members.
+(Required.) Pointer to the provider's **GetPrinter** function (described in the Windows SDK documentation). If you are [writing a network print provider](https://www.bing.com/search?q=writing+a+network+print+provider) and **GetPrinter** is returning a PRINTER\_INFO\_2 structure, the function should supply only the cJobs and Status structure members. The [local print provider](https://www.bing.com/search?q=local+print+provider) supplies the rest of the structure members.
 
 </dd> <dt>
 
@@ -1070,7 +1070,7 @@ For internal use only. Must be **NULL**.
 
 ## Remarks
 
-Function pointers are listed in the order they are specified within the PRINTPROVIDOR structure. To see function descriptions grouped by related capabilities, see [Functions Defined by Print Providers](https://www.bing.com/search?q=Functions Defined by Print Providers).
+Function pointers are listed in the order they are specified within the PRINTPROVIDOR structure. To see function descriptions grouped by related capabilities, see [Functions Defined by Print Providers](https://www.bing.com/search?q=Functions+Defined+by+Print+Providers).
 
 ## Requirements
 

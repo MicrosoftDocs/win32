@@ -15,7 +15,7 @@ Message tables are special string resources used when displaying error messages.
 
 The system provides a message table for the [system error codes](system-error-codes.md). To retrieve the string that corresponds to the error code, call [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag.
 
-To provide a message table for your application, follow the instructions in [Message Text Files](https://msdn.microsoft.com/windows/desktop/99fbb3d6-6fde-4162-b0b9-99a1cdf0b8f8). To retrieve strings from your message table, call [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) with the FORMAT\_MESSAGE\_FROM\_HMODULE flag.
+To provide a message table for your application, follow the instructions in [Message Text Files](https://msdn.microsoft.com/99fbb3d6-6fde-4162-b0b9-99a1cdf0b8f8). To retrieve strings from your message table, call [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) with the FORMAT\_MESSAGE\_FROM\_HMODULE flag.
 
  
 

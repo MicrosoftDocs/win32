@@ -43,21 +43,21 @@ The handle to the [*Secure Sockets Layer protocol*](https://msdn.microsoft.com/l
 *dwProtocol* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG SSL Provider Protocol Identifier**) values.
+One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Protocol+Identifier**) values.
 
 </dd> <dt>
 
 *dwCipherSuite* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Cipher Suite Identifiers**](https://www.bing.com/search?q=**CNG SSL Provider Cipher Suite Identifiers**) values.
+One of the [**CNG SSL Provider Cipher Suite Identifiers**](https://www.bing.com/search?q=**CNG+SSL+Provider+Cipher+Suite+Identifiers**) values.
 
 </dd> <dt>
 
 *dwKeyType* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Key Type Identifiers**](https://www.bing.com/search?q=**CNG SSL Provider Key Type Identifiers**) values.
+One of the [**CNG SSL Provider Key Type Identifiers**](https://www.bing.com/search?q=**CNG+SSL+Provider+Key+Type+Identifiers**) values.
 
 </dd> <dt>
 

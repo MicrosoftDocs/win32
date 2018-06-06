@@ -25,12 +25,12 @@ type id ( [ parameters ] )
 
 Functions do not change parameter values in an effect.
 
--   type - Any valid [Reference for HLSL](https://msdn.microsoft.com/windows/desktop/1d0e12ff-8559-4e5c-9914-6ed313ea5464) type.
+-   type - Any valid [Reference for HLSL](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_reference.htm) type.
 -   id - A unique name.
 -   parameters - Function parameters.
 -   body - The body of the function.
 
-Functions are built from the high-level language. See [Reference for HLSL](https://msdn.microsoft.com/windows/desktop/1d0e12ff-8559-4e5c-9914-6ed313ea5464).
+Functions are built from the high-level language. See [Reference for HLSL](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_reference.htm).
 
 ## Related topics
 

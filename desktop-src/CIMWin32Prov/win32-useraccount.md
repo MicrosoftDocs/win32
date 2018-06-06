@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_UserAccount class
 
-The **Win32\_UserAccount** [WMI class](https://msdn.microsoft.com/windows/desktop/cfe4bcca-692e-45cd-a840-93ebfe4ae267) contains information about a user account on a computer system running Windows.
+The **Win32\_UserAccount** [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) contains information about a user account on a computer system running Windows.
 
 > [!Note]  
 > Because both the **Name** and **Domain** are key properties, enumerating **Win32\_UserAccount** on a large network can negatively affect performance. Calling **GetObject** or querying for a specific instance has less impact.
@@ -87,7 +87,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/windows/desktop/50c78c6a-a08f-473b-929a-9528e618165f)\|usri2\_flags")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/50c78c6a-a08f-473b-929a-9528e618165f)\|usri2\_flags")
 </dt> </dl>
 
 Flags that describe the characteristics of a Windows user account.
@@ -170,7 +170,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64), [**DisplayName**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Caption")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Caption")
 </dt> </dl>
 
 Domain and username of the account.
@@ -188,7 +188,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Description")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Description")
 </dt> </dl>
 
 Description of the account.
@@ -206,7 +206,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|USER\_INFO\|UF\_ACCOUNTDISABLE")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|USER\_INFO\|UF\_ACCOUNTDISABLE")
 </dt> </dl>
 
 Windows user account is disabled.
@@ -222,7 +222,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Domain"), [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Functions\|domainname")
+Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Domain"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Functions\|domainname")
 </dt> </dl>
 
 Name of the Windows domain to which a user account belongs, for example: "NA-SALES".
@@ -238,7 +238,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/windows/desktop/50c78c6a-a08f-473b-929a-9528e618165f)\|**usri2\_full\_name**")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/50c78c6a-a08f-473b-929a-9528e618165f)\|**usri2\_full\_name**")
 </dt> </dl>
 
 Full name of a local user, for example: "Dan Wilson".
@@ -254,7 +254,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Install Date")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Install Date")
 </dt> </dl>
 
 Date the object is installed. This property does not need a value to indicate that the object is installed.
@@ -272,7 +272,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://msdn.microsoft.com/windows/desktop/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**Fixed**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
 </dt> </dl>
 
 If **true**, the account is defined on the local computer.
@@ -290,7 +290,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/windows/desktop/50c78c6a-a08f-473b-929a-9528e618165f)\|**UF\_LOCKOUT**")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/50c78c6a-a08f-473b-929a-9528e618165f)\|**UF\_LOCKOUT**")
 </dt> </dl>
 
 If **true**, the user account is locked out of the Windows operating system.
@@ -306,7 +306,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Name"), [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|name")
+Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Name"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|name")
 </dt> </dl>
 
 Name of the Windows user account on the domain that the **Domain** property of this class specifies.
@@ -326,7 +326,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/windows/desktop/50c78c6a-a08f-473b-929a-9528e618165f)\|**UF\_PASSWD\_CANT\_CHANGE**")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/50c78c6a-a08f-473b-929a-9528e618165f)\|**UF\_PASSWD\_CANT\_CHANGE**")
 </dt> </dl>
 
 If **true**, the password on this user account can be changed.
@@ -342,7 +342,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/windows/desktop/50c78c6a-a08f-473b-929a-9528e618165f)\|**UF\_DONT\_EXPIRE\_PASSWD**")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/50c78c6a-a08f-473b-929a-9528e618165f)\|**UF\_DONT\_EXPIRE\_PASSWD**")
 </dt> </dl>
 
 If **true**, the password on this user account expires.
@@ -358,7 +358,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/windows/desktop/50c78c6a-a08f-473b-929a-9528e618165f)\|**UF\_PASSWD\_NOTREQD**")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**USER\_INFO\_2**](https://msdn.microsoft.com/50c78c6a-a08f-473b-929a-9528e618165f)\|**UF\_PASSWD\_NOTREQD**")
 </dt> </dl>
 
 If **true**, a password is required on a Windows user account. If **false**, this account does not require a password.
@@ -374,7 +374,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://msdn.microsoft.com/windows/desktop/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Security Identifiers (SIDs)")
+Qualifiers: [**Fixed**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Security Identifiers (SIDs)")
 </dt> </dl>
 
 Security identifier (SID) for this account. A SID is a string value of variable length that is used to identify a trustee. Each account has a unique SID that an authority, such as a Windows domain, issues. The SID is stored in the security database. When a user logs on, the system retrieves the user SID from the database, places the SID in the user access token, and then uses the SID in the user access token to identify the user in all subsequent interactions with Windows security. Each SID is a unique identifier for a user or group, and a different user or group cannot have the same SID.
@@ -392,7 +392,7 @@ Data type: **uint8**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Fixed**](https://msdn.microsoft.com/windows/desktop/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Access Control Enumeration Types\|[**SID\_NAME\_USE**](https://msdn.microsoft.com/windows/desktop/4e6af6bd-056b-4f5a-b223-57a673c3fcfa)")
+Qualifiers: [**Fixed**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Access Control Enumeration Types\|[**SID\_NAME\_USE**](https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa)")
 </dt> </dl>
 
 Enumerated value that specifies the type of SID.
@@ -475,7 +475,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) (10), [**DisplayName**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Status")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (10), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Status")
 </dt> </dl>
 
 Current status of an object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail", which is an element such as a SMART-enabled hard disk drive that may be functioning properly, but predicts a failure in the near future. Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service", which can apply during mirror resilvering of a disk, reloading a user permissions list, or other administrative work.
@@ -647,7 +647,7 @@ using System.Management;
 [**Win32\_Account**](win32-account.md)
 </dt> <dt>
 
-[Operating System Classes](https://www.bing.com/search?q=Operating System Classes)
+[Operating System Classes](https://www.bing.com/search?q=Operating+System+Classes)
 </dt> </dl>
 
  

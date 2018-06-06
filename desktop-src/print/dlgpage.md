@@ -105,7 +105,7 @@ Caller-supplied resource identifier for a dialog box template. This can refer to
 
  
 
-The CPSUI-supplied identifiers refer to templates that can display [CPSUI option types](https://www.bing.com/search?q=CPSUI option types). The page size for those templates is 252 by 216 dialog box units. For more information, see [CPSUI-Supplied Pages and Templates](https://www.bing.com/search?q=CPSUI-Supplied Pages and Templates).
+The CPSUI-supplied identifiers refer to templates that can display [CPSUI option types](https://www.bing.com/search?q=CPSUI+option+types). The page size for those templates is 252 by 216 dialog box units. For more information, see [CPSUI-Supplied Pages and Templates](https://www.bing.com/search?q=CPSUI-Supplied+Pages+and+Templates).
 
 This member is not used if DPF\_USE\_HDLGTEMPLATE is set in **Flags**.
 

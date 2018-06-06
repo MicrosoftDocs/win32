@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 This section describes the functions defined by user-mode rendering DLLs. The functions are defined in header file Winddiui.h.
 
-These functions are obsolete, and are supported only so that user-mode rendering DLLs, optionally supplied with Windows NT 4.0 drivers, will execute under Windows 2000 and later. To supply user-mode image-rendering code for printers, see [Choosing User Mode or Kernel Mode](https://www.bing.com/search?q=Choosing User Mode or Kernel Mode).
+These functions are obsolete, and are supported only so that user-mode rendering DLLs, optionally supplied with Windows NT 4.0 drivers, will execute under Windows 2000 and later. To supply user-mode image-rendering code for printers, see [Choosing User Mode or Kernel Mode](https://www.bing.com/search?q=Choosing+User+Mode+or+Kernel+Mode).
 
 <dl>
 

@@ -5187,7 +5187,7 @@ C:\\Windows
 [How to Extend Known Folders with Custom Folders](how-to-extend-known-folders-with-custom-folders.md)
 </dt> <dt>
 
-[Known Folders Sample](https://msdn.microsoft.com/windows/desktop/49799A9E-BA86-4977-B5F3-590BE1E5FBF6)
+[Known Folders Sample](https://msdn.microsoft.com/49799A9E-BA86-4977-B5F3-590BE1E5FBF6)
 </dt> </dl>
 
  

@@ -62,10 +62,10 @@ The lighting coefficient vector.
 
 | Name        | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size |
 |-------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------|
-| *n\_dot\_l* | [**scalar**](https://www.bing.com/search?q=**scalar**) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 1    |
-| *n\_dot\_h* | [**scalar**](https://www.bing.com/search?q=**scalar**) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 1    |
-| *m*         | [**scalar**](https://www.bing.com/search?q=**scalar**) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 1    |
-| *ret*       | [**vector**](https://www.bing.com/search?q=**vector**) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 4    |
+| *n\_dot\_l* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 1    |
+| *n\_dot\_h* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 1    |
+| *m*         | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 1    |
+| *ret*       | [**vector**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 4    |
 
 
 

@@ -49,7 +49,7 @@ Print providers should call [**AppendPrinterNotifyInfoData**](appendprinternotif
 
 If `RefreshPrinterChangeNotification` executes successfully and returns the allocated structures to the caller, you should assume that the caller will deallocate structure memory. However, if `RefreshPrinterChangeNotification` encounters an error it should call [**RouterFreePrinterNotifyInfo**](routerfreeprinternotifyinfo.md) to deallocate the memory.
 
-For additional information, see [Supporting Printer Change Notifications](https://www.bing.com/search?q=Supporting Printer Change Notifications).
+For additional information, see [Supporting Printer Change Notifications](https://www.bing.com/search?q=Supporting+Printer+Change+Notifications).
 
 ## Requirements
 

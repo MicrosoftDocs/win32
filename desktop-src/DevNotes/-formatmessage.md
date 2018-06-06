@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[This function is a wrapper over the **FormatMessage** function. This function may be altered or unavailable in the future. Applications should call **FormatMessage** directly.\]
 
-Formats a message string. See [**FormatMessage**](https://msdn.microsoft.com/windows/desktop/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c).
+Formats a message string. See [**FormatMessage**](https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c).
 
 ## Syntax
 
@@ -47,7 +47,7 @@ DWORD _FormatMessage(
 
 <dl> <dt>
 
-[**FormatMessage**](https://msdn.microsoft.com/windows/desktop/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c)
+[**FormatMessage**](https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c)
 </dt> </dl>
 
  

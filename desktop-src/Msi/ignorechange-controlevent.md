@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The IgnoreChange ControlEvent is published by the [DirectoryList control](directorylist-control.md) when the selected folder is changed from one directory to another directory in the control. This event should be authored in the [EventMapping table](eventmapping-table.md).
 
-This ControlEvent requires the user interface to be run at the [*full UI*](https://www.bing.com/search?q=*full UI*) level. This event will not work with a [*reduced UI*](https://www.bing.com/search?q=*reduced UI*) or [*basic UI*](https://www.bing.com/search?q=*basic UI*). For information, see [User Interface Levels](user-interface-levels.md).
+This ControlEvent requires the user interface to be run at the [*full UI*](f-gly.md#-msi-full-ui-gly) level. This event will not work with a [*reduced UI*](r-gly.md#-msi-reduced-ui-gly) or [*basic UI*](b-gly.md#-msi-basic-ui-gly). For information, see [User Interface Levels](user-interface-levels.md).
 
 ## Published By
 

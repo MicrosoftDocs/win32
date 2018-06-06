@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Verifying a Signature
 
-To verify a signature, create a [*hash object*](https://www.bing.com/search?q=*hash object*) using [**CryptCreateHash**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash). This hash object accumulates the data to be verified. The data is then added to the hash object with the [**CryptHashData**](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashdata) function.
+To verify a signature, create a [*hash object*](security.h_gly#-security-hash-object-gly) using [**CryptCreateHash**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash). This hash object accumulates the data to be verified. The data is then added to the hash object with the [**CryptHashData**](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashdata) function.
 
 After the last block of data is added to the hash, use [**CryptVerifySignature**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifysignaturea) to verify the signature. The address of the signature data, a handle to the hash object, and the handle of the public keys are passed to **CryptVerifySignature**.
 

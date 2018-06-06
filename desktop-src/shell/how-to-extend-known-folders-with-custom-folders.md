@@ -33,7 +33,7 @@ Give consideration to why you want your folder to be included in the known folde
 
 <dl> <dt>
 
-[Known Folders Sample](https://msdn.microsoft.com/windows/desktop/49799A9E-BA86-4977-B5F3-590BE1E5FBF6)
+[Known Folders Sample](https://msdn.microsoft.com/49799A9E-BA86-4977-B5F3-590BE1E5FBF6)
 </dt> </dl>
 
  

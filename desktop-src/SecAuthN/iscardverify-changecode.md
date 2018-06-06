@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ISCardVerify::ChangeCode method
 
-\[The **ChangeCode** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **ChangeCode** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
 The **ChangeCode** method replaces the current CHV (card holder verification) code with new CHV code.
 
@@ -43,7 +43,7 @@ Pointer to an [**IByteBuffer**](ibytebuffer.md) containing the user's current co
 *pNewCode* \[in\]
 </dt> <dd>
 
-Pointer to an [**IByteBuffer**](ibytebuffer.md) containing the new code that will be presented to the [*smart card*](https://www.bing.com/search?q=*smart card*) during the change process to authenticate the user.
+Pointer to an [**IByteBuffer**](ibytebuffer.md) containing the new code that will be presented to the [*smart card*](security.s_gly#-security-smart-card-gly) during the change process to authenticate the user.
 
 </dd> <dt>
 
@@ -94,7 +94,7 @@ The method returns one of the following possible values:
 
 For a list of all the methods defined by this interface, see [**ISCardVerify**](iscardverify.md).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](https://www.bing.com/search?q=Smart Card Return Values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
 
 ## Requirements
 
@@ -119,7 +119,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 [**ISCardVerify**](iscardverify.md)
 </dt> <dt>
 
-[Smart Card Return Values](https://www.bing.com/search?q=Smart Card Return Values)
+[Smart Card Return Values](authentication-return-values.md#smart-card-return-values)
 </dt> </dl>
 
  

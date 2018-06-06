@@ -27,7 +27,7 @@ The following set of topics provide guidance on how to implement camera RAW imag
 
 [Decoding](-wic-rawguidelines-metadata-decoding.md)  
 [Encoding](-wic-rawguidelines-metadata-encoding.md)  
-</dl> </dd> [Support for IWICDevelopRaw](https://www.bing.com/search?q=Support for IWICDevelopRaw)  
+</dl> </dd> [Support for IWICDevelopRaw](https://www.bing.com/search?q=Support+for+IWICDevelopRaw)  
 [Implementing Guidelines for Serializing IWICDevelopRaw Settings](-wic-rawguidelines-iwicdevelopraw-serializing.md)  
 [Performance](-wic-rawguidelines-performance.md)  
 [High Dynamic Range Pixel Formats](-wic-rawguidelines-hdr-formats.md)  
@@ -36,8 +36,8 @@ The following set of topics provide guidance on how to implement camera RAW imag
 [Codec Availability and Platform Support](-wic-rawguidelines-availability.md)  
 <dl>
 
-[Codec Discovery](https://www.bing.com/search?q=Codec Discovery)  
-[Windows XP Platform Support](https://www.bing.com/search?q=Windows XP Platform Support)  
+[Codec Discovery](-wic-rawguidelines-availability.md#-codec-discovery)  
+[Windows XP Platform Support](-wic-rawguidelines-availability.md#windows-xp-platform-support)  
 </dl> </dd> [RAW Codec Requirements for Windows 7](-wic-rawguidelines-win7.md)  
 [For More Information](-wic-rawguidelines-moreinfo.md)  
 </dl>

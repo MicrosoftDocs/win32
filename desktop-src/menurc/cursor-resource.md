@@ -62,7 +62,7 @@ cursor1 CURSOR "bullseye.cur"
 
 <dl> <dt>
 
-[Using Cursors](https://www.bing.com/search?q=Using Cursors)
+[Using Cursors](https://www.bing.com/search?q=Using+Cursors)
 </dt> </dl>
 
  

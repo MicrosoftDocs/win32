@@ -15,12 +15,12 @@ ms.date: 05/31/2018
 
 # Creating Hierarchies Within WMI
 
-[*WMI namespace*](https://www.bing.com/search?q=*WMI namespace*) is a programming object that defines the scope for a set of classes and instances. WMI provider classes must be defined inside a namespace.
+[*WMI namespace*](gloss-n.md#wmi-gloss-namespace) is a programming object that defines the scope for a set of classes and instances. WMI provider classes must be defined inside a namespace.
 
 Namespaces describe different managed environments, such as the SMS environment. Because the classes and instances of a schema define the components of a managed environment, each new schema requires a new namespace. For example, the root\\cimv2 namespace contains the classes and instances defined in the Win32 schema as well as the parent Common Information Model (CIM) classes from which the Win32 schema inherits. CIM classes are defined by the Distributed Management Task Force ([DMTF](Http://go.microsoft.com/fwlink/p/?linkid=84295)).
 
 > [!Note]  
-> To ensure that all of your WMI class definitions for managed objects are restored to the [*WMI repository*](https://www.bing.com/search?q=*WMI repository*) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) preprocessor instruction in your [*Managed Object Format (MOF)*](https://www.bing.com/search?q=*Managed Object Format (MOF)*) file.
+> To ensure that all of your WMI class definitions for managed objects are restored to the [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) preprocessor instruction in your [*Managed Object Format (MOF)*](gloss-m.md#wmi-gloss-managed-object-format) file.
 
  
 

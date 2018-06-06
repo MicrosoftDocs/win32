@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Waiting for Multiple Objects
 
-The following example uses the [**CreateEvent**](/windows/desktop/api/WinBase/nf-synchapi-createeventa) function to create two event objects and the [**CreateThread**](https://msdn.microsoft.com/windows/desktop/202a4b42-513a-45de-894a-72e56c706a58) function to create a thread. It then uses the [**WaitForMultipleObjects**](/windows/desktop/api/WinBase/wdm-irqlkewaitformultipleobjects) function to wait for the thread to set the state of one of the objects to signaled using the [**SetEvent**](/windows/desktop/api/WinBase/nf-synchapi-setevent) function.
+The following example uses the [**CreateEvent**](/windows/desktop/api/WinBase/nf-synchapi-createeventa) function to create two event objects and the [**CreateThread**](https://msdn.microsoft.com/202a4b42-513a-45de-894a-72e56c706a58) function to create a thread. It then uses the [**WaitForMultipleObjects**](/windows/desktop/api/WinBase/wdm-irqlkewaitformultipleobjects) function to wait for the thread to set the state of one of the objects to signaled using the [**SetEvent**](/windows/desktop/api/WinBase/nf-synchapi-setevent) function.
 
 For an example that waits for a single object, see [Using Mutex Objects](using-mutex-objects.md).
 

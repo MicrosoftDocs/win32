@@ -37,7 +37,7 @@ As part of standard account creation in Windows 8, an administrator has ability 
     -   Activity Reporting on
     -   All restrictions are off
 -   If the administrator used a Microsoft account to logon to Windows, the Windows 8 computer will be configured for remote management of family safety settings and email activity reports. The Family Safety website can be then used to manage such a computer remotely.
--   If the third-party provider wishes for the checkbox to be present in a standard account creation flow the following value should be present among the provider s registration values. For more information on provider registration details, see the [Provider Registration](https://www.bing.com/search?q=Provider Registration) section on the What's New in Windows 7 Parental Controls topic.
+-   If the third-party provider wishes for the checkbox to be present in a standard account creation flow the following value should be present among the provider s registration values. For more information on provider registration details, see the [Provider Registration](what-s-new-in-windows-7-parental-controls.md#provider-registration) section on the What's New in Windows 7 Parental Controls topic.
 
     
 

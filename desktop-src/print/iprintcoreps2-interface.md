@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # IPrintCorePS2 interface
 
-This section describes the methods defined for the [IPrintCorePS2 COM Interface](https://www.bing.com/search?q=IPrintCorePS2 COM Interface). Method prototypes are defined in prcomoem.h.
+This section describes the methods defined for the [IPrintCorePS2 COM Interface](https://www.bing.com/search?q=IPrintCorePS2+COM+Interface). Method prototypes are defined in prcomoem.h.
 
 ## Members
 
-The **IPrintCorePS2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintCorePS2** also has these types of members:
+The **IPrintCorePS2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintCorePS2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -27,7 +27,7 @@ The **IPrintCorePS2** interface has these methods.
 
 | Method                                                           | Description                                                                                                                                                                              |
 |:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DrvWriteSpoolBuf**](iprintcoreps2-drvwritespoolbuf.md)       | The `IPrintCorePS2::DrvWriteSpoolBuf` method is provided by the Pscript5 driver so that a [rendering plug-in](https://www.bing.com/search?q=rendering plug-in) can send printer data to the spooler.<br/> |
+| [**DrvWriteSpoolBuf**](iprintcoreps2-drvwritespoolbuf.md)       | The `IPrintCorePS2::DrvWriteSpoolBuf` method is provided by the Pscript5 driver so that a [rendering plug-in](https://www.bing.com/search?q=rendering+plug-in) can send printer data to the spooler.<br/> |
 | [**EnumFeatures**](iprintcoreps2-enumfeatures.md)               | The `IPrintCorePS2::EnumFeatures` method enumerates a printer's available features.<br/>                                                                                           |
 | [**EnumOptions**](iprintcoreps2-enumoptions.md)                 | The `IPrintCorePS2::EnumOptions` method enumerates the available options of a specific feature.<br/>                                                                               |
 | [**GetFeatureAttribute**](iprintcoreps2-getfeatureattribute.md) | The `IPrintCorePS2::GetFeatureAttribute` method retrieves the feature attribute list or the value of a specific feature attribute.<br/>                                            |

@@ -90,7 +90,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-If you are providing a user interface plug-in that implements the [**IPrintOemUI::DocumentPropertySheets**](iprintoemui-documentpropertysheets.md) method or the [**IPrintOemUI::DevicePropertySheets**](iprintoemui-devicepropertysheets.md) method, you typically also supply a [**\_CPSUICALLBACK**](-cpsuicallback.md)-typed callback function to handle user modifications. This callback function must call `IPrintOemDriverUI::DrvUpdateUISetting` to inform the driver when the value associated with a user interface setting has been modified, if the value is stored in the driver's [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure (instead of the plug-in's private DEVMODEW members ) or in registry keys.
+If you are providing a user interface plug-in that implements the [**IPrintOemUI::DocumentPropertySheets**](iprintoemui-documentpropertysheets.md) method or the [**IPrintOemUI::DevicePropertySheets**](iprintoemui-devicepropertysheets.md) method, you typically also supply a [**\_CPSUICALLBACK**](-cpsuicallback.md)-typed callback function to handle user modifications. This callback function must call `IPrintOemDriverUI::DrvUpdateUISetting` to inform the driver when the value associated with a user interface setting has been modified, if the value is stored in the driver's [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure (instead of the plug-in's private DEVMODEW members ) or in registry keys.
 
 The value specified for *dwMode* should be based on which method specified the callback function.
 

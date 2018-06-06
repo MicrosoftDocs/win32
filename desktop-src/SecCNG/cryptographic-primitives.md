@@ -36,7 +36,7 @@ CNG provides primitives for the following classes of algorithms.
 
 The following illustration shows the design and function of the CNG cryptographic primitives.
 
-![design and function of cng cryptographic primitives](https://www.bing.com/search?q=design and function of cng cryptographic primitives)
+![design and function of cng cryptographic primitives](https://www.bing.com/search?q=design+and+function+of+cng+cryptographic+primitives)
 
 The header file Bcrypt.h defines the **MS\_PRIMITIVE\_PROVIDER** constant as "Microsoft Primitive Provider". To use the Microsoft Primitive Provider, pass this value to [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider).
 

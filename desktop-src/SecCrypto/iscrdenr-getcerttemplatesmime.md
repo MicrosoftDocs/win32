@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **getCertTemplateSMIME** method is used to determine whether a certificate template contains the szOID\_PKIX\_KP\_EMAIL\_PROTECTION key usage.
 
-If this key usage is part of the certificate template, the certificate template supports [*Secure/Multipurpose Internet Mail Extensions*](https://www.bing.com/search?q=*Secure/Multipurpose Internet Mail Extensions*) (S/MIME) operations.
+If this key usage is part of the certificate template, the certificate template supports [*Secure/Multipurpose Internet Mail Extensions*](security.s_gly#-security-secure-multipurpose-internet-mail-extensions-gly) (S/MIME) operations.
 
 ## Syntax
 

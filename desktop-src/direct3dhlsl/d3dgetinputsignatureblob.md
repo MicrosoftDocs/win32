@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 # D3DGetInputSignatureBlob function
 
 > [!Note]  
-> **D3DGetInputSignatureBlob** may be altered or unavailable for releases after Windows 8.1. Instead use [**D3DGetBlobPart**](d3dgetblobpart.md) with the [**D3D\_BLOB\_INPUT\_SIGNATURE\_BLOB**](https://www.bing.com/search?q=**D3D\_BLOB\_INPUT\_SIGNATURE\_BLOB**) value.
+> **D3DGetInputSignatureBlob** may be altered or unavailable for releases after Windows 8.1. Instead use [**D3DGetBlobPart**](d3dgetblobpart.md) with the [**D3D\_BLOB\_INPUT\_SIGNATURE\_BLOB**](d3d-blob-part.md#d3d-blob-input-signature-blob) value.
 
  
 

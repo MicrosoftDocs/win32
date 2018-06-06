@@ -36,8 +36,8 @@ One of the following values that specifies alignment:
 
 | Value                                                                                                                                                            | Meaning                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| <span id="LVA_ALIGNLEFT"></span><span id="lva_alignleft"></span><dl> <dt>**LVA\_ALIGNLEFT**</dt> </dl>    | Not implemented. Apply the [**LVS\_ALIGNLEFT**](https://www.bing.com/search?q=**LVS\_ALIGNLEFT**) style instead.<br/> |
-| <span id="LVA_ALIGNTOP"></span><span id="lva_aligntop"></span><dl> <dt>**LVA\_ALIGNTOP**</dt> </dl>       | Not implemented. Apply the [**LVS\_ALIGNTOP**](https://www.bing.com/search?q=**LVS\_ALIGNTOP**) style instead.<br/>   |
+| <span id="LVA_ALIGNLEFT"></span><span id="lva_alignleft"></span><dl> <dt>**LVA\_ALIGNLEFT**</dt> </dl>    | Not implemented. Apply the [**LVS\_ALIGNLEFT**](list-view-window-styles.md#lvs-alignleft) style instead.<br/> |
+| <span id="LVA_ALIGNTOP"></span><span id="lva_aligntop"></span><dl> <dt>**LVA\_ALIGNTOP**</dt> </dl>       | Not implemented. Apply the [**LVS\_ALIGNTOP**](list-view-window-styles.md#lvs-aligntop) style instead.<br/>   |
 | <span id="LVA_DEFAULT"></span><span id="lva_default"></span><dl> <dt>**LVA\_DEFAULT**</dt> </dl>          | Aligns items according to the list-view control's current alignment styles (the default value).<br/>           |
 | <span id="LVA_SNAPTOGRID"></span><span id="lva_snaptogrid"></span><dl> <dt>**LVA\_SNAPTOGRID**</dt> </dl> | Snaps all icons to the nearest grid position.<br/>                                                             |
 

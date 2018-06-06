@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CSPs and the Cryptography Process
 
-[*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) functions use [*cryptographic service providers*](https://www.bing.com/search?q=*cryptographic service providers*) (CSPs) to perform encryption and decryption, and to provide key storage and security. These CSPs are independent modules. Ideally, CSPs are written to be independent of a particular application, so that any application will run with a variety of CSPs. In reality, however, some applications have specific requirements that require a customized CSP. This compares to the Windows [*GDI*](https://www.bing.com/search?q=*GDI*) model. CSPs are analogous to graphics device drivers.
+[*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions use [*cryptographic service providers*](security.c_gly#-security-cryptographic-service-provider-gly) (CSPs) to perform encryption and decryption, and to provide key storage and security. These CSPs are independent modules. Ideally, CSPs are written to be independent of a particular application, so that any application will run with a variety of CSPs. In reality, however, some applications have specific requirements that require a customized CSP. This compares to the Windows [*GDI*](security.g_gly#-security-graphics-device-interface-gly) model. CSPs are analogous to graphics device drivers.
 
 The quality of protection for keys within the system is a design parameter of the CSP and not of the system as a whole. This allows an application to run in a variety of security contexts without modification.
 
@@ -21,9 +21,9 @@ The following three design rules apply:
 
 -   Applications cannot directly access keying material. Because all keying material is generated within the CSP and used by the application through opaque handles, there is no risk of an application or its associated DLLs either divulging keying material or choosing keying material from poor random sources.
 -   Applications cannot specify the details of cryptographic operations. The CSP interface allows an application to choose an encryption or signature algorithm, but the implementation of every cryptographic operation is done by the CSP.
--   Applications do not handle user [*credentials*](https://www.bing.com/search?q=*credentials*) or other user authentication data. User authentication is done by the CSP; therefore, future CSPs with advanced authentication capabilities, such as biometric inputs, will function without needing to change the application authentication model.
+-   Applications do not handle user [*credentials*](security.c_gly#-security-credentials-gly) or other user authentication data. User authentication is done by the CSP; therefore, future CSPs with advanced authentication capabilities, such as biometric inputs, will function without needing to change the application authentication model.
 
-At a minimum, a CSP consists of a dynamic-link library (DLL) and a [*signature file*](https://www.bing.com/search?q=*signature file*). The signature file is necessary to ensure that the [*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) recognizes the CSP. CryptoAPI validates this signature periodically to ensure that any tampering with the CSP is detected.
+At a minimum, a CSP consists of a dynamic-link library (DLL) and a [*signature file*](security.s_gly#-security-signature-file-gly). The signature file is necessary to ensure that the [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) recognizes the CSP. CryptoAPI validates this signature periodically to ensure that any tampering with the CSP is detected.
 
 Some CSPs can implement a fraction of their functionality in an address-separated service called through local RPC or in hardware called through a system device driver. Isolating global key-state and central cryptographic operations in an address-separated service or in hardware keeps keys and operations safe from tampering within an application data space.
 

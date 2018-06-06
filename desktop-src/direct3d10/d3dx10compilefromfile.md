@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # D3DX10CompileFromFile function
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the [**D3DCompile**](https://msdn.microsoft.com/windows/desktop/feb3d4d1-06ce-4141-9267-c6c771659aa7) API.
+> Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the [**D3DCompile**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dcompile.htm) API.
 
  
 
@@ -46,7 +46,7 @@ HRESULT D3DX10CompileFromFile(
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The name of the file that contains the shader code. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -73,7 +73,7 @@ Optional. Pointer to an [**ID3D10Include Interface**](/windows/desktop/api/D3D10
 *pFunctionName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Name of the shader-entry point function where shader execution begins. When you compile an effect, **D3DX10CompileFromFile** ignores *pFunctionName*; we recommend that you set *pFunctionName* to **NULL** because it is good programming practice to set a pointer parameter to **NULL** if the called function will not use it.
 
@@ -82,16 +82,16 @@ Name of the shader-entry point function where shader execution begins. When you 
 *pProfile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-A string that specifies the shader model; can be any profile in [shader model 2](https://msdn.microsoft.com/windows/desktop/53c367d2-5b6a-4afa-894a-8ab9927169d5), [shader model 3](https://msdn.microsoft.com/windows/desktop/bd09f86e-946f-4281-bc48-1db5cd32b2ae), or [shader model 4](https://msdn.microsoft.com/windows/desktop/76155749-11e9-41ff-881d-8f77f2729364).
+A string that specifies the shader model; can be any profile in [shader model 2](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_sm2.htm), [shader model 3](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_sm3.htm), or [shader model 4](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_sm4.htm).
 
 </dd> <dt>
 
 *Flags1* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 [Shader compile flags](d3d10-shader.md).
 
@@ -100,7 +100,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493
 *Flags2* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 [Effect compile flags](d3d10-graphics-reference-effect-constants.md). When you compile a shader and not an effect file, **D3DX10CompileFromFile** ignores *Flags2*; we recommend that you set *Flags2* to zero because it is good programming practice to set a nonpointer parameter to zero if the called function will not use it.
 

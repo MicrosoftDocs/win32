@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_rpc_udp_glos"></span><span id="_RPC_UDP_GLOS"></span>**User Datagram Protocol (UDP)**
 </dt> <dd>
 
-Network transport that uses connectionless [*datagram*](https://www.bing.com/search?q=*datagram*) sockets and is layered on top of the Internet Protocol ([*IP)*](https://www.bing.com/search?q=*IP)*).
+Network transport that uses connectionless [*datagram*](d-glos.md#-rpc-datagram-glos) sockets and is layered on top of the Internet Protocol ([*IP)*](i-glos.md#-rpc-ip-glos).
 
 </dd> <dt>
 
@@ -33,7 +33,7 @@ Process of terminating the logical connection between a client and server.
 <span id="_rpc_unique_pointer_glos"></span><span id="_RPC_UNIQUE_POINTER_GLOS"></span>**unique pointer**
 </dt> <dd>
 
-Pointer that can be null or point to existing data, whose value can change during a remote procedure call. A unique pointer cannot be aliased. The \[ [unique](https://msdn.microsoft.com/library/windows/desktop/aa367294)\] attribute designates a unique pointer. See also [*full pointer*](https://www.bing.com/search?q=*full pointer*), [*reference pointer*](https://www.bing.com/search?q=*reference pointer*).
+Pointer that can be null or point to existing data, whose value can change during a remote procedure call. A unique pointer cannot be aliased. The \[ [unique](https://msdn.microsoft.com/library/windows/desktop/aa367294)\] attribute designates a unique pointer. See also [*full pointer*](f-glos.md#-rpc-full-pointer-glos), [*reference pointer*](r-glos.md#-rpc-reference-pointer-glos).
 
 </dd> <dt>
 

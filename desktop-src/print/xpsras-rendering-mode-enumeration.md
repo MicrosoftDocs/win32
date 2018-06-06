@@ -47,7 +47,7 @@ Do not use antialiasing to rasterize the specified graphics elements.
 
 The values defined in this enumeration are used by the [**IXpsRasterizationFactory::CreateRasterizer**](ixpsrasterizationfactory-createrasterizer.md) method.
 
-For more information about rasterizing XPS documents, see [Using the XPS Rasterization Service](https://www.bing.com/search?q=Using the XPS Rasterization Service).
+For more information about rasterizing XPS documents, see [Using the XPS Rasterization Service](https://www.bing.com/search?q=Using+the+XPS+Rasterization+Service).
 
 ## Requirements
 

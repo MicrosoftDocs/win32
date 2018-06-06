@@ -33,7 +33,7 @@ The following table describes which threads the [**PenInputPanel**](/windows/des
 [**PenInputPanel Class**](/windows/desktop/api/msinkaut/)
 </dt> <dt>
 
-[Microsoft.Ink.PenInputPanel Class](https://www.bing.com/search?q=Microsoft.Ink.PenInputPanel Class)
+[Microsoft.Ink.PenInputPanel Class](https://www.bing.com/search?q=Microsoft.Ink.PenInputPanel+Class)
 </dt> </dl>
 
  

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## 
 
-The graphics DDI functions that must be defined by a [printer graphics DLL](https://www.bing.com/search?q=printer graphics DLL) are described in [GDI Functions Implemented by Printer and Display Drivers](https://www.bing.com/search?q=GDI Functions Implemented by Printer and Display Drivers). For a list of the subset of graphics driver functions that are relevant to printer graphics DLLs, see [Functions Defined by Printer Graphics DLLs](https://www.bing.com/search?q=Functions Defined by Printer Graphics DLLs).
+The graphics DDI functions that must be defined by a [printer graphics DLL](https://www.bing.com/search?q=printer+graphics+DLL) are described in [GDI Functions Implemented by Printer and Display Drivers](https://msdn.microsoft.com/c5480816-eeed-4fbf-bda3-874977b364fb). For a list of the subset of graphics driver functions that are relevant to printer graphics DLLs, see [Functions Defined by Printer Graphics DLLs](https://www.bing.com/search?q=Functions+Defined+by+Printer+Graphics+DLLs).
 
  
 

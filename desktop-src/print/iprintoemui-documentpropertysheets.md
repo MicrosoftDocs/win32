@@ -65,13 +65,13 @@ If you provide a user interface plug-in, the `IPrintOemUI::DocumentPropertySheet
 
 When `IPrintOemUI::DocumentPropertySheets` is called, the **lParamInit** member of the [**PROPSHEETUI\_INFO**](propsheetui-info.md) structure contains the address of an [**OEMUIPSPARAM**](oemuipsparam.md) structure.
 
-If you implement this method, you typically also supply a [**\_CPSUICALLBACK**](-cpsuicallback.md)-typed callback function to handle user modifications. This callback function must call [**IPrintOemDriverUI::DrvUpdateUISetting**](iprintoemdriverui-drvupdateuisetting.md) to inform the driver when the value associated with a user interface setting has been modified, if the value is stored in the driver's [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure (instead of the plug-in's private DEVMODEW members ) or in registry keys.
+If you implement this method, you typically also supply a [**\_CPSUICALLBACK**](-cpsuicallback.md)-typed callback function to handle user modifications. This callback function must call [**IPrintOemDriverUI::DrvUpdateUISetting**](iprintoemdriverui-drvupdateuisetting.md) to inform the driver when the value associated with a user interface setting has been modified, if the value is stored in the driver's [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure (instead of the plug-in's private DEVMODEW members ) or in registry keys.
 
 If `IPrintOemUI::DocumentPropertySheets` methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
 If one user interface plug-in supports several printer models, and if you only want the new page to be displayed for some of those models, the `IPrintOemUI::DocumentPropertySheets` method should just provide a success return value, without actually adding the page, for the models not requiring the page.
 
-For more information about creating and installing user interface plug-ins, see [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing Microsoft's Printer Drivers).
+For more information about creating and installing user interface plug-ins, see [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing+Microsoft's+Printer+Drivers).
 
 ## Requirements
 

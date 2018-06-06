@@ -143,7 +143,7 @@ Specifies the SNMP device index.
 
 When the [**XcvData**](https://www.bing.com/search?q=**XcvData**) function is called either to add a port or configure an existing port, its *pOutputData* parameter must be set with the address of a PORT\_DATA\_1 structure, which will be filled in when the function returns. To add a port, set this function's *pszDataName* parameter to the string L"AddPort". To configure a port, set this parameter to L"ConfigPort".
 
-See [TCPMON Xcv Interface](https://www.bing.com/search?q=TCPMON Xcv Interface) for more information.
+See [TCPMON Xcv Interface](https://www.bing.com/search?q=TCPMON+Xcv+Interface) for more information.
 
 ## Requirements
 

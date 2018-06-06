@@ -14,7 +14,7 @@ In Windows 7 and later, cascading menu implementation is supported through regi
 
 The following screen shot provides an example of a cascading menu.
 
-![screen shot showing an example of a cascading menu](https://www.bing.com/search?q=screen shot showing an example of a cascading menu)
+![screen shot showing an example of a cascading menu](https://www.bing.com/search?q=screen+shot+showing+an+example+of+a+cascading+menu)
 
 In Windows 7 and later, there are three ways to create cascading menus, which are described in the following sections.
 

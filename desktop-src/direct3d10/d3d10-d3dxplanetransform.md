@@ -33,7 +33,7 @@ D3DXPLANE* D3DXPlaneTransform(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXPLANE**](https://msdn.microsoft.com/windows/desktop/ffca4650-9788-4559-8f6b-a4e5db29ce55)\***
+Type: **[**D3DXPLANE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplane.htm)\***
 
 Pointer to the [**D3DXPLANE**](d3d10-d3dxplane.md) that contains the resulting transformed plane. See example.
 
@@ -42,7 +42,7 @@ Pointer to the [**D3DXPLANE**](d3d10-d3dxplane.md) that contains the resulting t
 *pP* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/windows/desktop/ffca4650-9788-4559-8f6b-a4e5db29ce55)\***
+Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplane.htm)\***
 
 Pointer to the input D3DXPLANE structure, which contains the plane that will be transformed. The vector (a,b,c) that describes the plane must be normalized before this function is called. See example.
 
@@ -51,7 +51,7 @@ Pointer to the input D3DXPLANE structure, which contains the plane that will be 
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/windows/desktop/0911088b-50cf-4c4a-996e-351386fc359b)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
 
 Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure, which contains the transformation values. This matrix must contain the inverse transpose of the transformation values.
 
@@ -59,7 +59,7 @@ Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure, which con
 
 ## Return value
 
-Type: **[**D3DXPLANE**](https://msdn.microsoft.com/windows/desktop/ffca4650-9788-4559-8f6b-a4e5db29ce55)\***
+Type: **[**D3DXPLANE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplane.htm)\***
 
 Pointer to a D3DXPLANE structure, representing the transformed plane. This is the same value returned in the pOut parameter so that this function can be used as a parameter for another function.
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # IActiveDesktop Flags
 
-This section describes the flags used by [**IActiveDesktop**](https://msdn.microsoft.com/windows/desktop/4d572b86-36e8-417b-857c-eb477c04c691) interface methods.
+This section describes the flags used by [**IActiveDesktop**](https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691) interface methods.
 
 <dl> <dt>
 

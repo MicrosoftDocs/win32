@@ -49,7 +49,7 @@ The return value is a count of the strings remaining in the list. The return val
 
 ## Remarks
 
-If an application creates the list box with an owner-drawn style but without the [**LBS\_HASSTRINGS**](https://www.bing.com/search?q=**LBS\_HASSTRINGS**) style, the system sends a [**WM\_DELETEITEM**](wm-deleteitem.md) message to the owner of the list box so the application can free any additional data associated with the item.
+If an application creates the list box with an owner-drawn style but without the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style, the system sends a [**WM\_DELETEITEM**](wm-deleteitem.md) message to the owner of the list box so the application can free any additional data associated with the item.
 
 ## Requirements
 

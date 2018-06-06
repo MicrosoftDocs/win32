@@ -44,7 +44,7 @@ This topic shows you how you can set the output matrix of a mono source voice th
 
     
 
-4.  Set the output matrix indices corresponding to the left and right speakers with the values calculated in the previous step. The left and right speakers are determined by looking at the channel mask returned by [**IXAudio2MasteringVoice::GetChannelMask**](https://www.bing.com/search?q=**IXAudio2MasteringVoice::GetChannelMask**). Since the channels must always be encoded in the order specified on the [**WAVEFORMATEXTENSIBLE**](https://www.bing.com/search?q=**WAVEFORMATEXTENSIBLE**) reference page, it is possible to determine the array index corresponding to an individual speaker.
+4.  Set the output matrix indices corresponding to the left and right speakers with the values calculated in the previous step. The left and right speakers are determined by looking at the channel mask returned by [**IXAudio2MasteringVoice::GetChannelMask**](https://www.bing.com/search?q=**IXAudio2MasteringVoice::GetChannelMask**). Since the channels must always be encoded in the order specified on the [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b) reference page, it is possible to determine the array index corresponding to an individual speaker.
 
     ```
     switch (dwChannelMask)

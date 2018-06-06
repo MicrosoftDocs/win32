@@ -28,7 +28,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/windows/desktop/0911088b-50cf-4c4a-996e-351386fc359b)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
 
 This method returns a pointer to a D3DXMATRIX structure representing the current matrix.
 

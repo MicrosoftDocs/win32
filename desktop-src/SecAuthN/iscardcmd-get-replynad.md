@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardCmd::get\_ReplyNad method
 
-\[The **get\_ReplyNad** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **get\_ReplyNad** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **get\_ReplyNad** method retrieves the node address (Nad) used by the [*smart card*](https://www.bing.com/search?q=*smart card*) in the reply message.
+The **get\_ReplyNad** method retrieves the node address (Nad) used by the [*smart card*](security.s_gly#-security-smart-card-gly) in the reply message.
 
 ## Syntax
 
@@ -55,11 +55,11 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-In addition to the COM error codes listed above, this method may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](https://www.bing.com/search?q=Smart Card Return Values).
+In addition to the COM error codes listed above, this method may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
 
 ## Examples
 
-The following example shows how to retrieve the node address (Nad) used by the [*smart card*](https://www.bing.com/search?q=*smart card*) in the reply message. The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
+The following example shows how to retrieve the node address (Nad) used by the [*smart card*](security.s_gly#-security-smart-card-gly) in the reply message. The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
 
 
 ```C++

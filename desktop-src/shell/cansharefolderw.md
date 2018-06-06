@@ -58,7 +58,7 @@ Return values include the following.
 
 ## Remarks
 
-This function has no associated .lib file. You must use [**LoadLibrary**](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/windows/desktop/a0d7fc09-f888-4f46-a571-d3719a627597) to use it.
+This function has no associated .lib file. You must use [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) to use it.
 
 ## Requirements
 
@@ -77,7 +77,7 @@ This function has no associated .lib file. You must use [**LoadLibrary**](https:
 
 <dl> <dt>
 
-[**ShowShareFolderUI**](https://msdn.microsoft.com/windows/desktop/e622e4bb-eaf7-494f-b2a2-78ba1311a496)
+[**ShowShareFolderUI**](https://msdn.microsoft.com/e622e4bb-eaf7-494f-b2a2-78ba1311a496)
 </dt> </dl>
 
  

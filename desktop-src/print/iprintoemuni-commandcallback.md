@@ -42,7 +42,7 @@ Caller-supplied pointer to a [**DEVOBJ**](devobj.md) structure.
 *dwCallbackID* 
 </dt> <dd>
 
-Caller-supplied value representing the printer command's \***CallbackID** attribute in the printer's [*GPD*](https://www.bing.com/search?q=*GPD*) file. (For more information, see the following Remarks section.)
+Caller-supplied value representing the printer command's \***CallbackID** attribute in the printer's [*GPD*](wdkgloss.g#wdkgloss-generic-printer-description--gpd-) file. (For more information, see the following Remarks section.)
 
 </dd> <dt>
 
@@ -85,17 +85,17 @@ The method must return one of the following values.
 
 ## Remarks
 
-The `IPrintOemUni::CommandCallback` method is used by rendering plug-ins to dynamically generate printer commands, for printers that are supported by [*Unidrv*](https://www.bing.com/search?q=*Unidrv*).
+The `IPrintOemUni::CommandCallback` method is used by rendering plug-ins to dynamically generate printer commands, for printers that are supported by [*Unidrv*](wdkgloss.u#wdkgloss-unidrv).
 
-If you want to dynamically generate a printer command, you must include a \***CallbackID** attribute and, optionally, a \***Params** attribute, within the command's \*Command entry in the printer's GPD file. For more information see [Dynamically Generated Printer Commands](https://www.bing.com/search?q=Dynamically Generated Printer Commands).
+If you want to dynamically generate a printer command, you must include a \***CallbackID** attribute and, optionally, a \***Params** attribute, within the command's \*Command entry in the printer's GPD file. For more information see [Dynamically Generated Printer Commands](https://www.bing.com/search?q=Dynamically+Generated+Printer+Commands).
 
-When Unidrv calls the `IPrintOemUni::CommandCallback` method, it supplies the \*Command entry's \***CallbackID** attribute value as the *dwCallbackID* parameter. It also places the \*Command entry's \***Params** attribute value inside a DWORD array and supplies the array's address as the *pParams* parameter. The array contains set of Unidrv-defined [standard variables](https://www.bing.com/search?q=standard variables) values, and the *dwCount* parameter specifies the number of parameters contained in the array. For more information about the attributes see [Command Attributes](https://www.bing.com/search?q=Command Attributes).
+When Unidrv calls the `IPrintOemUni::CommandCallback` method, it supplies the \*Command entry's \***CallbackID** attribute value as the *dwCallbackID* parameter. It also places the \*Command entry's \***Params** attribute value inside a DWORD array and supplies the array's address as the *pParams* parameter. The array contains set of Unidrv-defined [standard variables](https://www.bing.com/search?q=standard+variables) values, and the *dwCount* parameter specifies the number of parameters contained in the array. For more information about the attributes see [Command Attributes](https://www.bing.com/search?q=Command+Attributes).
 
 The method should use the *dwCallbackID* parameter value to determine which command to process. For each supported command, the method must be aware of which, if any, standard variables have been specified by the \*Command entry's \***Params** attribute, and in which order.
 
 The method is responsible for constructing a printer command, and then sending the command to the print spooler by calling the [**IPrintOemDriverUni::DrvWriteSpoolBuf**](iprintoemdriveruni-drvwritespoolbuf.md) method.
 
-The value supplied for *piResult* should always return zero unless the method is processing a cursor command. For [cursor commands](https://www.bing.com/search?q=cursor commands) that move the cursor in either the *x* or direction, the method should return the new cursor position.
+The value supplied for *piResult* should always return zero unless the method is processing a cursor command. For [cursor commands](https://www.bing.com/search?q=cursor+commands) that move the cursor in either the *x* or direction, the method should return the new cursor position.
 
 The `IPrintOemUni::CommandCallback` method is optional. If a rendering plug-in implements this method, the plug-in's [**IPrintOemUni::GetImplementedMethod**](iprintoemuni-getimplementedmethod.md) method must return S\_OK when it receives "CommandCallback" as input.
 

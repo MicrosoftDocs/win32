@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_CUT message
 
-An application sends a **WM\_CUT** message to an edit control or combo box to delete (cut) the current selection, if any, in the edit control and copy the deleted text to the clipboard in [**CF\_TEXT**](https://www.bing.com/search?q=**CF\_TEXT**) format.
+An application sends a **WM\_CUT** message to an edit control or combo box to delete (cut) the current selection, if any, in the edit control and copy the deleted text to the clipboard in [**CF\_TEXT**](standard-clipboard-formats.md#cf-text) format.
 
 
 ```C++

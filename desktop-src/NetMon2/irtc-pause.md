@@ -49,7 +49,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 While the capture is in a paused state, new frames are not captured until the [IRTC::Resume](irtc-resume.md) method is called to restart the capture.
 
-When you use the **IRTC::Pause** and **IRTC::Resume** methods to control the capture, Network Monitor continues to add [*conversation statistics*](https://www.bing.com/search?q=*conversation statistics*) whenever the capture is running.
+When you use the **IRTC::Pause** and **IRTC::Resume** methods to control the capture, Network Monitor continues to add [*conversation statistics*](c.md#-netmon-conversation-statistics-gly) whenever the capture is running.
 
 To restart the capture call [IRTC::Resume](irtc-resume.md). To stop the capture, call [IRTC::Stop](irtc-stop.md).
 

@@ -37,7 +37,7 @@ A pointer to the [**IBidiRequest**](ibidirequest.md) interface.
 
 ## Return value
 
-The method returns one of the following values. For more information about COM error codes, see [Error Handling](https://www.bing.com/search?q=Error Handling).
+The method returns one of the following values. For more information about COM error codes, see [Error Handling](https://www.bing.com/search?q=Error+Handling).
 
 
 
@@ -76,7 +76,7 @@ This is similar to adding an item in a link list. In this case, [**IBidiRequestC
 [Bidirectional Communication Interfaces](bidirectional-communication-interfaces.md)
 </dt> <dt>
 
-[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional Communication Schema)
+[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional+Communication+Schema)
 </dt> <dt>
 
 [**IBidiRequest**](ibidirequest.md)

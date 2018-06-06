@@ -382,7 +382,7 @@ However, if the confirmation is from a long-running task and may display well af
 
 In this example, the drive to be formatted is included in the title.
 
--   Use [title-style capitalization](https://www.bing.com/search?q=title-style capitalization), without ending punctuation.
+-   Use [title-style capitalization](glossary.md#t), without ending punctuation.
 
 ### Main instructions
 
@@ -436,7 +436,7 @@ However, phrasing must match the associated command, even if the command is nega
 
 In this example, "permanently" indicates that the action can't be undone.
 
--   Use [sentence-style capitalization](https://www.bing.com/search?q=sentence-style capitalization).
+-   Use [sentence-style capitalization](glossary.md#s).
 
 ### Supplemental instructions
 

@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # Processing Certificate Requests
 
-Certificate Services performs the following steps when processing a [*certificate request*](https://www.bing.com/search?q=*certificate request*):
+Certificate Services performs the following steps when processing a [*certificate request*](security.c_gly#-security-certificate-request-gly):
 
 1.  Request reception.
 
-    The [*certificate request*](https://www.bing.com/search?q=*certificate request*) is sent by the client to an intermediary application, which formats it into a PKCS \#10 format request and submits it to the server engine.
+    The [*certificate request*](security.c_gly#-security-certificate-request-gly) is sent by the client to an intermediary application, which formats it into a PKCS \#10 format request and submits it to the server engine.
 
 2.  Request approval.
 
@@ -29,7 +29,7 @@ Certificate Services performs the following steps when processing a [*certificat
 
     The server engine stores the completed certificate in the Certificate Services database and notifies the intermediary application of the request status. If the [exit module](exit-modules.md) has so requested, the server engine will notify it of a certificate issuance event. This allows the exit module to perform further operations such as publishing the certificate to an external certificate repository (for example, a directory service). Meanwhile, the intermediary gets the published certificate from Certificate Services and passes it back to the client.
 
-The following illustration shows how a [*certificate request*](https://www.bing.com/search?q=*certificate request*) is processed by Certificate Services.
+The following illustration shows how a [*certificate request*](security.c_gly#-security-certificate-request-gly) is processed by Certificate Services.
 
 ![processing a certificate request](images/certflow.png)
 

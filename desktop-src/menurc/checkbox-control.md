@@ -65,7 +65,7 @@ CHECKBOX "Italic", 3, 10, 10, 40, 10
 [**AUTO3STATE**](auto3state-control.md)
 </dt> <dt>
 
-[Check Boxes](https://www.bing.com/search?q=Check Boxes)
+[Check Boxes](_win32_Button_Types_and_Styles#check-boxes)
 </dt> <dt>
 
 [**GetDialogBaseUnits**](https://www.bing.com/search?q=**GetDialogBaseUnits**)

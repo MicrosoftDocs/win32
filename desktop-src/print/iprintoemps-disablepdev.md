@@ -53,7 +53,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-The `IPrintOemPS::DisablePDEV` method performs the same types of operations as the [**DrvDisablePDEV**](https://www.bing.com/search?q=**DrvDisablePDEV**) function that is exported by a printer graphics DLL. Its purpose is to allow a rendering plug-in to delete the private PDEV structure that is pointed to by the DEVOBJ structure's **pdevOEM** member. This PDEV structure is one that was allocated by the plug-in's [**IPrintOemPS::EnablePDEV**](iprintoemps-enablepdev.md) method.
+The `IPrintOemPS::DisablePDEV` method performs the same types of operations as the [**DrvDisablePDEV**](https://msdn.microsoft.com/dff04000-e307-4a1c-80fe-d6666929df76) function that is exported by a printer graphics DLL. Its purpose is to allow a rendering plug-in to delete the private PDEV structure that is pointed to by the DEVOBJ structure's **pdevOEM** member. This PDEV structure is one that was allocated by the plug-in's [**IPrintOemPS::EnablePDEV**](iprintoemps-enablepdev.md) method.
 
 ## Requirements
 

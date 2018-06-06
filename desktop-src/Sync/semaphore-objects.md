@@ -27,7 +27,7 @@ A thread that owns a mutex object can wait repeatedly for the same mutex object 
 
 A thread can decrement a semaphore's count more than once by repeatedly specifying the same semaphore object in calls to any of the [wait functions](wait-functions.md). However, calling one of the multiple-object wait functions with an array that contains multiple handles of the same semaphore does not result in multiple decrements.
 
-When you have finished using the semaphore object, call the [**CloseHandle**](https://msdn.microsoft.com/windows/desktop/9b84891d-62ca-4ddc-97b7-c4c79482abd9) function to close the handle. The semaphore object is destroyed when its last handle has been closed. Closing the handle does not affect the semaphore count; therefore, be sure to call [**ReleaseSemaphore**](/windows/desktop/api/WinBase/nf-synchapi-releasesemaphore) before closing the handle or before the process terminates. Otherwise, pending wait operations will either time out or continue indefinitely, depending on whether a time-out value has been specified.
+When you have finished using the semaphore object, call the [**CloseHandle**](https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9) function to close the handle. The semaphore object is destroyed when its last handle has been closed. Closing the handle does not affect the semaphore count; therefore, be sure to call [**ReleaseSemaphore**](/windows/desktop/api/WinBase/nf-synchapi-releasesemaphore) before closing the handle or before the process terminates. Otherwise, pending wait operations will either time out or continue indefinitely, depending on whether a time-out value has been specified.
 
 ## Related topics
 

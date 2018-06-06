@@ -25,7 +25,7 @@ All the structures and unions below are used by Task Scheduler 1.0.
 | [**DAILY**](/windows/desktop/api/Mstask/ns-mstask-_daily)                             | Defines the interval, in days, at which a task is run.                                                                          |
 | [**MONTHLYDATE**](/windows/desktop/api/Mstask/ns-mstask-_monthlydate)                 | Defines the day of the month the task will run.                                                                                 |
 | [**MONTHLYDOW**](/windows/desktop/api/Mstask/ns-mstask-_monthlydow)                   | Defines the date(s) that the task runs by month, week, and day of the week.                                                     |
-| [**TASK\_TRIGGER**](/windows/desktop/api/Mstask/ns-mstask-_task_trigger)              | Defines the times to run a scheduled [*work item*](https://www.bing.com/search?q=*work item*).                                                  |
+| [**TASK\_TRIGGER**](/windows/desktop/api/Mstask/ns-mstask-_task_trigger)              | Defines the times to run a scheduled [*work item*](w.md#-msb-work-items-gly).                                                  |
 | [**TRIGGER\_TYPE\_UNION**](/windows/desktop/api/Mstask/ns-mstask-_trigger_type_union) | Defines the invocation schedule of the trigger within the **Type** member of a [**TASK\_TRIGGER**](/windows/desktop/api/Mstask/ns-mstask-_task_trigger) structure. |
 | [**WEEKLY**](/windows/desktop/api/Mstask/ns-mstask-_weekly)                           | Defines the interval, in weeks, between invocations of a task.                                                                  |
 

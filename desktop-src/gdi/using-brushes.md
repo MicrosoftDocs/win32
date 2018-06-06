@@ -40,7 +40,7 @@ END
 
 
 
-The **Custom Brush** dialog box contains five controls: a bitmap-grid window, a pattern-viewing window, and three push buttons, labeled **Test Pattern**, **OK**, and **Cancel**. The **Test Pattern** push button enables the user to view the pattern. The dialog box template specifies the overall dimensions of the dialog box window, assigns a value to each control, specifies the location of each control, and so forth. For more information, see [Dialog Boxes](https://www.bing.com/search?q=Dialog Boxes).
+The **Custom Brush** dialog box contains five controls: a bitmap-grid window, a pattern-viewing window, and three push buttons, labeled **Test Pattern**, **OK**, and **Cancel**. The **Test Pattern** push button enables the user to view the pattern. The dialog box template specifies the overall dimensions of the dialog box window, assigns a value to each control, specifies the location of each control, and so forth. For more information, see [Dialog Boxes](https://www.bing.com/search?q=Dialog+Boxes).
 
 The control values in the dialog box template are constants that have been defined as follows in the application's header file.
 
@@ -304,7 +304,7 @@ The dialog box procedure for the **Custom Brush** dialog box processes four mess
 
  
 
-For more information about messages and message processing, see [Messages and Message Queues](https://www.bing.com/search?q=Messages and Message Queues).
+For more information about messages and message processing, see [Messages and Message Queues](https://www.bing.com/search?q=Messages+and+Message+Queues).
 
 After you write the dialog box procedure, include the function definition for the procedure in the application's header file and then call the dialog box procedure at the appropriate point in the application.
 

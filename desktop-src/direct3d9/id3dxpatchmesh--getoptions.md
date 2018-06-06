@@ -28,13 +28,13 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The patch type.
 
 ## Remarks
 
-For more information about patch types, see [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/windows/desktop/229d01b2-781c-48a8-93f2-9dd9dbd67f3e).
+For more information about patch types, see [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxpatchmeshtype.htm).
 
 ## Requirements
 

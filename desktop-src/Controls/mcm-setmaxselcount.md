@@ -39,7 +39,7 @@ Value of type **int** that will be set to represent the maximum number of days t
 
 ## Return value
 
-Returns nonzero if successful, or zero otherwise. This message will fail if applied to a month calendar control that does not use the [**MCS\_MULTISELECT**](https://www.bing.com/search?q=**MCS\_MULTISELECT**) style.
+Returns nonzero if successful, or zero otherwise. This message will fail if applied to a month calendar control that does not use the [**MCS\_MULTISELECT**](month-calendar-control-styles.md#mcs-multiselect) style.
 
 ## Requirements
 

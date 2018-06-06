@@ -103,7 +103,7 @@ A fourth category titled "Computer Manufacturer" can appear in the SPAD window o
 
 ### The LastUserInitiatedDefaultChange Registry Value
 
-The LastUserInitiatedDefaultChange value has been added to the registry to assist applications in recognizing and respecting the user's default choices. The value holds REG\_BINARY data in the form of a [**FILETIME**](https://msdn.microsoft.com/windows/desktop/9baf8a0e-59e3-4fbd-9616-2ec9161520d1) structure that contains the date and time (in Coordinated Universal Time (UTC)) of the last time the user changed a default choice through the **Set Program Access and Computer Defaults** tool. This value is found under the following subkey.
+The LastUserInitiatedDefaultChange value has been added to the registry to assist applications in recognizing and respecting the user's default choices. The value holds REG\_BINARY data in the form of a [**FILETIME**](https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1) structure that contains the date and time (in Coordinated Universal Time (UTC)) of the last time the user changed a default choice through the **Set Program Access and Computer Defaults** tool. This value is found under the following subkey.
 
 ```
 HKEY_LOCAL_MACHINE
@@ -209,7 +209,7 @@ This value is of type REG\_DWORD and is interpreted as follows.
 DontGroupPatches has no effect in Windows Vista and Windows 7, where the UI contains no check box and registered updates are always filtered.
 
 > [!Note]  
-> Policies are set only by administrators. Applications should not alter this value. For more information on how to set a registry-based Group Policy, see [Group Policy](https://msdn.microsoft.com/windows/desktop/0e9314f4-bdea-47b1-81a4-9b19b79ac49d) or [Windows Server Group Policy](http://go.microsoft.com/fwlink/p/?linkid=89170).
+> Policies are set only by administrators. Applications should not alter this value. For more information on how to set a registry-based Group Policy, see [Group Policy](https://msdn.microsoft.com/0e9314f4-bdea-47b1-81a4-9b19b79ac49d) or [Windows Server Group Policy](http://go.microsoft.com/fwlink/p/?linkid=89170).
 
  
 
@@ -217,7 +217,7 @@ DontGroupPatches has no effect in Windows Vista and Windows 7, where the UI co
 
 -   [Registering Programs with Client Types](reg-middleware-apps.md)
 -   [Installation](https://www.bing.com/search?q=Installation)
--   [Configuring Add/Remove Programs with Windows Installer](https://msdn.microsoft.com/windows/desktop/2eb00fe5-e441-4fce-9623-81a089269a2b)
+-   [Configuring Add/Remove Programs with Windows Installer](https://msdn.microsoft.com/2eb00fe5-e441-4fce-9623-81a089269a2b)
 
 ## Related topics
 

@@ -33,7 +33,7 @@ HRESULT GetQueueStatus(
 *pIoQueue* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Number of items in the I/O queue.
 
@@ -42,7 +42,7 @@ Number of items in the I/O queue.
 *pProcessQueue* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Number of items in the process queue.
 
@@ -51,7 +51,7 @@ Number of items in the process queue.
 *pDeviceQueue* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Number of items in the device queue.
 

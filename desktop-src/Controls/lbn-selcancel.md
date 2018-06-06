@@ -53,7 +53,7 @@ Handle to the list box.
 
 ## Remarks
 
-This notification code is sent only by a list box that has the L[**BS\_NOTIFY**](https://www.bing.com/search?q=**BS\_NOTIFY**) style.
+This notification code is sent only by a list box that has the L[**BS\_NOTIFY**](button-styles.md#bs-notify) style.
 
 ## Requirements
 

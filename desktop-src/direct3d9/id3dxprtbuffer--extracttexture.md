@@ -34,7 +34,7 @@ HRESULT ExtractTexture(
 *Channel* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Buffer color channel from which to extract texture data.
 
@@ -43,7 +43,7 @@ Buffer color channel from which to extract texture data.
 *StartCoefficient* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Starting value of the buffer coefficient from which to extract texture data.
 
@@ -52,7 +52,7 @@ Starting value of the buffer coefficient from which to extract texture data.
 *NumCoefficients* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of scalars, beginning at StartCoefficient, from which to extract texture data.
 

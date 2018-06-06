@@ -88,7 +88,7 @@ Wscript.Echo "Operation = " & LastError.operation & VBCRLF & "ParameterInfo = " 
 
 ## Handling an Error Using C++
 
-A WMI client application can receive either COM-specific or WMI-specific errors. The COM errors conform to the structure of COM error codes. All WMI interfaces can return a COM-specific error except the [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext), [**IWbemClassObject**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject), and [**IWbemQualifierSet**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemqualifierset) interfaces. For more information about COM error codes, see [Error Handling](https://www.bing.com/search?q=Error Handling). The reference pages of the WMI interfaces list the appropriate WMI error codes in the Error Codes section.
+A WMI client application can receive either COM-specific or WMI-specific errors. The COM errors conform to the structure of COM error codes. All WMI interfaces can return a COM-specific error except the [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext), [**IWbemClassObject**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject), and [**IWbemQualifierSet**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemqualifierset) interfaces. For more information about COM error codes, see [Error Handling](https://www.bing.com/search?q=Error+Handling). The reference pages of the WMI interfaces list the appropriate WMI error codes in the Error Codes section.
 
 A client application must follow the COM standards for checking status and error return codes. The main difference you must choose is whether you wish to retrieve the error code from a synchronous, semisynchronous, or asynchronous call.
 

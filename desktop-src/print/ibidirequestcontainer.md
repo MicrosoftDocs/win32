@@ -15,7 +15,7 @@ The **IBidiRequestContainer** interface allows an application or other objects t
 
 ## Members
 
-The **IBidiRequestContainer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IBidiRequestContainer** also has these types of members:
+The **IBidiRequestContainer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IBidiRequestContainer** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -54,10 +54,10 @@ The **IBidiRequestContainer** interface has these methods.
 [Bidirectional Communication Interfaces](bidirectional-communication-interfaces.md)
 </dt> <dt>
 
-[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional Communication Schema)
+[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional+Communication+Schema)
 </dt> <dt>
 
-[Print Spooler Components](https://www.bing.com/search?q=Print Spooler Components)
+[Print Spooler Components](https://www.bing.com/search?q=Print+Spooler+Components)
 </dt> </dl>
 
  

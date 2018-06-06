@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 <span id="wmi.gloss_schema"></span><span id="WMI.GLOSS_SCHEMA"></span>**schema**
 </dt> <dd>
 
-A collection of class definitions that describe [*managed objects*](https://www.bing.com/search?q=*managed objects*) in a specific environment.
+A collection of class definitions that describe [*managed objects*](gloss-m.md#wmi-gloss-managed-object) in a specific environment.
 
 </dd> <dt>
 
@@ -86,7 +86,7 @@ A WMI class that supports a single instance.
 <span id="wmi.gloss_sink"></span><span id="WMI.GLOSS_SINK"></span>**sink**
 </dt> <dd>
 
-A COM object that acts as the physical delivery destination for the results of an asynchronous operation or an event notification. A sink implemented by a [*permanent consumer*](https://www.bing.com/search?q=*permanent consumer*) supports the [**IWbemUnboundObjectSink**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemunboundobjectsink) interface. A sink implemented by a [*temporary consumer*](https://www.bing.com/search?q=*temporary consumer*) or applications making asynchronous calls supports the [**IWbemObjectSink**](iwbemobjectsink.md) interface.
+A COM object that acts as the physical delivery destination for the results of an asynchronous operation or an event notification. A sink implemented by a [*permanent consumer*](gloss-p.md#wmi-gloss-permanent-consumer) supports the [**IWbemUnboundObjectSink**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemunboundobjectsink) interface. A sink implemented by a [*temporary consumer*](gloss-t.md#wmi-gloss-temporary-consumer) or applications making asynchronous calls supports the [**IWbemObjectSink**](iwbemobjectsink.md) interface.
 
 Scripting clients can use the [**SWbemSink**](swbemsink.md) object and events, such as [**OnObjectReady**](swbemsink-onobjectready.md), to receive callbacks resulting from asynchronous calls.
 
@@ -95,42 +95,42 @@ Scripting clients can use the [**SWbemSink**](swbemsink.md) object and events, s
 <span id="wmi.gloss_standard_consumer"></span><span id="WMI.GLOSS_STANDARD_CONSUMER"></span>**standard consumer**
 </dt> <dd>
 
-A preinstalled [*permanent consumers*](https://www.bing.com/search?q=*permanent consumers*) that performs an action, such as sending an email message or writing to a log when configured by a [*Managed Object Format (MOF)*](https://www.bing.com/search?q=*Managed Object Format (MOF)*) file or a script.
+A preinstalled [*permanent consumers*](gloss-p.md#wmi-gloss-permanent-consumer) that performs an action, such as sending an email message or writing to a log when configured by a [*Managed Object Format (MOF)*](gloss-m.md#wmi-gloss-managed-object-format) file or a script.
 
 </dd> <dt>
 
 <span id="wmi.gloss_standard_provider"></span><span id="WMI.GLOSS_STANDARD_PROVIDER"></span>**standard provider**
 </dt> <dd>
 
-A [*provider*](https://www.bing.com/search?q=*provider*) that is built into WMI, which is different from a third-party or custom provider.
+A [*provider*](gloss-p.md#wmi-gloss-provider) that is built into WMI, which is different from a third-party or custom provider.
 
 </dd> <dt>
 
 <span id="wmi.gloss_standard_qualifier"></span><span id="WMI.GLOSS_STANDARD_QUALIFIER"></span>**standard qualifier**
 </dt> <dd>
 
-A [*qualifier*](https://www.bing.com/search?q=*qualifier*) that the [*CIM Object Manager*](https://www.bing.com/search?q=*CIM Object Manager*) automatically attaches to a class, instance, property, method, or parameter of a method.
+A [*qualifier*](gloss-q.md#wmi-gloss-qualifier) that the [*CIM Object Manager*](gloss-c.md#wmi-gloss-cim-object-manager) automatically attaches to a class, instance, property, method, or parameter of a method.
 
 </dd> <dt>
 
 <span id="wmi.gloss_standard_schema"></span><span id="WMI.GLOSS_STANDARD_SCHEMA"></span>**standard schema**
 </dt> <dd>
 
-A common conceptual framework that organizes and relates the classes that represent the current operational state of a system, network, or application. The [*Distributed Management Task Force (DMTF)*](https://www.bing.com/search?q=*Distributed Management Task Force (DMTF)*) defines the standard schema in the [*Common Information Model (CIM)*](https://www.bing.com/search?q=*Common Information Model (CIM)*).
+A common conceptual framework that organizes and relates the classes that represent the current operational state of a system, network, or application. The [*Distributed Management Task Force (DMTF)*](gloss-d.md#wmi-gloss-distributed-management-task-force) defines the standard schema in the [*Common Information Model (CIM)*](gloss-c.md#wmi-gloss-common-information-model).
 
 </dd> <dt>
 
 <span id="wmi.gloss_static_class"></span><span id="WMI.GLOSS_STATIC_CLASS"></span>**static class**
 </dt> <dd>
 
-A CIM class definition that rarely changes, and is stored in the [*CIM repository*](https://www.bing.com/search?q=*CIM repository*) until it is explicitly deleted. The [*CIM Object Manager*](https://www.bing.com/search?q=*CIM Object Manager*) can provide a definition of a static class without a [*provider*](https://www.bing.com/search?q=*provider*). A static class can support either *static* or [*dynamic instances*](https://www.bing.com/search?q=*dynamic instances*).
+A CIM class definition that rarely changes, and is stored in the [*CIM repository*](gloss-c.md#wmi-gloss-cim-repository) until it is explicitly deleted. The [*CIM Object Manager*](gloss-c.md#wmi-gloss-cim-object-manager) can provide a definition of a static class without a [*provider*](gloss-p.md#wmi-gloss-provider). A static class can support either *static* or [*dynamic instances*](gloss-d.md#wmi-gloss-dynamic-instance).
 
 </dd> <dt>
 
 <span id="wmi.gloss_static_instance"></span><span id="WMI.GLOSS_STATIC_INSTANCE"></span>**static instance**
 </dt> <dd>
 
-An instance of a CIM class that is persistently stored in the [*CIM repository*](https://www.bing.com/search?q=*CIM repository*) and remains valid until explicitly deleted, even across system restarts.
+An instance of a CIM class that is persistently stored in the [*CIM repository*](gloss-c.md#wmi-gloss-cim-repository) and remains valid until explicitly deleted, even across system restarts.
 
 </dd> <dt>
 
@@ -144,14 +144,14 @@ A method defined in a CIM class that is executed by retrieving the class definit
 <span id="wmi.gloss_subschema"></span><span id="WMI.GLOSS_SUBSCHEMA"></span>**subschema**
 </dt> <dd>
 
-A part of a *schema* that is owned by a specific organization. The [*Win32schema*](https://www.bing.com/search?q=*Win32schema*) is an example of a subschema.
+A part of a *schema* that is owned by a specific organization. The [*Win32schema*](gloss-w.md#wmi-gloss-win32-schema) is an example of a subschema.
 
 </dd> <dt>
 
 <span id="wmi.gloss_system_class"></span><span id="WMI.GLOSS_SYSTEM_CLASS"></span>**system class**
 </dt> <dd>
 
-A class that the [*CIM Object Manager*](https://www.bing.com/search?q=*CIM Object Manager*) defines to support core features such as event notification, security, and localization. A system class is automatically defined in each [*namespace*](https://www.bing.com/search?q=*namespace*). A system class derives from the abstract base class [**\_\_SystemClass**](--systemclass.md).
+A class that the [*CIM Object Manager*](gloss-c.md#wmi-gloss-cim-object-manager) defines to support core features such as event notification, security, and localization. A system class is automatically defined in each [*namespace*](gloss-n.md#wmi-gloss-namespace). A system class derives from the abstract base class [**\_\_SystemClass**](--systemclass.md).
 
 </dd> <dt>
 
@@ -165,7 +165,7 @@ A (CIM) utility that is the GUI for Performance Monitoring.
 <span id="wmi.gloss_system_property"></span><span id="WMI.GLOSS_SYSTEM_PROPERTY"></span>**system property**
 </dt> <dd>
 
-A property that the [*CIM Object Manager*](https://www.bing.com/search?q=*CIM Object Manager*) defines to provide information that applies to each class, for example, name, derivation, and [*namespace*](https://www.bing.com/search?q=*namespace*).
+A property that the [*CIM Object Manager*](gloss-c.md#wmi-gloss-cim-object-manager) defines to provide information that applies to each class, for example, name, derivation, and [*namespace*](gloss-n.md#wmi-gloss-namespace).
 
 </dd> </dl>
 

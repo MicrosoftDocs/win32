@@ -30,7 +30,7 @@ See *Auto-Discovery/Auto-Purge (ADAP)*.
 <span id="wmi.gloss_alias"></span><span id="WMI.GLOSS_ALIAS"></span>**alias**
 </dt> <dd>
 
-A symbolic reference in either a class or instance declaration to an object located elsewhere in a [*MOF*](https://www.bing.com/search?q=*MOF*) file.
+A symbolic reference in either a class or instance declaration to an object located elsewhere in a [*MOF*](gloss-m.md#wmi-gloss-managed-object-format) file.
 
 </dd> <dt>
 

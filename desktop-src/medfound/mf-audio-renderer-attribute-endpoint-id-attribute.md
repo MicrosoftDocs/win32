@@ -26,10 +26,10 @@ You can use this attribute to configure the audio renderer. The usage depends on
 
 An audio endpoint device is a hardware device that lies at one end of an audio data path, such as a headphone or a speaker. To obtain the audio endpoint identifier, use the following core audio APIs:
 
--   Use the [**IMMDeviceEnumerator**](https://msdn.microsoft.com/windows/desktop/1abdeac1-c156-40b8-8b8c-5ddb51e410aa) interface to enumerate the devices on the system.
--   Call [**IMMDevice::GetId**](https://msdn.microsoft.com/windows/desktop/b2f56713-856c-408e-8993-1d13e234dc89) to get the identifier for the device.
+-   Use the [**IMMDeviceEnumerator**](https://msdn.microsoft.com/1abdeac1-c156-40b8-8b8c-5ddb51e410aa) interface to enumerate the devices on the system.
+-   Call [**IMMDevice::GetId**](https://msdn.microsoft.com/b2f56713-856c-408e-8993-1d13e234dc89) to get the identifier for the device.
 
-For more information, see the [Core Audio](https://msdn.microsoft.com/windows/desktop/87ca9a31-1bc8-47ea-be00-40159d30e189) API documentation. If this attribute is not set, the audio renderer uses the default endpoint device.
+For more information, see the [Core Audio](https://msdn.microsoft.com/87ca9a31-1bc8-47ea-be00-40159d30e189) API documentation. If this attribute is not set, the audio renderer uses the default endpoint device.
 
 If this attribute is set, do not set the [**MF\_AUDIO\_RENDERER\_ATTRIBUTE\_ENDPOINT\_ROLE**](mf-audio-renderer-attribute-endpoint-role-attribute.md) attribute. If both attributes are set, a failure will occur when the audio renderer is created.
 

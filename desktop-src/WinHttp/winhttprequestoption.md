@@ -49,7 +49,7 @@ typedef enum WinHttpRequestOption {
 <span id="WinHttpRequestOption_UserAgentString"></span><span id="winhttprequestoption_useragentstring"></span><span id="WINHTTPREQUESTOPTION_USERAGENTSTRING"></span>**WinHttpRequestOption\_UserAgentString**
 </dt> <dd>
 
-Sets or retrieves a **VARIANT** that contains the [*user agent*](https://www.bing.com/search?q=*user agent*) string.
+Sets or retrieves a **VARIANT** that contains the [*user agent*](glossary.md#term-user-agent) string.
 
 </dd> <dt>
 
@@ -63,7 +63,7 @@ Retrieves a **VARIANT** that contains the URL of the resource. This value is rea
 <span id="WinHttpRequestOption_URLCodePage"></span><span id="winhttprequestoption_urlcodepage"></span><span id="WINHTTPREQUESTOPTION_URLCODEPAGE"></span>**WinHttpRequestOption\_URLCodePage**
 </dt> <dd>
 
-Sets or retrieves a **VARIANT** that identifies the [*code page*](https://www.bing.com/search?q=*code page*) for the URL string. The default value is the UTF-8 code page. The code page is used to convert the Unicode URL string, passed in the [**Open**](iwinhttprequest-open.md) method, to a single-byte string representation.
+Sets or retrieves a **VARIANT** that identifies the [*code page*](glossary.md#term-code-page) for the URL string. The default value is the UTF-8 code page. The code page is used to convert the Unicode URL string, passed in the [**Open**](iwinhttprequest-open.md) method, to a single-byte string representation.
 
 </dd> <dt>
 
@@ -99,7 +99,7 @@ The default value of this option in Version 5.1 of WinHTTP is zero, which result
 <span id="WinHttpRequestOption_SelectCertificate"></span><span id="winhttprequestoption_selectcertificate"></span><span id="WINHTTPREQUESTOPTION_SELECTCERTIFICATE"></span>**WinHttpRequestOption\_SelectCertificate**
 </dt> <dd>
 
-Sets a **VARIANT** that specifies the client certificate that is sent to a server for authentication. This option indicates the location, [*certificate store*](https://www.bing.com/search?q=*certificate store*), and subject of a client certificate delimited with backslashes. For more information about selecting a client certificate, see [SSL in WinHTTP](ssl-in-winhttp.md).
+Sets a **VARIANT** that specifies the client certificate that is sent to a server for authentication. This option indicates the location, [*certificate store*](glossary.md#term-certificate-store), and subject of a client certificate delimited with backslashes. For more information about selecting a client certificate, see [SSL in WinHTTP](ssl-in-winhttp.md).
 
 </dd> <dt>
 

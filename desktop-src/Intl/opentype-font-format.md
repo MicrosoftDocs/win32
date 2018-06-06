@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # OpenType Font Format
 
-The Unicode-based OpenType font format extends the TrueType font file format. OpenType fonts allow mapping between characters and [glyphs](https://www.bing.com/search?q=glyphs), enabling support for ligatures, positional forms, alternates, and other substitutions. OpenType fonts can also include information that supports two-dimensional glyph positioning and glyph attachment, and can contain either TrueType or PostScript outlines.
+The Unicode-based OpenType font format extends the TrueType font file format. OpenType fonts allow mapping between characters and [glyphs](uniscribe-glossary.md#glyph), enabling support for ligatures, positional forms, alternates, and other substitutions. OpenType fonts can also include information that supports two-dimensional glyph positioning and glyph attachment, and can contain either TrueType or PostScript outlines.
 
 Layout features within OpenType fonts are organized by scripts and languages, allowing a single font to support multiple writing systems, even within the same script. To ensure consistency in text layout operations and to avoid unnecessary overhead in font files or applications, many of the text layout and language semantic algorithms are included in Uniscribe. This relieves the font developer from having to define generalized script rules within a font.
 

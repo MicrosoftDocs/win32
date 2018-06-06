@@ -50,7 +50,7 @@ If the calling application sets the DXGI_PRESENT_DO_NOT_SEQUENCE constant on the
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="DXGI_PRESENT_DO_NOT_WAIT"></span><span id="dxgi_present_do_not_wait"></span><dl> <dt><strong>DXGI_PRESENT_DO_NOT_WAIT</strong></dt> <dt>0x00000008UL</dt> </dl></td>
-<td style="text-align: left;">Specifies that the runtime will fail the presentation (that is, fail a call to [<strong>IDXGISwapChain1::Present1</strong>](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1)) with the [DXGI_ERROR_WAS_STILL_DRAWING](https://www.bing.com/search?q=DXGI_ERROR_WAS_STILL_DRAWING) error code if the calling thread is blocked; the runtime returns DXGI_ERROR_WAS_STILL_DRAWING instead of sleeping until the dependency is resolved.<br/> <strong>Direct3D 11:</strong> This enumeration value is supported starting with Windows 8.<br/></td>
+<td style="text-align: left;">Specifies that the runtime will fail the presentation (that is, fail a call to [<strong>IDXGISwapChain1::Present1</strong>](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1)) with the [DXGI_ERROR_WAS_STILL_DRAWING](dxgi-error.md#dxgi-error-was-still-drawing) error code if the calling thread is blocked; the runtime returns DXGI_ERROR_WAS_STILL_DRAWING instead of sleeping until the dependency is resolved.<br/> <strong>Direct3D 11:</strong> This enumeration value is supported starting with Windows 8.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="DXGI_PRESENT_RESTRICT_TO_OUTPUT"></span><span id="dxgi_present_restrict_to_output"></span><dl> <dt><strong>DXGI_PRESENT_RESTRICT_TO_OUTPUT</strong></dt> <dt>0x00000010UL</dt> </dl></td>
@@ -82,7 +82,7 @@ This value is supported starting in Windows 8.1.
 <td style="text-align: left;"><span id="DXGI_PRESENT_ALLOW_TEARING"></span><span id="dxgi_present_allow_tearing"></span><dl> <dt><strong>DXGI_PRESENT_ALLOW_TEARING</strong></dt> <dt>0x00000200UL</dt> </dl></td>
 <td style="text-align: left;">Allowing tearing is a requirement of variable refresh rate displays.<br/> The conditions for using DXGI_PRESENT_ALLOW_TEARING during Present are as follows:<br/>
 <ul>
-<li>The swap chain must be created with the [<strong>DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</strong>](https://msdn.microsoft.com/windows/desktop/c0030570-89ba-4586-a358-8c3b8c393a90) flag.</li>
+<li>The swap chain must be created with the [<strong>DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\dxgi_swap_chain_flag.htm) flag.</li>
 <li>The sync interval passed in to [<strong>Present</strong>](/windows/desktop/api/DXGI/nf-dxgi-idxgiswapchain-present) (or [<strong>Present1</strong>](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1)) must be 0.</li>
 <li>The DXGI_PRESENT_ALLOW_TEARING flag cannot be used in an application that is currently in full screen exclusive mode (set by calling [<strong>SetFullscreenState(TRUE)</strong>](/windows/desktop/api/DXGI/nf-dxgi-idxgiswapchain-setfullscreenstate)). It can only be used in windowed mode. To use this flag in full screen Win32 apps, the application should present to a fullscreen borderless window and disable automatic ALT+ENTER fullscreen switching using [<strong>IDXGIFactory::MakeWindowAssociation</strong>](/windows/desktop/api/DXGI/nf-dxgi-idxgifactory-makewindowassociation). UWP apps that enter fullscreen mode by calling <code>Windows::UI::ViewManagement::ApplicationView::TryEnterFullscreen()</code> are fullscreen borderless windows and may use the flag.</li>
 </ul>
@@ -114,7 +114,7 @@ You should use the DXGI\_PRESENT\_STEREO\_TEMPORARY\_MONO flag in preference to 
 
 The DXGI\_PRESENT\_STEREO\_PREFER\_RIGHT and DXGI\_PRESENT\_STEREO\_TEMPORARY\_MONO flags apply only to stereo swap chains. If you use them when you present mono swap chains, an invalid operation occurs.
 
-If you use the DXGI\_PRESENT\_STEREO\_TEMPORARY\_MONO flag when you present a stereo swap chain that does not support temporary mono, an error occurs, the swap chain does not display, and the presentation returns [DXGI\_ERROR\_INVALID\_CALL](https://www.bing.com/search?q=DXGI\_ERROR\_INVALID\_CALL).
+If you use the DXGI\_PRESENT\_STEREO\_TEMPORARY\_MONO flag when you present a stereo swap chain that does not support temporary mono, an error occurs, the swap chain does not display, and the presentation returns [DXGI\_ERROR\_INVALID\_CALL](dxgi-error.md#dxgi-error-invalid-call).
 
 ## Requirements
 

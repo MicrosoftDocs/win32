@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # PROV\_RSA\_SCHANNEL
 
-The PROV\_RSA\_SCHANNEL provider type supports both RSA and [*Schannel*](https://www.bing.com/search?q=*Schannel*) protocols.
+The PROV\_RSA\_SCHANNEL provider type supports both RSA and [*Schannel*](security.s_gly#-security-schannel-gly) protocols.
 
 ## Algorithms Supported
 
@@ -21,10 +21,10 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                                                                                                                                                                                                                                                                                          |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Key Exchange | [*RSA*](https://www.bing.com/search?q=*RSA*)                                                                                                                                                                                                                                                                   |
+| Key Exchange | [*RSA*](security.r_gly#-security-rsa-gly)                                                                                                                                                                                                                                                                   |
 | Signature    | RSA                                                                                                                                                                                                                                                                                                                           |
-| Encryption   | Any PROV\_RSA\_SCHANNEL CSP must implement one or more of the following algorithms: [*RC4*](https://www.bing.com/search?q=*RC4*)<br/> [*DES*](https://www.bing.com/search?q=*DES*)<br/> [*Triple DES*](https://www.bing.com/search?q=*Triple DES*)<br/> |
-| Hashing      | [*MD5*](https://www.bing.com/search?q=*MD5*)[*SHA*](https://www.bing.com/search?q=*SHA*)<br/>                                                                                                                                                                                             |
+| Encryption   | Any PROV\_RSA\_SCHANNEL CSP must implement one or more of the following algorithms: [*RC4*](security.r_gly#-security-rc4-gly)<br/> [*DES*](security.d_gly#-security-des-gly)<br/> [*Triple DES*](security.t_gly#-security-triple-des-gly)<br/> |
+| Hashing      | [*MD5*](security.m_gly#-security-md5-gly)[*SHA*](security.s_gly#-security-sha-gly)<br/>                                                                                                                                                                                             |
 
 
 

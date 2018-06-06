@@ -43,7 +43,7 @@ If successful, this function returns **TRUE**; otherwise it returns **FALSE**.
 
 ## Remarks
 
-Applications that need to obtain a DC for a DirectDraw surface may use [IDirectDrawSurface7::GetDC](https://msdn.microsoft.com/windows/desktop/683be1bc-8232-42de-907f-1136ffdd524d), which exposes this functionality in a manner independent of the operating system.
+Applications that need to obtain a DC for a DirectDraw surface may use [IDirectDrawSurface7::GetDC](https://msdn.microsoft.com/683be1bc-8232-42de-907f-1136ffdd524d), which exposes this functionality in a manner independent of the operating system.
 
 ## Requirements
 

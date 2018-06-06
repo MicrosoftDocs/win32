@@ -32,7 +32,7 @@ HRESULT CreateCatalog(
 *pszCatalog* \[in\]
 </dt> <dd>
 
-Type: **[**LPCWSTR**](https://www.bing.com/search?q=**LPCWSTR**)**
+Type: **[**LPCWSTR**](winprog.windows_data_types#lpcwstr)**
 
 Name of catalog to create. Can be any name selected by the caller, must contain only standard alphanumeric characters and underscore.
 

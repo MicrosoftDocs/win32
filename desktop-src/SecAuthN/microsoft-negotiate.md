@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # Microsoft Negotiate
 
-Microsoft Negotiate is a [*security support provider*](https://www.bing.com/search?q=*security support provider*) (SSP) that acts as an application layer between [*Security Support Provider Interface*](https://www.bing.com/search?q=*Security Support Provider Interface*) ([SSPI](sspi.md)) and the other SSPs. When an application calls into SSPI to log on to a network, it can specify an SSP to process the request. If the application specifies Negotiate, Negotiate analyzes the request and picks the best SSP to handle the request based on customer-configured security policy.
+Microsoft Negotiate is a [*security support provider*](security.s_gly#-security-security-support-provider-gly) (SSP) that acts as an application layer between [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) ([SSPI](sspi.md)) and the other SSPs. When an application calls into SSPI to log on to a network, it can specify an SSP to process the request. If the application specifies Negotiate, Negotiate analyzes the request and picks the best SSP to handle the request based on customer-configured security policy.
 
 Currently, the Negotiate security package selects between [Kerberos](microsoft-kerberos.md) and [NTLM](microsoft-ntlm.md). Negotiate selects Kerberos unless it cannot be used by one of the systems involved in the authentication or the calling application did not provide sufficient information to use Kerberos.
 
-To allow Negotiate to select the [Kerberos](microsoft-kerberos.md) security provider, the client application must provide a [*service principal name*](https://www.bing.com/search?q=*service principal name*) (SPN), a user principal name (UPN), or a NetBIOS account name as the target name. Otherwise, Negotiate always selects the [NTLM](microsoft-ntlm.md) security provider.
+To allow Negotiate to select the [Kerberos](microsoft-kerberos.md) security provider, the client application must provide a [*service principal name*](security.s_gly#-security-service-principal-name-gly) (SPN), a user principal name (UPN), or a NetBIOS account name as the target name. Otherwise, Negotiate always selects the [NTLM](microsoft-ntlm.md) security provider.
 
 A server that uses the Negotiate package is able to respond to client applications that specifically select either the [Kerberos](microsoft-kerberos.md) or [NTLM](microsoft-ntlm.md) security provider. However, a client application must know that a server supports the Negotiate package to request authentication using Negotiate. A server that does not support Negotiate cannot always respond to requests from clients that specify Negotiate as the SSP.
 

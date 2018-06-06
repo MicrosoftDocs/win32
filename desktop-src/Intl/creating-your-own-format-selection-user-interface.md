@@ -24,31 +24,31 @@ Please see [Options for Displaying Text](http://msdn.microsoft.com/en-us/gogloba
 
 <dl> <dt>
 
-[**TextOut**](https://msdn.microsoft.com/windows/desktop/0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6)
+[**TextOut**](https://msdn.microsoft.com/0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6)
 </dt> <dt>
 
-[**ExtTextOut**](https://msdn.microsoft.com/windows/desktop/74f8fcb8-8ad4-47f2-a330-fa56713bdb37)
+[**ExtTextOut**](https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37)
 </dt> <dt>
 
-[**TabbedTextOut**](https://msdn.microsoft.com/windows/desktop/1cb78a75-752d-4e06-afdf-cd797f209114)
+[**TabbedTextOut**](https://msdn.microsoft.com/1cb78a75-752d-4e06-afdf-cd797f209114)
 </dt> <dt>
 
-[**DrawText**](https://msdn.microsoft.com/windows/desktop/fe412280-d797-4abd-8a29-107a9cd96145)
+[**DrawText**](https://msdn.microsoft.com/fe412280-d797-4abd-8a29-107a9cd96145)
 </dt> <dt>
 
-[**GetTabbedTextExtent**](https://msdn.microsoft.com/windows/desktop/3444bb8d-4a30-47d4-b211-01f7cba39975)
+[**GetTabbedTextExtent**](https://msdn.microsoft.com/3444bb8d-4a30-47d4-b211-01f7cba39975)
 </dt> <dt>
 
-[**GetTextExtentPoint32**](https://msdn.microsoft.com/windows/desktop/530280ee-dfd8-4905-9b72-6c19efcff133)
+[**GetTextExtentPoint32**](https://msdn.microsoft.com/530280ee-dfd8-4905-9b72-6c19efcff133)
 </dt> <dt>
 
-[**GetTextExtentExPoint**](https://msdn.microsoft.com/windows/desktop/b873a059-5aa3-47d0-b109-7acd542c7d79)
+[**GetTextExtentExPoint**](https://msdn.microsoft.com/b873a059-5aa3-47d0-b109-7acd542c7d79)
 </dt> <dt>
 
-[**Edit control**](https://msdn.microsoft.com/windows/desktop/1b4fb5d1-49d3-40fb-8557-db16eea880aa)
+[**Edit control**](https://msdn.microsoft.com/1b4fb5d1-49d3-40fb-8557-db16eea880aa)
 </dt> <dt>
 
-[Rich Edit](https://www.bing.com/search?q=Rich Edit)
+[Rich Edit](https://www.bing.com/search?q=Rich+Edit)
 </dt> <dt>
 
 [Uniscribe](uniscribe.md)

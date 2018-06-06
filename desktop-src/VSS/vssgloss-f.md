@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="base.vssgloss_file_group_component"></span><span id="BASE.VSSGLOSS_FILE_GROUP_COMPONENT"></span>**file group component**
 </dt> <dd>
 
-A group of files other than those used as a database and defined by a writer as needing to be handled as a unit during backup and restore operations. See also [*component*](https://www.bing.com/search?q=*component*), [*database component*](https://www.bing.com/search?q=*database component*).
+A group of files other than those used as a database and defined by a writer as needing to be handled as a unit during backup and restore operations. See also [*component*](vssgloss-c.md#base-vssgloss-component), [*database component*](vssgloss-d.md#base-vssgloss-database-component).
 
 </dd> <dt>
 
@@ -36,7 +36,7 @@ The recursive tag is a Boolean specifying whether the file set's path should be 
 
 Information about a file set is returned through instances of the **IVssWMFiledesc** interface, and can contain additional information includes alternate paths, alternate location mappings, and file-level schema support settings.
 
-See also [*alternate path*](https://www.bing.com/search?q=*alternate path*), [*alternate location mapping*](https://www.bing.com/search?q=*alternate location mapping*), [*component*](https://www.bing.com/search?q=*component*), *file specification*.
+See also [*alternate path*](vssgloss-a.md#base-vssgloss-alternate-path), [*alternate location mapping*](vssgloss-a.md#base-vssgloss-alternate-location-mapping), [*component*](vssgloss-c.md#base-vssgloss-component), *file specification*.
 
 </dd> <dt>
 
@@ -64,14 +64,14 @@ A period of time during the shadow copy creation process when all writers have f
 <span id="base.vssgloss_freeze_event"></span><span id="BASE.VSSGLOSS_FREEZE_EVENT"></span>**Freeze event**
 </dt> <dd>
 
-A VSS event indicating that a shadow copy freeze is in progress. See also *freeze*, [*shadow copy*](https://www.bing.com/search?q=*shadow copy*).
+A VSS event indicating that a shadow copy freeze is in progress. See also *freeze*, [*shadow copy*](vssgloss-s.md#base-vssgloss-shadow-copy).
 
 </dd> <dt>
 
 <span id="base.vssgloss_front_end_level_applications"></span><span id="BASE.VSSGLOSS_FRONT_END_LEVEL_APPLICATIONS"></span>**front-end level applications**
 </dt> <dd>
 
-Indicates the point at which a writer is notified of a freeze by VSS. Writers that were initialized as front-end level applications are notified prior to writers initialized either as back-end level applications or as system-level applications. See also [*application level*](https://www.bing.com/search?q=*application level*), [*back-end level applications*](https://www.bing.com/search?q=*back-end level applications*), [*system-level applications*](https://www.bing.com/search?q=*system-level applications*), [*writer*](https://www.bing.com/search?q=*writer*).
+Indicates the point at which a writer is notified of a freeze by VSS. Writers that were initialized as front-end level applications are notified prior to writers initialized either as back-end level applications or as system-level applications. See also [*application level*](vssgloss-a.md#base-vssgloss-application-level), [*back-end level applications*](vssgloss-b.md#base-vssgloss-back-end-level-applications), [*system-level applications*](vssgloss-s.md#base-vssgloss-system-level-applications), [*writer*](vssgloss-w.md#base-vssgloss-writer).
 
 </dd> </dl>
 

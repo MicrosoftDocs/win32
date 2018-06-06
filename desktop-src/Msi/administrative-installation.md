@@ -25,7 +25,7 @@ If the [**SHORTFILENAMES**](shortfilenames.md) property is set during an adminis
 
 If an administrator uses a package having a [**Word Count Summary**](word-count-summary.md) property of 2 or 3 to perform an administrative installation, users of the administrative image cannot automatically reinstall from the original media source. If the administrative image becomes unavailable, users who have installed from the administrative image are prevented from reverting to the original media.
 
-The application of [*transforms*](https://www.bing.com/search?q=*transforms*) during the creation of an administrative image has no valid effect. To make a customized version of a product available to a work group, apply the transform during the installation of the product from the administrative image.
+The application of [*transforms*](t-gly.md#-msi-transform-gly) during the creation of an administrative image has no valid effect. To make a customized version of a product available to a work group, apply the transform during the installation of the product from the administrative image.
 
 During an administrative installation, the installer creates a source image for all features in the product except those feature with 0 in the Level column of the [Feature table](feature-table.md).
 

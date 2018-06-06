@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # MsiDigitalCertificate Table
 
-The MsiDigitalCertificate table stores certificates in binary stream format and associates each certificate with a primary key. The primary key is used to share certificates among multiple digitally signed objects. A digital certificate is a credential that provides a means to verify identity. For more information, see [Digital Certificates](https://msdn.microsoft.com/windows/desktop/e523b335-0156-4f47-b55c-b80495587c4f) in the [Cryptography](https://www.bing.com/search?q=Cryptography) section of the Microsoft Windows Software Development Kit (SDK).
+The MsiDigitalCertificate table stores certificates in binary stream format and associates each certificate with a primary key. The primary key is used to share certificates among multiple digitally signed objects. A digital certificate is a credential that provides a means to verify identity. For more information, see [Digital Certificates](https://msdn.microsoft.com/e523b335-0156-4f47-b55c-b80495587c4f) in the [Cryptography](https://www.bing.com/search?q=Cryptography) section of the Microsoft Windows Software Development Kit (SDK).
 
 The [MsiDigitalSignature](msidigitalsignature-table.md) and MsiDigitalCertificate tables are available starting with Windows Installer version 2.0.
 
@@ -46,7 +46,7 @@ Identifies the digital signature certificate. Primary key of table.
 <span id="CertData"></span><span id="certdata"></span><span id="CERTDATA"></span>CertData
 </dt> <dd>
 
-The binary representation of the digital certificate. The CertData column contains the encoded byte array of a certificate context. This is the **pbCertEncoded** member of the [**CERT\_CONTEXT**](https://msdn.microsoft.com/windows/desktop/f0a3200e-6541-423d-a4a3-595a31026eea) structure. The certificate context can be obtained by calling [**WinVerifyTrust**](https://msdn.microsoft.com/windows/desktop/b7efac6a-ac9f-477a-aada-63fe32208e6f), [**MsiGetFileSignatureInformation**](/windows/desktop/api/Msi/nf-msi-msigetfilesignatureinformationa), or by importing a .cer file.
+The binary representation of the digital certificate. The CertData column contains the encoded byte array of a certificate context. This is the **pbCertEncoded** member of the [**CERT\_CONTEXT**](https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea) structure. The certificate context can be obtained by calling [**WinVerifyTrust**](https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f), [**MsiGetFileSignatureInformation**](/windows/desktop/api/Msi/nf-msi-msigetfilesignatureinformationa), or by importing a .cer file.
 
 </dd> </dl>
 

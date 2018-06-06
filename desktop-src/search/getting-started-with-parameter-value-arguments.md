@@ -49,7 +49,7 @@ The syntax begins by identifying the protocol itself (search-ms:). The parameter
 
  
 
-For related information, see [Registering an Application to a URL Protocol](https://www.bing.com/search?q=Registering an Application to a URL Protocol).
+For related information, see [Registering an Application to a URL Protocol](https://www.bing.com/search?q=Registering+an+Application+to+a+URL+Protocol).
 
 ## Examples
 

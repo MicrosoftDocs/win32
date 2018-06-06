@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # RBN\_GETOBJECT notification code
 
-Sent by a rebar control created with the [**RBS\_REGISTERDROP**](https://www.bing.com/search?q=**RBS\_REGISTERDROP**) style when an object is dragged over a band in the control. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a rebar control created with the [**RBS\_REGISTERDROP**](rebar-control-styles.md#rbs-registerdrop) style when an object is dragged over a band in the control. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++

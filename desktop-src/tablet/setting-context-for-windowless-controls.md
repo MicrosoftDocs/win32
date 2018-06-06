@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Setting Context for Windowless Controls
 
-Windowless controls can call the [**SetInputScope**](https://msdn.microsoft.com/windows/desktop/4098525c-8d29-419a-9484-9e70420416bc) function whenever the focus is moved among elements of the windowless control; however, this is not recommended for performance reasons.
+Windowless controls can call the [**SetInputScope**](https://msdn.microsoft.com/4098525c-8d29-419a-9484-9e70420416bc) function whenever the focus is moved among elements of the windowless control; however, this is not recommended for performance reasons.
 
  
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Certificate and Message Encoding Types
 
-Many of the functions require certificate or [*message encoding types*](https://www.bing.com/search?q=*message encoding types*). This encoding type is a **DWORD**, possibly containing both the certificate and message encoding types. The certificate encoding type is stored in the low-order word. The message encoding type is stored in the high-order word. Some functions or structure fields require only one of the encoding types, but it is always acceptable to specify both encoding types. For an example specifying both encoding types, see [\#includes and \#defines](-includes-and--defines.md).
+Many of the functions require certificate or [*message encoding types*](security.m_gly#-security-message-encoding-type-gly). This encoding type is a **DWORD**, possibly containing both the certificate and message encoding types. The certificate encoding type is stored in the low-order word. The message encoding type is stored in the high-order word. Some functions or structure fields require only one of the encoding types, but it is always acceptable to specify both encoding types. For an example specifying both encoding types, see [\#includes and \#defines](-includes-and--defines.md).
 
 The following parameter naming convention is used to indicate the encoding types required.
 

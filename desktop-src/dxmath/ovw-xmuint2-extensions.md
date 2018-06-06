@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 
 | Topic                                                     | Description                                   |
 |-----------------------------------------------------------|-----------------------------------------------|
-| [**XMUINT2 Constructors**](https://www.bing.com/search?q=**XMUINT2 Constructors**)<br/>   | Constructors exposed by `XMUINT2`.<br/> |
+| [**XMUINT2 Constructors**](https://www.bing.com/search?q=**XMUINT2+Constructors**)<br/>   | Constructors exposed by `XMUINT2`.<br/> |
 | [XMUINT2 Operators](ovw-xmuint2-operators.md)<br/> | Operators exposed by `XMUINT2`.<br/>    |
 
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Reads data from an open file.
 
-This function is the user-mode equivalent to the [**ZwReadFile**](https://www.bing.com/search?q=**ZwReadFile**) function documented in the Windows Driver Kit (WDK).
+This function is the user-mode equivalent to the [**ZwReadFile**](https://msdn.microsoft.com/0f1ec015-bda6-45fe-973d-be414aece918) function documented in the Windows Driver Kit (WDK).
 
 ## Syntax
 
@@ -69,7 +69,7 @@ This parameter is reserved. Device and intermediate drivers should set this poin
 *IoStatusBlock* \[out\]
 </dt> <dd>
 
-Pointer to an [**IO\_STATUS\_BLOCK**](https://www.bing.com/search?q=**IO\_STATUS\_BLOCK**) structure that receives the final completion status and information about the requested read operation. The **Information** member receives the number of bytes actually read from the file.
+Pointer to an [**IO\_STATUS\_BLOCK**](https://msdn.microsoft.com/1ce2b1d0-a8b2-4a05-8895-e13802690a7b) structure that receives the final completion status and information about the requested read operation. The **Information** member receives the number of bytes actually read from the file.
 
 </dd> <dt>
 
@@ -147,9 +147,9 @@ File and event handles are valid only in the process context where the handles a
 
 Likewise, **NtReadFile** should be called in the context of the system process if it notifies the driver of I/O completion by means of an APC, because APCs are always fired in the context of the thread that issues the I/O request. If the driver calls **NtReadFile** in the context of a process other than the system one, the APC could be delayed indefinitely, or it might not fire at all.
 
-For more information about working with files, see [Using Files in a Driver](https://www.bing.com/search?q=Using Files in a Driver).
+For more information about working with files, see [Using Files in a Driver](https://www.bing.com/search?q=Using+Files+in+a+Driver).
 
-Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with special kernel APCs enabled](https://www.bing.com/search?q=with special kernel APCs enabled).
+Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with special kernel APCs enabled](https://www.bing.com/search?q=with+special+kernel+APCs+enabled).
 
 ## Requirements
 
@@ -170,7 +170,7 @@ Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with spe
 
 <dl> <dt>
 
-[**KeInitializeEvent**](https://www.bing.com/search?q=**KeInitializeEvent**)
+[**KeInitializeEvent**](https://msdn.microsoft.com/0b59056c-6e73-4078-b8b3-32ced29ff7b0)
 </dt> <dt>
 
 [**NtCreateFile**](/windows/desktop/api/Winternl/nf-winternl-ntcreatefile)

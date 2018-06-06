@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Border Color Texture Address Mode (Direct3D 9)
 
-The border color texture address mode, identified by the D3DTADDRESS\_BORDER member of the [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/windows/desktop/5c03c55f-4a74-4b0e-ba05-e4a6582ff47c) enumerated type, causes Direct3D to use an arbitrary color, known as the border color, for any texture coordinates outside the range of 0.0 through 1.0, inclusive.
+The border color texture address mode, identified by the D3DTADDRESS\_BORDER member of the [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtextureaddress.htm) enumerated type, causes Direct3D to use an arbitrary color, known as the border color, for any texture coordinates outside the range of 0.0 through 1.0, inclusive.
 
 In the following illustration, the application specifies that the texture be applied to the primitive using a red border.
 

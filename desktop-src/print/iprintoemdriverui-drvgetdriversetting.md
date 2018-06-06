@@ -97,7 +97,7 @@ When calling the `IPrintOemDriverUI::DrvGetDriverSetting` method, a user interfa
 
 -   If *pFeatureKeyword* is a string, it must represent one of the following:
 
-    -   A feature name specified in a [Unidrv minidriver](https://www.bing.com/search?q=Unidrv minidriver) GPD file, or,
+    -   A feature name specified in a [Unidrv minidriver](https://www.bing.com/search?q=Unidrv+minidriver) GPD file, or,
     -   A keyword argument to an \***OpenUI** entry in a Pscript5 minidriver's PPD file.
 
     The method returns one or more NULL-terminated strings in the buffer pointed to by *pOutput*. Each string represents the name of a currently selected option.The number of strings is returned in *pdwOptionsReturned*.

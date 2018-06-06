@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # COM+ Queued Components Concepts
 
-Based on [Message Queuing](https://www.bing.com/search?q=Message Queuing) services, the COM+ queued components service provides an easy way to invoke and execute components asynchronously. Processing can occur without regard to the availability or accessibility of either the sender or the receiver.
+Based on [Message Queuing](https://www.bing.com/search?q=Message+Queuing) services, the COM+ queued components service provides an easy way to invoke and execute components asynchronously. Processing can occur without regard to the availability or accessibility of either the sender or the receiver.
 
 In COM terms, a *queue* is a storage area that saves messages for later retrieval. Queuing provides a mechanism for connectionless communication. That is, the sender and receiver are not connected directly and communicate only through queues. Queuing provides a way to hold the information until the receiver is ready to obtain it. The sender and receiver are indirectly communicating so that each can operate independently, unaffected by the other.
 

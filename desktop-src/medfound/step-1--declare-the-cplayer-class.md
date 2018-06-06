@@ -118,7 +118,7 @@ Here are some things to note about `CPlayer`:
 
 The `CPlayer` class implements [**IMFAsyncCallback**](/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback), which inherits **IUnknown**.
 
-The code shown here is a fairly standard implementation of **IUnknown**. If you prefer, you can use the Active Template Library (ATL) to implement these methods. However, `CPlayer` does not support [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) or any advanced COM features, so there is no overwhelming reason to use ATL here.
+The code shown here is a fairly standard implementation of **IUnknown**. If you prefer, you can use the Active Template Library (ATL) to implement these methods. However, `CPlayer` does not support [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) or any advanced COM features, so there is no overwhelming reason to use ATL here.
 
 
 ```C++

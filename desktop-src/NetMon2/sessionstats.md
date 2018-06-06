@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SESSIONSTATS structure
 
-The **SESSIONSTATS** structure provides statistics about a [*session*](https://www.bing.com/search?q=*session*).
+The **SESSIONSTATS** structure provides statistics about a [*session*](s.md#-netmon-session-gly).
 
 ## Syntax
 

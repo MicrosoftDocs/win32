@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ISCrdEnr::getCAName method
 
-The **getCAName** method retrieves the name of the specified [*certification authority*](https://www.bing.com/search?q=*certification authority*) (CA) for a given certificate template.
+The **getCAName** method retrieves the name of the specified [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA) for a given certificate template.
 
 ## Syntax
 

@@ -91,7 +91,7 @@ The following table summarizes the differences listed here.
 
  
 
-For more information about XPDM, WDDM, Direct3D9Ex, and Direct3D 10, see [Graphics APIs in Windows](https://msdn.microsoft.com/windows/desktop/54cd5027-cdcf-fc4a-40a9-beacfaa08681).
+For more information about XPDM, WDDM, Direct3D9Ex, and Direct3D 10, see [Graphics APIs in Windows](https://msdn.microsoft.com/54cd5027-cdcf-fc4a-40a9-beacfaa08681).
 
 ## Related topics
 

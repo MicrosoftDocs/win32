@@ -45,7 +45,7 @@ Another option is to use a smart pointer class, such as **CComPtr**, which is de
 [About Media Foundation](about-the-media-foundation-sdk.md)
 </dt> <dt>
 
-[**IUnknown::Release**](https://msdn.microsoft.com/windows/desktop/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a)
+[**IUnknown::Release**](https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a)
 </dt> </dl>
 
  

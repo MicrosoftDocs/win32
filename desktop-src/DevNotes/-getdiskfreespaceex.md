@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[This function is a wrapper over the **GetDiskFreeSpaceEx** function. This function may be altered or unavailable in the future. Applications should call **GetDiskFreeSpaceEx** directly.\]
 
-Gets the free disk space. See [**GetDiskFreeSpaceEx**](https://msdn.microsoft.com/windows/desktop/a52f2dbd-bda6-4217-9e72-f100f8bbe334).
+Gets the free disk space. See [**GetDiskFreeSpaceEx**](https://msdn.microsoft.com/a52f2dbd-bda6-4217-9e72-f100f8bbe334).
 
 ## Syntax
 
@@ -47,7 +47,7 @@ BOOL _GetDiskFreeSpaceEx(
 
 <dl> <dt>
 
-[**GetDiskFreeSpaceEx**](https://msdn.microsoft.com/windows/desktop/a52f2dbd-bda6-4217-9e72-f100f8bbe334)
+[**GetDiskFreeSpaceEx**](https://msdn.microsoft.com/a52f2dbd-bda6-4217-9e72-f100f8bbe334)
 </dt> </dl>
 
  

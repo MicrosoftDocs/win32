@@ -108,7 +108,7 @@ Some issues can be presented as an error, warning, or information, depending on 
 -   **Warning.** "This page might not behave as expected because Windows Internet Explorer isn't configured to load unsigned ActiveX controls." or "Allow this page to install an unsigned ActiveX Control? Doing so from untrusted sources may harm your computer." (Both phrased as conditions that may cause future problems.)
 -   **Information.** "You have configured Windows Internet Explorer to block unsigned ActiveX controls." (Phrased as a statement of fact.)
 
-**To determine the appropriate message type, focus on the most important aspect of the issue that users need to know or act upon.** Typically, if an issue blocks the user from proceeding, you should present it as an error; if the user can proceed, present it as a warning. Craft the [main instruction](https://www.bing.com/search?q=main instruction) or other corresponding text based on that focus, then choose an icon ([standard](vis-std-icons.md) or otherwise) that matches the text. The main instruction text and icons should always match.
+**To determine the appropriate message type, focus on the most important aspect of the issue that users need to know or act upon.** Typically, if an issue blocks the user from proceeding, you should present it as an error; if the user can proceed, present it as a warning. Craft the [main instruction](text-ui.md#usage-patterns) or other corresponding text based on that focus, then choose an icon ([standard](vis-std-icons.md) or otherwise) that matches the text. The main instruction text and icons should always match.
 
 ### Be specific
 
@@ -199,7 +199,7 @@ Warnings have several usage patterns:
 <li><strong>Supplemental instruction:</strong> Explain any non-obvious reasons why the user might not want to proceed.</li>
 <li><strong>Commit buttons:</strong> Yes, No.</li>
 </ul>
-For guidelines on this pattern, see [Confirmations](https://www.bing.com/search?q=Confirmations). <br/></td>
+For guidelines on this pattern, see [Confirmations](mess-confirm.md#usage-patterns). <br/></td>
 </tr>
 </tbody>
 </table>
@@ -232,7 +232,7 @@ For guidelines on this pattern, see [Confirmations](https://www.bing.com/search?
 -   **For modal dialog boxes:**
     -   **Use task dialogs whenever appropriate to achieve a consistent look and layout.** Task dialogs require Windows Vista or later, so they aren't suitable for earlier versions of Windows.
     -   **Display only one warning message per condition.** For example, display a single warning that completely explains a condition instead of describing it one detail at a time per message. Displaying a sequence of warning dialogs for a single condition is confusing and annoying.
-    -   **Don't display a warning more than once per condition.** Constant warnings quickly become ineffective and annoying. Users often become more focused on getting rid of the warning than addressing the problem. If you must warn repeatedly for a single condition, use [progressive escalation](https://www.bing.com/search?q=progressive escalation).
+    -   **Don't display a warning more than once per condition.** Constant warnings quickly become ineffective and annoying. Users often become more focused on getting rid of the warning than addressing the problem. If you must warn repeatedly for a single condition, use [progressive escalation](mess-notif.md#use-progressive-escalation-where-applicable).
 -   **Don't accompany warnings with a sound effect or beep.** Doing so is jarring and unnecessary.
     -   **Exception:** If the user must respond immediately, you can use a sound effect.
 
@@ -301,7 +301,7 @@ In this example, the term "warning" is unnecessary.
 In this example, "Security Warning" doesn't identify the command or feature where the warning came from.
 
 -   **Don't use the title to explain what to do in the dialog** that's the purpose of the main instruction.
--   Use [title-style capitalization](https://www.bing.com/search?q=title-style capitalization), without ending punctuation.
+-   Use [title-style capitalization](glossary.md#t), without ending punctuation.
 
 ### Main instructions
 
@@ -327,7 +327,7 @@ In this example, "Security Warning" doesn't identify the command or feature wher
 -   **Be concise use only a single, complete sentence.** Strip the main instruction down to the essential information. If you must explain anything more, use a supplemental instruction.
 -   **Use words like "now" and "immediately" if the user must act immediately.** Don't use these words if there is no urgency.
 -   **Be specific if there are objects involved, give their full names.**
--   Use [sentence-style capitalization](https://www.bing.com/search?q=sentence-style capitalization).
+-   Use [sentence-style capitalization](glossary.md#s).
 
 ### Supplemental instructions
 

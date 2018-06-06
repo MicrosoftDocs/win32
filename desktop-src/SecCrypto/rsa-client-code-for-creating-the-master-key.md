@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # RSA Client Code for Creating the Master Key
 
-The following example shows typical RSA/Schannel client-side code for creating a [*master key*](https://www.bing.com/search?q=*master key*).
+The following example shows typical RSA/Schannel client-side code for creating a [*master key*](security.m_gly#-security-master-key-gly).
 
 
 ```C++

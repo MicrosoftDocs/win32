@@ -15,7 +15,7 @@ The **IPartBase** interface is a common base for document part interfaces.
 
 ## Members
 
-The **IPartBase** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPartBase** also has these types of members:
+The **IPartBase** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPartBase** also has these types of members:
 
 -   [Methods](#methods)
 

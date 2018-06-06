@@ -57,7 +57,7 @@ If the start is 0 and the end is  1, all the text in the edit control is selecte
 
 **Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
-If the edit control has the [**ES\_NOHIDESEL**](https://www.bing.com/search?q=**ES\_NOHIDESEL**) style, the selected text is highlighted regardless of whether the control has focus. Without the **ES\_NOHIDESEL** style, the selected text is highlighted only when the edit control has the focus.
+If the edit control has the [**ES\_NOHIDESEL**](edit-control-styles.md#es-nohidesel) style, the selected text is highlighted regardless of whether the control has focus. Without the **ES\_NOHIDESEL** style, the selected text is highlighted only when the edit control has the focus.
 
 ## Requirements
 

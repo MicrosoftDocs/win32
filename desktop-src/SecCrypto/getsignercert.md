@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # GetSignerCert
 
-The **GetSignerCert** function goes through (enumerates) the certificates in a [*certificate store*](https://www.bing.com/search?q=*certificate store*) until a certificate with a signature key is found. If a certificate is found, a pointer to the certificate is returned. This code demonstrates:
+The **GetSignerCert** function goes through (enumerates) the certificates in a [*certificate store*](security.c_gly#-security-certificate-store-gly) until a certificate with a signature key is found. If a certificate is found, a pointer to the certificate is returned. This code demonstrates:
 
 -   Finding a certificate with a certificate property.
 -   Checking that property.

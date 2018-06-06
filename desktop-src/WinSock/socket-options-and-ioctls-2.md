@@ -67,7 +67,7 @@ TRUE
 
 BOOL
 
-Routing is disabled. Succeeds but is ignored on AF\_INET sockets; fails on AF\_INET6 sockets with [WSAENOPROTOOPT](https://www.bing.com/search?q=WSAENOPROTOOPT). Not supported on ATM sockets (results in an error).
+Routing is disabled. Succeeds but is ignored on AF\_INET sockets; fails on AF\_INET6 sockets with [WSAENOPROTOOPT](windows-sockets-error-codes-2.md#wsaenoprotoopt). Not supported on ATM sockets (results in an error).
 
 FALSE
 

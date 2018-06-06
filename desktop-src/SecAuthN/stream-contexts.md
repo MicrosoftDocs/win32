@@ -11,14 +11,14 @@ ms.date: 05/31/2018
 
 # Stream Contexts
 
-Stream contexts handle the secure stream-oriented protocols such as SSL or PCT. In the interest of sharing the same interface and similar credential management, SSPI provides support for stream contexts. The [*security protocol*](https://www.bing.com/search?q=*security protocol*) incorporates both the stream authentication scheme and record formats.
+Stream contexts handle the secure stream-oriented protocols such as SSL or PCT. In the interest of sharing the same interface and similar credential management, SSPI provides support for stream contexts. The [*security protocol*](security.s_gly#-security-security-protocol-gly) incorporates both the stream authentication scheme and record formats.
 
-To provide stream-oriented protocols, [*security packages*](https://www.bing.com/search?q=*security packages*) that support stream contexts have the following process characteristics:
+To provide stream-oriented protocols, [*security packages*](security.s_gly#-security-security-package-gly) that support stream contexts have the following process characteristics:
 
 -   The package sets the SECPKG\_FLAG\_STREAM flag to indicate that it supports stream semantics.
 -   Transport applications requests stream semantics by setting the ISC\_REQ\_STREAM and ASC\_REQ\_STREAM flags in the calls to the [**InitializeSecurityContext (General)**](/windows/desktop/api/Sspi/) and [**AcceptSecurityContext (General)**](/windows/desktop/api/Sspi/) functions.
--   The application calls the [**QueryContextAttributes (General)**](/windows/desktop/api/Sspi/) function with a [**SecPkgContext\_StreamSizes**](/windows/desktop/api/Sspi/ns-sspi-_secpkgcontext_streamsizes) structure to query the [*security context*](https://www.bing.com/search?q=*security context*) for the number of buffers to provide and the sizes to reserve for headers or trailers.
--   The application provides buffer descriptors to spare during the actual processing of the data. By specifying stream semantics, the caller indicates willingness to do extra processing so that the [*security package*](https://www.bing.com/search?q=*security package*) can handle the blocking of the messages. In essence, for the [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature) and [**VerifySignature**](/windows/desktop/api/Sspi/nf-sspi-verifysignature) functions, the caller passes in a list of buffers. When a message is received from a channel that is stream-oriented (such as a TCP port), the caller passes in a buffer list as follows.
+-   The application calls the [**QueryContextAttributes (General)**](/windows/desktop/api/Sspi/) function with a [**SecPkgContext\_StreamSizes**](/windows/desktop/api/Sspi/ns-sspi-_secpkgcontext_streamsizes) structure to query the [*security context*](security.s_gly#-security-security-context-gly) for the number of buffers to provide and the sizes to reserve for headers or trailers.
+-   The application provides buffer descriptors to spare during the actual processing of the data. By specifying stream semantics, the caller indicates willingness to do extra processing so that the [*security package*](security.s_gly#-security-security-package-gly) can handle the blocking of the messages. In essence, for the [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature) and [**VerifySignature**](/windows/desktop/api/Sspi/nf-sspi-verifysignature) functions, the caller passes in a list of buffers. When a message is received from a channel that is stream-oriented (such as a TCP port), the caller passes in a buffer list as follows.
 
     | Buffer | Length         | Buffer type      |
     |--------|----------------|------------------|
@@ -32,7 +32,7 @@ To provide stream-oriented protocols, [*security packages*](https://www.bing.com
 
      
 
-    The security package then works on the [*BLOB*](https://www.bing.com/search?q=*BLOB*). If the function returns successfully, the buffer list looks like the following.
+    The security package then works on the [*BLOB*](security.b_gly#-security-blob-gly). If the function returns successfully, the buffer list looks like the following.
 
     
 
@@ -60,7 +60,7 @@ To provide stream-oriented protocols, [*security packages*](https://www.bing.com
 
      
 
-    This indicates that more data was needed to process the record. Unlike most errors returned from a message function, this buffer type does not indicate that the context has been compromised. Instead, it indicates that more data is needed. [*Security packages*](https://www.bing.com/search?q=*Security packages*) must not update their [*state*](https://www.bing.com/search?q=*state*) in this condition.
+    This indicates that more data was needed to process the record. Unlike most errors returned from a message function, this buffer type does not indicate that the context has been compromised. Instead, it indicates that more data is needed. [*Security packages*](security.s_gly#-security-security-package-gly) must not update their [*state*](security.s_gly#-security-state-gly) in this condition.
 
     Similarly, on the sender side of the communication, the caller can call the [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature) function. The security package may need to reallocate the buffer or copy things around. The caller can be more efficient by providing a buffer list as follows.
 

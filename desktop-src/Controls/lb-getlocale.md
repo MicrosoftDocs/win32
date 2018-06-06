@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # LB\_GETLOCALE message
 
-Gets the current locale of the list box. You can use the locale to determine the correct sorting order of displayed text (for list boxes with the [**LBS\_SORT**](https://www.bing.com/search?q=**LBS\_SORT**) style) and of text added by the [**LB\_ADDSTRING**](lb-addstring.md) message.
+Gets the current locale of the list box. You can use the locale to determine the correct sorting order of displayed text (for list boxes with the [**LBS\_SORT**](list-box-styles.md#lbs-sort) style) and of text added by the [**LB\_ADDSTRING**](lb-addstring.md) message.
 
 ## Parameters
 

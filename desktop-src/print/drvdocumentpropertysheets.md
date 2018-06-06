@@ -56,11 +56,11 @@ Caller-supplied integer value that is dependent on the contents of the **Reason*
 
 ## Return value
 
-If *pPSUIInfo* is **NULL**, and if either *lParam* -&gt; **fMode** is zero or *lParam -*&gt; **pdmOut** is **NULL**, this function should return the size, in bytes, of the printer's [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure. Otherwise, the function's return value is the same as that described in the ReturnValue section of the [**PFNPROPSHEETUI**](pfnpropsheetui.md) function type. For more information, see the Remarks section.
+If *pPSUIInfo* is **NULL**, and if either *lParam* -&gt; **fMode** is zero or *lParam -*&gt; **pdmOut** is **NULL**, this function should return the size, in bytes, of the printer's [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure. Otherwise, the function's return value is the same as that described in the ReturnValue section of the [**PFNPROPSHEETUI**](pfnpropsheetui.md) function type. For more information, see the Remarks section.
 
 ## Remarks
 
-All [printer interface DLLs](https://www.bing.com/search?q=printer interface DLLs) must provide a **DrvDocumentPropertySheets** function, which is defined using the [**PFNPROPSHEETUI**](pfnpropsheetui.md) function type. The function's purpose is to call the [**ComPropSheet**](compropsheet.md) function, provided by [CPSUI](https://www.bing.com/search?q=CPSUI), to specify property sheet pages containing user-modifiable properties for print documents.
+All [printer interface DLLs](https://www.bing.com/search?q=printer+interface+DLLs) must provide a **DrvDocumentPropertySheets** function, which is defined using the [**PFNPROPSHEETUI**](pfnpropsheetui.md) function type. The function's purpose is to call the [**ComPropSheet**](compropsheet.md) function, provided by [CPSUI](https://www.bing.com/search?q=CPSUI), to specify property sheet pages containing user-modifiable properties for print documents.
 
 If the value received for the *pPSUIInfo* parameter is not **NULL**, the NT-based operating system print spooler is calling the function indirectly, through CPSUI. The following rules apply:
 
@@ -70,7 +70,7 @@ If the value received for the *pPSUIInfo* parameter is not **NULL**, the NT-base
 
 If the value received for the *pPSUIInfo* parameter is **NULL**, the print spooler is calling the function directly, without going through CPSUI. In this case, the *lParam* parameter contains the address of a DOCUMENTPROPERTYHEADER structure, and the following rules apply:
 
--   If the **fMode** member of the [**DOCUMENTPROPERTYHEADER**](documentpropertyheader.md) structure is zero, or if the **pdmOut** member of the same structure is **NULL**, the function should return just the total size of the printer's [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure, including public and private structure members, in the DOCUMENTPROPERTYHEADER structure's **cbOut** member.
+-   If the **fMode** member of the [**DOCUMENTPROPERTYHEADER**](documentpropertyheader.md) structure is zero, or if the **pdmOut** member of the same structure is **NULL**, the function should return just the total size of the printer's [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure, including public and private structure members, in the DOCUMENTPROPERTYHEADER structure's **cbOut** member.
 
 -   If the **fMode** member of the DOCUMENTPROPERTYHEADER structure is not zero, the function should perform the operations indicated by the **fMode** flags. The only flags that might be set are DM\_IN\_BUFFER (or DM\_MODIFY), and DM\_OUT\_BUFFER (or DM\_COPY).
 

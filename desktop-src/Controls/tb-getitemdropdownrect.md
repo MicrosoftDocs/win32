@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # TB\_GETITEMDROPDOWNRECT message
 
-Gets the bounding rectangle of the dropdown window for a toolbar item with style [**BTNS\_DROPDOWN**](https://www.bing.com/search?q=**BTNS\_DROPDOWN**).
+Gets the bounding rectangle of the dropdown window for a toolbar item with style [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md#btns-dropdown).
 
 ## Parameters
 
@@ -43,7 +43,7 @@ Always returns nonzero.
 
 ## Remarks
 
-The item must have the [**BTNS\_DROPDOWN**](https://www.bing.com/search?q=**BTNS\_DROPDOWN**) style.
+The item must have the [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md#btns-dropdown) style.
 
 ## Requirements
 

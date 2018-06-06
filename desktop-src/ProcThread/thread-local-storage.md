@@ -23,7 +23,7 @@ The following diagram illustrates how TLS works. For a code example illustrating
 
 The process has two threads, Thread 1 and Thread 2. It allocates two indexes for use with TLS, gdwTlsIndex1 and gdwTlsIndex2. Each thread allocates two memory blocks (one for each index) in which to store the data, and stores the pointers to these memory blocks in the corresponding TLS slots. To access the data associated with an index, the thread retrieves the pointer to the memory block from the TLS slot and stores it in the lpvData local variable.
 
-It is ideal to use TLS in a dynamic-link library (DLL). For an example, see [Using Thread Local Storage in a Dynamic Link Library](https://msdn.microsoft.com/windows/desktop/a300f223-b513-4a22-a7a4-5d98cf74d77d).
+It is ideal to use TLS in a dynamic-link library (DLL). For an example, see [Using Thread Local Storage in a Dynamic Link Library](https://msdn.microsoft.com/a300f223-b513-4a22-a7a4-5d98cf74d77d).
 
 ## Related topics
 
@@ -35,7 +35,7 @@ It is ideal to use TLS in a dynamic-link library (DLL). For an example, see [Usi
 [Using Thread Local Storage](using-thread-local-storage.md)
 </dt> <dt>
 
-[Using Thread Local Storage in a Dynamic Link Library](https://msdn.microsoft.com/windows/desktop/a300f223-b513-4a22-a7a4-5d98cf74d77d)
+[Using Thread Local Storage in a Dynamic Link Library](https://msdn.microsoft.com/a300f223-b513-4a22-a7a4-5d98cf74d77d)
 </dt> </dl>
 
  

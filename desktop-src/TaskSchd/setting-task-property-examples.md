@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 To set the properties of a task, call [**ITaskScheduler::Activate**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-activate) to retrieve the interface of the task object, then call the appropriate [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) method to set the task property you are interested in.
 
-The code examples listed at the bottom of the page show how to set the properties that are unique to task objects. For other [*work item*](https://www.bing.com/search?q=*work item*) properties that also apply to tasks, see [Setting Work Item Property Examples](setting-work-item-property-examples.md).
+The code examples listed at the bottom of the page show how to set the properties that are unique to task objects. For other [*work item*](w.md#-msb-work-items-gly) properties that also apply to tasks, see [Setting Work Item Property Examples](setting-work-item-property-examples.md).
 
 > [!Note]  
 > In the following code example, all interfaces are released after they are no longer needed.
@@ -41,7 +41,7 @@ The following procedure describes how to set a task property.
 | Setting the maximum run time of a known task                                                                                                         | [C/C++ Code Example: Setting MaxRunTime](c-c-code-example-setting-maxruntime.md)               |
 | Clearing all command-line parameters associated with a known task                                                                                    | [C/C++ Code Example: Setting Task Parameters](c-c-code-example-setting-task-parameters.md)     |
 | This example sets the priority of a test task and then saves the task. This example assumes that the test task already exists on the local computer. | [C/C++ Code Example: Setting Task Priority](c-c-code-example-setting-task-priority.md)         |
-| Setting the [*working directory*](https://www.bing.com/search?q=*working directory*) of a known task                                                                  | [C/C++ Code Example: Setting Working Directory](c-c-code-example-setting-working-directory.md) |
+| Setting the [*working directory*](w.md#-msb-working-directory-gly) of a known task                                                                  | [C/C++ Code Example: Setting Working Directory](c-c-code-example-setting-working-directory.md) |
 
 
 

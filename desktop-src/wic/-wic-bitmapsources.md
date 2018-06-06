@@ -49,7 +49,7 @@ The following table describes the different bitmap source components provided by
 
 The most common [**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) is the [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode). This interface is used to access the actual bitmap data of an image format. Many image formats only support a single bitmap frame, while other formats such as GIF and TIFF support multiple frames per image.
 
-For an example on obtaining bitmap frames from an image, see the [How to Retrieve the Frames of an Image](https://www.bing.com/search?q=How to Retrieve the Frames of an Image) topic.
+For an example on obtaining bitmap frames from an image, see the [How to Retrieve the Frames of an Image](https://www.bing.com/search?q=How+to+Retrieve+the+Frames+of+an+Image) topic.
 
 ## Bitmaps
 

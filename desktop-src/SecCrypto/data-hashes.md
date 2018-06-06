@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Data Hashes
 
-A [*hash*](https://www.bing.com/search?q=*hash*) of a text or other string of bytes is an associated, statistically unique, fixed-length value. In some documents, a *hash* of a text is also called a digest; however, in this documentation the term hash will always be used. CryptoAPI functions provide a means to create a hash for any text or other string of bytes. That hash, then, can be used as a unique identifier of its associated data.
+A [*hash*](security.h_gly#-security-hash-gly) of a text or other string of bytes is an associated, statistically unique, fixed-length value. In some documents, a *hash* of a text is also called a digest; however, in this documentation the term hash will always be used. CryptoAPI functions provide a means to create a hash for any text or other string of bytes. That hash, then, can be used as a unique identifier of its associated data.
 
-To ensure the [*integrity*](https://www.bing.com/search?q=*integrity*) of a text, a [*hash*](https://www.bing.com/search?q=*hash*) of a text can be sent to accompany the text. The receiver can then compute a hash on the data received and compare the hash computed with the hash received. If the two match, the data received must be the same as the data from which the received hash was created.
+To ensure the [*integrity*](security.i_gly#-security-integrity-gly) of a text, a [*hash*](security.h_gly#-security-hash-gly) of a text can be sent to accompany the text. The receiver can then compute a hash on the data received and compare the hash computed with the hash received. If the two match, the data received must be the same as the data from which the received hash was created.
 
 To obtain a hash value, create a hash object using [**CryptCreateHash**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash). This object will accumulate the data to be verified. The data is then added to the hash object with the [**CryptHashData**](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashdata) function.
 

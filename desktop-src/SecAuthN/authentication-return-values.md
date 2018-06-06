@@ -27,7 +27,7 @@ The [Network Provider API](network-provider-api.md) uses the following defined v
 
 ## Smart Card Return Values
 
-[Smart Card Functions](https://www.bing.com/search?q=Smart Card Functions) return the following return values. These return values are defined in Scarderr.h.
+[Smart Card Functions](authentication-functions.md#smart-card-functions) return the following return values. These return values are defined in Scarderr.h.
 
 > [!Note]  
 > Some return values may have the same value as existing Windows return values that signify a similar condition. For information about error codes not listed here, see [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381).

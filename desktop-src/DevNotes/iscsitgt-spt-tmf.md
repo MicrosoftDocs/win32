@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The following structure is available for use in Windows Server 2012 R2. It may be altered or unavailable in subsequent versions.\]
 
-Used with the [**IOCTL\_SCSI\_MINIPORT**](https://www.bing.com/search?q=**IOCTL\_SCSI\_MINIPORT**) IOCTL and the CTLCODE\_ISCSITGT\_SPT\_TMF (0x102) control code to invoke a task management function.
+Used with the [**IOCTL\_SCSI\_MINIPORT**](https://msdn.microsoft.com/5a9facc7-c83e-4dd4-9fb4-e3385c1b94ea) IOCTL and the CTLCODE\_ISCSITGT\_SPT\_TMF (0x102) control code to invoke a task management function.
 
 ## Syntax
 
@@ -97,7 +97,7 @@ iSCSI TMF response code.
 [iSCSI Target Pass-Through](iscsi-target-pass-through.md)
 </dt> <dt>
 
-[**SRB\_IO\_CONTROL**](https://www.bing.com/search?q=**SRB\_IO\_CONTROL**)
+[**SRB\_IO\_CONTROL**](https://msdn.microsoft.com/754d2a4c-6a22-4c25-87e2-e30e87b9c1ba)
 </dt> </dl>
 
  

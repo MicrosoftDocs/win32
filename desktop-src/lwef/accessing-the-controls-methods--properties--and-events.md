@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 Using Microsoft Agent's control with Visual Basic is very similar to using the control with VBScript, except that events in Visual Basic must include the data type of passed parameters. Adding the Microsoft Agent control to a form will automatically include Microsoft Agent's events with their appropriate parameters. It will also automatically create a connection to the Agent server when the application runs.
 
-You may also be able to use your programming language's object's creation syntax to create an instance of the control at runtime. For example, in Visual Basic (5.0 or later), if you include the Microsoft Agent 2.0 Control in your project's references, you can use a [**With Events**](https://www.bing.com/search?q=**With Events**)..[**New**](https://www.bing.com/search?q=**New**) declaration. If you do not include the reference, VB raises an error indicating that Microsoft Agent was unable to start (error code 80042502).
+You may also be able to use your programming language's object's creation syntax to create an instance of the control at runtime. For example, in Visual Basic (5.0 or later), if you include the Microsoft Agent 2.0 Control in your project's references, you can use a [**With Events**](https://www.bing.com/search?q=**With+Events**)..[**New**](https://www.bing.com/search?q=**New**) declaration. If you do not include the reference, VB raises an error indicating that Microsoft Agent was unable to start (error code 80042502).
 
 ``` syntax
    ' Declare a global variable for the control

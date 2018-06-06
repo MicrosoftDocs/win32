@@ -115,7 +115,7 @@ For a list of specific application gestures, see the [**InkApplicationGesture**]
 [**InkApplicationGesture Enumeration**](/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture)
 </dt> <dt>
 
-[**SetGestureStatus Method**](https://www.bing.com/search?q=**SetGestureStatus Method**)
+[**SetGestureStatus Method**](https://www.bing.com/search?q=**SetGestureStatus+Method**)
 </dt> <dt>
 
 [Using Gestures](using-gestures.md)

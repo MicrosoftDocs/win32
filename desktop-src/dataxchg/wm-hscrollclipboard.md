@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_HSCROLLCLIPBOARD message
 
-Sent to the clipboard owner by a clipboard viewer window. This occurs when the clipboard contains data in the [**CF\_OWNERDISPLAY**](https://www.bing.com/search?q=**CF\_OWNERDISPLAY**) format and an event occurs in the clipboard viewer's horizontal scroll bar. The owner should scroll the clipboard image and update the scroll bar values.
+Sent to the clipboard owner by a clipboard viewer window. This occurs when the clipboard contains data in the [**CF\_OWNERDISPLAY**](standard-clipboard-formats.md#cf-ownerdisplay) format and an event occurs in the clipboard viewer's horizontal scroll bar. The owner should scroll the clipboard image and update the scroll bar values.
 
 
 ```C++

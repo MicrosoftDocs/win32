@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IBidiSpl2::SendRecvXMLString method
 
-The **SendRecvXMLString** method sends a bidirectional printer communication request and receives the response as Unicode strings formatted in accordance with the [Bidirectional Communication Schemas](https://www.bing.com/search?q=Bidirectional Communication Schemas).
+The **SendRecvXMLString** method sends a bidirectional printer communication request and receives the response as Unicode strings formatted in accordance with the [Bidirectional Communication Schemas](https://www.bing.com/search?q=Bidirectional+Communication+Schemas).
 
 ## Syntax
 
@@ -32,14 +32,14 @@ HRESULT SendRecvXMLString(
 *bstrRequest* \[in\]
 </dt> <dd>
 
-The bidi communication request as a Unicode string that complies with one of the [Bidirectional Communication Schemas](https://www.bing.com/search?q=Bidirectional Communication Schemas).
+The bidi communication request as a Unicode string that complies with one of the [Bidirectional Communication Schemas](https://www.bing.com/search?q=Bidirectional+Communication+Schemas).
 
 </dd> <dt>
 
 *pbstrResponse* \[out\]
 </dt> <dd>
 
-A pointer to the printer's response as a Unicode string that complies with one of the [Bidirectional Communication Schemas](https://www.bing.com/search?q=Bidirectional Communication Schemas).
+A pointer to the printer's response as a Unicode string that complies with one of the [Bidirectional Communication Schemas](https://www.bing.com/search?q=Bidirectional+Communication+Schemas).
 
 </dd> </dl>
 
@@ -59,7 +59,7 @@ The method returns one of the following values.
 
  
 
-Note that the **HRESULT** may contain a system error code that is defined in [Bidi Error Codes](https://www.bing.com/search?q=Bidi Error Codes).
+Note that the **HRESULT** may contain a system error code that is defined in [Bidi Error Codes](https://www.bing.com/search?q=Bidi+Error+Codes).
 
 ## Requirements
 
@@ -85,7 +85,7 @@ Note that the **HRESULT** may contain a system error code that is defined in [Bi
 [Bidirectional Communication Interfaces](bidirectional-communication-interfaces.md)
 </dt> <dt>
 
-[Print Spooler Components](https://www.bing.com/search?q=Print Spooler Components)
+[Print Spooler Components](https://www.bing.com/search?q=Print+Spooler+Components)
 </dt> </dl>
 
  

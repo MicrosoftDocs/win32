@@ -51,7 +51,7 @@ This notification code does not return a value.
 
 To support the bottomless behavior of a rich edit control, the parent window must resize the control when it receives this notification code.
 
-To receive EN\_REQUESTRESIZE notification codes, specify [**ENM\_REQUESTRESIZE**](https://www.bing.com/search?q=**ENM\_REQUESTRESIZE**) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
+To receive EN\_REQUESTRESIZE notification codes, specify [**ENM\_REQUESTRESIZE**](rich-edit-control-event-mask-flags.md#enm-requestresize) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
 ## Requirements
 

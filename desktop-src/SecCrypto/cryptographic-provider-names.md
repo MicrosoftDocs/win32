@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Cryptographic Provider Names
 
-The following [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP) names are defined in Wincrypt.h. These constants are used with the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) and [**CryptSetProvider**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovidera) functions.
+The following [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) names are defined in Wincrypt.h. These constants are used with the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) and [**CryptSetProvider**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovidera) functions.
 
 
 
@@ -26,7 +26,7 @@ The following [*cryptographic service provider*](https://www.bing.com/search?q=*
 | <span id="MS_ENH_DSS_DH_PROV"></span><span id="ms_enh_dss_dh_prov"></span><dl> <dt>**MS\_ENH\_DSS\_DH\_PROV**</dt> <dt>"Microsoft Enhanced DSS and Diffie-Hellman Cryptographic Provider"</dt> </dl> | The [Microsoft Enhanced DSS and Diffie-Hellman Cryptographic Provider](microsoft-enhanced-dss-and-diffie-hellman-cryptographic-provider.md).<br/>                                         |
 | <span id="MS_ENH_RSA_AES_PROV"></span><span id="ms_enh_rsa_aes_prov"></span><dl> <dt>**MS\_ENH\_RSA\_AES\_PROV**</dt> <dt>"Microsoft Enhanced RSA and AES Cryptographic Provider"</dt> </dl>         | The [Microsoft AES Cryptographic Provider](microsoft-aes-cryptographic-provider.md).<br/> **Windows XP:  **"Microsoft Enhanced RSA and AES Cryptographic Provider (Prototype)"<br/> |
 | <span id="MS_ENHANCED_PROV"></span><span id="ms_enhanced_prov"></span><dl> <dt>**MS\_ENHANCED\_PROV**</dt> <dt>"Microsoft Enhanced Cryptographic Provider v1.0"</dt> </dl>                           | The [Microsoft Enhanced Cryptographic Provider](microsoft-enhanced-cryptographic-provider.md).<br/>                                                                                       |
-| <span id="MS_SCARD_PROV"></span><span id="ms_scard_prov"></span><dl> <dt>**MS\_SCARD\_PROV**</dt> <dt>"Microsoft Base Smart Card Crypto Provider"</dt> </dl>                                         | The [Microsoft Base Smart Card Cryptographic Service Provider](https://msdn.microsoft.com/windows/desktop/8d71e365-c581-4ec8-977b-0725a8c7d9ad).<br/>                                                    |
+| <span id="MS_SCARD_PROV"></span><span id="ms_scard_prov"></span><dl> <dt>**MS\_SCARD\_PROV**</dt> <dt>"Microsoft Base Smart Card Crypto Provider"</dt> </dl>                                         | The [Microsoft Base Smart Card Cryptographic Service Provider](https://msdn.microsoft.com/8d71e365-c581-4ec8-977b-0725a8c7d9ad).<br/>                                                    |
 | <span id="MS_STRONG_PROV"></span><span id="ms_strong_prov"></span><dl> <dt>**MS\_STRONG\_PROV**</dt> <dt>"Microsoft Strong Cryptographic Provider"</dt> </dl>                                        | The [Microsoft Strong Cryptographic Provider](microsoft-strong-cryptographic-provider.md).<br/>                                                                                           |
 
 

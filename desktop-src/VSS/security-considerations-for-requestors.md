@@ -68,7 +68,7 @@ Requesters can explicitly do the following:
 
     -   Set the authentication level to at least **RPC\_C\_AUTHN\_LEVEL\_PKT\_INTEGRITY**. For better security, consider using **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**.
     -   Set the impersonation level to **RPC\_C\_IMP\_LEVEL\_IMPERSONATE**.
-    -   Set the cloaking security capabilities to **EOAC\_STATIC**. For more information about cloaking security, see [Cloaking](https://msdn.microsoft.com/windows/desktop/5b97d9d6-8fa9-4da2-8351-64772227d9a2).
+    -   Set the cloaking security capabilities to **EOAC\_STATIC**. For more information about cloaking security, see [Cloaking](https://msdn.microsoft.com/5b97d9d6-8fa9-4da2-8351-64772227d9a2).
 
     The following code example shows how a requester should call [**CoInitializeSecurity**](https://www.bing.com/search?q=**CoInitializeSecurity**) in Windows 7 and Windows Server 2008 R2 and earlier (or in Windows 8 and Windows Server 2012 and later, if RVSS compatibility is not needed):
 
@@ -172,14 +172,14 @@ The user ThatDomain\\Administrator would not be able to run a VSS requester.
 
 ## Performing a File Backup of the System State
 
-If a requester performs system-state backup by backing up individual files instead of using a volume image for the backup, it must call the [**FindFirstFileNameW**](https://msdn.microsoft.com/windows/desktop/9f64aa3e-4c73-47a8-8304-6134f1b4d153) and [**FindNextFileNameW**](https://msdn.microsoft.com/windows/desktop/1d2f8041-2744-4f37-afde-ddce49a8bdc5) functions to enumerate hard links on files that are located in the following directories:
+If a requester performs system-state backup by backing up individual files instead of using a volume image for the backup, it must call the [**FindFirstFileNameW**](https://msdn.microsoft.com/9f64aa3e-4c73-47a8-8304-6134f1b4d153) and [**FindNextFileNameW**](https://msdn.microsoft.com/1d2f8041-2744-4f37-afde-ddce49a8bdc5) functions to enumerate hard links on files that are located in the following directories:
 
 -   Windows\\system32\\WDI\\perftrack\\
 -   Windows\\WINSXS\\
 
 These directories can only be accessed by members of the Administrators group. For this reason, such a requester must run under the system account or a user account that is a member of the Administrators group.
 
-**Windows XP and Windows Server 2003:** The [**FindFirstFileNameW**](https://msdn.microsoft.com/windows/desktop/9f64aa3e-4c73-47a8-8304-6134f1b4d153) and [**FindNextFileNameW**](https://msdn.microsoft.com/windows/desktop/1d2f8041-2744-4f37-afde-ddce49a8bdc5) functions are not supported until Windows Vista and Windows Server 2008.
+**Windows XP and Windows Server 2003:** The [**FindFirstFileNameW**](https://msdn.microsoft.com/9f64aa3e-4c73-47a8-8304-6134f1b4d153) and [**FindNextFileNameW**](https://msdn.microsoft.com/1d2f8041-2744-4f37-afde-ddce49a8bdc5) functions are not supported until Windows Vista and Windows Server 2008.
 
  
 

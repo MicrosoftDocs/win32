@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Querying the Attributes of an Schannel Credential
 
-The [**QueryCredentialsAttributes**](/windows/desktop/api/Sspi/nf-sspi-querycredentialsattributesa) function provides Schannel-specific information about a credential. This information is originally specified when the credential is created. For more information, see [Obtaining Schannel Credentials](obtaining-schannel-credentials.md). The information reported by this function is valid for any connections ([*security contexts*](https://www.bing.com/search?q=*security contexts*)) created by using the specified credential.
+The [**QueryCredentialsAttributes**](/windows/desktop/api/Sspi/nf-sspi-querycredentialsattributesa) function provides Schannel-specific information about a credential. This information is originally specified when the credential is created. For more information, see [Obtaining Schannel Credentials](obtaining-schannel-credentials.md). The information reported by this function is valid for any connections ([*security contexts*](security.s_gly#-security-security-context-gly)) created by using the specified credential.
 
  
 

@@ -31,7 +31,7 @@ DOUBLE GetPeriodicPosition(
 *Position* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Local time of the animation set.
 
@@ -39,7 +39,7 @@ Local time of the animation set.
 
 ## Return value
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Time position as measured in the timeframe of the animation set. This value will be bounded by the period of the animation set.
 

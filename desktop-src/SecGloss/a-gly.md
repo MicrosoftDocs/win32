@@ -21,7 +21,7 @@ A [B](b-gly.md) [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) F [G](g-gly.md) [H](h-
 
 A security descriptor structure that contains pointers to the security information associated with an object.
 
-See also [*security descriptor*](https://www.bing.com/search?q=*security descriptor*) and [*self-relative security descriptor*](https://www.bing.com/search?q=*self-relative security descriptor*).
+See also [*security descriptor*](s-gly.md#-security-security-descriptor-gly) and [*self-relative security descriptor*](s-gly.md#-security-self-relative-security-descriptor-gly).
 
 </dd> <dt>
 
@@ -44,7 +44,7 @@ A key BLOB that contains the key of the symmetric cipher used to encrypt a file 
 
 (ACE) An entry in an access control list (ACL). An ACE contains a set of access rights and a security identifier (SID) that identifies a trustee for whom the rights are allowed, denied, or audited.
 
-See also *access control list*, [*security identifier*](https://www.bing.com/search?q=*security identifier*), and [*trustee*](https://www.bing.com/search?q=*trustee*).
+See also *access control list*, [*security identifier*](s-gly.md#-security-security-identifier-gly), and [*trustee*](t-gly.md#-security-trustee-gly).
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ See also *access control list*, [*security identifier*](https://www.bing.com/sea
 
 (ACL) A list of security protections that applies to an object. (An object can be a file, process, event, or anything else having a security descriptor.) An entry in an access control list (ACL) is an access control entry (ACE). There are two types of access control list, discretionary and system.
 
-See also *access control entry*, [*discretionary access control list*](https://www.bing.com/search?q=*discretionary access control list*), [*security descriptor*](https://www.bing.com/search?q=*security descriptor*), and [*system access control list*](https://www.bing.com/search?q=*system access control list*).
+See also *access control entry*, [*discretionary access control list*](d-gly.md#-security-discretionary-access-control-list-gly), [*security descriptor*](s-gly.md#-security-security-descriptor-gly), and [*system access control list*](s-gly.md#-security-system-access-control-list-gly).
 
 </dd> <dt>
 
@@ -71,7 +71,7 @@ See also *access control entry*.
 
 An access token contains the security information for a logon session. The system creates an access token when a user logs on, and every process executed on behalf of the user has a copy of the token. The token identifies the user, the user's groups, and the user's privileges. The system uses the token to control access to securable objects and to control the ability of the user to perform various system-related operations on the local computer. There are two kinds of access token, primary and impersonation.
 
-See also [*impersonation token*](https://www.bing.com/search?q=*impersonation token*), [*primary token*](https://www.bing.com/search?q=*primary token*), [*privilege*](https://www.bing.com/search?q=*privilege*), [*process*](https://www.bing.com/search?q=*process*), and [*security identifier*](https://www.bing.com/search?q=*security identifier*).
+See also [*impersonation token*](i-gly.md#-security-impersonation-token-gly), [*primary token*](p-gly.md#-security-primary-token-gly), [*privilege*](p-gly.md#-security-privilege-gly), [*process*](p-gly.md#-security-process-gly), and [*security identifier*](s-gly.md#-security-security-identifier-gly).
 
 </dd> <dt>
 
@@ -136,7 +136,7 @@ See *application protocol data unit*.
 
 (APDU) A command sequence (an Application Protocol Data Unit) that can be sent by the smart card or returned by the application.
 
-See also [*reply APDU*](https://www.bing.com/search?q=*reply APDU*).
+See also [*reply APDU*](r-gly.md#-security-reply-apdu-gly).
 
 </dd> <dt>
 
@@ -164,14 +164,14 @@ American Standard Code for Information Interchange. A coding scheme that assigns
 <span id="_security_asymmetric_algorithm_gly"></span><span id="_SECURITY_ASYMMETRIC_ALGORITHM_GLY"></span>**asymmetric algorithm**
 </dt> <dd>
 
-See [*public key algorithm*](https://www.bing.com/search?q=*public key algorithm*).
+See [*public key algorithm*](p-gly.md#-security-public-key-algorithm-gly).
 
 </dd> <dt>
 
 <span id="_security_asymmetric_key_gly"></span><span id="_SECURITY_ASYMMETRIC_KEY_GLY"></span>**asymmetric key**
 </dt> <dd>
 
-One of a pair of keys used with an asymmetric cryptographic algorithm. Such an algorithm uses two cryptographic keys: a "public key" for encryption and a "private key" for decryption. In signature and verification, the roles are reversed: the public key is used for verification, and the private key is used for signature generation. The most important feature of such algorithms is that their security does not depend on keeping the public key secret (though it may require some assurance of authenticity of public keys, for example, that they be obtained from a trusted source). Secrecy of the private key is required. Examples of public key algorithms are [*Digital Signature Algorithm (DSA)*](https://www.bing.com/search?q=*Digital Signature Algorithm (DSA)*), Elliptic Curve Digital Signature Algorithm (ECDSA), and the Rivest-Shamir-Adleman (RSA) family of algorithms.
+One of a pair of keys used with an asymmetric cryptographic algorithm. Such an algorithm uses two cryptographic keys: a "public key" for encryption and a "private key" for decryption. In signature and verification, the roles are reversed: the public key is used for verification, and the private key is used for signature generation. The most important feature of such algorithms is that their security does not depend on keeping the public key secret (though it may require some assurance of authenticity of public keys, for example, that they be obtained from a trusted source). Secrecy of the private key is required. Examples of public key algorithms are [*Digital Signature Algorithm (DSA)*](d-gly.md#-security-digital-signature-algorithm-gly), Elliptic Curve Digital Signature Algorithm (ECDSA), and the Rivest-Shamir-Adleman (RSA) family of algorithms.
 
 </dd> <dt>
 

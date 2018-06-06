@@ -48,7 +48,7 @@ An application should return a handle to a cursor or icon that the system is to 
 
 ## Remarks
 
-When the user drags the icon of a window without a class icon, the system replaces the icon with a default cursor. If the application requires a different cursor to be displayed during dragging, it must return a handle to the cursor or icon compatible with the display driver's resolution. If an application returns a handle to a color cursor or icon, the system converts the cursor or icon to black and white. The application can call the [**LoadCursor**](https://msdn.microsoft.com/windows/desktop/302f9238-4b03-4688-8b9b-a598beffb575) or [**LoadIcon**](https://msdn.microsoft.com/windows/desktop/3a8099f8-9db7-4ef8-838f-ca8f272df531) function to load a cursor or icon from the resources in its executable (.exe) file and to retrieve this handle.
+When the user drags the icon of a window without a class icon, the system replaces the icon with a default cursor. If the application requires a different cursor to be displayed during dragging, it must return a handle to the cursor or icon compatible with the display driver's resolution. If an application returns a handle to a color cursor or icon, the system converts the cursor or icon to black and white. The application can call the [**LoadCursor**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\loadcursor.htm) or [**LoadIcon**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\loadicon.htm) function to load a cursor or icon from the resources in its executable (.exe) file and to retrieve this handle.
 
 If a dialog box procedure handles this message, it should cast the desired return value to a **BOOL** and return the value directly. The **DWL\_MSGRESULT** value set by the [**SetWindowLong**](/windows/desktop/api/Winuser/nf-winuser-setwindowlonga) function is ignored.
 
@@ -71,10 +71,10 @@ If a dialog box procedure handles this message, it should cast the desired retur
 **Reference**
 </dt> <dt>
 
-[**LoadCursor**](https://msdn.microsoft.com/windows/desktop/302f9238-4b03-4688-8b9b-a598beffb575)
+[**LoadCursor**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\loadcursor.htm)
 </dt> <dt>
 
-[**LoadIcon**](https://msdn.microsoft.com/windows/desktop/3a8099f8-9db7-4ef8-838f-ca8f272df531)
+[**LoadIcon**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\loadicon.htm)
 </dt> <dt>
 
 **Conceptual**

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # MF\_READWRITE\_MMCSS\_CLASS attribute
 
-Specifies a [Multimedia Class Scheduler Service](https://msdn.microsoft.com/windows/desktop/a7169938-1c72-4c4c-881a-cb08ad6182c7) (MMCSS) class for the Source Reader or Sink Writer.
+Specifies a [Multimedia Class Scheduler Service](https://msdn.microsoft.com/a7169938-1c72-4c4c-881a-cb08ad6182c7) (MMCSS) class for the Source Reader or Sink Writer.
 
 ## Data type
 

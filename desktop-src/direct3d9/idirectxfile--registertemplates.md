@@ -32,7 +32,7 @@ HRESULT RegisterTemplates(
 *pvData* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to a buffer consisting of a DirectX file in text or binary format that contains templates.
 
@@ -41,7 +41,7 @@ Pointer to a buffer consisting of a DirectX file in text or binary format that c
 *cbSize* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Size of the buffer pointed to by pvData, in bytes.
 

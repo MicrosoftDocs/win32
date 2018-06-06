@@ -31,7 +31,7 @@ HRESULT PublishDriverInterface(
 *pIUnknown* 
 </dt> <dd>
 
-Caller-supplied pointer to the **IUnknown** interface of the driver's [IPrintOemDriverUni COM Interface](https://www.bing.com/search?q=IPrintOemDriverUni COM Interface) or [IPrintCoreHelperUni interface](iprintcorehelperuni-interface.md).
+Caller-supplied pointer to the **IUnknown** interface of the driver's [IPrintOemDriverUni COM Interface](https://www.bing.com/search?q=IPrintOemDriverUni+COM+Interface) or [IPrintCoreHelperUni interface](iprintcorehelperuni-interface.md).
 
 </dd> </dl>
 
@@ -52,11 +52,11 @@ The method must return one of the following values.
 
 ## Remarks
 
-A rendering plug-in for [*Unidrv*](https://www.bing.com/search?q=*Unidrv*) must implement the `IPrintOemUni::PublishDriverInterface` method, and the method must return S\_OK in response to at least one call. Otherwise, the driver will not call the plug-in's other **IPrintOemUni** interface methods.
+A rendering plug-in for [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) must implement the `IPrintOemUni::PublishDriverInterface` method, and the method must return S\_OK in response to at least one call. Otherwise, the driver will not call the plug-in's other **IPrintOemUni** interface methods.
 
 The method should return information on its supported Unidrv interfaces as follows:
 
-1.  The Unidrv driver first calls the `IPrintOemUI::PublishDriverInterface` method with the *pIUnknown* pointer set to the **IPrintOemDriverUni** instance's **IUnknown** interface. If the rendering plug-in will be calling **IPrintOemDriverUni** interface methods, it must use the received **IUnknown** interface pointer to call **IUnknown::QueryInterface** (described in the Microsoft Windows SDK documentation) in order to obtain a pointer to the driver's supported version of the **IPrintOemDriverUni** interface. For more information, see [Interface Identifiers for Printer Drivers](https://www.bing.com/search?q=Interface Identifiers for Printer Drivers).
+1.  The Unidrv driver first calls the `IPrintOemUI::PublishDriverInterface` method with the *pIUnknown* pointer set to the **IPrintOemDriverUni** instance's **IUnknown** interface. If the rendering plug-in will be calling **IPrintOemDriverUni** interface methods, it must use the received **IUnknown** interface pointer to call **IUnknown::QueryInterface** (described in the Microsoft Windows SDK documentation) in order to obtain a pointer to the driver's supported version of the **IPrintOemDriverUni** interface. For more information, see [Interface Identifiers for Printer Drivers](https://www.bing.com/search?q=Interface+Identifiers+for+Printer+Drivers).
 
 2.  If the plug-in's [**IPrintOemUni::GetInfo**](iprintoemuni-getinfo.md) method has returned a value of OEMPUBLISH\_IPRINTCOREHELPER in *pBuffer* in response to a call with *dwMode* set to OEMGI\_GETREQUESTEDHELPERINTERFACES, the Unidrv driver calls the `IPrintOemUni::PublishDriverInterface` method again, but with the *pIUnknown* pointer set to an object that implements the **IPrintCoreHelperUni** and **IPrintCoreHelper** interfaces. If the plug-in retains a pointer to the object, the method should return S\_OK. Otherwise, the method should return E\_FAIL.
 

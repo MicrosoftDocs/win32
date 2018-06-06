@@ -24,7 +24,7 @@ Clients determine whether a particular accessible object or child element has th
 
 ## Events Triggered in Menus
 
-Microsoft Active Accessibility exposes standard menus created with the Microsoft Win32 menu APIs and resource files. To be consistent with standard menus, servers with custom menus trigger [**EVENT\_OBJECT\_FOCUS**](https://www.bing.com/search?q=**EVENT\_OBJECT\_FOCUS**), not [**EVENT\_OBJECT\_SELECTION**](https://www.bing.com/search?q=**EVENT\_OBJECT\_SELECTION**), when a user highlights a menu item.
+Microsoft Active Accessibility exposes standard menus created with the Microsoft Win32 menu APIs and resource files. To be consistent with standard menus, servers with custom menus trigger [**EVENT\_OBJECT\_FOCUS**](event-constants.md#event-object-focus), not [**EVENT\_OBJECT\_SELECTION**](event-constants.md#event-object-selection), when a user highlights a menu item.
 
 > [!Note]  
 > Microsoft Active Accessibility does not support the selection of the text contained in edit and rich edit controls because the text is exposed as a single string in the [**Value**](value-property.md) property for these controls.

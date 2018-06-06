@@ -47,9 +47,9 @@ If the method is unsuccessful, the return value is one of the following error co
 
 ## Remarks
 
-While the capture is in a paused state, new data is not added to the current [*capture file*](https://www.bing.com/search?q=*capture file*) until the **IDelaydC::Resume** method is called to restart the capture. When **Pause** and **Resume** are used to stop and restart the capture, all captured information is put in the same capture file.
+While the capture is in a paused state, new data is not added to the current [*capture file*](c.md#-netmon-capture-file-gly) until the **IDelaydC::Resume** method is called to restart the capture. When **Pause** and **Resume** are used to stop and restart the capture, all captured information is put in the same capture file.
 
-When using **IDelaydC::Pause** and **IDelaydC::Resume** to control the capture, Network Monitor continues to add [*conversation statistics*](https://www.bing.com/search?q=*conversation statistics*) whenever the capture is running.
+When using **IDelaydC::Pause** and **IDelaydC::Resume** to control the capture, Network Monitor continues to add [*conversation statistics*](c.md#-netmon-conversation-statistics-gly) whenever the capture is running.
 
 To restart the capture, call [IDelaydC::Resume](idelaydc-resume.md).
 

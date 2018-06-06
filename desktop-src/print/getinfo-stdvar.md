@@ -53,7 +53,7 @@ Is an array specifying standard variable indexes and values. Each array element 
 **dwStdVarID**
 </dt> <dd>
 
-Specifies the [standard variables](https://www.bing.com/search?q=standard variables) for which a value should be returned. Supplied by the [*UNIFONTOBJ\_GetInfo*](unifontobj-getinfo.md) caller. Valid values are contained in the following table.
+Specifies the [standard variables](https://www.bing.com/search?q=standard+variables) for which a value should be returned. Supplied by the [*UNIFONTOBJ\_GetInfo*](unifontobj-getinfo.md) caller. Valid values are contained in the following table.
 
 
 
@@ -93,7 +93,7 @@ Specifies the current value of the specified standard variable. Supplied by Unid
 
 To obtain the current value for one or more of Unidrv's standard variables, a rendering plug-in can supply the address of a GETINFO\_STDVAR structure when calling Unidrv's [*UNIFONTOBJ\_GetInfo*](unifontobj-getinfo.md) callback function.
 
-For more information about [standard variables](https://www.bing.com/search?q=standard variables), see [Microsoft Universal Printer Driver](https://www.bing.com/search?q=Microsoft Universal Printer Driver).
+For more information about [standard variables](https://www.bing.com/search?q=standard+variables), see [Microsoft Universal Printer Driver](https://www.bing.com/search?q=Microsoft+Universal+Printer+Driver).
 
 ## Requirements
 

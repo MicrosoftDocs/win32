@@ -28,7 +28,7 @@ One of the main tools of Windows Management Instrumentation (WMI) is the ability
 
  
 
-In addition to querying the WMI repository, you can also use the [*WMI Query Language (WQL)*](https://www.bing.com/search?q=*WMI Query Language (WQL)*) to route notification events to your application. For more information, see [Receiving a WMI Event](receiving-a-wmi-event.md).
+In addition to querying the WMI repository, you can also use the [*WMI Query Language (WQL)*](gloss-w.md#wmi-gloss-wmi-query-language) to route notification events to your application. For more information, see [Receiving a WMI Event](receiving-a-wmi-event.md).
 
 > [!Note]
 >

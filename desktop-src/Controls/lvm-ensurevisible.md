@@ -47,7 +47,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-The message fails if the window style includes [**LVS\_NOSCROLL**](https://www.bing.com/search?q=**LVS\_NOSCROLL**).
+The message fails if the window style includes [**LVS\_NOSCROLL**](list-view-window-styles.md#lvs-noscroll).
 
 ## Requirements
 

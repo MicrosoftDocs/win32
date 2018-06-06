@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardManage::Reconnect method
 
-\[The **Reconnect** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **Reconnect** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **Reconnect** method allows an application to reconnect to a [*smart card*](https://www.bing.com/search?q=*smart card*) or [*reader*](https://www.bing.com/search?q=*reader*) without having to issue a [**Detach**](iscardmanage-detach.md) call followed by an [**AttachByHandle**](iscardmanage-attachbyhandle.md) or [**AttachByIFD**](iscardmanage-attachbyifd.md) call respectively.
+The **Reconnect** method allows an application to reconnect to a [*smart card*](security.s_gly#-security-smart-card-gly) or [*reader*](security.r_gly#-security-reader-gly) without having to issue a [**Detach**](iscardmanage-detach.md) call followed by an [**AttachByHandle**](iscardmanage-attachbyhandle.md) or [**AttachByIFD**](iscardmanage-attachbyifd.md) call respectively.
 
 ## Syntax
 
@@ -51,7 +51,7 @@ To detach a smart card, call [**Detach**](iscardmanage-detach.md).
 
 For a list of all the methods defined by this interface, see [**ISCardManage**](iscardmanage.md).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](https://www.bing.com/search?q=Smart Card Return Values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
 
 ## Requirements
 

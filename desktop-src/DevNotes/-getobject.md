@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[This function is a wrapper over the **GetObject** function. This function may be altered or unavailable in the future. Applications should call **GetObject** directly.\]
 
-Gets graphics object information. See [**GetObject**](https://msdn.microsoft.com/windows/desktop/555ab876-d990-426d-915c-f98df82a10aa).
+Gets graphics object information. See [**GetObject**](https://msdn.microsoft.com/555ab876-d990-426d-915c-f98df82a10aa).
 
 ## Syntax
 
@@ -47,7 +47,7 @@ int _GetObject(
 
 <dl> <dt>
 
-[**GetObject**](https://msdn.microsoft.com/windows/desktop/555ab876-d990-426d-915c-f98df82a10aa)
+[**GetObject**](https://msdn.microsoft.com/555ab876-d990-426d-915c-f98df82a10aa)
 </dt> </dl>
 
  

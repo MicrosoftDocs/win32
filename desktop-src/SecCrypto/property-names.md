@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Property Names
 
-A [*certificate request*](https://www.bing.com/search?q=*certificate request*) Property Name can either be the "friendly" name of one of the common properties that the Certificate Services understands or an [*object identifier*](https://www.bing.com/search?q=*object identifier*) (OID). For more information about request property names, see [Name Properties](name-properties.md).
+A [*certificate request*](security.c_gly#-security-certificate-request-gly) Property Name can either be the "friendly" name of one of the common properties that the Certificate Services understands or an [*object identifier*](security.o_gly#-security-oid-gly) (OID). For more information about request property names, see [Name Properties](name-properties.md).
 
  
 

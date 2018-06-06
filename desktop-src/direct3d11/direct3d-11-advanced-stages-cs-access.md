@@ -51,7 +51,7 @@ This example assigns the 4 float values that are stored at the texel located at 
  
 
 > [!Note]  
-> The compiler in the June 2010 version of the DirectX SDK and later lets you index all resource types except for [byte address buffers](https://www.bing.com/search?q=byte address buffers).
+> The compiler in the June 2010 version of the DirectX SDK and later lets you index all resource types except for [byte address buffers](direct3d-11-advanced-stages-cs-resources.md#byte-address-buffer).
 
  
 

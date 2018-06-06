@@ -439,7 +439,7 @@ Attempts to acquire a slim reader/writer (SRW) lock in shared mode. If the call 
 
 <dl> <dt>
 
-[**REASON\_CONTEXT**](https://msdn.microsoft.com/windows/desktop/006bb84f-5e51-4f6e-8a44-6b50e763c5ca)
+[**REASON\_CONTEXT**](https://msdn.microsoft.com/006bb84f-5e51-4f6e-8a44-6b50e763c5ca)
 </dt> <dd>
 
 Contains context information for a timer activated with [**SetWaitableTimerEx**](/windows/desktop/api/WinBase/nf-synchapi-setwaitabletimerex).

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemUI::UpdateExternalFonts method
 
-The `IPrintOemUI::UpdateExternalFonts` method allows a user interface plug-in to update a printer's [Unidrv Font Format Files](https://www.bing.com/search?q=Unidrv Font Format Files) (.uff file).
+The `IPrintOemUI::UpdateExternalFonts` method allows a user interface plug-in to update a printer's [Unidrv Font Format Files](print.customized_font_management#ddk-unidrv-font-format-files-gg) (.uff file).
 
 ## Syntax
 
@@ -69,11 +69,11 @@ The method must return one of the following values.
 
 ## Remarks
 
-A user interface plug-in must implement the `IPrintOemUI::UpdateExternalFonts` method if the plug-in is replacing Unidrv's default font installer. For more information, see [Customized Font Installers for Unidrv](https://www.bing.com/search?q=Customized Font Installers for Unidrv).
+A user interface plug-in must implement the `IPrintOemUI::UpdateExternalFonts` method if the plug-in is replacing Unidrv's default font installer. For more information, see [Customized Font Installers for Unidrv](https://www.bing.com/search?q=Customized+Font+Installers+for+Unidrv).
 
-The `IPrintOemUI::UpdateExternalFonts` method's purpose is to examine the list of installed cartridges (supplied by *pwstrCartridges*) and ensure that the .uff file specified by the "ExternalFontFile" registry value contains font descriptions for only the cartridge fonts contained in the installed cartridges. (This .uff file can also contain descriptions of [*PCL*](https://www.bing.com/search?q=*PCL*)-downloadable soft fonts.)
+The `IPrintOemUI::UpdateExternalFonts` method's purpose is to examine the list of installed cartridges (supplied by *pwstrCartridges*) and ensure that the .uff file specified by the "ExternalFontFile" registry value contains font descriptions for only the cartridge fonts contained in the installed cartridges. (This .uff file can also contain descriptions of [*PCL*](wdkgloss.p#wdkgloss-pcl)-downloadable soft fonts.)
 
-Descriptions of cartridge fonts can be copied from the .uff file specified by the "ExtFontCartFile" registry value. For more information, see [Unidrv Font Format Files](https://www.bing.com/search?q=Unidrv Font Format Files).
+Descriptions of cartridge fonts can be copied from the .uff file specified by the "ExtFontCartFile" registry value. For more information, see [Unidrv Font Format Files](print.customized_font_management#ddk-unidrv-font-format-files-gg).
 
 ## Requirements
 

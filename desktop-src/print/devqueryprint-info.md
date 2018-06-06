@@ -58,7 +58,7 @@ Spooler-supplied printer handle.
 **pDevMode**
 </dt> <dd>
 
-Spooler-supplied pointer to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure describing printer characteristics required by the print job.
+Spooler-supplied pointer to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure describing printer characteristics required by the print job.
 
 </dd> <dt>
 

@@ -31,7 +31,7 @@ You can programmatically set the proxy data from within your application or scri
                             0);
     ```
 
--   Use the [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) function. The [**WINHTTP\_OPTION\_PROXY**](https://www.bing.com/search?q=**WINHTTP\_OPTION\_PROXY**) flag enables you to specify proxy settings with a [**WINHTTP\_PROXY\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_3) structure. The following example code shows how the [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) function can be used to set proxy data.
+-   Use the [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) function. The [**WINHTTP\_OPTION\_PROXY**](option-flags.md#winhttp-option-proxy) flag enables you to specify proxy settings with a [**WINHTTP\_PROXY\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_3) structure. The following example code shows how the [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) function can be used to set proxy data.
 
     ``` syntax
     WINHTTP_PROXY_INFO proxyInfo;
@@ -129,7 +129,7 @@ Deleting the *WinHttpSettings* value removes all proxy configurations.
 
 The proxy configuration utility sets the default authentication policy. Because you should not perform NTLM authentication with untrusted hosts, by default, NTLM authentication only occurs automatically with hosts on the proxy bypass list. If there is no proxy, you can still use ProxyCfg.exe to specify a bypass list of hosts that you trust to perform NTLM authentication. A proxy name is required when using ProxyCfg.exe for this purpose, but you can use any valid string in place of a real proxy name.
 
-For more information about the auto-logon policy, see [Automatic Logon Policy](https://www.bing.com/search?q=Automatic Logon Policy).
+For more information about the auto-logon policy, see [Automatic Logon Policy](authentication-in-winhttp.md#automatic-logon-policy).
 
  
 

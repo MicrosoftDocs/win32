@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 The **SignerSignEx2** function signs and time stamps the specified file, allowing multiple nested signatures.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/windows/desktop/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to Mssign32.dll.
 
  
 
@@ -93,7 +93,7 @@ A pointer to a [**SIGNER\_SIGNATURE\_INFO**](signer-signature-info.md) structure
 *pProviderInfo* \[in, optional\]
 </dt> <dd>
 
-Pointer to a [**SIGNER\_PROVIDER\_INFO**](signer-provider-info.md) structure that specifies the [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP) and private key information used to create the digital signature.
+Pointer to a [**SIGNER\_PROVIDER\_INFO**](signer-provider-info.md) structure that specifies the [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) and private key information used to create the digital signature.
 
 If the value of this parameter is **NULL**, the *pSignerCert* parameter must specify a certificate that is associated with a CSP.
 
@@ -150,7 +150,7 @@ A 32-bit value that is passed as additional data to SIP functions. The format an
 *ppSignerContext* \[out\]
 </dt> <dd>
 
-The address of a pointer to the [**SIGNER\_CONTEXT**](signer-context.md) structure that contains the signed [*BLOB*](https://www.bing.com/search?q=*BLOB*). When you have finished using the **SIGNER\_CONTEXT** structure, free the **SIGNER\_CONTEXT** structure by calling the [**SignerFreeSignerContext**](signerfreesignercontext.md) function.
+The address of a pointer to the [**SIGNER\_CONTEXT**](signer-context.md) structure that contains the signed [*BLOB*](security.b_gly#-security-blob-gly). When you have finished using the **SIGNER\_CONTEXT** structure, free the **SIGNER\_CONTEXT** structure by calling the [**SignerFreeSignerContext**](signerfreesignercontext.md) function.
 
 </dd> <dt>
 

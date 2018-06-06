@@ -30,7 +30,7 @@ Multiplication assignment operators
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMVECTOR::operator *= (XMVECTOR&amp;,float)</strong>](https://www.bing.com/search?q=<strong>XMVECTOR::operator *= (XMVECTOR&amp;,float)</strong>)</td>
+<td style="text-align: left;">[<strong>XMVECTOR::operator *= (XMVECTOR&amp;,float)</strong>](https://www.bing.com/search?q=<strong>XMVECTOR::operator+*=+(XMVECTOR&amp;,float)</strong>)</td>
 <td style="text-align: left;">Multiplies an <code>XMVECTOR</code> instance by a floating point value and returns a reference to the updated instance. <br/> The <code>operator *=</code> multiplies each component of the current instance of [<strong>XMVECTOR Data Type</strong>](xmvector-data-type.md) by a specified floating point value, returning a reference to the updated current instance. <br/>
 <blockquote>
 [!Note]<br />
@@ -39,7 +39,7 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMVECTOR::operator *= (XMVECTOR&amp;,XMVECTOR)</strong>](https://www.bing.com/search?q=<strong>XMVECTOR::operator *= (XMVECTOR&amp;,XMVECTOR)</strong>)</td>
+<td style="text-align: left;">[<strong>XMVECTOR::operator *= (XMVECTOR&amp;,XMVECTOR)</strong>](https://www.bing.com/search?q=<strong>XMVECTOR::operator+*=+(XMVECTOR&amp;,XMVECTOR)</strong>)</td>
 <td style="text-align: left;">Multiplies one <code>XMVECTOR</code> instance by a second instance, returning a reference to the updated initial instance. <br/> The <code>operator *=</code> multiplies each component of the current instance of [<strong>XMVECTOR Data Type</strong>](xmvector-data-type.md) by the corresponding component in a second specified instance of <code>XMVECTOR</code>, returning a reference to the updated initial instance. <br/>
 <blockquote>
 [!Note]<br />

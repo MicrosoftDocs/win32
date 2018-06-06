@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # KERB\_SMARTCARD\_CSP\_INFO structure
 
-The **KERB\_SMARTCARD\_CSP\_INFO** structure contains information about a smart card [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP).
+The **KERB\_SMARTCARD\_CSP\_INFO** structure contains information about a smart card [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP).
 
 This structure is not declared in a public header.
 

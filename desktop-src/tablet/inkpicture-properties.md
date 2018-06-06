@@ -44,7 +44,7 @@ This section contains Properties for the InkPicture Control.
 <td>Gets or sets the collection mode that determines whether ink, gestures, or ink and gestures are recognized as the user writes.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Cursors Property</strong>](https://www.bing.com/search?q=<strong>Cursors Property</strong>)</td>
+<td>[<strong>Cursors Property</strong>](https://www.bing.com/search?q=<strong>Cursors+Property</strong>)</td>
 <td>Gets the [<strong>IInkCursors</strong>](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors) collection available for use in the [InkPicture](inkpicture-control-reference.md) control's inking region.<br/></td>
 </tr>
 <tr class="even">

@@ -75,7 +75,7 @@ For C++ development, an event trigger is defined by the [**IEventTrigger**](/win
 
 ## Examples
 
-For a complete example of the XML for a task that uses an event trigger, see [Event Trigger Example (XML)](https://www.bing.com/search?q=Event Trigger Example (XML)).
+For a complete example of the XML for a task that uses an event trigger, see [Event Trigger Example (XML)](https://www.bing.com/search?q=Event+Trigger+Example+(XML)).
 
 ## Requirements
 

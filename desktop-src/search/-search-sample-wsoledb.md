@@ -107,7 +107,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 [**IPropertyStore**](https://www.bing.com/search?q=**IPropertyStore**)
 </dt> <dt>
 
-[OLE DB Programming Overview](https://www.bing.com/search?q=OLE DB Programming Overview)
+[OLE DB Programming Overview](https://www.bing.com/search?q=OLE+DB+Programming+Overview)
 </dt> </dl>
 
  

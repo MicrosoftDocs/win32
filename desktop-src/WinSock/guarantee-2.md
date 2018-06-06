@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # GUARANTEE
 
-The Windows Sockets **GUARANTEE** enumeration is no longer used. For information regarding the Windows implementation of Quality of Service, and the associated API, refer to [Quality of Service (QoS)](https://msdn.microsoft.com/windows/desktop/2a017166-eba4-4dd9-b623-f0d696e11de2) in the Platform Software Development Kit (SDK).
+The Windows Sockets **GUARANTEE** enumeration is no longer used. For information regarding the Windows implementation of Quality of Service, and the associated API, refer to [Quality of Service (QoS)](https://msdn.microsoft.com/2a017166-eba4-4dd9-b623-f0d696e11de2) in the Platform Software Development Kit (SDK).
 
  
 

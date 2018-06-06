@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ICertificate2::Load method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](https://www.bing.com/search?q=**X509Certificate2 Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](https://www.bing.com/search?q=**X509Certificate2+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
 The **Load** method imports a certificate from a file. This method was introduced in CAPICOM 2.0.
 
@@ -43,7 +43,7 @@ A string that contains the path to a .cer or .pfx file that contains the certifi
 *Password* \[in, optional\]
 </dt> <dd>
 
-A string that contains the [*plaintext*](https://www.bing.com/search?q=*plaintext*) password to the [*private key*](https://www.bing.com/search?q=*private key*) file. The password can contain up to 32 Unicode characters, including a terminating null character. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/windows/desktop/1d810f71-9bf5-4c5c-a573-c35081f604cf).
+A string that contains the [*plaintext*](security.p_gly#-security-plaintext-gly) password to the [*private key*](security.p_gly#-security-private-key-gly) file. The password can contain up to 32 Unicode characters, including a terminating null character. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf).
 
 </dd> <dt>
 

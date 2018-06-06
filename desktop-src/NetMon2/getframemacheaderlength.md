@@ -43,7 +43,7 @@ If the function is not successful, or an unknown MAC type is encountered, the re
 
 ## Remarks
 
-[*Experts*](https://www.bing.com/search?q=*Experts*) and [*parsers*](https://www.bing.com/search?q=*parsers*) can call the **GetFrameMacHeaderLength** function.
+[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetFrameMacHeaderLength** function.
 
 ## Requirements
 

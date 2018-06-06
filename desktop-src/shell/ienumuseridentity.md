@@ -17,7 +17,7 @@ Provides enumeration of all user identities present on the system.
 
 ## Members
 
-The **IEnumUserIdentity** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IEnumUserIdentity** also has these types of members:
+The **IEnumUserIdentity** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IEnumUserIdentity** also has these types of members:
 
 -   [Methods](#methods)
 

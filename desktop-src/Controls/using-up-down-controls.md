@@ -19,7 +19,7 @@ This section contains example code and information about how to create and use u
 
 | Topic                                                                      | Description                                                                                                                                                                                                                                          |
 |----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [How to Create Up-Down Controls](create-an-up-down-control.md)<br/> | You create up-down controls by calling the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and passing the value [**UPDOWN\_CLASS**](https://www.bing.com/search?q=**UPDOWN\_CLASS**) for the Windows class parameter *lpClassName*. <br/> |
+| [How to Create Up-Down Controls](create-an-up-down-control.md)<br/> | You create up-down controls by calling the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and passing the value [**UPDOWN\_CLASS**](common-control-window-classes.md#updown-class) for the Windows class parameter *lpClassName*. <br/> |
 
 
 

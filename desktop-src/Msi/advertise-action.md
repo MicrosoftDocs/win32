@@ -23,7 +23,7 @@ There are no ActionData messages.
 
 ## Remarks
 
-[*Advertising*](https://www.bing.com/search?q=*Advertising*) refers to the installer's ability to provide the loading and launching interfaces of an application without physically installing the application. The installer does not install the necessary components until a user or application activates an advertised interface. This concept is called [*install-on-demand*](https://www.bing.com/search?q=*install-on-demand*).
+[*Advertising*](a-gly.md#-msi-advertising-gly) refers to the installer's ability to provide the loading and launching interfaces of an application without physically installing the application. The installer does not install the necessary components until a user or application activates an advertised interface. This concept is called [*install-on-demand*](i-gly.md#-msi-install-on-demand-gly).
 
 The ADVERTISE action is not called from within the action table sequence, the Windows Installer executes this action when the command line executable Msiexec.exe is called with the '/j' command line switch or when [**MsiInstallProduct**](/windows/desktop/api/Msi/nf-msi-msiinstallproducta) is called with the *szCommandLine* parameter set to ACTION=ADVERTISE.
 

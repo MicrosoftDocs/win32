@@ -39,7 +39,7 @@ Caller-supplied spool file handle, obtained by a previous call to [**GdiGetSpool
 *pCurrDM* 
 </dt> <dd>
 
-Caller-supplied pointer to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure, obtained by a previous call to [**GdiGetDevmodeForPage**](gdigetdevmodeforpage.md).
+Caller-supplied pointer to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure, obtained by a previous call to [**GdiGetDevmodeForPage**](gdigetdevmodeforpage.md).
 
 </dd> </dl>
 
@@ -51,9 +51,9 @@ If the operation succeeds, the function returns **TRUE**. Otherwise the function
 
 The **GdiResetDCEMF** function is exported by gdi32.dll for use within a print processor's [**PrintDocumentOnPrintProcessor**](printdocumentonprintprocessor.md) function.
 
-Print processors must call **GdiResetDCEMF** whenever it is necessary to reset the printer's device context. The function must be called whenever the [**GdiGetDevmodeForPage**](gdigetdevmodeforpage.md) function indicates that the current document page's [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure is not identical to that of the previous document page.
+Print processors must call **GdiResetDCEMF** whenever it is necessary to reset the printer's device context. The function must be called whenever the [**GdiGetDevmodeForPage**](gdigetdevmodeforpage.md) function indicates that the current document page's [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure is not identical to that of the previous document page.
 
-For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using GDI Functions in Print Processors).
+For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using+GDI+Functions+in+Print+Processors).
 
 ## Requirements
 

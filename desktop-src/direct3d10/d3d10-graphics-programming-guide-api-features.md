@@ -15,8 +15,8 @@ The Direct3D 10 graphics pipeline represents a fundamental architecture change, 
 
 Developers familiar with Direct3D 9 will discover a series of functional enhancements and performance improvements in Direct3D 10, including:
 
--   The ability to process entire primitives in the new [geometry-shader stage](https://www.bing.com/search?q=geometry-shader stage).
--   The ability to output pipeline-generated vertex data to memory using the [stream-output stage](https://www.bing.com/search?q=stream-output stage).
+-   The ability to process entire primitives in the new [geometry-shader stage](https://www.bing.com/search?q=geometry-shader+stage).
+-   The ability to output pipeline-generated vertex data to memory using the [stream-output stage](https://www.bing.com/search?q=stream-output+stage).
 -   Organization of pipeline state into 5 immutable [state objects](d3d10-graphics-programming-guide-api-features-state-objects.md), enabling fast configuration of the pipeline.
 -   Organization of shader constants into [constant buffers](d3d10-graphics-programming-guide-resources-types.md), minimizing bandwidth overhead for supplying shader-constant data.
 -   The ability to perform per-primitive material swapping and setup using a geometry shader.
@@ -24,7 +24,7 @@ Developers familiar with Direct3D 9 will discover a series of functional enhance
 -   Increased generalization of resource access using a [view](d3d10-graphics-programming-guide-resources-access-views.md).
 -   Legacy hardware capability bits (caps) have been removed in favor of a rich set of guaranteed functionality, which targets Direct3D 10-class hardware (minimum).
 -   [Layered Runtime](d3d10-graphics-programming-guide-api-features-layers.md) - The Direct3D 10 API is constructed with layers, starting with the basic functionality at the core and building optional and developer-assist functionality (debug, etc.) in outer layers.
--   Full HLSL integration - All Direct3D 10 shaders are written in HLSL and implemented with the [common-shader core](https://msdn.microsoft.com/windows/desktop/f3cf2969-83a4-461f-8177-d336536194ba).
+-   Full HLSL integration - All Direct3D 10 shaders are written in HLSL and implemented with the [common-shader core](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_common_core.htm).
 -   An increase in the number of render targets, textures, and samplers. There is also no shader length limit.
 -   Integer and bitwise shader operations.
 -   Readback of a depth/stencil surface or a multisampled resource, once it is no longer bound as a render target.

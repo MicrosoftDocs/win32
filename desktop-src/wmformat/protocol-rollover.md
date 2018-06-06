@@ -24,7 +24,7 @@ The reader supports several protocols:
 -   Hypertext Transfer Protocol (HTTP)
 -   Microsoft Media Server (MMS)
 
-The RTSP and MMS protocols both come in two flavors, one using [*UDP*](https://www.bing.com/search?q=*UDP*) as the underlying delivery protocol, and the other using TCP.
+The RTSP and MMS protocols both come in two flavors, one using [*UDP*](wmformat-glossary.md#wmformat-user-datagram-protocol--udp-) as the underlying delivery protocol, and the other using TCP.
 
 The reader object always uses TCP for playback control commands, but it can use either TCP or UDP for delivery of the streamed content. UDP is preferred for content delivery, because it imposes less bandwidth overhead than TCP. The TCP protocol ensures reliable transport through the use of "virtual circuits," but the cost of doing so means that TCP is not as well suited for digital media streams, where efficient use of bandwidth is more important that occasional lost packets.
 

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_PAINTCLIPBOARD message
 
-Sent to the clipboard owner by a clipboard viewer window when the clipboard contains data in the [**CF\_OWNERDISPLAY**](https://www.bing.com/search?q=**CF\_OWNERDISPLAY**) format and the clipboard viewer's client area needs repainting.
+Sent to the clipboard owner by a clipboard viewer window when the clipboard contains data in the [**CF\_OWNERDISPLAY**](standard-clipboard-formats.md#cf-ownerdisplay) format and the clipboard viewer's client area needs repainting.
 
 
 ```C++

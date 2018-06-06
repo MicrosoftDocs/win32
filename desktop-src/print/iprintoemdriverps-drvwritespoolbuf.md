@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemDriverPS::DrvWriteSpoolBuf method
 
-The `IPrintOemDriverPS::DrvWriteSpoolBuf` method is provided by the Pscript5 driver so that [rendering plug-ins](https://www.bing.com/search?q=rendering plug-ins) can send printer data to the spooler.
+The `IPrintOemDriverPS::DrvWriteSpoolBuf` method is provided by the Pscript5 driver so that [rendering plug-ins](https://www.bing.com/search?q=rendering+plug-ins) can send printer data to the spooler.
 
 ## Syntax
 
@@ -77,7 +77,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-Rendering plug-ins are described in [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing Microsoft's Printer Drivers).
+Rendering plug-ins are described in [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing+Microsoft's+Printer+Drivers).
 
 ## Requirements
 

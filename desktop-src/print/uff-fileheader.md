@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # UFF\_FILEHEADER structure
 
-The UFF\_FILEHEADER structure is used to define the contents of [Unidrv font format files](https://www.bing.com/search?q=Unidrv font format files) (.uff files).
+The UFF\_FILEHEADER structure is used to define the contents of [Unidrv font format files](print.customized_font_management#ddk-unidrv-font-format-files-gg) (.uff files).
 
 ## Syntax
 

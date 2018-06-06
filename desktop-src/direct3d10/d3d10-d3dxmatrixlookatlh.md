@@ -34,7 +34,7 @@ D3DXMATRIX* D3DXMatrixLookAtLH(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/windows/desktop/0911088b-50cf-4c4a-996e-351386fc359b)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -43,7 +43,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *pEye* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/windows/desktop/4d73de4b-82fe-452a-8a1e-17208f172a03)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
 
 Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that defines the eye point. This value is used in translation.
 
@@ -52,7 +52,7 @@ Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that defines the eye poin
 *pAt* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/windows/desktop/4d73de4b-82fe-452a-8a1e-17208f172a03)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
 
 Pointer to the D3DXVECTOR3 structure that defines the camera look-at target.
 
@@ -61,7 +61,7 @@ Pointer to the D3DXVECTOR3 structure that defines the camera look-at target.
 *pUp* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/windows/desktop/4d73de4b-82fe-452a-8a1e-17208f172a03)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
 
 Pointer to the D3DXVECTOR3 structure that defines the current world's up, usually \[0, 1, 0\].
 
@@ -69,7 +69,7 @@ Pointer to the D3DXVECTOR3 structure that defines the current world's up, usuall
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/windows/desktop/0911088b-50cf-4c4a-996e-351386fc359b)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
 
 Pointer to a D3DXMATRIX structure that is a left-handed, look-at matrix.
 

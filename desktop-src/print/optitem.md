@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # OPTITEM structure
 
-The OPTITEM structure is used by CPSUI applications (including printer interface DLLs) for describing one [property sheet option](https://www.bing.com/search?q=property sheet option) on a property sheet page, if the page is described by a [**COMPROPSHEETUI**](compropsheetui.md) structure.
+The OPTITEM structure is used by CPSUI applications (including printer interface DLLs) for describing one [property sheet option](https://www.bing.com/search?q=property+sheet+option) on a property sheet page, if the page is described by a [**COMPROPSHEETUI**](compropsheetui.md) structure.
 
 ## Syntax
 
@@ -242,7 +242,7 @@ This flag can only be used when **pOptType** contains **NULL**.
 
 Optional 32-bit value that can be set and used by the caller.
 
-(Printer interface DLLs for [*Unidrv*](https://www.bing.com/search?q=*Unidrv*) and [*Pscript*](https://www.bing.com/search?q=*Pscript*) use this member to supply a pointer to a [**USERDATA**](userdata.md) structure. [User interface plug-ins](https://www.bing.com/search?q=User interface plug-ins) can reference this structure.)
+(Printer interface DLLs for [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) and [*Pscript*](wdkgloss.p#wdkgloss-pscript) use this member to supply a pointer to a [**USERDATA**](userdata.md) structure. [User interface plug-ins](https://www.bing.com/search?q=User+interface+plug-ins) can reference this structure.)
 
 </dd> <dt>
 
@@ -256,7 +256,7 @@ String identifier representing a localized, displayable option name. This can be
 **Sel**
 </dt> <dd>
 
-This union indicates the option's currently selected parameter value. Its usage is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI option type).
+This union indicates the option's currently selected parameter value. Its usage is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI+option+type).
 
 If **pOptType** is **NULL**, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF\_SEL\_AS\_HICON in **Flags**.
 
@@ -265,7 +265,7 @@ If **pOptType** is **NULL**, the option has no parameters, so this union identif
 **pSel**
 </dt> <dd>
 
-This union indicates the option's currently selected parameter value. Its usage is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI option type).
+This union indicates the option's currently selected parameter value. Its usage is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI+option+type).
 
 If **pOptType** is **NULL**, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF\_SEL\_AS\_HICON in **Flags**.
 
@@ -304,7 +304,7 @@ Help file index, which identifies help text to be associated with the option. If
 **DMPubID**
 </dt> <dd>
 
-This member is meant for use by printer interface DLLs, when creating a **Document Properties** property sheet (see [**DrvDocumentPropertySheets**](drvdocumentpropertysheets.md)). It is a constant value specifying which, if any, public member of the [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure is associated with this option. The following table lists available constants, the associated DEVMODE structure member, and the required value for **pName** for each constant.
+This member is meant for use by printer interface DLLs, when creating a **Document Properties** property sheet (see [**DrvDocumentPropertySheets**](drvdocumentpropertysheets.md)). It is a constant value specifying which, if any, public member of the [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure is associated with this option. The following table lists available constants, the associated DEVMODE structure member, and the required value for **pName** for each constant.
 
 
 
@@ -472,7 +472,7 @@ The **Level** member allows you to create child nodes in the treeview. For examp
 
 The treeview root node is level 0. Options displayed when a user expands the root node are level 1. The maximum number of levels is 256.
 
-For option values that are stored in a printer's DEVMODE structure, the **DMPubID** member must identify the option. For each **DMPubID** value that is used, a printer interface DLL must specify the [CPSUI option type](https://www.bing.com/search?q=CPSUI option type) listed in the following table.
+For option values that are stored in a printer's DEVMODE structure, the **DMPubID** member must identify the option. For each **DMPubID** value that is used, a printer interface DLL must specify the [CPSUI option type](https://www.bing.com/search?q=CPSUI+option+type) listed in the following table.
 
 
 

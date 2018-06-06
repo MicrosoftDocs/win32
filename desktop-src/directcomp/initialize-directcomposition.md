@@ -161,7 +161,7 @@ Use the [**IDCompositionDevice::CreateTargetForHwnd**](/windows/desktop/api/Dcom
 
 ### Step 5: Create a visual object
 
-Use the [**IDCompositionDevice::CreateVisual**](/windows/desktop/api/Dcomp/) method to create a visual object. The method retrieves an [**IDCompositionVisual**](/windows/desktop/api/Dcomp/) pointer used to set the properties of the visual. For more information, see [Properties of a visual object](https://www.bing.com/search?q=Properties of a visual object).
+Use the [**IDCompositionDevice::CreateVisual**](/windows/desktop/api/Dcomp/) method to create a visual object. The method retrieves an [**IDCompositionVisual**](/windows/desktop/api/Dcomp/) pointer used to set the properties of the visual. For more information, see [Properties of a visual object](basic-concepts.md#properties-of-a-visual-object).
 
 
 ```C++

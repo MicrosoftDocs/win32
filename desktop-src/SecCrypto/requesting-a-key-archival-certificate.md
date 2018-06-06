@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Requesting a Key Archival Certificate
 
-The following example shows creating and submitting a [*certificate request*](https://www.bing.com/search?q=*certificate request*) and receiving the resulting key archival certificate. For this example to succeed, the [*certification authority*](https://www.bing.com/search?q=*certification authority*) (CA) that receives the certificate request must be configured for key archival.
+The following example shows creating and submitting a [*certificate request*](security.c_gly#-security-certificate-request-gly) and receiving the resulting key archival certificate. For this example to succeed, the [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA) that receives the certificate request must be configured for key archival.
 
 The following steps describe how to create and submit a certificate request.
 

@@ -33,7 +33,7 @@ D3DXVECTOR2* D3DXVec2TransformCoord(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/windows/desktop/e61ec1c8-00b5-491f-8fb1-be97218f6c68)\***
+Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
 
 Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the operation.
 
@@ -42,7 +42,7 @@ Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/windows/desktop/e61ec1c8-00b5-491f-8fb1-be97218f6c68)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
 
 Pointer to the source D3DXVECTOR2 structure.
 
@@ -51,7 +51,7 @@ Pointer to the source D3DXVECTOR2 structure.
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/windows/desktop/0911088b-50cf-4c4a-996e-351386fc359b)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
 
 Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
@@ -59,7 +59,7 @@ Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
 ## Return value
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/windows/desktop/e61ec1c8-00b5-491f-8fb1-be97218f6c68)\***
+Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
 
 Pointer to a D3DXVECTOR2 structure that is the transformed vector.
 

@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_TimeZone class
 
-The **Win32\_TimeZone** [WMI class](https://msdn.microsoft.com/windows/desktop/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents the time zone information for a computer system running Windows, which includes the changes required for transitioning to daylight saving time transition.
+The **Win32\_TimeZone** [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents the time zone information for a computer system running Windows, which includes the changes required for transitioning to daylight saving time transition.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -75,7 +75,7 @@ Data type: **sint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|Bias"), [**Units**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("minutes")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|Bias"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("minutes")
 </dt> </dl>
 
 Current bias for local time translation. The bias is the difference between Coordinated Universal Time (UTC) and local time. All translations between UTC and local time are based on the following formula: UTC = local time - bias. This property is required.
@@ -91,7 +91,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
 </dt> </dl>
 
 Short textual description of the current object.
@@ -109,7 +109,7 @@ Data type: **sint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightBias"), [**Units**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("minutes")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightBias"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("minutes")
 </dt> </dl>
 
 Bias value to be used during local time translations that occur during daylight saving time. This property is ignored if a value for the **DaylightDay** property is not supplied. The value of this property is added to the **Bias** property to form the bias used during daylight time. In most time zones, the value of this property is -60.
@@ -125,7 +125,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wDay")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wDay")
 </dt> </dl>
 
 **DaylightDayOfWeek** of the **DaylightMonth** when the transition from standard time to daylight saving time occurs on this operating system.
@@ -143,7 +143,7 @@ Data type: **uint8**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wDayOfWeek")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wDayOfWeek")
 </dt> </dl>
 
 Day of the week when the transition from standard time to daylight saving time occurs on an operating system.
@@ -212,7 +212,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wHour")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wHour")
 </dt> </dl>
 
 Hour of the day when the transition from standard time to daylight saving time occurs on an operating system.
@@ -230,7 +230,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wMilliseconds")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wMilliseconds")
 </dt> </dl>
 
 Millisecond of the **DaylightSecond** when the transition from standard time to daylight saving time occurs on an operating system.
@@ -246,7 +246,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wMinute")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wMinute")
 </dt> </dl>
 
 Minute of the **DaylightHour** when the transition from standard time to daylight saving time occurs on an operating system.
@@ -264,7 +264,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wMonth")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wMonth")
 </dt> </dl>
 
 Month when the transition from standard time to daylight saving time occurs on an operating system.
@@ -366,7 +366,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256), [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightName")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightName")
 </dt> </dl>
 
 Time zone being represented when daylight saving time is in effect.
@@ -384,7 +384,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wSecond")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wSecond")
 </dt> </dl>
 
 Second of the **DaylightMinute** when the transition from standard time to daylight saving time occurs on an operating system.
@@ -402,7 +402,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wYear")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|DaylightDate\|wYear")
 </dt> </dl>
 
 Year when daylight saving time is in effect. This property is not required.
@@ -435,7 +435,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
 </dt> </dl>
 
 Identifier by which the current object is known.
@@ -453,7 +453,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardBias"), [**Units**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("minutes")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardBias"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("minutes")
 </dt> </dl>
 
 Bias value to use when daylight saving time is not in effect. This property is ignored if a value for **StandardDay** is not supplied. The value of this property is added to the **Bias** property to form the bias during standard time.
@@ -471,7 +471,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wDay")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wDay")
 </dt> </dl>
 
 **StandardDayOfWeek** of the **StandardMonth** when the transition from daylight saving time to standard time occurs on an operating system.
@@ -489,7 +489,7 @@ Data type: **uint8**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wDayOfWeek")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wDayOfWeek")
 </dt> </dl>
 
 Day of the week when the transition from daylight saving time to standard time occurs on an operating system.
@@ -556,7 +556,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wHour")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wHour")
 </dt> </dl>
 
 Hour of the day when the transition from daylight saving time to standard time occurs on an operating system.
@@ -574,7 +574,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wMilliseconds")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wMilliseconds")
 </dt> </dl>
 
 Millisecond of the **StandardSecond** when the transition from daylight saving time to standard time occurs on an operating system.
@@ -590,7 +590,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wMinute")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wMinute")
 </dt> </dl>
 
 Minute of the **StandardDay** when the transition from daylight saving time to standard time occurs on an operating system.
@@ -608,7 +608,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wMonth")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wMonth")
 </dt> </dl>
 
 Month when the transition from daylight saving time to standard time occurs on an operating system.
@@ -710,7 +710,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/windows/desktop/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**MaxLen**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256), [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardName")
+Qualifiers: [**key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardName")
 </dt> </dl>
 
 Name of the time zone being represented when standard time is in effect.
@@ -728,7 +728,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wSecond")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wSecond")
 </dt> </dl>
 
 Second of the **StandardMinute** when the transition from daylight saving time to standard time occurs on an operating system.
@@ -746,7 +746,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wYear")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Time Structures\|[**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004)\|StandardDate\|wYear")
 </dt> </dl>
 
 Year when standard time is in effect. This property is not required.
@@ -970,16 +970,16 @@ Next
 [**CIM\_Setting**](cim-setting.md)
 </dt> <dt>
 
-[Operating System Classes](https://www.bing.com/search?q=Operating System Classes)
+[Operating System Classes](https://www.bing.com/search?q=Operating+System+Classes)
 </dt> <dt>
 
-[**SWbemDateTime**](https://msdn.microsoft.com/windows/desktop/3dd34c73-3c2b-4d59-827b-169cf8020213)
+[**SWbemDateTime**](https://msdn.microsoft.com/3dd34c73-3c2b-4d59-827b-169cf8020213)
 </dt> <dt>
 
-[Date and Time Format](https://msdn.microsoft.com/windows/desktop/be239bf8-88a3-47bc-ae4f-49a5195e7a7d)
+[Date and Time Format](https://msdn.microsoft.com/be239bf8-88a3-47bc-ae4f-49a5195e7a7d)
 </dt> <dt>
 
-[WMI Tasks: Dates and Times](https://msdn.microsoft.com/windows/desktop/dd01a732-5c88-4c24-a551-4d5452e712cc)
+[WMI Tasks: Dates and Times](https://msdn.microsoft.com/dd01a732-5c88-4c24-a551-4d5452e712cc)
 </dt> </dl>
 
  

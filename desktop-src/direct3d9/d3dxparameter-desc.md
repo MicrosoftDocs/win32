@@ -41,7 +41,7 @@ typedef struct D3DXPARAMETER_DESC {
 **Name**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -52,7 +52,7 @@ Name of the parameter.
 **Semantic**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -63,29 +63,29 @@ Semantic meaning, also called the usage.
 **Class**
 </dt> <dd>
 
-Type: **[**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/windows/desktop/ab405984-2ebc-4514-9400-bdb13676eda5)**
+Type: **[**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxparameter_class.htm)**
 
 </dd> <dd>
 
-Parameter class. Set this to one of the values in [**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/windows/desktop/ab405984-2ebc-4514-9400-bdb13676eda5).
+Parameter class. Set this to one of the values in [**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxparameter_class.htm).
 
 </dd> <dt>
 
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/windows/desktop/6d494fe6-fcd5-4e71-939c-257978b41499)**
+Type: **[**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxparameter_type.htm)**
 
 </dd> <dd>
 
-Parameter type. Set this to one of the values in [**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/windows/desktop/6d494fe6-fcd5-4e71-939c-257978b41499).
+Parameter type. Set this to one of the values in [**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxparameter_type.htm).
 
 </dd> <dt>
 
 **Rows**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -96,7 +96,7 @@ Number of rows in the array.
 **Columns**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -107,7 +107,7 @@ Number of columns in the array.
 **Elements**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -118,7 +118,7 @@ Number of elements in the array.
 **Annotations**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -129,7 +129,7 @@ Number of annotations.
 **StructMembers**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -140,7 +140,7 @@ Number of structure members.
 **Flags**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -151,7 +151,7 @@ Parameter attributes. See [Effect Constants](dx9-graphics-reference-effects-cons
 **Bytes**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 

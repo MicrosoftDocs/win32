@@ -44,7 +44,7 @@ HRESULT D3DX10CreateEffectFromResource(
 *hModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**HMODULE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 A handle to the resource module containing the effect. HMODULE can be obtained with [GetModuleHandle Function](http://msdn.microsoft.com/en-us/library/ms683199.aspx).
 
@@ -53,7 +53,7 @@ A handle to the resource module containing the effect. HMODULE can be obtained w
 *pResourceName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Name of the resource in hModule. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -62,7 +62,7 @@ Name of the resource in hModule. If the compiler settings require Unicode, the d
 *pSrcFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Optional. Effect file name, which is used for error messages only. Can be **NULL**.
 
@@ -89,16 +89,16 @@ A pointer to an include interface (see [**ID3D10Include Interface**](/windows/de
 *pProfile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-A string that specifies the [shader profile](https://msdn.microsoft.com/windows/desktop/6224f05e-20b1-42ea-96fb-63dd0edb720e), or shader model.
+A string that specifies the [shader profile](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_models.htm), or shader model.
 
 </dd> <dt>
 
 *HLSLFlags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 HLSL compile options (see [D3D10\_SHADER Constants](d3d10-shader.md)).
 
@@ -107,7 +107,7 @@ HLSL compile options (see [D3D10\_SHADER Constants](d3d10-shader.md)).
 *FXFlags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Effect compile options (see [Compile and Effect Flags](d3d10-graphics-reference-effect-constants.md)).
 

@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_SystemTimeZone class
 
-The **Win32\_SystemTimeZone** association [WMI class](https://msdn.microsoft.com/windows/desktop/cfe4bcca-692e-45cd-a840-93ebfe4ae267) relates a computer system and a time zone.
+The **Win32\_SystemTimeZone** association [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) relates a computer system and a time zone.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -53,7 +53,7 @@ Data type: **Win32\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI\|Win32\_ComputerSystem")
+Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI\|Win32\_ComputerSystem")
 </dt> </dl>
 
 Reference to the instance representing the computer system keeping track of the system time zone.
@@ -69,7 +69,7 @@ Data type: **Win32\_TimeZone**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI\|Win32\_TimeZone")
+Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI\|Win32\_TimeZone")
 </dt> </dl>
 
 Reference to the instance representing the time zone properties tracked by the computer system.
@@ -101,7 +101,7 @@ The **Win32\_SystemTimeZone** class is derived from [**Win32\_SystemSetting**](w
 [**Win32\_SystemSetting**](win32-systemsetting.md)
 </dt> <dt>
 
-[Operating System Classes](https://www.bing.com/search?q=Operating System Classes)
+[Operating System Classes](https://www.bing.com/search?q=Operating+System+Classes)
 </dt> </dl>
 
  

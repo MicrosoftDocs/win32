@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # KEYSVC\_UNICODE\_STRING structure
 
-The **KEYSVC\_UNICODE\_STRING** structure defines a [*Unicode*](https://www.bing.com/search?q=*Unicode*) string and a maximum length for the string. This structure is used by the [**RKeyPFXInstall**](rkeypfxinstall.md) function.
+The **KEYSVC\_UNICODE\_STRING** structure defines a [*Unicode*](security.u_gly#-security-unicode-gly) string and a maximum length for the string. This structure is used by the [**RKeyPFXInstall**](rkeypfxinstall.md) function.
 
 ## Syntax
 

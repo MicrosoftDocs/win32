@@ -107,7 +107,7 @@ Unless hardware vertex processing is not available, the usage of software vertex
 </tr>
 <tr class="even">
 <td>D3DCREATE_MULTITHREADED</td>
-<td>Indicates that the application requests Direct3D to be multithread safe. This makes a Direct3D thread take ownership of its global [critical section](https://msdn.microsoft.com/windows/desktop/2ec11a42-3d12-4d60-9dd7-dc38926d56e1) more frequently, which can degrade performance. If an application processes window messages in one thread while making Direct3D API calls in another, the application must use this flag when creating the device. This window must also be destroyed before unloading d3d9.dll.</td>
+<td>Indicates that the application requests Direct3D to be multithread safe. This makes a Direct3D thread take ownership of its global [critical section](https://msdn.microsoft.com/2ec11a42-3d12-4d60-9dd7-dc38926d56e1) more frequently, which can degrade performance. If an application processes window messages in one thread while making Direct3D API calls in another, the application must use this flag when creating the device. This window must also be destroyed before unloading d3d9.dll.</td>
 </tr>
 <tr class="odd">
 <td>D3DCREATE_NOWINDOWCHANGES</td>

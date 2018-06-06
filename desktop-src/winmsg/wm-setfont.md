@@ -48,16 +48,16 @@ This message does not return a value.
 
 The **WM\_SETFONT** message applies to all controls, not just those in dialog boxes.
 
-The best time for the owner of a dialog box control to set the font of the control is when it receives the [**WM\_INITDIALOG**](https://msdn.microsoft.com/windows/desktop/bc4f4718-1dab-48db-ae3b-5a81a7be2644) message. The application should call the [**DeleteObject**](https://msdn.microsoft.com/windows/desktop/cc679af0-6839-4c83-9c42-39d7ededda40) function to delete the font when it is no longer needed; for example, after it destroys the control.
+The best time for the owner of a dialog box control to set the font of the control is when it receives the [**WM\_INITDIALOG**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxmessages\wm_initdialog.htm) message. The application should call the [**DeleteObject**](https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40) function to delete the font when it is no longer needed; for example, after it destroys the control.
 
 The size of the control does not change as a result of receiving this message. To avoid clipping text that does not fit within the boundaries of the control, the application should correct the size of the control window before it sets the font.
 
-When a dialog box uses the [DS\_SETFONT](https://www.bing.com/search?q=DS\_SETFONT) style to set the text in its controls, the system sends the **WM\_SETFONT** message to the dialog box procedure before it creates the controls. An application can create a dialog box that contains the DS\_SETFONT style by calling any of the following functions:
+When a dialog box uses the [DS\_SETFONT](dlgbox.about_dialog_boxes#templates) style to set the text in its controls, the system sends the **WM\_SETFONT** message to the dialog box procedure before it creates the controls. An application can create a dialog box that contains the DS\_SETFONT style by calling any of the following functions:
 
--   [**CreateDialogIndirect**](https://msdn.microsoft.com/windows/desktop/b3bddf88-be6d-4aa3-9e23-257126bdfc15)
--   [**CreateDialogIndirectParam**](https://msdn.microsoft.com/windows/desktop/f8ed581b-992e-41b8-a2f5-906b9bafa578)
--   [**DialogBoxIndirect**](https://msdn.microsoft.com/windows/desktop/0af783b3-804d-4075-8046-5109f37e275d)
--   [**DialogBoxIndirectParam**](https://msdn.microsoft.com/windows/desktop/ce241d7b-8775-4c0d-bb4b-87df5f58f8a8)
+-   [**CreateDialogIndirect**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogindirect.htm)
+-   [**CreateDialogIndirectParam**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogindirectparam.htm)
+-   [**DialogBoxIndirect**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxindirect.htm)
+-   [**DialogBoxIndirectParam**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxindirectparam.htm)
 
 ## Requirements
 
@@ -78,19 +78,19 @@ When a dialog box uses the [DS\_SETFONT](https://www.bing.com/search?q=DS\_SETFO
 **Reference**
 </dt> <dt>
 
-[**CreateDialogIndirect**](https://msdn.microsoft.com/windows/desktop/b3bddf88-be6d-4aa3-9e23-257126bdfc15)
+[**CreateDialogIndirect**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogindirect.htm)
 </dt> <dt>
 
-[**CreateDialogIndirectParam**](https://msdn.microsoft.com/windows/desktop/f8ed581b-992e-41b8-a2f5-906b9bafa578)
+[**CreateDialogIndirectParam**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogindirectparam.htm)
 </dt> <dt>
 
-[**DialogBoxIndirect**](https://msdn.microsoft.com/windows/desktop/0af783b3-804d-4075-8046-5109f37e275d)
+[**DialogBoxIndirect**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxindirect.htm)
 </dt> <dt>
 
-[**DialogBoxIndirectParam**](https://msdn.microsoft.com/windows/desktop/ce241d7b-8775-4c0d-bb4b-87df5f58f8a8)
+[**DialogBoxIndirectParam**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxindirectparam.htm)
 </dt> <dt>
 
-[**DLGTEMPLATE**](https://msdn.microsoft.com/windows/desktop/e6164c92-51ec-48ea-9a61-80e55de7a6d8)
+[**DLGTEMPLATE**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\dlgtemplate.htm)
 </dt> <dt>
 
 [**MAKELPARAM**](/windows/desktop/api/Winuser/nf-winuser-makelparam)
@@ -99,7 +99,7 @@ When a dialog box uses the [DS\_SETFONT](https://www.bing.com/search?q=DS\_SETFO
 [**WM\_GETFONT**](wm-getfont.md)
 </dt> <dt>
 
-[**WM\_INITDIALOG**](https://msdn.microsoft.com/windows/desktop/bc4f4718-1dab-48db-ae3b-5a81a7be2644)
+[**WM\_INITDIALOG**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxmessages\wm_initdialog.htm)
 </dt> <dt>
 
 **Conceptual**
@@ -111,7 +111,7 @@ When a dialog box uses the [DS\_SETFONT](https://www.bing.com/search?q=DS\_SETFO
 **Other Resources**
 </dt> <dt>
 
-[**DeleteObject**](https://msdn.microsoft.com/windows/desktop/cc679af0-6839-4c83-9c42-39d7ededda40)
+[**DeleteObject**](https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40)
 </dt> </dl>
 
  

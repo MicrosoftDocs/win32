@@ -45,7 +45,7 @@ A print provider's [**RefreshPrinterChangeNotification**](https://www.bing.com/s
 
 Besides deallocating the specified PRINTER\_NOTIFY\_INFO structure and its associated PRINTER\_NOTIFY\_INFO\_DATA structure array, the function also deallocates buffer space pointed to by *pBuf* in any element of the PRINTER\_NOTIFY\_INFO\_DATA structure array.
 
-For additional information, see [Supporting Printer Change Notifications](https://www.bing.com/search?q=Supporting Printer Change Notifications).
+For additional information, see [Supporting Printer Change Notifications](https://www.bing.com/search?q=Supporting+Printer+Change+Notifications).
 
 ## Requirements
 

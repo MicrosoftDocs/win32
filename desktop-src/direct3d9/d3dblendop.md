@@ -116,7 +116,7 @@ This enumerated type defines values used by the following render states:
 [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9)
 </dt> <dt>
 
-[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/windows/desktop/2fd56388-f3bd-409f-876c-ae893840b623)
+[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3drenderstatetype.htm)
 </dt> </dl>
 
  

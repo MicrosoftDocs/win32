@@ -17,13 +17,13 @@ This topic shows how to use [**IWICImageEncoder**](https://msdn.microsoft.com/li
 
 ### Technologies
 
--   [Direct2D](https://www.bing.com/search?q=Direct2D)
+-   [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b)
 -   [Direct2D effects](effects-overview.md)
 -   [**Windows::Storage::Pickers::FileSavePicker**](https://msdn.microsoft.com/library/windows/apps/br207871)
 
 ### Prerequisites
 
--   You need an [**ID2D1DeviceContext**](/windows/desktop/api/D2d1_1/) object and an object containing [Direct2D](https://www.bing.com/search?q=Direct2D) content that implements [**ID2D1Image**](/windows/desktop/api/D2d1/) such as [**ID2D1Effect**](/windows/desktop/api/D2d1_1/) or [**ID2D1Bitmap1**](/windows/desktop/api/D2d1_1/).
+-   You need an [**ID2D1DeviceContext**](/windows/desktop/api/D2d1_1/) object and an object containing [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) content that implements [**ID2D1Image**](/windows/desktop/api/D2d1/) such as [**ID2D1Effect**](/windows/desktop/api/D2d1_1/) or [**ID2D1Bitmap1**](/windows/desktop/api/D2d1_1/).
 
 ## Instructions
 
@@ -172,9 +172,9 @@ Call [**IWICImagingFactory2::CreateImageEncoder**](https://msdn.microsoft.com/li
 
 ### Step 4: Write the Direct2D content using IWICImageEncoder
 
-[**IWICImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880844) can write a [Direct2D](https://www.bing.com/search?q=Direct2D) image into an image frame, a frame thumbnail, or the container thumbnail. You can then use [IWICBitmapEncoder](https://msdn.microsoft.com/library/windows/desktop/ee719893) and [IWICBitmapFrameEncode](https://msdn.microsoft.com/library/windows/desktop/ee719895) to encode the imaging data to a file as normal.
+[**IWICImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880844) can write a [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) image into an image frame, a frame thumbnail, or the container thumbnail. You can then use [IWICBitmapEncoder](https://msdn.microsoft.com/library/windows/desktop/ee719893) and [IWICBitmapFrameEncode](https://msdn.microsoft.com/library/windows/desktop/ee719895) to encode the imaging data to a file as normal.
 
-Write the [Direct2D](https://www.bing.com/search?q=Direct2D) image to the frame. In this snippet we write an [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) that contains rasterized Direct2D content. However, you can provide any interface that implements [**ID2D1Image**](/windows/desktop/api/D2d1/).
+Write the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) image to the frame. In this snippet we write an [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) that contains rasterized Direct2D content. However, you can provide any interface that implements [**ID2D1Image**](/windows/desktop/api/D2d1/).
 
 
 ```C++
@@ -219,7 +219,7 @@ Commit the WIC and stream resources to finalize the operation.
 
  
 
-Now you have a file containing the [Direct2D](https://www.bing.com/search?q=Direct2D) image.
+Now you have a file containing the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) image.
 
 ## Complete example
 

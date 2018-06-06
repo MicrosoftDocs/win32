@@ -84,7 +84,7 @@ The value of the restriction. If the specified restriction is not found, the ret
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.IsRestricted**](https://msdn.microsoft.com/windows/desktop/C4B3B5C0-7445-483a-885F-5283BD4D4B39) method.
+This method is implemented and accessed through the [**Shell.IsRestricted**](https://msdn.microsoft.com/C4B3B5C0-7445-483a-885F-5283BD4D4B39) method.
 
 **IsRestricted** first looks for a subkey name that matches *sGroup* under the following key.
 

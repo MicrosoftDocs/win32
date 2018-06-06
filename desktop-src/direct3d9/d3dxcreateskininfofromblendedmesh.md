@@ -43,7 +43,7 @@ Pointer to an [**ID3DXBaseMesh**](id3dxbasemesh.md) object, the mesh from which 
 *NumBones* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The length of the array attached to the BoneId. See [**D3DXBONECOMBINATION**](d3dxbonecombination.md).
 

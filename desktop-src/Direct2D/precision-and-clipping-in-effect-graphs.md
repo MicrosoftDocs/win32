@@ -52,14 +52,14 @@ Some of the effects which may emit these out-of-range colors offer a “ClampOut
 -   [Color Matrix](color-matrix.md)
 -   [Arithmetic Composite](arithmetic-composite.md)
 -   [Convolve](convolve-matrix.md)
--   [Transfer effects](https://www.bing.com/search?q=Transfer effects)
+-   [Transfer effects](built-in-effects.md#color)
 
 Setting the ClampOutput property to TRUE on these effects ensures a consistent result will be achieved regardless of factors such as shader linking. Note that clamping occurs in unpremultiplied space.
 
 Other built-in effects may also produce output colors beyond the \[0, 1\] range in unpremultiplied space, even when their colors pixels (and “Color” properties if any) are within that range. These include:
 
--   [Transforming and Scaling effects](https://www.bing.com/search?q=Transforming and Scaling effects) (When the Interpolation Mode property is Cubic or High Quality Cubic)
--   [Lighting effects](https://www.bing.com/search?q=Lighting effects)
+-   [Transforming and Scaling effects](built-in-effects.md#transform) (When the Interpolation Mode property is Cubic or High Quality Cubic)
+-   [Lighting effects](built-in-effects.md#lighting-and-stylizing)
 -   [Edge detection](edge-detection-effect.md) (When the Overlay Edges property is TRUE)
 -   [Exposure](exposure-effect.md)
 -   [Composite](composite.md) (When the Mode property is Plus)

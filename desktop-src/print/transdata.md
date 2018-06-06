@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # TRANSDATA structure
 
-The TRANSDATA structure is one of the structures used to define the contents of [glyph translation table files](https://www.bing.com/search?q=glyph translation table files) (.gtt files).
+The TRANSDATA structure is one of the structures used to define the contents of [glyph translation table files](print.customized_font_management#ddk-glyph-translation-table-files-gg) (.gtt files).
 
 ## Syntax
 

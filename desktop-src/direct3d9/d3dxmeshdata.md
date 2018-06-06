@@ -35,11 +35,11 @@ typedef struct D3DXMESHDATA {
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXMESHDATATYPE**](https://msdn.microsoft.com/windows/desktop/e5324f85-17cc-46a7-886a-c8f3464baade)**
+Type: **[**D3DXMESHDATATYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmeshdatatype.htm)**
 
 </dd> <dd>
 
-Defines the mesh data type. See [**D3DXMESHDATATYPE**](https://msdn.microsoft.com/windows/desktop/e5324f85-17cc-46a7-886a-c8f3464baade).
+Defines the mesh data type. See [**D3DXMESHDATATYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmeshdatatype.htm).
 
 </dd> <dt>
 

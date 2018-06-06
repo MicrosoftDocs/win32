@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # Example C Program: Duplicating a Session Key
 
-The following example creates a random [*session key*](https://www.bing.com/search?q=*session key*), duplicates the key, sets some additional parameters on the original key, and destroys both the original and the duplicate keys. This example illustrates the use of [**CryptDuplicateKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatekey) and related functions.
+The following example creates a random [*session key*](security.s_gly#-security-session-key-gly), duplicates the key, sets some additional parameters on the original key, and destroys both the original and the duplicate keys. This example illustrates the use of [**CryptDuplicateKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatekey) and related functions.
 
 This example illustrates the following tasks and CryptoAPI functions:
 
--   Accessing a [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP) using [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta).
+-   Accessing a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) using [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta).
 -   Creating a session key using [**CryptGenKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey).
 -   Duplicating the key created using [**CryptDuplicateKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatekey).
 -   Using [**CryptSetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam) to alter the key generation process in two different ways.

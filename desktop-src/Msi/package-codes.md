@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Package Codes
 
-The package code is a GUID identifying a particular Windows Installer [*package*](https://www.bing.com/search?q=*package*). The package code associates an .msi file with an application or product and can also be used for the verification of sources. The product and package codes are not interchangeable. For details, see [Product Codes](product-codes.md).
+The package code is a GUID identifying a particular Windows Installer [*package*](p-gly.md#-msi-package-using-windows-installer-gly). The package code associates an .msi file with an application or product and can also be used for the verification of sources. The product and package codes are not interchangeable. For details, see [Product Codes](product-codes.md).
 
 Nonidentical .msi files should not have the same package code. It is important to change the package code because it is the primary identifier used by the installer to search for and validate the correct package for a given installation. If a package is changed without changing the package code, the installer may not use the newer package if both are still accessible to the installer.
 

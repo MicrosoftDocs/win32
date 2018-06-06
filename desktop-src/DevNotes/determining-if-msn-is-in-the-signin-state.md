@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Determining if MSN Is in the Sign-in State
 
-The following code example shows the usage of a mutex object to determine if MSN Explorer is signed in. When you have finished using the handle, be sure to call the [**CloseHandle**](https://msdn.microsoft.com/windows/desktop/9b84891d-62ca-4ddc-97b7-c4c79482abd9) function.
+The following code example shows the usage of a mutex object to determine if MSN Explorer is signed in. When you have finished using the handle, be sure to call the [**CloseHandle**](https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9) function.
 
 > [!Note]  
 > This mutex object is available for use in checking MSN Explorer 7.*x* sign-in status. It may be unavailable in subsequent versions.

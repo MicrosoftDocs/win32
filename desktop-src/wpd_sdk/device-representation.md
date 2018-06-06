@@ -18,7 +18,7 @@ Devices have two main behaviors that are addressed by the Windows Portable Devic
 
 In WPD, these behaviors are described by representing the device as a hierarchy of objects. The following illustration shows a WPD object representation for a multi-function device, which in this case is a mobile phone.
 
-![illustration showing hierarchy of objects for a mobile phone](https://www.bing.com/search?q=illustration showing hierarchy of objects for a mobile phone)
+![illustration showing hierarchy of objects for a mobile phone](https://www.bing.com/search?q=illustration+showing+hierarchy+of+objects+for+a+mobile+phone)
 
 This hierarchy illustrates the following functionality and contents.
 

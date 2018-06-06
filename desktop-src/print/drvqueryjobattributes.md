@@ -41,7 +41,7 @@ Caller-supplied printer handle.
 *pDevMode* \[in\]
 </dt> <dd>
 
-Caller-supplied pointer to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure.
+Caller-supplied pointer to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure.
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ If the operation succeeds, the function should return **TRUE**. Otherwise, it sh
 
 ## Remarks
 
-A [printer interface DLL](https://www.bing.com/search?q=printer interface DLL) can optionally provide a **DrvQueryJobAttributes** function. If the function is provided, it should fill in the supplied structure, described by *dwLevel* and *plAttributeInfo*, to indicate the current print job's user-requested attributes (such as N-up parameters and the number of copies) and the driver's ability to support those attributes. The function is typically called by the EMF print processor, so it can determine which job attributes can be handled by the driver (or printer), and which must be handled by the print processor.
+A [printer interface DLL](https://www.bing.com/search?q=printer+interface+DLL) can optionally provide a **DrvQueryJobAttributes** function. If the function is provided, it should fill in the supplied structure, described by *dwLevel* and *plAttributeInfo*, to indicate the current print job's user-requested attributes (such as N-up parameters and the number of copies) and the driver's ability to support those attributes. The function is typically called by the EMF print processor, so it can determine which job attributes can be handled by the driver (or printer), and which must be handled by the print processor.
 
 For descriptions of the job attributes that the function can specify, see the descriptions of [**ATTRIBUTE\_INFO\_1**](attribute-info-1.md), [**ATTRIBUTE\_INFO\_2**](attribute-info-2.md), [**ATTRIBUTE\_INFO\_3**](attribute-info-3.md), and [**ATTRIBUTE\_INFO\_4**](attribute-info-4.md).
 

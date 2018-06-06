@@ -82,7 +82,7 @@ Retrieves the Age response-header field, which contains the sender's estimate of
 
 
 
-Receives the [*HTTP verb*](https://www.bing.com/search?q=*HTTP verb*)s supported by the server.
+Receives the [*HTTP verb*](glossary.md#term-http-verb)s supported by the server.
 
 
 </dt> </dl> </dd> <dt>
@@ -342,7 +342,7 @@ Obsolete. Maintained for legacy application compatibility.
 
 
 
-Retrieves the e-mail address for the user who controls the requesting [*user agent*](https://www.bing.com/search?q=*user agent*) if the From header is given.
+Retrieves the e-mail address for the user who controls the requesting [*user agent*](glossary.md#term-user-agent) if the From header is given.
 
 
 </dt> </dl> </dd> <dt>

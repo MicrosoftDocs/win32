@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # LVN\_GETINFOTIP notification code
 
-Sent by a large icon view list-view control that has the [**LVS\_EX\_INFOTIP**](https://www.bing.com/search?q=**LVS\_EX\_INFOTIP**) extended style. This notification code is sent when the list-view control is requesting additional text information to be displayed in a tooltip. It is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a large icon view list-view control that has the [**LVS\_EX\_INFOTIP**](extended-list-view-styles.md#lvs-ex-infotip) extended style. This notification code is sent when the list-view control is requesting additional text information to be displayed in a tooltip. It is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++
@@ -51,7 +51,7 @@ The return value for this notification is not used.
 
 ## Remarks
 
-This notification code is only sent by list-view controls that have the [**LVS\_EX\_INFOTIP**](https://www.bing.com/search?q=**LVS\_EX\_INFOTIP**) extended style. The LVN\_GETINFOTIP notification code is sent only for subitem 0.
+This notification code is only sent by list-view controls that have the [**LVS\_EX\_INFOTIP**](extended-list-view-styles.md#lvs-ex-infotip) extended style. The LVN\_GETINFOTIP notification code is sent only for subitem 0.
 
 ## Requirements
 

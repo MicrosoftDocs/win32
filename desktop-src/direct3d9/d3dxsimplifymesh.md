@@ -46,7 +46,7 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) interface, representing the source m
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the mesh to be simplified.
 
@@ -64,7 +64,7 @@ Pointer to a [**D3DXATTRIBUTEWEIGHTS**](d3dxattributeweights.md) structure, cont
 *pVertexWeights* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to an array of vertex weights. If this parameter is set to **NULL**, all vertex weights are set to 1.0.
 
@@ -73,7 +73,7 @@ Pointer to an array of vertex weights. If this parameter is set to **NULL**, all
 *MinValue* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of vertices or faces, depending on the flag set in the *Options* parameter, by which to simplify the source mesh.
 
@@ -82,9 +82,9 @@ Number of vertices or faces, depending on the flag set in the *Options* paramete
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-Specifies simplification options for the mesh. One of the flags in [**D3DXMESHSIMP**](https://msdn.microsoft.com/windows/desktop/f03170bd-7d2a-4839-9aec-c29426b95437) can be set.
+Specifies simplification options for the mesh. One of the flags in [**D3DXMESHSIMP**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmeshsimp.htm) can be set.
 
 </dd> <dt>
 

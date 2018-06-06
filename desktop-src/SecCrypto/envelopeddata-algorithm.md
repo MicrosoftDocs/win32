@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # EnvelopedData.Algorithm property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**EnvelopedCms Class**](https://www.bing.com/search?q=**EnvelopedCms Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**EnvelopedCms Class**](https://www.bing.com/search?q=**EnvelopedCms+Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
 
-The **Algorithm** property retrieves the encryption algorithm and [*key length*](https://www.bing.com/search?q=*key length*).
+The **Algorithm** property retrieves the encryption algorithm and [*key length*](security.k_gly#-security-key-length-gly).
 
 ## Syntax
 

@@ -19,9 +19,9 @@ Creates an instance of [**BoundingOrientedBox**](/windows/desktop/api/DirectXCol
 
 | Constructor                                                                                                 | Description                                                                           |
 |:------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
-| [**BoundingOrientedBox ()**](https://www.bing.com/search?q=**BoundingOrientedBox ()**)                                                | Creates an instance of [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
-| [**BoundingOrientedBox (const BoundingOrientedBox&)**](https://www.bing.com/search?q=**BoundingOrientedBox (const BoundingOrientedBox&)**)                      | Creates an instance of [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
-| [**BoundingOrientedBox (const XMFLOAT3&,const XMFLOAT3&,const XMFLOAT4&)**](https://www.bing.com/search?q=**BoundingOrientedBox (const XMFLOAT3&,const XMFLOAT3&,const XMFLOAT4&)**) | Creates an instance of [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
+| [**BoundingOrientedBox ()**](https://www.bing.com/search?q=**BoundingOrientedBox+()**)                                                | Creates an instance of [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
+| [**BoundingOrientedBox (const BoundingOrientedBox&)**](https://www.bing.com/search?q=**BoundingOrientedBox+(const+BoundingOrientedBox&)**)                      | Creates an instance of [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
+| [**BoundingOrientedBox (const XMFLOAT3&,const XMFLOAT3&,const XMFLOAT4&)**](https://www.bing.com/search?q=**BoundingOrientedBox+(const+XMFLOAT3&,const+XMFLOAT3&,const+XMFLOAT4&)**) | Creates an instance of [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
 
 
 

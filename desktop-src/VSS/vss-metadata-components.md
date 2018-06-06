@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # VSS Metadata Components
 
-Critical to organizing which files of which writer are to be backed up or restored is the concept of a [*component*](https://www.bing.com/search?q=*component*).
+Critical to organizing which files of which writer are to be backed up or restored is the concept of a [*component*](vssgloss-c.md#base-vssgloss-component).
 
 Components allow a writer to indicate to a backup engine how its files are to be organized, dependencies between files, and what type of data those files can contain. This allows a backup engine to decide how to store files for maximum efficiency.
 
@@ -22,9 +22,9 @@ Writers and requesters store information about components separately—in the Wr
 Component information in Writer Metadata Documents includes the following:
 
 -   Information from only one writer in each document
--   All of that writer's components, whether they can be [*explicitly included*](https://www.bing.com/search?q=*explicitly included*) or must be [*implicitly included*](https://www.bing.com/search?q=*implicitly included*) in a backup or restore operation
--   [*Logical path*](https://www.bing.com/search?q=*Logical path*) information used to associate a selectable for backup component with particular nonselectable for backup components, thus forming a component set
--   The [*file set*](https://www.bing.com/search?q=*file set*) information—path, file specification, and recursion flag—managed for each component
+-   All of that writer's components, whether they can be [*explicitly included*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion) or must be [*implicitly included*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion) in a backup or restore operation
+-   [*Logical path*](vssgloss-l.md#base-vssgloss-logical-path) information used to associate a selectable for backup component with particular nonselectable for backup components, thus forming a component set
+-   The [*file set*](vssgloss-f.md#base-vssgloss-file-set) information—path, file specification, and recursion flag—managed for each component
 
 Writer Metadata Documents also contain writer-level metadata information, such as restore methods and alternate location mappings for restore. Writer Metadata Documents are read-only. The interface for examining this information is [**IVssWMComponent**](/windows/desktop/api/VsBackup/nl-vsbackup-ivsswmcomponent).
 
@@ -34,7 +34,7 @@ Component information in Backup Components Documents includes the following:
 -   Writer-level metadata information, such as alternate location mappings and restore
 -   State information describing a backup or restore operation
 
-Backup Component Documents do not contain information on components' [*file sets*](https://www.bing.com/search?q=*file sets*). Backup Component Documents are not read-only and can be modified by the writer. The interface for accessing this information is [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent).
+Backup Component Documents do not contain information on components' [*file sets*](vssgloss-f.md#base-vssgloss-file-set). Backup Component Documents are not read-only and can be modified by the writer. The interface for accessing this information is [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent).
 
 The life cycle and relationship between the two expressions of a component can be understood as follows:
 

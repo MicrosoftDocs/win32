@@ -29,7 +29,7 @@ Meiryo includes Latin characters based on Verdana. Malgun Gothic, Microsoft Jhen
 
 A variation of Meiryo, called Meiryo UI, is preferred in the [ribbons](cmd-ribbons.md) command user interface.
 
-To support locales using these character sets, Segoe UI is replaced with the correct fonts depending on each locale during the [localization](https://www.bing.com/search?q=localization) process.
+To support locales using these character sets, Segoe UI is replaced with the correct fonts depending on each locale during the [localization](glossary.md#l) process.
 
 To license Segoe UI and other Microsoft fonts for distribution with a Windows-based program, contact [Ascender](http://www.ascendercorp.com/msfonts/msfonts_main.mdl).
 
@@ -59,7 +59,7 @@ Light text on a dark background offers good contrast, but not as good as dark te
 
 ### Affordances
 
-Text can use the following [affordances](https://www.bing.com/search?q=affordances) to indicate how it is used:
+Text can use the following [affordances](glossary.md#glossary) to indicate how it is used:
 
 -   **Pointer.** The I-bar ("text select") pointer indicates that the text is selectable, whereas the left-pointing arrow ("normal select") pointer indicates that text isn't.
 -   **Caret.** When text has input focus, the caret is the flashing vertical bar that indicates the insertion/selection point in selectable or editable text.
@@ -176,7 +176,7 @@ Text has several usage patterns:
 
 -   Most UI text should be plain without any attributes. Attributes may be used as follows:
     -   **Bold.** Use in control labels to make the text easier to parse. Use sparingly to draw attention to text users must read. Using too much bold lessens its impact.
-    -   **Italic.** Use to refer to text literally instead of quotation marks. Use sparingly to emphasize specific words. Use for [prompts](https://www.bing.com/search?q=prompts) in [text boxes](ctrl-text-boxes.md) and [editable drop-down lists](https://msdn.microsoft.com/library/windows/desktop/dn742404).
+    -   **Italic.** Use to refer to text literally instead of quotation marks. Use sparingly to emphasize specific words. Use for [prompts](glossary.md#p) in [text boxes](ctrl-text-boxes.md) and [editable drop-down lists](https://msdn.microsoft.com/library/windows/desktop/dn742404).
     -   **Bold italic.** Don't use.
     -   **Underline.** Don't use except for links. Use italic instead for emphasis.
 -   Not all fonts support bold and italic, so they should never be crucial to understanding the text.

@@ -71,7 +71,7 @@ Specifies the length of the entire stride packet, in bytes. The value must be at
 
 The following diagram illustrates the relations between the structure members.
 
-![mpeg-2 stride packet](https://www.bing.com/search?q=mpeg-2 stride packet)
+![mpeg-2 stride packet](https://www.bing.com/search?q=mpeg-2+stride+packet)
 
 Input buffers that contain multiplexed stride packets have some restrictions:
 

@@ -157,7 +157,7 @@ Current user was not authorized to execute the method.
 
 ## Remarks
 
-Use the **SWbemObject.ExecMethodAsync\_** method as an alternative to direct access for executing a [*provider method*](https://www.bing.com/search?q=*provider method*) when you cannot execute a method directly. For example, if your method has out parameters, use the **SWbemObject.ExecMethodAsync\_** method with a scripting language that does not support output parameters. Otherwise, it is recommended that you invoke a method using direct access. For more information, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md).
+Use the **SWbemObject.ExecMethodAsync\_** method as an alternative to direct access for executing a [*provider method*](gloss-p.md#wmi-gloss-provider-method) when you cannot execute a method directly. For example, if your method has out parameters, use the **SWbemObject.ExecMethodAsync\_** method with a scripting language that does not support output parameters. Otherwise, it is recommended that you invoke a method using direct access. For more information, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md).
 
 This call returns immediately. The requested objects and status are returned to the caller through callbacks delivered to the sink that is specified in *objWbemSink*. To process each object when it arrives, create an *objWbemSink*.[**OnObjectReady**](swbemsink-onobjectready.md) event subroutine. After all the objects are returned, you can perform final processing in your implementation of the *objWbemSink*.[**OnCompleted**](swbemsink-oncompleted.md) event.
 

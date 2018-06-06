@@ -89,7 +89,7 @@ For more information, see the [How AccessCheck Works](how-dacls-control-access-t
 
 <dl> <dt>
 
-[Basic Access Control Functions](https://www.bing.com/search?q=Basic Access Control Functions)
+[Basic Access Control Functions](authorization-functions.md#basic-access-control-functions)
 </dt> <dt>
 
 [Centralized Authorization Policy](centralized-authorization-policy.md)

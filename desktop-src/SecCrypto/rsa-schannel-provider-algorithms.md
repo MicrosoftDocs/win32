@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # RSA/Schannel Provider Algorithms
 
-The following algorithms might be supported by the Microsoft [*RSA*](https://www.bing.com/search?q=*RSA*)/[*Schannel*](https://www.bing.com/search?q=*Schannel*) Cryptographic Provider.
+The following algorithms might be supported by the Microsoft [*RSA*](security.r_gly#-security-rsa-gly)/[*Schannel*](security.s_gly#-security-schannel-gly) Cryptographic Provider.
 
 
 
 | Algorithm ID    | Description                                                                                                                         | Comments                                                                                                        |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| CALG\_RSA\_KEYX | RSA public key [*key exchange algorithm*](https://www.bing.com/search?q=*key exchange algorithm*) | Key length: Can be set, 384 bits to 16,384 bits in 8 bit increments. Default key length: 1,024 bits.<br/> |
+| CALG\_RSA\_KEYX | RSA public key [*key exchange algorithm*](security.k_gly#-security-key-exchange-algorithm-gly) | Key length: Can be set, 384 bits to 16,384 bits in 8 bit increments. Default key length: 1,024 bits.<br/> |
 | CALG\_MD5       | MD5 hashing algorithm.                                                                                                              | Provided only for hashing.                                                                                      |
 | CALG\_SHA       | SHA hashing algorithm.                                                                                                              | Must be used for DSS signatures.                                                                                |
 | CALG\_RC2       | RC2 block encryption algorithm.                                                                                                     | Key length: 40 to 88 bits                                                                                       |

@@ -39,7 +39,7 @@ Returns the handle to the child tooltip control, or **NULL** if the control is n
 
 ## Remarks
 
-When created, tree-view controls automatically create a child tooltip control. To cause a tree-view control not to use tooltips, create the control with the [**TVS\_NOTOOLTIPS**](https://www.bing.com/search?q=**TVS\_NOTOOLTIPS**) style.
+When created, tree-view controls automatically create a child tooltip control. To cause a tree-view control not to use tooltips, create the control with the [**TVS\_NOTOOLTIPS**](tree-view-control-window-styles.md#tvs-notooltips) style.
 
 ## Requirements
 

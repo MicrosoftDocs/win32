@@ -15,7 +15,7 @@ This section describes the methods defined for the IPrintOemDriverPS COM Interfa
 
 ## Members
 
-The **IPrintOemDriverPS** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintOemDriverPS** also has these types of members:
+The **IPrintOemDriverPS** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintOemDriverPS** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -28,7 +28,7 @@ The **IPrintOemDriverPS** interface has these methods.
 | Method                                                               | Description                                                                                                                                                                                                    |
 |:---------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DrvGetDriverSetting**](iprintoemdriverps-drvgetdriversetting.md) | The `IPrintOemDriverPS::DrvGetDriverSetting` method is provided by the Pscript5 driver so that rendering plug-ins can obtain the current status of printer features and other internal information.<br/> |
-| [**DrvWriteSpoolBuf**](iprintoemdriverps-drvwritespoolbuf.md)       | The `IPrintOemDriverPS::DrvWriteSpoolBuf` method is provided by the Pscript5 driver so that [rendering plug-ins](https://www.bing.com/search?q=rendering plug-ins) can send printer data to the spooler.<br/>                    |
+| [**DrvWriteSpoolBuf**](iprintoemdriverps-drvwritespoolbuf.md)       | The `IPrintOemDriverPS::DrvWriteSpoolBuf` method is provided by the Pscript5 driver so that [rendering plug-ins](https://www.bing.com/search?q=rendering+plug-ins) can send printer data to the spooler.<br/>                    |
 
 
 

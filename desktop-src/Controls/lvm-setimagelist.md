@@ -60,7 +60,7 @@ Returns the handle to the image list previously associated with the control if s
 
 ## Remarks
 
-The current image list will be destroyed when the list-view control is destroyed unless the [**LVS\_SHAREIMAGELISTS**](https://www.bing.com/search?q=**LVS\_SHAREIMAGELISTS**) style is set. If you use this message to replace one image list with another, your application must explicitly destroy all image lists other than the current one.
+The current image list will be destroyed when the list-view control is destroyed unless the [**LVS\_SHAREIMAGELISTS**](list-view-window-styles.md#lvs-shareimagelists) style is set. If you use this message to replace one image list with another, your application must explicitly destroy all image lists other than the current one.
 
 ## Requirements
 

@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 | Topic                                                                                                | Description                                                                     |
 |------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| [System.Computer.DecoratedFreeSpace](https://msdn.microsoft.com/windows/desktop/af6445d4-b91d-4999-a809-b2a3b63c67ba)<br/> | The computer's free space and total space stated as "%s free of %s".<br/> |
+| [System.Computer.DecoratedFreeSpace](https://msdn.microsoft.com/af6445d4-b91d-4999-a809-b2a3b63c67ba)<br/> | The computer's free space and total space stated as "%s free of %s".<br/> |
 
 
 

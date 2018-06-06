@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Authoring Merge Module File Tables
 
-A [File Table](file-table.md) is required in every merge module, and should have a record for each file that is being delivered to the target installation package by the merge module. When the merge module is merged into a .msi file, every file in the merge module File Table is stored inside a [*cabinet file*](https://www.bing.com/search?q=*cabinet file*) in the .msm file. The name of the cabinet in a merge module is always the following: MergeModule.CABinet.
+A [File Table](file-table.md) is required in every merge module, and should have a record for each file that is being delivered to the target installation package by the merge module. When the merge module is merged into a .msi file, every file in the merge module File Table is stored inside a [*cabinet file*](c-gly.md#-msi-cabinet-file-using-windows-installer-gly) in the .msm file. The name of the cabinet in a merge module is always the following: MergeModule.CABinet.
 
 For more information, see [Generating MergeModule.CABinet Cabinet Files](generating-mergemodule-cabinet-cabinet-files.md).
 

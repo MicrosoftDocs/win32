@@ -32,8 +32,8 @@ The default credentials, user name, and password, are the credentials for the lo
 
 The following list contains a list of what occurs when a script or application runs under the default credentials:
 
--   [*Kerberos*](https://www.bing.com/search?q=*Kerberos*) is the default method of authentication when the client is in a domain and the remote destination string is not one of the following: localhost, 127.0.0.1, or \[::1\].
--   [*Negotiate*](https://www.bing.com/search?q=*Negotiate*) is the default method when the client is not in a domain, but the remote destination string is one of the following: localhost, 127.0.0.1, or \[::1\].
+-   [*Kerberos*](windows-remote-management-glossary.md#winrm-gloss-kerberos-authentication) is the default method of authentication when the client is in a domain and the remote destination string is not one of the following: localhost, 127.0.0.1, or \[::1\].
+-   [*Negotiate*](windows-remote-management-glossary.md#winrm-gloss-negotiate-authentication) is the default method when the client is not in a domain, but the remote destination string is one of the following: localhost, 127.0.0.1, or \[::1\].
 
 If you supply explicit credentials with a [**ConnectionOptions**](connectionoptions.md) object, Negotiate is the default method. Negotiate authentication determines whether the ongoing authentication method is Kerberos or NTLM, depending on whether the computers are in a domain or workgroup. If connecting to a remote target computer using a local account, then the account should be prefixed with the computer name. For example, myComputer\\myUsername.
 
@@ -43,15 +43,15 @@ For more information about the authentication types that are enabled in the defa
 
 ## Basic Authentication
 
-To explicitly establish [*Basic*](https://www.bing.com/search?q=*Basic*) authentication in the call to [**WSMan.CreateSession**](wsman-createsession.md), set the **WSManFlagUseBasic** and **WSManFlagCredUserNamePassword** flags in the *flags* parameter. Basic authentication is disabled in the default configuration settings for both the WinRM client and the WinRM server.
+To explicitly establish [*Basic*](windows-remote-management-glossary.md#winrm-gloss-basic-authentication) authentication in the call to [**WSMan.CreateSession**](wsman-createsession.md), set the **WSManFlagUseBasic** and **WSManFlagCredUserNamePassword** flags in the *flags* parameter. Basic authentication is disabled in the default configuration settings for both the WinRM client and the WinRM server.
 
 ## Digest Authentication
 
-To explicitly establish [*Digest*](https://www.bing.com/search?q=*Digest*) authentication in the call to [**WSMan.CreateSession**](wsman-createsession.md), set the **WSManFlagUseDigest** flag in the *flags* parameter. Digest is not supported. It cannot be configured, for the WinRM server component.
+To explicitly establish [*Digest*](windows-remote-management-glossary.md#winrm-gloss-digest-authentication) authentication in the call to [**WSMan.CreateSession**](wsman-createsession.md), set the **WSManFlagUseDigest** flag in the *flags* parameter. Digest is not supported. It cannot be configured, for the WinRM server component.
 
 ## Negotiate Authentication
 
-To explicitly establish [*Negotiate*](https://www.bing.com/search?q=*Negotiate*) authentication, also known as Windows Integrated Authentication, in the call to [**WSMan.CreateSession**](wsman-createsession.md), set the **WSManFlagUseNegotiate** flag in the *flags* parameter.
+To explicitly establish [*Negotiate*](windows-remote-management-glossary.md#winrm-gloss-negotiate-authentication) authentication, also known as Windows Integrated Authentication, in the call to [**WSMan.CreateSession**](wsman-createsession.md), set the **WSManFlagUseNegotiate** flag in the *flags* parameter.
 
 [User Account Control (UAC)](http://go.microsoft.com/fwlink/p/?linkid=84438) affects access to the WinRM service. When Negotiate authentication is used in a workgroup, only the built-in Administrator account can access the service. To allow all accounts in the Administrators group to access the service, set the following registry value:
 
@@ -59,7 +59,7 @@ To explicitly establish [*Negotiate*](https://www.bing.com/search?q=*Negotiate*)
 
 ## Kerberos Authentication
 
-To explicitly establish [*Kerberos*](https://www.bing.com/search?q=*Kerberos*) authentication in the call to [**WSMan.CreateSession**](wsman-createsession.md), set the **WSManFlagUseKerberos** flag in the *flags* parameter. Both the client and the server computers must be joined to a domain. If you use Kerberos as the authentication method, you cannot use an IP address in the call to [**WSMan.CreateSession**](wsman-createsession.md) or [**IWSMan::CreateSession**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsman-createsession).
+To explicitly establish [*Kerberos*](windows-remote-management-glossary.md#winrm-gloss-kerberos-authentication) authentication in the call to [**WSMan.CreateSession**](wsman-createsession.md), set the **WSManFlagUseKerberos** flag in the *flags* parameter. Both the client and the server computers must be joined to a domain. If you use Kerberos as the authentication method, you cannot use an IP address in the call to [**WSMan.CreateSession**](wsman-createsession.md) or [**IWSMan::CreateSession**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsman-createsession).
 
 ## Client Certificate-based Authentication
 

@@ -15,7 +15,7 @@ The ID3DX10Sprite interface provides a set of methods that simplify the process 
 
 ## Members
 
-The **ID3DX10Sprite** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ID3DX10Sprite** also has these types of members:
+The **ID3DX10Sprite** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ID3DX10Sprite** also has these types of members:
 
 -   [Methods](#methods)
 

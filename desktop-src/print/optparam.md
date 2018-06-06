@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # OPTPARAM structure
 
-An array of OPTPARAM structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a [property sheet option](https://www.bing.com/search?q=property sheet option). The array's address is included in an [**OPTTYPE**](opttype.md) structure.
+An array of OPTPARAM structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a [property sheet option](https://www.bing.com/search?q=property+sheet+option). The array's address is included in an [**OPTTYPE**](opttype.md) structure.
 
 ## Syntax
 
@@ -139,21 +139,21 @@ Push button style, used only for the [**TVOT\_PUSHBUTTON**](https://www.bing.com
 **pData**
 </dt> <dd>
 
-Pointer to the parameter's value. Use of this member is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI option type).
+Pointer to the parameter's value. Use of this member is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI+option+type).
 
 </dd> <dt>
 
 **IconID**
 </dt> <dd>
 
-Usually identifies the icon to be associated with the option parameter, but is sometimes used for other purposes. Use of this member is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI option type).
+Usually identifies the icon to be associated with the option parameter, but is sometimes used for other purposes. Use of this member is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI+option+type).
 
 </dd> <dt>
 
 **lParam**
 </dt> <dd>
 
-Use of this member is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI option type).
+Use of this member is dependent on the [CPSUI option type](https://www.bing.com/search?q=CPSUI+option+type).
 
 </dd> <dt>
 

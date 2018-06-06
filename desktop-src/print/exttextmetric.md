@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # EXTTEXTMETRIC structure
 
-The EXTTEXTMETRIC structure is used to specify font-specific information within [Unidrv font metrics files](https://www.bing.com/search?q=Unidrv font metrics files) (.ufm files).
+The EXTTEXTMETRIC structure is used to specify font-specific information within [Unidrv font metrics files](print.customized_font_management#ddk-unidrv-font-metrics-files-gg) (.ufm files).
 
 ## Syntax
 

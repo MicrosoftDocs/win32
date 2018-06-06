@@ -32,7 +32,7 @@ HRESULT SetTrackEnable(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Identifier of the track to be mixed.
 
@@ -41,7 +41,7 @@ Identifier of the track to be mixed.
 *Enable* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Enable value. Set to **TRUE** to enable this track in the controller, or to **FALSE** to prevent it from being mixed.
 

@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
  
 
-This section describes the structure used by [print providers](https://www.bing.com/search?q=print providers).
+This section describes the structure used by [print providers](https://www.bing.com/search?q=print+providers).
 
 This section includes:
 

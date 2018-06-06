@@ -28,7 +28,7 @@ Trackbars notify their parent window of user actions by sending the parent a [**
 
 ### Process Trackbar Notification Messages
 
-The following code example is a function that is called when the trackbar's parent window receives a [**WM\_HSCROLL**](wm-hscroll.md) message. The trackbar in this example has the [**TBS\_ENABLESELRANGE**](https://www.bing.com/search?q=**TBS\_ENABLESELRANGE**) style. The position of the slider is compared to the selection range, and the slider is moved to the starting or ending position of the selection range when necessary.
+The following code example is a function that is called when the trackbar's parent window receives a [**WM\_HSCROLL**](wm-hscroll.md) message. The trackbar in this example has the [**TBS\_ENABLESELRANGE**](trackbar-control-styles.md#tbs-enableselrange) style. The position of the slider is compared to the selection range, and the slider is moved to the starting or ending position of the selection range when necessary.
 
 
 ```
@@ -73,7 +73,7 @@ VOID WINAPI TBNotifications(
 
 ## Remarks
 
-A dialog box that contains a [**TBS\_VERT**](https://www.bing.com/search?q=**TBS\_VERT**) style trackbar can use this function when it receives a [**WM\_VSCROLL**](wm-vscroll.md) message.
+A dialog box that contains a [**TBS\_VERT**](trackbar-control-styles.md#tbs-vert) style trackbar can use this function when it receives a [**WM\_VSCROLL**](wm-vscroll.md) message.
 
 ## Related topics
 

@@ -17,7 +17,7 @@ The following properties are defined by the [**ICertSrvSetup**](/windows/desktop
 
 | Property                                             | Description                                                                                                                                                                                                  |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CAErrorId**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-get_caerrorid)         | Gets the ID for additional error information related to a failed [*certification authority*](https://www.bing.com/search?q=*certification authority*) (CA) specification. |
+| [**CAErrorId**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-get_caerrorid)         | Gets the ID for additional error information related to a failed [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA) specification. |
 | [**CAErrorString**](/windows/desktop/api/Casetup/nf-casetup-icertsrvsetup-get_caerrorstring) | Gets the string data for additional error information related to a failed CA specification.                                                                                                                  |
 
 

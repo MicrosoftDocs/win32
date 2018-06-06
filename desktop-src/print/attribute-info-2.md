@@ -129,7 +129,7 @@ One of the following bit flag values:
 
 The EMF print processor uses the flag specified for **dwColorOptimization** to determine whether to request GDI to perform monochrome color optimization. If monochrome color optimization is enabled, the print job can be switched between monochrome and color rendering as appropriate.
 
-If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the **dwColorOptimization** member is set to COLOR\_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv \***ChangeColorModeOnDoc?** color attribute (see [Color Attributes](https://www.bing.com/search?q=Color Attributes)), and by the [**GdiEndPageEMF**](gdiendpageemf.md) function.
+If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the **dwColorOptimization** member is set to COLOR\_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv \***ChangeColorModeOnDoc?** color attribute (see [Color Attributes](https://www.bing.com/search?q=Color+Attributes)), and by the [**GdiEndPageEMF**](gdiendpageemf.md) function.
 
 For more information about other structure members, see [**ATTRIBUTE\_INFO\_1**](attribute-info-1.md).
 

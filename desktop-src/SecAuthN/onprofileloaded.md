@@ -59,7 +59,7 @@ If the function fails, the function returns a nonzero error code that is a provi
 
 ## Remarks
 
-This function is called each time the [**LoadUserProfile**](https://msdn.microsoft.com/windows/desktop/9ec1f8f2-8f20-4d38-9d41-70315b890336) function is called. It is not synchronized with **LoadUserProfile**; that is, **LoadUserProfile** might have returned and the profile might have been unloaded by the time the function was called. This function can be called more than once even when the profile has been loaded. The identity provider must not assume that a call to this function with *Loaded* equal to TRUE will be followed by a call with *Loaded* equal to FALSE.
+This function is called each time the [**LoadUserProfile**](https://msdn.microsoft.com/9ec1f8f2-8f20-4d38-9d41-70315b890336) function is called. It is not synchronized with **LoadUserProfile**; that is, **LoadUserProfile** might have returned and the profile might have been unloaded by the time the function was called. This function can be called more than once even when the profile has been loaded. The identity provider must not assume that a call to this function with *Loaded* equal to TRUE will be followed by a call with *Loaded* equal to FALSE.
 
 ## Requirements
 

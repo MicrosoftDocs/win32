@@ -55,9 +55,9 @@ BOOL APIENTRY OEMRealizeBrush(
 
 ### Comments
 
-See [**DrvRealizeBrush**](https://www.bing.com/search?q=**DrvRealizeBrush**).
+See [**DrvRealizeBrush**](https://msdn.microsoft.com/2948f274-cef2-4fcf-9607-79540b6e5a5f).
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the drawing DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvRealizeBrush** function pointer.
 

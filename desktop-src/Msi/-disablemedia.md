@@ -17,7 +17,7 @@ Setting the [**DISABLEMEDIA**](disablemedia.md) property prevents the installer 
 
 Note that the [**DISABLEMEDIA**](disablemedia.md) property has a different effect than setting the DisableMedia policy. Setting **DISABLEMEDIA** prevents the registration of any media source, and this also prevents the first time installation of an application from a media sources.
 
-For details about securing the media sources of [*managed application*](https://www.bing.com/search?q=*managed application*) against browsing and installation by non-administrative users, see [Source Resiliency](source-resiliency.md).
+For details about securing the media sources of [*managed application*](m-gly.md#-msi-managed-application-gly) against browsing and installation by non-administrative users, see [Source Resiliency](source-resiliency.md).
 
 ## Requirements
 

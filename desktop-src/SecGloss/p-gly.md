@@ -19,21 +19,21 @@ ms.date: 05/31/2018
 <span id="_security_padding_gly"></span><span id="_SECURITY_PADDING_GLY"></span>**padding**
 </dt> <dd>
 
-A string, typically added when the last plaintext block is short. For example, if the block length is 64 bits and the last block contains only 40 bits, then 24 bits of padding must be added to the last block. The padding string may contain zeros, alternating zeros and ones, or some other pattern. Applications that use [*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) need not add padding to their plaintext before it is encrypted, nor do they have to remove it after decrypting. This is all handled automatically.
+A string, typically added when the last plaintext block is short. For example, if the block length is 64 bits and the last block contains only 40 bits, then 24 bits of padding must be added to the last block. The padding string may contain zeros, alternating zeros and ones, or some other pattern. Applications that use [*CryptoAPI*](c-gly.md#-security-cryptoapi-gly) need not add padding to their plaintext before it is encrypted, nor do they have to remove it after decrypting. This is all handled automatically.
 
 </dd> <dt>
 
 <span id="_security_password_filter_gly"></span><span id="_SECURITY_PASSWORD_FILTER_GLY"></span>**password filter**
 </dt> <dd>
 
-A DLL that provides password policy enforcement and change notification. The functions implemented by password filters are called by the [*Local Security Authority*](https://www.bing.com/search?q=*Local Security Authority*).
+A DLL that provides password policy enforcement and change notification. The functions implemented by password filters are called by the [*Local Security Authority*](l-gly.md#-security-local-security-authority-gly).
 
 </dd> <dt>
 
 <span id="_security_persistent_storage_gly"></span><span id="_SECURITY_PERSISTENT_STORAGE_GLY"></span>**persistent storage**
 </dt> <dd>
 
-Any storage medium that remains intact when the power to it is disconnected. Many [*certificate store*](https://www.bing.com/search?q=*certificate store*) databases are forms of persistent storage.
+Any storage medium that remains intact when the power to it is disconnected. Many [*certificate store*](c-gly.md#-security-certificate-store-gly) databases are forms of persistent storage.
 
 </dd> <dt>
 
@@ -56,14 +56,14 @@ The recommended standards for the implementation of public-key cryptography base
 
 The Personal Information Exchange Syntax Standard, developed and maintained by RSA Data Security, Inc. This syntax standard specifies a portable format for storing or transporting a user's private keys, certificates, and miscellaneous secrets.
 
-See also [*certificate*](https://www.bing.com/search?q=*certificate*) and *Public Key Cryptography Standards*.
+See also [*certificate*](c-gly.md#-security-certificate-gly) and *Public Key Cryptography Standards*.
 
 </dd> <dt>
 
 <span id="_security_pkcs_7_signed_data_gly"></span><span id="_SECURITY_PKCS_7_SIGNED_DATA_GLY"></span>**PKCS \#7 Signed Data**
 </dt> <dd>
 
-A data object that is signed with the Public Key Cryptography Standard \#7 (PKCS \#7) and that encapsulates the information used to sign a file. Typically, it includes the signer's certificate and the [*root certificate*](https://www.bing.com/search?q=*root certificate*).
+A data object that is signed with the Public Key Cryptography Standard \#7 (PKCS \#7) and that encapsulates the information used to sign a file. Typically, it includes the signer's certificate and the [*root certificate*](r-gly.md#-security-root-certificate-gly).
 
 </dd> <dt>
 
@@ -77,7 +77,7 @@ The Cryptographic Message Syntax Standard. A general syntax for data to which cr
 <span id="_security_pkcs_7_asn_encoding_gly"></span><span id="_SECURITY_PKCS_7_ASN_ENCODING_GLY"></span>**PKCS\_7\_ASN\_ENCODING**
 </dt> <dd>
 
-A [*message encoding type*](https://www.bing.com/search?q=*message encoding type*). Message encoding types are stored in the high-order word of a **DWORD** (value is: 0x00010000).
+A [*message encoding type*](m-gly.md#-security-message-encoding-type-gly). Message encoding types are stored in the high-order word of a **DWORD** (value is: 0x00010000).
 
 </dd> <dt>
 
@@ -107,7 +107,7 @@ See *Pseudo-Random Function*.
 
 The MsV1\_0 authentication package defines a primary credential key string value: The primary credentials string holds the credentials provided at initial logon time. It includes the user name and both case-sensitive and case-insensitive forms of the user's password.
 
-See also [*supplemental credentials*](https://www.bing.com/search?q=*supplemental credentials*).
+See also [*supplemental credentials*](s-gly.md#-security-supplemental-credentials-gly).
 
 </dd> <dt>
 
@@ -123,14 +123,14 @@ The service provider that supplies the control interfaces to the card. Each smar
 
 An access token that is typically created only by the Windows kernel. It may be assigned to a process to represent the default security information for that process.
 
-See also [*access token*](https://www.bing.com/search?q=*access token*) and [*impersonation token*](https://www.bing.com/search?q=*impersonation token*).
+See also [*access token*](a-gly.md#-security-access-token-gly) and [*impersonation token*](i-gly.md#-security-impersonation-token-gly).
 
 </dd> <dt>
 
 <span id="_security_principal_gly"></span><span id="_SECURITY_PRINCIPAL_GLY"></span>**principal**
 </dt> <dd>
 
-See [*security principal*](https://www.bing.com/search?q=*security principal*).
+See [*security principal*](s-gly.md#-security-security-principal-gly).
 
 </dd> <dt>
 
@@ -272,7 +272,7 @@ Predefined provider type that supports the Secure Sockets Layer (SSL) protocol. 
 <span id="_security_provider_gly"></span><span id="_SECURITY_PROVIDER_GLY"></span>**provider**
 </dt> <dd>
 
-See [*Cryptographic Service Provider*](https://www.bing.com/search?q=*Cryptographic Service Provider*).
+See [*Cryptographic Service Provider*](c-gly.md#-security-cryptographic-service-provider-gly).
 
 </dd> <dt>
 
@@ -302,7 +302,7 @@ A term used to identify a type of cryptographic service provider (CSP). CSPs are
 
 A set of cryptographic keys used for public key cryptography. For each user, a CSP usually maintains two public/private key pairs: an exchange key pair and a digital signature key pair. Both key pairs are maintained from session to session.
 
-See [*exchange key pair*](https://www.bing.com/search?q=*exchange key pair*) and [*signature key pair*](https://www.bing.com/search?q=*signature key pair*).
+See [*exchange key pair*](e-gly.md#-security-exchange-key-pair-gly) and [*signature key pair*](s-gly.md#-security-signature-key-pair-gly).
 
 </dd> <dt>
 

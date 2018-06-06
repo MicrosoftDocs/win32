@@ -37,7 +37,7 @@ Constructs instances of the [**XMFLOAT3PK**](/windows/desktop/api/DirectXPackedV
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT3PK ()</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3PK ()</strong>)</td>
+<td style="text-align: left;">[<strong>XMFLOAT3PK ()</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3PK+()</strong>)</td>
 <td style="text-align: left;">Default constructor for <code>XMFLOAT3PK</code>.<br/> Default constructor for [<strong>XMFLOAT3PK</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk).<br/>
 <blockquote>
 [!Note]<br />
@@ -46,7 +46,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT3PK (uint32_t)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3PK (uint32_t)</strong>)</td>
+<td style="text-align: left;">[<strong>XMFLOAT3PK (uint32_t)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3PK+(uint32_t)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3PK</code> from a <code>uint32_t</code> variable containing component data in a packed format.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3PK</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk) from a <code>uint32_t</code> variable containing component data in a packed format.<br/>
 <blockquote>
 [!Note]<br />
@@ -55,7 +55,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT3PK (const float*)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3PK (const float*)</strong>)</td>
+<td style="text-align: left;">[<strong>XMFLOAT3PK (const float*)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3PK+(const+float*)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3PK</code> from a three element <code>float</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3PK</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk) from a three element <code>float</code> array argument.<br/>
 <blockquote>
 [!Note]<br />
@@ -64,7 +64,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT3PK (float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3PK (float,float,float)</strong>)</td>
+<td style="text-align: left;">[<strong>XMFLOAT3PK (float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3PK+(float,float,float)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3PK</code> from three <code>float</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3PK</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk) from three <code>float</code> arguments.<br/>
 <blockquote>
 [!Note]<br />

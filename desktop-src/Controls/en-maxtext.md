@@ -23,9 +23,9 @@ ms.date: 05/31/2018
 
 Sent when the current text insertion has exceeded the specified number of characters for the edit control. The text insertion has been truncated.
 
-This notification code is also sent when an edit control does not have the [**ES\_AUTOHSCROLL**](https://www.bing.com/search?q=**ES\_AUTOHSCROLL**) style and the number of characters to be inserted would exceed the width of the edit control.
+This notification code is also sent when an edit control does not have the [**ES\_AUTOHSCROLL**](edit-control-styles.md#es-autohscroll) style and the number of characters to be inserted would exceed the width of the edit control.
 
-This notification code is also sent when an edit control does not have the [**ES\_AUTOVSCROLL**](https://www.bing.com/search?q=**ES\_AUTOVSCROLL**) style and the total number of lines resulting from a text insertion would exceed the height of the edit control.
+This notification code is also sent when an edit control does not have the [**ES\_AUTOVSCROLL**](edit-control-styles.md#es-autovscroll) style and the total number of lines resulting from a text insertion would exceed the height of the edit control.
 
 The parent window of the edit control receives this notification code through a [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.
 

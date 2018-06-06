@@ -48,7 +48,7 @@ Pointer to the first byte of a Unicode string that contains either the device na
 **pdm**
 </dt> <dd>
 
-Pointer to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure passed to either CreateIC or CreateDC (both described in the Microsoft Windows SDK documentation). This member can be **NULL**.
+Pointer to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure passed to either CreateIC or CreateDC (both described in the Microsoft Windows SDK documentation). This member can be **NULL**.
 
 </dd> <dt>
 

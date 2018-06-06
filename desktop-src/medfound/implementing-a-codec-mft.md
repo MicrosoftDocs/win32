@@ -26,8 +26,8 @@ This topic provides some guidelines for implementing a decoder or encoder as a M
 
 The following procedure is used to initialize an encoder:
 
-1.  Query the MFT for the [**ICodecAPI**](https://msdn.microsoft.com/windows/desktop/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) interface.
-2.  Call [**ICodecAPI::SetValue**](https://msdn.microsoft.com/windows/desktop/e78a310a-3605-4cb3-a0c3-7864c890c1fa) to set encoding properties.
+1.  Query the MFT for the [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) interface.
+2.  Call [**ICodecAPI::SetValue**](https://msdn.microsoft.com/e78a310a-3605-4cb3-a0c3-7864c890c1fa) to set encoding properties.
 3.  Call [**IMFTransform::SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype) to set the encoding format.
 4.  Call [**IMFTransform::GetInputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputavailabletype) to get a list of compatible input types. (This step might be skipped.)
 5.  Call [**IMFTransform::SetInputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setinputtype) to set the uncompressed input format.

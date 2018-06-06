@@ -45,7 +45,7 @@ For more information about the general syntax of a control statement, see [Commo
 [**AUTOCHECKBOX**](autocheckbox-control.md)
 </dt> <dt>
 
-[Check Boxes](https://www.bing.com/search?q=Check Boxes)
+[Check Boxes](_win32_Button_Types_and_Styles#check-boxes)
 </dt> <dt>
 
 [**CHECKBOX**](checkbox-control.md)

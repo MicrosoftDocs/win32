@@ -22,7 +22,7 @@ Applications that sign and verify XML digital signatures should be written accor
 
 ## Verify trust of the signing key
 
-Ensure that the signing key is trusted by verifying the corresponding [*X.509*](https://www.bing.com/search?q=*X.509*) certificate (and certificate chain) included in the signed message. Alternately, trust in the signing key can be established in an out-of-band fashion, such as an administrator configuring a set of trusted keys, or an application querying a trusted service over a secure channel.
+Ensure that the signing key is trusted by verifying the corresponding [*X.509*](security.x_gly#-security-x-509-gly) certificate (and certificate chain) included in the signed message. Alternately, trust in the signing key can be established in an out-of-band fashion, such as an administrator configuring a set of trusted keys, or an application querying a trusted service over a secure channel.
 
 ## First verify the signing key and validate SignedInfo, then validate references
 

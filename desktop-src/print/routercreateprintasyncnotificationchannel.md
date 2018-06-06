@@ -81,7 +81,7 @@ A pointer to a variable that receives the address of the interface object that r
 
 ## Remarks
 
-In some cases, you must release the channel that you created with the `RouterCreatePrintAsyncNotificationChannel` function by calling **Release** on IPrintAsyncNotifyChannel. For information about when to release a channel, see [Notification Channel](https://www.bing.com/search?q=Notification Channel).
+In some cases, you must release the channel that you created with the `RouterCreatePrintAsyncNotificationChannel` function by calling **Release** on IPrintAsyncNotifyChannel. For information about when to release a channel, see [Notification Channel](https://www.bing.com/search?q=Notification+Channel).
 
 ## Requirements
 

@@ -103,7 +103,7 @@ if (ChooseFont(&amp;cf)==TRUE)
 ## Opening a File
 
 > [!Note]  
-> Starting with Windows Vista, the Common File Dialog has been superseded by the Common Item Dialog when used to open a file. We recommend that you use the Common Item Dialog API instead of the Common File Dialog API. For more information, see [Common Item Dialog](https://www.bing.com/search?q=Common Item Dialog).
+> Starting with Windows Vista, the Common File Dialog has been superseded by the Common Item Dialog when used to open a file. We recommend that you use the Common Item Dialog API instead of the Common File Dialog API. For more information, see [Common Item Dialog](https://www.bing.com/search?q=Common+Item+Dialog).
 
  
 

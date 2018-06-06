@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 This section contains information about the constants used with .x files.
 
 -   [D3DXF](d3dxf.md)
--   [**D3DXFERR Return Values**](https://msdn.microsoft.com/windows/desktop/b1d04fab-25cb-431d-942e-74092bc9c5c2)
+-   [**D3DXFERR Return Values**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxferr_return_values.htm)
 
 ## Related topics
 

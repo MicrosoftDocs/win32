@@ -32,9 +32,9 @@ This section describes how tooltip controls work and how you create them.
 
 Tooltip controls can display a single line of text or multiple lines. Their corners can be rounded or square. They might or might not have a stem that points to the tools like a cartoon speech balloon. Tooltip text can be stationary or can move with the mouse pointer, called tracking. Stationary text can be displayed adjacent to a tool or it can be displayed over a tool, which is referred to as in-place. Standard tooltips are stationary, display a single line of text, have square corners, and have no stem pointing to the tool.
 
-Tracking tooltips, which are supported by [version 4.70](common-control-versions.md) of the common controls, change position on the screen dynamically. By rapidly updating the position, these tooltip controls appear to move smoothly, or "track." These are useful when you want tooltip text to follow the position of the mouse pointer as it moves. For more information about tracking tooltips and an example with code that shows how you create them, see [Tracking Tooltips](https://www.bing.com/search?q=Tracking Tooltips).
+Tracking tooltips, which are supported by [version 4.70](common-control-versions.md) of the common controls, change position on the screen dynamically. By rapidly updating the position, these tooltip controls appear to move smoothly, or "track." These are useful when you want tooltip text to follow the position of the mouse pointer as it moves. For more information about tracking tooltips and an example with code that shows how you create them, see [Tracking Tooltips](using-tooltip-contro.md#tooltip-sample-tracking).
 
-Multiline tooltips, which are also supported by version 4.70 of the common controls, display text on more than one line. These are useful for displaying lengthy messages. For more information and an example that shows how to create multiline tooltips, see [Multiline Tooltips](https://www.bing.com/search?q=Multiline Tooltips).
+Multiline tooltips, which are also supported by version 4.70 of the common controls, display text on more than one line. These are useful for displaying lengthy messages. For more information and an example that shows how to create multiline tooltips, see [Multiline Tooltips](using-tooltip-contro.md#tooltip-sample-multiline).
 
 Balloon tooltips are displayed in a box with rounded corners and a stem pointing to the tool. They can be either single-line or multiline. The following illustration shows a balloon tooltip with the stem and rectangle in their default positions. For more information about balloon tooltips and an example that shows how to create them, see [Using Tooltip Controls](using-tooltip-contro.md).
 
@@ -44,7 +44,7 @@ A tooltip can also have title text and an icon, as shown in the following illust
 
 ![screen shot showing a tooltip with an icon, title, and text, positioned below a button on a dialog box](images/tt-titled.png)
 
-Sometimes text strings are clipped because they are too long to be displayed completely in a small window. In-place tooltips are used to display text strings for objects that have been clipped, such as the file name in the following illustration. For an example that shows how to create in-place tooltips, see [In-Place Tooltips](https://www.bing.com/search?q=In-Place Tooltips).
+Sometimes text strings are clipped because they are too long to be displayed completely in a small window. In-place tooltips are used to display text strings for objects that have been clipped, such as the file name in the following illustration. For an example that shows how to create in-place tooltips, see [In-Place Tooltips](using-tooltip-contro.md#tooltip-sample-inplace).
 
 ![screen shot showing a tooltip containing a file name positioned next to a file icon in a tree control](images/tt-inplace.png)
 
@@ -52,7 +52,7 @@ The cursor must hover over a tool for a period of time before the tooltip is dis
 
 ## Creating Tooltip Controls
 
-To create a tooltip control, call [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) and specify the [**TOOLTIPS\_CLASS**](https://www.bing.com/search?q=**TOOLTIPS\_CLASS**) window class. This class is registered when the common control DLL is loaded. To ensure that this DLL is loaded, include the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function in your application. You must explicitly define a tooltip control as topmost. Otherwise, it might be covered by the parent window. The following code fragment shows how to create a tooltip control.
+To create a tooltip control, call [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) and specify the [**TOOLTIPS\_CLASS**](common-control-window-classes.md#tooltips-class) window class. This class is registered when the common control DLL is loaded. To ensure that this DLL is loaded, include the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function in your application. You must explicitly define a tooltip control as topmost. Otherwise, it might be covered by the parent window. The following code fragment shows how to create a tooltip control.
 
 
 ```
@@ -96,7 +96,7 @@ If you specify the LPSTR\_TEXTCALLBACK value in the **lpszText** member, the too
 
  
 
-Many applications create toolbars containing tools that correspond to menu commands. For such tools, it is convenient for the tooltip control to display the same text as the corresponding menu item. The system automatically strips the ampersand (&) accelerator characters from all strings passed to a tooltip control, and terminates the string at the first tab character (\\t), unless the control has the [**TTS\_NOPREFIX**](https://www.bing.com/search?q=**TTS\_NOPREFIX**) style.
+Many applications create toolbars containing tools that correspond to menu commands. For such tools, it is convenient for the tooltip control to display the same text as the corresponding menu item. The system automatically strips the ampersand (&) accelerator characters from all strings passed to a tooltip control, and terminates the string at the first tab character (\\t), unless the control has the [**TTS\_NOPREFIX**](tooltip-styles.md#tts-noprefix) style.
 
 To retrieve the text for a tool, use the [**TTM\_GETTEXT**](ttm-gettext.md) message.
 
@@ -111,7 +111,7 @@ You can have messages relayed automatically if:
 
 If these two conditions are met, set the **TTF\_SUBCLASS** flag in the **uFlags** member of the tool's [**TOOLINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtoolinfoa) structure when you add the tool to the tooltip control with [**TTM\_ADDTOOL**](ttm-addtool.md). The necessary mouse messages then will be relayed automatically to the tooltip control.
 
-Setting **TTF\_SUBCLASS** to have mouse messages relayed to the control is sufficient for most purposes. However, it will not work in cases where there is no direct connection between the tooltip control and the tool's window. For example, if a tool is implemented as a rectangular area in an application-defined window, the window procedure receives the mouse messages. Setting **TTF\_SUBCLASS** is sufficient to ensure that they are passed to the control. However, if a tool is implemented as a system-defined window, mouse messages are sent to that window and are not directly available to the application. In this case, you must either subclass the window or use a message hook to access the mouse messages. You must then explicitly relay mouse messages to the tooltip control with [**TTM\_RELAYEVENT**](ttm-relayevent.md). For an example of how to use **TTM\_RELAYEVENT**, see [Tracking Tooltips](https://www.bing.com/search?q=Tracking Tooltips).
+Setting **TTF\_SUBCLASS** to have mouse messages relayed to the control is sufficient for most purposes. However, it will not work in cases where there is no direct connection between the tooltip control and the tool's window. For example, if a tool is implemented as a rectangular area in an application-defined window, the window procedure receives the mouse messages. Setting **TTF\_SUBCLASS** is sufficient to ensure that they are passed to the control. However, if a tool is implemented as a system-defined window, mouse messages are sent to that window and are not directly available to the application. In this case, you must either subclass the window or use a message hook to access the mouse messages. You must then explicitly relay mouse messages to the tooltip control with [**TTM\_RELAYEVENT**](ttm-relayevent.md). For an example of how to use **TTM\_RELAYEVENT**, see [Tracking Tooltips](using-tooltip-contro.md#tooltip-sample-tracking).
 
 When a tooltip control receives a [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616) message, it determines whether the mouse pointer is in the bounding rectangle of a tool. If it is, the tooltip control sets a timer. At the end of the time-out interval, the tooltip control checks the position of the pointer to see if it has moved. If it hasn't, the tooltip control retrieves the text for the tool and displays the tooltip. The tooltip control continues to show the window until it receives a relayed button-up or button-down message or until a **WM\_MOUSEMOVE** message indicates that the pointer has moved outside the bounding rectangle of the tool.
 

@@ -57,7 +57,7 @@ DEFPUSHBUTTON "Cancel", 101, 10, 10, 24, 50
 
 <dl> <dt>
 
-[Push Buttons](https://www.bing.com/search?q=Push Buttons)
+[Push Buttons](_win32_Button_Types_and_Styles#push-buttons)
 </dt> <dt>
 
 [**PUSHBUTTON**](pushbutton-control.md)

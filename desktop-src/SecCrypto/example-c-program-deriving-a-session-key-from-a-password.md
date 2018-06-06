@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # Example C Program: Deriving a Session Key from a Password
 
-The following example demonstrates creating a [*session cryptographic key*](https://www.bing.com/search?q=*session cryptographic key*) from the [*hash*](https://www.bing.com/search?q=*hash*) of a password as well as the use of the function [**CryptDeriveKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey) and related functions.
+The following example demonstrates creating a [*session cryptographic key*](security.s_gly#-security-session-key-gly) from the [*hash*](security.h_gly#-security-hash-gly) of a password as well as the use of the function [**CryptDeriveKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey) and related functions.
 
 This example illustrates the following tasks and CryptoAPI functions:
 
--   Calling [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) to acquiring a handle for the default CSP and the default [*key container*](https://www.bing.com/search?q=*key container*).
+-   Calling [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) to acquiring a handle for the default CSP and the default [*key container*](security.k_gly#-security-key-container-gly).
 -   Using [**CryptCreateHash**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash) to create an empty hash object.
 -   Hashing the text of a password using [**CryptHashData**](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashdata).
 -   Deriving a session key from the hashed password using [**CryptDeriveKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey).

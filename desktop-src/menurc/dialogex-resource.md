@@ -244,7 +244,7 @@ Control identifier. For more information, see [Common Control Parameters](common
 
 <dl> <dt>
 
-[Using Dialog Boxes](https://www.bing.com/search?q=Using Dialog Boxes)
+[Using Dialog Boxes](https://www.bing.com/search?q=Using+Dialog+Boxes)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)

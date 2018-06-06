@@ -47,18 +47,18 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the surface 
 **Type**
 </dt> <dd>
 
-Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/windows/desktop/6b360fb1-4a5a-47a2-bef9-d8234770bf0c)**
+Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dresourcetype.htm)**
 
 </dd> <dd>
 
-Member of the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/windows/desktop/6b360fb1-4a5a-47a2-bef9-d8234770bf0c) enumerated type, identifying this resource as a vertex buffer.
+Member of the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dresourcetype.htm) enumerated type, identifying this resource as a vertex buffer.
 
 </dd> <dt>
 
 **Usage**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -69,18 +69,18 @@ Combination of one or more [**D3DUSAGE**](d3dusage.md) flags.
 **Pool**
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/windows/desktop/29720b5f-16d7-4bd9-a7bd-e4dbfb00070b)**
+Type: **[**D3DPOOL**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm)**
 
 </dd> <dd>
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/windows/desktop/29720b5f-16d7-4bd9-a7bd-e4dbfb00070b) enumerated type, specifying the class of memory allocated for this vertex buffer.
+Member of the [**D3DPOOL**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm) enumerated type, specifying the class of memory allocated for this vertex buffer.
 
 </dd> <dt>
 
 **Size**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -91,7 +91,7 @@ Size of the vertex buffer, in bytes.
 **FVF**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 

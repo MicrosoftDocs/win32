@@ -53,7 +53,7 @@ Handle to the combo box.
 
 ## Remarks
 
-In a combo box with the [**CBS\_SIMPLE**](https://www.bing.com/search?q=**CBS\_SIMPLE**) style, the CBN\_SELENDOK notification code is sent immediately before every [CBN\_SELCHANGE](cbn-selchange.md) notification code.
+In a combo box with the [**CBS\_SIMPLE**](combo-box-styles.md#cbs-simple) style, the CBN\_SELENDOK notification code is sent immediately before every [CBN\_SELCHANGE](cbn-selchange.md) notification code.
 
 ## Requirements
 

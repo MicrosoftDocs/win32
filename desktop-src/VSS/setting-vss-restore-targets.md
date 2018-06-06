@@ -15,7 +15,7 @@ The [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent)
 
 Because it is possible that the system configuration during restore is something other than that anticipated during backup, the restore target mechanism is provided.
 
-It allows writers to call [**IVssComponent::SetRestoreTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setrestoretarget) to change how those components that are [*explicitly included*](https://www.bing.com/search?q=*explicitly included*) in the Backup Components Document are restored. This also changes the restoration mechanism used on those components that are [*implicitly included*](https://www.bing.com/search?q=*implicitly included*).
+It allows writers to call [**IVssComponent::SetRestoreTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setrestoretarget) to change how those components that are [*explicitly included*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion) in the Backup Components Document are restored. This also changes the restoration mechanism used on those components that are [*implicitly included*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion).
 
 File restoration that takes place during a system reboot (under the [**VSS\_RESTOREMETHOD\_ENUM**](/windows/desktop/api/VsWriter/ne-vswriter-vss_restoremethod_enum) enumeration values VSS\_RME\_RESTORE\_AT\_REBOOT and VSS\_RME\_RESTORE\_AT\_REBOOT\_IF\_CANNOT\_REPLACE) cannot be affected by restore targets because there are no running VSS services when **MoveFileEx** copies files to their final location.
 

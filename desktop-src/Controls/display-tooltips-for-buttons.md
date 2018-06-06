@@ -11,12 +11,12 @@ ms.date: 05/31/2018
 
 # How to Display Tooltips for Buttons
 
-When you specify the [**TBSTYLE\_TOOLTIPS**](https://www.bing.com/search?q=**TBSTYLE\_TOOLTIPS**) style, the toolbar creates and manages a tooltip control. The tooltip control is hidden and appears only when users move the pointer over a toolbar button and leave it there for approximately one second.
+When you specify the [**TBSTYLE\_TOOLTIPS**](toolbar-control-and-button-styles.md#tbstyle-tooltips) style, the toolbar creates and manages a tooltip control. The tooltip control is hidden and appears only when users move the pointer over a toolbar button and leave it there for approximately one second.
 
 Your application can supply text to the tooltip control in any one of the following ways:
 
 -   Set the tooltip text as the **iString** member of the [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton) structure for each button. You must also send a [**TB\_SETMAXTEXTROWS**](tb-setmaxtextrows.md) message and set the maximum text rows to 0, so that the text does not appear as the button label rather than as a tooltip.
--   Create the toolbar with the [**TBSTYLE\_LIST**](https://www.bing.com/search?q=**TBSTYLE\_LIST**) style and then set the [**TBSTYLE\_EX\_MIXEDBUTTONS**](https://www.bing.com/search?q=**TBSTYLE\_EX\_MIXEDBUTTONS**) extended style. Labels are shown only for buttons that have the [**BTNS\_SHOWTEXT**](https://www.bing.com/search?q=**BTNS\_SHOWTEXT**) style. For buttons that do not have this style, a tooltip is shown that contains the button text.
+-   Create the toolbar with the [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md#tbstyle-list) style and then set the [**TBSTYLE\_EX\_MIXEDBUTTONS**](toolbar-extended-styles.md#tbstyle-ex-mixedbuttons) extended style. Labels are shown only for buttons that have the [**BTNS\_SHOWTEXT**](toolbar-control-and-button-styles.md#btns-showtext) style. For buttons that do not have this style, a tooltip is shown that contains the button text.
 -   Respond to the [TTN\_GETDISPINFO](ttn-getdispinfo.md) notification code.
 -   Respond to the [TBN\_GETINFOTIP](tbn-getinfotip.md) notification code.
 

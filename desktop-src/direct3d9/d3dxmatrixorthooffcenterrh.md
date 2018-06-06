@@ -39,14 +39,14 @@ D3DXMATRIX* D3DXMatrixOrthoOffCenterRH(
 
 Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
 
-Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/windows/desktop/c354d28b-bb08-41c5-bb59-90a912181f0f).
+Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3d10_d3dxmatrix.htm).
 
 </dd> <dt>
 
 *l* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Minimum x-value of view volume.
 
@@ -55,7 +55,7 @@ Minimum x-value of view volume.
 *r* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Maximum x-value of view volume.
 
@@ -64,7 +64,7 @@ Maximum x-value of view volume.
 *b* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Minimum y-value of view volume.
 
@@ -73,7 +73,7 @@ Minimum y-value of view volume.
 *t* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Maximum y-value of view volume.
 
@@ -82,7 +82,7 @@ Maximum y-value of view volume.
 *zn* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Minimum z-value of the view volume.
 
@@ -91,7 +91,7 @@ Minimum z-value of the view volume.
 *zf* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Maximum z-value of the view volume.
 
@@ -101,7 +101,7 @@ Maximum z-value of the view volume.
 
 Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
 
-Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/windows/desktop/c354d28b-bb08-41c5-bb59-90a912181f0f).
+Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3d10_d3dxmatrix.htm).
 
 ## Remarks
 

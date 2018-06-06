@@ -63,7 +63,7 @@ Is obsolete, and must be set to 0.
 
 When the [**XcvData**](https://www.bing.com/search?q=**XcvData**) function is called to delete a port, its *pInputData* parameter must be set with the address of a DELETE\_PORT\_DATA\_1 structure. Set this function's *pszDataName* parameter to the string L"DeletePort".
 
-See [TCPMON Xcv Interface](https://www.bing.com/search?q=TCPMON Xcv Interface) for more information.
+See [TCPMON Xcv Interface](https://www.bing.com/search?q=TCPMON+Xcv+Interface) for more information.
 
 ## Requirements
 

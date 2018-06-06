@@ -32,7 +32,7 @@ HRESULT RobustMeshRefine(
 *MinEdgeLength* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Minimum face edge length that will be generated in adaptive sampling. If zero, a reasonable default value will be substituted.
 
@@ -41,7 +41,7 @@ Minimum face edge length that will be generated in adaptive sampling. If zero, a
 *MaxSubdiv* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Maximum level of subdivision of a face that will be used in adaptive sampling. If zero, a default value of 5 will be substituted.
 

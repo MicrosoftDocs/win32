@@ -53,7 +53,7 @@ If the function is unsuccessful (that is, if *hCapture* is invalid, or the frame
 
 Use the **GetFrame** function to obtain the frame handle needed when locating instances of a property. The functions used to locate property instances are [FindPropertyInstance](findpropertyinstance.md) which locates the first instance, and [FindPropertyInstanceRestart](findpropertyinstancerestart.md) which locates the next instance.
 
-[*Experts*](https://www.bing.com/search?q=*Experts*) and [*parsers*](https://www.bing.com/search?q=*parsers*) can call the **GetFrame** function.
+[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetFrame** function.
 
 ## Requirements
 

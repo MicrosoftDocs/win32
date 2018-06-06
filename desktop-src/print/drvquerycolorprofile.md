@@ -43,7 +43,7 @@ Caller-supplied printer handle.
 *pdevmode* \[in\]
 </dt> <dd>
 
-Caller-supplied pointer to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure.
+Caller-supplied pointer to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure.
 
 </dd> <dt>
 
@@ -103,9 +103,9 @@ If the operation succeeds, the function returns **TRUE**; otherwise, it returns 
 
 ## Remarks
 
-A [printer interface DLL](https://www.bing.com/search?q=printer interface DLL) can optionally provide a **DrvQueryColorProfile** function. If the function is provided, GDI calls it if ICM has been enabled for a print job. The function's purpose is to determine and specify an ICC profile that is appropriate for use with the print job.
+A [printer interface DLL](https://www.bing.com/search?q=printer+interface+DLL) can optionally provide a **DrvQueryColorProfile** function. If the function is provided, GDI calls it if ICM has been enabled for a print job. The function's purpose is to determine and specify an ICC profile that is appropriate for use with the print job.
 
-If a driver's printer interface DLL does not provide a **DrvQueryColorProfile** function, or if the function returns **FALSE**, GDI attempts to find a profile. For more information, see [Locating ICC Profiles](https://www.bing.com/search?q=Locating ICC Profiles).
+If a driver's printer interface DLL does not provide a **DrvQueryColorProfile** function, or if the function returns **FALSE**, GDI attempts to find a profile. For more information, see [Locating ICC Profiles](https://www.bing.com/search?q=Locating+ICC+Profiles).
 
 If the output buffer size specified by *pcbProfileData* is too small, the driver should overwrite the size value supplied by *pcbProfileData* with the required buffer size, call SetLastError(ERROR\_INSUFFICIENT\_BUFFER), and return **FALSE**.
 

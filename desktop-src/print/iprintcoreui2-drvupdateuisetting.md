@@ -89,7 +89,7 @@ This method must return one of the following values.
 
 ## Remarks
 
-This method is inherited from the [IPrintOemDriverUI COM Interface](https://www.bing.com/search?q=IPrintOemDriverUI COM Interface), and can be called only by Windows XP Pscript5 UI plug-ins that do not fully replace the core driver's standard UI pages, and is supported during the UI plug-in's [**IPrintOemUI::DocumentPropertySheets**](iprintoemui-documentpropertysheets.md) and [**IPrintOemUI::DevicePropertySheets**](iprintoemui-devicepropertysheets.md) functions, and their property sheet callback routines. When this method is supported, it has the same behavior as [**IPrintOemDriverUI::DrvUpdateUISetting**](iprintoemdriverui-drvupdateuisetting.md). When it is not supported, this method should return E\_NOTIMPL.
+This method is inherited from the [IPrintOemDriverUI COM Interface](https://www.bing.com/search?q=IPrintOemDriverUI+COM+Interface), and can be called only by Windows XP Pscript5 UI plug-ins that do not fully replace the core driver's standard UI pages, and is supported during the UI plug-in's [**IPrintOemUI::DocumentPropertySheets**](iprintoemui-documentpropertysheets.md) and [**IPrintOemUI::DevicePropertySheets**](iprintoemui-devicepropertysheets.md) functions, and their property sheet callback routines. When this method is supported, it has the same behavior as [**IPrintOemDriverUI::DrvUpdateUISetting**](iprintoemdriverui-drvupdateuisetting.md). When it is not supported, this method should return E\_NOTIMPL.
 
 ## Requirements
 

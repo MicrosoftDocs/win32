@@ -51,7 +51,7 @@ Returns one of the following values.
 
 ## Remarks
 
-**LVM\_ENABLEGROUPVIEW** is not supported under the [**LVS\_OWNERDATA**](https://www.bing.com/search?q=**LVS\_OWNERDATA**) style.
+**LVM\_ENABLEGROUPVIEW** is not supported under the [**LVS\_OWNERDATA**](list-view-window-styles.md#lvs-ownerdata) style.
 
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).

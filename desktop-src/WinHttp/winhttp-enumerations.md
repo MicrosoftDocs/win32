@@ -18,7 +18,7 @@ WinHTTP uses the following enumerations:
 [**WinHttpRequestAutoLogonPolicy**](winhttprequestautologonpolicy.md)
 </dt> <dd>
 
-Possible settings for the [Automatic Logon Policy](https://www.bing.com/search?q=Automatic Logon Policy).
+Possible settings for the [Automatic Logon Policy](authentication-in-winhttp.md#automatic-logon-policy).
 
 </dd> <dt>
 

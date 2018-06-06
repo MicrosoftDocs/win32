@@ -31,14 +31,14 @@ The DNS WMI Provider enables the administration of DNS Servers from the server i
 
 To illustrate how to implement those administration steps, examples are provided. The following tasks are linked to their associated scripting samples.
 
--   [Stopping a DNS Server](https://www.bing.com/search?q=Stopping a DNS Server)
--   [Starting a DNS Server](https://www.bing.com/search?q=Starting a DNS Server)
--   [Restarting a DNS Server](https://www.bing.com/search?q=Restarting a DNS Server)
--   [Adding an IP Address](https://www.bing.com/search?q=Adding an IP Address)
--   [Removing an IP Address](https://www.bing.com/search?q=Removing an IP Address)
--   [Listing DNS Server Properties](https://www.bing.com/search?q=Listing DNS Server Properties)
--   [Displaying DNS Server Property Types](https://www.bing.com/search?q=Displaying DNS Server Property Types)
--   [Modifying DNS Server Properties](https://www.bing.com/search?q=Modifying DNS Server Properties)
+-   [Stopping a DNS Server](dns-wmi-provider-samples-managing-a-dns-server.md#stop-start-or-restart-a-dns-server)
+-   [Starting a DNS Server](dns-wmi-provider-samples-managing-a-dns-server.md#stop-start-or-restart-a-dns-server)
+-   [Restarting a DNS Server](dns-wmi-provider-samples-managing-a-dns-server.md#stop-start-or-restart-a-dns-server)
+-   [Adding an IP Address](dns-wmi-provider-samples-managing-a-dns-server.md#add-an-ip-address)
+-   [Removing an IP Address](dns-wmi-provider-samples-managing-a-dns-server.md#delete-an-ip-address)
+-   [Listing DNS Server Properties](dns-wmi-provider-samples-managing-a-dns-server.md#list-dns-server-properties)
+-   [Displaying DNS Server Property Types](dns-wmi-provider-samples-managing-a-dns-server.md#list-dns-server-properties)
+-   [Modifying DNS Server Properties](dns-wmi-provider-samples-managing-a-dns-server.md#modify-dns-server-properties)
 
  
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Certificates.Count property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](https://www.bing.com/search?q=**X509Certificate2Collection Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](https://www.bing.com/search?q=**X509Certificate2Collection+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
 The **Count** property retrieves the number of [**Certificate**](certificate.md) objects in the collection.
 
@@ -30,7 +30,7 @@ The number of [**Certificate**](certificate.md) objects in the collection. Each 
 
 ## Remarks
 
-CAPICOM only supports a single certificate for the [*smart card*](https://www.bing.com/search?q=*smart card*) store. Even if the smart card store contains more than one certificate, this property will contain 1. For more information about the smart card store, see the **CAPICOM\_SMART\_CARD\_USER\_STORE** member of the [**CAPICOM\_STORE\_LOCATION**](capicom-store-location.md) enumeration.
+CAPICOM only supports a single certificate for the [*smart card*](security.s_gly#-security-smart-card-gly) store. Even if the smart card store contains more than one certificate, this property will contain 1. For more information about the smart card store, see the **CAPICOM\_SMART\_CARD\_USER\_STORE** member of the [**CAPICOM\_STORE\_LOCATION**](capicom-store-location.md) enumeration.
 
 ## Requirements
 

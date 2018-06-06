@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # SB\_GETTIPTEXT message
 
-Retrieves the tooltip text for a part in a status bar. The status bar must be created with the [**SBT\_TOOLTIPS**](https://www.bing.com/search?q=**SBT\_TOOLTIPS**) style to enable tooltips.
+Retrieves the tooltip text for a part in a status bar. The status bar must be created with the [**SBT\_TOOLTIPS**](status-bar-styles.md#sbt-tooltips) style to enable tooltips.
 
 ## Parameters
 

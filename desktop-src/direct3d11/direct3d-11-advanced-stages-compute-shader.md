@@ -19,7 +19,7 @@ Like other programmable shaders (vertex and geometry shaders for example), a com
 
 A compute shader on Microsoft Direct3D 10 is also known as [DirectCompute](http://go.microsoft.com/fwlink/p/?linkid=209544) 4.x.
 
-If you use the Direct3D 11 API and updated drivers, [feature level](https://www.bing.com/search?q=feature level) 10 and 10.1 Direct3D hardware can optionally support a limited form of [DirectCompute](http://go.microsoft.com/fwlink/p/?linkid=209544) that uses the cs\_4\_0 and cs\_4\_1 [profiles](https://msdn.microsoft.com/library/windows/desktop/bb509626#shader-profile). When you use [DirectCompute](http://go.microsoft.com/fwlink/p/?linkid=209544) on this hardware, keep the following limitations in mind:
+If you use the Direct3D 11 API and updated drivers, [feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 10 and 10.1 Direct3D hardware can optionally support a limited form of [DirectCompute](http://go.microsoft.com/fwlink/p/?linkid=209544) that uses the cs\_4\_0 and cs\_4\_1 [profiles](https://msdn.microsoft.com/library/windows/desktop/bb509626#shader-profile). When you use [DirectCompute](http://go.microsoft.com/fwlink/p/?linkid=209544) on this hardware, keep the following limitations in mind:
 
 -   The maximum number of threads is limited to D3D11\_CS\_4\_X\_THREAD\_GROUP\_MAX\_THREADS\_PER\_GROUP (768) per group.
 -   The X and Y dimension of **numthreads** is limited to D3D11\_CS\_4\_X\_THREAD\_GROUP\_MAX\_X (768) and D3D11\_CS\_4\_X\_THREAD\_GROUP\_MAX\_Y (768).
@@ -47,7 +47,7 @@ When you use [DirectCompute](http://go.microsoft.com/fwlink/p/?linkid=209544) wi
 -   The maximum number of unordered-access views that can be bound to a shader is D3D11\_PS\_CS\_UAV\_REGISTER\_COUNT (8).
 -   Supports [RWStructuredBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471494)s, [RWByteAddressBuffer](https://msdn.microsoft.com/library/windows/desktop/ff471475)s, and typed unordered-access views ([RWTexture1D](https://msdn.microsoft.com/library/windows/desktop/ff471499), [RWTexture2D](https://msdn.microsoft.com/library/windows/desktop/ff471505), [RWTexture3D](https://msdn.microsoft.com/library/windows/desktop/ff471511), and so on).
 -   Atomic instructions are available.
--   Double-precision support might be available. For information about how to determine whether double-precision is available, see [**D3D11\_FEATURE\_DOUBLES**](https://www.bing.com/search?q=**D3D11\_FEATURE\_DOUBLES**).
+-   Double-precision support might be available. For information about how to determine whether double-precision is available, see [**D3D11\_FEATURE\_DOUBLES**](d3d11-feature.md#d3d11-feature-doubles).
 
 ## In this section
 

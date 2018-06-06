@@ -124,10 +124,10 @@ The value of adding GUIDs for both operating systems in the above example is to 
 
 ## Links to Other Resources
 
--   [**QueryActCtxW Function**](https://msdn.microsoft.com/windows/desktop/7d45f63f-0baf-4236-b245-d36f9eb32e8c)
+-   [**QueryActCtxW Function**](https://msdn.microsoft.com/7d45f63f-0baf-4236-b245-d36f9eb32e8c)
 -   [UAC manifest](https://msdn.microsoft.com/windows/desktop/4cf5035b-eae8-42ea-9508-bb3974cef68b)
--   [Application manifests for Windows applications](https://msdn.microsoft.com/windows/desktop/c5016251-db7a-4edc-9be9-3acb03d495f8)
--   [Desktop Window Manager (DWM)](https://msdn.microsoft.com/windows/desktop/fb1e0f1e-a6db-4961-bfa5-9c2218f8c950)
+-   [Application manifests for Windows applications](https://msdn.microsoft.com/c5016251-db7a-4edc-9be9-3acb03d495f8)
+-   [Desktop Window Manager (DWM)](https://msdn.microsoft.com/VS|winui|~\winui\desktopwindowmanager\overviews\dwm_overview.htm)
 -   [Context Mismatch Update](http://go.microsoft.com/fwlink/p/?linkid=205035)
 
  

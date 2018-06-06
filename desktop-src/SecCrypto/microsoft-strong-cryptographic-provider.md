@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Microsoft Strong Cryptographic Provider
 
-The Microsoft Strong Cryptographic Provider is used as the default RSA Full [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP). It supports all of the algorithms of the Microsoft Enhanced Cryptographic Provider and all of the same [*key lengths*](https://www.bing.com/search?q=*key lengths*). For information about default key lengths and algorithms, see Microsoft Base Cryptographic Provider. For information about longer key lengths and available algorithms, see the table with [Microsoft Enhanced Cryptographic Provider](microsoft-enhanced-cryptographic-provider.md).
+The Microsoft Strong Cryptographic Provider is used as the default RSA Full [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP). It supports all of the algorithms of the Microsoft Enhanced Cryptographic Provider and all of the same [*key lengths*](security.k_gly#-security-key-length-gly). For information about default key lengths and algorithms, see Microsoft Base Cryptographic Provider. For information about longer key lengths and available algorithms, see the table with [Microsoft Enhanced Cryptographic Provider](microsoft-enhanced-cryptographic-provider.md).
 
 
 

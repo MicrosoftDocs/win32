@@ -48,7 +48,7 @@ The new input locale. This parameter can be a combination of the following flags
 *lParam* 
 </dt> <dd>
 
-The input locale identifier. For more information, see [Languages, Locales, and Keyboard Layouts](https://www.bing.com/search?q=Languages, Locales, and Keyboard Layouts).
+The input locale identifier. For more information, see [Languages, Locales, and Keyboard Layouts](inputdev.about_keyboard_input#-win32-languages-locales-and-keyboard-layouts).
 
 </dd> </dl>
 

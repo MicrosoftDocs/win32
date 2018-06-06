@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WM\_TABLET\_FLICK message
 
-Sent when a user performs a pen flick. A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/windows/desktop/4bb1cc3d-78db-4546-8ae9-d29fc6ee8f7c) function.
+Sent when a user performs a pen flick. A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\windowprocedures\windowprocedurereference\windowprocedurefunctions\windowproc.htm) function.
 
 
 ```C++
@@ -43,9 +43,9 @@ The [**FLICK\_POINT Structure**](/windows/desktop/api/tabflicks/ns-tabflicks-fli
 
 A pen flick is a unidirectional pen gesture that requires the user to contact the digitizer in a quick, straight flicking motion. A flick is characterized by high speed and a high degree of straightness. A flick is identified by its direction. Flicks can be made in eight directions corresponding to the cardinal and secondary compass directions.
 
-When a pen flick occurs, Windows first notifies an application by sending a **WM\_TABLET\_FLICK** message, which a window receives through its [*WindowProc*](https://msdn.microsoft.com/windows/desktop/4bb1cc3d-78db-4546-8ae9-d29fc6ee8f7c) function. Return the **FLICK\_WM\_HANDLED\_MASK** constant, described in [Flicks Constants](flicks-constants.md), to indicate that the application responded to the **WM\_TABLET\_FLICK** message. If the application does not return **FLICK\_WM\_HANDLED\_MASK**, Windows performs the default action specified in the flicks control panel by sending a follow-up notification, such as [**WM\_APPCOMMAND**](https://msdn.microsoft.com/windows/desktop/ffcdfc44-dbfa-42d4-8749-b33bf0e4de0c), [**WM\_VSCROLL**](https://msdn.microsoft.com/windows/desktop/495733b8-1aac-4ff7-b0be-15f14581f41c), or [**WM\_KEYDOWN**](https://msdn.microsoft.com/windows/desktop/0e37149f-445c-4b20-ad68-fdf39428ac91), depending on which action is associated with the pen flick.
+When a pen flick occurs, Windows first notifies an application by sending a **WM\_TABLET\_FLICK** message, which a window receives through its [*WindowProc*](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\windowprocedures\windowprocedurereference\windowprocedurefunctions\windowproc.htm) function. Return the **FLICK\_WM\_HANDLED\_MASK** constant, described in [Flicks Constants](flicks-constants.md), to indicate that the application responded to the **WM\_TABLET\_FLICK** message. If the application does not return **FLICK\_WM\_HANDLED\_MASK**, Windows performs the default action specified in the flicks control panel by sending a follow-up notification, such as [**WM\_APPCOMMAND**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputmessages\wm_appcommand.htm), [**WM\_VSCROLL**](https://msdn.microsoft.com/VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmessages\wm_vscroll.htm), or [**WM\_KEYDOWN**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputmessages\wm_keydown.htm), depending on which action is associated with the pen flick.
 
-Use caution when handling the **WM\_TABLET\_FLICK** message. **WM\_TABLET\_FLICK** is passed via the [**SendMessageTimeout**](https://msdn.microsoft.com/windows/desktop/c8096383-9fdf-42b3-af98-0bfe0d02c656) function. If you call methods on a COM interface, that object must be within the same process. If not, COM throws an exception.
+Use caution when handling the **WM\_TABLET\_FLICK** message. **WM\_TABLET\_FLICK** is passed via the [**SendMessageTimeout**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessagetimeout.htm) function. If you call methods on a COM interface, that object must be within the same process. If not, COM throws an exception.
 
 ## Requirements
 
@@ -72,7 +72,7 @@ Use caution when handling the **WM\_TABLET\_FLICK** message. **WM\_TABLET\_FLICK
 [flicks gestures](flicks-gestures.md)
 </dt> <dt>
 
-[responding to pen flicks](https://msdn.microsoft.com/windows/desktop/d5c6fa9a-b7a3-4097-bf4f-6d540130f715)
+[responding to pen flicks](https://msdn.microsoft.com/d5c6fa9a-b7a3-4097-bf4f-6d540130f715)
 </dt> </dl>
 
  

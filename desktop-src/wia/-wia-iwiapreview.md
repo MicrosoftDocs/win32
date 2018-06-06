@@ -15,7 +15,7 @@ The **IWiaPreview** interface caches unfiltered images internally and passes the
 
 ## Members
 
-The **IWiaPreview** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IWiaPreview** also has these types of members:
+The **IWiaPreview** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IWiaPreview** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -40,15 +40,15 @@ The **IWiaPreview** interface has these methods.
 
 This filter is called automatically by the [**IWiaTransfer::Download**](-wia-iwiatransfer-download.md) method.
 
-The **IWiaPreview** interface, like all Component Object Model (COM) interfaces, inherits the [IUnknown](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface methods.
+The **IWiaPreview** interface, like all Component Object Model (COM) interfaces, inherits the [IUnknown](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface methods.
 
 
 
 | IUnknown Methods                                        | Description                               |
 |---------------------------------------------------------|-------------------------------------------|
-| [IUnknown::QueryInterface](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) | Returns pointers to supported interfaces. |
-| [IUnknown::AddRef](https://msdn.microsoft.com/windows/desktop/b4316efd-73d4-4995-b898-8025a316ba63)                 | Increments reference count.               |
-| [IUnknown::Release](https://msdn.microsoft.com/windows/desktop/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a)               | Decrements reference count.               |
+| [IUnknown::QueryInterface](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) | Returns pointers to supported interfaces. |
+| [IUnknown::AddRef](https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63)                 | Increments reference count.               |
+| [IUnknown::Release](https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a)               | Decrements reference count.               |
 
 
 

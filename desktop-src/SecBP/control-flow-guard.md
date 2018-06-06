@@ -25,11 +25,11 @@ In most cases, there is no need to change source code. All you have to do is add
 
 The simplest method is to navigate to **Project \| Properties \| Configuration Properties \| C/C++ \| Code Generation** and choose **Yes (/guard:cf)** for Control Flow Guard.
 
-![cfg property in visual studio](https://www.bing.com/search?q=cfg property in visual studio)
+![cfg property in visual studio](https://www.bing.com/search?q=cfg+property+in+visual+studio)
 
 Alternatively, add **/guard:cf** to **Project \| Properties \| Configuration Properties \| C/C++ \| Command Line \| Additional Options** (for the compiler) and **/guard:cf** to **Project \| Properties \| Configuration Properties \| Linker \| Command Line \| Additional Options** (for the linker).
 
-![cfg property for compiler](https://www.bing.com/search?q=cfg property for compiler)![cfg property for linker](https://www.bing.com/search?q=cfg property for linker)
+![cfg property for compiler](https://www.bing.com/search?q=cfg+property+for+compiler)![cfg property for linker](https://www.bing.com/search?q=cfg+property+for+linker)
 
 See [/guard (Enable Control Flow Guard)](http://go.microsoft.com/fwlink/p/?LinkId=717542) for additional info.
 
@@ -41,9 +41,9 @@ You also have the option of dynamically controlling the set of icall target addr
 
 Run the [dumpbin tool](http://go.microsoft.com/fwlink/p/?LinkId=717543) (included in the Visual Studio 2015 installation) from the Visual Studio command prompt with the */headers* and */loadconfig* options: **dumpbin /headers /loadconfig test.exe**. The output for a binary under CFG should show that the header values include "Guard", and that the load config values include "CF Instrumented" and "FID table present".
 
-![output from dumpbin /headers](https://www.bing.com/search?q=output from dumpbin /headers)
+![output from dumpbin /headers](https://www.bing.com/search?q=output+from+dumpbin+/headers)
 
-![output from dumpbin /loadconfig](https://www.bing.com/search?q=output from dumpbin /loadconfig)
+![output from dumpbin /loadconfig](https://www.bing.com/search?q=output+from+dumpbin+/loadconfig)
 
 ## How Does CFG Really Work?
 
@@ -63,7 +63,7 @@ The runtime support, provided by the Windows kernel:
 
 To illustrate:
 
-![cfg pseudocode](https://www.bing.com/search?q=cfg pseudocode)
+![cfg pseudocode](https://www.bing.com/search?q=cfg+pseudocode)
 
 When a CFG check fails at runtime, Windows immediately terminates the program, thus breaking any exploit that attempts to indirectly call an invalid address.
 

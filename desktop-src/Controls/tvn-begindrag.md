@@ -51,7 +51,7 @@ The return value is ignored.
 
 ## Remarks
 
-A tree-view control that has the [**TVS\_DISABLEDRAGDROP**](https://www.bing.com/search?q=**TVS\_DISABLEDRAGDROP**) style does not send this notification code.
+A tree-view control that has the [**TVS\_DISABLEDRAGDROP**](tree-view-control-window-styles.md#tvs-disabledragdrop) style does not send this notification code.
 
 ## Requirements
 

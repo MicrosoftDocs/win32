@@ -46,7 +46,7 @@ Caller-supplied pointer to a string representing the name of the print queue.
 *pszDirectory* \[in\]
 </dt> <dd>
 
-Caller-supplied pointer to a string representing the value supplied for the server's **Directory** entry in the registry. For more information, see [Supporting Point and Print During Printer Installations](https://www.bing.com/search?q=Supporting Point and Print During Printer Installations).
+Caller-supplied pointer to a string representing the value supplied for the server's **Directory** entry in the registry. For more information, see [Supporting Point and Print During Printer Installations](https://www.bing.com/search?q=Supporting+Point+and+Print+During+Printer+Installations).
 
 </dd> <dt>
 
@@ -127,7 +127,7 @@ If the operation succeeds, the function should return **ERROR\_SUCCESS**. Otherw
 
 ## Remarks
 
-All [Point and Print DLLs](https://www.bing.com/search?q=Point and Print DLLs) must export a **GenerateCopyFilePaths** function, which is called by the print spooler. Its purpose is to allow a Point and Print DLL to modify the source or destination directory path, or both, before the print spooler copies print queue-associated files from a server to a client. (The files are copied when a client connects to a print server. For a complete description of the steps involved in creating a Point and Print connection, see [Supporting Point and Print](https://www.bing.com/search?q=Supporting Point and Print).)
+All [Point and Print DLLs](https://www.bing.com/search?q=Point+and+Print+DLLs) must export a **GenerateCopyFilePaths** function, which is called by the print spooler. Its purpose is to allow a Point and Print DLL to modify the source or destination directory path, or both, before the print spooler copies print queue-associated files from a server to a client. (The files are copied when a client connects to a print server. For a complete description of the steps involved in creating a Point and Print connection, see [Supporting Point and Print](https://www.bing.com/search?q=Supporting+Point+and+Print).)
 
 A Point and Print DLL executes on both the server and the client. The **GenerateCopyFilePaths** function should check the *dwFlags* argument to determine where it is executing.
 

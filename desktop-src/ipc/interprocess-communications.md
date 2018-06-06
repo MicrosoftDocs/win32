@@ -54,7 +54,7 @@ The foundation of OLE is the Component Object Model (COM). A software component 
 
 Data copy enables an application to send information to another application using the [**WM\_COPYDATA**](https://www.bing.com/search?q=**WM\_COPYDATA**) message. This method requires cooperation between the sending application and the receiving application. The receiving application must know the format of the information and be able to identify the sender. The sending application cannot modify the memory referenced by any pointers.
 
-**Key Point:** Data copy can be used to quickly send information to another application using Windows messaging. For more information, see [Data Copy](https://www.bing.com/search?q=Data Copy).
+**Key Point:** Data copy can be used to quickly send information to another application using Windows messaging. For more information, see [Data Copy](https://www.bing.com/search?q=Data+Copy).
 
 ## Using DDE for IPC
 
@@ -64,7 +64,7 @@ The data formats used by DDE are the same as those used by the clipboard. DDE ca
 
 DDE exchanges can occur between applications running on the same computer or on different computers on a network.
 
-**Key Point:** DDE is not as efficient as newer technologies. However, you can still use DDE if other IPC mechanisms are not suitable or if you must interface with an existing application that only supports DDE. For more information, see [Dynamic Data Exchange](https://www.bing.com/search?q=Dynamic Data Exchange) and [Dynamic Data Exchange Management Library](https://www.bing.com/search?q=Dynamic Data Exchange Management Library).
+**Key Point:** DDE is not as efficient as newer technologies. However, you can still use DDE if other IPC mechanisms are not suitable or if you must interface with an existing application that only supports DDE. For more information, see [Dynamic Data Exchange](https://www.bing.com/search?q=Dynamic+Data+Exchange) and [Dynamic Data Exchange Management Library](https://www.bing.com/search?q=Dynamic+Data+Exchange+Management+Library).
 
 ## Using a File Mapping for IPC
 

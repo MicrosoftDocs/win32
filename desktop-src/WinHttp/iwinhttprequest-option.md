@@ -70,7 +70,7 @@ The return value is **S\_OK** on success or an error value otherwise.
 
 ## Examples
 
-The following example shows how to set and view the [*user agent*](https://www.bing.com/search?q=*user agent*) string option and view various other options.
+The following example shows how to set and view the [*user agent*](glossary.md#term-user-agent) string option and view various other options.
 
 
 ```C++

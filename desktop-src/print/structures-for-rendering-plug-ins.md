@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## 
 
-This section describes the structures used by [rendering plug-ins](https://www.bing.com/search?q=rendering plug-ins). Structure definitions are contained in printoem.h.
+This section describes the structures used by [rendering plug-ins](https://www.bing.com/search?q=rendering+plug-ins). Structure definitions are contained in printoem.h.
 
 <dl>
 

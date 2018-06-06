@@ -46,9 +46,9 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) object, the mesh from which to weld 
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-Combination of one or more flags from [**D3DXWELDEPSILONSFLAGS**](https://msdn.microsoft.com/windows/desktop/e73af63d-ed02-4fbc-8386-e8a40b0465ea).
+Combination of one or more flags from [**D3DXWELDEPSILONSFLAGS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxweldepsilonsflags.htm).
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ Pointer to a [**D3DXWeldEpsilons**](d3dxweldepsilons.md) structure, specifying t
 *pAdjacencyIn* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the source mesh. If the edge has no adjacent faces, the value is 0xffffffff. If this parameter is set to **NULL**, [**ID3DXBaseMesh::GenerateAdjacency**](id3dxbasemesh--generateadjacency.md) will be called to create logical adjacency information.
 
@@ -73,7 +73,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *pAdjacencyOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the optimized mesh. If the edge has no adjacent faces, the value is 0xffffffff.
 
@@ -82,7 +82,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *pFaceRemap* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 An array of DWORDs, one per face, that identifies the original mesh face that corresponds to each face in the welded mesh.
 

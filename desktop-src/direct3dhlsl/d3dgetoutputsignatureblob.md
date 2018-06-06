@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 # D3DGetOutputSignatureBlob function
 
 > [!Note]  
-> **D3DGetOutputSignatureBlob** may be altered or unavailable for releases after Windows 8.1. Instead use [**D3DGetBlobPart**](d3dgetblobpart.md) with the [**D3D\_BLOB\_OUTPUT\_SIGNATURE\_BLOB**](https://www.bing.com/search?q=**D3D\_BLOB\_OUTPUT\_SIGNATURE\_BLOB**) value.
+> **D3DGetOutputSignatureBlob** may be altered or unavailable for releases after Windows 8.1. Instead use [**D3DGetBlobPart**](d3dgetblobpart.md) with the [**D3D\_BLOB\_OUTPUT\_SIGNATURE\_BLOB**](d3d-blob-part.md#d3d-blob-output-signature-blob) value.
 
  
 

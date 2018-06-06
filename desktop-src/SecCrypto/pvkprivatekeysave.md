@@ -16,10 +16,10 @@ ms.date: 05/31/2018
 
  
 
-The **PvkPrivateKeySave** function saves a [*private key*](https://www.bing.com/search?q=*private key*) and its corresponding [*public key*](https://www.bing.com/search?q=*public key*) to a specified file.
+The **PvkPrivateKeySave** function saves a [*private key*](security.p_gly#-security-private-key-gly) and its corresponding [*public key*](security.p_gly#-security-public-key-gly) to a specified file.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/windows/desktop/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to Mssign32.dll.
 
  
 
@@ -46,7 +46,7 @@ BOOL WINAPI PvkPrivateKeySave(
 *hCryptProv* \[in\]
 </dt> <dd>
 
-A handle to a [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP).
+A handle to a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP).
 
 </dd> <dt>
 

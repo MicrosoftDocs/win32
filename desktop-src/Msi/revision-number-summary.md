@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Revision Number Summary property
 
-For an installation package, the **Revision Number Summary** property contains the [*package code*](https://www.bing.com/search?q=*package code*) for the installer package. For more information about package codes, see [Package Codes](package-codes.md).
+For an installation package, the **Revision Number Summary** property contains the [*package code*](p-gly.md#-msi-package-code-gly) for the installer package. For more information about package codes, see [Package Codes](package-codes.md).
 
 For a transform, the **Revision Number Summary** property lists the product code GUIDs and version of the new and original products and the upgrade code GUID. The list is separated with semicolons as follows.
 

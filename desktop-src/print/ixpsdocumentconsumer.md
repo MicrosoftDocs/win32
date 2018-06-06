@@ -20,7 +20,7 @@ A filter uses the `IXpsDocumentConsumer` interface when it generates XPS content
 
 ## Members
 
-The **IXpsDocumentConsumer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IXpsDocumentConsumer** also has these types of members:
+The **IXpsDocumentConsumer** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IXpsDocumentConsumer** also has these types of members:
 
 -   [Methods](#methods)
 

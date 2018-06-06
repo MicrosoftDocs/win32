@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # PROV\_DSS
 
-The PROV\_DSS provider type, like PROV\_RSA\_SIG, only supports [*hashes*](https://www.bing.com/search?q=*hashes*) and [*digital signatures*](https://www.bing.com/search?q=*digital signatures*). The signature algorithm specified by the PROV\_DSS provider type is the [*Digital Signature Algorithm*](https://www.bing.com/search?q=*Digital Signature Algorithm*) (DSA).
+The PROV\_DSS provider type, like PROV\_RSA\_SIG, only supports [*hashes*](security.h_gly#-security-hash-gly) and [*digital signatures*](security.d_gly#-security-digital-signature-gly). The signature algorithm specified by the PROV\_DSS provider type is the [*Digital Signature Algorithm*](security.d_gly#-security-digital-signature-algorithm-gly) (DSA).
 
 ## Algorithms Supported
 
@@ -22,9 +22,9 @@ For descriptions of each of these algorithms, see the glossary.
 | Purpose      | Supported algorithms                                                                                                              |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Key Exchange | None                                                                                                                              |
-| Signature    | [*DSS*](https://www.bing.com/search?q=*DSS*)                                                                       |
+| Signature    | [*DSS*](security.d_gly#-security-dss-gly)                                                                       |
 | Encryption   | None                                                                                                                              |
-| Hashing      | [*MD5*](https://www.bing.com/search?q=*MD5*)[*SHA*](https://www.bing.com/search?q=*SHA*)<br/> |
+| Hashing      | [*MD5*](security.m_gly#-security-md5-gly)[*SHA*](security.s_gly#-security-sha-gly)<br/> |
 
 
 
@@ -32,7 +32,7 @@ For descriptions of each of these algorithms, see the glossary.
 
 ## Related Documentation
 
-The DSA was proposed by the [*National Institute of Standards and Technology*](https://www.bing.com/search?q=*National Institute of Standards and Technology*) (NIST). A description of the algorithm can be found in the following government reference: "Proposed Federal Information Processing Standard for Digital Signature Standard (DSS)," Federal Register, v. 57, no. 21, 31 Jan 1992, pp. 3747-3749.
+The DSA was proposed by the [*National Institute of Standards and Technology*](security.n_gly#-security-national-institute-of-standards-and-technology-gly) (NIST). A description of the algorithm can be found in the following government reference: "Proposed Federal Information Processing Standard for Digital Signature Standard (DSS)," Federal Register, v. 57, no. 21, 31 Jan 1992, pp. 3747-3749.
 
  
 

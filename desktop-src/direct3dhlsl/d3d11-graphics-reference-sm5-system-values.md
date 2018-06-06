@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Shader Model 5 System Values
 
-Shader Model 5 implements the [system values](https://www.bing.com/search?q=system values) from Shader Model 4 and earlier, as well as the following new system values:
+Shader Model 5 implements the [system values](dx-graphics-hlsl-semantics.md#system-value-semantics) from Shader Model 4 and earlier, as well as the following new system values:
 
 -   [SV\_DispatchThreadID](sv-dispatchthreadid.md)
 -   [SV\_DomainLocation](sv-domainlocation.md)

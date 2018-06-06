@@ -26,7 +26,7 @@ ms.date: 05/31/2018
 
 # Session object
 
-Defines operations and session settings. Any Windows Remote Management operations require creation of a **Session** that connects to a remote computer, [*base management controller*](https://www.bing.com/search?q=*base management controller*) (BMC), or the local computer. WinRM network operations include getting, writing, or enumerating data, or invoking methods. The methods of the **Session** object mirror the basic operations defined in the WS-Management protocol.
+Defines operations and session settings. Any Windows Remote Management operations require creation of a **Session** that connects to a remote computer, [*base management controller*](windows-remote-management-glossary.md#winrm-gloss-baseboard-management-controller) (BMC), or the local computer. WinRM network operations include getting, writing, or enumerating data, or invoking methods. The methods of the **Session** object mirror the basic operations defined in the WS-Management protocol.
 
 ## Members
 

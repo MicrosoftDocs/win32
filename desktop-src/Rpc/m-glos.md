@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_rpc_major_version_number_glos"></span><span id="_RPC_MAJOR_VERSION_NUMBER_GLOS"></span>**major version number**
 </dt> <dd>
 
-See [*version number*](https://www.bing.com/search?q=*version number*).
+See [*version number*](v-glos.md#-rpc-version-number-glos).
 
 </dd> <dt>
 
@@ -33,7 +33,7 @@ Set of server routines that implements the interface operations.
 <span id="_rpc_marshaling_glos"></span><span id="_RPC_MARSHALING_GLOS"></span>**marshaling**
 </dt> <dd>
 
-Process through which operation parameters are packaged into [*NDR*](https://www.bing.com/search?q=*NDR*) format so that they may be transmitted across process boundaries.
+Process through which operation parameters are packaged into [*NDR*](n-glos.md#-rpc-ndr-glos) format so that they may be transmitted across process boundaries.
 
 </dd> <dt>
 
@@ -54,7 +54,7 @@ Microsoft SQL Server database that stores information for Microsoft Message Queu
 <span id="_rpc_midl_glos"></span><span id="_RPC_MIDL_GLOS"></span>**Microsoft Interface Definition Language (MIDL)**
 </dt> <dd>
 
-Microsoft implementation and extension of OSF-DCE [*Interface Definition Language*](https://www.bing.com/search?q=*Interface Definition Language*).
+Microsoft implementation and extension of OSF-DCE [*Interface Definition Language*](i-glos.md#-rpc-idl-glos).
 
 </dd> <dt>
 
@@ -68,7 +68,7 @@ Group of Microsoft services that allow users to communicate across networks and 
 <span id="_rpc_minor_version_number_glos"></span><span id="_RPC_MINOR_VERSION_NUMBER_GLOS"></span>**minor version number**
 </dt> <dd>
 
-See [*version number*](https://www.bing.com/search?q=*version number*).
+See [*version number*](v-glos.md#-rpc-version-number-glos).
 
 </dd> <dt>
 

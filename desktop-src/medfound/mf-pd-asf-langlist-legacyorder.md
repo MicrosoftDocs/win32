@@ -57,7 +57,7 @@ The first **DWORD** is the number of languages, followed by an array of language
 
 Each string is a language tag compliant with RFC 1766.
 
-Use this attribute only for backward compatibility with the enumeration order of the [**IWMReaderAdvanced4**](https://msdn.microsoft.com/windows/desktop/56695c57-f6c5-4c57-b3d4-73d169b379fa) interface in the Windows Media Format SDK. The language strings are stored in a different order in the [**MF\_PD\_ASF\_LANGLIST**](mf-pd-asf-langlist-attribute.md) attribute.
+Use this attribute only for backward compatibility with the enumeration order of the [**IWMReaderAdvanced4**](https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa) interface in the Windows Media Format SDK. The language strings are stored in a different order in the [**MF\_PD\_ASF\_LANGLIST**](mf-pd-asf-langlist-attribute.md) attribute.
 
 ## Requirements
 

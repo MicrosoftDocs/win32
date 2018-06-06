@@ -74,7 +74,7 @@ Under this registry key, specify DisableUserProfileExpansion for the value name,
 
 ## About the FilesNotToBackup Registry Key
 
-The **FilesNotToBackup** registry key can be used to specify the names of the files and directories that backup applications should not backup or restore. However, it does not exclude those files from shadow copies. For more information about this registry key, see [Registry Keys and Values for Backup and Restore](https://msdn.microsoft.com/windows/desktop/83449f78-cca1-449b-8c5f-3c8a91c8b3e7).
+The **FilesNotToBackup** registry key can be used to specify the names of the files and directories that backup applications should not backup or restore. However, it does not exclude those files from shadow copies. For more information about this registry key, see [Registry Keys and Values for Backup and Restore](https://msdn.microsoft.com/83449f78-cca1-449b-8c5f-3c8a91c8b3e7).
 
  
 

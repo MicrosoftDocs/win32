@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IRTC::GetTotalStatistics method
 
-The **GetTotalStatistics** method retrieves the [*total statistics*](https://www.bing.com/search?q=*total statistics*) for the current [*capture*](https://www.bing.com/search?q=*capture*).
+The **GetTotalStatistics** method retrieves the [*total statistics*](t.md#-netmon-total-statistics-gly) for the current [*capture*](c.md#-netmon-capture-gly).
 
 ## Syntax
 
@@ -65,7 +65,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 This method returns data only while a capture is in progress, including while the capture is paused.
 
-Network Monitor also stores [*conversation statistics*](https://www.bing.com/search?q=*conversation statistics*). To retrieve conversation statistics, call the [IRTC::GetConversationStatistics](irtc-getconversationstatistics.md) method.
+Network Monitor also stores [*conversation statistics*](c.md#-netmon-conversation-statistics-gly). To retrieve conversation statistics, call the [IRTC::GetConversationStatistics](irtc-getconversationstatistics.md) method.
 
 ## Requirements
 

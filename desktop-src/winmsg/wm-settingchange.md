@@ -83,7 +83,7 @@ The *lParam* parameter indicates which system metric has changed, for example, "
 
 <dl> <dt>
 
-[Policy Events](https://msdn.microsoft.com/windows/desktop/3e0bc96e-bf14-4bc4-8f8a-147f3f7e6a02)
+[Policy Events](https://msdn.microsoft.com/3e0bc96e-bf14-4bc4-8f8a-147f3f7e6a02)
 </dt> <dt>
 
 [**SendMessageTimeout**](https://www.bing.com/search?q=**SendMessageTimeout**)

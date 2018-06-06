@@ -33,7 +33,7 @@ You may want to try installing your visualization on several machines to be sure
 
 ## Sign Your Visualization
 
-You must submit your visualization for code signing so that the user can decide whether to trust your visualization before they install it. For information about code signing, see [Introduction to Code Signing](https://www.bing.com/search?q=Introduction to Code Signing).
+You must submit your visualization for code signing so that the user can decide whether to trust your visualization before they install it. For information about code signing, see [Introduction to Code Signing](https://www.bing.com/search?q=Introduction+to+Code+Signing).
 
 ## Distributing Your Visualization
 

@@ -47,7 +47,7 @@ If an error occurs, the return value is CB\_ERR.
 
 ## Remarks
 
-If the specified item is in an owner-drawn combo box created without the [**CBS\_HASSTRINGS**](https://www.bing.com/search?q=**CBS\_HASSTRINGS**) style, this message replaces the value in the *lParam* parameter of the [**CB\_ADDSTRING**](cb-addstring.md) or [**CB\_INSERTSTRING**](cb-insertstring.md) message that added the item to the combo box.
+If the specified item is in an owner-drawn combo box created without the [**CBS\_HASSTRINGS**](combo-box-styles.md#cbs-hasstrings) style, this message replaces the value in the *lParam* parameter of the [**CB\_ADDSTRING**](cb-addstring.md) or [**CB\_INSERTSTRING**](cb-insertstring.md) message that added the item to the combo box.
 
 ## Requirements
 

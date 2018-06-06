@@ -17,7 +17,7 @@ The `IMpeg2PsiParser` interface retrieves Program Specific Information (PSI) fro
 
 ## Members
 
-The **IMpeg2PsiParser** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IMpeg2PsiParser** also has these types of members:
+The **IMpeg2PsiParser** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IMpeg2PsiParser** also has these types of members:
 
 -   [Methods](#methods)
 

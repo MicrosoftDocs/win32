@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SignTool
 
-The SignTool tool is a command-line tool that digitally signs files, verifies signatures in files, or time stamps files. For information about why signing files is important, see [Introduction to Code Signing](https://www.bing.com/search?q=Introduction to Code Signing). The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
+The SignTool tool is a command-line tool that digitally signs files, verifies signatures in files, or time stamps files. For information about why signing files is important, see [Introduction to Code Signing](cryptography-tools.md#introduction-to-code-signing). The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
 
 SignTool is available as part of the Windows SDK, which you can download from <http://go.microsoft.com/fwlink/p/?linkid=84091>.
 
@@ -99,7 +99,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="odd">
 <td><strong>/csp</strong> <em>CSPName</em></td>
-<td>Specifies the [<em>cryptographic service provider</em>](https://www.bing.com/search?q=<em>cryptographic service provider</em>) (CSP) that contains the [<em>private key</em>](https://www.bing.com/search?q=<em>private key</em>) container.<br/></td>
+<td>Specifies the [<em>cryptographic service provider</em>](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) that contains the [<em>private key</em>](security.p_gly#-security-private-key-gly) container.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>/d</strong> <em>Desc</em></td>
@@ -143,7 +143,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="even">
 <td><strong>/fd</strong></td>
-<td>Specifies the file digest algorithm to use to create file signatures. The default algorithm is [<em>Secure Hash Algorithm</em>](https://www.bing.com/search?q=<em>Secure Hash Algorithm</em>) (SHA-1).<br/> <strong>Windows Vista and earlier:</strong> This flag is not supported.<br/></td>
+<td>Specifies the file digest algorithm to use to create file signatures. The default algorithm is [<em>Secure Hash Algorithm</em>](security.s_gly#-security-secure-hash-algorithm-gly) (SHA-1).<br/> <strong>Windows Vista and earlier:</strong> This flag is not supported.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/j</strong> <em>DLL</em></td>
@@ -167,7 +167,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="even">
 <td><strong>/p</strong> <em>Password</em></td>
-<td>Specifies the password to use when opening a PFX file. A PFX file can be specified by using the <strong>/f</strong> option. For information about protecting passwords, see [Handling Passwords](https://msdn.microsoft.com/windows/desktop/1d810f71-9bf5-4c5c-a573-c35081f604cf).<br/></td>
+<td>Specifies the password to use when opening a PFX file. A PFX file can be specified by using the <strong>/f</strong> option. For information about protecting passwords, see [Handling Passwords](https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf).<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/p7</strong> <em>Path</em></td>
@@ -179,7 +179,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="odd">
 <td><strong>/p7co</strong> <em>OID</em></td>
-<td>Specifies the [<em>object identifier</em>](https://www.bing.com/search?q=<em>object identifier</em>) (OID) that identifies the signed PKCS #7 content.<br/></td>
+<td>Specifies the [<em>object identifier</em>](security.o_gly#-security-object-identifier-gly) (OID) that identifies the signed PKCS #7 content.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>/ph</strong></td>
@@ -236,7 +236,7 @@ The <strong>/td</strong> switch must be declared after the <strong>/tr</strong> 
 </tr>
 <tr class="even">
 <td><strong>/u</strong> <em>Usage</em></td>
-<td>Specifies the [<em>enhanced key usage</em>](https://www.bing.com/search?q=<em>enhanced key usage</em>) (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is &quot;Code Signing&quot; (1.3.6.1.5.5.7.3.3).<br/></td>
+<td>Specifies the [<em>enhanced key usage</em>](security.e_gly#-security-enhanced-key-usage-gly) (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is &quot;Code Signing&quot; (1.3.6.1.5.5.7.3.3).<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/uw</strong></td>

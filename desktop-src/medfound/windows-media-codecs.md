@@ -27,7 +27,7 @@ Every codec object implements two separate but similar interfaces:
 | Interface                              | Description                                 |
 |----------------------------------------|---------------------------------------------|
 | [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)   | Compatible with Microsoft Media Foundation. |
-| [**IMediaObject**](https://msdn.microsoft.com/windows/desktop/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b) | Compatible with DirectShow.                 |
+| [**IMediaObject**](https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b) | Compatible with DirectShow.                 |
 
 
 

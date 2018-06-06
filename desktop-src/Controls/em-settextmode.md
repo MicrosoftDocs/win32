@@ -36,8 +36,8 @@ Specify one of the following values to set the text mode parameter. If you do no
 
 | Value                                          | Meaning                                                                                                                                                               |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**TM\_PLAINTEXT**](https://www.bing.com/search?q=**TM\_PLAINTEXT**) | Indicates plain text mode, in which the control is similar to a standard edit control. For more information about plain text mode, see the following Remarks section. |
-| [**TM\_RICHTEXT**](https://www.bing.com/search?q=**TM\_RICHTEXT**)   | Indicates rich text mode, in which the control has standard rich edit functionality. Rich text mode is the default setting.                                           |
+| [**TM\_PLAINTEXT**](textmode.md#tm-plaintext) | Indicates plain text mode, in which the control is similar to a standard edit control. For more information about plain text mode, see the following Remarks section. |
+| [**TM\_RICHTEXT**](textmode.md#tm-richtext)   | Indicates rich text mode, in which the control has standard rich edit functionality. Rich text mode is the default setting.                                           |
 
 
 
@@ -47,8 +47,8 @@ Specify one of the following values to set the undo level parameter. If you do n
 
 | Value                                                      | Meaning                                                                                                                                                                            |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**TM\_SINGLELEVELUNDO**](https://www.bing.com/search?q=**TM\_SINGLELEVELUNDO**) | The control allows the user to undo only the last action that can be undone.                                                                                                       |
-| [**TM\_MULTILEVELUNDO**](https://www.bing.com/search?q=**TM\_MULTILEVELUNDO**)   | The control supports multiple undo operations. This is the default setting. Use the [**EM\_SETUNDOLIMIT**](em-setundolimit.md) message to set the maximum number of undo actions. |
+| [**TM\_SINGLELEVELUNDO**](textmode.md#tm-singlelevelundo) | The control allows the user to undo only the last action that can be undone.                                                                                                       |
+| [**TM\_MULTILEVELUNDO**](textmode.md#tm-multilevelundo)   | The control supports multiple undo operations. This is the default setting. Use the [**EM\_SETUNDOLIMIT**](em-setundolimit.md) message to set the maximum number of undo actions. |
 
 
 
@@ -58,8 +58,8 @@ Specify one of the following values to set the code page parameter. If you do no
 
 | Value                                                    | Meaning                                                                                                                                                                                                                                                                                                    |
 |----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**TM\_SINGLECODEPAGE**](https://www.bing.com/search?q=**TM\_SINGLECODEPAGE**) | The control only allows the English keyboard and a keyboard corresponding to the default character set. For example, you could have Greek and English. Note that this prevents Unicode text from entering the control. For example, use this value if a Rich Edit control must be restricted to ANSI text. |
-| [**TM\_MULTICODEPAGE**](https://www.bing.com/search?q=**TM\_MULTICODEPAGE**)   | The control allows multiple code pages and Unicode text into the control. This is the default setting.                                                                                                                                                                                                     |
+| [**TM\_SINGLECODEPAGE**](textmode.md#tm-singlecodepage) | The control only allows the English keyboard and a keyboard corresponding to the default character set. For example, you could have Greek and English. Note that this prevents Unicode text from entering the control. For example, use this value if a Rich Edit control must be restricted to ANSI text. |
+| [**TM\_MULTICODEPAGE**](textmode.md#tm-multicodepage)   | The control allows multiple code pages and Unicode text into the control. This is the default setting.                                                                                                                                                                                                     |
 
 
 

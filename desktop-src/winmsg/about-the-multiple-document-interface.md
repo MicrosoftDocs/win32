@@ -52,7 +52,7 @@ The user can activate an inactive child window by clicking it. An MDI applicatio
 
 To prevent a child window from activating, handle the [**WM\_NCACTIVATE**](wm-ncactivate.md) message to the child window by returning **FALSE**.
 
-The system keeps track of each child window's position in the stack of overlapping windows. This stacking is known as the [Z-Order](https://www.bing.com/search?q=Z-Order). The user can activate the next child window in the Z order by clicking **Next** from the window menu in the active window. An application activates the next (or previous) child window in the Z order by sending a [**WM\_MDINEXT**](wm-mdinext.md) message to the client window.
+The system keeps track of each child window's position in the stack of overlapping windows. This stacking is known as the [Z-Order](window-features.md#z-order). The user can activate the next child window in the Z order by clicking **Next** from the window menu in the active window. An application activates the next (or previous) child window in the Z order by sending a [**WM\_MDINEXT**](wm-mdinext.md) message to the client window.
 
 To retrieve the handle to the active child window, the MDI application sends a [**WM\_MDIGETACTIVE**](wm-mdigetactive.md) message to the client window.
 

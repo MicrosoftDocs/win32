@@ -90,7 +90,7 @@ HRESULT GetPinCategory(IPin *pPin, GUID *pPinCategory)
 
 
 > [!Note]  
-> This example uses the [SafeRelease](https://msdn.microsoft.com/windows/desktop/2e9af7bc-f478-4a9c-b28f-b0a72fa9ec75) function to release interface pointers.
+> This example uses the [SafeRelease](https://msdn.microsoft.com/2e9af7bc-f478-4a9c-b28f-b0a72fa9ec75) function to release interface pointers.
 
  
 

@@ -101,7 +101,7 @@ The following constants defined in Winnt.h represent the specific and standard a
 [Access Control](access-control.md)
 </dt> <dt>
 
-[Basic Access Control Structures](https://www.bing.com/search?q=Basic Access Control Structures)
+[Basic Access Control Structures](authorization-structures.md#basic-access-control-structures)
 </dt> <dt>
 
 [Access Rights and Access Masks](access-rights-and-access-masks.md)

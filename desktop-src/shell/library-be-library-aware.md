@@ -77,7 +77,7 @@ Using a common file dialog box with libraries The common file dialog box has bee
 
 ![screen shot of the common file dialog box showing libraries](images/libraries-commonfiledialog.png)
 
-In Windows 7, if your program currently displays a common file dialog box and does not change the dialog box template or hook any of its events, it will display the new Windows 7 version of the dialog box automatically. Specifically, in the call to the common file dialog box function, the **lpfnHook**, **hInstance**, **lpTemplatename** members of the [**OPENFILENAME**](https://msdn.microsoft.com/windows/desktop/c84932c8-c960-4606-bdec-bc9111c92b54) structure must be **NULL** and the **OFN\_ENABLEHOOK** and **OFN\_ENABLETEMPLATE** flags must be clear.
+In Windows 7, if your program currently displays a common file dialog box and does not change the dialog box template or hook any of its events, it will display the new Windows 7 version of the dialog box automatically. Specifically, in the call to the common file dialog box function, the **lpfnHook**, **hInstance**, **lpTemplatename** members of the [**OPENFILENAME**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\openfilename.htm) structure must be **NULL** and the **OFN\_ENABLEHOOK** and **OFN\_ENABLETEMPLATE** flags must be clear.
 
 In Windows 7, the [**IFileDialog**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ifiledialog)-related interfaces replace the common file dialog box functions that were used in earlier versions of Windows. The earlier common file dialog box functions are still supported in Windows 7 but they do not provide the complete Windows 7 user experience and they do not support libraries. Some of the new features supported by the **IFileDialog**-related interfaces include:
 
@@ -222,7 +222,7 @@ To detect changes to items within a library using the Windows Shell API, call [*
 
 File system notifications must be used in service processes.
 
-To detect changes to items in a library using the file-system API, enumerate the folders in the library and call [**FindFirstChangeNotification**](https://msdn.microsoft.com/windows/desktop/dde4dd17-0f8c-41b5-8685-4e4c6b3def3c) for each folder to monitor. Your program will receive notification when a monitored folder changes. To find the specific file of files that changed in the folder, call [**ReadDirectoryChangesW**](https://msdn.microsoft.com/windows/desktop/14dfc93d-557e-43d0-be45-8414cfd92c29). To detect changes in the library description file, monitor the folder that contains it. The library description file can be found in the [**FOLDERID\_Libraries**](knownfolderid.md) folder. The library description file, however, should not be opened or modified.
+To detect changes to items in a library using the file-system API, enumerate the folders in the library and call [**FindFirstChangeNotification**](https://msdn.microsoft.com/dde4dd17-0f8c-41b5-8685-4e4c6b3def3c) for each folder to monitor. Your program will receive notification when a monitored folder changes. To find the specific file of files that changed in the folder, call [**ReadDirectoryChangesW**](https://msdn.microsoft.com/14dfc93d-557e-43d0-be45-8414cfd92c29). To detect changes in the library description file, monitor the folder that contains it. The library description file can be found in the [**FOLDERID\_Libraries**](knownfolderid.md) folder. The library description file, however, should not be opened or modified.
 
 ## Related topics
 
@@ -234,7 +234,7 @@ To detect changes to items in a library using the file-system API, enumerate the
 [**IShellLibrary**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary)
 </dt> <dt>
 
-[Shell Links](https://msdn.microsoft.com/windows/desktop/32ad306d-54bd-4130-ad30-08db50ef106e)
+[Shell Links](https://msdn.microsoft.com/32ad306d-54bd-4130-ad30-08db50ef106e)
 </dt> <dt>
 
 [Known Folders](known-folders.md)

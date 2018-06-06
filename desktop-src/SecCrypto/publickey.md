@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # PublicKey object
 
-\[The **PublicKey** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PublicKey Property**](https://www.bing.com/search?q=**X509Certificate2.PublicKey Property**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
+\[The **PublicKey** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PublicKey Property**](https://www.bing.com/search?q=**X509Certificate2.PublicKey+Property**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
 The **PublicKey** object represents a public key in a [**Certificate**](certificate.md) object.
 

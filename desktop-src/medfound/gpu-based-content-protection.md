@@ -74,7 +74,7 @@ All of these interfaces are obtained from the Direct3D device, as follows:
  
 
 > [!Note]  
-> To get a pointer to the [**IDirect3DDevice9Video**](/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9video) interface, call [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) on a D3D9Ex device.
+> To get a pointer to the [**IDirect3DDevice9Video**](/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9video) interface, call [**QueryInterface**](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) on a D3D9Ex device.
 
  
 
@@ -116,7 +116,7 @@ The next five sections give more detailed steps.
 Before attempting to apply encryption, get the content protection capabilities of the driver.
 
 1.  Get a pointer to the Direct3D 9 device.
-2.  Call [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) for the [**IDirect3DDevice9Video**](/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9video) interface.
+2.  Call [**QueryInterface**](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) for the [**IDirect3DDevice9Video**](/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9video) interface.
 3.  Call [**IDirect3DDevice9Video::GetContentProtectionCaps**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps). This method fills in a [**D3DCONTENTPROTECTIONCAPS**](/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcontentprotectioncaps) structure with the driver’s content protection capabilities.
 
 In particular, look for the following capabilities:

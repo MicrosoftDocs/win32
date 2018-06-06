@@ -56,7 +56,7 @@ This method can return one of these values.
 
 ## Remarks
 
-Each process receives the [**Suspending**](https://www.bing.com/search?q=**Suspending**) event. It can be useful for developers to step through how their apps respond to this event.
+Each process receives the [**Suspending**](https://msdn.microsoft.com/Windows.ApplicationModel.Core.CoreApplication.Suspending) event. It can be useful for developers to step through how their apps respond to this event.
 
 ## Requirements
 

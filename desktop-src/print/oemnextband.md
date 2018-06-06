@@ -39,9 +39,9 @@ BOOL APIENTRY OEMNextBand(
 
 ### Comments
 
-See [**DrvNextBand**](https://www.bing.com/search?q=**DrvNextBand**).
+See [**DrvNextBand**](https://msdn.microsoft.com/7c02d32b-6c95-4dd5-b9cf-2f64ba78f25a).
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the drawing DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvNextBand** function pointer.
 

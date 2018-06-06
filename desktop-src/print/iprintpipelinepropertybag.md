@@ -13,11 +13,11 @@ ms.date: 05/31/2018
 
 The `IPrintPipelinePropertyBag` interface is implemented by the PrintFilterPipelineSvc service and is made available to filters through methods in the [IPrintPipelineFilter](iprintpipelinefilter.md) interface. `IprintPipelinePropertyBag` inherits from the **IUnknown** interface.
 
-The properties of the property bag are described in [**Print Pipeline Property Bag**](https://www.bing.com/search?q=**Print Pipeline Property Bag**).
+The properties of the property bag are described in [**Print Pipeline Property Bag**](https://www.bing.com/search?q=**Print+Pipeline+Property+Bag**).
 
 ## Members
 
-The **IPrintPipelinePropertyBag** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintPipelinePropertyBag** also has these types of members:
+The **IPrintPipelinePropertyBag** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintPipelinePropertyBag** also has these types of members:
 
 -   [Methods](#methods)
 

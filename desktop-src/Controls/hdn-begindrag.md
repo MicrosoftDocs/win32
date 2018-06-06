@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # HDN\_BEGINDRAG notification code
 
-Sent by a header control when a drag operation has begun on one of its items. This notification code is sent only by header controls that are set to the [**HDS\_DRAGDROP**](https://www.bing.com/search?q=**HDS\_DRAGDROP**) style. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a header control when a drag operation has begun on one of its items. This notification code is sent only by header controls that are set to the [**HDS\_DRAGDROP**](header-control-styles.md#hds-dragdrop) style. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++

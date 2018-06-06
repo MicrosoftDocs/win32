@@ -25,7 +25,7 @@ This page will show you how to generate and use an effect. The topics covered in
 
 ## Create an Effect
 
-Here is an example of creating an effect taken from the [BasicHLSL Sample](https://msdn.microsoft.com/windows/desktop/d8765da9-e7cf-47e8-8bc3-4b29162da41b). The effect creation code for creating a debug shader is from **OnCreateDevice**:
+Here is an example of creating an effect taken from the [BasicHLSL Sample](https://msdn.microsoft.com/d8765da9-e7cf-47e8-8bc3-4b29162da41b). The effect creation code for creating a debug shader is from **OnCreateDevice**:
 
 
 ```
@@ -68,7 +68,7 @@ This function takes these arguments:
 -   A pointer to a buffer to which validation errors can be sent. In this example, the parameter was set to **NULL** and not used.
 
 > [!Note]  
-> Beginning with the December 2006 SDK, the DirectX 10 HLSL compiler is now the default compiler in both DirectX 9 and DirectX 10. See [Effect-Compiler Tool](https://msdn.microsoft.com/windows/desktop/312edb77-fc87-4e61-862b-39df8b0719cc) for details.
+> Beginning with the December 2006 SDK, the DirectX 10 HLSL compiler is now the default compiler in both DirectX 9 and DirectX 10. See [Effect-Compiler Tool](https://msdn.microsoft.com/VS|directx_sdk|~\fxc.htm) for details.
 
  
 
@@ -252,7 +252,7 @@ technique RenderScene
 
 
 
-Using [Effect-Compiler Tool](https://msdn.microsoft.com/windows/desktop/312edb77-fc87-4e61-862b-39df8b0719cc) to compile the shader for vs\_1\_1 generated the following assembly shader instructions:
+Using [Effect-Compiler Tool](https://msdn.microsoft.com/VS|directx_sdk|~\fxc.htm) to compile the shader for vs\_1\_1 generated the following assembly shader instructions:
 
 
 ```
@@ -408,7 +408,7 @@ technique RenderVS
 
 
 
-Using [Effect-Compiler Tool](https://msdn.microsoft.com/windows/desktop/312edb77-fc87-4e61-862b-39df8b0719cc) to compile the shader for vs\_1\_1 generates the following assembly instructions:
+Using [Effect-Compiler Tool](https://msdn.microsoft.com/VS|directx_sdk|~\fxc.htm) to compile the shader for vs\_1\_1 generates the following assembly instructions:
 
 
 ```

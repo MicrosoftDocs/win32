@@ -27,7 +27,7 @@ The following interfaces are supported by the synchronous reader object.
 
 | Interface                                | Description                                                                                                                                                        |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IWMHeaderInfo**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)   | Sets and retrieves header information, such as metadata, [*markers*](https://www.bing.com/search?q=*markers*), and so on.                                            |
+| [**IWMHeaderInfo**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)   | Sets and retrieves header information, such as metadata, [*markers*](wmformat-glossary.md#wmformat-marker), and so on.                                            |
 | [**IWMHeaderInfo2**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2) | Enumerates the available codec information. Inherits all of the methods of **IWMHeaderInfo**.                                                                      |
 | [**IWMHeaderInfo3**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) | Supports large attribute sizes, duplicate attribute names, and multiple language support. Inherits all of the methods of **IWMHeaderInfo** and **IWMHeaderInfo2**. |
 | [**IWMProfile**](iwmprofile.md)         | Provides access to the profile information of the Windows Media file loaded into the reader.                                                                       |

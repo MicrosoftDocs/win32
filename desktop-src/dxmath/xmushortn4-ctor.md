@@ -37,7 +37,7 @@ Constructs instances of the [**XMUSHORTN4**](/windows/desktop/api/DirectXPackedV
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUSHORTN4 ()</strong>](https://www.bing.com/search?q=<strong>XMUSHORTN4 ()</strong>)</td>
+<td style="text-align: left;">[<strong>XMUSHORTN4 ()</strong>](https://www.bing.com/search?q=<strong>XMUSHORTN4+()</strong>)</td>
 <td style="text-align: left;">Default constructor for <code>XMUSHORTN4</code>. <br/> Default constructor for [<strong>XMUSHORTN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4). <br/>
 <blockquote>
 [!Note]<br />
@@ -46,7 +46,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMUSHORTN4 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMUSHORTN4 (const float*)</strong>)</td>
+<td style="text-align: left;">[<strong>XMUSHORTN4 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMUSHORTN4+(const+float*)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMUSHORTN4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMUSHORTN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4) from a from a four element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
@@ -55,7 +55,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUSHORTN4 (const uint16_t*)</strong>](https://www.bing.com/search?q=<strong>XMUSHORTN4 (const uint16_t*)</strong>)</td>
+<td style="text-align: left;">[<strong>XMUSHORTN4 (const uint16_t*)</strong>](https://www.bing.com/search?q=<strong>XMUSHORTN4+(const+uint16_t*)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMUSHORTN4</code> from a four element <code>uint16_t</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMUSHORTN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4) from a from a four element <code>uint16_t</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
@@ -64,7 +64,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMUSHORTN4 (float,float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMUSHORTN4 (float,float,float,float)</strong>)</td>
+<td style="text-align: left;">[<strong>XMUSHORTN4 (float,float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMUSHORTN4+(float,float,float,float)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMUSHORTN4</code> from four normalized <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMUSHORTN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4) from four normalized <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
@@ -73,7 +73,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUSHORTN4 (uint16_t,uint16_t,uint16_t,uint16_t)</strong>](https://www.bing.com/search?q=<strong>XMUSHORTN4 (uint16_t,uint16_t,uint16_t,uint16_t)</strong>)</td>
+<td style="text-align: left;">[<strong>XMUSHORTN4 (uint16_t,uint16_t,uint16_t,uint16_t)</strong>](https://www.bing.com/search?q=<strong>XMUSHORTN4+(uint16_t,uint16_t,uint16_t,uint16_t)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMUSHORTN4</code> from four <code>uint16_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMUSHORTN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4) from four <code>uint16_t</code> arguments. <br/>
 <blockquote>
 [!Note]<br />

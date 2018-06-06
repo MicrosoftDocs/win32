@@ -155,7 +155,7 @@ The following procedure describes how to request a partial-instance update using
 
     Passing the [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) object instructs the provider to allow partial-instance updates. In a full-instance update, you would set *pCtx* to **NULL**.
 
-    The provider may write any necessary properties if the context object present in the call does not contain "\_\_PUT\_EXTENSIONS". If "\_\_PUT\_EXTENSIONS" is present in the context object, WMI requires the provider to either obey the semantics of the operation exactly or else fail the call. For more information, see [Handling Access Denied Messages in a Provider](https://www.bing.com/search?q=Handling Access Denied Messages in a Provider).
+    The provider may write any necessary properties if the context object present in the call does not contain "\_\_PUT\_EXTENSIONS". If "\_\_PUT\_EXTENSIONS" is present in the context object, WMI requires the provider to either obey the semantics of the operation exactly or else fail the call. For more information, see [Handling Access Denied Messages in a Provider](impersonating-a-client.md#handling-access-denied-messages-in-a-provider).
 
  
 

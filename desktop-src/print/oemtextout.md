@@ -71,9 +71,9 @@ BOOL APIENTRY OEMTextOut(
 
 ### Comments
 
-See [**DrvTextOut**](https://www.bing.com/search?q=**DrvTextOut**).
+See [**DrvTextOut**](https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1).
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the drawing DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvTextOut** function pointer.
 

@@ -28,7 +28,7 @@ This macro has no parameters.
 
 ## Return value
 
-A [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/windows/desktop/53535d9f-246a-42cf-82a2-fb3cf6d4ebac) equivalent to [**D3DTS\_WORLDMATRIX(0)**](https://msdn.microsoft.com/windows/desktop/b0a1548c-de5d-4eff-baf9-4aecb5e13443).
+A [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtransformstatetype.htm) equivalent to [**D3DTS\_WORLDMATRIX(0)**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dts_worldmatrix.htm).
 
 ## Remarks
 

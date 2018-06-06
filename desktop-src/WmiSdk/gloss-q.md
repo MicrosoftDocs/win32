@@ -23,14 +23,14 @@ ms.date: 05/31/2018
 <span id="wmi.gloss_qualifier"></span><span id="WMI.GLOSS_QUALIFIER"></span>**qualifier**
 </dt> <dd>
 
-A modifier that contains information that describes a class, instance, [*property*](https://www.bing.com/search?q=*property*), method, or parameter.
+A modifier that contains information that describes a class, instance, [*property*](gloss-p.md#wmi-gloss-property), method, or parameter.
 
 </dd> <dt>
 
 <span id="wmi.gloss_qualifier_flavor"></span><span id="WMI.GLOSS_QUALIFIER_FLAVOR"></span>**qualifier flavor**
 </dt> <dd>
 
-See [*flavor*](https://www.bing.com/search?q=*flavor*).
+See [*flavor*](gloss-f.md#wmi-gloss-flavor).
 
 </dd> </dl>
 

@@ -30,7 +30,7 @@ Gets the height of items in a list box.
 *wParam* 
 </dt> <dd>
 
-The zero-based index of the list box item. This index is used only if the list box has the [**LBS\_OWNERDRAWVARIABLE**](https://www.bing.com/search?q=**LBS\_OWNERDRAWVARIABLE**) style; otherwise, it must be zero.
+The zero-based index of the list box item. This index is used only if the list box has the [**LBS\_OWNERDRAWVARIABLE**](list-box-styles.md#lbs-ownerdrawvariable) style; otherwise, it must be zero.
 
 Windows 95/Windows 98/Windows Millennium Edition (Windows Me): The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
 
@@ -45,7 +45,7 @@ This parameter is not used.
 
 ## Return value
 
-The return value is the height, in pixels, of each item in the list box. The return value is the height of the item specified by the *wParam* parameter if the list box has the [**LBS\_OWNERDRAWVARIABLE**](https://www.bing.com/search?q=**LBS\_OWNERDRAWVARIABLE**) style. The return value is LB\_ERR if an error occurs.
+The return value is the height, in pixels, of each item in the list box. The return value is the height of the item specified by the *wParam* parameter if the list box has the [**LBS\_OWNERDRAWVARIABLE**](list-box-styles.md#lbs-ownerdrawvariable) style. The return value is LB\_ERR if an error occurs.
 
 ## Requirements
 

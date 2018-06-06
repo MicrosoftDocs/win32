@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Constructing InParameters Objects and Parsing OutParameters Objects
 
-Normally, direct access is adequate to call a WMI [*provider method*](https://www.bing.com/search?q=*provider method*). Direct access means executing a method by using *object.method* syntax. However, in some cases, direct access cannot be used. Also, calling a provider method asynchronously from a script requires an [**ExecMethodAsync**](swbemobject-execmethodasync-.md) type of call.
+Normally, direct access is adequate to call a WMI [*provider method*](gloss-p.md#wmi-gloss-provider-method). Direct access means executing a method by using *object.method* syntax. However, in some cases, direct access cannot be used. Also, calling a provider method asynchronously from a script requires an [**ExecMethodAsync**](swbemobject-execmethodasync-.md) type of call.
 
 > [!Note]  
 > Because the callback to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. For more information, see [Calling a Method](calling-a-method.md).

@@ -63,7 +63,7 @@ If the operation succeeds, the function should return **TRUE**. Otherwise the fu
 
 ## Remarks
 
-Print providers are required to define an **InitializePrintProvidor** function, which is the first function called by the spooler after the provider has been loaded. The function must fill the supplied [**PRINTPROVIDOR**](printprovidor.md) structure with pointers to the provider's defined functions (see [Functions Defined by Print Providers](https://www.bing.com/search?q=Functions Defined by Print Providers)). The function can also perform other provider-specific initialization operations.
+Print providers are required to define an **InitializePrintProvidor** function, which is the first function called by the spooler after the provider has been loaded. The function must fill the supplied [**PRINTPROVIDOR**](printprovidor.md) structure with pointers to the provider's defined functions (see [Functions Defined by Print Providers](https://www.bing.com/search?q=Functions+Defined+by+Print+Providers)). The function can also perform other provider-specific initialization operations.
 
 ## Requirements
 

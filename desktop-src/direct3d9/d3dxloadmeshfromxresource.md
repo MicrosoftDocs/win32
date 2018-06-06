@@ -40,7 +40,7 @@ HRESULT D3DXLoadMeshFromXResource(
 *Module* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**HMODULE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Handle to the module where the resource is located, or **NULL** for the module associated with the image the operating system used to create the current process. See remarks.
 
@@ -49,7 +49,7 @@ Handle to the module where the resource is located, or **NULL** for the module a
 *Name* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to a string that specifies the resource to create the mesh from. See remarks.
 
@@ -58,7 +58,7 @@ Pointer to a string that specifies the resource to create the mesh from. See rem
 *Type* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to a string that specifies the resource type. See remarks.
 
@@ -67,9 +67,9 @@ Pointer to a string that specifies the resource type. See remarks.
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.com/windows/desktop/c94e19ab-8024-4a28-9d1a-6d57707c3a52) enumeration that specify creation options for the mesh.
+Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmesh.htm) enumeration that specify creation options for the mesh.
 
 </dd> <dt>
 
@@ -112,7 +112,7 @@ Pointer to a buffer containing an array of effect instances, one per attribute g
 *pNumMaterials* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to the number of [**D3DXMATERIAL**](d3dxmaterial.md) structures in the *ppMaterials* array, when the method returns.
 
@@ -135,7 +135,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 ## Remarks
 
-See [**FindResource**](https://msdn.microsoft.com/windows/desktop/00f14551-5381-4499-a13a-86f15dd4e618) to find out more about the Module, Name and Type parameters.
+See [**FindResource**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\findresource.htm) to find out more about the Module, Name and Type parameters.
 
 All the meshes in the file will be collapsed into one output mesh. If the file contains a frame hierarchy, all the transformations will be applied to the mesh.
 

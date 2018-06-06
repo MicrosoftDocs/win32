@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_rpc_odl_glos"></span><span id="_RPC_ODL_GLOS"></span>**Object Description Language (ODL)**
 </dt> <dd>
 
-Subset of [*MIDL*](https://www.bing.com/search?q=*MIDL*) attributes, keywords, statements, and directives used to define type libraries for OLE Automation applications.
+Subset of [*MIDL*](m-glos.md#-rpc-midl-glos) attributes, keywords, statements, and directives used to define type libraries for OLE Automation applications.
 
 </dd> <dt>
 

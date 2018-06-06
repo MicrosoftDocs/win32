@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # AJAX
 
-AJAX features in Windows Internet Explorer 8 like [**XDomainRequest (XDR)**](https://www.bing.com/search?q=**XDomainRequest (XDR)**) and [Cross-Document Messaging (XDM)](http://go.microsoft.com/fwlink/p/?linkid=204991) have native properties that might conflict with existing custom properties.
+AJAX features in Windows Internet Explorer 8 like [**XDomainRequest (XDR)**](https://www.bing.com/search?q=**XDomainRequest+(XDR)**) and [Cross-Document Messaging (XDM)](http://go.microsoft.com/fwlink/p/?linkid=204991) have native properties that might conflict with existing custom properties.
 
 Windows Internet Explorer exposes new properties for certain AJAX features, such as [Cross-Document Messaging (XDM)](http://go.microsoft.com/fwlink/p/?linkid=204991), even in Compatibility View. If you add custom properties to the event object, they might conflict with these new properties, such as **source**.
 

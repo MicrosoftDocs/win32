@@ -33,7 +33,7 @@ This topic describes how to create, add items to, and retrieve items from a simp
 
 ### Step 1: Create an instance of the combo box.
 
-The example application calls the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) function to create a child window of the application window. The [**WC\_COMBOBOX**](https://www.bing.com/search?q=**WC\_COMBOBOX**) window style specifies that it is a combo box.
+The example application calls the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) function to create a child window of the application window. The [**WC\_COMBOBOX**](common-control-window-classes.md#wc-combobox) window style specifies that it is a combo box.
 
 
 ```C++

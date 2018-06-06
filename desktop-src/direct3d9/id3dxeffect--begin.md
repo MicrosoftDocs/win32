@@ -32,7 +32,7 @@ HRESULT Begin(
 *pPasses* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to a value returned that indicates the number of passes needed to render the current technique.
 
@@ -41,7 +41,7 @@ Pointer to a value returned that indicates the number of passes needed to render
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 DWORD that determines if state modified by an effect is saved and restored. The default value 0 specifies that **ID3DXEffect::Begin** and [**ID3DXEffect::End**](id3dxeffect--end.md) will save and restore all state modified by the effect (including pixel and vertex shader constants). Valid flags can be seen at [Effect State Save and Restore Flags](d3dxfx.md).
 

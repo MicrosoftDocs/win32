@@ -51,7 +51,7 @@ Returns a pointer to an array of descriptions. See [**D3DXCONSTANT\_DESC**](d3dx
 *pCount* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 The input supplied must be the maximum size of the array. The output is the number of elements that are filled in the array when the function returns.
 

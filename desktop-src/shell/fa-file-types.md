@@ -25,7 +25,7 @@ This topic is organized as follows:
 Additional information can be found on the following topics:
 
 -   [How To Choose a File Type Extension](how-to-choose-a-file-type-extension.md)
--   [How To Define File Type Attributes](https://www.bing.com/search?q=How To Define File Type Attributes)
+-   [How To Define File Type Attributes](https://www.bing.com/search?q=How+To+Define+File+Type+Attributes)
 -   [How To Include an Application on the Open with Dialog Box](how-to-include-an-application-on-the-open-with-dialog-box.md)
 -   [How To Exclude an Application from the Open with Dialog Box for Unassociated File Types](how-to-exclude-an-application-from-the-open-with-dialog-box-for-unassociated-file-types.md)
 
@@ -105,7 +105,7 @@ HKEY_CLASSES_ROOT
 Important considerations about file types include:
 
 -   The **HKEY\_CLASSES\_ROOT** subtree is a view formed by merging **HKEY\_CURRENT\_USER**\\**Software**\\**Classes** and **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Classes**
--   In general, **HKEY\_CLASSES\_ROOT** is intended to be read from but not written to. For more information, see the [HKEY\_CLASSES\_ROOT](https://msdn.microsoft.com/windows/desktop/b404875f-11e1-48f2-98d2-0378a0646ed3) article.
+-   In general, **HKEY\_CLASSES\_ROOT** is intended to be read from but not written to. For more information, see the [HKEY\_CLASSES\_ROOT](https://msdn.microsoft.com/b404875f-11e1-48f2-98d2-0378a0646ed3) article.
 -   To register a file type globally on a particular computer, create an entry for the file type in the **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Classes** subkey.
 -   To make a file type registration visible to the current user only, create an entry for the file type in the **HKEY\_CURRENT\_USER**\\**Software**\\**Classes** subkey.
 -   An application can provide its own implementation of a verb, such as open or play, as shown in the following registry example.

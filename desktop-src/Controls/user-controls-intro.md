@@ -61,7 +61,7 @@ case WM_DRAWITEM:
 
 
 
-For more information about owner-drawn controls, see [Creating an Owner-drawn List Box](https://www.bing.com/search?q=Creating an Owner-drawn List Box) and [Owner Drawn Combo Boxes](https://www.bing.com/search?q=Owner Drawn Combo Boxes).
+For more information about owner-drawn controls, see [Creating an Owner-drawn List Box](using-list-boxes.md#ownerdrawn-listbox) and [Owner Drawn Combo Boxes](about-combo-boxes.md#owner-drawn-combo-boxes).
 
 ## Subclassing the Window Class of an Existing Control
 

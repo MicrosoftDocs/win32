@@ -23,7 +23,7 @@ Password filters are used to enforce password policy. Filters validate new passw
 
 For an overview of using password filters, see [Using Password Filters](using-password-filters.md).
 
-For a list of password filter functions, see [Password Filter Functions](https://www.bing.com/search?q=Password Filter Functions).
+For a list of password filter functions, see [Password Filter Functions](management-functions.md#password-filter-functions).
 
 The following topics provide more information about password filters:
 

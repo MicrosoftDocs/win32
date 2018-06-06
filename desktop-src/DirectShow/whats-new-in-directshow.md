@@ -36,9 +36,9 @@ DVD playback: New options for the [**IDvdControl2::SetOption**](/windows/desktop
     -   Components such as decoders can access DXVA 2.0 directly without communicating through the video renderer.
     -   The Direct3D Device Manager enables components to share the same Direct3D device.
 
-    For more information about DXVA 2.0, see the [DirectX Video Acceleration 2.0](https://msdn.microsoft.com/windows/desktop/acb73b20-89fa-4a48-be4a-846715a239b0) documentation, which is part of the [Microsoft Media Foundation](https://msdn.microsoft.com/windows/desktop/0d355ad1-d674-432e-809a-9fb27ac5f610) documentation.
+    For more information about DXVA 2.0, see the [DirectX Video Acceleration 2.0](https://msdn.microsoft.com/acb73b20-89fa-4a48-be4a-846715a239b0) documentation, which is part of the [Microsoft Media Foundation](https://msdn.microsoft.com/0d355ad1-d674-432e-809a-9fb27ac5f610) documentation.
 
--   The [**Enhanced Video Renderer**](enhanced-video-renderer-filter.md) (EVR) is a powerful new video renderer, which shares the same plug-in model as the Media Foundation version of the EVR. For more information about the EVR, see the [Microsoft Media Foundation](https://msdn.microsoft.com/windows/desktop/0d355ad1-d674-432e-809a-9fb27ac5f610) documentation.
+-   The [**Enhanced Video Renderer**](enhanced-video-renderer-filter.md) (EVR) is a powerful new video renderer, which shares the same plug-in model as the Media Foundation version of the EVR. For more information about the EVR, see the [Microsoft Media Foundation](https://msdn.microsoft.com/0d355ad1-d674-432e-809a-9fb27ac5f610) documentation.
 -   Support for Windows Vista Display Driver Model (WDDM) capture. This feature enables filters to take full advantage of video cards with integrated video capture, to reduce unnecessary copies between video memory and system memory. For more information, see [Using WDDM Capture in DirectShow](using-wddm-capture-in-directshow.md).
 -   The MPEG-1 Layer II audio decoder now uses floating-point arithmetic, for improved decoding quality.
 -   DVD playback enhancements. For details, see [DVD Playback Enhancements in Windows Vista](dvd-playback-enhancements-in-windows-vista.md).
@@ -46,10 +46,10 @@ DVD playback: New options for the [**IDvdControl2::SetOption**](/windows/desktop
     -   Enhanced caching. Applications can set how much data the DVD Navigator reads in advance. Setting a larger cache can extend battery life and enable silent playback (after the drive spins down). For more information, see [**DVD\_OPTION\_FLAG**](/windows/desktop/api/strmif/ne-strmif-__midl___midl_itf_strmif_0000_0132_0003).
 -   Audio end-point devices: Applications can associate the [DirectSound Renderer Filter](directsound-renderer-filter.md) with a particular audio end-point device. Applications can use the Multimedia Device (MMDevice) API to enumerate and select the end-point device. For more information, see the Core Audio API documentation in the Windows SDK.
 -   The following filters have been removed from Windows Vista:
-    -   [BDA IP Sink Filter](https://msdn.microsoft.com/windows/desktop/78cd6cba-3bd7-4ad4-b65d-c6b866a18d4e)
-    -   [BDA SLIP Deframer Filter](https://msdn.microsoft.com/windows/desktop/21a64adf-ff3d-4dc1-80d4-875e10acd7e6)
+    -   [BDA IP Sink Filter](https://msdn.microsoft.com/78cd6cba-3bd7-4ad4-b65d-c6b866a18d4e)
+    -   [BDA SLIP Deframer Filter](https://msdn.microsoft.com/21a64adf-ff3d-4dc1-80d4-875e10acd7e6)
     -   [CC Decoder Filter](cc-decoder-filter.md)
-    -   [NABTS/FEC VBI Codec Filter](https://msdn.microsoft.com/windows/desktop/34b57979-3aa6-42de-9ea0-8948e0947fe8)
+    -   [NABTS/FEC VBI Codec Filter](https://msdn.microsoft.com/34b57979-3aa6-42de-9ea0-8948e0947fe8)
     -   [QT Decompressor Filter](qt-decompressor-filter.md)
     -   [QuickTime Movie Parser Filter](quicktime-movie-parser-filter.md)
     -   [WST Codec Filter](wst-codec-filter.md)

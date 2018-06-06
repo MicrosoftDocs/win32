@@ -88,7 +88,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 An application invokes this method to create an extension object implementing one of the WIA 2.0 driver extension interfaces. **IWiaItem2::GetExtension** stores the address of the extension object's extension interface in the *riidExtensionInterface* parameter. The application then uses the interface pointer to call its methods.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/windows/desktop/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) method on the interface pointers they receive through the *riidExtensionInterface* parameter.
+Applications must call the [IUnknown::Release](https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) method on the interface pointers they receive through the *riidExtensionInterface* parameter.
 
 ## Examples
 

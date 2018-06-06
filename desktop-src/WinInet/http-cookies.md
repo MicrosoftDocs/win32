@@ -120,7 +120,7 @@ Using the Dynamic HTML (DHTML) object model, cookies can be set by calling the *
 
 ### Generating a Cookie Using the WinInet Functions
 
-Cookies can be created by applications using the [**InternetSetCookie**](/windows/desktop/api/Wininet/nf-wininet-internetsetcookiea) function. For more information, see [Setting a Cookie](https://www.bing.com/search?q=Setting a Cookie).
+Cookies can be created by applications using the [**InternetSetCookie**](/windows/desktop/api/Wininet/nf-wininet-internetsetcookiea) function. For more information, see [Setting a Cookie](managing-cookies.md#setting-a-cookie).
 
 ### Generating a Cookie Using a CGI Script
 

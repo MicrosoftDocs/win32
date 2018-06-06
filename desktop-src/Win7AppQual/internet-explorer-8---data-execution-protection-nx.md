@@ -64,7 +64,7 @@ Compile applications by using the latest versions of frameworks that are DEP com
 ## Links to Other Resources
 
 -   [Internet Explorer 8 Security Part I: DEP/NX Memory Protection](http://go.microsoft.com/fwlink/p/?linkid=205078)
--   [Data Execution Prevention](https://msdn.microsoft.com/windows/desktop/75cd83a5-4b77-4ca9-b595-e32d0dd609d0)
+-   [Data Execution Prevention](https://msdn.microsoft.com/75cd83a5-4b77-4ca9-b595-e32d0dd609d0)
 -   [New NX APIs added to Windows Vista SP1, Windows XP SP3 and Windows Server 2008 R2](http://go.microsoft.com/fwlink/p/?linkid=205079)
 -   [Application Compatibility Toolkit Download](http://go.microsoft.com/fwlink/p/?linkid=205020)
 -   [Known Internet Explorer Security Feature Issues](http://go.microsoft.com/fwlink/p/?linkid=205080)

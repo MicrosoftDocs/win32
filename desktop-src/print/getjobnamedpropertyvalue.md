@@ -34,14 +34,14 @@ DWORD WINAPI GetJobNamedPropertyValue(
 *hPrinter* \[in\]
 </dt> <dd>
 
-A handle to the printer object of interest. Use the [OpenPrinter](https://www.bing.com/search?q=OpenPrinter), [**OpenPrinter2**](https://msdn.microsoft.com/windows/desktop/e2370ae4-4475-4ccc-a6f9-3d33d1370054), or the [**AddPrinter**](https://msdn.microsoft.com/windows/desktop/ffc4fee8-46c6-47ad-803d-623bf8efdefd) function to retrieve a printer handle.
+A handle to the printer object of interest. Use the [OpenPrinter](https://www.bing.com/search?q=OpenPrinter), [**OpenPrinter2**](https://msdn.microsoft.com/e2370ae4-4475-4ccc-a6f9-3d33d1370054), or the [**AddPrinter**](https://msdn.microsoft.com/ffc4fee8-46c6-47ad-803d-623bf8efdefd) function to retrieve a printer handle.
 
 </dd> <dt>
 
 *JobId* \[in\]
 </dt> <dd>
 
-Identifier that specifies the print job. You obtain a print job identifier by calling the [**AddJob**](https://msdn.microsoft.com/windows/desktop/cfafa874-6022-4bf4-bf3d-096213eb0c98) function or the [**StartDoc**](oemstartdoc.md) function.
+Identifier that specifies the print job. You obtain a print job identifier by calling the [**AddJob**](https://msdn.microsoft.com/cfafa874-6022-4bf4-bf3d-096213eb0c98) function or the [**StartDoc**](oemstartdoc.md) function.
 
 </dd> <dt>
 

@@ -86,7 +86,7 @@ A pointer to a variable that receives the size of the byte array specified by \*
 
 ## Return value
 
-The method returns one of the following values. For more information about COM error codes, see [Error Handling](https://www.bing.com/search?q=Error Handling).
+The method returns one of the following values. For more information about COM error codes, see [Error Handling](https://www.bing.com/search?q=Error+Handling).
 
 
 
@@ -128,7 +128,7 @@ If an application calls **GetOutputData** with the same index twice, the interfa
 [Bidirectional Communication Interfaces](bidirectional-communication-interfaces.md)
 </dt> <dt>
 
-[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional Communication Schema)
+[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional+Communication+Schema)
 </dt> <dt>
 
 [**IBidiRequest**](ibidirequest.md)

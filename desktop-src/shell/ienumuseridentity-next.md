@@ -44,7 +44,7 @@ A **ULONG** value that represents the number of interfaces to retrieve.
 *rgelt* \[out\]
 </dt> <dd>
 
-Type: **[**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332)\*\***
+Type: **[**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332)\*\***
 
 The address of a pointer that receives the interfaces.
 

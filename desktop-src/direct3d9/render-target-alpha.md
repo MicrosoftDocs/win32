@@ -25,7 +25,7 @@ D3DRS_DESTBLENDALPHA
 
 
 
-Like the D3DRS\_SRCBLEND and D3DRS\_DESTBLEND, these can be set to one of the values in the [**D3DBLEND**](https://msdn.microsoft.com/windows/desktop/60ff384c-15a0-4c6f-9e2c-59fdea76b7a1) enumeration. The source and destination blend settings can be combined in several ways, depending on the settings in the SrcBlendCaps and DestBlendCaps members of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9).
+Like the D3DRS\_SRCBLEND and D3DRS\_DESTBLEND, these can be set to one of the values in the [**D3DBLEND**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dblend.htm) enumeration. The source and destination blend settings can be combined in several ways, depending on the settings in the SrcBlendCaps and DestBlendCaps members of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-_d3dcaps9).
 
 The alpha blending is done as follows:
 
@@ -34,10 +34,10 @@ renderTargetAlpha = (alpha<sub>in</sub> \* srcBlendOp) BlendOp (alpha<sub>rt</su
 Where:
 
 -   alpha<sub>in</sub> is the input alpha value.
--   srcBlendOp is one of the blend factors in [**D3DBLEND**](https://msdn.microsoft.com/windows/desktop/60ff384c-15a0-4c6f-9e2c-59fdea76b7a1).
--   BlendOp is one of the blend factors in [**D3DBLENDOP**](https://msdn.microsoft.com/windows/desktop/ae750d84-ed7d-4a76-bf64-eae8828c66c7).
+-   srcBlendOp is one of the blend factors in [**D3DBLEND**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dblend.htm).
+-   BlendOp is one of the blend factors in [**D3DBLENDOP**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dblendop.htm).
 -   alpha<sub>rt</sub> is the render-target alpha value.
--   destBlendOp is one of the blend factors in [**D3DBLEND**](https://msdn.microsoft.com/windows/desktop/60ff384c-15a0-4c6f-9e2c-59fdea76b7a1).
+-   destBlendOp is one of the blend factors in [**D3DBLEND**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dblend.htm).
 -   renderTargetAlpha is the final blended alpha value.
 
 ## Related topics

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket method
 
-The `IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket` method converts a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure into a print ticket.
+The `IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket` method converts a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure into a print ticket.
 
 ## Syntax
 
@@ -35,7 +35,7 @@ HRESULT ConvertDevModeToPrintTicket(
 *cbDevmode* \[in\]
 </dt> <dd>
 
-The size, in bytes, of the input [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure. The size includes both the public and private portions of this structure.
+The size, in bytes, of the input [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure. The size includes both the public and private portions of this structure.
 
 </dd> <dt>
 
@@ -56,7 +56,7 @@ The size, in bytes, of the plug-in's private DEVMODEW structure.
 *pPrivateDevmode* \[in\]
 </dt> <dd>
 
-A pointer to the plug-in's private [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure.
+A pointer to the plug-in's private [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure.
 
 </dd> <dt>
 
@@ -73,7 +73,7 @@ A pointer to the partially-completed print ticket. When `IPrintOemPrintTicketPro
 
 ## Remarks
 
-The core driver calls the `IPrintTicketProvider::ConvertDevModeToPrintTicket` method with an input print ticket that is populated with public and Unidrv-private or Pscript5-private features. The plug-in is free to set [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) settings in the public part or in the plug-in's private part, based on settings in the input print ticket. In addition to setting new DEVMODEW items, the plug-in can modify existing settings in the public portion of the DEVMODEW structure.
+The core driver calls the `IPrintTicketProvider::ConvertDevModeToPrintTicket` method with an input print ticket that is populated with public and Unidrv-private or Pscript5-private features. The plug-in is free to set [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) settings in the public part or in the plug-in's private part, based on settings in the input print ticket. In addition to setting new DEVMODEW items, the plug-in can modify existing settings in the public portion of the DEVMODEW structure.
 
 The DEVMODEW structure fields that correlate with the part of the DEVMODEW structure of interest to the client will already have been populated before `IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket` is called, including the public portion of the DEVMODEW structure and excluding the privately-defined values in the public portion of the DEVMODEW structure.
 

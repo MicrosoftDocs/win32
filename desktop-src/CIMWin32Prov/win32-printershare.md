@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_PrinterShare class
 
-The **Win32\_PrinterShare** association [WMI class](https://msdn.microsoft.com/windows/desktop/cfe4bcca-692e-45cd-a840-93ebfe4ae267) relates a local printer and the share that represents it as it is viewed over a network.
+The **Win32\_PrinterShare** association [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) relates a local printer and the share that represents it as it is viewed over a network.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -52,7 +52,7 @@ Data type: **Win32\_Printer**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e)
+Qualifiers: [**Key**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e)
 </dt> </dl>
 
 Reference to the instance representing the local printer shared in this association.
@@ -68,7 +68,7 @@ Data type: **Win32\_Share**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e)
+Qualifiers: [**Key**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e)
 </dt> </dl>
 
 Reference to the instance representing the share of the printer in this association.
@@ -97,7 +97,7 @@ The **Win32\_PrinterShare** class is derived from [**CIM\_Dependency**](cim-depe
 
 <dl> <dt>
 
-[Operating System Classes](https://www.bing.com/search?q=Operating System Classes)
+[Operating System Classes](https://www.bing.com/search?q=Operating+System+Classes)
 </dt> </dl>
 
  

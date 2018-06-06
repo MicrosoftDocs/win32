@@ -17,7 +17,7 @@ In addition to the methods that belong to the IPrintOemUni2 COM interface, this 
 
 ## Members
 
-The **IPrintOemUni2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintOemUni2** also has these types of members:
+The **IPrintOemUni2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintOemUni2** also has these types of members:
 
 -   [Methods](#methods)
 

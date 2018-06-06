@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # GdiGetDevmodeForPage function
 
-The **GdiGetDevmodeForPage** function returns [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structures for the specified and previous pages of a print job.
+The **GdiGetDevmodeForPage** function returns [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structures for the specified and previous pages of a print job.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ Caller-supplied spool file handle, obtained by a previous call to [**GdiGetSpool
 *dwPageNumber* 
 </dt> <dd>
 
-Caller-supplied number of the page for which [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) contents are to be returned.
+Caller-supplied number of the page for which [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) contents are to be returned.
 
 </dd> <dt>
 
@@ -75,7 +75,7 @@ Before calling [**GdiPlayPageEMF**](gdiplaypageemf.md) to execute a page's EMF i
 
 3.  Call [**GdiStartPageEMF**](gdistartpageemf.md).
 
-For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using GDI Functions in Print Processors).
+For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using+GDI+Functions+in+Print+Processors).
 
 ## Requirements
 

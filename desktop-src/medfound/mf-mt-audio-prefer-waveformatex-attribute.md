@@ -21,9 +21,9 @@ Treat as a Boolean value.
 
 ## Remarks
 
-This attribute provides a hint to the [**MFCreateWaveFormatExFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype) function. If the attribute is **TRUE**, the function converts the audio media type to a [**WAVEFORMATEX**](https://msdn.microsoft.com/windows/desktop/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) structure whenever possible, instead of converting it to a [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/windows/desktop/b16cdcab-fa4f-4c9a-b1f3-af459bd33245) structure.
+This attribute provides a hint to the [**MFCreateWaveFormatExFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype) function. If the attribute is **TRUE**, the function converts the audio media type to a [**WAVEFORMATEX**](https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) structure whenever possible, instead of converting it to a [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/b16cdcab-fa4f-4c9a-b1f3-af459bd33245) structure.
 
-The [**MFInitMediaTypeFromWaveFormatEx**](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex) function sets this attribute. You can override the value of this attribute, but setting this attribute to **TRUE** does not guarantee that an audio media type can be converted to [**WAVEFORMATEX**](https://msdn.microsoft.com/windows/desktop/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) form.
+The [**MFInitMediaTypeFromWaveFormatEx**](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex) function sets this attribute. You can override the value of this attribute, but setting this attribute to **TRUE** does not guarantee that an audio media type can be converted to [**WAVEFORMATEX**](https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) form.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

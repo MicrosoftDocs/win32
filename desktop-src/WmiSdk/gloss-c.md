@@ -37,21 +37,21 @@ The combined date and time format defined by the Distributed Management Task For
 <span id="wmi.gloss_cim_object_manager"></span><span id="WMI.GLOSS_CIM_OBJECT_MANAGER"></span>**CIM Object Manager**
 </dt> <dd>
 
-A component in the WMI infrastructure that handles the interaction between management applications and [*providers*](https://www.bing.com/search?q=*providers*).
+A component in the WMI infrastructure that handles the interaction between management applications and [*providers*](gloss-p.md#wmi-gloss-provider).
 
 </dd> <dt>
 
 <span id="wmi.gloss_cim_repository"></span><span id="WMI.GLOSS_CIM_REPOSITORY"></span>**CIM repository**
 </dt> <dd>
 
-See [*WMI repository*](https://www.bing.com/search?q=*WMI repository*).
+See [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository).
 
 </dd> <dt>
 
 <span id="wmi.gloss_cim_schema"></span><span id="WMI.GLOSS_CIM_SCHEMA"></span>**CIM schema**
 </dt> <dd>
 
-A collection of class definitions used to represent [*managed objects*](https://www.bing.com/search?q=*managed objects*) that occur in every managed environment. Also see *common model*, and [*extension schema*](https://www.bing.com/search?q=*extension schema*).
+A collection of class definitions used to represent [*managed objects*](gloss-m.md#wmi-gloss-managed-object) that occur in every managed environment. Also see *common model*, and [*extension schema*](gloss-e.md#wmi-gloss-extension-schema).
 
 </dd> <dt>
 
@@ -65,21 +65,21 @@ A model used to describe how to represent real-world managed objects.
 <span id="wmi.gloss_common_model"></span><span id="WMI.GLOSS_COMMON_MODEL"></span>**common model**
 </dt> <dd>
 
-The second layer of the *CIM schema*, which includes a series of domain-specific, but platform-independent classes. The domains are systems, networks, applications, and other management-related data. The common model is derived from the core model. Also see [*extension schema*](https://www.bing.com/search?q=*extension schema*).
+The second layer of the *CIM schema*, which includes a series of domain-specific, but platform-independent classes. The domains are systems, networks, applications, and other management-related data. The common model is derived from the core model. Also see [*extension schema*](gloss-e.md#wmi-gloss-extension-schema).
 
 </dd> <dt>
 
 <span id="wmi.gloss_consumer_filter_binding"></span><span id="WMI.GLOSS_CONSUMER_FILTER_BINDING"></span>**consumer-filter binding**
 </dt> <dd>
 
-An instance of the [**\_\_FilterToConsumerBinding**](--filtertoconsumerbinding.md) system class that describes a relationship between a [*logical consumer*](https://www.bing.com/search?q=*logical consumer*) and an [*event filter*](https://www.bing.com/search?q=*event filter*). Consumer-filter binding is a component of the permanent consumer architecture.
+An instance of the [**\_\_FilterToConsumerBinding**](--filtertoconsumerbinding.md) system class that describes a relationship between a [*logical consumer*](gloss-l.md#wmi-gloss-logical-consumer) and an [*event filter*](gloss-e.md#wmi-gloss-event-filter). Consumer-filter binding is a component of the permanent consumer architecture.
 
 </dd> <dt>
 
 <span id="wmi.gloss_consumer_provider"></span><span id="WMI.GLOSS_CONSUMER_PROVIDER"></span>**consumer provider**
 </dt> <dd>
 
-See [*event consumer provider*](https://www.bing.com/search?q=*event consumer provider*).
+See [*event consumer provider*](gloss-e.md#wmi-gloss-event-consumer-provider).
 
 </dd> </dl>
 

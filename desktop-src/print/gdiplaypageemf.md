@@ -49,7 +49,7 @@ Caller-supplied page handle, obtained by calling [**GdiGetPageHandle**](gdigetpa
 *prectDocument* 
 </dt> <dd>
 
-Caller-supplied pointer to a [**RECT**](https://www.bing.com/search?q=**RECT**) structure specifying the rectangle into which the page is to be drawn.
+Caller-supplied pointer to a [**RECT**](https://msdn.microsoft.com/a44f33f4-49b2-4a36-a7bd-fc4a9d3a3943) structure specifying the rectangle into which the page is to be drawn.
 
 </dd> <dt>
 
@@ -81,7 +81,7 @@ The print processor uses *prectClip* to describe the rectangular region to be pr
 
 The *prectBorder* parameter, if it is non-**NULL**, describes a solid-line border rectangle to be drawn around the document page. If *prectBorder* is **NULL**, no such border will be drawn.
 
-For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using GDI Functions in Print Processors).
+For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using+GDI+Functions+in+Print+Processors).
 
 ## Requirements
 

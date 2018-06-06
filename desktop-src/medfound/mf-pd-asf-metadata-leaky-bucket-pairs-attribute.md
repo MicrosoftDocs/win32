@@ -79,7 +79,7 @@ For each bit rate, the **msBufferWindow** member indicates how much content is b
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)
 </dt> <dt>
 
-[ASF Header Object](https://www.bing.com/search?q=ASF Header Object)
+[ASF Header Object](asf-file-structure.md#header-object)
 </dt> <dt>
 
 [Presentation Descriptors](presentation-descriptors.md)

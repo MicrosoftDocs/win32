@@ -32,7 +32,7 @@ HRESULT GetName(
 *szName* \[in\]
 </dt> <dd>
 
-Type: **[**LPSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Address of a pointer to receive the name of this file data object. If this parameter is **NULL**, then puiSize will return the size of the string. If szName points to valid memory, the name of this file data object will be copied into szName up to the number of characters given by puiSize.
 
@@ -41,7 +41,7 @@ Address of a pointer to receive the name of this file data object. If this param
 *puiSize* \[in, out\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to the size of the string that represents the name of this file data object. This parameter can be **NULL** if szName provides a reference to the name. This parameter will return the size of the string if szName is **NULL**.
 

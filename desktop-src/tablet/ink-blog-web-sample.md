@@ -291,7 +291,7 @@ If you have installed ASP.NET and the .NET Framework on a computer and you then 
 [Ink Data Formats](ink-data-formats.md)
 </dt> <dt>
 
-[System.Windows.Forms.UserControl Class](https://www.bing.com/search?q=System.Windows.Forms.UserControl Class)
+[System.Windows.Forms.UserControl Class](https://www.bing.com/search?q=System.Windows.Forms.UserControl+Class)
 </dt> </dl>
 
  

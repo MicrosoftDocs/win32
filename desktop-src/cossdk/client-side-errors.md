@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Client-Side Errors
 
-Client-side failures are handled in a way that is similar to server-side failures. [Message Queuing](https://www.bing.com/search?q=Message Queuing) can move a message to its destination queue if, for example, the message cannot be moved from client to server. In this case, the message is moved to the client-side dead letter queue.
+Client-side failures are handled in a way that is similar to server-side failures. [Message Queuing](https://www.bing.com/search?q=Message+Queuing) can move a message to its destination queue if, for example, the message cannot be moved from client to server. In this case, the message is moved to the client-side dead letter queue.
 
 The COM+ queued components service monitors the dead letter queue. If messages have been moved, the queued components service creates an instance of the exception class and calls [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) to request [**IPlaybackControl**](/windows/desktop/api/ComSvcs/nn-comsvcs-iplaybackcontrol). If this is successful, the dead letter queue monitor invokes [**IPlaybackControl::FinalClientRetry**](/windows/desktop/api/ComSvcs/nf-comsvcs-iplaybackcontrol-finalclientretry).
 

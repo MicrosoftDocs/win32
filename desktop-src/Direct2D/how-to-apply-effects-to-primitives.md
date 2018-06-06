@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # How to Apply Effects to Primitives
 
-This topic shows how to apply a series of effect to [Direct2D](https://www.bing.com/search?q=Direct2D) and [DirectWrite](direct2d-and-directwrite.md) primitives.
+This topic shows how to apply a series of effect to [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) and [DirectWrite](direct2d-and-directwrite.md) primitives.
 
-You can use the [Direct2D effects API](effects-overview.md) to apply effect graphs to primitives rendered by [Direct2D](https://www.bing.com/search?q=Direct2D) to an image. The example here has two rounded rectangles and the text "Direct2D". Use Direct2D to draw the rectangles and [DirectWrite](direct2d-and-directwrite.md) to draw the text.
+You can use the [Direct2D effects API](effects-overview.md) to apply effect graphs to primitives rendered by [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) to an image. The example here has two rounded rectangles and the text "Direct2D". Use Direct2D to draw the rectangles and [DirectWrite](direct2d-and-directwrite.md) to draw the text.
 
 ![rectangles with the text "direct2d" within.](images/direct2d-rounded.png)
 

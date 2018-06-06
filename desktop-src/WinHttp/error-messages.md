@@ -559,7 +559,7 @@ Indicates that an error occurred having to do with a secure channel (equivalent 
 
 
 
-One or more errors were found in the Secure Sockets Layer (SSL) certificate sent by the server. To determine what type of error was encountered, check for a [**WINHTTP\_CALLBACK\_STATUS\_SECURE\_FAILURE**](https://www.bing.com/search?q=**WINHTTP\_CALLBACK\_STATUS\_SECURE\_FAILURE**) notification in a status callback function. For more information, see [**WINHTTP\_STATUS\_CALLBACK**](/windows/desktop/api/Winhttp/nc-winhttp-winhttp_status_callback).
+One or more errors were found in the Secure Sockets Layer (SSL) certificate sent by the server. To determine what type of error was encountered, check for a [**WINHTTP\_CALLBACK\_STATUS\_SECURE\_FAILURE**](internet-status-callback-prototype.md#dwinternetstatus) notification in a status callback function. For more information, see [**WINHTTP\_STATUS\_CALLBACK**](/windows/desktop/api/Winhttp/nc-winhttp-winhttp_status_callback).
 
 
 </dt> </dl> </dd> <dt>

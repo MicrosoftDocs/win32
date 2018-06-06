@@ -67,9 +67,9 @@ BOOL APIENTRY OEMLineTo(
 
 ### Comments
 
-See [**DrvLineTo**](https://www.bing.com/search?q=**DrvLineTo**).
+See [**DrvLineTo**](https://msdn.microsoft.com/e1e5dd93-444d-4176-9f7f-8aa220cddf78).
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the drawing DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvLineTo** function pointer.
 

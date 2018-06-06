@@ -64,7 +64,7 @@ The **IPrinterExtensionContext** interface has these properties.
 [**IPrinterExtensionEvent::OnPrinterQueuesEnumerated**](iprinterextensionevent-onprinterqueuesenumerated.md)
 </dt> <dt>
 
-[V4 Printer Driver Property Bags](https://www.bing.com/search?q=V4 Printer Driver Property Bags)
+[V4 Printer Driver Property Bags](https://www.bing.com/search?q=V4+Printer+Driver+Property+Bags)
 </dt> </dl>
 
  

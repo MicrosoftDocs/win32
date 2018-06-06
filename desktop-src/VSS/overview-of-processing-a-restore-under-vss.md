@@ -21,8 +21,8 @@ Like a backup operation, a VSS restore requires access to both a Backup Componen
 
 As is the case during backup operations, the Writer Metadata Documents remain read-only objects, and (once retrieved) the Backup Components Document can still be modified. Modifications of the Backup Components Document allow writers and requester to communicate about the following:
 
--   Overriding [*restore methods*](https://www.bing.com/search?q=*restore methods*) with [*restore targets*](https://www.bing.com/search?q=*restore targets*)
--   Using [*alternate location mappings*](https://www.bing.com/search?q=*alternate location mappings*)
+-   Overriding [*restore methods*](vssgloss-r.md#base-vssgloss-restore-method) with [*restore targets*](vssgloss-r.md#base-vssgloss-restore-target)
+-   Using [*alternate location mappings*](vssgloss-a.md#base-vssgloss-alternate-location-mapping)
 -   Restoring files to new locations on disk
 -   Using different selection rules from those used during backup
 

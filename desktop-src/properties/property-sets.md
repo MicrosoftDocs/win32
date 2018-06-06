@@ -17,7 +17,7 @@ This section describes the Windows Property System property sets.
 
 | Topic                                                               | Contents                                                                                                |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [DBPROPSET\_CIFRMWRKCORE\_EXT](https://msdn.microsoft.com/windows/desktop/b5c0f263-bd76-4659-8159-978639b4666f) | Contains system properties that define the machine name and client class identifier (CLSID).<br/> |
+| [DBPROPSET\_CIFRMWRKCORE\_EXT](https://msdn.microsoft.com/VS|indexsrv|~\html\ixrefint_4vas.htm) | Contains system properties that define the machine name and client class identifier (CLSID).<br/> |
 
 
 

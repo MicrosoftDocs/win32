@@ -48,7 +48,7 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) interface, representing the source m
 *pAdjacencyIn* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the mesh to be simplified.
 
@@ -57,7 +57,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *MaxSize* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **const [**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Maximum number of vertices in the resulting mesh.
 
@@ -66,7 +66,7 @@ Maximum number of vertices in the resulting mesh.
 *Options* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **const [**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Option flags for the new meshes.
 
@@ -75,7 +75,7 @@ Option flags for the new meshes.
 *pMeshesOut* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Number of meshes returned.
 

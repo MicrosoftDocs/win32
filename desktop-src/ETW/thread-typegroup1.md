@@ -78,7 +78,7 @@ Access type: Read-only
 Qualifiers: WmiDataId(11)
 </dt> </dl>
 
-The scheduler priority of the thread (see the [**SetThreadPriority**](https://msdn.microsoft.com/windows/desktop/e3992e19-b546-4b0b-aa6a-dd9a7e330bf3) function).
+The scheduler priority of the thread (see the [**SetThreadPriority**](https://msdn.microsoft.com/e3992e19-b546-4b0b-aa6a-dd9a7e330bf3) function).
 
 </dd> <dt>
 

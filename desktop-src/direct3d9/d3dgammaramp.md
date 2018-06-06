@@ -33,7 +33,7 @@ typedef struct D3DGAMMARAMP {
 **red**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**WORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -44,7 +44,7 @@ Array of 256 WORD element that describes the red gamma ramp.
 **green**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**WORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -55,7 +55,7 @@ Array of 256 WORD element that describes the green gamma ramp.
 **blue**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**WORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 

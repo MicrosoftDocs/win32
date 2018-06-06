@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Encoding and Decoding a Hashed Message
 
-The following example [*hashes*](https://www.bing.com/search?q=*hashes*) and encodes a text message, and then decodes and verifies the message.
+The following example [*hashes*](security.h_gly#-security-hash-gly) and encodes a text message, and then decodes and verifies the message.
 
 Although, for simplicity, the two different functions have been combined in this example, in a more realistic setting the two parts would be used separately.
 

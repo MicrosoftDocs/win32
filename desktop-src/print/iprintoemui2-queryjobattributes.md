@@ -41,7 +41,7 @@ Specifies the caller-supplied printer handle.
 *pDevmode* 
 </dt> <dd>
 
-Pointer to a caller-supplied [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure.
+Pointer to a caller-supplied [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure.
 
 </dd> <dt>
 
@@ -116,7 +116,7 @@ See [**DrvQueryJobAttributes**](drvqueryjobattributes.md) for more information.
 [**ATTRIBUTE\_INFO\_4**](attribute-info-4.md)
 </dt> <dt>
 
-[**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**)
+[**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b)
 </dt> <dt>
 
 [**DrvQueryJobAttributes**](drvqueryjobattributes.md)

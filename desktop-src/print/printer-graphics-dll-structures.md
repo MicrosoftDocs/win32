@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## 
 
-The structures that are used by a [printer graphics DLL](https://www.bing.com/search?q=printer graphics DLL) are described in [GDI Structures](https://www.bing.com/search?q=GDI Structures), which describes the structures used by all types of graphics drivers.
+The structures that are used by a [printer graphics DLL](https://www.bing.com/search?q=printer+graphics+DLL) are described in [GDI Structures](https://msdn.microsoft.com/ad8d61b8-1af9-4ab9-9b71-662d6f66f7ee), which describes the structures used by all types of graphics drivers.
 
  
 

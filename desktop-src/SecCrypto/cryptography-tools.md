@@ -19,11 +19,11 @@ The software industry must provide users with the means to trust code including 
 
 Packaged software uses branding and trusted sales outlets to assure users of its integrity, but these guarantees are not available when code is transmitted on the Internet. Additionally, the Internet itself cannot provide any guarantee about the identity of the software creator. Nor can it guarantee that any software downloaded was not altered after its creation. Browsers can exhibit a warning message that explains the possible dangers of downloading data of any kind, but browsers cannot verify that code is what it claims to be. A more active approach must be taken to make the Internet a reliable medium for distributing software.
 
-One approach to providing guarantees of the authenticity and [*integrity*](https://www.bing.com/search?q=*integrity*) of files is attaching [*digital signatures*](https://www.bing.com/search?q=*digital signatures*) to those files. A digital signature attached to a file positively identifies the distributor of that file and ensures that the contents of the file were not changed after the signature was created.
+One approach to providing guarantees of the authenticity and [*integrity*](security.i_gly#-security-integrity-gly) of files is attaching [*digital signatures*](security.d_gly#-security-digital-signature-gly) to those files. A digital signature attached to a file positively identifies the distributor of that file and ensures that the contents of the file were not changed after the signature was created.
 
-Digital signatures can be created and verified by using Microsoft's cryptography APIs. For background information on cryptography and the [*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) functions, see [Cryptography Essentials](cryptography-essentials.md).
+Digital signatures can be created and verified by using Microsoft's cryptography APIs. For background information on cryptography and the [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions, see [Cryptography Essentials](cryptography-essentials.md).
 
-For detailed information on [*digital signatures*](https://www.bing.com/search?q=*digital signatures*), [*certificates*](https://www.bing.com/search?q=*certificates*), and [*certificate stores*](https://www.bing.com/search?q=*certificate stores*), see the following topics:
+For detailed information on [*digital signatures*](security.d_gly#-security-digital-signature-gly), [*certificates*](security.c_gly#-security-certificate-gly), and [*certificate stores*](security.c_gly#-security-certificate-store-gly), see the following topics:
 
 -   [Hashes and Digital Signatures](hashes-and-digital-signatures.md)
 -   [Digital Certificates](digital-certificates.md)
@@ -38,14 +38,14 @@ Currently, CryptoAPI Tools supports Microsoft Authenticode technology by allowin
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | .appx<br/>                                | Installer files for a Windows Store device app.<br/>                                                                                                                                                                            |
 | .cab<br/>                                 | Self-contained files used for application installation and setup. In a cabinet file, multiple files are compressed into one file. They are commonly found on Microsoft software distribution disks.<br/>                        |
-| .cat<br/>                                 | Files that contain digital [*thumbprints*](https://www.bing.com/search?q=*thumbprints*) of several files. A .cat file can be used to ensure the integrity of the files whose thumbprints it includes.<br/> |
+| .cat<br/>                                 | Files that contain digital [*thumbprints*](security.t_gly#-security-thumbprint-gly) of several files. A .cat file can be used to ensure the integrity of the files whose thumbprints it includes.<br/> |
 | .dll<br/>                                 | Files that contain executable functions.<br/>                                                                                                                                                                                   |
 | .exe<br/>                                 | Files that contain executable programs.<br/>                                                                                                                                                                                    |
 | .js<br/> .vbs<br/> .wsf<br/>  | Windows shell files for JScript or Microsoft Visual Basic Scripting Edition (VBScript).<br/>                                                                                                                                    |
 | .msi<br/> .msp<br/> .mst<br/> | Windows installer files.<br/>                                                                                                                                                                                                   |
 | .ocx<br/>                                 | Files that contain Microsoft ActiveX controls.<br/>                                                                                                                                                                             |
 | .ps1<br/>                                 | Files that contain PowerShell scripts.<br/>                                                                                                                                                                                     |
-| .stl<br/>                                 | Files that contain a [*certificate trust list*](https://www.bing.com/search?q=*certificate trust list*) (CTL).<br/>                                                                           |
+| .stl<br/>                                 | Files that contain a [*certificate trust list*](security.c_gly#-security-certificate-trust-list-gly) (CTL).<br/>                                                                           |
 | .sys<br/>                                 | Files that contain driver binaries.<br/>                                                                                                                                                                                        |
 
 
@@ -72,10 +72,10 @@ The publishing tools and the signing DLL are installed in the \\Bin directory of
 
 | File name                    | Remarks                                                                                                                                                                                             |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Cert2SPC.exe](cert2spc.md) | Creates an [*Software Publisher Certificate*](https://www.bing.com/search?q=*Software Publisher Certificate*) (SPC) for testing purposes only.<br/> |
-| [CertMgr.exe](certmgr.md)   | Manages certificates, CTLs, and [*certificate revocation lists*](https://www.bing.com/search?q=*certificate revocation lists*) (CRLs).<br/>             |
+| [Cert2SPC.exe](cert2spc.md) | Creates an [*Software Publisher Certificate*](security.s_gly#-security-software-publisher-certificate-gly) (SPC) for testing purposes only.<br/> |
+| [CertMgr.exe](certmgr.md)   | Manages certificates, CTLs, and [*certificate revocation lists*](security.c_gly#-security-certificate-revocation-list-gly) (CRLs).<br/>             |
 | [MakeCat.exe](makecat.md)   | Creates an unsigned catalog file that contains the hashes of a set of files along with associated attributes of each file.<br/>                                                               |
-| [MakeCert.exe](makecert.md) | Creates an [*X.509*](https://www.bing.com/search?q=*X.509*) certificate for testing purposes only.<br/>                                                                      |
+| [MakeCert.exe](makecert.md) | Creates an [*X.509*](security.x_gly#-security-x-509-gly) certificate for testing purposes only.<br/>                                                                      |
 | Pvk2pfx.exe                  | Converts a software publisher certificate file (.spc) or a private key file (.pvk) to Personal Information Exchange (PFX) file format.<br/>                                                   |
 | [SetReg.exe](setreg.md)     | Sets registry keys that control certificate verification.<br/>                                                                                                                                |
 | [SignTool.exe](signtool.md) | Signs and time stamps a file. Additionally, checks the signature of a file.<br/>                                                                                                              |

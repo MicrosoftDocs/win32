@@ -46,7 +46,7 @@ The **IScanProfileMgr** interface has these methods.
 
 ## Remarks
 
-To create an **IScanProfileMgr** object, use the [CoCreateInstance](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) method with the following parameters:
+To create an **IScanProfileMgr** object, use the [CoCreateInstance](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) method with the following parameters:
 
 ``` syntax
 CoCreateInstance(CLSID_ScanProfileMgr, NULL, CLSCTX_LOCAL_SERVER, IID_IScanProfileMgr, ppv)
@@ -71,7 +71,7 @@ If a scan profile is saved using the [**IScanProfile::Save**](-wia-iscanprofile-
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> <dt>
 
 [Scan Profile Schema](-wia-scan-profile-schema.md)

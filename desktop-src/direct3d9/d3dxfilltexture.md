@@ -51,7 +51,7 @@ Pointer to a user-provided evaluator function, which will be used to compute the
 *pData* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to an arbitrary block of user-defined data. This pointer will be passed to the function provided in *pFunction*.
 

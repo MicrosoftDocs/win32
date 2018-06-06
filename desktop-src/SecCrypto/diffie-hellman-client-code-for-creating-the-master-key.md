@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Diffie-Hellman Client Code for Creating the Master Key
 
-The following example shows typical [*Diffie-Hellman*](https://www.bing.com/search?q=*Diffie-Hellman*)/Schannel client-side code for creating a [*master key*](https://www.bing.com/search?q=*master key*).
+The following example shows typical [*Diffie-Hellman*](security.d_gly#-security-diffie-hellman-algorithm-gly)/Schannel client-side code for creating a [*master key*](security.m_gly#-security-master-key-gly).
 
 
 ```C++

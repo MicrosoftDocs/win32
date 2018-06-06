@@ -80,7 +80,7 @@ A pointer to a variable that specifies the size, in bytes, of the buffer that is
 
 If **IPrintCoreHelperPS::GetGlobalAttribute** is called with its *pszAttribute* and *pbData* parameters set to **NULL**, the method returns with \**pcbSize* set to the number of bytes that are needed for the list of all of the supported global attribute names. If this method is called a second time, with *pszAttribute* set to **NULL** and *pbData* pointing to a buffer of the size that was specified in \**pcbSize* in the previous call, the method returns with \**pdwDataType* set to kADT\_ASCII (an enumerator of the [**EATTRIBUTE\_DATATYPE**](eattribute-datatype.md) enumeration type) and *pbData* pointing to a NULL-delimited list of all of the supported global attribute names. This list is terminated with two null characters.
 
-For more information about **IPrintCoreHelperPS::GetGlobalAttribute**, see [Using GetGlobalAttribute](https://www.bing.com/search?q=Using GetGlobalAttribute).
+For more information about **IPrintCoreHelperPS::GetGlobalAttribute**, see [Using GetGlobalAttribute](https://www.bing.com/search?q=Using+GetGlobalAttribute).
 
 ## Requirements
 

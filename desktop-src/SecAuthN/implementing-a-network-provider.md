@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # Implementing a Network Provider
 
-A network provider is a DLL that enables the Windows operating system to support a specific network protocol. It does this by implementing the Network Provider API. This API is a set of functions the [*Multiple Provider Router*](https://www.bing.com/search?q=*Multiple Provider Router*) (MPR) calls to communicate with the network. The network provider then translates these calls into network-specific API calls to perform the action specified by the MPR. In this way, the Windows operating system can interact with new network protocols without having to understand their network-specific APIs.
+A network provider is a DLL that enables the Windows operating system to support a specific network protocol. It does this by implementing the Network Provider API. This API is a set of functions the [*Multiple Provider Router*](security.m_gly#-security-multiple-provider-router-gly) (MPR) calls to communicate with the network. The network provider then translates these calls into network-specific API calls to perform the action specified by the MPR. In this way, the Windows operating system can interact with new network protocols without having to understand their network-specific APIs.
 
 To create a network provider, write a DLL that exports the [**NPGetCaps**](/windows/desktop/api/Npapi/nf-npapi-npgetcaps) function.
 
-Support of the other functions in the Network Provider API is optional. If your network provider does not require a function, your DLL does not need to implement it or provide a stub implementation. For more information, see the individual function topics in [Network Provider Functions](https://www.bing.com/search?q=Network Provider Functions).
+Support of the other functions in the Network Provider API is optional. If your network provider does not require a function, your DLL does not need to implement it or provide a stub implementation. For more information, see the individual function topics in [Network Provider Functions](authentication-functions.md#network-provider-functions).
 
 The exception is that if you support one of the following enumeration functions, you must support the other two functions as well: [**NPOpenEnum**](/windows/desktop/api/Npapi/nf-npapi-npopenenum), [**NPEnumResource**](/windows/desktop/api/Npapi/nf-npapi-npenumresource), and [**NPCloseEnum**](/windows/desktop/api/Npapi/nf-npapi-npcloseenum).
 
@@ -43,7 +43,7 @@ Your network provider should take this behavior of the MPR into account when dec
 
 ## Implementation note
 
-When implementing Network Provider DLL’s, the provider must not call into other [Windows Networking Functions](https://msdn.microsoft.com/windows/desktop/95e30f8f-a326-424d-bd80-5fc9b3078dad), [Shell APIs](https://msdn.microsoft.com/windows/desktop/05223970-14f5-44c2-937b-07826b8aecf9), or other UNC path-based queries that could cause reentry into the MPR subsystem. If you make such calls from a Network Provider DLL, the application, or other operating system components may experience contention, poor performance, or deadlocks inside the MPR subsystem.
+When implementing Network Provider DLL’s, the provider must not call into other [Windows Networking Functions](https://msdn.microsoft.com/95e30f8f-a326-424d-bd80-5fc9b3078dad), [Shell APIs](https://msdn.microsoft.com/05223970-14f5-44c2-937b-07826b8aecf9), or other UNC path-based queries that could cause reentry into the MPR subsystem. If you make such calls from a Network Provider DLL, the application, or other operating system components may experience contention, poor performance, or deadlocks inside the MPR subsystem.
 
  
 

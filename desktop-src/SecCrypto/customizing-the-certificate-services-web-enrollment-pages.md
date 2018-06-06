@@ -11,15 +11,15 @@ ms.date: 05/31/2018
 
 # Customizing the Certificate Services Web Enrollment Pages
 
-[*Certificate Services*](https://www.bing.com/search?q=*Certificate Services*) provides web enrollment pages that can be used to request certificates. An administrator can customize some of the items that can be viewed in the web enrollment pages; however, you should be familiar with the web enrollment pages and web scripting before making any changes. For more information about web scripting, see [Scripting](http://go.microsoft.com/fwlink/p/?linkid=1758).
+[*Certificate Services*](security.c_gly#-security-certificate-services-gly) provides web enrollment pages that can be used to request certificates. An administrator can customize some of the items that can be viewed in the web enrollment pages; however, you should be familiar with the web enrollment pages and web scripting before making any changes. For more information about web scripting, see [Scripting](http://go.microsoft.com/fwlink/p/?linkid=1758).
 
-The default values for the Distinguished Name fields for Organization, Organizational Unit, Locality, State, and Country/Region are the values specified for the [*certification authority*](https://www.bing.com/search?q=*certification authority*) (CA) when Certificate Services is installed. These default values appear in the webpages and can be changed by the user during the certificate enrollment process. However, if you want other default values to appear in the webpages, you can edit the Certdat.inc file (in the path \\*WindowsDirectory*\\System32\\Certsrv\\); specifically, you can assign custom values to the following variables provided for customization.
+The default values for the Distinguished Name fields for Organization, Organizational Unit, Locality, State, and Country/Region are the values specified for the [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA) when Certificate Services is installed. These default values appear in the webpages and can be changed by the user during the certificate enrollment process. However, if you want other default values to appear in the webpages, you can edit the Certdat.inc file (in the path \\*WindowsDirectory*\\System32\\Certsrv\\); specifically, you can assign custom values to the following variables provided for customization.
 
 
 
 | Variable            | Description                                                                                                                                                                                                                               |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| sDefaultCompany     | Default company (appears in the [*certificate request*](https://www.bing.com/search?q=*certificate request*) as the [*X.509*](https://www.bing.com/search?q=*X.509*) Organization field). |
+| sDefaultCompany     | Default company (appears in the [*certificate request*](security.c_gly#-security-certificate-request-gly) as the [*X.509*](security.x_gly#-security-x-509-gly) Organization field). |
 | sDefaultOrgUnit     | Default department (appears in the certificate request as the X.509 Organizational Unit field).                                                                                                                                           |
 | sDefaultLocality    | Default city (appears in the certificate request as the X.509 Location field).                                                                                                                                                            |
 | sDefaultState       | Default state/province (appears in the certificate request as the X.509 State field).                                                                                                                                                     |
@@ -41,7 +41,7 @@ sDefaultOrgUnit="Marketing"
 
 
 
-Additionally, you can edit the Certrqtp.inc file to add, change, or remove [*certificate templates*](https://www.bing.com/search?q=*certificate templates*) or types available to the user. These templates and types, as well as related information, are contained in a dimensioned array called rgAvailReqTypes(*m*,5).
+Additionally, you can edit the Certrqtp.inc file to add, change, or remove [*certificate templates*](security.c_gly#-security-certificate-template-gly) or types available to the user. These templates and types, as well as related information, are contained in a dimensioned array called rgAvailReqTypes(*m*,5).
 
 This array, like all Visual Basic Scripting Edition arrays, is zero based, and as a result, the array's first dimension, *m*, allocates memory for *m*+1 items. Therefore, if in customizing the webpages, you need to modify the number of items in the rgAvailReqTypes array, set the *m* dimension to one less than the total number of items you need. For example, if you will have seven certificate templates, change the declaration of rgAvailReqTypes as shown in the following example.
 
@@ -52,7 +52,7 @@ Dim rgAvailReqTypes(6,5)
 
 
 
-The array's second dimension, which always has the value five, allocates the six fields that compose each item. These six fields represent the certificate template or type, the display name associated with this template or type, and whether the template requires [*Secure/Multipurpose Internet Mail Extensions*](https://www.bing.com/search?q=*Secure/Multipurpose Internet Mail Extensions*) (S/MIME).
+The array's second dimension, which always has the value five, allocates the six fields that compose each item. These six fields represent the certificate template or type, the display name associated with this template or type, and whether the template requires [*Secure/Multipurpose Internet Mail Extensions*](security.s_gly#-security-secure-multipurpose-internet-mail-extensions-gly) (S/MIME).
 
 To make it easier to understand which of these fields is being accessed, Certrqtp.inc also provides the following constants you can use when setting field values.
 
@@ -60,11 +60,11 @@ To make it easier to understand which of these fields is being accessed, Certrqt
 
 | Constant                              | Description                                                                                                                                                                                                                                                                                                                          |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **FIELD\_OID**                        | (Applies to stand-alone CAs) Index to the item's first field; represents an [*object identifier*](https://www.bing.com/search?q=*object identifier*) (OID) for a certificate type.<br/>                                                                                                           |
+| **FIELD\_OID**                        | (Applies to stand-alone CAs) Index to the item's first field; represents an [*object identifier*](security.o_gly#-security-object-identifier-gly) (OID) for a certificate type.<br/>                                                                                                           |
 | **FIELD\_TEMPLATE**                   | (Applies to enterprise CAs) Index to the item's first field; represents a certificate template.<br/>                                                                                                                                                                                                                           |
 | **FIELD\_FRIENDLYNAME**               | Index to the item's second field; represents the display name (which the user will see when enrolling) of the item in the first field.                                                                                                                                                                                               |
-| **FIELD\_CSPLIST**                    | Index to the item's third field. A list of [*Cryptographic Service Provider*](https://www.bing.com/search?q=*Cryptographic Service Provider*) names allowed by the template. Each name in the list is separated by a question mark (?).                                                    |
-| **FIELD\_CSPLIST2**                   | Index to the item's fourth field. A secondary list of [*Cryptographic Service Provider*](https://www.bing.com/search?q=*Cryptographic Service Provider*) names allowed by the template. Each name in the list is separated by a question mark (?). This list provides a different default. |
+| **FIELD\_CSPLIST**                    | Index to the item's third field. A list of [*Cryptographic Service Provider*](security.c_gly#-security-cryptographic-service-provider-gly) names allowed by the template. Each name in the list is separated by a question mark (?).                                                    |
+| **FIELD\_CSPLIST2**                   | Index to the item's fourth field. A secondary list of [*Cryptographic Service Provider*](security.c_gly#-security-cryptographic-service-provider-gly) names allowed by the template. Each name in the list is separated by a question mark (?). This list provides a different default. |
 | **FIELD\_EXPORTABLE**                 | Index to the item's fifth field. Indicates whether the template specifies that the key should be exportable. If this field contains "True", the key is exportable. If this field contains "False", the key is not exportable.                                                                                                        |
 | **FIELD\_NEEDS\_SMIME\_CAPABILITIES** | This constant is not supported.                                                                                                                                                                                                                                                                                                      |
 
@@ -82,7 +82,7 @@ rgAvailReqTypes(0, FIELD_FRIENDLYNAME) = "Web Browser Certificate"
 
 
 
-The result of these assignments is that the user will see the text **Web Browser Certificate** when enrolling, and if the user selects **Web Browser Certificate**, the [*certificate request*](https://www.bing.com/search?q=*certificate request*) will contain the OID 1.3.6.1.5.5.7.3.2.
+The result of these assignments is that the user will see the text **Web Browser Certificate** when enrolling, and if the user selects **Web Browser Certificate**, the [*certificate request*](security.c_gly#-security-certificate-request-gly) will contain the OID 1.3.6.1.5.5.7.3.2.
 
 The Certrqtp.inc file also contains constants that are used for the display names of the certificate templates or types. The following example shows the format.
 
@@ -100,11 +100,11 @@ These constants are defined in a block in the Certrqtp.inc file, and this groupi
 
 Finally, the Certrqtp.inc file contains a variable that represents the number of certificate templates or types in the rgAvailReqTypes array. In contrast to the *m* dimension of the array, set the value of the nAvailReqTypes variable to the actual number of certificate templates or types that your installation will use; this value must be no larger than *m*+1. Although declared near the top of the Certrqtp.inc file, nAvailReqTypes is assigned a value after the rgAvailReqTypes array is populated, making it easier to see how many elements are actually used by the array. The nAvailReqTypes value is used in an iteration elsewhere in the web enrollment pages, so it is important that this variable accurately reflect the number of certificate templates or types that you want to be viewable to the user.
 
-Note that merely adding [*certificate templates*](https://www.bing.com/search?q=*certificate templates*) and types to the Certrqtp.inc file does not guarantee that the user will be able to get a certificate with those traits; the CA must be authorized to issue a certificate for the specified certificate template or type.
+Note that merely adding [*certificate templates*](security.c_gly#-security-certificate-template-gly) and types to the Certrqtp.inc file does not guarantee that the user will be able to get a certificate with those traits; the CA must be authorized to issue a certificate for the specified certificate template or type.
 
-Installations can create their own applications or webpages to request and receive a certificate. The [**ICEnroll4**](/windows/desktop/api/Xenroll/nn-xenroll-icenroll4) and [**ICertRequest2**](/windows/desktop/api/Certcli/nn-certcli-icertrequest2) objects allow programmers or scripters to build [*certificate request*](https://www.bing.com/search?q=*certificate request*) applications.
+Installations can create their own applications or webpages to request and receive a certificate. The [**ICEnroll4**](/windows/desktop/api/Xenroll/nn-xenroll-icenroll4) and [**ICertRequest2**](/windows/desktop/api/Certcli/nn-certcli-icertrequest2) objects allow programmers or scripters to build [*certificate request*](security.c_gly#-security-certificate-request-gly) applications.
 
-To request a certificate to be issued on a [*smart card*](https://www.bing.com/search?q=*smart card*), you can use the Smart Card Enrollment Control. For details and example code, see [**ISCrdEnr**](iscrdenr.md).
+To request a certificate to be issued on a [*smart card*](security.s_gly#-security-smart-card-gly), you can use the Smart Card Enrollment Control. For details and example code, see [**ISCrdEnr**](iscrdenr.md).
 
  
 

@@ -53,7 +53,7 @@ The image has not been, and should not be, color corrected.
 
 ## Remarks
 
-Indicates the color corrected status of an image. This enumeration is used by the [WPD\_IMAGE\_COLOR\_CORRECTED\_STATUS](https://www.bing.com/search?q=WPD\_IMAGE\_COLOR\_CORRECTED\_STATUS) property.
+Indicates the color corrected status of an image. This enumeration is used by the [WPD\_IMAGE\_COLOR\_CORRECTED\_STATUS](image-properties.md#wpd-image-color-corrected-status) property.
 
 ## Requirements
 

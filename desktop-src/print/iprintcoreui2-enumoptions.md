@@ -101,7 +101,7 @@ This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv p
 
 To reduce the need to make two calls per data access, pass the method an output buffer of a fixed size (1 KB, for example), and then check the function return value. If the method returns S\_OK, the buffer already contains the data of interest. If the method returns E\_OUTOFMEMORY, the value in \**pcbNeeded* is the buffer size needed to hold the data of interest. The caller should then allocate a buffer of that larger size and proceed with a second call to the method.
 
-For more information, see [Using EnumOptions](https://www.bing.com/search?q=Using EnumOptions).
+For more information, see [Using EnumOptions](https://www.bing.com/search?q=Using+EnumOptions).
 
 ## Requirements
 

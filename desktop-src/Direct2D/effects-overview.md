@@ -19,21 +19,21 @@ A Direct2D effect performs an imaging task, like changing brightness, de-saturat
 
 Each effect creates an internal transform graph made up of individual transforms. Each transform represents a single image operation. The main purpose of a transform is to house the shaders that are executed for each output pixel. These shaders can include pixel shaders, vertex shaders, the blend stage of a GPU, and compute shaders.
 
-Both the [Direct2D](https://www.bing.com/search?q=Direct2D) [built-in effects](built-in-effects.md) and custom effects you can make using the [custom effects API](custom-effects.md) work this way.
+Both the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) [built-in effects](built-in-effects.md) and custom effects you can make using the [custom effects API](custom-effects.md) work this way.
 
 There are a range of [built-in effects](built-in-effects.md) from categories like the ones here. See the [Built-in Effects](built-in-effects.md) section for a full list.
 
--   [Filtering](https://www.bing.com/search?q=Filtering)
--   [Composition and Blending](https://www.bing.com/search?q=Composition and Blending)
--   [Transparency](https://www.bing.com/search?q=Transparency)
--   [Color](https://www.bing.com/search?q=Color)
--   [Lighting and Stylizing](https://www.bing.com/search?q=Lighting and Stylizing)
--   [Transforming and Scaling](https://www.bing.com/search?q=Transforming and Scaling)
--   [Sources](https://www.bing.com/search?q=Sources)
+-   [Filtering](built-in-effects.md#filter)
+-   [Composition and Blending](built-in-effects.md#composition)
+-   [Transparency](built-in-effects.md#transparency)
+-   [Color](built-in-effects.md#color)
+-   [Lighting and Stylizing](built-in-effects.md#lighting-and-stylizing)
+-   [Transforming and Scaling](built-in-effects.md#transform)
+-   [Sources](built-in-effects.md#source)
 
-You can apply effects to any bitmap, including: images loaded by the [Windows Imaging Component (WIC)](https://msdn.microsoft.com/library/windows/desktop/ee719655), primitives drawn by [Direct2D](https://www.bing.com/search?q=Direct2D), text from [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038), or scenes rendered by [Direct3D](https://msdn.microsoft.com/library/windows/desktop/bb205066).
+You can apply effects to any bitmap, including: images loaded by the [Windows Imaging Component (WIC)](https://msdn.microsoft.com/library/windows/desktop/ee719655), primitives drawn by [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b), text from [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038), or scenes rendered by [Direct3D](https://msdn.microsoft.com/library/windows/desktop/bb205066).
 
-With Direct2D effects you can write your own effects that you can use for your applications. A custom effect framework allows you to use GPU features such as pixel shaders, vertex shaders, and the blending unit. You can also include other built-in or custom effects in your custom effect. The framework for building custom effects is the same one that was used to create the built-in effects of [Direct2D](https://www.bing.com/search?q=Direct2D). The [Direct2D effect author API](custom-effects.md) provides a set of interfaces to create and register effects.
+With Direct2D effects you can write your own effects that you can use for your applications. A custom effect framework allows you to use GPU features such as pixel shaders, vertex shaders, and the blending unit. You can also include other built-in or custom effects in your custom effect. The framework for building custom effects is the same one that was used to create the built-in effects of [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b). The [Direct2D effect author API](custom-effects.md) provides a set of interfaces to create and register effects.
 
 ### More effects topics
 
@@ -47,7 +47,7 @@ The rest of this topic explains the basics of Direct2D effects, like applying an
 | [Custom effects](custom-effects.md)<br/>                                                                          | Shows you how to write your own custom effects using standard HLSL.<br/>                                                                                                                |
 | [How to load an image into Direct2D Effects using the FilePicker](load-a-id2d1image-using-the-filepicker.md)<br/> | Shows how to use the [**Windows::Storage::Pickers::FileOpenPicker**](https://msdn.microsoft.com/library/windows/apps/br207847) to load an image into Direct2D effects.<br/>                                      |
 | [How to save Direct2D content to an image file](save-direct2d-content-to-an-image-file.md)<br/>                   | This topic shows how to use [**IWICImageEncoder**](https://msdn.microsoft.com/library/windows/desktop/hh880844) to save content in the form of an [**ID2D1Image**](/windows/desktop/api/D2d1/) to an encoded image file such as JPEG.<br/> |
-| [How to Apply Effects to Primitives](how-to-apply-effects-to-primitives.md)<br/>                                  | This topic shows how to apply a series of effect to [Direct2D](https://www.bing.com/search?q=Direct2D) and [DirectWrite](direct2d-and-directwrite.md) primitives.<br/>                           |
+| [How to Apply Effects to Primitives](how-to-apply-effects-to-primitives.md)<br/>                                  | This topic shows how to apply a series of effect to [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) and [DirectWrite](direct2d-and-directwrite.md) primitives.<br/>                           |
 | [Controlling Precision and Numerical Clipping in Effect Graphs](precision-and-clipping-in-effect-graphs.md)<br/>  | Applications that render effects using Direct2D must take care to achieve the desired level of quality and predictability with respect to numerical precision. <br/>                    |
 
 

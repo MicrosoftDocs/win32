@@ -54,7 +54,7 @@ The dialog box is modal; the user cannot switch to the parent window until the d
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> <dt>
 
 [Scan Profile Schema](-wia-scan-profile-schema.md)

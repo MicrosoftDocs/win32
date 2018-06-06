@@ -56,7 +56,7 @@ The return value is ignored.
 
 ## Remarks
 
-To receive EN\_CLIPFORMAT notification codes, specify [**ENM\_CLIPFORMAT**](https://www.bing.com/search?q=**ENM\_CLIPFORMAT**) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
+To receive EN\_CLIPFORMAT notification codes, specify [**ENM\_CLIPFORMAT**](rich-edit-control-event-mask-flags.md#enm-clipformat) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
 ## Requirements
 

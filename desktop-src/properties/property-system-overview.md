@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Property System Overview
 
-The Windows Property System is an extensible read/write system of data definitions that provides a uniform way of expressing metadata about Shell items. The Windows Property system in Windows Vista and later enables you to store and retrieve metadata for Shell items. A Shell item is any single piece of content, such as a file, folder, email, or contact. A property is an individual piece of metadata associated with a Shell item. Property values are expressed as a [**PROPVARIANT**](https://msdn.microsoft.com/windows/desktop/e86cc279-826d-4767-8d96-fc8280060ea1) structure.
+The Windows Property System is an extensible read/write system of data definitions that provides a uniform way of expressing metadata about Shell items. The Windows Property system in Windows Vista and later enables you to store and retrieve metadata for Shell items. A Shell item is any single piece of content, such as a file, folder, email, or contact. A property is an individual piece of metadata associated with a Shell item. Property values are expressed as a [**PROPVARIANT**](https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1) structure.
 
 This topic is organized as follows:
 
@@ -68,7 +68,7 @@ From the point of view of an application that uses the Shell data model, there a
 
 ## Properties and Windows Search
 
-Properties serve both producers and consumers when they interface with Windows Search and indexing. Windows Search has a cache of property values that are used in the implementation of the Windows Search Service (WSS). These property values can be programmatically queried by using the Windows Search OLE DB provider, or through [**ISearchFolderItemFactory**](https://msdn.microsoft.com/windows/desktop/a684b373-6de4-4b4a-bbae-85e1c5a7e04a), which represents items in search results and query-based views. Windows Search then collects and stores properties emitted by filter handlers or property handlers when an item such as a Word document is indexed. This store is discarded and rebuilt when the index is rebuilt.
+Properties serve both producers and consumers when they interface with Windows Search and indexing. Windows Search has a cache of property values that are used in the implementation of the Windows Search Service (WSS). These property values can be programmatically queried by using the Windows Search OLE DB provider, or through [**ISearchFolderItemFactory**](https://msdn.microsoft.com/a684b373-6de4-4b4a-bbae-85e1c5a7e04a), which represents items in search results and query-based views. Windows Search then collects and stores properties emitted by filter handlers or property handlers when an item such as a Word document is indexed. This store is discarded and rebuilt when the index is rebuilt.
 
 > [!Note]  
 > Remember that when you reregister a schema, changes made to attributes of previously defined properties may not be respected by the indexer. The solution is either to rebuild the index, or introduce new properties that reflect the changes instead of updating old ones (not recommended). For more information, see [Note to Implementers](#note-to-implementers) later in this topic.
@@ -79,16 +79,16 @@ For example, a developer creating a media application wants to show users of the
 
 -   A Shell data source.
 -   An OLE DB provider.
--   A Saved Search file (.search-ms) that is used to initiate a query by navigating to the search file in Windows Explorer or binding to [**IShellFolder**](https://msdn.microsoft.com/windows/desktop/35190a72-298b-4554-b924-e1357b583a99) programmatically.
+-   A Saved Search file (.search-ms) that is used to initiate a query by navigating to the search file in Windows Explorer or binding to [**IShellFolder**](https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99) programmatically.
 
 > [!Note]  
 > Although the `System.Kind` property does not participate in this media application scenario, it could be used to build a query that would return all of the .search-ms files in a particular scope.
 
  
 
-The preferred way to access the Search APIs and create Windows Search applications is through a Shell data source. [**ISearchFolderItemFactory**](https://msdn.microsoft.com/windows/desktop/a684b373-6de4-4b4a-bbae-85e1c5a7e04a) is a component that can create instances of the Search folder data source, which is a sort of "virtual" data source provided by the Shell that can execute queries over other data sources in the Shell namespace and enumerate results. It can do so either by using the indexer, or by manually enumerating and inspecting items in the specified scopes.
+The preferred way to access the Search APIs and create Windows Search applications is through a Shell data source. [**ISearchFolderItemFactory**](https://msdn.microsoft.com/a684b373-6de4-4b4a-bbae-85e1c5a7e04a) is a component that can create instances of the Search folder data source, which is a sort of "virtual" data source provided by the Shell that can execute queries over other data sources in the Shell namespace and enumerate results. It can do so either by using the indexer, or by manually enumerating and inspecting items in the specified scopes.
 
-Third-party developers can create applications that consume the data in the index through programmatic queries, and can extend the data in the index for custom file and item types to be indexed by Windows Search. If you want to show query results in Windows Explorer, you must implement a Shell data source before you can create a protocol handler to extend the index. However, if all queries will be programmatic (through OLE DB for example) and interpreted by the application?s code rather than the Shell, then a Shell namespace is still preferred but not required. A protocol handler is required for Windows to obtain information about file contents, such as items in databases or custom file types. While Windows Search can index the name and properties of the file, Windows has no information about the content of the file. As a result, such items cannot be indexed or exposed in the Windows Shell. By implementing a custom protocol handler, you can expose these items. For a list of handlers identified by the developer scenario you are trying to achieve, see "Overview of Handlers" in [Windows Search as a Development Platform](https://msdn.microsoft.com/windows/desktop/04ddcd97-c358-44d2-9092-a035436c50c9).
+Third-party developers can create applications that consume the data in the index through programmatic queries, and can extend the data in the index for custom file and item types to be indexed by Windows Search. If you want to show query results in Windows Explorer, you must implement a Shell data source before you can create a protocol handler to extend the index. However, if all queries will be programmatic (through OLE DB for example) and interpreted by the application?s code rather than the Shell, then a Shell namespace is still preferred but not required. A protocol handler is required for Windows to obtain information about file contents, such as items in databases or custom file types. While Windows Search can index the name and properties of the file, Windows has no information about the content of the file. As a result, such items cannot be indexed or exposed in the Windows Shell. By implementing a custom protocol handler, you can expose these items. For a list of handlers identified by the developer scenario you are trying to achieve, see "Overview of Handlers" in [Windows Search as a Development Platform](https://msdn.microsoft.com/VS|search|~\search\wds3x\overviews\devplatform_overview.htm).
 
 > [!Note]  
 > A Shell data source is sometimes known as a Shell namespace extension. A handler is sometimes known as a Shell extension or a Shell extension handler.
@@ -120,9 +120,9 @@ The remainder of this Windows Property System SDK documentation contains the fol
 -   For information about reusing the In-Memory Property Store, see [Initializing Property Handlers](building-property-handlers-property-handlers.md) and [**PSCreateMemoryPropertyStore**](/windows/desktop/api/Propsys/nf-propsys-pscreatememorypropertystore).
 -   For a specification of the Microsoft Property Store Binary File Format, see [\[MS\_PROPSTORE\]](http://go.microsoft.com/fwlink/p/?linkid=212834).
 -   The relationship between Windows Search and indexing, and how to extend the index, are explained in the following topics in Windows Search:
-    -   [Developing Filter Handlers for Windows Search](https://msdn.microsoft.com/windows/desktop/7b24986b-972d-4674-846b-f856b908edf4)
-    -   [Developing Protocol Handlers for Windows Search](https://msdn.microsoft.com/windows/desktop/c76d5c82-d62b-4dd4-9743-9572be61e2be)
-    -   [Developing Property Handlers for Windows Search](https://msdn.microsoft.com/windows/desktop/b475329a-1ed7-43a4-8e11-3700889a4ce9)
+    -   [Developing Filter Handlers for Windows Search](https://msdn.microsoft.com/VS|SEARCH|~\search\wds3x\overviews\filters\ifilter_entry.htm)
+    -   [Developing Protocol Handlers for Windows Search](https://msdn.microsoft.com/VS|search|~\search\wds3x\overviews\protocolhandlers\extidx_protocolhandlers.htm)
+    -   [Developing Property Handlers for Windows Search](https://msdn.microsoft.com/VS|search|~\search\wds3x\overviews\propertyhandlers\extidx_propertyhandlers.htm)
     -   For the Windows 7 or updated Windows Vista SDK download, see the [Windows SDK](http://go.microsoft.com/fwlink/p/?linkid=129787).
 
 ## Related topics

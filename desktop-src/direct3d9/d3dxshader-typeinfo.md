@@ -37,29 +37,29 @@ typedef struct D3DXSHADER_TYPEINFO {
 **Class**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**WORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
-Shader object type. See [**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/windows/desktop/ab405984-2ebc-4514-9400-bdb13676eda5).
+Shader object type. See [**D3DXPARAMETER\_CLASS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxparameter_class.htm).
 
 </dd> <dt>
 
 **Type**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**WORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
-Data type. See [**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/windows/desktop/6d494fe6-fcd5-4e71-939c-257978b41499).
+Data type. See [**D3DXPARAMETER\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxparameter_type.htm).
 
 </dd> <dt>
 
 **Rows**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**WORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -70,7 +70,7 @@ Number of matrix rows (matrices).
 **Columns**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**WORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -81,7 +81,7 @@ Number of columns (vectors and matrices).
 **Elements**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**WORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -92,7 +92,7 @@ Array dimension.
 **StructMembers**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**WORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -103,7 +103,7 @@ Number of structure members.
 **StructMemberInfo**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 

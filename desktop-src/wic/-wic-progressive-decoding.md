@@ -66,7 +66,7 @@ JPEG progressive decoding presents image data at increasingly higher resolutions
 
 The number of available levels and the resolution set at each level depends entirely on the encoded JPEG. The following two images show an example of JPEG progressive decoding at two progressive levels.
 
-![examples of jpeg progressive decoding](https://www.bing.com/search?q=examples of jpeg progressive decoding)
+![examples of jpeg progressive decoding](https://www.bing.com/search?q=examples+of+jpeg+progressive+decoding)
 
 The image on the left is decoded at progressive level 0. The image on right is fully decoded after five progressive levels.
 
@@ -99,7 +99,7 @@ From the table above, you can determine the pixels that will be decoded with eac
 
 The following images show an example of the Windows 7 PNG progressive decoding codec at three progressive levels.
 
-![examples of png progressive decoding](https://www.bing.com/search?q=examples of png progressive decoding)
+![examples of png progressive decoding](https://www.bing.com/search?q=examples+of+png+progressive+decoding)
 
 The image at the top left shows a PNG image decoded at progressive level 0. The top-right image shows the same PNG image decoded at progressive level 3. The bottom image shows the same image fully decoded after 7 progressive levels.
 

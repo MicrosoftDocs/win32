@@ -88,7 +88,7 @@ To obtain an IXMLDOMDocument2 object for the PrintCapabilities object, you must 
 [**IPrintSchemaTicket\_GetCapabilities**](iprintschematicket-getcapabilities.md)
 </dt> <dt>
 
-[V4 Printer Driver Localization](https://www.bing.com/search?q=V4 Printer Driver Localization)
+[V4 Printer Driver Localization](https://www.bing.com/search?q=V4+Printer+Driver+Localization)
 </dt> </dl>
 
  

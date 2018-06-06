@@ -21,7 +21,7 @@ In windowless mode, the sequence of events during connection and transition to t
 
 The following illustration shows the VMR in windowless mode with multiple input streams.
 
-![vmr in windowless mode](https://www.bing.com/search?q=vmr in windowless mode)
+![vmr in windowless mode](https://www.bing.com/search?q=vmr+in+windowless+mode)
 
 **Configuring the VMR-7 for Windowless Mode**
 

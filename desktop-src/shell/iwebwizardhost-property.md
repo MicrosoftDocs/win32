@@ -49,7 +49,7 @@ A variable of type [**BSTR**](https://msdn.microsoft.com/windows/desktop/1b2d7d2
 [**WebWizardHost**](webwizardhost.md)
 </dt> <dt>
 
-[Using the Transfer Manifest](https://msdn.microsoft.com/windows/desktop/b7bb541c-3bf4-4aab-ac70-c006517e772e)
+[Using the Transfer Manifest](https://msdn.microsoft.com/b7bb541c-3bf4-4aab-ac70-c006517e772e)
 </dt> <dt>
 
 [Transfer Manifest Schema](manifest-schema.md)

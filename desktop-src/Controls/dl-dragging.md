@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # DL\_DRAGGING notification code
 
-Signals that the user has moved the mouse while dragging an item. DL\_DRAGGING is also sent periodically during dragging even if the mouse is not moved. A drag list box sends this notification code to its parent window in the form of a drag list message. For more information, see [Drag List Box Messages](https://www.bing.com/search?q=Drag List Box Messages).
+Signals that the user has moved the mouse while dragging an item. DL\_DRAGGING is also sent periodically during dragging even if the mouse is not moved. A drag list box sends this notification code to its parent window in the form of a drag list message. For more information, see [Drag List Box Messages](about-list-boxes.md#drag-list-box-messages).
 
 
 ```C++

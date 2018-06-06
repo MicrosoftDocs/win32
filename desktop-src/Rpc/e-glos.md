@@ -19,21 +19,21 @@ ms.date: 05/31/2018
 <span id="_rpc_embedded_pointer_glos"></span><span id="_RPC_EMBEDDED_POINTER_GLOS"></span>**embedded pointer**
 </dt> <dd>
 
-Pointer embedded in a parameter that is a data structure such as an array, structure, or union. See also [*top-level pointer*](https://www.bing.com/search?q=*top-level pointer*).
+Pointer embedded in a parameter that is a data structure such as an array, structure, or union. See also [*top-level pointer*](t-glos.md#-rpc-top-level-pointer-glos).
 
 </dd> <dt>
 
 <span id="_rpc_encoding_services_glos"></span><span id="_RPC_ENCODING_SERVICES_GLOS"></span>**encoding services**
 </dt> <dd>
 
-MIDL-generated stub routines that provide support for data encoding and decoding (also known as *pickling* or *serialization*). Allow programmers to control buffers containing data to be marshaled and unmarshaled. See also [*type serialization*](https://www.bing.com/search?q=*type serialization*), [*procedure serialization*](https://www.bing.com/search?q=*procedure serialization*).
+MIDL-generated stub routines that provide support for data encoding and decoding (also known as *pickling* or *serialization*). Allow programmers to control buffers containing data to be marshaled and unmarshaled. See also [*type serialization*](t-glos.md#-rpc-type-serialization-glos), [*procedure serialization*](p-glos.md#-rpc-procedure-serialization-glos).
 
 </dd> <dt>
 
 <span id="_rpc_endpoint_glos"></span><span id="_RPC_ENDPOINT_GLOS"></span>**endpoint**
 </dt> <dd>
 
-Network-specific address of a server process for remote procedure calls. The actual name of the endpoint depends on the protocol sequence being used. See also [*dynamic endpoint*](https://www.bing.com/search?q=*dynamic endpoint*) and [*well-known endpoint*](https://www.bing.com/search?q=*well-known endpoint*).
+Network-specific address of a server process for remote procedure calls. The actual name of the endpoint depends on the protocol sequence being used. See also [*dynamic endpoint*](d-glos.md#-rpc-dynamic-endpoint-glos) and [*well-known endpoint*](w-glos.md#-rpc-well-known-endpoint-glos).
 
 </dd> <dt>
 
@@ -47,7 +47,7 @@ Part of the RPC subsystem (RPCSS) that allows the run-time library to dynamicall
 <span id="_rpc_encapsulated_union_glos"></span><span id="_RPC_ENCAPSULATED_UNION_GLOS"></span>**encapsulated union**
 </dt> <dd>
 
-MIDL construct that allows unions to be passed as part of a remote procedure call by embedding the union in a structure in which the discriminant is the first field of the structure, and the union is the second (and final) field of the structure. The [*IDL*](https://www.bing.com/search?q=*IDL*) keyword **switch** specifies that a union is encapsulated. See also [*nonencapsulated union*](https://www.bing.com/search?q=*nonencapsulated union*).
+MIDL construct that allows unions to be passed as part of a remote procedure call by embedding the union in a structure in which the discriminant is the first field of the structure, and the union is the second (and final) field of the structure. The [*IDL*](i-glos.md#-rpc-idl-glos) keyword **switch** specifies that a union is encapsulated. See also [*nonencapsulated union*](n-glos.md#-rpc-nonencapsulated-union-glos).
 
 </dd> <dt>
 

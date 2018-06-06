@@ -11,10 +11,10 @@ ms.date: 05/31/2018
 
 # Smart Card Database Management Functions
 
-The following functions manage the [*smart card database*](https://www.bing.com/search?q=*smart card database*), updating the database by using a specified [*resource manager context*](https://www.bing.com/search?q=*resource manager context*).
+The following functions manage the [*smart card database*](security.s_gly#-security-smart-card-database-gly), updating the database by using a specified [*resource manager context*](security.r_gly#-security-resource-manager-context-gly).
 
 > [!Note]  
-> Database security is maintained by placing access restrictions on the database, rather than by adding security mechanisms to the [*smart card subsystem*](https://www.bing.com/search?q=*smart card subsystem*).
+> Database security is maintained by placing access restrictions on the database, rather than by adding security mechanisms to the [*smart card subsystem*](security.s_gly#-security-smart-card-subsystem-gly).
 
  
 
@@ -22,7 +22,7 @@ The following functions manage the [*smart card database*](https://www.bing.com/
 
 | Topic                                                            | Description                                                                                                                                                             |
 |------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SCardAddReaderToGroup**](/windows/desktop/api/Winscard/nf-winscard-scardaddreadertogroupa)           | Add a [*reader*](https://www.bing.com/search?q=*reader*) to a [*reader group*](https://www.bing.com/search?q=*reader group*). |
+| [**SCardAddReaderToGroup**](/windows/desktop/api/Winscard/nf-winscard-scardaddreadertogroupa)           | Add a [*reader*](security.r_gly#-security-reader-gly) to a [*reader group*](security.r_gly#-security-reader-group-gly). |
 | [**SCardForgetCardType**](/windows/desktop/api/Winscard/nf-winscard-scardforgetcardtypea)               | Remove a smart card from the system.                                                                                                                                    |
 | [**SCardForgetReader**](/windows/desktop/api/Winscard/nf-winscard-scardforgetreadera)                   | Remove a reader from the system.                                                                                                                                        |
 | [**SCardForgetReaderGroup**](/windows/desktop/api/Winscard/nf-winscard-scardforgetreadergroupa)         | Remove a reader group from the system.                                                                                                                                  |

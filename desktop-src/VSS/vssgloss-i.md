@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="base.vssgloss_identify_event"></span><span id="BASE.VSSGLOSS_IDENTIFY_EVENT"></span>**Identify event**
 </dt> <dd>
 
-A VSS event indicating that a writer or a requester needs to query the current writer. It is used to construct the current writer's metadata information. See also [*requester*](https://www.bing.com/search?q=*requester*), [*writer*](https://www.bing.com/search?q=*writer*).
+A VSS event indicating that a writer or a requester needs to query the current writer. It is used to construct the current writer's metadata information. See also [*requester*](vssgloss-r.md#base-vssgloss-requester), [*writer*](vssgloss-w.md#base-vssgloss-writer).
 
 </dd> <dt>
 
@@ -41,7 +41,7 @@ Selectable components without selectable ancestors chosen by a requester for par
 <span id="base.vssgloss_incremental_backup_operations"></span><span id="BASE.VSSGLOSS_INCREMENTAL_BACKUP_OPERATIONS"></span>**incremental backup operations**
 </dt> <dd>
 
-A backup or restore operation is performed only on files created or changed since the last full, incremental, or differential backup was saved. See also [*differential backup operations*](https://www.bing.com/search?q=*differential backup operations*).
+A backup or restore operation is performed only on files created or changed since the last full, incremental, or differential backup was saved. See also [*differential backup operations*](vssgloss-d.md#base-vssgloss-differential-backup-operations).
 
 </dd> </dl>
 

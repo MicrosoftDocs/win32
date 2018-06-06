@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CertStoreProvFindCTL callback function
 
-The **CertStoreProvFindCTL** callback function enumerates or finds the first or next [*CTL*](https://www.bing.com/search?q=*CTL*) in an [*external store*](https://www.bing.com/search?q=*external store*) that matches specified criteria.
+The **CertStoreProvFindCTL** callback function enumerates or finds the first or next [*CTL*](security.c_gly#-security-certificate-trust-list-gly) in an [*external store*](security.e_gly#-security-external-store-gly) that matches specified criteria.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ BOOL WINAPI CertStoreProvFindCTL(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://www.bing.com/search?q=*certificate store*).
+**HCERTSTOREPROV** handle to a [*certificate store*](security.c_gly#-security-certificate-store-gly).
 
 </dd> <dt>
 

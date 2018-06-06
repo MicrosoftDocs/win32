@@ -15,13 +15,13 @@ There are situations where data from one writer depends on data managed by anoth
 
 VSS handles this problem through the notion of an explicit writer-component dependency and the [**IVssWMDependency**](/windows/desktop/api/VsWriter/nl-vswriter-ivsswmdependency) interface.
 
-A writer adds one or more dependencies while creating the Writer Metadata Document using the [**IVssCreateWriterMetadata::AddComponentDependency**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency) method. The writer passes the method the name and logical path of the dependent component (which it manages), as well as the name and logical path and the [*writer class ID*](https://www.bing.com/search?q=*writer class ID*) (the GUID identifying the class) of the component upon which it depends.
+A writer adds one or more dependencies while creating the Writer Metadata Document using the [**IVssCreateWriterMetadata::AddComponentDependency**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency) method. The writer passes the method the name and logical path of the dependent component (which it manages), as well as the name and logical path and the [*writer class ID*](vssgloss-w.md#base-vssgloss-writer-class) (the GUID identifying the class) of the component upon which it depends.
 
 Once established, this dependency informs the requester that during any backup or restore operation both the dependent component and the targets of its dependencies must participate.
 
 A given component can have multiple dependencies, which requires that it and all its dependent targets participate in the backup and restore together.
 
-The dependent component and/or the target(s) of its dependencies can be included either [*explicitly*](https://www.bing.com/search?q=*explicitly*) or [*implicitly*](https://www.bing.com/search?q=*implicitly*) in a backup or restore operations.
+The dependent component and/or the target(s) of its dependencies can be included either [*explicitly*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion) or [*implicitly*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion) in a backup or restore operations.
 
 The explicit writer component dependency mechanism should not be used to create a dependency between two components on the same writer. The selection rules can supply the same functionality more efficiently without risk of circular dependencies.
 
@@ -48,7 +48,7 @@ In a multi-system deployment, if a component managed by the application's writer
 
 As an example of a multi-system deployment, consider an application server that uses a SQL Server database server as a data store. The application-specific data, which includes the web parts, web content files, and the IIS metabase, resides on one or more computers, called front-end web servers. The actual SQL data store, which includes the Config database and multiple Content databases, resides on one or more other computers, called back-end database servers. Each of the front-end web servers contains the same application-specific content and configuration. Each of the back-end database servers can host any of the Content databases or the Config database. The application software runs only on the front-end web servers, not on the database servers. In this configuration, the application's VSS writer has remote dependencies on the components managed by the SQL writer.
 
-A writer can declare a remote dependency by calling the [**AddComponentDependency**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency) method, prepending "\\\\*RemoteComputerName*\\", where *RemoteComputerName* is the name of the computer where the remote component resides, to the logical path in the *wszOnLogicalPath* parameter. The value of *RemoteComputerName* can be an IP address or a computer name returned by the [**GetComputerNameEx**](https://msdn.microsoft.com/windows/desktop/eae3f75d-7ec7-42ae-b207-e3ebaa33346e) function.
+A writer can declare a remote dependency by calling the [**AddComponentDependency**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency) method, prepending "\\\\*RemoteComputerName*\\", where *RemoteComputerName* is the name of the computer where the remote component resides, to the logical path in the *wszOnLogicalPath* parameter. The value of *RemoteComputerName* can be an IP address or a computer name returned by the [**GetComputerNameEx**](https://msdn.microsoft.com/eae3f75d-7ec7-42ae-b207-e3ebaa33346e) function.
 
 **Windows Server 2003:** A writer cannot declare remote dependencies until Windows Server 2003 with Service Pack 1 (SP1).
 

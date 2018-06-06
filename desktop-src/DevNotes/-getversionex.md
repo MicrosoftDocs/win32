@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[This function is a wrapper over the **GetVersionEx** function. This function may be altered or unavailable in the future. Applications should call **GetVersionEx** directly.\]
 
-Gets information about the operating system version. See [**GetVersionEx**](https://msdn.microsoft.com/windows/desktop/8e3ab4d6-bacd-4bc5-b8f6-dd49289354de).
+Gets information about the operating system version. See [**GetVersionEx**](https://msdn.microsoft.com/8e3ab4d6-bacd-4bc5-b8f6-dd49289354de).
 
 ## Syntax
 
@@ -47,7 +47,7 @@ BOOL _GetVersionEx(
 
 <dl> <dt>
 
-[**GetVersionEx**](https://msdn.microsoft.com/windows/desktop/8e3ab4d6-bacd-4bc5-b8f6-dd49289354de)
+[**GetVersionEx**](https://msdn.microsoft.com/8e3ab4d6-bacd-4bc5-b8f6-dd49289354de)
 </dt> </dl>
 
  

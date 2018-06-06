@@ -52,7 +52,7 @@ For more information about the general syntax of a control statement, see [Commo
 [**CONTROL**](control-control.md)
 </dt> <dt>
 
-[Radio Buttons](https://www.bing.com/search?q=Radio Buttons)
+[Radio Buttons](_win32_Button_Types_and_Styles#radio-buttons)
 </dt> <dt>
 
 [**RADIOBUTTON**](radiobutton-control.md)

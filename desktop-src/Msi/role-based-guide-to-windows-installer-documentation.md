@@ -518,7 +518,7 @@ Setup Authors create Windows Installer packages (.msi files) that contain the se
 
     -   [Enumerating Components](enumerating-components-.md)
 
--   Install multiple packages using [*transaction processing*](https://www.bing.com/search?q=*transaction processing*).
+-   Install multiple packages using [*transaction processing*](t-gly.md#-msi-transaction-processing-gly).
 
     For more information, see the following:
 
@@ -639,7 +639,7 @@ IT Professionals and Administrators customize and deploy existing Windows Instal
     -   [**UserSID Property**](usersid.md)
     -   [**SecureCustomProperties Property**](securecustomproperties.md)
 
--   Install multiple packages using [*transaction processing*](https://www.bing.com/search?q=*transaction processing*).
+-   Install multiple packages using [*transaction processing*](t-gly.md#-msi-transaction-processing-gly).
 
     For more information, see the following:
 
@@ -660,8 +660,8 @@ Infrastructure Developers can create unified platforms for the deployment and ma
 
     For more information, see the following:
 
-    -   [Component-Specific Functions](https://www.bing.com/search?q=Component-Specific Functions)
-    -   [System Status Functions](https://www.bing.com/search?q=System Status Functions)
+    -   [Component-Specific Functions](installer-function-reference.md#component-specific-functions)
+    -   [System Status Functions](installer-function-reference.md#system-status-functions)
     -   [Installer Object](installer-object.md)
     -   [Product Object](product-object.md)
     -   [Patch Object](patch-object.md)
@@ -671,8 +671,8 @@ Infrastructure Developers can create unified platforms for the deployment and ma
     For more information, see the following:
 
     -   [Inventory products and patches](inventory-products-and-patches-.md)
-    -   [System Status Functions](https://www.bing.com/search?q=System Status Functions)
-    -   [Product Query Functions](https://www.bing.com/search?q=Product Query Functions)
+    -   [System Status Functions](installer-function-reference.md#system-status-functions)
+    -   [Product Query Functions](installer-function-reference.md#product-query-functions)
     -   [Installer Object](installer-object.md)
     -   [Product Object](product-object.md)
     -   [Patch Object](patch-object.md)
@@ -683,7 +683,7 @@ Infrastructure Developers can create unified platforms for the deployment and ma
 
     -   [**SOURCELIST Property**](sourcelist.md)
     -   [**Source Resiliency**](source-resiliency.md)
-    -   [Installation and Configuration Functions](https://www.bing.com/search?q=Installation and Configuration Functions)
+    -   [Installation and Configuration Functions](installer-function-reference.md#installation-and-configuration-functions)
     -   [Installer Object](installer-object.md)
     -   [Product Object](product-object.md)
     -   [Patch Object](patch-object.md)
@@ -694,7 +694,7 @@ Infrastructure Developers can create unified platforms for the deployment and ma
 
     -   [**SOURCELIST Property**](sourcelist.md)
     -   [Source Resiliency](source-resiliency.md)
-    -   [Installation and Configuration Functions](https://www.bing.com/search?q=Installation and Configuration Functions)
+    -   [Installation and Configuration Functions](installer-function-reference.md#installation-and-configuration-functions)
     -   [Product Object](product-object.md)
     -   [Patch Object](patch-object.md)
 

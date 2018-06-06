@@ -50,7 +50,7 @@ Pointer to an [**ID3DXBaseMesh**](id3dxbasemesh.md) interface, representing the 
 *AttribId* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Attribute identifier of the subset to intersect with.
 
@@ -77,7 +77,7 @@ Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) structure, specifying the directi
 *pHit* \[out\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to a BOOL. If the ray intersects a triangular face on the mesh, this value will be set to **TRUE**. Otherwise, this value is set to **FALSE**.
 
@@ -86,7 +86,7 @@ Pointer to a BOOL. If the ray intersects a triangular face on the mesh, this val
 *pFaceIndex* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to an index value of the face closest to the ray origin, if pHit is **TRUE**.
 
@@ -95,7 +95,7 @@ Pointer to an index value of the face closest to the ray origin, if pHit is **TR
 *pU* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to a barycentric hit coordinate, U.
 
@@ -104,7 +104,7 @@ Pointer to a barycentric hit coordinate, U.
 *pV* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to a barycentric hit coordinate, V.
 
@@ -113,7 +113,7 @@ Pointer to a barycentric hit coordinate, V.
 *pDist* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to a ray intersection parameter distance.
 
@@ -131,7 +131,7 @@ Array of [**D3DXINTERSECTINFO**](d3dxintersectinfo.md) structures, representing 
 *pCountOfHits* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Number of elements in the array returned from ppAllHits.
 

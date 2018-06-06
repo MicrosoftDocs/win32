@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XPS Rasterization Service Enumerations
 
-The [XPS rasterization service](https://www.bing.com/search?q=XPS rasterization service) uses the following enumerations:
+The [XPS rasterization service](https://www.bing.com/search?q=XPS+rasterization+service) uses the following enumerations:
 
 <dl>
 

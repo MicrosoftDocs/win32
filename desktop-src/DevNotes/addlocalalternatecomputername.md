@@ -32,7 +32,7 @@ DWORD AddLocalAlternateComputerName(
 *lpDnsFQHostname* \[in\]
 </dt> <dd>
 
-The alternate name to be added. The name must be in the **ComputerNameDnsFullyQualified** format as defined in the [**COMPUTER\_NAME\_FORMAT**](https://msdn.microsoft.com/windows/desktop/249830be-acd7-4417-ac33-c0fb2d87c4af) enumeration, and the [**DnsValidateName\_W**](https://msdn.microsoft.com/windows/desktop/efdbd217-6936-42c1-a1eb-8655a62513ee) function must be able to validate it with its format set to **DnsNameHostnameFull**.
+The alternate name to be added. The name must be in the **ComputerNameDnsFullyQualified** format as defined in the [**COMPUTER\_NAME\_FORMAT**](https://msdn.microsoft.com/249830be-acd7-4417-ac33-c0fb2d87c4af) enumeration, and the [**DnsValidateName\_W**](https://msdn.microsoft.com/efdbd217-6936-42c1-a1eb-8655a62513ee) function must be able to validate it with its format set to **DnsNameHostnameFull**.
 
 </dd> <dt>
 
@@ -74,10 +74,10 @@ If the function succeeds, the function returns **ERROR\_SUCCESS**. If the functi
 
 <dl> <dt>
 
-[**COMPUTER\_NAME\_FORMAT**](https://msdn.microsoft.com/windows/desktop/249830be-acd7-4417-ac33-c0fb2d87c4af)
+[**COMPUTER\_NAME\_FORMAT**](https://msdn.microsoft.com/249830be-acd7-4417-ac33-c0fb2d87c4af)
 </dt> <dt>
 
-[**DnsValidateName\_W**](https://msdn.microsoft.com/windows/desktop/efdbd217-6936-42c1-a1eb-8655a62513ee)
+[**DnsValidateName\_W**](https://msdn.microsoft.com/efdbd217-6936-42c1-a1eb-8655a62513ee)
 </dt> </dl>
 
  

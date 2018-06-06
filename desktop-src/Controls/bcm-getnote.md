@@ -47,11 +47,11 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 
 ## Remarks
 
-The **BCM\_GETNOTE** message works only with buttons that have the the [**BS\_COMMANDLINK**](https://www.bing.com/search?q=**BS\_COMMANDLINK**) or [**BS\_DEFCOMMANDLINK**](https://www.bing.com/search?q=**BS\_DEFCOMMANDLINK**) button style.
+The **BCM\_GETNOTE** message works only with buttons that have the the [**BS\_COMMANDLINK**](button-styles.md#bs-commandlink) or [**BS\_DEFCOMMANDLINK**](button-styles.md#bs-defcommandlink) button style.
 
 [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) will contain:
 
--   ERROR\_NOT\_SUPPORTED, if the button does not have the [**BS\_DEFCOMMANDLINK**](https://www.bing.com/search?q=**BS\_DEFCOMMANDLINK**) or [**BS\_COMMANDLINK**](https://www.bing.com/search?q=**BS\_COMMANDLINK**) style.
+-   ERROR\_NOT\_SUPPORTED, if the button does not have the [**BS\_DEFCOMMANDLINK**](button-styles.md#bs-defcommandlink) or [**BS\_COMMANDLINK**](button-styles.md#bs-commandlink) style.
 -   ERROR\_INSUFFICIENT\_BUFFER, if the *lParam* buffer is too small. The *wParam* parameter will contain the required buffer size, in characters.
 
 ## Requirements

@@ -17,11 +17,11 @@ The following topics provide information about using authentication.
 
 | Topic                                                                                  | Description                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Creating Custom Security Packages](creating-custom-security-packages.md)             | Information about creating [*security support provider*](https://www.bing.com/search?q=*security support provider*) security packages        |
+| [Creating Custom Security Packages](creating-custom-security-packages.md)             | Information about creating [*security support provider*](security.s_gly#-security-security-support-provider-gly) security packages        |
 | [Customizing Winlogon](customizing-winlogon.md)                                       | Information about customizing Winlogon behavior.                                                                                                                                  |
 | [Using Network Provider API](using-network-provider-api.md)                           | Information about using the Network Provider API to create a network provider or a credential manager                                                                             |
-| [Using SSPI](using-sspi.md)                                                           | Information about the [*Security Support Provider Interface*](https://www.bing.com/search?q=*Security Support Provider Interface*) |
-| [Protecting the Automatic Logon Password](protecting-the-automatic-logon-password.md) | Information about storing the automatic logon password by using the [**LsaStorePrivateData**](https://msdn.microsoft.com/windows/desktop/95d6cf30-fd08-473e-b0b3-3f7ca5e85357) function                                              |
+| [Using SSPI](using-sspi.md)                                                           | Information about the [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) |
+| [Protecting the Automatic Logon Password](protecting-the-automatic-logon-password.md) | Information about storing the automatic logon password by using the [**LsaStorePrivateData**](https://msdn.microsoft.com/95d6cf30-fd08-473e-b0b3-3f7ca5e85357) function                                              |
 
 
 

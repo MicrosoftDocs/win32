@@ -34,7 +34,7 @@ HRESULT ExtractToMesh(
 *NumPCA* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of PCA coefficients to extract from the buffer.
 
@@ -43,16 +43,16 @@ Number of PCA coefficients to extract from the buffer.
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**D3DDECLUSAGE**](https://msdn.microsoft.com/windows/desktop/ee9b46c2-b779-480c-9b5c-6d189d2af014)**
+Type: **[**D3DDECLUSAGE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddeclusage.htm)**
 
-Vertex usage descriptions of the mesh. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/windows/desktop/ee9b46c2-b779-480c-9b5c-6d189d2af014).
+Vertex usage descriptions of the mesh. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddeclusage.htm).
 
 </dd> <dt>
 
 *UsageIndexStart* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Starting index for PCA coefficients to be stored in the mesh.
 

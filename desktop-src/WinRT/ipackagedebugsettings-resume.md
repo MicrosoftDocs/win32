@@ -45,7 +45,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-Each process receives the [**Resuming**](https://www.bing.com/search?q=**Resuming**) event. It can be useful for developers to step through how their apps respond to this event.
+Each process receives the [**Resuming**](https://msdn.microsoft.com/Windows.ApplicationModel.Core.CoreApplication.Resuming) event. It can be useful for developers to step through how their apps respond to this event.
 
 ## Requirements
 

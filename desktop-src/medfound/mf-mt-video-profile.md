@@ -23,7 +23,7 @@ Specifies the profile of video encoding on the output media type. This is an ali
 
 Supported profiles are exceeded to include [**eAVEncH264VProfile\_ConstrainedBase**](/windows/desktop/api/codecapi/ne-codecapi-eavench264vprofile) and **eAVEncH264VProfile\_ConstrainedHigh**.
 
-Encoders shall support both [**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue) and [**SetValue**](https://msdn.microsoft.com/windows/desktop/e78a310a-3605-4cb3-a0c3-7864c890c1fa) for this attribute.
+Encoders shall support both [**GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue) and [**SetValue**](https://msdn.microsoft.com/e78a310a-3605-4cb3-a0c3-7864c890c1fa) for this attribute.
 
 This is static, so video encoders must be configured before the streaming starts. If the application sets a profile which the encoder does not support, the encoder shall reject the media type.
 

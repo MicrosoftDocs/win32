@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # DRM\_LICENSE\_STATE\_CATEGORY enumeration
 
-The **DRM\_LICENSE\_STATE\_CATEGORY** enumeration type defines the categories for DRM [*license*](https://www.bing.com/search?q=*license*) strings that are displayed to the user.
+The **DRM\_LICENSE\_STATE\_CATEGORY** enumeration type defines the categories for DRM [*license*](wmformat-glossary.md#wmformat-license) strings that are displayed to the user.
 
 ## Syntax
 

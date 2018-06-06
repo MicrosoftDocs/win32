@@ -34,16 +34,16 @@ HRESULT CloneMeshFVF(
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-A combination of one or more [**D3DXMESH**](https://msdn.microsoft.com/windows/desktop/c94e19ab-8024-4a28-9d1a-6d57707c3a52) flags specifying creation options for the mesh.
+A combination of one or more [**D3DXMESH**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmesh.htm) flags specifying creation options for the mesh.
 
 </dd> <dt>
 
 *FVF* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Combination of FVF codes, which specifies the vertex format for the vertices in the output mesh. For the values of the codes, see [D3DFVF](d3dfvf.md).
 

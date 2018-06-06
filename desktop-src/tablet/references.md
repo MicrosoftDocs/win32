@@ -15,7 +15,7 @@ For information about enabling speech recognition in your application, refer to 
 
 For information about Microsoft Accessibility, see [Microsoft Accessibility](http://go.microsoft.com/fwlink/p/?linkid=9073).
 
-For more information on Microsoft Active Accessibility guidelines for Windows-based applications, see the [Accessibility](https://msdn.microsoft.com/windows/desktop/08403228-6c73-4bbe-bac2-e6910ddc5f0c) section.
+For more information on Microsoft Active Accessibility guidelines for Windows-based applications, see the [Accessibility](https://msdn.microsoft.com/08403228-6c73-4bbe-bac2-e6910ddc5f0c) section.
 
  
 

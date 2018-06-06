@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Certificate Properties
 
-Certificate Services supports the use of certificates as defined in the ITU-T recommendation [*X.509*](https://www.bing.com/search?q=*X.509*) (also, ISO/IEC 9594-8). The following are properties that are contained in a standard X.509 certificate.
+Certificate Services supports the use of certificates as defined in the ITU-T recommendation [*X.509*](security.x_gly#-security-x-509-gly) (also, ISO/IEC 9594-8). The following are properties that are contained in a standard X.509 certificate.
 
 
 
@@ -20,11 +20,11 @@ Certificate Services supports the use of certificates as defined in the ITU-T re
 | Version                                     | Version number of the certificate format.                                                                                                                                                                       |
 | Serial Number                               | Serial number of the certificate. This number is assigned by the issuer and is unique within the issuer's list of issued certificates.                                                                          |
 | Algorithm Identifier and Parameters         | Signature algorithm and any parameters used by the issuer.                                                                                                                                                      |
-| Issuer                                      | Name of the [*certification authority*](https://www.bing.com/search?q=*certification authority*) which issued the certificate.                                               |
+| Issuer                                      | Name of the [*certification authority*](security.c_gly#-security-certification-authority-gly) which issued the certificate.                                               |
 | Not Before (Date)                           | Certificate not valid before this date.                                                                                                                                                                         |
 | Not After (Date)                            | Certificate not valid after this date.                                                                                                                                                                          |
 | Subject Name                                | Name of the person or entity to whom the certificate is being issued. This field can also include the certificate recipient's organization, organization unit, locality, state or province, and country/region. |
-| Subject Public Key Algorithm and Parameters | The algorithm and any parameters used for the subject's [*public key*](https://www.bing.com/search?q=*public key*).                                                                       |
+| Subject Public Key Algorithm and Parameters | The algorithm and any parameters used for the subject's [*public key*](security.p_gly#-security-public-key-gly).                                                                       |
 | Subject Public Key                          | The actual public key (a bit string).                                                                                                                                                                           |
 | Signature                                   | Signature as provided by the issuer.                                                                                                                                                                            |
 
@@ -32,13 +32,13 @@ Certificate Services supports the use of certificates as defined in the ITU-T re
 
  
 
-A certificate can contain the following items, depending on the [*X.509*](https://www.bing.com/search?q=*X.509*) version of the certificate.
+A certificate can contain the following items, depending on the [*X.509*](security.x_gly#-security-x-509-gly) version of the certificate.
 
 
 
 | Optional field    | Description                                                                                                                                                                                               |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Issuer Unique ID  | Used to make the issuer name unambiguous if it has been used by more than one entity. Present only in versions [*X.509*](https://www.bing.com/search?q=*X.509*) 2.0 or later.<br/> |
+| Issuer Unique ID  | Used to make the issuer name unambiguous if it has been used by more than one entity. Present only in versions [*X.509*](security.x_gly#-security-x-509-gly) 2.0 or later.<br/> |
 | Subject unique ID | Used to make the subject name unambiguous if it has been used by more than one entity. Present only in X.509 2.0 or later.<br/>                                                                     |
 | Extensions        | For specifying any desired custom properties. Any number of extension fields can be included in the certificate. Present only in version X.509 3.0.<br/>                                            |
 

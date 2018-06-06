@@ -32,7 +32,7 @@ In addition to significant advances in standards support, Internet Explorer 8 c
 -   Acid2: Internet Explorer 8 renders the Acid2 browser test correctly.
 -   Compatibility: Internet Explorer 8 includes a more standards-compatible layout engine that allows you to build a standards-based site for multiple browsers. To migrate your sites more easily to the new standards-compliant layout engine, Internet Explorer 8 enables you to use the Internet Explorer 7 layout engine by inserting a simple **meta** element into your code or by adding a single HTTP header on your servers.
 -   Developer Tools: Developer Tools in Internet Explorer (which you access by pressing the F12 key) enable you to quickly debug HTML, CSS, and JavaScript code in a visual environment. These tools are included directly in Internet Explorer 8 with expanded functionality, including ann option to choose which application to use when you are viewing the source of a webpage. You can quickly identify and resolve issues because of the deep insight that the tool provides into the DOM.
--   For more information about the new and enhanced features of Internet Explorer 8, see [What's New in Internet Explorer 8](https://www.bing.com/search?q=What's New in Internet Explorer 8) in the MSDN Library.
+-   For more information about the new and enhanced features of Internet Explorer 8, see [What's New in Internet Explorer 8](https://www.bing.com/search?q=What's+New+in+Internet+Explorer+8) in the MSDN Library.
 
 ## Related topics
 

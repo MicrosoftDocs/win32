@@ -19,8 +19,8 @@ Creates a BoundingBox from points.
 
 | Method                                                                                                                  | Description                                             |
 |:------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------|
-| [**BoundingBox::CreateFromPoints (BoundingBox&,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingBox::CreateFromPoints (BoundingBox&,XMVECTOR,XMVECTOR)**)                | Creates a BoundingBox from two points.<br/>       |
-| [**BoundingBox::CreateFromPoints (BoundingBox&,size\_t,const XMFLOAT3\*,size\_t)**](https://www.bing.com/search?q=**BoundingBox::CreateFromPoints (BoundingBox&,size\_t,const XMFLOAT3\*,size\_t)**) | Creates a BoundingBox from a list of points.<br/> |
+| [**BoundingBox::CreateFromPoints (BoundingBox&,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingBox::CreateFromPoints+(BoundingBox&,XMVECTOR,XMVECTOR)**)                | Creates a BoundingBox from two points.<br/>       |
+| [**BoundingBox::CreateFromPoints (BoundingBox&,size\_t,const XMFLOAT3\*,size\_t)**](https://www.bing.com/search?q=**BoundingBox::CreateFromPoints+(BoundingBox&,size\_t,const+XMFLOAT3\*,size\_t)**) | Creates a BoundingBox from a list of points.<br/> |
 
 
 

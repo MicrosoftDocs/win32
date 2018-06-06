@@ -49,18 +49,18 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the surface 
 **Type**
 </dt> <dd>
 
-Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/windows/desktop/6b360fb1-4a5a-47a2-bef9-d8234770bf0c)**
+Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dresourcetype.htm)**
 
 </dd> <dd>
 
-Member of the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/windows/desktop/6b360fb1-4a5a-47a2-bef9-d8234770bf0c) enumerated type, identifying this resource as a surface.
+Member of the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dresourcetype.htm) enumerated type, identifying this resource as a surface.
 
 </dd> <dt>
 
 **Usage**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -71,29 +71,29 @@ Either the D3DUSAGE\_DEPTHSTENCIL or D3DUSAGE\_RENDERTARGET values. For more inf
 **Pool**
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/windows/desktop/29720b5f-16d7-4bd9-a7bd-e4dbfb00070b)**
+Type: **[**D3DPOOL**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm)**
 
 </dd> <dd>
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/windows/desktop/29720b5f-16d7-4bd9-a7bd-e4dbfb00070b) enumerated type, specifying the class of memory allocated for this surface.
+Member of the [**D3DPOOL**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm) enumerated type, specifying the class of memory allocated for this surface.
 
 </dd> <dt>
 
 **MultiSampleType**
 </dt> <dd>
 
-Type: **[**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/windows/desktop/1a3c1efe-f5b1-47a1-a5f5-ac49d318f3b8)**
+Type: **[**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dmultisample_type.htm)**
 
 </dd> <dd>
 
-Member of the [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/windows/desktop/1a3c1efe-f5b1-47a1-a5f5-ac49d318f3b8) enumerated type, specifying the levels of full-scene multisampling supported by the surface.
+Member of the [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dmultisample_type.htm) enumerated type, specifying the levels of full-scene multisampling supported by the surface.
 
 </dd> <dt>
 
 **MultiSampleQuality**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -104,7 +104,7 @@ Quality level. The valid range is between zero and one less than the level retur
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -115,7 +115,7 @@ Width of the surface, in pixels.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 

@@ -78,9 +78,9 @@ If you still see a problem in your application after you disable the Input Panel
 
 In order to use an API on a Web page, it must function in a partial trust environment. All [**PenInputPanel**](/windows/desktop/api/msinkaut/) class members require full trust except the following:
 
--   [PenInputPanel Constructors](https://www.bing.com/search?q=PenInputPanel Constructors) (managed code only)
--   [Dispose Method](https://www.bing.com/search?q=Dispose Method) (managed code only)
--   [AttachedEditControl Property](https://www.bing.com/search?q=AttachedEditControl Property) (managed code only)
+-   [PenInputPanel Constructors](https://www.bing.com/search?q=PenInputPanel+Constructors) (managed code only)
+-   [Dispose Method](https://www.bing.com/search?q=Dispose+Method) (managed code only)
+-   [AttachedEditControl Property](https://www.bing.com/search?q=AttachedEditControl+Property) (managed code only)
 -   [**AutoShow Property**](/windows/desktop/api/msinkaut/)
 
 These APIs function in a partial trust environment, such as a Web page, enabling you to instantiate a [**PenInputPanel**](/windows/desktop/api/msinkaut/) object, attach it to a control, and disable Input Panel for that control. For more information, see Programming the Input Panel Using the PenInputPanel Class and [Ink on the Web](ink-on-the-web.md).

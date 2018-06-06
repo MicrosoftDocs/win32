@@ -257,7 +257,7 @@ For general icon guidelines and examples, see [Icons](vis-icons.md).
 
 -   **Use taskbar button flashing sparingly to demand the user's immediate attention to keep an ongoing task running.** It's hard for users to concentrate while a taskbar button is flashing, so assume that they will interrupt what they are doing to make it stop. While flashing a taskbar button is better than stealing input focus, flashing taskbar buttons are still very intrusive. Make sure the interruption is justified, such as to indicate that the user needs to save data before closing a window. Inactive programs should rarely require immediate action. Don't flash the taskbar button if the only thing the user has to do is activate the program, read a message, or see a change in status.
 -   **If immediate action isn't required, consider these alternatives:**
-    -   Use an [action success notification](https://www.bing.com/search?q=action success notification) to indicate that a task has completed.
+    -   Use an [action success notification](mess-notif.md#usage-patterns) to indicate that a task has completed.
     -   Do nothing. Just wait for users to attend to the issue the next time they activate the program. This is often the best choice.
 -   **If an inactive program requires immediate attention, flash its taskbar button to draw attention and leave it highlighted.** Don't do anything else: don't restore or activate the window and don't play any sound effects. Instead, respect the user's window state selection and let the user activate the window when ready.
 -   **For secondary windows that have a taskbar button, flash its button instead of the primary window's taskbar button.** Doing so allows users to attend to the window directly.
@@ -306,7 +306,7 @@ For general icon guidelines and examples, see [Icons](vis-icons.md).
 
     In this example, the Sticky Notes accessory provides a single Jump List command, because that's all that is needed.
 
--   **Provide tooltips only when needed to help users understand Jump List items.** Avoid redundant tooltips because they are an unnecessary distraction. For more tooltip guidelines, see [Tooltips and Infotips](https://www.bing.com/search?q=Tooltips and Infotips).
+-   **Provide tooltips only when needed to help users understand Jump List items.** Avoid redundant tooltips because they are an unnecessary distraction. For more tooltip guidelines, see [Tooltips and Infotips](ctrl-tooltips-and-infotips.md#usage-patterns).
 
     **Incorrect:**
 
@@ -464,7 +464,7 @@ For general icon guidelines and examples, see [Icons](vis-icons.md).
 -   **Make sure the icons are clearly visible against the toolbar background color in both normal and hover states.** Always evaluate icons in context and in the high-contrast modes.
 -   **Choose command icon designs that clearly communicate their effect.** Well-designed command icons are self-explanatory to help users find and understand commands efficiently.
 -   **Choose icons that are recognizable and distinguishable.** Make sure the icons have distinctive shapes and colors. Doing so helps users find the commands quickly, even if they don't remember the icon symbol. After initial use, users shouldn't have to rely on tooltips to distinguish between the commands.
--   **Provide a tooltip to label each command.** A good tooltip labels the unlabeled control being pointed to. For guidelines and examples, see [Tooltips and Infotips](https://www.bing.com/search?q=Tooltips and Infotips).
+-   **Provide a tooltip to label each command.** A good tooltip labels the unlabeled control being pointed to. For guidelines and examples, see [Tooltips and Infotips](ctrl-tooltips-and-infotips.md#guidelines).
 
 ### Progress bars
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SSPI
 
-This section presents information about [*Security Support Provider Interface*](https://www.bing.com/search?q=*Security Support Provider Interface*) (SSPI). SSPI allows an application to use various security models available on a computer or network without changing the interface to the security system. Topics include the following:
+This section presents information about [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI). SSPI allows an application to use various security models available on a computer or network without changing the interface to the security system. Topics include the following:
 
 -   [SSPI Model](sspi-model.md)
 -   [SSPI Options for Distributed Applications](sspi-options-for-distributed-applications.md)

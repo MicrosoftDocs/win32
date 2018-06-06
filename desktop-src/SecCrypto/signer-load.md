@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Signer.Load method
 
-\[The **Load** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](https://www.bing.com/search?q=**CmsSigner Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
+\[The **Load** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](https://www.bing.com/search?q=**CmsSigner+Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
 
 The **Load** method loads a signing certificate from a specified .pfx file.
 
@@ -41,7 +41,7 @@ Name of the .pfx file that contains the signing certificate.
 *Password* \[optional\]
 </dt> <dd>
 
-String containing the plaintext password used to open the file. Up to 32 Unicode characters, including a terminating null character, can be used for the password. The default value is an empty string (""). For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/windows/desktop/1d810f71-9bf5-4c5c-a573-c35081f604cf).
+String containing the plaintext password used to open the file. Up to 32 Unicode characters, including a terminating null character, can be used for the password. The default value is an empty string (""). For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf).
 
 </dd> </dl>
 

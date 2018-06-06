@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## 
 
-This section describes the functions defined by a printer driver's [printer interface DLL](https://www.bing.com/search?q=printer interface DLL). The functions are defined in header file Winddiui.h.
+This section describes the functions defined by a printer driver's [printer interface DLL](https://www.bing.com/search?q=printer+interface+DLL). The functions are defined in header file Winddiui.h.
 
 <dl>
 

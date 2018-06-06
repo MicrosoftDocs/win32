@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Effect Sampler Syntax (Deprecated, Direct3D 10)
 
-This page has been combined to show the differences between Direct3D 9 and Direct3D 10 syntax, it has been moved to [Sampler Type (DirectX HLSL)](https://msdn.microsoft.com/windows/desktop/6534d343-d724-46e5-b300-2a29124a1a28).
+This page has been combined to show the differences between Direct3D 9 and Direct3D 10 syntax, it has been moved to [Sampler Type (DirectX HLSL)](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_sampler.htm).
 
 ## Related topics
 

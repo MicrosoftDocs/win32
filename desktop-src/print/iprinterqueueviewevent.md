@@ -35,7 +35,7 @@ The **IPrinterQueueViewEvent** interface has these methods.
 
 ## Remarks
 
-**IPrinterQueueViewEvent** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](https://www.bing.com/search?q=Job Management).
+**IPrinterQueueViewEvent** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](https://www.bing.com/search?q=Job+Management).
 
 ## Requirements
 
@@ -53,7 +53,7 @@ The **IPrinterQueueViewEvent** interface has these methods.
 
 <dl> <dt>
 
-[Job Management](https://www.bing.com/search?q=Job Management)
+[Job Management](https://www.bing.com/search?q=Job+Management)
 </dt> </dl>
 
  

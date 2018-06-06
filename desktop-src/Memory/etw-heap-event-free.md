@@ -27,7 +27,7 @@ typedef struct ETW_HEAP_EVENT_FREE
 *HeapHandle* 
 </dt> <dd>
 
-The handle of the heap where the memory was allocated. This is the heap handle an app passed to the [**AllocateHeap**](https://msdn.microsoft.com/windows/desktop/8e97ea0e-42f5-4641-83d7-3858c533479c) function when the memory was allocated.
+The handle of the heap where the memory was allocated. This is the heap handle an app passed to the [**AllocateHeap**](https://msdn.microsoft.com/8e97ea0e-42f5-4641-83d7-3858c533479c) function when the memory was allocated.
 
 </dd> <dt>
 

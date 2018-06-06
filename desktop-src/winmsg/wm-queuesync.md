@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WM\_QUEUESYNC message
 
-Sent by a computer-based training (CBT) application to separate user-input messages from other messages sent through the [**WH\_JOURNALPLAYBACK**](https://www.bing.com/search?q=**WH\_JOURNALPLAYBACK**) procedure.
+Sent by a computer-based training (CBT) application to separate user-input messages from other messages sent through the [**WH\_JOURNALPLAYBACK**](about-hooks.md#wh-journalplayback) procedure.
 
 
 ```C++
@@ -46,7 +46,7 @@ A CBT application should return zero if it processes this message.
 
 ## Remarks
 
-Whenever a CBT application uses the [**WH\_JOURNALPLAYBACK**](https://www.bing.com/search?q=**WH\_JOURNALPLAYBACK**) procedure, the first and last messages are **WM\_QUEUESYNC**. This allows the CBT application to intercept and examine user-initiated messages without doing so for events that it sends.
+Whenever a CBT application uses the [**WH\_JOURNALPLAYBACK**](about-hooks.md#wh-journalplayback) procedure, the first and last messages are **WM\_QUEUESYNC**. This allows the CBT application to intercept and examine user-initiated messages without doing so for events that it sends.
 
 If an application specifies a **NULL** window handle, the message is posted to the message queue of the active window.
 

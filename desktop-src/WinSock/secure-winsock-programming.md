@@ -16,13 +16,13 @@ The following is a guide to secure Windows Sockets programming. It is designed t
 -   [Using SO\_REUSEADDR and SO\_EXCLUSIVEADDRUSE](using-so-reuseaddr-and-so-exclusiveaddruse.md)
 -   [Winsock Secure Socket Extensions](winsock-secure-socket-extensions.md)
 
-Communications using sockets can also be encrypted using the SSL/TLS standards using Secure Channel, also known as Schannel technology. Schannel is a security support provider (SSP) that contains a set of security protocols that provide identity authentication and secure, private communication through encryption. Schannel is primarily used for Internet applications that require secure Hypertext Transfer Protocol (HTTP) communications. For more information, please see [Secure Channel](https://msdn.microsoft.com/windows/desktop/159074a1-6425-409a-8470-02cd485b75e9).
+Communications using sockets can also be encrypted using the SSL/TLS standards using Secure Channel, also known as Schannel technology. Schannel is a security support provider (SSP) that contains a set of security protocols that provide identity authentication and secure, private communication through encryption. Schannel is primarily used for Internet applications that require secure Hypertext Transfer Protocol (HTTP) communications. For more information, please see [Secure Channel](https://msdn.microsoft.com/159074a1-6425-409a-8470-02cd485b75e9).
 
 ## Related topics
 
 <dl> <dt>
 
-[Secure Channel](https://msdn.microsoft.com/windows/desktop/159074a1-6425-409a-8470-02cd485b75e9)
+[Secure Channel](https://msdn.microsoft.com/159074a1-6425-409a-8470-02cd485b75e9)
 </dt> </dl>
 
  

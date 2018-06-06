@@ -82,7 +82,7 @@ HKEY_CLASSES_ROOT
                Clsid = {F1ABE2B5-C073-4dba-B6EB-FD7A5111DD8F}
 ```
 
-The [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) function uses the CLSID to implement the appropriate application.
+The [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) function uses the CLSID to implement the appropriate application.
 
 After you define the handler in either of these two ways, you need to register it for a specific event. You do this by providing the handler name as a value for that event's key under **EventHandlers**. The following example shows how to register **MyHandler** as a handler for the GenericVolumeArrival event. It has no assigned data value.
 
@@ -106,7 +106,7 @@ HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER
 [**IHWEventHandler**](/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler)
 </dt> <dt>
 
-[**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec)
+[**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec)
 </dt> </dl>
 
  

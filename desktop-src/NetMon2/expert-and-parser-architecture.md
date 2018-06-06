@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following figure shows the relationship between [expert](experts.md) and [parser](parsers.md) applications and other components of the Network Monitor architecture.
 
-![the relationship between expert and parser applications](https://www.bing.com/search?q=the relationship between expert and parser applications)
+![the relationship between expert and parser applications](https://www.bing.com/search?q=the+relationship+between+expert+and+parser+applications)
 
 The network traffic is collected, as individual frames, from the NDIS driver. The Network Monitor driver (Nmnt.sys) then routes the frames to a network packet provider (NPP), which captures the data and places it in one or more capture files. The NPP is a collection of COM interfaces used to capture data. In this case, the [**IDelaydC**](idelaydc.md) interface is used to perform a delayed capture.
 

@@ -38,13 +38,13 @@ This issue causes problems for people who rely on the keyboard for navigation be
 [**IUIAutomationElement::CurrentAccessKey**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentaccesskey)
 </dt> <dt>
 
-[**UIA\_AcceleratorKeyPropertyId**](https://www.bing.com/search?q=**UIA\_AcceleratorKeyPropertyId**)
+[**UIA\_AcceleratorKeyPropertyId**](uiauto-automation-element-propids.md#uia-acceleratorkeypropertyid)
 </dt> <dt>
 
-[**UIA\_AccessKeyPropertyId**](https://www.bing.com/search?q=**UIA\_AccessKeyPropertyId**)
+[**UIA\_AccessKeyPropertyId**](uiauto-automation-element-propids.md#uia-accesskeypropertyid)
 </dt> <dt>
 
-[**UIA\_NamePropertyId**](https://www.bing.com/search?q=**UIA\_NamePropertyId**)
+[**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid)
 </dt> </dl>
 
  

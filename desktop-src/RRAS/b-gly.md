@@ -28,7 +28,7 @@ The best route to take is the one with the lowest cost, based on a specified cri
 <span id="_rras_border_gateway_protocol_bgp__gly"></span><span id="_RRAS_BORDER_GATEWAY_PROTOCOL_BGP__GLY"></span>**border gateway protocol (BGP)**
 </dt> <dd>
 
-BGP is an [*exterior gateway protocol*](https://www.bing.com/search?q=*exterior gateway protocol*). BGP forwards information between two [*autonomous system*](https://www.bing.com/search?q=*autonomous system*). It is defined in [RFC 1267](routing-protocols-request-for-comments.md) and [RFC 1268](routing-protocols-request-for-comments.md).
+BGP is an [*exterior gateway protocol*](e-gly.md#-rras-exterior-gateway-protocol-gly). BGP forwards information between two [*autonomous system*](a-gly.md#-rras-autonomous-system-gly). It is defined in [RFC 1267](routing-protocols-request-for-comments.md) and [RFC 1268](routing-protocols-request-for-comments.md).
 
 </dd> <dt>
 

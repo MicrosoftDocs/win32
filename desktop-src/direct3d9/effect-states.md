@@ -67,7 +67,7 @@ To enable the best performance for applying an effect, all components of a light
 | LightRange\[n\]        | float  | See the Range member of [**D3DLIGHT9**](d3dlight9.md).                                                             |
 | LightSpecular\[n\]     | float4 | See the Specular member of [**D3DLIGHT9**](d3dlight9.md).                                                          |
 | LightTheta\[n\]        | float  | See the Theta member of [**D3DLIGHT9**](d3dlight9.md).                                                             |
-| LightType\[n\]         | dword  | Same value as the array of up to n [**D3DLIGHTTYPE**](https://msdn.microsoft.com/windows/desktop/90ad82d3-ffa8-42bb-9d9c-cf28a416c32d) values without the D3DLIGHT\_ prefix. |
+| LightType\[n\]         | dword  | Same value as the array of up to n [**D3DLIGHTTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dlighttype.htm) values without the D3DLIGHT\_ prefix. |
 
 
 
@@ -146,12 +146,12 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="even">
 <td>AlphaBlendEnable</td>
 <td>bool</td>
-<td>True or False. Same values as D3DRS_ALPHABLENDENABLE in [<strong>D3DRENDERSTATETYPE</strong>](https://msdn.microsoft.com/windows/desktop/2fd56388-f3bd-409f-876c-ae893840b623).</td>
+<td>True or False. Same values as D3DRS_ALPHABLENDENABLE in [<strong>D3DRENDERSTATETYPE</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3drenderstatetype.htm).</td>
 </tr>
 <tr class="odd">
 <td>AlphaFunc</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DCMPFUNC</strong>](https://msdn.microsoft.com/windows/desktop/999af3eb-a208-4312-acee-373192ea69e4) without the D3DCMP_ prefix. See D3DRS_ALPHAFUNC.</td>
+<td>Same values as [<strong>D3DCMPFUNC</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3dcmpfunc.htm) without the D3DCMP_ prefix. See D3DRS_ALPHAFUNC.</td>
 </tr>
 <tr class="even">
 <td>AlphaRef</td>
@@ -166,7 +166,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="even">
 <td>BlendOp</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DBLENDOP</strong>](https://msdn.microsoft.com/windows/desktop/ae750d84-ed7d-4a76-bf64-eae8828c66c7) without the D3DBLENDOP_ prefix.</td>
+<td>Same values as [<strong>D3DBLENDOP</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3dblendop.htm) without the D3DBLENDOP_ prefix.</td>
 </tr>
 <tr class="odd">
 <td>ColorWriteEnable</td>
@@ -181,7 +181,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="odd">
 <td>DestBlend</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DBLEND</strong>](https://msdn.microsoft.com/windows/desktop/60ff384c-15a0-4c6f-9e2c-59fdea76b7a1) without the D3DBLEND_ prefix.</td>
+<td>Same values as [<strong>D3DBLEND</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3dblend.htm) without the D3DBLEND_ prefix.</td>
 </tr>
 <tr class="even">
 <td>DitherEnable</td>
@@ -191,7 +191,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="odd">
 <td>FillMode</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DFILLMODE</strong>](https://msdn.microsoft.com/windows/desktop/be835432-e8d5-4afb-a810-2dac25bdc9dc) without the D3DFILL_ prefix.</td>
+<td>Same values as [<strong>D3DFILLMODE</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3dfillmode.htm) without the D3DFILL_ prefix.</td>
 </tr>
 <tr class="even">
 <td>LastPixel</td>
@@ -201,7 +201,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="odd">
 <td>ShadeMode</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DSHADEMODE</strong>](https://msdn.microsoft.com/windows/desktop/ba4e0c62-b496-427b-a324-2fb560d153ba) without the D3DSHADE_ prefix.</td>
+<td>Same values as [<strong>D3DSHADEMODE</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3dshademode.htm) without the D3DSHADE_ prefix.</td>
 </tr>
 <tr class="even">
 <td>SlopeScaleDepthBias</td>
@@ -211,7 +211,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="odd">
 <td>SrcBlend</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DBLEND</strong>](https://msdn.microsoft.com/windows/desktop/60ff384c-15a0-4c6f-9e2c-59fdea76b7a1) without the D3DBLEND_ prefix.</td>
+<td>Same values as [<strong>D3DBLEND</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3dblend.htm) without the D3DBLEND_ prefix.</td>
 </tr>
 <tr class="even">
 <td>StencilEnable</td>
@@ -226,7 +226,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="even">
 <td>StencilFunc</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DCMPFUNC</strong>](https://msdn.microsoft.com/windows/desktop/999af3eb-a208-4312-acee-373192ea69e4) without the D3DCMP_ prefix. See D3DRS_STENCILFUNC.</td>
+<td>Same values as [<strong>D3DCMPFUNC</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3dcmpfunc.htm) without the D3DCMP_ prefix. See D3DRS_STENCILFUNC.</td>
 </tr>
 <tr class="odd">
 <td>StencilMask</td>
@@ -275,12 +275,12 @@ Effect file render states have names similar to the fixed function pipeline stat
 <tr class="even">
 <td>ZEnable</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DZBUFFERTYPE</strong>](https://msdn.microsoft.com/windows/desktop/5e5ce48b-8859-43e0-a9b4-5972cf6bf781) without the D3DZB_ prefix.</td>
+<td>Same values as [<strong>D3DZBUFFERTYPE</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3dzbuffertype.htm) without the D3DZB_ prefix.</td>
 </tr>
 <tr class="odd">
 <td>ZFunc</td>
 <td>dword</td>
-<td>Same values as [<strong>D3DCMPFUNC</strong>](https://msdn.microsoft.com/windows/desktop/999af3eb-a208-4312-acee-373192ea69e4) without the D3DCMP_ prefix. See D3DRS_ZFUNC.</td>
+<td>Same values as [<strong>D3DCMPFUNC</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3dcmpfunc.htm) without the D3DCMP_ prefix. See D3DRS_ZFUNC.</td>
 </tr>
 <tr class="even">
 <td>ZWriteEnable</td>
@@ -316,20 +316,20 @@ Effect file render states have names similar to the fixed function pipeline stat
 |--------------------------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Render State             | Type   | Values                                                                                                                                        |
 | Ambient                  | float4 | Same values as D3DRS\_AMBIENT.                                                                                                                |
-| AmbientMaterialSource    | dword  | Same values as [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/windows/desktop/76061d47-a31c-4008-aa8d-a0464dd3423f) without the D3DMCS\_ prefix. See D3DRS\_AMBIENTMATERIALSOURCE.  |
+| AmbientMaterialSource    | dword  | Same values as [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dmaterialcolorsource.htm) without the D3DMCS\_ prefix. See D3DRS\_AMBIENTMATERIALSOURCE.  |
 | Clipping                 | bool   | True or False. Same values as D3DRS\_CLIPPING.                                                                                                |
 | ClipPlaneEnable          | dword  | Bitwise combination of D3DCLIPPLANE0 - D3DCLIPPLANE5 macros. See [**D3DCLIPPLANEn**](d3dclipplanen.md) and D3DRS\_CLIPPLANEENABLE.           |
 | ColorVertex              | bool   | True or False. Same values as D3DRS\_COLORVERTEX.                                                                                             |
-| CullMode                 | dword  | Same values as [**D3DCULL**](https://msdn.microsoft.com/windows/desktop/b669307c-0d40-4ecb-8a2e-8bd1d9c65647) without the D3DCULL\_ prefix.                                                                 |
-| DiffuseMaterialSource    | dword  | Same values as [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/windows/desktop/76061d47-a31c-4008-aa8d-a0464dd3423f) without the D3DMCS\_ prefix. See D3DRS\_DIFFUSEMATERIALSOURCE.  |
-| EmissiveMaterialSource   | dword  | Same values as [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/windows/desktop/76061d47-a31c-4008-aa8d-a0464dd3423f) without the D3DMCS\_ prefix. See D3DRS\_EMISSIVEMATERIALSOURCE. |
+| CullMode                 | dword  | Same values as [**D3DCULL**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dcull.htm) without the D3DCULL\_ prefix.                                                                 |
+| DiffuseMaterialSource    | dword  | Same values as [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dmaterialcolorsource.htm) without the D3DMCS\_ prefix. See D3DRS\_DIFFUSEMATERIALSOURCE.  |
+| EmissiveMaterialSource   | dword  | Same values as [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dmaterialcolorsource.htm) without the D3DMCS\_ prefix. See D3DRS\_EMISSIVEMATERIALSOURCE. |
 | FogColor                 | dword  | Same values as [**D3DCOLOR**](d3dcolor.md). See D3DRS\_FOGCOLOR.                                                                             |
 | FogDensity               | float  | Same values as D3DRS\_FOGDENSITY.                                                                                                             |
 | FogEnable                | bool   | True or False. Same values as D3DRS\_FOGENABLE.                                                                                               |
 | FogEnd                   | float  | Same values as D3DRS\_FOGEND.                                                                                                                 |
 | FogStart                 | float  | Same values as D3DRS\_FOGSTART.                                                                                                               |
-| FogTableMode             | dword  | Same values as [**D3DFOGMODE**](https://msdn.microsoft.com/windows/desktop/cd83c914-bc1d-4f66-b5a6-7984b7ec52cd). See D3DRS\_FOGTABLEMODE in [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/windows/desktop/2fd56388-f3bd-409f-876c-ae893840b623).     |
-| FogVertexMode            | dword  | Same values as [**D3DFOGMODE**](https://msdn.microsoft.com/windows/desktop/cd83c914-bc1d-4f66-b5a6-7984b7ec52cd) without the D3DFOG\_ prefix.                                                            |
+| FogTableMode             | dword  | Same values as [**D3DFOGMODE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dfogmode.htm). See D3DRS\_FOGTABLEMODE in [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3drenderstatetype.htm).     |
+| FogVertexMode            | dword  | Same values as [**D3DFOGMODE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dfogmode.htm) without the D3DFOG\_ prefix.                                                            |
 | IndexedVertexBlendEnable | bool   | True or False. Same values as D3DRS\_INDEXEDVERTEXBLENDENABLE.                                                                                |
 | Lighting                 | bool   | True or False. Same values as D3DRS\_LIGHTING.                                                                                                |
 | LocalViewer              | bool   | True or False. Same values as D3DRS\_LOCALVIEWER.                                                                                             |
@@ -347,9 +347,9 @@ Effect file render states have names similar to the fixed function pipeline stat
 | PointSpriteEnable        | bool   | True or False. Same values as D3DRS\_POINTSPRITEENABLE.                                                                                       |
 | RangeFogEnable           | bool   | True or False. Same values as D3DRS\_RANGEFOGENABLE.                                                                                          |
 | SpecularEnable           | bool   | True or False. Same values as D3DRS\_SPECULARENABLE.                                                                                          |
-| SpecularMaterialSource   | dword  | Same values as [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/windows/desktop/76061d47-a31c-4008-aa8d-a0464dd3423f) without the D3DMCS\_ prefix. See D3DRS\_SPECULARMATERIALSOURCE. |
+| SpecularMaterialSource   | dword  | Same values as [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dmaterialcolorsource.htm) without the D3DMCS\_ prefix. See D3DRS\_SPECULARMATERIALSOURCE. |
 | TweenFactor              | float  | Same values as D3DRS\_TWEENFACTOR.                                                                                                            |
-| VertexBlend              | dword  | Same values as [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/windows/desktop/5314f455-ce5f-4ff5-81fc-d3dffc8705b7) without the D3DVBF\_ prefix. See D3DRS\_VERTEXBLEND.                  |
+| VertexBlend              | dword  | Same values as [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dvertexblendflags.htm) without the D3DVBF\_ prefix. See D3DRS\_VERTEXBLEND.                  |
 
 
 
@@ -392,11 +392,11 @@ Sampler stage states are used to sample textures. Sampler state determines filte
 |                     |                              |                                                                                                                                   |
 |---------------------|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Sampler State       | Type                         | Values                                                                                                                            |
-| AddressU\[16\]      | dword                        | Same values as [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/windows/desktop/5c03c55f-4a74-4b0e-ba05-e4a6582ff47c) without the D3DTADDRESS\_ prefix. See D3DSAMP\_ADDRESSU.      |
-| AddressV\[16\]      | dword                        | Same values as [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/windows/desktop/5c03c55f-4a74-4b0e-ba05-e4a6582ff47c) without the D3DTADDRESS\_ prefix. See D3DSAMP\_ADDRESSV.      |
-| AddressW\[16\]      | dword                        | Same values as [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/windows/desktop/5c03c55f-4a74-4b0e-ba05-e4a6582ff47c) without the D3DTADDRESS\_ prefix. See D3DSAMP\_ADDRESSW.      |
-| BorderColor\[16\]   | [**D3DCOLOR**](d3dcolor.md) | Same values as [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/windows/desktop/4e0420fa-ac76-4be4-90d7-944d8d5a5de1) without the D3DTEXF\_ prefix. See D3DSAMP\_BORDERCOLOR. |
-| MagFilter\[16\]     | dword                        | Same values as [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/windows/desktop/4e0420fa-ac76-4be4-90d7-944d8d5a5de1) without the D3DTEXF\_ prefix. See D3DSAMP\_MAGFILTER.   |
+| AddressU\[16\]      | dword                        | Same values as [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtextureaddress.htm) without the D3DTADDRESS\_ prefix. See D3DSAMP\_ADDRESSU.      |
+| AddressV\[16\]      | dword                        | Same values as [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtextureaddress.htm) without the D3DTADDRESS\_ prefix. See D3DSAMP\_ADDRESSV.      |
+| AddressW\[16\]      | dword                        | Same values as [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtextureaddress.htm) without the D3DTADDRESS\_ prefix. See D3DSAMP\_ADDRESSW.      |
+| BorderColor\[16\]   | [**D3DCOLOR**](d3dcolor.md) | Same values as [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturefiltertype.htm) without the D3DTEXF\_ prefix. See D3DSAMP\_BORDERCOLOR. |
+| MagFilter\[16\]     | dword                        | Same values as [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturefiltertype.htm) without the D3DTEXF\_ prefix. See D3DSAMP\_MAGFILTER.   |
 | MaxAnisotropy\[16\] | dword                        | Same values as D3DSAMP\_MAXANISOTROPY without the D3DSAMP\_ prefix.                                                               |
 | MaxMipLevel\[16\]   | int                          | Same values as D3DSAMP\_MAXMIPLEVEL without the D3DSAMP\_ prefix.                                                                 |
 | MinFilter\[16\]     | dword                        | Same values as D3DSAMP\_MINFILTER without the D3DSAMP\_ prefix.                                                                   |
@@ -503,14 +503,14 @@ Texture stage states set up textures and the texture stages in the multitexture 
 |                            |       |                                                                                                                                                           |
 |----------------------------|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Texture Stage State        | Type  | Values                                                                                                                                                    |
-| AlphaOp\[8\]               | dword | Same as [**D3DTEXTUREOP**](https://msdn.microsoft.com/windows/desktop/7bfdcb15-c3c3-4e7e-b924-6ecfa350e2f3) without the D3DTOP\_ prefix. See D3DTSS\_ALPHAOP.                                                      |
+| AlphaOp\[8\]               | dword | Same as [**D3DTEXTUREOP**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtextureop.htm) without the D3DTOP\_ prefix. See D3DTSS\_ALPHAOP.                                                      |
 | AlphaArg0\[8\]             | dword | Same as [D3DTA](d3dta.md) without the D3DTA\_ prefix. See D3DTSS\_ALPHAARG0.                                                                             |
 | AlphaArg1\[8\]             | dword | Same as [D3DTA](d3dta.md) without the D3DTA\_ prefix. See D3DTSS\_ALPHAARG1.                                                                             |
 | AlphaArg2\[8\]             | dword | Same as [D3DTA](d3dta.md) without the D3DTA\_ prefix. See D3DTSS\_ALPHAARG2.                                                                             |
 | ColorArg0\[8\]             | dword | Same as [D3DTA](d3dta.md) without the D3DTA\_ prefix. See D3DTSS\_COLORARG0.                                                                             |
 | ColorArg1\[8\]             | dword | Same as [D3DTA](d3dta.md) without the D3DTA\_ prefix. See D3DTSS\_COLORARG1.                                                                             |
 | ColorArg2\[8\]             | dword | Same as [D3DTA](d3dta.md) without the D3DTA\_ prefix. See D3DTSS\_COLORARG2.                                                                             |
-| ColorOp\[8\]               | dword | Same as [**D3DTEXTUREOP**](https://msdn.microsoft.com/windows/desktop/7bfdcb15-c3c3-4e7e-b924-6ecfa350e2f3) without the D3DTOP\_ prefix. See D3DTSS\_COLOROP.                                                      |
+| ColorOp\[8\]               | dword | Same as [**D3DTEXTUREOP**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtextureop.htm) without the D3DTOP\_ prefix. See D3DTSS\_COLOROP.                                                      |
 | BumpEnvLScale\[8\]         | float | Same values as D3DTSS\_BUMPENVLSCALE without the D3DTSS\_TCI prefix.                                                                                      |
 | BumpEnvLOffset\[8\]        | float | Same values as D3DTSS\_BUMPENVLOFFSET without the D3DTSS\_TCI prefix.                                                                                     |
 | BumpEnvMat00\[8\]          | float | Same values as D3DTSS\_BUMPENVMAT00.                                                                                                                      |
@@ -519,7 +519,7 @@ Texture stage states set up textures and the texture stages in the multitexture 
 | BumpEnvMat11\[8\]          | float | Same values as D3DTSS\_BUMPENVMAT11.                                                                                                                      |
 | ResultArg\[8\]             | dword | Same as [D3DTA](d3dta.md) without the D3DTA\_ prefix. See D3DTSS\_RESULTARG.                                                                             |
 | TexCoordIndex\[8\]         | dword | Same values as D3DTSS\_TEXCOORDINDEX without the D3DTSS\_TCI prefix.                                                                                      |
-| TextureTransformFlags\[8\] | dword | Same values as [**D3DTEXTURETRANSFORMFLAGS**](https://msdn.microsoft.com/windows/desktop/a91f33ce-2db5-437a-ac29-402b26b0d4e1) values without the D3DTTFF\_ prefix. See D3DTSS\_TEXTURETRANSFORMFLAGS. |
+| TextureTransformFlags\[8\] | dword | Same values as [**D3DTEXTURETRANSFORMFLAGS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturetransformflags.htm) values without the D3DTTFF\_ prefix. See D3DTSS\_TEXTURETRANSFORMFLAGS. |
 
 
 
@@ -535,7 +535,7 @@ Set transform states to initialize transformation matrices. Effects use transpos
 |-----------------------|----------|---------------------------------------------------------------------------------------------------------------------------------|
 | Transform State       | Type     | Values                                                                                                                          |
 | ProjectionTransform   | float4x4 | A 4x4 matrix of floats. Same values as D3DTS\_PROJECTION without the D3DTS\_ prefix.                                            |
-| TextureTransform\[8\] | float4x4 | A 4x4 matrix of floats. Same values as [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/windows/desktop/53535d9f-246a-42cf-82a2-fb3cf6d4ebac) without the D3DTS\_ prefix. |
+| TextureTransform\[8\] | float4x4 | A 4x4 matrix of floats. Same values as [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtransformstatetype.htm) without the D3DTS\_ prefix. |
 | ViewTransform         | float4x4 | A 4x4 matrix of floats. Same values as D3DTS\_VIEW without the D3DTS\_ prefix.                                                  |
 | WorldTransform        | float4x4 | A 4x4 matrix of floats.                                                                                                         |
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # System.SFGAOFlags
 
-[**SFGAO**](https://msdn.microsoft.com/windows/desktop/4cb85995-cdc8-4474-8c4d-c783ac91c759) values as used in [**IShellFolder::GetAttributesOf**](https://msdn.microsoft.com/windows/desktop/3864b386-7653-4661-880c-e96c08ff0dbb).
+[**SFGAO**](https://msdn.microsoft.com/4cb85995-cdc8-4474-8c4d-c783ac91c759) values as used in [**IShellFolder::GetAttributesOf**](https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb).
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 
@@ -48,7 +48,7 @@ propertyDescription
 
 PKEY values are defined in Propkey.h.
 
-Certain [**SFGAO**](https://msdn.microsoft.com/windows/desktop/4cb85995-cdc8-4474-8c4d-c783ac91c759) values that are considered to cause slow calculations or lack context are excluded here by the application of the [****SFGAO\_PKEYSFGAOMASK****](https://msdn.microsoft.com/windows/desktop/4cb85995-cdc8-4474-8c4d-c783ac91c759) mask.
+Certain [**SFGAO**](https://msdn.microsoft.com/4cb85995-cdc8-4474-8c4d-c783ac91c759) values that are considered to cause slow calculations or lack context are excluded here by the application of the [****SFGAO\_PKEYSFGAOMASK****](https://msdn.microsoft.com/4cb85995-cdc8-4474-8c4d-c783ac91c759) mask.
 
 ## Related topics
 

@@ -99,11 +99,11 @@ Using metadata returned by the protocol handler's [**IUrlAccessor**](/windows/de
 
  
 
-The following table lists the results that the gatherer receives from a filter ([**IFilter**](https://www.bing.com/search?q=**IFilter**)) and property handler ([**IPropertyStore**](https://msdn.microsoft.com/windows/desktop/e995aaa1-d4c9-475f-b1fa-b9123cd5b653)) during the indexing process.
+The following table lists the results that the gatherer receives from a filter ([**IFilter**](https://www.bing.com/search?q=**IFilter**)) and property handler ([**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653)) during the indexing process.
 
 
 
-|                            | [**IFilter**](https://www.bing.com/search?q=**IFilter**) | [**IPropertyStore**](https://msdn.microsoft.com/windows/desktop/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) |
+|                            | [**IFilter**](https://www.bing.com/search?q=**IFilter**) | [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) |
 |----------------------------|------------------------------------|-------------------------------------------------|
 | Allow write                | No                                 | Yes                                             |
 | Mix content and properties | Yes                                | No                                              |
@@ -130,7 +130,7 @@ The following table lists the results that the gatherer receives from a filter (
 **SystemIndex**  The index, called SystemIndex, stores indexed data and is composed of a property store and indices over the properties and content for item properties, and an inverted index for textual content and properties. After the gatherer updates the index, the index can be queried by Windows Search and other applications. For more information on ways to query the index, see [Querying the Index Programmatically](-search-3x-wds-qryidx-overview.md).
 
 > [!Note]  
-> Remember that when you re-register a schema, changes made to attributes of previously defined properties may not be respected by the indexer. The solution is either to rebuild the index, or introduce new properties that reflect the changes instead of updating old ones (not recommended). For more information, see [Note to Implementers](#notes-to-implementers) in [Properties System Overview](https://msdn.microsoft.com/windows/desktop/eb2dc2be-fc53-40aa-81f6-f353ab1d3a57).
+> Remember that when you re-register a schema, changes made to attributes of previously defined properties may not be respected by the indexer. The solution is either to rebuild the index, or introduce new properties that reflect the changes instead of updating old ones (not recommended). For more information, see [Note to Implementers](#notes-to-implementers) in [Properties System Overview](https://msdn.microsoft.com/eb2dc2be-fc53-40aa-81f6-f353ab1d3a57).
 
  
 

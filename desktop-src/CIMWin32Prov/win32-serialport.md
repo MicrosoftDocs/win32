@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_SerialPort class
 
-The **Win32\_SerialPort** [WMI class](https://msdn.microsoft.com/windows/desktop/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents a serial port on a computer system running Windows.
+The **Win32\_SerialPort** [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents a serial port on a computer system running Windows.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -114,7 +114,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Operational State\|003.5", "MIB.IETF\|HOST-RESOURCES-MIB.hrDeviceStatus")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Operational State\|003.5", "MIB.IETF\|HOST-RESOURCES-MIB.hrDeviceStatus")
 </dt> </dl>
 
 Availability and status of the device.
@@ -317,7 +317,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/windows/desktop/9dccd2c6-44b7-4609-a2b9-9815430bf3c7)\|fBinary")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**DCB**](https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7)\|fBinary")
 </dt> </dl>
 
 If **TRUE**, the serial port is configured for binary data transfer. Because the Windows API does not support nonbinary mode transfers, this property must be **TRUE**.
@@ -333,7 +333,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Indexed"), [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Serial Ports\|004.7"), [**ModelCorrespondence**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_SerialController**](cim-serialcontroller.md).**CapabilityDescriptions**")
+Qualifiers: [**ArrayType**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Indexed"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Serial Ports\|004.7"), [**ModelCorrespondence**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_SerialController**](cim-serialcontroller.md).**CapabilityDescriptions**")
 </dt> </dl>
 
 Array of chip-level compatibility for the serial controller. This property describes the buffering and other capabilities of the serial controller that may be inherent in the chip hardware. The property is an enumerated integer.
@@ -409,7 +409,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_SerialController**](cim-serialcontroller.md).**Capabilities**")
+Qualifiers: [**ArrayType**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Indexed"), [**ModelCorrespondence**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_SerialController**](cim-serialcontroller.md).**Capabilities**")
 </dt> </dl>
 
 Array of free-form strings providing more detailed explanations for any of the serial controller features indicated in the **Capabilities** array. Note, each entry of this array is related to the entry in the **Capabilities** array that is located at the same index.
@@ -427,7 +427,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64), [**DisplayName**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Caption")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Caption")
 </dt> </dl>
 
 Short description of the object.
@@ -445,7 +445,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32")
+Qualifiers: [**Schema**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32")
 </dt> </dl>
 
 Win32 Configuration Manager error code.
@@ -805,7 +805,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32")
+Qualifiers: [**Schema**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32")
 </dt> </dl>
 
 If **TRUE**, the device is using a user-defined configuration.
@@ -823,7 +823,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/windows/desktop/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
 </dt> </dl>
 
 Name of the first concrete class to appear in the inheritance chain used in the creation of an instance. When used with the other key properties of the class, the property allows all instances of this class and its subclasses to be uniquely identified.
@@ -841,7 +841,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Description")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Description")
 </dt> </dl>
 
 Description of the object.
@@ -859,7 +859,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/windows/desktop/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**Override**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("DeviceId"), [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|Hardware\\\\DeviceMap\\\\SerialComm")
+Qualifiers: [**Key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("DeviceId"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|Hardware\\\\DeviceMap\\\\SerialComm")
 </dt> </dl>
 
 Unique identifier of the serial port with other devices on the system.
@@ -907,7 +907,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Install Date")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Install Date")
 </dt> </dl>
 
 Date and time the object was installed. This property does not need a value to indicate that the object is installed.
@@ -940,7 +940,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Serial Ports\|004.6"), [**Units**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("bits per second")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Serial Ports\|004.6"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("bits per second")
 </dt> </dl>
 
 Maximum baud rate (in bits per second) supported by the serial controller.
@@ -958,7 +958,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwMaxRxQueue"), [**units**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("bytes")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwMaxRxQueue"), [**units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("bytes")
 </dt> </dl>
 
 Maximum size of the serial port driver's internal input buffer. A value of 0 (zero) indicates that no maximum value is imposed by the serial provider.
@@ -974,7 +974,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwMaxTxQueue"), [**units**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("bytes")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwMaxTxQueue"), [**units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("bytes")
 </dt> </dl>
 
 Maximum size of the serial port driver's internal output buffer. A value of 0 (zero) indicates that no maximum value is imposed by the serial provider.
@@ -990,7 +990,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Bus Port\|001.9")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Bus Port\|001.9")
 </dt> </dl>
 
 Maximum number of directly addressable entities supportable by this controller. A value of 0 (zero) should be used if the number is unknown.
@@ -1008,7 +1008,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Name")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Name")
 </dt> </dl>
 
 Label by which the object is known. When subclassed, the property can be overridden to be a key property.
@@ -1026,7 +1026,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|HARDWARE\\\\DESCRIPTION\\\\SYSTEM\\\\MultifunctionAdapter")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|HARDWARE\\\\DESCRIPTION\\\\SYSTEM\\\\MultifunctionAdapter")
 </dt> </dl>
 
 If **TRUE**, the instances of this class were automatically discovered by the operating system. If, for example, hardware was added through Control Panel, the operating system finds instances of this class by querying hardware from the instances of this class.
@@ -1042,7 +1042,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32")
+Qualifiers: [**Schema**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32")
 </dt> </dl>
 
 Windows Plug and Play device identifier of the logical device.
@@ -1118,7 +1118,7 @@ The device can change its power state based on usage or other criteria.
 
 </dt> <dd>
 
-The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported. This method is found on the parent **CIM\_LogicalDevice** class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](https://msdn.microsoft.com/windows/desktop/20ef6b88-2aaa-4e86-bc4a-bebc34069672).
+The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported. This method is found on the parent **CIM\_LogicalDevice** class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](https://msdn.microsoft.com/20ef6b88-2aaa-4e86-bc4a-bebc34069672).
 
 </dd> <dt>
 
@@ -1172,7 +1172,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Bus Port\|001.2", "MIF.DMTF\|Disks\|003.3")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Bus Port\|001.2", "MIF.DMTF\|Disks\|003.3")
 </dt> </dl>
 
 Protocol used by the controller to access "controlled" devices.
@@ -1525,7 +1525,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvSubType")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvSubType")
 </dt> </dl>
 
 Communications provider type.
@@ -1638,7 +1638,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_BAUD")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_BAUD")
 </dt> </dl>
 
 If **TRUE**, the baud rate can be changed for this serial port.
@@ -1654,7 +1654,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_DATABITS")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_DATABITS")
 </dt> </dl>
 
 If **TRUE**, data bits can be set for this serial port.
@@ -1670,7 +1670,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_HANDSHAKING")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_HANDSHAKING")
 </dt> </dl>
 
 If **TRUE**, flow control can be set for this serial port.
@@ -1686,7 +1686,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_PARITY")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_PARITY")
 </dt> </dl>
 
 If **TRUE**, parity can be set for this serial port.
@@ -1702,7 +1702,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_PARITY\_CHECK")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_PARITY\_CHECK")
 </dt> </dl>
 
 If **TRUE**, parity checking can be set for this serial port (if parity checking is supported).
@@ -1718,7 +1718,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_RLSD")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_RLSD")
 </dt> </dl>
 
 If **TRUE**, Received Line Signal Detect (RLSD) can be set for this serial port (if RLSD is supported).
@@ -1734,7 +1734,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_STOPBITS")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwSettableParams\|SP\_STOPBITS")
 </dt> </dl>
 
 If **TRUE**, stop bits can be set for this serial port.
@@ -1750,7 +1750,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) (10), [**DisplayName**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Status")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (10), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", could apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither "OK" nor in one of the other states.
@@ -1856,7 +1856,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Operational State\|003.3")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Operational State\|003.3")
 </dt> </dl>
 
 State of the logical device. If this property does not apply to the logical device, the value 5 (Not Applicable) should be used.
@@ -1911,7 +1911,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_16BITMODE")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_16BITMODE")
 </dt> </dl>
 
 If **TRUE**, 16-bit mode is supported on this serial port.
@@ -1927,7 +1927,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_DTRDSR")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_DTRDSR")
 </dt> </dl>
 
 If **TRUE**, data terminal ready (DTR) and data set ready (DSR) signals are supported on this serial port.
@@ -1943,7 +1943,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_TOTALTIMEOUTS")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_TOTALTIMEOUTS")
 </dt> </dl>
 
 If **TRUE**, elapsed time-outs are supported on this serial port. Elapsed timeouts track the total amount of time between data transmissions.
@@ -1959,7 +1959,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_INTTIMEOUTS")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_INTTIMEOUTS")
 </dt> </dl>
 
 If **TRUE**, interval time-outs are supported. An interval timeout is the amount of time allowed to elapse between the arrival of each piece of data.
@@ -1975,7 +1975,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_PARITY\_CHECK")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_PARITY\_CHECK")
 </dt> </dl>
 
 If **TRUE**, parity checking is supported on this serial port.
@@ -1991,7 +1991,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_RLSD")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_RLSD")
 </dt> </dl>
 
 If **TRUE**, Received Line Signal Detect (RLSD) is supported on this serial port.
@@ -2007,7 +2007,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_RTSCTS")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_RTSCTS")
 </dt> </dl>
 
 If **TRUE**, ready to send (RTS) and clear to send (CTS) signals are supported on this serial port.
@@ -2023,7 +2023,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_SPECIALCHARS")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_SPECIALCHARS")
 </dt> </dl>
 
 If **TRUE**, serial port control characters are supported. These characters signal events rather than data. These characters are not displayable and are set by the driver. They include EofChar, ErrorChar, BreakChar, EventChar, XonChar, and XoffChar.
@@ -2039,7 +2039,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_XONXOFF")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_XONXOFF")
 </dt> </dl>
 
 If **TRUE**, XON or XOFF flow-control is supported on this serial port.
@@ -2055,7 +2055,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/windows/desktop/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_SETXCHAR")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Communication Structures\|[**COMMPROP**](https://msdn.microsoft.com/d50ff606-1939-4e36-ba83-da8f269a3cc8)\|dwProvCapabilities\|PCF\_SETXCHAR")
 </dt> </dl>
 
 If **TRUE**, the communications provider supports configuration of the XONor XOFF flow-control setting.
@@ -2071,7 +2071,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://msdn.microsoft.com/windows/desktop/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
 </dt> </dl>
 
 Value of the scoping computer's **CreationClassName** property.
@@ -2089,7 +2089,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://msdn.microsoft.com/windows/desktop/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
 </dt> </dl>
 
 Name of the scoping system.

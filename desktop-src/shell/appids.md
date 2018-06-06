@@ -59,31 +59,31 @@ An application must provide its AppUserModelID in the following form. It can hav
 
 When an application uses one or more explicit AppUserModelIDs, it should apply those AppUserModelIDs in the following locations and situations:
 
--   In the [System.AppUserModel.ID](https://msdn.microsoft.com/windows/desktop/07858b3c-e601-40ec-a87a-d66612d5473a) property of the application's shortcut file. A shortcut (as an [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka), CLSID\_ShellLink, or a .lnk file) supports properties through [**IPropertyStore**](https://msdn.microsoft.com/windows/desktop/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) and other property-setting mechanisms used throughout the Shell. This allows the taskbar to identify the proper shortcut to pin and ensures that windows belonging to the process are appropriately associated with that taskbar button.
+-   In the [System.AppUserModel.ID](https://msdn.microsoft.com/07858b3c-e601-40ec-a87a-d66612d5473a) property of the application's shortcut file. A shortcut (as an [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka), CLSID\_ShellLink, or a .lnk file) supports properties through [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) and other property-setting mechanisms used throughout the Shell. This allows the taskbar to identify the proper shortcut to pin and ensures that windows belonging to the process are appropriately associated with that taskbar button.
     > [!Note]  
-    > The [System.AppUserModel.ID](https://msdn.microsoft.com/windows/desktop/07858b3c-e601-40ec-a87a-d66612d5473a) property should be applied to a shortcut when that shortcut is created. When using the Microsoft Windows Installer (MSI) to install the application, the [MsiShortcutProperty](https://msdn.microsoft.com/windows/desktop/d959769d-113f-4af2-89d4-ad3f5322de33) table allows the AppUserModelID to be applied to the shortcut when it is created during installation.
+    > The [System.AppUserModel.ID](https://msdn.microsoft.com/07858b3c-e601-40ec-a87a-d66612d5473a) property should be applied to a shortcut when that shortcut is created. When using the Microsoft Windows Installer (MSI) to install the application, the [MsiShortcutProperty](https://msdn.microsoft.com/d959769d-113f-4af2-89d4-ad3f5322de33) table allows the AppUserModelID to be applied to the shortcut when it is created during installation.
 
      
 
 -   As a property of any of the application's running windows. This can be set in one of two ways:
 
-    1.  If different windows owned by one process require different AppUserModelIDs to control taskbar grouping, use [**SHGetPropertyStoreForWindow**](https://msdn.microsoft.com/windows/desktop/772aa2c8-6dd1-480c-a008-58f30902cb80)) to retrieve the window's property store and set the AppUserModelID as a window property.
+    1.  If different windows owned by one process require different AppUserModelIDs to control taskbar grouping, use [**SHGetPropertyStoreForWindow**](https://msdn.microsoft.com/772aa2c8-6dd1-480c-a008-58f30902cb80)) to retrieve the window's property store and set the AppUserModelID as a window property.
     2.  If all windows in the process use the same AppUserModelID, set the AppUserModelID on the process though [**SetCurrentProcessExplicitAppUserModelID**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-setcurrentprocessexplicitappusermodelid). An application must call **SetCurrentProcessExplicitAppUserModelID** to set its AppUserModelID during an application's initial startup routine before the application presents any UI, makes any manipulation of its Jump Lists, or makes (or causes the system to make) any call to [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs).
 
     A window-level AppUserModelID overrides a process-level AppUserModelID.
 
     When an application sets an explicit AppUserModelID at the window level, the application can provide the specifics of its relaunch command for its taskbar button. To supply that information, the following properties are used:
 
-    -   [System.AppUserModel.RelaunchCommand](https://msdn.microsoft.com/windows/desktop/83aab060-0629-48e3-a2db-9ba96a8631e5)
-    -   [System.AppUserModel.RelaunchDisplayNameResource](https://msdn.microsoft.com/windows/desktop/a149838b-83b6-44ce-b705-e2804efb3d31)
-    -   [System.AppUserModel.RelaunchIconResource](https://msdn.microsoft.com/windows/desktop/3559d1f5-988c-41d9-ba9a-dfa4ba643ee2)
+    -   [System.AppUserModel.RelaunchCommand](https://msdn.microsoft.com/83aab060-0629-48e3-a2db-9ba96a8631e5)
+    -   [System.AppUserModel.RelaunchDisplayNameResource](https://msdn.microsoft.com/a149838b-83b6-44ce-b705-e2804efb3d31)
+    -   [System.AppUserModel.RelaunchIconResource](https://msdn.microsoft.com/3559d1f5-988c-41d9-ba9a-dfa4ba643ee2)
 
     > [!Note]  
     > If a shortcut exists to launch the application, an application should apply the AppUserModelID as a property of the shortcut instead of using the relaunch properties. In that case, the command line, icon, and text of the shortcut are used to supply the same information as the relaunch properties.
 
      
 
-    A window-level explicit AppUserModelID can also use the [System.AppUserModel.PreventPinning](https://msdn.microsoft.com/windows/desktop/86239BF8-BCFC-4e76-BF94-5ABA4639562C) property to specify that it should not be available for pinning or relaunching.
+    A window-level explicit AppUserModelID can also use the [System.AppUserModel.PreventPinning](https://msdn.microsoft.com/86239BF8-BCFC-4e76-BF94-5ABA4639562C) property to specify that it should not be available for pinning or relaunching.
 
 -   In a call to customize or update ([**ICustomDestinationList**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist)), retrieve ([**IApplicationDocumentLists**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists)), or clear ([**IApplicationDestinations**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations)) the application's Jump List.
 -   In file association registration (through its [ProgID](fa-progids.md)) if the application uses the system's automatically generated **Recent** or **Frequent** destination lists. This association information is referenced by [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs). This information is also used when adding [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) destinations to custom Jump Lists through [**ICustomDestinationList::AppendCategory**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-appendcategory).
@@ -91,7 +91,7 @@ When an application uses one or more explicit AppUserModelIDs, it should apply t
 
 The following items describe common scenarios and where to apply explicit AppUserModelIDs in those scenarios.
 
--   When a single process contains multiple applications, use [**SHGetPropertyStoreForWindow**](https://msdn.microsoft.com/windows/desktop/772aa2c8-6dd1-480c-a008-58f30902cb80) to retrieve the window's property store and set the AppUserModelID as a window property.
+-   When a single process contains multiple applications, use [**SHGetPropertyStoreForWindow**](https://msdn.microsoft.com/772aa2c8-6dd1-480c-a008-58f30902cb80) to retrieve the window's property store and set the AppUserModelID as a window property.
 -   When an application uses multiple processes, apply the AppUserModelID to each process. Whether you use the same AppUserModelID on each process depends on whether you want each process to appear as part of the main application or as individual entities.
 -   To separate certain windows from a set in the same process, use the window's property store to apply a single AppUserModelID to those windows you want to separate, and then apply a different AppUserModelID to the process. Any window in that process that was not explicitly labeled with the window-level AppUserModelID inherits the AppUserModelID of the process.
 -   If a file type is associated with an application, assign the AppUserModelID in the file type's [ProgID](fa-progids.md) registration. If a single executable file is launched in different modes that appear to the user as distinct applications, a separate AppUserModelID is required for each mode. In that case, there must be multiple ProgID registrations for the file type, each with a different AppUserModelID.
@@ -132,7 +132,7 @@ Applications, processes, and windows can choose to make themselves unavailable f
 
     Note that any use of an explicit AppUserModelID overrides the NoStartPage entry. If an explicit AppUserModelID is applied to a shortcut, process, or window, it becomes pinnable and eligible for the **Start** menu MFU list.
 
-2.  Set the [System.AppUserModel.PreventPinning](https://msdn.microsoft.com/windows/desktop/86239BF8-BCFC-4e76-BF94-5ABA4639562C) property on windows and shortcuts. This property must be set on a window before the [PKEY\_AppUserModel\_ID](https://msdn.microsoft.com/windows/desktop/07858b3c-e601-40ec-a87a-d66612d5473a) property.
+2.  Set the [System.AppUserModel.PreventPinning](https://msdn.microsoft.com/86239BF8-BCFC-4e76-BF94-5ABA4639562C) property on windows and shortcuts. This property must be set on a window before the [PKEY\_AppUserModel\_ID](https://msdn.microsoft.com/07858b3c-e601-40ec-a87a-d66612d5473a) property.
 3.  Add an explicit AppUserModelID as a value under the following registry subkey as shown here:
 
     ```
@@ -239,7 +239,7 @@ HKEY_LOCAL_MACHINE
 [**IApplicationDestinations::SetAppID**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-setappid)
 </dt> <dt>
 
-[**SHGetPropertyStoreForWindow**](https://msdn.microsoft.com/windows/desktop/772aa2c8-6dd1-480c-a008-58f30902cb80)
+[**SHGetPropertyStoreForWindow**](https://msdn.microsoft.com/772aa2c8-6dd1-480c-a008-58f30902cb80)
 </dt> </dl>
 
  

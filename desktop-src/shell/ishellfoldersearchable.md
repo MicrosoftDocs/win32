@@ -14,7 +14,7 @@ Exposes methods that allow a Shell extension to provide a searchable namespace.
 
 ## Members
 
-The **IShellFolderSearchable** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IShellFolderSearchable** also has these types of members:
+The **IShellFolderSearchable** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IShellFolderSearchable** also has these types of members:
 
 -   [Methods](#methods)
 

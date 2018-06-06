@@ -38,7 +38,7 @@ The **IPrinterQueue2** interface has these methods.
 
 ## Remarks
 
-**IPrinterQueue2** also helps to make it possible to perform device maintenance and job management from a UWP device app or from a printer extension. For more information, see [Device Maintenance](https://www.bing.com/search?q=Device Maintenance) and [Job Management](https://www.bing.com/search?q=Job Management).
+**IPrinterQueue2** also helps to make it possible to perform device maintenance and job management from a UWP device app or from a printer extension. For more information, see [Device Maintenance](https://www.bing.com/search?q=Device+Maintenance) and [Job Management](https://www.bing.com/search?q=Job+Management).
 
 ## Requirements
 
@@ -56,13 +56,13 @@ The **IPrinterQueue2** interface has these methods.
 
 <dl> <dt>
 
-[Device Maintenance](https://www.bing.com/search?q=Device Maintenance)
+[Device Maintenance](https://www.bing.com/search?q=Device+Maintenance)
 </dt> <dt>
 
 [**IPrinterQueue**](iprinterqueue-interface.md)
 </dt> <dt>
 
-[Job Management](https://www.bing.com/search?q=Job Management)
+[Job Management](https://www.bing.com/search?q=Job+Management)
 </dt> </dl>
 
  

@@ -61,7 +61,7 @@ The identifier of the resource to retrieve.
 
 This parameter can contain one of the following:
 
--   URI with or without [*selectors*](https://www.bing.com/search?q=*selectors*). In the following Visual Basic Scripting Edition (VBScript) example, the key is specified by `Win32_Service?Name=winmgmt`.
+-   URI with or without [*selectors*](windows-remote-management-glossary.md#winrm-gloss-selector). In the following Visual Basic Scripting Edition (VBScript) example, the key is specified by `Win32_Service?Name=winmgmt`.
 
     ```VB
     strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/" _ 
@@ -70,8 +70,8 @@ This parameter can contain one of the following:
 
     
 
--   [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](https://www.bing.com/search?q=*fragments*), or [*options*](https://www.bing.com/search?q=*options*).
--   [*WS-Addressing*](https://www.bing.com/search?q=*WS-Addressing*) endpoint reference as described in the [WS-Management Protocol](ws-management-protocol.md) standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=84316).
+-   [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](windows-remote-management-glossary.md#winrm-gloss-fragment), or [*options*](windows-remote-management-glossary.md#winrm-gloss-option).
+-   [*WS-Addressing*](windows-remote-management-glossary.md#winrm-gloss-ws-addressing) endpoint reference as described in the [WS-Management Protocol](ws-management-protocol.md) standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=84316).
 
 </dd> <dt>
 

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # RBN\_AUTOSIZE notification code
 
-Sent by a rebar control created with the [**RBS\_AUTOSIZE**](https://www.bing.com/search?q=**RBS\_AUTOSIZE**) style when the rebar automatically resizes itself. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a rebar control created with the [**RBS\_AUTOSIZE**](rebar-control-styles.md#rbs-autosize) style when the rebar automatically resizes itself. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++

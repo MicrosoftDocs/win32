@@ -15,7 +15,7 @@ The virtual address space for a process is the set of virtual memory addresses t
 
 A virtual address does not represent the actual physical location of an object in memory; instead, the system maintains a *page table* for each process, which is an internal data structure used to translate virtual addresses into their corresponding physical addresses. Each time a thread references an address, the system translates the virtual address to a physical address.
 
-The virtual address space for 32-bit Windows is 4 gigabytes (GB) in size and divided into two partitions: one for use by the process and the other reserved for use by the system. For more information about the virtual address space in 64-bit Windows, see [Virtual Address Space in 64-bit Windows](https://msdn.microsoft.com/windows/desktop/c5c4af39-727e-46e1-821e-8342c555bf4c).
+The virtual address space for 32-bit Windows is 4 gigabytes (GB) in size and divided into two partitions: one for use by the process and the other reserved for use by the system. For more information about the virtual address space in 64-bit Windows, see [Virtual Address Space in 64-bit Windows](https://msdn.microsoft.com/c5c4af39-727e-46e1-821e-8342c555bf4c).
 
 For more information about virtual memory, see the following topics:
 
@@ -57,7 +57,7 @@ If [4-gigabyte tuning](4-gigabyte-tuning.md) (4GT) is enabled, the memory range 
 
  
 
-After 4GT is enabled, a process that has the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](https://msdn.microsoft.com/windows/desktop/8bfc6b47-23d6-45e1-a733-5b938d6312da) flag set in its image header will have access to the additional 1 GB of memory above the low 2 GB.
+After 4GT is enabled, a process that has the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](https://msdn.microsoft.com/8bfc6b47-23d6-45e1-a733-5b938d6312da) flag set in its image header will have access to the additional 1 GB of memory above the low 2 GB.
 
 ## Adjusting the Virtual Address Space for 32-bit Windows
 

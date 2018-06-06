@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 This section includes scenarios that use CAPICOM procedures.
 
 > [!Note]  
-> Creating [*digital signatures*](https://www.bing.com/search?q=*digital signatures*) and un-enveloping messages with CAPICOM is done using Public Key Infrastructure (PKI) cryptography and can only be done if the signer or user decrypting an enveloped message has access to a certificate with an available, associated private key. To decrypt an enveloped message, a certificate with access to the private key must be in the MY store.
+> Creating [*digital signatures*](security.d_gly#-security-digital-signature-gly) and un-enveloping messages with CAPICOM is done using Public Key Infrastructure (PKI) cryptography and can only be done if the signer or user decrypting an enveloped message has access to a certificate with an available, associated private key. To decrypt an enveloped message, a certificate with access to the private key must be in the MY store.
 
  
 

@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 
 | Topic                                                       | Description                                    |
 |-------------------------------------------------------------|------------------------------------------------|
-| [**XMFLOAT2 Constructors**](https://www.bing.com/search?q=**XMFLOAT2 Constructors**)<br/>   | Constructors exposed by `XMFLOAT2`.<br/> |
+| [**XMFLOAT2 Constructors**](https://www.bing.com/search?q=**XMFLOAT2+Constructors**)<br/>   | Constructors exposed by `XMFLOAT2`.<br/> |
 | [XMFLOAT2 Operators](ovw-xmfloat2-operators.md)<br/> | Operators exposed by `XMFLOAT2`.<br/>    |
 
 

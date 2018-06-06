@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # System.FileAttributes
 
-The attributes of the item. These are equivalent to the values recognized in the **dwFileAttributes** member of the [**WIN32\_FIND\_DATA**](https://msdn.microsoft.com/windows/desktop/eb700d84-0ba5-4af8-a619-2d2544560dbc) structure.
+The attributes of the item. These are equivalent to the values recognized in the **dwFileAttributes** member of the [**WIN32\_FIND\_DATA**](https://msdn.microsoft.com/eb700d84-0ba5-4af8-a619-2d2544560dbc) structure.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 

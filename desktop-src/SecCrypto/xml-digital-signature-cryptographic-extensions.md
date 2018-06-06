@@ -102,7 +102,7 @@ Each key contains the following settings.
 <td>Required.<br/>The absolute path to the XML Cryptographic Provider DLL.
 <blockquote>
 <p>[!Note]We recommend that cryptographic extension DLLs be located in directories that can only be written to by applications with administrative privilege.</p>
-<p>[<strong>LoadLibrary</strong>](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65) is used to load the cryptographic extension DLL.<br/></p>
+<p>[<strong>LoadLibrary</strong>](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) is used to load the cryptographic extension DLL.<br/></p>
 </blockquote>
 <br/></td>
 </tr>

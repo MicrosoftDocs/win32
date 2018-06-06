@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Describing a Qualifier with a Qualifier Flavor
 
-A [*qualifier flavor*](https://www.bing.com/search?q=*qualifier flavor*) is a flag that describes more information about a qualifier. For example, the Restricted qualifier flavor states that WMI should not propagate the associated qualifier to any derived classes or instances. You can set flavors using either MOF code or programmatically. While you can describe a variety of effects with flavors, the main purposes of flavor flags is to define how WMI propagates qualifiers through inheritance.
+A [*qualifier flavor*](gloss-q.md#wmi-gloss-qualifier-flavor) is a flag that describes more information about a qualifier. For example, the Restricted qualifier flavor states that WMI should not propagate the associated qualifier to any derived classes or instances. You can set flavors using either MOF code or programmatically. While you can describe a variety of effects with flavors, the main purposes of flavor flags is to define how WMI propagates qualifiers through inheritance.
 
 WMI defines several qualifier flavors that you can attach to any qualifier, regardless of the origin of the qualifier. However, some flavors are not appropriate for all qualifier types. The **ToSubClass** flavor, for example, is appropriate only for qualifiers defined for a class. You cannot attach **ToSubClass** to a qualifier used to describe an instance.
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **GetRandom** method is available for use in the operating systems specified in the Requirements section.\]
 
-The **GetRandom** method generates a secure random number using the default [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP).
+The **GetRandom** method generates a secure random number using the default [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP).
 
 ## Syntax
 

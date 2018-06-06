@@ -19,7 +19,7 @@ This section contains example code and information about how to create and use s
 
 | Topic                                                          | Description                                                                                                                                                                                                                                                                                   |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [How to Create Status Bars](create-status-bars.md)<br/> | You can create a status bar by using the [**CreateStatusWindow**](/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa) function or by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and specifying the [**STATUSCLASSNAME**](https://www.bing.com/search?q=**STATUSCLASSNAME**) window class. <br/> |
+| [How to Create Status Bars](create-status-bars.md)<br/> | You can create a status bar by using the [**CreateStatusWindow**](/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa) function or by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and specifying the [**STATUSCLASSNAME**](common-control-window-classes.md#statusclassname) window class. <br/> |
 
 
 

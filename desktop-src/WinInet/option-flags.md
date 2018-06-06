@@ -1396,7 +1396,7 @@ Not implemented.
 
 0x00001000
 
-Ignores the [ERROR\_INTERNET\_SEC\_CERT\_CN\_INVALID](https://www.bing.com/search?q=ERROR\_INTERNET\_SEC\_CERT\_CN\_INVALID) error message.
+Ignores the [ERROR\_INTERNET\_SEC\_CERT\_CN\_INVALID](wininet-errors.md#error-internet-sec-cert-cn-invalid) error message.
 
 </dd> <dt>
 
@@ -1405,7 +1405,7 @@ Ignores the [ERROR\_INTERNET\_SEC\_CERT\_CN\_INVALID](https://www.bing.com/searc
 
 0x00002000
 
-Ignores the [ERROR\_INTERNET\_SEC\_CERT\_DATE\_INVALID](https://www.bing.com/search?q=ERROR\_INTERNET\_SEC\_CERT\_DATE\_INVALID) error message.
+Ignores the [ERROR\_INTERNET\_SEC\_CERT\_DATE\_INVALID](wininet-errors.md#error-internet-sec-cert-date-invalid) error message.
 
 </dd> <dt>
 
@@ -1414,7 +1414,7 @@ Ignores the [ERROR\_INTERNET\_SEC\_CERT\_DATE\_INVALID](https://www.bing.com/sea
 
 0x00008000
 
-Ignores the [ERROR\_INTERNET\_HTTPS\_TO\_HTTP\_ON\_REDIR](https://www.bing.com/search?q=ERROR\_INTERNET\_HTTPS\_TO\_HTTP\_ON\_REDIR) error message.
+Ignores the [ERROR\_INTERNET\_HTTPS\_TO\_HTTP\_ON\_REDIR](wininet-errors.md#error-internet-https-to-http-on-redir) error message.
 
 </dd> <dt>
 
@@ -1423,7 +1423,7 @@ Ignores the [ERROR\_INTERNET\_HTTPS\_TO\_HTTP\_ON\_REDIR](https://www.bing.com/s
 
 0x00004000
 
-Ignores the [ERROR\_INTERNET\_HTTP\_TO\_HTTPS\_ON\_REDIR](https://www.bing.com/search?q=ERROR\_INTERNET\_HTTP\_TO\_HTTPS\_ON\_REDIR) error message.
+Ignores the [ERROR\_INTERNET\_HTTP\_TO\_HTTPS\_ON\_REDIR](wininet-errors.md#error-internet-http-to-https-on-redir) error message.
 
 </dd> <dt>
 

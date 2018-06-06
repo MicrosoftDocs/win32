@@ -53,7 +53,7 @@ Using this message might compromise the security of your program.
 
 ## Remarks
 
-The bounding size controls how buttons are organized into columns. If the toolbar control does not have the [**TBSTYLE\_EX\_MULTICOLUMN**](https://www.bing.com/search?q=**TBSTYLE\_EX\_MULTICOLUMN**) style, this message has no effect.
+The bounding size controls how buttons are organized into columns. If the toolbar control does not have the [**TBSTYLE\_EX\_MULTICOLUMN**](toolbar-extended-styles.md#tbstyle-ex-multicolumn) style, this message has no effect.
 
 ## Requirements
 

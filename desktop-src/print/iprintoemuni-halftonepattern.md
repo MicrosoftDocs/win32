@@ -54,7 +54,7 @@ Caller-supplied pointer to a buffer that receives the method-supplied halftone p
 *dwHTPatternX* 
 </dt> <dd>
 
-Caller-supplied length, in pixels, of the halftone pattern, as specified by the first value in the [*GPD*](https://www.bing.com/search?q=*GPD*) file's \***HTPatternSize** attribute.
+Caller-supplied length, in pixels, of the halftone pattern, as specified by the first value in the [*GPD*](wdkgloss.g#wdkgloss-generic-printer-description--gpd-) file's \***HTPatternSize** attribute.
 
 </dd> <dt>
 
@@ -220,7 +220,7 @@ An implementation of a `HalftonePattern` method in the rendering plug-in must be
 
 The `IPrintOemUni::HalftonePattern` method is optional. If a rendering plug-in implements this method, the plug-in's [**IPrintOemUni::GetImplementedMethod**](iprintoemuni-getimplementedmethod.md) method must return S\_OK when it receives "HalftonePattern" as input.
 
-For more information about halftoning, see [Customized Halftoning](https://www.bing.com/search?q=Customized Halftoning) and [Option Attributes for the Halftone Feature](https://www.bing.com/search?q=Option Attributes for the Halftone Feature).
+For more information about halftoning, see [Customized Halftoning](https://www.bing.com/search?q=Customized+Halftoning) and [Option Attributes for the Halftone Feature](https://www.bing.com/search?q=Option+Attributes+for+the+Halftone+Feature).
 
 ## Requirements
 

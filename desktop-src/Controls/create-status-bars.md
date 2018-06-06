@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # How to Create Status Bars
 
-You can create a status bar by using the [**CreateStatusWindow**](/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa) function or by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and specifying the [**STATUSCLASSNAME**](https://www.bing.com/search?q=**STATUSCLASSNAME**) window class.
+You can create a status bar by using the [**CreateStatusWindow**](/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa) function or by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and specifying the [**STATUSCLASSNAME**](common-control-window-classes.md#statusclassname) window class.
 
 After you create the status bar, you can divide it into parts, set the text for each part, and control the appearance of the window by using status bar messages.
 

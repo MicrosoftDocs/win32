@@ -40,7 +40,7 @@ A worldwide character-encoding standard that allows more information to be conta
 <span id="_security_universal_well_known_security_identifier_gly"></span><span id="_SECURITY_UNIVERSAL_WELL_KNOWN_SECURITY_IDENTIFIER_GLY"></span>**universal well-known security identifier**
 </dt> <dd>
 
-A [*security identifier*](https://www.bing.com/search?q=*security identifier*) (SID) that is known on all systems that adhere to the security model based on authenticated users and discretionary access control.
+A [*security identifier*](s-gly.md#-security-security-identifier-gly) (SID) that is known on all systems that adhere to the security model based on authenticated users and discretionary access control.
 
 </dd> <dt>
 

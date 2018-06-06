@@ -45,43 +45,43 @@ Texture containing the displacement data.
 *MinFilter* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/windows/desktop/4e0420fa-ac76-4be4-90d7-944d8d5a5de1)\***
+Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturefiltertype.htm)\***
 
-Minification level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/windows/desktop/4e0420fa-ac76-4be4-90d7-944d8d5a5de1).
+Minification level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturefiltertype.htm).
 
 </dd> <dt>
 
 *MagFilter* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/windows/desktop/4e0420fa-ac76-4be4-90d7-944d8d5a5de1)\***
+Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturefiltertype.htm)\***
 
-Magnification level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/windows/desktop/4e0420fa-ac76-4be4-90d7-944d8d5a5de1).
+Magnification level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturefiltertype.htm).
 
 </dd> <dt>
 
 *MipFilter* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/windows/desktop/4e0420fa-ac76-4be4-90d7-944d8d5a5de1)\***
+Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturefiltertype.htm)\***
 
-Mip filter level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/windows/desktop/4e0420fa-ac76-4be4-90d7-944d8d5a5de1).
+Mip filter level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturefiltertype.htm).
 
 </dd> <dt>
 
 *Wrap* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/windows/desktop/5c03c55f-4a74-4b0e-ba05-e4a6582ff47c)\***
+Type: **[**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtextureaddress.htm)\***
 
-Texture address wrap mode. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/windows/desktop/5c03c55f-4a74-4b0e-ba05-e4a6582ff47c).
+Texture address wrap mode. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtextureaddress.htm).
 
 </dd> <dt>
 
 *dwLODBias* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Level of detail bias value.
 

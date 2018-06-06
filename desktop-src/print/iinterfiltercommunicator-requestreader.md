@@ -41,7 +41,7 @@ A variable that receives the reader interface object when **RequestReader** retr
 
 ## Remarks
 
-The **IInterFilterCommunicator** object is passed to each filter in the [**IPrintPipelineFilter::InitializeFilter**](iprintpipelinefilter-initializefilter.md) method. The filter uses the **RequestReader** method to get the reader interface for the object. The universally unique identifier (UUID) for the object is declared in the [filter pipeline configuration file](https://www.bing.com/search?q=filter pipeline configuration file). The filter uses the **IInterFilterCommunicator** interface to receive input data.
+The **IInterFilterCommunicator** object is passed to each filter in the [**IPrintPipelineFilter::InitializeFilter**](iprintpipelinefilter-initializefilter.md) method. The filter uses the **RequestReader** method to get the reader interface for the object. The universally unique identifier (UUID) for the object is declared in the [filter pipeline configuration file](https://www.bing.com/search?q=filter+pipeline+configuration+file). The filter uses the **IInterFilterCommunicator** interface to receive input data.
 
 ## Requirements
 

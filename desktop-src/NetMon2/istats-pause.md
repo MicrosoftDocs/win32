@@ -49,7 +49,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 While the capture is paused, new frames are not captured until a call to the [IStats::Resume](istats-resume.md) method restarts the capture.
 
-When you use the **IStats::Pause** and **IStats::Resume** methods to control the capture, Network Monitor continues to add [*conversation statistics*](https://www.bing.com/search?q=*conversation statistics*) whenever the capture is running.
+When you use the **IStats::Pause** and **IStats::Resume** methods to control the capture, Network Monitor continues to add [*conversation statistics*](c.md#-netmon-conversation-statistics-gly) whenever the capture is running.
 
 To restart the capture call [IStats::Resume](istats-resume.md). To stop the capture, call [IStats::Stop](istats-stop.md).
 

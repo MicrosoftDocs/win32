@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardCmd interface
 
-\[The **ISCardCmd** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **ISCardCmd** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **ISCardCmd** interface provides the methods needed to construct and manage a [*smart card*](https://www.bing.com/search?q=*smart card*) [*application protocol data unit*](https://www.bing.com/search?q=*application protocol data unit*) (APDU). This interface encapsulates two buffers:
+The **ISCardCmd** interface provides the methods needed to construct and manage a [*smart card*](security.s_gly#-security-smart-card-gly) [*application protocol data unit*](security.a_gly#-security-application-protocol-data-unit-gly) (APDU). This interface encapsulates two buffers:
 
 -   The APDU buffer contains the command sequence that will be sent to the card.
 -   The APDUReply buffer contains data returned from the card after execution of the APDU command (this data is also referred to as the return APDU).
@@ -62,9 +62,9 @@ The **ISCardCmd** interface has these properties.
 | Property                                                              | Access type           | Description                                                                                                                                                         |
 |:----------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AlternateClassId**](iscardcmd-get-alternateclassid.md)<br/> | Read/write<br/> | Current alternate class ID value.<br/>                                                                                                                        |
-| [**Apdu**](iscardcmd-get-apdu.md)<br/>                         | Read/write<br/> | Raw [*application protocol data unit*](https://www.bing.com/search?q=*application protocol data unit*) (APDU).<br/> |
+| [**Apdu**](iscardcmd-get-apdu.md)<br/>                         | Read/write<br/> | Raw [*application protocol data unit*](security.a_gly#-security-application-protocol-data-unit-gly) (APDU).<br/> |
 | [**ApduLength**](iscardcmd-get-apdulength.md)<br/>             | Read-only<br/>  | Length of the APDU.<br/>                                                                                                                                      |
-| [**ApduReply**](iscardcmd-get-apdureply.md)<br/>               | Read/write<br/> | [*Reply APDU*](https://www.bing.com/search?q=*Reply APDU*).<br/>                                                                        |
+| [**ApduReply**](iscardcmd-get-apdureply.md)<br/>               | Read/write<br/> | [*Reply APDU*](security.r_gly#-security-reply-apdu-gly).<br/>                                                                        |
 | [**ApduReplyLength**](iscardcmd-get-apdureplylength.md)<br/>   | Read/write<br/> | Length of the reply APDU.<br/>                                                                                                                                |
 | [**ClassId**](iscardcmd-get-classid.md)<br/>                   | Read/write<br/> | Class ID of the APDU.<br/>                                                                                                                                    |
 | [**Data**](iscardcmd-get-data.md)<br/>                         | Read-only<br/>  | Data field of the APDU.<br/>                                                                                                                                  |
@@ -75,7 +75,7 @@ The **ISCardCmd** interface has these properties.
 | [**P2**](iscardcmd-get-p2.md)<br/>                             | Read/write<br/> | Second parameter byte of the APDU.<br/>                                                                                                                       |
 | [**P3**](iscardcmd-get-p3.md)<br/>                             | Read-only<br/>  | Third parameter byte of the APDU.<br/>                                                                                                                        |
 | [**ReplyNad**](iscardcmd-get-replynad.md)<br/>                 | Read/write<br/> | Node address used by the card in the reply message.<br/>                                                                                                      |
-| [**ReplyStatus**](iscardcmd-get-replystatus.md)<br/>           | Read/write<br/> | [*Reply APDU*](https://www.bing.com/search?q=*Reply APDU*) message status word.<br/>                                                    |
+| [**ReplyStatus**](iscardcmd-get-replystatus.md)<br/>           | Read/write<br/> | [*Reply APDU*](security.r_gly#-security-reply-apdu-gly) message status word.<br/>                                                    |
 | [**ReplyStatusSW1**](iscardcmd-get-replystatussw1.md)<br/>     | Read-only<br/>  | Reply APDU's message SW1 status byte.<br/>                                                                                                                    |
 | [**ReplyStatusSW2**](iscardcmd-get-replystatussw2.md)<br/>     | Read-only<br/>  | Reply APDU's message SW2 status byte.<br/>                                                                                                                    |
 | **Type**<br/>                                                   | Read-only<br/>  | Reserved for future use.<br/>                                                                                                                                 |

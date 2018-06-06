@@ -43,7 +43,7 @@ A handle to the printer that is currently being queried.
 *cbDevMode* 
 </dt> <dd>
 
-The size of the [**DEVMODE**](https://www.bing.com/search?q=**DEVMODE**) structure, including appended data.
+The size of the [**DEVMODE**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure, including appended data.
 
 </dd> <dt>
 

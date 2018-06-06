@@ -96,7 +96,7 @@ You can use **DXGI\_RGBA** with [**IDXGISwapChain1::SetBackgroundColor**](/windo
 [**D3DCOLORVALUE**](d3dcolorvalue.md)
 </dt> <dt>
 
-[**D3DCOLORVALUE (in Direct3D 9)**](https://msdn.microsoft.com/windows/desktop/6af8c2ec-bc79-4dc6-b56d-7a7676a50b39)
+[**D3DCOLORVALUE (in Direct3D 9)**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dcolorvalue.htm)
 </dt> </dl>
 
  

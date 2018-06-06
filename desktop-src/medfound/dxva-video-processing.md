@@ -180,7 +180,7 @@ Consider an application that renders a video stream in YUY2 format, using the BT
 
 The code for this example is taken from the [DXVA2\_VideoProc](dxva2-videoproc-sample.md) SDK sample.
 
-The *pGuids* array in this example is allocated by the [**GetVideoProcessorDeviceGuids**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessordeviceguids) method, so the application must free the array by calling [**CoTaskMemFree**](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7). The remaining steps can be performed using any of the device GUIDs returned by this method.
+The *pGuids* array in this example is allocated by the [**GetVideoProcessorDeviceGuids**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessordeviceguids) method, so the application must free the array by calling [**CoTaskMemFree**](https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7). The remaining steps can be performed using any of the device GUIDs returned by this method.
 
 ### Enumerate Render-Target Formats
 
@@ -382,7 +382,7 @@ Every blit operation is defined by the following three rectangles:
 
 The target and destination rectangles are specified relative to the destination surface. The source rectangle is specified relative to the source image. All rectangles are specified in pixels.
 
-![diagram showing source, destination, and target rectangles](https://www.bing.com/search?q=diagram showing source, destination, and target rectangles)
+![diagram showing source, destination, and target rectangles](https://www.bing.com/search?q=diagram+showing+source,+destination,+and+target+rectangles)
 
 The video processing device alpha blends the input pictures, using any of the following sources of alpha data:
 

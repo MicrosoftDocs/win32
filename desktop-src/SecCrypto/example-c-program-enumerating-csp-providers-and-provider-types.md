@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Enumerating CSP Providers and Provider Types
 
-The following example lists the CSPs available on a computer and uses the following [*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) functions:
+The following example lists the CSPs available on a computer and uses the following [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
 -   [**CryptEnumProviderTypes**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidertypesa)
 -   [**CryptEnumProviders**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidersa)

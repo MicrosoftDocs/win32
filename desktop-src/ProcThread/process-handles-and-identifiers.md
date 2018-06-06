@@ -17,7 +17,7 @@ The [**CreateProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-create
 
 If you have a process identifier, you can get the process handle by calling the [**OpenProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-openprocess) function. **OpenProcess** enables you to specify the handle's access rights and whether it can be inherited.
 
-A process can use the [**GetCurrentProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-getcurrentprocess) function to retrieve a pseudo handle to its own process object. This pseudo handle is valid only for the calling process; it cannot be inherited or duplicated for use by other processes. To get the real handle to the process, call the [**DuplicateHandle**](https://msdn.microsoft.com/windows/desktop/9c8da574-5bda-49f1-a6b6-c026639d6504) function.
+A process can use the [**GetCurrentProcess**](/windows/desktop/api/WinBase/nf-processthreadsapi-getcurrentprocess) function to retrieve a pseudo handle to its own process object. This pseudo handle is valid only for the calling process; it cannot be inherited or duplicated for use by other processes. To get the real handle to the process, call the [**DuplicateHandle**](https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504) function.
 
  
 

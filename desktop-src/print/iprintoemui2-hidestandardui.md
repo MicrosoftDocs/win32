@@ -79,7 +79,7 @@ The following table summarizes how the `IPrintOemUI2::HideStandardUI` method wou
 
  
 
-If the `IPrintOemUI2::HideStandardUI` method indicates to the driver that all standard property sheets should be hidden, the driver omits calls to compstui.dll (see [Pscript Components](https://www.bing.com/search?q=Pscript Components)) to add the standard property sheets. A UI plug-in must implement at least one custom property sheet UI if `IPrintOemUI2::HideStandardUI` returns S\_OK.
+If the `IPrintOemUI2::HideStandardUI` method indicates to the driver that all standard property sheets should be hidden, the driver omits calls to compstui.dll (see [Pscript Components](https://www.bing.com/search?q=Pscript+Components)) to add the standard property sheets. A UI plug-in must implement at least one custom property sheet UI if `IPrintOemUI2::HideStandardUI` returns S\_OK.
 
 When the printer has multiple UI plug-ins installed, the driver calls UI plug-ins in the order they were installed, until one of them returns S\_OK, or until all of the UI plug-ins have been called and none of them returned S\_OK. The former case indicates to the driver that the standard property sheet UI should be hidden. The latter case indicates to the driver that the standard property sheet UI should be displayed.
 

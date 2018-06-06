@@ -24,7 +24,7 @@ To create a custom Explorer Bar, you must implement and register a *band object*
 
 ## Tool Bands
 
-A *tool band* is a band object that was introduced with Microsoft Internet Explorer 5 to support the Windows radio toolbar feature. The Internet Explorer toolbar is actually a [rebar control](https://www.bing.com/search?q=rebar control) that contains several [toolbar controls](https://msdn.microsoft.com/windows/desktop/944447c6-d804-421c-9669-a3767a00730a). By creating a tool band, you can add a band to that rebar control. However, like Explorer Bars, a tool band is a general purpose window.
+A *tool band* is a band object that was introduced with Microsoft Internet Explorer 5 to support the Windows radio toolbar feature. The Internet Explorer toolbar is actually a [rebar control](https://www.bing.com/search?q=rebar+control) that contains several [toolbar controls](https://msdn.microsoft.com/VS|Controls|~\controls\toolbar\reflist.htm). By creating a tool band, you can add a band to that rebar control. However, like Explorer Bars, a tool band is a general purpose window.
 
 ![screen shot of tool bands](images/toolband1.jpg)
 
@@ -56,11 +56,11 @@ The following topics are discussed.
 
 Although they can be used much like normal windows, band objects are COM objects that exist within a container. Explorer Bars are contained by Internet Explorer, and desk bands are contained by the Shell. While they serve different functions, their basic implementation is very similar. The primary difference is in how the band object is registered, which in turn controls the type of object and its container. This section discusses those aspects of implementation that are common to all band objects. See [A Simple Example of a Custom Explorer Bar](#a-simple-example-of-a-custom-explorer-bar) for additional implementation details.
 
-In addition to [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) and [**IClassFactory**](https://msdn.microsoft.com/windows/desktop/f624f833-2b69-43bc-92cd-c4ecbe6051c5), all band objects must implement the following interfaces.
+In addition to [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) and [**IClassFactory**](https://msdn.microsoft.com/f624f833-2b69-43bc-92cd-c4ecbe6051c5), all band objects must implement the following interfaces.
 
 -   [**IDeskBand**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ideskband)
--   [**IObjectWithSite**](https://msdn.microsoft.com/windows/desktop/e688136e-e06b-46ba-bec9-b8db2f9c468d)
--   [**IPersistStream**](https://msdn.microsoft.com/windows/desktop/97ea64ee-d950-4872-add6-1f532a6eb33f)
+-   [**IObjectWithSite**](https://msdn.microsoft.com/e688136e-e06b-46ba-bec9-b8db2f9c468d)
+-   [**IPersistStream**](https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f)
 
 In addition to registering their class identifier (CLSID), the Explorer Bar and desk band objects must also be registered for the appropriate component category. Registering the component category determines the object type and its container. Tool bands use a different registration procedure and do not have a category identifier (CATID). The CATIDs for the three band objects that require them are:
 
@@ -82,7 +82,7 @@ If the band object is to accept user input, it must also implement [**IInputObje
 
 Because band objects implement a child window, they must also implement a window procedure to handle Windows messaging.
 
-Band objects can send commands to their container through the container's [**IOleCommandTarget**](https://msdn.microsoft.com/windows/desktop/5c8b455e-7740-4f71-aef6-27390a11a1a3) interface. To obtain the interface pointer, call the container's [**IInputObjectSite::QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) method and ask for IID\_IOleCommandTarget. You then send commands to the container with [**IOleCommandTarget::Exec**](https://msdn.microsoft.com/windows/desktop/a2071ca9-8675-4f53-b30e-8c7198c2acca). The command group is CGID\_DeskBand. When a band object's [**IDeskBand::GetBandInfo**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ideskband) method is called, the container uses the *dwBandID* parameter to assign the band object an identifier that is used for three of the commands. Four **IOleCommandTarget::Exec** command IDs are supported.
+Band objects can send commands to their container through the container's [**IOleCommandTarget**](https://msdn.microsoft.com/5c8b455e-7740-4f71-aef6-27390a11a1a3) interface. To obtain the interface pointer, call the container's [**IInputObjectSite::QueryInterface**](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) method and ask for IID\_IOleCommandTarget. You then send commands to the container with [**IOleCommandTarget::Exec**](https://msdn.microsoft.com/a2071ca9-8675-4f53-b30e-8c7198c2acca). The command group is CGID\_DeskBand. When a band object's [**IDeskBand::GetBandInfo**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ideskband) method is called, the container uses the *dwBandID* parameter to assign the band object an identifier that is used for three of the commands. Four **IOleCommandTarget::Exec** command IDs are supported.
 
 -   DBID\_BANDINFOCHANGED
 
@@ -100,7 +100,7 @@ Band objects can send commands to their container through the container's [**IOl
 
     | Value | Description                                                                                                 |
     |-------|-------------------------------------------------------------------------------------------------------------|
-    | pUnk  | A pointer to the band object's [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. All other desk bands will be hidden. |
+    | pUnk  | A pointer to the band object's [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. All other desk bands will be hidden. |
     | 0     | Hide all desk bands.                                                                                        |
     | 1     | Show all desk bands.                                                                                        |
 
@@ -110,7 +110,7 @@ Band objects can send commands to their container through the container's [**IOl
 
 -   DBID\_PUSHCHEVRON
 
-    [Version 5](versions.md). Display a chevron menu. The container sends an [**RB\_PUSHCHEVRON**](https://msdn.microsoft.com/windows/desktop/00a8ce10-1fb2-488a-a6f9-1814f73f82bd) message, and the band object receives an [RBN\_CHEVRONPUSHED](https://msdn.microsoft.com/windows/desktop/58aa2c9d-8ab6-46ee-b32f-5c04fb7afa84) notification that prompts it to display the chevron menu. Set the [**IOleCommandTarget::Exec**](https://msdn.microsoft.com/windows/desktop/a2071ca9-8675-4f53-b30e-8c7198c2acca) method's *nCmdExecOpt* parameter to the band identifier received in the most recent call to [**IDeskBand::GetBandInfo**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ideskband). Set the **IOleCommandTarget::Exec** method's *pvaIn* parameter to the VT\_I4 type with an application-defined value. It passes back to the band object as the *lAppValue* value of the RBN\_CHEVRONPUSHED notification.
+    [Version 5](versions.md). Display a chevron menu. The container sends an [**RB\_PUSHCHEVRON**](https://msdn.microsoft.com/VS|Controls|~\controls\rebar\messages\rb_pushchevron.htm) message, and the band object receives an [RBN\_CHEVRONPUSHED](https://msdn.microsoft.com/VS|Controls|~\controls\rebar\notifications\rbn_chevronpushed.htm) notification that prompts it to display the chevron menu. Set the [**IOleCommandTarget::Exec**](https://msdn.microsoft.com/a2071ca9-8675-4f53-b30e-8c7198c2acca) method's *nCmdExecOpt* parameter to the band identifier received in the most recent call to [**IDeskBand::GetBandInfo**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ideskband). Set the **IOleCommandTarget::Exec** method's *pvaIn* parameter to the VT\_I4 type with an application-defined value. It passes back to the band object as the *lAppValue* value of the RBN\_CHEVRONPUSHED notification.
 
 ### Band Registration
 
@@ -210,7 +210,7 @@ HKEY_CURRENT_USER
                   BarSize = 23 01 00 00 00 00 00 00
 ```
 
-You can handle registration of a band object's CATID programmatically. Create a component categories manager object (CLSID\_StdComponentCategoriesMgr) and request a pointer to its [**ICatRegister**](https://msdn.microsoft.com/windows/desktop/3f4f9beb-51db-407f-91ea-6e32ff5796ce) interface. Pass the band object's CLSID and CATID to [**ICatRegister::RegisterClassImplCategories**](https://msdn.microsoft.com/windows/desktop/c293038f-4dbf-40af-9237-c9bb59c84252).
+You can handle registration of a band object's CATID programmatically. Create a component categories manager object (CLSID\_StdComponentCategoriesMgr) and request a pointer to its [**ICatRegister**](https://msdn.microsoft.com/3f4f9beb-51db-407f-91ea-6e32ff5796ce) interface. Pass the band object's CLSID and CATID to [**ICatRegister::RegisterClassImplCategories**](https://msdn.microsoft.com/c293038f-4dbf-40af-9237-c9bb59c84252).
 
 ### A Simple Example of a Custom Explorer Bar
 
@@ -231,16 +231,16 @@ The very simple implementation used in the Explorer Bar sample could actually be
 
 All three objects are packaged in a single DLL, which exposes the following functions.
 
--   [**DllMain**](https://msdn.microsoft.com/windows/desktop/0c3e3083-9297-4626-b2a7-0062d1c2cf9e)
--   [**DllCanUnloadNow**](https://msdn.microsoft.com/windows/desktop/a47df9eb-97cb-4875-a121-1dabe7bc9db6)
--   [**DllGetClassObject**](https://msdn.microsoft.com/windows/desktop/42c08149-c251-47f7-a81f-383975d7081c)
--   [**DllRegisterServer**](https://msdn.microsoft.com/windows/desktop/4442206b-b2ad-47d7-8add-18002c44c5a2)
+-   [**DllMain**](https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e)
+-   [**DllCanUnloadNow**](https://msdn.microsoft.com/a47df9eb-97cb-4875-a121-1dabe7bc9db6)
+-   [**DllGetClassObject**](https://msdn.microsoft.com/42c08149-c251-47f7-a81f-383975d7081c)
+-   [**DllRegisterServer**](https://msdn.microsoft.com/4442206b-b2ad-47d7-8add-18002c44c5a2)
 
 The first three functions are standard implementations and will not be discussed here. The Class Factory implementation is also standard.
 
 ### Required Interface Implementations
 
-The vertical Explorer Bar sample implements the four required interfaces: [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332), [**IObjectWithSite**](https://msdn.microsoft.com/windows/desktop/e688136e-e06b-46ba-bec9-b8db2f9c468d), [**IPersistStream**](https://msdn.microsoft.com/windows/desktop/97ea64ee-d950-4872-add6-1f532a6eb33f), and [**IDeskBand**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ideskband) as part of the CExplorerBar class. The constructor, destructor, and **IUnknown** implementations are straightforward, and will not be discussed here. See the sample code for details.
+The vertical Explorer Bar sample implements the four required interfaces: [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332), [**IObjectWithSite**](https://msdn.microsoft.com/e688136e-e06b-46ba-bec9-b8db2f9c468d), [**IPersistStream**](https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f), and [**IDeskBand**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ideskband) as part of the CExplorerBar class. The constructor, destructor, and **IUnknown** implementations are straightforward, and will not be discussed here. See the sample code for details.
 
 The following interfaces are discussed in detail.
 
@@ -250,20 +250,20 @@ The following interfaces are discussed in detail.
 
 ### IObjectWithSite
 
-When the user selects an Explorer Bar, the container calls the corresponding band object's [**IObjectWithSite::SetSite**](https://msdn.microsoft.com/windows/desktop/5e95b2a6-85b3-4899-9e23-54ed9e69e821) method. The *punkSite* parameter will be set to the site's [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer.
+When the user selects an Explorer Bar, the container calls the corresponding band object's [**IObjectWithSite::SetSite**](https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821) method. The *punkSite* parameter will be set to the site's [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer.
 
-In general, a [**SetSite**](https://msdn.microsoft.com/windows/desktop/5e95b2a6-85b3-4899-9e23-54ed9e69e821) implementation should perform the following steps:
+In general, a [**SetSite**](https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821) implementation should perform the following steps:
 
 1.  Release any site pointer that is currently being held.
-2.  If the pointer passed to [**SetSite**](https://msdn.microsoft.com/windows/desktop/5e95b2a6-85b3-4899-9e23-54ed9e69e821) is set to **NULL**, the band is being removed. **SetSite** can return S\_OK.
-3.  If the pointer passed to [**SetSite**](https://msdn.microsoft.com/windows/desktop/5e95b2a6-85b3-4899-9e23-54ed9e69e821) is non-**NULL**, a new site is being set. **SetSite** should do the following:
-    1.  Call [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) on the site for its [**IOleWindow**](https://msdn.microsoft.com/windows/desktop/2d0efbae-4a1c-43b1-9021-8d89377f7282) interface.
-    2.  Call [**IOleWindow::GetWindow**](https://msdn.microsoft.com/windows/desktop/833adc81-be58-44a1-88f1-9aa28808e67b) to obtain the parent window's handle. Save the handle for later use. Release [**IOleWindow**](https://msdn.microsoft.com/windows/desktop/2d0efbae-4a1c-43b1-9021-8d89377f7282) if it is no longer needed.
+2.  If the pointer passed to [**SetSite**](https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821) is set to **NULL**, the band is being removed. **SetSite** can return S\_OK.
+3.  If the pointer passed to [**SetSite**](https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821) is non-**NULL**, a new site is being set. **SetSite** should do the following:
+    1.  Call [**QueryInterface**](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) on the site for its [**IOleWindow**](https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282) interface.
+    2.  Call [**IOleWindow::GetWindow**](https://msdn.microsoft.com/833adc81-be58-44a1-88f1-9aa28808e67b) to obtain the parent window's handle. Save the handle for later use. Release [**IOleWindow**](https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282) if it is no longer needed.
     3.  Create the band object's window as a child of the window obtained in the previous step. Do not create it as a visible window.
-    4.  If the band object implements [**IInputObject**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-iinputobject), call [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) on the site for its [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) interface. Store the pointer to this interface for use later.
+    4.  If the band object implements [**IInputObject**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-iinputobject), call [**QueryInterface**](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) on the site for its [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) interface. Store the pointer to this interface for use later.
     5.  If all steps are successful, return S\_OK. If not, return the OLE-defined error code indicating what failed.
 
-The Explorer Bar sample implements [**SetSite**](https://msdn.microsoft.com/windows/desktop/5e95b2a6-85b3-4899-9e23-54ed9e69e821) in the following way. In the following code *m\_pSite* is a private member variable that holds the [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) pointer and *m\_hwndParent* holds the parent window's handle. In this sample, window creation is also handled. If the window does not exist, this method creates the Explorer Bar's window as an appropriately sized child of the parent window obtained by **SetSite**. The child window's handle is stored in *m\_hwnd*.
+The Explorer Bar sample implements [**SetSite**](https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821) in the following way. In the following code *m\_pSite* is a private member variable that holds the [**IInputObjectSite**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite) pointer and *m\_hwndParent* holds the parent window's handle. In this sample, window creation is also handled. If the window does not exist, this method creates the Explorer Bar's window as an appropriately sized child of the parent window obtained by **SetSite**. The child window's handle is stored in *m\_hwnd*.
 
 
 ```C++
@@ -328,7 +328,7 @@ STDMETHODIMP CDeskBand::SetSite(IUnknown *pUnkSite)
 
 
 
-The sample's [**GetSite**](https://msdn.microsoft.com/windows/desktop/f88ef2b1-63c3-4307-a5e1-b9104c8aef29) implementation simply wraps a call to the site's [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) method, using the site pointer saved by [**SetSite**](https://msdn.microsoft.com/windows/desktop/5e95b2a6-85b3-4899-9e23-54ed9e69e821).
+The sample's [**GetSite**](https://msdn.microsoft.com/f88ef2b1-63c3-4307-a5e1-b9104c8aef29) implementation simply wraps a call to the site's [**QueryInterface**](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) method, using the site pointer saved by [**SetSite**](https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821).
 
 
 ```C++
@@ -353,21 +353,21 @@ STDMETHODIMP CDeskBand::GetSite(REFIID riid, void **ppv)
 
 ### IPersistStream
 
-Internet Explorer will call the Explorer Bar's [**IPersistStream**](https://msdn.microsoft.com/windows/desktop/97ea64ee-d950-4872-add6-1f532a6eb33f) interface to allow the Explorer Bar to load or save persistent data. If there is no persistent data, the methods must still return a success code. The **IPersistStream** interface inherits from [**IPersist**](https://msdn.microsoft.com/windows/desktop/932eb0e2-35a6-482e-9138-00cff30508a9), so five methods must be implemented.
+Internet Explorer will call the Explorer Bar's [**IPersistStream**](https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f) interface to allow the Explorer Bar to load or save persistent data. If there is no persistent data, the methods must still return a success code. The **IPersistStream** interface inherits from [**IPersist**](https://msdn.microsoft.com/932eb0e2-35a6-482e-9138-00cff30508a9), so five methods must be implemented.
 
--   [**IPersist::GetClassID**](https://msdn.microsoft.com/windows/desktop/921a3b86-a240-454e-9411-8d653e02b90e)
--   [**IPersistStream::IsDirty**](https://msdn.microsoft.com/windows/desktop/fabafc37-18f2-4def-b6bf-f7daa2bb8f37)
--   [**IPersistStream::Load**](https://msdn.microsoft.com/windows/desktop/351e1187-9959-4542-8778-925457c3b8e3)
--   [**IPersistStream::Save**](https://msdn.microsoft.com/windows/desktop/b748b4f9-ef9c-486b-bdc4-4d23c4640ff7)
--   [**IPersistStream::GetSizeMax**](https://msdn.microsoft.com/windows/desktop/ef9f0afe-b7e5-4b88-b59d-1371ffeaacb8)
+-   [**IPersist::GetClassID**](https://msdn.microsoft.com/921a3b86-a240-454e-9411-8d653e02b90e)
+-   [**IPersistStream::IsDirty**](https://msdn.microsoft.com/fabafc37-18f2-4def-b6bf-f7daa2bb8f37)
+-   [**IPersistStream::Load**](https://msdn.microsoft.com/351e1187-9959-4542-8778-925457c3b8e3)
+-   [**IPersistStream::Save**](https://msdn.microsoft.com/b748b4f9-ef9c-486b-bdc4-4d23c4640ff7)
+-   [**IPersistStream::GetSizeMax**](https://msdn.microsoft.com/ef9f0afe-b7e5-4b88-b59d-1371ffeaacb8)
 
-The Explorer Bar sample does not use any persistent data and has only a minimal implementation of [**IPersistStream**](https://msdn.microsoft.com/windows/desktop/97ea64ee-d950-4872-add6-1f532a6eb33f). [**IPersist::GetClassID**](https://msdn.microsoft.com/windows/desktop/921a3b86-a240-454e-9411-8d653e02b90e) returns the object's CLSID (CLSID\_SampleExplorerBar), and the remainder return either S\_OK, S\_FALSE, or E\_NOTIMPL.
+The Explorer Bar sample does not use any persistent data and has only a minimal implementation of [**IPersistStream**](https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f). [**IPersist::GetClassID**](https://msdn.microsoft.com/921a3b86-a240-454e-9411-8d653e02b90e) returns the object's CLSID (CLSID\_SampleExplorerBar), and the remainder return either S\_OK, S\_FALSE, or E\_NOTIMPL.
 
 ### IDeskBand
 
-The [**IDeskBand**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ideskband) interface is specific to band objects. In addition to its one method, it inherits from [**IDockingWindow**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow), which in turn inherits from [**IOleWindow**](https://msdn.microsoft.com/windows/desktop/2d0efbae-4a1c-43b1-9021-8d89377f7282).
+The [**IDeskBand**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ideskband) interface is specific to band objects. In addition to its one method, it inherits from [**IDockingWindow**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow), which in turn inherits from [**IOleWindow**](https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282).
 
-There are two [**IOleWindow**](https://msdn.microsoft.com/windows/desktop/2d0efbae-4a1c-43b1-9021-8d89377f7282) methods: [**GetWindow**](https://msdn.microsoft.com/windows/desktop/833adc81-be58-44a1-88f1-9aa28808e67b) and [**IOleWindow::ContextSensitiveHelp**](https://msdn.microsoft.com/windows/desktop/253f26c6-b5dd-4837-9135-96e11b4688c8). The Explorer Bar sample's implementation of **GetWindow** returns the Explorer Bar's child window handle, *m\_hwnd*. Context-sensitive Help is not implemented, so **ContextSensitiveHelp** returns **E\_NOTIMPL**.
+There are two [**IOleWindow**](https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282) methods: [**GetWindow**](https://msdn.microsoft.com/833adc81-be58-44a1-88f1-9aa28808e67b) and [**IOleWindow::ContextSensitiveHelp**](https://msdn.microsoft.com/253f26c6-b5dd-4837-9135-96e11b4688c8). The Explorer Bar sample's implementation of **GetWindow** returns the Explorer Bar's child window handle, *m\_hwnd*. Context-sensitive Help is not implemented, so **ContextSensitiveHelp** returns **E\_NOTIMPL**.
 
 The [**IDockingWindow**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) interface has three methods.
 
@@ -483,7 +483,7 @@ The [**IInputObject**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-iinputobje
 -   [**IInputObject::HasFocusIO**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-hasfocusio)
 -   [**IInputObject::TranslateAcceleratorIO**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-translateacceleratorio)
 
-Internet Explorer calls [**UIActivateIO**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-uiactivateio) to inform the Explorer Bar that it is being activated or deactivated. When activated, the Explorer Bar sample calls [**SetFocus**](https://msdn.microsoft.com/windows/desktop/88fc2959-007a-441d-8a02-19d775f28de9) to set the focus to its window.
+Internet Explorer calls [**UIActivateIO**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-uiactivateio) to inform the Explorer Bar that it is being activated or deactivated. When activated, the Explorer Bar sample calls [**SetFocus**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\setfocus.htm) to set the focus to its window.
 
 Internet Explorer calls [**HasFocusIO**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject-hasfocusio) when it is attempting to determine which window has focus. If the Explorer Bar's window or one of its descendants has focus, **HasFocusIO** should return S\_OK. If not, it should return S\_FALSE.
 
@@ -594,7 +594,7 @@ HRESULT RegisterServer()
 
 Registration of band objects in the sample uses normal COM procedures.
 
-In addition to the CLSID, the band object server must also be registered for one or more component categories. This is actually the main difference in implementation between the vertical and horizontal Explorer Bar samples. This process is handled by creating a component categories manager object (CLSID\_StdComponentCategoriesMgr) and using the [**ICatRegister::RegisterClassImplCategories**](https://msdn.microsoft.com/windows/desktop/c293038f-4dbf-40af-9237-c9bb59c84252) method to register the band object server. In this example, component category registration is handled by passing the Explorer Bar sample's CLSID and CATID to a private function—**RegisterComCat**—as shown in the following code example.
+In addition to the CLSID, the band object server must also be registered for one or more component categories. This is actually the main difference in implementation between the vertical and horizontal Explorer Bar samples. This process is handled by creating a component categories manager object (CLSID\_StdComponentCategoriesMgr) and using the [**ICatRegister::RegisterClassImplCategories**](https://msdn.microsoft.com/c293038f-4dbf-40af-9237-c9bb59c84252) method to register the band object server. In this example, component category registration is handled by passing the Explorer Bar sample's CLSID and CATID to a private function—**RegisterComCat**—as shown in the following code example.
 
 
 ```C++
@@ -618,11 +618,11 @@ HRESULT RegisterComCat()
 
 Because a band object uses a child window for its display, it must implement a window procedure to handle Windows messaging. The band sample has minimal functionality, so its window procedure only handles five messages:
 
--   [**WM\_NCCREATE**](https://msdn.microsoft.com/windows/desktop/5dd0eda3-83a6-4077-a7a3-e371c9413b0f)
--   [**WM\_PAINT**](https://msdn.microsoft.com/windows/desktop/afebaa07-cf00-47db-a919-46436f164881)
--   [**WM\_COMMAND**](https://msdn.microsoft.com/windows/desktop/5516098e-fd90-49c8-afb0-78164b028376)
--   [**WM\_SETFOCUS**](https://msdn.microsoft.com/windows/desktop/77180e4c-95a6-41a4-93d9-033381ae7543)
--   [**WM\_KILLFOCUS**](https://msdn.microsoft.com/windows/desktop/6d32a09b-a856-4f94-9544-3345b3a700f4)
+-   [**WM\_NCCREATE**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmessages\wm_nccreate.htm)
+-   [**WM\_PAINT**](https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881)
+-   [**WM\_COMMAND**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menumessages\wm_command.htm)
+-   [**WM\_SETFOCUS**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputmessages\wm_setfocus.htm)
+-   [**WM\_KILLFOCUS**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputmessages\wm_killfocus.htm)
 
 The procedure can easily be expanded to accommodate additional messages to support more features.
 

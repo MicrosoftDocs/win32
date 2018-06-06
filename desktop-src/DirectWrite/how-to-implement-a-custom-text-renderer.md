@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Render Using a Custom Text Renderer
 
-A [DirectWrite](direct-write-portal.md) [**text layout**](/windows/desktop/api/dwrite/) can be drawn by a custom text renderer derived from [**IDWriteTextRenderer**](/windows/desktop/api/dwrite/). A custom renderer is required to take advantage of some advanced features of DirectWrite, such as rendering to a bitmap or GDI surface, inline objects, and client drawing effects. This tutorial describes the methods of **IDWriteTextRenderer**, and provides an example implementation that uses [Direct2D](https://www.bing.com/search?q=Direct2D) to render text with a bitmap fill.
+A [DirectWrite](direct-write-portal.md) [**text layout**](/windows/desktop/api/dwrite/) can be drawn by a custom text renderer derived from [**IDWriteTextRenderer**](/windows/desktop/api/dwrite/). A custom renderer is required to take advantage of some advanced features of DirectWrite, such as rendering to a bitmap or GDI surface, inline objects, and client drawing effects. This tutorial describes the methods of **IDWriteTextRenderer**, and provides an example implementation that uses [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) to render text with a bitmap fill.
 
 This tutorial contains the following parts:
 
@@ -32,7 +32,7 @@ For the full source code for the custom text renderer, see the CustomTextRendere
 
 ## The Constructor
 
-Your custom text renderer will need a constructor. This example uses both solid and bitmap [Direct2D](https://www.bing.com/search?q=Direct2D) brushes to render the text.
+Your custom text renderer will need a constructor. This example uses both solid and bitmap [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) brushes to render the text.
 
 Because of this, the constructor takes the parameters found in the table below with descriptions.
 
@@ -168,7 +168,7 @@ This text renderer implementation renders glyph runs by converting them to [Dire
 
     
 
-6.  Finally, draw the outline of the transformed geometry, and fill it by using the [**ID2D1RenderTarget::DrawGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371890) and [**ID2D1RenderTarget::FillGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371933) methods and the [Direct2D](https://www.bing.com/search?q=Direct2D) brushes stored as member variables.
+6.  Finally, draw the outline of the transformed geometry, and fill it by using the [**ID2D1RenderTarget::DrawGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371890) and [**ID2D1RenderTarget::FillGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371933) methods and the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) brushes stored as member variables.
 
     ```C++
         // Draw the outline of the glyph run
@@ -200,7 +200,7 @@ This text renderer implementation renders glyph runs by converting them to [Dire
 
 [**IDWriteTextRenderer**](/windows/desktop/api/dwrite/) also has callbacks for drawing the underline and strikethrough. This example draws a simple rectangle for an underline or strikethrough, but other shapes can be drawn.
 
-Drawing an underline by using [Direct2D](https://www.bing.com/search?q=Direct2D) consists of the following steps.
+Drawing an underline by using [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) consists of the following steps.
 
 1.  First, create a [**D2D1\_RECT\_F**](https://msdn.microsoft.com/library/windows/desktop/dd368151) structure of the size and shape of the underline. The [**DWRITE\_UNDERLINE**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_underline) structure that is passed to the [**DrawUnderline**](/windows/desktop/api/dwrite/) callback method provides the offset, width, and thickness of the underline.
 
@@ -250,7 +250,7 @@ Drawing an underline by using [Direct2D](https://www.bing.com/search?q=Direct2D)
 
     
 
-4.  Finally, draw the outline of the transformed geometry, and fill it by using the [**ID2D1RenderTarget::DrawGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371890) and [**ID2D1RenderTarget::FillGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371933) methods and the [Direct2D](https://www.bing.com/search?q=Direct2D) brushes stored as member variables.
+4.  Finally, draw the outline of the transformed geometry, and fill it by using the [**ID2D1RenderTarget::DrawGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371890) and [**ID2D1RenderTarget::FillGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371933) methods and the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) brushes stored as member variables.
 
     ```C++
         // Draw the outline of the glyph run

@@ -41,9 +41,9 @@ Pointer to an input [**ID3DXMesh**](id3dxmesh.md) mesh object.
 *dwOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-Combination of one or more [**D3DXTANGENT**](https://msdn.microsoft.com/windows/desktop/b525b4cc-9a2d-4569-bae8-7cc7f7832cbc) flags.
+Combination of one or more [**D3DXTANGENT**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxtangent.htm) flags.
 
 Use **NULL** to specify the following options:
 
@@ -103,7 +103,7 @@ The most robust solution for computing orthogonal Cartesian coordinates is to no
 [**D3DXComputeTangentFrameEx**](d3dxcomputetangentframeex.md)
 </dt> <dt>
 
-[**D3DXTANGENT**](https://msdn.microsoft.com/windows/desktop/b525b4cc-9a2d-4569-bae8-7cc7f7832cbc)
+[**D3DXTANGENT**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxtangent.htm)
 </dt> </dl>
 
  

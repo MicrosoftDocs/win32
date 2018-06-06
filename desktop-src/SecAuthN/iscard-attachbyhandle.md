@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCard::AttachByHandle method
 
-\[The **AttachByHandle** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **AttachByHandle** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **AttachByHandle** method attaches the [**ISCard**](iscard.md) object to an open and configured [*smart card*](https://www.bing.com/search?q=*smart card*) handle.
+The **AttachByHandle** method attaches the [**ISCard**](iscard.md) object to an open and configured [*smart card*](security.s_gly#-security-smart-card-gly) handle.
 
 ## Syntax
 
@@ -54,7 +54,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](https://www.bing.com/search?q=Smart Card Return Values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
 
 When you have finished using the handle, release the attachment by calling the [**ISCard::Detach**](iscard-detach.md) method.
 

@@ -72,7 +72,7 @@ The **GdiGetPageHandle** function is exported by gdi32.dll for use within a prin
 
 Print processors must obtain a page handle before calling [**GdiPlayPageEMF**](gdiplaypageemf.md) to draw a page. If a Page value is specified that is too large, the function returns ERROR\_NO\_MORE\_ITEMS.
 
-For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using GDI Functions in Print Processors).
+For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using+GDI+Functions+in+Print+Processors).
 
 ## Requirements
 

@@ -57,7 +57,7 @@ The **SO\_EXCLUSIVEADDRUSE** option is set by calling the [**setsockopt**](/wind
 The table below describes the behavior that occurs in Windows XP and earlier when a second socket attempts to bind to an address previously bound to by a first socket using specific socket options.
 
 > [!Note]  
-> In the table below, "wildcard" denotes the wildcard address for the given protocol (such as "0.0.0.0" for IPv4 and "::" for IPv6). "Specific" denotes a specific IP address assigned an interface. The table cells indicate whether or not the bind is successful ("Success") or an error is returned ("INUSE" for the [WSAEADDRINUSE](https://www.bing.com/search?q=WSAEADDRINUSE) error; "ACCESS" for the [WSAEACCES](https://www.bing.com/search?q=WSAEACCES) error).
+> In the table below, "wildcard" denotes the wildcard address for the given protocol (such as "0.0.0.0" for IPv4 and "::" for IPv6). "Specific" denotes a specific IP address assigned an interface. The table cells indicate whether or not the bind is successful ("Success") or an error is returned ("INUSE" for the [WSAEADDRINUSE](windows-sockets-error-codes-2.md#wsaeaddrinuse) error; "ACCESS" for the [WSAEACCES](windows-sockets-error-codes-2.md#wsaeacces) error).
 
  
 
@@ -179,7 +179,7 @@ INUSE
 
  
 
-When two sockets are bound to the same port number but on different explicit interfaces, there is no conflict. For example, in the case where a computer has two IP interfaces, 10.0.0.1 and 10.99.99.99, if the first call to [**bind**](/windows/desktop/api/winsock/nf-winsock-bind) is on 10.0.0.1 with the port set to 5150 and **SO\_EXCLUSIVEADDRUSE** specified, then a second call to **bind** on 10.99.99.99 with the port also set to 5150 and no options specified will succeed. However, if the first socket is bound to the wildcard address and port 5150, then any subsequent bind call to port 5150 with **SO\_EXCLUSIVEADDRUSE** set will fail with either [WSAEADDRINUSE](https://www.bing.com/search?q=WSAEADDRINUSE) or [WSAEACCES](https://www.bing.com/search?q=WSAEACCES) returned by the **bind** operation.
+When two sockets are bound to the same port number but on different explicit interfaces, there is no conflict. For example, in the case where a computer has two IP interfaces, 10.0.0.1 and 10.99.99.99, if the first call to [**bind**](/windows/desktop/api/winsock/nf-winsock-bind) is on 10.0.0.1 with the port set to 5150 and **SO\_EXCLUSIVEADDRUSE** specified, then a second call to **bind** on 10.99.99.99 with the port also set to 5150 and no options specified will succeed. However, if the first socket is bound to the wildcard address and port 5150, then any subsequent bind call to port 5150 with **SO\_EXCLUSIVEADDRUSE** set will fail with either [WSAEADDRINUSE](windows-sockets-error-codes-2.md#wsaeaddrinuse) or [WSAEACCES](windows-sockets-error-codes-2.md#wsaeacces) returned by the **bind** operation.
 
 In the case where the first call to [**bind**](/windows/desktop/api/winsock/nf-winsock-bind) sets either **SO\_REUSEADDR** or no socket options at all, the second **bind** call will "hijack" the port and the application will be unable to determine which of the two sockets received specific packets sent to the "shared" port.
 
@@ -199,7 +199,7 @@ Enhanced socket security was added with the release of Windows Server 2003. In 
 
 The table below describes the behavior that occurs in Windows Server 2003 and later operating systems when a second socket attempts to bind to an address previously bound to by a first socket using specific socket options.
 
-> [!Note]In the table below, "wildcard" denotes the wildcard address for the given protocol (such as "0.0.0.0" for IPv4 and "::" for IPv6). "Specific" denotes a specific IP address assigned an interface. The table cells indicate whether or not the bind is successful ("Success") or the error returned ("INUSE" for the [WSAEADDRINUSE](https://www.bing.com/search?q=WSAEADDRINUSE) error; "ACCESS" for the [WSAEACCES](https://www.bing.com/search?q=WSAEACCES) error).
+> [!Note]In the table below, "wildcard" denotes the wildcard address for the given protocol (such as "0.0.0.0" for IPv4 and "::" for IPv6). "Specific" denotes a specific IP address assigned an interface. The table cells indicate whether or not the bind is successful ("Success") or the error returned ("INUSE" for the [WSAEADDRINUSE](windows-sockets-error-codes-2.md#wsaeaddrinuse) error; "ACCESS" for the [WSAEACCES](windows-sockets-error-codes-2.md#wsaeacces) error).
 >
 > Also note that in this specific table, both [**bind**](/windows/desktop/api/winsock/nf-winsock-bind) calls are made under the same user account.
 
@@ -449,7 +449,7 @@ INUSE
 
 Note that the default behavior is different when the [**bind**](/windows/desktop/api/winsock/nf-winsock-bind) calls are made under different user accounts. If the first caller does not set any options on the socket and binds to the wildcard address, then the second caller cannot set the **SO\_REUSEADDR** option and successfully bind to the same port. The default behavior with no options set returns an error, as well.
 
-On Windows Vista and later, a dual stack socket can be created which operates over both IPv6 and IPv4. When a dual stack socket is bound to the wildcard address, the given port is reserved on both the IPv4 and IPv6 networking stacks and the checks associated with **SO\_REUSEADDR** and **SO\_EXCLUSIVEADDRUSE** (if set) are made. These checks must succeed on both networking stacks. For example, if a dual stack TCP socket sets **SO\_EXCLUSIVEADDRUSE** and then tries to bind to port 5000, then no other TCP socket can be previously bound to port 5000 (either wildcard or specific). In this case if an IPv4 TCP socket was previously bound to the loopback address on port 5000, the [**bind**](/windows/desktop/api/winsock/nf-winsock-bind) call for the dual stack socket would fail with [WSAEACCES](https://www.bing.com/search?q=WSAEACCES).
+On Windows Vista and later, a dual stack socket can be created which operates over both IPv6 and IPv4. When a dual stack socket is bound to the wildcard address, the given port is reserved on both the IPv4 and IPv6 networking stacks and the checks associated with **SO\_REUSEADDR** and **SO\_EXCLUSIVEADDRUSE** (if set) are made. These checks must succeed on both networking stacks. For example, if a dual stack TCP socket sets **SO\_EXCLUSIVEADDRUSE** and then tries to bind to port 5000, then no other TCP socket can be previously bound to port 5000 (either wildcard or specific). In this case if an IPv4 TCP socket was previously bound to the loopback address on port 5000, the [**bind**](/windows/desktop/api/winsock/nf-winsock-bind) call for the dual stack socket would fail with [WSAEACCES](windows-sockets-error-codes-2.md#wsaeacces).
 
 ## Application Strategies
 

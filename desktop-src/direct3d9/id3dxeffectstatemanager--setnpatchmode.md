@@ -31,7 +31,7 @@ HRESULT SetNPatchMode(
 *nSegments* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Break the surface into this number of subdivisions. This is the same as the number used by [**IDirect3DDevice9::SetNPatchMode**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setnpatchmode).
 

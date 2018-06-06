@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 Minimally, any process that interacts with VSS to create and manage shadow copies and shadow copy sets of one or more volumes.
 
-Typically, a requester manages shadow copies to support some other functionality, such as backup and restore operations and disk mirroring. See also [*shadow copy*](https://www.bing.com/search?q=*shadow copy*), [*shadow copy set*](https://www.bing.com/search?q=*shadow copy set*).
+Typically, a requester manages shadow copies to support some other functionality, such as backup and restore operations and disk mirroring. See also [*shadow copy*](vssgloss-s.md#base-vssgloss-shadow-copy), [*shadow copy set*](vssgloss-s.md#base-vssgloss-shadow-copy-set).
 
 </dd> <dt>
 

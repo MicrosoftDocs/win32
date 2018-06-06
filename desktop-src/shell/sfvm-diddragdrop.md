@@ -32,14 +32,14 @@ SFVM_DIDDRAGDROP
 *dwEffect* \[in\]
 </dt> <dd>
 
-A drop effect specifier from the [**DROPEFFECT**](https://msdn.microsoft.com/windows/desktop/d8e46899-3fbf-4012-8dd3-67fa627526d5) enumeration. This is obtained by calling [**SHDoDragDrop**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shdodragdrop).
+A drop effect specifier from the [**DROPEFFECT**](https://msdn.microsoft.com/d8e46899-3fbf-4012-8dd3-67fa627526d5) enumeration. This is obtained by calling [**SHDoDragDrop**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shdodragdrop).
 
 </dd> <dt>
 
 *pIdo* \[in\]
 </dt> <dd>
 
-A pointer to the [**IDataObject**](https://msdn.microsoft.com/windows/desktop/8a002deb-2727-456c-8078-a9b0d5893ed4) instance.
+A pointer to the [**IDataObject**](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4) instance.
 
 </dd> </dl>
 

@@ -75,111 +75,111 @@ OneButton
 
 One button-family control.<br/> Only Large group size is supported.<br/>
 
-![picture of onebutton sizedefinition template.](https://www.bing.com/search?q=picture of onebutton sizedefinition template.)
+![picture of onebutton sizedefinition template.](https://www.bing.com/search?q=picture+of+onebutton+sizedefinition+template.)
 
 TwoButtons
 
 Two button-family controls.<br/> Only Large and Medium group sizes are supported.<br/>
 
-![picture of twobuttons large sizedefinition template.](https://www.bing.com/search?q=picture of twobuttons large sizedefinition template.)
+![picture of twobuttons large sizedefinition template.](https://www.bing.com/search?q=picture+of+twobuttons+large+sizedefinition+template.)
 
-![picture of twobuttons medium sizedefinition template.](https://www.bing.com/search?q=picture of twobuttons medium sizedefinition template.)
+![picture of twobuttons medium sizedefinition template.](https://www.bing.com/search?q=picture+of+twobuttons+medium+sizedefinition+template.)
 
 ThreeButtons
 
 Three button-family controls.<br/> Only Large and Medium group sizes are supported.<br/>
 
-![picture of threebuttons large sizedefinition template.](https://www.bing.com/search?q=picture of threebuttons large sizedefinition template.)
+![picture of threebuttons large sizedefinition template.](https://www.bing.com/search?q=picture+of+threebuttons+large+sizedefinition+template.)
 
-![picture of threebuttons medium sizedefinition template.](https://www.bing.com/search?q=picture of threebuttons medium sizedefinition template.)
+![picture of threebuttons medium sizedefinition template.](https://www.bing.com/search?q=picture+of+threebuttons+medium+sizedefinition+template.)
 
 ThreeButtons-OneBigAndTwoSmall
 
 Three button-family controls.<br/> The first button is presented prominently in all three sizes.<br/>
 
-![picture of threebuttons-onebigandtwosmall large sizedefinition template.](https://www.bing.com/search?q=picture of threebuttons-onebigandtwosmall large sizedefinition template.)
+![picture of threebuttons-onebigandtwosmall large sizedefinition template.](https://www.bing.com/search?q=picture+of+threebuttons-onebigandtwosmall+large+sizedefinition+template.)
 
-![picture of threebuttons-onebigandtwosmall medium sizedefinition template.](https://www.bing.com/search?q=picture of threebuttons-onebigandtwosmall medium sizedefinition template.)
+![picture of threebuttons-onebigandtwosmall medium sizedefinition template.](https://www.bing.com/search?q=picture+of+threebuttons-onebigandtwosmall+medium+sizedefinition+template.)
 
-![picture of threebuttons-onebigandtwosmall small sizedefinition template.](https://www.bing.com/search?q=picture of threebuttons-onebigandtwosmall small sizedefinition template.)
+![picture of threebuttons-onebigandtwosmall small sizedefinition template.](https://www.bing.com/search?q=picture+of+threebuttons-onebigandtwosmall+small+sizedefinition+template.)
 
 ThreeButtonsAndOneCheckBox
 
 Three button-family controls accompanied by a single CheckBox control.<br/> Only Large and Medium group sizes are supported.<br/>
 
-![picture of threebuttonsandonecheckbox large sizedefinition template.](https://www.bing.com/search?q=picture of threebuttonsandonecheckbox large sizedefinition template.)
+![picture of threebuttonsandonecheckbox large sizedefinition template.](https://www.bing.com/search?q=picture+of+threebuttonsandonecheckbox+large+sizedefinition+template.)
 
-![picture of threebuttonsandonecheckbox medium sizedefinition template.](https://www.bing.com/search?q=picture of threebuttonsandonecheckbox medium sizedefinition template.)
+![picture of threebuttonsandonecheckbox medium sizedefinition template.](https://www.bing.com/search?q=picture+of+threebuttonsandonecheckbox+medium+sizedefinition+template.)
 
 FourButtons
 
 Four button-family controls.<br/>
 
-![picture of fourbuttons large sizedefinition template.](https://www.bing.com/search?q=picture of fourbuttons large sizedefinition template.)
+![picture of fourbuttons large sizedefinition template.](https://www.bing.com/search?q=picture+of+fourbuttons+large+sizedefinition+template.)
 
-![picture of fourbuttons medium sizedefinition template.](https://www.bing.com/search?q=picture of fourbuttons medium sizedefinition template.)
+![picture of fourbuttons medium sizedefinition template.](https://www.bing.com/search?q=picture+of+fourbuttons+medium+sizedefinition+template.)
 
-![picture of fourbuttons small sizedefinition template.](https://www.bing.com/search?q=picture of fourbuttons small sizedefinition template.)
+![picture of fourbuttons small sizedefinition template.](https://www.bing.com/search?q=picture+of+fourbuttons+small+sizedefinition+template.)
 
 FiveButtons
 
 Five button-family controls.<br/>
 
-![picture of fivebuttons large sizedefinition template.](https://www.bing.com/search?q=picture of fivebuttons large sizedefinition template.)
+![picture of fivebuttons large sizedefinition template.](https://www.bing.com/search?q=picture+of+fivebuttons+large+sizedefinition+template.)
 
-![picture of fivebuttons medium sizedefinition template.](https://www.bing.com/search?q=picture of fivebuttons medium sizedefinition template.)
+![picture of fivebuttons medium sizedefinition template.](https://www.bing.com/search?q=picture+of+fivebuttons+medium+sizedefinition+template.)
 
-![picture of fivebuttons small sizedefinition template.](https://www.bing.com/search?q=picture of fivebuttons small sizedefinition template.)
+![picture of fivebuttons small sizedefinition template.](https://www.bing.com/search?q=picture+of+fivebuttons+small+sizedefinition+template.)
 
 FiveOrSixButtons
 
 Five button-family controls and an optional sixth button.<br/>
 
-![picture of fiveorsixbuttons large sizedefinition template.](https://www.bing.com/search?q=picture of fiveorsixbuttons large sizedefinition template.)
+![picture of fiveorsixbuttons large sizedefinition template.](https://www.bing.com/search?q=picture+of+fiveorsixbuttons+large+sizedefinition+template.)
 
-![picture of fiveorsixbuttons medium sizedefinition template.](https://www.bing.com/search?q=picture of fiveorsixbuttons medium sizedefinition template.)
+![picture of fiveorsixbuttons medium sizedefinition template.](https://www.bing.com/search?q=picture+of+fiveorsixbuttons+medium+sizedefinition+template.)
 
-![picture of fiveorsixbuttons small sizedefinition template.](https://www.bing.com/search?q=picture of fiveorsixbuttons small sizedefinition template.)
+![picture of fiveorsixbuttons small sizedefinition template.](https://www.bing.com/search?q=picture+of+fiveorsixbuttons+small+sizedefinition+template.)
 
 SixButtons
 
 Six button-family controls.<br/>
 
-![picture of sixbuttons large sizedefinition template.](https://www.bing.com/search?q=picture of sixbuttons large sizedefinition template.)
+![picture of sixbuttons large sizedefinition template.](https://www.bing.com/search?q=picture+of+sixbuttons+large+sizedefinition+template.)
 
-![picture of sixbuttons medium sizedefinition template.](https://www.bing.com/search?q=picture of sixbuttons medium sizedefinition template.)
+![picture of sixbuttons medium sizedefinition template.](https://www.bing.com/search?q=picture+of+sixbuttons+medium+sizedefinition+template.)
 
-![picture of sixbuttons small sizedefinition template.](https://www.bing.com/search?q=picture of sixbuttons small sizedefinition template.)
+![picture of sixbuttons small sizedefinition template.](https://www.bing.com/search?q=picture+of+sixbuttons+small+sizedefinition+template.)
 
 SixButtons-TwoColumns
 
 Six button-family controls (alternate presentation).<br/>
 
-![picture of sixbuttons-twocolumns large sizedefinition template.](https://www.bing.com/search?q=picture of sixbuttons-twocolumns large sizedefinition template.)
+![picture of sixbuttons-twocolumns large sizedefinition template.](https://www.bing.com/search?q=picture+of+sixbuttons-twocolumns+large+sizedefinition+template.)
 
-![sixbuttons-twocolumns medium sizedefinition template.](https://www.bing.com/search?q=sixbuttons-twocolumns medium sizedefinition template.)
+![sixbuttons-twocolumns medium sizedefinition template.](https://www.bing.com/search?q=sixbuttons-twocolumns+medium+sizedefinition+template.)
 
-![picture of sixbuttons-twocolumns small sizedefinition template.](https://www.bing.com/search?q=picture of sixbuttons-twocolumns small sizedefinition template.)
+![picture of sixbuttons-twocolumns small sizedefinition template.](https://www.bing.com/search?q=picture+of+sixbuttons-twocolumns+small+sizedefinition+template.)
 
 SevenButtons
 
 Seven button-family controls.<br/>
 
-![picture of sevenbuttons large sizedefinition template.](https://www.bing.com/search?q=picture of sevenbuttons large sizedefinition template.)
+![picture of sevenbuttons large sizedefinition template.](https://www.bing.com/search?q=picture+of+sevenbuttons+large+sizedefinition+template.)
 
-![picture of sevenbuttons mediumsizedefinition template.](https://www.bing.com/search?q=picture of sevenbuttons mediumsizedefinition template.)
+![picture of sevenbuttons mediumsizedefinition template.](https://www.bing.com/search?q=picture+of+sevenbuttons+mediumsizedefinition+template.)
 
-![picture of sevenbuttons small sizedefinition template.](https://www.bing.com/search?q=picture of sevenbuttons small sizedefinition template.)
+![picture of sevenbuttons small sizedefinition template.](https://www.bing.com/search?q=picture+of+sevenbuttons+small+sizedefinition+template.)
 
 EightButtons
 
 Eight button-family controls.<br/>
 
-![picture of eightbuttons-lastthreesmall large sizedefinition template.](https://www.bing.com/search?q=picture of eightbuttons-lastthreesmall large sizedefinition template.)
+![picture of eightbuttons-lastthreesmall large sizedefinition template.](https://www.bing.com/search?q=picture+of+eightbuttons-lastthreesmall+large+sizedefinition+template.)
 
-![picture of eightbuttons-lastthreesmall medium sizedefinition template.](https://www.bing.com/search?q=picture of eightbuttons-lastthreesmall medium sizedefinition template.)
+![picture of eightbuttons-lastthreesmall medium sizedefinition template.](https://www.bing.com/search?q=picture+of+eightbuttons-lastthreesmall+medium+sizedefinition+template.)
 
-![picture of eightbuttons-lastthreesmall small sizedefinition template.](https://www.bing.com/search?q=picture of eightbuttons-lastthreesmall small sizedefinition template.)
+![picture of eightbuttons-lastthreesmall small sizedefinition template.](https://www.bing.com/search?q=picture+of+eightbuttons-lastthreesmall+small+sizedefinition+template.)
 
 EightButtons-LastThreeSmall
 
@@ -217,41 +217,41 @@ Eight button-family controls (alternate presentation).<br/>
 
 
 
-![picture of eightbuttons large sizedefinition template.](https://www.bing.com/search?q=picture of eightbuttons large sizedefinition template.)
+![picture of eightbuttons large sizedefinition template.](https://www.bing.com/search?q=picture+of+eightbuttons+large+sizedefinition+template.)
 
-![picture of eightbuttons medium sizedefinition template.](https://www.bing.com/search?q=picture of eightbuttons medium sizedefinition template.)
+![picture of eightbuttons medium sizedefinition template.](https://www.bing.com/search?q=picture+of+eightbuttons+medium+sizedefinition+template.)
 
-![picture of eightbuttons small sizedefinition template.](https://www.bing.com/search?q=picture of eightbuttons small sizedefinition template.)
+![picture of eightbuttons small sizedefinition template.](https://www.bing.com/search?q=picture+of+eightbuttons+small+sizedefinition+template.)
 
 NineButtons
 
 Nine button-family controls.
 
-![picture of ninebuttons large sizedefinition template.](https://www.bing.com/search?q=picture of ninebuttons large sizedefinition template.)
+![picture of ninebuttons large sizedefinition template.](https://www.bing.com/search?q=picture+of+ninebuttons+large+sizedefinition+template.)
 
-![picture of ninebuttons medium sizedefinition template.](https://www.bing.com/search?q=picture of ninebuttons medium sizedefinition template.)
+![picture of ninebuttons medium sizedefinition template.](https://www.bing.com/search?q=picture+of+ninebuttons+medium+sizedefinition+template.)
 
-![picture of ninebuttons small sizedefinition template.](https://www.bing.com/search?q=picture of ninebuttons small sizedefinition template.)
+![picture of ninebuttons small sizedefinition template.](https://www.bing.com/search?q=picture+of+ninebuttons+small+sizedefinition+template.)
 
 TenButtons
 
 Ten button-family controls.
 
-![picture of tenbuttons large sizedefinition template.](https://www.bing.com/search?q=picture of tenbuttons large sizedefinition template.)
+![picture of tenbuttons large sizedefinition template.](https://www.bing.com/search?q=picture+of+tenbuttons+large+sizedefinition+template.)
 
-![picture of tenbuttons medium sizedefinition template.](https://www.bing.com/search?q=picture of tenbuttons medium sizedefinition template.)
+![picture of tenbuttons medium sizedefinition template.](https://www.bing.com/search?q=picture+of+tenbuttons+medium+sizedefinition+template.)
 
-![picture of tenbuttons small sizedefinition template.](https://www.bing.com/search?q=picture of tenbuttons small sizedefinition template.)
+![picture of tenbuttons small sizedefinition template.](https://www.bing.com/search?q=picture+of+tenbuttons+small+sizedefinition+template.)
 
 ElevenButtons
 
 Eleven button-family controls.
 
-![picture of elevenbuttons large sizedefinition template.](https://www.bing.com/search?q=picture of elevenbuttons large sizedefinition template.)
+![picture of elevenbuttons large sizedefinition template.](https://www.bing.com/search?q=picture+of+elevenbuttons+large+sizedefinition+template.)
 
-![picture of elevenbuttons medium sizedefinition template.](https://www.bing.com/search?q=picture of elevenbuttons medium sizedefinition template.)
+![picture of elevenbuttons medium sizedefinition template.](https://www.bing.com/search?q=picture+of+elevenbuttons+medium+sizedefinition+template.)
 
-![picture of elevenbuttons small sizedefinition template.](https://www.bing.com/search?q=picture of elevenbuttons small sizedefinition template.)
+![picture of elevenbuttons small sizedefinition template.](https://www.bing.com/search?q=picture+of+elevenbuttons+small+sizedefinition+template.)
 
 OneFontControl
 
@@ -264,9 +264,9 @@ Only Large and Medium group sizes are supported.
 
  
 
-![picture of onefontcontrol large sizedefinition template.](https://www.bing.com/search?q=picture of onefontcontrol large sizedefinition template.)
+![picture of onefontcontrol large sizedefinition template.](https://www.bing.com/search?q=picture+of+onefontcontrol+large+sizedefinition+template.)
 
-![picture of onefontcontrol medium sizedefinition template.](https://www.bing.com/search?q=picture of onefontcontrol medium sizedefinition template.)
+![picture of onefontcontrol medium sizedefinition template.](https://www.bing.com/search?q=picture+of+onefontcontrol+medium+sizedefinition+template.)
 
 OneInRibbonGallery
 
@@ -274,9 +274,9 @@ One [**InRibbonGallery**](windowsribbon-element-inribbongallery.md) control.
 
 Only Large and Small group sizes are supported.
 
-![picture of oneinribbongallery large sizedefinition template.](https://www.bing.com/search?q=picture of oneinribbongallery large sizedefinition template.)
+![picture of oneinribbongallery large sizedefinition template.](https://www.bing.com/search?q=picture+of+oneinribbongallery+large+sizedefinition+template.)
 
-![picture of oneinribbongallery small sizedefinition template.](https://www.bing.com/search?q=picture of oneinribbongallery small sizedefinition template.)
+![picture of oneinribbongallery small sizedefinition template.](https://www.bing.com/search?q=picture+of+oneinribbongallery+small+sizedefinition+template.)
 
 InRibbonGalleryAndBigButton
 
@@ -284,9 +284,9 @@ One [**InRibbonGallery**](windowsribbon-element-inribbongallery.md) control and 
 
 Only Large and Small group sizes are supported.
 
-![picture of inribbongalleryandbigbutton large sizedefinition template.](https://www.bing.com/search?q=picture of inribbongalleryandbigbutton large sizedefinition template.)
+![picture of inribbongalleryandbigbutton large sizedefinition template.](https://www.bing.com/search?q=picture+of+inribbongalleryandbigbutton+large+sizedefinition+template.)
 
-![picture of inribbongalleryandbigbutton small sizedefinition template.](https://www.bing.com/search?q=picture of inribbongalleryandbigbutton small sizedefinition template.)
+![picture of inribbongalleryandbigbutton small sizedefinition template.](https://www.bing.com/search?q=picture+of+inribbongalleryandbigbutton+small+sizedefinition+template.)
 
 InRibbonGalleryAndButtons-GalleryScalesFirst
 
@@ -294,11 +294,11 @@ One [In-Ribbon Gallery](windowsribbon-controls-inribbongallery.md) control and t
 
 The gallery collapses to Popup representation in Medium and Small group sizes.
 
-![picture of inribbongalleryandbuttons-galleryscalesfirst large sizedefinition template.](https://www.bing.com/search?q=picture of inribbongalleryandbuttons-galleryscalesfirst large sizedefinition template.)
+![picture of inribbongalleryandbuttons-galleryscalesfirst large sizedefinition template.](https://www.bing.com/search?q=picture+of+inribbongalleryandbuttons-galleryscalesfirst+large+sizedefinition+template.)
 
-![picture of inribbongalleryandbuttons-galleryscalesfirst medium sizedefinition template.](https://www.bing.com/search?q=picture of inribbongalleryandbuttons-galleryscalesfirst medium sizedefinition template.)
+![picture of inribbongalleryandbuttons-galleryscalesfirst medium sizedefinition template.](https://www.bing.com/search?q=picture+of+inribbongalleryandbuttons-galleryscalesfirst+medium+sizedefinition+template.)
 
-![picture of inribbongalleryandbuttons-galleryscalesfirst small sizedefinition template.](https://www.bing.com/search?q=picture of inribbongalleryandbuttons-galleryscalesfirst small sizedefinition template.)
+![picture of inribbongalleryandbuttons-galleryscalesfirst small sizedefinition template.](https://www.bing.com/search?q=picture+of+inribbongalleryandbuttons-galleryscalesfirst+small+sizedefinition+template.)
 
 ButtonGroups
 
@@ -376,11 +376,11 @@ The following example demonstrates the markup required to display all 32 control
 
 
 
-![picture of buttongroups large sizedefinition template.](https://www.bing.com/search?q=picture of buttongroups large sizedefinition template.)
+![picture of buttongroups large sizedefinition template.](https://www.bing.com/search?q=picture+of+buttongroups+large+sizedefinition+template.)
 
-![picture of buttongroups medium sizedefinition template.](https://www.bing.com/search?q=picture of buttongroups medium sizedefinition template.)
+![picture of buttongroups medium sizedefinition template.](https://www.bing.com/search?q=picture+of+buttongroups+medium+sizedefinition+template.)
 
-![picture of buttongroups small sizedefinition template.](https://www.bing.com/search?q=picture of buttongroups small sizedefinition template.)
+![picture of buttongroups small sizedefinition template.](https://www.bing.com/search?q=picture+of+buttongroups+small+sizedefinition+template.)
 
 ButtonGroupsAndInputs
 
@@ -461,9 +461,9 @@ The following example demonstrates the markup required to display all control el
 
 
 
-![picture of buttongroupsandinputs large sizedefinition template.](https://www.bing.com/search?q=picture of buttongroupsandinputs large sizedefinition template.)
+![picture of buttongroupsandinputs large sizedefinition template.](https://www.bing.com/search?q=picture+of+buttongroupsandinputs+large+sizedefinition+template.)
 
-![picture of buttongroupsandinputs medium sizedefinition template.](https://www.bing.com/search?q=picture of buttongroupsandinputs medium sizedefinition template.)
+![picture of buttongroupsandinputs medium sizedefinition template.](https://www.bing.com/search?q=picture+of+buttongroupsandinputs+medium+sizedefinition+template.)
 
 BigButtonsAndSmallButtonsOrInputs
 
@@ -471,9 +471,9 @@ Two button-family controls (both optional) followed by two or three button or in
 
 Only Large and Medium group sizes are supported.
 
-![picture of bigbuttonsandsmallbuttonsorinputs large sizedefinition template.](https://www.bing.com/search?q=picture of bigbuttonsandsmallbuttonsorinputs large sizedefinition template.)
+![picture of bigbuttonsandsmallbuttonsorinputs large sizedefinition template.](https://www.bing.com/search?q=picture+of+bigbuttonsandsmallbuttonsorinputs+large+sizedefinition+template.)
 
-![picture of bigbuttonsandsmallbuttonsorinputs medium sizedefinition template.](https://www.bing.com/search?q=picture of bigbuttonsandsmallbuttonsorinputs medium sizedefinition template.)
+![picture of bigbuttonsandsmallbuttonsorinputs medium sizedefinition template.](https://www.bing.com/search?q=picture+of+bigbuttonsandsmallbuttonsorinputs+medium+sizedefinition+template.)
 
 
 
@@ -818,10 +818,10 @@ The following images show how the templates from the previous example are applie
 
 |        |                                                                                                    |
 |--------|----------------------------------------------------------------------------------------------------|
-| Large  | ![picture of an inline large custom template.](https://www.bing.com/search?q=picture of an inline large custom template.)   |
-| Medium | ![picture of an inline medium custom template.](https://www.bing.com/search?q=picture of an inline medium custom template.) |
-| Small  | ![picture of an inline small custom template.](https://www.bing.com/search?q=picture of an inline small custom template.)   |
-| Popup  | ![picture of an inline popup custom template.](https://www.bing.com/search?q=picture of an inline popup custom template.)   |
+| Large  | ![picture of an inline large custom template.](https://www.bing.com/search?q=picture+of+an+inline+large+custom+template.)   |
+| Medium | ![picture of an inline medium custom template.](https://www.bing.com/search?q=picture+of+an+inline+medium+custom+template.) |
+| Small  | ![picture of an inline small custom template.](https://www.bing.com/search?q=picture+of+an+inline+small+custom+template.)   |
+| Popup  | ![picture of an inline popup custom template.](https://www.bing.com/search?q=picture+of+an+inline+popup+custom+template.)   |
 
 
 

@@ -32,15 +32,15 @@ The **IDelaydC** interface has these methods.
 | [**Configure**](idelaydc-configure.md)                                 | Submits configuration information used for a capture.<br/>                                                                                        |
 | [**Connect**](idelaydc-connect.md)                                     | Connects the NPP to the network.<br/>                                                                                                             |
 | [**Disconnect**](idelaydc-disconnect.md)                               | Disconnects the NPP from the network.<br/>                                                                                                        |
-| [**GetControlState**](idelaydc-getcontrolstate.md)                     | Retrieves the state of the [*capture*](https://www.bing.com/search?q=*capture*), which indicates if the capture is running or paused.<br/>                      |
-| [**GetConversationStatistics**](idelaydc-getconversationstatistics.md) | Retrieves [*session*](https://www.bing.com/search?q=*session*) and [*station information*](https://www.bing.com/search?q=*station information*) for the current capture.<br/> |
+| [**GetControlState**](idelaydc-getcontrolstate.md)                     | Retrieves the state of the [*capture*](c.md#-netmon-capture-gly), which indicates if the capture is running or paused.<br/>                      |
+| [**GetConversationStatistics**](idelaydc-getconversationstatistics.md) | Retrieves [*session*](s.md#-netmon-session-gly) and [*station information*](s.md#-netmon-station-information-gly) for the current capture.<br/> |
 | [**GetTotalStatistics**](idelaydc-gettotalstatistics.md)               | Extracts time, buffer, driver, and other network statistics from the currently running capture.<br/>                                              |
 | [**Pause**](idelaydc-pause.md)                                         | Temporarily stops the current capture.<br/>                                                                                                       |
 | [**QueryStations**](idelaydc-querystations.md)                         | Retrieves a list of all computers that use Network Monitor to capture data on a subnet.<br/>                                                      |
 | [**QueryStatus**](idelaydc-querystatus.md)                             | Retrieves the status of the NPP.<br/>                                                                                                             |
 | [**Resume**](idelaydc-resume.md)                                       | Resumes a paused capture.<br/>                                                                                                                    |
-| [**Start**](idelaydc-start.md)                                         | Starts a capture and creates the [*capture file*](https://www.bing.com/search?q=*capture file*).<br/>                                                           |
-| [**Stop**](idelaydc-stop.md)                                           | Stops the current capture and closes the [*capture file*](https://www.bing.com/search?q=*capture file*).<br/>                                                   |
+| [**Start**](idelaydc-start.md)                                         | Starts a capture and creates the [*capture file*](c.md#-netmon-capture-file-gly).<br/>                                                           |
+| [**Stop**](idelaydc-stop.md)                                           | Stops the current capture and closes the [*capture file*](c.md#-netmon-capture-file-gly).<br/>                                                   |
 
 
 

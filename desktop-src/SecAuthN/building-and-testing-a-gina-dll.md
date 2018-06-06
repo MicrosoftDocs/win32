@@ -81,10 +81,10 @@ To test a [*GINA*](https://msdn.microsoft.com/library/windows/desktop/ms721584#-
 [Loading and Running a GINA DLL](loading-and-running-a-gina-dll.md)
 </dt> <dt>
 
-[GINA Export Functions](https://www.bing.com/search?q=GINA Export Functions)
+[GINA Export Functions](authentication-functions.md#gina-export-functions)
 </dt> <dt>
 
-[GINA Structures](https://www.bing.com/search?q=GINA Structures)
+[GINA Structures](authentication-structures.md#gina-structures)
 </dt> <dt>
 
 [Terminal Services GINA Functions](terminal-services-gina-functions.md)

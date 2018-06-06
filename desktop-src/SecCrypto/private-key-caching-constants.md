@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Private Key Caching Constants
 
-The following constants are used to represent registry entries that control [*private key*](https://www.bing.com/search?q=*private key*) caching by Microsoft software-based CSPs.
+The following constants are used to represent registry entries that control [*private key*](security.p_gly#-security-private-key-gly) caching by Microsoft software-based CSPs.
 
 
 
@@ -34,7 +34,7 @@ The following constants are used to identify registry values that control privat
 
 
 
-The following constants are used to identify registry values that control private key caching for a single Microsoft software-based [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP) instance.
+The following constants are used to identify registry values that control private key caching for a single Microsoft software-based [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) instance.
 
 
 

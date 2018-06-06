@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Template object
 
-\[The **Template** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](https://www.bing.com/search?q=**X509Extension Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Template to retrieve the certificate extension template.\]
+\[The **Template** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](https://www.bing.com/search?q=**X509Extension+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Template to retrieve the certificate extension template.\]
 
 The **Template** object represents the certificate extension template of the certificate.
 
@@ -20,7 +20,7 @@ The **Template** object represents the certificate extension template of the cer
 The **Template** object is used to perform the following tasks:
 
 -   Determine whether the template is marked critical or present.
--   Retrieve the [*object identifier*](https://www.bing.com/search?q=*object identifier*) (OID) or name of the template.
+-   Retrieve the [*object identifier*](security.o_gly#-security-object-identifier-gly) (OID) or name of the template.
 -   Retrieve the minor or major version of the template.
 
 ## Members

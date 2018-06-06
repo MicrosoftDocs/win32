@@ -30,7 +30,7 @@ Assuming that no transform filter handles the quality message, the message event
 
 The following diagram illustrates the default behavior.
 
-![quality control in the base classes](https://www.bing.com/search?q=quality control in the base classes)
+![quality control in the base classes](https://www.bing.com/search?q=quality+control+in+the+base+classes)
 
 The base video renderer implements **IQualityControl::Notify**, which means you can pass quality messages to the renderer itself. If you set the **Proportion** member to a value less than 1000, the video renderer inserts a wait period between each frame that it renders, in effect slowing down the renderer. (You might do this to reduce system usage, for example.) For more information, see [**CBaseVideoRenderer::ThrottleWait**](cbasevideorenderer-throttlewait.md). Setting the **Proportion** member to a value greater than 1000 has no effect.
 

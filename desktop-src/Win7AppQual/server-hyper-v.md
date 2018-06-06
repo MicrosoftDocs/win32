@@ -52,7 +52,7 @@ Server virtualization enables multiple operating systems to run on a single phys
 
 ## Links to Other Resources
 
-[WMI management interfaces for Hyper-V v1](https://msdn.microsoft.com/windows/desktop/b9cb1d1c-9bc4-46d9-ad5a-526f5d6b9230). While most of this content will apply to v2 of Hyper-V, an updated version with v2-specific information should be available closer to the Windows 7 launch.
+[WMI management interfaces for Hyper-V v1](https://msdn.microsoft.com/b9cb1d1c-9bc4-46d9-ad5a-526f5d6b9230). While most of this content will apply to v2 of Hyper-V, an updated version with v2-specific information should be available closer to the Windows 7 launch.
 
  
 

@@ -83,7 +83,7 @@ An application must ensure that *pChildWiaItem* has the same image format ([**WI
 
 ## Examples
 
-UpdateRegion should be called each time a user changes, for example, the brightness or contrast for the child item represented by `dwRegionNumber`. This child item has previously been created by the segmentation filter ([**IWiaSegmentationFilter**](-wia-iwiasegmentationfilter.md). The image written to the [IStream](https://msdn.microsoft.com/windows/desktop/c6f60e37-eadc-46a1-94f6-cacc23613531) is returned by the transfer callback interface's [**GetNextStream**](-wia-iwiatransfercallback-getnextstream.md) method. The code for GetSubRegionItem is omitted in this example.
+UpdateRegion should be called each time a user changes, for example, the brightness or contrast for the child item represented by `dwRegionNumber`. This child item has previously been created by the segmentation filter ([**IWiaSegmentationFilter**](-wia-iwiasegmentationfilter.md). The image written to the [IStream](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) is returned by the transfer callback interface's [**GetNextStream**](-wia-iwiatransfercallback-getnextstream.md) method. The code for GetSubRegionItem is omitted in this example.
 
 After this function has been called, an application would typically redraw the region on the screen.
 

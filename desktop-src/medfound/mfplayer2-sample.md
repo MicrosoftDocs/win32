@@ -31,14 +31,14 @@ The following image shows the controls used for these features.
 
 This sample demonstrates the following APIs.
 
--   [**IAudioSessionControl**](https://msdn.microsoft.com/windows/desktop/4446140e-2e61-40ed-b0f9-4c1b90e7c2de)
--   [**IAudioSessionManager**](https://msdn.microsoft.com/windows/desktop/606b0a42-d1d1-4196-911f-5b095bf56c4e)
+-   [**IAudioSessionControl**](https://msdn.microsoft.com/4446140e-2e61-40ed-b0f9-4c1b90e7c2de)
+-   [**IAudioSessionManager**](https://msdn.microsoft.com/606b0a42-d1d1-4196-911f-5b095bf56c4e)
 -   [**IMFPMediaItem**](/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem)
 -   [**IMFPMediaPlayer**](/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer)
 -   [**IMFPMediaPlayerCallback**](/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback)
--   [**IMMDevice**](https://msdn.microsoft.com/windows/desktop/12b05e7e-81b2-49fd-bb9f-d5ad3315c580)
--   [**IMMDeviceEnumerator**](https://msdn.microsoft.com/windows/desktop/1abdeac1-c156-40b8-8b8c-5ddb51e410aa)
--   [**ISimpleAudioVolume**](https://msdn.microsoft.com/windows/desktop/360211f2-de82-4ff5-896c-dee1d60cb7b7)
+-   [**IMMDevice**](https://msdn.microsoft.com/12b05e7e-81b2-49fd-bb9f-d5ad3315c580)
+-   [**IMMDeviceEnumerator**](https://msdn.microsoft.com/1abdeac1-c156-40b8-8b8c-5ddb51e410aa)
+-   [**ISimpleAudioVolume**](https://msdn.microsoft.com/360211f2-de82-4ff5-896c-dee1d60cb7b7)
 
 ## Requirements
 

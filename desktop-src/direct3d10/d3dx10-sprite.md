@@ -36,7 +36,7 @@ typedef struct D3DX10_SPRITE {
 **matWorld**
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/windows/desktop/0911088b-50cf-4c4a-996e-351386fc359b)**
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)**
 
 </dd> <dd>
 
@@ -47,7 +47,7 @@ The sprite's model-world transformation. This defines the position and orientati
 **TexCoord**
 </dt> <dd>
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/windows/desktop/e61ec1c8-00b5-491f-8fb1-be97218f6c68)**
+Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)**
 
 </dd> <dd>
 
@@ -58,7 +58,7 @@ Offset from the upper-left corner of the texture indicating where the sprite ima
 **TexSize**
 </dt> <dd>
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/windows/desktop/e61ec1c8-00b5-491f-8fb1-be97218f6c68)**
+Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)**
 
 </dd> <dd>
 
@@ -69,7 +69,7 @@ A vector containing the width and height of the sprite in texture coordinates.
 **ColorModulate**
 </dt> <dd>
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/windows/desktop/53d3176a-f727-498e-8bea-0e30e0a1c66e)**
+Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxcolor.htm)**
 
 </dd> <dd>
 
@@ -91,7 +91,7 @@ Pointer to a shader-resource view representing the sprite's texture. See [**ID3D
 **TextureIndex**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 

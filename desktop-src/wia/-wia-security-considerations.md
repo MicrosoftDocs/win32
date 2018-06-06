@@ -37,7 +37,7 @@ WIA uses several directories and registry keys internally to store data or infor
 -   [Security How-to Resources](http://www.microsoft.com/technet/solutionaccelerators/howto/sechow.mspx)
 -   [TechNet Security Resources](http://go.microsoft.com/fwlink/p/?linkid=181548)
 -   [Security Considerations for Windows XP Embedded Developers](http://msdn.microsoft.com/en-us/library/ms838345.aspx)
--   [Security Best Practices](https://msdn.microsoft.com/windows/desktop/bb0ddae2-f559-4785-97c7-182fc204fa60)
+-   [Security Best Practices](https://msdn.microsoft.com/bb0ddae2-f559-4785-97c7-182fc204fa60)
 
  
 

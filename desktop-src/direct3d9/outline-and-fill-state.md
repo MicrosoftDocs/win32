@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Outline and Fill State (Direct3D 9)
 
-Primitives that have no textures are rendered with the color specified by their material, or with the colors specified for the vertices, if any. You can select the method to fill them by specifying a value defined by the [**D3DFILLMODE**](https://msdn.microsoft.com/windows/desktop/be835432-e8d5-4afb-a810-2dac25bdc9dc) enumerated type for the D3DRS\_FILLMODE render state.
+Primitives that have no textures are rendered with the color specified by their material, or with the colors specified for the vertices, if any. You can select the method to fill them by specifying a value defined by the [**D3DFILLMODE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dfillmode.htm) enumerated type for the D3DRS\_FILLMODE render state.
 
 To enable dithering, your application must pass the D3DRS\_DITHERENABLE enumerated value as the first parameter to [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate). It must set the second parameter to **TRUE** to enable dithering, and **FALSE** to disable it.
 

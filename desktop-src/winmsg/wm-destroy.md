@@ -50,7 +50,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-If the window being destroyed is part of the clipboard viewer chain (set by calling the [**SetClipboardViewer**](https://msdn.microsoft.com/windows/desktop/b1c9c0eb-388f-4fa1-9744-8ebd324cec4f) function), the window must remove itself from the chain by processing the [**ChangeClipboardChain**](https://msdn.microsoft.com/windows/desktop/438ff6b4-6b45-4163-87bc-2f354c73fced) function before returning from the **WM\_DESTROY** message.
+If the window being destroyed is part of the clipboard viewer chain (set by calling the [**SetClipboardViewer**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\setclipboardviewer.htm) function), the window must remove itself from the chain by processing the [**ChangeClipboardChain**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\changeclipboardchain.htm) function before returning from the **WM\_DESTROY** message.
 
 ## Requirements
 
@@ -71,7 +71,7 @@ If the window being destroyed is part of the clipboard viewer chain (set by call
 **Reference**
 </dt> <dt>
 
-[**ChangeClipboardChain**](https://msdn.microsoft.com/windows/desktop/438ff6b4-6b45-4163-87bc-2f354c73fced)
+[**ChangeClipboardChain**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\changeclipboardchain.htm)
 </dt> <dt>
 
 [**DestroyWindow**](/windows/desktop/api/Winuser/nf-winuser-destroywindow)
@@ -80,7 +80,7 @@ If the window being destroyed is part of the clipboard viewer chain (set by call
 [**PostQuitMessage**](/windows/desktop/api/Winuser/nf-winuser-postquitmessage)
 </dt> <dt>
 
-[**SetClipboardViewer**](https://msdn.microsoft.com/windows/desktop/b1c9c0eb-388f-4fa1-9744-8ebd324cec4f)
+[**SetClipboardViewer**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\setclipboardviewer.htm)
 </dt> <dt>
 
 [**WM\_CLOSE**](wm-close.md)

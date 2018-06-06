@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # \_CPSUICALLBACK callback function
 
-The **\_CPSUICALLBACK** function type is used by CPSUI applications (including printer interface DLLs) for defining a callback function intended for use as a [CPSUI message handler](https://www.bing.com/search?q=CPSUI message handler).
+The **\_CPSUICALLBACK** function type is used by CPSUI applications (including printer interface DLLs) for defining a callback function intended for use as a [CPSUI message handler](https://www.bing.com/search?q=CPSUI+message+handler).
 
 ## Syntax
 

@@ -45,7 +45,7 @@ The **GdiStartPageEMF** function is exported by gdi32.dll for use within a print
 
 A print processor must call the **GdiStartPageEMF** function each time a new physical page is to be created. It can then call [**GdiPlayPageEMF**](gdiplaypageemf.md) for each document page that is to be placed on the physical page.
 
-For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using GDI Functions in Print Processors).
+For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using+GDI+Functions+in+Print+Processors).
 
 ## Requirements
 

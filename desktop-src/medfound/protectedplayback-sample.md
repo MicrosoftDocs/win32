@@ -52,7 +52,7 @@ This sample is available in the [Windows classic samples github repository](http
 [Media Foundation SDK Samples](media-foundation-sdk-samples.md)
 </dt> <dt>
 
-[MFPlayer Sample](https://www.bing.com/search?q=MFPlayer Sample)
+[MFPlayer Sample](https://www.bing.com/search?q=MFPlayer+Sample)
 </dt> </dl>
 
  

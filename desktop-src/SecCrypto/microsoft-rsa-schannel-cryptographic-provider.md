@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Microsoft RSA/Schannel Cryptographic Provider
 
-The Microsoft [*RSA*](https://www.bing.com/search?q=*RSA*)/[*Schannel*](https://www.bing.com/search?q=*Schannel*) Cryptographic Provider supports hashing, data signing, and signature verification. The algorithm identifier CALG\_SSL3\_SHAMD5 is used for SSL 3.0 and TLS 1.0 client authentication. This CSP supports key derivation for the SSL2, PCT1, SSL3, and TLS1 protocols. The [*hash*](https://www.bing.com/search?q=*hash*) consists of a concatenation of a MD5 hash with a SHA hash and signed with a RSA [*private key*](https://www.bing.com/search?q=*private key*). It can be exported to other countries/regions.
+The Microsoft [*RSA*](security.r_gly#-security-rsa-gly)/[*Schannel*](security.s_gly#-security-schannel-gly) Cryptographic Provider supports hashing, data signing, and signature verification. The algorithm identifier CALG\_SSL3\_SHAMD5 is used for SSL 3.0 and TLS 1.0 client authentication. This CSP supports key derivation for the SSL2, PCT1, SSL3, and TLS1 protocols. The [*hash*](security.h_gly#-security-hash-gly) consists of a concatenation of a MD5 hash with a SHA hash and signed with a RSA [*private key*](security.p_gly#-security-private-key-gly). It can be exported to other countries/regions.
 
 
 
@@ -24,7 +24,7 @@ The Microsoft [*RSA*](https://www.bing.com/search?q=*RSA*)/[*Schannel*](https://
 
  
 
-For more information about RSA/Schannel providers, see [CSP Functions](https://www.bing.com/search?q=CSP Functions).
+For more information about RSA/Schannel providers, see [CSP Functions](cryptography-functions.md#csp-functions).
 
  
 

@@ -29,11 +29,11 @@ The following resource record types are commonly used in DNS:
 
 -   Start of authority (SOA)
 -   Name server (NS)
--   [*Pointer record*](https://www.bing.com/search?q=*Pointer record*) (PTR)
+-   [*Pointer record*](p-gly.md#-dns-pointer-record-gly) (PTR)
 -   Address (A)
 -   IPv6 Address (AAAA)
 -   Mail exchange (MX)
--   [*Canonical name*](https://www.bing.com/search?q=*Canonical name*) (CNAME)
+-   [*Canonical name*](c-gly.md#-dns-canonical-name-gly) (CNAME)
 -   Windows Internet Naming Service (WINS)
 -   WINS Reverse Look up (WINSR)
 

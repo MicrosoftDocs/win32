@@ -15,7 +15,7 @@ The following example shows the decryption of a file. The example asks the user 
 
 The example also requests a string that is used as a password. If a password was used to create the encryption session key, that same password must be entered to create the decryption session key. For more information, see [Example C Program: Encrypting a File](example-c-program-encrypting-a-file.md).
 
-Due to changing export control restrictions, the default [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP) and default [*key length*](https://www.bing.com/search?q=*key length*) may change between operating system releases. It is important that both the encryption and decryption use the same CSP and that the key length be explicitly set to ensure interoperability on different operating system platforms.
+Due to changing export control restrictions, the default [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) and default [*key length*](security.k_gly#-security-key-length-gly) may change between operating system releases. It is important that both the encryption and decryption use the same CSP and that the key length be explicitly set to ensure interoperability on different operating system platforms.
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

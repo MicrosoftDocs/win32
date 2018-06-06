@@ -118,7 +118,7 @@ The following functions are used to enumerate processes.
 | [**EnumProcesses**](https://www.bing.com/search?q=**EnumProcesses**)                     | Retrieves the process identifier for each process object in the system.            |
 | [**Process32First**](https://www.bing.com/search?q=**Process32First**)                   | Retrieves information about the first process encountered in a system snapshot.    |
 | [**Process32Next**](https://www.bing.com/search?q=**Process32Next**)                     | Retrieves information about the next process recorded in a system snapshot.        |
-| [**WTSEnumerateProcesses**](https://msdn.microsoft.com/windows/desktop/ddfae294-2e7c-416e-b328-76d011b4af39) | Retrieves information about the active processes on the specified terminal server. |
+| [**WTSEnumerateProcesses**](https://msdn.microsoft.com/ddfae294-2e7c-416e-b328-76d011b4af39) | Retrieves information about the active processes on the specified terminal server. |
 
 
 
@@ -212,7 +212,7 @@ The following functions are used to set extended attributes for process and thre
 
 ## WOW64 Functions
 
-The following functions are used with [WOW64](https://msdn.microsoft.com/windows/desktop/ac75c5af-86e8-4282-9a8e-8db3c22cbda0).
+The following functions are used with [WOW64](https://msdn.microsoft.com/ac75c5af-86e8-4282-9a8e-8db3c22cbda0).
 
 
 
@@ -325,8 +325,8 @@ The following functions are part of the original [thread pooling](thread-pooling
 |---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**BindIoCompletionCallback**](/windows/desktop/api/WinBase/nf-winbase-bindiocompletioncallback)        | Associates the I/O completion port owned by the thread pool with the specified file handle. On completion of an I/O request involving this file, a non-I/O worker thread will execute the specified callback function. |
 | [**QueueUserWorkItem**](/windows/desktop/api/WinBase/)                      | Queues a work item to a worker thread in the thread pool.                                                                                                                                                              |
-| [**RegisterWaitForSingleObject**](https://msdn.microsoft.com/windows/desktop/d0cd8b28-6e20-449a-94dd-cca2be46b812) | Directs a wait thread in the thread pool to wait on the object.                                                                                                                                                        |
-| [**UnregisterWaitEx**](https://msdn.microsoft.com/windows/desktop/ea700e55-fce7-46cd-bb96-0c129b429d46)                       | Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses.                                                                                                            |
+| [**RegisterWaitForSingleObject**](https://msdn.microsoft.com/d0cd8b28-6e20-449a-94dd-cca2be46b812) | Directs a wait thread in the thread pool to wait on the object.                                                                                                                                                        |
+| [**UnregisterWaitEx**](https://msdn.microsoft.com/ea700e55-fce7-46cd-bb96-0c129b429d46)                       | Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses.                                                                                                            |
 
 
 
@@ -403,7 +403,7 @@ The following functions provide [NUMA support](numa-support.md).
 
 | Function                                                                 | Description                                                                                                                                            |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AllocateUserPhysicalPagesNuma**](https://msdn.microsoft.com/windows/desktop/33af02c8-609f-4490-b17e-e116d24c217c)  | Reserves or commits a region of memory within the virtual address space of the specified process, and specifies the NUMA node for the physical memory. |
+| [**AllocateUserPhysicalPagesNuma**](https://msdn.microsoft.com/33af02c8-609f-4490-b17e-e116d24c217c)  | Reserves or commits a region of memory within the virtual address space of the specified process, and specifies the NUMA node for the physical memory. |
 | [**GetLogicalProcessorInformation**](/windows/desktop/api/WinBase/) | Retrieves information about logical processors and related hardware.                                                                                   |
 | [**GetNumaAvailableMemoryNode**](/windows/desktop/api/WinBase/nf-winbase-getnumaavailablememorynode)         | Retrieves the amount of memory available in the specified node.                                                                                        |
 | [**GetNumaAvailableMemoryNodeEx**](/windows/desktop/api/WinBase/nf-winbase-getnumaavailablememorynodeex)     | Retrieves the amount of memory that is available in the specified node as a USHORT value.                                                              |
@@ -415,7 +415,7 @@ The following functions provide [NUMA support](numa-support.md).
 | [**GetNumaProcessorNodeEx**](/windows/desktop/api/WinBase/nf-winbase-getnumaprocessornodeex)                 | Retrieves the node number of the specified logical processor as a USHORT value.                                                                        |
 | [**GetNumaProximityNode**](/windows/desktop/api/WinBase/nf-winbase-getnumaproximitynode)                     | Retrieves the node number for the specified proximity identifier.                                                                                      |
 | [**GetNumaProximityNodeEx**](/windows/desktop/api/WinBase/)                 | Retrieves the node number as a USHORT value for the specified proximity identifier.                                                                    |
-| [**VirtualAllocExNuma**](https://msdn.microsoft.com/windows/desktop/dcafd557-834e-4fdf-9cb2-aad76109ad92)                        | Reserves or commits a region of memory within the virtual address space of the specified process, and specifies the NUMA node for the physical memory. |
+| [**VirtualAllocExNuma**](https://msdn.microsoft.com/dcafd557-834e-4fdf-9cb2-aad76109ad92)                        | Reserves or commits a region of memory within the virtual address space of the specified process, and specifies the NUMA node for the physical memory. |
 
 
 

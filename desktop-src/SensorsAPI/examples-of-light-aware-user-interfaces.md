@@ -15,11 +15,11 @@ Now that you understand some basic principles for optimizing your UI for differe
 
 The following images compare light-aware UI to normal UI on a laptop in direct sunlight. The first photograph shows what content typically looks like outdoors when a laptop is using its battery usage display settings. The second photograph shows the combination of Adaptive Brightness and light-aware UI, and how these features can work together to increase screen readability.
 
-![normal ui at 40% brightness](https://www.bing.com/search?q=normal ui at 40% brightness)![light-aware ui at 100% brightness](https://www.bing.com/search?q=light-aware ui at 100% brightness)
+![normal ui at 40% brightness](https://www.bing.com/search?q=normal+ui+at+40%+brightness)![light-aware ui at 100% brightness](https://www.bing.com/search?q=light-aware+ui+at+100%+brightness)
 
 The following photographs show a navigation program as seen outdoors with light-awareness turned off and turned on. The indoor content is not usable outdoors, whereas the outdoor content is easily legible. Also note how the reflections are minimized when a black-on-white color scheme is used, as shown in the second photograph.
 
-![normal navigation user interface](https://www.bing.com/search?q=normal navigation user interface)![light-aware navigation user interface](https://www.bing.com/search?q=light-aware navigation user interface)
+![normal navigation user interface](https://www.bing.com/search?q=normal+navigation+user+interface)![light-aware navigation user interface](https://www.bing.com/search?q=light-aware+navigation+user+interface)
 
  
 

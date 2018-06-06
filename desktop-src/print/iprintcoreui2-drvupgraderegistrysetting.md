@@ -69,7 +69,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-This method is inherited from the [IPrintOemDriverUI COM Interface](https://www.bing.com/search?q=IPrintOemDriverUI COM Interface), which includes a `DrvUpgradeRegistrySetting` method. The behavior of this method is exactly the same as that of [**IPrintOemDriverUI::DrvUpgradeRegistrySetting**](iprintoemdriverui-drvupgraderegistrysetting.md).
+This method is inherited from the [IPrintOemDriverUI COM Interface](https://www.bing.com/search?q=IPrintOemDriverUI+COM+Interface), which includes a `DrvUpgradeRegistrySetting` method. The behavior of this method is exactly the same as that of [**IPrintOemDriverUI::DrvUpgradeRegistrySetting**](iprintoemdriverui-drvupgraderegistrysetting.md).
 
 This method should be called only by the OEM's [**IPrintOemUI::UpgradePrinter**](iprintoemui-upgradeprinter.md) method.
 

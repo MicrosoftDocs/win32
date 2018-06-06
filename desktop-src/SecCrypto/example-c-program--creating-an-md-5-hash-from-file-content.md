@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Creating an MD5 Hash from File Content
 
-The following example demonstrates using CryptoAPI to compute the [*MD5*](https://www.bing.com/search?q=*MD5*) hash of the contents of a file. This example performs the computation on the contents of a file specified at run time.
+The following example demonstrates using CryptoAPI to compute the [*MD5*](security.m_gly#-security-md5-gly) hash of the contents of a file. This example performs the computation on the contents of a file specified at run time.
 
 
 ```C++

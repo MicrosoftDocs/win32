@@ -15,7 +15,7 @@ If you use named pipes ([**ncacn\_np**](https://msdn.microsoft.com/library/windo
 
 For example, you would not want to use a notification call for new e-mail with the named-pipe transport, because such a call would remain pending even when clients are idle, and kernel memory could be depleted. Note that this is not a problem with the other connection-oriented protocols, such as [**ncacn\_ip\_tcp**](https://msdn.microsoft.com/library/windows/desktop/aa367104).
 
-Since named pipes are a transport protocol, your application can use them by specifying [**ncacn\_np**](https://msdn.microsoft.com/library/windows/desktop/aa367108) as the protocol in a string binding. For more information on named pipes, see [Named Pipes](https://msdn.microsoft.com/library/windows/desktop/aa365590). For details on creating string bindings, see [Using String Bindings](https://www.bing.com/search?q=Using String Bindings).
+Since named pipes are a transport protocol, your application can use them by specifying [**ncacn\_np**](https://msdn.microsoft.com/library/windows/desktop/aa367108) as the protocol in a string binding. For more information on named pipes, see [Named Pipes](https://msdn.microsoft.com/library/windows/desktop/aa365590). For details on creating string bindings, see [Using String Bindings](finding-server-host-systems.md#using-string-bindings).
 
  
 

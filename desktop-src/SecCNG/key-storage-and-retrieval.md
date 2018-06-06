@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 CNG provides a model for private key storage that allows adapting to the current and future demands of creating applications that use cryptography features such as public or private key encryption, as well as the demands of the storage of key material. The key storage router is the central routine in this model and is implemented in Ncrypt.dll. An application accesses the key storage providers (KSPs) on the system through the key storage router, which conceals details, such as key isolation, from both the application and the storage provider itself. The following illustration shows the design and function of the CNG key isolation architecture.
 
-![cng key storage provider](https://www.bing.com/search?q=cng key storage provider)
+![cng key storage provider](https://www.bing.com/search?q=cng+key+storage+provider)
 
 To comply with common criteria (CC) requirements, the long-lived keys must be isolated so that they are never present in the application process. CNG currently supports the storage of asymmetric private keys by using the Microsoft software KSP that is included with Windows Server 2008 and Windows Vista and installed by default.
 

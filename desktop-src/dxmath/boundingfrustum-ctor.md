@@ -19,10 +19,10 @@ Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollisi
 
 | Constructor                                                                                                             | Description                                                                   |
 |:------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**BoundingFrustum ()**](https://www.bing.com/search?q=**BoundingFrustum ()**)                                                                    | Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).<br/> |
-| [**BoundingFrustum (XMMATRIX)**](https://www.bing.com/search?q=**BoundingFrustum (XMMATRIX)**)                                                            | Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).<br/> |
-| [**BoundingFrustum (const BoundingFrustum&)**](https://www.bing.com/search?q=**BoundingFrustum (const BoundingFrustum&)**)                                              | Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).<br/> |
-| [**BoundingFrustum (const XMFLOAT3&,const XMFLOAT4&,float,float,float,float,float,float)**](https://www.bing.com/search?q=**BoundingFrustum (const XMFLOAT3&,const XMFLOAT4&,float,float,float,float,float,float)**) | Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).<br/> |
+| [**BoundingFrustum ()**](https://www.bing.com/search?q=**BoundingFrustum+()**)                                                                    | Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).<br/> |
+| [**BoundingFrustum (XMMATRIX)**](https://www.bing.com/search?q=**BoundingFrustum+(XMMATRIX)**)                                                            | Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).<br/> |
+| [**BoundingFrustum (const BoundingFrustum&)**](https://www.bing.com/search?q=**BoundingFrustum+(const+BoundingFrustum&)**)                                              | Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).<br/> |
+| [**BoundingFrustum (const XMFLOAT3&,const XMFLOAT4&,float,float,float,float,float,float)**](https://www.bing.com/search?q=**BoundingFrustum+(const+XMFLOAT3&,const+XMFLOAT4&,float,float,float,float,float,float)**) | Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).<br/> |
 
 
 

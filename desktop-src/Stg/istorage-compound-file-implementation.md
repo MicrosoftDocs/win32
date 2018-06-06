@@ -158,7 +158,7 @@ When a simple-mode storage object is used to create a stream, the minimum size o
 
 <dl> <dt>
 
-[Compound File Implementation Limits](https://www.bing.com/search?q=Compound File Implementation Limits)
+[Compound File Implementation Limits](structured-storage-interfaces.md#compound-file-implementation-limits)
 </dt> <dt>
 
 [**IFillLockBytes**](/windows/desktop/api/Objidl/nn-objidl-ifilllockbytes)

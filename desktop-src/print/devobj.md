@@ -52,14 +52,14 @@ Pointer to the rendering plug-in's private PDEV structure, as returned by [**IPr
 **hEngine**
 </dt> <dd>
 
-GDI handle to the physical device. This handle is received by the printer driver's [**DrvCompletePDEV**](https://www.bing.com/search?q=**DrvCompletePDEV**) function, as the function's *hdev* argument.
+GDI handle to the physical device. This handle is received by the printer driver's [**DrvCompletePDEV**](https://msdn.microsoft.com/6343c6cc-f2f3-4776-a747-7a5b5cebef5f) function, as the function's *hdev* argument.
 
 </dd> <dt>
 
 **hPrinter**
 </dt> <dd>
 
-Spooler's handle to the printer. This handle is received by the printer driver's [**DrvEnablePDEV**](https://www.bing.com/search?q=**DrvEnablePDEV**) function, as the function's *hDriver* argument.
+Spooler's handle to the printer. This handle is received by the printer driver's [**DrvEnablePDEV**](https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e) function, as the function's *hDriver* argument.
 
 </dd> <dt>
 
@@ -73,7 +73,7 @@ Plug-in instance handle. Supplied by the Unidrv or Pscript5 driver.
 **pPublicDM**
 </dt> <dd>
 
-Pointer to the printer's [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure. Supplied by the Unidrv or Pscript5 driver.
+Pointer to the printer's [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure. Supplied by the Unidrv or Pscript5 driver.
 
 </dd> <dt>
 
@@ -93,7 +93,7 @@ Not used. In a previous version of the interface, this was a pointer to a [**DRV
 
 ## Remarks
 
-The DEVOBJ structure is accessible to graphics DDI hooking functions through the [**SURFOBJ**](https://www.bing.com/search?q=**SURFOBJ**) structure's **dhpdev** member. For more information, see [**IPrintOemUni::EnablePDEV**](iprintoemuni-enablepdev.md) or [**IPrintOemPS::EnablePDEV**](iprintoemps-enablepdev.md).
+The DEVOBJ structure is accessible to graphics DDI hooking functions through the [**SURFOBJ**](https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34) structure's **dhpdev** member. For more information, see [**IPrintOemUni::EnablePDEV**](iprintoemuni-enablepdev.md) or [**IPrintOemPS::EnablePDEV**](iprintoemps-enablepdev.md).
 
 ## Requirements
 
@@ -115,16 +115,16 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 [**IPrintOemPS::EnablePDEV**](iprintoemps-enablepdev.md)
 </dt> <dt>
 
-[**DrvCompletePDEV**](https://www.bing.com/search?q=**DrvCompletePDEV**)
+[**DrvCompletePDEV**](https://msdn.microsoft.com/6343c6cc-f2f3-4776-a747-7a5b5cebef5f)
 </dt> <dt>
 
-[**DrvEnablePDEV**](https://www.bing.com/search?q=**DrvEnablePDEV**)
+[**DrvEnablePDEV**](https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e)
 </dt> <dt>
 
-[**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**)
+[**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b)
 </dt> <dt>
 
-[**SURFOBJ**](https://www.bing.com/search?q=**SURFOBJ**)
+[**SURFOBJ**](https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34)
 </dt> </dl>
 
  

@@ -26,7 +26,7 @@ The implementation identifies the default retransmission mode in a return value 
 
  
 
-A WinSNMP application can retrieve at any time the current retransmission mode in effect for the implementation by calling the [**SnmpGetRetransmitMode**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpgetretransmitmode) function. The WinSNMP API provides other [database functions](https://www.bing.com/search?q=database functions) that simplify management of the retransmission policy.
+A WinSNMP application can retrieve at any time the current retransmission mode in effect for the implementation by calling the [**SnmpGetRetransmitMode**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpgetretransmitmode) function. The WinSNMP API provides other [database functions](winsnmp-functions.md#winsnmp-database-functions) that simplify management of the retransmission policy.
 
 At any time during program execution, the WinSNMP application can adjust execution of the policy by performing one of the following steps:
 

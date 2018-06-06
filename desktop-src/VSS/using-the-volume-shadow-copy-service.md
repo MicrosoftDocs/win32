@@ -15,7 +15,7 @@ VSS backup and restore operations each use a protocol for the interaction of the
 
 Both backup and restore operations are primarily driven by the requester, which controls writer and provider behavior by generating systemwide COM events for the writer to process. Because event-generating methods are asynchronous, writers do have limited control into the requester's state through the asynchronous handlers available to VSS (see [**IVssAsync**](/windows/desktop/api/Vss/nn-vss-ivssasync)).
 
-This interaction requires basic data structures describing files and groups of files ([*components*](https://www.bing.com/search?q=*components*)), as well as a metadata model to allow the storage of backup information and to permit writer/requester communication.
+This interaction requires basic data structures describing files and groups of files ([*components*](vssgloss-c.md#base-vssgloss-component)), as well as a metadata model to allow the storage of backup information and to permit writer/requester communication.
 
 -   [VSS Application Compatibility](usage-conventions.md)
 -   [Configuring VSS](configuring-vss.md)

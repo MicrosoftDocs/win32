@@ -27,15 +27,15 @@ The following topics are discussed in this section.
 
 Using window styles, you can manipulate characteristics of an up-down control, such as how it positions itself relative to its buddy window, whether it sets the text of its buddy window, and whether it processes the UP ARROW and DOWN ARROW keys.
 
-An up-down control with the [**UDS\_ALIGNLEFT**](https://www.bing.com/search?q=**UDS\_ALIGNLEFT**) or [**UDS\_ALIGNRIGHT**](https://www.bing.com/search?q=**UDS\_ALIGNRIGHT**) style aligns with the left or right edge of its buddy window. The width of the buddy window is decreased to accommodate the width of the up-down control.
+An up-down control with the [**UDS\_ALIGNLEFT**](up-down-control-styles.md#uds-alignleft) or [**UDS\_ALIGNRIGHT**](up-down-control-styles.md#uds-alignright) style aligns with the left or right edge of its buddy window. The width of the buddy window is decreased to accommodate the width of the up-down control.
 
-An up-down control with the [**UDS\_SETBUDDYINT**](https://www.bing.com/search?q=**UDS\_SETBUDDYINT**) style sets the caption of its buddy window whenever the current position changes. The control inserts a thousands separator between every three digits of a decimal string unless the [**UDS\_NOTHOUSANDS**](https://www.bing.com/search?q=**UDS\_NOTHOUSANDS**) style is specified. If the buddy window is a list box, an up-down control sets its current selection instead of its caption.
+An up-down control with the [**UDS\_SETBUDDYINT**](up-down-control-styles.md#uds-setbuddyint) style sets the caption of its buddy window whenever the current position changes. The control inserts a thousands separator between every three digits of a decimal string unless the [**UDS\_NOTHOUSANDS**](up-down-control-styles.md#uds-nothousands) style is specified. If the buddy window is a list box, an up-down control sets its current selection instead of its caption.
 
-You can specify the [**UDS\_ARROWKEYS**](https://www.bing.com/search?q=**UDS\_ARROWKEYS**) style to provide a keyboard interface for an up-down control. If this style is specified, the control processes the up and down arrow keys. The control also subclasses the buddy window so that it can process these keys when the buddy window has the focus.
+You can specify the [**UDS\_ARROWKEYS**](up-down-control-styles.md#uds-arrowkeys) style to provide a keyboard interface for an up-down control. If this style is specified, the control processes the up and down arrow keys. The control also subclasses the buddy window so that it can process these keys when the buddy window has the focus.
 
-If you use an up-down control for horizontal scrolling, you can specify the [**UDS\_HORZ**](https://www.bing.com/search?q=**UDS\_HORZ**) style. This style causes the up-down control's arrows to point left and right instead of up and down.
+If you use an up-down control for horizontal scrolling, you can specify the [**UDS\_HORZ**](up-down-control-styles.md#uds-horz) style. This style causes the up-down control's arrows to point left and right instead of up and down.
 
-By default, the current position does not change if the user attempts to increment it or decrement it beyond the maximum or minimum value. You can change this behavior by using the [**UDS\_WRAP**](https://www.bing.com/search?q=**UDS\_WRAP**) style, so the position "wraps" to the opposite extreme. For example, incrementing past the upper limit wraps the position back to the lower limit.
+By default, the current position does not change if the user attempts to increment it or decrement it beyond the maximum or minimum value. You can change this behavior by using the [**UDS\_WRAP**](up-down-control-styles.md#uds-wrap) style, so the position "wraps" to the opposite extreme. For example, incrementing past the upper limit wraps the position back to the lower limit.
 
 ## Position and Acceleration
 

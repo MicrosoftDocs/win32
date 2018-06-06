@@ -15,7 +15,7 @@ This interface encapsulates the minimum functionality required of an animation s
 
 ## Members
 
-The **ID3DXAnimationSet** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ID3DXAnimationSet** also has these types of members:
+The **ID3DXAnimationSet** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ID3DXAnimationSet** also has these types of members:
 
 -   [Methods](#methods)
 

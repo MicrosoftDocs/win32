@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WM\_EXITSIZEMOVE message
 
-Sent one time to a window, after it has exited the moving or sizing modal loop. The window enters the moving or sizing modal loop when the user clicks the window's title bar or sizing border, or when the window passes the [**WM\_SYSCOMMAND**](https://msdn.microsoft.com/windows/desktop/82c7cc95-82d5-4f0f-8c78-ab325561b04e) message to the [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function and the *wParam* parameter of the message specifies the **SC\_MOV**E or **SC\_SIZE** value. The operation is complete when [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) returns.
+Sent one time to a window, after it has exited the moving or sizing modal loop. The window enters the moving or sizing modal loop when the user clicks the window's title bar or sizing border, or when the window passes the [**WM\_SYSCOMMAND**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratormessages\wm_syscommand.htm) message to the [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function and the *wParam* parameter of the message specifies the **SC\_MOV**E or **SC\_SIZE** value. The operation is complete when [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) returns.
 
 A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
 

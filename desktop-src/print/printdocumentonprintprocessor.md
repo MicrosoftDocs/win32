@@ -49,11 +49,11 @@ If the operation succeeds, the function should return **TRUE**. If the operation
 
 ## Remarks
 
-Print processors are required to export a `PrintDocumentOnPrintProcessor` function. The spooler calls the function after calling [**OpenPrintProcessor**](openprintprocessor.md). The function's purpose is to read the contents of the file named by *pDocumentName*, convert (if necessary) the file's data to a data stream that can be read by printer hardware, and to send the data stream back to the spooler. The spooler can then send the data stream to the appropriate [*print monitor*](https://www.bing.com/search?q=*print monitor*).
+Print processors are required to export a `PrintDocumentOnPrintProcessor` function. The spooler calls the function after calling [**OpenPrintProcessor**](openprintprocessor.md). The function's purpose is to read the contents of the file named by *pDocumentName*, convert (if necessary) the file's data to a data stream that can be read by printer hardware, and to send the data stream back to the spooler. The spooler can then send the data stream to the appropriate [*print monitor*](wdkgloss.p#wdkgloss-print-monitor).
 
-If the input format is NT-based operating system EMF, the `PrintDocumentOnPrintProcessor` function can call [GDI functions for print processors](gdi-functions-for-print-processors.md). For more information, see [Processing a Print Job](https://www.bing.com/search?q=Processing a Print Job).
+If the input format is NT-based operating system EMF, the `PrintDocumentOnPrintProcessor` function can call [GDI functions for print processors](gdi-functions-for-print-processors.md). For more information, see [Processing a Print Job](https://www.bing.com/search?q=Processing+a+Print+Job).
 
-The converted data stream must be sent back to the spooler by calling **WritePrinter**, which is described in the Microsoft Windows SDK documentation. For more information, see [Processing a Print Job](https://www.bing.com/search?q=Processing a Print Job).
+The converted data stream must be sent back to the spooler by calling **WritePrinter**, which is described in the Microsoft Windows SDK documentation. For more information, see [Processing a Print Job](https://www.bing.com/search?q=Processing+a+Print+Job).
 
 The `PrintDocumentOnPrintProcessor` function must be written to handle requests to pause, resume, or cancel the print job. For more information, see [**ControlPrintProcessor**](controlprintprocessor.md).
 

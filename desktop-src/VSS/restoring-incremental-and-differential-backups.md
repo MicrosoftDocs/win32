@@ -19,7 +19,7 @@ A writer can modify restore targets or request directed targeting, and a request
 
 The first issue is that of additional restores. A backup operator may need to run several restore operations using an initial full and subsequent incremental or differential backup media as a source.
 
-Some writers, typically as part of their handling of a [*PostRestore*](https://www.bing.com/search?q=*PostRestore*) event using [**CVssWriter::OnPostRestore**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpostrestore), use restored files to perform updates of data currently on disk. For some of these writers it is inefficient—or dangerous—to repeatedly update on-disk data from restored files.
+Some writers, typically as part of their handling of a [*PostRestore*](vssgloss-p.md#base-vssgloss-postrestore-event) event using [**CVssWriter::OnPostRestore**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpostrestore), use restored files to perform updates of data currently on disk. For some of these writers it is inefficient—or dangerous—to repeatedly update on-disk data from restored files.
 
 Therefore, it is important that backup applications indicate when a component or component set may require subsequent restores by calling [**IVssBackupComponents::SetAdditionalRestores**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setadditionalrestores).
 

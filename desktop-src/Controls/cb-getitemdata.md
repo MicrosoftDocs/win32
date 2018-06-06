@@ -45,7 +45,7 @@ This parameter is not used.
 
 The return value is the value associated with the item. If an error occurs, it is CB\_ERR.
 
-If the item is in an owner-drawn combo box created without the [**CBS\_HASSTRINGS**](https://www.bing.com/search?q=**CBS\_HASSTRINGS**) style, the return value is the value contained in the *lParam* parameter of the [**CB\_ADDSTRING**](cb-addstring.md) or [**CB\_INSERTSTRING**](cb-insertstring.md) message, that added the item to the combo box. If the **CBS\_HASSTRINGS** style was not used, the return value is the *lParam* parameter contained in a [**CB\_SETITEMDATA**](cb-setitemdata.md) message.
+If the item is in an owner-drawn combo box created without the [**CBS\_HASSTRINGS**](combo-box-styles.md#cbs-hasstrings) style, the return value is the value contained in the *lParam* parameter of the [**CB\_ADDSTRING**](cb-addstring.md) or [**CB\_INSERTSTRING**](cb-insertstring.md) message, that added the item to the combo box. If the **CBS\_HASSTRINGS** style was not used, the return value is the *lParam* parameter contained in a [**CB\_SETITEMDATA**](cb-setitemdata.md) message.
 
 ## Requirements
 

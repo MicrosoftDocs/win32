@@ -55,7 +55,7 @@ Under certain conditions, the return value is larger than the actual length of t
 
 To obtain the exact length of the text, use the [**WM\_GETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632627), [**LB\_GETTEXT**](lb-gettext.md), or [**CB\_GETLBTEXT**](cb-getlbtext.md) messages, or the [**GetWindowText**](https://msdn.microsoft.com/library/windows/desktop/ms633520) function.
 
-If the list box has an owner-drawn style, but not the [**LBS\_HASSTRINGS**](https://www.bing.com/search?q=**LBS\_HASSTRINGS**) style, the return value is always the size, in bytes, of a **DWORD**.
+If the list box has an owner-drawn style, but not the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style, the return value is always the size, in bytes, of a **DWORD**.
 
 ## Requirements
 

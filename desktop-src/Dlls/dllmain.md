@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 An optional entry point into a dynamic-link library (DLL). When the system starts or terminates a process or thread, it calls the entry-point function for each loaded DLL using the first thread of the process. The system also calls the entry-point function for a DLL when it is loaded or unloaded using the [**LoadLibrary**](https://www.bing.com/search?q=**LoadLibrary**) and [**FreeLibrary**](https://www.bing.com/search?q=**FreeLibrary**) functions.
 
 > \[!Warning\]  
-> There are significant limits on what you can safely do in a DLL entry point. See [General Best Practices](https://www.bing.com/search?q=General Best Practices) for specific Windows APIs that are unsafe to call in DllMain. If you need anything but the simplest initialization then do that in an initialization function for the DLL. You can require applications to call the initialization function after DllMain has run and before they call any other functions in the DLL.
+> There are significant limits on what you can safely do in a DLL entry point. See [General Best Practices](dynamic-link-library-best-practices.md#general-best-practices) for specific Windows APIs that are unsafe to call in DllMain. If you need anything but the simplest initialization then do that in an initialization function for the DLL. You can require applications to call the initialization function after DllMain has run and before they call any other functions in the DLL.
 
  
 

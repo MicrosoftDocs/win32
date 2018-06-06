@@ -33,7 +33,7 @@ HRESULT get_CollectionChange(
 
 Type: **CollectionChange\***
 
-A value from the [**CollectionChange**](https://www.bing.com/search?q=**CollectionChange**) enumeration that describes the change.
+A value from the [**CollectionChange**](https://msdn.microsoft.com/Windows.Foundation.Collections.CollectionChange) enumeration that describes the change.
 
 </dd> </dl>
 

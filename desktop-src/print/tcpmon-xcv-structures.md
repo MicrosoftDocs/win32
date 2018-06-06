@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## 
 
-This section describes the structures that are defined for use in TCPMON Xcv communication. For more information, see [TCPMON Xcv Interface](https://www.bing.com/search?q=TCPMON Xcv Interface).
+This section describes the structures that are defined for use in TCPMON Xcv communication. For more information, see [TCPMON Xcv Interface](https://www.bing.com/search?q=TCPMON+Xcv+Interface).
 
 This section includes:
 

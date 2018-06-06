@@ -37,12 +37,12 @@ This topic contains the following sections.
 When implementing the **SynchronizedInput** control pattern, note the following guidelines and conventions:
 
 -   When the [**ISynchronizedInputProvider::StartListening**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-isynchronizedinputprovider-startlistening) method is called, the UI Automation provider should start checking for input of the specified type, and then take one of the following actions:
-    -   When matching input is found for the element, the provider should raise the [**UIA\_InputReachedTargetEventId**](https://www.bing.com/search?q=**UIA\_InputReachedTargetEventId**) event.
-    -   When matching input is found, but it reached a different element, the provider should raise the [**UIA\_InputReachedOtherElementEventId**](https://www.bing.com/search?q=**UIA\_InputReachedOtherElementEventId**) event.
-    -   When mismatched input is found, the provider should discard the input and raise the [**UIA\_InputDiscardedEventId**](https://www.bing.com/search?q=**UIA\_InputDiscardedEventId**) event.
+    -   When matching input is found for the element, the provider should raise the [**UIA\_InputReachedTargetEventId**](uiauto-event-ids.md#uia-inputreachedtargeteventid) event.
+    -   When matching input is found, but it reached a different element, the provider should raise the [**UIA\_InputReachedOtherElementEventId**](uiauto-event-ids.md#uia-inputreachedotherelementeventid) event.
+    -   When mismatched input is found, the provider should discard the input and raise the [**UIA\_InputDiscardedEventId**](uiauto-event-ids.md#uia-inputdiscardedeventid) event.
 -   The UI Automation provider must discard the input if it is for an element other than the current element.
 -   When the element receives the input, or when the [**ISynchronizedInputProvider::Cancel**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-isynchronizedinputprovider-cancel) method is called, the provider stops checking input and continues as normal.
--   If [**ISynchronizedInputProvider::StartListening**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-isynchronizedinputprovider-startlistening) is called when the provider is already listening for input, the provider should return [**UIA\_E\_INVALIDOPERATION**](https://www.bing.com/search?q=**UIA\_E\_INVALIDOPERATION**).
+-   If [**ISynchronizedInputProvider::StartListening**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-isynchronizedinputprovider-startlistening) is called when the provider is already listening for input, the provider should return [**UIA\_E\_INVALIDOPERATION**](uiauto-error-codes.md#uia-e-invalidoperation).
 
 ## Required Members for **ISynchronizedInputProvider**
 
@@ -54,7 +54,7 @@ The following properties, methods, and events are required for implementing the 
 |------------------------------------------------------------------------------------------|-------------|-------|
 | [**StartListening**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-isynchronizedinputprovider-startlistening)               | Method      | None  |
 | [**Cancel**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-isynchronizedinputprovider-cancel)                               | Method      | None  |
-| [**UIA\_InputReachedTargetEventId**](https://www.bing.com/search?q=**UIA\_InputReachedTargetEventId**) | Event       | None  |
+| [**UIA\_InputReachedTargetEventId**](uiauto-event-ids.md#uia-inputreachedtargeteventid) | Event       | None  |
 
 
 

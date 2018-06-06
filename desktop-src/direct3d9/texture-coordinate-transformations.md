@@ -24,7 +24,7 @@ Texture coordinate transformations are useful for producing special effects whil
 
 ## Setting and Retrieving Texture Coordinate Transformations
 
-Like the matrices that your application uses for geometry, you set and retrieve texture coordinate transformations by calling the [**IDirect3DDevice9::SetTransform**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settransform) and [**IDirect3DDevice9::GetTransform**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-gettransform) methods. These methods accept the D3DTS\_TEXTURE0 through D3DTS\_TEXTURE7 members of the [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/windows/desktop/53535d9f-246a-42cf-82a2-fb3cf6d4ebac) enumerated type to identify the transformation matrices for texture stages 0 through 7, respectively.
+Like the matrices that your application uses for geometry, you set and retrieve texture coordinate transformations by calling the [**IDirect3DDevice9::SetTransform**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settransform) and [**IDirect3DDevice9::GetTransform**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-gettransform) methods. These methods accept the D3DTS\_TEXTURE0 through D3DTS\_TEXTURE7 members of the [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtransformstatetype.htm) enumerated type to identify the transformation matrices for texture stages 0 through 7, respectively.
 
 The following code sets a matrix to apply to the texture coordinates for texture stage 0.
 
@@ -43,7 +43,7 @@ d3dDevice->SetTransform( D3DTS_TEXTURE0, &amp;matTrans );
 
 ## Enabling Texture Coordinate Transformations
 
-The D3DTSS\_TEXTURETRANSFORMFLAGS texture stage state controls the application of texture coordinate transformations. Values for this texture stage state are defined by the [**D3DTEXTURETRANSFORMFLAGS**](https://msdn.microsoft.com/windows/desktop/a91f33ce-2db5-437a-ac29-402b26b0d4e1) enumerated type.
+The D3DTSS\_TEXTURETRANSFORMFLAGS texture stage state controls the application of texture coordinate transformations. Values for this texture stage state are defined by the [**D3DTEXTURETRANSFORMFLAGS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturetransformflags.htm) enumerated type.
 
 Texture coordinate transformations are disabled when D3DTSS\_TEXTURETRANSFORMFLAGS is set to D3DTTFF\_DISABLE (the default value). Assuming that texture coordinate transformations were enabled for stage 0, the following code disables them.
 
@@ -58,7 +58,7 @@ d3dDevice->SetTextureStageState( 0, D3DTSS_TEXTURETRANSFORMFLAGS,
 
 
 
-The other values defined in [**D3DTEXTURETRANSFORMFLAGS**](https://msdn.microsoft.com/windows/desktop/a91f33ce-2db5-437a-ac29-402b26b0d4e1) are used to enable texture coordinate transformations, and to control how many resulting texture coordinate elements are passed to the rasterizer. For example, take the following code.
+The other values defined in [**D3DTEXTURETRANSFORMFLAGS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturetransformflags.htm) are used to enable texture coordinate transformations, and to control how many resulting texture coordinate elements are passed to the rasterizer. For example, take the following code.
 
 
 ```

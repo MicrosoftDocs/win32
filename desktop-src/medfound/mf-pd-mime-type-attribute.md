@@ -21,9 +21,9 @@ Wide-character string
 
 This attribute applies to presentation descriptors.
 
-The MIME type exposed through [System.MIMEType](https://msdn.microsoft.com/windows/desktop/9f8f42f8-af90-4f2d-a58c-f892139e86b7) for media files may have a bias towards choosing MIME types suitable for Digital Living Network Alliance (DLNA).
+The MIME type exposed through [System.MIMEType](https://msdn.microsoft.com/9f8f42f8-af90-4f2d-a58c-f892139e86b7) for media files may have a bias towards choosing MIME types suitable for Digital Living Network Alliance (DLNA).
 
-MF\_PD\_MIME\_TYPE and [System.MIMEType](https://msdn.microsoft.com/windows/desktop/9f8f42f8-af90-4f2d-a58c-f892139e86b7) may not always match.
+MF\_PD\_MIME\_TYPE and [System.MIMEType](https://msdn.microsoft.com/9f8f42f8-af90-4f2d-a58c-f892139e86b7) may not always match.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

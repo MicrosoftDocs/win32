@@ -17,7 +17,7 @@ The enumerated list of jobs represents a snapshot of the current job status.
 
 ## Members
 
-The **IPrintJobCollection** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintJobCollection** also has these types of members:
+The **IPrintJobCollection** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintJobCollection** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -55,7 +55,7 @@ The **IPrintJobCollection** interface has these properties.
 
 The order of print jobs in the enumerated list is the same as the order provided by [EnumJobs](http://msdn.microsoft.com/en-us/library/windows/desktop/dd162625.aspx), which is the actual print queue order.
 
-**IPrintJobCollection** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](https://www.bing.com/search?q=Job Management).
+**IPrintJobCollection** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](https://www.bing.com/search?q=Job+Management).
 
 ## Requirements
 
@@ -76,7 +76,7 @@ The order of print jobs in the enumerated list is the same as the order provided
 [EnumJobs](http://msdn.microsoft.com/en-us/library/windows/desktop/dd162625.aspx)
 </dt> <dt>
 
-[Job Management](https://www.bing.com/search?q=Job Management)
+[Job Management](https://www.bing.com/search?q=Job+Management)
 </dt> </dl>
 
  

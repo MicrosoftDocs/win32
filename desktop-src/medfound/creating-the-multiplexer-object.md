@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Creating the Multiplexer Object
 
-The ASF multiplexer is a WMContainer layer object that works with the [ASF Data Object](https://www.bing.com/search?q=ASF Data Object) and gives an application the ability to generate ASF data packets for media streams.
+The ASF multiplexer is a WMContainer layer object that works with the [ASF Data Object](asf-file-structure.md#data-object) and gives an application the ability to generate ASF data packets for media streams.
 
 The multiplexer object exposes the [**IMFASFMultiplexer**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer) interface. To create the multiplexer, call [**MFCreateASFMultiplexer**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfmultiplexer). This function returns a pointer to an empty object. If the application is writing a new ASF file, the application must initialize the multiplexer with a ContentInfo object. To do this, call [**IMFASFMultiplexer::Initialize**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-initialize). The specified ContentInfo object represents the ASF Header Object of the new file. For information about creating and initializing the ContentInfo object for a new file, see [Initializing the ContentInfo Object of a New ASF File](initializing-the-contentinfo-object-of-a-new-asf-file.md).
 
@@ -92,7 +92,7 @@ The [**IMFASFMultiplexer::Initialize**](/windows/desktop/api/wmcontainer/nf-wmco
 
 The multiplexer obtains stream configuration information from the ASF profile associated with the ContentInfo object specified in the [**Initialize**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-initialize) method. The stream configuration information includes leaky bucket parameters. This value is required by the multiplexer to generate data packets.
 
-To specify the leaky bucket parameters, set the values in the [**MF\_ASFSTREAMCONFIG\_LEAKYBUCKET1**](mf-asfstreamconfig-leakybucket1-attribute.md) attribute on the stream configuration object that represents the stream in the profile. To use the buffer window value, which is used by the encoder, call [**IWMCodecLeakyBucket::GetBufferSizeBits**](https://msdn.microsoft.com/windows/desktop/a7667fea-8bf9-4f87-bae1-6a32c00e753c). The actual buffer window value is known only after setting the output media type of the encoder. For information about setting the output media type, see [Media Type Negotiation on the Encoder](media-type-negotiation-on-the-encoder.md).
+To specify the leaky bucket parameters, set the values in the [**MF\_ASFSTREAMCONFIG\_LEAKYBUCKET1**](mf-asfstreamconfig-leakybucket1-attribute.md) attribute on the stream configuration object that represents the stream in the profile. To use the buffer window value, which is used by the encoder, call [**IWMCodecLeakyBucket::GetBufferSizeBits**](https://msdn.microsoft.com/a7667fea-8bf9-4f87-bae1-6a32c00e753c). The actual buffer window value is known only after setting the output media type of the encoder. For information about setting the output media type, see [Media Type Negotiation on the Encoder](media-type-negotiation-on-the-encoder.md).
 
 > [!Note]  
 > The leaky bucket values used by the encoder might be different in the ContentInfo object that was provided by the ASF Profile that was used to create the multiplexer.

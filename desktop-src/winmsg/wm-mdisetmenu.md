@@ -48,7 +48,7 @@ If the message fails, the return value is zero.
 
 ## Remarks
 
-After sending this message, an application must call the [**DrawMenuBar**](https://msdn.microsoft.com/windows/desktop/3b17db02-5059-4182-bd5b-2fb67eecd1d7) function to update the menu bar.
+After sending this message, an application must call the [**DrawMenuBar**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\drawmenubar.htm) function to update the menu bar.
 
 If this message replaces the window menu, the MDI child window menu items are removed from the previous window menu and added to the new window menu.
 
@@ -73,7 +73,7 @@ If an MDI child window is maximized and this message replaces the MDI frame wind
 **Reference**
 </dt> <dt>
 
-[**DrawMenuBar**](https://msdn.microsoft.com/windows/desktop/3b17db02-5059-4182-bd5b-2fb67eecd1d7)
+[**DrawMenuBar**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\drawmenubar.htm)
 </dt> <dt>
 
 [**WM\_MDIREFRESHMENU**](wm-mdirefreshmenu.md)

@@ -28,7 +28,7 @@ This topic describes two related concepts, picture aspect ratio and pixel aspect
 
 *Picture aspect ratio* defines the shape of the displayed video image. Picture aspect ratio is notated X:Y, where X:Y is the ratio of picture width to picture height. Most video standards use either 4:3 or 16:9 picture aspect ratio. The 16:9 aspect ratio is commonly called *widescreen*. Cinema film often uses a 1:85:1 or 1:66:1 aspect ratio. Picture aspect ratio is also called *display aspect ratio* (DAR).
 
-![diagram showing 4:3 and 16:9 aspect ratios](https://www.bing.com/search?q=diagram showing 4:3 and 16:9 aspect ratios)
+![diagram showing 4:3 and 16:9 aspect ratios](https://www.bing.com/search?q=diagram+showing+4:3+and+16:9+aspect+ratios)
 
 Sometimes the video image does not have the same shape as the display area. For example, a 4:3 video might be shown on a widescreen (16×9) television. In computer video, the video might be shown inside a window that has an arbitrary size. In that case, there are three ways the image can be made to fit within the display area:
 
@@ -42,17 +42,17 @@ Stretching the image to fit the display area is almost always wrong, because it 
 
 The process of scaling a widescreen image to fit a 4:3 display is called *letterboxing*, shown in the next diagram. The resulting rectanglular areas at the top and bottom of the image are typically filled with black, although other colors can be used.
 
-![diagram showing the correct way to letterbox](https://www.bing.com/search?q=diagram showing the correct way to letterbox)
+![diagram showing the correct way to letterbox](https://www.bing.com/search?q=diagram+showing+the+correct+way+to+letterbox)
 
 The reverse case, scaling a 4:3 image to fit a widescreen display, is sometimes called *pillarboxing*. However, the term *letterbox* is also used in a general sense, to mean scaling a video image to fit any given display area.
 
-![diagram showing pillarboxing](https://www.bing.com/search?q=diagram showing pillarboxing)
+![diagram showing pillarboxing](https://www.bing.com/search?q=diagram+showing+pillarboxing)
 
 ### Pan-and-Scan
 
 Pan-and-scan is a technique whereby a widescreen image is cropped to a 4×3 rectangular area, for display on a 4:3 display device. The resulting image fills the entire display, without requiring black letterbox areas, but portions of the original image are cropped out of the picture. The area that is cropped can move from frame to frame, as the area of interest shifts. The term "pan" in *pan-and-scan* refers to the panning effect that is caused by moving the pan-and-scan area.
 
-![diagram showing pan-and-scan](https://www.bing.com/search?q=diagram showing pan-and-scan)
+![diagram showing pan-and-scan](https://www.bing.com/search?q=diagram+showing+pan-and-scan)
 
 ## Pixel Aspect Ratio
 
@@ -62,7 +62,7 @@ When a digital image is captured, the image is sampled both vertically and horiz
 
 Here is an example that uses small numbers to keep the math simple. Suppose that the original image is square (that is, the picture aspect ratio is 1:1); and suppose the sampling grid contains 12 elements, arranged in a 4×3 grid. The shape of each resulting pixel will be taller than it is wide. Specifically, the shape of each pixel will be 3×4. Pixels that are not square are called *non-square pixels*.
 
-![diagram showing a non-square sampling grid](https://www.bing.com/search?q=diagram showing a non-square sampling grid)
+![diagram showing a non-square sampling grid](https://www.bing.com/search?q=diagram+showing+a+non-square+sampling+grid)
 
 Pixel aspect ratio also applies to the display device. The physical shape of the display device and the physical pixel resolution (across and down) determine the PAR of the display device. Computer monitors generally use square pixels. If the image PAR and the display PAR do not match, the image must be scaled in one dimension, either vertically or horizontally, in order to display correctly. The following formula relates PAR, display aspect ratio (DAR), and image size in pixels:
 

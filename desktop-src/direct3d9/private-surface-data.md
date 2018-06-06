@@ -15,11 +15,11 @@ You can store any kind of application-specific data with a surface. For example,
 
 A surface can have more than one private data buffer. Each buffer is identified by a GUID that you supply when attaching the data to the surface.
 
-To store private surface data, use SetPrivateData, passing a pointer to the source buffer, the size of the data, and an application-defined GUID for the data. Optionally, the source data can exist in the form of a COM object; in this case, you pass a pointer to the object's [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface pointer and you set the D3DSPD\_IUNKNOWNPOINTER flag.
+To store private surface data, use SetPrivateData, passing a pointer to the source buffer, the size of the data, and an application-defined GUID for the data. Optionally, the source data can exist in the form of a COM object; in this case, you pass a pointer to the object's [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface pointer and you set the D3DSPD\_IUNKNOWNPOINTER flag.
 
 SetPrivateData allocates an internal buffer for the data and copies it. You can then safely free the source buffer or object. The internal buffer or interface reference is released when FreePrivateData is called. This happens automatically when the surface is freed.
 
-To retrieve private data for a surface, you must allocate a buffer of the correct size and then call the GetPrivateData method, passing the GUID that was assigned to the data. You are responsible for freeing any dynamic memory you use for this buffer. If the data is a COM object, this method retrieves the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer.
+To retrieve private data for a surface, you must allocate a buffer of the correct size and then call the GetPrivateData method, passing the GUID that was assigned to the data. You are responsible for freeing any dynamic memory you use for this buffer. If the data is a COM object, this method retrieves the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer.
 
 If you don't know how big a buffer to allocate, first call GetPrivateData with zero in pSizeOfData. If the method fails with D3DERR\_MOREDATA, it returns the necessary number of bytes for the buffer.
 

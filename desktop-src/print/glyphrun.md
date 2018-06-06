@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # GLYPHRUN structure
 
-The GLYPHRUN structure is one of the structures used to define the contents of [glyph translation table files](https://www.bing.com/search?q=glyph translation table files) (.gtt files).
+The GLYPHRUN structure is one of the structures used to define the contents of [glyph translation table files](print.customized_font_management#ddk-glyph-translation-table-files-gg) (.gtt files).
 
 ## Syntax
 
@@ -47,7 +47,7 @@ Specifies the number of glyphs represented by the glyph run.
 
 A .gtt (glyph translation table) file contains an array of GLYPHRUN structures. Each structure identifies a set of Unicode values for which the printer provides glyphs. The array is described by the **IoRunOffset** and **dwRunCount** members of a .gtt file's [**UNI\_GLYPHSETDATA**](uni-glyphsetdata.md) structure.
 
-The GLYPHRUN structures must be defined in ascending order, based on the value of **wcLow**. Unidrv uses the GLYPHRUN array to generate glyph handles. Unidrv stores these glyph handles in a [**WCRUN**](https://www.bing.com/search?q=**WCRUN**) array within an [**FD\_GLYPHSET**](https://www.bing.com/search?q=**FD\_GLYPHSET**) structure.
+The GLYPHRUN structures must be defined in ascending order, based on the value of **wcLow**. Unidrv uses the GLYPHRUN array to generate glyph handles. Unidrv stores these glyph handles in a [**WCRUN**](https://msdn.microsoft.com/01a90280-a7cc-4726-b0a2-68121bdb4686) array within an [**FD\_GLYPHSET**](https://msdn.microsoft.com/af56f2a0-92a6-4217-8121-944a0b4f26f6) structure.
 
 ## Requirements
 
@@ -66,10 +66,10 @@ The GLYPHRUN structures must be defined in ascending order, based on the value o
 [**UNI\_GLYPHSETDATA**](uni-glyphsetdata.md)
 </dt> <dt>
 
-[**WCRUN**](https://www.bing.com/search?q=**WCRUN**)
+[**WCRUN**](https://msdn.microsoft.com/01a90280-a7cc-4726-b0a2-68121bdb4686)
 </dt> <dt>
 
-[**FD\_GLYPHSET**](https://www.bing.com/search?q=**FD\_GLYPHSET**)
+[**FD\_GLYPHSET**](https://msdn.microsoft.com/af56f2a0-92a6-4217-8121-944a0b4f26f6)
 </dt> </dl>
 
  

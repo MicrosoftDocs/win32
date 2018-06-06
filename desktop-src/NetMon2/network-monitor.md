@@ -17,7 +17,7 @@ Network Monitor captures network traffic for display and analysis. It enables yo
 
 ## Developer audience
 
-All API sets provided by Network Monitor can be accessed using C/C++. Those developers also working with [*network packet providers*](https://www.bing.com/search?q=*network packet providers*) must also be familiar with COM.
+All API sets provided by Network Monitor can be accessed using C/C++. Those developers also working with [*network packet providers*](n.md#-netmon-network-packet-provider-gly) must also be familiar with COM.
 
 ## Run-time requirements
 

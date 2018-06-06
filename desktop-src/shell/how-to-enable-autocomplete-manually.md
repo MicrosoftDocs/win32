@@ -47,7 +47,7 @@ The following steps show how to create and initialize a simple autocomplete obje
 
     
 
-    The following code uses a custom autocomplete source. You can write your own autocomplete source by implementing an object that exposes the [**IEnumString**](https://msdn.microsoft.com/windows/desktop/7f3e642a-17c7-4646-8c70-da6b0946a415) interface. The object can also optionally implement the [**IACList**](/windows/desktop/api/Shlobj_core/) and [**IACList2**](/windows/desktop/api/Shlobj_core/) interfaces.
+    The following code uses a custom autocomplete source. You can write your own autocomplete source by implementing an object that exposes the [**IEnumString**](https://msdn.microsoft.com/7f3e642a-17c7-4646-8c70-da6b0946a415) interface. The object can also optionally implement the [**IACList**](/windows/desktop/api/Shlobj_core/) and [**IACList2**](/windows/desktop/api/Shlobj_core/) interfaces.
 
     ```C++
     CCustomAutoCompleteSource *pcacs = new CCustomAutoCompleteSource();

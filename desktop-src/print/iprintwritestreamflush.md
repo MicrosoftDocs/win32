@@ -15,7 +15,7 @@ Filters use the IPrintWriteStreamFlush interface to explicitly flush data as a r
 
 ## Members
 
-The **IPrintWriteStreamFlush** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintWriteStreamFlush** also has these types of members:
+The **IPrintWriteStreamFlush** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintWriteStreamFlush** also has these types of members:
 
 -   [Methods](#methods)
 

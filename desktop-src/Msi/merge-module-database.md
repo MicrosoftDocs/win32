@@ -29,7 +29,7 @@ Note that the Component, Directory, FeatureComponents, and File tables are also 
 
 The [ModuleSignature Table](modulesignature-table.md) is only present in .msi files that has been merged with at least one .msm file. If this table is present in an .msi file, it contains one record for each merge module that has been previously merged into the installation database.
 
-Merge modules may contain optional MergeModule Sequence tables. These tables occur only in .msm files. When the .msm files are merged into an .msi file, these tables modify the action [*sequence tables*](https://www.bing.com/search?q=*sequence tables*) of the .msi file.
+Merge modules may contain optional MergeModule Sequence tables. These tables occur only in .msm files. When the .msm files are merged into an .msi file, these tables modify the action [*sequence tables*](s-gly.md#-msi-sequence-tables-gly) of the .msi file.
 
 Merge modules may contain custom tables. These tables are used by [custom actions](custom-actions.md) defined in the merge module.
 

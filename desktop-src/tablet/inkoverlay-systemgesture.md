@@ -95,7 +95,7 @@ For example, instead of looking for a [**MouseUp Event**](inkcollector-mouseup.m
 
 As another example, instead of listening for [**MouseDown Event**](inkcollector-mousedown.md) / [**MouseMove Event**](inkcollector-mousemove.md) events and getting numerous **MouseMove Event** messages, you can watch for the [**Drag**](/windows/desktop/api/msinkaut/ne-msinkaut-inksystemgesture) or **RightDrag** system gestures as long as you're not interested in the (x, y) coordinates of every position of the mouse. This allows you to receive only one message instead of numerous **MouseMove Event** messages.
 
-For a list of specific system gestures, see the [**InkSystemGesture**](/windows/desktop/api/msinkaut/ne-msinkaut-inksystemgesture) enumeration type. For more information about system gestures, see [Using Gestures](using-gestures.md) and [Command Input on the Tablet PC](https://www.bing.com/search?q=Command Input on the Tablet PC).
+For a list of specific system gestures, see the [**InkSystemGesture**](/windows/desktop/api/msinkaut/ne-msinkaut-inksystemgesture) enumeration type. For more information about system gestures, see [Using Gestures](using-gestures.md) and [Command Input on the Tablet PC](https://www.bing.com/search?q=Command+Input+on+the+Tablet+PC).
 
 This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, and \_IInkPictureEvents dispatch-only interfaces (dispinterfaces) with an ID of DISPID\_ICESystemGesture.
 
@@ -131,7 +131,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 [Pen Input, Ink, and Recognition](pen-input--ink--and-recognition.md)
 </dt> <dt>
 
-[Command Input on the Tablet PC](https://www.bing.com/search?q=Command Input on the Tablet PC)
+[Command Input on the Tablet PC](https://www.bing.com/search?q=Command+Input+on+the+Tablet+PC)
 </dt> </dl>
 
  

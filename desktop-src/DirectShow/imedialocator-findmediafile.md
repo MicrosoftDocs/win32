@@ -46,7 +46,7 @@ File name, including path, where the file was last known to reside. For source o
 *FilterString* 
 </dt> <dd>
 
-A **BSTR** containing pairs of filter strings, formatted as required by the **lpstrFilter** member of the [**OPENFILENAME**](https://msdn.microsoft.com/windows/desktop/c84932c8-c960-4606-bdec-bc9111c92b54) structure. The media locator uses this filter if it displays a File Open dialog box. The value can be **NULL** if the *Flags* parameter does not include the SFN\_VALIDATEF\_POPUP flag.
+A **BSTR** containing pairs of filter strings, formatted as required by the **lpstrFilter** member of the [**OPENFILENAME**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\openfilename.htm) structure. The media locator uses this filter if it displays a File Open dialog box. The value can be **NULL** if the *Flags* parameter does not include the SFN\_VALIDATEF\_POPUP flag.
 
 </dd> <dt>
 

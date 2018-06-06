@@ -50,7 +50,7 @@ Handle to the previously-created kernel-mode DirectDraw device.
 *pHalInfo* \[out\]
 </dt> <dd>
 
-Pointer to a [**DD\_HALINFO**](https://www.bing.com/search?q=**DD\_HALINFO**) structure that will be filled with the device's capabilities. See DDK documentation for details.
+Pointer to a [**DD\_HALINFO**](https://msdn.microsoft.com/99ecd219-1e85-4904-867d-3efcb378bb11) structure that will be filled with the device's capabilities. See DDK documentation for details.
 
 </dd> <dt>
 
@@ -85,14 +85,14 @@ Pointer to a table of callback pointers. The table is filled with pointers to fu
 *puD3dTextureFormats* \[out\]
 </dt> <dd>
 
-Pointer to an array of [**DDSURFACEDESC**](https://www.bing.com/search?q=**DDSURFACEDESC**) structures that define the set of permissible texture formats.
+Pointer to an array of [**DDSURFACEDESC**](https://msdn.microsoft.com/d6656bae-9f90-497b-82d5-be4be3213687) structures that define the set of permissible texture formats.
 
 </dd> <dt>
 
 *puNumHeaps* \[out\]
 </dt> <dd>
 
-Pointer to the **dwNumHeaps** member of [**DD\_HALINFO**](https://www.bing.com/search?q=**DD\_HALINFO**).**vmiData**. The **dwNumHeaps** member specifies the number of memory heaps in *puvmList*. See DDK documentation for details.
+Pointer to the **dwNumHeaps** member of [**DD\_HALINFO**](https://msdn.microsoft.com/99ecd219-1e85-4904-867d-3efcb378bb11).**vmiData**. The **dwNumHeaps** member specifies the number of memory heaps in *puvmList*. See DDK documentation for details.
 
 </dd> <dt>
 
@@ -106,14 +106,14 @@ Pointer to a list of video memory heap descriptors. Can be **NULL**. This parame
 *puNumFourCC* \[out\]
 </dt> <dd>
 
-Pointer to the **puNumFourCCCodes** member of [**DD\_HALINFO**](https://www.bing.com/search?q=**DD\_HALINFO**).**ddCaps**. The **puNumFourCCCodes** member specifies the number of [Four-Character Codes (FOURCC)](https://msdn.microsoft.com/windows/desktop/7627b580-4119-48e2-88b7-51b714b5d5b2) codes that the driver supports. See DDK documentation for details.
+Pointer to the **puNumFourCCCodes** member of [**DD\_HALINFO**](https://msdn.microsoft.com/99ecd219-1e85-4904-867d-3efcb378bb11).**ddCaps**. The **puNumFourCCCodes** member specifies the number of [Four-Character Codes (FOURCC)](https://msdn.microsoft.com/7627b580-4119-48e2-88b7-51b714b5d5b2) codes that the driver supports. See DDK documentation for details.
 
 </dd> <dt>
 
 *puFourCC* \[out\]
 </dt> <dd>
 
-Pointer to a list of supported [Four-Character Codes (FOURCC)](https://msdn.microsoft.com/windows/desktop/7627b580-4119-48e2-88b7-51b714b5d5b2) surface formats. Can be **NULL**.
+Pointer to a list of supported [Four-Character Codes (FOURCC)](https://msdn.microsoft.com/7627b580-4119-48e2-88b7-51b714b5d5b2) surface formats. Can be **NULL**.
 
 </dd> </dl>
 
@@ -123,7 +123,7 @@ If successful, this function returns **TRUE**; otherwise it returns **FALSE**.
 
 ## Remarks
 
-A call to this function is designed to be made in a two-step process. In the first step, *puFourCC*, *puvmList* and *puD3dTextureFormats* should be **NULL**, and [**DdQueryDirectDrawObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddquerydirectdrawobject) will fill in [**DD\_HALINFO**](https://www.bing.com/search?q=**DD\_HALINFO**).**ddCaps**.**dwNumFourCCCodes**, **DD\_HALINFO**.**vmiData**.**dwNumHeaps**, and [**D3DHAL\_GLOBALDRIVERDATA**](https://www.bing.com/search?q=**D3DHAL\_GLOBALDRIVERDATA**).**dwNumTextureFormats** with the number of entries that are to be returned. In the second call, the caller should allocate arrays of the indicated size and pass those pointers instead of **NULL** values in the *puFourCC*, *puvmList* and *puD3dTextureFormats* parameters. The arrays will then be populated with appropriate data.
+A call to this function is designed to be made in a two-step process. In the first step, *puFourCC*, *puvmList* and *puD3dTextureFormats* should be **NULL**, and [**DdQueryDirectDrawObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddquerydirectdrawobject) will fill in [**DD\_HALINFO**](https://msdn.microsoft.com/99ecd219-1e85-4904-867d-3efcb378bb11).**ddCaps**.**dwNumFourCCCodes**, **DD\_HALINFO**.**vmiData**.**dwNumHeaps**, and [**D3DHAL\_GLOBALDRIVERDATA**](https://www.bing.com/search?q=**D3DHAL\_GLOBALDRIVERDATA**).**dwNumTextureFormats** with the number of entries that are to be returned. In the second call, the caller should allocate arrays of the indicated size and pass those pointers instead of **NULL** values in the *puFourCC*, *puvmList* and *puD3dTextureFormats* parameters. The arrays will then be populated with appropriate data.
 
 Applications are advised to use the DirectDraw and [Direct3D](http://msdn.microsoft.com/en-us/library/bb205147(VS.85).aspx) APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
 

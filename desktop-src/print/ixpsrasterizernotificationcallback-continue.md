@@ -42,7 +42,7 @@ This method has no parameters.
 
 ## Remarks
 
-This method is implemented by an XPSDrv filter. During a page rasterization operation, the [XPS rasterization service](https://www.bing.com/search?q=XPS rasterization service) periodically calls this method to determine whether to continue the operation.
+This method is implemented by an XPSDrv filter. During a page rasterization operation, the [XPS rasterization service](https://www.bing.com/search?q=XPS+rasterization+service) periodically calls this method to determine whether to continue the operation.
 
 To begin a page rasterization operation, the XPSDrv filter calls the [**IXpsRasterizer::RasterizeRect**](ixpsrasterizer-rasterizerect.md) method. With this call, the filter can, as an option, supply a pointer to an [IXpsRasterizerNotificationCallback](ixpsrasterizernotificationcallback-interface.md) interface instance. If supplied, **RasterizeRect** will periodically call the `Continue` method on this interface during the processing of the **RasterizeRect** call. If `Continue` returns a success code, **RasterizeRect** continues with the rasterization operation in progress. If `Continue` returns an error code, **RasterizeRect** aborts the rasterization operation and returns immediately.
 

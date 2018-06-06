@@ -34,7 +34,7 @@ Set to IMC\_SETSTATUSWINDOWPOS.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**POINTS**](https://msdn.microsoft.com/windows/desktop/d36bc846-c538-4a37-bb5d-c75d41a3c7cc) structure that contains the x coordinate and y coordinate of the position of the status window. The coordinates are in screen coordinates, relative to the upper left corner of the display.
+Pointer to a [**POINTS**](https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc) structure that contains the x coordinate and y coordinate of the position of the status window. The coordinates are in screen coordinates, relative to the upper left corner of the display.
 
 </dd> </dl>
 

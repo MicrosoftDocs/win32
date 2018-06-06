@@ -42,7 +42,7 @@ Unique identifier to the array of constants. See [D3DXHANDLE](d3dxfx.md).
 *pB* \[in\]
 </dt> <dd>
 
-Type: **const [**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Array of BOOL values.
 
@@ -51,7 +51,7 @@ Array of BOOL values.
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of BOOL values in the array.
 

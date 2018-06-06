@@ -43,7 +43,7 @@ The element or its parent has an MSAA state set inappropriately.
 [**Object State Constants**](object-state-constants.md)
 </dt> <dt>
 
-[States and Properties](https://www.bing.com/search?q=States and Properties)
+[States and Properties](uiauto-msaa.md#states-and-properties)
 </dt> </dl>
 
  

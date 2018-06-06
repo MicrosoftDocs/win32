@@ -38,7 +38,7 @@ HRESULT D3DX10CreateAsyncEffectCompilerProcessor(
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 A string that contains the effect filename.
 
@@ -65,7 +65,7 @@ A pointer to an include interface (see [**ID3D10Include Interface**](/windows/de
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 [HLSL compile options](d3d10-graphics-reference-effect-constants.md).
 
@@ -74,7 +74,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493
 *FXFlags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 [Effect compile options](d3d10-graphics-reference-effect-constants.md)).
 

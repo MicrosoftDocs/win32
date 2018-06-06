@@ -49,7 +49,7 @@ This notification code does not return a value.
 
 ## Remarks
 
-To receive an EN\_DRAGDROPDONE notification code, specify the [**ENM\_DRAGDROPDONE**](https://www.bing.com/search?q=**ENM\_DRAGDROPDONE**) flag in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
+To receive an EN\_DRAGDROPDONE notification code, specify the [**ENM\_DRAGDROPDONE**](rich-edit-control-event-mask-flags.md#enm-dragdropdone) flag in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
 ## Requirements
 

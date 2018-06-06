@@ -74,7 +74,7 @@ If **NULL** is specified for *pInfoDataSrc*, **AppendPrinterNotifyInfoData** set
 
 (For more information about the PRINTER\_NOTIFY\_INFO\_DISCARDED flag, see the description of FindNextPrinterChangeNotification in the Windows SDK documentation.)
 
-For additional information, see [Supporting Printer Change Notifications](https://www.bing.com/search?q=Supporting Printer Change Notifications).
+For additional information, see [Supporting Printer Change Notifications](https://www.bing.com/search?q=Supporting+Printer+Change+Notifications).
 
 ## Requirements
 

@@ -17,7 +17,7 @@ This interface also provides a method that allows a print job to be cancelled.
 
 ## Members
 
-The **IPrintJob** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintJob** also has these types of members:
+The **IPrintJob** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintJob** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -59,7 +59,7 @@ The **IPrintJob** interface has these properties.
 
 The **IPrintJob** interface provides a wrapper around select properties of the spooler’s [JOB\_INFO\_1](http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019.aspx) structure.
 
-**IPrintJob** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](https://www.bing.com/search?q=Job Management).
+**IPrintJob** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](https://www.bing.com/search?q=Job+Management).
 
 ## Requirements
 
@@ -77,7 +77,7 @@ The **IPrintJob** interface provides a wrapper around select properties of the s
 
 <dl> <dt>
 
-[Job Management](https://www.bing.com/search?q=Job Management)
+[Job Management](https://www.bing.com/search?q=Job+Management)
 </dt> <dt>
 
 [JOB\_INFO\_1](http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019.aspx)

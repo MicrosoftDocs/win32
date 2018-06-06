@@ -17,8 +17,8 @@ ms.date: 05/31/2018
 
 | Topic                                                                            | Description |
 |----------------------------------------------------------------------------------|-------------|
-| [System.Journal.Contacts](https://msdn.microsoft.com/windows/desktop/f0da34f2-852d-4647-8150-979439fc0f4d)<br/>   |             |
-| [System.Journal.EntryType](https://msdn.microsoft.com/windows/desktop/1a93a505-0c63-4cbf-9ad3-8c99f40315a1)<br/> |             |
+| [System.Journal.Contacts](https://msdn.microsoft.com/f0da34f2-852d-4647-8150-979439fc0f4d)<br/>   |             |
+| [System.Journal.EntryType](https://msdn.microsoft.com/1a93a505-0c63-4cbf-9ad3-8c99f40315a1)<br/> |             |
 
 
 

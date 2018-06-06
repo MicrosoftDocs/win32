@@ -56,7 +56,7 @@ GROUPBOX "Options", 101, 10, 10, 100, 100
 
 <dl> <dt>
 
-[Group Boxes](https://www.bing.com/search?q=Group Boxes)
+[Group Boxes](_win32_Button_Types_and_Styles#group-boxes)
 </dt> </dl>
 
  

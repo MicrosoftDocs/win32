@@ -31,7 +31,7 @@ HRESULT ProcessDeviceWorkItems(
 *iWorkItemCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The number of work items to set to the device. ProcessDeviceObjectCreation will create at most iWorkItemCount objects. If there are not enough work items in the queue to process iWorkItemCount objects, ProcessDeviceObjectCreation will create as many device objects as there are items in the queue.
 

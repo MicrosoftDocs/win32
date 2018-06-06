@@ -15,7 +15,7 @@ This topic demonstrates how to implement an owner-drawn list box.
 
 The C++ code example in this topic shows how to draw a list box that contains five owner-drawn items: four drawing implements and a fork. Each list item appears as a bitmap followed by the name of the object. A button prompts the user to select one item that is not like the others. Choosing the button with the fork selected displays a "You're right!" message and closes the dialog box. Choosing the button with any other list item selected displays a "Try again!" message.
 
-The list box has the [**LBS\_OWNERDRAWFIXED**](https://www.bing.com/search?q=**LBS\_OWNERDRAWFIXED**) and [**LBS\_HASSTRINGS**](https://www.bing.com/search?q=**LBS\_HASSTRINGS**) styles, in addition to the standard list box styles.
+The list box has the [**LBS\_OWNERDRAWFIXED**](list-box-styles.md#lbs-ownerdrawfixed) and [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) styles, in addition to the standard list box styles.
 
 ## What you need to know
 

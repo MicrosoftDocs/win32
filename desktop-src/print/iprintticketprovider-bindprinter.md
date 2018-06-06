@@ -57,7 +57,7 @@ A pointer to a variable that receives one of the following enumerated values:
 <span id="PTSHIM_DEFAULT"></span><span id="ptshim_default"></span>PTSHIM\_DEFAULT
 </dt> <dd>
 
-The system places a binary encoding (a binary large object \[BLOB\]) of the private portion of the [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure into the print ticket in a conversion of a DEVMODEW to a print ticket.
+The system places a binary encoding (a binary large object \[BLOB\]) of the private portion of the [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure into the print ticket in a conversion of a DEVMODEW to a print ticket.
 
 </dd> <dt>
 
@@ -75,7 +75,7 @@ The object that is being called should set the value pointed to by this paramete
 *pDevModeFlags* \[out\]
 </dt> <dd>
 
-A pointer to a DWORD-typed variable that receives a set of bit flags that indicate which public [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) members should not be processed by the print ticket shim in DEVMODEW-to-print ticket or print ticket-to-DEVMODEW conversions. A bit flag that is present in this parameter indicates either that the printer does not support the associated DEVMODEW member or that the provider handles that DEVMODEW characteristic. For example, if DM\_MEDIATYPE is set in \**pDevModeFlags*, either the printer does not support multiple media types, or the provider is responsible for supporting multiple media types. (All of the DM\_*XXX* bit flags are defined in wingdi.h and described in the Microsoft Windows SDK.) By default, the print ticket shim handles all of the members that are represented in the **dmFlags** member of the default DEVMODEW structure.
+A pointer to a DWORD-typed variable that receives a set of bit flags that indicate which public [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) members should not be processed by the print ticket shim in DEVMODEW-to-print ticket or print ticket-to-DEVMODEW conversions. A bit flag that is present in this parameter indicates either that the printer does not support the associated DEVMODEW member or that the provider handles that DEVMODEW characteristic. For example, if DM\_MEDIATYPE is set in \**pDevModeFlags*, either the printer does not support multiple media types, or the provider is responsible for supporting multiple media types. (All of the DM\_*XXX* bit flags are defined in wingdi.h and described in the Microsoft Windows SDK.) By default, the print ticket shim handles all of the members that are represented in the **dmFlags** member of the default DEVMODEW structure.
 
 </dd> <dt>
 

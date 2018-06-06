@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The *Tag* field in a TLV triplet identifies the type of the data structure being sent between computers. For example, the tag for an integer is 0x02, and the tag for an object identifier is 0x06. Although multiple bytes are permitted, none of the data types used by the Certificate Enrollment API require more than one. The following illustration shows the breakdown of a *Tag* value. Bits 7 and 6 identify the ASN.1 tagging class. There are four available classes, but the Certificate Enrollment API uses data types that belong only to the UNIVERSAL class. Bit 5 identifies whether the encoding form is primitive or constructed. Basic and string types are encoded by using primitive forms, constructed types by using a constructed form. For more information, see [ASN.1 Type System](about-asn-1-type-system.md). Bits 4 through 0 contain the tag number.
 
-![der tlv tag byte](https://www.bing.com/search?q=der tlv tag byte)
+![der tlv tag byte](https://www.bing.com/search?q=der+tlv+tag+byte)
 
 The following table lists the data types supported by the Certificate Enrollment API, the encoding form used, and the tag value.
 

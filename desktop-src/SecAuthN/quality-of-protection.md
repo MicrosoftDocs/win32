@@ -20,7 +20,7 @@ The possible values for the qop directive are described in the following table.
 | Value                   | Description                                                                                                                                  |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | "auth"                  | Authentication only.                                                                                                                         |
-| "auth-int"              | Authentication and [*integrity*](https://www.bing.com/search?q=*integrity*) checking using signatures.                  |
+| "auth-int"              | Authentication and [*integrity*](security.i_gly#-security-integrity-gly) checking using signatures.                  |
 | (SASL only) "auth-conf" | Authentication, integrity and confidentiality checking by using signatures and encryption. For more information, see [Ciphers](ciphers.md). |
 
 

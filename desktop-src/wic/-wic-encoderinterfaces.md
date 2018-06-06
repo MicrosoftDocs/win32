@@ -42,7 +42,7 @@ Frame-Level Encoder Interfaces
 
  
 
-![wic encoder interface inheritance hierarchy](https://www.bing.com/search?q=wic encoder interface inheritance hierarchy)
+![wic encoder interface inheritance hierarchy](https://www.bing.com/search?q=wic+encoder+interface+inheritance+hierarchy)
 
 You'll notice that the encoder interfaces are almost mirror images of the decoder interfaces, and that most of the methods on these interfaces correspond to methods on the related decoder interfaces. Now that you're familiar with the implementation of a WIC-enabled decoder, the implementation of a WIC-enabled encoder will seem familiar as well.
 

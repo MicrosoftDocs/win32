@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemPS::DevMode method
 
-The `IPrintOemPS::DevMode` method, provided by rendering plug-ins for Pscript5, performs operations on private [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) members.
+The `IPrintOemPS::DevMode` method, provided by rendering plug-ins for Pscript5, performs operations on private [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) members.
 
 ## Syntax
 

@@ -37,7 +37,7 @@ HRESULT D3DXCreateKeyframedAnimationSet(
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to the name of the animation set.
 
@@ -46,7 +46,7 @@ Pointer to the name of the animation set.
 *TicksPerSecond* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of key frame ticks that elapse per second.
 
@@ -55,16 +55,16 @@ Number of key frame ticks that elapse per second.
 *Playback* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/windows/desktop/2ce26bf0-2b33-4193-a58f-03493a051351)**
+Type: **[**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplayback_type.htm)**
 
-Type of the animation set playback loop. See [**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/windows/desktop/2ce26bf0-2b33-4193-a58f-03493a051351).
+Type of the animation set playback loop. See [**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplayback_type.htm).
 
 </dd> <dt>
 
 *NumAnimations* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of scale, rotate, and translate (SRT) animation sets.
 
@@ -73,7 +73,7 @@ Number of scale, rotate, and translate (SRT) animation sets.
 *NumCallbackKeys* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of callback keys.
 

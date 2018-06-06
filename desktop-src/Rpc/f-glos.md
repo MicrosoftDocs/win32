@@ -26,7 +26,7 @@ Control system that prevents unauthorized users from gaining access to a local n
 <span id="_rpc_full_pointer_glos"></span><span id="_RPC_FULL_POINTER_GLOS"></span>**full pointer**
 </dt> <dd>
 
-Pointer that has all the capabilities normally associated with pointers in C/C++. Specifically, a full pointer can be null and can be aliased to another pointer parameter. The \[ [ptr](https://msdn.microsoft.com/library/windows/desktop/aa367149)\] attribute designates a full pointer. See also [*unique pointer*](https://www.bing.com/search?q=*unique pointer*) and [*reference pointer*](https://www.bing.com/search?q=*reference pointer*).
+Pointer that has all the capabilities normally associated with pointers in C/C++. Specifically, a full pointer can be null and can be aliased to another pointer parameter. The \[ [ptr](https://msdn.microsoft.com/library/windows/desktop/aa367149)\] attribute designates a full pointer. See also [*unique pointer*](u-glos.md#-rpc-unique-pointer-glos) and [*reference pointer*](r-glos.md#-rpc-reference-pointer-glos).
 
 </dd> <dt>
 
@@ -40,7 +40,7 @@ Principal name in Full Subject Issuer Chain format as defined in RFC1779.
 <span id="_rpc_fully_bound_handle_glos"></span><span id="_RPC_FULLY_BOUND_HANDLE_GLOS"></span>**fully bound handle**
 </dt> <dd>
 
-[*Binding handle*](https://www.bing.com/search?q=*Binding handle*) that includes [*endpoint*](https://www.bing.com/search?q=*endpoint*) information. See also [*partially bound handle*](https://www.bing.com/search?q=*partially bound handle*).
+[*Binding handle*](b-glos.md#-rpc-binding-handle-glos) that includes [*endpoint*](e-glos.md#-rpc-endpoint-glos) information. See also [*partially bound handle*](p-glos.md#-rpc-partially-bound-handle-glos).
 
 </dd> </dl>
 

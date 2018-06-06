@@ -71,7 +71,7 @@ Height of the control. This value must be a 16-bit unsigned integer in the range
 <span id="style"></span><span id="STYLE"></span>*style*
 </dt> <dd>
 
-Control styles. Use the bitwise OR (\|) operator to combine styles. For more information, see [Window Styles](https://www.bing.com/search?q=Window Styles).
+Control styles. Use the bitwise OR (\|) operator to combine styles. For more information, see [Window Styles](https://www.bing.com/search?q=Window+Styles).
 
 </dd> <dt>
 

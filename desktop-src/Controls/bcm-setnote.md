@@ -49,7 +49,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 Beginning with comctl32 DLL version 6.01, command link buttons may have a note.
 
-The **BCM\_SETNOTE** message works only with the [**BS\_COMMANDLINK**](https://www.bing.com/search?q=**BS\_COMMANDLINK**) and [**BS\_DEFCOMMANDLINK**](https://www.bing.com/search?q=**BS\_DEFCOMMANDLINK**) button styles.
+The **BCM\_SETNOTE** message works only with the [**BS\_COMMANDLINK**](button-styles.md#bs-commandlink) and [**BS\_DEFCOMMANDLINK**](button-styles.md#bs-defcommandlink) button styles.
 
 ## Requirements
 

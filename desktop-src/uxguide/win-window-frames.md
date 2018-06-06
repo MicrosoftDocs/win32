@@ -39,7 +39,7 @@ In this example, glass is used in the client area to make it look like part of t
 
 ### Hidden frames
 
-Sometimes the best window frame is no frame at all. This is often the case for the [primary window](https://www.bing.com/search?q=primary window) of immersive [full screen](https://www.bing.com/search?q=full screen) applications that aren't used in conjunction with other programs, such as media players, games, and kiosk applications.
+Sometimes the best window frame is no frame at all. This is often the case for the [primary window](glossary.md#p) of immersive [full screen](glossary.md#f) applications that aren't used in conjunction with other programs, such as media players, games, and kiosk applications.
 
 Content viewers often benefit from having the option to show content full screen. Examples include Windows Internet Explorer , Windows Live Photo Gallery, Windows Movie Maker HD, Microsoft PowerPoint , and Microsoft Word.
 
@@ -61,8 +61,8 @@ Custom frames are appropriate for immersive, full screen, stand-alone applicatio
 
 -   Use standard window frames.
     -   **Exception:** To give immersive full screen, stand-alone applications a unique feel:
-        -   Consider hiding the window frame of the [primary window](https://www.bing.com/search?q=primary window).
-        -   Consider using custom frames for [secondary window](https://www.bing.com/search?q=secondary window).
+        -   Consider hiding the window frame of the [primary window](glossary.md#p).
+        -   Consider using custom frames for [secondary window](glossary.md#s).
         -   If a custom frame is appropriate, choose a design that is lightweight and doesn't draw too much attention to itself.
 
             **Incorrect:**

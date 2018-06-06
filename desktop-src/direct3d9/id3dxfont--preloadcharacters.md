@@ -32,7 +32,7 @@ HRESULT PreloadCharacters(
 *First* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 ID of the first character to be loaded into video memory.
 
@@ -41,7 +41,7 @@ ID of the first character to be loaded into video memory.
 *Last* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 ID of the last character to be loaded into video memory.
 
@@ -59,7 +59,7 @@ This method generates textures containing glyphs that represent the input charac
 
 Characters will not be rendered to the device; [**DrawText**](id3dxfont--drawtext.md) must still be called to render the characters. However, by pre-loading characters into video memory, **DrawText** will use substantially fewer CPU resources.
 
-This method internally converts characters to glyphs using the GDI function [**GetCharacterPlacement**](https://msdn.microsoft.com/windows/desktop/80d3f4b3-503b-4abb-826c-e5c09972ba2f).
+This method internally converts characters to glyphs using the GDI function [**GetCharacterPlacement**](https://msdn.microsoft.com/80d3f4b3-503b-4abb-826c-e5c09972ba2f).
 
 ## Requirements
 

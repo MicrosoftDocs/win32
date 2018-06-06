@@ -22,7 +22,7 @@ This topic describes how Microsoft UI Automation exposes the format and style pr
 
 UI Automation providers expose text attributes through the [**GetAttributeValue**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-getattributevalue) and [**FindAttribute**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-findattribute) methods of the [TextRange](uiauto-about-text-and-textrange-patterns.md) control pattern. Client applications use the [**IUIAutomationTextRange::GetAttributeValue**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getattributevalue) method to retrieve the value of a particular text attribute for a text range. Clients can use the [**IUIAutomationTextRange::FindAttribute**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-findattribute) method to search a text range for text that has a particular attribute. If any matching text is found, the method creates a new text range that contains the matching text.
 
-The text attributes in the following list are supported by the **TextRange** control pattern. The attribute names are derived from the UI Automation text attribute identifiers. For example, the **AnimationStyle** attribute is identified by clients as [**UIA\_AnimationStyleAttributeId**](https://www.bing.com/search?q=**UIA\_AnimationStyleAttributeId**) (defined in Uiautomationclient.h) and by providers as **Text\_AnimationStyle\_Attribute\_GUID** (defined in Uiautomationcoreapi.h). For more information about each supported text attribute, see [**Text Attribute Identifiers**](uiauto-textattribute-ids.md).
+The text attributes in the following list are supported by the **TextRange** control pattern. The attribute names are derived from the UI Automation text attribute identifiers. For example, the **AnimationStyle** attribute is identified by clients as [**UIA\_AnimationStyleAttributeId**](uiauto-textattribute-ids.md#uia-animationstyleattributeid) (defined in Uiautomationclient.h) and by providers as **Text\_AnimationStyle\_Attribute\_GUID** (defined in Uiautomationcoreapi.h). For more information about each supported text attribute, see [**Text Attribute Identifiers**](uiauto-textattribute-ids.md).
 
 > [!Note]  
 > Some of the attributes listed are supported starting with Windows 8. See [**Text Attribute Identifiers**](uiauto-textattribute-ids.md) for notes regarding version support.
@@ -66,9 +66,9 @@ The name, size, and weight of a font is available through the following attribut
 
 | Attribute      | Identifier                                                                               |
 |----------------|------------------------------------------------------------------------------------------|
-| **FontName**   | [**UIA\_FontNameAttributeId**](https://www.bing.com/search?q=**UIA\_FontNameAttributeId**)     |
-| **FontSize**   | [**UIA\_FontSizeAttributeId**](https://www.bing.com/search?q=**UIA\_FontSizeAttributeId**)     |
-| **FontWeight** | [**UIA\_FontWeightAttributeId**](https://www.bing.com/search?q=**UIA\_FontWeightAttributeId**) |
+| **FontName**   | [**UIA\_FontNameAttributeId**](uiauto-textattribute-ids.md#uia-fontnameattributeid)     |
+| **FontSize**   | [**UIA\_FontSizeAttributeId**](uiauto-textattribute-ids.md#uia-fontsizeattributeid)     |
+| **FontWeight** | [**UIA\_FontWeightAttributeId**](uiauto-textattribute-ids.md#uia-fontweightattributeid) |
 
 
 
@@ -82,8 +82,8 @@ Information about the language of the text is available through the following at
 
 | Attribute              | Identifier                                                                                               |
 |------------------------|----------------------------------------------------------------------------------------------------------|
-| **Culture**            | [**UIA\_CultureAttributeId**](https://www.bing.com/search?q=**UIA\_CultureAttributeId**)                       |
-| **TextFlowDirections** | [**UIA\_TextFlowDirectionsAttributeId**](https://www.bing.com/search?q=**UIA\_TextFlowDirectionsAttributeId**) |
+| **Culture**            | [**UIA\_CultureAttributeId**](uiauto-textattribute-ids.md#uia-cultureattributeid)                       |
+| **TextFlowDirections** | [**UIA\_TextFlowDirectionsAttributeId**](uiauto-textattribute-ids.md#uia-textflowdirectionsattributeid) |
 
 
 
@@ -97,7 +97,7 @@ The following attribute provides the text range that is the target of a link in 
 
 | Attribute | Identifier                                                                   |
 |-----------|------------------------------------------------------------------------------|
-| **Link**  | [**UIA\_LinkAttributeId**](https://www.bing.com/search?q=**UIA\_LinkAttributeId**) |
+| **Link**  | [**UIA\_LinkAttributeId**](uiauto-textattribute-ids.md#uia-linkattributeid) |
 
 
 
@@ -111,10 +111,10 @@ The bounding rectangles of a text range do not expose the coordinates of the tex
 
 | Attribute          | Identifier                                                                                       |
 |--------------------|--------------------------------------------------------------------------------------------------|
-| **MarginBottom**   | [**UIA\_MarginBottomAttributeId**](https://www.bing.com/search?q=**UIA\_MarginBottomAttributeId**)     |
-| **MarginLeading**  | [**UIA\_MarginLeadingAttributeId**](https://www.bing.com/search?q=**UIA\_MarginLeadingAttributeId**)   |
-| **MarginTop**      | [**UIA\_MarginTopAttributeId**](https://www.bing.com/search?q=**UIA\_MarginTopAttributeId**)           |
-| **MarginTrailing** | [**UIA\_MarginTrailingAttributeId**](https://www.bing.com/search?q=**UIA\_MarginTrailingAttributeId**) |
+| **MarginBottom**   | [**UIA\_MarginBottomAttributeId**](uiauto-textattribute-ids.md#uia-marginbottomattributeid)     |
+| **MarginLeading**  | [**UIA\_MarginLeadingAttributeId**](uiauto-textattribute-ids.md#uia-marginleadingattributeid)   |
+| **MarginTop**      | [**UIA\_MarginTopAttributeId**](uiauto-textattribute-ids.md#uia-margintopattributeid)           |
+| **MarginTrailing** | [**UIA\_MarginTrailingAttributeId**](uiauto-textattribute-ids.md#uia-margintrailingattributeid) |
 
 
 
@@ -128,11 +128,11 @@ Information about text alignment such as indentation, tab settings, and horizont
 
 | Attribute                   | Identifier                                                                                                         |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------|
-| **HorizontalTextAlignment** | [**UIA\_HorizontalTextAlignmentAttributeId**](https://www.bing.com/search?q=**UIA\_HorizontalTextAlignmentAttributeId**) |
-| **IndentationFirstLine**    | [**UIA\_IndentationFirstLineAttributeId**](https://www.bing.com/search?q=**UIA\_IndentationFirstLineAttributeId**)       |
-| **IndentationLeading**      | [**UIA\_IndentationLeadingAttributeId**](https://www.bing.com/search?q=**UIA\_IndentationLeadingAttributeId**)           |
-| **IndentationTrailing**     | [**UIA\_IndentationTrailingAttributeId**](https://www.bing.com/search?q=**UIA\_IndentationTrailingAttributeId**)         |
-| **Tabs**                    | [**UIA\_TabsAttributeId**](https://www.bing.com/search?q=**UIA\_TabsAttributeId**)                                       |
+| **HorizontalTextAlignment** | [**UIA\_HorizontalTextAlignmentAttributeId**](uiauto-textattribute-ids.md#uia-horizontaltextalignmentattributeid) |
+| **IndentationFirstLine**    | [**UIA\_IndentationFirstLineAttributeId**](uiauto-textattribute-ids.md#uia-indentationfirstlineattributeid)       |
+| **IndentationLeading**      | [**UIA\_IndentationLeadingAttributeId**](uiauto-textattribute-ids.md#uia-indentationleadingattributeid)           |
+| **IndentationTrailing**     | [**UIA\_IndentationTrailingAttributeId**](uiauto-textattribute-ids.md#uia-indentationtrailingattributeid)         |
+| **Tabs**                    | [**UIA\_TabsAttributeId**](uiauto-textattribute-ids.md#uia-tabsattributeid)                                       |
 
 
 
@@ -146,8 +146,8 @@ The foreground and background text colors are available through the following te
 
 | Attribute           | Identifier                                                                                         |
 |---------------------|----------------------------------------------------------------------------------------------------|
-| **BackgroundColor** | [**UIA\_BackgroundColorAttributeId**](https://www.bing.com/search?q=**UIA\_BackgroundColorAttributeId**) |
-| **ForegroundColor** | [**UIA\_ForegroundColorAttributeId**](https://www.bing.com/search?q=**UIA\_ForegroundColorAttributeId**) |
+| **BackgroundColor** | [**UIA\_BackgroundColorAttributeId**](uiauto-textattribute-ids.md#uia-backgroundcolorattributeid) |
+| **ForegroundColor** | [**UIA\_ForegroundColorAttributeId**](uiauto-textattribute-ids.md#uia-foregroundcolorattributeid) |
 
 
 
@@ -163,15 +163,15 @@ Information about text decorations is available through the following attributes
 
 | Attribute              | Identifier                                                                                               |
 |------------------------|----------------------------------------------------------------------------------------------------------|
-| **AnimationStyle**     | [**UIA\_AnimationStyleAttributeId**](https://www.bing.com/search?q=**UIA\_AnimationStyleAttributeId**)         |
-| **BulletStyle**        | [**UIA\_BulletStyleAttributeId**](https://www.bing.com/search?q=**UIA\_BulletStyleAttributeId**)               |
-| **OutlineStyles**      | [**UIA\_OutlineStylesAttributeId**](https://www.bing.com/search?q=**UIA\_OutlineStylesAttributeId**)           |
-| **OverlineColor**      | [**UIA\_OverlineColorAttributeId**](https://www.bing.com/search?q=**UIA\_OverlineColorAttributeId**)           |
-| **OverlineStyle**      | [**UIA\_OverlineStyleAttributeId**](https://www.bing.com/search?q=**UIA\_OverlineStyleAttributeId**)           |
-| **StrikethroughColor** | [**UIA\_StrikethroughColorAttributeId**](https://www.bing.com/search?q=**UIA\_StrikethroughColorAttributeId**) |
-| **StrikethroughStyle** | [**UIA\_StrikethroughStyleAttributeId**](https://www.bing.com/search?q=**UIA\_StrikethroughStyleAttributeId**) |
-| **UnderlineColor**     | [**UIA\_UnderlineColorAttributeId**](https://www.bing.com/search?q=**UIA\_UnderlineColorAttributeId**)         |
-| **UnderlineStyle**     | [**UIA\_UnderlineStyleAttributeId**](https://www.bing.com/search?q=**UIA\_UnderlineStyleAttributeId**)         |
+| **AnimationStyle**     | [**UIA\_AnimationStyleAttributeId**](uiauto-textattribute-ids.md#uia-animationstyleattributeid)         |
+| **BulletStyle**        | [**UIA\_BulletStyleAttributeId**](uiauto-textattribute-ids.md#uia-bulletstyleattributeid)               |
+| **OutlineStyles**      | [**UIA\_OutlineStylesAttributeId**](uiauto-textattribute-ids.md#uia-outlinestylesattributeid)           |
+| **OverlineColor**      | [**UIA\_OverlineColorAttributeId**](uiauto-textattribute-ids.md#uia-overlinecolorattributeid)           |
+| **OverlineStyle**      | [**UIA\_OverlineStyleAttributeId**](uiauto-textattribute-ids.md#uia-overlinestyleattributeid)           |
+| **StrikethroughColor** | [**UIA\_StrikethroughColorAttributeId**](uiauto-textattribute-ids.md#uia-strikethroughcolorattributeid) |
+| **StrikethroughStyle** | [**UIA\_StrikethroughStyleAttributeId**](uiauto-textattribute-ids.md#uia-strikethroughstyleattributeid) |
+| **UnderlineColor**     | [**UIA\_UnderlineColorAttributeId**](uiauto-textattribute-ids.md#uia-underlinecolorattributeid)         |
+| **UnderlineStyle**     | [**UIA\_UnderlineStyleAttributeId**](uiauto-textattribute-ids.md#uia-underlinestyleattributeid)         |
 
 
 
@@ -185,12 +185,12 @@ Information about text styles is available though the following attributes.
 
 | Attribute         | Identifier                                                                                     |
 |-------------------|------------------------------------------------------------------------------------------------|
-| **CapStyle**      | [**UIA\_CapStyleAttributeId**](https://www.bing.com/search?q=**UIA\_CapStyleAttributeId**)           |
-| **IsHidden**      | [**UIA\_IsHiddenAttributeId**](https://www.bing.com/search?q=**UIA\_IsHiddenAttributeId**)           |
-| **IsItalic**      | [**UIA\_IsItalicAttributeId**](https://www.bing.com/search?q=**UIA\_IsItalicAttributeId**)           |
-| **IsReadOnly**    | [**UIA\_IsReadOnlyAttributeId**](https://www.bing.com/search?q=**UIA\_IsReadOnlyAttributeId**)       |
-| **IsSuperscript** | [**UIA\_IsSuperscriptAttributeId**](https://www.bing.com/search?q=**UIA\_IsSuperscriptAttributeId**) |
-| **IsSubscript**   | [**UIA\_IsSubscriptAttributeId**](https://www.bing.com/search?q=**UIA\_IsSubscriptAttributeId**)     |
+| **CapStyle**      | [**UIA\_CapStyleAttributeId**](uiauto-textattribute-ids.md#uia-capstyleattributeid)           |
+| **IsHidden**      | [**UIA\_IsHiddenAttributeId**](uiauto-textattribute-ids.md#uia-ishiddenattributeid)           |
+| **IsItalic**      | [**UIA\_IsItalicAttributeId**](uiauto-textattribute-ids.md#uia-isitalicattributeid)           |
+| **IsReadOnly**    | [**UIA\_IsReadOnlyAttributeId**](uiauto-textattribute-ids.md#uia-isreadonlyattributeid)       |
+| **IsSuperscript** | [**UIA\_IsSuperscriptAttributeId**](uiauto-textattribute-ids.md#uia-issuperscriptattributeid) |
+| **IsSubscript**   | [**UIA\_IsSubscriptAttributeId**](uiauto-textattribute-ids.md#uia-issubscriptattributeid)     |
 
 
 
@@ -204,10 +204,10 @@ Information about current text selection in the range and focus state is availab
 
 | Attribute              | Identifier                                                                                     |
 |------------------------|------------------------------------------------------------------------------------------------|
-| **IsActive**           | [**UIA\_IsActiveAttributeId**](https://www.bing.com/search?q=**UIA\_IsActiveAttributeId**)           |
-| **SelectionActiveEnd** | [**UIA\_SelectionActiveEndAttributeId**](https://www.bing.com/search?q=**UIA\_SelectionActiveEndAttributeId**) |
-| **CaretPosition**      | [**UIA\_CaretPositionAttributeId**](https://www.bing.com/search?q=**UIA\_CaretPositionAttributeId**)      |
-| **CaretBidiMode**      | [**UIA\_CaretBidiModeAttributeId**](https://www.bing.com/search?q=**UIA\_CaretBidiModeAttributeId**) |
+| **IsActive**           | [**UIA\_IsActiveAttributeId**](uiauto-textattribute-ids.md#uia-capstyleattributeid)           |
+| **SelectionActiveEnd** | [**UIA\_SelectionActiveEndAttributeId**](uiauto-textattribute-ids.md#uia-ishiddenattributeid) |
+| **CaretPosition**      | [**UIA\_CaretPositionAttributeId**](uiauto-textattribute-ids.md#uia-isitalicattributeid)      |
+| **CaretBidiMode**      | [**UIA\_CaretBidiModeAttributeId**](uiauto-textattribute-ids.md#uia-caretbidimodeattributeid) |
 
 
 

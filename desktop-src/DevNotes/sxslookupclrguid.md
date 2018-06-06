@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SxsLookupClrGuid function
 
-Retrieves the class name and other information associated with a given GUID in a component's manifest. This function is used only when implementing low-level managed-unmanaged interoperability in the .NET Framework. For more information about managed-unmanaged interoperability, see "Interoperating with Unmanaged Code" in the .NET Framework SDK and also [Isolated Applications and Side-by-side Assemblies](https://www.bing.com/search?q=Isolated Applications and Side-by-side Assemblies).
+Retrieves the class name and other information associated with a given GUID in a component's manifest. This function is used only when implementing low-level managed-unmanaged interoperability in the .NET Framework. For more information about managed-unmanaged interoperability, see "Interoperating with Unmanaged Code" in the .NET Framework SDK and also [Isolated Applications and Side-by-side Assemblies](https://www.bing.com/search?q=Isolated+Applications+and+Side-by-side+Assemblies).
 
 ## Syntax
 
@@ -42,7 +42,7 @@ A combination of zero or more of the following flags.
 
 | Value                                                                                                                                                                                                                                                                                             | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="SXS_LOOKUP_CLR_GUID_USE_ACTCTX"></span><span id="sxs_lookup_clr_guid_use_actctx"></span><dl> <dt>**SXS\_LOOKUP\_CLR\_GUID\_USE\_ACTCTX**</dt> <dt>0x00000001</dt> </dl>              | If this flag is set, then the *hActCtx* parameter must contain an activation-context handle returned by the [**CreateActCtx**](https://msdn.microsoft.com/windows/desktop/11508215-8d8b-4040-a725-88804103fac4) function. If this flag is not set, the *hActCtx* parameter is ignored and **SxsLookupClrGuid** searches the activation context that is currently active (the [**ActivateActCtx**](https://msdn.microsoft.com/windows/desktop/03381d95-1b5d-4b70-8c86-937ab9b2672d) function is used to make an activation context active).<br/> |
+| <span id="SXS_LOOKUP_CLR_GUID_USE_ACTCTX"></span><span id="sxs_lookup_clr_guid_use_actctx"></span><dl> <dt>**SXS\_LOOKUP\_CLR\_GUID\_USE\_ACTCTX**</dt> <dt>0x00000001</dt> </dl>              | If this flag is set, then the *hActCtx* parameter must contain an activation-context handle returned by the [**CreateActCtx**](https://msdn.microsoft.com/11508215-8d8b-4040-a725-88804103fac4) function. If this flag is not set, the *hActCtx* parameter is ignored and **SxsLookupClrGuid** searches the activation context that is currently active (the [**ActivateActCtx**](https://msdn.microsoft.com/03381d95-1b5d-4b70-8c86-937ab9b2672d) function is used to make an activation context active).<br/> |
 | <span id="SXS_LOOKUP_CLR_GUID_FIND_SURROGATE"></span><span id="sxs_lookup_clr_guid_find_surrogate"></span><dl> <dt>**SXS\_LOOKUP\_CLR\_GUID\_FIND\_SURROGATE**</dt> <dt>0x00010000</dt> </dl>  | If this flag is set, **SxsLookupClrGuid** searches for a surrogate.<br/>                                                                                                                                                                                                                                                                                                                                                |
 | <span id="SXS_LOOKUP_CLR_GUID_FIND_CLR_CLASS"></span><span id="sxs_lookup_clr_guid_find_clr_class"></span><dl> <dt>**SXS\_LOOKUP\_CLR\_GUID\_FIND\_CLR\_CLASS**</dt> <dt>0x00020000</dt> </dl> | If this flag is set, **SxsLookupClrGuid** searches for a class.<br/>                                                                                                                                                                                                                                                                                                                                                    |
 | <span id="SXS_LOOKUP_CLR_GUID_FIND_ANY"></span><span id="sxs_lookup_clr_guid_find_any"></span><dl> <dt>**SXS\_LOOKUP\_CLR\_GUID\_FIND\_ANY**</dt> <dt>0x00030000</dt> </dl>                    | This is a combination of the **SXS\_LOOKUP\_CLR\_GUID\_FIND\_SURROGATE** and **SXS\_LOOKUP\_CLR\_GUID\_FIND\_CLR\_CLASS** flags; if both are set, **SxsLookupClrGuid** searches for a surrogate first, and only if it does not find one, then searches for a class.<br/>                                                                                                                                                |
@@ -63,7 +63,7 @@ A pointer to the GUID about which to search the activation context for interoper
 *hActCtx* \[in, optional\]
 </dt> <dd>
 
-If the **SXS\_LOOKUP\_CLR\_GUID\_USE\_ACTCTX** flag is set in the *dwFlags* parameter, then *hActCtx* must contain an activation-context handle returned by the [**CreateActCtx**](https://msdn.microsoft.com/windows/desktop/11508215-8d8b-4040-a725-88804103fac4) function. Otherwise, *hActCtx* is ignored.
+If the **SXS\_LOOKUP\_CLR\_GUID\_USE\_ACTCTX** flag is set in the *dwFlags* parameter, then *hActCtx* must contain an activation-context handle returned by the [**CreateActCtx**](https://msdn.microsoft.com/11508215-8d8b-4040-a725-88804103fac4) function. Otherwise, *hActCtx* is ignored.
 
 </dd> <dt>
 
@@ -84,17 +84,17 @@ Size in bytes of the buffer pointed to by the *pvOutputBuffer* parameter.
 *pcbOutputBuffer* \[out\]
 </dt> <dd>
 
-Pointer to a variable where the size, in bytes, of the return information is placed on exit. If the *cbOutputBuffer* parameter is zero, or if the size of the output buffer is smaller than the size of the return information, then **SxsLookupClrGuid** fails and [**GetLastError**](https://msdn.microsoft.com/windows/desktop/d852e148-985c-416f-a5a7-27b6914b45d4) returns an error of **ERROR\_INSUFFICIENT\_BUFFER**. In this case, use the value in the variable pointed to by *pcbOutputBuffer* to allocate a large enough buffer, and then call **SxsLookupClrGuid** again to retrieve the desired information.
+Pointer to a variable where the size, in bytes, of the return information is placed on exit. If the *cbOutputBuffer* parameter is zero, or if the size of the output buffer is smaller than the size of the return information, then **SxsLookupClrGuid** fails and [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4) returns an error of **ERROR\_INSUFFICIENT\_BUFFER**. In this case, use the value in the variable pointed to by *pcbOutputBuffer* to allocate a large enough buffer, and then call **SxsLookupClrGuid** again to retrieve the desired information.
 
 </dd> </dl>
 
 ## Return value
 
-Returns **TRUE** if successful, or **FALSE** otherwise. For more error information, call [**GetLastError**](https://msdn.microsoft.com/windows/desktop/d852e148-985c-416f-a5a7-27b6914b45d4)
+Returns **TRUE** if successful, or **FALSE** otherwise. For more error information, call [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4)
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/windows/desktop/a0d7fc09-f888-4f46-a571-d3719a627597) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions.
 
 Managed components may declare themselves as supporting managed "interop assemblies" so as to allow an unmanaged Win32 component consumer to reference the declaring assembly. The component consumer can interact with the managed component by calling [**CoCreateInstance**](https://www.bing.com/search?q=**CoCreateInstance**) on a GUID. The interoperation layer routes the object creation request to .NET Framework, creates an instance of the managed object, and returns an interface pointer.
 
@@ -299,13 +299,13 @@ void main()
 
 <dl> <dt>
 
-[Isolated Applications and Side-by-side Assemblies](https://www.bing.com/search?q=Isolated Applications and Side-by-side Assemblies)
+[Isolated Applications and Side-by-side Assemblies](https://www.bing.com/search?q=Isolated+Applications+and+Side-by-side+Assemblies)
 </dt> <dt>
 
-[**CreateActCtx**](https://msdn.microsoft.com/windows/desktop/11508215-8d8b-4040-a725-88804103fac4)
+[**CreateActCtx**](https://msdn.microsoft.com/11508215-8d8b-4040-a725-88804103fac4)
 </dt> <dt>
 
-[**ActivateActCtx**](https://msdn.microsoft.com/windows/desktop/03381d95-1b5d-4b70-8c86-937ab9b2672d)
+[**ActivateActCtx**](https://msdn.microsoft.com/03381d95-1b5d-4b70-8c86-937ab9b2672d)
 </dt> <dt>
 
 [**CoCreateInstance**](https://www.bing.com/search?q=**CoCreateInstance**)

@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # How to render by using a Direct2D device context
 
-In this topic you will learn about creating [Direct2D](https://www.bing.com/search?q=Direct2D) [**device context**](/windows/desktop/api/D2d1_1/) in Windows 8. This information applies to you if you are developing Windows Store apps or a desktop app by using Direct2D. This topic describes the purpose of Direct2D device context objects, how to create that object , and a step by step guide about rendering and displaying Direct2D primitives and images. You will also learn about switching render targets and adding effects to your app.
+In this topic you will learn about creating [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) [**device context**](/windows/desktop/api/D2d1_1/) in Windows 8. This information applies to you if you are developing Windows Store apps or a desktop app by using Direct2D. This topic describes the purpose of Direct2D device context objects, how to create that object , and a step by step guide about rendering and displaying Direct2D primitives and images. You will also learn about switching render targets and adding effects to your app.
 
 -   [What is a Direct2D device?](#what-is-a-direct2d-device)
 -   [What is a Direct2D device context?](#what-is-a-direct2d-device-context)
@@ -30,18 +30,18 @@ You need a Direct2D device and a Direct3D device to create a Direct2D device con
 
 ## What is a Direct2D device context?
 
-A [Direct2D](https://www.bing.com/search?q=Direct2D) [**device context**](/windows/desktop/api/D2d1_1/) (exposes an **ID2D1DeviceContext** interface pointer) represents a set of state and command buffers that you use to render to a target. You can call methods on the device context to set pipeline state and generate rendering commands by using the resources owned by a device.
+A [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) [**device context**](/windows/desktop/api/D2d1_1/) (exposes an **ID2D1DeviceContext** interface pointer) represents a set of state and command buffers that you use to render to a target. You can call methods on the device context to set pipeline state and generate rendering commands by using the resources owned by a device.
 
 ## Rendering with Direct2D on Windows 8
 
-On Windows 7 and earlier, you use a [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/) or another render target interface to render to a window or surface. Starting with Windows 8, we do not recommend rendering by using methods that rely on interfaces like **ID2D1HwndRenderTarget** because they won't work with Windows Store apps. You can use a [**device context**](/windows/desktop/api/D2d1_1/) to render to an Hwnd if you want to make a desktop app and still take advantage of the **device context's** additional features. However, the **device context** is required to render content in a Windows Store apps with [Direct2D](https://www.bing.com/search?q=Direct2D).
+On Windows 7 and earlier, you use a [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/) or another render target interface to render to a window or surface. Starting with Windows 8, we do not recommend rendering by using methods that rely on interfaces like **ID2D1HwndRenderTarget** because they won't work with Windows Store apps. You can use a [**device context**](/windows/desktop/api/D2d1_1/) to render to an Hwnd if you want to make a desktop app and still take advantage of the **device context's** additional features. However, the **device context** is required to render content in a Windows Store apps with [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b).
 
 ## Why use a device context to render?
 
 -   You can render for Windows Store apps.
 -   You can change the render target at any time before, during, and after rendering. The device context ensures that the calls to drawing methods are executed in order and applies them when you switch the render target.
 -   You can use more than one type of window with a device context. You can use a [**device context**](/windows/desktop/api/D2d1_1/) and a [**DXGI swap chain**](https://msdn.microsoft.com/library/windows/desktop/hh404631) to render directly to a [**Windows::UI::Core::CoreWindow**](https://msdn.microsoft.com/library/windows/apps/br208225) or a [**Windows::UI::XAML::SwapChainBackgroundPanel**](https://msdn.microsoft.com/library/windows/apps/hh702626).
--   You can use the [Direct2D](https://www.bing.com/search?q=Direct2D) [**device context**](/windows/desktop/api/D2d1_1/) to create [Direct2D effects](effects-overview.md) and to render the output of an image effect or effect graph to a render target.
+-   You can use the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) [**device context**](/windows/desktop/api/D2d1_1/) to create [Direct2D effects](effects-overview.md) and to render the output of an image effect or effect graph to a render target.
 -   You can have multiple [**device contexts**](/windows/desktop/api/D2d1_1/), which can be helpful for improving performance in a threaded app. See [Multithreaded Direct2D apps](multi-threaded-direct2d-apps.md) for more information.
 -   The [**device context**](/windows/desktop/api/D2d1_1/) interoperates closely with Direct3D, giving you more access to Direct3D options.
 
@@ -124,7 +124,7 @@ Let's walk through the steps in the preceding code sample.
 
 1.  Get an ID3D11Device interface pointer you will need this to create the device context.
 
-    -   Declare the creation flags to set up the [Direct3D](https://msdn.microsoft.com/library/windows/desktop/ff476080) device for BGRA support. [Direct2D](https://www.bing.com/search?q=Direct2D) requires BGRA color order.
+    -   Declare the creation flags to set up the [Direct3D](https://msdn.microsoft.com/library/windows/desktop/ff476080) device for BGRA support. [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) requires BGRA color order.
     -   Declare an array of [**D3D\_FEATURE\_LEVEL**](https://msdn.microsoft.com/library/windows/desktop/ff476329) entries representing the set of feature levels that your app will support.
         > [!Note]  
         > [Direct3D](https://msdn.microsoft.com/library/windows/desktop/ff476080) searches your list until it finds the feature level supported by the host system.

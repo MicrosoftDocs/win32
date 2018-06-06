@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Querying Digest Security Context Attributes
 
-The [**QueryContextAttributes (Digest)**](/windows/desktop/api/Sspi/) function provides information about the current settings of a [*security context*](https://www.bing.com/search?q=*security context*).
+The [**QueryContextAttributes (Digest)**](/windows/desktop/api/Sspi/) function provides information about the current settings of a [*security context*](security.s_gly#-security-security-context-gly).
 
 Microsoft Digest supports querying the following security context attributes.
 
@@ -20,7 +20,7 @@ Microsoft Digest supports querying the following security context attributes.
 | Attribute                   | Description                                                                                                                                                                                             |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | SECPKG\_ATTR\_KEY\_INFO     | Information relating to the signing and encryption algorithms in use.                                                                                                                                   |
-| SECPKG\_ATTR\_PACKAGE\_INFO | General information pertaining to Microsoft Digest, such as the maximum token size permitted by the [*security package*](https://www.bing.com/search?q=*security package*). |
+| SECPKG\_ATTR\_PACKAGE\_INFO | General information pertaining to Microsoft Digest, such as the maximum token size permitted by the [*security package*](security.s_gly#-security-security-package-gly). |
 | SECPKG\_ATTR\_SIZES         | The maximum sizes permitted for message-related data such as signatures.                                                                                                                                |
 
 

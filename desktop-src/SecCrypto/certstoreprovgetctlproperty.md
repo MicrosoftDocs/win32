@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CertStoreProvGetCTLProperty callback function
 
-The **CertStoreProvGetCTLProperty** callback function retrieves a specified property of a [*certificate trust list*](https://www.bing.com/search?q=*certificate trust list*) (CTL).
+The **CertStoreProvGetCTLProperty** callback function retrieves a specified property of a [*certificate trust list*](security.c_gly#-security-certificate-trust-list-gly) (CTL).
 
 ## Syntax
 
@@ -36,7 +36,7 @@ BOOL WINAPI CertStoreProvGetCTLProperty(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-A **HCERTSTOREPROV** handle to a [*certificate store*](https://www.bing.com/search?q=*certificate store*).
+A **HCERTSTOREPROV** handle to a [*certificate store*](security.c_gly#-security-certificate-store-gly).
 
 </dd> <dt>
 

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 (OID) A number that uniquely identifies an object class or attribute. An object identifier is represented as a dotted decimal string, such as 1.2.3.4. Object identifiers are organized into a global hierarchy. National registration authorities issue root object identifiers to individuals or organizations, who manage the hierarchy below their root object identifier.
 
-See also [*Abstract Syntax Notation 1*](https://www.bing.com/search?q=*Abstract Syntax Notation 1*), [*attribute*](https://www.bing.com/search?q=*attribute*).
+See also [*Abstract Syntax Notation 1*](a-gly.md#-security-abstract-syntax-notation-one-gly), [*attribute*](a-gly.md#-security-attribute-gly).
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ The enhancements for some encapsulated data. This term is used primarily when di
 
 (OFB) A block cipher mode that uses feedback similar to the Cipher Feedback (CFB) mode. The only difference between the two modes is how the shift register is filled.
 
-See also [*Cipher Feedback*](https://www.bing.com/search?q=*Cipher Feedback*).
+See also [*Cipher Feedback*](c-gly.md#-security-cipher-feedback-gly).
 
 </dd> </dl>
 

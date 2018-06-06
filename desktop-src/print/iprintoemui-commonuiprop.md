@@ -74,7 +74,7 @@ The method must return one of the following values.
 
 When a user interface plug-in's `IPrintOemUI::CommonUIProp` method is called, it should return customized property sheet option items in order to modify an existing printer property sheet page.
 
-The `IPrintOemUI::CommonUIProp` method is called by the printer driver's [printer interface DLL](https://www.bing.com/search?q=printer interface DLL). The method should supply an array of [**OPTITEM**](optitem.md) structures describing property sheet items, along with a callback function for processing user modifications to option values.
+The `IPrintOemUI::CommonUIProp` method is called by the printer driver's [printer interface DLL](https://www.bing.com/search?q=printer+interface+DLL). The method should supply an array of [**OPTITEM**](optitem.md) structures describing property sheet items, along with a callback function for processing user modifications to option values.
 
 You should expect the method to be called twice for each property sheet. The method's *dwMode* parameter value indicates whether it is being called to make changes to the printer property sheet or the document property sheet.
 
@@ -94,7 +94,7 @@ The second time it is called, the `IPrintOemUI::CommonUIProp` method should do t
 
 If `IPrintOemUI::CommonUIProp` methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
-For more information, see [Modifying a Driver-Supplied Property Sheet Page](https://www.bing.com/search?q=Modifying a Driver-Supplied Property Sheet Page).
+For more information, see [Modifying a Driver-Supplied Property Sheet Page](https://www.bing.com/search?q=Modifying+a+Driver-Supplied+Property+Sheet+Page).
 
 ## Requirements
 

@@ -72,7 +72,7 @@ Progress bars have several usage patterns:
 <tbody>
 <tr class="odd">
 <td><strong>Modal determinate progress bars</strong><br/> Indicate an operation's progress by filling from left to right and filling completely when the operation is complete. <br/></td>
-<td>Because this feedback is [modal](https://www.bing.com/search?q=modal), users cannot perform other tasks in the window (or its parent if displayed in a modal dialog box) until the operation is complete. <br/> <img src="images/progress-bars-image3.png" alt="Screen shot of progress bar in modal window " /><br/> In this example, the progress bar gives feedback during configuration. <br/></td>
+<td>Because this feedback is [modal](glossary.md#m), users cannot perform other tasks in the window (or its parent if displayed in a modal dialog box) until the operation is complete. <br/> <img src="images/progress-bars-image3.png" alt="Screen shot of progress bar in modal window " /><br/> In this example, the progress bar gives feedback during configuration. <br/></td>
 </tr>
 <tr class="even">
 <td><strong>Modal determinate progress bars with a Cancel or Stop button</strong><br/> Allow users to halt the operation, perhaps because the operation is taking too long or isn't worth the wait.<br/></td>
@@ -235,7 +235,7 @@ This pattern is usually unnecessary and should be avoided.
 
 ### Modal progress bars
 
--   **Place modal progress bars on progress pages or** [progress dialog boxes](https://www.bing.com/search?q=progress dialog boxes).
+-   **Place modal progress bars on progress pages or** [progress dialog boxes](win-dialog-box.md#progress-dialogs).
 -   **Provide a command button to halt the operation if it takes more than a few seconds to complete, or has the potential never to complete.** Label the button Cancel if canceling returns the environment to its previous state (leaving no side effects), otherwise label the button Stop to indicate that it leaves the partially completed operation intact. You can change the button label from Cancel to Stop in the middle of the operation if at some point it isn't possible to return the environment to its previous state. Center the command button vertically with the progress bar instead of aligning their tops.
 
     **Correct:**
@@ -341,8 +341,8 @@ Recommended sizing and spacing for progress bars.
 ### Progress bar labels
 
 -   **Use a concise label with a static text control to indicate what the operation is doing.** Start the label with a verb (for example, Copying) and end with an ellipsis. This label may change dynamically if the operation has multiple steps or is processing multiple objects.
--   Don't assign a unique [access key](https://www.bing.com/search?q=access key) because the control isn't interactive.
--   Use [sentence-style capitalization](https://www.bing.com/search?q=sentence-style capitalization).
+-   Don't assign a unique [access key](glossary.md#glossary) because the control isn't interactive.
+-   Use [sentence-style capitalization](glossary.md#s).
 -   If the operation was not directly initiated by the user, you can include an additional label to give the context and apologize for the interruption. Start this extra label with the phrase, Please wait while. This label should not change during the operation.
 
     ![screen shot of progress bar with label ](images/progress-bars-image24.png)
@@ -367,7 +367,7 @@ Recommended sizing and spacing for progress bars.
 
     In this example, the details aren't labeled, thus requiring users to determine their meaning.
 
--   Use [sentence-style capitalization](https://www.bing.com/search?q=sentence-style capitalization).
+-   Use [sentence-style capitalization](glossary.md#s).
 -   Position the details below the progress bar and align the label with the left edge of the progress bar.
 -   Don't give the percentage completed or remaining because that information is conveyed by the progress bar itself.
 

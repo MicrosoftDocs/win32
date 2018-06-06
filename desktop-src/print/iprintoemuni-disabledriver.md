@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemUni::DisableDriver method
 
-The `IPrintOemuNI::DisableDriver` method allows a rendering plug-in for [*Unidrv*](https://www.bing.com/search?q=*Unidrv*) to free resources that were allocated by the plug-in's [**IPrintOemUni::EnableDriver**](iprintoemuni-enabledriver.md) method.
+The `IPrintOemuNI::DisableDriver` method allows a rendering plug-in for [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) to free resources that were allocated by the plug-in's [**IPrintOemUni::EnableDriver**](iprintoemuni-enabledriver.md) method.
 
 ## Syntax
 
@@ -50,7 +50,7 @@ The method must return one of the following values.
 
 A rendering plug-in for Unidrv must implement the `IPrintOemUni::DisableDriver` method.
 
-The `IPrintOemUni::DisableDriver` method, provided by rendering plug-ins for Unidrv, performs the same types of operations as the [**DrvDisableDriver**](https://www.bing.com/search?q=**DrvDisableDriver**) function that is exported by Unidrv's printer graphics DLL.
+The `IPrintOemUni::DisableDriver` method, provided by rendering plug-ins for Unidrv, performs the same types of operations as the [**DrvDisableDriver**](https://msdn.microsoft.com/8f12cc40-6cff-4e40-a264-58d16d3e55bd) function that is exported by Unidrv's printer graphics DLL.
 
 `IPrintOemUni::DisableDriver` and **IPrintOemUni::EnableDriver** must be implemented as a pair. If you implement one, you must implement the other. For more information, see the Remarks section in [**IPrintOemUni::EnableDriver**](iprintoemuni-enabledriver.md).
 

@@ -33,7 +33,7 @@ D3DXEVENTHANDLE KeyTrackEnable(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Identifier of the animation track to modify.
 
@@ -42,7 +42,7 @@ Identifier of the animation track to modify.
 *NewEnable* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Enable flag. Set this to **TRUE** to enable the animation track, or to **FALSE** to disable the track.
 
@@ -51,7 +51,7 @@ Enable flag. Set this to **TRUE** to enable the animation track, or to **FALSE**
 *StartTime* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Global time key. Specifies the global time when the change will take place.
 

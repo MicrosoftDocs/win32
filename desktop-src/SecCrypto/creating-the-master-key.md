@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Creating the Master Key
 
-A [*master key*](https://www.bing.com/search?q=*master key*) is key data material from which other keys are derived. Depending on the protocol and cipher suite used, the master key can be from 5 to 48 bytes in length. For the [*RSA*](https://www.bing.com/search?q=*RSA*)/[*Schannel*](https://www.bing.com/search?q=*Schannel*) CSP, the master key is created by the client-side and transferred to the server in an RSA envelope. For a [*Diffie-Hellman*](https://www.bing.com/search?q=*Diffie-Hellman*)/Schannel CSP, the master key is created by performing a Diffie-Hellman key exchange.
+A [*master key*](security.m_gly#-security-master-key-gly) is key data material from which other keys are derived. Depending on the protocol and cipher suite used, the master key can be from 5 to 48 bytes in length. For the [*RSA*](security.r_gly#-security-rsa-gly)/[*Schannel*](security.s_gly#-security-schannel-gly) CSP, the master key is created by the client-side and transferred to the server in an RSA envelope. For a [*Diffie-Hellman*](security.d_gly#-security-diffie-hellman-algorithm-gly)/Schannel CSP, the master key is created by performing a Diffie-Hellman key exchange.
 
 Code for creating and exchanging master keys is demonstrated in:
 

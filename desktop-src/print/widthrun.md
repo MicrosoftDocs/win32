@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WIDTHRUN structure
 
-The WIDTHRUN structure is used to define the contents of [Unidrv font metrics files](https://www.bing.com/search?q=Unidrv font metrics files) (.ufm files).
+The WIDTHRUN structure is used to define the contents of [Unidrv font metrics files](print.customized_font_management#ddk-unidrv-font-metrics-files-gg) (.ufm files).
 
 ## Syntax
 
@@ -83,7 +83,7 @@ In this example, widths for the first three glyphs of the font are contained in 
 
 If a device font is proportional and has variable pitch characters, the WIDTHTABLE structure's **WidthRun** array contains only one WIDTHRUN element, and WIDTHTABLE+**loCharWidthOffset** points to a character width array for all characters in the font.
 
-For Western device fonts, the **fwdAveCharWidth** member of the [**IFIMETRICS**](https://www.bing.com/search?q=**IFIMETRICS**) structure is used for determining single-byte character widths, if the character widths are not specified using a WIDTHTABLE structure.
+For Western device fonts, the **fwdAveCharWidth** member of the [**IFIMETRICS**](https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6) structure is used for determining single-byte character widths, if the character widths are not specified using a WIDTHTABLE structure.
 
 For East Asian device fonts, the **fwdAveCharWidth** and **fwdMaxCharInc** members of the IFIMETRICS structure are used for determining single-byte and double-byte character widths. If the font is proportional, the font's .ufm file should contain a WIDTHTABLE structure for the proportional glyphs.
 
@@ -104,7 +104,7 @@ For East Asian device fonts, the **fwdAveCharWidth** and **fwdMaxCharInc** membe
 [**WIDTHTABLE**](widthtable.md)
 </dt> <dt>
 
-[**IFIMETRICS**](https://www.bing.com/search?q=**IFIMETRICS**)
+[**IFIMETRICS**](https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6)
 </dt> </dl>
 
  

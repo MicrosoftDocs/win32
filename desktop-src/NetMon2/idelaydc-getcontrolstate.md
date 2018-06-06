@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IDelaydC::GetControlState method
 
-The **GetControlState** method retrieves the state of the [*capture*](https://www.bing.com/search?q=*capture*), which indicates if the capture is running or paused.
+The **GetControlState** method retrieves the state of the [*capture*](c.md#-netmon-capture-gly), which indicates if the capture is running or paused.
 
 ## Syntax
 

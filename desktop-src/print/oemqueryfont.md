@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # OEMQueryFont function
 
-The `OEMQueryFont` function is used by GDI to get the [**IFIMETRICS**](https://www.bing.com/search?q=**IFIMETRICS**) structure for a given font.
+The `OEMQueryFont` function is used by GDI to get the [**IFIMETRICS**](https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6) structure for a given font.
 
 ## Syntax
 
@@ -47,9 +47,9 @@ PIFIMETRICS APIENTRY OEMQueryFont(
 
 ### Comments
 
-See [**DrvQueryFont**](https://www.bing.com/search?q=**DrvQueryFont**).
+See [**DrvQueryFont**](https://msdn.microsoft.com/2ba6c8e3-9707-48dd-98d9-072f3eee8cd0).
 
-Do not directly hook out this function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the DDIs to be hooked out.
+Do not directly hook out this function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvQueryFont** function pointer.
 

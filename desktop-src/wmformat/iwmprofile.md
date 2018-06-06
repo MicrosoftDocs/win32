@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IWMProfile interface
 
-The **IWMProfile** interface is the primary interface for a [*profile*](https://www.bing.com/search?q=*profile*) object. A profile object is used to configure custom profiles. You can use **IWMProfile** to create, delete, or modify stream configuration objects and mutual exclusion objects. You can also set and retrieve general information about the profile. To access all the features of the profile object, you should use [**IWMProfile3**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3), which inherits from **IWMProfile** and [**IWMProfile2**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2).
+The **IWMProfile** interface is the primary interface for a [*profile*](wmformat-glossary.md#wmformat-profile) object. A profile object is used to configure custom profiles. You can use **IWMProfile** to create, delete, or modify stream configuration objects and mutual exclusion objects. You can also set and retrieve general information about the profile. To access all the features of the profile object, you should use [**IWMProfile3**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3), which inherits from **IWMProfile** and [**IWMProfile2**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2).
 
 **IWMProfile** is also accessible through the reader object, where you can use it to get information about the streams of a file that is loaded in the reader. When accessing **IWMProfile** from the reader, you can make changes to the profile, but none of the changes can be saved to the file. It is often handy to use the profile of an existing file as the foundation of a new profile. The synchronous reader supports **IWMProfile** in the same way as the reader.
 

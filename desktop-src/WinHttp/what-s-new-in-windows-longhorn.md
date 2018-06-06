@@ -23,7 +23,7 @@ The Transfer-Encoding header enables applications to send chunked data to the se
 
 ## SSL Client Certificate Issuer List Retrieval
 
-The application can retrieve the SSL client certificate Issuer List when [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest) fails with an **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**. A new option, **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST**, allows applications to retrieve the certificate Issuer List and filter the list for the optimal certificate. For more information, see the [**Option Flags**](option-flags.md) and [Issuer List Retrieval for SSL Client Authentication](https://www.bing.com/search?q=Issuer List Retrieval for SSL Client Authentication) topics. This feature is not supported on the [**IWinHttpRequest**](iwinhttprequest-interface.md) COM object.
+The application can retrieve the SSL client certificate Issuer List when [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest) fails with an **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**. A new option, **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST**, allows applications to retrieve the certificate Issuer List and filter the list for the optimal certificate. For more information, see the [**Option Flags**](option-flags.md) and [Issuer List Retrieval for SSL Client Authentication](ssl-in-winhttp.md#issuer-list-retrieval-for-ssl-client-authentication) topics. This feature is not supported on the [**IWinHttpRequest**](iwinhttprequest-interface.md) COM object.
 
 ## Optional Client Certificates
 

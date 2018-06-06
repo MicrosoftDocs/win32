@@ -27,11 +27,11 @@ BOOL WINAPI SomeFunction(
 In this example, *pbData* is a pointer to the location where the data will be returned, and *pcbData* is the size, in bytes, of the returned data.
 
 > [!Note]  
-> The companion parameter to the pcb parameter may sometimes carry a slightly different prefix, such as p or pv. Also, for companion parameters using the combination of prefixes pwsz and pcch, the pcch parameter is the count, in characters ([*Unicode*](https://www.bing.com/search?q=*Unicode*) or [*ASCII*](https://www.bing.com/search?q=*ASCII*), as applicable), of the returned data.
+> The companion parameter to the pcb parameter may sometimes carry a slightly different prefix, such as p or pv. Also, for companion parameters using the combination of prefixes pwsz and pcch, the pcch parameter is the count, in characters ([*Unicode*](security.u_gly#-security-unicode-gly) or [*ASCII*](security.a_gly#-security-ascii-gly), as applicable), of the returned data.
 
  
 
-If the buffer specified by the *pbData* parameter is not large enough to hold the returned data, the function sets the ERROR\_MORE\_DATA code (which can be seen by calling the [**GetLastError**](https://msdn.microsoft.com/windows/desktop/d852e148-985c-416f-a5a7-27b6914b45d4) function) and stores the required buffer size, in bytes, in the variable pointed to by *pcbData*.
+If the buffer specified by the *pbData* parameter is not large enough to hold the returned data, the function sets the ERROR\_MORE\_DATA code (which can be seen by calling the [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4) function) and stores the required buffer size, in bytes, in the variable pointed to by *pcbData*.
 
 If **NULL** is input for *pbData* and *pcbData* is not **NULL**, no error is returned, and the function returns the size, in bytes, of the needed memory buffer in the variable pointed to by *pcbData*. This lets an application determine the size of, and the best way to allocate, a buffer for the returned data.
 

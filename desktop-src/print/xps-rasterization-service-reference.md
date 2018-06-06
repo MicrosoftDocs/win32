@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XPS Rasterization Service Reference
 
-In Windows 7, the XPS rasterization service converts fixed pages in XPS documents to bitmaps. The XPS rasterization service greatly simplifies the design of an XPSDrv filter that rasterizes XPS documents for a printer or other display device. For more information, see [Using the XPS Rasterization Service](https://www.bing.com/search?q=Using the XPS Rasterization Service).
+In Windows 7, the XPS rasterization service converts fixed pages in XPS documents to bitmaps. The XPS rasterization service greatly simplifies the design of an XPSDrv filter that rasterizes XPS documents for a printer or other display device. For more information, see [Using the XPS Rasterization Service](https://www.bing.com/search?q=Using+the+XPS+Rasterization+Service).
 
 The XPS rasterization service is not implemented in versions of Windows before Windows 7.
 

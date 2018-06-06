@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Managing Caret Placement and Hit Testing
 
-Complex script languages are broken into [clusters](https://www.bing.com/search?q=clusters) by [**ScriptShape**](/windows/desktop/api/Usp10/nf-usp10-scriptshape). Character reordering always occurs within cluster boundaries. The clusters themselves are guaranteed to advance in the direction of the reading order.
+Complex script languages are broken into [clusters](uniscribe-glossary.md#cluster) by [**ScriptShape**](/windows/desktop/api/Usp10/nf-usp10-scriptshape). Character reordering always occurs within cluster boundaries. The clusters themselves are guaranteed to advance in the direction of the reading order.
 
 Cluster information in the logical cluster array is used to share the width of a cluster of glyphs equally among the logical characters they represent. For example, the lam alef glyph is divided into four areas:
 

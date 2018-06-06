@@ -46,7 +46,7 @@ A handle to an owner window. This parameter is typically set to **NULL**.
 
 Type: **HINSTANCE**
 
-A handle to the library file, obtained as a return value from [**LoadLibrary**](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65)("netplwiz").
+A handle to the library file, obtained as a return value from [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65)("netplwiz").
 
 </dd> <dt>
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using CertMgr
 
-[CertMgr](certmgr.md) can be used to view [*certificates*](https://www.bing.com/search?q=*certificates*), [*certificate revocation lists*](https://www.bing.com/search?q=*certificate revocation lists*) (CRLs), and [*certificate trust lists*](https://www.bing.com/search?q=*certificate trust lists*) (CTLs) from a file or a certificate store, to copy certificates into a [*certificate store*](https://www.bing.com/search?q=*certificate store*), to delete certificates from a certificate store, and to save certificates to files.
+[CertMgr](certmgr.md) can be used to view [*certificates*](security.c_gly#-security-certificate-gly), [*certificate revocation lists*](security.c_gly#-security-certificate-revocation-list-gly) (CRLs), and [*certificate trust lists*](security.c_gly#-security-certificate-trust-list-gly) (CTLs) from a file or a certificate store, to copy certificates into a [*certificate store*](security.c_gly#-security-certificate-store-gly), to delete certificates from a certificate store, and to save certificates to files.
 
 When [CertMgr](certmgr.md) is used without options, a CertMgr wizard appears to guide the user through the operation.
 
@@ -53,7 +53,7 @@ The following examples use [CertMgr](certmgr.md) commands to perform common cert
 
     **certmgr -del -all -ctl -s my** *NewStore.str*
 
--   Save, to a file called *NewCert.cer*, a certificate that is an [*X.509*](https://www.bing.com/search?q=*X.509*) encoded certificate, that has the common name *MyCert*, and that is located in the Root certificate store.
+-   Save, to a file called *NewCert.cer*, a certificate that is an [*X.509*](security.x_gly#-security-x-509-gly) encoded certificate, that has the common name *MyCert*, and that is located in the Root certificate store.
 
     **certmgr -put -c -n** *MyCert* **-s root** *NewCert.cer*
 

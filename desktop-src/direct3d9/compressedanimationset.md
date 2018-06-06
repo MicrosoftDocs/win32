@@ -29,7 +29,7 @@ Where:
 
 -   CompressedBlockSize - Total size, in bytes, of the compressed data in the compressed key frame animation data buffer.
 -   TicksPerSec - Number of animation key frame ticks that occur per second.
--   PlaybackType - Type of the animation set playback loop. See [**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/windows/desktop/2ce26bf0-2b33-4193-a58f-03493a051351).
+-   PlaybackType - Type of the animation set playback loop. See [**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplayback_type.htm).
 -   BufferLength - Minimum buffer size, in bytes, required to hold compressed key frame animation data. Value is equal to ( ( CompressedBlockSize + 3 ) / 4 ).
 -   CompressedData\[BufferLength\] - An array of compressed data values.
 

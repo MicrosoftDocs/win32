@@ -141,7 +141,7 @@ The **fShowAttribCol** member is being requested.
 
 
 
-The **fDesktopHTML** member is being requested. Set is not available. Instead, for versions of Windows prior to Windows XP, enable desktop HTML by [**IActiveDesktop**](https://msdn.microsoft.com/windows/desktop/4d572b86-36e8-417b-857c-eb477c04c691). The use of **IActiveDesktop** for this purpose, however, is not recommended for Windows XP and later versions of Windows, and is deprecated in Windows Vista.
+The **fDesktopHTML** member is being requested. Set is not available. Instead, for versions of Windows prior to Windows XP, enable desktop HTML by [**IActiveDesktop**](https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691). The use of **IActiveDesktop** for this purpose, however, is not recommended for Windows XP and later versions of Windows, and is deprecated in Windows Vista.
 
 
 </dt> </dl> </dd> <dt>

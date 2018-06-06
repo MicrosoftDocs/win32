@@ -55,7 +55,7 @@ For more information about which operating systems are required to use a particu
 
 <dl> <dt>
 
-[The Component Object Model](https://www.bing.com/search?q=The Component Object Model)
+[The Component Object Model](https://www.bing.com/search?q=The+Component+Object+Model)
 </dt> </dl>
 
  

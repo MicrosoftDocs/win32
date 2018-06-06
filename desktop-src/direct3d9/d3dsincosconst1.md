@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # D3DSINCOSCONST1
 
-Creates the first constant (in register src2) for the [sincos - ps](https://msdn.microsoft.com/windows/desktop/639237ea-1b7a-4959-9093-78f134c11863) pixel shader instruction.
+Creates the first constant (in register src2) for the [sincos - ps](https://msdn.microsoft.com/VS|directx_sdk|~\sincos___ps.htm) pixel shader instruction.
 
 ``` syntax
 #define D3DSINCOSCONST1  -1.5500992e-006f, -2.1701389e-005f,  0.0026041667f, 0.00026041668f
@@ -19,7 +19,7 @@ Creates the first constant (in register src2) for the [sincos - ps](https://msdn
 
 ## Return Value
 
-Returns the first constant needed by [sincos - ps](https://msdn.microsoft.com/windows/desktop/639237ea-1b7a-4959-9093-78f134c11863).
+Returns the first constant needed by [sincos - ps](https://msdn.microsoft.com/VS|directx_sdk|~\sincos___ps.htm).
 
 ## Requirements
 

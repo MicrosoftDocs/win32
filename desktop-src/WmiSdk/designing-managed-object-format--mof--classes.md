@@ -15,12 +15,12 @@ ms.date: 05/31/2018
 
 # Designing Managed Object Format (MOF) Classes
 
-A [*WMI provider*](https://www.bing.com/search?q=*WMI provider*) consists of a Managed Object Format (MOF) file and DLL file. The MOF file defines the classes for which the provider implementation supplies data.
+A [*WMI provider*](gloss-p.md#wmi-gloss-provider) consists of a Managed Object Format (MOF) file and DLL file. The MOF file defines the classes for which the provider implementation supplies data.
 
-The MOF class definitions are compiled by the [**mofcomp**](mofcomp.md) utility and stored in the [*WMI repository*](https://www.bing.com/search?q=*WMI repository*), also known as the Common Information Model (CIM) repository. A less common way to create classes is through the methods of the [COM API for WMI](com-api-for-wmi.md).
+The MOF class definitions are compiled by the [**mofcomp**](mofcomp.md) utility and stored in the [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository), also known as the Common Information Model (CIM) repository. A less common way to create classes is through the methods of the [COM API for WMI](com-api-for-wmi.md).
 
 > [!Note]  
-> To ensure that all your WMI class definitions for managed objects are restored to the [*WMI repository*](https://www.bing.com/search?q=*WMI repository*) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) preprocessor instruction in your MOF file.
+> To ensure that all your WMI class definitions for managed objects are restored to the [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) preprocessor instruction in your MOF file.
 
  
 

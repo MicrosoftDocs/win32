@@ -24,7 +24,7 @@ The [**XMBYTE2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvecto
 
 | Methods                                              | Description                                                                                                       |
 |------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://www.bing.com/search?q=**operator =**)<br/> | Assigns the vector component data from one instance of `XMBYTE2` to the current instance of `XMBYTE2`.<br/> |
+| [**operator =**](https://www.bing.com/search?q=**operator+=**)<br/> | Assigns the vector component data from one instance of `XMBYTE2` to the current instance of `XMBYTE2`.<br/> |
 
 
 

@@ -50,7 +50,7 @@ Perform the following steps to install your password filter. You can perform the
 [Strong Password Enforcement and Passfilt.dll](strong-password-enforcement-and-passfilt-dll.md)
 </dt> <dt>
 
-[Password Filter Functions](https://www.bing.com/search?q=Password Filter Functions)
+[Password Filter Functions](management-functions.md#password-filter-functions)
 </dt> </dl>
 
  

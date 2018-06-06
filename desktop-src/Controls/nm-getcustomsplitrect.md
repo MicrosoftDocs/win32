@@ -45,11 +45,11 @@ A pointer to an [**NMCUSTOMSPLITRECTINFO**](/windows/desktop/api/Commctrl/ns-com
 
 ## Return value
 
-Return [**CDRF\_SKIPDEFAULT**](https://www.bing.com/search?q=**CDRF\_SKIPDEFAULT**) to tell the button control to use the values returned in the [**NMCUSTOMSPLITRECTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomsplitrectinfo) structure; otherwise, return [**CDRF\_DODEFAULT**](https://www.bing.com/search?q=**CDRF\_DODEFAULT**).
+Return [**CDRF\_SKIPDEFAULT**](cdrf-constants.md#cdrf-skipdefault) to tell the button control to use the values returned in the [**NMCUSTOMSPLITRECTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomsplitrectinfo) structure; otherwise, return [**CDRF\_DODEFAULT**](cdrf-constants.md#cdrf-dodefault).
 
 ## Remarks
 
-This notification code is sent by a button control before it is drawn. The button must be of style [**BS\_SPLITBUTTON**](https://www.bing.com/search?q=**BS\_SPLITBUTTON**) or [**BS\_DEFSPLITBUTTON**](https://www.bing.com/search?q=**BS\_DEFSPLITBUTTON**). If the rectangles returned to the control in *lParam* are not valid, they are ignored.
+This notification code is sent by a button control before it is drawn. The button must be of style [**BS\_SPLITBUTTON**](button-styles.md#bs-splitbutton) or [**BS\_DEFSPLITBUTTON**](button-styles.md#bs-defsplitbutton). If the rectangles returned to the control in *lParam* are not valid, they are ignored.
 
 ## Requirements
 

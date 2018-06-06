@@ -48,20 +48,20 @@ No delay or burst mode should be used.
 <span id="WPD_CAPTURE_MODE_BURST"></span><span id="wpd_capture_mode_burst"></span>**WPD\_CAPTURE\_MODE\_BURST**
 </dt> <dd>
 
-Specifies that a defined number of images should be captured with a defined interval between them. The number of images to capture and time delay between them are specified by the [WPD\_STILL\_IMAGE\_BURST\_NUMBER](https://www.bing.com/search?q=WPD\_STILL\_IMAGE\_BURST\_NUMBER) and [WPD\_STILL\_IMAGE\_BURST\_INTERVAL](https://www.bing.com/search?q=WPD\_STILL\_IMAGE\_BURST\_INTERVAL) properties.
+Specifies that a defined number of images should be captured with a defined interval between them. The number of images to capture and time delay between them are specified by the [WPD\_STILL\_IMAGE\_BURST\_NUMBER](still-image-properties.md#wpd-still-image-burst-number) and [WPD\_STILL\_IMAGE\_BURST\_INTERVAL](still-image-properties.md#wpd-still-image-burst-interval) properties.
 
 </dd> <dt>
 
 <span id="WPD_CAPTURE_MODE_TIMELAPSE"></span><span id="wpd_capture_mode_timelapse"></span>**WPD\_CAPTURE\_MODE\_TIMELAPSE**
 </dt> <dd>
 
-Image capture should use time lapse photography. The number of images and interval between them are described by the [WPD\_STILL\_IMAGE\_TIMELAPSE\_NUMBER](https://www.bing.com/search?q=WPD\_STILL\_IMAGE\_TIMELAPSE\_NUMBER) and [WPD\_STILL\_IMAGE\_TIMELAPSE\_INTERVAL](https://www.bing.com/search?q=WPD\_STILL\_IMAGE\_TIMELAPSE\_INTERVAL) properties.
+Image capture should use time lapse photography. The number of images and interval between them are described by the [WPD\_STILL\_IMAGE\_TIMELAPSE\_NUMBER](still-image-properties.md#wpd-still-image-timelapse-number) and [WPD\_STILL\_IMAGE\_TIMELAPSE\_INTERVAL](still-image-properties.md#wpd-still-image-timelapse-interval) properties.
 
 </dd> </dl>
 
 ## Remarks
 
-This enumeration is used by the [WPD\_STILL\_IMAGE\_CAPTURE\_MODE](https://www.bing.com/search?q=WPD\_STILL\_IMAGE\_CAPTURE\_MODE) property.
+This enumeration is used by the [WPD\_STILL\_IMAGE\_CAPTURE\_MODE](still-image-properties.md#wpd-still-image-capture-mode) property.
 
 ## Requirements
 

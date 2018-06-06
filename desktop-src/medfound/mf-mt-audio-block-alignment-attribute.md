@@ -21,7 +21,7 @@ Block alignment, in bytes, for an audio media type. The block alignment is the m
 
 For PCM audio formats, the block alignment is equal to the number of audio channels multiplied by the number of bytes per audio sample.
 
-This attribute corresponds to the **nBlockAlign** member of the [**WAVEFORMATEX**](https://msdn.microsoft.com/windows/desktop/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) structure.
+This attribute corresponds to the **nBlockAlign** member of the [**WAVEFORMATEX**](https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

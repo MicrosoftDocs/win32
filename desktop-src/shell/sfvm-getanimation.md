@@ -40,7 +40,7 @@ The instance handle of the module that the resource should be loaded from.
 *pwszName* \[out\]
 </dt> <dd>
 
-A pointer to a null-terminated Unicode string containing the path of the .avi file or the name of an AVI resource. Alternatively, this parameter can consist of the resource identifier in the low-order word and 0 in the high-order word. To create this value, use the [**MAKEINTRESOURCE**](https://msdn.microsoft.com/windows/desktop/761df981-776f-43ca-9cc9-bb82a49f66e6) macro. The control loads the resource from the module specified by hinst. An AVI resource must have the "AVI" type.
+A pointer to a null-terminated Unicode string containing the path of the .avi file or the name of an AVI resource. Alternatively, this parameter can consist of the resource identifier in the low-order word and 0 in the high-order word. To create this value, use the [**MAKEINTRESOURCE**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcemacros\makeintresource.htm) macro. The control loads the resource from the module specified by hinst. An AVI resource must have the "AVI" type.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ A pointer to a null-terminated Unicode string containing the path of the .avi fi
 
 By default, the system folder view object displays the "flashlight" animation during a background enumeration.
 
-*phinst* and *pwszName* will be passed to the [animation control](https://www.bing.com/search?q=animation control) with an [**ACM\_OPEN**](https://msdn.microsoft.com/windows/desktop/87f476ce-bb27-4b5f-bfdf-dff84bd7e4f4) message.
+*phinst* and *pwszName* will be passed to the [animation control](https://www.bing.com/search?q=animation+control) with an [**ACM\_OPEN**](https://msdn.microsoft.com/VS|Controls|~\controls\animation\messages\acm_open.htm) message.
 
 ## Requirements
 

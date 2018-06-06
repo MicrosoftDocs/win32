@@ -21,8 +21,8 @@ Note also that different NPP interfaces provide network data in various forms. F
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [IDelaydC](idelaydc.md) | Captures network traffic that is stored in a capture file. This interface is used by Network Monitor and NPP applications.                                          |
 | [IESP](iesp.md)         | Captures network traffic that is stored in a capture file and provides enhanced statistics in a special ESP file format. This interface is used by NPP applications |
-| [IRTC](irtc.md)         | Captures real time network traffic and triggers events when they occur. This interface is used by [*monitors*](https://www.bing.com/search?q=*monitors*) and NPP applications.     |
-| [IStats](istats.md)     | Retrieves statistics as raw data rather than frames. This interface is used by NPP applications such as [*Perfmon*](https://www.bing.com/search?q=*Perfmon*).                     |
+| [IRTC](irtc.md)         | Captures real time network traffic and triggers events when they occur. This interface is used by [*monitors*](m.md#-netmon-monitor-gly) and NPP applications.     |
+| [IStats](istats.md)     | Retrieves statistics as raw data rather than frames. This interface is used by NPP applications such as [*Perfmon*](p.md#-netmon-perfmon-gly).                     |
 
 
 

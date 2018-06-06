@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # OEMPaint function
 
-The `OEMPaint` function is obsolete, and is no longer called by GDI in Windows 2000 and later. See [**DrvPaint**](https://www.bing.com/search?q=**DrvPaint**).
+The `OEMPaint` function is obsolete, and is no longer called by GDI in Windows 2000 and later. See [**DrvPaint**](https://msdn.microsoft.com/c4e3fa2c-44f9-4160-8d0b-3021ad18a472).
 
 ## Syntax
 

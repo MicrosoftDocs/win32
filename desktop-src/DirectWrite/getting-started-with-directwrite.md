@@ -51,9 +51,9 @@ The source code shown in this overview is taken from the [DirectWrite Hello Worl
 | **DiscardDeviceIndependentResources** | Releases the device-independent resources after they are no longer needed.                          |
 | **CreateDeviceResources**             | Creates resources, such as brushes and render targets, that are tied to a particular device.        |
 | **DiscardDeviceResources**            | Releases the device-dependent resources after they are no longer needed.                            |
-| **DrawD2DContent**                    | Uses [Direct2D](https://www.bing.com/search?q=Direct2D) to render to the screen.                              |
-| **DrawText**                          | Draws the text string by using [Direct2D](https://www.bing.com/search?q=Direct2D).                            |
-| **OnResize**                          | Resizes the [Direct2D](https://www.bing.com/search?q=Direct2D) render target when the window size is changed. |
+| **DrawD2DContent**                    | Uses [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) to render to the screen.                              |
+| **DrawText**                          | Draws the text string by using [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b).                            |
+| **OnResize**                          | Resizes the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) render target when the window size is changed. |
 
 
 
@@ -63,7 +63,7 @@ You can use the sample provided, or use the instructions that follow to add [Dir
 
 ## Drawing Simple Text
 
-This section shows how to use [DirectWrite](direct-write-portal.md) and [Direct2D](https://www.bing.com/search?q=Direct2D) to render simple text that has a single format, as shown in the following screen shot.
+This section shows how to use [DirectWrite](direct-write-portal.md) and [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) to render simple text that has a single format, as shown in the following screen shot.
 
 ![screen shot of "hello world using directwrite!" in a single format](images/simplecropped.png)
 
@@ -72,7 +72,7 @@ Drawing simple text to the screen requires four components:
 -   A character string to render.
 -   An instance of [**IDWriteTextFormat**](https://msdn.microsoft.com/library/windows/desktop/dd316628).
 -   The dimensions of the area to contain the text.
--   An object that can render the text. In this tutorial. you use a [Direct2D](https://www.bing.com/search?q=Direct2D) render target.
+-   An object that can render the text. In this tutorial. you use a [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) render target.
 
 The [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) interface describes the font-family name, size, weight, style, and stretch used to format text, and it describes locale information. **IDWriteTextFormat** also defines methods for setting and getting the following properties:
 
@@ -90,7 +90,7 @@ Before you can create an [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) o
 
 ### Part 1: Declare DirectWrite and Direct2D Resources.
 
-In this part, you declare the objects that you will use later for creating and displaying text as private data members of your class. All of the interfaces, functions, and datatypes for [DirectWrite](direct-write-portal.md) are declared in the *dwrite.h* header file, and those for [Direct2D](https://www.bing.com/search?q=Direct2D) are declared in the *d2d1.h*; if you haven't already done this, include these headers in your project.
+In this part, you declare the objects that you will use later for creating and displaying text as private data members of your class. All of the interfaces, functions, and datatypes for [DirectWrite](direct-write-portal.md) are declared in the *dwrite.h* header file, and those for [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) are declared in the *d2d1.h*; if you haven't already done this, include these headers in your project.
 
 1.  In your class header file (SimpleText.h), declare pointers to [**IDWriteFactory**](/windows/desktop/api/dwrite/) and [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) interfaces as private members.
     ```C++
@@ -110,7 +110,7 @@ In this part, you declare the objects that you will use later for creating and d
 
     
 
-3.  Declare pointers to [**ID2D1Factory**](https://msdn.microsoft.com/library/windows/desktop/dd371246), [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/windows/desktop/dd371461), and [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/windows/desktop/dd372207) interfaces for rendering the text with [Direct2D](https://www.bing.com/search?q=Direct2D).
+3.  Declare pointers to [**ID2D1Factory**](https://msdn.microsoft.com/library/windows/desktop/dd371246), [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/windows/desktop/dd371461), and [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/windows/desktop/dd372207) interfaces for rendering the text with [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b).
     ```C++
     ID2D1Factory* pD2DFactory_;
     ID2D1HwndRenderTarget* pRT_;
@@ -130,7 +130,7 @@ In this section, you create the device-independent resources that are used by yo
 
 Some of the resources that are used have to be created only one time and are not tied to a device. The initialization for these resources is put in the *SimpleText::CreateDeviceIndependentResources* method, which is called when initializing the class.
 
-1.  Inside the *SimpleText::CreateDeviceIndependentResources* method in the class implementation file (SimpleText.cpp), call the [**D2D1CreateFactory**](https://msdn.microsoft.com/library/windows/desktop/dd368034) function to create an [**ID2D1Factory**](https://msdn.microsoft.com/library/windows/desktop/dd371246) interface, which is the root factory interface for all [Direct2D](https://www.bing.com/search?q=Direct2D) objects. You use the same factory to instantiate other Direct2D resources.
+1.  Inside the *SimpleText::CreateDeviceIndependentResources* method in the class implementation file (SimpleText.cpp), call the [**D2D1CreateFactory**](https://msdn.microsoft.com/library/windows/desktop/dd368034) function to create an [**ID2D1Factory**](https://msdn.microsoft.com/library/windows/desktop/dd371246) interface, which is the root factory interface for all [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) objects. You use the same factory to instantiate other Direct2D resources.
     ```C++
     hr = D2D1CreateFactory(
         D2D1_FACTORY_TYPE_SINGLE_THREADED,
@@ -261,7 +261,7 @@ Now that you have created a render target and a brush, you can use them to rende
 
 ### Part 4: Draw Text By Using the Direct2D DrawText Method.
 
-1.  In the SimpleText::DrawText method of your class, define the area for the text layout by retrieving the dimensions of the rendering area, and create a [Direct2D](https://www.bing.com/search?q=Direct2D) rectangle that has the same dimensions.
+1.  In the SimpleText::DrawText method of your class, define the area for the text layout by retrieving the dimensions of the rendering area, and create a [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) rectangle that has the same dimensions.
     ```C++
     D2D1_RECT_F layoutRect = D2D1::RectF(
         static_cast<FLOAT>(rc.left) / dpiScaleX_,
@@ -277,7 +277,7 @@ Now that you have created a render target and a brush, you can use them to rende
 2.  Use the [**ID2D1RenderTarget::DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) method and the [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) object to render text to the screen. The **ID2D1RenderTarget::DrawText** method takes the following parameters:
     -   A string to render.
     -   A pointer to an [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) interface.
-    -   A [Direct2D](https://www.bing.com/search?q=Direct2D) layout rectangle.
+    -   A [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) layout rectangle.
     -   A pointer to an interface that exposes [**ID2D1Brush**](https://msdn.microsoft.com/library/windows/desktop/dd371173).
 
     ```C++
@@ -295,7 +295,7 @@ Now that you have created a render target and a brush, you can use them to rende
 
 ### Part 5: Render the Window Contents Using Direct2D
 
-To render the contents of the window by using [Direct2D](https://www.bing.com/search?q=Direct2D) when a paint message is received, do the following:
+To render the contents of the window by using [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) when a paint message is received, do the following:
 
 1.  Create the device dependent resources by calling the SimpleText::CreateDeviceResources method implemented in Part 3.
 2.  Call the [**ID2D1HwndRenderTarget::BeginDraw**](https://msdn.microsoft.com/library/windows/desktop/dd371768) method of the render target.
@@ -339,7 +339,7 @@ The SimpleText class is implemented in SimpleText.h and SimpleText.cpp.
 
 ## Drawing Text with Multiple Formats.
 
-This section shows how to use [DirectWrite](direct-write-portal.md) and [Direct2D](https://www.bing.com/search?q=Direct2D) to render text with multiple formats, as shown in the following screen shot.
+This section shows how to use [DirectWrite](direct-write-portal.md) and [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) to render text with multiple formats, as shown in the following screen shot.
 
 ![screen shot of "hello world using directwrite!", with some parts in different styles, sizes, and formats](images/multiformattedcropped.png)
 
@@ -500,7 +500,7 @@ To draw the text with the text layout settings specified by the [**IDWriteTextLa
 
     
 
-2.  Draw the text to the screen by calling the [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) method of the [Direct2D](https://www.bing.com/search?q=Direct2D) render target and passing the [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) pointer.
+2.  Draw the text to the screen by calling the [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) method of the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) render target and passing the [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) pointer.
     ```C++
     pRT_->DrawTextLayout(
         origin,

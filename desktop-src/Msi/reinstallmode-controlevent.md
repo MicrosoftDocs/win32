@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The ReinstallMode ControlEventallows the author to specify the validation mode or modes during a reinstallation, and while the current dialog box is running.
 
-This event can be published by a [PushButton Control](pushbutton-control.md) or a [SelectionTree control](selectiontree-control.md). This event should be authored into the [ControlEvent table](controlevent-table.md), and requires the user interface to be run at the [*full UI*](https://www.bing.com/search?q=*full UI*) level. This event does not work with a [*reduced UI*](https://www.bing.com/search?q=*reduced UI*) or [*basic UI*](https://www.bing.com/search?q=*basic UI*). For more information, see [User Interface Levels](user-interface-levels.md).
+This event can be published by a [PushButton Control](pushbutton-control.md) or a [SelectionTree control](selectiontree-control.md). This event should be authored into the [ControlEvent table](controlevent-table.md), and requires the user interface to be run at the [*full UI*](f-gly.md#-msi-full-ui-gly) level. This event does not work with a [*reduced UI*](r-gly.md#-msi-reduced-ui-gly) or [*basic UI*](b-gly.md#-msi-basic-ui-gly). For more information, see [User Interface Levels](user-interface-levels.md).
 
 ## Published By
 

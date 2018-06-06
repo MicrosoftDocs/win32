@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # ViewSources Qualifier
 
-All view classes must have a string array qualifier called **ViewSources**. The **ViewSources** qualifier contains the source queries that define the source instances used in the view class. The value of the **ViewSources** qualifier is a string array containing [*WMI Query Language (WQL)*](https://www.bing.com/search?q=*WMI Query Language (WQL)*) queries. You can define source classes and restrict the source instances your view class uses with the [Querying with WQL](querying-with-wql.md)[WHERE Clause](where-clause.md) to create a filtered view.
+All view classes must have a string array qualifier called **ViewSources**. The **ViewSources** qualifier contains the source queries that define the source instances used in the view class. The value of the **ViewSources** qualifier is a string array containing [*WMI Query Language (WQL)*](gloss-w.md#wmi-gloss-wmi-query-language) queries. You can define source classes and restrict the source instances your view class uses with the [Querying with WQL](querying-with-wql.md)[WHERE Clause](where-clause.md) to create a filtered view.
 
 The [View Provider](view-provider.md) matches the source queries in the **ViewSources** qualifier to the namespaces listed in the [ViewSpaces qualifier](viewspaces-qualifier.md) in the order the queries and namespaces are listed. The number of source queries must match the number of namespaces listed in the ViewSpaces qualifier. The order in which you list the source queries determines the namespaces from which the source instances are drawn.
 

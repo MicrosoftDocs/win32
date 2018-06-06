@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This topic demonstrates how to create a dialog box that contains a single-line edit control.
 
-The single-line edit control has the [**ES\_PASSWORD**](https://www.bing.com/search?q=**ES\_PASSWORD**) style. By default, edit controls with this style display an asterisk for each character that is typed by the user. This example, however, uses the [**EM\_SETPASSWORDCHAR**](em-setpasswordchar.md) message to change the default character from an asterisk to a plus sign (+). The following screen shot shows the dialog box after the user has entered a password.
+The single-line edit control has the [**ES\_PASSWORD**](edit-control-styles.md#es-password) style. By default, edit controls with this style display an asterisk for each character that is typed by the user. This example, however, uses the [**EM\_SETPASSWORDCHAR**](em-setpasswordchar.md) message to change the default character from an asterisk to a plus sign (+). The following screen shot shows the dialog box after the user has entered a password.
 
 ![screen shot of a dialog box containing an edit control for entering a password](images/passworddlg.png)
 

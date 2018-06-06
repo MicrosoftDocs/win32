@@ -33,7 +33,7 @@ This guide describes more about what libraries are, how programs can be made to 
 [**IShellLibrary**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary)
 </dt> <dt>
 
-[Shell Links](https://msdn.microsoft.com/windows/desktop/32ad306d-54bd-4130-ad30-08db50ef106e)
+[Shell Links](https://msdn.microsoft.com/32ad306d-54bd-4130-ad30-08db50ef106e)
 </dt> <dt>
 
 [Known Folders](known-folders.md)

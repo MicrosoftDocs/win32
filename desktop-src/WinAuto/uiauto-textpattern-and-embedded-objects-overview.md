@@ -222,7 +222,7 @@ Calling the [**IUIAutomationGridPattern::GetItem**](/windows/desktop/api/UIAutom
 
  
 
-When moving through a document by [**TextUnit\_Line**](https://www.bing.com/search?q=**TextUnit\_Line**), if the text range enters an embedded table, each line of text in a cell should be treated as a line.
+When moving through a document by [**TextUnit\_Line**](uiauto-textunitenum.md#textunit-line), if the text range enters an embedded table, each line of text in a cell should be treated as a line.
 
 ## Related topics
 

@@ -135,7 +135,7 @@ Size, in bytes, of the MONITORREG structure.
 
 The MONITORREG structure's address is supplied in a [**MONITORINIT**](monitorinit.md) structure, which is passed to a print monitor's [**InitializePrintMonitor2**](initializeprintmonitor2.md) function.
 
-When [storing port configuration information](https://www.bing.com/search?q=storing port configuration information), print monitors must not explicitly call either the Win32 registry API or the cluster registry API. Instead, they must call equivalent spooler registry functions. The MONITORREG structure supplies the addresses of these functions. The following table lists each spooler registry function and its equivalent cluster registry function.
+When [storing port configuration information](https://www.bing.com/search?q=storing+port+configuration+information), print monitors must not explicitly call either the Win32 registry API or the cluster registry API. Instead, they must call equivalent spooler registry functions. The MONITORREG structure supplies the addresses of these functions. The following table lists each spooler registry function and its equivalent cluster registry function.
 
 
 

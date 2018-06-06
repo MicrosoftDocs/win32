@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # MSIDEPLOYMENTCOMPLIANT property
 
-The **MSIDEPLOYMENTCOMPLIANT** property can be set to indicate to the installer that the package has been authored and tested to comply with [*User Account Control*](https://www.bing.com/search?q=*User Account Control*) (UAC) in Windows Vista. If this property is not set, the installer will determine whether the package complies with UAC on Windows Vista.
+The **MSIDEPLOYMENTCOMPLIANT** property can be set to indicate to the installer that the package has been authored and tested to comply with [*User Account Control*](u-gly.md#-msi-user-account-control-gly) (UAC) in Windows Vista. If this property is not set, the installer will determine whether the package complies with UAC on Windows Vista.
 
 For more information about UAC and Windows Installer, see [Using Windows Installer with UAC](using-windows-installer-with-uac.md) and [Guidelines for Packages](guidelines-for-packages.md).
 

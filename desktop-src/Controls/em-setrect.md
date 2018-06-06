@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # EM\_SETRECT message
 
-Sets the [formatting rectangle](https://www.bing.com/search?q=formatting rectangle) of a multiline edit control. The formatting rectangle is the limiting rectangle into which the control draws the text. The limiting rectangle is independent of the size of the edit control window.
+Sets the [formatting rectangle](about-edit-controls.md#changing-the-formatting-rectangle) of a multiline edit control. The formatting rectangle is the limiting rectangle into which the control draws the text. The limiting rectangle is independent of the size of the edit control window.
 
 This message is processed only by multiline edit controls. You can send this message to either an edit control or a rich edit control.
 

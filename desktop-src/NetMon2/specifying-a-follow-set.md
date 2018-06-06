@@ -15,7 +15,7 @@ A follow set specifies the protocols that follow a protocol. Network Monitor use
 
 For example, the NetBIOS parser specifies a follow set because the data in the NetBIOS protocol does not identify which protocol is next. As a result the NetBIOS parser must create a follow set of all the protocols that may follow.
 
-The following code example identifies the NetBIOS follow set in the [*Parser.ini*](https://www.bing.com/search?q=*Parser.ini*) file. The follow set contains server message block (SMB), and Microsoft remote procedure call (MSRPC) protocols. These are the only protocols that can follow an instance of the NetBIOS protocol.
+The following code example identifies the NetBIOS follow set in the [*Parser.ini*](p.md#-netmon-parser-ini-gly) file. The follow set contains server message block (SMB), and Microsoft remote procedure call (MSRPC) protocols. These are the only protocols that can follow an instance of the NetBIOS protocol.
 
 ``` syntax
 [NETBIOS]

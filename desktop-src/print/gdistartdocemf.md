@@ -51,13 +51,13 @@ If the operation succeeds, the function returns **TRUE**. Otherwise the function
 
 The **GdiStartDocEMF** function is exported by gdi32.dll for use within a print processor's [**PrintDocumentOnPrintProcessor**](printdocumentonprintprocessor.md) function.
 
-The function performs initializations that must take place before a print job's EMF records can be played. The function calls the spooler's **StartDoc** function (described in the Window SDK documentation), which in turn calls the printer driver's [**DrvStartDoc**](https://www.bing.com/search?q=**DrvStartDoc**) function.
+The function performs initializations that must take place before a print job's EMF records can be played. The function calls the spooler's **StartDoc** function (described in the Window SDK documentation), which in turn calls the printer driver's [**DrvStartDoc**](https://msdn.microsoft.com/f73adc24-2e61-4b62-9d38-12a23b62ed01) function.
 
 The print processor must set the **lpszOutput** member of the DOCINFOW structure to the output file name contained in the [**PRINTPROCESSOROPENDATA**](printprocessoropendata.md) structure, previously received by the [**OpenPrintProcessor**](openprintprocessor.md) function.
 
 The print processor must set the **lpszDocName** member of the DOCINFOW structure to the document name pointer, previously received by the [**PrintDocumentOnPrintProcessor**](printdocumentonprintprocessor.md) function.
 
-For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using GDI Functions in Print Processors).
+For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using+GDI+Functions+in+Print+Processors).
 
 ## Requirements
 

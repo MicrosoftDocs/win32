@@ -31,7 +31,7 @@ HRESULT ScaleBuffer(
 *Scale* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Constant value used to scale the buffer. Every value in the buffer is replaced by the product of this value and the original buffer value.
 

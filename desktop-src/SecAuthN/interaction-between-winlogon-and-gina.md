@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Interaction Between Winlogon and GINA
 
-[*Winlogon*](https://www.bing.com/search?q=*Winlogon*) and the [*GINA*](https://www.bing.com/search?q=*GINA*) must communicate initialization information, handle [*secure attention sequence*](https://www.bing.com/search?q=*secure attention sequence*) (SAS) monitoring and notification, and permit logoff and shutdown activities. The state of Winlogon determines which GINA function is called to process any given SAS event. Communications occur in the order shown here.
+[*Winlogon*](security.w_gly#-security-winlogon-gly) and the [*GINA*](security.g_gly#-security-gina-gly) must communicate initialization information, handle [*secure attention sequence*](security.s_gly#-security-secure-attention-sequence-gly) (SAS) monitoring and notification, and permit logoff and shutdown activities. The state of Winlogon determines which GINA function is called to process any given SAS event. Communications occur in the order shown here.
 
 > [!Note]  
 > GINA DLLs are ignored in Windows Vista.
@@ -36,7 +36,7 @@ ms.date: 05/31/2018
 <td>Workstation boot</td>
 <td><ol>
 <li>Winlogon calls the GINA's [<strong>WlxNegotiate</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxnegotiate) function to notify the GINA about the version of Winlogon in use.</li>
-<li>Winlogon calls the GINA's [<strong>WlxInitialize</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize) function to give the GINA the addresses of the support functions, a handle to Winlogon, and to obtain the [<em>context</em>](https://www.bing.com/search?q=<em>context</em>) information for the GINA (to be used in all future calls to the GINA).<br/> Winlogon is in the logged-out state.<br/></li>
+<li>Winlogon calls the GINA's [<strong>WlxInitialize</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize) function to give the GINA the addresses of the support functions, a handle to Winlogon, and to obtain the [<em>context</em>](security.c_gly#-security-context-gly) information for the GINA (to be used in all future calls to the GINA).<br/> Winlogon is in the logged-out state.<br/></li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -74,7 +74,7 @@ ms.date: 05/31/2018
 </ol></td>
 </tr>
 <tr class="even">
-<td>The user is logged on, and the program calls the [<strong>ExitWindowsEx</strong>](https://msdn.microsoft.com/windows/desktop/f44ccb66-10bd-4ee6-93e1-16948cf10e50) function</td>
+<td>The user is logged on, and the program calls the [<strong>ExitWindowsEx</strong>](https://msdn.microsoft.com/f44ccb66-10bd-4ee6-93e1-16948cf10e50) function</td>
 <td>Winlogon calls the GINA's [<strong>WlxLogoff</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxlogoff) function.</td>
 </tr>
 <tr class="odd">
@@ -88,7 +88,7 @@ ms.date: 05/31/2018
 </ol></td>
 </tr>
 <tr class="even">
-<td>The user is logged on and wants to log off and shut down by using [<strong>ExitWindowsEx</strong>](https://msdn.microsoft.com/windows/desktop/f44ccb66-10bd-4ee6-93e1-16948cf10e50)</td>
+<td>The user is logged on and wants to log off and shut down by using [<strong>ExitWindowsEx</strong>](https://msdn.microsoft.com/f44ccb66-10bd-4ee6-93e1-16948cf10e50)</td>
 <td><ol>
 <li>Winlogon calls the GINA's [<strong>WlxLogoff</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxlogoff) function.</li>
 <li>Winlogon calls the GINA's [<strong>WlxShutdown</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxshutdown) function.</li>

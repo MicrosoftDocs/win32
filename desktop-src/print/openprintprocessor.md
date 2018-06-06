@@ -51,7 +51,7 @@ If the operation succeeds, the function should return a handle that can be used 
 
 Print processors are required to export an `OpenPrintProcessor` function. The spooler calls the function when a print job is available. The function should perform initialization operations that are required before a job can be processed, based on the job's data type.
 
-The function must return a handle. Typically, the handle is a pointer to an internal structure. The structure must contain a pointer to the printer's name and a pointer to the printer's [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure, both of which are received in the [**PRINTPROCESSOROPENDATA**](printprocessoropendata.md) structure. These two pointers are required by the print processor's [**PrintDocumentOnPrintProcessor**](printdocumentonprintprocessor.md) function, and this latter function receives the handle as input when the spooler calls it.
+The function must return a handle. Typically, the handle is a pointer to an internal structure. The structure must contain a pointer to the printer's name and a pointer to the printer's [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure, both of which are received in the [**PRINTPROCESSOROPENDATA**](printprocessoropendata.md) structure. These two pointers are required by the print processor's [**PrintDocumentOnPrintProcessor**](printdocumentonprintprocessor.md) function, and this latter function receives the handle as input when the spooler calls it.
 
 ## Requirements
 

@@ -31,7 +31,7 @@ UI\_PKEY\_FontProperties\_DeltaSize is included in [UI\_PKEY\_FontProperties\_Ch
 
 The following screen shot shows the **Font grow** and **Font shrink** buttons of the Ribbon [**FontControl**](windowsribbon-element-fontcontrol.md).
 
-![screen shot of the font grow and font shrink buttons on the fontcontrol.](https://www.bing.com/search?q=screen shot of the font grow and font shrink buttons on the fontcontrol.)
+![screen shot of the font grow and font shrink buttons on the fontcontrol.](https://www.bing.com/search?q=screen+shot+of+the+font+grow+and+font+shrink+buttons+on+the+fontcontrol.)
 
 The following table describes the property values.
 

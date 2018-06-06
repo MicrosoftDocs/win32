@@ -43,7 +43,7 @@ Returns the index of the previous hot item, or -1 if there was no hot item.
 
 ## Remarks
 
-The behavior of this message is not defined for toolbars that do not have the [**TBSTYLE\_FLAT**](https://www.bing.com/search?q=**TBSTYLE\_FLAT**) style.
+The behavior of this message is not defined for toolbars that do not have the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md#tbstyle-flat) style.
 
 ## Requirements
 

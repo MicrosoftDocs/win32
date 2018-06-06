@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # I have an AVI file containing a Windows Media Video stream. How can I convert it to a WMV file?
 
-For current documentation on Windows Media codecs and digital signal processors, see [Windows Media Audio and Video Codec and DSP APIs.](https://www.bing.com/search?q=Windows Media Audio and Video Codec and DSP APIs.)
+For current documentation on Windows Media codecs and digital signal processors, see [Windows Media Audio and Video Codec and DSP APIs.](https://www.bing.com/search?q=Windows+Media+Audio+and+Video+Codec+and+DSP+APIs.)
 
  
 

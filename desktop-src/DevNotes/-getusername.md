@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[This function is a wrapper over the **GetUserName** function. This function may be altered or unavailable in the future. Applications should call **GetUserName** directly.\]
 
-Gets the user name. See [**GetUserName**](https://msdn.microsoft.com/windows/desktop/87adc46a-c069-4ee5-900a-03b646306e64).
+Gets the user name. See [**GetUserName**](https://msdn.microsoft.com/87adc46a-c069-4ee5-900a-03b646306e64).
 
 ## Syntax
 
@@ -47,7 +47,7 @@ BOOL _GetUserName(
 
 <dl> <dt>
 
-[**GetUserName**](https://msdn.microsoft.com/windows/desktop/87adc46a-c069-4ee5-900a-03b646306e64)
+[**GetUserName**](https://msdn.microsoft.com/87adc46a-c069-4ee5-900a-03b646306e64)
 </dt> </dl>
 
  

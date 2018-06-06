@@ -85,7 +85,7 @@ when using the French recognizer, the resulting context is the default language 
 
 <dl> <dt>
 
-[InputScope Enumeration](https://www.bing.com/search?q=InputScope Enumeration)
+[InputScope Enumeration](https://www.bing.com/search?q=InputScope+Enumeration)
 </dt> </dl>
 
  

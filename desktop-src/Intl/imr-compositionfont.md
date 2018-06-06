@@ -34,13 +34,13 @@ Set to IMR\_COMPOSITIONFONT.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a buffer containing a [**LOGFONT**](https://msdn.microsoft.com/windows/desktop/57658a03-0a6d-4a28-a7c1-c65ec145beb4) structure. The application fills in the values for the current composition window.
+Pointer to a buffer containing a [**LOGFONT**](https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4) structure. The application fills in the values for the current composition window.
 
 </dd> </dl>
 
 ## Return Value
 
-Returns a nonzero value if the application fills in the [**LOGFONT**](https://msdn.microsoft.com/windows/desktop/57658a03-0a6d-4a28-a7c1-c65ec145beb4) structure. Otherwise, the command returns 0.
+Returns a nonzero value if the application fills in the [**LOGFONT**](https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4) structure. Otherwise, the command returns 0.
 
 ## Remarks
 

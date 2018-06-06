@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemUni3::GetPDEVAdjustment method
 
-The `IPrintOemUni3::GetPDEVAdjustment` method enables a plug-in to override specific [*PDEV*](https://www.bing.com/search?q=*PDEV*) settings.
+The `IPrintOemUni3::GetPDEVAdjustment` method enables a plug-in to override specific [*PDEV*](wdkgloss.p#wdkgloss-pdev) settings.
 
 ## Syntax
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # HCRYPTHASH
 
-The **HCRYPTHASH** data type is used to represent handles to [*hash objects*](https://www.bing.com/search?q=*hash objects*). These handles indicate to the CSP module which hash is being used in a particular operation. The CSP module does not enable direct manipulation of the hash values. Instead, the user manipulates the hash values through the hash handle.
+The **HCRYPTHASH** data type is used to represent handles to [*hash objects*](security.h_gly#-security-hash-object-gly). These handles indicate to the CSP module which hash is being used in a particular operation. The CSP module does not enable direct manipulation of the hash values. Instead, the user manipulates the hash values through the hash handle.
 
 
 ```C++

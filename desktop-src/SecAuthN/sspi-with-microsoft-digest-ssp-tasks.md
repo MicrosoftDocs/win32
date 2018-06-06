@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SSPI with Microsoft Digest SSP Tasks
 
-The following topics provide information about using [*Security Support Provider Interface*](https://www.bing.com/search?q=*Security Support Provider Interface*) (SSPI) with the Microsoft Digest Security Support Provider:
+The following topics provide information about using [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) with the Microsoft Digest Security Support Provider:
 
 -   [Obtaining Microsoft Digest SSP Credentials](obtaining-microsoft-digest-ssp-credentials.md)
 -   [Generating the Digest Challenge](generating-the-digest-challenge.md)

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCard::UnlockSCard method
 
-\[The **UnlockScard** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **UnlockScard** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **UnlockScard** method releases exclusive access to the [*smart card*](https://www.bing.com/search?q=*smart card*).
+The **UnlockScard** method releases exclusive access to the [*smart card*](security.s_gly#-security-smart-card-gly).
 
 ## Syntax
 
@@ -33,13 +33,13 @@ HRESULT UnlockSCard(
 *Disposition* \[in\]
 </dt> <dd>
 
-Indicates what should be done with the card in the connected [*reader*](https://www.bing.com/search?q=*reader*).
+Indicates what should be done with the card in the connected [*reader*](security.r_gly#-security-reader-gly).
 
 
 
 | Value                                                                                                                                      | Meaning                                                                                                            |
 |--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| <span id="LEAVE"></span><span id="leave"></span><dl> <dt>**LEAVE**</dt> </dl>       | Leaves the smart card in the current [*state*](https://www.bing.com/search?q=*state*).<br/> |
+| <span id="LEAVE"></span><span id="leave"></span><dl> <dt>**LEAVE**</dt> </dl>       | Leaves the smart card in the current [*state*](security.s_gly#-security-state-gly).<br/> |
 | <span id="RESET"></span><span id="reset"></span><dl> <dt>**RESET**</dt> </dl>       | Resets the smart card to some known state.<br/>                                                              |
 | <span id="UNPOWER"></span><span id="unpower"></span><dl> <dt>**UNPOWER**</dt> </dl> | Removes power from the smart card.<br/>                                                                      |
 | <span id="EJECT"></span><span id="eject"></span><dl> <dt>**EJECT**</dt> </dl>       | Ejects the smart card if the reader has eject capabilities.<br/>                                             |
@@ -67,7 +67,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](https://www.bing.com/search?q=Smart Card Return Values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
 
 ## Examples
 

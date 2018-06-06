@@ -32,7 +32,7 @@ HRESULT GetName(
 *pstrNameBuf* \[out\]
 </dt> <dd>
 
-Type: **[**LPSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to the buffer in which the DirectX file object's name will be copied. Set to **NULL** if only the buffer length is needed.
 
@@ -41,7 +41,7 @@ Pointer to the buffer in which the DirectX file object's name will be copied. Se
 *pdwBufLen* \[in, out\]
 </dt> <dd>
 
-Type: **[**LPDWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPDWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to a DWORD specifying the length of the buffer pointed to by pstrNameBuf. The pdwBufLen parameter value will be modified to the buffer length needed to hold the object's name even if pstrNameBuf is **NULL**. In either case, the function will return DXFILEERR\_BADVALUE if the original value of pdwBufLen is not as large as or larger than the length needed to hold the object's name.
 

@@ -36,7 +36,7 @@ If **OldWndProc** was created with a class style of UNICODE, messages are transl
 
 Similarly, a call to the [**SetWindowLongW**](https://www.bing.com/search?q=**SetWindowLongW**) or [**SetWindowLongPtrW**](https://www.bing.com/search?q=**SetWindowLongPtrW**) function subclasses the current window procedure with a window procedure that expects Unicode text messages. Message translation, if necessary, is performed during the processing of the [**CallWindowProc**](https://www.bing.com/search?q=**CallWindowProc**) function.
 
-For more information about subclassing, see [Window Procedures](https://www.bing.com/search?q=Window Procedures).
+For more information about subclassing, see [Window Procedures](https://www.bing.com/search?q=Window+Procedures).
 
 ## Related topics
 

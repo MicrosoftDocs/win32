@@ -47,9 +47,9 @@ Returns the index of the new item if successful, or -1 otherwise.
 
 You cannot use [**ListView\_InsertItem**](/windows/desktop/api/Commctrl/nf-commctrl-listview_insertitem) or **LVM\_INSERTITEM** to insert subitems. The **iSubItem** member of the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure must be zero. See [**LVM\_SETITEM**](lvm-setitem.md) for information on setting subitems.
 
-If a list-view control has the [**LVS\_EX\_CHECKBOXES**](https://www.bing.com/search?q=**LVS\_EX\_CHECKBOXES**) style set, any value placed in bits 12 through 15 of the **state** member of the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure will be ignored. When an item is added with this style set, it will always be set to the unchecked state.
+If a list-view control has the [**LVS\_EX\_CHECKBOXES**](extended-list-view-styles.md#lvs-ex-checkboxes) style set, any value placed in bits 12 through 15 of the **state** member of the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure will be ignored. When an item is added with this style set, it will always be set to the unchecked state.
 
-If a list-view control has either the [**LVS\_SORTASCENDING**](https://www.bing.com/search?q=**LVS\_SORTASCENDING**) or [**LVS\_SORTDESCENDING**](https://www.bing.com/search?q=**LVS\_SORTDESCENDING**) window style, an **LVM\_INSERTITEM** message will fail if you try to insert an item that has LPSTR\_TEXTCALLBACK as the value for its **pszText** member.
+If a list-view control has either the [**LVS\_SORTASCENDING**](list-view-window-styles.md#lvs-sortascending) or [**LVS\_SORTDESCENDING**](list-view-window-styles.md#lvs-sortdescending) window style, an **LVM\_INSERTITEM** message will fail if you try to insert an item that has LPSTR\_TEXTCALLBACK as the value for its **pszText** member.
 
 The **LVM\_INSERTITEM** message will insert the new item in the proper position in the sort order if the following conditions hold:
 

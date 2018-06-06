@@ -15,7 +15,7 @@ This section describes the methods that are defined for the **IPrintCoreHelperPS
 
 ## Members
 
-The **IPrintCoreHelperPS** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintCoreHelperPS** also has these types of members:
+The **IPrintCoreHelperPS** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintCoreHelperPS** also has these types of members:
 
 -   [Methods](#methods)
 

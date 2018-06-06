@@ -54,10 +54,10 @@ A floating-point, refraction vector. If the angle between the entering ray i and
 
 | Name              | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size                           |
 |-------------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------|
-| *i*               | [**vector**](https://www.bing.com/search?q=**vector**) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | any                            |
-| *n*               | [**vector**](https://www.bing.com/search?q=**vector**) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | same dimension(s) as input *i* |
-| ?                 | [**scalar**](https://www.bing.com/search?q=**scalar**) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 1                              |
-| refraction vector | [**vector**](https://www.bing.com/search?q=**vector**) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | same dimension(s) as input *i* |
+| *i*               | [**vector**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | any                            |
+| *n*               | [**vector**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | same dimension(s) as input *i* |
+| ?                 | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 1                              |
+| refraction vector | [**vector**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | same dimension(s) as input *i* |
 
 
 

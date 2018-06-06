@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WM\_CANCELMODE message
 
-Sent to cancel certain modes, such as mouse capture. For example, the system sends this message to the active window when a dialog box or message box is displayed. Certain functions also send this message explicitly to the specified window regardless of whether it is the active window. For example, the [**EnableWindow**](https://msdn.microsoft.com/windows/desktop/6913efcd-4d12-4396-a4ae-f1fd6335f7a8) function sends this message when disabling the specified window.
+Sent to cancel certain modes, such as mouse capture. For example, the system sends this message to the active window when a dialog box or message box is displayed. Certain functions also send this message explicitly to the specified window regardless of whether it is the active window. For example, the [**EnableWindow**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\enablewindow.htm) function sends this message when disabling the specified window.
 
 A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
 
@@ -72,10 +72,10 @@ When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](/windows/de
 [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**EnableWindow**](https://msdn.microsoft.com/windows/desktop/6913efcd-4d12-4396-a4ae-f1fd6335f7a8)
+[**EnableWindow**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\enablewindow.htm)
 </dt> <dt>
 
-[**ReleaseCapture**](https://msdn.microsoft.com/windows/desktop/43e1f766-35b1-451d-9921-c1d4eebc4435)
+[**ReleaseCapture**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\releasecapture.htm)
 </dt> <dt>
 
 **Conceptual**

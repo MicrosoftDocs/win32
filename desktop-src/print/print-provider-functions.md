@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
  
 
-This section describes functions supplied by [print providers](https://www.bing.com/search?q=print providers). Most provider functions are described in the Microsoft Windows SDK documentation, so this section describes only functions not included in SDK documentation. Print providers must supply pointers to all defined functions by using a [**PRINTPROVIDOR**](printprovidor.md) structure.
+This section describes functions supplied by [print providers](https://www.bing.com/search?q=print+providers). Most provider functions are described in the Microsoft Windows SDK documentation, so this section describes only functions not included in SDK documentation. Print providers must supply pointers to all defined functions by using a [**PRINTPROVIDOR**](printprovidor.md) structure.
 
 This section includes:
 

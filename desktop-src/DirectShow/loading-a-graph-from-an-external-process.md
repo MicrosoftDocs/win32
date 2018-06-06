@@ -123,7 +123,7 @@ To view the filter graph in GraphEdit, run your application and GraphEdit at the
 
 The following illustration shows the **Connect To Graph** dialog box.
 
-![connect to graph](https://www.bing.com/search?q=connect to graph)
+![connect to graph](https://www.bing.com/search?q=connect+to+graph)
 
 When GraphEdit loads the graph, it executes in the context of the target application. Therefore, GraphEdit might block because it is waiting for the thread. For example, this can occur if you are stepping through your code in the debugger.
 

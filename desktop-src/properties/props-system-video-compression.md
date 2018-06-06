@@ -31,7 +31,7 @@ propertyDescription
 
 ## Remarks
 
-The value of this property is a string representation of a GUID in canonical form: "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}". The GUID specifies the video format. For possible values, see [Video Subtype GUIDs](https://msdn.microsoft.com/windows/desktop/7dfd85e6-936e-4b78-a2cb-a5d59153e1c4).
+The value of this property is a string representation of a GUID in canonical form: "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}". The GUID specifies the video format. For possible values, see [Video Subtype GUIDs](https://msdn.microsoft.com/7dfd85e6-936e-4b78-a2cb-a5d59153e1c4).
 
 PKEY values are defined in Propkey.h.
 

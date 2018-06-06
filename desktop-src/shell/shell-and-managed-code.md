@@ -49,7 +49,7 @@ The CLR creates *Runtime Callable Wrappers* for Component Object Model (COM) obj
 The CLR has weaker object lifetime guarantees than native code. Many extensions have reference count requirements on objects and interfaces, and the garbage-collection model employed by the CLR cannot fulfill these requirements.
 
 -   If a CLR object obtains a reference to a COM object, the COM object reference held by the Runtime Callable Wrapper is not released until the Runtime Callable Wrapper is garbage-collected. Nondeterministic release behavior can conflict with some interface contracts. For example, the [**IPersistPropertyBag::Load**](https://www.bing.com/search?q=**IPersistPropertyBag::Load**) method requires that no reference to the property bag be retained by the object when the **Load** method returns.
--   If a CLR object reference is returned to native code, the Runtime Callable Wrapper relinquishes its reference to the CLR object when the Runtime Callable Wrapper's final call to [**Release**](https://msdn.microsoft.com/windows/desktop/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) is made, but the underlying CLR object is not finalized until it is garbage-collected. Nondeterministic finalization can conflict with some interface contracts. For example, thumbnail handlers are required to release all resources immediately when their reference count drops to zero.
+-   If a CLR object reference is returned to native code, the Runtime Callable Wrapper relinquishes its reference to the CLR object when the Runtime Callable Wrapper's final call to [**Release**](https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) is made, but the underlying CLR object is not finalized until it is garbage-collected. Nondeterministic finalization can conflict with some interface contracts. For example, thumbnail handlers are required to release all resources immediately when their reference count drops to zero.
 
 ## Acceptable Uses of Managed Code and Other Runtimes
 
@@ -61,9 +61,9 @@ It is acceptable to use managed code and other runtimes to implement out-of-proc
 
 Some extensions can be implemented either as in-process or out-of-process extensions. You can implement these extensions as out-of-process extensions if they do not meet these requirements for in-process extensions. The following list shows examples of extensions that can be implemented as either in-process or out-of-process extensions:
 
--   [**IExecuteCommand**](https://msdn.microsoft.com/windows/desktop/a3432f1a-dd33-4e0d-8b26-1312bb5151f7) associated with a **DelegateExecute** entry registered under a **shell**\\*verb*\\**command** subkey.
--   [**IDropTarget**](https://msdn.microsoft.com/windows/desktop/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) associated with the CLSID registered under a **shell**\\*verb*\\**DropTarget** subkey.
--   [**IExplorerCommandState**](https://msdn.microsoft.com/windows/desktop/020a6f6f-1d45-44bd-a57f-ef8000976b5b) associated with a **CommandStateHandler** entry registered under a **shell**\\*verb* subkey.
+-   [**IExecuteCommand**](https://msdn.microsoft.com/a3432f1a-dd33-4e0d-8b26-1312bb5151f7) associated with a **DelegateExecute** entry registered under a **shell**\\*verb*\\**command** subkey.
+-   [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) associated with the CLSID registered under a **shell**\\*verb*\\**DropTarget** subkey.
+-   [**IExplorerCommandState**](https://msdn.microsoft.com/020a6f6f-1d45-44bd-a57f-ef8000976b5b) associated with a **CommandStateHandler** entry registered under a **shell**\\*verb* subkey.
 
  
 

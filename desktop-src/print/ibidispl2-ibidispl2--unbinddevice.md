@@ -66,10 +66,10 @@ The method returns one of the following values.
 [Bidirectional Communication Interfaces](bidirectional-communication-interfaces.md)
 </dt> <dt>
 
-[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional Communication Schema)
+[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional+Communication+Schema)
 </dt> <dt>
 
-[Print Spooler Components](https://www.bing.com/search?q=Print Spooler Components)
+[Print Spooler Components](https://www.bing.com/search?q=Print+Spooler+Components)
 </dt> </dl>
 
  

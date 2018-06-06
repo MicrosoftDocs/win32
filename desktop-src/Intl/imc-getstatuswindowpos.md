@@ -40,7 +40,7 @@ Not used.
 
 ## Return Value
 
-Returns a [**POINTS**](https://msdn.microsoft.com/windows/desktop/d36bc846-c538-4a37-bb5d-c75d41a3c7cc) structure that contains the x coordinate and y coordinate of the status window position in screen coordinates, relative to the upper left corner of the screen.
+Returns a [**POINTS**](https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc) structure that contains the x coordinate and y coordinate of the status window position in screen coordinates, relative to the upper left corner of the screen.
 
 ## Requirements
 

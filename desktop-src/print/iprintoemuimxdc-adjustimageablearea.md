@@ -43,7 +43,7 @@ A handle to the printer that is currently being queried.
 *cbDevMode* 
 </dt> <dd>
 
-The size of the [**DEVMODE**](https://www.bing.com/search?q=**DEVMODE**) structure, in bytes, including appended data.
+The size of the [**DEVMODE**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure, in bytes, including appended data.
 
 </dd> <dt>
 
@@ -71,7 +71,7 @@ A pointer to the data that is contained in the vendor portion of the DEVMODE str
 *prclImageableArea* 
 </dt> <dd>
 
-A pointer to a [**RECTL**](https://www.bing.com/search?q=**RECTL**) structure that contains the printable area. This parameter is populated by UnidrvUI.dll or PS5UI.dll with data from the corresponding GPD or PPD, before the parameter is passed to the plug-in. The plug-in can then update this data before returning.
+A pointer to a [**RECTL**](https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24) structure that contains the printable area. This parameter is populated by UnidrvUI.dll or PS5UI.dll with data from the corresponding GPD or PPD, before the parameter is passed to the plug-in. The plug-in can then update this data before returning.
 
 </dd> </dl>
 
@@ -104,7 +104,7 @@ If the plug-in cannot complete the operation, it should return an appropriate fa
 [**IPrintOemUIMXDC**](iprintoemuimxdc-interface.md)
 </dt> <dt>
 
-[**RECTL**](https://www.bing.com/search?q=**RECTL**)
+[**RECTL**](https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24)
 </dt> </dl>
 
  

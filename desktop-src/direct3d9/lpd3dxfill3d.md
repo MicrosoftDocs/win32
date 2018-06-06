@@ -43,7 +43,7 @@ No return value.
 
 ## Remarks
 
-Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
+Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
 
 
 

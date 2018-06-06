@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Overriding the Default MPR Time-out Interval
 
-The [*Multiple Provider Router*](https://www.bing.com/search?q=*Multiple Provider Router*) (MPR) calls [**NPGetCaps**](/windows/desktop/api/Npapi/nf-npapi-npgetcaps) to find out when the network providers will start (*nIndex* is set to WNNC\_START). The MPR then waits for the longest time-out period specified by all network providers before it presents the consolidated network to the user. If one of the network providers does not know when it will start, MPR uses a default time-out of 60 seconds for that provider.
+The [*Multiple Provider Router*](security.m_gly#-security-multiple-provider-router-gly) (MPR) calls [**NPGetCaps**](/windows/desktop/api/Npapi/nf-npapi-npgetcaps) to find out when the network providers will start (*nIndex* is set to WNNC\_START). The MPR then waits for the longest time-out period specified by all network providers before it presents the consolidated network to the user. If one of the network providers does not know when it will start, MPR uses a default time-out of 60 seconds for that provider.
 
 If necessary, the administrator can override the default time-out by creating the following **REG\_DWORD** registry time-out, where *n* is the time-out interval in milliseconds:
 

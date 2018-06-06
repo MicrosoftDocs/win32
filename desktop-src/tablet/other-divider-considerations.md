@@ -36,7 +36,7 @@ You may be able to record the analysis results as application data, and implemen
 [**InkDivider Class**](/windows/desktop/api/msinkaut15/)
 </dt> <dt>
 
-[Microsoft.Ink.Divider Class](https://www.bing.com/search?q=Microsoft.Ink.Divider Class)
+[Microsoft.Ink.Divider Class](https://www.bing.com/search?q=Microsoft.Ink.Divider+Class)
 </dt> </dl>
 
  

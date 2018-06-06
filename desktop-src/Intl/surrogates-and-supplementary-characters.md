@@ -27,10 +27,10 @@ A supplementary character is a character located beyond the BMP, and a "surrogat
 The operating system supports supplementary characters in the following ways:
 
 -   Format 12 of the OpenType font cmap table directly supports the 4-byte character code. For more information, see the [OpenType font specification](http://www.microsoft.com/OpenType/OTSpec/cmap.md).
--   Windows supports surrogate-enabled [input method editors (IMEs)](https://msdn.microsoft.com/windows/desktop/0dc430ce-bed4-8d02-f45e-4eefb0ad0369).
--   The [Windows GDI](https://msdn.microsoft.com/windows/desktop/b58ab70a-2071-4264-9d20-c0b0aaf8dc5c) API supports format 12 cmap tables in fonts so that surrogates can be displayed correctly.
+-   Windows supports surrogate-enabled [input method editors (IMEs)](https://msdn.microsoft.com/0dc430ce-bed4-8d02-f45e-4eefb0ad0369).
+-   The [Windows GDI](https://msdn.microsoft.com/b58ab70a-2071-4264-9d20-c0b0aaf8dc5c) API supports format 12 cmap tables in fonts so that surrogates can be displayed correctly.
 -   The [Uniscribe](uniscribe.md) API supports supplementary characters.
--   [Windows controls](https://www.bing.com/search?q=Windows controls), including [Edit](https://www.bing.com/search?q=Edit) and [Rich Edit](https://www.bing.com/search?q=Rich Edit), support supplementary characters.
+-   [Windows controls](https://www.bing.com/search?q=Windows+controls), including [Edit](https://www.bing.com/search?q=Edit) and [Rich Edit](https://www.bing.com/search?q=Rich+Edit), support supplementary characters.
 -   The HTML engine supports HTML pages that include supplementary characters for display, editing (through Outlook Express), and forms submission.
 -   The operating system sorting table supports supplementary characters.
 
@@ -40,7 +40,7 @@ UTF-16 handles supplementary characters as surrogate pairs. The operating system
 
 Windows Vista introduces three new macros to help identify surrogates and surrogate pairs in UTF-16 strings. These are [**IS\_HIGH\_SURROGATE**](/windows/desktop/api/Winnls/nf-winnls-is_high_surrogate), [**IS\_LOW\_SURROGATE**](/windows/desktop/api/Winnls/nf-winnls-is_low_surrogate), and [**IS\_SURROGATE\_PAIR**](/windows/desktop/api/Winnls/nf-winnls-is_surrogate_pair).
 
-Applications automatically support supplementary characters if they support Unicode and use system controls and standard API functions, such as [**ExtTextOut**](https://msdn.microsoft.com/windows/desktop/74f8fcb8-8ad4-47f2-a330-fa56713bdb37) and [**DrawText**](https://msdn.microsoft.com/windows/desktop/fe412280-d797-4abd-8a29-107a9cd96145). Thus, if your application uses standard system controls or uses general [**ExtTextOut**](https://msdn.microsoft.com/windows/desktop/74f8fcb8-8ad4-47f2-a330-fa56713bdb37)-type calls to display, supplementary characters should work without any special coding.
+Applications automatically support supplementary characters if they support Unicode and use system controls and standard API functions, such as [**ExtTextOut**](https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37) and [**DrawText**](https://msdn.microsoft.com/fe412280-d797-4abd-8a29-107a9cd96145). Thus, if your application uses standard system controls or uses general [**ExtTextOut**](https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37)-type calls to display, supplementary characters should work without any special coding.
 
 Applications that implement their own editing support by working out glyph positions in a customized way can use Uniscribe for all text processing. Uniscribe has separate functions to deal with complex script processing, such as text display, hit testing, and cursor movement. An application must call the Uniscribe functions specifically to get these advanced features. Note that applications using the Uniscribe functions are fully multilingual, but this imposes a performance penalty. Thus some applications should do their own processing of supplementary characters.
 

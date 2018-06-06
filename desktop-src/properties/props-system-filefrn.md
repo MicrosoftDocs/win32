@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # System.FileFRN
 
-The unique file ID, also known as the File Reference Number. For a given file, this is the same value as the **FileId** member of the [**FILE\_ID\_BOTH\_DIR\_INFO**](https://msdn.microsoft.com/windows/desktop/d7011ea4-e70a-4c03-a715-6144ce0c7029) structure, which is obtained by a call to [**GetFileInformationByHandleEx**](https://msdn.microsoft.com/windows/desktop/e261ea45-d084-490e-94b4-129bd76f6a04).
+The unique file ID, also known as the File Reference Number. For a given file, this is the same value as the **FileId** member of the [**FILE\_ID\_BOTH\_DIR\_INFO**](https://msdn.microsoft.com/d7011ea4-e70a-4c03-a715-6144ce0c7029) structure, which is obtained by a call to [**GetFileInformationByHandleEx**](https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04).
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 

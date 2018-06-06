@@ -20,7 +20,7 @@ The system checks the object's DACL, looking for ACEs that apply to the user and
 
 The following illustration shows the relationship between these blocks of security information:
 
-![relationships between processes, aces, and dacls](https://www.bing.com/search?q=relationships between processes, aces, and dacls)
+![relationships between processes, aces, and dacls](https://www.bing.com/search?q=relationships+between+processes,+aces,+and+dacls)
 
  
 

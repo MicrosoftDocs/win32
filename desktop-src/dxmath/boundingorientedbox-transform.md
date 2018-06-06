@@ -19,8 +19,8 @@ Transforms the [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/n
 
 | Method                                                                                                                   | Description                                                                   |
 |:-------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,XMMATRIX)**](https://www.bing.com/search?q=**BoundingOrientedBox::Transform (BoundingOrientedBox&,XMMATRIX)**)                | Transforms the [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
-| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,float,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingOrientedBox::Transform (BoundingOrientedBox&,float,XMVECTOR,XMVECTOR)**) | Transforms the [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
+| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,XMMATRIX)**](https://www.bing.com/search?q=**BoundingOrientedBox::Transform+(BoundingOrientedBox&,XMMATRIX)**)                | Transforms the [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
+| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,float,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingOrientedBox::Transform+(BoundingOrientedBox&,float,XMVECTOR,XMVECTOR)**) | Transforms the [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
 
 
 

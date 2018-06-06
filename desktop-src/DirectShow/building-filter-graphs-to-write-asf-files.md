@@ -25,7 +25,7 @@ An alternative way is to add each filter manually to the graph and connect the p
 
 The following illustration shows typical WM ASF Writer transcoding filter graph configurations.
 
-![transcoding filter graph](https://www.bing.com/search?q=transcoding filter graph)
+![transcoding filter graph](https://www.bing.com/search?q=transcoding+filter+graph)
 
 Inserting Native Stream Formats Into ASF Files
 
@@ -48,7 +48,7 @@ Capturing Directly from a Device to an ASF File
 
 When capturing audio or video directly to an ASF file, the filter graph will look similar to the following, depending on the type of capture device being used.
 
-![windows media video capture graph](https://www.bing.com/search?q=windows media video capture graph)
+![windows media video capture graph](https://www.bing.com/search?q=windows+media+video+capture+graph)
 
 For more information about creating video and audio capture graphs, see the following topics:
 

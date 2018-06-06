@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemDriverUni::DrvGetGPDData method
 
-The `IPrintOemDriverUni::DrvGetGPDData` method is provided by the Unidrv driver so that rendering plug-ins can obtain data defined in a printer's [*GPD*](https://www.bing.com/search?q=*GPD*) file.
+The `IPrintOemDriverUni::DrvGetGPDData` method is provided by the Unidrv driver so that rendering plug-ins can obtain data defined in a printer's [*GPD*](wdkgloss.g#wdkgloss-generic-printer-description--gpd-) file.
 
 ## Syntax
 

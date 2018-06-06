@@ -30,7 +30,7 @@ Multiplication operators
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMVECTOR::operator * (float,XMVECTOR)</strong>](https://www.bing.com/search?q=<strong>XMVECTOR::operator * (float,XMVECTOR)</strong>)</td>
+<td style="text-align: left;">[<strong>XMVECTOR::operator * (float,XMVECTOR)</strong>](https://www.bing.com/search?q=<strong>XMVECTOR::operator+*+(float,XMVECTOR)</strong>)</td>
 <td style="text-align: left;">Multiply a floating point value by an instance of <code>XMVECTOR</code>, returning the result a new instance of <code>XMVECTOR</code>.<br/> The <code>operator *</code> multiplies a floating point value against each component of an instance of [<strong>XMVECTOR Data Type</strong>](xmvector-data-type.md), returning a new <code>XMVECTOR</code> instance whose components contain the result. <br/>
 <blockquote>
 [!Note]<br />
@@ -39,7 +39,7 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMVECTOR::operator * (XMVECTOR,float)</strong>](https://www.bing.com/search?q=<strong>XMVECTOR::operator * (XMVECTOR,float)</strong>)</td>
+<td style="text-align: left;">[<strong>XMVECTOR::operator * (XMVECTOR,float)</strong>](https://www.bing.com/search?q=<strong>XMVECTOR::operator+*+(XMVECTOR,float)</strong>)</td>
 <td style="text-align: left;">Multiply an instance of <code>XMVECTOR</code> by a floating point value, returning the result a new instance of <code>XMVECTOR</code>.<br/> The <code>operator *</code> multiplies each component of an instance of [<strong>XMVECTOR Data Type</strong>](xmvector-data-type.md) by a floating point value, returning a new <code>XMVECTOR</code> instance whose components contain the result. <br/>
 <blockquote>
 [!Note]<br />
@@ -48,7 +48,7 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMVECTOR::operator * (XMVECTOR,XMVECTOR)</strong>](https://www.bing.com/search?q=<strong>XMVECTOR::operator * (XMVECTOR,XMVECTOR)</strong>)</td>
+<td style="text-align: left;">[<strong>XMVECTOR::operator * (XMVECTOR,XMVECTOR)</strong>](https://www.bing.com/search?q=<strong>XMVECTOR::operator+*+(XMVECTOR,XMVECTOR)</strong>)</td>
 <td style="text-align: left;">Multiplies one instance of <code>XMVECTOR</code> by a second instance, returning the result in a third instance. <br/> The <code>operator *</code> multiplies each component of an instance of [<strong>XMVECTOR Data Type</strong>](xmvector-data-type.md) by the corresponding component in a second instance of <code>XMVECTOR</code>, returning a new <code>XMVECTOR</code> instance containing the result. <br/>
 <blockquote>
 [!Note]<br />

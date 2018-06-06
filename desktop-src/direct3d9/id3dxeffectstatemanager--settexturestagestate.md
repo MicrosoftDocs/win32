@@ -33,7 +33,7 @@ HRESULT SetTextureStageState(
 *Stage* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The stage that the texture is assigned to. This is the index value in [**IDirect3DDevice9::SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) or [**IDirect3DDevice9::SetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate).
 
@@ -42,18 +42,18 @@ The stage that the texture is assigned to. This is the index value in [**IDirect
 *Type* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/windows/desktop/87a5a1bb-e748-4c72-8320-ea82250dcc0e)**
+Type: **[**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturestagestatetype.htm)**
 
-Defines the type of operation that a texture stage will perform. See [**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/windows/desktop/87a5a1bb-e748-4c72-8320-ea82250dcc0e).
+Defines the type of operation that a texture stage will perform. See [**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturestagestatetype.htm).
 
 </dd> <dt>
 
 *Value* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-Can be either an operation ([**D3DTEXTUREOP**](https://msdn.microsoft.com/windows/desktop/7bfdcb15-c3c3-4e7e-b924-6ecfa350e2f3)) or an argument value ([D3DTA](d3dta.md)), depending on what is chosen for Type.
+Can be either an operation ([**D3DTEXTUREOP**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtextureop.htm)) or an argument value ([D3DTA](d3dta.md)), depending on what is chosen for Type.
 
 </dd> </dl>
 

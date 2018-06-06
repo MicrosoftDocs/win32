@@ -54,8 +54,8 @@ The UBYTE4 representation of the *x* parameter.
 
 | Name  | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size |
 |-------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------|
-| *x*   | [**vector**](https://www.bing.com/search?q=**vector**) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 4    |
-| *ret* | [**vector**](https://www.bing.com/search?q=**vector**) | [**integer**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                      | 4    |
+| *x*   | [**vector**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 4    |
+| *ret* | [**vector**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**integer**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                      | 4    |
 
 
 

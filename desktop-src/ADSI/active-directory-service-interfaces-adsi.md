@@ -80,10 +80,10 @@ Documentation of ADSI interfaces and methods.
 
 <dl> <dt>
 
-[The Component Object Model](https://www.bing.com/search?q=The Component Object Model)
+[The Component Object Model](https://www.bing.com/search?q=The+Component+Object+Model)
 </dt> <dt>
 
-[COM Clients and Servers](https://www.bing.com/search?q=COM Clients and Servers)
+[COM Clients and Servers](https://www.bing.com/search?q=COM+Clients+and+Servers)
 </dt> <dt>
 
 [Active Directory Domain Services](https://msdn.microsoft.com/library/aa362244)

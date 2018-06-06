@@ -57,7 +57,7 @@ The following WinRM components reside on the responding computer.
 
 -   WsmSvc.dll
 
-    WinRM [*listener*](https://www.bing.com/search?q=*listener*) service.
+    WinRM [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener) service.
 
 -   WsmProv.dll
 
@@ -69,7 +69,7 @@ The following WinRM components reside on the responding computer.
 
 -   WsmWmiPl.dll
 
-    [*WMI plug-in*](https://www.bing.com/search?q=*WMI plug-in*). This allows you to obtain WMI data through WinRM.
+    [*WMI plug-in*](windows-remote-management-glossary.md#winrm-gloss-wmi-plug-in). This allows you to obtain WMI data through WinRM.
 
 -   Intelligent Platform Management Interface (IPMI) driver and WMI IPMI provider
 

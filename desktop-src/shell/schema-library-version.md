@@ -43,7 +43,7 @@ The content version of the library is different from the library's file format (
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[Search Connector Description Schema](https://www.bing.com/search?q=Search Connector Description Schema)
+[Search Connector Description Schema](https://www.bing.com/search?q=Search+Connector+Description+Schema)
 </dt> </dl>
 
  

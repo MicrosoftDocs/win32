@@ -35,7 +35,7 @@ Retrieves the handle to the tooltip control assigned to the trackbar, if any.
 
 ## Return value
 
-Returns the handle to the tooltip control assigned to the trackbar, or **NULL** if tooltips are not in use. If the trackbar control does not use the [**TBS\_TOOLTIPS**](https://www.bing.com/search?q=**TBS\_TOOLTIPS**) style, the return value is **NULL**.
+Returns the handle to the tooltip control assigned to the trackbar, or **NULL** if tooltips are not in use. If the trackbar control does not use the [**TBS\_TOOLTIPS**](trackbar-control-styles.md#tbs-tooltips) style, the return value is **NULL**.
 
 ## Requirements
 

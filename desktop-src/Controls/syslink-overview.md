@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # About SysLink Controls
 
-A SysLink control is a window that renders marked-up text, and notifies the application when users click its embedded hyperlinks. This control provides a convenient alternative to using the [**Command link button**](https://www.bing.com/search?q=**Command link button**). For more information, see [Button Types](button-types-and-styles.md).
+A SysLink control is a window that renders marked-up text, and notifies the application when users click its embedded hyperlinks. This control provides a convenient alternative to using the [**Command link button**](button-styles.md#bs-commandlink). For more information, see [Button Types](button-types-and-styles.md).
 
 Each SysLink control can support multiple hyperlinks, and you can access each hyperlink through a zero-based index. The SysLink control is defined in the ComCtl32.dll version 6, and it requires a manifest or directive that specifies that version 6 of the DLL should be used if it is available. For more information, see [Enabling Visual Styles](cookbook-overview.md).
 

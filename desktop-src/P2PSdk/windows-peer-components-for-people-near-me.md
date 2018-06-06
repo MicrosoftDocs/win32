@@ -23,7 +23,7 @@ The People Near Me Publisher component publishes the nicknames of logged-on user
 
 ### People Near Me Enumerator
 
-The People Near Me Enumerator component enumerates the list of users on the local subnet. Using this list, Web Services Discovery sends a multicast query and receives the responses. After the list of nicknames are obtained, an application can use the API to retrieve more data being published by the user (which is encrypted using [SChannel](https://www.bing.com/search?q=SChannel)), such as the list of applications registered and any objects being published.
+The People Near Me Enumerator component enumerates the list of users on the local subnet. Using this list, Web Services Discovery sends a multicast query and receives the responses. After the list of nicknames are obtained, an application can use the API to retrieve more data being published by the user (which is encrypted using [SChannel](windows-vista-components-for-people-near-me.md#schannel)), such as the list of applications registered and any objects being published.
 
 The search and enumeration process does not happen automatically, but must be explicitly initiated by a user or an application by signing-in to PNM. The search results are the list of nicknames of other users on the same subnet that are advertising their nicknames using the PNM API.
 
@@ -41,7 +41,7 @@ The Receive Invitation Handler/UX component receives an incoming invitation from
 
 ### Peer Security
 
-When presence, application, and object are sent, the information is encrypted using an SSL channel ([Schannel](https://www.bing.com/search?q=Schannel)). The initiating computer uses the public key of the invited computer to negotiate a secret key that is used for encrypting the subsequent data sent between the two peers.
+When presence, application, and object are sent, the information is encrypted using an SSL channel ([Schannel](windows-vista-components-for-people-near-me.md#schannel)). The initiating computer uses the public key of the invited computer to negotiate a secret key that is used for encrypting the subsequent data sent between the two peers.
 
  
 

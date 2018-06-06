@@ -49,7 +49,7 @@ If the message is successful, the return value is **TRUE**. Otherwise the return
 
 When the number of items in the drop-down list is greater than the minimum, the combo box uses a scroll bar. By default, 30 is the minimum number of visible items.
 
-This message is ignored if the combo box control has style [**CBS\_NOINTEGRALHEIGHT**](https://www.bing.com/search?q=**CBS\_NOINTEGRALHEIGHT**).
+This message is ignored if the combo box control has style [**CBS\_NOINTEGRALHEIGHT**](combo-box-styles.md#cbs-nointegralheight).
 
 To use **CB\_SETMINVISIBLE**, the application must specify comctl32.dll version 6 in the manifest. For more information, see [Enabling Visual Styles](cookbook-overview.md).
 

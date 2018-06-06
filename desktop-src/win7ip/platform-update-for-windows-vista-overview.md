@@ -144,7 +144,7 @@ All APIs are supported on previous versions of Windows that are eligible for the
 
 UI Automation is a newer technology that implements the UI Automation specification and addresses many of the limitations of Microsoft Active Accessibility. It is a set of APIs that provides programmatic access to the user interface elements of applications. The provided API help Assistive Technology products and automated testing tools access, identify, and manipulate the standard and custom UI elements of an application.
 
-For more information about UI Automation, see [Windows Automation API: UI Automation](https://www.bing.com/search?q=Windows Automation API: UI Automation).
+For more information about UI Automation, see [Windows Automation API: UI Automation](https://www.bing.com/search?q=Windows+Automation+API:+UI+Automation).
 
 ### Supported UI Automation API Elements
 
@@ -286,7 +286,7 @@ All APIs are supported on previous versions of Windows that are eligible for the
 
 The XPS Document APIs support the creating, modifying, and saving of XPS Documents in unmanaged applications
 
-For more information about XPS Document APIs, please see the [XPS Document Programming Guide.](https://www.bing.com/search?q=XPS Document Programming Guide.)
+For more information about XPS Document APIs, please see the [XPS Document Programming Guide.](https://www.bing.com/search?q=XPS+Document+Programming+Guide.)
 
 ### Supported XPS Document API Elements
 
@@ -351,7 +351,7 @@ The Windows Ribbon (Ribbon) framework is a rich command presentation system that
 
 The framework is a collection of Microsoft Win32 APIs that provide a host of new user interface capabilities for Windows developers and includes both the Ribbon and a context menu system.
 
-For more information about the Ribbon framework, see [Introducing the Windows Ribbon Framework](https://www.bing.com/search?q=Introducing the Windows Ribbon Framework).
+For more information about the Ribbon framework, see [Introducing the Windows Ribbon Framework](https://www.bing.com/search?q=Introducing+the+Windows+Ribbon+Framework).
 
 ### Supported Ribbon Framework API Elements
 

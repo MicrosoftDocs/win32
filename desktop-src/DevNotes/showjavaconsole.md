@@ -36,7 +36,7 @@ This function does not return a value.
 
 Calling **ShowJavaConsole** causes the Java virtual machine (VM) to display the Java console window. The Java console window itself can display debugging output from Java code running in the calling process. Typically, this would be used only by an application hosting the Java VM. There is only a single Java console window per process; multiple calls to the API result in the same window being displayed. In other words, if the console window is already displayed, nothing happens; if the window has not been displayed, or the user has closed it, then the window pops up.
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/windows/desktop/a0d7fc09-f888-4f46-a571-d3719a627597) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions.
 
 ## Requirements
 

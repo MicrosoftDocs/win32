@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="base.vssgloss_new_target_location"></span><span id="BASE.VSSGLOSS_NEW_TARGET_LOCATION"></span>**new target location**
 </dt> <dd>
 
-A path that only a requester can specify if it requires a file to be restored to a new location. This should not be confused with alternate location mapping. See also [*alternate location mapping*](https://www.bing.com/search?q=*alternate location mapping*).
+A path that only a requester can specify if it requires a file to be restored to a new location. This should not be confused with alternate location mapping. See also [*alternate location mapping*](vssgloss-a.md#base-vssgloss-alternate-location-mapping).
 
 </dd> </dl>
 

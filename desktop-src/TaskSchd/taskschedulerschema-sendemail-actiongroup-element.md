@@ -68,7 +68,7 @@ For script development, see the [**EmailAction**](emailaction.md) object.
 
 ## Examples
 
-For a complete example of the XML for a task that specifies an email action, see [Event Trigger Example (XML)](https://www.bing.com/search?q=Event Trigger Example (XML)).
+For a complete example of the XML for a task that specifies an email action, see [Event Trigger Example (XML)](https://www.bing.com/search?q=Event+Trigger+Example+(XML)).
 
 ## Requirements
 

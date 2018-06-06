@@ -101,7 +101,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 This method is supported for any Pscript5 render plug-in.
 
-For more information, see [Using EnumOptions](https://www.bing.com/search?q=Using EnumOptions).
+For more information, see [Using EnumOptions](https://www.bing.com/search?q=Using+EnumOptions).
 
 ## Requirements
 

@@ -86,11 +86,11 @@ The `IPrintOemUni::TTDownloadMethod` method's purpose is to allow a rendering pl
 
 If a rendering plug-in implements the `IPrintOemUni::TTDownloadMethod` method, Unidrv calls the method each time it is ready to send a TrueType font to the print spooler. Unidrv specifies the font type and the `IPrintOemUni::TTDownloadMethod` method should specify the printer's preferred format in the location pointed to by *pdwResult*.
 
-The method should not return TTDOWNLOAD\_TTOUTLINE unless the printer can rasterize TrueType fonts. The rendering plug-in is responsible for reading and parsing TrueType font files. Pointers to TrueType font files can be obtained by calling [**FONTOBJ\_pvTrueTypeFontFile**](https://www.bing.com/search?q=**FONTOBJ\_pvTrueTypeFontFile**).
+The method should not return TTDOWNLOAD\_TTOUTLINE unless the printer can rasterize TrueType fonts. The rendering plug-in is responsible for reading and parsing TrueType font files. Pointers to TrueType font files can be obtained by calling [**FONTOBJ\_pvTrueTypeFontFile**](https://msdn.microsoft.com/2665d984-6a35-4950-92c0-82e7c8b633aa).
 
 The `IPrintOemUni::TTDownloadMethod` method is optional. If a rendering plug-in implements this method, the plug-in's [**IPrintOemUni::GetImplementedMethod**](iprintoemuni-getimplementedmethod.md) method must return S\_OK when it receives "TTDownLoadMethod" as input.
 
-For additional information see [Customized Font Management](https://www.bing.com/search?q=Customized Font Management).
+For additional information see [Customized Font Management](https://www.bing.com/search?q=Customized+Font+Management).
 
 ## Requirements
 
@@ -116,7 +116,7 @@ For additional information see [Customized Font Management](https://www.bing.com
 [**UNIFONTOBJ**](unifontobj.md)
 </dt> <dt>
 
-[**FONTOBJ\_pvTrueTypeFontFile**](https://www.bing.com/search?q=**FONTOBJ\_pvTrueTypeFontFile**)
+[**FONTOBJ\_pvTrueTypeFontFile**](https://msdn.microsoft.com/2665d984-6a35-4950-92c0-82e7c8b633aa)
 </dt> <dt>
 
 [**IPrintOemUni::GetImplementedMethod**](iprintoemuni-getimplementedmethod.md)

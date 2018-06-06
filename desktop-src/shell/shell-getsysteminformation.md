@@ -111,7 +111,7 @@ ProcessorArchitecture
 
 **Integer**
 
-The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/windows/desktop/971293b8-0af0-4bdf-a7d7-6b1bb80a469c) structure.
+The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/971293b8-0af0-4bdf-a7d7-6b1bb80a469c) structure.
 
 PhysicalMemoryInstalled
 

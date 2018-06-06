@@ -15,7 +15,7 @@ This section describes the methods defined for the **IPrintOemUI** COM interface
 
 ## Members
 
-The **IPrintOemUI** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintOemUI** also has these types of members:
+The **IPrintOemUI** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintOemUI** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -38,7 +38,7 @@ The **IPrintOemUI** interface has these methods.
 | [**PrinterEvent**](iprintoemui-printerevent.md)                     | The `IPrintOemUI::PrinterEvent` method allows a user interface plug-in to process printer events.<br/>                                                                                                                                             |
 | [**PublishDriverInterface**](iprintoemui-publishdriverinterface.md) | The `IPrintOemUI::PublishDriverInterface` method allows a user interface plug-in to obtain the Unidrv or Pscript5 driver's **IPrintOemDriverUI**, **IPrintCoreUI2**, **IPrintCoreHelperPS**, or **IPrintCoreHelperUni** interface.<br/>            |
 | [**QueryColorProfile**](iprintoemui-querycolorprofile.md)           | The `IPrintOemUI::QueryColorProfile` method allows a user interface plug-in to specify an ICC profile to use for color management.<br/>                                                                                                            |
-| [**UpdateExternalFonts**](iprintoemui-updateexternalfonts.md)       | The `IPrintOemUI::UpdateExternalFonts` method allows a user interface plug-in to update a printer's [Unidrv Font Format Files](https://www.bing.com/search?q=Unidrv Font Format Files) (.uff file).<br/> |
+| [**UpdateExternalFonts**](iprintoemui-updateexternalfonts.md)       | The `IPrintOemUI::UpdateExternalFonts` method allows a user interface plug-in to update a printer's [Unidrv Font Format Files](print.customized_font_management#ddk-unidrv-font-format-files-gg) (.uff file).<br/> |
 | [**UpgradePrinter**](iprintoemui-upgradeprinter.md)                 | The `IPrintOemUI::UpgradePrinter` method allows a user interface plug-in to upgrade device option values that are stored in the registry.<br/>                                                                                                     |
 
 

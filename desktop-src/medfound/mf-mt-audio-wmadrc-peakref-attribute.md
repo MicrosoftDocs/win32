@@ -21,7 +21,7 @@ Reference peak volume level of a Windows Media Audio file.
 
 This attribute applies to audio media types for Windows Media Audio codecs. It specifies the original peak volume level of the content. The decoder can use this value to perform dynamic range control.
 
-The [**IMFASFContentInfo::ParseHeader**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader) method adds this attribute to the media type if the ASF header contains the [**WM/WMADRCPeakReference**](https://msdn.microsoft.com/windows/desktop/c732ee88-437b-4970-8f17-61aed2d91022) attribute. This attribute is documented in the Windows Media Format SDK documentation.
+The [**IMFASFContentInfo::ParseHeader**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader) method adds this attribute to the media type if the ASF header contains the [**WM/WMADRCPeakReference**](https://msdn.microsoft.com/c732ee88-437b-4970-8f17-61aed2d91022) attribute. This attribute is documented in the Windows Media Format SDK documentation.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

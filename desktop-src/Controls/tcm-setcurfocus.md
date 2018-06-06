@@ -43,9 +43,9 @@ No return value.
 
 ## Remarks
 
-If the tab control has the [**TCS\_BUTTONS**](https://www.bing.com/search?q=**TCS\_BUTTONS**) style (button mode), the tab with the focus may be different from the selected tab. For example, when a tab is selected, the user can press the arrow keys to set the focus to a different tab without changing the selected tab. In button mode, **TCM\_SETCURFOCUS** sets the input focus to the button associated with the specified tab, but it does not change the selected tab.
+If the tab control has the [**TCS\_BUTTONS**](tab-control-styles.md#tcs-buttons) style (button mode), the tab with the focus may be different from the selected tab. For example, when a tab is selected, the user can press the arrow keys to set the focus to a different tab without changing the selected tab. In button mode, **TCM\_SETCURFOCUS** sets the input focus to the button associated with the specified tab, but it does not change the selected tab.
 
-If the tab control does not have the [**TCS\_BUTTONS**](https://www.bing.com/search?q=**TCS\_BUTTONS**) style, changing the focus also changes the selected tab. In this case, the tab control sends the [TCN\_SELCHANGING](tcn-selchanging.md) and [TCN\_SELCHANGE](tcn-selchange.md) notification codes to its parent window.
+If the tab control does not have the [**TCS\_BUTTONS**](tab-control-styles.md#tcs-buttons) style, changing the focus also changes the selected tab. In this case, the tab control sends the [TCN\_SELCHANGING](tcn-selchanging.md) and [TCN\_SELCHANGE](tcn-selchange.md) notification codes to its parent window.
 
 ## Requirements
 

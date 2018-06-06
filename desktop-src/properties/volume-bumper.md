@@ -17,9 +17,9 @@ ms.date: 05/31/2018
 
 | Topic                                                                                  | Description                                                                                          |
 |----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [System.Volume.FileSystem](https://msdn.microsoft.com/windows/desktop/57ffd3b1-27a0-4d48-aa2c-482fb00cb44e)<br/>       | The name of a volume's file system. This is valid for Shell items that describe a volume.<br/> |
-| [System.Volume.IsMappedDrive](https://msdn.microsoft.com/windows/desktop/13c94e17-760a-4656-886c-cb5fd4acf474)<br/> |                                                                                                      |
-| [System.Volume.IsRoot](https://msdn.microsoft.com/windows/desktop/995b0f92-686b-40fb-aed0-5fd500c226f0)<br/>               | A Boolean value stating whether a volume is a root volume.<br/>                                |
+| [System.Volume.FileSystem](https://msdn.microsoft.com/57ffd3b1-27a0-4d48-aa2c-482fb00cb44e)<br/>       | The name of a volume's file system. This is valid for Shell items that describe a volume.<br/> |
+| [System.Volume.IsMappedDrive](https://msdn.microsoft.com/13c94e17-760a-4656-886c-cb5fd4acf474)<br/> |                                                                                                      |
+| [System.Volume.IsRoot](https://msdn.microsoft.com/995b0f92-686b-40fb-aed0-5fd500c226f0)<br/>               | A Boolean value stating whether a volume is a root volume.<br/>                                |
 
 
 

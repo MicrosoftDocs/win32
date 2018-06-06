@@ -53,21 +53,21 @@ The handle of the ephemeral key.
 *dwProtocol* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG SSL Provider Protocol Identifier**) values.
+One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Protocol+Identifier**) values.
 
 </dd> <dt>
 
 *dwCipherSuite* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Cipher Suite Identifier**](https://www.bing.com/search?q=**CNG SSL Provider Cipher Suite Identifier**) values.
+One of the [**CNG SSL Provider Cipher Suite Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Cipher+Suite+Identifier**) values.
 
 </dd> <dt>
 
 *dwKeyType* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Key Type Identifier**](https://www.bing.com/search?q=**CNG SSL Provider Key Type Identifier**) values. Set this parameter to zero for key types that are not [*elliptic curve cryptography*](https://msdn.microsoft.com/library/windows/desktop/ms721575#-security-elliptic-curve-cryptography-gly) (ECC).
+One of the [**CNG SSL Provider Key Type Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Key+Type+Identifier**) values. Set this parameter to zero for key types that are not [*elliptic curve cryptography*](https://msdn.microsoft.com/library/windows/desktop/ms721575#-security-elliptic-curve-cryptography-gly) (ECC).
 
 </dd> <dt>
 

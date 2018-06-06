@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Application developers that run on Windows XP can add visual styles and themes to the user interface (UI) of their applications by including manifests that describe the application's dependence on COMCTL32.DLL version 6.0. An application requires the functionality of the updated common controls to use themes and visual styles.
 
-For more information about using Visual Styles, see Using Windows XP Visual Styles in the [Shell Programmer's Guide](https://www.bing.com/search?q=Shell Programmer's Guide). The side-by-side assembly containing COMCTL32.DLL version 6.0 is one of the [supported Microsoft Side-by-side assemblies](supported-microsoft-side-by-side-assemblies.md).
+For more information about using Visual Styles, see Using Windows XP Visual Styles in the [Shell Programmer's Guide](https://www.bing.com/search?q=Shell+Programmer's+Guide). The side-by-side assembly containing COMCTL32.DLL version 6.0 is one of the [supported Microsoft Side-by-side assemblies](supported-microsoft-side-by-side-assemblies.md).
 
  
 

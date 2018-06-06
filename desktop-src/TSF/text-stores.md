@@ -45,7 +45,7 @@ A text store implements an object that supports the [ITextStoreACP](/windows/des
 
 ## Anchor-Based Applications
 
-The manager uses the ACP-based methods natively to manipulate text. However, an anchor-based approach is available for [Microsoft Active Accessibility](https://www.bing.com/search?q=Microsoft Active Accessibility) clients that support [anchors](https://www.bing.com/search?q=anchors), whereby the manager uses [ITextStoreAnchor](/windows/desktop/api/Textstor/nn-textstor-itextstoreanchor) and [ITextStoreAnchorSink](/windows/desktop/api/Textstor/nn-textstor-itextstoreanchorsink) methods to wrap the [ITextStoreACP](/windows/desktop/api/Textstor/nn-textstor-itextstoreacp) and [ITextStoreACPSink](/windows/desktop/api/Textstor/nn-textstor-itextstoreacpsink) methods.
+The manager uses the ACP-based methods natively to manipulate text. However, an anchor-based approach is available for [Microsoft Active Accessibility](https://www.bing.com/search?q=Microsoft+Active+Accessibility) clients that support [anchors](ranges.md#anchors), whereby the manager uses [ITextStoreAnchor](/windows/desktop/api/Textstor/nn-textstor-itextstoreanchor) and [ITextStoreAnchorSink](/windows/desktop/api/Textstor/nn-textstor-itextstoreanchorsink) methods to wrap the [ITextStoreACP](/windows/desktop/api/Textstor/nn-textstor-itextstoreacp) and [ITextStoreACPSink](/windows/desktop/api/Textstor/nn-textstor-itextstoreacpsink) methods.
 
 ## Document Access Control
 
@@ -92,7 +92,7 @@ The contents of the text store can be modified with a temporary input state call
 
 <dl> <dt>
 
-[Anchors](https://www.bing.com/search?q=Anchors)
+[Anchors](ranges.md#anchors)
 </dt> <dt>
 
 [Compositions](compositions.md)
@@ -125,7 +125,7 @@ The contents of the text store can be modified with a temporary input state call
 [TfClientId](tfclientid.md)
 </dt> <dt>
 
-[Microsoft Active Accessibility](https://www.bing.com/search?q=Microsoft Active Accessibility)
+[Microsoft Active Accessibility](https://www.bing.com/search?q=Microsoft+Active+Accessibility)
 </dt> </dl>
 
  

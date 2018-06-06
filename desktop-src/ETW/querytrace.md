@@ -65,7 +65,7 @@ On output, the structure members contain the property settings and session stati
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/windows/desktop/4a3a8feb-a05f-4614-8f04-1f507da7e5b7). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7). The following table includes some common errors and their causes.
 
 
 

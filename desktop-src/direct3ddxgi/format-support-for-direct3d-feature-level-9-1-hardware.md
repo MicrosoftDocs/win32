@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Format Support for Direct3D Feature 10Level9 9.1 Hardware
 
-This section specifies the formats ([**DXGI\_FORMAT**](https://msdn.microsoft.com/windows/desktop/dce61bc4-4ed5-4e64-84e8-6db88025e5c2) values) that are supported in Direct3D Feature 10Level9 9.1 hardware.
+This section specifies the formats ([**DXGI\_FORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\dxgi_format.htm) values) that are supported in Direct3D Feature 10Level9 9.1 hardware.
 
 The following tables summarize the feature support, using the key.
 
@@ -201,13 +201,13 @@ The purpose of the format can change from one hardware feature level to the next
 
 <dl> <dt>
 
-[D3D12 Hardware Feature Levels](https://msdn.microsoft.com/windows/desktop/B8304E29-A532-464E-8FAF-075228D8FB73)
+[D3D12 Hardware Feature Levels](https://msdn.microsoft.com/B8304E29-A532-464E-8FAF-075228D8FB73)
 </dt> <dt>
 
-[Implementing shadow buffers for Direct3D feature level 9](https://www.bing.com/search?q=Implementing shadow buffers for Direct3D feature level 9)
+[Implementing shadow buffers for Direct3D feature level 9](https://msdn.microsoft.com/BB8B4119-E79B-468C-A5E0-E250BF204A98)
 </dt> <dt>
 
-[Mapping Legacy Formats](https://msdn.microsoft.com/windows/desktop/07c9b827-6e2e-4599-b48a-f726484b643d)
+[Mapping Legacy Formats](https://msdn.microsoft.com/VS|directx_sdk|~\d3d10_graphics_programming_guide_resources_legacy_formats.htm)
 </dt> <dt>
 
 [Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)

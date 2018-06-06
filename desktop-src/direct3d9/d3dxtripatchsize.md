@@ -33,7 +33,7 @@ HRESULT D3DXTriPatchSize(
 *pfNumSegs* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Number of segments per edge to tessellate.
 
@@ -42,7 +42,7 @@ Number of segments per edge to tessellate.
 *pdwTriangles* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to a DWORD that contains the number of triangles in the patch.
 
@@ -51,7 +51,7 @@ Pointer to a DWORD that contains the number of triangles in the patch.
 *pdwVertices* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to a DWORD that contains the number of vertices in the triangle patch.
 

@@ -25,7 +25,7 @@ The following topics provide information on tasks that are developed using Task 
 | Topic                                                        | Description                                                                                                                                           |
 |--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Programming Considerations](programming-considerations.md) | Contains a list of programming issues to keep in mind when developing applications that use Task Scheduler 1.0.                                       |
-| [Enumerating Tasks](enumerating-tasks.md)                   | Task Scheduler 1.0 provides an enumeration object for enumerating the tasks in the [*Scheduled Tasks folder*](https://www.bing.com/search?q=*Scheduled Tasks folder*). |
+| [Enumerating Tasks](enumerating-tasks.md)                   | Task Scheduler 1.0 provides an enumeration object for enumerating the tasks in the [*Scheduled Tasks folder*](s.md#-msb-scheduled-tasks-folder-gly). |
 
 
 

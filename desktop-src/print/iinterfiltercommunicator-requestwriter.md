@@ -41,7 +41,7 @@ A variable that receives the writer interface object that **RequestWriter** retr
 
 ## Remarks
 
-The **IInterFilterCommunicator** object is passed to each filter in the [**IPrintPipelineFilter::InitializeFilter**](iprintpipelinefilter-initializefilter.md) method. The filter uses the **RequestWriter** method to get the writer interface for the object. The universally unique identifier (UUID) for the object is declared in the [filter pipeline configuration file](https://www.bing.com/search?q=filter pipeline configuration file).
+The **IInterFilterCommunicator** object is passed to each filter in the [**IPrintPipelineFilter::InitializeFilter**](iprintpipelinefilter-initializefilter.md) method. The filter uses the **RequestWriter** method to get the writer interface for the object. The universally unique identifier (UUID) for the object is declared in the [filter pipeline configuration file](https://www.bing.com/search?q=filter+pipeline+configuration+file).
 
 ## Requirements
 

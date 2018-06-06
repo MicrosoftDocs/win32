@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # GUIDFromString function
 
-\[**GUIDFromString** is available through Windows XP with Service Pack 2 (SP2) or Windows Vista. It might be altered or unavailable in subsequent versions. Applications should use [**CLSIDFromString**](https://msdn.microsoft.com/windows/desktop/36cc9037-480f-491f-a9bb-5aa1e707781e) or [**IIDFromString**](https://msdn.microsoft.com/windows/desktop/7fa72a65-68f8-438e-8a0c-6e0e0208420d) in place of this function.\]
+\[**GUIDFromString** is available through Windows XP with Service Pack 2 (SP2) or Windows Vista. It might be altered or unavailable in subsequent versions. Applications should use [**CLSIDFromString**](https://msdn.microsoft.com/36cc9037-480f-491f-a9bb-5aa1e707781e) or [**IIDFromString**](https://msdn.microsoft.com/7fa72a65-68f8-438e-8a0c-6e0e0208420d) in place of this function.\]
 
 Converts a string to a GUID.
 

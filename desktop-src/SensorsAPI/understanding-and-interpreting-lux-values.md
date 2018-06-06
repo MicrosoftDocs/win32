@@ -52,7 +52,7 @@ However, if we view this data by using a logarithmic scale on the x-axis, we can
 
 Based on the sample data set for ambient light sensors previously provided, you could arrive at the following equation to map lux values to human perception. In this example, the expected values range from 0 lux to 1,000,000 lux.
 
-![lux value equation](https://www.bing.com/search?q=lux value equation)
+![lux value equation](https://www.bing.com/search?q=lux+value+equation)
 
 This equation results in values that vary in a roughly linear fashion between 0.0 and 1.0. This result indicates how human-perceived lighting changed based on the example data set that was shown previously.
 

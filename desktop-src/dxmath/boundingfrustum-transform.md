@@ -19,8 +19,8 @@ Transforms the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-di
 
 | Method                                                                                                       | Description                                                                                                                       |
 |:-------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------|
-| [**BoundingFrustum::Transform (BoundingFrustum&,XMMATRIX)**](https://www.bing.com/search?q=**BoundingFrustum::Transform (BoundingFrustum&,XMMATRIX)**)                | Transforms the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) by the specified transformation matrix.<br/>                      |
-| [**BoundingFrustum::Transform (BoundingFrustum&,float,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingFrustum::Transform (BoundingFrustum&,float,XMVECTOR,XMVECTOR)**) | Transforms the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) using the specified scale, rotation and translation vectors.<br/> |
+| [**BoundingFrustum::Transform (BoundingFrustum&,XMMATRIX)**](https://www.bing.com/search?q=**BoundingFrustum::Transform+(BoundingFrustum&,XMMATRIX)**)                | Transforms the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) by the specified transformation matrix.<br/>                      |
+| [**BoundingFrustum::Transform (BoundingFrustum&,float,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingFrustum::Transform+(BoundingFrustum&,float,XMVECTOR,XMVECTOR)**) | Transforms the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) using the specified scale, rotation and translation vectors.<br/> |
 
 
 

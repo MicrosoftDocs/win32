@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # AllowLockdownMedia
 
-Setting the value of this per-machine [system policy](system-policy.md) to "1", enables nonadministrative users to install [*managed applications*](https://www.bing.com/search?q=*managed applications*) from sources stored on media, such as a CD-ROM. See [Source Resiliency](source-resiliency.md). For example, if this policy is set, a nonadministrative user may use a media source to install assigned or published applications or applications being installed for all users. Setting this policy also enables nonadministrative users to run programs at LocalSystem privileges during an elevated installation.
+Setting the value of this per-machine [system policy](system-policy.md) to "1", enables nonadministrative users to install [*managed applications*](m-gly.md#-msi-managed-application-gly) from sources stored on media, such as a CD-ROM. See [Source Resiliency](source-resiliency.md). For example, if this policy is set, a nonadministrative user may use a media source to install assigned or published applications or applications being installed for all users. Setting this policy also enables nonadministrative users to run programs at LocalSystem privileges during an elevated installation.
 
 The default value of this policy is 1 only on computers running Windows Vista and that are not joined to a domain. The default on other computers is that nonadministrative users cannot install managed applications from a source located on media.
 

@@ -35,7 +35,7 @@ A type of data contained in a PKCS \#7 message. Base content types only contain 
 
 The lowest level of functions in the CryptoAPI architecture. They are used by applications and other high-level CryptoAPI functions to provide access to CSP-provided cryptographic algorithms, secure key generation, and secure storage of secrets.
 
-See also [*cryptographic service providers*](https://www.bing.com/search?q=*cryptographic service providers*).
+See also [*cryptographic service providers*](c-gly.md#-security-cryptographic-service-provider-gly).
 
 </dd> <dt>
 
@@ -58,7 +58,7 @@ See *Basic Encoding Rules*.
 
 A memory or data format in which the most significant byte is stored at the lower address or arrives first.
 
-See also [*little-endian*](https://www.bing.com/search?q=*little-endian*).
+See also [*little-endian*](l-gly.md#-security-little-endian-gly).
 
 </dd> <dt>
 
@@ -67,7 +67,7 @@ See also [*little-endian*](https://www.bing.com/search?q=*little-endian*).
 
 A generic sequence of bits that contain one or more fixed-length header structures plus context specific data.
 
-See also [*key BLOBs*](https://www.bing.com/search?q=*key BLOBs*), [*certificate BLOBs*](https://www.bing.com/search?q=*certificate BLOBs*), [*certificate name BLOBs*](https://www.bing.com/search?q=*certificate name BLOBs*), and [*attribute BLOBs*](https://www.bing.com/search?q=*attribute BLOBs*).
+See also [*key BLOBs*](k-gly.md#-security-key-blob-gly), [*certificate BLOBs*](c-gly.md#-security-certificate-blob-gly), [*certificate name BLOBs*](c-gly.md#-security-certificate-name-blob-gly), and [*attribute BLOBs*](a-gly.md#-security-attribute-blob-gly).
 
 </dd> <dt>
 
@@ -76,14 +76,14 @@ See also [*key BLOBs*](https://www.bing.com/search?q=*key BLOBs*), [*certificate
 
 A cipher algorithm that encrypts data in discrete units (called blocks), rather than as a continuous stream of bits. The most common block size is 64 bits. For example, DES is a block cipher.
 
-See also [*stream cipher*](https://www.bing.com/search?q=*stream cipher*).
+See also [*stream cipher*](s-gly.md#-security-stream-cipher-gly).
 
 </dd> <dt>
 
 <span id="_security_bulk_encryption_key_gly"></span><span id="_SECURITY_BULK_ENCRYPTION_KEY_GLY"></span>**bulk encryption key**
 </dt> <dd>
 
-A session key derived from a master key. Bulk encryption keys are used in [*Schannel*](https://www.bing.com/search?q=*Schannel*) encryption.
+A session key derived from a master key. Bulk encryption keys are used in [*Schannel*](s-gly.md#-security-schannel-gly) encryption.
 
 </dd> </dl>
 

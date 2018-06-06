@@ -22,7 +22,7 @@ Cryptography objects are categorized according to usage as follows:
 
 ## Certificate Store Objects
 
-The following objects work with [*certificate stores*](https://www.bing.com/search?q=*certificate stores*) and the certificates in those stores. CAPICOM supports the use of Current User, Local Machine, memory, and Active Directory certificate stores.
+The following objects work with [*certificate stores*](security.c_gly#-security-certificate-store-gly) and the certificates in those stores. CAPICOM supports the use of Current User, Local Machine, memory, and Active Directory certificate stores.
 
 
 
@@ -100,7 +100,7 @@ The following objects are exported to change default behaviors of other objects 
 
 | Object                                         | Description                                                                                                                                     |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Algorithm**](algorithm.md)                 | Sets the algorithm and [*key length*](https://www.bing.com/search?q=*key length*) to be used in cryptographic operations. |
+| [**Algorithm**](algorithm.md)                 | Sets the algorithm and [*key length*](security.k_gly#-security-key-length-gly) to be used in cryptographic operations. |
 | [**Attribute**](attribute.md)                 | Provides a single piece of added information about a signature, such as the time of signing.                                                    |
 | [**Attributes**](attributes.md)               | Collection of [**Attribute**](attribute.md) objects.                                                                                           |
 | [**BasicConstraints**](basicconstraints.md)   | Provides read-only access to basic constraints on the uses of a certificate.                                                                    |

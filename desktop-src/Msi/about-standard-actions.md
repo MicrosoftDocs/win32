@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # About Standard Actions
 
-The Windows Installer has many built-in standard actions that are used in the [*sequence tables*](https://www.bing.com/search?q=*sequence tables*). The topics in this section cover information about standard actions.
+The Windows Installer has many built-in standard actions that are used in the [*sequence tables*](s-gly.md#-msi-sequence-tables-gly). The topics in this section cover information about standard actions.
 
 -   [Action Execution Order](action-execution-order.md)
 -   [Actions with Sequencing Restrictions](actions-with-sequencing-restrictions.md)

@@ -17,10 +17,10 @@ The system provides three categories of objects: user, graphics device interface
 
 | User object       | Overview                                                                                        |
 |-------------------|-------------------------------------------------------------------------------------------------|
-| Accelerator table | [Keyboard Accelerators](https://www.bing.com/search?q=Keyboard Accelerators)                                       |
+| Accelerator table | [Keyboard Accelerators](https://www.bing.com/search?q=Keyboard+Accelerators)                                       |
 | Caret             | [Carets](https://www.bing.com/search?q=Carets)                                                                     |
 | Cursor            | [Cursors](https://www.bing.com/search?q=Cursors)                                                                   |
-| DDE conversation  | [Dynamic Data Exchange Management Library](https://www.bing.com/search?q=Dynamic Data Exchange Management Library) |
+| DDE conversation  | [Dynamic Data Exchange Management Library](https://www.bing.com/search?q=Dynamic+Data+Exchange+Management+Library) |
 | Hook              | [Hooks](https://www.bing.com/search?q=Hooks)                                                                       |
 | Icon              | [Icons](https://www.bing.com/search?q=Icons)                                                                       |
 | Menu              | [Menus](https://www.bing.com/search?q=Menus)                                                                       |

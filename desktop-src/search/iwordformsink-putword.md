@@ -59,7 +59,7 @@ This method can return one of these values.
 
 ## Remarks
 
-**PutWord** is called from the [**GenerateWordForms**](https://msdn.microsoft.com/windows/desktop/7996468d-3b5f-4bfc-837d-51082655cbbc) method of the [**IStemmer**](https://msdn.microsoft.com/windows/desktop/1a6e77ec-60f8-4e43-9420-7a6b50152e26) implementation. This method handles the original form of a word and is called last. All preceding alternative forms for a word are put in the [**IWordFormSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink) object by calling [**IWordFormSink::PutAltWord**](iwordformsink-putphrase.md).
+**PutWord** is called from the [**GenerateWordForms**](https://msdn.microsoft.com/VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\generatewordforms.htm) method of the [**IStemmer**](https://msdn.microsoft.com/VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\istemmer.htm) implementation. This method handles the original form of a word and is called last. All preceding alternative forms for a word are put in the [**IWordFormSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink) object by calling [**IWordFormSink::PutAltWord**](iwordformsink-putphrase.md).
 
 ## Requirements
 

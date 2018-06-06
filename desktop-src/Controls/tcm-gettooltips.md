@@ -39,7 +39,7 @@ Returns the handle to the tooltip control if successful, or **NULL** otherwise.
 
 ## Remarks
 
-A tab control creates a tooltip control if it has the [**TCS\_TOOLTIPS**](https://www.bing.com/search?q=**TCS\_TOOLTIPS**) style. You can also assign a tooltip control to a tab control by using the [**TCM\_SETTOOLTIPS**](tcm-settooltips.md) message.
+A tab control creates a tooltip control if it has the [**TCS\_TOOLTIPS**](tab-control-styles.md#tcs-tooltips) style. You can also assign a tooltip control to a tab control by using the [**TCM\_SETTOOLTIPS**](tcm-settooltips.md) message.
 
 ## Requirements
 

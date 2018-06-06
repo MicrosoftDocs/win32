@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardLocate::FindCard method
 
-\[The **FindCard** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **FindCard** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **FindCard** method searches for the [*smart card*](https://www.bing.com/search?q=*smart card*) and opens a valid connection to it.
+The **FindCard** method searches for the [*smart card*](security.s_gly#-security-smart-card-gly) and opens a valid connection to it.
 
 ## Syntax
 
@@ -69,7 +69,7 @@ T0\|T1
 *lFlags* \[in\]
 </dt> <dd>
 
-Specifies when [*user interface*](https://www.bing.com/search?q=*user interface*) is displayed:
+Specifies when [*user interface*](security.u_gly#-security-user-interface-smart-card-gly) is displayed:
 
 
 
@@ -88,7 +88,7 @@ Specifies when [*user interface*](https://www.bing.com/search?q=*user interface*
 *ppCardInfo* \[out\]
 </dt> <dd>
 
-Pointer to a pointer to a data structure that contains or returns information about the opened [*smart card*](https://www.bing.com/search?q=*smart card*), if successful. Will be **NULL** if operation has failed.
+Pointer to a pointer to a data structure that contains or returns information about the opened [*smart card*](security.s_gly#-security-smart-card-gly), if successful. Will be **NULL** if operation has failed.
 
 </dd> </dl>
 
@@ -115,7 +115,7 @@ To set the search criteria of the search, call [**ConfigureCardNameSearch**](isc
 
 For a list of all the methods provided by this interface, see [**ISCardLocate**](iscardlocate.md).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](https://www.bing.com/search?q=Smart Card Return Values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
 
 ## Requirements
 

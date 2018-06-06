@@ -37,7 +37,7 @@ Constructs instances of the [**XMHALF2**](/windows/desktop/api/DirectXPackedVect
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMHALF2 ()</strong>](https://www.bing.com/search?q=<strong>XMHALF2 ()</strong>)</td>
+<td style="text-align: left;">[<strong>XMHALF2 ()</strong>](https://www.bing.com/search?q=<strong>XMHALF2+()</strong>)</td>
 <td style="text-align: left;">Default constructor for <code>XMHALF2</code>. <br/> Default constructor for [<strong>XMHALF2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2). <br/>
 <blockquote>
 [!Note]<br />
@@ -46,7 +46,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMHALF2 (HALF,HALF)</strong>](https://www.bing.com/search?q=<strong>XMHALF2 (HALF,HALF)</strong>)</td>
+<td style="text-align: left;">[<strong>XMHALF2 (HALF,HALF)</strong>](https://www.bing.com/search?q=<strong>XMHALF2+(HALF,HALF)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMHALF2</code> from two <code>HALF</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMHALF2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2) from two <code>HALF</code> arguments.<br/>
 <blockquote>
 [!Note]<br />
@@ -55,7 +55,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMHALF2 (const HALF*)</strong>](https://www.bing.com/search?q=<strong>XMHALF2 (const HALF*)</strong>)</td>
+<td style="text-align: left;">[<strong>XMHALF2 (const HALF*)</strong>](https://www.bing.com/search?q=<strong>XMHALF2+(const+HALF*)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMHALF2</code> from a two element <code>HALF</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMHALF2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2) from a from a two element <code>HALF</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
@@ -64,7 +64,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMHALF2 (float,float)</strong>](https://www.bing.com/search?q=<strong>XMHALF2 (float,float)</strong>)</td>
+<td style="text-align: left;">[<strong>XMHALF2 (float,float)</strong>](https://www.bing.com/search?q=<strong>XMHALF2+(float,float)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMHALF2</code> from two <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMHALF2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2) from two <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
@@ -73,7 +73,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMHALF2 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMHALF2 (const float*)</strong>)</td>
+<td style="text-align: left;">[<strong>XMHALF2 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMHALF2+(const+float*)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMHALF2</code> from a two element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMHALF2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2) from a two element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />

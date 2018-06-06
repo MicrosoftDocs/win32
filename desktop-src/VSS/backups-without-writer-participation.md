@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 When a VSS backup operation is conducted without the involvement of a writer, the shadow copy creation can still occur.
 
-As noted elsewhere (see [Default Shadow Copy State](https://www.bing.com/search?q=Default Shadow Copy State)), the result of this type of shadow copy is a volume reflecting the state of a disk at the time of the shadow copy: data on the shadow-copied volume may reflect incomplete or partial I/O operations and is described as being in a [*crash-consistent state*](https://www.bing.com/search?q=*crash-consistent state*).
+As noted elsewhere (see [Default Shadow Copy State](shadow-copies-and-shadow-copy-sets.md#default-shadow-copy-state)), the result of this type of shadow copy is a volume reflecting the state of a disk at the time of the shadow copy: data on the shadow-copied volume may reflect incomplete or partial I/O operations and is described as being in a [*crash-consistent state*](vssgloss-c.md#base-vssgloss-crash-consistent-state).
 
 There are several situations that will require a backup application to work with crash consistent shadow copied data:
 

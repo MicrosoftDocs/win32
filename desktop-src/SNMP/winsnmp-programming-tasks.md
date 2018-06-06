@@ -44,7 +44,7 @@ The following table summarizes the basic programming procedures that you must pe
 <td>Use [<strong>SnmpCreateVbl</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatevbl), [<strong>SnmpDuplicateVbl</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpduplicatevbl), [<strong>SnmpSetVb</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsetvb). See [Working with Variable Binding Lists](working-with-variable-binding-lists.md).<br/>
 <blockquote>
 [!Note]<br />
-The application may need to call other [variable binding functions](https://www.bing.com/search?q=variable binding functions) to create the variable binding list.
+The application may need to call other [variable binding functions](winsnmp-functions.md#winsnmp-variable-binding-functions) to create the variable binding list.
 </blockquote>
 <br/></td>
 </tr>
@@ -53,7 +53,7 @@ The application may need to call other [variable binding functions](https://www.
 <td>Use [<strong>SnmpCreatePDU</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatepdu), [<strong>SnmpSetPduData</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsetpdudata), [<strong>SnmpDuplicatePDU</strong>](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpduplicatepdu). See [Working with Protocol Data Units](working-with-protocol-data-units.md).<br/>
 <blockquote>
 [!Note]<br />
-The application may need to call other [PDU functions](https://www.bing.com/search?q=PDU functions) and WinSNMP [utility functions](https://www.bing.com/search?q=utility functions) to create the PDU.
+The application may need to call other [PDU functions](winsnmp-functions.md#winsnmp-pdu-functions) and WinSNMP [utility functions](winsnmp-functions.md#winsnmp-utility-functions) to create the PDU.
 </blockquote>
 <br/></td>
 </tr>

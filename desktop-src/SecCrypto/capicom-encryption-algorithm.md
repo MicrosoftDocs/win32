@@ -23,7 +23,7 @@ The **CAPICOM\_ENCRYPTION\_ALGORITHM** enumeration type defines the algorithms t
 | **CAPICOM\_ENCRYPTION\_ALGORITHM\_RC4**  | Use RSA RC4 encryption.<br/>                                                                                                                                                                       | 1         |
 | **CAPICOM\_ENCRYPTION\_ALGORITHM\_DES**  | Use DES encryption.<br/>                                                                                                                                                                           | 2         |
 | **CAPICOM\_ENCRYPTION\_ALGORITHM\_3DES** | Use triple DES encryption.<br/>                                                                                                                                                                    | 3         |
-| **CAPICOM\_ENCRYPTION\_ALGORITHM\_AES**  | Use the [*Advanced Encryption Standard*](https://www.bing.com/search?q=*Advanced Encryption Standard*) (AES) algorithm. This value is valid for the [**EncryptedData**](encrypteddata.md) object only.<br/> | 4 // v2.0 |
+| **CAPICOM\_ENCRYPTION\_ALGORITHM\_AES**  | Use the [*Advanced Encryption Standard*](security.a_gly#-security-aes-gly) (AES) algorithm. This value is valid for the [**EncryptedData**](encrypteddata.md) object only.<br/> | 4 // v2.0 |
 
 
 

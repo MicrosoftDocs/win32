@@ -21,7 +21,7 @@ Some applications determine the line spacing between text lines of different siz
 
 The maximum ascent and descent are different from the typographic ascent and descent. In TrueType and OpenType fonts, the typographic ascent and descent are typically the top of the f glyph and bottom of the g glyph. An application can retrieve the typographic ascender and descender for a TrueType or OpenType font by calling the [**GetOutlineTextMetrics**](/windows/desktop/api/Wingdi/nf-wingdi-getoutlinetextmetricsa) function and checking the values in the **otmMacAscent** and **otmMacDescent** members of the [**OUTLINETEXTMETRIC**](/windows/desktop/api/Wingdi/ns-wingdi-_outlinetextmetrica) structure.
 
-The following figure shows the difference between the vertical text metric values returned in the [**NEWTEXTMETRIC**](/windows/desktop/api/Wingdi/ns-wingdi-tagnewtextmetrica) and [**OUTLINETEXTMETRIC**](https://msdn.microsoft.com/windows/desktop/79d77df0-193a-49a8-b93d-4ef5807c3c9b) structures. (The names beginning with otm are members of the **OUTLINETEXTMETRIC** structure.)
+The following figure shows the difference between the vertical text metric values returned in the [**NEWTEXTMETRIC**](/windows/desktop/api/Wingdi/ns-wingdi-tagnewtextmetrica) and [**OUTLINETEXTMETRIC**](https://msdn.microsoft.com/79d77df0-193a-49a8-b93d-4ef5807c3c9b) structures. (The names beginning with otm are members of the **OUTLINETEXTMETRIC** structure.)
 
 ![illustration that shows how text metric values contrast with outline text metrics values](images/csftx-03.png)
 

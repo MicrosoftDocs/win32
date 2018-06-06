@@ -33,7 +33,7 @@ HRESULT Open(
 *Method* \[in\]
 </dt> <dd>
 
-Specifies the [*HTTP verb*](https://www.bing.com/search?q=*HTTP verb*) used for the **Open** method, such as "GET" or "PUT". Always use uppercase as some servers ignore lowercase *HTTP verb*s.
+Specifies the [*HTTP verb*](glossary.md#term-http-verb) used for the **Open** method, such as "GET" or "PUT". Always use uppercase as some servers ignore lowercase *HTTP verb*s.
 
 </dd> <dt>
 
@@ -68,7 +68,7 @@ The return value is **S\_OK** on success or an error value otherwise.
 
 ## Remarks
 
-This method opens a connection to the resource identified in *Url* using the [*HTTP verb*](https://www.bing.com/search?q=*HTTP verb*) given in *Method*.
+This method opens a connection to the resource identified in *Url* using the [*HTTP verb*](glossary.md#term-http-verb) given in *Method*.
 
 > [!Note]  
 > For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.

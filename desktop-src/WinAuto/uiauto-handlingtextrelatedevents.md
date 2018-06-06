@@ -18,7 +18,7 @@ This topic describes the events raised by text-based controls when content is ch
 
 ## 
 
-Text-based controls raise a [**UIA\_Text\_TextChangedEventId**](https://www.bing.com/search?q=**UIA\_Text\_TextChangedEventId**) event whenever the textual content changes. They raise the [**UIA\_Text\_TextSelectionChangedEventId**](https://www.bing.com/search?q=**UIA\_Text\_TextSelectionChangedEventId**) event whenever textual content is selected or deselected. For more information, see [UI Automation Events Overview](uiauto-eventsoverview.md) and [Subscribing to UI Automation Events](uiauto-eventsforclients.md).
+Text-based controls raise a [**UIA\_Text\_TextChangedEventId**](uiauto-event-ids.md#uia-text-textchangedeventid) event whenever the textual content changes. They raise the [**UIA\_Text\_TextSelectionChangedEventId**](uiauto-event-ids.md#uia-text-textselectionchangedeventid) event whenever textual content is selected or deselected. For more information, see [UI Automation Events Overview](uiauto-eventsoverview.md) and [Subscribing to UI Automation Events](uiauto-eventsforclients.md).
 
 ## Related topics
 

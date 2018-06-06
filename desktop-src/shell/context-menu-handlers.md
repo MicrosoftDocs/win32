@@ -118,13 +118,13 @@ HKEY_CLASSES_ROOT
 
 The following diagram illustrates the extension of the shortcut menu in accordance with the registry entries above. This shortcut menu has **Open**, **Do It**, and **Print** verbs on its menu, with **Do It** as the default verb.
 
-![screen shot of the do it default verb shortcut menu](https://www.bing.com/search?q=screen shot of the do it default verb shortcut menu)
+![screen shot of the do it default verb shortcut menu](https://www.bing.com/search?q=screen+shot+of+the+do+it+default+verb+shortcut+menu)
 
 ### Activating Your Handler Using the IDropTarget Interface
 
-Dynamic Data Exchange (DDE) is deprecated; use [**IDropTarget**](https://msdn.microsoft.com/windows/desktop/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) instead. **IDropTarget** is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](https://msdn.microsoft.com/windows/desktop/3ef0a5b2-4d71-4c17-8188-76a4025287fc). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
+Dynamic Data Exchange (DDE) is deprecated; use [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) instead. **IDropTarget** is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
 
-For more information about [**IDropTarget**](https://msdn.microsoft.com/windows/desktop/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
+For more information about [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
 
 ### Specifying the Position and Order of Static Verbs
 
@@ -174,7 +174,7 @@ In Windows 7 and later, cascading menu implementation is supported through regi
 
 The following screen shot provides an example of a cascading menu.
 
-![screen shot showing an example of a cascading menu](https://www.bing.com/search?q=screen shot showing an example of a cascading menu)
+![screen shot showing an example of a cascading menu](https://www.bing.com/search?q=screen+shot+showing+an+example+of+a+cascading+menu)
 
 In Windows 7 and later, there are three ways to create cascading menus:
 
@@ -247,7 +247,7 @@ In Windows 7 and later, you can use the ExtendedSubCommandKey entry to create e
 
 The following screen shot is an example of an extended cascading menu.
 
-![screen shot showing extended cascading menu for devices](https://www.bing.com/search?q=screen shot showing extended cascading menu for devices)
+![screen shot showing extended cascading menu for devices](https://www.bing.com/search?q=screen+shot+showing+extended+cascading+menu+for+devices)
 
 Because **HKEY\_CLASSES\_ROOT** is a combination of **HKEY\_CURRENT\_USER** and **HKEY\_LOCAL\_MACHINE**, you can register any custom verbs under the **HKEY\_CURRENT\_USER**\\**Software**\\**Classes** subkey. The main advantage of doing so is that elevated permission is not required. Also, other file associations can reuse this entire set of verbs by specifying the same ExtendedSubCommandsKey subkey. If you do not need to reuse this set of verbs, you can list the verbs under the parent, but ensure that the Default value of the parent is empty.
 
@@ -313,7 +313,7 @@ Because **HKEY\_CLASSES\_ROOT** is a combination of **HKEY\_CURRENT\_USER** and 
 
 The following screen shot is an illustration of the previous registry key entry examples.
 
-![screen shot showing an example of a cascading menu showing choices of notepad and wordpad](https://www.bing.com/search?q=screen shot showing an example of a cascading menu showing choices of notepad and wordpad)
+![screen shot showing an example of a cascading menu showing choices of notepad and wordpad](https://www.bing.com/search?q=screen+shot+showing+an+example+of+a+cascading+menu+showing+choices+of+notepad+and+wordpad)
 
 ### Creating Cascading Menus with the IExplorerCommand Interface
 
@@ -321,11 +321,11 @@ Another option for adding verbs to a cascading menu is through [**IExplorerComma
 
 The following two screen shots illustrate the use of cascading menus in the **Devices** folder.
 
-![screen shot showing an example of a cascading menu in the devices folder](https://www.bing.com/search?q=screen shot showing an example of a cascading menu in the devices folder)
+![screen shot showing an example of a cascading menu in the devices folder](https://www.bing.com/search?q=screen+shot+showing+an+example+of+a+cascading+menu+in+the+devices+folder)
 
 The following screen shot illustrates another implementation of a cascading menu in the **Devices** folder.
 
-![screen shot showing an example of a cascading menu in the devices folder](https://www.bing.com/search?q=screen shot showing an example of a cascading menu in the devices folder)
+![screen shot showing an example of a cascading menu in the devices folder](https://www.bing.com/search?q=screen+shot+showing+an+example+of+a+cascading+menu+in+the+devices+folder)
 
 > [!Note]  
 > Because [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) supports in-process activation only, it is recommended for use by Shell data sources that need to share the implementation between commands and shortcut menus.
@@ -376,15 +376,15 @@ In the Windows 7 registry, see **HKEY\_CLASSES\_ROOT**\\**drive** as an example
 -   AppliesTo = System.Volume.BitlockerProtection:=2
 -   System.Volume.BitlockerRequiresAdmin:=System.StructuredQueryType.Boolean\#True
 
-For more information about AQS, see [Advanced Query Syntax](https://msdn.microsoft.com/windows/desktop/76e33903-d063-48c0-9afe-912c3daa8237).
+For more information about AQS, see [Advanced Query Syntax](https://msdn.microsoft.com/VS|search|~\search\wds3x\overviews\aqs_reference.htm).
 
 ### Deprecated: Associating Verbs with Dynamic Data Exchange Commands
 
-DDE is deprecated; use [**IDropTarget**](https://msdn.microsoft.com/windows/desktop/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) instead. DDE is deprecated because it relies on a broadcast window message to discover the DDE server. A DDE server hang stalls the broadcast window message and thus hangs DDE conversations for other applications. It is common for a single stuck application to cause subsequent hangs all across the user's experience.
+DDE is deprecated; use [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) instead. DDE is deprecated because it relies on a broadcast window message to discover the DDE server. A DDE server hang stalls the broadcast window message and thus hangs DDE conversations for other applications. It is common for a single stuck application to cause subsequent hangs all across the user's experience.
 
-The [**IDropTarget**](https://msdn.microsoft.com/windows/desktop/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) method is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](https://msdn.microsoft.com/windows/desktop/3ef0a5b2-4d71-4c17-8188-76a4025287fc). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
+The [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) method is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
 
-For more information about [**IDropTarget**](https://msdn.microsoft.com/windows/desktop/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
+For more information about [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
 
 ## Completing Verb Implementation Tasks
 
@@ -430,15 +430,15 @@ HKEY_CLASSES_ROOT
 
 The screen shot illustrates the **New** submenu. When a user selects **MyProgram Application** from the **New** submenu, the Shell creates a file named **New MyProgram Application.myp-ms** and passes it to **MyProgram.exe**.
 
-![screen shot of windows explorer showing a new "myprogram application" command on the "new" submenu](https://www.bing.com/search?q=screen shot of windows explorer showing a new "myprogram application" command on the "new" submenu)
+![screen shot of windows explorer showing a new "myprogram application" command on the "new" submenu](https://www.bing.com/search?q=screen+shot+of+windows+explorer+showing+a+new+"myprogram+application"+command+on+the+"new"+submenu)
 
 ### Creating Drag-and-Drop Handlers
 
-The basic procedure for implementing a drag-and-drop handler is the same as for conventional shortcut menu handlers. However, shortcut menu handlers normally use only the [**IDataObject**](https://msdn.microsoft.com/windows/desktop/8a002deb-2727-456c-8078-a9b0d5893ed4) pointer passed to the handler's [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) method to extract the object's name. A drag-and-drop handler could implement a more sophisticated data handler to modify the behavior of the dragged object.
+The basic procedure for implementing a drag-and-drop handler is the same as for conventional shortcut menu handlers. However, shortcut menu handlers normally use only the [**IDataObject**](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4) pointer passed to the handler's [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) method to extract the object's name. A drag-and-drop handler could implement a more sophisticated data handler to modify the behavior of the dragged object.
 
 When a user right-clicks a Shell object to drag an object, a shortcut menu is displayed when the user attempts to drop the object. The following screen shot illustrates a typical drag-and-drop shortcut menu.
 
-![screen shot of drag-and-drop shortcut menu](https://www.bing.com/search?q=screen shot of drag-and-drop shortcut menu)
+![screen shot of drag-and-drop shortcut menu](https://www.bing.com/search?q=screen+shot+of+drag-and-drop+shortcut+menu)
 
 A drag-and-drop handler is a shortcut menu handler that can add items to this shortcut menu. Drag-and-drop handlers are typically registered under the following subkey.
 

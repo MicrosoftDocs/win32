@@ -65,7 +65,7 @@ The company should take the following steps.
 
 -   [Introduction to File Associations](fa-intro.md)
 -   [How to Register an Internet Browser or Email Client With the Windows Start Menu](start-menu-reg.md)
--   [Registering an Application to a URI Scheme](https://www.bing.com/search?q=Registering an Application to a URI Scheme)
+-   [Registering an Application to a URI Scheme](https://www.bing.com/search?q=Registering+an+Application+to+a+URI+Scheme)
 
 ## Related topics
 

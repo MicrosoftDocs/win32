@@ -124,7 +124,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 This method is supported for any Pscript5 render plug-in.
 
-For more information, see [Using GetOptionAttribute](https://www.bing.com/search?q=Using GetOptionAttribute).
+For more information, see [Using GetOptionAttribute](https://www.bing.com/search?q=Using+GetOptionAttribute).
 
 ## Requirements
 

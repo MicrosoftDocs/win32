@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 
 | Topic                                                   | Description                                  |
 |---------------------------------------------------------|----------------------------------------------|
-| [**XMINT4 Constructors**](https://www.bing.com/search?q=**XMINT4 Constructors**)<br/>   | Constructors exposed by `XMINT4`.<br/> |
+| [**XMINT4 Constructors**](https://www.bing.com/search?q=**XMINT4+Constructors**)<br/>   | Constructors exposed by `XMINT4`.<br/> |
 | [XMINT4 Operators](ovw-xmint4-operators.md)<br/> | Operators exposed by `XMINT4`.<br/>    |
 
 

@@ -117,11 +117,11 @@ If this method returns any value other than S\_OK, then it did not make any chan
 
 The *pmszFeatureOptionBuf* input buffer must be constructed in the same way as the output buffer of the **IPrintCoreUI2::GetOptions** method. That is, the feature/option keyword pairs must be in MULTI\_SZ format, and each item in the list is separated from the next by a null character. A pair of null characters terminates the list.
 
-If the input buffer contains a feature keyword or its option keyword that is not recognized, or the feature is recognized but not supported in the current sticky mode (see [Replacing Driver-Supplied Property Sheet Pages](https://www.bing.com/search?q=Replacing Driver-Supplied Property Sheet Pages)), then the feature/option pair is ignored, and the current option for that feature continues to be in effect.
+If the input buffer contains a feature keyword or its option keyword that is not recognized, or the feature is recognized but not supported in the current sticky mode (see [Replacing Driver-Supplied Property Sheet Pages](https://www.bing.com/search?q=Replacing+Driver-Supplied+Property+Sheet+Pages)), then the feature/option pair is ignored, and the current option for that feature continues to be in effect.
 
 This method is supported only for UI plug-ins that fully replace the core driver's standard UI pages, and is supported only during the UI plug-in's [**IPrintOemUI::DocumentPropertySheets**](iprintoemui-documentpropertysheets.md) and [**IPrintOemUI::DevicePropertySheets**](iprintoemui-devicepropertysheets.md) functions, and their property sheet callback routines.
 
-For more information, see [Using GetOptions and SetOptions](https://www.bing.com/search?q=Using GetOptions and SetOptions).
+For more information, see [Using GetOptions and SetOptions](https://www.bing.com/search?q=Using+GetOptions+and+SetOptions).
 
 ## Requirements
 

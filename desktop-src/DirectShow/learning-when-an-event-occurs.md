@@ -62,11 +62,11 @@ Before you release the [**IMediaEventEx**](/windows/desktop/api/Control/nn-contr
 The Filter Graph Manager keeps a manual-reset event that reflects the state of the event queue. If the queue contains pending event notifications, the Filter Graph Manager signals the manual-reset event. If the queue is empty, a call to the [**IMediaEvent::GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) method resets the event. An application can use this event to determine the state of the queue.
 
 > [!Note]  
-> The terminology can be confusing here. The manual-reset event is the type of event created by the Windows [**CreateEvent**](https://msdn.microsoft.com/windows/desktop/1f6d946e-c74c-4599-ac3d-b709216a0900) function; it has nothing to do with the events defined by DirectShow.
+> The terminology can be confusing here. The manual-reset event is the type of event created by the Windows [**CreateEvent**](https://msdn.microsoft.com/1f6d946e-c74c-4599-ac3d-b709216a0900) function; it has nothing to do with the events defined by DirectShow.
 
  
 
-Call the [**IMediaEvent::GetEventHandle**](/windows/desktop/api/Control/nf-control-imediaevent-geteventhandle) method to get a handle to the manual-reset event. Wait for the event to be signaled by calling a function such as [**WaitForMultipleObjects**](https://msdn.microsoft.com/windows/desktop/0629f1b3-6805-43a7-9aeb-4f80939ec62c). Once the event is signaled, call [**IMediaEvent::GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) to get the DirectShow event.
+Call the [**IMediaEvent::GetEventHandle**](/windows/desktop/api/Control/nf-control-imediaevent-geteventhandle) method to get a handle to the manual-reset event. Wait for the event to be signaled by calling a function such as [**WaitForMultipleObjects**](https://msdn.microsoft.com/0629f1b3-6805-43a7-9aeb-4f80939ec62c). Once the event is signaled, call [**IMediaEvent::GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) to get the DirectShow event.
 
 The following code example illustrates this approach. It gets the event handle, then waits in 100-millisecond intervals for the event to be signaled. If the event is signaled, it calls **GetEvent** and prints the event code and event parameters to the console window. The loop terminates when the [**EC\_COMPLETE**](ec-complete.md) event occurs, indicating that playback has completed.
 

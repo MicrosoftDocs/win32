@@ -28,7 +28,7 @@ The standard EVR presenter sets this attribute on the mixer. To set the attribut
 1.  Call [**IMFTransform::GetAttributes**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getattributes) on the mixer, to get the mixer's attribute store.
 2.  Call [**IMFAttributes::SetBlob**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setblob) to set the **VIDEO\_ZOOM\_RECT** attribute on the mixer. The value is an [**MFVideoNormalizedRect**](/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect) structure.
 
-In a custom EVR presenter, you can use this attribute to implement the [**IMFVideoDisplayControl::SetVideoPosition**](/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setvideoposition) method. For more information, see [Source and Destination Rectangles](https://www.bing.com/search?q=Source and Destination Rectangles).
+In a custom EVR presenter, you can use this attribute to implement the [**IMFVideoDisplayControl::SetVideoPosition**](/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setvideoposition) method. For more information, see [Source and Destination Rectangles](how-to-write-an-evr-presenter.md#source-and-destination-rectangles).
 
 The GUID constant for this attribute is exported from strmiids.lib.
 

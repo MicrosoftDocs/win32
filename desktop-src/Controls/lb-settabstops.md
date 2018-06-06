@@ -47,7 +47,7 @@ If all the specified tabs are set, the return value is **TRUE**; otherwise, it i
 
 ## Remarks
 
-To respond to the **LB\_SETTABSTOPS** message, the list box must have been created with the [**LBS\_USETABSTOPS**](https://www.bing.com/search?q=**LBS\_USETABSTOPS**) style.
+To respond to the **LB\_SETTABSTOPS** message, the list box must have been created with the [**LBS\_USETABSTOPS**](list-box-styles.md#lbs-usetabstops) style.
 
 If *wParam* is 0 and *lParam* is **NULL**, the default tab stop is two dialog template units. If *wParam* is 1, the list box will have tab stops separated by the distance specified by *lParam*.
 

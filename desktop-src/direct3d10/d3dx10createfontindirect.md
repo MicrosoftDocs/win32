@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 Creates a font object.
 
 > [!Note]  
-> Instead of using this function, we recommend that you use [DirectWrite](https://msdn.microsoft.com/windows/desktop/62a8d723-ae1c-4cbc-a9da-3177e80d4a3a) and the [DirectXTK](http://go.microsoft.com/fwlink/p/?linkid=248929) library, **SpriteFont** class.
+> Instead of using this function, we recommend that you use [DirectWrite](https://msdn.microsoft.com/62a8d723-ae1c-4cbc-a9da-3177e80d4a3a) and the [DirectXTK](http://go.microsoft.com/fwlink/p/?linkid=248929) library, **SpriteFont** class.
 
  
 

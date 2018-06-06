@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CertStoreProvGetCRLProperty callback function
 
-The **CertStoreProvGetCRLProperty** callback function retrieves a specified property of a [*CRL*](https://www.bing.com/search?q=*CRL*).
+The **CertStoreProvGetCRLProperty** callback function retrieves a specified property of a [*CRL*](security.c_gly#-security-certificate-revocation-list-gly).
 
 ## Syntax
 
@@ -36,7 +36,7 @@ BOOL WINAPI CertStoreProvGetCRLProperty(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://www.bing.com/search?q=*certificate store*).
+**HCERTSTOREPROV** handle to a [*certificate store*](security.c_gly#-security-certificate-store-gly).
 
 </dd> <dt>
 

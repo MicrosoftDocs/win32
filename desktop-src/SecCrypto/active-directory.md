@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Active Directory
 
-Certificate Services supports the use of Active Directory. In the case of the enterprise [*certification authority*](https://www.bing.com/search?q=*certification authority*) (CA), Certificate Services requires the use of the Active Directory. The enterprise CA publishes user certificates and [*certificate revocation lists*](https://www.bing.com/search?q=*certificate revocation lists*) (CRL) to the Active Directory. A stand-alone CA can be administered to perform the same actions provided the Active Directory is available to the stand-alone CA and a custom policy module is used.
+Certificate Services supports the use of Active Directory. In the case of the enterprise [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA), Certificate Services requires the use of the Active Directory. The enterprise CA publishes user certificates and [*certificate revocation lists*](security.c_gly#-security-certificate-revocation-list-gly) (CRL) to the Active Directory. A stand-alone CA can be administered to perform the same actions provided the Active Directory is available to the stand-alone CA and a custom policy module is used.
 
  
 

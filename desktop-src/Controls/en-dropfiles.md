@@ -53,7 +53,7 @@ Return zero to ignore the drop operation.
 
 For a rich edit control to receive [**WM\_DROPFILES**](https://msdn.microsoft.com/library/windows/desktop/bb774303) messages, the parent window must register the control as a drop target by using the [**DragAcceptFiles**](https://msdn.microsoft.com/library/windows/desktop/bb776406) function. The control does not register itself.
 
-To receive EN\_DROPFILES notification codes, specify [**ENM\_DROPFILES**](https://www.bing.com/search?q=**ENM\_DROPFILES**) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
+To receive EN\_DROPFILES notification codes, specify [**ENM\_DROPFILES**](rich-edit-control-event-mask-flags.md#enm-dropfiles) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
 ## Requirements
 

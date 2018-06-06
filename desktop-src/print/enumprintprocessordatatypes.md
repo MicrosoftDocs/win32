@@ -91,7 +91,7 @@ If the operation succeeds, the function should return **TRUE**. If the operation
 
 Print processors are required to export an **EnumPrintProcessorDatatypes** function. The local print provider calls the function during initialization. The function is also called when an application calls the spooler's version of the same function.
 
-The function must return an array of DATATYPES\_INFO\_1 structures, with each structure pointing to a string that represents a data type. The actual strings must also be included in the buffer, after the structure array. See [Sample Print Processor](https://www.bing.com/search?q=Sample Print Processor) for an example.
+The function must return an array of DATATYPES\_INFO\_1 structures, with each structure pointing to a string that represents a data type. The actual strings must also be included in the buffer, after the structure array. See [Sample Print Processor](https://www.bing.com/search?q=Sample+Print+Processor) for an example.
 
 The function should return the number of DATATYPES\_INFO\_1 structures returned (that is, the number of data types supported) in the location pointed to by *pcReturned*.
 

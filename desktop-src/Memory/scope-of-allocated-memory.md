@@ -19,9 +19,9 @@ Each process specifies its handle to the file-mapping object in the [**MapViewOf
 
 Any pages committed by mapping a view of a file are released when the last process with a view of the mapping object either terminates or unmaps its view by calling the [**UnmapViewOfFile**](https://www.bing.com/search?q=**UnmapViewOfFile**) function. At this time, the specified file (if any) associated with the mapping object is updated. A specified file can also be forced to update by calling the [**FlushViewOfFile**](https://www.bing.com/search?q=**FlushViewOfFile**) function.
 
-For more information, see [File Mapping](file-mapping.md). For an example of shared memory in a DLL, see [Using Shared Memory in a Dynamic-Link Library](https://msdn.microsoft.com/windows/desktop/ab751ab1-3b40-4111-b724-9f8676b722a3).
+For more information, see [File Mapping](file-mapping.md). For an example of shared memory in a DLL, see [Using Shared Memory in a Dynamic-Link Library](https://msdn.microsoft.com/ab751ab1-3b40-4111-b724-9f8676b722a3).
 
-If multiple processes have write access to shared memory, you must synchronize access to the memory. For more information, see [Synchronization](https://msdn.microsoft.com/windows/desktop/3e85e61c-d4df-49dd-aa86-1bbd682e375e).
+If multiple processes have write access to shared memory, you must synchronize access to the memory. For more information, see [Synchronization](https://msdn.microsoft.com/3e85e61c-d4df-49dd-aa86-1bbd682e375e).
 
  
 

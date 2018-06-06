@@ -29,7 +29,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 This event is sent by the media stream of the audio capture source.
 
-The capture source sends this event when it receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/windows/desktop/9fd653f0-c9d1-4155-9c1e-7e6124b40cca) event from the audio session with the disconnection reason equal to **DisconnectReasonDeviceRemoval**.
+The capture source sends this event when it receives an [**IAudioSessionEvents::OnSessionDisconnected**](https://msdn.microsoft.com/9fd653f0-c9d1-4155-9c1e-7e6124b40cca) event from the audio session with the disconnection reason equal to **DisconnectReasonDeviceRemoval**.
 
 ## Requirements
 

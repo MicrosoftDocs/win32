@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Creating a WIA Device Manager
 
-The first step in using Windows Image Acquisition (WIA) services is to obtain an [**IWiaDevMgr**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr) interface pointer (if you are programming for Windows XP or earlier) or an [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) interface pointer (if you are programming for Windows Vista or later). To do this, call [CoCreateInstance](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) with the appropriate parameters. The sample application WiaSSamp creates a device manager within a global function implemented by the following code:
+The first step in using Windows Image Acquisition (WIA) services is to obtain an [**IWiaDevMgr**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr) interface pointer (if you are programming for Windows XP or earlier) or an [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) interface pointer (if you are programming for Windows Vista or later). To do this, call [CoCreateInstance](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) with the appropriate parameters. The sample application WiaSSamp creates a device manager within a global function implemented by the following code:
 
 
 ```

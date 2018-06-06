@@ -82,7 +82,7 @@ Caller-supplied size (in characters) of the buffer pointed to by the *pvOutput* 
 *pDM* \[in, optional\]
 </dt> <dd>
 
-Caller-supplied pointer to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure that describes the current print job characteristics. If **NULL**, the function should use the driver's internal default DEVMODEW structure.
+Caller-supplied pointer to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure that describes the current print job characteristics. If **NULL**, the function should use the driver's internal default DEVMODEW structure.
 
 </dd> </dl>
 

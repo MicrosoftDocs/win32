@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Spin Controls
 
-With a spin control, users can click arrow buttons to change incrementally the value within its associated [numeric text box](https://www.bing.com/search?q=numeric text box). The term spin box refers to the combination of a text box and its associated spin control.
+With a spin control, users can click arrow buttons to change incrementally the value within its associated [numeric text box](ctrl-text-boxes.md#usage-patterns). The term spin box refers to the combination of a text box and its associated spin control.
 
 ![screen shot of spin control and text box ](images/ctrl-spin-controls-image1.png)
 
@@ -22,7 +22,7 @@ Users often prefer spin controls because they can make changes without moving th
 While spin controls are used for numeric input, the input doesn't have to be a pure whole number. The input can be decimal numbers and it can have negative signs, delimiters (such as colons or hyphens), and unit modifiers.
 
 > [!Note]  
-> Guidelines related to [text boxes](https://www.bing.com/search?q=text boxes) and [layout](vis-layout.md) are presented in separate articles.
+> Guidelines related to [text boxes](ctrl-text-boxes.md#usage-patterns) and [layout](vis-layout.md) are presented in separate articles.
 
  
 
@@ -141,7 +141,7 @@ Use a slider if:
 
 ## Labels
 
--   Apply the [text box labeling](https://www.bing.com/search?q=text box labeling) guidelines to label the associated text box. Spin controls are never labeled directly.
+-   Apply the [text box labeling](ctrl-text-boxes.md#text-box-labels) guidelines to label the associated text box. Spin controls are never labeled directly.
 
 ## Documentation
 

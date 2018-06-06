@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # How to Use Hot-Tracking with Toolbars
 
-When a mouse pointer hovers over an item, the item becomes hot. If hot-tracking is enabled, the hot item is highlighted. A toolbar that is created with the [**TBSTYLE\_FLAT**](https://www.bing.com/search?q=**TBSTYLE\_FLAT**) style, or one that uses [Visual Styles](themes-overview.md), supports hot-tracking by default.
+When a mouse pointer hovers over an item, the item becomes hot. If hot-tracking is enabled, the hot item is highlighted. A toolbar that is created with the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md#tbstyle-flat) style, or one that uses [Visual Styles](themes-overview.md), supports hot-tracking by default.
 
 Hot-tracking requires that you create image lists; therefore, you cannot use the [**TB\_ADDBITMAP**](tb-addbitmap.md) message or the [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex) function to create your toolbar.
 

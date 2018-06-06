@@ -15,7 +15,7 @@ This interface is implemented by the application to save any additional user dat
 
 ## Members
 
-The **ID3DXSaveUserData** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ID3DXSaveUserData** also has these types of members:
+The **ID3DXSaveUserData** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ID3DXSaveUserData** also has these types of members:
 
 -   [Methods](#methods)
 

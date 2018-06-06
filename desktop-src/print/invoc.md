@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # INVOC structure
 
-The INVOC structure is used for describing printer command strings in [Unidrv font metrics files](https://www.bing.com/search?q=Unidrv font metrics files) (.ufm files) and [glyph translation table files](https://www.bing.com/search?q=glyph translation table files) (.gtt files).
+The INVOC structure is used for describing printer command strings in [Unidrv font metrics files](print.customized_font_management#ddk-unidrv-font-metrics-files-gg) (.ufm files) and [glyph translation table files](print.customized_font_management#ddk-glyph-translation-table-files-gg) (.gtt files).
 
 ## Syntax
 

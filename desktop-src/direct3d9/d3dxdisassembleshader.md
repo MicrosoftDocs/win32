@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 Disassemble a shader.
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](https://msdn.microsoft.com/windows/desktop/0b5cfe31-1277-4923-a6e2-7e020019b74c) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddisassemble.htm) API.
 
  
 
@@ -39,7 +39,7 @@ HRESULT D3DXDisassembleShader(
 *pShader* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to a memory buffer that contains the shader data.
 
@@ -48,7 +48,7 @@ Pointer to a memory buffer that contains the shader data.
 *EnableColorCode* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Enable color code to make it easier to read the disassembly.
 
@@ -57,7 +57,7 @@ Enable color code to make it easier to read the disassembly.
 *pComments* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 An optional NULL-terminated comment string. This value may be **NULL**.
 

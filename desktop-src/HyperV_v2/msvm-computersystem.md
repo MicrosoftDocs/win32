@@ -1191,7 +1191,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 The following illustration shows the **EnabledState** values.
 
-![state diagram for enabledstate values for windows server 2008 r2](https://www.bing.com/search?q=state diagram for enabledstate values for windows server 2008 r2)
+![state diagram for enabledstate values for windows server 2008 r2](https://www.bing.com/search?q=state+diagram+for+enabledstate+values+for+windows+server+2008+r2)
 
 When a property of the **Msvm\_ComputerSystem** class changes, the WMI provider indicates an [**\_\_InstanceModificationEvent**](https://msdn.microsoft.com/library/aa394651) event that describes the changes. The previous state is contained in the **PreviousInstance** property, and the new state is contained in the **TargetInstance** property. This event is asynchronous; by the time the **\_\_InstanceModificationEvent** event is processed, the **TargetInstance** property may not reflect the current state.
 

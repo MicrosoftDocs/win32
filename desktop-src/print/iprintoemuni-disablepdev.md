@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemUni::DisablePDEV method
 
-The `IPrintOemUni::DisablePDEV` method allows a rendering plug-in for [*Unidrv*](https://www.bing.com/search?q=*Unidrv*) to delete the private PDEV structure that was allocated by its [**IPrintOemUni::EnablePDEV**](iprintoemuni-enablepdev.md) method.
+The `IPrintOemUni::DisablePDEV` method allows a rendering plug-in for [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) to delete the private PDEV structure that was allocated by its [**IPrintOemUni::EnablePDEV**](iprintoemuni-enablepdev.md) method.
 
 ## Syntax
 
@@ -54,7 +54,7 @@ The method must return one of the following values.
 
 A rendering plug-in for Unidrv must implement the `IPrintOemUni::DisablePDEV` method.
 
-The `IPrintOemUni::DisablePDEV` method performs the same types of operations as the [**DrvDisablePDEV**](https://www.bing.com/search?q=**DrvDisablePDEV**) function that is exported by a printer graphics DLL. Its purpose is to allow a rendering plug-in to delete the private PDEV structure that is pointed to by the DEVOBJ structure's **pdevOEM** member. This PDEV structure is one that was allocated by the plug-in's [**IPrintOemUni::EnablePDEV**](iprintoemuni-enablepdev.md) method.
+The `IPrintOemUni::DisablePDEV` method performs the same types of operations as the [**DrvDisablePDEV**](https://msdn.microsoft.com/dff04000-e307-4a1c-80fe-d6666929df76) function that is exported by a printer graphics DLL. Its purpose is to allow a rendering plug-in to delete the private PDEV structure that is pointed to by the DEVOBJ structure's **pdevOEM** member. This PDEV structure is one that was allocated by the plug-in's [**IPrintOemUni::EnablePDEV**](iprintoemuni-enablepdev.md) method.
 
 ## Requirements
 

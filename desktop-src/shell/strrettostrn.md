@@ -79,7 +79,7 @@ Type: **BOOL**
 
  
 
-**StrRetToStrN** is not exported by name. To use it, you must use [**GetProcAddress**](https://msdn.microsoft.com/windows/desktop/a0d7fc09-f888-4f46-a571-d3719a627597) and request ordinal 96 from Shell32.dll to obtain a function pointer.
+**StrRetToStrN** is not exported by name. To use it, you must use [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) and request ordinal 96 from Shell32.dll to obtain a function pointer.
 
 If the **uType** member of the structure pointed to by *pStrRet* is set to **STRRET\_WSTR**, the **pOleStr** member of that structure will be freed on return.
 

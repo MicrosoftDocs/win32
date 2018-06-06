@@ -95,7 +95,7 @@ If the operation succeeds, the function returns **TRUE**. Otherwise it returns *
 
 ## Remarks
 
-The **UNIFONTOBJ\_GetInfo** callback function allows a [rendering plug-in](https://www.bing.com/search?q=rendering plug-in) to call back into Unidrv to obtain font or glyph information from GDI, needed for handling [customized font management](https://www.bing.com/search?q=customized font management) operations.
+The **UNIFONTOBJ\_GetInfo** callback function allows a [rendering plug-in](https://www.bing.com/search?q=rendering+plug-in) to call back into Unidrv to obtain font or glyph information from GDI, needed for handling [customized font management](https://www.bing.com/search?q=customized+font+management) operations.
 
 A rendering plug-in receives the **UNIFONTOBJ\_GetInfo** function's address in the [**UNIFONTOBJ**](unifontobj.md) structure that is passed to the font customization methods.
 
@@ -110,7 +110,7 @@ The type of information returned by the function is dependent on the input argum
 | [**GETINFO\_GLYPHSTRING**](getinfo-glyphstring.md)<br/> | An array of glyph specifiers in a specified format.<br/>                                           |
 | [**GETINFO\_GLYPHWIDTH**](getinfo-glyphwidth.md)<br/>   | Total width of a set of glyphs.<br/>                                                               |
 | [**GETINFO\_MEMORY**](getinfo-memory.md)<br/>           | Amount of available printer memory remaining.<br/>                                                 |
-| [**GETINFO\_STDVAR**](getinfo-stdvar.md)<br/>           | The current value for one or more of Unidrv's [standard variables](https://www.bing.com/search?q=standard variables).<br/> |
+| [**GETINFO\_STDVAR**](getinfo-stdvar.md)<br/>           | The current value for one or more of Unidrv's [standard variables](https://www.bing.com/search?q=standard+variables).<br/> |
 
 
 

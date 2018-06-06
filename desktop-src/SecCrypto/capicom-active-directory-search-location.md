@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION enumeration
 
-The **CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION** enumeration type indicates the location to be searched for an Active Directory [*certificate store*](https://www.bing.com/search?q=*certificate store*).
+The **CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION** enumeration type indicates the location to be searched for an Active Directory [*certificate store*](security.c_gly#-security-certificate-store-gly).
 
 ## Members
 

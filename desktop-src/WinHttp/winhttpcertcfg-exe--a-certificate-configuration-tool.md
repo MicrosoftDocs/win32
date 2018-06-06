@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WinHttpCertCfg.exe, a Certificate Configuration Tool
 
-The [Microsoft Windows HTTP Services (WinHTTP)](about-winhttp.md) certificate configuration tool, "WinHttpCertCfg.exe", enables administrators to install and configure client certificates in any [*certificate store*](https://www.bing.com/search?q=*certificate store*) that can be accessed by the Internet Server Web Application Manager (IWAM) account. The tool also eliminates the need to do anything special to accounts such as the IWAM account to gain access to certificates when using Active Server Pages (ASP).
+The [Microsoft Windows HTTP Services (WinHTTP)](about-winhttp.md) certificate configuration tool, "WinHttpCertCfg.exe", enables administrators to install and configure client certificates in any [*certificate store*](glossary.md#term-certificate-store) that can be accessed by the Internet Server Web Application Manager (IWAM) account. The tool also eliminates the need to do anything special to accounts such as the IWAM account to gain access to certificates when using Active Server Pages (ASP).
 
 The Microsoft Management Console (MMC) enables administrators to import client certificates to a local computer. However, importing a certificate does not automatically grant access to the private key for other accounts. This private key is required for client certificate authentication. The Microsoft Windows HTTP Services (WinHTTP) certificate configuration tool provides the ability to grant access to additional accounts, such as the IWAM account, when required.
 
@@ -72,10 +72,10 @@ The following table lists parameters for the configuration tool.
 </tr>
 <tr class="odd">
 <td>-c</td>
-<td>Specifies the location and name of the [<em>certificate store</em>](https://www.bing.com/search?q=<em>certificate store</em>). Use &quot;LOCAL_MACHINE&quot; or &quot;CURRENT_USER&quot; to designate which registry branch to use for the location. The <em>certificate store</em> can be any installed on the machine. Typical name examples are &quot;MY&quot;, &quot;Root&quot;, and &quot;TrustedPeople&quot;. The location and name of the <em>certificate store</em> are separated with a backward slash, for example, &quot;LOCAL_MACHINE\Root&quot;.
+<td>Specifies the location and name of the [<em>certificate store</em>](glossary.md#term-certificate-store). Use &quot;LOCAL_MACHINE&quot; or &quot;CURRENT_USER&quot; to designate which registry branch to use for the location. The <em>certificate store</em> can be any installed on the machine. Typical name examples are &quot;MY&quot;, &quot;Root&quot;, and &quot;TrustedPeople&quot;. The location and name of the <em>certificate store</em> are separated with a backward slash, for example, &quot;LOCAL_MACHINE\Root&quot;.
 <blockquote>
 [!Note]<br />
-Although the &quot;CURRENT_USER&quot; branch of the registry can be specified with this parameter, extending access to private keys is primarily intended for certificates installed in a local computer [<em>certificate store</em>](https://www.bing.com/search?q=<em>certificate store</em>) that can be accessed by multiple users.
+Although the &quot;CURRENT_USER&quot; branch of the registry can be specified with this parameter, extending access to private keys is primarily intended for certificates installed in a local computer [<em>certificate store</em>](glossary.md#term-certificate-store) that can be accessed by multiple users.
 </blockquote>
 <br/></td>
 </tr>
@@ -104,11 +104,11 @@ Although the &quot;CURRENT_USER&quot; branch of the registry can be specified wi
 
 The following examples show some of the ways in which the configuration tool can be used.
 
-1.  This command lists accounts that have access to the private key for the "MyCertificate" certificate in the "Root" [*certificate store*](https://www.bing.com/search?q=*certificate store*) of the LOCAL\_MACHINE branch of the registry.
+1.  This command lists accounts that have access to the private key for the "MyCertificate" certificate in the "Root" [*certificate store*](glossary.md#term-certificate-store) of the LOCAL\_MACHINE branch of the registry.
 
     **winhttpcertcfg -l -c LOCAL\_MACHINE\\Root -s MyCertificate**
 
-2.  This command grants access to the private key of the "MyCertificate" certificate in the "My" [*certificate store*](https://www.bing.com/search?q=*certificate store*) for the TESTUSER account.
+2.  This command grants access to the private key of the "MyCertificate" certificate in the "My" [*certificate store*](glossary.md#term-certificate-store) for the TESTUSER account.
 
     **winhttpcertcfg -g -c LOCAL\_MACHINE\\My -s MyCertificate -a TESTUSER**
 

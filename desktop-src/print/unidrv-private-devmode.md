@@ -39,13 +39,13 @@ Reserved for system use.
 **wSize**
 </dt> <dd>
 
-The size, in bytes, of the private portion of Unidrv's [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure.
+The size, in bytes, of the private portion of Unidrv's [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure.
 
 </dd> </dl>
 
 ## Remarks
 
-This structure and associated macro are available in Windows 2000 and later. For information about the public and private sections of the DEVMODEW structure, see [The DEVMODEW Structure](https://www.bing.com/search?q=The DEVMODEW Structure).
+This structure and associated macro are available in Windows 2000 and later. For information about the public and private sections of the DEVMODEW structure, see [The DEVMODEW Structure](https://www.bing.com/search?q=The+DEVMODEW+Structure).
 
 Printoem.h defines a macro for determining the size of the private portion of Unidrv's DEVMODEW structure.
 

@@ -46,7 +46,7 @@ This function returns **FALSE** if the Terminal Server is in INSTALL mode, **TRU
 
 <dl> <dt>
 
-[**VerifyVersionInfo**](https://msdn.microsoft.com/windows/desktop/791bc6bf-f486-4110-b6ea-30a0935040b2)
+[**VerifyVersionInfo**](https://msdn.microsoft.com/791bc6bf-f486-4110-b6ea-30a0935040b2)
 </dt> </dl>
 
  

@@ -32,7 +32,7 @@ A typical use for transitive components is to prepare a product to reinstall dur
 
 A reinstallation of the product is necessary to switch the transitive components. Package authors therefore need to provide users with a method for reinstalling the product and for setting the modes of the [**REINSTALLMODE**](reinstallmode.md) property. There are basically three ways to trigger the reinstallation:
 
--   Run and configure the reinstallation through the user interface by authoring a package that uses the [*full UI*](https://www.bing.com/search?q=*full UI*).
+-   Run and configure the reinstallation through the user interface by authoring a package that uses the [*full UI*](f-gly.md#-msi-full-ui-gly).
 -   Run the reinstallation from the command line by using **msiexec /f** and select the modes from the list for the **/f** [command line option](command-line-options.md).
 -   Have the application call [**MsiReInstallProduct**](/windows/desktop/api/Msi/nf-msi-msireinstallproducta) or [**MsiReInstallFeature**](/windows/desktop/api/Msi/nf-msi-msireinstallfeaturea).
 

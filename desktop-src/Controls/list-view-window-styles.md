@@ -95,7 +95,7 @@ You can use the **LVS\_TYPESTYLEMASK** mask to isolate the window styles that co
 
 <dl> <dt>
 
-[List-View Styles and Views](https://www.bing.com/search?q=List-View Styles and Views)
+[List-View Styles and Views](list-view-controls-overview.md#list-view-styles-and-views)
 </dt> </dl>
 
  

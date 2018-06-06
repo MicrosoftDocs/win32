@@ -37,7 +37,7 @@ BITS does not recognize the proxy settings that are set using the Proxycfg.exe f
 
 If you are using BITS in an environment that requires proxy authentication while running as an account without usable NTLM or Kerberos credentials in the machine's network domain, you must take extra steps to authenticate properly by using the credentials of another user account that does have credentials on the domain. This is a typical scenario when your BITS code is running as a system service such as LocalService, NetworkService, or LocalSystem, as those accounts do not have usable NTLM or Kerberos credentials.
 
-For details on how authentication works in this scenario, see [Authentication.](https://www.bing.com/search?q=Authentication.)
+For details on how authentication works in this scenario, see [Authentication.](authentication.md#how-to-handle-authenticated-proxy-scenarios-that-require-user-specific-settings)
 
 ## Scalability
 

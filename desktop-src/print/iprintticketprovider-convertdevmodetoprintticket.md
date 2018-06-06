@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintTicketProvider::ConvertDevModeToPrintTicket method
 
-The `IPrintTicketProvider::ConvertDevModeToPrintTicket` method converts a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure into a print ticket.
+The `IPrintTicketProvider::ConvertDevModeToPrintTicket` method converts a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure into a print ticket.
 
 ## Syntax
 
@@ -33,7 +33,7 @@ HRESULT ConvertDevModeToPrintTicket(
 *cbDevmode* \[in\]
 </dt> <dd>
 
-The size, in bytes, of the input [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure. The size includes both the public and private portions of this structure.
+The size, in bytes, of the input [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure. The size includes both the public and private portions of this structure.
 
 </dd> <dt>
 
@@ -57,7 +57,7 @@ A pointer to the partially-completed print ticket. When `IPrintTicketProvider::C
 
 ## Remarks
 
-When the print system converts the contents of a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure into a print ticket, it converts all of the public DEVMODEW fields except those that the plug-in provider has indicated should be disabled. For these DEVMODEW fields that are disabled and not converted, the plug-in provider is responsible for populating the corresponding print ticket values. If the DEVMODEW snapshot was disabled during a call to [**IPrintTicketProvider::BindPrinter**](iprintticketprovider-bindprinter.md), the representation from the conversion must provide enough information to reconstruct the original DEVMODEW structure from the print ticket without loss of information.
+When the print system converts the contents of a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure into a print ticket, it converts all of the public DEVMODEW fields except those that the plug-in provider has indicated should be disabled. For these DEVMODEW fields that are disabled and not converted, the plug-in provider is responsible for populating the corresponding print ticket values. If the DEVMODEW snapshot was disabled during a call to [**IPrintTicketProvider::BindPrinter**](iprintticketprovider-bindprinter.md), the representation from the conversion must provide enough information to reconstruct the original DEVMODEW structure from the print ticket without loss of information.
 
 The DEVMODEW snapshot allows support for subtle distinctions in options provided in the DEVMODEW structure for which the print ticket might not have representations. For example, DEVMODEW might support the LETTER paper size while the print ticket supports the LETTERSMALL paper size.
 

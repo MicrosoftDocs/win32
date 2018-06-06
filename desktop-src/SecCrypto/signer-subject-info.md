@@ -56,7 +56,7 @@ This member is reserved. It must be set to zero.
 **dwSubjectChoice**
 </dt> <dd>
 
-Specifies whether the subject is a file or a [*BLOB*](https://www.bing.com/search?q=*BLOB*). This member can be one or more of the following values.
+Specifies whether the subject is a file or a [*BLOB*](security.b_gly#-security-blob-gly). This member can be one or more of the following values.
 
 
 

@@ -35,7 +35,7 @@ search:query=from:paolo&syntax=AQS
 
 <dl> <dt>
 
-[Advanced Query Syntax](https://www.bing.com/search?q=Advanced Query Syntax)
+[Advanced Query Syntax](https://www.bing.com/search?q=Advanced+Query+Syntax)
 </dt> </dl>
 
  

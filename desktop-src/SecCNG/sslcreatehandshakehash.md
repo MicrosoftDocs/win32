@@ -49,7 +49,7 @@ A hash handle that can be passed to other SSL provider functions.
 *dwProtocol* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG SSL Provider Protocol Identifier**) values.
+One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Protocol+Identifier**) values.
 
 > [!Note]  
 > This function is not used with the SSL 2.0 protocol.
@@ -61,7 +61,7 @@ One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/searc
 *dwCipherSuite* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Cipher Suite Identifier**](https://www.bing.com/search?q=**CNG SSL Provider Cipher Suite Identifier**) values.
+One of the [**CNG SSL Provider Cipher Suite Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Cipher+Suite+Identifier**) values.
 
 </dd> <dt>
 

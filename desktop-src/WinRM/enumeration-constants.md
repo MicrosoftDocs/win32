@@ -60,7 +60,7 @@ The associated scripting method is [**WSMan.EnumerationFlagReturnObject**](wsman
 
 This flag controls how the *filter* parameter in the call to [**Session.Enumerate**](session-enumerate.md) is interpreted by WinRM.
 
-The format of the filter may be an XML fragment or a string of plain text. The format is determined by the [*filter dialect*](https://www.bing.com/search?q=*filter dialect*) of the [*filter*](https://www.bing.com/search?q=*filter*) used in the call to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate), which is specific to the operation performed.
+The format of the filter may be an XML fragment or a string of plain text. The format is determined by the [*filter dialect*](windows-remote-management-glossary.md#winrm-gloss-filter-dialect) of the [*filter*](windows-remote-management-glossary.md#winrm-gloss-filter) used in the call to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate), which is specific to the operation performed.
 
 If the *dialect* parameter is not specified, WinRM attempts to determine the dialect based on the first character of the filter. If the first character is &lt;, but the filter is not actually an XML fragment, then this flag should be set. For example, a filter in the following format requires that you set **WSManFlagNonXmlText** so that the filter is correctly interpreted:
 
@@ -102,7 +102,7 @@ The associated scripting method is [**WSMan.EnumerationFlagReturnEPR**](wsman-en
 
 
 
-Batches contain both the requested XML instances and the corresponding EPRs contained in a [*wsman:Items*](https://www.bing.com/search?q=*wsman:Items*) element.
+Batches contain both the requested XML instances and the corresponding EPRs contained in a [*wsman:Items*](windows-remote-management-glossary.md#winrm-gloss-wsman-items) element.
 
 The associated scripting method is [**WSMan.EnumerationFlagReturnObjectAndEPR**](wsman-enumerationflagreturnobjectandepr.md) and the C++ method is [**IWSManEx.EnumerationFlagReturnObjectAndEPR**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-enumerationflagreturnobjectandepr).
 

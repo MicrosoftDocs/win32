@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ISCrdEnr::enumCSPName method
 
-The **enumCSPName** method enumerates the name of the available [*cryptographic service providers*](https://www.bing.com/search?q=*cryptographic service providers*) (CSPs).
+The **enumCSPName** method enumerates the name of the available [*cryptographic service providers*](security.c_gly#-security-cryptographic-service-provider-gly) (CSPs).
 
 ## Syntax
 

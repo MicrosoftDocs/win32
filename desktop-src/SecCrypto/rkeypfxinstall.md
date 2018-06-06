@@ -43,14 +43,14 @@ A [**KEYSVCC\_HANDLE**](keysvcc-handle.md) handle previously opened by [**RKeyOp
 *pPFX* \[in\]
 </dt> <dd>
 
-A pointer to a [**KEYSVC\_BLOB**](keysvc-blob.md) structure that represents the certificate to install. The BLOB is in [*PKCS \#12*](https://msdn.microsoft.com/windows/desktop/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) format.
+A pointer to a [**KEYSVC\_BLOB**](keysvc-blob.md) structure that represents the certificate to install. The BLOB is in [*PKCS \#12*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) format.
 
 </dd> <dt>
 
 *pPassword* \[in\]
 </dt> <dd>
 
-A pointer to a [**KEYSVC\_UNICODE\_STRING**](keysvc-unicode-string.md) structure that represents the password for the BLOB. When you have finished using the password, clear the password from memory by calling the [**SecureZeroMemory**](https://msdn.microsoft.com/windows/desktop/2c4090a6-025b-4b7b-8f31-7e744ad51b39) function. For more information about protecting passwords, see [Handling Passwords](https://msdn.microsoft.com/windows/desktop/1d810f71-9bf5-4c5c-a573-c35081f604cf).
+A pointer to a [**KEYSVC\_UNICODE\_STRING**](keysvc-unicode-string.md) structure that represents the password for the BLOB. When you have finished using the password, clear the password from memory by calling the [**SecureZeroMemory**](https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39) function. For more information about protecting passwords, see [Handling Passwords](https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf).
 
 </dd> <dt>
 

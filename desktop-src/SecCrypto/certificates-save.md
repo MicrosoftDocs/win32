@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Certificates.Save method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](https://www.bing.com/search?q=**X509Certificate2Collection Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](https://www.bing.com/search?q=**X509Certificate2Collection+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
 The **Save** method saves the [**Certificate**](certificate.md) objects in the collection.
 
@@ -43,7 +43,7 @@ A string that contains the name of the output file where the certificates will b
 *Password* \[in, optional\]
 </dt> <dd>
 
-A string that contains the [*plaintext*](https://www.bing.com/search?q=*plaintext*) password for a [*private key*](https://www.bing.com/search?q=*private key*) file. The default value is the empty string (""). Up to 32 Unicode characters, including a terminating null character, can be used for the password. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/windows/desktop/1d810f71-9bf5-4c5c-a573-c35081f604cf).
+A string that contains the [*plaintext*](security.p_gly#-security-plaintext-gly) password for a [*private key*](security.p_gly#-security-private-key-gly) file. The default value is the empty string (""). Up to 32 Unicode characters, including a terminating null character, can be used for the password. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf).
 
 </dd> <dt>
 

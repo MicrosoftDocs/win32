@@ -58,7 +58,7 @@ RTEXT "Number of Messages", 4, 30, 50, 100, 10
 [**CTEXT**](ctext-control.md)
 </dt> <dt>
 
-[Edit Controls](https://www.bing.com/search?q=Edit Controls)
+[Edit Controls](https://www.bing.com/search?q=Edit+Controls)
 </dt> <dt>
 
 [**LTEXT**](ltext-control.md)

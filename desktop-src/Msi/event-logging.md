@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Event Logging
 
-[Windows Events](https://msdn.microsoft.com/windows/desktop/c10baa8d-50b9-4fda-89d0-d00b1d9f5404) provides a standard, centralized way for applications (and the operating system) to record important software and hardware events. The event-logging service stores events from various sources in a single collection called an *event log*. Prior to Windows Vista, you would use either [Event Tracing for Windows](https://msdn.microsoft.com/windows/desktop/3de69436-671b-46a2-8d92-4eb3af2a4233) (ETW) or [Event Logging](https://msdn.microsoft.com/windows/desktop/5ec95938-ac5d-4f63-9080-2de71454eb17) to log events. Windows Vista introduced a new eventing model that unifies both ETW and the [Windows Event Log](https://msdn.microsoft.com/windows/desktop/738c8afa-4714-4d4f-9231-b8fbdb5159c5) API.
+[Windows Events](https://msdn.microsoft.com/c10baa8d-50b9-4fda-89d0-d00b1d9f5404) provides a standard, centralized way for applications (and the operating system) to record important software and hardware events. The event-logging service stores events from various sources in a single collection called an *event log*. Prior to Windows Vista, you would use either [Event Tracing for Windows](https://msdn.microsoft.com/3de69436-671b-46a2-8d92-4eb3af2a4233) (ETW) or [Event Logging](https://msdn.microsoft.com/5ec95938-ac5d-4f63-9080-2de71454eb17) to log events. Windows Vista introduced a new eventing model that unifies both ETW and the [Windows Event Log](https://msdn.microsoft.com/738c8afa-4714-4d4f-9231-b8fbdb5159c5) API.
 
 The installer also writes entries into the event log. These record events such as following:
 
@@ -64,7 +64,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="even">
 <td>1006</td>
 <td>Verification of the digital signature for cabinet '%1' cannot be performed. WinVerifyTrust is not available on the computer.</td>
-<td>Warning message. A cabinet was authored in the [MsiDigitalSignature table](msidigitalsignature-table.md) to have a [<strong>WinVerifyTrust</strong>](https://msdn.microsoft.com/windows/desktop/b7efac6a-ac9f-477a-aada-63fe32208e6f) check performed. This action could not be performed because the computer does not have the proper cryptography DLLs installed.</td>
+<td>Warning message. A cabinet was authored in the [MsiDigitalSignature table](msidigitalsignature-table.md) to have a [<strong>WinVerifyTrust</strong>](https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f) check performed. This action could not be performed because the computer does not have the proper cryptography DLLs installed.</td>
 </tr>
 <tr class="odd">
 <td>1007</td>
@@ -124,7 +124,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="even">
 <td>1021</td>
 <td>Product: %1 - Update '%2' could not be removed. Error code %3.</td>
-<td>Error message indicating that the installer was unable to remove the update. For information on how to turn on logging, see [Enable verbose logging on user's computer when troubleshooting deployment.](https://www.bing.com/search?q=Enable verbose logging on user's computer when troubleshooting deployment.)<strong>Windows Installer 2.0:</strong> Not available.<br/></td>
+<td>Error message indicating that the installer was unable to remove the update. For information on how to turn on logging, see [Enable verbose logging on user's computer when troubleshooting deployment.](windows-installer-best-practices.md#enable-verbose-logging-on-users-computer-when-troubleshooting-deployment)<strong>Windows Installer 2.0:</strong> Not available.<br/></td>
 </tr>
 <tr class="odd">
 <td>1022</td>
@@ -139,7 +139,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="odd">
 <td>1024</td>
 <td>Product: %1 - Update '%2' could not be installed. Error code %3.</td>
-<td>Error message indicating that the installer was unable to install the update. For information on how to turn logging on, see [Enable verbose logging on user's computer when troubleshooting deployment.](https://www.bing.com/search?q=Enable verbose logging on user's computer when troubleshooting deployment.)<strong>Windows Installer 2.0:</strong> Not available.<br/></td>
+<td>Error message indicating that the installer was unable to install the update. For information on how to turn logging on, see [Enable verbose logging on user's computer when troubleshooting deployment.](windows-installer-best-practices.md#enable-verbose-logging-on-users-computer-when-troubleshooting-deployment)<strong>Windows Installer 2.0:</strong> Not available.<br/></td>
 </tr>
 <tr class="even">
 <td>1025</td>

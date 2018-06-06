@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Relation to Other Services
 
-Other parts of the Microsoft Internet Security Framework use the [*smart card subsystem*](https://www.bing.com/search?q=*smart card subsystem*), as shown in the following illustration. (Because of U.S. export restrictions, a [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP) that uses an SCSP to communicate cryptographic-related requests should sign and verify the SCSP.)
+Other parts of the Microsoft Internet Security Framework use the [*smart card subsystem*](security.s_gly#-security-smart-card-subsystem-gly), as shown in the following illustration. (Because of U.S. export restrictions, a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) that uses an SCSP to communicate cryptographic-related requests should sign and verify the SCSP.)
 
 ![relation of microsoft internet security framework to smart card subsystem](images/smartovr3.png)
 

@@ -17,7 +17,7 @@ The following procedure describes how to use large-page support.
 
 **To use large-page support**
 
-1.  Obtain the **SeLockMemoryPrivilege** privilege by calling the [**AdjustTokenPrivileges**](https://msdn.microsoft.com/windows/desktop/8e3f70cd-814e-4aab-8f48-0ca482beef2e) function. For more information, see [Assigning Privileges to an Account](https://msdn.microsoft.com/windows/desktop/F2DAB2E3-8B24-49A3-A2DD-E83B5181E9A2) and [Changing Privileges in a Token](https://msdn.microsoft.com/windows/desktop/b8e47d04-07c1-4d57-8209-6b0c397476e5).
+1.  Obtain the **SeLockMemoryPrivilege** privilege by calling the [**AdjustTokenPrivileges**](https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e) function. For more information, see [Assigning Privileges to an Account](https://msdn.microsoft.com/F2DAB2E3-8B24-49A3-A2DD-E83B5181E9A2) and [Changing Privileges in a Token](https://msdn.microsoft.com/b8e47d04-07c1-4d57-8209-6b0c397476e5).
 2.  Retrieve the minimum large-page size by calling the [**GetLargePageMinimum**](https://www.bing.com/search?q=**GetLargePageMinimum**) function.
 3.  Include the **MEM\_LARGE\_PAGES** value when calling the [**VirtualAlloc**](https://www.bing.com/search?q=**VirtualAlloc**) function. The size and alignment must be a multiple of the large-page minimum.
 

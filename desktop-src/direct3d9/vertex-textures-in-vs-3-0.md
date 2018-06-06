@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Vertex Textures in vs\_3\_0 (DirectX HLSL)
 
-The vertex shader 3.0 model supports texture lookup in the vertex shader using the [texldl - vs](https://msdn.microsoft.com/windows/desktop/774c058d-7b3e-46a9-adce-c9a44efefd78) texture load statement. The vertex engine contains four texture sampler stages, named [D3DVERTEXTEXTURESAMPLER0](d3dvertextexturesampler.md), D3DVERTEXTEXTURESAMPLER1, D3DVERTEXTEXTURESAMPLER2, and D3DVERTEXTEXTURESAMPLER3. These are distinct from the displacement map sampler and texture samplers in the pixel engine.
+The vertex shader 3.0 model supports texture lookup in the vertex shader using the [texldl - vs](https://msdn.microsoft.com/VS|directx_sdk|~\texldl___vs.htm) texture load statement. The vertex engine contains four texture sampler stages, named [D3DVERTEXTEXTURESAMPLER0](d3dvertextexturesampler.md), D3DVERTEXTEXTURESAMPLER1, D3DVERTEXTEXTURESAMPLER2, and D3DVERTEXTEXTURESAMPLER3. These are distinct from the displacement map sampler and texture samplers in the pixel engine.
 
 To sample textures set at those four stages, you can use the vertex engine and program the stages with the [**CheckDeviceFormat**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat) method. Set textures at those stages using [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture), with the stage index [D3DVERTEXTEXTURESAMPLER0](d3dvertextexturesampler.md) through D3DVERTEXTEXTURESAMPLER3. A new register has been introduced in the vertex shader, the sampler register (like in ps\_2\_0), which represents the vertex texture sampler. This register needs to be defined in the shader before using it.
 
@@ -25,7 +25,7 @@ An application can query if a format is supported as a vertex texture by calling
 The functionality is identical to the pixel textures, except for the following:
 
 -   Anisotropic texture filtering is not supported, hence D3DSAMP\_MAXANISOTROPY is ignored and D3DTEXF\_ANISOTROPIC cannot be set for magnify, or minify for these stages.
--   Rate of change information is not available, hence the application has to compute the level of detail and provide that information as a parameter to [texldl - vs](https://msdn.microsoft.com/windows/desktop/774c058d-7b3e-46a9-adce-c9a44efefd78).
+-   Rate of change information is not available, hence the application has to compute the level of detail and provide that information as a parameter to [texldl - vs](https://msdn.microsoft.com/VS|directx_sdk|~\texldl___vs.htm).
 
 Restrictions include:
 
@@ -42,9 +42,9 @@ Each sampler uniquely identifies a single texture surface that is set to the cor
 
 At draw time, a texture cannot be simultaneously set as a render target and a texture at a stage.
 
-Because vs\_3\_0 supports four samplers, up to four texture surfaces can be read from in a single shader pass. A sampler register might appear only as an argument in the texture load statement: [texldl - vs](https://msdn.microsoft.com/windows/desktop/774c058d-7b3e-46a9-adce-c9a44efefd78).
+Because vs\_3\_0 supports four samplers, up to four texture surfaces can be read from in a single shader pass. A sampler register might appear only as an argument in the texture load statement: [texldl - vs](https://msdn.microsoft.com/VS|directx_sdk|~\texldl___vs.htm).
 
-In vs\_3\_0, if you use a sampler, it must be declared at the beginning of the shader program, using the [dcl\_samplerType (sm3 - vs asm)](https://msdn.microsoft.com/windows/desktop/733307ac-24ab-4db7-bf70-58a83b4c39b1) (as in ps\_2\_0).
+In vs\_3\_0, if you use a sampler, it must be declared at the beginning of the shader program, using the [dcl\_samplerType (sm3 - vs asm)](https://msdn.microsoft.com/VS|directx_sdk|~\dcl_samplertype___vs.htm) (as in ps\_2\_0).
 
 ## Software Processing
 

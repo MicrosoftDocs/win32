@@ -15,7 +15,7 @@ Specifies the unique identifier for a video adapter. Use this attribute when cal
 
 ## Data type
 
-**[**LUID**](https://msdn.microsoft.com/windows/desktop/fce02fa7-ce96-417a-b389-cf19e1e3b91c)**
+**[**LUID**](https://msdn.microsoft.com/fce02fa7-ce96-417a-b389-cf19e1e3b91c)**
 
 ## Requirements
 

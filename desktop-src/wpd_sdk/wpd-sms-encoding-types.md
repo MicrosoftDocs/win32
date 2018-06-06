@@ -53,7 +53,7 @@ Sixteen-bit encoding (UTF).
 
 ## Remarks
 
-This enumeration is used by the [WPD\_SMS\_ENCODING](https://www.bing.com/search?q=WPD\_SMS\_ENCODING) property.
+This enumeration is used by the [WPD\_SMS\_ENCODING](sms-properties.md#wpd-sms-encoding) property.
 
 ## Requirements
 

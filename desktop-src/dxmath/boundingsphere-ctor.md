@@ -19,9 +19,9 @@ Creates an instance of the BoundingSphere class.
 
 | Constructor                                                                     | Description                                                 |
 |:--------------------------------------------------------------------------------|:------------------------------------------------------------|
-| [**DirectX.BoundingSphere ()**](https://www.bing.com/search?q=**DirectX.BoundingSphere ()**)                      | Creates an instance of the BoundingSphere class.<br/> |
-| [**DirectX.BoundingSphere (const XMFLOAT3&,float)**](https://www.bing.com/search?q=**DirectX.BoundingSphere (const XMFLOAT3&,float)**) | Creates an instance of the BoundingSphere class.<br/> |
-| [**DirectX.BoundingSphere (const BoundingSphere&)**](https://www.bing.com/search?q=**DirectX.BoundingSphere (const BoundingSphere&)**) | Creates an instance of the BoundingSphere class.<br/> |
+| [**DirectX.BoundingSphere ()**](https://www.bing.com/search?q=**DirectX.BoundingSphere+()**)                      | Creates an instance of the BoundingSphere class.<br/> |
+| [**DirectX.BoundingSphere (const XMFLOAT3&,float)**](https://www.bing.com/search?q=**DirectX.BoundingSphere+(const+XMFLOAT3&,float)**) | Creates an instance of the BoundingSphere class.<br/> |
+| [**DirectX.BoundingSphere (const BoundingSphere&)**](https://www.bing.com/search?q=**DirectX.BoundingSphere+(const+BoundingSphere&)**) | Creates an instance of the BoundingSphere class.<br/> |
 
 
 

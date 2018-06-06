@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Schannel Error Codes for TLS and SSL Alerts
 
-[*Schannel*](https://www.bing.com/search?q=*Schannel*) returns the following error messages when the corresponding alert is received from the [*Transport Layer Security*](https://www.bing.com/search?q=*Transport Layer Security*) (TLS) or [*Secure Sockets Layer*](https://www.bing.com/search?q=*Secure Sockets Layer*) (SSL) protocols. The error messages are defined in Winerror.h.
+[*Schannel*](security.s_gly#-security-schannel-gly) returns the following error messages when the corresponding alert is received from the [*Transport Layer Security*](security.t_gly#-security-transport-layer-security-protocol-gly) (TLS) or [*Secure Sockets Layer*](security.s_gly#-security-secure-sockets-layer-protocol-gly) (SSL) protocols. The error messages are defined in Winerror.h.
 
 
 

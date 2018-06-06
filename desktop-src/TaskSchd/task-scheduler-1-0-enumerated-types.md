@@ -23,7 +23,7 @@ The following enumerated types are introduced by Task Scheduler 1.0.
 
 | Name                                             | Description                                                                        |
 |--------------------------------------------------|------------------------------------------------------------------------------------|
-| [**TASK\_TRIGGER\_TYPE**](/windows/desktop/api/Mstask/ne-mstask-_task_trigger_type) | Defines the types of [*triggers*](https://www.bing.com/search?q=*triggers*) associated with a task. |
+| [**TASK\_TRIGGER\_TYPE**](/windows/desktop/api/Mstask/ne-mstask-_task_trigger_type) | Defines the types of [*triggers*](t.md#-msb-triggers-gly) associated with a task. |
 | [**TASKPAGE**](/windows/desktop/api/Mstask/ne-mstask-_taskpage)                     | Defines the type of task page to be retrieved.                                     |
 
 

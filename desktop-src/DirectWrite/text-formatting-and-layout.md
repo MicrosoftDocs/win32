@@ -97,7 +97,7 @@ if (SUCCEEDED(hr))
 
 ### Rendering Options
 
-Text with formatting described by only a [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) object can be rendered with [Direct2D](https://www.bing.com/search?q=Direct2D), however, there are a few more options for rendering an [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) object.
+Text with formatting described by only a [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) object can be rendered with [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b), however, there are a few more options for rendering an [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) object.
 
 The string described by an [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) object can be rendered using the methods below.
 

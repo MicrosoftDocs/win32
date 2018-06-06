@@ -24,7 +24,7 @@ The [**XMFLOAT3**](/windows/desktop/api/DirectXMath/) structure exposes the foll
 
 | Methods                                               | Description                                                                                                          |
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://www.bing.com/search?q=**operator =**)<br/> | Assigns the vector component data from one instance of `XMFLOAT3` to the current instance of `XMFLOAT3`. <br/> |
+| [**operator =**](https://www.bing.com/search?q=**operator+=**)<br/> | Assigns the vector component data from one instance of `XMFLOAT3` to the current instance of `XMFLOAT3`. <br/> |
 
 
 

@@ -56,7 +56,7 @@ To enable a custom template, you must set a flag in the **Flags** member of the 
 
 In most cases, you must also enable a hook procedure for the dialog box to support and process input for the additional controls in your custom template.
 
-For the Explorer-style **Open** and **Save As** dialog boxes, the default templates are not available for modification. Instead, your custom template defines a child dialog box that includes only the items to be added to the standard dialog box. The custom template can also define a static control that specifies the location of the cluster of standard controls in the child dialog box. For more information, see [Explorer-Style Custom Templates](https://www.bing.com/search?q=Explorer-Style Custom Templates).
+For the Explorer-style **Open** and **Save As** dialog boxes, the default templates are not available for modification. Instead, your custom template defines a child dialog box that includes only the items to be added to the standard dialog box. The custom template can also define a static control that specifies the location of the cluster of standard controls in the child dialog box. For more information, see [Explorer-Style Custom Templates](open-and-save-as-dialog-boxes.md#explorer-style-custom-templates).
 
 ## Hook Procedures for Common Dialog Boxes
 
@@ -78,7 +78,7 @@ When you provide a standard hook procedure for one of the common dialog boxes, t
 
  
 
-For the Explorer-style **Open** and **Save As** dialog boxes, the hook procedure does not receive messages intended for the standard controls in the dialog box. Instead, it receives notification messages from the dialog box and messages for any additional controls that you defined in a custom template. For more information, see [Explorer-Style Hook Procedures](https://www.bing.com/search?q=Explorer-Style Hook Procedures).
+For the Explorer-style **Open** and **Save As** dialog boxes, the hook procedure does not receive messages intended for the standard controls in the dialog box. Instead, it receives notification messages from the dialog box and messages for any additional controls that you defined in a custom template. For more information, see [Explorer-Style Hook Procedures](open-and-save-as-dialog-boxes.md#explorer-style-hook-procedures).
 
 To enable a hook procedure, set an **ENABLEHOOK** value in the **Flags** member of the corresponding structure for the dialog box. If an **ENABLEHOOK** flag is set, an **lpfnHook** member of the structure must specify the address of the hook procedure.
 
@@ -131,7 +131,7 @@ The Common Dialog Box Library defines a set of message strings. You can pass a c
 
 Some common dialog boxes send and receive other window messages. The hook procedure for a **Font** dialog box can send any of the **WM\_CHOOSEFONT\_\*** messages to the **Font** dialog box. For more information, see [Font Dialog Box](font-dialog-box.md). The **Page Setup** dialog box sends the **WM\_PSD\_\*** messages if you have enabled a [*PagePaintHook*](https://www.bing.com/search?q=*PagePaintHook*) hook procedure. For more information, see [Page Setup Dialog Box](page-setup-dialog-box.md).
 
-The Explorer-style **Open** and **Save As** dialog boxes support a set of predefined messages. These include notification messages sent in the form of a [**WM\_NOTIFY**](https://www.bing.com/search?q=**WM\_NOTIFY**) message to your hook procedure, and messages that your hook procedure can send to the dialog box. For a complete list of these messages, see [Explorer-Style Hook Procedures](https://www.bing.com/search?q=Explorer-Style Hook Procedures).
+The Explorer-style **Open** and **Save As** dialog boxes support a set of predefined messages. These include notification messages sent in the form of a [**WM\_NOTIFY**](https://www.bing.com/search?q=**WM\_NOTIFY**) message to your hook procedure, and messages that your hook procedure can send to the dialog box. For a complete list of these messages, see [Explorer-Style Hook Procedures](open-and-save-as-dialog-boxes.md#explorer-style-hook-procedures).
 
 ## Help Support
 

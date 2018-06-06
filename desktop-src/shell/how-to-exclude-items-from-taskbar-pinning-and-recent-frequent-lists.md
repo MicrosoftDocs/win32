@@ -31,7 +31,7 @@ There are three mechanisms to accomplish the exclusion of items from taskbar pin
 
     Note that any use of an explicit Application User Model ID (AppUserModelID) overrides the NoStartPage entry. If an explicit AppUserModelID is applied to a shortcut, process, or window, it becomes pinnable and eligible for the **Start** menu MFU list.
 
--   Set the [System.AppUserModel.PreventPinning](https://msdn.microsoft.com/windows/desktop/86239BF8-BCFC-4e76-BF94-5ABA4639562C) property on windows and shortcuts. This property must be set on a window before the [PKEY\_AppUserModel\_ID](https://msdn.microsoft.com/windows/desktop/07858b3c-e601-40ec-a87a-d66612d5473a) property is set.
+-   Set the [System.AppUserModel.PreventPinning](https://msdn.microsoft.com/86239BF8-BCFC-4e76-BF94-5ABA4639562C) property on windows and shortcuts. This property must be set on a window before the [PKEY\_AppUserModel\_ID](https://msdn.microsoft.com/07858b3c-e601-40ec-a87a-d66612d5473a) property is set.
 -   Add an explicit AppUserModelID as a value under the following registry subkey as shown in this example:
 
     ```

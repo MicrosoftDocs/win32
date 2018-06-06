@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # System.Link.TargetSFGAOFlags
 
-The [**IShellFolder::GetAttributesOf**](https://msdn.microsoft.com/windows/desktop/3864b386-7653-4661-880c-e96c08ff0dbb) flags for the target of a link, with SFGAO\_PKEYSFGAOMASK attributes masked out.
+The [**IShellFolder::GetAttributesOf**](https://msdn.microsoft.com/3864b386-7653-4661-880c-e96c08ff0dbb) flags for the target of a link, with SFGAO\_PKEYSFGAOMASK attributes masked out.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 While a hook function processes an event, additional events may be triggered, which may cause the hook function to reenter before the processing for the original event is finished. The problem with reentrancy in hook functions is that events are completed out of sequence unless the hook function handles this situation.
 
-For example, consider a case where a hook function in a screen reader program is processing the [**EVENT\_OBJECT\_VALUECHANGE**](https://www.bing.com/search?q=**EVENT\_OBJECT\_VALUECHANGE**) event for an edit control. If, while processing the first value change event the hook function is reentered to process a subsequent value change event, the second event is completed before the first event. This situation results in the screen reader conveying inaccurate information to the user.
+For example, consider a case where a hook function in a screen reader program is processing the [**EVENT\_OBJECT\_VALUECHANGE**](event-constants.md#event-object-valuechange) event for an edit control. If, while processing the first value change event the hook function is reentered to process a subsequent value change event, the second event is completed before the first event. This situation results in the screen reader conveying inaccurate information to the user.
 
 Because event processing is interrupted, additional events might be received any time the hook function calls a function that causes the owning thread's message queue to get checked. This happens when any of the following are called within the hook function:
 

@@ -57,7 +57,7 @@ The following attributes apply to media buffers for ASF packets.
 
 ### Presentation Descriptor Attributes
 
-For a list of attributes that apply to ASF presentation descriptors, see [Presentation Descriptor Attributes](https://www.bing.com/search?q=Presentation Descriptor Attributes).
+For a list of attributes that apply to ASF presentation descriptors, see [Presentation Descriptor Attributes](presentation-descriptor-attributes.md#presentation-descriptor-attributes-for-asf).
 
 ## Related topics
 

@@ -135,7 +135,7 @@ The valid arithmetic and Boolean operations that can be contained in any of the 
 
 <dl> <dt>
 
-[Using Menus](https://www.bing.com/search?q=Using Menus)
+[Using Menus](https://www.bing.com/search?q=Using+Menus)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)

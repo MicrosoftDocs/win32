@@ -67,7 +67,7 @@ Setting a blending matrix merely causes the system to cache the matrix for later
 
 ## Enabling Geometry Blending
 
-Geometry blending is disabled by default. To enable geometry blending, call the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) method to set the D3DRS\_VERTEXBLEND render state to a value from the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/windows/desktop/5314f455-ce5f-4ff5-81fc-d3dffc8705b7) enumerated type. The following code example shows what this call might look like when setting the render state for a blend between two world matrices.
+Geometry blending is disabled by default. To enable geometry blending, call the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) method to set the D3DRS\_VERTEXBLEND render state to a value from the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dvertexblendflags.htm) enumerated type. The following code example shows what this call might look like when setting the render state for a blend between two world matrices.
 
 
 ```

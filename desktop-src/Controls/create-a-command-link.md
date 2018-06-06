@@ -28,7 +28,7 @@ This topic describes one way to create a command link.
 
 ### Step 1: Create an instance of the command link button.
 
-In the following C++ code example, the style constant [**BS\_COMMANDLINK**](https://www.bing.com/search?q=**BS\_COMMANDLINK**) specifies the button as a command link button.
+In the following C++ code example, the style constant [**BS\_COMMANDLINK**](button-styles.md#bs-commandlink) specifies the button as a command link button.
 
 
 ```C++
@@ -50,7 +50,7 @@ HWND hwndCommandLink = CreateWindow(
 
 ### Step 2: Set the command link label and explanation text
 
-Use the [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) function to set the command link label and supplementary text via the [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644#wm-settext) message and the [**BCM\_SETNOTE**](https://www.bing.com/search?q=**BCM\_SETNOTE**) message, respectively.
+Use the [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) function to set the command link label and supplementary text via the [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644#wm-settext) message and the [**BCM\_SETNOTE**](bcm-setnote.md#bcm-setnote-message) message, respectively.
 
 
 ```C++

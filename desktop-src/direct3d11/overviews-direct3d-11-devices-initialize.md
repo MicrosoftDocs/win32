@@ -66,7 +66,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 
 
 > [!Note]  
-> If you request a [**D3D\_FEATURE\_LEVEL\_11\_1**](https://www.bing.com/search?q=**D3D\_FEATURE\_LEVEL\_11\_1**) device on a computer with only the Direct3D 11.0 runtime, [**D3D11CreateDeviceAndSwapChain**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdeviceandswapchain) immediately exits with **E\_INVALIDARG**. To safely request all possible feature levels on a computer with the DirectX 11.0 or DirectX 11.1 runtime, use this code:
+> If you request a [**D3D\_FEATURE\_LEVEL\_11\_1**](d3d-feature-level.md#d3d-feature-level-11-1) device on a computer with only the Direct3D 11.0 runtime, [**D3D11CreateDeviceAndSwapChain**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdeviceandswapchain) immediately exits with **E\_INVALIDARG**. To safely request all possible feature levels on a computer with the DirectX 11.0 or DirectX 11.1 runtime, use this code:
 >
 > <span codelanguage=""></span>
 >

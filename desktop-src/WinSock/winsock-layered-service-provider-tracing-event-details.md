@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # Winsock Catalog Change Tracing Details
 
 > [!Note]  
-> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/windows/desktop/0436f559-20e6-4199-8391-10eb7d85df23).
+> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/0436f559-20e6-4199-8391-10eb7d85df23).
 
  
 

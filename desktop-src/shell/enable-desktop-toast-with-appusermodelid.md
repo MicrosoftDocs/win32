@@ -35,7 +35,7 @@ This topic shows you how to create a shortcut for your app, assign it an [AppUse
 
 ### Step 1: Prepare the shortcut to be created
 
-This example first determines the path of the user's app data folder through the [**GetEnvironmentVariable**](https://msdn.microsoft.com/windows/desktop/1d4cc328-12e6-4aae-9f58-58675116ad54) function. It then composes the full path to the shortcut, determines that a shortcut of that name does not already exist at that location, and passes that information to another method which creates and installs the shortcut.
+This example first determines the path of the user's app data folder through the [**GetEnvironmentVariable**](https://msdn.microsoft.com/1d4cc328-12e6-4aae-9f58-58675116ad54) function. It then composes the full path to the shortcut, determines that a shortcut of that name does not already exist at that location, and passes that information to another method which creates and installs the shortcut.
 
 Note that the shortcut can be deployed per-user or per-app.
 
@@ -75,7 +75,7 @@ HRESULT DesktopToastsApp::TryCreateShortcut()
 
 ### Step 2: Create the shortcut and install it in the Start screen
 
-This example also retrieves the shortcut's property store and sets the required [System.AppUserModel.ID](https://msdn.microsoft.com/windows/desktop/07858b3c-e601-40ec-a87a-d66612d5473a) property from a previously defined variable, `AppID`.
+This example also retrieves the shortcut's property store and sets the required [System.AppUserModel.ID](https://msdn.microsoft.com/07858b3c-e601-40ec-a87a-d66612d5473a) property from a previously defined variable, `AppID`.
 
 
 ```C++
@@ -162,40 +162,40 @@ As an alternative to the approach shown in this topic, you can use a framework s
 [Toast notifications sample](http://go.microsoft.com/fwlink/p/?linkid=231503)
 </dt> <dt>
 
-[Toast XML schema](https://www.bing.com/search?q=Toast XML schema)
+[Toast XML schema](https://msdn.microsoft.com/06ae9be6-c573-4b35-83e0-371ed8299e33)
 </dt> <dt>
 
-[Toast notification overview](https://www.bing.com/search?q=Toast notification overview)
+[Toast notification overview](https://msdn.microsoft.com/14A07FCE-D631-4bad-AB99-305B703713E6)
 </dt> <dt>
 
-[Quickstart: Sending a toast notification](https://www.bing.com/search?q=Quickstart: Sending a toast notification)
+[Quickstart: Sending a toast notification](https://msdn.microsoft.com/098DF37C-4D40-4499-B809-CCB651DA1CBA)
 </dt> <dt>
 
-[Quickstart: Sending a toast push notification](https://www.bing.com/search?q=Quickstart: Sending a toast push notification)
+[Quickstart: Sending a toast push notification](https://www.bing.com/search?q=Quickstart:+Sending+a+toast+push+notification)
 </dt> <dt>
 
-[Guidelines and checklist for toast notifications](https://www.bing.com/search?q=Guidelines and checklist for toast notifications)
+[Guidelines and checklist for toast notifications](https://www.bing.com/search?q=Guidelines+and+checklist+for+toast+notifications)
 </dt> <dt>
 
-[How to add images to a toast template](https://www.bing.com/search?q=How to add images to a toast template)
+[How to add images to a toast template](https://www.bing.com/search?q=How+to+add+images+to+a+toast+template)
 </dt> <dt>
 
-[How to check toast notification settings](https://www.bing.com/search?q=How to check toast notification settings)
+[How to check toast notification settings](https://www.bing.com/search?q=How+to+check+toast+notification+settings)
 </dt> <dt>
 
-[How to choose and use a toast template](https://www.bing.com/search?q=How to choose and use a toast template)
+[How to choose and use a toast template](https://www.bing.com/search?q=How+to+choose+and+use+a+toast+template)
 </dt> <dt>
 
-[How to handle activation from a toast notification](https://www.bing.com/search?q=How to handle activation from a toast notification)
+[How to handle activation from a toast notification](https://msdn.microsoft.com/74BA3513-0A52-46a0-8769-ED58ABE7C05A)
 </dt> <dt>
 
-[How to opt in for toast notifications](https://www.bing.com/search?q=How to opt in for toast notifications)
+[How to opt in for toast notifications](https://msdn.microsoft.com/809CDD36-6DE1-4de0-88B2-62B46CAFDB28)
 </dt> <dt>
 
-[Choosing a toast template](https://www.bing.com/search?q=Choosing a toast template)
+[Choosing a toast template](https://www.bing.com/search?q=Choosing+a+toast+template)
 </dt> <dt>
 
-[Toast audio options](https://www.bing.com/search?q=Toast audio options)
+[Toast audio options](https://www.bing.com/search?q=Toast+audio+options)
 </dt> </dl>
 
  

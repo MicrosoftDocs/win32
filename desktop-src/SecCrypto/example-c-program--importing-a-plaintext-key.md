@@ -15,7 +15,7 @@ Many of the functions in this SDK require that you identify a key by using an **
 
 This example demonstrates the following tasks and CryptoAPI functions:
 
--   Acquiring a handle to a [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) by calling [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta).
+-   Acquiring a handle to a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) by calling [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta).
 -   Importing a plaintext key into the CSP key container by calling [**CryptImportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey).
 -   Exporting a key from the key container by calling [**CyptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey).
 -   Printing the exported key to the console to verify that the plaintext key was indeed imported into the container.

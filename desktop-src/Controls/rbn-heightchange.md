@@ -49,7 +49,7 @@ The return value for this notification is not used.
 
 ## Remarks
 
-Rebar controls that use the [**CCS\_VERT**](https://www.bing.com/search?q=**CCS\_VERT**) style send this notification code when their width changes.
+Rebar controls that use the [**CCS\_VERT**](common-control-styles.md#ccs-vert) style send this notification code when their width changes.
 
 ## Requirements
 

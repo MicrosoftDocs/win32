@@ -49,7 +49,7 @@ The application should return zero in response to the first **TBN\_RESTORE** not
 
 ## Remarks
 
-The application will receive this notification code once at the start of the restore process and once for each button. This notification code gives you an opportunity to extract the information from the data stream that you saved previously. If you haven't saved any information, ignore the notification code. See [Toolbar Customization](https://www.bing.com/search?q=Toolbar Customization) for a more detailed discussion of how to handle **TBN\_RESTORE**.
+The application will receive this notification code once at the start of the restore process and once for each button. This notification code gives you an opportunity to extract the information from the data stream that you saved previously. If you haven't saved any information, ignore the notification code. See [Toolbar Customization](toolbar-controls-overview.md#enabling-customization) for a more detailed discussion of how to handle **TBN\_RESTORE**.
 
 ## Requirements
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # UNIFM\_HDR structure
 
-The UNIFM\_HDR structure is used to define the contents of [Unidrv font metrics files](https://www.bing.com/search?q=Unidrv font metrics files) (.ufm files).
+The UNIFM\_HDR structure is used to define the contents of [Unidrv font metrics files](print.customized_font_management#ddk-unidrv-font-metrics-files-gg) (.ufm files).
 
 ## Syntax
 
@@ -75,7 +75,7 @@ Specifies the byte offset from the beginning of the .ufm (Unidrv Font Metrics) f
 **loIFIMetrics**
 </dt> <dd>
 
-Specifies the byte offset from the beginning of the .ufm file to the location of the file's [**PRINTIFI32**](https://www.bing.com/search?q=**PRINTIFI32**) structure.
+Specifies the byte offset from the beginning of the .ufm file to the location of the file's [**PRINTIFI32**](https://msdn.microsoft.com/f8e77eb1-3964-4ca0-8ae7-2e9617671990) structure.
 
 </dd> <dt>
 
@@ -173,7 +173,7 @@ If **lGlyphSetDataRCID** is CC\_DEFAULT, there are no restrictions on the value 
 [**UNIDRVINFO**](unidrvinfo.md)
 </dt> <dt>
 
-[**PRINTIFI32**](https://www.bing.com/search?q=**PRINTIFI32**)
+[**PRINTIFI32**](https://msdn.microsoft.com/f8e77eb1-3964-4ca0-8ae7-2e9617671990)
 </dt> <dt>
 
 [**EXTTEXTMETRIC**](exttextmetric.md)

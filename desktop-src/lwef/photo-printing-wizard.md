@@ -56,7 +56,7 @@ On Windows XP, the Photo Print Wizard supports all graphics file formats that a
 -   Portable Network Graphics (PNG)
 -   Tagged Image File Format (TIFF)
 
-For more information about graphics file formats supported by GDI+, see [Types of Bitmaps](https://www.bing.com/search?q=Types of Bitmaps).
+For more information about graphics file formats supported by GDI+, see [Types of Bitmaps](https://www.bing.com/search?q=Types+of+Bitmaps).
 
 On Windows Vista, the Photo Print Wizard supports any image file format for which a Windows Imaging Component (WIC) codec is installed. WIC provides several standard codecs, including:
 

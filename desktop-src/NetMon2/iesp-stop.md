@@ -55,7 +55,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 ## Remarks
 
-When the **IESP::Stop** method is called, Network Monitor stops capturing data and closes the [*capture file.*](https://www.bing.com/search?q=*capture file.*) (The name of the capture file was returned when [IESP::Start](iesp-start.md) was called.) You can now look at the contents of the capture file.
+When the **IESP::Stop** method is called, Network Monitor stops capturing data and closes the [*capture file.*](c.md#-netmon-capture-file-gly) (The name of the capture file was returned when [IESP::Start](iesp-start.md) was called.) You can now look at the contents of the capture file.
 
 When you stop and restart the capture, make sure to call the [IESP::Configure](iesp-configure.md) method each time you call [IESP::Start](iesp-start.md) to restart the capture.
 

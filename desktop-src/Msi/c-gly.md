@@ -68,7 +68,7 @@ Validation module that stores and provides access to ICE custom actions. For mor
 <span id="_msi_custom_action_using_windows_installer_gly"></span><span id="_MSI_CUSTOM_ACTION_USING_WINDOWS_INSTALLER_GLY"></span>**custom action**
 </dt> <dd>
 
-Written by the author of the [*package*](https://www.bing.com/search?q=*package*) but not built into the installer as a standard action. For more information, see [Custom Actions](custom-actions.md).
+Written by the author of the [*package*](p-gly.md#-msi-package-using-windows-installer-gly) but not built into the installer as a standard action. For more information, see [Custom Actions](custom-actions.md).
 
 </dd> </dl>
 

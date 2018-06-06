@@ -23,7 +23,7 @@ This attribute applies to source nodes (**MF\_TOPOLOGY\_SOURCESTREAM\_NODE**). T
 
 This attribute requires the [MF\_TOPONODE\_WORKQUEUE\_ID](mf-toponode-workqueue-id-attribute.md) and [MF\_TOPONODE\_WORKQUEUE\_MMCSS\_CLASS](mf-toponode-workqueue-mmcss-class-attribute.md) attributes on the same node.
 
-The value of the attribute is the relative thread priority of the work queue for this branch of the topology. The [Multimedia Class Scheduler Service](https://msdn.microsoft.com/windows/desktop/a7169938-1c72-4c4c-881a-cb08ad6182c7) (MMCSS) uses the relative priority when it sets the thread priority. For more information, see [**AvSetMmThreadPriority**](https://msdn.microsoft.com/windows/desktop/74259dbc-a9e9-409e-96e6-66a9dc590099).
+The value of the attribute is the relative thread priority of the work queue for this branch of the topology. The [Multimedia Class Scheduler Service](https://msdn.microsoft.com/a7169938-1c72-4c4c-881a-cb08ad6182c7) (MMCSS) uses the relative priority when it sets the thread priority. For more information, see [**AvSetMmThreadPriority**](https://msdn.microsoft.com/74259dbc-a9e9-409e-96e6-66a9dc590099).
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

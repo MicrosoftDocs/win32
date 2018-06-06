@@ -78,7 +78,7 @@ Set the following attributes on the output media type.
 <tr class="even">
 <td>[MF_MT_USER_DATA](mf-mt-user-data-attribute.md)</td>
 <td>Additional codec data.</td>
-<td>This attribute contains the 12 bytes of the [<strong>MPEGLAYER3WAVEFORMAT</strong>](https://msdn.microsoft.com/windows/desktop/eca403a0-01a2-4290-951f-a7d516a58b9e) structure that follow the <strong>wfx</strong> member of that structure.</td>
+<td>This attribute contains the 12 bytes of the [<strong>MPEGLAYER3WAVEFORMAT</strong>](https://msdn.microsoft.com/eca403a0-01a2-4290-951f-a7d516a58b9e) structure that follow the <strong>wfx</strong> member of that structure.</td>
 </tr>
 </tbody>
 </table>
@@ -87,7 +87,7 @@ Set the following attributes on the output media type.
 
  
 
-Alternatively, you can fill in an [**MPEGLAYER3WAVEFORMAT**](https://msdn.microsoft.com/windows/desktop/eca403a0-01a2-4290-951f-a7d516a58b9e) structure and call [**MFInitMediaTypeFromWaveFormatEx**](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex) to convert the structure to a Media Foundation media type.
+Alternatively, you can fill in an [**MPEGLAYER3WAVEFORMAT**](https://msdn.microsoft.com/eca403a0-01a2-4290-951f-a7d516a58b9e) structure and call [**MFInitMediaTypeFromWaveFormatEx**](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex) to convert the structure to a Media Foundation media type.
 
 ### Input Types
 

@@ -43,7 +43,7 @@ The following table lists the documentation for WinRM 2.0.
 </tr>
 <tr class="even">
 <td>[WinRM Plugin API](winrm-plugin-api.md)<br/></td>
-<td>The WinRM Plug-in API provides functionality that enables a user to write plug-ins by implementing certain APIs for supported [<em>resource URIs</em>](https://www.bing.com/search?q=<em>resource URIs</em>) and operations.<br/></td>
+<td>The WinRM Plug-in API provides functionality that enables a user to write plug-ins by implementing certain APIs for supported [<em>resource URIs</em>](windows-remote-management-glossary.md#winrm-gloss-resource-uri) and operations.<br/></td>
 </tr>
 <tr class="odd">
 <td>[Infrastructure for Managing Hosted Services](winrm-application-hosting.md)<br/></td>

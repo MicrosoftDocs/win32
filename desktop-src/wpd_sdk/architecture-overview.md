@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The WPD architecture can be divided into three processes. Within these processes are the three primary components of WPD: the API, the serializer, and the driver. The following illustration depicts the processes and components that constitute the WPD architecture.
 
-![illustration showing api, serializer, and driver components of wpd](https://www.bing.com/search?q=illustration showing api, serializer, and driver components of wpd)
+![illustration showing api, serializer, and driver components of wpd](https://www.bing.com/search?q=illustration+showing+api,+serializer,+and+driver+components+of+wpd)
 
 ## The WPD Application Programming Interface
 

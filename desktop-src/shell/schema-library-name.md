@@ -59,7 +59,7 @@ The name is the friendly library name that is displayed in Windows Explorer. The
 [libraryDescription Element (Library Schema)](schema-librarydescription.md)
 </dt> <dt>
 
-[Search Connector Description Schema](https://www.bing.com/search?q=Search Connector Description Schema)
+[Search Connector Description Schema](https://www.bing.com/search?q=Search+Connector+Description+Schema)
 </dt> </dl>
 
  

@@ -44,7 +44,7 @@ The following table shows the values of the language identifiers each Microsoft 
 
  
 
-For more information about language identifiers, see [Language Identifier Constants and Strings](https://msdn.microsoft.com/windows/desktop/8a6373e0-46c2-4b1b-bc67-543f426ef15a).
+For more information about language identifiers, see [Language Identifier Constants and Strings](https://msdn.microsoft.com/8a6373e0-46c2-4b1b-bc67-543f426ef15a).
 
  
 

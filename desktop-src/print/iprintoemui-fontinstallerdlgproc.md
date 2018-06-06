@@ -77,7 +77,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-A user interface plug-in can implement the `IPrintOemUI::FontInstallerDlgProc` method as a means of replacing Unidrv's font installer. For more information, see [Customized Font Installers for Unidrv](https://www.bing.com/search?q=Customized Font Installers for Unidrv).
+A user interface plug-in can implement the `IPrintOemUI::FontInstallerDlgProc` method as a means of replacing Unidrv's font installer. For more information, see [Customized Font Installers for Unidrv](https://www.bing.com/search?q=Customized+Font+Installers+for+Unidrv).
 
 The `IPrintOemUI::FontInstallerDlgProc` method is used by Unidrv as a dialog box procedure, and its address is passed to **DialogBoxParam** (described in the Microsoft Windows SDK documentation) when a user invokes the font installer from Unidrv's user interface.
 

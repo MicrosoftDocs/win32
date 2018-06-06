@@ -43,9 +43,9 @@ If the operation succeeds, the function returns **TRUE**. Otherwise the function
 
 The **GdiEndDocEMF** function is exported by gdi32.dll for use within a print processor's [**PrintDocumentOnPrintProcessor**](printdocumentonprintprocessor.md) function.
 
-The function performs operations that must be performed after a print job's EMF records have been played. The function calls the spooler's **EndDoc** function (described in the Microsoft Window SDK documentation), which in turn calls the printer driver's [**DrvEndDoc**](https://www.bing.com/search?q=**DrvEndDoc**) function.
+The function performs operations that must be performed after a print job's EMF records have been played. The function calls the spooler's **EndDoc** function (described in the Microsoft Window SDK documentation), which in turn calls the printer driver's [**DrvEndDoc**](https://msdn.microsoft.com/905813fd-281d-4cc8-b006-a2d284041bb7) function.
 
-For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using GDI Functions in Print Processors).
+For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using+GDI+Functions+in+Print+Processors).
 
 ## Requirements
 

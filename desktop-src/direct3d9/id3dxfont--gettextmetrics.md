@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ID3DXFont::GetTextMetrics method
 
-Retrieves font characteristics that are identified in a [**TEXTMETRIC**](https://msdn.microsoft.com/windows/desktop/0a46da58-5d0f-4db4-bba6-9e1b6c1f892c) structure. This method supports ANSI and Unicode compiler settings.
+Retrieves font characteristics that are identified in a [**TEXTMETRIC**](https://msdn.microsoft.com/0a46da58-5d0f-4db4-bba6-9e1b6c1f892c) structure. This method supports ANSI and Unicode compiler settings.
 
 ## Syntax
 
@@ -31,15 +31,15 @@ BOOL GetTextMetrics(
 *pTextMetrics* \[out\]
 </dt> <dd>
 
-Type: **[**TEXTMETRIC**](https://msdn.microsoft.com/windows/desktop/0a46da58-5d0f-4db4-bba6-9e1b6c1f892c)\***
+Type: **[**TEXTMETRIC**](https://msdn.microsoft.com/0a46da58-5d0f-4db4-bba6-9e1b6c1f892c)\***
 
-Pointer to a [**TEXTMETRIC**](https://msdn.microsoft.com/windows/desktop/0a46da58-5d0f-4db4-bba6-9e1b6c1f892c) structure, which contains font properties.
+Pointer to a [**TEXTMETRIC**](https://msdn.microsoft.com/0a46da58-5d0f-4db4-bba6-9e1b6c1f892c) structure, which contains font properties.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Nonzero if the function is successful; otherwise 0.
 

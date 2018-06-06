@@ -23,7 +23,7 @@ This section describes the individual properties within the Windows Property Sys
 -   [Document](document-bumper.md)
 -   [DRM](drm-bumper.md)
 -   [Identity](identity-buffer.md)
--   [Image](https://msdn.microsoft.com/windows/desktop/62143bdd-03f4-4b0f-bd63-94e364ea17f5)
+-   [Image](https://msdn.microsoft.com/62143bdd-03f4-4b0f-bd63-94e364ea17f5)
 -   [GPS](gps-bumper.md)
 -   [History](history-bumper.md)
 -   [Image](image-bumper.md)
@@ -50,7 +50,7 @@ This section describes the individual properties within the Windows Property Sys
 
 ## Additional Resources
 
-For more information on the use of canonical properties in queries, see [Using Advanced Query Syntax Programmatically](https://msdn.microsoft.com/windows/desktop/76e33903-d063-48c0-9afe-912c3daa8237).
+For more information on the use of canonical properties in queries, see [Using Advanced Query Syntax Programmatically](https://msdn.microsoft.com/VS|search|~\search\wds3x\overviews\aqs_reference.htm).
 
 ## Related topics
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Microsoft Base Cryptographic Provider
 
-The Microsoft Base Cryptographic Provider is the initial [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP) provider, and is distributed with [*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) versions 1.0 and 2.0. It is a general-purpose provider that supports [*digital signatures*](https://www.bing.com/search?q=*digital signatures*) and data encryption.
+The Microsoft Base Cryptographic Provider is the initial [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) provider, and is distributed with [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) versions 1.0 and 2.0. It is a general-purpose provider that supports [*digital signatures*](security.d_gly#-security-digital-signature-gly) and data encryption.
 
 The RSA public key algorithm is used for all public key operations.
 

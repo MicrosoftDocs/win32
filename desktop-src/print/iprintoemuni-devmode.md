@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemUni::DevMode method
 
-The `IPrintOemUni::DevMode` method, provided by rendering plug-ins for Unidrv, performs operations on private [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) members.
+The `IPrintOemUni::DevMode` method, provided by rendering plug-ins for Unidrv, performs operations on private [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) members.
 
 ## Syntax
 
@@ -62,7 +62,7 @@ The method must return one of the following values.
 
 A rendering plug-in for Unidrv must implement the `IPrintOemUni::DevMode` method.
 
-If you are providing a user interface plug-in for Unidrv, and if you are adding private members to the driver's [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure, you must implement both the `IPrintOemUI::DevMode` and the `IPrintOemUni::DevMode` methods. The code implementing these methods must be identical and can be placed in a library that is statically linked to both the UI plug-in and the rendering plug-in.
+If you are providing a user interface plug-in for Unidrv, and if you are adding private members to the driver's [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure, you must implement both the `IPrintOemUI::DevMode` and the `IPrintOemUni::DevMode` methods. The code implementing these methods must be identical and can be placed in a library that is statically linked to both the UI plug-in and the rendering plug-in.
 
 The `IPrintOemUni::DevMode` method must perform the operation indicated by its *dwMode* value. Each time `IPrintOemUni::DevMode` is called, *dwMode* contains one of the following constants, which are listed in the order they are received:
 

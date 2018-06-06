@@ -54,7 +54,7 @@ Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) structure, specifying the normali
 *pFaceIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to the index of the current mesh face that is first hit by the given ray, based upon stacking all blocker mesh faces in front of the current mesh.
 
@@ -63,7 +63,7 @@ Pointer to the index of the current mesh face that is first hit by the given ray
 *pU* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to a barycentric hit coordinate, U, for vertex 0 of the triangle.
 
@@ -72,7 +72,7 @@ Pointer to a barycentric hit coordinate, U, for vertex 0 of the triangle.
 *pV* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to a barycentric hit coordinate, V, for vertex 1 of the triangle.
 
@@ -81,7 +81,7 @@ Pointer to a barycentric hit coordinate, V, for vertex 1 of the triangle.
 *pDist* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to the distance of the intersection point along the ray.
 
@@ -89,7 +89,7 @@ Pointer to the distance of the intersection point along the ray.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Returns **TRUE** if the ray intersects the current mesh; otherwise, returns **FALSE**.
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # MsiRestartManagerSessionKey property
 
-The installer sets the value of the **MsiRestartManagerSessionKey** property to the session key for the [Restart Manager](https://www.bing.com/search?q=Restart Manager) session. Custom actions can use the session key to join the [Restart Manager](https://www.bing.com/search?q=Restart Manager) session.
+The installer sets the value of the **MsiRestartManagerSessionKey** property to the session key for the [Restart Manager](https://www.bing.com/search?q=Restart+Manager) session. Custom actions can use the session key to join the [Restart Manager](https://www.bing.com/search?q=Restart+Manager) session.
 
 ## Remarks
 

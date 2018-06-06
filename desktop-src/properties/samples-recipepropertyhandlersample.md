@@ -76,7 +76,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 2.  Type `regsvr32.exe RecipePropertyHandler.dll`
 3.  (Optional) Type `prop.exe schema register RecipeProperties.propdesc` to register the custom .recipe properties in the property schema.
     > [!Note]  
-    > The Prop.exe file can be obtained from <http://www.codeplex.com/prop>. The [Property Schema Sample](https://www.bing.com/search?q=Property Schema Sample) can also be used to register the schema.
+    > The Prop.exe file can be obtained from <http://www.codeplex.com/prop>. The [Property Schema Sample](https://www.bing.com/search?q=Property+Schema+Sample) can also be used to register the schema.
 
      
 
@@ -94,16 +94,16 @@ To build the sample using Microsoft Visual Studio (preferred):
 [Property System Code Samples](property-system-code-samples.md)
 </dt> <dt>
 
-[Ideal Property Handler Sample](https://www.bing.com/search?q=Ideal Property Handler Sample)
+[Ideal Property Handler Sample](https://www.bing.com/search?q=Ideal+Property+Handler+Sample)
 </dt> <dt>
 
-[Playlist Property Handler Sample](https://www.bing.com/search?q=Playlist Property Handler Sample)
+[Playlist Property Handler Sample](https://www.bing.com/search?q=Playlist+Property+Handler+Sample)
 </dt> <dt>
 
-[Property Edit Sample](https://www.bing.com/search?q=Property Edit Sample)
+[Property Edit Sample](https://www.bing.com/search?q=Property+Edit+Sample)
 </dt> <dt>
 
-[Property Schema Sample](https://www.bing.com/search?q=Property Schema Sample)
+[Property Schema Sample](https://www.bing.com/search?q=Property+Schema+Sample)
 </dt> </dl>
 
  

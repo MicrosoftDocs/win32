@@ -42,7 +42,7 @@ Pointer to the [LPD3DXSHPRTSIMCB](lpd3dxshprtsimcb.md) callback function that co
 *Frequency* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Frequency of callback calls. The inverse of Frequency is approximately the number of times the callback function will be called.
 
@@ -51,7 +51,7 @@ Frequency of callback calls. The inverse of Frequency is approximately the numbe
 *lpUserContext* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to a user-defined value which is passed to the callback function. Typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
 

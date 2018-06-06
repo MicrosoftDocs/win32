@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The information in this topic applies to Windows Server 2003 and Windows XP. For cipher suites for Windows Server 2008 and Windows Vista, see [Cipher Suites in Schannel](cipher-suites-in-schannel.md).
 
-Schannel supports versions 2.0 and 3.0 of the [*Secure Sockets Layer (SSL) protocol*](https://www.bing.com/search?q=*Secure Sockets Layer (SSL) protocol*).
+Schannel supports versions 2.0 and 3.0 of the [*Secure Sockets Layer (SSL) protocol*](security.s_gly#-security-secure-sockets-layer-protocol-gly).
 
 > [!Note]  
 > Beginning with Windows 10, version 1607 and Windows Server 2016, SSL 2.0 has been removed and is no longer supported.

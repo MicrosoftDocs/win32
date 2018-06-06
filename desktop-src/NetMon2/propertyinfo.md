@@ -188,7 +188,7 @@ Specify the format function that is called to format the displayed data for the 
 
 ## Remarks
 
-The **PROPERTYINFO** structure is used in calls to the [AddProperty](/windows/desktop/api/sql_1/nf-sql_1-sql_level_1_rpn_expression-addproperty) function. The **AddProperty** function adds a single property definition to the parser [*property database*](https://www.bing.com/search?q=*property database*).
+The **PROPERTYINFO** structure is used in calls to the [AddProperty](/windows/desktop/api/sql_1/nf-sql_1-sql_level_1_rpn_expression-addproperty) function. The **AddProperty** function adds a single property definition to the parser [*property database*](p.md#-netmon-property-database-gly).
 
 ## Requirements
 

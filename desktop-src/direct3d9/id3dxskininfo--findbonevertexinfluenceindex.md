@@ -33,7 +33,7 @@ HRESULT FindBoneVertexInfluenceIndex(
 *boneNum* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Index of the bone. Must be between 0 and the number of bones.
 
@@ -42,7 +42,7 @@ Index of the bone. Must be between 0 and the number of bones.
 *vertexNum* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Index of the vertex for which the bone influence is to be found. Must be between 0 and the number of vertices in the mesh.
 
@@ -51,7 +51,7 @@ Index of the vertex for which the bone influence is to be found. Must be between
 *pInfluenceIndex* \[in, out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to the index of the bone influence that affects vertexNum.
 

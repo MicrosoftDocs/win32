@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 
 # ResourceLocator.FragmentPath property
 
-Gets or sets the path for a [*resource*](https://www.bing.com/search?q=*resource*) [*fragment*](https://www.bing.com/search?q=*fragment*) or property when [**ResourceLocator**](resourcelocator.md) is used in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
+Gets or sets the path for a [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource) [*fragment*](windows-remote-management-glossary.md#winrm-gloss-fragment) or property when [**ResourceLocator**](resourcelocator.md) is used in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
 
 This property is read/write.
 

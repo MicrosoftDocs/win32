@@ -19,7 +19,7 @@ In general, larger objects are easier to see. When the computer is in adverse li
 
 The following photographs compare a laptop in direct sunlight with typical screen brightness and zoom levels to a laptop in the same lighting conditions with light-aware UI. The first photograph shows the display set to 40% brightness with normal zoom levels. The second photograph shows the display set to 100% brightness with increased zoom levels.
 
-![laptop display at 40% brightness with normal zoom levels](https://www.bing.com/search?q=laptop display at 40% brightness with normal zoom levels)![laptop display at 100% brightness with increased zoom levels](https://www.bing.com/search?q=laptop display at 100% brightness with increased zoom levels)
+![laptop display at 40% brightness with normal zoom levels](https://www.bing.com/search?q=laptop+display+at+40%+brightness+with+normal+zoom+levels)![laptop display at 100% brightness with increased zoom levels](https://www.bing.com/search?q=laptop+display+at+100%+brightness+with+increased+zoom+levels)
 
 ### Varying Font Size
 

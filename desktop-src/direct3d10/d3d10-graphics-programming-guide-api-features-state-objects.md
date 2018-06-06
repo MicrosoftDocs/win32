@@ -23,25 +23,25 @@ In Direct3D 10, device state is grouped into state objects which greatly reduce 
 
 ## Input-Layout State
 
-This group of state (see [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_input_element_desc)) dictates how the [input-assembler stage](https://msdn.microsoft.com/windows/desktop/71141a5e-2d79-4b02-8370-c0cbc8618908) reads data out of the input buffers and assembles it for use by the vertex shader. This includes state such as the number of elements in the input buffer and the signature of the input data. The input-assembler stage is a new stage in the pipeline whose job is to stream primitives from memory into the pipeline.
+This group of state (see [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_input_element_desc)) dictates how the [input-assembler stage](https://msdn.microsoft.com/VS|directx_sdk|~\d3d10_graphics_programming_guide_input_assembler_stage.htm) reads data out of the input buffers and assembles it for use by the vertex shader. This includes state such as the number of elements in the input buffer and the signature of the input data. The input-assembler stage is a new stage in the pipeline whose job is to stream primitives from memory into the pipeline.
 
 To create a input-layout-state object, see [**CreateInputLayout**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-createinputlayout).
 
 ## Rasterizer State
 
-This group of state (see [**D3D10\_RASTERIZER\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_rasterizer_desc)) initializes the [rasterizer stage](https://msdn.microsoft.com/windows/desktop/efd3f819-7c63-4e1a-9923-8e7198354ec6). This object includes state such as fill or cull modes, enabling a scissor rectangle for clipping, and setting multisample parameters. This stage rasterizes primitives into pixels, performing operations like clipping and mapping primitives to the viewport.
+This group of state (see [**D3D10\_RASTERIZER\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_rasterizer_desc)) initializes the [rasterizer stage](https://msdn.microsoft.com/VS|directx_sdk|~\d3d10_graphics_programming_guide_rasterizer_stage.htm). This object includes state such as fill or cull modes, enabling a scissor rectangle for clipping, and setting multisample parameters. This stage rasterizes primitives into pixels, performing operations like clipping and mapping primitives to the viewport.
 
 To create a rasterizer-state object, see [**CreateRasterizerState**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-createrasterizerstate).
 
 ## Depth-Stencil State
 
-This group of state (see [**D3D10\_DEPTH\_STENCIL\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_depth_stencil_desc)) initializes the depth-stencil portion of the [output-merger stage](https://msdn.microsoft.com/windows/desktop/8be68c15-2deb-4804-b683-30080a876189). More specifically, this object initializes depth and stencil testing.
+This group of state (see [**D3D10\_DEPTH\_STENCIL\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_depth_stencil_desc)) initializes the depth-stencil portion of the [output-merger stage](https://msdn.microsoft.com/VS|directx_sdk|~\d3d10_graphics_programming_guide_output_merger_stage.htm). More specifically, this object initializes depth and stencil testing.
 
 To create a depth-stencil-state object, see [**CreateDepthStencilState**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-createdepthstencilstate).
 
 ## Blend State
 
-This group of state (see [**D3D10\_BLEND\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_blend_desc)) initializes the blending portion of the [output-merger stage](https://msdn.microsoft.com/windows/desktop/8be68c15-2deb-4804-b683-30080a876189).
+This group of state (see [**D3D10\_BLEND\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_blend_desc)) initializes the blending portion of the [output-merger stage](https://msdn.microsoft.com/VS|directx_sdk|~\d3d10_graphics_programming_guide_output_merger_stage.htm).
 
 To create a blend-state object, see [**CreateBlendState**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-createblendstate).
 

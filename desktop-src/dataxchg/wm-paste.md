@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_PASTE message
 
-An application sends a **WM\_PASTE** message to an edit control or combo box to copy the current content of the clipboard to the edit control at the current caret position. Data is inserted only if the clipboard contains data in [**CF\_TEXT**](https://www.bing.com/search?q=**CF\_TEXT**) format.
+An application sends a **WM\_PASTE** message to an edit control or combo box to copy the current content of the clipboard to the edit control at the current caret position. Data is inserted only if the clipboard contains data in [**CF\_TEXT**](standard-clipboard-formats.md#cf-text) format.
 
 
 ```C++

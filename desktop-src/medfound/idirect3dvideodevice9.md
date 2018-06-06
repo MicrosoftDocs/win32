@@ -15,11 +15,11 @@ Enables hardware-accelerated decoding from a Direct3D 9 device, using DirectX Vi
 
 ## When to use
 
-This interface is not intended for general application use. DirectShow decoder filters should use the [**IAMVideoAccelerator**](https://msdn.microsoft.com/windows/desktop/78e0a165-5a19-4dca-8d6c-445345772824) interface, not **IDirect3DVideoDevice9**. The input pins of the Video Mixing Renderer (VMR) filter and the Overlay Mixer filter expose **IAMVideoAccelerator**.
+This interface is not intended for general application use. DirectShow decoder filters should use the [**IAMVideoAccelerator**](https://msdn.microsoft.com/78e0a165-5a19-4dca-8d6c-445345772824) interface, not **IDirect3DVideoDevice9**. The input pins of the Video Mixing Renderer (VMR) filter and the Overlay Mixer filter expose **IAMVideoAccelerator**.
 
 ## Members
 
-The **IDirect3DVideoDevice9** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IDirect3DVideoDevice9** also has these types of members:
+The **IDirect3DVideoDevice9** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IDirect3DVideoDevice9** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -44,7 +44,7 @@ The **IDirect3DVideoDevice9** interface has these methods.
 
 ## Remarks
 
-To get a pointer to this interface, call **QueryInterface** on an [**IDirect3DDevice9**](https://msdn.microsoft.com/windows/desktop/cf951e8e-7adb-417a-bda0-9b3cde4912a7) or [**IDirect3DDevice9Ex**](https://msdn.microsoft.com/windows/desktop/b2132ee3-5888-4cfe-a7c7-1134c0418a37) pointer.
+To get a pointer to this interface, call **QueryInterface** on an [**IDirect3DDevice9**](https://msdn.microsoft.com/VS|directx_sdk|~\idirect3ddevice9.htm) or [**IDirect3DDevice9Ex**](https://msdn.microsoft.com/VS|directx_sdk|~\idirect3ddevice9ex.htm) pointer.
 
 This interface supports DXVA 1.0 only. It does not support DXVA 2.0.
 

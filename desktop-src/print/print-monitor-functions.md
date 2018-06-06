@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## 
 
-This section describes the functions defined by print monitors, which include [language monitors](https://www.bing.com/search?q=language monitors) and [port monitors](https://www.bing.com/search?q=port monitors). Function prototypes are contained in Winsplp.h.
+This section describes the functions defined by print monitors, which include [language monitors](https://www.bing.com/search?q=language+monitors) and [port monitors](https://www.bing.com/search?q=port+monitors). Function prototypes are contained in Winsplp.h.
 
 <dl>
 

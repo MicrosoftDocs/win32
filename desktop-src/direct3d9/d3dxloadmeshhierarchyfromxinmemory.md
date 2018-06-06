@@ -38,7 +38,7 @@ HRESULT D3DXLoadMeshHierarchyFromXInMemory(
 *pMemory* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to a buffer that contains the mesh hierarchy.
 
@@ -47,7 +47,7 @@ Pointer to a buffer that contains the mesh hierarchy.
 *SizeOfMemory* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Size of the pMemory buffer, in bytes.
 
@@ -56,9 +56,9 @@ Size of the pMemory buffer, in bytes.
 *MeshOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.com/windows/desktop/c94e19ab-8024-4a28-9d1a-6d57707c3a52) enumeration that specify creation options for the mesh.
+Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmesh.htm) enumeration that specify creation options for the mesh.
 
 </dd> <dt>
 

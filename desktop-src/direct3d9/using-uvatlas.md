@@ -123,7 +123,7 @@ User-defined adjacency information can be provided to the partitioning function 
 
 ### Example
 
-This example illustrates how you might use the UVAtlas APIs and the DirectX Viewer (Dxviewer.exe) to find and fix discontinuities in your model that can dramatically affect the size of your texture atlas. You can get Dxviewer.exe and learn about it from the DirectX SDK. Dxviewer.exe was removed from the DirectX SDK after the August 2009 version so to get it you'll need at least the August 2009 DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/windows/desktop/d8765da9-e7cf-47e8-8bc3-4b29162da41b).
+This example illustrates how you might use the UVAtlas APIs and the DirectX Viewer (Dxviewer.exe) to find and fix discontinuities in your model that can dramatically affect the size of your texture atlas. You can get Dxviewer.exe and learn about it from the DirectX SDK. Dxviewer.exe was removed from the DirectX SDK after the August 2009 version so to get it you'll need at least the August 2009 DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/d8765da9-e7cf-47e8-8bc3-4b29162da41b).
 
 Assume you started with some model in your favorite content generation software (this example uses a dwarf head model that was created in Maya). Export the textured model to an .x file and create a texture atlas with D3DXUVAtlasCreate. The resulting texture atlas would look something like the following illustration.
 

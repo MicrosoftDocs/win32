@@ -75,11 +75,11 @@ subitem and return CDRF_NEWFONT.*/
 
 
 
-The first [NM\_CUSTOMDRAW](nm-customdraw.md) notification has the **dwDrawStage** member of the [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure set to **CDDS\_PREPAINT**. The handler returns [**CDRF\_NOTIFYITEMDRAW**](https://www.bing.com/search?q=**CDRF\_NOTIFYITEMDRAW**) to indicate that it wishes to modify one or more items individually.
+The first [NM\_CUSTOMDRAW](nm-customdraw.md) notification has the **dwDrawStage** member of the [**NMCUSTOMDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmcustomdrawinfo) structure set to **CDDS\_PREPAINT**. The handler returns [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md#cdrf-notifyitemdraw) to indicate that it wishes to modify one or more items individually.
 
-If [**CDRF\_NOTIFYITEMDRAW**](https://www.bing.com/search?q=**CDRF\_NOTIFYITEMDRAW**) was returned in the previous step, the next [NM\_CUSTOMDRAW](nm-customdraw.md) notification has **dwDrawStage** set to **CDDS\_ITEMPREPAINT**. The handler retrieves the current color and font values. At this point, you can specify new values for small icon, large icon, and list modes. If the control is in report mode, you can also specify new values that will apply to all subitems of the item. If you have changed anything, return [**CDRF\_NEWFONT**](https://www.bing.com/search?q=**CDRF\_NEWFONT**). If the control is in report mode and you want to handle the subitems individually, return **CDRF\_NOTIFYSUBITEMDRAW**.
+If [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md#cdrf-notifyitemdraw) was returned in the previous step, the next [NM\_CUSTOMDRAW](nm-customdraw.md) notification has **dwDrawStage** set to **CDDS\_ITEMPREPAINT**. The handler retrieves the current color and font values. At this point, you can specify new values for small icon, large icon, and list modes. If the control is in report mode, you can also specify new values that will apply to all subitems of the item. If you have changed anything, return [**CDRF\_NEWFONT**](cdrf-constants.md#cdrf-newfont). If the control is in report mode and you want to handle the subitems individually, return **CDRF\_NOTIFYSUBITEMDRAW**.
 
-The final notification is only sent if the control is in report mode and you returned **CDRF\_NOTIFYSUBITEMDRAW** in the previous step. The procedure for changing fonts and colors is the same as that step, but it only applies to a single subitem. Return [**CDRF\_NEWFONT**](https://www.bing.com/search?q=**CDRF\_NEWFONT**) to notify the control if the color or font was changed.
+The final notification is only sent if the control is in report mode and you returned **CDRF\_NOTIFYSUBITEMDRAW** in the previous step. The procedure for changing fonts and colors is the same as that step, but it only applies to a single subitem. Return [**CDRF\_NEWFONT**](cdrf-constants.md#cdrf-newfont) to notify the control if the color or font was changed.
 
 ## Related topics
 

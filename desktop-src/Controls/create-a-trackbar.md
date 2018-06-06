@@ -28,7 +28,7 @@ When the trackbar is created, both its range and its selection range are initial
 
 ### Create a Trackbar
 
-The following example shows how to create a trackbar with the [**TBS\_AUTOTICKS**](https://www.bing.com/search?q=**TBS\_AUTOTICKS**) and [**TBS\_ENABLESELRANGE**](https://www.bing.com/search?q=**TBS\_ENABLESELRANGE**) styles.
+The following example shows how to create a trackbar with the [**TBS\_AUTOTICKS**](trackbar-control-styles.md#tbs-autoticks) and [**TBS\_ENABLESELRANGE**](trackbar-control-styles.md#tbs-enableselrange) styles.
 
 
 ```

@@ -43,9 +43,9 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) that will store the
 *DestFormat* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/windows/desktop/245a0052-f156-44ad-ab46-3677a818167e)**
+Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dximage_fileformat.htm)**
 
-[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/windows/desktop/245a0052-f156-44ad-ab46-3677a818167e) specifying the file format to use when saving. This function supports saving to all **D3DXIMAGE\_FILEFORMAT** formats except Portable Pixmap (.ppm) and Targa/Truevision Graphics Adapter (.tga).
+[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dximage_fileformat.htm) specifying the file format to use when saving. This function supports saving to all **D3DXIMAGE\_FILEFORMAT** formats except Portable Pixmap (.ppm) and Targa/Truevision Graphics Adapter (.tga).
 
 </dd> <dt>
 

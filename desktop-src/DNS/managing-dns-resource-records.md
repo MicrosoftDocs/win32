@@ -25,7 +25,7 @@ The DNS WMI Provider currently supports the following RR types. Click the name o
 | [**MicrosoftDNS\_AAAAType**](microsoftdns-aaaatype.md)   | Host to Ipv6 address record                                  |
 | [**MicrosoftDNS\_AFSDBType**](microsoftdns-afsdbtype.md) | Andrew File System Database Server record                    |
 | [**MicrosoftDNS\_ATMAType**](microsoftdns-atmatype.md)   | ATM address-to-name record                                   |
-| [**MicrosoftDNS\_CNAMEType**](microsoftdns-cnametype.md) | [*Canonical Name*](https://www.bing.com/search?q=*Canonical Name*) record |
+| [**MicrosoftDNS\_CNAMEType**](microsoftdns-cnametype.md) | [*Canonical Name*](c-gly.md#-dns-canonical-name-gly) record |
 | [**MicrosoftDNS\_HINFOType**](microsoftdns-hinfotype.md) | Host Information record                                      |
 | [**MicrosoftDNS\_ISDNType**](microsoftdns-isdntype.md)   | Integrated services digital network record                   |
 | [**MicrosoftDNS\_KEYType**](microsoftdns-keytype.md)     | KEY record. See RFC 2535                                     |
@@ -64,10 +64,10 @@ The DNS WMI Provider enables the administration of RRs from the server itself, o
 
 The following tasks are linked to their associated scripting samples.
 
--   [Listing Resource Types](https://www.bing.com/search?q=Listing Resource Types)
--   [Adding a Resource Record](https://www.bing.com/search?q=Adding a Resource Record)
--   [Deleting a Resource Record](https://www.bing.com/search?q=Deleting a Resource Record)
--   [Modifying a Resource Record](https://www.bing.com/search?q=Modifying a Resource Record)
+-   [Listing Resource Types](dns-wmi-provider-samples-managing-dns-resource-records.md#list-resource-records)
+-   [Adding a Resource Record](dns-wmi-provider-samples-managing-dns-resource-records.md#add-a-resource-record)
+-   [Deleting a Resource Record](dns-wmi-provider-samples-managing-dns-resource-records.md#delete-a-resource-record)
+-   [Modifying a Resource Record](dns-wmi-provider-samples-managing-dns-resource-records.md#modify-a-resource-record)
 
  
 

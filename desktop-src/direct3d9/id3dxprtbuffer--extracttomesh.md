@@ -34,7 +34,7 @@ HRESULT ExtractToMesh(
 *NumCoefficients* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of coefficients to extract from the buffer. When using spherical harmonic (SH) precomputed radiance transfer (PRT), the number of coefficients should be Order ². Order must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive.
 
@@ -43,16 +43,16 @@ Number of coefficients to extract from the buffer. When using spherical harmonic
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**D3DDECLUSAGE**](https://msdn.microsoft.com/windows/desktop/ee9b46c2-b779-480c-9b5c-6d189d2af014)**
+Type: **[**D3DDECLUSAGE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddeclusage.htm)**
 
-Vertex usage descriptions of the mesh. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/windows/desktop/ee9b46c2-b779-480c-9b5c-6d189d2af014).
+Vertex usage descriptions of the mesh. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddeclusage.htm).
 
 </dd> <dt>
 
 *UsageIndexStart* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Starting index for coefficients to be stored in the mesh.
 

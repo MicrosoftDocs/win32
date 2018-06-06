@@ -54,7 +54,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *NumSegs* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of segments per edge to tessellate.
 
@@ -63,7 +63,7 @@ Number of segments per edge to tessellate.
 *QuadraticInterpNormals* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Set to **TRUE** to use quadratic interpolation for normals; set to **FALSE** for linear interpolation.
 

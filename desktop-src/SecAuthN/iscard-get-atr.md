@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCard::get\_Atr method
 
-\[The **get\_Atr** method is available for use in the operating systems specified in the Requirements section. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **get\_Atr** method is available for use in the operating systems specified in the Requirements section. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **get\_Atr** method retrieves an [*ATR string*](https://www.bing.com/search?q=*ATR string*) of the [*smart card*](https://www.bing.com/search?q=*smart card*).
+The **get\_Atr** method retrieves an [*ATR string*](security.a_gly#-security-atr-string-gly) of the [*smart card*](security.s_gly#-security-smart-card-gly).
 
 ## Syntax
 
@@ -33,7 +33,7 @@ HRESULT get_Atr(
 *ppAtr* \[out\]
 </dt> <dd>
 
-Pointer to a byte buffer in the form of an [**IStream**](https://msdn.microsoft.com/windows/desktop/c6f60e37-eadc-46a1-94f6-cacc23613531) that will contain the ATR string on return.
+Pointer to a byte buffer in the form of an [**IStream**](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) that will contain the ATR string on return.
 
 </dd> </dl>
 
@@ -56,7 +56,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](https://www.bing.com/search?q=Smart Card Return Values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
 
 ## Examples
 

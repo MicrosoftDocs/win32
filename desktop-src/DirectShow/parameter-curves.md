@@ -21,7 +21,7 @@ Media parameters are able to follow a curve over time. Each curve is described b
 
 "Jump" means jump directly to the end value. The other curves are shown in the following diagram.
 
-![parameter curves](https://www.bing.com/search?q=parameter curves)
+![parameter curves](https://www.bing.com/search?q=parameter+curves)
 
 Mathematically, the curves work as follows. Suppose that a curve begins at time *t*₀ with a value of *v*₀, and ends at time *t*₁ with a value of *v*₁. The two points that define the curve are (*t*₀, *v*₀) and (*t*₁, *v*₁).
 
@@ -29,7 +29,7 @@ Mathematically, the curves work as follows. Suppose that a curve begins at time 
 -   Let Δ*v* be the interval between the starting and ending values, *v*₁–*v*₀.
 -   At any time *t* such that *t*₀ &lt;= *t* &lt;= *t*₁, let Δ*t*' = *t*–*t*₀.
 
-![parameter calculation](https://www.bing.com/search?q=parameter calculation)
+![parameter calculation](https://www.bing.com/search?q=parameter+calculation)
 
 The value of the parameter at time *t* is:
 

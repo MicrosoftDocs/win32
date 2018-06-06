@@ -47,7 +47,7 @@ The return value is always **TRUE**.
 
 ## Remarks
 
-If the combo box does not have the [**CBS\_AUTOHSCROLL**](https://www.bing.com/search?q=**CBS\_AUTOHSCROLL**) style, setting the text limit to be larger than the size of the edit control has no effect.
+If the combo box does not have the [**CBS\_AUTOHSCROLL**](combo-box-styles.md#cbs-autohscroll) style, setting the text limit to be larger than the size of the edit control has no effect.
 
 The **CB\_LIMITTEXT** message limits only the text the user can enter. It has no effect on any text already in the edit control when the message is sent, nor does it affect the length of the text copied to the edit control when a string in the list box is selected.
 

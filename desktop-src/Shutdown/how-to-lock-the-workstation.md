@@ -33,7 +33,7 @@ void main()
 
 To determine whether the workstation is locked, test whether your window is visible.
 
-The workstation can be unlocked by the user or an administrator. To unlock the system, press Ctrl+Alt+Del and log in. To receive notification when the user logs in, use the [**WTSRegisterSessionNotification**](https://msdn.microsoft.com/windows/desktop/5067bb03-d8d5-41ce-b187-04d7dd22a028) function to register to receive [**WM\_WTSSESSION\_CHANGE**](https://msdn.microsoft.com/windows/desktop/758a130c-b75a-40fd-8530-3766aa86c5ba) messages. When this message is received, check whether the *wParam* parameter is equal to WTS\_SESSION\_LOCK.
+The workstation can be unlocked by the user or an administrator. To unlock the system, press Ctrl+Alt+Del and log in. To receive notification when the user logs in, use the [**WTSRegisterSessionNotification**](https://msdn.microsoft.com/5067bb03-d8d5-41ce-b187-04d7dd22a028) function to register to receive [**WM\_WTSSESSION\_CHANGE**](https://msdn.microsoft.com/758a130c-b75a-40fd-8530-3766aa86c5ba) messages. When this message is received, check whether the *wParam* parameter is equal to WTS\_SESSION\_LOCK.
 
  
 

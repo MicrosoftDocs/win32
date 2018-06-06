@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # How can a video stream encoded using quality-based VBR have fewer frames than the original stream?
 
-For current documentation on Windows Media codecs and digital signal processors, see [Windows Media Audio and Video Codec and DSP APIs.](https://www.bing.com/search?q=Windows Media Audio and Video Codec and DSP APIs.)
+For current documentation on Windows Media codecs and digital signal processors, see [Windows Media Audio and Video Codec and DSP APIs.](https://www.bing.com/search?q=Windows+Media+Audio+and+Video+Codec+and+DSP+APIs.)
 
  
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Expert
 
-An expert is a Microsoft Win32 dynamic-link library (DLL) that analyzes network traffic collected by a [*network packet provider*](https://www.bing.com/search?q=*network packet provider*) (NPP), and placed in a capture file. After the data is captured and stored in a capture file, the expert works with a parser, also referred to as a protocol parser, to analyze the data in the file. For example, you can examine the frames of the capture file and use a [*parser*](https://www.bing.com/search?q=*parser*) to recognize protocols such as server message block (SMB), or Transmission Control Protocol/Internet Protocol (TCP/IP).
+An expert is a Microsoft Win32 dynamic-link library (DLL) that analyzes network traffic collected by a [*network packet provider*](n.md#-netmon-network-packet-provider-gly) (NPP), and placed in a capture file. After the data is captured and stored in a capture file, the expert works with a parser, also referred to as a protocol parser, to analyze the data in the file. For example, you can examine the frames of the capture file and use a [*parser*](p.md#-netmon-parser-gly) to recognize protocols such as server message block (SMB), or Transmission Control Protocol/Internet Protocol (TCP/IP).
 
 You can design an expert to work with all of the Network Monitor parsers, and any parsers that you create yourself.
 

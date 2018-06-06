@@ -46,7 +46,7 @@ Returns nonzero and *lParam* receives the applicable bounding information if suc
 The minimum required window size for a month calendar control depends on the currently selected font, control styles, system metrics, and regional settings. When an application changes anything that affects the minimum window size, or processes a [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/windows/desktop/ms725497) message, it should send **MCM\_GETMINREQRECT** to determine the new minimum size.
 
 > [!Note]  
-> The rectangle returned by **MCM\_GETMINREQRECT** does not include the width of the "Today" string, if it is present. If the [**MCS\_NOTODAY**](https://www.bing.com/search?q=**MCS\_NOTODAY**) style is not set, your application should also retrieve the rectangle that defines the "Today" string width by sending a [**MCM\_GETMAXTODAYWIDTH**](mcm-getmaxtodaywidth.md) message. Use the larger of the two rectangles to ensure that the "Today" string is not clipped.
+> The rectangle returned by **MCM\_GETMINREQRECT** does not include the width of the "Today" string, if it is present. If the [**MCS\_NOTODAY**](month-calendar-control-styles.md#mcs-notoday) style is not set, your application should also retrieve the rectangle that defines the "Today" string width by sending a [**MCM\_GETMAXTODAYWIDTH**](mcm-getmaxtodaywidth.md) message. Use the larger of the two rectangles to ensure that the "Today" string is not clipped.
 
  
 

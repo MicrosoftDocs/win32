@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # To Force Key-Frame Insertion
 
-The Windows Media Video 9 codec supports forced key-frame insertion. When you pass a sample to the writer, you can specify that it must be encoded as a [*key frame*](https://www.bing.com/search?q=*key frame*).
+The Windows Media Video 9 codec supports forced key-frame insertion. When you pass a sample to the writer, you can specify that it must be encoded as a [*key frame*](wmformat-glossary.md#wmformat-key-frame).
 
 To force key-frame insertion for a sample, perform the following steps.
 

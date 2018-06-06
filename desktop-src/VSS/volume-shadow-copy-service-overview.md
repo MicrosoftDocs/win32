@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The Volume Shadow Copy Service (VSS) is a set of COM APIs that implements a framework to allow volume backups to be performed while applications on a system continue to write to the volumes.
 
-VSS provides a consistent interface that allows coordination between user applications that update data on disk ([*writers*](https://www.bing.com/search?q=*writers*)) and those that back up applications ([*requesters*](https://www.bing.com/search?q=*requesters*)).
+VSS provides a consistent interface that allows coordination between user applications that update data on disk ([*writers*](vssgloss-w.md#base-vssgloss-writer)) and those that back up applications ([*requesters*](vssgloss-r.md#base-vssgloss-requester)).
 
 -   [What's New in VSS](what-s-new-in-vss.md)
 -   [About the Volume Shadow Copy Service](about-the-volume-shadow-copy-service.md)

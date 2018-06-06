@@ -37,7 +37,7 @@ The command ID of the selected toolbar or menu item.
 
 ## Remarks
 
-This message serves essentially the same function as a [**WM\_COMMAND**](https://msdn.microsoft.com/windows/desktop/5516098e-fd90-49c8-afb0-78164b028376) message in a conventional window procedure. It allows the callback object to handle any items that it has added to the Windows Explorer tool or menu bar.
+This message serves essentially the same function as a [**WM\_COMMAND**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menumessages\wm_command.htm) message in a conventional window procedure. It allows the callback object to handle any items that it has added to the Windows Explorer tool or menu bar.
 
 ## Requirements
 

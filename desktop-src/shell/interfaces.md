@@ -62,7 +62,7 @@ This section describes the Windows Shell interfaces.
 </tr>
 <tr class="odd">
 <td>[<strong>IApplicationActivationManager</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationactivationmanager)<br/></td>
-<td>Provides methods which activate Windows Store apps for the Launch, File, and Protocol [extensions](https://www.bing.com/search?q=extensions). You will normally use this interface in debuggers and design tools.<br/></td>
+<td>Provides methods which activate Windows Store apps for the Launch, File, and Protocol [extensions](https://msdn.microsoft.com/08800074-78ba-410a-962f-876da3463629). You will normally use this interface in debuggers and design tools.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>IApplicationAssociationRegistration</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration)<br/></td>
@@ -155,15 +155,15 @@ As of Windows 8, the only functionality of this interface that is supported is 
 </tr>
 <tr class="odd">
 <td>[<strong>IColumnManager</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager)<br/></td>
-<td>Exposes methods that enable inspection and manipulation of columns in the Windows Explorer Details view. Each column is referenced by a [<strong>PROPERTYKEY</strong>](https://msdn.microsoft.com/windows/desktop/3f5f31af-f040-443b-9045-9761055381ea) structure, which names a property.<br/></td>
+<td>Exposes methods that enable inspection and manipulation of columns in the Windows Explorer Details view. Each column is referenced by a [<strong>PROPERTYKEY</strong>](https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea) structure, which names a property.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>ICommDlgBrowser</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser)<br/></td>
-<td>Exposed by the common file dialog boxes to be used when they host a Shell browser. If supported, [<strong>ICommDlgBrowser</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser) exposes methods that allow a Shell view to handle several cases that require different behavior in a dialog box than in a normal Shell view. You obtain an <strong>ICommDlgBrowser</strong> interface pointer by calling [<strong>QueryInterface</strong>](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) on the [<strong>IShellBrowser</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellbrowser) object. <br/></td>
+<td>Exposed by the common file dialog boxes to be used when they host a Shell browser. If supported, [<strong>ICommDlgBrowser</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser) exposes methods that allow a Shell view to handle several cases that require different behavior in a dialog box than in a normal Shell view. You obtain an <strong>ICommDlgBrowser</strong> interface pointer by calling [<strong>QueryInterface</strong>](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) on the [<strong>IShellBrowser</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellbrowser) object. <br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>ICommDlgBrowser2</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2)<br/></td>
-<td>Extends the capabilities of [<strong>ICommDlgBrowser</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser). This interface is exposed by the common file dialog boxes when they host a Shell browser. A pointer to [<strong>ICommDlgBrowser2</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2) can be obtained by calling [<strong>QueryInterface</strong>](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) on the [<strong>IShellBrowser</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellbrowser) object.<br/></td>
+<td>Extends the capabilities of [<strong>ICommDlgBrowser</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser). This interface is exposed by the common file dialog boxes when they host a Shell browser. A pointer to [<strong>ICommDlgBrowser2</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2) can be obtained by calling [<strong>QueryInterface</strong>](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) on the [<strong>IShellBrowser</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellbrowser) object.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>ICommDlgBrowser3</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl-icommdlgbrowser3)<br/></td>
@@ -284,11 +284,11 @@ This interface is the current, renamed version of [<strong>IAsyncOperation</stro
 </tr>
 <tr class="even">
 <td>[<strong>IDataObjectProvider</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idataobjectprovider)<br/></td>
-<td>Provides methods that enable you to set or retrieve a [DataPackage](http://go.microsoft.com/fwlink/p/?linkid=267543) object's [<strong>IDataObject interface</strong>](https://msdn.microsoft.com/windows/desktop/8a002deb-2727-456c-8078-a9b0d5893ed4), which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.<br/></td>
+<td>Provides methods that enable you to set or retrieve a [DataPackage](http://go.microsoft.com/fwlink/p/?linkid=267543) object's [<strong>IDataObject interface</strong>](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4), which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IDataTransferManagerInterop</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idatatransfermanagerinterop)<br/></td>
-<td>Enables access to [<strong>DataTransferManager</strong>](https://www.bing.com/search?q=<strong>DataTransferManager</strong>) methods in a Windows Store app that manages multiple windows.<br/></td>
+<td>Enables access to [<strong>DataTransferManager</strong>](https://msdn.microsoft.com/Windows.ApplicationModel.DataTransfer.DataTransferManager) methods in a Windows Store app that manages multiple windows.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>IDefaultExtractIconInit</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultextracticoninit)<br/></td>
@@ -300,11 +300,11 @@ This interface is the current, renamed version of [<strong>IAsyncOperation</stro
 </tr>
 <tr class="even">
 <td>[<strong>IDelayedPropertyStoreFactory</strong>](/windows/desktop/api/Propsys/nn-propsys-idelayedpropertystorefactory)<br/></td>
-<td>Exposes a method to create a specified [<strong>IPropertyStore</strong>](https://msdn.microsoft.com/windows/desktop/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) object in circumstances where property access is potentially slow.<br/></td>
+<td>Exposes a method to create a specified [<strong>IPropertyStore</strong>](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) object in circumstances where property access is potentially slow.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IDelegateFolder</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder)<br/></td>
-<td>Exposes a method through which a delegate folder is given the [<strong>IMalloc</strong>](https://msdn.microsoft.com/windows/desktop/047f281e-2665-4d6d-9a0b-918cd3339447) interface required to allocate and free item IDs.<br/></td>
+<td>Exposes a method through which a delegate folder is given the [<strong>IMalloc</strong>](https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447) interface required to allocate and free item IDs.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>IDelegateItem</strong>](/windows/desktop/api/Shobjidl/)<br/></td>
@@ -336,7 +336,7 @@ This interface is the current, renamed version of [<strong>IAsyncOperation</stro
 </tr>
 <tr class="odd">
 <td>[<strong>IDockingWindowSite</strong>](/windows/desktop/api/Shlobj_core/)<br/></td>
-<td>Exposes methods that manage the border space for one or more [<strong>IDockingWindow</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) objects. This interface is implemented by the browser and is similar to the [<strong>IOleInPlaceUIWindow</strong>](https://msdn.microsoft.com/windows/desktop/3cfb31aa-9746-438c-af64-8236c170fe88) interface.<br/></td>
+<td>Exposes methods that manage the border space for one or more [<strong>IDockingWindow</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) objects. This interface is implemented by the browser and is similar to the [<strong>IOleInPlaceUIWindow</strong>](https://msdn.microsoft.com/3cfb31aa-9746-438c-af64-8236c170fe88) interface.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>IDragSourceHelper</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper)<br/></td>
@@ -503,12 +503,12 @@ This interface is the current, renamed version of [<strong>IAsyncOperation</stro
 
 </tr>
 <tr class="odd">
-<td>[<strong>IFileSystemBindData</strong>](https://msdn.microsoft.com/windows/desktop/f5099bb3-21a7-4708-ac48-d32a14646614)<br/></td>
+<td>[<strong>IFileSystemBindData</strong>](https://msdn.microsoft.com/f5099bb3-21a7-4708-ac48-d32a14646614)<br/></td>
 <td>Exposes methods that store file system information for optimizing calls to [<strong>IShellFolder::ParseDisplayName</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>IFileSystemBindData2</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesystembinddata2)<br/></td>
-<td>Extends [<strong>IFileSystemBindData</strong>](https://msdn.microsoft.com/windows/desktop/f5099bb3-21a7-4708-ac48-d32a14646614), which stores file system information for optimizing calls to [<strong>IShellFolder::ParseDisplayName</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname). This interface adds the ability set or get file ID or junction class identifier (CLSID).<br/></td>
+<td>Extends [<strong>IFileSystemBindData</strong>](https://msdn.microsoft.com/f5099bb3-21a7-4708-ac48-d32a14646614), which stores file system information for optimizing calls to [<strong>IShellFolder::ParseDisplayName</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname). This interface adds the ability set or get file ID or junction class identifier (CLSID).<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IFileViewer</strong>](/windows/desktop/api/Shlobj/)<br/></td>
@@ -584,7 +584,7 @@ This interface is the current, renamed version of [<strong>IAsyncOperation</stro
 </tr>
 <tr class="odd">
 <td>[<strong>IInitializeCommand</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializecommand)<br/></td>
-<td>Exposes a single method used to initialize objects that implement [<strong>IExplorerCommandState</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate), [<strong>IExecuteCommand</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand) or [<strong>IDropTarget</strong>](https://msdn.microsoft.com/windows/desktop/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) with the application-specified command name and its registered properties.<br/></td>
+<td>Exposes a single method used to initialize objects that implement [<strong>IExplorerCommandState</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate), [<strong>IExecuteCommand</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand) or [<strong>IDropTarget</strong>](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) with the application-specified command name and its registered properties.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>IInitializeNetworkFolder</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl-iinitializenetworkfolder)<br/></td>
@@ -636,7 +636,7 @@ This interface is the current, renamed version of [<strong>IAsyncOperation</stro
 </tr>
 <tr class="even">
 <td>[<strong>IIOCancelInformation</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iiocancelinformation)<br/></td>
-<td>Exposes methods for posting a cancel window message to the process thread from the Progress Dialog. <br/> This interface enables the progress dialog to post a thread message through [<strong>PostThreadMessage</strong>](https://msdn.microsoft.com/windows/desktop/c418cb0e-1b9f-4ca8-8b02-e6901f7744a6) to the worker thread to cancel its operations. The worker thread must periodically check the message queue through [<strong>GetMessage</strong>](https://msdn.microsoft.com/windows/desktop/e92266a7-86ac-43f4-b0eb-762e145a1017), [<strong>PeekMessage</strong>](https://msdn.microsoft.com/windows/desktop/b9f5baa4-8166-4d6e-b416-df023aed9bad) or [<strong>MsgWaitForMultipleObjectsEx</strong>](https://msdn.microsoft.com/windows/desktop/1774b721-3ad4-492e-96af-b71de9066f0c).<br/> The [<strong>IIOCancelInformation::SetCancelInformation</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iiocancelinformation-setcancelinformation) method tells the progress dialog which thread ID and what message to [<strong>PostThreadMessage</strong>](https://msdn.microsoft.com/windows/desktop/c418cb0e-1b9f-4ca8-8b02-e6901f7744a6) when the user clicks <strong>Cancel</strong>. A thread ID of &quot;zero&quot; disables the sending operation for the cancel message.<br/></td>
+<td>Exposes methods for posting a cancel window message to the process thread from the Progress Dialog. <br/> This interface enables the progress dialog to post a thread message through [<strong>PostThreadMessage</strong>](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postthreadmessage.htm) to the worker thread to cancel its operations. The worker thread must periodically check the message queue through [<strong>GetMessage</strong>](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessage.htm), [<strong>PeekMessage</strong>](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\peekmessage.htm) or [<strong>MsgWaitForMultipleObjectsEx</strong>](https://msdn.microsoft.com/1774b721-3ad4-492e-96af-b71de9066f0c).<br/> The [<strong>IIOCancelInformation::SetCancelInformation</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iiocancelinformation-setcancelinformation) method tells the progress dialog which thread ID and what message to [<strong>PostThreadMessage</strong>](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postthreadmessage.htm) when the user clicks <strong>Cancel</strong>. A thread ID of &quot;zero&quot; disables the sending operation for the cancel message.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IItemNameLimits</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iitemnamelimits)<br/></td>
@@ -716,7 +716,7 @@ This interface is the current, renamed version of [<strong>IAsyncOperation</stro
 </tr>
 <tr class="even">
 <td>[<strong>INameSpaceTreeControlFolderCapabilities</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrolfoldercapabilities)<br/></td>
-<td>Exposes a single method that retrieves the status of a folder's [System.IsPinnedToNameSpaceTree](https://msdn.microsoft.com/windows/desktop/00937acb-1ce2-44f6-96a1-69e5dbb665f6) filtering support.<br/></td>
+<td>Exposes a single method that retrieves the status of a folder's [System.IsPinnedToNameSpaceTree](https://msdn.microsoft.com/00937acb-1ce2-44f6-96a1-69e5dbb665f6) filtering support.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>INamespaceWalk</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk)<br/></td>
@@ -748,11 +748,11 @@ This interface is the current, renamed version of [<strong>IAsyncOperation</stro
 </tr>
 <tr class="even">
 <td>[<strong>IObjectArray</strong>](/windows/desktop/api/Objectarray/nn-objectarray-iobjectarray)<br/></td>
-<td>Exposes methods that enable clients to access items in a collection of objects that support [<strong>IUnknown</strong>](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332).<br/></td>
+<td>Exposes methods that enable clients to access items in a collection of objects that support [<strong>IUnknown</strong>](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332).<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IObjectCollection</strong>](/windows/desktop/api/objectarray/nn-objectarray-iobjectcollection)<br/></td>
-<td>Extends the [<strong>IObjectArray</strong>](/windows/desktop/api/Objectarray/nn-objectarray-iobjectarray) interface by providing methods that enable clients to add and remove objects that support [<strong>IUnknown</strong>](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) in a collection.<br/></td>
+<td>Extends the [<strong>IObjectArray</strong>](/windows/desktop/api/Objectarray/nn-objectarray-iobjectarray) interface by providing methods that enable clients to add and remove objects that support [<strong>IUnknown</strong>](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) in a collection.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>IObjectProvider</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectprovider)<br/></td>
@@ -1072,7 +1072,7 @@ This interface is the current, renamed version of [<strong>IAsyncOperation</stro
 </tr>
 <tr class="odd">
 <td>[<strong>IShellLinkDataList</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist)<br/></td>
-<td>Exposes methods that allow an application to attach extra data blocks to a [Shell link](https://msdn.microsoft.com/windows/desktop/32ad306d-54bd-4130-ad30-08db50ef106e). These methods add, copy, or remove data blocks.<br/></td>
+<td>Exposes methods that allow an application to attach extra data blocks to a [Shell link](https://msdn.microsoft.com/32ad306d-54bd-4130-ad30-08db50ef106e). These methods add, copy, or remove data blocks.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>IShellMenu</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu)<br/></td>
@@ -1300,7 +1300,7 @@ This interface is the current, renamed version of [<strong>IAsyncOperation</stro
 </tr>
 <tr class="even">
 <td>[<strong>ITransferMediumItem</strong>](/windows/desktop/api/Shobjidl/)<br/></td>
-<td>Used by a copy engine to get the item on which to call [<strong>QueryInterface</strong>](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) to return a pointer to interface [<strong>ITransferDestination</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination) or interface [<strong>ITransferSource</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource). These interfaces can be queried and enumerated for copy, move, or delete operations.<br/></td>
+<td>Used by a copy engine to get the item on which to call [<strong>QueryInterface</strong>](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) to return a pointer to interface [<strong>ITransferDestination</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination) or interface [<strong>ITransferSource</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource). These interfaces can be queried and enumerated for copy, move, or delete operations.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>ITransferSource</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource)<br/></td>

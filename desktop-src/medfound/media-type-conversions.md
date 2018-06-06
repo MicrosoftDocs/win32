@@ -15,7 +15,7 @@ Occasionally it is necessary to convert between Media Foundation media types and
 
 ### From a Format Structure to a Media Foundation Type
 
-The following functions initialize a Media Foundation media type from a format structure. These functions are also useful if a data stream or a file header contains a format structure. For example, the file header for WAVE audio files contains a [**WAVEFORMATEX**](https://msdn.microsoft.com/windows/desktop/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) structure.
+The following functions initialize a Media Foundation media type from a format structure. These functions are also useful if a data stream or a file header contains a format structure. For example, the file header for WAVE audio files contains a [**WAVEFORMATEX**](https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) structure.
 
 
 
@@ -32,7 +32,7 @@ The following functions initialize a Media Foundation media type from a format s
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>AM_MEDIA_TYPE</strong>](https://msdn.microsoft.com/windows/desktop/973697d0-2897-48b5-88ca-a88a9650eb02) (DirectShow)<br/> [<strong>DMO_MEDIA_TYPE</strong>](https://msdn.microsoft.com/windows/desktop/c545ddf7-9797-45ab-a42a-d8550b598e98) (DirectX Media Objects) <br/> [<strong>WM_MEDIA_TYPE</strong>](https://msdn.microsoft.com/windows/desktop/37a9ac59-e152-47e1-96ee-b816cd645936) (Windows Media Format SDK) <br/>
+<td>[<strong>AM_MEDIA_TYPE</strong>](https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02) (DirectShow)<br/> [<strong>DMO_MEDIA_TYPE</strong>](https://msdn.microsoft.com/c545ddf7-9797-45ab-a42a-d8550b598e98) (DirectX Media Objects) <br/> [<strong>WM_MEDIA_TYPE</strong>](https://msdn.microsoft.com/37a9ac59-e152-47e1-96ee-b816cd645936) (Windows Media Format SDK) <br/>
 <blockquote>
 [!Note]<br />
 These structures are equivalent.
@@ -41,7 +41,7 @@ These structures are equivalent.
 <td>[<strong>MFInitMediaTypeFromAMMediaType</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromammediatype)</td>
 </tr>
 <tr class="even">
-<td>[<strong>BITMAPINFOHEADER</strong>](https://msdn.microsoft.com/windows/desktop/153c08a8-d32c-4e9d-9da9-b915eb172327)</td>
+<td>[<strong>BITMAPINFOHEADER</strong>](https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327)</td>
 <td>[<strong>MFCreateVideoMediaTypeFromBitMapInfoHeaderEx</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfcreatevideomediatypefrombitmapinfoheaderex)</td>
 </tr>
 <tr class="odd">
@@ -49,23 +49,23 @@ These structures are equivalent.
 <td>[<strong>MFInitMediaTypeFromMFVideoFormat</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommfvideoformat)</td>
 </tr>
 <tr class="even">
-<td>[<strong>MPEG1VIDEOINFO</strong>](https://msdn.microsoft.com/windows/desktop/ae5b8825-7c1c-4a44-b665-098732e6c3bc)</td>
+<td>[<strong>MPEG1VIDEOINFO</strong>](https://msdn.microsoft.com/ae5b8825-7c1c-4a44-b665-098732e6c3bc)</td>
 <td>[<strong>MFInitMediaTypeFromMPEG1VideoInfo</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommpeg1videoinfo)</td>
 </tr>
 <tr class="odd">
-<td>[<strong>MPEG2VIDEOINFO</strong>](https://msdn.microsoft.com/windows/desktop/1a6ab686-99a1-40c2-addf-7fa215e2311a)</td>
+<td>[<strong>MPEG2VIDEOINFO</strong>](https://msdn.microsoft.com/1a6ab686-99a1-40c2-addf-7fa215e2311a)</td>
 <td>[<strong>MFInitMediaTypeFromMPEG2VideoInfo</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommpeg2videoinfo)</td>
 </tr>
 <tr class="even">
-<td>[<strong>VIDEOINFOHEADER2</strong>](https://msdn.microsoft.com/windows/desktop/5e3d5bf0-435f-45da-8409-a1463b56a7ae)</td>
+<td>[<strong>VIDEOINFOHEADER2</strong>](https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae)</td>
 <td>[<strong>MFInitMediaTypeFromVideoInfoHeader2</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromvideoinfoheader2)</td>
 </tr>
 <tr class="odd">
-<td>[<strong>VIDEOINFOHEADER</strong>](https://msdn.microsoft.com/windows/desktop/a175592b-0dc1-4001-b52f-785407965932)</td>
+<td>[<strong>VIDEOINFOHEADER</strong>](https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932)</td>
 <td>[<strong>MFInitMediaTypeFromVideoInfoHeader</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromvideoinfoheader)</td>
 </tr>
 <tr class="even">
-<td>[<strong>WAVEFORMATEX</strong>](https://msdn.microsoft.com/windows/desktop/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) or [<strong>WAVEFORMATEXTENSIBLE</strong>](https://msdn.microsoft.com/windows/desktop/b16cdcab-fa4f-4c9a-b1f3-af459bd33245)</td>
+<td>[<strong>WAVEFORMATEX</strong>](https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) or [<strong>WAVEFORMATEXTENSIBLE</strong>](https://msdn.microsoft.com/b16cdcab-fa4f-4c9a-b1f3-af459bd33245)</td>
 <td>[<strong>MFInitMediaTypeFromWaveFormatEx</strong>](/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex)</td>
 </tr>
 </tbody>
@@ -83,11 +83,11 @@ The following functions create or initialize a format structure from a Media Fou
 
 | Function                                                                             | Target Structure                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IMFMediaType::GetRepresentation**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation)            | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/windows/desktop/973697d0-2897-48b5-88ca-a88a9650eb02), [**MFVIDEOFORMAT**](/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat), [**VIDEOINFOHEADER**](https://msdn.microsoft.com/windows/desktop/a175592b-0dc1-4001-b52f-785407965932), or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/windows/desktop/5e3d5bf0-435f-45da-8409-a1463b56a7ae) |
-| [**MFCreateAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype)     | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/windows/desktop/973697d0-2897-48b5-88ca-a88a9650eb02)                                                                                                                                          |
+| [**IMFMediaType::GetRepresentation**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation)            | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02), [**MFVIDEOFORMAT**](/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat), [**VIDEOINFOHEADER**](https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932), or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae) |
+| [**MFCreateAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype)     | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02)                                                                                                                                          |
 | [**MFCreateMFVideoFormatFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatemfvideoformatfrommfmediatype) | [**MFVIDEOFORMAT**](/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat)                                                                                                                                              |
-| [**MFCreateWaveFormatExFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype)   | [**WAVEFORMATEX**](https://msdn.microsoft.com/windows/desktop/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) or [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/windows/desktop/b16cdcab-fa4f-4c9a-b1f3-af459bd33245)                                                                                    |
-| [**MFInitAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype)         | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/windows/desktop/973697d0-2897-48b5-88ca-a88a9650eb02)                                                                                                                                          |
+| [**MFCreateWaveFormatExFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype)   | [**WAVEFORMATEX**](https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) or [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/b16cdcab-fa4f-4c9a-b1f3-af459bd33245)                                                                                    |
+| [**MFInitAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype)         | [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02)                                                                                                                                          |
 
 
 
@@ -156,7 +156,7 @@ The following tables list the Media Foundation attributes that correspond to var
 
  
 
-The following attributes can be inferred from the [**VIDEOINFOHEADER**](https://msdn.microsoft.com/windows/desktop/a175592b-0dc1-4001-b52f-785407965932) or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/windows/desktop/5e3d5bf0-435f-45da-8409-a1463b56a7ae) structure but also require some knowledge of the format details. For example, different YUV formats have different stride requirements.
+The following attributes can be inferred from the [**VIDEOINFOHEADER**](https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932) or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae) structure but also require some knowledge of the format details. For example, different YUV formats have different stride requirements.
 
 -   [**MF\_MT\_DEFAULT\_STRIDE**](mf-mt-default-stride-attribute.md)
 -   [**MF\_MT\_MINIMUM\_DISPLAY\_APERTURE**](mf-mt-minimum-display-aperture-attribute.md)
@@ -194,7 +194,7 @@ The following attributes can be inferred from the [**VIDEOINFOHEADER**](https://
 
 ## Examples
 
-The following code fills in a [**BITMAPINFOHEADER**](https://msdn.microsoft.com/windows/desktop/153c08a8-d32c-4e9d-9da9-b915eb172327) structure from a video media type. Note that this conversions loses some of the format information (interlacing, frame rate, extended color data). However, it might be useful when saving a bitmap from a video frame, for example.
+The following code fills in a [**BITMAPINFOHEADER**](https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327) structure from a video media type. Note that this conversions loses some of the format information (interlacing, frame rate, extended color data). However, it might be useful when saving a bitmap from a video frame, for example.
 
 
 ```C++

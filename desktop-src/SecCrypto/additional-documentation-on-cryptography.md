@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Additional Documentation on Cryptography
 
-Additional documentation on [*cryptography*](https://www.bing.com/search?q=*cryptography*) and authentication, and the associated security issues, includes the following publications:
+Additional documentation on [*cryptography*](security.c_gly#-security-cryptography-gly) and authentication, and the associated security issues, includes the following publications:
 
 -   Adams, Carlisle, and Steve Lloyd. *Understanding PKI: Concepts, Standards, and Deployment Considerations*. 2d ed. Boston: Addison-Wesley Professional, 2002.
 -   Housley, Russ, and Tim Polk. *Planning for PKI: Best Practices Guide for Deploying Public Key Infrastructure*. New York: John Wiley & Sons, Inc., 2001.

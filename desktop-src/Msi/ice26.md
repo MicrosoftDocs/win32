@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ICE26
 
-ICE26 validates that each of the following [*sequence tables*](https://www.bing.com/search?q=*sequence tables*) contain the actions that are required by the table and does not contain any actions disallowed in the table:
+ICE26 validates that each of the following [*sequence tables*](s-gly.md#-msi-sequence-tables-gly) contain the actions that are required by the table and does not contain any actions disallowed in the table:
 
 -   [AdminUISequence table](adminuisequence-table.md)
 -   [AdminExecuteSequence table](adminexecutesequence-table.md)

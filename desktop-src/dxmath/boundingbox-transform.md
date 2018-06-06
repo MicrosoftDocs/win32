@@ -19,8 +19,8 @@ Transforms the BoundingBox.
 
 | Method                                                                                           | Description                            |
 |:-------------------------------------------------------------------------------------------------|:---------------------------------------|
-| [**BoundingBox::Transform (BoundingBox&,XMMATRIX)**](https://www.bing.com/search?q=**BoundingBox::Transform (BoundingBox&,XMMATRIX)**)                | Transforms the BoundingBox.<br/> |
-| [**BoundingBox::Transform (BoundingBox&,float,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingBox::Transform (BoundingBox&,float,XMVECTOR,XMVECTOR)**) | Transforms the BoundingBox.<br/> |
+| [**BoundingBox::Transform (BoundingBox&,XMMATRIX)**](https://www.bing.com/search?q=**BoundingBox::Transform+(BoundingBox&,XMMATRIX)**)                | Transforms the BoundingBox.<br/> |
+| [**BoundingBox::Transform (BoundingBox&,float,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingBox::Transform+(BoundingBox&,float,XMVECTOR,XMVECTOR)**) | Transforms the BoundingBox.<br/> |
 
 
 

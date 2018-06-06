@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Attribute.Name property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObject Class**](https://www.bing.com/search?q=**CryptographicAttributeObject Class**) in the [**System.Security.Cryptography**](https://www.bing.com/search?q=**System.Security.Cryptography**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObject Class**](https://www.bing.com/search?q=**CryptographicAttributeObject+Class**) in the [**System.Security.Cryptography**](https://www.bing.com/search?q=**System.Security.Cryptography**) namespace.\]
 
 The **Name** property sets or retrieves the CAPICOM name of the attribute. This is the default property.
 

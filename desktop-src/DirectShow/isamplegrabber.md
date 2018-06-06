@@ -20,7 +20,7 @@ The **ISampleGrabber** interface is exposed by the [**Sample Grabber**](sample-g
 
 ## Members
 
-The **ISampleGrabber** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ISampleGrabber** also has these types of members:
+The **ISampleGrabber** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ISampleGrabber** also has these types of members:
 
 -   [Methods](#methods)
 

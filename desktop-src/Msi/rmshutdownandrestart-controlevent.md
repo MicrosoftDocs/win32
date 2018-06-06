@@ -11,14 +11,14 @@ ms.date: 05/31/2018
 
 # RmShutdownAndRestart ControlEvent
 
-This event notifies the Windows Installer to use the [Restart Manager](https://www.bing.com/search?q=Restart Manager) to shutdown all applications that have files in use and to restart them at the end of the installation.
+This event notifies the Windows Installer to use the [Restart Manager](https://www.bing.com/search?q=Restart+Manager) to shutdown all applications that have files in use and to restart them at the end of the installation.
 
 This ControlEvent has no effect if any of the following are true.
 
 -   The operating system running the installation is not Windows Vista or Windows Server 2008.
--   Interactions with the [Restart Manager](https://www.bing.com/search?q=Restart Manager) have been disabled by the [**MSIRESTARTMANAGERCONTROL**](msirestartmanagercontrol.md) property or the [DisableAutomaticApplicationShutdown](disableautomaticapplicationshutdown.md) policy.
--   There is currently no open [Restart Manager](https://www.bing.com/search?q=Restart Manager) session.
--   Any calls from the Windows Installer to the [Restart Manager](https://www.bing.com/search?q=Restart Manager) returns a failure.
+-   Interactions with the [Restart Manager](https://www.bing.com/search?q=Restart+Manager) have been disabled by the [**MSIRESTARTMANAGERCONTROL**](msirestartmanagercontrol.md) property or the [DisableAutomaticApplicationShutdown](disableautomaticapplicationshutdown.md) policy.
+-   There is currently no open [Restart Manager](https://www.bing.com/search?q=Restart+Manager) session.
+-   Any calls from the Windows Installer to the [Restart Manager](https://www.bing.com/search?q=Restart+Manager) returns a failure.
 
 ## Typical Use
 

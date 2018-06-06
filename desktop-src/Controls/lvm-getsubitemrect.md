@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # LVM\_GETSUBITEMRECT message
 
-Retrieves information about the bounding rectangle for a subitem in a list-view control. You can send this message explicitly or by using the [**ListView\_GetSubItemRect**](/windows/desktop/api/Commctrl/nf-commctrl-listview_getsubitemrect) macro (recommended). This message is intended to be used only with list-view controls that use the [**LVS\_REPORT**](https://www.bing.com/search?q=**LVS\_REPORT**) style.
+Retrieves information about the bounding rectangle for a subitem in a list-view control. You can send this message explicitly or by using the [**ListView\_GetSubItemRect**](/windows/desktop/api/Commctrl/nf-commctrl-listview_getsubitemrect) macro (recommended). This message is intended to be used only with list-view controls that use the [**LVS\_REPORT**](list-view-window-styles.md#lvs-report) style.
 
 ## Parameters
 

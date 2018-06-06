@@ -32,7 +32,7 @@ Assigns vector component data to the current instance of [**XMFLOAT3PK**](/windo
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT3PK::operator = (const uint32_t)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3PK::operator = (const uint32_t)</strong>)</td>
+<td style="text-align: left;">[<strong>XMFLOAT3PK::operator = (const uint32_t)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3PK::operator+=+(const+uint32_t)</strong>)</td>
 <td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMFLOAT3PK</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint64_t</code> to the current instance of [<strong>XMFLOAT3PK</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk). <br/>
 <blockquote>
 [!Note]<br />
@@ -41,7 +41,7 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT3PK::operator = (const XMFLOAT3PK&amp;)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3PK::operator = (const XMFLOAT3PK&amp;)</strong>)</td>
+<td style="text-align: left;">[<strong>XMFLOAT3PK::operator = (const XMFLOAT3PK&amp;)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3PK::operator+=+(const+XMFLOAT3PK&amp;)</strong>)</td>
 <td style="text-align: left;">Assigns the vector component data from one instance of <code>XMFLOAT3PK</code> to the current instance of <code>XMFLOAT3PK</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMFLOAT3PK</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk) to the current instance of <code>XMFLOAT3PK</code>. <br/>
 <blockquote>
 [!Note]<br />

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemDriverUni::DrvWriteAbortBuf method
 
-The `IPrintOemDriverUni::DrvWriteAbortBuf` method is provided by the Unidrv driver to allow an OEM [rendering plug-in](https://www.bing.com/search?q=rendering plug-in) to send printer clean-up code after a user terminates a print job.
+The `IPrintOemDriverUni::DrvWriteAbortBuf` method is provided by the Unidrv driver to allow an OEM [rendering plug-in](https://www.bing.com/search?q=rendering+plug-in) to send printer clean-up code after a user terminates a print job.
 
 ## Syntax
 
@@ -81,7 +81,7 @@ OEMs use [**IPrintOemDriverUni::DrvWriteSpoolBuf**](iprintoemdriveruni-drvwrites
 
 `IPrintOemDriverUni::DrvWriteAbortBuf` can only be called after `IPrintOemDriverUni::DrvWriteSpoolBuf` has returned E\_FAIL. `IPrintOemDriverUni::DrvWriteAbortBuf` should not be called more than once per job.
 
-Rendering plug-ins are described in [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing Microsoft's Printer Drivers).
+Rendering plug-ins are described in [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing+Microsoft's+Printer+Drivers).
 
 ## Requirements
 

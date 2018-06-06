@@ -95,7 +95,7 @@ In order to take advantage of a client drawing effect, you must implement a cust
 
 ### The Constructor
 
-The constructor for the custom text renderer stores the [**ID2D1Factory**](https://msdn.microsoft.com/library/windows/desktop/dd371246) object that will be used to create [Direct2D](https://www.bing.com/search?q=Direct2D) objects, and the Direct2D render target that the text will be drawn on to.
+The constructor for the custom text renderer stores the [**ID2D1Factory**](https://msdn.microsoft.com/library/windows/desktop/dd371246) object that will be used to create [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) objects, and the Direct2D render target that the text will be drawn on to.
 
 
 ```C++
@@ -119,7 +119,7 @@ pRT_(pRT)
 
 A glyph run is a set of glyphs that share the same format, including the client drawing effect. The [**DrawGlyphRun**](/windows/desktop/api/dwrite/) method takes care of the text rendering for a specified glyph run.
 
-First, create an [**ID2D1PathGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371512) and an [**ID2D1GeometrySink**](https://msdn.microsoft.com/library/windows/desktop/dd316592), and then retrieve the glyph run outline by using [**IDWriteFontFace::GetGlyphRunOutline**](/windows/desktop/api/dwrite/). Then transform the origin of the geometry by using the [Direct2D](https://www.bing.com/search?q=Direct2D) [**ID2D1Factory::CreateTransformedGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371304) method, as shown in the following code.
+First, create an [**ID2D1PathGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371512) and an [**ID2D1GeometrySink**](https://msdn.microsoft.com/library/windows/desktop/dd316592), and then retrieve the glyph run outline by using [**IDWriteFontFace::GetGlyphRunOutline**](/windows/desktop/api/dwrite/). Then transform the origin of the geometry by using the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) [**ID2D1Factory::CreateTransformedGeometry**](https://msdn.microsoft.com/library/windows/desktop/dd371304) method, as shown in the following code.
 
 
 ```C++
@@ -183,7 +183,7 @@ if (SUCCEEDED(hr))
 
 
 
-Next, declare a [Direct2D](https://www.bing.com/search?q=Direct2D) solid brush object.
+Next, declare a [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) solid brush object.
 
 
 ```C++
@@ -263,7 +263,7 @@ if (SUCCEEDED(hr))
 
 ### The Destructor
 
-Don't forget to release the [Direct2D](https://www.bing.com/search?q=Direct2D) factory and render target in the destructor.
+Don't forget to release the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) factory and render target in the destructor.
 
 
 ```C++

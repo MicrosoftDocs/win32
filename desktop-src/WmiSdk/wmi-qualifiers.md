@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # WMI Qualifiers
 
-WMI has several types of class and property [*qualifiers*](https://www.bing.com/search?q=*qualifiers*). Qualifiers can also have modifying [*flavors*](https://www.bing.com/search?q=*flavors*). The following types of qualifiers and flavors are used in WMI.
+WMI has several types of class and property [*qualifiers*](gloss-q.md#wmi-gloss-qualifier). Qualifiers can also have modifying [*flavors*](gloss-f.md#wmi-gloss-flavor). The following types of qualifiers and flavors are used in WMI.
 
 The name of each qualifier appears with its data type and an indicator of whether the qualifier can be applied to a class, instance, property, or method. For qualifiers such as **Association** (discussed under [Meta Qualifiers](meta-qualifiers.md)), there is an implied usage rule that the meta qualifier must also be present. For example, the implicit usage rule for the **Aggregation** qualifiers is that the **Association** qualifier must also be present.
 

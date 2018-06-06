@@ -93,7 +93,7 @@ An automated exposure mode that specifies a relatively shallow depth of field.
 
 ## Remarks
 
-Indicates the exposure program mode of the device. This enumeration is used by the [WPD\_STILL\_IMAGE\_EXPOSURE\_PROGRAM\_MODE](https://www.bing.com/search?q=WPD\_STILL\_IMAGE\_EXPOSURE\_PROGRAM\_MODE) property.
+Indicates the exposure program mode of the device. This enumeration is used by the [WPD\_STILL\_IMAGE\_EXPOSURE\_PROGRAM\_MODE](still-image-properties.md#wpd-still-image-exposure-program-mode) property.
 
 ## Requirements
 

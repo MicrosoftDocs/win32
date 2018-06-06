@@ -84,7 +84,7 @@ Data type: **CIM\_STRING**
 
 Access type: Read-only
 
-Name of the [*namespace*](https://www.bing.com/search?q=*namespace*) of the class or instance.
+Name of the [*namespace*](gloss-n.md#wmi-gloss-namespace) of the class or instance.
 
 Example: root\\cimv2
 

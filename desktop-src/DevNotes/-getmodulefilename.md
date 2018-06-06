@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[This function is a wrapper over the **GetModuleFileName** function. This function may be altered or unavailable in the future. Applications should call **GetModuleFileName** directly.\]
 
-Gets the module path. See [**GetModuleFileName**](https://msdn.microsoft.com/windows/desktop/f124c99f-8be1-4a9c-a84c-b1b323921f1a).
+Gets the module path. See [**GetModuleFileName**](https://msdn.microsoft.com/f124c99f-8be1-4a9c-a84c-b1b323921f1a).
 
 ## Syntax
 
@@ -47,7 +47,7 @@ DWORD _GetModuleFileName(
 
 <dl> <dt>
 
-[**GetModuleFileName**](https://msdn.microsoft.com/windows/desktop/f124c99f-8be1-4a9c-a84c-b1b323921f1a)
+[**GetModuleFileName**](https://msdn.microsoft.com/f124c99f-8be1-4a9c-a84c-b1b323921f1a)
 </dt> </dl>
 
  

@@ -33,7 +33,7 @@ typedef struct _D3DMEMORYPRESSURE {
 **BytesEvictedFromProcess**
 </dt> <dd>
 
-Type: **[**UINT64**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT64**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -44,7 +44,7 @@ The number of bytes that were evicted by the process during the duration of the 
 **SizeOfInefficientAllocation**
 </dt> <dd>
 
-Type: **[**UINT64**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT64**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -55,7 +55,7 @@ The total number of bytes placed in nonoptimal memory segments, due to inadequat
 **LevelOfEfficiency**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## Members
 
-The **IBidiAsyncNotifyChannel** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IBidiAsyncNotifyChannel** also has these types of members:
+The **IBidiAsyncNotifyChannel** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IBidiAsyncNotifyChannel** also has these types of members:
 
 -   [Methods](#methods)
 

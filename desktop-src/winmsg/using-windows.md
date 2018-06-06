@@ -62,7 +62,7 @@ UpdateWindow(hwndMain);
 
 
 
-Notice that the preceding example calls the [**ShowWindow**](/windows/desktop/api/Winuser/nf-winuser-showwindow) function after creating the main window. This is done because the system does not automatically display the main window after creating it. By passing the **SW\_SHOWDEFAULT** flag to **ShowWindow**, the application allows the program that started the application to set the initial show state of the main window. The [**UpdateWindow**](https://msdn.microsoft.com/windows/desktop/51a50f1f-7b4d-4acd-83a0-1877f5181766) function sends the window its first [**WM\_PAINT**](https://msdn.microsoft.com/windows/desktop/afebaa07-cf00-47db-a919-46436f164881) message.
+Notice that the preceding example calls the [**ShowWindow**](/windows/desktop/api/Winuser/nf-winuser-showwindow) function after creating the main window. This is done because the system does not automatically display the main window after creating it. By passing the **SW\_SHOWDEFAULT** flag to **ShowWindow**, the application allows the program that started the application to set the initial show state of the main window. The [**UpdateWindow**](https://msdn.microsoft.com/51a50f1f-7b4d-4acd-83a0-1877f5181766) function sends the window its first [**WM\_PAINT**](https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881) message.
 
 ## Creating, Enumerating, and Sizing Child Windows
 
@@ -187,7 +187,7 @@ case WM_DESTROY:
 
 ## Using Layered Windows
 
-To have a dialog box come up as a translucent window, first create the dialog as usual. Then, on [**WM\_INITDIALOG**](https://msdn.microsoft.com/windows/desktop/bc4f4718-1dab-48db-ae3b-5a81a7be2644), set the layered bit of the window's extended style and call [**SetLayeredWindowAttributes**](/windows/desktop/api/Winuser/nf-winuser-setlayeredwindowattributes) with the desired alpha value. The code might look like this:
+To have a dialog box come up as a translucent window, first create the dialog as usual. Then, on [**WM\_INITDIALOG**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxmessages\wm_initdialog.htm), set the layered bit of the window's extended style and call [**SetLayeredWindowAttributes**](/windows/desktop/api/Winuser/nf-winuser-setlayeredwindowattributes) with the desired alpha value. The code might look like this:
 
 
 ```
@@ -202,7 +202,7 @@ SetLayeredWindowAttributes(hwnd, 0, (255 * 70) / 100, LWA_ALPHA);
 
 
 
-Note that the third parameter of [**SetLayeredWindowAttributes**](/windows/desktop/api/Winuser/nf-winuser-setlayeredwindowattributes) is a value that ranges from 0 to 255, with 0 making the window completely transparent and 255 making it completely opaque. This parameter mimics the more versatile [**BLENDFUNCTION**](https://msdn.microsoft.com/windows/desktop/d1371d72-c408-4484-845e-d4ea2bc3115d) of the [**AlphaBlend**](https://msdn.microsoft.com/windows/desktop/4624aa31-7e19-4506-ac70-9b3c98a8215d) function.
+Note that the third parameter of [**SetLayeredWindowAttributes**](/windows/desktop/api/Winuser/nf-winuser-setlayeredwindowattributes) is a value that ranges from 0 to 255, with 0 making the window completely transparent and 255 making it completely opaque. This parameter mimics the more versatile [**BLENDFUNCTION**](https://msdn.microsoft.com/d1371d72-c408-4484-845e-d4ea2bc3115d) of the [**AlphaBlend**](https://msdn.microsoft.com/4624aa31-7e19-4506-ac70-9b3c98a8215d) function.
 
 To make this window completely opaque again, remove the **WS\_EX\_LAYERED** bit by calling [**SetWindowLong**](/windows/desktop/api/Winuser/nf-winuser-setwindowlonga) and then ask the window to repaint. Removing the bit is desired to let the system know that it can free up some memory associated with layering and redirection. The code might look like this:
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **DA\_GET\_NFS\_ATTRIBUTES** control code queries additional information about an NFS share.
 
-To perform this operation, call the [**DeviceIoControl**](https://msdn.microsoft.com/windows/desktop/1d35c087-6672-4fc6-baa1-a886dd9d3878) function with the following parameters.
+To perform this operation, call the [**DeviceIoControl**](https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878) function with the following parameters.
 
 
 ```C++
@@ -38,7 +38,7 @@ BOOL
 *hDevice* \[in\]
 </dt> <dd>
 
-A handle to a file on the NFS share. To obtain this handle, call the [**CreateFile**](https://msdn.microsoft.com/windows/desktop/80a96083-4de9-4422-9705-b8ad2b6cbd1b) function.
+A handle to a file on the NFS share. To obtain this handle, call the [**CreateFile**](https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b) function.
 
 </dd> <dt>
 
@@ -82,32 +82,32 @@ The size of the output buffer, in bytes.
 
 A pointer to a variable that receives the size of the data stored in the output buffer, in bytes.
 
-If the output buffer is too small, the call fails, [**GetLastError**](https://msdn.microsoft.com/windows/desktop/d852e148-985c-416f-a5a7-27b6914b45d4) returns **ERROR\_INSUFFICIENT\_BUFFER**, and *lpBytesReturned* is zero.
+If the output buffer is too small, the call fails, [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4) returns **ERROR\_INSUFFICIENT\_BUFFER**, and *lpBytesReturned* is zero.
 
-If *lpOverlapped* is **NULL**, *lpBytesReturned* cannot be **NULL**. Even when an operation returns no output data and *lpOutBuffer* is **NULL**, [**DeviceIoControl**](https://msdn.microsoft.com/windows/desktop/1d35c087-6672-4fc6-baa1-a886dd9d3878) makes use of *lpBytesReturned*. After such an operation, the value of *lpBytesReturned* is meaningless.
+If *lpOverlapped* is **NULL**, *lpBytesReturned* cannot be **NULL**. Even when an operation returns no output data and *lpOutBuffer* is **NULL**, [**DeviceIoControl**](https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878) makes use of *lpBytesReturned*. After such an operation, the value of *lpBytesReturned* is meaningless.
 
-If *lpOverlapped* is not **NULL**, *lpBytesReturned* can be **NULL**. If this parameter is not **NULL** and the operation returns data, *lpBytesReturned* is meaningless until the overlapped operation has completed. To retrieve the number of bytes returned, call [**GetOverlappedResult**](https://msdn.microsoft.com/windows/desktop/7f999959-9b22-4491-ae2b-a2674d821110). If the *hDevice* parameter is associated with an I/O completion port, you can retrieve the number of bytes returned by calling [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/windows/desktop/8121a38b-0fe1-43b8-aed6-4b85af1feba9).
+If *lpOverlapped* is not **NULL**, *lpBytesReturned* can be **NULL**. If this parameter is not **NULL** and the operation returns data, *lpBytesReturned* is meaningless until the overlapped operation has completed. To retrieve the number of bytes returned, call [**GetOverlappedResult**](https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110). If the *hDevice* parameter is associated with an I/O completion port, you can retrieve the number of bytes returned by calling [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9).
 
 </dd> <dt>
 
 *lpOverlapped* \[in\]
 </dt> <dd>
 
-A pointer to an [**OVERLAPPED**](https://msdn.microsoft.com/windows/desktop/5037f6b9-e316-483b-a8e2-b58d2587ebd9) structure.
+A pointer to an [**OVERLAPPED**](https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9) structure.
 
 If *hDevice* was opened without specifying **FILE\_FLAG\_OVERLAPPED**, *lpOverlapped* is ignored.
 
-If *hDevice* was opened with the **FILE\_FLAG\_OVERLAPPED** flag, the operation is performed as an overlapped (asynchronous) operation. In this case, *lpOverlapped* must point to a valid [**OVERLAPPED**](https://msdn.microsoft.com/windows/desktop/5037f6b9-e316-483b-a8e2-b58d2587ebd9) structure that contains a handle to an event object. Otherwise, the function fails in unpredictable ways.
+If *hDevice* was opened with the **FILE\_FLAG\_OVERLAPPED** flag, the operation is performed as an overlapped (asynchronous) operation. In this case, *lpOverlapped* must point to a valid [**OVERLAPPED**](https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9) structure that contains a handle to an event object. Otherwise, the function fails in unpredictable ways.
 
-For overlapped operations, [**DeviceIoControl**](https://msdn.microsoft.com/windows/desktop/1d35c087-6672-4fc6-baa1-a886dd9d3878) returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the function does not return until the operation has been completed or an error occurs.
+For overlapped operations, [**DeviceIoControl**](https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878) returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the function does not return until the operation has been completed or an error occurs.
 
 </dd> </dl>
 
 ## Return value
 
-If the operation completes successfully, [**DeviceIoControl**](https://msdn.microsoft.com/windows/desktop/1d35c087-6672-4fc6-baa1-a886dd9d3878) returns a nonzero value.
+If the operation completes successfully, [**DeviceIoControl**](https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878) returns a nonzero value.
 
-If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microsoft.com/windows/desktop/1d35c087-6672-4fc6-baa1-a886dd9d3878) returns zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/windows/desktop/d852e148-985c-416f-a5a7-27b6914b45d4).
+If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878) returns zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4).
 
 ## Remarks
 
@@ -344,7 +344,7 @@ Specifies whether the connection on which the handle to the NFS share was create
 
 <dl> <dt>
 
-[**DeviceIoControl**](https://msdn.microsoft.com/windows/desktop/1d35c087-6672-4fc6-baa1-a886dd9d3878)
+[**DeviceIoControl**](https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878)
 </dt> </dl>
 
  

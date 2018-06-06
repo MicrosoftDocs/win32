@@ -18,7 +18,7 @@ The Simple Network Management Protocol (SNMP) sends operation requests and respo
 
 The structure of a PDU is restricted to the Microsoft WinSNMP implementation. A WinSNMP application can access a PDU with a handle of the type **HSNMP\_PDU**. The WinSNMP application must create a PDU before it calls the [**SnmpSendMsg**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsendmsg) function or the [**SnmpEncodeMsg**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpencodemsg) function.
 
-The application can extract and update the data elements of a PDU, and release resources allocated for PDUs. To perform these operations, the application uses the WinSNMP [PDU functions](https://www.bing.com/search?q=PDU functions). The following table lists topics that discuss working with PDUs in the WinSNMP programming environment.
+The application can extract and update the data elements of a PDU, and release resources allocated for PDUs. To perform these operations, the application uses the WinSNMP [PDU functions](winsnmp-functions.md#winsnmp-pdu-functions). The following table lists topics that discuss working with PDUs in the WinSNMP programming environment.
 
 
 

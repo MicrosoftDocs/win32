@@ -47,7 +47,7 @@ The **GetCaptureTimeStamp** function returns the time when the Network Packet Pr
 
 Do not overwrite the data in the **SYSTEMTIME** structure. The data is part of the capture. Trying to modify the data causes an access violation.
 
-[*Experts*](https://www.bing.com/search?q=*Experts*) and [*parsers*](https://www.bing.com/search?q=*parsers*) can call the **GetCaptureTimeStamp** function.
+[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetCaptureTimeStamp** function.
 
 ## Requirements
 

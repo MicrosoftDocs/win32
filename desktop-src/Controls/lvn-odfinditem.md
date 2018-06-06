@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # LVN\_ODFINDITEM message
 
-Sent by a [virtual list-view](https://www.bing.com/search?q=virtual list-view) control when it needs the owner to find a particular callback item. For example, the control will send this notification code when it receives shortcut keyboard input or when it receives an [**LVM\_FINDITEM**](lvm-finditem.md) message. The LVN\_ODFINDITEM notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a [virtual list-view](list-view-controls-overview.md#virtual-list-view-style) control when it needs the owner to find a particular callback item. For example, the control will send this notification code when it receives shortcut keyboard input or when it receives an [**LVM\_FINDITEM**](lvm-finditem.md) message. The LVN\_ODFINDITEM notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++

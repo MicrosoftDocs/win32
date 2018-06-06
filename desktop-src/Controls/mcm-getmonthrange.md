@@ -72,7 +72,7 @@ Returns an INT value that represents the range, in months, spanned by the two li
 
 <dl> <dt>
 
-[Times in the Month Calendar Control](https://www.bing.com/search?q=Times in the Month Calendar Control)
+[Times in the Month Calendar Control](month-calendar-controls.md#times-in-the-month-calendar-control)
 </dt> </dl>
 
  

@@ -34,7 +34,7 @@ HRESULT GetGlyphData(
 *Glyph* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Glyph identifier.
 
@@ -52,7 +52,7 @@ Address of a pointer to a ID3D10Texture object that contains the glyph.
 *pBlackBox* \[in\]
 </dt> <dd>
 
-Type: **[**RECT**](https://msdn.microsoft.com/windows/desktop/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8)\***
+Type: **[**RECT**](https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8)\***
 
 Pointer to the smallest rectangle object that completely encloses the glyph. See [RECT](http://msdn2.microsoft.com/en-us/library/ms536136.aspx).
 

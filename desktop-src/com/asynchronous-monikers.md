@@ -19,10 +19,10 @@ Asynchronous monikers provide these capabilities, as well as various levels of a
 
 For more information, see the following topics:
 
--   [Asynchronous and Synchronous Monikers](https://msdn.microsoft.com/windows/desktop/79c7894d-956a-4c86-8806-2c6c7faa6034)
--   [Asynchronous and Synchronous Binding](https://msdn.microsoft.com/windows/desktop/9852df19-5ae4-4425-9ce0-cac160d68456)
--   [Asynchronous and Synchronous Storage](https://msdn.microsoft.com/windows/desktop/de8c50f8-1733-439f-ab53-f98ac21a1fae)
--   [Data-Pull Model and Data-Push Model](https://www.bing.com/search?q=Data-Pull Model and Data-Push Model)
+-   [Asynchronous and Synchronous Monikers](https://www.bing.com/search?q=Asynchronous+and+Synchronous+Monikers)
+-   [Asynchronous and Synchronous Binding](https://www.bing.com/search?q=Asynchronous+and+Synchronous+Binding)
+-   [Asynchronous and Synchronous Storage](https://www.bing.com/search?q=Asynchronous+and+Synchronous+Storage)
+-   [Data-Pull Model and Data-Push Model](https://www.bing.com/search?q=Data-Pull+Model+and+Data-Push+Model)
 
 ## Related topics
 

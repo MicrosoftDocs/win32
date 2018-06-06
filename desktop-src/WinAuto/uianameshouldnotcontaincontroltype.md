@@ -35,7 +35,7 @@ This issue causes problems for people who rely on a screen-reader and keyboard f
 
 <dl> <dt>
 
-[**UIA\_NamePropertyId**](https://www.bing.com/search?q=**UIA\_NamePropertyId**)
+[**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid)
 </dt> <dt>
 
 [**IUIAutomationElement::CurrentName**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentname)

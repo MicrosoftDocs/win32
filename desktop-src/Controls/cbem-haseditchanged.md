@@ -39,11 +39,11 @@ Returns **TRUE** if the text in the control's edit box has been changed, or **FA
 
 ## Remarks
 
-A ComboBoxEx control uses an edit box control when it is set to the [**CBS\_DROPDOWN**](https://www.bing.com/search?q=**CBS\_DROPDOWN**) style. You can retrieve the edit box control's window handle by sending a [**CBEM\_GETEDITCONTROL**](cbem-geteditcontrol.md) message.
+A ComboBoxEx control uses an edit box control when it is set to the [**CBS\_DROPDOWN**](combo-box-styles.md#cbs-dropdown) style. You can retrieve the edit box control's window handle by sending a [**CBEM\_GETEDITCONTROL**](cbem-geteditcontrol.md) message.
 
 When the user begins editing, you will receive a [CBEN\_BEGINEDIT](cben-beginedit.md) notification. When editing is complete, or the focus changes, you will receive a [CBEN\_ENDEDIT](cben-endedit.md) notification. The **CBEM\_HASEDITCHANGED** message is only useful for determining whether the text has been changed if it is sent before the CBEN\_ENDEDIT notification. If the message is sent afterward, it will return **FALSE**. For example, suppose the user starts to edit the text in the edit box but changes focus, generating a CBEN\_ENDEDIT notification. If you then send a **CBEM\_HASEDITCHANGED** message, it will return **FALSE**, even though the text has been changed.
 
-The [**CBS\_SIMPLE**](https://www.bing.com/search?q=**CBS\_SIMPLE**) style does not work correctly with **CBEM\_HASEDITCHANGED**.
+The [**CBS\_SIMPLE**](combo-box-styles.md#cbs-simple) style does not work correctly with **CBEM\_HASEDITCHANGED**.
 
 ## Requirements
 

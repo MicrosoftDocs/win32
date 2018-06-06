@@ -165,7 +165,7 @@ Check the <strong>AppXDeployment-Server</strong> event log for more info.<br/></
 <li>Package deployment is blocked by Application Control Policies.</li>
 <li>Package deployment is blocked by the &quot;Allow deployment operations in special profiles&quot; policy.</li>
 </ul>
-One of the possible reasons is a need for a roaming profile. See [Deploy Roaming User Profiles](https://www.bing.com/search?q=Deploy Roaming User Profiles) to set up Roaming User Profiles on user accounts. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
+One of the possible reasons is a need for a roaming profile. See [Deploy Roaming User Profiles](65840ed4-02af-49fc-a99d-292a4b50dfd4#rup-step4optionallysetuproaminguserprofilesonuseraccounts) to set up Roaming User Profiles on user accounts. If there are no policies configured on your system and you still see this error, perhaps you are logged in with a temporary profile. Log out and log in again, then try the operation again.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_PACKAGES_IN_USE</strong></td>

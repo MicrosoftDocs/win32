@@ -38,7 +38,7 @@ This topic discusses important design considerations for developing IMEs and tex
 
 ## 64-Bit Considerations for IMEs
 
-This section describes the special considerations involved with building IMEs for use with 64-bit Windows. For information about IMEs, see [Input Method Editor](https://www.bing.com/search?q=Input Method Editor).
+This section describes the special considerations involved with building IMEs for use with 64-bit Windows. For information about IMEs, see [Input Method Editor](https://www.bing.com/search?q=Input+Method+Editor).
 
 ## Building 32-Bit and 64-Bit Versions of an IME
 
@@ -146,7 +146,7 @@ If you are not using a Windows Installer package to install your IME or text ser
 
 > \[!Tip\]
 >
-> Avoid hard-coded installation paths. For more information, see [Locate Directories Using the Application Programming Interface Not Hard-Coded Paths](https://www.bing.com/search?q=Locate Directories Using the Application Programming Interface Not Hard-Coded Paths)
+> Avoid hard-coded installation paths. For more information, see [Locate Directories Using the Application Programming Interface Not Hard-Coded Paths](https://www.bing.com/search?q=Locate+Directories+Using+the+Application+Programming+Interface+Not+Hard-Coded+Paths)
 
  
 

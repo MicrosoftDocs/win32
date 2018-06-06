@@ -11,14 +11,14 @@ ms.date: 05/31/2018
 
 # DSS Provider Key BLOBs
 
-[*BLOBs*](https://www.bing.com/search?q=*BLOBs*) are used with the [*Digital Signature Standard*](https://www.bing.com/search?q=*Digital Signature Standard*) (DSS) provider to export keys from, and import keys into, the [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP).
+[*BLOBs*](security.b_gly#-security-blob-gly) are used with the [*Digital Signature Standard*](security.d_gly#-security-digital-signature-standard-gly) (DSS) provider to export keys from, and import keys into, the [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP).
 
 -   [Public Key BLOBs](#public-key-blobs)
 -   [Private Key BLOBs](#private-key-blobs)
 
 ## Public Key BLOBs
 
-A DSS [*public key*](https://www.bing.com/search?q=*public key*) is exported and imported as a BLOB, a sequence of bytes structured as follows.
+A DSS [*public key*](security.p_gly#-security-public-key-gly) is exported and imported as a BLOB, a sequence of bytes structured as follows.
 
 ``` syntax
 PUBLICKEYSTRUC    publickeystruc;
@@ -30,13 +30,13 @@ BYTE              y[dsspubkey.bitlen/8];
 DSSSEED           seedstruct;
 ```
 
-The following table describes these components. All values are in [*little-endian*](https://www.bing.com/search?q=*little-endian*) format.
+The following table describes these components. All values are in [*little-endian*](security.l_gly#-security-little-endian-gly) format.
 
 
 
 | Field          | Description                                                                                                                                                                                                          |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| dsspubkey      | A [**DSSPUBKEY**](/windows/desktop/api/Wincrypt/) structure. The **magic** member must have a value of 0x31535344. This hexadecimal number is the [*ASCII*](https://www.bing.com/search?q=*ASCII*) encoding of DSS1. |
+| dsspubkey      | A [**DSSPUBKEY**](/windows/desktop/api/Wincrypt/) structure. The **magic** member must have a value of 0x31535344. This hexadecimal number is the [*ASCII*](security.a_gly#-security-ascii-gly) encoding of DSS1. |
 | g              | A **BYTE** sequence. The generator, g. Must be the same length as p. If it is not the same length as p, then it must be padded with 0x00 bytes.                                                                      |
 | p              | A **BYTE** sequence. The prime modulus, p. The most significant bit of the most significant byte must be set to one.                                                                                                 |
 | publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) structure.                                                                                                                                                                |
@@ -49,13 +49,13 @@ The following table describes these components. All values are in [*little-endia
  
 
 > [!Note]  
-> [*Public key BLOBs*](https://www.bing.com/search?q=*Public key BLOBs*) are not encrypted. They contain public keys in [*plaintext*](https://www.bing.com/search?q=*plaintext*) form.
+> [*Public key BLOBs*](security.p_gly#-security-public-key-blob-gly) are not encrypted. They contain public keys in [*plaintext*](security.p_gly#-security-plaintext-gly) form.
 
  
 
 ## Private Key BLOBs
 
-A DSS [*private key*](https://www.bing.com/search?q=*private key*) is exported and imported as a sequence of bytes structured as follows.
+A DSS [*private key*](security.p_gly#-security-private-key-gly) is exported and imported as a sequence of bytes structured as follows.
 
 ``` syntax
 PUBLICKEYSTRUC    publickeystruc;
@@ -67,13 +67,13 @@ BYTE              x[20];
 DSSSEED           seedstruct;
 ```
 
-The following table describes each component. All values are in [*little-endian*](https://www.bing.com/search?q=*little-endian*) format.
+The following table describes each component. All values are in [*little-endian*](security.l_gly#-security-little-endian-gly) format.
 
 
 
 | Field          | Description                                                                                                                                                                                                    |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| dsspubkey      | A [**DSSPUBKEY**](/windows/desktop/api/Wincrypt/) structure. The **magic** member must be set to 0x32535344. This hexadecimal number is the [*ASCII*](https://www.bing.com/search?q=*ASCII*) encoding of DSS2. |
+| dsspubkey      | A [**DSSPUBKEY**](/windows/desktop/api/Wincrypt/) structure. The **magic** member must be set to 0x32535344. This hexadecimal number is the [*ASCII*](security.a_gly#-security-ascii-gly) encoding of DSS2. |
 | g              | A **BYTE** sequence. The generator, g. Must be the same length as p. If it is not the same length as p, then it must be padded with 0x00 bytes.                                                                |
 | publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) structure.                                                                                                                                                          |
 | p              | A **BYTE** sequence. The prime modulus, p. The most significant bit of the most significant byte must be set to one.                                                                                           |

@@ -24,8 +24,8 @@ This section describes a set of Windows helper functions used with [**IPropertyB
 | [**PSPropertyBag\_ReadGUID**](https://www.bing.com/search?q=**PSPropertyBag\_ReadGUID**)                 | Reads the GUID data value from a property in a property bag.<br/>                                                      |
 | [**PSPropertyBag\_ReadInt**](https://www.bing.com/search?q=**PSPropertyBag\_ReadInt**)                   | Reads an **int** data value from a property in a property bag.<br/>                                                    |
 | [**PSPropertyBag\_ReadLONG**](https://www.bing.com/search?q=**PSPropertyBag\_ReadLONG**)                 | Reads a **LONG** data value from a property in a property bag.<br/>                                                    |
-| [**PSPropertyBag\_ReadPOINTL**](https://www.bing.com/search?q=**PSPropertyBag\_ReadPOINTL**)             | Retrieves the property coordinates stored in a [**POINTL**](https://msdn.microsoft.com/windows/desktop/587d36c8-e81c-4256-af25-af2a82727e8d) structure of a specified property bag.<br/>    |
-| [**PSPropertyBag\_ReadPOINTS**](https://www.bing.com/search?q=**PSPropertyBag\_ReadPOINTS**)             | Retrieves the property coordinates stored in a [**POINTS**](https://msdn.microsoft.com/windows/desktop/d36bc846-c538-4a37-bb5d-c75d41a3c7cc) structure of a specified property bag.<br/>    |
+| [**PSPropertyBag\_ReadPOINTL**](https://www.bing.com/search?q=**PSPropertyBag\_ReadPOINTL**)             | Retrieves the property coordinates stored in a [**POINTL**](https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d) structure of a specified property bag.<br/>    |
+| [**PSPropertyBag\_ReadPOINTS**](https://www.bing.com/search?q=**PSPropertyBag\_ReadPOINTS**)             | Retrieves the property coordinates stored in a [**POINTS**](https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc) structure of a specified property bag.<br/>    |
 | [**PSPropertyBag\_ReadPropertyKey**](https://www.bing.com/search?q=**PSPropertyBag\_ReadPropertyKey**)   | Reads the property key of a property in a specified property bag.<br/>                                                 |
 | [**PSPropertyBag\_ReadRECTL**](https://www.bing.com/search?q=**PSPropertyBag\_ReadRECTL**)               | Retrieves the coordinates of a rectangle stored in a property contained in a specified property bag.<br/>              |
 | [**PSPropertyBag\_ReadSHORT**](https://www.bing.com/search?q=**PSPropertyBag\_ReadSHORT**)               | Reads the **SHORT** data value of a property in a property bag.<br/>                                                   |
@@ -41,8 +41,8 @@ This section describes a set of Windows helper functions used with [**IPropertyB
 | [**PSPropertyBag\_WriteGUID**](https://www.bing.com/search?q=**PSPropertyBag\_WriteGUID**)               | Sets the GUID data value from a property in a property bag.<br/>                                                       |
 | [**PSPropertyBag\_WriteInt**](https://www.bing.com/search?q=**PSPropertyBag\_WriteInt**)                 | Sets an **int** data value from a property in a property bag.<br/>                                                     |
 | [**PSPropertyBag\_WriteLONG**](https://www.bing.com/search?q=**PSPropertyBag\_WriteLONG**)               | Sets a **LONG** data value from a property in a property bag.<br/>                                                     |
-| [**PSPropertyBag\_WritePOINTL**](https://www.bing.com/search?q=**PSPropertyBag\_WritePOINTL**)           | Stores the property coordinates stored in a [**POINTL**](https://msdn.microsoft.com/windows/desktop/587d36c8-e81c-4256-af25-af2a82727e8d) structure of a specified property bag.<br/>       |
-| [**PSPropertyBag\_WritePOINTS**](https://www.bing.com/search?q=**PSPropertyBag\_WritePOINTS**)           | Stores the property coordinates stored in a [**POINTS**](https://msdn.microsoft.com/windows/desktop/d36bc846-c538-4a37-bb5d-c75d41a3c7cc) structure of a specified property bag.<br/>       |
+| [**PSPropertyBag\_WritePOINTL**](https://www.bing.com/search?q=**PSPropertyBag\_WritePOINTL**)           | Stores the property coordinates stored in a [**POINTL**](https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d) structure of a specified property bag.<br/>       |
+| [**PSPropertyBag\_WritePOINTS**](https://www.bing.com/search?q=**PSPropertyBag\_WritePOINTS**)           | Stores the property coordinates stored in a [**POINTS**](https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc) structure of a specified property bag.<br/>       |
 | [**PSPropertyBag\_WritePropertyKey**](https://www.bing.com/search?q=**PSPropertyBag\_WritePropertyKey**) | Sets the property key of a property in a specified property bag.<br/>                                                  |
 | [**PSPropertyBag\_WriteRECTL**](https://www.bing.com/search?q=**PSPropertyBag\_WriteRECTL**)             | Stores the coordinates of a rectangle stored in a property contained in a specified property bag.<br/>                 |
 | [**PSPropertyBag\_WriteSHORT**](https://www.bing.com/search?q=**PSPropertyBag\_WriteSHORT**)             | Sets the **SHORT** data value of a property in a property bag.<br/>                                                    |
@@ -59,7 +59,7 @@ This section describes a set of Windows helper functions used with [**IPropertyB
 
 <dl> <dt>
 
-[PROPVARIANT and VARIANT Functions](https://www.bing.com/search?q=PROPVARIANT and VARIANT Functions)
+[PROPVARIANT and VARIANT Functions](https://www.bing.com/search?q=PROPVARIANT+and+VARIANT+Functions)
 </dt> <dt>
 
 [Functions](functions.md)

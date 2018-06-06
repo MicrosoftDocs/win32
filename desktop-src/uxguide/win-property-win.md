@@ -36,10 +36,10 @@ A typical property sheet.
 
 To decide, consider these questions:
 
--   **Does setting the properties require users to perform a fixed, non-trivial sequence of steps?** If so, use a [wizard](win-wizards.md) or [task flow](https://www.bing.com/search?q=task flow) instead.
+-   **Does setting the properties require users to perform a fixed, non-trivial sequence of steps?** If so, use a [wizard](win-wizards.md) or [task flow](glossary.md#t) instead.
 -   **Is the content solely an application's options?** If so, use an options dialog box.
--   **Is the content solely an application's attributes?** If so, use an [About box](https://www.bing.com/search?q=About box).
--   **Is the content mostly an object's properties (its settings or attributes)?** If not, use a standard [dialog boxe](win-dialog-box.md) or [tabbed dialog box](https://www.bing.com/search?q=tabbed dialog box).
+-   **Is the content solely an application's attributes?** If so, use an [About box](glossary.md#glossary).
+-   **Is the content mostly an object's properties (its settings or attributes)?** If not, use a standard [dialog boxe](win-dialog-box.md) or [tabbed dialog box](glossary.md#t).
 -   Are users **likely to view or change properties frequently or over an extended period of time?** If so, use a property inspector; otherwise, use a property sheet.
 -   Are users **likely to view or change properties for several different objects at a time?** If so, use a property inspector; otherwise, use a property sheet.
 
@@ -292,7 +292,7 @@ All property window patterns except property inspectors use a delayed commit, me
 
     In this example, the Windows Firewall settings are complex and may result in broken functionality. If there's a problem, it is often easier for users to start over by clicking Restore Defaults.
 
--   Confirm the Restore Defaults command if its effect isn't obvious or the settings are complex. Indicate the confirmation by using [ellipses](https://www.bing.com/search?q=ellipses).
+-   Confirm the Restore Defaults command if its effect isn't obvious or the settings are complex. Indicate the confirmation by using [ellipses](ctrl-command-buttons.md#design-concepts).
 -   **When appropriate, display a preview of the results of a setting.**
 
     ![screen shot of mouse properties pointer examples ](images/win-property-win-image14.png)
@@ -316,7 +316,7 @@ For more information and examples, see [Help](winenv-help.md).
 
 ### Standard users and Protected administrators
 
-**Many settings require administrator privileges to change.** If a process requires administrator privileges, Windows and later requires [Standard users](https://www.bing.com/search?q=Standard users) and [Protected administrators](https://www.bing.com/search?q=Protected administrators) to elevate their privileges explicitly. Doing so helps prevent malicious code from running with administrator privileges.
+**Many settings require administrator privileges to change.** If a process requires administrator privileges, Windows and later requires [Standard users](glossary.md#s) and [Protected administrators](glossary.md#p) to elevate their privileges explicitly. Doing so helps prevent malicious code from running with administrator privileges.
 
 For more information and examples, see [User Account Control](winenv-uac.md).
 
@@ -332,9 +332,9 @@ For more information and examples, see [User Account Control](winenv-uac.md).
 
 -   To display program options, use "Options."
 -   To display an object's property window, use "Properties."
--   To display a summary of the commonly used program customization settings, use "[Personalize](https://www.bing.com/search?q=Personalize)."
+-   To display a summary of the commonly used program customization settings, use "[Personalize](glossary.md#p)."
 -   Don't use "Settings" or "Preferences."
--   Don't use [ellipses](https://www.bing.com/search?q=ellipses) for these commands.
+-   Don't use [ellipses](ctrl-command-buttons.md#design-concepts) for these commands.
 
 ### Property sheet titles
 
@@ -343,7 +343,7 @@ For more information and examples, see [User Account Control](winenv-uac.md).
 -   For multiple objects, use "\[first object name\], ... Properties."
     -   If the objects have no names, use the objects' type name. (For example, User Accounts Properties.)
     -   If the objects have different types, use "Selection Properties."
--   Use [title-style capitalization](https://www.bing.com/search?q=title-style capitalization).
+-   Use [title-style capitalization](glossary.md#t).
 -   Don't use ending punctuation.
 -   Don't use hyphens, such as "\[object name\] - Properties."
 
@@ -364,8 +364,8 @@ For more information and examples, see [User Account Control](winenv-uac.md).
 -   **Use concise tab labels.** Use one or two words that clearly describe the content of the page. Using longer tab names results in an inefficient use of screen space, especially when the tab names are localized.
 -   **Use specific, meaningful tab labels.** Avoid generic tab labels that could apply to any tab, such as General, Advanced, or Settings.
 -   Write the label as a one- or two-word phrase and use no ending punctuation.
--   Use [sentence-style capitalization](https://www.bing.com/search?q=sentence-style capitalization).
--   Don't assign a unique [access key](https://www.bing.com/search?q=access key).
+-   Use [sentence-style capitalization](glossary.md#s).
+-   Don't assign a unique [access key](glossary.md#glossary).
 
 ### Property page text
 

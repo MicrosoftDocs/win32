@@ -11,14 +11,14 @@ ms.date: 05/31/2018
 
 # Example C Program: Using CryptProtectData
 
-The following example encrypts and decrypts a data [*BLOB*](https://www.bing.com/search?q=*BLOB*) using [**CryptProtectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata).
+The following example encrypts and decrypts a data [*BLOB*](security.b_gly#-security-blob-gly) using [**CryptProtectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata).
 
 This example illustrates the following tasks and CryptoAPI functions:
 
 -   Initializing a [**CRYPTPROTECT\_PROMPTSTRUCT**](/windows/desktop/api/Dpapi/ns-dpapi-_cryptprotect_promptstruct) data structure.
 -   Using [**CryptProtectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata) to encrypt a data BLOB.
 -   Using [**CryptUnprotectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata) to decrypt the data.
--   Using [**LocalFree**](https://msdn.microsoft.com/windows/desktop/a0393983-cb43-4dfa-91a6-d82a5fb8de12) to release allocated memory.
+-   Using [**LocalFree**](https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12) to release allocated memory.
 
 This example uses the [**MyHandleError**](myhandleerror.md) function. The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

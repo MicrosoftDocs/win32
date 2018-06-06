@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 Describes the new wave operation intrinsics added to HLSL Shader Model 6.0.
 
 > [!Note]  
-> : The Shader Model 6.0 specifics described is a preview and subject to change, pending the release of [supporting tools and drivers](https://www.bing.com/search?q=supporting tools and drivers).
+> : The Shader Model 6.0 specifics described is a preview and subject to change, pending the release of [supporting tools and drivers](https://www.bing.com/search?q=supporting+tools+and+drivers).
 
  
 

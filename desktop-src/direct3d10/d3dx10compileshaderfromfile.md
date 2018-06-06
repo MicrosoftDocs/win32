@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # D3DX10CompileShaderFromFile
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the [**D3DCompile**](https://msdn.microsoft.com/windows/desktop/feb3d4d1-06ce-4141-9267-c6c771659aa7) API.
+> Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the [**D3DCompile**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dcompile.htm) API.
 
  
 

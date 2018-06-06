@@ -143,7 +143,7 @@ This solution is not suited to Windows Store apps because it requires the [D3DCo
 </tr>
 <tr class="even">
 <td>D3DX10</td>
-<td>D3DX11 in the legacy DirectX SDK [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926), [DirectXTK](http://go.microsoft.com/fwlink/p/?linkid=248929), and [DirectXMesh](http://go.microsoft.com/fwlink/p/?linkid=324981) offer alternatives to many technologies in the legacy D3DX10 and D3DX11 libraries.<br/> [Direct2D](https://www.bing.com/search?q=Direct2D) and [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038) offer high-quality support for rendering styled lines and fonts.<br/></td>
+<td>D3DX11 in the legacy DirectX SDK [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926), [DirectXTK](http://go.microsoft.com/fwlink/p/?linkid=248929), and [DirectXMesh](http://go.microsoft.com/fwlink/p/?linkid=324981) offer alternatives to many technologies in the legacy D3DX10 and D3DX11 libraries.<br/> [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) and [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038) offer high-quality support for rendering styled lines and fonts.<br/></td>
 </tr>
 </tbody>
 </table>

@@ -80,7 +80,7 @@ HRESULT GetPlayDuration(
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)
 </dt> <dt>
 
-[ASF Header Object](https://www.bing.com/search?q=ASF Header Object)
+[ASF Header Object](asf-file-structure.md#header-object)
 </dt> <dt>
 
 [Presentation Descriptors](presentation-descriptors.md)

@@ -18,15 +18,15 @@ These steps verify the signature of signed data. The following illustration depi
 **To verify the signature of a signed message**
 
 1.  Get a pointer to the signed message.
-2.  Open a [*certificate store*](https://www.bing.com/search?q=*certificate store*).
-3.  Using the signer ID contained in the message, get the sender's certificate and get a handle to its [*public key*](https://www.bing.com/search?q=*public key*).
+2.  Open a [*certificate store*](security.c_gly#-security-certificate-store-gly).
+3.  Using the signer ID contained in the message, get the sender's certificate and get a handle to its [*public key*](security.p_gly#-security-public-key-gly).
 
     As an alternative to steps 2 and 3, you can use the certificate contained in the message to retrieve the signer's public key.
 
 4.  Using the signer's public key, decrypt the digital signature, producing the original digest of the data in the message.
-5.  Using the hash algorithm contained in the message, [*hash*](https://www.bing.com/search?q=*hash*) the data contained in the message, yielding a new digest.
+5.  Using the hash algorithm contained in the message, [*hash*](security.h_gly#-security-hash-gly) the data contained in the message, yielding a new digest.
 6.  Compare the digest retrieved from the message with the new digest just created.
-7.  If the two digests match, the signature is verified. This means that the [*private key*](https://www.bing.com/search?q=*private key*) that was used to sign the data matches the public key just used to decrypt the signature, and that the data has not changed since the data was signed.
+7.  If the two digests match, the signature is verified. This means that the [*private key*](security.p_gly#-security-private-key-gly) that was used to sign the data matches the public key just used to decrypt the signature, and that the data has not changed since the data was signed.
 
     If the two digests do not match, the signature is not verified, and either the private/public keys do not match, or the data has been changed since the data was signed, or both.
 

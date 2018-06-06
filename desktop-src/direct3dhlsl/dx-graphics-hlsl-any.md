@@ -56,8 +56,8 @@ This function is similar to the [**all**](dx-graphics-hlsl-all.md) HLSL intrinsi
 
 | Name  | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                         | Size |
 |-------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|------|
-| *x*   | [**scalar**](https://www.bing.com/search?q=**scalar**), **vector**, or **matrix** | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751), [**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751), [**bool**](https://msdn.microsoft.com/library/windows/desktop/aa383751) | any  |
-| *ret* | [**scalar**](https://www.bing.com/search?q=**scalar**)                            | [**bool**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                                                                                 | 1    |
+| *x*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types), **vector**, or **matrix** | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751), [**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751), [**bool**](https://msdn.microsoft.com/library/windows/desktop/aa383751) | any  |
+| *ret* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types)                            | [**bool**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                                                                                 | 1    |
 
 
 

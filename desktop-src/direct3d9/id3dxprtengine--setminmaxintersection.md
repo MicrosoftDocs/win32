@@ -32,7 +32,7 @@ HRESULT SetMinMaxIntersection(
 *fMin* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Minimum intersection distance. Must be positive and less than fMax.
 
@@ -41,7 +41,7 @@ Minimum intersection distance. Must be positive and less than fMax.
 *fMax* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Maximum intersection distance. If 0.0f, the previous value will be used; otherwise, must be greater than fMin.
 

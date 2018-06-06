@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **SIO\_ADDRESS\_LIST\_SORT** IOCTL allows application developers to sort a list of IPv6 and IPv4 destination addresses to determine the best available address for making a connection. The **SIO\_ADDRESS\_LIST\_SORT** IOCTL is supported on Windows XP and later.
 
-On Windows Vista and later, the [**CreateSortedAddressPairs**](https://msdn.microsoft.com/windows/desktop/cdc90d63-15a4-4278-afc3-dbf9ad6ba698) function takes a supplied list of potential IP destination addresses, pairs the destination addresses with the host machine's local IP addresses, and sorts the pairs according to which address pair is best suited for communication between the two peers. The **CreateSortedAddressPairs** function should be used instead of the **SIO\_ADDRESS\_LIST\_SORT** IOCTL on Windows Vista and later.
+On Windows Vista and later, the [**CreateSortedAddressPairs**](https://msdn.microsoft.com/cdc90d63-15a4-4278-afc3-dbf9ad6ba698) function takes a supplied list of potential IP destination addresses, pairs the destination addresses with the host machine's local IP addresses, and sorts the pairs according to which address pair is best suited for communication between the two peers. The **CreateSortedAddressPairs** function should be used instead of the **SIO\_ADDRESS\_LIST\_SORT** IOCTL on Windows Vista and later.
 
 The following sections describe usage considerations for **SIO\_ADDRESS\_LIST\_SORT**.
 
@@ -53,7 +53,7 @@ The **SIO\_ADDRESS\_LIST\_SORT** IOCTL sorts addresses from best to worst, and f
 
 The **SIO\_ADDRESS\_LIST\_SORT** IOCTL ignores the source address bound to the socket and only sorts by the destination address list passed as a parameter.
 
-The [**CreateSortedAddressPairs**](https://msdn.microsoft.com/windows/desktop/cdc90d63-15a4-4278-afc3-dbf9ad6ba698) function should be used instead of the **SIO\_ADDRESS\_LIST\_SORT** IOCTL on Windows Vista and later. The **CreateSortedAddressPairs** function returns a list of address pairs that contains a local source address and a destination address. This provides an application the correct source address to use for each destination address. An application can also filter the results by looking for a specific source address. in the results.
+The [**CreateSortedAddressPairs**](https://msdn.microsoft.com/cdc90d63-15a4-4278-afc3-dbf9ad6ba698) function should be used instead of the **SIO\_ADDRESS\_LIST\_SORT** IOCTL on Windows Vista and later. The **CreateSortedAddressPairs** function returns a list of address pairs that contains a local source address and a destination address. This provides an application the correct source address to use for each destination address. An application can also filter the results by looking for a specific source address. in the results.
 
 ## Requirements
 
@@ -65,7 +65,7 @@ The **SIO\_ADDRESS\_LIST\_SORT** IOCTL is supported on Windows XP and later.
 
 <dl> <dt>
 
-[**CreateSortedAddressPairs**](https://msdn.microsoft.com/windows/desktop/cdc90d63-15a4-4278-afc3-dbf9ad6ba698)
+[**CreateSortedAddressPairs**](https://msdn.microsoft.com/cdc90d63-15a4-4278-afc3-dbf9ad6ba698)
 </dt> </dl>
 
  

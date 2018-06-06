@@ -220,7 +220,7 @@ Activates the window and displays it in its current size and position.
 
 </dt> <dd>
 
-Sets the show state based on the SW\_ flag specified in the [**STARTUPINFO**](https://msdn.microsoft.com/windows/desktop/cf4b795c-52c1-4573-8328-99ee13f68bb3) structure passed to the [**CreateProcess**](https://msdn.microsoft.com/windows/desktop/3ef0a5b2-4d71-4c17-8188-76a4025287fc) function by the program that started the application. An application should call [**ShowWindow**](https://msdn.microsoft.com/windows/desktop/13ffef63-3e29-4ca7-a14d-48ff901d82b5) with this flag to set the initial show state of its main window.
+Sets the show state based on the SW\_ flag specified in the [**STARTUPINFO**](https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3) structure passed to the [**CreateProcess**](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc) function by the program that started the application. An application should call [**ShowWindow**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\showwindow.htm) with this flag to set the initial show state of its main window.
 
 </dd> <dt>
 
@@ -295,7 +295,7 @@ Activates and displays a window. If the window is minimized or maximized, Window
 
 Type: **void\***
 
-Callback function used to call [**CreateProcess**](https://msdn.microsoft.com/windows/desktop/3ef0a5b2-4d71-4c17-8188-76a4025287fc) in the 16-bit kernel.
+Callback function used to call [**CreateProcess**](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc) in the 16-bit kernel.
 
 </dd> </dl>
 

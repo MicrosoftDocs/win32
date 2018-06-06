@@ -40,7 +40,7 @@ Caller-supplied pointer to a string representing the name of the target printer.
 *pDevmode* 
 </dt> <dd>
 
-Caller-supplied pointer to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure. See the following Remarks section.
+Caller-supplied pointer to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure. See the following Remarks section.
 
 </dd> <dt>
 
@@ -66,7 +66,7 @@ When a print processor calls **GdiGetSpoolFileHandle**, it should supply argumen
 | Parameter                    | Argument                                                                                                                                                                                                                                               |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *pwszPrinterName*<br/> | Pointer to the printer name received by the print processor's [**OpenPrintProcessor**](openprintprocessor.md) function.<br/>                                                                                                                    |
-| *pDevmode*<br/>        | Pointer to the [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure contained in the [**PRINTPROCESSOROPENDATA**](printprocessoropendata.md) structure, received by the print processor's [**OpenPrintProcessor**](openprintprocessor.md) function.<br/> |
+| *pDevmode*<br/>        | Pointer to the [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure contained in the [**PRINTPROCESSOROPENDATA**](printprocessoropendata.md) structure, received by the print processor's [**OpenPrintProcessor**](openprintprocessor.md) function.<br/> |
 | *pwszDocName*<br/>     | Document name pointer received by the print processor's [**PrintDocumentOnPrintProcessor**](printdocumentonprintprocessor.md) function.<br/>                                                                                                    |
 
 
@@ -75,7 +75,7 @@ When a print processor calls **GdiGetSpoolFileHandle**, it should supply argumen
 
 A print processor must call the **GdiGetSpoolFileHandle** function before calling any other GDI printing functions, because the returned handle must be passed to the other functions. The function calls OpenPrinter to open a connection to the printer, and CreateDC to create a device context for drawing. The print processor can obtain the device context's handle by calling [**GdiGetDC**](gdigetdc.md).
 
-For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using GDI Functions in Print Processors).
+For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using+GDI+Functions+in+Print+Processors).
 
 ## Requirements
 

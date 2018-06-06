@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Create New Accessible Objects
 
-In this scenario, the server creates a new accessible object in response to each [**OBJID\_CLIENT**](https://www.bing.com/search?q=**OBJID\_CLIENT**) request.
+In this scenario, the server creates a new accessible object in response to each [**OBJID\_CLIENT**](object-identifiers.md#objid-client) request.
 
-In the following example code, a pointer to the control is retrieved from the extra window data. This and the window handle are passed to the constructor of the custom accessibility server (AccServer) object. This object is created whenever [**OBJID\_CLIENT**](https://www.bing.com/search?q=**OBJID\_CLIENT**) is received.
+In the following example code, a pointer to the control is retrieved from the extra window data. This and the window handle are passed to the constructor of the custom accessibility server (AccServer) object. This object is created whenever [**OBJID\_CLIENT**](object-identifiers.md#objid-client) is received.
 
 When the object is created, the server obtains a reference, which must be released after calling [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject), so that the object is destroyed as soon as the client is finished with it. Note that **LresultFromObject** increments the reference count several times, but it is the responsibility of client applications, and the Microsoft Active Accessibility runtime, to release these references.
 

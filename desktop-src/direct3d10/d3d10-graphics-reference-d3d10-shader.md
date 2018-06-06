@@ -19,7 +19,7 @@ The Direct3D API defines several API elements to help you create and manage prog
 -   [Shader Enumerations](d3d10-graphics-reference-d3d10-shader-enums.md)
 -   [Shader Constants](d3d10-graphics-reference-d3d10-shader-constants.md)
 
-Shaders are executable programs that control the vertex shader, geometry shader and pixel shader [pipeline stages](d3d10-graphics-programming-guide-pipeline-stages.md). Shaders are programmed exclusively using [HLSL](https://msdn.microsoft.com/windows/desktop/1d0e12ff-8559-4e5c-9914-6ed313ea5464).
+Shaders are executable programs that control the vertex shader, geometry shader and pixel shader [pipeline stages](d3d10-graphics-programming-guide-pipeline-stages.md). Shaders are programmed exclusively using [HLSL](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_reference.htm).
 
 ## Related topics
 

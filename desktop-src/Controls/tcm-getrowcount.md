@@ -39,7 +39,7 @@ Returns the number of rows of tabs.
 
 ## Remarks
 
-Only tab controls that have the [**TCS\_MULTILINE**](https://www.bing.com/search?q=**TCS\_MULTILINE**) style can have multiple rows of tabs.
+Only tab controls that have the [**TCS\_MULTILINE**](tab-control-styles.md#tcs-multiline) style can have multiple rows of tabs.
 
 ## Requirements
 

@@ -95,10 +95,10 @@ To build the sample using Microsoft Visual Studio (preferred):
 [**IPropertyStore**](https://www.bing.com/search?q=**IPropertyStore**)
 </dt> <dt>
 
-[About Properties and Property Handlers](https://www.bing.com/search?q=About Properties and Property Handlers)
+[About Properties and Property Handlers](https://www.bing.com/search?q=About+Properties+and+Property+Handlers)
 </dt> <dt>
 
-[Property Description Schema](https://www.bing.com/search?q=Property Description Schema)
+[Property Description Schema](https://www.bing.com/search?q=Property+Description+Schema)
 </dt> </dl>
 
  

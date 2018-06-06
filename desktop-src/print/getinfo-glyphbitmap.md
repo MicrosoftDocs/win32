@@ -47,7 +47,7 @@ Handle to the glyph. See the following Remarks section. Supplied by the [*UNIFON
 **pGlyphData**
 </dt> <dd>
 
-Pointer to a [**GLYPHDATA**](https://www.bing.com/search?q=**GLYPHDATA**) structure. The structure is filled in by Unidrv's [*UNIFONTOBJ\_GetInfo*](unifontobj-getinfo.md) callback function. The pointer is supplied by the *UNIFONTOBJ\_GetInfo* caller.
+Pointer to a [**GLYPHDATA**](https://msdn.microsoft.com/9153b8c7-e6ad-4297-a0b6-ea495b9b312f) structure. The structure is filled in by Unidrv's [*UNIFONTOBJ\_GetInfo*](unifontobj-getinfo.md) callback function. The pointer is supplied by the *UNIFONTOBJ\_GetInfo* caller.
 
 </dd> </dl>
 
@@ -74,7 +74,7 @@ The value that a rendering plug-in specifies for the **hGlyph** member must have
 [*UNIFONTOBJ\_GetInfo*](unifontobj-getinfo.md)
 </dt> <dt>
 
-[**GLYPHDATA**](https://www.bing.com/search?q=**GLYPHDATA**)
+[**GLYPHDATA**](https://msdn.microsoft.com/9153b8c7-e6ad-4297-a0b6-ea495b9b312f)
 </dt> <dt>
 
 [**IPrintOemUni::DownloadCharGlyph**](iprintoemuni-downloadcharglyph.md)

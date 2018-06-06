@@ -87,14 +87,14 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 
 | Method                                                                                   | Description                                                                                                                                                                    |
 |------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetEventInterest Method**](https://www.bing.com/search?q=**GetEventInterest Method**)                           | Returns a value that indicates whether the InkPicture control has interest in a particular event.<br/>                                                                   |
+| [**GetEventInterest Method**](https://www.bing.com/search?q=**GetEventInterest+Method**)                           | Returns a value that indicates whether the InkPicture control has interest in a particular event.<br/>                                                                   |
 | [**GetGestureStatus**](/windows/desktop/api/msinkaut/)                                  | Returns a value that indicates whether the InkPicture control has interest in a particular application gesture.<br/>                                                     |
 | [**GetWindowInputRectangle Method**](/windows/desktop/api/msinkaut/)             | Returns the window rectangle, in pixels, within which ink is drawn.<br/>                                                                                                 |
 | [**HitTestSelection**](/windows/desktop/api/msinkaut/)                                  | Returns a member of the [**SelectionHitResult**](/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult) enumeration, which specifies which part of a selection, if any, was hit during a hit test.<br/> |
-| [**SetAllTabletsMode Method**](https://www.bing.com/search?q=**SetAllTabletsMode Method**)                         | Enables the InkPicture control to collect ink from any tablet attached to the Tablet PC.<br/>                                                                            |
-| [**SetEventInterest Method**](https://www.bing.com/search?q=**SetEventInterest Method**)                           | Sets a value that indicates whether an InkPicture control has interest in a specified event.<br/>                                                                        |
+| [**SetAllTabletsMode Method**](https://www.bing.com/search?q=**SetAllTabletsMode+Method**)                         | Enables the InkPicture control to collect ink from any tablet attached to the Tablet PC.<br/>                                                                            |
+| [**SetEventInterest Method**](https://www.bing.com/search?q=**SetEventInterest+Method**)                           | Sets a value that indicates whether an InkPicture control has interest in a specified event.<br/>                                                                        |
 | SetFocus                                                                                 | Moves the focus to the InkPicture control.<br/>                                                                                                                          |
-| [**SetGestureStatus Method**](https://www.bing.com/search?q=**SetGestureStatus Method**)                           | Sets the interest of the InkPicture object in a specified application gesture.<br/>                                                                                      |
+| [**SetGestureStatus Method**](https://www.bing.com/search?q=**SetGestureStatus+Method**)                           | Sets the interest of the InkPicture object in a specified application gesture.<br/>                                                                                      |
 | [**SetSingleTabletIntegratedMode Method**](/windows/desktop/api/msinkaut/) | Sets the InkPicture control to collect ink from only one tablet attached to the Tablet PC. Ink from other tablets is ignored.<br/>                                       |
 | [**SetWindowInputRectangle Method**](/windows/desktop/api/msinkaut/)             | Specifies the window rectangle to set, in window coordinates, within which ink is drawn.<br/>                                                                            |
 | ShowWhatsThis                                                                            | Displays a selected topic in a Help file using the "What's This" popup provided by Help in 32-bit Microsoft Windows operating systems (design-time only).<br/>           |
@@ -135,7 +135,7 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 <td>Gets or sets the collection mode that determines whether ink, gestures, or ink and gestures are recognized as the user writes.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Cursors Property</strong>](https://www.bing.com/search?q=<strong>Cursors Property</strong>)</td>
+<td>[<strong>Cursors Property</strong>](https://www.bing.com/search?q=<strong>Cursors+Property</strong>)</td>
 <td>Gets the [<strong>IInkCursors</strong>](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors) collection available for use in the InkPicture control's inking region.<br/></td>
 </tr>
 <tr class="even">

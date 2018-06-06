@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IsValidDevmodeA function
 
-The print spooler's `IsValidDevmode` function verifies that the contents of a [**DEVMODE**](https://www.bing.com/search?q=**DEVMODE**) structure are valid.
+The print spooler's `IsValidDevmode` function verifies that the contents of a [**DEVMODE**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure are valid.
 
 ## Syntax
 
@@ -73,7 +73,7 @@ This function does not require the caller to obtain elevated privileges.
 
 <dl> <dt>
 
-[**DEVMODE**](https://www.bing.com/search?q=**DEVMODE**)
+[**DEVMODE**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b)
 </dt> </dl>
 
  

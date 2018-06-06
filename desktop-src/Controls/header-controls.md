@@ -15,7 +15,7 @@ A header control is a window that is usually positioned above columns of text or
 
 ![screen shot of a dialog box with a three-column header control](images/header.png)
 
-You can create a header control by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the [**WC\_HEADER**](https://www.bing.com/search?q=**WC\_HEADER**) window class and the appropriate [Header Control Styles](header-control-styles.md). This window class is registered when the common control DLL is loaded. To ensure that this DLL is loaded, use the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function. After you create a header control, you can divide it into parts, set the text in each part, and control the appearance of the window by using header window messages.
+You can create a header control by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the [**WC\_HEADER**](common-control-window-classes.md#wc-header) window class and the appropriate [Header Control Styles](header-control-styles.md). This window class is registered when the common control DLL is loaded. To ensure that this DLL is loaded, use the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function. After you create a header control, you can divide it into parts, set the text in each part, and control the appearance of the window by using header window messages.
 
 A header control can be created as a child window of another control, such as a list box. However, the parent control is not aware of the header control and does not allow for the space taken up by the header, with the result that list items will appear behind the header. If you wish to use a header control in a list box or other control, the parent control must be owner-drawn so that all items are displayed in the correct position.
 
@@ -73,7 +73,7 @@ When a header control must draw an owner-drawn item, it sends the [**WM\_DRAWITE
 
 ## Header Control Filters
 
-By specifying the [**HDS\_FILTERBAR**](https://www.bing.com/search?q=**HDS\_FILTERBAR**) window style for a header control, you can enable the placement of filter edit boxes underneath the column headings. A filter button appears beside the edit box. You can implement filtering by responding to [HDN\_BEGINFILTEREDIT](hdn-beginfilteredit.md), [HDN\_ENDFILTEREDIT](hdn-endfilteredit.md), [HDN\_FILTERBTNCLICK](hdn-filterbtnclick.md), or [HDN\_FILTERCHANGE](hdn-filterchange.md) notification codes.
+By specifying the [**HDS\_FILTERBAR**](header-control-styles.md#hds-filterbar) window style for a header control, you can enable the placement of filter edit boxes underneath the column headings. A filter button appears beside the edit box. You can implement filtering by responding to [HDN\_BEGINFILTEREDIT](hdn-beginfilteredit.md), [HDN\_ENDFILTEREDIT](hdn-endfilteredit.md), [HDN\_FILTERBTNCLICK](hdn-filterbtnclick.md), or [HDN\_FILTERCHANGE](hdn-filterchange.md) notification codes.
 
 By default, the edit box contains a prompt for the user to enter text. You can restore the edit box to this default state by using [**Header\_ClearFilter**](/windows/desktop/api/Commctrl/nf-commctrl-header_clearfilter) or [**Header\_ClearAllFilters**](/windows/desktop/api/Commctrl/nf-commctrl-header_clearallfilters).
 
@@ -91,7 +91,7 @@ SetWindowLongPtr(g_hHeader, GWL_STYLE, styles | HDS_FILTERBAR);
 
 ## Default Header Control Message Processing
 
-This section describes the window messages handled by the window procedure for the [**WC\_HEADER**](https://www.bing.com/search?q=**WC\_HEADER**) window class.
+This section describes the window messages handled by the window procedure for the [**WC\_HEADER**](common-control-window-classes.md#wc-header) window class.
 
 
 

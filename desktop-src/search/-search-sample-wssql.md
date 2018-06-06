@@ -98,7 +98,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Other Resources**
 </dt> <dt>
 
-[OLE DB Programming Overview](https://www.bing.com/search?q=OLE DB Programming Overview)
+[OLE DB Programming Overview](https://www.bing.com/search?q=OLE+DB+Programming+Overview)
 </dt> </dl>
 
  

@@ -60,7 +60,7 @@ In this example, labeled separators are used to show control relationships.
 
 In this example, unlabeled separators are used to show control relationships.
 
--   **Can you effectively communicate the relationships without text?** If so, consider using graphic elements such as [backgrounds](https://www.bing.com/search?q=backgrounds) or aggregators.
+-   **Can you effectively communicate the relationships without text?** If so, consider using graphic elements such as [backgrounds](vis-graphic.md#usage-patterns) or aggregators.
 
 ## Guidelines
 
@@ -88,7 +88,7 @@ In this example, a drop-down list is incorrectly placed on a group box. This exa
 -   Label all group boxes.
 -   Don't assign an access key to the label. Doing so is unnecessary and makes the other access keys harder to assign. Instead, assign access keys to the controls within the group box.
     -   **Exception:** If a surface has many controls, there may not be enough access keys available. If so, reduce the number of access keys by assigning them to group boxes instead of the controls within the group boxes.
--   Use [sentence-style capitalization](https://www.bing.com/search?q=sentence-style capitalization).
+-   Use [sentence-style capitalization](glossary.md#s).
 -   Write the label using a noun or a noun phrase, not as a sentence, and use no ending punctuation, including colons.
 -   Use parallel phrasing for group box labels within the same surface.
 -   Keep group box labels concise. Don't use instructional text as the label. You can have instructional text within the group box, however.

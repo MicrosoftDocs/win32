@@ -35,16 +35,16 @@ HRESULT Open(
 *IncludeType* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXINCLUDE\_TYPE**](https://msdn.microsoft.com/windows/desktop/a15d363e-0d82-44a9-816b-edf2f60540b3)**
+Type: **[**D3DXINCLUDE\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxinclude_type.htm)**
 
-The location of the \#include file. See [**D3DXINCLUDE\_TYPE**](https://msdn.microsoft.com/windows/desktop/a15d363e-0d82-44a9-816b-edf2f60540b3).
+The location of the \#include file. See [**D3DXINCLUDE\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxinclude_type.htm).
 
 </dd> <dt>
 
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Name of the \#include file.
 
@@ -53,16 +53,16 @@ Name of the \#include file.
 *pParentData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-Pointer to the container that includes the \#include file. The compiler might pass NULL in *pParentData*. For more information, see the "Searching for Include Files" section in [Compile an Effect (Direct3D 11)](https://msdn.microsoft.com/windows/desktop/7624d55e-6466-4156-8f31-30f0d25a2883).
+Pointer to the container that includes the \#include file. The compiler might pass NULL in *pParentData*. For more information, see the "Searching for Include Files" section in [Compile an Effect (Direct3D 11)](https://msdn.microsoft.com/7624d55e-6466-4156-8f31-30f0d25a2883).
 
 </dd> <dt>
 
 *ppData* \[out\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**LPCVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to the returned buffer that contains the include directives. This pointer remains valid until [**ID3DXInclude::Close**](id3dxinclude--close.md) is called.
 
@@ -71,7 +71,7 @@ Pointer to the returned buffer that contains the include directives. This pointe
 *pBytes* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Number of bytes returned in ppData.
 

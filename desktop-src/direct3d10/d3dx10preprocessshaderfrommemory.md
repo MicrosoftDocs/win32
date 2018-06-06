@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # D3DX10PreprocessShaderFromMemory function
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/windows/desktop/cb49749f-d837-4a0c-8c6e-d67b0b6206a2) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpreprocess.htm) API.
 
  
 
@@ -43,7 +43,7 @@ HRESULT D3DX10PreprocessShaderFromMemory(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to the memory containing the shader.
 
@@ -52,7 +52,7 @@ Pointer to the memory containing the shader.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Size of the shader.
 
@@ -61,7 +61,7 @@ Size of the shader.
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Name of the shader.
 

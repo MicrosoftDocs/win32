@@ -44,21 +44,21 @@ typedef enum D3DSAMPLERSTATETYPE {
 <span id="D3DSAMP_ADDRESSU"></span><span id="d3dsamp_addressu"></span>**D3DSAMP\_ADDRESSU**
 </dt> <dd>
 
-Texture-address mode for the u coordinate. The default is D3DTADDRESS\_WRAP. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/windows/desktop/5c03c55f-4a74-4b0e-ba05-e4a6582ff47c).
+Texture-address mode for the u coordinate. The default is D3DTADDRESS\_WRAP. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtextureaddress.htm).
 
 </dd> <dt>
 
 <span id="D3DSAMP_ADDRESSV"></span><span id="d3dsamp_addressv"></span>**D3DSAMP\_ADDRESSV**
 </dt> <dd>
 
-Texture-address mode for the v coordinate. The default is D3DTADDRESS\_WRAP. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/windows/desktop/5c03c55f-4a74-4b0e-ba05-e4a6582ff47c).
+Texture-address mode for the v coordinate. The default is D3DTADDRESS\_WRAP. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtextureaddress.htm).
 
 </dd> <dt>
 
 <span id="D3DSAMP_ADDRESSW"></span><span id="d3dsamp_addressw"></span>**D3DSAMP\_ADDRESSW**
 </dt> <dd>
 
-Texture-address mode for the w coordinate. The default is D3DTADDRESS\_WRAP. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/windows/desktop/5c03c55f-4a74-4b0e-ba05-e4a6582ff47c).
+Texture-address mode for the w coordinate. The default is D3DTADDRESS\_WRAP. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtextureaddress.htm).
 
 </dd> <dt>
 
@@ -72,21 +72,21 @@ Border color or type [**D3DCOLOR**](d3dcolor.md). The default color is 0x0000000
 <span id="D3DSAMP_MAGFILTER"></span><span id="d3dsamp_magfilter"></span>**D3DSAMP\_MAGFILTER**
 </dt> <dd>
 
-Magnification filter of type [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/windows/desktop/4e0420fa-ac76-4be4-90d7-944d8d5a5de1). The default value is D3DTEXF\_POINT.
+Magnification filter of type [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturefiltertype.htm). The default value is D3DTEXF\_POINT.
 
 </dd> <dt>
 
 <span id="D3DSAMP_MINFILTER"></span><span id="d3dsamp_minfilter"></span>**D3DSAMP\_MINFILTER**
 </dt> <dd>
 
-Minification filter of type [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/windows/desktop/4e0420fa-ac76-4be4-90d7-944d8d5a5de1). The default value is D3DTEXF\_POINT.
+Minification filter of type [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturefiltertype.htm). The default value is D3DTEXF\_POINT.
 
 </dd> <dt>
 
 <span id="D3DSAMP_MIPFILTER"></span><span id="d3dsamp_mipfilter"></span>**D3DSAMP\_MIPFILTER**
 </dt> <dd>
 
-Mipmap filter to use during minification. See [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/windows/desktop/4e0420fa-ac76-4be4-90d7-944d8d5a5de1). The default value is D3DTEXF\_NONE.
+Mipmap filter to use during minification. See [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturefiltertype.htm). The default value is D3DTEXF\_NONE.
 
 </dd> <dt>
 

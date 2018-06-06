@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardDatabase::ListReaderGroups method
 
-\[The **ListReaderGroups** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **ListReaderGroups** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **ListReaderGroups** method retrieves the names of the [*reader groups*](https://www.bing.com/search?q=*reader groups*) registered in the smart card database.
+The **ListReaderGroups** method retrieves the names of the [*reader groups*](security.r_gly#-security-reader-group-gly) registered in the smart card database.
 
 ## Syntax
 
@@ -64,13 +64,13 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-To retrieve all known [*smart cards*](https://www.bing.com/search?q=*smart cards*) or [*readers*](https://www.bing.com/search?q=*readers*), call [**ListCards**](iscarddatabase-listcards.md) or [**ListReaders**](iscarddatabase-listreaders.md) respectively.
+To retrieve all known [*smart cards*](security.s_gly#-security-smart-card-gly) or [*readers*](security.r_gly#-security-reader-gly), call [**ListCards**](iscarddatabase-listcards.md) or [**ListReaders**](iscarddatabase-listreaders.md) respectively.
 
-To retrieve the [*primary service provider*](https://www.bing.com/search?q=*primary service provider*) or the interfaces of a specific card [**GetProviderCardId**](iscarddatabase-getprovidercardid.md) or [**ListCardInterfaces**](iscarddatabase-listcardinterfaces.md) respectively.
+To retrieve the [*primary service provider*](security.p_gly#-security-primary-service-provider-gly) or the interfaces of a specific card [**GetProviderCardId**](iscarddatabase-getprovidercardid.md) or [**ListCardInterfaces**](iscarddatabase-listcardinterfaces.md) respectively.
 
 For a list of all the methods provided by this interface, see [**ISCardDatabase**](iscarddatabase.md).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](https://www.bing.com/search?q=Smart Card Return Values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
 
 ## Examples
 

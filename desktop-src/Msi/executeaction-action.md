@@ -15,7 +15,7 @@ The ExecuteAction action initiates the execution sequence using the [**EXECUTEAC
 
 ## Sequence Restrictions
 
-This action should be sequenced after all information collection necessary to begin the installation is complete. Additional actions may be sequenced after ExecuteAction action in the [InstallUISequence table](installuisequence-table.md), and [AdminUISequence table](adminuisequence-table.md). A sequence will typically begin with [*costing*](https://www.bing.com/search?q=*costing*) actions, such as the [CostInitialize action](costinitialize-action.md), followed by the user interface actions, and then the ExecuteAction action.
+This action should be sequenced after all information collection necessary to begin the installation is complete. Additional actions may be sequenced after ExecuteAction action in the [InstallUISequence table](installuisequence-table.md), and [AdminUISequence table](adminuisequence-table.md). A sequence will typically begin with [*costing*](c-gly.md#-msi-costing-gly) actions, such as the [CostInitialize action](costinitialize-action.md), followed by the user interface actions, and then the ExecuteAction action.
 
 ## ActionData Messages
 

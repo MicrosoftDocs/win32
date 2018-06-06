@@ -39,7 +39,7 @@ Pointer to a [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop
 
 ## Return value
 
-Returns nonzero if successful, or zero otherwise. This message will always fail when applied to month calendar controls set to the [**MCS\_MULTISELECT**](https://www.bing.com/search?q=**MCS\_MULTISELECT**) style.
+Returns nonzero if successful, or zero otherwise. This message will always fail when applied to month calendar controls set to the [**MCS\_MULTISELECT**](month-calendar-control-styles.md#mcs-multiselect) style.
 
 ## Requirements
 
@@ -57,7 +57,7 @@ Returns nonzero if successful, or zero otherwise. This message will always fail 
 
 <dl> <dt>
 
-[Times in the Month Calendar Control](https://www.bing.com/search?q=Times in the Month Calendar Control)
+[Times in the Month Calendar Control](month-calendar-controls.md#times-in-the-month-calendar-control)
 </dt> </dl>
 
  

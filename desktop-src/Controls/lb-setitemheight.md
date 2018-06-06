@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # LB\_SETITEMHEIGHT message
 
-Sets the height, in pixels, of items in a list box. If the list box has the [**LBS\_OWNERDRAWVARIABLE**](https://www.bing.com/search?q=**LBS\_OWNERDRAWVARIABLE**) style, this message sets the height of the item specified by the *wParam* parameter. Otherwise, this message sets the height of all items in the list box.
+Sets the height, in pixels, of items in a list box. If the list box has the [**LBS\_OWNERDRAWVARIABLE**](list-box-styles.md#lbs-ownerdrawvariable) style, this message sets the height of the item specified by the *wParam* parameter. Otherwise, this message sets the height of all items in the list box.
 
 ## Parameters
 
@@ -30,7 +30,7 @@ Sets the height, in pixels, of items in a list box. If the list box has the [**L
 *wParam* 
 </dt> <dd>
 
-Specifies the zero-based index of the item in the list box. Use this parameter only if the list box has the [**LBS\_OWNERDRAWVARIABLE**](https://www.bing.com/search?q=**LBS\_OWNERDRAWVARIABLE**) style; otherwise, set it to zero.
+Specifies the zero-based index of the item in the list box. Use this parameter only if the list box has the [**LBS\_OWNERDRAWVARIABLE**](list-box-styles.md#lbs-ownerdrawvariable) style; otherwise, set it to zero.
 
 Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
 

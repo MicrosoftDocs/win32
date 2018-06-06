@@ -23,7 +23,7 @@ These steps are necessary before using SSPI:
 
 At this point, the application has successfully initialized an SSP and chosen a security package with sufficient capabilities.
 
-The [*Negotiate*](https://www.bing.com/search?q=*Negotiate*) package can be used where agreement between client and server about which [*security package*](https://www.bing.com/search?q=*security package*) to use is done behind the scenes. If the Negotiate package is not used, the client and server must agree on the specific security package to use before performing the setup steps above.
+The [*Negotiate*](security.n_gly#-security-negotiate-gly) package can be used where agreement between client and server about which [*security package*](security.s_gly#-security-security-package-gly) to use is done behind the scenes. If the Negotiate package is not used, the client and server must agree on the specific security package to use before performing the setup steps above.
 
  
 

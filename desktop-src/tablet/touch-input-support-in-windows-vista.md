@@ -76,7 +76,7 @@ protected override void WndProc(ref Message msg)
 
 <dl> <dt>
 
-[Windows Touch](https://msdn.microsoft.com/windows/desktop/e4fa4615-6d12-4f21-a899-cfa2282baa6d)
+[Windows Touch](https://msdn.microsoft.com/e4fa4615-6d12-4f21-a899-cfa2282baa6d)
 </dt> </dl>
 
  

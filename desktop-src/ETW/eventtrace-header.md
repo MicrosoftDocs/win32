@@ -375,7 +375,7 @@ Access type: Read-only
 Qualifiers: **WmiDataId** (16), **Extension("NoPrint")**, **Max** (176)
 </dt> </dl>
 
-A [**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004) structure that contains the time zone for the **BootTime**, **EndTime** and **StartTime** members.
+A [**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004) structure that contains the time zone for the **BootTime**, **EndTime** and **StartTime** members.
 
 </dd> <dt>
 

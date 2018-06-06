@@ -25,7 +25,7 @@ The following are the default access permissions by account:
 
 -   Everyone, LocalService, NetworkService
 
-    Permission to read or write data and to run [*provider methods*](https://www.bing.com/search?q=*provider methods*) on the local computer. These accounts cannot create new classes or install new providers.
+    Permission to read or write data and to run [*provider methods*](gloss-p.md#wmi-gloss-provider-method) on the local computer. These accounts cannot create new classes or install new providers.
 
 -   Administrator accounts
 

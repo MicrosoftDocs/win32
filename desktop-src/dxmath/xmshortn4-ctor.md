@@ -37,7 +37,7 @@ Constructs instances of the [**XMSHORTN4**](/windows/desktop/api/DirectXPackedVe
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMSHORTN4 ()</strong>](https://www.bing.com/search?q=<strong>XMSHORTN4 ()</strong>)</td>
+<td style="text-align: left;">[<strong>XMSHORTN4 ()</strong>](https://www.bing.com/search?q=<strong>XMSHORTN4+()</strong>)</td>
 <td style="text-align: left;">Default constructor for <code>XMSHORTN4</code>. <br/> Default constructor for [<strong>XMSHORTN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4). <br/>
 <blockquote>
 [!Note]<br />
@@ -46,7 +46,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMSHORTN4 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMSHORTN4 (const float*)</strong>)</td>
+<td style="text-align: left;">[<strong>XMSHORTN4 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMSHORTN4+(const+float*)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMSHORTN4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMSHORTN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4) from a from a four element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
@@ -55,7 +55,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMSHORTN4 (const int16_t*)</strong>](https://www.bing.com/search?q=<strong>XMSHORTN4 (const int16_t*)</strong>)</td>
+<td style="text-align: left;">[<strong>XMSHORTN4 (const int16_t*)</strong>](https://www.bing.com/search?q=<strong>XMSHORTN4+(const+int16_t*)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMSHORTN4</code> from a four element <code>int16_t</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMSHORTN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4) from a from a four element <code>int16_t</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
@@ -64,7 +64,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMSHORTN4 (float,float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMSHORTN4 (float,float,float,float)</strong>)</td>
+<td style="text-align: left;">[<strong>XMSHORTN4 (float,float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMSHORTN4+(float,float,float,float)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMSHORTN4</code> from four normalized <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMSHORTN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4) from a four normalized <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
@@ -73,7 +73,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMSHORTN4 (int16_t,int16_t,int16_t,int16_t)</strong>](https://www.bing.com/search?q=<strong>XMSHORTN4 (int16_t,int16_t,int16_t,int16_t)</strong>)</td>
+<td style="text-align: left;">[<strong>XMSHORTN4 (int16_t,int16_t,int16_t,int16_t)</strong>](https://www.bing.com/search?q=<strong>XMSHORTN4+(int16_t,int16_t,int16_t,int16_t)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMSHORTN4</code> from four <code>int16_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMSHORTN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4) from four <code>int16_t</code> arguments. <br/>
 <blockquote>
 [!Note]<br />

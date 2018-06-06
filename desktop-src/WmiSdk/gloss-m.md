@@ -51,7 +51,7 @@ A CIM component that describes the entities and relationships that represent *ma
 <span id="wmi.gloss_metaschema"></span><span id="WMI.GLOSS_METASCHEMA"></span>**metaschema**
 </dt> <dd>
 
-The [*schema*](https://www.bing.com/search?q=*schema*) of the *metamodel*.
+The [*schema*](gloss-s.md#wmi-gloss-schema) of the *metamodel*.
 
 </dd> <dt>
 

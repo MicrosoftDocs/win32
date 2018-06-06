@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 <span id="_netmon_handoff_set_gly"></span><span id="_NETMON_HANDOFF_SET_GLY"></span>**handoff set**
 </dt> <dd>
 
-A protocol set that follows a protocol. A parser uses the handoff set of a protocol if the parser can detect the next protocol from the data in the capture. See also [*follow set*](https://www.bing.com/search?q=*follow set*)
+A protocol set that follows a protocol. A parser uses the handoff set of a protocol if the parser can detect the next protocol from the data in the capture. See also [*follow set*](f.md#-netmon-follow-set-gly)
 
 </dd> <dt>
 

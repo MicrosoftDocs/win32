@@ -47,7 +47,7 @@ To expand environment-variable strings, use the [**ExpandEnvironmentStrings**](h
 [Changing Environment Variables](changing-environment-variables.md)
 </dt> <dt>
 
-[User Environment Variables](https://www.bing.com/search?q=User Environment Variables)
+[User Environment Variables](https://www.bing.com/search?q=User+Environment+Variables)
 </dt> </dl>
 
  

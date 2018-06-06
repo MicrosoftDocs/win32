@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # About Complex Scripts
 
-A [complex script](https://www.bing.com/search?q=complex script) is a script for which the **fComplex** member of [**SCRIPT\_PROPERTIES**](/windows/desktop/api/Usp10/ns-usp10-script_properties) is set to **TRUE**. This topic details the properties that a complex script might have.
+A [complex script](uniscribe-glossary.md#complex-script) is a script for which the **fComplex** member of [**SCRIPT\_PROPERTIES**](/windows/desktop/api/Usp10/ns-usp10-script_properties) is set to **TRUE**. This topic details the properties that a complex script might have.
 
 ## Bidirectional Rendering
 

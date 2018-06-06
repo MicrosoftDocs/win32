@@ -20,7 +20,7 @@ The Key transition performs keying based on RGB value, alpha value, hue or lumin
 
 The following image shows the key transition:
 
-![key transition](https://www.bing.com/search?q=key transition)
+![key transition](https://www.bing.com/search?q=key+transition)
 
 Class ID (CLSID): {C5B19592-145E-11D3-9F04-006008039E37}
 

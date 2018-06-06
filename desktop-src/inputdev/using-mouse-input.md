@@ -445,7 +445,7 @@ This example assumes a Microsoft Word document with various embedded objects:
 -   An embedded list box control that scrolls in response to the wheel
 -   An embedded text box control that does not respond to the wheel
 
-The [MSH\_MOUSEWHEEL](https://www.bing.com/search?q=MSH\_MOUSEWHEEL) message is always sent to the main window in Microsoft Word. This is true even if the embedded spreadsheet is active. The following table explains how the MSH\_MOUSEWHEEL message is handled according to the focus.
+The [MSH\_MOUSEWHEEL](about-mouse-input.md#the-mouse-wheel) message is always sent to the main window in Microsoft Word. This is true even if the embedded spreadsheet is active. The following table explains how the MSH\_MOUSEWHEEL message is handled according to the focus.
 
 
 

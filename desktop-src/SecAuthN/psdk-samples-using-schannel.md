@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # PSDK Samples Using Schannel
 
-The SSL sample shipped with the Platform Software Development Kit (SDK) contains a sample web client and web server that use the Schannel [*security package*](https://www.bing.com/search?q=*security package*).
+The SSL sample shipped with the Platform Software Development Kit (SDK) contains a sample web client and web server that use the Schannel [*security package*](security.s_gly#-security-security-package-gly).
 
  
 

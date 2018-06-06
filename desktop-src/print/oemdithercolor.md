@@ -47,9 +47,9 @@ ULONG APIENTRY OEMDitherColor(
 
 ### Comments
 
-See [**DrvDitherColor**](https://www.bing.com/search?q=**DrvDitherColor**).
+See [**DrvDitherColor**](https://msdn.microsoft.com/635a4af8-ec19-4f99-80b2-bad2a6e87edc).
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the drawing DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvDitherColor** function pointer.
 

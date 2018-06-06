@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Recipients object
 
-\[The **Recipients** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsRecipientCollection Class**](https://www.bing.com/search?q=**CmsRecipientCollection Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
+\[The **Recipients** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsRecipientCollection Class**](https://www.bing.com/search?q=**CmsRecipientCollection+Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
 
-The **Recipients** object represents a collection of [**Certificate**](certificate.md) objects. Each object represents an intended recipient of the enveloped message. Data in an [**EnvelopedData**](envelopeddata.md) object is encrypted with a [*symmetric*](https://www.bing.com/search?q=*symmetric*) session key, and that symmetric session key is then itself encrypted for each recipient by using the public key from that intended recipient's certificate. A recipient with access to the [*private key*](https://www.bing.com/search?q=*private key*) associated with a certificate's [*public key*](https://www.bing.com/search?q=*public key*) can decrypt the [*session key*](https://www.bing.com/search?q=*session key*) and use the decrypted session key to decrypt the actual data.
+The **Recipients** object represents a collection of [**Certificate**](certificate.md) objects. Each object represents an intended recipient of the enveloped message. Data in an [**EnvelopedData**](envelopeddata.md) object is encrypted with a [*symmetric*](security.s_gly#-security-symmetric-key-gly) session key, and that symmetric session key is then itself encrypted for each recipient by using the public key from that intended recipient's certificate. A recipient with access to the [*private key*](security.p_gly#-security-private-key-gly) associated with a certificate's [*public key*](security.p_gly#-security-public-key-gly) can decrypt the [*session key*](security.s_gly#-security-session-key-gly) and use the decrypted session key to decrypt the actual data.
 
 ## When to use
 

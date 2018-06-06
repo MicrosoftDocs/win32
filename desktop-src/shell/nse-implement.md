@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 The procedure for implementing a namespace extension is similar to that for any other in-process Component Object Model (COM) object. All extensions must support three primary interfaces that provide Windows Explorer with the basic information needed to display the extension's folders in the tree view. However, to make full use of the capabilities of Windows Explorer, your extension must also expose one or more optional interfaces that support more sophisticated features, such as shortcut menus or drag-and-drop, and provide a folder view.
 
-This document discusses how to implement the primary and optional interfaces that Windows Explorer calls for information about the contents of your extension. For a discussion of how to implement a folder view and how to customize Windows Explorer, see [Implementing a Folder View](https://msdn.microsoft.com/windows/desktop/8c6712d8-c3cb-4450-8277-3a8675622651).
+This document discusses how to implement the primary and optional interfaces that Windows Explorer calls for information about the contents of your extension. For a discussion of how to implement a folder view and how to customize Windows Explorer, see [Implementing a Folder View](https://msdn.microsoft.com/8c6712d8-c3cb-4450-8277-3a8675622651).
 
 -   [Basic Implementation and Registration](#basic-implementation-and-registration)
     -   [Registering an Extension](#registering-an-extension)
@@ -35,12 +35,12 @@ This document discusses how to implement the primary and optional interfaces tha
 
 As an in-process COM server, your DLL must expose several standard functions and interfaces:
 
--   [**DllCanUnloadNow**](https://msdn.microsoft.com/windows/desktop/a47df9eb-97cb-4875-a121-1dabe7bc9db6)
--   [**DllGetClassObject**](https://msdn.microsoft.com/windows/desktop/42c08149-c251-47f7-a81f-383975d7081c)
--   [**IClassFactory**](https://msdn.microsoft.com/windows/desktop/f624f833-2b69-43bc-92cd-c4ecbe6051c5)
--   [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332)
+-   [**DllCanUnloadNow**](https://msdn.microsoft.com/a47df9eb-97cb-4875-a121-1dabe7bc9db6)
+-   [**DllGetClassObject**](https://msdn.microsoft.com/42c08149-c251-47f7-a81f-383975d7081c)
+-   [**IClassFactory**](https://msdn.microsoft.com/f624f833-2b69-43bc-92cd-c4ecbe6051c5)
+-   [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332)
 
-These functions and interfaces are implemented in the same way as they are for most other COM objects. For details, see the [COM documentation](https://msdn.microsoft.com/windows/desktop/f5f66603-466c-496b-be29-89a8ed9361dd).
+These functions and interfaces are implemented in the same way as they are for most other COM objects. For details, see the [COM documentation](https://msdn.microsoft.com/f5f66603-466c-496b-be29-89a8ed9361dd).
 
 ### Registering an Extension
 
@@ -159,7 +159,7 @@ Once you have defined [**SHITEMID**](/windows/desktop/api/Shtypes/ns-shtypes-_sh
 
 The simplest way to construct a PIDL is to work directly with the [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) structure itself. Create an **ITEMIDLIST** structure, but allocate enough memory to hold all the [**SHITEMID**](/windows/desktop/api/Shtypes/ns-shtypes-_shitemid) structures. The address of this structure will point to the initial **SHITEMID** structure. Define values for the members of this initial structure, and then append as many additional **SHITEMID** structures as you need, in the appropriate order. The following procedure outlines how to create a single-level PIDL. It contains two **SHITEMID** structures—a **MYPIDLDATA** structure followed by a terminator:
 
-1.  Use the [**CoTaskMemAlloc**](https://msdn.microsoft.com/windows/desktop/c4cb588d-9482-4f90-a92e-75b604540d5c) function to allocate memory for the PIDL. Allocate enough memory for your private data plus a **USHORT** (two bytes) for the terminator. Cast the result to LPMYPIDLDATA.
+1.  Use the [**CoTaskMemAlloc**](https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c) function to allocate memory for the PIDL. Allocate enough memory for your private data plus a **USHORT** (two bytes) for the terminator. Cast the result to LPMYPIDLDATA.
 2.  Set the cb member of the first **MYPIDLDATA** structure to the size of that structure. For this example, you would set **cb** to sizeof(MYPIDLDATA). If you want to use a variable-length structure, you will have to calculate the value of **cb**.
 3.  Assign appropriate values to the private data members.
 4.  Calculate the address of the next [**SHITEMID**](/windows/desktop/api/Shtypes/ns-shtypes-_shitemid) structure. Cast the address of the current MYPIDLDATA structure to LPBYTE, and add that value to the value of **cb** determined in step 3.
@@ -167,7 +167,7 @@ The simplest way to construct a PIDL is to work directly with the [**ITEMIDLIST*
 
 For longer PIDLs, allocate sufficient memory and repeat steps 3-5 for each additional [**SHITEMID**](/windows/desktop/api/Shtypes/ns-shtypes-_shitemid) structure.
 
-The following sample function takes an object's type and display name and returns the object's single-level PIDL. The function assumes that the display name, including its terminating **null** character, does not exceed the number of characters declared for the **MYPIDLDATA** structure. If that assumption turns out to be erroneous, the [**StringCbCopyW**](https://msdn.microsoft.com/windows/desktop/00c99f3e-106b-46a2-afae-517b32b7a960) function will truncate the display name. The **g\_pMalloc** variable is an [**IMalloc**](https://msdn.microsoft.com/windows/desktop/047f281e-2665-4d6d-9a0b-918cd3339447) pointer created elsewhere and stored in a global variable.
+The following sample function takes an object's type and display name and returns the object's single-level PIDL. The function assumes that the display name, including its terminating **null** character, does not exceed the number of characters declared for the **MYPIDLDATA** structure. If that assumption turns out to be erroneous, the [**StringCbCopyW**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopy.htm) function will truncate the display name. The **g\_pMalloc** variable is an [**IMalloc**](https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447) pointer created elsewhere and stored in a global variable.
 
 
 ```C++
@@ -221,11 +221,11 @@ To walk the PIDL, take the first *cb* value and add it to the address of the PID
 
 ## Implementing the Primary Interfaces
 
-As with all COM objects, implementing an extension is largely a matter of implementing a collection of interfaces. This section discusses the three primary interfaces that must be implemented by all extensions. They are used for initialization and to provide Windows Explorer with basic information about the contents of the extension. These interfaces, plus a [folder view](https://msdn.microsoft.com/windows/desktop/8c6712d8-c3cb-4450-8277-3a8675622651), are all that is required for a functional extension. However, to fully exploit the features of Windows Explorer, most extensions also implement one or more of the optional interfaces.
+As with all COM objects, implementing an extension is largely a matter of implementing a collection of interfaces. This section discusses the three primary interfaces that must be implemented by all extensions. They are used for initialization and to provide Windows Explorer with basic information about the contents of the extension. These interfaces, plus a [folder view](https://msdn.microsoft.com/8c6712d8-c3cb-4450-8277-3a8675622651), are all that is required for a functional extension. However, to fully exploit the features of Windows Explorer, most extensions also implement one or more of the optional interfaces.
 
 ### IPersistFolder Interface
 
-The [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder) interface is called to initialize a new folder object. The [**IPersistFolder::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize) method assigns a fully qualified PIDL to the new object. Store this PIDL for later use. For instance, a folder object must use this PIDL to construct fully qualified PIDLs for the object's children. The folder object's creator can also call [**IPersist::GetClassID**](https://msdn.microsoft.com/windows/desktop/921a3b86-a240-454e-9411-8d653e02b90e) to request the object's CLSID.
+The [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder) interface is called to initialize a new folder object. The [**IPersistFolder::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize) method assigns a fully qualified PIDL to the new object. Store this PIDL for later use. For instance, a folder object must use this PIDL to construct fully qualified PIDLs for the object's children. The folder object's creator can also call [**IPersist::GetClassID**](https://msdn.microsoft.com/921a3b86-a240-454e-9411-8d653e02b90e) to request the object's CLSID.
 
 Typically, a folder object is created and initialized by its parent folder's [**IShellFolder::BindToObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject) method. However, when a user browses into your extension, Windows Explorer creates and initializes the extension's root folder object. The PIDL that the root folder object receives through [**IPersistFolder::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize) contains the path from the desktop to the root folder that you will need to construct fully qualified PIDLs for your extension.
 
@@ -265,7 +265,7 @@ The [**IShellFolder::CreateViewObject**](/windows/desktop/api/shobjidl_core/nf-s
 
 While basic information about the contents of a folder is available through the [**IShellFolder**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellfolder) methods, your extension can also provide Windows Explorer with various kinds of additional information. For instance, you can specify icons for the contents of a folder or an object's shortcut menu. Windows Explorer calls the [**IShellFolder::GetUIObjectOf**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof) method to attempt to retrieve additional information about an object that is contained by a folder. Windows Explorer specifies which object it wants the information for, and the IID of the relevant interface. The folder object then creates an object that exposes the requested interface and returns the interface pointer.
 
-If your extension allows users to transfer objects with drag-and-drop or the clipboard, Windows Explorer will call [**IShellFolder::GetUIObjectOf**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof) to request an [**IDataObject**](https://msdn.microsoft.com/windows/desktop/8a002deb-2727-456c-8078-a9b0d5893ed4) or [**IDropTarget**](https://msdn.microsoft.com/windows/desktop/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) interface. For details, see [Transferring Shell Objects with Drag-and-Drop and the Clipboard](dragdrop.md).
+If your extension allows users to transfer objects with drag-and-drop or the clipboard, Windows Explorer will call [**IShellFolder::GetUIObjectOf**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof) to request an [**IDataObject**](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4) or [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) interface. For details, see [Transferring Shell Objects with Drag-and-Drop and the Clipboard](dragdrop.md).
 
 Windows Explorer calls [**IShellFolder::CreateViewObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-createviewobject) when it wants the same sort of information about the folder itself.
 
@@ -311,7 +311,7 @@ When Windows Explorer needs to enumerate the objects that are contained by a fol
 
 ## Implementing the Optional Interfaces
 
-There are a number of optional Shell interfaces that your extension's folder objects can support. Many of them, such as [**IExtractIcon**](/windows/desktop/api/Shlobj_core/), allow you to customize various aspects of the way the user views your extension. Others, such as [**IDataObject**](https://msdn.microsoft.com/windows/desktop/8a002deb-2727-456c-8078-a9b0d5893ed4), allow your extension to support features such as drag-and-drop.
+There are a number of optional Shell interfaces that your extension's folder objects can support. Many of them, such as [**IExtractIcon**](/windows/desktop/api/Shlobj_core/), allow you to customize various aspects of the way the user views your extension. Others, such as [**IDataObject**](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4), allow your extension to support features such as drag-and-drop.
 
 None of the optional interfaces are exposed directly by a folder object. Instead, Windows Explorer calls one of two [**IShellFolder**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellfolder) methods to request an interface:
 
@@ -322,7 +322,7 @@ To provide the information, the folder object creates an object that exposes the
 
 ### IExtractIcon
 
-Windows Explorer requests an [**IExtractIcon**](/windows/desktop/api/Shlobj_core/) interface before it displays the contents of a folder. The interface allows your extension to specify custom icons for the objects that are contained by the folder. Otherwise, the standard file and folder icons will be used. To provide a custom icon, create an icon extraction object that exposes **IExtractIcon** and return a pointer to that interface. For further discussion, see the **IExtractIcon** reference documentation or [Creating Icon Handlers](https://www.bing.com/search?q=Creating Icon Handlers).
+Windows Explorer requests an [**IExtractIcon**](/windows/desktop/api/Shlobj_core/) interface before it displays the contents of a folder. The interface allows your extension to specify custom icons for the objects that are contained by the folder. Otherwise, the standard file and folder icons will be used. To provide a custom icon, create an icon extraction object that exposes **IExtractIcon** and return a pointer to that interface. For further discussion, see the **IExtractIcon** reference documentation or [Creating Icon Handlers](https://www.bing.com/search?q=Creating+Icon+Handlers).
 
 ### IContextMenu
 
@@ -336,9 +336,9 @@ Windows Explorer calls the [**IQueryInfo**](/windows/desktop/api/Shlobj_core/) i
 
 ### IDataObject and IDropTarget
 
-When your objects are displayed by Windows Explorer, a folder object has no direct way to know when a user is attempting to cut, copy, or drag an object. Instead, Windows Explorer requests an [**IDataObject**](https://msdn.microsoft.com/windows/desktop/8a002deb-2727-456c-8078-a9b0d5893ed4) interface. To allow the object to be transferred, create a data object and return a pointer to its **IDataObject** interface.
+When your objects are displayed by Windows Explorer, a folder object has no direct way to know when a user is attempting to cut, copy, or drag an object. Instead, Windows Explorer requests an [**IDataObject**](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4) interface. To allow the object to be transferred, create a data object and return a pointer to its **IDataObject** interface.
 
-Similarly, a user might attempt to drop a data object on a Windows Explorer representation of one of your objects, such as an icon or address bar path. Windows Explorer then requests an [**IDropTarget**](https://msdn.microsoft.com/windows/desktop/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) interface. To allow the data object to be dropped, create an object that exposes an **IDropTarget** interface and return the interface pointer.
+Similarly, a user might attempt to drop a data object on a Windows Explorer representation of one of your objects, such as an icon or address bar path. Windows Explorer then requests an [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) interface. To allow the data object to be dropped, create an object that exposes an **IDropTarget** interface and return the interface pointer.
 
 Handling data transfer is one of the trickier aspects of writing namespace extensions. For a detailed discussion, see [Transferring Shell Objects with Drag-and-Drop and the Clipboard](dragdrop.md).
 

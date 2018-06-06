@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardCmd::Encapsulate method
 
-\[The **Encapsulate** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **Encapsulate** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **Encapsulate** method encapsulates the given command [*application protocol data unit*](https://www.bing.com/search?q=*application protocol data unit*) (APDU) into another command APDU for transmission to a [*smart card*](https://www.bing.com/search?q=*smart card*).
+The **Encapsulate** method encapsulates the given command [*application protocol data unit*](security.a_gly#-security-application-protocol-data-unit-gly) (APDU) into another command APDU for transmission to a [*smart card*](security.s_gly#-security-smart-card-gly).
 
 ## Syntax
 
@@ -41,7 +41,7 @@ Pointer to the APDU to be encapsulated.
 *ApduType* \[in\]
 </dt> <dd>
 
-ISO 7816-4 case for [*T=0*](https://www.bing.com/search?q=*T=0*) transmissions.
+ISO 7816-4 case for [*T=0*](security.t_gly#-security-t-0-protocol-gly) transmissions.
 
 <dl><span id="ISO_CASE_1"></span><span id="iso_case_1"></span><dt>
 
@@ -80,7 +80,7 @@ To build a command APDU, call [**BuildCmd**](iscardcmd-buildcmd.md).
 
 For a list of all the methods provided by this interface, see [**ISCardCmd**](iscardcmd.md).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](https://www.bing.com/search?q=Smart Card Return Values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
 
 ## Examples
 

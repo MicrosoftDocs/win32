@@ -58,7 +58,7 @@ Pointer to an input mesh (see [**ID3DXMesh**](id3dxmesh.md)) which contains the 
 *dwMaxChartNumber* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The maximum number of charts to partition the mesh into. See remarks about the partitioning modes. Use 0 to tell D3DX that the atlas should be parameterized based on stretch.
 
@@ -67,7 +67,7 @@ The maximum number of charts to partition the mesh into. See remarks about the p
 *fMaxStretch* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The amount of stretching allowed. 0 means no stretching is allowed, 1 means any amount of stretching can be used.
 
@@ -76,7 +76,7 @@ The amount of stretching allowed. 0 means no stretching is allowed, 1 means any 
 *dwWidth* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Texture width.
 
@@ -85,7 +85,7 @@ Texture width.
 *dwHeight* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Texture height.
 
@@ -94,7 +94,7 @@ Texture height.
 *fGutter* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The minimum distance, in texels, between two charts on the atlas. The gutter is always scaled by the width; so, if a gutter of 2.5 is used on a 512x512 texture, then the minimum distance between two charts is 2.5 / 512.0 texels.
 
@@ -103,7 +103,7 @@ The minimum distance, in texels, between two charts on the atlas. The gutter is 
 *dwTextureIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Zero-based texture coordinate index that identifies which set of texture coordinates to use.
 
@@ -112,7 +112,7 @@ Zero-based texture coordinate index that identifies which set of texture coordin
 *pdwAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 A pointer to an array of adjacency data. with 3 DWORDs per face, indicating which triangles are adjacent to each other (see [**ID3DXBaseMesh::GenerateAdjacency**](id3dxbasemesh--generateadjacency.md)).
 
@@ -121,7 +121,7 @@ A pointer to an array of adjacency data. with 3 DWORDs per face, indicating whic
 *pdwFalseEdges* 
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 An array with 3 DWORDS per face. Each face indicates if an edge is false or not. A non-false edge is indicated by -1, a false edge is indicated by any other value. This enables the parameterization of a mesh of quads where the edges down the middle of each quad will not be cut.
 
@@ -130,7 +130,7 @@ An array with 3 DWORDS per face. Each face indicates if an edge is false or not.
 *pfIMTArray* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 A pointer to an array of integrated metric tensors that describes how to stretch a triangle (see [IntegratedMetricTensor](using-uvatlas.md)).
 
@@ -148,7 +148,7 @@ A pointer to a callback function (see [LPD3DXUVATLASCB](lpd3dxuvatlascb.md)) tha
 *fCallbackFrequency* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Specify how often D3DX will call the callback; a reasonable default value is 0.0001f.
 
@@ -157,7 +157,7 @@ Specify how often D3DX will call the callback; a reasonable default value is 0.0
 *pUserContent* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to a user-defined value which is passed to the callback function; typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
 
@@ -166,9 +166,9 @@ Pointer to a user-defined value which is passed to the callback function; typica
 *dwOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-Specify the quality of the charts generated. See [**D3DXUVATLAS**](https://msdn.microsoft.com/windows/desktop/76649c57-e5ae-4e0d-a7ab-f56385a327c2).
+Specify the quality of the charts generated. See [**D3DXUVATLAS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxuvatlas.htm).
 
 </dd> <dt>
 
@@ -202,7 +202,7 @@ A pointer to an array of remapped vertices. Each array element identifies the or
 *pfMaxStretchOut* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 A pointer to the maximum stretch value generated by the atlas algorithm. The range is between 0.0 and 1.0.
 
@@ -211,7 +211,7 @@ A pointer to the maximum stretch value generated by the atlas algorithm. The ran
 *pdwNumChartsOut* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 A pointer to the number of charts created by the atlas algorithm. If dwMaxChartNumber is too low, this parameter will return the minimum number of charts required to create an atlas.
 

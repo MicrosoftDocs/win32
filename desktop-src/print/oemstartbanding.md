@@ -39,11 +39,11 @@ BOOL APIENTRY OEMStartBanding(
 
 ### Comments
 
-See [**DrvStartBanding**](https://www.bing.com/search?q=**DrvStartBanding**).
+See [**DrvStartBanding**](https://msdn.microsoft.com/c9006dd1-055b-4fb0-92e8-c7b6bc294941).
 
 The `OEMStartBanding` function must call Unidrv's **DrvStartBanding** function before `OEMStartBanding` exits.
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure that lists all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure that lists all of the drawing DDIs to be hooked out.
 
 When you call into the core driver, cast the call by using the **PFN\_DrvStartBanding** function pointer.
 

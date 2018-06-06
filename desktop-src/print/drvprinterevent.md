@@ -84,7 +84,7 @@ Caller-supplied bit flag, defined as follows:
 <tbody>
 <tr class="odd">
 <td>PRINTER_EVENT_FLAG_NO_UI<br/></td>
-<td>If set, the function <strong>mustnot</strong> display a user interface. During the installation of a print processor, print monitor, or printer driver, the only way in which a user interface is permitted is through the use of the <strong>VendorSetup</strong> directive. See [Printer INF File Entries](https://www.bing.com/search?q=Printer INF File Entries) and [Customized Printer Setup Operations](https://www.bing.com/search?q=Customized Printer Setup Operations) for more information.<br/>
+<td>If set, the function <strong>mustnot</strong> display a user interface. During the installation of a print processor, print monitor, or printer driver, the only way in which a user interface is permitted is through the use of the <strong>VendorSetup</strong> directive. See [Printer INF File Entries](https://www.bing.com/search?q=Printer+INF+File+Entries) and [Customized Printer Setup Operations](https://www.bing.com/search?q=Customized+Printer+Setup+Operations) for more information.<br/>
 <blockquote>
 [!Important]<br />
 : Be aware that <strong>VendorSetup</strong> is now deprecated and should not be used by any <em>new</em> v3 or v4 drivers that you develop. This information about <strong>VendorSetup</strong> is provided for reference only, or for the maintenance of existing v3 drivers that already use this INF directive.
@@ -113,7 +113,7 @@ If the operation succeeds, the function should return **TRUE**; otherwise, it sh
 
 ## Remarks
 
-All [printer interface DLLs](https://www.bing.com/search?q=printer interface DLLs) must provide a **DrvPrinterEvent** function, and the function must support the PRINTER\_EVENT\_INITIALIZE event code. Support for all other event codes is optional.
+All [printer interface DLLs](https://www.bing.com/search?q=printer+interface+DLLs) must provide a **DrvPrinterEvent** function, and the function must support the PRINTER\_EVENT\_INITIALIZE event code. Support for all other event codes is optional.
 
 Registry settings stored when handling a PRINTER\_EVENT\_INITIALIZE event should be stored under the HKEY\_LOCAL\_MACHINE key by calling **SetPrinterData**. For the PRINTER\_EVENT\_INITIALIZE and PRINTER\_EVENT\_DELETE event codes, the spooler verifies that the caller has administrative privilege and calls **DrvPrinterEvent** while impersonating the caller.
 

@@ -39,7 +39,7 @@ An event is raised whenever the status of the print queue changes. So when a cli
 
 And also, note that job enumeration starts when the first event handler is added and stops when the last event handler is removed.
 
-**IPrinterQueueView** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](https://www.bing.com/search?q=Job Management).
+**IPrinterQueueView** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](https://www.bing.com/search?q=Job+Management).
 
 ## Requirements
 
@@ -60,7 +60,7 @@ And also, note that job enumeration starts when the first event handler is added
 [**IPrinterQueueViewEvent::OnChanged**](iprinterqueueviewevent-onchanged.md)
 </dt> <dt>
 
-[Job Management](https://www.bing.com/search?q=Job Management)
+[Job Management](https://www.bing.com/search?q=Job+Management)
 </dt> </dl>
 
  

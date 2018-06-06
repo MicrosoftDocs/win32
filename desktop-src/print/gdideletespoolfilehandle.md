@@ -45,7 +45,7 @@ The **GdiDeleteSpoolFileHandle** function is exported by gdi32.dll for use withi
 
 Print processors should call **GdiDeleteSpoolFileHandle** after calling [**GdiEndDocEMF**](gdienddocemf.md), when processing a print job's EMF data stream has been completed. The function calls ClosePrinter (described in the Microsoft Window SDK documentation) to close the printer connection.
 
-For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using GDI Functions in Print Processors).
+For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using+GDI+Functions+in+Print+Processors).
 
 ## Requirements
 

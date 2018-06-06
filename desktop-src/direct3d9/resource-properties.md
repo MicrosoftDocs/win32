@@ -26,9 +26,9 @@ For details about the usage flags and how they relate to specific resources, see
 
 For information about the surface format of resources, see the [D3DFORMAT](d3dformat.md) enumerated type.
 
-The class of memory that holds a resource's buffers is called a pool. Pool values are defined by the [**D3DPOOL**](https://msdn.microsoft.com/windows/desktop/29720b5f-16d7-4bd9-a7bd-e4dbfb00070b) enumerated type. A pool cannot be mixed for different objects contained in a single resource - that is, mip levels in a mipmap - and, when a pool is chosen for a resource, the pool cannot be changed.
+The class of memory that holds a resource's buffers is called a pool. Pool values are defined by the [**D3DPOOL**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm) enumerated type. A pool cannot be mixed for different objects contained in a single resource - that is, mip levels in a mipmap - and, when a pool is chosen for a resource, the pool cannot be changed.
 
-The resources types are set implicitly at run time when the application calls a resource creation method such as [**IDirect3DDevice9::CreateCubeTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createcubetexture). Resource types are defined by the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/windows/desktop/6b360fb1-4a5a-47a2-bef9-d8234770bf0c) enumerated type. Applications can query these types at run time; however, it is expected that most scenarios will not require run-time type checking.
+The resources types are set implicitly at run time when the application calls a resource creation method such as [**IDirect3DDevice9::CreateCubeTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createcubetexture). Resource types are defined by the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dresourcetype.htm) enumerated type. Applications can query these types at run time; however, it is expected that most scenarios will not require run-time type checking.
 
 ## Related topics
 

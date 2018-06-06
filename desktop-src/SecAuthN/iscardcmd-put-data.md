@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardCmd::put\_Data method
 
-\[The **put\_Data** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **put\_Data** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **put\_Data** method sets the data field in the [*application protocol data unit*](https://www.bing.com/search?q=*application protocol data unit*) (APDU).
+The **put\_Data** method sets the data field in the [*application protocol data unit*](security.a_gly#-security-application-protocol-data-unit-gly) (APDU).
 
 ## Syntax
 
@@ -62,7 +62,7 @@ To retrieve the data field from the APDU, call [**get\_Data**](iscardcmd-get-dat
 
 ## Examples
 
-The following example shows how to set the data field in the [*application protocol data unit*](https://www.bing.com/search?q=*application protocol data unit*) (APDU). The example assumes that pIByteData is a valid pointer to an instance of the [**IByteBuffer**](ibytebuffer.md) interface, and that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
+The following example shows how to set the data field in the [*application protocol data unit*](security.a_gly#-security-application-protocol-data-unit-gly) (APDU). The example assumes that pIByteData is a valid pointer to an instance of the [**IByteBuffer**](ibytebuffer.md) interface, and that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
 
 
 ```C++

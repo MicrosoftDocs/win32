@@ -48,7 +48,7 @@ When you create a source voice, you can pass a structure to it that defines call
 
     
 
-3.  After starting the voice, use the [**WaitForSingleObjectEx**](https://msdn.microsoft.com/windows/desktop/530b5340-f8b2-4e00-a3ca-87a7c7372482) method to wait for the event to be triggered.
+3.  After starting the voice, use the [**WaitForSingleObjectEx**](https://msdn.microsoft.com/530b5340-f8b2-4e00-a3ca-87a7c7372482) method to wait for the event to be triggered.
 
     ```
     WaitForSingleObjectEx( voiceCallback.hBufferEndEvent, INFINITE, TRUE );

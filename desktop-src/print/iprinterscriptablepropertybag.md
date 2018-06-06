@@ -17,7 +17,7 @@ This interface is the same as [**IPrinterPropertyBag**](iprinterpropertybag-inte
 
 ## Members
 
-The **IPrinterScriptablePropertyBag** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrinterScriptablePropertyBag** also has these types of members:
+The **IPrinterScriptablePropertyBag** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrinterScriptablePropertyBag** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -75,7 +75,7 @@ The **IPrinterScriptablePropertyBag** interface has these methods.
 [**IPrinterScriptContext::UserProperties**](iprinterscriptcontext-userproperties.md)
 </dt> <dt>
 
-[V4 Printer Driver Property Bags](https://www.bing.com/search?q=V4 Printer Driver Property Bags)
+[V4 Printer Driver Property Bags](https://www.bing.com/search?q=V4+Printer+Driver+Property+Bags)
 </dt> </dl>
 
  

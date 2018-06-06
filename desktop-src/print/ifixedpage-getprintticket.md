@@ -41,7 +41,7 @@ Pointer to a location into which the method writes a pointer to the [IPartPrintT
 
 ## Remarks
 
-After calling this method to get the page-level print ticket, a print driver filter can obtain the *effective* print ticket for the fixed page by merging the page-level print ticket with the document-level print ticket and the job-level print ticket. The filter can get the document-level and job-level print tickets by calling the [**IFixedDocument::GetPrintTicket**](ifixeddocument-getprintticket.md) and [**IFixedDocumentSequence::GetPrintTicket**](ifixeddocumentsequence-getprintticket.md) methods. For more information about merging print tickets, see [Print Ticket Merging](https://www.bing.com/search?q=Print Ticket Merging).
+After calling this method to get the page-level print ticket, a print driver filter can obtain the *effective* print ticket for the fixed page by merging the page-level print ticket with the document-level print ticket and the job-level print ticket. The filter can get the document-level and job-level print tickets by calling the [**IFixedDocument::GetPrintTicket**](ifixeddocument-getprintticket.md) and [**IFixedDocumentSequence::GetPrintTicket**](ifixeddocumentsequence-getprintticket.md) methods. For more information about merging print tickets, see [Print Ticket Merging](https://www.bing.com/search?q=Print+Ticket+Merging).
 
 ## Requirements
 

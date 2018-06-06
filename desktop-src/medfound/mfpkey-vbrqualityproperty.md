@@ -25,7 +25,7 @@ VT\_I4
 
 Not all of the values in the range have a unique meaning. The values that represent a step up in quality from the previous level are: 1, 4, 8, 11, 15, 18, 22, 25, 29, 33, 36, 40, 43, 47, 50, 54, 58, 61, 65, 68, 72, 75, 79, 83, 86, 90, 93, 97, and 100.
 
-For audio encoder objects, the quality modes are provided in the [**WAVEFORMATEX**](https://msdn.microsoft.com/windows/desktop/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) structure of the output types that you retrieve using the [**IMediaObject::GetOutputType**](https://msdn.microsoft.com/windows/desktop/a7652472-4091-4ecf-b623-5c6eb01be44a).
+For audio encoder objects, the quality modes are provided in the [**WAVEFORMATEX**](https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) structure of the output types that you retrieve using the [**IMediaObject::GetOutputType**](https://msdn.microsoft.com/a7652472-4091-4ecf-b623-5c6eb01be44a).
 
 ## Requirements
 

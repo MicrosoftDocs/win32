@@ -25,13 +25,13 @@ Handles to user objects are public to all processes. That is, any process can us
 
 In the following illustration, an application creates a window object. The [**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**) function creates the window object and returns an object handle.
 
-![application creating a window object](https://www.bing.com/search?q=application creating a window object)
+![application creating a window object](https://www.bing.com/search?q=application+creating+a+window+object)
 
 After the window object has been created, the application can use the window handle to display or change the window. The handle remains valid until the window object is destroyed.
 
 In the next illustration, the application destroys the window object. The [**DestroyWindow**](https://www.bing.com/search?q=**DestroyWindow**) function removes the window object from memory, which invalidates the window handle.
 
-![destroying a window object](https://www.bing.com/search?q=destroying a window object)
+![destroying a window object](https://www.bing.com/search?q=destroying+a+window+object)
 
 ## Managing User Objects
 

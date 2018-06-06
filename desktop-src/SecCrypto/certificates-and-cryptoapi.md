@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Certificates and CryptoAPI
 
-[*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) supports using X.509 certificates as defined in [IETF RFC 3280](http://go.microsoft.com/fwlink/p/?linkid=104367). This documentation assumes the use of an X.509 or comparable [*digital certificate*](https://www.bing.com/search?q=*digital certificate*).
+[*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) supports using X.509 certificates as defined in [IETF RFC 3280](http://go.microsoft.com/fwlink/p/?linkid=104367). This documentation assumes the use of an X.509 or comparable [*digital certificate*](security.c_gly#-security-certificate-gly).
 
 An X.509 standard certificate contains the following information.
 

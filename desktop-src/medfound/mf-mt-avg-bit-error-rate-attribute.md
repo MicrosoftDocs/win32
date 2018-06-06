@@ -19,7 +19,7 @@ Data error rate, in bit errors per second, for a video media type.
 
 ## Remarks
 
-This attribute corresponds to the **dwBitErrorRate** member of the [**VIDEOINFOHEADER**](https://msdn.microsoft.com/windows/desktop/a175592b-0dc1-4001-b52f-785407965932) and [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/windows/desktop/5e3d5bf0-435f-45da-8409-a1463b56a7ae) structures.
+This attribute corresponds to the **dwBitErrorRate** member of the [**VIDEOINFOHEADER**](https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932) and [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae) structures.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

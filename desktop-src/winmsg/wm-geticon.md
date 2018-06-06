@@ -64,7 +64,7 @@ When an application receives this message, it can return a handle to a large or 
 
 [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) returns a handle to the large or small icon associated with the window, depending on the value of *wParam*.
 
-A window that has no icon explicitly set (with **WM\_SETICON**) uses the icon for the registered window class, and in this case [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) will return 0 for a **WM\_GETICON** message. If sending a **WM\_GETICON** message to a window returns 0, next try calling the [**GetClassLongPtr**](/windows/desktop/api/Winuser/nf-winuser-getclasslongptra) function for the window. If that returns 0 then try the [**LoadIcon**](https://msdn.microsoft.com/windows/desktop/3a8099f8-9db7-4ef8-838f-ca8f272df531) function.
+A window that has no icon explicitly set (with **WM\_SETICON**) uses the icon for the registered window class, and in this case [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) will return 0 for a **WM\_GETICON** message. If sending a **WM\_GETICON** message to a window returns 0, next try calling the [**GetClassLongPtr**](/windows/desktop/api/Winuser/nf-winuser-getclasslongptra) function for the window. If that returns 0 then try the [**LoadIcon**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\loadicon.htm) function.
 
 ## Requirements
 

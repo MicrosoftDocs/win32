@@ -74,7 +74,7 @@ All of these interfaces are obtained from the Direct3D11 device, as follows:
  
 
 > [!Note]  
-> To get a pointer to the [**ID3D11VideoDevice**](/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice) interface, call [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) on [**ID3D11Device**](https://msdn.microsoft.com/windows/desktop/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78) interface.
+> To get a pointer to the [**ID3D11VideoDevice**](/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice) interface, call [**QueryInterface**](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) on [**ID3D11Device**](https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78) interface.
 
  
 
@@ -115,7 +115,7 @@ The next five sections give more detailed steps.
 Before attempting to apply encryption, get the content protection capabilities of the driver.
 
 1.  Get a pointer to the ID3D11Device interface.
-2.  Call [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) for the [**ID3D11VideoDevice**](/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice) interface.
+2.  Call [**QueryInterface**](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) for the [**ID3D11VideoDevice**](/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice) interface.
 3.  Call [**ID3D11VideoDevice::GetContentProtectionCaps**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getcontentprotectioncaps). This method fills in a [**D3D11\_VIDEO\_CONTENT\_PROTECTION\_CAPS**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_content_protection_caps) structure with the driver’s content protection capabilities.
 
 In particular, look for the following capabilities:

@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 Preprocesses a shader without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/windows/desktop/cb49749f-d837-4a0c-8c6e-d67b0b6206a2) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpreprocess.htm) API.
 
  
 
@@ -41,7 +41,7 @@ HRESULT D3DXPreprocessShader(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to a string that contains the shader.
 
@@ -50,7 +50,7 @@ Pointer to a string that contains the shader.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Length of the data in bytes.
 

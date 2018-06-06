@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # OEMBitBlt function
 
-The `OEMBitBlt` function provides general bit-block transfer capabilities between [*device-managed surfaces*](https://www.bing.com/search?q=*device-managed surfaces*), between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
+The `OEMBitBlt` function provides general bit-block transfer capabilities between [*device-managed surfaces*](wdkgloss.d#wdkgloss-device-managed-surface), between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
 
 ## Syntax
 
@@ -75,9 +75,9 @@ BOOL  APIENTRY OEMBitBlt(
 
 ### Comments
 
-See [**DrvBitBlt**](https://www.bing.com/search?q=**DrvBitBlt**).
+See [**DrvBitBlt**](https://msdn.microsoft.com/d7b4e25c-b9a1-4200-b449-b7c7ed059db4).
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the drawing DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvBitBlt** function pointer.
 

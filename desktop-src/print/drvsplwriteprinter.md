@@ -49,7 +49,7 @@ The **DrvSplWritePrinter** function enables a user-mode rendering DLL to alter a
 
 ### Comments
 
-To supply user-mode image-rendering code for printers, see [Choosing User Mode or Kernel Mode](https://www.bing.com/search?q=Choosing User Mode or Kernel Mode).
+To supply user-mode image-rendering code for printers, see [Choosing User Mode or Kernel Mode](https://www.bing.com/search?q=Choosing+User+Mode+or+Kernel+Mode).
 
 ## Requirements
 

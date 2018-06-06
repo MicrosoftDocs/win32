@@ -56,7 +56,7 @@ The access privileges for the printer. This parameter can be one of the followin
 
 ## Return value
 
-The method returns one of the following values. For more information about COM error codes, see [Error Handling](https://www.bing.com/search?q=Error Handling).
+The method returns one of the following values. For more information about COM error codes, see [Error Handling](https://www.bing.com/search?q=Error+Handling).
 
 
 
@@ -94,7 +94,7 @@ The method returns one of the following values. For more information about COM e
 [Bidirectional Communication Interfaces](bidirectional-communication-interfaces.md)
 </dt> <dt>
 
-[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional Communication Schema)
+[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional+Communication+Schema)
 </dt> <dt>
 
 [**OpenPrinter**](https://www.bing.com/search?q=**OpenPrinter**)

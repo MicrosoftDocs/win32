@@ -39,7 +39,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that will be tested for
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 If the matrix is an identity matrix, this function returns **TRUE**. Otherwise, this function returns **FALSE**.
 

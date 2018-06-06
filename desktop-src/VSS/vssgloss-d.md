@@ -19,14 +19,14 @@ ms.date: 05/31/2018
 <span id="base.vssgloss_database_component"></span><span id="BASE.VSSGLOSS_DATABASE_COMPONENT"></span>**database component**
 </dt> <dd>
 
-A group of files used by a database and defined by a writer as needing to be handled as a unit during backup and restore operations. See also [*component*](https://www.bing.com/search?q=*component*), [*file group component*](https://www.bing.com/search?q=*file group component*).
+A group of files used by a database and defined by a writer as needing to be handled as a unit during backup and restore operations. See also [*component*](vssgloss-c.md#base-vssgloss-component), [*file group component*](vssgloss-f.md#base-vssgloss-file-group-component).
 
 </dd> <dt>
 
 <span id="base.vssgloss_default_provider"></span><span id="BASE.VSSGLOSS_DEFAULT_PROVIDER"></span>**default provider**
 </dt> <dd>
 
-See [*system provider*](https://www.bing.com/search?q=*system provider*).
+See [*system provider*](vssgloss-s.md#base-vssgloss-system-provider).
 
 </dd> <dt>
 
@@ -40,7 +40,7 @@ Deleted shadow copies are not accessible at all and must not be made accessible 
 <span id="base.vssgloss_dependency"></span><span id="BASE.VSSGLOSS_DEPENDENCY"></span>**dependency**
 </dt> <dd>
 
-See [*component dependency*](https://www.bing.com/search?q=*component dependency*).
+See [*component dependency*](vssgloss-c.md#base-vssgloss-component-dependency).
 
 </dd> <dt>
 
@@ -61,14 +61,14 @@ The location on the volume where the *differential data* is stored. This is also
 <span id="base.vssgloss_differenced_files"></span><span id="BASE.VSSGLOSS_DIFFERENCED_FILES"></span>**differenced files**
 </dt> <dd>
 
-Files involved in an incremental or differential backup operation implemented by updating entire files (as opposed to modifying sections of those files using partial file support). For instance, if to implement a differential backup an entire file (instead of just the modified section) is copied to a backup media, that file is a differenced file. See also [*incremental backup operations*](https://www.bing.com/search?q=*incremental backup operations*), *differential backup operations*, [*partial file support*](https://www.bing.com/search?q=*partial file support*).
+Files involved in an incremental or differential backup operation implemented by updating entire files (as opposed to modifying sections of those files using partial file support). For instance, if to implement a differential backup an entire file (instead of just the modified section) is copied to a backup media, that file is a differenced file. See also [*incremental backup operations*](vssgloss-i.md#base-vssgloss-incremental-backup-operations), *differential backup operations*, [*partial file support*](vssgloss-p.md#base-vssgloss-partial-file-support).
 
 </dd> <dt>
 
 <span id="base.vssgloss_differential_backup_operations"></span><span id="BASE.VSSGLOSS_DIFFERENTIAL_BACKUP_OPERATIONS"></span>**differential backup operations**
 </dt> <dd>
 
-A backup or restore operation performed only on files created or changed since the last full backup was saved. See also [*incremental backup operations*](https://www.bing.com/search?q=*incremental backup operations*), [*partial file support*](https://www.bing.com/search?q=*partial file support*), *differenced files*.
+A backup or restore operation performed only on files created or changed since the last full backup was saved. See also [*incremental backup operations*](vssgloss-i.md#base-vssgloss-incremental-backup-operations), [*partial file support*](vssgloss-p.md#base-vssgloss-partial-file-support), *differenced files*.
 
 </dd> <dt>
 

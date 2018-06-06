@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # TBM\_SETSELEND message
 
-Sets the ending logical position of the current selection range in a trackbar. This message is ignored if the trackbar does not have the [**TBS\_ENABLESELRANGE**](https://www.bing.com/search?q=**TBS\_ENABLESELRANGE**) style.
+Sets the ending logical position of the current selection range in a trackbar. This message is ignored if the trackbar does not have the [**TBS\_ENABLESELRANGE**](trackbar-control-styles.md#tbs-enableselrange) style.
 
 ## Parameters
 

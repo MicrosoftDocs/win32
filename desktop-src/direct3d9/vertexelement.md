@@ -26,10 +26,10 @@ template VertexElement
 
 Where:
 
--   Type - Vertex data type. See [**D3DDECLTYPE**](https://msdn.microsoft.com/windows/desktop/993fc7e4-4752-4bce-82d0-0a034fdc69c0).
--   Method - Tessellator processing method. See [**D3DDECLMETHOD**](https://msdn.microsoft.com/windows/desktop/030e04a6-4e2d-4756-80ef-e4a6a0103fd1).
--   Usage - Intended use of the vertex data. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/windows/desktop/ee9b46c2-b779-480c-9b5c-6d189d2af014).
--   UsageIndex - Modifies the usage data. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/windows/desktop/ee9b46c2-b779-480c-9b5c-6d189d2af014).
+-   Type - Vertex data type. See [**D3DDECLTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddecltype.htm).
+-   Method - Tessellator processing method. See [**D3DDECLMETHOD**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddeclmethod.htm).
+-   Usage - Intended use of the vertex data. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddeclusage.htm).
+-   UsageIndex - Modifies the usage data. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddeclusage.htm).
 
 ## See also
 

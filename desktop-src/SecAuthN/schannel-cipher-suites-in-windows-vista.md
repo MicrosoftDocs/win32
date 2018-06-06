@@ -17,13 +17,13 @@ A cipher suite is a set of cryptographic algorithms. Schannel protocols use algo
 -   Bulk encryption
 -   Message authentication
 
-[*Key exchange algorithms*](https://www.bing.com/search?q=*Key exchange algorithms*) protect information required to create shared keys. These algorithms are asymmetric ([*public key algorithms*](https://www.bing.com/search?q=*public key algorithms*)) and perform well for relatively small amounts of data.
+[*Key exchange algorithms*](security.k_gly#-security-key-exchange-algorithm-gly) protect information required to create shared keys. These algorithms are asymmetric ([*public key algorithms*](security.p_gly#-security-public-key-algorithm-gly)) and perform well for relatively small amounts of data.
 
-Bulk encryption algorithms encrypt messages exchanged between clients and servers. These algorithms are [*symmetric*](https://www.bing.com/search?q=*symmetric*) and perform well for large amounts of data.
+Bulk encryption algorithms encrypt messages exchanged between clients and servers. These algorithms are [*symmetric*](security.s_gly#-security-symmetric-algorithm-gly) and perform well for large amounts of data.
 
-[Message authentication](message-authentication-codes-in-schannel.md) algorithms generate message [*hashes*](https://www.bing.com/search?q=*hashes*) and signatures that ensure the [*integrity*](https://www.bing.com/search?q=*integrity*) of a message.
+[Message authentication](message-authentication-codes-in-schannel.md) algorithms generate message [*hashes*](security.h_gly#-security-hash-gly) and signatures that ensure the [*integrity*](security.i_gly#-security-integrity-gly) of a message.
 
-Developers specify these elements by using [**ALG\_ID**](https://msdn.microsoft.com/windows/desktop/557436b4-f7f1-4708-acc7-c6b47e6322ad) data types. For more information, see [Specifying Schannel Ciphers and Cipher Strengths](specifying-schannel-ciphers-and-cipher-strengths.md).
+Developers specify these elements by using [**ALG\_ID**](https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad) data types. For more information, see [Specifying Schannel Ciphers and Cipher Strengths](specifying-schannel-ciphers-and-cipher-strengths.md).
 
 Schannel supports the following cipher suites. The suites are listed in the default order in which they are chosen by the Microsoft Schannel Provider.
 

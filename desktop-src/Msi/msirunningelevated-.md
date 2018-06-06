@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # MsiRunningElevated property
 
-The installer sets the value of the **MsiRunningElevated** property to 1 when the installer is running with [*elevated*](https://www.bing.com/search?q=*elevated*) privileges.
+The installer sets the value of the **MsiRunningElevated** property to 1 when the installer is running with [*elevated*](e-gly.md#-msi-elevated-gly) privileges.
 
 ## Requirements
 

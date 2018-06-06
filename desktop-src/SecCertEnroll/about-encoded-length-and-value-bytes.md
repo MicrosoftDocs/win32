@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The *Length* field in a TLV triplet identifies the number of bytes encoded in the *Value* field. The *Value* field contains the content being sent between computers. If the *Value* field contains fewer than 128 bytes, the *Length* field requires only one byte. Bit 7 of the *Length* field is zero (0) and the remaining bits identify the number of bytes of content being sent. If the *Value* field contains more than 127 bytes, bit 7 of the *Length* field is one (1) and the remaining bits identify the number of bytes needed to contain the length. Examples are shown in the following illustration.
 
-![der tlv length byte](https://www.bing.com/search?q=der tlv length byte)
+![der tlv length byte](https://www.bing.com/search?q=der+tlv+length+byte)
 
 ## Related topics
 

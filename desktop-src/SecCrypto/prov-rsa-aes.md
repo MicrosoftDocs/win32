@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # PROV\_RSA\_AES
 
-The PROV\_RSA\_AES provider type supports both [digital signatures](digital-signatures.md) and data encryption. It is considered a general purpose [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP). The RSA [*public key algorithm*](https://www.bing.com/search?q=*public key algorithm*) is used for all [*public key*](https://www.bing.com/search?q=*public key*) operations.
+The PROV\_RSA\_AES provider type supports both [digital signatures](digital-signatures.md) and data encryption. It is considered a general purpose [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP). The RSA [*public key algorithm*](security.p_gly#-security-public-key-algorithm-gly) is used for all [*public key*](security.p_gly#-security-public-key-gly) operations.
 
 ## Algorithms Supported
 
@@ -21,10 +21,10 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                                                                                                                                                                                                                                                                       |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Key Exchange | [*RSA*](https://www.bing.com/search?q=*RSA*)<br/>                                                                                                                                                                                                                                     |
-| Signature    | [*RSA*](https://www.bing.com/search?q=*RSA*)<br/>                                                                                                                                                                                                                                     |
-| Encryption   | [*RC2*](https://www.bing.com/search?q=*RC2*)<br/> [*RC4*](https://www.bing.com/search?q=*RC4*)<br/> [*Advanced Encryption Standard*](https://www.bing.com/search?q=*Advanced Encryption Standard*) (AES) <br/>                                                       |
-| Hashing      | [*MD2*](https://www.bing.com/search?q=*MD2*)<br/> [*MD4*](https://msdn.microsoft.com/windows/desktop/4c4402e9-7455-4868-978f-3899a8fd86c1)<br/> [*MD5*](https://www.bing.com/search?q=*MD5*)<br/> [*SHA-1*](https://www.bing.com/search?q=*SHA-1*)<br/> SHA-2 (SHA-256, SHA-384, and SHA-512)<br/> |
+| Key Exchange | [*RSA*](security.r_gly#-security-rsa-gly)<br/>                                                                                                                                                                                                                                     |
+| Signature    | [*RSA*](security.r_gly#-security-rsa-gly)<br/>                                                                                                                                                                                                                                     |
+| Encryption   | [*RC2*](security.r_gly#-security-rc2-gly)<br/> [*RC4*](security.r_gly#-security-rc4-gly)<br/> [*Advanced Encryption Standard*](security.a_gly#-security-aes-gly) (AES) <br/>                                                       |
+| Hashing      | [*MD2*](security.m_gly#-security-md2-gly)<br/> [*MD4*](https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1)<br/> [*MD5*](security.m_gly#-security-md5-gly)<br/> [*SHA-1*](security.s_gly#-security-sha-gly)<br/> SHA-2 (SHA-256, SHA-384, and SHA-512)<br/> |
 
 
 

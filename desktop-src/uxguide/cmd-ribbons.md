@@ -60,7 +60,7 @@ To decide to use a ribbon, consider these questions:
 **Command scale**
 
 -   **Is there a small number of commands? Can the most frequently used commands be presented easily on a single, simple toolbar?** Using a ribbon is worthwhile if adding core and contextual tabs results in a simple Home tab that can be used alone to perform the most common tasks. If not, the benefit of using a ribbon might not justify its extra weight for a small number of commands.
--   **Is there a large number of commands? Would using a ribbon require more than seven core tabs? Would users constantly have to change tabs to perform common tasks?** If so, using toolbars (which don't require changing tabs) and [palette windows](https://www.bing.com/search?q=palette windows) (which may require changing tabs, but there can be several open at a time) might be a more efficient choice.
+-   **Is there a large number of commands? Would using a ribbon require more than seven core tabs? Would users constantly have to change tabs to perform common tasks?** If so, using toolbars (which don't require changing tabs) and [palette windows](cmd-toolbars.md#usage-patterns) (which may require changing tabs, but there can be several open at a time) might be a more efficient choice.
 -   **Do users tend to use a small number of commands most of the time?** If so, they can use a ribbon efficiently by putting such commands on the Home tab. Constantly changing tabs would make a ribbon too inefficient.
 -   **Does the program benefit from making the content area of the program as large as possible?** If so, using a menu bar and a single toolbar is more space efficient than a ribbon. However, if your program requires three or more rows of toolbars or uses task panes, using a ribbon is more space efficient.
 -   **Do users tend to work in a specific area within a large window in the program for long periods of time?** If so, they would benefit from the close proximity of mini-toolbars, palette windows, and direct commands. Making the round trip from the work area to the ribbon would be too inefficient.
@@ -101,7 +101,7 @@ Compared to traditional menu bars and toolbars, ribbons have the following chara
 -   **Minimal customization.** While menu bars have a fixed presentation, many toolbars are quite customizable, allowing users to set locations, sizes, and contents. A ribbon itself is not customizable, but the Quick Access Toolbar provides limited customization.
 -   **Improved keyboard accessibility.** Menu bars have excellent keyboard accessibility because pressing the Alt key directly gives the menu bar input focus. However, there is no such mechanism for toolbars because they share keyboard navigation with the window's content. Consequently, users must navigate to the toolbar using the Tab key (which is given the last tab stop), and then navigate to a specific command using the arrow keys.
 
-    By contrast, ribbons provide enhanced keyboard accessibility through [keytips](https://www.bing.com/search?q=keytips), usually with a three-step process:
+    By contrast, ribbons provide enhanced keyboard accessibility through [keytips](glossary.md#k), usually with a three-step process:
 
     -   Press Alt to enter keytip mode.
     -   Press a character to choose a tab, the Application button, or a command in the Quick Access Toolbar.
@@ -556,7 +556,7 @@ Whenever practical, map your program's commands to these standard groups, which 
 
 **Interaction**
 
--   **Disable commands that don't apply to the current context, or that would directly result in an error.** If helpful, use the [enhanced tooltip](https://www.bing.com/search?q=enhanced tooltip) to explain why the command is disabled. Don't hide such commands because doing so can cause the ribbon layout to change, making the ribbon presentation unstable.
+-   **Disable commands that don't apply to the current context, or that would directly result in an error.** If helpful, use the [enhanced tooltip](glossary.md#e) to explain why the command is disabled. Don't hide such commands because doing so can cause the ribbon layout to change, making the ribbon presentation unstable.
 -   **Don't update command labels dynamically.** Again, doing so might cause the tab layout to change, resulting in an unstable appearance. Instead, design commands so that they work with constant labels. 
 
     |                                                                                           |                                                                                           |
@@ -607,11 +607,11 @@ Whenever practical, map your program's commands to these standard groups, which 
 
     In this example, the button immediately prints a single copy to the default printer, whereas the submenu version displays the Print Options dialog box.
 
-For command labeling guidelines, see [Command labels](https://www.bing.com/search?q=Command labels). For guidelines on specific common controls, see the respective [control guidelines](controls.md).
+For command labeling guidelines, see [Command labels](https://www.bing.com/search?q=Command+labels). For guidelines on specific common controls, see the respective [control guidelines](controls.md).
 
 ### Galleries
 
--   Use a [gallery](https://www.bing.com/search?q=gallery) if:
+-   Use a [gallery](glossary.md#g) if:
 
     -   **There is a well-defined, related set of choices from which users typically choose.** There may be an unbounded number of variations, but the likely selections should be well contained. If the choices aren't strongly related, consider using separate galleries.
     -   **The choices are best expressed visually, such as formatting features.** Using thumbnails makes it easier to browse, understand, and make choices. While the choices can be labeled, the selection is made visually and text labels shouldn't be required to understand the choices.
@@ -755,7 +755,7 @@ For labeling guidelines, see [Enhanced tooltip labels](#enhanced-tooltips).
 
 -   **For ribbon commands, menus, and submenus:**
     -   Assign unique access key combinations within a tab. You can reuse access key combinations within different tabs.
-    -   Whenever possible, assign the standard access keys for commonly used commands. See the [standard access key table](https://www.bing.com/search?q=standard access key table).
+    -   Whenever possible, assign the standard access keys for commonly used commands. See the [standard access key table](inter-keyboard.md#access-keys).
     -   For other commands:
 
         -   For the most frequently used commands, choose letters at the beginning of the first or second word of the label, preferably the first letter.
@@ -995,7 +995,7 @@ For shortcut key guidelines, see [Keyboard](inter-keyboard.md).
 
     In this example, the currently selected font name acts as the label.
 
-    If an [editable drop-down list](https://msdn.microsoft.com/library/windows/desktop/dn742404) doesn't have a value, use a [prompt](https://www.bing.com/search?q=prompt).
+    If an [editable drop-down list](https://msdn.microsoft.com/library/windows/desktop/dn742404) doesn't have a value, use a [prompt](glossary.md#p).
 
     ![screen shot of search address books prompt ](images/cmd-ribbons-image67.png)
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # D3DSINCOSCONST2
 
-Creates the second constant (in register src3) for the [sincos - ps](https://msdn.microsoft.com/windows/desktop/639237ea-1b7a-4959-9093-78f134c11863) pixel shader instruction.
+Creates the second constant (in register src3) for the [sincos - ps](https://msdn.microsoft.com/VS|directx_sdk|~\sincos___ps.htm) pixel shader instruction.
 
 ``` syntax
 #define D3DSINCOSCONST2 -0.020833334f, -0.12500000f, 1.0f, 0.50000000f
@@ -19,7 +19,7 @@ Creates the second constant (in register src3) for the [sincos - ps](https://msd
 
 ## Return Value
 
-Returns the second constant needed by [sincos - ps](https://msdn.microsoft.com/windows/desktop/639237ea-1b7a-4959-9093-78f134c11863).
+Returns the second constant needed by [sincos - ps](https://msdn.microsoft.com/VS|directx_sdk|~\sincos___ps.htm).
 
 ## Requirements
 
@@ -38,7 +38,7 @@ Returns the second constant needed by [sincos - ps](https://msdn.microsoft.com/w
 [Macros](dx9-graphics-reference-d3dx-macros.md)
 </dt> <dt>
 
-[sincos - ps](https://msdn.microsoft.com/windows/desktop/639237ea-1b7a-4959-9093-78f134c11863)
+[sincos - ps](https://msdn.microsoft.com/VS|directx_sdk|~\sincos___ps.htm)
 </dt> <dt>
 
 [**D3DSINCOSCONST1**](d3dsincosconst1.md)

@@ -47,7 +47,7 @@ For more information about the general syntax of a control statement, see [Commo
 [**AUTO3STATE**](auto3state-control.md)
 </dt> <dt>
 
-[Button Styles](https://www.bing.com/search?q=Button Styles)
+[Button Styles](https://www.bing.com/search?q=Button+Styles)
 </dt> <dt>
 
 [**CHECKBOX**](checkbox-control.md)

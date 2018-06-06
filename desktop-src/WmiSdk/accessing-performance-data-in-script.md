@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 WMI scripts can access the preinstalled WMI [Performance Counter Classes](https://msdn.microsoft.com/library/aa392738), either on the local computer or remotely. While scripts can obtain data from uncalculated classes, such as [**Win32\_PerfRawData\_PerfOS\_Memory**](https://msdn.microsoft.com/library/dn750765), or formatted classes, [**Win32\_PerfFormattedData\_PerfOS\_Memory**](https://msdn.microsoft.com/library/dn750765), the formatted data classes can be easier to use.
 
-Monitoring performance data with the performance counter classes requires the use of a [*refresher*](https://www.bing.com/search?q=*refresher*). Use the [**SWbemRefresher**](swbemrefresher.md) object to store one or more performance objects for refresh or refresh a single object by the [**SWbemObjectEx.Refresh**](swbemobjectex-refresh-.md) call. For more information, see [Refreshing WMI Data in Scripts](refreshing-wmi-data-in-scripts.md).
+Monitoring performance data with the performance counter classes requires the use of a [*refresher*](gloss-r.md#wmi-gloss-refresher). Use the [**SWbemRefresher**](swbemrefresher.md) object to store one or more performance objects for refresh or refresh a single object by the [**SWbemObjectEx.Refresh**](swbemobjectex-refresh-.md) call. For more information, see [Refreshing WMI Data in Scripts](refreshing-wmi-data-in-scripts.md).
 
 By setting the [**SWbemRefresher.AutoReconnect**](swbemrefresher-autoreconnect.md) property to **TRUE**, WMI automatically reconnects to a remote provider if the connection is broken so that you do not need to check for connection status.
 

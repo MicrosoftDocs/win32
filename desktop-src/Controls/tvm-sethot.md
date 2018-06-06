@@ -55,7 +55,7 @@ Using this message might compromise the security of your program.
 
 The *hot item* is the item that the mouse is hovering over. This message makes an item look like it is the hot item even if the mouse is not hovering over it.
 
-This message has no visible effect if the [**TVS\_TRACKSELECT**](https://www.bing.com/search?q=**TVS\_TRACKSELECT**) style is not set.
+This message has no visible effect if the [**TVS\_TRACKSELECT**](tree-view-control-window-styles.md#tvs-trackselect) style is not set.
 
 If it succeeds, this message causes the hot item to be redrawn.
 

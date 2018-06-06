@@ -64,7 +64,7 @@ This parameter can contain one of the following:
     
 
 -   A [**ResourceLocator**](resourcelocator.md) object.
--   A [*WS-Addressing*](https://www.bing.com/search?q=*WS-Addressing*) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for [WS-Management Protocol](ws-management-protocol.md), see [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=96658).
+-   A [*WS-Addressing*](windows-remote-management-glossary.md#winrm-gloss-ws-addressing) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for [WS-Management Protocol](ws-management-protocol.md), see [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=96658).
 
 </dd> <dt>
 

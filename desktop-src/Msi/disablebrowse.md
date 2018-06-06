@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # DisableBrowse
 
-Setting the value of this per-machine [system policy](system-policy.md) to "1" prevents nonadministrative users from using a [Browse Dialog](browse-dialog.md) to locate sources of [*managed applications*](https://www.bing.com/search?q=*managed applications*) stored on media, such as CD-ROM. The "Use feature from:" combo box for direct input is locked and the "Browse..." button is disabled. For more details on source browsing, see [source resiliency](source-resiliency.md).
+Setting the value of this per-machine [system policy](system-policy.md) to "1" prevents nonadministrative users from using a [Browse Dialog](browse-dialog.md) to locate sources of [*managed applications*](m-gly.md#-msi-managed-application-gly) stored on media, such as CD-ROM. The "Use feature from:" combo box for direct input is locked and the "Browse..." button is disabled. For more details on source browsing, see [source resiliency](source-resiliency.md).
 
 DisableBrowse overrides AllowLockdownBrowse and prevents browsing even if AllowLockdownBrowse is set.
 

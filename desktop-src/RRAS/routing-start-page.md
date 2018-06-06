@@ -49,7 +49,7 @@ Routing is a server-based technology. All the functionality of Routing is incorp
 
 <dl> <dt>
 
-[IP Helper Functions](https://www.bing.com/search?q=IP Helper Functions)
+[IP Helper Functions](https://www.bing.com/search?q=IP+Helper+Functions)
 </dt> <dt>
 
 [Remote Access](remote-access-start-page.md)

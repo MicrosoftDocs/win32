@@ -47,7 +47,7 @@ This message does not return a value.
 
 ## Remarks
 
-If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](https://www.bing.com/search?q=**LBS\_HASSTRINGS**) style, the owner of the list box receives a [**WM\_DELETEITEM**](wm-deleteitem.md) message for each item in the list box.
+If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style, the owner of the list box receives a [**WM\_DELETEITEM**](wm-deleteitem.md) message for each item in the list box.
 
 ## Requirements
 

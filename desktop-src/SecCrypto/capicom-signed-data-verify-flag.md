@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CAPICOM\_SIGNED\_DATA\_VERIFY\_FLAG enumeration
 
-The **CAPICOM\_SIGNED\_DATA\_VERIFY\_FLAG** enumeration indicates what is checked when a [*digital signature*](https://www.bing.com/search?q=*digital signature*) is verified.
+The **CAPICOM\_SIGNED\_DATA\_VERIFY\_FLAG** enumeration indicates what is checked when a [*digital signature*](security.d_gly#-security-digital-signature-gly) is verified.
 
 ## Members
 

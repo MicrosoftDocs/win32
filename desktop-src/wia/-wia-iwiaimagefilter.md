@@ -15,7 +15,7 @@ The **IWiaImageFilter** interface is an extension interface implemented by image
 
 ## Members
 
-The **IWiaImageFilter** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IWiaImageFilter** also has these types of members:
+The **IWiaImageFilter** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IWiaImageFilter** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -42,7 +42,7 @@ Image processing filter developers should implement this interface and the [**IW
 
 WIA 2.0 calls filter methods. They are never called directly from an application.
 
-Microsoft supplies the WIA 2.0 Preview Component, which caches the original, unfiltered preview image that is acquired from the scanner. An application uses [CoCreateInstance](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) to co-create an instance of the WIA 2.0 Preview Component (CLSID\_WiaPreview), which loads the filter using [**IWiaItem2::GetExtension**](-wia-iwiaitem2-getextension.md). The filter is called automatically when the application calls [**IWiaTransfer::Download**](-wia-iwiatransfer-download.md).
+Microsoft supplies the WIA 2.0 Preview Component, which caches the original, unfiltered preview image that is acquired from the scanner. An application uses [CoCreateInstance](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) to co-create an instance of the WIA 2.0 Preview Component (CLSID\_WiaPreview), which loads the filter using [**IWiaItem2::GetExtension**](-wia-iwiaitem2-getextension.md). The filter is called automatically when the application calls [**IWiaTransfer::Download**](-wia-iwiatransfer-download.md).
 
 The image processing filter is always executed when an image is scanned. An application cannot acquire an image from the scanner without having the imaging filter applied first.
 
@@ -50,7 +50,7 @@ A filter must implement brightness and contrast at a minimum. The common UI, whi
 
 An image processing filter should never modify the *lMessage* member of the [**WiaTransferParams**](-wia-wiatransferparams.md) structure.
 
-To read the required properties the image processing filter should call [**IWiaPropertyStorage::GetPropertyStream**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream) on the [**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) interface that it gets from the item by calling [IWiaImageFilter::QueryInterface](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d). The filter can then instantiate an [IPropertyStorage](https://msdn.microsoft.com/windows/desktop/c021f695-db54-4861-9f30-35a81d2dccd5) instance on this stream to read the items properties. The image processing filter should not call [IWiaPropertyStorage::ReadMultiple](https://msdn.microsoft.com/windows/desktop/a3d708fe-53af-4f1b-94ac-edc40d59a034) directly because this method calls into the driver's `drvReadItemProperties`, but the WIA 2.0 service has already locked the driver in the `drvAcquireItemData` call so this call will timeout and fail.
+To read the required properties the image processing filter should call [**IWiaPropertyStorage::GetPropertyStream**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream) on the [**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) interface that it gets from the item by calling [IWiaImageFilter::QueryInterface](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d). The filter can then instantiate an [IPropertyStorage](https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5) instance on this stream to read the items properties. The image processing filter should not call [IWiaPropertyStorage::ReadMultiple](https://msdn.microsoft.com/a3d708fe-53af-4f1b-94ac-edc40d59a034) directly because this method calls into the driver's `drvReadItemProperties`, but the WIA 2.0 service has already locked the driver in the `drvAcquireItemData` call so this call will timeout and fail.
 
 The properties that the filter is interested in could for example be the brightness and contrast settings. The filter typically also needs to read the image format as well as the preview property, [**WIA\_DPS\_PREVIEW**](-wia-wiaitempropscannerdevice.md), from *pWiaItem2*. These properties are all used in the filtering process.
 
@@ -64,15 +64,15 @@ The image processing filter is always given an image corresponding to the select
 
 The image processing filter is created through [**IWiaItem2::GetExtension**](-wia-iwiaitem2-getextension.md), typically not by the application but by WIA 2.0 components when an application calls [**IWiaPreview::GetNewPreview**](-wia-iwiapreview-getnewpreview.md) or [**IWiaTransfer::Download**](-wia-iwiatransfer-download.md).
 
-The **IWiaImageFilter** interface, like all Component Object Model (COM) interfaces, inherits the [IUnknown](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface methods.
+The **IWiaImageFilter** interface, like all Component Object Model (COM) interfaces, inherits the [IUnknown](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface methods.
 
 
 
 | IUnknown Methods                                        | Description                               |
 |---------------------------------------------------------|-------------------------------------------|
-| [IUnknown::QueryInterface](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) | Returns pointers to supported interfaces. |
-| [IUnknown::AddRef](https://msdn.microsoft.com/windows/desktop/b4316efd-73d4-4995-b898-8025a316ba63)                 | Increments reference count.               |
-| [IUnknown::Release](https://msdn.microsoft.com/windows/desktop/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a)               | Decrements reference count.               |
+| [IUnknown::QueryInterface](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) | Returns pointers to supported interfaces. |
+| [IUnknown::AddRef](https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63)                 | Increments reference count.               |
+| [IUnknown::Release](https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a)               | Decrements reference count.               |
 
 
 

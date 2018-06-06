@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Installing Side-by-side Assemblies as Private Assemblies
 
-To install [side-by-side assemblies](about-side-by-side-assemblies-.md) as [private assemblies](https://msdn.microsoft.com/library/windows/desktop/aa370850), you can install the assembly as a component of an installer package. This can be the same installation package used to install or update your application. Windows Installer version 2.0 or later is required to install assemblies. For more information, see the [Windows Installer](https://www.bing.com/search?q=Windows Installer) SDK and the sections under [Installation of Win32 Assemblies](https://www.bing.com/search?q=Installation of Win32 Assemblies).
+To install [side-by-side assemblies](about-side-by-side-assemblies-.md) as [private assemblies](https://msdn.microsoft.com/library/windows/desktop/aa370850), you can install the assembly as a component of an installer package. This can be the same installation package used to install or update your application. Windows Installer version 2.0 or later is required to install assemblies. For more information, see the [Windows Installer](https://www.bing.com/search?q=Windows+Installer) SDK and the sections under [Installation of Win32 Assemblies](https://www.bing.com/search?q=Installation+of+Win32+Assemblies).
 
 As an alternative, you can use the installer to copy a private assembly and manifest into the same folder as the application's executable file.
 

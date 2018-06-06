@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This document contains an example that demonstrates how to use the XState context functions to retrieve and set extended features on a thread. The following examples manipulate Intel Advanced Vector Extensions (AVX) state which is defined by FeatureId 2 (Feature Mask 4). Intel AVX is defined in the "Intel Advanced Vector Extensions Programming Reference" available from <http://go.microsoft.com/fwlink/p/?linkid=212716>.
 
-**Windows 7 with SP1:** The [AVX API](avx-support-portal.md) is first implemented on Windows 7 with SP1. Since there is no SDK for Windows 7 with SP1, that means there are no available headers and library files to work with. In this situation, a caller must declare the needed functions from this documentation and get pointers to them using [**GetModuleHandle**](https://msdn.microsoft.com/windows/desktop/29514410-89fe-4888-8b34-0c30d5af237f) on "Kernel32.dll", followed by calls to [**GetProcAddress**](https://msdn.microsoft.com/windows/desktop/a0d7fc09-f888-4f46-a571-d3719a627597).
+**Windows 7 with SP1:** The [AVX API](avx-support-portal.md) is first implemented on Windows 7 with SP1. Since there is no SDK for Windows 7 with SP1, that means there are no available headers and library files to work with. In this situation, a caller must declare the needed functions from this documentation and get pointers to them using [**GetModuleHandle**](https://msdn.microsoft.com/29514410-89fe-4888-8b34-0c30d5af237f) on "Kernel32.dll", followed by calls to [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597).
 
 
 ```C++

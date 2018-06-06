@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # OID object
 
-\[The **OID** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](https://www.bing.com/search?q=**Oid Class**) in the [**System.Security.Cryptography**](https://www.bing.com/search?q=**System.Security.Cryptography**) namespace.\]
+\[The **OID** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](https://www.bing.com/search?q=**Oid+Class**) in the [**System.Security.Cryptography**](https://www.bing.com/search?q=**System.Security.Cryptography**) namespace.\]
 
-The **OID** object represents an [*object identifier*](https://www.bing.com/search?q=*object identifier*) (OID) that is used by several CAPICOM properties.
+The **OID** object represents an [*object identifier*](security.o_gly#-security-object-identifier-gly) (OID) that is used by several CAPICOM properties.
 
 ## When to use
 

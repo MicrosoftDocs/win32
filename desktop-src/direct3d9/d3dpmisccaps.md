@@ -35,17 +35,17 @@ Miscellaneous driver primitive capability flags.
 <tr class="odd">
 <td>D3DPMISCCAPS_CULLNONE</td>
 <td>0x00000010L</td>
-<td>The driver does not perform triangle culling. This corresponds to the D3DCULL_NONE member of the [<strong>D3DCULL</strong>](https://msdn.microsoft.com/windows/desktop/b669307c-0d40-4ecb-8a2e-8bd1d9c65647) enumerated type.</td>
+<td>The driver does not perform triangle culling. This corresponds to the D3DCULL_NONE member of the [<strong>D3DCULL</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3dcull.htm) enumerated type.</td>
 </tr>
 <tr class="even">
 <td>D3DPMISCCAPS_CULLCW</td>
 <td>0x00000020L</td>
-<td>The driver supports clockwise triangle culling through the D3DRS_CULLMODE state. (This applies only to triangle primitives.) This flag corresponds to the D3DCULL_CW member of the [<strong>D3DCULL</strong>](https://msdn.microsoft.com/windows/desktop/b669307c-0d40-4ecb-8a2e-8bd1d9c65647) enumerated type.</td>
+<td>The driver supports clockwise triangle culling through the D3DRS_CULLMODE state. (This applies only to triangle primitives.) This flag corresponds to the D3DCULL_CW member of the [<strong>D3DCULL</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3dcull.htm) enumerated type.</td>
 </tr>
 <tr class="odd">
 <td>D3DPMISCCAPS_CULLCCW</td>
 <td>0x00000040L</td>
-<td>The driver supports counterclockwise culling through the D3DRS_CULLMODE state. (This applies only to triangle primitives.) This flag corresponds to the D3DCULL_CCW member of the [<strong>D3DCULL</strong>](https://msdn.microsoft.com/windows/desktop/b669307c-0d40-4ecb-8a2e-8bd1d9c65647) enumerated type.</td>
+<td>The driver supports counterclockwise culling through the D3DRS_CULLMODE state. (This applies only to triangle primitives.) This flag corresponds to the D3DCULL_CCW member of the [<strong>D3DCULL</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3dcull.htm) enumerated type.</td>
 </tr>
 <tr class="even">
 <td>D3DPMISCCAPS_COLORWRITEENABLE</td>
@@ -85,7 +85,7 @@ Miscellaneous driver primitive capability flags.
 <tr class="odd">
 <td>D3DPMISCCAPS_PERSTAGECONSTANT</td>
 <td>0x00008000L</td>
-<td>Device supports per-stage constants. See D3DTSS_CONSTANT in [<strong>D3DTEXTURESTAGESTATETYPE</strong>](https://msdn.microsoft.com/windows/desktop/87a5a1bb-e748-4c72-8320-ea82250dcc0e).</td>
+<td>Device supports per-stage constants. See D3DTSS_CONSTANT in [<strong>D3DTEXTURESTAGESTATETYPE</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturestagestatetype.htm).</td>
 </tr>
 <tr class="even">
 <td>D3DPMISCCAPS_POSTBLENDSRGBCONVERT</td>

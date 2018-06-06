@@ -174,7 +174,7 @@ If you really want this behavior, use the Windows riched32.dll instead of riched
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>SES_USEATFONT</strong></dt> </dl></td>
-<td><strong>Windows XP with SP1</strong>: Uses an @ font, which is designed for vertical text; this is used with the [<strong>ES_VERTICAL</strong>](https://www.bing.com/search?q=<strong>ES_VERTICAL</strong>) window style. The name of an @ font begins with the @ symbol, for example, &quot;@Batang&quot; (default: 0, but is automatically turned on for vertical text layout). <br/></td>
+<td><strong>Windows XP with SP1</strong>: Uses an @ font, which is designed for vertical text; this is used with the [<strong>ES_VERTICAL</strong>](rich-edit-control-styles.md#es-vertical) window style. The name of an @ font begins with the @ symbol, for example, &quot;@Batang&quot; (default: 0, but is automatically turned on for vertical text layout). <br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>SES_USECTF</strong></dt> </dl></td>

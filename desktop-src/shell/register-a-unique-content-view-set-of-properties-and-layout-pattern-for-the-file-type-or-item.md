@@ -23,7 +23,7 @@ Content view requires defining a layout pattern and set of property lists for an
 
 In the case of `Kind.Document`, users often search for words in the text of the document. Therefore, including more sample text in the search result might be the best choice. The following example illustrates the Browse Content view of `Kind.Document`.
 
-![browse content view of kind.document](https://www.bing.com/search?q=browse content view of kind.document)
+![browse content view of kind.document](https://www.bing.com/search?q=browse+content+view+of+kind.document)
 
 Because users are rarely looking for particular text when browsing for documents, optimizing your choice of properties and layout to fit more search results on the screen might be the best choice. The following screen shot illustrates the Search Content view of `Kind.Document`.
 
@@ -39,19 +39,19 @@ The Alpha layout pattern is optimized for document search results that contain e
 -   Properties: 7
 -   Alpha layout when the item has 350 pixels or more of horizontal space, as shown in the following illustration.
 
-    ![alpha layout pattern](https://www.bing.com/search?q=alpha layout pattern)
+    ![alpha layout pattern](https://www.bing.com/search?q=alpha+layout+pattern)
 
 -   The following illustration shows the Alpha layout when the item has 350 pixels or more of horizontal space.
 
-    ![alpha layout example](https://www.bing.com/search?q=alpha layout example)
+    ![alpha layout example](https://www.bing.com/search?q=alpha+layout+example)
 
 -   The following illustration shows the Alpha layout when the item has less than 350 pixels of horizontal space.
 
-    ![alpha layout example](https://www.bing.com/search?q=alpha layout example)
+    ![alpha layout example](https://www.bing.com/search?q=alpha+layout+example)
 
 -   The following illustration shows the Alpha layout when the item has less than 350 pixels of horizontal space.
 
-    ![alpha layout example](https://www.bing.com/search?q=alpha layout example)
+    ![alpha layout example](https://www.bing.com/search?q=alpha+layout+example)
 
 **Beta Layout**
 
@@ -61,19 +61,19 @@ The Beta layout pattern is optimized for email document search results that cont
 -   Properties: 5
 -   Beta layout when the item has 350 pixels or more of horizontal space, as shown in the following illustration.
 
-    ![beta layout example](https://www.bing.com/search?q=beta layout example)
+    ![beta layout example](https://www.bing.com/search?q=beta+layout+example)
 
 -   The following illustration shows the beta layout when the item has 350 pixels or more of horizontal space.
 
-    ![beta layout example](https://www.bing.com/search?q=beta layout example)
+    ![beta layout example](https://www.bing.com/search?q=beta+layout+example)
 
 -   The following illustration shows the Beta layout when the item has less than 350 pixels of horizontal space.
 
-    ![beta layout example](https://www.bing.com/search?q=beta layout example)
+    ![beta layout example](https://www.bing.com/search?q=beta+layout+example)
 
 -   The following illustration shows the beta layout when the item has less than 350 pixels of horizontal space:
 
-    ![beta layout example](https://www.bing.com/search?q=beta layout example)
+    ![beta layout example](https://www.bing.com/search?q=beta+layout+example)
 
 **Gamma Layout**
 
@@ -83,19 +83,19 @@ The Gamma layout pattern is similar to Alpha but uses a two-line layout instead 
 -   Properties: 4
 -   The following illustration shows the gamma layout when the item has 350 pixels or more of horizontal space.
 
-    ![gamma layout example](https://www.bing.com/search?q=gamma layout example)
+    ![gamma layout example](https://www.bing.com/search?q=gamma+layout+example)
 
 -   The following illustration shows the gamma layout when the item has 350 pixels or more of horizontal space.
 
-    ![gamma layout example](https://www.bing.com/search?q=gamma layout example)
+    ![gamma layout example](https://www.bing.com/search?q=gamma+layout+example)
 
 -   The following illustration shows the gamma layout when the item has less than 350 pixels of horizontal space.
 
-    ![gamma layout example](https://www.bing.com/search?q=gamma layout example)
+    ![gamma layout example](https://www.bing.com/search?q=gamma+layout+example)
 
 -   Example of the gamma layout when the item has less than 350 pixels of horizontal space.
 
-    ![gamma layout example](https://www.bing.com/search?q=gamma layout example)
+    ![gamma layout example](https://www.bing.com/search?q=gamma+layout+example)
 
 **Delta Layout**
 
@@ -105,27 +105,27 @@ The Delta layout pattern is optimized for displaying many shorter properties suc
 -   Properties: 6
 -   Delta layout when the item has 700 pixels or more of horizontal space, as shown in the following illustration.
 
-    ![delta layout example](https://www.bing.com/search?q=delta layout example)
+    ![delta layout example](https://www.bing.com/search?q=delta+layout+example)
 
 -   Example of the delta layout when the item has 700 pixels or more of horizontal space.
 
-    ![delta layout example](https://www.bing.com/search?q=delta layout example)
+    ![delta layout example](https://www.bing.com/search?q=delta+layout+example)
 
 -   Delta layout when the item has between 350 and 700 pixels of horizontal space.
 
-    ![delta layout example](https://www.bing.com/search?q=delta layout example)
+    ![delta layout example](https://www.bing.com/search?q=delta+layout+example)
 
 -   Example of the delta layout when the item has between 350 and 700 pixels of horizontal space.
 
-    ![delta layout example](https://www.bing.com/search?q=delta layout example)
+    ![delta layout example](https://www.bing.com/search?q=delta+layout+example)
 
 -   Delta layout when the item has less than 350 pixels of horizontal space.
 
-    ![layout example](https://www.bing.com/search?q=layout example)
+    ![layout example](https://www.bing.com/search?q=layout+example)
 
 -   Example of the delta layout when the item has less than 350 pixels of horizontal space.
 
-    ![delta layout example](https://www.bing.com/search?q=delta layout example)
+    ![delta layout example](https://www.bing.com/search?q=delta+layout+example)
 
 ### Step 3: Registering Custom Properties and Layout for Your File Type
 
@@ -180,13 +180,13 @@ After you understand the Search Result mode, the Browse mode, and the layout pat
 [File Types](fa-file-types.md)
 </dt> <dt>
 
-[Kind Names](https://msdn.microsoft.com/windows/desktop/1466b4c7-49ea-417a-ac94-7b45515ccb96)
+[Kind Names](https://msdn.microsoft.com/1466b4c7-49ea-417a-ac94-7b45515ccb96)
 </dt> <dt>
 
-[System.PropList.ContentViewModeForBrowse](https://msdn.microsoft.com/windows/desktop/30c15a29-b2cb-4273-8c07-8ef3baa7fee5)
+[System.PropList.ContentViewModeForBrowse](https://msdn.microsoft.com/30c15a29-b2cb-4273-8c07-8ef3baa7fee5)
 </dt> <dt>
 
-[System.PropList.ContentViewModeForSearch](https://msdn.microsoft.com/windows/desktop/ffb07b50-a245-45a3-a79a-27426b508600)
+[System.PropList.ContentViewModeForSearch](https://msdn.microsoft.com/ffb07b50-a245-45a3-a79a-27426b508600)
 </dt> </dl>
 
  

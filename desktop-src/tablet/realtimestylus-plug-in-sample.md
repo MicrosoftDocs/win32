@@ -147,7 +147,7 @@ The RealTimeStylusPluginApp project demonstrates the plug-ins previously describ
 
 -   A Form that contains a [GroupBox](https://www.bing.com/search?q=GroupBox) control used to define the ink entry area.
 -   A [CheckedListBox](https://www.bing.com/search?q=CheckedListBox) control to list and select the available plug-ins.
--   A pair of [Button objects](https://www.bing.com/search?q=Button objects) to enable re-ordering the plug-ins.
+-   A pair of [Button objects](https://www.bing.com/search?q=Button+objects) to enable re-ordering the plug-ins.
 
 The project defines a structure, `PlugInListItem`, to make managing the plug-ins used in the project easier. The `PlugInListItem` structure contains the plug-in and a description.
 

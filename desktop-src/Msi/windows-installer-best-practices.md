@@ -87,7 +87,7 @@ Many application vendors provide native Windows Installer packages for the insta
 
 Windows Installer packages should not attempt to replace protected resources during installation or update. The Windows Installer does not remove or replace these resources because Windows prevents the replacement of essential system files, folders, and registry keys. Protecting these resources prevents application and operating system failures.
 
--   When running on Windows Server 2008 or Windows Vista, the Windows Installer skips the installation of any file or registry key that is protected by [Windows Resource Protection](https://www.bing.com/search?q=Windows Resource Protection) (WRP), the installer enters a warning in the log file, and continues with the remainder of the installation without an error. For information, see [Using Windows Installer and Windows Resource Protection](windows-resource-protection-on-windows-vista.md).
+-   When running on Windows Server 2008 or Windows Vista, the Windows Installer skips the installation of any file or registry key that is protected by [Windows Resource Protection](https://www.bing.com/search?q=Windows+Resource+Protection) (WRP), the installer enters a warning in the log file, and continues with the remainder of the installation without an error. For information, see [Using Windows Installer and Windows Resource Protection](windows-resource-protection-on-windows-vista.md).
 -   WRP is the new name for Windows File Protection (WFP). WRP protects registry keys and folders as well as essential system files. In Windows Server 2003, Windows XP, and Windows 2000, when the Windows Installer encountered a WFP-protected file, the installer would request that WFP install the file. For information, see [Using Windows Installer and Windows Resource Protection](windows-resource-protection-on-windows-vista.md).
 
 ## Do not depend upon non-critical resources.
@@ -185,7 +185,7 @@ Administrators often prefer to deploy applications within a corporation without 
 
 ## Avoid using the AlwaysInstallElevated policy.
 
-If the [AlwaysInstallElevated](alwaysinstallelevated.md) policy is not set, applications not distributed by the administrator are installed using the user's privileges and only managed applications get elevated privileges. Setting this policy directs Windows Installer to use system permissions when it installs the application on the system. This method can open a computer to a security risk, because when this policy is set, a non-administrator user can run installations with [*elevated*](https://www.bing.com/search?q=*elevated*) privileges and access secure locations on the computer. It is a good practice to use another method than the AlwaysInstallElevated policy when [Installing a Package with Elevated Privileges for a Non-Admin](installing-a-package-with-elevated-privileges-for-a-non-admin.md) or [Patching Per-User Managed Applications](patching-per-user-managed-applications.md).
+If the [AlwaysInstallElevated](alwaysinstallelevated.md) policy is not set, applications not distributed by the administrator are installed using the user's privileges and only managed applications get elevated privileges. Setting this policy directs Windows Installer to use system permissions when it installs the application on the system. This method can open a computer to a security risk, because when this policy is set, a non-administrator user can run installations with [*elevated*](e-gly.md#-msi-elevated-gly) privileges and access secure locations on the computer. It is a good practice to use another method than the AlwaysInstallElevated policy when [Installing a Package with Elevated Privileges for a Non-Admin](installing-a-package-with-elevated-privileges-for-a-non-admin.md) or [Patching Per-User Managed Applications](patching-per-user-managed-applications.md).
 
 ## Enable the DisableMedia policy to limit unauthorized installation.
 
@@ -241,7 +241,7 @@ You should decide how you intend to service the application before deploying the
 
 If the original source files are required to update your application, this can make servicing the application more difficult. The following methods can help reduce the dependence of updates upon the original sources.
 
--   Use a [*delta patch*](https://www.bing.com/search?q=*delta patch*) to update the baseline versions of your application, such as the RTM version and the service pack versions. Follow the guidelines for using delta patches described in the topic: [Reducing Patch Size](reducing-patch-size.md).
+-   Use a [*delta patch*](d-gly.md#setup-delta-patch-gly) to update the baseline versions of your application, such as the RTM version and the service pack versions. Follow the guidelines for using delta patches described in the topic: [Reducing Patch Size](reducing-patch-size.md).
 -   Follow the recommendations listed in the topic: [Preventing a Patch from Requiring Access to the Original Installation Source](preventing-a-patch-from-requiring-access-to-the-original-installation-source.md).
 
 ## Do not distribute unserviceable merge modules.

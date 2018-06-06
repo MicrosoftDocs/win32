@@ -27,7 +27,7 @@ g\_wszWMACFoldXToYChannelsZ
 
 An audio decoder can act as a DirectX Media Object (DMO) or as a Media Foundation Transform (MFT). For information on when a decoder acts as a DMO or an MFT, see the individual codec reference pages under [Codec Objects](codecobjects.md).
 
-When you use a decoder as a DMO, the decoder can perform channel fold down, and you can enumerate folded down output media types by calling [**IMediaObject::GetOutputType**](https://msdn.microsoft.com/windows/desktop/a7652472-4091-4ecf-b623-5c6eb01be44a).
+When you use a decoder as a DMO, the decoder can perform channel fold down, and you can enumerate folded down output media types by calling [**IMediaObject::GetOutputType**](https://msdn.microsoft.com/a7652472-4091-4ecf-b623-5c6eb01be44a).
 
 When you use a decoder as an MFT, the decoder by default will not perform any fold down, and will not offer folded down output media types. A decoder acting as an MFT will perform fold down only if custom fold-down coefficients are set using the **MFPKEY\_WMADEC\_FOLDDOWN\_MATRIX** property.
 

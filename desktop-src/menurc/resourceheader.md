@@ -204,7 +204,7 @@ Specifies user-defined information about the resource that tools can use to read
 
 ## Remarks
 
-A variable type member is called a **Name** or **Ordinal** member, and it is used in most places in the resource file where an identifier appears. The first **WORD** of a **Name** or **Ordinal** type member indicates whether the member is a numeric value or a string. If the first **WORD** in the member is equal to the value 0xffff, which is an invalid Unicode character, then the following **WORD** is a type number. Otherwise, the member contains a Unicode string and the first **WORD** in the member is the first character in the name string. For additional information about resource definition statements, see [Resource-Definition Statements](https://www.bing.com/search?q=Resource-Definition Statements).
+A variable type member is called a **Name** or **Ordinal** member, and it is used in most places in the resource file where an identifier appears. The first **WORD** of a **Name** or **Ordinal** type member indicates whether the member is a numeric value or a string. If the first **WORD** in the member is equal to the value 0xffff, which is an invalid Unicode character, then the following **WORD** is a type number. Otherwise, the member contains a Unicode string and the first **WORD** in the member is the first character in the name string. For additional information about resource definition statements, see [Resource-Definition Statements](https://www.bing.com/search?q=Resource-Definition+Statements).
 
 ## Requirements
 
@@ -230,13 +230,13 @@ A variable type member is called a **Name** or **Ordinal** member, and it is use
 **Other Resources**
 </dt> <dt>
 
-[CHARACTERISTICS Statement](https://www.bing.com/search?q=CHARACTERISTICS Statement)
+[CHARACTERISTICS Statement](https://www.bing.com/search?q=CHARACTERISTICS+Statement)
 </dt> <dt>
 
-[LANGUAGE Statement](https://www.bing.com/search?q=LANGUAGE Statement)
+[LANGUAGE Statement](https://www.bing.com/search?q=LANGUAGE+Statement)
 </dt> <dt>
 
-[VERSION Statement](https://www.bing.com/search?q=VERSION Statement)
+[VERSION Statement](https://www.bing.com/search?q=VERSION+Statement)
 </dt> </dl>
 
  

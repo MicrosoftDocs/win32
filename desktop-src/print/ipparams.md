@@ -42,7 +42,7 @@ Specifies the size, in bytes of the IPPARAMS structure. Supplied by Unidrv.
 **ptOffset**
 </dt> <dd>
 
-Pointer to a [**POINT**](https://www.bing.com/search?q=**POINT**) structure containing the banded image's offset from the upper left corner of the drawing area. Supplied by Unidrv.
+Pointer to a [**POINT**](https://msdn.microsoft.com/6fb3bd3f-f810-4043-812b-94495f38a6aa) structure containing the banded image's offset from the upper left corner of the drawing area. Supplied by Unidrv.
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ Specifies whether a blank band was drawn in the source bitmap supplied to [**IPr
 [**IPrintOemUni::ImageProcessing**](iprintoemuni-imageprocessing.md)
 </dt> <dt>
 
-[**POINT**](https://www.bing.com/search?q=**POINT**)
+[**POINT**](https://msdn.microsoft.com/6fb3bd3f-f810-4043-812b-94495f38a6aa)
 </dt> </dl>
 
  

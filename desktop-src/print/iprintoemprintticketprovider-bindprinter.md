@@ -56,7 +56,7 @@ A pointer to a variable that receives one of the following enumerated values:
 <span id="OEMPT_DEFAULT"></span><span id="oempt_default"></span>OEMPT\_DEFAULT
 </dt> <dd>
 
-The system places a binary encoding (a binary large object \[BLOB\]) of the private [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure into the print ticket in a conversion of a DEVMODEW to a print ticket.
+The system places a binary encoding (a binary large object \[BLOB\]) of the private [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure into the print ticket in a conversion of a DEVMODEW to a print ticket.
 
 </dd> <dt>
 

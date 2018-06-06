@@ -37,7 +37,7 @@ typedef struct D3DRECTPATCH_INFO {
 **StartVertexOffsetWidth**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -48,7 +48,7 @@ Starting vertex offset width, in number of vertices.
 **StartVertexOffsetHeight**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -59,7 +59,7 @@ Starting vertex offset height, in number of vertices.
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -70,7 +70,7 @@ Width of each vertex, in number of vertices.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -81,7 +81,7 @@ Height of each vertex, in number of vertices.
 **Stride**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -92,11 +92,11 @@ Width of the imaginary two-dimensional vertex array, which occupies the same spa
 **Basis**
 </dt> <dd>
 
-Type: **[**D3DBASISTYPE**](https://msdn.microsoft.com/windows/desktop/18c31c77-7ba3-449c-af4a-717b8c1dced1)**
+Type: **[**D3DBASISTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dbasistype.htm)**
 
 </dd> <dd>
 
-Member of the [**D3DBASISTYPE**](https://msdn.microsoft.com/windows/desktop/18c31c77-7ba3-449c-af4a-717b8c1dced1) enumerated type, defining the basis type for the rectangular high-order patch.
+Member of the [**D3DBASISTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dbasistype.htm) enumerated type, defining the basis type for the rectangular high-order patch.
 
 
 
@@ -115,11 +115,11 @@ Member of the [**D3DBASISTYPE**](https://msdn.microsoft.com/windows/desktop/18c3
 **Degree**
 </dt> <dd>
 
-Type: **[**D3DDEGREETYPE**](https://msdn.microsoft.com/windows/desktop/52a9c57e-a48d-4d8a-a208-97a3d09e7abf)**
+Type: **[**D3DDEGREETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddegreetype.htm)**
 
 </dd> <dd>
 
-Member of the [**D3DDEGREETYPE**](https://msdn.microsoft.com/windows/desktop/52a9c57e-a48d-4d8a-a208-97a3d09e7abf) enumerated type, defining the degree for the rectangular patch.
+Member of the [**D3DDEGREETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddegreetype.htm) enumerated type, defining the degree for the rectangular patch.
 
 </dd> </dl>
 

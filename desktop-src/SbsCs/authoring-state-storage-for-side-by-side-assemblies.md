@@ -23,7 +23,7 @@ Adhere to the following guidelines for the storage of the state:
 
     **HKCU**\\**MyCompany**\\**MyComponent**\\**VersionXXXX**
 
--   Any state information stored in the registry by shared assemblies must be saved in individual version sections of the registry. For example, a state setting called EnableSuperCoolFeature might have a value of **TRUE** or **FALSE**. Store the value for a [*shared side-by-side assembly*](https://www.bing.com/search?q=*shared side-by-side assembly*) as follows:
+-   Any state information stored in the registry by shared assemblies must be saved in individual version sections of the registry. For example, a state setting called EnableSuperCoolFeature might have a value of **TRUE** or **FALSE**. Store the value for a [*shared side-by-side assembly*](s-sbscs-gly.md#-win32-shared-side-by-side-assembly-gly) as follows:
 
     **HKEY\_CurrentUser**\\**Software**\\**MyCompany**\\**MyComponent**\\**Version01.01**\\**EnableSuperCoolFeature = TRUE**
 

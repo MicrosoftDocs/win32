@@ -25,7 +25,7 @@ The following procedure describes the general steps to authoring merge modules.
 8.  Add a record to the File table for every file stored in MergeModule.CABinet.
 9.  Add the information necessary to identify the merge module in the [ModuleSignature table](modulesignature-table.md). Every merge module requires a ModuleSignature table.
 10. List the components in the merge module in the [ModuleComponents table](modulecomponents-table.md). Every merge module requires a ModuleComponents table.
-11. Add merge module sequence tables to the .msm file only if the merge module needs to modify the [*sequence tables*](https://www.bing.com/search?q=*sequence tables*) of the target installation database.
+11. Add merge module sequence tables to the .msm file only if the merge module needs to modify the [*sequence tables*](s-gly.md#-msi-sequence-tables-gly) of the target installation database.
 12. Add a \_Validation table to the merge module. A merge module requires a \_Validation table to pass validation.
 13. Merge modules require a user interface in only rare cases. Including a UI with a merge module is not recommended. In cases where a user interface is required, the UI tables can be merged into the .msi file the same as other tables.
 14. Add registry information to the appropriate registry tables in the merge module database. Add registry information for type libraries, classes, extensions, and verbs into the [TypeLib](typelib-table.md), [Class](class-table.md), [AppId](appid-table.md), [ProgId](progid-table.md), [Extension](extension-table.md), [Verb](verb-table.md), or [MIME](mime-table.md) tables. All other registry information can go into the [Registry table](registry-table.md). The use of the SelfReg table is not recommended.

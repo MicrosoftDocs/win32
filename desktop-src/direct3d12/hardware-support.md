@@ -36,7 +36,7 @@ The levels of hardware from Tier 1 to Tier 3 have increasing resources available
 
 **Bold** entries highlight significant improvements over the previous tier.
 
-There is an additional restriction for Tier 1 hardware that applies to all heaps, and to Tier 2 hardware that applies to CBV and UAV heaps, that all descriptor heap entries covered by descriptor tables in the root signature *must* be populated with descriptors by the time the shader executes, even if the shader (perhaps due to branching) does not need the descriptor. There is no such restriction for Tier 3 hardware. One mitigation for this restriction is the diligent use of [Null descriptors](https://www.bing.com/search?q=Null descriptors).
+There is an additional restriction for Tier 1 hardware that applies to all heaps, and to Tier 2 hardware that applies to CBV and UAV heaps, that all descriptor heap entries covered by descriptor tables in the root signature *must* be populated with descriptors by the time the shader executes, even if the shader (perhaps due to branching) does not need the descriptor. There is no such restriction for Tier 3 hardware. One mitigation for this restriction is the diligent use of [Null descriptors](descriptors.md#null-descriptors).
 
 ## Invariable limits
 

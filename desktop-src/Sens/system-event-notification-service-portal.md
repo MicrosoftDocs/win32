@@ -44,7 +44,7 @@ Requires Microsoft Windows XP or later. For information about which operating s
 
 <dl> <dt>
 
-[**IEventSubscription**](https://msdn.microsoft.com/windows/desktop/ce3f9f7e-3d0a-445f-b3db-671ee595aedf)
+[**IEventSubscription**](https://msdn.microsoft.com/ce3f9f7e-3d0a-445f-b3db-671ee595aedf)
 </dt> </dl>
 
  

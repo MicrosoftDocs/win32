@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # LVM\_GETOUTLINECOLOR message
 
-Retrieves the color of the border of a list-view control if the [**LVS\_EX\_BORDERSELECT**](https://www.bing.com/search?q=**LVS\_EX\_BORDERSELECT**) extended window style is set.
+Retrieves the color of the border of a list-view control if the [**LVS\_EX\_BORDERSELECT**](extended-list-view-styles.md#lvs-ex-borderselect) extended window style is set.
 
 ## Parameters
 

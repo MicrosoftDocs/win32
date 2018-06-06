@@ -32,7 +32,7 @@ D3DXVECTOR4* D3DXVec4Normalize(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/windows/desktop/fbfe7851-7bec-4fa0-b4dc-52f5cb83d0a4)\***
+Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector4.htm)\***
 
 Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the operation.
 
@@ -41,7 +41,7 @@ Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/windows/desktop/fbfe7851-7bec-4fa0-b4dc-52f5cb83d0a4)\***
+Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector4.htm)\***
 
 Pointer to the source D3DXVECTOR4 structure.
 
@@ -49,7 +49,7 @@ Pointer to the source D3DXVECTOR4 structure.
 
 ## Return value
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/windows/desktop/fbfe7851-7bec-4fa0-b4dc-52f5cb83d0a4)\***
+Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector4.htm)\***
 
 Pointer to a D3DXVECTOR4 structure that is the normalized version of the vector.
 

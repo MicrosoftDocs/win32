@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # System.AppUserModel.RelaunchCommand
 
-Specifies a command that can be executed through [**ShellExecute**](https://msdn.microsoft.com/windows/desktop/8b1f3978-a0ee-4684-8a37-98e270b63897) to launch an application when it is pinned to the taskbar or when a new instance of the application is launched through the application's Jump List.
+Specifies a command that can be executed through [**ShellExecute**](https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897) to launch an application when it is pinned to the taskbar or when a new instance of the application is launched through the application's Jump List.
 
 Examples include the following:
 
@@ -26,7 +26,7 @@ notepad.exe
 
 
 
-This property is used only if a window has an explicit Application User Model ID (AppUserModelID) ([System.AppUserModel.ID](https://www.bing.com/search?q=System.AppUserModel.ID), set through [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow)). If the window does not have an explicit AppUserModelID, this property is ignored and the window is grouped and pinned as if it were part of the process that owns it. For more information about the application of explicit AppUserModelIDs and their effect on taskbar pinning, see [Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/windows/desktop/ebce2d99-6f20-4545-9f12-d79cd8d0828f).
+This property is used only if a window has an explicit Application User Model ID (AppUserModelID) ([System.AppUserModel.ID](https://www.bing.com/search?q=System.AppUserModel.ID), set through [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow)). If the window does not have an explicit AppUserModelID, this property is ignored and the window is grouped and pinned as if it were part of the process that owns it. For more information about the application of explicit AppUserModelIDs and their effect on taskbar pinning, see [Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f).
 
 This property is meant to be used by applications or windows that want to provide non-default relaunch information.
 
@@ -68,7 +68,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/windows/desktop/ebce2d99-6f20-4545-9f12-d79cd8d0828f)
+[Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f)
 </dt> <dt>
 
 [System.AppUserModel.ID](https://www.bing.com/search?q=System.AppUserModel.ID)

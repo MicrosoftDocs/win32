@@ -21,7 +21,7 @@ If you are new to scripting or to WMI-specific scripting, see the TechNet Script
 
 With the [Scripting API for WMI](scripting-api-for-wmi.md), you can develop quick, simple scripts or complex applications. Scripting gives you the same capability of getting information or of configuring most objects in an enterprise as you would have through a C++ or C# application. For more information, see [Scripting in WMI](https://msdn.microsoft.com/library/aa389763).
 
-You cannot write a [*WMI provider*](https://www.bing.com/search?q=*WMI provider*) in script. For more information, see [Providing Data to WMI](providing-data-to-wmi.md).
+You cannot write a [*WMI provider*](gloss-p.md#wmi-gloss-provider) in script. For more information, see [Providing Data to WMI](providing-data-to-wmi.md).
 
 WMI scripts can be written in any scripting language that can interact with ActiveX objects.
 

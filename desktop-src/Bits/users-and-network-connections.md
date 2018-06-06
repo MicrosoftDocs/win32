@@ -26,7 +26,7 @@ For BITS to detect that a user is logged on, the user must use one of the follow
 -   Log on through the Welcome screen.
 -   Log on to a [terminal service](http://go.microsoft.com/fwlink/p/?linkid=160632) client.
 -   Use [fast user switching](http://go.microsoft.com/fwlink/p/?linkid=166155).
--   Starting with Windows 10, version 1607, log on from another device using Remote Powershell. See [To manage PowerShell Remote sessions](https://www.bing.com/search?q=To manage PowerShell Remote sessions) for details.
+-   Starting with Windows 10, version 1607, log on from another device using Remote Powershell. See [To manage PowerShell Remote sessions](using-windows-powershell-to-create-bits-transfer-jobs.md#to-manage-powershell-remote-sessions) for details.
 
 Running an application as another user (by using the **RunAs** command) is not an interactive logon; BITS will not run jobs associated with the specified user.
 

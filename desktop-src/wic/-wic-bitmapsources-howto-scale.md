@@ -96,7 +96,7 @@ To scale a bitmap source
 
     The following illustration demonstrates imaging scaling. The original image on the left is 200 x 130 pixels. The image on the right is the original image scaled to half the size.
 
-    ![illustration showing scaling an image to a smaller size](https://www.bing.com/search?q=illustration showing scaling an image to a smaller size)
+    ![illustration showing scaling an image to a smaller size](https://www.bing.com/search?q=illustration+showing+scaling+an+image+to+a+smaller+size)
 
 ## See Also
 

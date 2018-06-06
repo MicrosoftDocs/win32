@@ -39,8 +39,8 @@ Indicates which button to retrieve the state for. This can be one of the followi
 
 | Value                                                                                                                                                                     | Meaning                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="PGB_TOPORLEFT"></span><span id="pgb_toporleft"></span><dl> <dt>**PGB\_TOPORLEFT**</dt> </dl>             | Indicates the top button in a [**PGS\_VERT**](https://www.bing.com/search?q=**PGS\_VERT**) pager control or the left button in a [**PGS\_HORZ**](https://www.bing.com/search?q=**PGS\_HORZ**) pager control. <br/>     |
-| <span id="PGB_BOTTOMORRIGHT"></span><span id="pgb_bottomorright"></span><dl> <dt>**PGB\_BOTTOMORRIGHT**</dt> </dl> | Indicates the bottom button in a [**PGS\_VERT**](https://www.bing.com/search?q=**PGS\_VERT**) pager control or the right button in a [**PGS\_HORZ**](https://www.bing.com/search?q=**PGS\_HORZ**) pager control. <br/> |
+| <span id="PGB_TOPORLEFT"></span><span id="pgb_toporleft"></span><dl> <dt>**PGB\_TOPORLEFT**</dt> </dl>             | Indicates the top button in a [**PGS\_VERT**](pager-control-styles.md#pgs-vert) pager control or the left button in a [**PGS\_HORZ**](pager-control-styles.md#pgs-horz) pager control. <br/>     |
+| <span id="PGB_BOTTOMORRIGHT"></span><span id="pgb_bottomorright"></span><dl> <dt>**PGB\_BOTTOMORRIGHT**</dt> </dl> | Indicates the bottom button in a [**PGS\_VERT**](pager-control-styles.md#pgs-vert) pager control or the right button in a [**PGS\_HORZ**](pager-control-styles.md#pgs-horz) pager control. <br/> |
 
 
 

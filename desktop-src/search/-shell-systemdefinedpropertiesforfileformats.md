@@ -174,7 +174,7 @@ The following table categorizes file formats and then lists the most important s
 **Other Resources**
 </dt> <dt>
 
-[Property System](https://www.bing.com/search?q=Property System)
+[Property System](https://www.bing.com/search?q=Property+System)
 </dt> <dt>
 
 [System Properties](http://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx)

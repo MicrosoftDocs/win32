@@ -83,16 +83,16 @@ To build the sample using Microsoft Visual Studio (preferred):
 [Property System Code Samples](property-system-code-samples.md)
 </dt> <dt>
 
-[Ideal Property Handler Sample](https://www.bing.com/search?q=Ideal Property Handler Sample)
+[Ideal Property Handler Sample](https://www.bing.com/search?q=Ideal+Property+Handler+Sample)
 </dt> <dt>
 
-[Property Edit Sample](https://www.bing.com/search?q=Property Edit Sample)
+[Property Edit Sample](https://www.bing.com/search?q=Property+Edit+Sample)
 </dt> <dt>
 
-[Property Schema Sample](https://www.bing.com/search?q=Property Schema Sample)
+[Property Schema Sample](https://www.bing.com/search?q=Property+Schema+Sample)
 </dt> <dt>
 
-[Recipe Property Handler Sample](https://www.bing.com/search?q=Recipe Property Handler Sample)
+[Recipe Property Handler Sample](https://www.bing.com/search?q=Recipe+Property+Handler+Sample)
 </dt> </dl>
 
  

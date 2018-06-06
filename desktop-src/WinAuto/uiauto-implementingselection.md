@@ -55,7 +55,7 @@ The following properties, methods, and events are required for implementing the 
 | [**CanSelectMultiple**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_canselectmultiple)                        | Property    | None                                                                        |
 | [**IsSelectionRequired**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_isselectionrequired)                    | Property    | None                                                                        |
 | [**GetSelection**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-getselection)                                  | Method      | None                                                                        |
-| [**UIA\_Selection\_InvalidatedEventId**](https://www.bing.com/search?q=**UIA\_Selection\_InvalidatedEventId**) | Event       | Raise this event when a selection in a container has changed significantly. |
+| [**UIA\_Selection\_InvalidatedEventId**](uiauto-event-ids.md#uia-selection-invalidatedeventid) | Event       | Raise this event when a selection in a container has changed significantly. |
 
 
 

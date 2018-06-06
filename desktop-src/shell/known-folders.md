@@ -55,7 +55,7 @@ A C++ sample that demonstrates the Known Folder APIs is included in the Windows 
 
 <dl> <dt>
 
-[Known Folders Sample](https://msdn.microsoft.com/windows/desktop/49799A9E-BA86-4977-B5F3-590BE1E5FBF6)
+[Known Folders Sample](https://msdn.microsoft.com/49799A9E-BA86-4977-B5F3-590BE1E5FBF6)
 </dt> </dl>
 
  

@@ -42,7 +42,7 @@ After [**AddIPAddress**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-addipaddress)
 
      
 
-2.  Declare variables for the IPAddr and IPMask structures named `iaIPAddress` and `iaIPMask`, respectively. These values are simply unsigned integers. Initialize the `iaIPAddress` and `iaIPMask` variables using the [**inet\_addr**](https://msdn.microsoft.com/windows/desktop/7d6df658-9d83-45c7-97e7-b2a016a73847) function.
+2.  Declare variables for the IPAddr and IPMask structures named `iaIPAddress` and `iaIPMask`, respectively. These values are simply unsigned integers. Initialize the `iaIPAddress` and `iaIPMask` variables using the [**inet\_addr**](https://msdn.microsoft.com/7d6df658-9d83-45c7-97e7-b2a016a73847) function.
     ```C++
     UINT iaIPAddress;
     UINT iaIPMask;

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # CB\_SETLOCALE message
 
-An application sends a **CB\_SETLOCALE** message to set the current locale of the combo box. If the combo box has the [**CBS\_SORT**](https://www.bing.com/search?q=**CBS\_SORT**) style and strings are added using [**CB\_ADDSTRING**](cb-addstring.md), the locale of a combo box affects how list items are sorted.
+An application sends a **CB\_SETLOCALE** message to set the current locale of the combo box. If the combo box has the [**CBS\_SORT**](combo-box-styles.md#cbs-sort) style and strings are added using [**CB\_ADDSTRING**](cb-addstring.md), the locale of a combo box affects how list items are sorted.
 
 ## Parameters
 

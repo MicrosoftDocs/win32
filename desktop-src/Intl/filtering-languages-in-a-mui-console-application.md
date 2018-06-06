@@ -15,7 +15,7 @@ A MUI console application can support either system settings or application-spec
 
 ## Limit the Languages to Display
 
-Unlike a graphical window, the Windows console cannot display [complex scripts](https://www.bing.com/search?q=complex scripts), such as Arabic, Hebrew, Persian, Hindi, Urdu, Thai, and many others. Therefore, many user interface languages cannot be displayed by the console under any circumstances.
+Unlike a graphical window, the Windows console cannot display [complex scripts](uniscribe-glossary.md#complex-script), such as Arabic, Hebrew, Persian, Hindi, Urdu, Thai, and many others. Therefore, many user interface languages cannot be displayed by the console under any circumstances.
 
 The console can display only characters from the single [OEM code page](code-pages.md) associated with the current language for non-Unicode applications. For each OEM code page, the console uses a particular font, and this might not provide full coverage for that code page.
 
@@ -28,9 +28,9 @@ These console-related limitations reduce the number of user interface languages 
 
 ## Set the Language for Console Output
 
-On Windows Vista and later, a console application sets the language to support the console display by calling [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages). In this call, the application passes MUI\_CONSOLE\_FILTER in the *dwFlags* parameter and **NULL** for *pwszLanguagesBuffer*. An alternative is to call [**SetThreadUILanguage**](https://msdn.microsoft.com/windows/desktop/30a0cecf-0ed1-4c03-bd5e-da07b1828c75) with a language identifier of 0. This setting causes the function to select the language that best supports the console display.
+On Windows Vista and later, a console application sets the language to support the console display by calling [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages). In this call, the application passes MUI\_CONSOLE\_FILTER in the *dwFlags* parameter and **NULL** for *pwszLanguagesBuffer*. An alternative is to call [**SetThreadUILanguage**](https://msdn.microsoft.com/30a0cecf-0ed1-4c03-bd5e-da07b1828c75) with a language identifier of 0. This setting causes the function to select the language that best supports the console display.
 
-On Windows XP, the application can only set the language for console output by calling [**SetThreadUILanguage**](https://msdn.microsoft.com/windows/desktop/30a0cecf-0ed1-4c03-bd5e-da07b1828c75) with a language identifier of 0.
+On Windows XP, the application can only set the language for console output by calling [**SetThreadUILanguage**](https://msdn.microsoft.com/30a0cecf-0ed1-4c03-bd5e-da07b1828c75) with a language identifier of 0.
 
 ## Related topics
 

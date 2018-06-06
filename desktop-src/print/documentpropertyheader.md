@@ -66,7 +66,7 @@ Pointer to a NULL-terminated string representing the printer's name.
 **pdmIn**
 </dt> <dd>
 
-Pointer to an input [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure that the [**DrvDocumentPropertySheets**](drvdocumentpropertysheets.md) function should copy into the printer interface DLL's internal DEVMODEW structure (before the property sheet is displayed, if applicable). If DM\_IN\_BUFFER or DM\_MODIFY is not set in **fMode**, this pointer is **NULL**.
+Pointer to an input [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure that the [**DrvDocumentPropertySheets**](drvdocumentpropertysheets.md) function should copy into the printer interface DLL's internal DEVMODEW structure (before the property sheet is displayed, if applicable). If DM\_IN\_BUFFER or DM\_MODIFY is not set in **fMode**, this pointer is **NULL**.
 
 </dd> <dt>
 
@@ -111,7 +111,7 @@ One or more of the bit flags listed in the following table. (The flags are defin
 
 ## Remarks
 
-The input value in the **cbOut** member is not necessarily equal to the size of the buffer pointed to by the **pdmOut** member. For example, when the *pPSUInfo* parameter of the [**DrvDocumentPropertySheets**](drvdocumentpropertysheets.md) function is **NULL**, and if either the **fMode** member of the DOCUMENTPROPERTYHEADER structure is zero, or the **pdmOut** member of the same structure is **NULL**, a driver should write the total size of the printer's [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure (including the public and private structure members) in the **cbOut** member. In such a case, a driver should treat the **cbOut** member as a "write-only" member. The "plotter" sample that ships with the Windows Driver Kit (WDK) demonstrates how to use the **cbOut** member correctly.
+The input value in the **cbOut** member is not necessarily equal to the size of the buffer pointed to by the **pdmOut** member. For example, when the *pPSUInfo* parameter of the [**DrvDocumentPropertySheets**](drvdocumentpropertysheets.md) function is **NULL**, and if either the **fMode** member of the DOCUMENTPROPERTYHEADER structure is zero, or the **pdmOut** member of the same structure is **NULL**, a driver should write the total size of the printer's [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure (including the public and private structure members) in the **cbOut** member. In such a case, a driver should treat the **cbOut** member as a "write-only" member. The "plotter" sample that ships with the Windows Driver Kit (WDK) demonstrates how to use the **cbOut** member correctly.
 
 ## Requirements
 
@@ -133,7 +133,7 @@ The input value in the **cbOut** member is not necessarily equal to the size of 
 [**COMPROPSHEETUI**](compropsheetui.md)
 </dt> <dt>
 
-[**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**)
+[**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b)
 </dt> </dl>
 
  

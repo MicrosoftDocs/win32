@@ -35,7 +35,7 @@ Starting in the Windows SDK for Windows 7, the decoder has been moved to a sepa
 
 The MPEG1Source sample builds a DLL that is a COM server for the media source, media source's byte-stream handler, and the decoder MFT. Before using the media source, you must register the DLL.
 
-To use the media source, you can run the [BasicPlayback Sample](https://www.bing.com/search?q=BasicPlayback Sample). The source resolver will automatically load the media source if you select an MPEG-1 file for playback. (If an error occurs, make sure that you successfully registered the MPEG1Source DLL.)
+To use the media source, you can run the [BasicPlayback Sample](https://www.bing.com/search?q=BasicPlayback+Sample). The source resolver will automatically load the media source if you select an MPEG-1 file for playback. (If an error occurs, make sure that you successfully registered the MPEG1Source DLL.)
 
 You can also use the TopoEdit tool to build a playback topology that contains the media source. For more information about TopoEdit, see [TopoEdit](topoedit.md).
 

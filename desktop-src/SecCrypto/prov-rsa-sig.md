@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # PROV\_RSA\_SIG
 
-The PROV\_RSA\_SIG provider type is a subset of PROV\_RSA\_FULL. It supports only those functions and algorithms required for [*hashes*](https://www.bing.com/search?q=*hashes*) and [*digital signatures*](https://www.bing.com/search?q=*digital signatures*).
+The PROV\_RSA\_SIG provider type is a subset of PROV\_RSA\_FULL. It supports only those functions and algorithms required for [*hashes*](security.h_gly#-security-hash-gly) and [*digital signatures*](security.d_gly#-security-digital-signature-gly).
 
 ## Algorithms Supported
 
@@ -22,9 +22,9 @@ For descriptions of each of these algorithms, see the glossary.
 | Purpose      | Supported algorithms                                                                                                              |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Key Exchange | None                                                                                                                              |
-| Signature    | [*RSA*](https://www.bing.com/search?q=*RSA*)                                                                       |
+| Signature    | [*RSA*](security.r_gly#-security-rsa-gly)                                                                       |
 | Encryption   | None                                                                                                                              |
-| Hashing      | [*MD5*](https://www.bing.com/search?q=*MD5*)[*SHA*](https://www.bing.com/search?q=*SHA*)<br/> |
+| Hashing      | [*MD5*](security.m_gly#-security-md5-gly)[*SHA*](security.s_gly#-security-sha-gly)<br/> |
 
 
 

@@ -44,7 +44,7 @@ The handle of the currently instantiated printer.
 *cbDevMode* \[in\]
 </dt> <dd>
 
-The size of the [**DEVMODE**](https://www.bing.com/search?q=**DEVMODE**) structure, in bytes, including the driver's private DEVMODE data.
+The size of the [**DEVMODE**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure, in bytes, including the driver's private DEVMODE data.
 
 </dd> <dt>
 
@@ -91,9 +91,9 @@ The **PrintPropertiesCollection** data structure from which the printer interfac
 
 | Return code                                                                               | Description                                                                                                                                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**S\_OK**</dt> </dl>      | The printer interface DLL successfully returned an adjusted imageable area, compression type, or DPI based on the given DEVMODE structure. The MXDC will validate the returned imageable area and then use it to populate the [**GDIINFO**](https://www.bing.com/search?q=**GDIINFO**) structure to the respective fields.<br/>                                                          |
+| <dl> <dt>**S\_OK**</dt> </dl>      | The printer interface DLL successfully returned an adjusted imageable area, compression type, or DPI based on the given DEVMODE structure. The MXDC will validate the returned imageable area and then use it to populate the [**GDIINFO**](https://msdn.microsoft.com/f75f599f-43ea-4da6-a6e3-6591cf6d69f1) structure to the respective fields.<br/>                                                          |
 | <dl> <dt>**E\_NOTIMPL**</dt> </dl> | The `MxdcGetPDEVAdjustment` function is not implemented by the printer interface. The printer interface must not modify the fields that it does not support. The MXDC defaults to its current defaults. For the imageable area case, MXDC defaults to using the physical page size. For the compression option, MXDC defaults to medium JPEG compression.<br/> |
-| <dl> <dt>**E\_FAIL**</dt> </dl>    | For this value or any other failure values, the MXDC returns -1 to the [**DrvEnablePDEV**](https://www.bing.com/search?q=**DrvEnablePDEV**) function, catches the internal exception, and sets a flag to fail and end the print job.<br/>                                                                                                                                                |
+| <dl> <dt>**E\_FAIL**</dt> </dl>    | For this value or any other failure values, the MXDC returns -1 to the [**DrvEnablePDEV**](https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e) function, catches the internal exception, and sets a flag to fail and end the print job.<br/>                                                                                                                                                |
 
 
 
@@ -101,7 +101,7 @@ The **PrintPropertiesCollection** data structure from which the printer interfac
 
 ## Remarks
 
-The `MxdcGetPDEVAdjustment` function is implemented by the hardware vendor. The MXDC calls this function to obtain printer configuration data in the form of a [*property bag*](https://www.bing.com/search?q=*property bag*) that includes the following data:
+The `MxdcGetPDEVAdjustment` function is implemented by the hardware vendor. The MXDC calls this function to obtain printer configuration data in the form of a [*property bag*](wdkgloss.p#wdkgloss-property-bag) that includes the following data:
 
 <dl> <dt>
 
@@ -122,7 +122,7 @@ The file format of an image, either JPEG or PNG, and the level of compression fo
 <span id="Dots_per_inch_resolution"></span><span id="dots_per_inch_resolution"></span><span id="DOTS_PER_INCH_RESOLUTION"></span>Dots per inch resolution
 </dt> <dd>
 
-The resolution of an image in dots per inch (DPI). If the printer interface DLL does not support this field, MXDC defaults to a device-independent resolution that the **dmPrintQuality** field of the [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure sets.
+The resolution of an image in dots per inch (DPI). If the printer interface DLL does not support this field, MXDC defaults to a device-independent resolution that the **dmPrintQuality** field of the [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure sets.
 
 </dd> </dl>
 
@@ -228,10 +228,10 @@ The following table lists the MXDC's supported data types and data values for th
 
 <dl> <dt>
 
-[**DrvEnablePDEV**](https://www.bing.com/search?q=**DrvEnablePDEV**)
+[**DrvEnablePDEV**](https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e)
 </dt> <dt>
 
-[**GDIINFO**](https://www.bing.com/search?q=**GDIINFO**)
+[**GDIINFO**](https://msdn.microsoft.com/f75f599f-43ea-4da6-a6e3-6591cf6d69f1)
 </dt> <dt>
 
 [IPrintOemUIMXDC Interface](iprintoemuimxdc-interface.md)

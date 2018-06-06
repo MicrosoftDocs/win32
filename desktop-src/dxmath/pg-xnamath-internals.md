@@ -170,7 +170,7 @@ typedef const XMMATRIX&amp; CXMMATRIX;
 
 ## Graphics Library Type Equivalence
 
-To support the use of the DirectXMath Library, many DirectXMath Library types and structures are equivalent to the Windows implementations of the **D3DDECLTYPE** and **D3DFORMAT** types, as well as the [**DXGI\_FORMAT**](https://msdn.microsoft.com/windows/desktop/dce61bc4-4ed5-4e64-84e8-6db88025e5c2) types. 
+To support the use of the DirectXMath Library, many DirectXMath Library types and structures are equivalent to the Windows implementations of the **D3DDECLTYPE** and **D3DFORMAT** types, as well as the [**DXGI\_FORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\dxgi_format.htm) types. 
 
 | DirectXMath                      | D3DDECLTYPE                                                                           | D3DFORMAT                                                     | DXGI\_FORMAT                                                                                                                                                                                            |
 |----------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -51,7 +51,7 @@ The parent window receives a [TVN\_DELETEITEM](tvn-deleteitem.md) notification c
 
 If the item label is being edited, the edit operation is canceled and the parent window receives the [TVN\_ENDLABELEDIT](tvn-endlabeledit.md) notification code.
 
-If you delete all items in a tree-view control that has the [**TVS\_NOSCROLL**](https://www.bing.com/search?q=**TVS\_NOSCROLL**) style, items subsequently added may not display properly. For more information, see [**TreeView\_DeleteAllItems**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_deleteallitems).
+If you delete all items in a tree-view control that has the [**TVS\_NOSCROLL**](tree-view-control-window-styles.md#tvs-noscroll) style, items subsequently added may not display properly. For more information, see [**TreeView\_DeleteAllItems**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_deleteallitems).
 
 ## Requirements
 

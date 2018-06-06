@@ -30,7 +30,7 @@ An application can use the [**BM\_GETCHECK**](bm-getcheck.md) message to retriev
 
 The [**BM\_SETCHECK**](bm-setcheck.md) message sets the check state of a check box or radio button; the message returns zero. The [**BM\_SETSTATE**](bm-setstate.md) message sets the push state of a button; this message also returns zero. The [**BM\_SETSTYLE**](bm-setstyle.md) message changes the style of a button. It is designed for changing button styles within a type (for example, changing a check box to an automatic check box). It is not designed for changing between types (for example, changing a check box to a radio button). An application should not change a button from one type to another.
 
-A button of the [**BS\_BITMAP**](https://www.bing.com/search?q=**BS\_BITMAP**) or [**BS\_ICON**](https://www.bing.com/search?q=**BS\_ICON**) style displays a bitmap or icon instead of text. The [**BM\_SETIMAGE**](bm-setimage.md) message associates a handle to a bitmap or icon with a button. The [**BM\_GETIMAGE**](bm-getimage.md) message retrieves a handle to the bitmap or icon associated with a button.
+A button of the [**BS\_BITMAP**](button-styles.md#bs-bitmap) or [**BS\_ICON**](button-styles.md#bs-icon) style displays a bitmap or icon instead of text. The [**BM\_SETIMAGE**](bm-setimage.md) message associates a handle to a bitmap or icon with a button. The [**BM\_GETIMAGE**](bm-getimage.md) message retrieves a handle to the bitmap or icon associated with a button.
 
 An application can also use the [**DM\_GETDEFID**](https://msdn.microsoft.com/library/windows/desktop/ms645406) message to retrieve the identifier of the default push button control in a dialog box. An application can use the [**DM\_SETDEFID**](https://msdn.microsoft.com/library/windows/desktop/ms645413) message to set the default push button for a dialog box.
 
@@ -66,7 +66,7 @@ Both the message and the parent window's response depend on the type, style, and
 
  
 
-A button sends the [BN\_DISABLE](bn-disable.md), [BN\_PUSHED](bn-pushed.md), [BN\_KILLFOCUS](bn-killfocus.md), [BN\_PAINT](bn-paint.md), [BN\_SETFOCUS](bn-setfocus.md), and [BN\_UNPUSHED](bn-unpushed.md) notification codes only if it has the [**BS\_NOTIFY**](https://www.bing.com/search?q=**BS\_NOTIFY**) style. [BN\_DBLCLK](bn-dblclk.md) notification codes are sent automatically for [**BS\_USERBUTTON**](https://www.bing.com/search?q=**BS\_USERBUTTON**), [**BS\_RADIOBUTTON**](https://www.bing.com/search?q=**BS\_RADIOBUTTON**), and [**BS\_OWNERDRAW**](https://www.bing.com/search?q=**BS\_OWNERDRAW**) buttons. Other button types send BN\_DBLCLK only if they have the **BS\_NOTIFY** style. All buttons send the [BN\_CLICKED](bn-clicked.md) notification code regardless of their button styles.
+A button sends the [BN\_DISABLE](bn-disable.md), [BN\_PUSHED](bn-pushed.md), [BN\_KILLFOCUS](bn-killfocus.md), [BN\_PAINT](bn-paint.md), [BN\_SETFOCUS](bn-setfocus.md), and [BN\_UNPUSHED](bn-unpushed.md) notification codes only if it has the [**BS\_NOTIFY**](button-styles.md#bs-notify) style. [BN\_DBLCLK](bn-dblclk.md) notification codes are sent automatically for [**BS\_USERBUTTON**](button-styles.md#bs-userbutton), [**BS\_RADIOBUTTON**](button-styles.md#bs-radiobutton), and [**BS\_OWNERDRAW**](button-styles.md#bs-ownerdraw) buttons. Other button types send BN\_DBLCLK only if they have the **BS\_NOTIFY** style. All buttons send the [BN\_CLICKED](bn-clicked.md) notification code regardless of their button styles.
 
 For automatic buttons, the system changes the push state and paints the button. In this case, the application typically processes only the [BN\_CLICKED](bn-clicked.md) and [BN\_DBLCLK](bn-dblclk.md) notification codes. For buttons that are not automatic, the application typically responds to the notification code by sending a message to change the state of the button. For information about sending messages to buttons, see [Sending Messages to Buttons](#sending-messages-to-buttons).
 
@@ -171,31 +171,31 @@ The window procedure for the predefined button control window class carries out 
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>BS_AUTOCHECKBOX</strong>](https://www.bing.com/search?q=<strong>BS_AUTOCHECKBOX</strong>)</td>
+<td>[<strong>BS_AUTOCHECKBOX</strong>](button-styles.md#bs-autocheckbox)</td>
 <td>DLGC_WANTCHARS | DLGC_BUTTON</td>
 </tr>
 <tr class="even">
-<td>[<strong>BS_AUTORADIOBUTTON</strong>](https://www.bing.com/search?q=<strong>BS_AUTORADIOBUTTON</strong>)</td>
+<td>[<strong>BS_AUTORADIOBUTTON</strong>](button-styles.md#bs-autoradiobutton)</td>
 <td>DLGC_RADIOBUTTON | DLGC_BUTTON</td>
 </tr>
 <tr class="odd">
-<td>[<strong>BS_CHECKBOX</strong>](https://www.bing.com/search?q=<strong>BS_CHECKBOX</strong>)</td>
+<td>[<strong>BS_CHECKBOX</strong>](button-styles.md#bs-checkbox)</td>
 <td>DLGC_WANTCHARS | DLGC_BUTTON</td>
 </tr>
 <tr class="even">
-<td>[<strong>BS_DEFPUSHBUTTON</strong>](https://www.bing.com/search?q=<strong>BS_DEFPUSHBUTTON</strong>)</td>
+<td>[<strong>BS_DEFPUSHBUTTON</strong>](button-styles.md#bs-defpushbutton)</td>
 <td>DLGC_DEFPUSHBUTTON | DLGC_BUTTON</td>
 </tr>
 <tr class="odd">
-<td>[<strong>BS_GROUPBOX</strong>](https://www.bing.com/search?q=<strong>BS_GROUPBOX</strong>)</td>
+<td>[<strong>BS_GROUPBOX</strong>](button-styles.md#bs-groupbox)</td>
 <td>DLGC_STATIC</td>
 </tr>
 <tr class="even">
-<td>[<strong>BS_PUSHBUTTON</strong>](https://www.bing.com/search?q=<strong>BS_PUSHBUTTON</strong>)</td>
+<td>[<strong>BS_PUSHBUTTON</strong>](button-styles.md#bs-pushbutton)</td>
 <td>DLGC_UNDEFPUSHBUTTON | DLGC_BUTTON</td>
 </tr>
 <tr class="odd">
-<td>[<strong>BS_RADIOBUTTON</strong>](https://www.bing.com/search?q=<strong>BS_RADIOBUTTON</strong>)</td>
+<td>[<strong>BS_RADIOBUTTON</strong>](button-styles.md#bs-radiobutton)</td>
 <td>DLGC_RADIOBUTTON | DLGC_BUTTON</td>
 </tr>
 </tbody>
@@ -237,7 +237,7 @@ The window procedure for the predefined button control window class carries out 
 </tr>
 <tr class="odd">
 <td>[<strong>WM_NCCREATE</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632635)</td>
-<td>Turns any [<strong>BS_OWNERDRAW</strong>](https://www.bing.com/search?q=<strong>BS_OWNERDRAW</strong>) button into a [<strong>BS_PUSHBUTTON</strong>](https://www.bing.com/search?q=<strong>BS_PUSHBUTTON</strong>) button.</td>
+<td>Turns any [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button into a [<strong>BS_PUSHBUTTON</strong>](button-styles.md#bs-pushbutton) button.</td>
 </tr>
 <tr class="even">
 <td>[<strong>WM_NCHITTEST</strong>](https://msdn.microsoft.com/library/windows/desktop/ms645618)</td>

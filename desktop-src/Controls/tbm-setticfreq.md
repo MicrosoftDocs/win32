@@ -43,7 +43,7 @@ No return value.
 
 ## Remarks
 
-The trackbar must have the [**TBS\_AUTOTICKS**](https://www.bing.com/search?q=**TBS\_AUTOTICKS**) style to use this message.
+The trackbar must have the [**TBS\_AUTOTICKS**](trackbar-control-styles.md#tbs-autoticks) style to use this message.
 
 ## Requirements
 

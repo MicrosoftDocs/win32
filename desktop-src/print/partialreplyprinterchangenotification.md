@@ -55,7 +55,7 @@ Calling `PartialReplyPrinterChangeNotification` does not cause the spooler to no
 
 If *pInfoDataSrc* is **NULL**, all stored information associated with the specified handle is deleted from the spooler. The function accomplishes this deletion by freeing all buffers associated with *pBuf* members of PRINTER\_NOTIFY\_INFO\_DATA structures belonging to the specified handle. The function then sets the PRINTER\_NOTIFY\_INFO\_DISCARDED flag in the stored PRINTER\_NOTIFY\_INFO structure.
 
-For additional information, see [Supporting Printer Change Notifications](https://www.bing.com/search?q=Supporting Printer Change Notifications).
+For additional information, see [Supporting Printer Change Notifications](https://www.bing.com/search?q=Supporting+Printer+Change+Notifications).
 
 ## Requirements
 

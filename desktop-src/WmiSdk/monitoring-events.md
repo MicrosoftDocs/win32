@@ -24,7 +24,7 @@ System administrators can use WMI to monitor events on a network. For example:
 
 WMI supports event detection and delivery to event consumers because some WMI providers are event providers. For more information, see [Receiving a WMI Event](receiving-a-wmi-event.md).
 
-[*Event consumers*](https://www.bing.com/search?q=*Event consumers*) are applications or scripts that request notification of events, and then perform tasks when specific events occur. You can create event monitoring scripts or applications that temporarily monitor when events occur. WMI also supplies a set of preinstalled permanent event providers and the permanent consumer classes that enable you to permanently monitor events. For more information, see [Monitoring and Responding to Events with Standard Consumers](monitoring-and-responding-to-events-with-standard-consumers.md).
+[*Event consumers*](gloss-e.md#wmi-gloss-event-consumer) are applications or scripts that request notification of events, and then perform tasks when specific events occur. You can create event monitoring scripts or applications that temporarily monitor when events occur. WMI also supplies a set of preinstalled permanent event providers and the permanent consumer classes that enable you to permanently monitor events. For more information, see [Monitoring and Responding to Events with Standard Consumers](monitoring-and-responding-to-events-with-standard-consumers.md).
 
 The following sections are discussed in this topic:
 
@@ -41,7 +41,7 @@ The following VBScript code example requests notification when an instance of [*
 
 To execute the script, copy it to a file named event.vbs and use the following command line: **cscript event.vbs**. You can see output from the script by starting Notepad.exe or any other process. The script stops after five processes have started or stopped.
 
-This script calls [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md), which is the [*semisynchronous*](https://www.bing.com/search?q=*semisynchronous*) version of the method. See the next script for an example of setting up an asynchronous temporary event subscription by calling [**SWbemServices.ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md). For more information, see [Calling a Method](calling-a-method.md). The script calls [**SWbemEventSource.NextEvent**](swbemeventsource-nextevent.md) to obtain and process each event as it arrives. Save the script in a file with a .vbs extension and run the script on a command line using CScript: **cscript file.vbs**.
+This script calls [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md), which is the [*semisynchronous*](gloss-s.md#wmi-gloss-semisynchronous) version of the method. See the next script for an example of setting up an asynchronous temporary event subscription by calling [**SWbemServices.ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md). For more information, see [Calling a Method](calling-a-method.md). The script calls [**SWbemEventSource.NextEvent**](swbemeventsource-nextevent.md) to obtain and process each event as it arrives. Save the script in a file with a .vbs extension and run the script on a command line using CScript: **cscript file.vbs**.
 
 
 ```VB

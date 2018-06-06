@@ -34,7 +34,7 @@ HRESULT GetOption(
 *pDevmode* \[in\]
 </dt> <dd>
 
-A pointer to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure. If this pointer is provided, **IPrintCoreHelper::GetOption** should use the DEVMODEW structure that is pointed to by *pDevmode* instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from either [**IPrintOemPS::DevMode**](iprintoemps-devmode.md) or [**IPrintOemUni::DevMode**](iprintoemuni-devmode.md), this parameter is required. In most other situations, the parameter should be **NULL**. When the core driver sets *pDevmode* to **NULL**, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as [**DrvDocumentPropertySheets**](drvdocumentpropertysheets.md), is being serviced by the core driver's UI module.
+A pointer to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure. If this pointer is provided, **IPrintCoreHelper::GetOption** should use the DEVMODEW structure that is pointed to by *pDevmode* instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from either [**IPrintOemPS::DevMode**](iprintoemps-devmode.md) or [**IPrintOemUni::DevMode**](iprintoemuni-devmode.md), this parameter is required. In most other situations, the parameter should be **NULL**. When the core driver sets *pDevmode* to **NULL**, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as [**DrvDocumentPropertySheets**](drvdocumentpropertysheets.md), is being serviced by the core driver's UI module.
 
 </dd> <dt>
 
@@ -81,7 +81,7 @@ A pointer to a variable that contains the address of an ANSI string. When **IPri
 
 **IPrintCoreHelper::GetOption** cannot be used for features that allow multiple options to be set simultaneously.
 
-Feature keywords are as defined in the GPD and PPD files. In addition, the Unidrv and Pscript5 drivers support several reserved keywords for options that are stored in their private [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structures.
+Feature keywords are as defined in the GPD and PPD files. In addition, the Unidrv and Pscript5 drivers support several reserved keywords for options that are stored in their private [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structures.
 
 The caller should not free the string that is pointed to by *ppszOption* and should not modify the string in any way.
 

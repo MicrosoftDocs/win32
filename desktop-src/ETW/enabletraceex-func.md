@@ -132,7 +132,7 @@ A session can call the [**TdhEnumerateProviderFilters**](/windows/desktop/api/Td
 
 If the function is successful, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/windows/desktop/4a3a8feb-a05f-4614-8f04-1f507da7e5b7). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7). The following table includes some common errors and their causes.
 
 
 
@@ -181,7 +181,7 @@ Event trace controllers call this function.
 
 The provider defines its interpretation of being enabled or disabled. Typically, if a provider has been enabled, it generates events, but while it is disabled, it does not.
 
-To include all events that a provider provides, set *MatchAnyKeyword* to zero (for a [manifest-based](https://www.bing.com/search?q=manifest-based) provider and 0xFFFFFFFF for a [classic](https://www.bing.com/search?q=classic) provider). To include specific events, set the *MatchAnyKeyword* mask to those specific events. For example, if the provider defines an event for its initialization and cleanup routines (set keyword bit 0), an event for its file operations (set keyword bit 1), and an event for its calculation operations (set keyword bit 2), you can set *MatchAnyKeyword* to 5 to receive initialization and cleanup events and calculation events.
+To include all events that a provider provides, set *MatchAnyKeyword* to zero (for a [manifest-based](about-event-tracing.md#providers) provider and 0xFFFFFFFF for a [classic](about-event-tracing.md#providers) provider). To include specific events, set the *MatchAnyKeyword* mask to those specific events. For example, if the provider defines an event for its initialization and cleanup routines (set keyword bit 0), an event for its file operations (set keyword bit 1), and an event for its calculation operations (set keyword bit 2), you can set *MatchAnyKeyword* to 5 to receive initialization and cleanup events and calculation events.
 
 If the provider defines more complex event keywords, for example, the provider defines an event that sets bit 0 for read and bit 1 for local access and a second event that sets bit 0 for read and bit 2 for remote access, you could set MatchAnyKeyword to 1 to receive all read events, or you could set MatchAnykeyword to 1 and MatchAllKeywords to 3 to receive local reads only.
 
@@ -193,7 +193,7 @@ If the provider is registered and already enabled to your session, you can also 
 
 You do not call **EnableTraceEx** to enable kernel providers. To enable kernel providers, set the **EnableFlags** member of [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) which you then pass to [**StartTrace**](starttrace.md). The **StartTrace** function enables the selected kernel providers.
 
-Up to eight trace sessions can enable and receive events from the same [manifest-based](https://www.bing.com/search?q=manifest-based) provider; however, only one trace session can enable a [classic](https://www.bing.com/search?q=classic) provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
+Up to eight trace sessions can enable and receive events from the same [manifest-based](about-event-tracing.md#providers) provider; however, only one trace session can enable a [classic](about-event-tracing.md#providers) provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
 
 The provider remains enabled for the session until the session disables the provider. If the application that started the session ends without disabling the provider, the provider remains enabled.
 

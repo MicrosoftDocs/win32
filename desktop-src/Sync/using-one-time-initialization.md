@@ -19,7 +19,7 @@ In this example, the `g_InitOnce` global variable is the one-time initialization
 
 The `OpenEventHandleSync` function returns a handle to an event that is created only once. It calls the [**InitOnceExecuteOnce**](/windows/desktop/api/WinBase/nf-synchapi-initonceexecuteonce) function to execute the initialization code contained in the `InitHandleFunction` callback function. If the callback function succeeds, `OpenEventHandleAsync` returns the event handle returned in *lpContext*; otherwise, it returns **INVALID\_HANDLE\_VALUE**.
 
-The `InitHandleFunction` function is the [one-time initialization callback function](https://www.bing.com/search?q=one-time initialization callback function). `InitHandleFunction` calls the [**CreateEvent**](/windows/desktop/api/WinBase/nf-synchapi-createeventa) function to create the event and returns the event handle in the *lpContext* parameter.
+The `InitHandleFunction` function is the [one-time initialization callback function](https://www.bing.com/search?q=one-time+initialization+callback+function). `InitHandleFunction` calls the [**CreateEvent**](/windows/desktop/api/WinBase/nf-synchapi-createeventa) function to create the event and returns the event handle in the *lpContext* parameter.
 
 
 ```C++

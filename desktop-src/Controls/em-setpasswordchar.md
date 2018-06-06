@@ -49,7 +49,7 @@ This message does not return a value.
 
 When an edit control receives the **EM\_SETPASSWORDCHAR** message, the control redraws all visible characters using the character specified by the *wParam* parameter. If *wParam* is zero, the control redraws all visible characters using the characters typed by the user.
 
-If an edit control is created with the [**ES\_PASSWORD**](https://www.bing.com/search?q=**ES\_PASSWORD**) style, the default password character is set to an asterisk (\*). If an edit control is created without the **ES\_PASSWORD** style, there is no password character. The **ES\_PASSWORD** style is removed if an **EM\_SETPASSWORDCHAR** message is sent with the *wParam* parameter set to zero.
+If an edit control is created with the [**ES\_PASSWORD**](edit-control-styles.md#es-password) style, the default password character is set to an asterisk (\*). If an edit control is created without the **ES\_PASSWORD** style, there is no password character. The **ES\_PASSWORD** style is removed if an **EM\_SETPASSWORDCHAR** message is sent with the *wParam* parameter set to zero.
 
 **Edit controls:** Multiline edit controls do not support the password style or messages.
 

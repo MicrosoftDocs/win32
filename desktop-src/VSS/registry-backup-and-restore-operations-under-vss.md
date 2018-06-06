@@ -41,10 +41,10 @@ For example, under **HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\
 
 The registry writer ensures that hive files are saved to disk prior to its shadow copy.
 
-When backing up the registry hives, a requester would replace \\Device\\*HarddiskVolumeX* with the [*device object*](https://www.bing.com/search?q=*device object*) string of the volume's shadow copy.
+When backing up the registry hives, a requester would replace \\Device\\*HarddiskVolumeX* with the [*device object*](vssgloss-d.md#base-vssgloss-device-object) string of the volume's shadow copy.
 
 > [!Note]  
-> You can convert the \\Device\\*HarddiskVolumeX* path to an equivalent Win32 path by using the [**QueryDosDevice**](https://msdn.microsoft.com/windows/desktop/ff25bc2b-dde6-40c3-a270-372daab2e5c4) function. For more information, see [Obtaining a File Name From a File Handle](https://msdn.microsoft.com/windows/desktop/359673bf-cc4c-4881-b946-ecdbef4a7ecb) or [Displaying Volume Path Names](https://www.bing.com/search?q=Displaying Volume Path Names).
+> You can convert the \\Device\\*HarddiskVolumeX* path to an equivalent Win32 path by using the [**QueryDosDevice**](https://msdn.microsoft.com/ff25bc2b-dde6-40c3-a270-372daab2e5c4) function. For more information, see [Obtaining a File Name From a File Handle](https://msdn.microsoft.com/359673bf-cc4c-4881-b946-ecdbef4a7ecb) or [Displaying Volume Path Names](https://www.bing.com/search?q=Displaying+Volume+Path+Names).
 
  
 
@@ -52,9 +52,9 @@ When backing up the registry hives, a requester would replace \\Device\\*Harddis
 
 For an online (safe mode or full operating system) restore, the subkeys in the **HKEY\_LOCAL\_MACHINE**\\**SYSTEM**\\**CurrentControlSet**\\**Control**\\**Session Manager**\\**PendingFileRenameOperations** registry key must be preserved.
 
-The [**MoveFileEx**](https://msdn.microsoft.com/windows/desktop/5fb4f897-66ed-49d7-913a-fb6e7cecdfa3) and [**MoveFileTransacted**](https://msdn.microsoft.com/windows/desktop/466d733b-30d2-4297-a0e6-77038f1a21d5) functions use this registry key to store information about files that were renamed by using the MOVEFILE\_DELAY\_UNTIL\_REBOOT value in the *dwFlags* parameter.
+The [**MoveFileEx**](https://msdn.microsoft.com/5fb4f897-66ed-49d7-913a-fb6e7cecdfa3) and [**MoveFileTransacted**](https://msdn.microsoft.com/466d733b-30d2-4297-a0e6-77038f1a21d5) functions use this registry key to store information about files that were renamed by using the MOVEFILE\_DELAY\_UNTIL\_REBOOT value in the *dwFlags* parameter.
 
-To preserve the contents of the **PendingFileRenameOperations** registry key, your backup application should call the [**RegLoadKey**](https://msdn.microsoft.com/windows/desktop/536395aa-03ba-430d-a66d-fcabdc9dfe22) function to connect the registry file to be restored to the active registry. Your backup application can then use the various registry functions to copy the desired keys and values into the loaded hive. After the copy is complete, the [**RegFlushKey**](https://msdn.microsoft.com/windows/desktop/ae1160be-1da7-4621-a0fc-727aa229ec06) and [**RegUnloadKey**](https://msdn.microsoft.com/windows/desktop/73b4b6a9-4acb-4247-bd7f-82024ba3e14a) functions should be called.
+To preserve the contents of the **PendingFileRenameOperations** registry key, your backup application should call the [**RegLoadKey**](https://msdn.microsoft.com/536395aa-03ba-430d-a66d-fcabdc9dfe22) function to connect the registry file to be restored to the active registry. Your backup application can then use the various registry functions to copy the desired keys and values into the loaded hive. After the copy is complete, the [**RegFlushKey**](https://msdn.microsoft.com/ae1160be-1da7-4621-a0fc-727aa229ec06) and [**RegUnloadKey**](https://msdn.microsoft.com/73b4b6a9-4acb-4247-bd7f-82024ba3e14a) functions should be called.
 
 For an offline (Windows Recovery Environment or Windows PE) restore, it is not necessary to honor the **PendingFileRenameOperations** registry key.
 

@@ -39,9 +39,9 @@ ULONG APIENTRY OEMGetGlyphMode(
 
 ### Comments
 
-See [**DrvGetGlyphMode**](https://www.bing.com/search?q=**DrvGetGlyphMode**).
+See [**DrvGetGlyphMode**](https://msdn.microsoft.com/8e11c4e7-0203-4445-8f33-3b928161c62a).
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the drawing DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvGetGlyphMode** function pointer.
 

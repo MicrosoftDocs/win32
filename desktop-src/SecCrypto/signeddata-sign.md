@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # SignedData.Sign method
 
-\[The **Sign** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](https://www.bing.com/search?q=**SignedCms Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
+\[The **Sign** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](https://www.bing.com/search?q=**SignedCms+Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
 
-The **Sign** method creates a [*digital signature*](https://www.bing.com/search?q=*digital signature*) on the content to be signed. A digital signature consists of a [*hash*](https://www.bing.com/search?q=*hash*) of the content to be signed that is encrypted by using the private key of the signer. This method can only be used after the [**SignedData.Content**](signeddata-content.md) property has been initialized. If the **Sign** method is called on an object that already has a signature, the old signature is replaced. The signature is created by using the SHA1 signing algorithm.
+The **Sign** method creates a [*digital signature*](security.d_gly#-security-digital-signature-gly) on the content to be signed. A digital signature consists of a [*hash*](security.h_gly#-security-hash-gly) of the content to be signed that is encrypted by using the private key of the signer. This method can only be used after the [**SignedData.Content**](signeddata-content.md) property has been initialized. If the **Sign** method is called on an object that already has a signature, the old signature is replaced. The signature is created by using the SHA1 signing algorithm.
 
 ## Syntax
 
@@ -35,7 +35,7 @@ SignedData.Sign( _
 *Signer* \[in, optional\]
 </dt> <dd>
 
-A reference to the [**Signer**](signer.md) object of the signer of the data. The **Signer** object must have access to the [*private key*](https://www.bing.com/search?q=*private key*) of the [*certificate*](https://www.bing.com/search?q=*certificate*) used to sign. This parameter can be **NULL**; for more information, see Remarks.
+A reference to the [**Signer**](signer.md) object of the signer of the data. The **Signer** object must have access to the [*private key*](security.p_gly#-security-private-key-gly) of the [*certificate*](security.c_gly#-security-certificate-gly) used to sign. This parameter can be **NULL**; for more information, see Remarks.
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ If this method fails, an error will be thrown. The **Err** object will contain a
 
  
 
-Because creating a [*digital signature*](https://www.bing.com/search?q=*digital signature*) requires the use of a [*private key*](https://www.bing.com/search?q=*private key*), web-based applications that attempt to use this method will require user interface prompts that allow the user to approve the use of the private key, for security reasons.
+Because creating a [*digital signature*](security.d_gly#-security-digital-signature-gly) requires the use of a [*private key*](security.p_gly#-security-private-key-gly), web-based applications that attempt to use this method will require user interface prompts that allow the user to approve the use of the private key, for security reasons.
 
 The following results apply to the *Signer* parameter value:
 

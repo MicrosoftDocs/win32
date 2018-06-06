@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # BasicConstraints.IsPathLenConstraintPresent property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**X509BasicConstraintsExtension Class**](https://www.bing.com/search?q=**X509BasicConstraintsExtension Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**X509BasicConstraintsExtension Class**](https://www.bing.com/search?q=**X509BasicConstraintsExtension+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
 The **IsPathLenConstraintPresent** property retrieves a Boolean value that indicates whether the path length constraint is present.
 

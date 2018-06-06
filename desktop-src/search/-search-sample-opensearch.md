@@ -102,7 +102,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Other Resources**
 </dt> <dt>
 
-[Library Description Schema](https://www.bing.com/search?q=Library Description Schema)
+[Library Description Schema](https://www.bing.com/search?q=Library+Description+Schema)
 </dt> </dl>
 
  

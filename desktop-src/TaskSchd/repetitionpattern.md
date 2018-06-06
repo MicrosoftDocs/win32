@@ -85,7 +85,7 @@ For more information and example code for this property, see [Daily Trigger Exam
 
 <dl> <dt>
 
-[Task Scheduler Objects](https://www.bing.com/search?q=Task Scheduler Objects)
+[Task Scheduler Objects](task-scheduler-objects.md#)
 </dt> <dt>
 
 [Task Scheduler](task-scheduler-start-page.md)

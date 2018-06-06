@@ -19,7 +19,7 @@ The Microsoft Active Directory directory service property sheet, context menu, a
 
 ## Debugging Active Directory Extensions Displayed in the Windows Shell
 
-Active Directory extensions displayed in the Windows shell are loaded in the context of the Explorer.exe process. These extensions can be debugged like a standard shell extension. For more information about debugging shell extensions, see [Debugging with the Shell](https://www.bing.com/search?q=Debugging with the Shell).
+Active Directory extensions displayed in the Windows shell are loaded in the context of the Explorer.exe process. These extensions can be debugged like a standard shell extension. For more information about debugging shell extensions, see [Debugging with the Shell](https://www.bing.com/search?q=Debugging+with+the+Shell).
 
 ## Debugging Active Directory Extensions Displayed in the Active Directory MMC Snap-Ins
 

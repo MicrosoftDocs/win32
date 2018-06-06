@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ProtectKeyWithCertificateThumbprint method of the Win32\_EncryptableVolume class
 
-The **ProtectKeyWithCertificateThumbprint** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class validates the Enhanced Key Usage (EKU) [*object identifier*](https://www.bing.com/search?q=*object identifier*) (OID) of the provided certificate.
+The **ProtectKeyWithCertificateThumbprint** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class validates the Enhanced Key Usage (EKU) [*object identifier*](security.o_gly#-security-object-identifier-gly) (OID) of the provided certificate.
 
 ## Syntax
 

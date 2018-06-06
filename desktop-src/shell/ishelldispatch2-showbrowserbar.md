@@ -84,7 +84,7 @@ Returns **true** if successful; otherwise, **false**.
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.ShowBrowserBar**](https://msdn.microsoft.com/windows/desktop/203636D2-54D3-4163-B9AC-39213D6F4203) method.
+This method is implemented and accessed through the [**Shell.ShowBrowserBar**](https://msdn.microsoft.com/203636D2-54D3-4163-B9AC-39213D6F4203) method.
 
 You can display one of the standard Explorer Bars by setting the *sCLSID* parameter to the CLSID of that Explorer Bar. The standard Explorer Bars and their CLSID strings are as follows:
 

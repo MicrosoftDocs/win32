@@ -142,7 +142,7 @@ The following example demonstrates the use of accelerator keys.
 
 <dl> <dt>
 
-[Using Keyboard Accelerators](https://www.bing.com/search?q=Using Keyboard Accelerators)
+[Using Keyboard Accelerators](https://www.bing.com/search?q=Using+Keyboard+Accelerators)
 </dt> <dt>
 
 [**TranslateAccelerator**](https://www.bing.com/search?q=**TranslateAccelerator**)

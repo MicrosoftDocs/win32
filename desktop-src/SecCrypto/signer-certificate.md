@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Signer.Certificate property
 
-\[The **Certificate** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](https://www.bing.com/search?q=**CmsSigner Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
+\[The **Certificate** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](https://www.bing.com/search?q=**CmsSigner+Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
 
 The **Certificate** property sets or retrieves the [**Certificate**](certificate.md) object that represents the certificate of a signer of the data. This is the default property.
 
@@ -30,7 +30,7 @@ The [**Certificate**](certificate.md) object that represents the certificate of 
 
 ## Remarks
 
-When the value of this property is reset, directly or indirectly, the whole [*state*](https://www.bing.com/search?q=*state*) of the object is reset.
+When the value of this property is reset, directly or indirectly, the whole [*state*](security.s_gly#-security-state-gly) of the object is reset.
 
 ## Requirements
 

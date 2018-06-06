@@ -34,7 +34,7 @@ BOOL CertStoreProvFreeFindCTL(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://www.bing.com/search?q=*certificate store*).
+**HCERTSTOREPROV** handle to a [*certificate store*](security.c_gly#-security-certificate-store-gly).
 
 </dd> <dt>
 

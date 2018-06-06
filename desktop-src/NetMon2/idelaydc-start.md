@@ -31,7 +31,7 @@ HRESULT STDMETHODCALLTYPE Start(
 *pFileName* \[out\]
 </dt> <dd>
 
-Pointer to the name of the [*capture file*](https://www.bing.com/search?q=*capture file*) used to store the network data. Be sure to cache this file name if it is needed for future reference.
+Pointer to the name of the [*capture file*](c.md#-netmon-capture-file-gly) used to store the network data. Be sure to cache this file name if it is needed for future reference.
 
 </dd> </dl>
 
@@ -56,7 +56,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 ## Remarks
 
-The location of the [*capture file*](https://www.bing.com/search?q=*capture file*) is specified in your Windows registry, but you can use Network Monitor to change the file's location.
+The location of the [*capture file*](c.md#-netmon-capture-file-gly) is specified in your Windows registry, but you can use Network Monitor to change the file's location.
 
 To restart the capture by using **IDelaydC::Start** and [**IDelaydC::Stop**](idelaydc-stop.md), you must call the [**IDelaydC::Configure**](idelaydc-configure.md) method to reconfigure the connection each time you call the **IDelaydC::Start** method to restart capturing data. When you start and stop the capture with these three methods, a new capture file is created each time the capture is started.
 

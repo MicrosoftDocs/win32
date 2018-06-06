@@ -55,7 +55,7 @@ Access type: Read-only
 Qualifiers: WmiDataId(4)
 </dt> </dl>
 
-Values passed in the *CreateOptions* and *CreateDispositions* parameters to the [**NtCreateFile**](https://msdn.microsoft.com/windows/desktop/82965665-8531-4cca-bf37-6044e154d43b) function.
+Values passed in the *CreateOptions* and *CreateDispositions* parameters to the [**NtCreateFile**](https://msdn.microsoft.com/82965665-8531-4cca-bf37-6044e154d43b) function.
 
 </dd> <dt>
 
@@ -71,7 +71,7 @@ Access type: Read-only
 Qualifiers: WmiDataId(5)
 </dt> </dl>
 
-Value passed in the *FileAttributes* parameter to the [**NtCreateFile**](https://msdn.microsoft.com/windows/desktop/82965665-8531-4cca-bf37-6044e154d43b) function.
+Value passed in the *FileAttributes* parameter to the [**NtCreateFile**](https://msdn.microsoft.com/82965665-8531-4cca-bf37-6044e154d43b) function.
 
 </dd> <dt>
 
@@ -135,7 +135,7 @@ Access type: Read-only
 Qualifiers: WmiDataId(6)
 </dt> </dl>
 
-Value passed in the *ShareAccess* parameter to the [**NtCreateFile**](https://msdn.microsoft.com/windows/desktop/82965665-8531-4cca-bf37-6044e154d43b) function.
+Value passed in the *ShareAccess* parameter to the [**NtCreateFile**](https://msdn.microsoft.com/82965665-8531-4cca-bf37-6044e154d43b) function.
 
 </dd> <dt>
 

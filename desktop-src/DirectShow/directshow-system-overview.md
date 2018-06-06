@@ -31,7 +31,7 @@ DirectShow provides filters that support capture and tuning devices based on the
 
 The following diagram shows the relationship between an application, the DirectShow components, and some of the hardware and software components that DirectShow supports.
 
-![high level architecture](https://www.bing.com/search?q=high level architecture)
+![high level architecture](https://www.bing.com/search?q=high+level+architecture)
 
 As illustrated here, DirectShow filters communicate with, and control, a wide variety of devices, including the local file system, TV tuner and video capture cards, VfW codecs, the video display (through DirectDraw or GDI), and the sound card (through DirectSound). Thus, DirectShow insulates the application from many of the complexities of these devices. DirectShow also provides native compression and decompression filters for certain file formats.
 

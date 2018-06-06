@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using Cert2SPC
 
-The following command wraps an [*X.509*](https://www.bing.com/search?q=*X.509*) certificate, *MyCert*.cer, into a test PKCS \#7 [*Software Publisher Certificate*](https://www.bing.com/search?q=*Software Publisher Certificate*) (SPC), called *MyCert*.spc. The SPC created is to be used for test purposes only. An SPC used to actually sign code to be distributed to the public must be obtained from GTE, VeriSign, Inc., or another trusted [*certification authority*](https://www.bing.com/search?q=*certification authority*) (CA).
+The following command wraps an [*X.509*](security.x_gly#-security-x-509-gly) certificate, *MyCert*.cer, into a test PKCS \#7 [*Software Publisher Certificate*](security.s_gly#-security-software-publisher-certificate-gly) (SPC), called *MyCert*.spc. The SPC created is to be used for test purposes only. An SPC used to actually sign code to be distributed to the public must be obtained from GTE, VeriSign, Inc., or another trusted [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA).
 
 **Cert2SPC** *MyCert***.cer** *MyCert***.spc**
 

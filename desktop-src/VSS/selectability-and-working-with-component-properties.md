@@ -16,7 +16,7 @@ Working with implicitly selected components requires access to both the Backup C
 There are two reasons for this:
 
 -   The component data stored in the Backup Components Document (represented by the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface) lacks access to component file set information—file specification, path, and recursion flag. (See [Working with the Backup Components Document](working-with-the-backup-components-document.md).)
--   Only components that are [*included explicitly*](https://www.bing.com/search?q=*included explicitly*) in the Backup Components Document during backup have their information directly stored in the Backup Components Document. Requesters and writers must use the information available through the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface, in conjunction with [*logical path*](https://www.bing.com/search?q=*logical path*) information and Writer Metadata Documents to obtain information about, and set properties of, [*implicitly included*](https://www.bing.com/search?q=*implicitly included*) components.
+-   Only components that are [*included explicitly*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion) in the Backup Components Document during backup have their information directly stored in the Backup Components Document. Requesters and writers must use the information available through the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface, in conjunction with [*logical path*](vssgloss-l.md#base-vssgloss-logical-path) information and Writer Metadata Documents to obtain information about, and set properties of, [*implicitly included*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion) components.
 
 The "MyWriter" case discussed in [Logical Pathing of Components](logical-pathing-of-components.md) can be used to illustrate selectability for backup.
 
@@ -48,13 +48,13 @@ The "MyWriter" case discussed in [Logical Pathing of Components](logical-pathing
 
 ## Implicitly Included Components in the Backup Set
 
-While examining a writer's Writer Metadata Document (see [**IVssBackupComponents::GetWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata)) during backup, a requester should be storing a list of all components, their [*logical paths*](https://www.bing.com/search?q=*logical paths*), and their file set information.
+While examining a writer's Writer Metadata Document (see [**IVssBackupComponents::GetWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata)) during backup, a requester should be storing a list of all components, their [*logical paths*](vssgloss-l.md#base-vssgloss-logical-path), and their file set information.
 
 File set and excluded file information will be needed to determine a list of files for any (explicitly or implicitly) included component.
 
-For nonselectable for backup components with no selectable for backup ancestors and selectable for backup components that do not define a [*component set*](https://www.bing.com/search?q=*component set*), only file set and excluded file information will be needed to identify all the component's candidates for backup, because these components do not define subcomponents.
+For nonselectable for backup components with no selectable for backup ancestors and selectable for backup components that do not define a [*component set*](vssgloss-c.md#base-vssgloss-component-set), only file set and excluded file information will be needed to identify all the component's candidates for backup, because these components do not define subcomponents.
 
-For explicitly included selectable for backup components that define a component set, the file sets and exclude file information both for the defining component and all [*subcomponents*](https://www.bing.com/search?q=*subcomponents*) needs to be used to select files for backup.
+For explicitly included selectable for backup components that define a component set, the file sets and exclude file information both for the defining component and all [*subcomponents*](vssgloss-s.md#base-vssgloss-subcomponent) needs to be used to select files for backup.
 
 This means that backup sets for the components "Executables", "ConfigFiles", and "LicenseInfo" can be found only by examining the writer metadata for just these components using their instances of the [**IVssWMComponent**](/windows/desktop/api/VsBackup/nl-vsbackup-ivsswmcomponent) interface.
 

@@ -11,43 +11,43 @@ ms.date: 05/31/2018
 
 # Definition of Components by Writers
 
-Components are defined by and instantiated by writers in their Writer Metadata Document in response to an [*Identify event*](https://www.bing.com/search?q=*Identify event*) at the start of a backup operation (see [Overview of Backup Initialization](overview-of-backup-initialization.md)) when the Writer Metadata Document is populated.
+Components are defined by and instantiated by writers in their Writer Metadata Document in response to an [*Identify event*](vssgloss-i.md#base-vssgloss-identify-event) at the start of a backup operation (see [Overview of Backup Initialization](overview-of-backup-initialization.md)) when the Writer Metadata Document is populated.
 
 When creating a component in its Writer Metadata Document, using [**IVssCreateWriterMetadata**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscreatewritermetadata) and [**IVssCreateWriterMetadata::AddComponent**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponent), a writer must specify:
 
--   Whether the component is [*selectable for backup*](https://www.bing.com/search?q=*selectable for backup*)
+-   Whether the component is [*selectable for backup*](vssgloss-s.md#base-vssgloss-selectability-for-backup)
 -   A component type
--   A component name (which must be unique not only within a given [*writer instance*](https://www.bing.com/search?q=*writer instance*) but across all writer instances)
+-   A component name (which must be unique not only within a given [*writer instance*](vssgloss-w.md#base-vssgloss-writer-instance) but across all writer instances)
 -   Whether the component has any writer-specific metadata associated with it
 -   Whether the writer requires notification following a successful backup
 
 Writers can optionally specify:
 
--   A component's [*logical path*](https://www.bing.com/search?q=*logical path*) (which must be unique not only within a given writer instance but across all writer instances)
+-   A component's [*logical path*](vssgloss-l.md#base-vssgloss-logical-path) (which must be unique not only within a given writer instance but across all writer instances)
 -   A component description (or caption)
 -   An icon to be used with GUIs to indicate the component
 
-It is not necessary for a component to actually contain any files. This sort of empty or "dummy" component can be useful in organizing components. Such a component can be used to define a [*component set*](https://www.bing.com/search?q=*component set*) and a writer's component (see [Logical Pathing of Components](logical-pathing-of-components.md)).
+It is not necessary for a component to actually contain any files. This sort of empty or "dummy" component can be useful in organizing components. Such a component can be used to define a [*component set*](vssgloss-c.md#base-vssgloss-component-set) and a writer's component (see [Logical Pathing of Components](logical-pathing-of-components.md)).
 
 ## Setting Up Component Organization
 
-Setting a component's [*selectability*](https://www.bing.com/search?q=*selectability*) (its [*selectability for backup*](https://www.bing.com/search?q=*selectability for backup*), and its [*selectability for restore*](#base-vssgloss-selectability-for-restore)) and its [*logical paths*](https://www.bing.com/search?q=*logical paths*) allows a writer to mandate or make optional the inclusion of certain components in a backup or restore operation, and to group components into [*component sets*](https://www.bing.com/search?q=*component sets*) with one selectable component acting as an entry point to the whole group.
+Setting a component's [*selectability*](vssgloss-s.md#base-vssgloss-selectable-component) (its [*selectability for backup*](vssgloss-s.md#base-vssgloss-selectability-for-backup), and its [*selectability for restore*](#base-vssgloss-selectability-for-restore)) and its [*logical paths*](vssgloss-l.md#base-vssgloss-logical-path) allows a writer to mandate or make optional the inclusion of certain components in a backup or restore operation, and to group components into [*component sets*](vssgloss-c.md#base-vssgloss-component-set) with one selectable component acting as an entry point to the whole group.
 
 Membership in these groupings determines which components will be used during backup and restore operations. Using "selectable" to mean selectable for back for backup operation, and selectable for restore for restore operation, developers should understand that:
 
--   If any components managed by a given writer are backed up, then a requester must [*explicitly include*](https://www.bing.com/search?q=*explicitly include*) all nonselectable [*components*](https://www.bing.com/search?q=*components*) without selectable ancestors in their [*logical path*](https://www.bing.com/search?q=*logical path*) to the Backup Components Document and back up and restore those components as a group.
+-   If any components managed by a given writer are backed up, then a requester must [*explicitly include*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion) all nonselectable [*components*](vssgloss-c.md#base-vssgloss-component) without selectable ancestors in their [*logical path*](vssgloss-l.md#base-vssgloss-logical-path) to the Backup Components Document and back up and restore those components as a group.
 -   A requester has the option of explicitly adding selectable components to the Backup Components Document during backup and restore operations; once added, the component must be backed up or restored.
--   If a component is selectable, the component and all of its [*subcomponents*](https://www.bing.com/search?q=*subcomponents*) (as defined by logical paths) form a component set, which can be treated as a single unit that may optionally participate in backup and restore operations.
+-   If a component is selectable, the component and all of its [*subcomponents*](vssgloss-s.md#base-vssgloss-subcomponent) (as defined by logical paths) form a component set, which can be treated as a single unit that may optionally participate in backup and restore operations.
 -   A requester never explicitly adds a nonselectable component with selectable ancestors, a subcomponent in a component set, to its Backup Components Document during backup and restore operations. These components must be [*implicitly included*](#base-vssgloss-implicit-component-inclusion) if their selectable ancestor is explicitly added, in which case they must be backed up or restored (see [Use of Components by the Requester](use-of-components-by-the-requestor.md)).
--   A selectable component with a selectable ancestor is still a [*subcomponent*](https://www.bing.com/search?q=*subcomponent*) (a member of a component set) and may be implicitly included if its selectable ancestor is explicitly included in the operation. In this case, its information is not added to the Backup Components Document. If its selectable ancestor is not included in the operation, the component can be explicitly selected for inclusion in the operation, in which case its information is included in the Backup Components Document.
+-   A selectable component with a selectable ancestor is still a [*subcomponent*](vssgloss-s.md#base-vssgloss-subcomponent) (a member of a component set) and may be implicitly included if its selectable ancestor is explicitly included in the operation. In this case, its information is not added to the Backup Components Document. If its selectable ancestor is not included in the operation, the component can be explicitly selected for inclusion in the operation, in which case its information is included in the Backup Components Document.
 -   A subcomponent implicitly included in a backup can be explicitly included in a restore operation, regardless of the status of any selectable ancestor, if it is selectable for restore. Any selectable for restore subcomponent included during a restore operation must have its information added to the Backup Components Document.
--   A writer that has had no component explicitly added to the Backup Components Document prior to the generation of [*PrepareForBackup*](https://www.bing.com/search?q=*PrepareForBackup*) and [*PreRestore*](https://www.bing.com/search?q=*PreRestore*) events will not receive any further VSS events.
+-   A writer that has had no component explicitly added to the Backup Components Document prior to the generation of [*PrepareForBackup*](vssgloss-p.md#base-vssgloss-prepareforbackup-event) and [*PreRestore*](vssgloss-p.md#base-vssgloss-prerestore-event) events will not receive any further VSS events.
 
 For more information, see [Working with Selectability and Logical Paths](working-with-selectability-and-logical-paths.md).
 
 ## Adding Files to a Component
 
-A component contains file information in the form of a [*file set*](https://www.bing.com/search?q=*file set*) that contains:
+A component contains file information in the form of a [*file set*](vssgloss-f.md#base-vssgloss-file-set) that contains:
 
 -   A root directory of the files in the component.
 -   A file specification for the files in the component.
@@ -99,7 +99,7 @@ Note that such Writer Metadata Document attributes as alternate location mapping
 
 ## Component Definition for Backup and Restore Operations
 
-Both restore and backup operations necessarily generate an [*Identify event*](https://www.bing.com/search?q=*Identify event*), and for both backups and restores it will be handled by the same [**CVssWriter::OnIdentify**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onidentify) method.
+Both restore and backup operations necessarily generate an [*Identify event*](vssgloss-i.md#base-vssgloss-identify-event), and for both backups and restores it will be handled by the same [**CVssWriter::OnIdentify**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onidentify) method.
 
 During backup operations, requesters use the information returned by a writer's [**CVssWriter::OnIdentify**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onidentify) methods to determine which writers are present on the system and then to determine which of their files to back up.
 

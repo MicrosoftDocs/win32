@@ -107,7 +107,7 @@ Bundles inherit all graphics pipeline state that is not set with PSOs except for
 
 Resource bindings that are set within a command list or bundle do persist. So resource bindings modified in a direct command list will still be set within subsequent child bundle execution. And resource bindings modified from within a bundle will still be set for subsequent calls within the parent direct command list.
 
-For more information on bindings, refer to the **Bundle Semantics** section of [Using a Root Signature](https://www.bing.com/search?q=Using a Root Signature).
+For more information on bindings, refer to the **Bundle Semantics** section of [Using a Root Signature](using-a-root-signature.md#bundle-semantics).
 
 ## Related topics
 

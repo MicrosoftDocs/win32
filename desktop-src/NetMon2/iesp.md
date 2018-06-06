@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IESP interface
 
-The **IESP** interface provides the methods that connect the NPP to the network, capture network traffic to a capture file, retrieve statistics, and disconnect the NPP from the network. This interface is used primarily when you need to collect network [*conversation statistics*](https://www.bing.com/search?q=*conversation statistics*) in a proprietary ESP file format.
+The **IESP** interface provides the methods that connect the NPP to the network, capture network traffic to a capture file, retrieve statistics, and disconnect the NPP from the network. This interface is used primarily when you need to collect network [*conversation statistics*](c.md#-netmon-conversation-statistics-gly) in a proprietary ESP file format.
 
 ## Members
 
@@ -30,7 +30,7 @@ The **IESP** interface has these methods.
 | [**Configure**](iesp-configure.md)             | Submits configuration information for a capture<br/>                                                                         |
 | [**Connect**](iesp-connect.md)                 | Connects the NPP to the network.<br/>                                                                                        |
 | [**Disconnect**](iesp-disconnect.md)           | Disconnects the NPP from the network.<br/>                                                                                   |
-| [**GetControlState**](iesp-getcontrolstate.md) | Retrieves the state of the [*capture*](https://www.bing.com/search?q=*capture*), which indicates if the capture is running or paused.<br/> |
+| [**GetControlState**](iesp-getcontrolstate.md) | Retrieves the state of the [*capture*](c.md#-netmon-capture-gly), which indicates if the capture is running or paused.<br/> |
 | [**Pause**](iesp-pause.md)                     | Temporarily stops the current capture.<br/>                                                                                  |
 | [**QueryStations**](iesp-querystations.md)     | Retrieves a list of all computers that are using Network Monitor to capture data on a subnet.<br/>                           |
 | [**QueryStatus**](iesp-querystatus.md)         | Retrieves the status of the NPP.<br/>                                                                                        |

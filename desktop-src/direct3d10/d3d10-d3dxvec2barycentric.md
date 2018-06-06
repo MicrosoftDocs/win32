@@ -36,7 +36,7 @@ D3DXVECTOR2* D3DXVec2BaryCentric(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/windows/desktop/e61ec1c8-00b5-491f-8fb1-be97218f6c68)\***
+Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
 
 Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the operation.
 
@@ -45,7 +45,7 @@ Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the
 *pV1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/windows/desktop/e61ec1c8-00b5-491f-8fb1-be97218f6c68)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
 
 Pointer to a source D3DXVECTOR2 structure.
 
@@ -54,7 +54,7 @@ Pointer to a source D3DXVECTOR2 structure.
 *pV2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/windows/desktop/e61ec1c8-00b5-491f-8fb1-be97218f6c68)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
 
 Pointer to a source D3DXVECTOR2 structure.
 
@@ -63,7 +63,7 @@ Pointer to a source D3DXVECTOR2 structure.
 *pV3* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/windows/desktop/e61ec1c8-00b5-491f-8fb1-be97218f6c68)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
 
 Pointer to a source D3DXVECTOR2 structure.
 
@@ -72,7 +72,7 @@ Pointer to a source D3DXVECTOR2 structure.
 *f* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Weighting factor. See Remarks.
 
@@ -81,7 +81,7 @@ Weighting factor. See Remarks.
 *g* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Weighting factor. See Remarks.
 
@@ -89,7 +89,7 @@ Weighting factor. See Remarks.
 
 ## Return value
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/windows/desktop/e61ec1c8-00b5-491f-8fb1-be97218f6c68)\***
+Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
 
 Pointer to a D3DXVECTOR2 structure in Barycentric coordinates.
 

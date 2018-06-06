@@ -20,7 +20,7 @@ The `IxpsDocumentProvider` interface provides interfaces to consume parts of a d
 
 ## Members
 
-The **IXpsDocumentProvider** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IXpsDocumentProvider** also has these types of members:
+The **IXpsDocumentProvider** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IXpsDocumentProvider** also has these types of members:
 
 -   [Methods](#methods)
 

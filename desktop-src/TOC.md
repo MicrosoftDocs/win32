@@ -3,7 +3,7 @@
 ##Get Started
 ###[Choose Your Technology](choose-your-technology.md)
 ###[What's new](windows-8.md)
-####whatsnew
+####[Windows 8 and 8.1 Technologies](whatsnew/windows-8-technologies.md)
 ####[Compatibility cookbook for Windows](w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal.md)
 ####[Windows 7](windows-7.md)
 #####[Windows 7 and Windows Server 2008 R2 Application Quality Cookbook](win7appqual/windows-7-application-quality-cookbook.md)
@@ -64,7 +64,7 @@
 ######[Backup](backup/backup.md)
 ######[Volume Shadow Copy Service](vss/volume-shadow-copy-service-portal.md)
 #####[Cloud Filter API](cfapi/cloud-files-api-portal.md)
-#####dfs
+#####[Distributed File System](dfs/distributed-file-system.md)
 #####Extensible Storage Engine
 #####[Image Mastering API](imapi/portal.md)
 #####Imaging API
@@ -89,7 +89,7 @@
 #####[Network Diagnostics Framework](ndf/portal.md)
 #####[Network Monitor](netmon2/network-monitor.md)
 #####[Performance Counters](perfctrs/performance-counters-portal.md)
-#####proc_snap
+#####[Process Snapshotting](proc_snap/process-snapshotting-portal.md)
 #####[Process Status API (PSAPI)](psapi/PSAPI)
 #####[System Event Notification Service](sens/system-event-notification-service-portal.md)
 #####[System Monitor](sysmon/system-monitor-portal.md)
@@ -101,7 +101,7 @@
 ######[Event Logging](eventlog/event-logging.md)
 ######[Windows Event Log](wes/windows-event-log.md)
 ######[Windows Event Collector](wec/windows-event-collector.md)
-####printdocs
+####[Documents and Printing](printdocs/documents-and-printing.md)
 ####[Graphics and Gaming](graphics-and-multimedia.md)
 #####[DirectX Graphics and Gaming](directx.md)
 ######[Getting Started with DirectX Graphics](getting-started-with-directx-graphics.md)
@@ -221,12 +221,12 @@
 #####[Windows Management Instrumentation](wmisdk/wmi-start-page.md)
 #####Windows Management Infrastructure Managed API
 #####WMI Providers
-######bcd
+######[Boot Configuration Data WMI Provider](bcd/boot-configuration-data-portal.md)
 ######[Boot Event Collector WMI Provider](bevtcolprov/boot-event-collector-wmi-provider-portal.md)
-######cimwin32a
+######[CIMWin32a Provider](cimwin32a/cimwin32a-provider-classes.md)
 ######[Hyper-V management](hyperv_v2/hyper-v-management.md)
 ######[MDM Bridge WMI Provider](dmwmibridgeprov/mdm-bridge-wmi-provider-portal.md)
-######sppwmi
+######[Software License Provider](sppwmi/software-license-provider-.md)
 ######[Windows System Assessment Tool](winsat/windows-system-assessment-tool-portal.md)
 ######[WMI Core Provider](wmicoreprov/wmi-core-provider-.md)
 #####[Windows Remote Management](winrm/portal.md)

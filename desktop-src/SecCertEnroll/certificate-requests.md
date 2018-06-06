@@ -26,7 +26,7 @@ The Certificate Enrollment SDK can be used to create PKCS \#10, PKCS \#7, CMC, a
 
 The following illustration shows the inheritance structure of the request objects supported by the Certificate Enrollment API. An [**IX509CertificateRequest**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequest) object serves, directly or indirectly, as the base class for all of the available request objects.
 
-![inheritance structure for the request interfaces](https://www.bing.com/search?q=inheritance structure for the request interfaces)
+![inheritance structure for the request interfaces](https://www.bing.com/search?q=inheritance+structure+for+the+request+interfaces)
 
 Regardless of type, a certificate request contains information about the subject making the request, the subject's public key, a set of attributes, a set of X.509 version 3 extensions (which may be submitted as part of the attributes), and a signature. These issues are addressed by the following topics:
 

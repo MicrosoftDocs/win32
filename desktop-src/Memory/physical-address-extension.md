@@ -17,7 +17,7 @@ The Intel Itanium and x64 processor architectures can access more than 4 GB of p
 
 With PAE, the operating system moves from two-level linear address translation to three-level address translation. Instead of a linear address being split into three separate fields for indexing into memory tables, it is split into four separate fields: a 2-bit bitfield, two 9-bit bitfields, and a 12-bit bitfield that corresponds to the page size implemented by Intel architecture (4 KB). The size of page table entries (PTEs) and page directory entries (PDEs) in PAE mode is increased from 32 to 64 bits. The additional bits allow an operating system PTE or PDE to reference physical memory above 4 GB.
 
-In 32-bit Windows running on x64-based systems, PAE also enables several advanced system and processor features, including hardware-enabled [Data Execution Prevention](data-execution-prevention.md) (DEP), [non-uniform memory access (NUMA)](https://msdn.microsoft.com/windows/desktop/a1263968-2b26-45cc-bdd7-6aa354821a5a), and the ability to add memory to a system while it is running (hot-add memory).
+In 32-bit Windows running on x64-based systems, PAE also enables several advanced system and processor features, including hardware-enabled [Data Execution Prevention](data-execution-prevention.md) (DEP), [non-uniform memory access (NUMA)](https://msdn.microsoft.com/a1263968-2b26-45cc-bdd7-6aa354821a5a), and the ability to add memory to a system while it is running (hot-add memory).
 
 PAE does not change the amount of virtual address space available to a process. Each process running in 32-bit Windows is still limited to a 4 GB virtual address space.
 
@@ -35,12 +35,12 @@ PAE is supported only on the following 32-bit versions of Windows running on x86
 
 Windows automatically enables PAE if DEP is enabled on a computer that supports hardware-enabled DEP, or if the computer is configured for hot-add memory devices in memory ranges beyond 4 GB. If the computer does not support hardware-enabled DEP or is not configured for hot-add memory devices in memory ranges beyond 4 GB, PAE must be explicitly enabled.
 
-To explicitly enable PAE, use the following [**BCDEdit /set**](https://www.bing.com/search?q=**BCDEdit /set**) command to set the **pae** boot entry option:
+To explicitly enable PAE, use the following [**BCDEdit /set**](https://www.bing.com/search?q=**BCDEdit+/set**) command to set the **pae** boot entry option:
 
 <dl> **bcdedit /set \[{ID}\] pae ForceEnable**  
 </dl>
 
-IF DEP is enabled, PAE cannot be disabled. Use the following [**BCDEdit /set**](https://www.bing.com/search?q=**BCDEdit /set**) commands to disable both DEP and PAE:
+IF DEP is enabled, PAE cannot be disabled. Use the following [**BCDEdit /set**](https://www.bing.com/search?q=**BCDEdit+/set**) commands to disable both DEP and PAE:
 
 <dl> **bcdedit /set \[{ID}\] nx AlwaysOff**  
 **bcdedit /set \[{ID}\] pae ForceDisable**  
@@ -66,7 +66,7 @@ AWE does not require PAE or 4GT but is often used together with PAE to allocate 
 
 <dl> <dt>
 
-[**IsProcessorFeaturePresent**](https://msdn.microsoft.com/windows/desktop/c58cfb0a-f40f-429c-abe9-83b6f038f612)
+[**IsProcessorFeaturePresent**](https://msdn.microsoft.com/c58cfb0a-f40f-429c-abe9-83b6f038f612)
 </dt> <dt>
 
 [PAE X86 Technical Reference](http://go.microsoft.com/fwlink/p/?linkid=93594)

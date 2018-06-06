@@ -40,7 +40,7 @@ A pointer to a [**DEVOBJ**](devobj.md) structure.
 *psoPattern* 
 </dt> <dd>
 
-A pointer to the [**SURFOBJ**](https://www.bing.com/search?q=**SURFOBJ**) structure that contains the pattern to download.
+A pointer to the [**SURFOBJ**](https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34) structure that contains the pattern to download.
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ You should implement this method if you want your rendering plug-in, rather than
 [**IPrintOemUni3**](iprintoemuni3-interface.md)
 </dt> <dt>
 
-[**DrvRealizeBrush**](https://www.bing.com/search?q=**DrvRealizeBrush**)
+[**DrvRealizeBrush**](https://msdn.microsoft.com/2948f274-cef2-4fcf-9607-79540b6e5a5f)
 </dt> </dl>
 
  

@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # Open and Save As Dialog Boxes
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](https://www.bing.com/search?q=Common Item Dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](https://www.bing.com/search?q=Common+Item+Dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 The **Open** dialog box lets the user specify the drive, directory, and the name of a file or set of files to open. You create and display an **Open** dialog box by initializing an [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna) structure and passing the structure to the [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea) function.
 
@@ -202,7 +202,7 @@ Currently, there can only be five entries under this key, and the value/name ind
 
 | Value type                         | Meaning                                                                                                   |
 |------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **REG\_DWORD**                     | A CSIDL value that identifies a folder. For a list of CSIDL values, see [**CSIDL values**](https://www.bing.com/search?q=**CSIDL values**). |
+| **REG\_DWORD**                     | A CSIDL value that identifies a folder. For a list of CSIDL values, see [**CSIDL values**](https://www.bing.com/search?q=**CSIDL+values**). |
 | **REG\_SZ** or **REG\_EXPAND\_SZ** | A null-terminated string that specifies a valid path.                                                     |
 
 
@@ -308,7 +308,7 @@ The following table shows the identifiers of the standard controls in the Explor
 
 ## Customizing Old-Style Dialog Boxes
 
-You can customize an old-style **Open** or **Save As** dialog box by providing an [*OFNHookProcOldStyle*](https://msdn.microsoft.com/library/windows/desktop/ms646932) hook procedure that receives messages or notifications intended for the default dialog box procedure. You can also provide a custom template to use in place of the default template. The hook procedures and templates used with the old-style dialog boxes are similar to those used with the other common dialog boxes. For more information, see [Hook Procedures for Common Dialog Boxes](https://www.bing.com/search?q=Hook Procedures for Common Dialog Boxes) and [Custom Templates](https://www.bing.com/search?q=Custom Templates).
+You can customize an old-style **Open** or **Save As** dialog box by providing an [*OFNHookProcOldStyle*](https://msdn.microsoft.com/library/windows/desktop/ms646932) hook procedure that receives messages or notifications intended for the default dialog box procedure. You can also provide a custom template to use in place of the default template. The hook procedures and templates used with the old-style dialog boxes are similar to those used with the other common dialog boxes. For more information, see [Hook Procedures for Common Dialog Boxes](customizing-common-dialog-boxes.md#hook-procedures-for-common-dialog-boxes) and [Custom Templates](customizing-common-dialog-boxes.md#custom-templates).
 
 To enable a hook procedure for an old-style **Open** or **Save As** dialog box, use the [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna) structure when you create the dialog box. Set the **OFN\_ENABLEHOOK** flag in the **Flags** member and specify the address of an [*OFNHookProcOldStyle*](https://msdn.microsoft.com/library/windows/desktop/ms646932) hook procedure in the **lpfnHook** member. The dialog box procedure sends a [**WM\_INITDIALOG**](wm-initdialog.md) message to the hook procedure with the *Param* parameter set to the address of the **OPENFILENAME** structure used to initialize the dialog box.
 

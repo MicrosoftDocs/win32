@@ -65,7 +65,7 @@ If an application processes this message, it should return zero.
 **Reference**
 </dt> <dt>
 
-[**WM\_ACTIVATE**](https://msdn.microsoft.com/windows/desktop/a62bb9f7-f286-4d0d-a1ca-370950c188b2)
+[**WM\_ACTIVATE**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputmessages\wm_activate.htm)
 </dt> <dt>
 
 **Conceptual**

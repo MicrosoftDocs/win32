@@ -11,12 +11,12 @@ ms.date: 05/31/2018
 
 # Specifying a Salt Value
 
-Both the Base Provider and the Extended Provider can specify the value and length of the [*salt value*](https://www.bing.com/search?q=*salt value*) to be used. The Base Provider sets a salt value using the KP\_SALT parameter value. The Base Provider always sets eleven bytes of salt value.
+Both the Base Provider and the Extended Provider can specify the value and length of the [*salt value*](security.s_gly#-security-salt-value-gly) to be used. The Base Provider sets a salt value using the KP\_SALT parameter value. The Base Provider always sets eleven bytes of salt value.
 
 The Enhanced Provider sets the salt value by calling [**CryptSetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam) with the KP\_SALT\_EX parameter value specified and with the *pbData* parameter pointing to a [**CRYPT\_INTEGER\_BLOB**](https://www.bing.com/search?q=**CRYPT\_INTEGER\_BLOB**) structure that contains the salt.
 
 > [!Note]  
-> The total length of an Enhanced Provider [*symmetric key*](https://www.bing.com/search?q=*symmetric key*) and its salt value cannot be greater than 128 bits.
+> The total length of an Enhanced Provider [*symmetric key*](security.s_gly#-security-symmetric-key-gly) and its salt value cannot be greater than 128 bits.
 
  
 

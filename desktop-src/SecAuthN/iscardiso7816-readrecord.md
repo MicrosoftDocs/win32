@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardISO7816::ReadRecord method
 
-\[The **ReadRecord** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **ReadRecord** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **ReadRecord** method constructs an [*application protocol data unit*](https://www.bing.com/search?q=*application protocol data unit*) (APDU) command that reads either the contents of the specified records or the beginning part of one record of an elementary file.
+The **ReadRecord** method constructs an [*application protocol data unit*](security.a_gly#-security-application-protocol-data-unit-gly) (APDU) command that reads either the contents of the specified records or the beginning part of one record of an elementary file.
 
 ## Syntax
 
@@ -84,7 +84,7 @@ If the Le field contains only zeros, then depending on b3b2b1 of P2 and within t
 
 On input, a pointer to an [**ISCardCmd**](iscardcmd.md) interface object or **NULL**.
 
-On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://www.bing.com/search?q=*smart card*) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
+On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](security.s_gly#-security-smart-card-gly) [**ISCardCmd**](iscardcmd.md) object is internally created and returned via the *ppCmd* pointer.
 
 </dd> </dl>
 
@@ -107,7 +107,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-The encapsulated command can only be performed if the security status of the [*smart card*](https://www.bing.com/search?q=*smart card*) satisfies the security attributes of the elementary file being read.
+The encapsulated command can only be performed if the security status of the [*smart card*](security.s_gly#-security-smart-card-gly) satisfies the security attributes of the elementary file being read.
 
 If another elementary file is currently selected at the time of issuing this command, it may be processed without identification of the currently selected file.
 
@@ -117,7 +117,7 @@ Elementary files without a record structure cannot be read. The encapsulated com
 
 For a list of all the methods provided by this interface, see [**ISCardISO7816**](iscardiso7816.md).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](https://www.bing.com/search?q=Smart Card Return Values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
 
 ## Requirements
 

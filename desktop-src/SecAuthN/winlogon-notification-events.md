@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Winlogon Notification Events
 
-[*Winlogon*](https://www.bing.com/search?q=*Winlogon*) can inform your notification package of the following events.
+[*Winlogon*](security.w_gly#-security-winlogon-gly) can inform your notification package of the following events.
 
 
 

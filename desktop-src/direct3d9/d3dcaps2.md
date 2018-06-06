@@ -40,7 +40,7 @@ Driver capability flags.
 <tr class="even">
 <td>D3DCAPS2_CANSHARERESOURCE</td>
 <td>0x80000000L</td>
-<td>The device can create sharable resources. Methods that create resources can set non-NULL values for their [<strong>pSharedHandle</strong>](https://msdn.microsoft.com/windows/desktop/7fa92667-2e37-498b-994b-7c576754b86b) parameters. 
+<td>The device can create sharable resources. Methods that create resources can set non-NULL values for their [<strong>pSharedHandle</strong>](https://msdn.microsoft.com/VS|directx_sdk|~\idxgiresource_getsharedhandle.htm) parameters. 
 <table>
 <tbody>
 <tr class="odd">

@@ -69,7 +69,7 @@ Use a center-spot averaging technique.
 
 ## Remarks
 
-Indicates the metering mode of the device. This enumeration is used by the [WPD\_STILL\_IMAGE\_EXPOSURE\_METERING\_MODE](https://www.bing.com/search?q=WPD\_STILL\_IMAGE\_EXPOSURE\_METERING\_MODE) property.
+Indicates the metering mode of the device. This enumeration is used by the [WPD\_STILL\_IMAGE\_EXPOSURE\_METERING\_MODE](still-image-properties.md#wpd-still-image-exposure-metering-mode) property.
 
 ## Requirements
 

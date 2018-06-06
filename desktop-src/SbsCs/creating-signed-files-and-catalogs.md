@@ -15,7 +15,7 @@ To sign a file and create a catalog for it, you must first have a process for si
 
 **To sign a file and a create a catalog**
 
-1.  Use [Pktextract.exe](pktextract-exe.md) to extract the [*public key token*](https://www.bing.com/search?q=*public key token*) from the certificate file. The certificate file must be present in the same directory as the utility.
+1.  Use [Pktextract.exe](pktextract-exe.md) to extract the [*public key token*](p-sbscs-gly.md#-win32-public-key-token-gly) from the certificate file. The certificate file must be present in the same directory as the utility.
 2.  Use the public key token value to update the **publicKeyToken** attribute of the **assemblyIdentity** element in the manifest file.
 3.  Use [MT.exe](mt-exe.md) to generate hashes of files contained in the assembly manifest and to create the catalog description file (.cdf).
 4.  Use Makecat.exe with the generated .cdf to create the security catalog for the assembly. This tool is included in the CryptoAPI.

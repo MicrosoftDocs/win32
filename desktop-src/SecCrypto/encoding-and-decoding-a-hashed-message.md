@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Encoding and Decoding a Hashed Message
 
-Hashed data consists of content of any type and a [*hash*](https://www.bing.com/search?q=*hash*) of the content. It can be used when it is only necessary to confirm that the message content has not been modified since the hash was created.
+Hashed data consists of content of any type and a [*hash*](security.h_gly#-security-hash-gly) of the content. It can be used when it is only necessary to confirm that the message content has not been modified since the hash was created.
 
 When creating a hashed message, there can be multiple hash algorithms and multiple hashes. The following illustration depicts the tasks required to encode a hashed message. The procedure is described in the text that follows the illustration.
 
@@ -34,13 +34,13 @@ To use low-level message functions to accomplish the tasks just outlined, use th
 4.  Call [**CryptMsgCalculateEncodedLength**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgcalculateencodedlength) to get the size of the encoded message BLOB. Allocate memory for it.
 5.  Call [**CryptMsgOpenToEncode**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgopentoencode), passing in CMSG\_HASHED for the *dwMsgType* parameter and a pointer to [**CMSG\_HASHED\_ENCODE\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cmsg_hashed_encode_info) for the *pvMsgEncodeInfo* parameter. As a result of this call, you get a handle to the opened message.
 6.  Call [**CryptMsgUpdate**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgupdate), passing in the handle retrieved in step 5 and a pointer to the data that is to be hashed and encoded. This function can be called as many times as necessary to complete the encoding process.
-7.  Call [**CryptMsgGetParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsggetparam), passing in the handle retrieved in step 5 and the appropriate parameter types to access the desired, encoded data. For example, pass in CMSG\_CONTENT\_PARAM to get a pointer to the entire [*PKCS \#7*](https://msdn.microsoft.com/windows/desktop/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) message.
+7.  Call [**CryptMsgGetParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsggetparam), passing in the handle retrieved in step 5 and the appropriate parameter types to access the desired, encoded data. For example, pass in CMSG\_CONTENT\_PARAM to get a pointer to the entire [*PKCS \#7*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) message.
 
-    If the result of this encoding is to be used as the [*inner data*](https://www.bing.com/search?q=*inner data*) for another encoded message, such as an enveloped message, CMSG\_BARE\_CONTENT\_PARAM must be passed. For an example showing this, see [Alternate Code for Encoding an Enveloped Message](alternate-code-for-encoding-an-enveloped-message.md).
+    If the result of this encoding is to be used as the [*inner data*](security.i_gly#-security-inner-data-gly) for another encoded message, such as an enveloped message, CMSG\_BARE\_CONTENT\_PARAM must be passed. For an example showing this, see [Alternate Code for Encoding an Enveloped Message](alternate-code-for-encoding-an-enveloped-message.md).
 
 8.  Close the message by calling [**CryptMsgClose**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgclose).
 
-The result of this procedure is an encoded message that contains the original data, the hashing algorithms, and the [*hash*](https://www.bing.com/search?q=*hash*) of that data. A pointer to the encoded message [*BLOB*](https://www.bing.com/search?q=*BLOB*) is obtained in step 7.
+The result of this procedure is an encoded message that contains the original data, the hashing algorithms, and the [*hash*](security.h_gly#-security-hash-gly) of that data. A pointer to the encoded message [*BLOB*](security.b_gly#-security-blob-gly) is obtained in step 7.
 
 The following two procedures decode and then verify hashed data.
 

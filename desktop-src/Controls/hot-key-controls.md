@@ -41,7 +41,7 @@ The hot key control does not send any notification codes via the [**WM\_NOTIFY**
 
 ### Default Hot Key Message Processing
 
-This section describes the window messages handled by the window procedure for the pre defined [**HOTKEY\_CLASS**](https://www.bing.com/search?q=**HOTKEY\_CLASS**) window class used with hot key controls.
+This section describes the window messages handled by the window procedure for the pre defined [**HOTKEY\_CLASS**](common-control-window-classes.md#hotkey-class) window class used with hot key controls.
 
 
 

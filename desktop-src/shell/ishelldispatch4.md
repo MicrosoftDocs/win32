@@ -42,7 +42,7 @@ The **IShellDispatch4** object has these methods.
 
 ## Remarks
 
-For a discussion of Windows services, see the [Services](https://msdn.microsoft.com/windows/desktop/711391da-05c6-4d89-88d6-c68c2e5c2f86) documentation.
+For a discussion of Windows services, see the [Services](https://msdn.microsoft.com/711391da-05c6-4d89-88d6-c68c2e5c2f86) documentation.
 
 ## Requirements
 

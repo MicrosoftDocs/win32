@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # GetKeyProtectorCertificate method of the Win32\_EncryptableVolume class
 
-The **GetKeyProtectorCertificate** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class retrieves the [*public key*](https://www.bing.com/search?q=*public key*) and [*certificate*](https://www.bing.com/search?q=*certificate*) thumbprint for a public key protector.
+The **GetKeyProtectorCertificate** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class retrieves the [*public key*](security.p_gly#-security-public-key-gly) and [*certificate*](security.c_gly#-security-certificate-gly) thumbprint for a public key protector.
 
 ## Syntax
 
@@ -100,7 +100,7 @@ This method returns one of the following codes or another error code if it fails
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/windows/desktop/26494142-2078-4d46-a794-e43973255c2d).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/26494142-2078-4d46-a794-e43973255c2d).
 
 ## Requirements
 

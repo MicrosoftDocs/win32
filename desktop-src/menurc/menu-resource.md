@@ -84,7 +84,7 @@ sample MENU
 
 <dl> <dt>
 
-[Using Menus](https://www.bing.com/search?q=Using Menus)
+[Using Menus](https://www.bing.com/search?q=Using+Menus)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)

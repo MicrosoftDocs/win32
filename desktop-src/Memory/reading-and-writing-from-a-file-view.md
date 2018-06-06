@@ -71,7 +71,7 @@ If you are mapping a compressed or sparse file on an NTFS partition, there is ad
 
 <dl> <dt>
 
-[Structured Exception Handling](https://msdn.microsoft.com/windows/desktop/6b6326d8-6875-4146-a4e3-7873f4e400cb)
+[Structured Exception Handling](https://msdn.microsoft.com/6b6326d8-6875-4146-a4e3-7873f4e400cb)
 </dt> </dl>
 
  

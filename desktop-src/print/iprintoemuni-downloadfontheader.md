@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemUni::DownloadFontHeader method
 
-The `IPrintOemUni::DownloadFontHeader` method allows a rendering plug-in for [*Unidrv*](https://www.bing.com/search?q=*Unidrv*) to send a font's header information to a printer.
+The `IPrintOemUni::DownloadFontHeader` method allows a rendering plug-in for [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) to send a font's header information to a printer.
 
 ## Syntax
 
@@ -69,13 +69,13 @@ The method must return one of the following values.
 
 ## Remarks
 
-The `IPrintOemUni::DownloadFontHeader` method is used for supporting soft fonts on printers that do not accept [*PCL*](https://www.bing.com/search?q=*PCL*) commands. Its purpose is to allow a rendering plug-in to obtain font header information from Unidrv and to send the information to the printer.
+The `IPrintOemUni::DownloadFontHeader` method is used for supporting soft fonts on printers that do not accept [*PCL*](wdkgloss.p#wdkgloss-pcl) commands. Its purpose is to allow a rendering plug-in to obtain font header information from Unidrv and to send the information to the printer.
 
-Information that might be required for constructing a non-[*PCL*](https://www.bing.com/search?q=*PCL*) font header can be obtained by:
+Information that might be required for constructing a non-[*PCL*](wdkgloss.p#wdkgloss-pcl) font header can be obtained by:
 
 -   Referencing the [**UNIFONTOBJ**](unifontobj.md) structure that is received as an input argument.
 
--   Calling the [*UNIFONTOBJ\_GetInfo*](unifontobj-getinfo.md) callback function to get the font's [**FONTOBJ**](https://www.bing.com/search?q=**FONTOBJ**) structure.
+-   Calling the [*UNIFONTOBJ\_GetInfo*](unifontobj-getinfo.md) callback function to get the font's [**FONTOBJ**](https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75) structure.
 
 The method should send the header information to the spooler by calling [**IPrintOemDriverUni::DrvWriteSpoolBuf**](iprintoemdriveruni-drvwritespoolbuf.md).
 
@@ -83,7 +83,7 @@ The `IPrintOemUni::DownloadFontHeader` method is optional. If a rendering plug-i
 
 If you implement the `IPrintOemUni::DownloadFontHeader` method, you must also implement the [**IPrintOemUni::DownloadCharGlyph**](iprintoemuni-downloadcharglyph.md) method.
 
-For additional information see [Customized Font Management](https://www.bing.com/search?q=Customized Font Management).
+For additional information see [Customized Font Management](https://www.bing.com/search?q=Customized+Font+Management).
 
 ## Requirements
 

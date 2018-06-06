@@ -18,7 +18,7 @@ The following examples demonstrate how two processes might access an existing fi
 -   [Creating a File Mapping Using Large Pages](creating-a-file-mapping-using-large-pages.md)
 -   [Obtaining a File Name From a File Handle](obtaining-a-file-name-from-a-file-handle.md)
 
-The processes must synchronize their access to the memory. For more information, see [Synchronization](https://msdn.microsoft.com/windows/desktop/3e85e61c-d4df-49dd-aa86-1bbd682e375e).
+The processes must synchronize their access to the memory. For more information, see [Synchronization](https://msdn.microsoft.com/3e85e61c-d4df-49dd-aa86-1bbd682e375e).
 
  
 

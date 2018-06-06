@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # RGBFromIMEColorStyle function
 
-Converts an **IMECOLORSTY** structure to a [**COLORREF**](https://msdn.microsoft.com/windows/desktop/b87d3de2-7a13-44ef-8253-c6851a75fa54) structure.
+Converts an **IMECOLORSTY** structure to a [**COLORREF**](https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54) structure.
 
 ## Syntax
 
@@ -37,11 +37,11 @@ An **IMECOLORSTY** structure returned from a [**PColorStyleBackFromIMEStyle**](p
 
 ## Return value
 
-Returns a [**COLORREF**](https://msdn.microsoft.com/windows/desktop/b87d3de2-7a13-44ef-8253-c6851a75fa54) structure.
+Returns a [**COLORREF**](https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54) structure.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/windows/desktop/a0d7fc09-f888-4f46-a571-d3719a627597) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions.
 
 ## Requirements
 
@@ -57,7 +57,7 @@ This function has no associated import library or header file; you must call it 
 
 <dl> <dt>
 
-[**COLORREF**](https://msdn.microsoft.com/windows/desktop/b87d3de2-7a13-44ef-8253-c6851a75fa54)
+[**COLORREF**](https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54)
 </dt> <dt>
 
 [**PColorStyleBackFromIMEStyle**](pcolorstylebackfromimestyle.md)

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Signing Files and Checking Signatures
 
-[*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) Tools include a tool, [SignTool](signtool.md), that performs the following functionality:
+[*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) Tools include a tool, [SignTool](signtool.md), that performs the following functionality:
 
 -   [Using SignTool to Sign a File](using-signtool-to-sign-a-file.md)
 -   [Using SignTool to Verify a File Signature](using-signtool-to-verify-a-file-signature.md)

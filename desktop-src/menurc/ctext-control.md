@@ -62,7 +62,7 @@ CTEXT "Filename", 101, 10, 10, 100, 100
 [**CONTROL**](control-control.md)
 </dt> <dt>
 
-[Edit Controls](https://www.bing.com/search?q=Edit Controls)
+[Edit Controls](https://www.bing.com/search?q=Edit+Controls)
 </dt> <dt>
 
 [**LTEXT**](ltext-control.md)

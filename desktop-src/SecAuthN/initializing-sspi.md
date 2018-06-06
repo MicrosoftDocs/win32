@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Initializing SSPI
 
-The client and server use the same sequence of operations to initialize SSPI and select a [*security package*](https://www.bing.com/search?q=*security package*).
+The client and server use the same sequence of operations to initialize SSPI and select a [*security package*](security.s_gly#-security-security-package-gly).
 
 The following steps initialize SSPI:
 

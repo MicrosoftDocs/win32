@@ -71,7 +71,7 @@ This message is sent immediately after the DLL containing the application is loa
 
 <dl> <dt>
 
-[**FreeLibrary**](https://msdn.microsoft.com/windows/desktop/823d3147-4ba8-4fe5-ade4-e5604f47eb0a)
+[**FreeLibrary**](https://msdn.microsoft.com/823d3147-4ba8-4fe5-ade4-e5604f47eb0a)
 </dt> </dl>
 
  

@@ -94,7 +94,7 @@ To clip a bitmap source
 
     The following illustration demonstrates imaging clipping. The original image on the left is 200 x 130 pixels. The image on the right is the original image clipped to a rectangle defined as `{20,20,100,100}`.
 
-    ![illustration of imaging clipping](https://www.bing.com/search?q=illustration of imaging clipping)
+    ![illustration of imaging clipping](https://www.bing.com/search?q=illustration+of+imaging+clipping)
 
 ## See Also
 

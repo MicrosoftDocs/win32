@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # PFNPROPSHEETUI callback function
 
-The PFNPROPSHEETUI function type is used by CPSUI applications (including printer interface DLLs) for defining [page creation callbacks](https://www.bing.com/search?q=page creation callbacks), which specify property sheet pages for creation.
+The PFNPROPSHEETUI function type is used by CPSUI applications (including printer interface DLLs) for defining [page creation callbacks](https://www.bing.com/search?q=page+creation+callbacks), which specify property sheet pages for creation.
 
 ## Syntax
 
@@ -118,7 +118,7 @@ If the operation succeeds, the function should return a value of one (or greater
 
 Callback functions specified using the PFNPROPSHEETUI function type are supplied by applications that use [CPSUI](https://www.bing.com/search?q=CPSUI) to manage customized property sheet pages. One such callback function must be specified when an application calls the [**CommonPropertySheetUI**](commonpropertysheetui.md) function. For example, when the NT-based operating system print spooler calls CPSUI's **CommonPropertySheetUI** function to support its **DocumentProperties** or **PrinterProperties** API functions (described in the Microsoft Windows SDK documentation), the spooler specifies an internal PFNPROPSHEETUI-typed callback function.
 
-Applications can specify additional PFNPROPSHEETUI-typed callback functions by calling CPSUI's [**ComPropSheet**](compropsheet.md) function with a function code of [**CPSFUNC\_ADD\_PFNPROPSHEETUI**](https://www.bing.com/search?q=**CPSFUNC\_ADD\_PFNPROPSHEETUI**). For example, the NT-based operating system print spooler does this to notify CPSUI of the existence of a printer interface DLL's [**DrvDocumentPropertySheets**](drvdocumentpropertysheets.md) and [**DrvDevicePropertySheets**](drvdevicepropertysheets.md) functions. Likewise, Microsoft's [*Unidrv*](https://www.bing.com/search?q=*Unidrv*) and [*Pscript*](https://www.bing.com/search?q=*Pscript*) drivers use this technique to notify CPSUI of the existence of [**IPrintOemUI::DocumentPropertySheets**](iprintoemui-documentpropertysheets.md) and [**IPrintOemUI::DevicePropertySheets**](iprintoemui-devicepropertysheets.md) methods in [user interface plug-ins](https://www.bing.com/search?q=user interface plug-ins).
+Applications can specify additional PFNPROPSHEETUI-typed callback functions by calling CPSUI's [**ComPropSheet**](compropsheet.md) function with a function code of [**CPSFUNC\_ADD\_PFNPROPSHEETUI**](https://www.bing.com/search?q=**CPSFUNC\_ADD\_PFNPROPSHEETUI**). For example, the NT-based operating system print spooler does this to notify CPSUI of the existence of a printer interface DLL's [**DrvDocumentPropertySheets**](drvdocumentpropertysheets.md) and [**DrvDevicePropertySheets**](drvdevicepropertysheets.md) functions. Likewise, Microsoft's [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) and [*Pscript*](wdkgloss.p#wdkgloss-pscript) drivers use this technique to notify CPSUI of the existence of [**IPrintOemUI::DocumentPropertySheets**](iprintoemui-documentpropertysheets.md) and [**IPrintOemUI::DevicePropertySheets**](iprintoemui-devicepropertysheets.md) methods in [user interface plug-ins](https://www.bing.com/search?q=user+interface+plug-ins).
 
 Each PFNPROPSHEETUI-typed callback function is called by CPSUI several times. The **Reason** member of the [**PROPSHEETUI\_INFO**](propsheetui-info.md) structure stipulates the operation that the function should perform, as follows:
 

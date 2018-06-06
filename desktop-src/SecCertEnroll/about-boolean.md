@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 A Boolean value can be **TRUE** or **FALSE**. **FALSE** is encoded as a TLV triplet in which the **Value** field is zero (0). **TRUE** is encoded as a nonzero value. The **Tag** for the **BOOLEAN** data type is 0x01.
 
-![der encoding of boolean data type](https://www.bing.com/search?q=der encoding of boolean data type)
+![der encoding of boolean data type](https://www.bing.com/search?q=der+encoding+of+boolean+data+type)
 
 ## Related topics
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Writer Role in VSS Incremental and Differential Backups
 
-A writer's participation in incremental and differential backups typically takes place while handling [*Identify*](https://www.bing.com/search?q=*Identify*) ([**CVssWriter::OnIdentify**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onidentify)), [*PrepareForBackup*](https://www.bing.com/search?q=*PrepareForBackup*) ([**CVssWriter:OnPrepareBackup**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpreparebackup)), and *PostSnapshot* ([**CVssWriter:OnPostSnapshot**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpostsnapshot)) events. How a writer participates is shaped by whether it supports backup stamps and last modification times, and whether the requester running the backup supports [*partial file operations*](https://www.bing.com/search?q=*partial file operations*).
+A writer's participation in incremental and differential backups typically takes place while handling [*Identify*](vssgloss-i.md#base-vssgloss-identify-event) ([**CVssWriter::OnIdentify**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onidentify)), [*PrepareForBackup*](vssgloss-p.md#-win32-vssgloss-prepareforbackup-event) ([**CVssWriter:OnPrepareBackup**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpreparebackup)), and *PostSnapshot* ([**CVssWriter:OnPostSnapshot**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpostsnapshot)) events. How a writer participates is shaped by whether it supports backup stamps and last modification times, and whether the requester running the backup supports [*partial file operations*](vssgloss-p.md#base-vssgloss-partial-file-support).
 
 ## Handling Identify Events during Incremental and Differential Backups
 
@@ -51,7 +51,7 @@ At this point, the writer's Writer Metadata Document is fully populated with mos
 
 ## Handling PrepareForBackup Events during Incremental and Differential Backups
 
-Before the requester proceeds with the actual backup operation, writers can modify the specification of an [*incremental*](https://www.bing.com/search?q=*incremental*) or [*differential*](https://www.bing.com/search?q=*differential*) backup by altering the requester's Backup Components Document through the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface.
+Before the requester proceeds with the actual backup operation, writers can modify the specification of an [*incremental*](vssgloss-i.md#base-vssgloss-incremental-backup-operations) or [*differential*](vssgloss-d.md#base-vssgloss-differential-backup-operations) backup by altering the requester's Backup Components Document through the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface.
 
 Because the writers use the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface, they typically perform these preparations while handling the [**PrepareForBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup) event.
 
@@ -75,7 +75,7 @@ If a file is involved with partial file operations, this supersedes any file spe
 <span id="Differenced_Files"></span><span id="differenced_files"></span><span id="DIFFERENCED_FILES"></span>Differenced Files
 </dt> <dd>
 
-Writers that support a last modified backup schema (**VSS\_BS\_SCHEMA**) can add [*differenced files*](https://www.bing.com/search?q=*differenced files*) to an incremental or differential backup.
+Writers that support a last modified backup schema (**VSS\_BS\_SCHEMA**) can add [*differenced files*](vssgloss-d.md#base-vssgloss-differenced-files) to an incremental or differential backup.
 
 In specifying a differenced file, a writer uses [**IVssComponent::AddDifferencedFileByLastModifyTime**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime) and specifies a path, a file name, and a recursive flag—however, these do not have to match a file set included in any component.
 

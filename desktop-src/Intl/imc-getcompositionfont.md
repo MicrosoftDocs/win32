@@ -34,7 +34,7 @@ Set to IMC\_GETCOMPOSITIONFONT.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**LOGFONT**](https://msdn.microsoft.com/windows/desktop/57658a03-0a6d-4a28-a7c1-c65ec145beb4) structure that receives information about the logical font.
+Pointer to a [**LOGFONT**](https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4) structure that receives information about the logical font.
 
 </dd> </dl>
 

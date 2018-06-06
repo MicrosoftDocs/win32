@@ -47,7 +47,7 @@ Specifies the version of the PORT\_DATA\_1 structure (currently equal to 1) that
 
 When the [**XcvData**](https://www.bing.com/search?q=**XcvData**) function is called to obtain port configuration information, its *pInputData* parameter must be set with the address of a CONFIG\_INFO\_DATA\_1 structure, and its *pOutputData* parameter must be set with the address of a [**PORT\_DATA\_1**](port-data-1.md) structure, which will be filled in when the function returns. Set this function's *pszDataName* parameter to the string L"GetConfigInfo".
 
-See [TCPMON Xcv Interface](https://www.bing.com/search?q=TCPMON Xcv Interface) for more information.
+See [TCPMON Xcv Interface](https://www.bing.com/search?q=TCPMON+Xcv+Interface) for more information.
 
 ## Requirements
 

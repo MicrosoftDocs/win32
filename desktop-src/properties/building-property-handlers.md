@@ -15,21 +15,21 @@ In Windows Vista and later, metadata became central as a method of organizing i
 
 The following topics discuss the requirements and strategies involved in defining your properties and property handlers.
 
--   [Understanding Property Handlers](https://www.bing.com/search?q=Understanding Property Handlers)
--   [Using Kind Names](https://www.bing.com/search?q=Using Kind Names)
--   [Using Property Lists](https://www.bing.com/search?q=Using Property Lists)
--   [Initializing Property Handlers](https://www.bing.com/search?q=Initializing Property Handlers)
--   [Registering and Distributing Property Handlers](https://www.bing.com/search?q=Registering and Distributing Property Handlers)
--   [Property Handler Best Practices and FAQ](https://www.bing.com/search?q=Property Handler Best Practices and FAQ)
+-   [Understanding Property Handlers](https://www.bing.com/search?q=Understanding+Property+Handlers)
+-   [Using Kind Names](https://www.bing.com/search?q=Using+Kind+Names)
+-   [Using Property Lists](https://www.bing.com/search?q=Using+Property+Lists)
+-   [Initializing Property Handlers](https://www.bing.com/search?q=Initializing+Property+Handlers)
+-   [Registering and Distributing Property Handlers](https://www.bing.com/search?q=Registering+and+Distributing+Property+Handlers)
+-   [Property Handler Best Practices and FAQ](https://www.bing.com/search?q=Property+Handler+Best+Practices+and+FAQ)
 
 ## Related topics
 
 <dl> <dt>
 
-[Creating Custom Properties](https://www.bing.com/search?q=Creating Custom Properties)
+[Creating Custom Properties](https://www.bing.com/search?q=Creating+Custom+Properties)
 </dt> <dt>
 
-[Property Description Schema](https://www.bing.com/search?q=Property Description Schema)
+[Property Description Schema](https://www.bing.com/search?q=Property+Description+Schema)
 </dt> </dl>
 
  

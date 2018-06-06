@@ -21,17 +21,17 @@ For backup operations, a Backup Components Document is typically initialized as 
 
 For restore operations, a Backup Components Document is typically initialized from a stored document generated during the initial backup. This allows the restore (in conjunction with examination of stored Writer Metadata Documents) to determine what data was initially backed up and how it should be restored.
 
-Backing up [*transportable shadow copies*](https://www.bing.com/search?q=*transportable shadow copies*) is an exception to this rule. In this case, a shadow copy could have been moved from one system (where it was created along with the initial Backup Components Document) to another by means of reassigning a shared storage device's logical unit. To back up under these circumstances, a requester loads the stored backup state and proceeds from where the initial system left off. (For more information, see [Importing Transportable Shadow Copied Volumes](importing-transportable-shadow-copied-volumes.md).)
+Backing up [*transportable shadow copies*](vssgloss-t.md#base-vssgloss-transportable-shadow-copy) is an exception to this rule. In this case, a shadow copy could have been moved from one system (where it was created along with the initial Backup Components Document) to another by means of reassigning a shared storage device's logical unit. To back up under these circumstances, a requester loads the stored backup state and proceeds from where the initial system left off. (For more information, see [Importing Transportable Shadow Copied Volumes](importing-transportable-shadow-copied-volumes.md).)
 
-In the course of processing a backup, the requester decides which components to actually copy on the basis of which components are marked as [*selectable for backup*](https://www.bing.com/search?q=*selectable for backup*), the component's [*logical paths*](https://www.bing.com/search?q=*logical paths*), and its own internal logic.
+In the course of processing a backup, the requester decides which components to actually copy on the basis of which components are marked as [*selectable for backup*](vssgloss-s.md#base-vssgloss-selectability-for-backup), the component's [*logical paths*](vssgloss-l.md#base-vssgloss-logical-path), and its own internal logic.
 
-Some of the components will be [*explicitly included*](https://www.bing.com/search?q=*explicitly included*) in the backup operation; information about the component will be added to the Backup Components Document. Others will be [*implicitly included*](https://www.bing.com/search?q=*implicitly included*) in the backup; information about the added components will not be added to the Backup Components Document.
+Some of the components will be [*explicitly included*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion) in the backup operation; information about the component will be added to the Backup Components Document. Others will be [*implicitly included*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion) in the backup; information about the added components will not be added to the Backup Components Document.
 
 All of a writer's nonselectable for backup components without a selectable ancestor in their logical path, and those selectable for backup components the requester chooses, will be added explicitly.
 
-Both nonselectable and selectable for backup components can be added implicitly if they have a selectable ancestor in their logical path, which is explicitly included in the backup. These components ([*subcomponents*](https://www.bing.com/search?q=*subcomponents*)) are members of [*component sets*](https://www.bing.com/search?q=*component sets*) defined by their selectable ancestor.
+Both nonselectable and selectable for backup components can be added implicitly if they have a selectable ancestor in their logical path, which is explicitly included in the backup. These components ([*subcomponents*](vssgloss-s.md#base-vssgloss-subcomponent)) are members of [*component sets*](vssgloss-s.md#base-vssgloss-component-set) defined by their selectable ancestor.
 
-When handling restore operations, the requester uses [*selectability for restore*](https://www.bing.com/search?q=*selectability for restore*) instead of selectability for backup in conjunction with logical path information and its own internal logic to decide which files to restore.
+When handling restore operations, the requester uses [*selectability for restore*](vssgloss-s.md#base-vssgloss-selectability-for-restore) instead of selectability for backup in conjunction with logical path information and its own internal logic to decide which files to restore.
 
 If a component that had been implicitly added to the backup is now to be explicitly added to the restore, the requester will update the Backup Components Document with that component's information.
 
@@ -47,7 +47,7 @@ From the [**IVSSWriterComponents**](/windows/desktop/api/VsWriter/nl-vswriter-iv
 
 Backup Components Documents are removed from memory when the [**IVssBackupComponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) interface is released, and must be stored using [**IVssBackupComponents::SaveAsXML**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-saveasxml), or all their information will be lost.
 
-In addition, when an [**IVssBackupComponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) document is properly released, a [**BackupShutdown**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupshutdown) event is generated and[*auto-release shadow copies*](https://www.bing.com/search?q=*auto-release shadow copies*) are deleted.
+In addition, when an [**IVssBackupComponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) document is properly released, a [**BackupShutdown**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupshutdown) event is generated and[*auto-release shadow copies*](vssgloss-a.md#base-vssgloss-auto-release-shadow-copy) are deleted.
 
  
 

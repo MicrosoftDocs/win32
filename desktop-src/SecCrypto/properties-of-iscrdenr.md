@@ -17,7 +17,7 @@ The properties introduced by ISCrdEnr are listed in the following table.
 
 | Property                              | Description                                                                                                                                                                                              |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CSPCount**](iscrdenr-cspcount.md) | Specifies the number of [*cryptographic service providers*](https://www.bing.com/search?q=*cryptographic service providers*) (CSP). This property is read-only. |
+| [**CSPCount**](iscrdenr-cspcount.md) | Specifies the number of [*cryptographic service providers*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP). This property is read-only. |
 | [**CSPName**](iscrdenr-cspname.md)   | Name of the CSP. This property is read/write.                                                                                                                                                            |
 
 

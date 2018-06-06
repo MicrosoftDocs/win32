@@ -25,7 +25,7 @@ The following operators are exposed by the [**XMVECTOR**](xmvector-data-type.md)
 | Methods                                                    | Description                                                                                                                                 |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | [**operator +=**](/windows/desktop/api/DirectXMath/)<br/>  | Adds a floating point value to an `XMVECTOR` instance, and returns a reference to the updated instance. <br/>                         |
-| [**operator -=**](https://www.bing.com/search?q=**operator -=**)<br/>    | Subtracts a floating point value from the current instance of `XMVECTOR`, returning the result in the updated current instance. <br/> |
+| [**operator -=**](https://www.bing.com/search?q=**operator+-=**)<br/>    | Subtracts a floating point value from the current instance of `XMVECTOR`, returning the result in the updated current instance. <br/> |
 | [**operator \***](xmvector-operator-mul.md)<br/>    | Multiplication operators<br/>                                                                                                         |
 | [**operator \*=**](xmvector-operator-muleq.md)<br/> | Multiplication assignment operators<br/>                                                                                              |
 | [**operator /**](xmvector-operator-div.md)<br/>     | Division operator.<br/>                                                                                                               |

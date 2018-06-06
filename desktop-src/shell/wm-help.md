@@ -37,7 +37,7 @@ Returns **TRUE**.
 
 ## Remarks
 
-The [**DefWindowProc**](https://msdn.microsoft.com/windows/desktop/fcc6b242-e152-4364-a977-b0441bec425f) function passes **WM\_HELP** to the parent window of a child window or to the owner of a top-level window.
+The [**DefWindowProc**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\windowprocedures\windowprocedurereference\windowprocedurefunctions\defwindowproc.htm) function passes **WM\_HELP** to the parent window of a child window or to the owner of a top-level window.
 
 ## Requirements
 

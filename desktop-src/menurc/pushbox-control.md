@@ -42,7 +42,7 @@ For more information about the general syntax of a control statement, see [Commo
 
 <dl> <dt>
 
-[Push Buttons](https://www.bing.com/search?q=Push Buttons)
+[Push Buttons](_win32_Button_Types_and_Styles#push-buttons)
 </dt> <dt>
 
 [**PUSHBUTTON**](pushbutton-control.md)

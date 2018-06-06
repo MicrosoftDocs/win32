@@ -96,7 +96,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-The `IPrintOemUni::OutputCharStr` method is used for supporting printers that do not recognize the [*PCL*](https://www.bing.com/search?q=*PCL*), CAPSL, or PPDS-formatted character output commands supported by Unidrv. Its purpose is to allow a rendering plug-in to control the printing of a font's glyphs, and to provide glyph substitutions if necessary.
+The `IPrintOemUni::OutputCharStr` method is used for supporting printers that do not recognize the [*PCL*](wdkgloss.p#wdkgloss-pcl), CAPSL, or PPDS-formatted character output commands supported by Unidrv. Its purpose is to allow a rendering plug-in to control the printing of a font's glyphs, and to provide glyph substitutions if necessary.
 
 If a rendering plug-in implements the `IPrintOemUni::OutputCharStr` method, Unidrv calls the method each time a string of characters is ready to be spooled.
 
@@ -118,7 +118,7 @@ If the specified font is a soft font, the method can just call **IPrintOemDriver
 
 The `IPrintOemUni::OutputCharStr` method is optional. If a rendering plug-in implements this method, the plug-in's [**IPrintOemUni::GetImplementedMethod**](iprintoemuni-getimplementedmethod.md) method must return S\_OK when it receives "OutputCharStr" as input.
 
-For additional information see [Customized Font Management](https://www.bing.com/search?q=Customized Font Management).
+For additional information see [Customized Font Management](https://www.bing.com/search?q=Customized+Font+Management).
 
 ## Requirements
 

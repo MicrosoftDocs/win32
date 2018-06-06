@@ -43,7 +43,7 @@ Returns the previous hover time.
 
 ## Remarks
 
-The hover time only affects list-view controls that have the [**LVS\_EX\_TRACKSELECT**](https://www.bing.com/search?q=**LVS\_EX\_TRACKSELECT**), [**LVS\_EX\_ONECLICKACTIVATE**](https://www.bing.com/search?q=**LVS\_EX\_ONECLICKACTIVATE**), or [**LVS\_EX\_TWOCLICKACTIVATE**](https://www.bing.com/search?q=**LVS\_EX\_TWOCLICKACTIVATE**) extended list-view style.
+The hover time only affects list-view controls that have the [**LVS\_EX\_TRACKSELECT**](extended-list-view-styles.md#lvs-ex-trackselect), [**LVS\_EX\_ONECLICKACTIVATE**](extended-list-view-styles.md#lvs-ex-oneclickactivate), or [**LVS\_EX\_TWOCLICKACTIVATE**](extended-list-view-styles.md#lvs-ex-twoclickactivate) extended list-view style.
 
 ## Requirements
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The installer uses the SetProgress event to publish information on the installation's progress. A [ProgressBar Control](progressbar-control.md) or [Billboard Control](billboard-control.md) should subscribe to the event via the [EventMapping table](eventmapping-table.md) by naming the Action whose progress is being indicated. This event should be authored in the [EventMapping table](eventmapping-table.md).
 
-This ControlEvent can be handled by a user interface run at the [*basic UI*](https://www.bing.com/search?q=*basic UI*), [*reduced UI*](https://www.bing.com/search?q=*reduced UI*), or [*full UI*](https://www.bing.com/search?q=*full UI*) levels. For information about UI levels, see [User Interface Levels](user-interface-levels.md).
+This ControlEvent can be handled by a user interface run at the [*basic UI*](b-gly.md#-msi-basic-ui-gly), [*reduced UI*](r-gly.md#-msi-reduced-ui-gly), or [*full UI*](f-gly.md#-msi-full-ui-gly) levels. For information about UI levels, see [User Interface Levels](user-interface-levels.md).
 
 ## Published By
 

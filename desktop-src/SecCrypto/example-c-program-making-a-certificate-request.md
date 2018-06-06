@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Example C Program: Making a Certificate Request
 
-The following example demonstrates the procedure outlined in the previous section. This example creates a simple [*certificate request*](https://www.bing.com/search?q=*certificate request*) with one signer, a single [*relative distinguished name*](https://www.bing.com/search?q=*relative distinguished name*) (RDN) [*attribute*](https://www.bing.com/search?q=*attribute*), and no general attributes.
+The following example demonstrates the procedure outlined in the previous section. This example creates a simple [*certificate request*](security.c_gly#-security-certificate-request-gly) with one signer, a single [*relative distinguished name*](security.r_gly#-security-relative-distinguished-name-gly) (RDN) [*attribute*](security.a_gly#-security-attribute-gly), and no general attributes.
 
-This example illustrates the following [*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) functions:
+This example illustrates the following [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
 -   [**CryptEncodeObject**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencodeobject)
 -   [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta)

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemUni::DriverDMS method
 
-The `IPrintOemUni::DriverDMS` method allows a rendering plug-in for [*Unidrv*](https://www.bing.com/search?q=*Unidrv*) to indicate that it uses a device-managed drawing surface.
+The `IPrintOemUni::DriverDMS` method allows a rendering plug-in for [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) to indicate that it uses a device-managed drawing surface.
 
 ## Syntax
 
@@ -80,9 +80,9 @@ A rendering plug-in for Unidrv must implement the `IPrintOemUni::DriverDMS` meth
 
 The `IPrintOemUni::DriverDMS` method allows a rendering plug-in to indicate that it will be using a device-managed drawing surface instead of the default GDI-managed surface.
 
-The method must specify HOOK\_-prefixed flags in the buffer pointed to by *pBuffer*, indicating which of the plug-in's graphics DDI hooking functions are to be called for the drawing surface. The HOOK\_-prefixed flags are defined in winddi.h and described in the [**EngAssociateSurface**](https://www.bing.com/search?q=**EngAssociateSurface**) function's description. Flags specified by `IPrintOemUni::DriverDMS` are passed by Unidrv to **EngAssociateSurface**. (Note that to support a device-managed surface, the rendering plug-in must hook out all drawing functions.) For more information, see [Handling Device-Managed Surfaces](https://www.bing.com/search?q=Handling Device-Managed Surfaces).
+The method must specify HOOK\_-prefixed flags in the buffer pointed to by *pBuffer*, indicating which of the plug-in's graphics DDI hooking functions are to be called for the drawing surface. The HOOK\_-prefixed flags are defined in winddi.h and described in the [**EngAssociateSurface**](https://msdn.microsoft.com/8cb6d4bf-67bd-4bfb-9605-eeb954fc590c) function's description. Flags specified by `IPrintOemUni::DriverDMS` are passed by Unidrv to **EngAssociateSurface**. (Note that to support a device-managed surface, the rendering plug-in must hook out all drawing functions.) For more information, see [Handling Device-Managed Surfaces](https://www.bing.com/search?q=Handling+Device-Managed+Surfaces).
 
-If `IPrintOemUni::DriverDMS` sets flags in the buffer pointed to by *pBuffer*, Unidrv creates a device-managed surface by calling [**EngCreateDeviceSurface**](https://www.bing.com/search?q=**EngCreateDeviceSurface**). If `IPrintOemUni::DriverDMS` does not set any flags, Unidrv creates a GDI-managed surface by calling [**EngCreateBitmap**](https://www.bing.com/search?q=**EngCreateBitmap**). In either of these cases, `IPrintOemUni::DriverDMS` should return S\_OK.
+If `IPrintOemUni::DriverDMS` sets flags in the buffer pointed to by *pBuffer*, Unidrv creates a device-managed surface by calling [**EngCreateDeviceSurface**](https://msdn.microsoft.com/9c3ca4c4-7614-4739-8333-202c6ec2eab8). If `IPrintOemUni::DriverDMS` does not set any flags, Unidrv creates a GDI-managed surface by calling [**EngCreateBitmap**](https://msdn.microsoft.com/51da3fbc-bf6e-47a9-8ee8-ebf34c23b66c). In either of these cases, `IPrintOemUni::DriverDMS` should return S\_OK.
 
 If the output buffer size specified by *cbSize* is too small, the method should specify the required size in the location pointed to by *pcbNeeded*, call **SetLastError**(ERROR\_INSUFFICIENT\_BUFFER), and return E\_FAIL.
 

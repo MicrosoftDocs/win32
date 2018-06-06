@@ -63,7 +63,7 @@ The **IPrinterPropertyBag** interface has these methods.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+[**IDispatch**](https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> <dt>
 
 [**IPrinterExtensionContext::DriverProperties**](iprinterextensioncontext-driverproperties.md)
@@ -78,7 +78,7 @@ The **IPrinterPropertyBag** interface has these methods.
 [**IPrinterScriptablePropertyBag**](iprinterscriptablepropertybag.md)
 </dt> <dt>
 
-[V4 Printer Driver Property Bags](https://www.bing.com/search?q=V4 Printer Driver Property Bags)
+[V4 Printer Driver Property Bags](https://www.bing.com/search?q=V4+Printer+Driver+Property+Bags)
 </dt> </dl>
 
  

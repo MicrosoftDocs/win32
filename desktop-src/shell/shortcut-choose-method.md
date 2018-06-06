@@ -43,8 +43,8 @@ Static verbs are the simplest verbs to implement, but they still provide rich fu
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CreateProcess</strong>](https://msdn.microsoft.com/windows/desktop/3ef0a5b2-4d71-4c17-8188-76a4025287fc) with command line parameters</td>
-<td>This is the simplest and most familiar means of implementing a static verb. A process is invoked through a call to the [<strong>CreateProcess</strong>](https://msdn.microsoft.com/windows/desktop/3ef0a5b2-4d71-4c17-8188-76a4025287fc) function with the selected files and any optional parameters passed as the command line. This opens the file or folder.<br/> This method has the following limitations:
+<td>[<strong>CreateProcess</strong>](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc) with command line parameters</td>
+<td>This is the simplest and most familiar means of implementing a static verb. A process is invoked through a call to the [<strong>CreateProcess</strong>](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc) function with the selected files and any optional parameters passed as the command line. This opens the file or folder.<br/> This method has the following limitations:
 <ul>
 <li>The command-line length is limited to 2000 characters, which limits the number of items that the verb can handle.</li>
 <li>Can only be used with file system items.</li>
@@ -54,8 +54,8 @@ Static verbs are the simplest verbs to implement, but they still provide rich fu
 <br/></td>
 </tr>
 <tr class="even">
-<td><strong>DropTarget</strong>/[<strong>IDropTarget</strong>](https://msdn.microsoft.com/windows/desktop/13fbe834-1ef8-4944-b2e4-9f5c413c65c8)</td>
-<td>A COM-based verb activation means that supports in-proc or out-of-proc activation. <strong>DropTarget</strong>/[<strong>IDropTarget</strong>](https://msdn.microsoft.com/windows/desktop/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) also supports re-use of an already running handler when the <strong>IDropTarget</strong> interface is implemented by a local server. It also perfectly expresses the items via the marshaled data object and provides a reference to the invoking site chain so that you can interact with the invoker through the [<strong>QueryService</strong>](https://www.bing.com/search?q=<strong>QueryService</strong>).</td>
+<td><strong>DropTarget</strong>/[<strong>IDropTarget</strong>](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8)</td>
+<td>A COM-based verb activation means that supports in-proc or out-of-proc activation. <strong>DropTarget</strong>/[<strong>IDropTarget</strong>](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) also supports re-use of an already running handler when the <strong>IDropTarget</strong> interface is implemented by a local server. It also perfectly expresses the items via the marshaled data object and provides a reference to the invoking site chain so that you can interact with the invoker through the [<strong>QueryService</strong>](https://www.bing.com/search?q=<strong>QueryService</strong>).</td>
 </tr>
 <tr class="odd">
 <td>Windows 7 and later: [<strong>IExecuteCommand</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand)</td>
@@ -77,7 +77,7 @@ Static verbs are the simplest verbs to implement, but they still provide rich fu
 
  
 
-For more information about [**IDropTarget**](https://msdn.microsoft.com/windows/desktop/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
+For more information about [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
 
 ### Preferred Dynamic Verb Methods
 

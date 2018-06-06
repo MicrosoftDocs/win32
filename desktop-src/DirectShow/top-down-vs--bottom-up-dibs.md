@@ -15,11 +15,11 @@ If you are new to graphics programming, you might expect that a bitmap would be 
 
 In a bottom-up DIB, the image buffer starts with the bottom row of pixels, followed by the next row up, and so forth. The top row of the image is the last row in the buffer. Therefore, the first byte in memory is the bottom-left pixel of the image. In GDI, all DIBs are bottom-up. The following diagram shows the physical layout of a bottom-up DIB.
 
-![bottom-up dib](https://www.bing.com/search?q=bottom-up dib)
+![bottom-up dib](https://www.bing.com/search?q=bottom-up+dib)
 
 In a top-down DIB, the order of the rows is reversed. The top row of the image is the first row in memory, followed by the next row down. The bottom row of the image is the last row in the buffer. With a top-down DIB, the first byte in memory is the top-left pixel of the image. DirectDraw uses top-down DIBs. The following diagram shows the physical layout of a top-down DIB:
 
-![top-down dib](https://www.bing.com/search?q=top-down dib)
+![top-down dib](https://www.bing.com/search?q=top-down+dib)
 
 For RGB DIBs, the image orientation is indicated by the **biHeight** member of the [**BITMAPINFOHEADER**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure. If **biHeight** is positive, the image is bottom-up. If **biHeight** is negative, the image is top-down.
 

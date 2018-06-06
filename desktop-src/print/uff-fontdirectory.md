@@ -76,12 +76,12 @@ Is a set of bit flags. One or more of the following flags can be specified.
 | Flag                               | Definition                                                                                                                                                                |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | FONT\_FL\_DEVICEFONT<br/>    | The font is a device font.<br/>                                                                                                                                     |
-| FONT\_FL\_GLYPHSET\_GTT<br/> | The glyph set is specified in Windows 2000 and later [*GTT*](https://www.bing.com/search?q=*GTT*) format.<br/> |
-| FONT\_FL\_GLYPHSET\_RLE<br/> | The glyph set is specified in Windows NT 4.0 [*RLE*](https://www.bing.com/search?q=*RLE*) format.<br/>     |
+| FONT\_FL\_GLYPHSET\_GTT<br/> | The glyph set is specified in Windows 2000 and later [*GTT*](wdkgloss.g#wdkgloss-glyph-translation-table--gtt-) format.<br/> |
+| FONT\_FL\_GLYPHSET\_RLE<br/> | The glyph set is specified in Windows NT 4.0 [*RLE*](wdkgloss.r#wdkgloss-run-length-encoded--rle--bitmap) format.<br/>     |
 | FONT\_FL\_IFI<br/>           | Font metrics are specified in Windows NT 4.0 IFI format.<br/>                                                                                                       |
 | FONT\_FL\_PERMANENT\_SF<br/> | The font is a PCL permanent soft font.<br/>                                                                                                                         |
-| FONT\_FL\_SOFTFONT<br/>      | The font is a [*PCL*](https://www.bing.com/search?q=*PCL*) soft font.<br/>                                                                                         |
-| FONT\_FL\_UFM<br/>           | Font metrics are specified in Windows 2000 and later [*UFM*](https://www.bing.com/search?q=*UFM*) format.<br/>         |
+| FONT\_FL\_SOFTFONT<br/>      | The font is a [*PCL*](wdkgloss.p#wdkgloss-pcl) soft font.<br/>                                                                                         |
+| FONT\_FL\_UFM<br/>           | Font metrics are specified in Windows 2000 and later [*UFM*](wdkgloss.u#wdkgloss-unidrv-font-metrics--ufm-) format.<br/>         |
 
 
 

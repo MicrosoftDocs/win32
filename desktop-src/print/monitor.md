@@ -636,13 +636,13 @@ The spooler calls **DeletePort** so a port monitor can delete a port from the mo
 
 Applications can delete local and remote ports. The printer UI displays a confirmation message box before the spooler calls **DeletePort**, so a monitor should ignore the *hWnd* parameter and not display another dialog box.
 
-[Language monitors](https://www.bing.com/search?q=Language monitors) and port monitor server DLLs are required to define an **EndDocPort** function and include the function's address in a [**MONITOR2**](monitor2.md) structure.
+[Language monitors](https://www.bing.com/search?q=Language+monitors) and port monitor server DLLs are required to define an **EndDocPort** function and include the function's address in a [**MONITOR2**](monitor2.md) structure.
 
 The handle received as the function's hPort argument is the port handle that the monitor's [**OpenPort**](https://www.bing.com/search?q=**OpenPort**) or [**OpenPortEx**](https://www.bing.com/search?q=**OpenPortEx**) function supplied.
 
 A language monitor's **EndDocPort** function typically calls the associated port monitor's **EndDocPort** function. It should also notify the spooler when the printing device has finished the job by calling **SetJob** (described in the Microsoft Windows SDK documentation), specifying a command of JOB\_CONTROL\_LAST\_PAGE\_EJECTED. Language monitors for bidirectional printers should not call **SetJob** until the printer has sent notification that the job is really finished.
 
-A port monitor server DLL's **EndDocPort** function typically calls the **CloseHandle** function, described in the Windows SDK documentation, to close the handle that was previously obtained by calling [**CreateFile**](https://msdn.microsoft.com/windows/desktop/80a96083-4de9-4422-9705-b8ad2b6cbd1b) from within [**StartDocPort**](https://www.bing.com/search?q=**StartDocPort**). It should also notify the spooler when the printing device has finished the job, by calling **SetJob**, specifying a command of JOB\_CONTROL\_SENT\_TO\_PRINTER. (If a spooler is communicating with the port through a language monitor, it doesn't consider the job complete until the language monitor sends JOB\_CONTROL\_LAST\_PAGE\_EJECTED.)
+A port monitor server DLL's **EndDocPort** function typically calls the **CloseHandle** function, described in the Windows SDK documentation, to close the handle that was previously obtained by calling [**CreateFile**](https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b) from within [**StartDocPort**](https://www.bing.com/search?q=**StartDocPort**). It should also notify the spooler when the printing device has finished the job, by calling **SetJob**, specifying a command of JOB\_CONTROL\_SENT\_TO\_PRINTER. (If a spooler is communicating with the port through a language monitor, it doesn't consider the job complete until the language monitor sends JOB\_CONTROL\_LAST\_PAGE\_EJECTED.)
 
 The **EndDocPort** function should free all resources that were allocated by the **StartDocPort** function.
 
@@ -652,7 +652,7 @@ Port monitor server DLLs are required to define an **EnumPorts** function and in
 
 The purpose of the **EnumPorts** function is to enumerate the ports currently supported by a print monitor. These ports are ones that were previously specified to the monitor's [**AddPortUI**](addportui.md) or [**AddPortEx**](https://www.bing.com/search?q=**AddPortEx**) function.
 
-The **EnumPorts** function should fill the buffer pointed to by *pPort* with an array of PORT\_INFO\_1 or PORT\_INFO\_2 structures. Then starting in a memory location following the last array element, the function must load all the strings pointed to by the array's structure members. Refer to localmon.dll, a [sample port monitor](https://www.bing.com/search?q=sample port monitor), for an example of how to do this. The function must also return the number of structures supplied (that is, the number of supported ports) by placing the number in the location pointed to by *pcReturned*.
+The **EnumPorts** function should fill the buffer pointed to by *pPort* with an array of PORT\_INFO\_1 or PORT\_INFO\_2 structures. Then starting in a memory location following the last array element, the function must load all the strings pointed to by the array's structure members. Refer to localmon.dll, a [sample port monitor](https://www.bing.com/search?q=sample+port+monitor), for an example of how to do this. The function must also return the number of structures supplied (that is, the number of supported ports) by placing the number in the location pointed to by *pcReturned*.
 
 The caller specifies the size of the supplied buffer in *cbBuf*. If the buffer is too small, the function should place the required buffer size in the location pointed to by *pcbNeeded*, call **SetLastError** (described in the Microsoft Windows SDK documentation) specifying ERROR\_INSUFFICIENT\_BUFFER, and return **FALSE**.
 
@@ -662,7 +662,7 @@ The port monitor must support localization of strings pointed to by the **pMonit
 
 The **fPortType** member of the PORT\_INFO\_2 structure is not used with NT-based operating systems.
 
-[Language monitors](https://www.bing.com/search?q=Language monitors) and port monitor server DLLs can optionally define a **GetPrinterDataFromPort** function and include the function's address in a [**MONITOR2**](monitor2.md) structure.
+[Language monitors](https://www.bing.com/search?q=Language+monitors) and port monitor server DLLs can optionally define a **GetPrinterDataFromPort** function and include the function's address in a [**MONITOR2**](monitor2.md) structure.
 
 The function is meant for use with bidirectional printers, and can be used in the following two ways:
 
@@ -672,7 +672,7 @@ The function is meant for use with bidirectional printers, and can be used in th
 
 If a language monitor's **GetPrinterDataFromPort** function receives a string pointer in *pValueName*, it should return a value in the supplied output buffer. Typically, the string represents a registry value name, and the spooler calls **GetPrinterDataFromPort** when an application calls the **GetPrinterData** function (described in the Microsoft Windows SDK documentation).
 
-The language monitor's responsibility is to send a command to the printer hardware by calling the port monitor's [**WritePort**](https://www.bing.com/search?q=**WritePort**) function, and reading the response by calling [**ReadPort**](https://www.bing.com/search?q=**ReadPort**), to obtain the needed value. For example, pjlmon.dll, the [sample language monitor](https://www.bing.com/search?q=sample language monitor), can return values for a port's "Installed Memory" and "Available Memory" registry value names.
+The language monitor's responsibility is to send a command to the printer hardware by calling the port monitor's [**WritePort**](https://www.bing.com/search?q=**WritePort**) function, and reading the response by calling [**ReadPort**](https://www.bing.com/search?q=**ReadPort**), to obtain the needed value. For example, pjlmon.dll, the [sample language monitor](https://www.bing.com/search?q=sample+language+monitor), can return values for a port's "Installed Memory" and "Available Memory" registry value names.
 
 After the spooler calls **GetPrinterDataFromPort** to obtain a registry value, it updates the registry with the new value.
 
@@ -684,7 +684,7 @@ When a port monitor's **GetPrinterDataFromPort** function receives a nonzero I/O
 
 Language monitors are required to define an `OpenPortEx` function and include its address in a [**MONITOR2**](monitor2.md) structure. The `OpenPortEx` function is called by the print spooler when a print queue is being connected to a port.
 
-The `OpenPortEx` function's primary purpose is to return a port handle that the caller can use as an input argument for subsequent calls to the language monitor's [**StartDocPort**](https://www.bing.com/search?q=**StartDocPort**), [**WritePort**](https://www.bing.com/search?q=**WritePort**), [**ReadPort**](https://www.bing.com/search?q=**ReadPort**), [**EndDocPort**](https://www.bing.com/search?q=**EndDocPort**), and [**GetPrinterDataFromPort**](https://www.bing.com/search?q=**GetPrinterDataFromPort**) functions. Because a language monitor typically implements these functions by calling the equivalent functions in its associated port monitor, a language monitor typically obtains a port handle by calling the port monitor's [**OpenPort**](https://www.bing.com/search?q=**OpenPort**) function. For more information see [Language and Port Monitor Interaction](https://www.bing.com/search?q=Language and Port Monitor Interaction).
+The `OpenPortEx` function's primary purpose is to return a port handle that the caller can use as an input argument for subsequent calls to the language monitor's [**StartDocPort**](https://www.bing.com/search?q=**StartDocPort**), [**WritePort**](https://www.bing.com/search?q=**WritePort**), [**ReadPort**](https://www.bing.com/search?q=**ReadPort**), [**EndDocPort**](https://www.bing.com/search?q=**EndDocPort**), and [**GetPrinterDataFromPort**](https://www.bing.com/search?q=**GetPrinterDataFromPort**) functions. Because a language monitor typically implements these functions by calling the equivalent functions in its associated port monitor, a language monitor typically obtains a port handle by calling the port monitor's [**OpenPort**](https://www.bing.com/search?q=**OpenPort**) function. For more information see [Language and Port Monitor Interaction](https://www.bing.com/search?q=Language+and+Port+Monitor+Interaction).
 
 The `OpenPortEx` function's *pMonitor* parameter is a pointer to the port monitor's [**MONITOR2**](monitor2.md) structure. This structure contains pointers to the port monitor's callable functions. The `OpenPortEx` function should check the structure to verify that all required function pointers are non-**NULL**. If the structure is valid, the function should copy it into local storage. Otherwise `OpenPortEx` should call **SetLastError**, specifying ERROR\_INVALID\_PRINT\_MONITOR, and return **FALSE**.
 
@@ -692,17 +692,17 @@ Print monitor functions that accept a port handle as input do not also accept a 
 
 A port monitor server DLL's `SetPortTimeOuts` function allows a language monitor to specify port time-out values for an open port. The function is optional, and must be provided only if the port monitor controls a port that allows the modification of port time-out values. If the function is defined, its address must be included in a [**MONITOR2**](monitor2.md) structure.
 
-The function is called by pjlmon.dll, the [sample language monitor](https://www.bing.com/search?q=sample language monitor), and you can write a customized language monitor that calls it. The print spooler does not call `SetPortTimeOuts`.
+The function is called by pjlmon.dll, the [sample language monitor](https://www.bing.com/search?q=sample+language+monitor), and you can write a customized language monitor that calls it. The print spooler does not call `SetPortTimeOuts`.
 
 The port monitor should initialize the port's time-out values from within its [**OpenPort**](https://www.bing.com/search?q=**OpenPort**) function.
 
-[Language monitors](https://www.bing.com/search?q=Language monitors) and port monitor server DLLs are required to define a `StartDocPort` function and include the function's address in a [**MONITOR2**](monitor2.md) structure.
+[Language monitors](https://www.bing.com/search?q=Language+monitors) and port monitor server DLLs are required to define a `StartDocPort` function and include the function's address in a [**MONITOR2**](monitor2.md) structure.
 
 The handle received as the function's *hPort* argument is the port handle that the monitor's [**OpenPort**](https://www.bing.com/search?q=**OpenPort**) or [**OpenPortEx**](https://www.bing.com/search?q=**OpenPortEx**) function supplied.
 
 A language monitor's `StartDocPort` function typically calls the associated port monitor's `StartDocPort` function.
 
-A port monitor server DLL's `StartDocPort` function typically calls the [**CreateFile**](https://msdn.microsoft.com/windows/desktop/80a96083-4de9-4422-9705-b8ad2b6cbd1b) function, described in the Windows SDK documentation, to create a connection to the kernel-mode port driver.
+A port monitor server DLL's `StartDocPort` function typically calls the [**CreateFile**](https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b) function, described in the Windows SDK documentation, to create a connection to the kernel-mode port driver.
 
 If necessary, the port monitor should prevent other processes from using the specified port until [**EndDocPort**](https://www.bing.com/search?q=**EndDocPort**) is called. For example, a port monitor for a COM port must ensure that, while a spooler is sending printer data to the port, another application does not assume the port is connected to a particular communications device and then attempt to communicate with that device. This cautionary note does not apply to the local print provider, which guarantees that it never calls `StartDocPort` twice in succession without an intervening call to **EndDocPort**, but it does apply to print providers that do not make this guarantee.
 

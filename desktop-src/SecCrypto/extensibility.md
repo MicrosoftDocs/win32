@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Extensibility
 
-Certificate Services supports [*X.509*](https://www.bing.com/search?q=*X.509*) certificate extensions. Policy modules can add or modify extensions, and an exit module can retrieve these extensions.
+Certificate Services supports [*X.509*](security.x_gly#-security-x-509-gly) certificate extensions. Policy modules can add or modify extensions, and an exit module can retrieve these extensions.
 
 See [Extension Handlers](extension-handlers.md) for more information.
 

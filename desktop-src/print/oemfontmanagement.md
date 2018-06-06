@@ -59,11 +59,11 @@ ULONG APIENTRY OEMFontManagement(
 
 ### Comments
 
-See [**DrvFontManagement**](https://www.bing.com/search?q=**DrvFontManagement**).
+See [**DrvFontManagement**](https://msdn.microsoft.com/cd52e32a-6d95-4aaf-96d3-45da2e5359e4).
 
 If this function is hooked by the device driver, then GDI passes calls that an application makes to **ExtEscape** for escape numbers 0x100 through 0x3FE, or for the QUERYESCSUPPORT escape when the first DWORD pointed to by *pvIn* is in the range 0x100 through 0x3FE.
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the drawing DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvFontManagement** function pointer.
 

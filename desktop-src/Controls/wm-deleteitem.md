@@ -57,7 +57,7 @@ An application should return **TRUE** if it processes this message.
 
 ## Remarks
 
-Microsoft Windows NT and later: Windows sends a **WM\_DELETEITEM** message only for items deleted from an owner-drawn list box (with the [**LBS\_OWNERDRAWFIXED**](https://www.bing.com/search?q=**LBS\_OWNERDRAWFIXED**) or [**LBS\_OWNERDRAWVARIABLE**](https://www.bing.com/search?q=**LBS\_OWNERDRAWVARIABLE**) style) or owner-drawn combo box (with the [**CBS\_OWNERDRAWFIXED**](https://www.bing.com/search?q=**CBS\_OWNERDRAWFIXED**) or [**CBS\_OWNERDRAWVARIABLE**](https://www.bing.com/search?q=**CBS\_OWNERDRAWVARIABLE**) style).
+Microsoft Windows NT and later: Windows sends a **WM\_DELETEITEM** message only for items deleted from an owner-drawn list box (with the [**LBS\_OWNERDRAWFIXED**](list-box-styles.md#lbs-ownerdrawfixed) or [**LBS\_OWNERDRAWVARIABLE**](list-box-styles.md#lbs-ownerdrawvariable) style) or owner-drawn combo box (with the [**CBS\_OWNERDRAWFIXED**](combo-box-styles.md#cbs-ownerdrawfixed) or [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style).
 
 Windows 95: Windows sends the **WM\_DELETEITEM** message for any deleted list box or combo box item with nonzero item data.
 

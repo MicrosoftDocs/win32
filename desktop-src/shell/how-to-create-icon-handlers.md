@@ -26,9 +26,9 @@ The general procedures for implementing and registering a Shell extension handle
 
 ### Step 1: Implementing Icon Handlers
 
-Like all Shell extension handlers, icon handlers are in-process Component Object Model (COM) objects implemented as DLLs. They must export two interfaces in addition to [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332): [**IPersistFile**](https://msdn.microsoft.com/windows/desktop/7d34507f-8a16-43b4-8225-010798abc546) and [**IExtractIcon**](/windows/desktop/api/Shlobj_core/).
+Like all Shell extension handlers, icon handlers are in-process Component Object Model (COM) objects implemented as DLLs. They must export two interfaces in addition to [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332): [**IPersistFile**](https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546) and [**IExtractIcon**](/windows/desktop/api/Shlobj_core/).
 
-The Shell initializes the handler through its [**IPersistFile**](https://msdn.microsoft.com/windows/desktop/7d34507f-8a16-43b4-8225-010798abc546) interface. It uses this interface to request the handler's class identifier (CLSID) and provides it with the file's name. The rest of the operation takes place through the [**IExtractIcon**](/windows/desktop/api/Shlobj_core/) interface. For a general discussion of how to implement Shell extension handlers, including the **IPersistFile** interface, see [Creating Shell Extension Handlers](handlers.md). The remainder of this document discusses how to implement the **IExtractIcon** interface.
+The Shell initializes the handler through its [**IPersistFile**](https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546) interface. It uses this interface to request the handler's class identifier (CLSID) and provides it with the file's name. The rest of the operation takes place through the [**IExtractIcon**](/windows/desktop/api/Shlobj_core/) interface. For a general discussion of how to implement Shell extension handlers, including the **IPersistFile** interface, see [Creating Shell Extension Handlers](handlers.md). The remainder of this document discusses how to implement the **IExtractIcon** interface.
 
 ### Step 2: Implementing the IExtractIcon Interface
 
@@ -66,7 +66,7 @@ HKEY_CLASSES_ROOT
 [Creating Shell Extension Handlers](handlers.md)
 </dt> <dt>
 
-[**IPersistFile**](https://msdn.microsoft.com/windows/desktop/7d34507f-8a16-43b4-8225-010798abc546)
+[**IPersistFile**](https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546)
 </dt> <dt>
 
 [**IExtractIcon**](/windows/desktop/api/Shlobj_core/)

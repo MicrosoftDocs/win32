@@ -58,7 +58,7 @@ The **IPrinterExtensionEventArgs** interface has these properties.
 [**IPrinterExtensionContext**](iprinterextensioncontext-interface.md)
 </dt> <dt>
 
-[V4 Printer Driver Property Bags](https://www.bing.com/search?q=V4 Printer Driver Property Bags)
+[V4 Printer Driver Property Bags](https://www.bing.com/search?q=V4+Printer+Driver+Property+Bags)
 </dt> </dl>
 
  

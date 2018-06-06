@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Qualifier object
 
-\[The **Qualifier** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](https://www.bing.com/search?q=**X509Extension Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
+\[The **Qualifier** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](https://www.bing.com/search?q=**X509Extension+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
 
 The **Qualifier** object represents a Certification Practice Statement (CPS) pointer or user notice qualifier.
 
@@ -20,7 +20,7 @@ The **Qualifier** object represents a Certification Practice Statement (CPS) poi
 The **Qualifier** object is used to perform the following tasks:
 
 -   Retrieve the object identifier of the qualifier.
--   Retrieve the Uniform Resource Identifier (URI) that points to a CPS published by the [*certification authority*](https://www.bing.com/search?q=*certification authority*) (CA).
+-   Retrieve the Uniform Resource Identifier (URI) that points to a CPS published by the [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA).
 -   Retrieve the name of the organization associated with the qualifier.
 -   Retrieve the name and content of a user notice.
 

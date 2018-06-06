@@ -35,9 +35,9 @@ HRESULT D3DX10CreateDevice(
 *pAdapter* \[in\]
 </dt> <dd>
 
-Type: **[**IDXGIAdapter**](https://msdn.microsoft.com/windows/desktop/02fc6b37-bd8f-4889-96cc-91064d23c9d0)\***
+Type: **[**IDXGIAdapter**](https://msdn.microsoft.com/VS|directx_sdk|~\idxgiadapter.htm)\***
 
-Pointer to the display adapter (see the [**IDXGIAdapter**](https://msdn.microsoft.com/windows/desktop/02fc6b37-bd8f-4889-96cc-91064d23c9d0) interface) when creating a hardware device; otherwise set this parameter to **NULL**. If **NULL** is specified when creating a hardware device, Direct3D will use the first adapter enumerated by the [**IDXGIFactory**](https://msdn.microsoft.com/windows/desktop/642aac36-ca5a-4c62-b5cb-f9d35965ca2f) interface.
+Pointer to the display adapter (see the [**IDXGIAdapter**](https://msdn.microsoft.com/VS|directx_sdk|~\idxgiadapter.htm) interface) when creating a hardware device; otherwise set this parameter to **NULL**. If **NULL** is specified when creating a hardware device, Direct3D will use the first adapter enumerated by the [**IDXGIFactory**](https://msdn.microsoft.com/VS|directx_sdk|~\idxgifactory.htm) interface.
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ The device-driver type (see the [**D3D10\_DRIVER\_TYPE**](/windows/desktop/api/D
 *Software* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**HMODULE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 A handle to a loaded module that implements a software driver (such as D3D10Ref.dll). To get a handle, call the [GetModuleHandle](http://msdn2.microsoft.com/en-us/library/ms683199.aspx) function.
 
@@ -62,7 +62,7 @@ A handle to a loaded module that implements a software driver (such as D3D10Ref.
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Device creation flags (see the [**D3D10\_CREATE\_DEVICE\_FLAG**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_create_device_flag) enumeration) that enable [API layers](d3d10-graphics-programming-guide-api-features-layers.md). These flags can be bitwise OR'd together.
 

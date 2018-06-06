@@ -46,7 +46,7 @@ Caller-supplied pointer to a NULL-terminated Unicode string containing the print
 *pDevmode* \[in\]
 </dt> <dd>
 
-Caller-supplied pointer to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure that is passed to the print processor or printer driver.
+Caller-supplied pointer to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure that is passed to the print processor or printer driver.
 
 </dd> <dt>
 
@@ -81,7 +81,7 @@ Caller-supplied pointer to an [**ATTRIBUTE\_INFO\_3**](attribute-info-3.md) stru
 
 <dl> <dt>
 
-[**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**)
+[**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b)
 </dt> <dt>
 
 [**ATTRIBUTE\_INFO\_3**](attribute-info-3.md)

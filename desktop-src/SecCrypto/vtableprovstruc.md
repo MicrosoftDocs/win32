@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # VTableProvStruc structure
 
-The **VTableProvStruc** structure contains pointers to callback functions that can be used by [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP) functions.
+The **VTableProvStruc** structure contains pointers to callback functions that can be used by [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) functions.
 
 ## Syntax
 
@@ -46,7 +46,7 @@ This is a version 1 member.
 **FuncVerifyImage**
 </dt> <dd>
 
-The address of a [**FuncVerifyImage**](funcverifyimage.md) callback function that the CSP uses to verify the signature of any DLLs that the CSP will load. All auxiliary DLLs into which a CSP makes function calls must be signed in the same manner (and with the same key) as the primary CSP DLL. To ensure this signature, the auxiliary DLLs must be loaded dynamically by using the [**LoadLibrary**](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65) function. But before the DLL is loaded, the signature of the DLL must be verified. The CSP performs this verification by calling the **FuncVerifyImage** function, as shown in the example below.
+The address of a [**FuncVerifyImage**](funcverifyimage.md) callback function that the CSP uses to verify the signature of any DLLs that the CSP will load. All auxiliary DLLs into which a CSP makes function calls must be signed in the same manner (and with the same key) as the primary CSP DLL. To ensure this signature, the auxiliary DLLs must be loaded dynamically by using the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) function. But before the DLL is loaded, the signature of the DLL must be verified. The CSP performs this verification by calling the **FuncVerifyImage** function, as shown in the example below.
 
 This function pointer can be stored and used until the CSP context is released.
 
@@ -68,7 +68,7 @@ This is a version 1 member.
 **dwProvType**
 </dt> <dd>
 
-A **DWORD** value that specifies the type of provider to acquire. The following [*provider types*](https://www.bing.com/search?q=*provider types*) are predefined and are discussed in detail in [CSP Interoperability](https://www.bing.com/search?q=CSP Interoperability):
+A **DWORD** value that specifies the type of provider to acquire. The following [*provider types*](security.p_gly#-security-provider-type-gly) are predefined and are discussed in detail in [CSP Interoperability](https://www.bing.com/search?q=CSP+Interoperability):
 
 -   PROV\_RSA\_FULL
 -   PROV\_RSA\_SIG

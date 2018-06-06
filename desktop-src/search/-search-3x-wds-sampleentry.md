@@ -38,7 +38,7 @@ Windows Search protocol handlers use design specifications similar to SharePoint
 
 ## Windows Desktop Search 2.x
 
-The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged. Instead of using [Windows Desktop Search 2.x](https://msdn.microsoft.com/windows/desktop/3d73f850-58b8-4a41-8863-e2914661d4b9), use [Windows Search](-search-3x-wds-overview.md) and [Windows Search API](-search-reference-entry-page.md).
+The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged. Instead of using [Windows Desktop Search 2.x](https://msdn.microsoft.com/VS|search|~\search\wds2x\wds_overview.htm), use [Windows Search](-search-3x-wds-overview.md) and [Windows Search API](-search-reference-entry-page.md).
 
 ## Platform SDK: Indexing Service
 

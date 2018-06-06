@@ -30,7 +30,7 @@ In this tutorial, you will create a console application that takes two command-l
 
 To get the decoded audio data, the application uses the source reader object. The source reader exposes the [**IMFSourceReader**](/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader) interface. To write the decoded audio to the WAVE file, the applications uses Windows I/O functions. The following image illustrates this process.
 
-![diagram showing the source reader getting audio data from the source file.](https://www.bing.com/search?q=diagram showing the source reader getting audio data from the source file.)
+![diagram showing the source reader getting audio data from the source file.](https://www.bing.com/search?q=diagram+showing+the+source+reader+getting+audio+data+from+the+source+file.)
 
 In its simplest form, a WAVE file has the following structure:
 
@@ -42,8 +42,8 @@ In its simplest form, a WAVE file has the following structure:
 | **DWORD**                              | 4            | Total file size, not including the first 8 bytes                      |
 | **FOURCC**                             | 4            | 'WAVE'                                                                |
 | **FOURCC**                             | 4            | 'fmt '                                                                |
-| **DWORD**                              | 4            | Size of the [**WAVEFORMATEX**](https://msdn.microsoft.com/windows/desktop/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) data that follows. |
-| [**WAVEFORMATEX**](https://msdn.microsoft.com/windows/desktop/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) | Varies       | Audio format header.                                                  |
+| **DWORD**                              | 4            | Size of the [**WAVEFORMATEX**](https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) data that follows. |
+| [**WAVEFORMATEX**](https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) | Varies       | Audio format header.                                                  |
 | **FOURCC**                             | 4            | 'data'                                                                |
 | **DWORD**                              | 4            | Size of the audio data.                                               |
 | **BYTE**\[\]                           | Varies       | Audio data.                                                           |
@@ -170,14 +170,14 @@ int wmain(int argc, wchar_t* argv[])
 
 This function does the following:
 
-1.  Calls [**CoInitializeEx**](https://msdn.microsoft.com/windows/desktop/ffb79c0f-aeda-4ea1-aea8-afb79109837f) to initialize the COM library.
+1.  Calls [**CoInitializeEx**](https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f) to initialize the COM library.
 2.  Calls [**MFStartup**](/windows/desktop/api/mfapi/nf-mfapi-mfstartup) to initialize the Media Foundation platform.
 3.  Calls [**MFCreateSourceReaderFromURL**](/windows/desktop/api/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfromurl) to create the source reader. This function takes the name of the input file and receives an [**IMFSourceReader**](/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader) interface pointer.
 4.  Creates the output file by calling the **CreateFile** function, which returns a file handle.
 5.  Calls the application-defined [WriteWavFile](#write-the-wave-file) function. This function decodes the audio and writes the WAVE file.
 6.  Releases the [**IMFSourceReader**](/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader) pointer and the file handle.
 7.  Calls [**MFShutdown**](/windows/desktop/api/mfapi/nf-mfapi-mfshutdown) to shut down the Media Foundation platform.
-8.  Calls [**CoUninitialize**](https://msdn.microsoft.com/windows/desktop/9411cbed-fa3b-46f7-b677-6ada53324edc) to release the COM library.
+8.  Calls [**CoUninitialize**](https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc) to release the COM library.
 
 ## Write the WAVE File
 
@@ -349,7 +349,7 @@ The `ConfigureAudioStream` function does the following:
 
 The `WriteWaveHeader` function writes the WAVE file header.
 
-The only Media Foundation API called from this function is [**MFCreateWaveFormatExFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype), which converts the media type to a [**WAVEFORMATEX**](https://msdn.microsoft.com/windows/desktop/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) structure.
+The only Media Foundation API called from this function is [**MFCreateWaveFormatExFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype), which converts the media type to a [**WAVEFORMATEX**](https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057) structure.
 
 
 ```C++

@@ -47,7 +47,7 @@ The return value is a count of the strings remaining in the list. If the *wParam
 
 ## Remarks
 
-If you create the combo box with an owner-drawn style but without the [**CBS\_HASSTRINGS**](https://www.bing.com/search?q=**CBS\_HASSTRINGS**) style, the system sends a [**WM\_DELETEITEM**](wm-deleteitem.md) message to the owner of the combo box so the application can free any additional data associated with the item.
+If you create the combo box with an owner-drawn style but without the [**CBS\_HASSTRINGS**](combo-box-styles.md#cbs-hasstrings) style, the system sends a [**WM\_DELETEITEM**](wm-deleteitem.md) message to the owner of the combo box so the application can free any additional data associated with the item.
 
 ## Requirements
 

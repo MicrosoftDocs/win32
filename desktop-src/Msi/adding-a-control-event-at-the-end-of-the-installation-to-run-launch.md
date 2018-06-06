@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Adding a Control Event at the End of the Installation to Run Launch
 
-The installer runs the sample's installation wizard sequence only if the [*full UI*](https://www.bing.com/search?q=*full UI*) level is used to install the application. The last dialog box of the sample dialog sequence is an [Exit Dialog](exit-dialog.md) named ExitDialog. When a user interacts with the OK button on ExitDialog, this first publishes an [EndDialog ControlEvent](enddialog-controlevent.md) that returns control to the installer. The control then publishes a [DoAction ControlEvent](doaction-controlevent.md) that runs the Launch custom action. Each control event requires a record in the [ControlEvent table](controlevent-table.md). See [ControlEvent Overview](controlevent-overview.md).
+The installer runs the sample's installation wizard sequence only if the [*full UI*](f-gly.md#-msi-full-ui-gly) level is used to install the application. The last dialog box of the sample dialog sequence is an [Exit Dialog](exit-dialog.md) named ExitDialog. When a user interacts with the OK button on ExitDialog, this first publishes an [EndDialog ControlEvent](enddialog-controlevent.md) that returns control to the installer. The control then publishes a [DoAction ControlEvent](doaction-controlevent.md) that runs the Launch custom action. Each control event requires a record in the [ControlEvent table](controlevent-table.md). See [ControlEvent Overview](controlevent-overview.md).
 
 [ControlEvent Table](controlevent-table.md)
 

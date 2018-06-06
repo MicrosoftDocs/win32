@@ -34,7 +34,7 @@ This issue can cause automation problems that prevent test code from referencing
 
 <dl> <dt>
 
-[**UIA\_AutomationIdPropertyId**](https://www.bing.com/search?q=**UIA\_AutomationIdPropertyId**)
+[**UIA\_AutomationIdPropertyId**](uiauto-automation-element-propids.md#uia-automationidpropertyid)
 </dt> <dt>
 
 [**IUIAutomationElement.CurrentAutomationId**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentautomationid)

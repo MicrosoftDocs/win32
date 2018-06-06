@@ -28,9 +28,9 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/windows/desktop/2ce26bf0-2b33-4193-a58f-03493a051351)**
+Type: **[**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplayback_type.htm)**
 
-Type of the animation set playback loop. See [**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/windows/desktop/2ce26bf0-2b33-4193-a58f-03493a051351).
+Type of the animation set playback loop. See [**D3DXPLAYBACK\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplayback_type.htm).
 
 ## Requirements
 

@@ -91,7 +91,7 @@ List boxes have several usage patterns:
 </tr>
 <tr class="even">
 <td><strong>Standard multiple-selection lists</strong> Allow users to select any number of items, including none.<br/></td>
-<td>Standard multiple-selection lists have exactly the same appearance as single-selection lists, so there is no visual clue that a list box supports multiple selection. Because users have to discover this ability, this list pattern is best used for tasks where multiple selection isn't essential and is rarely used. <br/> There are two different multiple-selection modes: [multiple](https://www.bing.com/search?q=multiple) and [extended](https://www.bing.com/search?q=extended). <strong>Extended selection mode</strong> is by far the more common, where the selection can be extended by dragging or with Shift+click and Ctrl+click to select groups of contiguous and non-adjacent values, respectively. In the <strong>multiple-selection mode</strong>, clicking any item toggles its selection state regardless of the Shift and Ctrl keys. Given this unusual behavior, multiple-selection mode is deprecated and you should use check box lists instead.<br/> <img src="images/ctrl-list-boxes-image5.png" alt="Screen shot of list box with several items selected " /><br/> In this example, users can select any number of items using the multiple-selection mode.<br/></td>
+<td>Standard multiple-selection lists have exactly the same appearance as single-selection lists, so there is no visual clue that a list box supports multiple selection. Because users have to discover this ability, this list pattern is best used for tasks where multiple selection isn't essential and is rarely used. <br/> There are two different multiple-selection modes: [multiple](glossary.md#m) and [extended](glossary.md#e). <strong>Extended selection mode</strong> is by far the more common, where the selection can be extended by dragging or with Shift+click and Ctrl+click to select groups of contiguous and non-adjacent values, respectively. In the <strong>multiple-selection mode</strong>, clicking any item toggles its selection state regardless of the Shift and Ctrl keys. Given this unusual behavior, multiple-selection mode is deprecated and you should use check box lists instead.<br/> <img src="images/ctrl-list-boxes-image5.png" alt="Screen shot of list box with several items selected " /><br/> In this example, users can select any number of items using the multiple-selection mode.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>Check box lists</strong> Like standard multiple-selection list boxes, check box lists allow users to select any number of items, including none.<br/></td>
@@ -208,7 +208,7 @@ In this example, the disk space required to install the components is more meani
 
 -   **Select the safest (to prevent loss of data or system access) and most secure option by default.** If safety and security aren't factors, select the most likely or convenient option.
 
-**Exception:** Don't select any items if the control represents a property in a [mixed state](https://www.bing.com/search?q=mixed state), which happens when displaying a property for multiple objects that don't have the same setting.
+**Exception:** Don't select any items if the control represents a property in a [mixed state](glossary.md#m), which happens when displaying a property for multiple objects that don't have the same setting.
 
 ## Recommended sizing and spacing
 
@@ -228,7 +228,7 @@ Recommended sizing and spacing for list boxes.
 
 -   All list boxes need labels. Write the label as a word or phrase, not as a sentence; use a colon at the end of the label.
 
-**Exception:** Omit the label if it is merely a restatement of a dialog box's [main instruction](https://www.bing.com/search?q=main instruction). In this case, the main instruction takes the colon (unless it's a question) and access key.
+**Exception:** Omit the label if it is merely a restatement of a dialog box's [main instruction](glossary.md#m). In this case, the main instruction takes the colon (unless it's a question) and access key.
 
 **Acceptable:** ![screen shot of list with redundant label ](images/ctrl-list-boxes-image20.png)
 
@@ -244,8 +244,8 @@ In this example, the redundant label is removed, so the main instruction takes t
 
 In this example, the list box is subordinate to a radio button and shares its label.
 
--   Assign a unique [access key](https://www.bing.com/search?q=access key). For guidelines, see [Keyboard](inter-keyboard.md).
--   Use [sentence-style capitalization](https://www.bing.com/search?q=sentence-style capitalization).
+-   Assign a unique [access key](glossary.md#glossary). For guidelines, see [Keyboard](inter-keyboard.md).
+-   Use [sentence-style capitalization](glossary.md#s).
 -   Position the label either to the left of or above the control, and align the label with the left edge of the control.
     -   If label is on the left, vertically align the label text with the first line of text in the control.
 
@@ -276,14 +276,14 @@ In this example, the check boxes clearly indicate that multiple selection is pos
 **Option text**
 
 -   Assign a unique name to each option.
--   Use [sentence-style capitalization](https://www.bing.com/search?q=sentence-style capitalization), unless an item is a proper noun.
+-   Use [sentence-style capitalization](glossary.md#s), unless an item is a proper noun.
 -   Write the label as a word or phrase, not as a sentence, and use no ending punctuation.
 -   Use parallel phrasing, and try to keep the length about the same for all options.
 
 **Instructional and supplemental text**
 
 -   If you need to add instructional text about a list box, add it above the label. Use complete sentences with ending punctuation.
--   Use [sentence-style capitalization](https://www.bing.com/search?q=sentence-style capitalization).
+-   Use [sentence-style capitalization](glossary.md#s).
 -   Additional information that is helpful but not necessary should be kept short. Place this text either in parentheses between the label and colon, or without parentheses below the control.
 
 ![screen shot of check-box list and descriptive text ](images/ctrl-list-boxes-image30.png)

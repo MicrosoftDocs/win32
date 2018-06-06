@@ -54,49 +54,49 @@ Returns the story type, which can be a client-defined custom value, or one of th
 
 <dl> <dt>
 
-**[**tomCommentsStory**](https://www.bing.com/search?q=**tomCommentsStory**)**
+**[**tomCommentsStory**](tomconstants.md#tomcommentsstory)**
 </dt> <dt>
 
-**[**tomEndnotesStory**](https://www.bing.com/search?q=**tomEndnotesStory**)**
+**[**tomEndnotesStory**](tomconstants.md#tomendnotesstory)**
 </dt> <dt>
 
-**[**tomEvenPagesFooterStory**](https://www.bing.com/search?q=**tomEvenPagesFooterStory**)**
+**[**tomEvenPagesFooterStory**](tomconstants.md#tomevenpagesfooterstory)**
 </dt> <dt>
 
-**[**tomEvenPagesHeaderStory**](https://www.bing.com/search?q=**tomEvenPagesHeaderStory**)**
+**[**tomEvenPagesHeaderStory**](tomconstants.md#tomevenpagesheaderstory)**
 </dt> <dt>
 
-**[**tomFindStory**](https://www.bing.com/search?q=**tomFindStory**)**
+**[**tomFindStory**](tomconstants.md#tomfindstory)**
 </dt> <dt>
 
-**[**tomFirstPageFooterStory**](https://www.bing.com/search?q=**tomFirstPageFooterStory**)**
+**[**tomFirstPageFooterStory**](tomconstants.md#tomfirstpagefooterstory)**
 </dt> <dt>
 
-**[**tomFirstPageHeaderStory**](https://www.bing.com/search?q=**tomFirstPageHeaderStory**)**
+**[**tomFirstPageHeaderStory**](tomconstants.md#tomfirstpageheaderstory)**
 </dt> <dt>
 
-**[**tomFootnotesStory**](https://www.bing.com/search?q=**tomFootnotesStory**)**
+**[**tomFootnotesStory**](tomconstants.md#tomfootnotesstory)**
 </dt> <dt>
 
-**[**tomMainTextStory**](https://www.bing.com/search?q=**tomMainTextStory**)**
+**[**tomMainTextStory**](tomconstants.md#tommaintextstory)**
 </dt> <dt>
 
-**[**tomPrimaryFooterStory**](https://www.bing.com/search?q=**tomPrimaryFooterStory**)**
+**[**tomPrimaryFooterStory**](tomconstants.md#tomprimaryfooterstory)**
 </dt> <dt>
 
-**[**tomPrimaryHeaderStory**](https://www.bing.com/search?q=**tomPrimaryHeaderStory**)**
+**[**tomPrimaryHeaderStory**](tomconstants.md#tomprimaryheaderstory)**
 </dt> <dt>
 
-**[**tomReplaceStory**](https://www.bing.com/search?q=**tomReplaceStory**)**
+**[**tomReplaceStory**](tomconstants.md#tomreplacestory)**
 </dt> <dt>
 
-**[**tomScratchStory**](https://www.bing.com/search?q=**tomScratchStory**)**
+**[**tomScratchStory**](tomconstants.md#tomscratchstory)**
 </dt> <dt>
 
-**[**tomTextFrameStory**](https://www.bing.com/search?q=**tomTextFrameStory**)**
+**[**tomTextFrameStory**](tomconstants.md#tomtextframestory)**
 </dt> <dt>
 
-**[**tomUnknownStory**](https://www.bing.com/search?q=**tomUnknownStory**)**
+**[**tomUnknownStory**](tomconstants.md#tomunknownstory)**
 </dt> </dl>
 
 ## Requirements

@@ -15,7 +15,7 @@ Handles words identified by word breaks during both index time and query time.
 
 ## Members
 
-The **IWordSink** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IWordSink** also has these types of members:
+The **IWordSink** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IWordSink** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -41,7 +41,7 @@ The **IWordSink** interface has these methods.
 
 Windows Search creates and initializes instances of the **IWordSink** object. The **IWordSink** object receives the *fQuery* parameter during initialization and uses this parameter to determine the word-breaking context in which the object is used.
 
-[**IWordBreaker**](https://msdn.microsoft.com/windows/desktop/36c46931-5c5c-4ab9-9291-60ad93cebbf0) implementations receive a pointer to the **IWordSink** object in the [**IWordBreaker::BreakText**](https://msdn.microsoft.com/windows/desktop/32e495c0-e173-4b35-be58-51f31cb38e3e) method.
+[**IWordBreaker**](https://msdn.microsoft.com/VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\iwordbreaker.htm) implementations receive a pointer to the **IWordSink** object in the [**IWordBreaker::BreakText**](https://msdn.microsoft.com/VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\breaktext.htm) method.
 
 ## Requirements
 

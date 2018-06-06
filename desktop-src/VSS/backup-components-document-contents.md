@@ -25,7 +25,7 @@ While the component information is available to both the requester and the write
 
 The Backup Components Document contains a list of those components explicitly included in backup and restore by the requester. The list contains the following:
 
--   Explicitly included [*selectable components*](https://www.bing.com/search?q=*selectable components*).
+-   Explicitly included [*selectable components*](vssgloss-s.md#base-vssgloss-selectable-component).
 
     The inclusion of these files in backup operations is indicated by [**IVssBackupComponents::AddComponent**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addcomponent) and in restore operations by [**IVssBackupComponents::SetSelectedForRestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore).
 
@@ -33,13 +33,13 @@ The Backup Components Document contains a list of those components explicitly in
 
     All of these components must be included if any components of the writer are to be included in the operation. The inclusion of these files in backup operations is indicated by [**IVssBackupComponents::AddComponent**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addcomponent) and in restore operations by [**IVssBackupComponents::SetSelectedForRestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore).
 
--   Components implicitly added to the backup ([*subcomponents*](https://www.bing.com/search?q=*subcomponents*)) that are [*selectable for restore*](https://www.bing.com/search?q=*selectable for restore*) and are explicitly added to the restore.
+-   Components implicitly added to the backup ([*subcomponents*](vssgloss-s.md#base-vssgloss-subcomponent)) that are [*selectable for restore*](vssgloss-s.md#base-vssgloss-selectability-for-restore) and are explicitly added to the restore.
 
     These components may be either selectable or nonselectable, but have a selectable ancestor that was used to implicitly select them for backup. They are added to the Backup Components Document by [**IVssBackupComponents::AddRestoreSubcomponent**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addrestoresubcomponent).
 
 The identities of components implicitly included in the restore are not stored in the Backup Components Document.
 
-VSS has access to information about component inclusion: writers with no components explicitly included in a restore or backup receive no VSS events following the generation of the [*PrepareForBackup*](https://www.bing.com/search?q=*PrepareForBackup*) or [*PreRestore*](https://www.bing.com/search?q=*PreRestore*) events.
+VSS has access to information about component inclusion: writers with no components explicitly included in a restore or backup receive no VSS events following the generation of the [*PrepareForBackup*](vssgloss-p.md#base-vssgloss-prepareforbackup-event) or [*PreRestore*](vssgloss-p.md#base-vssgloss-prerestore-event) events.
 
 Writers cannot directly query this information. This is not a significant limitation because by design, individual VSS writers should not require detailed information about the status of other writers on the system and, as noted above, those with no included components will not have to participate in the VSS operation.
 
@@ -47,7 +47,7 @@ A requester can determine which components have been explicitly included in an o
 
 The [**IVssBackupComponents::GetWriterComponentsCount**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount) method returns the number of writers with component information stored in the Backup Components Document (and not the number of components in the document).
 
-The requester indexes through the stored writer information using [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents), which returns instances of the [**IVssWriterComponentsExt**](/windows/desktop/api/VsBackup/) interface. The **IVssWriterComponentsExt** interface allows the requester to obtain the [*writer class*](https://www.bing.com/search?q=*writer class*) and [*writer instance*](https://www.bing.com/search?q=*writer instance*) of participating writers, as well as to access information about those of its components stored in the Backup Components Document.
+The requester indexes through the stored writer information using [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents), which returns instances of the [**IVssWriterComponentsExt**](/windows/desktop/api/VsBackup/) interface. The **IVssWriterComponentsExt** interface allows the requester to obtain the [*writer class*](vssgloss-w.md#base-vssgloss-writer-class) and [*writer instance*](vssgloss-w.md#base-vssgloss-writer-instance) of participating writers, as well as to access information about those of its components stored in the Backup Components Document.
 
 ## Information on Included Components
 
@@ -63,12 +63,12 @@ As noted in [Backup Components Document Life Cycle](backup-components-document-l
 
 [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) allows both writer and requesters to get the following information:
 
--   A component's name, type, and [*logical path*](https://www.bing.com/search?q=*logical path*) ([**GetComponentName**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getcomponentname), [**GetComponentType**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getcomponenttype), [**GetLogicalPath**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getlogicalpath))
--   How a component should be restored as indicated by the [*restore target*](https://www.bing.com/search?q=*restore target*) ([**IVssComponent::GetRestoreTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoretarget))
+-   A component's name, type, and [*logical path*](vssgloss-l.md#base-vssgloss-logical-path) ([**GetComponentName**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getcomponentname), [**GetComponentType**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getcomponenttype), [**GetLogicalPath**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getlogicalpath))
+-   How a component should be restored as indicated by the [*restore target*](vssgloss-r.md#base-vssgloss-restore-target) ([**IVssComponent::GetRestoreTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoretarget))
 -   If an alternate location was used in restoring a file ([**GetAlternateLocationMapping**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getalternatelocationmapping), [**GetAlternateLocationMappingCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getalternatelocationmappingcount))
 -   New target information, if any ([**GetNewTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getnewtarget), [**GetNewTargetCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getnewtargetcount))
 -   Pre-and post-restore error messages ([**GetPreRestoreFailureMsg**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getprerestorefailuremsg), [**GetPostRestoreFailureMsg**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpostrestorefailuremsg))
--   If a [*selectable for backup*](https://www.bing.com/search?q=*selectable for backup*) component defining a component set has been selected for restore ([**IsSelectedForRestore**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-isselectedforrestore))
+-   If a [*selectable for backup*](vssgloss-s.md#base-vssgloss-selectability-for-backup) component defining a component set has been selected for restore ([**IsSelectedForRestore**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-isselectedforrestore))
 -   Whether a backup or restore succeeded ([**GetBackupSucceeded**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getbackupsucceeded), [**GetFileRestoreStatus**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getfilerestorestatus))
 -   Any writer-specific backup or restore options that may have been set by [**IVssBackupComponents::SetBackupOptions**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupoptions) or [**IVssBackupComponents::SetRestoreOptions**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions) ([**GetBackupOptions**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getbackupoptions), [**GetRestoreOptions**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoreoptions))
 -   Any writer-specific metadata backup or restore metadata ([**GetBackupMetadata**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getbackupmetadata)), [**GetRestoreMetadata**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoremetadata))

@@ -38,7 +38,7 @@ The **Shell** object has these methods.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>AddToRecent</strong>](https://msdn.microsoft.com/windows/desktop/26D2AE5A-FC7E-4c7c-9F10-8D3D7AA236E7)</td>
+<td style="text-align: left;">[<strong>AddToRecent</strong>](https://msdn.microsoft.com/26D2AE5A-FC7E-4c7c-9F10-8D3D7AA236E7)</td>
 <td style="text-align: left;">Adds a file to the most recently used (MRU) list.<br/></td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ The **Shell** object has these methods.
 <td style="text-align: left;">Creates a dialog box that enables the user to select a folder and then returns the selected folder's [<strong>Folder</strong>](folder.md) object.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>CanStartStopService</strong>](https://msdn.microsoft.com/windows/desktop/1428F529-61F6-4113-A553-2C0D617FD859)</td>
+<td style="text-align: left;">[<strong>CanStartStopService</strong>](https://msdn.microsoft.com/1428F529-61F6-4113-A553-2C0D617FD859)</td>
 <td style="text-align: left;">Determines if the current user can start and stop the named service.<br/></td>
 </tr>
 <tr class="even">
@@ -88,15 +88,15 @@ As of Windows Vista, most Control Panel applications are Shell items and cannot
 <td style="text-align: left;">Displays the <strong>Find: All Files</strong> dialog box. This is the same as clicking the <strong>Start</strong> menu and then selecting <strong>Search</strong> (or its equivalent under systems earlier than Windows XP.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>FindPrinter</strong>](https://msdn.microsoft.com/windows/desktop/61C700CF-623B-4c99-A211-AC26A1E4AE85)</td>
+<td style="text-align: left;">[<strong>FindPrinter</strong>](https://msdn.microsoft.com/61C700CF-623B-4c99-A211-AC26A1E4AE85)</td>
 <td style="text-align: left;">Displays the <strong>Find Printer</strong> dialog box.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>GetSetting</strong>](https://msdn.microsoft.com/windows/desktop/3E8C7C6A-5696-4756-B4BF-902FA2420AE9)</td>
+<td style="text-align: left;">[<strong>GetSetting</strong>](https://msdn.microsoft.com/3E8C7C6A-5696-4756-B4BF-902FA2420AE9)</td>
 <td style="text-align: left;">Retrieves a global Shell setting.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>GetSystemInformation</strong>](https://msdn.microsoft.com/windows/desktop/94C10DD6-FE49-4dd4-AEED-69B73A75EDEF)</td>
+<td style="text-align: left;">[<strong>GetSystemInformation</strong>](https://msdn.microsoft.com/94C10DD6-FE49-4dd4-AEED-69B73A75EDEF)</td>
 <td style="text-align: left;">Retrieves system information.<br/></td>
 </tr>
 <tr class="odd">
@@ -104,11 +104,11 @@ As of Windows Vista, most Control Panel applications are Shell items and cannot
 <td style="text-align: left;">Displays the Windows Help and Support Center. This method has the same effect as clicking the <strong>Start</strong> menu and selecting <strong>Help and Support</strong>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>IsRestricted</strong>](https://msdn.microsoft.com/windows/desktop/C4B3B5C0-7445-483a-885F-5283BD4D4B39)</td>
+<td style="text-align: left;">[<strong>IsRestricted</strong>](https://msdn.microsoft.com/C4B3B5C0-7445-483a-885F-5283BD4D4B39)</td>
 <td style="text-align: left;">Retrieves a group's restriction setting from the registry.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>IsServiceRunning</strong>](https://msdn.microsoft.com/windows/desktop/FDC41C2D-7462-458f-BBE6-D97260C26B6C)</td>
+<td style="text-align: left;">[<strong>IsServiceRunning</strong>](https://msdn.microsoft.com/FDC41C2D-7462-458f-BBE6-D97260C26B6C)</td>
 <td style="text-align: left;">Returns a value that indicates whether a particular service is running.<br/></td>
 </tr>
 <tr class="even">
@@ -132,11 +132,11 @@ As of Windows Vista, most Control Panel applications are Shell items and cannot
 <td style="text-align: left;">Displays the Apps Search pane.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>ServiceStart</strong>](https://msdn.microsoft.com/windows/desktop/72214E80-38A2-4a57-B555-942902BAFC3D)</td>
+<td style="text-align: left;">[<strong>ServiceStart</strong>](https://msdn.microsoft.com/72214E80-38A2-4a57-B555-942902BAFC3D)</td>
 <td style="text-align: left;">Starts a named service.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>ServiceStop</strong>](https://msdn.microsoft.com/windows/desktop/AC22C91E-BBC6-4a2e-8D39-F9D7C0AC0947)</td>
+<td style="text-align: left;">[<strong>ServiceStop</strong>](https://msdn.microsoft.com/AC22C91E-BBC6-4a2e-8D39-F9D7C0AC0947)</td>
 <td style="text-align: left;">Stops a named service.<br/></td>
 </tr>
 <tr class="odd">
@@ -144,11 +144,11 @@ As of Windows Vista, most Control Panel applications are Shell items and cannot
 <td style="text-align: left;">Displays the <strong>Date and Time Properties</strong> dialog box. This method has the same effect as right-clicking the clock in the taskbar status area and selecting <strong>Adjust Date/Time</strong>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>ShellExecute</strong>](https://msdn.microsoft.com/windows/desktop/62E59A1C-51BD-4864-AF09-35FFD49FAB9D)</td>
+<td style="text-align: left;">[<strong>ShellExecute</strong>](https://msdn.microsoft.com/62E59A1C-51BD-4864-AF09-35FFD49FAB9D)</td>
 <td style="text-align: left;">Performs a specified operation on a specified file.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>ShowBrowserBar</strong>](https://msdn.microsoft.com/windows/desktop/203636D2-54D3-4163-B9AC-39213D6F4203)</td>
+<td style="text-align: left;">[<strong>ShowBrowserBar</strong>](https://msdn.microsoft.com/203636D2-54D3-4163-B9AC-39213D6F4203)</td>
 <td style="text-align: left;">Displays a browser bar.<br/></td>
 </tr>
 <tr class="even">

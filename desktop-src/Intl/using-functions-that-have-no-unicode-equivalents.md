@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using Functions That Have No Unicode Equivalents
 
-Functions that have not been implemented with a [Unicode](unicode.md) version have typically been replaced by more powerful or extended functions that do support Unicode. For example, if you are porting code that calls the [**OpenFile**](https://msdn.microsoft.com/windows/desktop/800f4d40-252a-44fe-b10d-348c22d69355) function, your application can support Unicode by using the [**CreateFile**](https://msdn.microsoft.com/windows/desktop/80a96083-4de9-4422-9705-b8ad2b6cbd1b) function instead.
+Functions that have not been implemented with a [Unicode](unicode.md) version have typically been replaced by more powerful or extended functions that do support Unicode. For example, if you are porting code that calls the [**OpenFile**](https://msdn.microsoft.com/800f4d40-252a-44fe-b10d-348c22d69355) function, your application can support Unicode by using the [**CreateFile**](https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b) function instead.
 
 If a function has no Unicode equivalent, the application can map characters to and from 8-bit character sets before and after the function call. For example, the number-formatting functions **atoi** and **itoa** use only the digits 0 through 9. Normally, mapping Unicode to 8-bit characters causes loss of data, but this can be avoided by making the code type-independent and making the expressions conditional. The statements in the following example, written for 8-bit characters, are type-dependent and should be changed to support Unicode.
 

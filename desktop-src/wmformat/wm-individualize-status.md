@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_INDIVIDUALIZE\_STATUS structure
 
-The **WM\_INDIVIDUALIZE\_STATUS** structure records the status of the [*individualization*](https://www.bing.com/search?q=*individualization*) process.
+The **WM\_INDIVIDUALIZE\_STATUS** structure records the status of the [*individualization*](wmformat-glossary.md#wmformat-individualization) process.
 
 ## Syntax
 

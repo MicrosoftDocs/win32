@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SPLCLIENT\_INFO\_1 structure
 
-The SPLCLIENT\_INFO\_1 structure is used as input to the [**GenerateCopyFilePaths**](generatecopyfilepaths.md) function that is exported by [Point and Print DLLs](https://www.bing.com/search?q=Point and Print DLLs).
+The SPLCLIENT\_INFO\_1 structure is used as input to the [**GenerateCopyFilePaths**](generatecopyfilepaths.md) function that is exported by [Point and Print DLLs](https://www.bing.com/search?q=Point+and+Print+DLLs).
 
 ## Syntax
 

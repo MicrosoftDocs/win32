@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CAPICOM\_ATTRIBUTE enumeration
 
-The **CAPICOM\_ATTRIBUTE** enumeration type defines the kind of attribute associated with a [*signature*](https://www.bing.com/search?q=*signature*).
+The **CAPICOM\_ATTRIBUTE** enumeration type defines the kind of attribute associated with a [*signature*](security.d_gly#-security-digital-signature-gly).
 
 ## Members
 

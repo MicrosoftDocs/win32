@@ -45,7 +45,7 @@ Modern Windows applications have sophisticated requirements for text in their UI
 
 ## Rendering-System Independence
 
-[DirectWrite](direct-write-portal.md) is independent of any particular graphics technology. Applications are free to use the rendering technology best suited to their needs. This gives applications the flexibility to continue rendering some parts of their application through GDI and other parts through Direct3D or [Direct2D](https://www.bing.com/search?q=Direct2D). In fact, an application could choose to render DirectWrite through a proprietary rendering stack.
+[DirectWrite](direct-write-portal.md) is independent of any particular graphics technology. Applications are free to use the rendering technology best suited to their needs. This gives applications the flexibility to continue rendering some parts of their application through GDI and other parts through Direct3D or [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b). In fact, an application could choose to render DirectWrite through a proprietary rendering stack.
 
 ## High-Quality Typography
 
@@ -183,11 +183,11 @@ The [**IDWriteFactory**](/windows/desktop/api/dwrite/) interface is the starting
 
 The formatting and layout operation is a prerequisite to the operations, as text needs to be properly formatted and laid out to a specified set of constraints before it can be drawn or hit-tested. Two key objects that you can create with an [**IDWriteFactory**](/windows/desktop/api/dwrite/) for this purpose are [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) and [**IDWriteTextLayout**](/windows/desktop/api/dwrite/). An **IDWriteTextFormat** object represents the formatting information for a paragraph of text. The [**IDWriteFactory::CreateTextLayout**](/windows/desktop/api/dwrite/) function takes the input string, the associated constraints such as the dimension of the space to be filled, and the **IDWriteTextFormat** object, and puts the fully analyzed and formatted result into **IDWriteTextLayout** to use in subsequent operations.
 
-The application can then render the text using the [**DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) function provided by [Direct2D](https://www.bing.com/search?q=Direct2D) or by implementing a callback function that can use GDI, Direct2D, or other graphics systems to render the glyphs. For a single format text, the [**DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) function on Direct2D provides a simpler way to draw text without having to first create a [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) object.
+The application can then render the text using the [**DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) function provided by [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) or by implementing a callback function that can use GDI, Direct2D, or other graphics systems to render the glyphs. For a single format text, the [**DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) function on Direct2D provides a simpler way to draw text without having to first create a [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) object.
 
 ## Formatting and Drawing "Hello World" Using DirectWrite
 
-The following code example shows how an application can format a single paragraph using [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) and draw it using the [Direct2D](https://www.bing.com/search?q=Direct2D)[**DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) function.
+The following code example shows how an application can format a single paragraph using [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) and draw it using the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b)[**DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) function.
 
 
 ```C++
@@ -421,15 +421,15 @@ void wmain()
 
 ## Text rendering
 
-The text rendering APIs enable glyphs in a [DirectWrite](direct-write-portal.md) font to be rendered to a [Direct2D](https://www.bing.com/search?q=Direct2D) surface or to a GDI device independent bitmap, or to be converted to outlines or bitmaps. The ClearType rendering in DirectWrite supports sub-pixel positioning with improved sharpness and contrast compared to previous implementations on Windows. DirectWrite also supports aliased black-and-white text to support scenarios involving East Asian fonts with embedded bitmaps, or where the user has disabled font smoothing of any type.
+The text rendering APIs enable glyphs in a [DirectWrite](direct-write-portal.md) font to be rendered to a [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) surface or to a GDI device independent bitmap, or to be converted to outlines or bitmaps. The ClearType rendering in DirectWrite supports sub-pixel positioning with improved sharpness and contrast compared to previous implementations on Windows. DirectWrite also supports aliased black-and-white text to support scenarios involving East Asian fonts with embedded bitmaps, or where the user has disabled font smoothing of any type.
 
 All the options are adjustable by all the available ClearType knobs accessible through the [DirectWrite](direct-write-portal.md) APIs, and also exposed via the new Windows 7 ClearType tuner control panel applet.
 
-There are two APIs available for rendering glyphs, one providing hardware-accelerated rendering through [Direct2D](https://www.bing.com/search?q=Direct2D) and the other providing software rendering to a GDI bitmap. An application using [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) and implementing the [**IDWriteTextRenderer**](/windows/desktop/api/dwrite/) callback can call either of these functions in response to a [**DrawGlyphRun**](/windows/desktop/api/dwrite/) callback. Also, applications that implement their own layout or deal with glyph-level data can use these APIs.
+There are two APIs available for rendering glyphs, one providing hardware-accelerated rendering through [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) and the other providing software rendering to a GDI bitmap. An application using [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) and implementing the [**IDWriteTextRenderer**](/windows/desktop/api/dwrite/) callback can call either of these functions in response to a [**DrawGlyphRun**](/windows/desktop/api/dwrite/) callback. Also, applications that implement their own layout or deal with glyph-level data can use these APIs.
 
 1.  [**ID2DRenderTarget::DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/dd371893)
 
-    Applications can use the [Direct2D](https://www.bing.com/search?q=Direct2D) API [**DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/dd371893) to provide hardware acceleration for text rendering using the GPU. Hardware acceleration affects all phases of the text rendering pipeline—from merging glyphs into glyph runs and filtering the glyph-run bitmap, to applying the ClearType blending algorithm to the final displayed output. This is the recommended API for getting the best rendering performance.
+    Applications can use the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) API [**DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/dd371893) to provide hardware acceleration for text rendering using the GPU. Hardware acceleration affects all phases of the text rendering pipeline—from merging glyphs into glyph runs and filtering the glyph-run bitmap, to applying the ClearType blending algorithm to the final displayed output. This is the recommended API for getting the best rendering performance.
 
 2.  [**IDWriteBitmapRenderTarget::DrawGlyphRun**](/windows/desktop/api/dwrite/)
 

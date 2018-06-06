@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CAPICOM\_ENCRYPTION\_KEY\_LENGTH enumeration
 
-The **CAPICOM\_ENCRYPTION\_KEY\_LENGTH** enumeration type defines the [*key length*](https://www.bing.com/search?q=*key length*) to be used in encryption.
+The **CAPICOM\_ENCRYPTION\_KEY\_LENGTH** enumeration type defines the [*key length*](security.k_gly#-security-key-length-gly) to be used in encryption.
 
 ## Members
 

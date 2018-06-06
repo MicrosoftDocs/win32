@@ -15,7 +15,7 @@ A *pie* is a region bounded by the intersection of an ellipse curve and two radi
 
 ![illustration showing an ellipse with a shaded pie](images/csfsh-03.png)
 
-When calling [**Pie**](https://msdn.microsoft.com/windows/desktop/86daa936-b483-4432-aa32-0b9328ff76f9), an application supplies the coordinates of the upper-left and lower-right corners of the ellipse's bounding rectangle, as well as the coordinates of two points defining two radials.
+When calling [**Pie**](https://msdn.microsoft.com/86daa936-b483-4432-aa32-0b9328ff76f9), an application supplies the coordinates of the upper-left and lower-right corners of the ellipse's bounding rectangle, as well as the coordinates of two points defining two radials.
 
 When the system draws the curved part of the pie, it uses the current arc direction for the given device context. The default arc direction is counterclockwise. An application can reset the arc direction by calling the [**SetArcDirection**](/windows/desktop/api/Wingdi/nf-wingdi-setarcdirection) function.
 

@@ -21,7 +21,7 @@ This sample demonstrates the following Microsoft Media Foundation interfaces:
 
 ## Usage
 
-The MFT\_AudioDelay sample builds a DLL that is a COM server for the MFT. Before using the MFT, you must register the DLL. You can use the TopoEdit tool to build a topology that includes the audio delay MFT. For more information about TopoEdit, see [TopoEdit](topoedit.md). You can also modify the [PlaybackFX Sample](https://www.bing.com/search?q=PlaybackFX Sample) to use the MFT. You will need to modify the AddBranchToPartialTopology function in Player.cpp. Change the following line from:
+The MFT\_AudioDelay sample builds a DLL that is a COM server for the MFT. Before using the MFT, you must register the DLL. You can use the TopoEdit tool to build a topology that includes the audio delay MFT. For more information about TopoEdit, see [TopoEdit](topoedit.md). You can also modify the [PlaybackFX Sample](https://www.bing.com/search?q=PlaybackFX+Sample) to use the MFT. You will need to modify the AddBranchToPartialTopology function in Player.cpp. Change the following line from:
 
 ``` syntax
 else if (majorType == MFMediaType_Audio)

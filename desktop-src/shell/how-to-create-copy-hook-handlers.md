@@ -21,7 +21,7 @@ The general procedures for implementing and registering a Shell extension handle
 
 ### Step 1: Implementing Copy Hook Handlers
 
-Like all Shell extension handlers, copy hook handlers are in-process Component Object Model (COM) objects implemented as DLLs. They export one interface in addition to [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332): [**ICopyHook**](/windows/desktop/api/Shlobj/). The Shell initializes the handler directly, so there is no need for an initialization interface such as [**IShellExtInit**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellextinit).
+Like all Shell extension handlers, copy hook handlers are in-process Component Object Model (COM) objects implemented as DLLs. They export one interface in addition to [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332): [**ICopyHook**](/windows/desktop/api/Shlobj/). The Shell initializes the handler directly, so there is no need for an initialization interface such as [**IShellExtInit**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellextinit).
 
 The [**ICopyHook**](/windows/desktop/api/Shlobj/) interface has a single method, [**ICopyHook::CopyCallback**](/windows/desktop/api/Shlobj/). When a folder is about to be moved, the Shell calls this method. It passes in a variety of information, including:
 

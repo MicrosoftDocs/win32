@@ -21,9 +21,9 @@ The [**GetInterfaceInfo**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getinterfac
 
 The [**GetFriendlyIfIndex**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getfriendlyifindex) function takes an interface index and returns a backward-compatible interface index, that is, one that uses only the lower 24 bits. This type of index is sometimes referred to as a "friendly" interface index.
 
-The [**GetIfEntry**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getifentry) function returns a [**MIB\_IFROW**](https://msdn.microsoft.com/windows/desktop/b08631e9-6036-4377-b2f2-4ea899acb787) structure that contains information about a particular interface on the local computer. This function requires the caller to supply the index of the interface.
+The [**GetIfEntry**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getifentry) function returns a [**MIB\_IFROW**](https://msdn.microsoft.com/b08631e9-6036-4377-b2f2-4ea899acb787) structure that contains information about a particular interface on the local computer. This function requires the caller to supply the index of the interface.
 
-The [**GetIfTable**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getiftable) function returns a table of [**MIB\_IFROW**](https://msdn.microsoft.com/windows/desktop/b08631e9-6036-4377-b2f2-4ea899acb787) entries, one for each interface on the computer.
+The [**GetIfTable**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-getiftable) function returns a table of [**MIB\_IFROW**](https://msdn.microsoft.com/b08631e9-6036-4377-b2f2-4ea899acb787) entries, one for each interface on the computer.
 
 Use the [**SetIfEntry**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-setifentry) function to modify the configuration of a particular interface.
 

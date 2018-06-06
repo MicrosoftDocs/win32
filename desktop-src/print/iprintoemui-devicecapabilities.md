@@ -74,7 +74,7 @@ Caller-supplied pointer to a buffer to receive the requested information. The ty
 *pPublicDM* 
 </dt> <dd>
 
-Caller-supplied pointer to a validated [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure.
+Caller-supplied pointer to a validated [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure.
 
 </dd> <dt>
 
@@ -138,7 +138,7 @@ For multiple user interface plug-ins to work in conjunction with each other, eac
 
 When the driver's **DrvDeviceCapabilities** function is called with the DC\_FIELDS flag set, the function calls all `IPrintOemUI::DeviceCapabilities` methods, also specifying DC\_FIELDS, and returns the union of all set bits to the caller.
 
-The S\_DEVCAP\_OUTPUT\_FULL\_REPLACEMENT return value is new in Windows Vista, and applies to both Unidrv and Pscript5 user interface plug-ins. A plug-in should use the S\_DEVCAP\_OUTPUT\_FULL\_REPLACEMENT return value only if it requires complete control over what is placed in the buffer that is pointed to by the *pOutput* parameter. Neither the Unidrv nor the Pscript5 core driver will place data in the *pOutput* buffer when the plug-in returns S\_DEVCAP\_OUTPUT\_FULL\_REPLACEMENT. A plug-in might need to return this value when a setting in the [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure (which is pointed to by the *pPublicDM* and *pOEMDM* parameters) indicates to the user interface plug-in that it should report device capability data that is different from that specified in the GPD or PPD file. For example, a DEVMODEW structure that specifies photo printing might require a different set of paper types than those that are specified in the GPD or PPD file. In such a situation, and regardless of the values of the *pOutput* and *dwOld* parameters, the plug-in should return S\_DEVCAP\_OUTPUT\_FULL\_REPLACEMENT, and should set the *dwResult* parameter to the number of paper types that it intends to report. If *pOutput* is not **NULL**, the plug-in should also fill the buffer that is pointed to by *pOutput* with the desired set of paper types, and should set *dwResult* to the number of paper types that the plug-in intends to report.
+The S\_DEVCAP\_OUTPUT\_FULL\_REPLACEMENT return value is new in Windows Vista, and applies to both Unidrv and Pscript5 user interface plug-ins. A plug-in should use the S\_DEVCAP\_OUTPUT\_FULL\_REPLACEMENT return value only if it requires complete control over what is placed in the buffer that is pointed to by the *pOutput* parameter. Neither the Unidrv nor the Pscript5 core driver will place data in the *pOutput* buffer when the plug-in returns S\_DEVCAP\_OUTPUT\_FULL\_REPLACEMENT. A plug-in might need to return this value when a setting in the [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure (which is pointed to by the *pPublicDM* and *pOEMDM* parameters) indicates to the user interface plug-in that it should report device capability data that is different from that specified in the GPD or PPD file. For example, a DEVMODEW structure that specifies photo printing might require a different set of paper types than those that are specified in the GPD or PPD file. In such a situation, and regardless of the values of the *pOutput* and *dwOld* parameters, the plug-in should return S\_DEVCAP\_OUTPUT\_FULL\_REPLACEMENT, and should set the *dwResult* parameter to the number of paper types that it intends to report. If *pOutput* is not **NULL**, the plug-in should also fill the buffer that is pointed to by *pOutput* with the desired set of paper types, and should set *dwResult* to the number of paper types that the plug-in intends to report.
 
 When multiple user interface plug-ins are active at the same time, and one of them returns S\_DEVCAP\_OUTPUT\_FULL\_REPLACEMENT, the Unidrv or Pscript5 core driver interprets this return value to mean that the plug-ins intend to provide full replacement output data. As a result, the core driver does not place any data into the *pOutput* buffer before it calls the plug-ins. (The core driver calls the plug-ins in the same order that was specified for their installation.)
 
@@ -157,7 +157,7 @@ DC\_MEDIATYPES
 DC\_ENUMRESOLUTIONS  
 </dl>
 
-For more information about creating and installing user interface plug-ins, see [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing Microsoft's Printer Drivers).
+For more information about creating and installing user interface plug-ins, see [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing+Microsoft's+Printer+Drivers).
 
 ## Requirements
 

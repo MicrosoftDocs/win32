@@ -40,7 +40,7 @@ While there are many similarities between display output and printing, there are
 
 -   **Has a high dpi.** Display output is usually at 96 or 120 dots per inch (dpi), whereas printer output is usually at 600 dpi or greater.
 -   **Has different optimal fonts.** While well-designed fonts work well for both display and print, serif fonts are more readable at high resolutions for large amounts of text than sans serif fonts. Thus, large amounts of text primarily intended for print should use a serif font, whereas text primarily intended for display should use a sans serif font. For more information, see [Fonts](vis-fonts.md) (Segoe UI).
--   **Has aspect ratio.** Display usually has a low [aspect ratio](https://www.bing.com/search?q=aspect ratio) (4:3 or 5:4), whereas print uses a high aspect ratio (8.5:11 or 1:1.4142 based on the standard page sizes). This is because [portrait mode](https://www.bing.com/search?q=portrait mode) printing is more common than [landscape mode](https://www.bing.com/search?q=landscape mode).
+-   **Has aspect ratio.** Display usually has a low [aspect ratio](glossary.md#glossary) (4:3 or 5:4), whereas print uses a high aspect ratio (8.5:11 or 1:1.4142 based on the standard page sizes). This is because [portrait mode](glossary.md#p) printing is more common than [landscape mode](glossary.md#l).
 -   **Has pages.** Consequently, print output:
     -   Has standard page sizes. The standard in the United States and Canada is 8.5"x11" paper; the standard everywhere else is A4 paper.
     -   Has page breaks.
@@ -310,7 +310,7 @@ In this example, Fabrikam incorrectly uses a separate dialog for additional prin
 **Developers:** For information about how to extend the Print common dialog, see [PRINTDLGEX Structure](http://msdn2.microsoft.com/library/ms646844.aspx).
 
 -   **When extending the Print options common dialog, don't duplicate any features already provided.**
--   **If users are likely to maintain settings from one print job to the next, make those settings the defaults.** For the first print job after program launch, use the standard default values, including the default printer. For subsequent print jobs in the program [instance](https://www.bing.com/search?q=instance), preserve the last selected printer and paper size. Don't preserve the number of copies or page ranges, because these are far less likely to be reselected later.
+-   **If users are likely to maintain settings from one print job to the next, make those settings the defaults.** For the first print job after program launch, use the standard default values, including the default printer. For subsequent print jobs in the program [instance](glossary.md#i), preserve the last selected printer and paper size. Don't preserve the number of copies or page ranges, because these are far less likely to be reselected later.
 -   **Optimize the settings by removing options that currently don't apply.** Remove options that are inconsistent with the capabilities of the selected printer or characteristics of the current document. For example, a photo printing application could limit the combinations of paper size, paper type, and print quality that give the best results, so choosing a glossy paper option might remove envelopes from the paper formats. If for any reason users want to see all the options, you can provide this ability through a control such as a check box.
 
 **Developers:** To learn how to determine the capabilities of the selected printer, see [Print Schema](http://msdn2.microsoft.com/library/ms716462.aspx).

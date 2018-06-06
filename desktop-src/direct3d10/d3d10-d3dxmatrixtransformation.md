@@ -37,7 +37,7 @@ D3DXMATRIX* D3DXMatrixTransformation(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/windows/desktop/0911088b-50cf-4c4a-996e-351386fc359b)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -46,7 +46,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *pScalingCenter* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/windows/desktop/4d73de4b-82fe-452a-8a1e-17208f172a03)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), identifying the scaling center point. If this argument is **NULL**, an identity M<sub>sc</sub> matrix is applied to the formula in Remarks.
 
@@ -55,7 +55,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), identifying the scaling ce
 *pScalingRotation* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/windows/desktop/3d88ed17-5b0a-46d5-8fe6-d66e1fa26c13)\***
+Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxquaternion.htm)\***
 
 Pointer to a [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that specifies the scaling rotation. If this argument is **NULL**, an identity M<sub>sr</sub> matrix is applied to the formula in Remarks.
 
@@ -64,7 +64,7 @@ Pointer to a [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that specifies the sc
 *pScaling* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/windows/desktop/4d73de4b-82fe-452a-8a1e-17208f172a03)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
 
 Pointer to a D3DXVECTOR3 structure, the scaling vector. If this argument is **NULL**, an identity Mₛ matrix is applied to the formula in Remarks.
 
@@ -73,7 +73,7 @@ Pointer to a D3DXVECTOR3 structure, the scaling vector. If this argument is **NU
 *pRotationCenter* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/windows/desktop/4d73de4b-82fe-452a-8a1e-17208f172a03)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
 
 Pointer to a D3DXVECTOR3 structure, a point that identifies the center of rotation. If this argument is **NULL**, an identity M<sub>rc</sub> matrix is applied to the formula in Remarks.
 
@@ -82,7 +82,7 @@ Pointer to a D3DXVECTOR3 structure, a point that identifies the center of rotati
 *pRotation* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/windows/desktop/3d88ed17-5b0a-46d5-8fe6-d66e1fa26c13)\***
+Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxquaternion.htm)\***
 
 Pointer to a D3DXQUATERNION structure that specifies the rotation. If this argument is **NULL**, an identity M<sub>r</sub> matrix is applied to the formula in Remarks.
 
@@ -91,7 +91,7 @@ Pointer to a D3DXQUATERNION structure that specifies the rotation. If this argum
 *pTranslation* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/windows/desktop/4d73de4b-82fe-452a-8a1e-17208f172a03)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
 
 Pointer to a D3DXVECTOR3 structure, representing the translation. If this argument is **NULL**, an identity Mₜ matrix is applied to the formula in Remarks.
 
@@ -99,7 +99,7 @@ Pointer to a D3DXVECTOR3 structure, representing the translation. If this argume
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/windows/desktop/0911088b-50cf-4c4a-996e-351386fc359b)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
 
 Pointer to a D3DXMATRIX structure that is the transformation matrix.
 

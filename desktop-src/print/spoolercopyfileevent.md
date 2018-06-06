@@ -71,7 +71,7 @@ If the function encounters errors, the function should return **FALSE**. Otherwi
 
 ## Remarks
 
-All [Point and Print DLLs](https://www.bing.com/search?q=Point and Print DLLs) must export a `SpoolerCopyFileEvent` function, which is called by the print spooler. Its purpose is to allow a Point and Print DLL to be notified of events related to the downloading of print queue-associated files, from a print server to a client system, when an application on the client connects to the server. For a complete description of the steps involved in creating a Point and Print connection, see [Supporting Point and Print](https://www.bing.com/search?q=Supporting Point and Print).
+All [Point and Print DLLs](https://www.bing.com/search?q=Point+and+Print+DLLs) must export a `SpoolerCopyFileEvent` function, which is called by the print spooler. Its purpose is to allow a Point and Print DLL to be notified of events related to the downloading of print queue-associated files, from a print server to a client system, when an application on the client connects to the server. For a complete description of the steps involved in creating a Point and Print connection, see [Supporting Point and Print](https://www.bing.com/search?q=Supporting+Point+and+Print).
 
 A Point and Print DLL executes on both the server and the client. The `SpoolerCopyFileEvent` function can determine where it is executing by reading the contents of *dwCopyFileEvent*, which supplies a flag indicating the event. The function should process the event and return. If no processing is necessary, the function should just return **TRUE**.
 

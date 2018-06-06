@@ -86,10 +86,10 @@ A signed value that gives the results of the comparison:
 
 <dl> <dt>
 
-[**RtlCompareString**](https://www.bing.com/search?q=**RtlCompareString**)
+[**RtlCompareString**](https://msdn.microsoft.com/59d023d4-a2b4-4183-9572-cb48621c76fb)
 </dt> <dt>
 
-[**RtlEqualString**](https://www.bing.com/search?q=**RtlEqualString**)
+[**RtlEqualString**](https://msdn.microsoft.com/f8244276-0cf6-4315-9f4a-85890194dad8)
 </dt> </dl>
 
  

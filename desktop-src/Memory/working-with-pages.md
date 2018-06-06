@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Working with Pages
 
-To determine the size of a page on the current computer, use the [**GetSystemInfo**](https://msdn.microsoft.com/windows/desktop/f6d745af-729a-494e-90b4-19fe7d97c7af) function.
+To determine the size of a page on the current computer, use the [**GetSystemInfo**](https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af) function.
 
 The [**VirtualQuery**](https://www.bing.com/search?q=**VirtualQuery**) and [**VirtualQueryEx**](https://www.bing.com/search?q=**VirtualQueryEx**) functions return information about a region of consecutive pages beginning at a specified address in the address space of a process. **VirtualQuery** returns information about memory in the calling process. **VirtualQueryEx** returns information about memory in a specified process and is used to support debuggers that need information about a process being debugged. The region of pages is bounded by the specified address rounded down to the nearest page boundary. It extends through all subsequent pages with the following attributes in common:
 

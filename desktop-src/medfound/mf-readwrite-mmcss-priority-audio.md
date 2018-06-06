@@ -27,7 +27,7 @@ To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/desktop/api/
 
 Optionally set this attribute when you create an instance of the [Source Reader](source-reader.md) or [Sink Writer](sink-writer.md). If you set this attribute, also set the [MF\_READWRITE\_MMCSS\_CLASS\_AUDIO](mf-readwrite-mmcss-class-audio.md) attribute. Otherwise, this attribute is ignored.
 
-When the Source Reader or Sink Writer registers audio-processing threads with the [Multimedia Class Scheduler Service](https://msdn.microsoft.com/windows/desktop/a7169938-1c72-4c4c-881a-cb08ad6182c7), the value of this attribute specifies the base thread priority. If this attribute is not set, the default value is zero.
+When the Source Reader or Sink Writer registers audio-processing threads with the [Multimedia Class Scheduler Service](https://msdn.microsoft.com/a7169938-1c72-4c4c-881a-cb08ad6182c7), the value of this attribute specifies the base thread priority. If this attribute is not set, the default value is zero.
 
 ## Requirements
 

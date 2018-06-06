@@ -15,7 +15,7 @@ If you want to view a portion of the file that does not start at the beginning o
 
 File allocation granularity affects where a map view can start. A map view must start at an offset into the file that is a multiple of the file allocation granularity. So the data you want to view may be the file offset modulo the allocation granularity into the view. The size of the view is the offset of the data modulo the allocation granularity, plus the size of the data that you want to examine.
 
-For example, suppose that the [**GetSystemInfo**](https://msdn.microsoft.com/windows/desktop/f6d745af-729a-494e-90b4-19fe7d97c7af) function indicates an allocation granularity of 64K. To examine 1K of data that is 138,240 bytes (135K) into the file, do the following:
+For example, suppose that the [**GetSystemInfo**](https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af) function indicates an allocation granularity of 64K. To examine 1K of data that is 138,240 bytes (135K) into the file, do the following:
 
 1.  Create a file mapping object of at least 139,264 bytes (136K) in size.
 2.  Create a file view that starts at a file offset that is the largest multiple of the file allocation granularity less than the offset you require. In this case, the file view starts at offset 131,072 (128K) into the file. The view is 139264 bytes (136K) minus 131,072 bytes (128K), or 8,192 bytes (8K), in size.

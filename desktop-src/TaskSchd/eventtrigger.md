@@ -62,7 +62,7 @@ When reading or writing your own XML for a task, an event trigger is specified u
 
 ## Examples
 
-For more information and a code example for this scripting object, see [Event Trigger Example (Scripting)](https://www.bing.com/search?q=Event Trigger Example (Scripting)).
+For more information and a code example for this scripting object, see [Event Trigger Example (Scripting)](https://www.bing.com/search?q=Event+Trigger+Example+(Scripting)).
 
 ## Requirements
 

@@ -30,7 +30,7 @@ d3dDevice->SetTextureStageState(0, D3DTSS_COLORARG2, D3DTA_DIFFUSE);
 
 
 
-Texel data in textures contain color and alpha values. Applications can define separate operations for both color and alpha values in a single blending stage. Each operation, color, and alpha, has its own arguments. For details, see [**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/windows/desktop/87a5a1bb-e748-4c72-8320-ea82250dcc0e).
+Texel data in textures contain color and alpha values. Applications can define separate operations for both color and alpha values in a single blending stage. Each operation, color, and alpha, has its own arguments. For details, see [**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturestagestatetype.htm).
 
 Although not part of the Direct3D API, you can insert the following macros into your application to abbreviate the code required for creating texture blending stages.
 

@@ -213,7 +213,7 @@ c. If ReservedFlags == 3 (CPU cycle counter): DOUBLE timeStampScale = 10.0 / log
 [**GetTraceLoggerHandle**](gettraceloggerhandle.md)
 </dt> <dt>
 
-[**LARGE\_INTEGER**](https://msdn.microsoft.com/windows/desktop/6a2985b6-5baf-49ab-af28-67c1374557ea)
+[**LARGE\_INTEGER**](https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea)
 </dt> </dl>
 
  

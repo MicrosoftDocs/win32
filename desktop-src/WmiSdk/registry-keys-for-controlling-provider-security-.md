@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Registry Keys and Values for Controlling Provider Security
 
-To enhance the security of the Windows Management Instrumentation (WMI) shared provider host process (wmiprvse.exe), changes were made to Windows platforms that secure the provider host process with a [*service security identifier (SID)*](https://www.bing.com/search?q=*service security identifier (SID)*). These changes introduce the following running modes for the WMI shared host: secure and compatible.
+To enhance the security of the Windows Management Instrumentation (WMI) shared provider host process (wmiprvse.exe), changes were made to Windows platforms that secure the provider host process with a [*service security identifier (SID)*](gloss-s.md#gloss-servicesid). These changes introduce the following running modes for the WMI shared host: secure and compatible.
 
 The following sections are covered in this topic:
 
@@ -32,14 +32,14 @@ Starting in Windows 7, the following two running modes for the WMI shared host 
 <span id="Secure_mode"></span><span id="secure_mode"></span><span id="SECURE_MODE"></span>Secure mode
 </dt> <dd>
 
-WMI provider host process resources are secured with a [*service SID*](https://www.bing.com/search?q=*service SID*). Only the *service SID* has permissions for these resources.
+WMI provider host process resources are secured with a [*service SID*](gloss-s.md#gloss-servicesid). Only the *service SID* has permissions for these resources.
 
 </dd> <dt>
 
 <span id="Compatible_mode"></span><span id="compatible_mode"></span><span id="COMPATIBLE_MODE"></span>Compatible mode
 </dt> <dd>
 
-The WMI shared provider host process is not secured with a [*service SID*](https://www.bing.com/search?q=*service SID*). The provider host process allows access to the NetworkService or LocalService accounts depending on the hosting model. For more information about hosting models, see [Provider Hosting and Security](provider-hosting-and-security.md).
+The WMI shared provider host process is not secured with a [*service SID*](gloss-s.md#gloss-servicesid). The provider host process allows access to the NetworkService or LocalService accounts depending on the hosting model. For more information about hosting models, see [Provider Hosting and Security](provider-hosting-and-security.md).
 
 </dd> </dl>
 

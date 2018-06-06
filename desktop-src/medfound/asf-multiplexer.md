@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ASF Multiplexer
 
-The ASF *multiplexer* is a WMContainer layer object that works with the [ASF Data Object](https://www.bing.com/search?q=ASF Data Object) and gives an application the ability to generate data packets for an ASF container. The multiplexer accepts media data in the form of [Media Samples](media-samples.md) and outputs media samples based on streaming and ASF packet parameters defined in the [ASF Header Object](https://www.bing.com/search?q=ASF Header Object). The output media samples hold references to one or more media buffers that contain packetized digital media data.You can use this object in a file encoding scenario where it receives encoded stream samples from the encoder or for ASF-ASF transcoding (remuxing).
+The ASF *multiplexer* is a WMContainer layer object that works with the [ASF Data Object](asf-file-structure.md#data-object) and gives an application the ability to generate data packets for an ASF container. The multiplexer accepts media data in the form of [Media Samples](media-samples.md) and outputs media samples based on streaming and ASF packet parameters defined in the [ASF Header Object](asf-file-structure.md#header-object). The output media samples hold references to one or more media buffers that contain packetized digital media data.You can use this object in a file encoding scenario where it receives encoded stream samples from the encoder or for ASF-ASF transcoding (remuxing).
 
 The following diagram illustrates ASF data packet generation for an ASF file using the multiplexer.
 

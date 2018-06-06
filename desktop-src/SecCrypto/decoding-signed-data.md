@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Decoding Signed Data
 
-The following general process decodes a [*signed data*](https://www.bing.com/search?q=*signed data*) type.
+The following general process decodes a [*signed data*](security.s_gly#-security-signed-data-gly) type.
 
 **To decode a signed message**
 

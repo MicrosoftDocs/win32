@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Create New Interfaces to the Same Object
 
-In this scenario, the server responds to each [**OBJID\_CLIENT**](https://www.bing.com/search?q=**OBJID\_CLIENT**) request by obtaining a new interface pointer to the same object.
+In this scenario, the server responds to each [**OBJID\_CLIENT**](object-identifiers.md#objid-client) request by obtaining a new interface pointer to the same object.
 
 In the following example code, *m\_pUIObj* is a pointer to an object that supports more than one Component Object Model (COM) interface. Even though an existing object is reused, a new interface pointer is created each time the object is retrieved, so the reference count must be decremented.
 

@@ -73,9 +73,9 @@ hr = g_pd3dDevice->CreateBuffer( &amp;bufferDesc, &amp;InitData, &amp;g_pVertexB
 
 Here are some ways to initialize a vertex buffer that changes over time.
 
-1.  Create a 2nd buffer with [**D3D11\_USAGE\_STAGING**](https://www.bing.com/search?q=**D3D11\_USAGE\_STAGING**); fill the second buffer using [**ID3D11DeviceContext::Map**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-map), [**ID3D11DeviceContext::Unmap**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-unmap); use [**ID3D11DeviceContext::CopyResource**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-copyresource) to copy from the staging buffer to the default buffer.
+1.  Create a 2nd buffer with [**D3D11\_USAGE\_STAGING**](d3d11-usage.md#d3d11-usage-staging); fill the second buffer using [**ID3D11DeviceContext::Map**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-map), [**ID3D11DeviceContext::Unmap**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-unmap); use [**ID3D11DeviceContext::CopyResource**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-copyresource) to copy from the staging buffer to the default buffer.
 2.  Use [**ID3D11DeviceContext::UpdateSubresource**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-updatesubresource) to copy data from memory.
-3.  Create a buffer with [**D3D11\_USAGE\_DYNAMIC**](https://www.bing.com/search?q=**D3D11\_USAGE\_DYNAMIC**), and fill it with [**ID3D11DeviceContext::Map**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-map), [**ID3D11DeviceContext::Unmap**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-unmap) (using the Discard and NoOverwrite flags appropriately).
+3.  Create a buffer with [**D3D11\_USAGE\_DYNAMIC**](d3d11-usage.md#d3d11-usage-dynamic), and fill it with [**ID3D11DeviceContext::Map**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-map), [**ID3D11DeviceContext::Unmap**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-unmap) (using the Discard and NoOverwrite flags appropriately).
 
 \#1 and \#2 are useful for content that changes less than once per frame. In general, GPU reads will be fast and CPU updates will be slower.
 

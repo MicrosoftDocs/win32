@@ -17,7 +17,7 @@ This section contains definitions of the functions, structures, and enumerations
 
 <dl>
 
-[Bidi Functions](https://www.bing.com/search?q=Bidi Functions)  
+[Bidi Functions](https://www.bing.com/search?q=Bidi+Functions)  
 [Bidi Structures](bidi-structures.md)  
 [Bidi Enumerations](bidi-enumerations.md)  
 </dl>

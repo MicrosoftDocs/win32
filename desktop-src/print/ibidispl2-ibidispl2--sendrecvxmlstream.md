@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IBidiSpl2::SendRecvXMLStream method
 
-The **SendRecvXMLStream** method sends a bidirectional printer communication request and receives the response as [**IStream**](https://msdn.microsoft.com/windows/desktop/c6f60e37-eadc-46a1-94f6-cacc23613531) objects formatted in accordance with the [Bidirectional Communication Schemas](https://www.bing.com/search?q=Bidirectional Communication Schemas).
+The **SendRecvXMLStream** method sends a bidirectional printer communication request and receives the response as [**IStream**](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) objects formatted in accordance with the [Bidirectional Communication Schemas](https://www.bing.com/search?q=Bidirectional+Communication+Schemas).
 
 ## Syntax
 
@@ -32,14 +32,14 @@ HRESULT SendRecvXMLStream(
 *pSRequest* \[in\]
 </dt> <dd>
 
-A pointer to the bidi communication request as a stream that complies with one of the [Bidirectional Communication Schemas](https://www.bing.com/search?q=Bidirectional Communication Schemas).
+A pointer to the bidi communication request as a stream that complies with one of the [Bidirectional Communication Schemas](https://www.bing.com/search?q=Bidirectional+Communication+Schemas).
 
 </dd> <dt>
 
 *ppSResponse* \[out\]
 </dt> <dd>
 
-A pointer to the printer's response as a stream that complies with one of the [Bidirectional Communication Schemas](https://www.bing.com/search?q=Bidirectional Communication Schemas).
+A pointer to the printer's response as a stream that complies with one of the [Bidirectional Communication Schemas](https://www.bing.com/search?q=Bidirectional+Communication+Schemas).
 
 </dd> </dl>
 
@@ -59,7 +59,7 @@ The method returns one of the following values.
 
  
 
-Note that the **HRESULT** may contain a system error code that is defined in [Bidi Error Codes](https://www.bing.com/search?q=Bidi Error Codes).
+Note that the **HRESULT** may contain a system error code that is defined in [Bidi Error Codes](https://www.bing.com/search?q=Bidi+Error+Codes).
 
 ## Remarks
 
@@ -89,10 +89,10 @@ The character encoding of *ppSResponse* is UTF-8. The character encoding of *pSR
 [Bidirectional Communication Interfaces](bidirectional-communication-interfaces.md)
 </dt> <dt>
 
-[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional Communication Schema)
+[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional+Communication+Schema)
 </dt> <dt>
 
-[Print Spooler Components](https://www.bing.com/search?q=Print Spooler Components)
+[Print Spooler Components](https://www.bing.com/search?q=Print+Spooler+Components)
 </dt> </dl>
 
  

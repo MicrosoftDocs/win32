@@ -23,7 +23,7 @@ A component is said to be selectable for backup if its explicit inclusion in a b
 
 Writers also use selectability for restore to organize their component's participation in restore operations.
 
-See also *selectable component*, *selectability for restore*, [*explicit component inclusion*](https://www.bing.com/search?q=*explicit component inclusion*), [*implicit component inclusion*](https://www.bing.com/search?q=*implicit component inclusion*).
+See also *selectable component*, *selectability for restore*, [*explicit component inclusion*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion), [*implicit component inclusion*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion).
 
 </dd> <dt>
 
@@ -32,7 +32,7 @@ See also *selectable component*, *selectability for restore*, [*explicit compone
 
 A component is said to be selectable for restore if it can be implicitly backed up as part of a component set, and then later individually restored without the rest of the component set. Selectability for restore is enabled if the value of the **bSelectableForRestore** member of the [**VSS\_COMPONENTINFO**](/windows/desktop/api/VsBackup/ns-vsbackup-_vss_componentinfo) structure is **true**. By default, a component's selectability for restore is **false**. Selectability for restore has meaning only when a component has not been added to the backup document.
 
-See also *selectable component*, *selectability for backup*, [*explicit component inclusion*](https://www.bing.com/search?q=*explicit component inclusion*), [*implicit component inclusion*](https://www.bing.com/search?q=*implicit component inclusion*).
+See also *selectable component*, *selectability for backup*, [*explicit component inclusion*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion), [*implicit component inclusion*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion).
 
 </dd> <dt>
 
@@ -50,7 +50,7 @@ Writers also use selectability to organize their components into groups:
 -   Selectable components without selectable ancestors can only be included in a backup or restore operation explicitly.
 -   Selectable components with selectable ancestors can be explicitly included in a backup or restore operation, or can be implicitly included if one of their selectable ancestors is included.
 
-See also [*components*](https://www.bing.com/search?q=*components*), *selectability for backup*, *selectability for restore*, [*explicit component inclusion*](https://www.bing.com/search?q=*explicit component inclusion*), [*implicit component inclusion*](https://www.bing.com/search?q=*implicit component inclusion*).
+See also [*components*](vssgloss-c.md#base-vssgloss-component), *selectability for backup*, *selectability for restore*, [*explicit component inclusion*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion), [*implicit component inclusion*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion).
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ A read-only point-in-time replica of an original volume's contents. Each shadow 
 <span id="base.vssgloss_shadow_copies_for_shared_folders"></span><span id="BASE.VSSGLOSS_SHADOW_COPIES_FOR_SHARED_FOLDERS"></span>**Shadow Copies for Shared Folders**
 </dt> <dd>
 
-A feature of Windows that creates lightweight, online backup copies of volumes using VSS. Clients can access these backups through the Windows shell to see old versions of files and undo mistakes without requiring a full restore. See also [*client accessible shadow copy*](https://www.bing.com/search?q=*client accessible shadow copy*).
+A feature of Windows that creates lightweight, online backup copies of volumes using VSS. Clients can access these backups through the Windows shell to see old versions of files and undo mistakes without requiring a full restore. See also [*client accessible shadow copy*](vssgloss-c.md#base-vssgloss-client-accessible-shadow-copy).
 
 </dd> <dt>
 
@@ -78,35 +78,35 @@ A collection of volume shadow copies created at the same time and identified by 
 <span id="base.vssgloss_software_based_provider"></span><span id="BASE.VSSGLOSS_SOFTWARE_BASED_PROVIDER"></span>**software provider**
 </dt> <dd>
 
-A provider that intercepts I/O requests at the software level between the file system and the volume manager. See also [*hardware provider*](https://www.bing.com/search?q=*hardware provider*), [*provider*](https://www.bing.com/search?q=*provider*).
+A provider that intercepts I/O requests at the software level between the file system and the volume manager. See also [*hardware provider*](vssgloss-h.md#base-vssgloss-hardware-based-provider), [*provider*](vssgloss-p.md#base-vssgloss-provider).
 
 </dd> <dt>
 
 <span id="base.vssgloss_subcomponent"></span><span id="BASE.VSSGLOSS_SUBCOMPONENT"></span>**subcomponent**
 </dt> <dd>
 
-Any component that has a logical path containing a selectable (for either backup or restore) parent component. Subcomponents must have a logical path of the form {component\_name}\\{subcomponent\_name}. If a subcomponent's selectable (for either backup or restore) ancestor is explicitly included in a backup or restore, then the subcomponent is implicitly included in the operation. Implicitly included subcomponents do not have their data included in the Backup Components Document—regardless of whether they are selectable (for either restore or backup) or not. See also [*component*](https://www.bing.com/search?q=*component*), [*logical path*](https://www.bing.com/search?q=*logical path*).
+Any component that has a logical path containing a selectable (for either backup or restore) parent component. Subcomponents must have a logical path of the form {component\_name}\\{subcomponent\_name}. If a subcomponent's selectable (for either backup or restore) ancestor is explicitly included in a backup or restore, then the subcomponent is implicitly included in the operation. Implicitly included subcomponents do not have their data included in the Backup Components Document—regardless of whether they are selectable (for either restore or backup) or not. See also [*component*](vssgloss-c.md#base-vssgloss-component), [*logical path*](vssgloss-l.md#base-vssgloss-logical-path).
 
 </dd> <dt>
 
 <span id="base.vssgloss_surfaced_shadow_copy"></span><span id="BASE.VSSGLOSS_SURFACED_SHADOW_COPY"></span>**surfaced shadow copy**
 </dt> <dd>
 
-A shadow copied volume visible to a system's Mount Manager namespace—meaning **FindFirstVolume** and **FindNextVolume** can find it and that volume arrival and departure notifications are generated. All exposed shadow copies are also surfaced shadow copies. However, a surfaced shadow copy need not be exposed. If a shadow copy is transportable, it cannot be surfaced. See also [*exposed shadow copy*](https://www.bing.com/search?q=*exposed shadow copy*), [*transportable shadow copy*](https://www.bing.com/search?q=*transportable shadow copy*).
+A shadow copied volume visible to a system's Mount Manager namespace—meaning **FindFirstVolume** and **FindNextVolume** can find it and that volume arrival and departure notifications are generated. All exposed shadow copies are also surfaced shadow copies. However, a surfaced shadow copy need not be exposed. If a shadow copy is transportable, it cannot be surfaced. See also [*exposed shadow copy*](vssgloss-e.md#base-vssgloss-exposed-shadow-copy), [*transportable shadow copy*](vssgloss-t.md#base-vssgloss-transportable-shadow-copy).
 
 </dd> <dt>
 
 <span id="base.vssgloss_system_file_protection"></span><span id="BASE.VSSGLOSS_SYSTEM_FILE_PROTECTION"></span>**System File Protection**
 </dt> <dd>
 
-See [*Windows File Protection*](https://www.bing.com/search?q=*Windows File Protection*).
+See [*Windows File Protection*](vssgloss-w.md#base-vssgloss-windows-file-protection).
 
 </dd> <dt>
 
 <span id="base.vssgloss_system_level_applications"></span><span id="BASE.VSSGLOSS_SYSTEM_LEVEL_APPLICATIONS"></span>**system-level applications**
 </dt> <dd>
 
-Indicates the point at which VSS notifies a writer of a freeze. Writers that are initialized as system-level applications are notified after writers initialized either as front-end level applications or as back-end level applications. See also [*application level*](https://www.bing.com/search?q=*application level*), [*back-end level applications*](https://www.bing.com/search?q=*back-end level applications*), [*front-end level applications*](https://www.bing.com/search?q=*front-end level applications*).
+Indicates the point at which VSS notifies a writer of a freeze. Writers that are initialized as system-level applications are notified after writers initialized either as front-end level applications or as back-end level applications. See also [*application level*](vssgloss-a.md#base-vssgloss-application-level), [*back-end level applications*](vssgloss-b.md#base-vssgloss-back-end-level-applications), [*front-end level applications*](vssgloss-f.md#base-vssgloss-front-end-level-applications).
 
 </dd> <dt>
 

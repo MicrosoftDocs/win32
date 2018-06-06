@@ -13,29 +13,29 @@ ms.date: 05/31/2018
 
 A restore set is a list of all files to be restored and the locations to which they will be restored.
 
-As when generating the backup file list (see [Generating A Backup Set](generating-a-backup-set.md)), an algorithm for determining which files to restore and where to restore them must proceed [*writer instance*](https://www.bing.com/search?q=*writer instance*) by writer instance, and on a component-by-component basis for each writer instance.
+As when generating the backup file list (see [Generating A Backup Set](generating-a-backup-set.md)), an algorithm for determining which files to restore and where to restore them must proceed [*writer instance*](vssgloss-w.md#base-vssgloss-writer-instance) by writer instance, and on a component-by-component basis for each writer instance.
 
-It is necessary to associate each file on the backup media with the component that managed it. It is also necessary to obtain the managing component's [*restore method*](https://www.bing.com/search?q=*restore method*), and the file's [*restore target*](https://www.bing.com/search?q=*restore target*) information, and its [*alternate location mappings*](https://www.bing.com/search?q=*alternate location mappings*) (if any).
+It is necessary to associate each file on the backup media with the component that managed it. It is also necessary to obtain the managing component's [*restore method*](vssgloss-r.md#base-vssgloss-restore-method), and the file's [*restore target*](vssgloss-r.md#base-vssgloss-restore-target) information, and its [*alternate location mappings*](vssgloss-a.md#base-vssgloss-alternate-location-mapping) (if any).
 
-Some files may also require [*partial files*](https://www.bing.com/search?q=*partial files*) operations or [*directed targets*](https://www.bing.com/search?q=*directed targets*) for restore.
+Some files may also require [*partial files*](vssgloss-p.md#base-vssgloss-partial-file-support) operations or [*directed targets*](vssgloss-d.md#base-vssgloss-directed-targeting) for restore.
 
-By examining the components' [*selectability for backup*](https://www.bing.com/search?q=*selectability for backup*) and [*logical paths*](https://www.bing.com/search?q=*logical paths*) (see [Working with Selectability and Logical Paths](working-with-selectability-and-logical-paths.md)), a requester is able to determine the component structure of the backup operation it is going to restore.
+By examining the components' [*selectability for backup*](vssgloss-s.md#base-vssgloss-selectability-for-backup) and [*logical paths*](vssgloss-l.md#base-vssgloss-logical-path) (see [Working with Selectability and Logical Paths](working-with-selectability-and-logical-paths.md)), a requester is able to determine the component structure of the backup operation it is going to restore.
 
-With the component structure of the backup established, the requester can get each component's [*file set*](https://www.bing.com/search?q=*file set*) information (file specification, path, and recursion flag). A requester can then generate a restore set.
+With the component structure of the backup established, the requester can get each component's [*file set*](vssgloss-f.md#base-vssgloss-file-set) information (file specification, path, and recursion flag). A requester can then generate a restore set.
 
-Files requiring [*partial files*](https://www.bing.com/search?q=*partial files*), or [*directed targets*](https://www.bing.com/search?q=*directed targets*) provide their own detailed restoration instructions (see [Non-Default Backup and Restore Locations](non-default-backup-and-restore-locations.md)), which can then be added to the restore set.
+Files requiring [*partial files*](vssgloss-p.md#base-vssgloss-partial-file-support), or [*directed targets*](vssgloss-d.md#base-vssgloss-directed-targeting) provide their own detailed restoration instructions (see [Non-Default Backup and Restore Locations](non-default-backup-and-restore-locations.md)), which can then be added to the restore set.
 
-A typical mechanism for generating a restore set for files not involved with partial files operations, or [*directed targets*](https://www.bing.com/search?q=*directed targets*) might proceed by doing the following:
+A typical mechanism for generating a restore set for files not involved with partial files operations, or [*directed targets*](vssgloss-d.md#base-vssgloss-directed-targeting) might proceed by doing the following:
 
 1.  Obtain a list of files on the backup media, including their original paths.
 
-2.  Identify the [*writer class*](https://www.bing.com/search?q=*writer class*) and component for each file on the backup media by doing the following:
+2.  Identify the [*writer class*](vssgloss-w.md#base-vssgloss-writer-class) and component for each file on the backup media by doing the following:
 
     -   For each writer, obtain component information ([**IVssWMComponent**](/windows/desktop/api/VsBackup/nl-vsbackup-ivsswmcomponent)) by calling [**IVssExamineWriterMetadata::GetComponent**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getcomponent) on all its components.
     -   For each component, obtain file descriptor ([**IVssWMFiledesc**](/windows/desktop/api/VsWriter/nl-vswriter-ivsswmfiledesc)) information for every set of files the component contains (depending on the types of data the component contains by calling [**IVssWMComponent::GetFile**](/windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getfile), [**IVssWMComponent::GetDatabaseFile**](/windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getdatabasefile), and [**IVssWMComponent::GetDatabaseLogFile**](/windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getdatabaselogfile).
     -   Compare the file's name and path information against that returned by the path information contained in the file descriptor for each set of files in a component (returned by [**IVssWMFiledesc::GetPath**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getpath), [**IVssWMFiledesc::GetFilespec**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getfilespec), and [**IVssWMFiledesc::GetRecursive**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getrecursive)) against stored files path information to determine whether the file is part of the component.
         > [!Note]  
-        > You should ignore any alternate location information in the file descriptor retrieved from a component found in a stored Writer Metadata Document (that is, [**IVssWMFiledesc::GetAlternateLocation**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getalternatelocation) does not return **NULL**). This alternate location is the [*alternate path*](https://www.bing.com/search?q=*alternate path*), which is used only during backup.
+        > You should ignore any alternate location information in the file descriptor retrieved from a component found in a stored Writer Metadata Document (that is, [**IVssWMFiledesc::GetAlternateLocation**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswmfiledesc-getalternatelocation) does not return **NULL**). This alternate location is the [*alternate path*](vssgloss-a.md#base-vssgloss-alternate-path), which is used only during backup.
 
          
 

@@ -39,7 +39,7 @@ The index of the column. This parameter is ignored in list view.
 
 ## Return value
 
-Returns the column width if successful, or zero otherwise. If this message is sent to a list-view control with the [**LVS\_REPORT**](https://www.bing.com/search?q=**LVS\_REPORT**) style and the specified column does not exist, the return value is undefined.
+Returns the column width if successful, or zero otherwise. If this message is sent to a list-view control with the [**LVS\_REPORT**](list-view-window-styles.md#lvs-report) style and the specified column does not exist, the return value is undefined.
 
 ## Requirements
 

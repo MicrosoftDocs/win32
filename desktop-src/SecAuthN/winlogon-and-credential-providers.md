@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Winlogon and Credential Providers
 
-[*Winlogon*](https://www.bing.com/search?q=*Winlogon*) is the Windows module that performs interactive logon for a [*logon session*](https://www.bing.com/search?q=*logon session*). Winlogon behavior can be customized by implementing and registering a Credential Provider.
+[*Winlogon*](security.w_gly#-security-winlogon-gly) is the Windows module that performs interactive logon for a [*logon session*](security.l_gly#-security-logon-session-gly). Winlogon behavior can be customized by implementing and registering a Credential Provider.
 
 For information about implementing a Credential Provider, see the following topics.
 
@@ -20,7 +20,7 @@ For information about implementing a Credential Provider, see the following topi
 | Topic                                                                                                           | Description                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | [Credential Provider driven Windows Logon Experience](http://go.microsoft.com/fwlink/?LinkId=717287)<br/> | Overview of Winlogon and Credential Provider architecture and a sample Credential Provider.<br/> |
-| [Shell Interfaces](https://www.bing.com/search?q=Shell Interfaces)<br/>                                                                | Credential Provider interface reference.<br/>                                                    |
+| [Shell Interfaces](https://www.bing.com/search?q=Shell+Interfaces)<br/>                                                                | Credential Provider interface reference.<br/>                                                    |
 | [Credential Providers in Windows 10](credential-providers-in-windows.md)<br/>                            | Third-party credential providers and system credential providers in Windows 10.<br/>             |
 
 

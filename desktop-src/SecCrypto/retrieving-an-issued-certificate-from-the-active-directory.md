@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Retrieving an Issued Certificate from the Active Directory
 
-An enterprise [*certification authority*](https://www.bing.com/search?q=*certification authority*) (CA) publishes issued [*certificates*](https://www.bing.com/search?q=*certificates*) to the Active Directory; a stand-alone certification authority may also publish issued certificates to the Active Directory. The following example shows how to acquire a [*certificate context*](https://www.bing.com/search?q=*certificate context*) for a certificate stored in Active Directory. After the certificate context is acquired, you can retrieve the contents of the certificate or perform certificate operations by using the CryptoAPI functions.
+An enterprise [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA) publishes issued [*certificates*](security.c_gly#-security-certificate-gly) to the Active Directory; a stand-alone certification authority may also publish issued certificates to the Active Directory. The following example shows how to acquire a [*certificate context*](security.c_gly#-security-certificate-context-gly) for a certificate stored in Active Directory. After the certificate context is acquired, you can retrieve the contents of the certificate or perform certificate operations by using the CryptoAPI functions.
 
 The following example shows retrieving a certificate from Active Directory.
 

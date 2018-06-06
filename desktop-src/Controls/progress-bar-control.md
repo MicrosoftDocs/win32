@@ -32,7 +32,7 @@ More information is contained under the following headings.
 
 ## Using Progress Bars
 
-You can create a progress bar by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the [**PROGRESS\_CLASS**](https://www.bing.com/search?q=**PROGRESS\_CLASS**) window class. This window class is registered when the common controls DLL is loaded. For more information, see [About Common Controls](common-controls-intro.md).
+You can create a progress bar by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the [**PROGRESS\_CLASS**](common-control-window-classes.md#progress-class) window class. This window class is registered when the common controls DLL is loaded. For more information, see [About Common Controls](common-controls-intro.md).
 
 The control is also available in the Microsoft Visual Studio Toolbox, where it is called Progress Control.
 
@@ -48,7 +48,7 @@ The [**PBM\_SETSTEP**](pbm-setstep.md) message allows you to specify a step incr
 
 ### Default Progress Bar Message Processing
 
-This section describes the messages handled by the window procedure for the [**PROGRESS\_CLASS**](https://www.bing.com/search?q=**PROGRESS\_CLASS**) class.
+This section describes the messages handled by the window procedure for the [**PROGRESS\_CLASS**](common-control-window-classes.md#progress-class) class.
 
 
 
@@ -67,7 +67,7 @@ This section describes the messages handled by the window procedure for the [**P
 
 ### Marquee Style
 
-By creating the progress bar control with the [**PBS\_MARQUEE**](https://www.bing.com/search?q=**PBS\_MARQUEE**) style, you can animate it in a way that shows activity but does not indicate what proportion of the task is complete. The highlighted part of the progress bar moves repeatedly along the length of the bar. You can start and stop the animation, and control its speed, by sending the [**PBM\_SETMARQUEE**](pbm-setmarquee.md) message. Marquee progress bars do not have a range or position.
+By creating the progress bar control with the [**PBS\_MARQUEE**](progress-bar-control-styles.md#pbs-marquee) style, you can animate it in a way that shows activity but does not indicate what proportion of the task is complete. The highlighted part of the progress bar moves repeatedly along the length of the bar. You can start and stop the animation, and control its speed, by sending the [**PBM\_SETMARQUEE**](pbm-setmarquee.md) message. Marquee progress bars do not have a range or position.
 
 The following illustration shows a progress bar in marquee mode. The highlighted part moves across the bar.
 

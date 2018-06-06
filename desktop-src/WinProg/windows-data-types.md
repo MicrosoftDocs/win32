@@ -275,7 +275,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="HACCEL"></span><span id="haccel"></span><strong>HACCEL</strong></td>
-<td>A handle to an [accelerator table](https://www.bing.com/search?q=accelerator table).<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef HANDLE HACCEL;</code><br/></td>
+<td>A handle to an [accelerator table](https://www.bing.com/search?q=accelerator+table).<br/> This type is declared in WinDef.h as follows:<br/> <code>typedef HANDLE HACCEL;</code><br/></td>
 </tr>
 <tr class="even">
 <td><span id="HALF_PTR"></span><span id="half_ptr"></span><strong>HALF_PTR</strong></td>
@@ -321,7 +321,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HCOLORSPACE"></span><span id="hcolorspace"></span><strong>HCOLORSPACE</strong></td>
-<td><p>A handle to a [color space](https://www.bing.com/search?q=color space).</p>
+<td><p>A handle to a [color space](https://www.bing.com/search?q=color+space).</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HCOLORSPACE;</code></p></td>
 </tr>
@@ -479,7 +479,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HRESULT"></span><span id="hresult"></span><strong>HRESULT</strong></td>
-<td><p>The return codes used by COM interfaces. For more information, see [Structure of the COM Error Codes](https://www.bing.com/search?q=Structure of the COM Error Codes). To test an <strong>HRESULT</strong> value, use the [<strong>FAILED</strong>](https://www.bing.com/search?q=<strong>FAILED</strong>) and [<strong>SUCCEEDED</strong>](https://www.bing.com/search?q=<strong>SUCCEEDED</strong>) macros.</p>
+<td><p>The return codes used by COM interfaces. For more information, see [Structure of the COM Error Codes](https://www.bing.com/search?q=Structure+of+the+COM+Error+Codes). To test an <strong>HRESULT</strong> value, use the [<strong>FAILED</strong>](https://www.bing.com/search?q=<strong>FAILED</strong>) and [<strong>SUCCEEDED</strong>](https://www.bing.com/search?q=<strong>SUCCEEDED</strong>) macros.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef LONG HRESULT;</code></p></td>
 </tr>

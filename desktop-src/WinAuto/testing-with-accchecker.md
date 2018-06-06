@@ -21,7 +21,7 @@ The following scenario describes the steps that you typically follow when testin
 
  
 
-1.  Run AccChecker verifications on a particular target application or control. For more information, see [Verifications Tab](https://www.bing.com/search?q=Verifications Tab).
+1.  Run AccChecker verifications on a particular target application or control. For more information, see [Verifications Tab](the-accchecker-graphical-user-interface.md#verifications-tab).
     > [!Note]  
     > AccChecker doesn't explore all UI permutations in an application. Elements hidden within controls such as windows, panes, tabs, and menus must be exposed manually.
 

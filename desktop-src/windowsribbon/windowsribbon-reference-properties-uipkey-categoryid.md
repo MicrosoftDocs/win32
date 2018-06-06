@@ -31,7 +31,7 @@ The property value is the zero-based index of an item in a category collection.
 
 The following screen shot illustrates the use of categories in a [**SplitButton**](windowsribbon-element-splitbutton.md) menu where **Selection shapes** has an ID of 0 and **Selection options** has an ID of 1.
 
-![screen shot that shows categories in a ribbon gallery.](https://www.bing.com/search?q=screen shot that shows categories in a ribbon gallery.)
+![screen shot that shows categories in a ribbon gallery.](https://www.bing.com/search?q=screen+shot+that+shows+categories+in+a+ribbon+gallery.)
 
 ## Related topics
 

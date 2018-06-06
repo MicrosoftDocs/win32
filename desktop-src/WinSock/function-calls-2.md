@@ -22,7 +22,7 @@ These new Windows Sockets functions include the following:
 
 In addition, new IP Helper functions with support for both IPv6 and IPv4 have been added to simplify Windows Sockets programming. These new IP Helper functions include the following:
 
--   [**GetAdaptersAddresses**](https://msdn.microsoft.com/windows/desktop/7b34138f-7263-4b73-95df-9e854fd81135)
+-   [**GetAdaptersAddresses**](https://msdn.microsoft.com/7b34138f-7263-4b73-95df-9e854fd81135)
 
 When adding IPv6 support to an application the following guidelines should be used:
 
@@ -379,7 +379,7 @@ SOCKET OpenAndConnect(char *Server, char *PortName, int Family, int SocketType)
 
 ## IP Helper Functions
 
-Finally, applications making use of the IP Helper function [**GetAdaptersInfo**](https://msdn.microsoft.com/windows/desktop/8cdecc84-6566-438b-86d0-3c55490a9a59), and its associated structure [**IP\_ADAPTER\_INFO**](https://msdn.microsoft.com/windows/desktop/f8035801-ca0c-4d86-bfc5-8e2d746af1b4), must recognize that both this function and structure are limited to IPv4 addresses. IPv6-enabled replacements for this function and structure are the [**GetAdaptersAddresses**](https://msdn.microsoft.com/windows/desktop/7b34138f-7263-4b73-95df-9e854fd81135) function and the [**IP\_ADAPTER\_ADDRESSES**](https://msdn.microsoft.com/windows/desktop/a2df3749-6c75-40c0-8952-1656bbe639a6) structure. IPv6-enabled applications making use of the IP Helper API should use the **GetAdaptersAddresses** function and the corresponding IPv6-enabled **IP\_ADAPTER\_ADDRESSES** structure, both defined in the Microsoft Windows Software Development Kit (SDK).
+Finally, applications making use of the IP Helper function [**GetAdaptersInfo**](https://msdn.microsoft.com/8cdecc84-6566-438b-86d0-3c55490a9a59), and its associated structure [**IP\_ADAPTER\_INFO**](https://msdn.microsoft.com/f8035801-ca0c-4d86-bfc5-8e2d746af1b4), must recognize that both this function and structure are limited to IPv4 addresses. IPv6-enabled replacements for this function and structure are the [**GetAdaptersAddresses**](https://msdn.microsoft.com/7b34138f-7263-4b73-95df-9e854fd81135) function and the [**IP\_ADAPTER\_ADDRESSES**](https://msdn.microsoft.com/a2df3749-6c75-40c0-8952-1656bbe639a6) structure. IPv6-enabled applications making use of the IP Helper API should use the **GetAdaptersAddresses** function and the corresponding IPv6-enabled **IP\_ADAPTER\_ADDRESSES** structure, both defined in the Microsoft Windows Software Development Kit (SDK).
 
 ## Recommendations
 

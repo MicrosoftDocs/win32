@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ISCrdEnr::setCAName method
 
-The **setCAName** method specifies the name of the [*certification authority*](https://www.bing.com/search?q=*certification authority*) (CA).
+The **setCAName** method specifies the name of the [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA).
 
 ## Syntax
 

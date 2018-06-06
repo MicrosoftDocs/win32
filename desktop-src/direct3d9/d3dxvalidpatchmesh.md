@@ -43,7 +43,7 @@ Pointer to an [**ID3DXPatchMesh**](id3dxpatchmesh.md) interface, representing th
 *pNumDegenerateVertices* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Returns the number of degenerate vertices in the patch mesh.
 
@@ -52,7 +52,7 @@ Returns the number of degenerate vertices in the patch mesh.
 *pNumDegeneratePatches* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Returns the number of degenerate patches in the patch mesh.
 

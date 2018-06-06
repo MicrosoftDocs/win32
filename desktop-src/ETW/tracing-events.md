@@ -27,7 +27,7 @@ Before the provider exits, call the [**UnregisterTraceGuids**](unregistertracegu
 
 If your provider logs events to the Global Logger session only, you do not have to register your provider with ETW because the Global Logger controller does not enable or disable providers. For details, see [Configuring and Starting the Global Logger Session](configuring-and-starting-the-global-logger-session.md).
 
-All [classic](https://www.bing.com/search?q=classic) providers (except those that trace events to the Global Logger session) must implement the [**ControlCallback**](controlcallback.md) function. The provider uses the information in the callback to determine if it is enabled or disabled and which events it should write.
+All [classic](about-event-tracing.md#providers) providers (except those that trace events to the Global Logger session) must implement the [**ControlCallback**](controlcallback.md) function. The provider uses the information in the callback to determine if it is enabled or disabled and which events it should write.
 
 The provider specifies the name of the callback function when it calls the [**RegisterTraceGuids**](registertraceguids.md) function to register itself. ETW calls the callback function when the controller calls the [**EnableTrace**](enabletrace.md) function to enable or disable the provider.
 
@@ -35,7 +35,7 @@ In your [**ControlCallback**](controlcallback.md) implementation, you must call 
 
 A provider can log trace events to only one session, but there is nothing to prevent multiple controllers from enabling a single provider. To prevent another controller from redirecting your trace events to its session, you may want to add logic to your [**ControlCallback**](controlcallback.md) implementation to compare session handles and ignore enable requests from other controllers.
 
-To log events, [classic](https://www.bing.com/search?q=classic) providers call the [**TraceEvent**](traceevent.md) function. An event consists of the [**EVENT\_TRACE\_HEADER**](event-trace-header.md) structure and any event-specific data that is appended to the header.
+To log events, [classic](about-event-tracing.md#providers) providers call the [**TraceEvent**](traceevent.md) function. An event consists of the [**EVENT\_TRACE\_HEADER**](event-trace-header.md) structure and any event-specific data that is appended to the header.
 
 The header must contain the following information:
 

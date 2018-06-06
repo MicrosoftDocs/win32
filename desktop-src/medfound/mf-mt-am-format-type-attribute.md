@@ -19,7 +19,7 @@ Contains a DirectShow format GUID for a media type.
 
 ## Remarks
 
-This attribute might be set when a DirectShow media type is converted into a Media Foundation media type. The attribute indicates the original DirectShow format type. The value corresponds to the formattype member of the [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/windows/desktop/973697d0-2897-48b5-88ca-a88a9650eb02) structure.
+This attribute might be set when a DirectShow media type is converted into a Media Foundation media type. The attribute indicates the original DirectShow format type. The value corresponds to the formattype member of the [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02) structure.
 
 For an audio format, the [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) attribute might contain the original format block, if the DirectShow format type was not recognized.
 

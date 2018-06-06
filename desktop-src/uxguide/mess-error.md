@@ -34,7 +34,7 @@ To decide, consider these questions:
 -   **Is the problem relevant when users are actively using other programs?** If so, consider showing the problem using a [notification area icon](winenv-notification.md).
 -   **Is the problem not related to the current user activity, does it not require immediate user action, and can users freely ignore it?** If so, use an [action failure notification](mess-notif.md) instead.
 -   **Does the problem relate to the status of a background task within a primary window?** If so, consider showing the problem using a [status bars](ctrl-status-bars.md).
--   **Are the primary target users IT professionals?** If so, consider using an alternative feedback mechanism, such as [log file](https://www.bing.com/search?q=log file) entries or e-mail alerts. IT professionals strongly prefer log files for non-critical information.
+-   **Are the primary target users IT professionals?** If so, consider using an alternative feedback mechanism, such as [log file](glossary.md#l) entries or e-mail alerts. IT professionals strongly prefer log files for non-critical information.
 
 ## Design concepts
 
@@ -466,7 +466,7 @@ In this example, an unconstrained text box is used for constrained input. Use a 
 
 In this example, a balloon indicates an input problem while still in the control.
 
--   **Use in-place errors for delayed error detection,** usually errors found by clicking a commit button. (Don't use [in-place errors](https://www.bing.com/search?q=in-place errors) for settings that are immediately committed.) There can be multiple in-place errors at a time. Use normal text and a 16x16 pixel error icon, placing them directly next to the problem whenever possible. In-place errors don't go away unless the user commits and no other errors are found.
+-   **Use in-place errors for delayed error detection,** usually errors found by clicking a commit button. (Don't use [in-place errors](glossary.md#i) for settings that are immediately committed.) There can be multiple in-place errors at a time. Use normal text and a 16x16 pixel error icon, placing them directly next to the problem whenever possible. In-place errors don't go away unless the user commits and no other errors are found.
 
 ![screen shot of message: incorrect e-mail address ](images/mess-error-image37.png)
 

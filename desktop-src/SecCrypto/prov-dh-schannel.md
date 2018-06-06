@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # PROV\_DH\_SCHANNEL
 
-The PROV\_DH\_SCHANNEL provider type supports both Diffie-Hellman and [*Schannel*](https://www.bing.com/search?q=*Schannel*) protocols.
+The PROV\_DH\_SCHANNEL provider type supports both Diffie-Hellman and [*Schannel*](security.s_gly#-security-schannel-gly) protocols.
 
 ## Algorithms Supported
 
@@ -22,9 +22,9 @@ For descriptions of each of these algorithms, see the glossary.
 | Purpose      | Supported algorithms                                                                                                                                   |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Key Exchange | DH (ephemeral)                                                                                                                                         |
-| Signature    | [*DSS*](https://www.bing.com/search?q=*DSS*)                                                                                            |
-| Encryption   | [*DES*](https://www.bing.com/search?q=*DES*)[*Triple DES*](https://www.bing.com/search?q=*Triple DES*)<br/> |
-| Hashing      | [*MD5*](https://www.bing.com/search?q=*MD5*)[*SHA*](https://www.bing.com/search?q=*SHA*)<br/>                      |
+| Signature    | [*DSS*](security.d_gly#-security-dss-gly)                                                                                            |
+| Encryption   | [*DES*](security.d_gly#-security-des-gly)[*Triple DES*](security.t_gly#-security-triple-des-gly)<br/> |
+| Hashing      | [*MD5*](security.m_gly#-security-md5-gly)[*SHA*](security.s_gly#-security-sha-gly)<br/>                      |
 
 
 

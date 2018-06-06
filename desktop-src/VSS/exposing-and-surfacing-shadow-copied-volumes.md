@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Exposing and Surfacing Shadow Copied Volumes
 
-In addition to being accessed through the [**IVssBackupComponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) interface by means of its copy's [*device object*](https://www.bing.com/search?q=*device object*), a requester can make a shadow copy available to other processes as a mounted read-only device.
+In addition to being accessed through the [**IVssBackupComponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) interface by means of its copy's [*device object*](vssgloss-d.md#base-vssgloss-device-object), a requester can make a shadow copy available to other processes as a mounted read-only device.
 
-This process is known as [*exposing a shadow copy*](https://www.bing.com/search?q=*exposing a shadow copy*), and is performed using the [**IVssBackupComponents::ExposeSnapshot**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot) method.
+This process is known as [*exposing a shadow copy*](vssgloss-e.md#base-vssgloss-exposed-shadow-copy), and is performed using the [**IVssBackupComponents::ExposeSnapshot**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot) method.
 
 A shadow copy can be exposed as a local volume—assigned a drive letter or associated with a mounted folder—or as a file share.
 
@@ -77,7 +77,7 @@ Any system currently mapping the network share of dirTwoOfF could disconnect fro
 
 ## Surfacing a Shadow Copy
 
-A [*surfaced shadow copy*](https://www.bing.com/search?q=*surfaced shadow copy*) is one in which the shadow copy is known to a system's Mount Manager namespace.
+A [*surfaced shadow copy*](vssgloss-s.md#base-vssgloss-surfaced-shadow-copy) is one in which the shadow copy is known to a system's Mount Manager namespace.
 
 This means that you can locate such shadow copies just as you would locate any other available but not-yet-mounted volume—by using **FindFirstVolume** and **FindNextVolume**, for example.
 

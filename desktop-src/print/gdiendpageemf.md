@@ -62,15 +62,15 @@ The **GdiEndPageEMF** function ends the processing of a physical page and causes
 
 -   After the appropriate number of document pages have been placed on the physical page by making calls to [**GdiPlayPageEMF**](gdiplaypageemf.md). Note that **GdiPlayPageEMF** does not actually print on the device context, but instead prepares a data structure that describes the text and graphics that are to be printed on the physical page(s). The text and graphics are printed to the device context when **GdiEndPageEMF** is called.
 
--   Whenever a call to [**GdiGetDevmodeForPage**](gdigetdevmodeforpage.md) indicates a document page's [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure is different from the previous page's DEVMODE structure.
+-   Whenever a call to [**GdiGetDevmodeForPage**](gdigetdevmodeforpage.md) indicates a document page's [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure is different from the previous page's DEVMODE structure.
 
 If this function is called with the *dwOptimization* parameter set to EMF\_PP\_COLOR\_OPTIMIZATION, color optimization is enabled. If *dwOptimization* is set to 0, no optimization is performed. When color optimization is enabled, the presence of color in the spool file causes the spool file to be played in color; the lack of color in the spool file causes the spool file to be played in monochrome.
 
 If you are creating a Unidrv rendering plug-in to generate color watermarks, be advised that color optimization causes color watermarks to be printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization.
 
-The color optimization controlled by the *dwOptimization* parameter can also be controlled by setting the **dwColorOptimization** member of the [**ATTRIBUTE\_INFO\_2**](attribute-info-2.md) or [**ATTRIBUTE\_INFO\_3**](attribute-info-3.md) structures. This optimization also can be controlled by the Unidrv \***ChangeColorModeOnDoc?** color attribute (see [Color Attributes](https://www.bing.com/search?q=Color Attributes)).
+The color optimization controlled by the *dwOptimization* parameter can also be controlled by setting the **dwColorOptimization** member of the [**ATTRIBUTE\_INFO\_2**](attribute-info-2.md) or [**ATTRIBUTE\_INFO\_3**](attribute-info-3.md) structures. This optimization also can be controlled by the Unidrv \***ChangeColorModeOnDoc?** color attribute (see [Color Attributes](https://www.bing.com/search?q=Color+Attributes)).
 
-For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using GDI Functions in Print Processors).
+For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using+GDI+Functions+in+Print+Processors).
 
 ## Requirements
 

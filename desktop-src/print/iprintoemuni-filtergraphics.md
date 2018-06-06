@@ -77,7 +77,7 @@ If the `IPrintOemUni::FilterGraphics` method is implemented, Unidrv does not spo
 
 The method can perform final postprocessing of image data, such as removing adjacent dots or any other data stream filtering operation that Unidrv does not provide. It must then spool the data by calling the [**IPrintOemDriverUni::DrvWriteSpoolBuf**](iprintoemdriveruni-drvwritespoolbuf.md) method.
 
-`IPrintOemUni::FilterGraphics` method is called by Unidrv's [*DrvSendPage*](https://www.bing.com/search?q=*DrvSendPage*) function. If you want to implement `IPrintOemUni::FilterGraphics`, you must not completely override Unidrv's **DrvSendPage** or [**DrvNextBand**](https://www.bing.com/search?q=**DrvNextBand**) functions.
+`IPrintOemUni::FilterGraphics` method is called by Unidrv's [*DrvSendPage*](https://msdn.microsoft.com/d9c452e3-3850-4ca2-8114-b3866fbdeba6) function. If you want to implement `IPrintOemUni::FilterGraphics`, you must not completely override Unidrv's **DrvSendPage** or [**DrvNextBand**](https://msdn.microsoft.com/7c02d32b-6c95-4dd5-b9cf-2f64ba78f25a) functions.
 
 Before Unidrv's **DrvSendPage** function calls the plug-in's `IPrintOemUni::FilterGraphics` implementation, **DrvSendPage**.
 
@@ -95,7 +95,7 @@ The `IPrintOemUni::FilterGraphics` method allows a rendering plug-in to modify s
 
 You can use `IPrintOemUni::FilterGraphics` to implement a special compression method or to perform bit manipulation on the data stream that is sent to the printer or both. In any situation, the driver's built-in compression code is not used. `IPrintOemUni::FilterGraphics` is presented with a block of data and is required to output this data by using the [**DrvWriteSpoolBuf**](drvwritespoolbuf.md) function. The core driver (Unidrv) will perform no further processing of the raster data after calling [**OEMFilterGraphics**](oemfiltergraphics.md).
 
-When you implement the `IPrintOemUni::FilterGraphics` method in your plug-in, it will be used for sending the raster data directly to the printer. The number of scan lines in a block is specified through the \***PinsPerPhysPass** attribute that is associated with the [Resolution feature](https://www.bing.com/search?q=Resolution feature) This attribute is optional, and if you do not specify it, it is set to 1 (like it is for most of the inkjet and page printers). Otherwise, \***PinsPerPhysPass** should be a multiple of 8. In `IPrintOemUni::FilterGraphics`, the *pBuf* parameter points to the buffer that contains the scan line raster data that you will manipulate if necessary (for example, for compression) and finally send out. The *dwLen* parameter is the length of the buffer that *pBuf* points to.
+When you implement the `IPrintOemUni::FilterGraphics` method in your plug-in, it will be used for sending the raster data directly to the printer. The number of scan lines in a block is specified through the \***PinsPerPhysPass** attribute that is associated with the [Resolution feature](https://www.bing.com/search?q=Resolution+feature) This attribute is optional, and if you do not specify it, it is set to 1 (like it is for most of the inkjet and page printers). Otherwise, \***PinsPerPhysPass** should be a multiple of 8. In `IPrintOemUni::FilterGraphics`, the *pBuf* parameter points to the buffer that contains the scan line raster data that you will manipulate if necessary (for example, for compression) and finally send out. The *dwLen* parameter is the length of the buffer that *pBuf* points to.
 
 The following list describes several common scenarios for implementing `IPrintOemUni::FilterGraphics`:
 
@@ -112,7 +112,7 @@ The `IPrintOemUni::FilterGraphics` method gives you access to the scan line data
 
  
 
-For more information about customizing Unidrv's rendering operations, see [Unidrv-Specific Customized Rendering](https://www.bing.com/search?q=Unidrv-Specific Customized Rendering).
+For more information about customizing Unidrv's rendering operations, see [Unidrv-Specific Customized Rendering](https://www.bing.com/search?q=Unidrv-Specific+Customized+Rendering).
 
 ## Requirements
 
@@ -132,10 +132,10 @@ For more information about customizing Unidrv's rendering operations, see [Unidr
 [**IPrintOemUni**](iprintoemuni-interface.md)
 </dt> <dt>
 
-[**DrvNextBand**](https://www.bing.com/search?q=**DrvNextBand**)
+[**DrvNextBand**](https://msdn.microsoft.com/7c02d32b-6c95-4dd5-b9cf-2f64ba78f25a)
 </dt> <dt>
 
-[*DrvSendPage*](https://www.bing.com/search?q=*DrvSendPage*)
+[*DrvSendPage*](https://msdn.microsoft.com/d9c452e3-3850-4ca2-8114-b3866fbdeba6)
 </dt> <dt>
 
 [**DrvWriteSpoolBuf**](drvwritespoolbuf.md)

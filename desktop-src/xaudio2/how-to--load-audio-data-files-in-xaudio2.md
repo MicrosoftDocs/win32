@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 # How to: Load Audio Data Files in XAudio2
 
 > [!Note]  
-> This content applies only to desktop apps and will require revision to function in a Windows Store app. Please refer to the documentation for [**CreateFile2**](https://msdn.microsoft.com/windows/desktop/cd7a81f3-60ee-443a-99f3-a4c8afd365e7), [**CreateEventEx**](https://msdn.microsoft.com/windows/desktop/402a721d-8338-4df1-ba0b-074f868a1731), [**WaitForSingleObjectEx**](https://msdn.microsoft.com/windows/desktop/530b5340-f8b2-4e00-a3ca-87a7c7372482), [**SetFilePointerEx**](https://msdn.microsoft.com/windows/desktop/a6fdfa00-626d-425d-b00e-c174b19ea4b9), and [**GetOverlappedResultEx**](https://msdn.microsoft.com/windows/desktop/2f77f7fe-bdde-4c52-8571-fe0ab533aa7f). See SoundFileReader.h/.cpp in the BasicSound Windows 8 sample from the [Windows SDK Samples Gallery](http://code.msdn.microsoft.com/).
+> This content applies only to desktop apps and will require revision to function in a Windows Store app. Please refer to the documentation for [**CreateFile2**](https://msdn.microsoft.com/cd7a81f3-60ee-443a-99f3-a4c8afd365e7), [**CreateEventEx**](https://msdn.microsoft.com/402a721d-8338-4df1-ba0b-074f868a1731), [**WaitForSingleObjectEx**](https://msdn.microsoft.com/530b5340-f8b2-4e00-a3ca-87a7c7372482), [**SetFilePointerEx**](https://msdn.microsoft.com/a6fdfa00-626d-425d-b00e-c174b19ea4b9), and [**GetOverlappedResultEx**](https://msdn.microsoft.com/2f77f7fe-bdde-4c52-8571-fe0ab533aa7f). See SoundFileReader.h/.cpp in the BasicSound Windows 8 sample from the [Windows SDK Samples Gallery](http://code.msdn.microsoft.com/).
 
  
 

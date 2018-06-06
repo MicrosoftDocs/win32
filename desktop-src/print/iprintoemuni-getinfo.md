@@ -105,7 +105,7 @@ A rendering plug-in for Unidrv must implement the `IPrintOemUni::GetInfo` method
 
 If *pBuffer* is **NULL**, the method should just use *pcbNeeded* to return the number of bytes required to store the specified information.
 
-For more information about creating and installing rendering plug-ins, see [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing Microsoft's Printer Drivers).
+For more information about creating and installing rendering plug-ins, see [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing+Microsoft's+Printer+Drivers).
 
 ## Requirements
 

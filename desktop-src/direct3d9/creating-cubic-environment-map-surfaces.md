@@ -43,11 +43,11 @@ m_pCubeMap->GetCubeMapSurface(D3DCUBEMAP_FACE_POSITIVE_Y, 0, &amp;pFace2);
 
 
 
-The first parameter that [**GetCubeMapSurface**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dcubetexture9-getcubemapsurface) accepts is a [**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/windows/desktop/6d18b410-6f22-4202-86ae-6b3ef85e6f69) enumerated value that describes the attached surface that the method should retrieve. The second parameter tells Direct3D which level of a mipmapped cube texture to retrieve. The third parameter accepted is the address of the [**IDirect3DSurface9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9) interface, representing the returned cube texture surface. Because this cube-map is not mipmapped, 0 is used here.
+The first parameter that [**GetCubeMapSurface**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dcubetexture9-getcubemapsurface) accepts is a [**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dcubemap_faces.htm) enumerated value that describes the attached surface that the method should retrieve. The second parameter tells Direct3D which level of a mipmapped cube texture to retrieve. The third parameter accepted is the address of the [**IDirect3DSurface9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9) interface, representing the returned cube texture surface. Because this cube-map is not mipmapped, 0 is used here.
 
 > [!Note]
 >
-> After calling this method, the internal reference count on the [**IDirect3DSurface9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9) interface is increased. When you are done using this surface, be sure to call the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) method on this **IDirect3DSurface9** interface or you will have a memory leak.
+> After calling this method, the internal reference count on the [**IDirect3DSurface9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9) interface is increased. When you are done using this surface, be sure to call the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) method on this **IDirect3DSurface9** interface or you will have a memory leak.
 
  
 

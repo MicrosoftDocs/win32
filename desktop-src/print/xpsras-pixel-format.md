@@ -53,7 +53,7 @@ typedef enum _XPSRAS_PIXEL_FORMAT {
 
 ## Remarks
 
-For more information about rasterizing XPS documents, see [Using the XPS Rasterization Service](https://www.bing.com/search?q=Using the XPS Rasterization Service).
+For more information about rasterizing XPS documents, see [Using the XPS Rasterization Service](https://www.bing.com/search?q=Using+the+XPS+Rasterization+Service).
 
 ## Requirements
 
@@ -77,7 +77,7 @@ For more information about rasterizing XPS documents, see [Using the XPS Rasteri
 [**IXpsRasterizationFactory1::CreateRasterizer1**](xpsrasterizationfactory1-createrasterizer1.md)
 </dt> <dt>
 
-[Using the XPS Rasterization Service](https://www.bing.com/search?q=Using the XPS Rasterization Service)
+[Using the XPS Rasterization Service](https://www.bing.com/search?q=Using+the+XPS+Rasterization+Service)
 </dt> </dl>
 
  

@@ -116,7 +116,7 @@ This method is used by a rendering plug-in to specify band size using the plug-i
 
 You can disable banding operations by Unidrv by setting the *dwPageHeight* value to \**pdwRequiredHeight*, but you should consider the performance effect of the height value that the rendering plug-in requests. For rendering, Unidrv needs at least the amount of memory that is calculated by multiplying *dwPageWidthBytes* by \**pdwRequiredHeight*. If the rendering plug-in supports the [**IPrintOemUni::DriverDMS**](iprintoemuni-driverdms.md) method and that method returns "S\_OK", `IPrintOemUni3::SetBandSize` is not called.
 
-If this method is defined and the printer's generic printer description (GPD) file indicates that preanalysis is disabled (the GPD file includes "\***PreAnalysisOptions**: 0"), Unidrv calls this method to calculate band size. For information about the **PreAnalysisOptions** attribute, see [Preanalysis Infrastructure](https://www.bing.com/search?q=Preanalysis Infrastructure).
+If this method is defined and the printer's generic printer description (GPD) file indicates that preanalysis is disabled (the GPD file includes "\***PreAnalysisOptions**: 0"), Unidrv calls this method to calculate band size. For information about the **PreAnalysisOptions** attribute, see [Preanalysis Infrastructure](https://www.bing.com/search?q=Preanalysis+Infrastructure).
 
 If the rendering plug-in supports [**IPrintOemUni::DriverDMS**](iprintoemuni-driverdms.md) and that method returns S\_OK, `IPrintOemUni3::SetBandSize` is not called.
 

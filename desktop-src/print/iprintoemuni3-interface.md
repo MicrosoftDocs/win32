@@ -19,7 +19,7 @@ The **IPrintOemUni3** COM interface is available in Windows Vista and later.
 
 ## Members
 
-The **IPrintOemUni3** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintOemUni3** also has these types of members:
+The **IPrintOemUni3** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintOemUni3** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -33,7 +33,7 @@ The **IPrintOemUni3** interface has these methods.
 |:-------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DownloadPattern**](iprintoemuni3-downloadpattern.md)           | The `IPrintOemUni3::DownloadPattern` method downloads a pattern to a printer.<br/>                                                                                 |
 | [**GetImplementedMethod**](iprintoemuni3-getimplementedmethod.md) | The `IPrintOemUni3::GetImplementedMethod` method is used by Unidrv to determine which **IPrintOemUni** interface methods a rendering plug-in has implemented.<br/> |
-| [**GetPDEVAdjustment**](iprintoemuni3-getpdevadjustment.md)       | The `IPrintOemUni3::GetPDEVAdjustment` method enables a plug-in to override specific [*PDEV*](https://www.bing.com/search?q=*PDEV*) settings.<br/>               |
+| [**GetPDEVAdjustment**](iprintoemuni3-getpdevadjustment.md)       | The `IPrintOemUni3::GetPDEVAdjustment` method enables a plug-in to override specific [*PDEV*](wdkgloss.p#wdkgloss-pdev) settings.<br/>               |
 | [**SetBandSize**](iprintoemuni3-setbandsize.md)                   | The `IPrintOemUni3::SetBandSize` method can be used with Unidrv-supported printers to specify the desired band size on the printed output.<br/>                    |
 
 

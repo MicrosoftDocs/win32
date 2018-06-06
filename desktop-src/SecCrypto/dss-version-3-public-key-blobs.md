@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # DSS Version 3 Public Key BLOBs
 
-DSS version 3 [*Public Key BLOBs*](https://www.bing.com/search?q=*Public Key BLOBs*) of type PUBLICKEYBLOB are used to export and import information about a DH public key. They have the following format:
+DSS version 3 [*Public Key BLOBs*](security.p_gly#-security-public-key-blob-gly) of type PUBLICKEYBLOB are used to export and import information about a DH public key. They have the following format:
 
 
 ```C++
@@ -32,7 +32,7 @@ BYTE y[dsspubkeyver3.bitlenP/8];
 
 
 
-This [*BLOB*](https://www.bing.com/search?q=*BLOB*) format is exported when the CRYPT\_BLOB\_VER3 flag is used with [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey). Because the version is in the BLOB, there is no need to specify a flag when using this BLOB with [**CryptImportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey).
+This [*BLOB*](security.b_gly#-security-blob-gly) format is exported when the CRYPT\_BLOB\_VER3 flag is used with [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey). Because the version is in the BLOB, there is no need to specify a flag when using this BLOB with [**CryptImportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey).
 
 In addition, this BLOB format is used with the [**CryptSetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam) function when the *dwParam* value KP\_PUB\_PARAMS is used to set key parameters on a DSS key. This is done when the CRYPT\_PREGEN flag has been used to generate the key. When used in this situation, the y value is ignored and therefore should not be included in the BLOB.
 
@@ -58,27 +58,27 @@ The following table describes each component of the key BLOB.
 </tr>
 <tr class="even">
 <td>Dsspubkeyver3</td>
-<td>A [<strong>DSSPUBKEY_VER3</strong>](/windows/desktop/api/Wincrypt/) structure. The <strong>magic</strong> member should be set to &quot;DSS3&quot; (0x33535344) for public keys. Notice that the hexadecimal value is just an [<em>ASCII</em>](https://www.bing.com/search?q=<em>ASCII</em>) encoding of &quot;DSS3.&quot;<br/></td>
+<td>A [<strong>DSSPUBKEY_VER3</strong>](/windows/desktop/api/Wincrypt/) structure. The <strong>magic</strong> member should be set to &quot;DSS3&quot; (0x33535344) for public keys. Notice that the hexadecimal value is just an [<em>ASCII</em>](security.a_gly#-security-ascii-gly) encoding of &quot;DSS3.&quot;<br/></td>
 </tr>
 <tr class="odd">
 <td>P</td>
-<td>The P value is located directly after the [<strong>DSSPUBKEY_VER3</strong>](/windows/desktop/api/Wincrypt/) structure, and should always be the length, in bytes, of the DSSPUBKEY_VER3 <strong>bitlenP</strong> field (bit length of P) divided by eight ([<em>little-endian</em>](https://www.bing.com/search?q=<em>little-endian</em>) format).</td>
+<td>The P value is located directly after the [<strong>DSSPUBKEY_VER3</strong>](/windows/desktop/api/Wincrypt/) structure, and should always be the length, in bytes, of the DSSPUBKEY_VER3 <strong>bitlenP</strong> field (bit length of P) divided by eight ([<em>little-endian</em>](security.l_gly#-security-little-endian-gly) format).</td>
 </tr>
 <tr class="even">
 <td>Q</td>
-<td>The Q value is located directly after the P value and should always be the length in bytes of the [<strong>DSSPUBKEY_VER3</strong>](/windows/desktop/api/Wincrypt/)<strong>bitlenQ</strong> member divided by eight ([<em>little-endian</em>](https://www.bing.com/search?q=<em>little-endian</em>) format).</td>
+<td>The Q value is located directly after the P value and should always be the length in bytes of the [<strong>DSSPUBKEY_VER3</strong>](/windows/desktop/api/Wincrypt/)<strong>bitlenQ</strong> member divided by eight ([<em>little-endian</em>](security.l_gly#-security-little-endian-gly) format).</td>
 </tr>
 <tr class="odd">
 <td>G</td>
-<td>The G value is located directly after the Q value and should always be the length, in bytes, of the [<strong>DSSPUBKEY_VER3</strong>](/windows/desktop/api/Wincrypt/)<strong>bitlenP</strong> member (bit length of P) divided by eight. If the length of the data is one or more bytes shorter than P divided by 8, the data must be padded with the necessary bytes (of zero value) to make the data the desired length ([<em>little-endian</em>](https://www.bing.com/search?q=<em>little-endian</em>) format).</td>
+<td>The G value is located directly after the Q value and should always be the length, in bytes, of the [<strong>DSSPUBKEY_VER3</strong>](/windows/desktop/api/Wincrypt/)<strong>bitlenP</strong> member (bit length of P) divided by eight. If the length of the data is one or more bytes shorter than P divided by 8, the data must be padded with the necessary bytes (of zero value) to make the data the desired length ([<em>little-endian</em>](security.l_gly#-security-little-endian-gly) format).</td>
 </tr>
 <tr class="even">
 <td>J</td>
-<td>The J value is located directly after the G value and should always be the length in bytes of the [<strong>DSSPUBKEY_VER3</strong>](/windows/desktop/api/Wincrypt/)<strong>bitlenJ</strong> member divided by eight ([<em>little-endian</em>](https://www.bing.com/search?q=<em>little-endian</em>) format). If the bitlenQ value is 0, then the value is absent from the BLOB.</td>
+<td>The J value is located directly after the G value and should always be the length in bytes of the [<strong>DSSPUBKEY_VER3</strong>](/windows/desktop/api/Wincrypt/)<strong>bitlenJ</strong> member divided by eight ([<em>little-endian</em>](security.l_gly#-security-little-endian-gly) format). If the bitlenQ value is 0, then the value is absent from the BLOB.</td>
 </tr>
 <tr class="odd">
 <td>Y</td>
-<td>The Y value, (G^X) mod P, is located directly after the J value, and should always be the length, in bytes, of the [<strong>DSSPUBKEY_VER3</strong>](/windows/desktop/api/Wincrypt/)<strong>bitlenP</strong> member (bit length of P) divided by eight. If the length of the data that results from the calculation of (G^X) mod P is one or more bytes shorter than P divided by 8, the data must be padded with the necessary bytes (of zero value) to make the data the desired length ([<em>little-endian</em>](https://www.bing.com/search?q=<em>little-endian</em>) format).
+<td>The Y value, (G^X) mod P, is located directly after the J value, and should always be the length, in bytes, of the [<strong>DSSPUBKEY_VER3</strong>](/windows/desktop/api/Wincrypt/)<strong>bitlenP</strong> member (bit length of P) divided by eight. If the length of the data that results from the calculation of (G^X) mod P is one or more bytes shorter than P divided by 8, the data must be padded with the necessary bytes (of zero value) to make the data the desired length ([<em>little-endian</em>](security.l_gly#-security-little-endian-gly) format).
 <blockquote>
 [!Note]<br />
 When this structure is used with [<strong>CryptSetKeyParam</strong>](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam) with the <em>dwParam</em> value KP_PUB_PARAMS, then this value is not included in the BLOB.

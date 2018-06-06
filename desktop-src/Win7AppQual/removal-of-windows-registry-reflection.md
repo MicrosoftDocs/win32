@@ -78,8 +78,8 @@ Apply one of the following options if you are relying on RegDisableReflectionKey
 
 ## Links to Other Resources
 
--   [Registry Reflection article](https://msdn.microsoft.com/windows/desktop/eac9038b-9f59-4ac7-8974-f94a4a62a257)
--   [Redirected keys list within Registry Redirector article](https://msdn.microsoft.com/windows/desktop/b3989f79-0439-485a-96c1-4f2227d48653)
+-   [Registry Reflection article](https://msdn.microsoft.com/eac9038b-9f59-4ac7-8974-f94a4a62a257)
+-   [Redirected keys list within Registry Redirector article](https://msdn.microsoft.com/b3989f79-0439-485a-96c1-4f2227d48653)
 -   [Best Practices for Wow64](http://go.microsoft.com/fwlink/p/?linkid=205164)
 
 > [!Note]  

@@ -39,7 +39,7 @@ Pointer to the device. See [**IDirect3DDevice9**](/windows/desktop/api/d3d9helpe
 
 ## Return value
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The HLSL profile name.
 
@@ -114,7 +114,7 @@ A shader profile specifies the assembly shader version to use and the capabiliti
 
  
 
-For more information about the differences between shader versions, see [Pixel Shader Differences](https://msdn.microsoft.com/windows/desktop/11aefb26-eb82-486c-81ff-7c0cfbab1b7a).
+For more information about the differences between shader versions, see [Pixel Shader Differences](https://msdn.microsoft.com/VS|directx_sdk|~\dx9_graphics_reference_asm_ps_differences.htm).
 
 ## Requirements
 

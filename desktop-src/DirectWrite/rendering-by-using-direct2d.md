@@ -15,9 +15,9 @@ Direct2D provides methods for rendering either text with formatting described by
 
 ## Rendering Text Described by IDWriteTextFormat
 
-To render a string using an [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) object to describe the formatting for the entire string, use the [**ID2D1RenderTarget::DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) method provided by [Direct2D](https://www.bing.com/search?q=Direct2D).
+To render a string using an [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) object to describe the formatting for the entire string, use the [**ID2D1RenderTarget::DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) method provided by [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b).
 
-1.  Define the area for the text layout by retrieving the dimensions of the rendering area, and create a [Direct2D](https://www.bing.com/search?q=Direct2D) rectangle that has the same dimensions.
+1.  Define the area for the text layout by retrieving the dimensions of the rendering area, and create a [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) rectangle that has the same dimensions.
     ```C++
     D2D1_RECT_F layoutRect = D2D1::RectF(
         static_cast<FLOAT>(rc.left) / dpiScaleX_,
@@ -33,7 +33,7 @@ To render a string using an [**IDWriteTextFormat**](/windows/desktop/api/dwrite/
 2.  Use the [**ID2D1RenderTarget::DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) method and the [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) object to render text to the screen. The **ID2D1RenderTarget::DrawText** method takes the following parameters:
     -   A string to render.
     -   A pointer to an [**IDWriteTextFormat**](/windows/desktop/api/dwrite/) interface.
-    -   A [Direct2D](https://www.bing.com/search?q=Direct2D) layout rectangle.
+    -   A [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) layout rectangle.
     -   A pointer to an interface that exposes [**ID2D1Brush**](https://msdn.microsoft.com/library/windows/desktop/dd371173).
 
     ```C++
@@ -64,7 +64,7 @@ To draw the text with the text layout settings specified by the [**IDWriteTextLa
 
     
 
-2.  Draw the text to the screen by calling the [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) method of the [Direct2D](https://www.bing.com/search?q=Direct2D) render target and passing the [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) pointer.
+2.  Draw the text to the screen by calling the [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) method of the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) render target and passing the [**IDWriteTextLayout**](/windows/desktop/api/dwrite/) pointer.
     ```C++
     pRT_->DrawTextLayout(
         origin,

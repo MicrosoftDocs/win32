@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Receiving a WMI Event
 
-WMI contains an event infrastructure that produces notifications about changes in WMI data and services. WMI [*event classes*](https://www.bing.com/search?q=*event classes*) provide notification when specific events occur.
+WMI contains an event infrastructure that produces notifications about changes in WMI data and services. WMI [*event classes*](gloss-e.md#wmi-gloss-event-class) provide notification when specific events occur.
 
 The following sections are discussed in this topic:
 
@@ -30,7 +30,7 @@ The following sections are discussed in this topic:
 
 You can create a [semisynchronous](receiving-synchronous-and-semisynchronous-event-notifications.md) or [**asynchronous**](receiving-asynchronous-event-notifications.md) query to monitor changes to event logs, process creation, service status, computer availability or disk drive free space, and other entities or events. In scripting, the [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) method is used to subscribe to events. In C++, [**IWbemServices::ExecNotificationQuery**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery) is used. For more information, see [Calling a Method](calling-a-method.md).
 
-Notification of a change in the standard WMI data model is called an [*intrinsic event*](https://www.bing.com/search?q=*intrinsic event*). [**\_\_InstanceCreationEvent**](--instancecreationevent.md) or [**\_\_NamespaceDeletionEvent**](--namespacedeletionevent.md) are examples of intrinsic events. Notification of a change that a provider makes to define a provider event is called an [*extrinsic event*](https://www.bing.com/search?q=*extrinsic event*). For example, the [System Registry Provider](https://msdn.microsoft.com/library/aa393886), [Power Management Event Provider](https://msdn.microsoft.com/library/aa392747), and [Win32 Provider](https://msdn.microsoft.com/library/aa394388) define their own events. For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
+Notification of a change in the standard WMI data model is called an [*intrinsic event*](gloss-i.md#wmi-gloss-intrinsic-event). [**\_\_InstanceCreationEvent**](--instancecreationevent.md) or [**\_\_NamespaceDeletionEvent**](--namespacedeletionevent.md) are examples of intrinsic events. Notification of a change that a provider makes to define a provider event is called an [*extrinsic event*](gloss-e.md#wmi-gloss-extrinsic-event). For example, the [System Registry Provider](https://msdn.microsoft.com/library/aa393886), [Power Management Event Provider](https://msdn.microsoft.com/library/aa392747), and [Win32 Provider](https://msdn.microsoft.com/library/aa394388) define their own events. For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
 
 ## Example
 
@@ -128,11 +128,11 @@ You can monitor or consume events using the following consumers while a script o
 
 -   Temporary event consumers
 
-    A [*temporary consumer*](https://www.bing.com/search?q=*temporary consumer*) is a WMI client application that receives a WMI event. WMI includes a unique interface that use to specify the events for WMI to send to a client application. A temporary event consumer is considered temporary because it only works when specifically loaded by a user. For more information, see [Receiving Events for the Duration of Your Application](receiving-events-for-the-duration-of-your-application.md).
+    A [*temporary consumer*](gloss-t.md#wmi-gloss-temporary-consumer) is a WMI client application that receives a WMI event. WMI includes a unique interface that use to specify the events for WMI to send to a client application. A temporary event consumer is considered temporary because it only works when specifically loaded by a user. For more information, see [Receiving Events for the Duration of Your Application](receiving-events-for-the-duration-of-your-application.md).
 
 -   Permanent event consumers
 
-    A [*permanent consumer*](https://www.bing.com/search?q=*permanent consumer*) is a COM object that can receive a WMI event at all times. A permanent event consumer uses a set of persistent objects and filters to capture a WMI event. Like a temporary event consumer, you set up a series of WMI objects and filters that capture a WMI event. When an event occurs that matches a filter, WMI loads the permanent event consumer and notifies it about the event. Because a permanent consumer is implemented in the WMI repository and is an executable file that is registered in WMI, the permanent event consumer operates and receives events after it is created and even after a reboot of the operating system as long as WMI is running. For more information, see [Receiving Events at All Times](receiving-events-at-all-times.md).
+    A [*permanent consumer*](gloss-p.md#wmi-gloss-permanent-consumer) is a COM object that can receive a WMI event at all times. A permanent event consumer uses a set of persistent objects and filters to capture a WMI event. Like a temporary event consumer, you set up a series of WMI objects and filters that capture a WMI event. When an event occurs that matches a filter, WMI loads the permanent event consumer and notifies it about the event. Because a permanent consumer is implemented in the WMI repository and is an executable file that is registered in WMI, the permanent event consumer operates and receives events after it is created and even after a reboot of the operating system as long as WMI is running. For more information, see [Receiving Events at All Times](receiving-events-at-all-times.md).
 
 Scripts or applications that receive events have special security considerations. For more information, see [Securing WMI Events](securing-wmi-events.md).
 

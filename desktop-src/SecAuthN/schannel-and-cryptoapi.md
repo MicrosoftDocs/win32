@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Schannel and CryptoAPI
 
-Schannel uses [CryptoAPI](https://msdn.microsoft.com/windows/desktop/8ba85b5e-c80a-4781-a021-ac911b4fc7ca) for cryptographic operations such as storing [*public/private keys*](https://www.bing.com/search?q=*public/private keys*).
+Schannel uses [CryptoAPI](https://msdn.microsoft.com/8ba85b5e-c80a-4781-a021-ac911b4fc7ca) for cryptographic operations such as storing [*public/private keys*](security.p_gly#-security-public-private-key-pair-gly).
 
 The following topics provide detailed information about how Schannel makes use of CryptoAPI.
 
@@ -20,7 +20,7 @@ The following topics provide detailed information about how Schannel makes use o
 | Topic                                                                   | Description                                                                                                          |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [Certificate Stores](certificate-stores.md)<br/>                 | Both client and server certificates must be stored in a certificate store.<br/>                                |
-| [CryptoAPI 2.0 Private Keys](cryptoapi-2-0-private-keys.md)<br/> | Schannel credentials are represented internally as [**CERT\_CONTEXT**](https://msdn.microsoft.com/windows/desktop/f0a3200e-6541-423d-a4a3-595a31026eea) structures.<br/> |
+| [CryptoAPI 2.0 Private Keys](cryptoapi-2-0-private-keys.md)<br/> | Schannel credentials are represented internally as [**CERT\_CONTEXT**](https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea) structures.<br/> |
 
 
 

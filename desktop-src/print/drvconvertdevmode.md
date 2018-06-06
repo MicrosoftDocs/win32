@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # DrvConvertDevMode function
 
-A printer interface DLL's **DrvConvertDevMode** function converts a printer's [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure from one version to another.
+A printer interface DLL's **DrvConvertDevMode** function converts a printer's [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure from one version to another.
 
 ## Syntax
 

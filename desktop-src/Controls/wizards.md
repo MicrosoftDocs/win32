@@ -324,11 +324,11 @@ If you are writing a wizard for systems with earlier versions of the common cont
 -   Create the interior page's header area explicitly on your templates.
 -   Do not use a header graphic because it may conflict with the title or subtitle if the wizard changes size.
 
-For further discussion of backward-compatible wizards, see [Backward Compatible Wizard 97](https://www.bing.com/search?q=Backward Compatible Wizard 97).
+For further discussion of backward-compatible wizards, see [Backward Compatible Wizard 97](https://www.bing.com/search?q=Backward+Compatible+Wizard+97).
 
 ## Remarks
 
-For a complete discussion of design issues for Wizard97, see the [Wizard97 Specification](https://www.bing.com/search?q=Wizard97 Specification), elsewhere in the Windows SDK. This document has guidelines for such things as the dimensions for the dialog boxes, bitmap dimensions and colors, and the placement of controls.
+For a complete discussion of design issues for Wizard97, see the [Wizard97 Specification](https://www.bing.com/search?q=Wizard97+Specification), elsewhere in the Windows SDK. This document has guidelines for such things as the dimensions for the dialog boxes, bitmap dimensions and colors, and the placement of controls.
 
 ## Related topics
 

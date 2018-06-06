@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # HashedData.Value property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](https://www.bing.com/search?q=**HashAlgorithm Class**) in the [**System.Security.Cryptography**](https://www.bing.com/search?q=**System.Security.Cryptography**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](https://www.bing.com/search?q=**HashAlgorithm+Class**) in the [**System.Security.Cryptography**](https://www.bing.com/search?q=**System.Security.Cryptography**) namespace.\]
 
 The **Value** property retrieves the hashed data after successful calls to the [**Hash**](hasheddata-hash.md) method. The hash value is returned in hexadecimal format. This is the default property.
 

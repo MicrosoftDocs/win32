@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Installation and Configuration for Windows Remote Management
 
-If Windows Remote Management (WinRM) is not installed and configured, WinRM scripts do not run and the **Winrm** command-line tool cannot perform data operations. The [*Windows Remote Shell*](https://www.bing.com/search?q=*Windows Remote Shell*) command-line tool, Winrs, [*event forwarding*](https://www.bing.com/search?q=*event forwarding*), and Windows PowerShell 2.0 remoting also depend on WinRM configuration.
+If Windows Remote Management (WinRM) is not installed and configured, WinRM scripts do not run and the **Winrm** command-line tool cannot perform data operations. The [*Windows Remote Shell*](windows-remote-management-glossary.md#winrm-gloss-windows-remote-shell) command-line tool, Winrs, [*event forwarding*](windows-remote-management-glossary.md#winrm-gloss-event-forwarding), and Windows PowerShell 2.0 remoting also depend on WinRM configuration.
 
 ## Installing WinRM
 
@@ -23,10 +23,10 @@ WinRM is automatically installed with all currently-supported versions of the Wi
 
 ## Configuration of WinRM and IPMI
 
-The following WinRM and [*Intelligent Platform Management Interface (IPMI)*](https://www.bing.com/search?q=*Intelligent Platform Management Interface (IPMI)*) [WMI provider](https://msdn.microsoft.com/library/aa391402) components are installed with the operating system:
+The following WinRM and [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md#winrm-gloss-intelligent-platform-management-interface) [WMI provider](https://msdn.microsoft.com/library/aa391402) components are installed with the operating system:
 
 -   The WinRM service starts automatically on Windows Server 2008. On Windows Vista, the service must be started manually.
--   By default, no WinRM [*listener*](https://www.bing.com/search?q=*listener*) is configured. Even if the WinRM service is running, WS-Management protocol [*messages*](https://www.bing.com/search?q=*messages*) that request data cannot be received or sent.
+-   By default, no WinRM [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener) is configured. Even if the WinRM service is running, WS-Management protocol [*messages*](windows-remote-management-glossary.md#winrm-gloss-message) that request data cannot be received or sent.
 -   Internet Connection Firewall (ICF) blocks access to ports.
 
 Use the **Winrm** command to locate listeners and the addresses by typing the following command at a command prompt: **winrm e winrm/config/listener**. To check the state of configuration settings, type **winrm get winrm/config**.
@@ -38,7 +38,7 @@ You can enable the WS-Management protocol on the local computer and set up the d
 The **winrm quickconfig** command (or the abbreviated version **winrm qc**) performs the following operations:
 
 -   Starts the WinRM service, and sets the service startup type to auto-start.
--   Configures a listener for the ports that send and receive WS-Management protocol [*messages*](https://www.bing.com/search?q=*messages*) using either HTTP or HTTPS on any IP address.
+-   Configures a listener for the ports that send and receive WS-Management protocol [*messages*](windows-remote-management-glossary.md#winrm-gloss-message) using either HTTP or HTTPS on any IP address.
 -   Defines ICF exceptions for the WinRM service, and opens the ports for HTTP and HTTPS.
 
 **Note**  The **winrm quickconfig** command creates a firewall exception only for the current user profile. If the firewall profile is changed for any reason, **winrm quickconfig** should be run to enable the firewall exception for the new profile; otherwise, the exception might not be enabled.
@@ -499,7 +499,7 @@ If two listener services with different IP addresses are configured with the sam
 
 The driver might not detect the existence of IPMI drivers that are not from Microsoft. If the driver fails to start, you might need to disable it.
 
-If the [*baseboard management controller (BMC)*](https://www.bing.com/search?q=*baseboard management controller (BMC)*) resources appear in the system BIOS, ACPI (Plug and Play) detects the BMC hardware and automatically installs the IPMI driver. Plug and Play support might not be present in all BMCs. If the BMC is detected by Plug and Play, an Unknown Device appears in Device Manager before the Hardware Management component is installed. When the driver is installed, a new component, the Microsoft ACPI Generic IPMI Compliant Device, appears in Device Manager.
+If the [*baseboard management controller (BMC)*](windows-remote-management-glossary.md#winrm-gloss-baseboard-management-controller) resources appear in the system BIOS, ACPI (Plug and Play) detects the BMC hardware and automatically installs the IPMI driver. Plug and Play support might not be present in all BMCs. If the BMC is detected by Plug and Play, an Unknown Device appears in Device Manager before the Hardware Management component is installed. When the driver is installed, a new component, the Microsoft ACPI Generic IPMI Compliant Device, appears in Device Manager.
 
 If your system does not automatically detect the BMC and install the driver, but a BMC was detected during the setup process, the BMC device must be manually created. To do this, type the following command at a command prompt: **Rundll32 ipmisetp.dll, AddTheDevice**. After this command is executed, the IPMI device is created and appears in Device Manager. If you uninstall the Hardware Management component, the device is removed.
 
@@ -509,15 +509,15 @@ The IPMI provider places the hardware classes in the **root\\hardware** [*namesp
 
 ## WMI Plug-in Configuration Notes
 
-Beginning with Windows 8 and Windows Server 2012, [*WMI plug-ins*](https://www.bing.com/search?q=*WMI plug-ins*) have their own security configurations. For a normal or power (non-administrator) user to be able to use the *WMI plug-in*, you need to enable access for that user after the [*listener*](https://www.bing.com/search?q=*listener*) has been configured. First, you must set up the user for remote access to [*WMI*](https://www.bing.com/search?q=*WMI*) through one of these steps:
+Beginning with Windows 8 and Windows Server 2012, [*WMI plug-ins*](windows-remote-management-glossary.md#winrm-gloss-wmi-plug-in) have their own security configurations. For a normal or power (non-administrator) user to be able to use the *WMI plug-in*, you need to enable access for that user after the [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener) has been configured. First, you must set up the user for remote access to [*WMI*](windows-remote-management-glossary.md#winrm-gloss-wmi) through one of these steps:
 
 -   run **lusrmgr.msc** to add the user to the **WinRMRemoteWMIUsers\_\_** group in the **Local Users and Groups** window, or
 
--   use the **winrm** command-line tool to configure the security descriptor for the [*namespace*](https://www.bing.com/search?q=*namespace*) of the [*WMI plug-in*](https://www.bing.com/search?q=*WMI plug-in*), as follows: **winrm configSDDL http://schemas.microsoft.com/wbem/wsman/1/wmi/***WmiNamespace*.
+-   use the **winrm** command-line tool to configure the security descriptor for the [*namespace*](windows-remote-management-glossary.md#winrm-gloss-namespace) of the [*WMI plug-in*](windows-remote-management-glossary.md#winrm-gloss-wmi-plug-in), as follows: **winrm configSDDL http://schemas.microsoft.com/wbem/wsman/1/wmi/***WmiNamespace*.
 
     When the user interface appears, add the user.
 
-After setting up the user for remote access to [*WMI*](https://www.bing.com/search?q=*WMI*), you must set up *WMI* to allow the user to access the plug-in. To do this, run **wmimgmt.msc** to modify the *WMI* security for the [*namespace*](https://www.bing.com/search?q=*namespace*) to be accessed in the **WMI Control** window.
+After setting up the user for remote access to [*WMI*](windows-remote-management-glossary.md#winrm-gloss-wmi), you must set up *WMI* to allow the user to access the plug-in. To do this, run **wmimgmt.msc** to modify the *WMI* security for the [*namespace*](windows-remote-management-glossary.md#winrm-gloss-namespace) to be accessed in the **WMI Control** window.
 
 The majority of the WMI classes for management are in the **root\\cimv2** namespace.
 

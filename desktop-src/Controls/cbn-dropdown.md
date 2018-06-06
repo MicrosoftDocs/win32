@@ -53,7 +53,7 @@ Handle to the combo box.
 
 ## Remarks
 
-This notification code is only sent if the combo box has the [**CBS\_DROPDOWN**](https://www.bing.com/search?q=**CBS\_DROPDOWN**) or [**CBS\_DROPDOWNLIST**](https://www.bing.com/search?q=**CBS\_DROPDOWNLIST**) style.
+This notification code is only sent if the combo box has the [**CBS\_DROPDOWN**](combo-box-styles.md#cbs-dropdown) or [**CBS\_DROPDOWNLIST**](combo-box-styles.md#cbs-dropdownlist) style.
 
 ## Requirements
 

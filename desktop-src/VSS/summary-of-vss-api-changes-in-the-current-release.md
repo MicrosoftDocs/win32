@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 <span id="Events_added_"></span><span id="events_added_"></span><span id="EVENTS_ADDED_"></span>Events added:
 </dt> <dd>
 
-[*BackupShutdown*](https://www.bing.com/search?q=*BackupShutdown*)
+[*BackupShutdown*](vssgloss-b.md#base-vssgloss-backupshutdown-event)
 
 </dd> </dl>
 
@@ -29,9 +29,9 @@ ms.date: 05/31/2018
 <span id="Additional_functionality_"></span><span id="additional_functionality_"></span><span id="ADDITIONAL_FUNCTIONALITY_"></span>Additional functionality:
 </dt> <dd>
 
-[*partial file support*](https://www.bing.com/search?q=*partial file support*)
+[*partial file support*](vssgloss-p.md#base-vssgloss-partial-file-support)
 
-[*directed targeting*](https://www.bing.com/search?q=*directed targeting*)
+[*directed targeting*](vssgloss-d.md#base-vssgloss-directed-targeting)
 
 </dd> </dl>
 

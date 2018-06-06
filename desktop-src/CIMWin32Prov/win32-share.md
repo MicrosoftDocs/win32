@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_Share class
 
-The **Win32\_Share** class represents a shared resource on a computer system running Windows. This may be a disk drive, printer, interprocess communication, or other sharable device. For more information about retrieving WMI classes, see [Retrieving a Class](https://msdn.microsoft.com/windows/desktop/cfe4bcca-692e-45cd-a840-93ebfe4ae267).
+The **Win32\_Share** class represents a shared resource on a computer system running Windows. This may be a disk drive, printer, interprocess communication, or other sharable device. For more information about retrieving WMI classes, see [Retrieving a Class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267).
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -79,7 +79,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/windows/desktop/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
 </dt> </dl>
 
 This property is obsolete and is no longer used. Use the [**Win32\_Share.GetAccessMask**](getaccessmask-method-in-class-win32-share.md) method instead. The value of the **AccessMask** property is set to **null** by WMI. For more information about setting access when a share is created, see the [**Create**](create-method-in-class-win32-share.md) method.
@@ -95,7 +95,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://msdn.microsoft.com/windows/desktop/306e6704-2068-42da-bcc4-c0772c719ee8)\|shi502\_max\_uses")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://msdn.microsoft.com/306e6704-2068-42da-bcc4-c0772c719ee8)\|shi502\_max\_uses")
 </dt> </dl>
 
 Number of concurrent users for this resource has been limited. If **True**, the value in the **MaximumAllowed** property is ignored.
@@ -111,7 +111,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64), [**DisplayName**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Caption")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Caption")
 </dt> </dl>
 
 A short textual description of the object.
@@ -129,7 +129,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Description")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Description")
 </dt> </dl>
 
 A textual description of the object.
@@ -147,7 +147,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Install Date")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Install Date")
 </dt> </dl>
 
 Indicates when the object was installed. Lack of a value does not indicate that the object is not installed.
@@ -165,7 +165,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://msdn.microsoft.com/windows/desktop/306e6704-2068-42da-bcc4-c0772c719ee8)\|shi502\_max\_uses")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://msdn.microsoft.com/306e6704-2068-42da-bcc4-c0772c719ee8)\|shi502\_max\_uses")
 </dt> </dl>
 
 Limit on the maximum number of users allowed to use this resource concurrently. The value is only valid if the **AllowMaximum** property is set to **FALSE**.
@@ -181,7 +181,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/windows/desktop/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**Override**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Name"), [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_1**](https://msdn.microsoft.com/windows/desktop/9bc69340-4ea5-4180-ae5c-667c0a245b66)\|shi1\_netname")
+Qualifiers: [**key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Name"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_1**](https://msdn.microsoft.com/9bc69340-4ea5-4180-ae5c-667c0a245b66)\|shi1\_netname")
 </dt> </dl>
 
 Alias given to a path set up as a share on a computer system running Windows.
@@ -199,7 +199,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://msdn.microsoft.com/windows/desktop/306e6704-2068-42da-bcc4-c0772c719ee8)\|shi502\_path")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://msdn.microsoft.com/306e6704-2068-42da-bcc4-c0772c719ee8)\|shi502\_path")
 </dt> </dl>
 
 Local path of the Windows share.
@@ -217,7 +217,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) (10), [**DisplayName**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Status")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (10), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Status")
 </dt> </dl>
 
 String that indicates the current status of the object. Operational and non-operational status can be defined. Operational status can include "OK", "Degraded", and "Pred Fail". "Pred Fail" indicates that an element is functioning properly, but is predicting a failure (for example, a SMART-enabled hard disk drive).
@@ -325,7 +325,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://msdn.microsoft.com/windows/desktop/306e6704-2068-42da-bcc4-c0772c719ee8)\|shi502\_type")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://msdn.microsoft.com/306e6704-2068-42da-bcc4-c0772c719ee8)\|shi502\_type")
 </dt> </dl>
 
 Type of resource being shared. Types include: disk drives, print queues, interprocess communications (IPC), and general devices.
@@ -462,10 +462,10 @@ Next
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> <dt>
 
-[Operating System Classes](https://www.bing.com/search?q=Operating System Classes)
+[Operating System Classes](https://www.bing.com/search?q=Operating+System+Classes)
 </dt> <dt>
 
-[WMI Tasks: Files and Folders](https://msdn.microsoft.com/windows/desktop/91281fe1-0461-48da-ac5c-cab7e8e1b285)
+[WMI Tasks: Files and Folders](https://msdn.microsoft.com/91281fe1-0461-48da-ac5c-cab7e8e1b285)
 </dt> </dl>
 
  

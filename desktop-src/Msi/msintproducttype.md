@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The installer sets the **MsiNTProductType** property for Windows NT, Windows 2000, and later operating systems. This property indicates the Windows product type.
 
-For Windows 2000 and later operating systems, the installer sets the following values. Note that values are the same as of the **wProductType** field of the [**OSVERSIONINFOEX**](https://msdn.microsoft.com/windows/desktop/4ab07a72-404d-459b-b061-b3b06b5db37e) structure.
+For Windows 2000 and later operating systems, the installer sets the following values. Note that values are the same as of the **wProductType** field of the [**OSVERSIONINFOEX**](https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e) structure.
 
 
 

@@ -32,8 +32,8 @@ The size grip supports the following [**IAccessible**](/windows/desktop/api/olea
 | [**get\_accDescription**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accdescription) | The **Description** property is "Can be used to resize a window's width and height".                                                                                   |
 | [**get\_accName**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accname)               | The **Name** property is "Size box".                                                                                                                                   |
 | [**get\_accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent)           | The window that contains the size grip.                                                                                                                                |
-| [**get\_accRole**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole)               | The **Role** property is [**ROLE\_SYSTEM\_GRIP**](https://www.bing.com/search?q=**ROLE\_SYSTEM\_GRIP**).                                                                                  |
-| [**get\_accState**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate)             | The value for the **State** property is zero, which means the object is visible, or [**STATE\_SYSTEM\_INVISIBLE**](https://www.bing.com/search?q=**STATE\_SYSTEM\_INVISIBLE**). |
+| [**get\_accRole**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole)               | The **Role** property is [**ROLE\_SYSTEM\_GRIP**](object-roles.md#role-system-grip).                                                                                  |
+| [**get\_accState**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate)             | The value for the **State** property is zero, which means the object is visible, or [**STATE\_SYSTEM\_INVISIBLE**](object-state-constants.md#state-system-invisible). |
 
 
 

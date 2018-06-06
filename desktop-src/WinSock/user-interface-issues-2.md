@@ -56,7 +56,7 @@ There are other considerations as well, and developers should carefully consider
 Best Practices
 
 -   Developers must consider the appropriate approach to each user interface when modifying their application to support IPv6. Ensuring that the user interface contains sufficient length to display IPv6 addresses is imperative, as is determining whether that address is number or name based.
--   Whenever possible, use existing Winsock and IP Helper functions when using IPv6 addresses rather than re-implementing this logic. For example, the [**RtlIpv6AddressToString**](https://msdn.microsoft.com/windows/desktop/a891adb0-6c2d-4b69-a0de-4a615be938e3), [**RtlIpv6AddressToStringEx**](https://msdn.microsoft.com/windows/desktop/a7de2da3-21ea-42fa-9474-f33252838632), [**RtlIpv6StringToAddress**](https://msdn.microsoft.com/windows/desktop/3cd3bfcf-e9b2-4ee6-8e93-a31a70fc3ad3), and [**RtlIpv6StringToAddressEx**](https://msdn.microsoft.com/windows/desktop/3a95c405-3f2c-4bd5-805e-3e879c4c20e2) functions can be used to convert between IPv6 addresses and string representations of these IPv6 addresses.
+-   Whenever possible, use existing Winsock and IP Helper functions when using IPv6 addresses rather than re-implementing this logic. For example, the [**RtlIpv6AddressToString**](https://msdn.microsoft.com/a891adb0-6c2d-4b69-a0de-4a615be938e3), [**RtlIpv6AddressToStringEx**](https://msdn.microsoft.com/a7de2da3-21ea-42fa-9474-f33252838632), [**RtlIpv6StringToAddress**](https://msdn.microsoft.com/3cd3bfcf-e9b2-4ee6-8e93-a31a70fc3ad3), and [**RtlIpv6StringToAddressEx**](https://msdn.microsoft.com/3a95c405-3f2c-4bd5-805e-3e879c4c20e2) functions can be used to convert between IPv6 addresses and string representations of these IPv6 addresses.
 
 Code To Avoid
 

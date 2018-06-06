@@ -110,7 +110,7 @@ Is used by the DirectDraw  API and should not be filled in by the driver.
 
 ## Remarks
 
-It is recommended that your application call [IDirectDraw7::CreateSurface](https://msdn.microsoft.com/windows/desktop/4f27e36f-d04f-43ce-9a3d-64c352c8f8d8) instead of using this function.
+It is recommended that your application call [IDirectDraw7::CreateSurface](https://msdn.microsoft.com/4f27e36f-d04f-43ce-9a3d-64c352c8f8d8) instead of using this function.
 
 When creating a chain of attached surfaces, such as a swap chain or chain or mipmaps, [**NtGdiDdCreateSurfaceObject**](-dxgkernel-ntgdiddcreatesurfaceobject.md) should be called for each surface first. Then call [**NtGdiDdAttachSurface**](-dxgkernel-ntgdiddattachsurface.md) to attach them. Finally, call **NtGdiDdCreateSurface** for the first surface in the chain only. In this case, *hSurface* would be the handle returned by **NtGdiDdCreateSurfaceObject** for the first surface in the chain.
 

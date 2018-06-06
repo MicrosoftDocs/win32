@@ -47,7 +47,7 @@ A. Microsoft Windows applications that run on a Windows XP desktop or laptop com
 
 ## Q. I understand that I don't need to make any changes to my application, but it is difficult to use it with a pen and speech. What can I do to optimize my application for a Tablet PC?
 
-A. The API and ink controls of the Tablet PC platform components can be used to create user interfaces that are better suited to pen and handwriting input. For more information about specific ways you can improve your application, see [Mobile PC User Experience Guidelines for Developers](https://www.bing.com/search?q=Mobile PC User Experience Guidelines for Developers).
+A. The API and ink controls of the Tablet PC platform components can be used to create user interfaces that are better suited to pen and handwriting input. For more information about specific ways you can improve your application, see [Mobile PC User Experience Guidelines for Developers](https://www.bing.com/search?q=Mobile+PC+User+Experience+Guidelines+for+Developers).
 
 ## Q. What programming languages does the Tablet support?
 
@@ -71,7 +71,7 @@ A. In general, you should design for a Windows Vista-compliant, legacy-free syst
 
 ## Q. What user interface guidelines can you provide for Tablet applications?
 
-A. Issues from drop-down menu orientation to screen/digitizer parallax are described in the [Mobile PC User Experience Guidelines for Developers](https://www.bing.com/search?q=Mobile PC User Experience Guidelines for Developers) in the Mobile PC section of the Windows SDK.
+A. Issues from drop-down menu orientation to screen/digitizer parallax are described in the [Mobile PC User Experience Guidelines for Developers](https://www.bing.com/search?q=Mobile+PC+User+Experience+Guidelines+for+Developers) in the Mobile PC section of the Windows SDK.
 
 ## Q. Do you include system-level handwriting gestures for commonly used keystrokes? Can I create my own gestures for use when an application is running or has focus?
 

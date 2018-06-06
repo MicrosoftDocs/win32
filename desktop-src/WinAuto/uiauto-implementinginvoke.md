@@ -38,7 +38,7 @@ When implementing the **Invoke** control pattern, note the following guidelines 
 
 -   Controls implement [**IInvokeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iinvokeprovider) if the same behavior is not exposed through another control pattern provider. For example, if the [**IUIAutomationInvokePattern::Invoke**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationinvokepattern-invoke) method on a control performs the same action as the [**IUIAutomationExpandCollapsePattern::Expand**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationexpandcollapsepattern-expand) or [**Collapse**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationexpandcollapsepattern-collapse) method, the control should not implement **IInvokeProvider**.
 -   Invoking a control is generally performed by clicking or double-clicking or pressing ENTER, a predefined keyboard shortcut, or some alternate combination of keystrokes.
--   The **Invoked** event ([**UIA\_Invoke\_InvokedEventId**](https://www.bing.com/search?q=**UIA\_Invoke\_InvokedEventId**)) event is raised on a control that has been activated (as a response to a control carrying out its associated action). If possible, the event should be raised after the control has completed the action and returned without blocking. The **Invoked** event (**UIA\_Invoke\_InvokedEventId**) should be raised before servicing the **Invoke** request in the following scenarios:
+-   The **Invoked** event ([**UIA\_Invoke\_InvokedEventId**](uiauto-event-ids.md#uia-invoke-invokedeventid)) event is raised on a control that has been activated (as a response to a control carrying out its associated action). If possible, the event should be raised after the control has completed the action and returned without blocking. The **Invoked** event (**UIA\_Invoke\_InvokedEventId**) should be raised before servicing the **Invoke** request in the following scenarios:
     -   It is not possible or practical to wait until the action is complete.
     -   The action requires user interaction.
     -   The action is time-consuming and will cause the calling client to block for a significant amount of time.
@@ -82,7 +82,7 @@ This control pattern has no associated properties or events.
 [UI Automation Tree Overview](uiauto-treeoverview.md)
 </dt> <dt>
 
-[**UIA\_Invoke\_InvokedEventId**](https://www.bing.com/search?q=**UIA\_Invoke\_InvokedEventId**)
+[**UIA\_Invoke\_InvokedEventId**](uiauto-event-ids.md#uia-invoke-invokedeventid)
 </dt> </dl>
 
  

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CostFinalize Action
 
-The CostFinalize action ends the internal installation [*costing*](https://www.bing.com/search?q=*costing*) process begun by the [CostInitialize](costinitialize-action.md) action.
+The CostFinalize action ends the internal installation [*costing*](c-gly.md#-msi-costing-gly) process begun by the [CostInitialize](costinitialize-action.md) action.
 
 ## Sequence Restrictions
 

@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_ProcessStartup class
 
-The **Win32\_ProcessStartup** abstract [WMI class](https://msdn.microsoft.com/windows/desktop/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents the startup configuration of a Windows-based process. The class is defined as a method type definition, which means that it is only used for passing information to the [**Create**](create-method-in-class-win32-process.md) method of the [**Win32\_Process**](win32-process.md) class.
+The **Win32\_ProcessStartup** abstract [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents the startup configuration of a Windows-based process. The class is defined as a method type definition, which means that it is only used for passing information to the [**Create**](create-method-in-class-win32-process.md) method of the [**Win32\_Process**](win32-process.md) class.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties.
 
@@ -65,7 +65,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Functions\|[**CreateProcess**](https://msdn.microsoft.com/windows/desktop/3ef0a5b2-4d71-4c17-8188-76a4025287fc)\|dwCreationFlags")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Functions\|[**CreateProcess**](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc)\|dwCreationFlags")
 </dt> </dl>
 
 Additional values that control the priority class and the creation of the process. The following creation values can be specified in any combination, except as noted.
@@ -101,7 +101,7 @@ If this flag is not set and the calling process is being debugged, the new proce
 
 </dt> <dd>
 
-The primary thread of the new process is created in a suspended state and does not run until the [**ResumeThread**](https://msdn.microsoft.com/windows/desktop/ffc4e474-635b-4bf7-a68f-073899fb3fde) method is called.
+The primary thread of the new process is created in a suspended state and does not run until the [**ResumeThread**](https://msdn.microsoft.com/ffc4e474-635b-4bf7-a68f-073899fb3fde) method is called.
 
 </dd> <dt>
 
@@ -182,7 +182,7 @@ Data type: **string** array
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|HKEY\_CURRENT\_USER\\\\Environment")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|HKEY\_CURRENT\_USER\\\\Environment")
 </dt> </dl>
 
 List of settings for the configuration of a computer. Environment variables specify search paths for files, directories for temporary files, application-specific options, and other similar information. The system maintains a block of environment settings for each user and one for the computer. The system environment block represents environment variables for all of the users of a specific computer. A user's environment block represents the environment variables that the system maintains for a specific user, and includes the set of system environment variables. By default, each process receives a copy of the environment block for its parent process. Typically, this is the environment block for the user who is logged on. A process can specify different environment blocks for its child processes.
@@ -198,14 +198,14 @@ Data type: **uint16**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Error Functions\|SetErrorMode")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Error Functions\|SetErrorMode")
 </dt> </dl>
 
-On some non-x86 processors, misaligned memory references cause an alignment fault exception. The **No\_Alignment\_Fault\_Except** flag lets you control whether or not an operating system automatically fixes such alignment faults, or makes them visible to an application. On a millions of instructions per second (MIPS) platform, an application must explicitly call [**SetErrorMode**](https://msdn.microsoft.com/windows/desktop/b88f5577-9124-433c-a7e8-a7f713b7b27d) with the **No\_Alignment\_Fault\_Except** flag to have the operating system automatically fix alignment faults.
+On some non-x86 processors, misaligned memory references cause an alignment fault exception. The **No\_Alignment\_Fault\_Except** flag lets you control whether or not an operating system automatically fixes such alignment faults, or makes them visible to an application. On a millions of instructions per second (MIPS) platform, an application must explicitly call [**SetErrorMode**](https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d) with the **No\_Alignment\_Fault\_Except** flag to have the operating system automatically fix alignment faults.
 
 How an operating system processes several types of serious errors. You can specify that the operating system process errors, or an application can receive and process errors.
 
-The default setting is for the operating system to make alignment faults visible to an application. Because the x86 platform does not make alignment faults visible to an application, the **No\_Alignment\_Fault\_Except** flag does not make the operating system raise an alignment fault error—even if the flag is not set. The default state for [**SetErrorMode**](https://msdn.microsoft.com/windows/desktop/b88f5577-9124-433c-a7e8-a7f713b7b27d) is to set all of the flags to 0 (zero).
+The default setting is for the operating system to make alignment faults visible to an application. Because the x86 platform does not make alignment faults visible to an application, the **No\_Alignment\_Fault\_Except** flag does not make the operating system raise an alignment fault error—even if the flag is not set. The default state for [**SetErrorMode**](https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d) is to set all of the flags to 0 (zero).
 
 <dt>
 
@@ -275,7 +275,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/windows/desktop/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|dwFillAttribute")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|dwFillAttribute")
 </dt> </dl>
 
 The text and background colors if a new console window is created in a console application. These values are ignored in graphical user interface (GUI) applications. To specify both foreground and background colors, add the values together. For example, to have red type (4) on a blue background (16), set the FillAttribute to 20.
@@ -349,7 +349,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**JOBOBJECT\_BASIC\_LIMIT\_INFORMATION**](https://msdn.microsoft.com/windows/desktop/83b940a7-05a0-4f5e-bfe3-3f2ac17e2d67)\|PriorityClass")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**JOBOBJECT\_BASIC\_LIMIT\_INFORMATION**](https://msdn.microsoft.com/83b940a7-05a0-4f5e-bfe3-3f2ac17e2d67)\|PriorityClass")
 </dt> </dl>
 
 Priority class of the new process. Use this property to determine the schedule priorities of the threads in the process. If the property is left null, the priority class defaults to Normal—unless the priority class of the creating process is Idle or Below\_Normal. In these cases, the child process receives the default priority class of the calling process.
@@ -433,7 +433,7 @@ Data type: **uint16**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/windows/desktop/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|wShowWindow")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|wShowWindow")
 </dt> </dl>
 
 How the window is displayed to the user.
@@ -557,7 +557,7 @@ Activates and displays the window. If the window is minimized or maximized, the 
 
 </dt> <dd>
 
-Sets the show state based on the **SW\_\*** value that is specified in the [**STARTUPINFO**](https://msdn.microsoft.com/windows/desktop/cf4b795c-52c1-4573-8328-99ee13f68bb3) structure passed to the [**CreateProcess**](https://msdn.microsoft.com/windows/desktop/3ef0a5b2-4d71-4c17-8188-76a4025287fc) function by the program that starts the application.
+Sets the show state based on the **SW\_\*** value that is specified in the [**STARTUPINFO**](https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3) structure passed to the [**CreateProcess**](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc) function by the program that starts the application.
 
 </dd> <dt>
 
@@ -583,7 +583,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/windows/desktop/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|lpTitle")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|lpTitle")
 </dt> </dl>
 
 Text displayed in the title bar when a new console window is created; used for console processes. If **NULL**, the name of the executable file is used as the window title. This property must be **NULL** for GUI or console processes that do not create a new console window.
@@ -599,7 +599,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/windows/desktop/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|lpDesktop")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|lpDesktop")
 </dt> </dl>
 
 The name of the desktop or the name of both the desktop and window station for the process. A backslash in the string indicates that the string includes both desktop and window station names. If **WinstationDesktop** is **NULL**, the new process inherits the desktop and window station of its parent process. If **WinstationDesktop** is an empty string, the process does not inherit the desktop and window station of its parent process. The system determines if a new desktop and window station must be created. A window station is a secure object that contains a clipboard, a set of global atoms, and a group of desktop objects. The interactive window station that is assigned to the logon session of the interactive user also contains the keyboard, mouse, and display device. A desktop is a secure object contained within a window station. A desktop has a logical display surface and contains windows, menus, and hooks. A window station can have multiple desktops. Only the desktops of the interactive window station can be visible and receive user input.
@@ -615,7 +615,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/windows/desktop/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|dwX")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|dwX")
 </dt> </dl>
 
 The X offset of the upper left corner of a window if a new window is created—in pixels. The offsets are from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls [**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**) to create an overlapped window if the *X* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
@@ -636,7 +636,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/windows/desktop/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|XCountChars")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|XCountChars")
 </dt> </dl>
 
 Screen buffer width in character columns. This property is used for processes that create a console window, and is ignored in GUI processes.
@@ -657,7 +657,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/windows/desktop/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|dwXSize")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|dwXSize")
 </dt> </dl>
 
 Pixel width of a window if a new window is created. For GUI processes, this is only used the first time the new process calls [**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**) to create an overlapped window if the nWidth parameter of **CreateWindow** is **CW\_USEDEFAULT**.
@@ -678,7 +678,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/windows/desktop/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|dwY")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|dwY")
 </dt> </dl>
 
 Pixel offset of the upper-left corner of a window if a new window is created. The offsets are from the upper-left corner of the screen. For GUI processes, the specified position is used the first time the new process calls [**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**) to create an overlapped window if the *y* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
@@ -699,7 +699,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/windows/desktop/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|YCountChars")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|YCountChars")
 </dt> </dl>
 
 Screen buffer height in character rows. This property is used for processes that create a console window, but is ignored in GUI processes.
@@ -720,7 +720,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/windows/desktop/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|dwYSize")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Process and Thread Structures\|[**STARTUPINFO**](https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3)\|dwYSize")
 </dt> </dl>
 
 Pixel height of a window if a new window is created. For GUI processes, this is used only the first time the new process calls [**CreateWindow**](https://www.bing.com/search?q=**CreateWindow**) to create an overlapped window if the *nWidth* parameter of **CreateWindow** is **CW\_USEDEFAULT**.
@@ -838,16 +838,16 @@ End If
 [**Win32\_MethodParameterClass**](win32-methodparameterclass.md)
 </dt> <dt>
 
-[Operating System Classes](https://www.bing.com/search?q=Operating System Classes)
+[Operating System Classes](https://www.bing.com/search?q=Operating+System+Classes)
 </dt> <dt>
 
 [**Win32\_Process**](win32-process.md)
 </dt> <dt>
 
-[**\_\_ProviderHostQuotaConfiguration**](https://msdn.microsoft.com/windows/desktop/5f5ed1c6-bd1a-406d-a682-7a52059d9450)
+[**\_\_ProviderHostQuotaConfiguration**](https://msdn.microsoft.com/5f5ed1c6-bd1a-406d-a682-7a52059d9450)
 </dt> <dt>
 
-[WMI Tasks: Processes](https://msdn.microsoft.com/windows/desktop/2ae7c302-ab8b-4150-8ece-ffb66374b3f7)
+[WMI Tasks: Processes](https://msdn.microsoft.com/2ae7c302-ab8b-4150-8ece-ffb66374b3f7)
 </dt> </dl>
 
  

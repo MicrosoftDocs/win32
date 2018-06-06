@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Creating a WMI Alias
 
-An [*alias*](https://www.bing.com/search?q=*alias*) in WMI is a symbolic reference in either a class or a class instance located elsewhere in a Managed Object Format (MOF) file. The MOF compiler uses aliases to establish references between classes and instances. The compiler resolves aliases to the classes to which they refer, so alias names are not available in compiled code. As a result, client applications cannot refer to classes using aliases.
+An [*alias*](gloss-a.md#wmi-gloss-alias) in WMI is a symbolic reference in either a class or a class instance located elsewhere in a Managed Object Format (MOF) file. The MOF compiler uses aliases to establish references between classes and instances. The compiler resolves aliases to the classes to which they refer, so alias names are not available in compiled code. As a result, client applications cannot refer to classes using aliases.
 
 > [!Note]  
 > WMI supports forward referencing but not circular aliases.

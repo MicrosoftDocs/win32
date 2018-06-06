@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # RSA/Schannel Key BLOBs
 
-[*BLOBs*](https://www.bing.com/search?q=*BLOBs*) are used with the [*RSA*](https://www.bing.com/search?q=*RSA*)/[*Schannel*](https://www.bing.com/search?q=*Schannel*) provider to export keys from, and import keys into, the [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP).
+[*BLOBs*](security.b_gly#-security-blob-gly) are used with the [*RSA*](security.r_gly#-security-rsa-gly)/[*Schannel*](security.s_gly#-security-schannel-gly) provider to export keys from, and import keys into, the [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP).
 
 -   [Public Key BLOBs](#public-key-blobs)
 -   [Private Key BLOBs](#private-key-blobs)
@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 ## Public Key BLOBs
 
-[*Public key BLOBs*](https://www.bing.com/search?q=*Public key BLOBs*), type **PUBLICKEYBLOB**, are used to store [*public keys*](https://www.bing.com/search?q=*public keys*). These keys are exported and imported as a sequence of bytes with the following format.
+[*Public key BLOBs*](security.p_gly#-security-public-key-blob-gly), type **PUBLICKEYBLOB**, are used to store [*public keys*](security.p_gly#-security-public-key-gly). These keys are exported and imported as a sequence of bytes with the following format.
 
 ``` syntax
 PUBLICKEYSTRUC  publickeystruc ;
@@ -27,7 +27,7 @@ RSAPUBKEY       rsapubkey;
 BYTE            modulus[rsapubkey.bitlen/8];
 ```
 
-The following table describes each public key component. All values are in [*little-endian*](https://www.bing.com/search?q=*little-endian*) format.
+The following table describes each public key component. All values are in [*little-endian*](security.l_gly#-security-little-endian-gly) format.
 
 
 
@@ -35,20 +35,20 @@ The following table describes each public key component. All values are in [*lit
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | modulus        | A **BYTE** sequence. The public key modulus data is located directly after the **RSAPUBKEY** structure. The length of this data varies, depending on the length of the public key. The number of bytes can be determined by dividing the value of the **bitlen** member of **RSAPUBKEY** by eight. |
 | publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) structure.                                                                                                                                                                                                                                              |
-| rsapubkey      | A [**RSAPUBKEY**](/windows/desktop/api/Wincrypt/ns-wincrypt-_rsapubkey) structure. The **magic** member must be set to 0x31415352. This hexadecimal value is the [*ASCII*](https://www.bing.com/search?q=*ASCII*) encoding of RSA1.                                                                                      |
+| rsapubkey      | A [**RSAPUBKEY**](/windows/desktop/api/Wincrypt/ns-wincrypt-_rsapubkey) structure. The **magic** member must be set to 0x31415352. This hexadecimal value is the [*ASCII*](security.a_gly#-security-ascii-gly) encoding of RSA1.                                                                                      |
 
 
 
  
 
 > [!Note]  
-> Public key BLOBs are not encrypted. They contain public keys in [*plaintext*](https://www.bing.com/search?q=*plaintext*) form.
+> Public key BLOBs are not encrypted. They contain public keys in [*plaintext*](security.p_gly#-security-plaintext-gly) form.
 
  
 
 ## Private Key BLOBs
 
-[*Private key BLOBs*](https://www.bing.com/search?q=*Private key BLOBs*), type **PRIVATEKEYBLOB**, are used to store [*public/private key pairs*](https://www.bing.com/search?q=*public/private key pairs*). These keys are exported and imported as a sequence of bytes with the following format.
+[*Private key BLOBs*](security.p_gly#-security-private-key-blob-gly), type **PRIVATEKEYBLOB**, are used to store [*public/private key pairs*](security.p_gly#-security-public-private-key-pair-gly). These keys are exported and imported as a sequence of bytes with the following format.
 
 ``` syntax
 PUBLICKEYSTRUC  publickeystruc ;
@@ -62,7 +62,7 @@ BYTE            coefficient[rsapubkey.bitlen/16];
 BYTE            privateExponent[rsapubkey.bitlen/8];
 ```
 
-If the [*key BLOB*](https://www.bing.com/search?q=*key BLOB*) is encrypted, then everything but the [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) portion of the BLOB is encrypted.
+If the [*key BLOB*](security.k_gly#-security-key-blob-gly) is encrypted, then everything but the [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) portion of the BLOB is encrypted.
 
 > [!Note]  
 > The encryption algorithm and encryption key parameters are not stored along with the private key BLOB. It is the responsibility of the application to manage this information.
@@ -72,7 +72,7 @@ If the [*key BLOB*](https://www.bing.com/search?q=*key BLOB*) is encrypted, then
 The following table describes each private key BLOB component.
 
 > [!Note]  
-> These fields correspond to the fields described in section 7.2 of [*Public Key Cryptography Standards*](https://www.bing.com/search?q=*Public Key Cryptography Standards*) (PKCS) \#1 with minor differences.
+> These fields correspond to the fields described in section 7.2 of [*Public Key Cryptography Standards*](security.p_gly#-security-public-key-cryptography-standards-gly) (PKCS) \#1 with minor differences.
 
  
 
@@ -88,7 +88,7 @@ The following table describes each private key BLOB component.
 | prime2          | A **BYTE** sequence. Prime number 2, often known as q.                                                                                                                                                        |
 | publickeystruc  | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) structure.                                                                                                                                                         |
 | privateExponent | A **BYTE** sequence. The private exponent, often known as d.                                                                                                                                                  |
-| rsapubkey       | A [**RSAPUBKEY**](/windows/desktop/api/Wincrypt/ns-wincrypt-_rsapubkey) structure. The **magic** member must be set to 0x32415352. This hexadecimal value is the [*ASCII*](https://www.bing.com/search?q=*ASCII*) encoding of RSA2. |
+| rsapubkey       | A [**RSAPUBKEY**](/windows/desktop/api/Wincrypt/ns-wincrypt-_rsapubkey) structure. The **magic** member must be set to 0x32415352. This hexadecimal value is the [*ASCII*](security.a_gly#-security-ascii-gly) encoding of RSA2. |
 
 
 
@@ -113,7 +113,7 @@ When calling [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryp
 
 ## Simple Key BLOBs
 
-[*Simple key BLOBs*](https://www.bing.com/search?q=*Simple key BLOBs*), type **SIMPLEBLOB**, are used to store and transport session keys. These are always encrypted with a [*key exchange public key*](https://www.bing.com/search?q=*key exchange public key*). These keys are exported and imported as a sequence of bytes with the following format.
+[*Simple key BLOBs*](security.s_gly#-security-simple-key-blob-gly), type **SIMPLEBLOB**, are used to store and transport session keys. These are always encrypted with a [*key exchange public key*](security.k_gly#-security-key-exchange-public-key-gly). These keys are exported and imported as a sequence of bytes with the following format.
 
 ``` syntax
 PUBLICKEYSTRUC  publickeystruc ;
@@ -127,7 +127,7 @@ The following table describes each simple BLOB component.
 
 | Field          | Description                                                                                                                                                                                                                                                                                                                   |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| algid          | An [**ALG\_ID**](alg-id.md) structure. This typically specifies the CALG\_RSA\_KEYX algorithm, which indicates that the session key data was encrypted with a key exchange public key, using the [*RSA Public Key algorithm*](https://www.bing.com/search?q=*RSA Public Key algorithm*). |
+| algid          | An [**ALG\_ID**](alg-id.md) structure. This typically specifies the CALG\_RSA\_KEYX algorithm, which indicates that the session key data was encrypted with a key exchange public key, using the [*RSA Public Key algorithm*](security.r_gly#-security-rsa-public-key-algorithm-gly). |
 | encryptedkey   | A **BYTE** sequence. The encrypted session key data is in the form of a PKCS \#1, type 2 encryption block. For information about this data format, see the Public Key Cryptography Standards (PKCS), published by RSA Data Security, Inc.                                                                                     |
 | publickeystruc | A [**PUBLICKEYSTRUC**](/windows/desktop/api/Wincrypt/ns-wincrypt-_publickeystruc) structure.                                                                                                                                                                                                                                                                         |
 

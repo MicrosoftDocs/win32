@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Text Services Framework
 
-When the [Text Services Framework (TSF)](https://www.bing.com/search?q=Text Services Framework (TSF)) is enabled on a control with a [PenInputPanel](https://www.bing.com/search?q=PenInputPanel) object attached, the PenInputPanel object can insert text directly. If the control does not support Text Services Framework (TSF), the PenInputPanel object must resort to using the [SendInput function](https://www.bing.com/search?q=SendInput function) to insert text.
+When the [Text Services Framework (TSF)](https://www.bing.com/search?q=Text+Services+Framework+(TSF)) is enabled on a control with a [PenInputPanel](https://www.bing.com/search?q=PenInputPanel) object attached, the PenInputPanel object can insert text directly. If the control does not support Text Services Framework (TSF), the PenInputPanel object must resort to using the [SendInput function](https://www.bing.com/search?q=SendInput+function) to insert text.
 
-The ability to insert text directly becomes very important for those inputting East Asian characters, where using the [SendInput function](https://www.bing.com/search?q=SendInput function) can produce incorrect characters.
+The ability to insert text directly becomes very important for those inputting East Asian characters, where using the [SendInput function](https://www.bing.com/search?q=SendInput+function) can produce incorrect characters.
 
 TSF provides an interface for correcting recognition errors enabling the end user to correct, rewrite, or even dictate the proper text.
 
@@ -38,7 +38,7 @@ The [PenInputPanel Sample](peninputpanel-sample.md) provides an example of enabl
 
 <dl> <dt>
 
-[Text Services Framework](https://www.bing.com/search?q=Text Services Framework)
+[Text Services Framework](https://www.bing.com/search?q=Text+Services+Framework)
 </dt> </dl>
 
  

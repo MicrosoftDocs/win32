@@ -19,7 +19,7 @@ Byte array
 
 ## Remarks
 
-This attribute corresponds to the **dwSequenceHeader** member of the [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/windows/desktop/1a6ab686-99a1-40c2-addf-7fa215e2311a) structure, or the **bSequenceHeader** member of the [**MPEG1VIDEOINFO**](https://msdn.microsoft.com/windows/desktop/ae5b8825-7c1c-4a44-b665-098732e6c3bc) structure.
+This attribute corresponds to the **dwSequenceHeader** member of the [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/1a6ab686-99a1-40c2-addf-7fa215e2311a) structure, or the **bSequenceHeader** member of the [**MPEG1VIDEOINFO**](https://msdn.microsoft.com/ae5b8825-7c1c-4a44-b665-098732e6c3bc) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

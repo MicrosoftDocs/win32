@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Signing Data
 
-The following sections deal with encoding and decoding [*signed data*](https://www.bing.com/search?q=*signed data*), including messages, certificates, [*certificate revocation lists*](https://www.bing.com/search?q=*certificate revocation lists*) (CRLs), and [*certificate trust lists*](https://www.bing.com/search?q=*certificate trust lists*) (CTLs):
+The following sections deal with encoding and decoding [*signed data*](security.s_gly#-security-signed-data-gly), including messages, certificates, [*certificate revocation lists*](security.c_gly#-security-certificate-revocation-list-gly) (CRLs), and [*certificate trust lists*](security.c_gly#-security-certificate-trust-list-gly) (CTLs):
 
 -   [Creating a Signed Message](creating-a-signed-message.md)
 -   [Procedure for Signing Data](procedure-for-signing-data.md)

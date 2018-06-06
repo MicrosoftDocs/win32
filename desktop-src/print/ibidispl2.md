@@ -15,7 +15,7 @@ The **IBidiSpl2** interface enables an application or other objects to send one 
 
 ## Members
 
-The **IBidiSpl2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IBidiSpl2** also has these types of members:
+The **IBidiSpl2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IBidiSpl2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -28,7 +28,7 @@ The **IBidiSpl2** interface has these methods.
 | Method                                                              | Description                                                                                                                                           |
 |:--------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**BindDevice**](ibidispl2-ibidispl2--binddevice.md)               | Binds a printer to a bidirectional communication request.<br/>                                                                                  |
-| [**SendRecvXMLStream**](ibidispl2-ibidispl2--sendrecvxmlstream.md) | Sends a bidirectional communication request (and receives the response) as Bidi Request and Response-compliant [**IStream**](https://msdn.microsoft.com/windows/desktop/c6f60e37-eadc-46a1-94f6-cacc23613531).<br/> |
+| [**SendRecvXMLStream**](ibidispl2-ibidispl2--sendrecvxmlstream.md) | Sends a bidirectional communication request (and receives the response) as Bidi Request and Response-compliant [**IStream**](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531).<br/> |
 | [**SendRecvXMLString**](ibidispl2-ibidispl2--sendrecvxmlstring.md) | Sends a bidirectional communication request (and receives the response) as Bidi Request and Response-compliant strings.<br/>                    |
 | [**UnbindDevice**](ibidispl2-ibidispl2--unbinddevice.md)           | Releases a printer from a bidirectional communication request.<br/>                                                                             |
 
@@ -55,10 +55,10 @@ The **IBidiSpl2** interface has these methods.
 [Bidirectional Communication Interfaces](bidirectional-communication-interfaces.md)
 </dt> <dt>
 
-[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional Communication Schema)
+[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional+Communication+Schema)
 </dt> <dt>
 
-[Print Spooler Components](https://www.bing.com/search?q=Print Spooler Components)
+[Print Spooler Components](https://www.bing.com/search?q=Print+Spooler+Components)
 </dt> </dl>
 
  

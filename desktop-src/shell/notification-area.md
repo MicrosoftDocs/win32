@@ -76,11 +76,11 @@ Each icon in the notification area can be identified in two ways:
 
 Icons in the notification area can have a tooltip. The tooltip can be either a standard tooltip (preferred) or an application-drawn, pop-up UI. While a tooltip is not required, it is recommended.
 
-Notification area icons should be high-DPI aware. An application should provide both a 16x16 pixel icon and a 32x32 icon in its resource file, and then use [**LoadIconMetric**](https://msdn.microsoft.com/windows/desktop/8dee876d-1c94-47ef-b28d-effc80dab14e) to ensure that the correct icon is loaded and scaled appropriately.
+Notification area icons should be high-DPI aware. An application should provide both a 16x16 pixel icon and a 32x32 icon in its resource file, and then use [**LoadIconMetric**](https://msdn.microsoft.com/VS|Controls|~\controls\common\functions\loadiconmetric.htm) to ensure that the correct icon is loaded and scaled appropriately.
 
 The application responsible for the notification area icon should handle a mouse click for that icon. When a user right-clicks the icon, it should bring up a normal shortcut menu. However, the result of a single click with the left mouse button will vary with the function of the icon. It should display what the user would expect to see in the form best suited to that content—a popup window, a dialog box or the program window itself. For instance, it could show status text for a status icon, or a slider for the volume control.
 
-The placement of a popup window or dialog box that results from the click should be placed near the coordinate of the click in the notification area. Use the [**CalculatePopupWindowPosition**](https://msdn.microsoft.com/windows/desktop/f0dd927d-fca5-49cf-b273-c022892a6076) to determine its location.
+The placement of a popup window or dialog box that results from the click should be placed near the coordinate of the click in the notification area. Use the [**CalculatePopupWindowPosition**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\calculatepopupwindowposition.htm) to determine its location.
 
 The icon can be added to the notification area without displaying a notification by defining only the icon-specific members of [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-_notifyicondataa) (discussed above) and calling [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) as shown here:
 

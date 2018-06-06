@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # LB\_INSERTSTRING message
 
-Inserts a string or item data into a list box. Unlike the [**LB\_ADDSTRING**](lb-addstring.md) message, the **LB\_INSERTSTRING** message does not cause a list with the [**LBS\_SORT**](https://www.bing.com/search?q=**LBS\_SORT**) style to be sorted.
+Inserts a string or item data into a list box. Unlike the [**LB\_ADDSTRING**](lb-addstring.md) message, the **LB\_INSERTSTRING** message does not cause a list with the [**LBS\_SORT**](list-box-styles.md#lbs-sort) style to be sorted.
 
 ## Parameters
 
@@ -37,7 +37,7 @@ The zero-based index of the position at which to insert the string. If this para
 *lParam* 
 </dt> <dd>
 
-A pointer to the null-terminated string to be inserted. If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](https://www.bing.com/search?q=**LBS\_HASSTRINGS**) style, this parameter is stored as item data instead of a string. You can send the [**LB\_GETITEMDATA**](lb-getitemdata.md) and [**LB\_SETITEMDATA**](lb-setitemdata.md) messages to retrieve or modify the item data.
+A pointer to the null-terminated string to be inserted. If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style, this parameter is stored as item data instead of a string. You can send the [**LB\_GETITEMDATA**](lb-getitemdata.md) and [**LB\_SETITEMDATA**](lb-setitemdata.md) messages to retrieve or modify the item data.
 
 </dd> </dl>
 

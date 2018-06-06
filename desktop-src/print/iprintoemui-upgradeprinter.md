@@ -67,7 +67,7 @@ A user interface plug-in's `IPrintOemUI::UpgradePrinter` method performs the sam
 
 If `IPrintOemUI::UpgradePrinter` methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
-For more information about creating and installing user interface plug-ins, see [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing Microsoft's Printer Drivers).
+For more information about creating and installing user interface plug-ins, see [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing+Microsoft's+Printer+Drivers).
 
 ## Requirements
 

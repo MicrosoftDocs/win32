@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 The **SignerTimeStampEx3** function time stamps the specified subject and supports setting time stamps on multiple signatures.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/windows/desktop/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to Mssign32.dll.
 
  
 
@@ -123,7 +123,7 @@ This parameter is optional and can be **NULL** if it is not included.
 *pSipData* \[in, optional\]
 </dt> <dd>
 
-Optional. A 32-bit value that is passed as additional data to [*subject interface package*](https://www.bing.com/search?q=*subject interface package*) (SIP) functions. The format and content of this parameter is defined by the SIP provider.
+Optional. A 32-bit value that is passed as additional data to [*subject interface package*](security.s_gly#-security-subject-interface-package-gly) (SIP) functions. The format and content of this parameter is defined by the SIP provider.
 
 This parameter is optional and can be **NULL** if it is not included.
 

@@ -32,7 +32,7 @@ HRESULT SetTrackPriority(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Track identifier.
 
@@ -41,9 +41,9 @@ Track identifier.
 *Priority* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/windows/desktop/7bd83e31-09c4-4376-a22d-ed8023b78e84)**
+Type: **[**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxpriority_type.htm)**
 
-Track priority. This parameter should be set to one of the constants from [**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/windows/desktop/7bd83e31-09c4-4376-a22d-ed8023b78e84).
+Track priority. This parameter should be set to one of the constants from [**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxpriority_type.htm).
 
 </dd> </dl>
 

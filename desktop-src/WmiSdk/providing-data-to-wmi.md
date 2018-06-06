@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Providing Data to WMI
 
-WMI makes data about Windows manageable objects available through WMI [*providers*](https://www.bing.com/search?q=*providers*). A provider retrieves data from a system component, such as a process, or an instrumented application, such as SNMP or IIS, and passes that data through WMI to a management application. For example, when an application or script requests process information using the WMI [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) class, the data is obtained dynamically through a preinstalled provider.
+WMI makes data about Windows manageable objects available through WMI [*providers*](gloss-p.md#wmi-gloss-provider). A provider retrieves data from a system component, such as a process, or an instrumented application, such as SNMP or IIS, and passes that data through WMI to a management application. For example, when an application or script requests process information using the WMI [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) class, the data is obtained dynamically through a preinstalled provider.
 
 The following sections are discussed in this topic:
 
@@ -30,7 +30,7 @@ The following sections are discussed in this topic:
 
 ## Creating a Model for a Manageable Object
 
-Before developing a provider, create a data model to represent the manageable object to be exposed through WMI. You plan which data objects your provider will expose. For example, if you plan to manage the screen resolution of the desktop background, you must decide how to model the Desktop in a [*Managed Object Format (MOF)*](https://www.bing.com/search?q=*Managed Object Format (MOF)*) file.
+Before developing a provider, create a data model to represent the manageable object to be exposed through WMI. You plan which data objects your provider will expose. For example, if you plan to manage the screen resolution of the desktop background, you must decide how to model the Desktop in a [*Managed Object Format (MOF)*](gloss-m.md#wmi-gloss-managed-object-format) file.
 
 To create a useful model:
 
@@ -42,11 +42,11 @@ To create a useful model:
 To implement a model for manageable objects, create a MOF file containing a WMI class that represents each object. For more information about creating a MOF file to define WMI classes, see [Designing Managed Object Format (MOF) Classes](designing-managed-object-format--mof--classes.md). The registration of the provider and its classes are usually included in the MOF file, although it is possible to use the [COM API](com-api-for-wmi.md) to create classes and methods. For more information, see [Developing a WMI Provider](developing-a-wmi-provider.md).
 
 > [!Note]  
-> To ensure that all your WMI class definitions for managed objects are restored to the [*WMI repository*](https://www.bing.com/search?q=*WMI repository*) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) preprocessor instruction in your [*Managed Object Format (MOF)*](https://www.bing.com/search?q=*Managed Object Format (MOF)*) file.
+> To ensure that all your WMI class definitions for managed objects are restored to the [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) preprocessor instruction in your [*Managed Object Format (MOF)*](gloss-m.md#wmi-gloss-managed-object-format) file.
 
  
 
-After you create the MOF file, compile it using the [**Mofcomp.exe**](mofcomp.md) tool. This notifies you of errors in your MOF file, and adds the WMI class defined in the MOF file to the [*WMI repository*](https://www.bing.com/search?q=*WMI repository*) so that the class can be used by a provider.
+After you create the MOF file, compile it using the [**Mofcomp.exe**](mofcomp.md) tool. This notifies you of errors in your MOF file, and adds the WMI class defined in the MOF file to the [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository) so that the class can be used by a provider.
 
 ## Determining a Provider Type to Implement
 
@@ -54,19 +54,19 @@ WMI supports a certain number of provider types, which determines the nature of 
 
 The provider types are:
 
--   [*Instance provider*](https://www.bing.com/search?q=*Instance provider*)
--   [*Method provider*](https://www.bing.com/search?q=*Method provider*)
--   [*Property provider*](https://www.bing.com/search?q=*Property provider*)
+-   [*Instance provider*](gloss-i.md#wmi-gloss-instance-provider)
+-   [*Method provider*](gloss-m.md#wmi-gloss-method-provider)
+-   [*Property provider*](gloss-p.md#wmi-gloss-property-provider)
 -   Class provider
--   [*Event provider*](https://www.bing.com/search?q=*Event provider*)
--   [*Event consumer provider*](https://www.bing.com/search?q=*Event consumer provider*)
--   [*Association provider*](https://www.bing.com/search?q=*Association provider*)
+-   [*Event provider*](gloss-e.md#wmi-gloss-event-provider)
+-   [*Event consumer provider*](gloss-e.md#wmi-gloss-event-consumer-provider)
+-   [*Association provider*](gloss-a.md#wmi-gloss-association-class)
 
 The vast majority of providers are instance providers and method providers. An instance provider is the most common provider, and it supplies the instances of a given class. A method provider implements the methods of one or more classes. For more information about the types of providers, see [Developing a WMI Provider](developing-a-wmi-provider.md).
 
 ## Determining a Hosting (Implementation) Model for a Provider
 
-WMI providers are binaries implemented as COM objects. This means that each provider has a DLL file which can be executed within a specific process and security context. This is what WMI refers to as the [*hosting model*](https://www.bing.com/search?q=*hosting model*). WMI offers various ways to host providers, but the most common approach is to use the coupled provider model (running under the WMI process) in the NetworkServiceHost security context. A WMI provider can be classified as either coupled or [*decoupled*](https://www.bing.com/search?q=*decoupled*).
+WMI providers are binaries implemented as COM objects. This means that each provider has a DLL file which can be executed within a specific process and security context. This is what WMI refers to as the [*hosting model*](gloss-h.md#wmi-gloss-hosting-model). WMI offers various ways to host providers, but the most common approach is to use the coupled provider model (running under the WMI process) in the NetworkServiceHost security context. A WMI provider can be classified as either coupled or [*decoupled*](gloss-d.md#wmi-gloss-decoupled-provider).
 
 The term coupled or decoupled provider determines under which host process the provider is running with respect to the WMI provided WMIPRVSE.EXE process. A best practice is to determine if the management data that the provider exposes and the API or application it relies on are always available in the system or not. If the API or application the provider relies on is always available (running on the system), then the provider should be a coupled provider, if not, it must be a decoupled provider. For more information about hosting models, see [Provider Hosting and Security](provider-hosting-and-security.md).
 

@@ -19,11 +19,11 @@ Specifies the MPEG-2 or H.264 level in a video media type.
 
 ## Remarks
 
-For MPEG-2 video, the value of this attribute is a member of the [**AM\_MPEG2Level**](https://msdn.microsoft.com/windows/desktop/78446b44-7b83-4266-a591-5f70a0542c20) enumeration.
+For MPEG-2 video, the value of this attribute is a member of the [**AM\_MPEG2Level**](https://msdn.microsoft.com/78446b44-7b83-4266-a591-5f70a0542c20) enumeration.
 
 For H.264 video, the value is a member of the [**eAVEncH264VLevel**](/windows/desktop/api/codecapi/ne-codecapi-eavench264vlevel) enumeration.
 
-This attribute corresponds to the **dwLevel** member of the [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/windows/desktop/1a6ab686-99a1-40c2-addf-7fa215e2311a) structure.
+This attribute corresponds to the **dwLevel** member of the [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/1a6ab686-99a1-40c2-addf-7fa215e2311a) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

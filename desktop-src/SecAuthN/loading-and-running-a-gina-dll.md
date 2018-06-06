@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Loading and Running a GINA DLL
 
-Windows loads and executes the standard Microsoft GINA DLL (MSGina.dll). To load a different [*GINA*](https://www.bing.com/search?q=*GINA*), you must alter the following registry key value:
+Windows loads and executes the standard Microsoft GINA DLL (MSGina.dll). To load a different [*GINA*](security.g_gly#-security-gina-gly), you must alter the following registry key value:
 
 ```
 HKEY_LOCAL_MACHINE
@@ -29,7 +29,7 @@ HKEY_LOCAL_MACHINE
 </dl>
 ```
 
-If the GinaDLL key value is present, it must contain the name of a GINA DLL, which [*Winlogon*](https://www.bing.com/search?q=*Winlogon*) will load and use.
+If the GinaDLL key value is present, it must contain the name of a GINA DLL, which [*Winlogon*](security.w_gly#-security-winlogon-gly) will load and use.
 
 ## Related topics
 
@@ -38,10 +38,10 @@ If the GinaDLL key value is present, it must contain the name of a GINA DLL, whi
 [Building and Testing a GINA DLL](building-and-testing-a-gina-dll.md)
 </dt> <dt>
 
-[GINA Export Functions](https://www.bing.com/search?q=GINA Export Functions)
+[GINA Export Functions](authentication-functions.md#gina-export-functions)
 </dt> <dt>
 
-[GINA Structures](https://www.bing.com/search?q=GINA Structures)
+[GINA Structures](authentication-structures.md#gina-structures)
 </dt> <dt>
 
 [Terminal Services GINA Functions](terminal-services-gina-functions.md)

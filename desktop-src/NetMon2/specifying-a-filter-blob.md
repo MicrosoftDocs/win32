@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Specifying a Filter BLOB
 
-When you select a registered network interface card (NIC) listed on a local computer, you can use a [*filter BLOB*](https://www.bing.com/search?q=*filter BLOB*) to disregard the NICs you are not interested in. For example, you could restrict the search for a specific type of card (such as ETHERNET) or a specific MAC address.
+When you select a registered network interface card (NIC) listed on a local computer, you can use a [*filter BLOB*](f.md#-netmon-filter-blob-gly) to disregard the NICs you are not interested in. For example, you could restrict the search for a specific type of card (such as ETHERNET) or a specific MAC address.
 
-During the search for a NIC, every entry in the filter BLOB must match an equivalent entry in the NPP BLOB that represents the NIC. Filter BLOBs can also be [*special BLOBs*](https://www.bing.com/search?q=*special BLOBs*).
+During the search for a NIC, every entry in the filter BLOB must match an equivalent entry in the NPP BLOB that represents the NIC. Filter BLOBs can also be [*special BLOBs*](s.md#-netmon-special-blobs-gly).
 
 When the [**GetNPPBlobFromUI**](getnppblobfromui.md) function is called, the filter BLOB restricts the NICs displayed in the **Select a network** dialog box. When the [**GetNPPBlobTable**](getnppblobtable.md) function is called, the filter BLOB restricts the NICs returned in the BLOB table.
 

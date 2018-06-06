@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CAPICOM\_STORE\_LOCATION enumeration
 
-The **CAPICOM\_STORE\_LOCATION** enumeration type indicates the location of a [*certificate store*](https://www.bing.com/search?q=*certificate store*).
+The **CAPICOM\_STORE\_LOCATION** enumeration type indicates the location of a [*certificate store*](security.c_gly#-security-certificate-store-gly).
 
 ## Members
 

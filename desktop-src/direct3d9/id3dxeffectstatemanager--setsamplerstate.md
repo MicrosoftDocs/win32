@@ -33,7 +33,7 @@ HRESULT SetSamplerState(
 *Sampler* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The zero-based sampler number.
 
@@ -42,16 +42,16 @@ The zero-based sampler number.
 *Type* \[in\]
 </dt> <dd>
 
-Type: **[**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/windows/desktop/03a6a5f1-5e4f-4ba8-be4a-74d78fbc85d0)**
+Type: **[**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dsamplerstatetype.htm)**
 
-Identifies sampler state, which can specify the filtering, addressing, or the border color. See [**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/windows/desktop/03a6a5f1-5e4f-4ba8-be4a-74d78fbc85d0).
+Identifies sampler state, which can specify the filtering, addressing, or the border color. See [**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dsamplerstatetype.htm).
 
 </dd> <dt>
 
 *Value* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 A value from one of the sampler state types in Type.
 

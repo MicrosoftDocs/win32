@@ -60,7 +60,7 @@ DNS is used on all IP networks that require an Internet-compatible locator servi
 [Internet Protocol Helper](https://msdn.microsoft.com/library/windows/desktop/aa366073)
 </dt> <dt>
 
-[Directory Services](https://www.bing.com/search?q=Directory Services)
+[Directory Services](https://www.bing.com/search?q=Directory+Services)
 </dt> </dl>
 
  

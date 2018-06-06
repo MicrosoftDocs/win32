@@ -244,13 +244,13 @@ Language           -    en-US
 
 ## RC Compiler Utility
 
-RC Compiler (Rc.exe) is a command line utility for compiling a resource definition script file (.rc extension) into resource files (.res extension). RC Compiler is included in the Windows SDK. This document only explains the use of RC Compiler with MUI-related capabilities of the resource loader. For complete information about the compiler, see [About Resource Files](https://www.bing.com/search?q=About Resource Files).
+RC Compiler (Rc.exe) is a command line utility for compiling a resource definition script file (.rc extension) into resource files (.res extension). RC Compiler is included in the Windows SDK. This document only explains the use of RC Compiler with MUI-related capabilities of the resource loader. For complete information about the compiler, see [About Resource Files](https://www.bing.com/search?q=About+Resource+Files).
 
 RC Compiler allows you to build, from a single set of sources, an LN file and a separate language-specific resource file. As for MUIRCT, the files are associated by resource configuration data.
 
 ### RC Compiler Syntax as Used for MUI Resources
 
-RC Compiler switches are defined in detail in [Using RC](https://www.bing.com/search?q=Using RC). This section only defines the switches used to build MUI resources. Remember that each switch is case-insensitive. Resource types are assumed to be language-neutral unless otherwise indicated.
+RC Compiler switches are defined in detail in [Using RC](https://www.bing.com/search?q=Using+RC). This section only defines the switches used to build MUI resources. Remember that each switch is case-insensitive. Resource types are assumed to be language-neutral unless otherwise indicated.
 
 
 ```C++

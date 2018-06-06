@@ -15,7 +15,7 @@ Provides information on **IPrintUnidiAsyncNotifyRegistration** constructs.
 
 ## Members
 
-The **IPrintUnidiAsyncNotifyRegistration** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintUnidiAsyncNotifyRegistration** also has these types of members:
+The **IPrintUnidiAsyncNotifyRegistration** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintUnidiAsyncNotifyRegistration** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -33,13 +33,13 @@ To understand the behavior of these methods, you must know some terminology from
 
 In WASAPI, every audio stream belongs to exactly one *audio session*, which is a group of related audio streams. Typically, an application maintains a single audio session, although applications can create more than one session. The system volume-control program (Sndvol) displays a volume control for each audio session. Through Sndvol, a user can adjust the volume of an audio session from outside of the application. The following image illustrates this process.
 
-![diagram showing audio streams passing through volume control on the way to the speakers; application and sndvol point to volume control](https://www.bing.com/search?q=diagram showing audio streams passing through volume control on the way to the speakers; application and sndvol point to volume control)
+![diagram showing audio streams passing through volume control on the way to the speakers; application and sndvol point to volume control](https://www.bing.com/search?q=diagram+showing+audio+streams+passing+through+volume+control+on+the+way+to+the+speakers;+application+and+sndvol+point+to+volume+control)
 
 In MFPlay, a media item can have one or more active audio streams (typically only one). Internally, MFPlay uses the [Streaming Audio Renderer](streaming-audio-renderer.md) (SAR) to render the audio streams. Unless you configure it otherwise, the SAR joins the application's default audio session.
 
 The MFPlay audio methods control only the streams that belong to the current media item. They do not affect the volume for any other streams that belong to the same audio session. In terms of WASAPI, the MFPlay methods control the *per-channel* volume levels, not the master volume level. The following image illustrates this process.
 
-![diagram similar to the previous one, but the second stream starts at media item, and application points to the second stream and to volume control](https://www.bing.com/search?q=diagram similar to the previous one, but the second stream starts at media item, and application points to the second stream and to volume control)
+![diagram similar to the previous one, but the second stream starts at media item, and application points to the second stream and to volume control](https://www.bing.com/search?q=diagram+similar+to+the+previous+one,+but+the+second+stream+starts+at+media+item,+and+application+points+to+the+second+stream+and+to+volume+control)
 
 It is important to understand some implications of this feature of MFPlay. First, an application can adjust the playback volume without affecting other audio streams. You could use this feature if MFPlay to implement audio cross-fading, by creating two instances of the MFPlay object and adjusting the volume separately.
 
@@ -58,7 +58,7 @@ What follows is a C++ class that handles the basic tasks in WASAPI:
 
 ### Class Declaration
 
-The `CAudioSessionVolume` class declaration implements the [**IAudioSessionEvents**](https://msdn.microsoft.com/windows/desktop/fd287ef7-8a37-4342-b4c2-79b84a56c30e) interface, which is the callback interface for audio session events.
+The `CAudioSessionVolume` class declaration implements the [**IAudioSessionEvents**](https://msdn.microsoft.com/fd287ef7-8a37-4342-b4c2-79b84a56c30e) interface, which is the callback interface for audio session events.
 
 
 ```C++
@@ -149,10 +149,10 @@ When the `CAudioSessionVolume` object receives an audio session event, it posts 
 
 `CAudioSessionVolume` uses two main WASAPI interfaces:
 
--   [**IAudioSessionControl**](https://msdn.microsoft.com/windows/desktop/4446140e-2e61-40ed-b0f9-4c1b90e7c2de) manages the audio session.
--   [**ISimpleAudioVolume**](https://msdn.microsoft.com/windows/desktop/360211f2-de82-4ff5-896c-dee1d60cb7b7) controls the volume level and mute state of the session.
+-   [**IAudioSessionControl**](https://msdn.microsoft.com/4446140e-2e61-40ed-b0f9-4c1b90e7c2de) manages the audio session.
+-   [**ISimpleAudioVolume**](https://msdn.microsoft.com/360211f2-de82-4ff5-896c-dee1d60cb7b7) controls the volume level and mute state of the session.
 
-To get these interfaces, you must enumerate the audio endpoint that is used by the SAR. An *audio endpoint* is a hardware device that captures or consumes audio data. For audio playback, an endpoint is simply a speaker or other audio output. By default, the SAR uses the default endpoint for the **eConsole** device role. A *device role* is an assigned role for an endpoint. Device roles are specified by the [**ERole**](https://msdn.microsoft.com/windows/desktop/0d0d3174-8489-4951-858c-024d58477ae0) enumeration, which is documented in [Core Audio APIs](https://msdn.microsoft.com/windows/desktop/87ca9a31-1bc8-47ea-be00-40159d30e189).
+To get these interfaces, you must enumerate the audio endpoint that is used by the SAR. An *audio endpoint* is a hardware device that captures or consumes audio data. For audio playback, an endpoint is simply a speaker or other audio output. By default, the SAR uses the default endpoint for the **eConsole** device role. A *device role* is an assigned role for an endpoint. Device roles are specified by the [**ERole**](https://msdn.microsoft.com/0d0d3174-8489-4951-858c-024d58477ae0) enumeration, which is documented in [Core Audio APIs](https://msdn.microsoft.com/87ca9a31-1bc8-47ea-be00-40159d30e189).
 
 The following code shows how to enumerate the endpoint and get the WASAPI interfaces.
 
@@ -233,7 +233,7 @@ done:
 
 ### Controlling the Volume
 
-The `CAudioSessionVolume` methods that control the audio volume call the equivalent [**ISimpleAudioVolume**](https://msdn.microsoft.com/windows/desktop/360211f2-de82-4ff5-896c-dee1d60cb7b7) methods. For example, `CAudioSessionVolume::SetVolume` calls [**ISimpleAudioVolume::SetMasterVolume**](https://msdn.microsoft.com/windows/desktop/895a8564-5f06-4e20-abcc-d960d4002eb0), as shown in the following code.
+The `CAudioSessionVolume` methods that control the audio volume call the equivalent [**ISimpleAudioVolume**](https://msdn.microsoft.com/360211f2-de82-4ff5-896c-dee1d60cb7b7) methods. For example, `CAudioSessionVolume::SetVolume` calls [**ISimpleAudioVolume::SetMasterVolume**](https://msdn.microsoft.com/895a8564-5f06-4e20-abcc-d960d4002eb0), as shown in the following code.
 
 
 ```C++

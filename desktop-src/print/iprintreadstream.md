@@ -15,7 +15,7 @@ Filters use the `IPrintReadStream` interface to read data as a raw stream of byt
 
 ## Members
 
-The **IPrintReadStream** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintReadStream** also has these types of members:
+The **IPrintReadStream** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintReadStream** also has these types of members:
 
 -   [Methods](#methods)
 

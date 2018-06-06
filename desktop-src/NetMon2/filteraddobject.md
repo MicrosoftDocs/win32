@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # FilterAddObject function
 
-The **FilterAddObject** function adds a single object to a [*display filter*](https://www.bing.com/search?q=*display filter*).
+The **FilterAddObject** function adds a single object to a [*display filter*](d.md#-netmon-display-filter-gly).
 
 ## Syntax
 
@@ -62,7 +62,7 @@ If the function is unsuccessful, the return value is an error code.
 
 ## Remarks
 
-[*Experts*](https://www.bing.com/search?q=*Experts*) and [*parsers*](https://www.bing.com/search?q=*parsers*) can call the **FilterAddObject** function.
+[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **FilterAddObject** function.
 
 The **FilterAddObject** function is called each time a filter object is added to the display filter. The display filter is a postfix stack of objects that can be an operator, value, or property.
 

@@ -91,7 +91,7 @@ For information about the meaning of each constant, see the Remarks section of t
 **hComPropSheet**
 </dt> <dd>
 
-CPSUI-supplied handle to a property sheet [group parent](https://www.bing.com/search?q=group parent). This handle can be passed to CPSUI's [**ComPropSheet**](compropsheet.md) function.
+CPSUI-supplied handle to a property sheet [group parent](https://www.bing.com/search?q=group+parent). This handle can be passed to CPSUI's [**ComPropSheet**](compropsheet.md) function.
 
 </dd> <dt>
 

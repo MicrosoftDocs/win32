@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # MFPKEY\_MediaProtectionSystemIdMapping property
 
-Specifies a [**IPropertySet**](https://www.bing.com/search?q=**IPropertySet**) that defines the mapping from a property system id to a property system activation id.
+Specifies a [**IPropertySet**](https://msdn.microsoft.com/Windows.Foundation.Collections.IPropertySet) that defines the mapping from a property system id to a property system activation id.
 
 
 
@@ -31,7 +31,7 @@ VT\_UNKNOWN
 
 ## Remarks
 
-This property key is used to pass an [**IPropertySet**](https://www.bing.com/search?q=**IPropertySet**) that contains mappings between protection system GUIDs and runtime class strings to a media source.
+This property key is used to pass an [**IPropertySet**](https://msdn.microsoft.com/Windows.Foundation.Collections.IPropertySet) that contains mappings between protection system GUIDs and runtime class strings to a media source.
 
 ## Requirements
 

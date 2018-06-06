@@ -59,9 +59,9 @@ LONG APIENTRY OEMQueryFontData(
 
 ### Comments
 
-See [**DrvQueryFontData**](https://www.bing.com/search?q=**DrvQueryFontData**).
+See [**DrvQueryFontData**](https://msdn.microsoft.com/3f6efd3c-3ddf-4ce6-9527-730e01c45e74).
 
-Do not directly hook out this function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the DDIs to be hooked out.
+Do not directly hook out this function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvQueryFontData** function pointer.
 

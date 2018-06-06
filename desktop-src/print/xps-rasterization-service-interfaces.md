@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # XPS Rasterization Service Interfaces
 
-In Windows 7 and later, the [XPS rasterization service](https://www.bing.com/search?q=XPS rasterization service) performs the rasterization of fixed pages in XPS documents for XPSDrv filters. The service provides an XPS rasterization factory that a filter uses to create XPS rasterizers. The filter can tell an XPS rasterizer to create a bitmap to represent an entire fixed page, or the filter can partition the fixed page into a number of axis-aligned, rectangular regions and tell the rasterizer to create a separate bitmap for each region.
+In Windows 7 and later, the [XPS rasterization service](https://www.bing.com/search?q=XPS+rasterization+service) performs the rasterization of fixed pages in XPS documents for XPSDrv filters. The service provides an XPS rasterization factory that a filter uses to create XPS rasterizers. The filter can tell an XPS rasterizer to create a bitmap to represent an entire fixed page, or the filter can partition the fixed page into a number of axis-aligned, rectangular regions and tell the rasterizer to create a separate bitmap for each region.
 
-During the initialization of an XPSDrv filter, the print filter pipeline manager passes a [**print pipeline property bag**](https://www.bing.com/search?q=**print pipeline property bag**) to the filter. Through the property bag, the filter can obtain the **IXpsRasterizationFactory** interface of the XPS rasterization factory. As the filter renders an XPS document, the filter can obtain from the factory a new XPS rasterizer--with an **IXpsRasterizer** interface--to render each successive fixed page in the document.
+During the initialization of an XPSDrv filter, the print filter pipeline manager passes a [**print pipeline property bag**](https://www.bing.com/search?q=**print+pipeline+property+bag**) to the filter. Through the property bag, the filter can obtain the **IXpsRasterizationFactory** interface of the XPS rasterization factory. As the filter renders an XPS document, the filter can obtain from the factory a new XPS rasterizer--with an **IXpsRasterizer** interface--to render each successive fixed page in the document.
 
 The XPS rasterization service implements the following interfaces:
 

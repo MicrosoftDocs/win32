@@ -50,14 +50,14 @@ A pointer to an **NCRYPT\_HASH\_HANDLE** variable to receive the hash handle.
 *dwProtocol* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG SSL Provider Protocol Identifier**) values.
+One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Protocol+Identifier**) values.
 
 </dd> <dt>
 
 *dwCipherSuite* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Cipher Suite Identifier**](https://www.bing.com/search?q=**CNG SSL Provider Cipher Suite Identifier**) values.
+One of the [**CNG SSL Provider Cipher Suite Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Cipher+Suite+Identifier**) values.
 
 </dd> <dt>
 

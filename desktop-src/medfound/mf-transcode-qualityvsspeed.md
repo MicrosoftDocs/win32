@@ -38,7 +38,7 @@ To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/desktop/api/
 
 ## Remarks
 
-This attribute has the same GUID value as the [AVEncCommonQualityVsSpeed](https://msdn.microsoft.com/windows/desktop/d721a50d-dec9-4e2d-bda5-25913f225d68) property defined for [**ICodecAPI**](https://msdn.microsoft.com/windows/desktop/cc3f1bd9-1d36-45e6-94e2-07f2800fd073), and has the same interpretation.
+This attribute has the same GUID value as the [AVEncCommonQualityVsSpeed](https://msdn.microsoft.com/d721a50d-dec9-4e2d-bda5-25913f225d68) property defined for [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073), and has the same interpretation.
 
 The application can set this attribute on the transcode profile before building the transcode topology for Windows Media codecs. The value must be in the range from 0 to 100. For video stream, the transcode topology builder maps a value to the application-specified value and supplies the mapped value to the **MFPKEY\_COMPLEXITYEX** property of the encoder. Lower values enable the encoder to use less complicated encoding algorithms. Using simpler algorithms produces lower-quality output, but the encoding process is faster and requires less processing power.
 

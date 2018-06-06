@@ -51,15 +51,15 @@ The following properties, methods, and events are required for implementing the 
 | [**RemoveFromSelection**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionitemprovider-removefromselection)                                                        | Method      | None  |
 | [**Select**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionitemprovider-select)                                                                                  | Method      | None  |
 | [**SelectionContainer**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionitemprovider-get_selectioncontainer)                                                          | Property    | None  |
-| [**UIA\_SelectionItem\_ElementAddedToSelectionEventId**](https://www.bing.com/search?q=**UIA\_SelectionItem\_ElementAddedToSelectionEventId**)         | Event       | None  |
-| [**UIA\_SelectionItem\_ElementRemovedFromSelectionEventId**](https://www.bing.com/search?q=**UIA\_SelectionItem\_ElementRemovedFromSelectionEventId**) | Event       | None  |
-| [**UIA\_SelectionItem\_ElementSelectedEventId**](https://www.bing.com/search?q=**UIA\_SelectionItem\_ElementSelectedEventId**)                         | Event       | None  |
+| [**UIA\_SelectionItem\_ElementAddedToSelectionEventId**](uiauto-event-ids.md#uia-selectionitem-elementaddedtoselectioneventid)         | Event       | None  |
+| [**UIA\_SelectionItem\_ElementRemovedFromSelectionEventId**](uiauto-event-ids.md#uia-selectionitem-elementremovedfromselectioneventid) | Event       | None  |
+| [**UIA\_SelectionItem\_ElementSelectedEventId**](uiauto-event-ids.md#uia-selectionitem-elementselectedeventid)                         | Event       | None  |
 
 
 
  
 
-If the result of a [**Select**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionitempattern-select), an [**AddToSelection**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionitempattern-addtoselection), or a [**RemoveFromSelection**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionitempattern-removefromselection) is a single selected item, an **ElementSelected** event ([**UIA\_SelectionItem\_ElementSelectedEventId**](https://www.bing.com/search?q=**UIA\_SelectionItem\_ElementSelectedEventId**)) should be raised; otherwise raise **ElementAddedToSelection** ([**UIA\_SelectionItem\_ElementAddedToSelectionEventId**](https://www.bing.com/search?q=**UIA\_SelectionItem\_ElementAddedToSelectionEventId**)) or **ElementRemovedFromSelection** ([**UIA\_SelectionItem\_ElementRemovedFromSelectionEventId**](https://www.bing.com/search?q=**UIA\_SelectionItem\_ElementRemovedFromSelectionEventId**)) events as appropriate.
+If the result of a [**Select**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionitempattern-select), an [**AddToSelection**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionitempattern-addtoselection), or a [**RemoveFromSelection**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionitempattern-removefromselection) is a single selected item, an **ElementSelected** event ([**UIA\_SelectionItem\_ElementSelectedEventId**](uiauto-event-ids.md#uia-selectionitem-elementselectedeventid)) should be raised; otherwise raise **ElementAddedToSelection** ([**UIA\_SelectionItem\_ElementAddedToSelectionEventId**](uiauto-event-ids.md#uia-selectionitem-elementaddedtoselectioneventid)) or **ElementRemovedFromSelection** ([**UIA\_SelectionItem\_ElementRemovedFromSelectionEventId**](uiauto-event-ids.md#uia-selectionitem-elementremovedfromselectioneventid)) events as appropriate.
 
 ## Related topics
 

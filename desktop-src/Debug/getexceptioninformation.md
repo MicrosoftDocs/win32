@@ -84,7 +84,7 @@ In the case of nested handlers, each filter expression is evaluated until one is
 [Structured Exception Handling Overview](structured-exception-handling.md)
 </dt> <dt>
 
-[Enable Windows Support for Intel AVX](https://msdn.microsoft.com/windows/desktop/fe19e337-3109-42d6-a704-70662ac7c684)
+[Enable Windows Support for Intel AVX](https://msdn.microsoft.com/fe19e337-3109-42d6-a704-70662ac7c684)
 </dt> </dl>
 
  

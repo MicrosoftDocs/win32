@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # BCM\_SETDROPDOWNSTATE message
 
-Sets the drop down state for a button with style [**TBSTYLE\_DROPDOWN**](https://www.bing.com/search?q=**TBSTYLE\_DROPDOWN**). Send this message explicitly or by using the [**Button\_SetDropDownState**](/windows/desktop/api/Commctrl/nf-commctrl-button_setdropdownstate) macro.
+Sets the drop down state for a button with style [**TBSTYLE\_DROPDOWN**](toolbar-control-and-button-styles.md#tbstyle-dropdown). Send this message explicitly or by using the [**Button\_SetDropDownState**](/windows/desktop/api/Commctrl/nf-commctrl-button_setdropdownstate) macro.
 
 ## Parameters
 

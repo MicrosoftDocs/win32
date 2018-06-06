@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The Windows software trace processor (WPP) provides an efficient mechanism to log events that occur during the execution of an application or driver. WPP uses the ETW API.
 
-For details on using WPP to log events, see [WPP Software Tracing](https://www.bing.com/search?q=WPP Software Tracing) and [Software Tracing FAQ](https://www.bing.com/search?q=Software Tracing FAQ) in the Microsoft Windows Driver Development Kit (DDK).
+For details on using WPP to log events, see [WPP Software Tracing](https://www.bing.com/search?q=WPP+Software+Tracing) and [Software Tracing FAQ](https://www.bing.com/search?q=Software+Tracing+FAQ) in the Microsoft Windows Driver Development Kit (DDK).
 
  
 

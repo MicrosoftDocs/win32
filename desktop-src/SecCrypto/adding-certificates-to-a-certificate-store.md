@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the .NET Framework to implement security features. For more information, see [Alternatives to Using CAPICOM](alternatives-to-using-capicom.md).\]
 
-[*Certificates*](https://www.bing.com/search?q=*Certificates*) can be added to or removed from [*certificate stores*](https://www.bing.com/search?q=*certificate stores*) if the store is opened with read/write permission. Read/write permission is not granted to Active Directory stores. While certificates can be added to or removed from memory stores, changes in memory stores are not persisted between sessions.
+[*Certificates*](security.c_gly#-security-certificate-gly) can be added to or removed from [*certificate stores*](security.c_gly#-security-certificate-store-gly) if the store is opened with read/write permission. Read/write permission is not granted to Active Directory stores. While certificates can be added to or removed from memory stores, changes in memory stores are not persisted between sessions.
 
 Certificates can be added to a certificate store that is opened with read/write permission by using the **Add** method. A certificate can be removed from a certificate store that is opened with read/write permission by using the **Remove** method. New stores can be created and saved in the CAPICOM\_CURRENT\_USER\_STORE and CAPICOM\_LOCAL\_MACHINE\_STORE locations. Newly created stores in either of these locations can be opened with read/write permission.
 

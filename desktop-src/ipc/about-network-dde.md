@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 
 Network DDE is used to initiate and maintain the network connections needed for DDE conversations between applications running on different computers in a network. A DDE *conversation* is the interaction between client and server applications. You use network DDE along with DDE and the DDE management library (DDEML) in your application.
 
-DDE is a form of interprocess communication that uses shared memory to exchange data between applications. Applications can use DDE for one time data transfers or for ongoing exchanges and updating data. For more information on DDE, see [Dynamic Data Exchange](https://www.bing.com/search?q=Dynamic Data Exchange).
+DDE is a form of interprocess communication that uses shared memory to exchange data between applications. Applications can use DDE for one time data transfers or for ongoing exchanges and updating data. For more information on DDE, see [Dynamic Data Exchange](https://www.bing.com/search?q=Dynamic+Data+Exchange).
 
-DDEML simplifies the task of adding DDE capability to an application. Instead of sending, posting, and processing DDE messages directly, an application uses the functions provided by the DDEML to manage DDE conversations. For more information on DDEML, see [Dynamic Data Exchange Management Library](https://www.bing.com/search?q=Dynamic Data Exchange Management Library).
+DDEML simplifies the task of adding DDE capability to an application. Instead of sending, posting, and processing DDE messages directly, an application uses the functions provided by the DDEML to manage DDE conversations. For more information on DDEML, see [Dynamic Data Exchange Management Library](https://www.bing.com/search?q=Dynamic+Data+Exchange+Management+Library).
 
 ## Network DDE Files
 

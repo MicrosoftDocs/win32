@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ISCrdEnr::CSPCount property
 
-The **CSPCount** property retrieves the number of [*cryptographic service providers*](https://www.bing.com/search?q=*cryptographic service providers*) (CSPs).
+The **CSPCount** property retrieves the number of [*cryptographic service providers*](security.c_gly#-security-cryptographic-service-provider-gly) (CSPs).
 
 This property is read-only.
 

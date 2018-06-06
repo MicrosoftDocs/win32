@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # D3DX10ReflectShader function
 
-This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- no longer exists. Instead, use [**D3DReflect**](https://msdn.microsoft.com/windows/desktop/601cc907-2878-4c9b-bc48-0575fd4479e8) or [**D3D11Reflect**](https://msdn.microsoft.com/windows/desktop/855097c7-988b-4ab6-90c5-e5dd0bc9e1e0).
+This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- no longer exists. Instead, use [**D3DReflect**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dreflect.htm) or [**D3D11Reflect**](https://msdn.microsoft.com/855097c7-988b-4ab6-90c5-e5dd0bc9e1e0).
 
 ## Syntax
 
@@ -35,14 +35,14 @@ HRESULT D3DX10ReflectShader(
 
 Type: **const void\***
 
-A pointer to the compiled shader. To get this pointer see [Getting a Pointer to a Compiled Shader](https://msdn.microsoft.com/windows/desktop/cff6f901-cb9b-44d5-a75b-9a4029a37215).
+A pointer to the compiled shader. To get this pointer see [Getting a Pointer to a Compiled Shader](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_using_shaders_10.htm).
 
 </dd> <dt>
 
 *BytecodeLength* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Length of pShaderBytecode.
 

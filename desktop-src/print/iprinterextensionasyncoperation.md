@@ -15,7 +15,7 @@ Provides the context associated with an asynchronous operation.
 
 ## Members
 
-The **IPrinterExtensionAsyncOperation** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrinterExtensionAsyncOperation** also has these types of members:
+The **IPrinterExtensionAsyncOperation** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrinterExtensionAsyncOperation** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -35,7 +35,7 @@ The **IPrinterExtensionAsyncOperation** interface has these methods.
 
 ## Remarks
 
-**IPrinterExtensionAsyncOperation** also helps to make it possible to perform device maintenance from a UWP device app or from a printer extension. For more information, see [Device Maintenance](https://www.bing.com/search?q=Device Maintenance).
+**IPrinterExtensionAsyncOperation** also helps to make it possible to perform device maintenance from a UWP device app or from a printer extension. For more information, see [Device Maintenance](https://www.bing.com/search?q=Device+Maintenance).
 
 ## Requirements
 
@@ -53,7 +53,7 @@ The **IPrinterExtensionAsyncOperation** interface has these methods.
 
 <dl> <dt>
 
-[Device Maintenance](https://www.bing.com/search?q=Device Maintenance)
+[Device Maintenance](https://www.bing.com/search?q=Device+Maintenance)
 </dt> <dt>
 
 [**SendBidiSetRequestAsync**](iprinterqueue2-sendbidisetrequestasync.md)

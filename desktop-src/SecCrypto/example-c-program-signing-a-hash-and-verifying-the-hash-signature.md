@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Example C Program: Signing a Hash and Verifying the Hash Signature
 
-The following example [*hashes*](https://www.bing.com/search?q=*hashes*) some data and signs that hash. In a second phase, the hash and its signature are verified. The hash is signed with the user's [*private key*](https://www.bing.com/search?q=*private key*), and the signer's [*public key*](https://www.bing.com/search?q=*public key*) is exported so that the signature can be verified.
+The following example [*hashes*](security.h_gly#-security-hash-gly) some data and signs that hash. In a second phase, the hash and its signature are verified. The hash is signed with the user's [*private key*](security.p_gly#-security-private-key-gly), and the signer's [*public key*](security.p_gly#-security-public-key-gly) is exported so that the signature can be verified.
 
-This example illustrates the following tasks and [*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) functions:
+This example illustrates the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
 -   Acquiring a CSP using [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta).
 -   Getting the user's AT\_SIGNATURE key pair using [**CryptGetUserKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey).

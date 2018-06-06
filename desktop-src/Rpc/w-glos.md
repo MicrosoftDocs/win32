@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_rpc_well_known_endpoint_glos"></span><span id="_RPC_WELL_KNOWN_ENDPOINT_GLOS"></span>**well-known endpoint**
 </dt> <dd>
 
-[*Endpoint*](https://www.bing.com/search?q=*Endpoint*) that does not change. Well-known endpoint information is stored as part of the [*binding handle*](https://www.bing.com/search?q=*binding handle*), or within the name service–database server entry. See also [*dynamic endpoint*](https://www.bing.com/search?q=*dynamic endpoint*).
+[*Endpoint*](e-glos.md#-rpc-endpoint-glos) that does not change. Well-known endpoint information is stored as part of the [*binding handle*](b-glos.md#-rpc-binding-handle-glos), or within the name service–database server entry. See also [*dynamic endpoint*](d-glos.md#-rpc-dynamic-endpoint-glos).
 
 </dd> </dl>
 

@@ -41,7 +41,7 @@ The **DrvSplAbort** function enables a user-mode rendering DLL to respond to a r
 
 ### Comments
 
-To supply user-mode image-rendering code for printers, see [Choosing User Mode or Kernel Mode](https://www.bing.com/search?q=Choosing User Mode or Kernel Mode).
+To supply user-mode image-rendering code for printers, see [Choosing User Mode or Kernel Mode](https://www.bing.com/search?q=Choosing+User+Mode+or+Kernel+Mode).
 
 ## Requirements
 

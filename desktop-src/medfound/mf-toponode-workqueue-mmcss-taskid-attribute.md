@@ -26,7 +26,7 @@ This attribute is ignored unless the following attributes are also set:
 -   [**MF\_TOPONODE\_WORKQUEUE\_ID**](mf-toponode-workqueue-id-attribute.md)
 -   [**MF\_TOPONODE\_WORKQUEUE\_MMCSS\_CLASS**](mf-toponode-workqueue-mmcss-class-attribute.md)
 
-If the application registers one of its own threads with MMCSS, you can use this attribute to associate the topology work queue with the application's MMCSS group. Set the attribute value equal to the task identifier that the application received when it registered with MMCSS. (The task identifier is returned in the *TaskIndex* parameter of the [**AvSetMmThreadCharacteristics**](https://msdn.microsoft.com/windows/desktop/881d3f97-e68e-40cb-b799-76784185dd37) function. For more information, see the topic [Process and Thread Functions](https://msdn.microsoft.com/windows/desktop/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd).)
+If the application registers one of its own threads with MMCSS, you can use this attribute to associate the topology work queue with the application's MMCSS group. Set the attribute value equal to the task identifier that the application received when it registered with MMCSS. (The task identifier is returned in the *TaskIndex* parameter of the [**AvSetMmThreadCharacteristics**](https://msdn.microsoft.com/881d3f97-e68e-40cb-b799-76784185dd37) function. For more information, see the topic [Process and Thread Functions](https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd).)
 
 If you want MMCSS to assign a new task identifier for the topology, set the [**MF\_TOPONODE\_WORKQUEUE\_MMCSS\_CLASS**](mf-toponode-workqueue-mmcss-class-attribute.md) attribute, but do not set the **MF\_TOPONODE\_WORKQUEUE\_MMCSS\_TASKID** attribute.
 

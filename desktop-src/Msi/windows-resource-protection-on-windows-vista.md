@@ -17,9 +17,9 @@ WRP in Windows Server 2008 and Windows Vista replaces Windows File Protection 
 
 -   When running on Windows Server 2008 and later or Windows Vista and later, the Windows Installer skips the installation of any file that is protected by WRP, the installer enters a warning in the log file, and continues with the remainder of the installation without an error. In Windows Server 2003, Windows XP, and Windows 2000, when the Windows Installer encountered a WFP-protected file, the installer would request that WFP install the file.
 -   WRP on Windows Server 2008 and later or Windows Vista and later can protect registry keys in addition to files. If the Windows Installer encounters a WRP-protected registry key, the installer skips the installation of that registry key, the installer enters a warning in the log file, and continues with the remainder of the installation without an error.
--   Note that if a Windows Installer component contains a file or registry key that is protected by WRP, this resource must be used as the KeyPath for the component. In this case, Windows Installer does not install, update, or remove the component. You should not include any protected resources in an installation package. Instead, you should use the [supported resource replacement mechanisms](https://msdn.microsoft.com/windows/desktop/a757e6cf-59df-4894-a0dc-40174b0aa147) for [Windows Resource Protection](https://msdn.microsoft.com/windows/desktop/27df9300-8bea-4748-9acd-2c1625093ece).
+-   Note that if a Windows Installer component contains a file or registry key that is protected by WRP, this resource must be used as the KeyPath for the component. In this case, Windows Installer does not install, update, or remove the component. You should not include any protected resources in an installation package. Instead, you should use the [supported resource replacement mechanisms](https://msdn.microsoft.com/a757e6cf-59df-4894-a0dc-40174b0aa147) for [Windows Resource Protection](https://msdn.microsoft.com/27df9300-8bea-4748-9acd-2c1625093ece).
 
-For more information about WRP, see [Windows Resource Protection](https://www.bing.com/search?q=Windows Resource Protection) and information that is provided on [Microsoft Technet](http://go.microsoft.com/fwlink/p/?LinkID=53781).
+For more information about WRP, see [Windows Resource Protection](https://www.bing.com/search?q=Windows+Resource+Protection) and information that is provided on [Microsoft Technet](http://go.microsoft.com/fwlink/p/?LinkID=53781).
 
 ## WFP for Windows Server 2003 and Windows XP/2000
 
@@ -51,7 +51,7 @@ Note that unmanaged shared side-by-side assemblies, installed in %windir%\\winsx
 
 <dl> <dt>
 
-[Windows Resource Protection](https://www.bing.com/search?q=Windows Resource Protection)
+[Windows Resource Protection](https://www.bing.com/search?q=Windows+Resource+Protection)
 </dt> </dl>
 
  

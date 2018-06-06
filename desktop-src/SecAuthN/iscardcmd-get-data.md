@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardCmd::get\_Data method
 
-\[The **get\_Data** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **get\_Data** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **get\_Data** method retrieves the data field from the [*application protocol data unit*](https://www.bing.com/search?q=*application protocol data unit*) (APDU), placing it in a byte buffer object.
+The **get\_Data** method retrieves the data field from the [*application protocol data unit*](security.a_gly#-security-application-protocol-data-unit-gly) (APDU), placing it in a byte buffer object.
 
 ## Syntax
 
@@ -60,11 +60,11 @@ To set the data field of the APDU, call [**put\_Data**](iscardcmd-put-data.md).
 
 For a list of all the methods provided by this interface, see [**ISCardCmd**](iscardcmd.md).
 
-In addition to the COM error codes listed above, this interface may return a [*smart card*](https://www.bing.com/search?q=*smart card*) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](https://www.bing.com/search?q=Smart Card Return Values).
+In addition to the COM error codes listed above, this interface may return a [*smart card*](security.s_gly#-security-smart-card-gly) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
 
 ## Examples
 
-The following example shows how to retrieve the data field of the [*application protocol data unit*](https://www.bing.com/search?q=*application protocol data unit*) (APDU). The example assumes that pIByteData is a valid pointer to an instance of the [**IByteBuffer**](ibytebuffer.md) interface, and that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
+The following example shows how to retrieve the data field of the [*application protocol data unit*](security.a_gly#-security-application-protocol-data-unit-gly) (APDU). The example assumes that pIByteData is a valid pointer to an instance of the [**IByteBuffer**](ibytebuffer.md) interface, and that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
 
 
 ```C++

@@ -23,7 +23,7 @@ In windowed/compatibility mode, the VMR-7 creates its own window to display the 
 
 The following illustration shows the VMR-7 in windowed/compatibility mode.
 
-![vmr in compatibility mode](https://www.bing.com/search?q=vmr in compatibility mode)
+![vmr in compatibility mode](https://www.bing.com/search?q=vmr+in+compatibility+mode)
 
 To guarantee the maximum level of compatibility, the video window has the same class name as the one created by the old Video Renderer filter, and most of the Window Manager code from the old Video Renderer is still used by the VMR. In windowed/compatibility mode, the VMR consumes no more system resources than the old Video Renderer. Since the VMR-7 has only one input stream in windowed/compatibility mode, it does not load its mixer or compositor components.
 

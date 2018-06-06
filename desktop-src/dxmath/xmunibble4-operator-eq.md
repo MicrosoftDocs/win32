@@ -32,7 +32,7 @@ Assigns vector component data to the current instance of [**XMUNIBBLE4**](/windo
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUNIBBLE4::operator = (const uint16_t)</strong>](https://www.bing.com/search?q=<strong>XMUNIBBLE4::operator = (const uint16_t)</strong>)</td>
+<td style="text-align: left;">[<strong>XMUNIBBLE4::operator = (const uint16_t)</strong>](https://www.bing.com/search?q=<strong>XMUNIBBLE4::operator+=+(const+uint16_t)</strong>)</td>
 <td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <code>XMUNIBBLE4</code>. <br/>
 <blockquote>
 [!Note]<br />
@@ -41,7 +41,7 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMUNIBBLE4::operator = (const XMUNIBBLE4&amp;)</strong>](https://www.bing.com/search?q=<strong>XMUNIBBLE4::operator = (const XMUNIBBLE4&amp;)</strong>)</td>
+<td style="text-align: left;">[<strong>XMUNIBBLE4::operator = (const XMUNIBBLE4&amp;)</strong>](https://www.bing.com/search?q=<strong>XMUNIBBLE4::operator+=+(const+XMUNIBBLE4&amp;)</strong>)</td>
 <td style="text-align: left;">Assigns the vector component data from one instance of <code>XMUNIBBLE4</code> to the current instance of <code>XMUNIBBLE4</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMUNIBBLE4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmunibble4) to the current instance of <code>XMUNIBBLE4</code>. <br/></td>
 </tr>
 </tbody>

@@ -19,7 +19,7 @@ Windows 7 combines software and services to create exciting new experiences for
 
 Through the Device Experience Platform, every Windows session becomes a portal for customers to get more value from their devices. The Device Experience Platform enables users to connect with the device manufacturer, discover and use related services, and learn about accessories. Because the device experience is connected to Microsoft's web services, device companies can update the experience even after devices have been shipped to consumers. The Device Experience Platform can generate an application-like experience for Windows*Logo'd* devices, such as a mobile phones.
 
-The Device Experience Platform gives applications access to devices such as mobile phones and media players that implement services through the *Media Transfer Protocol (MTP)* or the [Windows Portable Devices](https://www.bing.com/search?q=Windows Portable Devices) driver model.
+The Device Experience Platform gives applications access to devices such as mobile phones and media players that implement services through the *Media Transfer Protocol (MTP)* or the [Windows Portable Devices](https://www.bing.com/search?q=Windows+Portable+Devices) driver model.
 
 To enable the synchronization of personal information between a PC and a device, the Device Experience Platform hosts a new synchronization platform for connected devices, and provides a user interface for selecting target applications for data synchronization such as **Contacts**, **Calendar**, and **Tasks**. (See [Windows Device Experience](http://go.microsoft.com/?linkid=9669724).)
 

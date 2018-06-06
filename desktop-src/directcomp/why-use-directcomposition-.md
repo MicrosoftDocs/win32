@@ -26,7 +26,7 @@ This topic describes the capabilities and benefits of Microsoft DirectCompositio
 
 ## Create a visually engaging user interface
 
-DirectComposition lets you combine and animate [*visuals*](https://www.bing.com/search?q=*visuals*) to create a visually engaging UI for your Windows-based applications. It can help give your application a unique look and feel, establishing an identity that sets it apart from other applications.
+DirectComposition lets you combine and animate [*visuals*](directcomposition-glossary.md#directcomp-glossary-visual) to create a visually engaging UI for your Windows-based applications. It can help give your application a unique look and feel, establishing an identity that sets it apart from other applications.
 
 DirectComposition can also help make your applications easier to use. For example, you can use it to create visual cues and animated screen transitions that show relationships among items on the screen.
 

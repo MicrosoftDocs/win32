@@ -66,7 +66,7 @@ The **Enumerator** object has these properties.
 
 ## Remarks
 
-To start an enumeration, use [**Session.Enumerate**](session-enumerate.md). To do a [*WS-Enumeration:*](https://www.bing.com/search?q=*WS-Enumeration:*)[*Pull*](https://www.bing.com/search?q=*Pull*) operation that continues reading items in the enumeration, use [**Enumerator.ReadItem**](enumerator-readitem.md).
+To start an enumeration, use [**Session.Enumerate**](session-enumerate.md). To do a [*WS-Enumeration:*](windows-remote-management-glossary.md#winrm-gloss-ws-enumeration)[*Pull*](windows-remote-management-glossary.md#winrm-gloss-pull) operation that continues reading items in the enumeration, use [**Enumerator.ReadItem**](enumerator-readitem.md).
 
 The **Enumerator** object corresponds to the [**IWSManEnumerator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanenumerator) interface.
 

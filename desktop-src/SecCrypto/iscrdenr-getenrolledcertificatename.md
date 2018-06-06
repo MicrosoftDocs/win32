@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **getEnrolledCertificateName** method retrieves the name of the certificate resulting from an earlier successful call to [**ISCrdEnr::enroll**](/windows/desktop/api/certenroll/).
 
-This method can also be used to display the certificate in a dialog box. This method calls the [*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) function [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa).
+This method can also be used to display the certificate in a dialog box. This method calls the [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) function [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa).
 
 ## Syntax
 

@@ -21,7 +21,7 @@ Long names are used by the installer if the **SHORTFILENAMES** property is not s
 
 When the **SHORTFILENAMES** property is set, the installer creates folders and installs files using short file names from any short\|long pairs listed in the [File table](file-table.md) or [Directory table](directory-table.md).
 
-Applications can use the [**GetShortPathName**](https://msdn.microsoft.com/windows/desktop/15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7) function to retrieve the short path form of a specified file path.
+Applications can use the [**GetShortPathName**](https://msdn.microsoft.com/15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7) function to retrieve the short path form of a specified file path.
 
 ## Requirements
 

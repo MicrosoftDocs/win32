@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 
 # Session.Create method
 
-Creates a new instance of a resource and returns the [*endpoint reference (EPR)*](https://www.bing.com/search?q=*endpoint reference (EPR)*) of the new object.
+Creates a new instance of a resource and returns the [*endpoint reference (EPR)*](windows-remote-management-glossary.md#winrm-gloss-endpoint-reference) of the new object.
 
 ## Syntax
 
@@ -53,9 +53,9 @@ Identifier of the resource to create.
 
 This parameter can contain one of the following:
 
--   URI with one or more [*selectors*](https://www.bing.com/search?q=*selectors*). Be aware that the [*WMI plug-in*](https://www.bing.com/search?q=*WMI plug-in*) does not support creating any resource other than a [WS-Management Protocol](ws-management-protocol.md) listener.
--   [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](https://www.bing.com/search?q=*fragments*), or [*options*](https://www.bing.com/search?q=*options*).
--   [*WS-Addressing*](https://www.bing.com/search?q=*WS-Addressing*) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=96658).
+-   URI with one or more [*selectors*](windows-remote-management-glossary.md#winrm-gloss-selector). Be aware that the [*WMI plug-in*](windows-remote-management-glossary.md#winrm-gloss-wmi-plug-in) does not support creating any resource other than a [WS-Management Protocol](ws-management-protocol.md) listener.
+-   [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](windows-remote-management-glossary.md#winrm-gloss-fragment), or [*options*](windows-remote-management-glossary.md#winrm-gloss-option).
+-   [*WS-Addressing*](windows-remote-management-glossary.md#winrm-gloss-ws-addressing) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=96658).
 
 </dd> <dt>
 
@@ -79,9 +79,9 @@ The EPR of the new resource.
 
 ## Remarks
 
-**Session.Create** is only used for creating new instances of a resource. Use the [**Session.Put**](session-put.md) method to update existing instances of a resource. After you obtain the new resource URI, you can call [**Session.Get**](session-get.md) to retrieve the new object. The new object contains any properties that the resource provider assigns when creating the new object. For example, if you create a new WS-Management protocol [*listener*](https://www.bing.com/search?q=*listener*) and retrieve the listener object using **Session.Get**, then you also obtain the **Port**, **Enabled**, and **ListeningOn** properties.
+**Session.Create** is only used for creating new instances of a resource. Use the [**Session.Put**](session-put.md) method to update existing instances of a resource. After you obtain the new resource URI, you can call [**Session.Get**](session-get.md) to retrieve the new object. The new object contains any properties that the resource provider assigns when creating the new object. For example, if you create a new WS-Management protocol [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener) and retrieve the listener object using **Session.Get**, then you also obtain the **Port**, **Enabled**, and **ListeningOn** properties.
 
-Be aware that the [*WMI plug-in*](https://www.bing.com/search?q=*WMI plug-in*) does not support creating any resource other than a WS-Management protocol listener.
+Be aware that the [*WMI plug-in*](windows-remote-management-glossary.md#winrm-gloss-wmi-plug-in) does not support creating any resource other than a WS-Management protocol listener.
 
 The following syntax is used to call this method.
 

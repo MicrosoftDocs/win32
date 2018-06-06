@@ -42,7 +42,7 @@ The cursor position included in the composition string status is a value indicat
 
 Your application can set the composition string or elements of the composition status by using the [**ImmSetCompositionString**](/windows/desktop/api/Imm/nf-imm-immsetcompositionstringa) function. To ensure that the composition window updates its appearance based on these changes, the function allows the application to send a notification message to the window. Applications that set a combination of composition status elements typically disable notifications for all but the last call to this function so that only one notification message is generated for the composition window.
 
-Finally, the edit control supports two messages for changing the handling of composition strings by the IME. For more information, see [**EM\_GETIMESTATUS**](https://www.bing.com/search?q=**EM\_GETIMESTATUS**) and [**EM\_SETIMESTATUS**](https://www.bing.com/search?q=**EM\_SETIMESTATUS**). For more information on the edit control, see [Edit Control](https://www.bing.com/search?q=Edit Control).
+Finally, the edit control supports two messages for changing the handling of composition strings by the IME. For more information, see [**EM\_GETIMESTATUS**](https://www.bing.com/search?q=**EM\_GETIMESTATUS**) and [**EM\_SETIMESTATUS**](https://www.bing.com/search?q=**EM\_SETIMESTATUS**). For more information on the edit control, see [Edit Control](https://www.bing.com/search?q=Edit+Control).
 
 ## Related topics
 

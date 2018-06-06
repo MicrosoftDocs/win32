@@ -37,16 +37,16 @@ HRESULT D3DXCreatePRTCompBuffer(
 *Quality* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXSHCOMPRESSQUALITYTYPE**](https://msdn.microsoft.com/windows/desktop/214d6efb-419d-4eea-8360-322885c26bc3)**
+Type: **[**D3DXSHCOMPRESSQUALITYTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxshcompressqualitytype.htm)**
 
-Quality of spherical harmonic (SH) compression. See [**D3DXSHCOMPRESSQUALITYTYPE**](https://msdn.microsoft.com/windows/desktop/214d6efb-419d-4eea-8360-322885c26bc3).
+Quality of spherical harmonic (SH) compression. See [**D3DXSHCOMPRESSQUALITYTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxshcompressqualitytype.htm).
 
 </dd> <dt>
 
 *NumClusters* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of clusters to use for compression.
 
@@ -55,7 +55,7 @@ Number of clusters to use for compression.
 *NumPCA* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of principal component analysis (PCA) basis vectors to use in each cluster.
 
@@ -73,7 +73,7 @@ Optional pointer to the [LPD3DXSHPRTSIMCB](lpd3dxshprtsimcb.md) callback functio
 *lpUserContext* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Optional pointer to a user-defined value passed to the [LPD3DXSHPRTSIMCB](lpd3dxshprtsimcb.md) callback function. Typically used by an application to pass a pointer to a data structure that provides context information for the callback function. May be **NULL**.
 

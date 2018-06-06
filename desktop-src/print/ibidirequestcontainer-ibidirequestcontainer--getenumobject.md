@@ -37,7 +37,7 @@ Pointer to the variable that receives a pointer to the [**IEnumUnknown**](https:
 
 ## Return value
 
-The method returns one of the following values. For more information about COM error codes, see [Error Handling](https://www.bing.com/search?q=Error Handling).
+The method returns one of the following values. For more information about COM error codes, see [Error Handling](https://www.bing.com/search?q=Error+Handling).
 
 
 
@@ -76,7 +76,7 @@ An application can call [**IEnumUnknown::Next**](https://www.bing.com/search?q=*
 [Bidirectional Communication Interfaces](bidirectional-communication-interfaces.md)
 </dt> <dt>
 
-[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional Communication Schema)
+[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional+Communication+Schema)
 </dt> <dt>
 
 [**IBidiRequestContainer**](ibidirequestcontainer.md)

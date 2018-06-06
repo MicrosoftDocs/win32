@@ -28,7 +28,7 @@ This set of topics discusses how to implement the extension handlers that allow 
 | [Property sheet handler](propsheet-handlers.md)      | Called before an object's **Properties** property sheet is displayed. It enables you to add or replace pages.                                                              |
 | [**Thumbnail Image handler**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider) | Provides an image to represent the item.                                                                                                                                   |
 | [**Infotip handler**](/windows/desktop/api/Shlobj_core/)                 | Provides pop-up text when the user hovers the mouse pointer over the object.                                                                                               |
-| [**Metadata handler**](https://msdn.microsoft.com/windows/desktop/0ea3e1e0-c135-4138-81e4-f72412fc3128)       | Provides read and write access to metadata (properties) stored in a file. This can be used to extend the Details view, infotips, the property page, and grouping features. |
+| [**Metadata handler**](https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128)       | Provides read and write access to metadata (properties) stored in a file. This can be used to extend the Details view, infotips, the property page, and grouping features. |
 
 
 
@@ -40,11 +40,11 @@ Others are not associated with a particular file type but are called before some
 
 | Handler                                                            | Description                                                                                                                                  |
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| [Column handler](https://msdn.microsoft.com/windows/desktop/805e0e13-d09e-40f8-955b-c585f388e07e)                             | Called by Windows Explorer before it displays the Details view of a folder. It enables you to add custom columns to the Details view.        |
+| [Column handler](https://msdn.microsoft.com/805e0e13-d09e-40f8-955b-c585f388e07e)                             | Called by Windows Explorer before it displays the Details view of a folder. It enables you to add custom columns to the Details view.        |
 | [Copy hook handler](how-to-create-copy-hook-handlers.md)          | Called when a folder or printer object is about to be moved, copied, deleted, or renamed. It enables you to approve or veto the operation.   |
 | [Drag-and-drop handler](context-menu-handlers.md)                 | Called when a file is dragged with the right mouse button. It enables you to modify the shortcut menu that is displayed.                     |
 | [Icon Overlay handler](how-to-implement-icon-overlay-handlers.md) | Called before a file's icon is displayed. It enables you to specify an overlay for the file's icon.                                          |
-| [Search handler](https://msdn.microsoft.com/windows/desktop/ffd023bb-16ab-43ce-b00b-5e32656c8013)                             | Called to launch a search engine. It enables you to implement a custom search engine accessible from the **Start** menu or Windows Explorer. |
+| [Search handler](https://msdn.microsoft.com/ffd023bb-16ab-43ce-b00b-5e32656c8013)                             | Called to launch a search engine. It enables you to implement a custom search engine accessible from the **Start** menu or Windows Explorer. |
 
 
 

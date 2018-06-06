@@ -20,7 +20,7 @@ When an application uses the state manager to implement custom callbacks, an eff
 
 ## Members
 
-The **ID3DXEffectStateManager** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ID3DXEffectStateManager** also has these types of members:
+The **ID3DXEffectStateManager** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ID3DXEffectStateManager** also has these types of members:
 
 -   [Methods](#methods)
 

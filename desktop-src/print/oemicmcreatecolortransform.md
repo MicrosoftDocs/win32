@@ -67,11 +67,11 @@ HANDLE APIENTRY OEMIcmCreateColorTransform(
 
 ### Comments
 
-See [**DrvIcmCreateColorTransform**](https://www.bing.com/search?q=**DrvIcmCreateColorTransform**).
+See [**DrvIcmCreateColorTransform**](https://msdn.microsoft.com/a4fda665-ba26-4799-820d-c4d82a58d6fd).
 
 This function is not supported on Windows NT 4.0 and earlier.
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the drawing DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvIcmCreateColorTransform** function pointer.
 

@@ -42,7 +42,7 @@ The following is a list of WMI security objects:
 
 The following diagram shows the relationships among WMI security objects.
 
-![relationships among wmi security objects](https://www.bing.com/search?q=relationships among wmi security objects)
+![relationships among wmi security objects](https://www.bing.com/search?q=relationships+among+wmi+security+objects)
 
 For more information about the role of access security, see [Security Best Practices](https://msdn.microsoft.com/library/windows/desktop/ms717796), [Maintaining WMI Security](maintaining-wmi-security.md), and [Access Control](https://msdn.microsoft.com/library/windows/desktop/aa374860).
 
@@ -88,7 +88,7 @@ Each user account or group represented by a [**Win32\_Trustee**](https://msdn.mi
 
 The following diagram shows the contents of one [**Win32\_ACE**](https://msdn.microsoft.com/library/aa394063) instance.
 
-![contents of one win32\-ace instance](https://www.bing.com/search?q=contents of one win32\-ace instance)
+![contents of one win32\-ace instance](https://www.bing.com/search?q=contents+of+one+win32\-ace+instance)
 
 ## Example: Checking Who has Access to Printers
 

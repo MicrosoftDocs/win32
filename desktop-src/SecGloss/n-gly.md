@@ -26,7 +26,7 @@ ms.date: 05/31/2018
 <span id="_security_negotiate_gly"></span><span id="_SECURITY_NEGOTIATE_GLY"></span>**Negotiate**
 </dt> <dd>
 
-A [*security support provider*](https://www.bing.com/search?q=*security support provider*) (SSP) that acts as an application layer between [*Security Support Provider Interface*](https://www.bing.com/search?q=*Security Support Provider Interface*) (SSPI) and the other SSPs. When an application calls into SSPI to log on to a network, it can specify an SSP to process the request. If the application specifies Negotiate, Negotiate analyzes the request and picks the best SSP to handle the request based on customer-configured security policy.
+A [*security support provider*](s-gly.md#-security-security-support-provider-gly) (SSP) that acts as an application layer between [*Security Support Provider Interface*](s-gly.md#-security-security-support-provider-interface-gly) (SSPI) and the other SSPs. When an application calls into SSPI to log on to a network, it can specify an SSP to process the request. If the application specifies Negotiate, Negotiate analyzes the request and picks the best SSP to handle the request based on customer-configured security policy.
 
 </dd> <dt>
 

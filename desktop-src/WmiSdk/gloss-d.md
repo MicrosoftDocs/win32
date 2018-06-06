@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 <span id="wmi.gloss_datetime"></span><span id="WMI.GLOSS_DATETIME"></span>**datetime**
 </dt> <dd>
 
-See [*CIM datetime*](https://www.bing.com/search?q=*CIM datetime*).
+See [*CIM datetime*](gloss-c.md#wmi-gloss-cim-datetime).
 
 </dd> <dt>
 
@@ -62,14 +62,14 @@ See *Distributed Management Task Force (DMTF)*.
 <span id="wmi.gloss_dynamic_class"></span><span id="WMI.GLOSS_DYNAMIC_CLASS"></span>**dynamic class**
 </dt> <dd>
 
-A CIM class whose definition is supplied by a [*provider*](https://www.bing.com/search?q=*provider*) at run time, as required. Dynamic classes represent provider-specific [*managed objects*](https://www.bing.com/search?q=*managed objects*) and are not stored in the [*CIM repository*](https://www.bing.com/search?q=*CIM repository*). Dynamic classes support only *dynamic instances*.
+A CIM class whose definition is supplied by a [*provider*](gloss-p.md#wmi-gloss-provider) at run time, as required. Dynamic classes represent provider-specific [*managed objects*](gloss-m.md#wmi-gloss-managed-object) and are not stored in the [*CIM repository*](gloss-c.md#wmi-gloss-cim-repository). Dynamic classes support only *dynamic instances*.
 
 </dd> <dt>
 
 <span id="wmi.gloss_dynamic_instance"></span><span id="WMI.GLOSS_DYNAMIC_INSTANCE"></span>**dynamic instance**
 </dt> <dd>
 
-An instance of a CIM class that is supplied by a [*provider*](https://www.bing.com/search?q=*provider*) when required. It is not stored in the [*CIM repository*](https://www.bing.com/search?q=*CIM repository*). Dynamic instances can be provided for either static or dynamic classes. Dynamically supporting instances of a class enables a provider to supply up-to-the-minute [*property*](https://www.bing.com/search?q=*property*) values.
+An instance of a CIM class that is supplied by a [*provider*](gloss-p.md#wmi-gloss-provider) when required. It is not stored in the [*CIM repository*](gloss-c.md#wmi-gloss-cim-repository). Dynamic instances can be provided for either static or dynamic classes. Dynamically supporting instances of a class enables a provider to supply up-to-the-minute [*property*](gloss-p.md#wmi-gloss-property) values.
 
 </dd> </dl>
 

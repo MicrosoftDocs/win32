@@ -34,7 +34,7 @@ HRESULT CreateGDLSnapshot(
 *pDevmode* \[in\]
 </dt> <dd>
 
-A pointer to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure. If this pointer is provided, `IPrintCoreHelperUni::CreateGDLSnapshot` should use the DEVMODEW structure that is pointed to by *pDevmode* instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider, there is no default DEVMODEW structure and the *pDevmode* parameter is required.
+A pointer to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure. If this pointer is provided, `IPrintCoreHelperUni::CreateGDLSnapshot` should use the DEVMODEW structure that is pointed to by *pDevmode* instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider, there is no default DEVMODEW structure and the *pDevmode* parameter is required.
 
 </dd> <dt>
 

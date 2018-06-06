@@ -51,7 +51,7 @@ An alternate path is used only during a backup operation and should not be confu
 <span id="base.vssgloss_application_level"></span><span id="BASE.VSSGLOSS_APPLICATION_LEVEL"></span>**application level**
 </dt> <dd>
 
-Used by VSS to indicate the point in the course of the creation of a shadow copy that a writer is notified of a freeze. See also [*back-end level applications*](https://www.bing.com/search?q=*back-end level applications*), [*freeze*](https://www.bing.com/search?q=*freeze*), [*front-end level applications*](https://www.bing.com/search?q=*front-end level applications*), [*shadow copy*](https://www.bing.com/search?q=*shadow copy*), [*system-level applications*](https://www.bing.com/search?q=*system-level applications*), [*writer*](https://www.bing.com/search?q=*writer*).
+Used by VSS to indicate the point in the course of the creation of a shadow copy that a writer is notified of a freeze. See also [*back-end level applications*](vssgloss-b.md#base-vssgloss-back-end-level-applications), [*freeze*](vssgloss-f.md#base-vssgloss-freeze), [*front-end level applications*](vssgloss-f.md#base-vssgloss-front-end-level-applications), [*shadow copy*](vssgloss-s.md#base-vssgloss-shadow-copy), [*system-level applications*](vssgloss-s.md#base-vssgloss-system-level-applications), [*writer*](vssgloss-w.md#base-vssgloss-writer).
 
 </dd> <dt>
 
@@ -60,7 +60,7 @@ Used by VSS to indicate the point in the course of the creation of a shadow copy
 
 A shadow copy that has had additional processing by a writer to be in a completely consistent state for backup or data mining actions (for example, rolling back all transactions that did not yet complete at the point that the shadow copy was created.) This can be initiated by a writer by specifying an appropriate flag from the **VSS\_COMPONENT\_FLAGS** enumeration in the **dwComponentFlags** member of the **VSS\_COMPONENTINFO** structure or by a requester by adding the **VSS\_VOLSNAP\_ATTR\_ROLLBACK\_RECOVERY** flag to the context for the shadow copy. Auto-recovery allows the shadow copied data to be used on a read-only volume, for data mining, partial restores (for example selected items in a database), or other purposes.
 
-See also [*transportable shadow copy*](https://www.bing.com/search?q=*transportable shadow copy*).
+See also [*transportable shadow copy*](vssgloss-t.md#base-vssgloss-transportable-shadow-copy).
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ See also [*transportable shadow copy*](https://www.bing.com/search?q=*transporta
 
 A shadow copy that will be deleted upon the termination of a backup operation. Programmatically, this means the shadow copy will be deleted when the **IVssBackupComponents** interface is released. An auto-release shadow copy cannot be persistent.
 
-By default, all shadow copies are auto-release. See also [*persistent shadow copy*](https://www.bing.com/search?q=*persistent shadow copy*), [*transportable shadow copy*](https://www.bing.com/search?q=*transportable shadow copy*).
+By default, all shadow copies are auto-release. See also [*persistent shadow copy*](vssgloss-p.md#base-vssgloss-persistent-shadow-copy), [*transportable shadow copy*](vssgloss-t.md#base-vssgloss-transportable-shadow-copy).
 
 </dd> </dl>
 

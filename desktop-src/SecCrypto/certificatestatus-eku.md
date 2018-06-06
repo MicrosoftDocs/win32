@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CertificateStatus.EKU method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](https://www.bing.com/search?q=**X509ChainStatus Structure**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](https://www.bing.com/search?q=**X509ChainStatus+Structure**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
 The **EKU** method returns the [**EKU**](eku.md) object used to build the [**Chain**](chain.md) object.
 
@@ -30,7 +30,7 @@ This method has no parameters.
 
 ## Return value
 
-This method returns an [**EKU**](eku.md) object that indicates the extended key usage setting of the [*certificate*](https://www.bing.com/search?q=*certificate*). The EKU setting establishes a certificate's valid use. Only a single **EKU** object can be set for each certificate.
+This method returns an [**EKU**](eku.md) object that indicates the extended key usage setting of the [*certificate*](security.c_gly#-security-certificate-gly). The EKU setting establishes a certificate's valid use. Only a single **EKU** object can be set for each certificate.
 
 ## Remarks
 

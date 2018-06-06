@@ -57,7 +57,7 @@ D3DISSUE\_END is valid for the following query types.
 [**D3DISSUE\_BEGIN**](d3dissue-begin.md)
 </dt> <dt>
 
-[**D3DQUERYTYPE**](https://msdn.microsoft.com/windows/desktop/575c4e71-3cab-4123-a2a5-d23b53e87111)
+[**D3DQUERYTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dquerytype.htm)
 </dt> </dl>
 
  

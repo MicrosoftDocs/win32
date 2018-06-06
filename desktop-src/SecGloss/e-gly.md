@@ -98,7 +98,7 @@ Data that has been converted from plaintext into ciphertext. Encrypted messages 
 
 Simplified message functions used to encode and encrypt (or decode and decrypt) data. As a set, these functions include support for simultaneously encrypting and decrypting data.
 
-See also [*simplified message functions*](https://www.bing.com/search?q=*simplified message functions*).
+See also [*simplified message functions*](s-gly.md#-security-simplified-message-functions-gly).
 
 </dd> <dt>
 
@@ -135,7 +135,7 @@ See *exchange key pair*.
 
 A public/private key pair used to encrypt session keys so that they can be safely stored and exchanged with other users. Exchange key pairs are created by calling the **CryptGenKey** function.
 
-Compare [*signature key pair*](https://www.bing.com/search?q=*signature key pair*).
+Compare [*signature key pair*](s-gly.md#-security-signature-key-pair-gly).
 
 </dd> <dt>
 

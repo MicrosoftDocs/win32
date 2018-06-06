@@ -30,13 +30,13 @@ Some toolbars are customizable, allowing users to add or remove toolbars, change
 
 To decide, consider these questions:
 
--   **Is the window a primary window?** Toolbars work well for primary windows, but are usually overwhelming for secondary windows. For secondary windows, use [command buttons](ctrl-command-buttons.md), [menu buttons](https://www.bing.com/search?q=menu buttons), and [links](ctrl-command-links.md) instead.
+-   **Is the window a primary window?** Toolbars work well for primary windows, but are usually overwhelming for secondary windows. For secondary windows, use [command buttons](ctrl-command-buttons.md), [menu buttons](ctrl-command-buttons.md#usage-patterns), and [links](ctrl-command-links.md) instead.
 -   **Are there a small number of frequently used commands?** Toolbars can't handle as many commands as menu bars, so they work best as a way to efficiently access a small number of frequently used commands.
 -   **Are most of the commands immediate?** That is, are they mostly commands that don't require additional input? To be efficient, toolbars need to have a direct and immediate feel. If not, menu bars are better suited for commands that require additional input.
 -   **Can most of the commands be presented directly?** That is, users interact with them using a single click? While some commands can be presented using menu buttons, presenting most commands this way undermines the efficiency of the toolbar, making a menu bar a better choice.
 -   **Are the commands well represented by icons?** Toolbar buttons are usually represented by icons instead of text labels (although some toolbar buttons use both), whereas menu commands are represented by their text. If the command icons aren't high quality and aren't self-explanatory, a menu bar may be a better choice.
 
-If your program has a toolbar without a menu bar, and most of the commands are accessible indirectly through menu buttons and [split buttons](https://www.bing.com/search?q=split buttons), this toolbar is essentially a menu bar. Apply the [toolbar menus](https://www.bing.com/search?q=toolbar menus) pattern in the Menus guidelines instead.
+If your program has a toolbar without a menu bar, and most of the commands are accessible indirectly through menu buttons and [split buttons](ctrl-command-buttons.md#usage-patterns), this toolbar is essentially a menu bar. Apply the [toolbar menus](cmd-menus.md#usage-patterns) pattern in the Menus guidelines instead.
 
 ## Design concepts
 
@@ -126,7 +126,7 @@ Toolbars have several usage patterns:
 |----------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Primary toolbars**\[newline\] a toolbar designed to work without a menu bar, either hidden or removed. \[newline\] | primary toolbars must balance the need for efficiency with comprehensiveness, so they work best for simple programs. \[newline\] ![screen shot of windows explorer toolbar ](images/cmd-toolbars-image8.png)<br/> A primary toolbar from Windows Explorer.<br/>                                                                        |
 | **Supplemental toolbars**\[newline\] a toolbar designed to work with a menu bar. \[newline\]                         | supplemental toolbars can focus on efficiency without compromise. \[newline\] ![screen shot of a menu bar over a toolbar ](images/cmd-toolbars-image9.png)<br/> A supplemental toolbar from Windows Movie Maker.<br/>                                                                                                                  |
-| **Toolbar menus**\[newline\] a menu bar implemented as a toolbar. \[newline\]                                        | toolbar menus are toolbars consisting primarily of commands in [menu buttons](https://www.bing.com/search?q=menu buttons) and split buttons, with only a few direct commands, if any. \[newline\] ![screen shot of menu bar with icons and commands ](images/cmd-toolbars-image10.png)<br/> A toolbar menu in Windows Photo Gallery.<br/> |
+| **Toolbar menus**\[newline\] a menu bar implemented as a toolbar. \[newline\]                                        | toolbar menus are toolbars consisting primarily of commands in [menu buttons](ctrl-command-buttons.md#usage-patterns) and split buttons, with only a few direct commands, if any. \[newline\] ![screen shot of menu bar with icons and commands ](images/cmd-toolbars-image10.png)<br/> A toolbar menu in Windows Photo Gallery.<br/> |
 | **Customizable toolbars**\[newline\] a toolbar that can be customized by users. \[newline\]                          | customizable toolbars allow users to add or remove toolbars, change their size and location, and even change their contents. \[newline\] ![screen shot of a toolbar with dozens of icons ](images/cmd-toolbars-image11.png)<br/> A customizable toolbar from Microsoft Visual Studio.<br/>                                             |
 | **Palette windows**\[newline\] a modeless dialog box that presents an array of commands. \[newline\]                 | palette windows are undocked toolbars. \[newline\] ![screen shot of a colors dialog box ](images/cmd-toolbars-image12.png)\[newline\] ![screen shot of a fonts dialog box ](images/cmd-toolbars-image13.png)<br/> Palette windows from Windows Paint.<br/>                                                                             |
 
@@ -179,7 +179,7 @@ Finally, toolbar controls have several usage patterns:
     -   Omitting the labels of well-known icons and less frequently used commands.
     -   Using only a partial toolbar instead of the entire window width.
     -   Consolidating related commands with a menu button or split button.
-    -   Using an [overflow chevron](https://www.bing.com/search?q=overflow chevron) to reveal less frequently used commands.
+    -   Using an [overflow chevron](glossary.md#c) to reveal less frequently used commands.
     -   Displaying commands only when they apply to the current context.
 
     ![screen shot of toolbar's common icons not labeled ](images/cmd-toolbars-image28.png)
@@ -297,7 +297,7 @@ Generally, toolbars work great together with menu bars because having both allow
 
 ### Interaction
 
--   On hover, display the button [affordance](https://www.bing.com/search?q=affordance) to indicate that the icon is clickable. After the tooltip timeout, display the tooltip or infotip.
+-   On hover, display the button [affordance](glossary.md#glossary) to indicate that the icon is clickable. After the tooltip timeout, display the tooltip or infotip.
 
     ![screen shot of an infotip describing a button ](images/cmd-toolbars-image40.png)
 
@@ -482,7 +482,7 @@ The Sharing Settings command doesn't have an ellipsis because it can't take effe
 Because toolbars are constantly displayed, and space is at a premium, **ellipses should be used infrequently**.
 
 > [!Note]  
-> For menus displayed by a toolbar, apply the [menu ellipses guidelines](https://www.bing.com/search?q=menu ellipses guidelines).
+> For menus displayed by a toolbar, apply the [menu ellipses guidelines](cmd-menus.md#using-ellipses).
 
  
 
@@ -525,7 +525,7 @@ Recommended sizing and spacing for standard toolbars.
 
     In this example, the currently selected font name acts as the label.
 
--   If an editable drop-down list doesn't have a value, use a [prompt](https://www.bing.com/search?q=prompt).
+-   If an editable drop-down list doesn't have a value, use a [prompt](glossary.md#p).
 
     ![screen shot of list label search address books ](images/cmd-toolbars-image53.png)
 
@@ -554,7 +554,7 @@ Recommended sizing and spacing for standard toolbars.
 -   Use the following menu item names for the stated purpose:
     -   **Options:** To display program options.
     -   **Customize:** To display the program options specifically related to mechanical UI configuration.
-    -   **Personalize:** To display a summary of commonly used [personalization](https://www.bing.com/search?q=personalization) settings.
+    -   **Personalize:** To display a summary of commonly used [personalization](glossary.md#p) settings.
     -   **Preferences:** Don't use. Use Options instead.
     -   **Properties:** To display an object's property window.
     -   **Settings:** Don't use as a menu label. Use Options instead.

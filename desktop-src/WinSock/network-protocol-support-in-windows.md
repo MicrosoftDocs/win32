@@ -61,13 +61,13 @@ The following table identifies native Windows support for common network protoco
 [ATM Technical Reference](http://go.microsoft.com/fwlink/p/?linkid=193472)
 </dt> <dt>
 
-[Bluetooth](https://msdn.microsoft.com/windows/desktop/2a86f30e-2594-405d-a2f5-9e9ce9ad278b)
+[Bluetooth](https://msdn.microsoft.com/2a86f30e-2594-405d-a2f5-9e9ce9ad278b)
 </dt> <dt>
 
 [IPv6 Technology Preview for Windows 2000](http://go.microsoft.com/fwlink/p/?linkid=193479)
 </dt> <dt>
 
-[IrDA](https://msdn.microsoft.com/windows/desktop/a6a230f5-85b9-4b28-9633-c33459c4eeef)
+[IrDA](https://msdn.microsoft.com/a6a230f5-85b9-4b28-9633-c33459c4eeef)
 </dt> <dt>
 
 [NDIS 5.0 and ATM Support in Windows](http://go.microsoft.com/fwlink/p/?linkid=193474)

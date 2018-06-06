@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Example C Program: Converting Names from Certificates to ASN.1 and Back
 
-The following example enumerates the certificates in a [*certificate store*](https://www.bing.com/search?q=*certificate store*), displays the subject and user of each certificate, and converts the subject name from each certificate into its [*Abstract Syntax Notation One*](https://www.bing.com/search?q=*Abstract Syntax Notation One*) (ASN.1) encoded form, and then back in to its decoded form.
+The following example enumerates the certificates in a [*certificate store*](security.c_gly#-security-certificate-store-gly), displays the subject and user of each certificate, and converts the subject name from each certificate into its [*Abstract Syntax Notation One*](security.a_gly#-security-abstract-syntax-notation-one-gly) (ASN.1) encoded form, and then back in to its decoded form.
 
-This example shows the following tasks and [*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) functions:
+This example shows the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
 -   Opening a system store using [**CertOpenSystemStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopensystemstorea).
 -   Using [**CertEnumCertificatesInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certenumcertificatesinstore) to get the first certificate from the open store.

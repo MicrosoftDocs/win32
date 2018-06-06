@@ -148,7 +148,7 @@ To select between these two options, use the [**ICodecAPI**](/windows/desktop/ap
 
 ### AAC Decoding
 
-For AAC, the decoder has certain format constraints on the compressed AAC input. These format constraints are the same as the Media Foundation [**AAC Decoder**](https://msdn.microsoft.com/windows/desktop/036fb0ee-8165-41a3-b41a-2e9bf035a6a6), and are documented in the section "[**Format Constraints**](https://www.bing.com/search?q=**Format Constraints**)".
+For AAC, the decoder has certain format constraints on the compressed AAC input. These format constraints are the same as the Media Foundation [**AAC Decoder**](https://msdn.microsoft.com/036fb0ee-8165-41a3-b41a-2e9bf035a6a6), and are documented in the section "[**Format Constraints**](mf.aac_decoder#format-constraints)".
 
 The DirectShow decoder also accepts different input types than the Media Foundation decoder. The DirectShow decoder supports the following AAC input types:
 

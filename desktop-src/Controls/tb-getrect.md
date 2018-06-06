@@ -47,7 +47,7 @@ Returns nonzero if successful, or zero otherwise.
 
 ## Remarks
 
-This message does not retrieve the bounding rectangle for buttons whose state is set to the [**TBSTATE\_HIDDEN**](https://www.bing.com/search?q=**TBSTATE\_HIDDEN**) value.
+This message does not retrieve the bounding rectangle for buttons whose state is set to the [**TBSTATE\_HIDDEN**](toolbar-button-states.md#tbstate-hidden) value.
 
 ## Requirements
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Database.GenerateTransform method
 
-The **GenerateTransform** method of the [**Database**](database-object.md) object creates a [*transform*](https://www.bing.com/search?q=*transform*) that, when applied to the object database, results in the reference database. The transform is stored in the storage object.
+The **GenerateTransform** method of the [**Database**](database-object.md) object creates a [*transform*](t-gly.md#-msi-transform-gly) that, when applied to the object database, results in the reference database. The transform is stored in the storage object.
 
 If the transform is to be applied during an installation you must use the [**CreateTransformSummaryInfo**](database-createtransformsummaryinfo.md) method to populate the summary information stream.
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The [SelectionTree control](selectiontree-control.md) uses the SelectionSize event to publish the size of the highlighted item. If it is a parent item, then the number of children selected is also published. The string is one of the **SelChildCostPos**, **SelChildCostNeg**, **SelParentCostPosPos**, **SelParentCostPosNeg**, **SelParentCostNegPos** or **SelParentCostNegNeg** strings from the [UIText table](uitext-table.md). This event should be authored in the [EventMapping table](eventmapping-table.md).
 
-This ControlEvent requires the user interface to be run at the [*full UI*](https://www.bing.com/search?q=*full UI*) level. This event will not work with a [*reduced UI*](https://www.bing.com/search?q=*reduced UI*) or [*basic UI*](https://www.bing.com/search?q=*basic UI*). For information, see [User Interface Levels](user-interface-levels.md).
+This ControlEvent requires the user interface to be run at the [*full UI*](f-gly.md#-msi-full-ui-gly) level. This event will not work with a [*reduced UI*](r-gly.md#-msi-reduced-ui-gly) or [*basic UI*](b-gly.md#-msi-basic-ui-gly). For information, see [User Interface Levels](user-interface-levels.md).
 
 This event can only affect controls that are located on the same dialog box as the SelectionTree control.
 

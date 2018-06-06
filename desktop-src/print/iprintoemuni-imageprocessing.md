@@ -44,7 +44,7 @@ Caller-supplied pointer to a [**DEVOBJ**](devobj.md) structure.
 *pSrcBitmap* 
 </dt> <dd>
 
-Caller-supplied pointer to an input [*DIB*](https://www.bing.com/search?q=*DIB*).
+Caller-supplied pointer to an input [*DIB*](wdkgloss.d#wdkgloss-device-independent-bitmap--dib-).
 
 </dd> <dt>
 
@@ -60,7 +60,7 @@ Caller-supplied pointer to a BITMAPINFOHEADER structure that describes the bitma
 
 Caller-supplied pointer to a color table. This parameter is used only if the output format is eight bits per pixel. For more information, see the following Remarks section.
 
-When interpreting a bitmap, you must examine the color table. Unidrv can modify the colors in a bitmap, but it will also make corresponding adjustments in the color table, resulting in no net change. However, if you ignore color table changes, and examine only the bitmap, an image might not print properly. For an example, see the discussion of the *pPaletteEntry* parameter in [**HT\_Get8BPPMaskPalette**](https://www.bing.com/search?q=**HT\_Get8BPPMaskPalette**).
+When interpreting a bitmap, you must examine the color table. Unidrv can modify the colors in a bitmap, but it will also make corresponding adjustments in the color table, resulting in no net change. However, if you ignore color table changes, and examine only the bitmap, an image might not print properly. For an example, see the discussion of the *pPaletteEntry* parameter in [**HT\_Get8BPPMaskPalette**](https://msdn.microsoft.com/46e9b3e1-e9a5-4c18-8595-6f883a790b01).
 
 </dd> <dt>
 
@@ -113,9 +113,9 @@ The method must return one of the following values.
 
 ## Remarks
 
-The `IPrintOemUni::ImageProcessing` method is used to modify image bitmaps before they are sent to the print spooler. Its purpose is to provide customized support for color modes and halftoning methods not supported by Unidrv. A printer driver that sends a bitmap to the print spooler (as opposed to sending it back to Unidrv) must set the \*DevBPP and \*DevNumOfPlanes attributes to zero in the printer's [*GPD*](https://www.bing.com/search?q=*GPD*) file.
+The `IPrintOemUni::ImageProcessing` method is used to modify image bitmaps before they are sent to the print spooler. Its purpose is to provide customized support for color modes and halftoning methods not supported by Unidrv. A printer driver that sends a bitmap to the print spooler (as opposed to sending it back to Unidrv) must set the \*DevBPP and \*DevNumOfPlanes attributes to zero in the printer's [*GPD*](wdkgloss.g#wdkgloss-generic-printer-description--gpd-) file.
 
-If the method is implemented, and if the GPD file entry for the current color format contains an \***IPCallbackID** attribute, Unidrv calls the method each time a bitmap is available. The call is made after GDI renders the bitmap, which is then sent to the spooler. (For information about the \***IPCallbackID** attribute, see [Option Attributes for the ColorMode Feature](https://www.bing.com/search?q=Option Attributes for the ColorMode Feature).)
+If the method is implemented, and if the GPD file entry for the current color format contains an \***IPCallbackID** attribute, Unidrv calls the method each time a bitmap is available. The call is made after GDI renders the bitmap, which is then sent to the spooler. (For information about the \***IPCallbackID** attribute, see [Option Attributes for the ColorMode Feature](https://www.bing.com/search?q=Option+Attributes+for+the+ColorMode+Feature).)
 
 If the current color mode, as specified by *dwCallbackID*, is one that Unidrv supports, then the `IPrintOemUni::ImageProcessing` method should perform halftoning operations on the received bitmap and return it to Unidrv for spooling. If the current color mode is one that Unidrv does not support, the method must perform halftoning operations and then spool the bitmap.
 
@@ -125,7 +125,7 @@ If the method is performing only halftoning operations, it must do the following
 
 -   Return the modified image data to Unidrv by placing it in a buffer and supplying the buffer's address as the method's return value. The returned buffer can be the one pointed to by *pSrcBitmap*, or it can be one that is locally allocated.
 
-For more information about customizing halftoning operations in Unidrv, see [Customized Halftoning](https://www.bing.com/search?q=Customized Halftoning).
+For more information about customizing halftoning operations in Unidrv, see [Customized Halftoning](https://www.bing.com/search?q=Customized+Halftoning).
 
 To handle customized color formatting, the `IPrintOemUni::ImageProcessing` method must do the following:
 
@@ -137,7 +137,7 @@ To handle customized color formatting, the `IPrintOemUni::ImageProcessing` metho
 
 -   Modify the printer's cursor position by making appropriate calls to the [**IPrintOemDriverUni::DrvXMoveTo**](iprintoemdriveruni-drvxmoveto.md) and [**IPrintOemDriverUni::DrvYMoveTo**](iprintoemdriveruni-drvymoveto.md) methods.
 
-For more information about customizing color formatting operations in Unidrv, see [Customized Color Formats](https://www.bing.com/search?q=Customized Color Formats).
+For more information about customizing color formatting operations in Unidrv, see [Customized Color Formats](https://www.bing.com/search?q=Customized+Color+Formats).
 
 The *dwCallbackID* parameter indicates the type of color formatting, if any, that should be performed. Within the printer's GPD file, each \*Option entry for the ColorMode feature describes a color format. If the format requires processing by the `IPrintOemUni::ImageProcessing` method, its \*Option entry must contain an \***IPCallbackID** attribute. When Unidrv calls the `IPrintOemUni::ImageProcessing` method, it supplies the attribute value associated with the currently selected option for the ColorMode feature. This value is the *dwCallbackID* parameter's value.
 
@@ -149,11 +149,11 @@ The source bitmap described by *pSrcBitmap* and *pBitmapInfoHeader* has the foll
 
 -   DIB contents are top-down ordered and uncompressed.
 
--   The data format is one that is listed in [Handling Color Formats](https://www.bing.com/search?q=Handling Color Formats).
+-   The data format is one that is listed in [Handling Color Formats](https://www.bing.com/search?q=Handling+Color+Formats).
 
 -   If the format requires a color table, the table is pointed to by *pColorTable*.
 
--   Color data is in PRIMARY\_ORDER\_CBA format, as explained in the description of the **ulPrimaryOrder** member of the [**GDIINFO**](https://www.bing.com/search?q=**GDIINFO**) structure. In other words, if the color format is RGB or CMY, the least significant *n* bits must contain the blue or yellow value, the next *n* bits must contain the green or magenta value, and the next *n* bits must contain the red or cyan value. Unused bits are in the most significant position. If the format uses 4 bits per pixel, then *n* is 1. For 24 bits per pixel, *n* is 8, as shown in the following figure. For CYMK, the fourth group of *n* bits contains black.
+-   Color data is in PRIMARY\_ORDER\_CBA format, as explained in the description of the **ulPrimaryOrder** member of the [**GDIINFO**](https://msdn.microsoft.com/f75f599f-43ea-4da6-a6e3-6591cf6d69f1) structure. In other words, if the color format is RGB or CMY, the least significant *n* bits must contain the blue or yellow value, the next *n* bits must contain the green or magenta value, and the next *n* bits must contain the red or cyan value. Unused bits are in the most significant position. If the format uses 4 bits per pixel, then *n* is 1. For 24 bits per pixel, *n* is 8, as shown in the following figure. For CYMK, the fourth group of *n* bits contains black.
 
 ![primary\-order\-cba format](images/bitmap.png)<dl> The preceding figure depicts color data in PRIMARY\_ORDER\_CBA format for two pixels, with 24 bits of color data per pixel. Moving from low memory addresses to high memory addresses, there are eight bits of blue data, then eight bits of green data, and then eight bits of red data, after which the pattern repeats. This is also known as BGR device output order.  
 </dl>
@@ -162,7 +162,7 @@ For halftoning operations, in which a processed bitmap is returned to Unidrv, th
 
 -   DIB contents must be top-down ordered and uncompressed.
 
--   The data format must be one that is listed in [Handling Color Formats](https://www.bing.com/search?q=Handling Color Formats), and it must be compatible with the \***DevBPP** and \***DevNumOfPlanes** attributes of the color format identified by *dwCallbackID*. (For information about these attributes, see [Option Attributes for the ColorMode Feature](https://www.bing.com/search?q=Option Attributes for the ColorMode Feature).)
+-   The data format must be one that is listed in [Handling Color Formats](https://www.bing.com/search?q=Handling+Color+Formats), and it must be compatible with the \***DevBPP** and \***DevNumOfPlanes** attributes of the color format identified by *dwCallbackID*. (For information about these attributes, see [Option Attributes for the ColorMode Feature](https://www.bing.com/search?q=Option+Attributes+for+the+ColorMode+Feature).)
 
 -   If the format requires a color table, the table must be created and its address must be returned in *pColorTable*.
 
@@ -193,7 +193,7 @@ The `IPrintOemUni::ImageProcessing` method is optional. If a rendering plug-in i
 [**IPrintOemUni::FilterGraphics**](iprintoemuni-filtergraphics.md)
 </dt> <dt>
 
-[**HT\_Get8BPPMaskPalette**](https://www.bing.com/search?q=**HT\_Get8BPPMaskPalette**)
+[**HT\_Get8BPPMaskPalette**](https://msdn.microsoft.com/46e9b3e1-e9a5-4c18-8595-6f883a790b01)
 </dt> </dl>
 
  

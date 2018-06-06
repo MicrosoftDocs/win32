@@ -164,7 +164,7 @@ In [Drawing Indexed Geometry](#drawing-indexed-geometry), vertex buffers were co
 
 ![diagram of a vertex buffer for non-indexed geometry](images/olderstyleinstancing.png)
 
-This technique is not supported by hardware acceleration on any device. It is only supported by software vertex processing and will work only with [vs\_3\_0](https://msdn.microsoft.com/windows/desktop/0f40f946-3525-4203-bfe2-1cd941d8e2ec) shaders.
+This technique is not supported by hardware acceleration on any device. It is only supported by software vertex processing and will work only with [vs\_3\_0](https://msdn.microsoft.com/VS|directx_sdk|~\dx9_graphics_reference_asm_vs_3_0.htm) shaders.
 
 Because this technique works with non-indexed geometry, there is no index buffer. As the diagram shows, the vertex buffer that contains geometry contains n copies of the geometry data. For each instance drawn, the geometry data is read from the first vertex buffer and the instance data is read from the second vertex buffer.
 

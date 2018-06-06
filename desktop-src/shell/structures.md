@@ -359,7 +359,7 @@ In place of this structure, you can use the [<strong>DLLVERSIONINFO2</strong>](/
 </tr>
 <tr class="even">
 <td>[<strong>SERIALIZEDPROPERTYVALUE</strong>](/windows/desktop/api/Propidl/ns-propidl-tagserializedpropertyvalue)<br/></td>
-<td>A range of memory of arbitrary type that represents a serialized [<strong>PROPVARIANT</strong>](https://msdn.microsoft.com/windows/desktop/e86cc279-826d-4767-8d96-fc8280060ea1) structure. Programs should not inspect the contents of a [<strong>SERIALIZEDPROPERTYVALUE</strong>](/windows/desktop/api/Propidl/ns-propidl-tagserializedpropertyvalue); instead, they should manipulate it with the [<strong>StgSerializePropVariant</strong>](https://msdn.microsoft.com/windows/desktop/c588e239-616f-4569-88b5-6bfb504cefa1) and [<strong>StgDeserializePropVariant</strong>](https://msdn.microsoft.com/windows/desktop/0517ef4d-e57c-4613-8d11-5e1eb14eb9fa) functions.<br/></td>
+<td>A range of memory of arbitrary type that represents a serialized [<strong>PROPVARIANT</strong>](https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1) structure. Programs should not inspect the contents of a [<strong>SERIALIZEDPROPERTYVALUE</strong>](/windows/desktop/api/Propidl/ns-propidl-tagserializedpropertyvalue); instead, they should manipulate it with the [<strong>StgSerializePropVariant</strong>](https://www.bing.com/search?q=<strong>StgSerializePropVariant</strong>) and [<strong>StgDeserializePropVariant</strong>](https://www.bing.com/search?q=<strong>StgDeserializePropVariant</strong>) functions.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>SFV_CREATE</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-_sfv_create)<br/></td>
@@ -402,7 +402,7 @@ In place of this structure, you can use the [<strong>DLLVERSIONINFO2</strong>](/
 <td>Specifies the FMTID/PID identifier of a column that will be displayed by the Windows Explorer Details view. <br/>
 <blockquote>
 [!Note]<br />
-As of Windows Vista, [<strong>SHCOLUMNID</strong>](/windows/desktop/api/Shobjidl/) is considered a legacy form and should not be used. In its place, use the [<strong>PROPERTYKEY</strong>](https://msdn.microsoft.com/windows/desktop/3f5f31af-f040-443b-9045-9761055381ea) structure.
+As of Windows Vista, [<strong>SHCOLUMNID</strong>](/windows/desktop/api/Shobjidl/) is considered a legacy form and should not be used. In its place, use the [<strong>PROPERTYKEY</strong>](https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea) structure.
 </blockquote>
 <br/></td>
 </tr>
@@ -541,7 +541,7 @@ As of Windows Vista, the use of the [<strong>IFileOperation</strong>](/windows/
 </tr>
 <tr class="odd">
 <td>[<strong>WALLPAPEROPT</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagwallpaperopt)<br/></td>
-<td>Contains the wallpaper display options. Used with members of the [<strong>IActiveDesktop</strong>](https://msdn.microsoft.com/windows/desktop/4d572b86-36e8-417b-857c-eb477c04c691) interface.<br/></td>
+<td>Contains the wallpaper display options. Used with members of the [<strong>IActiveDesktop</strong>](https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691) interface.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>WINDOWDATA</strong>](/windows/desktop/api/Tlogstg/ns-tlogstg-_windowdata)<br/></td>

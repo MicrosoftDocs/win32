@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # D3DXPATCHMESH enumeration
 
-Not used. Use [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/windows/desktop/229d01b2-781c-48a8-93f2-9dd9dbd67f3e) instead to specify mesh patch types.
+Not used. Use [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxpatchmeshtype.htm) instead to specify mesh patch types.
 
 ## Syntax
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Command Line Arguments
 
-An application can use the Win32 [GetCommandLine](https://msdn.microsoft.com/windows/desktop/08dfcab2-eb6e-49a4-80eb-87d4076c98c6) function to retrieve Unicode command line arguments. The application should call the Win32 function as a Unicode function.
+An application can use the Win32 [GetCommandLine](https://msdn.microsoft.com/08dfcab2-eb6e-49a4-80eb-87d4076c98c6) function to retrieve Unicode command line arguments. The application should call the Win32 function as a Unicode function.
 
 ## Related topics
 

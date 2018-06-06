@@ -43,21 +43,21 @@ The handle of the [*Secure Sockets Layer protocol*](https://msdn.microsoft.com/l
 *dwProtocol* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG SSL Provider Protocol Identifier**) values.
+One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Protocol+Identifier**) values.
 
 </dd> <dt>
 
 *dwCipherSuite* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Cipher Suite Identifier**](https://www.bing.com/search?q=**CNG SSL Provider Cipher Suite Identifier**) values.
+One of the [**CNG SSL Provider Cipher Suite Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Cipher+Suite+Identifier**) values.
 
 </dd> <dt>
 
 *dwKeyType* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Key Type Identifier**](https://www.bing.com/search?q=**CNG SSL Provider Key Type Identifier**) values. For key types that are not [*elliptic curve cryptography*](https://msdn.microsoft.com/library/windows/desktop/ms721575#-security-elliptic-curve-cryptography-gly) (ECC), set this parameter to zero.
+One of the [**CNG SSL Provider Key Type Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Key+Type+Identifier**) values. For key types that are not [*elliptic curve cryptography*](https://msdn.microsoft.com/library/windows/desktop/ms721575#-security-elliptic-curve-cryptography-gly) (ECC), set this parameter to zero.
 
 </dd> <dt>
 

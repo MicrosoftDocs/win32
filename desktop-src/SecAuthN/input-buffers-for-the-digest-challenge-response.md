@@ -20,7 +20,7 @@ HTTP authentication using Microsoft Digest requires three input buffers to gener
 | 0             | Challenge received from the Server                                                                                                                   | SECBUFFER\_TOKEN                                            |
 | 1             | HTTP Method                                                                                                                                          | SECBUFFER\_PARAMS                                           |
 | 2             | H(Entity)                                                                                                                                            | SECBUFFER\_PARAMS                                           |
-| 3             | The [*service principal name*](https://www.bing.com/search?q=*service principal name*) (SPN) of the target server. | **SECBUFFER\_TARGET\_HOST** \| **SECBUFFER\_READONLY**      |
+| 3             | The [*service principal name*](security.s_gly#-security-service-principal-name-gly) (SPN) of the target server. | **SECBUFFER\_TARGET\_HOST** \| **SECBUFFER\_READONLY**      |
 | 4             | Channel bindings token values                                                                                                                        | **SECBUFFER\_CHANNEL\_BINDINGS** \| **SECBUFFER\_READONLY** |
 
 
@@ -31,7 +31,7 @@ Buffer zero contains the Digest challenge received from the server in response t
 
 Buffer 1 contains the string representation of the method, such as "GET" or "POST". The method is used in the calculation of A2, as described in [RFC 2617](http://go.microsoft.com/fwlink/p/?linkid=84049).
 
-Buffer 2 is the [*MD5*](https://www.bing.com/search?q=*MD5*) hash of the message's entity-body as described in RFC 2617.
+Buffer 2 is the [*MD5*](security.m_gly#-security-md5-gly) hash of the message's entity-body as described in RFC 2617.
 
 Buffer 3 contains the SPN of the target server in UTF-8 formatting when Digest is used with channel bindings.
 

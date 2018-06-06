@@ -124,7 +124,7 @@ Multisampling samples some or all of the components of an image at a higher reso
 
 To use multisampling, set the enable field in the [**rasterization description**](/windows/desktop/api/D3D11_1/ns-d3d11_1-cd3d11_rasterizer_desc1), create a multisampled render target, and either read the render target with a shader to resolve the samples into a single pixel color or call [**ID3D11DeviceContext::ResolveSubresource**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-resolvesubresource) to resolve the samples using the video card. The most common scenario is to draw to one or more multisampled render targets.
 
-Multisampling is independent of whether or not a sample mask is used, [alpha-to-coverage](https://www.bing.com/search?q=alpha-to-coverage) is enabled, or stencil operations (which are always performed per-sample).
+Multisampling is independent of whether or not a sample mask is used, [alpha-to-coverage](d3d10-graphics-programming-guide-blend-state.md#alpha-to-coverage) is enabled, or stencil operations (which are always performed per-sample).
 
 Depth testing is affected by multisampling:
 

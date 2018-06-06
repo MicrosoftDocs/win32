@@ -73,7 +73,7 @@ Returns **true** if the service specified by *sServiceName* is running; otherwis
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.IsServiceRunning**](https://msdn.microsoft.com/windows/desktop/FDC41C2D-7462-458f-BBE6-D97260C26B6C) method.
+This method is implemented and accessed through the [**Shell.IsServiceRunning**](https://msdn.microsoft.com/FDC41C2D-7462-458f-BBE6-D97260C26B6C) method.
 
 This method is not currently available in Microsoft Visual Basic.
 

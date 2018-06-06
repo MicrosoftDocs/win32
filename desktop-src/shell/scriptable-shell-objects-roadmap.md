@@ -37,7 +37,7 @@ Many of the Shell objects became available in [version 4.71](versions.md) of the
 | [**ShellFolderView**](shellfolderview.md)              | [**FolderItems**](folderitems.md)                    |
 | [**ShellUIHelper**](shelluihelper.md)                  | [**FolderItems2**](folderitems2-object.md)           |
 | [**ShellWindows**](shellwindows.md)                    | [**IShellDispatch2**](ishelldispatch2-object.md)     |
-| [**WebViewFolderContents**](https://msdn.microsoft.com/windows/desktop/c9c46e21-2721-43c9-a6f4-38fafbda3798) | [**IShellLinkDual2**](ishelllinkdual2-object.md)     |
+| [**WebViewFolderContents**](https://msdn.microsoft.com/c9c46e21-2721-43c9-a6f4-38fafbda3798) | [**IShellLinkDual2**](ishelllinkdual2-object.md)     |
 |                                                         | [**ShellFolderItem**](shellfolderitem-object.md)     |
 |                                                         | [**ShellFolderViewOC**](shellfolderviewoc-object.md) |
 |                                                         | [**ShellLinkObject**](shelllinkobject-object.md)     |
@@ -120,7 +120,7 @@ The ProgID for each of the Shell objects is shown in the following table.
 | [**ShellLinkObject**](shelllinkobject-object.md)       | Shell.NameSpace("...").Self.GetLink or Shell.NameSpace("...").Items().GetLink           |
 | [**ShellUIHelper**](shelluihelper.md)                  | Cannot late bind                                                                        |
 | [**ShellWindows**](shellwindows.md)                    | shell.Shell\_Windows or ShellWindows.\_NewEnum                                          |
-| [**WebViewFolderContents**](https://msdn.microsoft.com/windows/desktop/c9c46e21-2721-43c9-a6f4-38fafbda3798) | Cannot late bind                                                                        |
+| [**WebViewFolderContents**](https://msdn.microsoft.com/c9c46e21-2721-43c9-a6f4-38fafbda3798) | Cannot late bind                                                                        |
 
 
 
@@ -164,7 +164,7 @@ The following table lists each Shell object and its respective CLASSID.
 | [**ShellLinkObject**](shelllinkobject-object.md)       | 11219420-1768-11d1-95BE-00609797EA4F |
 | [**ShellUIHelper**](shelluihelper.md)                  | 64AB4BB7-111E-11D1-8F79-00C04FC2FBE1 |
 | [**ShellWindows**](shellwindows.md)                    | 9BA05972-F6A8-11CF-A442-00A0C90A8F39 |
-| [**WebViewFolderContents**](https://msdn.microsoft.com/windows/desktop/c9c46e21-2721-43c9-a6f4-38fafbda3798) | 1820FED0-473E-11D0-A96C-00C04FD705A2 |
+| [**WebViewFolderContents**](https://msdn.microsoft.com/c9c46e21-2721-43c9-a6f4-38fafbda3798) | 1820FED0-473E-11D0-A96C-00C04FD705A2 |
 
 
 

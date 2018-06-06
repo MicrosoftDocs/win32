@@ -60,9 +60,9 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 The *callback mask* of a list-view control is a set of bit flags that specify the item states for which the application, rather than the control, stores the current data. The callback mask applies to all of the control's items, unlike the callback item designation, which applies to a specific item. The callback mask is zero by default, meaning that the list-view control stores all item state information. After creating a list-view control and initializing its items, you can send the **LVM\_SETCALLBACKMASK** message to change the callback mask. To retrieve the current callback mask, send the [**LVM\_GETCALLBACKMASK**](lvm-getcallbackmask.md) message.
 
-For more information about overlay images and state images, see [Adding List-View Image Lists](https://www.bing.com/search?q=Adding List-View Image Lists).
+For more information about overlay images and state images, see [Adding List-View Image Lists](using-list-view-controls.md#adding-listview-image-lists).
 
-For more information on list-view callbacks, see [Callback Items and the Callback Mask](https://www.bing.com/search?q=Callback Items and the Callback Mask).
+For more information on list-view callbacks, see [Callback Items and the Callback Mask](list-view-controls-overview.md#callback-items-and-the-callback-mask).
 
 ## Requirements
 

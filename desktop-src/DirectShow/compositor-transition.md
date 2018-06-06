@@ -20,7 +20,7 @@ The Compositor transition composites a subrectangle from the foreground into a d
 
 The following image shows the compositor transition:
 
-![compositor transition](https://www.bing.com/search?q=compositor transition)
+![compositor transition](https://www.bing.com/search?q=compositor+transition)
 
 Class ID (CLSID): {BB44391D-6ABD-422f-9E2E-385C9DFF51FC}
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following page provides a basic outline of key differences between Direct3D 9 and Direct3D 10. The outline below provides some insight to assist developers with Direct3D 9 experience to explore and relate to Direct3D 10.
 
-Although the info in this topic compares Direct3D 9 with Direct3D 10, because Direct3D 11 builds on the improvements made in Direct3D 10 and 10.1, you also need this info to migrate from Direct3D 9 to Direct3D 11. For info about moving beyond Direct3D 10 to Direct3D 11, see [Migrating to Direct3D 11](https://msdn.microsoft.com/windows/desktop/3ec8b5c2-01e6-4fbe-ada7-43898db63bbe).
+Although the info in this topic compares Direct3D 9 with Direct3D 10, because Direct3D 11 builds on the improvements made in Direct3D 10 and 10.1, you also need this info to migrate from Direct3D 9 to Direct3D 11. For info about moving beyond Direct3D 10 to Direct3D 11, see [Migrating to Direct3D 11](https://msdn.microsoft.com/3ec8b5c2-01e6-4fbe-ada7-43898db63bbe).
 
 -   [Overview of the Major Structural Changes in Direct3D 10](#overview-of-the-major-structural-changes-in-direct3d-10)
     -   [Removal of Fixed Function](#removal-of-fixed-function)
@@ -196,7 +196,7 @@ When targeting Direct3D 10, you are likely to want to allocate more items during
 [Tutorial 1: Direct3D 10 Basics](https://msdn.microsoft.com/windows/desktop/27d7b68d-1c99-041e-6aa3-b7b6da82da19)
 
 > [!Note]  
-> Direct3D 10 and later versions of Direct3D extend the DDS file format to support new DXGI formats, texture arrays, and cube-map arrays. For more information about the DDS file format extension, see the [Programming Guide for DDS](https://msdn.microsoft.com/windows/desktop/39f9847e-3b1c-4401-a253-74c183ffcc83).
+> Direct3D 10 and later versions of Direct3D extend the DDS file format to support new DXGI formats, texture arrays, and cube-map arrays. For more information about the DDS file format extension, see the [Programming Guide for DDS](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_dds_pguide.htm).
 
  
 
@@ -226,22 +226,22 @@ The Direct3D 10 Shader pipeline may be driven without the use of the Direct3D 10
 
 The Direct3D 10 HLSL compiler brings enhancements to the HLSL language definition and therefore has the ability to operate in 2 modes. For complete support of Direct3D 9 style intrinsic functions and semantics, compilation should be invoked using the COMPATIBILITY MODE flag which can be specified on a per compile basis.
 
-The shader model 4.0 specific HLSL language semantics and intrinsic functions for Direct3D 10 can be found at [HLSL](https://msdn.microsoft.com/windows/desktop/09cdd8d6-0cf5-4f7e-b480-f748d2fa9ca9). Major changes in syntax from Direct3D 9 HLSL to take the most notice of are in the area of texture access. The new syntax is the only form supported by the compiler outside of compatibility mode.
+The shader model 4.0 specific HLSL language semantics and intrinsic functions for Direct3D 10 can be found at [HLSL](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl.htm). Major changes in syntax from Direct3D 9 HLSL to take the most notice of are in the area of texture access. The new syntax is the only form supported by the compiler outside of compatibility mode.
 
 > [!Note]  
-> The Direct3D 10 compiler-type APIs ([**D3D10CompileShader**](/windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10compileshader) and [**D3D10CompileEffectFromMemory**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10compileeffectfrommemory)) are supplied by the Direct3D 10, 10.1, and 11 runtimes that run in Windows Vista and later. The Direct3D 10 compiler-type APIs have the same functionality as the HLSL compiler that is shipped in the DirectX SDK (December 2006). This HLSL compiler does not support the Direct3D 10.1 profiles (vs\_4\_1, ps\_4\_1, gs\_4\_1, fx\_4\_1), and is missing a number of optimizations and improvements. You can get an HLSL compiler that supports the Direct3D 10.1 profiles from the latest legacy [DirectX SDK release](http://go.microsoft.com/fwlink/p/?linkid=25276). For info about the legacy DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/windows/desktop/d8765da9-e7cf-47e8-8bc3-4b29162da41b). You can get the latest HLSL Fxc.exe command-line compiler and [D3DCompiler](https://msdn.microsoft.com/windows/desktop/e07afae0-9f94-4d89-956e-65e3715bcb71) APIs from the Windows SDK.
+> The Direct3D 10 compiler-type APIs ([**D3D10CompileShader**](/windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10compileshader) and [**D3D10CompileEffectFromMemory**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10compileeffectfrommemory)) are supplied by the Direct3D 10, 10.1, and 11 runtimes that run in Windows Vista and later. The Direct3D 10 compiler-type APIs have the same functionality as the HLSL compiler that is shipped in the DirectX SDK (December 2006). This HLSL compiler does not support the Direct3D 10.1 profiles (vs\_4\_1, ps\_4\_1, gs\_4\_1, fx\_4\_1), and is missing a number of optimizations and improvements. You can get an HLSL compiler that supports the Direct3D 10.1 profiles from the latest legacy [DirectX SDK release](http://go.microsoft.com/fwlink/p/?linkid=25276). For info about the legacy DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/d8765da9-e7cf-47e8-8bc3-4b29162da41b). You can get the latest HLSL Fxc.exe command-line compiler and [D3DCompiler](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_d3dcompiler_reference.htm) APIs from the Windows SDK.
 
  
 
 ### Creation of Shader Resources
 
-The creation of compiled shader instances outside of the Direct3D 10 Effects system is done in a very similar manner to Direct3D 9 however, in Direct3D 10, it is important to keep the Shader Input signature around for later use. The signature is returned by default as part of the shader blob but may be extracted to reduce the memory requirements if needed. For more details, see [Using Shaders in Direct3D 10](https://msdn.microsoft.com/windows/desktop/cff6f901-cb9b-44d5-a75b-9a4029a37215).
+The creation of compiled shader instances outside of the Direct3D 10 Effects system is done in a very similar manner to Direct3D 9 however, in Direct3D 10, it is important to keep the Shader Input signature around for later use. The signature is returned by default as part of the shader blob but may be extracted to reduce the memory requirements if needed. For more details, see [Using Shaders in Direct3D 10](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_using_shaders_10.htm).
 
 ### Shader Reflection Layer Interface
 
 The shader reflection layer is the interface by which information about the shader requirements may be obtained. This is particularly useful when creating Input Assembly linkages (see below) where you may need to traverse the shader input requirements to ensure you are supplying the correct input structure to the shader. You can create an instance of the reflection layer interface at the same time as creating an instance of a compiled shader.
 
-The shader reflection layer replaces D3DX9 methods that provide similar functionality. For example [**IsParameterUsed**](https://msdn.microsoft.com/windows/desktop/ac50c0d3-93d9-4477-a854-d0b53df28c90) is replaced by the [**GetDesc**](/windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflectionvariable-getdesc) method.
+The shader reflection layer replaces D3DX9 methods that provide similar functionality. For example [**IsParameterUsed**](https://msdn.microsoft.com/VS|directx_sdk|~\id3dxeffect__isparameterused.htm) is replaced by the [**GetDesc**](/windows/desktop/api/D3D10Shader/nf-d3d10shader-id3d10shaderreflectionvariable-getdesc) method.
 
 ### Input Assembler Layouts - Vertex Shader / Input Stream Linkage
 
@@ -360,7 +360,7 @@ The **D3DXxxCreateXXX** and **D3DXxxSaveXXX** functions that create or save a te
 
  
 
-For details, compare the Direct3D 9 [**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/windows/desktop/245a0052-f156-44ad-ab46-3677a818167e) enumerations with the [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3dx10-image-file-format.md) enumerations for Direct3D 10.
+For details, compare the Direct3D 9 [**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dximage_fileformat.htm) enumerations with the [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3dx10-image-file-format.md) enumerations for Direct3D 10.
 
 > [!Note]  
 > The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8. For texture file processing, we recommend that you use [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926).
@@ -463,7 +463,7 @@ The following table shows the mapping of texture formats from Direct3D 9 to Dire
 
  
 
-¹DXGI 1.1, which is included in the Direct3D 11 runtime, includes BGRA formats. However, support for these formats is optional for Direct3D 10 and 10.1 devices with drivers that are implemented to the Windows Display Driver Model (WDDM) for Windows Vista (WDDM 1.0). Consider using DXGI\_FORMAT\_R8G8B8A8\_UNORM instead. Alternatively, you can create your device with [**D3D10\_CREATE\_DEVICE\_BGRA\_SUPPORT**](https://www.bing.com/search?q=**D3D10\_CREATE\_DEVICE\_BGRA\_SUPPORT**) to ensure that you only support computers with the Direct3D 11.0 runtime and a WDDM 1.1 driver or higher installed.
+¹DXGI 1.1, which is included in the Direct3D 11 runtime, includes BGRA formats. However, support for these formats is optional for Direct3D 10 and 10.1 devices with drivers that are implemented to the Windows Display Driver Model (WDDM) for Windows Vista (WDDM 1.0). Consider using DXGI\_FORMAT\_R8G8B8A8\_UNORM instead. Alternatively, you can create your device with [**D3D10\_CREATE\_DEVICE\_BGRA\_SUPPORT**](d3d10-create-device-flag.md#d3d10-create-device-bgra-support) to ensure that you only support computers with the Direct3D 11.0 runtime and a WDDM 1.1 driver or higher installed.
 
 ²DXGI 1.0 defined 5:6:5 and 5:5:5:1 formats, but they were not supported by the Direct3D 10.x or Direct3D 11.0 runtime. These formats are optionally supported with DXGI 1.2 in the DirectX 11.1 runtime, which is required for feature level 11.1 video adapters and WDDM 1.2 (display driver model starting with Windows 8) drivers and already supported on 10level9 feature levels.
 
@@ -513,21 +513,21 @@ For ease of porting content from Direct3D 9 an initial approach to constant mana
 
 ### User clip planes in HLSL on feature level 9 and higher
 
-Starting with Windows 8, you can use the **clipplanes** function attribute in an HLSL [function declaration](https://msdn.microsoft.com/windows/desktop/f8968de2-7b2d-4a2e-8312-cec5b652f700) rather than [SV\_ClipDistance](https://www.bing.com/search?q=SV\_ClipDistance) to make your shader work on [feature level](https://www.bing.com/search?q=feature level) 9\_x as well as feature level 10 and higher. For more info, see [User clip planes on feature level 9 hardware](https://msdn.microsoft.com/windows/desktop/C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11).
+Starting with Windows 8, you can use the **clipplanes** function attribute in an HLSL [function declaration](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_function_syntax.htm) rather than [SV\_ClipDistance](direct3dhlsl.dx_graphics_hlsl_semantics#system-value) to make your shader work on [feature level](direct3d11.overviews_direct3d_11_devices_downlevel_intro#overview) 9\_x as well as feature level 10 and higher. For more info, see [User clip planes on feature level 9 hardware](https://msdn.microsoft.com/C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11).
 
 ## Additional Direct3D 10 Differences to Watch For
 
 ### Integers as Input
 
-In Direct3D 9, there was no real hardware support for integer data types, however Direct3D 10 hardware supports explicit integer types. If you have floating-point data in your vertex buffer, then you must have a float input. Otherwise an integer type will be the bit pattern representation of the floating-point value. An integer type is not allowed for a pixel shader input unless the value is marked for no interpolation (see [Interpolation Modifiers](https://msdn.microsoft.com/windows/desktop/896030b0-07cd-41bd-8c94-e173eabc81dd)).
+In Direct3D 9, there was no real hardware support for integer data types, however Direct3D 10 hardware supports explicit integer types. If you have floating-point data in your vertex buffer, then you must have a float input. Otherwise an integer type will be the bit pattern representation of the floating-point value. An integer type is not allowed for a pixel shader input unless the value is marked for no interpolation (see [Interpolation Modifiers](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_struct.htm)).
 
 ### Mouse Cursors
 
-On previous versions of Windows, the standard GDI mouse cursor routines did not operate correctly on all full-screen exclusive devices. The [**SetCursorProperties**](https://msdn.microsoft.com/windows/desktop/45e4935a-cdbd-4412-8ca5-fc4e1ceb6434), [**ShowCursor**](https://msdn.microsoft.com/windows/desktop/76d848f1-a426-489f-9207-ef708adea1be), and [**SetCursorPosition**](https://msdn.microsoft.com/windows/desktop/3b6410e5-fdeb-4390-b0c6-227f0c6666c6) APIs were added to handle these cases. Since Windows Vista's version of GDI fully understands [DXGI](https://msdn.microsoft.com/windows/desktop/0522ccbf-e754-470a-8199-004fcbaa927d) surfaces, there is no need for this specialized mouse cursor API so there is no Direct3D 10 equivalent. Direct3D 10 applications should instead use the standard [GDI mouse cursor routines](http://msdn2.microsoft.com/en-us/library/ms646970.aspx) for mouse cursors.
+On previous versions of Windows, the standard GDI mouse cursor routines did not operate correctly on all full-screen exclusive devices. The [**SetCursorProperties**](https://msdn.microsoft.com/VS|directx_sdk|~\idirect3ddevice9__setcursorproperties.htm), [**ShowCursor**](https://msdn.microsoft.com/VS|directx_sdk|~\idirect3ddevice9__showcursor.htm), and [**SetCursorPosition**](https://msdn.microsoft.com/VS|directx_sdk|~\idirect3ddevice9__setcursorposition.htm) APIs were added to handle these cases. Since Windows Vista's version of GDI fully understands [DXGI](https://msdn.microsoft.com/VS|directx_sdk|~\d3d10_graphics_programming_guide_dxgi.htm) surfaces, there is no need for this specialized mouse cursor API so there is no Direct3D 10 equivalent. Direct3D 10 applications should instead use the standard [GDI mouse cursor routines](http://msdn2.microsoft.com/en-us/library/ms646970.aspx) for mouse cursors.
 
 ### Mapping Texels to Pixels in Direct3D 10
 
-In Direct3D 9, texel centers and pixel centers were a half unit apart (see [Directly Mapping Texels to Pixels (Direct3D 9)](https://msdn.microsoft.com/windows/desktop/6faeb1e3-ea6e-4cb1-a1e6-2a9a81b4c0c7)). In Direct3D 10, texel centers are already at half-units, so there is no need to shift vertex coordinates at all.
+In Direct3D 9, texel centers and pixel centers were a half unit apart (see [Directly Mapping Texels to Pixels (Direct3D 9)](https://msdn.microsoft.com/VS|directx_sdk|~\directly_mapping_texels_to_pixels.htm)). In Direct3D 10, texel centers are already at half-units, so there is no need to shift vertex coordinates at all.
 
 Rendering full-screen quads is more straight-forward with Direct3D 10. Full-screen quads should be defined in clipspace (-1,1) and simply passed through the vertex shader with no changes. This way, there is no need to reload your vertex buffer every time the screen resolution changes, and there's no extra work in the pixel shader to manipulate the texture coordinates.
 
@@ -537,11 +537,11 @@ Unlike previous Direct3D versions, the various Set functions will not hold a ref
 
 ### Test Cooperative Level
 
-The functionality of the Direct3D 9 API [**TestCooperativeLevel**](https://msdn.microsoft.com/windows/desktop/da2ac8dd-0df8-4661-995f-9c3e6ccb62d2) is analogous to setting the [DXGI\_PRESENT\_TEST](https://msdn.microsoft.com/windows/desktop/1ddf8643-ea3e-4c9f-8439-c245942f7333) when calling [**Present**](https://msdn.microsoft.com/windows/desktop/4214fa05-d876-420e-a125-c68d6c4e6801).
+The functionality of the Direct3D 9 API [**TestCooperativeLevel**](https://msdn.microsoft.com/VS|directx_sdk|~\idirect3ddevice9__testcooperativelevel.htm) is analogous to setting the [DXGI\_PRESENT\_TEST](https://msdn.microsoft.com/VS|directx_sdk|~\dxgi_present.htm) when calling [**Present**](https://msdn.microsoft.com/VS|directx_sdk|~\idxgiswapchain_present.htm).
 
 ### StretchRect
 
-A function similar to the Direct3D 9 [**IDirect3DDevice9::StretchRect**](https://msdn.microsoft.com/windows/desktop/1ad6d48f-8420-461a-96b5-e730ac06c393) method is not available in Direct3D 10 and 10.1. To copy resource surfaces, use [**ID3D10Device::CopySubresourceRegion**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-copysubresourceregion). For resizing operations, render to a texture by using texture filtering. For converting MSAA surfaces to non-MSAA surfaces, use [**ID3D10Device::ResolveSubresource**](/windows/desktop/api/d3d10/nf-d3d10-id3d10device-resolvesubresource).
+A function similar to the Direct3D 9 [**IDirect3DDevice9::StretchRect**](https://msdn.microsoft.com/VS|directx_sdk|~\idirect3ddevice9__stretchrect.htm) method is not available in Direct3D 10 and 10.1. To copy resource surfaces, use [**ID3D10Device::CopySubresourceRegion**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-copysubresourceregion). For resizing operations, render to a texture by using texture filtering. For converting MSAA surfaces to non-MSAA surfaces, use [**ID3D10Device::ResolveSubresource**](/windows/desktop/api/d3d10/nf-d3d10-id3d10device-resolvesubresource).
 
 ## Additional Direct3D 10.1 Differences
 
@@ -565,7 +565,7 @@ The Direct3D 10.1 update also included the following additional structures:
 -   [**D3D10\_BLEND\_DESC1**](/windows/desktop/api/D3D10_1/ns-d3d10_1-d3d10_blend_desc1)
 -   [**D3D10\_SHADER\_RESOURCE\_VIEW\_DESC1**](/windows/desktop/api/d3d10_1/ns-d3d10_1-d3d10_shader_resource_view_desc1)
 
-The Direct3D 10.1 API includes a new concept named feature level. This concept means that you can use the Direct3D 10.1 API to drive Direct3D 10.0 ([**D3D10\_FEATURE\_LEVEL\_10\_0**](https://www.bing.com/search?q=**D3D10\_FEATURE\_LEVEL\_10\_0**)) or Direct3D 10.1 ([**D3D10\_FEATURE\_LEVEL\_10\_1**](https://www.bing.com/search?q=**D3D10\_FEATURE\_LEVEL\_10\_1**)) hardware. Because the Direct3D 10.1 API is derived from the Direct3D 10 interfaces, applications can create a Direct3D 10.1 device, then use it as a Direct3D 10.0 device except where new 10.1-specific features are needed (provided that the **D3D10\_FEATURE\_LEVEL\_10\_1** feature-level is present and supports these features).
+The Direct3D 10.1 API includes a new concept named feature level. This concept means that you can use the Direct3D 10.1 API to drive Direct3D 10.0 ([**D3D10\_FEATURE\_LEVEL\_10\_0**](d3d10-feature-level1.md#d3d10-feature-level-10-0)) or Direct3D 10.1 ([**D3D10\_FEATURE\_LEVEL\_10\_1**](d3d10-feature-level1.md#d3d10-feature-level-10-1)) hardware. Because the Direct3D 10.1 API is derived from the Direct3D 10 interfaces, applications can create a Direct3D 10.1 device, then use it as a Direct3D 10.0 device except where new 10.1-specific features are needed (provided that the **D3D10\_FEATURE\_LEVEL\_10\_1** feature-level is present and supports these features).
 
 > [!Note]  
 > Direct3D 10.1 devices can use the existing 10.0 HLSL shader profiles (vs\_4\_0, ps\_4\_0, gs\_4\_0) and the new 10.1 profiles (vs\_4\_1, ps\_4\_1, gs\_4\_1) with additional HLSL instructions and capabilities.
@@ -574,11 +574,11 @@ The Direct3D 10.1 API includes a new concept named feature level. This concept m
 
 Windows 7 contained a minor update to the Direct3D 10.1 API that is included in the Direct3D 11 runtime. This update adds support for the following feature levels:
 
--   [**D3D10\_FEATURE\_LEVEL\_9\_1**](https://www.bing.com/search?q=**D3D10\_FEATURE\_LEVEL\_9\_1**)
--   [**D3D10\_FEATURE\_LEVEL\_9\_2**](https://www.bing.com/search?q=**D3D10\_FEATURE\_LEVEL\_9\_2**)
--   [**D3D10\_FEATURE\_LEVEL\_9\_3**](https://www.bing.com/search?q=**D3D10\_FEATURE\_LEVEL\_9\_3**)
+-   [**D3D10\_FEATURE\_LEVEL\_9\_1**](d3d10-feature-level1.md#d3d10-feature-level-9-1)
+-   [**D3D10\_FEATURE\_LEVEL\_9\_2**](d3d10-feature-level1.md#d3d10-feature-level-9-2)
+-   [**D3D10\_FEATURE\_LEVEL\_9\_3**](d3d10-feature-level1.md#d3d10-feature-level-9-3)
 
-Windows 7 also added support to Direct3D 10.1 for [Windows Advanced Rasterization Platform (WARP)](https://msdn.microsoft.com/windows/desktop/C40A96EB-64AA-46EB-85A9-7C996ABC8BFE). You can specify a WARP driver by using [**D3D10\_DRIVER\_TYPE\_WARP**](https://www.bing.com/search?q=**D3D10\_DRIVER\_TYPE\_WARP**).
+Windows 7 also added support to Direct3D 10.1 for [Windows Advanced Rasterization Platform (WARP)](https://msdn.microsoft.com/C40A96EB-64AA-46EB-85A9-7C996ABC8BFE). You can specify a WARP driver by using [**D3D10\_DRIVER\_TYPE\_WARP**](d3d10-driver-type.md#d3d10-driver-type-warp).
 
 For more information about Direct3D 10.1, see [Direct3D 10.1 Features](d3d10-graphics-programming-guide-10-1.md) and the [**D3D10\_FEATURE\_LEVEL1**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1) enumeration.
 

@@ -103,7 +103,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-This method supports both [*document-sticky*](https://www.bing.com/search?q=*document-sticky*) and [*printer-sticky*](https://www.bing.com/search?q=*printer-sticky*) features. It is supported only after the core driver finishes its [**DrvEnablePDEV**](https://www.bing.com/search?q=**DrvEnablePDEV**) processing, which sets up all option settings. A call to `IPrintCorePS2::GetOptions` when it is not supported should cause it to return E\_NOTIMPL. For example, when the core driver calls a render plug-in's [**IPrintOemPS::EnablePDEV**](iprintoemps-enablepdev.md) method, the driver is still occupied with its **DrvEnablePDEV** processing, so if the plug-in calls `IPrintCorePS2::GetOptions` within the plug-in's **IPrintOemPS::DevMode** method, the plug-in receives the E\_NOTIMPL return value. However, because the plug-in's **IPrintOemPS::EnablePDEV** method is called after the core driver finishes its **DrvEnablePDEV** processing, the plug-in is able to call `IPrintCorePS2::GetOptions` successfully within its **IPrintOemPS::EnablePDEV** method.
+This method supports both [*document-sticky*](wdkgloss.d#wdkgloss-document-sticky) and [*printer-sticky*](wdkgloss.p#wdkgloss-printer-sticky) features. It is supported only after the core driver finishes its [**DrvEnablePDEV**](https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e) processing, which sets up all option settings. A call to `IPrintCorePS2::GetOptions` when it is not supported should cause it to return E\_NOTIMPL. For example, when the core driver calls a render plug-in's [**IPrintOemPS::EnablePDEV**](iprintoemps-enablepdev.md) method, the driver is still occupied with its **DrvEnablePDEV** processing, so if the plug-in calls `IPrintCorePS2::GetOptions` within the plug-in's **IPrintOemPS::DevMode** method, the plug-in receives the E\_NOTIMPL return value. However, because the plug-in's **IPrintOemPS::EnablePDEV** method is called after the core driver finishes its **DrvEnablePDEV** processing, the plug-in is able to call `IPrintCorePS2::GetOptions` successfully within its **IPrintOemPS::EnablePDEV** method.
 
 If a requested feature keyword is not recognized, or the feature is recognized but there is currently no option selection for it, the feature is ignored and the feature/option keyword pair is not placed in the output buffer.
 
@@ -111,7 +111,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 This method is supported for any Pscript5 render plug-in.
 
-For more information, see [Using GetOptions and SetOptions](https://www.bing.com/search?q=Using GetOptions and SetOptions).
+For more information, see [Using GetOptions and SetOptions](https://www.bing.com/search?q=Using+GetOptions+and+SetOptions).
 
 ## Requirements
 
@@ -134,7 +134,7 @@ For more information, see [Using GetOptions and SetOptions](https://www.bing.com
 [**DEVOBJ**](devobj.md)
 </dt> <dt>
 
-[**DrvEnablePDEV**](https://www.bing.com/search?q=**DrvEnablePDEV**)
+[**DrvEnablePDEV**](https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e)
 </dt> <dt>
 
 [**IPrintOemPS::DevMode**](iprintoemps-devmode.md)

@@ -26,7 +26,7 @@ See *Message Authentication Code*.
 <span id="_security_mac_key_gly"></span><span id="_SECURITY_MAC_KEY_GLY"></span>**MAC key**
 </dt> <dd>
 
-A message authentication code key used with [*Schannel*](https://www.bing.com/search?q=*Schannel*) protocols.
+A message authentication code key used with [*Schannel*](s-gly.md#-security-schannel-gly) protocols.
 
 </dd> <dt>
 
@@ -40,7 +40,7 @@ The key used by the client and server for all session key generation. The master
 <span id="_security_md2_gly"></span><span id="_SECURITY_MD2_GLY"></span>**MD2**
 </dt> <dd>
 
-The CryptoAPI algorithm name for the MD2 hash algorithm. Other hashing algorithms include *MD4*, *MD5*, and [*SHA*](https://www.bing.com/search?q=*SHA*).
+The CryptoAPI algorithm name for the MD2 hash algorithm. Other hashing algorithms include *MD4*, *MD5*, and [*SHA*](s-gly.md#-security-sha-gly).
 
 See also *MD2 algorithm*.
 
@@ -58,7 +58,7 @@ See also *MD4 algorithm*, *MD5 algorithm*.
 <span id="_security_md4_gly"></span><span id="_SECURITY_MD4_GLY"></span>**MD4**
 </dt> <dd>
 
-The CryptoAPI algorithm name for the MD4 hash algorithm. Other hashing algorithms include *MD2*, *MD5*, and [*SHA*](https://www.bing.com/search?q=*SHA*).
+The CryptoAPI algorithm name for the MD4 hash algorithm. Other hashing algorithms include *MD2*, *MD5*, and [*SHA*](s-gly.md#-security-sha-gly).
 
 See *MD4 algorithm*.
 
@@ -76,7 +76,7 @@ See also *MD2 algorithm*, *MD5 algorithm*.
 <span id="_security_md5_gly"></span><span id="_SECURITY_MD5_GLY"></span>**MD5**
 </dt> <dd>
 
-The CryptoAPI algorithm name for the MD5 hash algorithm. Other hashing algorithms include *MD2*, *MD4*, and [*SHA*](https://www.bing.com/search?q=*SHA*).
+The CryptoAPI algorithm name for the MD5 hash algorithm. Other hashing algorithms include *MD2*, *MD4*, and [*SHA*](s-gly.md#-security-sha-gly).
 
 See also *MD5 algorithm*.
 
@@ -101,7 +101,7 @@ Any data that has been encoded for transmission to or received from a person or 
 <span id="_security_message_digest_gly"></span><span id="_SECURITY_MESSAGE_DIGEST_GLY"></span>**message digest**
 </dt> <dd>
 
-See [*hash*](https://www.bing.com/search?q=*hash*).
+See [*hash*](h-gly.md#-security-hash-gly).
 
 </dd> <dt>
 
@@ -131,7 +131,7 @@ Functions that provide two levels of message management: low-level message funct
 
 Functions used to sign messages and data.
 
-See also [*simplified message functions*](https://www.bing.com/search?q=*simplified message functions*).
+See also [*simplified message functions*](s-gly.md#-security-simplified-message-functions-gly).
 
 </dd> <dt>
 

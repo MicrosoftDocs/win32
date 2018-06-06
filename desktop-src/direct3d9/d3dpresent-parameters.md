@@ -44,7 +44,7 @@ typedef struct D3DPRESENT_PARAMETERS {
 **BackBufferWidth**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -55,7 +55,7 @@ Width of the new swap chain's back buffers, in pixels. If **Windowed** is **FALS
 **BackBufferHeight**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -83,7 +83,7 @@ Full-screen applications cannot do color conversion.
 **BackBufferCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -96,33 +96,33 @@ The method fails if one back buffer cannot be created. The value of **BackBuffer
 **MultiSampleType**
 </dt> <dd>
 
-Type: **[**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/windows/desktop/1a3c1efe-f5b1-47a1-a5f5-ac49d318f3b8)**
+Type: **[**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dmultisample_type.htm)**
 
 </dd> <dd>
 
-Member of the [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/windows/desktop/1a3c1efe-f5b1-47a1-a5f5-ac49d318f3b8) enumerated type. The value must be D3DMULTISAMPLE\_NONE unless **SwapEffect** has been set to D3DSWAPEFFECT\_DISCARD. Multisampling is supported only if the swap effect is D3DSWAPEFFECT\_DISCARD.
+Member of the [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dmultisample_type.htm) enumerated type. The value must be D3DMULTISAMPLE\_NONE unless **SwapEffect** has been set to D3DSWAPEFFECT\_DISCARD. Multisampling is supported only if the swap effect is D3DSWAPEFFECT\_DISCARD.
 
 </dd> <dt>
 
 **MultiSampleQuality**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
-Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-checkdevicemultisampletype). Passing a larger value returns the error D3DERR\_INVALIDCALL. Paired values of render targets or of depth stencil surfaces and [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/windows/desktop/1a3c1efe-f5b1-47a1-a5f5-ac49d318f3b8) must match.
+Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-checkdevicemultisampletype). Passing a larger value returns the error D3DERR\_INVALIDCALL. Paired values of render targets or of depth stencil surfaces and [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dmultisample_type.htm) must match.
 
 </dd> <dt>
 
 **SwapEffect**
 </dt> <dd>
 
-Type: **[**D3DSWAPEFFECT**](https://msdn.microsoft.com/windows/desktop/522a5f71-3ad9-4cfc-a899-e25b9b721b1b)**
+Type: **[**D3DSWAPEFFECT**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dswapeffect.htm)**
 
 </dd> <dd>
 
-Member of the [**D3DSWAPEFFECT**](https://msdn.microsoft.com/windows/desktop/522a5f71-3ad9-4cfc-a899-e25b9b721b1b) enumerated type. The runtime will guarantee the implied semantics concerning buffer swap behavior; therefore, if **Windowed** is **TRUE** and **SwapEffect** is set to D3DSWAPEFFECT\_FLIP, the runtime will create one extra back buffer and copy whichever becomes the front buffer at presentation time.
+Member of the [**D3DSWAPEFFECT**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dswapeffect.htm) enumerated type. The runtime will guarantee the implied semantics concerning buffer swap behavior; therefore, if **Windowed** is **TRUE** and **SwapEffect** is set to D3DSWAPEFFECT\_FLIP, the runtime will create one extra back buffer and copy whichever becomes the front buffer at presentation time.
 
 D3DSWAPEFFECT\_COPY requires that **BackBufferCount** be set to 1.
 
@@ -143,7 +143,7 @@ D3DSWAPEFFECT\_DISCARD will be enforced in the debug runtime by filling any buff
 **hDeviceWindow**
 </dt> <dd>
 
-Type: **[**HWND**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**HWND**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -162,7 +162,7 @@ Note that no attempt is made by the runtime to reflect user changes in window si
 **Windowed**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -173,7 +173,7 @@ Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493
 **EnableAutoDepthStencil**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -197,7 +197,7 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type. The format of the autom
 **Flags**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -208,7 +208,7 @@ One of the [D3DPRESENTFLAG](d3dpresentflag.md) constants.
 **FullScreen\_RefreshRateInHz**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -222,7 +222,7 @@ The rate at which the display adapter refreshes the screen. The value depends on
 **PresentationInterval**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 

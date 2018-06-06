@@ -150,10 +150,10 @@ A scroll bar supports the following [**IAccessible**](/windows/desktop/api/oleac
 
     | Part                                                  | Role                                                                    |
     |-------------------------------------------------------|-------------------------------------------------------------------------|
-    | Scroll bar itself                                     | [**ROLE\_SYSTEM\_SCROLLBAR**](https://www.bing.com/search?q=**ROLE\_SYSTEM\_SCROLLBAR**)   |
-    | Top, down, left, and right arrow buttons              | [**ROLE\_SYSTEM\_PUSHBUTTON**](https://www.bing.com/search?q=**ROLE\_SYSTEM\_PUSHBUTTON**) |
-    | Scroll thumb                                          | [**ROLE\_SYSTEM\_INDICATOR**](https://www.bing.com/search?q=**ROLE\_SYSTEM\_INDICATOR**)   |
-    | Page up, page down, page left, and page right regions | [**ROLE\_SYSTEM\_PUSHBUTTON**](https://www.bing.com/search?q=**ROLE\_SYSTEM\_PUSHBUTTON**) |
+    | Scroll bar itself                                     | [**ROLE\_SYSTEM\_SCROLLBAR**](object-roles.md#role-system-scrollbar)   |
+    | Top, down, left, and right arrow buttons              | [**ROLE\_SYSTEM\_PUSHBUTTON**](object-roles.md#role-system-pushbutton) |
+    | Scroll thumb                                          | [**ROLE\_SYSTEM\_INDICATOR**](object-roles.md#role-system-indicator)   |
+    | Page up, page down, page left, and page right regions | [**ROLE\_SYSTEM\_PUSHBUTTON**](object-roles.md#role-system-pushbutton) |
 
     
 
@@ -163,10 +163,10 @@ A scroll bar supports the following [**IAccessible**](/windows/desktop/api/oleac
 
     | State                                                                                 | Value                                                                                                                                                                                                                       |
     |---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | [**STATE\_SYSTEM\_INVISIBLE**](https://www.bing.com/search?q=**STATE\_SYSTEM\_INVISIBLE**)     | For the scroll bar itself, this indicates the specified vertical or horizontal scroll bar does not exist. For the page up or page down regions, this indicates the thumb is positioned such that the region does not exist. |
-    | [**STATE\_SYSTEM\_OFFSCREEN**](https://www.bing.com/search?q=**STATE\_SYSTEM\_OFFSCREEN**)     | For the scroll bar itself, this indicates the window is sized such that the specified vertical or horizontal scroll bar is not currently displayed.                                                                         |
-    | [**STATE\_SYSTEM\_PRESSED**](https://www.bing.com/search?q=**STATE\_SYSTEM\_PRESSED**)         | The arrow button or page region is pressed.                                                                                                                                                                                 |
-    | [**STATE\_SYSTEM\_UNAVAILABLE**](https://www.bing.com/search?q=**STATE\_SYSTEM\_UNAVAILABLE**) | The component is disabled.                                                                                                                                                                                                  |
+    | [**STATE\_SYSTEM\_INVISIBLE**](object-state-constants.md#state-system-invisible)     | For the scroll bar itself, this indicates the specified vertical or horizontal scroll bar does not exist. For the page up or page down regions, this indicates the thumb is positioned such that the region does not exist. |
+    | [**STATE\_SYSTEM\_OFFSCREEN**](object-state-constants.md#state-system-offscreen)     | For the scroll bar itself, this indicates the window is sized such that the specified vertical or horizontal scroll bar is not currently displayed.                                                                         |
+    | [**STATE\_SYSTEM\_PRESSED**](object-state-constants.md#state-system-pressed)         | The arrow button or page region is pressed.                                                                                                                                                                                 |
+    | [**STATE\_SYSTEM\_UNAVAILABLE**](object-state-constants.md#state-system-unavailable) | The component is disabled.                                                                                                                                                                                                  |
 
     
 

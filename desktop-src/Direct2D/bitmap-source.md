@@ -136,9 +136,9 @@ D2D1_BITMAPSOURCE_ORIENTATION GetBitmapSourceOrientation(unsigned short PhotoOri
 
 ## Remarks
 
-To optimize performance when using WIC and [Direct2D](https://www.bing.com/search?q=Direct2D) together, you should use [**IWICFormatConverter**](https://msdn.microsoft.com/library/windows/desktop/ee690274) to convert to an appropriate pixel format based your app s scenario and the image s native precision.
+To optimize performance when using WIC and [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) together, you should use [**IWICFormatConverter**](https://msdn.microsoft.com/library/windows/desktop/ee690274) to convert to an appropriate pixel format based your app s scenario and the image s native precision.
 
-In most cases, either your app s [Direct2D](https://www.bing.com/search?q=Direct2D) pipeline only requires 8 bits per channel (bpc) of precision, or the image only provides 8 bpc precision, and therefore you should convert to GUID\_WICPixelFormat32bppPBGRA. However, if you want to take advantage of extra precision provided by an image (for example, a JPEG-XR or TIFF stored with greater than 8 bpc precision), you should use an RGBA-based pixel format. The below table provides more details.
+In most cases, either your app s [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) pipeline only requires 8 bits per channel (bpc) of precision, or the image only provides 8 bpc precision, and therefore you should convert to GUID\_WICPixelFormat32bppPBGRA. However, if you want to take advantage of extra precision provided by an image (for example, a JPEG-XR or TIFF stored with greater than 8 bpc precision), you should use an RGBA-based pixel format. The below table provides more details.
 
 
 

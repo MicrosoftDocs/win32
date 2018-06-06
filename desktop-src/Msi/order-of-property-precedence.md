@@ -16,7 +16,7 @@ The installer sets properties using the following order of precedence. A propert
 1.  Properties specified by the operating environment.
 2.  [Public properties](public-properties.md) set on the command line.
 3.  Public properties listed by the [**AdminProperties**](adminproperties.md) propertyset during an [administrative installation](administrative-installation.md) .
-4.  Public or private properties set during the application of a [*transform*](https://www.bing.com/search?q=*transform*).
+4.  Public or private properties set during the application of a [*transform*](t-gly.md#-msi-transform-gly).
 5.  Public or private property that set by authoring the [Property table](property-table.md) of the .msi file.
 
 ## Related topics

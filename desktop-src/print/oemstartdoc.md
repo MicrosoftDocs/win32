@@ -43,11 +43,11 @@ BOOL APIENTRY OEMStartDoc(
 
 ### Comments
 
-See [**DrvStartDoc**](https://www.bing.com/search?q=**DrvStartDoc**).
+See [**DrvStartDoc**](https://msdn.microsoft.com/f73adc24-2e61-4b62-9d38-12a23b62ed01).
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the drawing DDIs to be hooked out.
 
-The `OemStartDoc` function is called at the start of a print job, and whenever an application (such as a print processor) calls **ResetDC** (see [**DrvResetPDEV**](https://www.bing.com/search?q=**DrvResetPDEV**)). When the call to `OemStartDoc` comes from **ResetDC**, the *pwszDocName* parameter is set to **NULL** and the *dwJobId* parameter is set to zero. When the call comes from an application, these parameters are set, respectively, to the document name and the print job number.
+The `OemStartDoc` function is called at the start of a print job, and whenever an application (such as a print processor) calls **ResetDC** (see [**DrvResetPDEV**](https://msdn.microsoft.com/8e530874-7774-4f8f-852c-001b2ce4a707)). When the call to `OemStartDoc` comes from **ResetDC**, the *pwszDocName* parameter is set to **NULL** and the *dwJobId* parameter is set to zero. When the call comes from an application, these parameters are set, respectively, to the document name and the print job number.
 
 If you call into the core driver, cast the call using the **PFN\_DrvStartDoc** function pointer.
 

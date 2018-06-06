@@ -31,7 +31,7 @@ HRESULT STDMETHODCALLTYPE Start(
 *pFileName* \[out\]
 </dt> <dd>
 
-Pointer to the name of the [*capture file*](https://www.bing.com/search?q=*capture file*) used to store the network data. Be sure to cache this file name if it is needed for future reference.
+Pointer to the name of the [*capture file*](c.md#-netmon-capture-file-gly) used to store the network data. Be sure to cache this file name if it is needed for future reference.
 
 </dd> </dl>
 
@@ -56,7 +56,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 ## Remarks
 
-The location of the [*capture file*](https://www.bing.com/search?q=*capture file*) is specified in the Windows registry, but you can use Network Monitor to change the directory location.
+The location of the [*capture file*](c.md#-netmon-capture-file-gly) is specified in the Windows registry, but you can use Network Monitor to change the directory location.
 
 When you restart the capture by using the IESP::Start and [IESP::Stop](iesp-stop.md) methods, you must call the [IESP::Configure](iesp-configure.md) method to reconfigure the connection each time you call IESP::Start to restart capturing data. When you start and stop the capture with these three methods, a new capture file is created each time the capture is started.
 

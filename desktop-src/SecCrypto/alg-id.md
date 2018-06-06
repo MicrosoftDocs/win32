@@ -20,7 +20,7 @@ typedef unsigned int ALG_ID;
 
 
 
-The following table lists the algorithm identifiers that are currently defined. Authors of custom [*cryptographic service providers*](https://www.bing.com/search?q=*cryptographic service providers*) (CSPs) can define new values. Also, the **ALG\_ID** used by custom CSPs for the key specifications **AT\_KEYEXCHANGE** and **AT\_SIGNATURE** are provider dependent. Current mappings follow the table.
+The following table lists the algorithm identifiers that are currently defined. Authors of custom [*cryptographic service providers*](security.c_gly#-security-cryptographic-service-provider-gly) (CSPs) can define new values. Also, the **ALG\_ID** used by custom CSPs for the key specifications **AT\_KEYEXCHANGE** and **AT\_SIGNATURE** are provider dependent. Current mappings follow the table.
 
 
 
@@ -41,12 +41,12 @@ The following table lists the algorithm identifiers that are currently defined. 
 <tr class="odd">
 <td>CALG_3DES</td>
 <td>0x00006603</td>
-<td>[<em>Triple DES</em>](https://www.bing.com/search?q=<em>Triple DES</em>) encryption algorithm.</td>
+<td>[<em>Triple DES</em>](security.t_gly#-security-triple-des-gly) encryption algorithm.</td>
 </tr>
 <tr class="even">
 <td>CALG_3DES_112</td>
 <td>0x00006609</td>
-<td>Two-key [<em>triple DES</em>](https://www.bing.com/search?q=<em>triple DES</em>) encryption with effective key length equal to 112 bits.</td>
+<td>Two-key [<em>triple DES</em>](security.t_gly#-security-triple-des-gly) encryption with effective key length equal to 112 bits.</td>
 </tr>
 <tr class="odd">
 <td>CALG_AES</td>
@@ -101,7 +101,7 @@ The following table lists the algorithm identifiers that are currently defined. 
 <tr class="odd">
 <td>CALG_DSS_SIGN</td>
 <td>0x00002200</td>
-<td>DSA [<em>public key</em>](https://www.bing.com/search?q=<em>public key</em>) signature algorithm.</td>
+<td>DSA [<em>public key</em>](security.p_gly#-security-public-key-gly) signature algorithm.</td>
 </tr>
 <tr class="even">
 <td>CALG_ECDH</td>
@@ -109,7 +109,7 @@ The following table lists the algorithm identifiers that are currently defined. 
 <td>Elliptic curve Diffie-Hellman key exchange algorithm.
 <blockquote>
 [!Note]<br />
-This algorithm is supported only through [Cryptography API: Next Generation](https://msdn.microsoft.com/windows/desktop/eaad88a1-4e1d-4246-9560-8eef60f8b70f).
+This algorithm is supported only through [Cryptography API: Next Generation](https://msdn.microsoft.com/eaad88a1-4e1d-4246-9560-8eef60f8b70f).
 </blockquote>
 <br/> <strong>Windows Server 2003 and Windows XP:</strong> This algorithm is not supported.<br/></td>
 </tr>
@@ -119,7 +119,7 @@ This algorithm is supported only through [Cryptography API: Next Generation](htt
 <td>Ephemeral elliptic curve Diffie-Hellman key exchange algorithm.
 <blockquote>
 [!Note]<br />
-This algorithm is supported only through [Cryptography API: Next Generation](https://msdn.microsoft.com/windows/desktop/eaad88a1-4e1d-4246-9560-8eef60f8b70f).
+This algorithm is supported only through [Cryptography API: Next Generation](https://msdn.microsoft.com/eaad88a1-4e1d-4246-9560-8eef60f8b70f).
 </blockquote>
 <br/> <strong>Windows Server 2003 and Windows XP:</strong> This algorithm is not supported.<br/></td>
 </tr>
@@ -129,7 +129,7 @@ This algorithm is supported only through [Cryptography API: Next Generation](htt
 <td>Elliptic curve digital signature algorithm.
 <blockquote>
 [!Note]<br />
-This algorithm is supported only through [Cryptography API: Next Generation](https://msdn.microsoft.com/windows/desktop/eaad88a1-4e1d-4246-9560-8eef60f8b70f).
+This algorithm is supported only through [Cryptography API: Next Generation](https://msdn.microsoft.com/eaad88a1-4e1d-4246-9560-8eef60f8b70f).
 </blockquote>
 <br/> <strong>Windows Server 2003 and Windows XP:</strong> This algorithm is not supported.<br/></td>
 </tr>
@@ -161,7 +161,7 @@ This algorithm is supported only through [Cryptography API: Next Generation](htt
 <tr class="even">
 <td>CALG_MAC</td>
 <td>0x00008005</td>
-<td>[<em>MAC</em>](https://www.bing.com/search?q=<em>MAC</em>) keyed hash algorithm. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
+<td>[<em>MAC</em>](security.m_gly#-security-mac-gly) keyed hash algorithm. This algorithm is supported by the [Microsoft Base Cryptographic Provider](microsoft-base-cryptographic-provider.md).</td>
 </tr>
 <tr class="odd">
 <td>CALG_MD2</td>

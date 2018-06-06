@@ -53,7 +53,7 @@ Handle to the combo box.
 
 ## Remarks
 
-This notification code occurs only for a combo box with the [**CBS\_SIMPLE**](https://www.bing.com/search?q=**CBS\_SIMPLE**) style. In a combo box with the [**CBS\_DROPDOWN**](https://www.bing.com/search?q=**CBS\_DROPDOWN**) or [**CBS\_DROPDOWNLIST**](https://www.bing.com/search?q=**CBS\_DROPDOWNLIST**) style, a double-click cannot occur because a single click closes the list box.
+This notification code occurs only for a combo box with the [**CBS\_SIMPLE**](combo-box-styles.md#cbs-simple) style. In a combo box with the [**CBS\_DROPDOWN**](combo-box-styles.md#cbs-dropdown) or [**CBS\_DROPDOWNLIST**](combo-box-styles.md#cbs-dropdownlist) style, a double-click cannot occur because a single click closes the list box.
 
 ## Requirements
 

@@ -82,7 +82,7 @@ These values apply only for Windows 10 and later.
 </tr>
 <tr class="even">
 <td><strong>WINBIO_TYPE_VOICE</strong></td>
-<td>[<strong>WINBIO_VOICE Constants</strong>](https://www.bing.com/search?q=<strong>WINBIO_VOICE Constants</strong>)
+<td>[<strong>WINBIO_VOICE Constants</strong>](https://www.bing.com/search?q=<strong>WINBIO_VOICE+Constants</strong>)
 <blockquote>
 [!Note]<br />
 These values apply only for Windows 10 and later.

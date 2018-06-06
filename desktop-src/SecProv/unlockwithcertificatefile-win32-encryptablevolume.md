@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # UnlockWithCertificateFile method of the Win32\_EncryptableVolume class
 
-The **UnlockWithCertificateFile** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class uses the provided [*certificate*](https://www.bing.com/search?q=*certificate*) file to obtain the derived key and unlock the encrypted volume.
+The **UnlockWithCertificateFile** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class uses the provided [*certificate*](security.c_gly#-security-certificate-gly) file to obtain the derived key and unlock the encrypted volume.
 
 > [!Note]  
 > If the disc supports hardware encryption this function sets the band status to "unlocked""
@@ -39,7 +39,7 @@ uint32 UnlockWithCertificateFile(
 
 Type: **string**
 
-A string that specifies the location and name of the .cer file used to retrieve the certificate thumbprint. An [*encryption*](https://www.bing.com/search?q=*encryption*) certificate must be exported in .cer format ([*Distinguished Encoding Rules*](https://www.bing.com/search?q=*Distinguished Encoding Rules*) (DER)-encoded binary [*X.509*](https://www.bing.com/search?q=*X.509*) or Base-64 encoded X.509). The encryption certificate may be generated from Microsoft PKI, third-party PKI, or self-signed.
+A string that specifies the location and name of the .cer file used to retrieve the certificate thumbprint. An [*encryption*](security.e_gly#-security-encryption-gly) certificate must be exported in .cer format ([*Distinguished Encoding Rules*](security.d_gly#-security-distinguished-encoding-rules-gly) (DER)-encoded binary [*X.509*](security.x_gly#-security-x-509-gly) or Base-64 encoded X.509). The encryption certificate may be generated from Microsoft PKI, third-party PKI, or self-signed.
 
 </dd> <dt>
 
@@ -48,7 +48,7 @@ A string that specifies the location and name of the .cer file used to retrieve 
 
 Type: **string**
 
-A user-specified personal identification string. This string must consist of a sequence of 4 to 20 digits. This string is used to silently authenticate the [*key storage provider*](https://www.bing.com/search?q=*key storage provider*) (KSP) when used with a [*smart card*](https://www.bing.com/search?q=*smart card*).
+A user-specified personal identification string. This string must consist of a sequence of 4 to 20 digits. This string is used to silently authenticate the [*key storage provider*](security.k_gly#-security-key-storage-provider-gly) (KSP) when used with a [*smart card*](security.s_gly#-security-smart-card-gly).
 
 </dd> </dl>
 
@@ -67,7 +67,7 @@ This method returns one of the following codes or another error code if it fails
 | <dl> <dt>**FVE\_E\_NOT\_ACTIVATED**</dt> <dt>2150694920 (0x80310008)</dt> </dl>           | BitLocker is not enabled on the volume. Add a key protector to enable BitLocker. <br/>                                                                                                                                                                             |
 | <dl> <dt>**FVE\_E\_FAILED\_AUTHENTICATION**</dt> <dt>2150694951 (0x80310027)</dt> </dl>   | The volume cannot be unlocked with the provided information. <br/>                                                                                                                                                                                                 |
 | <dl> <dt>**FVE\_E\_PROTECTOR\_NOT\_FOUND**</dt> <dt>2150694963 (0x80310033)</dt> </dl>    | The provided key protector does not exist on the volume. You must enter another key protector.<br/>                                                                                                                                                                |
-| <dl> <dt>**FVE\_E\_PRIVATEKEY\_AUTH\_FAILED**</dt> <dt>2150695060 (0x80310094)</dt> </dl> | The [*private key*](https://www.bing.com/search?q=*private key*), associated with the specified certificate, could not be authorized. The private key authorization was either not provided or the provided authorization was invalid.<br/> |
+| <dl> <dt>**FVE\_E\_PRIVATEKEY\_AUTH\_FAILED**</dt> <dt>2150695060 (0x80310094)</dt> </dl> | The [*private key*](security.p_gly#-security-private-key-gly), associated with the specified certificate, could not be authorized. The private key authorization was either not provided or the provided authorization was invalid.<br/> |
 
 
 

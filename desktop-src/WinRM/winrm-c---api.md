@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # WinRM C++ API
 
-The Windows Remote Management interfaces can be used to obtain data or manage [*resources*](https://www.bing.com/search?q=*resources*) on a remote computer. This API is intended primarily for internal use. We recommend using the [WinRM Client Shell API](client-shell-api.md) instead whenever possible. The interfaces closely correspond to the [WinRM Scripting API](winrm-scripting-api.md).
+The Windows Remote Management interfaces can be used to obtain data or manage [*resources*](windows-remote-management-glossary.md#winrm-gloss-resource) on a remote computer. This API is intended primarily for internal use. We recommend using the [WinRM Client Shell API](client-shell-api.md) instead whenever possible. The interfaces closely correspond to the [WinRM Scripting API](winrm-scripting-api.md).
 
 The WinRM interfaces that inherit directly from **IDispatch** each have a corresponding scripting object. For more information, see the [WinRM Scripting API](winrm-scripting-api.md).
 
@@ -63,7 +63,7 @@ Represents a collection of results returned from enumerating a resource. [**Enum
 <span id="IWSManResourceLocator"></span><span id="iwsmanresourcelocator"></span><span id="IWSMANRESOURCELOCATOR"></span>[**IWSManResourceLocator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator)
 </dt> <dd>
 
-Supplies the path to a resource. You can use an [**IWSManResourceLocator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator) object instead of a [*resource URI*](https://www.bing.com/search?q=*resource URI*) in [**Session**](session.md) object operations. [**ResourceLocator**](resourcelocator.md) is the corresponding scripting object.
+Supplies the path to a resource. You can use an [**IWSManResourceLocator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator) object instead of a [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri) in [**Session**](session.md) object operations. [**ResourceLocator**](resourcelocator.md) is the corresponding scripting object.
 
 </dd> </dl>
 

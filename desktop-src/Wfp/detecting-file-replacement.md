@@ -27,11 +27,11 @@ Windows File Protection (WFP) protects system files by detecting attempts to rep
 
 If WFP cannot automatically find the file in the first two locations, it displays the following message:
 
-![wfp message displayed when file not found in cache directory or network install path](https://www.bing.com/search?q=wfp message displayed when file not found in cache directory or network install path)
+![wfp message displayed when file not found in cache directory or network install path](https://www.bing.com/search?q=wfp+message+displayed+when+file+not+found+in+cache+directory+or+network+install+path)
 
 If the system was installed using a CD-ROM, WFP displays the following message:
 
-![wfp message displayed to prompt user to insert windows cd-rom](https://www.bing.com/search?q=wfp message displayed to prompt user to insert windows cd-rom)
+![wfp message displayed to prompt user to insert windows cd-rom](https://www.bing.com/search?q=wfp+message+displayed+to+prompt+user+to+insert+windows+cd-rom)
 
 If an administrator is not logged on, WFP cannot display either of these dialog boxes. WFP will display the dialog box after an administrator logs on.
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following interfaces are provided for XPS Printer Driver (XPSDrv) filter pipeline filters. These interfaces are defined in the Filterpipeline.idl file, which is included in the Windows Driver Kit (WDK).
 
-For more information about XPSDrv, see [Microsoft XPS Printer Driver](https://www.bing.com/search?q=Microsoft XPS Printer Driver).
+For more information about XPSDrv, see [Microsoft XPS Printer Driver](https://www.bing.com/search?q=Microsoft+XPS+Printer+Driver).
 
 ### Filter-Related Interfaces
 

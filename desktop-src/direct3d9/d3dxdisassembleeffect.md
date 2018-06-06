@@ -42,7 +42,7 @@ Pointer to an [**ID3DXEffect**](id3dxeffect.md) interface that contains the effe
 *EnableColorCode* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Enable color coding to make the disassembly easier to read.
 

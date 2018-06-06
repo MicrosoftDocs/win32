@@ -38,7 +38,7 @@ HRESULT SetSourceNameValidation(
 *FilterString* 
 </dt> <dd>
 
-**BSTR** value containing pairs of filter strings, formatted as required by the **lpstrFilter** member of the [**OPENFILENAME**](https://msdn.microsoft.com/windows/desktop/c84932c8-c960-4606-bdec-bc9111c92b54) structure. The media locator uses this filter if it presents an Open File dialog box to the end user.
+**BSTR** value containing pairs of filter strings, formatted as required by the **lpstrFilter** member of the [**OPENFILENAME**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\openfilename.htm) structure. The media locator uses this filter if it presents an Open File dialog box to the end user.
 
 </dd> <dt>
 

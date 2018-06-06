@@ -11,14 +11,14 @@ ms.date: 05/31/2018
 
 # Sending Messages to the GINA
 
-[*Winlogon*](https://www.bing.com/search?q=*Winlogon*) sends messages to the [*GINA*](https://www.bing.com/search?q=*GINA*) while dialog boxes are displayed. These messages are all encapsulated in the WLX\_WM\_SAS message as follows.
+[*Winlogon*](security.w_gly#-security-winlogon-gly) sends messages to the [*GINA*](security.g_gly#-security-gina-gly) while dialog boxes are displayed. These messages are all encapsulated in the WLX\_WM\_SAS message as follows.
 
 
 
 | Secure attention sequence type in wParam parameter | Description                                                                                                                                   |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | WLX\_SAS\_TYPE\_CTRL\_ALT\_DEL                     | Indicates that a CTRL+ALT+DEL key sequence was received.                                                                                      |
-| WLX\_SAS\_TYPE\_SC\_INSERT                         | Indicates that a [*smart card*](https://www.bing.com/search?q=*smart card*) has been inserted into a compatible device. |
+| WLX\_SAS\_TYPE\_SC\_INSERT                         | Indicates that a [*smart card*](security.s_gly#-security-smart-card-gly) has been inserted into a compatible device. |
 | WLX\_SAS\_TYPE\_SC\_REMOVE                         | Indicates that a smart card has been removed from a compatible device.                                                                        |
 | WLX\_SAS\_TYPE\_USER\_LOGOFF                       | Indicates that a user requested logoff.                                                                                                       |
 | WLX\_SAS\_TYPE\_SCRNSVR\_TIMEOUT                   | Indicates that the screen saver should be run due to lack of user input.                                                                      |
@@ -49,7 +49,7 @@ For logoffs, the dialog box operation is closed with the code WLX\_DLG\_USER\_LO
 [Supported Dialog Box Service Time-out Operations](supported-dialog-box-service-time-out-operations.md)
 </dt> <dt>
 
-[Winlogon Support Functions](https://www.bing.com/search?q=Winlogon Support Functions)
+[Winlogon Support Functions](authentication-functions.md#winlogon-support-functions)
 </dt> </dl>
 
  

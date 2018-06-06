@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # DTN\_USERSTRING notification code
 
-Sent by a date and time picker (DTP) control when a user finishes editing a string in the control. This notification code is only sent by DTP controls that are set to the [**DTS\_APPCANPARSE**](https://www.bing.com/search?q=**DTS\_APPCANPARSE**) style. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a date and time picker (DTP) control when a user finishes editing a string in the control. This notification code is only sent by DTP controls that are set to the [**DTS\_APPCANPARSE**](date-and-time-picker-control-styles.md#dts-appcanparse) style. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++

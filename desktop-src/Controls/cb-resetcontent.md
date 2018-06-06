@@ -47,7 +47,7 @@ This message always returns CB\_OKAY.
 
 ## Remarks
 
-If you create the combo box with an owner-drawn style but without the [**CBS\_HASSTRINGS**](https://www.bing.com/search?q=**CBS\_HASSTRINGS**) style, the owner of the combo box receives a [**WM\_DELETEITEM**](wm-deleteitem.md) message for each item in the combo box.
+If you create the combo box with an owner-drawn style but without the [**CBS\_HASSTRINGS**](combo-box-styles.md#cbs-hasstrings) style, the owner of the combo box receives a [**WM\_DELETEITEM**](wm-deleteitem.md) message for each item in the combo box.
 
 ## Requirements
 

@@ -44,7 +44,7 @@ Support the extended styles that are listed in this section as well as most stan
 You set and retrieve the combobox extended styles by using [**CBEM\_SETEXTENDEDSTYLE**](cbem-setextendedstyle.md) and [**CBEM\_GETEXTENDEDSTYLE**](cbem-getextendedstyle.md) messages.
 
 > [!Note]  
-> If you try to set an extended style for a ComboBoxEx control created with the [**CBS\_SIMPLE**](https://www.bing.com/search?q=**CBS\_SIMPLE**) style, it might not repaint properly. The **CBS\_SIMPLE** style also does not work properly with the CBES\_EX\_PATHWORDBREAKPROC extended style.
+> If you try to set an extended style for a ComboBoxEx control created with the [**CBS\_SIMPLE**](combo-box-styles.md#cbs-simple) style, it might not repaint properly. The **CBS\_SIMPLE** style also does not work properly with the CBES\_EX\_PATHWORDBREAKPROC extended style.
 
  
 

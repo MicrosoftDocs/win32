@@ -16,17 +16,17 @@ ms.date: 05/31/2018
 
  
 
-A [*GINA*](https://www.bing.com/search?q=*GINA*) DLL has the following responsibilities:
+A [*GINA*](security.g_gly#-security-gina-gly) DLL has the following responsibilities:
 
 -   SAS monitoring
 
-    The GINA is responsible for recognizing a [*secure attention sequence*](https://www.bing.com/search?q=*secure attention sequence*) (SAS), monitoring for SAS events, and notifying Winlogon when a SAS has occurred. Note that there can be more than one SAS defined, and the set of defined SASs can change over time. For example, there can be one set of SASs when [*Winlogon*](https://www.bing.com/search?q=*Winlogon*) is in the logged-off state and another set when it is in the logged-on state.
+    The GINA is responsible for recognizing a [*secure attention sequence*](security.s_gly#-security-secure-attention-sequence-gly) (SAS), monitoring for SAS events, and notifying Winlogon when a SAS has occurred. Note that there can be more than one SAS defined, and the set of defined SASs can change over time. For example, there can be one set of SASs when [*Winlogon*](security.w_gly#-security-winlogon-gly) is in the logged-off state and another set when it is in the logged-on state.
 
     Winlogon provides services to assist the GINA in using the CTRL+ALT+DEL SAS.
 
 -   SAS processing
 
-    One reason for making the GINA replaceable is to provide alternative identification and authentication mechanisms. To do this, the GINA must present all user interfaces resulting from the recognition of a SAS. When no user is logged on, the GINA is responsible for presenting identification and authentication options as well as any other permissible options that are not authenticated. When a user is logged on, the GINA is responsible for presenting the relevant options to the user as well as taking whatever actions are deemed appropriate. For example, in a system that includes a [*smart card*](https://www.bing.com/search?q=*smart card*), it may be appropriate to automatically lock the workstation if the user removes the smart card.
+    One reason for making the GINA replaceable is to provide alternative identification and authentication mechanisms. To do this, the GINA must present all user interfaces resulting from the recognition of a SAS. When no user is logged on, the GINA is responsible for presenting identification and authentication options as well as any other permissible options that are not authenticated. When a user is logged on, the GINA is responsible for presenting the relevant options to the user as well as taking whatever actions are deemed appropriate. For example, in a system that includes a [*smart card*](security.s_gly#-security-smart-card-gly), it may be appropriate to automatically lock the workstation if the user removes the smart card.
 
 -   Shell activation
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IEKU::Name property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509EnhancedKeyUsageExtension Class**](https://www.bing.com/search?q=**X509EnhancedKeyUsageExtension Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509EnhancedKeyUsageExtension Class**](https://www.bing.com/search?q=**X509EnhancedKeyUsageExtension+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
 The **Name** property sets or retrieves an enumeration value that specifies the CAPICOM name of the EKU. This is the default property.
 
@@ -48,7 +48,7 @@ A value of the [**CAPICOM\_EKU**](capicom-eku.md) enumeration that specifies the
 
 ## Remarks
 
-When the value of this property is reset, directly or indirectly, the whole [*state*](https://www.bing.com/search?q=*state*) of the object is reset.
+When the value of this property is reset, directly or indirectly, the whole [*state*](security.s_gly#-security-state-gly) of the object is reset.
 
 ## Requirements
 

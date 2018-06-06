@@ -15,7 +15,7 @@ Cross certification enables entities in one public key infrastructure (PKI) to t
 
 A mutual trust relationship between two CAs requires that each CA issue a certificate to the other to establish the relationship in both directions. The path of trust is not hierarchal (neither of the governing CAs is subordinate to the other) although the separate PKIs may be certificate hierarchies. After two CAs have established and specified the terms of trust and issued certificates to each other, entities within the separate PKIs can interact subject to the policies specified in the certificates.
 
-![cross certification diagram](https://www.bing.com/search?q=cross certification diagram)
+![cross certification diagram](https://www.bing.com/search?q=cross+certification+diagram)
 
 ## Related topics
 

@@ -32,16 +32,16 @@ HRESULT Face(
 *Face* \[in\]
 </dt> <dd>
 
-Type: **[**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/windows/desktop/6d18b410-6f22-4202-86ae-6b3ef85e6f69)**
+Type: **[**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dcubemap_faces.htm)**
 
-The first face of the environmental cube map. See [**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/windows/desktop/6d18b410-6f22-4202-86ae-6b3ef85e6f69).
+The first face of the environmental cube map. See [**D3DCUBEMAP\_FACES**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dcubemap_faces.htm).
 
 </dd> <dt>
 
 *MipFilter* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 A valid combination of one or more [D3DX\_FILTER](d3dx-filter.md) flags.
 

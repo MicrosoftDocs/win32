@@ -116,7 +116,7 @@ Include one of the following installation message types. There is no default ins
 *hRecord* 
 </dt> <dd>
 
-Specifies a handle to a record that contains message data. For information about record objects, see the [Record Processing Functions](https://www.bing.com/search?q=Record Processing Functions).
+Specifies a handle to a record that contains message data. For information about record objects, see the [Record Processing Functions](database-functions.md#record-processing-functions).
 
 </dd> </dl>
 

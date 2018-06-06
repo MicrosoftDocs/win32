@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemDriverUni::DrvXMoveTo method
 
-The `IPrintOemDriverUni::DrvXMoveTo` method is provided by the Unidrv driver so that a [rendering plug-in](https://www.bing.com/search?q=rendering plug-in) can notify the driver of cursor x-position changes.
+The `IPrintOemDriverUni::DrvXMoveTo` method is provided by the Unidrv driver so that a [rendering plug-in](https://www.bing.com/search?q=rendering+plug-in) can notify the driver of cursor x-position changes.
 
 ## Syntax
 

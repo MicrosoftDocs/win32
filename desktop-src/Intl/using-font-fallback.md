@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-Your application must use font fallback during text display if some characters in a string are not supported in the font, or if the application uses a [complex script](https://www.bing.com/search?q=complex script) not supported by the font. The requirement for font fallback is detected during the layout process for text, when the application calls the [**ScriptShape**](/windows/desktop/api/Usp10/nf-usp10-scriptshape) function. For information about text display, see [Displaying Text with Uniscribe](displaying-text-with-uniscribe.md).
+Your application must use font fallback during text display if some characters in a string are not supported in the font, or if the application uses a [complex script](uniscribe-glossary.md#complex-script) not supported by the font. The requirement for font fallback is detected during the layout process for text, when the application calls the [**ScriptShape**](/windows/desktop/api/Usp10/nf-usp10-scriptshape) function. For information about text display, see [Displaying Text with Uniscribe](displaying-text-with-uniscribe.md).
 
 ## Determine the Need for Font Fallback for Unsupported Characters
 

@@ -31,7 +31,7 @@ HRESULT PublishDriverInterface(
 *pIUnknown* 
 </dt> <dd>
 
-Caller-supplied pointer to the **IUnknown** interface of the driver's [IPrintCorePS2 COM Interface](https://www.bing.com/search?q=IPrintCorePS2 COM Interface), [IPrintOemDriverPS COM Interface](https://www.bing.com/search?q=IPrintOemDriverPS COM Interface), or [IPrintCoreHelperPS Interface](iprintcorehelperps-interface.md).
+Caller-supplied pointer to the **IUnknown** interface of the driver's [IPrintCorePS2 COM Interface](https://www.bing.com/search?q=IPrintCorePS2+COM+Interface), [IPrintOemDriverPS COM Interface](https://www.bing.com/search?q=IPrintOemDriverPS+COM+Interface), or [IPrintCoreHelperPS Interface](iprintcorehelperps-interface.md).
 
 </dd> </dl>
 
@@ -60,7 +60,7 @@ The Pscript5 driver supports the **IPrintCorePS2**, **IPrintOemDriverPS**, and *
 
 3.  If the plug-in's [**IPrintOemPS::GetInfo**](iprintoemps-getinfo.md) method has returned a value of OEMPUBLISH\_IPRINTCOREHELPER in *pBuffer* in response to a call with *dwMode* set to OEMGI\_GETREQUESTEDHELPERINTERFACES in *pBuffer*, the Pscript5 driver calls the `IPrintOemPS::PublishDriverInterface` method again, but with the *pIUnknown* pointer set to an object that implements the **IPrintCoreHelperPS** and **IPrintCoreHelper** interfaces. If the plug-in retains a pointer to the object interface, the method should return S\_OK. Otherwise, the method should return E\_FAIL.
 
-If the plug-in fails all calls to `IPrintOemPS::PublishDriverInterface`, the plug-in will not receive further calls. If the plug-in will be calling **IPrintCorePS2**, **IPrintOemDriverPS**, or **IPrintCoreHelperPS** interface methods, it must use the received **IUnknown** interface pointer to call **IUnknown::QueryInterface** (described in the Microsoft Windows SDK documentation) in order to obtain a pointer to the driver's supported version of the **IPrintCorePS2**, **IPrintOemDriverPS**, or **IPrintCoreHelperPS** interface. For more information, see [Accessing Printer Driver Interfaces from Plug-Ins](https://www.bing.com/search?q=Accessing Printer Driver Interfaces from Plug-Ins).
+If the plug-in fails all calls to `IPrintOemPS::PublishDriverInterface`, the plug-in will not receive further calls. If the plug-in will be calling **IPrintCorePS2**, **IPrintOemDriverPS**, or **IPrintCoreHelperPS** interface methods, it must use the received **IUnknown** interface pointer to call **IUnknown::QueryInterface** (described in the Microsoft Windows SDK documentation) in order to obtain a pointer to the driver's supported version of the **IPrintCorePS2**, **IPrintOemDriverPS**, or **IPrintCoreHelperPS** interface. For more information, see [Accessing Printer Driver Interfaces from Plug-Ins](https://www.bing.com/search?q=Accessing+Printer+Driver+Interfaces+from+Plug-Ins).
 
 ## Requirements
 

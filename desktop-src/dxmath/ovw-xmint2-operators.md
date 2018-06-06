@@ -24,7 +24,7 @@ The [**XMINT2**](/windows/desktop/api/DirectXMath/) structure exposes the follow
 
 | Methods                                             | Description                                                                                                     |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://www.bing.com/search?q=**operator =**)<br/> | Assigns the vector component data from one instance of `XMINT2` to the current instance of `XMINT2`.<br/> |
+| [**operator =**](https://www.bing.com/search?q=**operator+=**)<br/> | Assigns the vector component data from one instance of `XMINT2` to the current instance of `XMINT2`.<br/> |
 
 
 

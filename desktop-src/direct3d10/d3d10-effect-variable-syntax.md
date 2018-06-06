@@ -21,7 +21,7 @@ An effect variable is declared with the following syntax.
 
 | Name         | Description                                                                                                                                                                                 |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DataType     | Any [basic](https://msdn.microsoft.com/windows/desktop/684c42d1-2dd4-42e1-9cff-580edb5c6bcd) or [texture](https://msdn.microsoft.com/windows/desktop/e8cb483a-d831-4942-b6fe-61dd5edb1813) type.                                                                        |
+| DataType     | Any [basic](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_variable_syntax.htm) or [texture](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_to_type.htm) type.                                                                        |
 | VariableName | An ASCII string that uniquely identifies the name of the effect variable.                                                                                                                   |
 | SemanticName | A ASCII string that denotes additional information about how a variable should be used. A semantic is an ASCII string that can be either a predefined system-value or a custom-user string. |
 | Annotations  | One or more pieces of user-supplied information (metadata) that is ignored by the effect system. For syntax, see [Annotation Syntax (Direct3D 10)](d3d10-effect-annotation-syntax.md).     |
@@ -89,7 +89,7 @@ Texture2D g_MeshTexture;            // Color texture for mesh
 
 
 
-Sampling a texture is done with a texture sampler. To set up a sampler in an effect, see the [sampler type](https://msdn.microsoft.com/windows/desktop/6534d343-d724-46e5-b300-2a29124a1a28).
+Sampling a texture is done with a texture sampler. To set up a sampler in an effect, see the [sampler type](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_sampler.htm).
 
 ## Related topics
 

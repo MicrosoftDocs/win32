@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Specifying the Algorithms
 
-After a [*master key*](https://www.bing.com/search?q=*master key*) is created or imported, both [*RSA*](https://www.bing.com/search?q=*RSA*)/Schannel and [*Diffie-Hellman*](https://www.bing.com/search?q=*Diffie-Hellman*)/Schannel inform the [*CSP*](https://www.bing.com/search?q=*CSP*) of the type of [*bulk encryption keys*](https://www.bing.com/search?q=*bulk encryption keys*) and [*MAC keys*](https://www.bing.com/search?q=*MAC keys*) that will be derived from the master key. The following example specifies these algorithms. The same code is used for both client and server.
+After a [*master key*](security.m_gly#-security-master-key-gly) is created or imported, both [*RSA*](security.r_gly#-security-rsa-gly)/Schannel and [*Diffie-Hellman*](security.d_gly#-security-diffie-hellman-algorithm-gly)/Schannel inform the [*CSP*](security.c_gly#-security-cryptographic-service-provider-gly) of the type of [*bulk encryption keys*](security.b_gly#-security-bulk-encryption-key-gly) and [*MAC keys*](security.m_gly#-security-mac-key-gly) that will be derived from the master key. The following example specifies these algorithms. The same code is used for both client and server.
 
 
 ```C++
@@ -81,7 +81,7 @@ if (!CryptSetKeyParam(
 
 
 > [!Note]  
-> An [*Schannel*](https://www.bing.com/search?q=*Schannel*) protocol engine must not specify algorithms and key sizes not supported by the CSP. For more information, see [Enumerating Supported Protocols](enumerating-supported-protocols.md). If unsupported algorithms or key sizes are specified, the CSP function must fail and return the NTE\_BAD\_DATA error code.
+> An [*Schannel*](security.s_gly#-security-schannel-gly) protocol engine must not specify algorithms and key sizes not supported by the CSP. For more information, see [Enumerating Supported Protocols](enumerating-supported-protocols.md). If unsupported algorithms or key sizes are specified, the CSP function must fail and return the NTE\_BAD\_DATA error code.
 
  
 

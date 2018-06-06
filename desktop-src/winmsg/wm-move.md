@@ -60,7 +60,7 @@ yPos = (int)(short) HIWORD(lParam);   // vertical position
 
 
 
-You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/windows/desktop/1f84cfd0-2836-4c20-9408-17e0d57742be) macro to convert the *lParam* parameter to a [**POINTS**](https://msdn.microsoft.com/windows/desktop/d36bc846-c538-4a37-bb5d-c75d41a3c7cc) structure.
+You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/1f84cfd0-2836-4c20-9408-17e0d57742be) macro to convert the *lParam* parameter to a [**POINTS**](https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc) structure.
 
 ## Requirements
 
@@ -96,10 +96,10 @@ You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/windows/desktop
 **Other Resources**
 </dt> <dt>
 
-[**MAKEPOINTS**](https://msdn.microsoft.com/windows/desktop/1f84cfd0-2836-4c20-9408-17e0d57742be)
+[**MAKEPOINTS**](https://msdn.microsoft.com/1f84cfd0-2836-4c20-9408-17e0d57742be)
 </dt> <dt>
 
-[**POINTS**](https://msdn.microsoft.com/windows/desktop/d36bc846-c538-4a37-bb5d-c75d41a3c7cc)
+[**POINTS**](https://msdn.microsoft.com/d36bc846-c538-4a37-bb5d-c75d41a3c7cc)
 </dt> </dl>
 
  

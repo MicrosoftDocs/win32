@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The printer DC can be used when printing on a dot-matrix printer, ink-jet printer, laser printer, or plotter. An application creates a printer DC by calling the [**CreateDC**](/windows/desktop/api/Wingdi/nf-wingdi-createdca) function and supplying the appropriate arguments (the name of the printer driver, the name of the printer, the file or device name for the physical output medium, and other initialization data). When an application has finished printing, it deletes the printer DC by calling the [**DeleteDC**](/windows/desktop/api/Wingdi/nf-wingdi-deletedc) function. An application must delete (rather than release) a printer DC; the [**ReleaseDC**](/windows/desktop/api/Winuser/nf-winuser-releasedc) function fails when an application attempts to use it to release a printer DC.
 
-For more information, see [Printer Output](https://msdn.microsoft.com/windows/desktop/5bdcec28-e28d-402d-8d80-e8aa5ecb4e74).
+For more information, see [Printer Output](https://msdn.microsoft.com/5bdcec28-e28d-402d-8d80-e8aa5ecb4e74).
 
  
 

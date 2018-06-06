@@ -78,14 +78,14 @@ A slider control supports the following [**IAccessible**](/windows/desktop/api/o
 
      
 
--   [**get\_accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent)—The **Parent** property of the arrow buttons, scroll thumb, and the shaded area on either side of the thumb is the slider window. The **Parent** property of the slider window is a window ( [**ROLE\_SYSTEM\_WINDOW**](https://www.bing.com/search?q=**ROLE\_SYSTEM\_WINDOW**) ) that surrounds the control and has the same **Name** property and window class name.
+-   [**get\_accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent)—The **Parent** property of the arrow buttons, scroll thumb, and the shaded area on either side of the thumb is the slider window. The **Parent** property of the slider window is a window ( [**ROLE\_SYSTEM\_WINDOW**](object-roles.md#role-system-window) ) that surrounds the control and has the same **Name** property and window class name.
 -   [**get\_accRole**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole)—The **Role** property depends on the part of the slider that is queried. 
 
     | Slider part                                     | [Role](object-roles.md)                                                |
     |-------------------------------------------------|-------------------------------------------------------------------------|
-    | Slider window                                   | [**ROLE\_SYSTEM\_SLIDER**](https://www.bing.com/search?q=**ROLE\_SYSTEM\_SLIDER**)         |
-    | Slider thumb                                    | [**ROLE\_SYSTEM\_INDICATOR**](https://www.bing.com/search?q=**ROLE\_SYSTEM\_INDICATOR**)   |
-    | Shaded areas on either side of the slider thumb | [**ROLE\_SYSTEM\_PUSHBUTTON**](https://www.bing.com/search?q=**ROLE\_SYSTEM\_PUSHBUTTON**) |
+    | Slider window                                   | [**ROLE\_SYSTEM\_SLIDER**](object-roles.md#role-system-slider)         |
+    | Slider thumb                                    | [**ROLE\_SYSTEM\_INDICATOR**](object-roles.md#role-system-indicator)   |
+    | Shaded areas on either side of the slider thumb | [**ROLE\_SYSTEM\_PUSHBUTTON**](object-roles.md#role-system-pushbutton) |
 
     
 
@@ -95,9 +95,9 @@ A slider control supports the following [**IAccessible**](/windows/desktop/api/o
 
     | Slider Part                                     | Possible state values                                                                                                                                                                                                                                                                                                                                                                                                           |
     |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Slider window                                   | [**STATE\_SYSTEM\_INVISIBLE**](https://www.bing.com/search?q=**STATE\_SYSTEM\_INVISIBLE**) \| [**STATE\_SYSTEM\_UNAVAILABLE**](https://www.bing.com/search?q=**STATE\_SYSTEM\_UNAVAILABLE**) \| [**STATE\_SYSTEM\_FOCUSED**](https://www.bing.com/search?q=**STATE\_SYSTEM\_FOCUSED**) \| [**STATE\_SYSTEM\_FOCUSABLE**](https://www.bing.com/search?q=**STATE\_SYSTEM\_FOCUSABLE**) \| [**STATE\_SYSTEM\_NORMAL**](https://www.bing.com/search?q=**STATE\_SYSTEM\_NORMAL**) |
-    | Slider thumb                                    | Zero (0), which means the object is visible, or [**STATE\_SYSTEM\_INVISIBLE**](https://www.bing.com/search?q=**STATE\_SYSTEM\_INVISIBLE**) \| [**STATE\_SYSTEM\_UNAVAILABLE**](https://www.bing.com/search?q=**STATE\_SYSTEM\_UNAVAILABLE**) \| [**STATE\_SYSTEM\_NORMAL**](https://www.bing.com/search?q=**STATE\_SYSTEM\_NORMAL**)                                                                                                                       |
-    | Shaded areas on either side of the slider thumb | Zero (0), which means the object is visible, or [**STATE\_SYSTEM\_INVISIBLE**](https://www.bing.com/search?q=**STATE\_SYSTEM\_INVISIBLE**) \| [**STATE\_SYSTEM\_UNAVAILABLE**](https://www.bing.com/search?q=**STATE\_SYSTEM\_UNAVAILABLE**) \| [**STATE\_SYSTEM\_NORMAL**](https://www.bing.com/search?q=**STATE\_SYSTEM\_NORMAL**)                                                                                                                       |
+    | Slider window                                   | [**STATE\_SYSTEM\_INVISIBLE**](object-state-constants.md#state-system-invisible) \| [**STATE\_SYSTEM\_UNAVAILABLE**](object-state-constants.md#state-system-unavailable) \| [**STATE\_SYSTEM\_FOCUSED**](object-state-constants.md#state-system-focused) \| [**STATE\_SYSTEM\_FOCUSABLE**](object-state-constants.md#state-system-focusable) \| [**STATE\_SYSTEM\_NORMAL**](object-state-constants.md#state-system-normal) |
+    | Slider thumb                                    | Zero (0), which means the object is visible, or [**STATE\_SYSTEM\_INVISIBLE**](object-state-constants.md#state-system-invisible) \| [**STATE\_SYSTEM\_UNAVAILABLE**](object-state-constants.md#state-system-unavailable) \| [**STATE\_SYSTEM\_NORMAL**](object-state-constants.md#state-system-normal)                                                                                                                       |
+    | Shaded areas on either side of the slider thumb | Zero (0), which means the object is visible, or [**STATE\_SYSTEM\_INVISIBLE**](object-state-constants.md#state-system-invisible) \| [**STATE\_SYSTEM\_UNAVAILABLE**](object-state-constants.md#state-system-unavailable) \| [**STATE\_SYSTEM\_NORMAL**](object-state-constants.md#state-system-normal)                                                                                                                       |
 
     
 

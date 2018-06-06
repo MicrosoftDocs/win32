@@ -54,7 +54,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 [Stream Descriptor Attributes](stream-descriptor-attributes.md)
 </dt> <dt>
 
-[ASF Header Object](https://www.bing.com/search?q=ASF Header Object)
+[ASF Header Object](asf-file-structure.md#header-object)
 </dt> </dl>
 
  

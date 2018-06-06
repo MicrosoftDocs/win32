@@ -5,6 +5,7 @@ ms.assetid: 387311c0-13df-4497-a0ac-ce6aec0e726c
 topic_type:
 - apiref
 api_name:
+- 0
 - RPC_IF_ALLOW_CALLBACKS_WITH_NO_AUTH
 - RPC_IF_ALLOW_LOCAL_ONLY
 - RPC_IF_AUTOLISTEN

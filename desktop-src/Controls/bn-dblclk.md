@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # BN\_DBLCLK notification code
 
-Sent when the user double-clicks a button. This notification code is sent automatically for [**BS\_USERBUTTON**](https://www.bing.com/search?q=**BS\_USERBUTTON**), [**BS\_RADIOBUTTON**](https://www.bing.com/search?q=**BS\_RADIOBUTTON**), and [**BS\_OWNERDRAW**](https://www.bing.com/search?q=**BS\_OWNERDRAW**) buttons. Other button types send BN\_DBLCLK only if they have the [**BS\_NOTIFY**](https://www.bing.com/search?q=**BS\_NOTIFY**) style.
+Sent when the user double-clicks a button. This notification code is sent automatically for [**BS\_USERBUTTON**](button-styles.md#bs-userbutton), [**BS\_RADIOBUTTON**](button-styles.md#bs-radiobutton), and [**BS\_OWNERDRAW**](button-styles.md#bs-ownerdraw) buttons. Other button types send BN\_DBLCLK only if they have the [**BS\_NOTIFY**](button-styles.md#bs-notify) style.
 
 The parent window of the button receives this notification code through the [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.
 

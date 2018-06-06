@@ -15,7 +15,7 @@ Use this table to author a [multiple-package installation](multiple-package-inst
 
 **[Windows Installer 4.0 or earlier](not-supported-in-windows-installer-4-0.md):** Not supported. This table is available beginning with Windows Installer 4.5.
 
-**Windows Server 2008 R2 with the [Remote Desktop Services](https://msdn.microsoft.com/windows/desktop/90c40b7a-e324-43fc-a1e6-f29997ed9436) role enabled:** Not supported. A multiple package installation using the MsiEmbeddedChainer table fails if the [Remote Desktop Services](https://msdn.microsoft.com/windows/desktop/90c40b7a-e324-43fc-a1e6-f29997ed9436) role is enabled.
+**Windows Server 2008 R2 with the [Remote Desktop Services](https://msdn.microsoft.com/90c40b7a-e324-43fc-a1e6-f29997ed9436) role enabled:** Not supported. A multiple package installation using the MsiEmbeddedChainer table fails if the [Remote Desktop Services](https://msdn.microsoft.com/90c40b7a-e324-43fc-a1e6-f29997ed9436) role is enabled.
 
 To install multiple packages from a single package, one of the user-defined functions listed in the MsiEmbeddedChainer table must have a conditional statment in the Condition field that evaluates to run the action. If more than one function has a condition that evaluates to run, only one function can run. This case is an error, and it cannot be guaranteed which function will run. If other custom actions are needed by the installation, these should be authored into the [CustomAction table](customaction-table.md) and sequence tables.
 
@@ -94,7 +94,7 @@ The Windows Installer does not prevent the user-defined functions in this table 
 
 The Windows Installer also provides a non-embedded external UI handler to build a rich user interface on top of the Windows Installer package. For more information about using an external UI handler with the Windows Installer, see [Monitoring an Installation Using MsiSetExternalUI](monitoring-an-installation-using-msisetexternalui.md).
 
-The [MsiPackageCertificate Table](msipackagecertificate-table.md) lists digital signature certificates used to verify the identity of the installation packages that make a multiple-package installation. You can use this table to reduce the number of times your multiple-package installation displays a [*User Account Control*](https://www.bing.com/search?q=*User Account Control*) (UAC) prompt that requires a response by an administrator.
+The [MsiPackageCertificate Table](msipackagecertificate-table.md) lists digital signature certificates used to verify the identity of the installation packages that make a multiple-package installation. You can use this table to reduce the number of times your multiple-package installation displays a [*User Account Control*](u-gly.md#-msi-user-account-control-gly) (UAC) prompt that requires a response by an administrator.
 
  
 

@@ -73,7 +73,7 @@ In these situations, you need a full filter implementation, including the [**IFi
 
 As noted earlier, Windows Vista and Windows Search include a new property system that encapsulates an item's properties that is separate from an item's content. This property system does not exist in earlier versions of Microsoft Windows Desktop Search (WDS) 2.x. If your filter must support other applications as described above, it may need to handle both content and properties.
 
-For more information on developing a compatible filter, see the following topics, [IFilter (for legacy applications)](http://msdn.microsoft.com/en-us/library/ms691105(VS.85).aspx), and [Developing Filter Add-ins (for legacy applications)](https://www.bing.com/search?q=Developing Filter Add-ins (for legacy applications)).
+For more information on developing a compatible filter, see the following topics, [IFilter (for legacy applications)](http://msdn.microsoft.com/en-us/library/ms691105(VS.85).aspx), and [Developing Filter Add-ins (for legacy applications)](https://www.bing.com/search?q=Developing+Filter+Add-ins+(for+legacy+applications)).
 
 ## Windows Search Filters
 

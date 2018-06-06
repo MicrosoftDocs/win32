@@ -23,7 +23,7 @@ This sample demonstrates the following Microsoft Media Foundation interfaces:
 
 The MFT\_GrayScale sample builds a DLL that is a COM server for the MFT. Before using the MFT, you must register the DLL.
 
-To see the grayscale MFT in use, run the [PlaybackFX Sample](https://www.bing.com/search?q=PlaybackFX Sample). You can also use the TopoEdit tool to build a topology that includes the grayscale MFT. For more information about TopoEdit, see [TopoEdit](topoedit.md).
+To see the grayscale MFT in use, run the [PlaybackFX Sample](https://www.bing.com/search?q=PlaybackFX+Sample). You can also use the TopoEdit tool to build a topology that includes the grayscale MFT. For more information about TopoEdit, see [TopoEdit](topoedit.md).
 
 ## Requirements
 

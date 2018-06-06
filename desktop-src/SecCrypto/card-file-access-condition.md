@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CARD\_FILE\_ACCESS\_CONDITION enumeration
 
-The **CARD\_FILE\_ACCESS\_CONDITION** enumeration specifies access control permissions for a file on a [*smart card*](https://www.bing.com/search?q=*smart card*).
+The **CARD\_FILE\_ACCESS\_CONDITION** enumeration specifies access control permissions for a file on a [*smart card*](security.s_gly#-security-smart-card-gly).
 
 ## Syntax
 
@@ -83,13 +83,13 @@ Access permissions for the file are unknown.
 
 <dl> <dt>
 
-[Microsoft Base Smart Card Cryptographic Service Provider](https://msdn.microsoft.com/windows/desktop/8d71e365-c581-4ec8-977b-0725a8c7d9ad)
+[Microsoft Base Smart Card Cryptographic Service Provider](https://msdn.microsoft.com/8d71e365-c581-4ec8-977b-0725a8c7d9ad)
 </dt> <dt>
 
-[**CARD\_FILE\_INFO**](https://msdn.microsoft.com/windows/desktop/9acabc20-1de5-44ee-827f-08a8042e6f75)
+[**CARD\_FILE\_INFO**](https://msdn.microsoft.com/9acabc20-1de5-44ee-827f-08a8042e6f75)
 </dt> <dt>
 
-[**CardCreateFile**](https://msdn.microsoft.com/windows/desktop/030a7102-0e5c-43c8-a0ef-3688655dc75d)
+[**CardCreateFile**](https://msdn.microsoft.com/030a7102-0e5c-43c8-a0ef-3688655dc75d)
 </dt> </dl>
 
  

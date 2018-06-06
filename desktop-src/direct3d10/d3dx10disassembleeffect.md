@@ -12,11 +12,11 @@ ms.date: 05/31/2018
 # D3DX10DisassembleEffect function
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](https://msdn.microsoft.com/windows/desktop/0b5cfe31-1277-4923-a6e2-7e020019b74c) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddisassemble.htm) API.
 
  
 
-This function -- which disassembles a compiled effect into a text string that contains assembly instructions and register assignments -- has been deprecated. Instead, use [**D3DDisassemble10Effect**](https://msdn.microsoft.com/windows/desktop/fb6668ae-db7f-4d69-aed4-4b50f3a2b315).
+This function -- which disassembles a compiled effect into a text string that contains assembly instructions and register assignments -- has been deprecated. Instead, use [**D3DDisassemble10Effect**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddisassemble10effect.htm).
 
 ## Syntax
 
@@ -47,7 +47,7 @@ A pointer to the effect interface (see [**ID3D10Effect Interface**](/windows/des
 *EnableColorCode* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Include HTML tags in the output to color code the result.
 

@@ -22,7 +22,7 @@ An expanded selection of icons, including branded icons for major manufacturers,
 This documentation is organized in the following sections.
 
 -   [Using and Configuring AutoPlay](autoplay2k-using.md)
--   [Preparing Hardware and Software for Use with AutoPlay](https://www.bing.com/search?q=Preparing Hardware and Software for Use with AutoPlay)
+-   [Preparing Hardware and Software for Use with AutoPlay](autoplay2k-using.md#preparing-hardware-and-software-for-use-with-autoplay)
 
  
 

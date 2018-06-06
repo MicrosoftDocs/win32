@@ -15,7 +15,7 @@ Describes the signature of the callback object that receives the Bidi response.
 
 ## Members
 
-The **IPrinterBidiSetRequestCallback** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrinterBidiSetRequestCallback** also has these types of members:
+The **IPrinterBidiSetRequestCallback** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrinterBidiSetRequestCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -37,7 +37,7 @@ The **IPrinterBidiSetRequestCallback** interface has these methods.
 
 **IPrinterBidiSetRequestCallback** provides the Bidi response string, and **HRESULT** value returned from the [IBidiSpl2::SendRecvXmlString](http://msdn.microsoft.com/en-us/library/windows/desktop/dd144984.aspx) method. In other words, this interface provides the results of the attempt to send data to the device.
 
-**IPrinterBidiSetRequestCallback** helps to make it possible to perform device maintenance from a UWP device app or from a printer extension. For more information, see [Device Maintenance](https://www.bing.com/search?q=Device Maintenance).
+**IPrinterBidiSetRequestCallback** helps to make it possible to perform device maintenance from a UWP device app or from a printer extension. For more information, see [Device Maintenance](https://www.bing.com/search?q=Device+Maintenance).
 
 ## Requirements
 
@@ -55,7 +55,7 @@ The **IPrinterBidiSetRequestCallback** interface has these methods.
 
 <dl> <dt>
 
-[Device Maintenance](https://www.bing.com/search?q=Device Maintenance)
+[Device Maintenance](https://www.bing.com/search?q=Device+Maintenance)
 </dt> <dt>
 
 [IBidiSpl2::SendRecvXmlString](http://msdn.microsoft.com/en-us/library/windows/desktop/dd144984.aspx)

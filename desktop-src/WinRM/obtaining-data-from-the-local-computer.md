@@ -25,13 +25,13 @@ When using the WinRM service for local operations, the following factors should 
 
 -   The local WinRM configuration can only be read by administrators.
 -   WMI namespaces must have remote enable permissions set. For more information, see [Securing a Remote WMI Connection](http://go.microsoft.com/fwlink/p/?linkid=144681).
--   If a WinRM [*listener*](https://www.bing.com/search?q=*listener*) is not created, then the WinRM service listens for local requests on port 47001.
+-   If a WinRM [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener) is not created, then the WinRM service listens for local requests on port 47001.
 
 Every WinRM script must start by establishing a session or connection to a computer by creating a [**Session**](session.md) object. After the session is created, you can use the **Session** object methods, such as [**Session.Enumerate**](session-enumerate.md) or [**Session.Invoke**](session-invoke.md) to obtain data or to execute methods.
 
-The creation of a session is somewhat similar to [connecting](https://msdn.microsoft.com/library/aa394589) to a Windows Management Instrumentation ([WMI](https://msdn.microsoft.com/library/aa394582)) namespace. The session is essentially a layer that allows you to send and receive data through [*SOAP*](https://www.bing.com/search?q=*SOAP*) messages and the WS-Management protocol. For more information, see [WS-Management Protocol](ws-management-protocol.md).
+The creation of a session is somewhat similar to [connecting](https://msdn.microsoft.com/library/aa394589) to a Windows Management Instrumentation ([WMI](https://msdn.microsoft.com/library/aa394582)) namespace. The session is essentially a layer that allows you to send and receive data through [*SOAP*](windows-remote-management-glossary.md#winrm-gloss-soap) messages and the WS-Management protocol. For more information, see [WS-Management Protocol](ws-management-protocol.md).
 
-Calling the [**WSMan.CreateSession**](wsman-createsession.md) method to create a [**Session**](session.md) object will start a [*session*](https://www.bing.com/search?q=*session*) that connects to the local WinRM.
+Calling the [**WSMan.CreateSession**](wsman-createsession.md) method to create a [**Session**](session.md) object will start a [*session*](windows-remote-management-glossary.md#winrm-gloss-session) that connects to the local WinRM.
 
 **To Create a WSMan Session and Obtain Data**
 
@@ -51,7 +51,7 @@ Calling the [**WSMan.CreateSession**](wsman-createsession.md) method to create a
 
     
 
-3.  Create a resource [*URI*](https://www.bing.com/search?q=*URI*) to identify the [*resource*](https://www.bing.com/search?q=*resource*) you want to manage or for which you want to obtain data. For more information about formatting a URI, see [Resource URIs](resource-uris.md). This resource URI is for a specific instance of the WMI [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418) class, the Winmgmt service. For more information, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
+3.  Create a resource [*URI*](windows-remote-management-glossary.md#winrm-gloss-uri) to identify the [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource) you want to manage or for which you want to obtain data. For more information about formatting a URI, see [Resource URIs](resource-uris.md). This resource URI is for a specific instance of the WMI [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418) class, the Winmgmt service. For more information, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
 
     ```VB
     strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"

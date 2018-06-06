@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 
 # Privacy Templates
 
-The following are privacy levels that equate to rules for accepting, conditionally accepting, or not accepting cookies. These levels correspond to the privacy preference levels set on the Privacy tab in Internet Options. See [Privacy in Internet Explorer 6](https://www.bing.com/search?q=Privacy in Internet Explorer 6) for detailed definitions.
+The following are privacy levels that equate to rules for accepting, conditionally accepting, or not accepting cookies. These levels correspond to the privacy preference levels set on the Privacy tab in Internet Options. See [Privacy in Internet Explorer 6](https://www.bing.com/search?q=Privacy+in+Internet+Explorer+6) for detailed definitions.
 
 <dl> <dt>
 
@@ -117,7 +117,7 @@ This is the same as **Accept All Cookies** on the Privacy Preferences slider bar
 
 
 
-User-defined. See [How to Create a Customized Privacy Import File](https://www.bing.com/search?q=How to Create a Customized Privacy Import File) to understand how to set custom privacy settings.
+User-defined. See [How to Create a Customized Privacy Import File](https://www.bing.com/search?q=How+to+Create+a+Customized+Privacy+Import+File) to understand how to set custom privacy settings.
 
 
 </dt> </dl> </dd> <dt>

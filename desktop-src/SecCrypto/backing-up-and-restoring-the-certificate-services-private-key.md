@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Backing Up and Restoring the Certificate Services Private Key
 
-You cannot use the Certadm.dll's backup and restore functions to back up the Certificate Services [*private keys*](https://www.bing.com/search?q=*private keys*). Private keys cannot be backed up by these functions because these functions are intended to backup and restore the Certificate Services database (and related files), and this database does not contain any private keys (even for self-issued certificates).
+You cannot use the Certadm.dll's backup and restore functions to back up the Certificate Services [*private keys*](security.p_gly#-security-private-key-gly). Private keys cannot be backed up by these functions because these functions are intended to backup and restore the Certificate Services database (and related files), and this database does not contain any private keys (even for self-issued certificates).
 
 To back up a Certificate Services private key, use the Certification Authority MMC snap-in, or the certutil command (with -backup or -backupkey specified). Backing up the private key with the Certification Authority MMC snap-in or certutil results in the private key being written to PKCS \#12 file. Even though this PKCS \#12 file is password-protected, it should be considered extremely sensitive and must be stored securely; the password to the PKCS \#12 file should also be guarded from unauthorized persons.
 

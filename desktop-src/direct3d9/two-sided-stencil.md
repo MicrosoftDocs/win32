@@ -82,7 +82,7 @@ D3DSTENCILCAPS_TWOSIDED // a flag on D3DCAPS9.StencilCaps
 [Stencil Buffer Techniques](stencil-buffer-techniques.md)
 </dt> <dt>
 
-[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/windows/desktop/2fd56388-f3bd-409f-876c-ae893840b623)
+[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3drenderstatetype.htm)
 </dt> </dl>
 
  

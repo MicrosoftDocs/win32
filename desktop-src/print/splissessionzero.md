@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SplIsSessionZero function
 
-The `SplIsSessionZero` function determines whether a certain print job (print handle plus job ID) was issued in [*session zero*](https://www.bing.com/search?q=*session zero*).
+The `SplIsSessionZero` function determines whether a certain print job (print handle plus job ID) was issued in [*session zero*](wdkgloss.s#wdkgloss-session-zero).
 
 ## Syntax
 

@@ -53,7 +53,7 @@ To decide if this is the right control, consider these questions:
 
 -   **Is the control used to choose zero or more items from a list of data?** To choose one item, use single selection instead.
 -   **Is multiple selection essential to the task or commonly used?** If so, use a check box list view to make multiple selection obvious, especially if your target users aren't advanced. If not, use a standard multiple-selection list view if the check boxes would draw too much attention to multiple selection or result in too much screen clutter.
--   **Is the stability of the multiple selection important?** If so, use a [check box list](https://www.bing.com/search?q=check box list), list builder, or add/remove list because clicking changes only a single item at a time. With a standard multiple selection list, it's very easy to clear all the selections even by accident.
+-   **Is the stability of the multiple selection important?** If so, use a [check box list](ctrl-list-boxes.md#usage-patterns), list builder, or add/remove list because clicking changes only a single item at a time. With a standard multiple selection list, it's very easy to clear all the selections even by accident.
 
 > [!Note]  
 > Sometimes a control that looks like a list view is implemented using a list box, and vice versa. In such cases, apply the guidelines based on the usage, not on the implementation.
@@ -62,7 +62,7 @@ To decide if this is the right control, consider these questions:
 
 ## Usage patterns
 
-All views support single selection, where users can select only one item at a time, and multiple selection, where users can select any number of items, including none. List views support [extended selection mode](https://www.bing.com/search?q=extended selection mode), where the selection can be extended by dragging or with Shift+click or Ctrl+click to select groups of contiguous or non-adjacent values, respectively. Unlike list boxes, they don't support [multiple selection mode](https://www.bing.com/search?q=multiple selection mode), where clicking any item toggles its selection state regardless of the Shift and Ctrl keys.
+All views support single selection, where users can select only one item at a time, and multiple selection, where users can select any number of items, including none. List views support [extended selection mode](glossary.md#e), where the selection can be extended by dragging or with Shift+click or Ctrl+click to select groups of contiguous or non-adjacent values, respectively. Unlike list boxes, they don't support [multiple selection mode](glossary.md#m), where clicking any item toggles its selection state regardless of the Shift and Ctrl keys.
 
 ### Standard list view
 
@@ -136,7 +136,7 @@ The list view control supports five standard views:
 -   **Use single-click to select the list item the user is pointing to.Exception:** For the command link list pattern, single-click selects the item and either closes the window or navigates to the next page.
 -   **Consider providing double-click behavior.** Double clicking should have the same effect as selecting an item and performing its default command.
 -   **Make double-click behavior redundant.** There should always be a command button or context menu command that has the same effect.
--   If a list item requires further explanation, **provide the explanation in an** [infotip](https://www.bing.com/search?q=infotip). Use complete sentences and ending punctuation.
+-   If a list item requires further explanation, **provide the explanation in an** [infotip](ctrl-tooltips-and-infotips.md#usage-patterns). Use complete sentences and ending punctuation.
 
     ![screen shot of list view with keyboard infotip ](images/ctrl-list-views-image12.png)
 
@@ -182,7 +182,7 @@ The list view control supports five standard views:
 If users can change views:
 
 -   **Choose the most convenient view by default.** Any changes users make should be made persistent on a per-list view, per-user basis.
--   **Change the view using a split button, menu button, or drop-down list.** Whenever practical, use a [split button](https://www.bing.com/search?q=split button) on the toolbar and change the button label to reflect the current view.
+-   **Change the view using a split button, menu button, or drop-down list.** Whenever practical, use a [split button](ctrl-command-buttons.md#usage-patterns) on the toolbar and change the button label to reflect the current view.
 
     ![screen shot of list with split 'views' button ](images/ctrl-list-views-image17.png)
 
@@ -280,8 +280,8 @@ Recommended sizing and spacing for list views.
 ### Control labels
 
 -   All list views need labels. Write the label as a word or phrase, not as a sentence, ending with a colon using static text.
--   Assign a unique [access key](https://www.bing.com/search?q=access key) for each label. For guidelines, see [Keyboard](inter-keyboard.md).
--   Use [sentence-style capitalization](https://www.bing.com/search?q=sentence-style capitalization).
+-   Assign a unique [access key](glossary.md#glossary) for each label. For guidelines, see [Keyboard](inter-keyboard.md).
+-   Use [sentence-style capitalization](glossary.md#s).
 -   Position the label above the control and align the label with the left edge of the control.
 -   For multiple-selection list views, write the label that clearly indicates multiple selection is possible. Check box list view labels can be less explicit.
 
@@ -309,7 +309,7 @@ Recommended sizing and spacing for list views.
 
 -   Keep the heading labels brief (three words or fewer).
 -   Use a single noun or noun phrase with no ending punctuation.
--   Use [sentence-style capitalization](https://www.bing.com/search?q=sentence-style capitalization).
+-   Use [sentence-style capitalization](glossary.md#s).
 -   Align the heading the same way as the data.
 
 ### Group labels
@@ -322,12 +322,12 @@ Recommended sizing and spacing for list views.
 
 ### Data text
 
--   Use [sentence-style capitalization](https://www.bing.com/search?q=sentence-style capitalization).
+-   Use [sentence-style capitalization](glossary.md#s).
 
 ### Instructional text
 
 -   If you need to add instructional text about a list view, add it above the label. Use complete sentences with ending punctuation.
--   Use [sentence-style capitalization](https://www.bing.com/search?q=sentence-style capitalization).
+-   Use [sentence-style capitalization](glossary.md#s).
 -   Additional information that is helpful but not necessary should be kept short. Place this information either in parentheses between the label and colon or without parentheses below the control.
 
 ## Documentation

@@ -53,7 +53,7 @@ The following example creates a window with standard horizontal and vertical scr
 
 To process scroll bar messages for these scroll bars, you must include appropriate code in the main window procedure.
 
-You can use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create a scroll bar by specifying the SCROLLBAR window class. This creates a horizontal or vertical scroll bar, depending on whether [**SBS\_HORZ**](https://www.bing.com/search?q=**SBS\_HORZ**) or [**SBS\_VERT**](https://www.bing.com/search?q=**SBS\_VERT**) is specified as the window style. The scroll bar size and its position relative to its parent window can also be specified.
+You can use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create a scroll bar by specifying the SCROLLBAR window class. This creates a horizontal or vertical scroll bar, depending on whether [**SBS\_HORZ**](scroll-bar-control-styles.md#sbs-horz) or [**SBS\_VERT**](scroll-bar-control-styles.md#sbs-vert) is specified as the window style. The scroll bar size and its position relative to its parent window can also be specified.
 
 The following example creates a horizontal scroll bar that is positioned along the bottom of the parent window's client area.
 

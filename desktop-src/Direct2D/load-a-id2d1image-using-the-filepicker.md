@@ -20,7 +20,7 @@ Shows how to use the [**Windows::Storage::Pickers::FileOpenPicker**](https://msd
 
 ### Technologies
 
--   [Direct2D](https://www.bing.com/search?q=Direct2D)
+-   [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b)
 -   [Direct2D effects](effects-overview.md)
 -   [**Windows::Storage::Pickers::FileOpenPicker**](https://msdn.microsoft.com/library/windows/apps/br207847)
 

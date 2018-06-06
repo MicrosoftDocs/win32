@@ -167,7 +167,7 @@ The following procedure describes how to register a provider.
     If necessary, you may need to create registry entries. This process applies to all COM servers and is unrelated to WMI. For more information, see the COM section in the Microsoft Windows Software Development Kit (SDK) documentation.
 
 2.  Create a MOF file that contains instances of [**\_\_Win32Provider**](--win32provider.md) and an instance of a class derived either directly or indirectly from [**\_\_ProviderRegistration**](--providerregistration.md), such as [**\_\_InstanceProviderRegistration**](--instanceproviderregistration.md). Only administrators can register or delete a provider by creating instances of classes derived from **\_\_Win32Provider** or [**\_\_ProviderRegistration**](--providerregistration.md).
-3.  Set the [**HostingModel**](--win32provider.md) in the instance of **\_\_Win32Provider** according to the values in [Hosting models](https://www.bing.com/search?q=Hosting models).
+3.  Set the [**HostingModel**](--win32provider.md) in the instance of **\_\_Win32Provider** according to the values in [Hosting models](provider-hosting-and-security.md#setting-the-hosting-model).
 
     > [!Note]  
     > Unless the provider requires the high privileges of the LocalSystem account, the [**\_\_Win32Provider.HostingModel**](--win32provider.md) property should be set to "NetworkServiceHost". For more information, see [Provider Hosting and Security](provider-hosting-and-security.md).

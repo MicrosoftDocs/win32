@@ -108,7 +108,7 @@ End Sub
 
     
 
-4.  On the [**WSman.CreateSession**](wsman-createsession.md) call, specify the appropriate session connection flags in the *flags* parameter. For more information, see [Session Constants](session-constants.md). Specify the target computer with a fully qualified computer name or an IP address and the transport—http or https. This script requests [*Kerberos*](https://www.bing.com/search?q=*Kerberos*) authentication from the remote WinRM service.
+4.  On the [**WSman.CreateSession**](wsman-createsession.md) call, specify the appropriate session connection flags in the *flags* parameter. For more information, see [Session Constants](session-constants.md). Specify the target computer with a fully qualified computer name or an IP address and the transport—http or https. This script requests [*Kerberos*](windows-remote-management-glossary.md#winrm-gloss-kerberos-authentication) authentication from the remote WinRM service.
 
     Unlike WMI scripts, you can use several methods of authentication in WinRM scripts. For more information, see [Authentication for Remote Connections](authentication-for-remote-connections.md).
 

@@ -17,7 +17,7 @@ To enumerate all threads in the system, run the sample with no parameters. To en
 
 1.  Calls the [**RegisterWaitChainCOMCallback**](/windows/desktop/api/Wct/nf-wct-registerwaitchaincomcallback) function to register the COM callback functions.
 2.  Calls the [**OpenThreadWaitChainSession**](/windows/desktop/api/Wct/nf-wct-openthreadwaitchainsession) function to create the wait chain session.
-3.  Calls the [**AdjustTokenPrivileges**](https://msdn.microsoft.com/windows/desktop/8e3f70cd-814e-4aab-8f48-0ca482beef2e) function to enable the SE\_DEBUG\_NAME privilege.
+3.  Calls the [**AdjustTokenPrivileges**](https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e) function to enable the SE\_DEBUG\_NAME privilege.
 4.  Calls the [**EnumProcesses**](https://www.bing.com/search?q=**EnumProcesses**) and [**CreateToolhelp32Snapshot**](https://www.bing.com/search?q=**CreateToolhelp32Snapshot**) functions to enumerate the specified threads.
 5.  Calls the [**GetThreadWaitChain**](/windows/desktop/api/Wct/nf-wct-getthreadwaitchain) to retrieve an array of [**WAITCHAIN\_NODE\_INFO**](/windows/desktop/api/Wct/ns-wct-_waitchain_node_info) structures that contain the nodes of the wait chain.
 6.  Prints information from the wait chain.

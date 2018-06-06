@@ -51,7 +51,7 @@ It is acceptable for an application to switch heaps within the same command list
 
 With bundles there can only be one call to the [**SetDescriptorHeaps**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps) method, and the descriptor heaps set must match exactly those of the command list calling the bundle. If the bundle does not change descriptor tables, it does not need to set the descriptor heaps.
 
-For a list of API calls that cannot be used with bundles, refer to [Creating and Recording Command Lists and Bundles](https://www.bing.com/search?q=Creating and Recording Command Lists and Bundles).
+For a list of API calls that cannot be used with bundles, refer to [Creating and Recording Command Lists and Bundles](recording-command-lists-and-bundles.md#bundle-restrictions).
 
 ## Management
 

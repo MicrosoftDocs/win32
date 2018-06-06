@@ -15,7 +15,7 @@ Provides an instance of [**IMFMuxStreamSampleManager**](/windows/desktop/api/mfo
 
 ## Data type
 
-**[**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332)**
+**[**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332)**
 
 ## Remarks
 

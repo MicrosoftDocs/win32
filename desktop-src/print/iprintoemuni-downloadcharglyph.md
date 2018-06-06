@@ -85,9 +85,9 @@ The method must return one of the following values.
 
 ## Remarks
 
-The `IPrintOemUni::DownloadCharGlyph` method is used for supporting soft fonts on printers that do not accept [*PCL*](https://www.bing.com/search?q=*PCL*) commands. Its purpose is to enable a rendering plug-in to send a character glyph to the printer.
+The `IPrintOemUni::DownloadCharGlyph` method is used for supporting soft fonts on printers that do not accept [*PCL*](wdkgloss.p#wdkgloss-pcl) commands. Its purpose is to enable a rendering plug-in to send a character glyph to the printer.
 
-If a rendering plug-in implements the `IPrintOemUni::DownloadCharGlyph` method, Unidrv calls the method immediately after sending the command string specified by the CmdSetCharCode command entry, which is contained in the printer's [*GPD*](https://www.bing.com/search?q=*GPD*) file. (GPD files are described in [Microsoft Universal Printer Driver](https://www.bing.com/search?q=Microsoft Universal Printer Driver).) The method should do the following:
+If a rendering plug-in implements the `IPrintOemUni::DownloadCharGlyph` method, Unidrv calls the method immediately after sending the command string specified by the CmdSetCharCode command entry, which is contained in the printer's [*GPD*](wdkgloss.g#wdkgloss-generic-printer-description--gpd-) file. (GPD files are described in [Microsoft Universal Printer Driver](https://www.bing.com/search?q=Microsoft+Universal+Printer+Driver).) The method should do the following:
 
 -   Call the [*UNIFONTOBJ\_GetInfo*](unifontobj-getinfo.md) function to obtain the glyph image specified by *hGlyph*.
 
@@ -101,7 +101,7 @@ The `IPrintOemUni::DownloadCharGlyph` method is optional. If a rendering plug-in
 
 If you implement the `IPrintOemUni::DownloadCharGlyph` method, you must also implement the [**IPrintOemUni::DownloadFontHeader**](iprintoemuni-downloadfontheader.md) method.
 
-For additional information see [Customized Font Management](https://www.bing.com/search?q=Customized Font Management).
+For additional information see [Customized Font Management](https://www.bing.com/search?q=Customized+Font+Management).
 
 ## Requirements
 

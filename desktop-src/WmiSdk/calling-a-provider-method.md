@@ -38,7 +38,7 @@ The following procedure describes how to call a provider method using the Script
 
     Some classes have methods defined that are not supported by a provider. If a method is not implemented, you cannot execute it. You can determine if a method is implemented by checking if the method has the [**Implemented**](standard-wmi-qualifiers.md) qualifier. For more information, see [WMI Qualifiers](wmi-qualifiers.md) and [Accessing a WMI Qualifier](accessing-a-qualifier.md). You can also determine if a provider class method has the **Implemented** qualifier set by running the unsupported Wbemtest.exe utility, available on any operating system with WMI installed.
 
-3.  Determine if the method you want to execute is a [*static method*](https://www.bing.com/search?q=*static method*) or a nonstatic method.
+3.  Determine if the method you want to execute is a [*static method*](gloss-s.md#wmi-gloss-static-method) or a nonstatic method.
 
     Static methods apply only to WMI classes and not to specific instances of a class. For example, the [**Create**](https://msdn.microsoft.com/library/aa389388) method of the [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) class is a static method because use it to create a new process without an instance of this class. Nonstatic methods apply only to instances of a class. For example, the [**Terminate**](https://msdn.microsoft.com/library/aa393907) method of the **Win32\_Process** class is a nonstatic method because it only makes sense to terminate a process if an instance of that process exists. You can determine if a method is static by checking if the [**Static**](standard-wmi-qualifiers.md) qualifier is associated with the method.
 

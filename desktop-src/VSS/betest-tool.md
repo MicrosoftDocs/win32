@@ -258,7 +258,7 @@ The root element in this configuration file is named TestWriter. All other eleme
 
 The first attribute associated with TestWriter is the usage attribute. This attribute specifies the usage type reported through the [**IVssExamineWriterMetadata::GetIdentity**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getidentity) method. One of the possible values for this attribute is USER\_DATA.
 
-The second attribute is the deleteFiles attribute. This attribute is described in [Configuring Writer Attributes](https://www.bing.com/search?q=Configuring Writer Attributes).
+The second attribute is the deleteFiles attribute. This attribute is described in [Configuring Writer Attributes](vss-test-writer-tool.md#configuring-writer-attributes).
 
 The first child element of the root element is a RestoreMethod element. This element specifies the following:
 
@@ -266,7 +266,7 @@ The first child element of the root element is a RestoreMethod element. This ele
 -   Whether the writer requires restore events (in this case, always)
 -   Whether a reboot is required after the writer is restored (in this case, no)
 
-This element can optionally specify an alternate-location mapping. (In this case, no alternate location is specified.) For more information, see [Specifying Alternate Location Mappings](https://www.bing.com/search?q=Specifying Alternate Location Mappings).
+This element can optionally specify an alternate-location mapping. (In this case, no alternate location is specified.) For more information, see [Specifying Alternate Location Mappings](vss-test-writer-tool.md#specifying-alternate-location-mappings).
 
 The second child element is a Component element. This element causes the writer to add a component to its metadata. A Component element contains attributes to describe the component and child elements to describe the content of the component, such as the following:
 

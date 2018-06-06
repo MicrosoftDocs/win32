@@ -52,7 +52,7 @@ COMBOBOX 777, 10, 10, 50, 54, CBS_SIMPLE | WS_VSCROLL | WS_TABSTOP
 
 <dl> <dt>
 
-[Combo Boxes](https://www.bing.com/search?q=Combo Boxes)
+[Combo Boxes](https://www.bing.com/search?q=Combo+Boxes)
 </dt> </dl>
 
  

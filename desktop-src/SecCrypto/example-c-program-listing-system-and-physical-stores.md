@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Example C Program: Listing System and Physical Stores
 
-The following example enumerates the system [*certificate store*](https://www.bing.com/search?q=*certificate store*) locations, the system certificate stores, and the physical stores associated with each system store. This example demonstrates the creation of callback functions and callback functions that call other callback functions.
+The following example enumerates the system [*certificate store*](security.c_gly#-security-certificate-store-gly) locations, the system certificate stores, and the physical stores associated with each system store. This example demonstrates the creation of callback functions and callback functions that call other callback functions.
 
-This example illustrates the following [*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) functions:
+This example illustrates the following [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
 -   [**CertEnumSystemStoreLocation**](/windows/desktop/api/Wincrypt/nf-wincrypt-certenumsystemstorelocation)
 -   [**CertEnumSystemStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certenumsystemstore)

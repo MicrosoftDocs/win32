@@ -15,13 +15,13 @@ ms.date: 05/31/2018
 
 # Supplying Data to WMI by Writing a Provider
 
-A WMI provider creates a group of supported classes, instances, and events to pass data to WMI. In turn, a management application or script can call [*provider methods*](https://www.bing.com/search?q=*provider methods*) to manipulate provider-supplied data.
+A WMI provider creates a group of supported classes, instances, and events to pass data to WMI. In turn, a management application or script can call [*provider methods*](gloss-p.md#wmi-gloss-provider-method) to manipulate provider-supplied data.
 
 The following diagram illustrates the relationship between a provider that is coupled to WMI and the application.
 
 ![relationship between wmi, coupled provider, and application](images/coupledprov.png)
 
-The following procedure describes how to create a simple provider that supports a set of instances. The provider described here is registered to run inside the WMI process. In some cases, use a [*decoupled provider*](https://www.bing.com/search?q=*decoupled provider*) that runs in a different process. For more information about provider hosting models, see [Provider Hosting and Security](provider-hosting-and-security.md). Steps 1 and 2 in the following procedure differ for decoupled providers but in other respects they use the same interfaces as in-process providers. For more information, see [Incorporating a Provider in an Application](incorporating-a-provider-in-an-application.md).
+The following procedure describes how to create a simple provider that supports a set of instances. The provider described here is registered to run inside the WMI process. In some cases, use a [*decoupled provider*](gloss-d.md#wmi-gloss-decoupled-provider) that runs in a different process. For more information about provider hosting models, see [Provider Hosting and Security](provider-hosting-and-security.md). Steps 1 and 2 in the following procedure differ for decoupled providers but in other respects they use the same interfaces as in-process providers. For more information, see [Incorporating a Provider in an Application](incorporating-a-provider-in-an-application.md).
 
 **To create an instance provider**
 
@@ -39,7 +39,7 @@ The following procedure describes how to create a simple provider that supports 
     ```
 
     > [!Note]  
-    > To ensure that all your WMI class definitions for managed objects are restored to the [*WMI repository*](https://www.bing.com/search?q=*WMI repository*) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) statement preprocessor instruction in your MOF file.
+    > To ensure that all your WMI class definitions for managed objects are restored to the [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) statement preprocessor instruction in your MOF file.
 
      
 
@@ -66,7 +66,7 @@ The following procedure describes how to create a simple provider that supports 
 
 3.  Use MOF code to create the dynamic class for which the provider supplies instances.
 
-    A dynamic class is a class whose instances receive updates from a provider. These updates can be regular or linked to sporadic changes in the objects the instances represent. You can view changes to the dynamic class instances through your own management application or the [WMI Object Browser](https://www.bing.com/search?q=WMI Object Browser).
+    A dynamic class is a class whose instances receive updates from a provider. These updates can be regular or linked to sporadic changes in the objects the instances represent. You can view changes to the dynamic class instances through your own management application or the [WMI Object Browser](further-information.md#downloads).
 
     The following code example describes a dynamic class supported by the "InstProvSamp" provider.
 

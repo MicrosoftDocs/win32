@@ -21,7 +21,7 @@ GDI can be used in all Windows-based applications.
 
 ## Developer audience
 
-This API is designed for use by C/C++ programmers. Familiarity with the Windows [message-driven architecture](https://msdn.microsoft.com/windows/desktop/90c20456-44ed-4f0f-a6d3-b6c5660f0bc7) is required.
+This API is designed for use by C/C++ programmers. Familiarity with the Windows [message-driven architecture](https://msdn.microsoft.com/90c20456-44ed-4f0f-a6d3-b6c5660f0bc7) is required.
 
 ## Run-time requirements
 
@@ -43,7 +43,7 @@ For information on which operating systems are required to use a particular func
 -   [Painting and Drawing](painting-and-drawing.md)
 -   [Paths](paths.md)
 -   [Pens](pens.md)
--   [Printing and Print Spooler](https://www.bing.com/search?q=Printing and Print Spooler)
+-   [Printing and Print Spooler](https://www.bing.com/search?q=Printing+and+Print+Spooler)
 -   [Rectangles](rectangles.md)
 -   [Regions](regions.md)
 
@@ -57,10 +57,10 @@ For information on which operating systems are required to use a particular func
 [GDI+](https://www.bing.com/search?q=GDI+)
 </dt> <dt>
 
-[OpenGL](https://msdn.microsoft.com/windows/desktop/ddd7c8d0-f1d1-4d16-bd0c-99cee3d733c5)
+[OpenGL](https://msdn.microsoft.com/ddd7c8d0-f1d1-4d16-bd0c-99cee3d733c5)
 </dt> <dt>
 
-[Windows Image Acquisition](https://www.bing.com/search?q=Windows Image Acquisition)
+[Windows Image Acquisition](https://www.bing.com/search?q=Windows+Image+Acquisition)
 </dt> </dl>
 
  

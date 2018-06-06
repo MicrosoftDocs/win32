@@ -29,7 +29,7 @@ If you discover that the quality you want requires a higher bit rate than you ca
     -   Reduce the number of individual graphics that appear on the screen concurrently.
     -   Reduce the amount of movement of the graphic. For example, if the graphic is in a window, keep the window as stationary as possible.
     -   Avoid moving the mouse pointer over the graphic, or dragging windows or other elements over the graphic.
--   Use a slower [*frame rate*](https://www.bing.com/search?q=*frame rate*). Screen captures can often be effective at very low frame rates (sometimes as low as 4 or 5 frames per second).
+-   Use a slower [*frame rate*](wmformat-glossary.md#wmformat-frame-rate). Screen captures can often be effective at very low frame rates (sometimes as low as 4 or 5 frames per second).
 -   Reduce the bit rate of the accompanying audio.
 
 Also, the codec does not support resizing of the video rectangle. In other words, if you try to use the codec to encode a 800 x 600 screen down into to a 640 x 480 video rectangle, the resulting video will have significant artifacts that may make much of the text on the screen illegible.

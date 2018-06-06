@@ -62,7 +62,7 @@ The drawing options. This parameter can be one or more of the following values.
 
 ## Remarks
 
-A window can process this message in much the same manner as [**WM\_PAINT**](https://msdn.microsoft.com/windows/desktop/afebaa07-cf00-47db-a919-46436f164881), except that [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) and [**EndPaint**](/windows/desktop/api/Winuser/nf-winuser-endpaint) need not be called (a device context is provided), and the window should draw its entire client area rather than just the invalid region.
+A window can process this message in much the same manner as [**WM\_PAINT**](https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881), except that [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) and [**EndPaint**](/windows/desktop/api/Winuser/nf-winuser-endpaint) need not be called (a device context is provided), and the window should draw its entire client area rather than just the invalid region.
 
 Windows that can be used anywhere in the system, such as controls, should process this message. It is probably worthwhile for other windows to process this message as well because it is relatively easy to implement.
 

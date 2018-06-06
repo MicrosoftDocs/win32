@@ -55,7 +55,7 @@ hr = deviceEnum->GetDefaultAudioEndpoint(EDataFlow::eRender, eMultimedia, &amp;d
 
 
 
-When you create a spatial audio stream, you must specify the audio format the stream will use by providing a [WAVEFORMATEX](https://msdn.microsoft.com/windows/desktop/9bb045a2-be5b-468b-b30b-aedcb7849945) structure. If you are playing back audio from a file, the format is typically determined by the audio file format. This example uses a mono, 32-bit, 48Hz format.
+When you create a spatial audio stream, you must specify the audio format the stream will use by providing a [WAVEFORMATEX](https://msdn.microsoft.com/9bb045a2-be5b-468b-b30b-aedcb7849945) structure. If you are playing back audio from a file, the format is typically determined by the audio file format. This example uses a mono, 32-bit, 48Hz format.
 
 
 ```C++

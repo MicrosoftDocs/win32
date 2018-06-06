@@ -49,7 +49,7 @@ Caller-supplied pointer to a NULL-terminated Unicode string that contains the pr
 *pDevmode* \[in\]
 </dt> <dd>
 
-Caller-supplied pointer to a [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure that is passed to the print processor or printer driver.
+Caller-supplied pointer to a [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure that is passed to the print processor or printer driver.
 
 </dd> <dt>
 
@@ -104,7 +104,7 @@ For example, if *dwLevel* is 4 and FILL\_WITH\_DEFAULTS is specified, *pAttribut
 
 **dwDrvPageOrderFlags** = 0
 
-**dwJobNumberOfCopies** = **dmCopies** member of [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**)
+**dwJobNumberOfCopies** = **dmCopies** member of [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b)
 
 **dwDrvNumberOfCopies** = **dmCopies** member of DEVMODEW
 
@@ -162,7 +162,7 @@ This function first checks whether the driver supports the attribute level that 
 [**ATTRIBUTE\_INFO\_4**](attribute-info-4.md)
 </dt> <dt>
 
-[**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**)
+[**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b)
 </dt> <dt>
 
 [**GetJobAttributes**](getjobattributes.md)

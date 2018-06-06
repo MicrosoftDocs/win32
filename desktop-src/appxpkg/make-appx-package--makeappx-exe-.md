@@ -365,7 +365,7 @@ This semantic validation is not complete, and packages built by MakeAppx are not
 [Packaging your app using Visual Studio](https://msdn.microsoft.com/windows/desktop/b972ab8e-30eb-4ca4-b897-f0ed5ee3dfa7)
 </dt> <dt>
 
-[Preparing your app for the Windows Store](https://www.bing.com/search?q=Preparing your app for the Windows Store)
+[Preparing your app for the Windows Store](https://www.bing.com/search?q=Preparing+your+app+for+the+Windows+Store)
 </dt> </dl>
 
  

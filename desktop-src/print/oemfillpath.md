@@ -59,9 +59,9 @@ BOOL APIENTRY OEMEscape(
 
 ### Comments
 
-See [**DrvFillPath**](https://www.bing.com/search?q=**DrvFillPath**).
+See [**DrvFillPath**](https://msdn.microsoft.com/6f499d08-d2a1-46d0-b931-e6c16c4e1d3a).
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the drawing DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvFillPath** function pointer.
 

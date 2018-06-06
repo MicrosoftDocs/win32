@@ -49,7 +49,7 @@ The IP Helper API can be used on all Windows platforms. Not all operating system
 [Windows Sockets 2](https://msdn.microsoft.com/library/windows/desktop/ms740673)
 </dt> <dt>
 
-[Routing and Remote Access Service](https://www.bing.com/search?q=Routing and Remote Access Service)
+[Routing and Remote Access Service](https://www.bing.com/search?q=Routing+and+Remote+Access+Service)
 </dt> </dl>
 
  

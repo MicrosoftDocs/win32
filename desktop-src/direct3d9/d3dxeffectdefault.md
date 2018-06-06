@@ -45,18 +45,18 @@ Parameter name.
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXEFFECTDEFAULTTYPE**](https://msdn.microsoft.com/windows/desktop/d698ad6e-2ce2-48d6-90be-49bc08f172a9)**
+Type: **[**D3DXEFFECTDEFAULTTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxeffectdefaulttype.htm)**
 
 </dd> <dd>
 
-Data type in pValue. For more information, see [**D3DXEFFECTDEFAULTTYPE**](https://msdn.microsoft.com/windows/desktop/d698ad6e-2ce2-48d6-90be-49bc08f172a9)
+Data type in pValue. For more information, see [**D3DXEFFECTDEFAULTTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxeffectdefaulttype.htm)
 
 </dd> <dt>
 
 **NumBytes**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -67,7 +67,7 @@ Size, in bytes, of the data pointed to by pValue.
 **pValue**
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 

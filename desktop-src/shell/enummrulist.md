@@ -80,7 +80,7 @@ Returns one of the following values.
 
 ## Remarks
 
-This function is not included in a public header or library. It can be accessed through [**GetProcAddress**](https://msdn.microsoft.com/windows/desktop/a0d7fc09-f888-4f46-a571-d3719a627597) or extracted from comctl32.dll by its ordinal, which is 403 for **EnumMRUListW**.
+This function is not included in a public header or library. It can be accessed through [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) or extracted from comctl32.dll by its ordinal, which is 403 for **EnumMRUListW**.
 
 ## Requirements
 

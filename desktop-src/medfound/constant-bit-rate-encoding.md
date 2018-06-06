@@ -180,7 +180,7 @@ To CBR-encode audio streams, you need to set the leaky bucket values after negot
 To set leaky bucket values create an array of DWORDs can set the following values in the [**MFPKEY\_ASFSTREAMSINK\_CORRECTED\_LEAKYBUCKET**](mfpkey-asfstreamsink-corrected-leakybucket-property.md) property in the media sink's property store. For more information, see [Setting Properties in the File Sink](setting-properties-in-the-file-sink.md).
 
 -   Average bit rate: Get the average bit rate from the output media type that is selected during media type negotiation. Use the [**MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND**](mf-mt-audio-avg-bytes-per-second-attribute.md) attribute.
--   Buffer window: Query the encoder for the [**IWMCodecLeakyBucket**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecleakybucket) interface and then call [**IWMCodecLeakyBucket::GetBufferSizeBits**](https://msdn.microsoft.com/windows/desktop/a7667fea-8bf9-4f87-bae1-6a32c00e753c) (wmcodecifaces.h, wmcodecdspuuid.lib).
+-   Buffer window: Query the encoder for the [**IWMCodecLeakyBucket**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecleakybucket) interface and then call [**IWMCodecLeakyBucket::GetBufferSizeBits**](https://msdn.microsoft.com/a7667fea-8bf9-4f87-bae1-6a32c00e753c) (wmcodecifaces.h, wmcodecdspuuid.lib).
 -   Initial buffer size: Set to 0.
 
 ## Related topics

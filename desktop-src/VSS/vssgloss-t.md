@@ -19,14 +19,14 @@ ms.date: 05/31/2018
 <span id="base.vssgloss_thaw_event"></span><span id="BASE.VSSGLOSS_THAW_EVENT"></span>**Thaw event**
 </dt> <dd>
 
-A VSS event issued by VSS indicating that a shadow copy freeze has completed. It is used to remove a writer's preparations for a freeze. See also [*freeze*](https://www.bing.com/search?q=*freeze*), [*shadow copy*](https://www.bing.com/search?q=*shadow copy*).
+A VSS event issued by VSS indicating that a shadow copy freeze has completed. It is used to remove a writer's preparations for a freeze. See also [*freeze*](vssgloss-f.md#base-vssgloss-freeze), [*shadow copy*](vssgloss-s.md#base-vssgloss-shadow-copy).
 
 </dd> <dt>
 
 <span id="base.vssgloss_transportable_shadow_copy"></span><span id="BASE.VSSGLOSS_TRANSPORTABLE_SHADOW_COPY"></span>**transportable shadow copy**
 </dt> <dd>
 
-A shadow copy that can be moved from one system to another. Typically, a transportable shadow copy is not surfaced locally. See also [*surfaced shadow copy*](https://www.bing.com/search?q=*surfaced shadow copy*).
+A shadow copy that can be moved from one system to another. Typically, a transportable shadow copy is not surfaced locally. See also [*surfaced shadow copy*](vssgloss-s.md#base-vssgloss-surfaced-shadow-copy).
 
 </dd> </dl>
 

@@ -15,7 +15,7 @@ The **IInterFilterCommunicator** interface is implemented in an object that resi
 
 ## Members
 
-The **IInterFilterCommunicator** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IInterFilterCommunicator** also has these types of members:
+The **IInterFilterCommunicator** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IInterFilterCommunicator** also has these types of members:
 
 -   [Methods](#methods)
 

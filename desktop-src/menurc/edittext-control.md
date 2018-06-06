@@ -50,7 +50,7 @@ EDITTEXT  3, 10, 10, 100, 10
 
 <dl> <dt>
 
-[Edit Controls](https://www.bing.com/search?q=Edit Controls)
+[Edit Controls](https://www.bing.com/search?q=Edit+Controls)
 </dt> </dl>
 
  

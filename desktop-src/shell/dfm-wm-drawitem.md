@@ -40,7 +40,7 @@ The identifier of the control that sent the **DFM\_WM\_DRAWITEM** message. If th
 *lpDrawItem* \[out\]
 </dt> <dd>
 
-A pointer to a [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/windows/desktop/f1135b82-03e4-4c71-a23b-cf3d5e19d0de) structure containing information about the item to be drawn and the type of drawing required.
+A pointer to a [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\drawitemstruct.htm) structure containing information about the item to be drawn and the type of drawing required.
 
 </dd> </dl>
 
@@ -50,9 +50,9 @@ If an application processes this message, it should return **TRUE**.
 
 ## Remarks
 
-The **itemAction** member of the [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/windows/desktop/f1135b82-03e4-4c71-a23b-cf3d5e19d0de) structure specifies the drawing operation that an application should perform.
+The **itemAction** member of the [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\drawitemstruct.htm) structure specifies the drawing operation that an application should perform.
 
-Before returning from processing this message, an application should ensure that the device context identified by the **hDC** member of the [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/windows/desktop/f1135b82-03e4-4c71-a23b-cf3d5e19d0de) structure is in the default state.
+Before returning from processing this message, an application should ensure that the device context identified by the **hDC** member of the [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\drawitemstruct.htm) structure is in the default state.
 
 ## Requirements
 

@@ -27,7 +27,7 @@ The process that created the namespace can use the [**ClosePrivateNamespace**](/
 
 <dl> <dt>
 
-[Kernel Object Namespaces](https://msdn.microsoft.com/windows/desktop/771e0bbf-bd73-4e87-aa1e-945c1287b517)
+[Kernel Object Namespaces](https://msdn.microsoft.com/771e0bbf-bd73-4e87-aa1e-945c1287b517)
 </dt> </dl>
 
  

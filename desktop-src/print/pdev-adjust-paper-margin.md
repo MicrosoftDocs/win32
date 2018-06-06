@@ -31,7 +31,7 @@ typedef struct _PDEV_ADJUST_PAPER_MARGIN {
 **rcImageableArea**
 </dt> <dd>
 
-Is a [**RECTL**](https://www.bing.com/search?q=**RECTL**) structure that specifies the rectangular region that can be printed in. This region is specified in units of 0.001 mm.
+Is a [**RECTL**](https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24) structure that specifies the rectangular region that can be printed in. This region is specified in units of 0.001 mm.
 
 </dd> </dl>
 
@@ -58,7 +58,7 @@ The *pBuf* parameter of the [**IPrintOemPS2::GetPDEVAdjustment**](iprintoemps2-g
 [**IPrintOemPS2::GetPDEVAdjustment**](iprintoemps2-getpdevadjustment.md)
 </dt> <dt>
 
-[**RECTL**](https://www.bing.com/search?q=**RECTL**)
+[**RECTL**](https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24)
 </dt> </dl>
 
  

@@ -73,7 +73,7 @@ Returns the value of the requested system information. The return type depends o
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.GetSystemInformation**](https://msdn.microsoft.com/windows/desktop/94C10DD6-FE49-4dd4-AEED-69B73A75EDEF) method.
+This method is implemented and accessed through the [**Shell.GetSystemInformation**](https://msdn.microsoft.com/94C10DD6-FE49-4dd4-AEED-69B73A75EDEF) method.
 
 This method can be used to request many system information values. The following table gives the *sName* value that is used to request the information and the associated type of the returned value.
 
@@ -113,7 +113,7 @@ ProcessorArchitecture
 
 **Integer**
 
-The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/windows/desktop/971293b8-0af0-4bdf-a7d7-6b1bb80a469c) structure.
+The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/971293b8-0af0-4bdf-a7d7-6b1bb80a469c) structure.
 
 PhysicalMemoryInstalled
 

@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 There are many reasons why a requester either should not, or may not, be able to restore files from backup media to their original location. For example, a restore method or target may require such a restoration, or the current restoration location may be occupied and unwritable.
 
-To handle such cases, a writer may have defined an [*alternate location mapping*](https://www.bing.com/search?q=*alternate location mapping*), a nonstandard restore destination to be used for special circumstances.
+To handle such cases, a writer may have defined an [*alternate location mapping*](vssgloss-a.md#base-vssgloss-alternate-location-mapping), a nonstandard restore destination to be used for special circumstances.
 
-The term alternate location mapping, as used with VSS, should not be confused with the term [*alternate path*](https://www.bing.com/search?q=*alternate path*). Alternate location mappings are used only during restore operations, and refer to an alternate destination for restore operations. Alternate paths are used only during backup operations, and refer to an alternate source from which to back up.
+The term alternate location mapping, as used with VSS, should not be confused with the term [*alternate path*](vssgloss-a.md#base-vssgloss-alternate-path). Alternate location mappings are used only during restore operations, and refer to an alternate destination for restore operations. Alternate paths are used only during backup operations, and refer to an alternate source from which to back up.
 
 To use alternate location mappings during restore, a requester would do the following (typically following the generation of a [**PreRestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore) event):
 
@@ -41,7 +41,7 @@ To use alternate location mappings during restore, a requester would do the foll
     -   Examining the component's restore method, which is obtained by calling [**IVssExamineWriterMetadata::GetRestoreMethod**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod).
     -   Checking to see if a restore target overrides the restore method, by calling [**IVssComponent::GetRestoreTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoretarget).
 
-        If the component found in the Writer Metadata Document had been [*explicitly included*](https://www.bing.com/search?q=*explicitly included*) in the backup, the instance of the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface will correspond to that component. If the component had been [*implicitly included*](https://www.bing.com/search?q=*implicitly included*) in the backup, then the instance of **IVssComponent** will correspond to the component defining the component set of which the component in the Writer Metadata Document is a subcomponent.
+        If the component found in the Writer Metadata Document had been [*explicitly included*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion) in the backup, the instance of the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface will correspond to that component. If the component had been [*implicitly included*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion) in the backup, then the instance of **IVssComponent** will correspond to the component defining the component set of which the component in the Writer Metadata Document is a subcomponent.
 
 5.  With this information, the requester can determine on a component-by-component basis if it needs to restore a given file set of a given component to a destination defined by the alternate location mapping.
 

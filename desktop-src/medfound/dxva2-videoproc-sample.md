@@ -15,7 +15,7 @@ Shows how to use [DXVA Video Processing](dxva-video-processing.md).
 
 This sample programmatically generates video with a primary stream and a substream. The primary stream displays SMPTE color bars, and the substream is a semi-transparent rectangle. The video is then processed and displayed using a DXVA video processor. The user can change the planar alpha values, source and destination rectangles, color adjustments, and color space.
 
-![screenshot of the dxva2\-videoproc sample](https://www.bing.com/search?q=screenshot of the dxva2\-videoproc sample)
+![screenshot of the dxva2\-videoproc sample](https://www.bing.com/search?q=screenshot+of+the+dxva2\-videoproc+sample)
 
 ## APIs Demonstrated
 

@@ -42,7 +42,7 @@ This method can return one of these values.
 
 ## Remarks
 
-[**IWordBreaker**](https://msdn.microsoft.com/windows/desktop/36c46931-5c5c-4ab9-9291-60ad93cebbf0) implementations call **IWordSink::EndAltPhrase** from the [**IWordBreaker::BreakText**](https://msdn.microsoft.com/windows/desktop/32e495c0-e173-4b35-be58-51f31cb38e3e) method to terminate a sequence of alternative phrases. The [**IWordSink::StartAltPhrase**](iwordsink-startaltphrase.md) method is called to indicate the end of one phrase and the beginning of another in a sequence of phrases. Only the last phrase in a sequence is terminated with a call to **EndAltPhrase**.
+[**IWordBreaker**](https://msdn.microsoft.com/VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\iwordbreaker.htm) implementations call **IWordSink::EndAltPhrase** from the [**IWordBreaker::BreakText**](https://msdn.microsoft.com/VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\breaktext.htm) method to terminate a sequence of alternative phrases. The [**IWordSink::StartAltPhrase**](iwordsink-startaltphrase.md) method is called to indicate the end of one phrase and the beginning of another in a sequence of phrases. Only the last phrase in a sequence is terminated with a call to **EndAltPhrase**.
 
 ## Requirements
 

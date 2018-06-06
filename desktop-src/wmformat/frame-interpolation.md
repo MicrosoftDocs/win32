@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Frame Interpolation
 
-Frame interpolation is the process of creating intermediate video frames based on the data in two consecutive frames of encoded video. In effect, frame interpolation increases the [*frame rate*](https://www.bing.com/search?q=*frame rate*) of encoded video at the time of decoding. You can use frame interpolation to improve the smoothness of playback for video streams with low frame rates.
+Frame interpolation is the process of creating intermediate video frames based on the data in two consecutive frames of encoded video. In effect, frame interpolation increases the [*frame rate*](wmformat-glossary.md#wmformat-frame-rate) of encoded video at the time of decoding. You can use frame interpolation to improve the smoothness of playback for video streams with low frame rates.
 
 Because this is a decoding feature, it does not involve any special encoding options and adds no overhead to the content. Frame interpolation is specified as an output setting in the reader object.
 

@@ -37,7 +37,7 @@ Constructs instances of the [**XMBYTE2**](/windows/desktop/api/DirectXPackedVect
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMBYTE2 ()</strong>](https://www.bing.com/search?q=<strong>XMBYTE2 ()</strong>)</td>
+<td style="text-align: left;">[<strong>XMBYTE2 ()</strong>](https://www.bing.com/search?q=<strong>XMBYTE2+()</strong>)</td>
 <td style="text-align: left;">Default constructor for <code>XMBYTE2</code>.<br/> Default constructor for [<strong>XMBYTE2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2).<br/>
 <blockquote>
 [!Note]<br />
@@ -46,7 +46,7 @@ This constructor is only available with C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMBYTE2 (float,float)</strong>](https://www.bing.com/search?q=<strong>XMBYTE2 (float,float)</strong>)</td>
+<td style="text-align: left;">[<strong>XMBYTE2 (float,float)</strong>](https://www.bing.com/search?q=<strong>XMBYTE2+(float,float)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMBYTE2</code> from two <code>float</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMBYTE2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2) from two <code>float</code> arguments.<br/>
 <blockquote>
 [!Note]<br />
@@ -55,7 +55,7 @@ This constructor is only available with C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMBYTE2 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMBYTE2 (const float*)</strong>)</td>
+<td style="text-align: left;">[<strong>XMBYTE2 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMBYTE2+(const+float*)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMBYTE2</code> from a two-element <code>float</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMBYTE2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2) from a two-element <code>float</code> array argument.<br/>
 <blockquote>
 [!Note]<br />
@@ -64,7 +64,7 @@ This constructor is only available with C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMBYTE2 (int8_t,int8_t)</strong>](https://www.bing.com/search?q=<strong>XMBYTE2 (int8_t,int8_t)</strong>)</td>
+<td style="text-align: left;">[<strong>XMBYTE2 (int8_t,int8_t)</strong>](https://www.bing.com/search?q=<strong>XMBYTE2+(int8_t,int8_t)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMBYTE2</code> from XMBYTE2 <code>int8_t</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMBYTE2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2) from XMBYTE2 <code>int8_t</code> arguments.<br/>
 <blockquote>
 [!Note]<br />
@@ -73,7 +73,7 @@ This constructor is only available with C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMBYTE2 (const int8_t*)</strong>](https://www.bing.com/search?q=<strong>XMBYTE2 (const int8_t*)</strong>)</td>
+<td style="text-align: left;">[<strong>XMBYTE2 (const int8_t*)</strong>](https://www.bing.com/search?q=<strong>XMBYTE2+(const+int8_t*)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMBYTE2</code> from a two-element <code>int8_t</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMBYTE2</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2) from a two-element <code>int8_t</code> array argument.<br/>
 <blockquote>
 [!Note]<br />

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Interaction with Network Providers
 
-You can configure a system to support zero or more network providers. Each of these network providers can specify that it requires special interactive authentication processing. This capability allows installed networks to collect identification and authentication information specific to each network, yet allows them to collect it during normal logon and under the secure umbrella of [*Winlogon's*](https://www.bing.com/search?q=*Winlogon's*) [*context*](https://www.bing.com/search?q=*context*) and desktop.
+You can configure a system to support zero or more network providers. Each of these network providers can specify that it requires special interactive authentication processing. This capability allows installed networks to collect identification and authentication information specific to each network, yet allows them to collect it during normal logon and under the secure umbrella of [*Winlogon's*](security.w_gly#-security-winlogon-gly) [*context*](security.c_gly#-security-context-gly) and desktop.
 
-Winlogon calls network providers under a number of circumstances. Following a successful logon, Winlogon calls network providers so they can collect [*credentials*](https://www.bing.com/search?q=*credentials*) and authenticate the user for their network. Winlogon also calls network providers when users change their passwords. This lets each user maintain a single password for use on all networks.
+Winlogon calls network providers under a number of circumstances. Following a successful logon, Winlogon calls network providers so they can collect [*credentials*](security.c_gly#-security-credentials-gly) and authenticate the user for their network. Winlogon also calls network providers when users change their passwords. This lets each user maintain a single password for use on all networks.
 
 The [**WLX\_MPR\_NOTIFY\_INFO**](/windows/desktop/api/Winwlx/ns-winwlx-_wlx_mpr_notify_info) structure is used to provide identification and authentication information in the relevant GINA functions. This structure includes the following members.
 
@@ -30,7 +30,7 @@ The [**WLX\_MPR\_NOTIFY\_INFO**](/windows/desktop/api/Winwlx/ns-winwlx-_wlx_mpr_
 
  
 
-A [*GINA*](https://www.bing.com/search?q=*GINA*) does not have to provide this information to network providers. If a **NULL** pointer is passed instead of a valid structure pointer, the network providers will prompt the user for information.
+A [*GINA*](security.g_gly#-security-gina-gly) does not have to provide this information to network providers. If a **NULL** pointer is passed instead of a valid structure pointer, the network providers will prompt the user for information.
 
  
 

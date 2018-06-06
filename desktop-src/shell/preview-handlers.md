@@ -30,12 +30,12 @@ A preview handler is a hosted application. Hosts include the Windows Explorer in
 The preview handler itself implements these interfaces:
 
 -   [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream)
--   [**IObjectWithSite**](https://msdn.microsoft.com/windows/desktop/e688136e-e06b-46ba-bec9-b8db2f9c468d)
--   [**IOleWindow**](https://msdn.microsoft.com/windows/desktop/2d0efbae-4a1c-43b1-9021-8d89377f7282)
+-   [**IObjectWithSite**](https://msdn.microsoft.com/e688136e-e06b-46ba-bec9-b8db2f9c468d)
+-   [**IOleWindow**](https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282)
 -   [**IPreviewHandler**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ipreviewhandler)
 -   [**IPreviewHandlerVisuals**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ipreviewhandlervisuals) (Optional)
 
-Your handler is called through its [**IObjectWithSite**](https://msdn.microsoft.com/windows/desktop/e688136e-e06b-46ba-bec9-b8db2f9c468d), which returns an [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer through which you request an [**IPreviewHandlerFrame**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ipreviewhandlerframe) object to interact with the host.
+Your handler is called through its [**IObjectWithSite**](https://msdn.microsoft.com/e688136e-e06b-46ba-bec9-b8db2f9c468d), which returns an [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer through which you request an [**IPreviewHandlerFrame**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ipreviewhandlerframe) object to interact with the host.
 
 ## Server Model Options
 

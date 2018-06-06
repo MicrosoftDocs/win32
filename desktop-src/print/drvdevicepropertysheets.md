@@ -60,7 +60,7 @@ See the ReturnValue section in the description of the [**PFNPROPSHEETUI**](pfnpr
 
 ## Remarks
 
-All [printer interface DLLs](https://www.bing.com/search?q=printer interface DLLs) must provide a **DrvDevicePropertySheets** function, which is defined using the [**PFNPROPSHEETUI**](pfnpropsheetui.md) function type. The function's purpose is to call the [**ComPropSheet**](compropsheet.md) function, provided by [CPSUI](https://www.bing.com/search?q=CPSUI), to specify a property sheet page containing user-modifiable properties for the printer.
+All [printer interface DLLs](https://www.bing.com/search?q=printer+interface+DLLs) must provide a **DrvDevicePropertySheets** function, which is defined using the [**PFNPROPSHEETUI**](pfnpropsheetui.md) function type. The function's purpose is to call the [**ComPropSheet**](compropsheet.md) function, provided by [CPSUI](https://www.bing.com/search?q=CPSUI), to specify a property sheet page containing user-modifiable properties for the printer.
 
 The function should perform operations as described for the [**PFNPROPSHEETUI**](pfnpropsheetui.md) function type. The function should create the printer's DeviceSettings property sheet page (see the **pDlgPage** member of the [**COMPROPSHEETUI**](compropsheetui.md) structure).
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ISCardCmd::get\_AlternateClassId method
 
-\[The **get\_AlternateClassId** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **get\_AlternateClassId** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
 The **get\_AlternateClassId** method retrieves the value of the alternate class ID. This method will fail unless the alternate ID has been set by a previous call to [**put\_AlternateClassId**](iscardcmd-put-alternateclassid.md).
 
@@ -55,7 +55,7 @@ The method returns the following possible values.
 
 ## Remarks
 
-This method applies to communications using the [*T=0 protocol*](https://www.bing.com/search?q=*T=0 protocol*). For more information, see [**put\_AlternateClassId**](iscardcmd-put-alternateclassid.md).
+This method applies to communications using the [*T=0 protocol*](security.t_gly#-security-t-0-protocol-gly). For more information, see [**put\_AlternateClassId**](iscardcmd-put-alternateclassid.md).
 
 ## Examples
 

@@ -49,7 +49,7 @@ If the operation succeeds, the function should return a pointer to a [**MONITOR2
 
 ## Remarks
 
-The **InitializePrintMonitor2** function must be exported by [language monitors](https://www.bing.com/search?q=language monitors) and by port monitor server DLLs. The function is called immediately after the monitor DLL is loaded, and is not called again until the DLL is reloaded. Its purposes are to allow the monitor to initialize itself, and to provide the spooler with pointers to internal monitor functions. Function pointers are contained in a [**MONITOR2**](monitor2.md) structure.
+The **InitializePrintMonitor2** function must be exported by [language monitors](https://www.bing.com/search?q=language+monitors) and by port monitor server DLLs. The function is called immediately after the monitor DLL is loaded, and is not called again until the DLL is reloaded. Its purposes are to allow the monitor to initialize itself, and to provide the spooler with pointers to internal monitor functions. Function pointers are contained in a [**MONITOR2**](monitor2.md) structure.
 
 The [**MONITOR2**](monitor2.md) structure is larger in Windows XP than it was in Windows 2000. In order to ensure that a monitor developed with the Windows XP Driver Development Kit (DDK) will install on Windows XP and Windows 2000, the monitor must do the following:
 

@@ -19,21 +19,21 @@ ms.date: 05/31/2018
 <span id="_msi_sequence_tables_gly"></span><span id="_MSI_SEQUENCE_TABLES_GLY"></span>**sequence tables**
 </dt> <dd>
 
-Tables in the [*installer database*](https://www.bing.com/search?q=*installer database*) that list actions sequentially. For more information, see [Using a Sequence Table](using-a-sequence-table.md).
+Tables in the [*installer database*](i-gly.md#-msi-installer-database-gly) that list actions sequentially. For more information, see [Using a Sequence Table](using-a-sequence-table.md).
 
 </dd> <dt>
 
 <span id="_msi_source_list_gly"></span><span id="_MSI_SOURCE_LIST_GLY"></span>**source list**
 </dt> <dd>
 
-Specifies the locations where the installer is to search for [*external source files*](https://www.bing.com/search?q=*external source files*).
+Specifies the locations where the installer is to search for [*external source files*](e-gly.md#-msi-external-source-files-gly).
 
 </dd> <dt>
 
 <span id="_msi_standard_action_gly"></span><span id="_MSI_STANDARD_ACTION_GLY"></span>**standard action**
 </dt> <dd>
 
-Built-in [*action*](https://www.bing.com/search?q=*action*) of the Windows Installer. For more information, see [Standard Actions](standard-actions.md).
+Built-in [*action*](a-gly.md#-msi-action-gly) of the Windows Installer. For more information, see [Standard Actions](standard-actions.md).
 
 </dd> <dt>
 
@@ -54,7 +54,7 @@ Language used to process data in a relational database. You can use SQL to make 
 <span id="_msi_summary_information_stream_gly"></span><span id="_MSI_SUMMARY_INFORMATION_STREAM_GLY"></span>**summary information stream**
 </dt> <dd>
 
-Storage location in the [*.msi file*](https://www.bing.com/search?q=*.msi file*) for information that can be viewed with Microsoft Windows Explorer. For more information, see [About the Summary Information Stream](about-the-summary-information-stream.md).
+Storage location in the [*.msi file*](m-gly.md#-msi--msi-file-gly) for information that can be viewed with Microsoft Windows Explorer. For more information, see [About the Summary Information Stream](about-the-summary-information-stream.md).
 
 </dd> <dt>
 

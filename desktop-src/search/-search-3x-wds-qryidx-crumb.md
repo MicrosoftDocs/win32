@@ -123,7 +123,7 @@ crumb=location:shell%3a<LocationName>&amp;
 
 ## Using crumb with Windows XP (kind and store)
 
-For Windows Search on Windows XP (WDS 3.x), the AQS terms "kind" and "store" have a special implementation. The "kind" values are the same [values used in WDS 2.x](https://www.bing.com/search?q=values used in WDS 2.x). The "store" values include the following:
+For Windows Search on Windows XP (WDS 3.x), the AQS terms "kind" and "store" have a special implementation. The "kind" values are the same [values used in WDS 2.x](https://www.bing.com/search?q=values+used+in+WDS+2.x). The "store" values include the following:
 
 -   mapi
 -   file

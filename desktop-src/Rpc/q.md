@@ -26,7 +26,7 @@ Ordered list of tasks to be performed or messages to be transmitted.
 <span id="_rpc_queue_manager_glos"></span><span id="_RPC_QUEUE_MANAGER_GLOS"></span>**queue manager**
 </dt> <dd>
 
-In [*Microsoft Message Queuing (MSMQ)*](https://www.bing.com/search?q=*Microsoft Message Queuing (MSMQ)*), a service running on a client computer that manages messages for that client.
+In [*Microsoft Message Queuing (MSMQ)*](m-glos.md#-rpc-msmq-glos), a service running on a client computer that manages messages for that client.
 
 </dd> </dl>
 

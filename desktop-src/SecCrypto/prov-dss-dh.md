@@ -21,10 +21,10 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                                                                                              |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Key Exchange | [*DH*](https://www.bing.com/search?q=*DH*)                                                                          |
-| Signature    | [*DSS*](https://www.bing.com/search?q=*DSS*)                                                                       |
-| Encryption   | [*CYLINK\_MEK*](https://www.bing.com/search?q=*CYLINK\_MEK*)                                                 |
-| Hashing      | [*MD5*](https://www.bing.com/search?q=*MD5*)[*SHA*](https://www.bing.com/search?q=*SHA*)<br/> |
+| Key Exchange | [*DH*](security.d_gly#-security-dh-gly)                                                                          |
+| Signature    | [*DSS*](security.d_gly#-security-dss-gly)                                                                       |
+| Encryption   | [*CYLINK\_MEK*](security.c_gly#-security-cylink-mek-gly)                                                 |
+| Hashing      | [*MD5*](security.m_gly#-security-md5-gly)[*SHA*](security.s_gly#-security-sha-gly)<br/> |
 
 
 
@@ -32,7 +32,7 @@ For descriptions of each of these algorithms, see the glossary.
 
 ## Related Documentation
 
-The DSA was proposed by the [*National Institute of Standards and Technology*](https://www.bing.com/search?q=*National Institute of Standards and Technology*) (NIST). A description of the algorithm can be found in the following government reference:
+The DSA was proposed by the [*National Institute of Standards and Technology*](security.n_gly#-security-national-institute-of-standards-and-technology-gly) (NIST). A description of the algorithm can be found in the following government reference:
 
 -   "Proposed Federal Information Processing Standard for Digital Signature Standard (DSS)," Federal Register, v. 57, no. 21, 31 Jan 1992, pp. 3747-3749.
 

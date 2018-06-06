@@ -24,7 +24,7 @@ The [**XMUINT4**](/windows/desktop/api/DirectXMath/) structure exposes the follo
 
 | Methods                                              | Description                                                                                                       |
 |------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://www.bing.com/search?q=**operator =**)<br/> | Assigns the vector component data from one instance of `XMUINT4` to the current instance of `XMUINT4`.<br/> |
+| [**operator =**](https://www.bing.com/search?q=**operator+=**)<br/> | Assigns the vector component data from one instance of `XMUINT4` to the current instance of `XMUINT4`.<br/> |
 
 
 

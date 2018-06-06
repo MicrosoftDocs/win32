@@ -33,20 +33,20 @@ DFM_WM_MEASUREITEM
 *wParam* \[in\]
 </dt> <dd>
 
-The value of the **CtlID** member of the [**MEASUREITEMSTRUCT**](https://msdn.microsoft.com/windows/desktop/2bba3276-9fc4-482e-afcf-191c08b8df36) structure pointed to by the *lpMeasureItem* parameter. This value identifies the control that sent the **DFM\_WM\_MEASUREITEM** message.
+The value of the **CtlID** member of the [**MEASUREITEMSTRUCT**](https://msdn.microsoft.com/VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\measureitemstruct.htm) structure pointed to by the *lpMeasureItem* parameter. This value identifies the control that sent the **DFM\_WM\_MEASUREITEM** message.
 
 </dd> <dt>
 
 *lpMeasureItem* \[out\]
 </dt> <dd>
 
-A pointer to a [**MEASUREITEMSTRUCT**](https://msdn.microsoft.com/windows/desktop/2bba3276-9fc4-482e-afcf-191c08b8df36) structure that contains the dimensions of the owner-drawn control or menu item.
+A pointer to a [**MEASUREITEMSTRUCT**](https://msdn.microsoft.com/VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\measureitemstruct.htm) structure that contains the dimensions of the owner-drawn control or menu item.
 
 </dd> </dl>
 
 ## Remarks
 
-When the owner window receives the **DFM\_WM\_MEASUREITEM** message, the owner fills in the [**MEASUREITEMSTRUCT**](https://msdn.microsoft.com/windows/desktop/2bba3276-9fc4-482e-afcf-191c08b8df36) structure pointed to by the *lpMeasureItem* parameter of the message and returns; this informs the system of the dimensions of the control.
+When the owner window receives the **DFM\_WM\_MEASUREITEM** message, the owner fills in the [**MEASUREITEMSTRUCT**](https://msdn.microsoft.com/VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\measureitemstruct.htm) structure pointed to by the *lpMeasureItem* parameter of the message and returns; this informs the system of the dimensions of the control.
 
 ## Requirements
 

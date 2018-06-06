@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Each part of the interactive logon process has a set of responsibilities. This section defines those responsibilities and indicates where you can implement features not contained in the standard version of the operating system.
 
-This section also describes the optional features of MSGina.dll. If you are developing a replacement [*GINA*](https://www.bing.com/search?q=*GINA*) DLL, you may want to implement some or all of these features as well.
+This section also describes the optional features of MSGina.dll. If you are developing a replacement [*GINA*](security.g_gly#-security-gina-gly) DLL, you may want to implement some or all of these features as well.
 
 
 

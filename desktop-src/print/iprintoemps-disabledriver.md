@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemPS::DisableDriver method
 
-The `IPrintOemPS::DisableDriver` method allows a rendering plug-in for [*Pscript*](https://www.bing.com/search?q=*Pscript*) to free resources that were allocated by the plug-in's [**IPrintOemPS::EnableDriver**](iprintoemps-enabledriver.md) method.
+The `IPrintOemPS::DisableDriver` method allows a rendering plug-in for [*Pscript*](wdkgloss.p#wdkgloss-pscript) to free resources that were allocated by the plug-in's [**IPrintOemPS::EnableDriver**](iprintoemps-enabledriver.md) method.
 
 ## Syntax
 
@@ -44,7 +44,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-The `IPrintOemPS::DisableDriver` method, provided by rendering plug-ins for Pscript5, performs the same types of operations as the [**DrvDisableDriver**](https://www.bing.com/search?q=**DrvDisableDriver**) function that is exported by Pscript5's printer graphics DLL.
+The `IPrintOemPS::DisableDriver` method, provided by rendering plug-ins for Pscript5, performs the same types of operations as the [**DrvDisableDriver**](https://msdn.microsoft.com/8f12cc40-6cff-4e40-a264-58d16d3e55bd) function that is exported by Pscript5's printer graphics DLL.
 
 `IPrintOemPS::DisableDriver` and **IPrintOemPS::EnableDriver** must be implemented as a pair. If you implement one, you must implement the other. For more information, see the Remarks section in [**IPrintOemPS::EnableDriver**](iprintoemps-enabledriver.md).
 

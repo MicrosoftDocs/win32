@@ -148,7 +148,7 @@ Video streams that are composed of various types of content can be accommodated 
 
 ## Interlaced Video Streams
 
-Previous versions of the Windows Media Format SDK have provided the ability to encode [*interlaced*](https://www.bing.com/search?q=*interlaced*) content into a progressive-scan video stream. Starting with the Windows Media Format 9 Series SDK, you can encode interlaced video while preserving its interlaced format. This can result in improved playback, particularly on interlaced devices, such as television sets.
+Previous versions of the Windows Media Format SDK have provided the ability to encode [*interlaced*](wmformat-glossary.md#wmformat-interlace) content into a progressive-scan video stream. Starting with the Windows Media Format 9 Series SDK, you can encode interlaced video while preserving its interlaced format. This can result in improved playback, particularly on interlaced devices, such as television sets.
 
 ## Two-Pass Encoding
 

@@ -30,7 +30,7 @@ For more information about CredSSP, see [KB 951608](http://go.microsoft.com/fwli
 
 There are multiple mechanisms for configuring WinRM settings. In the following procedure, the **winrm** utility and Group Policy editor (**GPEdit.msc**) are used. CredSSP can also be enabled for WinRM by using Windows PowerShell. See the [Enable-WSManCredSSP](http://go.microsoft.com/fwlink/p/?linkid=155385), [Get-WSManCredSSP](http://go.microsoft.com/fwlink/p/?linkid=155386), and [Disable-WSManCredSSP](http://go.microsoft.com/fwlink/p/?linkid=155383) Windows PowerShell cmdlets for detailed configuration information and usage examples.
 
-CredSSP delegation must be enabled in the client settings and in the service settings on the remote computer. In addition, using CredSSP requires setting up an HTTP or HTTPS [*listener*](https://www.bing.com/search?q=*listener*) on the server.
+CredSSP delegation must be enabled in the client settings and in the service settings on the remote computer. In addition, using CredSSP requires setting up an HTTP or HTTPS [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener) on the server.
 
 **To configure multi-hop support using CredSSP authentication for WinRM**
 
@@ -64,9 +64,9 @@ CredSSP delegation must be enabled in the client settings and in the service set
 
     For more information about the **AllowFreshCredentials** policy, see the policy description provided by the Group Policy editor and [KB 951608](http://go.microsoft.com/fwlink/p/?linkid=157266). The **AllowFreshCredentials** policy is located at the following path: Computer Configuration\\Administrative Templates\\System\\Credentials Delegation.
 
-4.  An HTTPS or HTTP [*listener*](https://www.bing.com/search?q=*listener*) must be configured on the server. The certificate thumbprint used for configuring the HTTPS *listener* is also used to configure the CertificateThumbprint setting under the WinRM service settings.
+4.  An HTTPS or HTTP [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener) must be configured on the server. The certificate thumbprint used for configuring the HTTPS *listener* is also used to configure the CertificateThumbprint setting under the WinRM service settings.
 
-    The following command demonstrates how to use the winrm utility to configure an HTTPS [*listener*](https://www.bing.com/search?q=*listener*):
+    The following command demonstrates how to use the winrm utility to configure an HTTPS [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener):
 
     **winrm quickconfig -transport:https**
 

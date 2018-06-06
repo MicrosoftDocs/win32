@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Creating a Key Container and Generating Keys
 
-The following example creates a named [*key container*](https://www.bing.com/search?q=*key container*) and adds a [*signature key pair*](https://www.bing.com/search?q=*signature key pair*) and an [*exchange key pair*](https://www.bing.com/search?q=*exchange key pair*) to the container. This example can be run without problem even if the named key container and cryptographic keys already exist.
+The following example creates a named [*key container*](security.k_gly#-security-key-container-gly) and adds a [*signature key pair*](security.s_gly#-security-signature-key-pair-gly) and an [*exchange key pair*](security.e_gly#-security-exchange-key-pair-gly) to the container. This example can be run without problem even if the named key container and cryptographic keys already exist.
 
 > [!Note]  
 > An application should not use the default key container to store private keys. When multiple applications use the same container, one application may change or destroy the keys that another application needs to have available. It is recommended that applications use key containers that are linked to the application. Doing so reduces the risk of other applications tampering with keys that are necessary for an application to function properly.

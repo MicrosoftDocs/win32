@@ -46,7 +46,7 @@ Pointer to an [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idi
 *InnerRadius* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Inner-radius of the torus. Value should be greater than or equal to 0.0f.
 
@@ -55,7 +55,7 @@ Inner-radius of the torus. Value should be greater than or equal to 0.0f.
 *OuterRadius* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Outer-radius of the torus. Value should be greater than or equal to 0.0f.
 
@@ -64,7 +64,7 @@ Outer-radius of the torus. Value should be greater than or equal to 0.0f.
 *Sides* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of sides in a cross-section. Value must be greater than or equal to 3.
 
@@ -73,7 +73,7 @@ Number of sides in a cross-section. Value must be greater than or equal to 3.
 *Rings* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of rings making up the torus. Value must be greater than or equal to 3.
 

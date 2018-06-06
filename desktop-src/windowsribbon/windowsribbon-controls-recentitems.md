@@ -26,7 +26,7 @@ The following screen shot illustrates a Recent Items list from WordPad for Windo
 
 The [Application Menu](windowsribbon-controls-applicationmenu.md) can have at most one [**ApplicationMenu.RecentItems**](windowsribbon-element-applicationmenu-recentitems.md) list, represented by an **ApplicationMenu.RecentItems** element, for displaying recent documents, pictures, movies, and other projects a user has been working on. The number of listed items ranges from zero to the maximum number specified in markup, with a default value of ten. The recent items are displayed as a numbered list of strings indicating file names. It is recommended that the [**Command.LabelDescription**](windowsribbon-element-command-labeldescription.md) property be used to give the full path for the file location, as shown in the following screen shot .
 
-![screen shot of a recent items list in an application menu.](https://www.bing.com/search?q=screen shot of a recent items list in an application menu.)
+![screen shot of a recent items list in an application menu.](https://www.bing.com/search?q=screen+shot+of+a+recent+items+list+in+an+application+menu.)
 
 The [**RecentItems**](windowsribbon-element-recentitems.md) element has an *EnablePinning* attribute that, if set to `true`, displays a pin icon to the right of each item in the list, as shown in the following screen shot.
 
@@ -35,7 +35,7 @@ The [**RecentItems**](windowsribbon-element-recentitems.md) element has an *Enab
 
  
 
-![screen shot of recent items pinning in an application menu.](https://www.bing.com/search?q=screen shot of recent items pinning in an application menu.)
+![screen shot of recent items pinning in an application menu.](https://www.bing.com/search?q=screen+shot+of+recent+items+pinning+in+an+application+menu.)
 
 The pinning algorithm is intended to keep items from falling off the **Recent items** list. The algorithm produces the following behavior:
 

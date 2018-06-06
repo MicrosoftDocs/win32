@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Shading State (Direct3D 9)
 
-Direct3D supports both flat and Gouraud shading. The default is Gouraud shading. To control the current shading mode, your C++ application specifies a member of the [**D3DSHADEMODE**](https://msdn.microsoft.com/windows/desktop/ba4e0c62-b496-427b-a324-2fb560d153ba) enumerated type for the D3DRS\_SHADEMODE render state.
+Direct3D supports both flat and Gouraud shading. The default is Gouraud shading. To control the current shading mode, your C++ application specifies a member of the [**D3DSHADEMODE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dshademode.htm) enumerated type for the D3DRS\_SHADEMODE render state.
 
 The following C++ code example demonstrates the process of setting the shading state to flat shading mode.
 

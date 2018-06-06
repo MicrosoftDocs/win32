@@ -43,7 +43,7 @@ IID\_IAudioClock2
 *service* \[out\]
 </dt> <dd>
 
-Pointer to a pointer variable into which the method writes the address of an instance of the requested interface. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's [**Release**](https://msdn.microsoft.com/windows/desktop/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) method. If the **GetService** call fails, *\*ppv* is NULL.
+Pointer to a pointer variable into which the method writes the address of an instance of the requested interface. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's [**Release**](https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) method. If the **GetService** call fails, *\*ppv* is NULL.
 
 </dd> </dl>
 

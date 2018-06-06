@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # DRM\_LICENSE\_STATE\_DATA structure
 
-The **DRM\_LICENSE\_STATE\_DATA** structure contains [*license*](https://www.bing.com/search?q=*license*) information about a specified [*DRM*](https://www.bing.com/search?q=*DRM*) right.
+The **DRM\_LICENSE\_STATE\_DATA** structure contains [*license*](wmformat-glossary.md#wmformat-license) information about a specified [*DRM*](wmformat-glossary.md#wmformat-digital-rights-management--drm-) right.
 
 ## Syntax
 

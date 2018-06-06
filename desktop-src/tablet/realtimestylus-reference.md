@@ -23,7 +23,7 @@ Provides access to the stylus events coming from pen or touch digitizers.
 
 This object implements the [**IRealTimeStylus**](/windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus) COM interface.
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) method in C++.
 
 You can fully control, dynamically render, modify, and even delete data from the packet stream within the synchronous and asynchronous plug-ins of the [**RealTimeStylus Class**](/windows/desktop/api/RTSCom/) object.
 

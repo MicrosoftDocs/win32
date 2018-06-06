@@ -37,7 +37,7 @@ Constructs instances of the [**XMFLOAT4X4**](/windows/desktop/api/DirectXMath/) 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT4X4 (float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT4X4 (float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)</strong>)</td>
+<td style="text-align: left;">[<strong>XMFLOAT4X4 (float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT4X4+(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X4</code> structure from sixteen scalar <code>float</code> values. <br/> Initializes a new instance of the [<strong>XMFLOAT4X4</strong>](/windows/desktop/api/DirectXMath/) structure from sixteen scalar <code>float</code> values. <br/>
 <blockquote>
 [!Note]<br />
@@ -46,7 +46,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT4X4 ()</strong>](https://www.bing.com/search?q=<strong>XMFLOAT4X4 ()</strong>)</td>
+<td style="text-align: left;">[<strong>XMFLOAT4X4 ()</strong>](https://www.bing.com/search?q=<strong>XMFLOAT4X4+()</strong>)</td>
 <td style="text-align: left;">Default constructor for <code>XMFLOAT4X4</code><br/> Default constructor for [<strong>XMFLOAT4X4</strong>](/windows/desktop/api/DirectXMath/)<br/>
 <blockquote>
 [!Note]<br />
@@ -55,7 +55,7 @@ This is only available for C++ based development.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT4X4 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT4X4 (const float*)</strong>)</td>
+<td style="text-align: left;">[<strong>XMFLOAT4X4 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT4X4+(const+float*)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X4</code> structure from a sixteen element <code>float</code> array. <br/> Initializes a new instance of the [<strong>XMFLOAT4X4</strong>](/windows/desktop/api/DirectXMath/) structure from a sixteen element <code>float</code> array. <br/>
 <blockquote>
 [!Note]<br />

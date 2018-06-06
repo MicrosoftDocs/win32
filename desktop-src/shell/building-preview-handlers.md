@@ -28,7 +28,7 @@ This topic assumes that the preview handler is initialized with a stream and is 
 
 ## IInitializeWithStream::Initialize
 
-Store the [**IStream**](https://msdn.microsoft.com/windows/desktop/c6f60e37-eadc-46a1-94f6-cacc23613531) and mode parameters so that you can read the item's data when you are ready to preview the item. Do not load the data in [**Initialize**](/windows/desktop/api/Propsys/nf-propsys-iinitializewithstream-initialize). Load the data in [**IPreviewHandler::DoPreview**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-dopreview) just before you render.
+Store the [**IStream**](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) and mode parameters so that you can read the item's data when you are ready to preview the item. Do not load the data in [**Initialize**](/windows/desktop/api/Propsys/nf-propsys-iinitializewithstream-initialize). Load the data in [**IPreviewHandler::DoPreview**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-dopreview) just before you render.
 
 ## IObjectWithSite
 
@@ -37,9 +37,9 @@ Store the [**IStream**](https://msdn.microsoft.com/windows/desktop/c6f60e37-eadc
 
 ### IObjectWithSite::SetSite
 
-Store the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer for later access.
+Store the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer for later access.
 
-If you currently have a reference to an [**IPreviewHandlerFrame**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ipreviewhandlerframe) object, release it. Use the stored [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer to call [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) on the site for a new **IPreviewHandlerFrame** reference.
+If you currently have a reference to an [**IPreviewHandlerFrame**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ipreviewhandlerframe) object, release it. Use the stored [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer to call [**QueryInterface**](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) on the site for a new **IPreviewHandlerFrame** reference.
 
 If you currently have an accelerator table, destroy it. Call [**IPreviewHandlerFrame::GetWindowContext**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-getwindowcontext) to get a new accelerator table. Store this table. Note that it is used only as a list of accelerator keys that the frame supports. Commands in the accelerator entries are ignored.
 
@@ -88,7 +88,7 @@ This is where the real work is done. Since a preview is dynamic, the preview con
 
 If the preview handler window does not exist, create it. Your preview handler's windows should be children of the window provided by [**IPreviewHandler::SetWindow**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow). They should be the size provided by **IPreviewHandler::SetWindow** and [**IPreviewHandler::SetRect**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setrect) (whichever was called most recently).
 
-Once you have a window, load the data from the [**IStream**](https://msdn.microsoft.com/windows/desktop/c6f60e37-eadc-46a1-94f6-cacc23613531) that the preview handler was initialized with, and render that data to your preview handler's window.
+Once you have a window, load the data from the [**IStream**](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) that the preview handler was initialized with, and render that data to your preview handler's window.
 
 ### IPreviewHandler::SetFocus
 
@@ -96,7 +96,7 @@ This method is called when the focus enters the reading pane through a tab actio
 
 ### IPreviewHandler::QueryFocus
 
-This method should call the [**GetFocus**](https://msdn.microsoft.com/windows/desktop/3929771f-0402-4554-8e39-f945cd77b16d) function and return the result of that call in the *phwnd* parameter.
+This method should call the [**GetFocus**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getfocus.htm) function and return the result of that call in the *phwnd* parameter.
 
 ### IPreviewHandler::TranslateAccelerator
 
@@ -112,15 +112,15 @@ The simplest model is to forward all keystrokes to the host using [**IPreviewHan
 
 The other model is to use an accelerator table as an optimization to avoid sending too many keystrokes across process boundaries:
 
-1.  When [**IObjectWithSite::SetSite**](https://msdn.microsoft.com/windows/desktop/5e95b2a6-85b3-4899-9e23-54ed9e69e821) is called on your preview handler, acquire the accelerator table through [**IPreviewHandlerFrame::GetWindowContext**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-getwindowcontext). (Be sure to free the handle to the accelerator table when your previewer is destroyed.)
+1.  When [**IObjectWithSite::SetSite**](https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821) is called on your preview handler, acquire the accelerator table through [**IPreviewHandlerFrame::GetWindowContext**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-getwindowcontext). (Be sure to free the handle to the accelerator table when your previewer is destroyed.)
 2.  If the accelerator is handled by your preview handler, handle it and return S\_OK.
-3.  If the accelerator is not handled by your preview handler, compare the message using [**IsAccelerator**](https://msdn.microsoft.com/windows/desktop/2d09f81a-b422-4379-89c8-d50992ebb24c) against the accelerator table acquired.
+3.  If the accelerator is not handled by your preview handler, compare the message using [**IsAccelerator**](https://msdn.microsoft.com/2d09f81a-b422-4379-89c8-d50992ebb24c) against the accelerator table acquired.
 4.  If the accelerator matches an entry in that accelerator table, call [**IPreviewHandlerFrame::TranslateAccelerator**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-translateaccelerator) and return its result.
 5.  If the accelerator does not match any entry in the accelerator table, return S\_FALSE.
 
 ### IPreviewHandler::Unload
 
-When this method is called, stop any rendering, release any resources allocated by reading data from the stream, and release the [**IStream**](https://msdn.microsoft.com/windows/desktop/c6f60e37-eadc-46a1-94f6-cacc23613531) itself.
+When this method is called, stop any rendering, release any resources allocated by reading data from the stream, and release the [**IStream**](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) itself.
 
 Once this method is called, the handler must be reinitialized before any attempt to call [**IPreviewHandler::DoPreview**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-dopreview) again.
 

@@ -44,7 +44,7 @@ A path expression contains one or more metadata block names. It can also specify
 
 The following diagram illustrates the makeup of an example JPEG image with four root metadata blocks: App0, App1, XMP, and an unknown block. Each highlighted item notes the type of metadata (block or item) and the query expression used to retrieve the data.
 
-![jpeg image with metadata callouts](https://www.bing.com/search?q=jpeg image with metadata callouts)
+![jpeg image with metadata callouts](https://www.bing.com/search?q=jpeg+image+with+metadata+callouts)
 
 > [!Note]  
 > The contents of this diagram are referenced throughout this document and are used in many of the examples.

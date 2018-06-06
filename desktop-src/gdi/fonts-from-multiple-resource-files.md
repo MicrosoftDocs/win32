@@ -16,11 +16,11 @@ Typically, a font is contained in a single font resource file. However, the info
 -   .pfm for the font metrics
 -   .pfb for the font bits
 
-To add a font from multiple files to the system, use the [**AddFontResource**](https://msdn.microsoft.com/windows/desktop/e553a25a-f281-4ddc-8e95-1f61ed8238f9) or [**AddFontResourceEx**](https://msdn.microsoft.com/windows/desktop/eaf8ebf0-1b06-4a09-a842-83540245a117) functions. The *lpszFilename* parameter in these functions must point to a string that contains the file names separated by the vertical bar or pipe ( \| ). For example, to specify abcxxxxx.pfm and abcxxxxx.pfb for a Type 1 font, use the string "abcxxxxx.pfm \| abcxxxxx.pfb."
+To add a font from multiple files to the system, use the [**AddFontResource**](https://msdn.microsoft.com/e553a25a-f281-4ddc-8e95-1f61ed8238f9) or [**AddFontResourceEx**](https://msdn.microsoft.com/eaf8ebf0-1b06-4a09-a842-83540245a117) functions. The *lpszFilename* parameter in these functions must point to a string that contains the file names separated by the vertical bar or pipe ( \| ). For example, to specify abcxxxxx.pfm and abcxxxxx.pfb for a Type 1 font, use the string "abcxxxxx.pfm \| abcxxxxx.pfb."
 
-[**AddFontResourceEx**](https://msdn.microsoft.com/windows/desktop/eaf8ebf0-1b06-4a09-a842-83540245a117) differs from [**AddFontResource**](https://msdn.microsoft.com/windows/desktop/e553a25a-f281-4ddc-8e95-1f61ed8238f9) in that the application calling **AddFontResourceEx** can specify the font as private to itself or non-enumerable.
+[**AddFontResourceEx**](https://msdn.microsoft.com/eaf8ebf0-1b06-4a09-a842-83540245a117) differs from [**AddFontResource**](https://msdn.microsoft.com/e553a25a-f281-4ddc-8e95-1f61ed8238f9) in that the application calling **AddFontResourceEx** can specify the font as private to itself or non-enumerable.
 
-To add a font from a memory image, use [**AddFontResourceEx**](https://msdn.microsoft.com/windows/desktop/eaf8ebf0-1b06-4a09-a842-83540245a117). This allows an application to use a font that is embedded in a document or a webpage.
+To add a font from a memory image, use [**AddFontResourceEx**](https://msdn.microsoft.com/eaf8ebf0-1b06-4a09-a842-83540245a117). This allows an application to use a font that is embedded in a document or a webpage.
 
 To remove a font that came from multiple resource files, call [**RemoveFontResource**](/windows/desktop/api/Wingdi/nf-wingdi-removefontresourcea) or [**RemoveFontResourceEx**](/windows/desktop/api/Wingdi/nf-wingdi-removefontresourceexa), depending on the function used to add the font. You must specify the same flags that were used to add the font. To remove a font that was added from a memory image, use [**RemoveFontMemResourceEx**](/windows/desktop/api/Wingdi/nf-wingdi-removefontmemresourceex).
 

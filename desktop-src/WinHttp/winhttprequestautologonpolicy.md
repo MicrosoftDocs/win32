@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WinHttpRequestAutoLogonPolicy enumeration
 
-The **WinHttpRequestAutoLogonPolicy** enumeration includes possible settings for the [Automatic Logon Policy](https://www.bing.com/search?q=Automatic Logon Policy).
+The **WinHttpRequestAutoLogonPolicy** enumeration includes possible settings for the [Automatic Logon Policy](authentication-in-winhttp.md#automatic-logon-policy).
 
 ## Syntax
 

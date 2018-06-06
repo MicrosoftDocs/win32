@@ -71,7 +71,7 @@ When a print provider calls `ReplyPrinterChangeNotification`, it must identify t
 
 Calling `ReplyPrinterChangeNotification` causes the spooler to signal the client application that a print queue event has occurred. This happens even if the provider supplies **NULL** for *pPrinterNotifyInfo*. To update the spooler's record of print queue changes without causing the client to be notified, use [**PartialReplyPrinterChangeNotification**](partialreplyprinterchangenotification.md). It is common to call **PartialReplyPrinterChangeNotification** several times to update the spooler's database, then to call `ReplyPrinterChangeNotification` to notify the client that changes have occurred.
 
-For additional information, see [Supporting Printer Change Notifications](https://www.bing.com/search?q=Supporting Printer Change Notifications).
+For additional information, see [Supporting Printer Change Notifications](https://www.bing.com/search?q=Supporting+Printer+Change+Notifications).
 
 ## Requirements
 

@@ -17,17 +17,17 @@ When using Uniscribe for display of text, an application must go through a forma
 
 Once it has determined the runs for all paragraphs, the application divides each paragraph into strings that have the same script and direction ("items"). The application applies the item information to produce runs that are unique in script and direction and fall entirely within a single item ("ranges").
 
-The breakdown of an item into ranges is somewhat arbitrary, although a range should consist of one or more consecutive script-defined, indivisible character groupings, called "clusters." For European languages, a cluster typically corresponds to a single code page character or Unicode code point, and consists of a single [glyph](https://www.bing.com/search?q=glyph). However, in languages such as Thai, a cluster is a grouping of glyphs and corresponds to multiple consecutive characters or code points. For example, a Thai cluster might contain a consonant, a vowel, and a tone mark. So that it does not break clusters, the application typically should either use the longest ranges it can or use its own lexical information to break between ranges in places that are not in the middle of a cluster.
+The breakdown of an item into ranges is somewhat arbitrary, although a range should consist of one or more consecutive script-defined, indivisible character groupings, called "clusters." For European languages, a cluster typically corresponds to a single code page character or Unicode code point, and consists of a single [glyph](uniscribe-glossary.md#glyph). However, in languages such as Thai, a cluster is a grouping of glyphs and corresponds to multiple consecutive characters or code points. For example, a Thai cluster might contain a consonant, a vowel, and a tone mark. So that it does not break clusters, the application typically should either use the longest ranges it can or use its own lexical information to break between ranges in places that are not in the middle of a cluster.
 
 When it has identified the clusters in each range, the application must determine the size of each cluster. It uses Uniscribe to sum the clusters to determine the size of each range. Then the application sums the sizes of the ranges until they overflow a line, that is, reach the margin. The range that overflows the line is divided between the current line and the next line. For each line, the application builds a map from visual position to logical position for each range. Then the application shapes the code points for each range into glyphs, which it can subsequently position and render.
 
 An application does text layout only one time. Afterwards, it either saves the glyphs and positions for display purposes or it generates them each time it displays the text, with the tradeoff being speed versus memory. A typical application implements the layout process once, then generates the glyphs and positions each time it displays the text.
 
-An application that uses [complex scripts](https://www.bing.com/search?q=complex scripts) has the following problems with a simple approach to layout and display.
+An application that uses [complex scripts](uniscribe-glossary.md#complex-script) has the following problems with a simple approach to layout and display.
 
 -   The width of a complex script character depends on its context. It is not possible to save the widths in simple tables.
 -   Breaking between words in scripts such as Thai requires dictionary support. For example, no separator character is used between Thai words.
--   Arabic, Hebrew, Persian, Urdu, and other [bidirectional text](https://www.bing.com/search?q=bidirectional text) languages require reordering before display.
+-   Arabic, Hebrew, Persian, Urdu, and other [bidirectional text](uniscribe-glossary.md#bidirectional-text) languages require reordering before display.
 -   Some form of font association is often required to easily use complex scripts.
 
 The fact that Uniscribe uses the paragraph as the display unit helps the application deal adequately with these complex script issues.
@@ -67,7 +67,7 @@ Your application can use the following steps to lay out out a text paragraph wit
 5.  Merge the item information with the run information to produce ranges.
 6.  Call [**ScriptShape**](/windows/desktop/api/Usp10/nf-usp10-scriptshape) to identify clusters and generate glyphs.
 7.  If [**ScriptShape**](/windows/desktop/api/Usp10/nf-usp10-scriptshape) returns the code USP\_E\_SCRIPT\_NOT\_IN\_FONT or S\_OK with the output containing missing glyphs, select characters from a different font. Either substitute another font or disable shaping by setting the **eScript** member of the [**SCRIPT\_ANALYSIS**](/windows/desktop/api/Usp10/ns-usp10-tag_script_analysis) structure passed to **ScriptShape** to SCRIPT\_UNDEFINED. For more information, see [Using Font Fallback](using-font-fallback.md).
-8.  Call [**ScriptPlace**](/windows/desktop/api/Usp10/nf-usp10-scriptplace) to generate [advance widths](https://www.bing.com/search?q=advance widths) and x and y positions for the glyphs in each successive range. This is the first step for which text size becomes a consideration.
+8.  Call [**ScriptPlace**](/windows/desktop/api/Usp10/nf-usp10-scriptplace) to generate [advance widths](uniscribe-glossary.md#advance-width) and x and y positions for the glyphs in each successive range. This is the first step for which text size becomes a consideration.
 9.  Sum the range sizes until the line overflows.
 10. Break the range on a word boundary by using the **fSoftBreak** and **fWhiteSpace** members in the logical attributes. To break a single character cluster off the run, use the information returned by calling [**ScriptBreak**](/windows/desktop/api/Usp10/nf-usp10-scriptbreak).
     > [!Note]  
@@ -91,7 +91,7 @@ Your application can use the following steps to display a text paragraph. This p
     2.  Call [**ScriptShape**](/windows/desktop/api/Usp10/nf-usp10-scriptshape) to generate glyphs for the run.
     3.  Call [**ScriptPlace**](/windows/desktop/api/Usp10/nf-usp10-scriptplace) to generate an advance width and an x,y offset for each glyph.
 2.  Do the following to establish the correct visual order for the runs in the line:
-    1.  Extract an array of bidirectional [embedding levels](https://www.bing.com/search?q=embedding levels), one per range. The embedding level is given by (SCRIPT\_ITEM) si.(SCRIPT\_ANALYSIS) a. (SCRIPT\_STATE) s.uBidiLevel.
+    1.  Extract an array of bidirectional [embedding levels](uniscribe-glossary.md#embedding-level), one per range. The embedding level is given by (SCRIPT\_ITEM) si.(SCRIPT\_ANALYSIS) a. (SCRIPT\_STATE) s.uBidiLevel.
     2.  Pass this array to [**ScriptLayout**](/windows/desktop/api/Usp10/nf-usp10-scriptlayout) to generate a map of visual positions to logical positions.
 3.  (Optional) To justify the text, either call [**ScriptJustify**](/windows/desktop/api/Usp10/nf-usp10-scriptjustify) or use specialized knowledge of the text.
 4.  Use the visual-to-logical map to display the runs in visual order. Starting at the left end of the line, call [**ScriptTextOut**](/windows/desktop/api/Usp10/nf-usp10-scripttextout) to display the run given by the first entry in the map. For each subsequent entry in the map, call **ScriptTextOut** to display the indicated run to the right of the previously displayed run.

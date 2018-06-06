@@ -37,7 +37,7 @@ An index value in the range 0 through 255.
 
 ## Return value
 
-The [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/windows/desktop/53535d9f-246a-42cf-82a2-fb3cf6d4ebac) that maps to the given *index*.
+The [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtransformstatetype.htm) that maps to the given *index*.
 
 ## Remarks
 

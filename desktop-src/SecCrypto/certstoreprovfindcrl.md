@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CertStoreProvFindCRL callback function
 
-The **CertStoreProvFindCRL** callback function enumerates or finds the first or next [*CRL*](https://www.bing.com/search?q=*CRL*) in an external [*store*](https://www.bing.com/search?q=*store*) that matches specified criteria.
+The **CertStoreProvFindCRL** callback function enumerates or finds the first or next [*CRL*](security.c_gly#-security-certificate-revocation-list-gly) in an external [*store*](security.e_gly#-security-external-store-gly) that matches specified criteria.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ BOOL WINAPI CertStoreProvFindCRL(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://www.bing.com/search?q=*certificate store*).
+**HCERTSTOREPROV** handle to a [*certificate store*](security.c_gly#-security-certificate-store-gly).
 
 </dd> <dt>
 

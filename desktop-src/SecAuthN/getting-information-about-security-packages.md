@@ -19,7 +19,7 @@ To retrieve the output structure, the caller passes to the function the address 
 
 Calling the [**QuerySecurityPackageInfo**](/windows/desktop/api/Sspi/nf-sspi-querysecuritypackageinfoa) function retrieves the attributes of a [*security package*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-package-gly). Both server and client can call the **QuerySecurityPackageInfo** function to get the maximum length of the security token from the **cbMaxToken** member of the [**SecPkgInfo**](/windows/desktop/api/Sspi/ns-sspi-_secpkginfoa) structure. For an example, see the call to the **QuerySecurityPackageInfo** function shown in [Using SSPI with a Windows Sockets Server](using-sspi-with-a-windows-sockets-server.md).
 
-For more information on package functions, see [Package Management](https://www.bing.com/search?q=Package Management).
+For more information on package functions, see [Package Management](authentication-functions.md#package-management).
 
  
 

@@ -46,7 +46,7 @@ The function returns the MAC type of the frame, which can have one of the follow
 
 ## Remarks
 
-[*Experts*](https://www.bing.com/search?q=*Experts*) and [*parsers*](https://www.bing.com/search?q=*parsers*) can call the **GetFrameMacType** function.
+[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetFrameMacType** function.
 
 ## Requirements
 

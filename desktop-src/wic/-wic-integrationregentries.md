@@ -33,7 +33,7 @@ HKEY_CLASSES_ROOT
       ContentType = image/<image sub type>
 ```
 
-The following entry indicates to Windows, Windows search and applications that use [System.Kind](https://msdn.microsoft.com/windows/desktop/6db93108-7d08-4493-b99a-cd4e5d4cbfbd) that a file name extension (.ext) should be treated as a picture. Specifically, it indicates that the file extension’s System.Kind property should be set to Picture.
+The following entry indicates to Windows, Windows search and applications that use [System.Kind](https://msdn.microsoft.com/6db93108-7d08-4493-b99a-cd4e5d4cbfbd) that a file name extension (.ext) should be treated as a picture. Specifically, it indicates that the file extension’s System.Kind property should be set to Picture.
 
 ```
 HKEY_LOCAL_MACHINE

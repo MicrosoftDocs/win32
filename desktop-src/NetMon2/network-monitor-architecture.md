@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Network Monitor Architecture
 
-The Network Monitor architecture can be separated into two sets of programming concepts, those related to [*expert*](https://www.bing.com/search?q=*expert*) and [*parser*](https://www.bing.com/search?q=*parser*) development and those related to [*monitor*](https://www.bing.com/search?q=*monitor*) development.
+The Network Monitor architecture can be separated into two sets of programming concepts, those related to [*expert*](e.md#-netmon-expert-gly) and [*parser*](p.md#-netmon-parser-gly) development and those related to [*monitor*](m.md#-netmon-monitor-gly) development.
 
 Although both use the same components to capture the network traffic, they each use different interfaces to capture the data and different components to analyze what was captured.
 

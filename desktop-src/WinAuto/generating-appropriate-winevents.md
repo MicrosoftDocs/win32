@@ -21,14 +21,14 @@ To send an event, servers call [**NotifyWinEvent**](/windows/desktop/api/Winuser
 
 General WinEvents can be sent for all UI elements. These include:
 
--   [**EVENT\_OBJECT\_CREATE**](https://www.bing.com/search?q=**EVENT\_OBJECT\_CREATE**) (when an object is created)
--   [**EVENT\_OBJECT\_DESTROY**](https://www.bing.com/search?q=**EVENT\_OBJECT\_DESTROY**) (when an object is destroyed)
--   [**EVENT\_OBJECT\_SHOW**](https://www.bing.com/search?q=**EVENT\_OBJECT\_SHOW**) (when an object is shown)
--   [**EVENT\_OBJECT\_HIDE**](https://www.bing.com/search?q=**EVENT\_OBJECT\_HIDE**) (when an object is hidden)
+-   [**EVENT\_OBJECT\_CREATE**](event-constants.md#event-object-create) (when an object is created)
+-   [**EVENT\_OBJECT\_DESTROY**](event-constants.md#event-object-destroy) (when an object is destroyed)
+-   [**EVENT\_OBJECT\_SHOW**](event-constants.md#event-object-show) (when an object is shown)
+-   [**EVENT\_OBJECT\_HIDE**](event-constants.md#event-object-hide) (when an object is hidden)
 
 ## Specific Events
 
-There are also specific WinEvents that can be sent for a particular type of UI element. For example, use [**EVENT\_OBJECT\_SELECTION**](https://www.bing.com/search?q=**EVENT\_OBJECT\_SELECTION**) for controls that allow the user to make a selection, such as a list box.
+There are also specific WinEvents that can be sent for a particular type of UI element. For example, use [**EVENT\_OBJECT\_SELECTION**](event-constants.md#event-object-selection) for controls that allow the user to make a selection, such as a list box.
 
 For more information about which events are expected for a particular type of UI element, see the following resources:
 

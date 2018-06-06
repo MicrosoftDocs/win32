@@ -41,18 +41,18 @@ typedef struct D3DXEVENT_DESC {
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/windows/desktop/d98b398e-29e1-41b5-84eb-37983bac8d0a)**
+Type: **[**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxevent_type.htm)**
 
 </dd> <dd>
 
-Event type, as defined in [**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/windows/desktop/d98b398e-29e1-41b5-84eb-37983bac8d0a).
+Event type, as defined in [**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxevent_type.htm).
 
 </dd> <dt>
 
 **Track**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -63,7 +63,7 @@ Event track identifier.
 **StartTime**
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -74,7 +74,7 @@ Start time of the event in global time.
 **Duration**
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -85,18 +85,18 @@ Duration of the event in global time.
 **Transition**
 </dt> <dd>
 
-Type: **[**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/windows/desktop/4416ef28-ba6b-47ca-be7d-831daad619e5)**
+Type: **[**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxtransition_type.htm)**
 
 </dd> <dd>
 
-Transition style of the event, as defined in [**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/windows/desktop/4416ef28-ba6b-47ca-be7d-831daad619e5).
+Transition style of the event, as defined in [**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxtransition_type.htm).
 
 </dd> <dt>
 
 **Weight**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -107,7 +107,7 @@ Track weight for the event.
 **Speed**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -118,7 +118,7 @@ Track speed for the event.
 **Position**
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 
@@ -129,7 +129,7 @@ Track position for the event.
 **Enable**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 </dd> <dd>
 

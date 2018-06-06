@@ -49,7 +49,7 @@ If the string is found, the return value is the index of the selected item. If t
 
 A string is selected only if the characters from the starting point match the characters in the prefix string.
 
-If you create the combo box with an owner-drawn style but without the [**CBS\_HASSTRINGS**](https://www.bing.com/search?q=**CBS\_HASSTRINGS**) style, what the **CB\_SELECTSTRING** message does depends on whether you use the [**CBS\_SORT**](https://www.bing.com/search?q=**CBS\_SORT**) style. If the **CBS\_SORT** style is used, the system sends [**WM\_COMPAREITEM**](wm-compareitem.md) messages to the owner of the combo box to determine which item matches the specified string. If you do not use the **CBS\_SORT** style, **CB\_SELECTSTRING** attempts to match the **DWORD** value against the value of the *lParam* parameter.
+If you create the combo box with an owner-drawn style but without the [**CBS\_HASSTRINGS**](combo-box-styles.md#cbs-hasstrings) style, what the **CB\_SELECTSTRING** message does depends on whether you use the [**CBS\_SORT**](combo-box-styles.md#cbs-sort) style. If the **CBS\_SORT** style is used, the system sends [**WM\_COMPAREITEM**](wm-compareitem.md) messages to the owner of the combo box to determine which item matches the specified string. If you do not use the **CBS\_SORT** style, **CB\_SELECTSTRING** attempts to match the **DWORD** value against the value of the *lParam* parameter.
 
 ## Requirements
 

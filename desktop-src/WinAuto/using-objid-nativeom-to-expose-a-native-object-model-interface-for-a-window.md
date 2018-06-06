@@ -15,14 +15,14 @@ This technique allows clients to get a custom object for a window. Servers can u
 
 **To expose a native object model interface for a window (servers)**
 
-1.  Handle the [**WM\_GETOBJECT**](wm-getobject.md) message in the window procedure. When the *lParam* value is [**OBJID\_NATIVEOM**](https://www.bing.com/search?q=**OBJID\_NATIVEOM**), return an interface pointer to the custom object using [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject).
+1.  Handle the [**WM\_GETOBJECT**](wm-getobject.md) message in the window procedure. When the *lParam* value is [**OBJID\_NATIVEOM**](object-identifiers.md#objid-nativeom), return an interface pointer to the custom object using [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject).
 2.  Release your interface pointer after calling [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject), if appropriate. For more information, see **LresultFromObject**.
 
 Clients can obtain a pointer to this custom object.
 
 **To obtain a pointer for a custom object for a window (clients)**
 
--   Call [**AccessibleObjectFromWindow**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromwindow) and pass [**OBJID\_NATIVEOM**](https://www.bing.com/search?q=**OBJID\_NATIVEOM**) as the second parameter.
+-   Call [**AccessibleObjectFromWindow**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromwindow) and pass [**OBJID\_NATIVEOM**](object-identifiers.md#objid-nativeom) as the second parameter.
 
 Note the following issues for this technique:
 

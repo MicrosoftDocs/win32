@@ -373,24 +373,24 @@ Absolute clocks provide accurate time-of-day readings. They are typically based 
 
 If a hardware generator provides ticks at a constant rate, time intervals can be measured by simply counting these ticks. The rate at which the ticks are generated is called the frequency and expressed in Hertz (Hz). The reciprocal of the frequency is called the period or tick interval and is expressed in an appropriate International System of Units (SI) time unit (for example, second, millisecond, microsecond, or nanosecond).
 
-![time interval](https://www.bing.com/search?q=time interval)
+![time interval](https://www.bing.com/search?q=time+interval)
 
 The resolution of the timer is equal to the period. Resolution determines the ability to distinguish between any two time stamps and places a lower bound on the smallest time intervals that can be measured. This is sometimes called the tick resolution.
 
 Digital measurement of time introduces a measurements uncertainty of ± 1 tick because the digital counter advances in discrete steps, while time is continuously advancing. This uncertainty is called a quantization error. For typical time-interval measurements, this effect can often be ignored because the quantizing error is much smaller than the time interval being measured.
 
-![digital time measurement](https://www.bing.com/search?q=digital time measurement)
+![digital time measurement](https://www.bing.com/search?q=digital+time+measurement)
 
 However, if the period being measured is small and approaches the resolution of the timer, you will need to consider this quantizing error. The size of the error introduced is that of one clock period.
 
 The following two diagrams illustrate the impact of the ± 1 tick uncertainty by using a timer with a resolution of 1 time unit.
 
-![tick uncertainty](https://www.bing.com/search?q=tick uncertainty)
+![tick uncertainty](https://www.bing.com/search?q=tick+uncertainty)
 
 [**QueryPerformanceFrequency**](/windows/desktop/api/Winbase/) returns the frequency of [**QPC**](/windows/desktop/api/Winbase/), and the period and resolution are equal to the reciprocal of this value. The performance counter frequency that **QueryPerformanceFrequency** returns is determined during system initialization and doesn't change while the system is running.
 
 > [!Note]  
-> Cases might exist where [**QueryPerformanceFrequency**](/windows/desktop/api/Winbase/) doesn't return the actual frequency of the hardware tick generator. For example, in many cases, **QueryPerformanceFrequency** returns the TSC frequency divided by 1024; and on Hyper-V, the performance counter frequency is always 10 MHz when the guest virtual machine runs under a [hypervisor](https://www.bing.com/search?q=hypervisor) that implements the [hypervisor version 1.0 interface](https://www.bing.com/search?q=hypervisor version 1.0 interface). As a result, don't assume that **QueryPerformanceFrequency** will return the precise TSC frequency.
+> Cases might exist where [**QueryPerformanceFrequency**](/windows/desktop/api/Winbase/) doesn't return the actual frequency of the hardware tick generator. For example, in many cases, **QueryPerformanceFrequency** returns the TSC frequency divided by 1024; and on Hyper-V, the performance counter frequency is always 10 MHz when the guest virtual machine runs under a [hypervisor](https://www.bing.com/search?q=hypervisor) that implements the [hypervisor version 1.0 interface](https://www.bing.com/search?q=hypervisor+version+1.0+interface). As a result, don't assume that **QueryPerformanceFrequency** will return the precise TSC frequency.
 
  
 
@@ -432,13 +432,13 @@ Precision = MAX \[800 ns,100 ns\] = 800 ns
 
 These two figures depict this effect.
 
-![qpc access time](https://www.bing.com/search?q=qpc access time)
+![qpc access time](https://www.bing.com/search?q=qpc+access+time)
 
 If the access time is greater than the resolution, don't try to improve the precision by guessing. In other words, it's an error to assume that the time stamp is taken precisely in the middle, or at the beginning or the end of the call.
 
 By contrast, consider the following example in which the [**QPC**](/windows/desktop/api/Winbase/) access time is only 20 nanoseconds and the hardware clock resolution is 100 nanoseconds. This might be the case if the TSC register was used as the basis for **QPC**. Here the precision is limited by the clock resolution.
 
-![qpc precision](https://www.bing.com/search?q=qpc precision)
+![qpc precision](https://www.bing.com/search?q=qpc+precision)
 
 In practice, you can find time sources for which the time required to read the counter is larger or smaller than the resolution. In either case, the precision will be the larger of the two.
 
@@ -493,7 +493,7 @@ To reduce the adverse effects of this frequency offset error, recent versions of
 
 As the following examples show, the frequency offset error of a hardware clock influences the achievable accuracy, and the resolution of the clock can be less important.
 
-![frequency offset error influences achievable accuracy](https://www.bing.com/search?q=frequency offset error influences achievable accuracy)
+![frequency offset error influences achievable accuracy](https://www.bing.com/search?q=frequency+offset+error+influences+achievable+accuracy)
 
 <dl> <dt>
 

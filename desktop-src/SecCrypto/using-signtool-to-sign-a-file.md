@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using SignTool to Sign a File
 
-The following command signs the file named MyControl.exe using a [*certificate*](https://www.bing.com/search?q=*certificate*) stored in a Personal Information Exchange (PFX) file:
+The following command signs the file named MyControl.exe using a [*certificate*](security.c_gly#-security-certificate-gly) stored in a Personal Information Exchange (PFX) file:
 
 **SignTool sign /f***MyCert***.pfx MyControl.exe**
 
@@ -41,15 +41,15 @@ The following command signs an ActiveX control and provides information that is 
 
 **SignTool sign /f MyCert.pfx /d "***My Product Name***" /du "http://www.***example***.com/***my\_product***/info.html" MyControl.exe**
 
-The following command signs the file using a certificate whose [*private key*](https://www.bing.com/search?q=*private key*) information is protected by a hardware cryptography module. For example purposes, assume that the certificate called "My High-Value Certificate," has a private key installed in a hardware cryptography module, and the certificate is properly installed.
+The following command signs the file using a certificate whose [*private key*](security.p_gly#-security-private-key-gly) information is protected by a hardware cryptography module. For example purposes, assume that the certificate called "My High-Value Certificate," has a private key installed in a hardware cryptography module, and the certificate is properly installed.
 
 **SignTool sign /n "My High-Value Certificate" MyControl.exe**
 
-The following command signs the file using a certificate whose [*private key*](https://www.bing.com/search?q=*private key*) information is protected by a hardware cryptography module. A computer store is specified for the [*certification authority*](https://www.bing.com/search?q=*certification authority*) (CA) store.
+The following command signs the file using a certificate whose [*private key*](security.p_gly#-security-private-key-gly) information is protected by a hardware cryptography module. A computer store is specified for the [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA) store.
 
 **SignTool sign /n "***My High Value Certificate***" /sm /s CA MyControl.exe**
 
-The following command signs the file using a certificate stored in a file. The private key information is protected by a hardware cryptography module, and the [*cryptographic service provider*](https://www.bing.com/search?q=*cryptographic service provider*) (CSP)and [*key container*](https://www.bing.com/search?q=*key container*) are specified by name. This command is useful if the certificate is not properly installed.
+The following command signs the file using a certificate stored in a file. The private key information is protected by a hardware cryptography module, and the [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP)and [*key container*](security.k_gly#-security-key-container-gly) are specified by name. This command is useful if the certificate is not properly installed.
 
 **SignTool sign /f***HighValue***.cer /csp "***Hardware Cryptography Module***" /k***HighValueContainer***MyControl.exe**
 

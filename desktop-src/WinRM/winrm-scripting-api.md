@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # WinRM Scripting API
 
-Windows Remote Management scripting objects are implemented as a layer above the [WS-Management Protocol](ws-management-protocol.md). The scripting objects enable you to obtain data or manage [*resources*](https://www.bing.com/search?q=*resources*) on local and remote computers.
+Windows Remote Management scripting objects are implemented as a layer above the [WS-Management Protocol](ws-management-protocol.md). The scripting objects enable you to obtain data or manage [*resources*](windows-remote-management-glossary.md#winrm-gloss-resource) on local and remote computers.
 
 ## WS-Management Objects
 
@@ -42,7 +42,7 @@ Represents a collection of results returned from enumerating a resource. For mor
 <span id="ResourceLocator"></span><span id="resourcelocator"></span><span id="RESOURCELOCATOR"></span>[**ResourceLocator**](resourcelocator.md)
 </dt> <dd>
 
-Supplies the path to a resource. You can use a [**ResourceLocator**](resourcelocator.md) object instead of a [*resource URI*](https://www.bing.com/search?q=*resource URI*) in [**Session**](session.md) object operations, such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md). The corresponding C++ interface is [**IWSManResourceLocator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator).
+Supplies the path to a resource. You can use a [**ResourceLocator**](resourcelocator.md) object instead of a [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri) in [**Session**](session.md) object operations, such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md). The corresponding C++ interface is [**IWSManResourceLocator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator).
 
 </dd> <dt>
 

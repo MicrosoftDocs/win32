@@ -45,7 +45,7 @@ Pointer to an ID3DX10Sprite object that contains the string you wish to draw. Ca
 *pString* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to a string to draw. If UNICODE is defined, this parameter type resolves to an LPCWSTR, otherwise, the type resolves to an LPCSTR. If the Count parameter is -1, the string must be **NULL** terminated.
 
@@ -54,7 +54,7 @@ Pointer to a string to draw. If UNICODE is defined, this parameter type resolves
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**INT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The number of characters in the string. If Count is -1, then the pString parameter is assumed to be a pointer to a sprite containing a NULL-terminated string and ID3DX10Font::DrawText computes the character count automatically.
 
@@ -72,7 +72,7 @@ Pointer to a [RECT](http://msdn.microsoft.com/en-us/library/ms536136.aspx) struc
 *Format* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Specify the method of formatting the text. It can be any combination of the following values:
 
@@ -102,7 +102,7 @@ Specify the method of formatting the text. It can be any combination of the foll
 *Color* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/windows/desktop/53d3176a-f727-498e-8bea-0e30e0a1c66e)**
+Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxcolor.htm)**
 
 Color of the text. See [**D3DXCOLOR**](d3d10-d3dxcolor.md).
 
@@ -110,7 +110,7 @@ Color of the text. See [**D3DXCOLOR**](d3d10-d3dxcolor.md).
 
 ## Return value
 
-Type: **[**INT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**INT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 If the function succeeds, the return value is the height of the text in logical units. If DT\_VCENTER or DT\_BOTTOM is specified, the return value is the offset from pRect (top to the bottom) of the drawn text. If the function fails, the return value is zero.
 

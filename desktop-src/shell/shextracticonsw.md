@@ -104,7 +104,7 @@ The number of icons to extract from the resource named in *pszFileName*. This pa
 
 Type: **UINT**
 
-The flags that control this function. For possible values, see the *fuLoad* parameter of the [**LoadImage**](https://msdn.microsoft.com/windows/desktop/27a18763-60e0-4a91-9262-807ea2b67416) function.
+The flags that control this function. For possible values, see the *fuLoad* parameter of the [**LoadImage**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadimage.htm) function.
 
 </dd> </dl>
 
@@ -127,11 +127,11 @@ A nonzero value if successful; otherwise, zero.
 
 Extractions from Windows 3.*x* 16-bit executable files (.exe or .dll) are also supported.
 
-The *cxIcon* and *cyIcon* parameters specify the size of the icons to extract. Two sizes can be extracted through each parameter by splitting the value between its LOWORD and HIWORD. Put the first desired size in the LOWORD of the parameter and the second size in the HIWORD. For example, [**MAKELONG**](https://msdn.microsoft.com/windows/desktop/161979a1-296c-47ed-bf41-74a561b5ba05)(24, 48) for both *cxIcon* and *cyIcon* extracts both 24 and 48 sized icons.
+The *cxIcon* and *cyIcon* parameters specify the size of the icons to extract. Two sizes can be extracted through each parameter by splitting the value between its LOWORD and HIWORD. Put the first desired size in the LOWORD of the parameter and the second size in the HIWORD. For example, [**MAKELONG**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makelong.htm)(24, 48) for both *cxIcon* and *cyIcon* extracts both 24 and 48 sized icons.
 
-The calling process is responsible for destroying all icons extracted through this function by calling the [**DestroyIcon**](https://msdn.microsoft.com/windows/desktop/ffe21e34-ebe0-4ec8-830f-64c733ef9097) function.
+The calling process is responsible for destroying all icons extracted through this function by calling the [**DestroyIcon**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\destroyicon.htm) function.
 
-**SHExtractIconsW** is not exported by name or declared in a public header file. To use it, you must declare a matching prototype and use [**GetProcAddress**](https://msdn.microsoft.com/windows/desktop/a0d7fc09-f888-4f46-a571-d3719a627597) to request a function pointer from Shell32.dll that can be used to call this function.
+**SHExtractIconsW** is not exported by name or declared in a public header file. To use it, you must declare a matching prototype and use [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) to request a function pointer from Shell32.dll that can be used to call this function.
 
 ## Requirements
 

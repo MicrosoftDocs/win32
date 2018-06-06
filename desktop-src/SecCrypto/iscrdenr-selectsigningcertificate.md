@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **selectSigningCertificate** method displays a **Select Certificate** dialog box, allowing a signing certificate (also known as the *enrollment agent certificate*) to be selected.
 
-Before enrolling on behalf of users, you must select a signing certificate. The [*private key*](https://www.bing.com/search?q=*private key*) associated with this signing certificate is used to sign a PKCS \#7 request. The PKCS \#7, in turn, contains the user's PKCS \#10 request (which is signed with the user's private key).
+Before enrolling on behalf of users, you must select a signing certificate. The [*private key*](security.p_gly#-security-private-key-gly) associated with this signing certificate is used to sign a PKCS \#7 request. The PKCS \#7, in turn, contains the user's PKCS \#10 request (which is signed with the user's private key).
 
 ## Syntax
 

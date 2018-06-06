@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # OID Overview
 
-Extensibility is achieved by providing for the use of new [*object identifiers*](https://www.bing.com/search?q=*object identifiers*) (OIDs), new encoding types, and new DLLs.
+Extensibility is achieved by providing for the use of new [*object identifiers*](security.o_gly#-security-oid-gly) (OIDs), new encoding types, and new DLLs.
 
 CryptoAPI OIDs can take any of the following forms:
 

@@ -94,7 +94,7 @@ If the operation succeeds, the function should return **TRUE**. Otherwise, it sh
 
 The optional **DrvDriverEvent** function is called by the spooler's **AddPrinterDriverEx** and **DeletePrinterDriverEx** functions, which are described in the Windows SDK documentation.
 
-The function's purpose is to allow a printer driver's [printer interface DLL](https://www.bing.com/search?q=printer interface DLL) to perform operations needed when the driver is installed or removed. A typical operation for this function to perform is to create or remove extra driver-specific files that are not specified as dependent files in a [printer INF file](https://www.bing.com/search?q=printer INF file).
+The function's purpose is to allow a printer driver's [printer interface DLL](https://www.bing.com/search?q=printer+interface+DLL) to perform operations needed when the driver is installed or removed. A typical operation for this function to perform is to create or remove extra driver-specific files that are not specified as dependent files in a [printer INF file](https://www.bing.com/search?q=printer+INF+file).
 
 If *dwDriverEvent* is DRIVER\_EVENT\_DELETE, the *lparam* parameter contains the flags that were specified for the **DeletePrinterDriverEx** function's *dwDeleteFlag* parameter. The *lparam* parameter is not used if *dwDriverEvent* is DRIVER\_EVENT\_INITIALIZE.
 

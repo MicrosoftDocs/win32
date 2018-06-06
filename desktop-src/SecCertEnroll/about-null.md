@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **NULL** value is encoded into a TLV triplet that begins with a **Tag** value of 0x05, a **Length** of 0x00, and no **Value** byte as shown by the following illustration.
 
-![der encoding of null data type](https://www.bing.com/search?q=der encoding of null data type)
+![der encoding of null data type](https://www.bing.com/search?q=der+encoding+of+null+data+type)
 
 The fifth line of the following example, adapted from the [PKCS \#10 Encoded ASN.1](pkcs--10-encoded-asn-1.md) topic, shows an encoded **NULL** value. The first byte is 0x05, and the second byte is 0x00. There is no content byte.
 

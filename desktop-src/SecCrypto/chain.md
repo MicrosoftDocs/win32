@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Chain object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Chain Class**](https://www.bing.com/search?q=**X509Chain Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Chain Class**](https://www.bing.com/search?q=**X509Chain+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
 The **Chain** object represents a certificate trust chain.
 
@@ -48,7 +48,7 @@ The **Chain** object has these methods.
 | Method                                                   | Description                                                                                                                                                                                                                                                                                                       |
 |:---------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ApplicationPolicies**](chain-applicationpolicies.md) | Returns an [**OIDs**](oids.md) collection that represents the application policy OIDs valid for the chain.<br/> (Inherited from **ChainIChain2**)                                                                                                                                                          |
-| [**Build**](chain-build.md)                             | Builds a certificate verification chain from an end certificate to the trusted [*root certificate*](https://www.bing.com/search?q=*root certificate*), returning a Boolean value that indicates the overall validity of the chain.<br/> (Inherited from **ChainIChain2IChain**) |
+| [**Build**](chain-build.md)                             | Builds a certificate verification chain from an end certificate to the trusted [*root certificate*](security.r_gly#-security-root-certificate-gly), returning a Boolean value that indicates the overall validity of the chain.<br/> (Inherited from **ChainIChain2IChain**) |
 | [**CertificatePolicies**](chain-certificatepolicies.md) | Returns an [**OIDs**](oids.md) collection that represents the certificate policy OIDs valid for the chain.<br/> (Inherited from **ChainIChain2**)                                                                                                                                                          |
 | [**ExtendedErrorInfo**](chain-extendederrorinfo.md)     | Returns a string that contains additional error information about the indexed entry.<br/> (Inherited from **ChainIChain2**)                                                                                                                                                                                 |
 

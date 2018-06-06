@@ -25,7 +25,7 @@ To set this attribute, call [**IMFAttributes::SetUnknown**](/windows/desktop/api
 
 ## Remarks
 
-For more information on DirectComposition, see [DirectComposition](https://msdn.microsoft.com/windows/desktop/40e2d02b-77e8-425f-ac5e-3dcddef08173) and [**IDCompositionVisual**](https://msdn.microsoft.com/windows/desktop/462dfc20-ad5a-425c-94b5-f21ab05f5af8).
+For more information on DirectComposition, see [DirectComposition](https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173) and [**IDCompositionVisual**](https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8).
 
 This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance) method to initialize the Media Engine.
 

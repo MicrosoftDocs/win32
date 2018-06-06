@@ -43,11 +43,11 @@ typedef struct D3DLIGHT9 {
 **Type**
 </dt> <dd>
 
-Type: **[**D3DLIGHTTYPE**](https://msdn.microsoft.com/windows/desktop/90ad82d3-ffa8-42bb-9d9c-cf28a416c32d)**
+Type: **[**D3DLIGHTTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dlighttype.htm)**
 
 </dd> <dd>
 
-Type of the light source. This value is one of the members of the [**D3DLIGHTTYPE**](https://msdn.microsoft.com/windows/desktop/90ad82d3-ffa8-42bb-9d9c-cf28a416c32d) enumerated type.
+Type of the light source. This value is one of the members of the [**D3DLIGHTTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dlighttype.htm) enumerated type.
 
 </dd> <dt>
 

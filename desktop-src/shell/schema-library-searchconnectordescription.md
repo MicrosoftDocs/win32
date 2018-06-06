@@ -95,7 +95,7 @@ The &lt;searchConnectorDescription&gt; element is the top level container elemen
 
 ## Element Information
 
-Refer to the schema documentation in [Windows Search](https://www.bing.com/search?q=Windows Search)
+Refer to the schema documentation in [Windows Search](https://www.bing.com/search?q=Windows+Search)
 
 
 
@@ -147,7 +147,7 @@ The &lt;searchConnectorDescription&gt; element of a library uses the same schema
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[Search Connector Description Schema](https://www.bing.com/search?q=Search Connector Description Schema)
+[Search Connector Description Schema](https://www.bing.com/search?q=Search+Connector+Description+Schema)
 </dt> </dl>
 
  

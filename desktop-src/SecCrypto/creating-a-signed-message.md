@@ -18,11 +18,11 @@ The following illustration depicts the tasks that must be accomplished to create
 **To create a signed message**
 
 1.  Create the data (if necessary) and get a pointer to it.
-2.  Open a [*certificate store*](https://www.bing.com/search?q=*certificate store*) that contains the signer's certificate.
-3.  Get the [*private key*](https://www.bing.com/search?q=*private key*) for the certificate. A property must be set on the certificate before using it, to tie a certificate to a particular [*CSP*](https://www.bing.com/search?q=*CSP*), and, within that CSP, to a particular private key. This needs to be set once.
+2.  Open a [*certificate store*](security.c_gly#-security-certificate-store-gly) that contains the signer's certificate.
+3.  Get the [*private key*](security.p_gly#-security-private-key-gly) for the certificate. A property must be set on the certificate before using it, to tie a certificate to a particular [*CSP*](security.c_gly#-security-csp-gly), and, within that CSP, to a particular private key. This needs to be set once.
 4.  Choose a hashing algorithm for the digest operation. We recommend that the hashing algorithm be selected from a configurable location that can be subsequently updated without requiring changes to code.
-5.  Send the data through the hashing function by using the hashing algorithm, thus creating a [*hash*](https://www.bing.com/search?q=*hash*) (digest) of the data.
-6.  Using the [*private key*](https://www.bing.com/search?q=*private key*) obtained through the property on the certificate, encrypt the digest, creating the signature.
+5.  Send the data through the hashing function by using the hashing algorithm, thus creating a [*hash*](security.h_gly#-security-hash-gly) (digest) of the data.
+6.  Using the [*private key*](security.p_gly#-security-private-key-gly) obtained through the property on the certificate, encrypt the digest, creating the signature.
 7.  Include the following in the signed message:
 
     -   The signed data

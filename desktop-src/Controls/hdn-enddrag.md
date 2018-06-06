@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # HDN\_ENDDRAG notification code
 
-Sent by a header control when a drag operation has ended on one of its items. This notification code is sent as a [**WM\_NOTIFY**](wm-notify.md) message. Only header controls that are set to the [**HDS\_DRAGDROP**](https://www.bing.com/search?q=**HDS\_DRAGDROP**) style send this notification code.
+Sent by a header control when a drag operation has ended on one of its items. This notification code is sent as a [**WM\_NOTIFY**](wm-notify.md) message. Only header controls that are set to the [**HDS\_DRAGDROP**](header-control-styles.md#hds-dragdrop) style send this notification code.
 
 
 ```C++

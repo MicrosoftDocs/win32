@@ -41,7 +41,7 @@ The following procedure describes how to create your own permanent event consume
 
 2.  [Implement a physical consumer](implementing-a-physical-consumer.md).
 
-    The main difference between a management application and a [*physical consumer*](https://www.bing.com/search?q=*physical consumer*) is that a user loads and unloads a management application, whereas WMI loads and unloads a physical consumer. Most of your coding should be in the physical consumer.
+    The main difference between a management application and a [*physical consumer*](gloss-p.md#wmi-gloss-physical-consumer) is that a user loads and unloads a management application, whereas WMI loads and unloads a physical consumer. Most of your coding should be in the physical consumer.
 
     > [!Note]  
     > This step is first in the procedure for ease of explanation. In terms of coding, you should actually create the physical consumer last. That way you can lay out your parameters and logic for your permanent event provider before you start lengthy coding. However, there is no restriction against writing the physical consumer first.
@@ -54,11 +54,11 @@ The following procedure describes how to create your own permanent event consume
 
 4.  [Create an instance of the consumer class](creating-a-logical-consumer.md).
 
-    Like any other WMI class, you must create an instance of the consumer class if you want to implement the class. An instance of a consumer class is also known as a [*logical consumer*](https://www.bing.com/search?q=*logical consumer*). The logical consumer represents the physical consumer to WMI.
+    Like any other WMI class, you must create an instance of the consumer class if you want to implement the class. An instance of a consumer class is also known as a [*logical consumer*](gloss-l.md#wmi-gloss-logical-consumer). The logical consumer represents the physical consumer to WMI.
 
 5.  [Create an event filter](creating-an-event-filter.md).
 
-    The event queries that activate permanent event consumers are called [*event filters*](https://www.bing.com/search?q=*event filters*). A single event filter can be associated with multiple logical event consumers. Furthermore, multiple event filters can be associated with a single logical event consumer. The filter is an instance of [**\_\_EventFilter**](--eventfilter.md).
+    The event queries that activate permanent event consumers are called [*event filters*](gloss-e.md#wmi-gloss-event-filter). A single event filter can be associated with multiple logical event consumers. Furthermore, multiple event filters can be associated with a single logical event consumer. The filter is an instance of [**\_\_EventFilter**](--eventfilter.md).
 
     An NT Log event is generated when a permanent event consumer's query fails. The event's source is WinMgmt, the event ID is 10, and the event type is Error.
 

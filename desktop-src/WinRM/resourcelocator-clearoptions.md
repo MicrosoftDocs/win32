@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 
 # ResourceLocator.ClearOptions method
 
-Removes any [*options*](https://www.bing.com/search?q=*options*) from the [**ResourceLocator**](resourcelocator.md) object. You can provide a [**ResourceLocator**](resourcelocator.md) object instead of specifying a resource URI in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
+Removes any [*options*](windows-remote-management-glossary.md#winrm-gloss-option) from the [**ResourceLocator**](resourcelocator.md) object. You can provide a [**ResourceLocator**](resourcelocator.md) object instead of specifying a resource URI in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
 
 ## Syntax
 

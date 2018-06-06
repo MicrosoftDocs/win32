@@ -18,11 +18,11 @@ ms.date: 05/31/2018
 
 \[This function is available through Windows XP with SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
-\[[**CharLowerWrapW**](charlowerwrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharLowerW**](https://msdn.microsoft.com/windows/desktop/b67786aa-d629-4d23-b4cb-efb43282ca02) in its place.\]
+\[[**CharLowerWrapW**](charlowerwrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharLowerW**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charlower.htm) in its place.\]
 
-\[[**CharUpperBuffWrapW**](charupperbuffwrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharUpperBuffW**](https://msdn.microsoft.com/windows/desktop/774619cf-ed37-4342-b265-8125693fede5) in its place.\]
+\[[**CharUpperBuffWrapW**](charupperbuffwrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharUpperBuffW**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupperbuff.htm) in its place.\]
 
-\[[**CompareStringWrapW**](comparestringwrapw.md) is available for use in Windows XP. It will not be available in subsequent versions. You should use [**CompareStringW**](https://msdn.microsoft.com/windows/desktop/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e) in its place.\]
+\[[**CompareStringWrapW**](comparestringwrapw.md) is available for use in Windows XP. It will not be available in subsequent versions. You should use [**CompareStringW**](https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e) in its place.\]
 
 \[This function is available through Windows XP and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
@@ -34,43 +34,43 @@ ms.date: 05/31/2018
 
 \[ [**DAD\_AutoScroll**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions.\]
 
-\[ [**DAD\_DragEnterEx**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragEnter**](https://msdn.microsoft.com/windows/desktop/e12d7dc5-75a0-4537-bfb7-071ff8dfe7d5) instead. \]
+\[ [**DAD\_DragEnterEx**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragEnter**](https://msdn.microsoft.com/VS|Controls|~\controls\imagelist\functions\imagelist_dragenter.htm) instead. \]
 
-\[ [**DAD\_DragEnterEx2**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex2) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragEnter**](https://msdn.microsoft.com/windows/desktop/e12d7dc5-75a0-4537-bfb7-071ff8dfe7d5) instead.\]
+\[ [**DAD\_DragEnterEx2**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex2) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragEnter**](https://msdn.microsoft.com/VS|Controls|~\controls\imagelist\functions\imagelist_dragenter.htm) instead.\]
 
-\[ [**DAD\_DragLeave**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragleave) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragLeave**](https://msdn.microsoft.com/windows/desktop/87249df7-1489-4a70-8ed7-92c926a22edf) instead.\]
+\[ [**DAD\_DragLeave**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragleave) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragLeave**](https://msdn.microsoft.com/VS|Controls|~\controls\imagelist\functions\imagelist_dragleave.htm) instead.\]
 
-\[ [**DAD\_DragMove**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragmove) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragMove**](https://msdn.microsoft.com/windows/desktop/a7d7fcd4-ba03-43ba-ae37-df8d4173c64d) instead. \]
+\[ [**DAD\_DragMove**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragmove) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragMove**](https://msdn.microsoft.com/VS|Controls|~\controls\imagelist\functions\imagelist_dragmove.htm) instead. \]
 
-\[ [**DAD\_SetDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_setdragimage) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_BeginDrag**](https://msdn.microsoft.com/windows/desktop/5b262b32-5ec2-4f19-8a76-4c318aec7dc7) instead.\]
+\[ [**DAD\_SetDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_setdragimage) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_BeginDrag**](https://msdn.microsoft.com/VS|Controls|~\controls\imagelist\functions\imagelist_begindrag.htm) instead.\]
 
-\[ [**DAD\_ShowDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_showdragimage) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragShowNolock**](https://msdn.microsoft.com/windows/desktop/b4e4c1c0-21b4-4eb0-b38e-375eb5195816) instead. \]
+\[ [**DAD\_ShowDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_showdragimage) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragShowNolock**](https://msdn.microsoft.com/VS|Controls|~\controls\imagelist\functions\imagelist_dragshownolock.htm) instead. \]
 
-\[This function is retained only for backward compatibility. Use [**ExpandEnvironmentStrings**](https://msdn.microsoft.com/windows/desktop/b563e8ed-311d-4971-94f3-9c9fde4a2f30) instead.\]
+\[This function is retained only for backward compatibility. Use [**ExpandEnvironmentStrings**](https://msdn.microsoft.com/b563e8ed-311d-4971-94f3-9c9fde4a2f30) instead.\]
 
 \[This function is available through Windows XP with SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. \]
 
 \[This function is available on Windows XP with SP2 through Windows Vista. It might be altered or unavailable in subsequent versions of Windows. Client applications instead should use [**IAttachmentExecute**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute) to present a user environment that provides safe download and exchange of files through email and messaging attachments.\]
 
-\[[**FindResourceWrapW**](findresourcewrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**FindResourceW**](https://msdn.microsoft.com/windows/desktop/00f14551-5381-4499-a13a-86f15dd4e618) instead.\]
+\[[**FindResourceWrapW**](findresourcewrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**FindResourceW**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\findresource.htm) instead.\]
 
-\[[**GetDateFormatWrapW**](getdateformatwrapw.md) is available for use in Windows XP. It will not be available in subsequent versions. You should use [**GetDateFormatW**](https://msdn.microsoft.com/windows/desktop/546cede1-1702-403a-bba3-b5cd3b35a1bf) in its place.\]
-
-\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
-
-\[[**GetTimeFormatWrapW**](gettimeformatwrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**GetTimeFormatW**](https://msdn.microsoft.com/windows/desktop/3db91d29-df97-4660-b3cd-0db5b42cfd01) in its place.\]
-
-\[ [**GUIDFromString**](guidfromstring.md) is available through Windows XP with SP2 or Windows Vista. It might be altered or unavailable in subsequent versions. Applications should use [**CLSIDFromString**](https://msdn.microsoft.com/windows/desktop/36cc9037-480f-491f-a9bb-5aa1e707781e) or [**IIDFromString**](https://msdn.microsoft.com/windows/desktop/7fa72a65-68f8-438e-8a0c-6e0e0208420d) in place of this function.\]
+\[[**GetDateFormatWrapW**](getdateformatwrapw.md) is available for use in Windows XP. It will not be available in subsequent versions. You should use [**GetDateFormatW**](https://msdn.microsoft.com/546cede1-1702-403a-bba3-b5cd3b35a1bf) in its place.\]
 
 \[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
-\[[**IsCharAlphaNumericWrapW**](ischaralphanumericwrapw.md) is available for use in Windows XP. It will not be available in subsequent versions. You should use [**IsCharAlphaNumericW**](https://msdn.microsoft.com/windows/desktop/5c77d035-cef6-4d63-af53-3e5e32a58ed1) in its place.\]
+\[[**GetTimeFormatWrapW**](gettimeformatwrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**GetTimeFormatW**](https://msdn.microsoft.com/3db91d29-df97-4660-b3cd-0db5b42cfd01) in its place.\]
 
-\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**GetDriveType**](https://msdn.microsoft.com/windows/desktop/b3989a3f-fc90-4ea0-8d3e-8e57068a08bc) or [**WNetGetConnection**](https://msdn.microsoft.com/windows/desktop/72d84752-4e64-4c16-872b-cb892dffbf9a) instead.\]
+\[ [**GUIDFromString**](guidfromstring.md) is available through Windows XP with SP2 or Windows Vista. It might be altered or unavailable in subsequent versions. Applications should use [**CLSIDFromString**](https://msdn.microsoft.com/36cc9037-480f-491f-a9bb-5aa1e707781e) or [**IIDFromString**](https://msdn.microsoft.com/7fa72a65-68f8-438e-8a0c-6e0e0208420d) in place of this function.\]
+
+\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
+
+\[[**IsCharAlphaNumericWrapW**](ischaralphanumericwrapw.md) is available for use in Windows XP. It will not be available in subsequent versions. You should use [**IsCharAlphaNumericW**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischaralphanumeric.htm) in its place.\]
+
+\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**GetDriveType**](https://msdn.microsoft.com/b3989a3f-fc90-4ea0-8d3e-8e57068a08bc) or [**WNetGetConnection**](https://msdn.microsoft.com/72d84752-4e64-4c16-872b-cb892dffbf9a) instead.\]
 
 \[This interface is supported through Windows XP SP2 and Windows Server 2003. It might be unsupported in subsequent versions of Windows.\]
 
-\[This function is available through Windows XP with SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**InitCommonControlsEx**](https://msdn.microsoft.com/windows/desktop/a0ca2152-673e-4920-ae78-1421fdec1a05) instead.\]
+\[This function is available through Windows XP with SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**InitCommonControlsEx**](https://msdn.microsoft.com/VS|Controls|~\controls\common\functions\initcommoncontrolsex.htm) instead.\]
 
 \[This function is available through Windows XP with SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
@@ -82,7 +82,7 @@ ms.date: 05/31/2018
 
 \[This function is available through Windows XP and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
-\[This function is available for use in Windows XP. It may not be available in subsequent versions. Use [**OutputDebugStringW**](https://msdn.microsoft.com/windows/desktop/ca23d9a9-65b7-4a36-bd09-857a6997f482) in its place.\]
+\[This function is available for use in Windows XP. It may not be available in subsequent versions. Use [**OutputDebugStringW**](https://msdn.microsoft.com/ca23d9a9-65b7-4a36-bd09-857a6997f482) in its place.\]
 
 \[The [**ParseField**](parsefield.md) function is currently expected to be available for use in the next version of the Microsoft Windows operating system. It might be altered or unavailable in subsequent versions.\]
 
@@ -98,7 +98,7 @@ ms.date: 05/31/2018
 
 \[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
-\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**CoTaskMemAlloc**](https://msdn.microsoft.com/windows/desktop/c4cb588d-9482-4f90-a92e-75b604540d5c) instead.\]
+\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**CoTaskMemAlloc**](https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c) instead.\]
 
 \[This function is available through Windows XP and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
@@ -106,13 +106,13 @@ ms.date: 05/31/2018
 
 \[This structure is not supported.\]
 
-\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**CLSIDFromString**](https://msdn.microsoft.com/windows/desktop/36cc9037-480f-491f-a9bb-5aa1e707781e) instead.\]
+\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**CLSIDFromString**](https://msdn.microsoft.com/36cc9037-480f-491f-a9bb-5aa1e707781e) instead.\]
 
 \[[**SHCreateProcessAsUserW**](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw) is not implemented under Windows XP or later systems.\]
 
 \[[**SHCreateProcessAsUserW**](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw) is no longer implemented in Windows XP or later versions.\]
 
-\[This function is deprecated. Use [**CreateClassMoniker**](https://msdn.microsoft.com/windows/desktop/9361b2c1-ef26-4225-92ff-e0bef0285bc4) instead. Note that the CLSID used in the call to **CreateClassMoniker** must be application-defined. Do not call **CreateClassMoniker** with a system-defined CLSID.\]
+\[This function is deprecated. Use [**CreateClassMoniker**](https://msdn.microsoft.com/9361b2c1-ef26-4225-92ff-e0bef0285bc4) instead. Note that the CLSID used in the call to **CreateClassMoniker** must be application-defined. Do not call **CreateClassMoniker** with a system-defined CLSID.\]
 
 \[ [**SHDestroyPropSheetExtArray**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shdestroypropsheetextarray) is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
@@ -120,9 +120,9 @@ ms.date: 05/31/2018
 
 \[ [**SHExtractIconsW**](shextracticonsw.md) is available through Windows XP SP2. It might be altered or unavailable in subsequent versions.\]
 
-\[This function is available through Windows XP SP2 and Windows Server 2003. It is not supported under Windows Vista and later. Use [**OleFlushClipboard**](https://msdn.microsoft.com/windows/desktop/18291a91-be7d-42ec-a44a-d1bbfb017c6e) instead.\]
+\[This function is available through Windows XP SP2 and Windows Server 2003. It is not supported under Windows Vista and later. Use [**OleFlushClipboard**](https://msdn.microsoft.com/18291a91-be7d-42ec-a44a-d1bbfb017c6e) instead.\]
 
-\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**CoTaskMemFree**](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) instead.\]
+\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**CoTaskMemFree**](https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) instead.\]
 
 \[This function is available through Windows XP and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
@@ -275,7 +275,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>Converts a Unicode character string or a single character to lowercase. If the operand is a character string, the function converts the characters in place. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>CharLowerWrapW</strong>](charlowerwrapw.md) is a wrapper for the <strong>CharLowerW</strong> function. See the [<strong>CharLower</strong>](https://msdn.microsoft.com/windows/desktop/b67786aa-d629-4d23-b4cb-efb43282ca02) page for further usage notes.
+[<strong>CharLowerWrapW</strong>](charlowerwrapw.md) is a wrapper for the <strong>CharLowerW</strong> function. See the [<strong>CharLower</strong>](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charlower.htm) page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -284,7 +284,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>Converts lowercase characters in a buffer to uppercase characters. The function converts the characters in place. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>CharUpperBuffWrapW</strong>](charupperbuffwrapw.md) is a wrapper for the <strong>CharUpperBuffW</strong> function. See the [<strong>CharUpperBuff</strong>](https://msdn.microsoft.com/windows/desktop/774619cf-ed37-4342-b265-8125693fede5) page for further usage notes.
+[<strong>CharUpperBuffWrapW</strong>](charupperbuffwrapw.md) is a wrapper for the <strong>CharUpperBuffW</strong> function. See the [<strong>CharUpperBuff</strong>](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupperbuff.htm) page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -297,7 +297,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>Compares two Unicode character strings, using a specified locale. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>CompareStringWrapW</strong>](comparestringwrapw.md) is a wrapper for the <strong>CompareStringW</strong> function. See the [<strong>CompareString</strong>](https://msdn.microsoft.com/windows/desktop/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e) page for further usage notes.
+[<strong>CompareStringWrapW</strong>](comparestringwrapw.md) is a wrapper for the <strong>CompareStringW</strong> function. See the [<strong>CompareString</strong>](https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e) page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -370,7 +370,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>Determines the location of a resource with the specified type and name, in the specified module. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>FindResourceWrapW</strong>](findresourcewrapw.md) is a wrapper for the <strong>FindResourceW</strong> function. See [<strong>FindResource</strong>](https://msdn.microsoft.com/windows/desktop/00f14551-5381-4499-a13a-86f15dd4e618) for further usage notes.
+[<strong>FindResourceWrapW</strong>](findresourcewrapw.md) is a wrapper for the <strong>FindResourceW</strong> function. See [<strong>FindResource</strong>](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\findresource.htm) for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -379,7 +379,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>Formats a date as a date string for a specified locale. The function formats either a specified date or the local system date. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>GetDateFormatWrapW</strong>](getdateformatwrapw.md) is a wrapper for the <strong>GetDateFormatW</strong> function. See the [<strong>GetDateFormat</strong>](https://msdn.microsoft.com/windows/desktop/546cede1-1702-403a-bba3-b5cd3b35a1bf) page for further usage notes.
+[<strong>GetDateFormatWrapW</strong>](getdateformatwrapw.md) is a wrapper for the <strong>GetDateFormatW</strong> function. See the [<strong>GetDateFormat</strong>](https://msdn.microsoft.com/546cede1-1702-403a-bba3-b5cd3b35a1bf) page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -396,7 +396,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>Formats time as a time string for a specified locale. The function formats either a specified time or the local system time. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>GetTimeFormatWrapW</strong>](gettimeformatwrapw.md) is a wrapper for the <strong>GetTimeFormatW</strong> function. See the [<strong>GetTimeFormat</strong>](https://msdn.microsoft.com/windows/desktop/3db91d29-df97-4660-b3cd-0db5b42cfd01) page for further usage notes.
+[<strong>GetTimeFormatWrapW</strong>](gettimeformatwrapw.md) is a wrapper for the <strong>GetTimeFormatW</strong> function. See the [<strong>GetTimeFormat</strong>](https://msdn.microsoft.com/3db91d29-df97-4660-b3cd-0db5b42cfd01) page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -425,7 +425,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>Determines whether a character is either an alphabetical or a numeric character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel. <br/>
 <blockquote>
 [!Note]<br />
-[<strong>IsCharAlphaNumericWrapW</strong>](ischaralphanumericwrapw.md) is a wrapper for the <strong>IsCharAlphaNumericW</strong> function. See the [<strong>IsCharAlphaNumeric</strong>](https://msdn.microsoft.com/windows/desktop/5c77d035-cef6-4d63-af53-3e5e32a58ed1) page for further usage notes.
+[<strong>IsCharAlphaNumericWrapW</strong>](ischaralphanumericwrapw.md) is a wrapper for the <strong>IsCharAlphaNumericW</strong> function. See the [<strong>IsCharAlphaNumeric</strong>](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischaralphanumeric.htm) page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -478,7 +478,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>Sends a Unicode string to the debugger for display.<br/>
 <blockquote>
 [!Note]<br />
-[<strong>OutputDebugStringWrapW</strong>](outputdebugstringwrapw.md) is a wrapper for the <strong>OutputDebugStringW</strong> function. See the [<strong>OutputDebugString</strong>](https://msdn.microsoft.com/windows/desktop/ca23d9a9-65b7-4a36-bd09-857a6997f482) page for further usage notes.
+[<strong>OutputDebugStringWrapW</strong>](outputdebugstringwrapw.md) is a wrapper for the <strong>OutputDebugStringW</strong> function. See the [<strong>OutputDebugString</strong>](https://msdn.microsoft.com/ca23d9a9-65b7-4a36-bd09-857a6997f482) page for further usage notes.
 </blockquote>
 <br/></td>
 </tr>
@@ -536,11 +536,11 @@ The following APIs are either deprecated or superseded by newer APIs.
 </tr>
 <tr class="even">
 <td>[<strong>RestartDialog</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-restartdialog)<br/></td>
-<td>Displays a dialog box that prompts the user to restart Windows. When the user clicks the button, the function calls [<strong>ExitWindowsEx</strong>](https://msdn.microsoft.com/windows/desktop/f44ccb66-10bd-4ee6-93e1-16948cf10e50) to attempt to restart Windows.<br/></td>
+<td>Displays a dialog box that prompts the user to restart Windows. When the user clicks the button, the function calls [<strong>ExitWindowsEx</strong>](https://msdn.microsoft.com/f44ccb66-10bd-4ee6-93e1-16948cf10e50) to attempt to restart Windows.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>RestartDialogEx</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-restartdialogex)<br/></td>
-<td>Displays a dialog box that asks the user to restart Windows. When the user clicks the button, the function calls [<strong>ExitWindowsEx</strong>](https://msdn.microsoft.com/windows/desktop/f44ccb66-10bd-4ee6-93e1-16948cf10e50) to attempt to restart Windows.<br/></td>
+<td>Displays a dialog box that asks the user to restart Windows. When the user clicks the button, the function calls [<strong>ExitWindowsEx</strong>](https://msdn.microsoft.com/f44ccb66-10bd-4ee6-93e1-16948cf10e50) to attempt to restart Windows.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SHAddFromPropSheetExtArray</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddfrompropsheetextarray)<br/></td>
@@ -567,7 +567,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 <td>[<strong>SHChangeDWORDAsIDList</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangedwordasidlist) may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHChangeProductKeyAsIDList</strong>](https://msdn.microsoft.com/windows/desktop/98aba08d-518c-4ff9-af3d-c9a92b6fe5ab)<br/></td>
+<td>[<strong>SHChangeProductKeyAsIDList</strong>](https://msdn.microsoft.com/98aba08d-518c-4ff9-af3d-c9a92b6fe5ab)<br/></td>
 
 </tr>
 <tr class="odd">
@@ -584,7 +584,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 </tr>
 <tr class="even">
 <td>[<strong>SHCoCreateInstance</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcocreateinstance)<br/></td>
-<td>[<strong>SHCoCreateInstance</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcocreateinstance) may be altered or unavailable. Instead, use [<strong>CoCreateInstance</strong>](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec).<br/></td>
+<td>[<strong>SHCoCreateInstance</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcocreateinstance) may be altered or unavailable. Instead, use [<strong>CoCreateInstance</strong>](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec).<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>SHCreateDirectory</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectory)<br/></td>
@@ -656,7 +656,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 </tr>
 <tr class="even">
 <td>[<strong>SHFlushClipboard</strong>](/windows/desktop/api/Shlobj/)<br/></td>
-<td>Carries out the clipboard shutdown sequence. It also releases the [<strong>IDataObject</strong>](https://msdn.microsoft.com/windows/desktop/8a002deb-2727-456c-8078-a9b0d5893ed4) pointer placed on the clipboard by the [<strong>OleSetClipboard</strong>](https://msdn.microsoft.com/windows/desktop/741def10-d2b5-4395-8049-1eba2e29b0e8) function. <br/></td>
+<td>Carries out the clipboard shutdown sequence. It also releases the [<strong>IDataObject</strong>](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4) pointer placed on the clipboard by the [<strong>OleSetClipboard</strong>](https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8) function. <br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>SHFlushSFCache</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shflushsfcache)<br/></td>
@@ -705,7 +705,7 @@ As of Windows Vista, this function is merely a wrapper for [<strong>SHGetKnownF
 </tr>
 <tr class="odd">
 <td>[<strong>SHGetMalloc</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetmalloc)<br/></td>
-<td>Retrieves a pointer to the Shell's [<strong>IMalloc</strong>](https://msdn.microsoft.com/windows/desktop/047f281e-2665-4d6d-9a0b-918cd3339447) interface. <br/></td>
+<td>Retrieves a pointer to the Shell's [<strong>IMalloc</strong>](https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447) interface. <br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SHGetRealIDL</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetrealidl)<br/></td>
@@ -962,17 +962,17 @@ This function has been replaced by [<strong>SHOpenRegStream2</strong>](/windows/
 <td>Exposes methods that enable the addition of custom columns in the Windows Explorer Details view. <br/>
 <blockquote>
 [!Note]<br />
-Support for [<strong>IColumnProvider</strong>](/windows/desktop/api/Shlobj/) has been removed as of Windows Vista. The Windows property system is used in its place. See [Windows Property System](https://www.bing.com/search?q=Windows Property System) for conceptual materials that explain the use of the new system.
+Support for [<strong>IColumnProvider</strong>](/windows/desktop/api/Shlobj/) has been removed as of Windows Vista. The Windows property system is used in its place. See [Windows Property System](https://www.bing.com/search?q=Windows+Property+System) for conceptual materials that explain the use of the new system.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IContextMenuSite</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenusite)<br/></td>
-<td>Implemented by the default folder view created using [<strong>SHCreateShellFolderView</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview). An implementation of [<strong>IContextMenuSite</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenusite) supports [<strong>IContextMenu::QueryContextMenu</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu), [<strong>IContextMenu::InvokeCommand</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand), and [<strong>TrackPopupMenu</strong>](https://msdn.microsoft.com/windows/desktop/2e1e4648-e3fd-4d9a-a558-de7b030e3d75) and any message forwarding necessary for that function. <strong>IContextMenuSite</strong> typically updates the status bar as well.<br/></td>
+<td>Implemented by the default folder view created using [<strong>SHCreateShellFolderView</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview). An implementation of [<strong>IContextMenuSite</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenusite) supports [<strong>IContextMenu::QueryContextMenu</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu), [<strong>IContextMenu::InvokeCommand</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand), and [<strong>TrackPopupMenu</strong>](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\trackpopupmenu.htm) and any message forwarding necessary for that function. <strong>IContextMenuSite</strong> typically updates the status bar as well.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>IDefViewFrame</strong>](/windows/desktop/api/Shlobj/)<br/></td>
-<td>Used only for its [<strong>IUnknown</strong>](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) functionality. It has no methods of its own.<br/></td>
+<td>Used only for its [<strong>IUnknown</strong>](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) functionality. It has no methods of its own.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IDefViewID</strong>](/windows/desktop/api/Shlguid/)<br/></td>
@@ -1062,7 +1062,7 @@ You should use [thumbnail toolbars](taskbar-extensions.md) in new development in
 </tr>
 <tr class="even">
 <td>[<strong>IRegTreeItem</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iregtreeitem)<br/></td>
-<td>Exposes methods that retrieve and set the state of items in a tree-view control that have the [<strong>Tree-View Control Window Styles</strong>](https://www.bing.com/search?q=<strong>Tree-View Control Window Styles</strong>) flag set.<br/></td>
+<td>Exposes methods that retrieve and set the state of items in a tree-view control that have the [<strong>Tree-View Control Window Styles</strong>](https://www.bing.com/search?q=<strong>Tree-View+Control+Window+Styles</strong>) flag set.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IShellExecuteHook</strong>](/windows/desktop/api/Shlobj_core/)<br/></td>

@@ -22,7 +22,7 @@ The most common use of the GINA is to communicate with an external device such a
 
 The purpose of a GINA DLL is to provide customizable user identification and authentication procedures. The default GINA does this by delegating SAS event monitoring to Winlogon, which receives and processes CTL+ALT+DEL [*secure attention sequences*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-secure-attention-sequence-gly) (SASs). A custom GINA is responsible for setting itself up to receive SAS events (other than the default CTRL+ALT+DEL SAS event) and notifying Winlogon when SAS events occur. Winlogon will evaluate its state to determine what is required to process the custom GINA's SAS. This processing usually includes calls to the GINA's SAS processing functions.
 
-For information about specific GINA export functions, see [GINA Export Functions](https://www.bing.com/search?q=GINA Export Functions). For information about using GINA structures to pass information, see [GINA Structures](https://www.bing.com/search?q=GINA Structures).
+For information about specific GINA export functions, see [GINA Export Functions](authentication-functions.md#gina-export-functions). For information about using GINA structures to pass information, see [GINA Structures](authentication-structures.md#gina-structures).
 
 
 

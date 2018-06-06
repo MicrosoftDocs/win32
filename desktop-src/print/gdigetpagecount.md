@@ -49,7 +49,7 @@ The **GdiGetPageCount** function is exported by gdi32.dll for use within a print
 
  
 
-For additional information about this set of functions, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using GDI Functions in Print Processors).
+For additional information about this set of functions, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using+GDI+Functions+in+Print+Processors).
 
 ## Requirements
 

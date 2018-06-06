@@ -36,7 +36,7 @@ The default range for each field is 0 to 255, but the application can set the ra
 
 Before creating an IP address control, call [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) with the **ICC\_INTERNET\_CLASSES** flag set in the **dwICC** member of the [**INITCOMMONCONTROLSEX**](/windows/desktop/api/Commctrl/ns-commctrl-taginitcommoncontrolsex) structure.
 
-Use the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create an IP address control. The class name for the control is [**WC\_IPADDRESS**](https://www.bing.com/search?q=**WC\_IPADDRESS**), which is defined in Commctrl.h. No IP address control-specific styles exist; however, because this is a child control, use the [**WS\_CHILD**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-child) style as a minimum.
+Use the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function to create an IP address control. The class name for the control is [**WC\_IPADDRESS**](common-control-window-classes.md#wc-ipaddress), which is defined in Commctrl.h. No IP address control-specific styles exist; however, because this is a child control, use the [**WS\_CHILD**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-child) style as a minimum.
 
 ## Is an IP Address Control an Edit Control?
 

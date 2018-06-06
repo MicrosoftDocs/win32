@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # How to animate the bitmap of a layered child window
 
-This topic describes how to create and animate a visual that uses the bitmap of a layered child window as the visual's content. The example described in this topic uses an animated scale transformation to "grow" the bitmap of a child window from thumb size to full size. For more information about layered windows, see [Window Bitmaps](https://www.bing.com/search?q=Window Bitmaps).
+This topic describes how to create and animate a visual that uses the bitmap of a layered child window as the visual's content. The example described in this topic uses an animated scale transformation to "grow" the bitmap of a child window from thumb size to full size. For more information about layered windows, see [Window Bitmaps](bitmap-surfaces.md#window-bitmaps).
 
 ## What you need to know
 

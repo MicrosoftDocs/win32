@@ -36,7 +36,7 @@ HRESULT D3DXSHPRTCompSuperCluster(
 *pClusterIDs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to a NumVerts cluster IDs (extracted from a compressed buffer.)
 
@@ -54,7 +54,7 @@ Pointer to a mesh that represents composite scene passed to the simulator. See [
 *MaxNumClusters* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Maximum number of clusters allocated per super cluster.
 
@@ -63,7 +63,7 @@ Maximum number of clusters allocated per super cluster.
 *NumClusters* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of clusters computed in the simulator.
 
@@ -72,7 +72,7 @@ Number of clusters computed in the simulator.
 *pSClusterIDs* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to an array of length *NumClusters*. Contains the index of the super cluster to which the corresponding cluster was assigned.
 
@@ -81,7 +81,7 @@ Pointer to an array of length *NumClusters*. Contains the index of the super clu
 *pNumSCs* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Number of super clusters allocated.
 

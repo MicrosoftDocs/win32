@@ -121,7 +121,7 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <td>[<strong>D3DGetInputAndOutputSignatureBlob</strong>](d3dgetinputandoutputsignatureblob.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-[<strong>D3DGetInputAndOutputSignatureBlob</strong>](d3dgetinputandoutputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use [<strong>D3DGetBlobPart</strong>](d3dgetblobpart.md) with the [<strong>D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</strong>](https://www.bing.com/search?q=<strong>D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</strong>) value.
+[<strong>D3DGetInputAndOutputSignatureBlob</strong>](d3dgetinputandoutputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use [<strong>D3DGetBlobPart</strong>](d3dgetblobpart.md) with the [<strong>D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</strong>](d3d-blob-part.md#d3d-blob-input-and-output-signature-blob) value.
 </blockquote>
 <br/> Gets the input and output signatures from a compilation result.<br/></td>
 </tr>
@@ -129,7 +129,7 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <td>[<strong>D3DGetInputSignatureBlob</strong>](d3dgetinputsignatureblob.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-[<strong>D3DGetInputSignatureBlob</strong>](d3dgetinputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use [<strong>D3DGetBlobPart</strong>](d3dgetblobpart.md) with the [<strong>D3D_BLOB_INPUT_SIGNATURE_BLOB</strong>](https://www.bing.com/search?q=<strong>D3D_BLOB_INPUT_SIGNATURE_BLOB</strong>) value.
+[<strong>D3DGetInputSignatureBlob</strong>](d3dgetinputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use [<strong>D3DGetBlobPart</strong>](d3dgetblobpart.md) with the [<strong>D3D_BLOB_INPUT_SIGNATURE_BLOB</strong>](d3d-blob-part.md#d3d-blob-input-signature-blob) value.
 </blockquote>
 <br/> Gets the input signature from a compilation result.<br/></td>
 </tr>
@@ -137,7 +137,7 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <td>[<strong>D3DGetOutputSignatureBlob</strong>](d3dgetoutputsignatureblob.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-[<strong>D3DGetOutputSignatureBlob</strong>](d3dgetoutputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use [<strong>D3DGetBlobPart</strong>](d3dgetblobpart.md) with the [<strong>D3D_BLOB_OUTPUT_SIGNATURE_BLOB</strong>](https://www.bing.com/search?q=<strong>D3D_BLOB_OUTPUT_SIGNATURE_BLOB</strong>) value.
+[<strong>D3DGetOutputSignatureBlob</strong>](d3dgetoutputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use [<strong>D3DGetBlobPart</strong>](d3dgetblobpart.md) with the [<strong>D3D_BLOB_OUTPUT_SIGNATURE_BLOB</strong>](d3d-blob-part.md#d3d-blob-output-signature-blob) value.
 </blockquote>
 <br/> Gets the output signature from a compilation result.<br/></td>
 </tr>

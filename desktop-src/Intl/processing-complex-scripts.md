@@ -17,10 +17,10 @@ Justification space or kashida should be inserted where identified by the **uJus
 
 The application does caret placement and hit testing by using [**ScriptXtoCP**](/windows/desktop/api/Usp10/nf-usp10-scriptxtocp) and [**ScriptCPtoX**](/windows/desktop/api/Usp10/nf-usp10-scriptcptox). For more information, see [Managing Caret Placement and Hit Testing](managing-caret-placement-and-hit-testing.md).
 
-To get widths in a font-independent manner, the application calls [**ScriptGetLogicalWidths**](/windows/desktop/api/Usp10/nf-usp10-scriptgetlogicalwidths). By passing the logical widths to [**ScriptApplyLogicalWidth**](/windows/desktop/api/Usp10/nf-usp10-scriptapplylogicalwidth), a block of text can be redisplayed in the same boundaries with acceptable loss of quality even when the original font is not available. It generates an array of glyph widths ([advance widths](https://www.bing.com/search?q=advance widths)) suitable for passing to [**ScriptTextOut**](/windows/desktop/api/Usp10/nf-usp10-scripttextout). Such recording and reapplying of advance width information in a font-independent manner can be useful in situations such as metafiling in an application defined format.
+To get widths in a font-independent manner, the application calls [**ScriptGetLogicalWidths**](/windows/desktop/api/Usp10/nf-usp10-scriptgetlogicalwidths). By passing the logical widths to [**ScriptApplyLogicalWidth**](/windows/desktop/api/Usp10/nf-usp10-scriptapplylogicalwidth), a block of text can be redisplayed in the same boundaries with acceptable loss of quality even when the original font is not available. It generates an array of glyph widths ([advance widths](uniscribe-glossary.md#advance-width)) suitable for passing to [**ScriptTextOut**](/windows/desktop/api/Usp10/nf-usp10-scripttextout). Such recording and reapplying of advance width information in a font-independent manner can be useful in situations such as metafiling in an application defined format.
 
 > [!Note]  
-> Metafiles do not support glyph indexes. To write to an enhanced metafile, the application should use [**ExtTextOut**](https://msdn.microsoft.com/windows/desktop/74f8fcb8-8ad4-47f2-a330-fa56713bdb37) and write the logical characters directly. Using this mechanism, the glyph generation and placement does not occur until the text is played back.
+> Metafiles do not support glyph indexes. To write to an enhanced metafile, the application should use [**ExtTextOut**](https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37) and write the logical characters directly. Using this mechanism, the glyph generation and placement does not occur until the text is played back.
 
  
 
@@ -28,7 +28,7 @@ To retrieve the specific glyphs that are used for the default, blanks, kashida, 
 
 The [**ScriptCacheGetHeight**](/windows/desktop/api/Usp10/nf-usp10-scriptcachegetheight) function returns the height of the font from the font cache. [**ScriptGetProperties**](/windows/desktop/api/Usp10/nf-usp10-scriptgetproperties) provides information on the special processing required for all the scripts, indexed by script. For example, it includes the primary language associated with the script, data indicating if the script is numeric, and data indicating if the script is a complex script.
 
-[**ScriptGetGlyphABCWidth**](/windows/desktop/api/Usp10/nf-usp10-scriptgetglyphabcwidth) returns the [ABC width](https://www.bing.com/search?q=ABC width) of a given glyph, which might be useful for drawing glyph charts. However, it should not be used for normal complex script text formatting.
+[**ScriptGetGlyphABCWidth**](/windows/desktop/api/Usp10/nf-usp10-scriptgetglyphabcwidth) returns the [ABC width](uniscribe-glossary.md#abc-width) of a given glyph, which might be useful for drawing glyph charts. However, it should not be used for normal complex script text formatting.
 
 ## Related Topics
 

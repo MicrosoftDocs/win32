@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Format Support for Direct3D Feature Level 10.0 Hardware
 
-This section specifies the formats ([**DXGI\_FORMAT**](https://msdn.microsoft.com/windows/desktop/dce61bc4-4ed5-4e64-84e8-6db88025e5c2) values) that are supported in Direct3D 10.0 hardware.
+This section specifies the formats ([**DXGI\_FORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\dxgi_format.htm) values) that are supported in Direct3D 10.0 hardware.
 
 The table summarizes the feature support, using the following key.
 
@@ -197,16 +197,16 @@ The purpose of the format can change from one hardware feature level to the next
 <sup>V</sup> : video format
 </dt> </dl>
 
-Back buffers and scan outs with the [**DXGI\_FORMAT\_R16G16B16A16\_FLOAT**](https://www.bing.com/search?q=**DXGI\_FORMAT\_R16G16B16A16\_FLOAT**) format contain linear-valued gamma data.
+Back buffers and scan outs with the [**DXGI\_FORMAT\_R16G16B16A16\_FLOAT**](direct3ddxgi.dxgi_format#dxgi-format-r16g16b16a16-float) format contain linear-valued gamma data.
 
 ## Related topics
 
 <dl> <dt>
 
-[D3D12 Hardware Feature Levels](https://msdn.microsoft.com/windows/desktop/B8304E29-A532-464E-8FAF-075228D8FB73)
+[D3D12 Hardware Feature Levels](https://msdn.microsoft.com/B8304E29-A532-464E-8FAF-075228D8FB73)
 </dt> <dt>
 
-[**ID3D10Device::CheckFormatSupport**](https://msdn.microsoft.com/windows/desktop/50b4fcbb-3c51-4027-b766-ea0590eb7766)
+[**ID3D10Device::CheckFormatSupport**](https://msdn.microsoft.com/VS|directx_sdk|~\id3d10device_checkformatsupport.htm)
 </dt> <dt>
 
 [Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)

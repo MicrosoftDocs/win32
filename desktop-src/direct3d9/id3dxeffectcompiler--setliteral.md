@@ -41,7 +41,7 @@ Unique identifier to a parameter. See [Handles (Direct3D 9)](handles.md).
 *Literal* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Set to **TRUE** to make the parameter a literal, and **FALSE** if the parameter can change value during the shader lifetime.
 

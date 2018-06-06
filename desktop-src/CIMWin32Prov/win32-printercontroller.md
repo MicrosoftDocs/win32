@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_PrinterController class
 
-The **Win32\_PrinterController** association [WMI class](https://msdn.microsoft.com/windows/desktop/cfe4bcca-692e-45cd-a840-93ebfe4ae267) relates a printer and the local device to which the printer is connected. Note that this class only returns instances for local printers.
+The **Win32\_PrinterController** association [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) relates a printer and the local device to which the printer is connected. Note that this class only returns instances for local printers.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -107,7 +107,7 @@ Data type: **CIM\_Controller**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e)
+Qualifiers: [**Key**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e)
 </dt> </dl>
 
 Reference to the [**CIM\_Controller**](cim-controller.md) instance representing the local device associated with this printer.
@@ -125,7 +125,7 @@ Data type: **Win32\_Printer**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e)
+Qualifiers: [**Key**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e)
 </dt> </dl>
 
 Reference to the [**Win32\_Printer**](win32-printer.md) instance representing the printer associated with the local device.
@@ -162,7 +162,7 @@ Speed in use between devices (when several bus or connection speeds are possible
 
 This property is inherited from [**CIM\_DeviceConnection**](cim-deviceconnection.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting in WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
 
 </dd> <dt>
 

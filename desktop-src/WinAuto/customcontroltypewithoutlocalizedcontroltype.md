@@ -31,10 +31,10 @@ Most screen readers read the localized control type to describe the element’s 
 
 <dl> <dt>
 
-[The LocalizedControlType Property](https://www.bing.com/search?q=The LocalizedControlType Property)
+[The LocalizedControlType Property](uiauto-controltypesoverview.md#the-localizedcontroltype-property)
 </dt> <dt>
 
-[**UIA\_LocalizedControlTypePropertyId**](https://www.bing.com/search?q=**UIA\_LocalizedControlTypePropertyId**)
+[**UIA\_LocalizedControlTypePropertyId**](uiauto-automation-element-propids.md#uia-localizedcontroltypepropertyid)
 </dt> </dl>
 
  

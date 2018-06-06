@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Register Parser callback function
 
-The **Register** export function must be implemented in all parser DLLs. The implementation of **Register** creates and fills-in a [*property database*](https://www.bing.com/search?q=*property database*) for a protocol. Network Monitor uses the database to determine which properties the protocol supports.
+The **Register** export function must be implemented in all parser DLLs. The implementation of **Register** creates and fills-in a [*property database*](p.md#-netmon-property-database-gly) for a protocol. Network Monitor uses the database to determine which properties the protocol supports.
 
 ## Syntax
 
@@ -46,7 +46,7 @@ Network Monitor starts calling the **Register** function as soon as a capture is
 The implementation of **Register** includes calls to the following functions.
 
 -   A call to the [CreatePropertyDatabase](createpropertydatabase.md) and [AddProperty](/windows/desktop/api/sql_1/nf-sql_1-sql_level_1_rpn_expression-addproperty) functions to create a database of all the properties that the protocol supports.
--   A call to the [CreateHandoffTable](createhandofftable.md) function is required if the protocol uses a [*handoff set*](https://www.bing.com/search?q=*handoff set*).
+-   A call to the [CreateHandoffTable](createhandofftable.md) function is required if the protocol uses a [*handoff set*](h.md#-netmon-handoff-set-gly).
 
 If the parser DLL contains multiple parsers, and the parser can detect more than one protocol, you must implement a **Register** function for each protocol.
 

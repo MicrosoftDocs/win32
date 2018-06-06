@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # User Account Control (UAC) Patching
 
-[*User Account Control*](https://www.bing.com/search?q=*User Account Control*) (UAC) patching enables the authors of Windows Installer installations to identify digitally-signed patches that can be applied in the future by non-administrator users.
+[*User Account Control*](u-gly.md#-msi-user-account-control-gly) (UAC) patching enables the authors of Windows Installer installations to identify digitally-signed patches that can be applied in the future by non-administrator users.
 
 If the digital signature does not match the certificate, Windows Vista displays a UAC dialog box requesting administrator authorization before installing the patch. On systems earlier than Windows Vista, the installer will not apply a signed patch that does not match the certificate.
 
@@ -26,7 +26,7 @@ If a non-administrator attempts to apply a patch to an application, and the foll
 -   The application was originally installed per-machine. For information about how to enable non-administrators to apply patches to per-user-managed applications after the patch has been approved as trusted by an administrator, see [Patching Per-User Managed Applications](patching-per-user-managed-applications.md).
 -   The [MsiPatchCertificate table](msipatchcertificate-table.md) is present in the Window Installer package (.msi file) and contains the information needed to enable UAC. The table and information may have been be included in the original installation package or added to the package by a Windows Installer patch file (.msp file).
 -   The patches are digitally signed by a certificate listed in the [MsiPatchCertificate table](msipatchcertificate-table.md). For more information about digital signature certificates, see [Digital Signatures and Windows Installer](digital-signatures-and-windows-installer.md).
--   The digital signature on the patch package can be verified against the certificate in the [MsiPatchCertificate table](msipatchcertificate-table.md). For more information about the use of digital signatures, digital certificates, and [**WinVerifyTrust**](https://msdn.microsoft.com/windows/desktop/b7efac6a-ac9f-477a-aada-63fe32208e6f), see the [Security](http://go.microsoft.com/fwlink/p/?LinkID=83879) section of the Microsoft Windows Software Development Kit (SDK).
+-   The digital signature on the patch package can be verified against the certificate in the [MsiPatchCertificate table](msipatchcertificate-table.md). For more information about the use of digital signatures, digital certificates, and [**WinVerifyTrust**](https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f), see the [Security](http://go.microsoft.com/fwlink/p/?LinkID=83879) section of the Microsoft Windows Software Development Kit (SDK).
 -   The signer certificate used to verify the digital signature on the patch package is valid and has not been revoked.
     > [!Note]  
     > Although you cannot sign a patch using an expired certificate, evaluation of a digital signature on a patch does not fail if the certificate has expired. Evaluation uses the current [MsiPatchCertificate table](msipatchcertificate-table.md), which consists of the MsiPatchCertificate table in the original package and any changes to the table by patches sequenced prior to the current one. A patch can add new certificates to the MsiPatchCertificate table to evaluate patches sequenced after the current patch. A revoked certificate is always rejected.

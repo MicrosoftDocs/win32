@@ -34,16 +34,16 @@ HRESULT Compress(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-One of the [**D3DXCOMPRESSION\_FLAGS**](https://msdn.microsoft.com/windows/desktop/41592b71-52ba-4727-a885-fb10fc23c5f8) values that define the compression mode used for storing compressed animation set data. D3DXCOMPRESS\_DEFAULT is the only value currently supported.
+One of the [**D3DXCOMPRESSION\_FLAGS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxcompression_flags.htm) values that define the compression mode used for storing compressed animation set data. D3DXCOMPRESS\_DEFAULT is the only value currently supported.
 
 </dd> <dt>
 
 *Lossiness* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Desired compression loss ratio, in the range from 0 to 1.
 

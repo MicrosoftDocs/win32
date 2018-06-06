@@ -45,7 +45,7 @@ Each of these functions should be managed by a separate MFT. A hardware MFT shou
 Hardware MFTs have the following general requirements:
 
 -   Hardware MFTs must use the new asynchronous processing model, as described in [Asynchronous MFTs](asynchronous-mfts.md).
--   Hardware MFTs must support dynamic format changes, as described in [Dynamic Format Changes](https://www.bing.com/search?q=Dynamic Format Changes).
+-   Hardware MFTs must support dynamic format changes, as described in [Dynamic Format Changes](basic-mft-processing-model.md#dynamic-format-changes).
 
 ## Hardware MFT Attributes
 
@@ -75,7 +75,7 @@ If two MFTs represent the same physical device, they can exchange data within th
 
 In the following diagram, the MFTs labeled "A" and "B" represent functional blocks within the same hardware. For example, in a transcoding scenario, "A" might represent a hardware decoder and "B" might represent a hardware encoder. The data flow between "A" and "B" occurs within the hardware. The MFT labeled "C" is a software MFT. Data flow from "B" to "C" uses system memory.
 
-![diagram showing boxes labeled a through c, and a hardware codec: a points to b and the codec, the codec points to b, and b points to c](https://www.bing.com/search?q=diagram showing boxes labeled a through c, and a hardware codec: a points to b and the codec, the codec points to b, and b points to c)
+![diagram showing boxes labeled a through c, and a hardware codec: a points to b and the codec, the codec points to b, and b points to c](https://www.bing.com/search?q=diagram+showing+boxes+labeled+a+through+c,+and+a+hardware+codec:+a+points+to+b+and+the+codec,+the+codec+points+to+b,+and+b+points+to+c)
 
 To establish a hardware connection, the two hardware MFTs must use a private communication channel. This connection is established during format negotiation, before the media types are set and before the first call to [**ProcessInput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput). The connection process works as follows:
 
@@ -87,7 +87,7 @@ To establish a hardware connection, the two hardware MFTs must use a private com
     4.  The topology loader sets the [MFT\_CONNECTED\_TO\_HW\_STREAM](mft-connected-to-hw-stream.md) attribute to **TRUE** on both *pDownstream* and *pUpstream*.
 3.  At this point, the downstream MFT has a pointer to the upstream MFT's attribute store, as shown in the following diagram.
 
-    ![diagram with each mfts pointing to its stream, each stream pointing to its store, and the input store with a dashed line to the output store](https://www.bing.com/search?q=diagram with each mfts pointing to its stream, each stream pointing to its store, and the input store with a dashed line to the output store)
+    ![diagram with each mfts pointing to its stream, each stream pointing to its store, and the input store with a dashed line to the output store](https://www.bing.com/search?q=diagram+with+each+mfts+pointing+to+its+stream,+each+stream+pointing+to+its+store,+and+the+input+store+with+a+dashed+line+to+the+output+store)
 
     > [!Note]  
     > For clarity, this diagram shows the streams and the attribute stores as distinct objects, but that is not required for the implementation.
@@ -133,7 +133,7 @@ Other type attributes are optional. The decoder returns the custom type from its
 To work with software codecs, the codec should also return at least one standard format, such as NV12 for video. Standard formats should appear after the custom type (*dwTypeIndex* &gt; 0). If the two codecs must always be paired and cannot interoperate with software codecs, the MFTs should return only the custom format and not return any standard formats.
 
 > [!Note]  
-> If a decoder does not return any standard formats, it cannot be used for playback with the [Enhanced Video Renderer](enhanced-video-renderer.md). In that case, it should be registered as a transcode-only decoder. See [Transcode-Only Decoders](https://www.bing.com/search?q=Transcode-Only Decoders).
+> If a decoder does not return any standard formats, it cannot be used for playback with the [Enhanced Video Renderer](enhanced-video-renderer.md). In that case, it should be registered as a transcode-only decoder. See [Transcode-Only Decoders](implementing-a-codec-mft.md#transcode-only-decoders).
 
  
 

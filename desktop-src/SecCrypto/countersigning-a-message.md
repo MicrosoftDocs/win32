@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 3.  Add the [**CMSG\_SIGNER\_ENCODE\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cmsg_signer_encode_info) structure to an array of countersigners (only one countersigner is currently supported).
 4.  Call [**CryptMsgCountersign**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgcountersign) to add the countersignature or countersignatures.
 
-If all of the function calls succeed, the original message now has a [*countersignature*](https://www.bing.com/search?q=*countersignature*) included as an unauthenticated attribute.
+If all of the function calls succeed, the original message now has a [*countersignature*](security.c_gly#-security-countersignature-gly) included as an unauthenticated attribute.
 
 **To countersign a signed message by using CryptMsgCountersignEncoded**
 
@@ -29,7 +29,7 @@ If all of the function calls succeed, the original message now has a [*countersi
 5.  Call [**CryptMsgCountersignEncoded**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgcountersignencoded) to create the encoded countersignature attribute.
 6.  Call [**CryptMsgControl**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgcontrol) to add the countersignature attribute to the original message as an unauthenticated attribute.
 
-If all of the function calls succeed, a [*countersignature*](https://www.bing.com/search?q=*countersignature*) attribute is added to the original message.
+If all of the function calls succeed, a [*countersignature*](security.c_gly#-security-countersignature-gly) attribute is added to the original message.
 
  
 

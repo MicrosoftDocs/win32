@@ -19,7 +19,7 @@ Core window.
 
 ## Remarks
 
-For information more information see [**ICoreWindow interface**](https://www.bing.com/search?q=**ICoreWindow interface**).
+For information more information see [**ICoreWindow interface**](https://msdn.microsoft.com/Windows.UI.Core.ICoreWindow).
 
 ## Requirements
 

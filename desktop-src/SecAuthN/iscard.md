@@ -11,18 +11,18 @@ ms.date: 05/31/2018
 
 # ISCard interface
 
-\[The **ISCard** interface is available for use in the operating systems specified in the Requirements section. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **ISCard** interface is available for use in the operating systems specified in the Requirements section. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **ISCard** interface lets you open and manage a connection to a [*smart card*](https://www.bing.com/search?q=*smart card*). Each connection to a card requires a single, corresponding instance of the **ISCard** interface.
+The **ISCard** interface lets you open and manage a connection to a [*smart card*](security.s_gly#-security-smart-card-gly). Each connection to a card requires a single, corresponding instance of the **ISCard** interface.
 
-The smart card [*resource manager*](https://www.bing.com/search?q=*resource manager*) must be available whenever an instance of **ISCard** is created. If this service is unavailable, creation of the interface will fail.
+The smart card [*resource manager*](security.r_gly#-security-resource-manager-gly) must be available whenever an instance of **ISCard** is created. If this service is unavailable, creation of the interface will fail.
 
-The following example shows a typical use of the **ISCard** interface. The **ISCard** interface is used to connect to the smart card, submit a [*transaction*](https://www.bing.com/search?q=*transaction*), and release the smart card.
+The following example shows a typical use of the **ISCard** interface. The **ISCard** interface is used to connect to the smart card, submit a [*transaction*](security.t_gly#-security-transaction-gly), and release the smart card.
 
 **To submit a transaction to a specific card**
 
 1.  Create an **ISCard** interface.
-2.  Attach to a smart card by specifying a smart card [*reader*](https://www.bing.com/search?q=*reader*) or by using a previously established, valid handle.
+2.  Attach to a smart card by specifying a smart card [*reader*](security.r_gly#-security-reader-gly) or by using a previously established, valid handle.
 3.  Create transaction commands with [**ISCardCmd**](iscardcmd.md), and [**ISCardISO7816**](iscardiso7816.md) smart card interfaces.
 4.  Use **ISCard** to submit the transaction commands for processing by the smart card.
 5.  Use **ISCard** to release the smart card.
@@ -48,7 +48,7 @@ The **ISCard** interface has these methods.
 | [**Detach**](iscard-detach.md)                 | Closes the open connection to the smart card.<br/>                                                                                                                                                                        |
 | [**LockSCard**](iscard-lockscard.md)           | Claims exclusive access to the smart card.<br/>                                                                                                                                                                           |
 | [**ReAttach**](iscard-reattach.md)             | Resets and reinitializes the smart card.<br/>                                                                                                                                                                             |
-| [**Transaction**](iscard-transaction.md)       | Executes a write and read operation on the smart card command ([*application protocol data unit*](https://www.bing.com/search?q=*application protocol data unit*)) object.<br/> |
+| [**Transaction**](iscard-transaction.md)       | Executes a write and read operation on the smart card command ([*application protocol data unit*](security.a_gly#-security-application-protocol-data-unit-gly)) object.<br/> |
 | [**UnlockScard**](iscard-unlockscard.md)       | Releases exclusive access to the smart card.<br/>                                                                                                                                                                         |
 
 
@@ -63,11 +63,11 @@ The **ISCard** interface has these properties.
 
 | Property                                               | Access type          | Description                                                                                                                                                                                    |
 |:-------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Atr**](iscard-get-atr.md)<br/>               | Read-only<br/> | Retrieves the [*ATR string*](https://www.bing.com/search?q=*ATR string*) of the smart card.<br/>                                                                   |
+| [**Atr**](iscard-get-atr.md)<br/>               | Read-only<br/> | Retrieves the [*ATR string*](security.a_gly#-security-atr-string-gly) of the smart card.<br/>                                                                   |
 | [**CardHandle**](iscard-get-cardhandle.md)<br/> | Read-only<br/> | Retrieves the handle for the connected smart card.<br/>                                                                                                                                  |
-| [**Context**](iscard-get-context.md)<br/>       | Read-only<br/> | Retrieves the current [*resource manager context*](https://www.bing.com/search?q=*resource manager context*) handle.<br/>                            |
+| [**Context**](iscard-get-context.md)<br/>       | Read-only<br/> | Retrieves the current [*resource manager context*](security.r_gly#-security-resource-manager-context-gly) handle.<br/>                            |
 | [**Protocol**](iscard-get-protocol.md)<br/>     | Read-only<br/> | Retrieves the identifier of the protocol currently in use on the smart card.<br/>                                                                                                        |
-| [**Status**](iscard-get-status.md)<br/>         | Read-only<br/> | Retrieves the current [*state*](https://www.bing.com/search?q=*state*) the [*smart card*](https://www.bing.com/search?q=*smart card*) is in.<br/> |
+| [**Status**](iscard-get-status.md)<br/>         | Read-only<br/> | Retrieves the current [*state*](security.s_gly#-security-state-gly) the [*smart card*](security.s_gly#-security-smart-card-gly) is in.<br/> |
 
 
 

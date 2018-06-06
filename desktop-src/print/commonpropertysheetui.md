@@ -91,11 +91,11 @@ The sequence of operation is as follows:
 
 2.  If the *pfnPropSheetUI* callback succeeds, the **CommonPropertySheetUI** function displays the new property sheet pages and allows the user to modify page values.
 
-3.  If the user modifies page values, a [page event callback](https://www.bing.com/search?q=page event callback) notifies the application of the changes.
+3.  If the user modifies page values, a [page event callback](https://www.bing.com/search?q=page+event+callback) notifies the application of the changes.
 
 4.  When the user chooses the **OK** or **Cancel** button, the **CommonPropertySheetUI** function destroys the displayed pages and returns.
 
-For more information about the sequence of operation, see [Using CPSUI with Printer Drivers](https://www.bing.com/search?q=Using CPSUI with Printer Drivers), in the section entitled [CPSUI](https://www.bing.com/search?q=CPSUI).
+For more information about the sequence of operation, see [Using CPSUI with Printer Drivers](https://www.bing.com/search?q=Using+CPSUI+with+Printer+Drivers), in the section entitled [CPSUI](https://www.bing.com/search?q=CPSUI).
 
 The **CommonPropertySheetUI** function actually calls the *pfnPropSheetUI* callback several times, specifying different **Reason** member values in the callback's [**PROPSHEETUI\_INFO**](propsheetui-info.md) structure. Each time the callback returns, it places a result status in the PROPSHEETUI\_INFO structure's **Result** member. When the **CommonPropertySheetUI** function returns, it copies the final contents of **Result** into the location pointed to by *pResult*.
 

@@ -113,10 +113,10 @@ done:
 
 The `InitializeEVR` function initializes the EVR filter. This function performs the following steps.
 
-1.  Queries the filter for the [**IMFGetService**](https://msdn.microsoft.com/windows/desktop/102a1dff-8419-4f86-a145-53ce3d0123f5) interface.
-2.  Calls [**IMFGetService::GetService**](https://msdn.microsoft.com/windows/desktop/4287dd1f-1718-4231-bc62-b58e0e61d688) to get a pointer to the [**IMFVideoDisplayControl**](https://msdn.microsoft.com/windows/desktop/db9b4663-9240-484f-8c47-cb1f5daa238d) interface.
-3.  Calls [**IMFVideoDisplayControl::SetVideoWindow**](https://msdn.microsoft.com/windows/desktop/50bc345c-ee44-4174-9b1a-e406041096b5) to set the video window.
-4.  Calls [**IMFVideoDisplayControl::SetAspectRatioMode**](https://msdn.microsoft.com/windows/desktop/dd49a110-1c11-4eca-9e7b-6021f3bdd397) to configure the EVR to preserve the video aspect ratio.
+1.  Queries the filter for the [**IMFGetService**](https://msdn.microsoft.com/102a1dff-8419-4f86-a145-53ce3d0123f5) interface.
+2.  Calls [**IMFGetService::GetService**](https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688) to get a pointer to the [**IMFVideoDisplayControl**](https://msdn.microsoft.com/db9b4663-9240-484f-8c47-cb1f5daa238d) interface.
+3.  Calls [**IMFVideoDisplayControl::SetVideoWindow**](https://msdn.microsoft.com/50bc345c-ee44-4174-9b1a-e406041096b5) to set the video window.
+4.  Calls [**IMFVideoDisplayControl::SetAspectRatioMode**](https://msdn.microsoft.com/dd49a110-1c11-4eca-9e7b-6021f3bdd397) to configure the EVR to preserve the video aspect ratio.
 
 The following code shows the `InitializeEVR` function.
 
@@ -466,7 +466,7 @@ done:
 [DirectShow Playback Example](directshow-playback-example.md)
 </dt> <dt>
 
-[Using the DirectShow EVR Filter](https://msdn.microsoft.com/windows/desktop/4d85aed0-4b11-4c5f-bfc0-cad0a7d2f490)
+[Using the DirectShow EVR Filter](https://msdn.microsoft.com/4d85aed0-4b11-4c5f-bfc0-cad0a7d2f490)
 </dt> <dt>
 
 [Using the Video Mixing Renderer](using-the-video-mixing-renderer.md)

@@ -132,7 +132,7 @@ This flag is supported only on Windows server operating systems.
 </tr>
 <tr class="even">
 <td><span id="-p"></span><span id="-P"></span><strong>-p</strong><br/></td>
-<td>This optional flag specifies [<em>persistent shadow copies</em>](https://www.bing.com/search?q=<em>persistent shadow copies</em>).<br/>
+<td>This optional flag specifies [<em>persistent shadow copies</em>](vssgloss-p.md#base-vssgloss-persistent-shadow-copy).<br/>
 <blockquote>
 [!Note]<br />
 This flag is supported only on Windows server operating systems.
@@ -150,7 +150,7 @@ This flag is supported only on Windows server operating systems.
 </tr>
 <tr class="even">
 <td><span id="-scsf"></span><span id="-SCSF"></span><strong>-scsf</strong><br/></td>
-<td>This optional flag specifies [<em>client-accessible shadow copies</em>](https://www.bing.com/search?q=<em>client-accessible shadow copies</em>).<br/>
+<td>This optional flag specifies [<em>client-accessible shadow copies</em>](vssgloss-c.md#base-vssgloss-client-accessible-shadow-copy).<br/>
 <blockquote>
 [!Note]<br />
 This flag is supported only on Windows server operating systems.
@@ -210,7 +210,7 @@ The **-i** command-line option imports a transportable shadow copy set.
 
 The *File.xml* file must be a Backup Components Document file for a transportable shadow copy set that was created with the **-t** or **-bc** optional flag.
 
-A shadow copy set is a [*persistent shadow copy*](https://www.bing.com/search?q=*persistent shadow copy*) if it was created with the **-p** optional flag. If the transportable shadow copy set is nonpersistent, it appears for a short time while the shadow copy creation command is running, and is automatically deleted when the command returns. You can import nonpersistent shadow copies only during shadow copy creation, by creating the shadow copy set using the **-exec** optional flag to execute a CMD file that calls VShadow **-i**.
+A shadow copy set is a [*persistent shadow copy*](vssgloss-p.md#base-vssgloss-persistent-shadow-copy) if it was created with the **-p** optional flag. If the transportable shadow copy set is nonpersistent, it appears for a short time while the shadow copy creation command is running, and is automatically deleted when the command returns. You can import nonpersistent shadow copies only during shadow copy creation, by creating the shadow copy set using the **-exec** optional flag to execute a CMD file that calls VShadow **-i**.
 
 The **-i** command-line option cannot be combined with other command-line options.
 
@@ -269,7 +269,7 @@ The **-dx** command-line option deletes all shadow copies in the shadow copy set
 
 The **-ds** command-line option deletes the shadow copy whose ID is specified by *ShadowCopyId*.
 
-These command-line options are for use with [*persistent shadow copies*](https://www.bing.com/search?q=*persistent shadow copies*) only. Nonpersistent shadow copies do not need to be explicitly deleted, because they are automatically deleted when the VShadow creation command exits.
+These command-line options are for use with [*persistent shadow copies*](vssgloss-p.md#base-vssgloss-persistent-shadow-copy) only. Nonpersistent shadow copies do not need to be explicitly deleted, because they are automatically deleted when the VShadow creation command exits.
 
 The **-da**, **-do**, **-dx**, and **-ds** command-line options are mutually exclusive and cannot be combined with other command-line options.
 
@@ -334,7 +334,7 @@ The **-norevert** flag specifies that none of the shadow copy LUN disk identifie
 The **-el** command-line option assigns a mounted folder or a drive letter to a persistent shadow copy. Note that the volume contents will remain read-only unless you subsequently call **vshadow** **-bw** to break the shadow copy set.
 
 > [!Note]  
-> Nonpersistent shadow copies and [*client-accessible shadow copies*](https://www.bing.com/search?q=*client-accessible shadow copies*) cannot be exposed locally.
+> Nonpersistent shadow copies and [*client-accessible shadow copies*](vssgloss-c.md#base-vssgloss-client-accessible-shadow-copy) cannot be exposed locally.
 
  
 
@@ -359,7 +359,7 @@ The **-el** command-line option cannot be combined with other command-line optio
 The **-er** command-line option assigns a read-only share name to the root directory (or a subdirectory) from the shadow copy. Note that the share contents will remain read-only unless you subsequently call **vshadow** **-bw** to break the shadow copy set.
 
 > [!Note]  
-> [*Client-accessible shadow copies*](https://www.bing.com/search?q=*Client-accessible shadow copies*) cannot be exposed remotely.
+> [*Client-accessible shadow copies*](vssgloss-c.md#base-vssgloss-client-accessible-shadow-copy) cannot be exposed remotely.
 
  
 

@@ -59,7 +59,7 @@ CPSUI calls the specified [**PFNPROPSHEETUI**](pfnpropsheetui.md) typed function
 <span id="PSUIPAGEINSERT_GROUP_PARENT"></span><span id="psuipageinsert_group_parent"></span>PSUIPAGEINSERT\_GROUP\_PARENT
 </dt> <dd>
 
-CPSUI creates a new [group parent](https://www.bing.com/search?q=group parent).
+CPSUI creates a new [group parent](https://www.bing.com/search?q=group+parent).
 
 </dd> </dl>
 

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # TVN\_SINGLEEXPAND notification code
 
-Sent by a tree-view control with the [**TVS\_SINGLEEXPAND**](https://www.bing.com/search?q=**TVS\_SINGLEEXPAND**) style when the user opens or closes a tree item using a single click of the mouse. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a tree-view control with the [**TVS\_SINGLEEXPAND**](tree-view-control-window-styles.md#tvs-singleexpand) style when the user opens or closes a tree item using a single click of the mouse. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++
@@ -62,7 +62,7 @@ Return TVNRET\_DEFAULT to allow the default behavior to occur. To modify the def
 
 To skip default processing of selected and unselected items, return both TVNRET\_SKIPOLD and TVNRET\_SKIPNEW by combining them with a logical OR.
 
-This notification code is only sent by tree-view controls that have the [**TVS\_SINGLEEXPAND**](https://www.bing.com/search?q=**TVS\_SINGLEEXPAND**) style.
+This notification code is only sent by tree-view controls that have the [**TVS\_SINGLEEXPAND**](tree-view-control-window-styles.md#tvs-singleexpand) style.
 
 ## Requirements
 

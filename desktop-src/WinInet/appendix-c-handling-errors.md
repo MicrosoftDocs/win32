@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Handling Errors
 
-The [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function retrieves the last error code for all of the WinINet functions. If [**ERROR\_INTERNET\_EXTENDED\_ERROR**](https://www.bing.com/search?q=**ERROR\_INTERNET\_EXTENDED\_ERROR**) is returned, there is a string or buffer that contains a detailed error message. Call the [**InternetGetLastResponseInfo**](/windows/desktop/api/Wininet/nf-wininet-internetgetlastresponseinfoa) function to retrieve the extended error text.
+The [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function retrieves the last error code for all of the WinINet functions. If [**ERROR\_INTERNET\_EXTENDED\_ERROR**](wininet-errors.md#error-internet-extended-error) is returned, there is a string or buffer that contains a detailed error message. Call the [**InternetGetLastResponseInfo**](/windows/desktop/api/Wininet/nf-wininet-internetgetlastresponseinfoa) function to retrieve the extended error text.
 
 To get the error text for an error, call the [**FormatMessage**](https://msdn.microsoft.com/library/windows/desktop/ms679351) function, passing it an **HMODULE** handle to Wininet.dll, which can be obtained using the [GetModuleHandle](https://msdn.microsoft.com/library/windows/desktop/ms683199) function.
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Request Sample in VBScript
 
-The following VBScript sample code shows how the Certificate Enrollment Control can be used with the CCertRequest object to create and submit a [*certificate request*](https://www.bing.com/search?q=*certificate request*).
+The following VBScript sample code shows how the Certificate Enrollment Control can be used with the CCertRequest object to create and submit a [*certificate request*](security.c_gly#-security-certificate-request-gly).
 
 
 ```VB

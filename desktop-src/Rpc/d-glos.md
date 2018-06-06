@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_rpc_datagram_glos"></span><span id="_RPC_DATAGRAM_GLOS"></span>**datagram**
 </dt> <dd>
 
-Communications protocol or transport in which data packets are routed independently. They may follow different routes and arrive in a different order from which they were sent. [*UDP*](https://www.bing.com/search?q=*UDP*) and [*IPX*](https://www.bing.com/search?q=*IPX*) are examples of transport layer–datagram protocols. See also [*connection-oriented*](https://www.bing.com/search?q=*connection-oriented*).
+Communications protocol or transport in which data packets are routed independently. They may follow different routes and arrive in a different order from which they were sent. [*UDP*](u-glos.md#-rpc-udp-glos) and [*IPX*](i-glos.md#-rpc-ipx-glos) are examples of transport layer–datagram protocols. See also [*connection-oriented*](c-glos.md#-rpc-connection-oriented-glos).
 
 </dd> <dt>
 
@@ -33,7 +33,7 @@ Variable that specifies the data types that can be stored in a union.
 <span id="_rpc_discriminated_union_glos"></span><span id="_RPC_DISCRIMINATED_UNION_GLOS"></span>**discriminated union**
 </dt> <dd>
 
-(or *variant record*) Union that includes a discriminator as part of the data structure so that the currently valid data type is transmitted along with the union. See also [*encapsulated union*](https://www.bing.com/search?q=*encapsulated union*), [*nonencapsulated union*](https://www.bing.com/search?q=*nonencapsulated union*).
+(or *variant record*) Union that includes a discriminator as part of the data structure so that the currently valid data type is transmitted along with the union. See also [*encapsulated union*](e-glos.md#-rpc-encapsulated-union-glos), [*nonencapsulated union*](n-glos.md#-rpc-nonencapsulated-union-glos).
 
 </dd> <dt>
 
@@ -47,14 +47,14 @@ Specification of the Open Software Foundation for a set of integrated services, 
 <span id="_rpc_dynamic_endpoint_glos"></span><span id="_RPC_DYNAMIC_ENDPOINT_GLOS"></span>**dynamic endpoint**
 </dt> <dd>
 
-Network specific–server address that is requested and assigned at run time. See also [*well-known endpoint*](https://www.bing.com/search?q=*well-known endpoint*).
+Network specific–server address that is requested and assigned at run time. See also [*well-known endpoint*](w-glos.md#-rpc-well-known-endpoint-glos).
 
 </dd> <dt>
 
 <span id="_rpc_dynamic_identity_tracking_glos"></span><span id="_RPC_DYNAMIC_IDENTITY_TRACKING_GLOS"></span>**dynamic identity tracking**
 </dt> <dd>
 
-Specification that the RPC run-time library will use the credentials of the calling thread, rather than the binding handle, for authentication each time the client calls a remote procedure. See also [*static identity tracking*](https://www.bing.com/search?q=*static identity tracking*).
+Specification that the RPC run-time library will use the credentials of the calling thread, rather than the binding handle, for authentication each time the client calls a remote procedure. See also [*static identity tracking*](s-glos.md#-rpc-static-identity-tracking-glos).
 
 </dd> </dl>
 

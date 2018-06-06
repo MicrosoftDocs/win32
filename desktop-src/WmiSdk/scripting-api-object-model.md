@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 The following diagram shows the relationships between WMI scripting objects.
 
-![relationships between wmi scripting objects](https://www.bing.com/search?q=relationships between wmi scripting objects)
+![relationships between wmi scripting objects](https://www.bing.com/search?q=relationships+between+wmi+scripting+objects)
 
  
 

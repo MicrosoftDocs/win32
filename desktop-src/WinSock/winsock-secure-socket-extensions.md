@@ -64,41 +64,41 @@ The [**WSARevertImpersonation**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsare
 
 -   An application calls the secure socket functions to set or query security settings for a socket.
 -   The secure socket functions are a set of type-safe extension functions that wrap calls to the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) function using newly-defined values for the *dwIoControlCode* parameter available on Windows Vista and later. These IOCTLs are handled by the network stack.
--   The network stack will direct the call to [Application Layer Enforcement (ALE)](https://msdn.microsoft.com/windows/desktop/ffebd312-9220-476c-a4ba-28e2e8ac8879) along with the endpoint handle. For the [**WSADeleteSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname), [**WSASetSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname), and [**WSASetSocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity) functions, ALE will configure the application's settings on the local endpoint. For the [**WSAQuerySocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity) function, ALE will read the requested information from applicable local and remote endpoints.
--   Based on socket events, Application Layer Enforcement (ALE) enforces policies for the secure socket architecture using the Windows Filtering Platform. For more information, see [About Windows Filtering Platform](https://msdn.microsoft.com/windows/desktop/6faad008-b2f6-4f45-89c7-ae98c2f58ce1) and [Application Layer Enforcement (ALE)](https://msdn.microsoft.com/windows/desktop/ffebd312-9220-476c-a4ba-28e2e8ac8879).
+-   The network stack will direct the call to [Application Layer Enforcement (ALE)](https://msdn.microsoft.com/ffebd312-9220-476c-a4ba-28e2e8ac8879) along with the endpoint handle. For the [**WSADeleteSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname), [**WSASetSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname), and [**WSASetSocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity) functions, ALE will configure the application's settings on the local endpoint. For the [**WSAQuerySocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity) function, ALE will read the requested information from applicable local and remote endpoints.
+-   Based on socket events, Application Layer Enforcement (ALE) enforces policies for the secure socket architecture using the Windows Filtering Platform. For more information, see [About Windows Filtering Platform](https://msdn.microsoft.com/6faad008-b2f6-4f45-89c7-ae98c2f58ce1) and [Application Layer Enforcement (ALE)](https://msdn.microsoft.com/ffebd312-9220-476c-a4ba-28e2e8ac8879).
 
 ## Related topics
 
 <dl> <dt>
 
-[About Windows Filtering Platform](https://msdn.microsoft.com/windows/desktop/6faad008-b2f6-4f45-89c7-ae98c2f58ce1)
+[About Windows Filtering Platform](https://msdn.microsoft.com/6faad008-b2f6-4f45-89c7-ae98c2f58ce1)
 </dt> <dt>
 
 [Advanced Winsock Samples Using Secure Socket Extensions](advanced-winsock-samples-using-secure-socket-extensions.md)
 </dt> <dt>
 
-[Application Layer Enforcement (ALE)](https://msdn.microsoft.com/windows/desktop/ffebd312-9220-476c-a4ba-28e2e8ac8879)
+[Application Layer Enforcement (ALE)](https://msdn.microsoft.com/ffebd312-9220-476c-a4ba-28e2e8ac8879)
 </dt> <dt>
 
-[IPsec Configuration](https://msdn.microsoft.com/windows/desktop/d54b5caa-daea-4231-9909-7a8d388df661)
+[IPsec Configuration](https://msdn.microsoft.com/d54b5caa-daea-4231-9909-7a8d388df661)
 </dt> <dt>
 
-[IPsec Functions](https://msdn.microsoft.com/windows/desktop/db656c58-7776-44c4-a7ce-c38e59b37c74)
+[IPsec Functions](https://msdn.microsoft.com/db656c58-7776-44c4-a7ce-c38e59b37c74)
 </dt> <dt>
 
 [Secure Winsock Programming](secure-winsock-programming.md)
 </dt> <dt>
 
-[Security Support Provider Interface (SSPI)](https://msdn.microsoft.com/windows/desktop/79ed7c51-4191-40b2-8d5f-06157f5b99be)
+[Security Support Provider Interface (SSPI)](https://msdn.microsoft.com/79ed7c51-4191-40b2-8d5f-06157f5b99be)
 </dt> <dt>
 
 [Using Secure Socket Extensions](using-secure-socket-extensions.md)
 </dt> <dt>
 
-[Windows Filtering Platform](https://www.bing.com/search?q=Windows Filtering Platform)
+[Windows Filtering Platform](https://www.bing.com/search?q=Windows+Filtering+Platform)
 </dt> <dt>
 
-[Windows Filtering Platform API Functions](https://msdn.microsoft.com/windows/desktop/26a69710-9981-40a4-8b1e-dca709624ead)
+[Windows Filtering Platform API Functions](https://msdn.microsoft.com/26a69710-9981-40a4-8b1e-dca709624ead)
 </dt> </dl>
 
  

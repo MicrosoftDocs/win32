@@ -130,7 +130,7 @@ One of the following bit flag values:
 **dmPrintQuality**
 </dt> <dd>
 
-Value to be used instead of the **dmPrintQuality** member of the print job's [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure, if the COLOR\_OPTIMIZATION flag is set in **dwColorOptimization**.
+Value to be used instead of the **dmPrintQuality** member of the print job's [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure, if the COLOR\_OPTIMIZATION flag is set in **dwColorOptimization**.
 
 </dd> <dt>
 
@@ -143,11 +143,11 @@ Value to be used instead of the **dmYResolution** member of the print job's DEVM
 
 ## Remarks
 
-If the **dmPrintQuality** member of a print job's DEVMODEW structure is a negative value, such as DMRES\_HIGH, and if monochrome color optimization is enabled, then switching between color and monochrome could result in different resolutions being used. This is because DMRES\_HIGH might be assigned to different DPI values for color and monochrome rendering. (For Unidrv-supported devices, this assignment occurs in the printer's [*GPD*](https://www.bing.com/search?q=*GPD*) file.) To ensure a consistent resolution throughout the print job, the driver can specify positive **dmPrintQuality** and **dmYResolution** values (representing a specific DPI resolution) to override the equivalent [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) values.
+If the **dmPrintQuality** member of a print job's DEVMODEW structure is a negative value, such as DMRES\_HIGH, and if monochrome color optimization is enabled, then switching between color and monochrome could result in different resolutions being used. This is because DMRES\_HIGH might be assigned to different DPI values for color and monochrome rendering. (For Unidrv-supported devices, this assignment occurs in the printer's [*GPD*](wdkgloss.g#wdkgloss-generic-printer-description--gpd-) file.) To ensure a consistent resolution throughout the print job, the driver can specify positive **dmPrintQuality** and **dmYResolution** values (representing a specific DPI resolution) to override the equivalent [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) values.
 
 The EMF print processor uses the flag specified for **dwColorOptimization** to determine whether to request GDI to perform monochrome color optimization. If monochrome color optimization is enabled, the print job can be switched between monochrome and color rendering as appropriate.
 
-If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the **dwColorOptimization** member is set to COLOR\_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv \***ChangeColorModeOnDoc?** color attribute (see [Color Attributes](https://www.bing.com/search?q=Color Attributes)), and by the [**GdiEndPageEMF**](gdiendpageemf.md) function.
+If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the **dwColorOptimization** member is set to COLOR\_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv \***ChangeColorModeOnDoc?** color attribute (see [Color Attributes](https://www.bing.com/search?q=Color+Attributes)), and by the [**GdiEndPageEMF**](gdiendpageemf.md) function.
 
 For information about other ATTRIBUTE\_INFO\_3 structure members, see [**ATTRIBUTE\_INFO\_1**](attribute-info-1.md) and [**ATTRIBUTE\_INFO\_2**](attribute-info-2.md).
 

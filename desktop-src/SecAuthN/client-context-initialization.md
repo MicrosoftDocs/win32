@@ -18,7 +18,7 @@ To establish a secure connection, the client acquires an outbound [*credentials*
 
 Code for this process can be seen in the **GenClientContext** function in [Using SSPI with a Windows Sockets Client](using-sspi-with-a-windows-sockets-client.md).
 
-If a client program needs to use credentials in addition to its own logon credentials, such as a different user name, domain name, and password, it provides them in the [**AcquireCredentialsHandle**](/windows/desktop/api/Sspi/) call with a [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/desktop/api/Rpcdce/ns-sspi-_sec_winnt_auth_identity_a) structure specifying the additional credentials. For more information on credentials functions, see [Credential Management](https://www.bing.com/search?q=Credential Management).
+If a client program needs to use credentials in addition to its own logon credentials, such as a different user name, domain name, and password, it provides them in the [**AcquireCredentialsHandle**](/windows/desktop/api/Sspi/) call with a [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/desktop/api/Rpcdce/ns-sspi-_sec_winnt_auth_identity_a) structure specifying the additional credentials. For more information on credentials functions, see [Credential Management](authentication-functions.md#credential-management).
 
 > [!Note]  
 > The **Flags** member of the [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/desktop/api/Rpcdce/ns-sspi-_sec_winnt_auth_identity_a) structure can be set to SEC\_WINNT\_AUTH\_IDENTITY\_ANSI when strings in the structure are ASCI or OEM. ANSI strings can be used with the **Flags** member of the **SEC\_WINNT\_AUTH\_IDENTITY** structure set to SEC\_WINNT\_AUTH\_IDENTITY\_UNICODE if they are first converted to [*Unicode*](https://msdn.microsoft.com/library/windows/desktop/ms721629#-security-unicode-gly) by using the [**MultiByteToWideChar**](https://msdn.microsoft.com/library/windows/desktop/dd319072) function.
@@ -29,7 +29,7 @@ To initiate the first leg of the authentication, the client calls [**InitializeS
 
 The client uses the security token information received in the output buffer descriptor to generate a message to send to the server. The construction of the message, in terms of placement of various buffers and so forth, is part of the [*application protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-application-protocol-gly) and must be understood by both parties.
 
-The client checks the return status from [**InitializeSecurityContext (General)**](/windows/desktop/api/Sspi/) to see if authentication will complete in a single call. A return status of SEC\_I\_CONTINUE\_NEEDED indicates that the security protocol requires multiple authentication messages. For more information on context functions, see [Context Management](https://www.bing.com/search?q=Context Management).
+The client checks the return status from [**InitializeSecurityContext (General)**](/windows/desktop/api/Sspi/) to see if authentication will complete in a single call. A return status of SEC\_I\_CONTINUE\_NEEDED indicates that the security protocol requires multiple authentication messages. For more information on context functions, see [Context Management](authentication-functions.md#context-management).
 
  
 

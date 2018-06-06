@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Unique Pointers
 
-In C programs, more than one pointer can contain the address of data. The pointers are said to create an [*alias*](https://www.bing.com/search?q=*alias*) for the data. Aliases are also created when pointers point at declared variables. The following code fragment illustrates both of these methods of aliasing:
+In C programs, more than one pointer can contain the address of data. The pointers are said to create an [*alias*](a-glos.md#-rpc-aliasing-glos) for the data. Aliases are also created when pointers point at declared variables. The following code fragment illustrates both of these methods of aliasing:
 
 
 ```C++

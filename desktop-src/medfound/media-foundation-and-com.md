@@ -20,11 +20,11 @@ Microsoft Media Foundation uses a mix of COM constructs, but is not a fully COM-
 
 ## Best Practices for Applications
 
-In Media Foundation, asynchronous processing and callbacks are handled by [work queues](work-queues.md). Work queues always have multithreaded apartment (MTA) threads, so an application will have a simpler implementation if it runs on an MTA thread as well. Therefore, it is recommended to call [**CoInitializeEx**](https://msdn.microsoft.com/windows/desktop/ffb79c0f-aeda-4ea1-aea8-afb79109837f) with the **COINIT\_MULTITHREADED** flag.
+In Media Foundation, asynchronous processing and callbacks are handled by [work queues](work-queues.md). Work queues always have multithreaded apartment (MTA) threads, so an application will have a simpler implementation if it runs on an MTA thread as well. Therefore, it is recommended to call [**CoInitializeEx**](https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f) with the **COINIT\_MULTITHREADED** flag.
 
 Media Foundation does not marshal single-threaded apartment (STA) objects to work queue threads. Nor does it ensure that STA invariants are maintained. Therefore, an STA application must be careful to not pass STA objects or proxies to Media Foundation APIs. Objects that are STA-only are not supported in Media Foundation.
 
-If you have an STA proxy to an MTA or free-threaded object, the object can be marshaled to an MTA proxy by using a work-queue callback. The [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) function can return either a raw pointer or an STA proxy, depending on the object model defined in the registry for that CLSID. If an STA proxy is returned, you must not pass the pointer to a Media Foundation API.
+If you have an STA proxy to an MTA or free-threaded object, the object can be marshaled to an MTA proxy by using a work-queue callback. The [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) function can return either a raw pointer or an STA proxy, depending on the object model defined in the registry for that CLSID. If an STA proxy is returned, you must not pass the pointer to a Media Foundation API.
 
 For example, suppose that you want to pass an **IPropertyStore** pointer to the [**IMFSourceResolver::BeginCreateObjectFromURL**](/windows/desktop/api/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfromurl) method. You might call **PSCreateMemoryPropertyStore** to create the **IPropertyStore** pointer. If you are calling from an STA, you must marshal the pointer before passing it to **BeginCreateObjectFromURL**.
 
@@ -129,7 +129,7 @@ private:
 
 
 
-For more information about the global interface table, see [**IGlobalInterfaceTable**](https://msdn.microsoft.com/windows/desktop/0c1feee7-e33b-4b5d-8e35-4de6895e3947).
+For more information about the global interface table, see [**IGlobalInterfaceTable**](https://msdn.microsoft.com/0c1feee7-e33b-4b5d-8e35-4de6895e3947).
 
 If you are using Media Foundation in-process, objects returned from Media Foundation methods and functions are direct pointers to the object. For cross-process Media Foundation, these objects may be MTA proxies, and should be marshaled into an STA thread if needed there. Similarly, objects obtained inside a callback — for example, a topology from the [MESessionTopologyStatus](mesessiontopologystatus.md) event — are direct pointers when Media Foundation is used in-process, but are MTA proxies when Media Foundation is used cross-process.
 
@@ -144,7 +144,7 @@ All implementations of [**IMFAsyncCallback**](/windows/desktop/api/mfobjects/nn-
 
 There are two categories of Media Foundation objects that need to be concerned about COM. Some components, such as transforms or byte stream handlers, are full COM objects created by CLSID. These objects must follow the rules for COM apartments, for both in-process and cross-process Media Foundation. Other Media Foundation components are not full COM objects, but do need COM proxies for cross-process playback. Objects in this category include media sources and activation object. These objects can ignore apartment issues if they will be used only for in-process Media Foundation.
 
-Although not all Media Foundation objects are COM objects, all Media Foundation interfaces derive from [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332). Therefore, all Media Foundation objects must implement **IUnknown** according to COM specifications, including the rules for reference counting and [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d). All reference counted objects should also ensure that [**DllCanUnloadNow**](https://msdn.microsoft.com/windows/desktop/a47df9eb-97cb-4875-a121-1dabe7bc9db6) will not allow the module to be unloaded while the objects still persist.
+Although not all Media Foundation objects are COM objects, all Media Foundation interfaces derive from [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332). Therefore, all Media Foundation objects must implement **IUnknown** according to COM specifications, including the rules for reference counting and [**QueryInterface**](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d). All reference counted objects should also ensure that [**DllCanUnloadNow**](https://msdn.microsoft.com/a47df9eb-97cb-4875-a121-1dabe7bc9db6) will not allow the module to be unloaded while the objects still persist.
 
 Media Foundation components cannot be STA objects. Many Media Foundation objects do not need to be COM objects at all. But if they are, they cannot run in the STA. All Media Foundation components must be thread-safe. Some Media Foundation objects must be free-threaded or apartment-neutral as well. The following table specifies the requirements for custom interface implementations:
 
@@ -167,7 +167,7 @@ Media Foundation components cannot be STA objects. Many Media Foundation objects
 
 There may be additional requirements depending upon the implementation. For example, if a media sink implements another interface that enables the application to make direct function calls to the sink, the sink would need to be free-threaded or neutral, so that it could handle direct cross-process calls. Any object may be free-threaded; this table specifies the minimum requirements.
 
-The recommended way to implement free-threaded or neutral objects is by aggregating the free-threaded marshaler. For more details, see the MSDN documentation on [**CoCreateFreeThreadedMarshaler**](https://msdn.microsoft.com/windows/desktop/f97a2a39-7291-4a1d-b770-0a34f7f5b60f). In accordance with the requirement not to pass STA objects or proxies to Media Foundation APIs, free-threaded objects do not need to worry about marshaling STA input pointers in free-threaded components.
+The recommended way to implement free-threaded or neutral objects is by aggregating the free-threaded marshaler. For more details, see the MSDN documentation on [**CoCreateFreeThreadedMarshaler**](https://msdn.microsoft.com/f97a2a39-7291-4a1d-b770-0a34f7f5b60f). In accordance with the requirement not to pass STA objects or proxies to Media Foundation APIs, free-threaded objects do not need to worry about marshaling STA input pointers in free-threaded components.
 
 Components that use the long-function work queue (**MFASYNC\_CALLBACK\_QUEUE\_LONG\_FUNCTION**) must exercise more care. Threads in the long function workqueue create their own STA. Components that use the long function workqueue for callbacks should avoid creating COM objects on these threads, and need to be careful to marshal proxies to the STA as necessary.
 

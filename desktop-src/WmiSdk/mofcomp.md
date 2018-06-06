@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # mofcomp
 
-The [*Managed Object Format (MOF)*](https://www.bing.com/search?q=*Managed Object Format (MOF)*) compiler parses a file containing MOF statements and adds the classes and class instances defined in the file to the WMI repository. MOF files are usually automatically compiled during the installation of the systems with which they are provided, but you can also compile MOF files by using this tool.
+The [*Managed Object Format (MOF)*](gloss-m.md#wmi-gloss-managed-object-format) compiler parses a file containing MOF statements and adds the classes and class instances defined in the file to the WMI repository. MOF files are usually automatically compiled during the installation of the systems with which they are provided, but you can also compile MOF files by using this tool.
 
 For more information about locating and using mofcomp.exe, see [Using WMI Management Tools](https://TechNet.Microsoft.Com/library/cc180468.aspx). For information about removing classes and instances from the WMI repository, see the [**pragma deleteclass**](pragma-deleteclass.md) preprocessor command.
 
@@ -56,7 +56,7 @@ Adds the named MOF file to the list of files compiled during repository recovery
 The MOF files listed in this registry entry must reside on the local computer because MOF files that use the **autorecover** command cannot recover MOF files located on a remote computer.
 
 > [!Note]  
-> To ensure that all your WMI class definitions for managed objects are restored to the [*WMI repository*](https://www.bing.com/search?q=*WMI repository*) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) preprocessor instruction in your [*Managed Object Format*](https://www.bing.com/search?q=*Managed Object Format*) (MOF) file.
+> To ensure that all your WMI class definitions for managed objects are restored to the [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) preprocessor instruction in your [*Managed Object Format*](gloss-m.md#wmi-gloss-managed-object-format) (MOF) file.
 
  
 

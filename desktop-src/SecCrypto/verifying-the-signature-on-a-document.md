@@ -18,7 +18,7 @@ When a signed document is received, the validity of the signature or signatures 
 -   Validity of the signature hash
 -   Validity of the signer's certificate
 
-The signature [*hash*](https://www.bing.com/search?q=*hash*) is decrypted using the [*public key*](https://www.bing.com/search?q=*public key*) of the signer found on the signer's [*certificate*](https://www.bing.com/search?q=*certificate*), included as part of the signature. If the decrypted signature matches a new hash of the original document, the signature was created by the owner of the private key associated with the public key used to decrypt the hash. In addition, the document that the signature is based on is guaranteed not to have been changed after the signature was created.
+The signature [*hash*](security.h_gly#-security-hash-gly) is decrypted using the [*public key*](security.p_gly#-security-public-key-gly) of the signer found on the signer's [*certificate*](security.c_gly#-security-certificate-gly), included as part of the signature. If the decrypted signature matches a new hash of the original document, the signature was created by the owner of the private key associated with the public key used to decrypt the hash. In addition, the document that the signature is based on is guaranteed not to have been changed after the signature was created.
 
 The certificate that provided the public key and the identity of the signer can also be checked for validity including such issues as whether the certificate has been revoked, whether the certificate is out of date, or whether the certificate was issued by a trusted certificate issuer.
 

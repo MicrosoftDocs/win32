@@ -17,7 +17,7 @@ The final step of creating an event reference page (ERP) is to test it. You can 
 
 To view the completed ERP without an installed expert DLL, open the file with an HTML viewer that supports your embedded sources. The following illustration shows the sample ERP file described in [Writing an ERP](writing-an-event-reference-page.md) as it is displayed using Microsoft Internet Explorer Version 4.01.
 
-![sample erp file](https://www.bing.com/search?q=sample erp file)
+![sample erp file](https://www.bing.com/search?q=sample+erp+file)
 
 Testing ERPs that Have a DLL
 

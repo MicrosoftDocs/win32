@@ -39,7 +39,7 @@ Specifies the size, in bytes, of the GETINFO\_FONTOBJ structure. Supplied by the
 **pFontObj**
 </dt> <dd>
 
-Pointer to an empty [**FONTOBJ**](https://www.bing.com/search?q=**FONTOBJ**) structure. The structure is filled in by Unidrv's [*UNIFONTOBJ\_GetInfo*](unifontobj-getinfo.md) callback function. The pointer is supplied by the UNIFONTOBJ\_GetInfo caller.
+Pointer to an empty [**FONTOBJ**](https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75) structure. The structure is filled in by Unidrv's [*UNIFONTOBJ\_GetInfo*](unifontobj-getinfo.md) callback function. The pointer is supplied by the UNIFONTOBJ\_GetInfo caller.
 
 </dd> </dl>
 
@@ -64,7 +64,7 @@ To obtain a font's FONTOBJ structure contents, a rendering plug-in can supply th
 [*UNIFONTOBJ\_GetInfo*](unifontobj-getinfo.md)
 </dt> <dt>
 
-[**FONTOBJ**](https://www.bing.com/search?q=**FONTOBJ**)
+[**FONTOBJ**](https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75)
 </dt> </dl>
 
  

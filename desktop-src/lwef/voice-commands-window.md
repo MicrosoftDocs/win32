@@ -53,7 +53,7 @@ Although you can also display or hide the Voice Commands Window from your applic
 The Voice Commands Window is included in the ALT+TAB window order. This enables a user to switch to the window to scroll, resize, or reposition the window with the keyboard.
 
 -   [The Listening Tip](the-listening-tip.md)
--   [The Advanced Character Options Window](https://www.bing.com/search?q=The Advanced Character Options Window)
+-   [The Advanced Character Options Window](https://www.bing.com/search?q=The+Advanced+Character+Options+Window)
 
  
 

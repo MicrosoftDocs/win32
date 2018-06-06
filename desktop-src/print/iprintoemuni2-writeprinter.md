@@ -65,7 +65,7 @@ If successful, this method returns S\_OK. Otherwise, this method should return a
 
 ## Remarks
 
-At [**DrvEnablePDEV**](https://www.bing.com/search?q=**DrvEnablePDEV**) time, the Unidrv driver calls this method with *pBuf* and *pdevobj* set to **NULL**, and *cbBuf* set to 0, to detect whether the plug-in implements this function. The plug-in should return S\_OK to indicate it implements this method, and should return E\_NOTIMPL otherwise.
+At [**DrvEnablePDEV**](https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e) time, the Unidrv driver calls this method with *pBuf* and *pdevobj* set to **NULL**, and *cbBuf* set to 0, to detect whether the plug-in implements this function. The plug-in should return S\_OK to indicate it implements this method, and should return E\_NOTIMPL otherwise.
 
 This method should report the number of bytes written to the spooler's **WritePrinter** function in *pcbWritten*. A value of zero carries no special meaning; errors must be reported through the returned HRESULT.
 

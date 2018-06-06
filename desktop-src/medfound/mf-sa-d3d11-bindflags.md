@@ -19,7 +19,7 @@ Specifies the binding flags to use when allocating Microsoft Direct3D 11 surfac
 
 ## Remarks
 
-The value of this attribute is a bitwise **OR** of [**D3D11\_BIND\_FLAG**](https://msdn.microsoft.com/windows/desktop/4ffa1714-bd85-4d5a-930d-20526f46e4b9) flags.
+The value of this attribute is a bitwise **OR** of [**D3D11\_BIND\_FLAG**](https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9) flags.
 
 ### Microsoft Media Foundation Transforms
 

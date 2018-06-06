@@ -17,7 +17,7 @@ The Media Foundation H.265 video encoder is a [Media Foundation Transform](media
 
 The H.265 video encoder exposes the following interfaces:
 
--   [**ICodecAPI**](https://msdn.microsoft.com/windows/desktop/cc3f1bd9-1d36-45e6-94e2-07f2800fd073)
+-   [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073)
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
 
 ## Input Types
@@ -130,19 +130,19 @@ All other [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imf
 
 ## Supported ICodecAPI methods
 
-The following methods of the [**ICodecAPI**](https://msdn.microsoft.com/windows/desktop/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) interface are supported for the H.265/HEVC encoder:
+The following methods of the [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) interface are supported for the H.265/HEVC encoder:
 
--   [**IsSupported**](https://msdn.microsoft.com/windows/desktop/6f556532-1a49-45c1-b446-89c05e8a8237)
--   [**SetValue**](https://msdn.microsoft.com/windows/desktop/e78a310a-3605-4cb3-a0c3-7864c890c1fa)
--   [**GetValue**](https://msdn.microsoft.com/windows/desktop/863ba518-c3c6-47d8-96d8-445a7e4d02aa)
--   [**GetParameterRange**](https://msdn.microsoft.com/windows/desktop/35bf758f-0ce3-4b3a-aae5-9d4326089743)
--   [**GetParameterValues**](https://msdn.microsoft.com/windows/desktop/7f6c7db8-f71f-4ea7-8584-0df6e28c0fc9)
+-   [**IsSupported**](https://msdn.microsoft.com/6f556532-1a49-45c1-b446-89c05e8a8237)
+-   [**SetValue**](https://msdn.microsoft.com/e78a310a-3605-4cb3-a0c3-7864c890c1fa)
+-   [**GetValue**](https://msdn.microsoft.com/863ba518-c3c6-47d8-96d8-445a7e4d02aa)
+-   [**GetParameterRange**](https://msdn.microsoft.com/35bf758f-0ce3-4b3a-aae5-9d4326089743)
+-   [**GetParameterValues**](https://msdn.microsoft.com/7f6c7db8-f71f-4ea7-8584-0df6e28c0fc9)
 
-All other [**ICodecAPI**](https://msdn.microsoft.com/windows/desktop/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) methods will return the error E\_NOTIMPL.
+All other [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) methods will return the error E\_NOTIMPL.
 
 ## Codec Properties
 
-The H.265 encoder implements the [**ICodecAPI**](https://msdn.microsoft.com/windows/desktop/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) interface for setting encoding parameters. It supports the following properties.
+The H.265 encoder implements the [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) interface for setting encoding parameters. It supports the following properties.
 
 For the codec requirements for HCK encoder certification, see the **Certified Hardware Encoder** section below.
 
@@ -161,7 +161,7 @@ For the codec requirements for HCK encoder certification, see the **Certified Ha
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CODECAPI_AVEncCommonRateControlMode</strong>](https://msdn.microsoft.com/windows/desktop/4a0d49b1-30da-4ebe-abff-3fceef6dd94a)</td>
+<td>[<strong>CODECAPI_AVEncCommonRateControlMode</strong>](https://msdn.microsoft.com/4a0d49b1-30da-4ebe-abff-3fceef6dd94a)</td>
 <td>Sets the rate control mode. The supported modes are:<br/>
 <ul>
 <li><strong>eAVEncCommonRateControlMode_CBR</strong></li>
@@ -170,19 +170,19 @@ For the codec requirements for HCK encoder certification, see the **Certified Ha
 If other modes are specified, the <strong>eAVEncCommonRateControlMode_CBR</strong> rate control will be used.<br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="even">
-<td>[CODECAPI_AVEncCommonMeanBitRate](https://msdn.microsoft.com/windows/desktop/8519685a-4f5b-44af-ad46-09eba7a198c6)</td>
+<td>[CODECAPI_AVEncCommonMeanBitRate](https://msdn.microsoft.com/8519685a-4f5b-44af-ad46-09eba7a198c6)</td>
 <td>Sets the average bit rate for the encoded bit stream, in bits per second. <br/> The valid range is [1 ... 2³²–1]. <br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="odd">
-<td>[CODECAPI_AVEncCommonBufferSize](https://msdn.microsoft.com/windows/desktop/3315785e-306f-44d6-ac39-796025a2da3a)</td>
+<td>[CODECAPI_AVEncCommonBufferSize](https://msdn.microsoft.com/3315785e-306f-44d6-ac39-796025a2da3a)</td>
 <td>Sets the buffer size, in bytes, for constant bit rate (CBR) encoding.<br/> The valid range is [1 ... 2³²–1]. <br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="even">
-<td>[CODECAPI_AVEncCommonMaxBitRate](https://msdn.microsoft.com/windows/desktop/053fdad0-dc5f-4af1-84a6-bb7c0dac7e79)</td>
+<td>[CODECAPI_AVEncCommonMaxBitRate](https://msdn.microsoft.com/053fdad0-dc5f-4af1-84a6-bb7c0dac7e79)</td>
 <td>Sets the maximum bitrate for rate control modes that allow a peak bitrate. <br/> The valid range is [1 ... 2³²–1]. <br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="odd">
-<td>[CODECAPI_AVEncMPVGOPSize](https://msdn.microsoft.com/windows/desktop/90433df4-5a96-4bc2-a780-93306abcb0a4)</td>
+<td>[CODECAPI_AVEncMPVGOPSize](https://msdn.microsoft.com/90433df4-5a96-4bc2-a780-93306abcb0a4)</td>
 <td>Sets the number of pictures from one GOP header to the next, including the leading anchor but not the following one. <br/> The valid range is [0 ... 2³²–1]. If zero, the encoder selects the GOP size. The default value is zero. <br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="even">
@@ -190,7 +190,7 @@ If other modes are specified, the <strong>eAVEncCommonRateControlMode_CBR</stron
 <td>Enables or disables low-latency mode. <br/> This is a VT_BOOL value.<br/></td>
 </tr>
 <tr class="odd">
-<td>[CODECAPI_AVEncCommonQualityVsSpeed](https://msdn.microsoft.com/windows/desktop/d721a50d-dec9-4e2d-bda5-25913f225d68)</td>
+<td>[CODECAPI_AVEncCommonQualityVsSpeed](https://msdn.microsoft.com/d721a50d-dec9-4e2d-bda5-25913f225d68)</td>
 <td>Sets the quality/speed tradeoff. This value affects how the encoder performs various encoding operations, such as motion compensation. At higher complexity levels, the encoder runs more slowly but produces better quality at the same bit rate. <br/> The valid range is 0 – 100. Internally, this value is mapped to a smaller set of quality/speed levels supported by the encoder.<br/> This is a VT_UI4 value.<br/></td>
 </tr>
 <tr class="even">
@@ -236,11 +236,11 @@ If a certified hardware encoder is present, it will generally be used instead of
 
 The following is the set of required and optional **ICodecAPI** properties for encoders to pass the HCK encoder certification.
 
--   [CODECAPI\_AVEncCommonRateControlMode](https://msdn.microsoft.com/windows/desktop/4a0d49b1-30da-4ebe-abff-3fceef6dd94a)
--   [CODECAPI\_AVEncCommonQuality](https://msdn.microsoft.com/windows/desktop/2c7f3836-2392-47c6-9a56-d5a9b52560ff)
--   [CODECAPI\_AVEncCommonMeanBitRate](https://msdn.microsoft.com/windows/desktop/8519685a-4f5b-44af-ad46-09eba7a198c6)
--   [CODECAPI\_AVEncCommonBufferSize](https://msdn.microsoft.com/windows/desktop/3315785e-306f-44d6-ac39-796025a2da3a)
--   [CODECAPI\_AVEncMPVGOPSize](https://msdn.microsoft.com/windows/desktop/90433df4-5a96-4bc2-a780-93306abcb0a4)
+-   [CODECAPI\_AVEncCommonRateControlMode](https://msdn.microsoft.com/4a0d49b1-30da-4ebe-abff-3fceef6dd94a)
+-   [CODECAPI\_AVEncCommonQuality](https://msdn.microsoft.com/2c7f3836-2392-47c6-9a56-d5a9b52560ff)
+-   [CODECAPI\_AVEncCommonMeanBitRate](https://msdn.microsoft.com/8519685a-4f5b-44af-ad46-09eba7a198c6)
+-   [CODECAPI\_AVEncCommonBufferSize](https://msdn.microsoft.com/3315785e-306f-44d6-ac39-796025a2da3a)
+-   [CODECAPI\_AVEncMPVGOPSize](https://msdn.microsoft.com/90433df4-5a96-4bc2-a780-93306abcb0a4)
 -   [CODECAPI\_AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md)
 -   [CODECAPI\_AVEncVideoForceKeyFrame](codecapi-avencvideoforcekeyframe.md)
 

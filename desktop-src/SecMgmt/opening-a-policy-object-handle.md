@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Most LSA Policy functions require a handle to the [**Policy**](policy-object.md) object for the system to query or modify. To obtain a handle to a **Policy** object, call [**LsaOpenPolicy**](https://msdn.microsoft.com/library/windows/desktop/aa378299) and specify the name of the system you want to access and the set of access permissions required.
 
-The access permissions required for your application depend on the actions it performs. For details about the permissions required for each function, see the description of that function in [LSA Policy Functions](https://www.bing.com/search?q=LSA Policy Functions).
+The access permissions required for your application depend on the actions it performs. For details about the permissions required for each function, see the description of that function in [LSA Policy Functions](management-functions.md#lsa-policy-functions).
 
 If the call to [**LsaOpenPolicy**](https://msdn.microsoft.com/library/windows/desktop/aa378299) is successful, it returns a handle to the [**Policy**](policy-object.md) object for the specified system. Your application then passes this handle in subsequent LSA Policy function calls. When your application no longer needs the handle, it should call [**LsaClose**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaclose) to free it.
 

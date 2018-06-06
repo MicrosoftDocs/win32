@@ -23,7 +23,7 @@ This attribute is used when a media source proxies a hardware device and is able
 
 In this scenario, the source and decoder are still represented in the Microsoft Media Foundation by a [media source](media-sources.md) object and a [Media Foundation transform](media-foundation-transforms.md) (MFT). However, no data flows between these two objects at the pipeline layer, only at the hardware layer, as shown in the following diagram.
 
-![a diagram that shows a hardware proxy source.](https://www.bing.com/search?q=a diagram that shows a hardware proxy source.)
+![a diagram that shows a hardware proxy source.](https://www.bing.com/search?q=a+diagram+that+shows+a+hardware+proxy+source.)
 
 The connection between the media source and the MFT is negotiated as follows.
 

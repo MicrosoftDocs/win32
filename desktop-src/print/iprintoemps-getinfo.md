@@ -117,7 +117,7 @@ If *pBuffer* is **NULL**, the method should just use *pcbNeeded* to return the n
 
 In "publishing mode", all font information to be downloaded is placed in the job header. Each font is downloaded only once and can be used for any page, allowing the job to be page-order independent. If *dwMode* is OEMGI\_GETPUBLISHERINFO but the plug-in does not support publishing mode, `IPrintOemPS::GetInfo` should return E\_NOTIMPL.
 
-For more information about creating and installing rendering plug-ins, see [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing Microsoft's Printer Drivers).
+For more information about creating and installing rendering plug-ins, see [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing+Microsoft's+Printer+Drivers).
 
 ## Requirements
 

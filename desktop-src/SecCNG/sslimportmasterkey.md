@@ -60,14 +60,14 @@ A pointer to the handle to receive the [*master key*](https://msdn.microsoft.com
 *dwProtocol* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG SSL Provider Protocol Identifier**) values.
+One of the [**CNG SSL Provider Protocol Identifier**](https://www.bing.com/search?q=**CNG+SSL+Provider+Protocol+Identifier**) values.
 
 </dd> <dt>
 
 *dwCipherSuite* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Cipher Suite Identifiers**](https://www.bing.com/search?q=**CNG SSL Provider Cipher Suite Identifiers**) values.
+One of the [**CNG SSL Provider Cipher Suite Identifiers**](https://www.bing.com/search?q=**CNG+SSL+Provider+Cipher+Suite+Identifiers**) values.
 
 </dd> <dt>
 

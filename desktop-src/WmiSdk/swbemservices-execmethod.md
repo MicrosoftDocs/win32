@@ -129,7 +129,7 @@ Current user was not authorized to execute the method.
 
 ## Remarks
 
-Use **SWbemServices.ExecMethod** as an alternative to direct access for executing a [*provider method*](https://www.bing.com/search?q=*provider method*) in cases where it is not possible to execute a method directly. The **ExecMethod** method allows you to obtain output parameters, if the provider supplies them, with a scripting language that does not support output parameters. Otherwise, the recommended means of invoking a method is to use direct access. For more information, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md).
+Use **SWbemServices.ExecMethod** as an alternative to direct access for executing a [*provider method*](gloss-p.md#wmi-gloss-provider-method) in cases where it is not possible to execute a method directly. The **ExecMethod** method allows you to obtain output parameters, if the provider supplies them, with a scripting language that does not support output parameters. Otherwise, the recommended means of invoking a method is to use direct access. For more information, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md).
 
 For example, the following code example that calls the [**StartService**](https://msdn.microsoft.com/library/aa393660) provider method in [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418) uses direct access.
 

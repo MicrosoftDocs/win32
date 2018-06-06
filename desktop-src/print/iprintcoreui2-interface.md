@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # IPrintCoreUI2 interface
 
-This section describes the methods defined for the [IPrintCoreUI2 COM Interface](https://www.bing.com/search?q=IPrintCoreUI2 COM Interface).
+This section describes the methods defined for the [IPrintCoreUI2 COM Interface](https://www.bing.com/search?q=IPrintCoreUI2+COM+Interface).
 
-This interface inherits from the [IPrintOemDriverUI COM Interface](https://www.bing.com/search?q=IPrintOemDriverUI COM Interface). The methods in this interface are provided by the Windows XP Pscript5 driver, for the sole use of its user interface plug-ins. Method prototypes appear in prcomoem.h.
+This interface inherits from the [IPrintOemDriverUI COM Interface](https://www.bing.com/search?q=IPrintOemDriverUI+COM+Interface). The methods in this interface are provided by the Windows XP Pscript5 driver, for the sole use of its user interface plug-ins. Method prototypes appear in prcomoem.h.
 
 ## Members
 
-The **IPrintCoreUI2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintCoreUI2** also has these types of members:
+The **IPrintCoreUI2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IPrintCoreUI2** also has these types of members:
 
 -   [Methods](#methods)
 

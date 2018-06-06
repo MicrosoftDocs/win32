@@ -31,7 +31,7 @@ HRESULT Begin(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Combination of zero or more flags that describe sprite rendering options. For this method, the valid flags are:
 
@@ -64,7 +64,7 @@ Render States:
 
 
 
-| Type ([**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/windows/desktop/2fd56388-f3bd-409f-876c-ae893840b623)) | Value                                                                                                             |
+| Type ([**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3drenderstatetype.htm)) | Value                                                                                                             |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | D3DRS\_ALPHABLENDENABLE                                       | TRUE                                                                                                              |
 | D3DRS\_ALPHAFUNC                                              | D3DCMP\_GREATER                                                                                                   |
@@ -100,7 +100,7 @@ Texture Stage States:
 
 
 
-| Stage Identifier | Type ([**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/windows/desktop/87a5a1bb-e748-4c72-8320-ea82250dcc0e)) | Value            |
+| Stage Identifier | Type ([**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dtexturestagestatetype.htm)) | Value            |
 |------------------|---------------------------------------------------------------------------|------------------|
 | 0                | D3DTSS\_ALPHAARG1                                                         | D3DTA\_TEXTURE   |
 | 0                | D3DTSS\_ALPHAARG2                                                         | D3DTA\_DIFFUSE   |
@@ -121,7 +121,7 @@ Sampler States:
 
 
 
-| Sampler Stage Index | Type ([**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/windows/desktop/03a6a5f1-5e4f-4ba8-be4a-74d78fbc85d0)) | Value                                                                                                          |
+| Sampler Stage Index | Type ([**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dsamplerstatetype.htm)) | Value                                                                                                          |
 |---------------------|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | 0                   | D3DSAMP\_ADDRESSU                                               | D3DTADDRESS\_CLAMP                                                                                             |
 | 0                   | D3DSAMP\_ADDRESSV                                               | D3DTADDRESS\_CLAMP                                                                                             |

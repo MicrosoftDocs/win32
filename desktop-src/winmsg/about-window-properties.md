@@ -24,7 +24,7 @@ Window properties are typically used to associate data with a subclassed window 
 -   An application might not know how many extra bytes are available or how the space is being used. By using window properties, the application can associate data with a window without accessing the extra bytes.
 -   An application must access the extra bytes by using offsets. However, window properties are accessed by their string identifiers, not by offsets.
 
-For more information about subclassing, see [Window Procedure Subclassing](https://www.bing.com/search?q=Window Procedure Subclassing). For more information about MDI windows, see [Multiple Document Interface](multiple-document-interface.md).
+For more information about subclassing, see [Window Procedure Subclassing](about-window-procedures.md#window-procedure-subclassing). For more information about MDI windows, see [Multiple Document Interface](multiple-document-interface.md).
 
 ## Assigning Window Properties
 

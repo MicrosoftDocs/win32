@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # SignedData.CoSign method
 
-\[The **CoSign** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](https://www.bing.com/search?q=**SignedCms Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
+\[The **CoSign** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](https://www.bing.com/search?q=**SignedCms+Class**) in the [**System.Security.Cryptography.Pkcs**](https://www.bing.com/search?q=**System.Security.Cryptography.Pkcs**) namespace.\]
 
-The **CoSign** method creates a [*digital signature*](https://www.bing.com/search?q=*digital signature*) on previously signed content.
+The **CoSign** method creates a [*digital signature*](security.d_gly#-security-digital-signature-gly) on previously signed content.
 
 ## Syntax
 
@@ -66,7 +66,7 @@ If this method fails, an error will be thrown. The **Err** object will contain a
 ## Remarks
 
 > \[!Important\]  
-> When this method is called from a web script, the script needs to use your [*private key*](https://www.bing.com/search?q=*private key*) to create a digital signature. Allowing untrusted websites to use your private key is a security risk. A dialog box that asks whether the website can use your private key appears when this method is first called. If you allow the script to use your private key to create a digital signature and select "Do not show this dialog box again," the dialog box will no longer appear for any script within that domain that uses your private key to create a digital signature. However, scripts outside that domain that attempt to use your private key to create a digital signature will still cause this dialog box to appear. If you do not allow the script to use your private key and select "Do not show this dialog box again," scripts within that domain will automatically be refused the ability to use your private key to create digital signatures.
+> When this method is called from a web script, the script needs to use your [*private key*](security.p_gly#-security-private-key-gly) to create a digital signature. Allowing untrusted websites to use your private key is a security risk. A dialog box that asks whether the website can use your private key appears when this method is first called. If you allow the script to use your private key to create a digital signature and select "Do not show this dialog box again," the dialog box will no longer appear for any script within that domain that uses your private key to create a digital signature. However, scripts outside that domain that attempt to use your private key to create a digital signature will still cause this dialog box to appear. If you do not allow the script to use your private key and select "Do not show this dialog box again," scripts within that domain will automatically be refused the ability to use your private key to create digital signatures.
 
  
 

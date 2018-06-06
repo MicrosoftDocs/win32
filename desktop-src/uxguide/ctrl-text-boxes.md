@@ -26,7 +26,7 @@ A typical text box.
 
 To decide, consider these questions:
 
--   **Is it practical to enumerate all the valid values efficiently?** If so, consider a [single-selection list](https://www.bing.com/search?q=single-selection list), [list view](ctrl-list-views.md), [drop-down list](https://msdn.microsoft.com/library/windows/desktop/dn742404), editable drop-down list, or [slider](ctrl-sliders.md) instead.
+-   **Is it practical to enumerate all the valid values efficiently?** If so, consider a [single-selection list](ctrl-list-boxes.md#usage-patterns), [list view](ctrl-list-views.md), [drop-down list](https://msdn.microsoft.com/library/windows/desktop/dn742404), editable drop-down list, or [slider](ctrl-sliders.md) instead.
 -   **Is the valid data completely unconstrained? Or is the valid data constrained only by format (constrained length or character types)?** If so, use a text box.
 -   **Does the value represent a data type that has a specialized common control?** Examples include date, time, or IPv4 or IPv6 address. If so, use the appropriate control, such as a date control rather than a text box.
 -   If the data is numeric:
@@ -66,7 +66,7 @@ A text box is a flexible control with several possible uses.
 <td><img src="images/ctrl-text-boxes-image3.png" alt="Screen shot of a Product key text box " /><br/> A text box used for formatted data input.<br/>
 <blockquote>
 [!Note]<br />
-The [auto-exit](https://www.bing.com/search?q=auto-exit) feature automatically advances the input focus from one text box to the next. One disadvantage to this approach is that the data can't be copied or pasted as a single unit.
+The [auto-exit](glossary.md#glossary) feature automatically advances the input focus from one text box to the next. One disadvantage to this approach is that the data can't be copied or pasted as a single unit.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -295,7 +295,7 @@ The width of a text box is a visual clue of the expected input size. When sizing
 
 ### Text box labels
 
--   All text boxes need labels. Write the label as a word or phrase, not as a sentence, ending with a colon, and using [static text](https://www.bing.com/search?q=static text).
+-   All text boxes need labels. Write the label as a word or phrase, not as a sentence, ending with a colon, and using [static text](glossary.md#s).
 
     **Exceptions:**
 

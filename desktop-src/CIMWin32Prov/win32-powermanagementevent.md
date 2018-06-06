@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_PowerManagementEvent class
 
-The **Win32\_PowerManagementEvent** [WMI class](https://msdn.microsoft.com/windows/desktop/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents power management events resulting from power state changes. These state changes are associated with either the Advanced Power Management (APM) or the Advanced Configuration and Power Interface (ACPI) system management protocols.
+The **Win32\_PowerManagementEvent** [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents power management events resulting from power state changes. These state changes are associated with either the Advanced Power Management (APM) or the Advanced Configuration and Power Interface (ACPI) system management protocols.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -55,7 +55,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Power Management Events")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Power Management Events")
 </dt> </dl>
 
 Type of change in the system power state.
@@ -128,7 +128,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/windows/desktop/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Power Management Events")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Power Management Events")
 </dt> </dl>
 
 System power state defined by the original equipment manufacturer (OEM) when the **EventType** property of this class is set to 11 (OEM Event); otherwise, this property is set to **NULL**. OEM events are generated when an APM BIOS signals an APM OEM event. OEM event codes are in the range 0x0200h - 0x02FFh.
@@ -144,7 +144,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> </dl>
 
-Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/windows/desktop/4d2e4715-041c-49e9-b948-a148dfe85483). For more information about constants used to set this security descriptor, see [WMI Security Constants](https://msdn.microsoft.com/windows/desktop/f6808f50-a1fd-434f-8a42-efa3afbe7871).
+Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/4d2e4715-041c-49e9-b948-a148dfe85483). For more information about constants used to set this security descriptor, see [WMI Security Constants](https://msdn.microsoft.com/f6808f50-a1fd-434f-8a42-efa3afbe7871).
 
 </dd> <dt>
 
@@ -159,15 +159,15 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format.
 
-This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/windows/desktop/4d2e4715-041c-49e9-b948-a148dfe85483).
+This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/4d2e4715-041c-49e9-b948-a148dfe85483).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting in WMI).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](https://www.bing.com/search?q=Scripting+in+WMI).
 
 </dd> </dl>
 
 ## Remarks
 
-The **Win32\_PowerManagementEvent** class is derived from [**\_\_ExtrinsicEvent**](https://msdn.microsoft.com/windows/desktop/8fddbcd1-7393-4a3b-8a10-a8b620efc19f).
+The **Win32\_PowerManagementEvent** class is derived from [**\_\_ExtrinsicEvent**](https://msdn.microsoft.com/8fddbcd1-7393-4a3b-8a10-a8b620efc19f).
 
 Changes in power status often indicate that a problem has occurred with a computer or with another managed device. If a server suddenly switches from AC power to an uninterruptible power supply, this change can indicate that an electrical problem of some kind has occurred, either with the computer itself or with the electrical system in the room in which the computer is kept.
 
@@ -215,7 +215,7 @@ Loop
 
 <dl> <dt>
 
-[**\_\_ExtrinsicEvent**](https://msdn.microsoft.com/windows/desktop/8fddbcd1-7393-4a3b-8a10-a8b620efc19f)
+[**\_\_ExtrinsicEvent**](https://msdn.microsoft.com/8fddbcd1-7393-4a3b-8a10-a8b620efc19f)
 </dt> <dt>
 
 [Computer System Hardware Classes](computer-system-hardware-classes.md)

@@ -21,7 +21,7 @@ If you choose to do so, your application can provide its own recognizer implemen
 The following sections detail the implementation of a custom recognizer:
 
 -   [Recognition API Architecture](recognition-api-architecture.md)
--   [Required Recognition APIs](https://www.bing.com/search?q=Required Recognition APIs)
+-   [Required Recognition APIs](https://www.bing.com/search?q=Required+Recognition+APIs)
 -   [HRECOGNIZER and HRECOCONTEXT](hrecognizer-and-hrecocontext.md)
 -   [Recognizer Lattice Structure](recognizer-lattice-structure.md)
 -   [Registering Your Recognizer DLL](registering-your-recognizer-dll.md)

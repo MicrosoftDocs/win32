@@ -37,9 +37,9 @@ HRESULT D3DX10CreateDeviceAndSwapChain(
 *pAdapter* \[in\]
 </dt> <dd>
 
-Type: **[**IDXGIAdapter**](https://msdn.microsoft.com/windows/desktop/02fc6b37-bd8f-4889-96cc-91064d23c9d0)\***
+Type: **[**IDXGIAdapter**](https://msdn.microsoft.com/VS|directx_sdk|~\idxgiadapter.htm)\***
 
-Pointer to a [**IDXGIAdapter**](https://msdn.microsoft.com/windows/desktop/02fc6b37-bd8f-4889-96cc-91064d23c9d0).
+Pointer to a [**IDXGIAdapter**](https://msdn.microsoft.com/VS|directx_sdk|~\idxgiadapter.htm).
 
 </dd> <dt>
 
@@ -55,7 +55,7 @@ The type of driver for the device. See [**D3D10\_DRIVER\_TYPE**](/windows/deskto
 *Software* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**HMODULE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 A handle to the DLL that implements a software rasterizer. Must be **NULL** if DriverType is non-software. The HMODULE of a DLL can be obtained with [LoadLibrary](http://msdn2.microsoft.com/en-us/library/ms684175.aspx), [LoadLibraryEx](http://msdn2.microsoft.com/en-us/library/ms684179.aspx), or [GetModuleHandle](http://msdn.microsoft.com/en-us/library/ms683199.aspx).
 
@@ -64,7 +64,7 @@ A handle to the DLL that implements a software rasterizer. Must be **NULL** if D
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Optional. Device creation flags (see [**D3D10\_CREATE\_DEVICE\_FLAG**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_create_device_flag)) that enable [API layers](d3d10-graphics-programming-guide-api-features-layers.md). These flags can be bitwise OR'd together.
 
@@ -73,18 +73,18 @@ Optional. Device creation flags (see [**D3D10\_CREATE\_DEVICE\_FLAG**](/windows/
 *pSwapChainDesc* \[in\]
 </dt> <dd>
 
-Type: **[**DXGI\_SWAP\_CHAIN\_DESC**](https://msdn.microsoft.com/windows/desktop/819d4ff3-f717-46ab-a626-cff065681c79)\***
+Type: **[**DXGI\_SWAP\_CHAIN\_DESC**](https://msdn.microsoft.com/VS|directx_sdk|~\dxgi_swap_chain_desc.htm)\***
 
-Description of the swap chain. See [**DXGI\_SWAP\_CHAIN\_DESC**](https://msdn.microsoft.com/windows/desktop/819d4ff3-f717-46ab-a626-cff065681c79).
+Description of the swap chain. See [**DXGI\_SWAP\_CHAIN\_DESC**](https://msdn.microsoft.com/VS|directx_sdk|~\dxgi_swap_chain_desc.htm).
 
 </dd> <dt>
 
 *ppSwapChain* \[out\]
 </dt> <dd>
 
-Type: **[**IDXGISwapChain**](https://msdn.microsoft.com/windows/desktop/344ada45-35a0-4e99-b3b7-0f316df029ab)\*\***
+Type: **[**IDXGISwapChain**](https://msdn.microsoft.com/VS|directx_sdk|~\idxgiswapchain.htm)\*\***
 
-Address of a pointer to an [**IDXGISwapChain**](https://msdn.microsoft.com/windows/desktop/344ada45-35a0-4e99-b3b7-0f316df029ab).
+Address of a pointer to an [**IDXGISwapChain**](https://msdn.microsoft.com/VS|directx_sdk|~\idxgiswapchain.htm).
 
 </dd> <dt>
 

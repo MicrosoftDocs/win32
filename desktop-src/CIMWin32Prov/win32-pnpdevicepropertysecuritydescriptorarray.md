@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_PnPDevicePropertySecurityDescriptorArray class
 
-Represents a PnP device property consisting of an array of [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/windows/desktop/1045d6e2-64bb-404f-80f2-3b5b46717892) elements.
+Represents a PnP device property consisting of an array of [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/1045d6e2-64bb-404f-80f2-3b5b46717892) elements.
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -49,7 +49,7 @@ The **Win32\_PnPDevicePropertySecurityDescriptorArray** class has these properti
 **Data**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/windows/desktop/1045d6e2-64bb-404f-80f2-3b5b46717892)** array
+Data type: **[**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/1045d6e2-64bb-404f-80f2-3b5b46717892)** array
 </dt> <dt>
 
 Access type: Read-only
@@ -511,7 +511,7 @@ The possible values are.
 [**Win32\_PnPDeviceProperty**](win32-pnpdeviceproperty.md)
 </dt> <dt>
 
-[**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/windows/desktop/1045d6e2-64bb-404f-80f2-3b5b46717892)
+[**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/1045d6e2-64bb-404f-80f2-3b5b46717892)
 </dt> <dt>
 
 [**GetDeviceProperties**](getdeviceproperties-win32-pnpentity.md)

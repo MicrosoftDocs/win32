@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # MSFT Classes
 
-MSFT classes are specific to the Windows implementation of the [*Common Information Model*](https://www.bing.com/search?q=*Common Information Model*) (CIM).
+MSFT classes are specific to the Windows implementation of the [*Common Information Model*](gloss-c.md#wmi-gloss-common-information-model) (CIM).
 
 Objects can be divided into several main categories:
 

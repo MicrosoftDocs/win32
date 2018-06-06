@@ -53,9 +53,9 @@ A handle to the edit control.
 
 ## Remarks
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. To receive EN\_CHANGE notification codes, specify [**ENM\_CHANGE**](https://www.bing.com/search?q=**ENM\_CHANGE**) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. To receive EN\_CHANGE notification codes, specify [**ENM\_CHANGE**](rich-edit-control-event-mask-flags.md#enm-change) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
-The EN\_CHANGE notification code is not sent when the [**ES\_MULTILINE**](https://www.bing.com/search?q=**ES\_MULTILINE**) style is used and the text is sent through [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644).
+The EN\_CHANGE notification code is not sent when the [**ES\_MULTILINE**](edit-control-styles.md#es-multiline) style is used and the text is sent through [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644).
 
 ## Requirements
 

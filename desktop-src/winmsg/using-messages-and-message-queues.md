@@ -103,7 +103,7 @@ int PASCAL WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 
 
 
-The following example shows a message loop for a thread that uses accelerators and displays a modeless dialog box. When [**TranslateAccelerator**](https://msdn.microsoft.com/windows/desktop/0d8a970c-68b2-45e6-8702-2490029c1e1d) or [**IsDialogMessage**](https://msdn.microsoft.com/windows/desktop/0afa23a3-f552-40f9-9713-e7bf790ba25c) returns **TRUE** (indicating that the message has been processed), [**TranslateMessage**](/windows/desktop/api/Winuser/nf-winuser-translatemessage) and [**DispatchMessage**](/windows/desktop/api/Winuser/nf-winuser-dispatchmessage) are not called. The reason for this is that **TranslateAccelerator** and **IsDialogMessage** perform all necessary translating and dispatching of messages.
+The following example shows a message loop for a thread that uses accelerators and displays a modeless dialog box. When [**TranslateAccelerator**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\translateaccelerator.htm) or [**IsDialogMessage**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\isdialogmessage.htm) returns **TRUE** (indicating that the message has been processed), [**TranslateMessage**](/windows/desktop/api/Winuser/nf-winuser-translatemessage) and [**DispatchMessage**](/windows/desktop/api/Winuser/nf-winuser-dispatchmessage) are not called. The reason for this is that **TranslateAccelerator** and **IsDialogMessage** perform all necessary translating and dispatching of messages.
 
 
 ```
@@ -190,7 +190,7 @@ You can post a message to a message queue by using the [**PostMessage**](/window
 
 The system uses the window handle passed with the [**PostMessage**](/windows/desktop/api/Winuser/nf-winuser-postmessagea) function to determine which thread message queue should receive the message. If the handle is **HWND\_TOPMOST**, the system posts the message to the thread message queues of all top-level windows.
 
-You can use the [**PostThreadMessage**](/windows/desktop/api/Winuser/nf-winuser-postthreadmessagea) function to post a message to a specific thread message queue. **PostThreadMessage** is similar to [**PostMessage**](/windows/desktop/api/Winuser/nf-winuser-postmessagea), except the first parameter is a thread identifier rather than a window handle. You can retrieve the thread identifier by calling the [**GetCurrentThreadId**](https://msdn.microsoft.com/windows/desktop/a496f61a-e027-44e7-8b22-4f6651d7afb2) function.
+You can use the [**PostThreadMessage**](/windows/desktop/api/Winuser/nf-winuser-postthreadmessagea) function to post a message to a specific thread message queue. **PostThreadMessage** is similar to [**PostMessage**](/windows/desktop/api/Winuser/nf-winuser-postmessagea), except the first parameter is a thread identifier rather than a window handle. You can retrieve the thread identifier by calling the [**GetCurrentThreadId**](https://msdn.microsoft.com/a496f61a-e027-44e7-8b22-4f6651d7afb2) function.
 
 Use the [**PostQuitMessage**](/windows/desktop/api/Winuser/nf-winuser-postquitmessage) function to exit a message loop. **PostQuitMessage** posts the [**WM\_QUIT**](wm-quit.md) message to the currently executing thread. The thread's message loop terminates and returns control to the system when it encounters the **WM\_QUIT** message. An application usually calls **PostQuitMessage** in response to the [**WM\_DESTROY**](wm-destroy.md) message, as shown in the following example.
 
@@ -228,7 +228,7 @@ case WM_USER + 5:
 
 A number of messages can be sent to controls in a dialog box. These control messages set the appearance, behavior, and content of controls or retrieve information about controls. For example, the [**CB\_ADDSTRING**](https://www.bing.com/search?q=**CB\_ADDSTRING**) message can add a string to a combo box, and the [**BM\_SETCHECK**](https://www.bing.com/search?q=**BM\_SETCHECK**) message can set the check state of a check box or radio button.
 
-Use the [**SendDlgItemMessage**](https://msdn.microsoft.com/windows/desktop/28546e65-0111-4e19-8044-738a76428965) function to send a message to a control, specifying the identifier of the control and the handle of the dialog box window that contains the control. The following example, taken from a dialog box procedure, copies a string from a combo box's edit control into its list box. The example uses **SendDlgItemMessage** to send a [**CB\_ADDSTRING**](https://www.bing.com/search?q=**CB\_ADDSTRING**) message to the combo box.
+Use the [**SendDlgItemMessage**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\senddlgitemmessage.htm) function to send a message to a control, specifying the identifier of the control and the handle of the dialog box window that contains the control. The following example, taken from a dialog box procedure, copies a string from a combo box's edit control into its list box. The example uses **SendDlgItemMessage** to send a [**CB\_ADDSTRING**](https://www.bing.com/search?q=**CB\_ADDSTRING**) message to the combo box.
 
 
 ```

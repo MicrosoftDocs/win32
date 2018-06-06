@@ -59,7 +59,7 @@ You can use libraries in your program to provide a more flexible and convenient 
 
 -   **Libraries use file properties**
 
-    Programs can use the file properties to control which files are displayed during open and save operations that use the common file dialog boxes. Programs can also have access to file properties by using the [**IPropertyStore**](https://msdn.microsoft.com/windows/desktop/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) interfaces. The common file dialog boxes can also be configured allow users to update the properties that are associated with their content.
+    Programs can use the file properties to control which files are displayed during open and save operations that use the common file dialog boxes. Programs can also have access to file properties by using the [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) interfaces. The common file dialog boxes can also be configured allow users to update the properties that are associated with their content.
 
 -   **Programs can create dedicated libraries**
 
@@ -98,7 +98,7 @@ The following image shows the limited display of library contents while in safe 
 [**IShellLibrary**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary)
 </dt> <dt>
 
-[Shell Links](https://msdn.microsoft.com/windows/desktop/32ad306d-54bd-4130-ad30-08db50ef106e)
+[Shell Links](https://msdn.microsoft.com/32ad306d-54bd-4130-ad30-08db50ef106e)
 </dt> <dt>
 
 [Known Folders](known-folders.md)

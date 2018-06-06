@@ -23,7 +23,7 @@ There are two distinct ways that a VLV search can be used. The first is to retri
 
 The second way to use VLV searches is to search for part or all of a textual attribute and only display the results of the search. An example usage of this is an address book. If the user types an "s", then the application can use a VLV search to search for entries that have a common-name that begins with "s". If the user then adds an "m" to the "s", the application can use another VLV search to search for entries that have a common-name that begins with "sm".
 
-To perform a VLV search, instruct ADSI to use the VLV control. To do this, call the [**IDirectorySearch::SetSearchPreference**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-setsearchpreference) method with an **ADS\_SEARCHPREF\_VLV** search option with an **ADSTYPE\_PROV\_SPECIFIC** value. The **ADSTYPE\_PROV\_SPECIFIC** value is a pointer to an [**ADS\_VLV**](/windows/desktop/api/Iads/ns-iads-_ads_vlv) structure that contains data about the search. The [**GetVLVItemCount**](https://www.bing.com/search?q=**GetVLVItemCount**) example function shows how to set both of these search preferences.
+To perform a VLV search, instruct ADSI to use the VLV control. To do this, call the [**IDirectorySearch::SetSearchPreference**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-setsearchpreference) method with an **ADS\_SEARCHPREF\_VLV** search option with an **ADSTYPE\_PROV\_SPECIFIC** value. The **ADSTYPE\_PROV\_SPECIFIC** value is a pointer to an [**ADS\_VLV**](/windows/desktop/api/Iads/ns-iads-_ads_vlv) structure that contains data about the search. The [**GetVLVItemCount**](example-code-for-using-a-vlv-search.md#getvlvitemcount-example-function) example function shows how to set both of these search preferences.
 
 All VLV searches must use server-side result sorting, which is performed by setting the **ADS\_SEARCHPREF\_SORT\_ON** search preference. For more information about the **ADS\_SEARCHPREF\_SORT\_ON** search preference, see [Sorting the Search Results with IDirectorySearch](sorting-the-search-results-with-idirectorysearch.md).
 
@@ -59,7 +59,7 @@ For more information, see:
 9.  Cast the **pADsValues-&gt;ProviderSpecific.lpValue** of the [**ADS\_SEARCH\_COLUMN**](/windows/desktop/api/Iads/ns-iads-ads_search_column) structure to an [**ADS\_VLV**](/windows/desktop/api/Iads/ns-iads-_ads_vlv) structure pointer. The **dwContentCount** member of this **ADS\_VLV** structure contains the approximate number of items that would be returned by a search of that type.
 10. If other VLV searches of the same type will be performed, make a copy of the **lpContextID** data and preserve it for the next VLV search.
 
-The [**GetVLVItemCount**](https://www.bing.com/search?q=**GetVLVItemCount**) example function shows how to do this.
+The [**GetVLVItemCount**](example-code-for-using-a-vlv-search.md#getvlvitemcount-example-function) example function shows how to do this.
 
 ## Searching by Offset
 
@@ -89,7 +89,7 @@ Offsets are specified as a ratio between the offset and the content count. Ratio
 
  
 
-The [**GetVLVItemText**](https://www.bing.com/search?q=**GetVLVItemText**) example function shows how to do this.
+The [**GetVLVItemText**](example-code-for-using-a-vlv-search.md#getvlvitemtext-example-function) example function shows how to do this.
 
 It is also possible to retrieve more than one row of data with a single search call. This is done in Step 1 by setting the **dwBeforeCount** and **dwAfterCount** members of the [**ADS\_VLV**](/windows/desktop/api/Iads/ns-iads-_ads_vlv) structure appropriately. The **dwBeforeCount** member contains the number of items that appear in the list prior to the item in question and the **dwAfterCount** member contains the number of items that appear in the list after to the item in question. Both of these counts exclude the item itself, so setting **dwBeforeCount** to 10 and **dwAfterCount** to 10 will result in a total of 21 items returned. This option enables caching the search results on the client side.
 
@@ -112,7 +112,7 @@ It is also possible to use a VLV search to find items that have a string attribu
 7.  Cast the **pADsValues-&gt;ProviderSpecific.lpValue** of the [**ADS\_SEARCH\_COLUMN**](/windows/desktop/api/Iads/ns-iads-ads_search_column) structure to an [**ADS\_VLV**](/windows/desktop/api/Iads/ns-iads-_ads_vlv) structure pointer.
 8.  Make a copy of the **lpContextID** data and preserve it for the next VLV search. If required, the **dwOffset** member contains the one-based index of the first item whose string attribute begins with the value specified in **pszTarget**.
 
-The [**GetVLVItemsByString**](https://www.bing.com/search?q=**GetVLVItemsByString**) example function shows how to do this.
+The [**GetVLVItemsByString**](example-code-for-using-a-vlv-search.md#getvlvitemsbystring-example-function) example function shows how to do this.
 
 Similarly to searching by index, it is also possible to retrieve more than one row of data with a single search call. This is accomplished in the same manner by setting the **dwBeforeCount** and **dwAfterCount** members of the [**ADS\_VLV**](/windows/desktop/api/Iads/ns-iads-_ads_vlv) structure appropriately.
 

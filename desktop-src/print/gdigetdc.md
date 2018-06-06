@@ -45,7 +45,7 @@ The **GdiGetDC** function is exported by gdi32.dll for use within a print proces
 
 A print processor can call **GdiGetDC** to obtain a printer's device context handle anytime after calling [**GdiGetSpoolFileHandle**](gdigetspoolfilehandle.md). The print processor can use the context handle to call Win32 device context functions, in order to perform such operations as applying transformations on the print image.
 
-For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using GDI Functions in Print Processors).
+For additional information, see [Using GDI Functions in Print Processors](https://www.bing.com/search?q=Using+GDI+Functions+in+Print+Processors).
 
 ## Requirements
 

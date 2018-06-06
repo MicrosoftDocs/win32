@@ -13,11 +13,11 @@ ms.date: 05/31/2018
 
 You can use a [mutex object](mutex-objects.md) to protect a shared resource from simultaneous access by multiple threads or processes. Each thread must wait for ownership of the mutex before it can execute the code that accesses the shared resource. For example, if several threads share access to a database, the threads can use a mutex object to permit only one thread at a time to write to the database.
 
-The following example uses the [**CreateMutex**](/windows/desktop/api/WinBase/nf-synchapi-createmutexa) function to create a mutex object and the [**CreateThread**](https://msdn.microsoft.com/windows/desktop/202a4b42-513a-45de-894a-72e56c706a58) function to create worker threads.
+The following example uses the [**CreateMutex**](/windows/desktop/api/WinBase/nf-synchapi-createmutexa) function to create a mutex object and the [**CreateThread**](https://msdn.microsoft.com/202a4b42-513a-45de-894a-72e56c706a58) function to create worker threads.
 
 When a thread of this process writes to the database, it first requests ownership of the mutex using the [**WaitForSingleObject**](/windows/desktop/api/WinBase/nf-synchapi-waitforsingleobject) function. If the thread obtains ownership of the mutex, it writes to the database and then releases its ownership of the mutex using the [**ReleaseMutex**](/windows/desktop/api/WinBase/nf-synchapi-releasemutex) function.
 
-This example uses structured exception handling to ensure that the thread properly releases the mutex object. The **\_\_finally** block of code is executed no matter how the **\_\_try** block terminates (unless the **\_\_try** block includes a call to the [**TerminateThread**](https://msdn.microsoft.com/windows/desktop/ae1ad0f3-67df-4573-af22-7086f0470361) function). This prevents the mutex object from being abandoned inadvertently.
+This example uses structured exception handling to ensure that the thread properly releases the mutex object. The **\_\_finally** block of code is executed no matter how the **\_\_try** block terminates (unless the **\_\_try** block includes a call to the [**TerminateThread**](https://msdn.microsoft.com/ae1ad0f3-67df-4573-af22-7086f0470361) function). This prevents the mutex object from being abandoned inadvertently.
 
 If a mutex is abandoned, the thread that owned the mutex did not properly release it before terminating. In this case, the status of the shared resource is indeterminate, and continuing to use the mutex can obscure a potentially serious error. Some applications might attempt to restore the resource to a consistent state; this example simply returns an error and stops using the mutex. For more information, see [Mutex Objects](mutex-objects.md).
 

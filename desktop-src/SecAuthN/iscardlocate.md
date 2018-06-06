@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # ISCardLocate interface
 
-\[The **ISCardLocate** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/windows/desktop/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **ISCardLocate** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **ISCardLocate** interface provides services for locating a [*smart card*](https://www.bing.com/search?q=*smart card*) by its name.
+The **ISCardLocate** interface provides services for locating a [*smart card*](security.s_gly#-security-smart-card-gly) by its name.
 
-This interface can display the smart card [*user interface*](https://www.bing.com/search?q=*user interface*) if it is required.
+This interface can display the smart card [*user interface*](security.u_gly#-security-user-interface-smart-card-gly) if it is required.
 
-The following scenario shows a typical use of the **ISCardLocate** interface. The **ISCardLocate** interface is used to build an [*application protocol data unit*](https://www.bing.com/search?q=*application protocol data unit*) (APDU).
+The following scenario shows a typical use of the **ISCardLocate** interface. The **ISCardLocate** interface is used to build an [*application protocol data unit*](security.a_gly#-security-application-protocol-data-unit-gly) (APDU).
 
 **To locate a specific card using its name**
 

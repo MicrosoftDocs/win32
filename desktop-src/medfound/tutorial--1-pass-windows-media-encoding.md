@@ -782,7 +782,7 @@ There are two ways you can create a complete video media type.
     -   Set the video bit rate in the [**MF\_MT\_AVG\_BITRATE**](mf-mt-avg-bitrate-attribute.md) attribute.
     -   Add codec private data by setting the [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) attribute. For detailed instructions, see "Private Codec Data" in [Configuring a WMV Encoder](configuring-a-wmv-encoder.md).
 
-    Because [**IWMCodecPrivateData::GetPrivateData**](https://msdn.microsoft.com/windows/desktop/2598e021-aa36-4df8-813e-eba79d30e7e2) checks the bit rate before returning the codec private data, make sure that you set the bit rate before getting the codec private data.
+    Because [**IWMCodecPrivateData::GetPrivateData**](https://msdn.microsoft.com/2598e021-aa36-4df8-813e-eba79d30e7e2) checks the bit rate before returning the codec private data, make sure that you set the bit rate before getting the codec private data.
 
     The following code example creates a compressed video type by getting a compatible type from the Windows Media Video encoder. It also creates an uncompressed video type and sets it as the encoder's input. This is implemented in the helper function CreateUncompressedVideoType. GetOutputTypeFromWMVEncoder converts the returned partial type into a complete type by adding codec private data. The implementation for SetEncodingProperties is shown in the "Create the ASF ContentInfo Object" section of this tutorial.
 
@@ -1629,7 +1629,7 @@ The following procedure describes the steps required to instantiate the required
     [**MFCreateWMAEncoderActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmaencoderactivate) sets the output type on the underlying encoder MFT for the Windows Media audio codec. After the output media type is set, the encoder gets the average bit rate from the output media type, calculates the buffer window rage bit rate, and sets the leaky bucket values that will be used during the encoding session. You can update these values in the file sink by either querying the encoder or setting custom values. To update values you need the following set of information:
 
     -   Average bit rate: Get the average bit rate from the [**MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND**](mf-mt-audio-avg-bytes-per-second-attribute.md) attribute set on the output media type that is selected during media type negotiation.
-    -   Buffer window: you can retrieve it by calling [**IWMCodecLeakyBucket::GetBufferSizeBits**](https://msdn.microsoft.com/windows/desktop/a7667fea-8bf9-4f87-bae1-6a32c00e753c).
+    -   Buffer window: you can retrieve it by calling [**IWMCodecLeakyBucket::GetBufferSizeBits**](https://msdn.microsoft.com/a7667fea-8bf9-4f87-bae1-6a32c00e753c).
     -   Initial buffer size: Set to 0.
 
     Create an array of DWORDs and set the value in the [**MFPKEY\_ASFSTREAMSINK\_CORRECTED\_LEAKYBUCKET**](mfpkey-asfstreamsink-corrected-leakybucket-property.md) property of the audio stream sink. If you do not provide the updated values, the Media Session sets them appropriately.
@@ -2139,7 +2139,7 @@ The following procedure describes the steps required to traverse the nodes in th
 **To update the post encoding property values on the ASF file sink**
 
 1.  Call [**IMFTopology::GetOutputNodeCollection**](/windows/desktop/api/mfidl/nf-mfidl-imftopology-getoutputnodecollection) to get the output node collection from the encoding topology.
-2.  For each node, get a pointer to the stream sink in the node by calling [**IMFTopologyNode::GetObject**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getobject). Query for the [**IMFStreamSink**](/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink) interface on the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer returned by **IMFTopologyNode::GetObject**.
+2.  For each node, get a pointer to the stream sink in the node by calling [**IMFTopologyNode::GetObject**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getobject). Query for the [**IMFStreamSink**](/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink) interface on the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer returned by **IMFTopologyNode::GetObject**.
 3.  For each stream sink get the downstream node (encoder) by calling [**IMFTopologyNode::GetInput**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinput).
 4.  Query the node to get the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) pointer from the encoder node.
 5.  Query the encoder for the [**IPropertyStore**](https://www.bing.com/search?q=**IPropertyStore**) pointer to get the encoding property store from the encoder.
@@ -2560,7 +2560,7 @@ The following list describes the common error codes that your might receive and 
 
     This error is returned when the source's media type attributes are not compatible with the attributes of the output media type set on the Windows Media encoder.
 
--   [**IWMCodecPrivateData::GetPrivateData**](https://msdn.microsoft.com/windows/desktop/2598e021-aa36-4df8-813e-eba79d30e7e2) returns HRESULT 0x80040203 "A syntax error occurred trying to evaluate a query string"
+-   [**IWMCodecPrivateData::GetPrivateData**](https://msdn.microsoft.com/2598e021-aa36-4df8-813e-eba79d30e7e2) returns HRESULT 0x80040203 "A syntax error occurred trying to evaluate a query string"
 
     Make sure that the input type is set on the encoder MFT.
 

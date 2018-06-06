@@ -49,7 +49,7 @@ This notification code does not return a value.
 
 ## Remarks
 
-To receive EN\_CHANGE notification codes, specify [**ENM\_CHANGE**](https://www.bing.com/search?q=**ENM\_CHANGE**) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
+To receive EN\_CHANGE notification codes, specify [**ENM\_CHANGE**](rich-edit-control-event-mask-flags.md#enm-change) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
 ## Requirements
 

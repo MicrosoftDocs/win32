@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # Microsoft Kerberos
 
-The [*Kerberos protocol*](https://www.bing.com/search?q=*Kerberos protocol*) defines how clients interact with a network authentication service. Clients obtain tickets from the Kerberos Key Distribution Center (KDC), and they present these tickets to servers when connections are established. Kerberos tickets represent the client's network [*credentials*](https://www.bing.com/search?q=*credentials*).
+The [*Kerberos protocol*](security.k_gly#-security-kerberos-protocol-gly) defines how clients interact with a network authentication service. Clients obtain tickets from the Kerberos Key Distribution Center (KDC), and they present these tickets to servers when connections are established. Kerberos tickets represent the client's network [*credentials*](security.c_gly#-security-credentials-gly).
 
 Information in this section provides theoretical background on the use of the Kerberos protocol in an authentication process. This is background information that can add to a developer's understanding of what is happening behind the scenes in an SSPI process that uses the Kerberos Version 5 protocol.
 
-The Kerberos authentication protocol provides a mechanism for mutual authentication between entities before a secure network connection is established. Throughout this documentation, the two entities are called the client and the server even though secure network connections can be made between servers. Both client and server can also be referred to as [*security principals*](https://www.bing.com/search?q=*security principals*).
+The Kerberos authentication protocol provides a mechanism for mutual authentication between entities before a secure network connection is established. Throughout this documentation, the two entities are called the client and the server even though secure network connections can be made between servers. Both client and server can also be referred to as [*security principals*](security.s_gly#-security-security-principal-gly).
 
 The Kerberos protocol assumes that transactions between clients and servers take place on an open network where most clients and many servers are not physically secure, and packets traveling along the network can be monitored and modified at will. The assumed environment is like today's Internet where an attacker can easily pose as either a client or a server, and can readily eavesdrop on or tamper with communications between legitimate clients and servers.
 
@@ -26,7 +26,7 @@ This section provides the following information:
 -   [Kerberos Model](kerberos-components.md)
 -   [SSPI/Kerberos Interoperability with GSSAPI](sspi-kerberos-interoperability-with-gssapi.md)
 
-Your application should not access the Kerberos [*security package*](https://www.bing.com/search?q=*security package*) directly; instead, it should use the [*Negotiate*](https://www.bing.com/search?q=*Negotiate*) security package. Negotiate allows your application to take advantage of more advanced [*security protocols*](https://www.bing.com/search?q=*security protocols*) if they are supported by the systems involved in the authentication. Currently, the Negotiate security package selects between [*Kerberos*](https://www.bing.com/search?q=*Kerberos*) and NTLM. Negotiate selects Kerberos unless it cannot be used by one of the systems involved in the authentication.
+Your application should not access the Kerberos [*security package*](security.s_gly#-security-security-package-gly) directly; instead, it should use the [*Negotiate*](security.n_gly#-security-negotiate-gly) security package. Negotiate allows your application to take advantage of more advanced [*security protocols*](security.s_gly#-security-security-protocol-gly) if they are supported by the systems involved in the authentication. Currently, the Negotiate security package selects between [*Kerberos*](security.k_gly#-security-kerberos-protocol-gly) and NTLM. Negotiate selects Kerberos unless it cannot be used by one of the systems involved in the authentication.
 
  
 

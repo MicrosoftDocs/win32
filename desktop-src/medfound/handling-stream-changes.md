@@ -114,7 +114,7 @@ Changes in the video interlacing mode are a special case, because they do not in
 
 The interlace mode can change when the field dominance switches from top-field to bottom-field, or when the video switches between progressive and interlaced pictures.
 
-For more information, see [Interlace Flags on Samples](https://www.bing.com/search?q=Interlace Flags on Samples).
+For more information, see [Interlace Flags on Samples](video-interlacing.md#interlace-flags-on-samples).
 
 ## Related topics
 

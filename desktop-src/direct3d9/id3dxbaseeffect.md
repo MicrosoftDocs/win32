@@ -15,7 +15,7 @@ Provides methods for getting and setting effect parameters such as constants, fu
 
 ## Members
 
-The **ID3DXBaseEffect** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ID3DXBaseEffect** also has these types of members:
+The **ID3DXBaseEffect** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ID3DXBaseEffect** also has these types of members:
 
 -   [Methods](#methods)
 

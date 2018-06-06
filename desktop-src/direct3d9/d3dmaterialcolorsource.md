@@ -61,7 +61,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-These flags are used to set the value of the following render states in the [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/windows/desktop/2fd56388-f3bd-409f-876c-ae893840b623) enumerated type.
+These flags are used to set the value of the following render states in the [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3drenderstatetype.htm) enumerated type.
 
 -   D3DRS\_AMBIENTMATERIALSOURCE
 -   D3DRS\_DIFFUSEMATERIALSOURCE
@@ -85,7 +85,7 @@ These flags are used to set the value of the following render states in the [**D
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/windows/desktop/2fd56388-f3bd-409f-876c-ae893840b623)
+[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3drenderstatetype.htm)
 </dt> </dl>
 
  

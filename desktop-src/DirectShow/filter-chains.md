@@ -18,7 +18,7 @@ A *filter chain* is a sequence of filters that meets the following conditions:
 
 For example, in the following diagram, filters A–B, C–D, and F–G–H are filter chains. Each subchain in F–G–H (F–G and G–H) is also a filter chain. A filter chain can consist of a single filter, so filters A, B, C, D, F, G, and H are also distinct filter chains. Filter E has two input connections, so any sequence of filters that includes filter E is not a filter chain.
 
-![filter chain (example 1)](https://www.bing.com/search?q=filter chain (example 1))
+![filter chain (example 1)](https://www.bing.com/search?q=filter+chain+(example+1))
 
 The [**IFilterChain**](/windows/desktop/api/Strmif/nn-strmif-ifilterchain) interface provides the following methods for controlling filter chains:
 
@@ -45,7 +45,7 @@ When you use **IFilterChain** methods, it is important to make sure that the fil
 
 The best way to use **IFilterChain** is with a set of filters that you have designed specifically for chaining. Use the following guidelines to ensure that your filters are safe for filter chain operations. These points refer to the following diagram.
 
-![filter chain (example 2)](https://www.bing.com/search?q=filter chain (example 2))
+![filter chain (example 2)](https://www.bing.com/search?q=filter+chain+(example+2))
 
 -   Before the filter chain's state changes, all data processing calls at the boundary of the filter chain must be completed. This rule applies to the methods [**IMemInputPin::Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive), [**IPin::NewSegment**](/windows/desktop/api/Strmif/nf-strmif-ipin-newsegment), and [**IPin::EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream). Filters in the chain must return from calls to these methods made by filters outside the chain; and filters outside the chain must return from calls made by filters within the chain.
 

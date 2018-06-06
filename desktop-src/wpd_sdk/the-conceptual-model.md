@@ -25,7 +25,7 @@ The two following topics give examples and illustrations of two types of objects
 
 An image object represents a still image. The following diagram shows the relationships between an Image object, its properties, and its resources.
 
-![diagram showing a wpd object and its relationship to its properties and resources](https://www.bing.com/search?q=diagram showing a wpd object and its relationship to its properties and resources)
+![diagram showing a wpd object and its relationship to its properties and resources](https://www.bing.com/search?q=diagram+showing+a+wpd+object+and+its+relationship+to+its+properties+and+resources)
 
 For more information about the Image object and its properties, see the [**WPD\_CONTENT\_TYPE\_IMAGE**](wpd-content-type-image.md) topic.
 
@@ -35,7 +35,7 @@ A Mediacast object can be thought of as a container object that groups related c
 
 ![diagram showing the hierarchical structure of a medicast object and three objects it contains](images/mediacast1.gif)
 
-The references to the audio object are specified in the [WPD\_OBJECT\_REFERENCES](https://www.bing.com/search?q=WPD\_OBJECT\_REFERENCES) property for the Mediacast object. For more information about the properties supported by a Mediacast object, see the [**WPD\_CONTENT\_TYPE\_MEDIA\_CAST**](wpd-content-type-media-cast.md) topic.
+The references to the audio object are specified in the [WPD\_OBJECT\_REFERENCES](object-properties.md#wpd-object-references) property for the Mediacast object. For more information about the properties supported by a Mediacast object, see the [**WPD\_CONTENT\_TYPE\_MEDIA\_CAST**](wpd-content-type-media-cast.md) topic.
 
 ### Properties
 

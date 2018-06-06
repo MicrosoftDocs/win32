@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # WinRM Service Plug-in Configuration
 
-A Windows Remote Management (WinRM) plug-in must be registered in the WinRM catalog to enable the infrastructure to dynamically determine the set of available plug-ins and the [*resource URIs*](https://www.bing.com/search?q=*resource URIs*) that they support. All [*resource URIs*](https://www.bing.com/search?q=*resource URIs*) for WinRM plug-ins should conform to the format that is defined in RFC 3986 ([http://www.ietf.org/rfc/rfc3986.txt](http://go.microsoft.com/fwlink/p/?linkid=144676)). Configuration is done through the main WinRM service.
+A Windows Remote Management (WinRM) plug-in must be registered in the WinRM catalog to enable the infrastructure to dynamically determine the set of available plug-ins and the [*resource URIs*](windows-remote-management-glossary.md#winrm-gloss-resource-uri) that they support. All [*resource URIs*](windows-remote-management-glossary.md#winrm-gloss-resource-uri) for WinRM plug-ins should conform to the format that is defined in RFC 3986 ([http://www.ietf.org/rfc/rfc3986.txt](http://go.microsoft.com/fwlink/p/?linkid=144676)). Configuration is done through the main WinRM service.
 
 The following command registers a plug-in configuration with the WinRM service:
 
@@ -120,14 +120,14 @@ This node is optional and allows a plug-in to configure extra XML that will be p
 <span id="PlugInConfiguration_Resources"></span><span id="pluginconfiguration_resources"></span><span id="PLUGINCONFIGURATION_RESOURCES"></span>**PlugInConfiguration**/**Resources**
 </dt> <dd>
 
-Specifies a list of [*resource URIs*](https://www.bing.com/search?q=*resource URIs*)that this plug-in supports. At least one **ResourceUri**entry must be specified; otherwise, the XML will be rejected.
+Specifies a list of [*resource URIs*](windows-remote-management-glossary.md#winrm-gloss-resource-uri)that this plug-in supports. At least one **ResourceUri**entry must be specified; otherwise, the XML will be rejected.
 
 </dd> <dt>
 
 <span id="PlugInConfiguration_Resources_Resource"></span><span id="pluginconfiguration_resources_resource"></span><span id="PLUGINCONFIGURATION_RESOURCES_RESOURCE"></span>**PlugInConfiguration**/**Resources**/**Resource**
 </dt> <dd>
 
-Represents a single [*resource URI*](https://www.bing.com/search?q=*resource URI*)configuration.
+Represents a single [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri)configuration.
 
 > [!Note]  
 > The **SupportsOptions**attribute can be set to false. If **SupportsOptions**is set to false, this attribute is not listed when the resource is enumerated.
@@ -139,77 +139,77 @@ Represents a single [*resource URI*](https://www.bing.com/search?q=*resource URI
 <span id="PlugInConfiguration_Resources_Resource_ResourceUri"></span><span id="pluginconfiguration_resources_resource_resourceuri"></span><span id="PLUGINCONFIGURATION_RESOURCES_RESOURCE_RESOURCEURI"></span>**PlugInConfiguration**/**Resources**/**Resource**/**ResourceUri**
 </dt> <dd>
 
-Specifies a single [*resource URI*](https://www.bing.com/search?q=*resource URI*) either in full or as a partial match string based on the **ExactMatch** attribute. If **ExactMatch** is not present, it defaults to **False**, which means the WinRM SOAP processor will do a partial match to the start of the *resource URI* and, if there is a match, pass it to the plug-in. The **SupportsOptions** attribute can be specified if this *resource URI* is allowed to have any options passed in. By default, no options are supported, and if any are present in the client request, an error will be returned. If options are supported by the plug-in, it is important that the plug-in returns the correct error if an option is present that the plug-in does not understand when the **mustUnderstand** flag is set to **True**.
+Specifies a single [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri) either in full or as a partial match string based on the **ExactMatch** attribute. If **ExactMatch** is not present, it defaults to **False**, which means the WinRM SOAP processor will do a partial match to the start of the *resource URI* and, if there is a match, pass it to the plug-in. The **SupportsOptions** attribute can be specified if this *resource URI* is allowed to have any options passed in. By default, no options are supported, and if any are present in the client request, an error will be returned. If options are supported by the plug-in, it is important that the plug-in returns the correct error if an option is present that the plug-in does not understand when the **mustUnderstand** flag is set to **True**.
 
 </dd> <dt>
 
 <span id="PlugInConfiguration_Resources_Resource_Capability"></span><span id="pluginconfiguration_resources_resource_capability"></span><span id="PLUGINCONFIGURATION_RESOURCES_RESOURCE_CAPABILITY"></span>**PlugInConfiguration**/**Resources**/**Resource**/**Capability**
 </dt> <dd>
 
-Specifies a capability that is available on this [*resource URI*](https://www.bing.com/search?q=*resource URI*). There will be one entry for each type of operation that it supports. The following options are available:
+Specifies a capability that is available on this [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri). There will be one entry for each type of operation that it supports. The following options are available:
 
 <dl> <dt>
 
 <span id="Get"></span><span id="get"></span><span id="GET"></span>Get
 </dt> <dd>
 
-Get operations are supported on the [*resource URI*](https://www.bing.com/search?q=*resource URI*). The **SupportFragment** attribute is used if the get operation supports the concept. The **SupportFiltering** attribute is not valid and should be set to false. This capability is not valid for a *resource URI* if shell operations are also supported.
+Get operations are supported on the [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri). The **SupportFragment** attribute is used if the get operation supports the concept. The **SupportFiltering** attribute is not valid and should be set to false. This capability is not valid for a *resource URI* if shell operations are also supported.
 
 </dd> <dt>
 
 <span id="Put"></span><span id="put"></span><span id="PUT"></span>Put
 </dt> <dd>
 
-Put operations are supported on the [*resource URI*](https://www.bing.com/search?q=*resource URI*). The **SupportFragment**attribute is used if the put operation supports the concept. The **SupportFiltering** attribute is not valid and should be set to **False**. This capability is not valid for a *resource URI* if shell operations are also supported.
+Put operations are supported on the [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri). The **SupportFragment**attribute is used if the put operation supports the concept. The **SupportFiltering** attribute is not valid and should be set to **False**. This capability is not valid for a *resource URI* if shell operations are also supported.
 
 </dd> <dt>
 
 <span id="Create"></span><span id="create"></span><span id="CREATE"></span>Create
 </dt> <dd>
 
-Create operations are supported on the [*resource URI*](https://www.bing.com/search?q=*resource URI*). The **SupportFragment** attribute is used if the create operation supports the concept. The **SupportFiltering** attribute is not valid and should be set to **False**. This capability is not valid for a *resource URI* if shell operations are also supported.
+Create operations are supported on the [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri). The **SupportFragment** attribute is used if the create operation supports the concept. The **SupportFiltering** attribute is not valid and should be set to **False**. This capability is not valid for a *resource URI* if shell operations are also supported.
 
 </dd> <dt>
 
 <span id="Delete"></span><span id="delete"></span><span id="DELETE"></span>Delete
 </dt> <dd>
 
-Delete operations are supported on the [*resource URI*](https://www.bing.com/search?q=*resource URI*). The **SupportFragment** attribute is used if the delete operation supports the concept. The **SupportFiltering** attribute is not valid and should be set to **False**. This capability is not valid for a *resource URI* if shell operations are also supported.
+Delete operations are supported on the [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri). The **SupportFragment** attribute is used if the delete operation supports the concept. The **SupportFiltering** attribute is not valid and should be set to **False**. This capability is not valid for a *resource URI* if shell operations are also supported.
 
 </dd> <dt>
 
 <span id="Invoke"></span><span id="invoke"></span><span id="INVOKE"></span>Invoke
 </dt> <dd>
 
-Invoke operations are supported on the [*resource URI*](https://www.bing.com/search?q=*resource URI*). The **SupportFragment** attribute is not supported for invoke operations and should be set to false. The **SupportFiltering** attribute is not valid and should be set to **False**. This capability is not valid for a *resource URI* if shell operations are also supported.
+Invoke operations are supported on the [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri). The **SupportFragment** attribute is not supported for invoke operations and should be set to false. The **SupportFiltering** attribute is not valid and should be set to **False**. This capability is not valid for a *resource URI* if shell operations are also supported.
 
 </dd> <dt>
 
 <span id="Enumerate"></span><span id="enumerate"></span><span id="ENUMERATE"></span>Enumerate
 </dt> <dd>
 
-Enumerate operations are supported on the [*resource URI*](https://www.bing.com/search?q=*resource URI*). The **SupportFragment** attribute is not supported for enumerate operations and should be set to **False**. The **SupportFiltering** attribute is valid, and if the plug-in supports filtering this attribute should be set to **True**. This capability is not valid for a *resource URI* if shell operations are also supported.
+Enumerate operations are supported on the [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri). The **SupportFragment** attribute is not supported for enumerate operations and should be set to **False**. The **SupportFiltering** attribute is valid, and if the plug-in supports filtering this attribute should be set to **True**. This capability is not valid for a *resource URI* if shell operations are also supported.
 
 </dd> <dt>
 
 <span id="Subscribe"></span><span id="subscribe"></span><span id="SUBSCRIBE"></span>Subscribe
 </dt> <dd>
 
-Subscribe operations are supported on the [*resource URI*](https://www.bing.com/search?q=*resource URI*). The **SupportFragment** attribute is not supported for subscribe operations and should be set to **False**. The **SupportFiltering** attribute is not valid and should be set to **False**. This capability is not valid for a *resource URI* if shell operations are also supported.
+Subscribe operations are supported on the [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri). The **SupportFragment** attribute is not supported for subscribe operations and should be set to **False**. The **SupportFiltering** attribute is not valid and should be set to **False**. This capability is not valid for a *resource URI* if shell operations are also supported.
 
 </dd> <dt>
 
 <span id="Shell"></span><span id="shell"></span><span id="SHELL"></span>Shell
 </dt> <dd>
 
-Shell operations are supported on the [*resource URI*](https://www.bing.com/search?q=*resource URI*). The **SupportFragment** attribute is not supported for shell operations and should be set to **False**. The **SupportFiltering** attribute is not valid and should be set to **False**. This capability is not valid for a *resource URI* if any other operation capability is also supported. If a shell operation capability is configured for a *resource URI*, then get, put, create, delete, invoke, and enumerate operations are processed internally within the WinRm service to manage shells. As a result, the plug-in cannot deal with the operations itself.
+Shell operations are supported on the [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri). The **SupportFragment** attribute is not supported for shell operations and should be set to **False**. The **SupportFiltering** attribute is not valid and should be set to **False**. This capability is not valid for a *resource URI* if any other operation capability is also supported. If a shell operation capability is configured for a *resource URI*, then get, put, create, delete, invoke, and enumerate operations are processed internally within the WinRm service to manage shells. As a result, the plug-in cannot deal with the operations itself.
 
 </dd> </dl> </dd> <dt>
 
 <span id="PlugInConfiguration_Resources_Resource_Security"></span><span id="pluginconfiguration_resources_resource_security"></span><span id="PLUGINCONFIGURATION_RESOURCES_RESOURCE_SECURITY"></span>**PlugInConfiguration**/**Resources**/**Resource**/**Security**
 </dt> <dd>
 
-This element defines the security descriptor (via the **Sddl** attribute) that should be applied to determine access to a particular [*resource URI*](https://www.bing.com/search?q=*resource URI*) (via the **Uri** attribute). If **ExactMatch** is not present, the **Security** element defaults to **False**, which means that the **Sddl** applies to all *resource URIs* that share **Uri** as a prefix. If **ExactMatch** is set to true, the **Sddl** applies only to the exact **Uri** specified. If there are multiple **Security** entries that could apply to a particular *resource URIs*, the longest-prefix match is used to determine the appropriate **Sddl**. As a result of the longest-prefix match, if an exact-match **Uri** entry exists, it will always be chosen as the appropriate Security element.
+This element defines the security descriptor (via the **Sddl** attribute) that should be applied to determine access to a particular [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri) (via the **Uri** attribute). If **ExactMatch** is not present, the **Security** element defaults to **False**, which means that the **Sddl** applies to all *resource URIs* that share **Uri** as a prefix. If **ExactMatch** is set to true, the **Sddl** applies only to the exact **Uri** specified. If there are multiple **Security** entries that could apply to a particular *resource URIs*, the longest-prefix match is used to determine the appropriate **Sddl**. As a result of the longest-prefix match, if an exact-match **Uri** entry exists, it will always be chosen as the appropriate Security element.
 
 </dd> </dl>
 

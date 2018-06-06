@@ -120,7 +120,7 @@ A recommendation as to how the application window should be displayed initially.
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.ShellExecute**](https://msdn.microsoft.com/windows/desktop/62E59A1C-51BD-4864-AF09-35FFD49FAB9D) method.
+This method is implemented and accessed through the [**Shell.ShellExecute**](https://msdn.microsoft.com/62E59A1C-51BD-4864-AF09-35FFD49FAB9D) method.
 
 This method is equivalent to launching one of the commands associated with a file's shortcut menu. Each command is represented by a verb string. The set of supported verbs varies from file to file. The most commonly supported verb is "open", which is also usually the default verb. Other verbs might be supported by only certain types of files. For further discussion of Shell verbs, see [Launching Applications](launch.md) or [Extending Shortcut Menus](context.md).
 

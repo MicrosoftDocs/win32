@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The sample application described in this topic is another Hello MUI application that supports application-specific settings for its user interface languages and runs on Windows Vista and later.
 
-This application first parses a delimited language list in a text file and converts it to a multi-string language list to define the application-specific language preferences. The delimiters supported in the sample are ",", ";", ":", and " ". After parsing the list, the code finds and loads the resources in the identified language, just as the system settings sample does. This code loads and releases resource files using calls to the resource loader functions [**LoadLibraryEx**](https://msdn.microsoft.com/windows/desktop/4fc699ca-6ffb-4954-9b72-1b827d558563) and [**FreeLibrary**](https://msdn.microsoft.com/windows/desktop/823d3147-4ba8-4fe5-ade4-e5604f47eb0a).
+This application first parses a delimited language list in a text file and converts it to a multi-string language list to define the application-specific language preferences. The delimiters supported in the sample are ",", ";", ":", and " ". After parsing the list, the code finds and loads the resources in the identified language, just as the system settings sample does. This code loads and releases resource files using calls to the resource loader functions [**LoadLibraryEx**](https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563) and [**FreeLibrary**](https://msdn.microsoft.com/823d3147-4ba8-4fe5-ade4-e5604f47eb0a).
 
 
 ```C++

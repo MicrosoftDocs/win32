@@ -17,7 +17,7 @@ If the attributes you want to change are controlled by credentials, you must obt
 
 To request a redo from a client application, call the [**InitializeSecurityContext (Schannel)**](/windows/desktop/api/Sspi/) function. Server applications call the [**AcceptSecurityContext (Schannel)**](/windows/desktop/api/Sspi/) function. Set the parameters as follows:
 
--   Specify the existing [*security context*](https://www.bing.com/search?q=*security context*) in the *phContext* parameter.
+-   Specify the existing [*security context*](security.s_gly#-security-security-context-gly) in the *phContext* parameter.
 -   (Clients only) Specify the same server name (in the *pszTargetName* parameter) as specified when establishing the context.
 -   Specify new credentials, using the *phCredential* parameter, if applicable.
 -   If you want to change context attributes unrelated to the credentials, specify these attributes using the *fContextReq* parameter.

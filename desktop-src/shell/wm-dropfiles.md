@@ -75,7 +75,7 @@ The HDROP handle is declared in Shellapi.h. You must include this header in your
 
 <dl> <dt>
 
-[**PostMessage**](https://msdn.microsoft.com/windows/desktop/5357de37-1e44-4e4a-bdae-b5a386032dd4)
+[**PostMessage**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postmessage.htm)
 </dt> <dt>
 
 [**DragAcceptFiles**](/windows/desktop/api/Shellapi/nf-shellapi-dragacceptfiles)

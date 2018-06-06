@@ -24,7 +24,7 @@ The class identifier (CLSID) for the Windows Media Video decoder is represented 
 
 ## Interfaces
 
-A video decoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/windows/desktop/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT).
+A video decoder object exposes the [**IMediaObject**](https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface so that the object can be used as a Media Foundation Transform (MFT).
 
 A video decoder behaves as a DMO or an MFT depending on which interfaces you obtain and which version of Windows is running. The following table shows the conditions under which a video decoder behaves as a DMO or an MFT.
 
@@ -39,7 +39,7 @@ A video decoder behaves as a DMO or an MFT depending on which interfaces you obt
 
  
 
-Beginning with Windows 7, the Windows Media Video decoder implements the [**IDMOQualityControl**](https://msdn.microsoft.com/windows/desktop/c23211f2-d4ba-45ff-b443-3425c3a3e72f) interface.
+Beginning with Windows 7, the Windows Media Video decoder implements the [**IDMOQualityControl**](https://msdn.microsoft.com/c23211f2-d4ba-45ff-b443-3425c3a3e72f) interface.
 
 ## Input Formats
 
@@ -159,10 +159,10 @@ Write-only.<br />
 <td><strong>g_wszWMVCNeedsDrain</strong></td>
 <td>Specifies whether the decoder should be drained.<br/> <dl> Windows 8<br />
 Read-only.<br />
-</dl> This property is used by the Windows Media Format runtime. The property type is <strong>VARIANT_BOOL</strong>. If the value is <strong>VARIANT_TRUE</strong>, the decoder should be drained after a discontinuity. For more information about draining an MFT, see [Basic MFT Processing Model](https://www.bing.com/search?q=Basic MFT Processing Model).<br/>
+</dl> This property is used by the Windows Media Format runtime. The property type is <strong>VARIANT_BOOL</strong>. If the value is <strong>VARIANT_TRUE</strong>, the decoder should be drained after a discontinuity. For more information about draining an MFT, see [Basic MFT Processing Model](basic-mft-processing-model.md#draining-an-mft).<br/>
 <blockquote>
 [!Note]<br />
-To query this property, use the [<strong>IPropertyBag</strong>](https://msdn.microsoft.com/windows/desktop/128e847b-99f9-44a3-9176-56eb34f3dddc) interface.
+To query this property, use the [<strong>IPropertyBag</strong>](https://msdn.microsoft.com/128e847b-99f9-44a3-9176-56eb34f3dddc) interface.
 </blockquote>
 <br/></td>
 </tr>

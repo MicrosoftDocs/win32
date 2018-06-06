@@ -39,7 +39,7 @@ The following objects are used to play a media file with the Media Session:
 -   A *topology* defines the flow of data from the media source to the EVR and SAR.
 -   The *Media Session* controls the data flow and sends status events to the application. The following diagram illustrates this process.
 
-![diagram showing playback using the media session](https://www.bing.com/search?q=diagram showing playback using the media session)
+![diagram showing playback using the media session](https://www.bing.com/search?q=diagram+showing+playback+using+the+media+session)
 
 The following is a general outline of the steps needed to play a media file using the Media Session:
 

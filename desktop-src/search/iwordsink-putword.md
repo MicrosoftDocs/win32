@@ -41,21 +41,21 @@ The number of characters in *pwcInBuf*.
 *pwcInBuf* \[in\]
 </dt> <dd>
 
-A pointer to a buffer that contains an alternative form of a word from the source text. This parameter is not modified by **PutWord**. You can pass the *pTextSource* parameter from [**IWordBreaker::BreakText**](https://msdn.microsoft.com/windows/desktop/32e495c0-e173-4b35-be58-51f31cb38e3e) as appropriate.
+A pointer to a buffer that contains an alternative form of a word from the source text. This parameter is not modified by **PutWord**. You can pass the *pTextSource* parameter from [**IWordBreaker::BreakText**](https://msdn.microsoft.com/VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\breaktext.htm) as appropriate.
 
 </dd> <dt>
 
 *cwcSrcLen* \[in\]
 </dt> <dd>
 
-The number of characters in the source text buffer (indicated by the *pTextSource* parameter to [**IWordBreaker::BreakText**](https://msdn.microsoft.com/windows/desktop/32e495c0-e173-4b35-be58-51f31cb38e3e)) that correspond to the word contained in *pwcInBuf*.
+The number of characters in the source text buffer (indicated by the *pTextSource* parameter to [**IWordBreaker::BreakText**](https://msdn.microsoft.com/VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\breaktext.htm)) that correspond to the word contained in *pwcInBuf*.
 
 </dd> <dt>
 
 *cwcSrcPos* \[in\]
 </dt> <dd>
 
-The starting position of the word in *pwcInBuf* in the source text buffer (indicated by the *pTextSource* parameter to [**IWordBreaker::BreakText**](https://msdn.microsoft.com/windows/desktop/32e495c0-e173-4b35-be58-51f31cb38e3e)).
+The starting position of the word in *pwcInBuf* in the source text buffer (indicated by the *pTextSource* parameter to [**IWordBreaker::BreakText**](https://msdn.microsoft.com/VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\breaktext.htm)).
 
 </dd> </dl>
 
@@ -68,7 +68,7 @@ This method can return one of these values.
 | Return code                                                                                              | Description                                                                                                                                               |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S\_OK**</dt> </dl>                     | The operation was completed successfully. Also indicates that no more text is available to refill the buffer.<br/>                                  |
-| <dl> <dt>**LANGUAGE\_S\_LARGE\_WORD** </dt> </dl> | Value of *cwc* is larger than the value for *ulMaxTokenSize* that is specified in [**IWordBreaker::Init**](https://msdn.microsoft.com/windows/desktop/7685d85b-de66-4a1e-af54-2a6a42d5de8c). <br/> |
+| <dl> <dt>**LANGUAGE\_S\_LARGE\_WORD** </dt> </dl> | Value of *cwc* is larger than the value for *ulMaxTokenSize* that is specified in [**IWordBreaker::Init**](https://msdn.microsoft.com/VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\init.htm). <br/> |
 
 
 

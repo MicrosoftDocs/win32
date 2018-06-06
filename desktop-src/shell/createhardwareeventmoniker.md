@@ -52,9 +52,9 @@ The name of the event handler.
 *ppmoniker* \[out\]
 </dt> <dd>
 
-Type: **[**IMoniker**](https://msdn.microsoft.com/windows/desktop/17f4c1df-7a9c-42ef-a888-70cd8d85f070)\*\***
+Type: **[**IMoniker**](https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070)\*\***
 
-The address of a pointer variable that receives the [**IMoniker**](https://msdn.microsoft.com/windows/desktop/17f4c1df-7a9c-42ef-a888-70cd8d85f070) interface pointer.
+The address of a pointer variable that receives the [**IMoniker**](https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070) interface pointer.
 
 </dd> </dl>
 
@@ -70,9 +70,9 @@ Use **CreateHardwareEventMoniker** when registering running applications so that
 
 You should call **CreateHardwareEventMoniker** to get a moniker that represents your component and its event handler. Then, use the value returned in the *ppmoniker* parameter to register your component in the running object table (ROT) as shown in the example.
 
-Note that **CreateHardwareEventMoniker** is not defined in a header file. To use it in your code, you must obtain a handle to the Shsvcs.dll file through a call to [**LoadLibrary**](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65). You then use that handle in a call to [**GetProcAddress**](https://msdn.microsoft.com/windows/desktop/a0d7fc09-f888-4f46-a571-d3719a627597) to obtain an instance of the **CreateHardwareEventMoniker** function.
+Note that **CreateHardwareEventMoniker** is not defined in a header file. To use it in your code, you must obtain a handle to the Shsvcs.dll file through a call to [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65). You then use that handle in a call to [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) to obtain an instance of the **CreateHardwareEventMoniker** function.
 
-The call to [**IRunningObjectTable::Register**](https://msdn.microsoft.com/windows/desktop/40f815b2-dfea-416c-aae1-7ba3a710ad91) requires that you enter the following **AppID** information in the registry.
+The call to [**IRunningObjectTable::Register**](https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91) requires that you enter the following **AppID** information in the registry.
 
 ```
 HKEY_CLASSES_ROOT

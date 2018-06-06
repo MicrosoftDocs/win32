@@ -36,7 +36,7 @@ AccChecker logs this error message for an indeterminate progress bar. You can ig
 
 <dl> <dt>
 
-[**UIA\_ControlTypePropertyId**](https://www.bing.com/search?q=**UIA\_ControlTypePropertyId**)
+[**UIA\_ControlTypePropertyId**](uiauto-automation-element-propids.md#uia-controltypepropertyid)
 </dt> <dt>
 
 [UI Automation Control Types Overview](uiauto-controltypesoverview.md)

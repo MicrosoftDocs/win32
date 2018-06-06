@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # DNS Resolvers
 
-The [*resolver*](https://www.bing.com/search?q=*resolver*) is a software component bundled in the Windows 2000 Transmission Control Protocol/Internet Protocol (TCP/IP) stack that communicates with DNS Servers to create and resolve name-resolution queries. The bundle is also available in any DNS-capable non-Microsoft client. Resolvers exist on DNS clients and DNS Servers.
+The [*resolver*](r-gly.md#-dns-resolver-gly) is a software component bundled in the Windows 2000 Transmission Control Protocol/Internet Protocol (TCP/IP) stack that communicates with DNS Servers to create and resolve name-resolution queries. The bundle is also available in any DNS-capable non-Microsoft client. Resolvers exist on DNS clients and DNS Servers.
 
  
 

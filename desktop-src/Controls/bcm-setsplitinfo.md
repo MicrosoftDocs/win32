@@ -47,7 +47,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-Use this message only with the [**BS\_SPLITBUTTON**](https://www.bing.com/search?q=**BS\_SPLITBUTTON**) and [**BS\_DEFSPLITBUTTON**](https://www.bing.com/search?q=**BS\_DEFSPLITBUTTON**) button styles.
+Use this message only with the [**BS\_SPLITBUTTON**](button-styles.md#bs-splitbutton) and [**BS\_DEFSPLITBUTTON**](button-styles.md#bs-defsplitbutton) button styles.
 
 ## Requirements
 

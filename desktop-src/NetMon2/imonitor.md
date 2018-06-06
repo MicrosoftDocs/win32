@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IMonitor interface
 
-The **IMonitor** interface provides methods that control monitor operation. These methods are called by the [*Monitor Control Service*](https://www.bing.com/search?q=*Monitor Control Service*) (MCSVC).
+The **IMonitor** interface provides methods that control monitor operation. These methods are called by the [*Monitor Control Service*](m.md#-netmon-monitor-control-service-gly) (MCSVC).
 
 ## Members
 

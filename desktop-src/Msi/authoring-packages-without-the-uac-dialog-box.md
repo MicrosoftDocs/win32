@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Authoring Packages without the UAC Dialog Box
 
-When elevated privileges are not required to install a Windows Installer package, the author of the package can suppress the dialog box that [*User Account Control*](https://www.bing.com/search?q=*User Account Control*) (UAC) displays to prompt users for administrator authorization.
+When elevated privileges are not required to install a Windows Installer package, the author of the package can suppress the dialog box that [*User Account Control*](u-gly.md#-msi-user-account-control-gly) (UAC) displays to prompt users for administrator authorization.
 
 To suppress the display of the UAC dialog box when installing the application, the author of the package should do the following:
 

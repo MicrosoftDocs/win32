@@ -41,7 +41,7 @@ This function returns an HRESULT value.
 
 ## Remarks
 
-The [XPSDrv printer driver](https://www.bing.com/search?q=XPSDrv printer driver) can specify filter service provider module using the &lt;*FilterServiceProvider*&gt; or &lt;*OptionalFilterServiceProvider*&gt; element in the [filter pipeline configuration file](https://www.bing.com/search?q=filter pipeline configuration file). The service provider module must export the **DrvPopulateFilterServices** function.
+The [XPSDrv printer driver](https://www.bing.com/search?q=XPSDrv+printer+driver) can specify filter service provider module using the &lt;*FilterServiceProvider*&gt; or &lt;*OptionalFilterServiceProvider*&gt; element in the [filter pipeline configuration file](https://www.bing.com/search?q=filter+pipeline+configuration+file). The service provider module must export the **DrvPopulateFilterServices** function.
 
 ## Requirements
 
@@ -58,13 +58,13 @@ The [XPSDrv printer driver](https://www.bing.com/search?q=XPSDrv printer driver)
 
 <dl> <dt>
 
-[Filter pipeline configuration file](https://www.bing.com/search?q=Filter pipeline configuration file)
+[Filter pipeline configuration file](https://www.bing.com/search?q=Filter+pipeline+configuration+file)
 </dt> <dt>
 
-[**IPrintPipelinePropertyBag**](https://www.bing.com/search?q=**IPrintPipelinePropertyBag**)
+[**IPrintPipelinePropertyBag**](https://msdn.microsoft.com/3997291f-0af3-4fa8-8d36-20ff36551f42)
 </dt> <dt>
 
-[XPSDrv printer driver](https://www.bing.com/search?q=XPSDrv printer driver)
+[XPSDrv printer driver](https://www.bing.com/search?q=XPSDrv+printer+driver)
 </dt> </dl>
 
  

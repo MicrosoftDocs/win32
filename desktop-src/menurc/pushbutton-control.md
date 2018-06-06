@@ -53,7 +53,7 @@ PUSHBUTTON "ON", 7, 10, 10, 20, 10
 [**GetDialogBaseUnits**](https://www.bing.com/search?q=**GetDialogBaseUnits**)
 </dt> <dt>
 
-[Push Buttons](https://www.bing.com/search?q=Push Buttons)
+[Push Buttons](_win32_Button_Types_and_Styles#push-buttons)
 </dt> </dl>
 
  

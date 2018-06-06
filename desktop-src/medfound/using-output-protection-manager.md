@@ -105,7 +105,7 @@ To send a status request, perform the following steps.
 
      
 
-2.  Calculate the one-key CBC MAC (OMAC-1) to calculate a hash for the block of data that appears after the **omac** member, and then set the **omac** member to this value. See [OPM Example Code](https://www.bing.com/search?q=OPM Example Code).
+2.  Calculate the one-key CBC MAC (OMAC-1) to calculate a hash for the block of data that appears after the **omac** member, and then set the **omac** member to this value. See [OPM Example Code](opm-example-code.md#computing-the-omac-1-value).
 3.  Call the [**IOPMVideoOutput::GetInformation**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation) method. Pass in a pointer to the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters) structure and a pointer to an [**OPM\_REQUESTED\_INFORMATION**](/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information) structure. The driver's response is written to the **OPM\_REQUESTED\_INFORMATION** structure.
     -   The **omac** member of this structure contains an OMAC computed for the data that follows this member.
     -   The **abRequestedInformation** member is a byte array that contains output data for the response. The format of the output data is listed in the reference topic for each status request.

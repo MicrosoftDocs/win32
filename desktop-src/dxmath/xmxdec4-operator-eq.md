@@ -32,7 +32,7 @@ Assigns vector component data to the current instance of [**XMXDEC4**](/windows/
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMXDEC4::operator = (const XMXDEC4&amp;)</strong>](https://www.bing.com/search?q=<strong>XMXDEC4::operator = (const XMXDEC4&amp;)</strong>)</td>
+<td style="text-align: left;">[<strong>XMXDEC4::operator = (const XMXDEC4&amp;)</strong>](https://www.bing.com/search?q=<strong>XMXDEC4::operator+=+(const+XMXDEC4&amp;)</strong>)</td>
 <td style="text-align: left;">Assigns the vector component data from one instance of <code>XMXDEC4</code> to the current instance of <code>XMXDEC4</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMXDEC4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmxdec4) to the current instance of <code>XMXDEC4</code>. <br/>
 <blockquote>
 [!Note]<br />
@@ -41,7 +41,7 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMXDEC4::operator = (const uint32_t)</strong>](https://www.bing.com/search?q=<strong>XMXDEC4::operator = (const uint32_t)</strong>)</td>
+<td style="text-align: left;">[<strong>XMXDEC4::operator = (const uint32_t)</strong>](https://www.bing.com/search?q=<strong>XMXDEC4::operator+=+(const+uint32_t)</strong>)</td>
 <td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMXDEC4</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of [<strong>XMXDEC4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmxdec4). <br/>
 <blockquote>
 [!Note]<br />

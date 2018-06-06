@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WM\_ENABLE message
 
-Sent when an application changes the enabled state of a window. It is sent to the window whose enabled state is changing. This message is sent before the [**EnableWindow**](https://msdn.microsoft.com/windows/desktop/6913efcd-4d12-4396-a4ae-f1fd6335f7a8) function returns, but after the enabled state ([**WS\_DISABLED**](window-styles.md) style bit) of the window has changed.
+Sent when an application changes the enabled state of a window. It is sent to the window whose enabled state is changing. This message is sent before the [**EnableWindow**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\enablewindow.htm) function returns, but after the enabled state ([**WS\_DISABLED**](window-styles.md) style bit) of the window has changed.
 
 A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
 
@@ -65,7 +65,7 @@ If an application processes this message, it should return zero.
 **Reference**
 </dt> <dt>
 
-[**EnableWindow**](https://msdn.microsoft.com/windows/desktop/6913efcd-4d12-4396-a4ae-f1fd6335f7a8)
+[**EnableWindow**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\enablewindow.htm)
 </dt> <dt>
 
 **Conceptual**

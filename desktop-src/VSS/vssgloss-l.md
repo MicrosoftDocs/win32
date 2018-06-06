@@ -25,7 +25,7 @@ By convention the backslash "\\" is used to separate elements of a logical path.
 
 A logical path can be **NULL**. By convention, components with **NULL** logical paths are said to be at the top level of a writer's logical path hierarchy.
 
-See also [*component*](https://www.bing.com/search?q=*component*), [*subcomponent*](https://www.bing.com/search?q=*subcomponent*).
+See also [*component*](vssgloss-c.md#base-vssgloss-component), [*subcomponent*](vssgloss-s.md#base-vssgloss-subcomponent).
 
 </dd> </dl>
 

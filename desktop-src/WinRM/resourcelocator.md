@@ -26,13 +26,13 @@ ms.date: 05/31/2018
 
 # ResourceLocator object
 
-An object that supplies the path to a resource. You can use a **ResourceLocator** object instead of a [*resource URI*](https://www.bing.com/search?q=*resource URI*) in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
+An object that supplies the path to a resource. You can use a **ResourceLocator** object instead of a [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri) in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
 
 This object enables you to:
 
--   Add one or more [*selectors*](https://www.bing.com/search?q=*selectors*) that identify a particular instance of a resource. This is the same as supplying a key value in the resource URI for a resource that uses keys. For more information, see [**ResourceLocator.AddSelector**](resourcelocator-addselector.md). You can do a similar operation using the *filter* parameter in a call to [**Session.Enumerate**](session-enumerate.md).
--   Specify a [*fragment*](https://www.bing.com/search?q=*fragment*) path and dialect to get only one property of a resource. You can also specify one or all of the elements of an array property by supplying the array index. For more information, see [**ResourceLocator.FragmentPath**](resourcelocator-fragmentpath.md).
--   Add one or more [*options*](https://www.bing.com/search?q=*options*) that a data source may require to process a request. For more information, see [**ResourceLocator.AddOption**](resourcelocator-addoption.md).
+-   Add one or more [*selectors*](windows-remote-management-glossary.md#winrm-gloss-fragment) that identify a particular instance of a resource. This is the same as supplying a key value in the resource URI for a resource that uses keys. For more information, see [**ResourceLocator.AddSelector**](resourcelocator-addselector.md). You can do a similar operation using the *filter* parameter in a call to [**Session.Enumerate**](session-enumerate.md).
+-   Specify a [*fragment*](windows-remote-management-glossary.md#winrm-gloss-fragment) path and dialect to get only one property of a resource. You can also specify one or all of the elements of an array property by supplying the array index. For more information, see [**ResourceLocator.FragmentPath**](resourcelocator-fragmentpath.md).
+-   Add one or more [*options*](windows-remote-management-glossary.md#winrm-gloss-option) that a data source may require to process a request. For more information, see [**ResourceLocator.AddOption**](resourcelocator-addoption.md).
 
 For more information, see [Querying for Specific Instances of a Resource](querying-for-specific-instances-of-a-resource.md).
 
@@ -52,8 +52,8 @@ The **ResourceLocator** object has these methods.
 | Method                                                   | Description                                                                                                                        |
 |:---------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | [**AddOption**](resourcelocator-addoption.md)           | Adds additional data required to process the request.<br/>                                                                   |
-| [**AddSelector**](resourcelocator-addselector.md)       | Adds a [*selector*](https://www.bing.com/search?q=*selector*) to the **ResourceLocator** object.<br/>     |
-| [**ClearOptions**](resourcelocator-clearoptions.md)     | Removes any [*options*](https://www.bing.com/search?q=*options*) from the **ResourceLocator** object.<br/> |
+| [**AddSelector**](resourcelocator-addselector.md)       | Adds a [*selector*](windows-remote-management-glossary.md#winrm-gloss-selector) to the **ResourceLocator** object.<br/>     |
+| [**ClearOptions**](resourcelocator-clearoptions.md)     | Removes any [*options*](windows-remote-management-glossary.md#winrm-gloss-option) from the **ResourceLocator** object.<br/> |
 | [**ClearSelectors**](resourcelocator-clearselectors.md) | Removes all the selectors from a **ResourceLocator** object.<br/>                                                            |
 
 
@@ -68,10 +68,10 @@ The **ResourceLocator** object has these properties.
 
 | Property                                                                          | Access type           | Description                                                                                                                                                                                             |
 |:----------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**FragmentDialect**](resourcelocator-fragmentdialect.md)<br/>             | Read/write<br/> | Gets or sets the language dialect for a [*resource*](https://www.bing.com/search?q=*resource*) [*fragment*](https://www.bing.com/search?q=*fragment*).<br/> |
-| [**FragmentPath**](resourcelocator-fragmentpath.md)<br/>                   | Read/write<br/> | Gets or sets the path for a [*resource*](https://www.bing.com/search?q=*resource*) [*fragment*](https://www.bing.com/search?q=*fragment*) or property.<br/> |
+| [**FragmentDialect**](resourcelocator-fragmentdialect.md)<br/>             | Read/write<br/> | Gets or sets the language dialect for a [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource) [*fragment*](windows-remote-management-glossary.md#winrm-gloss-fragment).<br/> |
+| [**FragmentPath**](resourcelocator-fragmentpath.md)<br/>                   | Read/write<br/> | Gets or sets the path for a [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource) [*fragment*](windows-remote-management-glossary.md#winrm-gloss-fragment) or property.<br/> |
 | [**MustUnderstandOptions**](resourcelocator-mustunderstandoptions.md)<br/> | Read/write<br/> | Gets or sets the **MustUnderstandOptions** value for the **ResourceLocator** object.<br/>                                                                                                         |
-| [**ResourceURI**](resourcelocator-resourceuri.md)<br/>                     | Read/write<br/> | Gets or sets the [*resource URI*](https://www.bing.com/search?q=*resource URI*) in a **ResourceLocator** object.<br/>                                                          |
+| [**ResourceURI**](resourcelocator-resourceuri.md)<br/>                     | Read/write<br/> | Gets or sets the [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri) in a **ResourceLocator** object.<br/>                                                          |
 
 
 

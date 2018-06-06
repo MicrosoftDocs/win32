@@ -98,7 +98,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 </tr>
 <tr class="even">
 <td>[<strong>Bind Context String Keys</strong>](str-constants.md)<br/></td>
-<td>A set of string keys that are used with the [<strong>IBindCtx::RegisterObjectParam</strong>](https://msdn.microsoft.com/windows/desktop/7ee2b5b2-9b9c-41f1-8e58-7432ebc0f9ed) method to specify a bind context.<br/></td>
+<td>A set of string keys that are used with the [<strong>IBindCtx::RegisterObjectParam</strong>](https://msdn.microsoft.com/7ee2b5b2-9b9c-41f1-8e58-7432ebc0f9ed) method to specify a bind context.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>BNSTATE</strong>](/windows/desktop/api/Shdeprecated/ne-shdeprecated-tagbnstate)<br/></td>
@@ -186,7 +186,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 </tr>
 <tr class="odd">
 <td>[<strong>DBID Command Flags</strong>](/windows/desktop/api/shobjidl_core/ne-shobjidl_core-tagdeskbandcid)<br/></td>
-<td>These command IDs can be sent to the band object's container with [<strong>IOleCommandTarget::Exec</strong>](https://msdn.microsoft.com/windows/desktop/a2071ca9-8675-4f53-b30e-8c7198c2acca).<br/></td>
+<td>These command IDs can be sent to the band object's container with [<strong>IOleCommandTarget::Exec</strong>](https://msdn.microsoft.com/a2071ca9-8675-4f53-b30e-8c7198c2acca).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>DEF_SHARE_ID</strong>](/windows/desktop/api/shobjidl_core/ne-shobjidl_core-def_share_id)<br/></td>
@@ -286,7 +286,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 </tr>
 <tr class="even">
 <td>[<strong>IActiveDesktop Flags</strong>](iactivedesktop-flags.md)<br/></td>
-<td>This section describes the flags used by [<strong>IActiveDesktop</strong>](https://msdn.microsoft.com/windows/desktop/4d572b86-36e8-417b-857c-eb477c04c691) interface methods.<br/></td>
+<td>This section describes the flags used by [<strong>IActiveDesktop</strong>](https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691) interface methods.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IESHORTCUTFLAGS</strong>](/windows/desktop/api/shlobj_core/ne-shlobj_core-tagieshortcutflags)<br/></td>

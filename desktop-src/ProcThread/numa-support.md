@@ -23,7 +23,7 @@ First of all, you will need to determine the layout of nodes in the system. To r
 
 After you have determined which processors belong to which nodes, you can optimize your application's performance. To ensure that all threads for your process run on the same node, use the [**SetProcessAffinityMask**](/windows/desktop/api/WinBase/nf-winbase-setprocessaffinitymask) function with a process affinity mask that specifies processors in the same node. This increases the efficiency of applications whose threads need to access the same memory. Alternatively, to limit the number of threads on each node, use the [**SetThreadAffinityMask**](/windows/desktop/api/WinBase/nf-winbase-setthreadaffinitymask) function.
 
-Memory-intensive applications will need to optimize their memory usage. To retrieve the amount of free memory available to a node, use the [**GetNumaAvailableMemoryNode**](/windows/desktop/api/WinBase/nf-winbase-getnumaavailablememorynode) function. The [**VirtualAllocExNuma**](https://msdn.microsoft.com/windows/desktop/dcafd557-834e-4fdf-9cb2-aad76109ad92) function enables the application to specify a preferred node for the memory allocation. **VirtualAllocExNuma** does not allocate any physical pages, so it will succeed whether or not the pages are available on that node or elsewhere in the system. The physical pages are allocated on demand. If the preferred node runs out of pages, the memory manager will use pages from other nodes. If the memory is paged out, the same process is used when it is brought back in.
+Memory-intensive applications will need to optimize their memory usage. To retrieve the amount of free memory available to a node, use the [**GetNumaAvailableMemoryNode**](/windows/desktop/api/WinBase/nf-winbase-getnumaavailablememorynode) function. The [**VirtualAllocExNuma**](https://msdn.microsoft.com/dcafd557-834e-4fdf-9cb2-aad76109ad92) function enables the application to specify a preferred node for the memory allocation. **VirtualAllocExNuma** does not allocate any physical pages, so it will succeed whether or not the pages are available on that node or elsewhere in the system. The physical pages are allocated on demand. If the preferred node runs out of pages, the memory manager will use pages from other nodes. If the memory is paged out, the same process is used when it is brought back in.
 
 ### NUMA Support on Systems With More Than 64 Logical Processors
 
@@ -47,8 +47,8 @@ The following table describes the NUMA API.
 
 | Function                                                                     | Description                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AllocateUserPhysicalPagesNuma**](https://msdn.microsoft.com/windows/desktop/33af02c8-609f-4490-b17e-e116d24c217c)      | Allocates physical memory pages to be mapped and unmapped within any [Address Windowing Extensions](https://msdn.microsoft.com/windows/desktop/48a29922-8130-4540-86b0-0faa120566a6) (AWE) region of a specified process and specifies the NUMA node for the physical memory. |
-| [**CreateFileMappingNuma**](https://msdn.microsoft.com/windows/desktop/d10ead2c-e8a1-4e41-9bcd-d9025dbba3ff)                      | Creates or opens a named or unnamed file mapping object for a specified file, and specifies the NUMA node for the physical memory.                                                                                              |
+| [**AllocateUserPhysicalPagesNuma**](https://msdn.microsoft.com/33af02c8-609f-4490-b17e-e116d24c217c)      | Allocates physical memory pages to be mapped and unmapped within any [Address Windowing Extensions](https://msdn.microsoft.com/48a29922-8130-4540-86b0-0faa120566a6) (AWE) region of a specified process and specifies the NUMA node for the physical memory. |
+| [**CreateFileMappingNuma**](https://msdn.microsoft.com/d10ead2c-e8a1-4e41-9bcd-d9025dbba3ff)                      | Creates or opens a named or unnamed file mapping object for a specified file, and specifies the NUMA node for the physical memory.                                                                                              |
 | [**GetLogicalProcessorInformation**](/windows/desktop/api/WinBase/)     | Retrieves information about logical processors and related hardware.                                                                                                                                                            |
 | [**GetLogicalProcessorInformationEx**](/windows/desktop/api/WinBase/) | Retrieves information about the relationships of logical processors and related hardware.                                                                                                                                       |
 | [**GetNumaAvailableMemoryNode**](/windows/desktop/api/WinBase/nf-winbase-getnumaavailablememorynode)             | Retrieves the amount of memory available in the specified node.                                                                                                                                                                 |
@@ -60,20 +60,20 @@ The following table describes the NUMA API.
 | [**GetNumaProcessorNodeEx**](/windows/desktop/api/WinBase/nf-winbase-getnumaprocessornodeex)                     | Retrieves the node number as a **USHORT** value for the specified processor.                                                                                                                                                    |
 | [**GetNumaProximityNode**](/windows/desktop/api/WinBase/nf-winbase-getnumaproximitynode)                         | Retrieves the node number for the specified proximity identifier.                                                                                                                                                               |
 | [**GetNumaProximityNodeEx**](/windows/desktop/api/WinBase/)                     | Retrieves the node number as a **USHORT** value for the specified proximity identifier.                                                                                                                                         |
-| [**MapViewOfFileExNuma**](https://msdn.microsoft.com/windows/desktop/1e28c8db-112d-481d-b470-8ca618e125ce)                          | Maps a view of a file mapping into the address space of a calling process, and specifies the NUMA node for the physical memory.                                                                                                 |
-| [**VirtualAllocExNuma**](https://msdn.microsoft.com/windows/desktop/dcafd557-834e-4fdf-9cb2-aad76109ad92)                            | Reserves or commits a region of memory within the virtual address space of the specified process, and specifies the NUMA node for the physical memory.                                                                          |
+| [**MapViewOfFileExNuma**](https://msdn.microsoft.com/1e28c8db-112d-481d-b470-8ca618e125ce)                          | Maps a view of a file mapping into the address space of a calling process, and specifies the NUMA node for the physical memory.                                                                                                 |
+| [**VirtualAllocExNuma**](https://msdn.microsoft.com/dcafd557-834e-4fdf-9cb2-aad76109ad92)                            | Reserves or commits a region of memory within the virtual address space of the specified process, and specifies the NUMA node for the physical memory.                                                                          |
 
 
 
  
 
-The [**QueryWorkingSetEx**](https://www.bing.com/search?q=**QueryWorkingSetEx**) function can be used to retrieve the NUMA node on which a page is allocated. For an example, see [Allocating Memory from a NUMA Node](https://msdn.microsoft.com/windows/desktop/df025b35-fb6b-4987-806e-9c76e6b130a1).
+The [**QueryWorkingSetEx**](https://www.bing.com/search?q=**QueryWorkingSetEx**) function can be used to retrieve the NUMA node on which a page is allocated. For an example, see [Allocating Memory from a NUMA Node](https://msdn.microsoft.com/df025b35-fb6b-4987-806e-9c76e6b130a1).
 
 ## Related topics
 
 <dl> <dt>
 
-[Allocating Memory from a NUMA Node](https://msdn.microsoft.com/windows/desktop/df025b35-fb6b-4987-806e-9c76e6b130a1)
+[Allocating Memory from a NUMA Node](https://msdn.microsoft.com/df025b35-fb6b-4987-806e-9c76e6b130a1)
 </dt> <dt>
 
 [Multiple Processors](multiple-processors.md)

@@ -33,7 +33,7 @@ HRESULT GetData(
 *szMember* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Pointer to the name of the member for which to retrieve data. Specify **NULL** to retrieve all required members' data.
 
@@ -42,7 +42,7 @@ Pointer to the name of the member for which to retrieve data. Specify **NULL** t
 *pcbSize* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to receive the ppvData buffer size, in bytes.
 

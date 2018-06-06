@@ -47,7 +47,7 @@ Array of input mesh pointers (see [**ID3DXMesh**](id3dxmesh.md)). The number of 
 *NumMeshes* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number of input meshes to concatenate.
 
@@ -56,9 +56,9 @@ Number of input meshes to concatenate.
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
-Mesh creation options; this is a combination of one or more [**D3DXMESH**](https://msdn.microsoft.com/windows/desktop/c94e19ab-8024-4a28-9d1a-6d57707c3a52) flags. The mesh creation options are equivalent to the options parameter required by [**D3DXCreateMesh**](d3dxcreatemesh.md).
+Mesh creation options; this is a combination of one or more [**D3DXMESH**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmesh.htm) flags. The mesh creation options are equivalent to the options parameter required by [**D3DXCreateMesh**](d3dxcreatemesh.md).
 
 </dd> <dt>
 
@@ -115,7 +115,7 @@ If the function succeeds, the return value is S\_OK. If the function fails, the 
 
 ## Remarks
 
-If no [vertex declaration](vertex-declaration.md) is given as part of the Options mesh creation parameter, the method will generate a union of all of the vertex declarations of the submeshes, promoting channels and types if necessary. The method will create an attribute table from attribute tables of the input meshes. To ensure creation of an attribute table, call [**Optimize**](id3dxmesh--optimize.md) with Flags set to D3DXMESHOPT\_COMPACT and D3DXMESHOPT\_ATTRSORT (see [**D3DXMESHOPT**](https://msdn.microsoft.com/windows/desktop/32ef227a-b299-47c4-96b8-c0ea7bf549e1)).
+If no [vertex declaration](vertex-declaration.md) is given as part of the Options mesh creation parameter, the method will generate a union of all of the vertex declarations of the submeshes, promoting channels and types if necessary. The method will create an attribute table from attribute tables of the input meshes. To ensure creation of an attribute table, call [**Optimize**](id3dxmesh--optimize.md) with Flags set to D3DXMESHOPT\_COMPACT and D3DXMESHOPT\_ATTRSORT (see [**D3DXMESHOPT**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmeshopt.htm)).
 
 ## Requirements
 

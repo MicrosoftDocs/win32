@@ -61,7 +61,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-User interface plug-ins must implement a `IPrintOemUI::DevMode` method if they define private [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure members. The method's purpose is to define, validate, or convert (from one version to another) the contents of the private DEVMODEW structure members.
+User interface plug-ins must implement a `IPrintOemUI::DevMode` method if they define private [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure members. The method's purpose is to define, validate, or convert (from one version to another) the contents of the private DEVMODEW structure members.
 
 A private DEVMODEW section must be prefaced by a [**OEM\_DMEXTRAHEADER**](oem-dmextraheader.md) structure.
 

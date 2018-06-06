@@ -42,16 +42,16 @@ Because the Microsoft Individualization Service handles information from the use
 
 ## Provide the Software Certificate
 
-To enable the application to use the DRM license, the application must provide a software certificate or *key* to the Filter Graph Manager. This key is contained in a static library that is individualized for the application. For information about obtaining the individualized library, see [Obtaining the Required DRM Library](https://msdn.microsoft.com/windows/desktop/7bd13b77-439e-40cf-99e8-b359247da74d) in the Windows Media Format SDK documentation.
+To enable the application to use the DRM license, the application must provide a software certificate or *key* to the Filter Graph Manager. This key is contained in a static library that is individualized for the application. For information about obtaining the individualized library, see [Obtaining the Required DRM Library](https://msdn.microsoft.com/7bd13b77-439e-40cf-99e8-b359247da74d) in the Windows Media Format SDK documentation.
 
 To provide the software key, perform the following steps:
 
 1.  Link to the static library.
 2.  Implement the **IServiceProvider** interface.
-3.  Query the Filter Graph Manager for the [**IObjectWithSite**](https://msdn.microsoft.com/windows/desktop/e688136e-e06b-46ba-bec9-b8db2f9c468d) interface.
-4.  Call [**IObjectWithSite::SetSite**](https://msdn.microsoft.com/windows/desktop/5e95b2a6-85b3-4899-9e23-54ed9e69e821) with a pointer to your implementation of **IServiceProvider**.
+3.  Query the Filter Graph Manager for the [**IObjectWithSite**](https://msdn.microsoft.com/e688136e-e06b-46ba-bec9-b8db2f9c468d) interface.
+4.  Call [**IObjectWithSite::SetSite**](https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821) with a pointer to your implementation of **IServiceProvider**.
 5.  The Filter Graph Manager will call **IServiceProvider::QueryService**, specifying **IID\_IWMReader** for the service identifier.
-6.  In your implementation of **QueryService**, call [**WMCreateCertificate**](https://msdn.microsoft.com/windows/desktop/1ec7a351-851f-4a47-8d0d-780dd7e52232) to create the software key.
+6.  In your implementation of **QueryService**, call [**WMCreateCertificate**](https://msdn.microsoft.com/1ec7a351-851f-4a47-8d0d-780dd7e52232) to create the software key.
 
 The following code shows how to implement the **QueryService** method:
 
@@ -83,7 +83,7 @@ STDMETHODIMP Player::QueryService(REFIID siid, REFIID riid, void **ppv)
 
 
 
-The following code shows how to call [**SetSite**](https://msdn.microsoft.com/windows/desktop/5e95b2a6-85b3-4899-9e23-54ed9e69e821) on the Filter Graph Manager:
+The following code shows how to call [**SetSite**](https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821) on the Filter Graph Manager:
 
 
 ```C++
@@ -135,17 +135,17 @@ HRESULT Player::CreateFilterGraph()
 To play a DRM-protected ASF file, perform the following steps:
 
 1.  Create the [Filter Graph Manager](filter-graph-manager.md) and use the [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) interface to register for graph events.
-2.  Call [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) to create a new instance of the [WM ASF Reader](wm-asf-reader-filter.md) filter.
+2.  Call [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) to create a new instance of the [WM ASF Reader](wm-asf-reader-filter.md) filter.
 3.  Call [**IFilterGraph::AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) to add the filter to the filter graph.
 4.  Query the filter for the [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter) interface.
 5.  Call [**IFileSourceFilter::Load**](/windows/desktop/api/Strmif/nf-strmif-ifilesourcefilter-load) with the URL of the file.
 6.  Handle [**EC\_WMT\_EVENT**](ec-wmt-event.md) events.
 7.  On the first [**EC\_WMT\_EVENT**](ec-wmt-event.md) event, query the [WM ASF Reader](wm-asf-reader-filter.md) filter for the **IServiceProvider** interface.
-8.  Call **IServiceProvider::QueryService** to get a pointer to the [**IWMDRMReader**](https://msdn.microsoft.com/windows/desktop/bf4ff0f3-1f78-43c4-be4d-c74209176e58) interface.
+8.  Call **IServiceProvider::QueryService** to get a pointer to the [**IWMDRMReader**](https://msdn.microsoft.com/bf4ff0f3-1f78-43c4-be4d-c74209176e58) interface.
 9.  Call [**IGraphBuilder::Render**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-render) to render the output pins of the [WM ASF Reader](wm-asf-reader-filter.md) filter.
 
 > [!Note]  
-> When opening a DRM-protected file, do not call [**IGraphBuilder::RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) to create the filter graph. The WM ASF Reader filter cannot connect to any other filters until the DRM license is acquired. This step requires the application to use the [**IWMDRMReader**](https://msdn.microsoft.com/windows/desktop/bf4ff0f3-1f78-43c4-be4d-c74209176e58) interface, which must be obtained from the filter, as described in steps 7–8. Therefore, you must create the filter and add it to the graph
+> When opening a DRM-protected file, do not call [**IGraphBuilder::RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) to create the filter graph. The WM ASF Reader filter cannot connect to any other filters until the DRM license is acquired. This step requires the application to use the [**IWMDRMReader**](https://msdn.microsoft.com/bf4ff0f3-1f78-43c4-be4d-c74209176e58) interface, which must be obtained from the filter, as described in steps 7–8. Therefore, you must create the filter and add it to the graph
 
  
 
@@ -306,7 +306,7 @@ done:
 
 
 
-The following code shows how to get a pointer to the [**IWMDRMReader**](https://msdn.microsoft.com/windows/desktop/bf4ff0f3-1f78-43c4-be4d-c74209176e58) interface from the [WM ASF Reader](wm-asf-reader-filter.md):
+The following code shows how to get a pointer to the [**IWMDRMReader**](https://msdn.microsoft.com/bf4ff0f3-1f78-43c4-be4d-c74209176e58) interface from the [WM ASF Reader](wm-asf-reader-filter.md):
 
 
 ```C++

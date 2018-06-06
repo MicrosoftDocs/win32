@@ -24,7 +24,7 @@ Binary large object (BLOB) used to restrict the search for a network interface c
 <span id="_netmon_follow_set_gly"></span><span id="_NETMON_FOLLOW_SET_GLY"></span>**follow set**
 </dt> <dd>
 
-A protocol set that follows a protocol. Network Monitor uses the follow set of a protocol if the parser cannot detect the next protocol from the data in the capture. See also [*handoff set*](https://www.bing.com/search?q=*handoff set*)
+A protocol set that follows a protocol. Network Monitor uses the follow set of a protocol if the parser cannot detect the next protocol from the data in the capture. See also [*handoff set*](h.md#-netmon-handoff-set-gly)
 
 </dd> <dt>
 

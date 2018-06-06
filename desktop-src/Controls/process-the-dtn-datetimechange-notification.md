@@ -28,7 +28,7 @@ This topic demonstrates how to process notification of changes, made by the user
 
 ### 
 
-A DTP control sends the [DTN\_DATETIMECHANGE](dtn-datetimechange.md) notification code whenever a change occurs. For example, this notification will be generated when the user changes one of the fields in the control or, in the case where the control is set to the [**DTS\_SHOWNONE**](https://www.bing.com/search?q=**DTS\_SHOWNONE**) style, when the user changes the state of the control's check box.
+A DTP control sends the [DTN\_DATETIMECHANGE](dtn-datetimechange.md) notification code whenever a change occurs. For example, this notification will be generated when the user changes one of the fields in the control or, in the case where the control is set to the [**DTS\_SHOWNONE**](date-and-time-picker-control-styles.md#dts-shownone) style, when the user changes the state of the control's check box.
 
 Your application must include code to process DTN\_DATETIMECHANGE messages that are sent by the DTP control.
 

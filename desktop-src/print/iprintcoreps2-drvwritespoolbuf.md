@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintCorePS2::DrvWriteSpoolBuf method
 
-The `IPrintCorePS2::DrvWriteSpoolBuf` method is provided by the Pscript5 driver so that a [rendering plug-in](https://www.bing.com/search?q=rendering plug-in) can send printer data to the spooler.
+The `IPrintCorePS2::DrvWriteSpoolBuf` method is provided by the Pscript5 driver so that a [rendering plug-in](https://www.bing.com/search?q=rendering+plug-in) can send printer data to the spooler.
 
 ## Syntax
 

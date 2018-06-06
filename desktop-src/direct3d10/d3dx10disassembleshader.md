@@ -12,11 +12,11 @@ ms.date: 05/31/2018
 # D3DX10DisassembleShader function
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](https://msdn.microsoft.com/windows/desktop/0b5cfe31-1277-4923-a6e2-7e020019b74c) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddisassemble.htm) API.
 
  
 
-This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- no longer exists. Instead, use [**D3DDisassemble10Effect**](https://msdn.microsoft.com/windows/desktop/fb6668ae-db7f-4d69-aed4-4b50f3a2b315).
+This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- no longer exists. Instead, use [**D3DDisassemble10Effect**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddisassemble10effect.htm).
 
 ## Syntax
 
@@ -49,7 +49,7 @@ A pointer to the [**compiled shader**](/windows/desktop/api/D3D10/nf-d3d10-id3d1
 *BytecodeLength* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The size of pShader.
 
@@ -58,7 +58,7 @@ The size of pShader.
 *EnableColorCode* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Include HTML tags in the output to color code the result.
 
@@ -67,7 +67,7 @@ Include HTML tags in the output to color code the result.
 *pComments* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The comment string at the top of the shader that identifies the shader constants and variables.
 

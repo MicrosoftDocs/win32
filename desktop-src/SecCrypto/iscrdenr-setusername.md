@@ -78,7 +78,7 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 
 ## Remarks
 
-Call this method to specify the user name to be issued the [*smart card*](https://www.bing.com/search?q=*smart card*). An alternative to **setUserName** is [**ISCrdEnr::selectUserName**](iscrdenr-selectusername.md).
+Call this method to specify the user name to be issued the [*smart card*](security.s_gly#-security-smart-card-gly). An alternative to **setUserName** is [**ISCrdEnr::selectUserName**](iscrdenr-selectusername.md).
 
 After a user name has been specified, its value can be retrieved by calling [**getUserName**](iscrdenr-getusername.md).
 

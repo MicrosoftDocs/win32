@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IMemoryBufferByteAccess::GetBuffer method
 
-Gets an [**IMemoryBuffer**](https://www.bing.com/search?q=**IMemoryBuffer**) as an array of bytes.
+Gets an [**IMemoryBuffer**](https://msdn.microsoft.com/Windows.Foundation.IMemoryBuffer) as an array of bytes.
 
 ## Syntax
 
@@ -49,7 +49,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-When [**MemoryBuffer::Close**](https://www.bing.com/search?q=**MemoryBuffer::Close**) is called, the code using this buffer should set the *value* pointer to null.
+When [**MemoryBuffer::Close**](https://msdn.microsoft.com/Windows.Foundation.MemoryBuffer.Close) is called, the code using this buffer should set the *value* pointer to null.
 
 ## See also
 

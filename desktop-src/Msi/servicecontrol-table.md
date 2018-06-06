@@ -115,7 +115,7 @@ External key to column one of the [Component Table](component-table.md).
 
 ## Remarks
 
-The [StartServices](startservices-action.md), [StopServices](stopservices-action.md), and [DeleteServices](deleteservices-action.md) actions in [*sequence tables*](https://www.bing.com/search?q=*sequence tables*) process the information in this table. For information about using *sequence tables*, see [Using a Sequence Table](using-a-sequence-table.md).
+The [StartServices](startservices-action.md), [StopServices](stopservices-action.md), and [DeleteServices](deleteservices-action.md) actions in [*sequence tables*](s-gly.md#-msi-sequence-tables-gly) process the information in this table. For information about using *sequence tables*, see [Using a Sequence Table](using-a-sequence-table.md).
 
 Use the Name column to start, stop, or delete services that are being replaced by the installation or that are dependent upon a new service that is being installed. For example, entering MyService into the ServiceControl column can tie this service to MyComponent in the Component\_ column. If the bit field in the Event column is set for start while installing, then the installer starts MyService when installing MyComponent.
 

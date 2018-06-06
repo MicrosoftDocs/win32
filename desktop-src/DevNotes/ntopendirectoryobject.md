@@ -42,7 +42,7 @@ A handle to the newly opened directory object.
 *DesiredAccess* \[in\]
 </dt> <dd>
 
-An [**ACCESS\_MASK**](https://msdn.microsoft.com/windows/desktop/f115ee54-3333-4109-8004-d71904a7a943) that specifies the requested access to the directory object. This parameter can be one or more of the following values.
+An [**ACCESS\_MASK**](https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943) that specifies the requested access to the directory object. This parameter can be one or more of the following values.
 
 
 
@@ -88,7 +88,7 @@ The function returns STATUS\_SUCCESS or an error status. The possible status cod
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/windows/desktop/a0d7fc09-f888-4f46-a571-d3719a627597) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions.
 
 ## Requirements
 

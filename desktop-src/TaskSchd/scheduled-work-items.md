@@ -16,9 +16,9 @@ ms.date: 05/31/2018
 
 # Scheduled Work Items
 
-The Task Scheduler uses two terms to describe what it can schedule: work items and tasks. Of these two terms, [*work item*](https://www.bing.com/search?q=*work item*) is a more general term that describes any type of item that can be scheduled. A *work item* can be any item that the Task Scheduler service runs at a time that is specified by the item's trigger(s).
+The Task Scheduler uses two terms to describe what it can schedule: work items and tasks. Of these two terms, [*work item*](w.md#-msb-working-directory-gly) is a more general term that describes any type of item that can be scheduled. A *work item* can be any item that the Task Scheduler service runs at a time that is specified by the item's trigger(s).
 
-In contrast, a [*task*](https://www.bing.com/search?q=*task*) is a specific type of work item. Currently, the only type of scheduled work item that is supported is a task.
+In contrast, a [*task*](t.md#-msb-tasks-gly) is a specific type of work item. Currently, the only type of scheduled work item that is supported is a task.
 
 The [**IScheduledWorkItem**](/windows/desktop/api/Mstask/nn-mstask-ischeduledworkitem) interface contains methods that are supported by all types of scheduled work items. For example, account information, run times, and application-defined comments are properties that may apply to all types of work items. These properties can be set and retrieved through the **IScheduledWorkItem** interface.
 

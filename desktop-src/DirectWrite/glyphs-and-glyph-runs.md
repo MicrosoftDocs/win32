@@ -58,7 +58,7 @@ The following diagram shows various metrics of two different glyph characters.
 
 When implementing a custom text renderer, the rendering of glyphs is handled by the [**IDWriteTextRenderer::DrawGlyphRun**](/windows/desktop/api/dwrite/), a callback method that you implement as part of a class derived from [**IDWriteTextRenderer**](/windows/desktop/api/dwrite/). The [**DWRITE\_GLYPH\_RUN**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run) structure that is passed to [**DrawGlyphRun**](/windows/desktop/api/dwrite/) contains a [**IDWriteFontFace**](/windows/desktop/api/dwrite/) object, named *fontFace*, that represents the font face for the entire glyph run.
 
-The [**IDWriteFontFace**](/windows/desktop/api/dwrite/) object also provides the [**GetGlyphRunOutline**](/windows/desktop/api/dwrite/) method, which computes the glyph outlines by using a specified geometry sink callback, such as [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/library/windows/desktop/dd316919) when rendering with [Direct2D](https://www.bing.com/search?q=Direct2D).
+The [**IDWriteFontFace**](/windows/desktop/api/dwrite/) object also provides the [**GetGlyphRunOutline**](/windows/desktop/api/dwrite/) method, which computes the glyph outlines by using a specified geometry sink callback, such as [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/library/windows/desktop/dd316919) when rendering with [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b).
 
 For more information, see the [How to Implement a Custom Text Renderer](how-to-implement-a-custom-text-renderer.md) topic.
 

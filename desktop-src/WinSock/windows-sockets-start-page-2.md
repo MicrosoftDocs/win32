@@ -45,10 +45,10 @@ Windows Sockets 2 can be used on all Windows platforms. Where certain implementa
 
 <dl> <dt>
 
-[IP Helper](https://msdn.microsoft.com/windows/desktop/4896a9f8-0486-4380-bf49-d1c9ef114acc)
+[IP Helper](https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc)
 </dt> <dt>
 
-[Quality of Service](https://msdn.microsoft.com/windows/desktop/2a017166-eba4-4dd9-b623-f0d696e11de2)
+[Quality of Service](https://msdn.microsoft.com/2a017166-eba4-4dd9-b623-f0d696e11de2)
 </dt> </dl>
 
  

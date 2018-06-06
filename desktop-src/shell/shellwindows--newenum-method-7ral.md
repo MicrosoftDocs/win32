@@ -27,7 +27,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332)\*\***
+Type: **[**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332)\*\***
 
 An object reference to the [**ShellWindows**](shellwindows.md) object copy.
 

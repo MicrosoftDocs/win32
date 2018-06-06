@@ -37,7 +37,7 @@ Constructs instances of the [**XMDECN4**](/windows/desktop/api/DirectXPackedVect
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMDECN4 ()</strong>](https://www.bing.com/search?q=<strong>XMDECN4 ()</strong>)</td>
+<td style="text-align: left;">[<strong>XMDECN4 ()</strong>](https://www.bing.com/search?q=<strong>XMDECN4+()</strong>)</td>
 <td style="text-align: left;">Default constructor for <code>XMDECN4</code>. <br/> Default constructor for [<strong>XMDECN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmdecn4). <br/>
 <blockquote>
 [!Note]<br />
@@ -46,7 +46,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMDECN4 (uint32_t)</strong>](https://www.bing.com/search?q=<strong>XMDECN4 (uint32_t)</strong>)</td>
+<td style="text-align: left;">[<strong>XMDECN4 (uint32_t)</strong>](https://www.bing.com/search?q=<strong>XMDECN4+(uint32_t)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMDECN4</code> from a <code>uint32_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of [<strong>XMDECN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmdecn4) from a <code>uint32_t</code> variable containing component data in a packed format. <br/>
 <blockquote>
 [!Note]<br />
@@ -55,7 +55,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMDECN4 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMDECN4 (const float*)</strong>)</td>
+<td style="text-align: left;">[<strong>XMDECN4 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMDECN4+(const+float*)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMDECN4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMDECN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmdecn4) from a from a four element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
@@ -64,7 +64,7 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMDECN4 (float,float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMDECN4 (float,float,float,float)</strong>)</td>
+<td style="text-align: left;">[<strong>XMDECN4 (float,float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMDECN4+(float,float,float,float)</strong>)</td>
 <td style="text-align: left;">Initializes a new instance of <code>XMDECN4</code> from four normalized <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMDECN4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmdecn4) from four normalized <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />

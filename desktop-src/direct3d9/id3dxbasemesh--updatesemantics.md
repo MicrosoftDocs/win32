@@ -33,7 +33,7 @@ HRESULT UpdateSemantics(
 
 Type: **[**D3DVERTEXELEMENT9**](d3dvertexelement9.md)**
 
-An array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, describing the vertex format of the mesh vertices. The upper limit of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](https://msdn.microsoft.com/windows/desktop/234e99a2-1907-4065-b03b-fb9e8d6812ab).
+An array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, describing the vertex format of the mesh vertices. The upper limit of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](https://msdn.microsoft.com/VS|directx_sdk|~\max_fvf_decl_size.htm).
 
 </dd> </dl>
 

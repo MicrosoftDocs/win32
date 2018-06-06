@@ -35,9 +35,9 @@ BOOL APIENTRY OEMSendPage(
 
 ### Comments
 
-See [*DrvSendPage*](https://www.bing.com/search?q=*DrvSendPage*).
+See [*DrvSendPage*](https://msdn.microsoft.com/d9c452e3-3850-4ca2-8114-b3866fbdeba6).
 
-Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://www.bing.com/search?q=**DRVENABLEDATA**) structure listing all of the drawing DDIs to be hooked out.
+Do not directly hook out this drawing function. Instead, implement [**OEMEnableDriver**](oemenabledriver.md) so that it fills in a [**DRVENABLEDATA**](https://msdn.microsoft.com/dbeaecf8-dea1-4412-babb-6e40bf5dc7b0) structure listing all of the drawing DDIs to be hooked out.
 
 If you call into the core driver, cast the call using the **PFN\_DrvSendPage** function pointer.
 

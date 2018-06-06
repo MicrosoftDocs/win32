@@ -52,7 +52,7 @@ Caller-supplied pointer to an [**OEMUIOBJ**](oemuiobj.md) structure.
 *pPublicDM* 
 </dt> <dd>
 
-Caller-supplied pointer to a validated [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure.
+Caller-supplied pointer to a validated [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure.
 
 </dd> <dt>
 
@@ -137,7 +137,7 @@ If you provide a user interface plug-in, the printer driver's **DrvQueryColorPro
 
 If `IPrintOemUI::QueryColorProfile` methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
-For more information about creating and installing user interface plug-ins, see [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing Microsoft's Printer Drivers).
+For more information about creating and installing user interface plug-ins, see [Customizing Microsoft's Printer Drivers](https://www.bing.com/search?q=Customizing+Microsoft's+Printer+Drivers).
 
 ## Requirements
 

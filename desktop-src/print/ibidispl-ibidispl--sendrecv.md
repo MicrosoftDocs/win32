@@ -73,7 +73,7 @@ The method returns one of the following values.
 
  
 
-Note that the **HRESULT** may contain a system error code defined in [Bidi Error Codes](https://www.bing.com/search?q=Bidi Error Codes).
+Note that the **HRESULT** may contain a system error code defined in [Bidi Error Codes](https://www.bing.com/search?q=Bidi+Error+Codes).
 
 ## Remarks
 
@@ -101,7 +101,7 @@ The BIDI\_ACTION\_\* values are case insensitive strings.
 [Bidirectional Communication Interfaces](bidirectional-communication-interfaces.md)
 </dt> <dt>
 
-[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional Communication Schema)
+[Bidirectional Communication Schema](https://www.bing.com/search?q=Bidirectional+Communication+Schema)
 </dt> </dl>
 
  

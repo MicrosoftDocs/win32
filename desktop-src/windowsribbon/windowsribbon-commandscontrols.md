@@ -64,11 +64,11 @@ The capabilities of this command model are demonstrated by the Ribbon Quick Acce
 
 The following picture shows the **Paste** and **Paste from** Commands, represented by a [**SplitButton**](windowsribbon-element-splitbutton.md) control, in the Ribbon of Windows 7 Paint.
 
-![picture of the paste splitbutton in the microsoft paint ribbon.](https://www.bing.com/search?q=picture of the paste splitbutton in the microsoft paint ribbon.)
+![picture of the paste splitbutton in the microsoft paint ribbon.](https://www.bing.com/search?q=picture+of+the+paste+splitbutton+in+the+microsoft+paint+ribbon.)
 
 The following picture shows the same **Paste** and **Paste from** Commands, still represented by a [**SplitButton**](windowsribbon-element-splitbutton.md) control, in the Ribbon QAT of Windows 7 Paint.
 
-![picture of the paste splitbutton in the microsoft paint qat.](https://www.bing.com/search?q=picture of the paste splitbutton in the microsoft paint qat.)
+![picture of the paste splitbutton in the microsoft paint qat.](https://www.bing.com/search?q=picture+of+the+paste+splitbutton+in+the+microsoft+paint+qat.)
 
 When a control is hosted by the QAT, the new instance of the control maintains all the functionality of the original control without the need for additional event listeners and command handlers to support it. Both controls are bound to the same Ribbon Command handler through a shared Command identifier. In this way, the framework treats both controls as one, no matter which is invoked.
 

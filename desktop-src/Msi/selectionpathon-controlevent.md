@@ -15,7 +15,7 @@ The [SelectionTree control](selectiontree-control.md) uses the SelectionPathOn e
 
 This event can only affect controls that are located on the same dialog box as the SelectionTree control.
 
-This ControlEvent requires the user interface to be run at the [*full UI*](https://www.bing.com/search?q=*full UI*) level. This event will not work with a [*reduced UI*](https://www.bing.com/search?q=*reduced UI*) or [*basic UI*](https://www.bing.com/search?q=*basic UI*). For information, see [User Interface Levels](user-interface-levels.md).
+This ControlEvent requires the user interface to be run at the [*full UI*](f-gly.md#-msi-full-ui-gly) level. This event will not work with a [*reduced UI*](r-gly.md#-msi-reduced-ui-gly) or [*basic UI*](b-gly.md#-msi-basic-ui-gly). For information, see [User Interface Levels](user-interface-levels.md).
 
 The SelectionPathOn ControlEvent is never published during a [Maintenance Installation](maintenance-installation.md).
 

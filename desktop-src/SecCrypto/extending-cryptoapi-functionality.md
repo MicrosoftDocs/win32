@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Extending CryptoAPI Functionality
 
-The future of [*cryptography*](https://www.bing.com/search?q=*cryptography*) and secure communications cannot easily be predicted. New certificate types might emerge, various certificate extensions might find common usage, and new message types might be introduced. Because of this, extensibility is part of the design of key [*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) functions.
+The future of [*cryptography*](security.c_gly#-security-cryptography-gly) and secure communications cannot easily be predicted. New certificate types might emerge, various certificate extensions might find common usage, and new message types might be introduced. Because of this, extensibility is part of the design of key [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions.
 
 The following sections present overviews on the use of OIDs for extending CryptoAPI functions.
 

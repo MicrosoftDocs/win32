@@ -20,7 +20,7 @@ The following functionality has been added or changed in Microsoft DirectX Graph
 
 ## Cheaper adapter enumeration
 
-For Direct3D 12, it’s no longer possible to backtrack from a device to the [**IDXGIAdapter**](/windows/desktop/api/DXGI/nn-dxgi-idxgiadapter) that was used to create it. It’s also no longer possible to provide D3D\_DRIVER\_TYPE\_WARP into [**D3D12CreateDevice**](https://msdn.microsoft.com/windows/desktop/F403D730-CBD4-4AE0-86F6-8CE122E82CB4). To make development easier, you can use [**IDXGIFactory4**](/windows/desktop/api/DXGI1_4/nn-dxgi1_4-idxgifactory4) to deal with both of these. [**IDXGIFactory4::EnumAdapterByLuid**](/windows/desktop/api/DXGI1_4/nf-dxgi1_4-idxgifactory4-enumadapterbyluid) (designed to be paired with [**ID3D12Device::GetAdapterLuid**](https://msdn.microsoft.com/windows/desktop/006E72E0-AE09-4834-9ACB-D48698050BF2)) enables an app to retrieve information about the adapter where a Direct3D 12 device was created. [**IDXGIFactory4::EnumWarpAdapter**](/windows/desktop/api/DXGI1_4/nf-dxgi1_4-idxgifactory4-enumwarpadapter) provides an adapter which can be provided to **D3D12CreateDevice** to use the WARP renderer.
+For Direct3D 12, it’s no longer possible to backtrack from a device to the [**IDXGIAdapter**](/windows/desktop/api/DXGI/nn-dxgi-idxgiadapter) that was used to create it. It’s also no longer possible to provide D3D\_DRIVER\_TYPE\_WARP into [**D3D12CreateDevice**](https://msdn.microsoft.com/F403D730-CBD4-4AE0-86F6-8CE122E82CB4). To make development easier, you can use [**IDXGIFactory4**](/windows/desktop/api/DXGI1_4/nn-dxgi1_4-idxgifactory4) to deal with both of these. [**IDXGIFactory4::EnumAdapterByLuid**](/windows/desktop/api/DXGI1_4/nf-dxgi1_4-idxgifactory4-enumadapterbyluid) (designed to be paired with [**ID3D12Device::GetAdapterLuid**](https://msdn.microsoft.com/006E72E0-AE09-4834-9ACB-D48698050BF2)) enables an app to retrieve information about the adapter where a Direct3D 12 device was created. [**IDXGIFactory4::EnumWarpAdapter**](/windows/desktop/api/DXGI1_4/nf-dxgi1_4-idxgifactory4-enumwarpadapter) provides an adapter which can be provided to **D3D12CreateDevice** to use the WARP renderer.
 
 ## Video memory budget tracking
 
@@ -28,7 +28,7 @@ Application developers are encouraged to use a video memory reservation system, 
 
 The amount of physical memory available for a process is known as the "video memory budget". The budget can fluctuate noticeably as background processes wake-up and sleep; and fluctuate dramatically when the user switches away to another application. The application can be notified when the budget changes and poll both the current budget and the currently consumed amount of memory. If an application doesn’t stay within its budget, the process will be intermittently frozen to allow other applications to run and/or the creation APIs will return failure. The [**IDXGIAdapter3**](/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3) interface provides the methods pertaining to this functionality, in particular [**QueryVideoMemoryInfo**](/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-queryvideomemoryinfo) and [**RegisterVideoMemoryBudgetChangeNotificationEvent**](/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-registervideomemorybudgetchangenotificationevent).
 
-For more information, refer to the Direct3D 12 topic on [Residency](https://msdn.microsoft.com/windows/desktop/956F80D7-EEC8-4D88-B251-EE325614F31E).
+For more information, refer to the Direct3D 12 topic on [Residency](https://msdn.microsoft.com/956F80D7-EEC8-4D88-B251-EE325614F31E).
 
 ## Direct3D 12 Swapchain Changes
 
@@ -40,7 +40,7 @@ In Direct3D 11, applications could call [**GetBuffer**](/windows/desktop/api/DXG
 
 **Multi-Adapter Support**
 
-When a swapchain is created on a multi-GPU adapter, the backbuffers are all created on node 1 and only a single command queue is supported. [**ResizeBuffers1**](/windows/desktop/api/DXGI1_4/nf-dxgi1_4-idxgiswapchain3-resizebuffers1) enables applications to create backbuffers on different nodes, allowing a different command queue to be used with each. These capabilities enable Alternate Frame Rendering (AFR) techniques to be used with the swapchain. Refer to [Direct3D 12 Multi-Adapters](https://www.bing.com/search?q=Direct3D 12 Multi-Adapters).
+When a swapchain is created on a multi-GPU adapter, the backbuffers are all created on node 1 and only a single command queue is supported. [**ResizeBuffers1**](/windows/desktop/api/DXGI1_4/nf-dxgi1_4-idxgiswapchain3-resizebuffers1) enables applications to create backbuffers on different nodes, allowing a different command queue to be used with each. These capabilities enable Alternate Frame Rendering (AFR) techniques to be used with the swapchain. Refer to [Direct3D 12 Multi-Adapters](https://msdn.microsoft.com/CC4C6594-D48F-40C1-93EE-9F98532BC038).
 
 **Miscellaneous**
 
@@ -54,7 +54,7 @@ When a swapchain is created on a multi-GPU adapter, the backbuffers are all crea
 
 <dl> <dt>
 
-[Direct3D 12 Hardware Feature Levels](https://msdn.microsoft.com/windows/desktop/B8304E29-A532-464E-8FAF-075228D8FB73)
+[Direct3D 12 Hardware Feature Levels](https://msdn.microsoft.com/B8304E29-A532-464E-8FAF-075228D8FB73)
 </dt> <dt>
 
 [Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)

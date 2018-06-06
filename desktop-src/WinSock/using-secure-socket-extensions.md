@@ -280,28 +280,28 @@ int QueryTcpSocketSecurity(IN SOCKET sock)
 
 <dl> <dt>
 
-[About Windows Filtering Platform](https://msdn.microsoft.com/windows/desktop/6faad008-b2f6-4f45-89c7-ae98c2f58ce1)
+[About Windows Filtering Platform](https://msdn.microsoft.com/6faad008-b2f6-4f45-89c7-ae98c2f58ce1)
 </dt> <dt>
 
 [Advanced Winsock Samples Using Secure Socket Extensions](advanced-winsock-samples-using-secure-socket-extensions.md)
 </dt> <dt>
 
-[Application Layer Enforcement (ALE)](https://msdn.microsoft.com/windows/desktop/ffebd312-9220-476c-a4ba-28e2e8ac8879)
+[Application Layer Enforcement (ALE)](https://msdn.microsoft.com/ffebd312-9220-476c-a4ba-28e2e8ac8879)
 </dt> <dt>
 
-[IPsec Configuration](https://msdn.microsoft.com/windows/desktop/d54b5caa-daea-4231-9909-7a8d388df661)
+[IPsec Configuration](https://msdn.microsoft.com/d54b5caa-daea-4231-9909-7a8d388df661)
 </dt> <dt>
 
-[IPsec Functions](https://msdn.microsoft.com/windows/desktop/db656c58-7776-44c4-a7ce-c38e59b37c74)
+[IPsec Functions](https://msdn.microsoft.com/db656c58-7776-44c4-a7ce-c38e59b37c74)
 </dt> <dt>
 
-[Security Support Provider Interface (SSPI)](https://msdn.microsoft.com/windows/desktop/79ed7c51-4191-40b2-8d5f-06157f5b99be)
+[Security Support Provider Interface (SSPI)](https://msdn.microsoft.com/79ed7c51-4191-40b2-8d5f-06157f5b99be)
 </dt> <dt>
 
-[Windows Filtering Platform](https://www.bing.com/search?q=Windows Filtering Platform)
+[Windows Filtering Platform](https://www.bing.com/search?q=Windows+Filtering+Platform)
 </dt> <dt>
 
-[Windows Filtering Platform API Functions](https://msdn.microsoft.com/windows/desktop/26a69710-9981-40a4-8b1e-dca709624ead)
+[Windows Filtering Platform API Functions](https://msdn.microsoft.com/26a69710-9981-40a4-8b1e-dca709624ead)
 </dt> <dt>
 
 [Winsock Secure Socket Extensions](winsock-secure-socket-extensions.md)

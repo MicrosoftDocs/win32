@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 This section contains reference information for the constants defined in D3DX.
 
 -   [D3DX\_CHANNEL](d3dx-channel.md) - Texture channel constants
--   [**D3DXERR**](https://msdn.microsoft.com/windows/desktop/2318278e-e1e1-4cd8-a5ce-5c99f3bc47ba) - Error constants
+-   [**D3DXERR**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxerr.htm) - Error constants
 -   [D3DX\_FILTER](d3dx-filter.md) - Texture filter constants
 -   [D3DX\_NORMALMAP](d3dx-normalmap.md) - Normal map generation constants
 -   [D3DXSHADER Flags](d3dxshader-flags.md) - Shader compile options

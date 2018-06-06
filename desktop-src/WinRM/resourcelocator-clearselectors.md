@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 
 # ResourceLocator.ClearSelectors method
 
-Removes all of the [*selectors*](https://www.bing.com/search?q=*selectors*) from a [**ResourceLocator**](resourcelocator.md) object. You can provide a [**ResourceLocator**](resourcelocator.md) object instead of specifying a resource URI in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
+Removes all of the [*selectors*](windows-remote-management-glossary.md#winrm-gloss-selector) from a [**ResourceLocator**](resourcelocator.md) object. You can provide a [**ResourceLocator**](resourcelocator.md) object instead of specifying a resource URI in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
 
 ## Syntax
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Installing the New Functionality
 
-Installing new functionality into memory can improve performance. [*CryptoAPI*](https://www.bing.com/search?q=*CryptoAPI*) functions search memory for the functionality before searching the registry for the DLL. The DLL must be loaded before installing the functionality.
+Installing new functionality into memory can improve performance. [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions search memory for the functionality before searching the registry for the DLL. The DLL must be loaded before installing the functionality.
 
 [**CryptInstallOIDFunctionAddress**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress) installs the address of the new functionality. It should be placed in the **DllMain** function of the DLL.
 

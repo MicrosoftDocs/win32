@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 In WMI, a class is an object that describes some aspect of an enterprise, such as a special type of disk drive. After you have created a class definition, write your provider DLL to supply instances of the class, property data, and execute methods defined for the class. Scripts and applications can then obtain data or control the device. For more information, see [Developing a WMI Provider](developing-a-wmi-provider.md).
 
 > [!Note]  
-> To ensure that all your WMI class definitions for managed objects are restored to the [*WMI repository*](https://www.bing.com/search?q=*WMI repository*) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) statement preprocessor instruction in your MOF file.
+> To ensure that all your WMI class definitions for managed objects are restored to the [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) statement preprocessor instruction in your MOF file.
 
  
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # OEM\_DMEXTRAHEADER structure
 
-The OEM\_DMEXTRAHEADER structure must be used to define the first members of a set of private [**DEVMODEW**](https://www.bing.com/search?q=**DEVMODEW**) structure members.
+The OEM\_DMEXTRAHEADER structure must be used to define the first members of a set of private [**DEVMODEW**](https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b) structure members.
 
 ## Syntax
 
@@ -53,7 +53,7 @@ Version number of the user interface plug-in that is defining the private DEVMOD
 
 ## Remarks
 
-For more information about adding DEVMODEW structure members, see [Providing DEVMODE Structure Additions](https://www.bing.com/search?q=Providing DEVMODE Structure Additions).
+For more information about adding DEVMODEW structure members, see [Providing DEVMODE Structure Additions](https://www.bing.com/search?q=Providing+DEVMODE+Structure+Additions).
 
 ## Requirements
 

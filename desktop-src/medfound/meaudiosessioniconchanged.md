@@ -30,7 +30,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 ## Remarks
 
-This event is sent by the audio renderer's stream sink. The event is triggered when the audio renderer receives an [**IAudioSessionEvents::OnIconPathChanged**](https://msdn.microsoft.com/windows/desktop/32669e52-28bf-4739-9f39-6e0175ca779c) event from the audio session.
+This event is sent by the audio renderer's stream sink. The event is triggered when the audio renderer receives an [**IAudioSessionEvents::OnIconPathChanged**](https://msdn.microsoft.com/32669e52-28bf-4739-9f39-6e0175ca779c) event from the audio session.
 
 To get the new icon, call [**IMFAudioPolicy::GetIconPath**](/windows/desktop/api/mfidl/nf-mfidl-imfaudiopolicy-geticonpath).
 

@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 <span id="wmi.gloss_flavor"></span><span id="WMI.GLOSS_FLAVOR"></span>**flavor**
 </dt> <dd>
 
-A WMI-defined flag that describes the behavior of a [*qualifier*](https://www.bing.com/search?q=*qualifier*). WMI flavors describe rules that specify whether a qualifier can be propagated to derived classes and instances and whether a derived class or instance can override the qualifier's original value.
+A WMI-defined flag that describes the behavior of a [*qualifier*](gloss-q.md#wmi-gloss-qualifier). WMI flavors describe rules that specify whether a qualifier can be propagated to derived classes and instances and whether a derived class or instance can override the qualifier's original value.
 
 </dd> </dl>
 

@@ -143,7 +143,7 @@ HKEY_LOCAL_MACHINE
                LocalizedString = @C:\Program Files\LitwareInc\ResourceDLL.dll,-123
 ```
 
-Note the use of the (Default) entry as a secondary declaration of the client's display name. If the **LocalizedString** is not present, the (Default) value is used instead. This works with all client types (Internet browsers, email browsers, instant messengers, and media players). For backward compatibility with the [Internet Explorer Client Registry Layout](https://www.bing.com/search?q=Internet Explorer Client Registry Layout), email programs should set the (Default) value of the *CanonicalName* subkey to the client's display name in the currently installed language.
+Note the use of the (Default) entry as a secondary declaration of the client's display name. If the **LocalizedString** is not present, the (Default) value is used instead. This works with all client types (Internet browsers, email browsers, instant messengers, and media players). For backward compatibility with the [Internet Explorer Client Registry Layout](https://www.bing.com/search?q=Internet+Explorer+Client+Registry+Layout), email programs should set the (Default) value of the *CanonicalName* subkey to the client's display name in the currently installed language.
 
 ### Registering a Program's Icon
 
@@ -587,7 +587,7 @@ HKEY_LOCAL_MACHINE
 
  
 
-After updating the registry keys, the program should broadcast the [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/windows/desktop/77174e06-a25b-440a-9e9c-4fd5979c433c) message with **wParam** = 0 and **lParam** pointing to the null-terminated string "Software\\Clients\\**ClientTypeName**" to notify the operating system that the default client has changed.
+After updating the registry keys, the program should broadcast the [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/77174e06-a25b-440a-9e9c-4fd5979c433c) message with **wParam** = 0 and **lParam** pointing to the null-terminated string "Software\\Clients\\**ClientTypeName**" to notify the operating system that the default client has changed.
 
 ### Mail Client Registration
 
@@ -603,7 +603,7 @@ HKEY_LOCAL_MACHINE
                   mailto
 ```
 
-This registry hierarchy replaces the existing `mailto` registry hierarchy found at **HKEY\_CLASSES\_ROOT**\\**mailto**. The hierarchy remains the same, only the location has changed. The format of this hierarchy is documented on MSDN under [Asynchronous Pluggable Protocol Overviews and Tutorials](https://www.bing.com/search?q=Asynchronous Pluggable Protocol Overviews and Tutorials). Typically, the `mailto` protocol is registered to a program rather than an asynchronous protocol, in which case the documentation on [Registering an Application to a URI Scheme](https://www.bing.com/search?q=Registering an Application to a URI Scheme) applies.
+This registry hierarchy replaces the existing `mailto` registry hierarchy found at **HKEY\_CLASSES\_ROOT**\\**mailto**. The hierarchy remains the same, only the location has changed. The format of this hierarchy is documented on MSDN under [Asynchronous Pluggable Protocol Overviews and Tutorials](https://www.bing.com/search?q=Asynchronous+Pluggable+Protocol+Overviews+and+Tutorials). Typically, the `mailto` protocol is registered to a program rather than an asynchronous protocol, in which case the documentation on [Registering an Application to a URI Scheme](https://www.bing.com/search?q=Registering+an+Application+to+a+URI+Scheme) applies.
 
 The following example shows the `mailto` section of the registration for a `mailto` handler registered to a program.
 
@@ -765,13 +765,13 @@ HKEY_LOCAL_MACHINE
 [How to Register an Internet Browser or Email Client With the Windows Start Menu](start-menu-reg.md)
 </dt> <dt>
 
-[Internet Explorer Client Registry Layout (see the "Client Registry Key Definitions" section)](https://www.bing.com/search?q=Internet Explorer Client Registry Layout (see the "Client Registry Key Definitions" section))
+[Internet Explorer Client Registry Layout (see the "Client Registry Key Definitions" section)](https://www.bing.com/search?q=Internet+Explorer+Client+Registry+Layout+(see+the+"Client+Registry+Key+Definitions"+section))
 </dt> <dt>
 
-[Asynchronous Pluggable Protocol Overviews and Tutorials](https://www.bing.com/search?q=Asynchronous Pluggable Protocol Overviews and Tutorials)
+[Asynchronous Pluggable Protocol Overviews and Tutorials](https://www.bing.com/search?q=Asynchronous+Pluggable+Protocol+Overviews+and+Tutorials)
 </dt> <dt>
 
-[Registering an Application to a URI Scheme](https://www.bing.com/search?q=Registering an Application to a URI Scheme)
+[Registering an Application to a URI Scheme](https://www.bing.com/search?q=Registering+an+Application+to+a+URI+Scheme)
 </dt> </dl>
 
  

@@ -26,7 +26,7 @@ ms.date: 05/31/2018
 
 # WSMan object
 
-Provides methods and properties used to create a session, represented by a [**Session**](session.md) object. Any Windows Remote Management operations require creation of a [**Session**](session.md) that connects to a remote computer, [*base management controller*](https://www.bing.com/search?q=*base management controller*) (BMC), or the local computer. Operations include getting, writing, enumerating data, or invoking methods.
+Provides methods and properties used to create a session, represented by a [**Session**](session.md) object. Any Windows Remote Management operations require creation of a [**Session**](session.md) that connects to a remote computer, [*base management controller*](windows-remote-management-glossary.md#winrm-gloss-baseboard-management-controller) (BMC), or the local computer. Operations include getting, writing, enumerating data, or invoking methods.
 
 ## Members
 
@@ -61,9 +61,9 @@ The **WSMan** object has these methods.
 <td style="text-align: left;">[<strong>CreateResourceLocator</strong>](wsman-createresourcelocator.md)</td>
 <td style="text-align: left;">Creates a [<strong>ResourceLocator</strong>](resourcelocator.md) object that can specify:<br/>
 <ul>
-<li>The complete path to a [<em>resource</em>](https://www.bing.com/search?q=<em>resource</em>) or a single piece of data.</li>
-<li>A [<em>selector</em>](https://www.bing.com/search?q=<em>selector</em>) for a specific instance of a resource.</li>
-<li>An [<em>option</em>](https://www.bing.com/search?q=<em>option</em>) that supplies additional data to the resource provider.</li>
+<li>The complete path to a [<em>resource</em>](windows-remote-management-glossary.md#winrm-gloss-resource) or a single piece of data.</li>
+<li>A [<em>selector</em>](windows-remote-management-glossary.md#winrm-gloss-selector) for a specific instance of a resource.</li>
+<li>An [<em>option</em>](windows-remote-management-glossary.md#winrm-gloss-option) that supplies additional data to the resource provider.</li>
 </ul></td>
 </tr>
 <tr class="odd">

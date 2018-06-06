@@ -22,45 +22,45 @@ This type of object supports the following properties.
 |                                                                                                                       |                                                                       |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | **Property Name**                                                                                                     | **Required or Optional**                                              |
-| [WPD\_OBJECT\_ID](https://www.bing.com/search?q=WPD\_OBJECT\_ID)                                                                | Required.                                                             |
-| [WPD\_OBJECT\_PARENT\_ID](https://www.bing.com/search?q=WPD\_OBJECT\_PARENT\_ID)                                                 | Required.                                                             |
-| [WPD\_OBJECT\_NAME](https://www.bing.com/search?q=WPD\_OBJECT\_NAME)                                                            | Required if the object represents a file.                             |
-| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](https://www.bing.com/search?q=WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID)                          | Required.                                                             |
-| [WPD\_OBJECT\_FORMAT](https://www.bing.com/search?q=WPD\_OBJECT\_FORMAT)                                                        | Required.                                                             |
-| [WPD\_OBJECT\_CONTENT\_TYPE](https://www.bing.com/search?q=WPD\_OBJECT\_CONTENT\_TYPE)                                           | Required.                                                             |
-| [WPD\_OBJECT\_ISHIDDEN](https://www.bing.com/search?q=WPD\_OBJECT\_ISHIDDEN)                                                    | Required if the object is hidden.                                     |
-| [WPD\_OBJECT\_ISSYSTEM](https://www.bing.com/search?q=WPD\_OBJECT\_ISSYSTEM)                                                    | Required if the object is a system object (represents a system file). |
-| [WPD\_OBJECT\_SIZE](https://www.bing.com/search?q=WPD\_OBJECT\_SIZE)                                                            | Required if the object has at least one resource.                     |
-| [WPD\_OBJECT\_ORIGINAL\_FILE\_NAME](https://www.bing.com/search?q=WPD\_OBJECT\_ORIGINAL\_FILE\_NAME)                              | Required if the object represents a file.                             |
-| [WPD\_OBJECT\_NON\_CONSUMABLE](https://www.bing.com/search?q=WPD\_OBJECT\_NON\_CONSUMABLE)                                       | Recommended if the object is not meant for consumption by the device. |
-| [WPD\_OBJECT\_REFERENCES](https://www.bing.com/search?q=WPD\_OBJECT\_REFERENCES)                                                | Required if the object has references to other objects.               |
-| [WPD\_OBJECT\_KEYWORDS](https://www.bing.com/search?q=WPD\_OBJECT\_KEYWORDS)                                                    | Optional.                                                             |
-| [WPD\_OBJECT\_SYNC\_ID](https://www.bing.com/search?q=WPD\_OBJECT\_SYNC\_ID)                                                     | Optional.                                                             |
-| [WPD\_OBJECT\_IS\_DRM\_PROTECTED](https://www.bing.com/search?q=WPD\_OBJECT\_IS\_DRM\_PROTECTED)                                  | Required if the object is protected by DRM technology.                |
-| [WPD\_OBJECT\_DATE\_CREATED](https://www.bing.com/search?q=WPD\_OBJECT\_DATE\_CREATED)                                           | Optional.                                                             |
-| [WPD\_OBJECT\_DATE\_MODIFIED](https://www.bing.com/search?q=WPD\_OBJECT\_DATE\_MODIFIED)                                         | Recommended.                                                          |
-| [WPD\_OBJECT\_DATE\_AUTHORED](https://www.bing.com/search?q=WPD\_OBJECT\_DATE\_AUTHORED)                                         | Optional.                                                             |
-| [WPD\_OBJECT\_BACK\_REFERENCES](https://www.bing.com/search?q=WPD\_OBJECT\_BACK\_REFERENCES)                                     | Recommended if the object is referenced by another object.            |
-| [WPD\_OBJECT\_CONTAINER\_FUNCTIONAL\_OBJECT\_ID](https://www.bing.com/search?q=WPD\_OBJECT\_CONTAINER\_FUNCTIONAL\_OBJECT\_ID)     | Optional.                                                             |
-| [WPD\_OBJECT\_GENERATE\_THUMBNAIL\_FROM\_RESOURCE](https://www.bing.com/search?q=WPD\_OBJECT\_GENERATE\_THUMBNAIL\_FROM\_RESOURCE) | Optional.                                                             |
-| [WPD\_OBJECT\_CAN\_DELETE](https://www.bing.com/search?q=WPD\_OBJECT\_CAN\_DELETE)                                               | Required if the object can be deleted.                                |
+| [WPD\_OBJECT\_ID](object-properties.md#wpd-object-id)                                                                | Required.                                                             |
+| [WPD\_OBJECT\_PARENT\_ID](object-properties.md#wpd-object-parent-id)                                                 | Required.                                                             |
+| [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                                                            | Required if the object represents a file.                             |
+| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](object-properties.md#wpd-object-persistent-unique-id)                          | Required.                                                             |
+| [WPD\_OBJECT\_FORMAT](object-properties.md#wpd-object-format)                                                        | Required.                                                             |
+| [WPD\_OBJECT\_CONTENT\_TYPE](object-properties.md#wpd-object-content-type)                                           | Required.                                                             |
+| [WPD\_OBJECT\_ISHIDDEN](object-properties.md#wpd-object-ishidden)                                                    | Required if the object is hidden.                                     |
+| [WPD\_OBJECT\_ISSYSTEM](object-properties.md#wpd-object-issystem)                                                    | Required if the object is a system object (represents a system file). |
+| [WPD\_OBJECT\_SIZE](object-properties.md#wpd-object-size)                                                            | Required if the object has at least one resource.                     |
+| [WPD\_OBJECT\_ORIGINAL\_FILE\_NAME](object-properties.md#wpd-object-original-file-name)                              | Required if the object represents a file.                             |
+| [WPD\_OBJECT\_NON\_CONSUMABLE](object-properties.md#wpd-object-non-consumable)                                       | Recommended if the object is not meant for consumption by the device. |
+| [WPD\_OBJECT\_REFERENCES](object-properties.md#wpd-object-references)                                                | Required if the object has references to other objects.               |
+| [WPD\_OBJECT\_KEYWORDS](object-properties.md#wpd-object-keywords)                                                    | Optional.                                                             |
+| [WPD\_OBJECT\_SYNC\_ID](object-properties.md#wpd-object-sync-id)                                                     | Optional.                                                             |
+| [WPD\_OBJECT\_IS\_DRM\_PROTECTED](object-properties.md#wpd-object-is-drm-protected)                                  | Required if the object is protected by DRM technology.                |
+| [WPD\_OBJECT\_DATE\_CREATED](object-properties.md#wpd-object-date-created)                                           | Optional.                                                             |
+| [WPD\_OBJECT\_DATE\_MODIFIED](object-properties.md#wpd-object-date-modified)                                         | Recommended.                                                          |
+| [WPD\_OBJECT\_DATE\_AUTHORED](object-properties.md#wpd-object-date-authored)                                         | Optional.                                                             |
+| [WPD\_OBJECT\_BACK\_REFERENCES](object-properties.md#wpd-object-back-references)                                     | Recommended if the object is referenced by another object.            |
+| [WPD\_OBJECT\_CONTAINER\_FUNCTIONAL\_OBJECT\_ID](object-properties.md#wpd-object-container-functional-object-id)     | Optional.                                                             |
+| [WPD\_OBJECT\_GENERATE\_THUMBNAIL\_FROM\_RESOURCE](object-properties.md#wpd-object-generate-thumbnail-from-resource) | Optional.                                                             |
+| [WPD\_OBJECT\_CAN\_DELETE](object-properties.md#wpd-object-can-delete)                                               | Required if the object can be deleted.                                |
 | [WPD\_OBJECT\_LANGUAGE\_LOCALE](object-properties.md)                                                                | Required if the object cannot be deleted.                             |
-| [WPD\_MEDIA\_COPYRIGHT](https://www.bing.com/search?q=WPD\_MEDIA\_COPYRIGHT)                                                     | Optional.                                                             |
-| [WPD\_MEDIA\_PARENTAL\_RATING](https://www.bing.com/search?q=WPD\_MEDIA\_PARENTAL\_RATING)                                        | Optional.                                                             |
-| [WPD\_MEDIA\_META\_GENRE](https://www.bing.com/search?q=WPD\_MEDIA\_META\_GENRE)                                                  | Optional.                                                             |
-| [WPD\_MEDIA\_SUB\_TITLE](https://www.bing.com/search?q=WPD\_MEDIA\_SUB\_TITLE)                                                    | Optional.                                                             |
-| [WPD\_MEDIA\_RELEASE\_DATE](https://www.bing.com/search?q=WPD\_MEDIA\_RELEASE\_DATE)                                              | Recommended.                                                          |
-| [WPD\_MEDIA\_TITLE](https://www.bing.com/search?q=WPD\_MEDIA\_TITLE)                                                             | Recommended.                                                          |
-| [WPD\_MEDIA\_OWNER](https://www.bing.com/search?q=WPD\_MEDIA\_OWNER)                                                             | Recommended.                                                          |
-| [WPD\_MEDIA\_MANAGING\_EDITOR](https://www.bing.com/search?q=WPD\_MEDIA\_MANAGING\_EDITOR)                                        | Recommended.                                                          |
-| [WPD\_MEDIA\_WEBMASTER](https://www.bing.com/search?q=WPD\_MEDIA\_WEBMASTER)                                                     | Recommended.                                                          |
-| [WPD\_MEDIA\_SOURCE\_URL](https://www.bing.com/search?q=WPD\_MEDIA\_SOURCE\_URL)                                                  | Recommended.                                                          |
-| [WPD\_MEDIA\_DESTINATION\_URL](https://www.bing.com/search?q=WPD\_MEDIA\_DESTINATION\_URL)                                        | Recommended.                                                          |
-| [WPD\_MEDIA\_DESCRIPTION](https://www.bing.com/search?q=WPD\_MEDIA\_DESCRIPTION)                                                 | Optional.                                                             |
-| [WPD\_MEDIA\_GENRE](https://www.bing.com/search?q=WPD\_MEDIA\_GENRE)                                                             | Optional.                                                             |
-| [WPD\_MEDIA\_OBJECT\_BOOKMARK](https://www.bing.com/search?q=WPD\_MEDIA\_OBJECT\_BOOKMARK)                                        | Recommended                                                           |
-| [WPD\_MEDIA\_LAST\_BUILD\_DATE](https://www.bing.com/search?q=WPD\_MEDIA\_LAST\_BUILD\_DATE)                                       | Recommended.                                                          |
-| [WPD\_MEDIA\_TIME\_TO\_LIVE](https://www.bing.com/search?q=WPD\_MEDIA\_TIME\_TO\_LIVE)                                             | Optional.                                                             |
+| [WPD\_MEDIA\_COPYRIGHT](media-properties.md#wpd-media-copyright)                                                     | Optional.                                                             |
+| [WPD\_MEDIA\_PARENTAL\_RATING](media-properties.md#wpd-media-parental-rating)                                        | Optional.                                                             |
+| [WPD\_MEDIA\_META\_GENRE](media-properties.md#wpd-media-meta-genre)                                                  | Optional.                                                             |
+| [WPD\_MEDIA\_SUB\_TITLE](media-properties.md#wpd-media-sub-title)                                                    | Optional.                                                             |
+| [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md#wpd-media-release-date)                                              | Recommended.                                                          |
+| [WPD\_MEDIA\_TITLE](media-properties.md#wpd-media-title)                                                             | Recommended.                                                          |
+| [WPD\_MEDIA\_OWNER](media-properties.md#wpd-media-owner)                                                             | Recommended.                                                          |
+| [WPD\_MEDIA\_MANAGING\_EDITOR](media-properties.md#wpd-media-managing-editor)                                        | Recommended.                                                          |
+| [WPD\_MEDIA\_WEBMASTER](media-properties.md#wpd-media-webmaster)                                                     | Recommended.                                                          |
+| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md#wpd-media-source-url)                                                  | Recommended.                                                          |
+| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url)                                        | Recommended.                                                          |
+| [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)                                                 | Optional.                                                             |
+| [WPD\_MEDIA\_GENRE](media-properties.md#wpd-media-genre)                                                             | Optional.                                                             |
+| [WPD\_MEDIA\_OBJECT\_BOOKMARK](media-properties.md#wpd-media-object-bookmark)                                        | Recommended                                                           |
+| [WPD\_MEDIA\_LAST\_BUILD\_DATE](media-properties.md#wpd-media-last-build-date)                                       | Recommended.                                                          |
+| [WPD\_MEDIA\_TIME\_TO\_LIVE](media-properties.md#wpd-media-time-to-live)                                             | Optional.                                                             |
 | [WPD\_MEDIA\_SUB\_DESCRIPTION](object-properties.md)                                                                 | Optional.                                                             |
 
 
@@ -152,24 +152,24 @@ The following table lists the channel elements in an RSS feed and the correspond
 |                     |                          |                                                                                 |
 |---------------------|--------------------------|---------------------------------------------------------------------------------|
 | **Channel Element** | **RSS Feed Requirement** | **Corresponding Mediacast Property**                                            |
-| category            | Optional.                | [WPD\_MEDIA\_GENRE](https://www.bing.com/search?q=WPD\_MEDIA\_GENRE)                       |
+| category            | Optional.                | [WPD\_MEDIA\_GENRE](media-properties.md#wpd-media-genre)                       |
 | cloud               | Not applicable.          | Not applicable.                                                                 |
-| copyright           | Optional.                | [WPD\_MEDIA\_COPYRIGHT](https://www.bing.com/search?q=WPD\_MEDIA\_COPYRIGHT)               |
-| description         | Required.                | [WPD\_MEDIA\_DESCRIPTION](https://www.bing.com/search?q=WPD\_MEDIA\_DESCRIPTION)           |
+| copyright           | Optional.                | [WPD\_MEDIA\_COPYRIGHT](media-properties.md#wpd-media-copyright)               |
+| description         | Required.                | [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)           |
 | docs                | Not applicable.          | Not applicable.                                                                 |
 | generator           | Not applicable.          | Not applicable.                                                                 |
 | language            | Not applicable.          | Not applicable.                                                                 |
-| lastBuildDate       | Optional.                | [WPD\_MEDIA\_LAST\_BUILD\_DATE](https://www.bing.com/search?q=WPD\_MEDIA\_LAST\_BUILD\_DATE) |
-| link                | Required.                | [WPD\_MEDIA\_DESTINATION\_URL](https://www.bing.com/search?q=WPD\_MEDIA\_DESTINATION\_URL)  |
-| managingEditor      | Optional.                | [WPD\_MEDIA\_MANAGING\_EDITOR](https://www.bing.com/search?q=WPD\_MEDIA\_MANAGING\_EDITOR)  |
-| pubDate             | Optional.                | [WPD\_MEDIA\_RELEASE\_DATE](https://www.bing.com/search?q=WPD\_MEDIA\_RELEASE\_DATE)        |
+| lastBuildDate       | Optional.                | [WPD\_MEDIA\_LAST\_BUILD\_DATE](media-properties.md#wpd-media-last-build-date) |
+| link                | Required.                | [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url)  |
+| managingEditor      | Optional.                | [WPD\_MEDIA\_MANAGING\_EDITOR](media-properties.md#wpd-media-managing-editor)  |
+| pubDate             | Optional.                | [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md#wpd-media-release-date)        |
 | rating              | Not applicable.          | Not applicable.                                                                 |
 | skipDays            | Not applicable.          | Not applicable.                                                                 |
 | skipHours           | Not applicable.          | Not applicable.                                                                 |
 | textInput           | Not applicable.          | Not applicable.                                                                 |
-| title               | Required.                | [WPD\_OBJECT\_NAME](https://www.bing.com/search?q=WPD\_OBJECT\_NAME)                      |
-| ttl                 | Optional.                | [WPD\_MEDIA\_TIME\_TO\_LIVE](https://www.bing.com/search?q=WPD\_MEDIA\_TIME\_TO\_LIVE)       |
-| webMaster           | Optional.                | [WPD\_MEDIA\_WEBMASTER](https://www.bing.com/search?q=WPD\_MEDIA\_WEBMASTER)               |
+| title               | Required.                | [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                      |
+| ttl                 | Optional.                | [WPD\_MEDIA\_TIME\_TO\_LIVE](media-properties.md#wpd-media-time-to-live)       |
+| webMaster           | Optional.                | [WPD\_MEDIA\_WEBMASTER](media-properties.md#wpd-media-webmaster)               |
 
 
 
@@ -182,12 +182,12 @@ The following table lists the image elements in an RSS feed and the correspondin
 |                   |                          |                                                                                |
 |-------------------|--------------------------|--------------------------------------------------------------------------------|
 | **Image Element** | **RSS Feed Requirement** | **Mediacast Property**                                                         |
-| description       | Optional.                | [WPD\_MEDIA\_DESCRIPTION](https://www.bing.com/search?q=WPD\_MEDIA\_DESCRIPTION)          |
-| height            | Optional.                | [WPD\_MEDIA\_HEIGHT](https://www.bing.com/search?q=WPD\_MEDIA\_HEIGHT)                    |
-| link              | Optional.                | [WPD\_MEDIA\_DESTINATION\_URL](https://www.bing.com/search?q=WPD\_MEDIA\_DESTINATION\_URL) |
-| title             | Optional.                | [WPD\_OBJECT\_NAME](https://www.bing.com/search?q=WPD\_OBJECT\_NAME)                     |
-| url               | Optional.                | [WPD\_MEDIA\_SOURCE\_URL](https://www.bing.com/search?q=WPD\_MEDIA\_SOURCE\_URL)           |
-| width             | Optional.                | [WPD\_MEDIA\_WIDTH](https://www.bing.com/search?q=WPD\_MEDIA\_WIDTH)                      |
+| description       | Optional.                | [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)          |
+| height            | Optional.                | [WPD\_MEDIA\_HEIGHT](media-properties.md#wpd-media-height)                    |
+| link              | Optional.                | [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url) |
+| title             | Optional.                | [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                     |
+| url               | Optional.                | [WPD\_MEDIA\_SOURCE\_URL](media-properties.md#wpd-media-source-url)           |
+| width             | Optional.                | [WPD\_MEDIA\_WIDTH](media-properties.md#wpd-media-width)                      |
 
 
 
@@ -200,20 +200,20 @@ The following table lists the item elements in an RSS feed and the corresponding
 |                  |               |                          |                                                                                |
 |------------------|---------------|--------------------------|--------------------------------------------------------------------------------|
 | **Item Element** | **Attribute** | **RSS Feed Requirement** | **Mediacast Property**                                                         |
-| author           |               | Optional.                | [WPD\_MEDIA\_ARTIST](https://www.bing.com/search?q=WPD\_MEDIA\_ARTIST)                    |
-| category         |               | Optional.                | [WPD\_MEDIA\_GENRE](https://www.bing.com/search?q=WPD\_MEDIA\_GENRE)                      |
+| author           |               | Optional.                | [WPD\_MEDIA\_ARTIST](media-properties.md#wpd-media-artist)                    |
+| category         |               | Optional.                | [WPD\_MEDIA\_GENRE](media-properties.md#wpd-media-genre)                      |
 |                  | domain        | Not applicable.          | Not applicable.                                                                |
-| description      |               | Optional.                | [WPD\_MEDIA\_DESCRIPTION](https://www.bing.com/search?q=WPD\_MEDIA\_DESCRIPTION)          |
+| description      |               | Optional.                | [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)          |
 | enclosure        |               | Optional.                |                                                                                |
-|                  | url           | Required.                | [WPD\_MEDIA\_SOURCE\_URL](https://www.bing.com/search?q=WPD\_MEDIA\_SOURCE\_URL)           |
-|                  | length        | Required.                | [WPD\_OBJECT\_SIZE](https://www.bing.com/search?q=WPD\_OBJECT\_SIZE)                     |
+|                  | url           | Required.                | [WPD\_MEDIA\_SOURCE\_URL](media-properties.md#wpd-media-source-url)           |
+|                  | length        | Required.                | [WPD\_OBJECT\_SIZE](object-properties.md#wpd-object-size)                     |
 |                  | type          | Required.                | (The MIME type should be mapped to the property content type.)                 |
-| guid             |               | Optional.                | [WPD\_MEDIA\_GUID](https://www.bing.com/search?q=WPD\_MEDIA\_GUID)                        |
+| guid             |               | Optional.                | [WPD\_MEDIA\_GUID](media-properties.md#wpd-media-guid)                        |
 |                  | isPermaLink   | Not applicable.          | Not applicable.                                                                |
-| link             |               | Optional.                | [WPD\_MEDIA\_DESTINATION\_URL](https://www.bing.com/search?q=WPD\_MEDIA\_DESTINATION\_URL) |
-| pubDate          |               | Optional.                | [WPD\_MEDIA\_RELEASE\_DATE](https://www.bing.com/search?q=WPD\_MEDIA\_RELEASE\_DATE)       |
+| link             |               | Optional.                | [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url) |
+| pubDate          |               | Optional.                | [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md#wpd-media-release-date)       |
 | source           |               | Not applicable.          | Not applicable.                                                                |
-| title            |               | Optional.                | [WPD\_OBJECT\_NAME](https://www.bing.com/search?q=WPD\_OBJECT\_NAME)                     |
+| title            |               | Optional.                | [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                     |
 
 
 
@@ -279,29 +279,29 @@ The following table describes how the values in the RSS channel elements in the 
 |                                                                                              |                                                                                               |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | **WPD Property**                                                                             | **Value**                                                                                     |
-| [WPD\_MEDIA\_COPYRIGHT](https://www.bing.com/search?q=WPD\_MEDIA\_COPYRIGHT)                            | 2006 Lucerne Publishing LP, LLLP. All Rights Reserved.                                        |
-| [WPD\_MEDIA\_DESCRIPTION](https://www.bing.com/search?q=WPD\_MEDIA\_DESCRIPTION)                        | Lucerne Publishing CEO Peter Bankov takes a look at the latest trends in online publications. |
-| [WPD\_MEDIA\_DESTINATION\_URL](https://www.bing.com/search?q=WPD\_MEDIA\_DESTINATION\_URL)               | http://www.lucernepublishing.com/services/podcasting                                          |
-| [WPD\_MEDIA\_GENRE](https://www.bing.com/search?q=WPD\_MEDIA\_GENRE)                                    | News                                                                                          |
-| [WPD\_MEDIA\_LAST\_BUILD\_DATE](https://www.bing.com/search?q=WPD\_MEDIA\_LAST\_BUILD\_DATE)              | Fri, 9 June 2006 14:00:28 EDT                                                                 |
-| [WPD\_MEDIA\_MANAGING\_EDITOR](https://www.bing.com/search?q=WPD\_MEDIA\_MANAGING\_EDITOR)               | someone@example.com                                                                           |
-| [WPD\_MEDIA\_RELEASE\_DATE](https://www.bing.com/search?q=WPD\_MEDIA\_RELEASE\_DATE)                     | Fri, 9 June 2006 14:00:28 EDT                                                                 |
-| [WPD\_MEDIA\_TIME\_TO\_LIVE](https://www.bing.com/search?q=WPD\_MEDIA\_TIME\_TO\_LIVE)                    | 240                                                                                           |
-| [WPD\_MEDIA\_TITLE](https://www.bing.com/search?q=WPD\_MEDIA\_TITLE)                                    | The Digital Publication                                                                       |
-| [WPD\_MEDIA\_SOURCE\_URL](https://www.bing.com/search?q=WPD\_MEDIA\_SOURCE\_URL)                         | http://www.lucernepublishing/services/podcasting/digital.publication/rss.xml                  |
-| [WPD\_MEDIA\_WEBMASTER](https://www.bing.com/search?q=WPD\_MEDIA\_WEBMASTER)                            | someone@example.com                                                                           |
-| [WPD\_OBJECT\_CONTENT\_TYPE](https://www.bing.com/search?q=WPD\_OBJECT\_CONTENT\_TYPE)                  | WPD\_CONTENT\_TYPE\_MEDIA\_CAST                                                               |
-| [WPD\_OBJECT\_DATE\_AUTHORED](https://www.bing.com/search?q=WPD\_OBJECT\_DATE\_AUTHORED)                | Fri, 9 June 2006 14:00:28 EDT                                                                 |
-| [WPD\_OBJECT\_DATE\_CREATED](https://www.bing.com/search?q=WPD\_OBJECT\_DATE\_CREATED)                  | Fri, 9 June 2006 14:00:28 EDT                                                                 |
-| [WPD\_OBJECT\_DATE\_MODIFIED](https://www.bing.com/search?q=WPD\_OBJECT\_DATE\_MODIFIED)                | Fri, 9 June 2006 14:00:28 EDT                                                                 |
-| [WPD\_OBJECT\_FORMAT](https://www.bing.com/search?q=WPD\_OBJECT\_FORMAT)                               | WPD\_OBJECT\_FORMAT\_ABSTRACT\_MEDIA\_CAST                                                    |
-| [WPD\_OBJECT\_ID](https://www.bing.com/search?q=WPD\_OBJECT\_ID)                                       | Session dependent value.                                                                      |
-| [WPD\_OBJECT\_NAME](https://www.bing.com/search?q=WPD\_OBJECT\_NAME)                                   | The Digital Publication                                                                       |
-| [WPD\_OBJECT\_ORIGINAL\_FILE\_NAME](https://www.bing.com/search?q=WPD\_OBJECT\_ORIGINAL\_FILE\_NAME)     | The Digital Publication                                                                       |
-| [WPD\_OBJECT\_PARENT\_ID](https://www.bing.com/search?q=WPD\_OBJECT\_PARENT\_ID)                        | MyPodcasts (a fictitious podcast folder on the device). Assume "0A0" for this example.        |
-| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](https://www.bing.com/search?q=WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID) | Session independent value. (Assume "0A1" for this example.)                                   |
-| [WPD\_OBJECT\_REFERENCES](https://www.bing.com/search?q=WPD\_OBJECT\_REFERENCES)                       | 0A2  for N items<br/>                                                                   |
-| [WPD\_OBJECT\_SIZE](https://www.bing.com/search?q=WPD\_OBJECT\_SIZE)                                   | 13,790                                                                                        |
+| [WPD\_MEDIA\_COPYRIGHT](media-properties.md#wpd-media-copyright)                            | 2006 Lucerne Publishing LP, LLLP. All Rights Reserved.                                        |
+| [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)                        | Lucerne Publishing CEO Peter Bankov takes a look at the latest trends in online publications. |
+| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url)               | http://www.lucernepublishing.com/services/podcasting                                          |
+| [WPD\_MEDIA\_GENRE](media-properties.md#wpd-media-genre)                                    | News                                                                                          |
+| [WPD\_MEDIA\_LAST\_BUILD\_DATE](media-properties.md#wpd-media-last-build-date)              | Fri, 9 June 2006 14:00:28 EDT                                                                 |
+| [WPD\_MEDIA\_MANAGING\_EDITOR](media-properties.md#wpd-media-managing-editor)               | someone@example.com                                                                           |
+| [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md#wpd-media-release-date)                     | Fri, 9 June 2006 14:00:28 EDT                                                                 |
+| [WPD\_MEDIA\_TIME\_TO\_LIVE](media-properties.md#wpd-media-time-to-live)                    | 240                                                                                           |
+| [WPD\_MEDIA\_TITLE](media-properties.md#wpd-media-title)                                    | The Digital Publication                                                                       |
+| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md#wpd-media-source-url)                         | http://www.lucernepublishing/services/podcasting/digital.publication/rss.xml                  |
+| [WPD\_MEDIA\_WEBMASTER](media-properties.md#wpd-media-webmaster)                            | someone@example.com                                                                           |
+| [WPD\_OBJECT\_CONTENT\_TYPE](object-properties.md#wpd-object-content-type)                  | WPD\_CONTENT\_TYPE\_MEDIA\_CAST                                                               |
+| [WPD\_OBJECT\_DATE\_AUTHORED](object-properties.md#wpd-object-date-authored)                | Fri, 9 June 2006 14:00:28 EDT                                                                 |
+| [WPD\_OBJECT\_DATE\_CREATED](object-properties.md#wpd-object-date-created)                  | Fri, 9 June 2006 14:00:28 EDT                                                                 |
+| [WPD\_OBJECT\_DATE\_MODIFIED](object-properties.md#wpd-object-date-modified)                | Fri, 9 June 2006 14:00:28 EDT                                                                 |
+| [WPD\_OBJECT\_FORMAT](object-properties.md#wpd-object-format)                               | WPD\_OBJECT\_FORMAT\_ABSTRACT\_MEDIA\_CAST                                                    |
+| [WPD\_OBJECT\_ID](object-properties.md#wpd-object-id)                                       | Session dependent value.                                                                      |
+| [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                                   | The Digital Publication                                                                       |
+| [WPD\_OBJECT\_ORIGINAL\_FILE\_NAME](object-properties.md#wpd-object-original-file-name)     | The Digital Publication                                                                       |
+| [WPD\_OBJECT\_PARENT\_ID](object-properties.md#wpd-object-parent-id)                        | MyPodcasts (a fictitious podcast folder on the device). Assume "0A0" for this example.        |
+| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](object-properties.md#wpd-object-persistent-unique-id) | Session independent value. (Assume "0A1" for this example.)                                   |
+| [WPD\_OBJECT\_REFERENCES](object-properties.md#wpd-object-references)                       | 0A2  for N items<br/>                                                                   |
+| [WPD\_OBJECT\_SIZE](object-properties.md#wpd-object-size)                                   | 13,790                                                                                        |
 
 
 
@@ -316,17 +316,17 @@ The following table describes how the values in the RSS Image elements in the pr
 |                                                                                                                         |                                                     |
 |-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | **WPD Property**                                                                                                        | **Value**                                           |
-| [WPD\_MEDIA\_DESCRIPTION](https://www.bing.com/search?q=WPD\_MEDIA\_DESCRIPTION)                                                   | Lucerne Logo                                        |
-| [WPD\_MEDIA\_DESTINATION\_URL](https://www.bing.com/search?q=WPD\_MEDIA\_DESTINATION\_URL)                                          | http://www.lucernepublishing.com/community/podcasts |
-| [WPD\_MEDIA\_HEIGHT](https://www.bing.com/search?q=WPD\_MEDIA\_HEIGHT)                                                             | 300                                                 |
-| [WPD\_MEDIA\_SOURCE\_URL](https://www.bing.com/search?q=WPD\_MEDIA\_SOURCE\_URL)                                                    | http://www.lucernepublishing.com/images/logo.gif    |
-| [WPD\_MEDIA\_WIDTH](https://www.bing.com/search?q=WPD\_MEDIA\_WIDTH)                                                               | 300                                                 |
-| [WPD\_OBJECT\_NAME](https://www.bing.com/search?q=WPD\_OBJECT\_NAME)                                                              | Lucerne Publishing                                  |
-| [WPD\_RESOURCE\_ATTRIBUTE\_CAN\_DELETE](https://www.bing.com/search?q=WPD\_RESOURCE\_ATTRIBUTE\_CAN\_DELETE)                               | VARIANT\_TRUE                                       |
-| [WPD\_RESOURCE\_ATTRIBUTE\_CAN\_READ](https://www.bing.com/search?q=WPD\_RESOURCE\_ATTRIBUTE\_CAN\_READ)                                   | VARIANT\_TRUE                                       |
-| [WPD\_RESOURCE\_ATTRIBUTE\_FORMAT](https://www.bing.com/search?q=WPD\_RESOURCE\_ATTRIBUTE\_FORMAT)                     | WPD\_OBJECT\_FORMAT\_GIF                            |
-| [WPD\_RESOURCE\_ATTRIBUTE\_OPTIMAL\_READ\_BUFFER\_SIZE](https://www.bing.com/search?q=WPD\_RESOURCE\_ATTRIBUTE\_OPTIMAL\_READ\_BUFFER\_SIZE) | 1024                                                |
-| [WPD\_RESOURCE\_ATTRIBUTE\_TOTAL\_SIZE](https://www.bing.com/search?q=WPD\_RESOURCE\_ATTRIBUTE\_TOTAL\_SIZE)            | 512                                                 |
+| [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)                                                   | Lucerne Logo                                        |
+| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url)                                          | http://www.lucernepublishing.com/community/podcasts |
+| [WPD\_MEDIA\_HEIGHT](media-properties.md#wpd-media-height)                                                             | 300                                                 |
+| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md#wpd-media-source-url)                                                    | http://www.lucernepublishing.com/images/logo.gif    |
+| [WPD\_MEDIA\_WIDTH](media-properties.md#wpd-media-width)                                                               | 300                                                 |
+| [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                                                              | Lucerne Publishing                                  |
+| [WPD\_RESOURCE\_ATTRIBUTE\_CAN\_DELETE](attributes.md#wpd-resource-attribute-can-delete)                               | VARIANT\_TRUE                                       |
+| [WPD\_RESOURCE\_ATTRIBUTE\_CAN\_READ](attributes.md#wpd-resource-attribute-can-read)                                   | VARIANT\_TRUE                                       |
+| [WPD\_RESOURCE\_ATTRIBUTE\_FORMAT](resource-attribute-properties.md#wpd-resource-attribute-format)                     | WPD\_OBJECT\_FORMAT\_GIF                            |
+| [WPD\_RESOURCE\_ATTRIBUTE\_OPTIMAL\_READ\_BUFFER\_SIZE](attributes.md#wpd-resource-attribute-optimal-read-buffer-size) | 1024                                                |
+| [WPD\_RESOURCE\_ATTRIBUTE\_TOTAL\_SIZE](resource-attribute-properties.md#wpd-resource-attribute-total-size)            | 512                                                 |
 
 
 
@@ -341,27 +341,27 @@ The following table describes how the values in the RSS Item elements in the pre
 |                                                                                              |                                                                                                                                  |
 |----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | **WPD Property**<br/>                                                                  | **Value**                                                                                                                        |
-| [WPD\_MEDIA\_TITLE](https://www.bing.com/search?q=WPD\_MEDIA\_TITLE)                                    | The Digital Publication                                                                                                          |
-| [WPD\_MEDIA\_DURATION](https://www.bing.com/search?q=WPD\_MEDIA\_DURATION)                              | 10329011                                                                                                                         |
-| [WPD\_MEDIA\_ARTIST](https://www.bing.com/search?q=WPD\_MEDIA\_ARTIST)                                  | Lucerne                                                                                                                          |
-| [WPD\_MEDIA\_DESCRIPTION](https://www.bing.com/search?q=WPD\_MEDIA\_DESCRIPTION)                        | Online publications are rapidly changing. A publishing house CEO examines the trends of the past 5 years and their implications. |
-| [WPD\_MEDIA\_DESTINATION\_URL](https://www.bing.com/search?q=WPD\_MEDIA\_DESTINATION\_URL)               | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
-| [WPD\_MEDIA\_GENRE](https://www.bing.com/search?q=WPD\_MEDIA\_GENRE)                                    | News                                                                                                                             |
-| [WPD\_MEDIA\_GUID](https://www.bing.com/search?q=WPD\_MEDIA\_GUID)                                      | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
-| [WPD\_MEDIA\_RELEASE\_DATE](https://www.bing.com/search?q=WPD\_MEDIA\_RELEASE\_DATE)                     | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
-| [WPD\_MEDIA\_SOURCE\_URL](https://www.bing.com/search?q=WPD\_MEDIA\_SOURCE\_URL)                         | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
-| [WPD\_OBJECT\_BACK\_REFERENCES](https://www.bing.com/search?q=WPD\_OBJECT\_BACK\_REFERENCES)            | 0A1                                                                                                                              |
-| [WPD\_OBJECT\_CONTENT\_TYPE](https://www.bing.com/search?q=WPD\_OBJECT\_CONTENT\_TYPE)                  | WPD\_CONTENT\_TYPE\_MEDIA\_IMAGE                                                                                                 |
-| [WPD\_OBJECT\_DATE\_AUTHORED](https://www.bing.com/search?q=WPD\_OBJECT\_DATE\_AUTHORED)                | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
-| [WPD\_OBJECT\_DATE\_CREATED](https://www.bing.com/search?q=WPD\_OBJECT\_DATE\_CREATED)                  | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
-| [WPD\_OBJECT\_DATE\_MODIFIED](https://www.bing.com/search?q=WPD\_OBJECT\_DATE\_MODIFIED)                | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
-| [WPD\_OBJECT\_FORMAT](https://www.bing.com/search?q=WPD\_OBJECT\_FORMAT)                               | WPD\_OBJECT\_FORMAT\_MP3                                                                                                         |
-| [WPD\_OBJECT\_ID](https://www.bing.com/search?q=WPD\_OBJECT\_ID)                                       | Session dependent. (Assume "0A2" for this example.)                                                                              |
-| [WPD\_OBJECT\_NAME](https://www.bing.com/search?q=WPD\_OBJECT\_NAME)                                   | The Digital Publication                                                                                                          |
-| [WPD\_OBJECT\_ORIGINAL\_FILE\_NAME](https://www.bing.com/search?q=WPD\_OBJECT\_ORIGINAL\_FILE\_NAME)     | digital0601.mp3                                                                                                                  |
-| [WPD\_OBJECT\_PARENT\_ID](https://www.bing.com/search?q=WPD\_OBJECT\_PARENT\_ID)                        | 0A0                                                                                                                              |
-| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](https://www.bing.com/search?q=WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID) | Session independent.                                                                                                             |
-| [WPD\_OBJECT\_SIZE](https://www.bing.com/search?q=WPD\_OBJECT\_SIZE)                                   | 10329011                                                                                                                         |
+| [WPD\_MEDIA\_TITLE](media-properties.md#wpd-media-title)                                    | The Digital Publication                                                                                                          |
+| [WPD\_MEDIA\_DURATION](media-properties.md#wpd-media-duration)                              | 10329011                                                                                                                         |
+| [WPD\_MEDIA\_ARTIST](media-properties.md#wpd-media-artist)                                  | Lucerne                                                                                                                          |
+| [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)                        | Online publications are rapidly changing. A publishing house CEO examines the trends of the past 5 years and their implications. |
+| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url)               | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
+| [WPD\_MEDIA\_GENRE](media-properties.md#wpd-media-genre)                                    | News                                                                                                                             |
+| [WPD\_MEDIA\_GUID](media-properties.md#wpd-media-guid)                                      | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
+| [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md#wpd-media-release-date)                     | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
+| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md#wpd-media-source-url)                         | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
+| [WPD\_OBJECT\_BACK\_REFERENCES](object-properties.md#wpd-object-back-references)            | 0A1                                                                                                                              |
+| [WPD\_OBJECT\_CONTENT\_TYPE](object-properties.md#wpd-object-content-type)                  | WPD\_CONTENT\_TYPE\_MEDIA\_IMAGE                                                                                                 |
+| [WPD\_OBJECT\_DATE\_AUTHORED](object-properties.md#wpd-object-date-authored)                | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
+| [WPD\_OBJECT\_DATE\_CREATED](object-properties.md#wpd-object-date-created)                  | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
+| [WPD\_OBJECT\_DATE\_MODIFIED](object-properties.md#wpd-object-date-modified)                | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
+| [WPD\_OBJECT\_FORMAT](object-properties.md#wpd-object-format)                               | WPD\_OBJECT\_FORMAT\_MP3                                                                                                         |
+| [WPD\_OBJECT\_ID](object-properties.md#wpd-object-id)                                       | Session dependent. (Assume "0A2" for this example.)                                                                              |
+| [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                                   | The Digital Publication                                                                                                          |
+| [WPD\_OBJECT\_ORIGINAL\_FILE\_NAME](object-properties.md#wpd-object-original-file-name)     | digital0601.mp3                                                                                                                  |
+| [WPD\_OBJECT\_PARENT\_ID](object-properties.md#wpd-object-parent-id)                        | 0A0                                                                                                                              |
+| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](object-properties.md#wpd-object-persistent-unique-id) | Session independent.                                                                                                             |
+| [WPD\_OBJECT\_SIZE](object-properties.md#wpd-object-size)                                   | 10329011                                                                                                                         |
 
 
 

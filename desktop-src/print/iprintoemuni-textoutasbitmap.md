@@ -40,28 +40,28 @@ HRESULT TextOutAsBitmap(
 *pso* 
 </dt> <dd>
 
-Pointer to a [**SURFOBJ**](https://www.bing.com/search?q=**SURFOBJ**) structure that describes the surface on which to write.
+Pointer to a [**SURFOBJ**](https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34) structure that describes the surface on which to write.
 
 </dd> <dt>
 
 *pstro* 
 </dt> <dd>
 
-Pointer to a [**STROBJ**](https://www.bing.com/search?q=**STROBJ**) structure that defines the glyphs to be rendered and the positions in which to place them.
+Pointer to a [**STROBJ**](https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457) structure that defines the glyphs to be rendered and the positions in which to place them.
 
 </dd> <dt>
 
 *pfo* 
 </dt> <dd>
 
-Pointer to a [**FONTOBJ**](https://www.bing.com/search?q=**FONTOBJ**) structure from which to retrieve information about the font and its glyphs.
+Pointer to a [**FONTOBJ**](https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75) structure from which to retrieve information about the font and its glyphs.
 
 </dd> <dt>
 
 *pco* 
 </dt> <dd>
 
-Pointer to a [**CLIPOBJ**](https://www.bing.com/search?q=**CLIPOBJ**) structure that defines the clip region through which all rendering must be done. The driver cannot affect any pixels outside the clip region.
+Pointer to a [**CLIPOBJ**](https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63) structure that defines the clip region through which all rendering must be done. The driver cannot affect any pixels outside the clip region.
 
 </dd> <dt>
 
@@ -75,14 +75,14 @@ Pointer to a RECTL structure. GDI always sets this parameter to **NULL** in call
 *prclOpaque* 
 </dt> <dd>
 
-Pointer to a [**RECTL**](https://www.bing.com/search?q=**RECTL**) structure that represents a single opaque rectangle. This rectangle is bottom-right exclusive. Pixels within this rectangle (those that are not foreground and not clipped) are to be rendered with the opaque brush. This rectangle always bounds the text to be drawn. If this parameter is **NULL**, no opaque pixels are to be rendered.
+Pointer to a [**RECTL**](https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24) structure that represents a single opaque rectangle. This rectangle is bottom-right exclusive. Pixels within this rectangle (those that are not foreground and not clipped) are to be rendered with the opaque brush. This rectangle always bounds the text to be drawn. If this parameter is **NULL**, no opaque pixels are to be rendered.
 
 </dd> <dt>
 
 *pboFore* 
 </dt> <dd>
 
-Pointer to a [**BRUSHOBJ**](https://www.bing.com/search?q=**BRUSHOBJ**) structure that represents the brush object to be used for the foreground pixels. This brush will always be a solid color brush.
+Pointer to a [**BRUSHOBJ**](https://msdn.microsoft.com/81216bee-d13f-4880-a839-337a247a6c82) structure that represents the brush object to be used for the foreground pixels. This brush will always be a solid color brush.
 
 </dd> <dt>
 
@@ -96,7 +96,7 @@ Pointer to a BRUSHOBJ structure that represents the opaque pixels. Both the fore
 *pptlOrg* 
 </dt> <dd>
 
-Pointer to a [**POINTL**](https://www.bing.com/search?q=**POINTL**) structure that defines the brush origin for both brushes.
+Pointer to a [**POINTL**](https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9) structure that defines the brush origin for both brushes.
 
 </dd> <dt>
 

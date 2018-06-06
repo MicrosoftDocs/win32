@@ -13,11 +13,11 @@ ms.date: 05/31/2018
 
 This topic is step 5 of the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md). The complete code is shown in the topic [DirectShow Playback Example](directshow-playback-example.md).
 
-To ensure that video displays correctly, the application must respond to [**WM\_PAINT**](https://msdn.microsoft.com/windows/desktop/afebaa07-cf00-47db-a919-46436f164881), [**WM\_SIZE**](https://www.bing.com/search?q=**WM\_SIZE**), and [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/windows/desktop/5a6111fd-648e-41a9-aaf8-e5d93f5d54cd) messages as follows.
+To ensure that video displays correctly, the application must respond to [**WM\_PAINT**](https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881), [**WM\_SIZE**](https://www.bing.com/search?q=**WM\_SIZE**), and [**WM\_DISPLAYCHANGE**](https://msdn.microsoft.com/5a6111fd-648e-41a9-aaf8-e5d93f5d54cd) messages as follows.
 
 ### Handle WM\_PAINT Messages
 
-When the application receives a [**WM\_PAINT**](https://msdn.microsoft.com/windows/desktop/afebaa07-cf00-47db-a919-46436f164881) message, the video renderer might need to redraw the last video frame. For the [**Enhanced Video Renderer**](enhanced-video-renderer-filter.md) (EVR) filter, call [**IMFVideoDisplayControl::RepaintVideo**](https://msdn.microsoft.com/windows/desktop/c8051883-2a48-4ca4-a7d2-c90d0d451cd2).
+When the application receives a [**WM\_PAINT**](https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881) message, the video renderer might need to redraw the last video frame. For the [**Enhanced Video Renderer**](enhanced-video-renderer-filter.md) (EVR) filter, call [**IMFVideoDisplayControl::RepaintVideo**](https://msdn.microsoft.com/c8051883-2a48-4ca4-a7d2-c90d0d451cd2).
 
 
 ```C++
@@ -76,7 +76,7 @@ HRESULT CVMR7::Repaint(HWND hwnd, HDC hdc)
 
 ### Handle WM\_SIZE Messages
 
-If the size of the video window changes, notify the video renderer to resize the video. For the EVR, call [**IMFVideoDisplayControl::SetVideoPosition**](https://msdn.microsoft.com/windows/desktop/5dc789b7-e206-4f1d-a0b2-12cb98ce4184).
+If the size of the video window changes, notify the video renderer to resize the video. For the EVR, call [**IMFVideoDisplayControl::SetVideoPosition**](https://msdn.microsoft.com/5dc789b7-e206-4f1d-a0b2-12cb98ce4184).
 
 
 ```C++
@@ -210,7 +210,7 @@ Next: [Step 6: Handle Graph Events](step-6--handle-graph-events.md).
 [DirectShow Playback Example](directshow-playback-example.md)
 </dt> <dt>
 
-[Using the DirectShow EVR Filter](https://msdn.microsoft.com/windows/desktop/4d85aed0-4b11-4c5f-bfc0-cad0a7d2f490)
+[Using the DirectShow EVR Filter](https://msdn.microsoft.com/4d85aed0-4b11-4c5f-bfc0-cad0a7d2f490)
 </dt> <dt>
 
 [Using the Video Mixing Renderer](using-the-video-mixing-renderer.md)

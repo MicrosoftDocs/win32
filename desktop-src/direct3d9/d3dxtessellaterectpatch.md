@@ -44,7 +44,7 @@ Vertex buffer containing the patch data.
 *pNumSegs* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 Pointer to an array of four floating-point values that identify the number of segments into which each edge of the rectangle patch should be divided when tessellated. See [**D3DRECTPATCH\_INFO**](d3drectpatch-info.md).
 

@@ -33,7 +33,7 @@ HRESULT SetPixelShaderConstantB(
 *StartRegister* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The zero-based index of the first constant register.
 
@@ -42,7 +42,7 @@ The zero-based index of the first constant register.
 *pConstantData* \[out\]
 </dt> <dd>
 
-Type: **const [**BOOL**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
 
 An array of Boolean constants.
 
@@ -51,7 +51,7 @@ An array of Boolean constants.
 *RegisterCount* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 The number of registers in pConstantData.
 

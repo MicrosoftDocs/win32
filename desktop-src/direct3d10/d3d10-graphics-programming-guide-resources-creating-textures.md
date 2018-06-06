@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 A [texture](d3d10-graphics-programming-guide-resources-types.md) resource is a structured collection of data. Typically, color values are stored in textures and accessed during rendering by the [pipeline](d3d10-graphics-programming-guide-pipeline-stages.md) at various stages for both input and output. Creating textures and defining how they will be used is an important part of rendering interesting-looking scenes in Direct3D 10.
 
-Even though textures typically contain color information, creating textures using different [**DXGI\_FORMAT**](https://msdn.microsoft.com/windows/desktop/dce61bc4-4ed5-4e64-84e8-6db88025e5c2) enables them to store different kinds of data. This data can then be leveraged by the Direct3D 10 pipeline in non-traditional ways.
+Even though textures typically contain color information, creating textures using different [**DXGI\_FORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\dxgi_format.htm) enables them to store different kinds of data. This data can then be leveraged by the Direct3D 10 pipeline in non-traditional ways.
 
 All textures have limits on how much memory they consume, and how many texels they contain. These limits are specified by [resource constants](d3d10-graphics-reference-resource-constants.md).
 
@@ -33,7 +33,7 @@ All textures have limits on how much memory they consume, and how many texels th
 
  
 
-When you create a texture in Direct3D 10, you also need to create a [view](d3d10-graphics-programming-guide-resources-access-views.md). A view is an object that tells the device how a texture should be accessed during rendering. The most common way to access a texture is to read from it using a [shader](https://msdn.microsoft.com/windows/desktop/09cdd8d6-0cf5-4f7e-b480-f748d2fa9ca9). A shader-resource view will tell a shader how to read from a texture during rendering. The kind of view a texture will use must be specified when you create it.
+When you create a texture in Direct3D 10, you also need to create a [view](d3d10-graphics-programming-guide-resources-access-views.md). A view is an object that tells the device how a texture should be accessed during rendering. The most common way to access a texture is to read from it using a [shader](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl.htm). A shader-resource view will tell a shader how to read from a texture during rendering. The kind of view a texture will use must be specified when you create it.
 
 Creating a texture and loading its initial data can be done in two different ways: create a texture and view separately, or create both the texture and the view at the same time. The API provides both techniques so you can choose which better suits your needs.
 
@@ -150,7 +150,7 @@ Sometimes applications will want to create a texture and compute the data to be 
 
 The most common case of creating an empty texture to be filled with data during runtime is the case where an application wants to render to a texture and then use the results of the rendering operation in a subsequent pass. Textures created with this purpose should specify default [**usage**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_usage).
 
-The following code sample creates an empty texture that the pipeline can render to and subsequently use as an input to a [shader](https://msdn.microsoft.com/windows/desktop/cff6f901-cb9b-44d5-a75b-9a4029a37215).
+The following code sample creates an empty texture that the pipeline can render to and subsequently use as an input to a [shader](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_using_shaders_10.htm).
 
 
 ```
@@ -172,7 +172,7 @@ pDevice->CreateTexture2D( &amp;desc, NULL, &amp;pRenderTarget );
 
 
 
-Creating the texture requires the application to specify some information about the properties the texture will have. The width and height of the texture in texels is set to 256. For this render target, a single mipmap level is all we need. Only one render target is required so the array size is set to 1. Each texel contains four 32-bit floating point values, which can be used to store very precise information (see [**DXGI\_FORMAT**](https://msdn.microsoft.com/windows/desktop/dce61bc4-4ed5-4e64-84e8-6db88025e5c2)). One sample per pixel is all that will be needed. The usage is set to default because this allows for the most efficient placement of the render target in memory. Finally, the fact that the texture will be bound as a render target and a shader resource at different points in time is specified.
+Creating the texture requires the application to specify some information about the properties the texture will have. The width and height of the texture in texels is set to 256. For this render target, a single mipmap level is all we need. Only one render target is required so the array size is set to 1. Each texel contains four 32-bit floating point values, which can be used to store very precise information (see [**DXGI\_FORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\dxgi_format.htm)). One sample per pixel is all that will be needed. The usage is set to default because this allows for the most efficient placement of the render target in memory. Finally, the fact that the texture will be bound as a render target and a shader resource at different points in time is specified.
 
 Textures cannot be bound for rendering to the pipeline directly; use a render-target view as shown in the following code sample.
 

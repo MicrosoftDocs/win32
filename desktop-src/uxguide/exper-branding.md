@@ -111,7 +111,7 @@ Focus your branding effort on the special experiences in your program. These are
 
 ### Where not to brand
 
-While you can potentially use any element in your program as a branding opportunity, don't use the Windows desktop (including the [work area](https://www.bing.com/search?q=work area), [Quick Launch bar](https://www.bing.com/search?q=Quick Launch bar), or [notification area](winenv-notification.md)) for branding.
+While you can potentially use any element in your program as a branding opportunity, don't use the Windows desktop (including the [work area](glossary.md#w), [Quick Launch bar](glossary.md#q), or [notification area](winenv-notification.md)) for branding.
 
 **The desktop is the user's entry point to Windows. Leave the user in control.** Use these entry points appropriately—never view them as ways to promote awareness of your program or its brand. For more information, see [Desktop](winenv-desktop.md).
 

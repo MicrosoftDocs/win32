@@ -19,11 +19,11 @@ Starting with Windows 7, the font management infrastructure supports the hiding
 
 In Windows 7, there are no APIs for directly querying which fonts are hidden, or for setting fonts to be hidden. However, this does not mean you cannot take advantage of this feature in your application. If you use the Windows [**ChooseFont**](https://www.bing.com/search?q=**ChooseFont**) API (Font common dialog) to enable font selection today, you will get the new behavior for free. The new Windows Scenic Ribbon (Font Controls) introduced in Windows 7 also supports this behavior and provides another reason to "Ribbonize" your applications. For details of using Font Controls in Ribbon and **ChooseFont** to display fonts while filtering out the hidden fonts, please reference [International Font Enumeration and Selection](using-international-fonts-and-text.md).
 
-Note that hiding fonts only impacts font selection UI. It does not impact drawing APIs. When a font is selected into a device context, there is no effect on drawing due to the font being hidden. The [**EnumFontFamiliesEx**](https://msdn.microsoft.com/windows/desktop/4d70906d-8005-4c4a-869e-16dd3e6fa3f2) function continues to enumerate fonts that are set to hidden.
+Note that hiding fonts only impacts font selection UI. It does not impact drawing APIs. When a font is selected into a device context, there is no effect on drawing due to the font being hidden. The [**EnumFontFamiliesEx**](https://msdn.microsoft.com/4d70906d-8005-4c4a-869e-16dd3e6fa3f2) function continues to enumerate fonts that are set to hidden.
 
 ## GDI Font Embedding and Subsetting
 
-International Fonts technology makes use of the Font Embedding Services Library to allow you to bundle TrueType and OpenType fonts into a document or file. Embedding a font in a file guarantees that the font will be present on the computer receiving the file. For more information, see [Font Embedding Reference](https://msdn.microsoft.com/windows/desktop/1ba019c7-9ba6-429d-bbdc-7e182d93ab75).
+International Fonts technology makes use of the Font Embedding Services Library to allow you to bundle TrueType and OpenType fonts into a document or file. Embedding a font in a file guarantees that the font will be present on the computer receiving the file. For more information, see [Font Embedding Reference](https://msdn.microsoft.com/1ba019c7-9ba6-429d-bbdc-7e182d93ab75).
 
 ## Related topics
 
@@ -35,7 +35,7 @@ International Fonts technology makes use of the Font Embedding Services Library 
 [Using MS Shell Dlg and MS Shell Dlg 2](using-ms-shell-dlg-and-ms-shell-dlg-2.md)
 </dt> <dt>
 
-[Font Embedding Reference](https://msdn.microsoft.com/windows/desktop/1ba019c7-9ba6-429d-bbdc-7e182d93ab75)
+[Font Embedding Reference](https://msdn.microsoft.com/1ba019c7-9ba6-429d-bbdc-7e182d93ab75)
 </dt> </dl>
 
  

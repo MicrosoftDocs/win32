@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Metadata Editor Object
 
-The metadata editor object is used to edit information stored in the header section of ASF files. The most common things manipulated by this object are metadata attributes. Additionally, the metadata editor deals with [*markers*](https://www.bing.com/search?q=*markers*) and script commands. The only time you need to use the metadata editor is when you want to edit the header of an existing file without playing it.
+The metadata editor object is used to edit information stored in the header section of ASF files. The most common things manipulated by this object are metadata attributes. Additionally, the metadata editor deals with [*markers*](wmformat-glossary.md#wmformat-marker) and script commands. The only time you need to use the metadata editor is when you want to edit the header of an existing file without playing it.
 
 The metadata editor object is created by the function [**WMCreateEditor**](/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateeditor), which sets a pointer to an **IWMMetadataEditor** interface. The other interfaces of the metadata editor object can be obtained by calling the **QueryInterface** method.
 
@@ -28,7 +28,7 @@ The following interfaces are supported by the metadata editor object.
 
 | Interface                                        | Description                                                                                                                                                                                            |
 |--------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IWMDRMEditor**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor)             | Enables editing applications to examine the [*DRM*](https://www.bing.com/search?q=*DRM*) properties of an ASF file without having any rights to play the protected content. |
+| [**IWMDRMEditor**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor)             | Enables editing applications to examine the [*DRM*](wmformat-glossary.md#wmformat-digital-rights-management--drm-) properties of an ASF file without having any rights to play the protected content. |
 | [**IWMHeaderInfo**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)           | Manipulates attributes, markers, and script commands in the header.                                                                                                                                    |
 | [**IWMHeaderInfo2**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2)         | Retrieves codec information. Inherits all of the methods of **IWMHeaderInfo**.                                                                                                                         |
 | [**IWMHeaderInfo3**](/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3)         | Provides advanced support for attributes, including large attributes, multiple languages, and duplicate attribute names. Inherits all of the methods of **IWMHeaderInfo** and **IWMHeaderInfo2**.      |

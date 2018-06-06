@@ -171,7 +171,7 @@ Used by the **IPrintOemUI::CommonUIProp** method, the second time it is called, 
 
 A user interface plug-in receives this structure's address as an input argument to both its [**IPrintOemUI::CommonUIProp**](iprintoemui-commonuiprop.md) method and its [**OEMCUIPCALLBACK**](oemcuipcallback.md)-typed callback function.
 
-For additional information about the use of this structure and associated functions, see [User Interface Plug-Ins](https://www.bing.com/search?q=User Interface Plug-Ins).
+For additional information about the use of this structure and associated functions, see [User Interface Plug-Ins](https://www.bing.com/search?q=User+Interface+Plug-Ins).
 
 ## Requirements
 

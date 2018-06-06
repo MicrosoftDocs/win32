@@ -47,7 +47,7 @@ The input pin's [**ReceiveConnection**](cbasepin-receiveconnection.md) method ca
 
 The following diagram shows the connection process in [**CBasePin**](cbasepin.md):
 
-![cbasepin connection process](https://www.bing.com/search?q=cbasepin connection process)
+![cbasepin connection process](https://www.bing.com/search?q=cbasepin+connection+process)
 
 ## Related topics
 

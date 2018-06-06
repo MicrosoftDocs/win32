@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Encrypting Data
 
-The following procedure describes steps to take to encrypt a message with the Base Cryptography Functions. To encrypt messages using PKCS \#7 standards, see [Low-level Message Functions](https://www.bing.com/search?q=Low-level Message Functions) and [Simplified Message Functions](https://www.bing.com/search?q=Simplified Message Functions).
+The following procedure describes steps to take to encrypt a message with the Base Cryptography Functions. To encrypt messages using PKCS \#7 standards, see [Low-level Message Functions](cryptography-functions.md#low-level-message-functions) and [Simplified Message Functions](cryptography-functions.md#simplified-message-functions).
 
 **To encrypt a message**
 

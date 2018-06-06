@@ -34,7 +34,7 @@ HRESULT D3DXMatrixDecompose(
 *pOutScale* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/windows/desktop/4d73de4b-82fe-452a-8a1e-17208f172a03)\***
+Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
 
 Pointer to the output [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that contains scaling factors applied along the x, y, and z-axes.
 
@@ -43,7 +43,7 @@ Pointer to the output [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that contains scal
 *pOutRotation* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/windows/desktop/3d88ed17-5b0a-46d5-8fe6-d66e1fa26c13)\***
+Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxquaternion.htm)\***
 
 Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that describes the rotation.
 
@@ -52,7 +52,7 @@ Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that describes the 
 *pOutTranslation* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/windows/desktop/4d73de4b-82fe-452a-8a1e-17208f172a03)\***
+Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
 
 Pointer to the D3DXVECTOR3 vector that describes the translation.
 
@@ -61,7 +61,7 @@ Pointer to the D3DXVECTOR3 vector that describes the translation.
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/windows/desktop/0911088b-50cf-4c4a-996e-351386fc359b)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
 
 Pointer to an input [**D3DXMATRIX**](d3d10-d3dxmatrix.md) matrix to decompose.
 

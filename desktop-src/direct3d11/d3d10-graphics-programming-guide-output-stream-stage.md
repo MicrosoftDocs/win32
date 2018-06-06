@@ -28,7 +28,7 @@ There are two ways to feed stream-output data into the pipeline:
 -   Stream-output data can be fed back into the input-assembler stage.
 -   Stream-output data can be read by programmable shaders using load functions (such as [Load](https://msdn.microsoft.com/library/windows/desktop/bb509694)).
 
-To use a buffer as a stream-output resource, create the buffer with the [**D3D11\_BIND\_STREAM\_OUTPUT**](https://www.bing.com/search?q=**D3D11\_BIND\_STREAM\_OUTPUT**) flag. The stream-output stage supports up to 4 buffers simultaneously.
+To use a buffer as a stream-output resource, create the buffer with the [**D3D11\_BIND\_STREAM\_OUTPUT**](d3d11-bind-flag.md#d3d11-bind-stream-output) flag. The stream-output stage supports up to 4 buffers simultaneously.
 
 -   If you are streaming data into multiple buffers, each buffer can only capture a single element (up to 4 components) of per-vertex data, with an implied data stride equal to the element width in each buffer (compatible with the way single element buffers can be bound for input into shader stages). Furthermore, if the buffers have different sizes, writing stops as soon as any one of the buffers is full.
 -   If you are streaming data into a single buffer, the buffer can capture up to 64 scalar components of per-vertex data (256 bytes or less) or the vertex stride can be up to 2048 bytes.

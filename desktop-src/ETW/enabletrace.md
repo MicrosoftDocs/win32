@@ -91,7 +91,7 @@ Handle of the event tracing session to which you want to enable, disable, or cha
 
 If the function is successful, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/windows/desktop/4a3a8feb-a05f-4614-8f04-1f507da7e5b7). The following table includes some common errors and their causes.
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7). The following table includes some common errors and their causes.
 
 
 
@@ -142,7 +142,7 @@ If the function fails, the return value is one of the [system error codes](https
 
 Event trace controllers call this function.
 
-Up to eight trace sessions can enable and receive events from the same [manifest-based](https://www.bing.com/search?q=manifest-based) provider; however, only one trace session can enable a [classic](https://www.bing.com/search?q=classic) provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
+Up to eight trace sessions can enable and receive events from the same [manifest-based](about-event-tracing.md#providers) provider; however, only one trace session can enable a [classic](about-event-tracing.md#providers) provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
 
 The provider remains enabled for the session until the session disables the provider. If the application that started the session ends without disabling the provider, the provider remains enabled.
 

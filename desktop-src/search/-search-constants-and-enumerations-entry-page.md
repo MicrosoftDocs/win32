@@ -41,7 +41,7 @@ This section documents the following constants and enumerations:
 
 [**IFILTER\_FLAGS**](/windows/desktop/api/Filter/)
 
-[**IFILTER\_INIT**](https://msdn.microsoft.com/windows/desktop/8a9b92f0-0e8f-4152-8974-a28dc837714d)
+[**IFILTER\_INIT**](https://msdn.microsoft.com/VS|search|~\search\wds3x\reference\enums\ifilter_init.htm)
 
 [**INTERVAL\_LIMIT\_KIND**](/windows/desktop/api/Structuredquery/ne-structuredquery-taginterval_limit_kind)
 

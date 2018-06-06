@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SSP Packages Provided by Microsoft
 
-Following are the SSP [*authentication packages*](https://www.bing.com/search?q=*authentication packages*) provided by Microsoft.
+Following are the SSP [*authentication packages*](security.a_gly#-security-authentication-package-gly) provided by Microsoft.
 
 -   [Credential Security Support Provider](credential-security-support-provider.md)
 -   [Microsoft Negotiate](microsoft-negotiate.md)

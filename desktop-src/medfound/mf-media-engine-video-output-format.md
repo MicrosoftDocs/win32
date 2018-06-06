@@ -19,7 +19,7 @@ Sets the render-target format for the Media Engine.
 
 ## Remarks
 
-Set this attribute if you create the Media Engine in frame-server mode. For more information, see [**IMFMediaEngineClassFactory::CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance). The value of the attribute is a [DXGI\_FORMAT](https://msdn.microsoft.com/windows/desktop/a222e3bb-310c-4019-93ee-6a2da2a46ded) value.
+Set this attribute if you create the Media Engine in frame-server mode. For more information, see [**IMFMediaEngineClassFactory::CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance). The value of the attribute is a [DXGI\_FORMAT](https://msdn.microsoft.com/VS|directx_sdk|~\d3dformat.htm) value.
 
 ## Requirements
 

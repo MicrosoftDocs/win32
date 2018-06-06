@@ -34,7 +34,7 @@ In addition, this attribute is set on the activation objects returned by the fol
 
 The symbolic link should be considered an opaque string. The human-readable display name for a device is contained in the [MF\_DEVSOURCE\_ATTRIBUTE\_FRIENDLY\_NAME](mf-devsource-attribute-friendly-name.md) attribute.
 
-The MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_SYMBOLIC\_LINK attribute can be passed in as the value of the DevicePath argument of the [**SetupDiOpenDeviceInterface**](https://www.bing.com/search?q=**SetupDiOpenDeviceInterface**) function.
+The MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_SYMBOLIC\_LINK attribute can be passed in as the value of the DevicePath argument of the [**SetupDiOpenDeviceInterface**](https://msdn.microsoft.com/31ce43e5-08b4-4c1d-b31f-77ee4e278927) function.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

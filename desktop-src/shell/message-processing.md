@@ -25,7 +25,7 @@ Besides CPL\_DBLCLK, the CPL\_STARTWPARMS message can be sent if a Control Panel
 
 Before the controlling application terminates, [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) receives the CPL\_STOP message once for each Control Panel item supported by the .dll file. The message includes the identifier for the Control Panel item and the **lpData** pointer returned in the [**CPLINFO**](/windows/desktop/api/Cpl/ns-cpl-tagcplinfo) or [**NEWCPLINFO**](/windows/desktop/api/Cpl/ns-cpl-tagnewcplinfoa) structure in the call to [**CPL\_INQUIRE**](cpl-inquire.md) or [**CPL\_NEWINQUIRE**](cpl-newinquire.md). The function should free any memory that it allocated for the specified dialog box.
 
-After the last CPL\_STOP message, [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) receives a CPL\_EXIT message. The function should free all remaining allocated memory and unregister any private window classes that it might have registered. Immediately after the function returns from this message, Windows releases the Control Panel item by calling the [**FreeLibrary**](https://msdn.microsoft.com/windows/desktop/823d3147-4ba8-4fe5-ade4-e5604f47eb0a) function.
+After the last CPL\_STOP message, [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) receives a CPL\_EXIT message. The function should free all remaining allocated memory and unregister any private window classes that it might have registered. Immediately after the function returns from this message, Windows releases the Control Panel item by calling the [**FreeLibrary**](https://msdn.microsoft.com/823d3147-4ba8-4fe5-ade4-e5604f47eb0a) function.
 
 ## Related topics
 

@@ -65,7 +65,7 @@ When a user displays a folder that belongs to a namespace extension in Windows E
 
 ### Tree View
 
-The tree view provides a high-level view of the namespace. This area hosts a [tree view control](https://msdn.microsoft.com/windows/desktop/10cc7949-dd77-412d-bad1-db8d8a049582) that can display every namespace folder and the folder's position in the namespace hierarchy. A user can perform several operations with the tree view area, including:
+The tree view provides a high-level view of the namespace. This area hosts a [tree view control](https://msdn.microsoft.com/VS|Controls|~\controls\treeview\treeview.htm) that can display every namespace folder and the folder's position in the namespace hierarchy. A user can perform several operations with the tree view area, including:
 
 -   Displaying or hiding the next level in the namespace.
 -   Copying, moving, or deleting folders.
@@ -103,14 +103,14 @@ When a user selects a folder that belongs to your namespace extension, you creat
 
 Namespace extensions use one of two approaches for creating a folder view:
 
--   Use your child window to host a [list view](https://msdn.microsoft.com/windows/desktop/2ea7d782-4ee8-407e-b6c0-e5e8061e9096) control. This control allows you to display the contents of a folder in much the same way as the Windows Explorer [classic view](https://msdn.microsoft.com/windows/desktop/a894df21-bcc6-4760-b7d7-9bf95a0dba7f).
--   Use your child window to host a [WebBrowser control](https://www.bing.com/search?q=WebBrowser control) and use a Dynamic HTML (DHTML) document to display the contents of the folder.
+-   Use your child window to host a [list view](https://msdn.microsoft.com/VS|Controls|~\controls\listview\reflist.htm) control. This control allows you to display the contents of a folder in much the same way as the Windows Explorer [classic view](https://msdn.microsoft.com/a894df21-bcc6-4760-b7d7-9bf95a0dba7f).
+-   Use your child window to host a [WebBrowser control](https://www.bing.com/search?q=WebBrowser+control) and use a Dynamic HTML (DHTML) document to display the contents of the folder.
 
 Both approaches display a folder view that looks very much like that displayed for system folders. However, if you want to use a different display scheme, you are free to do so.
 
 ### Menu Bar and Toolbars
 
-Like most Windows applications, Windows Explorer provides the user with a collection of tools. A complete selection of tools is available through the menu bar. The more commonly used tools are also represented by buttons or edit boxes on a toolbar. Unlike many Windows applications, the Windows Explorer menu bar is actually a [toolbar control](https://msdn.microsoft.com/windows/desktop/944447c6-d804-421c-9669-a3767a00730a) that has been customized to behave like a conventional menu. Both the menu bar and the toolbar are incorporated into a [rebar control](https://msdn.microsoft.com/windows/desktop/d985ab49-c6ff-4ef9-af49-cb0e3b82a733) to allow users to organize the individual controls to suit their needs.
+Like most Windows applications, Windows Explorer provides the user with a collection of tools. A complete selection of tools is available through the menu bar. The more commonly used tools are also represented by buttons or edit boxes on a toolbar. Unlike many Windows applications, the Windows Explorer menu bar is actually a [toolbar control](https://msdn.microsoft.com/VS|Controls|~\controls\toolbar\reflist.htm) that has been customized to behave like a conventional menu. Both the menu bar and the toolbar are incorporated into a [rebar control](https://msdn.microsoft.com/VS|Controls|~\controls\rebar\reflist.htm) to allow users to organize the individual controls to suit their needs.
 
 By default, Windows Explorer supports a standard set of buttons and menu items, such as Copy and Properties. Your namespace extension can customize the menu bar and toolbars by deleting standard tools and adding custom tools. When your folder view object is initialized, Windows Explorer passes a pointer to its [**IShellBrowser**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellbrowser) interface. This interface supports several methods that you can call to customize the menu bar and toolbar. When the user selects one of your custom menu items or toolbar buttons, Windows Explorer forwards WM\_COMMAND messages for custom menu and toolbar items to your child window's window procedure.
 

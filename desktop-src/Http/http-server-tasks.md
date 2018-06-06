@@ -32,25 +32,25 @@ The following list identifies the HTTP Server tasks:
 
 The HTTP service is initialized by using the [**HttpInitialize**](/windows/desktop/api/Http/nf-http-httpinitialize) function, and the handle to the request queue is created by using [**HttpCreateHttpHandle**](/windows/desktop/api/Http/nf-http-httpcreatehttphandle). The server must be initialized before any other server functions can be called. The request queue must be created before the service can register URLs to listen for incoming HTTP requests.
 
-For more information and a code example, see [Initialize the HTTP Service](https://www.bing.com/search?q=Initialize the HTTP Service).
+For more information and a code example, see [Initialize the HTTP Service](http-server-sample-application.md#initialize-the-http-service).
 
 ## Register the URLs to Listen On
 
 For the HTTP Server API to listen for incoming requests, specific URLs are registered with the API by calling the [**HttpAddUrl**](/windows/desktop/api/Http/nf-http-httpaddurl) function. Incoming requests that match these URLs are routed to the request queue specified in this call.
 
-For more information and a code example, see [Register the URLs to Listen On](https://www.bing.com/search?q=Register the URLs to Listen On).
+For more information and a code example, see [Register the URLs to Listen On](http-server-sample-application.md#register-the-urls-to-listen-on).
 
 ## Call the Routine to Receive a Request
 
 The DoReceiveRequest function allocates the request buffer, initializes the request ID, and starts the loop to receive requests.
 
-For more information and a code example, see [Call the Routine to Receive a Request](https://www.bing.com/search?q=Call the Routine to Receive a Request).
+For more information and a code example, see [Call the Routine to Receive a Request](http-server-sample-application.md#call-the-routine-to-receive-a-request).
 
 ## Receive the Request
 
 The HTTP Server API supplies a request structure to store the parsed incoming request. This structure is allocated by the application, and initialized when an incoming request is received. The application calls the [**HttpReceiveHttpRequest**](/windows/desktop/api/Http/nf-http-httpreceivehttprequest) function to receive the request. If the request buffer is too small to receive the request, the application can increase the buffer size and call **HttpReceiveHttpRequest** again to receive the entire request.
 
-For more information and a code example, see [Receive a Request](https://www.bing.com/search?q=Receive a Request).
+For more information and a code example, see [Receive a Request](http-server-sample-application.md#receive-a-request).
 
 ## Handle the HTTP Request
 
@@ -58,19 +58,19 @@ The sample application shows how to handle the HTTP GET and POST request verbs. 
 
 Note that the URL to be used in handling requests is the processed URL contained in the **CookedUrl** member of the [**HTTP\_REQUEST\_V1**](/windows/desktop/api/Http/ns-http-_http_request_v1) structure. Do not the unprocessed URL in the **pRawUrl** member, which is solely for tracking and statistical purposes.
 
-For more information and a code example, see [Handle the HTTP Request](https://www.bing.com/search?q=Handle the HTTP Request).
+For more information and a code example, see [Handle the HTTP Request](http-server-sample-application.md#handle-the-http-request).
 
 ## Send the HTTP Response
 
 The response structure is allocated and initialized with the status code and a reason phrase in the INITIALIZE\_HTTP\_RESPONSE macro. A known HTTP header is added into the response structure in the ADD\_KNOWN\_HEADER macro, and the entity body is added to the response from a data block from memory. The [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse) function is called to send the response. In this example, the application sends a simple 200 OK response to the GET request.
 
-For more information and a code example, see [Send an HTTP Response](https://www.bing.com/search?q=Send an HTTP Response).
+For more information and a code example, see [Send an HTTP Response](http-server-sample-application.md#send-an-http-response).
 
 ## Send the HTTP POST Response
 
 The POST request requires more processing than the GET request. The request entity body is received by calling the [**HttpReceiveRequestEntityBody**](/windows/desktop/api/Http/nf-http-httpreceiverequestentitybody) function. The application sends the response and the response entity body in separate calls to the HTTP Server API. The response headers are sent with the [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse). The entity body is sent in a data block from a file handle with the [**HttpSendResponseEntityBody**](/windows/desktop/api/Http/nf-http-httpsendresponseentitybody) function.
 
-For more information and a code example, see [Send an HTTP POST Response](https://www.bing.com/search?q=Send an HTTP POST Response).
+For more information and a code example, see [Send an HTTP POST Response](http-server-sample-application.md#send-an-http-post-response).
 
 ## Clean Up the HTTP Server API
 
@@ -82,7 +82,7 @@ The cleanup operations for the HTTP Server API include:
 
 The application calls the [**HttpRemoveUrl**](/windows/desktop/api/Http/nf-http-httpremoveurl) function to deregister URLs registered by the initial [**HttpAddUrl**](/windows/desktop/api/Http/nf-http-httpaddurl) function. The application also calls [**HttpTerminate**](/windows/desktop/api/Http/nf-http-httpterminate) for each call to [**HttpInitialize**](/windows/desktop/api/Http/nf-http-httpinitialize) with matching flag settings. This call terminates all resources created by the call to **HttpInitialize**.
 
-For more information and a code example, see [Cleanup the HTTP Server API](https://www.bing.com/search?q=Cleanup the HTTP Server API).
+For more information and a code example, see [Cleanup the HTTP Server API](http-server-sample-application.md#cleanup-the-http-server-api).
 
  
 

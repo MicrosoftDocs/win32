@@ -34,7 +34,7 @@ In Windows Vista and later, an extensive set of properties covers the specifics
 
 ### Open Metadata
 
-The property system in Windows Vista and later is an open metadata system. A file format stores any property assigned to it and exposes that value when queried, regardless of relevance or meaning. This enables third-party developers to attach extra properties to the file without requiring a change in the property handler associated with it. Open metadata is a powerful concept. For more information about how to support open metadata for an XML-based file format, see "Supporting Open Metadata" in [Initializing Property Handlers](https://www.bing.com/search?q=Initializing Property Handlers).
+The property system in Windows Vista and later is an open metadata system. A file format stores any property assigned to it and exposes that value when queried, regardless of relevance or meaning. This enables third-party developers to attach extra properties to the file without requiring a change in the property handler associated with it. Open metadata is a powerful concept. For more information about how to support open metadata for an XML-based file format, see "Supporting Open Metadata" in [Initializing Property Handlers](https://www.bing.com/search?q=Initializing+Property+Handlers).
 
 > [!Note]  
 > Property handlers are always associated with specific file types; thus, if your file format contains properties that require a custom property handler, you should always register a unique file name extension for each file format.
@@ -59,19 +59,19 @@ Secondary streams do not provide a robust solution in which properties are guara
 
 <dl> <dt>
 
-[Using Kind Names](https://www.bing.com/search?q=Using Kind Names)
+[Using Kind Names](https://www.bing.com/search?q=Using+Kind+Names)
 </dt> <dt>
 
-[Using Property Lists](https://www.bing.com/search?q=Using Property Lists)
+[Using Property Lists](https://www.bing.com/search?q=Using+Property+Lists)
 </dt> <dt>
 
-[Initializing Property Handlers](https://www.bing.com/search?q=Initializing Property Handlers)
+[Initializing Property Handlers](https://www.bing.com/search?q=Initializing+Property+Handlers)
 </dt> <dt>
 
-[Registering and Distributing Property Handlers](https://www.bing.com/search?q=Registering and Distributing Property Handlers)
+[Registering and Distributing Property Handlers](https://www.bing.com/search?q=Registering+and+Distributing+Property+Handlers)
 </dt> <dt>
 
-[Property Handler Best Practices and FAQ](https://www.bing.com/search?q=Property Handler Best Practices and FAQ)
+[Property Handler Best Practices and FAQ](https://www.bing.com/search?q=Property+Handler+Best+Practices+and+FAQ)
 </dt> </dl>
 
  

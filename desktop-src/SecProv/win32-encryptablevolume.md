@@ -153,7 +153,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The drive letter of the volume. This identifier can be used to associate a volume with other WMI provider classes, for example [**Win32\_Volume**](https://msdn.microsoft.com/windows/desktop/71991c97-0e9a-4a0e-a6d6-ee8df263c23d).
+The drive letter of the volume. This identifier can be used to associate a volume with other WMI provider classes, for example [**Win32\_Volume**](https://msdn.microsoft.com/71991c97-0e9a-4a0e-a6d6-ee8df263c23d).
 
 For volumes without drive letters, this value is **NULL**.
 
@@ -216,7 +216,7 @@ The default namespace security setting includes an entry to allow editing by def
 
 ## Remarks
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/windows/desktop/26494142-2078-4d46-a794-e43973255c2d).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/26494142-2078-4d46-a794-e43973255c2d).
 
 ## Requirements
 

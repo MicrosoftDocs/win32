@@ -34,7 +34,7 @@ D3DXEVENTHANDLE KeyPriorityBlend(
 *NewBlendWeight* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Number between 0 and 1 that is used to blend tracks together.
 
@@ -43,7 +43,7 @@ Number between 0 and 1 that is used to blend tracks together.
 *StartTime* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Global time to start the blend.
 
@@ -52,7 +52,7 @@ Global time to start the blend.
 *Duration* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/windows/desktop/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
 
 Global time duration of the blend.
 
@@ -61,9 +61,9 @@ Global time duration of the blend.
 *Transition* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/windows/desktop/4416ef28-ba6b-47ca-be7d-831daad619e5)**
+Type: **[**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxtransition_type.htm)**
 
-Specifies the transition type used for the duration of the blend. See [**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/windows/desktop/4416ef28-ba6b-47ca-be7d-831daad619e5).
+Specifies the transition type used for the duration of the blend. See [**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxtransition_type.htm).
 
 </dd> </dl>
 

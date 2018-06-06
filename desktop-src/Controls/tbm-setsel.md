@@ -47,7 +47,7 @@ No return value.
 
 ## Remarks
 
-This message is ignored if the trackbar does not have the [**TBS\_ENABLESELRANGE**](https://www.bing.com/search?q=**TBS\_ENABLESELRANGE**) style.
+This message is ignored if the trackbar does not have the [**TBS\_ENABLESELRANGE**](trackbar-control-styles.md#tbs-enableselrange) style.
 
 **TBM\_SETSEL** allows you to restrict the pointer to only a portion of the range available to the progress bar.
 

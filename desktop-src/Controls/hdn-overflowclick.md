@@ -53,7 +53,7 @@ No return value.
 
 The notification receiver casts **LPARAM** to retrieve the [**NMHEADER**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmheadera) structure. **WPARAM** contains the ID of the control that sends the notification.
 
-This message is sent only when style [**HDS\_OVERFLOW**](https://www.bing.com/search?q=**HDS\_OVERFLOW**) is set on the header control.
+This message is sent only when style [**HDS\_OVERFLOW**](header-control-styles.md#hds-overflow) is set on the header control.
 
 ## Requirements
 

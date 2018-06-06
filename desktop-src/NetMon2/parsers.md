@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # Parser
 
-A parser is the Network Monitor component that inspects data in a [*delayed capture*](https://www.bing.com/search?q=*delayed capture*), and passes specific protocol information to the application that calls the parser. A parser is passive because it works only when Network Monitor or an [*expert*](https://www.bing.com/search?q=*expert*) call it.
+A parser is the Network Monitor component that inspects data in a [*delayed capture*](d.md#-netmon-delayed-capture-gly), and passes specific protocol information to the application that calls the parser. A parser is passive because it works only when Network Monitor or an [*expert*](e.md#-netmon-expert-gly) call it.
 
 Each parser identifies one protocol, and typically, a parser is implemented within its own parser DLL. However, a parser DLL can contain multiple parsers which means that one DLL can be used to detect more than one protocol.
 
-The data passed to a parser is taken from a [*delayed capture*](https://www.bing.com/search?q=*delayed capture*), and passed to the parser on a frame-by-frame basis. You cannot parse a real-time capture.
+The data passed to a parser is taken from a [*delayed capture*](d.md#-netmon-delayed-capture-gly), and passed to the parser on a frame-by-frame basis. You cannot parse a real-time capture.
 
 To parse the data in a frame, the parser must recognize the protocol instance, identify the properties that exist in the protocol instance, and attach a property definition to each property. Be aware that the frame contains only a stream of data. The frame does not contain data that indicates which protocols or protocol properties the data represents.
 

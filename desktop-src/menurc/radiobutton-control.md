@@ -53,7 +53,7 @@ RADIOBUTTON "Italic", 100, 10, 10, 40, 10
 [**GetDialogBaseUnits**](https://www.bing.com/search?q=**GetDialogBaseUnits**)
 </dt> <dt>
 
-[Radio Buttons](https://www.bing.com/search?q=Radio Buttons)
+[Radio Buttons](_win32_Button_Types_and_Styles#radio-buttons)
 </dt> </dl>
 
  

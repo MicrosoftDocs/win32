@@ -21,7 +21,7 @@ DirectShow uses a modular architecture, where each stage of processing is done b
 
 These filters are shown in the following diagram.
 
-![filter graph for playing back an avi file with compressed video](https://www.bing.com/search?q=filter graph for playing back an avi file with compressed video)
+![filter graph for playing back an avi file with compressed video](https://www.bing.com/search?q=filter+graph+for+playing+back+an+avi+file+with+compressed+video)
 
 As the diagram shows, each filter is connected to one or more other filters. The connection points are also COM objects, called *pins*. Filters use pins to move data from one filter the next. The arrows in the diagram show the direction in which the data travels. In DirectShow, a set of filters is called a *filter graph*.
 

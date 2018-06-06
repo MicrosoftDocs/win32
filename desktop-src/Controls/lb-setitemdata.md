@@ -49,7 +49,7 @@ If an error occurs, the return value is LB\_ERR.
 
 ## Remarks
 
-If the item is in an owner-drawn list box created without the [**LBS\_HASSTRINGS**](https://www.bing.com/search?q=**LBS\_HASSTRINGS**) style, this message replaces the value contained in the *lParam* parameter of the [**LB\_ADDSTRING**](lb-addstring.md) or [**LB\_INSERTSTRING**](lb-insertstring.md) message that added the item to the list box.
+If the item is in an owner-drawn list box created without the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style, this message replaces the value contained in the *lParam* parameter of the [**LB\_ADDSTRING**](lb-addstring.md) or [**LB\_INSERTSTRING**](lb-insertstring.md) message that added the item to the list box.
 
 ## Requirements
 

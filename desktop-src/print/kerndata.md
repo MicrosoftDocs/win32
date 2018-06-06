@@ -47,7 +47,7 @@ Specifies the number of elements in the **KernPair** array.
 **KernPair**
 </dt> <dd>
 
-Is an array of [**FD\_KERNINGPAIR**](https://www.bing.com/search?q=**FD\_KERNINGPAIR**) structures.
+Is an array of [**FD\_KERNINGPAIR**](https://msdn.microsoft.com/5c5eced6-a0a3-448e-bcb3-57be1b703797) structures.
 
 </dd> </dl>
 
@@ -69,7 +69,7 @@ A .ufm file's KERNDATA structures are accessed by a pointer in the file's [**UNI
 
 <dl> <dt>
 
-[**FD\_KERNINGPAIR**](https://www.bing.com/search?q=**FD\_KERNINGPAIR**)
+[**FD\_KERNINGPAIR**](https://msdn.microsoft.com/5c5eced6-a0a3-448e-bcb3-57be1b703797)
 </dt> <dt>
 
 [**UNIFM\_HDR**](unifm-hdr.md)

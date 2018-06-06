@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # HTTP Sessions
 
-WinINet enables you to access resources on the World Wide Web (WWW). These resources can be accessed directly by using [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for more information, see [Accessing URLs Directly](https://www.bing.com/search?q=Accessing URLs Directly)).
+WinINet enables you to access resources on the World Wide Web (WWW). These resources can be accessed directly by using [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for more information, see [Accessing URLs Directly](handling-uniform-resource-locators.md#accessing-urls-directly)).
 
 Resources on the WWW are accessed by using http. The HTTP functions handle the underlying protocols, while allowing your application to access information on the WWW. As the HTTP protocol evolves, the underlying protocols are updated to maintain function behavior.
 
@@ -49,7 +49,7 @@ The following functions are used during HTTP sessions to access the WWW.
 
 ### Initiating a Connection to the WWW
 
-To start a connection to the WWW, the application must call the [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) function on the root [**HINTERNET**](appendix-a-hinternet-handles.md) returned by [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena). [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) must establish an HTTP session by declaring the INTERNET\_SERVICE\_HTTP service type. For more information on using [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta), see [Using InternetConnect](https://www.bing.com/search?q=Using InternetConnect).
+To start a connection to the WWW, the application must call the [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) function on the root [**HINTERNET**](appendix-a-hinternet-handles.md) returned by [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena). [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) must establish an HTTP session by declaring the INTERNET\_SERVICE\_HTTP service type. For more information on using [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta), see [Using InternetConnect](enabling-internet-functionality.md#using-internetconnect).
 
 ### Opening a Request
 
@@ -67,9 +67,9 @@ The referrer specifies the address of the document from which the object name wa
 
 The **null**-terminated string that contains the accept types indicates the content types accepted by the application. Setting this parameter to **NULL** indicates that no content types are accepted by the application. If an empty string is supplied, the application indicates it accepts only documents of type ""text/\*"". The value ""text/\*"" indicates text-only documents—not pictures or other binary files.
 
-The flag values control caching, cookies, and security issues. For Microsoft Network (MSN), NTLM, and other types of authentication, set the [INTERNET\_FLAG\_KEEP\_CONNECTION](https://www.bing.com/search?q=INTERNET\_FLAG\_KEEP\_CONNECTION) flag.
+The flag values control caching, cookies, and security issues. For Microsoft Network (MSN), NTLM, and other types of authentication, set the [INTERNET\_FLAG\_KEEP\_CONNECTION](api-flags.md#internet-flag-keep-connection) flag.
 
-If the [INTERNET\_FLAG\_ASYNC](https://www.bing.com/search?q=INTERNET\_FLAG\_ASYNC) flag was set in the call to [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena), a nonzero context value should be set for proper asynchronous operation.
+If the [INTERNET\_FLAG\_ASYNC](api-flags.md#internet-flag-async) flag was set in the call to [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena), a nonzero context value should be set for proper asynchronous operation.
 
 The following example is a sample call to [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta).
 

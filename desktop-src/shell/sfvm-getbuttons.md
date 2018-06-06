@@ -33,14 +33,14 @@ SFVM_GETBUTTONS
 *idCmdFirst\_cbtnMax* \[in\]
 </dt> <dd>
 
-Contains two 16-bit values packed into the parameter with the [**MAKEWPARAM**](https://msdn.microsoft.com/windows/desktop/029f334b-53f6-46cf-8fa7-613bf241d0e6) macro. The low-order word contains the initial command ID. The high-order word contains the number of buttons to be added, as specified in the preceding [**SFVM\_GETBUTTONINFO**](sfvm-getbuttoninfo.md) message.
+Contains two 16-bit values packed into the parameter with the [**MAKEWPARAM**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makewparam.htm) macro. The low-order word contains the initial command ID. The high-order word contains the number of buttons to be added, as specified in the preceding [**SFVM\_GETBUTTONINFO**](sfvm-getbuttoninfo.md) message.
 
 </dd> <dt>
 
 *pbtn* \[out\]
 </dt> <dd>
 
-The address of an array of [**TBBUTTON**](https://msdn.microsoft.com/windows/desktop/c7dea982-d8b3-44e1-a4d2-3cca560c2096) structures, one for each button to be added to the toolbar.
+The address of an array of [**TBBUTTON**](https://msdn.microsoft.com/VS|Controls|~\controls\toolbar\structures\tbbutton.htm) structures, one for each button to be added to the toolbar.
 
 </dd> </dl>
 

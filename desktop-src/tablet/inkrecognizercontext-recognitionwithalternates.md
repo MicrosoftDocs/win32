@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkRecognizerContext.RecognitionWithAlternates event
 
-Occurs when the [**InkRecognizerContext Class**](/windows/desktop/api/msinkaut/) has generated results after calling the [**BackgroundRecognizeWithAlternates Method**](https://www.bing.com/search?q=**BackgroundRecognizeWithAlternates Method**) method.
+Occurs when the [**InkRecognizerContext Class**](/windows/desktop/api/msinkaut/) has generated results after calling the [**BackgroundRecognizeWithAlternates Method**](https://www.bing.com/search?q=**BackgroundRecognizeWithAlternates+Method**) method.
 
 ## Syntax
 
@@ -83,7 +83,7 @@ This event method is defined in the \_IInkEvents interface. The \_IInkEvents int
 [**InkRecognizerContext Class**](/windows/desktop/api/msinkaut/)
 </dt> <dt>
 
-[**BackgroundRecognizeWithAlternates Method**](https://www.bing.com/search?q=**BackgroundRecognizeWithAlternates Method**)
+[**BackgroundRecognizeWithAlternates Method**](https://www.bing.com/search?q=**BackgroundRecognizeWithAlternates+Method**)
 </dt> <dt>
 
 [**Recognize Method**](/windows/desktop/api/msinkaut/)

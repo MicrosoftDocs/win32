@@ -21,7 +21,7 @@ Microsoft DirectComposition is a Windows component that enables high-performance
 
 DirectComposition enables rich and fluid transitions by achieving a high framerate, using graphics hardware, and operating independently of the UI thread. DirectComposition can accept bitmap content drawn by different rendering libraries, including Microsoft DirectX bitmaps, and bitmaps rendered to a window (HWND bitmaps). Also, DirectComposition supports a variety of transformations, such as 2D affine transforms and 3D perspective transforms, as well as basic effects such as clipping and opacity.
 
-DirectComposition is designed to simplify the process of composing [*visuals*](https://www.bing.com/search?q=*visuals*) and creating animated transitions. If your application already contains rendering code or already uses the recommended DirectX API, you only need to do a minimal amount of work to use DirectComposition effectively.
+DirectComposition is designed to simplify the process of composing [*visuals*](directcomposition-glossary.md#directcomp-glossary-visual) and creating animated transitions. If your application already contains rendering code or already uses the recommended DirectX API, you only need to do a minimal amount of work to use DirectComposition effectively.
 
 ## Developer audience
 

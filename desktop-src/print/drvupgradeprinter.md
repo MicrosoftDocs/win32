@@ -60,7 +60,7 @@ If the operation succeeds, the function should return **TRUE**; otherwise, it sh
 
 ## Remarks
 
-A [printer interface DLL](https://www.bing.com/search?q=printer interface DLL) can optionally provide a **DrvUpgradePrinter** function. If it does, the spooler calls it for every printer when the printer driver is copied onto the system. This occurs when a system is upgraded from one operating system release to the next, or when an application updates a printer driver by calling the Win32 **AddPrinterDriver** function.
+A [printer interface DLL](https://www.bing.com/search?q=printer+interface+DLL) can optionally provide a **DrvUpgradePrinter** function. If it does, the spooler calls it for every printer when the printer driver is copied onto the system. This occurs when a system is upgraded from one operating system release to the next, or when an application updates a printer driver by calling the Win32 **AddPrinterDriver** function.
 
 Often, a new driver version requires registry settings that are different from those of the old version. The **DrvUpgradePrinter** function's purpose is to update the registry so it is compatible with the driver. For more information about storing printer information in the registry, see [**DrvPrinterEvent**](drvprinterevent.md).
 

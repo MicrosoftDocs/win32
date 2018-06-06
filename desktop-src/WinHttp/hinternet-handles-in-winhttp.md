@@ -49,7 +49,7 @@ The **HINTERNET** handles are maintained in a hierarchy. The handle returned by 
 
 The following diagram illustrates the hierarchy of **HINTERNET** handles. Each box in the diagram represents a WinHTTP function that returns an **HINTERNET** handle.
 
-![functions that create handles](https://www.bing.com/search?q=functions that create handles)
+![functions that create handles](https://www.bing.com/search?q=functions+that+create+handles)
 
 After closing a handle, the application must be prepared to receive callback notifications on the handle until the final **WINHTTP\_CALLBACK\_STATUS\_HANDLE\_CLOSED** value is returned to indicate that the handle is completely closed.
 
@@ -59,7 +59,7 @@ When a parent handle is closed, any children it has are indirectly invalidated e
 
 The following diagram shows the functions that use the **HINTERNET** handle created by [**WinHttpOpenRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopenrequest). The shaded boxes represent WinHTTP functions that create handles, and the plain boxes show the functions that use those **HINTERNET** handles. The diagram is also organized to show the order in which WinHTTP functions are normally called.
 
-![functions that create handles](https://www.bing.com/search?q=functions that create handles)
+![functions that create handles](https://www.bing.com/search?q=functions+that+create+handles)
 
 ## Explanation of the Handle Hierarchy
 

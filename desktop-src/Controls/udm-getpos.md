@@ -39,7 +39,7 @@ If successful, the [**HIWORD**](https://msdn.microsoft.com/library/windows/deskt
 
 ## Remarks
 
-When processing this message, the up-down control updates its current position based on the caption of the buddy window. The up-down control returns an error if there is no buddy window or if the caption specifies an invalid or out-of-range value. Also, an error flag is set in the HIWORD of the return if the control is created without the [**UDS\_SETBUDDYINT**](https://www.bing.com/search?q=**UDS\_SETBUDDYINT**) style, even though it returns a valid position value in the LOWORD of the return.
+When processing this message, the up-down control updates its current position based on the caption of the buddy window. The up-down control returns an error if there is no buddy window or if the caption specifies an invalid or out-of-range value. Also, an error flag is set in the HIWORD of the return if the control is created without the [**UDS\_SETBUDDYINT**](up-down-control-styles.md#uds-setbuddyint) style, even though it returns a valid position value in the LOWORD of the return.
 
 If 32-bit values have been enabled for an up-down control with [**UDM\_SETRANGE32**](udm-setrange32.md), this message returns only the lower 16 bits of the position. To retrieve the full 32-bit position, use [**UDM\_GETPOS32**](udm-getpos32.md).
 

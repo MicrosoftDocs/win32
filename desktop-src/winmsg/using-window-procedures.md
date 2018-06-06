@@ -65,11 +65,11 @@ The [**WM\_NCCREATE**](wm-nccreate.md) message is sent just after your window is
 
 The [**WM\_DESTROY**](wm-destroy.md) message is sent when your window is about to be destroyed. The [**DestroyWindow**](/windows/desktop/api/Winuser/nf-winuser-destroywindow) function takes care of destroying any child windows of the window being destroyed. The [**WM\_NCDESTROY**](wm-ncdestroy.md) message is sent just before a window is destroyed.
 
-At the very least, a window procedure should process the [**WM\_PAINT**](https://msdn.microsoft.com/windows/desktop/afebaa07-cf00-47db-a919-46436f164881) message to draw itself. Typically, it should handle mouse and keyboard messages as well. Consult the descriptions of individual messages to determine whether your window procedure should handle them.
+At the very least, a window procedure should process the [**WM\_PAINT**](https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881) message to draw itself. Typically, it should handle mouse and keyboard messages as well. Consult the descriptions of individual messages to determine whether your window procedure should handle them.
 
 Your application can call the [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function as part of the processing of a message. In such a case, the application can modify the message parameters before passing the message to **DefWindowProc**, or it can continue with the default processing after performing its own operations.
 
-A dialog box procedure receives a [**WM\_INITDIALOG**](https://msdn.microsoft.com/windows/desktop/bc4f4718-1dab-48db-ae3b-5a81a7be2644) message instead of a [**WM\_CREATE**](wm-create.md) message and does not pass unprocessed messages to the [**DefDlgProc**](https://msdn.microsoft.com/windows/desktop/e94b025b-2bf3-46e5-8290-a5e05ca311a1) function. Otherwise, a dialog box procedure is exactly the same as a window procedure.
+A dialog box procedure receives a [**WM\_INITDIALOG**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxmessages\wm_initdialog.htm) message instead of a [**WM\_CREATE**](wm-create.md) message and does not pass unprocessed messages to the [**DefDlgProc**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\defdlgproc.htm) function. Otherwise, a dialog box procedure is exactly the same as a window procedure.
 
 ## Associating a Window Procedure with a Window Class
 

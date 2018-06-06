@@ -42,7 +42,7 @@ The client application must take special care to perform minimal operations with
 
 
 
-Sets an unsigned long integer value that specifies the [Automatic Logon Policy](https://www.bing.com/search?q=Automatic Logon Policy) with one of the following values.
+Sets an unsigned long integer value that specifies the [Automatic Logon Policy](authentication-in-winhttp.md#automatic-logon-policy) with one of the following values.
 
 <dl> <dt>
 
@@ -84,14 +84,14 @@ Retrieves the pointer to the callback function set with [**WinHttpSetStatusCallb
 
 
 
-Sets the client certificate context. If an application receives [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](https://www.bing.com/search?q=**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**), it must call [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) to supply a certificate before retrying the request. As a part of processing this option, WinHttp calls [**CertDuplicateCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376045) on the caller-provided certificate context so that the certificate context can be independently released by the caller.
+Sets the client certificate context. If an application receives [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](error-messages.md#error-winhttp-client-auth-cert-needed), it must call [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) to supply a certificate before retrying the request. As a part of processing this option, WinHttp calls [**CertDuplicateCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376045) on the caller-provided certificate context so that the certificate context can be independently released by the caller.
 
 > [!Note]  
 > The application should not attempt to close the certificate store with the CERT\_CLOSE\_STORE\_FORCE\_FLAG flag in the call to [**CertCloseStore**](https://msdn.microsoft.com/library/windows/desktop/aa376026) on the certificate store from which the certificate context was retrieved. An access violation may occur.
 
  
 
-When the server requests a client certificate, [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest), or [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) returns an [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](https://www.bing.com/search?q=**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**) error. If the server requests the certificate but does not require it, the application can specify this option to indicate that it does not have a certificate. The server can choose another authentication scheme or allow anonymous access to the server. The application provides the **WINHTTP\_NO\_CLIENT\_CERT\_CONTEXT** macro in the *lpBuffer* parameter of [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) as shown in the following code example.
+When the server requests a client certificate, [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest), or [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) returns an [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](error-messages.md#error-winhttp-client-auth-cert-needed) error. If the server requests the certificate but does not require it, the application can specify this option to indicate that it does not have a certificate. The server can choose another authentication scheme or allow anonymous access to the server. The application provides the **WINHTTP\_NO\_CLIENT\_CERT\_CONTEXT** macro in the *lpBuffer* parameter of [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) as shown in the following code example.
 
 ``` syntax
 BOOL fRet = WinHttpSetOption ( hRequest,
@@ -132,7 +132,7 @@ Alternately, if the server requests the client certificate, but does not require
 
 
 
-Sets the [*code page*](https://www.bing.com/search?q=*code page*) that is used to process the URL (that is, query string). The default is UTF8.
+Sets the [*code page*](glossary.md#term-code-page) that is used to process the URL (that is, query string). The default is UTF8.
 
 
 </dt> </dl> </dd> <dt>
@@ -512,7 +512,7 @@ Retrieves the parent handle to this handle.
 
 
 
-Retrieves a string that contains the [*cobranding*](https://www.bing.com/search?q=*cobranding*) text provided by the Passport logon server. This option should be retrieved immediately after the logon server responds with a 401 status code. An application should pass in a buffer size, in bytes, that is big enough to hold the returned string.
+Retrieves a string that contains the [*cobranding*](glossary.md#term-cobranding) text provided by the Passport logon server. This option should be retrieved immediately after the logon server responds with a 401 status code. An application should pass in a buffer size, in bytes, that is big enough to hold the returned string.
 
 
 </dt> </dl> </dd> <dt>
@@ -522,7 +522,7 @@ Retrieves a string that contains the [*cobranding*](https://www.bing.com/search?
 
 
 
-Retrieves a string that contains a URL for a [*cobranding*](https://www.bing.com/search?q=*cobranding*) graphic provided by the Passport logon server. This option should be retrieved immediately after the logon server responds with a 401 status code. An application should pass in a buffer size, in bytes, that is big enough to hold the returned string.
+Retrieves a string that contains a URL for a [*cobranding*](glossary.md#term-cobranding) graphic provided by the Passport logon server. This option should be retrieved immediately after the logon server responds with a 401 status code. An application should pass in a buffer size, in bytes, that is big enough to hold the returned string.
 
 
 </dt> </dl> </dd> <dt>
@@ -982,7 +982,7 @@ Takes a **BOOL** and can be set only a session handle. It will only propagate do
 
 
 
-Sets or retrieves the [*user agent*](https://www.bing.com/search?q=*user agent*) string on handles supplied by [**WinHttpOpen**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopen) and used in subsequent [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest) functions, as long as it is not overridden by a header added by [**WinHttpAddRequestHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpaddrequestheaders) or **WinHttpSendRequest**. When retrieving a user agent, the application should pass in a buffer, sized in bytes, that is big enough to hold the returned URL in wide char. When setting the user agent, the buffer size is the length of the string, in characters, plus the **NULL** terminator.
+Sets or retrieves the [*user agent*](glossary.md#term-user-agent) string on handles supplied by [**WinHttpOpen**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopen) and used in subsequent [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest) functions, as long as it is not overridden by a header added by [**WinHttpAddRequestHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpaddrequestheaders) or **WinHttpSendRequest**. When retrieving a user agent, the application should pass in a buffer, sized in bytes, that is big enough to hold the returned URL in wide char. When setting the user agent, the buffer size is the length of the string, in characters, plus the **NULL** terminator.
 
 
 </dt> </dl> </dd> <dt>

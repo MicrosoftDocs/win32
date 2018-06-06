@@ -17,7 +17,7 @@ The following illustration shows a polygon drawn by using [**Polygon**](/windows
 
 ![illustration of a polygon in the shape of a five-pointed star](images/csfsh-04.png)
 
-In addition to drawing a single polygon by using [**Polygon**](https://msdn.microsoft.com/windows/desktop/2f958b91-039a-4e02-b727-be142bb18b06), an application can draw multiple polygons by using the [**PolyPolygon**](/windows/desktop/api/Wingdi/nf-wingdi-polypolygon) function.
+In addition to drawing a single polygon by using [**Polygon**](https://msdn.microsoft.com/2f958b91-039a-4e02-b727-be142bb18b06), an application can draw multiple polygons by using the [**PolyPolygon**](/windows/desktop/api/Wingdi/nf-wingdi-polypolygon) function.
 
  
 
