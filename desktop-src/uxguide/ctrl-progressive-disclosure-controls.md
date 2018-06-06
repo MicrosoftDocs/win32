@@ -60,7 +60,7 @@ The goals of progressive disclosure are to:
 Both goals can be achieved by using progressive disclosure controls, where users click to see more detail. However, you can achieve the second goal of simplifying the appearance without using explicit progressive disclosure controls by:
 
 -   **Showing contextual detail only in context.** For example, you can show contextual commands or toolbars automatically when relevant to the selected object or mode.
--   **Reducing the weight of affordances for secondary UI.**[Affordances](glossary.md#glossary) are visual properties that suggest how objects are used. The trend is to have UI that users can interact with in place, but to have all such UI drawn to scream "click me!" leads to too much visual clutter. For secondary UI, it is often better to use subtle affordances and give the full effects on mouse over.
+-   **Reducing the weight of affordances for secondary UI.**[Affordances](glossary.md) are visual properties that suggest how objects are used. The trend is to have UI that users can interact with in place, but to have all such UI drawn to scream "click me!" leads to too much visual clutter. For secondary UI, it is often better to use subtle affordances and give the full effects on mouse over.
 
     ![screen shot of star icons used to rate photos ](images/progressive-disclosure-controls-image5.png)
 
@@ -88,7 +88,7 @@ Progressive disclosure controls are usually displayed without direct labels that
 
 While users can determine the above by trial and error, you should try to make such experimentation unnecessary.
 
-Progressive disclosure controls have a fairly weak [affordances](glossary.md#glossary), which means their visual properties suggest how they are used, albeit weakly. The following table compares the appearance of the common progressive disclosure controls:
+Progressive disclosure controls have a fairly weak [affordances](glossary.md), which means their visual properties suggest how they are used, albeit weakly. The following table compares the appearance of the common progressive disclosure controls:
 
 
 
@@ -324,8 +324,8 @@ Recommended sizing and spacing for progressive disclosure controls.
 ## Labels
 
 -   For chevrons on a command button with an external label:
-    -   Assign a unique [access key](glossary.md#glossary). For guidelines, see [Keyboard](inter-keyboard.md).
-    -   Use [sentence-style capitalization](glossary.md#s).
+    -   Assign a unique [access key](glossary.md). For guidelines, see [Keyboard](inter-keyboard.md).
+    -   Use [sentence-style capitalization](glossary.md).
     -   Write the label as a phrase and use no ending punctuation.
     -   Write the label so that it describes the effect of clicking the button, and change the label when the state changes.
     -   If the surface always displays some options, commands, or details, use the following label pairs:
@@ -345,7 +345,7 @@ Recommended sizing and spacing for progressive disclosure controls.
 When referring to progressive disclosure controls:
 
 -   If the control has a fixed label, refer to the control by its label only; don't try to describe the control. Use the exact label text, including its capitalization, but don't include the access key underscore.
--   If the control has no label or it isn't fixed, refer to the control by its type: chevron, arrow, triangle, or plus/minus button. If necessary, also describe the control's location. If the control appears dynamically, such as the [page space](glossary.md#p) control, start the reference by describing how to make the control appear.
+-   If the control has no label or it isn't fixed, refer to the control by its type: chevron, arrow, triangle, or plus/minus button. If necessary, also describe the control's location. If the control appears dynamically, such as the [page space](glossary.md) control, start the reference by describing how to make the control appear.
 
     **Example:** To display the files within a folder, move the pointer to the start of the folder name, and then click the triangle next to the folder.
 

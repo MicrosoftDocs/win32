@@ -53,14 +53,14 @@ Since each band contains a control, you can provide additional flexibility throu
 
 Most of the features of the Internet Explorer toolbar are actually implemented in the individual bands. The implementation of the rebar control itself is straightforward and is listed below.
 
-1.  Create the rebar control with [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680). Set *dwExStyle* to [**WS\_EX\_TOOLWINDOW**](https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-toolwindow) and *lpClassName* to [**REBARCLASSNAME**](common-control-window-classes.md#rebarclassname). Internet Explorer uses the following window styles:
+1.  Create the rebar control with [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680). Set *dwExStyle* to [**WS\_EX\_TOOLWINDOW**](https://msdn.microsoft.com/library/windows/desktop/ff700543#ws-ex-toolwindow) and *lpClassName* to [**REBARCLASSNAME**](common-control-window-classes.md). Internet Explorer uses the following window styles:
 
-    -   [**RBS\_BANDBORDERS**](rebar-control-styles.md#rbs-bandborders)
-    -   [**RBS\_DBLCLKTOGGLE**](rebar-control-styles.md#rbs-dblclktoggle)
-    -   [**RBS\_REGISTERDROP**](rebar-control-styles.md#rbs-registerdrop)
-    -   [**RBS\_VARHEIGHT**](rebar-control-styles.md#rbs-varheight)
-    -   [**CCS\_NODIVIDER**](common-control-styles.md#ccs-nodivider)
-    -   [**CCS\_NOPARENTALIGN**](common-control-styles.md#ccs-noparentalign)
+    -   [**RBS\_BANDBORDERS**](rebar-control-styles.md)
+    -   [**RBS\_DBLCLKTOGGLE**](rebar-control-styles.md)
+    -   [**RBS\_REGISTERDROP**](rebar-control-styles.md)
+    -   [**RBS\_VARHEIGHT**](rebar-control-styles.md)
+    -   [**CCS\_NODIVIDER**](common-control-styles.md)
+    -   [**CCS\_NOPARENTALIGN**](common-control-styles.md)
     -   [**WS\_BORDER**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-border)
     -   [**WS\_CHILD**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-child)
     -   [**WS\_CLIPCHILDREN**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-clipchildren)
@@ -119,9 +119,9 @@ Drop-down buttons support multiple commands. When the user clicks a drop-down bu
 
 Drop-down functionality can be added to any button style by adding a style flag to the **fStyle** member of the button's [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-_tbbutton) structure. There are three styles of drop-down button, all of which are used by Internet Explorer:
 
--   Plain drop-down buttons have the [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md#btns-dropdown) style. They look like normal buttons, but they display a menu when clicked instead of launching a command.
--   Simple drop-down arrow buttons have the [**BTNS\_WHOLEDROPDOWN**](toolbar-control-and-button-styles.md#btns-wholedropdown) style. They have an arrow displayed next to the button image or text. Other than the difference in appearance, they are identical to plain drop-down buttons. The Mail button used as the example in the preceding illustration is a drop-down arrow button.
--   Drop-down arrow buttons that add the [**TBSTYLE\_EX\_DRAWDDARROWS**](toolbar-extended-styles.md#tbstyle-ex-drawddarrows) extended style to [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md#btns-dropdown) have an arrow that is separated from the text or image. This button style combines the functionality of drop-down and standard buttons. If the user clicks the arrow, a menu is displayed and the user can choose from several commands. If the user clicks the adjacent button, it launches a default command. The following screen shot shows the Internet Explorer **Back** button, which uses a separated arrow.
+-   Plain drop-down buttons have the [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md) style. They look like normal buttons, but they display a menu when clicked instead of launching a command.
+-   Simple drop-down arrow buttons have the [**BTNS\_WHOLEDROPDOWN**](toolbar-control-and-button-styles.md) style. They have an arrow displayed next to the button image or text. Other than the difference in appearance, they are identical to plain drop-down buttons. The Mail button used as the example in the preceding illustration is a drop-down arrow button.
+-   Drop-down arrow buttons that add the [**TBSTYLE\_EX\_DRAWDDARROWS**](toolbar-extended-styles.md) extended style to [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md) have an arrow that is separated from the text or image. This button style combines the functionality of drop-down and standard buttons. If the user clicks the arrow, a menu is displayed and the user can choose from several commands. If the user clicks the adjacent button, it launches a default command. The following screen shot shows the Internet Explorer **Back** button, which uses a separated arrow.
 
     ![screen shot that shows the menu of the back split button](images/howto4.jpg)
 
@@ -135,7 +135,7 @@ With standard buttons, if you add text, it is displayed below the bitmap. The fo
 
 ![screen shot showing the search and favorites toolbar with standard buttons](images/howto6.jpg)
 
-Microsoft Internet Explorer 5 and later versions use the [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md#tbstyle-list) style. The text is to the right of the bitmap, reducing the height of the button and enlarging the viewing region. The following illustration shows the Internet Explorer 6 **Search** and **Favorites** buttons with the **TBSTYLE\_LIST** style.
+Microsoft Internet Explorer 5 and later versions use the [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md) style. The text is to the right of the bitmap, reducing the height of the button and enlarging the viewing region. The following illustration shows the Internet Explorer 6 **Search** and **Favorites** buttons with the **TBSTYLE\_LIST** style.
 
 ![screen shot showing the search and favorites toolbar using list-style buttons](images/howto5.jpg)
 
@@ -149,7 +149,7 @@ When hot-tracking is enabled, a button becomes *hot* when the cursor is over it.
 
 ![screen shot showing the search and favorites buttons, with a hot search button](images/howto7.jpg)
 
-To enable hot-tracking, create a toolbar control with either the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md#tbstyle-flat) or [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md#tbstyle-list) style. These are referred to as *flat* toolbars because the individual buttons are not ordinarily highlighted in any way. The bitmaps are simply displayed next to each other. They take on a button-like appearance only when they are hot. These two styles are also transparent, which means that the background of the icons will be the color of the underlying client window.
+To enable hot-tracking, create a toolbar control with either the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md) or [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md) style. These are referred to as *flat* toolbars because the individual buttons are not ordinarily highlighted in any way. The bitmaps are simply displayed next to each other. They take on a button-like appearance only when they are hot. These two styles are also transparent, which means that the background of the icons will be the color of the underlying client window.
 
 To have a different bitmap displayed when the button is hot, create a second [image list](image-lists.md) that contains hot images for all the buttons on the toolbar. The size and order of these images should be the same as in the default image list. Send the toolbar control a [**TB\_SETHOTIMAGELIST**](tb-sethotimagelist.md) message to set the hot image list.
 

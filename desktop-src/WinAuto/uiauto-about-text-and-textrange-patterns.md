@@ -103,7 +103,7 @@ For applications and user interfaces that are based on page presentations, the b
 
 ## Lifetime of a Text Range
 
-If possible, a provider should ensure that any text changes, such as deletions, insertions, and moves, are reflected in the associated text range. If updating the text range is not possible, the provider should raise a [**UIA\_Text\_TextChangedEventId**](uiauto-event-ids.md#uia-text-textchangedeventid) event to notify clients that the text range is no longer valid and a new one must be retrieved.
+If possible, a provider should ensure that any text changes, such as deletions, insertions, and moves, are reflected in the associated text range. If updating the text range is not possible, the provider should raise a [**UIA\_Text\_TextChangedEventId**](uiauto-event-ids.md) event to notify clients that the text range is no longer valid and a new one must be retrieved.
 
 ## Related topics
 

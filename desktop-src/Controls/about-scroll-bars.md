@@ -150,7 +150,7 @@ A scroll bar control provides a built-in keyboard interface that enables the use
 
  
 
-If you want a keyboard interface for a standard scroll bar, you can create one yourself by processing the [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280) message in your window procedure and then performing the appropriate scrolling action based on the virtual-key code that accompanies the message. For information about how to create a keyboard interface for a scroll bar, see [Creating a Keyboard Interface for a Standard Scroll Bar](using-scroll-bars.md#creating-keyboard-inface).
+If you want a keyboard interface for a standard scroll bar, you can create one yourself by processing the [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280) message in your window procedure and then performing the appropriate scrolling action based on the virtual-key code that accompanies the message. For information about how to create a keyboard interface for a scroll bar, see [Creating a Keyboard Interface for a Standard Scroll Bar](using-scroll-bars.md).
 
 ## Scrolling the Client Area
 

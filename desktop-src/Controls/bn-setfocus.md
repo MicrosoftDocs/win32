@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # BN\_SETFOCUS notification code
 
-Sent when a button receives the keyboard focus. The button must have the [**BS\_NOTIFY**](button-styles.md#bs-notify) style to send this notification code.
+Sent when a button receives the keyboard focus. The button must have the [**BS\_NOTIFY**](button-styles.md) style to send this notification code.
 
 The parent window of the button receives this notification code through the [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.
 

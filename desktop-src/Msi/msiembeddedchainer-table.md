@@ -94,7 +94,7 @@ The Windows Installer does not prevent the user-defined functions in this table 
 
 The Windows Installer also provides a non-embedded external UI handler to build a rich user interface on top of the Windows Installer package. For more information about using an external UI handler with the Windows Installer, see [Monitoring an Installation Using MsiSetExternalUI](monitoring-an-installation-using-msisetexternalui.md).
 
-The [MsiPackageCertificate Table](msipackagecertificate-table.md) lists digital signature certificates used to verify the identity of the installation packages that make a multiple-package installation. You can use this table to reduce the number of times your multiple-package installation displays a [*User Account Control*](u-gly.md#-msi-user-account-control-gly) (UAC) prompt that requires a response by an administrator.
+The [MsiPackageCertificate Table](msipackagecertificate-table.md) lists digital signature certificates used to verify the identity of the installation packages that make a multiple-package installation. You can use this table to reduce the number of times your multiple-package installation displays a [*User Account Control*](u-gly.md) (UAC) prompt that requires a response by an administrator.
 
  
 

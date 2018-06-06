@@ -54,8 +54,8 @@ Returns a value of the same size as the input, with a value set to **True** if t
 
 | Name  | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size     |
 |-------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|----------|
-| *x*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types), **vector**, or **matrix** | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | any      |
-| *ret* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types), **vector**, or **matrix** | [**bool**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                         | as input |
+| *x*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | any      |
+| *ret* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**bool**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                         | as input |
 
 
 

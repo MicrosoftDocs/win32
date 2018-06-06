@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_rras_interior_gateway_protocol_gly"></span><span id="_RRAS_INTERIOR_GATEWAY_PROTOCOL_GLY"></span>**interior gateway protocol (IGP)**
 </dt> <dd>
 
-An interior gateway protocol forwards routing information to the other routers in the [*autonomous system*](a-gly.md#-rras-autonomous-system-gly). See also [*exterior gateway protocol*](e-gly.md#-rras-exterior-gateway-protocol-gly).
+An interior gateway protocol forwards routing information to the other routers in the [*autonomous system*](a-gly.md). See also [*exterior gateway protocol*](e-gly.md).
 
 </dd> </dl>
 

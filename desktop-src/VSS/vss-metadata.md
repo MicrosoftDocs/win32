@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Both writers and requesters maintain information necessary to a backup or restore operation in their own metadata documents.
 
-These documents, the [*Writer Metadata Document*](vssgloss-w.md#base-vssgloss-writer-metadata-document) and the [*Backup Components Document*](vssgloss-b.md#base-vssgloss-backup-components-document), respectively, are used as the basis for writer and requester communication and coordination during backup and restore activities.
+These documents, the [*Writer Metadata Document*](vssgloss-w.md) and the [*Backup Components Document*](vssgloss-b.md), respectively, are used as the basis for writer and requester communication and coordination during backup and restore activities.
 
 The metadata is represented in XML format using a proprietary schema. Metadata can be copied to disk, tape, or any other mass storage device. It should always be saved to the backup media during a backup operation, and will need to be retrieved from that media in the course of a restore operation.
 

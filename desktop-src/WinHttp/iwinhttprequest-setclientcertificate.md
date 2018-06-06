@@ -31,7 +31,7 @@ HRESULT SetClientCertificate(
 *ClientCertificate* \[in\]
 </dt> <dd>
 
-Specifies the location, [*certificate store*](glossary.md#term-certificate-store), and subject of a client certificate.
+Specifies the location, [*certificate store*](glossary.md), and subject of a client certificate.
 
 </dd> </dl>
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 It may be necessary for a service to be stopped prior to and restarted following a restore operation.
 
-Typically, stopping and starting a service to support a restore would be performed by a writer when handling the [*PreRestore*](vssgloss-p.md#base-vssgloss-prerestore-event) event (with [**CVssWriter::OnPreRestore**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onprerestore)) and the [*PostRestore*](vssgloss-p.md#base-vssgloss-postrestore-event) event (with [**CVssWriter::OnPostRestore**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpostrestore)).
+Typically, stopping and starting a service to support a restore would be performed by a writer when handling the [*PreRestore*](vssgloss-p.md) event (with [**CVssWriter::OnPreRestore**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onprerestore)) and the [*PostRestore*](vssgloss-p.md) event (with [**CVssWriter::OnPostRestore**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onpostrestore)).
 
 However, there may be cases when it is necessary for a requester to explicitly stop a running service. Writers indicate if this is the case by setting the VSS\_RME\_STOP\_RESTORE\_START or VSS\_RME\_RESTORE\_STOP\_START value of the [**VSS\_RESTOREMETHOD\_ENUM**](/windows/desktop/api/VsWriter/ne-vswriter-vss_restoremethod_enum) enumeration as the restore method argument of a call to the [**IVssCreateWriterMetadata::SetRestoreMethod**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod) method and specifying the name of the service to be stopped.
 

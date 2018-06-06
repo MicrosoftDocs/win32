@@ -54,7 +54,7 @@ The attribute value equals the Average Bit Rate field in the Stream Bit Rate Pro
 [Stream Descriptor Attributes](stream-descriptor-attributes.md)
 </dt> <dt>
 
-[ASF Header Object](asf-file-structure.md#header-object)
+[ASF Header Object](asf-file-structure.md)
 </dt> </dl>
 
  

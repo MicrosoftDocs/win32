@@ -34,13 +34,13 @@ The following topics are discussed:
 
 The client area of a date and time picker (DTP) control displays date or time information, or both, and acts as the interface through which users modify the information. The date can be selected from a calendar, or by using an up-down control; the time can be changed by typing in fields that are defined by the control's [Format Strings](#format-strings). Optionally, the control displays a check box. When it is checked, the value in the control can be retrieved; otherwise, the control is considered to be uninitialized.
 
-The following illustration shows a window that contains three date-picker controls. The first date-picker control was created with the [**DTS\_SHOWNONE**](date-and-time-picker-control-styles.md#dts-shownone) style, the second with the [**DTS\_UPDOWN**](date-and-time-picker-control-styles.md#dts-updown) style, and the third with no special styles. In the third control, the user has clicked the down arrow to display the calendar.
+The following illustration shows a window that contains three date-picker controls. The first date-picker control was created with the [**DTS\_SHOWNONE**](date-and-time-picker-control-styles.md) style, the second with the [**DTS\_UPDOWN**](date-and-time-picker-control-styles.md) style, and the third with no special styles. In the third control, the user has clicked the down arrow to display the calendar.
 
 ![screen shot of a window that demonstrates three styles of date-picker controls](images/dtpdatepick.png)
 
 The following illustration shows a windows with three controls that contain the time.
 
-The first control has been created with the [**DTS\_TIMEFORMAT**](date-and-time-picker-control-styles.md#dts-timeformat) style and shows the time in the default time, which consists of four fields. The user can type a valid value in any of these fields, or select the field and change the value by using the up-down control or arrow keys.
+The first control has been created with the [**DTS\_TIMEFORMAT**](date-and-time-picker-control-styles.md) style and shows the time in the default time, which consists of four fields. The user can type a valid value in any of these fields, or select the field and change the value by using the up-down control or arrow keys.
 
 The second control shows a custom format set by using [**DateTime\_SetFormat**](/windows/desktop/api/Commctrl/nf-commctrl-datetime_setformat). As with the first control, the user can change the time fields by typing or by using arrow keys. The day of the week can be changed by selecting a date from the calendar that opens when the user clicks on the down arrow.
 
@@ -64,7 +64,7 @@ The DTP control automatically updates internal information based on the user's i
 
  
 
-DTP controls that do not use the [**DTS\_UPDOWN**](date-and-time-picker-control-styles.md#dts-updown) style display an arrow button. If the user clicks this button, a month calendar control drops down. The user can select a specific date by clicking an area of the calendar.
+DTP controls that do not use the [**DTS\_UPDOWN**](date-and-time-picker-control-styles.md) style display an arrow button. If the user clicks this button, a month calendar control drops down. The user can select a specific date by clicking an area of the calendar.
 
 ## Date and Time Picker Control Styles and Formats
 
@@ -78,10 +78,10 @@ There are three preset formats available for displaying the date and one for dis
 
 |                                                                                                       |                                                            |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| [**DTS\_LONGDATEFORMAT**](date-and-time-picker-control-styles.md#dts-longdateformat)                 | The display will look like: "Friday, April 19, 1996".      |
-| [**DTS\_SHORTDATEFORMAT**](date-and-time-picker-control-styles.md#dts-shortdateformat)               | The display will look like: "4/19/96".                     |
-| [**DTS\_SHORTDATECENTURYFORMAT**](date-and-time-picker-control-styles.md#dts-shortdatecenturyformat) | **Version 5.80**. The display will look like: "4/19/1996". |
-| [**DTS\_TIMEFORMAT**](date-and-time-picker-control-styles.md#dts-timeformat)                         | The display will look like: "5:31:42 PM".                  |
+| [**DTS\_LONGDATEFORMAT**](date-and-time-picker-control-styles.md)                 | The display will look like: "Friday, April 19, 1996".      |
+| [**DTS\_SHORTDATEFORMAT**](date-and-time-picker-control-styles.md)               | The display will look like: "4/19/96".                     |
+| [**DTS\_SHORTDATECENTURYFORMAT**](date-and-time-picker-control-styles.md) | **Version 5.80**. The display will look like: "4/19/1996". |
+| [**DTS\_TIMEFORMAT**](date-and-time-picker-control-styles.md)                         | The display will look like: "5:31:42 PM".                  |
 
 
 
@@ -154,7 +154,7 @@ The following notification codes are used with DTP controls.
 | [DTN\_DROPDOWN](dtn-dropdown.md)             | Indicates that the drop-down month calendar is about to be displayed.                                                                                                                                             |
 | [DTN\_FORMAT](dtn-format.md)                 | Requests text to display in a portion of the format string described as a callback field.                                                                                                                         |
 | [DTN\_FORMATQUERY](dtn-formatquery.md)       | Requests information about the maximum allowable size of the text to be displayed in a callback field.                                                                                                            |
-| [DTN\_USERSTRING](dtn-userstring.md)         | Signals the end of a user's edit operation within the control. This notification is sent only by DTP controls that use the [**DTS\_APPCANPARSE**](date-and-time-picker-control-styles.md#dts-appcanparse) style. |
+| [DTN\_USERSTRING](dtn-userstring.md)         | Signals the end of a user's edit operation within the control. This notification is sent only by DTP controls that use the [**DTS\_APPCANPARSE**](date-and-time-picker-control-styles.md) style. |
 | [DTN\_WMKEYDOWN](dtn-wmkeydown.md)           | Signals that the user has pressed a key in a callback field of the DTP control.                                                                                                                                   |
 
 

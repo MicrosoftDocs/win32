@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 To select a NIC from an NPP BLOB table returned by Network Monitor, call the [**GetNPPBlobTable**](getnppblobtable.md) function. This function returns an NPP BLOB table, which can then be enumerated by your application to select the NIC you are interested in.
 
-When you call this function you can return either a BLOB table of all the NICs registered on the local computer or a smaller set of filtered NICs. To filter the NICs that are returned, you can provide a [*filter BLOB*](f.md#-netmon-filter-blob-gly) when the call is made.
+When you call this function you can return either a BLOB table of all the NICs registered on the local computer or a smaller set of filtered NICs. To filter the NICs that are returned, you can provide a [*filter BLOB*](f.md) when the call is made.
 
 
 

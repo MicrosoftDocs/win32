@@ -35,7 +35,7 @@ A mechanism that allows a server process to run by using the security credential
 
 An access token that has been created to capture the security information of a client process, allowing a server to "impersonate" the client process in security operations.
 
-See also [*access token*](a-gly.md#-security-access-token-gly) and [*primary token*](p-gly.md#-security-primary-token-gly).
+See also [*access token*](a-gly.md) and [*primary token*](p-gly.md).
 
 </dd> <dt>
 
@@ -70,7 +70,7 @@ The completeness and accuracy of a message after it has been sent or stored.
 <span id="_security_integrity_sid_gly"></span><span id="_SECURITY_INTEGRITY_SID_GLY"></span>**integrity SID**
 </dt> <dd>
 
-A [*security identifier*](s-gly.md#-security-security-identifier-gly) (SID) that represents an integrity level. An integrity SID in the [*system access control list*](s-gly.md#-security-system-access-control-list-gly) (SACL) of an object's security descriptor specifies the integrity level of the object. Integrity SIDs in an access token specify the integrity level of the token.
+A [*security identifier*](s-gly.md) (SID) that represents an integrity level. An integrity SID in the [*system access control list*](s-gly.md) (SACL) of an object's security descriptor specifies the integrity level of the object. Integrity SIDs in an access token specify the integrity level of the token.
 
 </dd> <dt>
 

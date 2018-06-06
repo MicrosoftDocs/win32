@@ -87,7 +87,7 @@ To read to or write from a file, call [**Read**](iscardfileaccess-read.md) or [*
 
 For a list of all the methods defined by this interface, see [**ISCardFileAccess**](iscardfileaccess.md).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Requirements
 

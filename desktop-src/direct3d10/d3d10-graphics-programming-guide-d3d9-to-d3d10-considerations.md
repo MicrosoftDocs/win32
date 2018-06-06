@@ -463,7 +463,7 @@ The following table shows the mapping of texture formats from Direct3D 9 to Dire
 
  
 
-¹DXGI 1.1, which is included in the Direct3D 11 runtime, includes BGRA formats. However, support for these formats is optional for Direct3D 10 and 10.1 devices with drivers that are implemented to the Windows Display Driver Model (WDDM) for Windows Vista (WDDM 1.0). Consider using DXGI\_FORMAT\_R8G8B8A8\_UNORM instead. Alternatively, you can create your device with [**D3D10\_CREATE\_DEVICE\_BGRA\_SUPPORT**](d3d10-create-device-flag.md#d3d10-create-device-bgra-support) to ensure that you only support computers with the Direct3D 11.0 runtime and a WDDM 1.1 driver or higher installed.
+¹DXGI 1.1, which is included in the Direct3D 11 runtime, includes BGRA formats. However, support for these formats is optional for Direct3D 10 and 10.1 devices with drivers that are implemented to the Windows Display Driver Model (WDDM) for Windows Vista (WDDM 1.0). Consider using DXGI\_FORMAT\_R8G8B8A8\_UNORM instead. Alternatively, you can create your device with [**D3D10\_CREATE\_DEVICE\_BGRA\_SUPPORT**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_create_device_flag) to ensure that you only support computers with the Direct3D 11.0 runtime and a WDDM 1.1 driver or higher installed.
 
 ²DXGI 1.0 defined 5:6:5 and 5:5:5:1 formats, but they were not supported by the Direct3D 10.x or Direct3D 11.0 runtime. These formats are optionally supported with DXGI 1.2 in the DirectX 11.1 runtime, which is required for feature level 11.1 video adapters and WDDM 1.2 (display driver model starting with Windows 8) drivers and already supported on 10level9 feature levels.
 
@@ -513,7 +513,7 @@ For ease of porting content from Direct3D 9 an initial approach to constant mana
 
 ### User clip planes in HLSL on feature level 9 and higher
 
-Starting with Windows 8, you can use the **clipplanes** function attribute in an HLSL [function declaration](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_function_syntax.htm) rather than [SV\_ClipDistance](direct3dhlsl.dx_graphics_hlsl_semantics#system-value) to make your shader work on [feature level](direct3d11.overviews_direct3d_11_devices_downlevel_intro#overview) 9\_x as well as feature level 10 and higher. For more info, see [User clip planes on feature level 9 hardware](https://msdn.microsoft.com/C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11).
+Starting with Windows 8, you can use the **clipplanes** function attribute in an HLSL [function declaration](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_function_syntax.htm) rather than [SV\_ClipDistance](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_semantics.htm) to make your shader work on [feature level](https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2) 9\_x as well as feature level 10 and higher. For more info, see [User clip planes on feature level 9 hardware](https://msdn.microsoft.com/C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11).
 
 ## Additional Direct3D 10 Differences to Watch For
 
@@ -565,7 +565,7 @@ The Direct3D 10.1 update also included the following additional structures:
 -   [**D3D10\_BLEND\_DESC1**](/windows/desktop/api/D3D10_1/ns-d3d10_1-d3d10_blend_desc1)
 -   [**D3D10\_SHADER\_RESOURCE\_VIEW\_DESC1**](/windows/desktop/api/d3d10_1/ns-d3d10_1-d3d10_shader_resource_view_desc1)
 
-The Direct3D 10.1 API includes a new concept named feature level. This concept means that you can use the Direct3D 10.1 API to drive Direct3D 10.0 ([**D3D10\_FEATURE\_LEVEL\_10\_0**](d3d10-feature-level1.md#d3d10-feature-level-10-0)) or Direct3D 10.1 ([**D3D10\_FEATURE\_LEVEL\_10\_1**](d3d10-feature-level1.md#d3d10-feature-level-10-1)) hardware. Because the Direct3D 10.1 API is derived from the Direct3D 10 interfaces, applications can create a Direct3D 10.1 device, then use it as a Direct3D 10.0 device except where new 10.1-specific features are needed (provided that the **D3D10\_FEATURE\_LEVEL\_10\_1** feature-level is present and supports these features).
+The Direct3D 10.1 API includes a new concept named feature level. This concept means that you can use the Direct3D 10.1 API to drive Direct3D 10.0 ([**D3D10\_FEATURE\_LEVEL\_10\_0**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1)) or Direct3D 10.1 ([**D3D10\_FEATURE\_LEVEL\_10\_1**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1)) hardware. Because the Direct3D 10.1 API is derived from the Direct3D 10 interfaces, applications can create a Direct3D 10.1 device, then use it as a Direct3D 10.0 device except where new 10.1-specific features are needed (provided that the **D3D10\_FEATURE\_LEVEL\_10\_1** feature-level is present and supports these features).
 
 > [!Note]  
 > Direct3D 10.1 devices can use the existing 10.0 HLSL shader profiles (vs\_4\_0, ps\_4\_0, gs\_4\_0) and the new 10.1 profiles (vs\_4\_1, ps\_4\_1, gs\_4\_1) with additional HLSL instructions and capabilities.
@@ -574,11 +574,11 @@ The Direct3D 10.1 API includes a new concept named feature level. This concept m
 
 Windows 7 contained a minor update to the Direct3D 10.1 API that is included in the Direct3D 11 runtime. This update adds support for the following feature levels:
 
--   [**D3D10\_FEATURE\_LEVEL\_9\_1**](d3d10-feature-level1.md#d3d10-feature-level-9-1)
--   [**D3D10\_FEATURE\_LEVEL\_9\_2**](d3d10-feature-level1.md#d3d10-feature-level-9-2)
--   [**D3D10\_FEATURE\_LEVEL\_9\_3**](d3d10-feature-level1.md#d3d10-feature-level-9-3)
+-   [**D3D10\_FEATURE\_LEVEL\_9\_1**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1)
+-   [**D3D10\_FEATURE\_LEVEL\_9\_2**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1)
+-   [**D3D10\_FEATURE\_LEVEL\_9\_3**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1)
 
-Windows 7 also added support to Direct3D 10.1 for [Windows Advanced Rasterization Platform (WARP)](https://msdn.microsoft.com/C40A96EB-64AA-46EB-85A9-7C996ABC8BFE). You can specify a WARP driver by using [**D3D10\_DRIVER\_TYPE\_WARP**](d3d10-driver-type.md#d3d10-driver-type-warp).
+Windows 7 also added support to Direct3D 10.1 for [Windows Advanced Rasterization Platform (WARP)](https://msdn.microsoft.com/C40A96EB-64AA-46EB-85A9-7C996ABC8BFE). You can specify a WARP driver by using [**D3D10\_DRIVER\_TYPE\_WARP**](/windows/desktop/api/D3D10misc/ne-d3d10misc-d3d10_driver_type).
 
 For more information about Direct3D 10.1, see [Direct3D 10.1 Features](d3d10-graphics-programming-guide-10-1.md) and the [**D3D10\_FEATURE\_LEVEL1**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1) enumeration.
 

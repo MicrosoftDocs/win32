@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Message Files
 
-Each [event source](event-sources.md) should register message files that contain description strings for each [event identifier](event-identifiers.md), [event category](event-categories.md), and [parameter](event-identifiers.md#message-definitions). Register these files in the **EventMessageFile**, **CategoryMessageFile**, and **ParameterMessageFile** registry values for the event source.
+Each [event source](event-sources.md) should register message files that contain description strings for each [event identifier](event-identifiers.md), [event category](event-categories.md), and [parameter](event-identifiers.md). Register these files in the **EventMessageFile**, **CategoryMessageFile**, and **ParameterMessageFile** registry values for the event source.
 
 You can create one message file that contains descriptions for the event identifiers, categories, and parameters, or create three separate message files. The message identifiers for all of your messages should be unique whether you specify the messages in one file or three files. Several applications can share the same message file. For more information on message files, see [**Message Compiler**](https://msdn.microsoft.com/library/windows/desktop/aa385638). For details on the syntax of a message file, see [Message Text Files](message-text-files.md).
 
@@ -123,7 +123,7 @@ drive%0
 .
 ```
 
-The event-viewing application can use the following procedure to gain access to the [message strings](event-identifiers.md#message-definitions) in the message DLL.
+The event-viewing application can use the following procedure to gain access to the [message strings](event-identifiers.md) in the message DLL.
 
 **To obtain description strings**
 

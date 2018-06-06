@@ -157,7 +157,7 @@ When there are this many interactive controls, not all of them need an access ke
 
 Use the following general procedure to assign access keys:
 
--   First, assign access keys to the [commit buttons](glossary.md#c) and command links. Use the standard access key assignments table when it applies, otherwise use the first letter of the first word.
+-   First, assign access keys to the [commit buttons](glossary.md) and command links. Use the standard access key assignments table when it applies, otherwise use the first letter of the first word.
 -   Skip the controls that aren't assigned access keys.
 -   Assign unique access keys to the remaining controls (starting with the most frequently used):
     -   If possible, assign the access key according to the standard access key assignments table.
@@ -426,7 +426,7 @@ where \[Do it\] and \[Don't do it\] are specific responses to the main instructi
 
 ### Choosing shortcut keys (what not to do)
 
--   **Don't distinguish between key locations.** For example, Windows can distinguish between left and right Shift, Alt, Ctrl, [Windows logo](glossary.md#w), and [Application keys](glossary.md#glossary), as well as keys on the numeric keypad. Assigning behavior to only one key location is confusing and unexpected.
+-   **Don't distinguish between key locations.** For example, Windows can distinguish between left and right Shift, Alt, Ctrl, [Windows logo](glossary.md), and [Application keys](glossary.md), as well as keys on the numeric keypad. Assigning behavior to only one key location is confusing and unexpected.
 -   **Don't use the Windows logo modifier key for program shortcut keys.** Windows logo key is reserved for Windows use. Even if a Windows logo key combination isn't being used by Windows now, it may be in the future.
 -   **Don't use the Application key as a shortcut key modifier.** Use Ctrl, Alt, and Shift instead.
 -   **Don't use shortcut keys used by Windows for program shortcut keys.** Doing so will conflict with the Windows system shortcut keys when your program has input focus.

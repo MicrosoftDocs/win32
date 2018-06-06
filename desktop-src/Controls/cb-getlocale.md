@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # CB\_GETLOCALE message
 
-Gets the current locale of the combo box. The locale is used to determine the correct sorting order of displayed text for combo boxes with the [**CBS\_SORT**](combo-box-styles.md#cbs-sort) style and text added by using the [**CB\_ADDSTRING**](cb-addstring.md) message.
+Gets the current locale of the combo box. The locale is used to determine the correct sorting order of displayed text for combo boxes with the [**CBS\_SORT**](combo-box-styles.md) style and text added by using the [**CB\_ADDSTRING**](cb-addstring.md) message.
 
 ## Parameters
 

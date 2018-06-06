@@ -30,7 +30,7 @@ To create buttons dynamically, you use the [**CreateWindow**](https://msdn.micro
 
 Use the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) function to create a button control.
 
-In the following C++ example, the *m\_hwnd* parameter is the handle to the parent window. The [**BS\_DEFPUSHBUTTON**](button-styles.md#bs-defpushbutton) style specifies that a default push button should be created. Note that the size and position values must be specified because using **CW\_USEDEFAULT** for a button sets the values to zero.
+In the following C++ example, the *m\_hwnd* parameter is the handle to the parent window. The [**BS\_DEFPUSHBUTTON**](button-styles.md) style specifies that a default push button should be created. Note that the size and position values must be specified because using **CW\_USEDEFAULT** for a button sets the values to zero.
 
 
 ```C++

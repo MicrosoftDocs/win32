@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # Working with Directed Targets
 
-The [*directed target*](vssgloss-d.md#base-vssgloss-directed-targeting) mechanism allows writers to remap files at restore time. This allows writers to do the following:
+The [*directed target*](vssgloss-d.md) mechanism allows writers to remap files at restore time. This allows writers to do the following:
 
 -   Specify new target locations (analogous to a requester's [**IVssBackupComponents::AddNewTarget**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addnewtarget)).
--   Reclaim disk space by restoring only needed parts of a file to disk, particularly when a file was backed up using the [*partial file*](vssgloss-p.md#base-vssgloss-partial-file-support) mechanism.
+-   Reclaim disk space by restoring only needed parts of a file to disk, particularly when a file was backed up using the [*partial file*](vssgloss-p.md) mechanism.
 -   Change the file format to meet current needs.
 
-Any file to be used with a directed target operation must have a [*restore target*](vssgloss-r.md#base-vssgloss-restore-target) of VSS\_RT\_DIRECTED.
+Any file to be used with a directed target operation must have a [*restore target*](vssgloss-r.md) of VSS\_RT\_DIRECTED.
 
 Once it has been established that a requester can support a directed target operation, a writer (while handling the [**PreRestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore) event) uses the [**IVssComponent::AddDirectedTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-adddirectedtarget) for the instance of [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) corresponding to the component that manages the file (or the component that defines the component set that contains the file) to define how the file is to be remapped on restore.
 

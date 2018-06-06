@@ -57,7 +57,7 @@ If the user changed the current selection, the combo box also sends the [CBN\_SE
 
 To execute a specific process each time the user selects a list item, you can handle either the [CBN\_SELCHANGE](cbn-selchange.md) or CBN\_CLOSEUP notification code. Typically, you would wait for the CBN\_CLOSEUP notification code before processing a change in the current selection. This can be particularly important if a significant amount of processing is required.
 
-This notification code is not sent to a combo box that has the [**CBS\_SIMPLE**](combo-box-styles.md#cbs-simple) style.
+This notification code is not sent to a combo box that has the [**CBS\_SIMPLE**](combo-box-styles.md) style.
 
 ## Requirements
 

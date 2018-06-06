@@ -150,47 +150,47 @@ The following table lists the UI Automation properties whose value or definition
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>UIA_AutomationIdPropertyId</strong>](uiauto-automation-element-propids.md#uia-automationidpropertyid)</td>
+<td>[<strong>UIA_AutomationIdPropertyId</strong>](uiauto-automation-element-propids.md)</td>
 <td>See notes.</td>
 <td>The value of this property must be unique among all peer elements in the raw view of the UI Automation tree.</td>
 </tr>
 <tr class="even">
-<td>[<strong>UIA_BoundingRectanglePropertyId</strong>](uiauto-automation-element-propids.md#uia-boundingrectanglepropertyid)</td>
+<td>[<strong>UIA_BoundingRectanglePropertyId</strong>](uiauto-automation-element-propids.md)</td>
 <td>See notes.</td>
 <td>The outermost rectangle that contains the whole control.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>UIA_ClickablePointPropertyId</strong>](uiauto-automation-element-propids.md#uia-clickablepointpropertyid)</td>
+<td>[<strong>UIA_ClickablePointPropertyId</strong>](uiauto-automation-element-propids.md)</td>
 <td>See notes.</td>
-<td>If the list control has a clickable point (a point that can be clicked to cause the list to take focus), that point must be exposed through this property. If the value of the [<strong>UIA_IsOffscreenPropertyId</strong>](uiauto-automation-element-propids.md#uia-isoffscreenpropertyid) property is <strong>TRUE</strong>, attempting to retrieve this property results in the [<strong>UIA_E_NOCLICKABLEPOINT</strong>](uiauto-error-codes.md#uia-e-noclickablepoint) error.</td>
+<td>If the list control has a clickable point (a point that can be clicked to cause the list to take focus), that point must be exposed through this property. If the value of the [<strong>UIA_IsOffscreenPropertyId</strong>](uiauto-automation-element-propids.md) property is <strong>TRUE</strong>, attempting to retrieve this property results in the [<strong>UIA_E_NOCLICKABLEPOINT</strong>](uiauto-error-codes.md) error.</td>
 </tr>
 <tr class="even">
-<td>[<strong>UIA_ControlTypePropertyId</strong>](uiauto-automation-element-propids.md#uia-controltypepropertyid)</td>
+<td>[<strong>UIA_ControlTypePropertyId</strong>](uiauto-automation-element-propids.md)</td>
 <td><strong>SemanticZoom</strong></td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>UIA_IsContentElementPropertyId</strong>](uiauto-automation-element-propids.md#uia-iscontentelementpropertyid)</td>
+<td>[<strong>UIA_IsContentElementPropertyId</strong>](uiauto-automation-element-propids.md)</td>
 <td>TRUE</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>UIA_IsControlElementPropertyId</strong>](uiauto-automation-element-propids.md#uia-iscontrolelementpropertyid)</td>
+<td>[<strong>UIA_IsControlElementPropertyId</strong>](uiauto-automation-element-propids.md)</td>
 <td>TRUE</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>UIA_IsKeyboardFocusablePropertyId</strong>](uiauto-automation-element-propids.md#uia-iskeyboardfocusablepropertyid)</td>
+<td>[<strong>UIA_IsKeyboardFocusablePropertyId</strong>](uiauto-automation-element-propids.md)</td>
 <td>FALSE</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>UIA_LabeledByPropertyId</strong>](uiauto-automation-element-propids.md#uia-labeledbypropertyid)</td>
+<td>[<strong>UIA_LabeledByPropertyId</strong>](uiauto-automation-element-propids.md)</td>
 <td>See notes.</td>
 <td>If there is a static text label, this property must expose a reference to that control.</td>
 </tr>
 <tr class="odd">
-<td>[<strong>UIA_LocalizedControlTypePropertyId</strong>](uiauto-automation-element-propids.md#uia-localizedcontroltypepropertyid)</td>
+<td>[<strong>UIA_LocalizedControlTypePropertyId</strong>](uiauto-automation-element-propids.md)</td>
 <td>See notes.</td>
 <td>A localized string corresponding to the <strong>SemanticZoom</strong> control type. The default value is &quot;semantic zoom&quot; for en-US or English (United States).
 <blockquote>
@@ -200,7 +200,7 @@ Some frameworks concatenated this as &quot;semanticzoom&quot;.
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UIA_NamePropertyId</strong>](uiauto-automation-element-propids.md#uia-namepropertyid)</td>
+<td>[<strong>UIA_NamePropertyId</strong>](uiauto-automation-element-propids.md)</td>
 <td>See notes.</td>
 <td>An empty string is acceptable, or a more useful name could be provided, as long as it does not contain the term  semantic zoom , which would make the combination of control type and name confusing.</td>
 </tr>
@@ -219,7 +219,7 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                  | Support/Value | Notes                                                                                                                                                                                                                                                                                                                                                          |
 |---------------------------------------------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IToggleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itoggleprovider) | Depends       | Semantic Zoom controls support the [Toggle](uiauto-implementingtoggle.md) control pattern to allow the zoom to be enabled or disabled. [**ToggleState\_Off**](uiauto-togglestate.md#togglestate-off) corresponds to the flat, all-up state, and [**ToggleState\_On**](uiauto-togglestate.md#togglestate-on) corresponds to the high level, zoomed-out view. |
+| [**IToggleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itoggleprovider) | Depends       | Semantic Zoom controls support the [Toggle](uiauto-implementingtoggle.md) control pattern to allow the zoom to be enabled or disabled. [**ToggleState\_Off**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-togglestate) corresponds to the flat, all-up state, and [**ToggleState\_On**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-togglestate) corresponds to the high level, zoomed-out view. |
 
 
 
@@ -233,10 +233,10 @@ The following table lists the UI Automation events that Semantic Zoom controls a
 
 | UI Automation Event                                                                                                                   | Notes                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| [**UIA\_BoundingRectanglePropertyId**](uiauto-automation-element-propids.md#uia-boundingrectanglepropertyid) property-changed event. |                                                                                                                            |
-| [**UIA\_IsEnabledPropertyId**](uiauto-automation-element-propids.md#uia-isenabledpropertyid) property-changed event.                 | If the control supports the [**IsEnabled**](uiauto-automation-element-propids.md) property, it must support this event.   |
-| [**UIA\_IsOffscreenPropertyId**](uiauto-automation-element-propids.md#uia-isoffscreenpropertyid) property-changed event.             | If the control supports the [**IsOffscreen**](uiauto-automation-element-propids.md) property, it must support this event. |
-| [**UIA\_ToggleToggleStatePropertyId**](uiauto-control-pattern-propids.md#uia-toggletogglestatepropertyid) property-changed event.    |                                                                                                                            |
+| [**UIA\_BoundingRectanglePropertyId**](uiauto-automation-element-propids.md) property-changed event. |                                                                                                                            |
+| [**UIA\_IsEnabledPropertyId**](uiauto-automation-element-propids.md) property-changed event.                 | If the control supports the [**IsEnabled**](uiauto-automation-element-propids.md) property, it must support this event.   |
+| [**UIA\_IsOffscreenPropertyId**](uiauto-automation-element-propids.md) property-changed event.             | If the control supports the [**IsOffscreen**](uiauto-automation-element-propids.md) property, it must support this event. |
+| [**UIA\_ToggleToggleStatePropertyId**](uiauto-control-pattern-propids.md) property-changed event.    |                                                                                                                            |
 
 
 

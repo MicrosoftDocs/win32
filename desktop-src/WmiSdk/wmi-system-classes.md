@@ -15,11 +15,11 @@ ms.date: 05/31/2018
 
 # WMI System Classes
 
-The WMI system classes are a collection of predefined classes based on the [*Common Information Model (CIM)*](gloss-c.md#wmi-gloss-common-information-model). Unlike classes supplied by providers, the system classes are not declared in a [*Managed Object Format (MOF)*](gloss-m.md#wmi-gloss-managed-object-format) file. WMI creates a set of these classes whenever a new WMI [*namespace*](gloss-n.md#wmi-gloss-namespace) is created.
+The WMI system classes are a collection of predefined classes based on the [*Common Information Model (CIM)*](gloss-c.md). Unlike classes supplied by providers, the system classes are not declared in a [*Managed Object Format (MOF)*](gloss-m.md) file. WMI creates a set of these classes whenever a new WMI [*namespace*](gloss-n.md) is created.
 
 Objects from the system classes are used to support WMI activities, such as: event and provider registration, security, and event notification. Some objects are temporary, and some are stored in the repository as instances of the system classes.
 
-System classes follow a naming convention that consists of a double-underscore (\_\_) followed by the class name. When you write an MOF file to define classes for a WMI [*provider*](gloss-p.md#wmi-gloss-provider), [**Mofcomp.exe**](mofcomp.md) does not compile any class with an initial double-underscore (\_\_) because that is reserved for WMI system class names.
+System classes follow a naming convention that consists of a double-underscore (\_\_) followed by the class name. When you write an MOF file to define classes for a WMI [*provider*](gloss-p.md), [**Mofcomp.exe**](mofcomp.md) does not compile any class with an initial double-underscore (\_\_) because that is reserved for WMI system class names.
 
 The documentation for the system classes includes only the nonsystem local properties. Links are provided in class definitions so that you can navigate the class hierarchy quickly and easily.
 

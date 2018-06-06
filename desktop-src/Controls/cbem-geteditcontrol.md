@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # CBEM\_GETEDITCONTROL message
 
-Gets the handle to the edit control portion of a ComboBoxEx control. A ComboBoxEx control uses an edit box when it is set to the [**CBS\_DROPDOWN**](combo-box-styles.md#cbs-dropdown) style.
+Gets the handle to the edit control portion of a ComboBoxEx control. A ComboBoxEx control uses an edit box when it is set to the [**CBS\_DROPDOWN**](combo-box-styles.md) style.
 
 ## Parameters
 
@@ -35,7 +35,7 @@ Gets the handle to the edit control portion of a ComboBoxEx control. A ComboBoxE
 
 ## Return value
 
-Returns the handle to the edit control within the ComboBoxEx control if it uses the [**CBS\_DROPDOWN**](combo-box-styles.md#cbs-dropdown) style. Otherwise, the message returns **NULL**.
+Returns the handle to the edit control within the ComboBoxEx control if it uses the [**CBS\_DROPDOWN**](combo-box-styles.md) style. Otherwise, the message returns **NULL**.
 
 ## Requirements
 

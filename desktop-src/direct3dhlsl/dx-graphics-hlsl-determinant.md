@@ -52,8 +52,8 @@ The floating-point, scalar value that represents the determinant of the *m* para
 
 | Name  | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size                                     |
 |-------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------|
-| *m*   | [**matrix**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | any (number of rows = number of columns) |
-| *ret* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 1                                        |
+| *m*   | [**matrix**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | any (number of rows = number of columns) |
+| *ret* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 1                                        |
 
 
 

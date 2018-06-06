@@ -36,7 +36,7 @@ To decide whether a graphic element is necessary, consider these questions:
 
 In this example, layout alone is used to show control relationships.
 
--   **Is the communication effective without text?** If not, use a [group box](ctrl-group-boxes.md), labeled separator, or other [label](text-ui.md#usage-patterns).
+-   **Is the communication effective without text?** If not, use a [group box](ctrl-group-boxes.md), labeled separator, or other [label](text-ui.md).
 
 ## Usage patterns
 

@@ -40,7 +40,7 @@ The following procedure describes how to create a property provider.
 
 4.  Add any additional code necessary for your provider.
 
-    When designing your provider, you will most likely need to call WMI interfaces. For more information, see [Calling a Method](calling-a-method.md) and [Maintaining Security Levels in a Provider](impersonating-a-client.md#maintaining-security-levels-in-a-provider).
+    When designing your provider, you will most likely need to call WMI interfaces. For more information, see [Calling a Method](calling-a-method.md) and [Maintaining Security Levels in a Provider](impersonating-a-client.md).
 
     When retrieving information for a client, you may need to access the security levels for that client. For more information, see [Impersonating a Client](impersonating-a-client.md).
 

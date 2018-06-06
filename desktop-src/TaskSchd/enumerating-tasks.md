@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # Enumerating Tasks
 
-Task Scheduler 1.0 provides an enumeration object for enumerating the tasks in the [*Scheduled Tasks folder*](s.md#-msb-scheduled-tasks-folder-gly).
+Task Scheduler 1.0 provides an enumeration object for enumerating the tasks in the [*Scheduled Tasks folder*](s.md).
 
 > [!Note]  
 > For a Windows Server 2003, Windows XP, or Windows 2000 computer to create, monitor, or control tasks on a Windows Vista computer, certain operations must be completed on the Windows Vista computer. For more information, see [Tasks](tasks.md).

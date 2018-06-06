@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # ElevationShield Attribute
 
-This attribute adds the [*User Account Control*](u-gly.md#-msi-user-account-control-gly) (UAC) elevation icon (shield icon) to the [PushButton control](pushbutton-control.md).
+This attribute adds the [*User Account Control*](u-gly.md) (UAC) elevation icon (shield icon) to the [PushButton control](pushbutton-control.md).
 
-If this bit is set, and the installation is not yet running with [*elevated*](e-gly.md#-msi-elevated-gly) privileges, the pushbutton control is created using the [*User Account Control*](u-gly.md#-msi-user-account-control-gly) (UAC) elevation icon (shield icon).
+If this bit is set, and the installation is not yet running with [*elevated*](e-gly.md) privileges, the pushbutton control is created using the [*User Account Control*](u-gly.md) (UAC) elevation icon (shield icon).
 
-If this bit is set, and the installation is already running with [*elevated*](e-gly.md#-msi-elevated-gly) privileges, the pushbutton control is created using the other icon attributes.
+If this bit is set, and the installation is already running with [*elevated*](e-gly.md) privileges, the pushbutton control is created using the other icon attributes.
 
 If this bit is not set, the pushbutton control is created using the other icon attributes.
 

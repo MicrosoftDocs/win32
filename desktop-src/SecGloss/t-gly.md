@@ -47,7 +47,7 @@ A protocol used to generate an authenticated and encrypted connection between tw
 <span id="_security_thumbprint_gly"></span><span id="_SECURITY_THUMBPRINT_GLY"></span>**thumbprint**
 </dt> <dd>
 
-The [*SHA-1*](s-gly.md#-security-sha-gly) hash of a certificate.
+The [*SHA-1*](s-gly.md) hash of a certificate.
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ See *Transport Layer Security protocol*.
 <span id="_security_token_gly"></span><span id="_SECURITY_TOKEN_GLY"></span>**token**
 </dt> <dd>
 
-See [*access token*](a-gly.md#-security-access-token-gly).
+See [*access token*](a-gly.md).
 
 </dd> <dt>
 
@@ -98,14 +98,14 @@ A variation of the DES block cipher algorithm that encrypts plain text with one 
 
 The user account, group account, or logon session to which an access control entry (ACE) applies. Each ACE in an access control list (ACL) applies to one trustee.
 
-See also [*access control entry*](a-gly.md#-security-access-control-entry-gly) and [*access control list*](a-gly.md#-security-access-control-list-gly).
+See also [*access control entry*](a-gly.md) and [*access control list*](a-gly.md).
 
 </dd> <dt>
 
 <span id="_security_trust_list_gly"></span><span id="_SECURITY_TRUST_LIST_GLY"></span>**trust list**
 </dt> <dd>
 
-See [*certificate trust list*](c-gly.md#-security-certificate-trust-list-gly).
+See [*certificate trust list*](c-gly.md).
 
 </dd> <dt>
 

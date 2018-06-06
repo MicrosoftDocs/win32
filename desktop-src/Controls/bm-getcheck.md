@@ -43,14 +43,14 @@ Not used; must be zero.
 
 ## Return value
 
-The return value from a button created with the [**BS\_AUTOCHECKBOX**](button-styles.md#bs-autocheckbox), [**BS\_AUTORADIOBUTTON**](button-styles.md#bs-autoradiobutton), [**BS\_AUTO3STATE**](button-styles.md#bs-auto3state), [**BS\_CHECKBOX**](button-styles.md#bs-checkbox), [**BS\_RADIOBUTTON**](button-styles.md#bs-radiobutton), or [**BS\_3STATE**](button-styles.md#bs-3state) style can be one of the following.
+The return value from a button created with the [**BS\_AUTOCHECKBOX**](button-styles.md), [**BS\_AUTORADIOBUTTON**](button-styles.md), [**BS\_AUTO3STATE**](button-styles.md), [**BS\_CHECKBOX**](button-styles.md), [**BS\_RADIOBUTTON**](button-styles.md), or [**BS\_3STATE**](button-styles.md) style can be one of the following.
 
 
 
 | Return code                                                                                       | Description                                                                                                                                                                                                       |
 |---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**BST\_CHECKED**</dt> </dl>       | Button is checked.<br/>                                                                                                                                                                                     |
-| <dl> <dt>**BST\_INDETERMINATE**</dt> </dl> | Button is grayed, indicating an indeterminate state (applies only if the button has the [**BS\_3STATE**](button-styles.md#bs-3state) or [**BS\_AUTO3STATE**](button-styles.md#bs-auto3state) style).<br/> |
+| <dl> <dt>**BST\_INDETERMINATE**</dt> </dl> | Button is grayed, indicating an indeterminate state (applies only if the button has the [**BS\_3STATE**](button-styles.md) or [**BS\_AUTO3STATE**](button-styles.md) style).<br/> |
 | <dl> <dt>**BST\_UNCHECKED**</dt> </dl>     | Button is cleared<br/>                                                                                                                                                                                      |
 
 

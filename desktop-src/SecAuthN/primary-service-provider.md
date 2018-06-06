@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Primary Service Provider
 
-Each [*smart card*](security.s_gly#-security-smart-card-gly) known to the system may have a registered COM interface listed as its primary service provider. When you access a *smart card* through COM, this [*primary service provider*](security.p_gly#-security-primary-service-provider-gly) supplies the control interfaces to the card. This allows card services to be exposed to a wide range of programming environments, including Java and the Microsoft Visual Basic development system.
+Each [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) known to the system may have a registered COM interface listed as its primary service provider. When you access a *smart card* through COM, this [*primary service provider*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) supplies the control interfaces to the card. This allows card services to be exposed to a wide range of programming environments, including Java and the Microsoft Visual Basic development system.
 
  
 

@@ -96,7 +96,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-The `IPrintOemUni::OutputCharStr` method is used for supporting printers that do not recognize the [*PCL*](wdkgloss.p#wdkgloss-pcl), CAPSL, or PPDS-formatted character output commands supported by Unidrv. Its purpose is to allow a rendering plug-in to control the printing of a font's glyphs, and to provide glyph substitutions if necessary.
+The `IPrintOemUni::OutputCharStr` method is used for supporting printers that do not recognize the [*PCL*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c), CAPSL, or PPDS-formatted character output commands supported by Unidrv. Its purpose is to allow a rendering plug-in to control the printing of a font's glyphs, and to provide glyph substitutions if necessary.
 
 If a rendering plug-in implements the `IPrintOemUni::OutputCharStr` method, Unidrv calls the method each time a string of characters is ready to be spooled.
 

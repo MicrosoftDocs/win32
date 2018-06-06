@@ -73,7 +73,7 @@ The following keyboard commands can also be used to move the selection. The cale
 
  
 
-If a month calendar control is not using the [**MCS\_NOTODAY**](month-calendar-control-styles.md#mcs-notoday) style, the user can return to the current day by clicking the "Today" text at the bottom of the control. If the current day is not visible, the control updates its display to show it.
+If a month calendar control is not using the [**MCS\_NOTODAY**](month-calendar-control-styles.md) style, the user can return to the current day by clicking the "Today" text at the bottom of the control. If the current day is not visible, the control updates its display to show it.
 
 An application can change the number of months by which the control updates its display by using the [**MCM\_SETMONTHDELTA**](mcm-setmonthdelta.md) message or the corresponding macro, [**MonthCal\_SetMonthDelta**](/windows/desktop/api/Commctrl/nf-commctrl-monthcal_setmonthdelta). However, the PAGE UP and PAGE DOWN keys change the selected month by one, regardless of the number of months displayed or the value set by **MCM\_SETMONTHDELTA**.
 

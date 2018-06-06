@@ -39,7 +39,7 @@ Pointer to a two-element array of [**SYSTEMTIME**](https://msdn.microsoft.com/li
 
 ## Return value
 
-Returns nonzero if successful, or zero otherwise. **MCM\_GETSELRANGE** will fail if applied to a month calendar control that does not use the [**MCS\_MULTISELECT**](month-calendar-control-styles.md#mcs-multiselect) style.
+Returns nonzero if successful, or zero otherwise. **MCM\_GETSELRANGE** will fail if applied to a month calendar control that does not use the [**MCS\_MULTISELECT**](month-calendar-control-styles.md) style.
 
 ## Requirements
 
@@ -57,7 +57,7 @@ Returns nonzero if successful, or zero otherwise. **MCM\_GETSELRANGE** will fail
 
 <dl> <dt>
 
-[Times in the Month Calendar Control](month-calendar-controls.md#times-in-the-month-calendar-control)
+[Times in the Month Calendar Control](month-calendar-controls.md)
 </dt> </dl>
 
  

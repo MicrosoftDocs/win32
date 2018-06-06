@@ -29,7 +29,7 @@ Wizards typically include the following types of pages:
 -   The Commit page is used to perform an action that cannot be undone by clicking Back or Cancel.
 -   The Progress page is used to show the progress of a lengthy operation.
 
-Modern wizard design places a premium on efficiency, making the Progress page optional for shorter operations, and often dispensing with the traditional [Welcome page](glossary.md#w) and [Congratulations page](glossary.md#c) at the beginning and end.
+Modern wizard design places a premium on efficiency, making the Progress page optional for shorter operations, and often dispensing with the traditional [Welcome page](glossary.md) and [Congratulations page](glossary.md) at the beginning and end.
 
 All wizard pages have these components:
 
@@ -151,7 +151,7 @@ Users can become confused about the meaning of the Back button in this scenario.
 
 Wizard design involves not only decisions pertaining to the entire task flow, like how to handle navigation and the branching experience, but also those pertaining to the individual pages that make up the wizard. **The most important principle for designing good wizard pages is that of integrity: the contents of a page should belong together.**
 
-Wizard pages are significantly more usable if each one hangs together conceptually, dealing with only one aspect of the overall task. The [main instruction](glossary.md#m) is the primary means of achieving this. Clearly identify the goal or purpose of the page to users. [Supplemental instructions](glossary.md#s), and any controls on the page, all pertain directly to the main instruction. Although wizard pages should present users with options for which some thought is required, that effort doesn't feel like work because it is tightly focused by the integrity of the page itself.
+Wizard pages are significantly more usable if each one hangs together conceptually, dealing with only one aspect of the overall task. The [main instruction](glossary.md) is the primary means of achieving this. Clearly identify the goal or purpose of the page to users. [Supplemental instructions](glossary.md), and any controls on the page, all pertain directly to the main instruction. Although wizard pages should present users with options for which some thought is required, that effort doesn't feel like work because it is tightly focused by the integrity of the page itself.
 
 Unfortunately wizard designers often mistake users' rapid clicking of the Next button as evidence of the usability, simplicity, and integrity of their pages. The ultimate wizard experience isn't Next, Next, Next, Next, Finish. While such an experience suggests that the defaults were well chosen, it also suggests that the wizard wasn't really necessary because all the choices are optional.
 
@@ -364,11 +364,11 @@ The edited version of this wizard page provides a task-oriented main instruction
 ### General
 
 -   Use you and your to refer to the user and the user's computer, document, settings, and so on. Don't use the first person (I, my) to refer to the computer or the wizard. However, it is acceptable to use the first person in options that the user selects. **Example:My use only** check box.
--   Every wizard page must have a [main instruction](glossary.md#m).
+-   Every wizard page must have a [main instruction](glossary.md).
 
 ### Titles
 
--   Put the name of the wizard in the title bar. Use [title-style capitalization](glossary.md#t).
+-   Put the name of the wizard in the title bar. Use [title-style capitalization](glossary.md).
 -   Titles shouldn't include punctuation, except for those with question marks.
 -   Don't include the word Wizard in wizard titles. For example, use Connect to a Network instead of Network Setup Wizard.
 
@@ -387,7 +387,7 @@ The edited version of this wizard page provides a task-oriented main instruction
         -   You can use Finish when the task involves changing a setting or collection of settings.
 
 -   Start commit button labels with a verb. Exceptions are OK, Yes, and No.
--   Use [sentence-style capitalization](glossary.md#s).
+-   Use [sentence-style capitalization](glossary.md).
 -   Don't use ending punctuation.
 
 ## Documentation

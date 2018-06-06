@@ -28,8 +28,8 @@ A group of radio buttons behaves like a single control. Only the selected choice
 
 To decide, consider these questions:
 
--   **Is the control used to choose one option from a set of mutually exclusive choices?** If not, use another control. To choose multiple options, use [check boxes](ctrl-check-boxes.md), a [multiple-selection list](ctrl-list-boxes.md#usage-patterns) or a check box list instead.
--   **Is the number of options between two and seven?** Since the screen space used is proportional to the number of options, keep the number of options in a group between two and seven. For eight or more options, use a [drop-down list](https://msdn.microsoft.com/library/windows/desktop/dn742404) or [single-selection list](ctrl-list-boxes.md#usage-patterns).
+-   **Is the control used to choose one option from a set of mutually exclusive choices?** If not, use another control. To choose multiple options, use [check boxes](ctrl-check-boxes.md), a [multiple-selection list](ctrl-list-boxes.md) or a check box list instead.
+-   **Is the number of options between two and seven?** Since the screen space used is proportional to the number of options, keep the number of options in a group between two and seven. For eight or more options, use a [drop-down list](https://msdn.microsoft.com/library/windows/desktop/dn742404) or [single-selection list](ctrl-list-boxes.md).
 -   **Would a check box be a better choice?** If there are only two options, you could use a single [check box](ctrl-check-boxes.md) instead. However, check boxes are suitable only for turning a single option on or off, whereas radio buttons can be used for completely different alternatives. If both solutions are possible:
     -   Use radio buttons if the meaning of the cleared check box isn't completely obvious.
 
@@ -167,14 +167,14 @@ Recommended sizing and spacing for radio buttons.
 
 <!-- -->
 
--   Assign a unique [access key](glossary.md#glossary) to each label. For guidelines, see [Keyboard](inter-keyboard.md).
--   Use [sentence-style capitalization](glossary.md#s).
+-   Assign a unique [access key](glossary.md) to each label. For guidelines, see [Keyboard](inter-keyboard.md).
+-   Use [sentence-style capitalization](glossary.md).
 -   Write the label as a phrase, not as a sentence, and use no ending punctuation.
     -   **Exception:** If a radio button label also labels a subordinate control that follows it, end the label with a colon.
 -   Use parallel phrasing, and try to keep the length about the same for all labels.
 -   Focus the label text on the differences among the options. If all the options have the same introductory text, move that text to the group label.
 -   Use positive phrasing. For example, use do instead of do not, and print instead of do not print.
--   Describe just the option with the label. Keep labels brief so it's easy to refer to them in messages and documentation. If the option requires further explanation, provide the explanation in a [static text](glossary.md#s) control using complete sentences and ending punctuation.
+-   Describe just the option with the label. Keep labels brief so it's easy to refer to them in messages and documentation. If the option requires further explanation, provide the explanation in a [static text](glossary.md) control using complete sentences and ending punctuation.
 
     ![screen shot of radio buttons with explanatory text](images/radio-buttons-image16.png)
 
@@ -195,7 +195,7 @@ Recommended sizing and spacing for radio buttons.
 -   Use the group label to explain the purpose of the group, not how to make the selection. Assume that users know how to use radio buttons. For example, don't say "Select one of the following choices".
 -   All radio button groups need labels. Write the label as a word or phrase, not as a sentence, ending with a colon using static text or a group box.
 
-    **Exception:** Omit the label if it is merely a restatement of a dialog box's [main instruction](glossary.md#m). In this case, the main instruction takes the colon (unless it's a question) and access key (if there is one).
+    **Exception:** Omit the label if it is merely a restatement of a dialog box's [main instruction](glossary.md). In this case, the main instruction takes the colon (unless it's a question) and access key (if there is one).
 
     **Acceptable:**
 

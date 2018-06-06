@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **ISCardTypeConv** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **ISCardTypeConv** interface provides the methods needed to support the users of the other [*smart card*](security.s_gly#-security-smart-card-gly) COM interfaces. This interface is provided for backward compatibility only and should no longer be used.
+The **ISCardTypeConv** interface provides the methods needed to support the users of the other [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) COM interfaces. This interface is provided for backward compatibility only and should no longer be used.
 
 ## Members
 

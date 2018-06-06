@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemUni::DisablePDEV method
 
-The `IPrintOemUni::DisablePDEV` method allows a rendering plug-in for [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) to delete the private PDEV structure that was allocated by its [**IPrintOemUni::EnablePDEV**](iprintoemuni-enablepdev.md) method.
+The `IPrintOemUni::DisablePDEV` method allows a rendering plug-in for [*Unidrv*](https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414) to delete the private PDEV structure that was allocated by its [**IPrintOemUni::EnablePDEV**](iprintoemuni-enablepdev.md) method.
 
 ## Syntax
 

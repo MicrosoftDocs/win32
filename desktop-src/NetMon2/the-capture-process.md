@@ -15,7 +15,7 @@ The capture process is the same for each of the four NPP interfaces. In each cas
 
 -   Obtaining the NPP interface object to use
 -   Connecting to the network
--   Starting and then stopping the [*capture*](c.md#-netmon-capture-gly)
+-   Starting and then stopping the [*capture*](c.md)
 -   Disconnecting from the network
 
 > [!Note]  
@@ -27,7 +27,7 @@ The following illustrations show two different ways you could run a capture. The
 
 ![sequential capture](images/capt1.png)
 
-As shown above, after you connect to the network you can start and stop a capture as many times as you wish, starting a new capture and generating new statistics every time you restart the capture. For example, for a delayed capture using the [**IDelaydC**](idelaydc.md) interface, a new [*capture file*](c.md#-netmon-capture-file-gly) would be created each time you restarted the capture.
+As shown above, after you connect to the network you can start and stop a capture as many times as you wish, starting a new capture and generating new statistics every time you restart the capture. For example, for a delayed capture using the [**IDelaydC**](idelaydc.md) interface, a new [*capture file*](c.md) would be created each time you restarted the capture.
 
 However, also be aware that every time you restart the capture process you must call the appropriate configure method to reconfigure the connection. For the initial call to start the capture, the connection is configured by the call to connect to the network.
 
@@ -35,7 +35,7 @@ The second illustration shows how you could run a single capture by pausing and 
 
 ![single capture by pausing and restarting](images/capt2.png)
 
-In this case, you can pause and restart a capture as many times as you want. With this approach, you can run a capture whose data (and its related statistics) are recorded as a single capture. For example, to perform a delayed capture using the [**IDelaydC**](idelaydc.md) interface, all the captured network information would be saved in a single [*capture file*](c.md#-netmon-capture-file-gly).
+In this case, you can pause and restart a capture as many times as you want. With this approach, you can run a capture whose data (and its related statistics) are recorded as a single capture. For example, to perform a delayed capture using the [**IDelaydC**](idelaydc.md) interface, all the captured network information would be saved in a single [*capture file*](c.md).
 
 ## Related topics
 

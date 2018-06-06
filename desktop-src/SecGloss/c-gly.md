@@ -42,7 +42,7 @@ A certification authority (CA) hierarchy contains multiple CAs. It is organized 
 
 The CryptoAPI algorithm identifier for the Diffie-Hellman key-exchange algorithm when used for the generation of ephemeral keys.
 
-See also [*Diffie-Hellman (ephemeral) key-exchange algorithm*](d-gly.md#-security-diffie-hellman-ephemeral-key-exchange-algorithm-gly).
+See also [*Diffie-Hellman (ephemeral) key-exchange algorithm*](d-gly.md).
 
 </dd> <dt>
 
@@ -51,7 +51,7 @@ See also [*Diffie-Hellman (ephemeral) key-exchange algorithm*](d-gly.md#-securit
 
 The CryptoAPI algorithm identifier for the Diffie-Hellman key-exchange algorithm when used for the generation of store-and-forward keys.
 
-See also [*Diffie-Hellman (store and forward) key-exchange algorithm*](d-gly.md#-security-diffie-hellman-store-and-forward-key-exchange-algorithm-gly).
+See also [*Diffie-Hellman (store and forward) key-exchange algorithm*](d-gly.md).
 
 </dd> <dt>
 
@@ -60,7 +60,7 @@ See also [*Diffie-Hellman (store and forward) key-exchange algorithm*](d-gly.md#
 
 The CryptoAPI algorithm identifier for the hash-based Message Authentication Code algorithm.
 
-See also [*Hash-Based Message Authentication Code*](h-gly.md#-security-hash-based-message-authentication-code-gly).
+See also [*Hash-Based Message Authentication Code*](h-gly.md).
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ See also [*Hash-Based Message Authentication Code*](h-gly.md#-security-hash-base
 
 The CryptoAPI algorithm identifier for the Message Authentication Code algorithm.
 
-See also [*Message Authentication Code*](m-gly.md#-security-message-authentication-code-gly).
+See also [*Message Authentication Code*](m-gly.md).
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ See also [*Message Authentication Code*](m-gly.md#-security-message-authenticati
 
 The CryptoAPI algorithm identifier for the MD2 hash algorithm.
 
-See also [*MD2 algorithm*](m-gly.md#-security-md2-algorithm-gly).
+See also [*MD2 algorithm*](m-gly.md).
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ See also [*MD2 algorithm*](m-gly.md#-security-md2-algorithm-gly).
 
 The CryptoAPI algorithm identifier for the MD5 hash algorithm.
 
-See also [*MD5 algorithm*](m-gly.md#-security-md5-algorithm-gly).
+See also [*MD5 algorithm*](m-gly.md).
 
 </dd> <dt>
 
@@ -96,7 +96,7 @@ See also [*MD5 algorithm*](m-gly.md#-security-md5-algorithm-gly).
 
 The CryptoAPI algorithm identifier for the RC2 block cipher algorithm.
 
-See also [*RC2 block algorithm*](r-gly.md#-security-rc2-block-algorithm-gly).
+See also [*RC2 block algorithm*](r-gly.md).
 
 </dd> <dt>
 
@@ -105,7 +105,7 @@ See also [*RC2 block algorithm*](r-gly.md#-security-rc2-block-algorithm-gly).
 
 The CryptoAPI algorithm identifier for the RC4 stream cipher algorithm.
 
-See also [*RC4 stream algorithm*](r-gly.md#-security-rc4-stream-algorithm-gly).
+See also [*RC4 stream algorithm*](r-gly.md).
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ See also [*RC4 stream algorithm*](r-gly.md#-security-rc4-stream-algorithm-gly).
 
 The CryptoAPI algorithm identifier for the RSA public key algorithm when used for key exchange.
 
-See also [*RSA public key algorithm*](r-gly.md#-security-rsa-public-key-algorithm-gly).
+See also [*RSA public key algorithm*](r-gly.md).
 
 </dd> <dt>
 
@@ -123,7 +123,7 @@ See also [*RSA public key algorithm*](r-gly.md#-security-rsa-public-key-algorith
 
 The CryptoAPI algorithm identifier for the RSA public key algorithm when used to generate digital signatures.
 
-See also [*RSA public key algorithm*](r-gly.md#-security-rsa-public-key-algorithm-gly).
+See also [*RSA public key algorithm*](r-gly.md).
 
 </dd> <dt>
 
@@ -132,7 +132,7 @@ See also [*RSA public key algorithm*](r-gly.md#-security-rsa-public-key-algorith
 
 The CryptoAPI algorithm identifier for the Secure Hash Algorithm (SHA-1).
 
-See also [*Secure Hash Algorithm*](s-gly.md#-security-secure-hash-algorithm-gly).
+See also [*Secure Hash Algorithm*](s-gly.md).
 
 </dd> <dt>
 
@@ -192,7 +192,7 @@ Defines how the certificate is encoded. The certificate encoding type is stored 
 <span id="_security_certificate_management_over_cms_gly"></span><span id="_SECURITY_CERTIFICATE_MANAGEMENT_OVER_CMS_GLY"></span>**Certificate Management over CMS**
 </dt> <dd>
 
-CMC. Certificate Management over CMS. CMC is a certificate management protocol that uses Cryptographic Message Syntax (CMS). Microsoft wraps CMC certificate requests in a [*PKCS \#7*](p-gly.md#-security-pkcs-7-standard-gly) (CMS) request object before sending the request to an enrollment server.
+CMC. Certificate Management over CMS. CMC is a certificate management protocol that uses Cryptographic Message Syntax (CMS). Microsoft wraps CMC certificate requests in a [*PKCS \#7*](p-gly.md) (CMS) request object before sending the request to an enrollment server.
 
 </dd> <dt>
 
@@ -316,7 +316,7 @@ When the Microsoft Base Cryptographic Provider is used, CBC is the default ciphe
 <span id="_security_cipher_block_chaining_mac_gly"></span><span id="_SECURITY_CIPHER_BLOCK_CHAINING_MAC_GLY"></span>**Cipher Block Chaining MAC**
 </dt> <dd>
 
-A block cipher method that encrypts the base data with a block cipher and then uses the last encrypted block as the hash value. The encryption algorithm used to build the [*Message Authentication Code*](m-gly.md#-security-message-authentication-code-gly) (MAC) is the one that was specified when the session key was created.
+A block cipher method that encrypts the base data with a block cipher and then uses the last encrypted block as the hash value. The encryption algorithm used to build the [*Message Authentication Code*](m-gly.md) (MAC) is the one that was specified when the session key was created.
 
 </dd> <dt>
 
@@ -354,7 +354,7 @@ A message that has been encrypted.
 <span id="_security_cleartext_gly"></span><span id="_SECURITY_CLEARTEXT_GLY"></span>**cleartext**
 </dt> <dd>
 
-See [*plaintext*](p-gly.md#-security-plaintext-gly).
+See [*plaintext*](p-gly.md).
 
 </dd> <dt>
 
@@ -363,7 +363,7 @@ See [*plaintext*](p-gly.md#-security-plaintext-gly).
 
 The application, rather than the server application, that initiates a connection to a server.
 
-Compare with [*server*](s-gly.md#-security-server-gly).
+Compare with [*server*](s-gly.md).
 
 </dd> <dt>
 
@@ -430,7 +430,7 @@ A signature of an existing signature and message or a signature of an existing s
 <span id="_security_credentials_gly"></span><span id="_SECURITY_CREDENTIALS_GLY"></span>**credentials**
 </dt> <dd>
 
-Previously authenticated logon data used by a [*security principal*](s-gly.md#-security-security-principal-gly) to establish its own identity, such as a password, or a Kerberos protocol ticket.
+Previously authenticated logon data used by a [*security principal*](s-gly.md) to establish its own identity, such as a password, or a Kerberos protocol ticket.
 
 </dd> <dt>
 

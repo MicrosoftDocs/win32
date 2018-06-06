@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Maintaining WMI Security
 
-WMI security focuses on protecting access to namespace data. WMI first grants access to groups of users as specified by the [*WMI Control*](gloss-w.md#wmi-gloss-wmi-control) and DCOM settings and then providers determine if the user should have access to namespace data.
+WMI security focuses on protecting access to namespace data. WMI first grants access to groups of users as specified by the [*WMI Control*](gloss-w.md) and DCOM settings and then providers determine if the user should have access to namespace data.
 
 The following sections are discussed in this topic:
 
@@ -27,7 +27,7 @@ The following sections are discussed in this topic:
 
 ## Namespace Security
 
-Namespace security depends on standard Windows user [*security identifiers (SID)*](gloss-s.md#wmi-gloss-security-identifier) and the [*security descriptor*](gloss-s.md#wmi-gloss-security-descriptor) for the WMI namespace.
+Namespace security depends on standard Windows user [*security identifiers (SID)*](gloss-s.md) and the [*security descriptor*](gloss-s.md) for the WMI namespace.
 
 You can set namespace security by performing the following actions:
 

@@ -31,14 +31,14 @@ The DNS WMI Provider enables the administration of DNS Servers from the server i
 
 To illustrate how to implement those administration steps, examples are provided. The following tasks are linked to their associated scripting samples.
 
--   [Stopping a DNS Server](dns-wmi-provider-samples-managing-a-dns-server.md#stop-start-or-restart-a-dns-server)
--   [Starting a DNS Server](dns-wmi-provider-samples-managing-a-dns-server.md#stop-start-or-restart-a-dns-server)
--   [Restarting a DNS Server](dns-wmi-provider-samples-managing-a-dns-server.md#stop-start-or-restart-a-dns-server)
--   [Adding an IP Address](dns-wmi-provider-samples-managing-a-dns-server.md#add-an-ip-address)
--   [Removing an IP Address](dns-wmi-provider-samples-managing-a-dns-server.md#delete-an-ip-address)
--   [Listing DNS Server Properties](dns-wmi-provider-samples-managing-a-dns-server.md#list-dns-server-properties)
--   [Displaying DNS Server Property Types](dns-wmi-provider-samples-managing-a-dns-server.md#list-dns-server-properties)
--   [Modifying DNS Server Properties](dns-wmi-provider-samples-managing-a-dns-server.md#modify-dns-server-properties)
+-   [Stopping a DNS Server](dns-wmi-provider-samples-managing-a-dns-server.md)
+-   [Starting a DNS Server](dns-wmi-provider-samples-managing-a-dns-server.md)
+-   [Restarting a DNS Server](dns-wmi-provider-samples-managing-a-dns-server.md)
+-   [Adding an IP Address](dns-wmi-provider-samples-managing-a-dns-server.md)
+-   [Removing an IP Address](dns-wmi-provider-samples-managing-a-dns-server.md)
+-   [Listing DNS Server Properties](dns-wmi-provider-samples-managing-a-dns-server.md)
+-   [Displaying DNS Server Property Types](dns-wmi-provider-samples-managing-a-dns-server.md)
+-   [Modifying DNS Server Properties](dns-wmi-provider-samples-managing-a-dns-server.md)
 
  
 

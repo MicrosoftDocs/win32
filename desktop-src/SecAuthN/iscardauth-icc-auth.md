@@ -76,7 +76,7 @@ The method returns one of the following possible values.
 
 For a list of all the methods provided by this interface, see [**ISCardAuth**](iscardauth.md).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Requirements
 

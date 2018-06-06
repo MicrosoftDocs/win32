@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # CB\_INSERTSTRING message
 
-Inserts a string or item data into the list of a combo box. Unlike the [**CB\_ADDSTRING**](cb-addstring.md) message, the **CB\_INSERTSTRING** message does not cause a list with the [**CBS\_SORT**](combo-box-styles.md#cbs-sort) style to be sorted.
+Inserts a string or item data into the list of a combo box. Unlike the [**CB\_ADDSTRING**](cb-addstring.md) message, the **CB\_INSERTSTRING** message does not cause a list with the [**CBS\_SORT**](combo-box-styles.md) style to be sorted.
 
 ## Parameters
 
@@ -37,7 +37,7 @@ The zero-based index of the position at which to insert the string. If this para
 *lParam* 
 </dt> <dd>
 
-A pointer to the null-terminated string to be inserted. If you create the combo box with an owner-drawn style but without the [**CBS\_HASSTRINGS**](combo-box-styles.md#cbs-hasstrings) style, the value of the *lParam* parameter is stored rather than the string to which it would otherwise point.
+A pointer to the null-terminated string to be inserted. If you create the combo box with an owner-drawn style but without the [**CBS\_HASSTRINGS**](combo-box-styles.md) style, the value of the *lParam* parameter is stored rather than the string to which it would otherwise point.
 
 </dd> </dl>
 

@@ -11,14 +11,14 @@ ms.date: 05/31/2018
 
 # MSGina.dll Features
 
-If you are writing a [*GINA*](security.g_gly#-security-gina-gly) to replace the Microsoft standard GINA DLL (MSGina.dll), you may want to provide some or all of the standard GINA functionality. Following is a list of standard features and a brief description of how they are controlled.
+If you are writing a [*GINA*](https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a) to replace the Microsoft standard GINA DLL (MSGina.dll), you may want to provide some or all of the standard GINA functionality. Following is a list of standard features and a brief description of how they are controlled.
 
 > [!Note]  
 > GINA DLLs are ignored in Windows Vista.
 
  
 
-Registry key values control the availability or behavior of many of these standard GINA features. Unless otherwise noted, these key values belong to the Winlogon registry key and have a value type of \[REG\_SZ\]. The actual path of the [*Winlogon*](security.w_gly#-security-winlogon-gly) key is:
+Registry key values control the availability or behavior of many of these standard GINA features. Unless otherwise noted, these key values belong to the Winlogon registry key and have a value type of \[REG\_SZ\]. The actual path of the [*Winlogon*](https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d) key is:
 
 **\\HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon**
 
@@ -68,7 +68,7 @@ Registry key values control the availability or behavior of many of these standa
 
 -   **Allow Unauthenticated Shutdown**
 
-    You can configure the default [*GINA*](security.g_gly#-security-gina-gly) to include a **Shutdown** button in the logon dialog box. This lets users shut down the system without first logging on. The following key value controls whether this button is included.
+    You can configure the default [*GINA*](https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a) to include a **Shutdown** button in the logon dialog box. This lets users shut down the system without first logging on. The following key value controls whether this button is included.
 
     
 
@@ -82,13 +82,13 @@ Registry key values control the availability or behavior of many of these standa
 
 -   **Userinit.exe Activation**
 
-    Userinit.exe is an application that is executed by MSGina.dll when the user has logged on. It runs in the newly logged-on user's [*context*](security.c_gly#-security-context-gly) and on the application desktop. Its purpose is to set up the user's environment, including restoring network uses, establishing profile settings such as fonts and screen colors, and running logon scripts. After completing those tasks, Userinit.exe executes the user shell programs. The shell programs inherit the environment that Userinit.exe sets up. The specific shell programs that Userinit.exe executes are stored in the **Shell** key value under the Winlogon registry key.
+    Userinit.exe is an application that is executed by MSGina.dll when the user has logged on. It runs in the newly logged-on user's [*context*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) and on the application desktop. Its purpose is to set up the user's environment, including restoring network uses, establishing profile settings such as fonts and screen colors, and running logon scripts. After completing those tasks, Userinit.exe executes the user shell programs. The shell programs inherit the environment that Userinit.exe sets up. The specific shell programs that Userinit.exe executes are stored in the **Shell** key value under the Winlogon registry key.
 
     The **Shell** key value can contain a comma-separated list of programs to be executed. Windows Explorer is the default shell program and will be executed if the **Shell** key value is null or not present. By default, Windows Explorer is listed.
 
 -   **Logged-On Security Options**
 
-    When logged on, if a user enters a [*secure attention sequence*](security.s_gly#-security-secure-attention-sequence-gly) (SAS), the user is presented with a security options screen. Among the options listed are:
+    When logged on, if a user enters a [*secure attention sequence*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SAS), the user is presented with a security options screen. Among the options listed are:
 
     -   Shut down the system.
     -   Log off.

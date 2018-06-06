@@ -60,7 +60,7 @@ This section contains information about the programming elements used with butto
 | [**Button\_GetTextLength**](/windows/desktop/api/Windowsx/nf-windowsx-button_gettextlength)                         | Gets the number of characters in the text of a button.<br/>                                                                                                                                                                                 |
 | [**Button\_GetTextMargin**](/windows/desktop/api/Commctrl/nf-commctrl-button_gettextmargin)                         | Gets the margins used to draw text in a button control. You can use this macro or send the [**BCM\_GETTEXTMARGIN**](bcm-gettextmargin.md) message explicitly. <br/>                                                                        |
 | [**Button\_SetCheck**](/windows/desktop/api/Windowsx/nf-windowsx-button_setcheck)                                   | Sets the check state of a radio button or check box. You can use this macro or send the [**BM\_SETCHECK**](bm-setcheck.md) message explicitly. <br/>                                                                                       |
-| [**Button\_SetDropDownState**](/windows/desktop/api/Commctrl/nf-commctrl-button_setdropdownstate)                   | Sets the drop down state for a specified button with style of [**BS\_SPLITBUTTON**](button-styles.md#bs-splitbutton). Use this macro or send the [**BCM\_SETDROPDOWNSTATE**](bcm-setdropdownstate.md) message explicitly. <br/>           |
+| [**Button\_SetDropDownState**](/windows/desktop/api/Commctrl/nf-commctrl-button_setdropdownstate)                   | Sets the drop down state for a specified button with style of [**BS\_SPLITBUTTON**](button-styles.md). Use this macro or send the [**BCM\_SETDROPDOWNSTATE**](bcm-setdropdownstate.md) message explicitly. <br/>           |
 | [**Button\_SetElevationRequiredState**](/windows/desktop/api/Commctrl/nf-commctrl-button_setelevationrequiredstate) | Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the [**BCM\_SETSHIELD**](bcm-setshield.md) message explicitly. <br/>                                          |
 | [**Button\_SetImageList**](/windows/desktop/api/Commctrl/nf-commctrl-button_setimagelist)                           | Assigns an image list to a button control. You can use this macro or send the [**BCM\_SETIMAGELIST**](bcm-setimagelist.md) message explicitly. <br/>                                                                                       |
 | [**Button\_SetNote**](/windows/desktop/api/Commctrl/nf-commctrl-button_setnote)                                     | Sets the text of the note associated with a specified command link button. You can use this macro or send the [**BCM\_SETNOTE**](bcm-setnote.md) message explicitly.<br/>                                                                  |
@@ -86,7 +86,7 @@ This section contains information about the programming elements used with butto
 | [**BCM\_GETNOTELENGTH**](bcm-getnotelength.md)       | Gets the length of the note text that may be displayed in the description for a command link button. Send this message explicitly or by using the [**Button\_GetNoteLength**](/windows/desktop/api/Commctrl/nf-commctrl-button_getnotelength) macro.<br/>                                                                           |
 | [**BCM\_GETSPLITINFO**](bcm-getsplitinfo.md)         | Gets information for a split button control. Send this message explicitly or by using the [**Button\_GetSplitInfo**](/windows/desktop/api/Commctrl/nf-commctrl-button_getsplitinfo) macro. <br/>                                                                                                                                    |
 | [**BCM\_GETTEXTMARGIN**](bcm-gettextmargin.md)       | Gets the margins used to draw text in a button control. You can send this message explicitly or use the [**Button\_GetTextMargin**](/windows/desktop/api/Commctrl/nf-commctrl-button_gettextmargin) macro.<br/>                                                                                                                     |
-| [**BCM\_SETDROPDOWNSTATE**](bcm-setdropdownstate.md) | Sets the drop down state for a button with style [**TBSTYLE\_DROPDOWN**](toolbar-control-and-button-styles.md#tbstyle-dropdown). Send this message explicitly or by using the [**Button\_SetDropDownState**](/windows/desktop/api/Commctrl/nf-commctrl-button_setdropdownstate) macro.<br/>                                        |
+| [**BCM\_SETDROPDOWNSTATE**](bcm-setdropdownstate.md) | Sets the drop down state for a button with style [**TBSTYLE\_DROPDOWN**](toolbar-control-and-button-styles.md). Send this message explicitly or by using the [**Button\_SetDropDownState**](/windows/desktop/api/Commctrl/nf-commctrl-button_setdropdownstate) macro.<br/>                                        |
 | [**BCM\_SETIMAGELIST**](bcm-setimagelist.md)         | Assigns an image list to a button control. You can send this message explicitly or use the [**Button\_SetImageList**](/windows/desktop/api/Commctrl/nf-commctrl-button_setimagelist) macro.<br/>                                                                                                                                    |
 | [**BCM\_SETNOTE**](bcm-setnote.md)                   | Sets the text of the note associated with a command link button. You can send this message explicitly or use the [**Button\_SetNote**](/windows/desktop/api/Commctrl/nf-commctrl-button_setnote) macro.<br/>                                                                                                                        |
 | [**BCM\_SETSHIELD**](bcm-setshield.md)               | Sets the elevation required state for a specified button or command link to display an elevated icon. Send this message explicitly or by using the [**Button\_SetElevationRequiredState**](/windows/desktop/api/Commctrl/nf-commctrl-button_setelevationrequiredstate) macro.<br/>                                                  |
@@ -136,40 +136,40 @@ This section contains information about the programming elements used with butto
 </tr>
 <tr class="even">
 <td>[BN_DBLCLK](bn-dblclk.md)</td>
-<td>Sent when the user double-clicks a button. This notification code is sent automatically for [<strong>BS_USERBUTTON</strong>](button-styles.md#bs-userbutton), [<strong>BS_RADIOBUTTON</strong>](button-styles.md#bs-radiobutton), and [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) buttons. Other button types send [BN_DBLCLK](bn-dblclk.md) only if they have the [<strong>BS_NOTIFY</strong>](button-styles.md#bs-notify) style.<br/> The parent window of the button receives the [BN_DBLCLK](bn-dblclk.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message. <br/></td>
+<td>Sent when the user double-clicks a button. This notification code is sent automatically for [<strong>BS_USERBUTTON</strong>](button-styles.md), [<strong>BS_RADIOBUTTON</strong>](button-styles.md), and [<strong>BS_OWNERDRAW</strong>](button-styles.md) buttons. Other button types send [BN_DBLCLK](bn-dblclk.md) only if they have the [<strong>BS_NOTIFY</strong>](button-styles.md) style.<br/> The parent window of the button receives the [BN_DBLCLK](bn-dblclk.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message. <br/></td>
 </tr>
 <tr class="odd">
 <td>[BN_DISABLE](bn-disable.md)</td>
 <td>Sent when a button is disabled.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the [BN_DISABLE](bn-disable.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.<br/></td>
 </tr>
 <tr class="even">
 <td>[BN_DOUBLECLICKED](bn-doubleclicked.md)</td>
-<td>Sent when the user double-clicks a button. This notification code is sent automatically for [<strong>BS_USERBUTTON</strong>](button-styles.md#bs-userbutton), [<strong>BS_RADIOBUTTON</strong>](button-styles.md#bs-radiobutton), and [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) buttons. Other button types send [BN_DOUBLECLICKED](bn-doubleclicked.md) only if they have the [<strong>BS_NOTIFY</strong>](button-styles.md#bs-notify) style.<br/> The parent window of the button receives the [BN_DOUBLECLICKED](bn-doubleclicked.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message. <br/></td>
+<td>Sent when the user double-clicks a button. This notification code is sent automatically for [<strong>BS_USERBUTTON</strong>](button-styles.md), [<strong>BS_RADIOBUTTON</strong>](button-styles.md), and [<strong>BS_OWNERDRAW</strong>](button-styles.md) buttons. Other button types send [BN_DOUBLECLICKED](bn-doubleclicked.md) only if they have the [<strong>BS_NOTIFY</strong>](button-styles.md) style.<br/> The parent window of the button receives the [BN_DOUBLECLICKED](bn-doubleclicked.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message. <br/></td>
 </tr>
 <tr class="odd">
 <td>[BN_HILITE](bn-hilite.md)</td>
 <td>Sent when the user selects a button.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the [BN_HILITE](bn-hilite.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.<br/></td>
 </tr>
 <tr class="even">
 <td>[BN_KILLFOCUS](bn-killfocus.md)</td>
-<td>Sent when a button loses the keyboard focus. The button must have the [<strong>BS_NOTIFY</strong>](button-styles.md#bs-notify) style to send this notification code. <br/> The parent window of the button receives the [BN_KILLFOCUS](bn-killfocus.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message. <br/></td>
+<td>Sent when a button loses the keyboard focus. The button must have the [<strong>BS_NOTIFY</strong>](button-styles.md) style to send this notification code. <br/> The parent window of the button receives the [BN_KILLFOCUS](bn-killfocus.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message. <br/></td>
 </tr>
 <tr class="odd">
 <td>[BN_PAINT](bn-paint.md)</td>
 <td>Sent when a button should be painted.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the [BN_PAINT](bn-paint.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message. <br/></td>
 </tr>
@@ -178,20 +178,20 @@ This notification code is provided only for compatibility with 16-bit versions o
 <td>Sent when the push state of a button is set to pushed.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the [BN_PUSHED](bn-pushed.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.<br/></td>
 </tr>
 <tr class="odd">
 <td>[BN_SETFOCUS](bn-setfocus.md)</td>
-<td>Sent when a button receives the keyboard focus. The button must have the [<strong>BS_NOTIFY</strong>](button-styles.md#bs-notify) style to send this notification code. <br/> The parent window of the button receives the [BN_SETFOCUS](bn-setfocus.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.<br/></td>
+<td>Sent when a button receives the keyboard focus. The button must have the [<strong>BS_NOTIFY</strong>](button-styles.md) style to send this notification code. <br/> The parent window of the button receives the [BN_SETFOCUS](bn-setfocus.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.<br/></td>
 </tr>
 <tr class="even">
 <td>[BN_UNHILITE](bn-unhilite.md)</td>
 <td>Sent when the highlight should be removed from a button.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the [BN_UNHILITE](bn-unhilite.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.<br/></td>
 </tr>
@@ -200,7 +200,7 @@ This notification code is provided only for compatibility with 16-bit versions o
 <td>Sent when the push state of a button is set to unpushed.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the [BN_UNPUSHED](bn-unpushed.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.<br/></td>
 </tr>
@@ -226,7 +226,7 @@ This notification code is provided only for compatibility with 16-bit versions o
 | Topic                                         | Contents                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**BUTTON\_IMAGELIST**](/windows/desktop/api/Commctrl/ns-commctrl-button_imagelist) | Contains information about an image list that is used with a button control.<br/>                                                                                                                                                                                                                                 |
-| [**BUTTON\_SPLITINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagbutton_splitinfo) | Contains information that defines a split button ([**BS\_SPLITBUTTON**](button-styles.md#bs-splitbutton) and [**BS\_DEFSPLITBUTTON**](button-styles.md#bs-defsplitbutton) styles). Used with the [**BCM\_GETSPLITINFO**](bcm-getsplitinfo.md) and [**BCM\_SETSPLITINFO**](bcm-setsplitinfo.md) messages.<br/> |
+| [**BUTTON\_SPLITINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagbutton_splitinfo) | Contains information that defines a split button ([**BS\_SPLITBUTTON**](button-styles.md) and [**BS\_DEFSPLITBUTTON**](button-styles.md) styles). Used with the [**BCM\_GETSPLITINFO**](bcm-getsplitinfo.md) and [**BCM\_SETSPLITINFO**](bcm-setsplitinfo.md) messages.<br/> |
 | [**NMBCDROPDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmbcdropdown)          | Contains information about a [BCN\_DROPDOWN](bcn-dropdown.md) notification.<br/>                                                                                                                                                                                                                                 |
 | [**NMBCHOTITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmbchotitem)            | Contains information about the movement of the mouse over a button control.<br/>                                                                                                                                                                                                                                  |
 

@@ -33,14 +33,14 @@ Authentication is the process of verifying that a user is who he or she claims t
 <span id="_rras_autonomous_system_gly"></span><span id="_RRAS_AUTONOMOUS_SYSTEM_GLY"></span>**autonomous system (AS)**
 </dt> <dd>
 
-An autonomous system is a group of routers that share a single administrative policy. These routers all use the same routing protocol to communicate (called an [*interior gateway protocol*](i-gly.md#-rras-interior-gateway-protocol-gly)). See also [*exterior gateway protocol*](e-gly.md#-rras-exterior-gateway-protocol-gly).
+An autonomous system is a group of routers that share a single administrative policy. These routers all use the same routing protocol to communicate (called an [*interior gateway protocol*](i-gly.md)). See also [*exterior gateway protocol*](e-gly.md).
 
 </dd> <dt>
 
 <span id="_rras_autostatic_route_gly"></span><span id="_RRAS_AUTOSTATIC_ROUTE_GLY"></span>**autostatic route**
 </dt> <dd>
 
-An autostatic route is a route that is dynamically obtained from a routing protocol. After a route is obtained in this manner, it behaves as a [*staticroute*](s-gly.md#-rras-static-route-gly).
+An autostatic route is a route that is dynamically obtained from a routing protocol. After a route is obtained in this manner, it behaves as a [*staticroute*](s-gly.md).
 
 </dd> </dl>
 

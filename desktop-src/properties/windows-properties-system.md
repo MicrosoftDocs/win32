@@ -24,7 +24,7 @@ Before you start reading the Windows Property System SDK documentation, you shou
 
 For an introduction to COM, see [COM Fundamentals](https://msdn.microsoft.com/faa0dc85-2a66-4c69-acf6-d8d281063512). For an introduction to Shell Namespace programming, see [Getting Started with the Shell Namespace](https://msdn.microsoft.com/539c4455-e1c7-45a0-b3c3-781f2b7a1617).
 
-For uses of the Windows Property System, see [Property System Overview: Development Scenarios](property-system-overview.md#development-scenarios).
+For uses of the Windows Property System, see [Property System Overview: Development Scenarios](property-system-overview.md).
 
 ## Run-time requirements
 

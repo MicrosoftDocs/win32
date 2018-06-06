@@ -17,11 +17,11 @@ A cipher suite is a set of cryptographic algorithms. Schannel protocols use algo
 -   Bulk encryption
 -   Message authentication
 
-[*Key exchange algorithms*](security.k_gly#-security-key-exchange-algorithm-gly) protect information required to create shared keys. These algorithms are asymmetric ([*public key algorithms*](security.p_gly#-security-public-key-algorithm-gly)) and perform well for relatively small amounts of data.
+[*Key exchange algorithms*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33) protect information required to create shared keys. These algorithms are asymmetric ([*public key algorithms*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a)) and perform well for relatively small amounts of data.
 
-Bulk encryption algorithms encrypt messages exchanged between clients and servers. These algorithms are [*symmetric*](security.s_gly#-security-symmetric-algorithm-gly) and perform well for large amounts of data.
+Bulk encryption algorithms encrypt messages exchanged between clients and servers. These algorithms are [*symmetric*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) and perform well for large amounts of data.
 
-[Message authentication](message-authentication-codes-in-schannel.md) algorithms generate message [*hashes*](security.h_gly#-security-hash-gly) and signatures that ensure the [*integrity*](security.i_gly#-security-integrity-gly) of a message.
+[Message authentication](message-authentication-codes-in-schannel.md) algorithms generate message [*hashes*](https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323) and signatures that ensure the [*integrity*](https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70) of a message.
 
 Developers specify these elements by using [**ALG\_ID**](https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad) data types. For more information, see [Specifying Schannel Ciphers and Cipher Strengths](specifying-schannel-ciphers-and-cipher-strengths.md).
 

@@ -122,7 +122,7 @@ For more information, see [Icons](vis-icons.md).
 ### Interaction
 
 -   Make a status bar area interactive to allow users direct access to related commands and options.
-    -   Use a control that looks and behaves like a [menu button](ctrl-command-buttons.md#usage-patterns) or a split button. These status bar areas must have a drop-down arrow to indicate that they are clickable.
+    -   Use a control that looks and behaves like a [menu button](ctrl-command-buttons.md) or a split button. These status bar areas must have a drop-down arrow to indicate that they are clickable.
     -   Display the menu on left-click on mouse down, not mouse up.
     -   Don't support right-clicking or double-clicking. Users don't expect such interactions in a status bar, so they aren't likely to attempt them.
 -   Display tooltips on hover.

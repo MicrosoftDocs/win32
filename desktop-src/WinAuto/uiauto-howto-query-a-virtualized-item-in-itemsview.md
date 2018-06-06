@@ -70,11 +70,11 @@ The custom properties of the ItemsView element include one property for the item
 
 -   ItemCount\_Property\_GUID (ABBF5C45-5CCC-47b7-BB4E-87CB87BBD162)—The count of all unique items in the view. If grouped by a multi-value property (MVP) so that a single item can appear multiple times, each item is counted only once.
 
-    (UIAutomationType: [**UIAutomationType\_Int**](uiauto-uiautomationtypeenum.md#uiautomationtype-int), Programmatic Name: "ItemCount")
+    (UIAutomationType: [**UIAutomationType\_Int**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-uiautomationtype), Programmatic Name: "ItemCount")
 
 -   SelectedItemCount\_Property\_GUID (92A053DA-2969-4021-BF27-514CFC2E4A69)—The count of all unique items selected in the view. If grouped by a multi-value property (MVP) so that a single item can appear multiple times, each item is counted only once.
 
-    (UIAutomationType: [**UIAutomationType\_Int**](uiauto-uiautomationtypeenum.md#uiautomationtype-int), Programmatic Name: "SelectedItemCount")
+    (UIAutomationType: [**UIAutomationType\_Int**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-uiautomationtype), Programmatic Name: "SelectedItemCount")
 
 These custom properties are defined in Shlguid.h, which is included in the Windows Software Development Kit (SDK), and these properties are registered through the [**IUIAutomationRegistrar::RegisterProperty**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty) method. UI Automation clients use **RegisterProperty** to retrieve property identifiers (PROPERTYIDs) for the custom properties.
 
@@ -88,7 +88,7 @@ The following custom property gets the item index of a ListItem element:
 
 -   ItemIndex\_Property\_GUID (92A053DA-2969-4021-BF27-514CFC2E4A69)—The 1-based absolute index of an item. If grouped by a multi-value property (MVP) so that a single item can appear twice, each appearance of the item gets a separate index.
 
-    (UIAutomationType: [**UIAutomationType\_Int**](uiauto-uiautomationtypeenum.md#uiautomationtype-int), Programmatic Name: "ItemIndex")
+    (UIAutomationType: [**UIAutomationType\_Int**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-uiautomationtype), Programmatic Name: "ItemIndex")
 
 This custom property is defined in Shlguid.h, which is included in the Windows SDK, and is registered through the [**IUIAutomationRegistrar::RegisterProperty**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty) method. UI Automation clients use **RegisterProperty** to retrieve a property identifier (PROPERTYIDs) for the custom property.
 

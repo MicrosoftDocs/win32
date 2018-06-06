@@ -15,7 +15,7 @@ The DoAction ControlEvent notifies the installer to execute a custom action. Thi
 
 Note that custom actions launched by a DoAction ControlEvent can send a message with the [**Message Method**](session-message.md), but cannot send a message with [**MsiProcessMessage**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage). On systems prior to Windows Server 2003, custom actions launched by a DoAction ControlEvent cannot send messages with **MsiProcessMessage** or **Message Method**. For more information, see [Sending Messages to Windows Installer Using MsiProcessMessage](sending-messages-to-windows-installer-using-msiprocessmessage.md).
 
-This ControlEvent requires the user interface to be run at the [*full UI*](f-gly.md#-msi-full-ui-gly) level. This event will not work with a [*reduced UI*](r-gly.md#-msi-reduced-ui-gly) or [*basic UI*](b-gly.md#-msi-basic-ui-gly). For more information, see [User Interface Levels](user-interface-levels.md).
+This ControlEvent requires the user interface to be run at the [*full UI*](f-gly.md) level. This event will not work with a [*reduced UI*](r-gly.md) or [*basic UI*](b-gly.md). For more information, see [User Interface Levels](user-interface-levels.md).
 
 ## Published By
 

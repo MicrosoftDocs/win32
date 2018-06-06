@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # About the Windows Media Format SDK
 
-The Microsoft® Windows Media® Format Software Development Kit (SDK) enables developers to create applications that manipulate digital media stored in files conforming to the Advanced Systems Format (ASF) file structure. The ASF structure is a versatile container format for arbitrary [*streaming*](wmformat-glossary.md#wmformat-streaming) media. For more information about the structure of ASF files, see [Overview of the ASF Format](overview-of-the-asf-format.md).
+The Microsoft® Windows Media® Format Software Development Kit (SDK) enables developers to create applications that manipulate digital media stored in files conforming to the Advanced Systems Format (ASF) file structure. The ASF structure is a versatile container format for arbitrary [*streaming*](wmformat-glossary.md) media. For more information about the structure of ASF files, see [Overview of the ASF Format](overview-of-the-asf-format.md).
 
 This SDK also provides support for encoding and decoding audio and video content using the Windows Media codecs. Each codec (compressor/decompressor) is optimized to get the best quality for a specific type of content. For more information about the supported codecs, see [Codec Features](codec-features.md).
 

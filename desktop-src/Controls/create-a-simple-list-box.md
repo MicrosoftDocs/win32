@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This topic demonstrates how to initialize and retrieve items from a simple list box.
 
-The C++ code example in this topic includes a dialog box procedure that fills a list box with information about players on a sports team. When the user selects the name of a player from the list, information about the player is displayed in the dialog box. The window style for the list box includes [**LBS\_SORT**](list-box-styles.md#lbs-sort), which results in a sorted list of items. The following screen shot shows the dialog box.
+The C++ code example in this topic includes a dialog box procedure that fills a list box with information about players on a sports team. When the user selects the name of a player from the list, information about the player is displayed in the dialog box. The window style for the list box includes [**LBS\_SORT**](list-box-styles.md), which results in a sorted list of items. The following screen shot shows the dialog box.
 
 ![screen shot of a dialog box containing a labeled list box, text about the selected list box item, and an ok button](images/lb-roster.png)
 

@@ -23,7 +23,7 @@ The PNM API is used to find users nearby, their advertised interests, any arbitr
 
 ### Publication API
 
-The Publication API is used to interact with remote contacts. The [Peer Signaling](windows-peer-components-for-people-near-me.md#publication-manager) layer used by the Publication Manager is also used by the PNM module for establishing connections.
+The Publication API is used to interact with remote contacts. The [Peer Signaling](windows-peer-components-for-people-near-me.md) layer used by the Publication Manager is also used by the PNM module for establishing connections.
 
 ### Invitation API
 

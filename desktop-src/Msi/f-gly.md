@@ -26,7 +26,7 @@ Functionality from the user's perspective. For more information, see [Components
 <span id="_msi_full_ui_gly"></span><span id="_MSI_FULL_UI_GLY"></span>**full UI**
 </dt> <dd>
 
-Characteristic of the installer's [*internal user interface*](i-gly.md#-msi-internal-user-interface-gly) capabilities. The full UI level supports a user interface for the installation, including dialog boxes, progress bars, and error messages. For more information, see [User Interface Levels](user-interface-levels.md).
+Characteristic of the installer's [*internal user interface*](i-gly.md) capabilities. The full UI level supports a user interface for the installation, including dialog boxes, progress bars, and error messages. For more information, see [User Interface Levels](user-interface-levels.md).
 
 </dd> </dl>
 

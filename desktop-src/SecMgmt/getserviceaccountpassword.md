@@ -103,7 +103,7 @@ Denotes the time after which the current password is valid for outbound requests
 
 If the function succeeds, the return value is STATUS\_SUCCESS.
 
-If the function fails, the return value is an NTSTATUS code. For more information, see [LSA Policy Function Return Values](management-return-values.md#lsa-policy-function-return-values).
+If the function fails, the return value is an NTSTATUS code. For more information, see [LSA Policy Function Return Values](management-return-values.md).
 
 You can use the [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror) function to convert the NTSTATUS code to a Windows error code.
 

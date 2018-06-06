@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Terminal Services GINA Functions
 
-When Terminal Services are enabled, the [*GINA*](security.g_gly#-security-gina-gly) must call [*Winlogon*](security.w_gly#-security-winlogon-gly) support functions to complete the setup for each user, to query the [*credentials*](security.c_gly#-security-credentials-gly) of a Terminal Services client session, and to disconnect from a Terminal Services network session.
+When Terminal Services are enabled, the [*GINA*](https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a) must call [*Winlogon*](https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d) support functions to complete the setup for each user, to query the [*credentials*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) of a Terminal Services client session, and to disconnect from a Terminal Services network session.
 
 > [!Note]  
 > GINA DLLs are ignored in Windows Vista.

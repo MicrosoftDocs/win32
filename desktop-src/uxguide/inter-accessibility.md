@@ -67,7 +67,7 @@ Magnification helps users with low vision by enlarging items on screen anywhere 
 
 **Visual settings and color schemes**
 
-In addition to making things on the screen larger, users with visual impairment may benefit from system settings such as [high-contrast mode](glossary.md#h) or the ability to customize background and foreground color schemes.
+In addition to making things on the screen larger, users with visual impairment may benefit from system settings such as [high-contrast mode](glossary.md) or the ability to customize background and foreground color schemes.
 
 **Narrator**
 
@@ -89,7 +89,7 @@ For a complete list of accessibility features, see [Accessibility in Windows Vis
 
 ### Keyboard-based navigation
 
-The Tab key, arrow keys, space bar, and Enter key are important for keyboard-based navigation. Pressing Tab cycles [input focus](glossary.md#i) through the different control groups, and pressing the arrow keys moves within a control or among controls within a group. Pressing space bar is the same as clicking the control with input focus, whereas pressing Enter is the same as clicking the default command button or command link, regardless of input focus.
+The Tab key, arrow keys, space bar, and Enter key are important for keyboard-based navigation. Pressing Tab cycles [input focus](glossary.md) through the different control groups, and pressing the arrow keys moves within a control or among controls within a group. Pressing space bar is the same as clicking the control with input focus, whereas pressing Enter is the same as clicking the default command button or command link, regardless of input focus.
 
 ![screen shot of 'empty recycle bin' dialog box ](images/inter-accessibility-image3.png)
 
@@ -181,7 +181,7 @@ Do this well by:
 ### General
 
 -   **Don't disrupt or disable activated features of the operating system or other products that are identified as accessibility features.** You can identify these features by referring to the documentation of the operating system or product in question.
--   **Don't force users to interact with your program as the top window on the screen.** If a function or a window is required continuously for users to perform a task, that window should always remain visible, if the user so chooses, regardless of its position relative to other windows. For example, if the user has a movable on-screen keyboard that is on top of all other windows so that it is visible at all times, your program should never obscure it by mandatory placement at the top of the [Z order](glossary.md#z).
+-   **Don't force users to interact with your program as the top window on the screen.** If a function or a window is required continuously for users to perform a task, that window should always remain visible, if the user so chooses, regardless of its position relative to other windows. For example, if the user has a movable on-screen keyboard that is on top of all other windows so that it is visible at all times, your program should never obscure it by mandatory placement at the top of the [Z order](glossary.md).
 -   **Use system colors, fonts, and common controls whenever possible.** By doing so, you significantly reduce the number of accessibility issues users encounter.
 
 ### Addressing particular impairments

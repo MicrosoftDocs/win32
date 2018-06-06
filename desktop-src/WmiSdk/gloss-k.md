@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 <span id="wmi.gloss_key_property"></span><span id="WMI.GLOSS_KEY_PROPERTY"></span>**key property**
 </dt> <dd>
 
-A property that provides a unique identifier for an instance of a class. Key properties are marked with the Key [*qualifier*](gloss-q.md#wmi-gloss-qualifier).
+A property that provides a unique identifier for an instance of a class. Key properties are marked with the Key [*qualifier*](gloss-q.md).
 
 </dd> </dl>
 

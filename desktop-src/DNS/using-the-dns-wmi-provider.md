@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Using the DNS WMI Provider
 
-The DNS WMI Provider defines WMI [*CIM classes*](c-gly.md#-dns-cim-class-gly) that enable your application to control a DNS Server. The following sections provide overview information that can help you get started using the DNS WMI Provider. Links are provided to sample scripts that demonstrate how to make use of the DNS WMI Provider.
+The DNS WMI Provider defines WMI [*CIM classes*](c-gly.md) that enable your application to control a DNS Server. The following sections provide overview information that can help you get started using the DNS WMI Provider. Links are provided to sample scripts that demonstrate how to make use of the DNS WMI Provider.
 
 For more information about basic WMI operations, refer to Windows Management Instrumentation (WMI) in the Platform Software Development Kit (SDK).
 

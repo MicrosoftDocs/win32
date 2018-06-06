@@ -134,8 +134,8 @@ In the [**PreRestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomp
     -   For GPT disks, the partition identifier is not changed.
 -   A dynamic disk is not re-created if its disk layout is intact or only additive changes have been made to it. For a dynamic disk to be intact, all of the conditions for a basic disk must be met. In addition, the entire disk pack's volume structure must be intact. The disk pack's volume structure is intact if it meets the following conditions, which apply to both MBR and GPT disks:
     -   The number of volumes that are available in the physical pack during restore must be greater than or equal to the number of volumes that were specified in the ASR writer metadata during backup.
-    -   The number of [*plexes*](base.virtual_disk_service_glossary_all#base-plex) per volume must be unchanged.
-    -   The number of [*members*](base.virtual_disk_service_glossary_all#base-member) must be unchanged.
+    -   The number of [*plexes*](https://msdn.microsoft.com/1cf28cfb-ce96-4659-955d-0088bddcb9ce) per volume must be unchanged.
+    -   The number of [*members*](https://msdn.microsoft.com/1cf28cfb-ce96-4659-955d-0088bddcb9ce) must be unchanged.
     -   The number of physical disk extents must be greater than the number of disk extents specified in the ASR writer metadata.
     -   An intact pack remains intact when additional volumes are added, or if a volume in the pack is extended (for example, from a simple volume to a spanned volume).
         > [!Note]  

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemUni::DisableDriver method
 
-The `IPrintOemuNI::DisableDriver` method allows a rendering plug-in for [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) to free resources that were allocated by the plug-in's [**IPrintOemUni::EnableDriver**](iprintoemuni-enabledriver.md) method.
+The `IPrintOemuNI::DisableDriver` method allows a rendering plug-in for [*Unidrv*](https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414) to free resources that were allocated by the plug-in's [**IPrintOemUni::EnableDriver**](iprintoemuni-enabledriver.md) method.
 
 ## Syntax
 

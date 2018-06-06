@@ -118,7 +118,7 @@ Defines the time-out constants. This constant is used by [**SWbemEventSource.Nex
 
 You can combine flags to affect more than one aspect of the API call.
 
-For example, to create a [*semisynchronous*](gloss-s.md#wmi-gloss-semisynchronous) call, the *iFlags* parameter in an [**SWbemServices.ExecQuery\_**](swbemservices-execquery.md) call must contain two flags: **WbemFlagReturnImmediately** and **WbemFlagForwardOnly**. The value of **WbemFlagReturnImmediately** is 16 and the value of **WbemFlagForwardOnly** is 32. Because the constants cannot be accessed by name, the values of these flags are combined, producing an *iFlags* value of 48.
+For example, to create a [*semisynchronous*](gloss-s.md) call, the *iFlags* parameter in an [**SWbemServices.ExecQuery\_**](swbemservices-execquery.md) call must contain two flags: **WbemFlagReturnImmediately** and **WbemFlagForwardOnly**. The value of **WbemFlagReturnImmediately** is 16 and the value of **WbemFlagForwardOnly** is 32. Because the constants cannot be accessed by name, the values of these flags are combined, producing an *iFlags* value of 48.
 
 The following script example shows the call.
 

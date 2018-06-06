@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Generating New ASF Data Packets
 
-The ASF *multiplexer* is a WMContainer layer component that works with the [ASF Data Object](asf-file-structure.md#data-object) and gives an application the ability to generate ASF data packets for a stream that match the requirements defined in the ContentInfo object.
+The ASF *multiplexer* is a WMContainer layer component that works with the [ASF Data Object](asf-file-structure.md) and gives an application the ability to generate ASF data packets for a stream that match the requirements defined in the ContentInfo object.
 
 The multiplexer has one input and one output. It receives a stream sample that contains digital media data and produces one or more data packet that can be written to an ASF container.
 

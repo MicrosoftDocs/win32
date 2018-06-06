@@ -45,7 +45,7 @@ Each of these functions should be managed by a separate MFT. A hardware MFT shou
 Hardware MFTs have the following general requirements:
 
 -   Hardware MFTs must use the new asynchronous processing model, as described in [Asynchronous MFTs](asynchronous-mfts.md).
--   Hardware MFTs must support dynamic format changes, as described in [Dynamic Format Changes](basic-mft-processing-model.md#dynamic-format-changes).
+-   Hardware MFTs must support dynamic format changes, as described in [Dynamic Format Changes](basic-mft-processing-model.md).
 
 ## Hardware MFT Attributes
 
@@ -133,7 +133,7 @@ Other type attributes are optional. The decoder returns the custom type from its
 To work with software codecs, the codec should also return at least one standard format, such as NV12 for video. Standard formats should appear after the custom type (*dwTypeIndex* &gt; 0). If the two codecs must always be paired and cannot interoperate with software codecs, the MFTs should return only the custom format and not return any standard formats.
 
 > [!Note]  
-> If a decoder does not return any standard formats, it cannot be used for playback with the [Enhanced Video Renderer](enhanced-video-renderer.md). In that case, it should be registered as a transcode-only decoder. See [Transcode-Only Decoders](implementing-a-codec-mft.md#transcode-only-decoders).
+> If a decoder does not return any standard formats, it cannot be used for playback with the [Enhanced Video Renderer](enhanced-video-renderer.md). In that case, it should be registered as a transcode-only decoder. See [Transcode-Only Decoders](implementing-a-codec-mft.md).
 
  
 

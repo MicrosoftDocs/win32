@@ -40,7 +40,7 @@ This issue causes problems for people who rely on a screen-reader. The user will
 [Name Property](name-property.md)
 </dt> <dt>
 
-[**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid)
+[**UIA\_NamePropertyId**](uiauto-automation-element-propids.md)
 </dt> <dt>
 
 [**IUIAutomationElement::CurrentName**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentname)

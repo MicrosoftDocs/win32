@@ -53,9 +53,9 @@ The value of the texture data.
 
 | Name | In/Out | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size |
 |------|--------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------|
-| s    | in     | [**object**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [sampler2D](dx-graphics-hlsl-sampler.md)                      | 1    |
-| t    | in     | [**vector**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 4    |
-| ret  | out    | [**vector**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 4    |
+| s    | in     | [**object**](dx-graphics-hlsl-intrinsic-functions.md) | [sampler2D](dx-graphics-hlsl-sampler.md)                      | 1    |
+| t    | in     | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 4    |
+| ret  | out    | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751)                        | 4    |
 
 
 
@@ -104,7 +104,7 @@ color = MyTexture.SampleLevel(MySampler, Location, LOD);
 
 
 
-To use the intrinsic-style texture lookup functions, such as **tex2Dlod**, with [shader model 4](dx-graphics-hlsl-sm4.md) and higher, use [**D3DCOMPILE\_ENABLE\_BACKWARDS\_COMPATIBILITY**](d3dcompile-constants.md#d3dcompile-enable-backwards-compatibility) to compile. However, if you want to target shader model 4 and higher (even [\*\_4\_0\_level\_9\_\*](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview)) with newer object-oriented style code, migrate to the newer HLSL syntax.
+To use the intrinsic-style texture lookup functions, such as **tex2Dlod**, with [shader model 4](dx-graphics-hlsl-sm4.md) and higher, use [**D3DCOMPILE\_ENABLE\_BACKWARDS\_COMPATIBILITY**](d3dcompile-constants.md) to compile. However, if you want to target shader model 4 and higher (even [\*\_4\_0\_level\_9\_\*](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview)) with newer object-oriented style code, migrate to the newer HLSL syntax.
 
 ## See also
 

@@ -87,7 +87,7 @@ Windows 7 includes numerous enhancements to the underlying Media Foundation pla
 ## SDK Changes
 
 -   New headers and library files: [Media Foundation Headers and Libraries](media-foundation-headers-and-libraries.md)
--   DLL and .lib changes: [Library Changes in Windows 7](media-foundation-headers-and-libraries.md#library-changes-in-windows-7)
+-   DLL and .lib changes: [Library Changes in Windows 7](media-foundation-headers-and-libraries.md)
 -   New SDK Samples:
     -   [Audio Clip Sample](audio-clip-sample.md)
     -   [DXVA-HD Sample](dxva-hd-sample.md)

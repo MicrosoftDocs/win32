@@ -233,7 +233,7 @@ if ($computer -eq &quot;.&quot;) {$computer = Hostname}
 </tr>
 <tr class="even">
 <td><p>...ensure that &quot;10/02/2000&quot; is interpreted as Oct. 2, 2000, not &quot;10 Feb, 2000&quot;?</p></td>
-<td><p>Manage dates in [<em>CIM</em>](gloss-c.md#wmi-gloss-cim) [DATETIME](datetime.md) format and use [<strong>SWbemDateTime</strong>](swbemdatetime.md) methods, such as [<strong>GetVarDate</strong>](swbemdatetime-getvardate.md) to convert to them to and from either [<strong>FILETIME</strong>](https://msdn.microsoft.com/library/windows/desktop/ms724284) or <strong>VT_Date</strong> formats. Because DATETIME format is locale-independent, you can write a script that runs on any machine. Use the <strong>SWbemDateTime</strong> object to convert these to regular dates and times. See [Date and Time Format](date-and-time-format.md) for more information on converting dates and times.</p></td>
+<td><p>Manage dates in [<em>CIM</em>](gloss-c.md) [DATETIME](datetime.md) format and use [<strong>SWbemDateTime</strong>](swbemdatetime.md) methods, such as [<strong>GetVarDate</strong>](swbemdatetime-getvardate.md) to convert to them to and from either [<strong>FILETIME</strong>](https://msdn.microsoft.com/library/windows/desktop/ms724284) or <strong>VT_Date</strong> formats. Because DATETIME format is locale-independent, you can write a script that runs on any machine. Use the <strong>SWbemDateTime</strong> object to convert these to regular dates and times. See [Date and Time Format](date-and-time-format.md) for more information on converting dates and times.</p></td>
 </tr>
 <tr class="odd">
 <td><p>...convert a WMI datetime to a .NET DateTime value?</p></td>

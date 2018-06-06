@@ -30,7 +30,7 @@ If a player is not DRM-enabled (does not link to a valid wmstubdrm.lib library) 
 
 When a DRM-enabled application attempts to open a DRM-protected file, the DRM component automatically searches the local system for a valid license. If one is found, the DRM component automatically decrypts the file in a way that is completely transparent to the application. The action that an application may perform on the decrypted file depends on the rights specified in the license. For a full description of possible rights, see the Windows Media Rights Manager SDK documentation.
 
-If the application does not have a valid license for a file, the player receives a status notification from the DRM component. The player application can then initiate the [*license acquisition*](wmformat-glossary.md#wmformat-license-acquisition) process. After a valid license has been received, the file can be accessed. The following sections describe the basic tasks that an application must perform in implementing the license acquisition process:
+If the application does not have a valid license for a file, the player receives a status notification from the DRM component. The player application can then initiate the [*license acquisition*](wmformat-glossary.md) process. After a valid license has been received, the file can be accessed. The following sections describe the basic tasks that an application must perform in implementing the license acquisition process:
 
 -   [Specifying the Actions To Be Performed](specifying-the-actions-to-be-performed.md)
 -   [Handling License Acquisition Events](handling-license-acquisition-events.md)

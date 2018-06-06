@@ -45,7 +45,7 @@ This parameter is not used.
 
 ## Return value
 
-The return value is the value associated with the item, or LB\_ERR if an error occurs. If the item is in an owner-drawn list box and was created without the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style, this value was in the *lParam* parameter of the [**LB\_ADDSTRING**](lb-addstring.md) or [**LB\_INSERTSTRING**](lb-insertstring.md) message that added the item to the list box. Otherwise, it is the value in the *lParam* of the [**LB\_SETITEMDATA**](lb-setitemdata.md) message.
+The return value is the value associated with the item, or LB\_ERR if an error occurs. If the item is in an owner-drawn list box and was created without the [**LBS\_HASSTRINGS**](list-box-styles.md) style, this value was in the *lParam* parameter of the [**LB\_ADDSTRING**](lb-addstring.md) or [**LB\_INSERTSTRING**](lb-insertstring.md) message that added the item to the list box. Otherwise, it is the value in the *lParam* of the [**LB\_SETITEMDATA**](lb-setitemdata.md) message.
 
 ## Requirements
 

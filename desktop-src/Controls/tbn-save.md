@@ -49,7 +49,7 @@ No return value.
 
 ## Remarks
 
-The application will receive this notification code once at the start of the save process and once for each button. This notification code gives you an opportunity to add your own information to that saved by the Shell. If you do not wish to add information, ignore the notification code. See [Toolbar Customization](toolbar-controls-overview.md#enabling-customization) for a more detailed discussion of how to handle TBN\_SAVE.
+The application will receive this notification code once at the start of the save process and once for each button. This notification code gives you an opportunity to add your own information to that saved by the Shell. If you do not wish to add information, ignore the notification code. See [Toolbar Customization](toolbar-controls-overview.md) for a more detailed discussion of how to handle TBN\_SAVE.
 
 ## Requirements
 

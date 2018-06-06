@@ -183,7 +183,7 @@ HRESULT CreateContentInfo(IMFByteStream *pStream,
 [ASF ContentInfo Object](asf-contentinfo-object.md)
 </dt> <dt>
 
-[ASF Header Object](asf-file-structure.md#header-object)
+[ASF Header Object](asf-file-structure.md)
 </dt> <dt>
 
 [ASF Support in Media Foundation](asf-support-in-media-foundation.md)

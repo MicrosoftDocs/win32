@@ -19,7 +19,7 @@ To minimize any disruption to *systemOne* (because backup operations can be reso
 
 To ensure a proper shadow copy—cooperating with the writers on *systemOne* and preserving the state appropriately for ongoing tasks—the shadow copy should be performed by *systemOne*.
 
-Therefore, *systemOne* must create a [*transportable shadow copy*](vssgloss-t.md#base-vssgloss-transportable-shadow-copy), which *systemTwo* will then import.
+Therefore, *systemOne* must create a [*transportable shadow copy*](vssgloss-t.md), which *systemTwo* will then import.
 
 **Windows Server 2003, Standard Edition, Windows Server 2003, Web Edition and Windows XP:** Transportable shadow copy sets are not supported. All editions of Windows Server 2003 with Service Pack 1 (SP1) support transportable shadow copy sets.
 
@@ -43,7 +43,7 @@ A typical example of importing a transportable shadow copy can proceed in the fo
 
 7.  The requester on *systemTwo* proceeds with the backup of the shadow copied material exactly as if it were backing up a shadow copy that it created by itself (see [Overview of Actual Backup Of Files](overview-of-actual-backup-of-files.md)).
 
-    The requester on *systemTwo* obtains the shadow copy's [*device object*](vssgloss-d.md#base-vssgloss-device-object) using [**IVssBackupComponents::GetSnapshotProperties**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties) on the imported shadow copy and appends that to the beginning of the original file paths that were obtained from the metadata to access files to be backed up.
+    The requester on *systemTwo* obtains the shadow copy's [*device object*](vssgloss-d.md) using [**IVssBackupComponents::GetSnapshotProperties**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties) on the imported shadow copy and appends that to the beginning of the original file paths that were obtained from the metadata to access files to be backed up.
 
 8.  After using the shadow copy, the requester on *systemTwo* must delete the shadow copy. As with non-transportable shadow copies, if the shadow copy context indicates auto-release shadow copies (for example, **VSS\_CTX\_BACKUP**), then releasing the [**IVssBackupComponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) on *systemTwo* will cause the VSS service to delete the shadow copy. Otherwise, if the context indicates a persistent shadow copy (for example, **VSS\_CTX\_APP\_ROLLBACK**), then the requester on *systemTwo* must explicitly delete the shadow copy.
 

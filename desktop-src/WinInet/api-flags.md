@@ -122,7 +122,7 @@ Allows a lazy cache write.
 
 
 
-Returns the resource from the cache if the network request for the resource fails due to an [ERROR\_INTERNET\_CONNECTION\_RESET](wininet-errors.md#error-internet-connection-reset) or [ERROR\_INTERNET\_CANNOT\_CONNECT](wininet-errors.md#error-internet-cannot-connect) error. This flag is used by [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta).
+Returns the resource from the cache if the network request for the resource fails due to an [ERROR\_INTERNET\_CONNECTION\_RESET](wininet-errors.md) or [ERROR\_INTERNET\_CANNOT\_CONNECT](wininet-errors.md) error. This flag is used by [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta).
 
 
 </dt> </dl> </dd> <dt>

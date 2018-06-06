@@ -39,7 +39,7 @@ This section explains some key concepts necessary to understand how YC<sub>b</su
 
 ### YC<sub>b</sub>C<sub>r</sub> Color Model
 
-WIC in Windows 8 and earlier supports four different [color models](-wic-codec-native-pixel-formats.md#colorchannels), the most common of which is RGB/BGR. This color model defines color data using red, green and blue components; a fourth alpha component may also be used.
+WIC in Windows 8 and earlier supports four different [color models](-wic-codec-native-pixel-formats.md), the most common of which is RGB/BGR. This color model defines color data using red, green and blue components; a fourth alpha component may also be used.
 
 Here is an image decomposed into its red, green and blue components.
 

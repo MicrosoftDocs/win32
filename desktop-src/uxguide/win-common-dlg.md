@@ -90,14 +90,14 @@ For Windows Vista, the Open File and Save File have a new extensible architectur
 
 ### General
 
--   When appropriate, provide more direct or [modeless](glossary.md#m) alternatives. Allow users to:
+-   When appropriate, provide more direct or [modeless](glossary.md) alternatives. Allow users to:
     -   Open files by dropping them on your program.
     -   Save files using their current name and location with a Save command.
     -   Find the next occurrence of a string using the F3 key.
     -   Print one copy of an entire document to the default printer with a Print command.
     -   Change fonts and font attributes using a toolbar or palette window.
     -   Change colors using a toolbar or palette window.
--   Use the following commands to display common dialogs (given along with their preferred [access keys](glossary.md#glossary)):
+-   Use the following commands to display common dialogs (given along with their preferred [access keys](glossary.md)):
 
 
 
@@ -150,7 +150,7 @@ For Windows Vista, the Open File and Save File have a new extensible architectur
 -   For Open File, include an "All files" entry as the first item if users can open any file type, or may need to see all files in a folder at the same time. Consider providing other meta filters, such as "All pictures," "All music," and "All videos." Place these immediately after "All files."
 -   Use the format "File type name (\*.ext1; \*.ext2)." The file type name should be the registered file type name, which you can view in the Folder Options control panel item. Example: "HTML document (\*.htm; \*.html)."
     -   **Exception:** For meta-filters, remove the file extension list to eliminate clutter. Examples: "All files," "All pictures," "All music," and "All videos."
--   Use [sentence-style capitalization](glossary.md#s) for the file type names, and lowercase for the file type extensions.
+-   Use [sentence-style capitalization](glossary.md) for the file type names, and lowercase for the file type extensions.
 
 ### Open Folder
 

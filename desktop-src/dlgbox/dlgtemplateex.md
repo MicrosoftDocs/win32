@@ -110,7 +110,7 @@ The style of the dialog box. This member can be a combination of [window style v
 
 If **style** includes the **DS\_SETFONT** or **DS\_SHELLFONT** dialog box style, the **DLGTEMPLATEEX** header of the extended dialog box template contains four additional members ( **pointsize**, **weight**, **italic**, and **typeface**) that describe the font to use for the text in the client area and controls of the dialog box. If possible, the system creates a font according to the values specified in these members. Then the system sends a [**WM\_SETFONT**](https://msdn.microsoft.com/library/windows/desktop/ms632642) message to the dialog box and to each control to provide a handle to the font.
 
-For more information, see [Dialog Box Fonts](about-dialog-boxes.md#dialog-box-fonts).
+For more information, see [Dialog Box Fonts](about-dialog-boxes.md).
 
 </dd> <dt>
 

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # DL\_CANCELDRAG notification code
 
-Signals that the user has canceled a drag operation by clicking the right mouse button or pressing the ESC key. A drag list box sends this notification code to its parent window in the form of a drag list message. For more information, see [Drag List Box Messages](about-list-boxes.md#drag-list-box-messages).
+Signals that the user has canceled a drag operation by clicking the right mouse button or pressing the ESC key. A drag list box sends this notification code to its parent window in the form of a drag list message. For more information, see [Drag List Box Messages](about-list-boxes.md).
 
 
 ```C++

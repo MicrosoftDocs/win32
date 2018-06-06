@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MCN\_GETDAYSTATE notification code
 
-Sent by a month calendar control to request information about how individual days should be displayed. This notification code is sent only by month calendar controls that use the [**MCS\_DAYSTATE**](month-calendar-control-styles.md#mcs-daystate) style, and it is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a month calendar control to request information about how individual days should be displayed. This notification code is sent only by month calendar controls that use the [**MCS\_DAYSTATE**](month-calendar-control-styles.md) style, and it is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++

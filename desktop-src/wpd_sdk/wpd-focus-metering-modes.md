@@ -53,7 +53,7 @@ Determine focus by analyzing multiple parts of the framed area.
 
 ## Remarks
 
-This enumeration is specified by the [WPD\_STILL\_IMAGE\_FOCUS\_METERING\_MODE](still-image-properties.md#wpd-still-image-focus-metering-mode) property.
+This enumeration is specified by the [WPD\_STILL\_IMAGE\_FOCUS\_METERING\_MODE](still-image-properties.md) property.
 
 ## Requirements
 

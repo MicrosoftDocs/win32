@@ -49,7 +49,7 @@ When a button has the keyboard focus, the system typically highlights the text, 
 
 ### Push State
 
-The push state applies to a push button, check box, radio button, or three-state check box, but does not apply to other buttons. The push state of a button can be either pushed or not pushed. When a push button (or any button with the [**BS\_PUSHLIKE**](button-styles.md#bs-pushlike) style) is pushed, the button is drawn as a sunken button. When it is not pushed, it is drawn as a raised button. When a check box, radio button, or three-state check box is clicked, the background of the button is grayed. When it is not pushed, the background of the button is not grayed.
+The push state applies to a push button, check box, radio button, or three-state check box, but does not apply to other buttons. The push state of a button can be either pushed or not pushed. When a push button (or any button with the [**BS\_PUSHLIKE**](button-styles.md) style) is pushed, the button is drawn as a sunken button. When it is not pushed, it is drawn as a raised button. When a check box, radio button, or three-state check box is clicked, the background of the button is grayed. When it is not pushed, the background of the button is not grayed.
 
 ### Check State
 
@@ -57,7 +57,7 @@ The check state applies to a check box, radio button, or three-state check box, 
 
 ## Changes to a Button State
 
-When the user selects a button, it is generally necessary to change one or more of the button's state elements. The system automatically changes the focus state for all button types, the push state for push buttons or buttons with the [**BS\_PUSHLIKE**](button-styles.md#bs-pushlike) style, and the check state for all automatic buttons. The application must make all other state changes, taking into account the button's type, style, and current state. The following list shows the state elements that must be changed for each button type:
+When the user selects a button, it is generally necessary to change one or more of the button's state elements. The system automatically changes the focus state for all button types, the push state for push buttons or buttons with the [**BS\_PUSHLIKE**](button-styles.md) style, and the check state for all automatic buttons. The application must make all other state changes, taking into account the button's type, style, and current state. The following list shows the state elements that must be changed for each button type:
 
 -   A check box must change the check state.
 -   A radio button must change the check state. It may also be necessary to change the check state of other radio buttons in the same group to ensure the mutually exclusive nature of radio buttons.

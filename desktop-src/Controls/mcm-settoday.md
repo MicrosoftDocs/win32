@@ -64,7 +64,7 @@ If the "today" selection is set to any date other than the default, the followin
 
 <dl> <dt>
 
-[Times in the Month Calendar Control](month-calendar-controls.md#times-in-the-month-calendar-control)
+[Times in the Month Calendar Control](month-calendar-controls.md)
 </dt> </dl>
 
  

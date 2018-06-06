@@ -15,13 +15,13 @@ There are situations where data from one writer depends on data managed by anoth
 
 VSS handles this problem through the notion of an explicit writer-component dependency and the [**IVssWMDependency**](/windows/desktop/api/VsWriter/nl-vswriter-ivsswmdependency) interface.
 
-A writer adds one or more dependencies while creating the Writer Metadata Document using the [**IVssCreateWriterMetadata::AddComponentDependency**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency) method. The writer passes the method the name and logical path of the dependent component (which it manages), as well as the name and logical path and the [*writer class ID*](vssgloss-w.md#base-vssgloss-writer-class) (the GUID identifying the class) of the component upon which it depends.
+A writer adds one or more dependencies while creating the Writer Metadata Document using the [**IVssCreateWriterMetadata::AddComponentDependency**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency) method. The writer passes the method the name and logical path of the dependent component (which it manages), as well as the name and logical path and the [*writer class ID*](vssgloss-w.md) (the GUID identifying the class) of the component upon which it depends.
 
 Once established, this dependency informs the requester that during any backup or restore operation both the dependent component and the targets of its dependencies must participate.
 
 A given component can have multiple dependencies, which requires that it and all its dependent targets participate in the backup and restore together.
 
-The dependent component and/or the target(s) of its dependencies can be included either [*explicitly*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion) or [*implicitly*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion) in a backup or restore operations.
+The dependent component and/or the target(s) of its dependencies can be included either [*explicitly*](vssgloss-e.md) or [*implicitly*](vssgloss-i.md) in a backup or restore operations.
 
 The explicit writer component dependency mechanism should not be used to create a dependency between two components on the same writer. The selection rules can supply the same functionality more efficiently without risk of circular dependencies.
 

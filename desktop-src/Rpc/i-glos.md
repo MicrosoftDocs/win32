@@ -33,21 +33,21 @@ Parameter containing data that the client application is transmitting to the ser
 <span id="_rpc_idl_glos"></span><span id="_RPC_IDL_GLOS"></span>**Interface Definition Language (IDL)**
 </dt> <dd>
 
-OSF-DCE standard language for specifying the interface for remote procedure calls. See also [*MIDL*](m-glos.md#-rpc-midl-glos).
+OSF-DCE standard language for specifying the interface for remote procedure calls. See also [*MIDL*](m-glos.md).
 
 </dd> <dt>
 
 <span id="_rpc_ip_glos"></span><span id="_RPC_IP_GLOS"></span>**Internet Protocol (IP)**
 </dt> <dd>
 
-Connectionless network-layer communications protocol. See also [*datagram*](d-glos.md#-rpc-datagram-glos).
+Connectionless network-layer communications protocol. See also [*datagram*](d-glos.md).
 
 </dd> <dt>
 
 <span id="_rpc_ipx_glos"></span><span id="_RPC_IPX_GLOS"></span>**Internetwork Packet Exchange (IPX)**
 </dt> <dd>
 
-Novell NetWare communication protocol that uses [*datagram*](d-glos.md#-rpc-datagram-glos) sockets to route information packets over local area networks and wide area networks.
+Novell NetWare communication protocol that uses [*datagram*](d-glos.md) sockets to route information packets over local area networks and wide area networks.
 
 </dd> <dt>
 

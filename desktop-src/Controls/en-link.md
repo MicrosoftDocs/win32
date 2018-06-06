@@ -60,7 +60,7 @@ Return a nonzero value to prevent the control from handling the message.
 
 ## Remarks
 
-To receive **EN\_LINK** notification codes when the link has focus, specify the [**ENM\_LINK**](rich-edit-control-event-mask-flags.md#enm-link) flag in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
+To receive **EN\_LINK** notification codes when the link has focus, specify the [**ENM\_LINK**](rich-edit-control-event-mask-flags.md) flag in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
 If the link has no focus, to receive **EN\_LINK** notification codes specify the **SES\_NOFOCUSLINKNOTIFY** flag in the mask sent with the [**EM\_SETEDITSTYLE**](em-seteditstyle.md) message.
 

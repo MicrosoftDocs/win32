@@ -49,7 +49,7 @@ No return value.
 
 ## Remarks
 
-The tree-view control must have the [**TVS\_EX\_DRAWIMAGEASYNC**](tree-view-control-window-extended-styles.md#tvs-ex-drawimageasync) extended style. Note that this is equivalent to list-view's LVN\_ASYNCDRAWN flag and its corresponding style.
+The tree-view control must have the [**TVS\_EX\_DRAWIMAGEASYNC**](tree-view-control-window-extended-styles.md) extended style. Note that this is equivalent to list-view's LVN\_ASYNCDRAWN flag and its corresponding style.
 
 This control does not draw asynchronously. Asynchronous is used in the context that the tree-view control does not synchronously extract an image if it is not available. (For instance, the image may not be available if the tree-view control uses a sparse image list, since the image may be unloaded.) Instead, when an image is not available, the control synchronously asks the parent what action to take by sending the parent an TVN\_ASYNCDRAW notification with a [**NMTVASYNCDRAW**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtvasyncdraw) structure. The **hr** member of this structure describes the reason the control's draw failed. An **hr** result of E\_PENDING means the image is not present at all (the image needs to be extracted). Success indicates that the image is present but not at the required image quality.
 

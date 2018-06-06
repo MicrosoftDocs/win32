@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # TCN\_GETOBJECT notification code
 
-Sent by a tab control when it has the [**TCS\_EX\_REGISTERDROP**](tab-control-extended-styles.md#tcs-ex-registerdrop) extended style and an object is dragged over a tab item in the control. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a tab control when it has the [**TCS\_EX\_REGISTERDROP**](tab-control-extended-styles.md) extended style and an object is dragged over a tab item in the control. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++

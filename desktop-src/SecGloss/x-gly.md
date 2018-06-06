@@ -35,7 +35,7 @@ The ITU standard defining ASN.1.
 
 The ITU standard that defines BER encodings for ASN.1 objects.
 
-See also [*Basic Encoding Rules*](b-gly.md#-security-basic-encoding-rules-gly).
+See also [*Basic Encoding Rules*](b-gly.md).
 
 </dd> <dt>
 

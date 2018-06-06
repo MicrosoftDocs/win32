@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # Fast Recovery Using Transportable Shadow Copied Volumes
 
-[*Transportable shadow copies*](vssgloss-t.md#base-vssgloss-transportable-shadow-copy) can be used to facilitate a *fast recovery*.
+[*Transportable shadow copies*](vssgloss-t.md) can be used to facilitate a *fast recovery*.
 
 Fast recovery can be used to quickly revert to an earlier shadow copy. The steps involved are:
 
-1.  Create the transportable shadow copy of the appropriate LUNs. The shadow copy can be either [*persistent*](vssgloss-p.md#base-vssgloss-persistent-shadow-copy) or nonpersistent.
+1.  Create the transportable shadow copy of the appropriate LUNs. The shadow copy can be either [*persistent*](vssgloss-p.md) or nonpersistent.
 2.  Remove the original LUNs
     1.  If the computer is inside a cluster, mark the affected disk resources as offline, or enable the [maintenance mode](https://msdn.microsoft.com/4ccc1145-fbb3-48ba-9709-065c024e657c) for these disk resources.
     2.  Mask the affected LUNs from this computer (and all other nodes if the computer is in a cluster).

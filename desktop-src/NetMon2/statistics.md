@@ -189,7 +189,7 @@ Number of frames the NIC reports as having dropped due to hardware errors.
 
 ## Remarks
 
-This structure is used to retrieve [*total statistics*](t.md#-netmon-total-statistics-gly), and to pause or stop the current capture.
+This structure is used to retrieve [*total statistics*](t.md), and to pause or stop the current capture.
 
 Total statistics cannot be retrieved when using the [IESP](iesp.md) NPP interface.
 

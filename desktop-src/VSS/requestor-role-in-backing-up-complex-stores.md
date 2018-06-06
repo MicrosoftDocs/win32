@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Requester Role in Backing Up Complex Stores
 
-As with all important operations under VSS, [*incremental*](vssgloss-i.md#base-vssgloss-incremental-backup-operations) and [*differential*](vssgloss-d.md#base-vssgloss-differential-backup-operations) backups require close cooperation between requesters and writers.
+As with all important operations under VSS, [*incremental*](vssgloss-i.md) and [*differential*](vssgloss-d.md) backups require close cooperation between requesters and writers.
 
 ## Backup Type
 

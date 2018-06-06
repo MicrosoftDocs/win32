@@ -53,7 +53,7 @@ Return a nonzero value to prevent the operation.
 
 If zero is returned and the **msg**, **wParam**, and **lParam** members of the [**ENPROTECTED**](/windows/desktop/api/Richedit/ns-richedit-_enprotected) structure are changed, the control processes the revised message instead of the original message.
 
-To receive EN\_PROTECTED notification codes, specify [**ENM\_PROTECTED**](rich-edit-control-event-mask-flags.md#enm-protected) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
+To receive EN\_PROTECTED notification codes, specify [**ENM\_PROTECTED**](rich-edit-control-event-mask-flags.md) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
 ## Requirements
 

@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 <span id="wmi.gloss_object_path"></span><span id="WMI.GLOSS_OBJECT_PATH"></span>**object path**
 </dt> <dd>
 
-A formatted string that uniquely identifies a WMI [*namespace*](gloss-n.md#wmi-gloss-namespace), class, or instance. Object paths are similar in concept to Uniform Resource Locators (URL).
+A formatted string that uniquely identifies a WMI [*namespace*](gloss-n.md), class, or instance. Object paths are similar in concept to Uniform Resource Locators (URL).
 
 </dd> </dl>
 

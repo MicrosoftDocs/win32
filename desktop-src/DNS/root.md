@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Root
 
-The uppermost domain in a hierarchical name space such as the DNS name space is called the [*root*](r-gly.md#-dns-root-gly). The root, which is defined as " " (nothing) or more accurately "." (a dot), is the base at which any entire-domain-tree search must be initiated.
+The uppermost domain in a hierarchical name space such as the DNS name space is called the [*root*](r-gly.md). The root, which is defined as " " (nothing) or more accurately "." (a dot), is the base at which any entire-domain-tree search must be initiated.
 
  
 

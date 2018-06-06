@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **get\_Context** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **get\_Context** method retrieves the current [*resource manager context*](security.r_gly#-security-resource-manager-context-gly) handle. This method returns (\**pContext*) == **NULL** if no context has been established.
+The **get\_Context** method retrieves the current [*resource manager context*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd) handle. This method returns (\**pContext*) == **NULL** if no context has been established.
 
 ## Syntax
 
@@ -55,13 +55,13 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-The resource manager context is set by calling the [*smart card*](security.s_gly#-security-smart-card-gly) function [**SCardEstablishContext**](/windows/desktop/api/Winscard/nf-winscard-scardestablishcontext).
+The resource manager context is set by calling the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) function [**SCardEstablishContext**](/windows/desktop/api/Winscard/nf-winscard-scardestablishcontext).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Examples
 
-The following example shows retrieving the current [*resource manager context*](security.r_gly#-security-resource-manager-context-gly) handle.
+The following example shows retrieving the current [*resource manager context*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd) handle.
 
 
 ```C++

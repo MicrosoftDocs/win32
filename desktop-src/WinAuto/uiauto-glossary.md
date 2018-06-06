@@ -44,7 +44,7 @@ Any user interface element that implements the [**IAccessible**](/windows/deskto
 **child element**
 </dt> <dd>
 
-See [*simple element*](uiauto-glossary.md#-msaa-simple-element-gly).
+See [*simple element*](uiauto-glossary.md).
 
 </dd> <dt>
 
@@ -273,7 +273,7 @@ A collection of public methods implemented by a UI Automation provider.
 **proxy**
 </dt> <dd>
 
-See [*IAccessible proxy*](uiauto-glossary.md#-msaa-iaccessible-proxy-gly).
+See [*IAccessible proxy*](uiauto-glossary.md).
 
 </dd> </dl>
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **Clear** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **Clear** method clears the [*application protocol data unit*](security.a_gly#-security-application-protocol-data-unit-gly) (APDU) and [*reply APDU*](security.r_gly#-security-reply-apdu-gly) message buffers.
+The **Clear** method clears the [*application protocol data unit*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) (APDU) and [*reply APDU*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd) message buffers.
 
 ## Syntax
 
@@ -49,7 +49,7 @@ To build a command APDU, call [**BuildCmd**](iscardcmd-buildcmd.md).
 
 For a list of all the methods provided by this interface, see [**ISCardCmd**](iscardcmd.md).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Examples
 

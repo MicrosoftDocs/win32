@@ -64,7 +64,7 @@ The feel of Search in Windows is significantly enhanced by supporting Instant se
 
 In Windows Explorer and application windows, Search is located in the upper-right corner if it is a supplemental entry point. In this case, users look for a search mechanism when they don't find what they are looking for in the window. However, if Search is the primary entry point, it is centered at the top of the window.
 
-The Search button is visually connected to a Search box. To minimize space, an optional [prompt](ctrl-text-boxes.md#prompts) is used inside a Search box instead of a label. The prompt may be an instruction (for example, Type to search) or indicate the scope of the search (for example, Search for pictures).
+The Search button is visually connected to a Search box. To minimize space, an optional [prompt](ctrl-text-boxes.md) is used inside a Search box instead of a label. The prompt may be an instruction (for example, Type to search) or indicate the scope of the search (for example, Search for pictures).
 
 ![screen shot of an instant search box ](images/ctrl-search-boxes-image3.png)
 

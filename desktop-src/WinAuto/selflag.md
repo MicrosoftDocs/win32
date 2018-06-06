@@ -57,7 +57,7 @@ For information on how to perform complex selection operations, see [Selecting C
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SELFLAG_TAKEFOCUS"></span><span id="selflag_takefocus"></span><dl> <dt><strong>SELFLAG_TAKEFOCUS</strong></dt> <dt>0x1</dt> </dl></td>
-<td style="text-align: left;">Sets the focus to the object and makes it the selection anchor. Used by itself, this flag does not alter the selection. The effect is similar to moving the focus manually by pressing an ARROW key while holding down the CTRL key in Windows Explorer or in any multiple-selection list box. <br/> With objects that have the [<strong>STATE_SYSTEM_MULTISELECTABLE</strong>](object-state-constants.md#state-system-multiselectable), SELFLAG_TAKEFOCUS is combined with the following values:<br/>
+<td style="text-align: left;">Sets the focus to the object and makes it the selection anchor. Used by itself, this flag does not alter the selection. The effect is similar to moving the focus manually by pressing an ARROW key while holding down the CTRL key in Windows Explorer or in any multiple-selection list box. <br/> With objects that have the [<strong>STATE_SYSTEM_MULTISELECTABLE</strong>](object-state-constants.md), SELFLAG_TAKEFOCUS is combined with the following values:<br/>
 <ul>
 <li>SELFLAG_TAKESELECTION</li>
 <li>SELFLAG_EXTENDSELECTION</li>

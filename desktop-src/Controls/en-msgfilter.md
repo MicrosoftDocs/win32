@@ -57,9 +57,9 @@ To receive EN\_MSGFILTER notification codes for events, specify one or more of t
 
 | Flag                                                                             | Meaning                                                |
 |----------------------------------------------------------------------------------|--------------------------------------------------------|
-| [**ENM\_KEYEVENTS**](rich-edit-control-event-mask-flags.md#enm-keyevents)       | To receive notification codes for keyboard events.     |
-| [**ENM\_MOUSEEVENTS**](rich-edit-control-event-mask-flags.md#enm-mouseevents)   | To receive notification codes for mouse events.        |
-| [**ENM\_SCROLLEVENTS**](rich-edit-control-event-mask-flags.md#enm-scrollevents) | To receive notification codes for a mouse wheel event. |
+| [**ENM\_KEYEVENTS**](rich-edit-control-event-mask-flags.md)       | To receive notification codes for keyboard events.     |
+| [**ENM\_MOUSEEVENTS**](rich-edit-control-event-mask-flags.md)   | To receive notification codes for mouse events.        |
+| [**ENM\_SCROLLEVENTS**](rich-edit-control-event-mask-flags.md) | To receive notification codes for a mouse wheel event. |
 
 
 

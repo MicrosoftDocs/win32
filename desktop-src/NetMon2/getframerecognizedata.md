@@ -43,7 +43,7 @@ If the function is not successful, the return value is zero.
 
 ## Remarks
 
-[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetFrameRecognizeData** function.
+[*Experts*](e.md) and [*parsers*](p.md) can call the **GetFrameRecognizeData** function.
 
 ## Requirements
 

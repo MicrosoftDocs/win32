@@ -54,9 +54,9 @@ The following procedure describes how to monitor and respond to events by using 
 #pragma namespace ("\\\\.\\root\\subscription")
     ```
 
-    Most [*intrinsic events*](gloss-i.md#wmi-gloss-intrinsic-event) are associated with changes to class instances in the root\\cimv2 namespace. However, registry events such as [**RegistryKeyChangeEvent**](https://msdn.microsoft.com/library/aa393040) are fired in the root\\default namespace by the [System Registry Provider](https://msdn.microsoft.com/library/aa393886).
+    Most [*intrinsic events*](gloss-i.md) are associated with changes to class instances in the root\\cimv2 namespace. However, registry events such as [**RegistryKeyChangeEvent**](https://msdn.microsoft.com/library/aa393040) are fired in the root\\default namespace by the [System Registry Provider](https://msdn.microsoft.com/library/aa393886).
 
-    A consumer can include event classes located in other namespaces by specifying the namespace in the **EventNamespace** property in the [**\_\_EventFilter**](--eventfilter.md) query for events. The [*intrinsic events*](gloss-i.md#wmi-gloss-intrinsic-event) classes, such as [**\_\_InstanceOperationEvent**](--instanceoperationevent.md) are available in every namespace.
+    A consumer can include event classes located in other namespaces by specifying the namespace in the **EventNamespace** property in the [**\_\_EventFilter**](--eventfilter.md) query for events. The [*intrinsic events*](gloss-i.md) classes, such as [**\_\_InstanceOperationEvent**](--instanceoperationevent.md) are available in every namespace.
 
 2.  Create and populate an instance of a standard consumer class.
 
@@ -111,9 +111,9 @@ The following procedure describes how to monitor and respond to events by using 
 
     If a class does not exist that describes an event you need to monitor, you must create your own event provider, and define new extrinsic event classes. For more information, see [Writing an Event Provider](writing-an-event-provider.md).
 
-    In a MOF file, you can define an [*alias*](gloss-a.md#wmi-gloss-alias) for the filter and consumer, which provides an easy way to describe the instance paths.
+    In a MOF file, you can define an [*alias*](gloss-a.md) for the filter and consumer, which provides an easy way to describe the instance paths.
 
-    The following example shows how to define an [*alias*](gloss-a.md#wmi-gloss-alias) for the filter and consumer.
+    The following example shows how to define an [*alias*](gloss-a.md) for the filter and consumer.
 
     ``` syntax
     instance of __EventFilter as $FILTER

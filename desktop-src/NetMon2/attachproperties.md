@@ -115,7 +115,7 @@ Network Monitor calls the **AttachProperties** function for each parser that rec
 
 During the implementation of **AttachProperties**, call [AttachPropertyInstance](attachpropertyinstance.md) to use the data as it exists in the capture. You can also call [AttachPropertyInstanceEx](attachpropertyinstanceex.md) function to modify the property data. However, it is advised that you use the data as it exists in the capture.
 
-The **AttachPropertyInstanceEx** and **AttachPropertyInstance** functions are called only for the properties that exist in the recognized data. Note that Network Monitor has a [*property database*](p.md#-netmon-property-database-gly) for the parser that contains a description of all the properties that the parser supports.
+The **AttachPropertyInstanceEx** and **AttachPropertyInstance** functions are called only for the properties that exist in the recognized data. Note that Network Monitor has a [*property database*](p.md) for the parser that contains a description of all the properties that the parser supports.
 
 **Instance data**
 

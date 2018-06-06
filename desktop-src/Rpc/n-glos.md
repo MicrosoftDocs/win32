@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_rpc_name_service_glos"></span><span id="_RPC_NAME_SERVICE_GLOS"></span>**name service**
 </dt> <dd>
 
-Service that maps names to objects and stores the name/object pairs in a database. For example, the RPC name service maps a logical name to a [*binding handle*](b-glos.md#-rpc-binding-handle-glos) so client applications can refer to that logical name, rather than a protocol sequence and network address. See also name service–interface daemon ([nsid)](#-rpc-nsid-glos), Client Directory Service ([*CDS)*](c-glos.md#-rpc-cds-glos), [*Locator*](l-glos.md#-rpc-locator-glos).
+Service that maps names to objects and stores the name/object pairs in a database. For example, the RPC name service maps a logical name to a [*binding handle*](b-glos.md) so client applications can refer to that logical name, rather than a protocol sequence and network address. See also name service–interface daemon ([nsid)](#-rpc-nsid-glos), Client Directory Service ([*CDS)*](c-glos.md), [*Locator*](l-glos.md).
 
 </dd> <dt>
 
@@ -40,7 +40,7 @@ Standard for API functions that allows a distributed application to access RPC n
 <span id="_rpc_nsid_glos"></span><span id="_RPC_NSID_GLOS"></span>**name service–interface daemon (nsid)**
 </dt> <dd>
 
-Service that provides an interface between Microsoft [*Locator*](l-glos.md#-rpc-locator-glos) and the OSF-DCE Cell Directory Service name service databases for RPC name-service functions.
+Service that provides an interface between Microsoft [*Locator*](l-glos.md) and the OSF-DCE Cell Directory Service name service databases for RPC name-service functions.
 
 </dd> <dt>
 
@@ -82,7 +82,7 @@ Address that identifies a server on a network.
 <span id="_rpc_nonencapsulated_union_glos"></span><span id="_RPC_NONENCAPSULATED_UNION_GLOS"></span>**nonencapsulated union**
 </dt> <dd>
 
-[*Discriminated union*](d-glos.md#-rpc-discriminated-union-glos) that is less restrictive than an encapsulated union in that the discriminant and the union are not tightly bound. If the union is a parameter, the discriminant is another parameter; if the union is a structure field, the discriminant is another structure field. The IDL keywords \[[**switch\_is**](https://msdn.microsoft.com/library/windows/desktop/aa367275)\] and \[[**switch\_type**](https://msdn.microsoft.com/library/windows/desktop/aa367276)\] identify the discriminant and its type. See also [*encapsulated union*](e-glos.md#-rpc-encapsulated-union-glos).
+[*Discriminated union*](d-glos.md) that is less restrictive than an encapsulated union in that the discriminant and the union are not tightly bound. If the union is a parameter, the discriminant is another parameter; if the union is a structure field, the discriminant is another structure field. The IDL keywords \[[**switch\_is**](https://msdn.microsoft.com/library/windows/desktop/aa367275)\] and \[[**switch\_type**](https://msdn.microsoft.com/library/windows/desktop/aa367276)\] identify the discriminant and its type. See also [*encapsulated union*](e-glos.md).
 
 </dd> <dt>
 

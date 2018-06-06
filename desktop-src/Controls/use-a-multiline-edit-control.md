@@ -30,7 +30,7 @@ This topic demonstrates how to implement a simple word processor by adding a mul
 
 Your application must include code to create an instance of and initialize a multiline edit control and then process user edit commands.
 
-The following C++ code example implements much of the functionality of a simple word processor by adding a multiline edit control to the client area of a window. The system automatically performs wordwrap operations for the edit control and also handles the processing for the vertical scroll bar (created by specifying [**ES\_AUTOVSCROLL**](edit-control-styles.md#es-autovscroll) in the call to the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) function).
+The following C++ code example implements much of the functionality of a simple word processor by adding a multiline edit control to the client area of a window. The system automatically performs wordwrap operations for the edit control and also handles the processing for the vertical scroll bar (created by specifying [**ES\_AUTOVSCROLL**](edit-control-styles.md) in the call to the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) function).
 
 User edit commands are sent to the window process via [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) notification messages.
 

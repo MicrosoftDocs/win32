@@ -26,7 +26,7 @@ Remote procedure call to another process on the same computer as the calling pro
 <span id="_rpc_locator_glos"></span><span id="_RPC_LOCATOR_GLOS"></span>**Locator**
 </dt> <dd>
 
-Microsoft Windows name-service provider. See also [*name service*](n-glos.md#-rpc-name-service-glos).
+Microsoft Windows name-service provider. See also [*name service*](n-glos.md).
 
 </dd> </dl>
 

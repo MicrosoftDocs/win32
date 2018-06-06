@@ -28,7 +28,7 @@ This topic demonstrates how to provide support for callback items.
 
 ### 
 
-If your application is going to use callback items in a ComboBoxEx control, it must be prepared to handle the [CBEN\_GETDISPINFO](cben-getdispinfo.md) notification code. A ComboBoxEx control sends this notification whenever it needs the owner to provide specific item information. For more information about callback items, see [Callback Items](comboboxex-controls.md#callback-items).
+If your application is going to use callback items in a ComboBoxEx control, it must be prepared to handle the [CBEN\_GETDISPINFO](cben-getdispinfo.md) notification code. A ComboBoxEx control sends this notification whenever it needs the owner to provide specific item information. For more information about callback items, see [Callback Items](comboboxex-controls.md).
 
 The following application-defined function processes [CBEN\_GETDISPINFO](cben-getdispinfo.md) by providing attributes for a given item. Note that it sets the **mask** member of the incoming [**COMBOBOXEXITEM**](/windows/desktop/api/Commctrl/ns-commctrl-tagcomboboxexitema) structure to CBEIF\_DI\_SETITEM. Setting **mask** to this value makes the control retain the item information so that it will not need to request the information again.
 

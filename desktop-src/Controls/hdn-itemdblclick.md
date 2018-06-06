@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # HDN\_ITEMDBLCLICK notification code
 
-Notifies a header control's parent window that the user double-clicked the control. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message. Only header controls that are set to the [**HDS\_BUTTONS**](header-control-styles.md#hds-buttons) style send this notification code.
+Notifies a header control's parent window that the user double-clicked the control. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message. Only header controls that are set to the [**HDS\_BUTTONS**](header-control-styles.md) style send this notification code.
 
 
 ```C++

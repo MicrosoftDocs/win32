@@ -23,21 +23,21 @@ ms.date: 05/31/2018
 <span id="wmi.gloss_reference_property"></span><span id="WMI.GLOSS_REFERENCE_PROPERTY"></span>**reference property**
 </dt> <dd>
 
-A [*property*](gloss-p.md#wmi-gloss-property) that uses one of the user-defined classes as its type.
+A [*property*](gloss-p.md) that uses one of the user-defined classes as its type.
 
 </dd> <dt>
 
 <span id="wmi.gloss_refresher"></span><span id="WMI.GLOSS_REFRESHER"></span>**refresher**
 </dt> <dd>
 
-An object that contains instances of [*MOF*](gloss-m.md#wmi-gloss-managed-object-format) classes so that the data can be updated. [*Performance*](gloss-p.md#wmi-gloss-performance-object) classes that derive from [**Win32\_Perf**](https://msdn.microsoft.com/library/aa394252) require the use of a refresher object to get performance data.
+An object that contains instances of [*MOF*](gloss-m.md) classes so that the data can be updated. [*Performance*](gloss-p.md) classes that derive from [**Win32\_Perf**](https://msdn.microsoft.com/library/aa394252) require the use of a refresher object to get performance data.
 
 </dd> <dt>
 
 <span id="wmi.gloss_required_property"></span><span id="WMI.GLOSS_REQUIRED_PROPERTY"></span>**required property**
 </dt> <dd>
 
-A [*property*](gloss-p.md#wmi-gloss-property) that requires a value.
+A [*property*](gloss-p.md) that requires a value.
 
 </dd> <dt>
 

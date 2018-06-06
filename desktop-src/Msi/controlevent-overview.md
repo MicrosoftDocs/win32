@@ -87,7 +87,7 @@ A [PushButton control](pushbutton-control.md) can publish the following events t
 
 [DirectoryListOpen ControlEvent](directorylistopen-controlevent.md)
 
-Control events generally require that the UI be run at the [*full UI*](f-gly.md#-msi-full-ui-gly) level. Most ControlEvents will not work with a [*reduced UI*](r-gly.md#-msi-reduced-ui-gly) or [*basic UI*](b-gly.md#-msi-basic-ui-gly) because these levels only display modeless dialog boxes. The ActionText, AddSource, SetProgress, TimeRemaining, and ScriptInProgress events are exceptions and will work in reduced or basic UI. For more information about UI levels, see [User Interface Levels](user-interface-levels.md).
+Control events generally require that the UI be run at the [*full UI*](f-gly.md) level. Most ControlEvents will not work with a [*reduced UI*](r-gly.md) or [*basic UI*](b-gly.md) because these levels only display modeless dialog boxes. The ActionText, AddSource, SetProgress, TimeRemaining, and ScriptInProgress events are exceptions and will work in reduced or basic UI. For more information about UI levels, see [User Interface Levels](user-interface-levels.md).
 
 You can run [custom actions](custom-actions.md) by publishing a ControlEvent from a [PushButton control](pushbutton-control.md) or [Checkbox control](checkbox-control.md). Add a record to the [ControlEvent table](controlevent-table.md) with the names of the dialog and the control publishing the ControlEvent. This control should publish a [DoAction ControlEvent](doaction-controlevent.md) notifying the installer to run the custom action. On Windows XP or earlier systems, you cannot run a custom action by publishing a ControlEvent from a [SelectionTree control](selectiontree-control.md).
 

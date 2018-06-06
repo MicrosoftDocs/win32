@@ -45,13 +45,13 @@ Flip model reduces system memory usage by reducing the number of reads and write
 
 ## How to use DXGI flip model
 
-Direct3D 11.1 apps that target Windows 8 use flip model by creating the swap chain with the [**DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL**](dxgi-swap-effect.md#dxgi-swap-effect-flip-sequential) enumeration value set in the **SwapEffect** member of the [**DXGI\_SWAP\_CHAIN\_DESC1**](/windows/desktop/api/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) structure. When you set **SwapEffect** to **DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL**, also set these members of **DXGI\_SWAP\_CHAIN\_DESC1** to the indicated values:
+Direct3D 11.1 apps that target Windows 8 use flip model by creating the swap chain with the [**DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL**](/windows/desktop/api/DXGI/ne-dxgi-dxgi_swap_effect) enumeration value set in the **SwapEffect** member of the [**DXGI\_SWAP\_CHAIN\_DESC1**](/windows/desktop/api/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) structure. When you set **SwapEffect** to **DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL**, also set these members of **DXGI\_SWAP\_CHAIN\_DESC1** to the indicated values:
 
 -   **BufferCount** to a value between 2 and 16 to prevent a performance penalty as a result of waiting on DWM to release the previous presentation buffer.
 -   **Format** to DXGI\_FORMAT\_R16G16B16A16\_FLOAT, DXGI\_FORMAT\_B8G8R8A8\_UNORM, or DXGI\_FORMAT\_R8G8B8A8\_UNORM
 -   **Count** member of the [**DXGI\_SAMPLE\_DESC**](/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc) structure that the **SampleDesc** member specifies to one and the **Quality** member of **DXGI\_SAMPLE\_DESC** to zero because multiple sample antialiasing (MSAA) is not supported
 
-If you use [**DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL**](dxgi-swap-effect.md#dxgi-swap-effect-flip-sequential) on Windows 7 or earlier operating system, device creation fails. When you use flip model, you can use full-screen present statistics in windowed mode. Full-screen behavior is not affected. If you pass **NULL** to the *pFullscreenDesc* parameter of [**IDXGIFactory2::CreateSwapChainForHwnd**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd) for a windowed swap chain and set **SwapEffect** to **DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL**, the runtime creates one extra back buffer and rotates whichever handle belongs to the buffer that becomes the front buffer at presentation time.
+If you use [**DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL**](/windows/desktop/api/DXGI/ne-dxgi-dxgi_swap_effect) on Windows 7 or earlier operating system, device creation fails. When you use flip model, you can use full-screen present statistics in windowed mode. Full-screen behavior is not affected. If you pass **NULL** to the *pFullscreenDesc* parameter of [**IDXGIFactory2::CreateSwapChainForHwnd**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd) for a windowed swap chain and set **SwapEffect** to **DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL**, the runtime creates one extra back buffer and rotates whichever handle belongs to the buffer that becomes the front buffer at presentation time.
 
 When you use flip model, consider these tips:
 
@@ -94,7 +94,7 @@ Perform these steps to avoid, detect, and recover from glitches in frame present
     -   Pass 0 to the *SyncInterval* parameter in this number of calls to [**IDXGISwapChain1::Present1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1) to discard and skip this number of frames.
 
         > [!Note]  
-        > If the glitch consists of a large number of frames, call [**IDXGISwapChain1::Present1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1) with the *Flags* parameter set to [**DXGI\_PRESENT\_RESTART**](dxgi-present.md#dxgi-present-restart) to discard and skip all outstanding queued presents.
+        > If the glitch consists of a large number of frames, call [**IDXGISwapChain1::Present1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1) with the *Flags* parameter set to [**DXGI\_PRESENT\_RESTART**](dxgi-present.md) to discard and skip all outstanding queued presents.
 
          
 

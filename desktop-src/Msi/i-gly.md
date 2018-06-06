@@ -33,7 +33,7 @@ Where the computed virtual address is saved from each function imported from all
 <span id="_msi_internal_user_interface_gly"></span><span id="_MSI_INTERNAL_USER_INTERFACE_GLY"></span>**internal user interface**
 </dt> <dd>
 
-Built-in capabilities of the installer that can be used to author a graphical UI for installation. An author may choose an [*external user interface*](e-gly.md#-msi-external-user-interface-gly). For more information, see [About the User Interface](about-the-user-interface.md).
+Built-in capabilities of the installer that can be used to author a graphical UI for installation. An author may choose an [*external user interface*](e-gly.md). For more information, see [About the User Interface](about-the-user-interface.md).
 
 </dd> <dt>
 
@@ -47,7 +47,7 @@ Specified installation value. An application is installed only if its own level 
 <span id="_msi_install_on_demand_gly"></span><span id="_MSI_INSTALL_ON_DEMAND_GLY"></span>**installation-on-demand**
 </dt> <dd>
 
-Service that installs applications or features as requested by the user or another application. [*Advertising*](a-gly.md#-msi-advertising-gly) makes a feature or application available for install-on-demand installation. For more information, see: [Installation-on-Demand](installation-on-demand.md).
+Service that installs applications or features as requested by the user or another application. [*Advertising*](a-gly.md) makes a feature or application available for install-on-demand installation. For more information, see: [Installation-on-Demand](installation-on-demand.md).
 
 </dd> <dt>
 
@@ -61,14 +61,14 @@ The combination of installation rights and installation types produces three dif
 <span id="_msi_installer_gly"></span><span id="_MSI_INSTALLER_GLY"></span>**installer**
 </dt> <dd>
 
-The [*Windows Installer*](m-gly.md#-msi-microsoft-windows-installer-gly).
+The [*Windows Installer*](m-gly.md).
 
 </dd> <dt>
 
 <span id="_msi_installer_database_gly"></span><span id="_MSI_INSTALLER_DATABASE_GLY"></span>**installer database**
 </dt> <dd>
 
-Relational database containing setup instructions for an installation. The installer database is stored in the [*.msi file*](m-gly.md#-msi--msi-file-gly). For more information, see [Installer Database](installer-database.md).
+Relational database containing setup instructions for an installation. The installer database is stored in the [*.msi file*](m-gly.md). For more information, see [Installer Database](installer-database.md).
 
 </dd> <dt>
 
@@ -82,14 +82,14 @@ Called by a user or application to obtain installer services and functionality. 
 <span id="_msi_installer_package_authoring_tool_gly"></span><span id="_MSI_INSTALLER_PACKAGE_AUTHORING_TOOL_GLY"></span>**installer package authoring tool**
 </dt> <dd>
 
-Software that enables a developer to create and edit an [*.msi file*](m-gly.md#-msi--msi-file-gly). This together with any [*external source files*](e-gly.md#-msi-external-source-files-gly) comprise a [*package*](p-gly.md#-msi-package-using-windows-installer-gly) containing all the information required for an installation.
+Software that enables a developer to create and edit an [*.msi file*](m-gly.md). This together with any [*external source files*](e-gly.md) comprise a [*package*](p-gly.md) containing all the information required for an installation.
 
 </dd> <dt>
 
 <span id="_msi_internal_source_files_gly"></span><span id="_MSI_INTERNAL_SOURCE_FILES_GLY"></span>**internal source files**
 </dt> <dd>
 
-Stored in the [*.msi file*](m-gly.md#-msi--msi-file-gly). Multiple internal source files can be compressed and stored together in a [*cabinet file*](c-gly.md#-msi-cabinet-file-using-windows-installer-gly) that is stored within an .msi file.
+Stored in the [*.msi file*](m-gly.md). Multiple internal source files can be compressed and stored together in a [*cabinet file*](c-gly.md) that is stored within an .msi file.
 
 </dd> </dl>
 

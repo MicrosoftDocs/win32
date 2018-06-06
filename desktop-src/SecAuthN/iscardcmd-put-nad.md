@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **put\_Nad** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **put\_Nad** method specifies the node address (Nad) to use with the [**ISCardCmd**](iscardcmd.md) interface. This applies to communications using the [*T=1 protocol*](security.t_gly#-security-t-1-protocol-gly) communications only. By default, the [**ISCardCmd**](iscardcmd.md) object uses a Nad of zero.
+The **put\_Nad** method specifies the node address (Nad) to use with the [**ISCardCmd**](iscardcmd.md) interface. This applies to communications using the [*T=1 protocol*](https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f) communications only. By default, the [**ISCardCmd**](iscardcmd.md) object uses a Nad of zero.
 
 ## Syntax
 

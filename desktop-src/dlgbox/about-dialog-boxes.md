@@ -104,7 +104,7 @@ An application creates a modeless dialog box by using the [**CreateDialog**](/wi
 
 A modeless dialog box neither disables the owner window nor sends messages to it. When creating the dialog box, the system makes it the active window, but the user or the application can change the active window at any time. If the dialog box does become inactive, it remains above the owner window in the Z order, even if the owner window is active.
 
-The application is responsible for retrieving and dispatching input messages to the dialog box. Most applications use the main message loop for this. To permit the user to move to and select controls by using the keyboard, however, the application must call the [**IsDialogMessage**](/windows/desktop/api/Winuser/nf-winuser-isdialogmessagea) function. For more information about this function, see [Dialog Box Keyboard Interface](dlgbox-programming-considerations.md#dialog-box-keyboard-interface).
+The application is responsible for retrieving and dispatching input messages to the dialog box. Most applications use the main message loop for this. To permit the user to move to and select controls by using the keyboard, however, the application must call the [**IsDialogMessage**](/windows/desktop/api/Winuser/nf-winuser-isdialogmessagea) function. For more information about this function, see [Dialog Box Keyboard Interface](dlgbox-programming-considerations.md).
 
 A modeless dialog box cannot return a value to the application as a modal dialog box does, but the dialog box procedure can send information to the owner window by using the [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) function.
 

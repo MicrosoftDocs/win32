@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_SIZECLIPBOARD message
 
-Sent to the clipboard owner by a clipboard viewer window when the clipboard contains data in the [**CF\_OWNERDISPLAY**](standard-clipboard-formats.md#cf-ownerdisplay) format and the clipboard viewer's client area has changed size.
+Sent to the clipboard owner by a clipboard viewer window when the clipboard contains data in the [**CF\_OWNERDISPLAY**](standard-clipboard-formats.md) format and the clipboard viewer's client area has changed size.
 
 
 ```C++

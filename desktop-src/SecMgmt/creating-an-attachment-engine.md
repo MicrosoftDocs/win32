@@ -19,7 +19,7 @@ To create an attachment engine, you must implement the following three functions
 -   [**SceSvcAttachmentConfig**](scesvcattachmentconfig.md), which configures the service as specified in the snap-in user interface. For more information, see [Implementing SceSvcAttachmentConfig](implementing-scesvcattachmentconfig.md).
 -   [**SceSvcAttachmentUpdate**](scesvcattachmentupdate.md), which updates the base configuration and configuration analysis for the service in the security database. For more information, see [Implementing SceSvcAttachmentUpdate](implementing-scesvcattachmentupdate.md).
 
-The Security Configuration tool set implements a set of support functions that your application can call to query and set information in the security database. For more information, see [Attachment Callback Functions](management-functions.md#attachment-callback-functions).
+The Security Configuration tool set implements a set of support functions that your application can call to query and set information in the security database. For more information, see [Attachment Callback Functions](management-functions.md).
 
 After you create an attachment engine DLL, you must register it with the Security Configuration tool set. This process is described in [Registering an Attachment Engine](registering-an-attachment-engine.md).
 

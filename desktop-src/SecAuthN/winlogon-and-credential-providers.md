@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Winlogon and Credential Providers
 
-[*Winlogon*](security.w_gly#-security-winlogon-gly) is the Windows module that performs interactive logon for a [*logon session*](security.l_gly#-security-logon-session-gly). Winlogon behavior can be customized by implementing and registering a Credential Provider.
+[*Winlogon*](https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d) is the Windows module that performs interactive logon for a [*logon session*](https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f). Winlogon behavior can be customized by implementing and registering a Credential Provider.
 
 For information about implementing a Credential Provider, see the following topics.
 

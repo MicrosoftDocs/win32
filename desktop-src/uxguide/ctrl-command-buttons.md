@@ -165,7 +165,7 @@ Recommended sizing and spacing for command buttons.
     This example shows graphic buttons; internally, these buttons are labeled Previous, Next, and Copy.
 
 -   For short browse buttons (labeled "..."), the internal label should be Browse.
--   Assign a unique [access key](glossary.md#glossary). For guidelines, see [Keyboard](inter-keyboard.md).
+-   Assign a unique [access key](glossary.md). For guidelines, see [Keyboard](inter-keyboard.md).
 
     **Exceptions:**
 
@@ -216,8 +216,8 @@ Recommended sizing and spacing for command buttons.
 
     In this example, the label is self-explanatory.
 
--   Use [sentence-style capitalization](glossary.md#s). Doing so is more appropriate for [Windows tone](text-style-tone.md)[Windows tone](http://msdn.microsoft.com/library/windows/desktop/aa974175.aspx) and the use of short phrases for command buttons.
-    -   **Exception:** For legacy applications, you may use [title-style capitalization](glossary.md#t) if necessary to avoid mixing capitalization styles.
+-   Use [sentence-style capitalization](glossary.md). Doing so is more appropriate for [Windows tone](text-style-tone.md)[Windows tone](http://msdn.microsoft.com/library/windows/desktop/aa974175.aspx) and the use of short phrases for command buttons.
+    -   **Exception:** For legacy applications, you may use [title-style capitalization](glossary.md) if necessary to avoid mixing capitalization styles.
 -   Don't use now in command button labels because the immediacy of the command can be taken for granted.
 
     -   **Exception:** When necessary, use now to differentiate commands that start a task from commands that perform a task immediately.

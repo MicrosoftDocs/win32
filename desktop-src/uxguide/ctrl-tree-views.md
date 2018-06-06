@@ -35,7 +35,7 @@ A typical tree view.
 **To use a list view, you can flatten hierarchical information using the following techniques:**
 
 -   Remove the root node if present, because it often isn't necessary.
--   Use list view groups, tabs, [drop-down lists](https://msdn.microsoft.com/library/windows/desktop/dn742404), or [expandable headings](glossary.md#e) to replace the top-level containers.
+-   Use list view groups, tabs, [drop-down lists](https://msdn.microsoft.com/library/windows/desktop/dn742404), or [expandable headings](glossary.md) to replace the top-level containers.
 
     ![screen shot of list-view groups containing lists ](images/ctrl-tree-views-image2.png)
 
@@ -220,7 +220,7 @@ Recommended sizing and spacing for tree view controls.
 
 ### Control labels
 
--   All tree views need labels. Write the label as a word or phrase, not as a sentence, ending with a colon, and using [static text](glossary.md#s).
+-   All tree views need labels. Write the label as a word or phrase, not as a sentence, ending with a colon, and using [static text](glossary.md).
 -   Assign a unique access key. For assignment guidelines, see [Keyboard](inter-keyboard.md).
 -   Use sentence-style capitalization.
 -   Position the label above the control, and align the label with the left edge of the control.

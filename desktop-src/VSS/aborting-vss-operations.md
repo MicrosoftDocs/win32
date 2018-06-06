@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # Aborting VSS Operations
 
-[*Abort*](vssgloss-a.md#base-vssgloss-abort-event) events can be generated during a backup operation in any of the following cases:
+[*Abort*](vssgloss-a.md) events can be generated during a backup operation in any of the following cases:
 
--   A requester explicitly generates an [*Abort event*](vssgloss-a.md#base-vssgloss-abort-event) by calling [**IVssBackupComponents::AbortBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-abortbackup).
--   A writer's [*Freeze*](vssgloss-f.md#base-vssgloss-freeze) and [*Thaw*](vssgloss-t.md#base-vssgloss-thaw-event) event handlers ([**CVssWriter::OnFreeze**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onfreeze) and [**CVssWriter::OnThaw**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onthaw)) return **false**, or cannot complete in the time window specified in [**CVssWriter::Initialize**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-initialize).
--   There is any failure of the provider or VSS during the creation of a shadow copy following the [*PrepareForSnapshot*](vssgloss-p.md#base-vssgloss-preparesnapshot-event) event.
+-   A requester explicitly generates an [*Abort event*](vssgloss-a.md) by calling [**IVssBackupComponents::AbortBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-abortbackup).
+-   A writer's [*Freeze*](vssgloss-f.md) and [*Thaw*](vssgloss-t.md) event handlers ([**CVssWriter::OnFreeze**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onfreeze) and [**CVssWriter::OnThaw**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onthaw)) return **false**, or cannot complete in the time window specified in [**CVssWriter::Initialize**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-initialize).
+-   There is any failure of the provider or VSS during the creation of a shadow copy following the [*PrepareForSnapshot*](vssgloss-p.md) event.
 
 Aborts are not supported for restore operations.
 
@@ -25,15 +25,15 @@ An instance of the [**IVSSBackupComponents**](/windows/desktop/api/VsBackup/nl-v
 
 A requester should explicitly signal that it is aborting a backup operation (using [**IVssBackupComponents::AbortBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-abortbackup)) only after the actual preparation for a backup, involving writers, or the creation of a shadow copy has taken place.
 
-Effectively, this means that any time a requester needs to stop a backup operation after generating a [*PrepareForBackup*](vssgloss-p.md#base-vssgloss-preparebackup-event) event by calling [**IVssBackupComponents::PrepareForBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup), it should call [**IVssBackupComponents::AbortBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-abortbackup) and await its return prior to releasing the current [**IVSSBackupComponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) instance.
+Effectively, this means that any time a requester needs to stop a backup operation after generating a [*PrepareForBackup*](vssgloss-p.md) event by calling [**IVssBackupComponents::PrepareForBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup), it should call [**IVssBackupComponents::AbortBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-abortbackup) and await its return prior to releasing the current [**IVSSBackupComponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) instance.
 
 For example, if a writer vetoed a backup operation, a requester should use [**IVssBackupComponents::AbortBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-abortbackup) to notify all other writers that the backup operation will not be completed.
 
 Prior to calling [**PrepareForBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup), or if the call to **PrepareForBackup** fails, a requester can release the current instance of the [**IVSSBackupComponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) interface without needing to generate an Abort event.
 
-For example, if the current instance of [**IVSSBackupComponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) is being used merely to obtain information by calling [**IVssBackupComponents::GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata) and generating an [*Identify*](vssgloss-i.md#base-vssgloss-identify-event) event, once information has been returned the instance of **IVSSBackupComponents** can simply be released.
+For example, if the current instance of [**IVSSBackupComponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) is being used merely to obtain information by calling [**IVssBackupComponents::GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata) and generating an [*Identify*](vssgloss-i.md) event, once information has been returned the instance of **IVSSBackupComponents** can simply be released.
 
-A requester generates a number of events ([*PrepareForSnapshot*](vssgloss-p.md#base-vssgloss-preparesnapshot-event), [*Freeze*](vssgloss-f.md#base-vssgloss-freeze), [*Thaw*](vssgloss-t.md#base-vssgloss-thaw-event), and [*PostSnapshot*](vssgloss-p.md#base-vssgloss-postsnapshot-event)) when it calls [**IVssBackupComponents::DoSnapshotSet**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset). While handling the Freeze and Thaw events, a writer may fail and can generate an Abort event on its own. Failure to handle PrepareForSnapshot and PostSnapshot events does not generate an Abort event.
+A requester generates a number of events ([*PrepareForSnapshot*](vssgloss-p.md), [*Freeze*](vssgloss-f.md), [*Thaw*](vssgloss-t.md), and [*PostSnapshot*](vssgloss-p.md)) when it calls [**IVssBackupComponents::DoSnapshotSet**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset). While handling the Freeze and Thaw events, a writer may fail and can generate an Abort event on its own. Failure to handle PrepareForSnapshot and PostSnapshot events does not generate an Abort event.
 
 It is not always possible for a requester to know if an Abort event was generated when [**IVssBackupComponents::DoSnapshotSet**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset) indicates failure. Therefore, a requester that needs to terminate a backup operation because the status of **IVssBackupComponents::DoSnapshotSet** indicates a problem should still call [**IVssBackupComponents::AbortBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-abortbackup).
 

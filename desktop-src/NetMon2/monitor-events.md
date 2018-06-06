@@ -18,7 +18,7 @@ Monitors are designed to use [Windows Management Instrumentation](https://msdn.m
 
  
 
-Monitors do not communicate directly with WMI. The [*Monitor Control Service*](m.md#-netmon-monitor-control-service-gly) (MCSVC) provides an interface (called [IMonitorEventer](imonitoreventer.md)), which the monitor can use to obtain an event data structure and fill it with the relevant information. The MCSVC can then send the event data structure to WMI, which in turn fires the event.
+Monitors do not communicate directly with WMI. The [*Monitor Control Service*](m.md) (MCSVC) provides an interface (called [IMonitorEventer](imonitoreventer.md)), which the monitor can use to obtain an event data structure and fill it with the relevant information. The MCSVC can then send the event data structure to WMI, which in turn fires the event.
 
  
 

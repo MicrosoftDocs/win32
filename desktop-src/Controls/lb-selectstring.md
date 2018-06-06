@@ -51,11 +51,11 @@ If the search is successful, the return value is the index of the selected item.
 
 The list box is scrolled, if necessary, to bring the selected item into view.
 
-Do not use this message with a list box that has the [**LBS\_MULTIPLESEL**](list-box-styles.md#lbs-multiplesel) or the [**LBS\_EXTENDEDSEL**](list-box-styles.md#lbs-extendedsel) styles.
+Do not use this message with a list box that has the [**LBS\_MULTIPLESEL**](list-box-styles.md) or the [**LBS\_EXTENDEDSEL**](list-box-styles.md) styles.
 
 An item is selected only if its initial characters from the starting point match the characters in the string specified by the *lParam* parameter.
 
-If the list box has the owner-drawn style but not the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style, the action taken by **LB\_SELECTSTRING** depends on whether the [**LBS\_SORT**](list-box-styles.md#lbs-sort) style is used. If **LBS\_SORT** is used, the system sends [**WM\_COMPAREITEM**](wm-compareitem.md) messages to the list box owner to determine which item matches the specified string. Otherwise, **LB\_SELECTSTRING** attempts to find an item that has a long value (supplied as the *lParam* parameter of the [**LB\_ADDSTRING**](lb-addstring.md) or [**LB\_INSERTSTRING**](lb-insertstring.md) message) that matches the *lParam* parameter.
+If the list box has the owner-drawn style but not the [**LBS\_HASSTRINGS**](list-box-styles.md) style, the action taken by **LB\_SELECTSTRING** depends on whether the [**LBS\_SORT**](list-box-styles.md) style is used. If **LBS\_SORT** is used, the system sends [**WM\_COMPAREITEM**](wm-compareitem.md) messages to the list box owner to determine which item matches the specified string. Otherwise, **LB\_SELECTSTRING** attempts to find an item that has a long value (supplied as the *lParam* parameter of the [**LB\_ADDSTRING**](lb-addstring.md) or [**LB\_INSERTSTRING**](lb-insertstring.md) message) that matches the *lParam* parameter.
 
 ## Requirements
 

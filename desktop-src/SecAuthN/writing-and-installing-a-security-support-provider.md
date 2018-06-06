@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Writing and Installing a Security Support Provider
 
-The design of SSPI enables additional SSPs to be written and added to the system. An [*SSP*](security.s_gly#-security-security-support-provider-gly) specific to a security model can be developed with relative ease or great complexity, depending on the level of integration with the operating system. A client SSP that allows connections to a new type of server could be developed very quickly, whereas a full SSP that provides local impersonation would require more effort.
+The design of SSPI enables additional SSPs to be written and added to the system. An [*SSP*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) specific to a security model can be developed with relative ease or great complexity, depending on the level of integration with the operating system. A client SSP that allows connections to a new type of server could be developed very quickly, whereas a full SSP that provides local impersonation would require more effort.
 
 SSPs are installed by updating a **REG\_SZ** value in the registry, located as follows:
 

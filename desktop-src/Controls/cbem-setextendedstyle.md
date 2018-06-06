@@ -47,9 +47,9 @@ Returns a **DWORD** value that contains the extended styles previously used for 
 
 ## Remarks
 
-*wParam* enables you to modify one or more extended styles without having to retrieve the existing styles first. For example, if you pass [**CBES\_EX\_NOEDITIMAGE**](comboboxex-control-extended-styles.md#cbes-ex-noeditimage) for *wParam* and 0 for *lParam*, the **CBES\_EX\_NOEDITIMAGE** style will be cleared, but all other styles will remain the same.
+*wParam* enables you to modify one or more extended styles without having to retrieve the existing styles first. For example, if you pass [**CBES\_EX\_NOEDITIMAGE**](comboboxex-control-extended-styles.md) for *wParam* and 0 for *lParam*, the **CBES\_EX\_NOEDITIMAGE** style will be cleared, but all other styles will remain the same.
 
-If you try to set an extended style for a ComboBoxEx control created with the [**CBS\_SIMPLE**](combo-box-styles.md#cbs-simple) style, it may not repaint properly.
+If you try to set an extended style for a ComboBoxEx control created with the [**CBS\_SIMPLE**](combo-box-styles.md) style, it may not repaint properly.
 
 ## Requirements
 

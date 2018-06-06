@@ -181,7 +181,7 @@ Windows asks users for the computer name and choice of background during setup b
     -   If the waiting time is typically between one and two minutes, consider providing helpful information while users are waiting, such as a presentation of what is new during setup.
     -   If the waiting time is typically longer than two minutes, make it easy for users to perform other tasks. Display the estimated wait time, recommend that users do something else in the meantime, and make task completion obvious by changing the screen significantly.
 -   **Reconsider presenting tutorials during the first experience.** Most likely users want to use your program right away and are interested in tutorials at a later point.
--   **Don't use feature advertisement notifications in the first experience.** Instead of using a [feature advertisement notification](mess-notif.md#usage-patterns), design the feature to be easier to discover in contexts where it is needed, or don't do anything special and let users discover the feature on their own.
+-   **Don't use feature advertisement notifications in the first experience.** Instead of using a [feature advertisement notification](mess-notif.md), design the feature to be easier to discover in contexts where it is needed, or don't do anything special and let users discover the feature on their own.
 -   **Don't use any notifications during the initial Windows experience.** To improve its first experience, Windows 7 suppresses all notifications displayed during the first few hours of usage. Design your program assuming users won't see any such notifications.
 
  

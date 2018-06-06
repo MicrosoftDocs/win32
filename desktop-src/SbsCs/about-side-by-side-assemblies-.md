@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 A Windows side-by-side assembly is described by [manifests](manifests.md). A side-by-side assembly contains a collection of resources—a group of DLLs, Windows classes, COM servers, type libraries, or interfaces—that are always provided to applications together. These are described in the assembly manifest.
 
-Typically, a side-by-side assembly is a single DLL. For example, the Microsoft COMCTL32 assembly is a single DLL with a manifest whereas the Microsoft Visual C++ development system run-time libraries assembly contains multiple files. Manifests contain [*metadata*](m-sbscs-gly.md#-win32-metadata-gly) that describes side-by-side assemblies and side-by-side assembly dependencies.
+Typically, a side-by-side assembly is a single DLL. For example, the Microsoft COMCTL32 assembly is a single DLL with a manifest whereas the Microsoft Visual C++ development system run-time libraries assembly contains multiple files. Manifests contain [*metadata*](m-sbscs-gly.md) that describes side-by-side assemblies and side-by-side assembly dependencies.
 
 Side-by-side assemblies are used by the operating system as fundamental units of naming, binding, versioning, deployment, and configuration. Every side-by-side assembly has a unique identity. One of the attributes of the assembly identity is its version. For more information, see [Assembly Versions](assembly-versions.md).
 

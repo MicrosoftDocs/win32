@@ -40,7 +40,7 @@ A handle to a window that displays the **Select a network** dialog box.
 *hFilterBlob* \[in\]
 </dt> <dd>
 
-A handle to a [*filter BLOB*](f.md#-netmon-filter-blob-gly) used to limit which NICs are displayed.
+A handle to a [*filter BLOB*](f.md) used to limit which NICs are displayed.
 
 </dd> <dt>
 
@@ -63,7 +63,7 @@ If the function is unsuccessful, the return value is another NMERR value.
 
 When called, Network Monitor displays the **Select a network** dialog box, which you can use to select a NIC. The NPP BLOB that represents the NIC is returned to the calling application.
 
-If the BLOB named by *hFilterBlob* is a [*special BLOB*](s.md#-netmon-special-blobs-gly), the finder will attempt to process it. An example would be a call that had previously returned a special BLOB from the remote NPP. The application inserted the required tag, MACHINE\_NAME. In this situation, the finder would pass this BLOB to the remote NPP, which would then return a table of NPP BLOBs representing the machine requested. These remote NPP BLOBs would appear in the dialog box.
+If the BLOB named by *hFilterBlob* is a [*special BLOB*](s.md), the finder will attempt to process it. An example would be a call that had previously returned a special BLOB from the remote NPP. The application inserted the required tag, MACHINE\_NAME. In this situation, the finder would pass this BLOB to the remote NPP, which would then return a table of NPP BLOBs representing the machine requested. These remote NPP BLOBs would appear in the dialog box.
 
 The caller must call the [DestroyBlob](destroyblob.md) function, which destroys the returned BLOB when it is no longer required.
 

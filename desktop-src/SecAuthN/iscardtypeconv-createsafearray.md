@@ -91,7 +91,7 @@ To create a universal buffer of bytes mapped into an **IStream** ([**IByteBuffer
 [**ISCardTypeConv**](iscardtypeconv.md)
 </dt> <dt>
 
-[Smart Card Return Values](authentication-return-values.md#smart-card-return-values)
+[Smart Card Return Values](authentication-return-values.md)
 </dt> <dt>
 
 [**CreateByteArray**](iscardtypeconv-createbytearray.md)

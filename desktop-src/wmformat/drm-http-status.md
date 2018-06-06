@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # DRM\_HTTP\_STATUS enumeration
 
-The **DRM\_HTTP\_STATUS** enumeration type defines a range of states for a [*DRM*](wmformat-glossary.md#wmformat-digital-rights-management--drm-) request.
+The **DRM\_HTTP\_STATUS** enumeration type defines a range of states for a [*DRM*](wmformat-glossary.md) request.
 
 ## Syntax
 

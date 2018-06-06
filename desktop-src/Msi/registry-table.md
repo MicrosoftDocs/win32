@@ -129,7 +129,7 @@ External key into the first column of the [Component table](component-table.md) 
 
 ## Remarks
 
-The [WriteRegistryValues](writeregistryvalues-action.md) and [RemoveRegistryValues](removeregistryvalues-action.md) actions in [*sequence tables*](s-gly.md#-msi-sequence-tables-gly) process the information in this table. For information about using *sequence tables*, see [Using a Sequence Table](using-a-sequence-table.md).
+The [WriteRegistryValues](writeregistryvalues-action.md) and [RemoveRegistryValues](removeregistryvalues-action.md) actions in [*sequence tables*](s-gly.md) process the information in this table. For information about using *sequence tables*, see [Using a Sequence Table](using-a-sequence-table.md).
 
 The registry information is written out to the system registry when the corresponding component has been selected to be installed locally or run from source.
 

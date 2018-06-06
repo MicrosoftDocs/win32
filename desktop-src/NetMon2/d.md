@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 <span id="_netmon_delayed_capture_gly"></span><span id="_NETMON_DELAYED_CAPTURE_GLY"></span>**delayed capture**
 </dt> <dd>
 
-Collected network traffic that is stored in a capture file. A network packet provider (NPP) performs a delayed capture. Parsers and experts use delayed captures. See also [*capture*](c.md#-netmon-capture-gly), and [*real-time capture*](#-netmon-real-time-capture-gly)
+Collected network traffic that is stored in a capture file. A network packet provider (NPP) performs a delayed capture. Parsers and experts use delayed captures. See also [*capture*](c.md), and [*real-time capture*](#-netmon-real-time-capture-gly)
 
 </dd> <dt>
 

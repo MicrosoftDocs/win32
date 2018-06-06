@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Interaction Between Winlogon and GINA
 
-[*Winlogon*](security.w_gly#-security-winlogon-gly) and the [*GINA*](security.g_gly#-security-gina-gly) must communicate initialization information, handle [*secure attention sequence*](security.s_gly#-security-secure-attention-sequence-gly) (SAS) monitoring and notification, and permit logoff and shutdown activities. The state of Winlogon determines which GINA function is called to process any given SAS event. Communications occur in the order shown here.
+[*Winlogon*](https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d) and the [*GINA*](https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a) must communicate initialization information, handle [*secure attention sequence*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SAS) monitoring and notification, and permit logoff and shutdown activities. The state of Winlogon determines which GINA function is called to process any given SAS event. Communications occur in the order shown here.
 
 > [!Note]  
 > GINA DLLs are ignored in Windows Vista.
@@ -36,7 +36,7 @@ ms.date: 05/31/2018
 <td>Workstation boot</td>
 <td><ol>
 <li>Winlogon calls the GINA's [<strong>WlxNegotiate</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxnegotiate) function to notify the GINA about the version of Winlogon in use.</li>
-<li>Winlogon calls the GINA's [<strong>WlxInitialize</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize) function to give the GINA the addresses of the support functions, a handle to Winlogon, and to obtain the [<em>context</em>](security.c_gly#-security-context-gly) information for the GINA (to be used in all future calls to the GINA).<br/> Winlogon is in the logged-out state.<br/></li>
+<li>Winlogon calls the GINA's [<strong>WlxInitialize</strong>](/windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize) function to give the GINA the addresses of the support functions, a handle to Winlogon, and to obtain the [<em>context</em>](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) information for the GINA (to be used in all future calls to the GINA).<br/> Winlogon is in the logged-out state.<br/></li>
 </ol></td>
 </tr>
 <tr class="even">

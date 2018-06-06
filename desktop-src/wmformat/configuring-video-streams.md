@@ -34,7 +34,7 @@ Video streams are more flexible in their configuration than audio streams. This 
 
  
 
-Video content does not play correctly unless it is encoded to a size that is a multiple of four for both width and height. The exception is [*RGB*](wmformat-glossary.md#wmformat-rgb) uncompressed video, which can be any size. If you try to set a size that is not a multiple of four, one of the following errors will be returned by the writer:
+Video content does not play correctly unless it is encoded to a size that is a multiple of four for both width and height. The exception is [*RGB*](wmformat-glossary.md) uncompressed video, which can be any size. If you try to set a size that is not a multiple of four, one of the following errors will be returned by the writer:
 
 -   NS\_E\_INVALID\_INPUT\_FORMAT
 -   NS\_E\_INVALID\_OUTPUT\_FORMAT

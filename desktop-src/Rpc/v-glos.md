@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_rpc_varying_array_glos"></span><span id="_RPC_VARYING_ARRAY_GLOS"></span>**varying array**
 </dt> <dd>
 
-Array whose range of transmitted elements is determined at run time by another parameter, structure, or expression. See also [*conformant array*](c-glos.md#-rpc-conformant-array-glos) and [*open array*](o-glos.md#-rpc-open-array-glos).
+Array whose range of transmitted elements is determined at run time by another parameter, structure, or expression. See also [*conformant array*](c-glos.md) and [*open array*](o-glos.md).
 
 </dd> <dt>
 

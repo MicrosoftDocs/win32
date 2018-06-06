@@ -59,8 +59,8 @@ The following properties, methods, and events are required for implementing the 
 | [**Close**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-close)                                               | Method      | None                                                                        |
 | [**SetVisualState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-setvisualstate)                             | Method      | None                                                                        |
 | [**WaitForInputIdle**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-waitforinputidle)                         | Method      | None                                                                        |
-| [**UIA\_Window\_WindowClosedEventId**](uiauto-event-ids.md#uia-window-windowclosedeventid) | Event       | None                                                                        |
-| [**UIA\_Window\_WindowOpenedEventId**](uiauto-event-ids.md#uia-window-windowopenedeventid) | Event       | None                                                                        |
+| [**UIA\_Window\_WindowClosedEventId**](uiauto-event-ids.md) | Event       | None                                                                        |
+| [**UIA\_Window\_WindowOpenedEventId**](uiauto-event-ids.md) | Event       | None                                                                        |
 
 
 

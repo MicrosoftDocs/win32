@@ -21,7 +21,7 @@ You can require that client scripts and applications establish an encrypted conn
 
 An encrypted connection to a WMI namespace specifies **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** (or **PktPrivacy** in a script) for authentication. The **RequiresEncryption** qualifier causes WMI to reject any incoming data requests unless they explicitly use encrypted authentication. For more information, see [Setting the Default Process Security Level Using VBScript](setting-the-default-process-security-level-using-vbscript.md) or [Setting Authentication Using C++](setting-authentication-using-c-.md).
 
-You can also modify an existing namespace by adding this attribute and then compile the MOF file again. **RequiresEncryption** is used in [*MOF*](gloss-m.md#wmi-gloss-managed-object-format) with the [pragma namespace](pragma-namespace.md) preprocessor instruction.
+You can also modify an existing namespace by adding this attribute and then compile the MOF file again. **RequiresEncryption** is used in [*MOF*](gloss-m.md) with the [pragma namespace](pragma-namespace.md) preprocessor instruction.
 
 The following procedure sets the namespace to require an encrypted connection.
 

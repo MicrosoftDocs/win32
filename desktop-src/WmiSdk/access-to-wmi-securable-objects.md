@@ -40,7 +40,7 @@ ACEs hold three types of access levels or grant/deny rights: allow, deny for DAC
 
 ## Changing Access Security
 
-With appropriate permissions, you can change the security on a securable object with a script or application. You can also change the security settings on WMI namespaces using the [*WMI Control*](gloss-w.md#wmi-gloss-wmi-control) or by adding a [Security Descriptor Definition Language (SDDL)](https://msdn.microsoft.com/library/windows/desktop/aa379567) string in the [*Managed Object Format (MOF)*](gloss-m.md#wmi-gloss-managed-object-format) file that defines classes for the namespace. For more information, see [Access to WMI Namespaces](access-to-wmi-namespaces.md), [Securing WMI Namespaces](securing-wmi-namespaces.md), and [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
+With appropriate permissions, you can change the security on a securable object with a script or application. You can also change the security settings on WMI namespaces using the [*WMI Control*](gloss-w.md) or by adding a [Security Descriptor Definition Language (SDDL)](https://msdn.microsoft.com/library/windows/desktop/aa379567) string in the [*Managed Object Format (MOF)*](gloss-m.md) file that defines classes for the namespace. For more information, see [Access to WMI Namespaces](access-to-wmi-namespaces.md), [Securing WMI Namespaces](securing-wmi-namespaces.md), and [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
 
 ## Related topics
 

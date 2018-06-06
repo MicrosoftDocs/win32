@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using Automation to Merge a Merge Module into a Database
 
-[Merge Modules](merge-modules.md) provide a standard method for you to deliver shared Windows Installer [*components*](c-gly.md#-msi-component-using-windows-installer-gly), and setup logic to applications.
+[Merge Modules](merge-modules.md) provide a standard method for you to deliver shared Windows Installer [*components*](c-gly.md), and setup logic to applications.
 
 Merge modules must be merged into an installation package by using a merge tool. The best practice is to obtain a freely distributed merge tool, or purchase one of the merge tools that are available from independent software vendors, for example, you can use [Mergemod.dll](merge-module-automation.md).
 

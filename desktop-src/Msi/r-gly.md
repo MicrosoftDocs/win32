@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_msi_reduced_ui_gly"></span><span id="_MSI_REDUCED_UI_GLY"></span>**reduced UI**
 </dt> <dd>
 
-Level of the installer's [*internal user interface*](i-gly.md#-msi-internal-user-interface-gly) capabilities. Displays only authored modeless dialog boxes. For more information, see [User Interface Levels](user-interface-levels.md).
+Level of the installer's [*internal user interface*](i-gly.md) capabilities. Displays only authored modeless dialog boxes. For more information, see [User Interface Levels](user-interface-levels.md).
 
 </dd> <dt>
 

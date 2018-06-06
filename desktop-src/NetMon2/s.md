@@ -44,7 +44,7 @@ A set of data packets that one station sends to another station during a capture
 <span id="_netmon_session_information_gly"></span><span id="_NETMON_SESSION_INFORMATION_GLY"></span>**session information**
 </dt> <dd>
 
-Information that describes a session. Network Monitor saves session information during data capture. Session information is referred to as conversation statistics, and can be retrieved by a call to the **GetConversationStatistics** method. See also session, [*capture*](c.md#-netmon-capture-gly), and [*conversation\_statistics*](c.md#-netmon-conversation-statistics-gly).
+Information that describes a session. Network Monitor saves session information during data capture. Session information is referred to as conversation statistics, and can be retrieved by a call to the **GetConversationStatistics** method. See also session, [*capture*](c.md), and [*conversation\_statistics*](c.md).
 
 </dd> <dt>
 
@@ -65,7 +65,7 @@ A unique, hexadecimal number that identifies the computer from which data is sen
 <span id="_netmon_special_blobs_gly"></span><span id="_NETMON_SPECIAL_BLOBS_GLY"></span>**special BLOB**
 </dt> <dd>
 
-A network packet provider (NPP) or filter binary large object (BLOB) that contains supplemental information that other BLOBs do not provide. See also [*network packet provider*](n.md#-netmon-network-packet-provider-gly) and [*BLOB*](b.md#-netmon-blob-gly).
+A network packet provider (NPP) or filter binary large object (BLOB) that contains supplemental information that other BLOBs do not provide. See also [*network packet provider*](n.md) and [*BLOB*](b.md).
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ A specific NIC installed on a computer that is capturing data. See also station 
 <span id="_netmon_station_information_gly"></span><span id="_NETMON_STATION_INFORMATION_GLY"></span>**station information**
 </dt> <dd>
 
-Information that describes a station. Network Monitor saves the station information during a data capture. Station information is also referred to as conversation statistics that you can retrieve by a call to the **GetConversationStatistics** method. See also station and [*conversation statistics*](c.md#-netmon-conversation-statistics-gly).
+Information that describes a station. Network Monitor saves the station information during a data capture. Station information is also referred to as conversation statistics that you can retrieve by a call to the **GetConversationStatistics** method. See also station and [*conversation statistics*](c.md).
 
 </dd> <dt>
 

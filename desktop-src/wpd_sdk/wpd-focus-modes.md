@@ -61,7 +61,7 @@ Specifies that the device should automatically switch between macro and normal f
 
 ## Remarks
 
-This enumeration is used by the [WPD\_STILL\_IMAGE\_FOCUS\_MODE](still-image-properties.md#wpd-still-image-focus-mode) property.
+This enumeration is used by the [WPD\_STILL\_IMAGE\_FOCUS\_MODE](still-image-properties.md) property.
 
 ## Requirements
 

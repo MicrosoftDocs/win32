@@ -17,13 +17,13 @@ ms.date: 05/31/2018
 
 Windows Remote Management can be used to retrieve data exposed by Windows Management Instrumentation ([WMI](https://msdn.microsoft.com/library/aa394582) and [MI](https://msdn.microsoft.com/library/jj152383)). You can obtain WMI data with scripts or applications that use the [WinRM Scripting API](winrm-scripting-api.md) or through the **Winrm** command-line tool.
 
-WinRM supports most of the familiar WMI classes and operations, including embedded objects. WinRM can leverage WMI to collect data about [*resources*](windows-remote-management-glossary.md#winrm-gloss-resource) or to manage resources on a Windows-based operating system. That means that you can obtain data about objects such as disks, network adapters, services, or processes in your enterprise through the existing set of [WMI classes](https://msdn.microsoft.com/library/aa394554). You can also access the hardware data that is available from the standard WMI [IPMI provider](https://msdn.microsoft.com/library/aa391402).
+WinRM supports most of the familiar WMI classes and operations, including embedded objects. WinRM can leverage WMI to collect data about [*resources*](windows-remote-management-glossary.md) or to manage resources on a Windows-based operating system. That means that you can obtain data about objects such as disks, network adapters, services, or processes in your enterprise through the existing set of [WMI classes](https://msdn.microsoft.com/library/aa394554). You can also access the hardware data that is available from the standard WMI [IPMI provider](https://msdn.microsoft.com/library/aa391402).
 
 ## Identifying a WMI Resource
 
-You can reference a WMI class as a [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource) in WinRM and in the WS-Management protocol: a type of managed entity, like a service or a disk.
+You can reference a WMI class as a [*resource*](windows-remote-management-glossary.md) in WinRM and in the WS-Management protocol: a type of managed entity, like a service or a disk.
 
-A WMI class or method is identified by a [*URI*](windows-remote-management-glossary.md#winrm-gloss-uri), just as any other resource is when using the WS-Management protocol. The URI can specify a WMI resource (class), a WMI action (method), or identify a specific instance of a class in [*messages*](windows-remote-management-glossary.md#winrm-gloss-message) sent over a network. For more information, see [Resource URIs](resource-uris.md).
+A WMI class or method is identified by a [*URI*](windows-remote-management-glossary.md), just as any other resource is when using the WS-Management protocol. The URI can specify a WMI resource (class), a WMI action (method), or identify a specific instance of a class in [*messages*](windows-remote-management-glossary.md) sent over a network. For more information, see [Resource URIs](resource-uris.md).
 
 ## Constructing the URI Prefix for WMI Classes
 
@@ -66,7 +66,7 @@ The following procedure describes how to generate a resource URI either to get a
 
 ## Locating a WMI Resource with WinRM
 
-You can obtain WMI data either through the command-line tool, **Winrm**, or through a Visual Basic script that uses the [WinRM Scripting API](winrm-scripting-api.md). You do not use a [WMI path](https://msdn.microsoft.com/library/aa390350) to locate a resource. Instead, you convert the WMI namespace and hierarchy to a [*URI*](windows-remote-management-glossary.md#winrm-gloss-uri).
+You can obtain WMI data either through the command-line tool, **Winrm**, or through a Visual Basic script that uses the [WinRM Scripting API](winrm-scripting-api.md). You do not use a [WMI path](https://msdn.microsoft.com/library/aa390350) to locate a resource. Instead, you convert the WMI namespace and hierarchy to a [*URI*](windows-remote-management-glossary.md).
 
 The WinRM URI for a WMI class contains two parts: the [URI prefix](uri-prefixes.md) and the class that you want to access.
 
@@ -145,7 +145,7 @@ You can obtain a specific instance of a class in several ways:
 
     
 
--   Adding a [*selector*](windows-remote-management-glossary.md#winrm-gloss-selector) to a [**ResourceLocator**](resourcelocator.md) or [**IWSManResourceLocator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator) object.
+-   Adding a [*selector*](windows-remote-management-glossary.md) to a [**ResourceLocator**](resourcelocator.md) or [**IWSManResourceLocator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanresourcelocator) object.
 
     The following VBScript code example shows how to use a selector to get a specific instance of [**Win32\_Processor**](https://msdn.microsoft.com/library/aa394373).
 

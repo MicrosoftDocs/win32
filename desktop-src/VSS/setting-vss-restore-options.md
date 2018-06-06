@@ -73,7 +73,7 @@ These common restore options have been defined to increase interoperability betw
 
 -   New Component Name
 
-    A writer may want to restore a component to a new name. For example, restoring a database to a different name to restore an individual item; restoring to the same name would please all data We recommend that writers accept a valid logical path and component name as this options' value. This will often be used with a [*directed target*](vssgloss-d.md#base-vssgloss-directed-targeting).
+    A writer may want to restore a component to a new name. For example, restoring a database to a different name to restore an individual item; restoring to the same name would please all data We recommend that writers accept a valid logical path and component name as this options' value. This will often be used with a [*directed target*](vssgloss-d.md).
 
     ``` syntax
     "New Component Name"="Logical Path\Component Name"

@@ -48,7 +48,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 While the capture is in a paused state, new data is not captured until a call to the [IRTC::Resume](idelaydc-resume.md) method restarts the capture.
 
-When using the **Pause** and **Resume** methods to control the capture, Network Monitor continues to add [*conversation statistics*](c.md#-netmon-conversation-statistics-gly) to the existing statistics for the current capture.
+When using the **Pause** and **Resume** methods to control the capture, Network Monitor continues to add [*conversation statistics*](c.md) to the existing statistics for the current capture.
 
 To stop the capture, call the [IRTC::Stop](irtc-stop.md) method.
 

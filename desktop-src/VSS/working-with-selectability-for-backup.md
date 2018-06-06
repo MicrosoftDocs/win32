@@ -26,15 +26,15 @@ The following table describes the four types of components that can be involved 
 
  
 
-In addition, any selectable-for-backup component—regardless of whether it has selectable-for-backup ancestors or not—defines a [*component set*](vssgloss-c.md#base-vssgloss-component-set) if other components have it as an ancestor in their logical paths.
+In addition, any selectable-for-backup component—regardless of whether it has selectable-for-backup ancestors or not—defines a [*component set*](vssgloss-c.md) if other components have it as an ancestor in their logical paths.
 
 The rules governing the selection of components for backup can be summarized as follows:
 
--   When any component without a selectable-for-backup ancestor in its logical path—whether the component is selectable-for-backup or nonselectable-for-backup—is included in a backup, it must be [*included explicitly*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion). This means that metadata for these components is added to the Backup Components Document.
+-   When any component without a selectable-for-backup ancestor in its logical path—whether the component is selectable-for-backup or nonselectable-for-backup—is included in a backup, it must be [*included explicitly*](vssgloss-e.md). This means that metadata for these components is added to the Backup Components Document.
 
     Requesters explicitly add these components using the [**IVssBackupComponents::AddComponent**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addcomponent) method.
 
--   Nonselectable-for-backup subcomponents are always [*included implicitly*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion) in the backup. This means that metadata for these components is not part of the Backup Components Document.
+-   Nonselectable-for-backup subcomponents are always [*included implicitly*](vssgloss-i.md) in the backup. This means that metadata for these components is not part of the Backup Components Document.
 -   Selectable-for-backup subcomponents are implicitly included if that ancestor is explicitly included in the backup. In this case, metadata for these components is not added to the Backup Components Document. If an implicitly selectable for backup subcomponent defines a component set, the members of that component set are also implicitly selected.
 -   Selectable-for-backup subcomponents whose selectable-for-backup ancestor is not explicitly included in the backup can still be included explicitly by the requester using the [**IVssBackupComponents::AddComponent**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addcomponent) method. The metadata for the component will then be added to the Backup Components Document. In addition, if a selectable-for-backup subcomponent defines a component set, the members of that component set are implicitly included in the backup.
 

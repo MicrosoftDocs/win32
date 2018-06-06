@@ -21,7 +21,7 @@ To use the MsiBreak environment variable to debug the custom action, set MsiBrea
 
 To use the MsiBreak environment variable to debug an embedded user interface, set the value of MsiBreak to MsiEmbeddedUI.
 
-Windows Installer only checks the MsiBreak environment variable if the user is an Administrator. The installer ignores the value of MsiBreak if the user is not an Administrator, even if this is a [*managed application*](m-gly.md#-msi-managed-application-gly).
+Windows Installer only checks the MsiBreak environment variable if the user is an Administrator. The installer ignores the value of MsiBreak if the user is not an Administrator, even if this is a [*managed application*](m-gly.md).
 
 If you are debugging a custom action that runs with elevated (system) privileges in the execution sequence, attach the debugger to the Windows Installer service. When debugging a custom action that runs with impersonated privileges in the execution sequence, the system prompts with a dialog box that indicates which process should be debugged. The user is prompted with a dialog box indicating which process to debug. For more information about elevated custom actions, see [Custom Action Security](custom-action-security.md).
 

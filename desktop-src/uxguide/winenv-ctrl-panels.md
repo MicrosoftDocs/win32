@@ -25,7 +25,7 @@ The control panel home page is the main entry point for all control panel items.
 
 A control panel category page lists the items within a single category, along with the most common tasks. It is displayed when users click a category name on the home page.
 
-Control panel items are implemented using [task flows](glossary.md#t) or property sheets. For Windows Vista and later, task flows are the preferred user interface (UI).
+Control panel items are implemented using [task flows](glossary.md) or property sheets. For Windows Vista and later, task flows are the preferred user interface (UI).
 
 **Developers:** To learn how to create control panel items, see [Control Panel Items](http://msdn.microsoft.com/library/bb776838.aspx).
 
@@ -119,11 +119,11 @@ Task flow items use a hub page to present the high-level choices, and spoke page
 
 **General**
 
--   **Keep the most important content and controls visible without scrolling.** Users won't scroll to see page content unless they have a reason to. You can make commit buttons always visible by placing them in a [command area](glossary.md#c) instead of the content area. Don't break up pages just to avoid scrolling.
+-   **Keep the most important content and controls visible without scrolling.** Users won't scroll to see page content unless they have a reason to. You can make commit buttons always visible by placing them in a [command area](glossary.md) instead of the content area. Don't break up pages just to avoid scrolling.
     -   **You can vertically scroll long pages,** as long as the most important controls are visible without scrolling.
     -   **Don't use horizontal scrolling.** Instead, redesign the page content and use vertical scrolling. Pages may have horizontal scrollbars only when made very narrow.
 -   **To navigate between pages:**
-    -   Use [task links](glossary.md#t) to start a task.
+    -   Use [task links](glossary.md) to start a task.
     -   Use task links or a Next button to navigate to the next page in a multi-step task.
     -   Use commit buttons to complete a task.
     -   Use the Back button in the menu bar to return to previously viewed pages. Do not add a Back button to the command area.
@@ -136,12 +136,12 @@ Task flow items use a hub page to present the high-level choices, and spoke page
 
 -   **When a page has a small set of fixed options, use task links instead of a combination of radio buttons and a Next button.** This allows users to select a response with a single click.
 -   You can put task links and buttons in the following places (in order of discoverability):
-    -   The [command area](glossary.md#c) (for command buttons on spoke pages only).
-    -   The [content area](glossary.md#c):
+    -   The [command area](glossary.md) (for command buttons on spoke pages only).
+    -   The [content area](glossary.md):
         -   Command buttons
         -   Task links
         -   Other links
-    -   Links in the [task pane](glossary.md#t) (hub pages only).
+    -   Links in the [task pane](glossary.md) (hub pages only).
 -   **Base the location of task links and buttons on importance and need for discoverability.**
     -   **Put only commit buttons in the command area.**
     -   **Put essential tasks in the content area.** Command buttons tend to draw the most attention, so reserve them for commands users must see. Task links also draw attention, but less than command buttons.
@@ -169,7 +169,7 @@ Task flow items use a hub page to present the high-level choices, and spoke page
 
 When using task flows, you generally want a task to flow from page to page within a single window, but the following circumstances are exceptions. Use dialog boxes in the following circumstances:
 
--   To prompt users for an administrator user name and password. Always use the credential manager dialog box for this purpose. (Should be [modal](glossary.md#m).)
+-   To prompt users for an administrator user name and password. Always use the credential manager dialog box for this purpose. (Should be [modal](glossary.md).)
 -   To confirm an in-place command using a task dialog or message box. (Should be modal.)
 -   To get input for in-place commands, such as for New, Add, Save As, Rename, and Print commands.
 
@@ -177,7 +177,7 @@ When using task flows, you generally want a task to flow from page to page withi
 
     In this example, the Delete command is performed in a dialog box instead of a separate page.
 
--   To perform secondary, stand-alone tasks. Using a [modeless](glossary.md#m), secondary window allows such tasks to be performed independently and outside the main task flow.
+-   To perform secondary, stand-alone tasks. Using a [modeless](glossary.md), secondary window allows such tasks to be performed independently and outside the main task flow.
 
 ### Hub pages
 
@@ -202,7 +202,7 @@ For more guidelines about presenting object lists, see [List Views](ctrl-list-vi
 **Interaction**
 
 -   **Don't put commit buttons on hub pages.** Hub pages are fundamentally launch points. Users never "commit" hub pages they are never done with them. And commit buttons on hub pages make any tasks initiated from a hub confusing (users will wonder if those tasks need to be committed).
-    -   **Exception:** If changing a setting requires [elevation](glossary.md#e), provide an Apply button with a [security shield icon](winenv-uac.md#uac-shield-icon). Disable the commit button once changes have been applied.
+    -   **Exception:** If changing a setting requires [elevation](glossary.md), provide an Apply button with a [security shield icon](winenv-uac.md). Disable the commit button once changes have been applied.
 -   **Consider putting the most useful properties directly on hub pages.** Such hybrid hub pages are strongly recommended when users are most likely to use Control Panel to access those properties.
 
     ![screen shot of power options hub page ](images/winenv-ctrl-panels-image6.png)
@@ -211,7 +211,7 @@ For more guidelines about presenting object lists, see [List Views](ctrl-list-vi
 
 -   **Use an immediate commit model for any settings on hybrid hub pages so that changes are made immediately.** Again, users never commit a hub page. If a setting requires a commit button, don't put it on a hub page.
 -   **Consider putting simple, "one-step" commands directly on hub pages instead of using navigation links.**
--   **Confirm in-place commands whose effects cannot be easily undone.** Use a [task dialog](win-dialog-box.md) or [message box](glossary.md#m).
+-   **Confirm in-place commands whose effects cannot be easily undone.** Use a [task dialog](win-dialog-box.md) or [message box](glossary.md).
 
     ![screen shot of confirm delete dialog box ](images/winenv-ctrl-panels-image7.png)
 
@@ -276,7 +276,7 @@ Doing so keeps the meaning of the commit buttons for the main task clear and una
 
 **Interaction (final spoke pages)**
 
--   **Use commit buttons to complete a task.** Use a [delayed commit model](glossary.md#d) for spoke pages, so that changes aren't made until explicitly committed (if users navigate away using Back, Close, or the Address bar, changes are abandoned). The commit buttons are a visual clue that the user is about to complete a task. Don't use links for this purpose.
+-   **Use commit buttons to complete a task.** Use a [delayed commit model](glossary.md) for spoke pages, so that changes aren't made until explicitly committed (if users navigate away using Back, Close, or the Address bar, changes are abandoned). The commit buttons are a visual clue that the user is about to complete a task. Don't use links for this purpose.
 -   **Don't confirm commit buttons (including Cancel).** Doing so can be annoying. Exceptions:
     -   The action has significant consequences and, if incorrect, not readily fixable.
     -   The action may result in a significant loss of the user's time or effort.
@@ -304,7 +304,7 @@ Doing so keeps the meaning of the commit buttons for the main task clear and una
     -   **Exception:** Don't provide a Cancel button for tasks where users can't make changes. The OK button has the same effect as Cancel in this case.
 -   **Don't use Close, Done, or Finish commit buttons.** These buttons are typically used with modal dialog boxes and incorrectly imply closing the control panel item window. Users can close the window using the Close button on the title bar. Also, Done and Finish are misleading because users are returned to the page where the task was launched from, so they aren't really done.
 -   **Don't disable commit buttons.** Otherwise users have to deduce why the commit buttons are disabled. It's better to leave commit buttons enabled, and give a helpful error message whenever there is a problem.
--   **Make sure the commit buttons appear on the page without scrolling.** If the page is long, you can make commit buttons always visible by placing them in a [command area](glossary.md#c), instead of in the content area.
+-   **Make sure the commit buttons appear on the page without scrolling.** If the page is long, you can make commit buttons always visible by placing them in a [command area](glossary.md), instead of in the content area.
 
     ![screen shot of autoplay dialog box ](images/winenv-ctrl-panels-image11.png)
 
@@ -315,7 +315,7 @@ Doing so keeps the meaning of the commit buttons for the main task clear and una
 **Preview buttons**
 
 -   Make sure **the Preview button means to apply the pending changes now but restore the current settings if users navigate away from the page without committing to the changes.**
--   **You can use Preview buttons on any spoke page.** Hub pages don't need Preview buttons because they use an [immediate commit model](glossary.md#i).
+-   **You can use Preview buttons on any spoke page.** Hub pages don't need Preview buttons because they use an [immediate commit model](glossary.md).
 -   **Consider using a Preview button instead of an Apply button for control panel pages.** Preview buttons are easier for users to understand and can be used on any spoke page.
 -   **Provide a Preview button only if the page has settings (at least one) with effects that users can see.** Users should be able to preview a change, evaluate the change, and make further changes based on that evaluation.
 -   **Always enable the Preview button.**
@@ -341,7 +341,7 @@ A control panel item has live preview when the effect of changes on a spoke page
 
 -   Make sure **the Apply button means apply the pending changes (made since the task was started or the last Apply), but remain on the current page.** Doing so allows users to evaluate the changes before moving on to other tasks.
 -   **Use Apply buttons only on final spoke pages.** Apply buttons should not be used on intermediate spoke pages to maintain an immediate commit model.
-    -   **Exception:** You can use Apply buttons on a hybrid hub page if changing a setting requires [elevation](glossary.md#e). For more details, see [hub page interaction](#hub-pages).
+    -   **Exception:** You can use Apply buttons on a hybrid hub page if changing a setting requires [elevation](glossary.md). For more details, see [hub page interaction](#hub-pages).
 -   **Provide an Apply button only if the page has settings (at least one) with effects that users can evaluate in a meaningful way.** Typically, Apply buttons are used when settings make visible changes. Users should be able to apply a change, evaluate the change, and make further changes based on that evaluation.
 -   **Enable the Apply button only when there are pending changes;** otherwise, disable it.
 -   **Assign "A" as the access key.**
@@ -402,7 +402,7 @@ To integrate your control panel item with Windows, you can:
 
 ### Standard users and Protected administrators
 
-**Many settings require administrator privileges to change.** If a process requires administrator privileges, Windows Vista and later requires [Standard users](glossary.md#s) and [Protected administrators](glossary.md#p) to elevate their privileges explicitly. Doing so helps prevent malicious code from running with administrator privileges.
+**Many settings require administrator privileges to change.** If a process requires administrator privileges, Windows Vista and later requires [Standard users](glossary.md) and [Protected administrators](glossary.md) to elevate their privileges explicitly. Doing so helps prevent malicious code from running with administrator privileges.
 
 For more information and examples, see [User Account Control](winenv-uac.md).
 
@@ -483,11 +483,11 @@ A scheme is a named collection of visual settings. A theme is a named collection
 
     In the correct examples, the primary control panel item features are given emphasis.
 
--   Use [title-style capitalization](glossary.md#t).
+-   Use [title-style capitalization](glossary.md).
 
 ### Page titles
 
-**Note:** As with all Explorer windows, control panel page titles are displayed on the [address bar](glossary.md#glossary), but not the title bar.
+**Note:** As with all Explorer windows, control panel page titles are displayed on the [address bar](glossary.md), but not the title bar.
 
 -   **For hub pages, use the control panel item name.**
 -   **For spoke pages, use a concise summary of the page's purpose.** Use the page's main instruction if it is concise; otherwise use a concise restatement of the main instruction.
@@ -632,7 +632,7 @@ The following guidelines apply to links to task pages, such as Category page tas
     The correct examples are technology-based terms that target users are likely to use, whereas the incorrect examples are not.
 
 -   Use plural nouns only if the system can support more than one.
--   Use [sentence-style capitalization](glossary.md#s).
+-   Use [sentence-style capitalization](glossary.md).
 -   Don't use ending punctuation.
 
 ### Main instructions
@@ -658,14 +658,14 @@ The following guidelines apply to links to task pages, such as Category page tas
     The correct version better communicates the goal achieved by the page.
 
 -   **Use specific verbs whenever possible.** Specific verbs are more meaningful to users than generic ones.
--   Use [sentence-style capitalization](glossary.md#s).
+-   Use [sentence-style capitalization](glossary.md).
 -   **Don't include final periods if the instruction is a statement.** If the instruction is a question, include a final question mark.
 
 ### Supplemental instructions
 
 -   **For the hub page, use the optional supplemental instruction to further explain the purpose of the control panel item.**
 -   **For spoke pages, use the optional supplemental instruction to present additional information helpful to understanding or using the page.** You can provide more detailed information and define terminology.
--   Use complete sentences and [sentence-style capitalization](glossary.md#s).
+-   Use complete sentences and [sentence-style capitalization](glossary.md).
 
 ### Page text
 
@@ -687,7 +687,7 @@ The following guidelines apply to links to task pages, such as Category page tas
 
 -   **Choose concise link text that clearly communicates and differentiates what the task link does.** It should be self-explanatory and correspond to the main instruction. Users shouldn't have to figure out what the link really means or how it differs from other links.
 -   **Always start task links with a verb.**
--   Use [sentence-style capitalization](glossary.md#s).
+-   Use [sentence-style capitalization](glossary.md).
 -   Don't use ending punctuation.
 -   **If the task link requires further explanation, provide the explanation in a separate text control** using complete sentences and ending punctuation. However, add such explanations only when needed don't add explanations to all task links because another task link needs one.
 
@@ -698,9 +698,9 @@ For more information and examples, see [Links](ctrl-command-links.md).
 -   **Use specific commit button labels that make sense on their own and match the main instruction.** Ideally users shouldn't have to read anything else to understand the label. Users are far more likely to read command button labels than static text.
 -   **Always start commit button labels with a verb.**
 -   **Don't use Close, Done, or Finish.** These button labels are better suited for other types of windows.
--   Use [sentence-style capitalization](glossary.md#s).
+-   Use [sentence-style capitalization](glossary.md).
 -   Don't use ending punctuation.
--   Assign a unique [access key](glossary.md#glossary).
+-   Assign a unique [access key](glossary.md).
     -   **Exception:** Don't assign access keys to Cancel buttons, because Esc is its access key. Doing so makes the other access keys easier to assign.
 
 ## Documentation

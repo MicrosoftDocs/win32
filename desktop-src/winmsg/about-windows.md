@@ -158,7 +158,7 @@ An application can size a window so that it is extremely large; however, it shou
 
 A window can have a parent window. A window that has a parent is called a *child window*. The *parent window* provides the coordinate system used for positioning a child window. Having a parent window affects aspects of a window's appearance; for example, a child window is clipped so that no part of the child window can appear outside the borders of its parent window. A window that has no parent, or whose parent is the desktop window, is called a *top-level window*. An application uses the [**EnumWindows**](/windows/desktop/api/Winuser/nf-winuser-enumwindows) function to obtain a handle to each of its top-level windows. **EnumWindows** passes the handle to each top-level window, in turn, to an application-defined callback function, [**EnumWindowsProc**](https://www.bing.com/search?q=**EnumWindowsProc**).
 
-A window can own, or be owned by, another window. An owned window always appears in front of its owner window, is hidden when its owner window is minimized, and is destroyed when its owner window is destroyed. For more information, see [Owned Windows](window-features.md#owned-windows).
+A window can own, or be owned by, another window. An owned window always appears in front of its owner window, is hidden when its owner window is minimized, and is destroyed when its owner window is destroyed. For more information, see [Owned Windows](window-features.md).
 
 ### Menu Handle or Child-Window Identifier
 

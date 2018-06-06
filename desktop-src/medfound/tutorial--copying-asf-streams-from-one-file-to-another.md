@@ -795,7 +795,7 @@ HRESULT GetPacketsFromSplitter(
 
 
 
-The `GenerateDataPackets` function gets data packets from multiplexer. For more information, see [Getting ASF Data Packets](generating-new-asf-data-packets.md#getting-asf-data-packets).
+The `GenerateDataPackets` function gets data packets from multiplexer. For more information, see [Getting ASF Data Packets](generating-new-asf-data-packets.md).
 
 
 ```C++

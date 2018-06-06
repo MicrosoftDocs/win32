@@ -121,7 +121,7 @@ A DDE data item is information related to the conversation topic exchanged betwe
 
 Applications should support the system topic at all times. This topic provides a context for information that may be of general interest to another application.
 
-Data-item values must be rendered in the [**CF\_TEXT**](standard-clipboard-formats.md#cf-text) clipboard format. Individual elements of item values for a system topic must be delimited by tab characters. The following table suggests some items for the system topic.
+Data-item values must be rendered in the [**CF\_TEXT**](standard-clipboard-formats.md) clipboard format. Individual elements of item values for a system topic must be delimited by tab characters. The following table suggests some items for the system topic.
 
 
 

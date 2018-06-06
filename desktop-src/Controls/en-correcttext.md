@@ -53,7 +53,7 @@ Returns a nonzero value to process the action.
 
 This notification code is sent only if pen capabilities are available.
 
-To receive EN\_CORRECTTEXT notification codes, specify [**ENM\_CORRECTTEXT**](rich-edit-control-event-mask-flags.md#enm-correcttext) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
+To receive EN\_CORRECTTEXT notification codes, specify [**ENM\_CORRECTTEXT**](rich-edit-control-event-mask-flags.md) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
 > [!Note]  
 > The EN\_CORRECTTEXT notification code is only supported in rich edit version 1.0. It is not supported in later versions of rich edit. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).

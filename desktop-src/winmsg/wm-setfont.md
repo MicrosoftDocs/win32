@@ -52,7 +52,7 @@ The best time for the owner of a dialog box control to set the font of the contr
 
 The size of the control does not change as a result of receiving this message. To avoid clipping text that does not fit within the boundaries of the control, the application should correct the size of the control window before it sets the font.
 
-When a dialog box uses the [DS\_SETFONT](dlgbox.about_dialog_boxes#templates) style to set the text in its controls, the system sends the **WM\_SETFONT** message to the dialog box procedure before it creates the controls. An application can create a dialog box that contains the DS\_SETFONT style by calling any of the following functions:
+When a dialog box uses the [DS\_SETFONT](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\aboutdialogboxes.htm) style to set the text in its controls, the system sends the **WM\_SETFONT** message to the dialog box procedure before it creates the controls. An application can create a dialog box that contains the DS\_SETFONT style by calling any of the following functions:
 
 -   [**CreateDialogIndirect**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogindirect.htm)
 -   [**CreateDialogIndirectParam**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogindirectparam.htm)

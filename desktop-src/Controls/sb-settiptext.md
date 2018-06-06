@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # SB\_SETTIPTEXT message
 
-Sets the tooltip text for a part in a status bar. The status bar must have been created with the [**SBT\_TOOLTIPS**](status-bar-styles.md#sbt-tooltips) style to enable tooltips.
+Sets the tooltip text for a part in a status bar. The status bar must have been created with the [**SBT\_TOOLTIPS**](status-bar-styles.md) style to enable tooltips.
 
 ## Parameters
 

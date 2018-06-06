@@ -27,12 +27,12 @@ This section includes the following topics.
 
 ## Types and Styles
 
-The default position of a status bar is along the bottom of the parent window, but you can specify the [**CCS\_TOP**](common-control-styles.md#ccs-top) style to have it appear at the top of the parent window's client area.
+The default position of a status bar is along the bottom of the parent window, but you can specify the [**CCS\_TOP**](common-control-styles.md) style to have it appear at the top of the parent window's client area.
 
-You can specify the [**SBARS\_SIZEGRIP**](status-bar-styles.md#sbars-sizegrip) style to include a sizing grip at the right end of the status bar.
+You can specify the [**SBARS\_SIZEGRIP**](status-bar-styles.md) style to include a sizing grip at the right end of the status bar.
 
 > [!Note]  
-> Combining the [**CCS\_TOP**](common-control-styles.md#ccs-top) and [**SBARS\_SIZEGRIP**](status-bar-styles.md#sbars-sizegrip) styles is not recommended because the resulting sizing grip is not functional.
+> Combining the [**CCS\_TOP**](common-control-styles.md) and [**SBARS\_SIZEGRIP**](status-bar-styles.md) styles is not recommended because the resulting sizing grip is not functional.
 
  
 
@@ -100,7 +100,7 @@ When setting the text of a simple mode status bar, you can specify any drawing t
 
 ## Default Status Bar Message Processing
 
-This section describes the messages handled by the window procedure for the predefined [**STATUSCLASSNAME**](common-control-window-classes.md#statusclassname) class.
+This section describes the messages handled by the window procedure for the predefined [**STATUSCLASSNAME**](common-control-window-classes.md) class.
 
 
 

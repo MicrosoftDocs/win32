@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using SSPI
 
-The following topics provide information about [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) tasks, procedures, and samples.
+The following topics provide information about [*Security Support Provider Interface*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SSPI) tasks, procedures, and samples.
 
 -   [Procedures Used with Most Security Packages and Protocols](procedures-used-with-most-security-packages-and-protocols.md)
 -   [Sample SSPI Code](sample-sspi-code.md)

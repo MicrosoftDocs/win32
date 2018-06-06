@@ -47,11 +47,11 @@ If you create a toolbar using [**CreateToolbarEx**](/windows/desktop/api/Commctr
 
  
 
-The [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function does not have parameters for specifying toolbar size. The toolbar window procedure automatically sets the size and position of the toolbar window. The height is based on the height of the buttons in the toolbar. The width is the same as the width of the parent window's client area. To change the automatic size settings, send a [**TB\_SETBUTTONSIZE**](tb-setbuttonsize.md) message. The [**CCS\_TOP**](common-control-styles.md#ccs-top) and [**CCS\_BOTTOM**](common-control-styles.md#ccs-bottom) common control styles determine whether the toolbar is positioned along the top or bottom of the client area. By default, a toolbar has the **CCS\_TOP** style.
+The [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function does not have parameters for specifying toolbar size. The toolbar window procedure automatically sets the size and position of the toolbar window. The height is based on the height of the buttons in the toolbar. The width is the same as the width of the parent window's client area. To change the automatic size settings, send a [**TB\_SETBUTTONSIZE**](tb-setbuttonsize.md) message. The [**CCS\_TOP**](common-control-styles.md) and [**CCS\_BOTTOM**](common-control-styles.md) common control styles determine whether the toolbar is positioned along the top or bottom of the client area. By default, a toolbar has the **CCS\_TOP** style.
 
 Also, the toolbar window procedure automatically adjusts the size of the toolbar whenever it receives a [**WM\_SIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632646) or [**TB\_AUTOSIZE**](tb-autosize.md) message. An application should send either of these messages whenever the size of the parent window changes or after sending a message that requires adjusting the size of the toolbar—for example, a [**TB\_SETBUTTONSIZE**](tb-setbuttonsize.md) message.
 
-The toolbar default sizing and positioning behaviors can be turned off by setting the [**CCS\_NORESIZE**](common-control-styles.md#ccs-noresize) and [**CCS\_NOPARENTALIGN**](common-control-styles.md#ccs-noparentalign) common control styles. Toolbar controls that are hosted by rebar controls must set these styles because the rebar control sizes and positions the toolbar.
+The toolbar default sizing and positioning behaviors can be turned off by setting the [**CCS\_NORESIZE**](common-control-styles.md) and [**CCS\_NOPARENTALIGN**](common-control-styles.md) common control styles. Toolbar controls that are hosted by rebar controls must set these styles because the rebar control sizes and positions the toolbar.
 
 ## Transparent Toolbars
 
@@ -65,7 +65,7 @@ The following screen shot shows a transparent toolbar as it might appear in Wind
 
 ![screen shot of a window in windows vista with a transparent toolbar](images/tb-transparent.png)
 
-To create a transparent toolbar, all you need to do is add [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md#tbstyle-flat) or [**TBSTYLE\_TRANSPARENT**](toolbar-control-and-button-styles.md#tbstyle-transparent) to the window style parameter of [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680). If you do not want a line to appear to indicate the bottom of the toolbar, do not use the [**WS\_BORDER**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-border) window style.
+To create a transparent toolbar, all you need to do is add [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md) or [**TBSTYLE\_TRANSPARENT**](toolbar-control-and-button-styles.md) to the window style parameter of [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680). If you do not want a line to appear to indicate the bottom of the toolbar, do not use the [**WS\_BORDER**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-border) window style.
 
 > [!Note]  
 > When using visual styles, toolbars may be flat by default.
@@ -74,13 +74,13 @@ To create a transparent toolbar, all you need to do is add [**TBSTYLE\_FLAT**](t
 
 ## List-style Toolbars
 
-Toolbar buttons enable you to display both text and bitmaps. The buttons on a toolbar created with the [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md#tbstyle-list) style place text to the right of the bitmap instead of under it.
+Toolbar buttons enable you to display both text and bitmaps. The buttons on a toolbar created with the [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md) style place text to the right of the bitmap instead of under it.
 
 The following screen shot shows a toolbar with the list style.
 
 ![screen shot of a toolbar with text to the right of each icon](images/tb-liststyle.png)
 
-You can use the [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md#tbstyle-list) toolbar style in combination with the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md#tbstyle-flat) style to create a toolbar with flat buttons.
+You can use the [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md) toolbar style in combination with the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md) style to create a toolbar with flat buttons.
 
 ## Defining Button Images
 
@@ -103,7 +103,7 @@ You can also store button images in a set of [Image Lists](image-lists.md). An i
 |          |                                                                                                                                                                                              |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Normal   | Buttons in their default state.                                                                                                                                                              |
-| Hot      | Buttons that are under the pointer or pressed. Hot items are supported only in toolbar controls that have the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md#tbstyle-flat) style. |
+| Hot      | Buttons that are under the pointer or pressed. Hot items are supported only in toolbar controls that have the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md) style. |
 | Disabled | Buttons that are disabled.                                                                                                                                                                   |
 
 
@@ -133,11 +133,11 @@ After a toolbar is created, you can add buttons by sending a [**TB\_INSERTBUTTON
 
 ### Toolbar Button Styles
 
-A button's style determines how the button appears and how it responds to user input. For instance, the [**BTNS\_BUTTON**](toolbar-control-and-button-styles.md#btns-button) style creates a toolbar button that behaves like a standard push button. A button that has the [**BTNS\_CHECK**](toolbar-control-and-button-styles.md#btns-check) style is similar to a standard push button, except it toggles between the pressed and nonpressed states each time the user clicks it.
+A button's style determines how the button appears and how it responds to user input. For instance, the [**BTNS\_BUTTON**](toolbar-control-and-button-styles.md) style creates a toolbar button that behaves like a standard push button. A button that has the [**BTNS\_CHECK**](toolbar-control-and-button-styles.md) style is similar to a standard push button, except it toggles between the pressed and nonpressed states each time the user clicks it.
 
-You can create groups of toolbar buttons that act like radio buttons by using the [**BTNS\_GROUP**](toolbar-control-and-button-styles.md#btns-group) or [**BTNS\_CHECKGROUP**](toolbar-control-and-button-styles.md#btns-checkgroup) style. This causes a button to stay pressed until the user chooses another button in the group. A group is defined as a contiguous collection of buttons, all with the **BTNS\_GROUP** or **BTNS\_CHECKGROUP** style.
+You can create groups of toolbar buttons that act like radio buttons by using the [**BTNS\_GROUP**](toolbar-control-and-button-styles.md) or [**BTNS\_CHECKGROUP**](toolbar-control-and-button-styles.md) style. This causes a button to stay pressed until the user chooses another button in the group. A group is defined as a contiguous collection of buttons, all with the **BTNS\_GROUP** or **BTNS\_CHECKGROUP** style.
 
-The [**BTNS\_SEP**](toolbar-control-and-button-styles.md#btns-sep) style creates a small gap between buttons or draws an etch between buttons on flat toolbars. A button with the **BTNS\_SEP** style does not receive user input.
+The [**BTNS\_SEP**](toolbar-control-and-button-styles.md) style creates a small gap between buttons or draws an etch between buttons on flat toolbars. A button with the **BTNS\_SEP** style does not receive user input.
 
 Version 5.80 of the common controls introduced some new toolbar button styles and renamed some of the older styles. All button style flags now begin with BTNS\_XXX instead of TBSTYLE\_XXX. For a listing and discussion of the button styles, see [Toolbar Control and Button Styles](toolbar-control-and-button-styles.md).
 
@@ -170,13 +170,13 @@ When you add a string that is longer than any string currently in the toolbar, t
 
 ## Enabling Customization
 
-A toolbar has built-in customization features that you can make available to the user by giving the toolbar the [**CCS\_ADJUSTABLE**](common-control-styles.md#ccs-adjustable) common control style. The customization features allow the user to drag a button to a new position or to remove a button by dragging it off the toolbar. In addition, the user can double-click the toolbar to display the Customize Toolbar dialog box, which allows the user to add, delete, and rearrange toolbar buttons. To display the dialog box, use the [**TB\_CUSTOMIZE**](tb-customize.md) message. An application determines whether the customization features are available to the user and controls the extent to which the user can customize the toolbar.
+A toolbar has built-in customization features that you can make available to the user by giving the toolbar the [**CCS\_ADJUSTABLE**](common-control-styles.md) common control style. The customization features allow the user to drag a button to a new position or to remove a button by dragging it off the toolbar. In addition, the user can double-click the toolbar to display the Customize Toolbar dialog box, which allows the user to add, delete, and rearrange toolbar buttons. To display the dialog box, use the [**TB\_CUSTOMIZE**](tb-customize.md) message. An application determines whether the customization features are available to the user and controls the extent to which the user can customize the toolbar.
 
 As part of the customization process, applications often need to save and restore a toolbar's state. For instance, many applications store the toolbar state before the user begins customizing the toolbar in case the user later wants to restore the toolbar to its original state. The toolbar control does not automatically keep a record of its precustomization state. Your application must save the toolbar state in order to restore it. For more information, see [Using Toolbar Controls](using-toolbar-controls.md).
 
 ## Enabling Hot-tracking
 
-Hot-tracking means that when the pointer moves over an item, the button's appearance changes. When visual styles are enabled, toolbars support hot-tracking by default. Otherwise, only toolbar controls created with the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md#tbstyle-flat) style support hot-tracking. You can use other window styles in combination with **TBSTYLE\_FLAT** to produce toolbars that enable hot-tracking but have a different appearance from a flat toolbar. For more information, see [Using Toolbar Controls](using-toolbar-controls.md).
+Hot-tracking means that when the pointer moves over an item, the button's appearance changes. When visual styles are enabled, toolbars support hot-tracking by default. Otherwise, only toolbar controls created with the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md) style support hot-tracking. You can use other window styles in combination with **TBSTYLE\_FLAT** to produce toolbars that enable hot-tracking but have a different appearance from a flat toolbar. For more information, see [Using Toolbar Controls](using-toolbar-controls.md).
 
  
 

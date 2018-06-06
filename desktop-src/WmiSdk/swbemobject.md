@@ -58,7 +58,7 @@ WScript.Echo objInstancePath.Path
 
 
 
-You can examine the repository with a viewing tool such as [CIM Studio](further-information.md#downloads) to verify that the new class and instance appear. For an example of removing a class and instance from the repository, see [**SWbemServices.Delete**](swbemservices-delete.md) or [**SWbemObject.Delete\_**](swbemobject-delete-.md).
+You can examine the repository with a viewing tool such as [CIM Studio](further-information.md) to verify that the new class and instance appear. For an example of removing a class and instance from the repository, see [**SWbemServices.Delete**](swbemservices-delete.md) or [**SWbemObject.Delete\_**](swbemobject-delete-.md).
 
 ## Members
 

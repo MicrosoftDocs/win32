@@ -137,7 +137,7 @@ Note that nonpersistent transportable shadow copies can also be imported, but th
 
 ## Including Writers or Components
 
-By default, all writers participate in shadow copy creation. To determine which writers and components will be included in a shadow copy set, use the **-wm** or **-wm2** command-line option as described in [Listing Writer Status and Metadata](vshadow-tool-and-sample.md#listing-writer-status-and-metadata).
+By default, all writers participate in shadow copy creation. To determine which writers and components will be included in a shadow copy set, use the **-wm** or **-wm2** command-line option as described in [Listing Writer Status and Metadata](vshadow-tool-and-sample.md).
 
 To verify that all of a writer's components are included, use the **-wi** optional flag in any of the following formats:
 

@@ -58,7 +58,7 @@ You can also get the language tag by querying the stream descriptor for the [**M
 [Stream Descriptor Attributes](stream-descriptor-attributes.md)
 </dt> <dt>
 
-[ASF Header Object](asf-file-structure.md#header-object)
+[ASF Header Object](asf-file-structure.md)
 </dt> </dl>
 
  

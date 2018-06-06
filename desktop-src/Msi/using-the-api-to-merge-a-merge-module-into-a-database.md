@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using the API to Merge a Merge Module into a Database
 
-[Merge modules](merge-modules.md) provide a standard method for developers to deliver shared Windows Installer [*components*](c-gly.md#-msi-component-using-windows-installer-gly) and setup logic to their applications. Merge modules must be merged into an installation package using a merge tool. The best alternative is to obtain a freely distributed merge tool or purchase one of the merging tools available from independent software vendors. For example you can use the functionality provided by [Mergemod.dll](merge-module-automation.md).
+[Merge modules](merge-modules.md) provide a standard method for developers to deliver shared Windows Installer [*components*](c-gly.md) and setup logic to their applications. Merge modules must be merged into an installation package using a merge tool. The best alternative is to obtain a freely distributed merge tool or purchase one of the merging tools available from independent software vendors. For example you can use the functionality provided by [Mergemod.dll](merge-module-automation.md).
 
 Use the following steps in sequence to merge a merge module into a Windows Installer installation database by the API of [Mergemod.dll](merge-module-automation.md).
 

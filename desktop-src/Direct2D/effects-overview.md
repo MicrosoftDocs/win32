@@ -23,13 +23,13 @@ Both the [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f069
 
 There are a range of [built-in effects](built-in-effects.md) from categories like the ones here. See the [Built-in Effects](built-in-effects.md) section for a full list.
 
--   [Filtering](built-in-effects.md#filter)
--   [Composition and Blending](built-in-effects.md#composition)
--   [Transparency](built-in-effects.md#transparency)
--   [Color](built-in-effects.md#color)
--   [Lighting and Stylizing](built-in-effects.md#lighting-and-stylizing)
--   [Transforming and Scaling](built-in-effects.md#transform)
--   [Sources](built-in-effects.md#source)
+-   [Filtering](built-in-effects.md)
+-   [Composition and Blending](built-in-effects.md)
+-   [Transparency](built-in-effects.md)
+-   [Color](built-in-effects.md)
+-   [Lighting and Stylizing](built-in-effects.md)
+-   [Transforming and Scaling](built-in-effects.md)
+-   [Sources](built-in-effects.md)
 
 You can apply effects to any bitmap, including: images loaded by the [Windows Imaging Component (WIC)](https://msdn.microsoft.com/library/windows/desktop/ee719655), primitives drawn by [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b), text from [DirectWrite](https://msdn.microsoft.com/library/windows/desktop/dd368038), or scenes rendered by [Direct3D](https://msdn.microsoft.com/library/windows/desktop/bb205066).
 

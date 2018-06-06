@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_rras_exterior_gateway_protocol_gly"></span><span id="_RRAS_EXTERIOR_GATEWAY_PROTOCOL_GLY"></span>**exterior gateway protocol (EGP)**
 </dt> <dd>
 
-An exterior gateway protocol (EGP) distributes routing information to the routers that connect [*autonomous systems*](a-gly.md#-rras-autonomous-system-gly) to a backbone. See also [*interior gateway protocol*](i-gly.md#-rras-interior-gateway-protocol-gly).
+An exterior gateway protocol (EGP) distributes routing information to the routers that connect [*autonomous systems*](a-gly.md) to a backbone. See also [*interior gateway protocol*](i-gly.md).
 
 </dd> </dl>
 

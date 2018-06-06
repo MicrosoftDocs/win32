@@ -30,15 +30,15 @@ The following information is discussed in this topic:
 
 WMI maintains namespace security by comparing the [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly) of the user connecting to the namespace with the [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) of the namespace. For more information about Windows security, see [Access to WMI Securable Objects](access-to-wmi-securable-objects.md).
 
-Be aware that, starting with Windows Vista, [User Account Control (UAC)](Http://go.microsoft.com/fwlink/p/?linkid=84440) affects access to WMI data and what can be configured with the [*WMI Control*](gloss-w.md#wmi-gloss-wmi-control). For more information, see [Default Permissions on WMI Namespaces](#default-permissions-on-wmi-namespaces) and [User Account Control and WMI](user-account-control-and-wmi.md).
+Be aware that, starting with Windows Vista, [User Account Control (UAC)](Http://go.microsoft.com/fwlink/p/?linkid=84440) affects access to WMI data and what can be configured with the [*WMI Control*](gloss-w.md). For more information, see [Default Permissions on WMI Namespaces](#default-permissions-on-wmi-namespaces) and [User Account Control and WMI](user-account-control-and-wmi.md).
 
 Access to WMI namespaces is also affected when the connection is from a remote computer. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md), [Securing a Remote WMI Connection](securing-a-remote-wmi-connection.md), and [Connecting Through Windows Firewall](https://msdn.microsoft.com/library/aa822854).
 
-Providers must rely on the impersonation setting for the connection to determine if the client script or application should receive data. For more information about script and client applications, see [Setting Client Application Process Security](setting-client-application-process-security.md). For more information about [*provider*](gloss-p.md#wmi-gloss-provider) impersonation, see [Developing a WMI Provider](developing-a-wmi-provider.md).
+Providers must rely on the impersonation setting for the connection to determine if the client script or application should receive data. For more information about script and client applications, see [Setting Client Application Process Security](setting-client-application-process-security.md). For more information about [*provider*](gloss-p.md) impersonation, see [Developing a WMI Provider](developing-a-wmi-provider.md).
 
 ## WMI Namespace Auditing
 
-WMI uses the namespace [*System access control lists (SACL)*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-system-access-control-list-gly) to audit namespace activity. To enable auditing of WMI namespaces, use the **Security** tab on the [*WMI Control*](gloss-w.md#wmi-gloss-wmi-control) to change the auditing settings for the namespace.
+WMI uses the namespace [*System access control lists (SACL)*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-system-access-control-list-gly) to audit namespace activity. To enable auditing of WMI namespaces, use the **Security** tab on the [*WMI Control*](gloss-w.md) to change the auditing settings for the namespace.
 
 Auditing is not enabled during the installation of the operating system. To enable auditing, click the **Auditing** tab in the standard **Security** window. Then you can add an auditing entry.
 

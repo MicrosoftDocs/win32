@@ -55,7 +55,7 @@ function AddWPL()
 
 <dl> <dt>
 
-[About Library Integration](download-manager-overview.md#about-library-integration)
+[About Library Integration](download-manager-overview.md)
 </dt> <dt>
 
 [**Information Common to Type 1 and Type 2 Online Stores**](information-common-to-type-1-and-type-2-online-stores.md)

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 A requester can break a shadow copy set by using the [**IVssBackupComponents::BreakSnapshotSet**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset) or [**IVssBackupComponentsEx2::BreakSnapshotSetEx**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-breaksnapshotsetex) method.
 
-A broken shadow copy is a volume that contains a shadow copy that is no longer managed by VSS. Breaking a shadow copy has meaning only if the shadow copy's [*provider*](vssgloss-p.md#base-vssgloss-provider) is a [*hardware provider*](vssgloss-h.md#base-vssgloss-hardware-based-provider). This is because only hardware providers can implement a shadow copy as an actual volume with a life cycle independent of VSS. If VSS does not manage such a volume, it still is available.
+A broken shadow copy is a volume that contains a shadow copy that is no longer managed by VSS. Breaking a shadow copy has meaning only if the shadow copy's [*provider*](vssgloss-p.md) is a [*hardware provider*](vssgloss-h.md). This is because only hardware providers can implement a shadow copy as an actual volume with a life cycle independent of VSS. If VSS does not manage such a volume, it still is available.
 
 Software providers maintain shadow copies only while involved in VSS operations. For that reason, breaking a shadow copy has no meaning for software providers.
 

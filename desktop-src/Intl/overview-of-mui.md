@@ -39,7 +39,7 @@ The need to localize software in more languages has increased over the years and
 
 ## The role of MUI in enabling multilingual computing
 
-As discussed in the previous section, [globalization](glossary-for-understanding-mui.md#globalization) and [localization](glossary-for-understanding-mui.md#localization) of applications have become a necessity in a more globally integrated world. In particular, as more and more enterprises are going global, either internally or through their business networks, the need for multi-lingual applications is increasing dramatically. So are the hurdles that these companies currently face in deploying these applications globally.
+As discussed in the previous section, [globalization](glossary-for-understanding-mui.md) and [localization](glossary-for-understanding-mui.md) of applications have become a necessity in a more globally integrated world. In particular, as more and more enterprises are going global, either internally or through their business networks, the need for multi-lingual applications is increasing dramatically. So are the hurdles that these companies currently face in deploying these applications globally.
 
 Providing support for more languages for Windows operating systems, as well as software applications built for the Windows platform, requires new strategies which enable all major scenarios to be implemented with minimal engineering overhead.
 
@@ -47,9 +47,9 @@ MUI technology is targeted at developers and ISVs aiming to build and support mu
 
 ## Core concepts of MUI
 
-The fundamental idea behind MUI is to [separate the storage of localizable resources from application source code](mui-fundamental-concepts-explained.md#separation-of-source-code-from-language-specific-resources), so as to be able to architect any multilingual application as a combination of a language-neutral core binary and a set of language-specific localized resource files.
+The fundamental idea behind MUI is to [separate the storage of localizable resources from application source code](mui-fundamental-concepts-explained.md), so as to be able to architect any multilingual application as a combination of a language-neutral core binary and a set of language-specific localized resource files.
 
-Once application source code is stored separately from the localized resources, it becomes easy to [dynamically load the appropriate localized resources](mui-fundamental-concepts-explained.md#dynamically-loading-language-specific-resources) for a given application context based on a logic that takes into account system, user and application-level settings for the user interface language.
+Once application source code is stored separately from the localized resources, it becomes easy to [dynamically load the appropriate localized resources](mui-fundamental-concepts-explained.md) for a given application context based on a logic that takes into account system, user and application-level settings for the user interface language.
 
 These fundamental attributes of MUI help facilitate business scenarios such as:
 
@@ -62,9 +62,9 @@ These fundamental attributes of MUI help facilitate business scenarios such as:
 
 The level of support available for a multilingual user experience at the Windows operating system level and for multilingual application development on the Windows platform has evolved over time and across the different versions of Windows.
 
-The supported functionality [before Windows Vista](evolution-of-mui-support-across-windows-versions.md#before-windows-vista) was fairly basic, with single-language Windows images and an option to add-on Multilingual User Interface Packs in specific scenarios. No developer support for multilingual applications was available.
+The supported functionality [before Windows Vista](evolution-of-mui-support-across-windows-versions.md) was fairly basic, with single-language Windows images and an option to add-on Multilingual User Interface Packs in specific scenarios. No developer support for multilingual applications was available.
 
-[With Windows Vista](evolution-of-mui-support-across-windows-versions.md#windows-vista-and-beyond), Microsoft made a significant investment in MUI, and Windows Vista is built from the ground up on a MUI platform. While this represents a major advance in Windows localization strategy, as it is a key enabler for Microsoft to provide Windows in more languages than ever before, it is first and foremost a great advance for Windows users, developers, and customers. It provides several major benefits such as:
+[With Windows Vista](evolution-of-mui-support-across-windows-versions.md), Microsoft made a significant investment in MUI, and Windows Vista is built from the ground up on a MUI platform. While this represents a major advance in Windows localization strategy, as it is a key enabler for Microsoft to provide Windows in more languages than ever before, it is first and foremost a great advance for Windows users, developers, and customers. It provides several major benefits such as:
 
 -   A language-neutral operating system with built-in support for MUI.
 -   Configurable packaging, deployment, and installation to support multilingual scenarios.
@@ -125,13 +125,13 @@ The following table provides a detailed overview of the Windows platform support
 
 MUI positively impacts multiple aspects of the Windows ecosystem:
 
--   [Benefits for Developers](benefits-of-mui-explained.md#mui-benefits-for-developers): Numerous benefits are offered to application developers by the availability of MUI API support to build multilingual applications modeled on the same principles as the multilingual support in the core Windows operating system itself. These benefits include:
+-   [Benefits for Developers](benefits-of-mui-explained.md): Numerous benefits are offered to application developers by the availability of MUI API support to build multilingual applications modeled on the same principles as the multilingual support in the core Windows operating system itself. These benefits include:
     -   The ability to provide a display language experience that is consistent with what the operating system itself offers.
     -   The ability to easily extend the language support for an application.
     -   The ability to easily maintain and service the application.
     -   The ability to enable single-image deployment of applications by OEMs.
--   [Benefits for Enterprises](benefits-of-mui-explained.md#mui-benefits-for-enterprises): The major benefit that MUI offers for enterprises is the ability to roll out, support, and maintain the same multilingual image worldwide with a single installation. Another significant win is the ability to support multilingual desktops that offer seamless interaction to users with different language preferences.
--   [Benefits for OEMs](benefits-of-mui-explained.md#mui-benefits-for-oems): The major benefit for OEMs is the single image installation that MUI enables, with support for multiple languages, which enables a more effective management of inventory. OEMs also benefit from the MUI support for application development, as it enables them to provide value-add applications on their images while benefiting from the single image installation, as long as these applications are MUI-enabled.
+-   [Benefits for Enterprises](benefits-of-mui-explained.md): The major benefit that MUI offers for enterprises is the ability to roll out, support, and maintain the same multilingual image worldwide with a single installation. Another significant win is the ability to support multilingual desktops that offer seamless interaction to users with different language preferences.
+-   [Benefits for OEMs](benefits-of-mui-explained.md): The major benefit for OEMs is the single image installation that MUI enables, with support for multiple languages, which enables a more effective management of inventory. OEMs also benefit from the MUI support for application development, as it enables them to provide value-add applications on their images while benefiting from the single image installation, as long as these applications are MUI-enabled.
 
  
 

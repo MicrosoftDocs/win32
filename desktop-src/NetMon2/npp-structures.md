@@ -18,7 +18,7 @@ This section describes the NPP structures used by NPP methods. These structures 
 | NPP Structures                     | Description                                                                                                                      |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | [SESSIONSTATS](sessionstats.md)   | Provides session information when conversation statistics are retrieved.                                                         |
-| [STATIONSTATS](stationstats.md)   | Provides statistics about a specific [*station*](s.md#-netmon-station-gly).                                                     |
+| [STATIONSTATS](stationstats.md)   | Provides statistics about a specific [*station*](s.md).                                                     |
 | [STATISTICS](statistics.md)       | Provides network statistics when total statistics are retrieved and when the current capture has paused or stopped.              |
 | [QUERYTABLE](querytable.md)       | Indicates which computers are using Network Monitor.                                                                             |
 | [STATIONQUERY](stationquery.md)   | Provides information about a computer that is using Network Monitor. This structure is used by the NPP **QUERYTABLE** structure. |

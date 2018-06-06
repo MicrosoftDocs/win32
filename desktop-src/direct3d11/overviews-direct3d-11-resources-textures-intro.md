@@ -69,7 +69,7 @@ A texture cube is a 2D texture array that contains 6 textures, one for each face
 A 2D texture array that contains 6 textures may be read from within shaders with the cube map intrinsic functions, after they are bound to the pipeline with a cube-texture view. Texture cubes are addressed from the shader with a 3D vector pointing out from the center of the texture cube.
 
 > [!Note]  
-> Devices that you create with [**10\_1 feature level**](d3d-feature-level.md#d3d-feature-level-10-1) and above can support arrays of texture cubes in which the number of textures is equal to the number of texture cubes in an array times six. Devices that you create with [**10\_0 feature level**](d3d-feature-level.md#d3d-feature-level-10-0) support only a single texture cube of six faces. Also, Direct3D 11 does not support partial cubemaps.
+> Devices that you create with [**10\_1 feature level**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level) and above can support arrays of texture cubes in which the number of textures is equal to the number of texture cubes in an array times six. Devices that you create with [**10\_0 feature level**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level) support only a single texture cube of six faces. Also, Direct3D 11 does not support partial cubemaps.
 
  
 

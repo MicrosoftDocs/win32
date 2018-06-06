@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The configuration of restore operations actually begins during data backup, when writers specify, in their Writer Metadata Documents, how their data should be restored.
 
-These specifications, referred to either as [*restore methods*](vssgloss-r.md#base-vssgloss-restore-method) or original [*restore targets*](vssgloss-r.md#base-vssgloss-restore-target), can be modified during restore by writers setting new restore targets or by requesters restoring to new locations (see [Non-Default Backup and Restore Locations](non-default-backup-and-restore-locations.md)).
+These specifications, referred to either as [*restore methods*](vssgloss-r.md) or original [*restore targets*](vssgloss-r.md), can be modified during restore by writers setting new restore targets or by requesters restoring to new locations (see [Non-Default Backup and Restore Locations](non-default-backup-and-restore-locations.md)).
 
 By calling [**IVssCreateWriterMetadata::SetRestoreMethod**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod), a writer indicates which restore method should be used in its Writer Metadata Document. The restore method is set writer wide and applied to all files in all components that a writer manages.
 

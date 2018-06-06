@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Publishing Your Event Schema for a Classic Provider
 
-[Classic](about-event-tracing.md#providers) providers should use [Managed Object Format](https://msdn.microsoft.com/26494142-2078-4d46-a794-e43973255c2d) (MOF) to publish the layout of their event data. Consumers can then read the published layout from WMI at runtime and use it to read the event data.
+[Classic](about-event-tracing.md) providers should use [Managed Object Format](https://msdn.microsoft.com/26494142-2078-4d46-a794-e43973255c2d) (MOF) to publish the layout of their event data. Consumers can then read the published layout from WMI at runtime and use it to read the event data.
 
 If you use MOF to publish the layout of your event data in WMI, you typically create the following three types of MOF classes in the root\\wmi namespace:
 

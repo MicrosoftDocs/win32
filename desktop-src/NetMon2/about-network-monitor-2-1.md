@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Network Monitor is a component of Microsoft Systems Management Server (SMS) used to detect and troubleshoot problems on LANs, WANs, and serial links running Microsoft Remote Access Server (RAS). Network Monitor provides post-capture network data analysis.
 
-In post-capture analysis, network traffic is saved in a proprietary capture file, so that the captured data can be analyzed later. In this case, analysis can be in the form of protocol [*parsers*](p.md#-netmon-parser-gly) picking out specific network frame types and displaying the frame data in the Network Monitor UI; or analysis can be in the form of [*experts*](e.md#-netmon-expert-gly) examining the network data and displaying a report (experts may also manipulate the network data).
+In post-capture analysis, network traffic is saved in a proprietary capture file, so that the captured data can be analyzed later. In this case, analysis can be in the form of protocol [*parsers*](p.md) picking out specific network frame types and displaying the frame data in the Network Monitor UI; or analysis can be in the form of [*experts*](e.md) examining the network data and displaying a report (experts may also manipulate the network data).
 
 Network Monitor provides the following types of functionality:
 

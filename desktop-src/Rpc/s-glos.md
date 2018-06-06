@@ -26,35 +26,35 @@ Ability to fully utilize the additional processing power on a multiprocessor sys
 <span id="_rpcl_spp_glos"></span><span id="_RPCL_SPP_GLOS"></span>**Sequenced Packet Protocol (SPP)**
 </dt> <dd>
 
-Banyan Vines [*connection-oriented*](c-glos.md#-rpc-connection-oriented-glos) communication protocol for routing information packets over local area networks.
+Banyan Vines [*connection-oriented*](c-glos.md) communication protocol for routing information packets over local area networks.
 
 </dd> <dt>
 
 <span id="_rpc_spx_glos"></span><span id="_RPC_SPX_GLOS"></span>**Sequenced Packet Exchange (SPX)**
 </dt> <dd>
 
-Novell NetWare [*connection-oriented*](c-glos.md#-rpc-connection-oriented-glos) communication protocol for routing information packets over local area networks and wide area networks.
+Novell NetWare [*connection-oriented*](c-glos.md) communication protocol for routing information packets over local area networks and wide area networks.
 
 </dd> <dt>
 
 <span id="_rpc_serialization_glos"></span><span id="_RPC_SERIALIZATION_GLOS"></span>**serialization**
 </dt> <dd>
 
-Process of marshaling data to (encoding) and unmarshaling data from (decoding) buffers that you control. This is in contrast to traditional RPC usage, where the stubs and the RPC runtime control the marshaling buffers. Also called pickling. See also [*procedure serialization*](p-glos.md#-rpc-procedure-serialization-glos), [*type serialization*](t-glos.md#-rpc-type-serialization-glos).
+Process of marshaling data to (encoding) and unmarshaling data from (decoding) buffers that you control. This is in contrast to traditional RPC usage, where the stubs and the RPC runtime control the marshaling buffers. Also called pickling. See also [*procedure serialization*](p-glos.md), [*type serialization*](t-glos.md).
 
 </dd> <dt>
 
 <span id="_rpc_server_stub_glos"></span><span id="_RPC_SERVER_STUB_GLOS"></span>**server stub**
 </dt> <dd>
 
-MIDL-generated C-language source code that contains all the functions necessary for the server application to handle remote requests using local procedure calls. See also [*client stub*](c-glos.md#-rpc-client-stub-glos).
+MIDL-generated C-language source code that contains all the functions necessary for the server application to handle remote requests using local procedure calls. See also [*client stub*](c-glos.md).
 
 </dd> <dt>
 
 <span id="_rpc_session_glos"></span><span id="_RPC_SESSION_GLOS"></span>**session**
 </dt> <dd>
 
-Established relationship between a client application and a server application. See also [*bind*](b-glos.md#-rpc-bind-glos), [*binding handle*](b-glos.md#-rpc-binding-handle-glos).
+Established relationship between a client application and a server application. See also [*bind*](b-glos.md), [*binding handle*](b-glos.md).
 
 </dd> <dt>
 
@@ -68,14 +68,14 @@ Remote procedure that is part of the client side of a distributed application, t
 <span id="_rpc_static_identity_tracking_glos"></span><span id="_RPC_STATIC_IDENTITY_TRACKING_GLOS"></span>**static identity tracking**
 </dt> <dd>
 
-Static identity tracking specifies that the RPC run-time uses the security credentials in the client's binding handle for all RPC calls. See also [*dynamic identity tracking*](d-glos.md#-rpc-dynamic-identity-tracking-glos).
+Static identity tracking specifies that the RPC run-time uses the security credentials in the client's binding handle for all RPC calls. See also [*dynamic identity tracking*](d-glos.md).
 
 </dd> <dt>
 
 <span id="_rpc_string_binding_glos"></span><span id="_RPC_STRING_BINDING_GLOS"></span>**string binding**
 </dt> <dd>
 
-Character string that consists of the object [*UUID*](u-glos.md#-rpc-uuid-glos), [*protocol sequence*](p-glos.md#-rpc-protocol-sequence-glos), [*network address*](n-glos.md#-rpc-network-address-glos), [*endpoint*](e-glos.md#-rpc-endpoint-glos), and endpoint options, all of which can be used to create a [*binding handle*](b-glos.md#-rpc-binding-handle-glos) to the specified server.
+Character string that consists of the object [*UUID*](u-glos.md), [*protocol sequence*](p-glos.md), [*network address*](n-glos.md), [*endpoint*](e-glos.md), and endpoint options, all of which can be used to create a [*binding handle*](b-glos.md) to the specified server.
 
 </dd> <dt>
 

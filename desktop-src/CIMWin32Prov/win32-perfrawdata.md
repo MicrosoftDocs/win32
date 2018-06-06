@@ -221,7 +221,7 @@ This property is inherited from [**Win32\_Perf**](win32-perf.md).
 
 The **Win32\_PerfRawData** class is derived from [**Win32\_Perf**](win32-perf.md), which is derived from [**CIM\_StatisticalInformation**](cim-statisticalinformation.md).
 
-All classes derived from [**Win32\_Perf**](win32-perf.md) are designed to be used with a [*refresher*](wmi.gloss_r#wmi-gloss-refresher) object. For more information about how to create and use a refresher object in the C++ programming language, see [Accessing Performance Data in C++](https://msdn.microsoft.com/ee0a2ead-f53a-4651-a287-04a62eba3f84). For more information about how to create and use a refresher object in a script programming language, see [Refreshing WMI Data in Scripts](https://msdn.microsoft.com/b34567f5-9349-4580-97d5-723759805d88).
+All classes derived from [**Win32\_Perf**](win32-perf.md) are designed to be used with a [*refresher*](https://msdn.microsoft.com/fb74ccf0-8092-40a7-89eb-ce9123ff9b8b) object. For more information about how to create and use a refresher object in the C++ programming language, see [Accessing Performance Data in C++](https://msdn.microsoft.com/ee0a2ead-f53a-4651-a287-04a62eba3f84). For more information about how to create and use a refresher object in a script programming language, see [Refreshing WMI Data in Scripts](https://msdn.microsoft.com/b34567f5-9349-4580-97d5-723759805d88).
 
 ## Requirements
 

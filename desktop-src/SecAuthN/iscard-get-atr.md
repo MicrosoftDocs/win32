@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **get\_Atr** method is available for use in the operating systems specified in the Requirements section. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **get\_Atr** method retrieves an [*ATR string*](security.a_gly#-security-atr-string-gly) of the [*smart card*](security.s_gly#-security-smart-card-gly).
+The **get\_Atr** method retrieves an [*ATR string*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) of the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50).
 
 ## Syntax
 
@@ -56,7 +56,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Examples
 

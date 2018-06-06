@@ -124,7 +124,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="even">
 <td>1021</td>
 <td>Product: %1 - Update '%2' could not be removed. Error code %3.</td>
-<td>Error message indicating that the installer was unable to remove the update. For information on how to turn on logging, see [Enable verbose logging on user's computer when troubleshooting deployment.](windows-installer-best-practices.md#enable-verbose-logging-on-users-computer-when-troubleshooting-deployment)<strong>Windows Installer 2.0:</strong> Not available.<br/></td>
+<td>Error message indicating that the installer was unable to remove the update. For information on how to turn on logging, see [Enable verbose logging on user's computer when troubleshooting deployment.](windows-installer-best-practices.md)<strong>Windows Installer 2.0:</strong> Not available.<br/></td>
 </tr>
 <tr class="odd">
 <td>1022</td>
@@ -139,7 +139,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <tr class="odd">
 <td>1024</td>
 <td>Product: %1 - Update '%2' could not be installed. Error code %3.</td>
-<td>Error message indicating that the installer was unable to install the update. For information on how to turn logging on, see [Enable verbose logging on user's computer when troubleshooting deployment.](windows-installer-best-practices.md#enable-verbose-logging-on-users-computer-when-troubleshooting-deployment)<strong>Windows Installer 2.0:</strong> Not available.<br/></td>
+<td>Error message indicating that the installer was unable to install the update. For information on how to turn logging on, see [Enable verbose logging on user's computer when troubleshooting deployment.](windows-installer-best-practices.md)<strong>Windows Installer 2.0:</strong> Not available.<br/></td>
 </tr>
 <tr class="even">
 <td>1025</td>

@@ -56,7 +56,7 @@ The following procedure describes how to register for system registry events.
 
     The System Registry provider does not guarantee that all sent events are delivered. For more information, see [Receiving Registry Events](receiving-registry-events.md).
 
-The following VBScript code example shows how to detect a registry change in the **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Microsoft** hive or subtree. This is a monitoring script that, for demonstration purposes, runs in a process named Wscript.exe until it is terminated in **Task Manager**, WMI is stopped, or the operating system is rebooted. The script uses a [*semisynchronous*](gloss-s.md#wmi-gloss-semisynchronous) call to [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md). For more information about semisynchronous calls, see [Making a Semisynchronous Call with VBScript](making-a-semisynchronous-call-with-vbscript.md).
+The following VBScript code example shows how to detect a registry change in the **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Microsoft** hive or subtree. This is a monitoring script that, for demonstration purposes, runs in a process named Wscript.exe until it is terminated in **Task Manager**, WMI is stopped, or the operating system is rebooted. The script uses a [*semisynchronous*](gloss-s.md) call to [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md). For more information about semisynchronous calls, see [Making a Semisynchronous Call with VBScript](making-a-semisynchronous-call-with-vbscript.md).
 
 
 ```VB

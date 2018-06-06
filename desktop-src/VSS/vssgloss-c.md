@@ -26,14 +26,14 @@ An entity entrusted to issue certificates asserting that the recipient individua
 <span id="base.vssgloss_client_accessible_shadow_copy"></span><span id="BASE.VSSGLOSS_CLIENT_ACCESSIBLE_SHADOW_COPY"></span>**client-accessible shadow copy**
 </dt> <dd>
 
-A shadow copy created by the system provider to support Shadow Copies for Shared Folders and other rollback mechanisms, which allow clients to see old versions of files and undo mistakes without requiring a full restore. A client-accessible shadow copy is created using the **VSS\_CTX\_CLIENT\_ACCESSIBLE** value of the [**\_VSS\_SNAPSHOT\_CONTEXT**](/windows/desktop/api/Vss/ne-vss-_vss_snapshot_context) enumeration. In addition, the VSS\_VOLSNAP\_ATTR\_CLIENT\_ACCESSIBLE value of the [**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](/windows/desktop/api/Vss/ne-vss-_vss_volume_snapshot_attributes) enumeration is set automatically for client-accessible shadow copies. See also [*Shadow Copies for Shared Folders*](vssgloss-s.md#base-vssgloss-shadow-copies-for-shared-folders).
+A shadow copy created by the system provider to support Shadow Copies for Shared Folders and other rollback mechanisms, which allow clients to see old versions of files and undo mistakes without requiring a full restore. A client-accessible shadow copy is created using the **VSS\_CTX\_CLIENT\_ACCESSIBLE** value of the [**\_VSS\_SNAPSHOT\_CONTEXT**](/windows/desktop/api/Vss/ne-vss-_vss_snapshot_context) enumeration. In addition, the VSS\_VOLSNAP\_ATTR\_CLIENT\_ACCESSIBLE value of the [**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](/windows/desktop/api/Vss/ne-vss-_vss_volume_snapshot_attributes) enumeration is set automatically for client-accessible shadow copies. See also [*Shadow Copies for Shared Folders*](vssgloss-s.md).
 
 </dd> <dt>
 
 <span id="base.vssgloss_component"></span><span id="BASE.VSSGLOSS_COMPONENT"></span>**component**
 </dt> <dd>
 
-A group of files, defined by a writer, that must be handled as a unit during backup and restore operations. See also [*database component*](vssgloss-d.md#base-vssgloss-database-component), [*file group component*](vssgloss-f.md#base-vssgloss-file-group-component).
+A group of files, defined by a writer, that must be handled as a unit during backup and restore operations. See also [*database component*](vssgloss-d.md), [*file group component*](vssgloss-f.md).
 
 </dd> <dt>
 
@@ -47,14 +47,14 @@ A situation in which a component (and the component set it defines) managed by o
 <span id="base.vssgloss_component_mode"></span><span id="BASE.VSSGLOSS_COMPONENT_MODE"></span>**component mode**
 </dt> <dd>
 
-A mode in which a backup or restore operation makes use of a writer's component information. See also [*selectable component*](vssgloss-s.md#base-vssgloss-selectable-component).
+A mode in which a backup or restore operation makes use of a writer's component information. See also [*selectable component*](vssgloss-s.md).
 
 </dd> <dt>
 
 <span id="base.vssgloss_component_set"></span><span id="BASE.VSSGLOSS_COMPONENT_SET"></span>**component set**
 </dt> <dd>
 
-A group of components with at least one selectable (for either backup or restore) component and a number of nonselectable components organized in a hierarchy by their logical paths. The implicit participation in a backup or restore operation depends on the explicit inclusion of the top-level selectable component. Only the component information of this selectable component is included in the Backup Components Document. A component set may include selectable and nonselectable subcomponents. See also [*logical path*](vssgloss-l.md#base-vssgloss-logical-path), [*selectable component*](vssgloss-s.md#base-vssgloss-selectable-component).
+A group of components with at least one selectable (for either backup or restore) component and a number of nonselectable components organized in a hierarchy by their logical paths. The implicit participation in a backup or restore operation depends on the explicit inclusion of the top-level selectable component. Only the component information of this selectable component is included in the Backup Components Document. A component set may include selectable and nonselectable subcomponents. See also [*logical path*](vssgloss-l.md), [*selectable component*](vssgloss-s.md).
 
 </dd> <dt>
 

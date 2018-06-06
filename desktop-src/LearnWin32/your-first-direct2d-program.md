@@ -15,7 +15,7 @@ Let's create our first Direct2D program. The program does not do anything fancy 
 
 ![a screen shot of the circle program.](images/graphics08.png)
 
-Here is the code listing for the Circle program. The program re-uses the `BaseWindow` class that was defined in the topic [Managing Application State](managing-application-state-.md#an-object-oriented-approach). Later topics will examine the code in detail.
+Here is the code listing for the Circle program. The program re-uses the `BaseWindow` class that was defined in the topic [Managing Application State](managing-application-state-.md). Later topics will examine the code in detail.
 
 
 ```C++

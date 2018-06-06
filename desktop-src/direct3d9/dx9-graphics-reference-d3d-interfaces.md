@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 This section contains reference information for the Component Object Model (COM) interfaces provided by Microsoft Direct3D 9.
 
 > [!Note]  
-> Direct3D Windows Store apps can't use the Direct3D 9 API. Instead, use the Microsoft Direct3D 11 or later API with [feature level](direct3d11.overviews_direct3d_11_devices_downlevel_intro#overview) 9\_x.
+> Direct3D Windows Store apps can't use the Direct3D 9 API. Instead, use the Microsoft Direct3D 11 or later API with [feature level](https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2) 9\_x.
 
  
 

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 To retrieve the properties of a task, call [**ITaskScheduler::Activate**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-activate) to get retrieve the interface of the task object, then call the appropriate [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) method to retrieve the task property that you are interested in. The code examples listed at the bottom of the page show how to retrieve the different task properties.
 
-The code examples listed at the bottom of the page show how to retrieve the properties that are unique to task objects. For other [*work item*](w.md#-msb-work-items-gly) properties that also apply to tasks, see [Retrieving Work Item Examples](retrieving-work-item-property-examples.md).
+The code examples listed at the bottom of the page show how to retrieve the properties that are unique to task objects. For other [*work item*](w.md) properties that also apply to tasks, see [Retrieving Work Item Examples](retrieving-work-item-property-examples.md).
 
 > [!Note]  
 > In the following code example, all interfaces are released after they are no longer needed.
@@ -41,8 +41,8 @@ The following procedure describes how to retrieve a task property.
 | Retrieving the name of the application associated with a given task                                                                             | [C/C++ Code Example: Retrieving the Task Application Name](c-c-code-example-retrieving-the-task-application-name.md)   |
 | Retrieving the maximum amount of time the task can run and displaying that number on the screen                                                 | [C/C++ Code Example: Retrieving the Task MaxRunTime](c-c-code-example-retrieving-the-task-maxruntime.md)               |
 | Retrieving the parameter string that is executed when the task is run and displaying that string on the screen                                  | [C/C++ Code Example: Retrieving Task Parameters](c-c-code-example-retrieving-task-parameters.md)                       |
-| Retrieving the [*priority level*](p.md#-msb-priority-level-gly) of the task                                                                    | [C/C++ Code Example: Retrieving Task Priority](c-c-code-example-retrieving-task-priority.md)                           |
-| Retrieving the [*working directory*](w.md#-msb-working-directory-gly) of a task and displaying the path to the working directory on the screen | [C/C++ Code Example: Retrieving the Task Working Directory](c-c-code-example-retrieving-the-task-working-directory.md) |
+| Retrieving the [*priority level*](p.md) of the task                                                                    | [C/C++ Code Example: Retrieving Task Priority](c-c-code-example-retrieving-task-priority.md)                           |
+| Retrieving the [*working directory*](w.md) of a task and displaying the path to the working directory on the screen | [C/C++ Code Example: Retrieving the Task Working Directory](c-c-code-example-retrieving-the-task-working-directory.md) |
 
 
 

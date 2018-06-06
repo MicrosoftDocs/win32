@@ -63,7 +63,7 @@ If the function is unsuccessful, the return value is minus one (-1).
 
 If the *AddressType* parameter is set to ADDRESS\_TYPE\_ETHERNET, the return value of the **GetFrameDstAddressOffset** function is always zero. The offset of an Ethernet address is always zero.
 
-[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetFrameDstAddressOffset** function.
+[*Experts*](e.md) and [*parsers*](p.md) can call the **GetFrameDstAddressOffset** function.
 
 ## Requirements
 

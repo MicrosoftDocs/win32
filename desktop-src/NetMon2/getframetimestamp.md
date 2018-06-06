@@ -45,7 +45,7 @@ If the function is unsuccessful, the return value is minus one (-1).
 
 The **GetFrameTimeStamp** function returns a time stamp that shows the elapsed time between the start of the capture process, and the recording of the frame.
 
-[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetFrameTimeStamp** function.
+[*Experts*](e.md) and [*parsers*](p.md) can call the **GetFrameTimeStamp** function.
 
 ## Requirements
 

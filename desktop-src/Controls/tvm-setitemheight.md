@@ -30,7 +30,7 @@ Sets the height of the tree-view items. You can send this message explicitly or 
 *wParam* 
 </dt> <dd>
 
-New height of every item in the tree view, in pixels. Heights less than 1 will be set to 1. If this argument is not even and the tree-view control does not have the [**TVS\_NONEVENHEIGHT**](tree-view-control-window-styles.md#tvs-nonevenheight) style, this value will be rounded down to the nearest even value. If this argument is -1, the control will revert to using its default item height.
+New height of every item in the tree view, in pixels. Heights less than 1 will be set to 1. If this argument is not even and the tree-view control does not have the [**TVS\_NONEVENHEIGHT**](tree-view-control-window-styles.md) style, this value will be rounded down to the nearest even value. If this argument is -1, the control will revert to using its default item height.
 
 </dd> <dt>
 

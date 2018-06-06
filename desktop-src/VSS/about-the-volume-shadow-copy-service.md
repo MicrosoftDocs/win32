@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The Volume Shadow Copy Service (VSS) captures and copies stable images for backup on running systems, particularly servers, without unduly degrading the performance and stability of the services they provide.
 
-The VSS solution is designed to enable developers to create services ([*writers*](vssgloss-w.md#base-vssgloss-writer)) that can be effectively backed up by any vendor's backup application using VSS ([*requesters*](vssgloss-r.md#base-vssgloss-requester)).
+The VSS solution is designed to enable developers to create services ([*writers*](vssgloss-w.md)) that can be effectively backed up by any vendor's backup application using VSS ([*requesters*](vssgloss-r.md)).
 
 -   [Common Volume Backup Issues](common-volume-backup-issues.md)
 -   [The VSS Model](the-vss-model.md)

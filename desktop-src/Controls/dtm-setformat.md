@@ -35,7 +35,7 @@ Sets the display of a date and time picker (DTP) control based on a given format
 *lParam* 
 </dt> <dd>
 
-A pointer to a zero-terminated [format string](date-and-time-picker-controls.md#format-strings) that defines the desired display. Setting this parameter to **NULL** will reset the control to the default format string for the current style.
+A pointer to a zero-terminated [format string](date-and-time-picker-controls.md) that defines the desired display. Setting this parameter to **NULL** will reset the control to the default format string for the current style.
 
 </dd> </dl>
 

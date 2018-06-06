@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 # D3DGetInputAndOutputSignatureBlob function
 
 > [!Note]  
-> **D3DGetInputAndOutputSignatureBlob** may be altered or unavailable for releases after Windows 8.1. Instead use [**D3DGetBlobPart**](d3dgetblobpart.md) with the [**D3D\_BLOB\_INPUT\_AND\_OUTPUT\_SIGNATURE\_BLOB**](d3d-blob-part.md#d3d-blob-input-and-output-signature-blob) value.
+> **D3DGetInputAndOutputSignatureBlob** may be altered or unavailable for releases after Windows 8.1. Instead use [**D3DGetBlobPart**](d3dgetblobpart.md) with the [**D3D\_BLOB\_INPUT\_AND\_OUTPUT\_SIGNATURE\_BLOB**](d3d-blob-part.md) value.
 
  
 

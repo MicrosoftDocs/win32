@@ -49,7 +49,7 @@ A protocol that defines how clients interact with a network authentication servi
 
 A BLOB containing an encrypted private key. Key BLOBs provide a way to store keys outside the CSP. Key BLOBs are created by exporting an existing key from the CSP by calling the **CryptExportKey** function. Later, the key BLOB can be imported into a provider (often a different CSP on a different computer) by calling the **CryptImportKey** function. This creates a key in the CSP that is a duplicate of the one that was exported.
 
-See also [*simple key BLOB*](s-gly.md#-security-simple-key-blob-gly), [*public key BLOB*](p-gly.md#-security-public-key-blob-gly), and [*private key BLOB*](p-gly.md#-security-private-key-blob-gly).
+See also [*simple key BLOB*](s-gly.md), [*public key BLOB*](p-gly.md), and [*private key BLOB*](p-gly.md).
 
 </dd> <dt>
 
@@ -58,7 +58,7 @@ See also [*simple key BLOB*](s-gly.md#-security-simple-key-blob-gly), [*public k
 
 The format of the key BLOB when a public or session key is exported from a CSP. The format is specified by the provider type of the exporting CSP. A key BLOB is created by calling **CryptExportKey**.
 
-See also [*public key BLOB*](p-gly.md#-security-public-key-blob-gly) and [*simple key BLOB*](s-gly.md#-security-simple-key-blob-gly).
+See also [*public key BLOB*](p-gly.md) and [*simple key BLOB*](s-gly.md).
 
 </dd> <dt>
 
@@ -125,7 +125,7 @@ A set of functions used to exchange or transmit keys. Key exchange functions can
 <span id="_security_key_exchange_key_pair_gly"></span><span id="_SECURITY_KEY_EXCHANGE_KEY_PAIR_GLY"></span>**key-exchange key pair**
 </dt> <dd>
 
-See [*exchange key pair*](e-gly.md#-security-exchange-key-pair-gly).
+See [*exchange key pair*](e-gly.md).
 
 </dd> <dt>
 
@@ -134,7 +134,7 @@ See [*exchange key pair*](e-gly.md#-security-exchange-key-pair-gly).
 
 The private key of an exchange key pair.
 
-See also [*exchange key pair*](e-gly.md#-security-exchange-key-pair-gly).
+See also [*exchange key pair*](e-gly.md).
 
 </dd> <dt>
 
@@ -150,7 +150,7 @@ A protocol by which two parties exchange information to establish a shared secre
 
 The public key of an exchange key pair.
 
-See also [*exchange key pair*](e-gly.md#-security-exchange-key-pair-gly).
+See also [*exchange key pair*](e-gly.md).
 
 </dd> <dt>
 
@@ -178,7 +178,7 @@ A private key and its related public key.
 <span id="_security_key_storage_provider_gly"></span><span id="_SECURITY_KEY_STORAGE_PROVIDER_GLY"></span>**key storage provider**
 </dt> <dd>
 
-(KSP) An independent software module that implements functionality to create, manage, store, and retrieve [*private keys*](p-gly.md#-security-private-key-gly).
+(KSP) An independent software module that implements functionality to create, manage, store, and retrieve [*private keys*](p-gly.md).
 
 </dd> <dt>
 

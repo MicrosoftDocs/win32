@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Based on the return code from a previous call to [**AcceptSecurityContext (General)**](/windows/desktop/api/Sspi/), the server can wait for a response from the client and can participate in additional exchanges with the client. To continue the authentication protocol, the server repeats calls to **AcceptSecurityContext (General)**.
 
-The status returned by [**AcceptSecurityContext (General)**](/windows/desktop/api/Sspi/) is checked to see if the server needs to wait for additional messages from the client. In most authentication protocols, there is a maximum number of exchanges even for mutual authentication. Currently, both the NTLM and [*Kerberos protocols*](security.k_gly#-security-kerberos-protocol-gly) do mutual authentication with three exchanges.
+The status returned by [**AcceptSecurityContext (General)**](/windows/desktop/api/Sspi/) is checked to see if the server needs to wait for additional messages from the client. In most authentication protocols, there is a maximum number of exchanges even for mutual authentication. Currently, both the NTLM and [*Kerberos protocols*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33) do mutual authentication with three exchanges.
 
  
 

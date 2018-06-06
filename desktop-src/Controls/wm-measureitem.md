@@ -59,7 +59,7 @@ If an application processes this message, it should return **TRUE**.
 
 ## Remarks
 
-When the owner window receives the **WM\_MEASUREITEM** message, the owner fills in the [**MEASUREITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagmeasureitemstruct) structure pointed to by the *lParam* parameter of the message and returns; this informs the system of the dimensions of the control. If a list box or combo box is created with the [**LBS\_OWNERDRAWVARIABLE**](list-box-styles.md#lbs-ownerdrawvariable) or [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style, this message is sent to the owner for each item in the control; otherwise, this message is sent once.
+When the owner window receives the **WM\_MEASUREITEM** message, the owner fills in the [**MEASUREITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagmeasureitemstruct) structure pointed to by the *lParam* parameter of the message and returns; this informs the system of the dimensions of the control. If a list box or combo box is created with the [**LBS\_OWNERDRAWVARIABLE**](list-box-styles.md) or [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md) style, this message is sent to the owner for each item in the control; otherwise, this message is sent once.
 
 The system sends the **WM\_MEASUREITEM** message to the owner window of combo boxes and list boxes created with the OWNERDRAWFIXED style before sending the [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428) message. As a result, when the owner receives this message, the system has not yet determined the height and width of the font used in the control; function calls and calculations requiring these values should occur in the main function of the application or library.
 

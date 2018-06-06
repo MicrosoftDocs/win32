@@ -45,7 +45,7 @@ The device uses an external power source.
 
 ## Remarks
 
-This enumeration is used by the [WPD\_DEVICE\_POWER\_SOURCE](device-properties.md#wpd-device-power-source) property.
+This enumeration is used by the [WPD\_DEVICE\_POWER\_SOURCE](device-properties.md) property.
 
 ## Requirements
 

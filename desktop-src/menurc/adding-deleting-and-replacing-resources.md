@@ -19,7 +19,7 @@ If an appropriate dialog box exists in binary form, however, the developer can c
 
 After an update handle to an executable file is created by [**BeginUpdateResource**](/windows/desktop/api/Winbase/nf-winbase-beginupdateresourcea), an application can use [**UpdateResource**](/windows/desktop/api/Winbase/nf-winbase-updateresourcea) repeatedly to make changes to the resource data. Each call to **UpdateResource** contributes to an internal list of additions, deletions, and replacements but does not actually write the data to the executable file. Immediately before closing the update handle, [**EndUpdateResource**](/windows/desktop/api/Winbase/nf-winbase-endupdateresourcea) writes the accumulated changes to the executable file.
 
-Sometimes, an application must copy resources from another file. [Updating Resources](using-resources.md#updating-resources) shows an example of obtaining the resource data and its size from a file.
+Sometimes, an application must copy resources from another file. [Updating Resources](using-resources.md) shows an example of obtaining the resource data and its size from a file.
 
  
 

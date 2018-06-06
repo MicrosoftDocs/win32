@@ -58,7 +58,7 @@ Time, in seconds, that the RR can be cached by a DNS resolver.
 *SerialNumber* \[in, optional\]
 </dt> <dd>
 
-SOA serial number representing the number of times the zone has been updated, used by [*secondary servers*](s-gly.md#-dns-secondary-server-gly) to determine whether zone transfer is necessary.
+SOA serial number representing the number of times the zone has been updated, used by [*secondary servers*](s-gly.md) to determine whether zone transfer is necessary.
 
 </dd> <dt>
 

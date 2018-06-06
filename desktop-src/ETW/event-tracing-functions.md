@@ -37,7 +37,7 @@ Event trace controllers use the following functions to manage event tracing sess
 
  
 
-[Classic](about-event-tracing.md#providers) event trace providers use the following functions to generate events.
+[Classic](about-event-tracing.md) event trace providers use the following functions to generate events.
 
 
 
@@ -58,7 +58,7 @@ Event trace controllers use the following functions to manage event tracing sess
 
  
 
-[Manifest-based](about-event-tracing.md#providers) event trace providers use the following functions to generate events.
+[Manifest-based](about-event-tracing.md) event trace providers use the following functions to generate events.
 
 
 

@@ -335,7 +335,7 @@ For more guidelines, see [User Account Control](winenv-uac.md).
 
     A typical progress page.
 
--   **Use a single, determinate progress bar.** Follow the [determinate progress bar guidelines](progress-bars.md#determinate-progress-bars), including:
+-   **Use a single, determinate progress bar.** Follow the [determinate progress bar guidelines](progress-bars.md), including:
     -   Clearly indicate completion. Don't let a progress bar go to 100 percent unless the operation has completed.
     -   Don't restart progress. A progress bar loses its value if it restarts (perhaps because a step in the operation completes) because users have no way of knowing when the operation will complete. Instead, have all the steps in the operation share a portion of the progress and have the progress bar go to completion once.
 -   **Provide a concise description of the current step above the progress bar.** For quick installations, such text is unnecessary; the progress bar alone is sufficient. For installations requiring a minute or longer, text can be helpful for users attending the setup.
@@ -390,7 +390,7 @@ For more guidelines, see [User Account Control](winenv-uac.md).
 ### Leaving users in control
 
 -   **Don't gather personal information, such as that used for marketing purposes.** Setup isn't an opportunity to push your own agenda, cross-sell other program offerings, or conduct market research; you can damage the trust relationship with your users this way.
--   **Don't force users to opt out of installing optional features.** Allow them to [opt in](glossary.md#o) instead. For example, users should explicitly choose to install a Windows Desktop Gadget.
+-   **Don't force users to opt out of installing optional features.** Allow them to [opt in](glossary.md) instead. For example, users should explicitly choose to install a Windows Desktop Gadget.
 -   **Allow users to add or remove optional features using the setup program after initial setup.** Users can perform this task using the **Uninstall or change a program** control panel item.
 -   **For customer experience improvement initiatives, explain what data is transmitted, how it is used, and how long it is kept.** Use a link to a privacy statement Help topic for this purpose.
 -   **Avoid using sound,** because many installation scenarios are unattended, and because sound can be unnecessarily distracting even during attended installations.

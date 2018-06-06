@@ -53,14 +53,14 @@ The caret supports the following [**IAccessible**](/windows/desktop/api/oleacc/n
 </tr>
 <tr class="odd">
 <td>[<strong>get_accRole</strong>](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole)</td>
-<td>The <strong>Role</strong> property is [<strong>ROLE_SYSTEM_CARET</strong>](object-roles.md#role-system-caret).</td>
+<td>The <strong>Role</strong> property is [<strong>ROLE_SYSTEM_CARET</strong>](object-roles.md).</td>
 </tr>
 <tr class="even">
 <td>[<strong>get_accState</strong>](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate)</td>
 <td>Possible values for the <strong>State</strong> property include:
 <ul>
 <li>Zero, which means the caret is visible</li>
-<li>[<strong>STATE_SYSTEM_INVISIBLE</strong>](object-state-constants.md#state-system-invisible)</li>
+<li>[<strong>STATE_SYSTEM_INVISIBLE</strong>](object-state-constants.md)</li>
 </ul></td>
 </tr>
 </tbody>
@@ -73,7 +73,7 @@ The caret supports the following [**IAccessible**](/windows/desktop/api/oleacc/n
 ## Notes
 
 -   Unlike other UI elements, the caret object does not have an associated window handle. To obtain access to the caret object, clients must set a [*WinEventProc*](/windows/desktop/api/Winuser/nc-winuser-wineventproc) and wait for the caret object to generate events.
--   The caret object in the rich edit control provided by Riched20.dll (which is used in text editors such as Microsoft WordPad in Windows 98) does not send any [WinEvents](winevents-collision169.md) when its position is changed during text selection. When users press SHIFT and arrow keys to select text, the caret object does not trigger the [**EVENT\_OBJECT\_LOCATIONCHANGE**](event-constants.md#event-object-locationchange) WinEvent. Similarly, when the selection is set programmatically through rich edit messages, the caret object does not send any events to indicate its new position.
+-   The caret object in the rich edit control provided by Riched20.dll (which is used in text editors such as Microsoft WordPad in Windows 98) does not send any [WinEvents](winevents-collision169.md) when its position is changed during text selection. When users press SHIFT and arrow keys to select text, the caret object does not trigger the [**EVENT\_OBJECT\_LOCATIONCHANGE**](event-constants.md) WinEvent. Similarly, when the selection is set programmatically through rich edit messages, the caret object does not send any events to indicate its new position.
 
     All applications that use Riched20.dll exhibit this problem. Applications using earlier versions of the rich edit control correctly send events based on the selection.
 

@@ -29,7 +29,7 @@ In Windows Vista and later, notifications are displayed for a fixed duration of 
 
 To decide, consider these questions:
 
--   **Is the information the immediate, direct result of users' interaction with your application?** If so, display this synchronous information directly within your application instead using a [dialog box](win-dialog-box.md), [message box](glossary.md#m), [balloon](ctrl-balloons.md), or [in place](glossary.md#i) UI. Notifications are for asynchronous information only.
+-   **Is the information the immediate, direct result of users' interaction with your application?** If so, display this synchronous information directly within your application instead using a [dialog box](win-dialog-box.md), [message box](glossary.md), [balloon](ctrl-balloons.md), or [in place](glossary.md) UI. Notifications are for asynchronous information only.
 
 ![screen shot of windows security alert ](images/mess-notif-image2.png)
 
@@ -44,7 +44,7 @@ In this example, Outlook displays its connection and synchronization state on it
 -   **Is the information rapidly changing, continuous, real-time information?** Examples include processing progress, stock quotes, and sports scores. If so, don't use notifications because they aren't suitable for rapidly changing information.
 -   **Is the information useful and relevant? Are users likely to change their behavior or avoid inconvenience as the result of receiving the information?** If not, either don't display the information or put it in a status window or log file.
 -   **Is the information critical? Is immediate action required?** If so, display the information using an interface that demands attention and cannot be easily ignored, such as a modal dialog box or message box. If the program isn't active, you can draw attention to the critical information by [flashing the program's taskbar button](winenv-taskbar.md) three times and leaving it highlighted until the program is active.
--   **Are the primary target users IT professionals?** If so, use an alternative feedback mechanism such as [log file](glossary.md#l) entries or e-mail messages. IT professionals strongly prefer log files for non-critical information. Furthermore, servers are often managed remotely and typically run without any users logged on, making notifications ineffective.
+-   **Are the primary target users IT professionals?** If so, use an alternative feedback mechanism such as [log file](glossary.md) entries or e-mail messages. IT professionals strongly prefer log files for non-critical information. Furthermore, servers are often managed remotely and typically run without any users logged on, making notifications ineffective.
 
 ## Design concepts
 
@@ -76,7 +76,7 @@ In Flow: The Psychology of Optimal Experience, Mihaly Csikszentmihalyi says that
 
 **Effective notifications help users maintain their flow by presenting useful, relevant information that can easily be ignored.** The notifications are presented in a low-key, peripheral way, and they don't require interaction.
 
-Don't assume that if notifications are [modeless](glossary.md#m) a they can't be an annoying interruption. Notifications don't demand users' attention, but they certainly request it. You can break users flow by:
+Don't assume that if notifications are [modeless](glossary.md) a they can't be an annoying interruption. Notifications don't demand users' attention, but they certainly request it. You can break users flow by:
 
 -   Displaying notifications that users don't care about.
 -   Displaying a notification too often.
@@ -112,7 +112,7 @@ As the battery power becomes lower, Windows warns users of weak battery power us
 
 In this example, Windows power management uses a notification to tell users that their battery power is weak.
 
-This notification appears while users still have several options. Users can plug in, change their power options, wrap up their work and shut down the computer, or ignore the notification and continue working. As the battery power continues to drain, the notification's text and icon reflect the additional urgency. However, once the battery power becomes so low that users must act immediately, Windows power management notifies users using a [modal](glossary.md#m) message box.
+This notification appears while users still have several options. Users can plug in, change their power options, wrap up their work and shut down the computer, or ignore the notification and continue working. As the battery power continues to drain, the notification's text and icon reflect the additional urgency. However, once the battery power becomes so low that users must act immediately, Windows power management notifies users using a [modal](glossary.md) message box.
 
 ![screen shot of seriously low-battery-power warning](images/mess-notif-image9.png)
 
@@ -340,7 +340,7 @@ In this example, users can quickly comprehend the nature of the notification wit
 -   **Include essential information in the body text, such as specific object names.** (Examples: user names, file names, or URLs.) Users shouldn't have to open another window to find such information.
 -   **Put double quotation marks around object names.**
     -   **Exception:** Don't use quotation marks when:
-        -   The object name always uses [title-style capitalization](glossary.md#t), such as with user names.
+        -   The object name always uses [title-style capitalization](glossary.md), such as with user names.
         -   The object name is offset with a colon (example: Printer name: My printer).
         -   The object name can be easily determined from the context.
 -   **If you must truncate object names to a fixed maximum size to accommodate localization, use an ellipsis to indicate truncation.**

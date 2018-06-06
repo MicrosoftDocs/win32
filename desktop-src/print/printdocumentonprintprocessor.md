@@ -49,7 +49,7 @@ If the operation succeeds, the function should return **TRUE**. If the operation
 
 ## Remarks
 
-Print processors are required to export a `PrintDocumentOnPrintProcessor` function. The spooler calls the function after calling [**OpenPrintProcessor**](openprintprocessor.md). The function's purpose is to read the contents of the file named by *pDocumentName*, convert (if necessary) the file's data to a data stream that can be read by printer hardware, and to send the data stream back to the spooler. The spooler can then send the data stream to the appropriate [*print monitor*](wdkgloss.p#wdkgloss-print-monitor).
+Print processors are required to export a `PrintDocumentOnPrintProcessor` function. The spooler calls the function after calling [**OpenPrintProcessor**](openprintprocessor.md). The function's purpose is to read the contents of the file named by *pDocumentName*, convert (if necessary) the file's data to a data stream that can be read by printer hardware, and to send the data stream back to the spooler. The spooler can then send the data stream to the appropriate [*print monitor*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c).
 
 If the input format is NT-based operating system EMF, the `PrintDocumentOnPrintProcessor` function can call [GDI functions for print processors](gdi-functions-for-print-processors.md). For more information, see [Processing a Print Job](https://www.bing.com/search?q=Processing+a+Print+Job).
 

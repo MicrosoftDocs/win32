@@ -95,7 +95,7 @@ To create an Automation SAFEARRAY of unsigned characters (bytes), call [**Create
 [**ISCardTypeConv**](iscardtypeconv.md)
 </dt> <dt>
 
-[Smart Card Return Values](authentication-return-values.md#smart-card-return-values)
+[Smart Card Return Values](authentication-return-values.md)
 </dt> <dt>
 
 [**CreateByteArray**](iscardtypeconv-createbytearray.md)

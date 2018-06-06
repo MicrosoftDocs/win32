@@ -64,7 +64,7 @@ Client applications subscribe to events of a particular kind by registering an e
 
  
 
-When a client adds an event handler for all descendants ([**TreeScope\_Descendants**](uiauto-treescopeenum.md#treescope-descendants)), UI Automation adds only one handler for the root of sub-tree, and the handler listens across all descendents. UI Automation does not add event handlers recursively.
+When a client adds an event handler for all descendants ([**TreeScope\_Descendants**](/windows/desktop/api/UIAutomationClient/ne-uiautomationclient-treescope)), UI Automation adds only one handler for the root of sub-tree, and the handler listens across all descendents. UI Automation does not add event handlers recursively.
 
 When a client calls the [**IUIAutomation::RemoveAllEventHandlers**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomation-removealleventhandlers) method, UI Automation removes all event handlers from the client process.
 

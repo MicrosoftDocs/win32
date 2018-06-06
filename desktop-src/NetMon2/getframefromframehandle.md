@@ -60,7 +60,7 @@ The **GetFrameFromFrameHandle** function retrieves data that cannot be retrieved
 [**GetFrameTimeStamp**](getframetimestamp.md)  
 </dl>
 
-[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetFrameFromFrameHandle** function.
+[*Experts*](e.md) and [*parsers*](p.md) can call the **GetFrameFromFrameHandle** function.
 
 ## Requirements
 

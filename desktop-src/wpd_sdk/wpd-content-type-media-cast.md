@@ -22,45 +22,45 @@ This type of object supports the following properties.
 |                                                                                                                       |                                                                       |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | **Property Name**                                                                                                     | **Required or Optional**                                              |
-| [WPD\_OBJECT\_ID](object-properties.md#wpd-object-id)                                                                | Required.                                                             |
-| [WPD\_OBJECT\_PARENT\_ID](object-properties.md#wpd-object-parent-id)                                                 | Required.                                                             |
-| [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                                                            | Required if the object represents a file.                             |
-| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](object-properties.md#wpd-object-persistent-unique-id)                          | Required.                                                             |
-| [WPD\_OBJECT\_FORMAT](object-properties.md#wpd-object-format)                                                        | Required.                                                             |
-| [WPD\_OBJECT\_CONTENT\_TYPE](object-properties.md#wpd-object-content-type)                                           | Required.                                                             |
-| [WPD\_OBJECT\_ISHIDDEN](object-properties.md#wpd-object-ishidden)                                                    | Required if the object is hidden.                                     |
-| [WPD\_OBJECT\_ISSYSTEM](object-properties.md#wpd-object-issystem)                                                    | Required if the object is a system object (represents a system file). |
-| [WPD\_OBJECT\_SIZE](object-properties.md#wpd-object-size)                                                            | Required if the object has at least one resource.                     |
-| [WPD\_OBJECT\_ORIGINAL\_FILE\_NAME](object-properties.md#wpd-object-original-file-name)                              | Required if the object represents a file.                             |
-| [WPD\_OBJECT\_NON\_CONSUMABLE](object-properties.md#wpd-object-non-consumable)                                       | Recommended if the object is not meant for consumption by the device. |
-| [WPD\_OBJECT\_REFERENCES](object-properties.md#wpd-object-references)                                                | Required if the object has references to other objects.               |
-| [WPD\_OBJECT\_KEYWORDS](object-properties.md#wpd-object-keywords)                                                    | Optional.                                                             |
-| [WPD\_OBJECT\_SYNC\_ID](object-properties.md#wpd-object-sync-id)                                                     | Optional.                                                             |
-| [WPD\_OBJECT\_IS\_DRM\_PROTECTED](object-properties.md#wpd-object-is-drm-protected)                                  | Required if the object is protected by DRM technology.                |
-| [WPD\_OBJECT\_DATE\_CREATED](object-properties.md#wpd-object-date-created)                                           | Optional.                                                             |
-| [WPD\_OBJECT\_DATE\_MODIFIED](object-properties.md#wpd-object-date-modified)                                         | Recommended.                                                          |
-| [WPD\_OBJECT\_DATE\_AUTHORED](object-properties.md#wpd-object-date-authored)                                         | Optional.                                                             |
-| [WPD\_OBJECT\_BACK\_REFERENCES](object-properties.md#wpd-object-back-references)                                     | Recommended if the object is referenced by another object.            |
-| [WPD\_OBJECT\_CONTAINER\_FUNCTIONAL\_OBJECT\_ID](object-properties.md#wpd-object-container-functional-object-id)     | Optional.                                                             |
-| [WPD\_OBJECT\_GENERATE\_THUMBNAIL\_FROM\_RESOURCE](object-properties.md#wpd-object-generate-thumbnail-from-resource) | Optional.                                                             |
-| [WPD\_OBJECT\_CAN\_DELETE](object-properties.md#wpd-object-can-delete)                                               | Required if the object can be deleted.                                |
+| [WPD\_OBJECT\_ID](object-properties.md)                                                                | Required.                                                             |
+| [WPD\_OBJECT\_PARENT\_ID](object-properties.md)                                                 | Required.                                                             |
+| [WPD\_OBJECT\_NAME](object-properties.md)                                                            | Required if the object represents a file.                             |
+| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](object-properties.md)                          | Required.                                                             |
+| [WPD\_OBJECT\_FORMAT](object-properties.md)                                                        | Required.                                                             |
+| [WPD\_OBJECT\_CONTENT\_TYPE](object-properties.md)                                           | Required.                                                             |
+| [WPD\_OBJECT\_ISHIDDEN](object-properties.md)                                                    | Required if the object is hidden.                                     |
+| [WPD\_OBJECT\_ISSYSTEM](object-properties.md)                                                    | Required if the object is a system object (represents a system file). |
+| [WPD\_OBJECT\_SIZE](object-properties.md)                                                            | Required if the object has at least one resource.                     |
+| [WPD\_OBJECT\_ORIGINAL\_FILE\_NAME](object-properties.md)                              | Required if the object represents a file.                             |
+| [WPD\_OBJECT\_NON\_CONSUMABLE](object-properties.md)                                       | Recommended if the object is not meant for consumption by the device. |
+| [WPD\_OBJECT\_REFERENCES](object-properties.md)                                                | Required if the object has references to other objects.               |
+| [WPD\_OBJECT\_KEYWORDS](object-properties.md)                                                    | Optional.                                                             |
+| [WPD\_OBJECT\_SYNC\_ID](object-properties.md)                                                     | Optional.                                                             |
+| [WPD\_OBJECT\_IS\_DRM\_PROTECTED](object-properties.md)                                  | Required if the object is protected by DRM technology.                |
+| [WPD\_OBJECT\_DATE\_CREATED](object-properties.md)                                           | Optional.                                                             |
+| [WPD\_OBJECT\_DATE\_MODIFIED](object-properties.md)                                         | Recommended.                                                          |
+| [WPD\_OBJECT\_DATE\_AUTHORED](object-properties.md)                                         | Optional.                                                             |
+| [WPD\_OBJECT\_BACK\_REFERENCES](object-properties.md)                                     | Recommended if the object is referenced by another object.            |
+| [WPD\_OBJECT\_CONTAINER\_FUNCTIONAL\_OBJECT\_ID](object-properties.md)     | Optional.                                                             |
+| [WPD\_OBJECT\_GENERATE\_THUMBNAIL\_FROM\_RESOURCE](object-properties.md) | Optional.                                                             |
+| [WPD\_OBJECT\_CAN\_DELETE](object-properties.md)                                               | Required if the object can be deleted.                                |
 | [WPD\_OBJECT\_LANGUAGE\_LOCALE](object-properties.md)                                                                | Required if the object cannot be deleted.                             |
-| [WPD\_MEDIA\_COPYRIGHT](media-properties.md#wpd-media-copyright)                                                     | Optional.                                                             |
-| [WPD\_MEDIA\_PARENTAL\_RATING](media-properties.md#wpd-media-parental-rating)                                        | Optional.                                                             |
-| [WPD\_MEDIA\_META\_GENRE](media-properties.md#wpd-media-meta-genre)                                                  | Optional.                                                             |
-| [WPD\_MEDIA\_SUB\_TITLE](media-properties.md#wpd-media-sub-title)                                                    | Optional.                                                             |
-| [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md#wpd-media-release-date)                                              | Recommended.                                                          |
-| [WPD\_MEDIA\_TITLE](media-properties.md#wpd-media-title)                                                             | Recommended.                                                          |
-| [WPD\_MEDIA\_OWNER](media-properties.md#wpd-media-owner)                                                             | Recommended.                                                          |
-| [WPD\_MEDIA\_MANAGING\_EDITOR](media-properties.md#wpd-media-managing-editor)                                        | Recommended.                                                          |
-| [WPD\_MEDIA\_WEBMASTER](media-properties.md#wpd-media-webmaster)                                                     | Recommended.                                                          |
-| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md#wpd-media-source-url)                                                  | Recommended.                                                          |
-| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url)                                        | Recommended.                                                          |
-| [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)                                                 | Optional.                                                             |
-| [WPD\_MEDIA\_GENRE](media-properties.md#wpd-media-genre)                                                             | Optional.                                                             |
-| [WPD\_MEDIA\_OBJECT\_BOOKMARK](media-properties.md#wpd-media-object-bookmark)                                        | Recommended                                                           |
-| [WPD\_MEDIA\_LAST\_BUILD\_DATE](media-properties.md#wpd-media-last-build-date)                                       | Recommended.                                                          |
-| [WPD\_MEDIA\_TIME\_TO\_LIVE](media-properties.md#wpd-media-time-to-live)                                             | Optional.                                                             |
+| [WPD\_MEDIA\_COPYRIGHT](media-properties.md)                                                     | Optional.                                                             |
+| [WPD\_MEDIA\_PARENTAL\_RATING](media-properties.md)                                        | Optional.                                                             |
+| [WPD\_MEDIA\_META\_GENRE](media-properties.md)                                                  | Optional.                                                             |
+| [WPD\_MEDIA\_SUB\_TITLE](media-properties.md)                                                    | Optional.                                                             |
+| [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md)                                              | Recommended.                                                          |
+| [WPD\_MEDIA\_TITLE](media-properties.md)                                                             | Recommended.                                                          |
+| [WPD\_MEDIA\_OWNER](media-properties.md)                                                             | Recommended.                                                          |
+| [WPD\_MEDIA\_MANAGING\_EDITOR](media-properties.md)                                        | Recommended.                                                          |
+| [WPD\_MEDIA\_WEBMASTER](media-properties.md)                                                     | Recommended.                                                          |
+| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md)                                                  | Recommended.                                                          |
+| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md)                                        | Recommended.                                                          |
+| [WPD\_MEDIA\_DESCRIPTION](media-properties.md)                                                 | Optional.                                                             |
+| [WPD\_MEDIA\_GENRE](media-properties.md)                                                             | Optional.                                                             |
+| [WPD\_MEDIA\_OBJECT\_BOOKMARK](media-properties.md)                                        | Recommended                                                           |
+| [WPD\_MEDIA\_LAST\_BUILD\_DATE](media-properties.md)                                       | Recommended.                                                          |
+| [WPD\_MEDIA\_TIME\_TO\_LIVE](media-properties.md)                                             | Optional.                                                             |
 | [WPD\_MEDIA\_SUB\_DESCRIPTION](object-properties.md)                                                                 | Optional.                                                             |
 
 
@@ -152,24 +152,24 @@ The following table lists the channel elements in an RSS feed and the correspond
 |                     |                          |                                                                                 |
 |---------------------|--------------------------|---------------------------------------------------------------------------------|
 | **Channel Element** | **RSS Feed Requirement** | **Corresponding Mediacast Property**                                            |
-| category            | Optional.                | [WPD\_MEDIA\_GENRE](media-properties.md#wpd-media-genre)                       |
+| category            | Optional.                | [WPD\_MEDIA\_GENRE](media-properties.md)                       |
 | cloud               | Not applicable.          | Not applicable.                                                                 |
-| copyright           | Optional.                | [WPD\_MEDIA\_COPYRIGHT](media-properties.md#wpd-media-copyright)               |
-| description         | Required.                | [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)           |
+| copyright           | Optional.                | [WPD\_MEDIA\_COPYRIGHT](media-properties.md)               |
+| description         | Required.                | [WPD\_MEDIA\_DESCRIPTION](media-properties.md)           |
 | docs                | Not applicable.          | Not applicable.                                                                 |
 | generator           | Not applicable.          | Not applicable.                                                                 |
 | language            | Not applicable.          | Not applicable.                                                                 |
-| lastBuildDate       | Optional.                | [WPD\_MEDIA\_LAST\_BUILD\_DATE](media-properties.md#wpd-media-last-build-date) |
-| link                | Required.                | [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url)  |
-| managingEditor      | Optional.                | [WPD\_MEDIA\_MANAGING\_EDITOR](media-properties.md#wpd-media-managing-editor)  |
-| pubDate             | Optional.                | [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md#wpd-media-release-date)        |
+| lastBuildDate       | Optional.                | [WPD\_MEDIA\_LAST\_BUILD\_DATE](media-properties.md) |
+| link                | Required.                | [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md)  |
+| managingEditor      | Optional.                | [WPD\_MEDIA\_MANAGING\_EDITOR](media-properties.md)  |
+| pubDate             | Optional.                | [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md)        |
 | rating              | Not applicable.          | Not applicable.                                                                 |
 | skipDays            | Not applicable.          | Not applicable.                                                                 |
 | skipHours           | Not applicable.          | Not applicable.                                                                 |
 | textInput           | Not applicable.          | Not applicable.                                                                 |
-| title               | Required.                | [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                      |
-| ttl                 | Optional.                | [WPD\_MEDIA\_TIME\_TO\_LIVE](media-properties.md#wpd-media-time-to-live)       |
-| webMaster           | Optional.                | [WPD\_MEDIA\_WEBMASTER](media-properties.md#wpd-media-webmaster)               |
+| title               | Required.                | [WPD\_OBJECT\_NAME](object-properties.md)                      |
+| ttl                 | Optional.                | [WPD\_MEDIA\_TIME\_TO\_LIVE](media-properties.md)       |
+| webMaster           | Optional.                | [WPD\_MEDIA\_WEBMASTER](media-properties.md)               |
 
 
 
@@ -182,12 +182,12 @@ The following table lists the image elements in an RSS feed and the correspondin
 |                   |                          |                                                                                |
 |-------------------|--------------------------|--------------------------------------------------------------------------------|
 | **Image Element** | **RSS Feed Requirement** | **Mediacast Property**                                                         |
-| description       | Optional.                | [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)          |
-| height            | Optional.                | [WPD\_MEDIA\_HEIGHT](media-properties.md#wpd-media-height)                    |
-| link              | Optional.                | [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url) |
-| title             | Optional.                | [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                     |
-| url               | Optional.                | [WPD\_MEDIA\_SOURCE\_URL](media-properties.md#wpd-media-source-url)           |
-| width             | Optional.                | [WPD\_MEDIA\_WIDTH](media-properties.md#wpd-media-width)                      |
+| description       | Optional.                | [WPD\_MEDIA\_DESCRIPTION](media-properties.md)          |
+| height            | Optional.                | [WPD\_MEDIA\_HEIGHT](media-properties.md)                    |
+| link              | Optional.                | [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md) |
+| title             | Optional.                | [WPD\_OBJECT\_NAME](object-properties.md)                     |
+| url               | Optional.                | [WPD\_MEDIA\_SOURCE\_URL](media-properties.md)           |
+| width             | Optional.                | [WPD\_MEDIA\_WIDTH](media-properties.md)                      |
 
 
 
@@ -200,20 +200,20 @@ The following table lists the item elements in an RSS feed and the corresponding
 |                  |               |                          |                                                                                |
 |------------------|---------------|--------------------------|--------------------------------------------------------------------------------|
 | **Item Element** | **Attribute** | **RSS Feed Requirement** | **Mediacast Property**                                                         |
-| author           |               | Optional.                | [WPD\_MEDIA\_ARTIST](media-properties.md#wpd-media-artist)                    |
-| category         |               | Optional.                | [WPD\_MEDIA\_GENRE](media-properties.md#wpd-media-genre)                      |
+| author           |               | Optional.                | [WPD\_MEDIA\_ARTIST](media-properties.md)                    |
+| category         |               | Optional.                | [WPD\_MEDIA\_GENRE](media-properties.md)                      |
 |                  | domain        | Not applicable.          | Not applicable.                                                                |
-| description      |               | Optional.                | [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)          |
+| description      |               | Optional.                | [WPD\_MEDIA\_DESCRIPTION](media-properties.md)          |
 | enclosure        |               | Optional.                |                                                                                |
-|                  | url           | Required.                | [WPD\_MEDIA\_SOURCE\_URL](media-properties.md#wpd-media-source-url)           |
-|                  | length        | Required.                | [WPD\_OBJECT\_SIZE](object-properties.md#wpd-object-size)                     |
+|                  | url           | Required.                | [WPD\_MEDIA\_SOURCE\_URL](media-properties.md)           |
+|                  | length        | Required.                | [WPD\_OBJECT\_SIZE](object-properties.md)                     |
 |                  | type          | Required.                | (The MIME type should be mapped to the property content type.)                 |
-| guid             |               | Optional.                | [WPD\_MEDIA\_GUID](media-properties.md#wpd-media-guid)                        |
+| guid             |               | Optional.                | [WPD\_MEDIA\_GUID](media-properties.md)                        |
 |                  | isPermaLink   | Not applicable.          | Not applicable.                                                                |
-| link             |               | Optional.                | [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url) |
-| pubDate          |               | Optional.                | [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md#wpd-media-release-date)       |
+| link             |               | Optional.                | [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md) |
+| pubDate          |               | Optional.                | [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md)       |
 | source           |               | Not applicable.          | Not applicable.                                                                |
-| title            |               | Optional.                | [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                     |
+| title            |               | Optional.                | [WPD\_OBJECT\_NAME](object-properties.md)                     |
 
 
 
@@ -279,29 +279,29 @@ The following table describes how the values in the RSS channel elements in the 
 |                                                                                              |                                                                                               |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | **WPD Property**                                                                             | **Value**                                                                                     |
-| [WPD\_MEDIA\_COPYRIGHT](media-properties.md#wpd-media-copyright)                            | 2006 Lucerne Publishing LP, LLLP. All Rights Reserved.                                        |
-| [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)                        | Lucerne Publishing CEO Peter Bankov takes a look at the latest trends in online publications. |
-| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url)               | http://www.lucernepublishing.com/services/podcasting                                          |
-| [WPD\_MEDIA\_GENRE](media-properties.md#wpd-media-genre)                                    | News                                                                                          |
-| [WPD\_MEDIA\_LAST\_BUILD\_DATE](media-properties.md#wpd-media-last-build-date)              | Fri, 9 June 2006 14:00:28 EDT                                                                 |
-| [WPD\_MEDIA\_MANAGING\_EDITOR](media-properties.md#wpd-media-managing-editor)               | someone@example.com                                                                           |
-| [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md#wpd-media-release-date)                     | Fri, 9 June 2006 14:00:28 EDT                                                                 |
-| [WPD\_MEDIA\_TIME\_TO\_LIVE](media-properties.md#wpd-media-time-to-live)                    | 240                                                                                           |
-| [WPD\_MEDIA\_TITLE](media-properties.md#wpd-media-title)                                    | The Digital Publication                                                                       |
-| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md#wpd-media-source-url)                         | http://www.lucernepublishing/services/podcasting/digital.publication/rss.xml                  |
-| [WPD\_MEDIA\_WEBMASTER](media-properties.md#wpd-media-webmaster)                            | someone@example.com                                                                           |
-| [WPD\_OBJECT\_CONTENT\_TYPE](object-properties.md#wpd-object-content-type)                  | WPD\_CONTENT\_TYPE\_MEDIA\_CAST                                                               |
-| [WPD\_OBJECT\_DATE\_AUTHORED](object-properties.md#wpd-object-date-authored)                | Fri, 9 June 2006 14:00:28 EDT                                                                 |
-| [WPD\_OBJECT\_DATE\_CREATED](object-properties.md#wpd-object-date-created)                  | Fri, 9 June 2006 14:00:28 EDT                                                                 |
-| [WPD\_OBJECT\_DATE\_MODIFIED](object-properties.md#wpd-object-date-modified)                | Fri, 9 June 2006 14:00:28 EDT                                                                 |
-| [WPD\_OBJECT\_FORMAT](object-properties.md#wpd-object-format)                               | WPD\_OBJECT\_FORMAT\_ABSTRACT\_MEDIA\_CAST                                                    |
-| [WPD\_OBJECT\_ID](object-properties.md#wpd-object-id)                                       | Session dependent value.                                                                      |
-| [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                                   | The Digital Publication                                                                       |
-| [WPD\_OBJECT\_ORIGINAL\_FILE\_NAME](object-properties.md#wpd-object-original-file-name)     | The Digital Publication                                                                       |
-| [WPD\_OBJECT\_PARENT\_ID](object-properties.md#wpd-object-parent-id)                        | MyPodcasts (a fictitious podcast folder on the device). Assume "0A0" for this example.        |
-| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](object-properties.md#wpd-object-persistent-unique-id) | Session independent value. (Assume "0A1" for this example.)                                   |
-| [WPD\_OBJECT\_REFERENCES](object-properties.md#wpd-object-references)                       | 0A2  for N items<br/>                                                                   |
-| [WPD\_OBJECT\_SIZE](object-properties.md#wpd-object-size)                                   | 13,790                                                                                        |
+| [WPD\_MEDIA\_COPYRIGHT](media-properties.md)                            | 2006 Lucerne Publishing LP, LLLP. All Rights Reserved.                                        |
+| [WPD\_MEDIA\_DESCRIPTION](media-properties.md)                        | Lucerne Publishing CEO Peter Bankov takes a look at the latest trends in online publications. |
+| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md)               | http://www.lucernepublishing.com/services/podcasting                                          |
+| [WPD\_MEDIA\_GENRE](media-properties.md)                                    | News                                                                                          |
+| [WPD\_MEDIA\_LAST\_BUILD\_DATE](media-properties.md)              | Fri, 9 June 2006 14:00:28 EDT                                                                 |
+| [WPD\_MEDIA\_MANAGING\_EDITOR](media-properties.md)               | someone@example.com                                                                           |
+| [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md)                     | Fri, 9 June 2006 14:00:28 EDT                                                                 |
+| [WPD\_MEDIA\_TIME\_TO\_LIVE](media-properties.md)                    | 240                                                                                           |
+| [WPD\_MEDIA\_TITLE](media-properties.md)                                    | The Digital Publication                                                                       |
+| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md)                         | http://www.lucernepublishing/services/podcasting/digital.publication/rss.xml                  |
+| [WPD\_MEDIA\_WEBMASTER](media-properties.md)                            | someone@example.com                                                                           |
+| [WPD\_OBJECT\_CONTENT\_TYPE](object-properties.md)                  | WPD\_CONTENT\_TYPE\_MEDIA\_CAST                                                               |
+| [WPD\_OBJECT\_DATE\_AUTHORED](object-properties.md)                | Fri, 9 June 2006 14:00:28 EDT                                                                 |
+| [WPD\_OBJECT\_DATE\_CREATED](object-properties.md)                  | Fri, 9 June 2006 14:00:28 EDT                                                                 |
+| [WPD\_OBJECT\_DATE\_MODIFIED](object-properties.md)                | Fri, 9 June 2006 14:00:28 EDT                                                                 |
+| [WPD\_OBJECT\_FORMAT](object-properties.md)                               | WPD\_OBJECT\_FORMAT\_ABSTRACT\_MEDIA\_CAST                                                    |
+| [WPD\_OBJECT\_ID](object-properties.md)                                       | Session dependent value.                                                                      |
+| [WPD\_OBJECT\_NAME](object-properties.md)                                   | The Digital Publication                                                                       |
+| [WPD\_OBJECT\_ORIGINAL\_FILE\_NAME](object-properties.md)     | The Digital Publication                                                                       |
+| [WPD\_OBJECT\_PARENT\_ID](object-properties.md)                        | MyPodcasts (a fictitious podcast folder on the device). Assume "0A0" for this example.        |
+| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](object-properties.md) | Session independent value. (Assume "0A1" for this example.)                                   |
+| [WPD\_OBJECT\_REFERENCES](object-properties.md)                       | 0A2  for N items<br/>                                                                   |
+| [WPD\_OBJECT\_SIZE](object-properties.md)                                   | 13,790                                                                                        |
 
 
 
@@ -316,17 +316,17 @@ The following table describes how the values in the RSS Image elements in the pr
 |                                                                                                                         |                                                     |
 |-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | **WPD Property**                                                                                                        | **Value**                                           |
-| [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)                                                   | Lucerne Logo                                        |
-| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url)                                          | http://www.lucernepublishing.com/community/podcasts |
-| [WPD\_MEDIA\_HEIGHT](media-properties.md#wpd-media-height)                                                             | 300                                                 |
-| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md#wpd-media-source-url)                                                    | http://www.lucernepublishing.com/images/logo.gif    |
-| [WPD\_MEDIA\_WIDTH](media-properties.md#wpd-media-width)                                                               | 300                                                 |
-| [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                                                              | Lucerne Publishing                                  |
-| [WPD\_RESOURCE\_ATTRIBUTE\_CAN\_DELETE](attributes.md#wpd-resource-attribute-can-delete)                               | VARIANT\_TRUE                                       |
-| [WPD\_RESOURCE\_ATTRIBUTE\_CAN\_READ](attributes.md#wpd-resource-attribute-can-read)                                   | VARIANT\_TRUE                                       |
-| [WPD\_RESOURCE\_ATTRIBUTE\_FORMAT](resource-attribute-properties.md#wpd-resource-attribute-format)                     | WPD\_OBJECT\_FORMAT\_GIF                            |
-| [WPD\_RESOURCE\_ATTRIBUTE\_OPTIMAL\_READ\_BUFFER\_SIZE](attributes.md#wpd-resource-attribute-optimal-read-buffer-size) | 1024                                                |
-| [WPD\_RESOURCE\_ATTRIBUTE\_TOTAL\_SIZE](resource-attribute-properties.md#wpd-resource-attribute-total-size)            | 512                                                 |
+| [WPD\_MEDIA\_DESCRIPTION](media-properties.md)                                                   | Lucerne Logo                                        |
+| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md)                                          | http://www.lucernepublishing.com/community/podcasts |
+| [WPD\_MEDIA\_HEIGHT](media-properties.md)                                                             | 300                                                 |
+| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md)                                                    | http://www.lucernepublishing.com/images/logo.gif    |
+| [WPD\_MEDIA\_WIDTH](media-properties.md)                                                               | 300                                                 |
+| [WPD\_OBJECT\_NAME](object-properties.md)                                                              | Lucerne Publishing                                  |
+| [WPD\_RESOURCE\_ATTRIBUTE\_CAN\_DELETE](attributes.md)                               | VARIANT\_TRUE                                       |
+| [WPD\_RESOURCE\_ATTRIBUTE\_CAN\_READ](attributes.md)                                   | VARIANT\_TRUE                                       |
+| [WPD\_RESOURCE\_ATTRIBUTE\_FORMAT](resource-attribute-properties.md)                     | WPD\_OBJECT\_FORMAT\_GIF                            |
+| [WPD\_RESOURCE\_ATTRIBUTE\_OPTIMAL\_READ\_BUFFER\_SIZE](attributes.md) | 1024                                                |
+| [WPD\_RESOURCE\_ATTRIBUTE\_TOTAL\_SIZE](resource-attribute-properties.md)            | 512                                                 |
 
 
 
@@ -341,27 +341,27 @@ The following table describes how the values in the RSS Item elements in the pre
 |                                                                                              |                                                                                                                                  |
 |----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | **WPD Property**<br/>                                                                  | **Value**                                                                                                                        |
-| [WPD\_MEDIA\_TITLE](media-properties.md#wpd-media-title)                                    | The Digital Publication                                                                                                          |
-| [WPD\_MEDIA\_DURATION](media-properties.md#wpd-media-duration)                              | 10329011                                                                                                                         |
-| [WPD\_MEDIA\_ARTIST](media-properties.md#wpd-media-artist)                                  | Lucerne                                                                                                                          |
-| [WPD\_MEDIA\_DESCRIPTION](media-properties.md#wpd-media-description)                        | Online publications are rapidly changing. A publishing house CEO examines the trends of the past 5 years and their implications. |
-| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md#wpd-media-destination-url)               | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
-| [WPD\_MEDIA\_GENRE](media-properties.md#wpd-media-genre)                                    | News                                                                                                                             |
-| [WPD\_MEDIA\_GUID](media-properties.md#wpd-media-guid)                                      | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
-| [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md#wpd-media-release-date)                     | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
-| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md#wpd-media-source-url)                         | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
-| [WPD\_OBJECT\_BACK\_REFERENCES](object-properties.md#wpd-object-back-references)            | 0A1                                                                                                                              |
-| [WPD\_OBJECT\_CONTENT\_TYPE](object-properties.md#wpd-object-content-type)                  | WPD\_CONTENT\_TYPE\_MEDIA\_IMAGE                                                                                                 |
-| [WPD\_OBJECT\_DATE\_AUTHORED](object-properties.md#wpd-object-date-authored)                | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
-| [WPD\_OBJECT\_DATE\_CREATED](object-properties.md#wpd-object-date-created)                  | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
-| [WPD\_OBJECT\_DATE\_MODIFIED](object-properties.md#wpd-object-date-modified)                | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
-| [WPD\_OBJECT\_FORMAT](object-properties.md#wpd-object-format)                               | WPD\_OBJECT\_FORMAT\_MP3                                                                                                         |
-| [WPD\_OBJECT\_ID](object-properties.md#wpd-object-id)                                       | Session dependent. (Assume "0A2" for this example.)                                                                              |
-| [WPD\_OBJECT\_NAME](object-properties.md#wpd-object-name)                                   | The Digital Publication                                                                                                          |
-| [WPD\_OBJECT\_ORIGINAL\_FILE\_NAME](object-properties.md#wpd-object-original-file-name)     | digital0601.mp3                                                                                                                  |
-| [WPD\_OBJECT\_PARENT\_ID](object-properties.md#wpd-object-parent-id)                        | 0A0                                                                                                                              |
-| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](object-properties.md#wpd-object-persistent-unique-id) | Session independent.                                                                                                             |
-| [WPD\_OBJECT\_SIZE](object-properties.md#wpd-object-size)                                   | 10329011                                                                                                                         |
+| [WPD\_MEDIA\_TITLE](media-properties.md)                                    | The Digital Publication                                                                                                          |
+| [WPD\_MEDIA\_DURATION](media-properties.md)                              | 10329011                                                                                                                         |
+| [WPD\_MEDIA\_ARTIST](media-properties.md)                                  | Lucerne                                                                                                                          |
+| [WPD\_MEDIA\_DESCRIPTION](media-properties.md)                        | Online publications are rapidly changing. A publishing house CEO examines the trends of the past 5 years and their implications. |
+| [WPD\_MEDIA\_DESTINATION\_URL](media-properties.md)               | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
+| [WPD\_MEDIA\_GENRE](media-properties.md)                                    | News                                                                                                                             |
+| [WPD\_MEDIA\_GUID](media-properties.md)                                      | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
+| [WPD\_MEDIA\_RELEASE\_DATE](media-properties.md)                     | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
+| [WPD\_MEDIA\_SOURCE\_URL](media-properties.md)                         | http://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
+| [WPD\_OBJECT\_BACK\_REFERENCES](object-properties.md)            | 0A1                                                                                                                              |
+| [WPD\_OBJECT\_CONTENT\_TYPE](object-properties.md)                  | WPD\_CONTENT\_TYPE\_MEDIA\_IMAGE                                                                                                 |
+| [WPD\_OBJECT\_DATE\_AUTHORED](object-properties.md)                | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
+| [WPD\_OBJECT\_DATE\_CREATED](object-properties.md)                  | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
+| [WPD\_OBJECT\_DATE\_MODIFIED](object-properties.md)                | Thur, 1 June 2006 14:00:28 EDT                                                                                                   |
+| [WPD\_OBJECT\_FORMAT](object-properties.md)                               | WPD\_OBJECT\_FORMAT\_MP3                                                                                                         |
+| [WPD\_OBJECT\_ID](object-properties.md)                                       | Session dependent. (Assume "0A2" for this example.)                                                                              |
+| [WPD\_OBJECT\_NAME](object-properties.md)                                   | The Digital Publication                                                                                                          |
+| [WPD\_OBJECT\_ORIGINAL\_FILE\_NAME](object-properties.md)     | digital0601.mp3                                                                                                                  |
+| [WPD\_OBJECT\_PARENT\_ID](object-properties.md)                        | 0A0                                                                                                                              |
+| [WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID](object-properties.md) | Session independent.                                                                                                             |
+| [WPD\_OBJECT\_SIZE](object-properties.md)                                   | 10329011                                                                                                                         |
 
 
 

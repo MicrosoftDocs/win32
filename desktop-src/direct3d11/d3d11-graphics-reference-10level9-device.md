@@ -641,7 +641,7 @@ Texture2D resources have limits on their width and height that differ across [fe
 
  
 
-In the previous table, the full name of **MISC\_TEXTURECUBE** is [**D3D11\_RESOURCE\_MISC\_TEXTURECUBE**](d3d11-resource-misc-flag.md#d3d11-resource-misc-texturecube).
+In the previous table, the full name of **MISC\_TEXTURECUBE** is [**D3D11\_RESOURCE\_MISC\_TEXTURECUBE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag).
 
 The following are true for all 9\_\* [feature levels](overviews-direct3d-11-devices-downlevel-intro.md):
 
@@ -731,7 +731,7 @@ If resource is D3D11\_USAGE\_DEFAULT or D3D11\_USAGE\_IMMUTABLE, BindFlags canno
 <tbody>
 <tr class="odd">
 <td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3"> Use [<strong>ID3D11Device::CheckFeatureSupport</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) with the [<strong>D3D11_FEATURE_FORMAT_SUPPORT2</strong>](d3d11-feature.md#d3d11-feature-format-support2) value and the [<strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT2</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_format_support2) structure to determine if a format can be shared. If the format can be shared, <strong>CheckFeatureSupport</strong> returns the [<strong>D3D11_FORMAT_SUPPORT2_SHAREABLE</strong>](d3d11-format-support2.md#d3d11-format-support2-shareable) flag.<br/>
+<td rowspan="3"> Use [<strong>ID3D11Device::CheckFeatureSupport</strong>](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) with the [<strong>D3D11_FEATURE_FORMAT_SUPPORT2</strong>](/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature) value and the [<strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT2</strong>](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_format_support2) structure to determine if a format can be shared. If the format can be shared, <strong>CheckFeatureSupport</strong> returns the [<strong>D3D11_FORMAT_SUPPORT2_SHAREABLE</strong>](/windows/desktop/api/D3D11/ne-d3d11-d3d11_format_support2) flag.<br/>
 <blockquote>
 [!Note]<br />
 [<strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong>](https://msdn.microsoft.com/library/windows/desktop/bb173059) and <strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong> are never shareable when using feature level 9, even if the device indicates optional feature support for <strong>D3D11_FORMAT_SUPPORT_SHAREABLE</strong>. Attempting to create shared resources with DXGI formats <strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong> and <strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong> will always fail unless the feature level is 10_0 or higher.

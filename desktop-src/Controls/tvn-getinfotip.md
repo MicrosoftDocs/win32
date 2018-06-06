@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # TVN\_GETINFOTIP notification code
 
-Sent by a tree-view control that has the [**TVS\_INFOTIP**](tree-view-control-window-styles.md#tvs-infotip) style. This notification code is sent when the control is requesting additional text information to be displayed in a tooltip. The notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a tree-view control that has the [**TVS\_INFOTIP**](tree-view-control-window-styles.md) style. This notification code is sent when the control is requesting additional text information to be displayed in a tooltip. The notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++
@@ -51,7 +51,7 @@ The control ignores the return value for this notification code.
 
 ## Remarks
 
-This notification code is only sent by tree-view controls that have the [**TVS\_INFOTIP**](tree-view-control-window-styles.md#tvs-infotip) style.
+This notification code is only sent by tree-view controls that have the [**TVS\_INFOTIP**](tree-view-control-window-styles.md) style.
 
 ## Requirements
 

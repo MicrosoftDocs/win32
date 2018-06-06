@@ -39,7 +39,7 @@ ms.date: 05/31/2018
 
 # Backing Up and Restoring of DRM Licenses
 
-With the Backup Restore feature, users can back up and restore [*licenses*](wmformat-glossary.md#wmformat-license) to the same computer or to other computers. This feature enables users to transfer licenses to a new computer or back to the same computer (after reformatting the hard disk, for example). In addition, users can play protected ASF files on more than one computer.
+With the Backup Restore feature, users can back up and restore [*licenses*](wmformat-glossary.md) to the same computer or to other computers. This feature enables users to transfer licenses to a new computer or back to the same computer (after reformatting the hard disk, for example). In addition, users can play protected ASF files on more than one computer.
 
 To encourage legitimate use of a license, a fraud detection policy restricts the number of times a license can be restored. Microsoft provides a service that tracks the number of computers to which a license has been restored; if a limit is reached, the user cannot restore the license.
 
@@ -47,7 +47,7 @@ To encourage legitimate use of a license, a fraud detection policy restricts the
 
 The Backup Restore feature works only for licenses for which the Backup and Restore right is given. If content owners or license issuers do not want this feature, or if they issue licenses that contain a secure state (such as counted operations or limited time), they can disallow this right.
 
-When a license cannot be restored because a user does not have the right, a [*key ID*](wmformat-glossary.md#wmformat-key-id) is passed to the application. At a minimum, the user should be notified that some licenses could not be backed up, although the user does not know which licenses this message refers to. If you know the key ID for available protected files, you can develop a more robust solution for informing the user.
+When a license cannot be restored because a user does not have the right, a [*key ID*](wmformat-glossary.md) is passed to the application. At a minimum, the user should be notified that some licenses could not be backed up, although the user does not know which licenses this message refers to. If you know the key ID for available protected files, you can develop a more robust solution for informing the user.
 
 For example, a player could be developed for a record label that provides protected songs on the Internet. These songs and their key IDs could be tracked in a database. If some licenses could not be backed up, the player application could use the key ID to query the database for the name of the songs, then inform the user for which songs the licenses cannot be backed up. Or, a music library could be created for each user locally, and the key ID could be used to retrieve more information about which licenses could not be backed up.
 

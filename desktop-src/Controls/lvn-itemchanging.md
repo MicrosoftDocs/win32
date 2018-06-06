@@ -49,7 +49,7 @@ Returns **TRUE** to prevent the change, or **FALSE** to allow the change.
 
 ## Remarks
 
-If the list-view control has the [**LVS\_OWNERDATA**](list-view-window-styles.md#lvs-ownerdata) style, LVN\_ITEMCHANGING notification codes are not sent.
+If the list-view control has the [**LVS\_OWNERDATA**](list-view-window-styles.md) style, LVN\_ITEMCHANGING notification codes are not sent.
 
 ## Requirements
 

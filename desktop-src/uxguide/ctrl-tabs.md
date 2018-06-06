@@ -22,7 +22,7 @@ Tabs are usually associated with property windows (and vice versa), but tabs can
 Tab controls represent the tabbed manila folders used to organize information in filing cabinets commonly found in the United States. (Manila folders aren't used worldwide.)
 
 > [!Note]  
-> Guidelines related to [layout](vis-layout.md), [tab menus](cmd-menus.md#usage-patterns), [dialog boxes](win-dialog-box.md), and [property windows](win-property-win.md) are presented in separate articles.
+> Guidelines related to [layout](vis-layout.md), [tab menus](cmd-menus.md), [dialog boxes](win-dialog-box.md), and [property windows](win-property-win.md) are presented in separate articles.
 
  
 
@@ -36,7 +36,7 @@ To decide, consider these questions:
 -   **If used for settings, are settings on different pages completely independent?** Will changing a setting on one page affect settings on other pages? If they're not independent, use task pages or a [wizard](win-wizards.md) instead.
 -   **Are the tabs mostly peers of each other, or is there a hierarchical relationship?** If hierarchical, consider using progressive disclosure or child [dialog boxes](win-dialog-box.md) to show related information.
 -   **Are the tabs used to display steps within a task?** You can use "tabs" to display steps within a task only if they are presented to look like steps, and there is an obvious, alternative way to get to the text step, such as a Next button. Otherwise, if the steps are required, use pages in a page flow or a [wizard](win-wizards.md). If the steps are optional, display the optional steps using modal [dialog boxes](win-dialog-box.md) instead.
--   **Are the tabs different views of the same data?** If so, consider using a [split button](ctrl-command-buttons.md#usage-patterns) or [drop-down list](https://msdn.microsoft.com/library/windows/desktop/dn742404) to change views. While tabs can be used effectively for changing views, the alternatives are more lightweight.
+-   **Are the tabs different views of the same data?** If so, consider using a [split button](ctrl-command-buttons.md) or [drop-down list](https://msdn.microsoft.com/library/windows/desktop/dn742404) to change views. While tabs can be used effectively for changing views, the alternatives are more lightweight.
 
 ## Usage patterns
 

@@ -53,7 +53,7 @@ The image has not been, and should not be, cropped.
 
 ## Remarks
 
-Indicates the cropped status of an image. This enumeration is used by the [WPD\_IMAGE\_CROPPED\_STATUS](image-properties.md#wpd-image-cropped-status) property.
+Indicates the cropped status of an image. This enumeration is used by the [WPD\_IMAGE\_CROPPED\_STATUS](image-properties.md) property.
 
 ## Requirements
 

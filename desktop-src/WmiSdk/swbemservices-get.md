@@ -139,9 +139,9 @@ Wscript.Echo "Name:         " & objSWbemObject.Name        & vbCrLf & _
 
 
 
-You can use this method to obtain [*singleton*](gloss-s.md#wmi-gloss-singleton-class) objects, such as [**\_\_CIMOMIdentification**](--cimomidentification.md), which contains version information about the WMI installation that is running.
+You can use this method to obtain [*singleton*](gloss-s.md) objects, such as [**\_\_CIMOMIdentification**](--cimomidentification.md), which contains version information about the WMI installation that is running.
 
-You can examine the repository with a viewing tool such as [CIM Studio](further-information.md#downloads) to verify that the new class and instance appear. For an example of removing a class and instance from the repository, see [**SWbemServices.Delete**](swbemservices-delete.md) or [**SWbemObject.Delete\_**](swbemobject-delete-.md).
+You can examine the repository with a viewing tool such as [CIM Studio](further-information.md) to verify that the new class and instance appear. For an example of removing a class and instance from the repository, see [**SWbemServices.Delete**](swbemservices-delete.md) or [**SWbemObject.Delete\_**](swbemobject-delete-.md).
 
 ## Requirements
 

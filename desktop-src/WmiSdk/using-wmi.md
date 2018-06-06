@@ -144,7 +144,7 @@ The following procedure describes how to supply data to WMI by writing a provide
 
     -   Using WMI in the .NET Framework to create a managed code provider.
 
-        This approach creates a managed code provider. Managed code providers can be written in any .NET Framework language, are simpler to write than WMI COM providers, and can obtain data from the WMI [*CIM*](gloss-c.md#wmi-gloss-cim)-based classes such as [Win32 Classes](https://msdn.microsoft.com/library/aa394388). However, the .NET Framework WMI provider has some limitations. For more information, see [Managing Applications Using WMI](Http://go.microsoft.com/fwlink/p/?linkid=84306).
+        This approach creates a managed code provider. Managed code providers can be written in any .NET Framework language, are simpler to write than WMI COM providers, and can obtain data from the WMI [*CIM*](gloss-c.md)-based classes such as [Win32 Classes](https://msdn.microsoft.com/library/aa394388). However, the .NET Framework WMI provider has some limitations. For more information, see [Managing Applications Using WMI](Http://go.microsoft.com/fwlink/p/?linkid=84306).
 
     -   Using the [provider framework classes](wmi-c-classes.md) is not recommended.
 

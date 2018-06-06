@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Window Management
 
-This article covers default placement of windows when initially displayed on the screen, their stacking order relative to other windows ([Z order](glossary.md#z)), their initial size, and how their display affects input focus.
+This article covers default placement of windows when initially displayed on the screen, their stacking order relative to other windows ([Z order](glossary.md)), their initial size, and how their display affects input focus.
 
 For the following guidelines:
 
@@ -34,7 +34,7 @@ Windows is designed to support modern video hardware, which often runs at resolu
 
 ### The minimum supported screen resolution
 
-The minimum [effective screen resolution](glossary.md#e) supported by Windows is 800x600 pixels. This means that fixed size windows should display fully at the minimum resolution (while reserving space for the taskbar), but resizable windows can be optimized for an effective resolution of 1024x768 pixels as long as they are functional at the minimum resolution.
+The minimum [effective screen resolution](glossary.md) supported by Windows is 800x600 pixels. This means that fixed size windows should display fully at the minimum resolution (while reserving space for the taskbar), but resizable windows can be optimized for an effective resolution of 1024x768 pixels as long as they are functional at the minimum resolution.
 
 While currently the most common physical screen resolutions for Windows PCs are 1024x768 pixels or greater, targeting 800x600 pixels allows Windows to:
 
@@ -51,7 +51,7 @@ If you believe that your target users are using significantly higher resolutions
 
 ### General
 
--   **Support the minimum Windows effective resolution of 800x600 pixels.** For critical user interfaces (UIs) that must work in safe mode, support an effective resolution of 640x480 pixels. Be sure to account for the space used by the taskbar by reserving 48 vertical [relative pixels](glossary.md#r) for windows displayed with the taskbar.
+-   **Support the minimum Windows effective resolution of 800x600 pixels.** For critical user interfaces (UIs) that must work in safe mode, support an effective resolution of 640x480 pixels. Be sure to account for the space used by the taskbar by reserving 48 vertical [relative pixels](glossary.md) for windows displayed with the taskbar.
 -   **Optimize resizable window layouts for an effective resolution of 1024x768 pixels.** Automatically resize these windows for lower screen resolutions in a way that is still functional.
 -   **Be sure to test your windows in 96 dpi (100 percent) at 800x600 pixels, 120 dpi (125 percent) at 1024x768 pixels, and 144 dpi (150 percent) at 1200x900 pixels.** Check for layout problems, such as clipping of controls, text, and windows, and stretching of icons and bitmaps.
 -   **For programs with touch and mobile use scenarios, optimize for 120 dpi.** High-dpi screens are currently prevalent on touch and mobile PCs.

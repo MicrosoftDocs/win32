@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Supported Dialog Box Service Time-out Operations
 
-[*Winlogon*](security.w_gly#-security-winlogon-gly) implements two time-out operations, one for secure dialog boxes and the other for screen saver activation and termination.
+[*Winlogon*](https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d) implements two time-out operations, one for secure dialog boxes and the other for screen saver activation and termination.
 
-While displaying a secure dialog box, such as logon or unlocking a workstation, Winlogon can time-out the dialog boxes and return an appropriate result code to the dialog box procedure. Winlogon provides a set of dialog box support functions for the [*GINA*](security.g_gly#-security-gina-gly). The GINA must use these functions instead of their Windows counterparts to ensure that the GINA and Winlogon maintain appropriate control over the dialog boxes. Failure to use the Winlogon versions of these functions could result in unauthorized users gaining access to the system.
+While displaying a secure dialog box, such as logon or unlocking a workstation, Winlogon can time-out the dialog boxes and return an appropriate result code to the dialog box procedure. Winlogon provides a set of dialog box support functions for the [*GINA*](https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a). The GINA must use these functions instead of their Windows counterparts to ensure that the GINA and Winlogon maintain appropriate control over the dialog boxes. Failure to use the Winlogon versions of these functions could result in unauthorized users gaining access to the system.
 
 Winlogon dialog box services are provided by the following support functions.
 
@@ -31,7 +31,7 @@ Winlogon dialog box services are provided by the following support functions.
 
  
 
-GINA DLLs can also receive WLX\_WM\_SAS messages from Winlogon. These messages are sent to active dialog boxes if an [*secure attention sequence*](security.s_gly#-security-secure-attention-sequence-gly) (SAS) is received. This is useful if the GINA is in the process of prompting for the matching PIN for a [*smart card*](security.s_gly#-security-smart-card-gly), and the card is removed from the smart card [*reader*](security.r_gly#-security-reader-gly). Winlogon uses WLX\_DLG\_SAS as the EndDialog result code when an SAS event occurs during a dialog box operation.
+GINA DLLs can also receive WLX\_WM\_SAS messages from Winlogon. These messages are sent to active dialog boxes if an [*secure attention sequence*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SAS) is received. This is useful if the GINA is in the process of prompting for the matching PIN for a [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50), and the card is removed from the smart card [*reader*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd). Winlogon uses WLX\_DLG\_SAS as the EndDialog result code when an SAS event occurs during a dialog box operation.
 
 Time-outs are also delivered in this manner. A WLX\_WM\_SAS message is sent with WLX\_SAS\_TYPE\_SCRNSVR\_TIMEOUT or WLX\_SAS\_TYPE\_TIMEOUT. The dialog box will end with an appropriate exit code to allow GINA developers to hook the time-out notifications.
 
@@ -50,7 +50,7 @@ GINA dialog boxes can be terminated by Winlogon by using the code WLX\_DLG\_USER
 [Sending Messages to the GINA](sending-messages-to-the-gina.md)
 </dt> <dt>
 
-[Winlogon Support Functions](authentication-functions.md#winlogon-support-functions)
+[Winlogon Support Functions](authentication-functions.md)
 </dt> </dl>
 
  

@@ -56,7 +56,7 @@ For other formats, the sample description box must be provided in the media type
 
 In some cases, it is not possible to generate a sample description box until all of the data has been encoded. For example, information such as the average bit rate might not be known ahead of time. In that case, you can update the media type by using the [**IMFMediaTypeHandler**](/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler) interface on the MPEG-4 file sink. This must be done before the media sink is finalized.
 
-Typically the media type is created by an upstream encoder. The encoder can generate a new media type during streaming, through a dynamic format change. For more information, see [Dynamic Format Changes](basic-mft-processing-model.md#dynamic-format-changes).
+Typically the media type is created by an upstream encoder. The encoder can generate a new media type during streaming, through a dynamic format change. For more information, see [Dynamic Format Changes](basic-mft-processing-model.md).
 
 ## H.264/AVC Video
 

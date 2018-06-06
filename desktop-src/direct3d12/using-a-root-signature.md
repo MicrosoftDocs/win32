@@ -61,7 +61,7 @@ pBundle->Draw(...);
 
 Coming out of a bundle, any root layout changes and/or binding changes a bundle makes are inherited back to the calling command list when a bundle finishes executing.
 
-For more information on inheritance, refer to the **Graphics pipeline state inheritance** section of [Managing Graphics Pipeline State in Direct3D 12](managing-graphics-pipeline-state-in-direct3d-12.md#graphics-pipeline-state-inheritance).
+For more information on inheritance, refer to the **Graphics pipeline state inheritance** section of [Managing Graphics Pipeline State in Direct3D 12](managing-graphics-pipeline-state-in-direct3d-12.md).
 
 ## Related topics
 

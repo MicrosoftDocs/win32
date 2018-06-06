@@ -342,7 +342,7 @@ Obsolete. Maintained for legacy application compatibility.
 
 
 
-Retrieves the e-mail address for the user who controls the requesting [*user agent*](glossary.md#term-user-agent) if the From header is given.
+Retrieves the e-mail address for the user who controls the requesting [*user agent*](glossary.md) if the From header is given.
 
 
 </dt> </dl> </dd> <dt>

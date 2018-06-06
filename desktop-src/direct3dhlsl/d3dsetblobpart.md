@@ -64,7 +64,7 @@ The length of the compiled shader data that *pSrcData* points to.
 
 Type: **[**D3D\_BLOB\_PART**](d3d-blob-part.md)**
 
-A [**D3D\_BLOB\_PART**](d3d-blob-part.md)-typed value that specifies the part to set. Currently, you can update only private data; that is, **D3DSetBlobPart** currently only supports the [**D3D\_BLOB\_PRIVATE\_DATA**](d3d-blob-part.md#d3d-blob-private-data) value.
+A [**D3D\_BLOB\_PART**](d3d-blob-part.md)-typed value that specifies the part to set. Currently, you can update only private data; that is, **D3DSetBlobPart** currently only supports the [**D3D\_BLOB\_PRIVATE\_DATA**](d3d-blob-part.md) value.
 
 </dd> <dt>
 

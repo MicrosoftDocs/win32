@@ -71,7 +71,7 @@ Each item of security information is designated by a bit flag. Each bit flag can
 [Access Control](access-control.md)
 </dt> <dt>
 
-[Basic Access Control Structures](authorization-structures.md#basic-access-control-structures)
+[Basic Access Control Structures](authorization-structures.md)
 </dt> <dt>
 
 [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora)

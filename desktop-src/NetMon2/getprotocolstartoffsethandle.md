@@ -51,7 +51,7 @@ If the function is unsuccessful, the return value is one (1).
 
 ## Remarks
 
-[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetProtocolStartOffsetHandle** function.
+[*Experts*](e.md) and [*parsers*](p.md) can call the **GetProtocolStartOffsetHandle** function.
 
 ## Requirements
 

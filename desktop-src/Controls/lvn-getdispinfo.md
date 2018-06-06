@@ -55,7 +55,7 @@ The notification receiver casts *lParam* to retrieve the [**NMLVDISPINFO**](/win
 
 A list-view control sends the **LVN\_GETDISPINFO** notification code to retrieve item information that is stored by the application rather than the control. The information can be text or icon information for an item. It can also be item state information. See the [**LVM\_SETCALLBACKMASK**](lvm-setcallbackmask.md) message for more information on implementing item state on a callback basis.
 
-For more information on list-view callbacks, see [Callback Items and the Callback Mask](list-view-controls-overview.md#callback-items-and-the-callback-mask).
+For more information on list-view callbacks, see [Callback Items and the Callback Mask](list-view-controls-overview.md).
 
 ## Examples
 

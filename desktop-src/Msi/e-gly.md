@@ -33,14 +33,14 @@ When the installer executes a script of installer actions. In Microsoft WindowsÂ
 <span id="_msi_execution_script_gly"></span><span id="_MSI_EXECUTION_SCRIPT_GLY"></span>**execution script**
 </dt> <dd>
 
-Installer actions for an installation. The execution script is generated during the [*acquisition phase*](a-gly.md#-msi-acquisition-phase-gly) of installation and executed during the [*execution phase*](#-msi-execution-phase-gly). For more information, see [Installation Mechanism](installation-mechanism.md).
+Installer actions for an installation. The execution script is generated during the [*acquisition phase*](a-gly.md) of installation and executed during the [*execution phase*](#-msi-execution-phase-gly). For more information, see [Installation Mechanism](installation-mechanism.md).
 
 </dd> <dt>
 
 <span id="_msi_external_source_files_gly"></span><span id="_MSI_EXTERNAL_SOURCE_FILES_GLY"></span>**external source files**
 </dt> <dd>
 
-Source files of the application being installed that are stored outside of the [*.msi file*](m-gly.md#-msi--msi-file-gly). Multiple external source files can be compressed and stored together inside of a [*cabinet file*](c-gly.md#-msi-cabinet-file-using-windows-installer-gly) included in the [*package*](p-gly.md#-msi-package-using-windows-installer-gly).
+Source files of the application being installed that are stored outside of the [*.msi file*](m-gly.md). Multiple external source files can be compressed and stored together inside of a [*cabinet file*](c-gly.md) included in the [*package*](p-gly.md).
 
 </dd> <dt>
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # STATIONSTATS structure
 
-The **STATIONSTATS** structure provides statistics about a specific [*station*](s.md#-netmon-station-gly) described by the current capture.
+The **STATIONSTATS** structure provides statistics about a specific [*station*](s.md) described by the current capture.
 
 ## Syntax
 

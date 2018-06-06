@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_GET\_LICENSE\_DATA structure
 
-The **WM\_GET\_LICENSE\_DATA** structure contains information about where to acquire a [*DRM*](wmformat-glossary.md#wmformat-digital-rights-management--drm-) [*license*](wmformat-glossary.md#wmformat-license).
+The **WM\_GET\_LICENSE\_DATA** structure contains information about where to acquire a [*DRM*](wmformat-glossary.md) [*license*](wmformat-glossary.md).
 
 ## Syntax
 

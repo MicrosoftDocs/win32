@@ -66,9 +66,9 @@ In MOF, create a base class by naming it with the **class** keyword, but not ind
     };
     ```
 
-2.  Add any class [*qualifiers*](gloss-q.md#wmi-gloss-qualifier) before the class keyword to modify the way the class is used. Place the qualifiers between square brackets. For more information about qualifiers for modifying classes, see [WMI Qualifiers](wmi-qualifiers.md). Use the **Abstract** qualifier to indicate that you cannot create an instance of this class directly. Abstract classes are often used to define properties or methods that will be used by several derived classes. For more information, see [Creating a Derived Class](creating-a-derived-class.md).
+2.  Add any class [*qualifiers*](gloss-q.md) before the class keyword to modify the way the class is used. Place the qualifiers between square brackets. For more information about qualifiers for modifying classes, see [WMI Qualifiers](wmi-qualifiers.md). Use the **Abstract** qualifier to indicate that you cannot create an instance of this class directly. Abstract classes are often used to define properties or methods that will be used by several derived classes. For more information, see [Creating a Derived Class](creating-a-derived-class.md).
 
-    The following code example defines the class as abstract and defines the provider that will supply the data. The **ToSubClass** qualifier [*flavor*](gloss-f.md#wmi-gloss-flavor) indicates that the information in the **Provider** qualifier is inherited by derived classes.
+    The following code example defines the class as abstract and defines the provider that will supply the data. The **ToSubClass** qualifier [*flavor*](gloss-f.md) indicates that the information in the **Provider** qualifier is inherited by derived classes.
 
     ``` syntax
     [Abstract, Provider("MyProvider") : ToSubClass]

@@ -54,7 +54,7 @@ As you think about UI text and its placement on your UI surfaces, consider these
 For a general design model, don't assume that users carefully read the text in a left-to-right, top-to-bottom order. Rather, assume that users start by quickly scanning the whole window, then read UI text in roughly the following order:
 
 -   Interactive controls in the center
--   The [commit buttons](glossary.md#c)
+-   The [commit buttons](glossary.md)
 -   Interactive controls found elsewhere
 -   Main instruction
 -   Supplemental explanations
@@ -185,7 +185,7 @@ For more information and examples, see [Fonts](vis-fonts.md) and [Color](vis-col
 
     The terms document and file are often used interchangeably.
 
--   Use for [prompts](glossary.md#p) in [text boxes](ctrl-text-boxes.md) and [editable drop-down lists](https://msdn.microsoft.com/library/windows/desktop/dn742404).
+-   Use for [prompts](glossary.md) in [text boxes](ctrl-text-boxes.md) and [editable drop-down lists](https://msdn.microsoft.com/library/windows/desktop/dn742404).
 
     ![screen shot of search text box ](images/text-ui-image26.png)
 

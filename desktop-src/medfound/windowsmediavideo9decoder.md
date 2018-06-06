@@ -159,7 +159,7 @@ Write-only.<br />
 <td><strong>g_wszWMVCNeedsDrain</strong></td>
 <td>Specifies whether the decoder should be drained.<br/> <dl> Windows 8<br />
 Read-only.<br />
-</dl> This property is used by the Windows Media Format runtime. The property type is <strong>VARIANT_BOOL</strong>. If the value is <strong>VARIANT_TRUE</strong>, the decoder should be drained after a discontinuity. For more information about draining an MFT, see [Basic MFT Processing Model](basic-mft-processing-model.md#draining-an-mft).<br/>
+</dl> This property is used by the Windows Media Format runtime. The property type is <strong>VARIANT_BOOL</strong>. If the value is <strong>VARIANT_TRUE</strong>, the decoder should be drained after a discontinuity. For more information about draining an MFT, see [Basic MFT Processing Model](basic-mft-processing-model.md).<br/>
 <blockquote>
 [!Note]<br />
 To query this property, use the [<strong>IPropertyBag</strong>](https://msdn.microsoft.com/128e847b-99f9-44a3-9176-56eb34f3dddc) interface.

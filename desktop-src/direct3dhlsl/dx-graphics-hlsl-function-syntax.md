@@ -37,7 +37,7 @@ Modifier that redefines a function declaration. **inline** is currently the only
 <span id="Clipplanes"></span><span id="clipplanes"></span><span id="CLIPPLANES"></span>*Clipplanes*
 </dt> <dd>
 
-Optional list of clip planes, which is up to 6 user-specified clip planes. This is an alternate mechanism for [SV\_ClipDistance](dx-graphics-hlsl-semantics.md#system-value-semantics) that works on [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) 9\_x and higher.
+Optional list of clip planes, which is up to 6 user-specified clip planes. This is an alternate mechanism for [SV\_ClipDistance](dx-graphics-hlsl-semantics.md) that works on [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) 9\_x and higher.
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ The syntax on this page describes almost every type of HLSL function, this inclu
 
 A function can be overloaded as long as it is given a unique combination of name, return value, parameter types, or parameter order. HLSL also implements a number of built in, or [**intrinsic functions**](dx-graphics-hlsl-intrinsic-functions.md).
 
-You can specify user-specific clip planes with the **clipplanes** attribute. Windows applies these clip planes to all of the primitives drawn. The **clipplanes** attribute works like [SV\_ClipDistance](dx-graphics-hlsl-semantics.md#system-value-semantics) but works on all hardware [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) 9\_x and higher. For more info, see [User clip planes on feature level 9 hardware](https://msdn.microsoft.com/library/windows/desktop/jj635733).
+You can specify user-specific clip planes with the **clipplanes** attribute. Windows applies these clip planes to all of the primitives drawn. The **clipplanes** attribute works like [SV\_ClipDistance](dx-graphics-hlsl-semantics.md) but works on all hardware [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) 9\_x and higher. For more info, see [User clip planes on feature level 9 hardware](https://msdn.microsoft.com/library/windows/desktop/jj635733).
 
 ## Examples
 

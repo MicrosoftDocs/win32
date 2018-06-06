@@ -103,7 +103,7 @@ In short, if your program has desktop presence, take full advantage of the Windo
 Keeping users in control extends beyond using the notification area correctly. Depending on the nature of your icon, you may want to let users do the following:
 
 -   **Remove the icon.** Your icon may provide relevant, useful status, but even so, users may not want to see it. Windows allows users to hide icons, but this feature isn't easily discoverable. To keep users in control, provide a **Display icon in notification area** option on the icon's context menu. Note that removing an icon doesn't have to affect the underlying program, feature, or process.
--   **Select types of notifications to display.** Your notification must be useful and relevant, but there may be notifications that users don't want to see. This is especially true for FYI [notifications](mess-notif.md#usage-patterns). Let users choose to enable the less important ones.
+-   **Select types of notifications to display.** Your notification must be useful and relevant, but there may be notifications that users don't want to see. This is especially true for FYI [notifications](mess-notif.md). Let users choose to enable the less important ones.
 -   **Suspend optional features.** Icons are used to display status for features without desktop presence. Such features tend to be long-running, optional background tasks, such as printing, indexing, scanning, or synchronizing. Users may want to suspend such features to increase system performance, reduce power consumption, or because they are offline.
 -   **Quit the program.** Provide the more suitable of these options:
     -   **Temporarily quit program.** The program is stopped and restarted when Windows is restarted. This approach is suitable for important system utilities such as security programs.
@@ -154,7 +154,7 @@ Notification area icons have several usage patterns:
 <li>The application is run for an extended period of time.</li>
 <li>The icon shows status.</li>
 <li>The icon can be a notification source.</li>
-<li>Doing so is optional and users must [opt in](glossary.md#o).</li>
+<li>Doing so is optional and users must [opt in](glossary.md).</li>
 </ul>
 If all these conditions apply, minimizing to an icon eliminates having two access points when only one is necessary. <br/> <strong>Note:</strong> This icon pattern is no longer recommended for Windows 7. Use regular taskbar buttons instead if your program has desktop presence.<br/> <img src="images/winenv-notification-image13.png" alt="Screen shot of Outlook and Messenger taskbar icons " /><br/> In this example from Windows 7, a regular taskbar button takes little space, but benefits from the Windows 7 taskbar button features, including Jump Lists, overlay icons, and rich thumbnails.<br/></td>
 </tr>
@@ -176,7 +176,7 @@ If all these conditions apply, minimizing to an icon eliminates having two acces
 
 -   For the temporary notification source pattern:
     -   Windows displays the icon when the notification is displayed.
-    -   Remove the icon based on its [notification design](mess-notif.md#usage-patterns) pattern:
+    -   Remove the icon based on its [notification design](mess-notif.md) pattern:
 
 
 
@@ -226,7 +226,7 @@ Windows launched from notification area icons are displayed near the notificatio
 
     In this example, Outlook uses an e-mail feature icon for a temporary notification source and its application icon for the minimized application.
 
--   **Choose an easily recognizable icon design.** Prefer icons with unique outlines over square or rectangular shaped icons. Keep the designs simple prefer symbols over realistic images. Apply the other [Aero-style icon guidelines](vis-icons.md#guidelines) as well.
+-   **Choose an easily recognizable icon design.** Prefer icons with unique outlines over square or rectangular shaped icons. Keep the designs simple prefer symbols over realistic images. Apply the other [Aero-style icon guidelines](vis-icons.md) as well.
 -   **Use icon variations or overlays to indicate status or status changes.** Use icon variations to show changes in quantities or strengths. For other types of status, use the following standard overlays. Use only a single overlay, and locate it bottom-right for consistency. 
 
     |                                                                                                        |                                  |
@@ -250,7 +250,7 @@ Windows launched from notification area icons are displayed near the notificatio
     In this example, overlays are used to show error and warning states.
 
 -   **Avoid swaths of pure red, yellow, and green in your base icons.** To avoid confusion, reserve these colors to communicate status. If your [branding](exper-branding.md) uses these colors, consider using muted tones for your base notification area icons.
--   For [progressive escalation](mess-notif.md#use-progressive-escalation-where-applicable), **use icons with a progressively more emphatic appearance as the situation becomes more urgent.**
+-   For [progressive escalation](mess-notif.md), **use icons with a progressively more emphatic appearance as the situation becomes more urgent.**
 
     ![screen shot of notification area and five icons ](images/winenv-notification-image22.png)
 
@@ -380,7 +380,7 @@ In this example, Windows Defender has specific Open and Run commands.
 In the incorrect example, Windows Defender should use a check mark to indicate the current state.
 
 -   **All background tasks must have a Suspend/Resume command.** Choosing the command should temporarily suspend the task. Users may want to temporarily suspend background tasks to increase system performance or reduce power consumption. Suspended background tasks are restarted when resumed by the user or when Windows is restarted.
--   **Allow users to opt into or out of different notification types** if your program has notifications that some users might not want to see. The [FYI](mess-notif.md#usage-patterns) notification pattern requires users to opt in, so these notifications must be disabled by default.
+-   **Allow users to opt into or out of different notification types** if your program has notifications that some users might not want to see. The [FYI](mess-notif.md) notification pattern requires users to opt in, so these notifications must be disabled by default.
 
 ![screen shot of notification area and commands ](images/winenv-notification-image31.png)
 
@@ -428,7 +428,7 @@ For general context menu guidelines and examples, see [Menus](cmd-menus.md).
     -   **Related links.** Provide at most one of each type of the following optional links:
         -   A link to the most frequently performed task in Control Panel. Provide if there is a frequently performed task that can't be presented in the common tasks section.
         -   A link to the related Control Panel item. This Control Panel item should allow users to perform any tasks that can't be performed in the common tasks section.
-        -   A link to a specific, relevant Help topic. Follow the standard [Help link guidelines](winenv-help.md#guidelines).
+        -   A link to a specific, relevant Help topic. Follow the standard [Help link guidelines](winenv-help.md).
 
 ![screen shot of notification area and flyout ](images/winenv-notification-image36.png)
 
@@ -443,7 +443,7 @@ This example shows a notification area flyout using the recommended presentation
     -   "Display icon in notification area" (check box)
         -   Removing the icon from the notification area doesn't affect the underlying feature.
         -   Selecting this option allows user to restore the icon, which of course can't be done from the icon itself.
--   Disable features that are rarely used, or potentially annoying or distracting. Let users [opt in](glossary.md#o) to such features.
+-   Disable features that are rarely used, or potentially annoying or distracting. Let users [opt in](glossary.md) to such features.
 
 For general Options dialog box guidelines and examples, see [Property Windows](win-property-win.md).
 
@@ -456,7 +456,7 @@ For general Options dialog box guidelines and examples, see [Property Windows](w
     -   The program is run for an extended period of time.
     -   The icon shows status.
     -   The icon can be a notification source.
-    -   Doing so is optional and users must [opt in](glossary.md#o).
+    -   Doing so is optional and users must [opt in](glossary.md).
 -   Use the Minimize button on the application's title bar, not the Close button.
 
 ## Text

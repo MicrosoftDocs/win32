@@ -15,11 +15,11 @@ ms.date: 05/31/2018
 
 # URI Prefixes
 
-The [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri) prefix is different depending on which XML schema describes the resource.
+The [*resource URI*](windows-remote-management-glossary.md) prefix is different depending on which XML schema describes the resource.
 
 ## Prefixes
 
-If you access a [*CIM*](windows-remote-management-glossary.md#winrm-gloss-cim) 2.1 class, such as [**CIM\_DataFile**](https://msdn.microsoft.com/library/aa387236), the prefix of the URI differs from the prefix for a CIM 2.9 class, such as **CIM\_AdminDomain**. CIM 2.1 classes are documented in the [CIM Classes](https://msdn.microsoft.com/library/aa386179) section of Windows Management Instrumentation (WMI).
+If you access a [*CIM*](windows-remote-management-glossary.md) 2.1 class, such as [**CIM\_DataFile**](https://msdn.microsoft.com/library/aa387236), the prefix of the URI differs from the prefix for a CIM 2.9 class, such as **CIM\_AdminDomain**. CIM 2.1 classes are documented in the [CIM Classes](https://msdn.microsoft.com/library/aa386179) section of Windows Management Instrumentation (WMI).
 
 Most [WMI classes](https://msdn.microsoft.com/library/aa394554) are in the **root\\cimv2** WMI namespace. Classes for the Microsoft Intelligent Platform Management Interface ([IPMI](https://msdn.microsoft.com/library/aa391402)) provider are in **root\\hardware**.
 

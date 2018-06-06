@@ -86,7 +86,7 @@ The method returns one of the following possible values:
 [**ISCardTypeConv**](iscardtypeconv.md)
 </dt> <dt>
 
-[Smart Card Return Values](authentication-return-values.md#smart-card-return-values)
+[Smart Card Return Values](authentication-return-values.md)
 </dt> </dl>
 
  

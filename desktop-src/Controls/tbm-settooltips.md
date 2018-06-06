@@ -43,7 +43,7 @@ The return value for this message is not used.
 
 ## Remarks
 
-When a trackbar control is created with the [**TBS\_TOOLTIPS**](trackbar-control-styles.md#tbs-tooltips) style, it creates a default tooltip control that appears next to the slider, displaying the slider's current position.
+When a trackbar control is created with the [**TBS\_TOOLTIPS**](trackbar-control-styles.md) style, it creates a default tooltip control that appears next to the slider, displaying the slider's current position.
 
 ## Requirements
 

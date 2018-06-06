@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 
 # Session.Get method
 
-Retrieves the resource specified by the [*URI*](windows-remote-management-glossary.md#winrm-gloss-uri) and returns an XML representation of the current instance of the resource.
+Retrieves the resource specified by the [*URI*](windows-remote-management-glossary.md) and returns an XML representation of the current instance of the resource.
 
 ## Syntax
 
@@ -52,7 +52,7 @@ The identifier of the resource to be retrieved.
 
 This parameter can contain one of the following:
 
--   A URI with or without [*selectors*](windows-remote-management-glossary.md#winrm-gloss-selector). When calling the **Get** method with a selector to obtain a WMI resource, use the key property or properties of the object. For example, in the following Visual Basic Scripting Edition (VBScript) code example, the key is specified by `Win32_Service?Name=winmgmt`. For singleton classes, such as [**Win32\_LocalTime**](https://msdn.microsoft.com/library/aa394171), you cannot use a selector.
+-   A URI with or without [*selectors*](windows-remote-management-glossary.md). When calling the **Get** method with a selector to obtain a WMI resource, use the key property or properties of the object. For example, in the following Visual Basic Scripting Edition (VBScript) code example, the key is specified by `Win32_Service?Name=winmgmt`. For singleton classes, such as [**Win32\_LocalTime**](https://msdn.microsoft.com/library/aa394171), you cannot use a selector.
 
     ```VB
     strResourceUri = "http://schemas.microsoft.com/" _ 
@@ -64,8 +64,8 @@ This parameter can contain one of the following:
 
     
 
--   A [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](windows-remote-management-glossary.md#winrm-gloss-fragment), or [*options*](windows-remote-management-glossary.md#winrm-gloss-option).
--   A [*WS-Addressing*](windows-remote-management-glossary.md#winrm-gloss-ws-addressing) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for [WS-Management Protocol](ws-management-protocol.md), see [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=96658).
+-   A [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](windows-remote-management-glossary.md), or [*options*](windows-remote-management-glossary.md).
+-   A [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for [WS-Management Protocol](ws-management-protocol.md), see [Management Specifications Index Page](http://go.microsoft.com/fwlink/p/?linkid=96658).
 
 </dd> <dt>
 

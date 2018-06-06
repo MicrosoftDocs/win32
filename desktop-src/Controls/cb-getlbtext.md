@@ -49,7 +49,7 @@ The return value is the length of the string, in **TCHAR**s, excluding the termi
 
 **Security Warning:** Using this message incorrectly can compromise the security of your program. This message does not provide a way for you to know the size of the buffer. If you use this message, first call [**CB\_GETLBTEXTLEN**](cb-getlbtextlen.md) to get the number of characters that are required and then call the message to retrieve the string. You should review the [Security Considerations: Microsoft Windows Controls](sec-comctls.md) before continuing.
 
-If you create the combo box with an owner-drawn style but without the [**CBS\_HASSTRINGS**](combo-box-styles.md#cbs-hasstrings) style, the buffer pointed to by *lParam* receives the data associated with the item.
+If you create the combo box with an owner-drawn style but without the [**CBS\_HASSTRINGS**](combo-box-styles.md) style, the buffer pointed to by *lParam* receives the data associated with the item.
 
 ## Requirements
 

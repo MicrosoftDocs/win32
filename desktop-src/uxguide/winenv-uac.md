@@ -28,13 +28,13 @@ The Credential UI, used to elevate Standard users.
 UAC provides the following benefits:
 
 -   It reduces the number of programs that run with elevated privileges, therefore helping to prevent users from accidentally changing their system settings, and helping to prevent "malware" from gaining system-wide access. When elevation is denied, malware is only able to affect the current user's data. Without elevation, malware can't make system-wide changes or affect other users.
--   For [managed environments](glossary.md#m), well designed UAC experiences allow users to be more productive when running as Standard users by removing unnecessary restrictions.
+-   For [managed environments](glossary.md), well designed UAC experiences allow users to be more productive when running as Standard users by removing unnecessary restrictions.
 -   It gives Standard users the ability to ask administrators to give them permission to perform administrative tasks within their current session.
 -   For home environments, it enables better parental control over system-wide changes, including what software is installed.
 
 **Developers:** For implementation information, see [Redesign Your UI for UAC Compatibility](http://msdn.microsoft.com/library/bb756990.aspx).
 
-In Windows Vista, Protected administrators can choose to be notified about all system changes or none. The UAC default setting is to notify about all changes, no matter what their origin. When you're notified, your desktop will be dimmed, and you must either approve or deny the request in the UAC dialog box before you can do anything else on your computer. The dimming of your desktop is referred to as the [secure desktop](glossary.md#s) because other programs can't run while it's dimmed.
+In Windows Vista, Protected administrators can choose to be notified about all system changes or none. The UAC default setting is to notify about all changes, no matter what their origin. When you're notified, your desktop will be dimmed, and you must either approve or deny the request in the UAC dialog box before you can do anything else on your computer. The dimming of your desktop is referred to as the [secure desktop](glossary.md) because other programs can't run while it's dimmed.
 
 Windows 7 introduces two intermediate UAC settings for Protected administrators, in addition to the two from Windows Vista. The first is to notify users only when a program is making the change, so administrators are automatically elevated when they make a change themselves. This is the UAC default setting in Windows 7, and it also makes use of the secure desktop.
 
@@ -110,7 +110,7 @@ User Account Control has several usage patterns (in order of preference):
 
     In this example, the user attempted to change program file properties but didn't have sufficient privileges. The user can elevate and try again.
 
-4.  **Work for administrators only.** Use this approach only for administrator features and programs! If a feature is intended only for administrators (and has no navigation paths or useful read-only information for Standard users), you can prompt for administrator credentials at the entry point before showing any UI. Use this approach for lengthy wizards and [page flows](glossary.md#p) when all paths require administrative privileges.
+4.  **Work for administrators only.** Use this approach only for administrator features and programs! If a feature is intended only for administrators (and has no navigation paths or useful read-only information for Standard users), you can prompt for administrator credentials at the entry point before showing any UI. Use this approach for lengthy wizards and [page flows](glossary.md) when all paths require administrative privileges.
 
     If the entire program is for administrators only, mark it to prompt for administrator credentials in order to launch. Windows displays such program icons with the UAC shield overlay.
 
@@ -122,7 +122,7 @@ User Account Control has several usage patterns (in order of preference):
 
 ### UAC shield icon
 
--   **Display controls with the UAC shield to indicate that the task requires immediate elevation when UAC is fully enabled,** even if UAC isn't currently fully enabled. If all paths of a wizard and [page flow](glossary.md#p) require elevation, display the UAC shield at the task's entry point. Proper use of the UAC shield helps users predict when elevation is required.
+-   **Display controls with the UAC shield to indicate that the task requires immediate elevation when UAC is fully enabled,** even if UAC isn't currently fully enabled. If all paths of a wizard and [page flow](glossary.md) require elevation, display the UAC shield at the task's entry point. Proper use of the UAC shield helps users predict when elevation is required.
 -   **If your program supports multiple versions of Windows, display the UAC shield if at least one version requires elevation.** Because Windows XP never requires elevation, consider removing the UAC shields for Windows XP if you can do so consistently and without harming performance.
 -   **Don't display the UAC shield for tasks that don't require elevation in most contexts.** Because this approach will sometimes be misleading, the preferred approach is to use a properly shielded contextual command instead.
 

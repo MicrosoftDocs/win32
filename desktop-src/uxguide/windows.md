@@ -31,7 +31,7 @@ Windows are the main "canvases" or UI surfaces of your desktop app, including th
 <tbody>
 <tr class="odd">
 <td>[Window Management](win-window-mgt.md)<br/></td>
-<td>This article covers default placement of windows when initially displayed on the screen, their stacking order relative to other windows ([Z order](glossary.md#z)), their initial size, and how their display affects input focus.<br/></td>
+<td>This article covers default placement of windows when initially displayed on the screen, their stacking order relative to other windows ([Z order](glossary.md)), their initial size, and how their display affects input focus.<br/></td>
 </tr>
 <tr class="even">
 <td>[Window Frames](win-window-frames.md)<br/></td>

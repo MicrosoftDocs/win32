@@ -39,7 +39,7 @@ Returns an HCURSOR value that is the handle to the cursor that the list-view con
 
 ## Remarks
 
-A list-view control uses hot tracking and hover selection when the [**LVS\_EX\_TRACKSELECT**](extended-list-view-styles.md#lvs-ex-trackselect) style is set.
+A list-view control uses hot tracking and hover selection when the [**LVS\_EX\_TRACKSELECT**](extended-list-view-styles.md) style is set.
 
 ## Requirements
 

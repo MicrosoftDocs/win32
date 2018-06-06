@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # WMI Infrastructure
 
-In the WMI infrastructure, the WMI service (Winmgmt) is the operating system component that acts as the mediator between management applications and WMI data [*providers*](gloss-p.md#wmi-gloss-provider). The [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository) is a storage area for WMI-related static data.
+In the WMI infrastructure, the WMI service (Winmgmt) is the operating system component that acts as the mediator between management applications and WMI data [*providers*](gloss-p.md). The [*WMI repository*](gloss-w.md) is a storage area for WMI-related static data.
 
 The WMI service is implemented as a service process within a shared service host process (SVCHOST). For more information, see [Provider Hosting and Security](provider-hosting-and-security.md).
 

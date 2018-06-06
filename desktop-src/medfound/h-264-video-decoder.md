@@ -38,7 +38,7 @@ The input type must contain at least the following two attributes:
 | Attribute                                                 | Description                                                                                   |
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | [**MF\_MT\_MAJOR\_TYPE**](mf-mt-major-type-attribute.md) | **MFMediaType\_Video**                                                                        |
-| [**MF\_MT\_SUBTYPE**](mf-mt-subtype-attribute.md)        | [MFVideoFormat\_H264](video-subtype-guids.md#encoded-video-types) or MFVideoFormat\_H264\_ES |
+| [**MF\_MT\_SUBTYPE**](mf-mt-subtype-attribute.md)        | [MFVideoFormat\_H264](video-subtype-guids.md) or MFVideoFormat\_H264\_ES |
 
 
 

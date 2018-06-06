@@ -291,7 +291,7 @@ The system automatically highlights menu items on menus as the user selects them
 
 ### Owner-Drawn Menu Items
 
-An application can completely control the appearance of a menu item by using an *owner-drawn item*. Owner-drawn items require an application to take total responsibility for drawing selected (highlighted), selected, and cleared states. For example, if an application provided a font menu, it could draw each menu item by using the corresponding font; the item for Roman would be drawn with roman, the item for Italic would be drawn in italic, and so on. For more information, see [Creating Owner-Drawn Menu Items](using-menus.md#creating-owner-drawn-menu-items).
+An application can completely control the appearance of a menu item by using an *owner-drawn item*. Owner-drawn items require an application to take total responsibility for drawing selected (highlighted), selected, and cleared states. For example, if an application provided a font menu, it could draw each menu item by using the corresponding font; the item for Roman would be drawn with roman, the item for Italic would be drawn in italic, and so on. For more information, see [Creating Owner-Drawn Menu Items](using-menus.md).
 
 ### Menu Item Separators and Line Breaks
 

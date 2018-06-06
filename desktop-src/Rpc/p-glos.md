@@ -19,49 +19,49 @@ ms.date: 05/31/2018
 <span id="_rpc_partially_bound_handle_glos"></span><span id="_RPC_PARTIALLY_BOUND_HANDLE_GLOS"></span>**partially bound handle**
 </dt> <dd>
 
-[*Binding handle*](b-glos.md#-rpc-binding-handle-glos) that does not include [*endpoint*](e-glos.md#-rpc-endpoint-glos) information. See also [*fully bound handle*](f-glos.md#-rpc-fully-bound-handle-glos).
+[*Binding handle*](b-glos.md) that does not include [*endpoint*](e-glos.md) information. See also [*fully bound handle*](f-glos.md).
 
 </dd> <dt>
 
 <span id="_rpc_pickling_glos"></span><span id="_RPC_PICKLING_GLOS"></span>**pickling**
 </dt> <dd>
 
-See [*serialization*](s-glos.md#-rpc-serialization-glos).
+See [*serialization*](s-glos.md).
 
 </dd> <dt>
 
 <span id="_rpc_pipe_glos"></span><span id="_RPC_PIPE_GLOS"></span>**pipe**
 </dt> <dd>
 
-[*IDL*](i-glos.md#-rpc-idl-glos)-type constructor that supports transmission of an open-ended stream of data between client and server applications.
+[*IDL*](i-glos.md)-type constructor that supports transmission of an open-ended stream of data between client and server applications.
 
 </dd> <dt>
 
 <span id="_rpc_primary_enterprise_controller_glos"></span><span id="_RPC_PRIMARY_ENTERPRISE_CONTROLLER_GLOS"></span>**primary enterprise controller**
 </dt> <dd>
 
-The master Message Queue Information Service (MQIS) database for a network. See also [*Message Queue Information Service (MQIS)*](m-glos.md#-rpc-mqis-glos).
+The master Message Queue Information Service (MQIS) database for a network. See also [*Message Queue Information Service (MQIS)*](m-glos.md).
 
 </dd> <dt>
 
 <span id="_rpc_primary_site_controller_glos"></span><span id="_RPC_PRIMARY_SITE_CONTROLLER_GLOS"></span>**primary site controller**
 </dt> <dd>
 
-Message Queue Information Service (MQIS) database for a particular site within an enterprise. See also [*Message Queue Information Service (MQIS)*](m-glos.md#-rpc-mqis-glos).
+Message Queue Information Service (MQIS) database for a particular site within an enterprise. See also [*Message Queue Information Service (MQIS)*](m-glos.md).
 
 </dd> <dt>
 
 <span id="_rpc_procedure_serialization_glos"></span><span id="_RPC_PROCEDURE_SERIALIZATION_GLOS"></span>**procedure serialization**
 </dt> <dd>
 
-Data [*serialization*](s-glos.md#-rpc-serialization-glos) that uses a MIDL-generated serialization stub to accomplish the encoding and decoding of one or more types with a single procedure call. Procedure serialization is accomplished by applying the \[ [encode](https://msdn.microsoft.com/library/windows/desktop/aa366812)\] and \[ [decode](https://msdn.microsoft.com/library/windows/desktop/aa366784)\] attributes to a function prototype in the ACF file. See also [*type serialization*](t-glos.md#-rpc-type-serialization-glos).
+Data [*serialization*](s-glos.md) that uses a MIDL-generated serialization stub to accomplish the encoding and decoding of one or more types with a single procedure call. Procedure serialization is accomplished by applying the \[ [encode](https://msdn.microsoft.com/library/windows/desktop/aa366812)\] and \[ [decode](https://msdn.microsoft.com/library/windows/desktop/aa366784)\] attributes to a function prototype in the ACF file. See also [*type serialization*](t-glos.md).
 
 </dd> <dt>
 
 <span id="_rpc_protocol_sequence_glos"></span><span id="_RPC_PROTOCOL_SEQUENCE_GLOS"></span>**protocol sequence**
 </dt> <dd>
 
-Character string that represents a valid combination of an RPC protocol, a network layer protocol, and a transport layer protocol. For example, the protocol sequence NCACN\_IP\_TCP describes an [*NCA*](n-glos.md#-rpc-nca-glos) connection over an Internet Protocol (IP) with a Transmission Control Protocol (TCP) as transport.
+Character string that represents a valid combination of an RPC protocol, a network layer protocol, and a transport layer protocol. For example, the protocol sequence NCACN\_IP\_TCP describes an [*NCA*](n-glos.md) connection over an Internet Protocol (IP) with a Transmission Control Protocol (TCP) as transport.
 
 </dd> <dt>
 

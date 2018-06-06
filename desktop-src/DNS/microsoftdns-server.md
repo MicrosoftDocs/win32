@@ -524,7 +524,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-Time, in seconds, a DNS Server forwarding a query will wait for resolution from the [*forwarder*](f-gly.md#-dns-forwarder-gly) before attempting to resolve the query itself.
+Time, in seconds, a DNS Server forwarding a query will wait for resolution from the [*forwarder*](f-gly.md) before attempting to resolve the query itself.
 
 This value is meaningless if the forwarding server is not set to use recursion. To determine this, check the IsSlave Boolean property.
 
@@ -885,7 +885,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-Indicates whether the DNS Server parses [*zone files*](z-gly.md#-dns-zone-file-gly) strictly. If undefined or zero, the server will log and ignore bad data in the zone file and continue to load. If nonzero, the server will log and fail on zone file errors.
+Indicates whether the DNS Server parses [*zone files*](z-gly.md) strictly. If undefined or zero, the server will log and ignore bad data in the zone file and continue to load. If nonzero, the server will log and fail on zone file errors.
 
 </dd> <dt>
 

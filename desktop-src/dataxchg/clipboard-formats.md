@@ -48,7 +48,7 @@ An application can identify a private clipboard format by defining a value in th
 
 Data handles associated with private clipboard formats are not automatically freed by the system. If your windows use private clipboard formats, you can use the [**WM\_DESTROYCLIPBOARD**](wm-destroyclipboard.md) message to free any related resources that are no longer needed.
 
-For more information about the [**WM\_DESTROYCLIPBOARD**](wm-destroyclipboard.md) message, see [Clipboard Ownership](clipboard-operations.md#clipboard-ownership).
+For more information about the [**WM\_DESTROYCLIPBOARD**](wm-destroyclipboard.md) message, see [Clipboard Ownership](clipboard-operations.md).
 
 An application can place data handles on the clipboard by defining a private format in the range **CF\_GDIOBJFIRST** through **CF\_GDIOBJLAST**. When using values in this range, the data handle is not a handle to a Windows Graphics Device Interface (GDI) object, but is a handle allocated by the [**GlobalAlloc**](https://msdn.microsoft.com/library/windows/desktop/aa366574) function with the GMEM\_MOVEABLE flag. When the clipboard is emptied the system automatically deletes the object using the [**GlobalFree**](https://msdn.microsoft.com/library/windows/desktop/aa366579) function.
 

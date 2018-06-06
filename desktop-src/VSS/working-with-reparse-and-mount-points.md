@@ -52,7 +52,7 @@ During backup, requesters should store information about mounted folders and the
 
 ## Handling Mount and Reparse Points during Restore
 
-When restoring files, the requester must follow guidelines somewhat different from those that were used during backup (ignoring issues such as [*alternate location mapping*](vssgloss-a.md#base-vssgloss-alternate-location-mapping) and [*new target location*](vssgloss-n.md#base-vssgloss-new-target-location)):
+When restoring files, the requester must follow guidelines somewhat different from those that were used during backup (ignoring issues such as [*alternate location mapping*](vssgloss-a.md) and [*new target location*](vssgloss-n.md)):
 
 -   As before, if recursion is required, paths are followed across mounted folders and reparse points.
 -   Mounted folders are to be restored.

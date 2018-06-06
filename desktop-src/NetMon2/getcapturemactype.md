@@ -60,7 +60,7 @@ If the function is unsuccessful, the return value is an error code.
 
 The handle of the capture can be obtained in several ways, depending on who makes the call. For experts, the handle is specified in the **hCapture** member of the [EXPERTSTARTUPINFO](expertstartupinfo.md) structure. For parsers, the capture handle can be obtained by calling the [GetFrameCaptureHandle](getframecapturehandle.md) function.
 
-[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetCaptureMacType** function.
+[*Experts*](e.md) and [*parsers*](p.md) can call the **GetCaptureMacType** function.
 
 ## Requirements
 

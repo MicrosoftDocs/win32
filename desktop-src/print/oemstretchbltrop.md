@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # OEMStretchBltROP function
 
-The `OEMStretchBltROP` function performs a stretching bit-block transfer using a [*raster operation (ROP)*](wdkgloss.r#wdkgloss-raster-operation--rop-).
+The `OEMStretchBltROP` function performs a stretching bit-block transfer using a [*raster operation (ROP)*](https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000).
 
 ## Syntax
 

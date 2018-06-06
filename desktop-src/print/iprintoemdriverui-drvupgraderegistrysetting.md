@@ -40,7 +40,7 @@ Caller-supplied printer handle.
 *pFeature* 
 </dt> <dd>
 
-Caller-supplied pointer to a string identifying a printer feature name contained in the printer's [*GPD*](wdkgloss.g#wdkgloss-generic-printer-description--gpd-) or [*PPD*](wdkgloss.p#wdkgloss-postscript-printer-description--ppd-) file.
+Caller-supplied pointer to a string identifying a printer feature name contained in the printer's [*GPD*](https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4) or [*PPD*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c) file.
 
 </dd> <dt>
 

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # TCM\_DESELECTALL message
 
-Resets items in a tab control, clearing any that were set to the [**TCIS\_BUTTONPRESSED**](tab-control-item-states.md#tcis-buttonpressed) state. You can send this message explicitly or by using the [**TabCtrl\_DeselectAll**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_deselectall) macro.
+Resets items in a tab control, clearing any that were set to the [**TCIS\_BUTTONPRESSED**](tab-control-item-states.md) state. You can send this message explicitly or by using the [**TabCtrl\_DeselectAll**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_deselectall) macro.
 
 ## Parameters
 
@@ -43,7 +43,7 @@ The return value for this message is not used.
 
 ## Remarks
 
-This message is only meaningful if the [**TCS\_BUTTONS**](tab-control-styles.md#tcs-buttons) style flag has been set.
+This message is only meaningful if the [**TCS\_BUTTONS**](tab-control-styles.md) style flag has been set.
 
 ## Requirements
 

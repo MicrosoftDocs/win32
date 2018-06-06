@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_CHARTOITEM message
 
-Sent by a list box with the [**LBS\_WANTKEYBOARDINPUT**](list-box-styles.md#lbs-wantkeyboardinput) style to its owner in response to a [**WM\_CHAR**](https://msdn.microsoft.com/library/windows/desktop/ms646276) message.
+Sent by a list box with the [**LBS\_WANTKEYBOARDINPUT**](list-box-styles.md) style to its owner in response to a [**WM\_CHAR**](https://msdn.microsoft.com/library/windows/desktop/ms646276) message.
 
 
 ```C++
@@ -59,7 +59,7 @@ The return value specifies the action that the application performed in response
 
 The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function returns  1.
 
-Only owner-drawn list boxes that do not have the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style can receive this message.
+Only owner-drawn list boxes that do not have the [**LBS\_HASSTRINGS**](list-box-styles.md) style can receive this message.
 
 If a dialog box procedure handles this message, it should cast the desired return value to a **BOOL** and return the value directly. The *DWL\_MSGRESULT* value set by the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function is ignored.
 

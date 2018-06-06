@@ -19,7 +19,7 @@ If a server exposed in the [PublishComponent Table](publishcomponent-table.md) i
 
 Note that letters in product code GUIDs must be uppercase. Utilities such as GUIDGEN generate GUIDs containing lowercase letters. The lowercase letters in these GUIDs must be changed to uppercase to be used as a product code or package code. For more information, see [Changing the Product Code](changing-the-product-code.md).
 
-The package code is a GUID identifying a particular Windows Installer [*package*](p-gly.md#-msi-package-using-windows-installer-gly). The package code associates an .msi file with an application or product and can also be used for the verification of sources. The product and package codes are not interchangeable. No two nonidentical .msi files should ever have the same package code. Although it is common to ship an application that has the same package code and product code, the two values can diverge as the application is updated. For more information, see [Package Codes](package-codes.md).
+The package code is a GUID identifying a particular Windows Installer [*package*](p-gly.md). The package code associates an .msi file with an application or product and can also be used for the verification of sources. The product and package codes are not interchangeable. No two nonidentical .msi files should ever have the same package code. Although it is common to ship an application that has the same package code and product code, the two values can diverge as the application is updated. For more information, see [Package Codes](package-codes.md).
 
  
 

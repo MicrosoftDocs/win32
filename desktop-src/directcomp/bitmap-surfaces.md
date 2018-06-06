@@ -22,7 +22,7 @@ Microsoft DirectComposition is a bitmap compositing engine. It enables applicati
 
 ## Bitmap content
 
-Applications provide DirectComposition with the bitmap content to compose and animate by creating visual objects and then setting the [Content property](basic-concepts.md#content-property) of those objects. DirectComposition does not offer any rasterization services. An application must use some other software-based or hardware-accelerated rasterization library such as [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) or [Direct3D](https://msdn.microsoft.com/library/windows/desktop/ff476080) to populate the bitmaps that are to be composed. After composing, DirectComposition passes composed bitmap content to [Desktop Window Manager (DWM)](https://msdn.microsoft.com/library/windows/desktop/aa969540) for rendering to the screen.
+Applications provide DirectComposition with the bitmap content to compose and animate by creating visual objects and then setting the [Content property](basic-concepts.md) of those objects. DirectComposition does not offer any rasterization services. An application must use some other software-based or hardware-accelerated rasterization library such as [Direct2D](https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b) or [Direct3D](https://msdn.microsoft.com/library/windows/desktop/ff476080) to populate the bitmaps that are to be composed. After composing, DirectComposition passes composed bitmap content to [Desktop Window Manager (DWM)](https://msdn.microsoft.com/library/windows/desktop/aa969540) for rendering to the screen.
 
 **Supported types of bitmap content** Microsoft DirectComposition supports the following kinds of bitmaps:
 

@@ -39,7 +39,7 @@ Returns the handle to the image list that the control uses to display hot button
 
 ## Remarks
 
-A button is hot when the cursor is over it. Toolbar controls must have the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md#tbstyle-flat) or [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md#tbstyle-list) style to have hot items.
+A button is hot when the cursor is over it. Toolbar controls must have the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md) or [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md) style to have hot items.
 
 ## Requirements
 

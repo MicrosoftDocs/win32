@@ -56,9 +56,9 @@ If the method is unsuccessful, the return value is one of the following error co
 
 ## Remarks
 
-While the capture is in a paused state, new data is not added to the current [*capture file*](c.md#-netmon-capture-file-gly) until you call the [IESP::Resume](iesp-resume.md) method to restart the capture. When **Pause** and **Resume** are used to stop and restart the capture, all captured information is put in the same capture file.
+While the capture is in a paused state, new data is not added to the current [*capture file*](c.md) until you call the [IESP::Resume](iesp-resume.md) method to restart the capture. When **Pause** and **Resume** are used to stop and restart the capture, all captured information is put in the same capture file.
 
-When you use the **IESP::Pause** and **IESP::Resume** methods to control the capture, Network Monitor continues to add [*conversation statistics*](c.md#-netmon-conversation-statistics-gly) whenever the capture is running.
+When you use the **IESP::Pause** and **IESP::Resume** methods to control the capture, Network Monitor continues to add [*conversation statistics*](c.md) whenever the capture is running.
 
 To restart the capture, call [IESP::Resume](iesp-resume.md). To stop the capture, call [IESP::Stop](iesp-stop.md).
 

@@ -99,16 +99,16 @@ UI Automation providers for custom controls must support certain properties that
 
 Typically, providers for window-based controls do not need to provide the following properties that are identified by **PROPERTYID**:
 
--   [**UIA\_BoundingRectanglePropertyId**](uiauto-automation-element-propids.md#uia-boundingrectanglepropertyid)
--   [**UIA\_ClickablePointPropertyId**](uiauto-automation-element-propids.md#uia-clickablepointpropertyid)
--   [**UIA\_ProcessIdPropertyId**](uiauto-automation-element-propids.md#uia-processidpropertyid)
--   [**UIA\_ClassNamePropertyId**](uiauto-automation-element-propids.md#uia-classnamepropertyid)
--   [**UIA\_HasKeyboardFocusPropertyId**](uiauto-automation-element-propids.md#uia-haskeyboardfocuspropertyid)
--   [**UIA\_IsEnabledPropertyId**](uiauto-automation-element-propids.md#uia-isenabledpropertyid)
--   [**UIA\_IsKeyboardFocusablePropertyId**](uiauto-automation-element-propids.md#uia-iskeyboardfocusablepropertyid)
--   [**UIA\_IsPasswordPropertyId**](uiauto-automation-element-propids.md#uia-ispasswordpropertyid)
--   [**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid)
--   [**UIA\_RuntimeIdPropertyId**](uiauto-automation-element-propids.md#uia-runtimeidpropertyid)
+-   [**UIA\_BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)
+-   [**UIA\_ClickablePointPropertyId**](uiauto-automation-element-propids.md)
+-   [**UIA\_ProcessIdPropertyId**](uiauto-automation-element-propids.md)
+-   [**UIA\_ClassNamePropertyId**](uiauto-automation-element-propids.md)
+-   [**UIA\_HasKeyboardFocusPropertyId**](uiauto-automation-element-propids.md)
+-   [**UIA\_IsEnabledPropertyId**](uiauto-automation-element-propids.md)
+-   [**UIA\_IsKeyboardFocusablePropertyId**](uiauto-automation-element-propids.md)
+-   [**UIA\_IsPasswordPropertyId**](uiauto-automation-element-propids.md)
+-   [**UIA\_NamePropertyId**](uiauto-automation-element-propids.md)
+-   [**UIA\_RuntimeIdPropertyId**](uiauto-automation-element-propids.md)
 
 The RuntimeId property of a simple element or fragment root hosted in a window is obtained from the window. However, fragment elements below the root, such as list items in a list box, must provide their own identifiers. For more information, see [**IRawElementProviderFragment::GetRuntimeId**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-getruntimeid).
 
@@ -132,7 +132,7 @@ UI Automation providers should raise events to notify client applications of cha
 
  
 
-The purpose of an event is to notify the client of something taking place in the UI. Providers should raise an event regardless of whether the change was triggered by user input or by a client application using UI Automation. For example, the event identified by [**UIA\_Invoke\_InvokedEventId**](uiauto-event-ids.md#uia-invoke-invokedeventid) should be raised whenever the control is invoked, either through direct user input or by the client application calling [**IUIAutomationInvokePattern::Invoke**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationinvokepattern-invoke).
+The purpose of an event is to notify the client of something taking place in the UI. Providers should raise an event regardless of whether the change was triggered by user input or by a client application using UI Automation. For example, the event identified by [**UIA\_Invoke\_InvokedEventId**](uiauto-event-ids.md) should be raised whenever the control is invoked, either through direct user input or by the client application calling [**IUIAutomationInvokePattern::Invoke**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationinvokepattern-invoke).
 
 To optimize performance, a provider can selectively raise events, or raise no events at all if no client application is registered to receive them. The following API elements are used for optimization.
 

@@ -19,7 +19,7 @@ Starting with Windows Vista, this provider creates the WMI [Performance Counter
 
 For more information, see [Performance Libraries and WMI](performance-libraries-and-wmi.md).
 
-While it is not recommended that you develop new performance objects by creating a WMI high-performance provider and depend on the [*ADAP reverse adapter*](gloss-r.md#wmi-gloss-reverse-adapter) process to transfer the data to the performance libraries, the exception is development of a Windows Driver Model driver that supplies performance data. While the reverse adapter process continues to work for backward compatibility, the recommended method is to use [Performance Counters Version 6.0](https://msdn.microsoft.com/library/windows/desktop/aa373083).
+While it is not recommended that you develop new performance objects by creating a WMI high-performance provider and depend on the [*ADAP reverse adapter*](gloss-r.md) process to transfer the data to the performance libraries, the exception is development of a Windows Driver Model driver that supplies performance data. While the reverse adapter process continues to work for backward compatibility, the recommended method is to use [Performance Counters Version 6.0](https://msdn.microsoft.com/library/windows/desktop/aa373083).
 
 The [**\_\_Win32Provider**](--win32provider.md) instance name of this provider is "WmiPerfClass".
 

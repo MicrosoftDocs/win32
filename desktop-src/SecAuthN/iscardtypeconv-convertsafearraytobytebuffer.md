@@ -92,7 +92,7 @@ Memory allocated is moveable. Use the **IStream::Release** method to free the me
 [**ISCardTypeConv**](iscardtypeconv.md)
 </dt> <dt>
 
-[Smart Card Return Values](authentication-return-values.md#smart-card-return-values)
+[Smart Card Return Values](authentication-return-values.md)
 </dt> </dl>
 
  

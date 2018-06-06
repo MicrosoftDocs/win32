@@ -35,7 +35,7 @@ Retrieves the number of tick marks in a trackbar.
 
 ## Return value
 
-If no [tick flag](trackbar-control-styles.md) is set, it returns 2 for the beginning and ending ticks. If [**TBS\_NOTICKS**](trackbar-control-styles.md#tbs-noticks) is set, it returns zero. Otherwise, it takes the difference between the range minimum and maximum, divides by the tick frequency, and adds 2.
+If no [tick flag](trackbar-control-styles.md) is set, it returns 2 for the beginning and ending ticks. If [**TBS\_NOTICKS**](trackbar-control-styles.md) is set, it returns zero. Otherwise, it takes the difference between the range minimum and maximum, divides by the tick frequency, and adds 2.
 
 ## Remarks
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # GetCaptureCommentFromFilename function
 
-The **GetCaptureCommentFromFilename** function extracts the capture comment from a [*capture file*](c.md#-netmon-capture-file-gly).
+The **GetCaptureCommentFromFilename** function extracts the capture comment from a [*capture file*](c.md).
 
 ## Syntax
 
@@ -72,7 +72,7 @@ If the function is unsuccessful, the return value is an error code.
 
 ## Remarks
 
-[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetCaptureCommentFromFilename** function.
+[*Experts*](e.md) and [*parsers*](p.md) can call the **GetCaptureCommentFromFilename** function.
 
 To retrieve the comment of a real-time capture, call the [GetCaptureComment](getcapturecomment.md) function.
 

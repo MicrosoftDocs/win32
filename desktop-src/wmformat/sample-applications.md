@@ -55,7 +55,7 @@ This sample is not supported on x64-based versions of Windows.
 </tr>
 <tr class="odd">
 <td>DRMShow</td>
-<td>DRMShow is a console application that shows how to read [<em>DRM</em>](wmformat-glossary.md#wmformat-digital-rights-management--drm-) properties of a Windows Media file using the <strong>IWMDRMReader::GetDRMProperty</strong> method.This sample demonstrates the use of the <strong>IWMDRMReader::GetDRMProperty</strong> method and the properties that can be retrieved from the DRM reader. It does not demonstrate how to acquire a license for DRM-protected content. This sample requires the DRM stub library WMStubDRM.lib to build.<br/>
+<td>DRMShow is a console application that shows how to read [<em>DRM</em>](wmformat-glossary.md) properties of a Windows Media file using the <strong>IWMDRMReader::GetDRMProperty</strong> method.This sample demonstrates the use of the <strong>IWMDRMReader::GetDRMProperty</strong> method and the properties that can be retrieved from the DRM reader. It does not demonstrate how to acquire a license for DRM-protected content. This sample requires the DRM stub library WMStubDRM.lib to build.<br/>
 <blockquote>
 [!Note]<br />
 This sample is not supported on x64-based versions of Windows.
@@ -68,7 +68,7 @@ This sample is not supported on x64-based versions of Windows.
 </tr>
 <tr class="odd">
 <td>DirectShowInterop/DSPlay</td>
-<td>This sample is an interactive audio/video media file player with [<em>DRM</em>](wmformat-glossary.md#wmformat-digital-rights-management--drm-) support. It uses DirectShow's WM ASF Reader filter to play Windows Media files (ASF, WMA, WMV) without DRM protection and files which use DRM at a level of 100 or below. See readme.txt in the sample's directory for more information.</td>
+<td>This sample is an interactive audio/video media file player with [<em>DRM</em>](wmformat-glossary.md) support. It uses DirectShow's WM ASF Reader filter to play Windows Media files (ASF, WMA, WMV) without DRM protection and files which use DRM at a level of 100 or below. See readme.txt in the sample's directory for more information.</td>
 </tr>
 <tr class="even">
 <td>DirectShowInterop/DSSeekFm</td>

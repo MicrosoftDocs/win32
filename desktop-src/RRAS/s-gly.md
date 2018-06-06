@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_rras_static_route_gly"></span><span id="_RRAS_STATIC_ROUTE_GLY"></span>**static route**
 </dt> <dd>
 
-A static route is a route that is manually added to the routing table. Compare to [*autostatic route*](a-gly.md#-rras-autostatic-route-gly).
+A static route is a route that is manually added to the routing table. Compare to [*autostatic route*](a-gly.md).
 
 </dd> </dl>
 

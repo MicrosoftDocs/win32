@@ -49,7 +49,7 @@ Returns the length of the note text in **WCHARs**, not including any terminating
 
 Beginning with comctl32 DLL version 6.01, command link buttons may have a note. For information on DLL versions, see [Common Control Versions](common-control-versions.md).
 
-The **BCM\_GETNOTELENGTH** message works only with the [**BS\_COMMANDLINK**](button-styles.md#bs-commandlink) and [**BS\_DEFCOMMANDLINK**](button-styles.md#bs-defcommandlink) button styles.
+The **BCM\_GETNOTELENGTH** message works only with the [**BS\_COMMANDLINK**](button-styles.md) and [**BS\_DEFCOMMANDLINK**](button-styles.md) button styles.
 
 ## Requirements
 

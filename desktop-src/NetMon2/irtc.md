@@ -30,8 +30,8 @@ The **IRTC** interface has these methods.
 | [**Configure**](irtc-configure.md)                                 | Sets the trigger, pattern match, and buffer size of the capture.<br/>                                                                             |
 | [**Connect**](irtc-connect.md)                                     | Connects the NPP to the network.<br/>                                                                                                             |
 | [**Disconnect**](irtc-disconnect.md)                               | Disconnects the NPP from the network.<br/>                                                                                                        |
-| [**GetControlState**](irtc-getcontrolstate.md)                     | Retrieves the state of the [*capture*](c.md#-netmon-capture-gly), which indicates if the capture is running or paused.<br/>                      |
-| [**GetConversationStatistics**](irtc-getconversationstatistics.md) | Retrieves [*session*](s.md#-netmon-session-gly) and [*station information*](s.md#-netmon-station-information-gly) for the current capture.<br/> |
+| [**GetControlState**](irtc-getcontrolstate.md)                     | Retrieves the state of the [*capture*](c.md), which indicates if the capture is running or paused.<br/>                      |
+| [**GetConversationStatistics**](irtc-getconversationstatistics.md) | Retrieves [*session*](s.md) and [*station information*](s.md) for the current capture.<br/> |
 | [**GetTotalStatistics**](irtc-gettotalstatistics.md)               | Extracts time, buffer, driver, and other network statistics from the currently running capture.<br/>                                              |
 | [**Pause**](irtc-pause.md)                                         | Temporarily stops the current capture.<br/>                                                                                                       |
 | [**QueryStations**](irtc-querystations.md)                         | Retrieves a list of all computers on a subnet that are using Network Monitor to capture network data.<br/>                                        |

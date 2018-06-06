@@ -57,7 +57,7 @@ This message is sent for the following mouse events on the vertical scroll bar: 
 
 The mouse wheel is a mouse that has a center wheel that scrolls. For more information, see "The Mouse Wheel" in [About Mouse Input](https://msdn.microsoft.com/library/windows/desktop/ms645601).
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. To receive EN\_VSCROLL notification codes, specify [**ENM\_SCROLL**](rich-edit-control-event-mask-flags.md#enm-scroll) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. To receive EN\_VSCROLL notification codes, specify [**ENM\_SCROLL**](rich-edit-control-event-mask-flags.md) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 

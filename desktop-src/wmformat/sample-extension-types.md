@@ -48,7 +48,7 @@ The following table lists the predefined data unit extension identifiers, and de
 <tbody>
 <tr class="odd">
 <td>WM_SampleExtensionGUID_OutputCleanPoint</td>
-<td>The data indicates whether the sample is a [<em>cleanpoint</em>](wmformat-glossary.md#wmformat-cleanpoint). A value of zero indicates that the sample is not a cleanpoint. A non-zero value indicates that it is a cleanpoint. This sample data unit extension (DUE) type is used to keep track of cleanpoints when writing precompressed media streams that were encoded with third-party codecs.</td>
+<td>The data indicates whether the sample is a [<em>cleanpoint</em>](wmformat-glossary.md). A value of zero indicates that the sample is not a cleanpoint. A non-zero value indicates that it is a cleanpoint. This sample data unit extension (DUE) type is used to keep track of cleanpoints when writing precompressed media streams that were encoded with third-party codecs.</td>
 </tr>
 <tr class="even">
 <td>WM_SampleExtensionGUID_Timecode</td>

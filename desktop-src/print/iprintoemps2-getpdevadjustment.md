@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemPS2::GetPDEVAdjustment method
 
-The `IPrintOemPS2::GetPDEVAdjustment` method enables a plug-in to override specific [*PDEV*](wdkgloss.p#wdkgloss-pdev) settings.
+The `IPrintOemPS2::GetPDEVAdjustment` method enables a plug-in to override specific [*PDEV*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c) settings.
 
 ## Syntax
 

@@ -36,7 +36,7 @@ The character set of the new locale.
 *lParam* 
 </dt> <dd>
 
-The input locale identifier. For more information, see [Languages, Locales, and Keyboard Layouts](inputdev.about_keyboard_input#-win32-languages-locales-and-keyboard-layouts).
+The input locale identifier. For more information, see [Languages, Locales, and Keyboard Layouts](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\aboutkeyboardinput.htm).
 
 </dd> </dl>
 

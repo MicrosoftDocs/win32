@@ -87,7 +87,7 @@ The following table depicts a typical control and content view of the UI Automat
 
  
 
-Menu controls always appear in the control view and the content view of the UI Automation tree. Menu controls should appear under the control that their information is referring to. UI Automation clients can listen for [**UIA\_MenuOpenedEventId**](uiauto-event-ids.md#uia-menuopenedeventid) to ensure that they consistently obtain information conveyed by menu controls. Context menu controls are a special case. They may appear as children of the desktop or of a top level application window.
+Menu controls always appear in the control view and the content view of the UI Automation tree. Menu controls should appear under the control that their information is referring to. UI Automation clients can listen for [**UIA\_MenuOpenedEventId**](uiauto-event-ids.md) to ensure that they consistently obtain information conveyed by menu controls. Context menu controls are a special case. They may appear as children of the desktop or of a top level application window.
 
 A menu control can contain other controls, such as edit controls and combo boxes, within its structure. These additional controls correspond to the "other controls" listed in the previous table in the control and content views.
 
@@ -99,11 +99,11 @@ The following table lists the UI Automation properties whose value or definition
 
 | UI Automation Property                                                                                      | Value      | Notes                                                                                                                                                                   |
 |-------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**UIA\_ControlTypePropertyId**](uiauto-automation-element-propids.md#uia-controltypepropertyid)           | **Menu**   |                                                                                                                                                                         |
-| [**UIA\_IsContentElementPropertyId**](uiauto-automation-element-propids.md#uia-iscontentelementpropertyid) | TRUE       | The menu control is always included in the content view of the UI Automation tree.                                                                                      |
-| [**UIA\_IsControlElementPropertyId**](uiauto-automation-element-propids.md#uia-iscontrolelementpropertyid) | TRUE       | The menu control is always included in the control view of the UI Automation tree.                                                                                      |
-| [**UIA\_LabeledByPropertyId**](uiauto-automation-element-propids.md#uia-labeledbypropertyid)               | NULL       | No label is anticipated with a typical menu control.                                                                                                                    |
-| [**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid)                         | See notes. | The menu control does not require a **Name** property to be set, or it could have the same name as the associated control, such as a menu item that opened the submenu. |
+| [**UIA\_ControlTypePropertyId**](uiauto-automation-element-propids.md)           | **Menu**   |                                                                                                                                                                         |
+| [**UIA\_IsContentElementPropertyId**](uiauto-automation-element-propids.md) | TRUE       | The menu control is always included in the content view of the UI Automation tree.                                                                                      |
+| [**UIA\_IsControlElementPropertyId**](uiauto-automation-element-propids.md) | TRUE       | The menu control is always included in the control view of the UI Automation tree.                                                                                      |
+| [**UIA\_LabeledByPropertyId**](uiauto-automation-element-propids.md)               | NULL       | No label is anticipated with a typical menu control.                                                                                                                    |
+| [**UIA\_NamePropertyId**](uiauto-automation-element-propids.md)                         | See notes. | The menu control does not require a **Name** property to be set, or it could have the same name as the associated control, such as a menu item that opened the submenu. |
 
 
 
@@ -115,7 +115,7 @@ There are no required control patterns for the Menu control type.
 
 ## Required Events
 
-Menu controls must raise the [**UIA\_MenuOpenedEventId**](uiauto-event-ids.md#uia-menuopenedeventid) event when they appear on the screen. The **UIA\_MenuOpenedEventId** event will include the text of the control. The [**UIA\_MenuClosedEventId**](uiauto-event-ids.md#uia-menuclosedeventid) event must be raised when a menu disappears from the screen.
+Menu controls must raise the [**UIA\_MenuOpenedEventId**](uiauto-event-ids.md) event when they appear on the screen. The **UIA\_MenuOpenedEventId** event will include the text of the control. The [**UIA\_MenuClosedEventId**](uiauto-event-ids.md) event must be raised when a menu disappears from the screen.
 
 The following table lists the UI Automation events that menu controls are required to support. For more information on events, see [UI Automation Events Overview](uiauto-eventsoverview.md).
 
@@ -123,13 +123,13 @@ The following table lists the UI Automation events that menu controls are requir
 
 | UI Automation Event                                                                                                                   | Notes                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| [**UIA\_AutomationFocusChangedEventId**](uiauto-event-ids.md#uia-automationfocuschangedeventid)                                      |                                                                                                                            |
-| [**UIA\_BoundingRectanglePropertyId**](uiauto-automation-element-propids.md#uia-boundingrectanglepropertyid) property-changed event. |                                                                                                                            |
-| [**UIA\_IsEnabledPropertyId**](uiauto-automation-element-propids.md#uia-isenabledpropertyid) property-changed event.                 | If the control supports the [**IsEnabled**](uiauto-automation-element-propids.md) property, it must support this event.   |
-| [**UIA\_IsOffscreenPropertyId**](uiauto-automation-element-propids.md#uia-isoffscreenpropertyid) property-changed event.             | If the control supports the [**IsOffscreen**](uiauto-automation-element-propids.md) property, it must support this event. |
-| [**UIA\_MenuClosedEventId**](uiauto-event-ids.md#uia-menuclosedeventid)                                                              |                                                                                                                            |
-| [**UIA\_MenuOpenedEventId**](uiauto-event-ids.md#uia-menuopenedeventid)                                                              |                                                                                                                            |
-| [**UIA\_StructureChangedEventId**](uiauto-event-ids.md#uia-structurechangedeventid)                                                  |                                                                                                                            |
+| [**UIA\_AutomationFocusChangedEventId**](uiauto-event-ids.md)                                      |                                                                                                                            |
+| [**UIA\_BoundingRectanglePropertyId**](uiauto-automation-element-propids.md) property-changed event. |                                                                                                                            |
+| [**UIA\_IsEnabledPropertyId**](uiauto-automation-element-propids.md) property-changed event.                 | If the control supports the [**IsEnabled**](uiauto-automation-element-propids.md) property, it must support this event.   |
+| [**UIA\_IsOffscreenPropertyId**](uiauto-automation-element-propids.md) property-changed event.             | If the control supports the [**IsOffscreen**](uiauto-automation-element-propids.md) property, it must support this event. |
+| [**UIA\_MenuClosedEventId**](uiauto-event-ids.md)                                                              |                                                                                                                            |
+| [**UIA\_MenuOpenedEventId**](uiauto-event-ids.md)                                                              |                                                                                                                            |
+| [**UIA\_StructureChangedEventId**](uiauto-event-ids.md)                                                  |                                                                                                                            |
 
 
 

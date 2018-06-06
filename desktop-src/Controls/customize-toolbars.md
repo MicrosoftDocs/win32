@@ -18,7 +18,7 @@ Most Windows-based applications use toolbar controls to provide users with conve
 
  
 
-To enable customization, include the [**CCS\_ADJUSTABLE**](common-control-styles.md#ccs-adjustable) common controls style flag when you create the toolbar control. There are two basic approaches to customization:
+To enable customization, include the [**CCS\_ADJUSTABLE**](common-control-styles.md) common controls style flag when you create the toolbar control. There are two basic approaches to customization:
 
 -   The customization dialog box. This system-provided dialog box is the simplest approach. It gives users a graphical user interface that allows them to add, delete, or move icons.
 -   Dragging and dropping tools. Implementing drag-and-drop functionality allows users to move tools to another location on the toolbar or delete them by dragging them off the toolbar. It provides users a quick and easy way to organize their toolbar, but does not allow them to add tools.

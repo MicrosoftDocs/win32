@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # CB\_SHOWDROPDOWN message
 
-An application sends a **CB\_SHOWDROPDOWN** message to show or hide the list box of a combo box that has the [**CBS\_DROPDOWN**](combo-box-styles.md#cbs-dropdown) or [**CBS\_DROPDOWNLIST**](combo-box-styles.md#cbs-dropdownlist) style.
+An application sends a **CB\_SHOWDROPDOWN** message to show or hide the list box of a combo box that has the [**CBS\_DROPDOWN**](combo-box-styles.md) or [**CBS\_DROPDOWNLIST**](combo-box-styles.md) style.
 
 ## Parameters
 
@@ -47,7 +47,7 @@ The return value is always **TRUE**.
 
 ## Remarks
 
-This message has no effect on a combo box created with the [**CBS\_SIMPLE**](combo-box-styles.md#cbs-simple) style.
+This message has no effect on a combo box created with the [**CBS\_SIMPLE**](combo-box-styles.md) style.
 
 ## Requirements
 

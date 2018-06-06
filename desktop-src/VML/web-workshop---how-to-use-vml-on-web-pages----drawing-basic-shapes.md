@@ -72,7 +72,7 @@ Browsers that support VML can render and display the graphics represented in VML
 
 ## XML Structure
 
-VML is formatted according to the rules of Extensible Markup Language (XML). Any standard XML parser can parse VML and hand off the resulting data to a VML-specific processor. To let the browsers know how to hand off data to a VML-specific processor, you need to type some information such as [namespaces](web-workshop---how-to-use-vml-on-web-pages----appendix.md#namespaces) and [embedded custom objects](web-workshop---how-to-use-vml-on-web-pages----appendix.md#embedding). You can then use VML to type graphics in the &lt;BODY&gt; region just as you did in the preceding example.
+VML is formatted according to the rules of Extensible Markup Language (XML). Any standard XML parser can parse VML and hand off the resulting data to a VML-specific processor. To let the browsers know how to hand off data to a VML-specific processor, you need to type some information such as [namespaces](web-workshop---how-to-use-vml-on-web-pages----appendix.md) and [embedded custom objects](web-workshop---how-to-use-vml-on-web-pages----appendix.md). You can then use VML to type graphics in the &lt;BODY&gt; region just as you did in the preceding example.
 
 The `"v:"` prefix on each XML tag identifies the tag as VML. The `"v:"` prefix in the &lt;BODY&gt; region should be consistent with `<html xmlns:v="...">`.
 

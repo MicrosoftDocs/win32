@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Tiled resource creation parameters
 
-There are some constraints on the type of Direct3D resources that you can create with the [**D3D11\_RESOURCE\_MISC\_TILED**](d3d11-resource-misc-flag.md#d3d11-resource-misc-tiled) flag. This section provides the valid parameters for creating tiled resources.
+There are some constraints on the type of Direct3D resources that you can create with the [**D3D11\_RESOURCE\_MISC\_TILED**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag) flag. This section provides the valid parameters for creating tiled resources.
 
 <dl> <dt>
 

@@ -85,9 +85,9 @@ The method must return one of the following values.
 
 ## Remarks
 
-The `IPrintOemUni::DownloadCharGlyph` method is used for supporting soft fonts on printers that do not accept [*PCL*](wdkgloss.p#wdkgloss-pcl) commands. Its purpose is to enable a rendering plug-in to send a character glyph to the printer.
+The `IPrintOemUni::DownloadCharGlyph` method is used for supporting soft fonts on printers that do not accept [*PCL*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c) commands. Its purpose is to enable a rendering plug-in to send a character glyph to the printer.
 
-If a rendering plug-in implements the `IPrintOemUni::DownloadCharGlyph` method, Unidrv calls the method immediately after sending the command string specified by the CmdSetCharCode command entry, which is contained in the printer's [*GPD*](wdkgloss.g#wdkgloss-generic-printer-description--gpd-) file. (GPD files are described in [Microsoft Universal Printer Driver](https://www.bing.com/search?q=Microsoft+Universal+Printer+Driver).) The method should do the following:
+If a rendering plug-in implements the `IPrintOemUni::DownloadCharGlyph` method, Unidrv calls the method immediately after sending the command string specified by the CmdSetCharCode command entry, which is contained in the printer's [*GPD*](https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4) file. (GPD files are described in [Microsoft Universal Printer Driver](https://www.bing.com/search?q=Microsoft+Universal+Printer+Driver).) The method should do the following:
 
 -   Call the [*UNIFONTOBJ\_GetInfo*](unifontobj-getinfo.md) function to obtain the glyph image specified by *hGlyph*.
 

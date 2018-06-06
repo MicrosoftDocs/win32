@@ -26,7 +26,7 @@ See *Graphics Device Interface*.
 <span id="_security_gina_gly"></span><span id="_SECURITY_GINA_GLY"></span>**GINA**
 </dt> <dd>
 
-A Graphical Identification and Authentication dynamic-link library (DLL). The GINA is a replaceable DLL component that is loaded by the [*Winlogon*](w-gly.md#-security-winlogon-gly) executable. The GINA implements the authentication policy of the interactive logon model and is expected to perform all identification and authentication user interactions.
+A Graphical Identification and Authentication dynamic-link library (DLL). The GINA is a replaceable DLL component that is loaded by the [*Winlogon*](w-gly.md) executable. The GINA implements the authentication policy of the interactive logon model and is expected to perform all identification and authentication user interactions.
 
 </dd> <dt>
 

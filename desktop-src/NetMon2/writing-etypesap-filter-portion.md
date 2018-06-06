@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Writing Etype/SAP Filter Portion
 
-The Etype/SAP portion of the capture filter notifies the Network Monitor driver to accept frames that have a specific combination of Etypes and [*service access points*](s.md#-netmon-sap-gly) (SAPs). Etypes and SAPs are both ways that low-level protocols such as Ethernet, LLC, and Snap indicate which protocol follows them. Specifically:
+The Etype/SAP portion of the capture filter notifies the Network Monitor driver to accept frames that have a specific combination of Etypes and [*service access points*](s.md) (SAPs). Etypes and SAPs are both ways that low-level protocols such as Ethernet, LLC, and Snap indicate which protocol follows them. Specifically:
 
 -   Ethernet specifies an Etype
 -   LLC specifies a SAP

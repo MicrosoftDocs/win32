@@ -18,7 +18,7 @@ When an application uses the Credentials Management API to prompt for credential
 
 ## User Principal Name
 
-[*User principal name*](security.u_gly#-security-user-principal-name-gly) (UPN) format is used to specify an Internet-style name, such as *UserName***@***Example.Microsoft***.com**. The following table summarizes the parts of a UPN.
+[*User principal name*](https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb) (UPN) format is used to specify an Internet-style name, such as *UserName***@***Example.Microsoft***.com**. The following table summarizes the parts of a UPN.
 
 
 

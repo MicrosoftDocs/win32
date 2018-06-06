@@ -34,13 +34,13 @@ To decide, consider these questions:
     -   The command is not inline.
     -   The control appears within a group of other related command buttons.
     -   The action is destructive or irreversible. Because users associate links with navigation (and the ability to back out), links aren't appropriate for commands with significant consequences.
-    -   Similarly, in a [wizard](win-wizards.md) or [task flow](glossary.md#t), the command represents commitment. In such windows, command buttons suggest commitment whereas links suggest navigating to the next step.
+    -   Similarly, in a [wizard](win-wizards.md) or [task flow](glossary.md), the command represents commitment. In such windows, command buttons suggest commitment whereas links suggest navigating to the next step.
 
 ## Design concepts
 
 **Making links recognizable**
 
-Links lack [affordance](glossary.md#glossary), which means **their visual properties don't suggest how they are used** and are understood only through experience. Links without an underline and link system colors appear as normal text; the only way to ascertain their behavior is from their presentation, their context, or by positioning the pointer over them.
+Links lack [affordance](glossary.md), which means **their visual properties don't suggest how they are used** and are understood only through experience. Links without an underline and link system colors appear as normal text; the only way to ascertain their behavior is from their presentation, their context, or by positioning the pointer over them.
 
 Surprisingly, this lack of affordance is often a motivation for using links because they appear so lightweight, thereby reducing the visual complexity of a design. Links eliminate the visually heavy frame used by [command buttons](ctrl-command-buttons.md) and border used by other controls. For example, while you might use command buttons to make primary commands obvious, you might choose links for secondary commands to de-emphasize them.
 
@@ -80,7 +80,7 @@ To evaluate your link text:
 
 1. Make links discoverable by visual inspection alone. Users shouldn't have to interact with your program to find links.
 
-2. Use links that give specific descriptive information about the result of clicking on the link, using as much text as necessary. Users should be able to accurately predict the result of a link from its link text and optional [infotip](ctrl-tooltips-and-infotips.md#usage-patterns).
+2. Use links that give specific descriptive information about the result of clicking on the link, using as much text as necessary. Users should be able to accurately predict the result of a link from its link text and optional [infotip](ctrl-tooltips-and-infotips.md).
 
 ## Usage patterns
 
@@ -107,7 +107,7 @@ Links also have several presentation patterns:
 
 |                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Plain text links**\[newline\] consist only of text. \[newline\]                                      | this presentation is the most flexible because it can be used anywhere, including [inline](glossary.md#i).\[newline\] ![screen shot of blue link text ](images/ctrl-links-image7.png)<br/> In this example, the text color clearly identifies an inline link.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Plain text links**\[newline\] consist only of text. \[newline\]                                      | this presentation is the most flexible because it can be used anywhere, including [inline](glossary.md).\[newline\] ![screen shot of blue link text ](images/ctrl-links-image7.png)<br/> In this example, the text color clearly identifies an inline link.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Text with icon links**\[newline\] text with a preceding icon that indicates its function.\[newline\] | because the graphic provides an additional visual indication of a link, it is easier to recognize as a link than a plain text link that isn't underlined. this pattern typically uses a 16x16 pixel icon.\[newline\] ![screen shot of list of four links with icons ](images/ctrl-links-image8.png)\[newline\] in this example, the icons provide an additional visual indication of a link.\[newline\] ![screen shot of play command with small triangle ](images/ctrl-links-image9.png)<br/> In this example, the standard triangular Play symbol indicates that this text is a command.<br/>                                                                                                                                     |
 | **Graphics-only links**\[newline\] consist only of a graphic.\[newline\]                               | given the lack of a text link, there is no link color or underline to indicate the link. these links depend on either the graphic design to suggest clicking, or text within the graphic that suggests an action when users click. graphic-only links sometimes have a mouse over effect to indicate the link. this approach helps, but isn't discoverable by visual inspection alone.\[newline\] ![screen shot of icon with link-select mouse pointer ](images/ctrl-links-image10.png)<br/> In this example, the link isn't discoverable by visual inspection alone.<br/> **Due to their potential recognition and localization problems, graphics-only links are not recommended as the only way to perform a task.** <br/> |
 
@@ -226,7 +226,7 @@ In the incorrect example, the icon doesn't lead into the text.
 
 ### Link infotips
 
--   If a link requires further explanation, **provide the explanation in either a supplemental explanation in a separate text control or an** [infotip](ctrl-tooltips-and-infotips.md#usage-patterns), but not both. Use complete sentences and ending punctuation. Providing both is unnecessary if the text is the same, and confusing if the text is different.
+-   If a link requires further explanation, **provide the explanation in either a supplemental explanation in a separate text control or an** [infotip](ctrl-tooltips-and-infotips.md), but not both. Use complete sentences and ending punctuation. Providing both is unnecessary if the text is the same, and confusing if the text is different.
 
     ![screen shot of link with supplemental text ](images/ctrl-links-image16.png)
 
@@ -246,7 +246,7 @@ In the incorrect example, the icon doesn't lead into the text.
 
 ## Text
 
--   Don't assign an [access key](glossary.md#glossary). Links are accessed using the Tab key.
+-   Don't assign an [access key](glossary.md). Links are accessed using the Tab key.
 -   **Use links that give specific descriptive information about the result of clicking on the link**, using as much text as necessary. The link text should indicate the result of clicking on the link. **Users should be able to accurately predict the result of a link from its link text and optional infotip.**
 
     **Incorrect:**
@@ -279,7 +279,7 @@ In the incorrect example, the icon doesn't lead into the text.
         In this example, "UX" and "guidelines" are two different links.
 
 -   For independent links (not inline):
-    -   Use [sentence-style capitalization](glossary.md#s).
+    -   Use [sentence-style capitalization](glossary.md).
     -   Don't use ending punctuation unless the link is a question.
     -   Use all the text as the link.
 -   Use links that are clearly differentiated from the other links on the screen. Users should be able to accurately predict and differentiate between link targets.

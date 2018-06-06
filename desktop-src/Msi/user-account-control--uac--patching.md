@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # User Account Control (UAC) Patching
 
-[*User Account Control*](u-gly.md#-msi-user-account-control-gly) (UAC) patching enables the authors of Windows Installer installations to identify digitally-signed patches that can be applied in the future by non-administrator users.
+[*User Account Control*](u-gly.md) (UAC) patching enables the authors of Windows Installer installations to identify digitally-signed patches that can be applied in the future by non-administrator users.
 
 If the digital signature does not match the certificate, Windows Vista displays a UAC dialog box requesting administrator authorization before installing the patch. On systems earlier than Windows Vista, the installer will not apply a signed patch that does not match the certificate.
 

@@ -47,11 +47,11 @@ Returns a **DWORD** value that contains the previous extended list-view control 
 
 ## Remarks
 
-The *wParam* parameter allows you to modify one or more extended styles without having to retrieve the existing styles first. For example, if you pass [**LVS\_EX\_FULLROWSELECT**](extended-list-view-styles.md#lvs-ex-fullrowselect) for *wParam* and 0 for *lParam*, the **LVS\_EX\_FULLROWSELECT** style will be cleared but all other styles will remain the same.
+The *wParam* parameter allows you to modify one or more extended styles without having to retrieve the existing styles first. For example, if you pass [**LVS\_EX\_FULLROWSELECT**](extended-list-view-styles.md) for *wParam* and 0 for *lParam*, the **LVS\_EX\_FULLROWSELECT** style will be cleared but all other styles will remain the same.
 
 For backward compatibility reasons, the [**ListView\_SetExtendedListViewStyle**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setextendedlistviewstyle) macro has not been updated to use *wParam*. To use the *wParam* value, use the [**ListView\_SetExtendedListViewStyleEx**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setextendedlistviewstyleex) macro.
 
-When you use this message to set the [**LVS\_EX\_CHECKBOXES**](extended-list-view-styles.md#lvs-ex-checkboxes) style, any previously set state image index will be discarded. All check boxes will be initialized to the unchecked state. The state image index is contained in bits 12 through 15 of the **state** member of the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure.
+When you use this message to set the [**LVS\_EX\_CHECKBOXES**](extended-list-view-styles.md) style, any previously set state image index will be discarded. All check boxes will be initialized to the unchecked state. The state image index is contained in bits 12 through 15 of the **state** member of the [**LVITEM**](/windows/desktop/api/Commctrl/ns-commctrl-taglvitema) structure.
 
 ## Requirements
 

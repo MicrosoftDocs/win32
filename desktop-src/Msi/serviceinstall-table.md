@@ -193,7 +193,7 @@ This column contains a localizable description for the service being configured.
 
 ## Remarks
 
-The [InstallServices](installservices-action.md) action in [*sequence tables*](s-gly.md#-msi-sequence-tables-gly) processes the information in this table. For information about using *sequence tables*, see [Using a Sequence Table](using-a-sequence-table.md).
+The [InstallServices](installservices-action.md) action in [*sequence tables*](s-gly.md) processes the information in this table. For information about using *sequence tables*, see [Using a Sequence Table](using-a-sequence-table.md).
 
 This table has most of the parameters to the Win32 [**CreateService**](https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c) function.
 

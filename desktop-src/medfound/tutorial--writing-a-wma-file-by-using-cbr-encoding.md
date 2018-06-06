@@ -420,7 +420,7 @@ Next, generate ASF data packets for the new file. These data packets will consti
 3.  Pass the uncompressed audio to the encoder for compression. For more information, see [Processing Data in the Encoder](processing-data-in-the-encoder.md)
 4.  Call [**IMFASFMultiplexer::ProcessSample**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample) to send the compressed audio samples to the ASF multiplexer for packetization.
 5.  Get the ASF packets from the multiplexer and write them to the temporary byte stream. For more information, see [Generating New ASF Data Packets](generating-new-asf-data-packets.md).
-6.  When you reach the end of the source stream, drain the encoder and pull the remaining compressed samples from the encoder. For more information about draining an MFT, see [Basic MFT Processing Model](basic-mft-processing-model.md#draining-an-mft).
+6.  When you reach the end of the source stream, drain the encoder and pull the remaining compressed samples from the encoder. For more information about draining an MFT, see [Basic MFT Processing Model](basic-mft-processing-model.md).
 7.  After all samples are sent to the multiplexer, call [**IMFASFMultiplexer::Flush**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-flush) and pull the remaining ASF packets from the multiplexer.
 8.  Call [**IMFASFMultiplexer::End**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-end).
 

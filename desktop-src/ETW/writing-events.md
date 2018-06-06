@@ -13,13 +13,13 @@ ms.date: 05/31/2018
 
 How you write events to a trace session is determined by the type of your provider.
 
-For [MOF](about-event-tracing.md#providers) providers, see [Writing MOF (Classic) Events](tracing-events.md).
+For [MOF](about-event-tracing.md) providers, see [Writing MOF (Classic) Events](tracing-events.md).
 
-For [WPP](about-event-tracing.md#providers) providers, see [Writing WPP Events](windows-software-trace-preprocessor.md).
+For [WPP](about-event-tracing.md) providers, see [Writing WPP Events](windows-software-trace-preprocessor.md).
 
-For [manifest-based](about-event-tracing.md#providers) providers, see [Writing Manifest-based Events](writing-manifest-based-events.md).
+For [manifest-based](about-event-tracing.md) providers, see [Writing Manifest-based Events](writing-manifest-based-events.md).
 
-For [TraceLogging](about-event-tracing.md#providers) providers, see [Using TraceLogging](https://msdn.microsoft.com/CEC57517-7A0E-45AA-85F7-F358AE51EF4A).
+For [TraceLogging](about-event-tracing.md) providers, see [Using TraceLogging](https://msdn.microsoft.com/CEC57517-7A0E-45AA-85F7-F358AE51EF4A).
 
  
 

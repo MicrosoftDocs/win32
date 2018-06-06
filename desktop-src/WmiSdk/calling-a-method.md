@@ -28,7 +28,7 @@ The following sections are discussed in this topic:
 
 ## WMI Methods Compared to Provider Methods
 
-By using [*WMI method*](gloss-w.md#wmi-gloss-wmi-method) calls combined with [*provider method*](gloss-p.md#wmi-gloss-provider-method) calls, you can retrieve and manipulate information about your enterprise. For more information, see [Calling a WMI Method](calling-a-wmi-method.md) and [Calling a Provider Method](calling-a-provider-method.md).
+By using [*WMI method*](gloss-w.md) calls combined with [*provider method*](gloss-p.md) calls, you can retrieve and manipulate information about your enterprise. For more information, see [Calling a WMI Method](calling-a-wmi-method.md) and [Calling a Provider Method](calling-a-provider-method.md).
 
 The methods of the WMI scripting object [**SWbemObject**](swbemobject.md) have a special status because they can apply to any WMI data class. For more information, see [Scripting with SWbemObject](scripting-with-swbemobject.md).
 

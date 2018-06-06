@@ -48,7 +48,7 @@ ms.date: 05/31/2018
 
     When you map a Value or Description property, the result is a string. Strings are not quoted and the colons act as delimiters.
 
-    For more information, see [Annotation Map Format](value-map-annotation.md#annotation-map-format).
+    For more information, see [Annotation Map Format](value-map-annotation.md).
 
 2.  **Create the annotation manager and obtain a pointer to its**[**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices)**interface.**
 

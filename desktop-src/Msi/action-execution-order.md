@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Action Execution Order
 
-The order of action execution is determined by the sequence of actions that have been authored into the [*sequence tables*](s-gly.md#-msi-sequence-tables-gly) and by the order in which the installer runs the sequence tables. For details, see the suggested action sequences in [Using a Sequence Table](using-a-sequence-table.md).
+The order of action execution is determined by the sequence of actions that have been authored into the [*sequence tables*](s-gly.md) and by the order in which the installer runs the sequence tables. For details, see the suggested action sequences in [Using a Sequence Table](using-a-sequence-table.md).
 
 The installer runs sequence tables in response to a request for an installation, [advertisement](advertisement.md), or an [administrative installation](administrative-installation.md). For example, in response to using the /I, /J, or /A [command line options](command-line-options.md), the [INSTALL](install-action.md), [ADVERTISE](advertise-action.md), and [ADMIN](admin-action.md) actions are not called from within the action sequence. These high-level actions are instead passed to the installer when the installer is initialized.
 

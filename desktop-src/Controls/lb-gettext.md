@@ -49,7 +49,7 @@ The return value is the length of the string, in **TCHAR**s, excluding the termi
 
 ## Remarks
 
-If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style, the buffer pointed to by the *lParam* parameter receives the value associated with the item (the item data).
+If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-box-styles.md) style, the buffer pointed to by the *lParam* parameter receives the value associated with the item (the item data).
 
 ## Requirements
 

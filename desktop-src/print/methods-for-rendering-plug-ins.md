@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## 
 
-This section describes the COM interfaces used for communication between Microsoft's printer drivers ([*Unidrv*](wdkgloss.u#wdkgloss-unidrv) and [*Pscript*](wdkgloss.p#wdkgloss-pscript)) and vendor-supplied [rendering plug-ins](https://www.bing.com/search?q=rendering+plug-ins). The following topics are provided:
+This section describes the COM interfaces used for communication between Microsoft's printer drivers ([*Unidrv*](https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414) and [*Pscript*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c)) and vendor-supplied [rendering plug-ins](https://www.bing.com/search?q=rendering+plug-ins). The following topics are provided:
 
 <dl>
 

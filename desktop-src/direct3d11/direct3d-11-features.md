@@ -80,7 +80,7 @@ This is a complete list of the features in Direct3D 11.
 -   Direct3D 11 expands shaders with the following features (see [Shader Model 5](https://msdn.microsoft.com/library/windows/desktop/ff471419))
 
     -   Addressable resources - textures, constant buffers, and samplers
-    -   Additional resource types, such as read/write buffers and textures (see [New Resource Types](direct3d-11-advanced-stages-cs-resources.md#readwrite-buffers-and-textures)).
+    -   Additional resource types, such as read/write buffers and textures (see [New Resource Types](direct3d-11-advanced-stages-cs-resources.md)).
     -   Subroutines
     -   Compute shader (see [Compute Shader Overview](direct3d-11-advanced-stages-compute-shader.md)) - A shader that speeds up computations by dividing the problem space between several software threads or groups of threads, and sharing data among shader registers to significantly reduce the amount of data required to input into a shader. Algorithms that the compute shader can significantly improve include post processing, animation, physics, and artificial intelligence.
     -   Geometry shader (see [Geometry Shader Features](https://msdn.microsoft.com/library/windows/desktop/ff471423))

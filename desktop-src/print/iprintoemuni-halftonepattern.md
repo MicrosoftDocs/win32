@@ -54,7 +54,7 @@ Caller-supplied pointer to a buffer that receives the method-supplied halftone p
 *dwHTPatternX* 
 </dt> <dd>
 
-Caller-supplied length, in pixels, of the halftone pattern, as specified by the first value in the [*GPD*](wdkgloss.g#wdkgloss-generic-printer-description--gpd-) file's \***HTPatternSize** attribute.
+Caller-supplied length, in pixels, of the halftone pattern, as specified by the first value in the [*GPD*](https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4) file's \***HTPatternSize** attribute.
 
 </dd> <dt>
 

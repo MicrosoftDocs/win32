@@ -23,14 +23,14 @@ ms.date: 05/31/2018
 <span id="wmi.gloss_win32_schema"></span><span id="WMI.GLOSS_WIN32_SCHEMA"></span>**Win32 schema**
 </dt> <dd>
 
-A Microsoft extension to the [*CIM schema*](gloss-c.md#wmi-gloss-cim-schema) that contains definitions of classes and instances to represent [*managed objects*](gloss-m.md#wmi-gloss-managed-object) that exist in a typical Windows environment.
+A Microsoft extension to the [*CIM schema*](gloss-c.md) that contains definitions of classes and instances to represent [*managed objects*](gloss-m.md) that exist in a typical Windows environment.
 
 </dd> <dt>
 
 <span id="wmi.gloss_wmi_class"></span><span id="WMI.GLOSS_WMI_CLASS"></span>**WMI Class**
 </dt> <dd>
 
-A template for a type of [*managed object*](gloss-m.md#wmi-gloss-managed-object). WMI classes define the basic units of management.
+A template for a type of [*managed object*](gloss-m.md). WMI classes define the basic units of management.
 
 </dd> <dt>
 
@@ -58,7 +58,7 @@ A low-level component that provides access between WMI and hardware devices.
 <span id="wmi.gloss_wmi_odbc_adapter"></span><span id="WMI.GLOSS_WMI_ODBC_ADAPTER"></span>**WMI ODBC Adapter**
 </dt> <dd>
 
-An interface that enables an application to get information from Windows Management using *WMI Query Language*. This provides a standard API that allows ODBC-based applications to use the data in the [*CIM repository*](gloss-c.md#wmi-gloss-cim-repository) as if it were a database.
+An interface that enables an application to get information from Windows Management using *WMI Query Language*. This provides a standard API that allows ODBC-based applications to use the data in the [*CIM repository*](gloss-c.md) as if it were a database.
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ A method implemented by the WMI [COM API](com-api-for-wmi.md) or the [Scripting 
 <span id="wmi.gloss_wmi_repository"></span><span id="WMI.GLOSS_WMI_REPOSITORY"></span>**WMI repository**
 </dt> <dd>
 
-A central storage area managed by the [*CIM Object Manager*](gloss-c.md#wmi-gloss-cim-object-manager).
+A central storage area managed by the [*CIM Object Manager*](gloss-c.md).
 
 </dd> <dt>
 

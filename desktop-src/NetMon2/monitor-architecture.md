@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Monitor Architecture
 
-The following figure shows the relationship between [*monitors*](m.md#-netmon-monitor-gly) and other components of the Network Monitor architecture.
+The following figure shows the relationship between [*monitors*](m.md) and other components of the Network Monitor architecture.
 
 ![relationship between monitors and other components of network monitor](images/nmarch2.png)
 

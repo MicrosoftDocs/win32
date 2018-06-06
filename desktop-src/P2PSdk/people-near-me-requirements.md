@@ -44,7 +44,7 @@ If users establish a collaboration activity through People Near Me and want to m
 
 ### Security
 
-To protect the users and the data being exchanged in a peer collaboration activity, users have configuration control over what is being advertised. Users must also accept an invitation before peer collaboration can begin. The collaboration activity is encrypted with a Secure Sockets Layer (SSL)-encrypted channel (also known as Schannel). SSL is a cryptographic protocol to protect TCP-based communications. For more information, see [SChannel](windows-vista-components-for-people-near-me.md#schannel). These requirements are supported by a new set of components in the [Windows Peer Networking](what-is-peer-networking-.md)architecture in Windows Vista.
+To protect the users and the data being exchanged in a peer collaboration activity, users have configuration control over what is being advertised. Users must also accept an invitation before peer collaboration can begin. The collaboration activity is encrypted with a Secure Sockets Layer (SSL)-encrypted channel (also known as Schannel). SSL is a cryptographic protocol to protect TCP-based communications. For more information, see [SChannel](windows-vista-components-for-people-near-me.md). These requirements are supported by a new set of components in the [Windows Peer Networking](what-is-peer-networking-.md)architecture in Windows Vista.
 
  
 

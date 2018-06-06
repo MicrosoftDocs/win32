@@ -36,7 +36,7 @@ In this topic, we will illustrate how you can customize the background of a Web 
 
 As you've learned from the [Use &lt;fill&gt;](web-workshop---how-to-use-vml-on-web-pages-----fill--element.md) topic, you can place the &lt;fill&gt; sub-element inside the &lt;shape&gt;, &lt;shapetype&gt;, or any predefined shape element to describe how to fill the shape.
 
-Similarly, you can place the &lt;fill&gt; sub-element inside the &lt;background&gt; element to describe how to fill the background of a Web page. You can then use the property attributes of the &lt;fill&gt; sub-element to customize the fill effect, such as [gradient fill](web-workshop---how-to-use-vml-on-web-pages-----fill--element.md#gradient-fill), [pattern fill](web-workshop---how-to-use-vml-on-web-pages-----fill--element.md#pattern-fill), or [picture fill](web-workshop---how-to-use-vml-on-web-pages-----fill--element.md#picture-fill).
+Similarly, you can place the &lt;fill&gt; sub-element inside the &lt;background&gt; element to describe how to fill the background of a Web page. You can then use the property attributes of the &lt;fill&gt; sub-element to customize the fill effect, such as [gradient fill](web-workshop---how-to-use-vml-on-web-pages-----fill--element.md), [pattern fill](web-workshop---how-to-use-vml-on-web-pages-----fill--element.md), or [picture fill](web-workshop---how-to-use-vml-on-web-pages-----fill--element.md).
 
 For example, to draw a gradient-filled background, you can type the following lines in the &lt;BODY&gt; region of your Web page:
 

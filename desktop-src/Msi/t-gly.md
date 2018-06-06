@@ -26,7 +26,7 @@ One or more operations processed together as a single indivisible whole called a
 <span id="_msi_transform_gly"></span><span id="_MSI_TRANSFORM_GLY"></span>**transform**
 </dt> <dd>
 
-Template of the differences between two [*installer databases*](i-gly.md#-msi-installer-database-gly) that can be applied to produce similar changes in other databases. For example, a localization transform can be used to change the language of an application. For more information, see [Merges and Transforms](merges-and-transforms.md).
+Template of the differences between two [*installer databases*](i-gly.md) that can be applied to produce similar changes in other databases. For example, a localization transform can be used to change the language of an application. For more information, see [Merges and Transforms](merges-and-transforms.md).
 
 </dd> <dt>
 

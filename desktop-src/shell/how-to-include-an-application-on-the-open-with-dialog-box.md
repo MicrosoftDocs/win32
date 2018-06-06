@@ -31,7 +31,7 @@ HKEY_CLASSES_ROOT
 
 ## Remarks
 
-The **OpenWithProgids** subkey is preferred to **OpenWithList** to identify an application. For more information on these subkeys, see [Setting Optional Subkeys and File Type Extension Attributes](fa-file-types.md#setting-optional-subkeys-and-file-type-extension-attributes).
+The **OpenWithProgids** subkey is preferred to **OpenWithList** to identify an application. For more information on these subkeys, see [Setting Optional Subkeys and File Type Extension Attributes](fa-file-types.md).
 
 **OpenWithList** is intended only for legacy apps (must be .exe only) on operating systems prior to Windows XP.
 

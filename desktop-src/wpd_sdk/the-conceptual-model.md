@@ -35,7 +35,7 @@ A Mediacast object can be thought of as a container object that groups related c
 
 ![diagram showing the hierarchical structure of a medicast object and three objects it contains](images/mediacast1.gif)
 
-The references to the audio object are specified in the [WPD\_OBJECT\_REFERENCES](object-properties.md#wpd-object-references) property for the Mediacast object. For more information about the properties supported by a Mediacast object, see the [**WPD\_CONTENT\_TYPE\_MEDIA\_CAST**](wpd-content-type-media-cast.md) topic.
+The references to the audio object are specified in the [WPD\_OBJECT\_REFERENCES](object-properties.md) property for the Mediacast object. For more information about the properties supported by a Mediacast object, see the [**WPD\_CONTENT\_TYPE\_MEDIA\_CAST**](wpd-content-type-media-cast.md) topic.
 
 ### Properties
 

@@ -39,7 +39,7 @@ It is possible for requesters to implement these backups using information and m
 <span id="Specification_about_Selectability"></span><span id="specification_about_selectability"></span><span id="SPECIFICATION_ABOUT_SELECTABILITY"></span>Specification about Selectability
 </dt> <dd>
 
-A VSS backup may choose to respect VSS notions of component selectability—this is referred to as running in [*component mode*](vssgloss-c.md#base-vssgloss-component-mode)—or to ignore them.
+A VSS backup may choose to respect VSS notions of component selectability—this is referred to as running in [*component mode*](vssgloss-c.md)—or to ignore them.
 
 An example of not running in component mode would be performing a system image backup, where the backup application would need writer cooperation to ensure data stability but where selection of components would be irrelevant.
 

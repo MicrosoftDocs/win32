@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # HDM\_GETOVERFLOWRECT message
 
-Gets the bounding rectangle of the overflow button when the [**HDS\_OVERFLOW**](header-control-styles.md#hds-overflow) style is set on the header control and the overflow button is visible. Send this message explicitly or by using the [**Header\_GetOverflowRect**](/windows/desktop/api/Commctrl/nf-commctrl-header_getoverflowrect) macro.
+Gets the bounding rectangle of the overflow button when the [**HDS\_OVERFLOW**](header-control-styles.md) style is set on the header control and the overflow button is visible. Send this message explicitly or by using the [**Header\_GetOverflowRect**](/windows/desktop/api/Commctrl/nf-commctrl-header_getoverflowrect) macro.
 
 ## Parameters
 

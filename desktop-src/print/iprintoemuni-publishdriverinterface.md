@@ -52,7 +52,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-A rendering plug-in for [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) must implement the `IPrintOemUni::PublishDriverInterface` method, and the method must return S\_OK in response to at least one call. Otherwise, the driver will not call the plug-in's other **IPrintOemUni** interface methods.
+A rendering plug-in for [*Unidrv*](https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414) must implement the `IPrintOemUni::PublishDriverInterface` method, and the method must return S\_OK in response to at least one call. Otherwise, the driver will not call the plug-in's other **IPrintOemUni** interface methods.
 
 The method should return information on its supported Unidrv interfaces as follows:
 

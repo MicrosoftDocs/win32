@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 You have two choices when compiling a MOF file: using the command-line utility or using a programmatic interface.
 
-Until you run the MOF compiler, [**Mofcomp.exe**](mofcomp.md), a provider is not registered with WMI and the classes it created in the MOF file are not available in the [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository). The following procedure describes how to compile a MOF file.
+Until you run the MOF compiler, [**Mofcomp.exe**](mofcomp.md), a provider is not registered with WMI and the classes it created in the MOF file are not available in the [*WMI repository*](gloss-w.md). The following procedure describes how to compile a MOF file.
 
 **To run the MOF compiler on a file from the command line**
 

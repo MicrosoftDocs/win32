@@ -33,7 +33,7 @@ The **IPrintOemUni3** interface has these methods.
 |:-------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DownloadPattern**](iprintoemuni3-downloadpattern.md)           | The `IPrintOemUni3::DownloadPattern` method downloads a pattern to a printer.<br/>                                                                                 |
 | [**GetImplementedMethod**](iprintoemuni3-getimplementedmethod.md) | The `IPrintOemUni3::GetImplementedMethod` method is used by Unidrv to determine which **IPrintOemUni** interface methods a rendering plug-in has implemented.<br/> |
-| [**GetPDEVAdjustment**](iprintoemuni3-getpdevadjustment.md)       | The `IPrintOemUni3::GetPDEVAdjustment` method enables a plug-in to override specific [*PDEV*](wdkgloss.p#wdkgloss-pdev) settings.<br/>               |
+| [**GetPDEVAdjustment**](iprintoemuni3-getpdevadjustment.md)       | The `IPrintOemUni3::GetPDEVAdjustment` method enables a plug-in to override specific [*PDEV*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c) settings.<br/>               |
 | [**SetBandSize**](iprintoemuni3-setbandsize.md)                   | The `IPrintOemUni3::SetBandSize` method can be used with Unidrv-supported printers to specify the desired band size on the printed output.<br/>                    |
 
 

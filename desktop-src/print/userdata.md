@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # USERDATA structure
 
-The USERDATA structure is used by [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) and [*Pscript*](wdkgloss.p#wdkgloss-pscript) to specify additional information about printer features. A USERDATA structure pointer is supplied as the **UserData** member for each [**OPTITEM**](optitem.md) structure.
+The USERDATA structure is used by [*Unidrv*](https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414) and [*Pscript*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c) to specify additional information about printer features. A USERDATA structure pointer is supplied as the **UserData** member for each [**OPTITEM**](optitem.md) structure.
 
 ## Syntax
 

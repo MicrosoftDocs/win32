@@ -79,13 +79,13 @@ To find a known element that is identified by name, automation ID, or some other
 
 This way of finding UI Automation elements is most useful in automated testing scenarios.
 
-For a code example that shows how to find a know element, see [Finding an Element by Name](uiauto-howto-find-ui-elements.md#finding-an-element-by-name).
+For a code example that shows how to find a know element, see [Finding an Element by Name](uiauto-howto-find-ui-elements.md).
 
 ## Finding Elements in a Subtree
 
 To find all elements that meet specific criteria and are related to a known element, you can call [**IUIAutomationElement::FindAll**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-findall) on the known element. For example, use this method to retrieve list items or menu items from a list or menu, or to identify all controls in a dialog box.
 
-For a code example that shows how to find elements in a subtree, see [Finding Related Elements](uiauto-howto-find-ui-elements.md#finding-related-elements).
+For a code example that shows how to find elements in a subtree, see [Finding Related Elements](uiauto-howto-find-ui-elements.md).
 
 ## Walking a Subtree
 

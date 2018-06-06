@@ -43,7 +43,7 @@ No return value.
 
 ## Remarks
 
-A trackbar can have a selection range only if you specified the [**TBS\_ENABLESELRANGE**](trackbar-control-styles.md#tbs-enableselrange) style when you created it.
+A trackbar can have a selection range only if you specified the [**TBS\_ENABLESELRANGE**](trackbar-control-styles.md) style when you created it.
 
 ## Requirements
 

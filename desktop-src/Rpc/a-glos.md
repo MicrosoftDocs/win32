@@ -33,7 +33,7 @@ Network protocol for interprocess communication between Apple Macintosh computer
 <span id="_rpc_attribute_glos"></span><span id="_RPC_ATTRIBUTE_GLOS"></span>**attribute**
 </dt> <dd>
 
-Any keyword of the [*Interface Definition Language*](i-glos.md#-rpc-idl-glos) that describes a property of a data type or remote procedure call.
+Any keyword of the [*Interface Definition Language*](i-glos.md) that describes a property of a data type or remote procedure call.
 
 </dd> </dl>
 

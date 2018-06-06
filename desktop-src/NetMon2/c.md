@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 <span id="_netmon_capture_gly"></span><span id="_NETMON_CAPTURE_GLY"></span>**capture**
 </dt> <dd>
 
-Network traffic data that is collected in frames. A network packet provider (NPP) performs a capture. See also [*delayed capture*](d.md#-netmon-delayed-capture-gly), and [*real-time capture*](#-netmon-real-time-capture-gly)
+Network traffic data that is collected in frames. A network packet provider (NPP) performs a capture. See also [*delayed capture*](d.md), and [*real-time capture*](#-netmon-real-time-capture-gly)
 
 </dd> <dt>
 

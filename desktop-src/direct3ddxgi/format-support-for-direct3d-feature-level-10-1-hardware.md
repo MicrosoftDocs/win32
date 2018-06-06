@@ -197,7 +197,7 @@ The purpose of the format can change from one hardware feature level to the next
 <sup>V</sup> : video format
 </dt> </dl>
 
-Back buffers and scan outs with the [**DXGI\_FORMAT\_R16G16B16A16\_FLOAT**](direct3ddxgi.dxgi_format#dxgi-format-r16g16b16a16-float) format contain linear-valued gamma data.
+Back buffers and scan outs with the [**DXGI\_FORMAT\_R16G16B16A16\_FLOAT**](https://msdn.microsoft.com/VS|directx_sdk|~\dxgi_format.htm) format contain linear-valued gamma data.
 
 ## Related topics
 

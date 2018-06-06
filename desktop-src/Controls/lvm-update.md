@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # LVM\_UPDATE message
 
-Updates a list-view item. If the list-view control has the [**LVS\_AUTOARRANGE**](list-view-window-styles.md#lvs-autoarrange) style, this macro causes the list-view control to be arranged. You can send this message explicitly or by using the [**ListView\_Update**](/windows/desktop/api/Commctrl/nf-commctrl-listview_update) macro.
+Updates a list-view item. If the list-view control has the [**LVS\_AUTOARRANGE**](list-view-window-styles.md) style, this macro causes the list-view control to be arranged. You can send this message explicitly or by using the [**ListView\_Update**](/windows/desktop/api/Commctrl/nf-commctrl-listview_update) macro.
 
 ## Parameters
 

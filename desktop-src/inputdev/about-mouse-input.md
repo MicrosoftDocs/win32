@@ -113,7 +113,7 @@ The following APIs were modified to support these buttons:
 
 It is unlikely that a child window in a component application will be able to directly implement commands for the XBUTTON1 and XBUTTON2. So [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) sends a [**WM\_APPCOMMAND**](wm-appcommand.md) message to a window when an X button is clicked. **DefWindowProc** also sends the **WM\_APPCOMMAND** message to its parent window. This is similar to the way context menus are invoked with a right click—**DefWindowProc** sends a [**WM\_CONTEXTMENU**](https://msdn.microsoft.com/library/windows/desktop/ms647592) message to the menu and also sends it to its parent. Additionally, if **DefWindowProc** receives a **WM\_APPCOMMAND** message for a top-level window, it calls a shell hook with code HSHELL\_APPCOMMAND.
 
-There is support for the keyboards that have extra keys for browser functions, media functions, application launching, and power management. For more information, see [Keyboard Keys for Browsing and Other Functions](about-keyboard-input.md#keyboard-keys-for-browsing-and-other-functions).
+There is support for the keyboards that have extra keys for browser functions, media functions, application launching, and power management. For more information, see [Keyboard Keys for Browsing and Other Functions](about-keyboard-input.md).
 
 ## Mouse Messages
 

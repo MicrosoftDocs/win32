@@ -64,7 +64,7 @@ Callback Function Prototypes
 
 ## Notes
 
-Windows Installer 4.0 cannot perform [Multiple Package Installations](multiple-package-installations.md) using [*transaction processing*](t-gly.md#-msi-transaction-processing-gly).
+Windows Installer 4.0 cannot perform [Multiple Package Installations](multiple-package-installations.md) using [*transaction processing*](t-gly.md).
 
 Using Windows Installer 4.0 or earlier versions of the installer, small updates and minor upgrades can fail when using the [EnforceUpgradeComponentRules](enforceupgradecomponentrules.md) policy or [**MSIENFORCEUPGRADECOMPONENTRULES**](msienforceupgradecomponentrules.md) property because the update removes a component.
 

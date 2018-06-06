@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Writer Role in Backing Up Complex Stores
 
-As with all important operations under VSS, [*incremental*](vssgloss-i.md#base-vssgloss-incremental-backup-operations) and [*differential*](vssgloss-d.md#base-vssgloss-differential-backup-operations) backups require close cooperation between requesters and writers.
+As with all important operations under VSS, [*incremental*](vssgloss-i.md) and [*differential*](vssgloss-d.md) backups require close cooperation between requesters and writers.
 
 ## Backup Types
 
@@ -41,7 +41,7 @@ Some writers support file restoration through the overwriting of parts of the fi
 
 </dd> </dl>
 
-The writers indicate what type of backups are supported by calling [**IVssCreateWriterMetadata::SetBackupSchema**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema) while processing the [*Identify*](vssgloss-i.md#base-vssgloss-identify-event) event. The *dsSchemaMask* parameter to the **IVssCreateWriterMetadata::SetBackupSchema** method is a bit mask indicating what types of backup are supported. All writers must support full backups.
+The writers indicate what type of backups are supported by calling [**IVssCreateWriterMetadata::SetBackupSchema**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema) while processing the [*Identify*](vssgloss-i.md) event. The *dsSchemaMask* parameter to the **IVssCreateWriterMetadata::SetBackupSchema** method is a bit mask indicating what types of backup are supported. All writers must support full backups.
 
 <dl> <dt>
 
@@ -86,7 +86,7 @@ The writer can determine what type of backup is being performed by calling [**CV
 
 Incremental and differential backups are always tied to a previous backup. There are two ways to tie backups. For simple data stores, the requester can keep track of the correlation between backups. However, for more complex data stores, the writer will need to maintain its own timestamp with the backup; this timestamp may keep track of log position, checkpoint information, and so on. A writer indicates that it needs its own timestamps by setting the **VSS\_BS\_TIMESTAMPED** bit when it calls [**IVssCreateWriterMetadata::SetBackupSchema**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema).
 
-A writer can store a timestamp with each component that is being backed up. The writer stores the timestamp by calling [**IVssComponent::SetBackupStamp**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setbackupstamp), and passing in a string representation of the stamp for the *wszBackupStamp* parameter. Generally, a writer will call this method while processing the [*PostSnapshot*](vssgloss-p.md#base-vssgloss-postsnapshot-event) event. However, for backups that do not involve a shadow copy, the PostSnapshot event will not be sent. In this case, **IVssComponent::SetBackupStamp** must be called while processing the [*PrepareForBackup*](vssgloss-p.md#base-vssgloss-prepareforbackup-event) event.
+A writer can store a timestamp with each component that is being backed up. The writer stores the timestamp by calling [**IVssComponent::SetBackupStamp**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-setbackupstamp), and passing in a string representation of the stamp for the *wszBackupStamp* parameter. Generally, a writer will call this method while processing the [*PostSnapshot*](vssgloss-p.md) event. However, for backups that do not involve a shadow copy, the PostSnapshot event will not be sent. In this case, **IVssComponent::SetBackupStamp** must be called while processing the [*PrepareForBackup*](vssgloss-p.md) event.
 
 When an incremental or differential backup is being performed, the requester will indicate to the writer the backup stamp of the previous backup that is serving as a base for this backup. The writer can access this previous backup stamp while processing either the PrepareForBackup or PostSnapshot event, by calling [**IVssComponent::GetPreviousBackupStamp**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpreviousbackupstamp). The writer can use the returned stamp to determine what needs to be backed up.
 
@@ -196,7 +196,7 @@ If a specific volume contains only components that do not require a shadow copy 
 
 ## Backup Cleanup
 
-If the writer needs to perform log truncation or other post-backup cleanup, the proper place to do this is while processing the [*BackupComplete*](vssgloss-b.md#base-vssgloss-backupcomplete-event) event. The [*BackupShutdown*](vssgloss-b.md#base-vssgloss-backupshutdown-event) event will be sent some time after BackupComplete, so some cleanup may also be done in the BackupShutdown event handler.
+If the writer needs to perform log truncation or other post-backup cleanup, the proper place to do this is while processing the [*BackupComplete*](vssgloss-b.md) event. The [*BackupShutdown*](vssgloss-b.md) event will be sent some time after BackupComplete, so some cleanup may also be done in the BackupShutdown event handler.
 
 The BackupShutdown event is always sent after termination of a backup. If the requester terminates abnormally while performing a backup, BackupShutdown will be sent immediately, without first sending BackupComplete. If the writer needs to clean up any state, that may be done here; however, log truncation should not happen in this event because the backup did not necessarily complete.
 

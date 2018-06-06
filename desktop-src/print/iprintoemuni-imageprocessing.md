@@ -44,7 +44,7 @@ Caller-supplied pointer to a [**DEVOBJ**](devobj.md) structure.
 *pSrcBitmap* 
 </dt> <dd>
 
-Caller-supplied pointer to an input [*DIB*](wdkgloss.d#wdkgloss-device-independent-bitmap--dib-).
+Caller-supplied pointer to an input [*DIB*](https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3).
 
 </dd> <dt>
 
@@ -113,7 +113,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-The `IPrintOemUni::ImageProcessing` method is used to modify image bitmaps before they are sent to the print spooler. Its purpose is to provide customized support for color modes and halftoning methods not supported by Unidrv. A printer driver that sends a bitmap to the print spooler (as opposed to sending it back to Unidrv) must set the \*DevBPP and \*DevNumOfPlanes attributes to zero in the printer's [*GPD*](wdkgloss.g#wdkgloss-generic-printer-description--gpd-) file.
+The `IPrintOemUni::ImageProcessing` method is used to modify image bitmaps before they are sent to the print spooler. Its purpose is to provide customized support for color modes and halftoning methods not supported by Unidrv. A printer driver that sends a bitmap to the print spooler (as opposed to sending it back to Unidrv) must set the \*DevBPP and \*DevNumOfPlanes attributes to zero in the printer's [*GPD*](https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4) file.
 
 If the method is implemented, and if the GPD file entry for the current color format contains an \***IPCallbackID** attribute, Unidrv calls the method each time a bitmap is available. The call is made after GDI renders the bitmap, which is then sent to the spooler. (For information about the \***IPCallbackID** attribute, see [Option Attributes for the ColorMode Feature](https://www.bing.com/search?q=Option+Attributes+for+the+ColorMode+Feature).)
 

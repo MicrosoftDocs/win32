@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Resource Limits (Direct3D 11)
 
-This topic contains a list of resources that Direct3D 11 supports (specifically [feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 11 or 9.x hardware).
+This topic contains a list of resources that Direct3D 11 supports (specifically [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 11 or 9.x hardware).
 
 -   [Resource limits for feature level 11 hardware](#resource-limits-for-feature-level-11-hardware)
 -   [Resource limits for feature level 9.x hardware](#resource-limits-for-feature-level-9x-hardware)
@@ -82,7 +82,7 @@ All of these resource limits are defined as constants in D3d11.h.
 
  
 
- An app can try to allocate more memory for a resource than the maximum resource size specifies. That is, the Direct3D 11 runtime allows these memory allocation attempts in the event that the hardware might support them. However, the Direct3D 11 runtime only guarantees that allocations within the maximum resource size are supported by all [feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 11 hardware. If an app tries to allocate memory for a resource within the maximum resource size, the runtime fails the attempt only if the operating system runs out of resources. If an app tries to allocate memory for a resource above the maximum resource size, the runtime can fail the attempt because either the operating system is overextended or the hardware does not support allocations above the maximum resource size. The debug layer only checks D3D11\_REQ\_RESOURCE\_SIZE\_IN\_MEGABYTES\_EXPRESSION\_A\_TERM (128) MB.
+ An app can try to allocate more memory for a resource than the maximum resource size specifies. That is, the Direct3D 11 runtime allows these memory allocation attempts in the event that the hardware might support them. However, the Direct3D 11 runtime only guarantees that allocations within the maximum resource size are supported by all [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 11 hardware. If an app tries to allocate memory for a resource within the maximum resource size, the runtime fails the attempt only if the operating system runs out of resources. If an app tries to allocate memory for a resource above the maximum resource size, the runtime can fail the attempt because either the operating system is overextended or the hardware does not support allocations above the maximum resource size. The debug layer only checks D3D11\_REQ\_RESOURCE\_SIZE\_IN\_MEGABYTES\_EXPRESSION\_A\_TERM (128) MB.
 
  The pixel shader output slots are shared between pixel output registers (four 32-bit components) and UAVs.
 
@@ -92,27 +92,27 @@ All of these resource limits are defined as constants in D3d11.h.
 
 ## Resource limits for feature level 9.x hardware
 
-All of these 9.x [feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) resource limits are defined as constants in D3dcommon.h.
+All of these 9.x [feature level](overviews-direct3d-11-devices-downlevel-intro.md) resource limits are defined as constants in D3dcommon.h.
 
 
 
 | Resource                                                                                                                                            | Limit                                                     |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_1 texture1D U dimension                       | D3D\_FL9\_1\_REQ\_TEXTURE1D\_U\_DIMENSION (2048)          |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_3 texture1D U dimension                       | D3D\_FL9\_3\_REQ\_TEXTURE1D\_U\_DIMENSION (4096)          |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_1 texture2D U/V dimension                     | D3D\_FL9\_1\_REQ\_TEXTURE2D\_U\_OR\_V\_DIMENSION (2048)   |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_3 texture2D U/V dimension                     | D3D\_FL9\_3\_REQ\_TEXTURE2D\_U\_OR\_V\_DIMENSION (4096)   |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_1 texture3D U/V/W dimension                   | D3D\_FL9\_1\_REQ\_TEXTURE3D\_U\_V\_OR\_W\_DIMENSION (256) |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_1 textureCube dimension                       | D3D\_FL9\_1\_REQ\_TEXTURECUBE\_DIMENSION (512)            |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_3 textureCube dimension                       | D3D\_FL9\_3\_REQ\_TEXTURECUBE\_DIMENSION (4096)           |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_1 anisotropic filtering maxanisotropy default | D3D\_FL9\_1\_DEFAULT\_MAX\_ANISOTROPY (2)                 |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_1 maximum input assembler primitives          | D3D\_FL9\_1\_IA\_PRIMITIVE\_MAX\_COUNT (65535)            |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_2 maximum input assembler primitives          | D3D\_FL9\_2\_IA\_PRIMITIVE\_MAX\_COUNT (1048575)          |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_1 simultaneous render targets                 | D3D\_FL9\_1\_SIMULTANEOUS\_RENDER\_TARGET\_COUNT (1)      |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_3 simultaneous render targets                 | D3D\_FL9\_3\_SIMULTANEOUS\_RENDER\_TARGET\_COUNT (4)      |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_1 maximum texture repeat                      | D3D\_FL9\_1\_MAX\_TEXTURE\_REPEAT (128)                   |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_2 maximum texture repeat                      | D3D\_FL9\_2\_MAX\_TEXTURE\_REPEAT (2048)                  |
-| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_3 maximum texture repeat                      | D3D\_FL9\_3\_MAX\_TEXTURE\_REPEAT (8192)                  |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_1 texture1D U dimension                       | D3D\_FL9\_1\_REQ\_TEXTURE1D\_U\_DIMENSION (2048)          |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_3 texture1D U dimension                       | D3D\_FL9\_3\_REQ\_TEXTURE1D\_U\_DIMENSION (4096)          |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_1 texture2D U/V dimension                     | D3D\_FL9\_1\_REQ\_TEXTURE2D\_U\_OR\_V\_DIMENSION (2048)   |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_3 texture2D U/V dimension                     | D3D\_FL9\_3\_REQ\_TEXTURE2D\_U\_OR\_V\_DIMENSION (4096)   |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_1 texture3D U/V/W dimension                   | D3D\_FL9\_1\_REQ\_TEXTURE3D\_U\_V\_OR\_W\_DIMENSION (256) |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_1 textureCube dimension                       | D3D\_FL9\_1\_REQ\_TEXTURECUBE\_DIMENSION (512)            |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_3 textureCube dimension                       | D3D\_FL9\_3\_REQ\_TEXTURECUBE\_DIMENSION (4096)           |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_1 anisotropic filtering maxanisotropy default | D3D\_FL9\_1\_DEFAULT\_MAX\_ANISOTROPY (2)                 |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_1 maximum input assembler primitives          | D3D\_FL9\_1\_IA\_PRIMITIVE\_MAX\_COUNT (65535)            |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_2 maximum input assembler primitives          | D3D\_FL9\_2\_IA\_PRIMITIVE\_MAX\_COUNT (1048575)          |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_1 simultaneous render targets                 | D3D\_FL9\_1\_SIMULTANEOUS\_RENDER\_TARGET\_COUNT (1)      |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_3 simultaneous render targets                 | D3D\_FL9\_3\_SIMULTANEOUS\_RENDER\_TARGET\_COUNT (4)      |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_1 maximum texture repeat                      | D3D\_FL9\_1\_MAX\_TEXTURE\_REPEAT (128)                   |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_2 maximum texture repeat                      | D3D\_FL9\_2\_MAX\_TEXTURE\_REPEAT (2048)                  |
+| [Feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_3 maximum texture repeat                      | D3D\_FL9\_3\_MAX\_TEXTURE\_REPEAT (8192)                  |
 
 
 

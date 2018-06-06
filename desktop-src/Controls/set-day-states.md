@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This topic demonstrates how to set day state information. The month calendar control uses day state information to determine how it draws specific days within the control.
 
-Month calendar controls that use the [**MCS\_DAYSTATE**](month-calendar-control-styles.md#mcs-daystate) style support day states. Day state information is expressed as a 32-bit data type, [**MONTHDAYSTATE**](monthdaystate.md). Each bit in a **MONTHDAYSTATE** bitfield (0 through 30) specifies the state of a day in a month. If a bit is on, the corresponding day is displayed in bold.
+Month calendar controls that use the [**MCS\_DAYSTATE**](month-calendar-control-styles.md) style support day states. Day state information is expressed as a 32-bit data type, [**MONTHDAYSTATE**](monthdaystate.md). Each bit in a **MONTHDAYSTATE** bitfield (0 through 30) specifies the state of a day in a month. If a bit is on, the corresponding day is displayed in bold.
 
 ## What you need to know
 

@@ -45,7 +45,7 @@ The following table lists additional object roles which Oleacc.dll supports.
 
 ## ROLE\_SYSTEM\_ALERT
 
-For more information on this role, see [**ROLE\_SYSTEM\_ALERT**](object-roles.md#role-system-alert).
+For more information on this role, see [**ROLE\_SYSTEM\_ALERT**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -55,7 +55,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_ALERT**](object-roles.md
 
 ## ROLE\_SYSTEM\_APPLICATION
 
-For more information on this role, see [**ROLE\_SYSTEM\_APPLICATION**](object-roles.md#role-system-application).
+For more information on this role, see [**ROLE\_SYSTEM\_APPLICATION**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -75,7 +75,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_APPLICATION**](object-ro
 
 ## ROLE\_SYSTEM\_BORDER
 
-For more information on this role, see [**ROLE\_SYSTEM\_BORDER**](object-roles.md#role-system-border).
+For more information on this role, see [**ROLE\_SYSTEM\_BORDER**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -87,7 +87,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_BORDER**](object-roles.m
 
 ## ROLE\_SYSTEM\_BUTTONDROPDOWN
 
-For more information on this role, see [**ROLE\_SYSTEM\_BUTTONDROPDOWN**](object-roles.md#role-system-buttondropdown).
+For more information on this role, see [**ROLE\_SYSTEM\_BUTTONDROPDOWN**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -109,7 +109,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_BUTTONDROPDOWN**](object
 
 ## ROLE\_SYSTEM\_BUTTONDROPDOWNGRID
 
-For more information on this role, see [**ROLE\_SYSTEM\_BUTTONDROPDOWNGRID**](object-roles.md#role-system-buttondropdowngrid).
+For more information on this role, see [**ROLE\_SYSTEM\_BUTTONDROPDOWNGRID**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -131,7 +131,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_BUTTONDROPDOWNGRID**](ob
 
 ## ROLE\_SYSTEM\_BUTTONMENU
 
-For more information on this role, see [**ROLE\_SYSTEM\_BUTTONMENU**](object-roles.md#role-system-buttonmenu).
+For more information on this role, see [**ROLE\_SYSTEM\_BUTTONMENU**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -151,7 +151,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_BUTTONMENU**](object-rol
 
 ## ROLE\_SYSTEM\_CELL
 
-For more information on this role, see [**ROLE\_SYSTEM\_CELL**](object-roles.md#role-system-cell).
+For more information on this role, see [**ROLE\_SYSTEM\_CELL**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -173,7 +173,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_CELL**](object-roles.md#
 
 ## ROLE\_SYSTEM\_CHARACTER
 
-For more information on this role, see [**ROLE\_SYSTEM\_CHARACTER**](object-roles.md#role-system-character).
+For more information on this role, see [**ROLE\_SYSTEM\_CHARACTER**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -191,7 +191,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_CHARACTER**](object-role
 
 ## ROLE\_SYSTEM\_CHART
 
-For more information on this role, see [**ROLE\_SYSTEM\_CHART**](object-roles.md#role-system-chart).
+For more information on this role, see [**ROLE\_SYSTEM\_CHART**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -211,7 +211,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_CHART**](object-roles.md
 
 ## ROLE\_SYSTEM\_CLOCK
 
-For more information on this role, see [**ROLE\_SYSTEM\_CLOCK**](object-roles.md#role-system-clock).
+For more information on this role, see [**ROLE\_SYSTEM\_CLOCK**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -230,7 +230,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_CLOCK**](object-roles.md
 
 ## ROLE\_SYSTEM\_COLUMN
 
-For more information on this role, see [**ROLE\_SYSTEM\_COLUMN**](object-roles.md#role-system-column).
+For more information on this role, see [**ROLE\_SYSTEM\_COLUMN**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -249,7 +249,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_COLUMN**](object-roles.m
 
 ## ROLE\_SYSTEM\_DIAGRAM
 
-For more information on this role, see [**ROLE\_SYSTEM\_DIAGRAM**](object-roles.md#role-system-diagram).
+For more information on this role, see [**ROLE\_SYSTEM\_DIAGRAM**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -269,7 +269,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_DIAGRAM**](object-roles.
 
 ## ROLE\_SYSTEM\_DIAL
 
-For more information on this role, see [**ROLE\_SYSTEM\_DIAL**](object-roles.md#role-system-dial).
+For more information on this role, see [**ROLE\_SYSTEM\_DIAL**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -290,7 +290,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_DIAL**](object-roles.md#
 
 ## ROLE\_SYSTEM\_DOCUMENT
 
-For more information on this role, see [**ROLE\_SYSTEM\_DOCUMENT**](object-roles.md#role-system-document).
+For more information on this role, see [**ROLE\_SYSTEM\_DOCUMENT**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -308,7 +308,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_DOCUMENT**](object-roles
 
 ## ROLE\_SYSTEM\_DROPLIST
 
-For more information on this role, see [**ROLE\_SYSTEM\_DROPLIST**](object-roles.md#role-system-droplist).
+For more information on this role, see [**ROLE\_SYSTEM\_DROPLIST**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -330,7 +330,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_DROPLIST**](object-roles
 
 ## ROLE\_SYSTEM\_EQUATION
 
-For more information on this role, see [**ROLE\_SYSTEM\_EQUATION**](object-roles.md#role-system-equation).
+For more information on this role, see [**ROLE\_SYSTEM\_EQUATION**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -346,7 +346,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_EQUATION**](object-roles
 
 ## ROLE\_SYSTEM\_GRAPHIC
 
-For more information on this role, see [**ROLE\_SYSTEM\_GRAPHIC**](object-roles.md#role-system-graphic).
+For more information on this role, see [**ROLE\_SYSTEM\_GRAPHIC**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -364,7 +364,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_GRAPHIC**](object-roles.
 
 ## ROLE\_SYSTEM\_HELPBALLOON
 
-For more information on this role, see [**ROLE\_SYSTEM\_HELPBALLOON**](object-roles.md#role-system-helpballoon).
+For more information on this role, see [**ROLE\_SYSTEM\_HELPBALLOON**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -382,7 +382,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_HELPBALLOON**](object-ro
 
 ## ROLE\_SYSTEM\_IPADDRESS
 
-For more information on this role, see [**ROLE\_SYSTEM\_IPADDRESS**](object-roles.md#role-system-ipaddress).
+For more information on this role, see [**ROLE\_SYSTEM\_IPADDRESS**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -403,7 +403,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_IPADDRESS**](object-role
 
 ## ROLE\_SYSTEM\_LINK
 
-For more information on this role, see [**ROLE\_SYSTEM\_LINK**](object-roles.md#role-system-link).
+For more information on this role, see [**ROLE\_SYSTEM\_LINK**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -425,7 +425,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_LINK**](object-roles.md#
 
 ## ROLE\_SYSTEM\_PANE
 
-For more information on this role, see [**ROLE\_SYSTEM\_PANE**](object-roles.md#role-system-pane).
+For more information on this role, see [**ROLE\_SYSTEM\_PANE**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -445,7 +445,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_PANE**](object-roles.md#
 
 ## ROLE\_SYSTEM\_ROW
 
-For more information on this role, see [**ROLE\_SYSTEM\_ROW**](object-roles.md#role-system-row).
+For more information on this role, see [**ROLE\_SYSTEM\_ROW**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -465,7 +465,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_ROW**](object-roles.md#r
 
 ## ROLE\_SYSTEM\_ROWHEADER
 
-For more information on this role, see [**ROLE\_SYSTEM\_ROWHEADER**](object-roles.md#role-system-rowheader).
+For more information on this role, see [**ROLE\_SYSTEM\_ROWHEADER**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -486,7 +486,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_ROWHEADER**](object-role
 
 ## ROLE\_SYSTEM\_SEPARATOR
 
-For more information on this role, see [**ROLE\_SYSTEM\_SEPARATOR**](object-roles.md#role-system-separator).
+For more information on this role, see [**ROLE\_SYSTEM\_SEPARATOR**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -500,7 +500,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_SEPARATOR**](object-role
 
 ## ROLE\_SYSTEM\_SOUND
 
-For more information on this role, see [**ROLE\_SYSTEM\_SOUND**](object-roles.md#role-system-sound).
+For more information on this role, see [**ROLE\_SYSTEM\_SOUND**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -511,7 +511,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_SOUND**](object-roles.md
 
 ## ROLE\_SYSTEM\_SPLITBUTTON
 
-For more information on this role, see [**ROLE\_SYSTEM\_SPLITBUTTON**](object-roles.md#role-system-splitbutton).
+For more information on this role, see [**ROLE\_SYSTEM\_SPLITBUTTON**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -530,7 +530,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_SPLITBUTTON**](object-ro
 
 ## ROLE\_SYSTEM\_TABLE
 
-For more information on this role, see [**ROLE\_SYSTEM\_TABLE**](object-roles.md#role-system-table).
+For more information on this role, see [**ROLE\_SYSTEM\_TABLE**](object-roles.md).
 
 **Supported Properties and Methods**
 
@@ -552,7 +552,7 @@ For more information on this role, see [**ROLE\_SYSTEM\_TABLE**](object-roles.md
 
 ## ROLE\_SYSTEM\_WHITESPACE
 
-For more information on this role, see [**ROLE\_SYSTEM\_WHITESPACE**](object-roles.md#role-system-whitespace).
+For more information on this role, see [**ROLE\_SYSTEM\_WHITESPACE**](object-roles.md).
 
 **Supported Properties and Methods**
 

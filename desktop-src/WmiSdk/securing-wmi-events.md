@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Securing WMI Events
 
-WMI events are delivered by the [*event provider*](gloss-e.md#wmi-gloss-event-provider) to a [*temporary*](gloss-t.md#wmi-gloss-temporary-consumer) or [*permanent*](gloss-p.md#wmi-gloss-permanent-consumer) consumer. The WMI event system uses the comparison of [*security descriptors*](gloss-s.md#wmi-gloss-security-descriptor) on events and user account [*SIDs*](gloss-s.md#wmi-gloss-sid) to control event access.
+WMI events are delivered by the [*event provider*](gloss-e.md) to a [*temporary*](gloss-t.md) or [*permanent*](gloss-p.md) consumer. The WMI event system uses the comparison of [*security descriptors*](gloss-s.md) on events and user account [*SIDs*](gloss-s.md) to control event access.
 
 Events are delivered in the form of an instance of an event class usually, but not necessarily, derived ultimately from [**\_\_Event**](--event.md). WMI supplies several general event classes in the [WMI System Classes](wmi-system-classes.md), such as [**\_\_InstanceModificationEvent**](--instancemodificationevent.md). Providers may also supply their own event classes. For example, the [System Registry Provider](https://msdn.microsoft.com/library/aa393886) has event classes that report the change of a registry key or value, such as [**RegistryKeyChangeEvent**](https://msdn.microsoft.com/library/aa393040).
 

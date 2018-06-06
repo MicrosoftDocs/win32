@@ -43,7 +43,7 @@ Returns the version specified in the previous **CCM\_SETVERSION** message. If *w
 
 ## Remarks
 
-In a few cases, a control may behave differently, depending on the version. This primarily applies to bugs that were fixed in later versions. The **CCM\_SETVERSION** message enables you to inform the control which behavior is expected. You can determine which version you have specified by sending a [**CCM\_GETVERSION**](ccm-getversion.md) message. For an example of how to use this message, see [Custom Draw With List-View and Tree-View Controls](custom-draw.md#list-tree).
+In a few cases, a control may behave differently, depending on the version. This primarily applies to bugs that were fixed in later versions. The **CCM\_SETVERSION** message enables you to inform the control which behavior is expected. You can determine which version you have specified by sending a [**CCM\_GETVERSION**](ccm-getversion.md) message. For an example of how to use this message, see [Custom Draw With List-View and Tree-View Controls](custom-draw.md).
 
 If you have ComCtl32.dll version 6 installed, regardless of what value you set in *wParam*, the **CCM\_SETVERSION** message returns version 6.
 

@@ -37,7 +37,7 @@ For information about the structure of an ASF file, see [ASF File Structure](asf
 
      
 
-3.  Call [**IMFASFIndexer::Initialize**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize) to initialize the indexer by specifying the [**IMFASFContentInfo**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo) pointer of the ContentInfo object that describes the file to be written or read. The ContentInfo object contains information that constitutes the [ASF Header Object](asf-file-structure.md#header-object). The indexer object requires a valid ContentInfo object before generating or reading index entries of an ASF file.
+3.  Call [**IMFASFIndexer::Initialize**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize) to initialize the indexer by specifying the [**IMFASFContentInfo**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo) pointer of the ContentInfo object that describes the file to be written or read. The ContentInfo object contains information that constitutes the [ASF Header Object](asf-file-structure.md). The indexer object requires a valid ContentInfo object before generating or reading index entries of an ASF file.
 
 The following code example shows how an application can create and initialize the indexer object to work with specific ASF content. The ContentInfo object represents the ASF Header Object; the content is passed as a byte stream.
 

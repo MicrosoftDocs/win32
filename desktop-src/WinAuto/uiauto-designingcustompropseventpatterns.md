@@ -42,7 +42,7 @@ This topic contains the following sections:
 
 Before creating a custom property, event, or control pattern, make sure that UI Automation does not provide an existing solution. For example, creating a custom "Click" control pattern is not necessary because the [Invoke](uiauto-implementinginvoke.md) control pattern already describes that functionality.
 
-If you decide that a custom property, event, or control pattern is needed, make sure that it is not too vague or generic. For example, a control pattern called "Show" is not useful because the visibility of a control can be indicated by an availability property on the element, such as [**UIA\_IsExpandCollapsePatternAvailablePropertyId**](uiauto-control-pattern-availability-propids.md#uia-isexpandcollapsepatternavailablepropertyid) or [**UIA\_IsScrollItemPatternAvailablePropertyId**](uiauto-control-pattern-availability-propids.md#uia-isscrollitempatternavailablepropertyid).
+If you decide that a custom property, event, or control pattern is needed, make sure that it is not too vague or generic. For example, a control pattern called "Show" is not useful because the visibility of a control can be indicated by an availability property on the element, such as [**UIA\_IsExpandCollapsePatternAvailablePropertyId**](uiauto-control-pattern-availability-propids.md) or [**UIA\_IsScrollItemPatternAvailablePropertyId**](uiauto-control-pattern-availability-propids.md).
 
 Before implementing a custom solution, carefully confirm it is needed and then design the functionality completely.
 

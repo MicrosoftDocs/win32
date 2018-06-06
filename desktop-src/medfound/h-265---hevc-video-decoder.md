@@ -39,7 +39,7 @@ The input type must contain at least the following two attributes:
 | Attribute                                                 | Description                                                                                   |
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | [**MF\_MT\_MAJOR\_TYPE**](mf-mt-major-type-attribute.md) | **MFMediaType\_Video**                                                                        |
-| [**MF\_MT\_SUBTYPE**](mf-mt-subtype-attribute.md)        | [MFVideoFormat\_HEVC](video-subtype-guids.md#encoded-video-types) or MFVideoFormat\_HEVC\_ES |
+| [**MF\_MT\_SUBTYPE**](mf-mt-subtype-attribute.md)        | [MFVideoFormat\_HEVC](video-subtype-guids.md) or MFVideoFormat\_HEVC\_ES |
 
 
 

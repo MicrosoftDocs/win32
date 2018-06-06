@@ -25,7 +25,7 @@ Call [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11
 
 In addition to having the right Direct3D 11 runtime (usually associated with a Windows version) the graphics driver must also be recent enough to support the optional feature. The WDDM specifications require optional features to be supported if the hardware can support it. So when a graphics driver supports one of the optional features that were added in a particular version of Windows, it usually means that the graphics driver supports the other features added in that version of Windows. For example, if a device driver supports shadows on feature level 9, then you know the device driver is at least WDDM 1.2.
 
-**Note**  If a Microsoft Direct3D device supports [feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 11.1, all of the optional features indicated by [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) are automatically supported except **SAD4ShaderInstructions** and **ExtendedDoublesShaderInstructions**.
+**Note**  If a Microsoft Direct3D device supports [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 11.1, all of the optional features indicated by [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) are automatically supported except **SAD4ShaderInstructions** and **ExtendedDoublesShaderInstructions**.
 
 The runtime always sets the following groupings of members identically. That is, all the values in a grouping are **TRUE** or **FALSE** together:
 

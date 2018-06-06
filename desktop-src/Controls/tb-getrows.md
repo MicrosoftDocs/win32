@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # TB\_GETROWS message
 
-Retrieves the number of rows of buttons in a toolbar with the [**TBSTYLE\_WRAPABLE**](toolbar-control-and-button-styles.md#tbstyle-wrapable) style.
+Retrieves the number of rows of buttons in a toolbar with the [**TBSTYLE\_WRAPABLE**](toolbar-control-and-button-styles.md) style.
 
 ## Parameters
 

@@ -52,7 +52,7 @@ A message that you should pay particular attention to is the status bar [**SB\_G
 
 ## Password Use
 
-If you use password-protected edit controls ([**ES\_PASSWORD**](edit-control-styles.md#es-password) style), the buffer that contains the retrieved text must be set to zero as soon as possible to avoid exposing the user's password in memory.
+If you use password-protected edit controls ([**ES\_PASSWORD**](edit-control-styles.md) style), the buffer that contains the retrieved text must be set to zero as soon as possible to avoid exposing the user's password in memory.
 
 ## Security Alerts
 

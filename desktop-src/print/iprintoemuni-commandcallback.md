@@ -42,7 +42,7 @@ Caller-supplied pointer to a [**DEVOBJ**](devobj.md) structure.
 *dwCallbackID* 
 </dt> <dd>
 
-Caller-supplied value representing the printer command's \***CallbackID** attribute in the printer's [*GPD*](wdkgloss.g#wdkgloss-generic-printer-description--gpd-) file. (For more information, see the following Remarks section.)
+Caller-supplied value representing the printer command's \***CallbackID** attribute in the printer's [*GPD*](https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4) file. (For more information, see the following Remarks section.)
 
 </dd> <dt>
 
@@ -85,7 +85,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-The `IPrintOemUni::CommandCallback` method is used by rendering plug-ins to dynamically generate printer commands, for printers that are supported by [*Unidrv*](wdkgloss.u#wdkgloss-unidrv).
+The `IPrintOemUni::CommandCallback` method is used by rendering plug-ins to dynamically generate printer commands, for printers that are supported by [*Unidrv*](https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414).
 
 If you want to dynamically generate a printer command, you must include a \***CallbackID** attribute and, optionally, a \***Params** attribute, within the command's \*Command entry in the printer's GPD file. For more information see [Dynamically Generated Printer Commands](https://www.bing.com/search?q=Dynamically+Generated+Printer+Commands).
 

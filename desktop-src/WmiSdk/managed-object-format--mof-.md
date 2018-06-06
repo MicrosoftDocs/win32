@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 
 # Managed Object Format (MOF)
 
-Managed Object Format (MOF) is the language used to describe [*Common Information Model (CIM)*](gloss-c.md#wmi-gloss-common-information-model) classes.
+Managed Object Format (MOF) is the language used to describe [*Common Information Model (CIM)*](gloss-c.md) classes.
 
-The recommended way for WMI providers to implement new WMI classes is in MOF files which are compiled using [**Mofcomp.exe**](mofcomp.md) into the [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository). It is also possible to create and manipulate CIM classes and instances using the [COM API for WMI](com-api-for-wmi.md).
+The recommended way for WMI providers to implement new WMI classes is in MOF files which are compiled using [**Mofcomp.exe**](mofcomp.md) into the [*WMI repository*](gloss-w.md). It is also possible to create and manipulate CIM classes and instances using the [COM API for WMI](com-api-for-wmi.md).
 
 A WMI provider normally consists of a MOF file, which defines the data and event classes for which the provider returns data, and a DLL file which contains the code that supplies data. For more information, see [Providing Data to WMI](providing-data-to-wmi.md).
 

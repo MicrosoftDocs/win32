@@ -68,7 +68,7 @@ The following table lists the mapping between each attribute of an Active Direct
 
  
 
-For more information about **Uint8Array** and **DN\_With\_Binary**, see [Mapping Attributes](mapping-active-directory-classes.md#mapping-attributes).
+For more information about **Uint8Array** and **DN\_With\_Binary**, see [Mapping Attributes](mapping-active-directory-classes.md).
 
 ## Mapping Instance Associations
 

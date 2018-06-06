@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Making an Asynchronous Call with C++
 
-WMI applications written in C++ can make asynchronous calls by using many of the methods of the [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) COM interface. However, the recommended procedure for calling a [*WMI method*](gloss-w.md#wmi-gloss-wmi-method) or a [*provider method*](gloss-p.md#wmi-gloss-provider-method) is by using semisynchronous calls because semisynchronous calls are more secure than asynchronous calls. For more information, see [Making a Semisynchronous Call with C++](making-a-semisynchronous-call-with-c--.md) and [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
+WMI applications written in C++ can make asynchronous calls by using many of the methods of the [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) COM interface. However, the recommended procedure for calling a [*WMI method*](gloss-w.md) or a [*provider method*](gloss-p.md) is by using semisynchronous calls because semisynchronous calls are more secure than asynchronous calls. For more information, see [Making a Semisynchronous Call with C++](making-a-semisynchronous-call-with-c--.md) and [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
 
 The following procedure describes how to make an asynchronous call by using the sink in your process.
 

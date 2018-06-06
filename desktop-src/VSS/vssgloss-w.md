@@ -28,7 +28,7 @@ A system service that protects special operating system files. If one of these f
 
 An application that coordinates its I/O operations with VSS shadow copy and shadow copy related operations (such as backups and restores) so that their data contained on the shadow copied volume is in a consistent state.
 
-To support this coordination, a writer must implement an instance of a class derived from the abstract base class **CVssWriter** to communicate with the VSS infrastructure. See also [*shadow copy*](vssgloss-s.md#base-vssgloss-shadow-copy).
+To support this coordination, a writer must implement an instance of a class derived from the abstract base class **CVssWriter** to communicate with the VSS infrastructure. See also [*shadow copy*](vssgloss-s.md).
 
 </dd> <dt>
 
@@ -55,7 +55,7 @@ An XML document created by a writer (using the **IVssCreateWriterMetadata** inte
 
 A Writer Metadata Document contains the list of all of a writer's components, any one of which might participate in a backup. This differs from the requester's Backup Components Document, which contains only those components explicitly included for a backup or restore operation.
 
-Once constructed, the Writer Metadata Document should be viewed as a read-only object. It can be saved to disk. See also [*Backup Components Document*](vssgloss-b.md#base-vssgloss-backup-components-document), [*explicit component inclusion*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion), [*implicit component inclusion*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion).
+Once constructed, the Writer Metadata Document should be viewed as a read-only object. It can be saved to disk. See also [*Backup Components Document*](vssgloss-b.md), [*explicit component inclusion*](vssgloss-e.md), [*implicit component inclusion*](vssgloss-i.md).
 
 </dd> </dl>
 

@@ -54,7 +54,7 @@ When the clipboard is emptied, the clipboard owner receives a [**WM\_DESTROYCLIP
 
 -   The window delayed rendering of one or more clipboard formats. In response to the [**WM\_DESTROYCLIPBOARD**](wm-destroyclipboard.md) message, the window might free resources it had allocated in order to render data on request. For more information about the rendering of data, see [Delayed Rendering](#delayed-rendering).
 -   The window placed data on the clipboard in a private clipboard format. The data for private clipboard formats is not freed by the system when the clipboard is emptied. Therefore, the clipboard owner should free the data upon receiving the [**WM\_DESTROYCLIPBOARD**](wm-destroyclipboard.md) message. For more information about private clipboard formats, see [Clipboard Formats](clipboard-formats.md).
--   The window placed data on the clipboard using the **CF\_OWNERDISPLAY** clipboard format. In response to the [**WM\_DESTROYCLIPBOARD**](wm-destroyclipboard.md) message, the window might free resources it had used to display information in the clipboard viewer window. For more information about this alternative format, see [Owner Display Format](about-the-clipboard.md#owner-display-format).
+-   The window placed data on the clipboard using the **CF\_OWNERDISPLAY** clipboard format. In response to the [**WM\_DESTROYCLIPBOARD**](wm-destroyclipboard.md) message, the window might free resources it had used to display information in the clipboard viewer window. For more information about this alternative format, see [Owner Display Format](about-the-clipboard.md).
 
 ## Delayed Rendering
 

@@ -43,7 +43,7 @@ If the function is not successful, the return value is minus one (-1).
 
 ## Remarks
 
-[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetFrameNumber** function.
+[*Experts*](e.md) and [*parsers*](p.md) can call the **GetFrameNumber** function.
 
 ## Requirements
 

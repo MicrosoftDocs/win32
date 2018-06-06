@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 
 # ResourceLocator.ResourceURI property
 
-Gets or sets the [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri) in a [**ResourceLocator**](resourcelocator.md) object. You can provide a [**ResourceLocator**](resourcelocator.md) object instead of specifying a resource URI in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
+Gets or sets the [*resource URI*](windows-remote-management-glossary.md) in a [**ResourceLocator**](resourcelocator.md) object. You can provide a [**ResourceLocator**](resourcelocator.md) object instead of specifying a resource URI in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
 
 This property is read/write.
 

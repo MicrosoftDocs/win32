@@ -68,7 +68,7 @@ Starting in Windows 8, ArbitrationPriority is a new registry entry. Valid value
 [Windows Imaging Component Overview](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
-[**How the Windows Imaging Component Works: Codec Discovery and Arbitration**](-wic-howwicworks.md#disoveryarbitration)
+[**How the Windows Imaging Component Works: Codec Discovery and Arbitration**](-wic-howwicworks.md)
 </dt> </dl>
 
  

@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 Represents the capabilities and management of the serial controller. Serial controllers are logical devices that are always present in a virtual machine, and thus are not allocated through a resource pool. One serial controller instance is always present in a virtual machine. Serial controllers have a fixed number of port instances. This implementation supports two ports per controller.
 
 > [!Note]  
-> Serial controllers are optional in [generation 2 virtual machines](virtualization-glossary.md#gen2vm).
+> Serial controllers are optional in [generation 2 virtual machines](virtualization-glossary.md).
 
  
 

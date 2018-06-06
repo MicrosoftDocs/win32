@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # OEMBitBlt function
 
-The `OEMBitBlt` function provides general bit-block transfer capabilities between [*device-managed surfaces*](wdkgloss.d#wdkgloss-device-managed-surface), between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
+The `OEMBitBlt` function provides general bit-block transfer capabilities between [*device-managed surfaces*](https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3), between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
 
 ## Syntax
 

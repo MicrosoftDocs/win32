@@ -42,14 +42,14 @@ UI Automation events fall into the following categories.
 
  
 
-Some events do not necessarily mean that the state of the UI has changed. For example, if the user tabs to a text entry field, and then clicks a button to update the field, a [**UIA\_Text\_TextChangedEventId**](uiauto-event-ids.md#uia-text-textchangedeventid) event is raised, even if the user did not actually change the text. When processing an event, it may be necessary for a client application to check whether anything has actually changed before taking action.
+Some events do not necessarily mean that the state of the UI has changed. For example, if the user tabs to a text entry field, and then clicks a button to update the field, a [**UIA\_Text\_TextChangedEventId**](uiauto-event-ids.md) event is raised, even if the user did not actually change the text. When processing an event, it may be necessary for a client application to check whether anything has actually changed before taking action.
 
 The following events may be raised even when the state of the UI has not changed.
 
--   [**UIA\_AutomationPropertyChangedEventId**](uiauto-event-ids.md#uia-automationpropertychangedeventid) (depending on the property that has changed)
--   [**UIA\_SelectionItem\_ElementSelectedEventId**](uiauto-event-ids.md#uia-selectionitem-elementselectedeventid)
--   [**UIA\_Selection\_InvalidatedEventId**](uiauto-event-ids.md#uia-selection-invalidatedeventid)
--   [**UIA\_Text\_TextChangedEventId**](uiauto-event-ids.md#uia-text-textchangedeventid)
+-   [**UIA\_AutomationPropertyChangedEventId**](uiauto-event-ids.md) (depending on the property that has changed)
+-   [**UIA\_SelectionItem\_ElementSelectedEventId**](uiauto-event-ids.md)
+-   [**UIA\_Selection\_InvalidatedEventId**](uiauto-event-ids.md)
+-   [**UIA\_Text\_TextChangedEventId**](uiauto-event-ids.md)
 
 For a description of all UI Automation events, see [Event Identifiers](uiauto-event-ids.md).
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # DestroyPropertyDatabase function
 
-The **DestroyPropertyDatabase** function releases the resources used to create the protocol [*property database*](p.md#-netmon-property-database-gly).
+The **DestroyPropertyDatabase** function releases the resources used to create the protocol [*property database*](p.md).
 
 ## Syntax
 

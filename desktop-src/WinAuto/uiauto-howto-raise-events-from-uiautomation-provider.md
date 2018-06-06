@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This topic contains example code that shows how a Microsoft UI Automation provider raises an event.
 
-The following example code shows a method from an application that implements a custom button. The application calls the method whenever the custom button is invoked. The method checks whether any clients are listening for events and, if so, raises the [**UIA\_Invoke\_InvokedEventId**](uiauto-event-ids.md#uia-invoke-invokedeventid) event to notify the clients that the button was invoked.
+The following example code shows a method from an application that implements a custom button. The application calls the method whenever the custom button is invoked. The method checks whether any clients are listening for events and, if so, raises the [**UIA\_Invoke\_InvokedEventId**](uiauto-event-ids.md) event to notify the clients that the button was invoked.
 
 
 ```C++

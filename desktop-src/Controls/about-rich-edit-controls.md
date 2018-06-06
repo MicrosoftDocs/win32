@@ -250,7 +250,7 @@ Microsoft Rich Edit 3.0 includes the following features in addition to the featu
 </tr>
 <tr class="odd">
 <td>Font binding</td>
-<td>Microsoft Rich Edit 3.0 will automatically choose an appropriate font for characters that clearly do not belong to the current character set stamp. This is done by assigning character sets to text runs and associating fonts with those character sets. For more information, see [Font Binding](using-rich-edit-controls.md#re-font-binding).</td>
+<td>Microsoft Rich Edit 3.0 will automatically choose an appropriate font for characters that clearly do not belong to the current character set stamp. This is done by assigning character sets to text runs and associating fonts with those character sets. For more information, see [Font Binding](using-rich-edit-controls.md).</td>
 </tr>
 <tr class="even">
 <td>Plain-text read/write options specific to character sets</td>
@@ -354,7 +354,7 @@ Microsoft Rich Edit 4.1 includes the following features in addition to the featu
 </tr>
 <tr class="odd">
 <td>Restricting input to ANSI text</td>
-<td>Using [<strong>TM_SINGLECODEPAGE</strong>](textmode.md#tm-singlecodepage) in [<strong>EM_SETTEXTMODE</strong>](em-settextmode.md) prevents Unicode input from entering a Rich Edit control.</td>
+<td>Using [<strong>TM_SINGLECODEPAGE</strong>](/windows/desktop/api/Richedit/ne-richedit-tagtextmode) in [<strong>EM_SETTEXTMODE</strong>](em-settextmode.md) prevents Unicode input from entering a Rich Edit control.</td>
 </tr>
 <tr class="even">
 <td>Unsupported RTF keyword notification</td>
@@ -370,7 +370,7 @@ Microsoft Rich Edit 4.1 includes the following features in addition to the featu
 </tr>
 <tr class="odd">
 <td>ES_VERTICAL</td>
-<td>The [<strong>ES_VERTICAL</strong>](rich-edit-control-styles.md#es-vertical) window style is supported.</td>
+<td>The [<strong>ES_VERTICAL</strong>](rich-edit-control-styles.md) window style is supported.</td>
 </tr>
 <tr class="even">
 <td>[<strong>WM_UNICHAR</strong>](https://msdn.microsoft.com/library/windows/desktop/ms646288) support</td>
@@ -409,7 +409,7 @@ The following messages are processed by edit controls but *not* by rich edit con
 
  
 
-The following window styles are used with multiline edit controls but not with rich edit controls: [**ES\_LOWERCASE**](edit-control-styles.md#es-lowercase), [**ES\_UPPERCASE**](edit-control-styles.md#es-uppercase), and [**ES\_OEMCONVERT**](edit-control-styles.md#es-oemconvert).
+The following window styles are used with multiline edit controls but not with rich edit controls: [**ES\_LOWERCASE**](edit-control-styles.md), [**ES\_UPPERCASE**](edit-control-styles.md), and [**ES\_OEMCONVERT**](edit-control-styles.md).
 
 ## Rich Edit Shortcut Keys
 

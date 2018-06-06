@@ -216,8 +216,8 @@ Recommended sizing and spacing for check boxes.
 **Check box labels**
 
 -   Label every check box.
--   Assign a unique [access key](glossary.md#glossary) to each label. For guidelines, see [Keyboard](inter-keyboard.md).
--   Use [sentence-style capitalization](glossary.md#s).
+-   Assign a unique [access key](glossary.md) to each label. For guidelines, see [Keyboard](inter-keyboard.md).
+-   Use [sentence-style capitalization](glossary.md).
 -   Write the label as a phrase or an imperative sentence, and use no ending punctuation.
     -   **Exception:** If a check box label also labels a subordinate control that follows it, end the label with a colon.
 -   Write the label so that it describes the selected state of the check box.

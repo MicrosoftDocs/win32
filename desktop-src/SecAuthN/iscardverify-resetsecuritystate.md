@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **ResetSecurityState** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **ResetSecurityState** method resets the current [*security context*](security.s_gly#-security-security-context-gly) of the [*smart card*](security.s_gly#-security-smart-card-gly).
+The **ResetSecurityState** method resets the current [*security context*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) of the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50).
 
 ## Syntax
 
@@ -45,11 +45,11 @@ The method returns one of the following possible values:
 
 ## Remarks
 
-To re-enable the [*security context*](security.s_gly#-security-security-context-gly) without resetting, call [**Unblock**](/windows/desktop/api/mbnapi/).
+To re-enable the [*security context*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) without resetting, call [**Unblock**](/windows/desktop/api/mbnapi/).
 
 For a list of all the methods defined by this interface, see [**ISCardVerify**](iscardverify.md).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Requirements
 

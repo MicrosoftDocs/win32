@@ -55,7 +55,7 @@ Values include:
 
 **See Also**
 
-[VgFlipOrientation](msdn-online-vector-markup-language-object-model-reference.md#vgfliporientation)
+[VgFlipOrientation](msdn-online-vector-markup-language-object-model-reference.md)
 
 **Example**
 

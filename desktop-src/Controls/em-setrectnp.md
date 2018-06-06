@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # EM\_SETRECTNP message
 
-Sets the [formatting rectangle](about-edit-controls.md#changing-the-formatting-rectangle) of a multiline edit control. The **EM\_SETRECTNP** message is identical to the [**EM\_SETRECT**](em-setrect.md) message, except that **EM\_SETRECTNP** does *not* redraw the edit control window.
+Sets the [formatting rectangle](about-edit-controls.md) of a multiline edit control. The **EM\_SETRECTNP** message is identical to the [**EM\_SETRECT**](em-setrect.md) message, except that **EM\_SETRECTNP** does *not* redraw the edit control window.
 
 The formatting rectangle is the limiting rectangle into which the control draws the text. The limiting rectangle is independent of the size of the edit control window.
 

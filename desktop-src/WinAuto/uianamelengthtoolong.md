@@ -35,7 +35,7 @@ The element or its parent has an incorrectly assigned name or label.
 
 <dl> <dt>
 
-[**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid)
+[**UIA\_NamePropertyId**](uiauto-automation-element-propids.md)
 </dt> <dt>
 
 [**IUIAutomationElement::CurrentName**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentname)

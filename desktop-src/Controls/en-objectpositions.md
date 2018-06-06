@@ -51,7 +51,7 @@ Return a nonzero value to stop the **Read** operation.
 
 ## Remarks
 
-To receive an EN\_OBJECTPOSITIONS notification code, specify the [**ENM\_OBJECTPOSITIONS**](rich-edit-control-event-mask-flags.md#enm-objectpositions) flag in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
+To receive an EN\_OBJECTPOSITIONS notification code, specify the [**ENM\_OBJECTPOSITIONS**](rich-edit-control-event-mask-flags.md) flag in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
 ## Requirements
 

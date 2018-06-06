@@ -24,7 +24,7 @@ The standard icons have these meanings:
 -   **Information icon.** The UI is presenting useful information.
 -   **Question mark icon.** The UI indicates a Help entry point.
 
-The standard icons are notable because they are built into many Windows application programming interfaces (APIs), such as [task dialogs](win-dialog-box.md), [message boxes](glossary.md#m), [balloons](ctrl-balloons.md), and [notifications](mess-notif.md). They are also commonly used on [in-place messages](glossary.md#i) and [status bars](ctrl-status-bars.md).
+The standard icons are notable because they are built into many Windows application programming interfaces (APIs), such as [task dialogs](win-dialog-box.md), [message boxes](glossary.md), [balloons](ctrl-balloons.md), and [notifications](mess-notif.md). They are also commonly used on [in-place messages](glossary.md) and [status bars](ctrl-status-bars.md).
 
 **Note:** Guidelines related to [icons](vis-icons.md) are presented in a separate article.
 
@@ -56,7 +56,7 @@ Some issues can be presented as an error, warning, or information, depending on 
 -   **Warning.** "This page might not behave as expected because Windows Internet Explorer isn't configured to load unsigned ActiveX controls." or "Allow this page to install an unsigned ActiveX Control? Doing so from untrusted sources may harm your computer." (Both phrased as conditions that may cause future problems.)
 -   **Information.** "You have configured Windows Internet Explorer to block unsigned ActiveX controls." (Phrased as a statement of fact.)
 
-**To determine the appropriate message type, focus on the most important aspect of the issue that users need to know or act upon.** Typically, if an issue blocks the user from proceeding, it is presented as an error; if the user can proceed, it's a warning. Craft the [main instruction](text-ui.md#usage-patterns) or other corresponding text based on that focus, and then choose an icon (standard or otherwise) that matches the text. The main instruction text and icons should always match.
+**To determine the appropriate message type, focus on the most important aspect of the issue that users need to know or act upon.** Typically, if an issue blocks the user from proceeding, it is presented as an error; if the user can proceed, it's a warning. Craft the [main instruction](text-ui.md) or other corresponding text based on that focus, and then choose an icon (standard or otherwise) that matches the text. The main instruction text and icons should always match.
 
 ### Severity
 
@@ -104,7 +104,7 @@ The mere potential for data loss alone is insufficient to call for a warning ico
 
 To focus warning icons on truly critical issues:
 
--   Make sure that the issue warrants heightened user attention. [Routine confirmations](mess-confirm.md#usage-patterns) and questions shouldn't have warning icons.
+-   Make sure that the issue warrants heightened user attention. [Routine confirmations](mess-confirm.md) and questions shouldn't have warning icons.
 -   Are users likely to behave differently as a result of the warning icon? Are users likely to consider the decision more carefully?
 
 **Incorrect:**
@@ -215,7 +215,7 @@ In the incorrect example, the standard warning icon doesn't match the main instr
 | **Context**<br/>       | **When to use**<br/>                                                                                                                                                             |
 | Dialog boxes\[newline\]      | use for all warnings. \[newline\] ![screen shot warning of file-name extension change ](images/vis-std-icons-image12.png)<br/>                                                   |
 | In-place warnings\[newline\] | use to identify the text as a warning. \[newline\] ![screen shot of warning of not enough free space ](images/vis-std-icons-image13.png)<br/>                                    |
-| Notifications\[newline\]     | use for all warnings. (for [non-critical system events](glossary.md#n).) \[newline\] ![screen shot of low-battery warning notification ](images/vis-std-icons-image14.png)<br/> |
+| Notifications\[newline\]     | use for all warnings. (for [non-critical system events](glossary.md).) \[newline\] ![screen shot of low-battery warning notification ](images/vis-std-icons-image14.png)<br/> |
 | Balloons\[newline\]          | use for [special conditions](ctrl-balloons.md). \[newline\] ![screen shot of balloon warning of caps lock on ](images/vis-std-icons-image15.png)<br/>                           |
 | Banners\[newline\]           | use to draw attention to the banner. \[newline\] ![screen shot of banner with warning of missing tpm ](images/vis-std-icons-image16.png)<br/>                                    |
 
@@ -266,7 +266,7 @@ In this example, a yellow security shield is used in a footnote.
 
 ### Question mark icons
 
--   **Use the question mark icon only for Help entry points.** For more information, see the [Help entry point](winenv-help.md#guidelines) guidelines.
+-   **Use the question mark icon only for Help entry points.** For more information, see the [Help entry point](winenv-help.md) guidelines.
 -   **Don't use the question mark icon to ask questions.** Again, use the question mark icon only for Help entry points. There is no need to ask questions using the question mark icon anyway it's sufficient to present a main instruction as a question.
 -   **Don't routinely replace question mark icons with warning icons.** Replace a question mark icon with a warning icon only if the question has significant consequences. Otherwise, use no icon.
 

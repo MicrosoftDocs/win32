@@ -26,14 +26,14 @@ Design implementation for making the installer's user interface accessible to al
 <span id="_msi_acquisition_phase_gly"></span><span id="_MSI_ACQUISITION_PHASE_GLY"></span>**acquisition phase**
 </dt> <dd>
 
-Phase of installation during which the installer determines procedure. Acquisition phase begins when an application or user instructs [*Windows Installer*](m-gly.md#-msi-microsoft-windows-installer-gly) to install an application or feature. The installer then queries the [*database*](i-gly.md#-msi-installer-database-gly) for information as it generates the [*execution script*](e-gly.md#-msi-execution-script-gly) for the installation. For more information about the phases of an installation, see [Installation Mechanism](installation-mechanism.md).
+Phase of installation during which the installer determines procedure. Acquisition phase begins when an application or user instructs [*Windows Installer*](m-gly.md) to install an application or feature. The installer then queries the [*database*](i-gly.md) for information as it generates the [*execution script*](e-gly.md) for the installation. For more information about the phases of an installation, see [Installation Mechanism](installation-mechanism.md).
 
 </dd> <dt>
 
 <span id="_msi_action_gly"></span><span id="_MSI_ACTION_GLY"></span>**action**
 </dt> <dd>
 
-Many of the functions performed by Windows Installer are encapsulated into actions. Each action specifies the execution of a particular function and the total procedural flow of the installation is prescribed by the sequence of actions in the [*Sequence tables*](s-gly.md#-msi-sequence-tables-gly). [*Standard actions*](s-gly.md#-msi-standard-action-gly) are built into Windows Installer. [*Custom actions*](c-gly.md#-msi-custom-action-using-windows-installer-gly) are written by the author of the installation [*package*](p-gly.md#-msi-package-using-windows-installer-gly).
+Many of the functions performed by Windows Installer are encapsulated into actions. Each action specifies the execution of a particular function and the total procedural flow of the installation is prescribed by the sequence of actions in the [*Sequence tables*](s-gly.md). [*Standard actions*](s-gly.md) are built into Windows Installer. [*Custom actions*](c-gly.md) are written by the author of the installation [*package*](p-gly.md).
 
 </dd> <dt>
 
@@ -47,7 +47,7 @@ The approval state enabled by User Account Protection (UAC) that runs all users 
 <span id="_msi_advertising_gly"></span><span id="_MSI_ADVERTISING_GLY"></span>**advertising**
 </dt> <dd>
 
-Capability to make the interfaces required for loading and to make an application available without installing the application. When a user or application activates an advertised interface, the installer then proceeds to install the necessary components. The two types of advertising are [*assigning*](#-msi-assigning-gly) and [*publishing*](p-gly.md#-msi-publishing-gly). For more information, see also [*install-on-demand*](i-gly.md#-msi-install-on-demand-gly). For more information about how the installer advertises applications, see [Advertisement](advertisement.md).
+Capability to make the interfaces required for loading and to make an application available without installing the application. When a user or application activates an advertised interface, the installer then proceeds to install the necessary components. The two types of advertising are [*assigning*](#-msi-assigning-gly) and [*publishing*](p-gly.md). For more information, see also [*install-on-demand*](i-gly.md). For more information about how the installer advertises applications, see [Advertisement](advertisement.md).
 
 </dd> <dt>
 
@@ -61,14 +61,14 @@ A system service of Windows Vista that facilitates starting installations that 
 <span id="_msi_assigning_gly"></span><span id="_MSI_ASSIGNING_GLY"></span>**assigning**
 </dt> <dd>
 
-Makes an application available, and makes it appear as if it has been installed to a user, without actually installing it. Assigning adds shortcuts and icons to the **Start** menu, associates appropriate files, and writes registry entries for the application. When a user tries to open an assigned application, then the installer installs the application. Assigning and [*publishing*](p-gly.md#-msi-publishing-gly) are two methods of [*advertising*](#-msi-advertising-gly). For more information, see [Advertisement](advertisement.md).
+Makes an application available, and makes it appear as if it has been installed to a user, without actually installing it. Assigning adds shortcuts and icons to the **Start** menu, associates appropriate files, and writes registry entries for the application. When a user tries to open an assigned application, then the installer installs the application. Assigning and [*publishing*](p-gly.md) are two methods of [*advertising*](#-msi-advertising-gly). For more information, see [Advertisement](advertisement.md).
 
 </dd> <dt>
 
 <span id="_msi_asynchronous_execution_using_windows_installer_gly"></span><span id="_MSI_ASYNCHRONOUS_EXECUTION_USING_WINDOWS_INSTALLER_GLY"></span>**asynchronous execution**
 </dt> <dd>
 
-[*Custom action*](c-gly.md#-msi-custom-action-using-windows-installer-gly) during which the installer runs separate threads of the custom action and the current installation simultaneously. For more information, see [Synchronous and Asynchronous Custom Actions](synchronous-and-asynchronous-custom-actions.md).
+[*Custom action*](c-gly.md) during which the installer runs separate threads of the custom action and the current installation simultaneously. For more information, see [Synchronous and Asynchronous Custom Actions](synchronous-and-asynchronous-custom-actions.md).
 
 </dd> </dl>
 

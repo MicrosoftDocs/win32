@@ -41,7 +41,7 @@ Because control-specific knowledge is required to support value mapping, there a
 
 ## List View and Tree View
 
-**PROPID\_ACC\_ROLEMAP**, **PROPID\_ACC\_STATEMAP**, and **PROPID\_ACC\_DESCRIPTONMAP** provide mappings from state image indexes to role and state values. These maps allow those image indexes to be mapped to appropriate roles (usually [**ROLE\_SYSTEM\_RADIOBUTTON**](object-roles.md#role-system-radiobutton) or [**ROLE\_SYSTEM\_CHECKBUTTON**](object-roles.md#role-system-checkbutton)) and additional state bits (usually [**STATE\_SYSTEM\_CHECKED**](object-state-constants.md#state-system-checked)).
+**PROPID\_ACC\_ROLEMAP**, **PROPID\_ACC\_STATEMAP**, and **PROPID\_ACC\_DESCRIPTONMAP** provide mappings from state image indexes to role and state values. These maps allow those image indexes to be mapped to appropriate roles (usually [**ROLE\_SYSTEM\_RADIOBUTTON**](object-roles.md) or [**ROLE\_SYSTEM\_CHECKBUTTON**](object-roles.md)) and additional state bits (usually [**STATE\_SYSTEM\_CHECKED**](object-state-constants.md)).
 
 For more information about value map annotation, see the following topics:
 

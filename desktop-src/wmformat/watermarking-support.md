@@ -31,7 +31,7 @@ ms.date: 05/31/2018
 
 Digital watermarking is a way to embed copyright or other information in the data of a media stream. Techniques for watermarking vary widely from one solution to the next. The simplest form of watermarking is simply adding an identifying image to each frame of a video stream. Television stations frequently use this technique to insert a semi-transparent logo in a bottom corner of their broadcast. More sophisticated forms of digital watermarking are imperceptible to the user watching or listening to the content.
 
-The Windows Media Format SDK supports the use of digital watermarking [*DMOs*](wmformat-glossary.md#wmformat-directx-media-object--dmo-). In practice, a watermarking system is very similar to a codec: it takes media samples, runs algorithms on the data, and outputs the altered samples. When a watermarking system is specified for a stream, the writer object includes the DMO in its processing of input samples.
+The Windows Media Format SDK supports the use of digital watermarking [*DMOs*](wmformat-glossary.md). In practice, a watermarking system is very similar to a codec: it takes media samples, runs algorithms on the data, and outputs the altered samples. When a watermarking system is specified for a stream, the writer object includes the DMO in its processing of input samples.
 
 You must specify watermark configuration information when you configure a stream for watermarking. The configuration values will be different depending upon the watermarking DMO. The DMO you use should come with instructions describing the configuration values it supports.
 

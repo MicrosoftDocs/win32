@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SCESTATUS
 
-The **SCESTATUS** data type is used by the Security Configuration tool set API to return information about the results of a function call. For more information about the defined status code values, see [Attachment Return Values](management-return-values.md#attachment-return-values).
+The **SCESTATUS** data type is used by the Security Configuration tool set API to return information about the results of a function call. For more information about the defined status code values, see [Attachment Return Values](management-return-values.md).
 
 
 ```C++

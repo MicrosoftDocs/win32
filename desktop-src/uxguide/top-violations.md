@@ -15,7 +15,7 @@ Here's a collection of some of the important guidelines in UX Guide. You can use
 
 ## Windows
 
--   **Support the minimum Windows effective resolution of 800x600 pixels.** For critical user interfaces (UIs) that must work in safe mode, support an [effective resolution](glossary.md#e) of 640x480 pixels. Be sure to account for the space used by the taskbar by reserving 48 vertical [relative pixels](glossary.md#r) for windows displayed with the taskbar.
+-   **Support the minimum Windows effective resolution of 800x600 pixels.** For critical user interfaces (UIs) that must work in safe mode, support an [effective resolution](glossary.md) of 640x480 pixels. Be sure to account for the space used by the taskbar by reserving 48 vertical [relative pixels](glossary.md) for windows displayed with the taskbar.
 -   **Optimize resizable window layouts for an effective resolution of 1024x768 pixels.** Automatically resize these windows for lower screen resolutions in a way that is still functional.
 -   **Be sure to test your windows in 96 dots per inch (dpi) (at 800x600 pixels), 120 dpi (at 1024x768 pixels), and 144 dpi (at 1200x900 pixels) modes.** Check for layout problems, such as clipping of controls, text, and windows, and stretching of icons and bitmaps.
 -   **For programs with touch and mobile use scenarios, optimize for 120 dpi.** High-dpi screens are currently prevalent on touch and mobile PCs.
@@ -84,7 +84,7 @@ Here's a collection of some of the important guidelines in UX Guide. You can use
     -   **Don't select the option by default. If the dialog box really should be displayed only once, do so without asking.** Don't use this option as an excuse to annoy users—make sure the default behavior isn't annoying.
     -   **If users select the option and click Cancel, this option does take effect.** This setting is a meta-option, so it doesn't follow the standard Cancel behavior of leaving no side effect. Note that if users don't want to see the dialog in the future, most likely they want to cancel it as well.
 -   **Links**
-    -   **Don't assign an** [access key](glossary.md#glossary). Links are accessed using the Tab key.
+    -   **Don't assign an** [access key](glossary.md). Links are accessed using the Tab key.
     -   **Don't add "Click" or "Click here" to the link text.** It isn't necessary because a link implies clicking.
 -   **Tooltips**
     -   **Use tooltips to provide labels for unlabeled controls.** You don't have to give labeled controls tooltips simply for the sake of consistency.

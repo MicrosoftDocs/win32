@@ -65,7 +65,7 @@ To have the codec deinterlace input video, call the [**IWMWriterAdvanced2::SetIn
 </tr>
 <tr class="even">
 <td>WM_DM_DEINTERLACE_HALFSIZEDOUBLERATE</td>
-<td>Select this mode when the output resolution is half, or less, of the input resolution and the output [<em>frame rate</em>](wmformat-glossary.md#wmformat-frame-rate) is twice as high. For example, use this mode when the input video resolution is 640 x 480 pixels at 30 interlaced frames/sec and the output video resolution is 320 x 240 pixels at 60 frames/sec.Benefits:<br/>
+<td>Select this mode when the output resolution is half, or less, of the input resolution and the output [<em>frame rate</em>](wmformat-glossary.md) is twice as high. For example, use this mode when the input video resolution is 640 x 480 pixels at 30 interlaced frames/sec and the output video resolution is 320 x 240 pixels at 60 frames/sec.Benefits:<br/>
 <ul>
 <li>This produces progressive frames of high quality, because each field is converted to a frame and so there is no need to blend any information.</li>
 <li>The full motion of the interlaced fields is captured.</li>
@@ -81,7 +81,7 @@ To have the codec deinterlace input video, call the [**IWMWriterAdvanced2::SetIn
 </tr>
 <tr class="even">
 <td>WM_DM_DEINTERLACE_VERTICALHALFSIZEDOUBLERATE</td>
-<td>Select this mode when the vertical output resolution is half, or less, of the input vertical resolution and the output [<em>frame rate</em>](wmformat-glossary.md#wmformat-frame-rate) is twice as high. For example, the input vertical video resolution is 640 x 480 pixels at 30 interlaced frames/sec and the output vertical video resolution is 320 x 240 pixels at 60 frames/sec.Benefits:<br/>
+<td>Select this mode when the vertical output resolution is half, or less, of the input vertical resolution and the output [<em>frame rate</em>](wmformat-glossary.md) is twice as high. For example, the input vertical video resolution is 640 x 480 pixels at 30 interlaced frames/sec and the output vertical video resolution is 320 x 240 pixels at 60 frames/sec.Benefits:<br/>
 <ul>
 <li>This produces progressive frames of high quality, because each field is converted to a frame and so there is no need to blend any information.</li>
 <li>The full motion of the interlaced fields is captured.</li>

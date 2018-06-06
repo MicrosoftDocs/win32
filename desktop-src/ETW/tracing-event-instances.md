@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Writing Related Events in a Classic Provider
 
-[Classic](about-event-tracing.md#providers) providers use the [**TraceEventInstance**](traceeventinstance.md) function to trace events that are part of a single transaction. You can also use this function to trace parent/child events.
+[Classic](about-event-tracing.md) providers use the [**TraceEventInstance**](traceeventinstance.md) function to trace events that are part of a single transaction. You can also use this function to trace parent/child events.
 
 Before calling the [**TraceEventInstance**](traceeventinstance.md) function, you must first call the [**CreateTraceInstanceId**](createtraceinstanceid.md) function to obtain a transaction identifier. This function generates a unique transaction identifier, and maps it to a registered class GUID handle. The handles for registered class GUIDs are available in the **RegHandle** members of [**TRACE\_GUID\_REGISTRATION**](trace-guid-registration.md) structures, after calling the [**RegisterTraceGuids**](registertraceguids.md) function. The transaction identifier is placed in the **InstanceId** member of an [**EVENT\_INSTANCE\_INFO**](event-instance-info.md) structure that you pass to the **CreateTraceInstanceId** function.
 

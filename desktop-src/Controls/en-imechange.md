@@ -57,7 +57,7 @@ This notification code returns zero.
 
 ## Remarks
 
-To receive EN\_IMECHANGE notification codes, specify [**ENM\_IMECHANGE**](rich-edit-control-event-mask-flags.md#enm-imechange) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
+To receive EN\_IMECHANGE notification codes, specify [**ENM\_IMECHANGE**](rich-edit-control-event-mask-flags.md) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
 > [!Note]  
 > This notification code is only supported in the Asian version of Rich Edit 1.0. It is not supported in later versions. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).

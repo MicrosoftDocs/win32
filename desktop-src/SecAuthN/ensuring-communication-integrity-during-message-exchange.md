@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Ensuring Communication Integrity During Message Exchange
 
-After a [*security context*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-context-gly) is established, the application can use the [message support](authentication-functions.md#message-support) functions to transmit tamper-resistant messages.
+After a [*security context*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-context-gly) is established, the application can use the [message support](authentication-functions.md) functions to transmit tamper-resistant messages.
 
 The client or server passes the security context and a message to the [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature) function to generate a secure signature that prevents the message from being modified while in transit. The receiver of the message calls the [**VerifySignature**](/windows/desktop/api/Sspi/nf-sspi-verifysignature) function. **VerifySignature** uses the information in the signature to verify that the message received was not modified during transmission. The client and server can also exchange encrypted messages using [**EncryptMessage (General)**](/windows/desktop/api/Sspi/) and [**DecryptMessage (General)**](/windows/desktop/api/Sspi/).
 

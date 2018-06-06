@@ -32,7 +32,7 @@ The following table contains return codes from API functions.
 
  
 
-To write code that handles [HRESULT values](winprog.windows_data_types#hresult) robustly, use the SUCCEEDED(hr) and FAILED(hr) macros.
+To write code that handles [HRESULT values](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46) robustly, use the SUCCEEDED(hr) and FAILED(hr) macros.
 
 ## Related topics
 

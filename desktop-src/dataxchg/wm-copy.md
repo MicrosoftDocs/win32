@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_COPY message
 
-An application sends the **WM\_COPY** message to an edit control or combo box to copy the current selection to the clipboard in [**CF\_TEXT**](standard-clipboard-formats.md#cf-text) format.
+An application sends the **WM\_COPY** message to an edit control or combo box to copy the current selection to the clipboard in [**CF\_TEXT**](standard-clipboard-formats.md) format.
 
 
 ```C++

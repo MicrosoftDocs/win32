@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Reuse Existing Pointers to Objects
 
-In this scenario, the server responds to an [**OBJID\_CLIENT**](object-identifiers.md#objid-client) request using the same [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointer each time.
+In this scenario, the server responds to an [**OBJID\_CLIENT**](object-identifiers.md) request using the same [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointer each time.
 
 In the following example code, the control object is retrieved from the extra window data, and a method of the control is called to retrieve the accessibility server object (the application-defined AccServer class), if any. If the accessibility server does not yet exist, it is created.
 

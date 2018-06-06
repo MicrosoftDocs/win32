@@ -51,7 +51,7 @@ If you send this message explicitly, it returns the number of characters in the 
 
 You can also send this message by calling the [**ListView\_GetItemText**](/windows/desktop/api/Commctrl/nf-commctrl-listview_getitemtext) macro. However, this macro does not return the string length.
 
-**LVM\_GETITEMTEXT** is not supported under the [**LVS\_OWNERDATA**](list-view-window-styles.md#lvs-ownerdata) style.
+**LVM\_GETITEMTEXT** is not supported under the [**LVS\_OWNERDATA**](list-view-window-styles.md) style.
 
 ## Requirements
 

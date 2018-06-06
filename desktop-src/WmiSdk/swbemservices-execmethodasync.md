@@ -169,7 +169,7 @@ Current user was not authorized to execute the method.
 
 If the method executed has input parameters, the [**InParameters**](swbemmethod-inparameters.md) object in the *objWbemInParam* parameter must be the same as the description in the [Constructing InParameters Objects and Parsing OutParameters Objects](constructing-inparameters-objects-and-parsing-outparameters-objects.md) topics.
 
-Use **SWbemServices.ExecMethodAsync** as an alternative to direct access for executing a [*provider method*](gloss-p.md#wmi-gloss-provider-method) when it is not possible to execute a method directly. For example, use it with a scripting language that does not support output parameters, that is, if your method has OUT parameters. Otherwise, it is recommended that you use direct access to invoke a method. For more information, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md).
+Use **SWbemServices.ExecMethodAsync** as an alternative to direct access for executing a [*provider method*](gloss-p.md) when it is not possible to execute a method directly. For example, use it with a scripting language that does not support output parameters, that is, if your method has OUT parameters. Otherwise, it is recommended that you use direct access to invoke a method. For more information, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md).
 
 The **SWbemServices.ExecMethodAsync** method requires an object path. If the script already contains an [**SWbemObject**](swbemobject.md) object, you can call [**SWbemObject.ExecMethodAsync**](swbemobject-execmethodasync-.md).
 

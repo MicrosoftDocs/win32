@@ -34,7 +34,7 @@ Geometry realizations, introduced in Windows 8.1, are a new type of drawing pri
 
 When [Direct2D](direct2d-portal.md) renders an [**ID2D1Geometry**](/windows/desktop/api/d2d1/) object, it must convert that geometry to a form the graphics hardware understands through a process called tessellation. Typically, Direct2D must tessellate geometry every frame it is drawn, even if the geometry does not change. If your app renders the same geometry every frame, then the repeated re-tessellation represents wasted computational effort. It is more computationally efficient to cache the tessellation, or even the full rasterization, of the geometry, and to draw that cached representation each frame instead of repeatedly re-tessellating.
 
-A common way that developers solve this problem is to cache the full rasterization of the geometry. In particular, it is common to create a new bitmap, rasterize the geometry to that bitmap, and then draw that bitmap to the scene as needed. (This approach is described in the [Geometry rendering](improving-direct2d-performance.md#geometry-rendering) section of Improving the performance of Direct2D apps.) While this approach is very computationally efficient, it has some drawbacks:
+A common way that developers solve this problem is to cache the full rasterization of the geometry. In particular, it is common to create a new bitmap, rasterize the geometry to that bitmap, and then draw that bitmap to the scene as needed. (This approach is described in the [Geometry rendering](improving-direct2d-performance.md) section of Improving the performance of Direct2D apps.) While this approach is very computationally efficient, it has some drawbacks:
 
 -   The cached bitmap is sensitive to changes in the transform applied to the scene. For example, scaling the rasterization can result in a noticeable scaling artifacts. Mitigating these artifacts with high-quality scaling algorithms can be computationally expensive.
 -   The cached bitmap consumes a significant amount of memory, especially if it is rasterized at a high resolution.
@@ -146,7 +146,7 @@ In addition, the app always creates realizations using a smaller tolerance than 
 [Improving the performance of Direct2D apps](improving-direct2d-performance.md)
 </dt> <dt>
 
-[General guidelines for rendering complex static content](improving-direct2d-performance.md#general-guidelines-for-rendering-complex-static-content)
+[General guidelines for rendering complex static content](improving-direct2d-performance.md)
 </dt> <dt>
 
 [**ID2D1DeviceContext1**](/windows/desktop/api/D2d1_2/)

@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="base.vssgloss_hardware_based_provider"></span><span id="BASE.VSSGLOSS_HARDWARE_BASED_PROVIDER"></span>**hardware provider**
 </dt> <dd>
 
-A provider that manages shadow copies at the hardware level by working in conjunction with a hardware storage adapter or controller. See also [*provider*](vssgloss-p.md#base-vssgloss-provider), [*software provider*](vssgloss-s.md#base-vssgloss-software-based-provider).
+A provider that manages shadow copies at the hardware level by working in conjunction with a hardware storage adapter or controller. See also [*provider*](vssgloss-p.md), [*software provider*](vssgloss-s.md).
 
 </dd> <dt>
 

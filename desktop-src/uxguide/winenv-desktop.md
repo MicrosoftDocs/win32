@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The desktop is the user's work area for their programs. It's not a way to promote awareness of your program or its brand. Don't abuse it!
 
-The desktop is the onscreen work area provided by Microsoft Windows, analogous to a physical desktop. It consists of a [work area](glossary.md#w) and [taskbar](winenv-taskbar.md). The work area may span multiple monitors.
+The desktop is the onscreen work area provided by Microsoft Windows, analogous to a physical desktop. It consists of a [work area](glossary.md) and [taskbar](winenv-taskbar.md). The work area may span multiple monitors.
 
 ![screen shot of a typical windows desktop ](images/winenv-desktop-image1.png)
 

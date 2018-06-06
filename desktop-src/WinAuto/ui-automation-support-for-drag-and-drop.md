@@ -37,33 +37,33 @@ When you implement the [Drag](https://msdn.microsoft.com/library/windows/desktop
 
 In the source/target style of drag-and-drop, the dragged element (the "source") and the drop-target element (the "target") are distinct, and each raises a distinct set of events. Here's the life cycle for a drag operation that uses the source/target style: <dl> When the user starts a drag operation:
 
--   The source raises the DragStart ([**UIA\_Drag\_DragStartEventId**](uiauto-event-ids.md#uia-drag-dragstarteventid)) event.
+-   The source raises the DragStart ([**UIA\_Drag\_DragStartEventId**](uiauto-event-ids.md)) event.
 -   The source sets the [**IDragProvider::IsGrabbed**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idragprovider-get_isgrabbed) property to **TRUE**.
 -   Targets update their [**DropTargetEffect**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idroptargetprovider-get_droptargeteffect) properties.
 
   
 When the drag operation enters a target region:
 
--   The target raises the DragEnter ([**UIA\_DropTarget\_DragEnterEventId**](uiauto-event-ids.md#uia-droptarget-dragentereventid)) event.
+-   The target raises the DragEnter ([**UIA\_DropTarget\_DragEnterEventId**](uiauto-event-ids.md)) event.
 
   
 When the drag operation leaves a target region:
 
--   The target raises the DragLeave ([**UIA\_DropTarget\_DragLeaveEventId**](uiauto-event-ids.md#uia-droptarget-dragleaveeventid)) event.
+-   The target raises the DragLeave ([**UIA\_DropTarget\_DragLeaveEventId**](uiauto-event-ids.md)) event.
 
   
 When the user releases the dragged item over a non-target:
 
--   The source raises the DragCancel ([**UIA\_Drag\_DragCancelEventId**](uiauto-event-ids.md#uia-drag-dragcanceleventid)) event.
+-   The source raises the DragCancel ([**UIA\_Drag\_DragCancelEventId**](uiauto-event-ids.md)) event.
 -   The source sets the [**IDragProvider::IsGrabbed**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idragprovider-get_isgrabbed) property to **FALSE**.
 
   
 When the user releases the dragged item over a target:
 
--   The source raises the DragComplete ([**UIA\_Drag\_DragCompleteEventId**](uiauto-event-ids.md#uia-drag-dragcompleteeventid)) event.
+-   The source raises the DragComplete ([**UIA\_Drag\_DragCompleteEventId**](uiauto-event-ids.md)) event.
 -   The source sets the [**IDragProvider::IsGrabbed**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idragprovider-get_isgrabbed) property to **FALSE**.
 -   The target sets the [**IDropTargetProvider::DropTargetEffect**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idroptargetprovider-get_droptargeteffect) property to indicate the effect that occurred.
--   The target raises the Dropped ([**UIA\_DropTarget\_DroppedEventId**](uiauto-event-ids.md#uia-drag-dragcanceleventid)) event.
+-   The target raises the Dropped ([**UIA\_DropTarget\_DroppedEventId**](uiauto-event-ids.md)) event.
 
   
 </dl>
@@ -78,7 +78,7 @@ Any drop target that needs to update its [**IDropTargetProvider::DropTargetEffec
 
 The source-only dragging style lets a provider avoid implementing drop targets. Not implementing drop targets helps lower the implementation cost, but does not give accessibility client applications any information about the object that received the drop. Here's the life cycle for a drag operation that uses the source-only style: <dl> When the user starts a drag operation:
 
--   The source raises the DragStart ([**UIA\_Drag\_DragStartEventId**](uiauto-event-ids.md#uia-drag-dragstarteventid)) event.
+-   The source raises the DragStart ([**UIA\_Drag\_DragStartEventId**](uiauto-event-ids.md)) event.
 -   The source sets the [**IDragProvider::IsGrabbed**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idragprovider-get_isgrabbed) property to **TRUE**.
 
   
@@ -94,13 +94,13 @@ When the drag operation leaves a target region:
   
 When the user releases the dragged item over a non-target:
 
--   The source raises the DragCancel ([**UIA\_Drag\_DragCancelEventId**](uiauto-event-ids.md#uia-drag-dragcanceleventid)) event.
+-   The source raises the DragCancel ([**UIA\_Drag\_DragCancelEventId**](uiauto-event-ids.md)) event.
 -   The source sets the [**IDragProvider::IsGrabbed**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idragprovider-get_isgrabbed) property to **FALSE**.
 
   
 When the user releases the dragged item over a target:
 
--   The source raises the DragComplete ([**UIA\_Drag\_DragCompleteEventId**](uiauto-event-ids.md#uia-drag-dragcompleteeventid)) event.
+-   The source raises the DragComplete ([**UIA\_Drag\_DragCompleteEventId**](uiauto-event-ids.md)) event.
 -   The source sets the [**IDragProvider::DropEffect**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idragprovider-get_dropeffect) property to indicate the effect that took place when the item was dropped.
 
   
@@ -111,7 +111,7 @@ When the user releases the dragged item over a target:
 If a provider implements drag-and-drop operations where the user can drag multiple objects at the same time, the provider uses the source/target or source-only styles as described in the previous section, but with a small difference. When the user begins the drag operation, the provider creates a master source element that represents the full set of items that are being dragged. The master source element raises all events on behalf of the set of dragged items; the items don't raise any events of their own.<dl> When the user starts a drag operation:
 
 -   The provider creates the master source element.
--   The master source element raises the DragStart ([**UIA\_Drag\_DragStartEventId**](uiauto-event-ids.md#uia-drag-dragstarteventid)) event.
+-   The master source element raises the DragStart ([**UIA\_Drag\_DragStartEventId**](uiauto-event-ids.md)) event.
 -   The master source element sets the [**IDragProvider::IsGrabbed**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idragprovider-get_isgrabbed) property to **TRUE**.
 -   The master source element updates the list of grabbed items to include all items being dragged so that the [**GetGrabbedItems**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idragprovider-getgrabbeditems) method can retrieve the list.
 

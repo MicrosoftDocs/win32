@@ -96,7 +96,7 @@ Tips should be placed near the object being hovered, usually at the pointer's ta
 
 ### Accessibility
 
-Tips have an unusual effect on accessibility. While they are normally triggered by hovering the pointer over an object, tips are handled by [screen readers](inter-accessibility.md#types-of-impairments) for controls with keyboard access. When used appropriately for concise, helpful, static, supplemental information, tips can improve overall accessibility. In fact, the alt text tip pattern is the preferred way to make graphics accessible. However, when used inappropriately, they harm accessibility by making important or dynamic information harder to obtain.
+Tips have an unusual effect on accessibility. While they are normally triggered by hovering the pointer over an object, tips are handled by [screen readers](inter-accessibility.md) for controls with keyboard access. When used appropriately for concise, helpful, static, supplemental information, tips can improve overall accessibility. In fact, the alt text tip pattern is the preferred way to make graphics accessible. However, when used inappropriately, they harm accessibility by making important or dynamic information harder to obtain.
 
 Provide more than one way to access a control if that control requires a tip that doesn't have keyboard access.
 
@@ -186,7 +186,7 @@ Tips have several usage patterns:
 -   Use sentence fragments without ending punctuation.
 -   Use sentence-style capitalization.
     -   **Exception:** This guideline is new for Windows Vista. For legacy applications, you may use title-style capitalization if necessary to avoid mixing capitalization styles.
--   Add an [ellipsis](ctrl-command-buttons.md#design-concepts) if the label is for a command that needs additional information.
+-   Add an [ellipsis](ctrl-command-buttons.md) if the label is for a command that needs additional information.
 -   As with normal labels, **keep tooltips brief** typically five words or less but prefer specific labels over vague ones.
 
     **Acceptable:**
@@ -238,7 +238,7 @@ Tips have several usage patterns:
 -   **For infotips in nonstandard places, favor consistency over helpfulness to improve discoverability.** Provide tips for all objects for which users are likely to want supplemental information, even if a few infotips might be obvious. Doing so avoids having users wait for an infotip that will never come.
     -   **Exception:** If only a few objects have helpful infotips, don't use infotips at all. Rather, use self-explanatory control labels or in-place supplemental text instead.
 -   Use full sentences with ending punctuation.
-    -   **Exception:** Notification area [icon infotips](winenv-notification.md#context-menus) don't use ending punctuation.
+    -   **Exception:** Notification area [icon infotips](winenv-notification.md) don't use ending punctuation.
 -   Use sentence-style capitalization.
 -   Use present tense, not future.
 -   Use parallel grammatical constructions. Parallelism requires that words and phrases that have the same function have the same form.

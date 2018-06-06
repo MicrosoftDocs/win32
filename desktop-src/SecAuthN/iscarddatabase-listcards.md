@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **ListCards** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **ListCards** method retrieves all of the smart card names that match the specified interface identifiers (GUIDs), the specified [*ATR string*](security.a_gly#-security-atr-string-gly), or both.
+The **ListCards** method retrieves all of the smart card names that match the specified interface identifiers (GUIDs), the specified [*ATR string*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02), or both.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ HRESULT ListCards(
 *pAtr* \[in\]
 </dt> <dd>
 
-Pointer to a [*smart card*](security.s_gly#-security-smart-card-gly) ATR string. The ATR string must be packaged into an [**IByteBuffer**](ibytebuffer.md).
+Pointer to a [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) ATR string. The ATR string must be packaged into an [**IByteBuffer**](ibytebuffer.md).
 
 </dd> <dt>
 
@@ -80,13 +80,13 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-To retrieve all known [*readers*](security.r_gly#-security-reader-gly) or [*reader*](security.r_gly#-security-reader-group-gly), call [**ListReaders**](iscarddatabase-listreaders.md) or [**ListReaderGroups**](iscarddatabase-listreadergroups.md) respectively.
+To retrieve all known [*readers*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd) or [*reader*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd), call [**ListReaders**](iscarddatabase-listreaders.md) or [**ListReaderGroups**](iscarddatabase-listreadergroups.md) respectively.
 
-To retrieve the [*primary service*](security.p_gly#-security-primary-service-provider-gly) or the interfaces of a specific card [**GetProviderCardId**](iscarddatabase-getprovidercardid.md) or [**ListCardInterfaces**](iscarddatabase-listcardinterfaces.md) respectively.
+To retrieve the [*primary service*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) or the interfaces of a specific card [**GetProviderCardId**](iscarddatabase-getprovidercardid.md) or [**ListCardInterfaces**](iscarddatabase-listcardinterfaces.md) respectively.
 
 For a list of all the methods provided by this interface, see [**ISCardDatabase**](iscarddatabase.md).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Examples
 

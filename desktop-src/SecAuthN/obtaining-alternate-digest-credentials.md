@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Obtaining Alternate Digest Credentials
 
-To obtain [*credentials*](security.c_gly#-security-credentials-gly) other than those associated with the current logon [*session*](security.s_gly#-security-session-gly), populate a [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/desktop/api/Rpcdce/ns-sspi-_sec_winnt_auth_identity_a) structure with information for the alternate [*security principal*](security.s_gly#-security-security-principal-gly). Pass the structure to the [**AcquireCredentialsHandle**](/windows/desktop/api/Sspi/) function using the *pAuthData* parameter.
+To obtain [*credentials*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) other than those associated with the current logon [*session*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50), populate a [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/desktop/api/Rpcdce/ns-sspi-_sec_winnt_auth_identity_a) structure with information for the alternate [*security principal*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50). Pass the structure to the [**AcquireCredentialsHandle**](/windows/desktop/api/Sspi/) function using the *pAuthData* parameter.
 
 The following table describes the members of the [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/desktop/api/Rpcdce/ns-sspi-_sec_winnt_auth_identity_a) structure.
 
@@ -25,7 +25,7 @@ The following table describes the members of the [**SEC\_WINNT\_AUTH\_IDENTITY**
 | **DomainLength**   | The length of the **Domain** member, in characters. Omit the terminating null.                                                       |
 | **Password**       | Null-terminated string containing the password of the security principal.                                                            |
 | **PasswordLength** | The length of the **Password** member, in characters. Omit the terminating null.                                                     |
-| **Flags**          | Indicates whether the string members are in ANSI or [*Unicode*](security.u_gly#-security-unicode-gly) format.  |
+| **Flags**          | Indicates whether the string members are in ANSI or [*Unicode*](https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb) format.  |
 
 
 
@@ -38,7 +38,7 @@ The following table lists the valid values for the **Flags** member of the struc
 | Constant                            | Description                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | SEC\_WINNT\_AUTH\_IDENTITY\_ANSI    | Strings in this structure are in ANSI format.                                                                    |
-| SEC\_WINNT\_AUTH\_IDENTITY\_UNICODE | Strings in this structure are in [*Unicode*](security.u_gly#-security-unicode-gly) format. |
+| SEC\_WINNT\_AUTH\_IDENTITY\_UNICODE | Strings in this structure are in [*Unicode*](https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb) format. |
 
 
 

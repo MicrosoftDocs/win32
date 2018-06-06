@@ -32,7 +32,7 @@ The dialog box also contains a list box (IDLIST) and two buttons: **OK** (IDOK) 
 
 ### Step 1: Create the Owner-Drawn Dialog Box
 
-The code example uses the [**DialogBox**](https://msdn.microsoft.com/library/windows/desktop/ms645452) function to create a modal dialog box. The dialog box template, IDD\_SQMEAL, defines the window styles, buttons, and control identifiers for the combo box. The combo box in this example uses the [**CBS\_DROPDOWNLIST**](combo-box-styles.md#cbs-dropdownlist), [**CBS\_OWNERDRAWFIXED**](combo-box-styles.md#cbs-ownerdrawfixed), [**CBS\_SORT**](combo-box-styles.md#cbs-sort), [**CBS\_HASSTRINGS**](combo-box-styles.md#cbs-hasstrings), [**WS\_VSCROLL**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-vscroll), and [**WS\_TABSTOP**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-tabstop) styles.
+The code example uses the [**DialogBox**](https://msdn.microsoft.com/library/windows/desktop/ms645452) function to create a modal dialog box. The dialog box template, IDD\_SQMEAL, defines the window styles, buttons, and control identifiers for the combo box. The combo box in this example uses the [**CBS\_DROPDOWNLIST**](combo-box-styles.md), [**CBS\_OWNERDRAWFIXED**](combo-box-styles.md), [**CBS\_SORT**](combo-box-styles.md), [**CBS\_HASSTRINGS**](combo-box-styles.md), [**WS\_VSCROLL**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-vscroll), and [**WS\_TABSTOP**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-tabstop) styles.
 
 
 ```C++
@@ -89,7 +89,7 @@ case WM_DESTROY:
 
 ### Step 3: Process the WM\_MEASUREITEM message.
 
-An owner-drawn combo box sends the [**WM\_MEASUREITEM**](wm-measureitem.md) message to its parent window or dialog box procedure so that the application can set the dimensions of each list item. Because the example combo box has the [**CBS\_OWNERDRAWFIXED**](combo-box-styles.md#cbs-ownerdrawfixed) style, the system sends the **WM\_MEASUREITEM** message only once. Combo boxes with the [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style send a **WM\_MEASUREITEM** message for each list item.
+An owner-drawn combo box sends the [**WM\_MEASUREITEM**](wm-measureitem.md) message to its parent window or dialog box procedure so that the application can set the dimensions of each list item. Because the example combo box has the [**CBS\_OWNERDRAWFIXED**](combo-box-styles.md) style, the system sends the **WM\_MEASUREITEM** message only once. Combo boxes with the [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md) style send a **WM\_MEASUREITEM** message for each list item.
 
 The *lParam* parameter is a pointer to a [**MEASUREITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagmeasureitemstruct) structure that identifies the control and list item. It also contains the default dimensions of the list item. The example modifies the **itemHeight** structure member to ensure that the list items are high enough to accommodate the food-group bitmaps.
 
@@ -113,7 +113,7 @@ case WM_MEASUREITEM:
 
 An owner-drawn combo box sends the [**WM\_DRAWITEM**](wm-drawitem.md) message to its parent window or dialog box procedure each time the application must repaint a list item. The *lParam* parameter is a pointer to a [**DRAWITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure that identifies the control and list item. It also contains information needed to paint the item.
 
-The example application displays the list-item text and the bitmap associated with the food group. If the item has the focus, it also draws a focus rectangle. Before displaying the text, the example sets the foreground and background colors, based on the item selected. Because the combo box has the [**CBS\_HASSTRINGS**](combo-box-styles.md#cbs-hasstrings) style, the combo box maintains the text for each list item that can be retrieved using the [**CB\_GETLBTEXT**](cb-getlbtext.md) message.
+The example application displays the list-item text and the bitmap associated with the food group. If the item has the focus, it also draws a focus rectangle. Before displaying the text, the example sets the foreground and background colors, based on the item selected. Because the combo box has the [**CBS\_HASSTRINGS**](combo-box-styles.md) style, the combo box maintains the text for each list item that can be retrieved using the [**CB\_GETLBTEXT**](cb-getlbtext.md) message.
 
 The bitmaps used for the list item depend on the food group. `InitGroupList` uses the [**CB\_SETITEMDATA**](cb-setitemdata.md) message to associate a bitmap handle with each list item. The window procedure retrieves the bitmap handle from the **itemData** member of the [**DRAWITEMSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct) structure. The system uses two bitmaps for each food group symbol: a monochrome bitmap with the SRCAND raster operation to erase the irregular region behind the image, and a color bitmap with the SRCPAINT raster operation to paint the image.
 

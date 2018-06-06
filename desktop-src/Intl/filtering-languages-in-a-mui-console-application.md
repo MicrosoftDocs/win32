@@ -15,7 +15,7 @@ A MUI console application can support either system settings or application-spec
 
 ## Limit the Languages to Display
 
-Unlike a graphical window, the Windows console cannot display [complex scripts](uniscribe-glossary.md#complex-script), such as Arabic, Hebrew, Persian, Hindi, Urdu, Thai, and many others. Therefore, many user interface languages cannot be displayed by the console under any circumstances.
+Unlike a graphical window, the Windows console cannot display [complex scripts](uniscribe-glossary.md), such as Arabic, Hebrew, Persian, Hindi, Urdu, Thai, and many others. Therefore, many user interface languages cannot be displayed by the console under any circumstances.
 
 The console can display only characters from the single [OEM code page](code-pages.md) associated with the current language for non-Unicode applications. For each OEM code page, the console uses a particular font, and this might not provide full coverage for that code page.
 

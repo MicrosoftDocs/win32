@@ -55,7 +55,7 @@ To uniquely identify an item, take the index that is returned from a call such a
 
 If you need the index of an item after an ID is created you can call **LVM\_MAPIDTOINDEX** with the unique ID and it returns the most current index.
 
-**LVM\_MAPIDTOINDEX** is not supported under the [**LVS\_OWNERDATA**](list-view-window-styles.md#lvs-ownerdata) style.
+**LVM\_MAPIDTOINDEX** is not supported under the [**LVS\_OWNERDATA**](list-view-window-styles.md) style.
 
 > [!Note]  
 > In a multithreaded environment, the index is only guaranteed on the thread that hosts the list-view control, not on background threads.

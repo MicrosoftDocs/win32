@@ -34,7 +34,7 @@ Selectable components with a selectable ancestor may be included explicitly, or 
 <span id="base.vssgloss_exposed_shadow_copy"></span><span id="BASE.VSSGLOSS_EXPOSED_SHADOW_COPY"></span>**exposed shadow copy**
 </dt> <dd>
 
-A volume shadow copy that is mounted on a system and available to processes other than the one that manages it. A shadow copy volume mounted under a drive letter or a directory location is referred to as "locally exposed." A shadow copy volume accessible through a share (except for client-accessible shadow copies) is referred to as "remotely exposed." All exposed shadow copies are also surfaced shadow copies. See also [*client accessible shadow copy*](vssgloss-c.md#base-vssgloss-client-accessible-shadow-copy), [*shadow copy*](vssgloss-s.md#base-vssgloss-shadow-copy).
+A volume shadow copy that is mounted on a system and available to processes other than the one that manages it. A shadow copy volume mounted under a drive letter or a directory location is referred to as "locally exposed." A shadow copy volume accessible through a share (except for client-accessible shadow copies) is referred to as "remotely exposed." All exposed shadow copies are also surfaced shadow copies. See also [*client accessible shadow copy*](vssgloss-c.md), [*shadow copy*](vssgloss-s.md).
 
 </dd> </dl>
 

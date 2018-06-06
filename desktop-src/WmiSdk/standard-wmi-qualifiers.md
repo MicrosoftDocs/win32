@@ -250,7 +250,7 @@ Data type: **boolean**
 
 Applies to: namespace instances
 
-If set to **TRUE**, **RequiresEncryption** marks a namespace so that client applications and scripts must connect with encrypted authentication. The authentication level must be set to **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** in C++. In scripting or Visual Basic, authentication level must be set to **WbemAuthenticationLevelPktPrivacy**. For more information, see [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md). The qualifier is used in [*MOF*](gloss-m.md#wmi-gloss-managed-object-format) with the pragma namespace preprocessor command.
+If set to **TRUE**, **RequiresEncryption** marks a namespace so that client applications and scripts must connect with encrypted authentication. The authentication level must be set to **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** in C++. In scripting or Visual Basic, authentication level must be set to **WbemAuthenticationLevelPktPrivacy**. For more information, see [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md). The qualifier is used in [*MOF*](gloss-m.md) with the pragma namespace preprocessor command.
 
 For more information, see [Setting the Default Process Security Level Using C++](setting-the-default-process-security-level-using-c-.md) or [Setting the Default Process Security Level Using VBScript](setting-the-default-process-security-level-using-vbscript.md). Scripting authentication levels are defined in [**WbemAuthenticationLevelEnum**](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemauthenticationlevelenum).
 

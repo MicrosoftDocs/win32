@@ -83,7 +83,7 @@ Some of these rules are a single option where IEEE-754 offers choices.
 
 ## 64-bit (double precision) floating point rules
 
-Hardware and display drivers optionally support double-precision floating-point. To indicate support, when you call [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) with [**D3D11\_FEATURE\_DOUBLES**](d3d11-feature.md#d3d11-feature-doubles), the driver sets **DoublePrecisionFloatShaderOps** of [**D3D11\_FEATURE\_DATA\_DOUBLES**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_doubles) to TRUE. The driver and hardware must then support all double-precision floating-point instructions.
+Hardware and display drivers optionally support double-precision floating-point. To indicate support, when you call [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) with [**D3D11\_FEATURE\_DOUBLES**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature), the driver sets **DoublePrecisionFloatShaderOps** of [**D3D11\_FEATURE\_DATA\_DOUBLES**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_doubles) to TRUE. The driver and hardware must then support all double-precision floating-point instructions.
 
 Double-precision instructions follow IEEE 754R behavior requirements.
 

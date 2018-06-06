@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Subauthentication Packages
 
-The [*authentication packages*](security.a_gly#-security-authentication-package-gly) provided with Windows support customization using [*subauthentication packages*](security.s_gly#-security-subauthentication-package-gly). A subauthentication package is a DLL that supplements or replaces part of the authentication and validation criteria used by the main authentication package. For example, a particular server might supply a subauthentication package that validates a user's password with a different algorithm or specifies workstation restrictions in a different format.
+The [*authentication packages*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) provided with Windows support customization using [*subauthentication packages*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50). A subauthentication package is a DLL that supplements or replaces part of the authentication and validation criteria used by the main authentication package. For example, a particular server might supply a subauthentication package that validates a user's password with a different algorithm or specifies workstation restrictions in a different format.
 
 For more information about subauthentication packages, see the SubAuth sample installed with the Platform Software Development Kit (SDK).
 

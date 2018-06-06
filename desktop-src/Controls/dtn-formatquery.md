@@ -51,7 +51,7 @@ The owner of the control must calculate the maximum possible width of the text t
 
 ## Remarks
 
-Handling this notification code prepares the control to adjust for the maximum size of the string that will be displayed in a particular callback field. This enables the control to properly display output at all times, reducing flicker within the control's display. (For additional information about callback fields, see [Callback fields](date-and-time-picker-controls.md#callback-fields).)
+Handling this notification code prepares the control to adjust for the maximum size of the string that will be displayed in a particular callback field. This enables the control to properly display output at all times, reducing flicker within the control's display. (For additional information about callback fields, see [Callback fields](date-and-time-picker-controls.md).)
 
 ## Requirements
 

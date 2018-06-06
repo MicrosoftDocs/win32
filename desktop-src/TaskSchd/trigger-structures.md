@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 Task Scheduler 1.0 uses several structures to define the criteria of a trigger.
 
 > [!Note]  
-> For more information about Task Scheduler 2.0 triggers, see [Trigger Interfaces](trigger-interfaces.md#).
+> For more information about Task Scheduler 2.0 triggers, see [Trigger Interfaces](trigger-interfaces.md).
 
  
 

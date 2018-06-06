@@ -49,7 +49,7 @@ Title bars support the following [**IAccessible**](/windows/desktop/api/oleacc/n
 <tbody>
 <tr class="odd">
 <td>[<strong>get_accChildCount</strong>](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount)</td>
-<td>The <strong>ChildCount</strong> property is five. The <strong>ChildCount</strong> property includes the IME and context-sensitive Help buttons even when they are not displayed. Buttons that are not displayed have the <strong>State</strong> property [<strong>STATE_SYSTEM_INVISIBLE</strong>](object-state-constants.md#state-system-invisible).</td>
+<td>The <strong>ChildCount</strong> property is five. The <strong>ChildCount</strong> property includes the IME and context-sensitive Help buttons even when they are not displayed. Buttons that are not displayed have the <strong>State</strong> property [<strong>STATE_SYSTEM_INVISIBLE</strong>](object-state-constants.md).</td>
 </tr>
 <tr class="even">
 <td><strong>get_accDescription</strong></td>
@@ -76,15 +76,15 @@ Title bars support the following [**IAccessible**](/windows/desktop/api/oleacc/n
 </tr>
 <tr class="even">
 <td><strong>get_accParent</strong></td>
-<td>The <strong>Parent</strong> property of the title bar is the main application window ( [<strong>ROLE_SYSTEM_WINDOW</strong>](object-roles.md#role-system-window) ) that has the same application-defined window class name as the title bar.</td>
+<td>The <strong>Parent</strong> property of the title bar is the main application window ( [<strong>ROLE_SYSTEM_WINDOW</strong>](object-roles.md) ) that has the same application-defined window class name as the title bar.</td>
 </tr>
 <tr class="odd">
 <td><strong>get_accRole</strong></td>
-<td>The <strong>Role</strong> property is [<strong>ROLE_SYSTEM_TITLEBAR</strong>](object-roles.md#role-system-titlebar). The child buttons in the title bar have the <strong>Role</strong> property [<strong>ROLE_SYSTEM_PUSHBUTTON</strong>](object-roles.md#role-system-pushbutton).</td>
+<td>The <strong>Role</strong> property is [<strong>ROLE_SYSTEM_TITLEBAR</strong>](object-roles.md). The child buttons in the title bar have the <strong>Role</strong> property [<strong>ROLE_SYSTEM_PUSHBUTTON</strong>](object-roles.md).</td>
 </tr>
 <tr class="even">
 <td><strong>get_accState</strong></td>
-<td>The <strong>State</strong> property for the title bar and the child buttons can be a combination of one or more of the following [values](object-state-constants.md): [<strong>STATE_SYSTEM_FOCUSABLE</strong>](object-state-constants.md#state-system-focusable) | [<strong>STATE_SYSTEM_INVISIBLE</strong>](object-state-constants.md#state-system-invisible) | [<strong>STATE_SYSTEM_OFFSCREEN</strong>](object-state-constants.md#state-system-offscreen) | [<strong>STATE_SYSTEM_UNAVAILABLE</strong>](object-state-constants.md#state-system-unavailable) | [<strong>STATE_SYSTEM_PRESSED</strong>](object-state-constants.md#state-system-pressed)<br/></td>
+<td>The <strong>State</strong> property for the title bar and the child buttons can be a combination of one or more of the following [values](object-state-constants.md): [<strong>STATE_SYSTEM_FOCUSABLE</strong>](object-state-constants.md) | [<strong>STATE_SYSTEM_INVISIBLE</strong>](object-state-constants.md) | [<strong>STATE_SYSTEM_OFFSCREEN</strong>](object-state-constants.md) | [<strong>STATE_SYSTEM_UNAVAILABLE</strong>](object-state-constants.md) | [<strong>STATE_SYSTEM_PRESSED</strong>](object-state-constants.md)<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>get_accValue</strong></td>
@@ -99,7 +99,7 @@ Title bars support the following [**IAccessible**](/windows/desktop/api/oleacc/n
 
 ## Notes
 
--   Although an application's title bar has the **State** property flag [**STATE\_SYSTEM\_FOCUSABLE**](object-state-constants.md#state-system-focusable), it never has the **State** flag [**STATE\_SYSTEM\_FOCUSED**](object-state-constants.md#state-system-focused). Setting focus to a title bar object focuses the application window.
+-   Although an application's title bar has the **State** property flag [**STATE\_SYSTEM\_FOCUSABLE**](object-state-constants.md), it never has the **State** flag [**STATE\_SYSTEM\_FOCUSED**](object-state-constants.md). Setting focus to a title bar object focuses the application window.
 -   Because the title bar object does not support [**get\_accChild**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchild), the buttons on the title bar are simple elements. They do not support the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface themselves. The title bar object provides information about these child buttons.
 -   Because title bars do not get focus and have no default action, the [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) and [**get\_accDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accdefaultaction) methods are not supported for this control.
 

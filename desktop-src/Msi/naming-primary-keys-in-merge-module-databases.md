@@ -21,7 +21,7 @@ The names of primary keys a merge module database must adhere to a standard nami
 
 For example, do not use for the primary key of the MIME table because this is the MIME type and applying the naming procedure would change its meaning. In these cases, name conflicts depend on the meaning of the data being unique across modules.
 
-The name of a primary key in a merge module must consist of a readable name appended with a string made from the merge module's GUID. Every merge module must have its own [*GUID*](g-gly.md#-msi-globally-unique-identifier-gly). The merge module's GUID should also be authored into the [**Revision Number Summary**](revision-number-summary.md) property of the merge module. Developers can create GUIDs using a utility such as GUIDGEN.
+The name of a primary key in a merge module must consist of a readable name appended with a string made from the merge module's GUID. Every merge module must have its own [*GUID*](g-gly.md). The merge module's GUID should also be authored into the [**Revision Number Summary**](revision-number-summary.md) property of the merge module. Developers can create GUIDs using a utility such as GUIDGEN.
 
 The following procedure describes how to generate a primary database key that adheres to the standard naming convention. Apply the following procedure only to tables where the primary key is not data being installed.
 

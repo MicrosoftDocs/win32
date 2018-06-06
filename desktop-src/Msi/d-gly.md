@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_msi_database_function_gly"></span><span id="_MSI_DATABASE_FUNCTION_GLY"></span>**database function**
 </dt> <dd>
 
-Accesses the installer database. These functions are provided primarily for use by [*installer package authoring tools*](i-gly.md#-msi-installer-package-authoring-tool-gly) and they are not intended to be used to call installer services. For more information, see [Database Functions](database-functions.md) and the [Installer Function Reference](installer-function-reference.md).
+Accesses the installer database. These functions are provided primarily for use by [*installer package authoring tools*](i-gly.md) and they are not intended to be used to call installer services. For more information, see [Database Functions](database-functions.md) and the [Installer Function Reference](installer-function-reference.md).
 
 </dd> <dt>
 

@@ -40,14 +40,14 @@ A base content type defined by PKCS \#7. Data content is simply an octet (byte) 
 <span id="_security_data_encryption_gly"></span><span id="_SECURITY_DATA_ENCRYPTION_GLY"></span>**data encryption**
 </dt> <dd>
 
-See [*encryption*](e-gly.md#-security-encryption-gly).
+See [*encryption*](e-gly.md).
 
 </dd> <dt>
 
 <span id="_security_data_encryption_function_gly"></span><span id="_SECURITY_DATA_ENCRYPTION_FUNCTION_GLY"></span>**data encryption function**
 </dt> <dd>
 
-See [*encryption and decryption functions*](e-gly.md#-security-encryption-and-decryption-functions-gly).
+See [*encryption and decryption functions*](e-gly.md).
 
 </dd> <dt>
 
@@ -164,7 +164,7 @@ A data content type defined by PKCS \#7 that consists of any type of data plus a
 <span id="_security_digital_certificate_gly"></span><span id="_SECURITY_DIGITAL_CERTIFICATE_GLY"></span>**digital certificate**
 </dt> <dd>
 
-See [*certificate*](c-gly.md#-security-certificate-gly).
+See [*certificate*](c-gly.md).
 
 </dd> <dt>
 
@@ -192,7 +192,7 @@ Data that binds a sender's identity to the information being sent. A digital sig
 <span id="_security_digital_signature_key_pair_gly"></span><span id="_SECURITY_DIGITAL_SIGNATURE_KEY_PAIR_GLY"></span>**digital signature key pair**
 </dt> <dd>
 
-See [*signature key pair*](s-gly.md#-security-signature-key-pair-gly).
+See [*signature key pair*](s-gly.md).
 
 </dd> <dt>
 
@@ -208,7 +208,7 @@ See [*signature key pair*](s-gly.md#-security-signature-key-pair-gly).
 
 (DACL) An access control list that is controlled by the owner of an object and that specifies the access particular users or groups can have to the object.
 
-See also [*access control list*](a-gly.md#-security-access-control-list-gly) and [*system access control list*](s-gly.md#-security-system-access-control-list-gly).
+See also [*access control list*](a-gly.md) and [*system access control list*](s-gly.md).
 
 </dd> <dt>
 

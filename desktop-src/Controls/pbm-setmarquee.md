@@ -48,7 +48,7 @@ Use this message when you do not know the amount of progress toward completion b
 Send the **PBM\_SETMARQUEE** message to start or stop the animation.
 
 > [!Note]  
-> You must set the control style to [**PBS\_MARQUEE**](progress-bar-control-styles.md#pbs-marquee) before attempting to start the animation.
+> You must set the control style to [**PBS\_MARQUEE**](progress-bar-control-styles.md) before attempting to start the animation.
 
  
 

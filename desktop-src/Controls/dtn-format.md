@@ -51,7 +51,7 @@ The owner of the control must return zero.
 
 ## Remarks
 
-Handling this notification code allows the owner of the control to provide a custom string that the control will display. (For additional information about callback fields, see [Callback fields](date-and-time-picker-controls.md#callback-fields).)
+Handling this notification code allows the owner of the control to provide a custom string that the control will display. (For additional information about callback fields, see [Callback fields](date-and-time-picker-controls.md).)
 
 ## Requirements
 

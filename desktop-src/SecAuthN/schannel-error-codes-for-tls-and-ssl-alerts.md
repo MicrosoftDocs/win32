@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Schannel Error Codes for TLS and SSL Alerts
 
-[*Schannel*](security.s_gly#-security-schannel-gly) returns the following error messages when the corresponding alert is received from the [*Transport Layer Security*](security.t_gly#-security-transport-layer-security-protocol-gly) (TLS) or [*Secure Sockets Layer*](security.s_gly#-security-secure-sockets-layer-protocol-gly) (SSL) protocols. The error messages are defined in Winerror.h.
+[*Schannel*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) returns the following error messages when the corresponding alert is received from the [*Transport Layer Security*](https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f) (TLS) or [*Secure Sockets Layer*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SSL) protocols. The error messages are defined in Winerror.h.
 
 
 

@@ -30,7 +30,7 @@ When implementing [*password filter*](https://msdn.microsoft.com/library/windows
 |-------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | How to install and register your own [*password filter*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-password-filter-gly) DLL. | [Installing and Registering a Password Filter DLL](installing-and-registering-a-password-filter-dll.md) |
 | The password filter DLL provided by Microsoft.                                                                                            | [Strong Password Enforcement and Passfilt.dll](strong-password-enforcement-and-passfilt-dll.md)         |
-| Export functions implemented by a password filter DLL.                                                                                    | [Password Filter Functions](management-functions.md#password-filter-functions)                          |
+| Export functions implemented by a password filter DLL.                                                                                    | [Password Filter Functions](management-functions.md)                          |
 
 
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # File Level Schema Support
 
-Writers can fine-tune the performance of various types of backup at the [*file set*](vssgloss-f.md#base-vssgloss-file-set) level by indicating through a file specification backup type, indicated by a bit mask or bitwise OR of the members of the [**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type) enumeration.
+Writers can fine-tune the performance of various types of backup at the [*file set*](vssgloss-f.md) level by indicating through a file specification backup type, indicated by a bit mask or bitwise OR of the members of the [**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type) enumeration.
 
 For specified types of backup, the writer indicates the following:
 

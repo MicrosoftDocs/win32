@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_msi_basic_ui_gly"></span><span id="_MSI_BASIC_UI_GLY"></span>**basic UI**
 </dt> <dd>
 
-One level of the installer's [*internal user interface*](i-gly.md#-msi-internal-user-interface-gly) capabilities. The basic user interface (UI) level supports a UI for the installation that has simple progress and error handling. For more information about user interface levels, see [User Interface Levels](user-interface-levels.md).
+One level of the installer's [*internal user interface*](i-gly.md) capabilities. The basic user interface (UI) level supports a UI for the installation that has simple progress and error handling. For more information about user interface levels, see [User Interface Levels](user-interface-levels.md).
 
 </dd> </dl>
 

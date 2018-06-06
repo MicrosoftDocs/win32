@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 <span id="_tsf_anchor_gly"></span><span id="_TSF_ANCHOR_GLY"></span>**anchor**
 </dt> <dd>
 
-One of a set of elements that mark the start and end of a range of text. See [Anchors](ranges.md#anchors).
+One of a set of elements that mark the start and end of a range of text. See [Anchors](ranges.md).
 
 </dd> <dt>
 

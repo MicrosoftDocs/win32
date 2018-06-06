@@ -18,7 +18,7 @@ You implement the SysLink control's hyperlinks through markup in the control's i
 
  
 
-To create a SysLink, call the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the [**WC\_LINK**](common-control-window-classes.md#wc-link) window class. The *lpWindowName* parameter that is common to these functions specifies a pointer to a zero-terminated string that contains the marked-up text to display. For window styles particular to SysLink controls, see [SysLink Control Styles](syslink-control-styles.md).
+To create a SysLink, call the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the [**WC\_LINK**](common-control-window-classes.md) window class. The *lpWindowName* parameter that is common to these functions specifies a pointer to a zero-terminated string that contains the marked-up text to display. For window styles particular to SysLink controls, see [SysLink Control Styles](syslink-control-styles.md).
 
 ## What you need to know
 

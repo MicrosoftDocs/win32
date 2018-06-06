@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Requester Role in VSS Incremental and Differential Backups
 
-To support an [*incremental*](vssgloss-i.md#base-vssgloss-incremental-backup-operations) or [*differential*](vssgloss-d.md#base-vssgloss-differential-backup-operations) backup operation, a requester must do the following:
+To support an [*incremental*](vssgloss-i.md) or [*differential*](vssgloss-d.md) backup operation, a requester must do the following:
 
 1.  Determine what degree of writer support is available (using [**IVssBackupComponents::GetWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata) to get access to information in Writer Metadata Documents)—in particular, determine which backup schema are supported ([**VSS\_BACKUP\_SCHEMA**](/windows/desktop/api/Vss/ne-vss-_vss_backup_schema)).
 2.  Set an appropriate backup state.
@@ -38,7 +38,7 @@ The backup schema mask of a writer supporting VSS incremental or differential te
 
 A requester indicates that a backup is an incremental or differential backup by setting a backup type to either **VSS\_BT\_INCREMENTAL** or **VSS\_BT\_DIFFERENTIAL** using the [**IVssBackupComponents::SetBackupState**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupstate) method prior to generating a [**PrepareForBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup) event.
 
-The [**IVssBackupComponents::SetBackupState**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupstate) method is also used to indicate whether the requester provides [*partial file support*](vssgloss-p.md#base-vssgloss-partial-file-support), which is frequently used to implement certain incremental backup and restore operations.
+The [**IVssBackupComponents::SetBackupState**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupstate) method is also used to indicate whether the requester provides [*partial file support*](vssgloss-p.md), which is frequently used to implement certain incremental backup and restore operations.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ The [**IVssBackupComponents::SetBackupState**](/windows/desktop/api/VsBackup/nf-
 
 The file-set-level file backup specification information ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type)) contained in each writer's Writer Metadata Document is available for examination after the successful return of [**IVssBackupComponents::GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata).
 
-However, a writer can add [*differenced files*](vssgloss-d.md#base-vssgloss-differenced-files) or ask for [*partial file support*](vssgloss-p.md#base-vssgloss-partial-file-support) until its successful handling of the [*PostSnapshot*](vssgloss-p.md#-win32-vssgloss-prepareforbackup-event) event.
+However, a writer can add [*differenced files*](vssgloss-d.md) or ask for [*partial file support*](vssgloss-p.md) until its successful handling of the [*PostSnapshot*](vssgloss-p.md) event.
 
 Differenced file and partial file support specification can override the file specification backup type, so requesters may want to defer a full analysis of all writer specifications about incremental and differential backups until after the successful return of [**IVssBackupComponents::PrepareForBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup).
 
@@ -57,7 +57,7 @@ Differenced file and partial file support specification can override the file sp
 
 The file-set-level file backup specification information ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type)) is contained in each writer's Writer Metadata Document, and can be examined immediately after the successful return of [**IVssBackupComponents::GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata).
 
-Requesters must obtain file backup specification masks ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type)) for every file set of each of a writer's components to be included in the incremental or differential backup, regardless of whether the component was [*explicitly*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion) or [*implicitly*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion) included.
+Requesters must obtain file backup specification masks ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type)) for every file set of each of a writer's components to be included in the incremental or differential backup, regardless of whether the component was [*explicitly*](vssgloss-e.md) or [*implicitly*](vssgloss-i.md) included.
 
 A requester can determine which writers' Writer Metadata Document must be queried by using [**IVssBackupComponents::GetWriterComponentsCount**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount) and [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents). The instance of the [**IVssWriterComponentsExt**](/windows/desktop/api/VsBackup/) interface returned by **IVssBackupComponents::GetWriterComponents** provides writer information through the [**IVssWriterComponentsExt::GetWriterInfo**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getwriterinfo) method.
 
@@ -78,7 +78,7 @@ A requester obtains partial file and differenced file information through the [*
 
 A requester can iterate over all writers included in a backup using [**IVssBackupComponents::GetWriterComponentsCount**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount) and [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents).
 
-The instance of an [**IVssWriterComponentsExt**](/windows/desktop/api/VsBackup/) interface returned by [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents) provides access to all instances of the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface corresponding to a given writer's [*explicitly included*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion) components through the [**IVssWriterComponentsExt::GetComponent**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponent) and [**IVssWriterComponentsExt::GetComponentCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponentcount) methods.
+The instance of an [**IVssWriterComponentsExt**](/windows/desktop/api/VsBackup/) interface returned by [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents) provides access to all instances of the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface corresponding to a given writer's [*explicitly included*](vssgloss-e.md) components through the [**IVssWriterComponentsExt::GetComponent**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponent) and [**IVssWriterComponentsExt::GetComponentCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponentcount) methods.
 
 A requester will need to go through all instances of [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) for all writers whose schema support the incremental or differential backup—that is, writers whose backup schema mask, as returned by [**IVssExamineWriterMetadata::GetBackupSchema**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema), includes **VSS\_BS\_INCREMENTAL** when the backup type is **VSS\_BT\_INCREMENTAL**, or **VSS\_BS\_DIFFERENTIAL** when the backup type is **VSS\_BS\_DIFFERENTIAL**.
 
@@ -96,7 +96,7 @@ A requester may still choose to proceed with backing up the problematic writer's
 
 ## Implementing Incremental or Differential Backups
 
-Prior to implementing a backup, requesters should have information about which writers support an [*incremental*](vssgloss-i.md#base-vssgloss-incremental-backup-operations) or [*differential*](vssgloss-d.md#base-vssgloss-differential-backup-operations) backup, all requested partial file operations, all differenced files, and the file specification backup type of all other files.
+Prior to implementing a backup, requesters should have information about which writers support an [*incremental*](vssgloss-i.md) or [*differential*](vssgloss-d.md) backup, all requested partial file operations, all differenced files, and the file specification backup type of all other files.
 
 <dl> <dt>
 
@@ -118,7 +118,7 @@ The last alternative should be used with great care, and only if the requester u
 <span id="Supporting_Writers"></span><span id="supporting_writers"></span><span id="SUPPORTING_WRITERS"></span>Supporting Writers
 </dt> <dd>
 
-A requester needs to process (in order) all of a writer's [*differenced files*](vssgloss-d.md#base-vssgloss-differenced-files), then handle any [*partial file*](vssgloss-p.md#base-vssgloss-partial-file-support) requests, and then back up remaining files according to their file specification backup type ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type)).
+A requester needs to process (in order) all of a writer's [*differenced files*](vssgloss-d.md), then handle any [*partial file*](vssgloss-p.md) requests, and then back up remaining files according to their file specification backup type ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-_vss_file_spec_backup_type)).
 
 1.  **Backing up Differenced Files:**
 
@@ -126,7 +126,7 @@ A requester needs to process (in order) all of a writer's [*differenced files*](
 
     [**IVssComponent::GetDifferencedFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfile) can also return a time of last modification (expressed as a [**FILETIME**](https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1) structure).
 
-    If the last modification time supplied by the writer is nonzero, then the requester uses it as the basis (rather than file system information or the requester's own stored data) for determining if the file should be included in the [*incremental*](vssgloss-i.md#base-vssgloss-incremental-backup-operations) or [*differential*](vssgloss-d.md#base-vssgloss-differential-backup-operations) backup.
+    If the last modification time supplied by the writer is nonzero, then the requester uses it as the basis (rather than file system information or the requester's own stored data) for determining if the file should be included in the [*incremental*](vssgloss-i.md) or [*differential*](vssgloss-d.md) backup.
 
     For instance, if a file's last modification time as returned by the writer was:
 

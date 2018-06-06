@@ -90,7 +90,7 @@ This function completely and cleanly releases the byte pointer pointing to the H
 [**ISCardTypeConv**](iscardtypeconv.md)
 </dt> <dt>
 
-[Smart Card Return Values](authentication-return-values.md#smart-card-return-values)
+[Smart Card Return Values](authentication-return-values.md)
 </dt> <dt>
 
 [**GetAtIStreamMemory**](iscardtypeconv-getatistreammemory.md)

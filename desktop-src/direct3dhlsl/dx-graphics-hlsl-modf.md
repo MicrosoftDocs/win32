@@ -55,7 +55,7 @@ The signed-fractional portion of x.
 
 | Name | In/Out | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md)                 | Size                         |
 |------|--------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------|
-| x    | in     | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md#component-and-template-types), **vector**, or **matrix** | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751), [**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751) | any                          |
+| x    | in     | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751), [**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751) | any                          |
 | ip   | out    | same as input x                                                                                                | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751), [**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751) | same dimension(s) as input x |
 | ret  | out    | same as input x                                                                                                | [**float**](https://msdn.microsoft.com/library/windows/desktop/aa383751), [**int**](https://msdn.microsoft.com/library/windows/desktop/aa383751) | same dimension(s) as input x |
 

@@ -19,7 +19,7 @@ Command links have a clean, lightweight appearance that allows for descriptive l
 
 A typical set of command links.
 
-Command links are similar to [radio buttons](ctrl-radio-buttons.md) in that they are used to select from a set of mutually exclusive, related choices. Like radio buttons, command links are always presented in sets, never individually. In appearance, command links have the lightweight appearance similar to regular [links](ctrl-links.md), without a frame or other strong click [affordance](glossary.md#glossary). Command links are also similar to [command buttons](ctrl-command-buttons.md), in that they can be the default "command button" and they can have an access key assigned. Like [commit buttons](glossary.md#c), on click they either close the window (for dialog boxes) or advance to the next page (for wizards and pages flows).
+Command links are similar to [radio buttons](ctrl-radio-buttons.md) in that they are used to select from a set of mutually exclusive, related choices. Like radio buttons, command links are always presented in sets, never individually. In appearance, command links have the lightweight appearance similar to regular [links](ctrl-links.md), without a frame or other strong click [affordance](glossary.md). Command links are also similar to [command buttons](ctrl-command-buttons.md), in that they can be the default "command button" and they can have an access key assigned. Like [commit buttons](glossary.md), on click they either close the window (for dialog boxes) or advance to the next page (for wizards and pages flows).
 
 > [!Note]  
 > Guidelines related to [links](ctrl-links.md) and [layout](vis-layout.md) are presented in separate articles.
@@ -34,7 +34,7 @@ To decide, consider these questions:
 
     ![screen shot of a personalize control panel item ](images/ctrl-command-links-image2.png)
 
-    While the Personalization Control Panel item looks like it is using command links, the options are regular links because this [hub page](winenv-ctrl-panels.md#usage-patterns) is for pure navigation.
+    While the Personalization Control Panel item looks like it is using command links, the options are regular links because this [hub page](winenv-ctrl-panels.md) is for pure navigation.
 
 -   **Is the control used to choose one response from a set of mutually exclusive responses?** If not, use another control. To let users choose individual commands, use command buttons or links.
 -   **For dialog boxes, does clicking the control close the window?** If not, use a control that doesn't require closing the window, such as radio buttons, command buttons, or links.
@@ -45,7 +45,7 @@ To decide, consider these questions:
 
     Command links can't be used in property windows or tabbed dialogs because clicking the control closes the window.
 
--   **For wizards and page flows, does clicking advance to the next page without commitment?** Don't use command links to commit to a task; use commit buttons instead. Because command links look like links and users associate links with navigation within a page flow, links aren't appropriate for [commit pages](glossary.md#c) because users should always be able to back out.
+-   **For wizards and page flows, does clicking advance to the next page without commitment?** Don't use command links to commit to a task; use commit buttons instead. Because command links look like links and users associate links with navigation within a page flow, links aren't appropriate for [commit pages](glossary.md) because users should always be able to back out.
 -   **For wizards and page flows, are other pages using command links?** If so, and all other factors being equal, prefer command links for consistency across pages.
 -   **Is the number of responses between two and five?** There should never be a single command link. Because command links are large controls and the screen space used is proportional to the number of options, keep the number of responses to five or fewer. For six or more options, use radio buttons, regular links, or a single-selection [list view](ctrl-list-views.md).
 

@@ -34,8 +34,8 @@ The following terms are important to understand as you read this article:
 
 To decide, consider these questions:
 
--   **Is the control used to choose one option from a list of mutually exclusive values?** If not, use another control. To choose multiple options, use a [standard multiple-selection list](ctrl-list-boxes.md#usage-patterns), check box list, list builder, or add/remove list instead.
--   **Are the options commands?** If so, use a [menu button](ctrl-command-buttons.md#usage-patterns) or split button instead. Use drop-down lists and combo boxes for objects (nouns) or attributes (adjectives), but not commands (verbs).
+-   **Is the control used to choose one option from a list of mutually exclusive values?** If not, use another control. To choose multiple options, use a [standard multiple-selection list](ctrl-list-boxes.md), check box list, list builder, or add/remove list instead.
+-   **Are the options commands?** If so, use a [menu button](ctrl-command-buttons.md) or split button instead. Use drop-down lists and combo boxes for objects (nouns) or attributes (adjectives), but not commands (verbs).
 -   **Does the list present data, rather than program options?** Either way, a drop-down list or combo box is a suitable choice. By contrast, [radio buttons](ctrl-radio-buttons.md) are suitable only for a small number of program options.
 
 **Drop-down lists**
@@ -66,7 +66,7 @@ In addition to the principles just provided for drop-down lists, the following a
 
     In this example, a text box with auto-complete is a good choice.
 
--   **Will users need assistance in selecting valid values?** If so, use a text box with a [Browse button](ctrl-command-buttons.md#usage-patterns) instead.
+-   **Will users need assistance in selecting valid values?** If so, use a text box with a [Browse button](ctrl-command-buttons.md) instead.
 
     ![screen shot of outlook to line and browse button ](images/ctrl-drop-image5.png)
 
@@ -109,7 +109,7 @@ Drop-down lists and combo boxes have several usage patterns:
 -   **Don't use the change of a drop-down list or combo box to**:
     -   Perform commands.
     -   Display other windows, such as a dialog box to gather more input.
-    -   Dynamically display other controls related to the selected control ([screen readers](inter-accessibility.md#types-of-impairments) cannot detect such events).
+    -   Dynamically display other controls related to the selected control ([screen readers](inter-accessibility.md) cannot detect such events).
 
 ### Presentation
 
@@ -138,7 +138,7 @@ Drop-down lists and combo boxes have several usage patterns:
 
 ### Drop-down lists
 
--   When a single drop-down list is used to change the view of an associated control, **change the view immediately on selection instead of requiring a separate command button.** Use a separate command button only if the list takes a significant amount of time to render. However, list headers and [menu buttons](ctrl-command-buttons.md#usage-patterns) are the preferred controls for this purpose.
+-   When a single drop-down list is used to change the view of an associated control, **change the view immediately on selection instead of requiring a separate command button.** Use a separate command button only if the list takes a significant amount of time to render. However, list headers and [menu buttons](ctrl-command-buttons.md) are the preferred controls for this purpose.
 -   **Don't have blank list items** **use meta-options instead**. Users don't know how to interpret blank items, whereas the meaning of meta-options is explicit.
 
     **Correct:** ![screen shot of drop-down list with none selected ](images/ctrl-drop-image16.png)
@@ -173,7 +173,7 @@ Drop-down lists and combo boxes have several usage patterns:
 ### Default values
 
 -   **Select the safest (to prevent loss of data or system access) and most secure option by default.** If safety and security aren't factors, select the most likely or convenient option.
-    -   **Exception:** Display a blank default value if the control represents a property in a [mixed state](glossary.md#m), which happens when displaying a property for multiple objects that don't have the same setting.
+    -   **Exception:** Display a blank default value if the control represents a property in a [mixed state](glossary.md), which happens when displaying a property for multiple objects that don't have the same setting.
 
 ## Prompts
 
@@ -194,7 +194,7 @@ When using prompts:
 
 -   Draw the prompt text in italic gray and real text in normal black. The prompt text must not be confused with real text.
 -   Keep the prompt text concise. You can use fragments instead of full sentences.
--   Use [sentence-style capitalization](glossary.md#s).
+-   Use [sentence-style capitalization](glossary.md).
 -   Don't use ending punctuation or ellipsis.
 -   The prompt text should not be editable, and should disappear once users click in or tab into the text box.
     -   **Exception:** The prompt is displayed if the text box has default input focus, and only disappears once the user starts typing.
@@ -221,8 +221,8 @@ Recommended sizing and spacing for drop-down lists and combo boxes.
 -   Write the label as a word or phrase, not as a sentence, and end it with a colon. **Exceptions:**
     -   Editable drop-down lists with prompts located where space is at a premium.
     -   If a drop-down list or combo box is subordinate to a radio button or check box and is introduced by its label ending with a colon, don't put an additional label on the control.
--   Assign a unique [access key](glossary.md#glossary) for each label. For guidelines, see [Keyboard](inter-keyboard.md).
--   Use [sentence-style capitalization](glossary.md#s).
+-   Assign a unique [access key](glossary.md) for each label. For guidelines, see [Keyboard](inter-keyboard.md).
+-   Use [sentence-style capitalization](glossary.md).
 -   Position the label either to the left of or above the control, and align the label with the left edge of the control. If label is on the left, vertically align the label text with the control text.
 
     **Correct:** ![screen shot of drop-down list label alignment ](images/ctrl-drop-image23.png)
@@ -239,14 +239,14 @@ Recommended sizing and spacing for drop-down lists and combo boxes.
 **Option text**
 
 -   Assign a unique name to each option.
--   Use [sentence-style capitalization](glossary.md#s), unless an item is a proper noun.
+-   Use [sentence-style capitalization](glossary.md), unless an item is a proper noun.
 -   Write the label as a word or phrase, not as a sentence, and use no ending punctuation.
 -   Use parallel phrasing, and try to keep the length about the same for all options.
 
 **Instructional text**
 
 -   If you need to add instructional text about a drop-down list or combo box, add it above the label. Use complete sentences with ending punctuation.
--   Use [sentence-style capitalization](glossary.md#s).
+-   Use [sentence-style capitalization](glossary.md).
 -   Additional information that is helpful but not necessary should be kept short. Place this information either in parentheses between the label and colon, or without parentheses below the control.
 
     ![screen shot of drop-down list with added data ](images/ctrl-drop-image25.png)

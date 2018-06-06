@@ -70,7 +70,7 @@ The control value retrieved by the [**GetSecurityDescriptorControl**](https://ww
 [Low-level Access Control](low-level-access-control.md)
 </dt> <dt>
 
-[Basic Access Control Structures](authorization-structures.md#basic-access-control-structures)
+[Basic Access Control Structures](authorization-structures.md)
 </dt> <dt>
 
 [**ConvertToAutoInheritPrivateObjectSecurity**](https://www.bing.com/search?q=**ConvertToAutoInheritPrivateObjectSecurity**)

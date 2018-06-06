@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ICE27
 
-ICE27 validates the [*sequence tables*](s-gly.md#-msi-sequence-tables-gly) of an installation package for valid actions, action sequence restrictions, and organization in Search, Costing, Selection, and Execution sections.
+ICE27 validates the [*sequence tables*](s-gly.md) of an installation package for valid actions, action sequence restrictions, and organization in Search, Costing, Selection, and Execution sections.
 
 The ICE27 custom action validates the following:
 

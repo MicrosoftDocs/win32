@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Authoring Merge Module Sequence Tables
 
-Include the MergeModuleSequence tables in the .msm file if the merge module must modify the action [*sequence tables*](s-gly.md#-msi-sequence-tables-gly) of the target .msi file. Merging does not add these tables to the .msi file. These tables only occur in merge modules.
+Include the MergeModuleSequence tables in the .msm file if the merge module must modify the action [*sequence tables*](s-gly.md) of the target .msi file. Merging does not add these tables to the .msi file. These tables only occur in merge modules.
 
 If any of the ModuleSequence tables are present in an .msm file, an empty copy of the corresponding installer sequence table must also be authored into the merge module. For example, if a merge module contains a ModuleAdminExecuteSequence table, the merge module must also include an empty AdminExecuteSequence table. During a merge, these empty tables provide the merge tool with necessary schema guidelines.
 

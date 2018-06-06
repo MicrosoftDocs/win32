@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CostInitialize Action
 
-The CostInitialize action initiates the installation [*costing*](c-gly.md#-msi-costing-gly) process.
+The CostInitialize action initiates the installation [*costing*](c-gly.md) process.
 
 ## Sequence Restrictions
 
@@ -25,7 +25,7 @@ There are no ActionData messages.
 
 The CostInitialize action loads the Component table and [Feature](feature-table.md) table into memory.
 
-For more information on the [*costing*](c-gly.md#-msi-costing-gly) process in the installer, see [File Costing](file-costing.md).
+For more information on the [*costing*](c-gly.md) process in the installer, see [File Costing](file-costing.md).
 
 ## Related topics
 

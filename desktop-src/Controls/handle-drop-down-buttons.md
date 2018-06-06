@@ -11,17 +11,17 @@ ms.date: 05/31/2018
 
 # How to Handle Drop-down Buttons
 
-A drop-down button can present users with a list of options. To create this style of button, specify the [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md#btns-dropdown) style (also called [**TBSTYLE\_DROPDOWN**](toolbar-control-and-button-styles.md#tbstyle-dropdown) for compatibility with previous versions of the common controls). To show a drop-down button with an arrow, you must also set the [**TBSTYLE\_EX\_DRAWDDARROWS**](toolbar-extended-styles.md#tbstyle-ex-drawddarrows) toolbar style by sending a [**TB\_SETEXTENDEDSTYLE**](tb-setextendedstyle.md) message.
+A drop-down button can present users with a list of options. To create this style of button, specify the [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md) style (also called [**TBSTYLE\_DROPDOWN**](toolbar-control-and-button-styles.md) for compatibility with previous versions of the common controls). To show a drop-down button with an arrow, you must also set the [**TBSTYLE\_EX\_DRAWDDARROWS**](toolbar-extended-styles.md) toolbar style by sending a [**TB\_SETEXTENDEDSTYLE**](tb-setextendedstyle.md) message.
 
-The following illustration shows a drop-down "Open" button with the context menu open and showing a list of files. In this example, the toolbar has the [**TBSTYLE\_EX\_DRAWDDARROWS**](toolbar-extended-styles.md#tbstyle-ex-drawddarrows) style.
+The following illustration shows a drop-down "Open" button with the context menu open and showing a list of files. In this example, the toolbar has the [**TBSTYLE\_EX\_DRAWDDARROWS**](toolbar-extended-styles.md) style.
 
 ![screen shot of a dialog box with three toolbar items represented by icons; one has an expanded drop-down arrow and a three-item context menu](images/tb-dropdown.png)
 
-The following illustration shows the same toolbar, this time without the [**TBSTYLE\_EX\_DRAWDDARROWS**](toolbar-extended-styles.md#tbstyle-ex-drawddarrows) style.
+The following illustration shows the same toolbar, this time without the [**TBSTYLE\_EX\_DRAWDDARROWS**](toolbar-extended-styles.md) style.
 
 ![screen shot of a previous dialog box, but the icon with the context menu has no dropdown arrow](images/tb-dropdown2.png)
 
-When users click a toolbar button that uses the [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md#btns-dropdown) style, the toolbar control sends its parent window a [TBN\_DROPDOWN](tbn-dropdown.md) notification code.
+When users click a toolbar button that uses the [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md) style, the toolbar control sends its parent window a [TBN\_DROPDOWN](tbn-dropdown.md) notification code.
 
 ## What you need to know
 

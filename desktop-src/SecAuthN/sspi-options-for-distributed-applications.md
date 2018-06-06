@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # SSPI Options for Distributed Applications
 
-Developers have many options for building distributed applications. [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI) provides an abstraction layer between application-level protocols and [*security protocols*](security.s_gly#-security-security-protocol-gly). Applications can take advantage of the SSPI security protocols in several ways:
+Developers have many options for building distributed applications. [*Security Support Provider Interface*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SSPI) provides an abstraction layer between application-level protocols and [*security protocols*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50). Applications can take advantage of the SSPI security protocols in several ways:
 
 -   Call SSPI routines directly (for traditional, socket-based applications).
 
-    The routines use request/response messages to implement the [*application protocol*](security.a_gly#-security-application-protocol-gly) that carries SSPI security-related data.
+    The routines use request/response messages to implement the [*application protocol*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) that carries SSPI security-related data.
 
 -   Use COM to call security options that are implemented by using authenticated RPC and SSPI at lower levels.
 
@@ -23,13 +23,13 @@ Developers have many options for building distributed applications. [*Security S
 
 -   Use [Windows Sockets 2](https://msdn.microsoft.com/1ec8758a-40fd-4c98-b839-c2409ef712d6) (WinSock) with the extended WinSock interface to allow transport providers to use security features.
 
-    This approach integrates the [*security support provider*](security.s_gly#-security-security-support-provider-gly) (SSP) into the network stack and provides both security and transport services through a common interface.
+    This approach integrates the [*security support provider*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SSP) into the network stack and provides both security and transport services through a common interface.
 
--   Use the [Windows Internet Extensions API](https://msdn.microsoft.com/9d1856ac-f281-4582-bb70-83a8ec674914) (WinInet) and an interface designed to support Internet security protocols such as the [*Secure Sockets Layer*](security.s_gly#-security-secure-sockets-layer-protocol-gly) (SSL) protocol.
+-   Use the [Windows Internet Extensions API](https://msdn.microsoft.com/9d1856ac-f281-4582-bb70-83a8ec674914) (WinInet) and an interface designed to support Internet security protocols such as the [*Secure Sockets Layer*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SSL) protocol.
 
     Applications use the SSPI interface to the [Secure Channel](secure-channel.md) (Schannel) security provider to implement WinInet security. Schannel is the Microsoft implementation of SSL.
 
-Several SSPI functions return time stamps that represent the life span of various objects. [*Security packages*](security.s_gly#-security-security-package-gly) can maintain time and provide time stamps in different ways, but using local time simplifies the work of applications that use SSPI functions.
+Several SSPI functions return time stamps that represent the life span of various objects. [*Security packages*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) can maintain time and provide time stamps in different ways, but using local time simplifies the work of applications that use SSPI functions.
 
  
 

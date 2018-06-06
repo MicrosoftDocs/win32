@@ -101,7 +101,7 @@ The **PrintPropertiesCollection** data structure from which the printer interfac
 
 ## Remarks
 
-The `MxdcGetPDEVAdjustment` function is implemented by the hardware vendor. The MXDC calls this function to obtain printer configuration data in the form of a [*property bag*](wdkgloss.p#wdkgloss-property-bag) that includes the following data:
+The `MxdcGetPDEVAdjustment` function is implemented by the hardware vendor. The MXDC calls this function to obtain printer configuration data in the form of a [*property bag*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c) that includes the following data:
 
 <dl> <dt>
 

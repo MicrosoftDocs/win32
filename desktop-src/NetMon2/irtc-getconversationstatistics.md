@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IRTC::GetConversationStatistics method
 
-The **GetConversationStatistics** method retrieves [*session*](s.md#-netmon-session-information-gly) and [*station information*](s.md#-netmon-station-information-gly) about the current capture.
+The **GetConversationStatistics** method retrieves [*session*](s.md) and [*station information*](s.md) about the current capture.
 
 ## Syntax
 
@@ -35,7 +35,7 @@ HRESULT STDMETHODCALLTYPE GetConversationStatistics(
 *nSessions* \[out\]
 </dt> <dd>
 
-Pointer to a DWORD that contains the number of [*sessions*](s.md#-netmon-session-gly) recorded for the current capture.
+Pointer to a DWORD that contains the number of [*sessions*](s.md) recorded for the current capture.
 
 </dd> <dt>
 
@@ -49,7 +49,7 @@ Pointer to a [SESSIONSTATS](sessionstats.md) structure.
 *nStations* \[out\]
 </dt> <dd>
 
-Pointer to a DWORD that contains the number of [*stations*](s.md#-netmon-station-gly) recorded for the current capture.
+Pointer to a DWORD that contains the number of [*stations*](s.md) recorded for the current capture.
 
 </dd> <dt>
 

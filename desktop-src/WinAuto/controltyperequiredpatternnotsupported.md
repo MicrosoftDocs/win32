@@ -32,7 +32,7 @@ The element's UI Automation support does not comply with the UI Automation speci
 
 <dl> <dt>
 
-[**UIA\_ControlTypePropertyId**](uiauto-automation-element-propids.md#uia-controltypepropertyid)
+[**UIA\_ControlTypePropertyId**](uiauto-automation-element-propids.md)
 </dt> <dt>
 
 [UI Automation Control Types Overview](uiauto-controltypesoverview.md)

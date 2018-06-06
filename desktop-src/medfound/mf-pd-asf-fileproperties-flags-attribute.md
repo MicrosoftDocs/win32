@@ -75,7 +75,7 @@ In addition, the [**MF\_PD\_ASF\_FILEPROPERTIES\_MAX\_PACKET\_SIZE**](mf-pd-asf-
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)
 </dt> <dt>
 
-[ASF Header Object](asf-file-structure.md#header-object)
+[ASF Header Object](asf-file-structure.md)
 </dt> <dt>
 
 [Presentation Descriptors](presentation-descriptors.md)

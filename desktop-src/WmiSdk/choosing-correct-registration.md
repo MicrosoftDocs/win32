@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Choosing Correct Registration
 
-WMI supports different threading models depending on how the provider is hosted and the type of provider functionality, such as [Class](writing-a-class-provider.md) or [Property](writing-a-property-provider.md). For example, [*decoupled providers*](gloss-d.md#wmi-gloss-decoupled-provider) do not support all the types of provider functionality. For more information about different hosting models and how to configure them, see [Provider Hosting and Security](provider-hosting-and-security.md).
+WMI supports different threading models depending on how the provider is hosted and the type of provider functionality, such as [Class](writing-a-class-provider.md) or [Property](writing-a-property-provider.md). For example, [*decoupled providers*](gloss-d.md) do not support all the types of provider functionality. For more information about different hosting models and how to configure them, see [Provider Hosting and Security](provider-hosting-and-security.md).
 
 ## In-Process Providers
 

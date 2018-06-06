@@ -17,11 +17,11 @@ A balloon is a small pop-up window that informs users of a non-critical problem 
 
 A typical balloon.
 
-Balloons have an icon, a title, and body text, all of which are optional. Unlike tooltips and infotips, balloons also have a tail that identifies their source. Usually the source is a control if so, it is referred to as the [owner control](glossary.md#o).
+Balloons have an icon, a title, and body text, all of which are optional. Unlike tooltips and infotips, balloons also have a tail that identifies their source. Usually the source is a control if so, it is referred to as the [owner control](glossary.md).
 
 While balloons inform users of non-critical problems, they don't prevent problems although the owner control might. Any unhandled problems must be handled by the owner user interface (UI) when users attempt to commit to the action.
 
-Balloons are usually used with text boxes, or controls that use text boxes for changing values, such as combo boxes, list views, and tree views. Other kinds of controls are sufficiently well constrained, and don't need the additional feedback balloons afford. Furthermore, if there is a problem with other types of controls, it often involves inconsistency between multiple controls a situation for which balloons aren't suitable. Only text-entry controls are both unconstrained and a common source of [single-point errors](glossary.md#g).
+Balloons are usually used with text boxes, or controls that use text boxes for changing values, such as combo boxes, list views, and tree views. Other kinds of controls are sufficiently well constrained, and don't need the additional feedback balloons afford. Furthermore, if there is a problem with other types of controls, it often involves inconsistency between multiple controls a situation for which balloons aren't suitable. Only text-entry controls are both unconstrained and a common source of [single-point errors](glossary.md).
 
 A notification is a specific type of balloon displayed by a [notification area](winenv-notification.md) icon.
 
@@ -31,14 +31,14 @@ A notification is a specific type of balloon displayed by a [notification area](
 
 To decide, consider these questions:
 
--   **Does the information describe a problem or special condition?** If not, use another control. Don't use balloons to display supplemental information for a control; consider using [static text](glossary.md#s),[infotips](glossary.md#i), [progressive disclosure](glossary.md#p), or prompts instead.
--   **Can the problem or special condition be detected immediately** either on input or when the owner control loses input focus? If not, use an error message displayed in a [task dialog](glossary.md#t) or [message box](glossary.md#m).
+-   **Does the information describe a problem or special condition?** If not, use another control. Don't use balloons to display supplemental information for a control; consider using [static text](glossary.md),[infotips](glossary.md), [progressive disclosure](glossary.md), or prompts instead.
+-   **Can the problem or special condition be detected immediately** either on input or when the owner control loses input focus? If not, use an error message displayed in a [task dialog](glossary.md) or [message box](glossary.md).
 -   **For problems, is the problem critical?** If so, use an error message displayed in a task dialog or message box. Such error messages require interaction (which is suitable for critical errors), whereas balloons don't.
 -   **For special conditions, is the condition valid yet likely to be unintended?** If so, balloons are appropriate. For conditions not valid, it is better to prevent them in the first place. For likely intended conditions, there is no need to do anything.
 -   **Can the problem or special condition be expressed concisely?** If not, use another control. Balloons can't have detailed explanations or provide supplemental information.
 -   **Does the information describe the control currently being hovered over?** If so, use a tip instead, unless users may need to interact with the message.
 -   **Is the information related to the user's current activity?** If not, consider using a [notification](mess-notif.md) or [dialog box](win-dialog-box.md) instead. Users are likely to overlook balloons outside the current activity, and, by default, balloons time out after 10 seconds.
--   **Does the information come from a single, specific source?** If a problem or condition has multiple sources or no specific source, use an [in-place message](glossary.md#i) or a dialog box instead.
+-   **Does the information come from a single, specific source?** If a problem or condition has multiple sources or no specific source, use an [in-place message](glossary.md) or a dialog box instead.
 
 **Incorrect:** ![screen shot of a balloon: logon unsuccessful](images/ctrl-balloons-image2.png)
 
@@ -148,7 +148,7 @@ In this example, a balloon indicates that the user attempted to exceed the maxim
 |                              |                                                                                                                                                         |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Pattern**<br/>       | **Icon**<br/>                                                                                                                                     |
-| Input problem<br/>     | No icon. Not using an [error icon](vis-std-icons.md) here is consistent with the [Windows tone](text-style-tone.md#guidelines) guidelines.<br/> |
+| Input problem<br/>     | No icon. Not using an [error icon](vis-std-icons.md) here is consistent with the [Windows tone](text-style-tone.md) guidelines.<br/> |
 | Special condition<br/> | The standard 16x16 pixel [warning icon](vis-std-icons.md).<br/>                                                                                  |
 
 

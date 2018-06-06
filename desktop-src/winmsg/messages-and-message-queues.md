@@ -29,7 +29,7 @@ This section describes messages and message queues and how to use them in your a
 
 ### System-Provided Messages
 
-For lists of the system-provided messages, see [System-Defined Messages](about-messages-and-message-queues.md#system-defined-messages).
+For lists of the system-provided messages, see [System-Defined Messages](about-messages-and-message-queues.md).
 
 ### Message Functions
 

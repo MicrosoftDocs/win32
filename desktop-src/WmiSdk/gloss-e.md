@@ -30,14 +30,14 @@ A WMI class that *event consumers* can subscribe to by an *event query*. The cla
 <span id="wmi.gloss_event_consumer"></span><span id="WMI.GLOSS_EVENT_CONSUMER"></span>**event consumer**
 </dt> <dd>
 
-A recipient of notifications that report an occurrence of an event. An event consumer is either [*temporary*](gloss-t.md#wmi-gloss-temporary-consumer) or [*permanent*](gloss-p.md#wmi-gloss-permanent-consumer).
+A recipient of notifications that report an occurrence of an event. An event consumer is either [*temporary*](gloss-t.md) or [*permanent*](gloss-p.md).
 
 </dd> <dt>
 
 <span id="wmi.gloss_event_consumer_provider"></span><span id="WMI.GLOSS_EVENT_CONSUMER_PROVIDER"></span>**event consumer provider**
 </dt> <dd>
 
-A provider that determines which permanent event consumer handles a given event. An event consumer provider is registered with WMI by an instance of [**\_\_EventConsumerProviderRegistration**](--eventconsumerproviderregistration.md), which contains a list of the [*logical consumer*](gloss-l.md#wmi-gloss-logical-consumer) classes that the event consumer provider supports. An event consumer provider is a COM server that maps [*physical consumers*](gloss-p.md#wmi-gloss-physical-consumer) to *logical consumers*. An event consumer provider supports the [**IWbemEventConsumerProvider**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventconsumerprovider) interface and is a component of the permanent consumer architecture.
+A provider that determines which permanent event consumer handles a given event. An event consumer provider is registered with WMI by an instance of [**\_\_EventConsumerProviderRegistration**](--eventconsumerproviderregistration.md), which contains a list of the [*logical consumer*](gloss-l.md) classes that the event consumer provider supports. An event consumer provider is a COM server that maps [*physical consumers*](gloss-p.md) to *logical consumers*. An event consumer provider supports the [**IWbemEventConsumerProvider**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemeventconsumerprovider) interface and is a component of the permanent consumer architecture.
 
 </dd> <dt>
 
@@ -58,21 +58,21 @@ A WMI provider that monitors a source of events and notifies WMI when events occ
 <span id="wmi.gloss_event_query"></span><span id="WMI.GLOSS_EVENT_QUERY"></span>**event query**
 </dt> <dd>
 
-A [*WMI Query Language*](gloss-w.md#wmi-gloss-wmi-query-language) statement that event consumers use to register to receive notification of specific events. An event provider uses an event query to register to generate notifications of specific events.
+A [*WMI Query Language*](gloss-w.md) statement that event consumers use to register to receive notification of specific events. An event provider uses an event query to register to generate notifications of specific events.
 
 </dd> <dt>
 
 <span id="wmi.gloss_extension_schema"></span><span id="WMI.GLOSS_EXTENSION_SCHEMA"></span>**extension schema**
 </dt> <dd>
 
-The third layer of the [*CIM schema*](gloss-c.md#wmi-gloss-cim-schema), which includes platform-specific extensions of the CIM schema such as Windows, UNIX, and Exchange Server. Also see [*common model*](gloss-c.md#wmi-gloss-common-model) and core model.
+The third layer of the [*CIM schema*](gloss-c.md), which includes platform-specific extensions of the CIM schema such as Windows, UNIX, and Exchange Server. Also see [*common model*](gloss-c.md) and core model.
 
 </dd> <dt>
 
 <span id="wmi.gloss_extrinsic_event"></span><span id="WMI.GLOSS_EXTRINSIC_EVENT"></span>**extrinsic event**
 </dt> <dd>
 
-An event notification from a provider. Most providers create an instance of an event class defined in the provider MOF files. An extrinsic event inherits from [**\_\_ExtrinsicEvent**](--extrinsicevent.md). For example, the [Event Log Provider](https://msdn.microsoft.com/library/aa390413) defines the event class [**Win32\_NTLogEvent**](https://msdn.microsoft.com/library/aa394226). Also see [*intrinsic event*](gloss-i.md#wmi-gloss-intrinsic-event).
+An event notification from a provider. Most providers create an instance of an event class defined in the provider MOF files. An extrinsic event inherits from [**\_\_ExtrinsicEvent**](--extrinsicevent.md). For example, the [Event Log Provider](https://msdn.microsoft.com/library/aa390413) defines the event class [**Win32\_NTLogEvent**](https://msdn.microsoft.com/library/aa394226). Also see [*intrinsic event*](gloss-i.md).
 
 </dd> </dl>
 

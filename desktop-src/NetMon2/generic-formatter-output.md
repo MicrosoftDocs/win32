@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Generic Formatter Output
 
-The lists and tables in this section show the output of the [*generic formatter*](g.md#-netmon-generic-formatter-gly). Be aware that the generic formatter uses the **DataType** and **DataQualifier** members of the [**PROPERTYINFO**](propertyinfo.md) structure to determine how to format the displayed data.
+The lists and tables in this section show the output of the [*generic formatter*](g.md). Be aware that the generic formatter uses the **DataType** and **DataQualifier** members of the [**PROPERTYINFO**](propertyinfo.md) structure to determine how to format the displayed data.
 
 For more information and an example of the output for a specific property data type, see:
 

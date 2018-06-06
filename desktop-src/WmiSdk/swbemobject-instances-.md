@@ -173,7 +173,7 @@ Not enough memory to complete the operation.
 
 ## Remarks
 
-The **Instances\_** method only works for class objects. It is not an error for the returned collection to have zero elements. The default behavior for this method is [*semisynchronous*](gloss-s.md#wmi-gloss-semisynchronous) because of the default *IFlags* value **wbemFlagReturnImmediately**.
+The **Instances\_** method only works for class objects. It is not an error for the returned collection to have zero elements. The default behavior for this method is [*semisynchronous*](gloss-s.md) because of the default *IFlags* value **wbemFlagReturnImmediately**.
 
 ## Requirements
 

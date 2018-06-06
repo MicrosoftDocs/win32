@@ -48,7 +48,7 @@ The Signature\_ column contains a unique identifier called a signature and is al
 
 ## Remarks
 
-The [AppSearch](appsearch-action.md) action in [*sequence tables*](s-gly.md#-msi-sequence-tables-gly) processes the information in this table. For information about using *sequence tables*, see [Using a Sequence Table](using-a-sequence-table.md).
+The [AppSearch](appsearch-action.md) action in [*sequence tables*](s-gly.md) processes the information in this table. For information about using *sequence tables*, see [Using a Sequence Table](using-a-sequence-table.md).
 
 The [AppSearch](appsearch-action.md) action searches for signatures using the [CompLocator](complocator-table.md) table first, the [RegLocator](reglocator-table.md) table second, the [IniLocator](inilocator-table.md) table third, and finally the [DrLocator](drlocator-table.md) table. File signatures are listed in the [Signature](signature-table.md) table. A signature that is not in the Signature table denotes a directory and the action sets the property to the directory path for that signature.
 

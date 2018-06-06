@@ -39,7 +39,7 @@ A pointer to a [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/deskt
 
 ## Return value
 
-Returns GDT\_VALID if the time information was successfully placed in *lParam*. Returns GDT\_NONE if the control was set to the [**DTS\_SHOWNONE**](date-and-time-picker-control-styles.md#dts-shownone) style and the control check box was not selected. Returns GDT\_ERROR if an error occurs.
+Returns GDT\_VALID if the time information was successfully placed in *lParam*. Returns GDT\_NONE if the control was set to the [**DTS\_SHOWNONE**](date-and-time-picker-control-styles.md) style and the control check box was not selected. Returns GDT\_ERROR if an error occurs.
 
 ## Requirements
 

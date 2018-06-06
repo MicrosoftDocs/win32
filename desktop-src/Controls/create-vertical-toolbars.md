@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # How to Create Vertical Toolbars
 
-The key to creating a vertical toolbar is to include [**CCS\_VERT**](common-control-styles.md#ccs-vert) in the window style, and to set the [**TBSTATE\_WRAP**](toolbar-button-states.md#tbstate-wrap) style for each button.
+The key to creating a vertical toolbar is to include [**CCS\_VERT**](common-control-styles.md) in the window style, and to set the [**TBSTATE\_WRAP**](toolbar-button-states.md) style for each button.
 
 ## What you need to know
 

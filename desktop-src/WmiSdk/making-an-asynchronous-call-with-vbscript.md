@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Making an Asynchronous Call with VBScript
 
-Making an asynchronous call to a [*WMI method*](gloss-w.md#wmi-gloss-wmi-method) or a [*provider method*](gloss-p.md#wmi-gloss-provider-method) allows a script to continue executing while objects return to an [**SWbemSink**](swbemsink.md) object, and are handled by methods such as [**SWbemSink.OnObjectReady**](swbemsink-onobjectready.md). However, asynchronous calls are not recommended because the data may not be returned at the same level of security as the call is made.
+Making an asynchronous call to a [*WMI method*](gloss-w.md) or a [*provider method*](gloss-p.md) allows a script to continue executing while objects return to an [**SWbemSink**](swbemsink.md) object, and are handled by methods such as [**SWbemSink.OnObjectReady**](swbemsink-onobjectready.md). However, asynchronous calls are not recommended because the data may not be returned at the same level of security as the call is made.
 
 When using asynchronous sink calls like [**SWbemSink.OnObjectReady**](swbemsink-onobjectready.md) to get returned data, you can set the following registry value.
 
@@ -23,7 +23,7 @@ When using asynchronous sink calls like [**SWbemSink.OnObjectReady**](swbemsink-
 
 Setting this registry value ensures authentication of the data objects returned to the sink. If **UnsecAppAccessControlDefault** is set to one (1), then WMI performs access checking of the data return. Access checks verify that the data comes from the correct source. For more information, see [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
 
-Asynchronous methods with names that end in "Async\_" always return immediately after being called so that a program can continue executing. For example, [**SWbemServices.ExecQuery**](swbemservices-execquery.md) is synchronous and blocks execution until all of the objects are returned. The [**SWbemServices.ExecQueryAsync**](swbemservices-execqueryasync.md) method is the nonblocking asynchronous version. A more secure way to make the call to **SWbemServices.ExecQuery** nonblocking is by making the call [*semisynchronously*](gloss-s.md#wmi-gloss-semisynchronous). For more information, see [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md) and [Making a Semisynchronous Call with VBScript](making-a-semisynchronous-call-with-vbscript.md).
+Asynchronous methods with names that end in "Async\_" always return immediately after being called so that a program can continue executing. For example, [**SWbemServices.ExecQuery**](swbemservices-execquery.md) is synchronous and blocks execution until all of the objects are returned. The [**SWbemServices.ExecQueryAsync**](swbemservices-execqueryasync.md) method is the nonblocking asynchronous version. A more secure way to make the call to **SWbemServices.ExecQuery** nonblocking is by making the call [*semisynchronously*](gloss-s.md). For more information, see [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md) and [Making a Semisynchronous Call with VBScript](making-a-semisynchronous-call-with-vbscript.md).
 
 The *iFlags* parameter for asynchronous calls always defaults to zero (0). Asynchronous methods do not supply an [**SWbemObjectSet**](swbemobjectset.md) collection to the sink subroutine. Instead, the [**SWbemSink.OnObjectReady**](swbemsink-onobjectready.md) event subroutine in your script or application receives each object as it is provided.
 

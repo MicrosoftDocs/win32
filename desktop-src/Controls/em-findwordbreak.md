@@ -79,7 +79,7 @@ The message returns a value based on the *wParam* parameter.
 
 If *wParam* is WB\_LEFT and WB\_RIGHT, the word-break procedure finds word breaks only after delimiters. This matches the functionality of an edit control. If *wParam* is WB\_MOVEWORDLEFT or WB\_MOVEWORDRIGHT, the word-break procedure also compares character classes and word-break flags.
 
-For information about character classes and word-break flags, see [Word and Line Breaks](using-rich-edit-controls.md#re-word-and-line-breaks).
+For information about character classes and word-break flags, see [Word and Line Breaks](using-rich-edit-controls.md).
 
 ## Requirements
 

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Debugging Providers
 
-Providers, unless they are [*decoupled providers*](gloss-d.md#wmi-gloss-decoupled-provider) running within an application, are loaded in a Wmiprvse.exe process, and not through Svchost.exe with a Winmgmt.exe process. For more information, see [Provider Hosting and Security](provider-hosting-and-security.md).
+Providers, unless they are [*decoupled providers*](gloss-d.md) running within an application, are loaded in a Wmiprvse.exe process, and not through Svchost.exe with a Winmgmt.exe process. For more information, see [Provider Hosting and Security](provider-hosting-and-security.md).
 
 When stopping at a breakpoint, the Visual Studio debugger freezes the entire provider host process, which is usually the shared host Wmiprvse.exe. This prevents the operation of any other components hosted in that process, including the WMI Server Explorer extension. Client applications that call into the provider are also blocked. The problems that result are worse in Windows 2000 and earlier because the provider is loaded into the WMI service process (Winmgmt.exe).
 

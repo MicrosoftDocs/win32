@@ -93,7 +93,7 @@ You can use the following DXGI 1.2 API and Direct3D 11.1 API to share resources 
 -   [**IDXGIFactory2::GetSharedResourceAdapterLuid**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-getsharedresourceadapterluid)
 -   [**ID3D11Device1::OpenSharedResource1**](https://msdn.microsoft.com/4751B49E-01DB-467B-879C-743C8B43DDA5)
 -   [**ID3D11Device1::OpenSharedResourceByName**](https://msdn.microsoft.com/5A7575E4-382E-4A2F-AFE8-2E5850526E75)
--   [**D3D11\_RESOURCE\_MISC\_SHARED\_NTHANDLE**](direct3d11.d3d11_resource_misc_flag#d3d11-resource-misc-shared-nthandle)
+-   [**D3D11\_RESOURCE\_MISC\_SHARED\_NTHANDLE**](https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2)
 
 ## Offer the video memory of resources
 

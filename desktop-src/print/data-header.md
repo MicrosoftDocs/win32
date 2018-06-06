@@ -41,10 +41,10 @@ Specifies the signature value identifying the type of data in the data section. 
 
 | Signature                 | Definition                                                                                                                                                                       |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DATA\_CTT\_SIG<br/> | This data section contains [*CTT*](wdkgloss.c#wdkgloss-character-translation-table--ctt-)-formatted glyph set information.<br/> |
-| DATA\_GTT\_SIG<br/> | This data section contains [*GTT*](wdkgloss.g#wdkgloss-glyph-translation-table--gtt-)-formatted glyph set information.<br/>         |
+| DATA\_CTT\_SIG<br/> | This data section contains [*CTT*](https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39)-formatted glyph set information.<br/> |
+| DATA\_GTT\_SIG<br/> | This data section contains [*GTT*](https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4)-formatted glyph set information.<br/>         |
 | DATA\_IFI\_SIG<br/> | This data section contains IFI-formatted font metrics.<br/>                                                                                                                |
-| DATA\_UFM\_SIG<br/> | This data section contains [*UFM*](wdkgloss.u#wdkgloss-unidrv-font-metrics--ufm-)-formatted font metrics.<br/>                          |
+| DATA\_UFM\_SIG<br/> | This data section contains [*UFM*](https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414)-formatted font metrics.<br/>                          |
 | DATA\_VAR\_SIG<br/> | This data section contains data to be downloaded to the printer. See the following Remarks section.<br/>                                                                   |
 
 
@@ -87,7 +87,7 @@ Not used. Must be set to zero.
 
 ## Remarks
 
-If **dwSignature** is DATA\_VAR\_SIG, the data section contains variable data that Unidrv sends to the printer the first time the font is selected. Typically, this data consists of a font header and corresponding font identifier, along with downloadable glyph information for all the glyphs supported by the font. [*PCL*](wdkgloss.p#wdkgloss-pcl) soft font information includes printer control language commands for loading the font header and glyph definitions for all supported glyphs. Unidrv does not validate variable data. Data validation should be performed by the font installer.
+If **dwSignature** is DATA\_VAR\_SIG, the data section contains variable data that Unidrv sends to the printer the first time the font is selected. Typically, this data consists of a font header and corresponding font identifier, along with downloadable glyph information for all the glyphs supported by the font. [*PCL*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c) soft font information includes printer control language commands for loading the font header and glyph definitions for all supported glyphs. Unidrv does not validate variable data. Data validation should be performed by the font installer.
 
 Each DATA\_HEADER structure must be DWORD-aligned.
 

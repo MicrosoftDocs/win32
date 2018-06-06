@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # UnlockWithCertificateThumbprint method of the Win32\_EncryptableVolume class
 
-The **UnlockWithCertificateThumbprint** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class uses the provided [*certificate*](security.c_gly#-security-certificate-gly) thumbprint to obtain the derived key and unlock the encrypted volume.
+The **UnlockWithCertificateThumbprint** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class uses the provided [*certificate*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) thumbprint to obtain the derived key and unlock the encrypted volume.
 
 > [!Note]  
 > If the disc supports hardware encryption this function sets the band status to "unlocked""
@@ -48,7 +48,7 @@ A thumbprint value of 0 is accepted and results in a search of the local store f
 
 Type: **string**
 
-A user-specified personal identification string. This string must consist of a sequence of 4 to 20 digits. This string is used to silently authenticate the [*key storage provider*](security.k_gly#-security-key-storage-provider-gly) (KSP) when used with a [*smart card*](security.s_gly#-security-smart-card-gly).
+A user-specified personal identification string. This string must consist of a sequence of 4 to 20 digits. This string is used to silently authenticate the [*key storage provider*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33) (KSP) when used with a [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50).
 
 </dd> </dl>
 
@@ -66,7 +66,7 @@ This method returns one of the following codes or another error code if it fails
 | <dl> <dt>**FVE\_E\_NOT\_ACTIVATED**</dt> <dt>2150694920 (0x80310008)</dt> </dl>           | BitLocker is not enabled on the volume. Add a key protector to enable BitLocker. <br/>                                                                                                                                                                             |
 | <dl> <dt>**FVE\_E\_FAILED\_AUTHENTICATION**</dt> <dt>2150694951 (0x80310027)</dt> </dl>   | The volume cannot be unlocked by using the provided information. <br/>                                                                                                                                                                                             |
 | <dl> <dt>**FVE\_E\_PROTECTOR\_NOT\_FOUND**</dt> <dt>2150694963 (0x80310033)</dt> </dl>    | The provided key protector does not exist on the volume. You must enter another key protector.<br/>                                                                                                                                                                |
-| <dl> <dt>**FVE\_E\_PRIVATEKEY\_AUTH\_FAILED**</dt> <dt>2150695060 (0x80310094)</dt> </dl> | The [*private key*](security.p_gly#-security-private-key-gly) associated with the specified certificate could not be authorized. The private key authorization was either not provided or the provided authorization was not valid.<br/> |
+| <dl> <dt>**FVE\_E\_PRIVATEKEY\_AUTH\_FAILED**</dt> <dt>2150695060 (0x80310094)</dt> </dl> | The [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) associated with the specified certificate could not be authorized. The private key authorization was either not provided or the provided authorization was not valid.<br/> |
 
 
 

@@ -77,7 +77,7 @@ When CPSUI calls one of an application's [**PFNPROPSHEETUI**](pfnpropsheetui.md)
 
 A [printer interface DLL](https://www.bing.com/search?q=printer+interface+DLL) can call *ComPropSheet* from within its [**DrvDocumentPropertySheets**](drvdocumentpropertysheets.md) function or its [**DrvDevicePropertySheets**](drvdevicepropertysheets.md) function.
 
-[User interface plug-ins](https://www.bing.com/search?q=User+interface+plug-ins) for Microsoft's [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) and [*Pscript*](wdkgloss.p#wdkgloss-pscript) drivers can call *ComPropSheet* from within their [**IPrintOemUI::DocumentPropertySheets**](iprintoemui-documentpropertysheets.md) and [**IPrintOemUI::DevicePropertySheets**](iprintoemui-devicepropertysheets.md) methods.
+[User interface plug-ins](https://www.bing.com/search?q=User+interface+plug-ins) for Microsoft's [*Unidrv*](https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414) and [*Pscript*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c) drivers can call *ComPropSheet* from within their [**IPrintOemUI::DocumentPropertySheets**](iprintoemui-documentpropertysheets.md) and [**IPrintOemUI::DevicePropertySheets**](iprintoemui-devicepropertysheets.md) methods.
 
 The [group parent](https://www.bing.com/search?q=group+parent) handle specified for the *hComPropSheet* parameter can be either of the following:
 

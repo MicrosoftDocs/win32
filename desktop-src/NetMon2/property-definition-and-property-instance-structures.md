@@ -15,7 +15,7 @@ Network Monitor provides a [**PROPERTYINFO**](propertyinfo.md) structure to defi
 
 ![network monitor structures](images/property1.png)
 
-The parser allocates and fills-in the [**PROPERTYINFO**](propertyinfo.md) structure for all the properties that a protocol supports. The parser passes the structure to Network Monitor where the structure is added to the protocol [*property database*](p.md#-netmon-property-database-gly). The information in the **PROPERTYINFO** structure is used when parsing an instance of a property, and when formatting the data that is displayed in the Network Monitor UI.
+The parser allocates and fills-in the [**PROPERTYINFO**](propertyinfo.md) structure for all the properties that a protocol supports. The parser passes the structure to Network Monitor where the structure is added to the protocol [*property database*](p.md). The information in the **PROPERTYINFO** structure is used when parsing an instance of a property, and when formatting the data that is displayed in the Network Monitor UI.
 
 Network Monitor allocates the [**PROPERTYINST**](propertyinst.md) and [**PROPERTYINSTEX**](propertyinstex.md) structures when the parser attaches a property definition to an instance of a property.
 

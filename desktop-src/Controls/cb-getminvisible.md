@@ -49,7 +49,7 @@ The return value is the minimum number of visible items.
 
 When the number of items in the drop-down list is greater than the minimum, the combo box uses a scroll bar.
 
-This message is ignored if the combo box control has style [**CBS\_NOINTEGRALHEIGHT**](combo-box-styles.md#cbs-nointegralheight).
+This message is ignored if the combo box control has style [**CBS\_NOINTEGRALHEIGHT**](combo-box-styles.md).
 
 To use **CB\_GETMINVISIBLE**, the application must specify comctl32.dll version 6 in the manifest. For more information, see [Enabling Visual Styles](cookbook-overview.md).
 

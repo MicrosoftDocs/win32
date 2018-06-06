@@ -11,10 +11,10 @@ ms.date: 05/31/2018
 
 # Selecting a Registered NIC
 
-To select one of the NICs registered on the local computer, call the [**GetNPPBlobFromUI**](getnppblobfromui.md) function. This function uses the Network Monitor UI to display the registered NICs and returns the NPP BLOB that represents the NIC you select. You can display all the NICs registered on the local computer or a smaller set of filtered NICs. To filter the displayed NICs, provide a [*filter BLOB*](f.md#-netmon-filter-blob-gly) when the call is made.
+To select one of the NICs registered on the local computer, call the [**GetNPPBlobFromUI**](getnppblobfromui.md) function. This function uses the Network Monitor UI to display the registered NICs and returns the NPP BLOB that represents the NIC you select. You can display all the NICs registered on the local computer or a smaller set of filtered NICs. To filter the displayed NICs, provide a [*filter BLOB*](f.md) when the call is made.
 
 > [!Note]  
-> When the [**GetNPPBlobFromUI**](getnppblobfromui.md) function is called, the [*NPP Finder*](n.md#-netmon-npp-finder-gly) communicates with the NPP DLLs to obtain the NPP BLOB structures that represent the registered NICs. For more information, and a procedure about how to use the Network Monitor UI directly, see the "Select a Network Dialog Box" topic in the Network Monitor online help.
+> When the [**GetNPPBlobFromUI**](getnppblobfromui.md) function is called, the [*NPP Finder*](n.md) communicates with the NPP DLLs to obtain the NPP BLOB structures that represent the registered NICs. For more information, and a procedure about how to use the Network Monitor UI directly, see the "Select a Network Dialog Box" topic in the Network Monitor online help.
 
  
 

@@ -17,8 +17,8 @@ Using network providers, Windows can support many different types of network pro
 
 For information about network provider functions and structures, see the following topics:
 
--   [Network Provider Functions](authentication-functions.md#network-provider-functions)
--   [Network Provider Structures](authentication-structures.md#network-provider-structures)
+-   [Network Provider Functions](authentication-functions.md)
+-   [Network Provider Structures](authentication-structures.md)
 
  
 

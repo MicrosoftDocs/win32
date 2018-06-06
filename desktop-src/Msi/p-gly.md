@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 <span id="_msi_package_using_windows_installer_gly"></span><span id="_MSI_PACKAGE_USING_WINDOWS_INSTALLER_GLY"></span>**package**
 </dt> <dd>
 
-[*.msi file*](m-gly.md#-msi--msi-file-gly) and any [*external source files*](e-gly.md#-msi-external-source-files-gly) that may be pointed to by this file. A package therefore contains all the information the Windows Installer needs to run the UI and to install or uninstall the application. For more information, see also [*installer database*](i-gly.md#-msi-installer-database-gly).
+[*.msi file*](m-gly.md) and any [*external source files*](e-gly.md) that may be pointed to by this file. A package therefore contains all the information the Windows Installer needs to run the UI and to install or uninstall the application. For more information, see also [*installer database*](i-gly.md).
 
 </dd> <dt>
 
@@ -70,7 +70,7 @@ The term "property" also refers to an attribute of an automation object. (See [A
 <span id="_msi_publishing_gly"></span><span id="_MSI_PUBLISHING_GLY"></span>**publishing**
 </dt> <dd>
 
-Method of [*advertising*](a-gly.md#-msi-advertising-gly) a feature or application. Publishing does not populate the UI. However, if another application attempts to open a published application, there is enough information present for the installer to assign the published application. For more information, see [*assigning*](a-gly.md#-msi-assigning-gly) and [Components and Features](components-and-features.md).
+Method of [*advertising*](a-gly.md) a feature or application. Publishing does not populate the UI. However, if another application attempts to open a published application, there is enough information present for the installer to assign the published application. For more information, see [*assigning*](a-gly.md) and [Components and Features](components-and-features.md).
 
 </dd> </dl>
 

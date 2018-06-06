@@ -49,7 +49,7 @@ This notification code does not return a value.
 
 ## Remarks
 
-To receive EN\_SELCHANGE notification codes, specify [**ENM\_SELCHANGE**](rich-edit-control-event-mask-flags.md#enm-selchange) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
+To receive EN\_SELCHANGE notification codes, specify [**ENM\_SELCHANGE**](rich-edit-control-event-mask-flags.md) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
 This notification code is sent when the caret position changes and no text is selected (the selection is empty). The caret position can change when the user clicks the mouse, types, or presses an arrow key.
 

@@ -27,7 +27,7 @@ WMI has security constants used for namespace access checking by [**\_\_SystemSe
 
 
 
-Enables the account and grants the user read permissions. This is a default access right for all users and corresponds to the Enable Account permission on the Security tab of the [*WMI Control*](gloss-w.md#wmi-gloss-wmi-control). For more information, see [Setting Namespace Security with the WMI Control](setting-namespace-security-with-the-wmi-control.md).
+Enables the account and grants the user read permissions. This is a default access right for all users and corresponds to the Enable Account permission on the Security tab of the [*WMI Control*](gloss-w.md). For more information, see [Setting Namespace Security with the WMI Control](setting-namespace-security-with-the-wmi-control.md).
 
 
 </dt> </dl> </dd> <dt>
@@ -66,7 +66,7 @@ Allows a user account to write to classes in the WMI repository as well as insta
 
 
 
-Allows you to write data to instances only, not classes. A user cannot write classes to the [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository). Only members of the Administrators group have this right. **WBEM\_PARTIAL\_WRITE\_REP** corresponds to the Partial Write permission on the Security tab of the WMI Control.
+Allows you to write data to instances only, not classes. A user cannot write classes to the [*WMI repository*](gloss-w.md). Only members of the Administrators group have this right. **WBEM\_PARTIAL\_WRITE\_REP** corresponds to the Partial Write permission on the Security tab of the WMI Control.
 
 
 </dt> </dl> </dd> <dt>

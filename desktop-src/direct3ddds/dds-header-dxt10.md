@@ -144,7 +144,7 @@ Contains additional metadata (formerly was reserved). The lower 3 bits indicate 
 
 ## Remarks
 
-Use this structure together with a [**DDS\_HEADER**](dds-header.md) to store a resource array in a DDS file. For more info, see [texture arrays](dx-graphics-dds-pguide.md#using-texture-arrays-in-direct3d-1011).
+Use this structure together with a [**DDS\_HEADER**](dds-header.md) to store a resource array in a DDS file. For more info, see [texture arrays](dx-graphics-dds-pguide.md).
 
 This header is present if the **dwFourCC** member of the [**DDS\_PIXELFORMAT**](dds-pixelformat.md) structure is set to 'DX10'.
 

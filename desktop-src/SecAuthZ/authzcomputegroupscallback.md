@@ -103,7 +103,7 @@ Attribute variables must be in the form of an expression when used with logical 
 
 <dl> <dt>
 
-[Basic Access Control Functions](authorization-functions.md#basic-access-control-functions)
+[Basic Access Control Functions](authorization-functions.md)
 </dt> <dt>
 
 [**AuthzAddSidsToContext**](/windows/desktop/api/Authz/nf-authz-authzaddsidstocontext)

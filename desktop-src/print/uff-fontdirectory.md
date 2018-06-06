@@ -76,12 +76,12 @@ Is a set of bit flags. One or more of the following flags can be specified.
 | Flag                               | Definition                                                                                                                                                                |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | FONT\_FL\_DEVICEFONT<br/>    | The font is a device font.<br/>                                                                                                                                     |
-| FONT\_FL\_GLYPHSET\_GTT<br/> | The glyph set is specified in Windows 2000 and later [*GTT*](wdkgloss.g#wdkgloss-glyph-translation-table--gtt-) format.<br/> |
-| FONT\_FL\_GLYPHSET\_RLE<br/> | The glyph set is specified in Windows NT 4.0 [*RLE*](wdkgloss.r#wdkgloss-run-length-encoded--rle--bitmap) format.<br/>     |
+| FONT\_FL\_GLYPHSET\_GTT<br/> | The glyph set is specified in Windows 2000 and later [*GTT*](https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4) format.<br/> |
+| FONT\_FL\_GLYPHSET\_RLE<br/> | The glyph set is specified in Windows NT 4.0 [*RLE*](https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000) format.<br/>     |
 | FONT\_FL\_IFI<br/>           | Font metrics are specified in Windows NT 4.0 IFI format.<br/>                                                                                                       |
 | FONT\_FL\_PERMANENT\_SF<br/> | The font is a PCL permanent soft font.<br/>                                                                                                                         |
-| FONT\_FL\_SOFTFONT<br/>      | The font is a [*PCL*](wdkgloss.p#wdkgloss-pcl) soft font.<br/>                                                                                         |
-| FONT\_FL\_UFM<br/>           | Font metrics are specified in Windows 2000 and later [*UFM*](wdkgloss.u#wdkgloss-unidrv-font-metrics--ufm-) format.<br/>         |
+| FONT\_FL\_SOFTFONT<br/>      | The font is a [*PCL*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c) soft font.<br/>                                                                                         |
+| FONT\_FL\_UFM<br/>           | Font metrics are specified in Windows 2000 and later [*UFM*](https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414) format.<br/>         |
 
 
 

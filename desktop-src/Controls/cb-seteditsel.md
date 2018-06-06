@@ -45,7 +45,7 @@ The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) of
 
 ## Return value
 
-If the message succeeds, the return value is **TRUE**. If the message is sent to a combo box with the [**CBS\_DROPDOWNLIST**](combo-box-styles.md#cbs-dropdownlist) style, it is CB\_ERR.
+If the message succeeds, the return value is **TRUE**. If the message is sent to a combo box with the [**CBS\_DROPDOWNLIST**](combo-box-styles.md) style, it is CB\_ERR.
 
 ## Remarks
 

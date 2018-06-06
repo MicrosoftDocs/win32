@@ -55,7 +55,7 @@ To run the following [WMI Command-Line Tools](wmi-command-line-tools.md), your a
 
 -   [**wmiadap**](wmiadap.md)
 
-To run the [*WMI Control*](gloss-w.md#wmi-gloss-wmi-control) (Wmimgmt.msc) and make changes to WMI namespace security or auditing settings, your account must have the Edit Security right explicitly granted or be in the local Administrators group. The built-in Administrator account can also change the security or auditing for a namespace.
+To run the [*WMI Control*](gloss-w.md) (Wmimgmt.msc) and make changes to WMI namespace security or auditing settings, your account must have the Edit Security right explicitly granted or be in the local Administrators group. The built-in Administrator account can also change the security or auditing for a namespace.
 
 Wbemtest.exe, a command-line tool that is not supported by Microsoft Customer Support services, can be run by accounts that are not in the local Administrators group, unless a specific operation requires privileges that are normally granted to Administrator accounts.
 
@@ -79,7 +79,7 @@ Disabling Remote UAC by changing the registry entry that controls Remote UAC is 
 
 ## UAC Effect on WMI Data Returned to Scripts or Applications
 
-If a script or application is running under an account in the Administrators group, but not running with an elevated privilege, then you may not get all the data returned because this account is running as a standard user. The WMI [*providers*](gloss-p.md#wmi-gloss-provider) for some classes do not return all instances to a standard user account or an Administrator account that is not running as a full administrator because of UAC filtering.
+If a script or application is running under an account in the Administrators group, but not running with an elevated privilege, then you may not get all the data returned because this account is running as a standard user. The WMI [*providers*](gloss-p.md) for some classes do not return all instances to a standard user account or an Administrator account that is not running as a full administrator because of UAC filtering.
 
 The following classes do not return some instances when the account is filtered by UAC:
 

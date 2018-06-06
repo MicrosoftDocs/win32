@@ -23,7 +23,7 @@ There are no ActionData messages.
 
 ## Remarks
 
-The RMCCPSearch action requires the [**CCP\_DRIVE**](ccp-drive.md) property to be set to the root path on the removable [*volume*](v-gly.md#-msi-volume-gly) that has the installation for any of the qualifying products.
+The RMCCPSearch action requires the [**CCP\_DRIVE**](ccp-drive.md) property to be set to the root path on the removable [*volume*](v-gly.md) that has the installation for any of the qualifying products.
 
 Each file signature in the CCPSearch table is searched for under the path referred to by the [**CCP\_DRIVE**](ccp-drive.md) property using the [DrLocator](drlocator-table.md) table. The absence of the signature from the [Signature](signature-table.md) table denotes a directory. If any signature is determined to exist, the RMCCPSearch action terminates.
 

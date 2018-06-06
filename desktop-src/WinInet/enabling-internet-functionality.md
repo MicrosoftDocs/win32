@@ -94,7 +94,7 @@ hInternetRoot = InternetOpen(TEXT("WinInet Example"),
 
 To begin a session, the [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) function must create a handle off the root handle returned by the [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena) function. [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) sets the server address, port number, user name, password, and type of service.
 
-[**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) uses the root [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena) to establish a session handle. If the [INTERNET\_FLAG\_ASYNC](api-flags.md#internet-flag-async) flag was set in the call to [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena), the call to [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) should include a nonzero context value.
+[**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) uses the root [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena) to establish a session handle. If the [INTERNET\_FLAG\_ASYNC](api-flags.md) flag was set in the call to [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena), the call to [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) should include a nonzero context value.
 
 The server name can contain either the host name (for example, "www.servername.com") or IP number of the site in ASCII dotted-decimal format (for example, "10.0.1.45").
 
@@ -173,9 +173,9 @@ To define the session that is being established, set the service type, flags, an
 
 There are two service types available to [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta): INTERNET\_SERVICE\_FTP and INTERNET\_SERVICE\_HTTP. INTERNET\_SERVICE\_HTTP is used for both HTTP and HTTPS sessions.
 
-[INTERNET\_FLAG\_PASSIVE](api-flags.md#internet-flag-passive) is the only service-specific flag used by the WinINet functions. This flag can be set when the service type is INTERNET\_SERVICE\_FTP in order to use passive FTP semantics.
+[INTERNET\_FLAG\_PASSIVE](api-flags.md) is the only service-specific flag used by the WinINet functions. This flag can be set when the service type is INTERNET\_SERVICE\_FTP in order to use passive FTP semantics.
 
-For all synchronous operations, the value of *dwContext* should be set to zero. If asynchronous operations were established by setting the [INTERNET\_FLAG\_ASYNC](api-flags.md#internet-flag-async) flag in the call to [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena), a nonzero value should be supplied for *dwContext*. For more information on asynchronous operations, see [Setting Up Asynchronous Operations](common-functions.md).
+For all synchronous operations, the value of *dwContext* should be set to zero. If asynchronous operations were established by setting the [INTERNET\_FLAG\_ASYNC](api-flags.md) flag in the call to [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena), a nonzero value should be supplied for *dwContext*. For more information on asynchronous operations, see [Setting Up Asynchronous Operations](common-functions.md).
 
 For FTP sessions, [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) tries to establish a connection to the server on the Internet. For HTTP sessions, [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) does not establish a connection until another function attempts to get information from the server.
 

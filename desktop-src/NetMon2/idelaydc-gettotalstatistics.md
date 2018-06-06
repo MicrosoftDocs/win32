@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IDelaydC::GetTotalStatistics method
 
-The **GetTotalStatistics** method retrieves the [*total statistics*](t.md#-netmon-total-statistics-gly) for the current [*capture*](c.md#-netmon-capture-gly).
+The **GetTotalStatistics** method retrieves the [*total statistics*](t.md) for the current [*capture*](c.md).
 
 ## Syntax
 
@@ -65,7 +65,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 This method returns data only while a capture is in progress; when the capture is paused, calls to this method will not succeed.
 
-Network Monitor also stores [*conversation statistics*](c.md#-netmon-conversation-statistics-gly), which can be retrieved by calling the [IDelaydC::GetConversationStatistics](idelaydc-getconversationstatistics.md) method.
+Network Monitor also stores [*conversation statistics*](c.md), which can be retrieved by calling the [IDelaydC::GetConversationStatistics](idelaydc-getconversationstatistics.md) method.
 
 ## Requirements
 

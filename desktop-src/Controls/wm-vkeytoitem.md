@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_VKEYTOITEM message
 
-Sent by a list box with the [**LBS\_WANTKEYBOARDINPUT**](list-box-styles.md#lbs-wantkeyboardinput) style to its owner in response to a [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280) message.
+Sent by a list box with the [**LBS\_WANTKEYBOARDINPUT**](list-box-styles.md) style to its owner in response to a [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280) message.
 
 
 ```C++
@@ -61,7 +61,7 @@ A return value of  2 is valid only for keys that are not translated into charact
 
 To trap keys that generate a char message and do special processing, the application must subclass the list box, trap both the [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280) and [**WM\_CHAR**](https://msdn.microsoft.com/library/windows/desktop/ms646276) messages, and process the messages appropriately in the subclass procedure.
 
-The preceding remarks apply to regular list boxes that are created with the [**LBS\_WANTKEYBOARDINPUT**](list-box-styles.md#lbs-wantkeyboardinput) style. If the list box is owner-drawn, the application must process the [**WM\_CHARTOITEM**](wm-chartoitem.md) message.
+The preceding remarks apply to regular list boxes that are created with the [**LBS\_WANTKEYBOARDINPUT**](list-box-styles.md) style. If the list box is owner-drawn, the application must process the [**WM\_CHARTOITEM**](wm-chartoitem.md) message.
 
 The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function returns  1.
 

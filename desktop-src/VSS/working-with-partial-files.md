@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # Working with Partial Files
 
-It is sometimes useful to back up and restore only sections of files. VSS provides [*partial file*](vssgloss-p.md#base-vssgloss-partial-file-support) mechanisms, which, if requesters support it, allows writers to specify partial file backups and restores.
+It is sometimes useful to back up and restore only sections of files. VSS provides [*partial file*](vssgloss-p.md) mechanisms, which, if requesters support it, allows writers to specify partial file backups and restores.
 
 Partial file operations are frequently of greatest use to writers that maintain very large files, only a small fraction of which change between backup operations. This being the case, it is frequently useful to copy only that section that changed to backup media. For this reason, partial file operations are typically, but not exclusively, used to support incremental backup and restore operations.
 
 If a writer wants to implement a partial file operation, it uses [**CVssWriter::IsPartialFileSupportEnabled**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-ispartialfilesupportenabled) to determine whether the requester it is working with supports the operation.
 
-If the requester supports partial file operations, and if it adds the component that manages the file (or the component that defines the component set that contains the file) to the Backup Components Document, a writer indicates which sections of the file to save (typically while handling a [**PrepareForBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup) or [*PostSnapshot*](vssgloss-p.md#-win32-vssgloss-prepareforbackup-event) event) by calling [**IVssComponent::AddPartialFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-addpartialfile).
+If the requester supports partial file operations, and if it adds the component that manages the file (or the component that defines the component set that contains the file) to the Backup Components Document, a writer indicates which sections of the file to save (typically while handling a [**PrepareForBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup) or [*PostSnapshot*](vssgloss-p.md) event) by calling [**IVssComponent::AddPartialFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-addpartialfile).
 
 In addition to a path and file name, the writer supplies the range, optional metadata information to [**IVssComponent::AddPartialFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-addpartialfile).
 

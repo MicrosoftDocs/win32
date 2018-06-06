@@ -185,7 +185,7 @@ Administrators often prefer to deploy applications within a corporation without 
 
 ## Avoid using the AlwaysInstallElevated policy.
 
-If the [AlwaysInstallElevated](alwaysinstallelevated.md) policy is not set, applications not distributed by the administrator are installed using the user's privileges and only managed applications get elevated privileges. Setting this policy directs Windows Installer to use system permissions when it installs the application on the system. This method can open a computer to a security risk, because when this policy is set, a non-administrator user can run installations with [*elevated*](e-gly.md#-msi-elevated-gly) privileges and access secure locations on the computer. It is a good practice to use another method than the AlwaysInstallElevated policy when [Installing a Package with Elevated Privileges for a Non-Admin](installing-a-package-with-elevated-privileges-for-a-non-admin.md) or [Patching Per-User Managed Applications](patching-per-user-managed-applications.md).
+If the [AlwaysInstallElevated](alwaysinstallelevated.md) policy is not set, applications not distributed by the administrator are installed using the user's privileges and only managed applications get elevated privileges. Setting this policy directs Windows Installer to use system permissions when it installs the application on the system. This method can open a computer to a security risk, because when this policy is set, a non-administrator user can run installations with [*elevated*](e-gly.md) privileges and access secure locations on the computer. It is a good practice to use another method than the AlwaysInstallElevated policy when [Installing a Package with Elevated Privileges for a Non-Admin](installing-a-package-with-elevated-privileges-for-a-non-admin.md) or [Patching Per-User Managed Applications](patching-per-user-managed-applications.md).
 
 ## Enable the DisableMedia policy to limit unauthorized installation.
 
@@ -241,7 +241,7 @@ You should decide how you intend to service the application before deploying the
 
 If the original source files are required to update your application, this can make servicing the application more difficult. The following methods can help reduce the dependence of updates upon the original sources.
 
--   Use a [*delta patch*](d-gly.md#setup-delta-patch-gly) to update the baseline versions of your application, such as the RTM version and the service pack versions. Follow the guidelines for using delta patches described in the topic: [Reducing Patch Size](reducing-patch-size.md).
+-   Use a [*delta patch*](d-gly.md) to update the baseline versions of your application, such as the RTM version and the service pack versions. Follow the guidelines for using delta patches described in the topic: [Reducing Patch Size](reducing-patch-size.md).
 -   Follow the recommendations listed in the topic: [Preventing a Patch from Requiring Access to the Original Installation Source](preventing-a-patch-from-requiring-access-to-the-original-installation-source.md).
 
 ## Do not distribute unserviceable merge modules.

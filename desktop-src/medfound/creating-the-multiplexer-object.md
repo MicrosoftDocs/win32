@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Creating the Multiplexer Object
 
-The ASF multiplexer is a WMContainer layer object that works with the [ASF Data Object](asf-file-structure.md#data-object) and gives an application the ability to generate ASF data packets for media streams.
+The ASF multiplexer is a WMContainer layer object that works with the [ASF Data Object](asf-file-structure.md) and gives an application the ability to generate ASF data packets for media streams.
 
 The multiplexer object exposes the [**IMFASFMultiplexer**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer) interface. To create the multiplexer, call [**MFCreateASFMultiplexer**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfmultiplexer). This function returns a pointer to an empty object. If the application is writing a new ASF file, the application must initialize the multiplexer with a ContentInfo object. To do this, call [**IMFASFMultiplexer::Initialize**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-initialize). The specified ContentInfo object represents the ASF Header Object of the new file. For information about creating and initializing the ContentInfo object for a new file, see [Initializing the ContentInfo Object of a New ASF File](initializing-the-contentinfo-object-of-a-new-asf-file.md).
 

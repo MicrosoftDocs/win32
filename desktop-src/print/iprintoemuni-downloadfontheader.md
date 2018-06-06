@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemUni::DownloadFontHeader method
 
-The `IPrintOemUni::DownloadFontHeader` method allows a rendering plug-in for [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) to send a font's header information to a printer.
+The `IPrintOemUni::DownloadFontHeader` method allows a rendering plug-in for [*Unidrv*](https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414) to send a font's header information to a printer.
 
 ## Syntax
 
@@ -69,9 +69,9 @@ The method must return one of the following values.
 
 ## Remarks
 
-The `IPrintOemUni::DownloadFontHeader` method is used for supporting soft fonts on printers that do not accept [*PCL*](wdkgloss.p#wdkgloss-pcl) commands. Its purpose is to allow a rendering plug-in to obtain font header information from Unidrv and to send the information to the printer.
+The `IPrintOemUni::DownloadFontHeader` method is used for supporting soft fonts on printers that do not accept [*PCL*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c) commands. Its purpose is to allow a rendering plug-in to obtain font header information from Unidrv and to send the information to the printer.
 
-Information that might be required for constructing a non-[*PCL*](wdkgloss.p#wdkgloss-pcl) font header can be obtained by:
+Information that might be required for constructing a non-[*PCL*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c) font header can be obtained by:
 
 -   Referencing the [**UNIFONTOBJ**](unifontobj.md) structure that is received as an input argument.
 

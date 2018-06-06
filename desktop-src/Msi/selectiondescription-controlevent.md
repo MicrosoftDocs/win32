@@ -15,7 +15,7 @@ The [SelectionTree control](selectiontree-control.md) uses the SelectionDescript
 
 This event can only affect controls that are located on the same dialog box as the [SelectionTree control](selectiontree-control.md).
 
-This ControlEvent requires the user interface to be run at the [*full UI*](f-gly.md#-msi-full-ui-gly) level. This event will not work with a [*reduced UI*](r-gly.md#-msi-reduced-ui-gly) or [*basic UI*](b-gly.md#-msi-basic-ui-gly). For more information, see [User Interface Levels](user-interface-levels.md).
+This ControlEvent requires the user interface to be run at the [*full UI*](f-gly.md) level. This event will not work with a [*reduced UI*](r-gly.md) or [*basic UI*](b-gly.md). For more information, see [User Interface Levels](user-interface-levels.md).
 
 ## Published By
 

@@ -15,7 +15,7 @@ The following example illustrates how to launch an HTML file at the end of an in
 
 The sample must meet the following specifications.
 
--   The Installer executes the custom action only if the [*full UI*](f-gly.md#-msi-full-ui-gly) level is used to install an application.
+-   The Installer executes the custom action only if the [*full UI*](f-gly.md) level is used to install an application.
 -   The Installer executes the custom action only if the component that contains the HTML file is installed to run locally on the computer.
 -   The custom action only runs on the first installation of the application.
 -   The installation does not fail if the custom action fails.

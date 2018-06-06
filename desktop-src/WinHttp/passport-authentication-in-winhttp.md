@@ -34,7 +34,7 @@ The following sections describe the transactions involved in Passport authentica
 
 ### Initial Request
 
-When a client requests a resource on a server that requires Passport authentication, the server checks the request for the presence of [*tickets*](glossary.md#term-ticket). If a valid *ticket* is sent with the request, the server responds with the requested resource. If the *ticket* does not exist on the client, the server responds with a 302 status code. The response includes the challenge header, "WWW-Authenticate: Passport1.4". Clients that are not using Passport can follow the redirection to the Passport login server. More advanced clients typically contact the Passport nexus to determine the location of the Passport login server.
+When a client requests a resource on a server that requires Passport authentication, the server checks the request for the presence of [*tickets*](glossary.md). If a valid *ticket* is sent with the request, the server responds with the requested resource. If the *ticket* does not exist on the client, the server responds with a 302 status code. The response includes the challenge header, "WWW-Authenticate: Passport1.4". Clients that are not using Passport can follow the redirection to the Passport login server. More advanced clients typically contact the Passport nexus to determine the location of the Passport login server.
 
 > [!Note]  
 > Central to the Microsoft Passport network is the Passport *Nexus*, which facilitates synchronization of Passport participant sites to assure that each site has the latest details on network configuration and other issues. Each Passport component (Passport Manager, Login servers, Update servers, and so on) periodically communicates with the Nexus to retrieve the information it needs to locate, and properly communicate with, the other components in the Passport network. This information is retrieved as an XML document called a Component Configuration Document, or CCD.
@@ -47,15 +47,15 @@ The following image shows the initial request to a Passport affiliate.
 
 ### Passport Login Server
 
-A Passport login server handles all requests for [*tickets*](glossary.md#term-ticket) for any resource in a Passport *domain authority*. Before a request can be authenticated using Passport, the client application must contact the login server to obtain the appropriate *tickets*.
+A Passport login server handles all requests for [*tickets*](glossary.md) for any resource in a Passport *domain authority*. Before a request can be authenticated using Passport, the client application must contact the login server to obtain the appropriate *tickets*.
 
-When a client requests [*tickets*](glossary.md#term-ticket) from a Passport login server, the login server typically responds with a 401 status code to indicate that user credentials must be provided. When these credentials are provided, the login server responds with the *tickets* required to access the specified resource on the server that contains the originally requested resource. The login server can also redirect the client to another server that can provide the requested resource.
+When a client requests [*tickets*](glossary.md) from a Passport login server, the login server typically responds with a 401 status code to indicate that user credentials must be provided. When these credentials are provided, the login server responds with the *tickets* required to access the specified resource on the server that contains the originally requested resource. The login server can also redirect the client to another server that can provide the requested resource.
 
 ![image shows a client ticket request to a passport login server.](https://www.bing.com/search?q=image+shows+a+client+ticket+request+to+a+passport+login+server.)
 
 ### Authenticated Request
 
-When the client has the [*tickets*](glossary.md#term-ticket) that correspond to a given server, those *tickets* are included with all requests to that server. If the *tickets* have not been modified since they were retrieved from the Passport login server, and the *tickets* are valid for the resource server, the resource server sends a response that includes both the requested resource and cookies that indicate that the user is authenticated for future requests.
+When the client has the [*tickets*](glossary.md) that correspond to a given server, those *tickets* are included with all requests to that server. If the *tickets* have not been modified since they were retrieved from the Passport login server, and the *tickets* are valid for the resource server, the resource server sends a response that includes both the requested resource and cookies that indicate that the user is authenticated for future requests.
 
 The additional cookies in the response are intended to speed the authentication process. Additional requests in the same session for resources on servers in the same Passport Domain Authority all include these additional cookies. Credentials do not need to be sent to the login server again until the cookies expire.
 
@@ -73,7 +73,7 @@ Typically, a WinHTTP application responds to a 401 status code by supplying auth
 
 However, when responding to a 407 status code, a WinHTTP application must use [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) to provide proxy credentials, rather than [**WinHttpSetCredentials**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetcredentials). Because **WinHttpSetOption** is a less secure way to supply credentials, it should normally be avoided.
 
-Once retrieved, [*tickets*](glossary.md#term-ticket) are managed internally and are automatically sent to applicable servers in future requests.
+Once retrieved, [*tickets*](glossary.md) are managed internally and are automatically sent to applicable servers in future requests.
 
 > [!Note]  
 > WinHTTP enables you to disable automatic redirection by calling the [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) function for the [**WINHTTP\_OPTION\_DISABLE\_FEATURE**](option-flags.md#winhttp-option-disable-feature) flag and specifying a value of [**WINHTTP\_DISABLE\_REDIRECTS**](option-flags.md#winhttp-disable-redirects). Disabling redirection does not interfere with the redirection that WinHTTP handles internally for Passport transactions.
@@ -90,7 +90,7 @@ The ERROR\_WINHTTP\_LOGIN\_FAILURE message is generated if a callback function i
 
 ### Passport Cobranding
 
-Unlike traditional authentication schemes supported by WinHTTP, Passport can be extensively [*cobranded*](glossary.md#term-cobranding). Upon receiving a 401 status code that indicates a challenge, an application can retrieve the *cobranding* graphic and text. Retrieve a URL for the *cobranding* graphic by calling [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) with the WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_URL flag. Retrieve the *cobranding* text by calling [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) with the WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_TEXT flag. These items can be used to customize a credential-gathering dialog.
+Unlike traditional authentication schemes supported by WinHTTP, Passport can be extensively [*cobranded*](glossary.md). Upon receiving a 401 status code that indicates a challenge, an application can retrieve the *cobranding* graphic and text. Retrieve a URL for the *cobranding* graphic by calling [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) with the WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_URL flag. Retrieve the *cobranding* text by calling [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) with the WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_TEXT flag. These items can be used to customize a credential-gathering dialog.
 
 ### Stored User Names and Passwords
 

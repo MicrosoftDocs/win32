@@ -84,7 +84,7 @@ m_d2dContext->EndDraw();
 </tr>
 <tr class="even">
 <td>BorderMode<br/> D2D1_3DTRANSFORM_PROP_BORDER_MODE<br/></td>
-<td>The mode used to calculate the border of the image, soft or hard. See [Border modes](InterpolationMode #1) for more info.<br/> Type is D2D1_BORDER_MODE.<br/> Default value is D2D1_BORDER_MODE_SOFT.<br/></td>
+<td>The mode used to calculate the border of the image, soft or hard. See [Border modes](https://www.bing.com/search?q=Border+modes) for more info.<br/> Type is D2D1_BORDER_MODE.<br/> Default value is D2D1_BORDER_MODE_SOFT.<br/></td>
 </tr>
 <tr class="odd">
 <td>TransformMatrix<br/> D2D1_3DTRANSFORM_PROP_TRANSFORM_MATRIX<br/></td>

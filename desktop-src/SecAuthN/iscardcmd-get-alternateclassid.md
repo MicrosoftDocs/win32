@@ -55,7 +55,7 @@ The method returns the following possible values.
 
 ## Remarks
 
-This method applies to communications using the [*T=0 protocol*](security.t_gly#-security-t-0-protocol-gly). For more information, see [**put\_AlternateClassId**](iscardcmd-put-alternateclassid.md).
+This method applies to communications using the [*T=0 protocol*](https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f). For more information, see [**put\_AlternateClassId**](iscardcmd-put-alternateclassid.md).
 
 ## Examples
 

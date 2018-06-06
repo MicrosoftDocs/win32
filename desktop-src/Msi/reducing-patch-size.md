@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Reducing Patch Size
 
-Beginning with Windows Installer version 3.0, patch authors can use the product baseline cached by the installer to more easily service applications with smaller delta patches. In many cases, a [*delta patch*](d-gly.md#setup-delta-patch-gly) that delivers servicing information to an application can be significantly smaller than a full-file patch or installation package that delivers the same information.
+Beginning with Windows Installer version 3.0, patch authors can use the product baseline cached by the installer to more easily service applications with smaller delta patches. In many cases, a [*delta patch*](d-gly.md) that delivers servicing information to an application can be significantly smaller than a full-file patch or installation package that delivers the same information.
 
 **Windows Installer 2.0:** Not supported. Beginning with Windows Installer 3.0, the installer selectively saves baseline information about files when they are updated.
 

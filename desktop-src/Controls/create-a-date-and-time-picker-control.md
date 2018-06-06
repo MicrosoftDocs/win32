@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # How to Create a Date and Time Picker Control
 
-This topic demonstrates how to dynamically create a date and time picker (DTP) control. The accompanying C++ code example creates a DTP control in a modeless dialog box. It uses the [**DTS\_SHOWNONE**](date-and-time-picker-control-styles.md#dts-shownone) style to enable the user to simulate deactivation of the date within the control.
+This topic demonstrates how to dynamically create a date and time picker (DTP) control. The accompanying C++ code example creates a DTP control in a modeless dialog box. It uses the [**DTS\_SHOWNONE**](date-and-time-picker-control-styles.md) style to enable the user to simulate deactivation of the date within the control.
 
 ## What you need to know
 
@@ -44,7 +44,7 @@ Register the window class by calling the [**InitCommonControlsEx**](/windows/des
 
 ### Step 2:
 
-To create the DTP control, use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function. Specify [**DATETIMEPICK\_CLASS**](common-control-window-classes.md#datetimepick-class) as the window class, and pass the handle to the parent dialog box.
+To create the DTP control, use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function. Specify [**DATETIMEPICK\_CLASS**](common-control-window-classes.md) as the window class, and pass the handle to the parent dialog box.
 
 The following C++ code example uses the [**CreateDialog**](https://msdn.microsoft.com/library/windows/desktop/ms645434) function to create a modeless dialog box. It then calls **CreateWindowEx** to create the DTP control.
 

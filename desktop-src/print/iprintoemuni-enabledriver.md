@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemUni::EnableDriver method
 
-The `IPrintOemUni::EnableDriver` method allows a rendering plug-in for [*Unidrv*](wdkgloss.u#wdkgloss-unidrv) to hook out some graphics DDI functions.
+The `IPrintOemUni::EnableDriver` method allows a rendering plug-in for [*Unidrv*](https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414) to hook out some graphics DDI functions.
 
 ## Syntax
 

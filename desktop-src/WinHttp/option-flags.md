@@ -132,7 +132,7 @@ Alternately, if the server requests the client certificate, but does not require
 
 
 
-Sets the [*code page*](glossary.md#term-code-page) that is used to process the URL (that is, query string). The default is UTF8.
+Sets the [*code page*](glossary.md) that is used to process the URL (that is, query string). The default is UTF8.
 
 
 </dt> </dl> </dd> <dt>
@@ -512,7 +512,7 @@ Retrieves the parent handle to this handle.
 
 
 
-Retrieves a string that contains the [*cobranding*](glossary.md#term-cobranding) text provided by the Passport logon server. This option should be retrieved immediately after the logon server responds with a 401 status code. An application should pass in a buffer size, in bytes, that is big enough to hold the returned string.
+Retrieves a string that contains the [*cobranding*](glossary.md) text provided by the Passport logon server. This option should be retrieved immediately after the logon server responds with a 401 status code. An application should pass in a buffer size, in bytes, that is big enough to hold the returned string.
 
 
 </dt> </dl> </dd> <dt>
@@ -522,7 +522,7 @@ Retrieves a string that contains the [*cobranding*](glossary.md#term-cobranding)
 
 
 
-Retrieves a string that contains a URL for a [*cobranding*](glossary.md#term-cobranding) graphic provided by the Passport logon server. This option should be retrieved immediately after the logon server responds with a 401 status code. An application should pass in a buffer size, in bytes, that is big enough to hold the returned string.
+Retrieves a string that contains a URL for a [*cobranding*](glossary.md) graphic provided by the Passport logon server. This option should be retrieved immediately after the logon server responds with a 401 status code. An application should pass in a buffer size, in bytes, that is big enough to hold the returned string.
 
 
 </dt> </dl> </dd> <dt>
@@ -982,7 +982,7 @@ Takes a **BOOL** and can be set only a session handle. It will only propagate do
 
 
 
-Sets or retrieves the [*user agent*](glossary.md#term-user-agent) string on handles supplied by [**WinHttpOpen**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopen) and used in subsequent [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest) functions, as long as it is not overridden by a header added by [**WinHttpAddRequestHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpaddrequestheaders) or **WinHttpSendRequest**. When retrieving a user agent, the application should pass in a buffer, sized in bytes, that is big enough to hold the returned URL in wide char. When setting the user agent, the buffer size is the length of the string, in characters, plus the **NULL** terminator.
+Sets or retrieves the [*user agent*](glossary.md) string on handles supplied by [**WinHttpOpen**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopen) and used in subsequent [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest) functions, as long as it is not overridden by a header added by [**WinHttpAddRequestHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpaddrequestheaders) or **WinHttpSendRequest**. When retrieving a user agent, the application should pass in a buffer, sized in bytes, that is big enough to hold the returned URL in wide char. When setting the user agent, the buffer size is the length of the string, in characters, plus the **NULL** terminator.
 
 
 </dt> </dl> </dd> <dt>

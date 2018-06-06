@@ -18,7 +18,7 @@ A *variable binding* is the pairing of an SNMP object instance name with an asso
 
 The details of the variable binding list structure are restricted to the Microsoft WinSNMP implementation. A WinSNMP application can access a variable binding list with a handle of type **HSNMP\_VBL**. For more information, see [Resource Handle Objects](resource-handle-objects.md).
 
-The WinSNMP application can construct and manipulate variable binding lists, and include them in PDUs. To perform these operations, the application uses the WinSNMP [variable binding functions](winsnmp-functions.md#winsnmp-variable-binding-functions). For more information about working with WinSNMP and variable binding lists, see the topics listed in the following table.
+The WinSNMP application can construct and manipulate variable binding lists, and include them in PDUs. To perform these operations, the application uses the WinSNMP [variable binding functions](winsnmp-functions.md). For more information about working with WinSNMP and variable binding lists, see the topics listed in the following table.
 
 
 
@@ -31,7 +31,7 @@ The WinSNMP application can construct and manipulate variable binding lists, and
 
  
 
-For more information about variable bindings and variable binding lists, see [RFC1905](Http://go.microsoft.com/fwlink/p/?linkid=84031), "Protocol Operations for Version 2 of the Simple Network Management Protocol (SNMPv2)," and the WinSNMP [Variable Binding Functions](winsnmp-functions.md#winsnmp-variable-binding-functions).
+For more information about variable bindings and variable binding lists, see [RFC1905](Http://go.microsoft.com/fwlink/p/?linkid=84031), "Protocol Operations for Version 2 of the Simple Network Management Protocol (SNMPv2)," and the WinSNMP [Variable Binding Functions](winsnmp-functions.md).
 
  
 

@@ -36,8 +36,8 @@ The following set of topics provide guidance on how to implement camera RAW imag
 [Codec Availability and Platform Support](-wic-rawguidelines-availability.md)  
 <dl>
 
-[Codec Discovery](-wic-rawguidelines-availability.md#-codec-discovery)  
-[Windows XP Platform Support](-wic-rawguidelines-availability.md#windows-xp-platform-support)  
+[Codec Discovery](-wic-rawguidelines-availability.md)  
+[Windows XP Platform Support](-wic-rawguidelines-availability.md)  
 </dl> </dd> [RAW Codec Requirements for Windows 7](-wic-rawguidelines-win7.md)  
 [For More Information](-wic-rawguidelines-moreinfo.md)  
 </dl>

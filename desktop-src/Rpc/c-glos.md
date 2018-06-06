@@ -26,7 +26,7 @@ Name-service provider for the Open Software Foundation's Distributed Computing E
 <span id="_rpc_client_stub_glos"></span><span id="_RPC_CLIENT_STUB_GLOS"></span>**client stub**
 </dt> <dd>
 
-MIDL-generated C-language source code. It contains all the functions necessary for the client application to make remote procedure calls using the model of a traditional function call in a standalone application. The client stub is responsible for marshaling input parameters and unmarshaling output parameters. See also [*server stub*](s-glos.md#-rpc-server-stub-glos), [*proxy stub*](p-glos.md#-rpc-proxy-stub-glos).
+MIDL-generated C-language source code. It contains all the functions necessary for the client application to make remote procedure calls using the model of a traditional function call in a standalone application. The client stub is responsible for marshaling input parameters and unmarshaling output parameters. See also [*server stub*](s-glos.md), [*proxy stub*](p-glos.md).
 
 </dd> <dt>
 
@@ -40,14 +40,14 @@ Array whose size is determined at run time by another parameter, structure field
 <span id="_rpc_connection_oriented_glos"></span><span id="_RPC_CONNECTION_ORIENTED_GLOS"></span>**connection-oriented**
 </dt> <dd>
 
-Communications protocol or transport that provides a virtual circuit through which data packets are received in the same order as they were transmitted. If the connection between computers fails, the application is notified. [*TCP*](t-glos.md#-rpc-tcp-glos) and [*SPX*](s-glos.md#-rpc-spx-glos) are examples of connection-oriented protocols. See also [*datagram*](d-glos.md#-rpc-datagram-glos).
+Communications protocol or transport that provides a virtual circuit through which data packets are received in the same order as they were transmitted. If the connection between computers fails, the application is notified. [*TCP*](t-glos.md) and [*SPX*](s-glos.md) are examples of connection-oriented protocols. See also [*datagram*](d-glos.md).
 
 </dd> <dt>
 
 <span id="_rpc_connectionless_glos"></span><span id="_RPC_CONNECTIONLESS_GLOS"></span>**connectionless**
 </dt> <dd>
 
-See [*datagram*](d-glos.md#-rpc-datagram-glos).
+See [*datagram*](d-glos.md).
 
 </dd> <dt>
 

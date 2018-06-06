@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # EM\_SETREADONLY message
 
-Sets or removes the read-only style ([**ES\_READONLY**](edit-control-styles.md#es-readonly)) of an edit control. You can send this message to either an edit control or a rich edit control.
+Sets or removes the read-only style ([**ES\_READONLY**](edit-control-styles.md)) of an edit control. You can send this message to either an edit control or a rich edit control.
 
 ## Parameters
 
@@ -30,7 +30,7 @@ Sets or removes the read-only style ([**ES\_READONLY**](edit-control-styles.md#e
 *wParam* 
 </dt> <dd>
 
-Specifies whether to set or remove the [**ES\_READONLY**](edit-control-styles.md#es-readonly) style. A value of **TRUE** sets the **ES\_READONLY** style; a value of **FALSE** removes the **ES\_READONLY** style.
+Specifies whether to set or remove the [**ES\_READONLY**](edit-control-styles.md) style. A value of **TRUE** sets the **ES\_READONLY** style; a value of **FALSE** removes the **ES\_READONLY** style.
 
 </dd> <dt>
 
@@ -49,9 +49,9 @@ If the operation fails, the return value is zero.
 
 ## Remarks
 
-When an edit control has the [**ES\_READONLY**](edit-control-styles.md#es-readonly) style, the user cannot change the text within the edit control.
+When an edit control has the [**ES\_READONLY**](edit-control-styles.md) style, the user cannot change the text within the edit control.
 
-To determine whether an edit control has the [**ES\_READONLY**](edit-control-styles.md#es-readonly) style, use the [**GetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633584) function with the GWL\_STYLE flag.
+To determine whether an edit control has the [**ES\_READONLY**](edit-control-styles.md) style, use the [**GetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633584) function with the GWL\_STYLE flag.
 
 **Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 

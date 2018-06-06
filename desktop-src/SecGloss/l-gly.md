@@ -35,7 +35,7 @@ A more easily implemented subset of the X.500 DAP standard for directory service
 
 A memory or data format in which the least significant byte is stored at the lower address or arrives first.
 
-See also [*big-endian*](b-gly.md#-security-big-endian-gly).
+See also [*big-endian*](b-gly.md).
 
 </dd> <dt>
 
@@ -49,7 +49,7 @@ See also [*big-endian*](b-gly.md#-security-big-endian-gly).
 <span id="_security_local_registration_authority_gly"></span><span id="_SECURITY_LOCAL_REGISTRATION_AUTHORITY_GLY"></span>**local registration authority**
 </dt> <dd>
 
-(LRA) An intermediary between a publisher and a [*certification authority*](c-gly.md#-security-certification-authority-gly) (CA). The LRA can, for example, verify a publisher's credentials before sending them to the CA.
+(LRA) An intermediary between a publisher and a [*certification authority*](c-gly.md) (CA). The LRA can, for example, verify a publisher's credentials before sending them to the CA.
 
 </dd> <dt>
 
@@ -63,35 +63,35 @@ See also [*big-endian*](b-gly.md#-security-big-endian-gly).
 <span id="_security_logical_store_gly"></span><span id="_SECURITY_LOGICAL_STORE_GLY"></span>**logical store**
 </dt> <dd>
 
-See [*virtual store*](v-gly.md#-security-virtual-store-gly).
+See [*virtual store*](v-gly.md).
 
 </dd> <dt>
 
 <span id="_security_logon_data_gly"></span><span id="_SECURITY_LOGON_DATA_GLY"></span>**logon data**
 </dt> <dd>
 
-Information presented to the system by a [*security principal*](s-gly.md#-security-security-principal-gly) for authentication.
+Information presented to the system by a [*security principal*](s-gly.md) for authentication.
 
 </dd> <dt>
 
 <span id="_security_logon_identifier_gly"></span><span id="_SECURITY_LOGON_IDENTIFIER_GLY"></span>**logon identifier**
 </dt> <dd>
 
-An LUID that identifies a *logon session*. A logon ID is valid until the user logs off. A logon ID is unique while the computer is running; no other logon session will have the same logon ID. However, the set of possible logon IDs is reset when the computer starts up. To retrieve the logon ID from an [*access token*](a-gly.md#-security-access-token-gly), call the **GetTokenInformation** function for TokenStatistics; the logon ID is in the **AuthenticationId** member.
+An LUID that identifies a *logon session*. A logon ID is valid until the user logs off. A logon ID is unique while the computer is running; no other logon session will have the same logon ID. However, the set of possible logon IDs is reset when the computer starts up. To retrieve the logon ID from an [*access token*](a-gly.md), call the **GetTokenInformation** function for TokenStatistics; the logon ID is in the **AuthenticationId** member.
 
 </dd> <dt>
 
 <span id="_security_logon_session_gly"></span><span id="_SECURITY_LOGON_SESSION_GLY"></span>**logon session**
 </dt> <dd>
 
-A logon session begins whenever a user logs on to a computer. All processes in a logon session have the same primary [*access token*](a-gly.md#-security-access-token-gly). The access token contains information about the security context of the logon session, including the user's SID, the *logon identifier*, and the *logon SID*.
+A logon session begins whenever a user logs on to a computer. All processes in a logon session have the same primary [*access token*](a-gly.md). The access token contains information about the security context of the logon session, including the user's SID, the *logon identifier*, and the *logon SID*.
 
 </dd> <dt>
 
 <span id="_security_logon_sid_gly"></span><span id="_SECURITY_LOGON_SID_GLY"></span>**logon SID**
 </dt> <dd>
 
-A [*security identifier*](s-gly.md#-security-security-identifier-gly) (SID) that identifies a *logon session*. You can use the logon SID in a [*DACL*](d-gly.md#-security-discretionary-access-control-list-gly) to control access during a logon session. A logon SID is valid until the user logs off. A logon SID is unique while the computer is running; no other logon session will have the same logon SID. However, the set of possible logon SIDs is reset when the computer starts up. To retrieve the logon SID from an [*access token*](a-gly.md#-security-access-token-gly), call the **GetTokenInformation** function for TokenGroups.
+A [*security identifier*](s-gly.md) (SID) that identifies a *logon session*. You can use the logon SID in a [*DACL*](d-gly.md) to control access during a logon session. A logon SID is valid until the user logs off. A logon SID is unique while the computer is running; no other logon session will have the same logon SID. However, the set of possible logon SIDs is reset when the computer starts up. To retrieve the logon SID from an [*access token*](a-gly.md), call the **GetTokenInformation** function for TokenGroups.
 
 </dd> <dt>
 
@@ -100,7 +100,7 @@ A [*security identifier*](s-gly.md#-security-security-identifier-gly) (SID) that
 
 Message management functions that operate at a higher level than the base cryptographic functions. These functions provide functionality for encoding data for transmission and for decoding data that has been received. Low-level message functions provide more flexibility than simplified message functions, but require more function calls.
 
-See also [*simplified message functions*](s-gly.md#-security-simplified-message-functions-gly).
+See also [*simplified message functions*](s-gly.md).
 
 </dd> <dt>
 

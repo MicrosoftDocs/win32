@@ -58,36 +58,36 @@ Name of the protocol Help file, if any.
 **pWhoCanPrecedeMe**
 </dt> <dd>
 
-Pointer to a [PF\_FOLLOWSET](pf-followset.md) structure that lists the protocols that can precede the protocol the **PF\_PARSERINFO** structure describes. Network Monitor adds the parser protocol to the [*follow set*](f.md#-netmon-follow-set-gly) of all the protocols in the set.
+Pointer to a [PF\_FOLLOWSET](pf-followset.md) structure that lists the protocols that can precede the protocol the **PF\_PARSERINFO** structure describes. Network Monitor adds the parser protocol to the [*follow set*](f.md) of all the protocols in the set.
 
 </dd> <dt>
 
 **pWhoCanFollowMe**
 </dt> <dd>
 
-Pointer to a [PF\_FOLLOWSET](pf-followset.md) structure that lists the protocol that can follow the protocol the **PF\_PARSERINFO** structure describes. Network Monitor adds the protocols of the set to the [*follow set*](f.md#-netmon-follow-set-gly) of the parser protocol.
+Pointer to a [PF\_FOLLOWSET](pf-followset.md) structure that lists the protocol that can follow the protocol the **PF\_PARSERINFO** structure describes. Network Monitor adds the protocols of the set to the [*follow set*](f.md) of the parser protocol.
 
 </dd> <dt>
 
 **pWhoHandsOffToMe**
 </dt> <dd>
 
-Pointer to a [PF\_HANDOFFSET](pf-handoffset.md) structure that hands-off to the protocol that the **PF\_PARSERINFO** structure describes. Network Monitor adds the parser protocol to the [*handoff sets*](h.md#-netmon-handoff-set-gly) of all the protocols in the set.
+Pointer to a [PF\_HANDOFFSET](pf-handoffset.md) structure that hands-off to the protocol that the **PF\_PARSERINFO** structure describes. Network Monitor adds the parser protocol to the [*handoff sets*](h.md) of all the protocols in the set.
 
 </dd> <dt>
 
 **pWhoDoIHandOffTo**
 </dt> <dd>
 
-Pointer to a [PF\_HANDOFFSET](pf-handoffset.md) structure that lists the protocols that the parser protocol hands off to. Network Monitor adds the protocols of this set to the [*handoff set*](h.md#-netmon-handoff-set-gly) of the parser protocol.
+Pointer to a [PF\_HANDOFFSET](pf-handoffset.md) structure that lists the protocols that the parser protocol hands off to. Network Monitor adds the protocols of this set to the [*handoff set*](h.md) of the parser protocol.
 
 </dd> </dl>
 
 ## Remarks
 
-The **PF\_PARSERINFO** structure is used in the **PF\_PARSERDLLINFO** structure to provide a description of a parser. Network Monitor uses the parser description to update the [*Parser.ini*](p.md#-netmon-parser-ini-gly) file, and the INI files of the parsers that precede and follow the protocol described in the **PF\_PARSERINFO** structure.
+The **PF\_PARSERINFO** structure is used in the **PF\_PARSERDLLINFO** structure to provide a description of a parser. Network Monitor uses the parser description to update the [*Parser.ini*](p.md) file, and the INI files of the parsers that precede and follow the protocol described in the **PF\_PARSERINFO** structure.
 
-A follow set specifies the protocols that follow a protocol. Network Monitor uses a follow set when the parser cannot identify the next protocol from the data in a protocol instance. A follow set is stored in the [*Parser.ini*](p.md#-netmon-parser-ini-gly) file. When the parser is installed for the first time, Network Monitor updates the follow set of the parser protocols that are listed in **pWhoCanPrecedeMe** and **pWhoCanFollowMe**.
+A follow set specifies the protocols that follow a protocol. Network Monitor uses a follow set when the parser cannot identify the next protocol from the data in a protocol instance. A follow set is stored in the [*Parser.ini*](p.md) file. When the parser is installed for the first time, Network Monitor updates the follow set of the parser protocols that are listed in **pWhoCanPrecedeMe** and **pWhoCanFollowMe**.
 
 A handoff set specifies the protocols that follow a protocol. The parser uses a handoff set only when the parser can identify the next protocol from the data in a protocol instance. A handoff set is stored in the INI files of each parser. When the parser is installed for the first time, Network Monitor updates the handoff set of the parser protocols that are listed in **pWhoHandsOffToMe** and **pWhoDoIHandOffTo**.
 

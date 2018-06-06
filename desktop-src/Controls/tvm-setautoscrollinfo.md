@@ -47,7 +47,7 @@ Returns **TRUE**.
 
 ## Remarks
 
-Autoscroll information is used to scroll a nonvisible item into view. The control must have the [**TVS\_EX\_AUTOHSCROLL**](tree-view-control-window-extended-styles.md#tvs-ex-autohscroll) extended style. For information on extended styles, see Tree-View Control Extended Styles.
+Autoscroll information is used to scroll a nonvisible item into view. The control must have the [**TVS\_EX\_AUTOHSCROLL**](tree-view-control-window-extended-styles.md) extended style. For information on extended styles, see Tree-View Control Extended Styles.
 
 ## Requirements
 

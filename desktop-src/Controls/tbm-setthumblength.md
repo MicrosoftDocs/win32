@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # TBM\_SETTHUMBLENGTH message
 
-Sets the length of the slider in a trackbar. This message is ignored if the trackbar does not have the [**TBS\_FIXEDLENGTH**](trackbar-control-styles.md#tbs-fixedlength) style.
+Sets the length of the slider in a trackbar. This message is ignored if the trackbar does not have the [**TBS\_FIXEDLENGTH**](trackbar-control-styles.md) style.
 
 ## Parameters
 

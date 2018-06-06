@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # Adding Work Items
 
-There are two ways to add [*work items*](w.md#-msb-work-items-gly) to the [*Scheduled Tasksfolder*](s.md#-msb-scheduled-tasks-folder-gly). You can create a new work item within the folder, or you can add an existing work item to the folder.
+There are two ways to add [*work items*](w.md) to the [*Scheduled Tasksfolder*](s.md). You can create a new work item within the folder, or you can add an existing work item to the folder.
 
 > [!Note]  
 > Currently, only task objects can be added to the Scheduled Tasks folder. When adding a task, you must know the identifiers for the task class and the task interface [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask).

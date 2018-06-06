@@ -181,7 +181,7 @@ This is a podcast containing both audio and video.
 
 ## Remarks
 
-This enumeration is used by the [WPD\_MEDIA\_META\_GENRE](media-properties.md#wpd-media-meta-genre) property.
+This enumeration is used by the [WPD\_MEDIA\_META\_GENRE](media-properties.md) property.
 
 ## Requirements
 

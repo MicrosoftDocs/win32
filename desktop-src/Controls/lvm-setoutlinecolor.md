@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # LVM\_SETOUTLINECOLOR message
 
-Sets the color of the border of a list-view control if the [**LVS\_EX\_BORDERSELECT**](extended-list-view-styles.md#lvs-ex-borderselect) extended window style is set.
+Sets the color of the border of a list-view control if the [**LVS\_EX\_BORDERSELECT**](extended-list-view-styles.md) extended window style is set.
 
 ## Parameters
 

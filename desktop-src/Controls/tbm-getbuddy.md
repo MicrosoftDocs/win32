@@ -36,8 +36,8 @@ Value indicating which buddy window handle will be retrieved, by relative locati
 
 | Value                                                                                                                                    | Meaning                                                                                                                                                                                                                          |
 |------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="TRUE"></span><span id="true"></span><dl> <dt>****TRUE****</dt> </dl>    | Retrieves the handle to the buddy to the left of the trackbar. If the trackbar control uses the [**TBS\_VERT**](trackbar-control-styles.md#tbs-vert) style, the message will retrieve the buddy above the trackbar.<br/>  |
-| <span id="FALSE"></span><span id="false"></span><dl> <dt>****FALSE****</dt> </dl> | Retrieves the handle to the buddy to the right of the trackbar. If the trackbar control uses the [**TBS\_VERT**](trackbar-control-styles.md#tbs-vert) style, the message will retrieve the buddy below the trackbar.<br/> |
+| <span id="TRUE"></span><span id="true"></span><dl> <dt>****TRUE****</dt> </dl>    | Retrieves the handle to the buddy to the left of the trackbar. If the trackbar control uses the [**TBS\_VERT**](trackbar-control-styles.md) style, the message will retrieve the buddy above the trackbar.<br/>  |
+| <span id="FALSE"></span><span id="false"></span><dl> <dt>****FALSE****</dt> </dl> | Retrieves the handle to the buddy to the right of the trackbar. If the trackbar control uses the [**TBS\_VERT**](trackbar-control-styles.md) style, the message will retrieve the buddy below the trackbar.<br/> |
 
 
 

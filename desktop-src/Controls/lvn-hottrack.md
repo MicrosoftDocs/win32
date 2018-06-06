@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # LVN\_HOTTRACK notification code
 
-Sent by a list-view control when the user moves the mouse over an item. This notification code is only sent by list-view controls that have the [**LVS\_EX\_TRACKSELECT**](extended-list-view-styles.md#lvs-ex-trackselect) extended list-view style. It is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a list-view control when the user moves the mouse over an item. This notification code is only sent by list-view controls that have the [**LVS\_EX\_TRACKSELECT**](extended-list-view-styles.md) extended list-view style. It is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++

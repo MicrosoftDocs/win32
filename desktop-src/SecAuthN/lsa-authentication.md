@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # LSA Authentication
 
-LSA Authentication describes the parts of the [*Local Security Authority*](security.l_gly#-security-local-security-authority-gly) (LSA) that applications can use to authenticate and log users on to the local system. It also describes how to create and call authentication packages and security packages.
+LSA Authentication describes the parts of the [*Local Security Authority*](https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f) (LSA) that applications can use to authenticate and log users on to the local system. It also describes how to create and call authentication packages and security packages.
 
 The LSA Authentication functions let you write an authentication package, a subauthentication package, or a combined security support provider/authentication package (SSP/AP).
 

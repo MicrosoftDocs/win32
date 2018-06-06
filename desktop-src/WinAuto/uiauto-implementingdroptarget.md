@@ -31,7 +31,7 @@ When implementing the **DropTarget** control pattern, use the following guidelin
 -   The **DropTarget** pattern must be supported while a drag operation is in progress. It can be supported even when a drag operation is not in progress.
 -   The [**IDropTargetProvider::DropTargetEffect**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idroptargetprovider-get_droptargeteffect) property is required.
 -   The [**IDropTargetProvider::DropTargetEffects**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idroptargetprovider-get_droptargeteffects) property is required when there is more than one possible drop effect for the target.
--   The element must raise property changed events for the **DropTargetEffect** ([**UIA\_DropTargetDropTargetEffectPropertyId**](uiauto-control-pattern-propids.md#uia-droptargetdroptargeteffectpropertyid)) and **DropTargetEffects** ([**UIA\_DropTargetDropTargetEffectsPropertyId**](uiauto-control-pattern-propids.md#uia-droptargetdroptargeteffectspropertyid)) properties when they change.
+-   The element must raise property changed events for the **DropTargetEffect** ([**UIA\_DropTargetDropTargetEffectPropertyId**](uiauto-control-pattern-propids.md)) and **DropTargetEffects** ([**UIA\_DropTargetDropTargetEffectsPropertyId**](uiauto-control-pattern-propids.md)) properties when they change.
 
 ## Required Members for **IDropTargetProvider**
 
@@ -43,9 +43,9 @@ The following properties and methods are required for implementing the [**IDropT
 |-----------------------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------------|
 | [**DropTargetEffect**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idroptargetprovider-get_droptargeteffect)                       | Property    | None                                                                     |
 | [**DropTargetEffects**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idroptargetprovider-get_droptargeteffects)                     | Property    | Required if the drop target supports more than one possible drop effect. |
-| [**UIA\_DropTarget\_DragEnterEventId**](uiauto-event-ids.md#uia-droptarget-dragentereventid) | Event       | None                                                                     |
-| [**UIA\_DropTarget\_DragLeaveEventId**](uiauto-event-ids.md#uia-droptarget-dragleaveeventid) | Event       | None                                                                     |
-| [**UIA\_DropTarget\_DroppedEventId**](uiauto-event-ids.md#uia-droptarget-droppedeventid)     | Event       | None                                                                     |
+| [**UIA\_DropTarget\_DragEnterEventId**](uiauto-event-ids.md) | Event       | None                                                                     |
+| [**UIA\_DropTarget\_DragLeaveEventId**](uiauto-event-ids.md) | Event       | None                                                                     |
+| [**UIA\_DropTarget\_DroppedEventId**](uiauto-event-ids.md)     | Event       | None                                                                     |
 
 
 

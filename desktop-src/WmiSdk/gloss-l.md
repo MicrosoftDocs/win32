@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 <span id="wmi.gloss_lazy_property"></span><span id="WMI.GLOSS_LAZY_PROPERTY"></span>**lazy property**
 </dt> <dd>
 
-A property, with a resource-intensive return cycle, that is marked with the *lazy* [*qualifier*](gloss-q.md#wmi-gloss-qualifier).
+A property, with a resource-intensive return cycle, that is marked with the *lazy* [*qualifier*](gloss-q.md).
 
 </dd> <dt>
 
@@ -37,7 +37,7 @@ A non-system property of a class that is not inherited from a parent class.
 <span id="wmi.gloss_logical_consumer"></span><span id="WMI.GLOSS_LOGICAL_CONSUMER"></span>**logical consumer**
 </dt> <dd>
 
-An instance of a class derived from the [**\_\_EventConsumer**](--eventconsumer.md) [*system class*](gloss-s.md#wmi-gloss-system-class).
+An instance of a class derived from the [**\_\_EventConsumer**](--eventconsumer.md) [*system class*](gloss-s.md).
 
 </dd> </dl>
 

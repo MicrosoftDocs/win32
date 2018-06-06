@@ -936,7 +936,7 @@ The request to connect and log on to an FTP server failed.
 
 
 
-The MS-Logoff digest header has been returned from the website. This header specifically instructs the digest package to purge credentials for the associated realm. This error will only be returned if [INTERNET\_ERROR\_MASK\_LOGIN\_FAILURE\_DISPLAY\_ENTITY\_BODY](option-flags.md#internet-error-mask-login-failure-display-entity-body) option has been set; otherwise, **ERROR\_INTERNET\_LOGIN\_FAILURE** is returned.
+The MS-Logoff digest header has been returned from the website. This header specifically instructs the digest package to purge credentials for the associated realm. This error will only be returned if [INTERNET\_ERROR\_MASK\_LOGIN\_FAILURE\_DISPLAY\_ENTITY\_BODY](option-flags.md) option has been set; otherwise, **ERROR\_INTERNET\_LOGIN\_FAILURE** is returned.
 
 
 </dt> </dl> </dd> <dt>

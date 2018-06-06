@@ -47,7 +47,7 @@ See *Security Accounts Manager*.
 <span id="_security_sanitized_name_gly"></span><span id="_SECURITY_SANITIZED_NAME_GLY"></span>**sanitized name**
 </dt> <dd>
 
-The form of a certification authority (CA) name that is used in file names (such as for a [*certificate revocation list*](c-gly.md#-security-certificate-revocation-list-gly)) and in registry keys. The process of sanitizing the CA name is necessary to remove characters that are illegal for file names, registry key names, or Distinguished Name values, or that are illegal for technology-specific reasons. In Certificate Services, the sanitization process converts any illegal character in the common name of the CA to a 5-character representation in the format **!***xxxx*, where **!** is used as an escape character and *xxxx* represents four hexadecimal integers that uniquely identify the character being converted.
+The form of a certification authority (CA) name that is used in file names (such as for a [*certificate revocation list*](c-gly.md)) and in registry keys. The process of sanitizing the CA name is necessary to remove characters that are illegal for file names, registry key names, or Distinguished Name values, or that are illegal for technology-specific reasons. In Certificate Services, the sanitization process converts any illegal character in the common name of the CA to a 5-character representation in the format **!***xxxx*, where **!** is used as an escape character and *xxxx* represents four hexadecimal integers that uniquely identify the character being converted.
 
 </dd> <dt>
 
@@ -156,7 +156,7 @@ The security attributes or rules that are currently in effect. For example, the 
 
 A structure and associated data that contains the security information for a securable object. A security descriptor identifies the object's owner and primary group. It can also contain a DACL that controls access to the object, and a SACL that controls the logging of attempts to access the object.
 
-See also [*absolute security descriptor*](a-gly.md#-security-absolute-security-descriptor-gly), [*discretionary access control list*](d-gly.md#-security-discretionary-access-control-list-gly), *self-relative security descriptor*, *system access control list*.
+See also [*absolute security descriptor*](a-gly.md), [*discretionary access control list*](d-gly.md), *self-relative security descriptor*, *system access control list*.
 
 </dd> <dt>
 
@@ -230,7 +230,7 @@ The process of converting data into a string of ones and zeros so that it can be
 
 A computer that responds to commands from a client computer. The client and server work together to perform distributive application functionality.
 
-See also [*client*](c-gly.md#-security-client-gly).
+See also [*client*](c-gly.md).
 
 </dd> <dt>
 
@@ -260,7 +260,7 @@ Refers to a certificate used for server authentication, such as authenticating a
 
 A smart card subsystem component that provides access to specific smart card services by means of COM interfaces.
 
-See also [*primary service provider*](p-gly.md#-security-primary-service-provider-gly).
+See also [*primary service provider*](p-gly.md).
 
 </dd> <dt>
 
@@ -295,7 +295,7 @@ See *Secure Electronic Transaction*.
 <span id="_security_sha_gly"></span><span id="_SECURITY_SHA_GLY"></span>**SHA**
 </dt> <dd>
 
-The CryptoAPI name for the Secure Hash Algorithm, SHA-1. Other hashing algorithms include [*MD2*](m-gly.md#-security-md2-gly), [*MD4*](m-gly.md#-security-md4-gly), and [*MD5*](m-gly.md#-security-md5-gly).
+The CryptoAPI name for the Secure Hash Algorithm, SHA-1. Other hashing algorithms include [*MD2*](m-gly.md), [*MD4*](m-gly.md), and [*MD5*](m-gly.md).
 
 See also *Secure Hash Algorithm*.
 
@@ -334,7 +334,7 @@ A certificate that contains a public key that is used to verify digital signatur
 <span id="_security_signature_file_gly"></span><span id="_SECURITY_SIGNATURE_FILE_GLY"></span>**signature file**
 </dt> <dd>
 
-A file that contains the signature of a particular [*cryptographic service provider*](c-gly.md#-security-cryptographic-service-provider-gly) (CSP). The signature file is necessary to ensure that CryptoAPI recognizes the CSP. CryptoAPI validates this signature periodically to ensure the CSP has not been tampered with.
+A file that contains the signature of a particular [*cryptographic service provider*](c-gly.md) (CSP). The signature file is necessary to ensure that CryptoAPI recognizes the CSP. CryptoAPI validates this signature periodically to ensure the CSP has not been tampered with.
 
 </dd> <dt>
 
@@ -352,7 +352,7 @@ See also *simplified message functions*.
 
 The public/private key pair used for authenticating (digitally signing) messages. Signature key pairs are created by calling **CryptGenKey**.
 
-See also [*exchange key pair*](e-gly.md#-security-exchange-key-pair-gly).
+See also [*exchange key pair*](e-gly.md).
 
 </dd> <dt>
 
@@ -398,7 +398,7 @@ A session key encrypted with the key-exchange public key of the destination user
 
 Message management functions, such as message encryption, decryption, signing, and signature verification functions. Simplified message functions operate at a higher level than the base cryptographic functions or the low-level message functions. Simplified message functions wrap several of the base cryptographic, low-level message, and certificate functions into a single function that performs a specific task in a specific manner, such as encrypting a PKCS \#7 message or signing a message.
 
-See also [*low-level message functions*](l-gly.md#-security-low-level-message-functions-gly).
+See also [*low-level message functions*](l-gly.md).
 
 </dd> <dt>
 
@@ -419,7 +419,7 @@ See *subject interface package*.
 <span id="_security_site_certificate_gly"></span><span id="_SECURITY_SITE_CERTIFICATE_GLY"></span>**site certificate**
 </dt> <dd>
 
-Both server certificates and [*certification authority*](c-gly.md#-security-certification-authority-gly) (CA) certificates are sometimes called site certificates. When referring to a server certificate, the certificate identifies the web server presenting the certificate. When referring to a CA certificate, the certificate identifies the CA that issues server and/or client authentication certificates to the servers and clients that request these certificates.
+Both server certificates and [*certification authority*](c-gly.md) (CA) certificates are sometimes called site certificates. When referring to a server certificate, the certificate identifies the web server presenting the certificate. When referring to a CA certificate, the certificate identifies the CA that issues server and/or client authentication certificates to the servers and clients that request these certificates.
 
 </dd> <dt>
 
@@ -531,7 +531,7 @@ See *Serialized Certificate Store format*.
 <span id="_security_state_gly"></span><span id="_SECURITY_STATE_GLY"></span>**state**
 </dt> <dd>
 
-The set of all persisted values associated with a cryptographic entity such as a key or a hash. This set can include such things as the [*initialization vector*](i-gly.md#-security-initialization-vector-gly) (IV) being used, the algorithm being used, or the value of the entity already calculated.
+The set of all persisted values associated with a cryptographic entity such as a key or a hash. This set can include such things as the [*initialization vector*](i-gly.md) (IV) being used, the algorithm being used, or the value of the entity already calculated.
 
 </dd> <dt>
 
@@ -540,7 +540,7 @@ The set of all persisted values associated with a cryptographic entity such as a
 
 A cipher that serially encrypts data, one bit at a time.
 
-See also [*block cipher*](b-gly.md#-security-block-cipher-gly).
+See also [*block cipher*](b-gly.md).
 
 </dd> <dt>
 
@@ -549,7 +549,7 @@ See also [*block cipher*](b-gly.md#-security-block-cipher-gly).
 
 An optional DLL that provides additional authentication functionality, usually by extending the authentication algorithm. If a subauthentication package is installed, the authentication package will call the subauthentication package before returning its authentication result to the Local Security Authority (LSA).
 
-See also [*Local Security Authority*](l-gly.md#-security-local-security-authority-gly).
+See also [*Local Security Authority*](l-gly.md).
 
 </dd> <dt>
 
@@ -572,23 +572,23 @@ A set of cryptographic algorithms openly declared by the U.S. National Security 
 
 Credentials for use in authenticating a *security principal* to foreign security domains.
 
-See also [*primary credentials*](p-gly.md#-security-primary-credentials-gly).
+See also [*primary credentials*](p-gly.md).
 
 </dd> <dt>
 
 <span id="_security_symmetric_algorithm_gly"></span><span id="_SECURITY_SYMMETRIC_ALGORITHM_GLY"></span>**symmetric algorithm**
 </dt> <dd>
 
-A cryptographic algorithm that typically uses a single key, often referred to as a session key, for encryption and decryption. Symmetric algorithms can be divided into two categories, stream algorithms and block algorithms (also called *stream* and [*block ciphers*](b-gly.md#-security-block-cipher-gly)).
+A cryptographic algorithm that typically uses a single key, often referred to as a session key, for encryption and decryption. Symmetric algorithms can be divided into two categories, stream algorithms and block algorithms (also called *stream* and [*block ciphers*](b-gly.md)).
 
 </dd> <dt>
 
 <span id="_security_symmetric_encryption_gly"></span><span id="_SECURITY_SYMMETRIC_ENCRYPTION_GLY"></span>**symmetric encryption**
 </dt> <dd>
 
-Encryption that uses a single key for both encryption and decryption. Symmetric encryption is preferred when encrypting large amounts of data. Some of the more common symmetric encryption algorithms are [*RC2*](r-gly.md#-security-rc2-gly), [*RC4*](r-gly.md#-security-rc4-gly), and [*Data Encryption Standard*](d-gly.md#-security-data-encryption-standard-gly) (DES).
+Encryption that uses a single key for both encryption and decryption. Symmetric encryption is preferred when encrypting large amounts of data. Some of the more common symmetric encryption algorithms are [*RC2*](r-gly.md), [*RC4*](r-gly.md), and [*Data Encryption Standard*](d-gly.md) (DES).
 
-See also [*public key encryption*](p-gly.md#-security-public-key-encryption-gly).
+See also [*public key encryption*](p-gly.md).
 
 </dd> <dt>
 
@@ -604,14 +604,14 @@ A secret key used with a symmetric cryptographic algorithm (that is, an algorith
 
 (SACL) An ACL that controls the generation of audit messages for attempts to access a securable object. The ability to get or set an object's SACL is controlled by a privilege typically held only by system administrators.
 
-See also [*access control list*](a-gly.md#-security-access-control-list-gly), [*discretionary access control list*](d-gly.md#-security-discretionary-access-control-list-gly), [*privilege*](p-gly.md#-security-privilege-gly).
+See also [*access control list*](a-gly.md), [*discretionary access control list*](d-gly.md), [*privilege*](p-gly.md).
 
 </dd> <dt>
 
 <span id="_security_system_program_interface_gly"></span><span id="_SECURITY_SYSTEM_PROGRAM_INTERFACE_GLY"></span>**system program interface**
 </dt> <dd>
 
-The set of functions provided by a [*cryptographic service provider*](c-gly.md#-security-cryptographic-service-provider-gly) (CSP) that implements an application's functions.
+The set of functions provided by a [*cryptographic service provider*](c-gly.md) (CSP) that implements an application's functions.
 
 </dd> </dl>
 

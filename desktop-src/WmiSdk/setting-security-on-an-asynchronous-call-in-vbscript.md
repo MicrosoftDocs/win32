@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Setting Security on an Asynchronous Call in VBScript
 
-The performance of [*semisynchronous*](gloss-s.md#wmi-gloss-semisynchronous) calls is usually adequate for most situations. Asynchronous calls are generally not a recommended practice for scripts. However, if asynchronous calls must be made, a registry value can be set to force WMI to perform access checks on asynchronous calls.
+The performance of [*semisynchronous*](gloss-s.md) calls is usually adequate for most situations. Asynchronous calls are generally not a recommended practice for scripts. However, if asynchronous calls must be made, a registry value can be set to force WMI to perform access checks on asynchronous calls.
 
 ## 
 

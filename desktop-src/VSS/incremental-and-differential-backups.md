@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Incremental and Differential Backups
 
-As with all important operations under VSS, [*incremental*](vssgloss-i.md#base-vssgloss-incremental-backup-operations) and [*differential*](vssgloss-d.md#base-vssgloss-differential-backup-operations) backups require close cooperation between requesters and writers.
+As with all important operations under VSS, [*incremental*](vssgloss-i.md) and [*differential*](vssgloss-d.md) backups require close cooperation between requesters and writers.
 
 -   [Writer Role in VSS Incremental and Differential Backups](writer-role-in-vss-incremental-and-differential-backups.md)
 -   [Requester Role in VSS Incremental and Differential Backups](requestor-role-in-vss-incremental-and-differential-backups.md)

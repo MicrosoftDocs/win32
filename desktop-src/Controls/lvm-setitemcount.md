@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # LVM\_SETITEMCOUNT message
 
-Causes the list-view control to allocate memory for the specified number of items or sets the virtual number of items in a [virtual list-view control](list-view-controls-overview.md#virtual-list-view-style).
+Causes the list-view control to allocate memory for the specified number of items or sets the virtual number of items in a [virtual list-view control](list-view-controls-overview.md).
 
 ## Parameters
 
@@ -60,13 +60,13 @@ Returns nonzero if successful, or zero otherwise.
 
 How the memory is allocated depends on how the list-view control was created. You can send this message explicitly or use the [**ListView\_SetItemCount**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setitemcount) or [**ListView\_SetItemCountEx**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setitemcountex) macros. For more information, see [Virtual List-View Style](https://msdn.microsoft.com/library/windows/desktop/bb774735.aspx#virtual-listview-style).
 
-If the list-view control was created without the [**LVS\_OWNERDATA**](list-view-window-styles.md#lvs-ownerdata) style, sending this message causes the control to allocate its internal data structures for the specified number of items. This prevents the control from having to allocate the data structures every time an item is added.
+If the list-view control was created without the [**LVS\_OWNERDATA**](list-view-window-styles.md) style, sending this message causes the control to allocate its internal data structures for the specified number of items. This prevents the control from having to allocate the data structures every time an item is added.
 
-If the list-view control was created with the [**LVS\_OWNERDATA**](list-view-window-styles.md#lvs-ownerdata) style (a virtual list view), sending this message sets the virtual number of items that the control contains.
+If the list-view control was created with the [**LVS\_OWNERDATA**](list-view-window-styles.md) style (a virtual list view), sending this message sets the virtual number of items that the control contains.
 
-The *lParam* parameter is intended only for list-view controls that use the [**LVS\_OWNERDATA**](list-view-window-styles.md#lvs-ownerdata) and [**LVS\_REPORT**](list-view-window-styles.md#lvs-report) or [**LVS\_LIST**](list-view-window-styles.md#lvs-list) styles.
+The *lParam* parameter is intended only for list-view controls that use the [**LVS\_OWNERDATA**](list-view-window-styles.md) and [**LVS\_REPORT**](list-view-window-styles.md) or [**LVS\_LIST**](list-view-window-styles.md) styles.
 
-When the common control list-view is a virtualized list-view ([**LVS\_OWNERDATA**](list-view-window-styles.md#lvs-ownerdata)), there is a 100,000,000 item limit on the list-view. In this scenario, **LVM\_SETITEMCOUNT** will return FALSE when it has a *wParam* of 100,000,001.
+When the common control list-view is a virtualized list-view ([**LVS\_OWNERDATA**](list-view-window-styles.md)), there is a 100,000,000 item limit on the list-view. In this scenario, **LVM\_SETITEMCOUNT** will return FALSE when it has a *wParam* of 100,000,001.
 
 ## Requirements
 

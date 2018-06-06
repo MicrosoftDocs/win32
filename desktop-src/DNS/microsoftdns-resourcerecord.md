@@ -205,7 +205,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Time, in seconds, that the RR can be cached by a DNS [*resolver*](r-gly.md#-dns-resolver-gly).
+Time, in seconds, that the RR can be cached by a DNS [*resolver*](r-gly.md).
 
 </dd> </dl>
 

@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 
 # ResourceLocator.AddSelector method
 
-Adds a [*selector*](windows-remote-management-glossary.md#winrm-gloss-selector) to the [**ResourceLocator**](resourcelocator.md) object. The selector specifies a particular instance of a *resource*. You can provide a [**ResourceLocator**](resourcelocator.md) object instead of specifying a resource URI in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
+Adds a [*selector*](windows-remote-management-glossary.md) to the [**ResourceLocator**](resourcelocator.md) object. The selector specifies a particular instance of a *resource*. You can provide a [**ResourceLocator**](resourcelocator.md) object instead of specifying a resource URI in [**Session**](session.md) object operations such as [**Session.Get**](session-get.md), [**Session.Put**](session-put.md), or [**Session.Enumerate**](session-enumerate.md).
 
 ## Syntax
 

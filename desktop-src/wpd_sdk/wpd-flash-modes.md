@@ -85,7 +85,7 @@ Specifies that the flash should be synchronized with other external flash device
 
 ## Remarks
 
-This enumeration is used by the [WPD\_STILL\_IMAGE\_FLASH\_MODE](still-image-properties.md#wpd-still-image-flash-mode) property.
+This enumeration is used by the [WPD\_STILL\_IMAGE\_FLASH\_MODE](still-image-properties.md) property.
 
 ## Requirements
 

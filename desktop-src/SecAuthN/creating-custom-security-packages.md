@@ -21,13 +21,13 @@ The SampSSP sample shipped with the Platform Software Development Kit (SDK) cont
 
 Custom [*security support provider*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-support-provider-gly)/[*authentication packages*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-authentication-package-gly) (SSP/APs) contain security packages that function as authentication packages (APs) and security support providers (SSPs). These packages implement separate APIs to support each role.
 
-Because it functions as an AP, a custom SSP/AP [*security package*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-package-gly) must provide implementations for all of the [Functions Implemented by Authentication Packages](authentication-functions.md#functions-implemented-by-authentication-packages).
+Because it functions as an AP, a custom SSP/AP [*security package*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-package-gly) must provide implementations for all of the [Functions Implemented by Authentication Packages](authentication-functions.md).
 
-To provide integrated security support, a custom SSP/AP security package must provide implementations for the [Functions implemented by SSP/APs](authentication-functions.md#functions-implemented-by-sspaps). [LSA Functions Called by SSP/APs](authentication-functions.md#lsa-functions-called-by-sspaps) describes the support functions available to the SSP/AP developers that want to interact with the LSA.
+To provide integrated security support, a custom SSP/AP security package must provide implementations for the [Functions implemented by SSP/APs](authentication-functions.md). [LSA Functions Called by SSP/APs](authentication-functions.md) describes the support functions available to the SSP/AP developers that want to interact with the LSA.
 
 SSP/AP security packages, in order to perform as both an AP and an SSP, may execute as part of the operating system and as part of a user application. These two modes of execution are known as LSA mode and user mode, respectively. For details about custom security packages in LSA mode see [LSA Mode Initialization](lsa-mode-initialization.md). For details about user mode, see [User Mode Initialization](user-mode-initialization.md).
 
-If a custom SSP/AP security package offers services for client/server applications it should provide implementations for the functions described in [Functions Implemented by User-mode SSP/APs](authentication-functions.md#functions-implemented-by-user-mode-sspaps). [LSA Functions Called By User-mode SSP/APs](authentication-functions.md#lsa-functions-called-by-user-mode-sspaps) describes the support functions available to an SSP/AP executing in a client or server process.
+If a custom SSP/AP security package offers services for client/server applications it should provide implementations for the functions described in [Functions Implemented by User-mode SSP/APs](authentication-functions.md). [LSA Functions Called By User-mode SSP/APs](authentication-functions.md) describes the support functions available to an SSP/AP executing in a client or server process.
 
 For information about registering an SSP/AP DLL, see [Registering SSP/AP DLLs](registering-ssp-ap-dlls.md).
 

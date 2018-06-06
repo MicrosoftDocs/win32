@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **ISCardAuth** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **ISCardAuth** interface definition is provided as a standard that can be followed when developing a [*smart card*](security.s_gly#-security-smart-card-gly) [*service provider*](security.c_gly#-security-cryptographic-service-provider-gly).
+The **ISCardAuth** interface definition is provided as a standard that can be followed when developing a [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) [*service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
 
 The **ISCardAuth** interface can be used to expose authentication services supported by a smart card. These services include application authentication, smart card authentication, and user authentication.
 

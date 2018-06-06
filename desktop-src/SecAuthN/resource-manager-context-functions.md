@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # Resource Manager Context Functions
 
-The following functions establish and release the [*resource manager context*](security.r_gly#-security-resource-manager-context-gly) that is used by the database query and database management functions.
+The following functions establish and release the [*resource manager context*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd) that is used by the database query and database management functions.
 
 
 
 | Topic                                                  | Description                                                                                                                                          |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SCardEstablishContext**](/windows/desktop/api/Winscard/nf-winscard-scardestablishcontext) | Establishes a context for accessing the [*smart card database*](security.s_gly#-security-smart-card-database-gly). |
+| [**SCardEstablishContext**](/windows/desktop/api/Winscard/nf-winscard-scardestablishcontext) | Establishes a context for accessing the [*smart card database*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50). |
 | [**SCardReleaseContext**](/windows/desktop/api/Winscard/nf-winscard-scardreleasecontext)     | Closes an established context.                                                                                                                       |
 
 

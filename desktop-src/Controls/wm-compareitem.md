@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_COMPAREITEM message
 
-Sent to determine the relative position of a new item in the sorted list of an owner-drawn combo box or list box. Whenever the application adds a new item, the system sends this message to the owner of a combo box or list box created with the [**CBS\_SORT**](combo-box-styles.md#cbs-sort) or [**LBS\_SORT**](list-box-styles.md#lbs-sort) style.
+Sent to determine the relative position of a new item in the sorted list of an owner-drawn combo box or list box. Whenever the application adds a new item, the system sends this message to the owner of a combo box or list box created with the [**CBS\_SORT**](combo-box-styles.md) or [**LBS\_SORT**](list-box-styles.md) style.
 
 
 ```C++

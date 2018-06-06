@@ -58,7 +58,7 @@ A set of functions used to create and destroy hash objects, get or set the param
 
 (HMAC) A symmetric keyed hashing algorithm implemented by Microsoft cryptographic service providers. An HMAC is used to verify the integrity of data to help ensure it has not been modified while in storage or transit. It can be used with any iterated cryptographic hash algorithm, such as MD5 or SHA-1. CryptoAPI references this algorithm by its algorithm identifier (CALG\_HMAC) and class (ALG\_CLASS\_HASH).
 
-See also [*Message Authentication Code*](m-gly.md#-security-message-authentication-code-gly).
+See also [*Message Authentication Code*](m-gly.md).
 
 </dd> <dt>
 

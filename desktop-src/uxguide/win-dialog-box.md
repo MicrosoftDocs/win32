@@ -56,7 +56,7 @@ To decide, consider these questions:
 
 -   **Is the purpose to provide users with information, ask users a question, or allow users to select options to perform a command or task?** If not, use another user interface (UI).
 -   **Is the purpose to view and change properties for an object, collection of objects, or a program?** If so, use a [property window](win-property-win.md) or [toolbar](cmd-toolbars.md) instead.
--   **Is the purpose to present a collection of commands or tools?** If so, use a toolbar or [palette window](glossary.md#p).
+-   **Is the purpose to present a collection of commands or tools?** If so, use a toolbar or [palette window](glossary.md).
 -   **Is the purpose to verify that the user wants to proceed with an action?** Is there a clear reason not to proceed and a reasonable chance that sometimes users won't? If so, use a [confirmation](mess-confirm.md).
 -   **Is the purpose to give an error or warning message?** If so, use an [error message](mess-error.md) or [warning message](mess-warn.md).
 -   Is the purpose to:
@@ -74,7 +74,7 @@ To decide, consider these questions:
 
 If so, use the appropriate [common dialog](win-common-dlg.md) instead. Many of these common dialogs are extensible.
 
--   **Is the purpose to perform a multi-step task that requires more than a single window?** If so, use a [task flow](glossary.md#t) or [wizard](win-wizards.md) instead.
+-   **Is the purpose to perform a multi-step task that requires more than a single window?** If so, use a [task flow](glossary.md) or [wizard](win-wizards.md) instead.
 -   **Is the purpose to inform users of a system or program event that isn't related to the current user activity, that doesn't require immediate user action, and users can freely ignore?** If so, use a [notification](mess-notif.md) instead.
 -   **Is the purpose to show program status?** If so, use a [status bar](ctrl-status-bars.md) instead.
 -   **Would it be preferable to use in-place UI?** Dialog boxes can break the user's flow by demanding attention. Sometimes that break in flow is justified, such as when the user must perform an action that is outside the current context. In other cases, a better approach is to present the UI in context, either directly with in-place UI (such as a task pane), or on demand using [progressive disclosure](ctrl-progressive-disclosure-controls.md).
@@ -140,13 +140,13 @@ Dialog boxes have several usage patterns:
 ### Modal dialog boxes
 
 -   **Use for critical or infrequent, one-off tasks that require completion before continuing.**
--   Use a [delayed commit model](glossary.md#d) so that changes don't take effect until explicitly committed.
+-   Use a [delayed commit model](glossary.md) so that changes don't take effect until explicitly committed.
 -   **Implement using a task dialog whenever appropriate to achieve a consistent look.** Task dialogs do require Windows Vista or later, so they aren't suitable for earlier versions of Windows.
 
 ### Modeless dialog boxes
 
 -   **Use for frequent, repetitive, on-going tasks.**
--   Use an [immediate commit model](glossary.md#i) so that changes take effect immediately.
+-   Use an [immediate commit model](glossary.md) so that changes take effect immediately.
 -   For modeless dialogs, use an explicit Close command button in the dialog to close the window. For both, use a Close button on the title bar to close the window.
 -   **Consider making modeless dialog boxes dockable.** Dockable modeless dialogs allow for more flexible placement.
 
@@ -213,7 +213,7 @@ For more information and examples, see [Window Management](win-window-mgt.md).
 
 ### Title bars
 
--   **Dialog boxes don't have title bar icons.** Title bar icons are used as a visual distinction between [primary windows](glossary.md#p) and [secondary windows](glossary.md#s).
+-   **Dialog boxes don't have title bar icons.** Title bar icons are used as a visual distinction between [primary windows](glossary.md) and [secondary windows](glossary.md).
     -   **Exception:** If a dialog box is used to implement a primary window (such as a utility) and therefore appears on the taskbar, it does have a title bar icon. In this case, optimize the title for display on the taskbar by concisely placing the distinguishing information first.
 -   **Dialog boxes always have a Close button.** Modeless dialogs can also have a Minimize button. Resizable dialogs can have a Maximize button.
 -   **Don't disable the Close button.** Having a Close button helps users stay in control by allowing them to close windows they don't want.
@@ -304,7 +304,7 @@ In this example, a removable disk was removed during a file copy.
     -   To display simple feedback, display the feedback in the progress dialog, and change the Cancel button to Close.
     -   To display detailed feedback, close the progress dialog box and display an informational dialog.
 
-**Don't use a notification for completion feedback.** Use either a progress dialog or an [action success notification](mess-notif.md#usage-patterns), but not both.
+**Don't use a notification for completion feedback.** Use either a progress dialog or an [action success notification](mess-notif.md), but not both.
 
 **Time remaining**
 
@@ -555,7 +555,7 @@ For more information and examples, see [Icons](vis-icons.md).
 
 **Yes and No buttons**
 
--   **Prefer specific responses to Yes and No buttons.** While there's nothing wrong with using Yes and No, specific responses can be understood more quickly, resulting in efficient decision making. However, [confirmations](mess-confirm.md) usually have Yes and No buttons to make users give the confirmation [some thought](mess-confirm.md#make-confirmations-require-thought) before responding.
+-   **Prefer specific responses to Yes and No buttons.** While there's nothing wrong with using Yes and No, specific responses can be understood more quickly, resulting in efficient decision making. However, [confirmations](mess-confirm.md) usually have Yes and No buttons to make users give the confirmation [some thought](mess-confirm.md) before responding.
 -   **Use Yes and No buttons only to respond to yes or no questions.** The main instruction should be naturally expressed as a yes or no question. Never use OK and Cancel for yes or no questions.
 
     **Incorrect:**
@@ -806,7 +806,7 @@ For more information and examples, see [Error Messages](mess-error.md) and [Ball
 
 -   When providing user assistance, consider the following options (listed in their order of preference):
     -   Give interactive controls self-explanatory labels. Users are more likely to read the labels on interactive controls than any other text.
-    -   Provide in-context explanations using [static text labels](text-ui.md#usage-patterns).
+    -   Provide in-context explanations using [static text labels](text-ui.md).
     -   Provide a specific Help link to a relevant Help topic.
 -   **Locate Help links at the bottom of the content area of the dialog box.** If the dialog box has a footnote and the Help link is related to it, place the Help link within the footnote.
 
@@ -883,7 +883,7 @@ Choose an account
 -   Use the exact command name for command-based names, but don't include the ellipsis if there is one. You can include the command's menu title if necessary to compose a good title. Example: for an Object... command in an Insert menu, use the title Insert Object.
 -   **If a modeless dialog box appears on the taskbar, optimize the title for display on the taskbar** by concisely placing the distinguishing information first. Examples: "66% Complete," and "3 Reminders."
 -   **Don't include the words "dialog" or "progress" in the title.** This is implied, and leaving it off makes it easier for users to scan.
--   Use [title-style capitalization](glossary.md#t), without ending punctuation.
+-   Use [title-style capitalization](glossary.md), without ending punctuation.
 
 ### Main instructions
 
@@ -905,7 +905,7 @@ In this example, the redundant label is removed, so the main instruction takes t
 
 -   **Be concise use only a single, complete sentence.** Pare the main instruction down to the essential information. If you must explain anything more, use supplemental instruction.
 -   **Use specific verbs whenever possible.** Specific verbs (examples: connect, save, install) are more meaningful to users than generic ones (examples: configure, manage, set).
--   Use [sentence-style capitalization](glossary.md#s).
+-   Use [sentence-style capitalization](glossary.md).
 -   **Don't include final periods if the instruction is a statement.** If the instruction is a question, include a final question mark.
 -   **For progress dialogs, use a gerund phrase briefly explaining the operation in progress,** ending with an ellipsis. Example: Printing your pictures...
 -   **Tip:** You can evaluate a main instruction by imagining what you would say to a friend. If responding with the main instruction would be unnatural, unhelpful, or awkward, rework the instruction.
@@ -933,7 +933,7 @@ For more information and examples, see [Command Link](ctrl-command-links.md) gui
 -   **Start commit button labels with a verb. Exceptions are OK, Yes, and No.**
 -   Use sentence-style capitalization.
 -   Don't use ending punctuation.
--   Assign a unique [access key](glossary.md#glossary).
+-   Assign a unique [access key](glossary.md).
     -   **Exception:** Don't assign access keys to OK and Cancel buttons because Enter and Esc are their access keys. Doing so makes the other access keys easier to assign.
 
 ## Documentation

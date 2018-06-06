@@ -53,7 +53,7 @@ Handle to the list box.
 
 ## Remarks
 
-This notification code is sent only by a list box that has the [**LBS\_NOTIFY**](list-box-styles.md#lbs-notify) style.
+This notification code is sent only by a list box that has the [**LBS\_NOTIFY**](list-box-styles.md) style.
 
 This notification code is not sent if the [**LB\_SETSEL**](lb-setsel.md), [**LB\_SETCURSEL**](lb-setcursel.md), [**LB\_SELECTSTRING**](lb-selectstring.md), [**LB\_SELITEMRANGE**](lb-selitemrange.md) or [**LB\_SELITEMRANGEEX**](lb-selitemrangeex.md) message changes the selection.
 

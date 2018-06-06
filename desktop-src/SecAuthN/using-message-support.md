@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 After a handshake has been completed and a secure connection has been established, an application can use the [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature), [**EncryptMessage (General)**](/windows/desktop/api/Sspi/), [**VerifySignature**](/windows/desktop/api/Sspi/nf-sspi-verifysignature), and [**DecryptMessage (General)**](/windows/desktop/api/Sspi/) functions to exchange signed or encrypted application data with the remote computer.
 
-Examples that use these functions after a [*security context*](security.s_gly#-security-security-context-gly) has been established are demonstrated in the following sections:
+Examples that use these functions after a [*security context*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) has been established are demonstrated in the following sections:
 
 -   [Signing a Message](signing-a-message.md)
 -   [Verifying a Message](verifying-a-message.md)

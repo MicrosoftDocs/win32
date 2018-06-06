@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Providers
 
-[*Providers*](vssgloss-p.md#base-vssgloss-provider) manage running volumes and create the shadow copies of them on demand.
+[*Providers*](vssgloss-p.md) manage running volumes and create the shadow copies of them on demand.
 
 In response to a request from a requester, a provider generates COM events to signal applications of a coming shadow copy, then creates and maintains that copy until it is no longer needed.
 
@@ -35,7 +35,7 @@ Depending on how this is done, a provider can be one of three types:
 
 ## System Provider
 
-One shadow copy provider, the [*system provider*](vssgloss-s.md#base-vssgloss-system-provider), is supplied as a default part of a Windows operating system installation. Currently, the system provider is a particular instance of a software provider. However, this may change in the future.
+One shadow copy provider, the [*system provider*](vssgloss-s.md), is supplied as a default part of a Windows operating system installation. Currently, the system provider is a particular instance of a software provider. However, this may change in the future.
 
 To maintain a "point in time" view of a volume contained in the shadow copy, the system provider uses a copy-on-write technique. Copies of the sectors on disk that have been modified (called "diffs") since the beginning of the shadow copy creation are stored in a shadow copy storage area.
 

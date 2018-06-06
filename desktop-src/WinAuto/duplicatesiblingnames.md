@@ -40,7 +40,7 @@ This issue can cause confusion because screen readers will read the same text fo
 [Name Property](name-property.md)
 </dt> <dt>
 
-[**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid)
+[**UIA\_NamePropertyId**](uiauto-automation-element-propids.md)
 </dt> <dt>
 
 [**IUIAutomationElement.CurrentName**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentname)

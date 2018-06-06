@@ -81,7 +81,7 @@ The first **DWORD** is the number of script commands, followed by an array of co
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)
 </dt> <dt>
 
-[ASF Header Object](asf-file-structure.md#header-object)
+[ASF Header Object](asf-file-structure.md)
 </dt> <dt>
 
 [Presentation Descriptors](presentation-descriptors.md)

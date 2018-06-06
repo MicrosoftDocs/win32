@@ -73,7 +73,7 @@ For more information and examples about how to use the Task Scheduler interfaces
 
 A Task Scheduler 1.0 task is any application or file type that the Task Scheduler can execute. These may include any of the following (as supported by the operating system on which the task will execute): Win32 applications, Win16 applications, OS/2 applications, MS-DOS applications, batch files (\*.bat), command files (\*.cmd), or any properly registered file type.
 
-Data that describes a task is kept in a task file that is stored in the Scheduled Tasks folder. For more information, see [*Scheduled Tasks folder*](s.md#-msb-scheduled-tasks-folder-gly). The name of these task files include the name of the task, followed by a .job file name extension.
+Data that describes a task is kept in a task file that is stored in the Scheduled Tasks folder. For more information, see [*Scheduled Tasks folder*](s.md). The name of these task files include the name of the task, followed by a .job file name extension.
 
 For more information about adding Task Scheduler 1.0 tasks, see [Adding Work Items](adding-work-items.md).
 

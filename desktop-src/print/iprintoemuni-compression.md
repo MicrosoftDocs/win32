@@ -95,7 +95,7 @@ The method must return one of the following values.
 
 The `IPrintOemUni::Compression` method is used by rendering plug-ins to compress scan line data before it is sent to the print spooler. The method's purpose is to provide support for printer-specific compression methods that are not supported by Unidrv.
 
-If the `IPrintOemUni::Compression` method is defined, and if the printer's [*GPD*](wdkgloss.g#wdkgloss-generic-printer-description--gpd-) file contains a CmdEnableOEMComp command entry, Unidrv calls the method each time a scan line is ready to be sent to the print spooler. (For information about the CmdEnableOEMComp command, see [Raster Data Compression Commands](https://www.bing.com/search?q=Raster+Data+Compression+Commands).)
+If the `IPrintOemUni::Compression` method is defined, and if the printer's [*GPD*](https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4) file contains a CmdEnableOEMComp command entry, Unidrv calls the method each time a scan line is ready to be sent to the print spooler. (For information about the CmdEnableOEMComp command, see [Raster Data Compression Commands](https://www.bing.com/search?q=Raster+Data+Compression+Commands).)
 
 The *pInBuf* and *dwInLen* parameter values describe a buffer containing a scan line of image data to be compressed. The *pOutBuf* and *dwOutLen* parameter values describe the buffer into which the `IPrintOemUni::Compression` method should place the compressed data.
 

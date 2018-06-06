@@ -43,7 +43,7 @@ This section contains the following topics:
 [ASF ContentInfo Object](asf-contentinfo-object.md)
 </dt> <dt>
 
-[ASF Header Object](asf-file-structure.md#header-object)
+[ASF Header Object](asf-file-structure.md)
 </dt> <dt>
 
 ASF File Structure

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Deregister callback function
 
-The **Deregister** export function frees the resources used to create the protocol [*property database*](p.md#-netmon-property-database-gly). The parser DLL must implement **Deregister**.
+The **Deregister** export function frees the resources used to create the protocol [*property database*](p.md). The parser DLL must implement **Deregister**.
 
 ## Syntax
 
@@ -43,7 +43,7 @@ None.
 
 Network Monitor calls **Deregister** after passing all the capture information to the parser DLL. The parser DLL must implement a **Deregister** function for each protocol that the parser supports.
 
-When implementing **Deregister**, the parser DLL must call the [DestroyPropertyDatabase](destroypropertydatabase.md) function to release the [*property database*](p.md#-netmon-property-database-gly) resources.
+When implementing **Deregister**, the parser DLL must call the [DestroyPropertyDatabase](destroypropertydatabase.md) function to release the [*property database*](p.md) resources.
 
 
 

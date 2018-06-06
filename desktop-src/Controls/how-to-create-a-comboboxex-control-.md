@@ -28,11 +28,11 @@ This topic demonstrates how to create a ComboBoxEx control.
 
 ### 
 
-To create a ComboBoxEx control, call the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, using [**WC\_COMBOBOXEX**](common-control-window-classes.md#wc-comboboxex) as the window class. You must first register the window class by calling the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function, while specifying the ICC\_USEREX\_CLASSES bit in the accompanying [**INITCOMMONCONTROLSEX**](/windows/desktop/api/Commctrl/ns-commctrl-taginitcommoncontrolsex) structure.
+To create a ComboBoxEx control, call the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, using [**WC\_COMBOBOXEX**](common-control-window-classes.md) as the window class. You must first register the window class by calling the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function, while specifying the ICC\_USEREX\_CLASSES bit in the accompanying [**INITCOMMONCONTROLSEX**](/windows/desktop/api/Commctrl/ns-commctrl-taginitcommoncontrolsex) structure.
 
 ## Complete example
 
-The following application-defined function creates a ComboBoxEx control with the [**CBS\_DROPDOWN**](combo-box-styles.md#cbs-dropdown) style in the main window.
+The following application-defined function creates a ComboBoxEx control with the [**CBS\_DROPDOWN**](combo-box-styles.md) style in the main window.
 
 
 ```C++

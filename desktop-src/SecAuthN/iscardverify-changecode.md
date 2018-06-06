@@ -43,7 +43,7 @@ Pointer to an [**IByteBuffer**](ibytebuffer.md) containing the user's current co
 *pNewCode* \[in\]
 </dt> <dd>
 
-Pointer to an [**IByteBuffer**](ibytebuffer.md) containing the new code that will be presented to the [*smart card*](security.s_gly#-security-smart-card-gly) during the change process to authenticate the user.
+Pointer to an [**IByteBuffer**](ibytebuffer.md) containing the new code that will be presented to the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) during the change process to authenticate the user.
 
 </dd> <dt>
 
@@ -94,7 +94,7 @@ The method returns one of the following possible values:
 
 For a list of all the methods defined by this interface, see [**ISCardVerify**](iscardverify.md).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Requirements
 
@@ -119,7 +119,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 [**ISCardVerify**](iscardverify.md)
 </dt> <dt>
 
-[Smart Card Return Values](authentication-return-values.md#smart-card-return-values)
+[Smart Card Return Values](authentication-return-values.md)
 </dt> </dl>
 
  

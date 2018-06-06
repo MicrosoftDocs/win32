@@ -69,7 +69,7 @@ The property value represents an object identifier.
 
 ## Remarks
 
-This enumeration is used by the [WPD\_PROPERTY\_ATTRIBUTE\_FORM](attributes.md#wpd-property-attribute-form) property to describe how a property's data is stored.
+This enumeration is used by the [WPD\_PROPERTY\_ATTRIBUTE\_FORM](attributes.md) property to describe how a property's data is stored.
 
 ## Requirements
 

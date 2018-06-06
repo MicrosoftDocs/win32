@@ -43,15 +43,15 @@ An SNMP namespace defines a view of a network device.
 
  
 
-The following procedure describes how to create an SNMP WMI [*namespace*](gloss-n.md#wmi-gloss-namespace).
+The following procedure describes how to create an SNMP WMI [*namespace*](gloss-n.md).
 
 **To create an SNMP namespace**
 
-1.  Create an instance of the [**\_\_Namespace**](--namespace.md) system class either by compiling a [*Managed Object Format*](gloss-m.md#wmi-gloss-managed-object-format) .mof file or by using the [COM API for WMI](com-api-for-wmi.md).
+1.  Create an instance of the [**\_\_Namespace**](--namespace.md) system class either by compiling a [*Managed Object Format*](gloss-m.md) .mof file or by using the [COM API for WMI](com-api-for-wmi.md).
 
     For more information, see [Creating Hierarchies Within WMI](creating-hierarchies-within-wmi.md).
 
-2.  Associate SNMP provider [*qualifiers*](gloss-q.md#wmi-gloss-qualifier) with the namespace definition.
+2.  Associate SNMP provider [*qualifiers*](gloss-q.md) with the namespace definition.
 
     The SNMP provider qualifiers contain implementation-specific context information and transport properties that define how the SNMP provider accesses an SNMP device. For more information, see [**Qualifiers Specific to the SNMP Provider**](qualifiers-specific-to-the-snmp-provider.md).
 
@@ -130,7 +130,7 @@ The following commands are an example of how to generate MOF files from the MIB 
 
 ## Adding SNMP MOF Files to the WMI Repository
 
-The following commands are an example of how to add the MOF files that are generated from the MIB files to the WMI repository. If you want to add the MOF files to the list of files to be automatically restored in a [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository) recovery, add the **-AUTORECOVER** flag to the end of each command. For more information about the WMI Mofcomp.exe command-line tool, see [**mofcomp**](mofcomp.md).
+The following commands are an example of how to add the MOF files that are generated from the MIB files to the WMI repository. If you want to add the MOF files to the list of files to be automatically restored in a [*WMI repository*](gloss-w.md) recovery, add the **-AUTORECOVER** flag to the end of each command. For more information about the WMI Mofcomp.exe command-line tool, see [**mofcomp**](mofcomp.md).
 
 **mofcomp** *hostmib.mof*
 

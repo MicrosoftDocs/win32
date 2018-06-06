@@ -40,14 +40,14 @@ Database merged with an installation package to deliver new components to an app
 <span id="_msi_microsoft_windows_installer_gly"></span><span id="_MSI_MICROSOFT_WINDOWS_INSTALLER_GLY"></span>**Microsoft Windows Installer**
 </dt> <dd>
 
-Client-side installer service for managing the installation of applications on 32-bit platforms. The application must be encapsulated in a [*package*](p-gly.md#-msi-package-using-windows-installer-gly). For more information, see [About Windows Installer](about-windows-installer.md).
+Client-side installer service for managing the installation of applications on 32-bit platforms. The application must be encapsulated in a [*package*](p-gly.md). For more information, see [About Windows Installer](about-windows-installer.md).
 
 </dd> <dt>
 
 <span id="_msi_.msi_file_gly"></span><span id="_MSI_.MSI_FILE_GLY"></span>**.msi file**
 </dt> <dd>
 
-COM-structured storage file containing the instructions and data required to install an application. Every [*package*](p-gly.md#-msi-package-using-windows-installer-gly) contains at least one .msi file. The .msi file contains the [*installer database*](i-gly.md#-msi-installer-database-gly), a [*summary information stream*](s-gly.md#-msi-summary-information-stream-gly), and possibly one or more [*transforms*](t-gly.md#-msi-transform-gly) and [*internal source files*](i-gly.md#-msi-internal-source-files-gly). For more information, see [Windows Installer File Extensions](windows-installer-file-extensions.md).
+COM-structured storage file containing the instructions and data required to install an application. Every [*package*](p-gly.md) contains at least one .msi file. The .msi file contains the [*installer database*](i-gly.md), a [*summary information stream*](s-gly.md), and possibly one or more [*transforms*](t-gly.md) and [*internal source files*](i-gly.md). For more information, see [Windows Installer File Extensions](windows-installer-file-extensions.md).
 
 </dd> <dt>
 

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # TBN\_GETOBJECT notification code
 
-Sent by a toolbar control that uses the [**TBSTYLE\_REGISTERDROP**](toolbar-control-and-button-styles.md#tbstyle-registerdrop) style to request a drop target object when the pointer passes over one of its buttons. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Sent by a toolbar control that uses the [**TBSTYLE\_REGISTERDROP**](toolbar-control-and-button-styles.md) style to request a drop target object when the pointer passes over one of its buttons. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++

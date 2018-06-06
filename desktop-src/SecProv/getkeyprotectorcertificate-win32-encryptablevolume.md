@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # GetKeyProtectorCertificate method of the Win32\_EncryptableVolume class
 
-The **GetKeyProtectorCertificate** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class retrieves the [*public key*](security.p_gly#-security-public-key-gly) and [*certificate*](security.c_gly#-security-certificate-gly) thumbprint for a public key protector.
+The **GetKeyProtectorCertificate** method of the [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) class retrieves the [*public key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) and [*certificate*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) thumbprint for a public key protector.
 
 ## Syntax
 

@@ -16,13 +16,13 @@ Network Monitor calls the [**FormatProperties**](formatproperties.md) function t
 When calling [**FormatProperties**](formatproperties.md), Network Monitor provides a [**PROPERTYINST**](propertyinst.md) structure for each property that it displays. The **PROPERTYINST** structure provides information about the data to be displayed, including a pointer to the [**PROPERTYINFO**](propertyinfo.md) structure that specifies the function to use to format the displayed data property.
 
 > [!Note]  
-> A [**PROPERTYINFO**](propertyinfo.md) structure is specified when adding a property to the [*property database*](p.md#-netmon-property-database-gly) of the parser.
+> A [**PROPERTYINFO**](propertyinfo.md) structure is specified when adding a property to the [*property database*](p.md) of the parser.
 
  
 
 Network Monitor identifies the format function to call for each property instance. The **InstanceData** member of the [**PROPERTYINFO**](propertyinfo.md) structure can specify the following:
 
--   The [**FormatPropertyInstance**](formatpropertyinstance.md) function to use the [*generic formatter*](g.md#-netmon-generic-formatter-gly) that Network Monitor provides.
+-   The [**FormatPropertyInstance**](formatpropertyinstance.md) function to use the [*generic formatter*](g.md) that Network Monitor provides.
 
     – or –
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **ManageChannel** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **ManageChannel** method constructs an [*application protocol data unit*](security.a_gly#-security-application-protocol-data-unit-gly) (APDU) command that opens and closes logical channels.
+The **ManageChannel** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) (APDU) command that opens and closes logical channels.
 
 The open function opens a new logical channel other than the basic one. Options are provided for the card to assign a logical channel number, or for the logical channel number to be supplied to the card.
 
@@ -65,7 +65,7 @@ When b1 and/or b2 of P2 are not **NULL**, they code a logical channel number oth
 
 On input, a pointer to an [**ISCardCmd**](iscardcmd.md) interface object or **NULL**.
 
-On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](security.s_gly#-security-smart-card-gly) [**ISCardCmd**](iscardcmd.md) object is internally created and returned using the *ppCmd* pointer.
+On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) [**ISCardCmd**](iscardcmd.md) object is internally created and returned using the *ppCmd* pointer.
 
 </dd> </dl>
 
@@ -96,7 +96,7 @@ After a successful close function, the security status related to this logical c
 
 For a list of all the methods provided by this interface, see [**ISCardISO7816**](iscardiso7816.md).
 
-In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
+In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Requirements
 

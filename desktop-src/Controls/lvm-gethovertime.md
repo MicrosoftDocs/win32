@@ -39,7 +39,7 @@ Returns the amount of time, in milliseconds, that the mouse cursor must hover ov
 
 ## Remarks
 
-The hover time only affects list-view controls that have the [**LVS\_EX\_TRACKSELECT**](extended-list-view-styles.md#lvs-ex-trackselect), [**LVS\_EX\_ONECLICKACTIVATE**](extended-list-view-styles.md#lvs-ex-oneclickactivate), or [**LVS\_EX\_TWOCLICKACTIVATE**](extended-list-view-styles.md#lvs-ex-twoclickactivate) extended list-view style.
+The hover time only affects list-view controls that have the [**LVS\_EX\_TRACKSELECT**](extended-list-view-styles.md), [**LVS\_EX\_ONECLICKACTIVATE**](extended-list-view-styles.md), or [**LVS\_EX\_TWOCLICKACTIVATE**](extended-list-view-styles.md) extended list-view style.
 
 ## Requirements
 

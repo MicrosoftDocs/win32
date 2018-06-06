@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 File restoration on a running system can be problematic. It is important that running applications (writers) indicate what to do when difficulties arise during restores, for instance, if the file being restored is currently in use.
 
-Under VSS, writers have two complementary ways of managing restores—[*restore methods*](vssgloss-r.md#base-vssgloss-restore-method) and [*restore targets*](vssgloss-r.md#base-vssgloss-restore-target).
+Under VSS, writers have two complementary ways of managing restores—[*restore methods*](vssgloss-r.md) and [*restore targets*](vssgloss-r.md).
 
 In addition, requesters can choose to restore files to previously unspecified locations and notify writers (see [**IVssBackupComponents::AddNewTarget**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addnewtarget)).
 

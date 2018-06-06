@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # LVM\_SETICONSPACING message
 
-Sets the spacing between icons in list-view controls that have the [**LVS\_ICON**](list-view-window-styles.md#lvs-icon) style. You can send this message explicitly or by using the [**ListView\_SetIconSpacing**](/windows/desktop/api/Commctrl/nf-commctrl-listview_seticonspacing) macro.
+Sets the spacing between icons in list-view controls that have the [**LVS\_ICON**](list-view-window-styles.md) style. You can send this message explicitly or by using the [**ListView\_SetIconSpacing**](/windows/desktop/api/Commctrl/nf-commctrl-listview_seticonspacing) macro.
 
 ## Parameters
 

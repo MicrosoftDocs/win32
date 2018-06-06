@@ -88,7 +88,7 @@ Users focus on the main interactive controls and the prominent main instruction,
 
 -   Users tend to read interactive control labels, especially those that appear relevant to completing the task at hand. By contrast, users tend to read static text only when they think they need to.
 -   Items that appear different attract attention. Bold text and large text stands out from normal text. UI items with color or on a colored background stand out. Items with icons stand out from items without icons.
--   Users don't scroll unless they have a reason to. If the content [above the fold](glossary.md#glossary) doesn't provide a reason to scroll, they won't.
+-   Users don't scroll unless they have a reason to. If the content [above the fold](glossary.md) doesn't provide a reason to scroll, they won't.
 -   Once users have decided what to do, they immediately stop scanning and do it.
 -   Because users stop scanning when they think they are done, they tend to ignore anything beyond what appears to be the point of completion.
 
@@ -118,14 +118,14 @@ To design for scanning:
 -   Place UI elements that complete a task in the lower-right corner.
 -   Whenever possible, put crucial text on interactive controls instead of static text.
 -   Avoid putting crucial information in the lower-left corner or at the bottom of a long scrollable control or page.
--   Don't present big blocks of text. Eliminate unnecessary text. Use the [inverted pyramid](text-ui.md#use-the-inverted-pyramid) presentation style.
+-   Don't present big blocks of text. Eliminate unnecessary text. Use the [inverted pyramid](text-ui.md) presentation style.
 -   If you do something to attract users' attention, make sure that attention is warranted.
 
 Whenever possible, work with this model rather than fighting it; but there will be times when you need to either emphasize or de-emphasize particular UI elements.
 
 To emphasize primary UI elements:
 
--   Put primary UI elements in the [scan path](glossary.md#s).
+-   Put primary UI elements in the [scan path](glossary.md).
 -   Put any UI to initiate a task in the upper-left corner or upper-center.
 -   Put commit buttons in the lower-right corner.
 -   Put the remaining primary UI in the center.
@@ -156,7 +156,7 @@ To de-emphasize secondary UI elements:
 
 ### Using screen space effectively
 
-Using screen space effectively requires you to balance several factors: use too much space and a window feels heavy and wasteful, and even difficult to use based on [Fitts' Law](inter-mouse.md#fitts-law).
+Using screen space effectively requires you to balance several factors: use too much space and a window feels heavy and wasteful, and even difficult to use based on [Fitts' Law](inter-mouse.md).
 
 **Incorrect:**
 
@@ -172,7 +172,7 @@ On the other hand, use too little space and a window feels cramped, uncomfortabl
 
 In this example, the window is too small for its content.
 
-While critical UI must fit in the minimum supported [effective resolution](glossary.md#e), don't assume that using screen space effectively means that windows should be as small as possible they shouldn't be. **Effective layout has respect for open space and doesn't attempt to cram everything into the smallest space possible.** Modern displays have significant screen space and it makes sense to use this space effectively when you can. Consequently, err on the side of using too much screen space rather than too little. Doing so makes your windows feel lighter and more approachable.
+While critical UI must fit in the minimum supported [effective resolution](glossary.md), don't assume that using screen space effectively means that windows should be as small as possible they shouldn't be. **Effective layout has respect for open space and doesn't attempt to cram everything into the smallest space possible.** Modern displays have significant screen space and it makes sense to use this space effectively when you can. Consequently, err on the side of using too much screen space rather than too little. Doing so makes your windows feel lighter and more approachable.
 
 You know a layout is using screen space effectively when:
 
@@ -371,7 +371,7 @@ Because of the left-to-right reading order, left alignment works well for most c
 
 **Right alignment**
 
-Right alignment is the best choice for numeric data, especially [columns of numeric data](ctrl-text-boxes.md). Right alignment also works well for [commit buttons](glossary.md#c) as well as controls aligned with right window edge.
+Right alignment is the best choice for numeric data, especially [columns of numeric data](ctrl-text-boxes.md). Right alignment also works well for [commit buttons](glossary.md) as well as controls aligned with right window edge.
 
 ![screen shot of advanced search down-arrow button ](images/vis-layout-image28.png)
 
@@ -578,7 +578,7 @@ As a general rule, if a layout element can be eliminated without harming the eff
 
 ### Screen resolution and dpi
 
--   **Support the minimum Windows effective resolution of 800x600 pixels.** For critical UIs that must work in safe mode, support an effective resolution of 640x480 pixels. Be sure to account for the space used by the taskbar by reserving 48 vertical [relative pixels](glossary.md#r) for windows displayed with the taskbar.
+-   **Support the minimum Windows effective resolution of 800x600 pixels.** For critical UIs that must work in safe mode, support an effective resolution of 640x480 pixels. Be sure to account for the space used by the taskbar by reserving 48 vertical [relative pixels](glossary.md) for windows displayed with the taskbar.
 -   **Optimize resizable window layouts for an effective resolution of 1024x768 pixels.** Automatically resize these windows for lower screen resolutions in a way that is still functional.
 -   **Be sure to test your windows in 96 dots per inch (dpi) (at 800x600 pixels), 120 dpi (at 1024x768 pixels), and 144 dpi (at 1200x900 pixels) modes.** Check for layout problems, such as clipping of controls, text, and windows, and stretching of icons and bitmaps.
 -   **For programs with touch and mobile use scenarios, optimize for 120 dpi.** High-dpi screens are currently prevalent on touch and mobile PCs.

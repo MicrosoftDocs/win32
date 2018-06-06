@@ -92,7 +92,7 @@ Null entered in this column is reserved for future use.
 
 ## Remarks
 
-The [InstallFiles](installfiles-action.md), [WriteRegistryValues](writeregistryvalues-action.md), and [CreateFolders](createfolders-action.md) actions in [*sequence tables*](s-gly.md#-msi-sequence-tables-gly) process the information in this table. For information about using *sequence tables*, see [Using a Sequence Table](using-a-sequence-table.md).
+The [InstallFiles](installfiles-action.md), [WriteRegistryValues](writeregistryvalues-action.md), and [CreateFolders](createfolders-action.md) actions in [*sequence tables*](s-gly.md) process the information in this table. For information about using *sequence tables*, see [Using a Sequence Table](using-a-sequence-table.md).
 
 Permission can only be set in the LockPermissions Table for users that already exist on the computer or domain. An attempt to set permissions for an unknown user causes the installation to fail, even if that user account is created during the installation by a deferred custom action.
 

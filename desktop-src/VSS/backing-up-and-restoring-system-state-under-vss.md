@@ -25,7 +25,7 @@ When performing a VSS backup or restore, the Windows system state is defined as 
 
 In Windows Server 2003 R2 and Windows Server 2003 with SP1, there is no Windows API designed to treat these objects as one, so it is recommended that requesters have their own system state object so that they can process these components in a consistent manner.
 
-Because VSS runs on versions of Windows where [*System File Protection*](vssgloss-s.md#base-vssgloss-system-file-protection) (WFP) protects system state files from corruption, special steps are needed to back up and restore system state.
+Because VSS runs on versions of Windows where [*System File Protection*](vssgloss-s.md) (WFP) protects system state files from corruption, special steps are needed to back up and restore system state.
 
 System state consists of the following:
 
@@ -53,7 +53,7 @@ Some system services, such as the Certification Authority, have conventional VSS
 
 The boot and system files should be backed up and restored only as a single entity.
 
-A requester can safely use shadow-copied versions of these files, and should be sure that the system volume and boot device are [*shadow copied*](vssgloss-s.md#base-vssgloss-shadow-copy).
+A requester can safely use shadow-copied versions of these files, and should be sure that the system volume and boot device are [*shadow copied*](vssgloss-s.md).
 
 The system and boot files include:
 
@@ -64,7 +64,7 @@ The system and boot files include:
     </dl>
 -   The WFP service catalog file must be backed up prior to backing up the WFP files, and it is found under: <dl> %SystemRoot%\\System32\\CatRoot\\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}  
     </dl>
--   All files protected by [*System File Protection*](vssgloss-s.md#base-vssgloss-system-file-protection) and enumerated by [**SfcGetNextProtectedFile**](https://msdn.microsoft.com/122261d5-b758-4088-8c8b-64b38c6092f1) (see VSS Restore Operations of WFP Protected Files)
+-   All files protected by [*System File Protection*](vssgloss-s.md) and enumerated by [**SfcGetNextProtectedFile**](https://msdn.microsoft.com/122261d5-b758-4088-8c8b-64b38c6092f1) (see VSS Restore Operations of WFP Protected Files)
 -   The Performance Counter Configuration files: <dl> %SystemRoot%\\System32\\Perf?00?.dat  
     %SystemRoot%\\System32\\Perf?00?.bak  
     </dl>

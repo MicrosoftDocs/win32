@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # LB\_ADDSTRING message
 
-Adds a string to a list box. If the list box does not have the [**LBS\_SORT**](list-box-styles.md#lbs-sort) style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted.
+Adds a string to a list box. If the list box does not have the [**LBS\_SORT**](list-box-styles.md) style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted.
 
 ## Parameters
 
@@ -39,7 +39,7 @@ This parameter is not used.
 
 A pointer to the null-terminated string that is to be added.
 
-If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style, this parameter is stored as item data instead of a string. You can send the **LB\_GETITEMDATA** and **LB\_SETITEMDATA** messages to retrieve or modify the item data.
+If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-box-styles.md) style, this parameter is stored as item data instead of a string. You can send the **LB\_GETITEMDATA** and **LB\_SETITEMDATA** messages to retrieve or modify the item data.
 
 </dd> </dl>
 
@@ -49,7 +49,7 @@ The return value is the zero-based index of the string in the list box. If an er
 
 ## Remarks
 
-If the list box has an owner-drawn style and the [**LBS\_SORT**](list-box-styles.md#lbs-sort) style, but not the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style, the system sends the [**WM\_COMPAREITEM**](wm-compareitem.md) message one or more times to the owner of the list box to place the new item properly in the list box.
+If the list box has an owner-drawn style and the [**LBS\_SORT**](list-box-styles.md) style, but not the [**LBS\_HASSTRINGS**](list-box-styles.md) style, the system sends the [**WM\_COMPAREITEM**](wm-compareitem.md) message one or more times to the owner of the list box to place the new item properly in the list box.
 
 The [**LB\_INITSTORAGE**](lb-initstorage.md) message helps speed up the initialization of list boxes that have a large number of items (more than 100). It reserves the specified amount of memory so that subsequent **LB\_ADDSTRING** messages take the shortest possible time. You can use estimates for the *wParam* and *lParam* parameters. If you overestimate, the extra memory is allocated; if you underestimate, the normal allocation is used for items that exceed the requested amount.
 

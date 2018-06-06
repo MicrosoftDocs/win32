@@ -47,7 +47,7 @@ If the function is unsuccessful, the MAC type is unknown, the return value is -1
 
 ## Remarks
 
-[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **MacTypeToAddressType** function.
+[*Experts*](e.md) and [*parsers*](p.md) can call the **MacTypeToAddressType** function.
 
 ## Requirements
 

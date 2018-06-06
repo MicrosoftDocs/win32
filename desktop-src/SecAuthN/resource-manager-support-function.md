@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Resource Manager Support Function
 
-The following function frees memory allocated through the use of the SCARD\_AUTOALLOCATE length designator, simplifying the use of the other [*resource manager*](security.r_gly#-security-resource-manager-gly) functions.
+The following function frees memory allocated through the use of the SCARD\_AUTOALLOCATE length designator, simplifying the use of the other [*resource manager*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd) functions.
 
 
 

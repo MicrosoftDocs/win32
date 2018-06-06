@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # UNIDRVINFO structure
 
-The UNIDRVINFO structure is used to specify printer-specific information within [Unidrv font metrics files](print.customized_font_management#ddk-unidrv-font-metrics-files-gg) (.ufm files).
+The UNIDRVINFO structure is used to specify printer-specific information within [Unidrv font metrics files](https://www.bing.com/search?q=Unidrv+font+metrics+files) (.ufm files).
 
 ## Syntax
 

@@ -1396,7 +1396,7 @@ Not implemented.
 
 0x00001000
 
-Ignores the [ERROR\_INTERNET\_SEC\_CERT\_CN\_INVALID](wininet-errors.md#error-internet-sec-cert-cn-invalid) error message.
+Ignores the [ERROR\_INTERNET\_SEC\_CERT\_CN\_INVALID](wininet-errors.md) error message.
 
 </dd> <dt>
 
@@ -1405,7 +1405,7 @@ Ignores the [ERROR\_INTERNET\_SEC\_CERT\_CN\_INVALID](wininet-errors.md#error-in
 
 0x00002000
 
-Ignores the [ERROR\_INTERNET\_SEC\_CERT\_DATE\_INVALID](wininet-errors.md#error-internet-sec-cert-date-invalid) error message.
+Ignores the [ERROR\_INTERNET\_SEC\_CERT\_DATE\_INVALID](wininet-errors.md) error message.
 
 </dd> <dt>
 

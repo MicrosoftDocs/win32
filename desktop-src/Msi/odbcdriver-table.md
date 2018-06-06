@@ -70,7 +70,7 @@ The setup DLL file for the driver if it is different than from Driver. The File\
 
 ## Remarks
 
-The [InstallODBC](installodbc-action.md) and [RemoveODBC](removeodbc-action.md) actions in [*sequence tables*](s-gly.md#-msi-sequence-tables-gly) process the information in this table. For information about using *sequence tables*, see [Using a Sequence Table](using-a-sequence-table.md).
+The [InstallODBC](installodbc-action.md) and [RemoveODBC](removeodbc-action.md) actions in [*sequence tables*](s-gly.md) process the information in this table. For information about using *sequence tables*, see [Using a Sequence Table](using-a-sequence-table.md).
 
 ## Validation
 

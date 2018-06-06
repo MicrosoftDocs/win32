@@ -73,7 +73,7 @@ if (SUCCEEDED(hr))
 
 ## Extended support for WARP devices
 
-Direct3D 11.2 extends support for [WARP](overviews-direct3d-11-devices-create-warp.md) devices, which you create by passing [**D3D\_DRIVER\_TYPE\_WARP**](d3d-driver-type.md#d3d-driver-type-warp) in the *DriverType* parameter of [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice). The WARP software renderer in Direct3D 11.2 adds full support for Direct3D [feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 11\_1, including [tiled resources](#tiled-resources), [**IDXGIDevice3::Trim**](https://msdn.microsoft.com/library/windows/desktop/dn280346), shared BCn surfaces, minblend, and map default. [Double](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_doubles) support in HLSL shaders has also been enabled along with support for 16x MSAA.
+Direct3D 11.2 extends support for [WARP](overviews-direct3d-11-devices-create-warp.md) devices, which you create by passing [**D3D\_DRIVER\_TYPE\_WARP**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type) in the *DriverType* parameter of [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice). The WARP software renderer in Direct3D 11.2 adds full support for Direct3D [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 11\_1, including [tiled resources](#tiled-resources), [**IDXGIDevice3::Trim**](https://msdn.microsoft.com/library/windows/desktop/dn280346), shared BCn surfaces, minblend, and map default. [Double](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_doubles) support in HLSL shaders has also been enabled along with support for 16x MSAA.
 
 ## Annotate graphics commands
 

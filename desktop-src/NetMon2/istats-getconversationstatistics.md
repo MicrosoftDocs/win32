@@ -35,7 +35,7 @@ HRESULT STDMETHODCALLTYPE GetConversationStatistics(
 *nSessions* \[out\]
 </dt> <dd>
 
-A pointer to a DWORD that contains the number of [*sessions*](s.md#-netmon-session-gly) recorded for the current capture.
+A pointer to a DWORD that contains the number of [*sessions*](s.md) recorded for the current capture.
 
 </dd> <dt>
 
@@ -49,7 +49,7 @@ A pointer to a [**SESSIONSTATS**](sessionstats.md) structure.
 *nStations* \[out\]
 </dt> <dd>
 
-A pointer to a DWORD that contains the number of [*stations*](s.md#-netmon-station-gly) recorded for the current capture.
+A pointer to a DWORD that contains the number of [*stations*](s.md) recorded for the current capture.
 
 </dd> <dt>
 

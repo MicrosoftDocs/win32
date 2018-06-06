@@ -23,16 +23,16 @@ The DNS WMI Provider enables the administration of DNS zones from the authoritat
 
 The following tasks are linked to their associated scripting samples:
 
--   [Creating a DNS Zone](dns-wmi-provider-samples-managing-dns-zones.md#create-a-dns-zone)
--   [Modifying a DNS Zone](dns-wmi-provider-samples-managing-dns-zones.md#modify-a-dns-zone)
--   [Deleting a DNS Zone](dns-wmi-provider-samples-managing-dns-zones.md#delete-a-dns-zone)
--   [Adding a Zone IP Address](dns-wmi-provider-samples-managing-dns-zones.md#add-a-zone-ip-address)
--   [Deleting a Zone IP Address](dns-wmi-provider-samples-managing-dns-zones.md#delete-a-zone-ip-address)
--   [Pausing a Zone](dns-wmi-provider-samples-managing-dns-zones.md#pause-a-zone)
--   [Resuming a Zone](dns-wmi-provider-samples-managing-dns-zones.md#resume-a-zone)
--   [Updating a Zone](dns-wmi-provider-samples-managing-dns-zones.md#update-a-zone)
--   [Reloading a Zone](dns-wmi-provider-samples-managing-dns-zones.md#reload-a-zone)
--   [Refreshing a Zone](dns-wmi-provider-samples-managing-dns-zones.md#refresh-a-zone)
+-   [Creating a DNS Zone](dns-wmi-provider-samples-managing-dns-zones.md)
+-   [Modifying a DNS Zone](dns-wmi-provider-samples-managing-dns-zones.md)
+-   [Deleting a DNS Zone](dns-wmi-provider-samples-managing-dns-zones.md)
+-   [Adding a Zone IP Address](dns-wmi-provider-samples-managing-dns-zones.md)
+-   [Deleting a Zone IP Address](dns-wmi-provider-samples-managing-dns-zones.md)
+-   [Pausing a Zone](dns-wmi-provider-samples-managing-dns-zones.md)
+-   [Resuming a Zone](dns-wmi-provider-samples-managing-dns-zones.md)
+-   [Updating a Zone](dns-wmi-provider-samples-managing-dns-zones.md)
+-   [Reloading a Zone](dns-wmi-provider-samples-managing-dns-zones.md)
+-   [Refreshing a Zone](dns-wmi-provider-samples-managing-dns-zones.md)
 
  
 

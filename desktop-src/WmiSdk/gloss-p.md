@@ -30,28 +30,28 @@ A property in a performance class that is derived from [**Win32\_PerfRawData**](
 <span id="wmi.gloss_performance_object"></span><span id="WMI.GLOSS_PERFORMANCE_OBJECT"></span>**performance object**
 </dt> <dd>
 
-An object in a performance library that stores data in counters. These objects are visible in the [*System Monitor*](gloss-s.md#wmi-gloss-system-monitor) utility. Examples are Cache and Logical Disk objects. When transferred into WMI by the [*ADAP*](gloss-a.md#wmi-gloss-auto-discovery-auto-purge) process, each object becomes two WMI performance classes. One class, containing raw data, derives from [**Win32\_PerfRawData**](https://msdn.microsoft.com/library/aa394299). The other class derives from [**Win32\_PerfFormattedData**](https://msdn.microsoft.com/library/aa394253) and contains the same data visible in System Monitor as calculated by the Cooked Counter provider.
+An object in a performance library that stores data in counters. These objects are visible in the [*System Monitor*](gloss-s.md) utility. Examples are Cache and Logical Disk objects. When transferred into WMI by the [*ADAP*](gloss-a.md) process, each object becomes two WMI performance classes. One class, containing raw data, derives from [**Win32\_PerfRawData**](https://msdn.microsoft.com/library/aa394299). The other class derives from [**Win32\_PerfFormattedData**](https://msdn.microsoft.com/library/aa394253) and contains the same data visible in System Monitor as calculated by the Cooked Counter provider.
 
 </dd> <dt>
 
 <span id="wmi.gloss_permanent_consumer"></span><span id="WMI.GLOSS_PERMANENT_CONSUMER"></span>**permanent consumer**
 </dt> <dd>
 
-An [*event consumer*](gloss-e.md#wmi-gloss-event-consumer) whose registration lasts until it is explicitly canceled. Also see [*temporary consumer*](gloss-t.md#wmi-gloss-temporary-consumer).
+An [*event consumer*](gloss-e.md) whose registration lasts until it is explicitly canceled. Also see [*temporary consumer*](gloss-t.md).
 
 </dd> <dt>
 
 <span id="wmi.gloss_physical_consumer"></span><span id="WMI.GLOSS_PHYSICAL_CONSUMER"></span>**physical consumer**
 </dt> <dd>
 
-A COM object that is implemented by an [*event consumer provider*](gloss-e.md#wmi-gloss-event-consumer-provider) that includes a [*sink*](gloss-s.md#wmi-gloss-sink) for receiving event notifications.
+A COM object that is implemented by an [*event consumer provider*](gloss-e.md) that includes a [*sink*](gloss-s.md) for receiving event notifications.
 
 </dd> <dt>
 
 <span id="wmi.gloss_property"></span><span id="WMI.GLOSS_PROPERTY"></span>**property**
 </dt> <dd>
 
-A name/value pair that describes a unit of data for a class. Property values must have a valid [*Managed Object Format (MOF)*](gloss-m.md#wmi-gloss-managed-object-format) data type. Also see [*reference property*](gloss-r.md#wmi-gloss-reference-property).
+A name/value pair that describes a unit of data for a class. Property values must have a valid [*Managed Object Format (MOF)*](gloss-m.md) data type. Also see [*reference property*](gloss-r.md).
 
 </dd> <dt>
 
@@ -65,7 +65,7 @@ A COM server that supports the retrieval and modification of WMI properties. Pro
 <span id="wmi.gloss_provider"></span><span id="WMI.GLOSS_PROVIDER"></span>**provider**
 </dt> <dd>
 
-A COM server that communicates with managed objects to access data and event notifications, such as the registry or an SNMP device. Providers forward this data to the [*CIM Object Manager*](gloss-c.md#wmi-gloss-cim-object-manager) for integration and interpretation.
+A COM server that communicates with managed objects to access data and event notifications, such as the registry or an SNMP device. Providers forward this data to the [*CIM Object Manager*](gloss-c.md) for integration and interpretation.
 
 </dd> <dt>
 

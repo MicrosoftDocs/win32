@@ -30,11 +30,11 @@ A slider is a good choice when you know that users think of the value as a relat
 
 To decide, consider these questions:
 
--   **Does the setting seem like a relative quantity?** If not, use [radio buttons](ctrl-radio-buttons.md), or a [drop-down](https://msdn.microsoft.com/library/windows/desktop/dn742404) or [single-selection list](ctrl-list-boxes.md#usage-patterns).
--   **Is the setting an exact, known numeric value?** If so, use a [numeric text boxes](ctrl-text-boxes.md#usage-patterns).
+-   **Does the setting seem like a relative quantity?** If not, use [radio buttons](ctrl-radio-buttons.md), or a [drop-down](https://msdn.microsoft.com/library/windows/desktop/dn742404) or [single-selection list](ctrl-list-boxes.md).
+-   **Is the setting an exact, known numeric value?** If so, use a [numeric text boxes](ctrl-text-boxes.md).
 -   **Would a user benefit from instant feedback on the effect of setting changes?** If so, use a slider. For example, users can choose a color more easily by immediately seeing the effect of changes to hue, saturation, or luminosity values.
 -   **Does the setting have a range of four or more values?** If not, use radio buttons.
--   **Can the user change the value?** Sliders are for user interaction. If a user can't ever change the value, use a read-only [text box](ctrl-text-boxes.md#usage-patterns) instead.
+-   **Can the user change the value?** Sliders are for user interaction. If a user can't ever change the value, use a read-only [text box](ctrl-text-boxes.md) instead.
 
 If a slider or a numeric text box is possible, use a numeric text box if:
 

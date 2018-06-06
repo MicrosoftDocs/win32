@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Schannel and CryptoAPI
 
-Schannel uses [CryptoAPI](https://msdn.microsoft.com/8ba85b5e-c80a-4781-a021-ac911b4fc7ca) for cryptographic operations such as storing [*public/private keys*](security.p_gly#-security-public-private-key-pair-gly).
+Schannel uses [CryptoAPI](https://msdn.microsoft.com/8ba85b5e-c80a-4781-a021-ac911b4fc7ca) for cryptographic operations such as storing [*public/private keys*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a).
 
 The following topics provide detailed information about how Schannel makes use of CryptoAPI.
 

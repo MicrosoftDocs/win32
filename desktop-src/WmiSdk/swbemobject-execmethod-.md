@@ -141,7 +141,7 @@ Set outParam = process.ExecMethod_("StartService")
 
 
 
-Use **SWbemObject.ExecMethod\_** as an alternative to direct access for executing a [*provider method*](gloss-p.md#wmi-gloss-provider-method) in cases where it is not possible to execute a method directly. For example, you would use **SWbemObject.ExecMethod\_** with a scripting language that does not support output parameters if your method has out parameters. Otherwise, the recommended means of invoking a method is to use direct access.
+Use **SWbemObject.ExecMethod\_** as an alternative to direct access for executing a [*provider method*](gloss-p.md) in cases where it is not possible to execute a method directly. For example, you would use **SWbemObject.ExecMethod\_** with a scripting language that does not support output parameters if your method has out parameters. Otherwise, the recommended means of invoking a method is to use direct access.
 
 -   The **SWbemObject.ExecMethod\_** method assumes the object represented by [**SWbemObject**](swbemobject.md) contains the method to execute. By contrast, [**SWbemServices.ExecMethod**](swbemservices-execmethod.md) requires an object path. Use **SWbemObject.ExecMethod\_** if you already have obtained the object whose method you want to execute.
 

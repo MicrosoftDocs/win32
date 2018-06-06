@@ -43,7 +43,7 @@ If the function is unsuccessful, the return value is **NULL**.
 
 ## Remarks
 
-[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetPropertyInfo** function.
+[*Experts*](e.md) and [*parsers*](p.md) can call the **GetPropertyInfo** function.
 
 ## Requirements
 

@@ -67,7 +67,7 @@ The *pOutputBuf* parameter points to a RECT structure in which the method should
 <span id="OEMTTY_INFO_NUM_UFMS_"></span><span id="oemtty_info_num_ufms_"></span>OEMTTY\_INFO\_NUM\_UFMS 
 </dt> <dd>
 
-The *pOutputBuf* parameter points to a DWORD in which the method should return the number of resource IDs of the [*UFMs*](wdkgloss.u#wdkgloss-unidrv-font-metrics--ufm-) for 10, 12, and 17 CPI fonts. To actually obtain these resource IDs, perform a query using OEMTTY\_INFO\_UFM\_IDS.
+The *pOutputBuf* parameter points to a DWORD in which the method should return the number of resource IDs of the [*UFMs*](https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414) for 10, 12, and 17 CPI fonts. To actually obtain these resource IDs, perform a query using OEMTTY\_INFO\_UFM\_IDS.
 
 </dd> </dl>
 
@@ -76,7 +76,7 @@ The *pOutputBuf* parameter points to a DWORD in which the method should return t
 <span id="OEMTTY_INFO_UFM_IDS_"></span><span id="oemtty_info_ufm_ids_"></span>OEMTTY\_INFO\_UFM\_IDS 
 </dt> <dd>
 
-The *pOutputBuf* parameter points to an array of DWORDs of sufficient size to hold the number of resource IDs of the UFMs for 10, 12, and 17 CPI fonts. (This number is obtained by using OEMTTY\_INFO\_NUM\_UFMS in a query.) The method should return the resource IDs of the [*UFMs*](wdkgloss.u#wdkgloss-unidrv-font-metrics--ufm-) for 10,12, and 17 CPI fonts.
+The *pOutputBuf* parameter points to an array of DWORDs of sufficient size to hold the number of resource IDs of the UFMs for 10, 12, and 17 CPI fonts. (This number is obtained by using OEMTTY\_INFO\_NUM\_UFMS in a query.) The method should return the resource IDs of the [*UFMs*](https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414) for 10,12, and 17 CPI fonts.
 
 </dd> </dl> </dd> <dt>
 

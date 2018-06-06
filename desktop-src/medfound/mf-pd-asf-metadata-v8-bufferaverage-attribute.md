@@ -59,7 +59,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)
 </dt> <dt>
 
-[ASF Header Object](asf-file-structure.md#header-object)
+[ASF Header Object](asf-file-structure.md)
 </dt> <dt>
 
 [Presentation Descriptors](presentation-descriptors.md)

@@ -69,7 +69,7 @@ The method must return one of the following values.
 
 ## Remarks
 
-The `IPrintOemUni::SendFontCmd` method is used for selecting device fonts on printers that do not recognize the [*PCL*](wdkgloss.p#wdkgloss-pcl), CAPSL, or PPDS-formatted font commands supported by Unidrv. Its purpose is to allow a rendering plug-in to modify the font selection command that is specified in the font's .ufm (Unidrv Font Metrics) file. (To see how the command is stored, refer to the description of .ufm file's [**UNIDRVINFO**](unidrvinfo.md) structure.) If the command needs to be modified before being sent to the printer, you should implement the `IPrintOemUni::SendFontCmd` method.
+The `IPrintOemUni::SendFontCmd` method is used for selecting device fonts on printers that do not recognize the [*PCL*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c), CAPSL, or PPDS-formatted font commands supported by Unidrv. Its purpose is to allow a rendering plug-in to modify the font selection command that is specified in the font's .ufm (Unidrv Font Metrics) file. (To see how the command is stored, refer to the description of .ufm file's [**UNIDRVINFO**](unidrvinfo.md) structure.) If the command needs to be modified before being sent to the printer, you should implement the `IPrintOemUni::SendFontCmd` method.
 
 The method receives the command string in the [**FINVOCATION**](finvocation.md) structure pointed to by *pFInv*. Typically, the string contains variables for which values must be supplied. For example, the following font selection command requires that *\#FontHeight* and *\#FontWidth* be replaced with numeric values:
 

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # WMI Infrastructure Objects and Values
 
-This section includes information about WMI [*qualifiers*](gloss-q.md#wmi-gloss-qualifier), [*Managed Object Format*](gloss-m.md#wmi-gloss-managed-object-format) (MOF) syntax, performance counter types, and other data used by WMI providers, scripts, and applications.
+This section includes information about WMI [*qualifiers*](gloss-q.md), [*Managed Object Format*](gloss-m.md) (MOF) syntax, performance counter types, and other data used by WMI providers, scripts, and applications.
 
 <dl> <dt>
 
@@ -50,7 +50,7 @@ A list of counter types that designate the formulas required to obtain calculate
 <span id="WMI_Qualifiers"></span><span id="wmi_qualifiers"></span><span id="WMI_QUALIFIERS"></span>[WMI Qualifiers](wmi-qualifiers.md)
 </dt> <dd>
 
-A list of the [*qualifiers*](gloss-q.md#wmi-gloss-qualifier) supported by WMI.
+A list of the [*qualifiers*](gloss-q.md) supported by WMI.
 
 </dd> <dt>
 

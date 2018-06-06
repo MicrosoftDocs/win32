@@ -13,11 +13,11 @@ ms.date: 05/31/2018
 
 Many forms of authentication are based on the idea that an entity can prove its identity if it can prove it knows a key, such as a password, that only it can know.
 
-Authentication techniques that rely on a secret, such as a password, need to have a way to keep the secret from becoming public knowledge. A password owner cannot walk up to a door and give the password. Someone besides the doorkeeper might be listening; or it might be the wrong door. In order to keep a secret, there must be a way to prove a user knows the password without revealing the password. That is the idea behind secret key authentication, a method of verification used throughout the [*Kerberos protocol*](security.k_gly#-security-kerberos-protocol-gly).
+Authentication techniques that rely on a secret, such as a password, need to have a way to keep the secret from becoming public knowledge. A password owner cannot walk up to a door and give the password. Someone besides the doorkeeper might be listening; or it might be the wrong door. In order to keep a secret, there must be a way to prove a user knows the password without revealing the password. That is the idea behind secret key authentication, a method of verification used throughout the [*Kerberos protocol*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33).
 
 Notice that the "secret" in secret key authentication is that the authentication process takes place "in secret;" that is, without ever actually revealing the content of the key.
 
-For secret key authentication to work, the two parties to a transaction must share a cryptographic [*session key*](security.s_gly#-security-session-key-gly) which is also secret, known only to them and to no others. The key is [*symmetric*](security.s_gly#-security-symmetric-encryption-gly); that is, it is a single key used for both encryption and decryption. One party in the authentication process proves its knowledge of the key by encrypting a message. The other party proves its knowledge of the key by decrypting the message.
+For secret key authentication to work, the two parties to a transaction must share a cryptographic [*session key*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) which is also secret, known only to them and to no others. The key is [*symmetric*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50); that is, it is a single key used for both encryption and decryption. One party in the authentication process proves its knowledge of the key by encrypting a message. The other party proves its knowledge of the key by decrypting the message.
 
  
 

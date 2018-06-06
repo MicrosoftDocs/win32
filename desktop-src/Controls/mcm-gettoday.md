@@ -57,7 +57,7 @@ Returns nonzero if successful, or zero otherwise.
 
 <dl> <dt>
 
-[Times in the Month Calendar Control](month-calendar-controls.md#times-in-the-month-calendar-control)
+[Times in the Month Calendar Control](month-calendar-controls.md)
 </dt> </dl>
 
  

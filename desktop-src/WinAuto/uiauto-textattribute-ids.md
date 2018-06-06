@@ -88,7 +88,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_AnimationStyleAttributeId"></span><span id="uia_animationstyleattributeid"></span><span id="UIA_ANIMATIONSTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_AnimationStyleAttributeId</strong></dt> <dt>40000</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>AnimationStyle</strong> text attribute, which specifies the type of animation applied to the text. This attribute is specified as a value from the [<strong>AnimationStyle</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-animationstyle) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>AnimationStyle_None</strong>](uiauto-animationstyleenum.md#animationstyle-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>AnimationStyle</strong> text attribute, which specifies the type of animation applied to the text. This attribute is specified as a value from the [<strong>AnimationStyle</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-animationstyle) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>AnimationStyle_None</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-animationstyle)<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_AnnotationObjectsAttributeId"></span><span id="uia_annotationobjectsattributeid"></span><span id="UIA_ANNOTATIONOBJECTSATTRIBUTEID"></span><dl> <dt><strong>UIA_AnnotationObjectsAttributeId</strong></dt> <dt>40032</dt> </dl></td>
@@ -108,11 +108,11 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_BulletStyleAttributeId"></span><span id="uia_bulletstyleattributeid"></span><span id="UIA_BULLETSTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_BulletStyleAttributeId</strong></dt> <dt>40002</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>BulletStyle</strong> text attribute, which specifies the style of bullets used in the text range. This attribute is specified as a value from the [<strong>BulletStyle</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-bulletstyle) enumerated type.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>BulletStyle_None</strong>](uiauto-bulletstyleenum.md#bulletstyle-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>BulletStyle</strong> text attribute, which specifies the style of bullets used in the text range. This attribute is specified as a value from the [<strong>BulletStyle</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-bulletstyle) enumerated type.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>BulletStyle_None</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-bulletstyle)<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_CapStyleAttributeId"></span><span id="uia_capstyleattributeid"></span><span id="UIA_CAPSTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_CapStyleAttributeId</strong></dt> <dt>40003</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>CapStyle</strong> text attribute, which specifies the capitalization style for the text. This attribute is specified as a value from the [<strong>CapStyle</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-capstyle) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>CapStyle_None</strong>](uiauto-capstyleenum.md#capstyle-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>CapStyle</strong> text attribute, which specifies the capitalization style for the text. This attribute is specified as a value from the [<strong>CapStyle</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-capstyle) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>CapStyle_None</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-capstyle)<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_CaretBidiModeAttributeId"></span><span id="uia_caretbidimodeattributeid"></span><span id="UIA_CARETBIDIMODEATTRIBUTEID"></span><dl> <dt><strong>UIA_CaretBidiModeAttributeId</strong></dt> <dt>40039</dt> </dl></td>
@@ -157,7 +157,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_HorizontalTextAlignmentAttributeId"></span><span id="uia_horizontaltextalignmentattributeid"></span><span id="UIA_HORIZONTALTEXTALIGNMENTATTRIBUTEID"></span><dl> <dt><strong>UIA_HorizontalTextAlignmentAttributeId</strong></dt> <dt>40009</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>HorizontalTextAlignment</strong> text attribute, which specifies how the text is aligned horizontally. This attribute is specified as a value from the [<strong>HorizontalTextAlignmentEnum</strong>](/windows/desktop/api/UIAutomationCore/) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>HorizontalTextAlignment_Left</strong>](uiauto-horizontaltextalignenum.md#horizontaltextalignment-left)<br/></td>
+<td style="text-align: left;">Identifies the <strong>HorizontalTextAlignment</strong> text attribute, which specifies how the text is aligned horizontally. This attribute is specified as a value from the [<strong>HorizontalTextAlignmentEnum</strong>](/windows/desktop/api/UIAutomationCore/) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>HorizontalTextAlignment_Left</strong>](/windows/desktop/api/UIAutomationCore/)<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_IndentationFirstLineAttributeId"></span><span id="uia_indentationfirstlineattributeid"></span><span id="UIA_INDENTATIONFIRSTLINEATTRIBUTEID"></span><dl> <dt><strong>UIA_IndentationFirstLineAttributeId</strong></dt> <dt>40010</dt> </dl></td>
@@ -221,7 +221,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_OutlineStylesAttributeId"></span><span id="uia_outlinestylesattributeid"></span><span id="UIA_OUTLINESTYLESATTRIBUTEID"></span><dl> <dt><strong>UIA_OutlineStylesAttributeId</strong></dt> <dt>40022</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>OutlineStyles</strong> text attribute, which specifies the outline style of the text. This attribute is specified as a value from the [<strong>OutlineStyles</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-outlinestyles) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>OutlineStyles_None</strong>](uiauto-outlinestylesenum.md#outlinestyles-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>OutlineStyles</strong> text attribute, which specifies the outline style of the text. This attribute is specified as a value from the [<strong>OutlineStyles</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-outlinestyles) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>OutlineStyles_None</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-outlinestyles)<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_OverlineColorAttributeId"></span><span id="uia_overlinecolorattributeid"></span><span id="UIA_OVERLINECOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_OverlineColorAttributeId</strong></dt> <dt>40023</dt> </dl></td>
@@ -229,7 +229,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_OverlineStyleAttributeId"></span><span id="uia_overlinestyleattributeid"></span><span id="UIA_OVERLINESTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_OverlineStyleAttributeId</strong></dt> <dt>40024</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>OverlineStyle</strong> text attribute, which specifies the style of the overline text decoration. This attribute is specified as a value from the [<strong>TextDecorationLineStyleEnum</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textdecorationlinestyle) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>TextDecorationLineStyle_None</strong>](uiauto-textdeclinestyle.md#textdecorationlinestyle-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>OverlineStyle</strong> text attribute, which specifies the style of the overline text decoration. This attribute is specified as a value from the [<strong>TextDecorationLineStyleEnum</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textdecorationlinestyle) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>TextDecorationLineStyle_None</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textdecorationlinestyle)<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_SelectionActiveEndAttributeId"></span><span id="uia_selectionactiveendattributeid"></span><span id="UIA_SELECTIONACTIVEENDATTRIBUTEID"></span><dl> <dt><strong>UIA_SelectionActiveEndAttributeId</strong></dt> <dt>40037</dt> </dl></td>
@@ -241,7 +241,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_StrikethroughStyleAttributeId"></span><span id="uia_strikethroughstyleattributeid"></span><span id="UIA_STRIKETHROUGHSTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_StrikethroughStyleAttributeId</strong></dt> <dt>40026</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>StrikethroughStyle</strong> text attribute, which specifies the style of the strikethrough text decoration. This attribute is specified as a value from the [<strong>TextDecorationLineStyleEnum</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textdecorationlinestyle) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>TextDecorationLineStyle_None</strong>](uiauto-textdeclinestyle.md#textdecorationlinestyle-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>StrikethroughStyle</strong> text attribute, which specifies the style of the strikethrough text decoration. This attribute is specified as a value from the [<strong>TextDecorationLineStyleEnum</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textdecorationlinestyle) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>TextDecorationLineStyle_None</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textdecorationlinestyle)<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_StyleIdAttributeId"></span><span id="uia_styleidattributeid"></span><span id="UIA_STYLEIDATTRIBUTEID"></span><dl> <dt><strong>UIA_StyleIdAttributeId</strong></dt> <dt>40034</dt> </dl></td>
@@ -257,7 +257,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_TextFlowDirectionsAttributeId"></span><span id="uia_textflowdirectionsattributeid"></span><span id="UIA_TEXTFLOWDIRECTIONSATTRIBUTEID"></span><dl> <dt><strong>UIA_TextFlowDirectionsAttributeId</strong></dt> <dt>40028</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>TextFlowDirections</strong> text attribute, which specifies the direction of text flow. This attribute is specified as a combination of values from the [<strong>FlowDirections</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-flowdirections) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>FlowDirections_Default</strong>](uiauto-flowdirectionsenum.md#flowdirections-default)<br/></td>
+<td style="text-align: left;">Identifies the <strong>TextFlowDirections</strong> text attribute, which specifies the direction of text flow. This attribute is specified as a combination of values from the [<strong>FlowDirections</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-flowdirections) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>FlowDirections_Default</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-flowdirections)<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_UnderlineColorAttributeId"></span><span id="uia_underlinecolorattributeid"></span><span id="UIA_UNDERLINECOLORATTRIBUTEID"></span><dl> <dt><strong>UIA_UnderlineColorAttributeId</strong></dt> <dt>40029</dt> </dl></td>
@@ -265,7 +265,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_UnderlineStyleAttributeId"></span><span id="uia_underlinestyleattributeid"></span><span id="UIA_UNDERLINESTYLEATTRIBUTEID"></span><dl> <dt><strong>UIA_UnderlineStyleAttributeId</strong></dt> <dt>40030</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>UnderlineStyle</strong> text attribute, which specifies the style of the underline text decoration. This attribute is specified as a value from the [<strong>TextDecorationLineStyleEnum</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textdecorationlinestyle) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>TextDecorationLineStyle_None</strong>](uiauto-textdeclinestyle.md#textdecorationlinestyle-none)<br/></td>
+<td style="text-align: left;">Identifies the <strong>UnderlineStyle</strong> text attribute, which specifies the style of the underline text decoration. This attribute is specified as a value from the [<strong>TextDecorationLineStyleEnum</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textdecorationlinestyle) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>TextDecorationLineStyle_None</strong>](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textdecorationlinestyle)<br/></td>
 </tr>
 </tbody>
 </table>

@@ -34,7 +34,7 @@ A WS-Management protocol element returned in an enumeration that obtains both th
 **baseboard management controller (BMC)**
 </dt> <dd>
 
-A microcontroller attached locally to a server. BMCs have sensors that monitor the physical state of the server and a separate network connection that can communicate over the network, even if the server is offline. You have access to BMC data through the [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md#winrm-gloss-intelligent-platform-management-interface) WMI provider.
+A microcontroller attached locally to a server. BMCs have sensors that monitor the physical state of the server and a separate network connection that can communicate over the network, even if the server is offline. You have access to BMC data through the [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md) WMI provider.
 
 </dd> <dt>
 
@@ -48,7 +48,7 @@ The user name and password sent in the authentication exchange. Basic authentica
 **BMC**
 </dt> <dd>
 
-See [*baseboard management controller (BMC)*](windows-remote-management-glossary.md#winrm-gloss-baseboard-management-controller).
+See [*baseboard management controller (BMC)*](windows-remote-management-glossary.md).
 
 </dd> </dl>
 
@@ -59,7 +59,7 @@ See [*baseboard management controller (BMC)*](windows-remote-management-glossary
 **CIM**
 </dt> <dd>
 
-See [*Common Information Model (CIM)*](windows-remote-management-glossary.md#winrm-gloss-common-information-model).
+See [*Common Information Model (CIM)*](windows-remote-management-glossary.md).
 
 </dd> <dt>
 
@@ -73,7 +73,7 @@ The client application using the WS-Management protocol to access the management
 **Common Information Model (CIM)**
 </dt> <dd>
 
-The [*Distributed Management Task Force (DMTF)*](windows-remote-management-glossary.md#winrm-gloss-dmtf) model that describes how to represent real-world computer and network objects. CIM uses an object-oriented paradigm, where managed objects are modeled using the concepts of classes and instances.
+The [*Distributed Management Task Force (DMTF)*](windows-remote-management-glossary.md) model that describes how to represent real-world computer and network objects. CIM uses an object-oriented paradigm, where managed objects are modeled using the concepts of classes and instances.
 
 </dd> </dl>
 
@@ -98,7 +98,7 @@ The industry organization developing management standards and integration techno
 **DMTF**
 </dt> <dd>
 
-See [*Distributed Management Task Force (DMTF)*](windows-remote-management-glossary.md#winrm-gloss-dmtf).
+See [*Distributed Management Task Force (DMTF)*](windows-remote-management-glossary.md).
 
 </dd> </dl>
 
@@ -109,7 +109,7 @@ See [*Distributed Management Task Force (DMTF)*](windows-remote-management-gloss
 **endpoint**
 </dt> <dd>
 
-A resource that can be addressed by an [*endpoint reference (EPR)*](windows-remote-management-glossary.md#winrm-gloss-endpoint-reference).
+A resource that can be addressed by an [*endpoint reference (EPR)*](windows-remote-management-glossary.md).
 
 </dd> <dt>
 
@@ -123,14 +123,14 @@ A combination of WS-Addressing and WS-Management addressing elements that togeth
 **enumeration**
 </dt> <dd>
 
-A set, or collection, of [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource) instances or the action of requesting such a set. In WS-Management protocol, [*WS-Enumeration*](windows-remote-management-glossary.md#winrm-gloss-ws-enumeration) is used to obtain the collection. In the WinRM service scripting implementation of enumeration, [**Session.Enumerate**](session-enumerate.md) and the [**Enumerator**](enumerator.md) object are used. The corresponding C++ method and interface are [**IWSManSession::Enumerate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate) and [**IWSManEnumerator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanenumerator).
+A set, or collection, of [*resource*](windows-remote-management-glossary.md) instances or the action of requesting such a set. In WS-Management protocol, [*WS-Enumeration*](windows-remote-management-glossary.md) is used to obtain the collection. In the WinRM service scripting implementation of enumeration, [**Session.Enumerate**](session-enumerate.md) and the [**Enumerator**](enumerator.md) object are used. The corresponding C++ method and interface are [**IWSManSession::Enumerate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate) and [**IWSManEnumerator**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanenumerator).
 
 </dd> <dt>
 
 **EPR**
 </dt> <dd>
 
-See [*endpoint reference (EPR)*](windows-remote-management-glossary.md#winrm-gloss-endpoint-reference).
+See [*endpoint reference (EPR)*](windows-remote-management-glossary.md).
 
 </dd> <dt>
 
@@ -155,14 +155,14 @@ A notification of events that occur on remote computers can be sent to subscribi
 **filter**
 </dt> <dd>
 
-A query mechanism for specifying a limited set of instances in the request for a [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource). You can specify a *filter* parameter on calls to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate).
+A query mechanism for specifying a limited set of instances in the request for a [*resource*](windows-remote-management-glossary.md). You can specify a *filter* parameter on calls to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate).
 
 </dd> <dt>
 
 **filter dialect**
 </dt> <dd>
 
-An XML string that identifies the XML dialect used to specify a [*filter*](windows-remote-management-glossary.md#winrm-gloss-filter) in a call to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate). The WinRM service supports [WQL](https://msdn.microsoft.com/library/aa394606) as a filter dialect when receiving requests.
+An XML string that identifies the XML dialect used to specify a [*filter*](windows-remote-management-glossary.md) in a call to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate). The WinRM service supports [WQL](https://msdn.microsoft.com/library/aa394606) as a filter dialect when receiving requests.
 
 </dd> <dt>
 
@@ -176,7 +176,7 @@ An XML string that identifies part of an instance of a resource rather than the 
 **fragment dialect**
 </dt> <dd>
 
-An XML string that identifies the XML dialect used to specify a [*fragment*](windows-remote-management-glossary.md#winrm-gloss-fragment). Fragment support is found in the [**ResourceLocator**](resourcelocator.md) object. The WinRM service supports [*XPath*](windows-remote-management-glossary.md#winrm-gloss-xpath) for fragment dialect when receiving requests.
+An XML string that identifies the XML dialect used to specify a [*fragment*](windows-remote-management-glossary.md). Fragment support is found in the [**ResourceLocator**](resourcelocator.md) object. The WinRM service supports [*XPath*](windows-remote-management-glossary.md) for fragment dialect when receiving requests.
 
 </dd> </dl>
 
@@ -187,35 +187,35 @@ An XML string that identifies the XML dialect used to specify a [*fragment*](win
 **in-band**
 </dt> <dd>
 
-The client application obtains BMC data through the WinRM [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener) in the operating system.
+The client application obtains BMC data through the WinRM [*listener*](windows-remote-management-glossary.md) in the operating system.
 
 </dd> <dt>
 
 **Intelligent Platform Management Interface (IPMI)**
 </dt> <dd>
 
-An IT industry standard for the architecture of [*baseboard management controller (BMC)*](windows-remote-management-glossary.md#winrm-gloss-baseboard-management-controller). The Windows hardware management features supply an [*IPMI driver*](windows-remote-management-glossary.md#winrm-gloss-ipmi-driver) and a WMI [*IPMI provider*](windows-remote-management-glossary.md#winrm-gloss-ipmi-provider) that allow management scripts, command-line tools, and applications to obtain BMC data. The IPMI provider has WMI [classes](https://msdn.microsoft.com/library/aa391402).
+An IT industry standard for the architecture of [*baseboard management controller (BMC)*](windows-remote-management-glossary.md). The Windows hardware management features supply an [*IPMI driver*](windows-remote-management-glossary.md) and a WMI [*IPMI provider*](windows-remote-management-glossary.md) that allow management scripts, command-line tools, and applications to obtain BMC data. The IPMI provider has WMI [classes](https://msdn.microsoft.com/library/aa391402).
 
 </dd> <dt>
 
 **IPMI**
 </dt> <dd>
 
-See [*Intelligent Platform Management Interface (IMPI)*](windows-remote-management-glossary.md#winrm-gloss-intelligent-platform-management-interface).
+See [*Intelligent Platform Management Interface (IMPI)*](windows-remote-management-glossary.md).
 
 </dd> <dt>
 
 **IPMI driver**
 </dt> <dd>
 
-The kernel driver that enables access to [*baseboard management controller (BMC)*](windows-remote-management-glossary.md#winrm-gloss-baseboard-management-controller) devices from the operating system components.
+The kernel driver that enables access to [*baseboard management controller (BMC)*](windows-remote-management-glossary.md) devices from the operating system components.
 
 </dd> <dt>
 
 **IPMI provider**
 </dt> <dd>
 
-A standard WMI provider that defines classes modeling the [*IPMI*](windows-remote-management-glossary.md#winrm-gloss-intelligent-platform-management-interface) and its data. The [IPMI provider](https://msdn.microsoft.com/library/aa391402) is a COM DLL that obtains data from the BMC.
+A standard WMI provider that defines classes modeling the [*IPMI*](windows-remote-management-glossary.md) and its data. The [IPMI provider](https://msdn.microsoft.com/library/aa391402) is a COM DLL that obtains data from the BMC.
 
 </dd> </dl>
 
@@ -226,7 +226,7 @@ A standard WMI provider that defines classes modeling the [*IPMI*](windows-remot
 **KCS**
 </dt> <dd>
 
-See [*Keyboard Controller Style (KCS)*](windows-remote-management-glossary.md#winrm-gloss-keyboard-controller-style).
+See [*Keyboard Controller Style (KCS)*](windows-remote-management-glossary.md).
 
 </dd> <dt>
 
@@ -240,7 +240,7 @@ A method of mutual authentication between the client and server that uses encryp
 **Keyboard Controller Style (KCS)**
 </dt> <dd>
 
-The protocol used by the [*IPMI driver*](windows-remote-management-glossary.md#winrm-gloss-ipmi-provider) to communicate with the [*baseboard management controller (BMC)*](windows-remote-management-glossary.md#winrm-gloss-baseboard-management-controller).
+The protocol used by the [*IPMI driver*](windows-remote-management-glossary.md) to communicate with the [*baseboard management controller (BMC)*](windows-remote-management-glossary.md).
 
 </dd> </dl>
 
@@ -262,7 +262,7 @@ A management service that implements WS-Management protocol to send and receive 
 **message**
 </dt> <dd>
 
-A package of information transmitted between computers or separate networks constructed with the [*SOAP*](windows-remote-management-glossary.md#winrm-gloss-soap) protocol. The package has a header, that describes the message target and transport, and a body that contains the content to be used when the message arrives. A message is a combination of elements from specifications such as [*WS-Addressing*](windows-remote-management-glossary.md#winrm-gloss-ws-addressing), [*WS-Transfer*](windows-remote-management-glossary.md#winrm-gloss-ws-transfer), and [*WS-Management*](windows-remote-management-glossary.md#winrm-gloss-ws-management).
+A package of information transmitted between computers or separate networks constructed with the [*SOAP*](windows-remote-management-glossary.md) protocol. The package has a header, that describes the message target and transport, and a body that contains the content to be used when the message arrives. A message is a combination of elements from specifications such as [*WS-Addressing*](windows-remote-management-glossary.md), [*WS-Transfer*](windows-remote-management-glossary.md), and [*WS-Management*](windows-remote-management-glossary.md).
 
 </dd> </dl>
 
@@ -273,21 +273,21 @@ A package of information transmitted between computers or separate networks cons
 **namespace**
 </dt> <dd>
 
-A [*WMI*](windows-remote-management-glossary.md#winrm-gloss-wmi) namespace, which is a logical grouping of WMI classes and instances to control scope and access. The most frequent source of management data for systems running Windows is the root\\cimv2 namespace, which contains classes such as [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372). Namespaces appear in the resource URI for WMI classes, for example http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service.
+A [*WMI*](windows-remote-management-glossary.md) namespace, which is a logical grouping of WMI classes and instances to control scope and access. The most frequent source of management data for systems running Windows is the root\\cimv2 namespace, which contains classes such as [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372). Namespaces appear in the resource URI for WMI classes, for example http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service.
 
 </dd> <dt>
 
 **Negotiate authentication**
 </dt> <dd>
 
-A negotiated, single sign on type of authentication that is the Windows implementation of [*Simple and Protected GSSAPI Negotiation Mechanism (SPNEGO)*](windows-remote-management-glossary.md#winrm-gloss-simple-and-protected). SPNEGO negotiation determines whether authentication is handled by Kerberos or NTLM. Kerberos is the preferred mechanism. Negotiate authentication on Windows-based systems is also called Windows Integrated Authentication.
+A negotiated, single sign on type of authentication that is the Windows implementation of [*Simple and Protected GSSAPI Negotiation Mechanism (SPNEGO)*](windows-remote-management-glossary.md). SPNEGO negotiation determines whether authentication is handled by Kerberos or NTLM. Kerberos is the preferred mechanism. Negotiate authentication on Windows-based systems is also called Windows Integrated Authentication.
 
 </dd> <dt>
 
 **numeric sensor**
 </dt> <dd>
 
-A numeric type of sensor in a [*baseboard management controller (BMC)*](windows-remote-management-glossary.md#winrm-gloss-baseboard-management-controller), for example temperature or voltage.
+A numeric type of sensor in a [*baseboard management controller (BMC)*](windows-remote-management-glossary.md), for example temperature or voltage.
 
 </dd> </dl>
 
@@ -305,7 +305,7 @@ The additional data required by the resource provider to process a request. For 
 **out-of-band**
 </dt> <dd>
 
-The client application obtains data directly from the [*baseboard management controller (BMC)*](windows-remote-management-glossary.md#winrm-gloss-baseboard-management-controller) of another computer, rather than through the WinRM [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener) in the operating system.
+The client application obtains data directly from the [*baseboard management controller (BMC)*](windows-remote-management-glossary.md) of another computer, rather than through the WinRM [*listener*](windows-remote-management-glossary.md) in the operating system.
 
 </dd> </dl>
 
@@ -316,7 +316,7 @@ The client application obtains data directly from the [*baseboard management con
 **pull**
 </dt> <dd>
 
-A [*WS-Enumeration*](windows-remote-management-glossary.md#winrm-gloss-ws-enumeration) pull message is sent to continue an enumeration started by an initial call to WS-Enumeration:Enumerate. The pull operation in the WinRM service is performed by [**Enumerator.ReadItem**](enumerator-readitem.md) or [**IWSManEnumerator::ReadItem**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanenumerator-readitem).
+A [*WS-Enumeration*](windows-remote-management-glossary.md) pull message is sent to continue an enumeration started by an initial call to WS-Enumeration:Enumerate. The pull operation in the WinRM service is performed by [**Enumerator.ReadItem**](enumerator-readitem.md) or [**IWSManEnumerator::ReadItem**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanenumerator-readitem).
 
 </dd> </dl>
 
@@ -327,14 +327,14 @@ A [*WS-Enumeration*](windows-remote-management-glossary.md#winrm-gloss-ws-enumer
 **resource**
 </dt> <dd>
 
-An [*endpoint*](windows-remote-management-glossary.md#winrm-gloss-endpoint) that represents a distinct type of management operation or value. A service exposes one or more resources and some resources can have more than one instance. A management resource is similar to a WMI class or a database table, and an instance is similar to an instance of the class or a row in the table. For example, the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class represents a resource. `Win32_LogicalDisk="C:\"` is a specific instance of the resource.
+An [*endpoint*](windows-remote-management-glossary.md) that represents a distinct type of management operation or value. A service exposes one or more resources and some resources can have more than one instance. A management resource is similar to a WMI class or a database table, and an instance is similar to an instance of the class or a row in the table. For example, the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class represents a resource. `Win32_LogicalDisk="C:\"` is a specific instance of the resource.
 
 </dd> <dt>
 
 **resource URI**
 </dt> <dd>
 
-The [*uniform resource identifier (URI)*](windows-remote-management-glossary.md#winrm-gloss-uniform-resource-identifier) used to identify a specific type of resource, such as disks or processes, on a system.
+The [*uniform resource identifier (URI)*](windows-remote-management-glossary.md) used to identify a specific type of resource, such as disks or processes, on a system.
 
 </dd> </dl>
 
@@ -345,49 +345,49 @@ The [*uniform resource identifier (URI)*](windows-remote-management-glossary.md#
 **SEL**
 </dt> <dd>
 
-See [*System Event Log (SEL)*](windows-remote-management-glossary.md#winrm-gloss-system-event-log).
+See [*System Event Log (SEL)*](windows-remote-management-glossary.md).
 
 </dd> <dt>
 
 **SEL adapter**
 </dt> <dd>
 
-The adapter that sends [*baseboard management controller (BMC)*](windows-remote-management-glossary.md#winrm-gloss-baseboard-management-controller) data to the [*Event Collector*](windows-remote-management-glossary.md#winrm-gloss-event-collector).
+The adapter that sends [*baseboard management controller (BMC)*](windows-remote-management-glossary.md) data to the [*Event Collector*](windows-remote-management-glossary.md).
 
 </dd> <dt>
 
 **selector**
 </dt> <dd>
 
-A name and value pair that represents a particular instance of a [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource). This is essentially a filter or "key" that identifies the desired instance of the resource. Selector support is found in the [**ResourceLocator**](resourcelocator.md) object.
+A name and value pair that represents a particular instance of a [*resource*](windows-remote-management-glossary.md). This is essentially a filter or "key" that identifies the desired instance of the resource. Selector support is found in the [**ResourceLocator**](resourcelocator.md) object.
 
 </dd> <dt>
 
 **sensor**
 </dt> <dd>
 
-A measurement device in a [*baseboard management controller (BMC)*](windows-remote-management-glossary.md#winrm-gloss-baseboard-management-controller).
+A measurement device in a [*baseboard management controller (BMC)*](windows-remote-management-glossary.md).
 
 </dd> <dt>
 
 **service**
 </dt> <dd>
 
-An application that provides management services to clients through the WS-Management protocol and other [*web services*](windows-remote-management-glossary.md#winrm-gloss-web-service). A service is usually the same as the [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener) on a network. The service has a physical transport address.
+An application that provides management services to clients through the WS-Management protocol and other [*web services*](windows-remote-management-glossary.md). A service is usually the same as the [*listener*](windows-remote-management-glossary.md) on a network. The service has a physical transport address.
 
 </dd> <dt>
 
 **session**
 </dt> <dd>
 
-A connection between a Windows Remote Management [*client*](windows-remote-management-glossary.md#winrm-gloss-client) and the local or remote WinRM [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener), or service. This connection is similar to the connection between a WMI client script and WMI on a remote server. The session operations, such as enumerating a resource (Enumerate), getting an instance of a resource (Get), or running a resource method (Invoke) are methods of the **Session** object. A **Session** object is created by [**WSMan.CreateSession**](wsman-createsession.md).
+A connection between a Windows Remote Management [*client*](windows-remote-management-glossary.md) and the local or remote WinRM [*listener*](windows-remote-management-glossary.md), or service. This connection is similar to the connection between a WMI client script and WMI on a remote server. The session operations, such as enumerating a resource (Enumerate), getting an instance of a resource (Get), or running a resource method (Invoke) are methods of the **Session** object. A **Session** object is created by [**WSMan.CreateSession**](wsman-createsession.md).
 
 </dd> <dt>
 
 **Simple and Protected GSS-API Negotiation Mechanism (SPNEGO)**
 </dt> <dd>
 
-An authentication mechanism used by the client or server receiving requests for data through the WinRM in an Active Directory context. SPNEGO is based on an Request For Comments (RFC) protocol produced by the Internet Engineering Task Force (IETF). SPNEGO is also known as [*Windows Integrated Authentication*](windows-remote-management-glossary.md#winrm-gloss-windows-integrated-authentication), the term used in the Windows Remote Management help topics.
+An authentication mechanism used by the client or server receiving requests for data through the WinRM in an Active Directory context. SPNEGO is based on an Request For Comments (RFC) protocol produced by the Internet Engineering Task Force (IETF). SPNEGO is also known as [*Windows Integrated Authentication*](windows-remote-management-glossary.md), the term used in the Windows Remote Management help topics.
 
 </dd> <dt>
 
@@ -401,21 +401,21 @@ An XML-based protocol used by web services.
 **SOAP**
 </dt> <dd>
 
-See [*Simple Object Access Protocol (SOAP)*](windows-remote-management-glossary.md#winrm-gloss-simple-object-access-protocol).
+See [*Simple Object Access Protocol (SOAP)*](windows-remote-management-glossary.md).
 
 </dd> <dt>
 
 **SPNEGO**
 </dt> <dd>
 
-See [*Simple and Protected GSS-API Negotiation Mechanism (SPNEGO)*](windows-remote-management-glossary.md#winrm-gloss-spnego).
+See [*Simple and Protected GSS-API Negotiation Mechanism (SPNEGO)*](windows-remote-management-glossary.md).
 
 </dd> <dt>
 
 **System Event Log (SEL)**
 </dt> <dd>
 
-The database of events in the [*baseboard management controller (BMC)*](windows-remote-management-glossary.md#winrm-gloss-baseboard-management-controller) hardware. The [*SEL adapter*](windows-remote-management-glossary.md#winrm-gloss-sel-plug-in) conveys these events to the operating system.
+The database of events in the [*baseboard management controller (BMC)*](windows-remote-management-glossary.md) hardware. The [*SEL adapter*](windows-remote-management-glossary.md) conveys these events to the operating system.
 
 </dd> </dl>
 
@@ -426,14 +426,14 @@ The database of events in the [*baseboard management controller (BMC)*](windows-
 **uniform resource identifier (URI)**
 </dt> <dd>
 
-A string that identifies a resource in the enterprise, such as a computer, a process, a disk drive, or a temperature sensor in a [*baseboard management controller (BMC)*](windows-remote-management-glossary.md#winrm-gloss-baseboard-management-controller). The URI is the web service addressing mechanism defined in Internet Engineering Task Force (IETF) Uniform Resource Identifier (URI): Generic Syntax \[RFC3986\].
+A string that identifies a resource in the enterprise, such as a computer, a process, a disk drive, or a temperature sensor in a [*baseboard management controller (BMC)*](windows-remote-management-glossary.md). The URI is the web service addressing mechanism defined in Internet Engineering Task Force (IETF) Uniform Resource Identifier (URI): Generic Syntax \[RFC3986\].
 
 </dd> <dt>
 
 **URI**
 </dt> <dd>
 
-See [*uniform resource identifier (URI)*](windows-remote-management-glossary.md#winrm-gloss-uniform-resource-identifier).
+See [*uniform resource identifier (URI)*](windows-remote-management-glossary.md).
 
 </dd> </dl>
 
@@ -444,7 +444,7 @@ See [*uniform resource identifier (URI)*](windows-remote-management-glossary.md#
 **web service**
 </dt> <dd>
 
-A software application used for interaction between computers across the Internet or a network. Web services are described by the [*Web Service Description Language (WSDL)*](windows-remote-management-glossary.md#winrm-web-service-description-language). The specific description of the web service tells other services how to interact with the web service by using SOAP messages. The messages are conveyed between computers by a transport, typically HTTP or HTTPS. [*WS-Addressing*](windows-remote-management-glossary.md#winrm-gloss-ws-addressing), [*WS-Eventing*](windows-remote-management-glossary.md#winrm-gloss-ws-eventing), and [*WS-Management*](windows-remote-management-glossary.md#winrm-gloss-ws-management) are examples of protocols used by web service applications to communicate with each other.
+A software application used for interaction between computers across the Internet or a network. Web services are described by the [*Web Service Description Language (WSDL)*](windows-remote-management-glossary.md). The specific description of the web service tells other services how to interact with the web service by using SOAP messages. The messages are conveyed between computers by a transport, typically HTTP or HTTPS. [*WS-Addressing*](windows-remote-management-glossary.md), [*WS-Eventing*](windows-remote-management-glossary.md), and [*WS-Management*](windows-remote-management-glossary.md) are examples of protocols used by web service applications to communicate with each other.
 
 </dd> <dt>
 
@@ -458,35 +458,35 @@ An XML-based language used to define how to interact with a web service. Typical
 **Windows Integrated Authentication**
 </dt> <dd>
 
-See [*Negotiate authentication*](windows-remote-management-glossary.md#winrm-gloss-negotiate-authentication).
+See [*Negotiate authentication*](windows-remote-management-glossary.md).
 
 </dd> <dt>
 
 **Windows Management Instrumentation (WMI)**
 </dt> <dd>
 
-The Microsoft implementation of the Web-Based Enterprise Management (WBEM) standard published by the [*Distributed Management Task Force (DMTF)*](windows-remote-management-glossary.md#winrm-gloss-dmtf). WMI allows you to manage local and remote computers and models computer and network objects using an extension of the [*Common Information Model (CIM)*](windows-remote-management-glossary.md#winrm-gloss-common-information-model) standard.
+The Microsoft implementation of the Web-Based Enterprise Management (WBEM) standard published by the [*Distributed Management Task Force (DMTF)*](windows-remote-management-glossary.md). WMI allows you to manage local and remote computers and models computer and network objects using an extension of the [*Common Information Model (CIM)*](windows-remote-management-glossary.md) standard.
 
 </dd> <dt>
 
 **Windows Remote Management (WinRM)**
 </dt> <dd>
 
-The Microsoft implementation of a management web service based on the public standard [*WS-Management*](windows-remote-management-glossary.md#winrm-gloss-ws-management) protocol.
+The Microsoft implementation of a management web service based on the public standard [*WS-Management*](windows-remote-management-glossary.md) protocol.
 
 </dd> <dt>
 
 **Windows Remote Shell (WinRS)**
 </dt> <dd>
 
-A shell tool that relies on [*Windows Remote Management*](windows-remote-management-glossary.md#winrm-gloss-windows-remote-management) to execute remote commands, especially for headless servers. The command-line tool is Winrs.
+A shell tool that relies on [*Windows Remote Management*](windows-remote-management-glossary.md) to execute remote commands, especially for headless servers. The command-line tool is Winrs.
 
 </dd> <dt>
 
 **WMI**
 </dt> <dd>
 
-See [*Windows Management Instrumentation (WMI)*](windows-remote-management-glossary.md#winrm-gloss-windows-management-instrumentation).
+See [*Windows Management Instrumentation (WMI)*](windows-remote-management-glossary.md).
 
 </dd> <dt>
 
@@ -521,7 +521,7 @@ A public standard protocol, which is SOAP-based, that allows one web service (th
 **WS-Management**
 </dt> <dd>
 
-A public standard protocol, which is SOAP-based, for sharing management data among all operating systems, computers, and devices. All [*messages*](windows-remote-management-glossary.md#winrm-gloss-message) sent by the WinRM client or server components use this protocol.
+A public standard protocol, which is SOAP-based, for sharing management data among all operating systems, computers, and devices. All [*messages*](windows-remote-management-glossary.md) sent by the WinRM client or server components use this protocol.
 
 </dd> <dt>
 
@@ -539,7 +539,7 @@ A public standard protocol, which is SOAP-based, for accessing XML representatio
 **XPath**
 </dt> <dd>
 
-A path notation for addressing parts of an XML document, similar to a URL. An XPath expression is a sequence of phrases to get from the current location in the XML document to another node or set of nodes. The phrases are separated by forward-slash ("/") characters. The WinRM service supports [XPath](http://go.microsoft.com/fwlink/p/?linkid=84384) for [*fragment dialect*](windows-remote-management-glossary.md#winrm-gloss-fragment-dialect).
+A path notation for addressing parts of an XML document, similar to a URL. An XPath expression is a sequence of phrases to get from the current location in the XML document to another node or set of nodes. The phrases are separated by forward-slash ("/") characters. The WinRM service supports [XPath](http://go.microsoft.com/fwlink/p/?linkid=84384) for [*fragment dialect*](windows-remote-management-glossary.md).
 
 </dd> </dl>
 

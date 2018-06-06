@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 The UI Automation Specification provides information about Microsoft accessibility frameworks, including Microsoft Active Accessibility and Microsoft UI Automation. It discusses each framework's main components, provides design considerations and examples, and describes requirements for implementation. For more information, see [UI Automation Specification](ui-automation-specification.md).
 
-The UI Automation Community Promise enables anyone to freely implement the UI Automation Specification without needing to sign any agreements with Microsoft. Further, there is no need to make any mention of, or any reference to, Microsoft. For more information, see [UI Automation Community Promise](uiauto-specandcommunitypromise.md#ui-automation-community-promise).
+The UI Automation Community Promise enables anyone to freely implement the UI Automation Specification without needing to sign any agreements with Microsoft. Further, there is no need to make any mention of, or any reference to, Microsoft. For more information, see [UI Automation Community Promise](uiauto-specandcommunitypromise.md).
 
 ## UI Automation Specification
 
@@ -33,11 +33,11 @@ The following copyright license applies to the UI Automation Specification and m
 
 Permission to copy, display, and distribute the contents of this document (the "Specification"), in any medium for any purpose without fee or royalty is hereby granted, provided that you include the following notice on ALL copies of the Specification, or portions thereof, that you make:
 
-Copyright © Microsoft Corporation. All rights reserved. Permission to copy, display, and distribute this document is available at [UI Automation Community Promise](uiauto-specandcommunitypromise.md#ui-automation-community-promise).
+Copyright © Microsoft Corporation. All rights reserved. Permission to copy, display, and distribute this document is available at [UI Automation Community Promise](uiauto-specandcommunitypromise.md).
 
 You may create derivative works of the Specification, provided that you include all required portions of the Specification in your derivative work, and provide the notice above.
 
-There is a separate patent promise available to parties interested in implementing software that conforms to the UI Automation Specification. This patent license is available at this location: [UI Automation Community Promise](uiauto-specandcommunitypromise.md#ui-automation-community-promise)
+There is a separate patent promise available to parties interested in implementing software that conforms to the UI Automation Specification. This patent license is available at this location: [UI Automation Community Promise](uiauto-specandcommunitypromise.md)
 
 The Specification is provided "as is" and Microsoft makes no representations or warranties, express or implied, including, but not limited to, warranties of merchantability, fitness for a particular purpose, non-infringement, or title; that the contents of the Specification are suitable for any purpose; nor that the implementation of such contents will not infringe any third-party patents, copyrights, trademarks or other rights. Microsoft will not be liable for any direct, indirect, special, incidental or consequential damages arising out of or relating to any use or distribution of the Specification.
 

@@ -49,7 +49,7 @@ The handle of the capture can be obtained in several ways, depending if the call
 
 To retrieve the comment of a capture from its capture file, call the [GetCaptureCommentFromFilename](getcapturecommentfromfilename.md) function.
 
-[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly) can call the **GetCaptureComment** function.
+[*Experts*](e.md) and [*parsers*](p.md) can call the **GetCaptureComment** function.
 
 ## Requirements
 

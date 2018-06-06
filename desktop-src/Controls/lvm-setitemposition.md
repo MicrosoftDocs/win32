@@ -47,9 +47,9 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-If the list-view control has the [**LVS\_AUTOARRANGE**](list-view-window-styles.md#lvs-autoarrange) style, the items in the list-view control are arranged after the position of the item is set.
+If the list-view control has the [**LVS\_AUTOARRANGE**](list-view-window-styles.md) style, the items in the list-view control are arranged after the position of the item is set.
 
-On Windows Vista, sending this message to a list-view control with the [**LVS\_AUTOARRANGE**](list-view-window-styles.md#lvs-autoarrange) style does nothing, and the return value is **FALSE**.
+On Windows Vista, sending this message to a list-view control with the [**LVS\_AUTOARRANGE**](list-view-window-styles.md) style does nothing, and the return value is **FALSE**.
 
 ## Requirements
 

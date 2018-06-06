@@ -17,8 +17,8 @@ Use the following procedure to develop a new application, or update an existing 
 
 1.  Identify the side-by-side assemblies that your application requires. Starting with Windows XP, these side-by-side assemblies and their assembly manifests are installed with the operating system but are not globally registered.
 2.  Use an XML editor to create an [application manifest](application-manifests.md). See the example application manifest below. For more information, see [Application Manifests](application-manifests.md) in the [Manifest Files Reference](manifest-files-reference.md).
-3.  Enter attribute values in the [*DEF-context assemblyIdentity*](d-sbscs-gly.md#-win32-def-context-assemblyidentity-gly) subelement of the application manifest that uniquely defines the application. For more information about the DEF-context **assemblyIdentity**, see [Application Manifests](application-manifests.md).
-4.  If the assembly contains any dependent assemblies, enter attribute values into the corresponding [*REF-context assemblyIdentity*](r-sbscs-gly.md#-win32-ref-context-assemblyidentity-gly) subelements of the application manifest. For more information about the REF-context **assemblyIdentity**, see [Application Manifests](application-manifests.md).
+3.  Enter attribute values in the [*DEF-context assemblyIdentity*](d-sbscs-gly.md) subelement of the application manifest that uniquely defines the application. For more information about the DEF-context **assemblyIdentity**, see [Application Manifests](application-manifests.md).
+4.  If the assembly contains any dependent assemblies, enter attribute values into the corresponding [*REF-context assemblyIdentity*](r-sbscs-gly.md) subelements of the application manifest. For more information about the REF-context **assemblyIdentity**, see [Application Manifests](application-manifests.md).
 
     ``` syntax
     <dependentAssembly>

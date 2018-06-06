@@ -45,7 +45,7 @@ Returns the previous position.
 
 If the increment results in a value outside the range of the control, the position is set to the nearest boundary.
 
-The behavior of this message is undefined if it is sent to a control that has the [**PBS\_MARQUEE**](progress-bar-control-styles.md#pbs-marquee) style.
+The behavior of this message is undefined if it is sent to a control that has the [**PBS\_MARQUEE**](progress-bar-control-styles.md) style.
 
 ## Requirements
 

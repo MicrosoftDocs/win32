@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPrintOemPS::DisableDriver method
 
-The `IPrintOemPS::DisableDriver` method allows a rendering plug-in for [*Pscript*](wdkgloss.p#wdkgloss-pscript) to free resources that were allocated by the plug-in's [**IPrintOemPS::EnableDriver**](iprintoemps-enabledriver.md) method.
+The `IPrintOemPS::DisableDriver` method allows a rendering plug-in for [*Pscript*](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c) to free resources that were allocated by the plug-in's [**IPrintOemPS::EnableDriver**](iprintoemps-enabledriver.md) method.
 
 ## Syntax
 

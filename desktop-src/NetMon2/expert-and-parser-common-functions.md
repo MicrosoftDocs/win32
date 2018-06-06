@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Expert and Parser Common Functions
 
-The Network Monitor functions, listed in the following table, can be used to develop either [*parsers*](p.md#-netmon-parser-gly) or [*experts*](e.md#-netmon-expert-gly).
+The Network Monitor functions, listed in the following table, can be used to develop either [*parsers*](p.md) or [*experts*](e.md).
 
 
 

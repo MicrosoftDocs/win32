@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # DL\_BEGINDRAG notification code
 
-Notifies the drag list box's parent window that the user has clicked the left mouse button on an item. A drag list box sends this notification code in the form of a drag list message. For more information, see [Drag List Box Messages](about-list-boxes.md#drag-list-box-messages).
+Notifies the drag list box's parent window that the user has clicked the left mouse button on an item. A drag list box sends this notification code in the form of a drag list message. For more information, see [Drag List Box Messages](about-list-boxes.md).
 
 
 ```C++

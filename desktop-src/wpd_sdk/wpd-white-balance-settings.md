@@ -44,7 +44,7 @@ This value has not been defined.
 <span id="WPD_WHITE_BALANCE_MANUAL"></span><span id="wpd_white_balance_manual"></span>**WPD\_WHITE\_BALANCE\_MANUAL**
 </dt> <dd>
 
-The white balance is set explicitly by using the [WPD\_STILL\_IMAGE\_RGB\_GAIN](still-image-properties.md#wpd-still-image-rgb-gain) property and will not change by itself.
+The white balance is set explicitly by using the [WPD\_STILL\_IMAGE\_RGB\_GAIN](still-image-properties.md) property and will not change by itself.
 
 </dd> <dt>
 
@@ -85,7 +85,7 @@ The device will use white balance numbers appropriate for use with a flash.
 
 ## Remarks
 
-This enumeration is used by the [WPD\_STILL\_IMAGE\_WHITE\_BALANCE](still-image-properties.md#wpd-still-image-white-balance) property.
+This enumeration is used by the [WPD\_STILL\_IMAGE\_WHITE\_BALANCE](still-image-properties.md) property.
 
 ## Requirements
 

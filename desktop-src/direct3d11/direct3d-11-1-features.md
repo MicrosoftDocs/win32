@@ -88,13 +88,13 @@ Direct3D 11.1 lets you check for new features that the graphics driver might sup
 This Direct3D 11.1 feature consists of the following API.
 
 -   [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) with [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options), [**D3D11\_FEATURE\_DATA\_ARCHITECTURE\_INFO**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_architecture_info), [**D3D11\_FEATURE\_DATA\_D3D9\_OPTIONS**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d9_options), [**D3D11\_FEATURE\_DATA\_SHADER\_MIN\_PRECISION\_SUPPORT**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_shader_min_precision_support), and [**D3D11\_FEATURE\_DATA\_D3D9\_SHADOW\_SUPPORT**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d9_shadow_support) structures
--   [**ID3D11Device::CheckFormatSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkformatsupport) with [**D3D11\_FORMAT\_SUPPORT\_DECODER\_OUTPUT**](d3d11-format-support.md#d3d11-format-support-decoder-output), [**D3D11\_FORMAT\_SUPPORT\_VIDEO\_PROCESSOR\_OUTPUT**](d3d11-format-support.md#d3d11-format-support-video-processor-output), [**D3D11\_FORMAT\_SUPPORT\_VIDEO\_PROCESSOR\_INPUT**](d3d11-format-support.md#d3d11-format-support-video-processor-input), [**D3D11\_FORMAT\_SUPPORT\_VIDEO\_ENCODER**](d3d11-format-support.md#d3d11-format-support-video-encoder), and [**D3D11\_FORMAT\_SUPPORT2\_OUTPUT\_MERGER\_LOGIC\_OP**](d3d11-format-support2.md#d3d11-format-support2-output-merger-logic-op)
+-   [**ID3D11Device::CheckFormatSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkformatsupport) with [**D3D11\_FORMAT\_SUPPORT\_DECODER\_OUTPUT**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_format_support), [**D3D11\_FORMAT\_SUPPORT\_VIDEO\_PROCESSOR\_OUTPUT**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_format_support), [**D3D11\_FORMAT\_SUPPORT\_VIDEO\_PROCESSOR\_INPUT**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_format_support), [**D3D11\_FORMAT\_SUPPORT\_VIDEO\_ENCODER**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_format_support), and [**D3D11\_FORMAT\_SUPPORT2\_OUTPUT\_MERGER\_LOGIC\_OP**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_format_support2)
 
 ## Use HLSL minimum precision
 
 Starting with Windows 8, graphics drivers can implement minimum precision [HLSL scalar data types](https://msdn.microsoft.com/library/windows/desktop/bb509646) by using any precision greater than or equal to their specified bit precision. When your HLSL minimum precision shader code is used on hardware that implements HLSL minimum precision, you use less memory bandwidth and as a result you also use less system power.
 
-You can query for the minimum precision support that the graphics driver provides by calling [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) with the [**D3D11\_FEATURE\_SHADER\_MIN\_PRECISION\_SUPPORT**](d3d11-feature.md#d3d11-feature-shader-min-precision-support) value. In this **ID3D11Device::CheckFeatureSupport** call, pass a pointer to a [**D3D11\_FEATURE\_DATA\_SHADER\_MIN\_PRECISION\_SUPPORT**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_shader_min_precision_support) structure that **ID3D11Device::CheckFeatureSupport** fills with the minimum precision levels that the driver supports for the pixel shader stage and for other shader stages. The returned info just indicates that the graphics hardware can perform HLSL operations at a lower precision than the standard 32-bit float precision, but doesn’t guarantee that the graphics hardware will actually run at a lower precision.
+You can query for the minimum precision support that the graphics driver provides by calling [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) with the [**D3D11\_FEATURE\_SHADER\_MIN\_PRECISION\_SUPPORT**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature) value. In this **ID3D11Device::CheckFeatureSupport** call, pass a pointer to a [**D3D11\_FEATURE\_DATA\_SHADER\_MIN\_PRECISION\_SUPPORT**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_shader_min_precision_support) structure that **ID3D11Device::CheckFeatureSupport** fills with the minimum precision levels that the driver supports for the pixel shader stage and for other shader stages. The returned info just indicates that the graphics hardware can perform HLSL operations at a lower precision than the standard 32-bit float precision, but doesn’t guarantee that the graphics hardware will actually run at a lower precision.
 
 You don't need to author multiple shaders that do and don't use minimum precision. Instead, create shaders with minimum precision, and the minimum precision variables behave at full 32-bit precision if the graphics driver reports that it doesn't support any minimum precision. For more info about HLSL minimum precision, see [Using HLSL minimum precision](https://msdn.microsoft.com/library/windows/desktop/hh968108).
 
@@ -102,7 +102,7 @@ HLSL minimum precision shaders don't work on operating systems earlier than Wind
 
 ## Specify user clip planes in HLSL on feature level 9 and higher
 
-Starting with Windows 8, you can use the **clipplanes** function attribute in an HLSL [function declaration](https://msdn.microsoft.com/library/windows/desktop/bb509607) rather than [SV\_ClipDistance](https://msdn.microsoft.com/library/windows/desktop/bb509647#system-value) to make your shader work on [feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_x as well as feature level 10 and higher. For more info, see [User clip planes on feature level 9 hardware](https://msdn.microsoft.com/library/windows/desktop/jj635733).
+Starting with Windows 8, you can use the **clipplanes** function attribute in an HLSL [function declaration](https://msdn.microsoft.com/library/windows/desktop/bb509607) rather than [SV\_ClipDistance](https://msdn.microsoft.com/library/windows/desktop/bb509647#system-value) to make your shader work on [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_x as well as feature level 10 and higher. For more info, see [User clip planes on feature level 9 hardware](https://msdn.microsoft.com/library/windows/desktop/jj635733).
 
 ## Create larger constant buffers than a shader can access
 
@@ -133,7 +133,7 @@ This Direct3D 11.1 feature consists of the following API.
 > -   Don't bind depth-stencil views.
 > -   Disable depth testing.
 > -   Ensure the shader doesn't output depth.
-> -   If you have any render-target views bound ([**D3D11\_BIND\_RENDER\_TARGET**](d3d11-bind-flag.md#d3d11-bind-render-target)) and you forced the sample count to greater than 1, ensure that every render target has only a single sample.
+> -   If you have any render-target views bound ([**D3D11\_BIND\_RENDER\_TARGET**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_bind_flag)) and you forced the sample count to greater than 1, ensure that every render target has only a single sample.
 > -   Don't operate the shader at sample frequency. Therefore, [**ID3D11ShaderReflection::IsSampleFrequencyShader**](/windows/desktop/api/D3D11Shader/nf-d3d11shader-id3d11shaderreflection-issamplefrequencyshader) returns **FALSE**.
 >
 > Otherwise, rendering behavior is undefined. For info about how to configure depth-stencil, see [Configuring Depth-Stencil Functionality](d3d10-graphics-programming-guide-depth-stencil.md).
@@ -152,7 +152,7 @@ Direct3D 11.1 updates the following methods for this feature.
 
 ## Extended support for shared Texture2D resources
 
-Direct3D 11.1 guarantees that you can share Texture2D resources that you created with particular resource types and formats. To share Texture2D resources, use the [**D3D11\_RESOURCE\_MISC\_SHARED**](d3d11-resource-misc-flag.md#d3d11-resource-misc-shared), [**D3D11\_RESOURCE\_MISC\_SHARED\_KEYEDMUTEX**](d3d11-resource-misc-flag.md#d3d11-resource-misc-shared-keyedmutex), or a combination of the **D3D11\_RESOURCE\_MISC\_SHARED\_KEYEDMUTEX** and [**D3D11\_RESOURCE\_MISC\_SHARED\_NTHANDLE**](d3d11-resource-misc-flag.md#d3d11-resource-misc-shared-nthandle) (new for Windows 8) flags when you create those resources.
+Direct3D 11.1 guarantees that you can share Texture2D resources that you created with particular resource types and formats. To share Texture2D resources, use the [**D3D11\_RESOURCE\_MISC\_SHARED**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag), [**D3D11\_RESOURCE\_MISC\_SHARED\_KEYEDMUTEX**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag), or a combination of the **D3D11\_RESOURCE\_MISC\_SHARED\_KEYEDMUTEX** and [**D3D11\_RESOURCE\_MISC\_SHARED\_NTHANDLE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag) (new for Windows 8) flags when you create those resources.
 
 Direct3D 11.1 guarantees that you can share Texture2D resources that you created with these [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) values:
 
@@ -165,14 +165,14 @@ Direct3D 11.1 guarantees that you can share Texture2D resources that you created
 -   DXGI\_FORMAT\_R10G10B10A2\_UNORM
 -   DXGI\_FORMAT\_R16G16B16A16\_FLOAT
 
-In addition, Direct3D 11.1 guarantees that you can share Texture2D resources that you created with a mipmap level of 1, array size of 1, bind flags of [**D3D11\_BIND\_SHADER\_RESOURCE**](d3d11-bind-flag.md#d3d11-bind-shader-resource) and [**D3D11\_BIND\_RENDER\_TARGET**](d3d11-bind-flag.md#d3d11-bind-render-target) combined, usage default ([**D3D11\_USAGE\_DEFAULT**](d3d11-usage.md#d3d11-usage-default)), and only these [**D3D11\_RESOURCE\_MISC\_FLAG**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag) values:
+In addition, Direct3D 11.1 guarantees that you can share Texture2D resources that you created with a mipmap level of 1, array size of 1, bind flags of [**D3D11\_BIND\_SHADER\_RESOURCE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_bind_flag) and [**D3D11\_BIND\_RENDER\_TARGET**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_bind_flag) combined, usage default ([**D3D11\_USAGE\_DEFAULT**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_usage)), and only these [**D3D11\_RESOURCE\_MISC\_FLAG**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag) values:
 
--   [**D3D11\_RESOURCE\_MISC\_SHARED**](d3d11-resource-misc-flag.md#d3d11-resource-misc-shared)
--   [**D3D11\_RESOURCE\_MISC\_SHARED\_KEYEDMUTEX**](d3d11-resource-misc-flag.md#d3d11-resource-misc-shared-keyedmutex)
--   [**D3D11\_RESOURCE\_MISC\_SHARED\_NTHANDLE**](d3d11-resource-misc-flag.md#d3d11-resource-misc-shared-nthandle)
--   [**D3D11\_RESOURCE\_MISC\_GDI\_COMPATIBLE**](d3d11-resource-misc-flag.md#d3d11-resource-misc-gdi-compatible)
+-   [**D3D11\_RESOURCE\_MISC\_SHARED**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)
+-   [**D3D11\_RESOURCE\_MISC\_SHARED\_KEYEDMUTEX**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)
+-   [**D3D11\_RESOURCE\_MISC\_SHARED\_NTHANDLE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)
+-   [**D3D11\_RESOURCE\_MISC\_GDI\_COMPATIBLE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)
 
-Direct3D 11.1 lets you share a greater variety of Texture2D resource types and formats. You can query for whether the graphics driver and hardware support extended Texture2D resource sharing by calling [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) with the [**D3D11\_FEATURE\_D3D11\_OPTIONS**](d3d11-feature.md#d3d11-feature-d3d11-options) value. In this **ID3D11Device::CheckFeatureSupport** call, pass a pointer to a [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) structure. **ID3D11Device::CheckFeatureSupport** sets the **ExtendedResourceSharing** member of **D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS** to **TRUE** if the hardware and driver support extended Texture2D resource sharing.
+Direct3D 11.1 lets you share a greater variety of Texture2D resource types and formats. You can query for whether the graphics driver and hardware support extended Texture2D resource sharing by calling [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) with the [**D3D11\_FEATURE\_D3D11\_OPTIONS**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature) value. In this **ID3D11Device::CheckFeatureSupport** call, pass a pointer to a [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) structure. **ID3D11Device::CheckFeatureSupport** sets the **ExtendedResourceSharing** member of **D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS** to **TRUE** if the hardware and driver support extended Texture2D resource sharing.
 
 If [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) returns **TRUE** in **ExtendedResourceSharing**, you can share resources that you created with these [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) values:
 
@@ -229,30 +229,30 @@ If [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-i
 
 If [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) returns **TRUE** in **ExtendedResourceSharing**, you can share resources that you created with these features and flags:
 
--   [**D3D11\_USAGE\_DEFAULT**](d3d11-usage.md#d3d11-usage-default)
--   [**D3D11\_BIND\_SHADER\_RESOURCE**](d3d11-bind-flag.md#d3d11-bind-shader-resource)
--   [**D3D11\_BIND\_RENDER\_TARGET**](d3d11-bind-flag.md#d3d11-bind-render-target)
--   [**D3D11\_RESOURCE\_MISC\_GENERATE\_MIPS**](d3d11-resource-misc-flag.md#d3d11-resource-misc-generate-mips)
--   [**D3D11\_BIND\_UNORDERED\_ACCESS**](d3d11-bind-flag.md#d3d11-bind-unordered-access)
+-   [**D3D11\_USAGE\_DEFAULT**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_usage)
+-   [**D3D11\_BIND\_SHADER\_RESOURCE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_bind_flag)
+-   [**D3D11\_BIND\_RENDER\_TARGET**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_bind_flag)
+-   [**D3D11\_RESOURCE\_MISC\_GENERATE\_MIPS**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)
+-   [**D3D11\_BIND\_UNORDERED\_ACCESS**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_bind_flag)
 -   Mipmap levels (one or more levels) in the 2D texture resources (specified in the **MipLevels** member of [**D3D11\_TEXTURE2D\_DESC**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_texture2d_desc))
 -   Arrays of 2D texture resources (one or more textures) (specified in the **ArraySize** member of [**D3D11\_TEXTURE2D\_DESC**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_texture2d_desc))
--   [**D3D11\_BIND\_DECODER**](d3d11-bind-flag.md#d3d11-bind-decoder)
--   [**D3D11\_RESOURCE\_MISC\_RESTRICTED\_CONTENT**](d3d11-resource-misc-flag.md#d3d11-resource-misc-restricted-content)
--   [**D3D11\_RESOURCE\_MISC\_RESTRICT\_SHARED\_RESOURCE**](d3d11-resource-misc-flag.md#d3d11-resource-misc-restrict-shared-resource)
--   [**D3D11\_RESOURCE\_MISC\_RESTRICT\_SHARED\_RESOURCE\_DRIVER**](d3d11-resource-misc-flag.md#d3d11-resource-misc-restrict-shared-resource-driver)
+-   [**D3D11\_BIND\_DECODER**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_bind_flag)
+-   [**D3D11\_RESOURCE\_MISC\_RESTRICTED\_CONTENT**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)
+-   [**D3D11\_RESOURCE\_MISC\_RESTRICT\_SHARED\_RESOURCE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)
+-   [**D3D11\_RESOURCE\_MISC\_RESTRICT\_SHARED\_RESOURCE\_DRIVER**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)
 
 > [!Note]  
-> When **ExtendedResourceSharing** is **TRUE**, you have more flexibility when you specify bind flags for sharing Texture2D resources. Not only does the graphics driver and hardware support more bind flags but also more possible combinations of bind flags. For example, you can specify just [**D3D11\_BIND\_RENDER\_TARGET**](d3d11-bind-flag.md#d3d11-bind-render-target) or no bind flags, and so on.
+> When **ExtendedResourceSharing** is **TRUE**, you have more flexibility when you specify bind flags for sharing Texture2D resources. Not only does the graphics driver and hardware support more bind flags but also more possible combinations of bind flags. For example, you can specify just [**D3D11\_BIND\_RENDER\_TARGET**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_bind_flag) or no bind flags, and so on.
 
  
 
 Even if [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) returns **TRUE** in **ExtendedResourceSharing**, you still can't share resources that you created with these features and flags:
 
--   [**D3D11\_BIND\_DEPTH\_STENCIL**](d3d11-bind-flag.md#d3d11-bind-depth-stencil)
+-   [**D3D11\_BIND\_DEPTH\_STENCIL**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_bind_flag)
 -   2D texture resources in multisample antialiasing (MSAA) mode (specified with [**DXGI\_SAMPLE\_DESC**](https://msdn.microsoft.com/library/windows/desktop/bb173072))
--   [**D3D11\_RESOURCE\_MISC\_RESOURCE\_CLAMP**](d3d11-resource-misc-flag.md#d3d11-resource-misc-resource-clamp)
--   [**D3D11\_USAGE\_IMMUTABLE**](d3d11-usage.md#d3d11-usage-immutable), [**D3D11\_USAGE\_DYNAMIC**](d3d11-usage.md#d3d11-usage-dynamic), or [**D3D11\_USAGE\_STAGING**](d3d11-usage.md#d3d11-usage-staging) (that is, mappable)
--   [**D3D11\_RESOURCE\_MISC\_TEXTURECUBE**](d3d11-resource-misc-flag.md#d3d11-resource-misc-texturecube)
+-   [**D3D11\_RESOURCE\_MISC\_RESOURCE\_CLAMP**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)
+-   [**D3D11\_USAGE\_IMMUTABLE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_usage), [**D3D11\_USAGE\_DYNAMIC**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_usage), or [**D3D11\_USAGE\_STAGING**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_usage) (that is, mappable)
+-   [**D3D11\_RESOURCE\_MISC\_TEXTURECUBE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)
 
 ## Change subresources with new copy options
 
@@ -356,18 +356,18 @@ UAV accesses that you issue from within or across shader stages that execute wit
 
 ## Extended support for WARP devices
 
-Direct3D 11.1 extends support for [WARP](overviews-direct3d-11-devices-create-warp.md) devices, which you create by passing [**D3D\_DRIVER\_TYPE\_WARP**](d3d-driver-type.md#d3d-driver-type-warp) in the *DriverType* parameter of [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice).
+Direct3D 11.1 extends support for [WARP](overviews-direct3d-11-devices-create-warp.md) devices, which you create by passing [**D3D\_DRIVER\_TYPE\_WARP**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type) in the *DriverType* parameter of [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice).
 
 Starting with Direct3D 11.1 WARP devices support:
 
--   All Direct3D [feature levels](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) from 9.1 through to 11.1
+-   All Direct3D [feature levels](overviews-direct3d-11-devices-downlevel-intro.md) from 9.1 through to 11.1
 -   [Compute shaders](direct3d-11-advanced-stages-compute-shader.md) and [tessellation](direct3d-11-advanced-stages-tessellation.md)
 -   Shared surfaces. That is, you can fully share surfaces between WARP devices, as well as between WARP devices in different processes.
 
 WARP devices don't support these optional features:
 
 -   [doubles](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_doubles)
--   [video encode or decode](d3d11-create-device-flag.md#d3d11-create-device-video-support)
+-   [video encode or decode](/windows/desktop/api/D3D11/ne-d3d11-d3d11_create_device_flag)
 -   [minimum precision shader support](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_shader_min_precision_support)
 
 When you run a virtual machine (VM), Hyper-V, with your graphics processing unit (GPU) disabled, or without a display driver, you get a WARP device whose friendly name is "Microsoft Basic Display Adapter." This WARP device can run the full Windows experience, which includes DWM, Internet Explorer, and Windows Store apps. This WARP device also supports running legacy apps that use [DirectDraw](https://msdn.microsoft.com/library/windows/desktop/gg426115) or running apps that use Direct3D 3 through Direct3D 11.1.
@@ -399,7 +399,7 @@ Starting with Windows 8 and Windows Server 2012, you can use most of the Direc
 
 ## Support for shadow buffer on feature level 9
 
-Use a subset of Direct3D 10\_0+ shadow buffer features to implement shadow effects on [feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_x. For info about what you need to do to implement shadow effects on feature level 9\_x, see [Implementing shadow buffers for Direct3D feature level 9](https://msdn.microsoft.com/library/windows/apps/jj262110).
+Use a subset of Direct3D 10\_0+ shadow buffer features to implement shadow effects on [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_x. For info about what you need to do to implement shadow effects on feature level 9\_x, see [Implementing shadow buffers for Direct3D feature level 9](https://msdn.microsoft.com/library/windows/apps/jj262110).
 
 ## Related topics
 

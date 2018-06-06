@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **get\_ReplyStatus** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
 
-The **get\_ReplyStatus** method retrieves the [*reply APDU's*](security.r_gly#-security-reply-apdu-gly) message status word.
+The **get\_ReplyStatus** method retrieves the [*reply APDU's*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd) message status word.
 
 ## Syntax
 
@@ -60,11 +60,11 @@ To set the reply APDU's message status word, call [**put\_ReplyStatus**](iscardc
 
 For a list of all the methods provided by this interface, see [**ISCardCmd**](iscardcmd.md).
 
-In addition to the COM error codes listed above, this interface may return a [*smart card*](security.s_gly#-security-smart-card-gly) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
+In addition to the COM error codes listed above, this interface may return a [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Examples
 
-The following example shows how to retrieve the message status word of the [*reply APDU*](security.r_gly#-security-reply-apdu-gly). The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
+The following example shows how to retrieve the message status word of the [*reply APDU*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd). The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
 
 
 ```C++

@@ -53,7 +53,7 @@ If the function is unsuccessful, the return value is **NULL**.
 
 To retrieve the next instance of the property, call [FindPropertyInstanceRestart](findpropertyinstancerestart.md).
 
-[*Experts*](e.md#-netmon-expert-gly) and [*parsers*](p.md#-netmon-parser-gly)can call the **FindPropertyInstance** function.
+[*Experts*](e.md) and [*parsers*](p.md)can call the **FindPropertyInstance** function.
 
 ## Requirements
 
