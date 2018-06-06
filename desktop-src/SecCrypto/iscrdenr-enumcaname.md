@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ISCrdEnr::enumCAName method
 
-The **enumCAName** method enumerates the name of the [*certification authorities*](security.c_gly#-security-certification-authority-gly) (CAs) for a given certificate template name.
+The **enumCAName** method enumerates the name of the [*certification authorities*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CAs) for a given certificate template name.
 
 ## Syntax
 

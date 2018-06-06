@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Signing a Message and Verifying a Message Signature
 
-The following example implements the procedure described in [Procedure for Signing Data](procedure-for-signing-data.md). For general information, see [Simplified Messages](simplified-messages.md). Details about the functions and structures can be found in [Base Cryptography Functions](cryptography-functions.md#base-cryptography-functions), [Simplified Message Functions](cryptography-functions.md#simplified-message-functions), and [CryptoAPI Structures](cryptography-structures.md).
+The following example implements the procedure described in [Procedure for Signing Data](procedure-for-signing-data.md). For general information, see [Simplified Messages](simplified-messages.md). Details about the functions and structures can be found in [Base Cryptography Functions](cryptography-functions.md), [Simplified Message Functions](cryptography-functions.md), and [CryptoAPI Structures](cryptography-structures.md).
 
 This example also includes code to verify the message signature created. This code would usually be in a separate program but is included here for completeness and clarity.
 
@@ -23,7 +23,7 @@ This example illustrates the following CryptoAPI functions:
 -   [**CertFreeCertificateContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfreecertificatecontext)
 -   [**CertCloseStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certclosestore)
 
-Signing the message can only be done with access to a certificate that has an available [*private key*](security.p_gly#-security-private-key-gly). Verification of the message can only be done with access to the public key related to the private key used to sign the certificate. The user can change the **\#define** statement to the subject name from one of the user's personal certificates.
+Signing the message can only be done with access to a certificate that has an available [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a). Verification of the message can only be done with access to the public key related to the private key used to sign the certificate. The user can change the **\#define** statement to the subject name from one of the user's personal certificates.
 
 This example also demonstrates the initialization of the CRYPT\_SIGN\_MESSAGE\_PARA and CRYPT\_VERIFY\_MESSAGE\_PARA structures needed for calls to [**CryptSignMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignmessage) and [**CryptVerifyMessageSignature**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifymessagesignature).
 

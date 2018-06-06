@@ -86,7 +86,7 @@ String that represents the name of the user.
 
 ## Remarks
 
-You can specify the name of the user to whom the [*smart card*](security.s_gly#-security-smart-card-gly) is issued by calling either [**ISCrdEnr::setUserName**](iscrdenr-setusername.md) or [**ISCrdEnr::selectUserName**](iscrdenr-selectusername.md). After a user name has been specified, its value can be retrieved by calling **getUserName**.
+You can specify the name of the user to whom the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) is issued by calling either [**ISCrdEnr::setUserName**](iscrdenr-setusername.md) or [**ISCrdEnr::selectUserName**](iscrdenr-selectusername.md). After a user name has been specified, its value can be retrieved by calling **getUserName**.
 
 ## Requirements
 

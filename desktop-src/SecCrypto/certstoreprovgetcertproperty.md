@@ -36,7 +36,7 @@ BOOL WINAPI CertStoreProvGetCertProperty(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](security.c_gly#-security-certificate-store-gly).
+**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
 
 </dd> <dt>
 

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 The following example demonstrates aspects of working with the [**Store**](store.md) object. It shows opening stores in the CAPICOM\_MEMORY\_STORE, CAPICOM\_CURRENT\_USER\_STORE, and CAPICOM\_LOCAL\_MACHINE\_STORE locations.
 
-The example shows exporting [*certificates*](security.c_gly#-security-certificate-gly) from an open [*store*](security.c_gly#-security-certificate-store-gly), writing the exported certificates to a file, reading them back in and importing them into a different store. The newly imported certificates are then enumerated and displayed.
+The example shows exporting [*certificates*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) from an open [*store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb), writing the exported certificates to a file, reading them back in and importing them into a different store. The newly imported certificates are then enumerated and displayed.
 
 On any CAPICOM error, a negative decimal value of **Err.Number** is returned. For more information, see [**CAPICOM\_ERROR\_CODE**](capicom-error-code.md). For information about positive decimal values of **Err.Number**, see Winerror.h.
 

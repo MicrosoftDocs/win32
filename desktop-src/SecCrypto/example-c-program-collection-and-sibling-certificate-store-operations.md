@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Example C Program: Collection and Sibling Certificate Store Operations
 
-The following example demonstrates the concept of the collection store, a temporary [*certificate store*](security.c_gly#-security-certificate-store-gly) that actually includes the contents of several certificate stores. One or more stores may be added to a collection that can access the contents of any of the stores in the collection with a single function call.
+The following example demonstrates the concept of the collection store, a temporary [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) that actually includes the contents of several certificate stores. One or more stores may be added to a collection that can access the contents of any of the stores in the collection with a single function call.
 
-This example illustrates the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
+This example illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) functions:
 
 -   Opening and closing a collection store, a memory store and a system store using [**CertOpenStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopenstore) and [**CertCloseStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certclosestore).
 -   Adding a sibling store to a collection store using [**CertAddStoreToCollection**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddstoretocollection).

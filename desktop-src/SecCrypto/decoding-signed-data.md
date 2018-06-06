@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Decoding Signed Data
 
-The following general process decodes a [*signed data*](security.s_gly#-security-signed-data-gly) type.
+The following general process decodes a [*signed data*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) type.
 
 **To decode a signed message**
 

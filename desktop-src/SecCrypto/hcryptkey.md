@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # HCRYPTKEY
 
-The **HCRYPTKEY** data type is used to represent handles to [*cryptographic keys*](security.c_gly#-security-cryptographic-key-gly). These handles are used to indicate to the CSP module which key is being used in a specific operation. The CSP module does not enable direct access to the key values. Instead, the user performs functions by using the key value through the key handle.
+The **HCRYPTKEY** data type is used to represent handles to [*cryptographic keys*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb). These handles are used to indicate to the CSP module which key is being used in a specific operation. The CSP module does not enable direct access to the key values. Instead, the user performs functions by using the key value through the key handle.
 
 
 ```C++

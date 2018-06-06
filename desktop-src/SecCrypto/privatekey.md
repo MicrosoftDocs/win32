@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **PrivateKey** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](https://www.bing.com/search?q=**X509Certificate2.PrivateKey+Property**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
-The **PrivateKey** object represents the [*private key*](security.p_gly#-security-private-key-gly) associated with a certificate.
+The **PrivateKey** object represents the [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) associated with a certificate.
 
 ## When to use
 

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Certification Authority Renewal
 
-[*Certificate Services*](security.c_gly#-security-certificate-services-gly) supports the renewal of a [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA). Renewal is the issuing of a new certificate for the CA to extend the CA's life beyond the end date of its original certificate. You can renew a CA as a task within the Certificate Authority MMC snap-in or by using the Certutil.exe tool (with the **-renewCert** command).
+[*Certificate Services*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) supports the renewal of a [*certification authority*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CA). Renewal is the issuing of a new certificate for the CA to extend the CA's life beyond the end date of its original certificate. You can renew a CA as a task within the Certificate Authority MMC snap-in or by using the Certutil.exe tool (with the **-renewCert** command).
 
-Each renewal results in a new CA certificate; however, the administrator can either generate a new public/private key pair or reuse the existing public/private key pair for the CA certificate. For consistency and integrity, CA certificates and [*certificate revocation lists*](security.c_gly#-security-certificate-revocation-list-gly) (CRL) issued by the CA before its renewal will be available after the CA has been renewed. To make these available, Certificate Services maintains an index of CA certificates, CRLs, and keys.
+Each renewal results in a new CA certificate; however, the administrator can either generate a new public/private key pair or reuse the existing public/private key pair for the CA certificate. For consistency and integrity, CA certificates and [*certificate revocation lists*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CRL) issued by the CA before its renewal will be available after the CA has been renewed. To make these available, Certificate Services maintains an index of CA certificates, CRLs, and keys.
 
 The indexes and suffix names of CA certificates and CRLs during various CA renewal operations are as follows.
 

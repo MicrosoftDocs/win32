@@ -63,7 +63,7 @@ A pointer to a [**SIGNER\_SIGNATURE\_INFO**](signer-signature-info.md) structure
 *pProviderInfo* \[in, optional\]
 </dt> <dd>
 
-A pointer to a [**SIGNER\_PROVIDER\_INFO**](signer-provider-info.md) structure that specifies the [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) and [*private key*](security.p_gly#-security-private-key-gly) information used to create the digital signature.
+A pointer to a [**SIGNER\_PROVIDER\_INFO**](signer-provider-info.md) structure that specifies the [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP) and [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) information used to create the digital signature.
 
 If the value of this parameter is **NULL**, the value of the *pSignerCert* parameter must specify a certificate that is associated with a CSP.
 

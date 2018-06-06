@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **SIGNER\_BLOB\_INFO** structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-The **SIGNER\_BLOB\_INFO** structure specifies a [*BLOB*](security.b_gly#-security-blob-gly) to sign.
+The **SIGNER\_BLOB\_INFO** structure specifies a [*BLOB*](https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b) to sign.
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.

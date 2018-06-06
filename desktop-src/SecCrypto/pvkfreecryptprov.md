@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The **PvkFreeCryptProv** function releases the handle to a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) and optionally deletes the temporary container created by the [**PvkGetCryptProv**](pvkgetcryptprov.md) function.
+The **PvkFreeCryptProv** function releases the handle to a [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP) and optionally deletes the temporary container created by the [**PvkGetCryptProv**](pvkgetcryptprov.md) function.
 
 > [!Note]  
 > This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to Mssign32.dll.

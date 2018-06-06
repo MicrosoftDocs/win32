@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following changes have been made to signed data capabilities:
 
--   Nondata [*inner content*](security.i_gly#-security-inner-content-gly) is encapsulated in an OCTET STRING.
+-   Nondata [*inner content*](https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70) is encapsulated in an OCTET STRING.
 -   Provision is made for different message versions.
 -   Signers can be identified either by Issuer and Serial Number, as in PKCS \#7 1.5, or by Subject key identifier.
 -   Multiple signers are allowed.

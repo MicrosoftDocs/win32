@@ -11,10 +11,10 @@ ms.date: 05/31/2018
 
 # Certificate Extended Properties
 
-The data in a [*certificate*](security.c_gly#-security-certificate-gly), [*certificate revocation list*](security.c_gly#-security-certificate-revocation-list-gly) (CRL), or [*certificate trust list*](security.c_gly#-security-certificate-trust-list-gly) (CTL) [*context*](security.c_gly#-security-context-gly), including any extensions, is read-only and cannot be changed. However, on Microsoft platforms, CryptoAPI certificates also have dynamic extended properties that can be added and changed.
+The data in a [*certificate*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb), [*certificate revocation list*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CRL), or [*certificate trust list*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CTL) [*context*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb), including any extensions, is read-only and cannot be changed. However, on Microsoft platforms, CryptoAPI certificates also have dynamic extended properties that can be added and changed.
 
 > [!Note]  
-> Extended properties are associated with a certificate and are not part of a certificate as issued by a [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA). Extended properties are not available on a certificate when it is used on a non-Microsoft platform.
+> Extended properties are associated with a certificate and are not part of a certificate as issued by a [*certification authority*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CA). Extended properties are not available on a certificate when it is used on a non-Microsoft platform.
 
  
 

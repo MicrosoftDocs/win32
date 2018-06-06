@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SIGNER\_CONTEXT structure
 
-The **SIGNER\_CONTEXT** structure contains a signed [*BLOB*](security.b_gly#-security-blob-gly).
+The **SIGNER\_CONTEXT** structure contains a signed [*BLOB*](https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b).
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.

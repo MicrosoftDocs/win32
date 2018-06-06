@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CRYPT\_RETURN\_HWND function pointer
 
-The **FuncReturnhWnd** callback function is used by a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) to obtain the window handle that the CSP should use as the parent or owner of any user interface that is displayed.
+The **FuncReturnhWnd** callback function is used by a [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP) to obtain the window handle that the CSP should use as the parent or owner of any user interface that is displayed.
 
 ## Syntax
 

@@ -115,7 +115,7 @@ The revocation status of the certificate or one of the certificates in the certi
 
 </dt> <dd>
 
-One of the certificates in the chain was issued by a [*certification authority*](security.c_gly#-security-certification-authority-gly) that the original certificate had certified.
+One of the certificates in the chain was issued by a [*certification authority*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) that the original certificate had certified.
 
 </dd> <dt>
 

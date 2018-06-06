@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # VTableProvStruc structure
 
-The **VTableProvStruc** structure contains pointers to callback functions that can be used by [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) functions.
+The **VTableProvStruc** structure contains pointers to callback functions that can be used by [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP) functions.
 
 ## Syntax
 
@@ -68,7 +68,7 @@ This is a version 1 member.
 **dwProvType**
 </dt> <dd>
 
-A **DWORD** value that specifies the type of provider to acquire. The following [*provider types*](security.p_gly#-security-provider-type-gly) are predefined and are discussed in detail in [CSP Interoperability](https://www.bing.com/search?q=CSP+Interoperability):
+A **DWORD** value that specifies the type of provider to acquire. The following [*provider types*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) are predefined and are discussed in detail in [CSP Interoperability](https://www.bing.com/search?q=CSP+Interoperability):
 
 -   PROV\_RSA\_FULL
 -   PROV\_RSA\_SIG

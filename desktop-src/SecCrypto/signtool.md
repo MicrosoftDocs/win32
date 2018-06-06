@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SignTool
 
-The SignTool tool is a command-line tool that digitally signs files, verifies signatures in files, or time stamps files. For information about why signing files is important, see [Introduction to Code Signing](cryptography-tools.md#introduction-to-code-signing). The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
+The SignTool tool is a command-line tool that digitally signs files, verifies signatures in files, or time stamps files. For information about why signing files is important, see [Introduction to Code Signing](cryptography-tools.md). The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
 
 SignTool is available as part of the Windows SDK, which you can download from <http://go.microsoft.com/fwlink/p/?linkid=84091>.
 
@@ -99,7 +99,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="odd">
 <td><strong>/csp</strong> <em>CSPName</em></td>
-<td>Specifies the [<em>cryptographic service provider</em>](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) that contains the [<em>private key</em>](security.p_gly#-security-private-key-gly) container.<br/></td>
+<td>Specifies the [<em>cryptographic service provider</em>](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP) that contains the [<em>private key</em>](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) container.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>/d</strong> <em>Desc</em></td>
@@ -143,7 +143,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="even">
 <td><strong>/fd</strong></td>
-<td>Specifies the file digest algorithm to use to create file signatures. The default algorithm is [<em>Secure Hash Algorithm</em>](security.s_gly#-security-secure-hash-algorithm-gly) (SHA-1).<br/> <strong>Windows Vista and earlier:</strong> This flag is not supported.<br/></td>
+<td>Specifies the file digest algorithm to use to create file signatures. The default algorithm is [<em>Secure Hash Algorithm</em>](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SHA-1).<br/> <strong>Windows Vista and earlier:</strong> This flag is not supported.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/j</strong> <em>DLL</em></td>
@@ -179,7 +179,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="odd">
 <td><strong>/p7co</strong> <em>OID</em></td>
-<td>Specifies the [<em>object identifier</em>](security.o_gly#-security-object-identifier-gly) (OID) that identifies the signed PKCS #7 content.<br/></td>
+<td>Specifies the [<em>object identifier</em>](https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521) (OID) that identifies the signed PKCS #7 content.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>/ph</strong></td>
@@ -236,7 +236,7 @@ The <strong>/td</strong> switch must be declared after the <strong>/tr</strong> 
 </tr>
 <tr class="even">
 <td><strong>/u</strong> <em>Usage</em></td>
-<td>Specifies the [<em>enhanced key usage</em>](security.e_gly#-security-enhanced-key-usage-gly) (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is &quot;Code Signing&quot; (1.3.6.1.5.5.7.3.3).<br/></td>
+<td>Specifies the [<em>enhanced key usage</em>](https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091) (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is &quot;Code Signing&quot; (1.3.6.1.5.5.7.3.3).<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/uw</strong></td>

@@ -15,7 +15,7 @@ Supported protocols and cipher suites can be listed by calls to [**CryptGetProvP
 
 For more information about defined protocol flags and their values, see [Protocol Flags](protocol-flags.md).
 
-Given that the **hCryptProv** member is the [*handle*](security.h_gly#-security-handle-gly) of an open cryptographic [*context*](security.c_gly#-security-context-gly) acquired by using [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) with its *dwProvType* parameter set to PROV\_RSA\_SCHANNEL, the following example lists the names of all algorithms available in the CSP.
+Given that the **hCryptProv** member is the [*handle*](https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323) of an open cryptographic [*context*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) acquired by using [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) with its *dwProvType* parameter set to PROV\_RSA\_SCHANNEL, the following example lists the names of all algorithms available in the CSP.
 
 
 ```C++
@@ -50,17 +50,17 @@ The following table lists some algorithms returned by a typical domestic PROV\_R
 
 | Algorithm identifier                                                                        | Minimum key length | Maximum key length | Protocols | Algorithm name |
 |---------------------------------------------------------------------------------------------|--------------------|--------------------|-----------|----------------|
-| [*CALG\_RSA\_KEYX*](security.c_gly#-security-calg-rsa-keyx-gly) | 512                | 2048               | 0x0007    | "RSA\_KEYX"    |
-| [*CALG\_MD5*](security.c_gly#-security-calg-md5-gly)                 | 128                | 128                | 0x0007    | "MD5"          |
-| [*CALG\_SHA*](security.c_gly#-security-calg-sha-gly)                 | 160                | 160                | 0x0005    | "SHA"          |
-| [*CALG\_RC4*](security.c_gly#-security-calg-rc4-gly)                 | 40                 | 128                | 0x0007    | "RC4"          |
+| [*CALG\_RSA\_KEYX*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) | 512                | 2048               | 0x0007    | "RSA\_KEYX"    |
+| [*CALG\_MD5*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb)                 | 128                | 128                | 0x0007    | "MD5"          |
+| [*CALG\_SHA*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb)                 | 160                | 160                | 0x0005    | "SHA"          |
+| [*CALG\_RC4*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb)                 | 40                 | 128                | 0x0007    | "RC4"          |
 | CALG\_DES                                                                                   | 56                 | 56                 | 0x0005    | "DES"          |
 
 
 
  
 
-To prepare to send ClientHello or ServerHello messages, the [*Schannel*](security.s_gly#-security-schannel-gly) protocol engine enumerates the algorithms and key sizes supported by the CSP and builds a list internally of supported cipher suites.
+To prepare to send ClientHello or ServerHello messages, the [*Schannel*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) protocol engine enumerates the algorithms and key sizes supported by the CSP and builds a list internally of supported cipher suites.
 
  
 

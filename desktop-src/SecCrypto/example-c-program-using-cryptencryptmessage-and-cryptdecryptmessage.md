@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 1.  Get a pointer to the content to be encrypted.
 2.  Determine the size of the content to be encrypted.
 3.  Acquire a handle to a cryptographic provider.
-4.  Open a [*certificate store*](security.c_gly#-security-certificate-store-gly).
+4.  Open a [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
 5.  Get the recipient certificate.
 6.  Create the recipient certificate array.
 7.  Initialize the [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier) structure.

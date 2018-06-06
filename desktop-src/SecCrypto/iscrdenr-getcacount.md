@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ISCrdEnr::getCACount method
 
-The **getCACount** method returns the number of [*certification authorities*](security.c_gly#-security-certification-authority-gly) (CAs) willing to issue a certificate based on the specified certificate template.
+The **getCACount** method returns the number of [*certification authorities*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CAs) willing to issue a certificate based on the specified certificate template.
 
 ## Syntax
 

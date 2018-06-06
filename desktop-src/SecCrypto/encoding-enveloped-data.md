@@ -21,18 +21,18 @@ Key transport key management uses an intended receiver's public key to encrypt t
 
 In key agreement management, a temporary, ephemeral Diffie-Hellman private key is generated and used to encrypt the session key. The public key corresponding to the ephemeral private key is included as part of the message's recipient information. The recipient decrypts the session key using the received ephemeral key and uses this decrypted session key to decrypt the enveloped message. Using ephemeral key agreement in conjunction with the receiver's private key, the message receiver does have confirmed information on the identity of the sender.
 
-For key management using previously distributed [*symmetric keys*](security.s_gly#-security-symmetric-key-gly), each message includes the content-encryption key that has been encrypted with a previously distributed key-encryption key. Receivers use the previously distributed key-encryption key to decrypt the content encryption key, then use the decrypted content-encryption key to decrypt the enveloped message.
+For key management using previously distributed [*symmetric keys*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50), each message includes the content-encryption key that has been encrypted with a previously distributed key-encryption key. Receivers use the previously distributed key-encryption key to decrypt the content encryption key, then use the decrypted content-encryption key to decrypt the enveloped message.
 
 A typical CMS sequence of events for encoding enveloped data, is shown in the following illustration.
 
 ![encoding enveloped data](images/envelmsg.png)
 
--   A pointer to the [*plaintext*](security.p_gly#-security-plaintext-gly) message is retrieved.
--   A symmetric ([*session*](security.s_gly#-security-session-key-gly)) key is generated.
--   The [*symmetric key*](security.s_gly#-security-symmetric-key-gly) and specified encryption algorithm are used to encrypt the message data.
--   A [*certificate store*](security.c_gly#-security-certificate-store-gly) is opened.
+-   A pointer to the [*plaintext*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) message is retrieved.
+-   A symmetric ([*session*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50)) key is generated.
+-   The [*symmetric key*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) and specified encryption algorithm are used to encrypt the message data.
+-   A [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) is opened.
 -   The recipient's certificate is retrieved from the store.
--   The [*public key*](security.p_gly#-security-public-key-gly) is retrieved from the recipient's certificate.
+-   The [*public key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) is retrieved from the recipient's certificate.
 -   Using the recipient's public key, the symmetric key is encrypted.
 -   From the recipient's certificate, the recipient's ID is retrieved.
 -   The following information is included in the digitally enveloped message: the data encryption algorithm, the encrypted data, the encrypted symmetric key, and the recipient information structure.
@@ -50,11 +50,11 @@ To use low-level message functions to accomplish the typical tasks just listed, 
 7.  Call [**CryptMsgUpdate**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgupdate), passing in the handle retrieved in step 6 and a pointer to the data that is to be encrypted, enveloped, and encoded. This function can be called as many times as necessary to complete the encoding process.
 8.  Call [**CryptMsgGetParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsggetparam), passing in the handle retrieved in step 6 and the appropriate parameter types to access the desired, encoded data. For example, pass in CMSG\_CONTENT\_PARAM to get a pointer to the entire PKCS \#7 message.
 
-    If the result of this encoding is to be used as the [*inner data*](security.i_gly#-security-inner-data-gly) for another encoded message, such as an enveloped message, the CMSG\_BARE\_CONTENT\_PARAM parameter must be passed. For an example, see [Alternate Code for Encoding an Enveloped Message](alternate-code-for-encoding-an-enveloped-message.md).
+    If the result of this encoding is to be used as the [*inner data*](https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70) for another encoded message, such as an enveloped message, the CMSG\_BARE\_CONTENT\_PARAM parameter must be passed. For an example, see [Alternate Code for Encoding an Enveloped Message](alternate-code-for-encoding-an-enveloped-message.md).
 
 9.  Close the message by calling [**CryptMsgClose**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgclose).
 
-The result of this procedure is an encoded message that contains the encrypted data, the [*symmetric key*](security.s_gly#-security-symmetric-key-gly) that is encrypted with the recipient's public keys, and the recipient information data structures. The combination of encrypted content and an encrypted symmetric key for a recipient is a [*digital envelope*](security.d_gly#-security-digital-envelope-gly) for that recipient. Any type of content can be enveloped for multiple recipients.
+The result of this procedure is an encoded message that contains the encrypted data, the [*symmetric key*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) that is encrypted with the recipient's public keys, and the recipient information data structures. The combination of encrypted content and an encrypted symmetric key for a recipient is a [*digital envelope*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2) for that recipient. Any type of content can be enveloped for multiple recipients.
 
 ## Related topics
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 A group of high-level functions has been provided to simplify and shorten the amount of code necessary to accomplish the usual message manipulation tasks. These functions are called "simplified message functions." The names of all simplified message functions contain the word "Message."
 
-[*Simplified message functions*](security.s_gly#-security-simplified-message-functions-gly) are at a higher level than the base cryptographic functions or the low-level message functions. They wrap several of the base cryptographic, low-level message, and certificate functions into a single function that performs a specific task in a specific manner, such as encrypting a PKCS \#7 message or signing a message. Simplified message functions provide a quick way to get started using CryptoAPI by reducing the number of function calls needed to accomplish a task.
+[*Simplified message functions*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) are at a higher level than the base cryptographic functions or the low-level message functions. They wrap several of the base cryptographic, low-level message, and certificate functions into a single function that performs a specific task in a specific manner, such as encrypting a PKCS \#7 message or signing a message. Simplified message functions provide a quick way to get started using CryptoAPI by reducing the number of function calls needed to accomplish a task.
 
 The following table list sections that contain detailed procedure descriptions or C program examples of using the simplified message functions.
 
@@ -21,7 +21,7 @@ The following table list sections that contain detailed procedure descriptions o
 
 | Section                                                                                                                                         | Contents                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [Simplified Message Functions](cryptography-functions.md#simplified-message-functions)                                                         | Lists the simplified message functions.                                                     |
+| [Simplified Message Functions](cryptography-functions.md)                                                         | Lists the simplified message functions.                                                     |
 | [Creating a Signed Message](creating-a-signed-message.md)                                                                                      | Details the process of creating a signed message.                                           |
 | [Procedure for Signing Data](procedure-for-signing-data.md)                                                                                    | Provides a procedure for using the simplified message functions to create a signed message. |
 | [Verifying A Signed Message](verifying-a-signed-message.md)                                                                                    | Details a process for verifying the signature on a signed message.                          |

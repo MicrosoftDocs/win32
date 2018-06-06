@@ -123,7 +123,7 @@ This parameter is optional and can be **NULL** if it is not included.
 *pSipData* \[in, optional\]
 </dt> <dd>
 
-Optional. A 32-bit value that is passed as additional data to [*subject interface package*](security.s_gly#-security-subject-interface-package-gly) (SIP) functions. The format and content of this parameter is defined by the SIP provider.
+Optional. A 32-bit value that is passed as additional data to [*subject interface package*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SIP) functions. The format and content of this parameter is defined by the SIP provider.
 
 This parameter is optional and can be **NULL** if it is not included.
 

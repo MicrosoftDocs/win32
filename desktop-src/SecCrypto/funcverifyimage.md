@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CRYPT\_VERIFY\_IMAGE function pointer
 
-The **FuncVerifyImage** callback function is used by a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) to verify the signature of a DLL.
+The **FuncVerifyImage** callback function is used by a [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP) to verify the signature of a DLL.
 
 All auxiliary DLLs into which a CSP makes function calls must be signed in the same manner (and with the same key) as the primary CSP DLL. To ensure this signature, the auxiliary DLLs must be loaded dynamically by using the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) function. But before the DLL is loaded, the signature of the DLL must be verified. The CSP performs this verification by calling the **FuncVerifyImage** function, as shown in the example below.
 

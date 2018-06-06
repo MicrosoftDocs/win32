@@ -19,7 +19,7 @@ The **CAPICOM\_HASH\_ALGORITHM** enumeration defines a hash algorithm.
 
 | Member                                 | Description                                                                                                                                                                 | Value |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|
-| **CAPICOM\_HASH\_ALGORITHM\_SHA1**     | [*Secure Hash Algorithm*](security.s_gly#-security-secure-hash-algorithm-gly) (SHA) that generates a 160-bit message digest.<br/> | 0     |
+| **CAPICOM\_HASH\_ALGORITHM\_SHA1**     | [*Secure Hash Algorithm*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SHA) that generates a 160-bit message digest.<br/> | 0     |
 | **CAPICOM\_HASH\_ALGORITHM\_MD2**      | MD2 hashing algorithm.<br/>                                                                                                                                           | 1     |
 | **CAPICOM\_HASH\_ALGORITHM\_MD4**      | MD4 hashing algorithm.<br/>                                                                                                                                           | 2     |
 | **CAPICOM\_HASH\_ALGORITHM\_MD5**      | MD5 hashing algorithm.<br/>                                                                                                                                           | 3     |

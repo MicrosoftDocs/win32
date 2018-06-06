@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The MakeCert tool creates an [*X.509*](security.x_gly#-security-x-509-gly) certificate, signed by the test root key or other specified key, that binds your name to the public part of the key pair. The certificate is saved to a file, a system certificate store, or both. The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
+The MakeCert tool creates an [*X.509*](https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177) certificate, signed by the test root key or other specified key, that binds your name to the public part of the key pair. The certificate is saved to a file, a system certificate store, or both. The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
 
 MakeCert is available as part of the Windows SDK, which you can download from <http://go.microsoft.com/fwlink/p/?linkid=84091>.
 
@@ -54,7 +54,7 @@ Options given in the following tables can be used only with Internet Explorer 4.
 <tbody>
 <tr class="odd">
 <td><strong>-a</strong> <strong></strong> <em>Algorithm</em></td>
-<td>[<em>Hash</em>](security.h_gly#-security-hash-gly) algorithm. Must be set to either <strong>SHA-1</strong> or <strong>MD5</strong> (default). For information about MD5, see [<em>MD5</em>](security.m_gly#-security-md5-gly).</td>
+<td>[<em>Hash</em>](https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323) algorithm. Must be set to either <strong>SHA-1</strong> or <strong>MD5</strong> (default). For information about MD5, see [<em>MD5</em>](https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1).</td>
 </tr>
 <tr class="even">
 <td><strong>-b</strong> <strong></strong> <em>DateStart</em></td>
@@ -62,7 +62,7 @@ Options given in the following tables can be used only with Internet Explorer 4.
 </tr>
 <tr class="odd">
 <td><strong>-cy</strong> <strong></strong> <em>CertificateTypes</em></td>
-<td>Certificate type. <em>CertificateTypes</em> can be <strong>end</strong> for end-entity, or <strong>authority</strong> for [<em>certification authority</em>](security.c_gly#-security-certification-authority-gly).</td>
+<td>Certificate type. <em>CertificateTypes</em> can be <strong>end</strong> for end-entity, or <strong>authority</strong> for [<em>certification authority</em>](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).</td>
 </tr>
 <tr class="even">
 <td><strong>-e</strong> <strong></strong> <em>DateEnd</em></td>
@@ -70,7 +70,7 @@ Options given in the following tables can be used only with Internet Explorer 4.
 </tr>
 <tr class="odd">
 <td><strong>-eku</strong> <strong></strong> <em>OID1</em><strong>,</strong> <em>OID2</em> …</td>
-<td>Inserts a list of one or more comma-separated, [<em>enhanced key usage</em>](security.e_gly#-security-enhanced-key-usage-gly) [<em>object identifiers</em>](security.o_gly#-security-oid-gly) (OIDs) into the certificate. For example, <strong>-eku 1.3.6.1.5.5.7.3.2</strong> inserts the client authentication OID. For definitions of allowable OIDs, see the Wincrypt.h file in CryptoAPI 2.0.</td>
+<td>Inserts a list of one or more comma-separated, [<em>enhanced key usage</em>](https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091) [<em>object identifiers</em>](https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521) (OIDs) into the certificate. For example, <strong>-eku 1.3.6.1.5.5.7.3.2</strong> inserts the client authentication OID. For definitions of allowable OIDs, see the Wincrypt.h file in CryptoAPI 2.0.</td>
 </tr>
 <tr class="even">
 <td><strong>-h</strong> <strong></strong> <em>NumChildren</em></td>
@@ -86,7 +86,7 @@ Options given in the following tables can be used only with Internet Explorer 4.
 </tr>
 <tr class="odd">
 <td><strong>-n</strong> <strong>&quot;</strong><em>Name</em><strong>&quot;</strong></td>
-<td>Name for the publisher's certificate. This name must conform to the [<em>X.500</em>](security.x_gly#-security-x-500-gly) standard. The simplest method is to use the &quot;CN=<em>MyName</em>&quot; format. For example: <strong>-n &quot;CN=Test&quot;</strong>.</td>
+<td>Name for the publisher's certificate. This name must conform to the [<em>X.500</em>](https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177) standard. The simplest method is to use the &quot;CN=<em>MyName</em>&quot; format. For example: <strong>-n &quot;CN=Test&quot;</strong>.</td>
 </tr>
 <tr class="even">
 <td><strong>-nscp</strong></td>
@@ -106,7 +106,7 @@ Options given in the following tables can be used only with Internet Explorer 4.
 </tr>
 <tr class="even">
 <td><strong>-sk</strong> <strong></strong> <em>SubjectKey</em></td>
-<td>Location of the subject's key container which holds the [<em>private key</em>](security.p_gly#-security-private-key-gly). If a key container does not exist, one is created. If neither the <strong>-sk</strong> or <strong>-sv</strong> option is used, a default key container is created and used by default.</td>
+<td>Location of the subject's key container which holds the [<em>private key</em>](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a). If a key container does not exist, one is created. If neither the <strong>-sk</strong> or <strong>-sv</strong> option is used, a default key container is created and used by default.</td>
 </tr>
 <tr class="odd">
 <td><strong>-sky</strong> <strong></strong> <em>SubjectKeySpec</em></td>
@@ -136,7 +136,7 @@ For more information, see the Note that follows this table.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>-sy</strong> <strong></strong> <em>nSubjectProviderType</em></td>
-<td>CryptoAPI provider type for subject. The default is [<em>PROV_RSA_FULL</em>](security.p_gly#-security-prov-rsa-full-provider-type-gly). For information about CryptoAPI provider types, see the CryptoAPI 2.0 documentation.</td>
+<td>CryptoAPI provider type for subject. The default is [<em>PROV_RSA_FULL</em>](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a). For information about CryptoAPI provider types, see the CryptoAPI 2.0 documentation.</td>
 </tr>
 <tr class="odd">
 <td><strong>-#</strong> <strong></strong> <em>SerialNumber</em></td>
@@ -144,7 +144,7 @@ For more information, see the Note that follows this table.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>-$</strong> <strong></strong> <em>CertificateAuthority</em></td>
-<td>Type of [<em>certification authority</em>](security.c_gly#-security-certification-authority-gly). <em>CertificateAuthority</em> must be set to either <strong>commercial</strong> (for certificates to be used by commercial software publishers) or <strong>individual</strong> (for certificates to be used by individual software publishers).</td>
+<td>Type of [<em>certification authority</em>](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb). <em>CertificateAuthority</em> must be set to either <strong>commercial</strong> (for certificates to be used by commercial software publishers) or <strong>individual</strong> (for certificates to be used by individual software publishers).</td>
 </tr>
 <tr class="odd">
 <td><strong>-?</strong></td>
@@ -162,11 +162,11 @@ For more information, see the Note that follows this table.<br/></td>
  
 
 > [!Note]  
-> If the **-sky** key specification option is used in Internet Explorer version 4.0 or later, the specification must match the key specification indicated by the [*private key*](security.p_gly#-security-private-key-gly) file or private [*key container*](security.k_gly#-security-key-container-gly). If the key specification option is not used, the key specification indicated by the private key file or private key container will be used. If there is more than one key specification in the key container, MakeCert will first attempt to use the AT\_SIGNATURE key specification. If that fails, MakeCert will try to use AT\_KEYEXCHANGE. Because most users have either an AT\_SIGNATURE key or an AT\_KEYEXCHANGE key, this option does not need to be used in most cases.
+> If the **-sky** key specification option is used in Internet Explorer version 4.0 or later, the specification must match the key specification indicated by the [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) file or private [*key container*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33). If the key specification option is not used, the key specification indicated by the private key file or private key container will be used. If there is more than one key specification in the key container, MakeCert will first attempt to use the AT\_SIGNATURE key specification. If that fails, MakeCert will try to use AT\_KEYEXCHANGE. Because most users have either an AT\_SIGNATURE key or an AT\_KEYEXCHANGE key, this option does not need to be used in most cases.
 
  
 
-The following options are only for [*Software Publisher Certificate*](security.s_gly#-security-software-publisher-certificate-gly) (SPC) files and private key technology.
+The following options are only for [*Software Publisher Certificate*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SPC) files and private key technology.
 
 
 
@@ -210,7 +210,7 @@ For more information, see the Note that follows this table.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>-iy</strong> <strong></strong> <em>nIssuerProviderType</em></td>
-<td>CryptoAPI provider type for issuer. The default is [<em>PROV_RSA_FULL</em>](security.p_gly#-security-prov-rsa-full-provider-type-gly). For information about CryptoAPI provider types, see the CryptoAPI 2.0 documentation.</td>
+<td>CryptoAPI provider type for issuer. The default is [<em>PROV_RSA_FULL</em>](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a). For information about CryptoAPI provider types, see the CryptoAPI 2.0 documentation.</td>
 </tr>
 </tbody>
 </table>
@@ -220,11 +220,11 @@ For more information, see the Note that follows this table.<br/></td>
  
 
 > [!Note]  
-> If the **-iky** key specification option is used in Internet Explorer 4.0 or later, the specification must match the key specification indicated by the [*private key*](security.p_gly#-security-private-key-gly) file or private [*key container*](security.k_gly#-security-key-container-gly). If the key specification option is not used, the key specification indicated by the private key file or private key container will be used. If there is more than one key specification in the key container, MakeCert will first attempt to use the AT\_SIGNATURE key specification. If that fails, MakeCert will try to use AT\_KEYEXCHANGE. Because most users have either an AT\_SIGNATURE key or an AT\_KEYEXCHANGE key, this option does not need to be used in most cases.
+> If the **-iky** key specification option is used in Internet Explorer 4.0 or later, the specification must match the key specification indicated by the [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) file or private [*key container*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33). If the key specification option is not used, the key specification indicated by the private key file or private key container will be used. If there is more than one key specification in the key container, MakeCert will first attempt to use the AT\_SIGNATURE key specification. If that fails, MakeCert will try to use AT\_KEYEXCHANGE. Because most users have either an AT\_SIGNATURE key or an AT\_KEYEXCHANGE key, this option does not need to be used in most cases.
 
  
 
-The following options are for [*certificate store*](security.c_gly#-security-certificate-store-gly) technology only.
+The following options are for [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) technology only.
 
 
 

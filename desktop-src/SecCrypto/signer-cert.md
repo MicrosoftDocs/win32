@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SIGNER\_CERT structure
 
-The **SIGNER\_CERT** structure specifies a [*certificate*](security.c_gly#-security-certificate-gly) used to sign a document. The certificate can be stored in a [*Software Publisher Certificate*](security.s_gly#-security-software-publisher-certificate-gly) (SPC) file or in a [*certificate store*](security.c_gly#-security-certificate-store-gly).
+The **SIGNER\_CERT** structure specifies a [*certificate*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) used to sign a document. The certificate can be stored in a [*Software Publisher Certificate*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SPC) file or in a [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.

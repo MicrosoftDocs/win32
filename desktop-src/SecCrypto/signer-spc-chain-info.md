@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SIGNER\_SPC\_CHAIN\_INFO structure
 
-The **SIGNER\_SPC\_CHAIN\_INFO** structure specifies a [*Software Publisher Certificate*](security.s_gly#-security-software-publisher-certificate-gly) (SPC) and certificate chain used to sign a document.
+The **SIGNER\_SPC\_CHAIN\_INFO** structure specifies a [*Software Publisher Certificate*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SPC) and certificate chain used to sign a document.
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.

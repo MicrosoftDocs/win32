@@ -11,12 +11,12 @@ ms.date: 05/31/2018
 
 # Example C Program: Getting and Setting Certificate Properties
 
-The following example gets and sets certificate properties, and illustrates the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions.
+The following example gets and sets certificate properties, and illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) functions.
 
 -   Opening a system store by using [**CertOpenSystemStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopensystemstorea).
 -   Using [**CertEnumCertificatesInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certenumcertificatesinstore) to list all of the certificates in the open store.
 -   Retrieving and printing the subject name from the certificate by using [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa).
--   Setting the [*enhanced key usage*](security.e_gly#-security-enhanced-key-usage-gly) property on certificates by using the [**CertAddEnhancedKeyUsageIdentifier**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddenhancedkeyusageidentifier) function.
+-   Setting the [*enhanced key usage*](https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091) property on certificates by using the [**CertAddEnhancedKeyUsageIdentifier**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddenhancedkeyusageidentifier) function.
 -   Setting the display name property on the certificate by using [**CertSetCertificateContextProperty**](/windows/desktop/api/Wincrypt/nf-wincrypt-certsetcertificatecontextproperty).
 -   Retrieving a certificate's properties by using [**CertGetCertificateContextProperty**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetcertificatecontextproperty).
 -   Closing a certificate store by using [**CertCloseStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certclosestore) with the CERT\_CLOSE\_STORE\_CHECK\_FLAG flag.

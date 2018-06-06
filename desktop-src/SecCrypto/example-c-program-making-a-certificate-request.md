@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Example C Program: Making a Certificate Request
 
-The following example demonstrates the procedure outlined in the previous section. This example creates a simple [*certificate request*](security.c_gly#-security-certificate-request-gly) with one signer, a single [*relative distinguished name*](security.r_gly#-security-relative-distinguished-name-gly) (RDN) [*attribute*](security.a_gly#-security-attribute-gly), and no general attributes.
+The following example demonstrates the procedure outlined in the previous section. This example creates a simple [*certificate request*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) with one signer, a single [*relative distinguished name*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd) (RDN) [*attribute*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02), and no general attributes.
 
-This example illustrates the following [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
+This example illustrates the following [*CryptoAPI*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) functions:
 
 -   [**CryptEncodeObject**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencodeobject)
 -   [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta)

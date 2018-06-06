@@ -93,7 +93,7 @@ A pointer to a [**SIGNER\_SIGNATURE\_INFO**](signer-signature-info.md) structure
 *pProviderInfo* \[in, optional\]
 </dt> <dd>
 
-Pointer to a [**SIGNER\_PROVIDER\_INFO**](signer-provider-info.md) structure that specifies the [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) and private key information used to create the digital signature.
+Pointer to a [**SIGNER\_PROVIDER\_INFO**](signer-provider-info.md) structure that specifies the [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP) and private key information used to create the digital signature.
 
 If the value of this parameter is **NULL**, the *pSignerCert* parameter must specify a certificate that is associated with a CSP.
 
@@ -150,7 +150,7 @@ A 32-bit value that is passed as additional data to SIP functions. The format an
 *ppSignerContext* \[out\]
 </dt> <dd>
 
-The address of a pointer to the [**SIGNER\_CONTEXT**](signer-context.md) structure that contains the signed [*BLOB*](security.b_gly#-security-blob-gly). When you have finished using the **SIGNER\_CONTEXT** structure, free the **SIGNER\_CONTEXT** structure by calling the [**SignerFreeSignerContext**](signerfreesignercontext.md) function.
+The address of a pointer to the [**SIGNER\_CONTEXT**](signer-context.md) structure that contains the signed [*BLOB*](https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b). When you have finished using the **SIGNER\_CONTEXT** structure, free the **SIGNER\_CONTEXT** structure by calling the [**SignerFreeSignerContext**](signerfreesignercontext.md) function.
 
 </dd> <dt>
 

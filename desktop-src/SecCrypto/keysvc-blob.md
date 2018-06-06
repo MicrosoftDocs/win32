@@ -39,7 +39,7 @@ A **ULONG** value that specifies the size, in bytes, of **pb**.
 **pb**
 </dt> <dd>
 
-A pointer to a **BYTE** that contains the BLOB, in [*PKCS \#12*](security.p_gly#-security-pkcs-12-standard-gly) format.
+A pointer to a **BYTE** that contains the BLOB, in [*PKCS \#12*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) format.
 
 </dd> </dl>
 

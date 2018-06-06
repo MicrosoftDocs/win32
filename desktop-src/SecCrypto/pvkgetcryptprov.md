@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
  
 
-The **PvkGetCryptProv** function gets a handle to a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) based on either a [*private key*](security.p_gly#-security-private-key-gly) file or a key container name.
+The **PvkGetCryptProv** function gets a handle to a [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP) based on either a [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) file or a key container name.
 
 > [!Note]  
 > This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to Mssign32.dll.

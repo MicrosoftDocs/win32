@@ -18,11 +18,11 @@ The following illustration depicts the tasks that must be accomplished to create
 **To create a signed message**
 
 1.  Create the data (if necessary) and get a pointer to it.
-2.  Open a [*certificate store*](security.c_gly#-security-certificate-store-gly) that contains the signer's certificate.
-3.  Get the [*private key*](security.p_gly#-security-private-key-gly) for the certificate. A property must be set on the certificate before using it, to tie a certificate to a particular [*CSP*](security.c_gly#-security-csp-gly), and, within that CSP, to a particular private key. This needs to be set once.
+2.  Open a [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) that contains the signer's certificate.
+3.  Get the [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) for the certificate. A property must be set on the certificate before using it, to tie a certificate to a particular [*CSP*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb), and, within that CSP, to a particular private key. This needs to be set once.
 4.  Choose a hashing algorithm for the digest operation. We recommend that the hashing algorithm be selected from a configurable location that can be subsequently updated without requiring changes to code.
-5.  Send the data through the hashing function by using the hashing algorithm, thus creating a [*hash*](security.h_gly#-security-hash-gly) (digest) of the data.
-6.  Using the [*private key*](security.p_gly#-security-private-key-gly) obtained through the property on the certificate, encrypt the digest, creating the signature.
+5.  Send the data through the hashing function by using the hashing algorithm, thus creating a [*hash*](https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323) (digest) of the data.
+6.  Using the [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) obtained through the property on the certificate, encrypt the digest, creating the signature.
 7.  Include the following in the signed message:
 
     -   The signed data

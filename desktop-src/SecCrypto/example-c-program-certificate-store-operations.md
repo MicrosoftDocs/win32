@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Certificate Store Operations
 
-The following example demonstrates a number of common [*certificate store*](security.c_gly#-security-certificate-store-gly) operations as well as the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
+The following example demonstrates a number of common [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) operations as well as the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) functions:
 
 -   Opening and closing memory and system stores using [**CertOpenStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopenstore) and [**CertCloseStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certclosestore).
 -   Duplicating an open store using [**CertDuplicateStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certduplicatestore).

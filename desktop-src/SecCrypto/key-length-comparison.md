@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The Microsoft Enhanced Cryptographic Provider provides an application with stronger security than currently available with the Microsoft Base Cryptographic Provider. Greater key length gives users more protection for sensitive data.
 
-The following table lists the default [*key lengths*](security.k_gly#-security-key-length-gly) supported by the Base Provider and the Enhanced Provider for standard algorithms.
+The following table lists the default [*key lengths*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33) supported by the Base Provider and the Enhanced Provider for standard algorithms.
 
 
 
@@ -24,14 +24,14 @@ The following table lists the default [*key lengths*](security.k_gly#-security-k
 | RC2                                                                                      | 40-bit        | 128-bit                       |
 | RC4                                                                                      | 40-bit        | 128-bit                       |
 | DES                                                                                      | Not supported | 56-bit                        |
-| [*Triple DES*](security.t_gly#-security-triple-des-gly) (2-key) | Not supported | 112-bit                       |
+| [*Triple DES*](https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f) (2-key) | Not supported | 112-bit                       |
 | Triple DES (3-key)                                                                       | Not supported | 168-bit                       |
 
 
 
  
 
-[*DES*](security.d_gly#-security-des-gly) and [*Triple DES*](security.t_gly#-security-triple-des-gly) algorithms are supported in the Enhanced Provider.
+[*DES*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2) and [*Triple DES*](https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f) algorithms are supported in the Enhanced Provider.
 
 The Enhanced Provider is backward-compatible with the Base Provider distributed with earlier versions of CryptoAPI with the following exception. Both the base provider and the Enhanced Provider can only generate session keys of default key length. The default length of session keys for the Base Provider is 40 bits. The default key length for the Enhanced Provider is 128 bits. The Enhanced Provider cannot create keys with Base Provider-compatible key lengths. However, the Enhanced Provider can import key lengths of any size, up to 128 bits.
 

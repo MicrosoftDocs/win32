@@ -20,7 +20,7 @@ The **CAPICOM\_KEY\_USAGE** enumeration defines the ways in which a key can be u
 | Member                                      | Description                                                                                                                      | Value      |
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|------------|
 | **CAPICOM\_DIGITAL\_SIGNATURE\_KEY\_USAGE** | The key can be used to create a digital signature.<br/>                                                                    | 0x00000080 |
-| **CAPICOM\_NON\_REPUDIATION\_KEY\_USAGE**   | The key can be used for [*nonrepudiation*](security.n_gly#-security-nonrepudiation-gly).<br/> | 0x00000040 |
+| **CAPICOM\_NON\_REPUDIATION\_KEY\_USAGE**   | The key can be used for [*nonrepudiation*](https://msdn.microsoft.com/28d229ef-53ce-4d17-aba0-3bbf51e3ff0c).<br/> | 0x00000040 |
 | **CAPICOM\_KEY\_ENCIPHERMENT\_KEY\_USAGE**  | The key can be used to encrypt a key.<br/>                                                                                 | 0x00000020 |
 | **CAPICOM\_DATA\_ENCIPHERMENT\_KEY\_USAGE** | The key can be used to encrypt data.<br/>                                                                                  | 0x00000010 |
 | **CAPICOM\_KEY\_AGREEMENT\_KEY\_USAGE**     | The key can be used for key agreement.<br/>                                                                                | 0x00000008 |

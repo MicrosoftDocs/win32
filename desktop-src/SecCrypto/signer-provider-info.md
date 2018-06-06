@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SIGNER\_PROVIDER\_INFO structure
 
-The **SIGNER\_PROVIDER\_INFO** structure specifies the [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) and private key information used to create a digital signature.
+The **SIGNER\_PROVIDER\_INFO** structure specifies the [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP) and private key information used to create a digital signature.
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.

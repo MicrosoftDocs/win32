@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Creating the Certificate Request
 
-The process of creating a certificate request involves collecting certain information from the requester. Usually, this is done through some sort of user interface (UI), although the information could be taken directly from a database without the need for a UI. The level of information required is set by the policy of the [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA).
+The process of creating a certificate request involves collecting certain information from the requester. Usually, this is done through some sort of user interface (UI), although the information could be taken directly from a database without the need for a UI. The level of information required is set by the policy of the [*certification authority*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CA).
 
 An example of the required information might be as follows:
 
@@ -23,7 +23,7 @@ An example of the required information might be as follows:
 -   Country/Region
 
 > [!Note]  
-> The interface is designed to make a single request for each xenroll instance. A separate xenroll instance must be created to create each [*certificate request*](security.c_gly#-security-certificate-request-gly).
+> The interface is designed to make a single request for each xenroll instance. A separate xenroll instance must be created to create each [*certificate request*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
 
  
 

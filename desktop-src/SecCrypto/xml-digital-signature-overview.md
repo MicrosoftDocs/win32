@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XML Digital Signature Overview
 
-XML is an industry standard for describing structured data. An XML Digital Signature is an XML representation of a [*digital signature*](security.d_gly#-security-digital-certificate-gly) that provides the ability to verify the origin and integrity of XML document and externally referenced data. XML digital signatures can be used to sign arbitrary data, including an XML document or fragment, an HTML page, plain text, or binary-encoded data such as a JPEG file.
+XML is an industry standard for describing structured data. An XML Digital Signature is an XML representation of a [*digital signature*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2) that provides the ability to verify the origin and integrity of XML document and externally referenced data. XML digital signatures can be used to sign arbitrary data, including an XML document or fragment, an HTML page, plain text, or binary-encoded data such as a JPEG file.
 
 The XML digital signature format supported by the CryptXML digital signature API is specified by the XML Signature Syntax and Processing (Second Edition) W3C recommendation.
 

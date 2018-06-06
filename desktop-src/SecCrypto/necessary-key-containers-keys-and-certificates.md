@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # Necessary Key Containers, Keys, and Certificates
 
-Example programs in the following sections perform operations that require [*public/private key pairs*](security.p_gly#-security-public-private-key-pair-gly) to be available for encrypting and decrypting files, messages, and signatures. Many of these programs will compile, link, and run but fail at run time without the existence of proper [*key containers*](security.k_gly#-security-key-container-gly), keys, [*certificate stores*](security.c_gly#-security-certificate-store-gly), and certificates in those stores.
+Example programs in the following sections perform operations that require [*public/private key pairs*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) to be available for encrypting and decrypting files, messages, and signatures. Many of these programs will compile, link, and run but fail at run time without the existence of proper [*key containers*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33), keys, [*certificate stores*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb), and certificates in those stores.
 
 In addition, some of the certificates in the MY store must have some of their extended properties set.
 
 Creating the needed default key container can be done by running the program in [Example C Program: Creating a Key Container and Generating Keys](example-c-program-creating-a-key-container-and-generating-keys.md). Note that the creation of a key container does not automatically generate public/private key pairs. The example program, however, both creates the key container and generates the public/private key pairs.
 
-After public/private key pairs have been generated, test certificates using those keys can be obtained from a [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA).
+After public/private key pairs have been generated, test certificates using those keys can be obtained from a [*certification authority*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CA).
 
 Several of the programs assume that certificates with specific subject names exist in the MY system store. In particular, several programs look for certificates with the subject names "Full Test Cert" and "Hortense." The subject names for the certificates may be changed in the code to match the subject names of certificates that exist in the MY certificate store.
 

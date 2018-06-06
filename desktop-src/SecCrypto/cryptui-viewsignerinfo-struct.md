@@ -91,7 +91,7 @@ The handle of the message that the signer information was extracted from.
 **pszOID**
 </dt> <dd>
 
-A pointer to a null-terminated ANSI string that contains the string representation of the [*object identifier*](security.o_gly#-security-object-identifier-gly) (OID) that signifies what the certificate that did the signing should be validated for. For example, if this is being called to view the signature of a [*certificate trust list*](security.c_gly#-security-certificate-trust-list-gly) (CTL), the **szOID\_KP\_CTL\_USAGE\_SIGNING** OID string should be passed in. If this member is **NULL**, the certificate is not validated for usages.
+A pointer to a null-terminated ANSI string that contains the string representation of the [*object identifier*](https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521) (OID) that signifies what the certificate that did the signing should be validated for. For example, if this is being called to view the signature of a [*certificate trust list*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CTL), the **szOID\_KP\_CTL\_USAGE\_SIGNING** OID string should be passed in. If this member is **NULL**, the certificate is not validated for usages.
 
 </dd> <dt>
 

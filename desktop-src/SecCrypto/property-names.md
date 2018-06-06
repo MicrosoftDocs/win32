@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Property Names
 
-A [*certificate request*](security.c_gly#-security-certificate-request-gly) Property Name can either be the "friendly" name of one of the common properties that the Certificate Services understands or an [*object identifier*](security.o_gly#-security-oid-gly) (OID). For more information about request property names, see [Name Properties](name-properties.md).
+A [*certificate request*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) Property Name can either be the "friendly" name of one of the common properties that the Certificate Services understands or an [*object identifier*](https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521) (OID). For more information about request property names, see [Name Properties](name-properties.md).
 
  
 

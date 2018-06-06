@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ASN.1 Encoding/Decoding Return Values
 
-The following table contains return values that may be returned by functions performing [*Abstract Syntax Notation One*](security.a_gly#-security-abstract-syntax-notation-one-gly) (ASN.1) encoding or decoding.
+The following table contains return values that may be returned by functions performing [*Abstract Syntax Notation One*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) (ASN.1) encoding or decoding.
 
 
 

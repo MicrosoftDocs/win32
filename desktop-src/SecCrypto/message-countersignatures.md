@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Message Countersignatures
 
-Sometimes a signed message requires a [*countersignature*](security.c_gly#-security-countersignature-gly). For example, user A may send a signed-data message to user B, expecting B to confirm agreement with the terms contained in the document. User B decodes the message, reads the terms and, if in agreement, countersigns the message. The countersigned message is then sent back to user A. User A now knows, and can prove, that user B agreed to the terms.
+Sometimes a signed message requires a [*countersignature*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb). For example, user A may send a signed-data message to user B, expecting B to confirm agreement with the terms contained in the document. User B decodes the message, reads the terms and, if in agreement, countersigns the message. The countersigned message is then sent back to user A. User A now knows, and can prove, that user B agreed to the terms.
 
 The following table lists sections that contain procedure descriptions or C program examples of message countersigning.
 
@@ -19,7 +19,7 @@ The following table lists sections that contain procedure descriptions or C prog
 
 | Section                                                                                                                                 | Contents                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| [Message Functions](cryptography-functions.md#message-functions)                                                                       | Lists the counter signature functions.                             |
+| [Message Functions](cryptography-functions.md)                                                                       | Lists the counter signature functions.                             |
 | [Countersigning a Message](countersigning-a-message.md)                                                                                | Details the process of counter signing a message.                  |
 | [Verifying a Countersignature](verifying-a-countersignature.md)                                                                        | Details the procedure for verifying a counter signature.           |
 | [Verifying a Signed Message](verifying-a-signed-message.md)                                                                            | Details a process for verifying the signature on a signed message. |

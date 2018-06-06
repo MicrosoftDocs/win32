@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Countersigning
 
-The following sections deal with countersigning messages and [*countersignature*](security.c_gly#-security-countersignature-gly) verification:
+The following sections deal with countersigning messages and [*countersignature*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) verification:
 
 -   [Countersigning a Message](countersigning-a-message.md)
 -   [Example C Program: Encoding and Decoding a Countersigned Message](example-c-program-encoding-and-decoding-a-countersigned-message.md)

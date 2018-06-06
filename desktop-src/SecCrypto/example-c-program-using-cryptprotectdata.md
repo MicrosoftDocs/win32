@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Using CryptProtectData
 
-The following example encrypts and decrypts a data [*BLOB*](security.b_gly#-security-blob-gly) using [**CryptProtectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata).
+The following example encrypts and decrypts a data [*BLOB*](https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b) using [**CryptProtectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata).
 
 This example illustrates the following tasks and CryptoAPI functions:
 

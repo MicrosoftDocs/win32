@@ -28,7 +28,7 @@ Chain.Certificates As Certificates
 
 ## Property value
 
-A [**Certificates**](certificates.md) collection that is used to retrieve information about each certificate in the chain. The first certificate in the returned collection, **Certificates.Item**(1), is the end certificate of the chain. The last certificate in the collection, **Certificates.Item**(**Certificates.Count**), is the [*root certificate*](security.r_gly#-security-root-certificate-gly) of the chain.
+A [**Certificates**](certificates.md) collection that is used to retrieve information about each certificate in the chain. The first certificate in the returned collection, **Certificates.Item**(1), is the end certificate of the chain. The last certificate in the collection, **Certificates.Item**(**Certificates.Count**), is the [*root certificate*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd) of the chain.
 
 ## Requirements
 

@@ -60,7 +60,7 @@ A value that determines whether the certificate template's real name or display 
 *pbstrCertTemplateName* \[out\]
 </dt> <dd>
 
-A pointer to a string that returns the name of the certificate template which will be used in the [*certificate request*](security.c_gly#-security-certificate-request-gly).
+A pointer to a string that returns the name of the certificate template which will be used in the [*certificate request*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
 
 </dd> </dl>
 
@@ -74,7 +74,7 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 
 ### VB
 
-A string that represents the name of the certificate template which will be used in the [*certificate request*](security.c_gly#-security-certificate-request-gly).
+A string that represents the name of the certificate template which will be used in the [*certificate request*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
 
 ## Remarks
 

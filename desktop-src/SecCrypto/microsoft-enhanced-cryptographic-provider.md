@@ -35,14 +35,14 @@ The following table highlights differences between the Base Provider, Strong Pro
 | RC2 block encryption algorithm                                                           | 40 bits                  | 128 bits                   | 128 bits Salt length can be set.<br/> |
 | RC4 stream encryption algorithm                                                          | 40 bits                  | 128 bits                   | 128 bits Salt length can be set.<br/> |
 | DES                                                                                      | 56 bits                  | 56 bits                    | 56 bits                                     |
-| [*Triple DES*](security.t_gly#-security-triple-des-gly) (2 key) | Not supported            | 112 bits                   | 112 bits                                    |
+| [*Triple DES*](https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f) (2 key) | Not supported            | 112 bits                   | 112 bits                                    |
 | Triple DES (3 key)                                                                       | Not supported            | 168 bits                   | 168 bits                                    |
 
 
 
  
 
-The Strong Provider and the Enhanced Provider are backward-compatible with the Base Provider except that the providers can only generate RC2 or RC4 keys of default [*key length*](security.k_gly#-security-key-length-gly). The default length for the Base Provider is 40 bits. The default length for the Enhanced Provider is 128 bits. Thus the Enhanced Provider cannot create keys with Base Provider-compatible key lengths. However, the Enhanced Provider can import RC2 and RC4 keys of up to 128 bits. Therefore, the Enhanced Provider can import and use 40 bit keys generated using the Base Provider.
+The Strong Provider and the Enhanced Provider are backward-compatible with the Base Provider except that the providers can only generate RC2 or RC4 keys of default [*key length*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33). The default length for the Base Provider is 40 bits. The default length for the Enhanced Provider is 128 bits. Thus the Enhanced Provider cannot create keys with Base Provider-compatible key lengths. However, the Enhanced Provider can import RC2 and RC4 keys of up to 128 bits. Therefore, the Enhanced Provider can import and use 40 bit keys generated using the Base Provider.
 
  
 

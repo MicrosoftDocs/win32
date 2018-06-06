@@ -26,7 +26,7 @@ To maintain backward compatibility with earlier provider versions, the provider 
 
  
 
-The following table highlights differences between the Base Provider, Strong Provider, and AES Provider. The [*key lengths*](security.k_gly#-security-key-length-gly) shown are the default key lengths.
+The following table highlights differences between the Base Provider, Strong Provider, and AES Provider. The [*key lengths*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33) shown are the default key lengths.
 
 
 
@@ -37,7 +37,7 @@ The following table highlights differences between the Base Provider, Strong Pro
 | RC2 block encryption algorithm                                                           | 40 bits                  | 128 bits                   | 128 bits Salt length can be set.<br/> |
 | RC4 stream encryption algorithm                                                          | 40 bits                  | 128 bits                   | 128 bits Salt length can be set.<br/> |
 | DES                                                                                      | 56 bits                  | 56 bits                    | 56 bits                                     |
-| [*Triple DES*](security.t_gly#-security-triple-des-gly) (2 key) | Not supported            | 112 bits                   | 112 bits                                    |
+| [*Triple DES*](https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f) (2 key) | Not supported            | 112 bits                   | 112 bits                                    |
 | Triple DES (3 key)                                                                       | Not supported            | 168 bits                   | 168 bits                                    |
 
 

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Registering the New Functionality
 
-Support for registering the new functionality in a system registry must be provided in the new DLL along with the new function. [OID Support Functions](cryptography-functions.md#oid-support-functions) provide assistance with this registration. Regsvr32.exe registers new functions. This tool is included with Windows.
+Support for registering the new functionality in a system registry must be provided in the new DLL along with the new function. [OID Support Functions](cryptography-functions.md) provide assistance with this registration. Regsvr32.exe registers new functions. This tool is included with Windows.
 
-The new DLL must provide [**DllRegisterServer**](https://www.bing.com/search?q=**DllRegisterServer**) and [**DllUnregisterServer**](https://www.bing.com/search?q=**DllUnregisterServer**) entry points for use by Regsvr32.exe. [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions, such as [**CryptRegisterOIDFunction**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptregisteroidfunction) or [**CryptUnregisterOIDFunction**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptunregisteroidfunction), can be used within these entry points, as shown in the following example.
+The new DLL must provide [**DllRegisterServer**](https://www.bing.com/search?q=**DllRegisterServer**) and [**DllUnregisterServer**](https://www.bing.com/search?q=**DllUnregisterServer**) entry points for use by Regsvr32.exe. [*CryptoAPI*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) functions, such as [**CryptRegisterOIDFunction**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptregisteroidfunction) or [**CryptUnregisterOIDFunction**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptunregisteroidfunction), can be used within these entry points, as shown in the following example.
 
 
 ```C++

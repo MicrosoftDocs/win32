@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Hashing
 
-The following procedures and examples deal with the creation, encoding, decoding and signing of [*hashes*](security.h_gly#-security-hash-gly):
+The following procedures and examples deal with the creation, encoding, decoding and signing of [*hashes*](https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323):
 
 -   [Creating a CALG\_SSL3\_SHAMD5 Hash](creating-a-calg-ssl3-shamd5-hash.md)
 -   [Creating an HMAC](creating-an-hmac.md)

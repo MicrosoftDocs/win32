@@ -11,10 +11,10 @@ ms.date: 05/31/2018
 
 # New Key-length Functionality
 
-The Base Provider used only 40-bit [*symmetric keys*](security.s_gly#-security-symmetric-key-gly). The addition of longer keys in the Enhanced Provider, and the fact that imported keys can be of arbitrary length requires a method of querying the length for a specific key. To find the actual length of a key in bits, a user can call [**CryptGetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyparam) with the KP\_KEYLEN parameter value. The length of the key is returned in the **DWORD** pointed to by the *pbData* parameter.
+The Base Provider used only 40-bit [*symmetric keys*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50). The addition of longer keys in the Enhanced Provider, and the fact that imported keys can be of arbitrary length requires a method of querying the length for a specific key. To find the actual length of a key in bits, a user can call [**CryptGetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyparam) with the KP\_KEYLEN parameter value. The length of the key is returned in the **DWORD** pointed to by the *pbData* parameter.
 
 > [!Note]  
-> To protect against stepping-down [*cryptanalysis*](security.c_gly#-security-cryptoanalysis-gly) attacks, applications must check for insufficient [*key lengths*](security.k_gly#-security-key-length-gly) and notify the user when one is encountered.
+> To protect against stepping-down [*cryptanalysis*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) attacks, applications must check for insufficient [*key lengths*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33) and notify the user when one is encountered.
 
  
 

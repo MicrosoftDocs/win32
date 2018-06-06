@@ -26,7 +26,7 @@ ms.date: 05/31/2018
 
 ## Certificate Store Objects
 
-We suggest the following alternatives for working with [*certificate stores*](security.c_gly#-security-certificate-store-gly) and the certificates in those stores.
+We suggest the following alternatives for working with [*certificate stores*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) and the certificates in those stores.
 
 
 

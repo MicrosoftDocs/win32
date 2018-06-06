@@ -21,7 +21,7 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                        |
 |--------------|-------------------------------------------------------------|
-| Key Exchange | [*RSA*](security.r_gly#-security-rsa-gly) |
+| Key Exchange | [*RSA*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd) |
 | Signature    | RSA                                                         |
 | Encryption   | Varies                                                      |
 | Hashing      | Varies                                                      |

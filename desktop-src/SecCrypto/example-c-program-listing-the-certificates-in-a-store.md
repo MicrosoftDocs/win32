@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Example C Program: Listing the Certificates in a Store
 
-The following example code lists all of the certificates in a system [*certificate store*](security.c_gly#-security-certificate-store-gly) and the name of the subject and all of the [*certificate context*](security.c_gly#-security-certificate-context-gly) properties of each of those certificates. The example gets the name of the certificate store from the user and thus can be used to list the contents of any system certificate store. In addition, this example shows the use of two new UI functions, one that displays a certificate and the other, UI that allows the user to select a certificate from a list of the certificates in a store.
+The following example code lists all of the certificates in a system [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) and the name of the subject and all of the [*certificate context*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) properties of each of those certificates. The example gets the name of the certificate store from the user and thus can be used to list the contents of any system certificate store. In addition, this example shows the use of two new UI functions, one that displays a certificate and the other, UI that allows the user to select a certificate from a list of the certificates in a store.
 
-This example code illustrates the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
+This example code illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) functions:
 
 -   Opening a system store using [**CertOpenSystemStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopensystemstorea).
 -   In a loop, enumerating all of the certificates in the open store using [**CertEnumCertificatesInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certenumcertificatesinstore).

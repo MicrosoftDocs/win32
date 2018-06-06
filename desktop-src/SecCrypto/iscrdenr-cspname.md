@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ISCrdEnr::CSPName property
 
-The **CSPName** property sets or retrieves the name of the [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP).
+The **CSPName** property sets or retrieves the name of the [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP).
 
 This property is read/write.
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Duplicating a Hash
 
-The following example creates and duplicates a [*hash*](security.h_gly#-security-hash-gly) of some text. It then adds additional text to the original hash and different text to the duplicate.
+The following example creates and duplicates a [*hash*](https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323) of some text. It then adds additional text to the original hash and different text to the duplicate.
 
 This example uses the following CryptoAPI functions:
 

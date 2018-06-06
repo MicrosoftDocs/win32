@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Cryptographic Provider Names
 
-The following [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) names are defined in Wincrypt.h. These constants are used with the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) and [**CryptSetProvider**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovidera) functions.
+The following [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP) names are defined in Wincrypt.h. These constants are used with the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) and [**CryptSetProvider**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovidera) functions.
 
 
 

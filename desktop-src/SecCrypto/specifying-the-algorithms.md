@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Specifying the Algorithms
 
-After a [*master key*](security.m_gly#-security-master-key-gly) is created or imported, both [*RSA*](security.r_gly#-security-rsa-gly)/Schannel and [*Diffie-Hellman*](security.d_gly#-security-diffie-hellman-algorithm-gly)/Schannel inform the [*CSP*](security.c_gly#-security-cryptographic-service-provider-gly) of the type of [*bulk encryption keys*](security.b_gly#-security-bulk-encryption-key-gly) and [*MAC keys*](security.m_gly#-security-mac-key-gly) that will be derived from the master key. The following example specifies these algorithms. The same code is used for both client and server.
+After a [*master key*](https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1) is created or imported, both [*RSA*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd)/Schannel and [*Diffie-Hellman*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2)/Schannel inform the [*CSP*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) of the type of [*bulk encryption keys*](https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b) and [*MAC keys*](https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1) that will be derived from the master key. The following example specifies these algorithms. The same code is used for both client and server.
 
 
 ```C++
@@ -81,7 +81,7 @@ if (!CryptSetKeyParam(
 
 
 > [!Note]  
-> An [*Schannel*](security.s_gly#-security-schannel-gly) protocol engine must not specify algorithms and key sizes not supported by the CSP. For more information, see [Enumerating Supported Protocols](enumerating-supported-protocols.md). If unsupported algorithms or key sizes are specified, the CSP function must fail and return the NTE\_BAD\_DATA error code.
+> An [*Schannel*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) protocol engine must not specify algorithms and key sizes not supported by the CSP. For more information, see [Enumerating Supported Protocols](enumerating-supported-protocols.md). If unsupported algorithms or key sizes are specified, the CSP function must fail and return the NTE\_BAD\_DATA error code.
 
  
 

@@ -21,10 +21,10 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                           |
 |--------------|----------------------------------------------------------------|
-| Key Exchange | [*RSA*](security.r_gly#-security-rsa-gly)    |
+| Key Exchange | [*RSA*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd)    |
 | Signature    | RSA                                                            |
-| Encryption   | [*CAST*](security.c_gly#-security-cast-gly) |
-| Hashing      | [*MD5*](security.m_gly#-security-md5-gly)    |
+| Encryption   | [*CAST*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) |
+| Hashing      | [*MD5*](https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1)    |
 
 
 

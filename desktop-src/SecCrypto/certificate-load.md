@@ -43,7 +43,7 @@ A string that contains the path to a .cer or .pfx file that contains the certifi
 *Password* \[in, optional\]
 </dt> <dd>
 
-A string that contains the [*plaintext*](security.p_gly#-security-plaintext-gly) password to the [*private key*](security.p_gly#-security-private-key-gly) file. The password can contain up to 32 Unicode characters, including a terminating null character. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf).
+A string that contains the [*plaintext*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) password to the [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) file. The password can contain up to 32 Unicode characters, including a terminating null character. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf).
 
 </dd> <dt>
 

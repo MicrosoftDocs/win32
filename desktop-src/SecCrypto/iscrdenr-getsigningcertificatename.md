@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **getSigningCertificateName** method retrieves the subject name from the signing certificate.
 
-This method can also be used to display the certificate in a dialog box. This method calls the [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) function [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa).
+This method can also be used to display the certificate in a dialog box. This method calls the [*CryptoAPI*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) function [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa).
 
 ## Syntax
 
@@ -62,7 +62,7 @@ A value that determines whether the certificate is displayed in a dialog box. If
 *pbstrSigningCertName* \[out\]
 </dt> <dd>
 
-A pointer to a string that returns the name of the signing certificate. The signing certificate will be used to sign the [*certificate request*](security.c_gly#-security-certificate-request-gly).
+A pointer to a string that returns the name of the signing certificate. The signing certificate will be used to sign the [*certificate request*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
 
 </dd> </dl>
 
@@ -76,7 +76,7 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 
 ### VB
 
-A string that represents the name of the signing certificate. The signing certificate will be used to sign the [*certificate request*](security.c_gly#-security-certificate-request-gly).
+A string that represents the name of the signing certificate. The signing certificate will be used to sign the [*certificate request*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
 
 ## Remarks
 

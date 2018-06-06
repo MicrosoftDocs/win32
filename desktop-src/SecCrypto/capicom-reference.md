@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista and Windows XP. Instead, use the .NET Framework to implement security features. For more information, see [Alternatives to Using CAPICOM](alternatives-to-using-capicom.md).\]
 
-The CAPICOM COM client provides services that enable application developers to add security based on [*cryptography*](security.c_gly#-security-cryptography-gly) to applications. CryptoAPI includes functionality for authentication using [*digital signatures*](security.d_gly#-security-digital-signature-gly), for enveloping messages, and for encrypting and decrypting data.
+The CAPICOM COM client provides services that enable application developers to add security based on [*cryptography*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) to applications. CryptoAPI includes functionality for authentication using [*digital signatures*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2), for enveloping messages, and for encrypting and decrypting data.
 
 
 
@@ -33,7 +33,7 @@ The CAPICOM COM client provides services that enable application developers to a
 
 ## Certificate Store Objects
 
-The following objects work with [*certificate stores*](security.c_gly#-security-certificate-store-gly) and the certificates in those stores. CAPICOM supports the use of Current User, Local Machine, Memory, and Active Directory certificate stores.
+The following objects work with [*certificate stores*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) and the certificates in those stores. CAPICOM supports the use of Current User, Local Machine, Memory, and Active Directory certificate stores.
 
 
 
@@ -111,7 +111,7 @@ The following objects are exported to change default behaviors of other objects 
 
 | Object                                         | Description                                                                                                                                     |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Algorithm**](algorithm.md)                 | Sets the algorithm and [*key length*](security.k_gly#-security-key-length-gly) to be used in cryptographic operations. |
+| [**Algorithm**](algorithm.md)                 | Sets the algorithm and [*key length*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33) to be used in cryptographic operations. |
 | [**Attribute**](attribute.md)                 | Provides a single piece of added information about a signature, such as the time of signing.                                                    |
 | [**Attributes**](attributes.md)               | Collection of [**Attribute**](attribute.md) objects.                                                                                           |
 | [**BasicConstraints**](basicconstraints.md)   | Provides read-only access to basic constraints on the uses of a certificate.                                                                    |

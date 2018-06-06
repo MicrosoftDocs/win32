@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # Example C Program: Creating and Hashing a Session Key
 
-The following example creates and [*hashes*](security.h_gly#-security-hash-gly) a [*session key*](security.s_gly#-security-session-key-gly) that can be used to encrypt a message, text, or file.
+The following example creates and [*hashes*](https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323) a [*session key*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) that can be used to encrypt a message, text, or file.
 
 This example also shows using the following CryptoAPI functions:
 
--   [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) to acquire a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly).
+-   [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) to acquire a [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
 -   [**CryptCreateHash**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash) to create an empty hash object.
--   [**CryptGenKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey) to create a random [*session key*](security.s_gly#-security-session-key-gly).
+-   [**CryptGenKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey) to create a random [*session key*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50).
 -   [**CryptHashSessionKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashsessionkey) to hash the session key created.
 -   [**CryptDestroyHash**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroyhash) to destroy the hash.
 -   [**CryptDestroyKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroykey) to destroy the key created.

@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # Hashes and Digital Signatures
 
-With [Hash and Digital Signature Functions](cryptography-functions.md#hash-and-digital-signature-functions), a user can digitally sign data so that any other user can verify that the data has not been changed since it was signed. The identity of the user who signed the data can also be verified.
+With [Hash and Digital Signature Functions](cryptography-functions.md), a user can digitally sign data so that any other user can verify that the data has not been changed since it was signed. The identity of the user who signed the data can also be verified.
 
-A [*digital signature*](security.d_gly#-security-digital-signature-gly) consists of a small amount of binary data, typically less than 256 bytes. This signature can be bundled with the signed message or stored separately, depending on how a particular application has been implemented.
+A [*digital signature*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2) consists of a small amount of binary data, typically less than 256 bytes. This signature can be bundled with the signed message or stored separately, depending on how a particular application has been implemented.
 
-The Microsoft Strong Cryptographic Provider creates digital signatures that conform to the RSA [*Public Key Cryptography Standards*](security.p_gly#-security-public-key-cryptography-standards-gly) (PKCS) \#1.
+The Microsoft Strong Cryptographic Provider creates digital signatures that conform to the RSA [*Public Key Cryptography Standards*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) (PKCS) \#1.
 
  
 

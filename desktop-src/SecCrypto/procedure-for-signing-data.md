@@ -20,7 +20,7 @@ A single function, [**CryptSignMessage**](/windows/desktop/api/Wincrypt/nf-wincr
 1.  Get a pointer to the data that is to be signed.
 2.  Assign the pointer to the data to index zero of a "data to be signed" array.
 3.  Get a handle to the cryptographic provider.
-4.  Open a [*certificate store*](security.c_gly#-security-certificate-store-gly) that contains the signer's certificate.
+4.  Open a [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) that contains the signer's certificate.
 5.  Get an address to the signer's certificate.
 6.  Assign the address of the certificate to the zero index of the *MsgCert* array.
 7.  Assign the addresses of any other certificates to be included with the message to the *MsgCert* array.

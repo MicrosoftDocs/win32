@@ -30,7 +30,7 @@ The plaintext content of a message to be enveloped.
 
 ## Remarks
 
-Setting this property must be done before the [**Encrypt**](envelopeddata-encrypt.md) method is called. When the value of this property is reset, directly or indirectly, the whole [*state*](security.s_gly#-security-state-gly) of the object is reset, and any encrypted content in the object is lost.
+Setting this property must be done before the [**Encrypt**](envelopeddata-encrypt.md) method is called. When the value of this property is reset, directly or indirectly, the whole [*state*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) of the object is reset, and any encrypted content in the object is lost.
 
 ## Requirements
 

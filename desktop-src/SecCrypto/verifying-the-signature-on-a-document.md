@@ -18,7 +18,7 @@ When a signed document is received, the validity of the signature or signatures 
 -   Validity of the signature hash
 -   Validity of the signer's certificate
 
-The signature [*hash*](security.h_gly#-security-hash-gly) is decrypted using the [*public key*](security.p_gly#-security-public-key-gly) of the signer found on the signer's [*certificate*](security.c_gly#-security-certificate-gly), included as part of the signature. If the decrypted signature matches a new hash of the original document, the signature was created by the owner of the private key associated with the public key used to decrypt the hash. In addition, the document that the signature is based on is guaranteed not to have been changed after the signature was created.
+The signature [*hash*](https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323) is decrypted using the [*public key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) of the signer found on the signer's [*certificate*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb), included as part of the signature. If the decrypted signature matches a new hash of the original document, the signature was created by the owner of the private key associated with the public key used to decrypt the hash. In addition, the document that the signature is based on is guaranteed not to have been changed after the signature was created.
 
 The certificate that provided the public key and the identity of the signer can also be checked for validity including such issues as whether the certificate has been revoked, whether the certificate is out of date, or whether the certificate was issued by a trusted certificate issuer.
 

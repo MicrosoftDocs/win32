@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Other Extended C Code Examples
 
-The following topics present other procedures and extended C code examples that use the [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
+The following topics present other procedures and extended C code examples that use the [*CryptoAPI*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) functions:
 
 -   [Verifying a CTL](verifying-a-ctl.md)
 -   [Verifying Signed Messages by Using CTLs](verifying-signed-messages-by-using-ctls.md)
