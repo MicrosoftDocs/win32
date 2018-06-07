@@ -111,7 +111,7 @@
 ##### [DdeAbandonTransaction](/windows/desktop/api/Ddeml/nf-ddeml-ddeabandontransaction)
 ##### [DdeAccessData](/windows/desktop/api/Ddeml/nf-ddeml-ddeaccessdata)
 ##### [DdeAddData](/windows/desktop/api/Ddeml/nf-ddeml-ddeadddata)
-##### [DdeCallback](ddecallback.md)
+##### [DdeCallback](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx)
 ##### [DdeClientTransaction](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction)
 ##### [DdeCmpStringHandles](/windows/desktop/api/Ddeml/nf-ddeml-ddecmpstringhandles)
 ##### [DdeConnect](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect)

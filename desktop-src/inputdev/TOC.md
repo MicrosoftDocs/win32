@@ -85,7 +85,7 @@
 ##### [GET_FLAGS_LPARAM](/windows/desktop/api/Winuser/nf-winuser-get_flags_lparam)
 ##### [GET_KEYSTATE_LPARAM](/windows/desktop/api/Winuser/nf-winuser-get_keystate_lparam)
 ##### [GET_KEYSTATE_WPARAM](/windows/desktop/api/Winuser/nf-winuser-get_keystate_wparam)
-##### [GET_MOUSEORKEY_LPARAM](get-mouseorkey-lparam.md)
+##### [GET_MOUSEORKEY_LPARAM](https://msdn.microsoft.com/en-us/library/ms646252(v=VS.85).aspx)
 ##### [GET_NCHITTEST_WPARAM](/windows/desktop/api/Winuser/nf-winuser-get_nchittest_wparam)
 ##### [GET_WHEEL_DELTA_WPARAM](/windows/desktop/api/Winuser/nf-winuser-get_wheel_delta_wparam)
 ##### [GET_XBUTTON_WPARAM](/windows/desktop/api/Winuser/nf-winuser-get_xbutton_wparam)

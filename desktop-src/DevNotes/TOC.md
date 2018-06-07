@@ -369,7 +369,7 @@
 ### [GetMediaComponentPackageInfo](/windows/desktop/api/comppkgsup/nf-comppkgsup-getmediacomponentpackageinfo)
 ### [GetMediaExtensionCommunicationFactory](/windows/desktop/api/comppkgsup/nf-comppkgsup-getmediaextensioncommunicationfactory)
 ### [GetServerForPMP](/windows/desktop/api/comppkgsup/nf-comppkgsup-getserverforpmp)
-### [IMESTRUCT](-win32-imestruct.md)
+### [IMESTRUCT](https://msdn.microsoft.com/en-us/library/Aa969466(v=VS.85).aspx)
 ### [InstantiateComponentFromPackage](/windows/desktop/api/comppkgsup/nf-comppkgsup-instantiatecomponentfrompackage)
 ### [IsMediaBehaviorEnabled](/windows/desktop/api/comppkgsup/nf-comppkgsup-ismediabehaviorenabled)
 ### [NtClose](/windows/desktop/api/Winternl/nf-winternl-ntclose)

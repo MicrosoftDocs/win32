@@ -87,7 +87,7 @@
 #### [CF_CALLBACK_PARAMETERS](/previous-versions/windows/desktop/api/CfApi/ns-cfapi-cf_callback_parameters)
 #### [CF_CALLBACK_REGISTRATION](/previous-versions/windows/desktop/api/CfApi/ns-cfapi-cf_callback_registration)
 #### [CF_FILE_RANGE](/previous-versions/windows/desktop/api/CfApi/ns-cfapi-cf_file_range)
-#### [CF_FILE_RANGE_BUFFER](-cf-file-range-buffer.md)
+#### [CF_FILE_RANGE_BUFFER](https://msdn.microsoft.com/en-us/library/Mt844616(v=VS.85).aspx)
 #### [CF_FS_METADATA](/previous-versions/windows/desktop/api/CfApi/ns-cfapi-cf_fs_metadata)
 #### [CF_HYDRATION_POLICY](/previous-versions/windows/desktop/api/CfApi/ns-cfapi-cf_hydration_policy)
 #### [CF_OPERATION_INFO](/previous-versions/windows/desktop/api/CfApi/ns-cfapi-cf_operation_info)

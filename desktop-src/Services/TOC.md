@@ -87,7 +87,7 @@
 #### [QueryServiceStatusEx](/windows/desktop/api/Winsvc/nf-winsvc-queryservicestatusex)
 #### [RegisterServiceCtrlHandler](/windows/desktop/api/Winsvc/nf-winsvc-registerservicectrlhandlera)
 #### [RegisterServiceCtrlHandlerEx](/windows/desktop/api/Winsvc/nf-winsvc-registerservicectrlhandlerexa)
-#### [LPSERVICE_MAIN_FUNCTION](servicemain.md)
+#### [LPSERVICE_MAIN_FUNCTION](https://msdn.microsoft.com/en-us/library/ms685138(v=VS.85).aspx)
 #### [SetServiceBits](/windows/desktop/api/Lmserver/nf-lmserver-setservicebits)
 #### [SetServiceStatus](/windows/desktop/api/Winsvc/nf-winsvc-setservicestatus)
 #### [StartService](/windows/desktop/api/Winsvc/nf-winsvc-startservicea)

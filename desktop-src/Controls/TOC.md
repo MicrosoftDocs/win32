@@ -350,7 +350,7 @@
 ###### [How to Create a Multiline Edit Control](use-a-multiline-edit-control.md)
 #### [Edit Control Reference](bumper-edit-control-edit-control-reference.md)
 ##### [Edit Control Functions](bumper-edit-control-reference-functions.md)
-###### [EditWordBreakProc](editwordbreakproc.md)
+###### [EditWordBreakProc](https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx)
 ##### [Edit Control Macros](bumper-edit-control-reference-macros.md)
 ###### [Edit_CanUndo](/windows/desktop/api/Windowsx/nf-windowsx-edit_canundo)
 ###### [Edit_EmptyUndoBuffer](/windows/desktop/api/Windowsx/nf-windowsx-edit_emptyundobuffer)

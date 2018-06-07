@@ -1,5 +1,5 @@
 # [Software Device API](software-device-api-portal.md)
-## [Software Device API Programming Guide](software-device-api-programming-guide.md)
+## [Software Device API Programming Guide](https://msdn.microsoft.com/en-us/library/Dn315034(v=VS.85).aspx)
 ## [Software Device API Reference](software-device-api-reference.md)
 ### [Software Device API Functions](software-device-api-functions.md)
 #### [SwDeviceClose](/windows/desktop/api/Swdevice/nf-swdevice-swdeviceclose)
@@ -13,8 +13,8 @@
 #### [SwDeviceSetLifetime](/windows/desktop/api/Swdevice/nf-swdevice-swdevicesetlifetime)
 #### [SwMemFree](/windows/desktop/api/Swdevice/nf-swdevice-swmemfree)
 ### [Software Device API Structures](software-device-api-structures.md)
-#### [DEVPROPCOMPKEY](devpropcompkey.md)
-#### [DEVPROPERTY](devproperty.md)
-#### [DEVPROPKEY](devpropkey.md)
+#### [DEVPROPCOMPKEY](https://msdn.microsoft.com/en-us/library/Dn315029(v=VS.85).aspx)
+#### [DEVPROPERTY](https://msdn.microsoft.com/en-us/library/Dn315030(v=VS.85).aspx)
+#### [DEVPROPKEY](https://msdn.microsoft.com/en-us/library/Dn315031(v=VS.85).aspx)
 #### [SW_DEVICE_CREATE_INFO](/windows/desktop/api/Swdevicedef/ns-swdevicedef-_sw_device_create_info)
 

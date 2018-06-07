@@ -994,7 +994,7 @@
 #### [SecPkgContext_IssuerListInfoEx](/windows/desktop/api/Schannel/ns-schannel-_secpkgcontext_issuerlistinfoex)
 #### [SecPkgContext_KeyInfo](/windows/desktop/api/Sspi/ns-sspi-_secpkgcontext_keyinfoa)
 #### [SecPkgContext_KeyingMaterialInfo](/windows/desktop/api/Sspi/)
-#### [SecPkgContext_EarlyStart](secpkgcontext-earlystart.md)
+#### [SecPkgContext_EarlyStart](https://msdn.microsoft.com/en-us/library/Mt829323(v=VS.85).aspx)
 #### [SecPkgContext_KeyingMaterial](/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_keyingmaterial)
 #### [SecPkgContext_LastClientTokenStatus](/windows/desktop/api/Sspi/ns-sspi-_secpkgcontext_lastclienttokenstatus)
 #### [SecPkgContext_Lifespan](/windows/desktop/api/Sspi/ns-sspi-_secpkgcontext_lifespan)

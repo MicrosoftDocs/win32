@@ -36,7 +36,7 @@
 ### [DIALOG_DPI_CHANGE_BEHAVIORS](/windows/desktop/api/winuser/ne-winuser-dialog_dpi_change_behaviors)
 ### [MONITOR_DPI_TYPE](/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-monitor_dpi_type)
 ### [PROCESS_DPI_AWARENESS](/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-process_dpi_awareness)
-### [_DPI_HOSTING_BEHAVIOR](-dpi-hosting-behavior.md)
+### [_DPI_HOSTING_BEHAVIOR](https://msdn.microsoft.com/en-us/library/Mt845776(v=VS.85).aspx)
 ### [WM_DPICHANGED](wm-dpichanged.md)
 ### [WM_DPICHANGED_BEFOREPARENT](wm-dpichanged-beforeparent.md)
 ### [WM_DPICHANGED_AFTERPARENT](wm-dpichanged-afterparent.md)
