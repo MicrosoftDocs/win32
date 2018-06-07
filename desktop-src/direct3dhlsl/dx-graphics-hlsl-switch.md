@@ -1,0 +1,203 @@
+---
+title: switch Statement
+description: Transfer control to a different statement block within the switch body depending on the value of a selector.
+ms.assetid: d1932ee1-d789-4536-b77d-162aacdbb115
+keywords:
+- switch Statement HLSL
+topic_type:
+- apiref
+api_name:
+- switch Statement
+api_location:
+- urlmon.h
+api_type:
+- HeaderDef
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# switch Statement
+
+Transfer control to a different statement block within the switch body depending on the value of a selector.
+
+
+
+|                                                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| \[*Attribute*\] switch( *Selector* ) {   case 0 :     { *StatementBlock*; }   break;   case 1 :     { *StatementBlock*; }   break;   case n :     { *StatementBlock*; }   break;   default :     { *StatementBlock*; }   break; |
+
+
+
+ 
+
+## Parameters
+
+<dl> <dt>
+
+<span id="Attribute"></span><span id="attribute"></span><span id="ATTRIBUTE"></span>*Attribute*
+</dt> <dd>
+
+An optional parameter that controls how the statement is compiled. When no attribute is specified, the compiler may use a hardware switch or emit a series of **if** statements.
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>flatten</td>
+<td>Compile the statement as a series of <strong>if</strong> statements, each with the <strong>flatten</strong> attribute.</td>
+</tr>
+<tr class="even">
+<td>branch</td>
+<td>Compile the statement as a series of <strong>if</strong> statements each with the <strong>branch</strong> attribute.
+<blockquote>
+[!Note]<br />
+When you use [Shader Model 2.x](dx-graphics-hlsl-sm2.md) or [Shader Model 3.0](dx-graphics-hlsl-sm3.md), each time you use dynamic branching you consume resources. So, if you use dynamic branching excessively when you target these profiles, you can receive compilation errors.
+</blockquote>
+<br/></td>
+</tr>
+<tr class="odd">
+<td>forcecase</td>
+<td>Force a switch statement in the hardware.
+<blockquote>
+[!Note]<br />
+Requires [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876) 10_0 or later hardware.
+</blockquote>
+<br/></td>
+</tr>
+<tr class="even">
+<td>call</td>
+<td>The bodies of the individual cases in the switch will be moved into hardware subroutines and the switch will be a series of subroutine calls.
+<blockquote>
+[!Note]<br />
+Requires [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876) 10_0 or later hardware.
+</blockquote>
+<br/></td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+</dd> <dt>
+
+<span id="Selector"></span><span id="selector"></span><span id="SELECTOR"></span>*Selector*
+</dt> <dd>
+
+A variable. The case statements inside the curly brackets will each check this variable to see if the SwitchValue matches their particular CaseValue.
+
+</dd> <dt>
+
+<span id="StatementBlock"></span><span id="statementblock"></span><span id="STATEMENTBLOCK"></span>*StatementBlock*
+</dt> <dd>
+
+One or more [statements](dx-graphics-hlsl-statement-blocks.md).
+
+</dd> </dl>
+
+## Remarks
+
+
+```
+[branch] switch(a)
+{
+    case 0:
+        return 0; 
+    case 1:
+        return 1; 
+    case 2:
+        return 3; 
+    default:
+        return 6; 
+}
+```
+
+
+
+Is equivalent to:
+
+
+```
+[branch] if( a == 2 )
+    return 3;
+else if( a == 1 )
+    return 1;
+else if( a == 0 )
+    return 0;
+else
+    return 6;
+```
+
+
+
+Here are example usages of forcecase and call flow control attributes:
+
+
+```
+[forcecase] switch(a)
+{
+    case 0:
+        return 0; 
+    case 1:
+        return 1; 
+    case 2:
+        return 3; 
+    default:
+        return 6; 
+}
+
+[call] switch(a)
+{
+    case 0:
+        return 0; 
+    case 1:
+        return 1; 
+    case 2:
+        return 3; 
+    default:
+        return 6; 
+}
+```
+
+
+
+## Requirements
+
+
+
+|                   |                                                                                     |
+|-------------------|-------------------------------------------------------------------------------------|
+| Header<br/> | <dl> <dt>Urlmon.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Flow Control](dx-graphics-hlsl-flow-control.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

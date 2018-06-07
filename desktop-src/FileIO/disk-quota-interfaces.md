@@ -1,0 +1,36 @@
+---
+Description: Interfaces used with disk quotas.
+ms.assetid: 422d93d9-f4aa-428d-94c1-fdf2dcf4c974
+title: Disk Quota Interfaces
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Disk Quota Interfaces
+
+The following interfaces are used with disk quotas.
+
+
+
+| Interface                                          | Description                                                                                                    |
+|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| [**IDiskQuotaControl**](/windows/desktop/api/Dskquota/)     | Controls the disk quota facilities of a single NTFS file system volume.<br/>                             |
+| [**IDiskQuotaEvents**](/windows/desktop/api/Dskquota/)       | Receives quota-related event notifications.<br/>                                                         |
+| [**IDiskQuotaUser**](/windows/desktop/api/Dskquota/)           | Represents a single user quota entry in the volume quota information file.<br/>                          |
+| [**IDiskQuotaUserBatch**](/windows/desktop/api/Dskquota/) | Adds multiple quota user objects to a container that is then submitted for update in a single call.<br/> |
+| [**IEnumDiskQuotaUsers**](/windows/desktop/api/Dskquota/) | Enumerates user quota entries on the volume.<br/>                                                        |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+

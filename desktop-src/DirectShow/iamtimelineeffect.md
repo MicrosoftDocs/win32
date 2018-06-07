@@ -1,0 +1,88 @@
+---
+Description: The IAMTimelineEffect interface provides methods for manipulating audio and video effects in DirectShow Editing Services (DES).
+ms.assetid: 3cc8a5f8-3f57-4e2b-82dd-827e04c771f7
+title: IAMTimelineEffect interface
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: interface
+ms.date: 05/31/2018
+---
+
+# IAMTimelineEffect interface
+
+> [!Note]  
+> \[Deprecated. This API may be removed from future releases of Windows.\]
+
+ 
+
+The `IAMTimelineEffect` interface provides methods for manipulating audio and video effects in [DirectShow Editing Services](directshow-editing-services.md) (DES). An effect can be added to any timeline object that exposes the [**IAMTimelineEffectable**](iamtimelineeffectable.md) interface. To set properties on an effect, use the [**IPropertySetter**](ipropertysetter.md) interface.
+
+The DES effect object is actually a wrapper for one of two other objects:
+
+-   For audio effects, any DirectShow audio effect filter.
+-   For video effects, and 1-input DirectX Transform object.
+
+Microsoft no longer supports the development of third-party DirectX Transform objects.
+
+To specify the filter or DirectX Transform object for an effect, call the [**IAMTimelineObj::SetSubObjectGUID**](iamtimelineobj-setsubobjectguid.md) method.
+
+To create an effect object, call [**IAMTimeline::CreateEmptyNode**](iamtimeline-createemptynode.md) with the value TIMELINE\_MAJOR\_TYPE\_EFFECT. You can query the returned [**IAMTimelineObj**](iamtimelineobj.md) pointer for the `IAMTimelineEffect` interface.
+
+## Members
+
+The **IAMTimelineEffect** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IAMTimelineEffect** also has these types of members:
+
+-   [Methods](#methods)
+
+### Methods
+
+The **IAMTimelineEffect** interface has these methods.
+
+
+
+| Method                                                           | Description                                       |
+|:-----------------------------------------------------------------|:--------------------------------------------------|
+| [**EffectGetPriority**](iamtimelineeffect-effectgetpriority.md) | Retrieves the effect's priority level.<br/> |
+
+
+
+ 
+
+## Remarks
+
+> [!Note]  
+> The header file Qedit.h is not compatible with Direct3D headers later than version 7.
+
+ 
+
+> [!Note]  
+> To obtain Qedit.h, download the [Microsoft Windows SDK Update for Windows Vista and .NET Framework 3.0](http://go.microsoft.com/fwlink/p/?linkid=129787). Qedit.h is not available in the Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 Service Pack 1.
+
+ 
+
+## Requirements
+
+
+
+|                    |                                                                                         |
+|--------------------|-----------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
+| Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Working with Effects and Transitions](working-with-effects-and-transitions.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

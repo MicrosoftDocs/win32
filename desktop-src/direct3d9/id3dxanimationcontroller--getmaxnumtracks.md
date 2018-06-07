@@ -1,0 +1,63 @@
+---
+Description: Gets the maximum number of tracks in the animation controller.
+ms.assetid: 55d8a0f4-b382-4cc8-925c-d2136225aaae
+title: ID3DXAnimationController::GetMaxNumTracks method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# ID3DXAnimationController::GetMaxNumTracks method
+
+Gets the maximum number of tracks in the animation controller.
+
+## Syntax
+
+
+```C++
+UINT GetMaxNumTracks();
+```
+
+
+
+## Parameters
+
+This method has no parameters.
+
+## Return value
+
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+Number of tracks.
+
+## Remarks
+
+The maximum number of tracks the controller can manage.
+
+## Requirements
+
+
+
+|                    |                                                                                        |
+|--------------------|----------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
+| Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
+
+
+
+## See also
+
+<dl> <dt>
+
+[ID3DXAnimationController](id3dxanimationcontroller.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

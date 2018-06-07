@@ -1,0 +1,73 @@
+---
+Description: Imports a previously encoded certificate from a string into the Certificate object.
+ms.assetid: 8515e034-08aa-4575-9b96-34cdee3ccba8
+title: ICertificate2::Import method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# ICertificate2::Import method
+
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](https://www.bing.com/search?q=**X509Certificate2+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
+
+The **Import** method imports a previously encoded certificate from a string into the [**Certificate**](certificate.md) object. Calling this method resets the [*state*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) of this object.
+
+## Syntax
+
+
+```VB
+Certificate.Import( _
+  ByVal EncodedCertificate _
+)
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*EncodedCertificate* \[in\]
+</dt> <dd>
+
+A string that contains the encoded certificate data to be imported.
+
+</dd> </dl>
+
+## Return value
+
+This method does not return a value.
+
+## Requirements
+
+
+
+|                                  |                                                                                        |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| End of client support<br/> | Windows Vista<br/>                                                               |
+| End of server support<br/> | Windows Server 2008<br/>                                                         |
+| Redistributable<br/>       | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
+| DLL<br/>                   | <dl> <dt>Capicom.dll</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Cryptography Objects](cryptography-objects.md)
+</dt> <dt>
+
+[**Certificate**](certificate.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,106 @@
+---
+Description: The Win32\_PnPDevice association WMI class relates a device (known to Configuration Manager as a PNPEntity) and the function it performs.
+audience: developer
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5163a423-60f2-416d-bf82-89517b499f93
+ms.prod: windows-server-dev
+ms.technology:
+- cimwin32
+- windows-management-instrumentation
+ms.tgt_platform: multiple
+title: Win32\_PnPDevice class
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Win32\_PnPDevice class
+
+The **Win32\_PnPDevice** association [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) relates a device (known to Configuration Manager as a PNPEntity) and the function it performs. Its function is represented by a subclass of the logical device that describes its use. For example, a [**Win32\_Keyboard**](win32-keyboard.md) or [**Win32\_DiskDrive**](win32-diskdrive.md) instance. Both referenced objects represent the same underlying system device; changes to resource allocation on the PNPEntity side will effect the associated device.
+
+The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
+
+## Syntax
+
+``` syntax
+[Association, Dynamic, Provider("CIMWin32"), UUID("{FE28FD96-C875-11d2-B352-00104BC97924}"), AMENDMENT]
+class Win32_PnPDevice
+{
+  CIM_LogicalDevice REF SameElement;
+  Win32_PnPEntity   REF SystemElement;
+};
+```
+
+## Members
+
+The **Win32\_PnPDevice** class has these types of members:
+
+-   [Properties](#properties)
+
+### Properties
+
+The **Win32\_PnPDevice** class has these properties.
+
+<dl> <dt>
+
+**SameElement**
+</dt> <dd> <dl> <dt>
+
+Data type: **CIM\_LogicalDevice**
+</dt> <dt>
+
+Access type: Read-only
+</dt> <dt>
+
+Qualifiers: [**Key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("CIM\|CIM\_LogicalDevice")
+</dt> </dl>
+
+Reference to the [**CIM\_LogicalDevice**](cim-logicaldevice.md) instance representing the logical device properties associated with the Plug and Play device.
+
+</dd> <dt>
+
+**SystemElement**
+</dt> <dd> <dl> <dt>
+
+Data type: **Win32\_PnPEntity**
+</dt> <dt>
+
+Access type: Read-only
+</dt> <dt>
+
+Qualifiers: [**Key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI\|Win32\_PnPEntity")
+</dt> </dl>
+
+Reference to the [**Win32\_PnPEntity**](win32-pnpentity.md) instance representing the Plug and Play device associated with the logical device.
+
+</dd> </dl>
+
+## Requirements
+
+
+
+|                                     |                                                                                         |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
+| MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Computer System Hardware Classes](computer-system-hardware-classes.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,93 @@
+---
+Description: Used to configure CAPICOM components.
+title: Settings object
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: interface
+ms.date: 05/31/2018
+---
+
+# Settings object
+
+\[The **Settings** object is available for use in the operating systems specified in the Requirements section.\]
+
+The **Settings** object is used to configure CAPICOM components.
+
+## Members
+
+The **Settings** object has these types of members:
+
+-   [Properties](#properties)
+
+### Properties
+
+The **Settings** object has these properties.
+
+
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Property</th>
+<th style="text-align: left;">Access type</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">[<strong>ActiveDirectorySearchLocation</strong>](settings-activedirectorysearchlocation.md)<br/></td>
+<td style="text-align: left;">Read/write<br/></td>
+<td style="text-align: left;">Sets or retrieves the Active Directory search location. The initial location is unspecified by default. When the location is unspecified, the global catalog is searched, then the default domain is searched. The search determines whether the user certificate attribute is published at that location.<br/></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">[<strong>EnablePromptForCertificateUI</strong>](settings-enablepromptforcertificateui.md)<br/></td>
+<td style="text-align: left;">Read/write<br/></td>
+<td style="text-align: left;">Sets or retrieves a Boolean value that indicates whether user interface prompts for a signer or sender's identity can be used. <br/>
+<blockquote>
+[!Note]<br />
+Setting this property does not disable warnings that are generated before any private key usage is done from a web-based application.
+</blockquote>
+<br/></td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## Remarks
+
+The **Settings** object can be created, and it is safe for scripting. The ProgID for the **Settings** object is CAPICOM.Settings.1.
+
+## Requirements
+
+
+
+|                            |                                                                                        |
+|----------------------------|----------------------------------------------------------------------------------------|
+| Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
+| DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**Cryptography Objects**](cryptography-objects.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,34 @@
+---
+Description: To change a connection's attributes, such as the cipher suite or client authentication, you can request a &\#0034;redo&\#0034; or renegotiation of the connection.
+ms.assetid: 681b607d-66d8-4012-9a84-d202c9778a26
+title: Renegotiating an Schannel Connection
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Renegotiating an Schannel Connection
+
+To change a connection's attributes, such as the cipher suite or client authentication, you can request a "redo" or renegotiation of the connection.
+
+If the attributes you want to change are controlled by credentials, you must obtain new credentials before you renegotiate the connection. For more information, see [Obtaining Schannel Credentials](obtaining-schannel-credentials.md).
+
+To request a redo from a client application, call the [**InitializeSecurityContext (Schannel)**](/windows/desktop/api/Sspi/) function. Server applications call the [**AcceptSecurityContext (Schannel)**](/windows/desktop/api/Sspi/) function. Set the parameters as follows:
+
+-   Specify the existing [*security context*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) in the *phContext* parameter.
+-   (Clients only) Specify the same server name (in the *pszTargetName* parameter) as specified when establishing the context.
+-   Specify new credentials, using the *phCredential* parameter, if applicable.
+-   If you want to change context attributes unrelated to the credentials, specify these attributes using the *fContextReq* parameter.
+
+After calling the appropriate function, your application should send the results to the client and continue processing incoming messages using the [**DecryptMessage (Schannel)**](/windows/desktop/api/Sspi/) function.
+
+The [**DecryptMessage (Schannel)**](/windows/desktop/api/Sspi/) function will return SEC\_I\_RENEGOTIATE when Schannel is ready for your application to proceed. When you receive the SEC\_I\_RENEGOTIATE return code, your application must call [**AcceptSecurityContext (Schannel)**](/windows/desktop/api/Sspi/) (servers) or [**InitializeSecurityContext (Schannel)**](/windows/desktop/api/Sspi/) (clients), passing in empty input buffers. After this call returns a value, proceed as though your application were creating a new connection.
+
+ 
+
+ 
+
+
+

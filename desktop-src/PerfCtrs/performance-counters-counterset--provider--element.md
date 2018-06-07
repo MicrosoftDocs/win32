@@ -1,0 +1,51 @@
+---
+Description: Contains a list of counters that are logically related.
+ms.assetid: 0a0405c9-7487-43e0-afef-d6c6ba75c9bf
+title: counterSet (provider) Element
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# counterSet (provider) Element
+
+Contains a list of counters that are logically related.
+
+``` syntax
+<xs:element name="counterSet"
+    type="man:counterSet"
+ />
+```
+
+The **counterSet** element is defined by the [**provider**](performance-counters-provider-complex-type.md) complex type.
+
+## Requirements
+
+
+
+|                                     |                                                      |
+|-------------------------------------|------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+
+
+
+## See also
+
+<dl> <dt>
+
+**Parent elements**
+</dt> <dt>
+
+[**provider (counters)**](performance-counters-provider--counters--element.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

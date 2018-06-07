@@ -1,0 +1,37 @@
+---
+Description: Defines the type that contains the encoded binary image and position information for a flag embedded in a Journal note.
+ms.assetid: 9ec7faae-8694-4ad5-8a73-58f336bf4a81
+title: FlagType Complex Type
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# FlagType Complex Type
+
+Defines the type that contains the encoded binary image and position information for a flag embedded in a Journal note.
+
+``` syntax
+<xs:complexType name="FlagType" />
+```
+
+## Requirements
+
+
+
+|                                     |                                                               |
+|-------------------------------------|---------------------------------------------------------------|
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | None supported<br/>                                     |
+
+
+
+ 
+
+ 
+
+
+
+

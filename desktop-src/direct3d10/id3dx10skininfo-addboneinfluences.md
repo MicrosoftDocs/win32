@@ -1,0 +1,103 @@
+---
+Description: Enable an existing bone to influence a group of vertices and define how much influence the bone has on each vertex.
+ms.assetid: 37ba97a8-ba40-4700-b8b8-fa7cc9118307
+title: ID3DX10SkinInfo::AddBoneInfluences method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# ID3DX10SkinInfo::AddBoneInfluences method
+
+Enable an existing bone to influence a group of vertices and define how much influence the bone has on each vertex.
+
+## Syntax
+
+
+```C++
+HRESULT AddBoneInfluences(
+  [in] UINT  BoneIndex,
+  [in] UINT  InfluenceCount,
+  [in] UINT  *pIndices,
+  [in] float *pWeights
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*BoneIndex* \[in\]
+</dt> <dd>
+
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+An index that specifies an existing bone. Must be between 0 and the value returned by [**ID3DX10SkinInfo::GetNumBones**](id3dx10skininfo-getnumbones.md).
+
+</dd> <dt>
+
+*InfluenceCount* \[in\]
+</dt> <dd>
+
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+
+Number of vertices to add to the bone's influence.
+
+</dd> <dt>
+
+*pIndices* \[in\]
+</dt> <dd>
+
+Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+
+Pointer to an array of vertex indices. Each member of this array has a corresponding member in pWeights, such that pIndices\[i\] corresponds to pWeights\[i\]. The corresponding value in pWeights\[i\] determines how much influence BoneIndex will have on the vertex indexed by pIndices\[i\]. The size of the pIndices array must be equal to or greater than InfluenceCount.
+
+</dd> <dt>
+
+*pWeights* \[in\]
+</dt> <dd>
+
+Type: **float\***
+
+Pointer to an array of bone weights. Each member of this array has a corresponding member in pIndices, such that pWeights\[i\] corresponds to pIndices\[i\]. Each value in pWeights is between 0 and 1 and defines the amount of influence the bone has over each vertex. The size of pWeights must be equal to or greater than InfluenceCount.
+
+</dd> </dl>
+
+## Return value
+
+Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+
+If the method succeeds, the return value is S\_OK. If the method fails, the return value can be: E\_INVALIDARG or E\_OUTOFMEMORY.
+
+## Requirements
+
+
+
+|                    |                                                                                       |
+|--------------------|---------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
+| Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[ID3DX10SkinInfo](id3dx10skininfo.md)
+</dt> <dt>
+
+[D3DX Interfaces](d3d10-graphics-reference-d3dx10-interfaces.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

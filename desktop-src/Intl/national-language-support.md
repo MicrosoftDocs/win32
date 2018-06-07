@@ -1,0 +1,25 @@
+---
+Description: National Language Support
+ms.assetid: 1bf4d6f4-af86-440e-9179-2ff17b09766a
+title: National Language Support
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# National Language Support
+
+The National Language Support (NLS) functions help applications support the different language- and locale-specific needs of users around the world. This overview describes the NLS functions and explains how to use them in your applications.
+
+-   [About National Language Support](about-national-language-support.md)
+-   [Using National Language Support](using-national-language-support.md)
+-   [National Language Support Reference](national-language-support-reference.md)
+
+ 
+
+ 
+
+
+

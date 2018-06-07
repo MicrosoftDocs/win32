@@ -1,0 +1,80 @@
+---
+Description: A security context is the set of security attributes and rules in effect during a communication session.
+ms.assetid: 6c87448b-5b8d-4694-ac3f-be83a258fbb0
+title: SSPI Context Semantics
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# SSPI Context Semantics
+
+A [*security context*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) is the set of security attributes and rules in effect during a communication session. This includes such information as the identities of the principal and information on the keys, ciphers, and algorithms being used. For [*Security Support Provider Interface*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SSPI), a security context is an opaque structure that is created through an exchange involving the [**InitializeSecurityContext (General)**](/windows/desktop/api/Sspi/) function and the [**AcceptSecurityContext (General)**](/windows/desktop/api/Sspi/) function.
+
+For more information about the context attributes, see [Context Requirements](context-requirements.md).
+
+The SSPI model supports three types of security contexts.
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[Connection](connection-oriented-contexts.md)</td>
+<td>A connection-oriented [<em>context</em>](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) is the most common security context, and the simplest to use. The caller is responsible for the overall message format and for the location of the data in the message. The caller is also responsible for the location of the security-relevant fields within a message, such as the location of the signature data.<br/></td>
+</tr>
+<tr class="even">
+<td>[Datagram](datagram-contexts.md)</td>
+<td>A [<em>datagram</em>](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2)-oriented context has extra support for DCE-style datagram communication. It can also be used generically for a datagram-oriented transport application.<br/>
+<blockquote>
+<p>[!Important]</p>
+<p>The [Microsoft Kerberos](microsoft-kerberos.md) package does not support datagram contexts in user-to-user mode.<br/></p>
+</blockquote>
+<br/></td>
+</tr>
+<tr class="odd">
+<td>[Stream](stream-contexts.md)</td>
+<td>A stream-oriented context is responsible for the blocking and message formatting within the security package. The caller is not interested in formatting, but rather a raw stream of data.<br/></td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## Related topics
+
+<dl> <dt>
+
+[Context Requirements](context-requirements.md)
+</dt> <dt>
+
+[Connection-Oriented Contexts](connection-oriented-contexts.md)
+</dt> <dt>
+
+[Datagram Contexts](datagram-contexts.md)
+</dt> <dt>
+
+[Stream Contexts](stream-contexts.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

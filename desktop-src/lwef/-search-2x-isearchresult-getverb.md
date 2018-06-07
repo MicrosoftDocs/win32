@@ -1,0 +1,26 @@
+---
+title: ISearchResult GetVerb method
+description: Reserved.
+ms.assetid: 15f75c5d-7a9e-49fa-90f5-5127bce3b323
+keywords:
+- GetVerb method Legacy Windows Environment Features
+- GetVerb method Legacy Windows Environment Features , ISearchResult interface
+- ISearchResult interface Legacy Windows Environment Features , GetVerb method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# ISearchResult::GetVerb method
+
+This method is not implemented.
+
+ 
+
+ 
+
+
+
+

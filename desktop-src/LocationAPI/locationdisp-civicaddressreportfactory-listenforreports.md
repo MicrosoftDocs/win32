@@ -1,0 +1,73 @@
+---
+Description: Requests civic address report events.
+ms.assetid: cb02f611-7cda-405f-aeee-833b7385a4be
+title: LocationDisp.CivicAddressReportFactory.ListenForReports method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# LocationDisp.CivicAddressReportFactory.ListenForReports method
+
+\[The Location API object model is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, to access location from a website, use the [W3C Geolocation API](https://msdn.microsoft.com/library/gg589513). To access location from a desktop application, use the [**Windows.Devices.Geolocation**](https://msdn.microsoft.com/library/windows/apps/br225603) API.\]
+
+Requests civic address report events.
+
+## Syntax
+
+
+```JScript
+LocationDisp.CivicAddressReportFactory.ListenForReports(
+  requestedReportInterval
+)
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*requestedReportInterval* 
+</dt> <dd> Number (**double word**) representing the requested time between civic address report events, in milliseconds. See Remarks.</dd> </dl>
+
+## Return value
+
+This method does not return a value.
+
+## Remarks
+
+The location provider is not required to provide the accuracy that you request. Read the value of the [**ReportInterval**](locationdisp-civicaddressreportfactory-reportinterval.md) property to discover the true report interval setting.
+
+## Examples
+
+For an example of how to use this method, see [Listening for Civic Address Report Events](https://msdn.microsoft.com/library/windows/apps/br225603).
+
+## Requirements
+
+
+
+|                                     |                                                                                          |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | None supported<br/>                                                                |
+| Header<br/>                   | <dl> <dt>Locationapi.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**NewCivicAddressReport Event**](newcivicaddressreport.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,74 @@
+---
+Description: Retrieves the isolation level and timeout value of a transaction that is hosted in the root transaction context.
+ms.assetid: bb3ff03e-e69e-4a50-af36-4938eb4323df
+title: IContextTransactionInfo::GetTxIsolationLevelAndTimeout method
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# IContextTransactionInfo::GetTxIsolationLevelAndTimeout method
+
+Retrieves the isolation level and timeout value of a transaction that is hosted in the root transaction context.
+
+## Syntax
+
+
+```C++
+HRESULT GetTxIsolationLevelAndTimeout(
+  [out] ISOLEVEL *pIsoLevel,
+  [out] DWORD    *dwTime
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*pIsoLevel* \[out\]
+</dt> <dd>
+
+The [ISOLATIONLEVEL](http://go.microsoft.com/fwlink/p/?linkid=148531) value for the transaction.
+
+</dd> <dt>
+
+*dwTime* \[out\]
+</dt> <dd>
+
+The timeout of the transaction, in seconds.
+
+</dd> </dl>
+
+## Return value
+
+This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY, E\_UNEXPECTED, and S\_OK.
+
+## Requirements
+
+
+
+|                                     |                                                               |
+|-------------------------------------|---------------------------------------------------------------|
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**IContextTransactionInfo**](icontexttransactioninfo.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

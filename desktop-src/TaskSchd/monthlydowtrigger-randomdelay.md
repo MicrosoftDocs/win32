@@ -1,0 +1,71 @@
+---
+title: MonthlyDOWTrigger.RandomDelay property
+description: For scripting, gets or sets a delay time that is randomly added to the start time of the trigger.
+ms.assetid: 1edae183-b0b9-40b6-ba32-227bc0435ee2
+keywords:
+- RandomDelay property Task Scheduler
+- RandomDelay property Task Scheduler , MonthlyDOWTrigger object
+- MonthlyDOWTrigger object Task Scheduler , RandomDelay property
+topic_type:
+- apiref
+api_name:
+- MonthlyDOWTrigger.RandomDelay
+api_location:
+- taskschd.dll
+api_type:
+- COM
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# MonthlyDOWTrigger.RandomDelay property
+
+For scripting, gets or sets a delay time that is randomly added to the start time of the trigger.
+
+## Syntax
+
+
+```VB
+MonthlyDOWTrigger.RandomDelay As String
+```
+
+
+
+## Property value
+
+The delay time that is randomly added to the start time of the trigger. The format for this string is P&lt;days&gt;DT&lt;hours&gt;H&lt;minutes&gt;M&lt;seconds&gt;S (for example, P2DT5S is a 2 day, 5 second delay).
+
+## Requirements
+
+
+
+|                                     |                                                                                         |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[Task Scheduler](task-scheduler-start-page.md)
+</dt> <dt>
+
+[**MonthlyDOWTrigger**](monthlydowtrigger.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

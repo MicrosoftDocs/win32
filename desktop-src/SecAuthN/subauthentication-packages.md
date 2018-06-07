@@ -1,0 +1,23 @@
+---
+Description: The authentication packages provided with Windows support customization using subauthentication packages.
+ms.assetid: e1f202c2-8574-4193-a99a-3922a4446013
+title: Subauthentication Packages
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Subauthentication Packages
+
+The [*authentication packages*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) provided with Windows support customization using [*subauthentication packages*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50). A subauthentication package is a DLL that supplements or replaces part of the authentication and validation criteria used by the main authentication package. For example, a particular server might supply a subauthentication package that validates a user's password with a different algorithm or specifies workstation restrictions in a different format.
+
+For more information about subauthentication packages, see the SubAuth sample installed with the Platform Software Development Kit (SDK).
+
+ 
+
+ 
+
+
+

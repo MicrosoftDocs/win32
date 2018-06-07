@@ -1,0 +1,41 @@
+---
+Description: Depicts the tasks that must be accomplished to create a signed message.
+ms.assetid: 61896022-28c2-4f70-977a-c990b4b23c55
+title: Creating a Signed Message
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Creating a Signed Message
+
+The following illustration depicts the tasks that must be accomplished to create a signed message. The steps are listed following the illustration.
+
+![signing a message](images/signdmsg.png)
+
+**To create a signed message**
+
+1.  Create the data (if necessary) and get a pointer to it.
+2.  Open a [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) that contains the signer's certificate.
+3.  Get the [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) for the certificate. A property must be set on the certificate before using it, to tie a certificate to a particular [*CSP*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb), and, within that CSP, to a particular private key. This needs to be set once.
+4.  Choose a hashing algorithm for the digest operation. We recommend that the hashing algorithm be selected from a configurable location that can be subsequently updated without requiring changes to code.
+5.  Send the data through the hashing function by using the hashing algorithm, thus creating a [*hash*](https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323) (digest) of the data.
+6.  Using the [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) obtained through the property on the certificate, encrypt the digest, creating the signature.
+7.  Include the following in the signed message:
+
+    -   The signed data
+    -   The hash algorithm
+    -   The signature
+    -   The signer identifier (certificate issuer and serial number)
+    -   The signer's certificate (optional)
+
+For a detailed procedure and example, see [Procedure for Signing Data](procedure-for-signing-data.md) and [Example C Program: Signing a Message and Verifying a Message Signature](example-c-program-signing-a-message-and-verifying-a-message-signature.md).
+
+ 
+
+ 
+
+
+

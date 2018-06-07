@@ -1,0 +1,49 @@
+---
+Description: Flag that enables or disables repaint events.
+ms.assetid: ea5e5472-047f-4196-8637-e5e04b563d50
+title: CBaseRenderer::m\_bRepaintStatus member
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# CBaseRenderer::m\_bRepaintStatus member
+
+Flag that enables or disables repaint events.
+
+## Syntax
+
+
+```C++
+BOOL m_bRepaintStatus;
+```
+
+
+
+## Requirements
+
+
+
+|                    |                                                                                                                                                                                            |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
+| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**CBaseRenderer Class**](cbaserenderer.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

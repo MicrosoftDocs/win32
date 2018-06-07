@@ -1,0 +1,64 @@
+---
+Description: Contains an array of BLOBs.
+ms.assetid: e87f493b-f160-4316-b369-75d20c735213
+title: BLOB\_TABLE structure
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: structure
+ms.date: 05/31/2018
+---
+
+# BLOB\_TABLE structure
+
+The **BLOB\_TABLE** structure contains an array of BLOBs.
+
+## Syntax
+
+
+```C++
+typedef struct {
+  DWORD dwNumBlobs;
+  HBLOB hBlobs[];
+} BLOB_TABLE, *PBLOB_TABLE;
+```
+
+
+
+## Members
+
+<dl> <dt>
+
+**dwNumBlobs**
+</dt> <dd>
+
+Indicator that many BLOBs follow.
+
+</dd> <dt>
+
+**hBlobs**
+</dt> <dd>
+
+Handle to the BLOB array.
+
+</dd> </dl>
+
+## Requirements
+
+
+
+|                                     |                                                                                     |
+|-------------------------------------|-------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+

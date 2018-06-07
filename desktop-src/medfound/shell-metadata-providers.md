@@ -1,0 +1,93 @@
+---
+Description: Starting in Windows 7, Microsoft Media Foundation exposes metadata through the IPropertyStore interface.
+ms.assetid: d219d3f1-3940-46ed-9811-3cf8bf1eec55
+title: Shell Metadata Providers
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Shell Metadata Providers
+
+Starting in Windows 7, Microsoft Media Foundation exposes metadata through the [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) interface.
+
+Metadata obtained using the process defined in this topic should only be used for read-only access. Writing data using this process is not supported. You can create an [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) object for writing purposes using a class identifier (CLSID) obtained from [**PSLookupPropertyHandlerCLSID**](https://msdn.microsoft.com/43f90a33-9bd6-4e47-ab92-5e0d01ba268a).
+
+## Reading Metadata
+
+To read metadata from a media source, perform the following steps:
+
+1.  Get a pointer to the [**IMFMediaSource**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource) interface of the media source. You can use the [**IMFSourceResolver**](/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver) interface to get an **IMFMediaSource** pointer.
+2.  Call [**MFGetService**](/windows/desktop/api/mfidl/nf-mfidl-mfgetservice) on the media source to get a pointer to the [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) interface. In the *guidService* parameter of **MFGetService**, specify the value **MF\_PROPERTY\_HANDLER\_SERVICE**. If the source does not support the **IPropertyStore** interface, **MFGetService** returns **MF\_E\_UNSUPPORTED\_SERVICE**.
+3.  Call [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) methods to enumerate the metadata properties.
+
+The following code shows these steps. Assume that `DisplayProperty` is a function that displays a **PROPVARIANT** value.
+
+
+```C++
+HRESULT EnumerateMetadata(IMFMediaSource *pSource)
+{
+    IPropertyStore *pProps = NULL;
+
+    HRESULT hr = MFGetService(
+        pSource, MF_PROPERTY_HANDLER_SERVICE, IID_PPV_ARGS(&amp;pProps));
+
+    if (FAILED(hr))
+    {
+        goto done;
+    }
+
+    DWORD cProps;
+
+    hr = pProps->GetCount(&amp;cProps);
+    if (FAILED(hr))
+    {
+        goto done;
+    }
+
+    for (DWORD i = 0; i < cProps; i++)
+    {
+        PROPERTYKEY key;
+        hr = pProps->GetAt(i, &amp;key);
+        if (FAILED(hr))
+        {
+            goto done;
+        }
+
+        PROPVARIANT pv;
+
+        hr = pProps->GetValue(key, &amp;pv);
+        if (FAILED(hr))
+        {
+            goto done;
+        }
+
+        DisplayProperty(key, pv);
+        PropVariantClear(&amp;pv);
+    }
+
+done:
+    SafeRelease(&amp;pProps);
+    return hr;
+}
+```
+
+
+
+For a list of metadata property keys, see [Metadata Properties for Media Files](metadata-properties-for-media-files.md).
+
+## Related topics
+
+<dl> <dt>
+
+[Media Metadata](media-metadata.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+

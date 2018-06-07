@@ -1,0 +1,34 @@
+---
+Description: IP Helper enumeration navigation page.
+ms.assetid: 1c73fe50-8a0d-4462-bf8a-fc53d8153eda
+title: IP Helper Enumerations
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# IP Helper Enumerations
+
+The following enumerations are used with IP Helper:
+
+-   [**IF\_OPER\_STATUS**](/windows/desktop/api/Ifdef/ne-ifdef-if_oper_status)
+-   [**IP\_DAD\_STATE**](/windows/desktop/api/Nldef/ne-nldef-nl_dad_state)
+-   [**IP\_PREFIX\_ORIGIN**](/windows/desktop/api/Nldef/ne-nldef-nl_prefix_origin)
+-   [**IP\_SUFFIX\_ORIGIN**](/windows/desktop/api/Nldef/ne-nldef-nl_suffix_origin)
+-   [**NET\_ADDRESS\_FORMAT**](/windows/desktop/api/Iphlpapi/ne-iphlpapi-net_address_format_)
+-   [**SCOPE\_LEVEL**](/windows/desktop/api/Ws2def/ne-ws2def-scope_level)
+-   [**TCP\_BOOLEAN\_OPTIONAL**](/windows/desktop/api/Tcpestats/ne-tcpestats-_tcp_boolean_optional)
+-   [**TCP\_ESTATS\_TYPE**](/windows/desktop/api/Tcpestats/ne-tcpestats-tcp_estats_type)
+-   [**TCP\_SOFT\_ERROR**](/windows/desktop/api/Tcpestats/ne-tcpestats-tcp_soft_error)
+-   [**TCP\_TABLE\_CLASS**](/windows/desktop/api/Iprtrmib/ne-iprtrmib-_tcp_table_class)
+-   [**TCPIP\_OWNER\_MODULE\_INFO\_CLASS**](/windows/desktop/api/Iprtrmib/ne-iprtrmib-_tcpip_owner_module_info_class)
+-   [**UDP\_TABLE\_CLASS**](/windows/desktop/api/Iprtrmib/ne-iprtrmib-_udp_table_class)
+
+ 
+
+ 
+
+
+

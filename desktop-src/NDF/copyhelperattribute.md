@@ -1,0 +1,104 @@
+---
+title: CopyHelperAttribute function
+description: Creates a copy of a HELPER\_ATTRIBUTE structure.
+ms.assetid: ff49be29-4cd8-4730-929f-c66a7325704f
+keywords:
+- CopyHelperAttribute function NDF
+topic_type:
+- apiref
+api_name:
+- CopyHelperAttribute
+api_location:
+- ndattributils.h
+api_type:
+- HeaderDef
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# CopyHelperAttribute function
+
+The **CopyHelperAttribute** function creates a copy of a [**HELPER\_ATTRIBUTE**](/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute) structure.
+
+## Syntax
+
+
+```C++
+HRESULT CopyHelperAttribute(
+  _Out_       HELPER_ATTRIBUTE *Dest,
+  _In_  const HELPER_ATTRIBUTE *Source
+);
+```
+
+
+
+## Parameters
+
+<dl> <dt>
+
+*Dest* \[out\]
+</dt> <dd>
+
+Type: **[**HELPER\_ATTRIBUTE**](/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute)\***
+
+The structure to be updated.
+
+</dd> <dt>
+
+*Source* \[in\]
+</dt> <dd>
+
+Type: **const [**HELPER\_ATTRIBUTE**](/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute)\***
+
+The existing structure to be copied.
+
+</dd> </dl>
+
+## Return value
+
+Type: **HRESULT**
+
+Possible return values include, but are not limited to, the following.
+
+
+
+| Return code                                                                                   | Description                                                                 |
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| <dl> <dt>**S\_OK**</dt> </dl>          | The operation succeeded.<br/>                                         |
+| <dl> <dt>**E\_INVALIDARG**</dt> </dl>  | One or more parameters has not been provided correctly.<br/>          |
+| <dl> <dt>**E\_OUTOFMEMORY**</dt> </dl> | There is not enough memory available to complete this operation.<br/> |
+
+
+
+ 
+
+## Requirements
+
+
+
+|                                     |                                                                                            |
+|-------------------------------------|--------------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |
+| Header<br/>                   | <dl> <dt>Ndattributils.h</dt> </dl> |
+
+
+
+## See also
+
+<dl> <dt>
+
+[**HELPER\_ATTRIBUTE**](/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

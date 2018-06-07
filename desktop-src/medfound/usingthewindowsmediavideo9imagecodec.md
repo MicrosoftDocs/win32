@@ -1,0 +1,42 @@
+---
+Description: Using the Windows Media Video 9.1 Image Category
+ms.assetid: b77e955b-767b-4b64-9421-bacac9edf09c
+title: Using the Windows Media Video 9.1 Image Category
+ms.technology: desktop
+ms.prod: windows
+ms.author: windowssdkdev
+ms.topic: article
+ms.date: 05/31/2018
+---
+
+# Using the Windows Media Video 9.1 Image Category
+
+The Windows Media Video 9.1 Image category is different from the other output categories supported by the Windows Media Video 9 encoder and decoder. Instead of processing uncompressed video, it takes special input samples that consist of structured transformation data and, occasionally, RGB bitmap images on which the transformations are performed.
+
+The encoded Windows Media Video 9.1 Image content is virtually identical to regular Windows Media Video 9 encoded content, but it is identified by its own FOURCC ("WMVP").
+
+The encoder output type for video image is set in exactly the same way as standard Windows Media video, except that the subtype and compression values must be set to the video image identifiers. This includes the need to obtain codec private data and append it to the [**VIDEOINFOHEADER**](https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932) structure. For more information, see [Configuring Video Encoding](configuringvideoencoding.md).
+
+The input type configuration for video image is also very similar to input configuration for the other video encoders. You can retrieve a partially completed [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/c545ddf7-9797-45ab-a42a-d8550b598e98) from the encoder by calling [**IMediaObject::GetInputType**](https://msdn.microsoft.com/22693a22-97be-487d-ad17-31a2d8ee874c), or if you are using the Media Foundation SDK, by calling [**IMFTransform::GetInputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputavailabletype) and retrieving the **DMO\_MEDIA\_TYPE** by using [**MFCreateAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype). You then set the frame size and the [**VIDEOINFOHEADER**](https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932) format structure, just as you would for standard video. As with the output type, you need to ensure that the subtype and compression values are set appropriately.
+
+## Creating Input Samples
+
+The input samples for the video image codec are structured. The definition of the structure and constants used for video image are not included with the Windows Media Audio and Video codec interfaces. These definitions are included in the Windows Media Format SDK, and their use is fully explained in the Windows Media Format SDK documentation.
+
+## Decoding
+
+There are no special requirements for decoding screen capture video. Other than a different subtype (MEDIASUBTYPE\_WMVP) used for decoder input, the compressed video image stream is essentially identical to a standard Windows Media Video stream.
+
+## Related topics
+
+<dl> <dt>
+
+[Working with Video](workingwithvideo.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
