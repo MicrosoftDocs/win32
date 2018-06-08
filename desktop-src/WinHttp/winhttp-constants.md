@@ -32,7 +32,7 @@ Constants and corresponding values that indicate HTTP status codes returned by s
 [**Option Flags**](option-flags.md)
 </dt> <dd>
 
-Option flags supported by [**WinHttpQueryOption**](winhttpqueryoption.md) and [**WinHttpSetOption**](winhttpsetoption.md). All valid option flags have a value greater than or equal to WINHTTP\_FIRST\_OPTION and less than or equal to WINHTTP\_LAST\_OPTION.
+Option flags supported by [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) and [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption). All valid option flags have a value greater than or equal to WINHTTP\_FIRST\_OPTION and less than or equal to WINHTTP\_LAST\_OPTION.
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ Internet schemes supported by WinHTTP.
 [**Query Info Flags**](query-info-flags.md)
 </dt> <dd>
 
-Attributes and modifiers used by [**WinHttpQueryHeaders**](winhttpqueryheaders.md).
+Attributes and modifiers used by [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders).
 
 </dd> </dl>
 

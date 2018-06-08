@@ -21,7 +21,7 @@ There are two ways to access HTTP and Secure Hypertext Transfer Protocol (HTTPS)
 
 You can programmatically set the proxy data from within your application or script. If you are writing an application using the WinHTTP API, use one of the following two techniques to change proxy settings.
 
--   Use the [**WinHttpOpen**](winhttpopen.md) function. Specify access type in the second parameter, the name of the proxy in the third parameter, and a bypass list in the fourth parameter. The following example shows how the [**WinHttpOpen**](winhttpopen.md) function can be used to set proxy data.
+-   Use the [**WinHttpOpen**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopen) function. Specify access type in the second parameter, the name of the proxy in the third parameter, and a bypass list in the fourth parameter. The following example shows how the [**WinHttpOpen**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopen) function can be used to set proxy data.
 
     ``` syntax
     hSession = WinHttpOpen( L"WinHTTP Example/1.0",  
@@ -31,7 +31,7 @@ You can programmatically set the proxy data from within your application or scri
                             0);
     ```
 
--   Use the [**WinHttpSetOption**](winhttpsetoption.md) function. The [**WINHTTP\_OPTION\_PROXY**](option-flags.md#winhttp-option-proxy) flag enables you to specify proxy settings with a [**WINHTTP\_PROXY\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_3) structure. The following example code shows how the [**WinHttpSetOption**](winhttpsetoption.md) function can be used to set proxy data.
+-   Use the [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) function. The [**WINHTTP\_OPTION\_PROXY**](option-flags.md) flag enables you to specify proxy settings with a [**WINHTTP\_PROXY\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_3) structure. The following example code shows how the [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) function can be used to set proxy data.
 
     ``` syntax
     WINHTTP_PROXY_INFO proxyInfo;
@@ -56,7 +56,7 @@ If you are writing a script or an application using the [**WinHttpRequest**](win
                          "*.microsoft.com");
     ```
 
-To specify default settings and eliminate the need to use either the [**SetProxy**](iwinhttprequest-setproxy.md) method or the [**WinHttpSetOption**](winhttpsetoption.md) function, use the proxy configuration utility. Using this utility, you can specify that your application access a network either directly, through a proxy, or through a combination of direct and proxy access by specifying a bypass list. When you use the WinHTTP API, the proxy configuration tool only determines the settings when you pass the **WINHTTP\_ACCESS\_TYPE\_DEFAULT** flag to the [**WinHttpOpen**](winhttpopen.md) API. The [**WinHttpRequest**](winhttprequest.md) object uses the proxy configuration tool settings by default.
+To specify default settings and eliminate the need to use either the [**SetProxy**](iwinhttprequest-setproxy.md) method or the [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) function, use the proxy configuration utility. Using this utility, you can specify that your application access a network either directly, through a proxy, or through a combination of direct and proxy access by specifying a bypass list. When you use the WinHTTP API, the proxy configuration tool only determines the settings when you pass the **WINHTTP\_ACCESS\_TYPE\_DEFAULT** flag to the [**WinHttpOpen**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopen) API. The [**WinHttpRequest**](winhttprequest.md) object uses the proxy configuration tool settings by default.
 
 The proxy settings for WinHTTP are not the proxy settings for Microsoft Internet Explorer. You cannot configure the proxy settings for WinHTTP in the Microsoft Windows Control Panel. Using the WinHTTP proxy configuration utility does not alter the settings you use for Internet Explorer.
 
@@ -129,7 +129,7 @@ Deleting the *WinHttpSettings* value removes all proxy configurations.
 
 The proxy configuration utility sets the default authentication policy. Because you should not perform NTLM authentication with untrusted hosts, by default, NTLM authentication only occurs automatically with hosts on the proxy bypass list. If there is no proxy, you can still use ProxyCfg.exe to specify a bypass list of hosts that you trust to perform NTLM authentication. A proxy name is required when using ProxyCfg.exe for this purpose, but you can use any valid string in place of a real proxy name.
 
-For more information about the auto-logon policy, see [Automatic Logon Policy](authentication-in-winhttp.md#automatic-logon-policy).
+For more information about the auto-logon policy, see [Automatic Logon Policy](authentication-in-winhttp.md).
 
  
 

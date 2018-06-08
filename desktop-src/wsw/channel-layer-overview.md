@@ -397,7 +397,7 @@ There are a number of limitations with the UDP binding:
 
 The [**WS\_HTTP\_CHANNEL\_BINDING**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding) supports SOAP over HTTP.
 
-To control HTTP specific headers on the client and server, see [**WS\_HTTP\_MESSAGE\_MAPPING**](ws-http-message-mapping.md).
+To control HTTP specific headers on the client and server, see [**WS\_HTTP\_MESSAGE\_MAPPING**](/windows/desktop/api/WebServices/ns-webservices-_ws_http_message_mapping).
 
 To send and receive non-SOAP messages on the server, use [**WS\_ENCODING\_RAW**](/windows/desktop/api/WebServices/ne-webservices-ws_encoding) for [**WS\_CHANNEL\_PROPERTY\_ENCODING**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_property_id).
 

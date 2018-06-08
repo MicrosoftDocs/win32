@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IWinHttpRequest::SetAutoLogonPolicy method
 
-The **SetAutoLogonPolicy** method sets the current [Automatic Logon Policy](authentication-in-winhttp.md#automatic-logon-policy).
+The **SetAutoLogonPolicy** method sets the current [Automatic Logon Policy](authentication-in-winhttp.md).
 
 ## Syntax
 
@@ -41,7 +41,7 @@ The return value is **S\_OK** on success or an error value otherwise.
 
 ## Remarks
 
-The default policy is [**AutoLogonPolicy\_OnlyIfBypassProxy**](winhttprequestautologonpolicy.md#autologonpolicy-onlyifbypassproxy).
+The default policy is [**AutoLogonPolicy\_OnlyIfBypassProxy**](winhttprequestautologonpolicy.md).
 
 Call **SetAutoLogonPolicy** to set the automatic logon policy before calling [**Send**](iwinhttprequest-send.md) to send the request.
 

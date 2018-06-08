@@ -57,10 +57,10 @@ The server context for this server. Enter one of the following values for the CL
 
 | CLSID KEY                             | Description                                                               |
 |---------------------------------------|---------------------------------------------------------------------------|
-| [LocalServer](6eadadd5-f4d3-4e0d-9491-2ea366861aa7)       | Specifies the full path to a 16-bit local server application.             |
-| [LocalServer32](5d922230-f53d-4bf9-be50-c8c00f45b7a8)   | Specifies the full path to a 32-bit local server application.             |
-| [InprocServer](f14cc8f7-e93e-4db8-8b0d-ea77a6301f33)     | Specifies the path to an in-process server DLL.                           |
-| [InprocServer32](4edbbd9d-7ea1-4476-aee7-eaf30e54db8d) | Specifies the path to a 32-bit in-process server and the threading model. |
+| [LocalServer](https://msdn.microsoft.com/windows/desktop/6eadadd5-f4d3-4e0d-9491-2ea366861aa7)       | Specifies the full path to a 16-bit local server application.             |
+| [LocalServer32](https://msdn.microsoft.com/windows/desktop/5d922230-f53d-4bf9-be50-c8c00f45b7a8)   | Specifies the full path to a 32-bit local server application.             |
+| [InprocServer](https://msdn.microsoft.com/windows/desktop/f14cc8f7-e93e-4db8-8b0d-ea77a6301f33)     | Specifies the path to an in-process server DLL.                           |
+| [InprocServer32](https://msdn.microsoft.com/windows/desktop/4edbbd9d-7ea1-4476-aee7-eaf30e54db8d) | Specifies the path to a 32-bit in-process server and the threading model. |
 
 
 
@@ -101,7 +101,7 @@ Application ID containing DCOM information for the associated application (strin
 
 Contains information for the HKCR (this CLSID) key.
 
-If multiple patterns exist, they must be delimited by a semicolon, and numeric subkeys are generated: 0, 1, 2... For more information about this functionality, see [**GetClassFile**](dc3cb263-7b9a-45f9-8eab-3a88aa9392db).
+If multiple patterns exist, they must be delimited by a semicolon, and numeric subkeys are generated: 0, 1, 2... For more information about this functionality, see [**GetClassFile**](https://msdn.microsoft.com/windows/desktop/dc3cb263-7b9a-45f9-8eab-3a88aa9392db).
 
 </dd> <dt>
 

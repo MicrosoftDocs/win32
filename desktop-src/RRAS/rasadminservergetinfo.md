@@ -89,7 +89,7 @@ To enumerate all RAS servers in a domain, call the [**NetServerEnum**](https://m
 [RAS Server Administration Functions](ras-server-administration-functions.md)
 </dt> <dt>
 
-[**NetServerEnum**](10012a87-805e-4817-9f09-9e5632b1fa09)
+[**NetServerEnum**](https://msdn.microsoft.com/windows/desktop/10012a87-805e-4817-9f09-9e5632b1fa09)
 </dt> <dt>
 
 [**RAS\_SERVER\_0**](ras-server-0-str.md)

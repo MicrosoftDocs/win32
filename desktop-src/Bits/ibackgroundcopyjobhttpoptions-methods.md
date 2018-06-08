@@ -11,18 +11,18 @@ ms.date: 05/31/2018
 
 # IBackgroundCopyJobHttpOptions Methods
 
-The [**IBackgroundCopyJobHttpOptions**](ibackgroundcopyjobhttpoptions.md) interface exposes the following methods.
+The [**IBackgroundCopyJobHttpOptions**](/windows/desktop/api/Bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions) interface exposes the following methods.
 
 ## In this section
 
--   [**GetClientCertificate Method**](ibackgroundcopyjobhttpoptions-getclientcertificate.md)
--   [**GetCustomHeaders Method**](ibackgroundcopyjobhttpoptions-getcustomheaders.md)
--   [**GetSecurityFlags Method**](ibackgroundcopyjobhttpoptions-getsecurityflags.md)
--   [**RemoveClientCertificate Method**](ibackgroundcopyjobhttpoptions-removeclientcertificate.md)
--   [**SetClientCertificateByID Method**](ibackgroundcopyjobhttpoptions-setclientcertificatebyid.md)
--   [**SetClientCertificateByName Method**](ibackgroundcopyjobhttpoptions-setclientcertificatebyname.md)
--   [**SetCustomHeaders Method**](ibackgroundcopyjobhttpoptions-setcustomheaders.md)
--   [**SetSecurityFlags Method**](ibackgroundcopyjobhttpoptions-setsecurityflags.md)
+-   [**GetClientCertificate Method**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getclientcertificate)
+-   [**GetCustomHeaders Method**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getcustomheaders)
+-   [**GetSecurityFlags Method**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getsecurityflags)
+-   [**RemoveClientCertificate Method**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-removeclientcertificate)
+-   [**SetClientCertificateByID Method**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid)
+-   [**SetClientCertificateByName Method**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyname)
+-   [**SetCustomHeaders Method**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setcustomheaders)
+-   [**SetSecurityFlags Method**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags)
 
  
 

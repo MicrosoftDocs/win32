@@ -23,7 +23,7 @@ The following procedure describes how to create a WMI application.
 
 1.  [Initialize COM](initializing-com-for-a-wmi-application.md).
 
-    Because WMI is based on COM technology, you must perform calls to the [**CoInitializeEx**](ffb79c0f-aeda-4ea1-aea8-afb79109837f) and [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f) functions to access WMI.
+    Because WMI is based on COM technology, you must perform calls to the [**CoInitializeEx**](https://msdn.microsoft.com/windows/desktop/ffb79c0f-aeda-4ea1-aea8-afb79109837f) and [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f) functions to access WMI.
 
 2.  [Create a connection to a WMI namespace](creating-a-connection-to-a-wmi-namespace.md).
 

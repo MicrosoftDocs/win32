@@ -97,7 +97,7 @@ The next line of the script calls the [**Open**](iwinhttprequest-open.md) method
 
 
 
-Three parameters specify which [*HTTP verb*](glossary.md#term-http-verb) to use, the name of the resource, and whether to use WinHTTP synchronously or asynchronously. In this example, the method is using the *HTTP verb*"GET" to obtain data from http://www.microsoft.com. Specifying **FALSE** for the last parameter determines that the transaction occurs synchronously. The [**Open**](iwinhttprequest-open.md) method does not establish a connection to the resource as the name might imply. Rather, it initializes the internal data structures that maintain information about the session, connection, and request.
+Three parameters specify which [*HTTP verb*](glossary.md) to use, the name of the resource, and whether to use WinHTTP synchronously or asynchronously. In this example, the method is using the *HTTP verb*"GET" to obtain data from http://www.microsoft.com. Specifying **FALSE** for the last parameter determines that the transaction occurs synchronously. The [**Open**](iwinhttprequest-open.md) method does not establish a connection to the resource as the name might imply. Rather, it initializes the internal data structures that maintain information about the session, connection, and request.
 
 The [**Send**](iwinhttprequest-send.md) method assembles the request headers and sends the request. When called in synchronous mode, the [**Send**](iwinhttprequest-send.md) method also waits for a response before allowing the application to continue.
 

@@ -51,7 +51,7 @@ Fully qualified URL for a file with a .txt file name extension that Windows Medi
 <span id="CodeURL__required_"></span><span id="codeurl__required_"></span><span id="CODEURL__REQUIRED_"></span>**CodeURL** (required)
 </dt> <dd>
 
-Fully qualified URL for a package, with a .cab file name extension, that is used to install the online store. The package and all code modules in the package must be signed. For information about code signing, see [Introduction to Code Signing](d25c47eb-6979-42bd-88d2-b3a75d88aeaa) in the MSDN Library.
+Fully qualified URL for a package, with a .cab file name extension, that is used to install the online store. The package and all code modules in the package must be signed. For information about code signing, see [Introduction to Code Signing](https://msdn.microsoft.com/windows/desktop/d25c47eb-6979-42bd-88d2-b3a75d88aeaa) in the MSDN Library.
 
 </dd> <dt>
 

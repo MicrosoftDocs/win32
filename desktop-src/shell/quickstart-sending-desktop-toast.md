@@ -108,7 +108,7 @@ Bring your app's window to the foreground if it receives an "activated" callback
 [Quickstart: Sending a toast push notification](https://www.bing.com/search?q=Quickstart:+Sending+a+toast+push+notification)
 </dt> <dt>
 
-[Guidelines and checklist for toast notifications](002951E3-3D2D-454A-A0B7-DAA5C1E7178A)
+[Guidelines and checklist for toast notifications](https://msdn.microsoft.com/windows/desktop/002951E3-3D2D-454A-A0B7-DAA5C1E7178A)
 </dt> <dt>
 
 [How to add images to a toast template](https://www.bing.com/search?q=How+to+add+images+to+a+toast+template)
@@ -117,7 +117,7 @@ Bring your app's window to the foreground if it receives an "activated" callback
 [How to check toast notification settings](https://www.bing.com/search?q=How+to+check+toast+notification+settings)
 </dt> <dt>
 
-[How to choose and use a toast template](098DF37C-4D40-4499-B809-CCB651DA1CBA)
+[How to choose and use a toast template](https://msdn.microsoft.com/windows/desktop/098DF37C-4D40-4499-B809-CCB651DA1CBA)
 </dt> <dt>
 
 [How to handle activation from a toast notification](https://msdn.microsoft.com/74BA3513-0A52-46a0-8769-ED58ABE7C05A)
@@ -126,10 +126,10 @@ Bring your app's window to the foreground if it receives an "activated" callback
 [How to opt in for toast notifications](https://msdn.microsoft.com/809CDD36-6DE1-4de0-88B2-62B46CAFDB28)
 </dt> <dt>
 
-[Choosing a toast template](1A437614-4259-426b-8E3F-CA57368B2E7A)
+[Choosing a toast template](https://msdn.microsoft.com/windows/desktop/1A437614-4259-426b-8E3F-CA57368B2E7A)
 </dt> <dt>
 
-[Toast audio options](12185879-1F9B-4bdc-99E7-A6F2F62806CB)
+[Toast audio options](https://msdn.microsoft.com/windows/desktop/12185879-1F9B-4bdc-99E7-A6F2F62806CB)
 </dt> </dl>
 
  

@@ -192,7 +192,7 @@ The requested resource resides temporarily under a different URI.
 
 
 
-The response to the request can be found under a different URI and should be retrieved using a GET [*HTTP verb*](glossary.md#term-http-verb) on that resource.
+The response to the request can be found under a different URI and should be retrieved using a GET [*HTTP verb*](glossary.md) on that resource.
 
 
 </dt> </dl> </dd> <dt>
@@ -231,7 +231,7 @@ The requested resource must be accessed through the proxy given by the location 
 
 
 
-The redirected request keeps the same [*HTTP verb*](glossary.md#term-http-verb). HTTP/1.1 behavior.
+The redirected request keeps the same [*HTTP verb*](glossary.md). HTTP/1.1 behavior.
 
 
 </dt> </dl> </dd> <dt>
@@ -309,7 +309,7 @@ The server has not found anything that matches the requested URI.
 
 
 
-The [*HTTP verb*](glossary.md#term-http-verb) used is not allowed.
+The [*HTTP verb*](glossary.md) used is not allowed.
 
 
 </dt> </dl> </dd> <dt>

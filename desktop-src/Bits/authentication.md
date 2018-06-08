@@ -21,7 +21,7 @@ Instead of embedding the user name and password in the URL, you should use the [
 
 For [Passport](https://msdn.microsoft.com/library/windows/desktop/aa384067) authentication, BITS supports explicit credentials only, not implicit credentials tied to the account.
 
-For challenge/response authentication, BITS impersonates the user and uses [Snego](2087a84c-d302-4511-9f02-2d20ee9e0d8e) to determine which challenge/response authentication to use, such as NTLM or the Kerberos protocol. For a list of challenge/response schemes that BITS supports, see [**BG\_AUTH\_SCHEME**](/windows/desktop/api/Bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002).
+For challenge/response authentication, BITS impersonates the user and uses [Snego](https://msdn.microsoft.com/windows/desktop/2087a84c-d302-4511-9f02-2d20ee9e0d8e) to determine which challenge/response authentication to use, such as NTLM or the Kerberos protocol. For a list of challenge/response schemes that BITS supports, see [**BG\_AUTH\_SCHEME**](/windows/desktop/api/Bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002).
 
 BITS jobs can fail if the virtual directory on the server has anonymous authentication and another authentication scheme enabled and if ACLs protect the virtual directory or download files. For example, a job fails with "access denied" if the virtual directory has anonymous and integrated authentication enabled and the file contains an ACL that allows only Ben to read the file. This occurs because the virtual directory allows anonymous access, so IIS does not explicitly authenticate Ben (Ben's credentials are not used to access the file and access is denied).
 
@@ -70,7 +70,7 @@ BITS will use the following default values for the **UseLMCompat** registry valu
 
 ## Using certificates for client/server authentication
 
-In secure client/server communication, clients and servers can use digital certificates to mutually authenticate each other. BITS automatically supports certificate-based server authentication for secure HTTP transports. To provide BITS the client certificate needed for mutual authentication, call either the [**IBackgroundCopyJobHttpOptions::SetClientCertificateByID**](ibackgroundcopyjobhttpoptions-setclientcertificatebyid.md) or [**IBackgroundCopyJobHttpOptions::SetClientCertificateByName**](ibackgroundcopyjobhttpoptions-setclientcertificatebyname.md) method.
+In secure client/server communication, clients and servers can use digital certificates to mutually authenticate each other. BITS automatically supports certificate-based server authentication for secure HTTP transports. To provide BITS the client certificate needed for mutual authentication, call either the [**IBackgroundCopyJobHttpOptions::SetClientCertificateByID**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid) or [**IBackgroundCopyJobHttpOptions::SetClientCertificateByName**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyname) method.
 
 When a website accepts but does not require an SSL client certificate, and the BITS job does not specify a client certificate, the job will fail with **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED** (0x80072f0c).
 

@@ -257,7 +257,7 @@ Support for visual styles can be added to an extension, plug-in, MMC snap-in, or
 
     
 
-4.  Add the manifest to your snap-in's resource file. See [Using ComCtl32 Version 6 in an Application That Uses Extensions, Plug-ins, or a DLL That Is Brought into a Process](eb6c2469-25b9-43c4-a6ca-391a7b2859b3) for details on adding a manifest to a resource file.
+4.  Add the manifest to your snap-in's resource file. See [Using ComCtl32 Version 6 in an Application That Uses Extensions, Plug-ins, or a DLL That Is Brought into a Process](https://msdn.microsoft.com/windows/desktop/eb6c2469-25b9-43c4-a6ca-391a7b2859b3) for details on adding a manifest to a resource file.
 
 ## Turning Off Visual Styles
 

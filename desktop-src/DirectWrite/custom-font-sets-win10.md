@@ -68,7 +68,7 @@ This topic focuses on functionality provided by the following APIs: 
 -   [**IDWriteFactory::UnregisterFontFileLoader**](/windows/desktop/api/dwrite/) method 
 -   [**IDWriteFactory5::CreateInMemoryFontFileLoader**](/windows/desktop/api/dwrite_3/) method 
 -   [**IDWriteInMemoryFontFileLoader**](/windows/desktop/api/dwrite_3/) interface 
--   [**IDWriteFactory5::CreateHttpFontFileLoader**](idwritefactory5-createhttpfontfileloader.md) method 
+-   [**IDWriteFactory5::CreateHttpFontFileLoader**](/windows/desktop/api/dwrite_3/) method 
 -   [**IDWriteRemoteFontFileLoader**](/windows/desktop/api/dwrite_3/) interface 
 -   [**IDWriteFontDownloadQueue**](/windows/desktop/api/dwrite_3/) interface 
 -   [**IDWriteFontDownloadListener**](/windows/desktop/api/dwrite_3/) interface 

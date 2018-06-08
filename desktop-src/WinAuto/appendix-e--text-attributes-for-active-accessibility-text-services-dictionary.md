@@ -20,7 +20,7 @@ This appendix provides information about text attributes that are defined in [**
 
 Each entry in a table provides an attribute name and friendly name, type, Cascading Style Sheets (CSS) equivalent, Text Object Model (TOM) equivalent, and any additional comments where appropriate. The TOM equivalent column provides information about the TOM method used with the attribute (part of the [**ITextFont**](https://msdn.microsoft.com/library/windows/desktop/bb774054), [**ITextRange**](https://msdn.microsoft.com/library/windows/desktop/bb774058), or [**ITextPara**](https://msdn.microsoft.com/library/windows/desktop/bb774056) interfaces). The information prior to each table indicates which interface supports the attributes; the information in the TOM equivalent table indicates the name of the method. Each entry in the TOM equivalent column is associated with two methods. For example, the Name entry is associated with the **GetName** and **SetName** methods.
 
-For more information about these interfaces, see the [Text Object Model](a15f0334-1a31-4bc3-bc1e-e5cf53112007) documentation in the Windows Software Development Kit (SDK).
+For more information about these interfaces, see the [Text Object Model](https://msdn.microsoft.com/windows/desktop/a15f0334-1a31-4bc3-bc1e-e5cf53112007) documentation in the Windows Software Development Kit (SDK).
 
 ## Font
 

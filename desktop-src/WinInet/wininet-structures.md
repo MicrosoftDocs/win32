@@ -20,7 +20,7 @@ The following are the WinINet structures.
 [**AUTO\_PROXY\_SCRIPT\_BUFFER**](/windows/desktop/api/Wininet/ns-wininet-auto_proxy_script_buffer)  
 [**GOPHER\_ATTRIBUTE\_TYPE**](/windows/desktop/api/Wininet/ns-wininet-gopher_attribute_type)  
 [**GOPHER\_FIND\_DATA**](/windows/desktop/api/Wininet/ns-wininet-gopher_find_dataa)  
-[**HTTP\_VERSION\_INFO**](http-version-info.md)  
+[**HTTP\_VERSION\_INFO**](/windows/desktop/api/Wininet/ns-wininet-http_version_info)  
 [**INTERNET\_ASYNC\_RESULT**](/windows/desktop/api/Wininet/ns-wininet-internet_async_result)  
 [**INTERNET\_AUTH\_NOTIFY\_DATA**](/windows/desktop/api/Wininet/ns-wininet-__unnamed_struct_4)  
 [**INTERNET\_BUFFERS**](/windows/desktop/api/Wininet/ns-wininet-_internet_buffersa)  

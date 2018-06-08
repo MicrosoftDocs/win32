@@ -25,7 +25,7 @@ The [**IWSManConnectionOptionsEx2**](/windows/desktop/api/WSManDisp/nn-wsmandisp
 -   [**ProxyAutoDetect Method**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxyautodetect)
 -   [**ProxyIEConfig Method**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxyieconfig)
 -   [**ProxyNoProxyServer Method**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxynoproxyserver)
--   [**ProxyWinHttpConfig Method**](iwsmanconnectionoptionsex2-proxywinhttpconfig.md)
+-   [**ProxyWinHttpConfig Method**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-proxywinhttpconfig)
 -   [**SetProxy Method**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanconnectionoptionsex2-setproxy)
 
  

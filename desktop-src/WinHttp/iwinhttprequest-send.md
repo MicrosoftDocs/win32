@@ -41,7 +41,7 @@ The return value is **S\_OK** on success or an error value otherwise.
 
 ## Remarks
 
-The request to be sent was defined in a prior call to the [**Open**](iwinhttprequest-open.md) method. The calling application can provide data to be sent to the server through the *Body* parameter. If the [*HTTP verb*](glossary.md#term-http-verb) of the object's [**Open**](iwinhttprequest-open.md) is "GET", this method sends the request without *Body*, even if it is provided by the calling application.
+The request to be sent was defined in a prior call to the [**Open**](iwinhttprequest-open.md) method. The calling application can provide data to be sent to the server through the *Body* parameter. If the [*HTTP verb*](glossary.md) of the object's [**Open**](iwinhttprequest-open.md) is "GET", this method sends the request without *Body*, even if it is provided by the calling application.
 
 > [!Note]  
 > For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.

@@ -73,7 +73,7 @@ BITS version 4.0 is included in the Windows Server 2008 R2 and Windows 7 operati
 <li>Added [Peer Caching](peer-caching.md) which lets you download content from peers and also serve content to peers in a domain network.</li>
 <li>Added [notification](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred) for when a file is downloaded.</li>
 <li>Added access to the [temporary file](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-gettemporaryname) while the download is in progress.</li>
-<li>Added the ability to control HTTP [redirects](ibackgroundcopyjobhttpoptions-setsecurityflags.md).</li>
+<li>Added the ability to control HTTP [redirects](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags).</li>
 <li>Added more [group policies](group-policies.md) to control peer caching and limit download times.</li>
 <li>Added diagnostic and troubleshooting events to the system event log.</li>
 <li>Added support for [User Account Control](user-account-control-and-bits.md) (UAC).</li>
@@ -137,7 +137,7 @@ The following interfaces were added for this version:
 -   [**IEnumBitsPeerCacheRecords**](/windows/desktop/api/Bits3_0/nn-bits3_0-ienumbitspeercacherecords)
 -   [**IEnumBitsPeers**](/windows/desktop/api/Bits3_0/nn-bits3_0-ienumbitspeers)
 
-The following constants were added to use with the [**IBackgroundCopyJobHttpOptions::SetSecurityFlags**](ibackgroundcopyjobhttpoptions-setsecurityflags.md) method:
+The following constants were added to use with the [**IBackgroundCopyJobHttpOptions::SetSecurityFlags**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags) method:
 
 -   **BG\_HTTP\_REDIRECT\_POLICY\_ALLOW\_SILENT**
 -   **BG\_HTTP\_REDIRECT\_POLICY\_ALLOW\_REPORT**
@@ -149,7 +149,7 @@ The following constants were added to use with the [**IBackgroundCopyJobHttpOpti
 
 The following interface and enumeration were added for version 2.5:
 
--   [**IBackgroundCopyJobHttpOptions**](ibackgroundcopyjobhttpoptions.md)
+-   [**IBackgroundCopyJobHttpOptions**](/windows/desktop/api/Bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions)
 -   [**BG\_CERT\_STORE\_LOCATION**](/windows/desktop/api/Bits2_5/ne-bits2_5-__midl_ibackgroundcopyjobhttpoptions_0001)
 
 ## Version 2.0

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Option Flags
 
-The following option flags are supported by [**WinHttpQueryOption**](winhttpqueryoption.md) and [**WinHttpSetOption**](winhttpsetoption.md).
+The following option flags are supported by [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) and [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption).
 
 <dl> <dt>
 
@@ -42,7 +42,7 @@ The client application must take special care to perform minimal operations with
 
 
 
-Sets an unsigned long integer value that specifies the [Automatic Logon Policy](authentication-in-winhttp.md#automatic-logon-policy) with one of the following values.
+Sets an unsigned long integer value that specifies the [Automatic Logon Policy](authentication-in-winhttp.md) with one of the following values.
 
 <dl> <dt>
 
@@ -74,7 +74,7 @@ An authenticated log on using the default credentials is performed only for requ
 
 
 
-Retrieves the pointer to the callback function set with [**WinHttpSetStatusCallback**](winhttpsetstatuscallback.md).
+Retrieves the pointer to the callback function set with [**WinHttpSetStatusCallback**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetstatuscallback).
 
 
 </dt> </dl> </dd> <dt>
@@ -84,14 +84,14 @@ Retrieves the pointer to the callback function set with [**WinHttpSetStatusCallb
 
 
 
-Sets the client certificate context. If an application receives [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](error-messages.md#error-winhttp-client-auth-cert-needed), it must call [**WinHttpSetOption**](winhttpsetoption.md) to supply a certificate before retrying the request. As a part of processing this option, WinHttp calls [**CertDuplicateCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376045) on the caller-provided certificate context so that the certificate context can be independently released by the caller.
+Sets the client certificate context. If an application receives [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](error-messages.md), it must call [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) to supply a certificate before retrying the request. As a part of processing this option, WinHttp calls [**CertDuplicateCertificateContext**](https://msdn.microsoft.com/library/windows/desktop/aa376045) on the caller-provided certificate context so that the certificate context can be independently released by the caller.
 
 > [!Note]  
 > The application should not attempt to close the certificate store with the CERT\_CLOSE\_STORE\_FORCE\_FLAG flag in the call to [**CertCloseStore**](https://msdn.microsoft.com/library/windows/desktop/aa376026) on the certificate store from which the certificate context was retrieved. An access violation may occur.
 
  
 
-When the server requests a client certificate, [**WinHttpSendRequest**](winhttpsendrequest.md), or [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) returns an [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](error-messages.md#error-winhttp-client-auth-cert-needed) error. If the server requests the certificate but does not require it, the application can specify this option to indicate that it does not have a certificate. The server can choose another authentication scheme or allow anonymous access to the server. The application provides the **WINHTTP\_NO\_CLIENT\_CERT\_CONTEXT** macro in the *lpBuffer* parameter of [**WinHttpSetOption**](winhttpsetoption.md) as shown in the following code example.
+When the server requests a client certificate, [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest), or [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) returns an [**ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**](error-messages.md) error. If the server requests the certificate but does not require it, the application can specify this option to indicate that it does not have a certificate. The server can choose another authentication scheme or allow anonymous access to the server. The application provides the **WINHTTP\_NO\_CLIENT\_CERT\_CONTEXT** macro in the *lpBuffer* parameter of [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) as shown in the following code example.
 
 ``` syntax
 BOOL fRet = WinHttpSetOption ( hRequest,
@@ -115,9 +115,9 @@ If the server requires a client certificate, it may send a 403 HTTP status code 
 
 
 
-Retrieves a [**SecPkgContext\_IssuerListInfoEx**](https://msdn.microsoft.com/library/windows/desktop/aa380078) structure when the error from [**WinHttpSendRequest**](winhttpsendrequest.md) or [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) is **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**. The issuer list in the structure contains a list of acceptable Certificate Authorities (CA) from the server. The client application can filter the CA list to retrieve the client certificate for SSL authentication.
+Retrieves a [**SecPkgContext\_IssuerListInfoEx**](https://msdn.microsoft.com/library/windows/desktop/aa380078) structure when the error from [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest) or [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) is **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**. The issuer list in the structure contains a list of acceptable Certificate Authorities (CA) from the server. The client application can filter the CA list to retrieve the client certificate for SSL authentication.
 
-Alternately, if the server requests the client certificate, but does not require it, the application can call [**WinHttpSetOption**](winhttpsetoption.md) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option.
+Alternately, if the server requests the client certificate, but does not require it, the application can call [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option.
 
 > [!Note]  
 > This flag is available for Windows Vista and later.
@@ -203,7 +203,7 @@ If a TCP connection request takes longer than this time-out value, the request i
 
 
 
-Retrieves the source and destination IP address, and port of the request that generated the response when [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) returns. The application calls [**WinHttpQueryOption**](winhttpqueryoption.md) with the **WINHTTP\_OPTION\_CONNECTION\_INFO** option, and provides the [**WINHTTP\_CONNECTION\_INFO**](winhttp-connection-info.md) structure in the *lpBuffer* parameter. For more information, see **WINHTTP\_CONNECTION\_INFO**.
+Retrieves the source and destination IP address, and port of the request that generated the response when [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) returns. The application calls [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) with the **WINHTTP\_OPTION\_CONNECTION\_INFO** option, and provides the [**WINHTTP\_CONNECTION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_connection_info) structure in the *lpBuffer* parameter. For more information, see **WINHTTP\_CONNECTION\_INFO**.
 
 **Windows Server 2003 with SP1 and Windows XP with SP2:** This flag is obsolete.
 
@@ -250,7 +250,7 @@ By default, WinHTTP will deliver compressed responses to the caller unmodified. 
 
 
 
-Sets an unsigned long integer value that specifies which features are disabled with one or more of the following flags. Be aware that this feature should only be passed to [**WinHttpSetOption**](winhttpsetoption.md) on request handles after the request handle is created with [**WinHttpOpenRequest**](winhttpopenrequest.md), and before the request is sent with [**WinHttpSendRequest**](winhttpsendrequest.md).
+Sets an unsigned long integer value that specifies which features are disabled with one or more of the following flags. Be aware that this feature should only be passed to [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) on request handles after the request handle is created with [**WinHttpOpenRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopenrequest), and before the request is sent with [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest).
 
 <dl> <dt>
 
@@ -278,7 +278,7 @@ Disables keep-alive semantics for the connection. Keep-alive semantics are requi
 <span id="WINHTTP_DISABLE_REDIRECTS"></span><span id="winhttp_disable_redirects"></span>WINHTTP\_DISABLE\_REDIRECTS
 </dt> <dd>
 
-Automatic redirection is disabled when sending requests with [**WinHttpSendRequest**](winhttpsendrequest.md). If automatic redirection is disabled, an application must register a callback function in order for Passport authentication to succeed.
+Automatic redirection is disabled when sending requests with [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest). If automatic redirection is disabled, an application must register a callback function in order for Passport authentication to succeed.
 
 </dd> </dl>
 
@@ -344,7 +344,7 @@ Retrieves an unsigned long integer value that contains a Microsoft Windows Socke
 
 
 
-Takes a pointer to a [**WINHTTP\_CREDS\_EX**](winhttp-creds-ex.md) structure with the *hInternet* function parameter set to **NULL**. This option requires registry key **HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings!ShareCredsWithWinHttp**. If this registry key is not set WinHTTP will return error **ERROR\_WINHTTP\_INVALID\_OPTION**. This registry key is not present by default. When it is set, WinINet will send credentials down to WinHTTP. Whenever WinHttp gets an authentication challenge and if there are no credentials set on the current handle, it will use the credentials provided by WinINet. In order to share server credentials in addition to proxy credentials, users needs to set **WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS** .
+Takes a pointer to a [**WINHTTP\_CREDS\_EX**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds_ex) structure with the *hInternet* function parameter set to **NULL**. This option requires registry key **HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings!ShareCredsWithWinHttp**. If this registry key is not set WinHTTP will return error **ERROR\_WINHTTP\_INVALID\_OPTION**. This registry key is not present by default. When it is set, WinINet will send credentials down to WinHTTP. Whenever WinHttp gets an authentication challenge and if there are no credentials set on the current handle, it will use the credentials provided by WinINet. In order to share server credentials in addition to proxy credentials, users needs to set **WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS** .
 
 
 </dt> </dl> </dd> <dt>
@@ -354,7 +354,7 @@ Takes a pointer to a [**WINHTTP\_CREDS\_EX**](winhttp-creds-ex.md) structure wit
 
 
 
-Takes a pointer to a [**WINHTTP\_CREDS\_EX**](winhttp-creds-ex.md) structure with the *hInternet* function parameter set to **NULL**. This option requires registry key **HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings!ShareCredsWithWinHttp**. If this registry key is not set WinHTTP will return error **ERROR\_WINHTTP\_INVALID\_OPTION**. This registry key is not present by default. When it is set, WinINet will send credentials down to WinHTTP. Whenever WinHttp gets an authentication challenge and if there are no credentials set on the current handle, it will use the credentials provided by WinINet. In order to share server credentials in addition to proxy credentials, users needs to set **WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS** .
+Takes a pointer to a [**WINHTTP\_CREDS\_EX**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds_ex) structure with the *hInternet* function parameter set to **NULL**. This option requires registry key **HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings!ShareCredsWithWinHttp**. If this registry key is not set WinHTTP will return error **ERROR\_WINHTTP\_INVALID\_OPTION**. This registry key is not present by default. When it is set, WinINet will send credentials down to WinHTTP. Whenever WinHttp gets an authentication challenge and if there are no credentials set on the current handle, it will use the credentials provided by WinINet. In order to share server credentials in addition to proxy credentials, users needs to set **WINHTTP\_OPTION\_USE\_GLOBAL\_SERVER\_CREDENTIALS** .
 
 
 </dt> </dl> </dd> <dt>
@@ -410,7 +410,7 @@ Gets a DWORD indicating which advanced HTTP version was used on a given request.
 
 
 
-Sets or retrieves an [**HTTP\_VERSION\_INFO**](http-version-info.md) structure that contains the HTTP version being supported. This is a process-wide option; use **NULL** for the handle.
+Sets or retrieves an [**HTTP\_VERSION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_1) structure that contains the HTTP version being supported. This is a process-wide option; use **NULL** for the handle.
 
 
 </dt> </dl> </dd> <dt>
@@ -624,7 +624,7 @@ Sets whether or not the proxy response entity can be retrieved. This option is d
 
 Sets or retrieves an unsigned long integer value that contains the timeout value, in milliseconds, to wait to receive all response headers to a request. If WinHTTP fails to receive all the headers within this timeout period, the request is canceled. The default timeout value is 90 seconds.
 
-This timeout is checked only when data is received from the socket. As a result, when the timeout expires the client application is not notified until more data arrives from the server. If no data arrives from the server, the delay between the timeout expiration and notification of the client application could be as large as the timeout value set using the *dwReceiveTimeout* parameter of the [**WinHttpSetTimeouts**](winhttpsettimeouts.md) function.
+This timeout is checked only when data is received from the socket. As a result, when the timeout expires the client application is not notified until more data arrives from the server. If no data arrives from the server, the delay between the timeout expiration and notification of the client application could be as large as the timeout value set using the *dwReceiveTimeout* parameter of the [**WinHttpSetTimeouts**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsettimeouts) function.
 
 
 </dt> </dl> </dd> <dt>
@@ -803,28 +803,28 @@ This flag is available in the rollup update for each OS starting with Windows 7 
 <span id="SECURITY_FLAG_SECURE"></span><span id="security_flag_secure"></span>SECURITY\_FLAG\_SECURE
 </dt> <dd>
 
-Uses secure transfers. This is only returned in a call to [**WinHttpQueryOption**](winhttpqueryoption.md).
+Uses secure transfers. This is only returned in a call to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption).
 
 </dd> <dt>
 
 <span id="SECURITY_FLAG_STRENGTH_MEDIUM"></span><span id="security_flag_strength_medium"></span>SECURITY\_FLAG\_STRENGTH\_MEDIUM
 </dt> <dd>
 
-Uses medium (56-bit) encryption. This is only returned in a call to [**WinHttpQueryOption**](winhttpqueryoption.md).
+Uses medium (56-bit) encryption. This is only returned in a call to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption).
 
 </dd> <dt>
 
 <span id="SECURITY_FLAG_STRENGTH_STRONG"></span><span id="security_flag_strength_strong"></span>SECURITY\_FLAG\_STRENGTH\_STRONG
 </dt> <dd>
 
-Uses strong (128-bit) encryption. This is only returned in a call to [**WinHttpQueryOption**](winhttpqueryoption.md).
+Uses strong (128-bit) encryption. This is only returned in a call to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption).
 
 </dd> <dt>
 
 <span id="SECURITY_FLAG_STRENGTH_WEAK"></span><span id="security_flag_strength_weak"></span>SECURITY\_FLAG\_STRENGTH\_WEAK
 </dt> <dd>
 
-Uses weak (40-bit) encryption. This is only returned in a call to [**WinHttpQueryOption**](winhttpqueryoption.md).
+Uses weak (40-bit) encryption. This is only returned in a call to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption).
 
 </dd> </dl>
 
@@ -860,7 +860,7 @@ Gets a pointer to [**SecPkgContext\_Bindings**](https://msdn.microsoft.com/libra
 A Channel Binding Token is a property of a secure transport channel and is used to bind an authentication channel to the secure transport channel. This token can only be obtained by this option after an SSL connection has been established.
 
 > [!Note]  
-> Passing this option and a **null** value for *lpBuffer* to [**WinHttpQueryOption**](winhttpqueryoption.md) will return ERROR\_INSUFFICIENT\_BUFFER and the required byte size for the buffer in the *lpdwBufferLength* parameter. This returned buffer size value can be passed in a subsequent call to query for the Channel Binding Token. These steps are necessary when handling WINHTTP\_CALLBACK\_STATUS\_REQUEST if you want to modify request headers based on the Channel Binding Token. Note that Windows XP and Vista do not support modifying request headers during this callback.
+> Passing this option and a **null** value for *lpBuffer* to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) will return ERROR\_INSUFFICIENT\_BUFFER and the required byte size for the buffer in the *lpdwBufferLength* parameter. This returned buffer size value can be passed in a subsequent call to query for the Channel Binding Token. These steps are necessary when handling WINHTTP\_CALLBACK\_STATUS\_REQUEST if you want to modify request headers based on the Channel Binding Token. Note that Windows XP and Vista do not support modifying request headers during this callback.
 
  
 
@@ -952,7 +952,7 @@ This option is reserved for internal use and should not be called.
 
 
 
-Instructs the stack to start a WebSocket handshake process with [**WinHttpSendRequest**](winhttpsendrequest.md). This option takes no parameters.
+Instructs the stack to start a WebSocket handshake process with [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest). This option takes no parameters.
 
 
 </dt> </dl> </dd> <dt>
@@ -982,7 +982,7 @@ Takes a **BOOL** and can be set only a session handle. It will only propagate do
 
 
 
-Sets or retrieves the [*user agent*](glossary.md) string on handles supplied by [**WinHttpOpen**](winhttpopen.md) and used in subsequent [**WinHttpSendRequest**](winhttpsendrequest.md) functions, as long as it is not overridden by a header added by [**WinHttpAddRequestHeaders**](winhttpaddrequestheaders.md) or **WinHttpSendRequest**. When retrieving a user agent, the application should pass in a buffer, sized in bytes, that is big enough to hold the returned URL in wide char. When setting the user agent, the buffer size is the length of the string, in characters, plus the **NULL** terminator.
+Sets or retrieves the [*user agent*](glossary.md) string on handles supplied by [**WinHttpOpen**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopen) and used in subsequent [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest) functions, as long as it is not overridden by a header added by [**WinHttpAddRequestHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpaddrequestheaders) or **WinHttpSendRequest**. When retrieving a user agent, the application should pass in a buffer, sized in bytes, that is big enough to hold the returned URL in wide char. When setting the user agent, the buffer size is the length of the string, in characters, plus the **NULL** terminator.
 
 
 </dt> </dl> </dd> <dt>
@@ -1002,7 +1002,7 @@ Sets or retrieves a string that contains the user name.
 
 
 
-Sets the time, in milliseconds, that [**WinHttpWebSocketClose**](winhttpwebsocketclose.md) should wait to complete the close handshake. The default is 10 seconds.
+Sets the time, in milliseconds, that [**WinHttpWebSocketClose**](/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose) should wait to complete the close handshake. The default is 10 seconds.
 
 
 </dt> </dl> </dd> <dt>
@@ -1012,7 +1012,7 @@ Sets the time, in milliseconds, that [**WinHttpWebSocketClose**](winhttpwebsocke
 
 
 
-Sets the interval, in milliseconds, to send a keep-alive packet over the connection. The default interval is 30000 (30 seconds). The minimum interval is 15000 (15 seconds). Using [**WinHttpSetOption**](winhttpsetoption.md) to set a value lower than 15000 will return with **ERROR\_INVALID\_PARAMETER**.
+Sets the interval, in milliseconds, to send a keep-alive packet over the connection. The default interval is 30000 (30 seconds). The minimum interval is 15000 (15 seconds). Using [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) to set a value lower than 15000 will return with **ERROR\_INVALID\_PARAMETER**.
 
 > [!Note]  
 > The default value for **WINHTTP\_OPTION\_WEB\_SOCKET\_KEEPALIVE\_INTERVAL** is read from **HKLM:\\SOFTWARE\\Microsoft\\WebSocket\\KeepaliveInterval**. If a value is not set, the default value of 30000 will be used. It is not possible to have a lower keepalive interval than 15000 milliseconds.
@@ -1079,7 +1079,7 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST        | \-             | X              | X            | \-         | [**SecPkgContext\_IssuerListInfoEx**](https://msdn.microsoft.com/library/windows/desktop/aa380078)\* |
 | WINHTTP\_OPTION\_CODEPAGE                          | X              | \-             | \-           | X          | **DWORD**                                                                        |
 | WINHTTP\_OPTION\_CONFIGURE\_PASSPORT\_AUTH         | X              | \-             | \-           | X          | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_CONNECT\_INFO                     | \-             | X              | X            | \-         | [**WINHTTP\_CONNECTION\_INFO**](winhttp-connection-info.md)                     |
+| WINHTTP\_OPTION\_CONNECT\_INFO                     | \-             | X              | X            | \-         | [**WINHTTP\_CONNECTION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_connection_info)                     |
 | WINHTTP\_OPTION\_CONNECT\_RETRIES                  | X              | X              | X            | X          | **DWORD**                                                                        |
 | WINHTTP\_OPTION\_CONNECT\_TIMEOUT                  | X              | X              | X            | X          | **DWORD**                                                                        |
 | WINHTTP\_OPTION\_CONTEXT\_VALUE                    | X              | X              | X            | X          | **DWORD\_PTR**                                                                   |
@@ -1088,10 +1088,10 @@ The following table lists the option flags by specifying which handles they can 
 | WINHTTP\_OPTION\_ENABLE\_HTTP\_PROTOCOL            | X              | X              | \-           | X          | **DWORD**                                                                        |
 | WINHTTP\_OPTION\_ENABLETRACING                     | \-             | \-             | X            | X          | **DWORD**                                                                        |
 | WINHTTP\_OPTION\_EXTENDED\_ERROR                   | X              | X              | X            | \-         | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_GLOBAL\_PROXY\_CREDS              | X              | X              | \-           | X          | [**WINHTTP\_CREDS**](winhttp-creds.md)                                          |
-| WINHTTP\_OPTION\_GLOBAL\_SERVER\_CREDS             | X              | X              | \-           | X          | [**WINHTTP\_CREDS\_EX**](winhttp-creds-ex.md)                                   |
+| WINHTTP\_OPTION\_GLOBAL\_PROXY\_CREDS              | X              | X              | \-           | X          | [**WINHTTP\_CREDS**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds)                                          |
+| WINHTTP\_OPTION\_GLOBAL\_SERVER\_CREDS             | X              | X              | \-           | X          | [**WINHTTP\_CREDS\_EX**](/windows/desktop/api/Winhttp/ns-winhttp-tagwinhttp_creds_ex)                                   |
 | WINHTTP\_OPTION\_HANDLE\_TYPE                      | X              | X              | X            | \-         | **DWORD**                                                                        |
-| WINHTTP\_OPTION\_HTTP\_VERSION                     | X              | X              | X            | X          | [**HTTP\_VERSION\_INFO**](http-version-info.md)                                 |
+| WINHTTP\_OPTION\_HTTP\_VERSION                     | X              | X              | X            | X          | [**HTTP\_VERSION\_INFO**](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_1)                                 |
 | WINHTTP\_OPTION\_HTTP\_PROTOCOL\_USED              | \-             | X              | X            | \-         | **DWORD**                                                                        |
 | WINHTTP\_OPTION\_IS\_PROXY\_CONNECT\_RESPONSE      | X              | X              | X            | \-         | **BOOL**                                                                         |
 | WINHTTP\_OPTION\_MAX\_CONNS\_PER\_1\_0\_SERVER     | X              | \-             | X            | X          | **DWORD**                                                                        |

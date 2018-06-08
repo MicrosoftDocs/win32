@@ -318,7 +318,7 @@ When you use the [**CreateBitmapFromWicBitmap**](/windows/desktop/api/d2d1/) met
 
 ### Supported WIC Formats
 
-When you use the [**CreateBitmapFromWicBitmap**](/windows/desktop/api/d2d1/) method to create a bitmap from a WIC bitmap, or when you use the [**CreateSharedBitmap**](/windows/desktop/api/d2d1/) method with an [**IWICBitmapLock**](c0ddbc25-6abe-484b-a545-3b9376c514df), the WIC source must be in a format supported by Direct2D.
+When you use the [**CreateBitmapFromWicBitmap**](/windows/desktop/api/d2d1/) method to create a bitmap from a WIC bitmap, or when you use the [**CreateSharedBitmap**](/windows/desktop/api/d2d1/) method with an [**IWICBitmapLock**](https://msdn.microsoft.com/windows/desktop/c0ddbc25-6abe-484b-a545-3b9376c514df), the WIC source must be in a format supported by Direct2D.
 
 
 

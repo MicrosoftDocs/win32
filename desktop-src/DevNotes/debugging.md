@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 -   [**SymbolServerGetOptions**](/windows/desktop/api/DbgHelp/nc-dbghelp-psymbolservergetoptionsproc)
 -   [**SymbolServerIsStore**](/windows/desktop/api/DbgHelp/)
 -   [**SymbolServerPingWEx**](/windows/desktop/api/DbgHelp/)
--   [**SymbolServerSetHttpAuthHeader**](symbolserversethttpauthheader-.md)
+-   [**SymbolServerSetHttpAuthHeader**](/windows/desktop/api/DbgHelp/)
 -   [**SymbolServerSetOptions**](/windows/desktop/api/DbgHelp/nc-dbghelp-psymbolserversetoptionsproc)
 -   [**SymbolServerStoreFile**](/windows/desktop/api/DbgHelp/)
 

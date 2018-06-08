@@ -34,7 +34,7 @@ The ProgID of the WinHttpRequest component has changed from "WinHttp.WinHttpRequ
 
 ## Async Callback Behavior Change
 
-When calling the [**WinHttpWriteData**](winhttpwritedata.md), [**WinHttpQueryDataAvailable**](winhttpquerydataavailable.md) and [**WinHttpReadData**](winhttpreaddata.md) functions in asynchronous mode, do not rely on the respective *lpdwNumberOfBytesWritten*, *lpdwNumberOfBytesAvailable*, and *lpdwNumberOfBytesRead* OUT parameters to be set. If the function call completes asynchronously, WinHTTP does not write to these pointers supplied by the application code. Instead, the application should retrieve these values using *lpvStatusInformation* and *dwStatusInformationLength* parameters to the callback function.
+When calling the [**WinHttpWriteData**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpwritedata), [**WinHttpQueryDataAvailable**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpquerydataavailable) and [**WinHttpReadData**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreaddata) functions in asynchronous mode, do not rely on the respective *lpdwNumberOfBytesWritten*, *lpdwNumberOfBytesAvailable*, and *lpdwNumberOfBytesRead* OUT parameters to be set. If the function call completes asynchronously, WinHTTP does not write to these pointers supplied by the application code. Instead, the application should retrieve these values using *lpvStatusInformation* and *dwStatusInformationLength* parameters to the callback function.
 
 ## Changes to Default Settings
 
@@ -60,7 +60,7 @@ WinHTTP 5.1 implements the following new options:
 "\#define WINHTTP\_OPTION\_REDIRECT\_POLICY 88"  
 </dl>
 
-Starting with Windows Server 2003 and Windows XP with SP2, WinHTTP 5.1 implements the following new options. On Windows 2000 Professional with SP3 or Windows XP with SP1, however, calls to [**WinHttpSetOption**](winhttpsetoption.md) or [**WinHttpQueryOption**](winhttpqueryoption.md) with these option IDs fail:
+Starting with Windows Server 2003 and Windows XP with SP2, WinHTTP 5.1 implements the following new options. On Windows 2000 Professional with SP3 or Windows XP with SP1, however, calls to [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) or [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) with these option IDs fail:
 
 <dl> "\#define WINHTTP\_OPTION\_RECEIVE\_RESPONSE\_TIMEOUT 7"  
 "\#define WINHTTP\_OPTION\_MAX\_HTTP\_AUTOMATIC\_REDIRECTS 89"  
@@ -92,14 +92,14 @@ In WinHTTP 5.0, proxy servers are always trusted for auto-logon. This is no long
 
 ## Web Proxy Auto-Discovery (AutoProxy) API
 
-To ease the configuration of proxy settings for WinHTTP-based applications, WinHTTP now implements the Web Proxy Auto-Discovery (WPAD) protocol, also referred to as *autoproxy*. This is the same protocol that web browsers, such as Internet Explorer, implement to discover the proxy configuration automatically without requiring an end-user to specify a proxy server manually. To support autoproxy, WinHTTP 5.1 implements a new C/C++ function, [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md), plus two supporting functions, [**WinHttpDetectAutoProxyConfigUrl**](winhttpdetectautoproxyconfigurl.md) and [**WinHttpGetIEProxyConfigForCurrentUser**](winhttpgetieproxyconfigforcurrentuser.md).
+To ease the configuration of proxy settings for WinHTTP-based applications, WinHTTP now implements the Web Proxy Auto-Discovery (WPAD) protocol, also referred to as *autoproxy*. This is the same protocol that web browsers, such as Internet Explorer, implement to discover the proxy configuration automatically without requiring an end-user to specify a proxy server manually. To support autoproxy, WinHTTP 5.1 implements a new C/C++ function, [**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl), plus two supporting functions, [**WinHttpDetectAutoProxyConfigUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpdetectautoproxyconfigurl) and [**WinHttpGetIEProxyConfigForCurrentUser**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetieproxyconfigforcurrentuser).
 
 ## Known Issues
 
 The following issues are known to exist in WinHTTP 5.1 on Windows 2000 Professional with SP3 and Windows XP with SP1. These issues are resolved for WinHTTP starting with Windows Server 2003 and Windows XP with SP2:
 
--   If the application uses the [**WinHttpSetTimeouts**](winhttpsettimeouts.md) function or the [**SetTimeouts**](iwinhttprequest-settimeouts.md) method on the [**WinHttpRequest**](iwinhttprequest-interface.md) component to set a non-infinite DNS resolve timeout such as the *dwResolveTimeout* parameter, a thread handle leak occurs each time WinHTTP resolves a DNS name. Over a large number of HTTP requests, this causes a significant memory leak. The workaround is to leave the default infinite resolve timeout setting unchanged (a value of 0 specifies an infinite timeout). This is strongly recommended in any case as supporting timeouts on DNS name resolutions in WinHTTP is expensive in terms of performance. For Windows 2000 and later, setting a DNS resolve timeout in WinHTTP is unnecessary as the underlying DNS client service implements its own resolve timeout.
--   When processing asynchronous requests, WinHTTP does not handle thread impersonation properly. This causes requests that require NTLM/Negotiate authentication to fail, unless credentials are explicitly given using the [**WinHttpSetCredentials**](winhttpsetcredentials.md) or [**WinHttpSetOption**](winhttpsetoption.md) functions.
+-   If the application uses the [**WinHttpSetTimeouts**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsettimeouts) function or the [**SetTimeouts**](iwinhttprequest-settimeouts.md) method on the [**WinHttpRequest**](iwinhttprequest-interface.md) component to set a non-infinite DNS resolve timeout such as the *dwResolveTimeout* parameter, a thread handle leak occurs each time WinHTTP resolves a DNS name. Over a large number of HTTP requests, this causes a significant memory leak. The workaround is to leave the default infinite resolve timeout setting unchanged (a value of 0 specifies an infinite timeout). This is strongly recommended in any case as supporting timeouts on DNS name resolutions in WinHTTP is expensive in terms of performance. For Windows 2000 and later, setting a DNS resolve timeout in WinHTTP is unnecessary as the underlying DNS client service implements its own resolve timeout.
+-   When processing asynchronous requests, WinHTTP does not handle thread impersonation properly. This causes requests that require NTLM/Negotiate authentication to fail, unless credentials are explicitly given using the [**WinHttpSetCredentials**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetcredentials) or [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) functions.
 
  
 

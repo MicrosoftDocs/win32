@@ -70,7 +70,7 @@ HRESULT AMethod ([in]DATE dateInParameter,
 
 ## Thread Safety
 
-The Component Object Model (COM) describes the following three threading models. COM applications indicate which model is in use when initializing the COM library using the [**CoInitialize**](0f171cf4-87b9-43a6-97f2-80ed344fe376) and [**CoInitializeEx**](ffb79c0f-aeda-4ea1-aea8-afb79109837f) functions:
+The Component Object Model (COM) describes the following three threading models. COM applications indicate which model is in use when initializing the COM library using the [**CoInitialize**](https://msdn.microsoft.com/windows/desktop/0f171cf4-87b9-43a6-97f2-80ed344fe376) and [**CoInitializeEx**](https://msdn.microsoft.com/windows/desktop/ffb79c0f-aeda-4ea1-aea8-afb79109837f) functions:
 
 -   Single threading. The single threaded model assumes a single thread of execution in a process, further assuming that COM data structures in a process need no access serialization.
 -   Apartment threading. A COM object is associated with the thread that created it. Calls to an object on another thread must be executed by the thread that created that object. To accomplish this, the source thread invokes a client proxy which arranges the method call and delivers it to a server stub function in the destination thread through the Win32 message queue associated with the destination thread.

@@ -280,7 +280,7 @@ For an example of a Windows Forms application that implements lightweight manage
 
 <dl> <dt>
 
-[Declaring Commands and Controls with Ribbon Markup](76bacfb3-ecaf-47b3-be97-afa5e7e52330)
+[Declaring Commands and Controls with Ribbon Markup](https://msdn.microsoft.com/windows/desktop/76bacfb3-ecaf-47b3-be97-afa5e7e52330)
 </dt> <dt>
 
 [Ribbon User Experience Guidelines](http://go.microsoft.com/fwlink/p/?linkid=129233)

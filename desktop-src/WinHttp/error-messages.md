@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Error Messages
 
-The error values listed below are returned by [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails, and are also returned in the lower 16 bits of [**HRESULT**](97e68708-eb62-4481-af03-cf8b80304103) error returns from the [**WinHttpRequest**](winhttprequest.md) object.
+The error values listed below are returned by [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails, and are also returned in the lower 16 bits of [**HRESULT**](https://msdn.microsoft.com/windows/desktop/97e68708-eb62-4481-af03-cf8b80304103) error returns from the [**WinHttpRequest**](winhttprequest.md) object.
 
 Error values whose names begin with "ERROR\_WINHTTP\_" are specific to the WinHTTP functions. The WinHTTP functions also return Windows error messages where appropriate.
 
@@ -25,7 +25,7 @@ Error values whose names begin with "ERROR\_WINHTTP\_" are specific to the WinHT
 
 
 
-Returned by [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md) when a proxy for the specified URL cannot be located.
+Returned by [**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl) when a proxy for the specified URL cannot be located.
 
 
 </dt> </dl> </dd> <dt>
@@ -38,7 +38,7 @@ Returned by [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md) when a proxy f
 
 
 
-Returned by [**WinHttpDetectAutoProxyConfigUrl**](winhttpdetectautoproxyconfigurl.md) if WinHTTP was unable to discover the URL of the Proxy Auto-Configuration (PAC) file.
+Returned by [**WinHttpDetectAutoProxyConfigUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpdetectautoproxyconfigurl) if WinHTTP was unable to discover the URL of the Proxy Auto-Configuration (PAC) file.
 
 
 </dt> </dl> </dd> <dt>
@@ -126,9 +126,9 @@ Returned if connection to the server failed.
 
 
 
-The server requires SSL client Authentication. The application retrieves the list of certificate issuers by calling [**WinHttpQueryOption**](winhttpqueryoption.md) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option.
+The server requires SSL client Authentication. The application retrieves the list of certificate issuers by calling [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option.
 
-If the server requests the client certificate, but does not require it, the application can alternately call [**WinHttpSetOption**](winhttpsetoption.md) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option. In this case, the application specifies the WINHTTP\_NO\_CLIENT\_CERT\_CONTEXT macro in the *lpBuffer* parameter of **WinHttpSetOption**. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option.
+If the server requests the client certificate, but does not require it, the application can alternately call [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option. In this case, the application specifies the WINHTTP\_NO\_CLIENT\_CERT\_CONTEXT macro in the *lpBuffer* parameter of **WinHttpSetOption**. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option.
 
 **Windows Server 2003 with SP1 and Windows XP with SP2:** This error is not supported.
 
@@ -167,7 +167,7 @@ The context for the SSL client certificate does not have a private key associate
 
 
 
-Returned by [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) when an overflow condition is encountered in the course of parsing chunked encoding.
+Returned by [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) when an overflow condition is encountered in the course of parsing chunked encoding.
 
 
 </dt> </dl> </dd> <dt>
@@ -180,7 +180,7 @@ Returned by [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) when an over
 
 
 
-Returned by [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) when the server requests client authentication.
+Returned by [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) when the server requests client authentication.
 
 **Windows Server 2003 with SP1 and Windows XP with SP2:** This error is not supported.
 
@@ -221,7 +221,7 @@ Obsolete; no longer used.
 
 
 
-Returned by [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) when a larger number of headers were present in a response than WinHTTP could receive.
+Returned by [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) when a larger number of headers were present in a response than WinHTTP could receive.
 
 
 </dt> </dl> </dd> <dt>
@@ -247,7 +247,7 @@ The requested header cannot be located.
 
 
 
-Returned by [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) when the size of headers received exceeds the limit for the request handle.
+Returned by [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) when the size of headers received exceeds the limit for the request handle.
 
 
 </dt> </dl> </dd> <dt>
@@ -299,7 +299,7 @@ An internal error has occurred.
 
 
 
-A request to [**WinHttpQueryOption**](winhttpqueryoption.md) or [**WinHttpSetOption**](winhttpsetoption.md) specified an invalid option value.
+A request to [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) or [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) specified an invalid option value.
 
 
 </dt> </dl> </dd> <dt>
@@ -351,7 +351,7 @@ The URL is not valid.
 
 
 
-The login attempt failed. When this error is encountered, the request handle should be closed with [**WinHttpCloseHandle**](winhttpclosehandle.md). A new request handle must be created before retrying the function that originally produced this error.
+The login attempt failed. When this error is encountered, the request handle should be closed with [**WinHttpCloseHandle**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpclosehandle). A new request handle must be created before retrying the function that originally produced this error.
 
 
 </dt> </dl> </dd> <dt>

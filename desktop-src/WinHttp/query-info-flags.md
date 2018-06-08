@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Query Info Flags
 
-These attributes and modifiers are used by [**WinHttpQueryHeaders**](winhttpqueryheaders.md).
+These attributes and modifiers are used by [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders).
 
-The attribute flags are used by [**WinHttpQueryHeaders**](winhttpqueryheaders.md) to indicate what information to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as WINHTTP\_QUERY\_RAW\_HEADERS, that are not related to a specific header.
+The attribute flags are used by [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) to indicate what information to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as WINHTTP\_QUERY\_RAW\_HEADERS, that are not related to a specific header.
 
 <dl> <dt>
 
@@ -82,7 +82,7 @@ Retrieves the Age response-header field, which contains the sender's estimate of
 
 
 
-Receives the [*HTTP verb*](glossary.md#term-http-verb)s supported by the server.
+Receives the [*HTTP verb*](glossary.md)s supported by the server.
 
 
 </dt> </dl> </dd> <dt>
@@ -272,7 +272,7 @@ Not supported.
 
 
 
-Causes [**WinHttpQueryHeaders**](winhttpqueryheaders.md) to search for the header name specified in the *pwszName* parameter and store the header information in *lpBuffer*. An application can use **WINHTTP\_OPTION\_RECEIVE\_RESPONSE\_TIMEOUT** to limit the maximum time this query waits for all headers to be received.
+Causes [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) to search for the header name specified in the *pwszName* parameter and store the header information in *lpBuffer*. An application can use **WINHTTP\_OPTION\_RECEIVE\_RESPONSE\_TIMEOUT** to limit the maximum time this query waits for all headers to be received.
 
 
 </dt> </dl> </dd> <dt>
@@ -767,7 +767,7 @@ Retrieves the authentication scheme and realm returned by the server.
 
 </dt> </dl> </dd> </dl>
 
-The modifier flags are used in conjunction with an attribute flag to modify the request. Modifier flags either modify the format of the data returned or indicate where the [**WinHttpQueryHeaders**](winhttpqueryheaders.md) function should search for the information.
+The modifier flags are used in conjunction with an attribute flag to modify the request. Modifier flags either modify the format of the data returned or indicate where the [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) function should search for the information.
 
 <dl> <dt>
 

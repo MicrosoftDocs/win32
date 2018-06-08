@@ -119,7 +119,7 @@ The results of various mouse events can be summarized as follows:
 
 Typically, clicking the icon causes the application to display a window with additional information, right-clicking displays a shortcut menu, and double-clicking executes the default shortcut menu command.
 
-For an example of how to change the tooltip text associated with a notification area icon, see [Balloon Tooltips for Status Bar Icons](1020cec7-57b4-4463-9419-f80fd14fa12c).
+For an example of how to change the tooltip text associated with a notification area icon, see [Balloon Tooltips for Status Bar Icons](https://msdn.microsoft.com/windows/desktop/1020cec7-57b4-4463-9419-f80fd14fa12c).
 
 Versions 5.0 and later of the Shell handle [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) mouse and keyboard events in different ways than earlier Shell versions found on Windows NT 4.0, Windows 95, and Windows 98. The differences are as follows:
 

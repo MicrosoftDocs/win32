@@ -100,7 +100,7 @@ CAPTION "Error!"
 
 <dl> <dt>
 
-[Using Dialog Boxes](8a5b6bdd-4429-4f48-b846-6bd617a87abf)
+[Using Dialog Boxes](https://msdn.microsoft.com/windows/desktop/8a5b6bdd-4429-4f48-b846-6bd617a87abf)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)

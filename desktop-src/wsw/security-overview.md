@@ -42,7 +42,7 @@ When designing security for an application, the primary decision is the selectio
 -   Transport security, where security is applied at the transport byte stream level (below the SOAP message boundaries), is the first option to consider.
     -   For Internet scenarios, and for those Intranet scenarios where an X.509 certificate can be deployed at the server, the application may use [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_ssl_transport_security_binding). The following example illustrates this option. Client: [HttpClientWithSslExample](httpclientwithsslexample.md) Server: [HttpServerWithSslExample](httpserverwithsslexample.md).
 
-        If client authentication via HTTP header authentication is desired, a [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING**](ws-http-header-auth-security-binding.md) can be added to provide that functionality.
+        If client authentication via HTTP header authentication is desired, a [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_http_header_auth_security_binding) can be added to provide that functionality.
 
     -   For Intranet scenarios where Windows Integrated Authentication protocols such as Kerberos, NTLM and SPNEGO are appropriate, the application may use [**WS\_TCP\_SSPI\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_tcp_sspi_transport_security_binding). The following example illustrates this option: Client: [RequestReplyTcpClientWithWindowsTransportSecurityExample](requestreplytcpclientwithwindowstransportsecurityexample.md) Server: [RequestReplyTcpServerWithWindowsTransportSecurityExample](requestreplytcpserverwithwindowstransportsecurityexample.md).
 
@@ -65,7 +65,7 @@ When designing security for an application, the primary decision is the selectio
          
 -   The final option to consider is using authentication bindings without using a protection binding such as [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_ssl_transport_security_binding). This will result in the credentials being transmitted in clear text and can have security implications. The use of this option should be carefully evaluated to ensure that there are no vulnerabilities as a result. An example of a potential use is exchanging messages between back-end servers over a secure private network. The following configurations support this option.
 
-    -   [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING**](ws-http-header-auth-security-binding.md) supports this option in all configurations.
+    -   [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_http_header_auth_security_binding) supports this option in all configurations.
     -   [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_username_message_security_binding) supports this option on the server when using HTTP as transport.
     -   [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_kerberos_apreq_message_security_binding) supports this option on the server when using HTTP as transport.
     -   [**WS\_SECURITY\_CONTEXT\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-_ws_security_context_message_security_binding) supports this option on the server when using HTTP as transport.

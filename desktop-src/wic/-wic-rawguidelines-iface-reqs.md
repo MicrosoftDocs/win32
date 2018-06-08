@@ -127,7 +127,7 @@ Optional
 
 [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw)
 
-See [Support for IWICDevelopRaw](8e8ff65b-0849-42e0-924e-2a7c61d4b1bb), later in this document.
+See [Support for IWICDevelopRaw](https://msdn.microsoft.com/windows/desktop/8e8ff65b-0849-42e0-924e-2a7c61d4b1bb), later in this document.
 
 [**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)
 

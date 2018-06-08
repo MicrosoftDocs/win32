@@ -411,7 +411,7 @@ The supplied header is invalid.
 
 
 
-The request made to [**HttpQueryInfo**](httpqueryinfo.md) is invalid.
+The request made to [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) is invalid.
 
 
 </dt> </dl> </dd> <dt>

@@ -19,7 +19,7 @@ WinHTTP is also designed for use in system services and HTTP-based client applic
 
 This interface is accessible from C/C++ by using either the WinHTTP application programming interface (API), or by using the [**IWinHttpRequest**](iwinhttprequest-interface.md) and [**IWinHttpRequestEvents**](iwinhttprequestevents-interface.md) interfaces. WinHTTP is also accessible from script and Microsoft Visual Basic through the WinHTTP object. For more information and descriptions of the individual functions, see the WinHTTP functions reference for the specific language.
 
-Starting with Windows 8, WinHTTP provides APIs to enable connections using the [WebSocket Protocol](http://go.microsoft.com/fwlink/p/?linkid=240293)l, such as [**WinHttpWebSocketSend**](winhttpwebsocketsend.md) and [**WinHttpWebSocketReceive**](winhttpwebsocketreceive.md).
+Starting with Windows 8, WinHTTP provides APIs to enable connections using the [WebSocket Protocol](http://go.microsoft.com/fwlink/p/?linkid=240293)l, such as [**WinHttpWebSocketSend**](/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketsend) and [**WinHttpWebSocketReceive**](/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive).
 
 > \[!Caution\]  
 > WinHTTP is not reentrant except during asynchronous completion callback. That is, while a thread has a call pending to one of the WinHTTP functions such as WinHttpSendRequest, WinHttpReceiveResponse, WinHttpQueryDataAvailable, WinHttpSendData, or WinHttpWriteData, it must never call WinHTTP a second time until the first call has completed. One scenario under which a second call could occur is as follows: If an application queues an Asynchronous Procedure Call (APC) to the thread that calls into WinHTTP, and if WinHTTP performs an alertable wait internally, the APC can run. If the APC routine happens also to call WinHTTP, it reenters the WinHTTP API, and the internal state of WinHTTP can be corrupted.
@@ -36,7 +36,7 @@ The following features have been added in version 5.1 of WinHTTP:
 -   HTTP/1.1 chunked transfer support for HTTP responses.
 -   Keep-alive pooling of anonymous connections across sessions.
 -   Secure Sockets Layer (SSL) functionality, including client certificates. Supported SSL protocols include the following: SSL 2.0, SSL 3.0, and Transport Layer Security (TLS) 1.0.
--   Support for server and proxy authentication, including integrated support for Microsoft Passport 1.4 and the Negotiate/ [Kerberos](a53a1edf-f374-4cbf-8050-7cde45284157) package.
+-   Support for server and proxy authentication, including integrated support for Microsoft Passport 1.4 and the Negotiate/ [Kerberos](https://msdn.microsoft.com/windows/desktop/a53a1edf-f374-4cbf-8050-7cde45284157) package.
 -   Automatic handling of redirects unless suppressed.
 -   Scriptable interface in addition to the API.
 -   Trace utility to help troubleshoot problems.

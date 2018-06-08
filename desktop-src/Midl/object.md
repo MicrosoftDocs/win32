@@ -61,7 +61,7 @@ The name of the interface.
 *base-interface* 
 </dt> <dd>
 
-The COM interface from which this interface derives. The base interface must be [**IUnknown**](33f1d79a-33fc-4ce5-a372-e08bda378332), [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5), or another COM interface that derives, either directly or indirectly, from **IUnknown** or **IDispatch**.
+The COM interface from which this interface derives. The base interface must be [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332), [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5), or another COM interface that derives, either directly or indirectly, from **IUnknown** or **IDispatch**.
 
 </dd> </dl>
 

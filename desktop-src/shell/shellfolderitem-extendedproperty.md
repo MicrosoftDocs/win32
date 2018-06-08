@@ -47,7 +47,7 @@ This method returns a zero-length string if the property is valid but does not e
 
 ## Remarks
 
-There are two ways to specify a property. The first is to assign the property's well-known name, such as "Author" or "Date", to *sPropName*. However, each property is a member of a Component Object Model (COM) property set and can also be identified by specifying its format ID (FMTID) and property ID (PID). An [**FMTID**](f22abe40-535f-4178-9460-59bbe26ff178) is a GUID that identifies the property set, and a [**PID**](f22abe40-535f-4178-9460-59bbe26ff178) is an integer that identifies a particular property within the property set.
+There are two ways to specify a property. The first is to assign the property's well-known name, such as "Author" or "Date", to *sPropName*. However, each property is a member of a Component Object Model (COM) property set and can also be identified by specifying its format ID (FMTID) and property ID (PID). An [**FMTID**](https://msdn.microsoft.com/windows/desktop/f22abe40-535f-4178-9460-59bbe26ff178) is a GUID that identifies the property set, and a [**PID**](https://msdn.microsoft.com/windows/desktop/f22abe40-535f-4178-9460-59bbe26ff178) is an integer that identifies a particular property within the property set.
 
 Specifying a property by its FMTID/PID values is usually more efficient than using its name. To use a property's FMTID/PID values with **ExtendedProperty**, they must be combined into an SCID. An SCID is a string that contains the FMTID/PID values in the form "*FMTID**PID*", where the FMTID is the string form of the property set's GUID. For example, the SCID of the summary information property set's author property is "{F29F85E0-4FF9-1068-AB91-08002B27B3D9} 4".
 

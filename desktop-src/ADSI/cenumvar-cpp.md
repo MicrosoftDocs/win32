@@ -23,9 +23,9 @@ In the example provider component, the base implementation for xxxEnumVariant de
 |-------------------------------------------------|---------------------------------------------------------------------------------------|
 | **CSampleDSEnumVariant::CSampleDSEnumVariant**  | Standard constructor.                                                                 |
 | **CSampleDSEnumVariant::~CSampleDSEnumVariant** | Standard destructor.                                                                  |
-| **CSampleDSEnumVariant::QueryInterface**        | Standard [**IUnknown::QueryInterface**](54d5ff80-18db-43f2-b636-f93ac053146d) implementation. |
-| **CSampleDSEnumVariant::AddRef**                | Standard [**IUnknown::AddRef**](b4316efd-73d4-4995-b898-8025a316ba63) implementation.                 |
-| **CSampleDSEnumVariant::Release**               | Standard [**IUnknown::Release**](4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) implementation.               |
+| **CSampleDSEnumVariant::QueryInterface**        | Standard [**IUnknown::QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) implementation. |
+| **CSampleDSEnumVariant::AddRef**                | Standard [**IUnknown::AddRef**](https://msdn.microsoft.com/windows/desktop/b4316efd-73d4-4995-b898-8025a316ba63) implementation.                 |
+| **CSampleDSEnumVariant::Release**               | Standard [**IUnknown::Release**](https://msdn.microsoft.com/windows/desktop/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) implementation.               |
 | **CSampleDSEnumVariant::Skip**                  | Standard **IEnumXXXX::Skip** implementation.                                          |
 | **CSampleDSEnumVariant::Reset**                 | Standard **IEnumXXXX::Reset** implementation.                                         |
 | **CSampleDSEnumVariant::Clone**                 | Standard **IEnumXXXX::Clone** implementation.                                         |

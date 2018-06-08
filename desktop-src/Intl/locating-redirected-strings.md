@@ -25,7 +25,7 @@ If you are updating an existing application to the language-neutral use of the r
 
 Your application can use the shell API to create strings for shortcuts that link files or folders in the **Start** menu or on the desktop. For more information, see Create Resources for Shortcut Strings in [Using Registry String Redirection](using-registry-string-redirection.md).
 
-The application can use [**SHSetLocalizedName**](https://www.bing.com/search?q=**SHSetLocalizedName**) to load the MUI-compliant display name for a shortcut. It should use [**IShellLink::SetDescription**](4bec482e-04e6-4cde-ab8e-23c5a1463bdf) to set the associated InfoTip. The calls register the strings with the registry. Consider the following examples, for which "HKCR" represents the HKEY\_CLASSES\_ROOT registry key:
+The application can use [**SHSetLocalizedName**](https://www.bing.com/search?q=**SHSetLocalizedName**) to load the MUI-compliant display name for a shortcut. It should use [**IShellLink::SetDescription**](https://msdn.microsoft.com/windows/desktop/4bec482e-04e6-4cde-ab8e-23c5a1463bdf) to set the associated InfoTip. The calls register the strings with the registry. Consider the following examples, for which "HKCR" represents the HKEY\_CLASSES\_ROOT registry key:
 
 
 ```C++
@@ -40,7 +40,7 @@ HKCR,"CLSID\%CLSID_AntiSpyware%","InfoTip",,"@%ProgramFiles%\Windows AntiSpyware
 
 The first line provides an unlocalized literal string for fallback and backward compatibility. The second line shows the MUI-compliant way to register the display name. This line indicates the string identifier 104 stored in Msascui.exe (for Windows XP) or in its associated language-specific file (for Windows Vista). This string identifier corresponds to "My Network Places". The third line in the example handles InfoTip registration. %CLSID\_AntiSpyware% specifies an environment variable representing the GUID that matches the class identifier of this component.
 
-For the example shown above, the application calls [**SHSetLocalizedName**](https://www.bing.com/search?q=**SHSetLocalizedName**) to specify the path of the executable for the first two parameters, and specify *idsRes* as "@%ProgramFiles%\\Windows AntiSpyware\\MSASCui.exe,104". A call to [**IShellLink::SetDescription**](4bec482e-04e6-4cde-ab8e-23c5a1463bdf), specifies the path for the InfoTip as "@%ProgramFiles%\\Windows AntiSpyware\\MSASCui.exe,208".
+For the example shown above, the application calls [**SHSetLocalizedName**](https://www.bing.com/search?q=**SHSetLocalizedName**) to specify the path of the executable for the first two parameters, and specify *idsRes* as "@%ProgramFiles%\\Windows AntiSpyware\\MSASCui.exe,104". A call to [**IShellLink::SetDescription**](https://msdn.microsoft.com/windows/desktop/4bec482e-04e6-4cde-ab8e-23c5a1463bdf), specifies the path for the InfoTip as "@%ProgramFiles%\\Windows AntiSpyware\\MSASCui.exe,208".
 
 ## Query Friendly Document Type Names in the Registry
 

@@ -41,7 +41,7 @@ The return value is **S\_OK** on success or an error value otherwise.
 
 ## Remarks
 
-The string specified in the *ClientCertificate* parameter consists of the certificate location, certificate store, and subject name delimited by backslashes. For more information about the components of the certificate string, see [Client Certificates](ssl-in-winhttp.md#client-certificates).
+The string specified in the *ClientCertificate* parameter consists of the certificate location, certificate store, and subject name delimited by backslashes. For more information about the components of the certificate string, see [Client Certificates](ssl-in-winhttp.md).
 
 The certificate store name and location are optional. However, if you specify a certificate store, you must also specify the location of that certificate store. The default location is CURRENT\_USER and the default certificate store is "MY". A blank subject indicates that the first certificate in the certificate store should be used.
 

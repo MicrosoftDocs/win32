@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SelfReg Table
 
-The SelfReg table contains information about modules that need to be self registered. The installer calls the [**DllRegisterServer**](4442206b-b2ad-47d7-8add-18002c44c5a2) function during installation of the module; it calls [**DllUnregisterServer**](b71137a7-284e-4521-a3b2-9dad9c9d3c54) during uninstallation of the module. The installer does not self register EXE files.
+The SelfReg table contains information about modules that need to be self registered. The installer calls the [**DllRegisterServer**](https://msdn.microsoft.com/windows/desktop/4442206b-b2ad-47d7-8add-18002c44c5a2) function during installation of the module; it calls [**DllUnregisterServer**](https://msdn.microsoft.com/windows/desktop/b71137a7-284e-4521-a3b2-9dad9c9d3c54) during uninstallation of the module. The installer does not self register EXE files.
 
 The SelfReg table has the following columns.
 
@@ -48,12 +48,12 @@ The cost of registering the module in bytes. This must be a non-negative number.
 
 Installation package authors are strongly advised against using self registration. Instead they should register modules by authoring one or more tables provided by the installer for this purpose. For more information, see [Registry Tables Group](registry-tables-group.md). Many of the benefits of having a central installer service are lost with self registration because self-registration routines tend to hide critical configuration information. Reasons for avoiding self registration include:
 
--   Rollback of an installation with self-registered modules cannot be safely done using [**DllUnregisterServer**](b71137a7-284e-4521-a3b2-9dad9c9d3c54) because there is no way of telling if the self-registered keys are used by another feature or application.
+-   Rollback of an installation with self-registered modules cannot be safely done using [**DllUnregisterServer**](https://msdn.microsoft.com/windows/desktop/b71137a7-284e-4521-a3b2-9dad9c9d3c54) because there is no way of telling if the self-registered keys are used by another feature or application.
 -   The ability to use advertisement is reduced if Class or extension server registration is performed within self-registration routines.
--   The installer automatically handles HKCR keys in the registry tables for both per-user or per-machine installations. [**DllRegisterServer**](4442206b-b2ad-47d7-8add-18002c44c5a2) routines currently do not support the notion of a per-user HKCR key.
+-   The installer automatically handles HKCR keys in the registry tables for both per-user or per-machine installations. [**DllRegisterServer**](https://msdn.microsoft.com/windows/desktop/4442206b-b2ad-47d7-8add-18002c44c5a2) routines currently do not support the notion of a per-user HKCR key.
 -   If multiple users are using a self-registered application on the same computer, each user must install the application the first time they run it. Otherwise the installer cannot easily determine that the proper HKCU registry keys exist.
--   The [**DllRegisterServer**](4442206b-b2ad-47d7-8add-18002c44c5a2) can be denied access to network resources such as type libraries if a component is both specified as run-from-source and is listed in the SelfReg table. This can cause the installation of the component to fail to during an administrative installation.
--   Self-registering DLLs are more susceptible to coding errors because the new code required for [**DllRegisterServer**](4442206b-b2ad-47d7-8add-18002c44c5a2) is commonly different for each DLL. Instead use the registry tables in the database to take advantage of existing code provided by the installer.
+-   The [**DllRegisterServer**](https://msdn.microsoft.com/windows/desktop/4442206b-b2ad-47d7-8add-18002c44c5a2) can be denied access to network resources such as type libraries if a component is both specified as run-from-source and is listed in the SelfReg table. This can cause the installation of the component to fail to during an administrative installation.
+-   Self-registering DLLs are more susceptible to coding errors because the new code required for [**DllRegisterServer**](https://msdn.microsoft.com/windows/desktop/4442206b-b2ad-47d7-8add-18002c44c5a2) is commonly different for each DLL. Instead use the registry tables in the database to take advantage of existing code provided by the installer.
 -   Self-registering DLLs can sometimes link to auxiliary DLLs that are not present or are the wrong version. In contrast, the installer can register the DLLs using the registry tables with no dependency on the current state of the system.
 
 > [!Note]  

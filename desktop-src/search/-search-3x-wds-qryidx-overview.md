@@ -30,9 +30,9 @@ This section provides the conceptual framework for querying the index programmat
 
 -   For information on OLE DB, see [OLE DB Programming Overview](https://www.bing.com/search?q=OLE+DB+Programming+Overview). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](http://msdn.microsoft.com/en-us/library/system.data.oledb(VS.71).aspx).
 -   For additional background on using of properties in querying, see the following topics:
-    -   [Property System](9dacd399-2cf3-40dd-9501-f26f0281500d)
+    -   [Property System](https://msdn.microsoft.com/windows/desktop/9dacd399-2cf3-40dd-9501-f26f0281500d)
     -   [System Properties](http://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx)
--   For information on how to create and modify search folders, see [**ISearchFolderItemFactory Interface**](a684b373-6de4-4b4a-bbae-85e1c5a7e04a).
+-   For information on how to create and modify search folders, see [**ISearchFolderItemFactory Interface**](https://msdn.microsoft.com/windows/desktop/a684b373-6de4-4b4a-bbae-85e1c5a7e04a).
 -   For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](http://go.microsoft.com/fwlink/p/?linkid=201207).
 -   To download the Search SDK Code Samples:
     -   For Windows 7: [Windows Search Samples on GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch)

@@ -58,7 +58,7 @@ LTEXT "Filename", 101, 10, 10, 100, 100
 [**CTEXT**](ctext-control.md)
 </dt> <dt>
 
-[Edit Controls](43baa58a-bc00-47c0-a3fe-413d50f08c29)
+[Edit Controls](https://msdn.microsoft.com/windows/desktop/43baa58a-bc00-47c0-a3fe-413d50f08c29)
 </dt> <dt>
 
 [**RTEXT**](rtext-control.md)

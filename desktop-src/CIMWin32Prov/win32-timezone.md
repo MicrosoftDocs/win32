@@ -970,7 +970,7 @@ Next
 [**CIM\_Setting**](cim-setting.md)
 </dt> <dt>
 
-[Operating System Classes](D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
+[Operating System Classes](https://msdn.microsoft.com/windows/desktop/D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
 </dt> <dt>
 
 [**SWbemDateTime**](https://msdn.microsoft.com/3dd34c73-3c2b-4d59-827b-169cf8020213)

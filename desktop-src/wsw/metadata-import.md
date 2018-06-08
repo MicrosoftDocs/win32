@@ -118,7 +118,7 @@ The following structures are part of metadata import:
 -   [**WS\_CERT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/desktop/api/WebServices/ns-webservices-_ws_cert_message_security_binding_constraint)
 -   [**WS\_CHANNEL\_PROPERTY\_CONSTRAINT**](/windows/desktop/api/WebServices/ns-webservices-_ws_channel_property_constraint)
 -   [**WS\_ENDPOINT\_POLICY\_EXTENSION**](/windows/desktop/api/WebServices/ns-webservices-_ws_endpoint_policy_extension)
--   [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING\_CONSTRAINT**](ws-http-header-auth-security-binding-constraint.md)
+-   [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING\_CONSTRAINT**](/windows/desktop/api/WebServices/ns-webservices-_ws_http_header_auth_security_binding_constraint)
 -   [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/desktop/api/WebServices/ns-webservices-_ws_issued_token_message_security_binding_constraint)
 -   [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/desktop/api/WebServices/ns-webservices-_ws_kerberos_apreq_message_security_binding_constraint)
 -   [**WS\_METADATA\_ENDPOINT**](/windows/desktop/api/WebServices/ns-webservices-_ws_metadata_endpoint)

@@ -41,7 +41,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puGetBuffData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_GETMOCOMPCOMPBUFFDATA**](5510d430-834c-42ea-a113-c17b1b87ea52) structure that contains the compressed buffer information.
+Pointer to a [**DD\_GETMOCOMPCOMPBUFFDATA**](https://msdn.microsoft.com/windows/desktop/5510d430-834c-42ea-a113-c17b1b87ea52) structure that contains the compressed buffer information.
 
 </dd> </dl>
 

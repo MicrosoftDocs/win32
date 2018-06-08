@@ -42,7 +42,7 @@ For information on which operating systems are required to use a particular inte
 
 <dl> <dt>
 
-[COM+](b21a6b08-c17c-4fcc-bc60-39037bc9902f)
+[COM+](https://msdn.microsoft.com/windows/desktop/b21a6b08-c17c-4fcc-bc60-39037bc9902f)
 </dt> </dl>
 
  

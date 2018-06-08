@@ -18,7 +18,7 @@ WinHTTP uses the following enumerations:
 [**WinHttpRequestAutoLogonPolicy**](winhttprequestautologonpolicy.md)
 </dt> <dd>
 
-Possible settings for the [Automatic Logon Policy](authentication-in-winhttp.md#automatic-logon-policy).
+Possible settings for the [Automatic Logon Policy](authentication-in-winhttp.md).
 
 </dd> <dt>
 
@@ -29,21 +29,21 @@ Options that can be set or retrieved for the current WinHTTP session.
 
 </dd> <dt>
 
-[**WINHTTP\_WEB\_SOCKET\_BUFFER\_TYPE**](winhttp-web-socket-buffer-type.md)
+[**WINHTTP\_WEB\_SOCKET\_BUFFER\_TYPE**](/windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_buffer_type)
 </dt> <dd>
 
 Types of WebSocket buffers.
 
 </dd> <dt>
 
-[**WINHTTP\_WEB\_SOCKET\_CLOSE\_STATUS**](winhttp-web-socket-close-status.md)
+[**WINHTTP\_WEB\_SOCKET\_CLOSE\_STATUS**](/windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_close_status)
 </dt> <dd>
 
 Status of a WebSocket close operation.
 
 </dd> <dt>
 
-[**WINHTTP\_WEB\_SOCKET\_OPERATION**](winhttp-web-socket-operation.md)
+[**WINHTTP\_WEB\_SOCKET\_OPERATION**](/windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_operation)
 </dt> <dd>
 
 Type of WebSocket operation.

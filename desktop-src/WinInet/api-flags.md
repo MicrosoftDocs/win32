@@ -122,7 +122,7 @@ Allows a lazy cache write.
 
 
 
-Returns the resource from the cache if the network request for the resource fails due to an [ERROR\_INTERNET\_CONNECTION\_RESET](wininet-errors.md) or [ERROR\_INTERNET\_CANNOT\_CONNECT](wininet-errors.md) error. This flag is used by [**HttpOpenRequest**](httpopenrequest.md).
+Returns the resource from the cache if the network request for the resource fails due to an [ERROR\_INTERNET\_CONNECTION\_RESET](wininet-errors.md) or [ERROR\_INTERNET\_CANNOT\_CONNECT](wininet-errors.md) error. This flag is used by [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta).
 
 
 </dt> </dl> </dd> <dt>
@@ -200,7 +200,7 @@ Indicates that the function should use the copy of the resource that is currentl
 
 
 
-Forces a reload if there is no Expires time and no LastModified time returned from the server when determining whether to reload the item from the network. This flag can be used by [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea), [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea), [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea), [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea), [**HttpOpenRequest**](httpopenrequest.md), and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla).
+Forces a reload if there is no Expires time and no LastModified time returned from the server when determining whether to reload the item from the network. This flag can be used by [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea), [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea), [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea), [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea), [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta), and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla).
 
 **Windows XP and Windows Server 2003 R2 and earlier:** Also used by [**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea) and [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea).
 
@@ -215,7 +215,7 @@ Forces a reload if there is no Expires time and no LastModified time returned fr
 
 
 
-Disables checking of SSL/PCT-based certificates that are returned from the server against the host name given in the request. WinINet uses a simple check against certificates by comparing for matching host names and simple wildcarding rules. This flag can be used by [**HttpOpenRequest**](httpopenrequest.md) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests).
+Disables checking of SSL/PCT-based certificates that are returned from the server against the host name given in the request. WinINet uses a simple check against certificates by comparing for matching host names and simple wildcarding rules. This flag can be used by [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests).
 
 
 </dt> </dl> </dd> <dt>
@@ -228,7 +228,7 @@ Disables checking of SSL/PCT-based certificates that are returned from the serve
 
 
 
-Disables checking of SSL/PCT-based certificates for proper validity dates. This flag can be used by [**HttpOpenRequest**](httpopenrequest.md) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests).
+Disables checking of SSL/PCT-based certificates for proper validity dates. This flag can be used by [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests).
 
 
 </dt> </dl> </dd> <dt>
@@ -241,7 +241,7 @@ Disables checking of SSL/PCT-based certificates for proper validity dates. This 
 
 
 
-Disables detection of this special type of redirect. When this flag is used, WinINet transparently allows redirects from HTTPS to HTTP URLs. This flag can be used by [**HttpOpenRequest**](httpopenrequest.md) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests).
+Disables detection of this special type of redirect. When this flag is used, WinINet transparently allows redirects from HTTPS to HTTP URLs. This flag can be used by [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests).
 
 
 </dt> </dl> </dd> <dt>
@@ -254,7 +254,7 @@ Disables detection of this special type of redirect. When this flag is used, Win
 
 
 
-Disables detection of this special type of redirect. When this flag is used, WinINet transparently allow redirects from HTTP to HTTPS URLs. This flag can be used by [**HttpOpenRequest**](httpopenrequest.md) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests).
+Disables detection of this special type of redirect. When this flag is used, WinINet transparently allow redirects from HTTP to HTTPS URLs. This flag can be used by [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests).
 
 
 </dt> </dl> </dd> <dt>
@@ -267,7 +267,7 @@ Disables detection of this special type of redirect. When this flag is used, Win
 
 
 
-Uses keep-alive semantics, if available, for the connection. This flag is used by [**HttpOpenRequest**](httpopenrequest.md) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests). This flag is required for Microsoft Network (MSN), NTLM, and other types of authentication.
+Uses keep-alive semantics, if available, for the connection. This flag is used by [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests). This flag is required for Microsoft Network (MSN), NTLM, and other types of authentication.
 
 
 </dt> </dl> </dd> <dt>
@@ -293,7 +293,7 @@ No longer supported.
 
 
 
-Identical to the preferred value, **INTERNET\_FLAG\_NEED\_FILE**. Causes a temporary file to be created if the file cannot be cached. This flag can be used by [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea), [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea), [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea), [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea), [**HttpOpenRequest**](httpopenrequest.md), and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla).
+Identical to the preferred value, **INTERNET\_FLAG\_NEED\_FILE**. Causes a temporary file to be created if the file cannot be cached. This flag can be used by [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea), [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea), [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea), [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea), [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta), and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla).
 
 **Windows XP and Windows Server 2003 R2 and earlier:** Also used by [**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea) and [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea).
 
@@ -308,7 +308,7 @@ Identical to the preferred value, **INTERNET\_FLAG\_NEED\_FILE**. Causes a tempo
 
 
 
-Causes a temporary file to be created if the file cannot be cached. This flag can be used by [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea), [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea), [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea), [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea), [**HttpOpenRequest**](httpopenrequest.md), and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla).
+Causes a temporary file to be created if the file cannot be cached. This flag can be used by [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea), [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea), [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea), [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea), [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta), and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla).
 
 **Windows XP and Windows Server 2003 R2 and earlier:** Also used by [**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea) and [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea).
 
@@ -323,7 +323,7 @@ Causes a temporary file to be created if the file cannot be cached. This flag ca
 
 
 
-Does not attempt authentication automatically. This flag can be used by [**HttpOpenRequest**](httpopenrequest.md) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests).
+Does not attempt authentication automatically. This flag can be used by [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests).
 
 
 </dt> </dl> </dd> <dt>
@@ -336,7 +336,7 @@ Does not attempt authentication automatically. This flag can be used by [**HttpO
 
 
 
-Does not automatically handle redirection in [**HttpSendRequest**](httpsendrequest.md). This flag can also be used by [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) for HTTP requests.
+Does not automatically handle redirection in [**HttpSendRequest**](/windows/desktop/api/Wininet/nf-wininet-httpsendrequesta). This flag can also be used by [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) for HTTP requests.
 
 
 </dt> </dl> </dd> <dt>
@@ -349,7 +349,7 @@ Does not automatically handle redirection in [**HttpSendRequest**](httpsendreque
 
 
 
-Does not add the returned entity to the cache. This flag is used by , [**HttpOpenRequest**](httpopenrequest.md), and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla).
+Does not add the returned entity to the cache. This flag is used by , [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta), and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla).
 
 **Windows XP and Windows Server 2003 R2 and earlier:** Also used by [**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea) and [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea).
 
@@ -364,7 +364,7 @@ Does not add the returned entity to the cache. This flag is used by , [**HttpOpe
 
 
 
-Does not automatically add cookie headers to requests, and does not automatically add returned cookies to the cookie database. This flag can be used by [**HttpOpenRequest**](httpopenrequest.md) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests).
+Does not automatically add cookie headers to requests, and does not automatically add returned cookies to the cookie database. This flag can be used by [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (for HTTP requests).
 
 
 </dt> </dl> </dd> <dt>
@@ -377,7 +377,7 @@ Does not automatically add cookie headers to requests, and does not automaticall
 
 
 
-Disables the cookie dialog box. This flag can be used by [**HttpOpenRequest**](httpopenrequest.md) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (HTTP requests only).
+Disables the cookie dialog box. This flag can be used by [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) (HTTP requests only).
 
 
 </dt> </dl> </dd> <dt>
@@ -416,7 +416,7 @@ Uses passive FTP semantics. Only [**InternetConnect**](/windows/desktop/api/Wini
 
 
 
-Forces the request to be resolved by the origin server, even if a cached copy exists on the proxy. The [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) function (on HTTP and HTTPS requests only) and [**HttpOpenRequest**](httpopenrequest.md) function use this flag.
+Forces the request to be resolved by the origin server, even if a cached copy exists on the proxy. The [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) function (on HTTP and HTTPS requests only) and [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta) function use this flag.
 
 
 </dt> </dl> </dd> <dt>
@@ -457,7 +457,7 @@ This flag is currently disabled.
 
 
 
-Forces a download of the requested file, object, or directory listing from the origin server, not from the cache. The [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea), [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea), [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea), [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea), [**HttpOpenRequest**](httpopenrequest.md), and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) functions use this flag.
+Forces a download of the requested file, object, or directory listing from the origin server, not from the cache. The [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea), [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea), [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea), [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea), [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta), and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) functions use this flag.
 
 **Windows XP and Windows Server 2003 R2 and earlier:** Also used by [**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea) and [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea).
 
@@ -485,7 +485,7 @@ Indicates that the cookie being set is associated with an untrusted site.
 
 
 
-Reloads HTTP resources if the resource has been modified since the last time it was downloaded. All FTP resources are reloaded. This flag can be used by [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea), [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea), [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea), [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea), [**HttpOpenRequest**](httpopenrequest.md), and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla).
+Reloads HTTP resources if the resource has been modified since the last time it was downloaded. All FTP resources are reloaded. This flag can be used by [**FtpFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-ftpfindfirstfilea), [**FtpGetFile**](/windows/desktop/api/Wininet/nf-wininet-ftpgetfilea), [**FtpOpenFile**](/windows/desktop/api/Wininet/nf-wininet-ftpopenfilea), [**FtpPutFile**](/windows/desktop/api/Wininet/nf-wininet-ftpputfilea), [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta), and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla).
 
 **Windows XP and Windows Server 2003 R2 and earlier:** Also used by [**GopherFindFirstFile**](/windows/desktop/api/Wininet/nf-wininet-gopherfindfirstfilea) and [**GopherOpenFile**](/windows/desktop/api/Wininet/nf-wininet-gopheropenfilea), and Gopher resources are reloaded.
 
@@ -500,7 +500,7 @@ Reloads HTTP resources if the resource has been modified since the last time it 
 
 
 
-Uses secure transaction semantics. This translates to using Secure Sockets Layer/Private Communications Technology (SSL/PCT) and is only meaningful in HTTP requests. This flag is used by [**HttpOpenRequest**](httpopenrequest.md) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla), but this is redundant if https:// appears in the URL.The [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) function uses this flag for HTTP connections; all the request handles created under this connection will inherit this flag.
+Uses secure transaction semantics. This translates to using Secure Sockets Layer/Private Communications Technology (SSL/PCT) and is only meaningful in HTTP requests. This flag is used by [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta) and [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla), but this is redundant if https:// appears in the URL.The [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) function uses this flag for HTTP connections; all the request handles created under this connection will inherit this flag.
 
 
 </dt> </dl> </dd> <dt>

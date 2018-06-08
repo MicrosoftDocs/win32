@@ -50,7 +50,7 @@ The Windows Web Services API includes the following callback functions:
 -   [**WS\_GET\_CERT\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_get_cert_callback)
 -   [**WS\_GET\_CHANNEL\_PROPERTY\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_get_channel_property_callback)
 -   [**WS\_GET\_LISTENER\_PROPERTY\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_get_listener_property_callback)
--   [**WS\_HTTP\_REDIRECT\_CALLBACK**](ws-http-redirect-callback.md)
+-   [**WS\_HTTP\_REDIRECT\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_http_redirect_callback)
 -   [**WS\_IS\_DEFAULT\_VALUE\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_is_default_value_callback)
 -   [**WS\_MESSAGE\_DONE\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_message_done_callback)
 -   [**WS\_OPEN\_CHANNEL\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_open_channel_callback)

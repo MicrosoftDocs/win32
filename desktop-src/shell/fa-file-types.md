@@ -25,7 +25,7 @@ This topic is organized as follows:
 Additional information can be found on the following topics:
 
 -   [How To Choose a File Type Extension](how-to-choose-a-file-type-extension.md)
--   [How To Define File Type Attributes](EE35E3E7-0573-45CA-A21A-89E50B86487D)
+-   [How To Define File Type Attributes](https://msdn.microsoft.com/windows/desktop/EE35E3E7-0573-45CA-A21A-89E50B86487D)
 -   [How To Include an Application on the Open with Dialog Box](how-to-include-an-application-on-the-open-with-dialog-box.md)
 -   [How To Exclude an Application from the Open with Dialog Box for Unassociated File Types](how-to-exclude-an-application-from-the-open-with-dialog-box-for-unassociated-file-types.md)
 

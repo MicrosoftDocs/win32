@@ -49,7 +49,7 @@ An HTTPS (SSL) internet scheme.
 
 
 
-An FTP internet scheme. This scheme is only supported for use in [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md) and [**WinHttpGetProxyForUrlEx**](winhttpgetproxyforurlex.md).
+An FTP internet scheme. This scheme is only supported for use in [**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl) and [**WinHttpGetProxyForUrlEx**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurlex).
 
 
 </dt> </dl> </dd> <dt>
@@ -62,7 +62,7 @@ An FTP internet scheme. This scheme is only supported for use in [**WinHttpGetPr
 
 
 
-A SOCKS internet scheme. This scheme is only supported for use in [**WINHTTP\_PROXY\_RESULT\_ENTRY**](winhttp-proxy-result-entry.md).
+A SOCKS internet scheme. This scheme is only supported for use in [**WINHTTP\_PROXY\_RESULT\_ENTRY**](/windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result_entry).
 
 
 </dt> </dl> </dd> </dl>
@@ -83,7 +83,7 @@ A SOCKS internet scheme. This scheme is only supported for use in [**WINHTTP\_PR
 
 <dl> <dt>
 
-[**WINHTTP\_PROXY\_RESULT\_ENTRY**](winhttp-proxy-result-entry.md)
+[**WINHTTP\_PROXY\_RESULT\_ENTRY**](/windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result_entry)
 </dt> </dl>
 
  

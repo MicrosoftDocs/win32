@@ -27,7 +27,7 @@ This section presents information about how to create interface definition langu
 -   [Importing Files and Type Libraries](importing-files-and-type-libraries.md)
 -   [Importing System Header Files](importing-system-header-files.md)
 
-For related information on creating COM interfaces, see [Defining COM Interfaces](8a94bd7d-d101-411c-97de-9e9a46bf9591). For information on creating RPC interfaces, see [Developing the Interface](https://msdn.microsoft.com/library/windows/desktop/aa373635) and [Data and Language Features](https://msdn.microsoft.com/library/windows/desktop/aa373621).
+For related information on creating COM interfaces, see [Defining COM Interfaces](https://msdn.microsoft.com/windows/desktop/8a94bd7d-d101-411c-97de-9e9a46bf9591). For information on creating RPC interfaces, see [Developing the Interface](https://msdn.microsoft.com/library/windows/desktop/aa373635) and [Data and Language Features](https://msdn.microsoft.com/library/windows/desktop/aa373621).
 
  
 

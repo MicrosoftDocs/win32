@@ -34,8 +34,8 @@ The following functions are part of the URL:
 
 The following structures are part of the URL:
 
--   [**WS\_HTTPS\_URL**](ws-https-url.md)
--   [**WS\_HTTP\_URL**](ws-http-url.md)
+-   [**WS\_HTTPS\_URL**](/windows/desktop/api/WebServices/ns-webservices-_ws_https_url)
+-   [**WS\_HTTP\_URL**](/windows/desktop/api/WebServices/ns-webservices-_ws_http_url)
 -   [**WS\_NETPIPE\_URL**](/windows/desktop/api/WebServices/ns-webservices-_ws_namedpipe_sspi_transport_security_binding)
 -   [**WS\_NETTCP\_URL**](/windows/desktop/api/WebServices/ns-webservices-_ws_nettcp_url)
 -   [**WS\_SOAPUDP\_URL**](/windows/desktop/api/WebServices/ns-webservices-_ws_soapudp_url)

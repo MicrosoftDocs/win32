@@ -34,14 +34,14 @@ DWORD APIENTRY NtGdiDdSetColorKey(
 *hSurface* \[in\]
 </dt> <dd>
 
-Pointer to the [**DD\_SURFACE\_LOCAL**](45a41cec-0257-4e26-809d-c2fc4c247328) structure that describes the surface with which the color key is to be associated.
+Pointer to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/windows/desktop/45a41cec-0257-4e26-809d-c2fc4c247328) structure that describes the surface with which the color key is to be associated.
 
 </dd> <dt>
 
 *puSetColorKeyData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_SETCOLORKEYDATA**](08d17ac7-a5d4-47ed-9ee4-896471b46769) structure that contains the information required to set the color key for the specified surface.
+Pointer to a [**DD\_SETCOLORKEYDATA**](https://msdn.microsoft.com/windows/desktop/08d17ac7-a5d4-47ed-9ee4-896471b46769) structure that contains the information required to set the color key for the specified surface.
 
 </dd> </dl>
 

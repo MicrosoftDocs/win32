@@ -107,9 +107,9 @@ ms.date: 05/31/2018
 
 # Query Info Flags
 
-The following lists contain the attributes and modifiers used by [**HttpQueryInfo**](httpqueryinfo.md) and [**QueryInfo**](https://msdn.microsoft.com/library/ms774972).
+The following lists contain the attributes and modifiers used by [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) and [**QueryInfo**](https://msdn.microsoft.com/library/ms774972).
 
-The attribute flags are used by [**HttpQueryInfo**](httpqueryinfo.md) (or [**QueryInfo**](https://msdn.microsoft.com/library/ms774972)) to indicate what data to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as [HTTP\_QUERY\_RAW\_HEADERS](#http-query-raw-headers), that are not related to a specific header.
+The attribute flags are used by [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) (or [**QueryInfo**](https://msdn.microsoft.com/library/ms774972)) to indicate what data to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as [HTTP\_QUERY\_RAW\_HEADERS](#http-query-raw-headers), that are not related to a specific header.
 
 <dl> <dt>
 
@@ -433,7 +433,7 @@ No longer supported.
 
 
 
-Causes [**HttpQueryInfo**](httpqueryinfo.md) to search for the header name specified in *lpvBuffer* and store the header data in *lpvBuffer*.
+Causes [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) to search for the header name specified in *lpvBuffer* and store the header data in *lpvBuffer*.
 
 
 </dt> </dl> </dd> <dt>
@@ -1218,7 +1218,7 @@ Retrieves the X-XSS-Protection header value.
 
 </dt> </dl> </dd> </dl>
 
-The modifier flags are used in conjunction with an attribute flag to modify the request. Modifier flags either modify the format of the data returned or indicate where [**HttpQueryInfo**](httpqueryinfo.md) (or [**QueryInfo**](https://msdn.microsoft.com/library/ms774972)) should search for the data.
+The modifier flags are used in conjunction with an attribute flag to modify the request. Modifier flags either modify the format of the data returned or indicate where [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) (or [**QueryInfo**](https://msdn.microsoft.com/library/ms774972)) should search for the data.
 
 <dl> <dt>
 
