@@ -46,7 +46,7 @@ HKEY_CLASSES_ROOT - CLSID - <CLSID>
 
 
 
-**&lt;CLSID&gt;** is the string representation of the CLSID as produced by the [**StringFromCLSID**](61210ebd-cbf3-4e78-b077-53d2779053eb) function. Under the **&lt;CLSID&gt;** key, there is an **InProcServer32** key that identifies the object as a 32-bit in-proc server. Under the **InProcServer32** key, the location of the DLL is specified in the default value and the threading model is specified in the **ThreadingModel** value. All notification handlers must use the **Apartment** threading model.
+**&lt;CLSID&gt;** is the string representation of the CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/windows/desktop/61210ebd-cbf3-4e78-b077-53d2779053eb) function. Under the **&lt;CLSID&gt;** key, there is an **InProcServer32** key that identifies the object as a 32-bit in-proc server. Under the **InProcServer32** key, the location of the DLL is specified in the default value and the threading model is specified in the **ThreadingModel** value. All notification handlers must use the **Apartment** threading model.
 
 ## Registering a Notification Handler with an Active Directory Server
 
@@ -63,7 +63,7 @@ Notification handlers are registered under the **dsUIAdminNotification** attribu
 
 The "&lt;order number&gt;" is an unsigned number that represents the position of the handler in the confirmation dialog. When the confirmation dialog is displayed, the values are sorted using a comparison of each value's "&lt;order number&gt;". If more than one value has the same "&lt;order number&gt;", those handlers are displayed in the order they are read from the Active Directory server. A non-existing, that is, one not used by other values in the property, "&lt;order number&gt;" should be used if possible. There is no prescribed starting position, and gaps can appear in the "&lt;order number&gt;" sequence.
 
-The "&lt;CLSID&gt;" is the string representation of the CLSID as produced by the [**StringFromCLSID**](61210ebd-cbf3-4e78-b077-53d2779053eb) function.
+The "&lt;CLSID&gt;" is the string representation of the CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/windows/desktop/61210ebd-cbf3-4e78-b077-53d2779053eb) function.
 
  
 

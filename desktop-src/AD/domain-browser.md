@@ -19,11 +19,11 @@ ms.date: 05/31/2018
 
 Using the [**IDsBrowseDomainTree**](/windows/desktop/api/Dsclient/) interface, an application can display a domain browser dialog box and obtain the DNS name of the domain selected by the user. An application can also use the **IDsBrowseDomainTree** interface to obtain data about all domain trees and domains within a forest.
 
-An instance of the [**IDsBrowseDomainTree**](/windows/desktop/api/Dsclient/) interface is created by calling [**CoCreateInstance**](7295a55b-12c7-4ed0-a7a4-9ecee16afdec) with the **CLSID\_DsDomainTreeBrowser** class identifier as shown below.
+An instance of the [**IDsBrowseDomainTree**](/windows/desktop/api/Dsclient/) interface is created by calling [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) with the **CLSID\_DsDomainTreeBrowser** class identifier as shown below.
 
 The [**IDsBrowseDomainTree::SetComputer**](/windows/desktop/api/Dsclient/) method can be used to specify which computer and credentials are used as the basis for retrieving the domain data. When **SetComputer** is called on a particular [**IDsBrowseDomainTree**](/windows/desktop/api/Dsclient/) instance, [**IDsBrowseDomainTree::FlushCachedDomains**](/windows/desktop/api/Dsclient/) must be called before **SetComputer** is called again.
 
-The [**IDsBrowseDomainTree::BrowseTo**](/windows/desktop/api/Dsclient/) method is used to display the domain browser dialog box. When the user selects a domain and clicks the **OK** button, the **IDsBrowseDomainTree::BrowseTo** returns **S\_OK** and the *ppszTargetPath* parameter contains the name of the selected domain. When the name string is no longer required, the caller must free the string by calling [**CoTaskMemFree**](3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7).
+The [**IDsBrowseDomainTree::BrowseTo**](/windows/desktop/api/Dsclient/) method is used to display the domain browser dialog box. When the user selects a domain and clicks the **OK** button, the **IDsBrowseDomainTree::BrowseTo** returns **S\_OK** and the *ppszTargetPath* parameter contains the name of the selected domain. When the name string is no longer required, the caller must free the string by calling [**CoTaskMemFree**](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7).
 
 The following code example shows how to use the [**IDsBrowseDomainTree**](/windows/desktop/api/Dsclient/) interface to display the domain browser dialog box.
 

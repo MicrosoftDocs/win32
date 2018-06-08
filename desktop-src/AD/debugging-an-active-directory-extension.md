@@ -19,7 +19,7 @@ The Microsoft Active Directory directory service property sheet, context menu, a
 
 ## Debugging Active Directory Extensions Displayed in the Windows Shell
 
-Active Directory extensions displayed in the Windows shell are loaded in the context of the Explorer.exe process. These extensions can be debugged like a standard shell extension. For more information about debugging shell extensions, see [Debugging with the Shell](2fcaf633-9a6d-4fda-a690-28445b10a6d6).
+Active Directory extensions displayed in the Windows shell are loaded in the context of the Explorer.exe process. These extensions can be debugged like a standard shell extension. For more information about debugging shell extensions, see [Debugging with the Shell](https://msdn.microsoft.com/windows/desktop/2fcaf633-9a6d-4fda-a690-28445b10a6d6).
 
 ## Debugging Active Directory Extensions Displayed in the Active Directory MMC Snap-Ins
 
@@ -37,7 +37,7 @@ When the host application is run in the debugger, the debugger may display a war
 
 In most cases, the extension will not be called until the user performs some action that causes the extension to be loaded and initialized. For example, if you are debugging a context menu extension displayed for user objects, the extension will not load until the first time the context menu for a user object is displayed.
 
-You should now be able to set breakpoints and view debug output. If the extension does not appear to load, set a breakpoint in the extension's [**DllGetClassObject**](42c08149-c251-47f7-a81f-383975d7081c) function. If **DllGetClassObject** is not called, the extension is probably not registered correctly.
+You should now be able to set breakpoints and view debug output. If the extension does not appear to load, set a breakpoint in the extension's [**DllGetClassObject**](https://msdn.microsoft.com/windows/desktop/42c08149-c251-47f7-a81f-383975d7081c) function. If **DllGetClassObject** is not called, the extension is probably not registered correctly.
 
 When the debug is complete, exit MMC and the debugger should unload normally.
 
