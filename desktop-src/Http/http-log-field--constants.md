@@ -47,7 +47,7 @@ ms.date: 05/31/2018
 
 The **HTTP\_LOG\_FIELD\_** constants define the fields in the W3C log and the error logs.
 
-These constants are used in the [**HTTP\_LOGGING\_INFO**](http-logging-info.md) structure.
+These constants are used in the [**HTTP\_LOGGING\_INFO**](/windows/desktop/api/Http/ns-http-_http_logging_info) structure.
 
 <dl> <dt>
 
@@ -344,19 +344,19 @@ The name of the request queue to which the request is dispatched. This log field
 [HTTP Server API Version 2.0 Constants](http-server-api-version-2-0-constants.md)
 </dt> <dt>
 
-[**HTTP\_LOGGING\_INFO**](http-logging-info.md)
+[**HTTP\_LOGGING\_INFO**](/windows/desktop/api/Http/ns-http-_http_logging_info)
 </dt> <dt>
 
-[**HttpSetUrlGroupProperty**](httpseturlgroupproperty.md)
+[**HttpSetUrlGroupProperty**](/windows/desktop/api/Http/nf-http-httpseturlgroupproperty)
 </dt> <dt>
 
-[**HttpSetServerSessionProperty**](httpsetserversessionproperty.md)
+[**HttpSetServerSessionProperty**](/windows/desktop/api/Http/nf-http-httpsetserversessionproperty)
 </dt> <dt>
 
-[**HttpQueryUrlGroupProperty**](httpqueryurlgroupproperty.md)
+[**HttpQueryUrlGroupProperty**](/windows/desktop/api/Http/nf-http-httpqueryurlgroupproperty)
 </dt> <dt>
 
-[**HttpQueryServerSessionProperty**](httpqueryserversessionproperty.md)
+[**HttpQueryServerSessionProperty**](/windows/desktop/api/Http/nf-http-httpqueryserversessionproperty)
 </dt> </dl>
 
  

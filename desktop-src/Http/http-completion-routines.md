@@ -15,7 +15,7 @@ Applications have several options for receiving completion indications and provi
 
 ## Blocked I/O
 
-Applications can block while waiting for the API call to complete by setting the [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure to **NULL**. This truly blocks all operations on the thread. For example, in calls to [**HttpWaitForDisconnect**](httpwaitfordisconnect.md), the call blocks until the connection is broken.
+Applications can block while waiting for the API call to complete by setting the [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure to **NULL**. This truly blocks all operations on the thread. For example, in calls to [**HttpWaitForDisconnect**](/windows/desktop/api/Http/nf-http-httpwaitfordisconnect), the call blocks until the connection is broken.
 
 ## Asynchronous I/O
 
@@ -39,7 +39,7 @@ Some of the functions that use the [**OVERLAPPED**](https://msdn.microsoft.com/l
 
 If the event object is used for asynchronous completion, the [**GetOverlappedResult**](https://msdn.microsoft.com/library/windows/desktop/ms683209) function is called to determine the number of bytes read. If the completion port is used (the *hFile* parameter is associated with an I/O completion port), the application calls the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/library/windows/desktop/aa364986) function to determine the number of bytes read. If the asynchronous operations have not completed, applications can call the [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function to obtain extended error information.
 
-The following table summarizes the completion behavior for synchronous and asynchronous completion in functions such as [**HttpReceiveHttpRequest**](httpreceivehttprequest.md) that use the *pBytesReceived* parameter.
+The following table summarizes the completion behavior for synchronous and asynchronous completion in functions such as [**HttpReceiveHttpRequest**](/windows/desktop/api/Http/nf-http-httpreceivehttprequest) that use the *pBytesReceived* parameter.
 
 
 

@@ -19,7 +19,7 @@ For more information about specific configuration objects in HTTP Server version
 -   [Configuring the URL Group](configuring-the-url-group.md)
 -   [Configuring the HTTP Server API Wide Timers](configuring-the-http-server-api-wide-timers.md)
 
-Properties for the configuration objects are set with the [**HttpSetServerSessionProperty**](httpsetserversessionproperty.md), the [**HttpSetUrlGroupProperty**](httpseturlgroupproperty.md) and the [**HttpSetRequestQueueProperty**](httpsetrequestqueueproperty.md) as shown in the diagram below. The association between the request queue and the URL Group can be changed on demand whereas the association between the Server Session and the URL Groups cannot be changed. The URL Groups must be associated with a request queue to receive requests.
+Properties for the configuration objects are set with the [**HttpSetServerSessionProperty**](/windows/desktop/api/Http/nf-http-httpsetserversessionproperty), the [**HttpSetUrlGroupProperty**](/windows/desktop/api/Http/nf-http-httpseturlgroupproperty) and the [**HttpSetRequestQueueProperty**](/windows/desktop/api/Http/nf-http-httpsetrequestqueueproperty) as shown in the diagram below. The association between the request queue and the URL Group can be changed on demand whereas the association between the Server Session and the URL Groups cannot be changed. The URL Groups must be associated with a request queue to receive requests.
 
 ![properties for the configuration objects](images/configpropinv2.png)
 
@@ -37,21 +37,21 @@ The following table lists the properties that can be set on each configuration o
 
  
 
-The server session properties are defined in the [HTTP\_SERVER\_PROPERTY](http-server-property.md) enumeration. The following table lists the property structures that are set for each property type and the HTTP Server API default when these properties are not set by the application.
+The server session properties are defined in the [HTTP\_SERVER\_PROPERTY](/windows/desktop/api/Http/ne-http-_http_server_property) enumeration. The following table lists the property structures that are set for each property type and the HTTP Server API default when these properties are not set by the application.
 
 
 
 | Property                                                    | Structure                                                                     | HTTP Server API Default    |
 |-------------------------------------------------------------|-------------------------------------------------------------------------------|----------------------------|
-| HttpServerAuthenticatonProperty                             | [**HTTP\_SERVER\_AUTHENTICATION\_INFO**](http-server-authentication-info.md) | No Authentication          |
-| HttpServerLoggingProperty                                   | [**HTTP\_LOGGING\_INFO**](http-logging-info.md)                              | No Logging                 |
-| HttpServerQosProperty-&gt;HttpQosSettingTypeConnectionLimit | [**HTTP\_CONNECTION\_LIMIT\_INFO**](http-connection-limit-info.md)           | No Limit                   |
-| HttpServerTimeoutsProperty                                  | [**HTTP\_TIMEOUT\_LIMIT\_INFO**](http-timeout-limit-info.md)                 | 120 sec.                   |
-| HttpServerQosProperty-&gt;HttpQosSettingTypeBandwidth       | [**HTTP\_BANDWIDTH\_LIMIT\_INFO**](http-bandwidth-limit-info.md)             | No Limit                   |
+| HttpServerAuthenticatonProperty                             | [**HTTP\_SERVER\_AUTHENTICATION\_INFO**](/windows/desktop/api/Http/ns-http-_http_server_authentication_info) | No Authentication          |
+| HttpServerLoggingProperty                                   | [**HTTP\_LOGGING\_INFO**](/windows/desktop/api/Http/ns-http-_http_logging_info)                              | No Logging                 |
+| HttpServerQosProperty-&gt;HttpQosSettingTypeConnectionLimit | [**HTTP\_CONNECTION\_LIMIT\_INFO**](/windows/desktop/api/Http/ns-http-_http_connection_limit_info)           | No Limit                   |
+| HttpServerTimeoutsProperty                                  | [**HTTP\_TIMEOUT\_LIMIT\_INFO**](/windows/desktop/api/Http/ns-http-_http_timeout_limit_info)                 | 120 sec.                   |
+| HttpServerQosProperty-&gt;HttpQosSettingTypeBandwidth       | [**HTTP\_BANDWIDTH\_LIMIT\_INFO**](/windows/desktop/api/Http/ns-http-_http_bandwidth_limit_info)             | No Limit                   |
 | HttpServerQueueLengthProperty                               | ULONG                                                                         | 1000                       |
-| HttpServerStateProperty                                     | [**HTTP\_STATE\_INFO**](http-state-info.md)                                  | Enabled                    |
-| HttpServer503VerbosityProperty                              | [**HTTP\_503\_RESPONSE\_VERBOSITY**](http-503-response-verbosity.md)         | HttpResponseVerbosityBasic |
-| HttpServerBindingProperty                                   | [**HTTP\_BINDING\_INFO**](http-binding-info.md)                              | None                       |
+| HttpServerStateProperty                                     | [**HTTP\_STATE\_INFO**](/windows/desktop/api/Http/ns-http-_http_state_info)                                  | Enabled                    |
+| HttpServer503VerbosityProperty                              | [**HTTP\_503\_RESPONSE\_VERBOSITY**](/windows/desktop/api/Http/ne-http-_http_503_response_verbosity)         | HttpResponseVerbosityBasic |
+| HttpServerBindingProperty                                   | [**HTTP\_BINDING\_INFO**](/windows/desktop/api/Http/ns-http-_http_binding_info)                              | None                       |
 
 
 

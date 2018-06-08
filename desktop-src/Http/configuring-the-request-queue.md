@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Configuring the Request Queue
 
-When the request queue is opened or created, the calling application receives a handle to it that can be used to send requests or configure the request queue. Calling [**HttpSetUrlGroupProperty**](httpseturlgroupproperty.md) with **HttpServerBindingProperty** and supplying the request queue handle in the [**HTTP\_BINDING\_INFO**](http-binding-info.md) structure, specified in the *pPropertyInformation* parameter, associates the URL group with the request queue. Request queue properties are set only by the application that creates the request queue. For example, to set the server queue length property, the creator application calls [**HttpSetRequestQueueProperty**](httpsetrequestqueueproperty.md) specifying **HttpServerQueueLengthProperty** in the *Property* parameter.
+When the request queue is opened or created, the calling application receives a handle to it that can be used to send requests or configure the request queue. Calling [**HttpSetUrlGroupProperty**](/windows/desktop/api/Http/nf-http-httpseturlgroupproperty) with **HttpServerBindingProperty** and supplying the request queue handle in the [**HTTP\_BINDING\_INFO**](/windows/desktop/api/Http/ns-http-_http_binding_info) structure, specified in the *pPropertyInformation* parameter, associates the URL group with the request queue. Request queue properties are set only by the application that creates the request queue. For example, to set the server queue length property, the creator application calls [**HttpSetRequestQueueProperty**](/windows/desktop/api/Http/nf-http-httpsetrequestqueueproperty) specifying **HttpServerQueueLengthProperty** in the *Property* parameter.
 
  
 

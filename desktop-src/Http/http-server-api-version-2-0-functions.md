@@ -22,10 +22,10 @@ The HTTP Server API version 2.0 provides the following functions.
 
 | Function                                                                 | Description |
 |--------------------------------------------------------------------------|-------------|
-| [**HttpCloseServerSession**](httpcloseserversession.md)                 |             |
-| [**HttpCreateServerSession**](httpcreateserversession.md)               |             |
-| [**HttpQueryServerSessionProperty**](httpqueryserversessionproperty.md) |             |
-| [**HttpSetServerSessionProperty**](httpsetserversessionproperty.md)     |             |
+| [**HttpCloseServerSession**](/windows/desktop/api/Http/nf-http-httpcloseserversession)                 |             |
+| [**HttpCreateServerSession**](/windows/desktop/api/Http/nf-http-httpcreateserversession)               |             |
+| [**HttpQueryServerSessionProperty**](/windows/desktop/api/Http/nf-http-httpqueryserversessionproperty) |             |
+| [**HttpSetServerSessionProperty**](/windows/desktop/api/Http/nf-http-httpsetserversessionproperty)     |             |
 
 
 
@@ -37,12 +37,12 @@ The HTTP Server API version 2.0 provides the following functions.
 
 | Function                                                       | Description |
 |----------------------------------------------------------------|-------------|
-| [**HttpAddUrlToUrlGroup**](httpaddurltourlgroup.md)           |             |
-| [**HttpCreateUrlGroup**](httpcreateurlgroup.md)               |             |
-| [**HttpCloseUrlGroup**](httpcloseurlgroup.md)                 |             |
-| [**HttpQueryUrlGroupProperty**](httpqueryurlgroupproperty.md) |             |
-| [**HttpRemoveUrlFromUrlGroup**](httpremoveurlfromurlgroup.md) |             |
-| [**HttpSetUrlGroupProperty**](httpseturlgroupproperty.md)     |             |
+| [**HttpAddUrlToUrlGroup**](/windows/desktop/api/Http/nf-http-httpaddurltourlgroup)           |             |
+| [**HttpCreateUrlGroup**](/windows/desktop/api/Http/nf-http-httpcreateurlgroup)               |             |
+| [**HttpCloseUrlGroup**](/windows/desktop/api/Http/nf-http-httpcloseurlgroup)                 |             |
+| [**HttpQueryUrlGroupProperty**](/windows/desktop/api/Http/nf-http-httpqueryurlgroupproperty) |             |
+| [**HttpRemoveUrlFromUrlGroup**](/windows/desktop/api/Http/nf-http-httpremoveurlfromurlgroup) |             |
+| [**HttpSetUrlGroupProperty**](/windows/desktop/api/Http/nf-http-httpseturlgroupproperty)     |             |
 
 
 
@@ -54,12 +54,12 @@ The HTTP Server API version 2.0 provides the following functions.
 
 | Function                                                               | Description |
 |------------------------------------------------------------------------|-------------|
-| [**HttpCloseRequestQueue**](httpcloserequestqueue.md)                 |             |
-| [**HttpCreateRequestQueue**](httpcreaterequestqueue.md)               |             |
-| [**HttpQueryRequestQueueProperty**](httpqueryrequestqueueproperty.md) |             |
-| [**HttpSetRequestQueueProperty**](httpsetrequestqueueproperty.md)     |             |
-| [**HttpShutdownRequestQueue**](httpshutdownrequestqueue.md)           |             |
-| [**HttpWaitForDemandStart**](httpwaitfordemandstart.md)               |             |
+| [**HttpCloseRequestQueue**](/windows/desktop/api/Http/nf-http-httpcloserequestqueue)                 |             |
+| [**HttpCreateRequestQueue**](/windows/desktop/api/Http/nf-http-httpcreaterequestqueue)               |             |
+| [**HttpQueryRequestQueueProperty**](/windows/desktop/api/Http/nf-http-httpqueryrequestqueueproperty) |             |
+| [**HttpSetRequestQueueProperty**](/windows/desktop/api/Http/nf-http-httpsetrequestqueueproperty)     |             |
+| [**HttpShutdownRequestQueue**](/windows/desktop/api/Http/nf-http-httpshutdownrequestqueue)           |             |
+| [**HttpWaitForDemandStart**](/windows/desktop/api/Http/nf-http-httpwaitfordemandstart)               |             |
 
 
 

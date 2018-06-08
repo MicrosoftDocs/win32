@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Configuring the HTTP Server API Wide Timers
 
-The HTTP Server API-wide **HeaderWait** and **IdleConnection** timers are configured by calling the version 1.0 [**HttpSetServiceConfiguration**](httpsetserviceconfiguration.md) function. The *ConfigId* parameter is set to **HttpServiceConfigTimeout** and the *pConfigInformation* parameter specifies the [**HTTP\_SERVICE\_CONFIG\_TIMEOUT\_SET**](http-service-config-timeout-set.md) structure that contains the timer that is set and the value for the timer.
+The HTTP Server API-wide **HeaderWait** and **IdleConnection** timers are configured by calling the version 1.0 [**HttpSetServiceConfiguration**](/windows/desktop/api/Http/nf-http-httpsetserviceconfiguration) function. The *ConfigId* parameter is set to **HttpServiceConfigTimeout** and the *pConfigInformation* parameter specifies the [**HTTP\_SERVICE\_CONFIG\_TIMEOUT\_SET**](/windows/desktop/api/Http/ns-http-_http_service_config_timeout_set) structure that contains the timer that is set and the value for the timer.
 
-Configuring the HTTP Server API-wide timeouts requires administrative privileges, however querying them does not. These configurations are set for all applications on the computer and they persist when the HTTP service is restarted or the computer is restarted. To query existing HTTP Server API-wide timeouts, the application calls [**HttpQueryServiceConfiguration**](httpqueryserviceconfiguration.md).
+Configuring the HTTP Server API-wide timeouts requires administrative privileges, however querying them does not. These configurations are set for all applications on the computer and they persist when the HTTP service is restarted or the computer is restarted. To query existing HTTP Server API-wide timeouts, the application calls [**HttpQueryServiceConfiguration**](/windows/desktop/api/Http/nf-http-httpqueryserviceconfiguration).
 
  
 

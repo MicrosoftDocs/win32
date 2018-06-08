@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 
 The **HTTP\_LOGGING\_FLAG\_** constants define the options to configure logging on the HTTP Server API.
 
-These constants are used in the [**HTTP\_LOGGING\_INFO**](http-logging-info.md) structure.
+These constants are used in the [**HTTP\_LOGGING\_INFO**](/windows/desktop/api/Http/ns-http-_http_logging_info) structure.
 
 <dl> <dt>
 
@@ -91,19 +91,19 @@ This flag cannot be set if the **HTTP\_LOGGING\_FLAG\_LOG\_ERRORS\_ONLY** flag i
 [HTTP Server API Version 2.0 Constants](http-server-api-version-2-0-constants.md)
 </dt> <dt>
 
-[**HTTP\_LOGGING\_INFO**](http-logging-info.md)
+[**HTTP\_LOGGING\_INFO**](/windows/desktop/api/Http/ns-http-_http_logging_info)
 </dt> <dt>
 
-[**HttpSetUrlGroupProperty**](httpseturlgroupproperty.md)
+[**HttpSetUrlGroupProperty**](/windows/desktop/api/Http/nf-http-httpseturlgroupproperty)
 </dt> <dt>
 
-[**HttpSetServerSessionProperty**](httpsetserversessionproperty.md)
+[**HttpSetServerSessionProperty**](/windows/desktop/api/Http/nf-http-httpsetserversessionproperty)
 </dt> <dt>
 
-[**HttpQueryUrlGroupProperty**](httpqueryurlgroupproperty.md)
+[**HttpQueryUrlGroupProperty**](/windows/desktop/api/Http/nf-http-httpqueryurlgroupproperty)
 </dt> <dt>
 
-[**HttpQueryServerSessionProperty**](httpqueryserversessionproperty.md)
+[**HttpQueryServerSessionProperty**](/windows/desktop/api/Http/nf-http-httpqueryserversessionproperty)
 </dt> </dl>
 
  

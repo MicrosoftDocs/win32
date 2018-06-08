@@ -17,10 +17,10 @@ ms.date: 05/31/2018
 
 The version of the **HTTP\_RESPONSE** structure is dependent on the version of the request queue used as follows:
 
--   HTTP Server API Version 1.0 request queue: This is an [**HTTP\_REQUEST\_V1**](http-request-v1.md) structure.
--   HTTP Server API Version 2.0 request queue: This is an [**HTTP\_REQUEST\_V2**](http-request-v2.md) structure.
+-   HTTP Server API Version 1.0 request queue: This is an [**HTTP\_REQUEST\_V1**](/windows/desktop/api/Http/ns-http-_http_request_v1) structure.
+-   HTTP Server API Version 2.0 request queue: This is an [**HTTP\_REQUEST\_V2**](/windows/desktop/api/Http/ns-http-_http_request_v2) structure.
 
-Do not use [**HTTP\_REQUEST\_V1**](http-request-v1.md) and [**HTTP\_REQUEST\_V2**](http-request-v2.md) directly in your code; using **HTTP\_RESPONSE** instead ensures the proper version of the structure is used based on the version of the request queue.
+Do not use [**HTTP\_REQUEST\_V1**](/windows/desktop/api/Http/ns-http-_http_request_v1) and [**HTTP\_REQUEST\_V2**](/windows/desktop/api/Http/ns-http-_http_request_v2) directly in your code; using **HTTP\_RESPONSE** instead ensures the proper version of the structure is used based on the version of the request queue.
 
 
 ```C++

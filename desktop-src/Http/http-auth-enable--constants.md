@@ -28,7 +28,7 @@ ms.date: 05/31/2018
 
 The **HTTP\_AUTH\_ENABLE** constants define authentication schemes that can be enabled on a URL Group.
 
-These constants are used in the [**HTTP\_SERVER\_AUTHENTICATION\_INFO**](http-server-authentication-info.md) structure.
+These constants are used in the [**HTTP\_SERVER\_AUTHENTICATION\_INFO**](/windows/desktop/api/Http/ns-http-_http_server_authentication_info) structure.
 
 <dl> <dt>
 
@@ -135,19 +135,19 @@ All authentication schemes are enabled.
 [HTTP Server API Version 2.0 Constants](http-server-api-version-2-0-constants.md)
 </dt> <dt>
 
-[**HTTP\_SERVER\_AUTHENTICATION\_INFO**](http-server-authentication-info.md)
+[**HTTP\_SERVER\_AUTHENTICATION\_INFO**](/windows/desktop/api/Http/ns-http-_http_server_authentication_info)
 </dt> <dt>
 
-[**HttpSetUrlGroupProperty**](httpseturlgroupproperty.md)
+[**HttpSetUrlGroupProperty**](/windows/desktop/api/Http/nf-http-httpseturlgroupproperty)
 </dt> <dt>
 
-[**HttpSetServerSessionProperty**](httpsetserversessionproperty.md)
+[**HttpSetServerSessionProperty**](/windows/desktop/api/Http/nf-http-httpsetserversessionproperty)
 </dt> <dt>
 
-[**HttpQueryUrlGroupProperty**](httpqueryurlgroupproperty.md)
+[**HttpQueryUrlGroupProperty**](/windows/desktop/api/Http/nf-http-httpqueryurlgroupproperty)
 </dt> <dt>
 
-[**HttpQueryServerSessionProperty**](httpqueryserversessionproperty.md)
+[**HttpQueryServerSessionProperty**](/windows/desktop/api/Http/nf-http-httpqueryserversessionproperty)
 </dt> </dl>
 
  

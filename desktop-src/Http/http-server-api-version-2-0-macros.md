@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 The HTTP Server API defines the following macros to manipulate the HTTP Server API identifiers:
 
--   [**HTTP\_IS\_NULL\_ID**](http-is-null-id.md)
--   [**HTTP\_NULL\_ID**](http-null-id.md)
--   [**HTTP\_SET\_NULL\_ID**](http-set-null-id.md)
+-   [**HTTP\_IS\_NULL\_ID**](/windows/desktop/api/http/nf-http-http_is_null_id)
+-   [**HTTP\_NULL\_ID**](/windows/desktop/api/http/)
+-   [**HTTP\_SET\_NULL\_ID**](/windows/desktop/api/http/nf-http-http_set_null_id)
 
  
 

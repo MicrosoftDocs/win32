@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 The **HTTP\_RESPONSE\_FLAG\_** constants define options to configure responses in the HTTP Server API.
 
-These constants are used in the **Flags** member of the [**HTTP\_RESPONSE\_V1**](http-response-v1.md) structure.
+These constants are used in the **Flags** member of the [**HTTP\_RESPONSE\_V1**](/windows/desktop/api/Http/ns-http-_http_response_v1) structure.
 
 <dl> <dt>
 
@@ -54,7 +54,7 @@ Encodings other than identity form are available for this resource. This flag is
 [HTTP Server API Version 2.0 Constants](http-server-api-version-2-0-constants.md)
 </dt> <dt>
 
-[**HTTP\_RESPONSE\_V1**](http-response-v1.md)
+[**HTTP\_RESPONSE\_V1**](/windows/desktop/api/Http/ns-http-_http_response_v1)
 </dt> </dl>
 
  

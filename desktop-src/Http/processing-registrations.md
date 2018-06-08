@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Processing Registrations
 
-The HTTP Server APIs use the routing database to apply access checks during registrations. A registration for a [UrlPrefix](urlprefix-strings.md) must pass a series of access checks to ensure that the user registering for the namespace has access rights. Use the [**HttpAddUrl**](httpaddurl.md) function to add a new registration.
+The HTTP Server APIs use the routing database to apply access checks during registrations. A registration for a [UrlPrefix](urlprefix-strings.md) must pass a series of access checks to ensure that the user registering for the namespace has access rights. Use the [**HttpAddUrl**](/windows/desktop/api/Http/nf-http-httpaddurl) function to add a new registration.
 
 **To add a new registration with HttpAddUrl**
 
@@ -30,7 +30,7 @@ The following examples illustrate the process to install a registration in the r
 -   Registration: http://+:80/vroot/subdir/ by User A succeeds due to reservation 1.
 -   Registration: http://adatum.com:80/vroot/anotherdir/ by User B succeeds due to reservation 2.
 
-The access check for registration does not include checks for delegation privileges. There are no access checks based on reservations (see [**HttpRemoveUrl**](httpremoveurl.md)). The only requirement for deleting a registration us that the calling process must have created the registration.
+The access check for registration does not include checks for delegation privileges. There are no access checks based on reservations (see [**HttpRemoveUrl**](/windows/desktop/api/Http/nf-http-httpremoveurl)). The only requirement for deleting a registration us that the calling process must have created the registration.
 
  
 

@@ -13,19 +13,19 @@ ms.date: 05/31/2018
 
 The following are the HTTP version 2.0 enumeration types:
 
--   [**HTTP\_503\_RESPONSE\_VERBOSITY**](http-503-response-verbosity.md)
--   [**HTTP\_AUTH\_STATUS**](http-auth-status.md)
--   [**HTTP\_ENABLED\_STATE**](http-enabled-state.md)
--   [**HTTP\_LOG\_DATA\_TYPE**](http-log-data-type.md)
--   [**HTTP\_LOGGING\_ROLLOVER\_TYPE**](http-logging-rollover-type.md)
--   [**HTTP\_LOGGING\_TYPE**](http-logging-type.md)
--   [**HTTP\_QOS\_SETTING\_TYPE**](http-qos-setting-type.md)
--   [**HTTP\_REQUEST\_AUTH\_TYPE**](http-request-auth-type.md)
--   [**HTTP\_REQUEST\_INFO\_TYPE**](http-request-info-type.md)
--   [**HTTP\_RESPONSE\_INFO\_TYPE**](http-response-info-type.md)
--   [**HTTP\_SERVER\_PROPERTY**](http-server-property.md)
--   [**HTTP\_SERVICE\_CONFIG\_CACHE\_KEY**](http-service-config-cache-key.md)
--   [**HTTP\_SERVICE\_CONFIG\_TIMEOUT\_KEY**](http-service-config-timeout-key.md)
+-   [**HTTP\_503\_RESPONSE\_VERBOSITY**](/windows/desktop/api/Http/ne-http-_http_503_response_verbosity)
+-   [**HTTP\_AUTH\_STATUS**](/windows/desktop/api/Http/ne-http-_http_auth_status)
+-   [**HTTP\_ENABLED\_STATE**](/windows/desktop/api/Http/ne-http-_http_enabled_state)
+-   [**HTTP\_LOG\_DATA\_TYPE**](/windows/desktop/api/Http/ne-http-_http_log_data_type)
+-   [**HTTP\_LOGGING\_ROLLOVER\_TYPE**](/windows/desktop/api/Http/ne-http-_http_logging_rollover_type)
+-   [**HTTP\_LOGGING\_TYPE**](/windows/desktop/api/Http/ne-http-_http_logging_type)
+-   [**HTTP\_QOS\_SETTING\_TYPE**](/windows/desktop/api/Http/ne-http-_http_qos_setting_type)
+-   [**HTTP\_REQUEST\_AUTH\_TYPE**](/windows/desktop/api/Http/ne-http-_http_request_auth_type)
+-   [**HTTP\_REQUEST\_INFO\_TYPE**](/windows/desktop/api/Http/ne-http-_http_request_info_type)
+-   [**HTTP\_RESPONSE\_INFO\_TYPE**](/windows/desktop/api/Http/ne-http-_http_response_info_type)
+-   [**HTTP\_SERVER\_PROPERTY**](/windows/desktop/api/Http/ne-http-_http_server_property)
+-   [**HTTP\_SERVICE\_CONFIG\_CACHE\_KEY**](/windows/desktop/api/Http/ne-http-_http_service_config_cache_key)
+-   [**HTTP\_SERVICE\_CONFIG\_TIMEOUT\_KEY**](/windows/desktop/api/Http/ne-http-_http_service_config_timeout_key)
 
  
 

@@ -39,12 +39,12 @@ In addition to the restrictions on the request, the response must also meet the 
                       UriMaxUriBytes
     ```
 
--   The entire response must be provided in a single call to [**HttpSendHttpResponse**](httpsendhttpresponse.md).
+-   The entire response must be provided in a single call to [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse).
 -   The date header on the response must not be suppressed.
 -   If the last-modified header is present, the value of the header must have the correct syntax. The time value in this header is used for cache control verification.
 -   The kernel mode cache has enough space left to store the response.
 
-By default, kernel mode response cache is enabled. If any of the conditions for the request or response listed above are not met, the response will be sent, but it will not be cached. In HTTP Server version 2.0 API, [**HttpSendHttpResponse**](httpsendhttpresponse.md) includes an optional *pCachePolicy* parameter to pass the [**HTTP\_CACHE\_POLICY**](http-cache-policy.md) structure. Applications use the cache policy structure to configure the cache.
+By default, kernel mode response cache is enabled. If any of the conditions for the request or response listed above are not met, the response will be sent, but it will not be cached. In HTTP Server version 2.0 API, [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse) includes an optional *pCachePolicy* parameter to pass the [**HTTP\_CACHE\_POLICY**](/windows/desktop/api/Http/ns-http-_http_cache_policy) structure. Applications use the cache policy structure to configure the cache.
 
  
 
