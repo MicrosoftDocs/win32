@@ -84,7 +84,7 @@ sample MENU
 
 <dl> <dt>
 
-[Using Menus](https://msdn.microsoft.com/windows/desktop/b1391e37-a146-46ec-a329-aa57cfcfd351)
+[Using Menus](b1391e37-a146-46ec-a329-aa57cfcfd351)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)

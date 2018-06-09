@@ -42,7 +42,7 @@ To access the accounting properties using C++, first obtain the request handlers
 
 The request handlers collection contains an object named "Microsoft Accounting". Retrieve this object from the collection. The section [Retrieving an Object from a Collection](https://msdn.microsoft.com/library/bb960707) contains C++ code that demonstrates how to obtain an object from a collection.
 
-Once you have the Microsoft Accounting object, obtain an [**ISdo**](https://msdn.microsoft.com/library/bb960639) interface for the object using [**IUnknown::QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d). The section [Retrieving a User SDO](https://msdn.microsoft.com/library/bb960710) contains C++ code that demonstrates how obtain an **ISdo** interface for an object. You can then use the [**ISdo::GetProperty**](https://msdn.microsoft.com/library/bb960671) method to obtain property values for the Microsoft Accounting object.
+Once you have the Microsoft Accounting object, obtain an [**ISdo**](https://msdn.microsoft.com/library/bb960639) interface for the object using [**IUnknown::QueryInterface**](54d5ff80-18db-43f2-b636-f93ac053146d). The section [Retrieving a User SDO](https://msdn.microsoft.com/library/bb960710) contains C++ code that demonstrates how obtain an **ISdo** interface for an object. You can then use the [**ISdo::GetProperty**](https://msdn.microsoft.com/library/bb960671) method to obtain property values for the Microsoft Accounting object.
 
 ## Related topics
 
@@ -60,7 +60,7 @@ Once you have the Microsoft Accounting object, obtain an [**ISdo**](https://msdn
 [**ISdo**](https://msdn.microsoft.com/library/bb960639)
 </dt> <dt>
 
-[**IUnknown::QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d)
+[**IUnknown::QueryInterface**](54d5ff80-18db-43f2-b636-f93ac053146d)
 </dt> <dt>
 
 [**IASPROPERTIES**](https://msdn.microsoft.com/library/bb960636)

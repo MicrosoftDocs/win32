@@ -11,14 +11,14 @@ ms.date: 05/31/2018
 
 # RmShutdownAndRestart ControlEvent
 
-This event notifies the Windows Installer to use the [Restart Manager](https://msdn.microsoft.com/windows/desktop/44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) to shutdown all applications that have files in use and to restart them at the end of the installation.
+This event notifies the Windows Installer to use the [Restart Manager](44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) to shutdown all applications that have files in use and to restart them at the end of the installation.
 
 This ControlEvent has no effect if any of the following are true.
 
 -   The operating system running the installation is not Windows Vista or Windows Server 2008.
--   Interactions with the [Restart Manager](https://msdn.microsoft.com/windows/desktop/44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) have been disabled by the [**MSIRESTARTMANAGERCONTROL**](msirestartmanagercontrol.md) property or the [DisableAutomaticApplicationShutdown](disableautomaticapplicationshutdown.md) policy.
--   There is currently no open [Restart Manager](https://msdn.microsoft.com/windows/desktop/44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) session.
--   Any calls from the Windows Installer to the [Restart Manager](https://msdn.microsoft.com/windows/desktop/44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) returns a failure.
+-   Interactions with the [Restart Manager](44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) have been disabled by the [**MSIRESTARTMANAGERCONTROL**](msirestartmanagercontrol.md) property or the [DisableAutomaticApplicationShutdown](disableautomaticapplicationshutdown.md) policy.
+-   There is currently no open [Restart Manager](44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) session.
+-   Any calls from the Windows Installer to the [Restart Manager](44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) returns a failure.
 
 ## Typical Use
 

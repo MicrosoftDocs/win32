@@ -25,7 +25,7 @@ This pragma is not supported in an included resource file (.rc). Therefore, if y
 #include "Japanese.rc"
 ```
 
-For a list of values for CodePageNum, see [Code Page Identifiers](https://msdn.microsoft.com/windows/desktop/5d6fc86a-f205-4d14-bb7c-ecd71682e0fe).
+For a list of values for CodePageNum, see [Code Page Identifiers](5d6fc86a-f205-4d14-bb7c-ecd71682e0fe).
 
  
 

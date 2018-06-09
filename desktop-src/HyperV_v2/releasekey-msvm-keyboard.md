@@ -33,7 +33,7 @@ uint32 ReleaseKey(
 
 Type: **uint32**
 
-The virtual key code of the key to release. For the list for virtual-key codes, see [**Virtual-Key Codes**](https://msdn.microsoft.com/windows/desktop/fa8926ad-41b2-4164-9ba3-ae501fd0eef2).
+The virtual key code of the key to release. For the list for virtual-key codes, see [**Virtual-Key Codes**](fa8926ad-41b2-4164-9ba3-ae501fd0eef2).
 
 </dd> </dl>
 
@@ -111,7 +111,7 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 [**Msvm\_Keyboard**](msvm-keyboard.md)
 </dt> <dt>
 
-[**Virtual-Key Codes**](https://msdn.microsoft.com/windows/desktop/fa8926ad-41b2-4164-9ba3-ae501fd0eef2)
+[**Virtual-Key Codes**](fa8926ad-41b2-4164-9ba3-ae501fd0eef2)
 </dt> </dl>
 
  

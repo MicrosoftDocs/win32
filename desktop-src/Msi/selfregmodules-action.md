@@ -32,7 +32,7 @@ The [InstallValidate](installvalidate-action.md) action must be called before ca
 
 ## Remarks
 
-The SelfRegModules action attempts to call the [DllRegisterServer](https://msdn.microsoft.com/windows/desktop/4442206b-b2ad-47d7-8add-18002c44c5a2) function of the module scheduled to be registered. This action runs with elevated privileges when the installation is being run with elevated privileges, such as during a per-machine installation. During a per-user installation the installer runs this action with user privileges.
+The SelfRegModules action attempts to call the [DllRegisterServer](4442206b-b2ad-47d7-8add-18002c44c5a2) function of the module scheduled to be registered. This action runs with elevated privileges when the installation is being run with elevated privileges, such as during a per-machine installation. During a per-user installation the installer runs this action with user privileges.
 
 Note that you cannot specify the order in which the installer registers self-registering DLLs by using the [SelfUnRegModules action](selfunregmodules-action.md).
 

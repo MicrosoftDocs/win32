@@ -34,14 +34,14 @@ DWORD APIENTRY NtGdiDdColorControl(
 *hSurface* \[in\]
 </dt> <dd>
 
-Handle to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/windows/desktop/45a41cec-0257-4e26-809d-c2fc4c247328) structure representing the overlay surface.
+Handle to the [**DD\_SURFACE\_LOCAL**](45a41cec-0257-4e26-809d-c2fc4c247328) structure representing the overlay surface.
 
 </dd> <dt>
 
 *puColorControlData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_COLORCONTROLDATA**](https://msdn.microsoft.com/windows/desktop/7c983faa-de9d-4a04-ac8d-d37fb182a662) structure that contains the color control information for a specified overlay surface.
+Pointer to a [**DD\_COLORCONTROLDATA**](7c983faa-de9d-4a04-ac8d-d37fb182a662) structure that contains the color control information for a specified overlay surface.
 
 </dd> </dl>
 

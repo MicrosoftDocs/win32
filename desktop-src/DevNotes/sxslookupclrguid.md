@@ -96,9 +96,9 @@ Returns **TRUE** if successful, or **FALSE** otherwise. For more error informati
 
 This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions.
 
-Managed components may declare themselves as supporting managed "interop assemblies" so as to allow an unmanaged Win32 component consumer to reference the declaring assembly. The component consumer can interact with the managed component by calling [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) on a GUID. The interoperation layer routes the object creation request to .NET Framework, creates an instance of the managed object, and returns an interface pointer.
+Managed components may declare themselves as supporting managed "interop assemblies" so as to allow an unmanaged Win32 component consumer to reference the declaring assembly. The component consumer can interact with the managed component by calling [**CoCreateInstance**](7295a55b-12c7-4ed0-a7a4-9ecee16afdec) on a GUID. The interoperation layer routes the object creation request to .NET Framework, creates an instance of the managed object, and returns an interface pointer.
 
-**SxsLookupClrGuid** allows the frameworks to retrieve information associated with a given GUID in the component's manifest, such as what its .NET class name is, what version of the .NET Framework it requires, and what host assembly it is located in. Managed components publish an interop assembly that contains a number of statements associating GUIDs with assembly and type names, and the .NET runtime brokers the construction of managed object instances when [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) is called.
+**SxsLookupClrGuid** allows the frameworks to retrieve information associated with a given GUID in the component's manifest, such as what its .NET class name is, what version of the .NET Framework it requires, and what host assembly it is located in. Managed components publish an interop assembly that contains a number of statements associating GUIDs with assembly and type names, and the .NET runtime brokers the construction of managed object instances when [**CoCreateInstance**](7295a55b-12c7-4ed0-a7a4-9ecee16afdec) is called.
 
 The following is a sample component manifest declaring a CLR GUID and a CLR surrogate that **SxsLookupClrGuid** can look up:
 
@@ -308,7 +308,7 @@ void main()
 [**ActivateActCtx**](https://msdn.microsoft.com/03381d95-1b5d-4b70-8c86-937ab9b2672d)
 </dt> <dt>
 
-[**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec)
+[**CoCreateInstance**](7295a55b-12c7-4ed0-a7a4-9ecee16afdec)
 </dt> </dl>
 
  

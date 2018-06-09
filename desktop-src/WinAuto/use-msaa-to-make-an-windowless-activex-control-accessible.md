@@ -37,9 +37,9 @@ To make your windowless ActiveX control accessible, you must implement the Micro
 
 ### Step 2: Implement the IServiceProvider interface.
 
-When a client requests accessibility information about your windowless control, the container calls your control's [**IServiceProvider::QueryService**](https://msdn.microsoft.com/windows/desktop/42026089-3e71-4483-ab35-1a6f305547fe) method to retrieve the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointer.
+When a client requests accessibility information about your windowless control, the container calls your control's [**IServiceProvider::QueryService**](42026089-3e71-4483-ab35-1a6f305547fe) method to retrieve the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointer.
 
-This example shows how to implement the [**QueryService**](https://msdn.microsoft.com/windows/desktop/42026089-3e71-4483-ab35-1a6f305547fe) method.
+This example shows how to implement the [**QueryService**](42026089-3e71-4483-ab35-1a6f305547fe) method.
 
 
 ```C++

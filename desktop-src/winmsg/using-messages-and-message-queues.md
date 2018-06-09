@@ -226,9 +226,9 @@ case WM_USER + 5:
 
 
 
-A number of messages can be sent to controls in a dialog box. These control messages set the appearance, behavior, and content of controls or retrieve information about controls. For example, the [**CB\_ADDSTRING**](https://msdn.microsoft.com/windows/desktop/201bcb7b-e7d1-41e6-8eb7-a5864b659a52) message can add a string to a combo box, and the [**BM\_SETCHECK**](https://msdn.microsoft.com/windows/desktop/8294e6c4-caac-4c60-85ff-38698a1d2ae4) message can set the check state of a check box or radio button.
+A number of messages can be sent to controls in a dialog box. These control messages set the appearance, behavior, and content of controls or retrieve information about controls. For example, the [**CB\_ADDSTRING**](201bcb7b-e7d1-41e6-8eb7-a5864b659a52) message can add a string to a combo box, and the [**BM\_SETCHECK**](8294e6c4-caac-4c60-85ff-38698a1d2ae4) message can set the check state of a check box or radio button.
 
-Use the [**SendDlgItemMessage**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\senddlgitemmessage.htm) function to send a message to a control, specifying the identifier of the control and the handle of the dialog box window that contains the control. The following example, taken from a dialog box procedure, copies a string from a combo box's edit control into its list box. The example uses **SendDlgItemMessage** to send a [**CB\_ADDSTRING**](https://msdn.microsoft.com/windows/desktop/201bcb7b-e7d1-41e6-8eb7-a5864b659a52) message to the combo box.
+Use the [**SendDlgItemMessage**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\senddlgitemmessage.htm) function to send a message to a control, specifying the identifier of the control and the handle of the dialog box window that contains the control. The following example, taken from a dialog box procedure, copies a string from a combo box's edit control into its list box. The example uses **SendDlgItemMessage** to send a [**CB\_ADDSTRING**](201bcb7b-e7d1-41e6-8eb7-a5864b659a52) message to the combo box.
 
 
 ```

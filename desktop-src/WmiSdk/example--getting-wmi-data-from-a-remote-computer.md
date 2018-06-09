@@ -26,15 +26,15 @@ The following procedure shows how to execute the WMI application. Steps 1 throug
 
 **To get WMI data from a remote computer**
 
-1.  Initialize COM parameters with a call to [**CoInitializeEx**](https://msdn.microsoft.com/windows/desktop/ffb79c0f-aeda-4ea1-aea8-afb79109837f).
+1.  Initialize COM parameters with a call to [**CoInitializeEx**](ffb79c0f-aeda-4ea1-aea8-afb79109837f).
 
     For more information, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
 
-2.  Initialize COM process security by calling [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f).
+2.  Initialize COM process security by calling [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f).
 
     For more information, see [Setting the Default Process Security Level Using C++](setting-the-default-process-security-level-using-c-.md).
 
-3.  Obtain the initial locator to WMI by calling [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec).
+3.  Obtain the initial locator to WMI by calling [**CoCreateInstance**](7295a55b-12c7-4ed0-a7a4-9ecee16afdec).
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
@@ -43,7 +43,7 @@ The following procedure shows how to execute the WMI application. Steps 1 throug
     When handling user names and passwords, it is recommended that the user be prompted for the information, use the information, and then delete the information, so that there is less of a chance of the information being intercepted by an unauthorized user. Step 4 in the example code below uses [**CredUIPromptForCredentials**](https://msdn.microsoft.com/library/windows/desktop/aa375177) to get the user name and password, and then uses [**SecureZeroMemory**](https://msdn.microsoft.com/library/windows/desktop/aa366877) to get rid of the information after it is used in [**IWbemLocator::ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver). For more information, see [Handling Passwords](https://msdn.microsoft.com/library/windows/desktop/ms717799) and [Asking the User for Credentials](https://msdn.microsoft.com/library/windows/desktop/ms717794) on MSDN.
 
 5.  Create a [COAUTHIDENTITY](http://go.microsoft.com/fwlink/p/?linkid=154001) structure to provide credentials for setting the proxy security.
-6.  Set [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy security so WMI service can impersonate the client by calling [**CoSetProxyBlanket**](https://msdn.microsoft.com/windows/desktop/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf).
+6.  Set [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy security so WMI service can impersonate the client by calling [**CoSetProxyBlanket**](c2e5e681-8fa5-4b02-b59d-ba796eb0dccf).
 
     For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md).
 

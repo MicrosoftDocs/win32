@@ -291,7 +291,7 @@ The variable "pulScrollLines" points to an unsigned integer value that receives 
 -   If this number is **WHEEL\_PAGESCROLL**, a wheel roll should be interpreted as clicking once in the page down or page up regions of the scroll bar.
 -   If the number of lines to scroll is greater than the number of lines viewable, the scroll operation should also be interpreted as a page down or page up operation.
 
-The default value for the number of scroll lines will be 3. If a user changes the number of scroll lines, by using the Mouse Properties sheet in Control Panel, the operating system broadcasts a [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/windows/desktop/77174e06-a25b-440a-9e9c-4fd5979c433c) message to all top-level windows with **SPI\_SETWHEELSCROLLLINES** specified. When an application receives the **WM\_SETTINGCHANGE** message, it can then get the new number of scroll lines by calling:
+The default value for the number of scroll lines will be 3. If a user changes the number of scroll lines, by using the Mouse Properties sheet in Control Panel, the operating system broadcasts a [**WM\_SETTINGCHANGE**](77174e06-a25b-440a-9e9c-4fd5979c433c) message to all top-level windows with **SPI\_SETWHEELSCROLLLINES** specified. When an application receives the **WM\_SETTINGCHANGE** message, it can then get the new number of scroll lines by calling:
 
 
 ```

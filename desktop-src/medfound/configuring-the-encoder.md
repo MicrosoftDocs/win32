@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The Windows Media Audio and Windows Media Video encoders support a variety of encoding modes. These modes are generally configured by setting properties on the encoder [Media Foundation transform](media-foundation-transforms.md) (MFT). To perform file encoding, whether using WMContainer-level components or by building a partial topology, you must configure the encoder appropriately by setting properties depending on the mode of encoding and the media type of the stream. The same set of properties must be set both on the encoder and the object (ASF file sink or ASF multiplexer) you are using to write the ASF file.
 
-The encoder properties are defined in wmcodecdsp.h. The specific properties that are used to configure the encoder are set by using the methods of the [**IPropertyStore**](https://msdn.microsoft.com/windows/desktop/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) interface.
+The encoder properties are defined in wmcodecdsp.h. The specific properties that are used to configure the encoder are set by using the methods of the [**IPropertyStore**](e995aaa1-d4c9-475f-b1fa-b9123cd5b653) interface.
 
 -   [Audio Stream Properties](#audio-stream-properties)
 -   [Video Stream Properties](#video-stream-properties)

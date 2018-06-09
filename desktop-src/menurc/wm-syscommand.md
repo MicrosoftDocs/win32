@@ -59,7 +59,7 @@ The type of system command requested. This parameter can be one of the following
 </tr>
 <tr class="even">
 <td><span id="SC_CONTEXTHELP"></span><span id="sc_contexthelp"></span><dl> <dt><strong>SC_CONTEXTHELP</strong></dt> <dt>0xF180</dt> </dl></td>
-<td>Changes the cursor to a question mark with a pointer. If the user then clicks a control in the dialog box, the control receives a [<strong>WM_HELP</strong>](https://msdn.microsoft.com/windows/desktop/6a090125-67dd-4267-9973-10e32c6e4f1f) message.<br/></td>
+<td>Changes the cursor to a question mark with a pointer. If the user then clicks a control in the dialog box, the control receives a [<strong>WM_HELP</strong>](6a090125-67dd-4267-9973-10e32c6e4f1f) message.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="SC_DEFAULT"></span><span id="sc_default"></span><dl> <dt><strong>SC_DEFAULT</strong></dt> <dt>0xF160</dt> </dl></td>

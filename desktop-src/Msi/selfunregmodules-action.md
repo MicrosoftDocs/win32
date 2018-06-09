@@ -32,7 +32,7 @@ The [InstallValidate](installvalidate-action.md) action must appear before the S
 
 ## Remarks
 
-The SelfUnregModules action attempts to call the [**DllUnregisterServer**](https://msdn.microsoft.com/windows/desktop/b71137a7-284e-4521-a3b2-9dad9c9d3c54) function of the module that is to be unregistered. This action runs with elevated privileges when the installation is being run with elevated privileges, such as during a per-machine installation. During a per-user installation, the installer runs this action with user privileges.
+The SelfUnregModules action attempts to call the [**DllUnregisterServer**](b71137a7-284e-4521-a3b2-9dad9c9d3c54) function of the module that is to be unregistered. This action runs with elevated privileges when the installation is being run with elevated privileges, such as during a per-machine installation. During a per-user installation, the installer runs this action with user privileges.
 
 Note that you cannot specify the order in which the installer unregisters self-registering DLLs by using the SelfUnRegModules action.
 

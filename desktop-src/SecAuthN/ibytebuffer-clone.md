@@ -33,7 +33,7 @@ HRESULT Clone(
 *ppByteBuffer* \[out\]
 </dt> <dd>
 
-When successful, points to the location of an [**IByteBuffer**](ibytebuffer.md) pointer to the new stream object. When you have finished using the **IByteBuffer** pointer, release it by calling the [**IUnknown::Release**](https://msdn.microsoft.com/windows/desktop/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) function. If an error occurs, this parameter is **NULL**.
+When successful, points to the location of an [**IByteBuffer**](ibytebuffer.md) pointer to the new stream object. When you have finished using the **IByteBuffer** pointer, release it by calling the [**IUnknown::Release**](4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) function. If an error occurs, this parameter is **NULL**.
 
 </dd> </dl>
 

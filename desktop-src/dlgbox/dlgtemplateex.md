@@ -84,7 +84,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The help context identifier for the dialog box window. When the system sends a [**WM\_HELP**](https://msdn.microsoft.com/windows/desktop/6a090125-67dd-4267-9973-10e32c6e4f1f) message, it passes this value in the **wContextId** member of the [**HELPINFO**](https://msdn.microsoft.com/windows/desktop/8320fb68-294b-487b-ab5a-6611bb57cff0) structure.
+The help context identifier for the dialog box window. When the system sends a [**WM\_HELP**](6a090125-67dd-4267-9973-10e32c6e4f1f) message, it passes this value in the **wContextId** member of the [**HELPINFO**](8320fb68-294b-487b-ab5a-6611bb57cff0) structure.
 
 </dd> <dt>
 

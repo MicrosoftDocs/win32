@@ -85,14 +85,14 @@ The *system large icon* is mainly used by applications, but it is also displayed
 
 -   Call [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) with **SM\_CXICON** and **SM\_CYICON**.
 
-The [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon), [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex), [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect), and [**SHGetFileInfo**](https://msdn.microsoft.com/windows/desktop/d662bedf-4be0-4528-8121-e7923a42bc67) functions can be used to work with icons in sizes other than system large.
+The [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon), [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex), [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect), and [**SHGetFileInfo**](d662bedf-4be0-4528-8121-e7923a42bc67) functions can be used to work with icons in sizes other than system large.
 
 The *shell small icon* is used in the Windows Explorer and the common dialogs. Currently, this defaults to the system small size.
 
 ### To retrieve the size of the shell small icon
 
 1.  Use the [SHGetFileInfo](http://msdn.microsoft.com/library/Bb762179(VS.85).aspx) function with `SHGFI_SHELLICONSIZE | SHGFI_SMALLICON` to retrieve a handle to the system image list.
-2.  Then call the [**ImageList\_GetIconSize**](https://msdn.microsoft.com/windows/desktop/384d0b40-c887-4aed-9397-51e8b050b453) function to get the icon size.
+2.  Then call the [**ImageList\_GetIconSize**](384d0b40-c887-4aed-9397-51e8b050b453) function to get the icon size.
 
 The shell large icon is used on the desktop.
 
@@ -104,8 +104,8 @@ The shell large icon is used on the desktop.
 
 ### To retrieve the size of the shell large icon
 
-1.  Use the [**SHGetFileInfo**](https://msdn.microsoft.com/windows/desktop/d662bedf-4be0-4528-8121-e7923a42bc67) function with **SHGFI\_SHELLICONSIZE** to retrieve a handle to the system image list.
-2.  Then call the [**ImageList\_GetIconSize**](https://msdn.microsoft.com/windows/desktop/384d0b40-c887-4aed-9397-51e8b050b453) function to get the icon size.
+1.  Use the [**SHGetFileInfo**](d662bedf-4be0-4528-8121-e7923a42bc67) function with **SHGFI\_SHELLICONSIZE** to retrieve a handle to the system image list.
+2.  Then call the [**ImageList\_GetIconSize**](384d0b40-c887-4aed-9397-51e8b050b453) function to get the icon size.
 
 The Start menu uses either shell small icons or shell large icons, depending on whether the **Use Large Icons** check box is selected.
 
@@ -121,7 +121,7 @@ When filling in the [**WNDCLASSEX**](https://msdn.microsoft.com/library/windows/
 
 Standard icons are predefined, so it is not necessary to create them. To use a standard icon, an application can obtain its handle by using the [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) function. An *icon handle* is a unique value of the **HICON** type that identifies a standard or custom icon.
 
-To create a custom icon for an application, you would typically use a graphics application and include the [ICON Resource](https://msdn.microsoft.com/windows/desktop/a8e3205e-e17a-4daf-a599-4dc89cb1e640) in the application's resource-definition file. At run-time, you can call [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) to retrieve a handle to the icon. An icon resource can contain a group of images for several different display devices. **LoadIcon** and **LoadImage** automatically select the most appropriate icon from the group for the current display device.
+To create a custom icon for an application, you would typically use a graphics application and include the [ICON Resource](a8e3205e-e17a-4daf-a599-4dc89cb1e640) in the application's resource-definition file. At run-time, you can call [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) to retrieve a handle to the icon. An icon resource can contain a group of images for several different display devices. **LoadIcon** and **LoadImage** automatically select the most appropriate icon from the group for the current display device.
 
 An application can also create a custom icon at run-time by using the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, which creates an icon based on the contents of an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-_iconinfo) structure. The [**GetIconInfo**](/windows/desktop/api/Winuser/nf-winuser-geticoninfo) function fills the structure with the hot-spot coordinates and information about the bitmask bitmap and color bitmap for the icon.
 

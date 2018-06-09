@@ -30,7 +30,7 @@ HKEY_CLASSES_ROOT
       <clsid>
 ```
 
-*&lt;clsid&gt;* is the string representation of the CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/windows/desktop/61210ebd-cbf3-4e78-b077-53d2779053eb) function. Under the *&lt;clsid&gt;* key, there is an **InProcServer32** key that identifies the object as a 32-bit in-proc server. Under the **InProcServer32** key, the location of the DLL is specified in the default value and the threading model is specified in the **ThreadingModel** value. All context menu extension must use the "Apartment" threading model.
+*&lt;clsid&gt;* is the string representation of the CLSID as produced by the [**StringFromCLSID**](61210ebd-cbf3-4e78-b077-53d2779053eb) function. Under the *&lt;clsid&gt;* key, there is an **InProcServer32** key that identifies the object as a 32-bit in-proc server. Under the **InProcServer32** key, the location of the DLL is specified in the default value and the threading model is specified in the **ThreadingModel** value. All context menu extension must use the "Apartment" threading model.
 
 ## Registering with Active Directory Domain Services
 
@@ -55,7 +55,7 @@ When registering a context menu extension, the values for the [**adminContextMen
 
 The "&lt;order number&gt;" is an unsigned number that represents the item position in the context menu. When a context menu is displayed, the values are sorted using a comparison of each value's "&lt;order number&gt;". If more than one value has the same "&lt;order number&gt;", those context menu extensions are loaded in the order they are read from the Active Directory server. If possible, use a non-existing "&lt;order number&gt;", that is, one that has not been used by other values in the property. There is no prescribed starting position and gaps are allowed in the "&lt;order number&gt;" sequence.
 
-The "&lt;clsid&gt;" is the string representation of the CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/windows/desktop/61210ebd-cbf3-4e78-b077-53d2779053eb) function.
+The "&lt;clsid&gt;" is the string representation of the CLSID as produced by the [**StringFromCLSID**](61210ebd-cbf3-4e78-b077-53d2779053eb) function.
 
 In the Windows shell, multiple-selection context menu items are supported. In this case, the context menu extension is invoked for each selected object. In Active Directory administrative snap-ins, multiple-selection context menu extension items are also supported. In this case, the [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames) structure will contain a [**DSOBJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject) structure for each directory object selected.
 

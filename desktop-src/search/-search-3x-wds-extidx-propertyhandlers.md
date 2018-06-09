@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Microsoft Windows Search uses property handlers to extract the values of properties from items and uses the property system schema to determine how a specific property should be indexed. To read and index property values, property handlers are invoked out-of-process by Windows Search to improve security and robustness. In contrast, property handlers are invoked in-process by Windows Explorer to read and write property values.
 
-This topic supplements the [Property System](https://msdn.microsoft.com/windows/desktop/9dacd399-2cf3-40dd-9501-f26f0281500d) topic with information specific to Windows Search and contains the following sections:
+This topic supplements the [Property System](9dacd399-2cf3-40dd-9501-f26f0281500d) topic with information specific to Windows Search and contains the following sections:
 
 -   [Design Decisions for Property Handlers](#design-decisions-for-property-handlers)
     -   [Property Decisions](#property-decisions)
@@ -81,7 +81,7 @@ We recommend using a matrix to help you design your properties:
 
  
 
-For each of these properties, you need to determine what attributes it should have and then describe them formally in Property Description XML files (.propdesc). Attributes include the property's data type, label, help string and more. For indexable properties, you should pay particular attention to the following property attributes found in the [searchInfo](https://msdn.microsoft.com/windows/desktop/1cb0b630-323c-41cf-8aaf-db3028b2e369)   XML element of the Property Description file.
+For each of these properties, you need to determine what attributes it should have and then describe them formally in Property Description XML files (.propdesc). Attributes include the property's data type, label, help string and more. For indexable properties, you should pay particular attention to the following property attributes found in the [searchInfo](1cb0b630-323c-41cf-8aaf-db3028b2e369)   XML element of the Property Description file.
 
 
 
@@ -184,7 +184,7 @@ Developing a property handler involves implementing the following interfaces:
 
 ### IInitializeWithStream
 
-As described in the [Property System](https://msdn.microsoft.com/windows/desktop/9dacd399-2cf3-40dd-9501-f26f0281500d) topic, we strongly recommend implementing property handlers with **IInitializeWithStream** to do stream-based initialization. If you chose not to implement IInitializeWithStream, the property handler must opt out of running in the isolation process by setting the DisableProcessIsolation flag on the property handler's registry key. Disabling process isolation is generally intended only for legacy property handlers and should be strenuously avoided by any new code.
+As described in the [Property System](9dacd399-2cf3-40dd-9501-f26f0281500d) topic, we strongly recommend implementing property handlers with **IInitializeWithStream** to do stream-based initialization. If you chose not to implement IInitializeWithStream, the property handler must opt out of running in the isolation process by setting the DisableProcessIsolation flag on the property handler's registry key. Disabling process isolation is generally intended only for legacy property handlers and should be strenuously avoided by any new code.
 
 ### IPropertyStore
 
@@ -410,7 +410,7 @@ System.FileOwner;System.ComputerName
 **Other Resources**
 </dt> <dt>
 
-[Property System](https://msdn.microsoft.com/windows/desktop/9dacd399-2cf3-40dd-9501-f26f0281500d)
+[Property System](9dacd399-2cf3-40dd-9501-f26f0281500d)
 </dt> <dt>
 
 [System Properties](http://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx)

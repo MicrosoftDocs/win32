@@ -42,14 +42,14 @@ Handle to previously created kernel-mode DirectDraw object.
 *hSurfaceSource* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/windows/desktop/45a41cec-0257-4e26-809d-c2fc4c247328) structure that describes the overlay surface.
+Handle to a [**DD\_SURFACE\_LOCAL**](45a41cec-0257-4e26-809d-c2fc4c247328) structure that describes the overlay surface.
 
 </dd> <dt>
 
 *puUpdateOverlayData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_UPDATEOVERLAYDATA**](https://msdn.microsoft.com/windows/desktop/f9dd3fe3-1295-40c8-83d9-74861945921e) structure that contains the information required to update the overlay.
+Pointer to a [**DD\_UPDATEOVERLAYDATA**](f9dd3fe3-1295-40c8-83d9-74861945921e) structure that contains the information required to update the overlay.
 
 </dd> </dl>
 

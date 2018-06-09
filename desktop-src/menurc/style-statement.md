@@ -34,7 +34,7 @@ The window style. This parameter can be an integer value or a combination of win
 
 </dd> </dl>
 
-For a list of window styles, see [Window Styles](https://msdn.microsoft.com/library/windows/desktop/ms632600). For a list of dialog box styles, see [Dialog Box Template Styles](https://msdn.microsoft.com/windows/desktop/51960c28-a178-4ad3-b45e-426fec42a945). If you use the window or dialog box style values, you must include Windows.h.
+For a list of window styles, see [Window Styles](https://msdn.microsoft.com/library/windows/desktop/ms632600). For a list of dialog box styles, see [Dialog Box Template Styles](51960c28-a178-4ad3-b45e-426fec42a945). If you use the window or dialog box style values, you must include Windows.h.
 
  
 

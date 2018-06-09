@@ -15,7 +15,7 @@ Implementation of converting from a text ink object (tInk) to ink.
 
 ## To convert from a text ink object to ink
 
-1.  Use the [IPersistStream](https://msdn.microsoft.com/windows/desktop/97ea64ee-d950-4872-add6-1f532a6eb33f) interface to write the contents of the text ink object out to a stream. The text ink object uses ink serialized format to write to the steam.
+1.  Use the [IPersistStream](97ea64ee-d950-4872-add6-1f532a6eb33f) interface to write the contents of the text ink object out to a stream. The text ink object uses ink serialized format to write to the steam.
 2.  Read the contents of the stream into a BYTE array.
 3.  Use the [**InkDisp**](/windows/desktop/api/msinkaut/) object's [**Load**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load) method to load the contents of the stream into the **InkDisp** object.
 
@@ -45,7 +45,7 @@ CComPtr<IStream *> spStream = NULL;
 
 
 
-Then, the code obtains the [IPersistStream](https://msdn.microsoft.com/windows/desktop/97ea64ee-d950-4872-add6-1f532a6eb33f) interface from the text ink object.
+Then, the code obtains the [IPersistStream](97ea64ee-d950-4872-add6-1f532a6eb33f) interface from the text ink object.
 
 
 ```C++
@@ -58,7 +58,7 @@ ASSERT(SUCCEEDED(hr) &amp;&amp; spIPersistStream);
 
 
 
-Then, the code uses the [IPersistStream](https://msdn.microsoft.com/windows/desktop/97ea64ee-d950-4872-add6-1f532a6eb33f) interface to save the contents of the text ink object to the stream.
+Then, the code uses the [IPersistStream](97ea64ee-d950-4872-add6-1f532a6eb33f) interface to save the contents of the text ink object to the stream.
 
 
 ```C++

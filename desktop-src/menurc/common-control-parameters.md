@@ -85,14 +85,14 @@ Extended window styles. You must specify *style* to specify *extended-style*. Fo
 <span id="helpId"></span><span id="helpid"></span><span id="HELPID"></span>*helpId*
 </dt> <dd>
 
-Numeric expression indicating the ID used to identify the control during [**WM\_HELP**](https://msdn.microsoft.com/windows/desktop/6a090125-67dd-4267-9973-10e32c6e4f1f) processing.
+Numeric expression indicating the ID used to identify the control during [**WM\_HELP**](6a090125-67dd-4267-9973-10e32c6e4f1f) processing.
 
 </dd> <dt>
 
 <span id="controlData"></span><span id="controldata"></span><span id="CONTROLDATA"></span>*controlData*
 </dt> <dd>
 
-Control-specific data for the control. When a dialog is created, and a control in that dialog which has control-specific data is created, a pointer to that data is passed into the control's window procedure through the *lParam* of the [**WM\_CREATE**](https://msdn.microsoft.com/windows/desktop/d484d0fc-bad0-4fcb-bf4b-37cbc50846ee) message for that control.
+Control-specific data for the control. When a dialog is created, and a control in that dialog which has control-specific data is created, a pointer to that data is passed into the control's window procedure through the *lParam* of the [**WM\_CREATE**](d484d0fc-bad0-4fcb-bf4b-37cbc50846ee) message for that control.
 
 </dd> </dl>
 

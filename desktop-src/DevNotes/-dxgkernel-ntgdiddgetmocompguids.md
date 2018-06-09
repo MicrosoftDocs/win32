@@ -41,7 +41,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puGetMoCompGuidsData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_GETMOCOMPGUIDSDATA**](https://msdn.microsoft.com/windows/desktop/d1507771-c2bc-4d10-a49e-57a3b60ac604) structure that contains the **GUID** information.
+Pointer to a [**DD\_GETMOCOMPGUIDSDATA**](d1507771-c2bc-4d10-a49e-57a3b60ac604) structure that contains the **GUID** information.
 
 </dd> </dl>
 

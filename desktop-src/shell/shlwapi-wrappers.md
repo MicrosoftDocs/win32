@@ -239,17 +239,17 @@ On Shlwapi.dll version 5.0, which shipped with Windows 2000, menu item strings 
 
 ### (MenuItemInfo)
 
-This function only supports the Microsoft Windows NT 4.0 version of the [**MENUITEMINFOW**](https://msdn.microsoft.com/windows/desktop/43d30b39-c1e1-4711-97a2-b5bc29dad9df) structure. This structure lacks an **hbmpItem** member. In addition, the function does not support the MIIM\_BITMAP flag. The MSLU does not have these limitations.
+This function only supports the Microsoft Windows NT 4.0 version of the [**MENUITEMINFOW**](43d30b39-c1e1-4711-97a2-b5bc29dad9df) structure. This structure lacks an **hbmpItem** member. In addition, the function does not support the MIIM\_BITMAP flag. The MSLU does not have these limitations.
 
 ### (OpenFileName)
 
-The **cbSize** member of the [**OPENFILENAMEW**](https://msdn.microsoft.com/windows/desktop/c84932c8-c960-4606-bdec-bc9111c92b54) structure must be set to sizeof(OPENFILENAME\_NT4W).
+The **cbSize** member of the [**OPENFILENAMEW**](c84932c8-c960-4606-bdec-bc9111c92b54) structure must be set to sizeof(OPENFILENAME\_NT4W).
 
-The **lpstrCustomFilter** member of the [**OPENFILENAMEW**](https://msdn.microsoft.com/windows/desktop/c84932c8-c960-4606-bdec-bc9111c92b54) structure must be set to **NULL**.
+The **lpstrCustomFilter** member of the [**OPENFILENAMEW**](c84932c8-c960-4606-bdec-bc9111c92b54) structure must be set to **NULL**.
 
-The values of the **nMaxFile** and **nMaxFileTitle** members of the [**OPENFILENAMEW**](https://msdn.microsoft.com/windows/desktop/c84932c8-c960-4606-bdec-bc9111c92b54) structure must not exceed MAX\_PATH.
+The values of the **nMaxFile** and **nMaxFileTitle** members of the [**OPENFILENAMEW**](c84932c8-c960-4606-bdec-bc9111c92b54) structure must not exceed MAX\_PATH.
 
-If the **lpfnHook** member of the [**OPENFILENAMEW**](https://msdn.microsoft.com/windows/desktop/c84932c8-c960-4606-bdec-bc9111c92b54) structure is not **NULL**, it must refer to an ANSI hook procedure on native ANSI platforms and a Unicode hook procedure on native Unicode platforms.
+If the **lpfnHook** member of the [**OPENFILENAMEW**](c84932c8-c960-4606-bdec-bc9111c92b54) structure is not **NULL**, it must refer to an ANSI hook procedure on native ANSI platforms and a Unicode hook procedure on native Unicode platforms.
 
 The MSLU does not have these limitations.
 
@@ -299,7 +299,7 @@ The parameters should be set as follows:
 
 ### (RegisterClass)
 
-On native ANSI platforms, no translation is performed on the **lpfnWndProc** member of the [**WNDCLASSW**](https://msdn.microsoft.com/windows/desktop/7e2a4e89-19b6-4ef7-81dd-f44a3874e546) structure. The window will receive ANSI window messages on native ANSI platforms and Unicode window messages on native Unicode platforms. The window procedure must be prepared to handle both cases. The MSLU does not have these limitations.
+On native ANSI platforms, no translation is performed on the **lpfnWndProc** member of the [**WNDCLASSW**](7e2a4e89-19b6-4ef7-81dd-f44a3874e546) structure. The window will receive ANSI window messages on native ANSI platforms and Unicode window messages on native Unicode platforms. The window procedure must be prepared to handle both cases. The MSLU does not have these limitations.
 
 ### (RegQueryValueExW)
 
@@ -307,7 +307,7 @@ On native ANSI platforms, no translation is performed on the **lpfnWndProc** mem
 
 ### (SendMessage)
 
-On native Unicode platforms, the **SendMessageWrapW** function forwards to the [**SendMessageW**](https://msdn.microsoft.com/windows/desktop/c069c542-f854-41ff-a523-90f3855e2277) function. On native ANSI platforms, **SendMessageWrapW** provides limited support for translating Unicode messages to ANSI. The list of supported messages is given in the following table. The function will not translate any other messages.
+On native Unicode platforms, the **SendMessageWrapW** function forwards to the [**SendMessageW**](c069c542-f854-41ff-a523-90f3855e2277) function. On native ANSI platforms, **SendMessageWrapW** provides limited support for translating Unicode messages to ANSI. The list of supported messages is given in the following table. The function will not translate any other messages.
 
 The MSLU does not have these limitations.
 
@@ -352,8 +352,8 @@ The MSLU does not have these limitations.
 
     This function employs best-fit characters and does not perform default checking when converting from Unicode to ANSI. Furthermore, if the string cannot be converted from Unicode to ANSI, the function passes a null string to the underlying ANSI function. This can occur, for example, when there is insufficient memory. Passing a null string may cause some functions to fail with an invalid parameter error, but other functions accept the null string and treat it as the intended parameter. For example, if an error occurs when the WM\_SETTEXT wrapper attempts to convert the window title to ANSI, the window will have an empty caption. The function does not notify you when these problems occur. The MSLU does not have these limitations.
 
--   (c) The specified window handle must be the handle to a [ComboBox](https://msdn.microsoft.com/windows/desktop/08511faf-3bc0-4d47-98d5-0417803d4e5c) or [ComboBoxEx](https://msdn.microsoft.com/windows/desktop/a4b1aa79-40c4-4eff-801c-4f308d86fb35) control. If the handle is to a combobox control that is owner-draw and was not created with the [List Box Styles](https://msdn.microsoft.com/windows/desktop/bbf430f1-cdc1-4f87-b296-acf74cc6fc1b) style, then the translation of this message will fail and may even crash.
--   (d) The specified window handle must be the handle to a listbox control. If the listbox is owner-draw and was not created with the [List Box Styles](https://msdn.microsoft.com/windows/desktop/bbf430f1-cdc1-4f87-b296-acf74cc6fc1b) style, then the translation of this message will fail and may even crash.
+-   (c) The specified window handle must be the handle to a [ComboBox](08511faf-3bc0-4d47-98d5-0417803d4e5c) or [ComboBoxEx](a4b1aa79-40c4-4eff-801c-4f308d86fb35) control. If the handle is to a combobox control that is owner-draw and was not created with the [List Box Styles](bbf430f1-cdc1-4f87-b296-acf74cc6fc1b) style, then the translation of this message will fail and may even crash.
+-   (d) The specified window handle must be the handle to a listbox control. If the listbox is owner-draw and was not created with the [List Box Styles](bbf430f1-cdc1-4f87-b296-acf74cc6fc1b) style, then the translation of this message will fail and may even crash.
 -   (e) If string conversion is necessary, all strings are converted through the CP\_ACP code page.
 
     When converting from ANSI to Unicode for output, the wrapper functions truncate the returned string if it does not fit in the provided buffer. The return value for functions that return the number of characters copied to the buffer or the number of characters necessary to avoid truncation refers to the number of ANSI characters copied to the buffer or required by the underlying ANSI function, not the number of Unicode characters copied to the buffer provided by or required from the calling application that called the wrapper function. The MSLU does not have this limitation. For further details, see [Microsoft Layer for Unicode on Windows 95/98/Me Systems](http://go.microsoft.com/fwlink/p/?linkid=198351).

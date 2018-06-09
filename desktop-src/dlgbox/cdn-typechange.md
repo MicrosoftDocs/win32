@@ -21,11 +21,11 @@ ms.date: 05/31/2018
 
 # CDN\_TYPECHANGE notification code
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](https://msdn.microsoft.com/windows/desktop/f8846148-89a5-4b9b-ad68-56137a5c2f65). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](f8846148-89a5-4b9b-ad68-56137a5c2f65). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 Sent by an Explorer-style **Open** or **Save As** dialog box when the user selects a new file type from the file types combo box.
 
-Your [*OFNHookProc*](https://www.bing.com/search?q=*OFNHookProc*) hook procedure receives this message in the form of a [**WM\_NOTIFY**](https://msdn.microsoft.com/windows/desktop/23ff9dc1-3d92-4e94-8df5-7a645039ce27) message.
+Your [*OFNHookProc*](https://www.bing.com/search?q=*OFNHookProc*) hook procedure receives this message in the form of a [**WM\_NOTIFY**](23ff9dc1-3d92-4e94-8df5-7a645039ce27) message.
 
 
 ```C++
@@ -51,7 +51,7 @@ This parameter is not used.
 
 A pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure.
 
-The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure contains an [**NMHDR**](https://msdn.microsoft.com/windows/desktop/0c8b116b-82ad-495a-b19d-8c172e0b2608) structure whose **code** member indicates the **CDN\_TYPECHANGE** notification message.
+The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure contains an [**NMHDR**](0c8b116b-82ad-495a-b19d-8c172e0b2608) structure whose **code** member indicates the **CDN\_TYPECHANGE** notification message.
 
 The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure also contains a pointer to an [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna) structure whose **nFilterIndex** member indicates the one-based index of the newly selected file type filter.
 

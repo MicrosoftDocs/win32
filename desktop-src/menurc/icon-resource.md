@@ -62,7 +62,7 @@ desk1   ICON "desk.ico"
 
 <dl> <dt>
 
-[Using Icons](https://msdn.microsoft.com/windows/desktop/5021d59a-7aae-4ddc-be66-9abdc75ad316)
+[Using Icons](5021d59a-7aae-4ddc-be66-9abdc75ad316)
 </dt> </dl>
 
  

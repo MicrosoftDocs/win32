@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPaperSink Methods
 
-COPaper exposes the [**IConnectionPointContainer**](https://msdn.microsoft.com/windows/desktop/5e2be055-7baa-4c42-bd20-b338da296ab0) interface so clients can connect to COPaper in order to receive notifications of specified events that occur in COPaper. By exposing this interface, COPaper becomes a connectable object. A client can call [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) for this interface and use it to obtain the object's connection points. The client participation in this scheme is covered in the associated **StoClien** sample.
+COPaper exposes the [**IConnectionPointContainer**](5e2be055-7baa-4c42-bd20-b338da296ab0) interface so clients can connect to COPaper in order to receive notifications of specified events that occur in COPaper. By exposing this interface, COPaper becomes a connectable object. A client can call [**QueryInterface**](54d5ff80-18db-43f2-b636-f93ac053146d) for this interface and use it to obtain the object's connection points. The client participation in this scheme is covered in the associated **StoClien** sample.
 
 Basically, the client implements what is called a sink in the form of a sink object with a sink interface. The sink interface receives outgoing event notification calls from COPaper after the sink is properly connected by the client to a COPaper instance. The client makes the connection by using a connection point object that is managed by COPaper. There can be numerous connection points on a single connectable COM object. In the **StoServe** sample, COPaper has only one connection point, which handles drawing paper events.
 

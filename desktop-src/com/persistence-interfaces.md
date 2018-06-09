@@ -34,7 +34,7 @@ A set of component categories is identified to cover the support for persistency
 
 While support for [**IPersistPropertyBag**](https://msdn.microsoft.com/library/aa768205) is optional, it is strongly recommended as an optimization for containers with Save As Text features, such as Visual Basic.
 
-With the exception of [**IPersistStream::GetSizeMax**](/windows/desktop/api/ObjIdl/nf-objidl-ipersiststream-getsizemax), [**IPersistStreamInit::GetSizeMax**](/windows/desktop/api/OCIdl/nf-ocidl-ipersiststreaminit-getsizemax), and [**IPersistMemory::GetSizeMax**](https://msdn.microsoft.com/windows/desktop/77355a13-1a0f-4f8e-aa44-b97da845ed68), all methods of each interface must be fully implemented.
+With the exception of [**IPersistStream::GetSizeMax**](/windows/desktop/api/ObjIdl/nf-objidl-ipersiststream-getsizemax), [**IPersistStreamInit::GetSizeMax**](/windows/desktop/api/OCIdl/nf-ocidl-ipersiststreaminit-getsizemax), and [**IPersistMemory::GetSizeMax**](77355a13-1a0f-4f8e-aa44-b97da845ed68), all methods of each interface must be fully implemented.
 
 ## Related topics
 

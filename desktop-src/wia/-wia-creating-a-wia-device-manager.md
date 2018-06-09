@@ -52,7 +52,7 @@ The first step in using Windows Image Acquisition (WIA) services is to obtain an
 
 In this example, CLSID\_WiaDevMgr and IID\_IWiaDevMgr are WIA constants that represent the class ID and the interface ID of [**IWiaDevMgr**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr), respectively. CLSID\_WiaDevMgr2 and IID\_IWiaDevMgr2 are WIA constants that represent the class ID and the interface ID of [**IWiaDevMgr2**](-wia-iwiadevmgr2.md), respectively.
 
-The value for the *dwClsContext* argument of the [CoCreateInstance](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) call must be CLSCTX\_LOCAL\_SERVER. No other server type is supported, and Component Object Model (COM) rejects any other value for this parameter.
+The value for the *dwClsContext* argument of the [CoCreateInstance](7295a55b-12c7-4ed0-a7a4-9ecee16afdec) call must be CLSCTX\_LOCAL\_SERVER. No other server type is supported, and Component Object Model (COM) rejects any other value for this parameter.
 
  
 

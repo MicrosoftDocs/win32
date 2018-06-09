@@ -52,21 +52,21 @@ Previous handle to the same surface. Used if the surface is being re-created aft
 *puSurfaceLocal* \[in\]
 </dt> <dd>
 
-Pointer to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/windows/desktop/45a41cec-0257-4e26-809d-c2fc4c247328) structure that represents the DirectDraw user-mode surface object with which to associate the allocated memory. See the DDK documentation for details.
+Pointer to the [**DD\_SURFACE\_LOCAL**](45a41cec-0257-4e26-809d-c2fc4c247328) structure that represents the DirectDraw user-mode surface object with which to associate the allocated memory. See the DDK documentation for details.
 
 </dd> <dt>
 
 *puSurfaceMore* \[in\]
 </dt> <dd>
 
-Pointer to the [**DD\_SURFACE\_MORE**](https://msdn.microsoft.com/windows/desktop/4b000d0f-4ff1-4155-92be-b56793978b1f) structure that contains additional local data for each individual surface object. See the DDK documentation for details.
+Pointer to the [**DD\_SURFACE\_MORE**](4b000d0f-4ff1-4155-92be-b56793978b1f) structure that contains additional local data for each individual surface object. See the DDK documentation for details.
 
 </dd> <dt>
 
 *puSurfaceGlobal* \[in\]
 </dt> <dd>
 
-Pointer to the [**DD\_SURFACE\_GLOBAL**](https://msdn.microsoft.com/windows/desktop/11e0a6b9-16b9-4fc3-8e17-776f56c12196) structure that contains surface data shared globally with multiple surfaces. See the DDK documentation for details.
+Pointer to the [**DD\_SURFACE\_GLOBAL**](11e0a6b9-16b9-4fc3-8e17-776f56c12196) structure that contains surface data shared globally with multiple surfaces. See the DDK documentation for details.
 
 </dd> <dt>
 

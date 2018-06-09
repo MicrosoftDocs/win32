@@ -37,8 +37,8 @@ In order to successfully contain tInk objects, an application must implement OLE
 
 -   Modifications to the code for Find and Replace. Instead of skipping embedded objects in the search, these objects must be interrogated for type. If they are a tInk object, they must be instantiated and queried for their corresponding text.
 -   Modifications to selection behavior. Selection of tInk objects should never appear with sizing handles. They should be selected in the same way that text is selected in the document. Selection code for objects must detect if the type is tInk and display the selection appropriately.
--   Use of ambient properties. Ambient properties such as font size, color, and bold formatting need to be transmitted to the tInk object. Application of these properties changes the width of the handwritten ink, so a size update is required by calling the [**GetInkExtent Method**](/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent) or [IOleObject::GetExtent](https://msdn.microsoft.com/windows/desktop/babaf55e-6c43-48d8-ad13-1333e29a3e1d) method.
--   Override the default [IOleObject::DoVerb](https://msdn.microsoft.com/windows/desktop/fabd6a0a-7b0c-4c99-af22-8b117addd5f7) method processing. This allows conversion to text to pass a batch of tInk objects to the recognizer, which can then break the words into recognition segments.
+-   Use of ambient properties. Ambient properties such as font size, color, and bold formatting need to be transmitted to the tInk object. Application of these properties changes the width of the handwritten ink, so a size update is required by calling the [**GetInkExtent Method**](/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent) or [IOleObject::GetExtent](babaf55e-6c43-48d8-ad13-1333e29a3e1d) method.
+-   Override the default [IOleObject::DoVerb](fabd6a0a-7b0c-4c99-af22-8b117addd5f7) method processing. This allows conversion to text to pass a batch of tInk objects to the recognizer, which can then break the words into recognition segments.
 
 For more information about breaking words into recognition segments, see [Recognition Segments](recognition-segments.md).
 

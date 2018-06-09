@@ -46,7 +46,7 @@ HRESULT get_ResponseStream(
 
 ## Property value
 
-A **Variant** that receives a pointer to an [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface that can be queried for an [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface. This stream returns the raw data as received directly from the server.
+A **Variant** that receives a pointer to an [**IUnknown**](33f1d79a-33fc-4ce5-a372-e08bda378332) interface that can be queried for an [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface. This stream returns the raw data as received directly from the server.
 
 ## Error codes
 
@@ -56,7 +56,7 @@ It will be **E\_PENDING** if the previous [**Send**](iwinhttprequest-send.md) op
 
 ## Remarks
 
-Call [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) on the returned pointer to obtain a pointer to an [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface. This property returns the response data as an **IStream**. This property can only be invoked after the [**Send**](iwinhttprequest-send.md) method has been called.
+Call [**QueryInterface**](54d5ff80-18db-43f2-b636-f93ac053146d) on the returned pointer to obtain a pointer to an [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface. This property returns the response data as an **IStream**. This property can only be invoked after the [**Send**](iwinhttprequest-send.md) method has been called.
 
 > [!Note]  
 > For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.

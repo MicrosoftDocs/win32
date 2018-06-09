@@ -58,7 +58,7 @@ RTEXT "Number of Messages", 4, 30, 50, 100, 10
 [**CTEXT**](ctext-control.md)
 </dt> <dt>
 
-[Edit Controls](https://msdn.microsoft.com/windows/desktop/43baa58a-bc00-47c0-a3fe-413d50f08c29)
+[Edit Controls](43baa58a-bc00-47c0-a3fe-413d50f08c29)
 </dt> <dt>
 
 [**LTEXT**](ltext-control.md)

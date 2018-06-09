@@ -174,7 +174,7 @@ The following table categorizes file formats and then lists the most important s
 **Other Resources**
 </dt> <dt>
 
-[Property System](https://msdn.microsoft.com/windows/desktop/9dacd399-2cf3-40dd-9501-f26f0281500d)
+[Property System](9dacd399-2cf3-40dd-9501-f26f0281500d)
 </dt> <dt>
 
 [System Properties](http://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx)

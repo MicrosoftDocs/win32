@@ -35,21 +35,21 @@ DWORD APIENTRY NtGdiDdBlt(
 *hSurfaceDest* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/windows/desktop/45a41cec-0257-4e26-809d-c2fc4c247328) structure that describes the surface on which to blit.
+Handle to a [**DD\_SURFACE\_LOCAL**](45a41cec-0257-4e26-809d-c2fc4c247328) structure that describes the surface on which to blit.
 
 </dd> <dt>
 
 *hSurfaceSrc* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/windows/desktop/45a41cec-0257-4e26-809d-c2fc4c247328) structure that describes the source surface.
+Handle to a [**DD\_SURFACE\_LOCAL**](45a41cec-0257-4e26-809d-c2fc4c247328) structure that describes the source surface.
 
 </dd> <dt>
 
 *puBltData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_BLTDATA**](https://msdn.microsoft.com/windows/desktop/e39bdfc4-89d0-4440-93d3-1b455cc9a8e5) structure that contains the information required for the driver to perform the blit.
+Pointer to a [**DD\_BLTDATA**](e39bdfc4-89d0-4440-93d3-1b455cc9a8e5) structure that contains the information required for the driver to perform the blit.
 
 </dd> </dl>
 

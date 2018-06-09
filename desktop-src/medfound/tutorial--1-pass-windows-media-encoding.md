@@ -2142,9 +2142,9 @@ The following procedure describes the steps required to traverse the nodes in th
 2.  For each node, get a pointer to the stream sink in the node by calling [**IMFTopologyNode::GetObject**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getobject). Query for the [**IMFStreamSink**](/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink) interface on the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) pointer returned by **IMFTopologyNode::GetObject**.
 3.  For each stream sink get the downstream node (encoder) by calling [**IMFTopologyNode::GetInput**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getinput).
 4.  Query the node to get the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) pointer from the encoder node.
-5.  Query the encoder for the [**IPropertyStore**](https://msdn.microsoft.com/windows/desktop/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) pointer to get the encoding property store from the encoder.
-6.  Query the stream sink for the [**IPropertyStore**](https://msdn.microsoft.com/windows/desktop/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) pointer to get the stream sink's property store.
-7.  Call [**IPropertyStore::GetValue**](https://msdn.microsoft.com/windows/desktop/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) to get the required property values from the encoder's property store and copy them to the stream sink's property store by calling **IPropertyStore::SetValue**.
+5.  Query the encoder for the [**IPropertyStore**](e995aaa1-d4c9-475f-b1fa-b9123cd5b653) pointer to get the encoding property store from the encoder.
+6.  Query the stream sink for the [**IPropertyStore**](e995aaa1-d4c9-475f-b1fa-b9123cd5b653) pointer to get the stream sink's property store.
+7.  Call [**IPropertyStore::GetValue**](e995aaa1-d4c9-475f-b1fa-b9123cd5b653) to get the required property values from the encoder's property store and copy them to the stream sink's property store by calling **IPropertyStore::SetValue**.
 
 The following table shows the post encoding property values that must be set on the stream sink for the video stream.
 

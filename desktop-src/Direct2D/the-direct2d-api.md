@@ -179,7 +179,7 @@ For more information about geometries, see the [Geometries Overview](direct2d-ge
 
 ### Bitmaps
 
-Direct2D does not provide methods for loading or storing bitmaps; rather, it enables you to create bitmaps using the [Windows Imaging Component (WIC)](https://msdn.microsoft.com/windows/desktop/a05b496a-bd4c-4065-8060-df0f8930cde7). Bitmap resources can be loaded using WIC and then used to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/library/windows/desktop/dd371109) through the [**ID2D1RenderTarget::CreateBitmapFromWicBitmap**](/windows/desktop/api/d2d1/) method.
+Direct2D does not provide methods for loading or storing bitmaps; rather, it enables you to create bitmaps using the [Windows Imaging Component (WIC)](a05b496a-bd4c-4065-8060-df0f8930cde7). Bitmap resources can be loaded using WIC and then used to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/library/windows/desktop/dd371109) through the [**ID2D1RenderTarget::CreateBitmapFromWicBitmap**](/windows/desktop/api/d2d1/) method.
 
 Bitmaps can also be created from in-memory data that was set up through other means. After a bitmap has been created, it can be drawn by the render target [**DrawBitmap**](/windows/desktop/api/d2d1/) method or with a bitmap brush.
 
@@ -219,7 +219,7 @@ You do not use a factory or a render target to instantiate Direct2D primitives. 
 [Resources Overview](resources-and-resource-domains.md)
 </dt> <dt>
 
-[Windows Imaging Component (WIC)](https://msdn.microsoft.com/windows/desktop/a05b496a-bd4c-4065-8060-df0f8930cde7)
+[Windows Imaging Component (WIC)](a05b496a-bd4c-4065-8060-df0f8930cde7)
 </dt> </dl>
 
  

@@ -67,7 +67,7 @@ Specifies the size, in characters, of the *lpszString* buffer. Error messages ar
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is an error code. This value can be a last error value set by the [**LoadLibrary**](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65), [**GlobalAlloc**](https://msdn.microsoft.com/windows/desktop/06886545-bd5c-4d81-b1c3-dfa7e146e43a), or [**LoadString**](https://msdn.microsoft.com/windows/desktop/9d878af7-a7b1-4d24-89ff-c567e4a8accd) functions; or it can be one of the following error codes.
+If the function fails, the return value is an error code. This value can be a last error value set by the [**LoadLibrary**](d936b4dd-058c-48e1-834b-b47ef6d8ef65), [**GlobalAlloc**](06886545-bd5c-4d81-b1c3-dfa7e146e43a), or [**LoadString**](9d878af7-a7b1-4d24-89ff-c567e4a8accd) functions; or it can be one of the following error codes.
 
 
 
@@ -110,13 +110,13 @@ The RasAdmin functions can return error codes that are not in the range supporte
 [RAS Server Administration Functions](ras-server-administration-functions.md)
 </dt> <dt>
 
-[**LoadLibrary**](https://msdn.microsoft.com/windows/desktop/d936b4dd-058c-48e1-834b-b47ef6d8ef65)
+[**LoadLibrary**](d936b4dd-058c-48e1-834b-b47ef6d8ef65)
 </dt> <dt>
 
-[**GlobalAlloc**](https://msdn.microsoft.com/windows/desktop/06886545-bd5c-4d81-b1c3-dfa7e146e43a)
+[**GlobalAlloc**](06886545-bd5c-4d81-b1c3-dfa7e146e43a)
 </dt> <dt>
 
-[**LoadString**](https://msdn.microsoft.com/windows/desktop/9d878af7-a7b1-4d24-89ff-c567e4a8accd)
+[**LoadString**](9d878af7-a7b1-4d24-89ff-c567e4a8accd)
 </dt> </dl>
 
  

@@ -242,7 +242,7 @@ BOOL CALLBACK GoToProc(HWND hwndDlg, UINT message, WPARAM wParam, LPARAM lParam)
 
 
 
-In the preceding statements, the procedure processes the [**WM\_INITDIALOG**](wm-initdialog.md) and [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) messages. During **WM\_INITDIALOG** processing, the procedure initializes the check box by passing the current value of the global variable to [**CheckDlgButton**](https://msdn.microsoft.com/windows/desktop/bda42841-cc26-44c7-9295-3b3bc818d269). The procedure then returns **TRUE** to direct the system to set the default input focus.
+In the preceding statements, the procedure processes the [**WM\_INITDIALOG**](wm-initdialog.md) and [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) messages. During **WM\_INITDIALOG** processing, the procedure initializes the check box by passing the current value of the global variable to [**CheckDlgButton**](bda42841-cc26-44c7-9295-3b3bc818d269). The procedure then returns **TRUE** to direct the system to set the default input focus.
 
 During [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) processing, the procedure closes the dialog box only if the user clicks the **Cancel** button — that is, the button having the IDCANCEL identifier. The procedure must call [**DestroyWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632682) to close a modeless dialog box. Notice that the procedure also sets the variable to **NULL** to ensure that other statements that depend on this variable operate correctly.
 

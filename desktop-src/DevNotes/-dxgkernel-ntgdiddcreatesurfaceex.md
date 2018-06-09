@@ -42,14 +42,14 @@ Handle to the DirectDraw object created by the application.
 *hSurface* \[in\]
 </dt> <dd>
 
-Handle to the DirectDraw surface to be created for Direct3D. These handles are unique within each different [**DD\_DIRECTDRAW\_LOCAL**](https://msdn.microsoft.com/windows/desktop/58e378b7-863a-46d4-91cb-904ed4e892a3) structure.
+Handle to the DirectDraw surface to be created for Direct3D. These handles are unique within each different [**DD\_DIRECTDRAW\_LOCAL**](58e378b7-863a-46d4-91cb-904ed4e892a3) structure.
 
 </dd> <dt>
 
 *dwSurfaceHandle* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_CREATESURFACEEXDATA**](https://msdn.microsoft.com/windows/desktop/61965d6b-7473-4121-8c85-fb677a665388) structure that contains the information required for the driver to create the surface.
+Handle to a [**DD\_CREATESURFACEEXDATA**](61965d6b-7473-4121-8c85-fb677a665388) structure that contains the information required for the driver to create the surface.
 
 </dd> </dl>
 

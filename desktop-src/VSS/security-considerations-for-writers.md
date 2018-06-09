@@ -31,7 +31,7 @@ Writers need to be aware that when their processes act as a server (for example,
 
 However, by default, a process will allow only COM clients that are running under the same logon session the SELF SID) or running under the Local System account. This is a potential problem because these defaults are not sufficient to support the VSS infrastructure. For example, requesters may run as a "Backup Operator" user account that is neither in the same logon session as the writer process nor a Local System account.
 
-To handle this type of problem, every COM server process can exercise further control over whether an RPC or COM client is allowed to perform a COM method the server (a writer in this case) implements by using [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f) to set a process-wide default COM access check permission.
+To handle this type of problem, every COM server process can exercise further control over whether an RPC or COM client is allowed to perform a COM method the server (a writer in this case) implements by using [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f) to set a process-wide default COM access check permission.
 
 Writers can explicitly do the following:
 
@@ -41,9 +41,9 @@ Writers can explicitly do the following:
 
     Allowing all processes to perform incoming COM calls is not necessarily a security weakness. A writer acting as a COM server, like all other COM servers, always retains the option of authorizing its clients on every COM method implemented in its process.
 
-    To allow all processes COM access to a writer, you can pass a **NULL** security descriptor as the first parameter of [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f). (Note that **CoInitializeSecurity** must be called at most once for the entire process. Please see the COM documentation for more details on **CoInitializeSecurity**.)
+    To allow all processes COM access to a writer, you can pass a **NULL** security descriptor as the first parameter of [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f). (Note that **CoInitializeSecurity** must be called at most once for the entire process. Please see the COM documentation for more details on **CoInitializeSecurity**.)
 
-    The following is a code example that includes a call to [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f):
+    The following is a code example that includes a call to [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f):
 
     ``` syntax
     // Initialize COM security.
@@ -60,7 +60,7 @@ Writers can explicitly do the following:
         );
     ```
 
-    When explicitly setting a writer's COM-level security with [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f), you should do the following:
+    When explicitly setting a writer's COM-level security with [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f), you should do the following:
 
     -   Set the authentication level to at least **RPC\_C\_AUTHN\_LEVEL\_CONNECT**.
 
@@ -70,7 +70,7 @@ Writers can explicitly do the following:
 
 -   Allow only specified processes access to call into the writer process.
 
-    A COM server (such as a writer) that is calling [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f) with a non-**NULL** security descriptor can use the descriptor to configure itself to accept incoming calls only from users that belong to a specific set of accounts.
+    A COM server (such as a writer) that is calling [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f) with a non-**NULL** security descriptor can use the descriptor to configure itself to accept incoming calls only from users that belong to a specific set of accounts.
 
     A writer must ensure that COM clients running under valid users are authorized to call into its process. A writer that specifies a Security Descriptor in the first parameter must allow the following users to perform incoming calls into the requester process:
 

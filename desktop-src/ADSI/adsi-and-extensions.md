@@ -26,7 +26,7 @@ The following guidelines describe how ADSI interacts with extensions:
 -   Something calls the **QueryInterface** method for IID\_IMyExtension. ADSI searches the interfaces associated with the **user** object, starting with its own interfaces, then looking at extension interfaces.
 -   If a match is found, ADSI creates an instance of the component that supports IID\_IMyExtension, and calls **QueryInterface** for the extension. The resulting interface is returned.
 -   The user uses this interface to call the interface methods.
--   Next, the client calls **QueryInterface** for IID\_IYourExtension, which is in a different component. This component delegates this **QueryInterface** call to the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface of the aggregator, which happens to be ADSI itself.
+-   Next, the client calls **QueryInterface** for IID\_IYourExtension, which is in a different component. This component delegates this **QueryInterface** call to the [**IUnknown**](33f1d79a-33fc-4ce5-a372-e08bda378332) interface of the aggregator, which happens to be ADSI itself.
 -   Again, ADSI searches the interfaces and creates the component instance.
 
  

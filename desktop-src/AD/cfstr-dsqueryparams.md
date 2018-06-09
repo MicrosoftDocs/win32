@@ -33,7 +33,7 @@ ms.date: 05/31/2018
 
 
 
-The **CFSTR\_DSQUERYPARAMS** clipboard format is supported by the [**IDataObject**](https://msdn.microsoft.com/windows/desktop/8a002deb-2727-456c-8078-a9b0d5893ed4) provided by the [**ICommonQuery::OpenQueryWindow**](/windows/desktop/api/Cmnquery/) method. The **CFSTR\_DSQUERYPARAMS** clipboard format provides a global memory handle (**HGLOBAL**) that contains a [**DSQUERYPARAMS**](/windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams) structure.
+The **CFSTR\_DSQUERYPARAMS** clipboard format is supported by the [**IDataObject**](8a002deb-2727-456c-8078-a9b0d5893ed4) provided by the [**ICommonQuery::OpenQueryWindow**](/windows/desktop/api/Cmnquery/) method. The **CFSTR\_DSQUERYPARAMS** clipboard format provides a global memory handle (**HGLOBAL**) that contains a [**DSQUERYPARAMS**](/windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams) structure.
 
 
 </dt> </dl> </dd> </dl>
@@ -54,7 +54,7 @@ The **CFSTR\_DSQUERYPARAMS** clipboard format is supported by the [**IDataObject
 
 <dl> <dt>
 
-[**IDataObject**](https://msdn.microsoft.com/windows/desktop/8a002deb-2727-456c-8078-a9b0d5893ed4)
+[**IDataObject**](8a002deb-2727-456c-8078-a9b0d5893ed4)
 </dt> <dt>
 
 [**ICommonQuery::OpenQueryWindow**](/windows/desktop/api/Cmnquery/)

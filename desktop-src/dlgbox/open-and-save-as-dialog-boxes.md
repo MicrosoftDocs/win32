@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # Open and Save As Dialog Boxes
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](https://msdn.microsoft.com/windows/desktop/f8846148-89a5-4b9b-ad68-56137a5c2f65). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](f8846148-89a5-4b9b-ad68-56137a5c2f65). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 The **Open** dialog box lets the user specify the drive, directory, and the name of a file or set of files to open. You create and display an **Open** dialog box by initializing an [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna) structure and passing the structure to the [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea) function.
 
@@ -202,7 +202,7 @@ Currently, there can only be five entries under this key, and the value/name ind
 
 | Value type                         | Meaning                                                                                                   |
 |------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **REG\_DWORD**                     | A CSIDL value that identifies a folder. For a list of CSIDL values, see [**CSIDL values**](https://msdn.microsoft.com/windows/desktop/33d92271-2865-4ebd-b96c-bf293deb4310). |
+| **REG\_DWORD**                     | A CSIDL value that identifies a folder. For a list of CSIDL values, see [**CSIDL values**](33d92271-2865-4ebd-b96c-bf293deb4310). |
 | **REG\_SZ** or **REG\_EXPAND\_SZ** | A null-terminated string that specifies a valid path.                                                     |
 
 
@@ -218,16 +218,16 @@ To enable a hook procedure for an Explorer-style **Open** or **Save As** dialog 
 An Explorer-style hook procedure receives a variety of messages while the dialog box is open. These include the following:
 
 -   The [**WM\_INITDIALOG**](wm-initdialog.md) message and other standard dialog box messages such as the [**WM\_CTLCOLORDLG**](wm-ctlcolordlg.md) control color message.
--   A set of [**WM\_NOTIFY**](https://msdn.microsoft.com/windows/desktop/23ff9dc1-3d92-4e94-8df5-7a645039ce27) notification messages indicating actions taken by the user or other dialog box events.
+-   A set of [**WM\_NOTIFY**](23ff9dc1-3d92-4e94-8df5-7a645039ce27) notification messages indicating actions taken by the user or other dialog box events.
 -   Messages for any additional controls that you defined by specifying a child dialog template.
 
 In addition, there is a set of messages that you can send to an Explorer-style dialog box to get information or to control the behavior and appearance of the dialog box.
 
 If you provide a hook procedure for an Explorer-style dialog box, the default dialog box procedure creates a child dialog box when the default dialog procedure is processing its [**WM\_INITDIALOG**](wm-initdialog.md) message. The hook procedure acts as the dialog procedure for the child dialog box. At this time, the hook procedure receives its own **WM\_INITDIALOG** message with the *lParam* parameter set to the address of the [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna) structure used to initialize the dialog box. After the child dialog finishes processing its own **WM\_INITDIALOG** message, the default dialog procedure moves the standard controls, if necessary, to make room for any additional controls of the child dialog box. The default dialog procedure then sends the [**CDN\_INITDONE**](cdn-initdone.md) notification message to the hook procedure.
 
-The hook procedure receives [**WM\_NOTIFY**](https://msdn.microsoft.com/windows/desktop/23ff9dc1-3d92-4e94-8df5-7a645039ce27) notification messages indicating actions taken by the user in the dialog box. You can use some of these messages to control the behavior of the dialog box. For example, the hook procedure receives the [**CDN\_FILEOK**](cdn-fileok.md) message when the user chooses a file name and clicks the **OK** button. In response to this message, the hook procedure can use the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function to reject the selected name and force the dialog box to remain open.
+The hook procedure receives [**WM\_NOTIFY**](23ff9dc1-3d92-4e94-8df5-7a645039ce27) notification messages indicating actions taken by the user in the dialog box. You can use some of these messages to control the behavior of the dialog box. For example, the hook procedure receives the [**CDN\_FILEOK**](cdn-fileok.md) message when the user chooses a file name and clicks the **OK** button. In response to this message, the hook procedure can use the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function to reject the selected name and force the dialog box to remain open.
 
-The *lParam* parameter for each [**WM\_NOTIFY**](https://msdn.microsoft.com/windows/desktop/23ff9dc1-3d92-4e94-8df5-7a645039ce27) message is a pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) or [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa) structure that defines the action. The **code** member in the header of this structure contains one of the following notification messages.
+The *lParam* parameter for each [**WM\_NOTIFY**](23ff9dc1-3d92-4e94-8df5-7a645039ce27) message is a pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) or [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa) structure that defines the action. The **code** member in the header of this structure contains one of the following notification messages.
 
 
 
@@ -246,7 +246,7 @@ The *lParam* parameter for each [**WM\_NOTIFY**](https://msdn.microsoft.com/wind
 
  
 
-These [**WM\_NOTIFY**](https://msdn.microsoft.com/windows/desktop/23ff9dc1-3d92-4e94-8df5-7a645039ce27) messages supersede the [**FILEOKSTRING**](fileokstring.md), [**LBSELCHSTRING**](lbselchstring.md), [**SHAREVISTRING**](sharevistring.md), and [**HELPMSGSTRING**](helpmsgstring.md) registered messages used by previous versions of the **Open** and **Save As** dialog boxes. However, the hook procedure also receives the superseded message after the **WM\_NOTIFY** message if the **WM\_NOTIFY** processing does not use [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) to set a nonzero **DWL\_MSGRESULT** value.
+These [**WM\_NOTIFY**](23ff9dc1-3d92-4e94-8df5-7a645039ce27) messages supersede the [**FILEOKSTRING**](fileokstring.md), [**LBSELCHSTRING**](lbselchstring.md), [**SHAREVISTRING**](sharevistring.md), and [**HELPMSGSTRING**](helpmsgstring.md) registered messages used by previous versions of the **Open** and **Save As** dialog boxes. However, the hook procedure also receives the superseded message after the **WM\_NOTIFY** message if the **WM\_NOTIFY** processing does not use [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) to set a nonzero **DWL\_MSGRESULT** value.
 
 To retrieve information about the status of the dialog box or to control the behavior and appearance of the dialog box, the hook procedure can send the following messages to the dialog box.
 

@@ -84,7 +84,7 @@ Certain coding and design practices can limit the number of leaks in your code.
 -   ["Tracking down managed memory leaks"](http://go.microsoft.com/fwlink/p/?linkid=205152)
 -   ["Understanding and Solving Internet Explorer Leak Patterns"](https://www.bing.com/search?q="Understanding+and+Solving+Internet+Explorer+Leak+Patterns")
 -   ["JavaScript Memory Leak Detector"](http://go.microsoft.com/fwlink/p/?linkid=205153)
--   [Circular Memory Leak Mitigation (in browsers):](https://msdn.microsoft.com/windows/desktop/768aa40c-400a-4331-b359-821aa09ef1af)
+-   [Circular Memory Leak Mitigation (in browsers):](768aa40c-400a-4331-b359-821aa09ef1af)
 -   [**try-finally statement**](https://msdn.microsoft.com/windows/desktop/514400c1-c322-4bf3-9e48-3047240b8a82)
 -   [**PROPVARIANT Structure**](https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1)
 -   [**PropVariantClear Function**](https://msdn.microsoft.com/062b6065-a56f-4ecd-b232-3ba338a6d806)

@@ -462,7 +462,7 @@ Next
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/windows/desktop/D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
+[Operating System Classes](D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
 </dt> <dt>
 
 [WMI Tasks: Files and Folders](https://msdn.microsoft.com/91281fe1-0461-48da-ac5c-cab7e8e1b285)

@@ -101,7 +101,7 @@ The **Win32\_WMIElementSetting** class is derived from [**CIM\_ElementSetting**]
 [**CIM\_ElementSetting**](cim-elementsetting.md)
 </dt> <dt>
 
-[WMI Service Management Classes](https://msdn.microsoft.com/windows/desktop/EF58AC04-FE04-4D0C-A5F7-3491C885A0E4)
+[WMI Service Management Classes](EF58AC04-FE04-4D0C-A5F7-3491C885A0E4)
 </dt> </dl>
 
  

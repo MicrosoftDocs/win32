@@ -29,7 +29,7 @@ The **ShellWindows** object has these methods.
 | Method                                                 | Description                                                                                                         |
 |:-------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
 | [**\_NewEnum**](shellwindows--newenum-method-7ral.md) | Creates and returns a new **ShellWindows** object that is a copy of this **ShellWindows** object.<br/>        |
-| [**Item**](shellwindows-item.md)                      | Retrieves an [**InternetExplorer**](https://msdn.microsoft.com/windows/desktop/4f59dc39-4fa5-46ac-a572-0d0b36876f54) object that represents the Shell window.<br/> |
+| [**Item**](shellwindows-item.md)                      | Retrieves an [**InternetExplorer**](4f59dc39-4fa5-46ac-a572-0d0b36876f54) object that represents the Shell window.<br/> |
 
 
 

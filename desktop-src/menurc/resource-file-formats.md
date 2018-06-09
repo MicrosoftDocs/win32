@@ -43,7 +43,7 @@ A dialog box is also one resource entry in the resource file. It consists of one
 
 ## Font Resources
 
-Fonts are stored in the resource file as a group of resources. Individual fonts make up a font group. A [FONT Statement](https://msdn.microsoft.com/windows/desktop/d7b0f382-bc45-4405-a30e-0b571fdfd1db) resource definition statement in the .RC file defines each font. Each individual font in the resource consists of the complete contents of the related .fnt file. A [**FONTGROUPHDR**](fontgrouphdr.md) structure follows all the individual font components in the .res file.
+Fonts are stored in the resource file as a group of resources. Individual fonts make up a font group. A [FONT Statement](d7b0f382-bc45-4405-a30e-0b571fdfd1db) resource definition statement in the .RC file defines each font. Each individual font in the resource consists of the complete contents of the related .fnt file. A [**FONTGROUPHDR**](fontgrouphdr.md) structure follows all the individual font components in the .res file.
 
 Font resources are not added to the resources of a specific application. Instead, they are normally added to executable files that have a .fon extension. These files are usually resource-only DLLs rather than applications.
 

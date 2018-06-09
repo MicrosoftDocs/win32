@@ -18,7 +18,7 @@ Use the following functions to manage dial-up users:
 -   [**MprAdminUserGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusergetinfo)
 -   [**MprAdminUserSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusersetinfo)
 
-To obtain a list of current users on a particular domain, use the [**NetQueryDisplayInformation**](https://msdn.microsoft.com/windows/desktop/049f1ea3-4d23-4b35-8b08-7256859aed45) function. The prototype for this function is in the lmaccess.h header file.
+To obtain a list of current users on a particular domain, use the [**NetQueryDisplayInformation**](049f1ea3-4d23-4b35-8b08-7256859aed45) function. The prototype for this function is in the lmaccess.h header file.
 
  
 

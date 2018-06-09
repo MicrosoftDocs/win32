@@ -104,7 +104,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Other Resources**
 </dt> <dt>
 
-[**IPropertyStore**](https://msdn.microsoft.com/windows/desktop/e995aaa1-d4c9-475f-b1fa-b9123cd5b653)
+[**IPropertyStore**](e995aaa1-d4c9-475f-b1fa-b9123cd5b653)
 </dt> <dt>
 
 [OLE DB Programming Overview](https://www.bing.com/search?q=OLE+DB+Programming+Overview)

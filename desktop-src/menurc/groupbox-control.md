@@ -56,7 +56,7 @@ GROUPBOX "Options", 101, 10, 10, 100, 100
 
 <dl> <dt>
 
-[Group Boxes](https://msdn.microsoft.com/windows/desktop/bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b)
+[Group Boxes](bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b)
 </dt> </dl>
 
  

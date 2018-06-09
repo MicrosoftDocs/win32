@@ -24,7 +24,7 @@ COM provides implementations of the property set interfaces for various objects,
 
 -   [IPropertySetStorage–Compound File Implementation](ipropertysetstorage-compound-file-implementation.md)
 
-    The compound file implementation, which provides the [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) and [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) interfaces, also provides the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) and [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) interfaces. Given a compound file implementation of **IStorage**, the **IPropertySetStorage** interface can be obtained by calling [**IUnknown::QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d).
+    The compound file implementation, which provides the [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) and [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) interfaces, also provides the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) and [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) interfaces. Given a compound file implementation of **IStorage**, the **IPropertySetStorage** interface can be obtained by calling [**IUnknown::QueryInterface**](54d5ff80-18db-43f2-b636-f93ac053146d).
 
 -   [IPropertySetStorage–NTFS File System Implementation](ipropertysetstorage-ntfs-file-system-implementation.md)
 

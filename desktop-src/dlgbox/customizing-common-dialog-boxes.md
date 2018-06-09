@@ -131,7 +131,7 @@ The Common Dialog Box Library defines a set of message strings. You can pass a c
 
 Some common dialog boxes send and receive other window messages. The hook procedure for a **Font** dialog box can send any of the **WM\_CHOOSEFONT\_\*** messages to the **Font** dialog box. For more information, see [Font Dialog Box](font-dialog-box.md). The **Page Setup** dialog box sends the **WM\_PSD\_\*** messages if you have enabled a [*PagePaintHook*](https://www.bing.com/search?q=*PagePaintHook*) hook procedure. For more information, see [Page Setup Dialog Box](page-setup-dialog-box.md).
 
-The Explorer-style **Open** and **Save As** dialog boxes support a set of predefined messages. These include notification messages sent in the form of a [**WM\_NOTIFY**](https://msdn.microsoft.com/windows/desktop/23ff9dc1-3d92-4e94-8df5-7a645039ce27) message to your hook procedure, and messages that your hook procedure can send to the dialog box. For a complete list of these messages, see [Explorer-Style Hook Procedures](open-and-save-as-dialog-boxes.md).
+The Explorer-style **Open** and **Save As** dialog boxes support a set of predefined messages. These include notification messages sent in the form of a [**WM\_NOTIFY**](23ff9dc1-3d92-4e94-8df5-7a645039ce27) message to your hook procedure, and messages that your hook procedure can send to the dialog box. For a complete list of these messages, see [Explorer-Style Hook Procedures](open-and-save-as-dialog-boxes.md).
 
 ## Help Support
 
@@ -155,18 +155,18 @@ If you customize a dialog box by adding new controls, you must also extend help 
 | User action                                                           | Message                                      |
 |-----------------------------------------------------------------------|----------------------------------------------|
 | Click the right mouse button over a control.                          | [**WM\_CONTEXTMENU**](https://msdn.microsoft.com/library/windows/desktop/ms647592) |
-| Pressed the F1 key.                                                   | [**WM\_HELP**](https://msdn.microsoft.com/windows/desktop/6a090125-67dd-4267-9973-10e32c6e4f1f)               |
-| Clicked the **?** button on the title bar and then clicked a control. | [**WM\_HELP**](https://msdn.microsoft.com/windows/desktop/6a090125-67dd-4267-9973-10e32c6e4f1f)               |
+| Pressed the F1 key.                                                   | [**WM\_HELP**](6a090125-67dd-4267-9973-10e32c6e4f1f)               |
+| Clicked the **?** button on the title bar and then clicked a control. | [**WM\_HELP**](6a090125-67dd-4267-9973-10e32c6e4f1f)               |
 
 
 
  
 
-You should process these messages for the controls you have added, but let the default dialog box procedure process the messages for the standard controls. For more information about how to process these messages, see [Help](https://msdn.microsoft.com/windows/desktop/2a3f6034-6ba6-4204-a2e1-59995fbf40fe).
+You should process these messages for the controls you have added, but let the default dialog box procedure process the messages for the standard controls. For more information about how to process these messages, see [Help](2a3f6034-6ba6-4204-a2e1-59995fbf40fe).
 
 ### The Help Button
 
-You can display a **Help** button in any of the common dialog boxes by setting a **SHOWHELP** value in the **Flags** member of the initialization structure for the dialog box. If you display the **Help** button, you must process the user's request for help. The processing can be done either in one of your application's window procedures or in a hook procedure for the dialog box. Typically, you would process the request for help by calling the [**WinHelp**](https://msdn.microsoft.com/windows/desktop/fce80bac-2a44-46e7-a87a-ef93f4599807) function.
+You can display a **Help** button in any of the common dialog boxes by setting a **SHOWHELP** value in the **Flags** member of the initialization structure for the dialog box. If you display the **Help** button, you must process the user's request for help. The processing can be done either in one of your application's window procedures or in a hook procedure for the dialog box. Typically, you would process the request for help by calling the [**WinHelp**](fce80bac-2a44-46e7-a87a-ef93f4599807) function.
 
 To process help messages in one of your window procedures, you must get a message identifier for the string defined by the [**HELPMSGSTRING**](helpmsgstring.md) value and identify the window to receive messages. To get the message identifier, specify **HELPMSGSTRING** as the parameter in a call to the [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947) function. When you create the dialog box, use the **hwndOwner** member of the dialog box initialization structure to identify the window that is to receive the messages. The dialog box procedure sends the message to the window procedure whenever the user clicks the **Help** button.
 

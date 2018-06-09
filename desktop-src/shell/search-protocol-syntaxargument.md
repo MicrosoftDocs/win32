@@ -35,7 +35,7 @@ search:query=from:paolo&syntax=AQS
 
 <dl> <dt>
 
-[Advanced Query Syntax](https://msdn.microsoft.com/windows/desktop/76e33903-d063-48c0-9afe-912c3daa8237)
+[Advanced Query Syntax](76e33903-d063-48c0-9afe-912c3daa8237)
 </dt> </dl>
 
  

@@ -15,13 +15,13 @@ ms.date: 05/31/2018
 
 # Implementing Cloaking
 
-Cloaking is an extension to impersonation that allows for better control over how COM impersonates a client over a proxy. Like many forms of WMI security, you set cloaking through the [**CoSetProxyBlanket**](https://msdn.microsoft.com/windows/desktop/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf) and [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f) interfaces.
+Cloaking is an extension to impersonation that allows for better control over how COM impersonates a client over a proxy. Like many forms of WMI security, you set cloaking through the [**CoSetProxyBlanket**](c2e5e681-8fa5-4b02-b59d-ba796eb0dccf) and [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f) interfaces.
 
 COM provides the following forms of cloaking:
 
 -   Static
 
-    COM establishes the token identity by the thread or process token on the first call to the proxy. If you use static cloaking with [**CoSetProxyBlanket**](https://msdn.microsoft.com/windows/desktop/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf), you set the identity of the proxy for the life of the proxy.
+    COM establishes the token identity by the thread or process token on the first call to the proxy. If you use static cloaking with [**CoSetProxyBlanket**](c2e5e681-8fa5-4b02-b59d-ba796eb0dccf), you set the identity of the proxy for the life of the proxy.
 
 -   Dynamic
 

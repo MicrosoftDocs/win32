@@ -44,7 +44,7 @@ The following procedure describes how to implement a physical consumer for a per
 
     However, if you wish to call back into WMI, use the [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator) and [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) interfaces. The traditional method for connecting to WMI is during the initialization process of your COM object. For more information, see [Creating a WMI Application or Script](creating-a-wmi-application-or-script.md).
 
-    If you implement your physical consumer as an in-process COM server and connect to WMI separately from the initialization process, you must use the **CLSID\_WbemAdministrativeLocator** class identifier to access the [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator) interface in the call to [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec).
+    If you implement your physical consumer as an in-process COM server and connect to WMI separately from the initialization process, you must use the **CLSID\_WbemAdministrativeLocator** class identifier to access the [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator) interface in the call to [**CoCreateInstance**](7295a55b-12c7-4ed0-a7a4-9ecee16afdec).
 
     The following example shows how to use the **CLSID\_WbemAdministrativeLocator** class identifier to access the [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator) interface.
 
@@ -57,7 +57,7 @@ The following procedure describes how to implement a physical consumer for a per
 
     
 
-    The [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator) interface obtains the initial namespace pointer to WMI on a particular host computer. Failure to use the **CLSID\_WbemAdministrativeLocator** identifier in the [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) call results in an "access denied" error.
+    The [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator) interface obtains the initial namespace pointer to WMI on a particular host computer. Failure to use the **CLSID\_WbemAdministrativeLocator** identifier in the [**CoCreateInstance**](7295a55b-12c7-4ed0-a7a4-9ecee16afdec) call results in an "access denied" error.
 
     Under usual circumstances, WMI delivers asynchronous events to the client one at a time. However, if a client cannot receive asynchronous event notifications as fast as the events arrive, WMI starts to automatically batch events into a single call. Automatic batching helps if the round-trip times are a problem, as is often the case in high-throughput scenarios. However, batching does not improve system performance if the client or the network bandwidth are at fault.
 

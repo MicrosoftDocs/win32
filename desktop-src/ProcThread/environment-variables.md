@@ -36,7 +36,7 @@ The maximum size of a user-defined environment variable is 32,767 characters. Th
 
 The [**GetEnvironmentVariable**](/windows/desktop/api/WinBase/nf-winbase-getenvironmentvariable) function determines whether a specified variable is defined in the environment of the calling process, and, if so, what its value is.
 
-To retrieve a copy of the environment block for a given user, use the [**CreateEnvironmentBlock**](https://msdn.microsoft.com/windows/desktop/bda8879d-d33a-48f4-8b08-e3a279126a07) function.
+To retrieve a copy of the environment block for a given user, use the [**CreateEnvironmentBlock**](bda8879d-d33a-48f4-8b08-e3a279126a07) function.
 
 To expand environment-variable strings, use the [**ExpandEnvironmentStrings**](https://msdn.microsoft.com/library/windows/desktop/ms724265) function.
 
@@ -47,7 +47,7 @@ To expand environment-variable strings, use the [**ExpandEnvironmentStrings**](h
 [Changing Environment Variables](changing-environment-variables.md)
 </dt> <dt>
 
-[User Environment Variables](https://msdn.microsoft.com/windows/desktop/6180e54e-4bd9-4692-83fd-f3f7f1d8f8d7)
+[User Environment Variables](6180e54e-4bd9-4692-83fd-f3f7f1d8f8d7)
 </dt> </dl>
 
  

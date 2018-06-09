@@ -55,7 +55,7 @@ Windows 7 introduces the Windows Scenic Ribbon which comes with a set of contro
 [**CHOOSEFONT structure**](https://www.bing.com/search?q=**CHOOSEFONT+structure**)
 </dt> <dt>
 
-[**Font Controls in Windows Scenic Ribbon**](https://msdn.microsoft.com/windows/desktop/98eddab5-28cb-4b9d-a788-ee28dd6055b1)
+[**Font Controls in Windows Scenic Ribbon**](98eddab5-28cb-4b9d-a788-ee28dd6055b1)
 </dt> <dt>
 
 [**ChooseFont() Win32 Common Dialog**](https://msdn.microsoft.com/ee1df9f2-585f-4208-ad49-a0f6ba76f53a)

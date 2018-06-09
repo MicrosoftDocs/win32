@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Initializing COM for a WMI Application
 
-The first step in connecting to WMI is setting up the COM calls to [**CoInitializeEx**](https://msdn.microsoft.com/windows/desktop/ffb79c0f-aeda-4ea1-aea8-afb79109837f) and [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f).
+The first step in connecting to WMI is setting up the COM calls to [**CoInitializeEx**](ffb79c0f-aeda-4ea1-aea8-afb79109837f) and [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f).
 
 The code examples in this topic require the following references and \#include statements to compile correctly.
 
@@ -34,11 +34,11 @@ The following procedure describes how to initialize COM from a client applicatio
 
 **To initialize COM from a client application**
 
-1.  Initialize COM with a call to [**CoInitializeEx**](https://msdn.microsoft.com/windows/desktop/ffb79c0f-aeda-4ea1-aea8-afb79109837f).
+1.  Initialize COM with a call to [**CoInitializeEx**](ffb79c0f-aeda-4ea1-aea8-afb79109837f).
 
-    Calling [**CoInitializeEx**](https://msdn.microsoft.com/windows/desktop/ffb79c0f-aeda-4ea1-aea8-afb79109837f) is a standard procedure for setting up a COM interface. Therefore, WMI does not require that you observe any additional procedures when calling **CoInitializeEx**. For more information, see [COM](https://msdn.microsoft.com/windows/desktop/3578ca42-a4b6-44b3-ad5b-aeb5fa61f3f4).
+    Calling [**CoInitializeEx**](ffb79c0f-aeda-4ea1-aea8-afb79109837f) is a standard procedure for setting up a COM interface. Therefore, WMI does not require that you observe any additional procedures when calling **CoInitializeEx**. For more information, see [COM](3578ca42-a4b6-44b3-ad5b-aeb5fa61f3f4).
 
-    The following code example describes how to call [**CoInitializeEx**](https://msdn.microsoft.com/windows/desktop/ffb79c0f-aeda-4ea1-aea8-afb79109837f).
+    The following code example describes how to call [**CoInitializeEx**](ffb79c0f-aeda-4ea1-aea8-afb79109837f).
 
     ```C++
     HRESULT hr;
@@ -52,13 +52,13 @@ The following procedure describes how to initialize COM from a client applicatio
 
     
 
-2.  Set the general COM security levels with a call to the [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f) interface.
+2.  Set the general COM security levels with a call to the [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f) interface.
 
-    [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f) is a standard function you must call when setting up a COM interface for a process. Call **CoInitializeSecurity** if you want to set the default security settings for authentication, impersonation, or authentication service for an entire process. For more information, see [Setting Client Application Process Security](setting-client-application-process-security.md). If you want to set or change the security for a specific proxy, you must call [**CoSetProxyBlanket**](https://msdn.microsoft.com/windows/desktop/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf). Use **CoSetProxyBlanket** whenever you must set or change COM security when running inside another process where you cannot control the default security settings for authentication, impersonation, or authentication service. For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md) and [Setting the Security on IWbemServices and Other Proxies](setting-the-security-on-iwbemservices-and-other-proxies.md).
+    [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f) is a standard function you must call when setting up a COM interface for a process. Call **CoInitializeSecurity** if you want to set the default security settings for authentication, impersonation, or authentication service for an entire process. For more information, see [Setting Client Application Process Security](setting-client-application-process-security.md). If you want to set or change the security for a specific proxy, you must call [**CoSetProxyBlanket**](c2e5e681-8fa5-4b02-b59d-ba796eb0dccf). Use **CoSetProxyBlanket** whenever you must set or change COM security when running inside another process where you cannot control the default security settings for authentication, impersonation, or authentication service. For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md) and [Setting the Security on IWbemServices and Other Proxies](setting-the-security-on-iwbemservices-and-other-proxies.md).
 
     WMI has several security issues you should be aware of when programming a WMI client application. For more information, see [Setting Client Application Process Security](setting-client-application-process-security.md).
 
-    The following code example describes how to call [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f) to set COM security on the process.
+    The following code example describes how to call [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f) to set COM security on the process.
 
     ```C++
     hr =  CoInitializeSecurity(

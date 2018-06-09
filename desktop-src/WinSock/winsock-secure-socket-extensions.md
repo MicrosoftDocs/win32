@@ -95,7 +95,7 @@ The [**WSARevertImpersonation**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsare
 [Using Secure Socket Extensions](using-secure-socket-extensions.md)
 </dt> <dt>
 
-[Windows Filtering Platform](https://msdn.microsoft.com/windows/desktop/0436f559-20e6-4199-8391-10eb7d85df23)
+[Windows Filtering Platform](0436f559-20e6-4199-8391-10eb7d85df23)
 </dt> <dt>
 
 [Windows Filtering Platform API Functions](https://msdn.microsoft.com/26a69710-9981-40a4-8b1e-dca709624ead)

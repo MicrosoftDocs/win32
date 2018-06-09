@@ -28,7 +28,7 @@ Many script functions take a combination of a hardware device context handle and
 
 The hardware device context handle can be passed to Uniscribe as **NULL**. If data required by Uniscribe is already cached, the device context is not accessed, and the operation continues normally.
 
-If the device context is passed as **NULL** and Uniscribe needs to access it for any reason, Uniscribe returns the error code E\_PENDING. This code is returned quickly, allowing the application to avoid time-consuming [**SelectObject**](https://msdn.microsoft.com/windows/desktop/a89b875e-923d-4048-bc61-8dea132cc56d) calls.
+If the device context is passed as **NULL** and Uniscribe needs to access it for any reason, Uniscribe returns the error code E\_PENDING. This code is returned quickly, allowing the application to avoid time-consuming [**SelectObject**](a89b875e-923d-4048-bc61-8dea132cc56d) calls.
 
 ## Examples
 

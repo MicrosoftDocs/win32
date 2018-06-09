@@ -63,7 +63,7 @@ virtual void Stroke(
 
 
 
-The `Init` method calls [CoCreateFreeThreadedMarshaler](https://msdn.microsoft.com/windows/desktop/f97a2a39-7291-4a1d-b770-0a34f7f5b60f) to set up a free threaded marshaler.
+The `Init` method calls [CoCreateFreeThreadedMarshaler](f97a2a39-7291-4a1d-b770-0a34f7f5b60f) to set up a free threaded marshaler.
 
 
 ```C++

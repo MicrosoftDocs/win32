@@ -38,7 +38,7 @@ HRESULT __stdcall PStoreCreateInstance(
 *ppProvider* \[out\]
 </dt> <dd>
 
-A pointer to the retrieved interface pointer for the storage provider. When you finish using the interface, decrement its reference count by calling its [**IUnknown::Release**](https://msdn.microsoft.com/windows/desktop/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) method. This parameter cannot be **NULL**.
+A pointer to the retrieved interface pointer for the storage provider. When you finish using the interface, decrement its reference count by calling its [**IUnknown::Release**](4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) method. This parameter cannot be **NULL**.
 
 </dd> <dt>
 

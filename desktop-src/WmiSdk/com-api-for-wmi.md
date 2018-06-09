@@ -24,7 +24,7 @@ For more information about writing WMI enterprise management applications, see [
 
  
 
-Each of the different WMI objects inherit from an interface ultimately inherited from the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. COM dictates how object implementers, or interfaces, handle tasks such as memory management, parameter management, and multithreading. By conforming to COM, the COM API for WMI ensures that it supports the functionality provided by the interfaces of each WMI object.
+Each of the different WMI objects inherit from an interface ultimately inherited from the [**IUnknown**](33f1d79a-33fc-4ce5-a372-e08bda378332) interface. COM dictates how object implementers, or interfaces, handle tasks such as memory management, parameter management, and multithreading. By conforming to COM, the COM API for WMI ensures that it supports the functionality provided by the interfaces of each WMI object.
 
 WMI is accessed through the following WMI-specific COM interfaces.
 
@@ -55,7 +55,7 @@ WMI is accessed through the following WMI-specific COM interfaces.
 | [**IWbemObjectSink**](iwbemobjectsink.md)                                   | Used to receive both the results of [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) and certain types of event notifications.                                                                                                                                                                                       |
 | [**IWbemObjectTextSrc**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjecttextsrc)                             | Used to translate [**IWbemClassObject**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject) instances to and from differing text formats.                                                                                                                                                                                               |
 | [**IWbemPropertyProvider**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbempropertyprovider)                       | Supports retrieving and updating individual properties in an instance of a WMI class.                                                                                                                                                                                                                      |
-| [**IWbemProviderIdentity**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemprovideridentity)                       | Implemented by an event provider if the provider registers itself using more than one **Name** (multiple instances of [**\_\_Win32Provider**](--win32provider.md)) with the same [CLSID](https://msdn.microsoft.com/windows/desktop/8f2be90c-360a-410c-81aa-bae9ae2c1a21) value. The class provides a mechanism for distinguishing which named provider should be used. |
+| [**IWbemProviderIdentity**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemprovideridentity)                       | Implemented by an event provider if the provider registers itself using more than one **Name** (multiple instances of [**\_\_Win32Provider**](--win32provider.md)) with the same [CLSID](8f2be90c-360a-410c-81aa-bae9ae2c1a21) value. The class provides a mechanism for distinguishing which named provider should be used. |
 | [**IWbemProviderInit**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit)                               | Used to initialize providers.                                                                                                                                                                                                                                                                              |
 | [**IWbemProviderInitSink**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinitsink)                       | Implemented by WMI and called by providers to report initialization status.                                                                                                                                                                                                                                |
 | [**IWbemQualifierSet**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemqualifierset)                               | Acts as a container for the entire set of named qualifiers for a single property or entire object (a class or instance).                                                                                                                                                                                   |
@@ -77,7 +77,7 @@ WMI is accessed through the following WMI-specific COM interfaces.
 For more information about the following topics for COM programming, see [Component Development]( http://go.microsoft.com/fwlink/p/?linkid=195008):
 
 -   Interfaces and object design.
--   Implementing [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332).
+-   Implementing [**IUnknown**](33f1d79a-33fc-4ce5-a372-e08bda378332).
 -   Memory management
 -   Handling reference counting.
 

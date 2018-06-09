@@ -37,7 +37,7 @@ A pointer to a variable that receives the number of output results.
 
 ## Return value
 
-The method returns one of the following values. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/windows/desktop/15f3ae3e-1794-4948-a7aa-6309a703364b).
+The method returns one of the following values. For more information about COM error codes, see [Error Handling](15f3ae3e-1794-4948-a7aa-6309a703364b).
 
 
 

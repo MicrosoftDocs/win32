@@ -55,9 +55,9 @@ The return value is always **TRUE**.
 
 ## Remarks
 
-This message is processed by the [**DefDlgProc**](/windows/desktop/api/Winuser/nf-winuser-defdlgprocw) function. To set the default push button, the function can send [**WM\_GETDLGCODE**](wm-getdlgcode.md) and [**BM\_SETSTYLE**](https://msdn.microsoft.com/windows/desktop/6439e68f-87fc-4a4a-8025-facc3c0e03e2) messages to the specified control and the current default push button.
+This message is processed by the [**DefDlgProc**](/windows/desktop/api/Winuser/nf-winuser-defdlgprocw) function. To set the default push button, the function can send [**WM\_GETDLGCODE**](wm-getdlgcode.md) and [**BM\_SETSTYLE**](6439e68f-87fc-4a4a-8025-facc3c0e03e2) messages to the specified control and the current default push button.
 
-Using the **DM\_SETDEFID** message can result in more than one button appearing to have the default push button state. When the system brings up a dialog, it draws the first push button in the dialog template with the default state border. Sending a **DM\_SETDEFID** message to change the default button will not always remove the default state border from the first push button. In these cases, the application should send a [**BM\_SETSTYLE**](https://msdn.microsoft.com/windows/desktop/6439e68f-87fc-4a4a-8025-facc3c0e03e2) message to change the first push button border style.
+Using the **DM\_SETDEFID** message can result in more than one button appearing to have the default push button state. When the system brings up a dialog, it draws the first push button in the dialog template with the default state border. Sending a **DM\_SETDEFID** message to change the default button will not always remove the default state border from the first push button. In these cases, the application should send a [**BM\_SETSTYLE**](6439e68f-87fc-4a4a-8025-facc3c0e03e2) message to change the first push button border style.
 
 ## Requirements
 
@@ -96,10 +96,10 @@ Using the **DM\_SETDEFID** message can result in more than one button appearing 
 **Other Resources**
 </dt> <dt>
 
-[**BM\_SETSTYLE**](https://msdn.microsoft.com/windows/desktop/6439e68f-87fc-4a4a-8025-facc3c0e03e2)
+[**BM\_SETSTYLE**](6439e68f-87fc-4a4a-8025-facc3c0e03e2)
 </dt> <dt>
 
-[**EM\_SETLIMITTEXT**](https://msdn.microsoft.com/windows/desktop/e2be7814-435b-495f-982a-32247fbc0165)
+[**EM\_SETLIMITTEXT**](e2be7814-435b-495f-982a-32247fbc0165)
 </dt> </dl>
 
  

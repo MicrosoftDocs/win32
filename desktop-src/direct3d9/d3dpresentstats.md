@@ -72,7 +72,7 @@ Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-
 
 </dd> <dd>
 
-The scheduler's last sampled machine time, obtained by calling [**QueryPerformanceCounter**](https://msdn.microsoft.com/windows/desktop/08169390-940b-4110-813a-249d107cc953).
+The scheduler's last sampled machine time, obtained by calling [**QueryPerformanceCounter**](08169390-940b-4110-813a-249d107cc953).
 
 </dd> <dt>
 

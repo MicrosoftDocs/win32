@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[This function is available through Windows XP with Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**InitCommonControlsEx**](https://msdn.microsoft.com/VS|Controls|~\controls\common\functions\initcommoncontrolsex.htm) instead.\]
 
-Registers a window class that allows for the [SysLink](https://msdn.microsoft.com/windows/desktop/38cfac3d-de60-4882-a434-4f498330b77d) common control to be used in a window.
+Registers a window class that allows for the [SysLink](38cfac3d-de60-4882-a434-4f498330b77d) common control to be used in a window.
 
 ## Syntax
 
@@ -56,7 +56,7 @@ Use [**LinkWindow\_UnregisterClass**](linkwindow-unregisterclass.md) to unregist
 
 <dl> <dt>
 
-[Overview of SysLink Controls](https://msdn.microsoft.com/windows/desktop/38cfac3d-de60-4882-a434-4f498330b77d)
+[Overview of SysLink Controls](38cfac3d-de60-4882-a434-4f498330b77d)
 </dt> </dl>
 
  

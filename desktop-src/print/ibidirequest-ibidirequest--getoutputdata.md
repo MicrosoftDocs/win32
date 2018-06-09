@@ -42,7 +42,7 @@ A zero-based index of the output data that is requested. For more information, s
 *ppszSchema* \[out\]
 </dt> <dd>
 
-A pointer to a NULL-terminated string that receives the schema string. The caller must call the [**CoTaskMemFree**](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) function to free this pointer.
+A pointer to a NULL-terminated string that receives the schema string. The caller must call the [**CoTaskMemFree**](3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) function to free this pointer.
 
 </dd> <dt>
 
@@ -73,7 +73,7 @@ A pointer to a variable that receives the type of the output data. This paramete
 *ppData* \[out\]
 </dt> <dd>
 
-A pointer to the variable that receives a pointer to the byte array containing the output data. The buffer is allocated by the COM interface to store the output data. The caller is responsible for calling [**CoTaskMemFree**](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) to free the buffer.
+A pointer to the variable that receives a pointer to the byte array containing the output data. The buffer is allocated by the COM interface to store the output data. The caller is responsible for calling [**CoTaskMemFree**](3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) to free the buffer.
 
 </dd> <dt>
 
@@ -86,7 +86,7 @@ A pointer to a variable that receives the size of the byte array specified by \*
 
 ## Return value
 
-The method returns one of the following values. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/windows/desktop/15f3ae3e-1794-4948-a7aa-6309a703364b).
+The method returns one of the following values. For more information about COM error codes, see [Error Handling](15f3ae3e-1794-4948-a7aa-6309a703364b).
 
 
 

@@ -124,7 +124,7 @@ The return value is an **HRESULT** value. A value of **PST\_E\_OK** indicates th
 
 ## Remarks
 
-If **ReadItem** completes successfully, the application is responsible for freeing the returned data buffer using the [**CoTaskMemFree**](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) function.
+If **ReadItem** completes successfully, the application is responsible for freeing the returned data buffer using the [**CoTaskMemFree**](3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) function.
 
 ## Requirements
 

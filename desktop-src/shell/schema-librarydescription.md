@@ -129,7 +129,7 @@ A library can have a unique set of properties, and locations in the library can 
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[Search Connector Description Schema](https://msdn.microsoft.com/windows/desktop/b85a04c6-9398-4cc7-a894-881216600203)
+[Search Connector Description Schema](b85a04c6-9398-4cc7-a894-881216600203)
 </dt> </dl>
 
  

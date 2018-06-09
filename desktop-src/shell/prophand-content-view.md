@@ -22,7 +22,7 @@ Some Shell data sources use Content view by default, but users can select the Co
 
 ## How to Implement the Content View
 
-When registering a new [file type](fa-file-types.md) or [protocol handler](https://msdn.microsoft.com/windows/desktop/0e2b7b4b-ae87-4092-b924-6191cdf42c9b), you can take advantage of the Content view by using either of two different approaches. You can use an existing set of properties and layout pattern, or you can create your own combination.
+When registering a new [file type](fa-file-types.md) or [protocol handler](0e2b7b4b-ae87-4092-b924-6191cdf42c9b), you can take advantage of the Content view by using either of two different approaches. You can use an existing set of properties and layout pattern, or you can create your own combination.
 
 You can use a registry entry to associate your file type or item with a predefined [Kind](https://msdn.microsoft.com/1466b4c7-49ea-417a-ac94-7b45515ccb96), which is a property that you can think of as a content category. By associating your file type or item with certain of these Kinds, you automatically inherit that Kind's Content view layout patterns and property lists. Windows defines Content view layout patterns and property lists for the following Kinds: documents, email, folder, music, picture, and generic. This type of association is encouraged. It lets you provide the consistent experience that a user expects for similar items.
 

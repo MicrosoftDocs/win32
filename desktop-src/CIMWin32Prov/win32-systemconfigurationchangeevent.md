@@ -148,7 +148,7 @@ The **Win32\_SystemConfigurationChangeEvent** class is derived from [**Win32\_De
 [**Win32\_DeviceChangeEvent**](win32-devicechangeevent.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/windows/desktop/D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
+[Operating System Classes](D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
 </dt> </dl>
 
  

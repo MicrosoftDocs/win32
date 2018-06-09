@@ -298,7 +298,7 @@ int QueryTcpSocketSecurity(IN SOCKET sock)
 [Security Support Provider Interface (SSPI)](https://msdn.microsoft.com/79ed7c51-4191-40b2-8d5f-06157f5b99be)
 </dt> <dt>
 
-[Windows Filtering Platform](https://msdn.microsoft.com/windows/desktop/0436f559-20e6-4199-8391-10eb7d85df23)
+[Windows Filtering Platform](0436f559-20e6-4199-8391-10eb7d85df23)
 </dt> <dt>
 
 [Windows Filtering Platform API Functions](https://msdn.microsoft.com/26a69710-9981-40a4-8b1e-dca709624ead)

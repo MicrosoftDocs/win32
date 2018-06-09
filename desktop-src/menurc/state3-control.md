@@ -52,7 +52,7 @@ For more information about the general syntax of a control statement, see [Commo
 [**AUTOCHECKBOX**](autocheckbox-control.md)
 </dt> <dt>
 
-[Check Boxes](https://msdn.microsoft.com/windows/desktop/bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b)
+[Check Boxes](bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b)
 </dt> <dt>
 
 [**CHECKBOX**](checkbox-control.md)

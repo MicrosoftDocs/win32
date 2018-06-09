@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following is a brief comparison of the various memory allocation methods:
 
--   [**CoTaskMemAlloc**](https://msdn.microsoft.com/windows/desktop/c4cb588d-9482-4f90-a92e-75b604540d5c)
+-   [**CoTaskMemAlloc**](c4cb588d-9482-4f90-a92e-75b604540d5c)
 -   [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc)
 -   [**HeapAlloc**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc)
 -   [**LocalAlloc**](/windows/desktop/api/WinBase/nf-winbase-localalloc)
@@ -31,7 +31,7 @@ The [**VirtualAlloc**](https://www.bing.com/search?q=**VirtualAlloc**) function 
 
 The **malloc** function has the disadvantage of being run-time dependent. The **new** operator has the disadvantage of being compiler dependent and language dependent.
 
-The [**CoTaskMemAlloc**](https://msdn.microsoft.com/windows/desktop/c4cb588d-9482-4f90-a92e-75b604540d5c) function has the advantage of working well in either C, C++, or Visual Basic. It is also the only way to share memory in a COM-based application, since MIDL uses **CoTaskMemAlloc** and [**CoTaskMemFree**](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) to marshal memory.
+The [**CoTaskMemAlloc**](c4cb588d-9482-4f90-a92e-75b604540d5c) function has the advantage of working well in either C, C++, or Visual Basic. It is also the only way to share memory in a COM-based application, since MIDL uses **CoTaskMemAlloc** and [**CoTaskMemFree**](3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) to marshal memory.
 
 ## Related topics
 

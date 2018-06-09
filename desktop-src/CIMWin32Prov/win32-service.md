@@ -1082,7 +1082,7 @@ using System.Management;
 [**Win32\_BaseService**](win32-baseservice.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/windows/desktop/D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
+[Operating System Classes](D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
 </dt> <dt>
 
 [WMI Tasks: Services](https://msdn.microsoft.com/1cd92981-c074-4ff7-a32c-ce492e6d6aa5)

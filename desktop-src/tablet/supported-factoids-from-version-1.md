@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Supported Factoids from Version 1
 
-\[Note the following description of the factoids supported in version 1 of the Microsoft Windows XP Tablet PC Edition Software Development Kit (SDK) are still supported by recognizers, but it is recommended that all new development (for recognizers of Latin script) use the values defined in the [InputScope](https://msdn.microsoft.com/windows/desktop/193a8a84-6824-4881-9399-832810957366) enumeration.\]
+\[Note the following description of the factoids supported in version 1 of the Microsoft Windows XP Tablet PC Edition Software Development Kit (SDK) are still supported by recognizers, but it is recommended that all new development (for recognizers of Latin script) use the values defined in the [InputScope](193a8a84-6824-4881-9399-832810957366) enumeration.\]
 
 The Tablet PC Platform supports a number of factoids that are used to increase recognition accuracy. When using factoids, it is important that the expected input exactly match the definition of the factoid. If the input does not match the definition of the factoid, recognition accuracy suffers. For example, if the **Number** factoid is set and the user enters letters, the recognition accuracy for letters is poor.
 

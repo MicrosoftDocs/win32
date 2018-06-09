@@ -43,10 +43,10 @@ In addition, an application that creates a window outside its client area, such 
 
 The solution is in two parts:
 
--   Make the client application "dpi-aware". To do this, call the [**SetProcessDPIAware**](https://msdn.microsoft.com/windows/desktop/d9344028-3429-400c-8872-6545757c0494) function at startup. This function makes the entire process dpi-aware, meaning that all windows that belong to the process are unscaled.
--   Use functions that are dpi-aware. For example, to get cursor coordinates, call the [**GetPhysicalCursorPos**](https://msdn.microsoft.com/windows/desktop/9f36bcda-6ccb-4017-8284-ec7250e9dd7b) function. Do not use [**GetCursorPos**](https://msdn.microsoft.com/windows/desktop/c76370d3-741a-4192-97d4-d63d2885b36b); its behavior in dpi-aware applications is undefined.
+-   Make the client application "dpi-aware". To do this, call the [**SetProcessDPIAware**](d9344028-3429-400c-8872-6545757c0494) function at startup. This function makes the entire process dpi-aware, meaning that all windows that belong to the process are unscaled.
+-   Use functions that are dpi-aware. For example, to get cursor coordinates, call the [**GetPhysicalCursorPos**](9f36bcda-6ccb-4017-8284-ec7250e9dd7b) function. Do not use [**GetCursorPos**](c76370d3-741a-4192-97d4-d63d2885b36b); its behavior in dpi-aware applications is undefined.
 
-If your application performs direct cross-process communication with non-dpi-aware applications, you may have convert between logical and physical coordinates by using the [**PhysicalToLogicalPoint**](https://msdn.microsoft.com/windows/desktop/7b02d31f-f1c7-4be1-817d-f7cc6850008d) and [**LogicalToPhysicalPoint**](https://msdn.microsoft.com/windows/desktop/a0384e46-b72f-4517-acce-a7fae7268a46) functions.
+If your application performs direct cross-process communication with non-dpi-aware applications, you may have convert between logical and physical coordinates by using the [**PhysicalToLogicalPoint**](7b02d31f-f1c7-4be1-817d-f7cc6850008d) and [**LogicalToPhysicalPoint**](a0384e46-b72f-4517-acce-a7fae7268a46) functions.
 
  
 

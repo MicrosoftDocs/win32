@@ -37,7 +37,7 @@ The following procedure describes how to encode an object in XML using C or C++.
 
 1.  Set up your program to access WMI data.
 
-    Because WMI is based on COM technology, you must perform the requisite calls to the [**CoInitializeEx**](https://msdn.microsoft.com/windows/desktop/ffb79c0f-aeda-4ea1-aea8-afb79109837f) and [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f) functions to access WMI. For more information, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
+    Because WMI is based on COM technology, you must perform the requisite calls to the [**CoInitializeEx**](ffb79c0f-aeda-4ea1-aea8-afb79109837f) and [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f) functions to access WMI. For more information, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
 
 2.  Optionally, create an [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) object and initialize it.
 
@@ -151,9 +151,9 @@ The following procedure describes how to encode an object in XML using C or C++.
 
 4.  Create an [**IWbemObjectTextSrc**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjecttextsrc) object.
 
-    After you have a reference to an object you must create the [**IWbemObjectTextSrc**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjecttextsrc) object with a call to [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec). The **IWbemObjectTextSrc** object is used to generate the actual XML text.
+    After you have a reference to an object you must create the [**IWbemObjectTextSrc**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjecttextsrc) object with a call to [**CoCreateInstance**](7295a55b-12c7-4ed0-a7a4-9ecee16afdec). The **IWbemObjectTextSrc** object is used to generate the actual XML text.
 
-    The following code example shows how to create an [**IWbemObjectTextSrc**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjecttextsrc) object by calling [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec).
+    The following code example shows how to create an [**IWbemObjectTextSrc**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjecttextsrc) object by calling [**CoCreateInstance**](7295a55b-12c7-4ed0-a7a4-9ecee16afdec).
 
     ```C++
     HRESULT hr = NULL;

@@ -67,7 +67,7 @@ The following table describes the NUMA API.
 
  
 
-The [**QueryWorkingSetEx**](https://msdn.microsoft.com/windows/desktop/59ae76c9-e954-4648-9c9f-787136375b02) function can be used to retrieve the NUMA node on which a page is allocated. For an example, see [Allocating Memory from a NUMA Node](https://msdn.microsoft.com/df025b35-fb6b-4987-806e-9c76e6b130a1).
+The [**QueryWorkingSetEx**](59ae76c9-e954-4648-9c9f-787136375b02) function can be used to retrieve the NUMA node on which a page is allocated. For an example, see [Allocating Memory from a NUMA Node](https://msdn.microsoft.com/df025b35-fb6b-4987-806e-9c76e6b130a1).
 
 ## Related topics
 

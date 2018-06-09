@@ -102,7 +102,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Other Resources**
 </dt> <dt>
 
-[Library Description Schema](https://msdn.microsoft.com/windows/desktop/12F6E6AE-2776-408c-B9AC-E885BE93C27F)
+[Library Description Schema](12F6E6AE-2776-408c-B9AC-E885BE93C27F)
 </dt> </dl>
 
  

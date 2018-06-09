@@ -108,7 +108,7 @@ All code samples in this tutorial are designed to be executed on x86 and x64 ver
 
 ## Step 0: Creating the Hard-coded Hello MUI
 
-This tutorial begins with the monolingual version of the Hello MUI application. The application assumes the use of the C++ programming language, wide character strings, and the [**MessageBoxW**](https://msdn.microsoft.com/windows/desktop/4840decc-8173-4021-8d3e-bae3b0eaa956) function for output.
+This tutorial begins with the monolingual version of the Hello MUI application. The application assumes the use of the C++ programming language, wide character strings, and the [**MessageBoxW**](4840decc-8173-4021-8d3e-bae3b0eaa956) function for output.
 
 Begin by creating the initial GuiStep\_0 application, as well as the HelloMUI solution, which contain all of the applications in this tutorial.
 
@@ -439,7 +439,7 @@ When you create a release build, you copy the same DoReverseMuiLoc.cmd and DoRev
 
 ## Step 3: Creating a Resource-Savvy "Hello MUI"
 
-Building on the initial hard-coded GuiStep\_0.exe example from above, you could extend the reach of the application to multiple language users by choosing to incorporate the Win32 resource model. The new run-time code presented in this step includes the module loading ([**LoadLibraryEx**](https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563)) and string retrieval ([**LoadString**](https://msdn.microsoft.com/windows/desktop/9d878af7-a7b1-4d24-89ff-c567e4a8accd)) logic.
+Building on the initial hard-coded GuiStep\_0.exe example from above, you could extend the reach of the application to multiple language users by choosing to incorporate the Win32 resource model. The new run-time code presented in this step includes the module loading ([**LoadLibraryEx**](https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563)) and string retrieval ([**LoadString**](9d878af7-a7b1-4d24-89ff-c567e4a8accd)) logic.
 
 1.  Add a new project to the HelloMUI solution (using the menu selection File, Add, and New Project) with the following settings and values:
 
@@ -741,7 +741,7 @@ This step of the tutorial uses a simplified text file mechanism to enable custom
 
 A number of the run-time features mentioned so far within this tutorial are available only on Windows Vista and later. You may wish to re-use the effort invested in localizing and splitting resources by making the application work on downlevel Windows operating system versions, such as Windows XP. This process involves adjusting the previous example in two key areas:
 
--   The pre-Windows Vista resource loading functions (such as [**LoadString**](https://msdn.microsoft.com/windows/desktop/9d878af7-a7b1-4d24-89ff-c567e4a8accd), [**LoadIcon**](https://msdn.microsoft.com/windows/desktop/3a8099f8-9db7-4ef8-838f-ca8f272df531), [**LoadBitmap**](https://msdn.microsoft.com/5eed5f78-deaf-4b23-986e-4802dc05936c), [**FormatMessage**](https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c), and others) are non-MUI aware. Applications that ship with split resources (LN and .mui files) must load resource modules using one of these two functions:
+-   The pre-Windows Vista resource loading functions (such as [**LoadString**](9d878af7-a7b1-4d24-89ff-c567e4a8accd), [**LoadIcon**](3a8099f8-9db7-4ef8-838f-ca8f272df531), [**LoadBitmap**](https://msdn.microsoft.com/5eed5f78-deaf-4b23-986e-4802dc05936c), [**FormatMessage**](https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c), and others) are non-MUI aware. Applications that ship with split resources (LN and .mui files) must load resource modules using one of these two functions:
 
     -   If the application is to be run only on Windows Vista and later, it should load resource modules with [**LoadLibraryEx**](https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563).
     -   If the application is to be run on versions prior to Windows Vista, as well as Windows Vista or later, it must use [**LoadMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya), which is a specific downlevel function provided in the Windows 7 SDK.
