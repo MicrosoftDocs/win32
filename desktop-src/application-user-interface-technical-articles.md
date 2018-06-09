@@ -1,6 +1,6 @@
 ---
-Description: 'This section contains the technical articles related to user interface development.'
-ms.assetid: '0A801CD6-2618-4E15-AB67-52D82EB42728'
+Description: This section contains the technical articles related to user interface development.
+ms.assetid: 0A801CD6-2618-4E15-AB67-52D82EB42728
 title: App UI Archive
 ms.technology: desktop
 ms.prod: windows
@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 This section contains the technical articles related to user interface development.
 
--   [Developing International Software](developing-international-software.md)
--   [The Human Factor in User Interface Design](the-human-factor-in-user-interface-design.md)
+-   [Developing International Software](https://www.bing.com/search?q=Developing+International+Software)
+-   [The Human Factor in User Interface Design](https://www.bing.com/search?q=The+Human+Factor+in+User+Interface+Design)
 
  
 

@@ -1,6 +1,6 @@
 ---
-Description: 'Develop desktop apps.'
-ms.assetid: 'CEC4F726-6998-4989-837B-CDF476DA4201'
+Description: Develop desktop apps.
+ms.assetid: CEC4F726-6998-4989-837B-CDF476DA4201
 title: Develop Desktop Apps
 ms.technology: desktop
 ms.prod: windows

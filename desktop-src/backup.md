@@ -1,6 +1,6 @@
 ---
 Description: Backup
-ms.assetid: 'da599a95-10ae-4164-b419-cdf72a0061a4'
+ms.assetid: da599a95-10ae-4164-b419-cdf72a0061a4
 title: Backup
 ms.technology: desktop
 ms.prod: windows

@@ -1,6 +1,6 @@
 ---
 Description: Gadgets
-ms.assetid: '0f1230d9-680d-40e3-af47-35d4f560f794'
+ms.assetid: 0f1230d9-680d-40e3-af47-35d4f560f794
 title: Gadgets
 ms.technology: desktop
 ms.prod: windows
@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Windows Gadget Platform](gadgetplatform.windows_gadget_platform_portal)
--   [Windows Sidebar](sidebar._sidebar_entry)
+-   [Windows Gadget Platform](https://msdn.microsoft.com/86b03d82-a2f2-491b-888c-f86bb36f25dc)
+-   [Windows Sidebar](https://msdn.microsoft.com/VS|sidebar|~\sidebar\sidebar_entry.htm)
 
  
 

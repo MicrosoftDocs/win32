@@ -1,7 +1,7 @@
 ---
-Description: 'Collaboration Data Objects (CDO)'
-ms.assetid: 'C523608B-1785-4649-812D-83EE856BDCCC'
-title: 'Collaboration Data Objects (CDO)'
+Description: Collaboration Data Objects (CDO)
+ms.assetid: C523608B-1785-4649-812D-83EE856BDCCC
+title: Collaboration Data Objects (CDO)
 ms.technology: desktop
 ms.prod: windows
 ms.author: windowssdkdev
@@ -11,8 +11,8 @@ ms.date: 05/31/2018
 
 # Collaboration Data Objects (CDO)
 
--   [**Collaboration Data Objects Roadmap**](cdo_roadmap)
--   [**Collaboration Data Objects: Using E-Mail in Your Application**](collabdataobjs)
+-   [**Collaboration Data Objects Roadmap**](https://www.bing.com/search?q=**Collaboration+Data+Objects+Roadmap**)
+-   [**Collaboration Data Objects: Using E-Mail in Your Application**](https://www.bing.com/search?q=**Collaboration+Data+Objects:+Using+E-Mail+in+Your+Application**)
 
  
 

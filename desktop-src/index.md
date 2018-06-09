@@ -1,7 +1,7 @@
 ---
 author: misatran
 layout: LandingPage
-description:
+description: 
 title: Develop Windows desktop applications
 ms.prod: windows
 ms.topic: landing-page

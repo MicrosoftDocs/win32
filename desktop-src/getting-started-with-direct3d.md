@@ -1,6 +1,6 @@
 ---
-Description: 'Direct3D is a low-level API for drawing primitives with the rendering pipeline or performing parallel operations with the compute shader.'
-ms.assetid: '55063BF2-34A3-4E56-882C-86F0949DE557'
+Description: Direct3D is a low-level API for drawing primitives with the rendering pipeline or performing parallel operations with the compute shader.
+ms.assetid: 55063BF2-34A3-4E56-882C-86F0949DE557
 title: Getting Started with Direct3D
 ms.technology: desktop
 ms.prod: windows
@@ -33,9 +33,9 @@ Direct3D:
 
 The Direct3D APIs that you choose depend on the style of app you want to write.
 
--   If you want to write a Windows Store app, use a subset of Direct3D 11, DXGI, and HLSL APIs. For a list of these APIs, see [Win32 and COM for Windows Store apps (graphics)](m_modapi.graphics). To learn how to write a Direct3D 11 Windows Store app, see [An introduction to 3D graphics with DirectX](m_gamedev.an_introduction_to_3d_graphics_with_directx).
+-   If you want to write a Windows Store app, use a subset of Direct3D 11, DXGI, and HLSL APIs. For a list of these APIs, see [Win32 and COM for Windows Store apps (graphics)](https://msdn.microsoft.com/1FE07F44-B665-49EB-A1F4-DEE62452CE69). To learn how to write a Direct3D 11 Windows Store app, see [An introduction to 3D graphics with DirectX](https://msdn.microsoft.com/C7A96F26-620F-41E9-BEFD-BD8C3BE055FB).
 -   If you write an app for the desktop, you can use the full set of Direct3D 11, DXGI, and HLSL APIs.
--   Starting with Windows 8, we no longer actively support the XNA framework for desktop apps. But Windows Store apps and desktop apps can use the full set of the [XAudio2](87557bb3-9d92-c85e-4e7a-d21af03db624) and [DirectXMath](719954bf-0d7d-f647-2d3f-a77d87df204e) APIs. Desktop apps can use the full set of the [XInput](fbbc651b-9264-9b5d-01c6-efc58f50b19d) APIs, while Windows Store apps can use most of the XInput APIs; for more info, see [XInput Versions](xinput.xinput_versions).
+-   Starting with Windows 8, we no longer actively support the XNA framework for desktop apps. But Windows Store apps and desktop apps can use the full set of the [XAudio2](https://msdn.microsoft.com/windows/desktop/87557bb3-9d92-c85e-4e7a-d21af03db624) and [DirectXMath](https://msdn.microsoft.com/windows/desktop/719954bf-0d7d-f647-2d3f-a77d87df204e) APIs. Desktop apps can use the full set of the [XInput](https://msdn.microsoft.com/windows/desktop/fbbc651b-9264-9b5d-01c6-efc58f50b19d) APIs, while Windows Store apps can use most of the XInput APIs; for more info, see [XInput Versions](https://msdn.microsoft.com/e89a6c81-f170-4385-f942-3606f9747244).
 
 ## Which Direct3D version?
 
@@ -48,7 +48,7 @@ The Direct3D API version that you choose depends on the operating system and har
 
 ## Direct3D Rendering Pipeline
 
-In the Direct3D [rendering pipeline](direct3d11.overviews_direct3d_11_graphics_pipeline), data flows from several sources, like the tributaries of a river.
+In the Direct3D [rendering pipeline](https://msdn.microsoft.com/8e7a6f64-0a2b-4ea5-a6a6-7bfb87e27dcc), data flows from several sources, like the tributaries of a river.
 
 -   Some parts of the flow are programmable.
 -   Some parts have knobs and dials.
@@ -58,7 +58,7 @@ In the Direct3D [rendering pipeline](direct3d11.overviews_direct3d_11_graphics_p
 
 ## Direct3D Compute Shader
 
-With the Direct3D [compute shader](direct3d11.direct3d_11_advanced_stages_compute_shader), all the GPU's processors execute in parallel. So the compute shader behaves more like a pond than a river.
+With the Direct3D [compute shader](https://msdn.microsoft.com/02c1f98e-fdd6-49b0-b8b2-efbd472ab599), all the GPU's processors execute in parallel. So the compute shader behaves more like a pond than a river.
 
  
 

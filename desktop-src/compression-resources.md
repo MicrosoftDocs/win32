@@ -1,6 +1,6 @@
 ---
 Description: Compression Resources
-ms.assetid: '15C28705-1D65-49D3-AB09-9E800FD88654'
+ms.assetid: 15C28705-1D65-49D3-AB09-9E800FD88654
 title: Compression Resources
 ms.technology: desktop
 ms.prod: windows
@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Delta Compression Application Programming Interfaces](delta_compress)
--   [Microsoft Cabinet Format](comp_cab)
--   [Glossary](comp_glossary)
+-   [Delta Compression Application Programming Interfaces](https://www.bing.com/search?q=Delta+Compression+Application+Programming+Interfaces)
+-   [Microsoft Cabinet Format](https://www.bing.com/search?q=Microsoft+Cabinet+Format)
+-   [Glossary](https://www.bing.com/search?q=Glossary)
 
  
 
