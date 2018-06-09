@@ -23,6 +23,7 @@
         "files": [
           "**/*.png",
           "**/*.jpg",
+          "**/*.jpeg",
           "**/*.gif"
         ],
         "exclude": [
