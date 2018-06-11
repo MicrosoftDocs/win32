@@ -73,7 +73,7 @@ Height of the dialog box, in dialog units.
 <span id="helpID"></span><span id="helpid"></span><span id="HELPID"></span>*helpID*
 </dt> <dd>
 
-Numeric expression indicating the ID used to identify the dialog box during [**WM\_HELP**](6a090125-67dd-4267-9973-10e32c6e4f1f) processing.
+Numeric expression indicating the ID used to identify the dialog box during [**WM\_HELP**](https://msdn.microsoft.com/windows/desktop/6a090125-67dd-4267-9973-10e32c6e4f1f) processing.
 
 </dd> <dt>
 
@@ -90,7 +90,7 @@ Options for the dialog box. This can be zero or more of the following statements
 | **CHARACTERISTICS** *dword*                                       | User-defined **DWORD** value for use by resource tools. This value is not used by the system. For more information, see [**CHARACTERISTICS Statement**](characteristics-statement.md).                                                                                                                                                                                                                                                                                               |
 | **CLASS***class*                                                  | A 16-bit unsigned integer or a string, enclosed in double quotation marks ("), that identifies the class of the dialog box. For more information, see [**CLASS Statement**](class-statement.md).                                                                                                                                                                                                                                                                                     |
 | **EXSTYLE**= *extended-styles*                                    | Extended window style of the dialog box. For more information, see [**EXSTYLE Statement**](exstyle-statement.md).                                                                                                                                                                                                                                                                                                                                                                    |
-| **FONT** *pointsize*, "*typeface*", *weight*, *italic*, *charset* | Point size and typeface for the font. For *weight*, use the **FW\_\*** values defined in WinGDI.h. For *italic*, specify TRUE to use an italic font, FALSE otherwise. For *charset*, use the value defined in the **lfCharSet** member of the [**LOGFONT**](57658a03-0a6d-4a28-a7c1-c65ec145beb4) structure. To get the definitive font for a dialog box, an application should specify *charset* along with other font properties. For more information, see [**FONT Statement**](font-statement.md). |
+| **FONT** *pointsize*, "*typeface*", *weight*, *italic*, *charset* | Point size and typeface for the font. For *weight*, use the **FW\_\*** values defined in WinGDI.h. For *italic*, specify TRUE to use an italic font, FALSE otherwise. For *charset*, use the value defined in the **lfCharSet** member of the [**LOGFONT**](https://msdn.microsoft.com/windows/desktop/57658a03-0a6d-4a28-a7c1-c65ec145beb4) structure. To get the definitive font for a dialog box, an application should specify *charset* along with other font properties. For more information, see [**FONT Statement**](font-statement.md). |
 | **LANGUAGE** *language*, *sublanguage*                            | Language of the dialog box. For more information, see [**LANGUAGE Statement**](language-statement.md).                                                                                                                                                                                                                                                                                                                                                                               |
 | **MENU** *menuname*                                               | Menu to be used. This value is either the name of the menu or its integer identifier. For more information, see [**MENU Statement**](menu-statement.md).                                                                                                                                                                                                                                                                                                                             |
 | **STYLE** *styles*                                                | Styles of the dialog box. For more information, see [**STYLE Statement**](style-statement.md).                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -244,7 +244,7 @@ Control identifier. For more information, see [Common Control Parameters](common
 
 <dl> <dt>
 
-[Using Dialog Boxes](8a5b6bdd-4429-4f48-b846-6bd617a87abf)
+[Using Dialog Boxes](https://msdn.microsoft.com/windows/desktop/8a5b6bdd-4429-4f48-b846-6bd617a87abf)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)
@@ -271,7 +271,7 @@ Control identifier. For more information, see [Common Control Parameters](common
 [**LANGUAGE**](language-statement.md)
 </dt> <dt>
 
-[**LOGFONT**](57658a03-0a6d-4a28-a7c1-c65ec145beb4)
+[**LOGFONT**](https://msdn.microsoft.com/windows/desktop/57658a03-0a6d-4a28-a7c1-c65ec145beb4)
 </dt> <dt>
 
 [MENU](menu-resource.md)

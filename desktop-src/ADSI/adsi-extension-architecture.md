@@ -27,7 +27,7 @@ An aggregate, also known as an inner object, is an object that an aggregator cre
 
 An aggregator, also known as an outer object, is an object that creates an aggregate. ADSI is an aggregator.
 
-The inner object delegates its [**IUnknown**](33f1d79a-33fc-4ce5-a372-e08bda378332) to the aggregator's **IUnknown**.
+The inner object delegates its [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) to the aggregator's **IUnknown**.
 
 ADSI extensions add the following enhancements to COM aggregation to satisfy its requirements:
 

@@ -34,14 +34,14 @@ DWORD APIENTRY NtGdiDdGetScanLine(
 *hDirectDraw* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_DIRECTDRAW\_GLOBAL**](a59f064b-48cf-4491-82cd-84f59467af87) structure that represents the driver.
+Handle to a [**DD\_DIRECTDRAW\_GLOBAL**](https://msdn.microsoft.com/windows/desktop/a59f064b-48cf-4491-82cd-84f59467af87) structure that represents the driver.
 
 </dd> <dt>
 
 *puGetScanLineData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_GETSCANLINEDATA**](92433daa-43da-40d3-a319-e0d70abd3cb0) structure in which the driver returns the number of the current scan line.
+Pointer to a [**DD\_GETSCANLINEDATA**](https://msdn.microsoft.com/windows/desktop/92433daa-43da-40d3-a319-e0d70abd3cb0) structure in which the driver returns the number of the current scan line.
 
 </dd> </dl>
 

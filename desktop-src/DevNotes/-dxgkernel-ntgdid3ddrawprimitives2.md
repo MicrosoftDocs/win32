@@ -39,21 +39,21 @@ DWORD APIENTRY NtGdiD3DDrawPrimitives2(
 *hCmdBuf* \[in\]
 </dt> <dd>
 
-Handle to the [**DD\_SURFACE\_LOCAL**](45a41cec-0257-4e26-809d-c2fc4c247328) structure that identifies the DirectDraw surface containing the command data.
+Handle to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/windows/desktop/45a41cec-0257-4e26-809d-c2fc4c247328) structure that identifies the DirectDraw surface containing the command data.
 
 </dd> <dt>
 
 *hVBuf* \[in\]
 </dt> <dd>
 
-Handle to the [**DD\_SURFACE\_LOCAL**](45a41cec-0257-4e26-809d-c2fc4c247328) structure that identifies the DirectDraw surface containing the vertex data.
+Handle to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/windows/desktop/45a41cec-0257-4e26-809d-c2fc4c247328) structure that identifies the DirectDraw surface containing the vertex data.
 
 </dd> <dt>
 
 *pded* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**D3DNTHAL\_DRAWPRIMITIVES2DATA**](7fe52804-1cbf-4e7a-8dd9-0c9f342a8125) structure that contains the information required for the driver to render one or more primitives.
+Pointer to a [**D3DNTHAL\_DRAWPRIMITIVES2DATA**](https://msdn.microsoft.com/windows/desktop/7fe52804-1cbf-4e7a-8dd9-0c9f342a8125) structure that contains the information required for the driver to render one or more primitives.
 
 </dd> <dt>
 

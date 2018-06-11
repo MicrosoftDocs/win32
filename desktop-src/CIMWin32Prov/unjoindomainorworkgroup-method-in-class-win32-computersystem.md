@@ -44,7 +44,7 @@ uint32 UnjoinDomainOrWorkgroup(
 If the *UserName* parameter specifies an account name, the *Password* parameter must point to the password to use when connecting to the domain controller. Otherwise, this parameter must be **NULL**.
 
 > [!Note]  
-> *Password* must use a high authentication level, not less than **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, when connecting to Winmgmt or [**CoSetProxyBlanket**](c2e5e681-8fa5-4b02-b59d-ba796eb0dccf) on the [**IWbemServices**](https://msdn.microsoft.com/library/aa392093) pointer. If local to Winmgmt, this is not a concern.
+> *Password* must use a high authentication level, not less than **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, when connecting to Winmgmt or [**CoSetProxyBlanket**](https://msdn.microsoft.com/windows/desktop/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf) on the [**IWbemServices**](https://msdn.microsoft.com/library/aa392093) pointer. If local to Winmgmt, this is not a concern.
 
  
 
@@ -56,7 +56,7 @@ If the *UserName* parameter specifies an account name, the *Password* parameter 
 Pointer to a constant null-terminated character string that specifies the account name to use when connecting to the domain controller. Must specify a domain and user account, for example, "domain\\user" or "user@domain". If this parameter is **NULL**, the caller context is used.
 
 > [!Note]  
-> *UserName* must use a high authentication level, not less than **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, when connecting to Winmgmt or [**CoSetProxyBlanket**](c2e5e681-8fa5-4b02-b59d-ba796eb0dccf) on the [**IWbemServices**](https://msdn.microsoft.com/library/aa392093) pointer. If local to Winmgmt, this is not a concern.
+> *UserName* must use a high authentication level, not less than **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, when connecting to Winmgmt or [**CoSetProxyBlanket**](https://msdn.microsoft.com/windows/desktop/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf) on the [**IWbemServices**](https://msdn.microsoft.com/library/aa392093) pointer. If local to Winmgmt, this is not a concern.
 
  
 

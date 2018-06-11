@@ -19,11 +19,11 @@ You can use the procedure and code examples in this topic to create a complete W
 
 This following procedure includes all of the steps that are required by all C++ WMI applications.
 
-1.  Initialize COM parameters with a call to [**CoInitializeEx**](ffb79c0f-aeda-4ea1-aea8-afb79109837f).
+1.  Initialize COM parameters with a call to [**CoInitializeEx**](https://msdn.microsoft.com/windows/desktop/ffb79c0f-aeda-4ea1-aea8-afb79109837f).
 
     For more information, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
 
-2.  Initialize COM process security by calling [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f).
+2.  Initialize COM process security by calling [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f).
 
     For more information, see [Setting the Default Process Security Level Using C++](setting-the-default-process-security-level-using-c-.md).
 
@@ -39,7 +39,7 @@ This following procedure includes all of the steps that are required by all C++ 
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-4.  Set the [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy security so WMI service can impersonate the client by calling [**CoSetProxyBlanket**](c2e5e681-8fa5-4b02-b59d-ba796eb0dccf).
+4.  Set the [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) proxy security so WMI service can impersonate the client by calling [**CoSetProxyBlanket**](https://msdn.microsoft.com/windows/desktop/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf).
 
     For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md).
 

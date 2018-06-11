@@ -56,7 +56,7 @@ The access privileges for the printer. This parameter can be one of the followin
 
 ## Return value
 
-The method returns one of the following values. For more information about COM error codes, see [Error Handling](15f3ae3e-1794-4948-a7aa-6309a703364b).
+The method returns one of the following values. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/windows/desktop/15f3ae3e-1794-4948-a7aa-6309a703364b).
 
 
 

@@ -19,7 +19,7 @@ For 2-D graphics and text, use Direct2D and [DirectWrite](https://msdn.microsoft
 
 To compose bitmaps that Direct3D 11 or Direct2D populated, use [DirectComposition](https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173).
 
-To learn about how to create a Windows Store app that uses DirectX, see [Create your first Windows Store app using DirectX](1F023B01-41CD-4D8C-9C0F-9E06C5C0861A). You can use the [**Windows.UI::Xaml::Controls::SwapChainPanel**](https://msdn.microsoft.com/Windows.UI.Xaml.Controls.SwapChainPanel) class to create high-performance DirectX apps with a XAML UI overlay. For more info about combining XAML and DirectX in a Windows Store app, see [DirectX and XAML interop](https://msdn.microsoft.com/17987EEA-6771-423C-9B68-6B9AEADC7B7F).
+To learn about how to create a Windows Store app that uses DirectX, see [Create your first Windows Store app using DirectX](https://msdn.microsoft.com/windows/desktop/1F023B01-41CD-4D8C-9C0F-9E06C5C0861A). You can use the [**Windows.UI::Xaml::Controls::SwapChainPanel**](https://msdn.microsoft.com/Windows.UI.Xaml.Controls.SwapChainPanel) class to create high-performance DirectX apps with a XAML UI overlay. For more info about combining XAML and DirectX in a Windows Store app, see [DirectX and XAML interop](https://msdn.microsoft.com/17987EEA-6771-423C-9B68-6B9AEADC7B7F).
 
 To learn about how to build a display driver for Windows 8, see [Roadmap for Developing Drivers for the Windows Vista Display Driver Model (WDDM)](https://www.bing.com/search?q=Roadmap+for+Developing+Drivers+for+the+Windows+Vista+Display+Driver+Model+(WDDM)).
 

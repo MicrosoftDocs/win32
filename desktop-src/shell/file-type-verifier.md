@@ -25,12 +25,12 @@ The File Type Verifier tests the following things:
 
 -   [Preview Handlers](building-preview-handlers.md)
 -   [Thumbnail Handlers](building-thumbnail-providers.md)
--   [Property Handlers](b475329a-1ed7-43a4-8e11-3700889a4ce9)
+-   [Property Handlers](https://msdn.microsoft.com/windows/desktop/b475329a-1ed7-43a4-8e11-3700889a4ce9)
 -   [Verb Handlers](fa-verbs.md)
--   [Filters (IFilter)](7b86a1b4-c8a9-400d-a9f1-a3b821c0269d)
+-   [Filters (IFilter)](https://msdn.microsoft.com/windows/desktop/7b86a1b4-c8a9-400d-a9f1-a3b821c0269d)
 -   [Kind Associations](https://msdn.microsoft.com/1466b4c7-49ea-417a-ac94-7b45515ccb96)
 -   [Perceived Types](fa-perceivedtypes.md)
--   [Important Properties](3a25c4fb-ffea-4524-b59b-912416b2fc7d)
+-   [Important Properties](https://msdn.microsoft.com/windows/desktop/3a25c4fb-ffea-4524-b59b-912416b2fc7d)
 
 ## Related topics
 

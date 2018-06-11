@@ -121,18 +121,18 @@ Every window has one or more window styles. A window style is a named constant t
 
 The system and, to some extent, the window procedure for the class, interpret the window styles.
 
-Some window styles apply to all windows, but most apply to windows of specific window classes. The general window styles are represented by constants that begin with the WS\_ prefix; they can be combined with the OR operator to form different types of windows, including main windows, dialog boxes, and child windows. The class-specific window styles define the appearance and behavior of windows belonging to the predefined control classes. For example, the **SCROLLBAR** class specifies a scroll bar control, but the [**SBS\_HORZ**](07195a95-eff8-4a47-926a-9d503fa7b299) and **SBS\_VERT** styles determine whether a horizontal or vertical scroll bar control is created.
+Some window styles apply to all windows, but most apply to windows of specific window classes. The general window styles are represented by constants that begin with the WS\_ prefix; they can be combined with the OR operator to form different types of windows, including main windows, dialog boxes, and child windows. The class-specific window styles define the appearance and behavior of windows belonging to the predefined control classes. For example, the **SCROLLBAR** class specifies a scroll bar control, but the [**SBS\_HORZ**](https://msdn.microsoft.com/windows/desktop/07195a95-eff8-4a47-926a-9d503fa7b299) and **SBS\_VERT** styles determine whether a horizontal or vertical scroll bar control is created.
 
 For lists of styles that can be used by windows, see the following topics:
 
 -   [**Window Styles**](window-styles.md)
--   [Button Styles](30254cb5-43cd-407f-8ad6-bd7f9ec3edc7)
--   [Combo Box Styles](4dc347b2-7da7-4aa0-b61f-781acf652d84)
--   [Edit Control Styles](336c69b7-bc23-4b93-8968-ad63a1703385)
--   [List Box Styles](bbf430f1-cdc1-4f87-b296-acf74cc6fc1b)
--   [Rich Edit Control Styles](0f1b3e01-01cb-4b3e-b959-6f32498f0394)
--   [Scroll Bar Control Styles](07195a95-eff8-4a47-926a-9d503fa7b299)
--   [Static Control Styles](ad412bef-d768-4847-aeed-715001be07c5)
+-   [Button Styles](https://msdn.microsoft.com/windows/desktop/30254cb5-43cd-407f-8ad6-bd7f9ec3edc7)
+-   [Combo Box Styles](https://msdn.microsoft.com/windows/desktop/4dc347b2-7da7-4aa0-b61f-781acf652d84)
+-   [Edit Control Styles](https://msdn.microsoft.com/windows/desktop/336c69b7-bc23-4b93-8968-ad63a1703385)
+-   [List Box Styles](https://msdn.microsoft.com/windows/desktop/bbf430f1-cdc1-4f87-b296-acf74cc6fc1b)
+-   [Rich Edit Control Styles](https://msdn.microsoft.com/windows/desktop/0f1b3e01-01cb-4b3e-b959-6f32498f0394)
+-   [Scroll Bar Control Styles](https://msdn.microsoft.com/windows/desktop/07195a95-eff8-4a47-926a-9d503fa7b299)
+-   [Static Control Styles](https://msdn.microsoft.com/windows/desktop/ad412bef-d768-4847-aeed-715001be07c5)
 
 ### Extended Window Style
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[This notification is supported through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be unsupported in subsequent versions of Windows.\]
 
-Notifies the callback object of the container site. This is used only when [**IObjectWithSite::SetSite**](faa5446a-15c5-41d0-9787-1b64e7f32904) is not supported and [**SHCreateShellFolderViewEx**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex) is used. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/desktop/api/Shlobj/).
+Notifies the callback object of the container site. This is used only when [**IObjectWithSite::SetSite**](https://msdn.microsoft.com/windows/desktop/faa5446a-15c5-41d0-9787-1b64e7f32904) is not supported and [**SHCreateShellFolderViewEx**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex) is used. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/desktop/api/Shlobj/).
 
 
 ```C++

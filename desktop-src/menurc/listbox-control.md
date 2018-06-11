@@ -55,7 +55,7 @@ LISTBOX 101, 10, 10, 100, 100
 [**COMBOBOX**](combobox-control.md)
 </dt> <dt>
 
-[List Boxes](359bb363-5b97-4e0c-bdc4-bfa6a6504a76)
+[List Boxes](https://msdn.microsoft.com/windows/desktop/359bb363-5b97-4e0c-bdc4-bfa6a6504a76)
 </dt> </dl>
 
  

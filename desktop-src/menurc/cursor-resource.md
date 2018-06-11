@@ -62,7 +62,7 @@ cursor1 CURSOR "bullseye.cur"
 
 <dl> <dt>
 
-[Using Cursors](eab7b781-783e-4fc5-868d-6ff773c40a21)
+[Using Cursors](https://msdn.microsoft.com/windows/desktop/eab7b781-783e-4fc5-868d-6ff773c40a21)
 </dt> </dl>
 
  

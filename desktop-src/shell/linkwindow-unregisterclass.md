@@ -54,7 +54,7 @@ This function does not have an associated header or library file so it must be c
 
 <dl> <dt>
 
-[Overview of SysLink Controls](38cfac3d-de60-4882-a434-4f498330b77d)
+[Overview of SysLink Controls](https://msdn.microsoft.com/windows/desktop/38cfac3d-de60-4882-a434-4f498330b77d)
 </dt> </dl>
 
  

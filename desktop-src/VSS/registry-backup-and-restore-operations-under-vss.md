@@ -44,7 +44,7 @@ The registry writer ensures that hive files are saved to disk prior to its shado
 When backing up the registry hives, a requester would replace \\Device\\*HarddiskVolumeX* with the [*device object*](vssgloss-d.md) string of the volume's shadow copy.
 
 > [!Note]  
-> You can convert the \\Device\\*HarddiskVolumeX* path to an equivalent Win32 path by using the [**QueryDosDevice**](https://msdn.microsoft.com/ff25bc2b-dde6-40c3-a270-372daab2e5c4) function. For more information, see [Obtaining a File Name From a File Handle](https://msdn.microsoft.com/359673bf-cc4c-4881-b946-ecdbef4a7ecb) or [Displaying Volume Path Names](a9ee8cc8-fa62-4fc9-aa69-35ee98afe417).
+> You can convert the \\Device\\*HarddiskVolumeX* path to an equivalent Win32 path by using the [**QueryDosDevice**](https://msdn.microsoft.com/ff25bc2b-dde6-40c3-a270-372daab2e5c4) function. For more information, see [Obtaining a File Name From a File Handle](https://msdn.microsoft.com/359673bf-cc4c-4881-b946-ecdbef4a7ecb) or [Displaying Volume Path Names](https://msdn.microsoft.com/windows/desktop/a9ee8cc8-fa62-4fc9-aa69-35ee98afe417).
 
  
 

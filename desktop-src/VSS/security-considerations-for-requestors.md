@@ -33,7 +33,7 @@ Requesters need to be aware that when their process acts as a server (for exampl
 
 However, by default, a Windows process will allow only COM clients that are running under the same logon session (the SELF SID) or running under the Local System account. This is a potential problem because these defaults are not adequate for the VSS infrastructure. For example, writers might run as a "Backup Operator" user account that is neither in the same logon session as the requester process nor a Local System account.
 
-To handle this type of problem, every COM server process can exercise further control over whether an RPC or COM client is allowed to perform a COM method implemented by the server (a requester in this case) by using [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f) to set a process-wide "Default COM Access Check Permission".
+To handle this type of problem, every COM server process can exercise further control over whether an RPC or COM client is allowed to perform a COM method implemented by the server (a requester in this case) by using [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f) to set a process-wide "Default COM Access Check Permission".
 
 Requesters can explicitly do the following:
 
@@ -45,9 +45,9 @@ Requesters can explicitly do the following:
 
     Note that internal COM callbacks implemented by VSS are secured by default.
 
-    To allow all processes COM access to a requester, you can pass a **NULL** security descriptor as the first parameter of [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f). (Note that **CoInitializeSecurity** must be called at most once for the entire process. Please see the COM documentation or MSDN for more information on **CoInitializeSecurity** calls.)
+    To allow all processes COM access to a requester, you can pass a **NULL** security descriptor as the first parameter of [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f). (Note that **CoInitializeSecurity** must be called at most once for the entire process. Please see the COM documentation or MSDN for more information on **CoInitializeSecurity** calls.)
 
-    The following code example shows how a requester should call [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f) in Windows 8 and Windows Server 2012 and later, in order to be compatible with VSS for remote file shares (RVSS):
+    The following code example shows how a requester should call [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f) in Windows 8 and Windows Server 2012 and later, in order to be compatible with VSS for remote file shares (RVSS):
 
     ``` syntax
     // Initialize COM security.
@@ -64,13 +64,13 @@ Requesters can explicitly do the following:
             );
     ```
 
-    When explicitly setting a requester's COM level security with [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f), you should do the following:
+    When explicitly setting a requester's COM level security with [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f), you should do the following:
 
     -   Set the authentication level to at least **RPC\_C\_AUTHN\_LEVEL\_PKT\_INTEGRITY**. For better security, consider using **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**.
     -   Set the impersonation level to **RPC\_C\_IMP\_LEVEL\_IMPERSONATE**.
     -   Set the cloaking security capabilities to **EOAC\_STATIC**. For more information about cloaking security, see [Cloaking](https://msdn.microsoft.com/5b97d9d6-8fa9-4da2-8351-64772227d9a2).
 
-    The following code example shows how a requester should call [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f) in Windows 7 and Windows Server 2008 R2 and earlier (or in Windows 8 and Windows Server 2012 and later, if RVSS compatibility is not needed):
+    The following code example shows how a requester should call [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f) in Windows 7 and Windows Server 2008 R2 and earlier (or in Windows 8 and Windows Server 2012 and later, if RVSS compatibility is not needed):
 
     ``` syntax
     // Initialize COM security.
@@ -87,14 +87,14 @@ Requesters can explicitly do the following:
             );
     ```
 
-    When explicitly setting a requester's COM level security with [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f), you should do the following:
+    When explicitly setting a requester's COM level security with [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f), you should do the following:
 
     -   Set the authentication level to at least **RPC\_C\_AUTHN\_LEVEL\_CONNECT**. For better security, consider using **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**.
     -   Set the impersonation level to **RPC\_C\_IMP\_LEVEL\_IDENTIFY** unless the requester process needs to allow impersonation for specific RPC or COM calls that are unrelated to VSS.
 
 -   Allow only specified processes access to call into the requester process.
 
-    A COM server (such as a requester) that is calling [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f) with a non-**NULL** security descriptor as the first parameter can use the descriptor to configure itself to accept incoming calls only from users that belong to a specific set of accounts.
+    A COM server (such as a requester) that is calling [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f) with a non-**NULL** security descriptor as the first parameter can use the descriptor to configure itself to accept incoming calls only from users that belong to a specific set of accounts.
 
     A requester must ensure that COM clients running under valid users are authorized to call into its process. A requester that specifies a Security Descriptor in the first parameter must allow the following users to perform incoming calls into the requester process:
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Customizing Winlogon
 
-Customize [*Winlogon*](https://msdn.microsoft.com/library/windows/desktop/ms721635#-security-winlogon-gly) behavior by implementing a Credential Provider. For information about Credential Providers, see [**ICredentialProvider Interface**](7ce6cd61-16d1-414e-b9b3-4929a65c0cc6).
+Customize [*Winlogon*](https://msdn.microsoft.com/library/windows/desktop/ms721635#-security-winlogon-gly) behavior by implementing a Credential Provider. For information about Credential Providers, see [**ICredentialProvider Interface**](https://msdn.microsoft.com/windows/desktop/7ce6cd61-16d1-414e-b9b3-4929a65c0cc6).
 
 **Windows Server 2003 and Windows XP:** Credential Providers are not supported.
 

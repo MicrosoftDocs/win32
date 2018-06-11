@@ -20,7 +20,7 @@ You can also develop Windows Store apps. For more info, see [Windows Store app d
 ## In this section
 
 -   [Getting Started](https://www.bing.com/search?q=Getting+Started)
--   [What's New in the Windows API](00b345ad-4c53-4fa5-8b7a-d3b3377cb30a)
+-   [What's New in the Windows API](https://msdn.microsoft.com/windows/desktop/00b345ad-4c53-4fa5-8b7a-d3b3377cb30a)
 -   [Application Installation and Servicing](https://www.bing.com/search?q=Application+Installation+and+Servicing)
 -   [Audio and Video](https://www.bing.com/search?q=Audio+and+Video)
 -   [Data Access and Storage](https://www.bing.com/search?q=Data+Access+and+Storage)
@@ -39,7 +39,7 @@ You can also develop Windows Store apps. For more info, see [Windows Store app d
 -   [Windows Environment Development](https://www.bing.com/search?q=Windows+Environment+Development)
 -   [Wireless Networking](https://www.bing.com/search?q=Wireless+Networking)
 -   [Windows Debugging](https://www.bing.com/search?q=Windows+Debugging)
--   [Windows Driver Development](2ef9f140-d609-4d62-a54e-ec627510d509)
+-   [Windows Driver Development](https://msdn.microsoft.com/windows/desktop/2ef9f140-d609-4d62-a54e-ec627510d509)
 -   [Windows Logo Kit](https://msdn.microsoft.com/9c8aa725-2a78-4c73-8dc2-de51edbcb04a)
 -   [Additional Resources](https://www.bing.com/search?q=Additional+Resources)
 

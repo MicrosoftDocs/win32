@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ShellWindows.Item method
 
-Retrieves an [**InternetExplorer**](4f59dc39-4fa5-46ac-a572-0d0b36876f54) object that represents the Shell window.
+Retrieves an [**InternetExplorer**](https://msdn.microsoft.com/windows/desktop/4f59dc39-4fa5-46ac-a572-0d0b36876f54) object that represents the Shell window.
 
 ## Syntax
 
@@ -41,11 +41,11 @@ The zero-based index of the item to retrieve. This value must be less than the v
 
 Type: **[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)\*\***
 
-An object reference to the [**InternetExplorer**](4f59dc39-4fa5-46ac-a572-0d0b36876f54) object that represents the Shell window.
+An object reference to the [**InternetExplorer**](https://msdn.microsoft.com/windows/desktop/4f59dc39-4fa5-46ac-a572-0d0b36876f54) object that represents the Shell window.
 
 ## Examples
 
-The following example uses [**Item**](folderitemverbs-item.md) to retrieve the [**InternetExplorer**](4f59dc39-4fa5-46ac-a572-0d0b36876f54) object that represents the first Shell window item. Proper usage is shown for JScript, VBScript, and Visual Basic.
+The following example uses [**Item**](folderitemverbs-item.md) to retrieve the [**InternetExplorer**](https://msdn.microsoft.com/windows/desktop/4f59dc39-4fa5-46ac-a572-0d0b36876f54) object that represents the first Shell window item. Proper usage is shown for JScript, VBScript, and Visual Basic.
 
 JScript:
 

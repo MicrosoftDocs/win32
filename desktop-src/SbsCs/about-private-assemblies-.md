@@ -47,7 +47,7 @@ appdir\en-us\Microsoft.tools.pop\Microsoft.tools.pop.DLL
 appdir\en-us\Microsoft.tools.pop\Microsoft.tools.pop.MANIFEST
 ```
 
-Private assemblies can be installed by any installation method that can copy the assembly's file into this folder, such as the **xcopy** command. For more information about how to install private assemblies using the Windows Installer, see [Installation of Win32 Assemblies](09aecb55-ed45-45b3-b27a-d0946223392a).
+Private assemblies can be installed by any installation method that can copy the assembly's file into this folder, such as the **xcopy** command. For more information about how to install private assemblies using the Windows Installer, see [Installation of Win32 Assemblies](https://msdn.microsoft.com/windows/desktop/09aecb55-ed45-45b3-b27a-d0946223392a).
 
 Private assemblies can also be installed on operating systems earlier than Windows XP. In this case, the assembly must be registered and on these operating systems the manifest is not used. A copy of the private assembly is installed into a private folder for the exclusive use of the application. Another version of the assembly can be globally registered on the system and available to any application that binds to it. The global version of the assembly may be the version installed with the application or an earlier version. For more information, see [DLL/COM Redirection on Windows](dll-com-redirection-on-windows.md). An assembly can also be installed as a shared assembly for use by multiple applications. For more information, see [Shared Assemblies](https://msdn.microsoft.com/library/windows/desktop/aa371839).
 

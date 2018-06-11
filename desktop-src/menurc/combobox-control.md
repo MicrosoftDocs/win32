@@ -52,7 +52,7 @@ COMBOBOX 777, 10, 10, 50, 54, CBS_SIMPLE | WS_VSCROLL | WS_TABSTOP
 
 <dl> <dt>
 
-[Combo Boxes](76410a87-aa0e-4da9-9e78-c80ac485e3cd)
+[Combo Boxes](https://msdn.microsoft.com/windows/desktop/76410a87-aa0e-4da9-9e78-c80ac485e3cd)
 </dt> </dl>
 
  

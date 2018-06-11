@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 -   [**WM\_COMPACTING**](wm-compacting.md)
 -   [**WM\_CREATE**](wm-create.md)
 -   [**WM\_DESTROY**](wm-destroy.md)
--   [**WM\_DPICHANGED**](97C458F2-89CD-45FF-ABEE-F158A3BCE0B8)
+-   [**WM\_DPICHANGED**](https://msdn.microsoft.com/windows/desktop/97C458F2-89CD-45FF-ABEE-F158A3BCE0B8)
 -   [**WM\_ENABLE**](wm-enable.md)
 -   [**WM\_ENTERSIZEMOVE**](wm-entersizemove.md)
 -   [**WM\_EXITSIZEMOVE**](wm-exitsizemove.md)

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Attaching to the SDO Computer
 
-With the interface pointer returned by [**CoCreateInstance**](7295a55b-12c7-4ed0-a7a4-9ecee16afdec), call the [**ISdoMachine::Attach**](https://msdn.microsoft.com/library/bb960656) method. Pass **NULL** as the parameter to the **Attach** method. The value **NULL** specifies that **Attach** associate the machine object with the local computer. Attaching to a remote computer is not supported.
+With the interface pointer returned by [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec), call the [**ISdoMachine::Attach**](https://msdn.microsoft.com/library/bb960656) method. Pass **NULL** as the parameter to the **Attach** method. The value **NULL** specifies that **Attach** associate the machine object with the local computer. Attaching to a remote computer is not supported.
 
 To determine if the local computer is already attached, call the [**ISdoMachine::GetAttachedComputer**](https://msdn.microsoft.com/library/bb960657) method.
 

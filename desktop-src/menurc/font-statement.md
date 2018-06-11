@@ -58,7 +58,7 @@ Indicates an italic font if set to TRUE.
 <span id="charset"></span><span id="CHARSET"></span>*charset*
 </dt> <dd>
 
-The character set. For a list of values, see the **lfCharSet** member of the [**LOGFONT**](57658a03-0a6d-4a28-a7c1-c65ec145beb4) structure.
+The character set. For a list of values, see the **lfCharSet** member of the [**LOGFONT**](https://msdn.microsoft.com/windows/desktop/57658a03-0a6d-4a28-a7c1-c65ec145beb4) structure.
 
 </dd> </dl>
 

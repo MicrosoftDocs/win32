@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 ## In this section
 
 -   [Assistance Platform 1.0 Client](https://msdn.microsoft.com/windows/desktop/bbb2aeea-4013-471c-ad90-18b4e71844b7)
--   [Microsoft HTML Help 1.4](A2939059-CEAB-43ce-834B-D4F919AE2F08)
+-   [Microsoft HTML Help 1.4](https://msdn.microsoft.com/windows/desktop/A2939059-CEAB-43ce-834B-D4F919AE2F08)
 
  
 

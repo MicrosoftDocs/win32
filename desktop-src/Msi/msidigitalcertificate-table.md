@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # MsiDigitalCertificate Table
 
-The MsiDigitalCertificate table stores certificates in binary stream format and associates each certificate with a primary key. The primary key is used to share certificates among multiple digitally signed objects. A digital certificate is a credential that provides a means to verify identity. For more information, see [Digital Certificates](https://msdn.microsoft.com/e523b335-0156-4f47-b55c-b80495587c4f) in the [Cryptography](c53af815-ee3f-417a-8e62-3a3689715bc6) section of the Microsoft Windows Software Development Kit (SDK).
+The MsiDigitalCertificate table stores certificates in binary stream format and associates each certificate with a primary key. The primary key is used to share certificates among multiple digitally signed objects. A digital certificate is a credential that provides a means to verify identity. For more information, see [Digital Certificates](https://msdn.microsoft.com/e523b335-0156-4f47-b55c-b80495587c4f) in the [Cryptography](https://msdn.microsoft.com/windows/desktop/c53af815-ee3f-417a-8e62-3a3689715bc6) section of the Microsoft Windows Software Development Kit (SDK).
 
 The [MsiDigitalSignature](msidigitalsignature-table.md) and MsiDigitalCertificate tables are available starting with Windows Installer version 2.0.
 

@@ -41,7 +41,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puGetInternalData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_GETINTERNALMOCOMPDATA**](5d8f722f-7574-485e-9ff2-568cd0ae23f7) structure that contains the internal memory requirements.
+Pointer to a [**DD\_GETINTERNALMOCOMPDATA**](https://msdn.microsoft.com/windows/desktop/5d8f722f-7574-485e-9ff2-568cd0ae23f7) structure that contains the internal memory requirements.
 
 </dd> </dl>
 

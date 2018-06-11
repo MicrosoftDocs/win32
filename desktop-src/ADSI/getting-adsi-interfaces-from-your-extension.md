@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Getting ADSI Interfaces From Your Extension
 
-An extension often needs to get data from the directory object it binds to. For example, an extension for a **computer** object may want to get the **dnsHostName** of the current object from the directory. This can be easily achieved by issuing a **QueryInterface** call on the [**IUnknown**](33f1d79a-33fc-4ce5-a372-e08bda378332) interface for the aggregator.
+An extension often needs to get data from the directory object it binds to. For example, an extension for a **computer** object may want to get the **dnsHostName** of the current object from the directory. This can be easily achieved by issuing a **QueryInterface** call on the [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) interface for the aggregator.
 
 
 ```C++

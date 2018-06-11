@@ -31,13 +31,13 @@ HRESULT GetEnumObject(
 *ppenum* \[out\]
 </dt> <dd>
 
-Pointer to the variable that receives a pointer to the [**IEnumUnknown**](5aaed96f-39c1-4201-80d0-a2a8a177b65e) interface that enumerates the bidi requests in the container.
+Pointer to the variable that receives a pointer to the [**IEnumUnknown**](https://msdn.microsoft.com/windows/desktop/5aaed96f-39c1-4201-80d0-a2a8a177b65e) interface that enumerates the bidi requests in the container.
 
 </dd> </dl>
 
 ## Return value
 
-The method returns one of the following values. For more information about COM error codes, see [Error Handling](15f3ae3e-1794-4948-a7aa-6309a703364b).
+The method returns one of the following values. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/windows/desktop/15f3ae3e-1794-4948-a7aa-6309a703364b).
 
 
 
@@ -53,7 +53,7 @@ The method returns one of the following values. For more information about COM e
 
 ## Remarks
 
-An application can call [**IEnumUnknown::Next**](cef932cf-dacd-430d-8834-c41cc2d885a6) to retrieve one or more [**IBidiRequest**](ibidirequest.md) interfaces.
+An application can call [**IEnumUnknown::Next**](https://msdn.microsoft.com/windows/desktop/cef932cf-dacd-430d-8834-c41cc2d885a6) to retrieve one or more [**IBidiRequest**](ibidirequest.md) interfaces.
 
 ## Requirements
 
@@ -82,7 +82,7 @@ An application can call [**IEnumUnknown::Next**](cef932cf-dacd-430d-8834-c41cc2d
 [**IBidiRequestContainer**](ibidirequestcontainer.md)
 </dt> <dt>
 
-[**IEnumUnknown**](5aaed96f-39c1-4201-80d0-a2a8a177b65e)
+[**IEnumUnknown**](https://msdn.microsoft.com/windows/desktop/5aaed96f-39c1-4201-80d0-a2a8a177b65e)
 </dt> </dl>
 
  

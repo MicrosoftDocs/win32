@@ -63,7 +63,7 @@ Pointer to an **IPADDR** variable that specifies the IP address returned for thi
 
 ## Return value
 
-There is no extended error information for this function; do no call [**GetLastError**](d852e148-985c-416f-a5a7-27b6914b45d4).
+There is no extended error information for this function; do no call [**GetLastError**](https://msdn.microsoft.com/windows/desktop/d852e148-985c-416f-a5a7-27b6914b45d4).
 
 ## Remarks
 

@@ -447,7 +447,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 </tr>
 <tr class="odd">
 <td>[<strong>LinkWindow_RegisterClass</strong>](linkwindow-registerclass.md)<br/></td>
-<td>Registers a window class that allows for the [SysLink](38cfac3d-de60-4882-a434-4f498330b77d) common control to be used in a window.<br/></td>
+<td>Registers a window class that allows for the [SysLink](https://msdn.microsoft.com/windows/desktop/38cfac3d-de60-4882-a434-4f498330b77d) common control to be used in a window.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>LinkWindow_UnregisterClass</strong>](linkwindow-unregisterclass.md)<br/></td>
@@ -1062,7 +1062,7 @@ You should use [thumbnail toolbars](taskbar-extensions.md) in new development in
 </tr>
 <tr class="even">
 <td>[<strong>IRegTreeItem</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iregtreeitem)<br/></td>
-<td>Exposes methods that retrieve and set the state of items in a tree-view control that have the [<strong>Tree-View Control Window Styles</strong>](d0a1ad6d-1bda-4b65-b97a-b389d6e6d7a6) flag set.<br/></td>
+<td>Exposes methods that retrieve and set the state of items in a tree-view control that have the [<strong>Tree-View Control Window Styles</strong>](https://msdn.microsoft.com/windows/desktop/d0a1ad6d-1bda-4b65-b97a-b389d6e6d7a6) flag set.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IShellExecuteHook</strong>](/windows/desktop/api/Shlobj_core/)<br/></td>
@@ -1163,7 +1163,7 @@ This interface is deprecated as of Windows 7. The feature it supported is no lo
 </tr>
 <tr class="odd">
 <td>[<strong>SFVM_SETISFV</strong>](sfvm-setisfv.md)<br/></td>
-<td>Notifies the callback object of the container site. This is used only when [<strong>IObjectWithSite::SetSite</strong>](faa5446a-15c5-41d0-9787-1b64e7f32904) is not supported and [<strong>SHCreateShellFolderViewEx</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex) is used. Used by [<strong>IShellFolderViewCB::MessageSFVCB</strong>](/windows/desktop/api/Shlobj/).<br/></td>
+<td>Notifies the callback object of the container site. This is used only when [<strong>IObjectWithSite::SetSite</strong>](https://msdn.microsoft.com/windows/desktop/faa5446a-15c5-41d0-9787-1b64e7f32904) is not supported and [<strong>SHCreateShellFolderViewEx</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex) is used. Used by [<strong>IShellFolderViewCB::MessageSFVCB</strong>](/windows/desktop/api/Shlobj/).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SFVM_THISIDLIST</strong>](sfvm-thisidlist.md)<br/></td>

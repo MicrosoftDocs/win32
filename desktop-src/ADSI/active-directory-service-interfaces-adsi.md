@@ -80,10 +80,10 @@ Documentation of ADSI interfaces and methods.
 
 <dl> <dt>
 
-[The Component Object Model](f5f66603-466c-496b-be29-89a8ed9361dd)
+[The Component Object Model](https://msdn.microsoft.com/windows/desktop/f5f66603-466c-496b-be29-89a8ed9361dd)
 </dt> <dt>
 
-[COM Clients and Servers](5d1d8613-3087-443d-8547-a767c8ba4959)
+[COM Clients and Servers](https://msdn.microsoft.com/windows/desktop/5d1d8613-3087-443d-8547-a767c8ba4959)
 </dt> <dt>
 
 [Active Directory Domain Services](https://msdn.microsoft.com/library/aa362244)

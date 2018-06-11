@@ -54,13 +54,13 @@ For information on which operating systems are required to use a particular func
 [DirectX](http://msdn.microsoft.com/en-us/library/aa302281.aspx)
 </dt> <dt>
 
-[GDI+](ed1396b2-2fc5-4a77-bea2-7bcc971214ae)
+[GDI+](https://msdn.microsoft.com/windows/desktop/ed1396b2-2fc5-4a77-bea2-7bcc971214ae)
 </dt> <dt>
 
 [OpenGL](https://msdn.microsoft.com/ddd7c8d0-f1d1-4d16-bd0c-99cee3d733c5)
 </dt> <dt>
 
-[Windows Image Acquisition](8f32422e-25ec-48bc-9d79-57dbb3b53e93)
+[Windows Image Acquisition](https://msdn.microsoft.com/windows/desktop/8f32422e-25ec-48bc-9d79-57dbb3b53e93)
 </dt> </dl>
 
  

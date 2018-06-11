@@ -103,7 +103,7 @@ Only image lists created with the [**ILC\_COLOR4**](/windows/desktop/api/Commctr
 
 <dl> <dt>
 
-[Color Table](627241f6-a69b-4418-b6d1-7a9b0d04abd0)
+[Color Table](https://msdn.microsoft.com/windows/desktop/627241f6-a69b-4418-b6d1-7a9b0d04abd0)
 </dt> </dl>
 
  

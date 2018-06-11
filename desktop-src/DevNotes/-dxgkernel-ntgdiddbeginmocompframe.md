@@ -34,14 +34,14 @@ DWORD APIENTRY NtGdiDdBeginMoCompFrame(
 *hMoComp* \[in\]
 </dt> <dd>
 
-Handle to a [**DD\_MOTIONCOMP\_LOCAL**](41cde03a-f9da-4701-a0df-0dba0c17ba26) structure that contains a description of the motion compensation being requested.
+Handle to a [**DD\_MOTIONCOMP\_LOCAL**](https://msdn.microsoft.com/windows/desktop/41cde03a-f9da-4701-a0df-0dba0c17ba26) structure that contains a description of the motion compensation being requested.
 
 </dd> <dt>
 
 *puBeginFrameData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_BEGINMOCOMPFRAMEDATA**](4a75642d-87e3-4c95-be67-2d494bf6122e) structure that contains the information needed to start decoding a new frame.
+Pointer to a [**DD\_BEGINMOCOMPFRAMEDATA**](https://msdn.microsoft.com/windows/desktop/4a75642d-87e3-4c95-be67-2d494bf6122e) structure that contains the information needed to start decoding a new frame.
 
 </dd> </dl>
 

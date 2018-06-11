@@ -51,7 +51,7 @@ For more information and examples, see the [Direct2D and GDI Interoperability Ov
 
 You can use GDI+ with Direct2D in the same manner as GDI. You can use an [**ID2D1DCRenderTarget**](/windows/desktop/api/d2d1/) to write Direct2D content to the same DC as your GDI+ content. This approach enables you to start adding Direct2D content to applications that primarily render by using GDI+.
 
-You can also use an [**ID2D1GdiInteropRenderTarget**](/windows/desktop/api/d2d1/) to provide access to a GDI DC that writes by using Direct2D, and then use the [**FromHDC**](fb1ce44e-3e46-40e7-a2d2-23aca0c8fd81) method to create a object. This approach is useful for applications that primarily render with Direct2D, but have an extensibility model or other legacy content that requires the ability to render with GDI+.
+You can also use an [**ID2D1GdiInteropRenderTarget**](/windows/desktop/api/d2d1/) to provide access to a GDI DC that writes by using Direct2D, and then use the [**FromHDC**](https://msdn.microsoft.com/windows/desktop/fb1ce44e-3e46-40e7-a2d2-23aca0c8fd81) method to create a object. This approach is useful for applications that primarily render with Direct2D, but have an extensibility model or other legacy content that requires the ability to render with GDI+.
 
 ## Direct3D Interoperability
 

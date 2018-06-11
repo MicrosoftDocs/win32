@@ -25,9 +25,9 @@ The following procedure describes how to clean up and shut down a WMI applicatio
 
     The two primary interfaces you must remember to release are [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) and [**IWbemLocator**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemlocator).
 
-2.  Call [**CoUninitialize**](9411cbed-fa3b-46f7-b677-6ada53324edc).
+2.  Call [**CoUninitialize**](https://msdn.microsoft.com/windows/desktop/9411cbed-fa3b-46f7-b677-6ada53324edc).
 
-    As with all COM applications, you must call [**CoUninitialize**](9411cbed-fa3b-46f7-b677-6ada53324edc) at the end of your application.
+    As with all COM applications, you must call [**CoUninitialize**](https://msdn.microsoft.com/windows/desktop/9411cbed-fa3b-46f7-b677-6ada53324edc) at the end of your application.
 
 3.  Exit your application.
 

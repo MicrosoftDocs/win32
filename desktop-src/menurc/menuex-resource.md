@@ -23,7 +23,7 @@ Defines the contents of a menu resource. A menu resource is a collection of info
 
 -   Help identifiers on menus.
 -   Identifiers on menus.
--   Use of the **MFT\_\*** type flags and **MFS\_\*** state flags. For more information on these flags, see the [**MENUITEMINFO**](43d30b39-c1e1-4711-97a2-b5bc29dad9df) structure.
+-   Use of the **MFT\_\*** type flags and **MFS\_\*** state flags. For more information on these flags, see the [**MENUITEMINFO**](https://msdn.microsoft.com/windows/desktop/43d30b39-c1e1-4711-97a2-b5bc29dad9df) structure.
 
 ``` syntax
 menuID MENUEX{ [{[MENUITEM itemText [,[id][, [type][, state]]]] | 
@@ -107,7 +107,7 @@ Numeric expression indicating the state of the menu item To use the predefined M
 <span id="helpID"></span><span id="helpid"></span><span id="HELPID"></span>*helpID*
 </dt> <dd>
 
-Numeric expression indicating the identifier used to identify the menu during [**WM\_HELP**](6a090125-67dd-4267-9973-10e32c6e4f1f) processing.
+Numeric expression indicating the identifier used to identify the menu during [**WM\_HELP**](https://msdn.microsoft.com/windows/desktop/6a090125-67dd-4267-9973-10e32c6e4f1f) processing.
 
 </dd> </dl> </dd> <dt>
 
@@ -135,7 +135,7 @@ The valid arithmetic and Boolean operations that can be contained in any of the 
 
 <dl> <dt>
 
-[Using Menus](b1391e37-a146-46ec-a329-aa57cfcfd351)
+[Using Menus](https://msdn.microsoft.com/windows/desktop/b1391e37-a146-46ec-a329-aa57cfcfd351)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)

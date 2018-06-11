@@ -65,7 +65,7 @@ The application should return one of the following values.
 
 ## Remarks
 
-The application can call the [**DoDragDrop**](095172ac-9e08-4797-b9da-41a4e5a61315) function in response to this message.
+The application can call the [**DoDragDrop**](https://msdn.microsoft.com/windows/desktop/095172ac-9e08-4797-b9da-41a4e5a61315) function in response to this message.
 
 To create a drag-and-drop menu, call [**SetMenuInfo**](/windows/desktop/api/Winuser/nf-winuser-setmenuinfo) with **MNS\_DRAGDROP**.
 

@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # licensed attribute
 
-The **\[licensed\]** attribute indicates that the [**coclass**](coclass.md) to which it applies is licensed, and must be instantiated using [**IClassFactory2**](c49c7612-3b1f-4535-baf3-8458b3f34f95).
+The **\[licensed\]** attribute indicates that the [**coclass**](coclass.md) to which it applies is licensed, and must be instantiated using [**IClassFactory2**](https://msdn.microsoft.com/windows/desktop/c49c7612-3b1f-4535-baf3-8458b3f34f95).
 
 ``` syntax
 [
@@ -59,7 +59,7 @@ Specifies statements that make up the [**coclass**](coclass.md) definition.
 
 ## Remarks
 
-Licensing is a feature of COM that provides control over object creation. Licensed objects can be created only by clients that are authorized to use them. Licensing is implemented in COM through the [**IClassFactory2**](c49c7612-3b1f-4535-baf3-8458b3f34f95) interface and by support for a license key that can be passed at run time.
+Licensing is a feature of COM that provides control over object creation. Licensed objects can be created only by clients that are authorized to use them. Licensing is implemented in COM through the [**IClassFactory2**](https://msdn.microsoft.com/windows/desktop/c49c7612-3b1f-4535-baf3-8458b3f34f95) interface and by support for a license key that can be passed at run time.
 
 ### Flags
 

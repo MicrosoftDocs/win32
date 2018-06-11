@@ -396,7 +396,7 @@ When moving a computer from a domain to a workgroup, you must remove the compute
 
 *UserName* and *Password* can be left **null**. However, the authentication of the connection to WMI must be 6 in script or **WbemAuthenticationLevelPktPrivacy** in Visual Basic and other languages that can use the [wbemdisp.dll](https://msdn.microsoft.com/library/aa393960) library. For more information, see [Setting the Default Process Security Level Using VBScript](https://msdn.microsoft.com/library/aa393618).
 
-In C++, set the authentication at **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** either in [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f), for the entire process, or in [**CoSetProxyBlanket**](c2e5e681-8fa5-4b02-b59d-ba796eb0dccf), for a connection to the [**IWbemServices**](https://msdn.microsoft.com/library/aa392093) proxy. For more information, see [Setting Authentication Using C++](https://msdn.microsoft.com/library/aa393608) and [Setting the Security on IWbemServices and Other Proxies](https://msdn.microsoft.com/library/aa393620).
+In C++, set the authentication at **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** either in [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f), for the entire process, or in [**CoSetProxyBlanket**](https://msdn.microsoft.com/windows/desktop/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf), for a connection to the [**IWbemServices**](https://msdn.microsoft.com/library/aa392093) proxy. For more information, see [Setting Authentication Using C++](https://msdn.microsoft.com/library/aa393608) and [Setting the Security on IWbemServices and Other Proxies](https://msdn.microsoft.com/library/aa393620).
 
 ## Examples
 

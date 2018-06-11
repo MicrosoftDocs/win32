@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Setting Security on an Asynchronous Call
 
-Asynchronous calls present serious security risks because a callback to the [*sink*](gloss-s.md) may not be a result of the asynchronous call by the original application or script. Security in remote connections is based on encryption of the communication between the client and the provider on the remote computer. In C++ you can set encryption through the authentication level parameter in the call to [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f). In scripting, set the *AuthenticationLevel* in the moniker connection or on an [**SWbemSecurity**](swbemsecurity.md) object. For more information, see [Setting the Default Process Security Level Using VBScript](setting-the-default-process-security-level-using-vbscript.md).
+Asynchronous calls present serious security risks because a callback to the [*sink*](gloss-s.md) may not be a result of the asynchronous call by the original application or script. Security in remote connections is based on encryption of the communication between the client and the provider on the remote computer. In C++ you can set encryption through the authentication level parameter in the call to [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f). In scripting, set the *AuthenticationLevel* in the moniker connection or on an [**SWbemSecurity**](swbemsecurity.md) object. For more information, see [Setting the Default Process Security Level Using VBScript](setting-the-default-process-security-level-using-vbscript.md).
 
 The security risks for asynchronous calls exist because WMI lowers the authentication level on a callback until the callback succeeds. On an outgoing asynchronous call, the client can set the authentication level on the connection to WMI. WMI retrieves the security settings on the client call and attempts to call back with the same authentication level. The callback is always initiated at the **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** level. If the callback fails, WMI lowers the authentication level to a level where the callback can succeed, if necessary, to **RPC\_C\_AUTHN\_LEVEL\_NONE**. In the context of calls within the local system where the authentication service is not Kerberos, the callback is always returned at **RPC\_C\_AUTHN\_LEVEL\_NONE**.
 
@@ -51,9 +51,9 @@ The following procedure describes how to perform an asynchronous call with [**IW
 
 **To perform an asynchronous call with IWbemUnsecuredApartment**
 
-1.  Create a dedicated process with a call to [**CoCreateInstance**](7295a55b-12c7-4ed0-a7a4-9ecee16afdec).
+1.  Create a dedicated process with a call to [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec).
 
-    The following code example calls [**CoCreateInstance**](7295a55b-12c7-4ed0-a7a4-9ecee16afdec) to create a dedicated process.
+    The following code example calls [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) to create a dedicated process.
 
     ```C++
     CLSID                    CLSID_WbemUnsecuredApartment;
@@ -137,9 +137,9 @@ The following procedure describes how to perform an asynchronous call with [**IW
 
     Make sure to release the *pStubSink* pointer only after you confirm that the asynchronous call does not must be canceled. Further, do not release *pStubSink* after WMI releases the *pSink* sink pointer. Releasing *pStubSink* after *pSink* creates a circular reference count in which both the sink and the stub stay in memory forever. Instead, a possible location to release the pointer is in the [**IWbemObjectSink::SetStatus**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus) call, made by WMI to report that the original asynchronous call is complete.
 
-7.  When finished, uninitialize COM with a call to [**Release()**](4b494c6f-f0ee-4c35-ae45-ed956f40dc7a).
+7.  When finished, uninitialize COM with a call to [**Release()**](https://msdn.microsoft.com/windows/desktop/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a).
 
-    The following code example shows how to call [**Release()**](4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) on the *pUnsecApp* pointer.
+    The following code example shows how to call [**Release()**](https://msdn.microsoft.com/windows/desktop/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) on the *pUnsecApp* pointer.
 
     ```C++
     pUnsecApp->Release();
@@ -147,7 +147,7 @@ The following procedure describes how to perform an asynchronous call with [**IW
 
     
 
-For more information about the [**CoInitializeSecurity**](e0933741-6b75-4ce1-aa63-6240e4a7130f) function and parameters, see the [COM](b21a6b08-c17c-4fcc-bc60-39037bc9902f) documentation.
+For more information about the [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f) function and parameters, see the [COM](https://msdn.microsoft.com/windows/desktop/b21a6b08-c17c-4fcc-bc60-39037bc9902f) documentation.
 
  
 
