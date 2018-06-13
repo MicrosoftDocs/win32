@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMMATRIX Operators
 
-The [**XMMATRIX**](/windows/desktop/api/DirectXMath/) structure exposes the following operators.
+The [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -24,9 +24,9 @@ The [**XMMATRIX**](/windows/desktop/api/DirectXMath/) structure exposes the foll
 
 | Methods                                                    | Description                                                                                                                                                                                   |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**operator \***](/windows/desktop/api/DirectXMath/)<br/>    | Performs a matrix multiplication of the current instance of `XMMATRIX` by another instance of `XMMATRIX`.<br/>                                                                          |
-| [**operator \*=**](/windows/desktop/api/DirectXMath/)<br/> | Performs a matrix multiplication of the current instance of `XMMATRIX` by another instance of `XMMATRIX` and returns a reference to the current instance, which has been updated. <br/> |
-| [**operator =**](/windows/desktop/api/DirectXMath/)<br/>      | Assigns the matrix data of one instance of `XMMATRIX` to the current instance of `XMMATRIX` and returns a `reference` to the current instance. <br/>                                    |
+| [**operator \***](https://msdn.microsoft.com/en-us/library/Ff621686(v=VS.85).aspx)<br/>    | Performs a matrix multiplication of the current instance of `XMMATRIX` by another instance of `XMMATRIX`.<br/>                                                                          |
+| [**operator \*=**](https://msdn.microsoft.com/en-us/library/Ff621687(v=VS.85).aspx)<br/> | Performs a matrix multiplication of the current instance of `XMMATRIX` by another instance of `XMMATRIX` and returns a reference to the current instance, which has been updated. <br/> |
+| [**operator =**](https://msdn.microsoft.com/en-us/library/Ee420128(v=VS.85).aspx)<br/>      | Assigns the matrix data of one instance of `XMMATRIX` to the current instance of `XMMATRIX` and returns a `reference` to the current instance. <br/>                                    |
 | [**operator ()**](xmmatrix-operator-parens.md)<br/> | Accesses specific matrix elements referenced by row and column from the current instance of `XMMATRIX`. <br/>                                                                           |
 
 
@@ -43,7 +43,7 @@ The [**XMMATRIX**](/windows/desktop/api/DirectXMath/) structure exposes the foll
 **Reference**
 </dt> <dt>
 
-[**XMMATRIX**](/windows/desktop/api/DirectXMath/)
+[**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx)
 </dt> </dl>
 
  

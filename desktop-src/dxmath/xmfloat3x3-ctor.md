@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Constructors exposed by `XMFLOAT3X3`.
 
-Constructs instances of the [**XMFLOAT3X3**](/windows/desktop/api/DirectXMath/) structure.
+Constructs instances of the [**XMFLOAT3X3**](https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -37,8 +37,8 @@ Constructs instances of the [**XMFLOAT3X3**](/windows/desktop/api/DirectXMath/) 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT3X3 ()</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3X3+()</strong>)</td>
-<td style="text-align: left;">Default constructor for <code>XMFLOAT3X3</code><br/> Default constructor for [<strong>XMFLOAT3X3</strong>](/windows/desktop/api/DirectXMath/)<br/>
+<td style="text-align: left;">[<strong>XMFLOAT3X3 ()</strong>](https://msdn.microsoft.com/en-us/library/Ee419513(v=VS.85).aspx)</td>
+<td style="text-align: left;">Default constructor for <code>XMFLOAT3X3</code><br/> Default constructor for [<strong>XMFLOAT3X3</strong>](https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx)<br/>
 <blockquote>
 [!Note]<br />
 This is only available for C++ based development.
@@ -46,8 +46,8 @@ This is only available for C++ based development.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT3X3 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3X3+(const+float*)</strong>)</td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT3X3</code> structure from a nine element <code>float</code> array. <br/> Initializes a new instance of the [<strong>XMFLOAT3X3</strong>](/windows/desktop/api/DirectXMath/) structure from a nine element <code>float</code> array. <br/>
+<td style="text-align: left;">[<strong>XMFLOAT3X3 (const float*)</strong>](https://msdn.microsoft.com/en-us/library/Ee419517(v=VS.85).aspx)</td>
+<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT3X3</code> structure from a nine element <code>float</code> array. <br/> Initializes a new instance of the [<strong>XMFLOAT3X3</strong>](https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx) structure from a nine element <code>float</code> array. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -55,8 +55,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT3X3 (float,float,float,float,float,float,float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3X3+(float,float,float,float,float,float,float,float,float)</strong>)</td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT3X3</code> structure from nine scalar <code>float</code> values. <br/> Initializes a new instance of the [<strong>XMFLOAT3X3</strong>](/windows/desktop/api/DirectXMath/) structure from nine scalar <code>float</code> values. <br/>
+<td style="text-align: left;">[<strong>XMFLOAT3X3 (float,float,float,float,float,float,float,float,float)</strong>](https://msdn.microsoft.com/en-us/library/Ee419516(v=VS.85).aspx)</td>
+<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT3X3</code> structure from nine scalar <code>float</code> values. <br/> Initializes a new instance of the [<strong>XMFLOAT3X3</strong>](https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx) structure from nine scalar <code>float</code> values. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -78,7 +78,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3X3**](/windows/desktop/api/DirectXMath/)
+[**XMFLOAT3X3**](https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx)
 </dt> </dl>
 
  

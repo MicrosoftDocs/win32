@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Assigns vector component data to the current instance of `XMDEC4`.
 
-Assigns vector component data to the current instance of [**XMDEC4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmdec4).
+Assigns vector component data to the current instance of [**XMDEC4**](https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx).
 
 ### Overload list
 
@@ -32,8 +32,8 @@ Assigns vector component data to the current instance of [**XMDEC4**](/windows/d
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMDEC4::operator = (const XMDEC4&amp;)</strong>](https://www.bing.com/search?q=<strong>XMDEC4::operator+=+(const+XMDEC4&amp;)</strong>)</td>
-<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMDEC4</code> to the current instance of <code>XMDEC4</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMDEC4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmdec4) to the current instance of <code>XMDEC4</code>. <br/>
+<td style="text-align: left;">[<strong>XMDEC4::operator = (const XMDEC4&amp;)</strong>](https://msdn.microsoft.com/en-us/library/Ee419436(v=VS.85).aspx)</td>
+<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMDEC4</code> to the current instance of <code>XMDEC4</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMDEC4</strong>](https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx) to the current instance of <code>XMDEC4</code>. <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.
@@ -41,8 +41,8 @@ This operator is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMDEC4::operator = (const uint32_t)</strong>](https://www.bing.com/search?q=<strong>XMDEC4::operator+=+(const+uint32_t)</strong>)</td>
-<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMDEC4</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of [<strong>XMDEC4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmdec4). <br/>
+<td style="text-align: left;">[<strong>XMDEC4::operator = (const uint32_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh437939(v=VS.85).aspx)</td>
+<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMDEC4</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of [<strong>XMDEC4</strong>](https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx). <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.
@@ -64,7 +64,7 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMDEC4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmdec4)
+[**XMDEC4**](https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx)
 </dt> </dl>
 
  

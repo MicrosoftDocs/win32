@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMUINT3 Extensions
 
-[**XMUINT3**](/windows/desktop/api/DirectXMath/) describes a structure containing a 3D vector consisting of three unsigned integer values.
+[**XMUINT3**](https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx) describes a structure containing a 3D vector consisting of three unsigned integer values.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 
 | Topic                                                     | Description                                   |
 |-----------------------------------------------------------|-----------------------------------------------|
-| [**XMUINT3 Constructors**](https://www.bing.com/search?q=**XMUINT3+Constructors**)<br/>   | Constructors exposed by `XMUINT3`.<br/> |
+| [**XMUINT3 Constructors**](https://msdn.microsoft.com/en-us/library/Hh449560(v=VS.85).aspx)<br/>   | Constructors exposed by `XMUINT3`.<br/> |
 | [XMUINT3 Operators](ovw-xmuint3-operators.md)<br/> | Operators exposed by `XMUINT3`.<br/>    |
 
 
@@ -38,7 +38,7 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMUINT3**](/windows/desktop/api/DirectXMath/)
+[**XMUINT3**](https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx)
 </dt> </dl>
 
  

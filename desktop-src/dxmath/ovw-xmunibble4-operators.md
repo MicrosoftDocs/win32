@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMUNIBBLE4 Operators
 
-The [**XMUNIBBLE4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmunibble4) structure exposes the following operators.
+The [**XMUNIBBLE4**](https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -24,7 +24,7 @@ The [**XMUNIBBLE4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedve
 
 | Methods                                                               | Description                                                                                                              |
 |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| [**operator uint16\_t**](/windows/desktop/api/DirectXPackedVector/nf-directxpackedvector-xmu555-operator uint16_t)<br/> | Returns an instance of `uint16_t` containing the components of the `XMUNIBBLE4` instance in a packed format. <br/> |
+| [**operator uint16\_t**](https://msdn.microsoft.com/en-us/library/Hh404764(v=VS.85).aspx)<br/> | Returns an instance of `uint16_t` containing the components of the `XMUNIBBLE4` instance in a packed format. <br/> |
 | [**operator =**](xmunibble4-operator-eq.md)<br/>               | Assigns vector component data to the current instance of `XMUNIBBLE4`. <br/>                                       |
 
 
@@ -41,7 +41,7 @@ The [**XMUNIBBLE4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedve
 **Reference**
 </dt> <dt>
 
-[**XMUNIBBLE4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmunibble4)
+[**XMUNIBBLE4**](https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Accesses specific matrix elements referenced by row and column from the current instance of `XMMATRIX`.
 
-Accesses specific matrix elements referenced by row and column from the current instance of [**XMMATRIX**](/windows/desktop/api/DirectXMath/)
+Accesses specific matrix elements referenced by row and column from the current instance of [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx)
 
 ### Overload list
 
@@ -32,8 +32,8 @@ Accesses specific matrix elements referenced by row and column from the current 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMMATRIX::operator () (size_t,size_t)</strong>](https://www.bing.com/search?q=<strong>XMMATRIX::operator+()+(size_t,size_t)</strong>)</td>
-<td style="text-align: left;">Returns a <code>reference</code> to a matrix element of an instance <code>XMMATRIX</code> as specified by row and column arguments.<br/> This operator returns a <code>reference</code> to a matrix element of an instance [<strong>XMMATRIX</strong>](/windows/desktop/api/DirectXMath/) as specified by row and column arguments.<br/>
+<td style="text-align: left;">[<strong>XMMATRIX::operator () (size_t,size_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh404685(v=VS.85).aspx)</td>
+<td style="text-align: left;">Returns a <code>reference</code> to a matrix element of an instance <code>XMMATRIX</code> as specified by row and column arguments.<br/> This operator returns a <code>reference</code> to a matrix element of an instance [<strong>XMMATRIX</strong>](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) as specified by row and column arguments.<br/>
 <blockquote>
 [!Note]<br />
 This operator is only available when developing with C++.
@@ -41,8 +41,8 @@ This operator is only available when developing with C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMMATRIX::operator () (size_t,size_t)</strong>](https://www.bing.com/search?q=<strong>XMMATRIX::operator+()+(size_t,size_t)</strong>)</td>
-<td style="text-align: left;">Return the value of a matrix element in an instance <code>XMMATRIX</code> as specified by row and column arguments.<br/> This operator returns the value of a matrix element of an instance [<strong>XMMATRIX</strong>](/windows/desktop/api/DirectXMath/) as specified by row and column arguments. <br/>
+<td style="text-align: left;">[<strong>XMMATRIX::operator () (size_t,size_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh404686(v=VS.85).aspx)</td>
+<td style="text-align: left;">Return the value of a matrix element in an instance <code>XMMATRIX</code> as specified by row and column arguments.<br/> This operator returns the value of a matrix element of an instance [<strong>XMMATRIX</strong>](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) as specified by row and column arguments. <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available when developing with C++.
@@ -64,7 +64,7 @@ This operator is only available when developing with C++.
 **Reference**
 </dt> <dt>
 
-[**XMMATRIX**](/windows/desktop/api/DirectXMath/)
+[**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx)
 </dt> </dl>
 
  

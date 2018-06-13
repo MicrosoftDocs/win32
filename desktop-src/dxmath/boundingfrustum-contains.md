@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # BoundingFrustum.Contains methods
 
-Tests whether the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) contains a specified object.
+Tests whether the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) contains a specified object.
 
 ### Overload list
 
@@ -19,12 +19,12 @@ Tests whether the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns
 
 | Method                                                                                       | Description                                                                                                                                        |
 |:---------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**BoundingFrustum::Contains (XMVECTOR)**](https://www.bing.com/search?q=**BoundingFrustum::Contains+(XMVECTOR)**)                   | Tests whether the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) contains the specified point.<br/>                                              |
-| [**BoundingFrustum::Contains (const BoundingBox&)**](https://www.bing.com/search?q=**BoundingFrustum::Contains+(const+BoundingBox&)**)         | Tests whether the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) contains the specified [**BoundingBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingbox).<br/>                 |
-| [**BoundingFrustum::Contains (const BoundingSphere&)**](https://www.bing.com/search?q=**BoundingFrustum::Contains+(const+BoundingSphere&)**)      | Tests whether the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) contains the specified [**BoundingSphere**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingsphere).<br/>           |
-| [**BoundingFrustum::Contains (const BoundingFrustum&)**](https://www.bing.com/search?q=**BoundingFrustum::Contains+(const+BoundingFrustum&)**)     | Tests whether the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) contains the specified **BoundingFrustum**.<br/>                                |
-| [**BoundingFrustum::Contains (XMVECTOR,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingFrustum::Contains+(XMVECTOR,XMVECTOR,XMVECTOR)**) | Tests whether the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) contains the specified triangle.<br/>                                           |
-| [**BoundingFrustum::Contains (const BoundingOrientedBox&)**](https://www.bing.com/search?q=**BoundingFrustum::Contains+(const+BoundingOrientedBox&)**) | Tests whether the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) contains the specified [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
+| [**BoundingFrustum::Contains (XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh855890(v=VS.85).aspx)                   | Tests whether the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) contains the specified point.<br/>                                              |
+| [**BoundingFrustum::Contains (const BoundingBox&)**](https://msdn.microsoft.com/en-us/library/Hh855879(v=VS.85).aspx)         | Tests whether the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) contains the specified [**BoundingBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingbox).<br/>                 |
+| [**BoundingFrustum::Contains (const BoundingSphere&)**](https://msdn.microsoft.com/en-us/library/Hh855887(v=VS.85).aspx)      | Tests whether the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) contains the specified [**BoundingSphere**](https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx).<br/>           |
+| [**BoundingFrustum::Contains (const BoundingFrustum&)**](https://msdn.microsoft.com/en-us/library/Hh855874(v=VS.85).aspx)     | Tests whether the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) contains the specified **BoundingFrustum**.<br/>                                |
+| [**BoundingFrustum::Contains (XMVECTOR,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh855877(v=VS.85).aspx) | Tests whether the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) contains the specified triangle.<br/>                                           |
+| [**BoundingFrustum::Contains (const BoundingOrientedBox&)**](https://msdn.microsoft.com/en-us/library/Hh855884(v=VS.85).aspx) | Tests whether the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) contains the specified [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).<br/> |
 
 
 
@@ -38,7 +38,7 @@ Tests whether the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum)
+[**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx)
 </dt> </dl>
 
  

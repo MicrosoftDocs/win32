@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMFLOAT3PK Operators
 
-The [**XMFLOAT3PK**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk) structure exposes the following operators.
+The [**XMFLOAT3PK**](https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -24,7 +24,7 @@ The [**XMFLOAT3PK**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedve
 
 | Methods                                                               | Description                                                                                                             |
 |-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [**operator uint32\_t**](/windows/desktop/api/DirectXPackedVector/nf-directxpackedvector-xmcolor-operator uint32_t)<br/> | Returns an instance of `uint32_t` containing the components of the `XMFLOAT3PK` instance in a packed format.<br/> |
+| [**operator uint32\_t**](https://msdn.microsoft.com/en-us/library/Hh437959(v=VS.85).aspx)<br/> | Returns an instance of `uint32_t` containing the components of the `XMFLOAT3PK` instance in a packed format.<br/> |
 | [**operator =**](xmfloat3pk-operator-eq.md)<br/>               | Assigns vector component data to the current instance of `XMFLOAT3PK`.<br/>                                       |
 
 
@@ -41,7 +41,7 @@ The [**XMFLOAT3PK**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedve
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3PK**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk)
+[**XMFLOAT3PK**](https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx)
 </dt> </dl>
 
  

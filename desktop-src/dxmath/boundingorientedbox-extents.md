@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # BoundingOrientedBox.Extents
 
-The extents of the [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).
+The extents of the [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).
 
 
 ```C++
@@ -47,7 +47,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox)
+[**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -38,7 +38,7 @@ Describes a 4D vector made up signed integer, 8-bits (1 byte) in length.
 **Reference**
 </dt> <dt>
 
-[**XMBYTE4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte4)
+[**XMBYTE4**](https://msdn.microsoft.com/en-us/library/Ee419276(v=VS.85).aspx)
 </dt> </dl>
 
  

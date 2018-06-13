@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMINT4 Extensions
 
-[**XMINT4**](/windows/desktop/api/DirectXMath/) describes a structure containing a 4D vector consisting of four integer values.
+[**XMINT4**](https://msdn.microsoft.com/en-us/library/Hh404664(v=VS.85).aspx) describes a structure containing a 4D vector consisting of four integer values.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 
 | Topic                                                   | Description                                  |
 |---------------------------------------------------------|----------------------------------------------|
-| [**XMINT4 Constructors**](https://www.bing.com/search?q=**XMINT4+Constructors**)<br/>   | Constructors exposed by `XMINT4`.<br/> |
+| [**XMINT4 Constructors**](https://msdn.microsoft.com/en-us/library/Hh449516(v=VS.85).aspx)<br/>   | Constructors exposed by `XMINT4`.<br/> |
 | [XMINT4 Operators](ovw-xmint4-operators.md)<br/> | Operators exposed by `XMINT4`.<br/>    |
 
 
@@ -38,7 +38,7 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMINT4**](/windows/desktop/api/DirectXMath/)
+[**XMINT4**](https://msdn.microsoft.com/en-us/library/Hh404664(v=VS.85).aspx)
 </dt> </dl>
 
  

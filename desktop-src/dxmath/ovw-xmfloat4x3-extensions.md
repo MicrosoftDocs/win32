@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMFLOAT4X3 Extensions
 
-[**XMFLOAT4X3**](/windows/desktop/api/DirectXMath/) describes a 4\*3 floating point matrix.
+[**XMFLOAT4X3**](https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx) describes a 4\*3 floating point matrix.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -38,7 +38,7 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X3**](/windows/desktop/api/DirectXMath/)
+[**XMFLOAT4X3**](https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMUDECN4 Operators
 
-The [**XMUDECN4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmudecn4) structure exposes the following operators.
+The [**XMUDECN4**](https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -24,7 +24,7 @@ The [**XMUDECN4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvect
 
 | Methods                                                             | Description                                                                                                            |
 |---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| [**operator uint32\_t**](/windows/desktop/api/DirectXPackedVector/nf-directxpackedvector-xmcolor-operator uint32_t)<br/> | Returns an instance of `uint32_t` containing the components of the `XMUDECN4` instance in a packed format. <br/> |
+| [**operator uint32\_t**](https://msdn.microsoft.com/en-us/library/Hh404744(v=VS.85).aspx)<br/> | Returns an instance of `uint32_t` containing the components of the `XMUDECN4` instance in a packed format. <br/> |
 | [**operator =**](xmudecn4-operator-eq.md)<br/>               | Assigns vector component data to the current instance of `XMUDECN4`. <br/>                                       |
 
 
@@ -41,7 +41,7 @@ The [**XMUDECN4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvect
 **Reference**
 </dt> <dt>
 
-[**XMUDECN4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmudecn4)
+[**XMUDECN4**](https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx)
 </dt> </dl>
 
  

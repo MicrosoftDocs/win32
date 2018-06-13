@@ -38,7 +38,7 @@ A 3D vector with X and Y components stored as 11 bit floating point number, and 
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3PK**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk)
+[**XMFLOAT3PK**](https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx)
 </dt> </dl>
 
  

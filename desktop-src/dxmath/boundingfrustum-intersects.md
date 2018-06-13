@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # BoundingFrustum.Intersects methods
 
-Tests the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) for intersection with another object.
+Tests the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) for intersection with another object.
 
 ### Overload list
 
@@ -19,13 +19,13 @@ Tests the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directx
 
 | Method                                                                                           | Description                                                                                                                                |
 |:-------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
-| [**BoundingFrustum::Intersects (XMVECTOR)**](https://www.bing.com/search?q=**BoundingFrustum::Intersects+(XMVECTOR)**)                   | Test the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) for intersection with a plane.<br/>                                              |
-| [**BoundingFrustum::Intersects (const BoundingBox&)**](https://www.bing.com/search?q=**BoundingFrustum::Intersects+(const+BoundingBox&)**)         | Test the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) for intersection with a [**BoundingBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingbox).<br/>                 |
-| [**BoundingFrustum::Intersects (const BoundingSphere&)**](https://www.bing.com/search?q=**BoundingFrustum::Intersects+(const+BoundingSphere&)**)      | Test the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) for intersection with a [**BoundingSphere**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingsphere).<br/>           |
-| [**BoundingFrustum::Intersects (const BoundingFrustum&)**](https://www.bing.com/search?q=**BoundingFrustum::Intersects+(const+BoundingFrustum&)**)     | Test the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) for intersection with another **BoundingFrustum**.<br/>                          |
-| [**BoundingFrustum::Intersects (XMVECTOR,XMVECTOR,float&)**](https://www.bing.com/search?q=**BoundingFrustum::Intersects+(XMVECTOR,XMVECTOR,float&)**)   | Test the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) for intersection with a ray.<br/>                                                |
-| [**BoundingFrustum::Intersects (XMVECTOR,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingFrustum::Intersects+(XMVECTOR,XMVECTOR,XMVECTOR)**) | Test the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) for intersection with a triangle.<br/>                                           |
-| [**BoundingFrustum::Intersects (const BoundingOrientedBox&)**](https://www.bing.com/search?q=**BoundingFrustum::Intersects+(const+BoundingOrientedBox&)**) | Test the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) for intersection with a [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
+| [**BoundingFrustum::Intersects (XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh855931(v=VS.85).aspx)                   | Test the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) for intersection with a plane.<br/>                                              |
+| [**BoundingFrustum::Intersects (const BoundingBox&)**](https://msdn.microsoft.com/en-us/library/Hh855920(v=VS.85).aspx)         | Test the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) for intersection with a [**BoundingBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingbox).<br/>                 |
+| [**BoundingFrustum::Intersects (const BoundingSphere&)**](https://msdn.microsoft.com/en-us/library/Hh855929(v=VS.85).aspx)      | Test the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) for intersection with a [**BoundingSphere**](https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx).<br/>           |
+| [**BoundingFrustum::Intersects (const BoundingFrustum&)**](https://msdn.microsoft.com/en-us/library/Hh855912(v=VS.85).aspx)     | Test the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) for intersection with another **BoundingFrustum**.<br/>                          |
+| [**BoundingFrustum::Intersects (XMVECTOR,XMVECTOR,float&)**](https://msdn.microsoft.com/en-us/library/Hh855915(v=VS.85).aspx)   | Test the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) for intersection with a ray.<br/>                                                |
+| [**BoundingFrustum::Intersects (XMVECTOR,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh855917(v=VS.85).aspx) | Test the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) for intersection with a triangle.<br/>                                           |
+| [**BoundingFrustum::Intersects (const BoundingOrientedBox&)**](https://msdn.microsoft.com/en-us/library/Hh855926(v=VS.85).aspx) | Test the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) for intersection with a [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).<br/> |
 
 
 
@@ -39,7 +39,7 @@ Tests the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directx
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum)
+[**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx)
 </dt> </dl>
 
  

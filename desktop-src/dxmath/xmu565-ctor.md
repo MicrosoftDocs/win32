@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Constructors exposed by `XMU565`.
 
-Constructs instances of the [**XMU565**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu565) structure.
+Constructs instances of the [**XMU565**](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -37,8 +37,8 @@ Constructs instances of the [**XMU565**](/windows/desktop/api/DirectXPackedVecto
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMU565 (uint16_t)</strong>](https://www.bing.com/search?q=<strong>XMU565+(uint16_t)</strong>)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a <code>uint16_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu565) from a <code>uint16_t</code> variable containing component data in a packed format. <br/>
+<td style="text-align: left;">[<strong>XMU565 (uint16_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh404714(v=VS.85).aspx)</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a <code>uint16_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx) from a <code>uint16_t</code> variable containing component data in a packed format. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -46,8 +46,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMU565 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMU565+(const+float*)</strong>)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a three element <code>float</code> array. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu565) from a three element <code>float</code> array. <br/>
+<td style="text-align: left;">[<strong>XMU565 (const float*)</strong>](https://msdn.microsoft.com/en-us/library/Ee420418(v=VS.85).aspx)</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a three element <code>float</code> array. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx) from a three element <code>float</code> array. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -55,8 +55,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMU565 (const int8_t*)</strong>](https://www.bing.com/search?q=<strong>XMU565+(const+int8_t*)</strong>)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a three element <code>int8_t</code> array. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu565) from a three element <code>int8_t</code> array. <br/>
+<td style="text-align: left;">[<strong>XMU565 (const int8_t*)</strong>](https://msdn.microsoft.com/en-us/library/Hh404716(v=VS.85).aspx)</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a three element <code>int8_t</code> array. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx) from a three element <code>int8_t</code> array. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -64,8 +64,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMU565 (float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMU565+(float,float,float)</strong>)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from three <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu565) from three <code>float</code> arguments. <br/>
+<td style="text-align: left;">[<strong>XMU565 (float,float,float)</strong>](https://msdn.microsoft.com/en-us/library/Ee420417(v=VS.85).aspx)</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from three <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx) from three <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -73,8 +73,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMU565 (int8_t,int8_t,int8_t)</strong>](https://www.bing.com/search?q=<strong>XMU565+(int8_t,int8_t,int8_t)</strong>)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from three <code>int8_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu565) from three <code>int8_t</code> arguments. <br/>
+<td style="text-align: left;">[<strong>XMU565 (int8_t,int8_t,int8_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh404715(v=VS.85).aspx)</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from three <code>int8_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx) from three <code>int8_t</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -82,8 +82,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMU565 ()</strong>](https://www.bing.com/search?q=<strong>XMU565+()</strong>)</td>
-<td style="text-align: left;">Default constructor for <code>XMU565</code><br/> Default constructor for [<strong>XMU565</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu565)<br/>
+<td style="text-align: left;">[<strong>XMU565 ()</strong>](https://msdn.microsoft.com/en-us/library/Ee420414(v=VS.85).aspx)</td>
+<td style="text-align: left;">Default constructor for <code>XMU565</code><br/> Default constructor for [<strong>XMU565</strong>](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx)<br/>
 <blockquote>
 [!Note]<br />
 This is only available for C++ based development.
@@ -105,7 +105,7 @@ This is only available for C++ based development.
 **Reference**
 </dt> <dt>
 
-[**XMU565**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu565)
+[**XMU565**](https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx)
 </dt> </dl>
 
  

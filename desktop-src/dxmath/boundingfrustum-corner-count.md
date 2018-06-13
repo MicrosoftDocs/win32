@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # BoundingFrustum.CORNER\_COUNT
 
-The number of corners defining the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).
+The number of corners defining the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx).
 
 
 ```C++
@@ -47,7 +47,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum)
+[**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx)
 </dt> </dl>
 
  

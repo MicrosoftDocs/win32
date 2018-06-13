@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMXDEC4 Extensions
 
-[**XMXDEC4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmxdec4)describes a 4D vector with x-,y-, and z- components represented as 10 bit signed integer values, and the w-component as a 2 bit unsigned integer value.
+[**XMXDEC4**](https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).aspx)describes a 4D vector with x-,y-, and z- components represented as 10 bit signed integer values, and the w-component as a 2 bit unsigned integer value.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -38,7 +38,7 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMXDEC4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmxdec4)
+[**XMXDEC4**](https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).aspx)
 </dt> </dl>
 
  

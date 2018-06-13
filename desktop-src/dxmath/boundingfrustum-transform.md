@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # BoundingFrustum.Transform methods
 
-Transforms the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).
+Transforms the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx).
 
 ### Overload list
 
@@ -19,8 +19,8 @@ Transforms the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-di
 
 | Method                                                                                                       | Description                                                                                                                       |
 |:-------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------|
-| [**BoundingFrustum::Transform (BoundingFrustum&,XMMATRIX)**](https://www.bing.com/search?q=**BoundingFrustum::Transform+(BoundingFrustum&,XMMATRIX)**)                | Transforms the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) by the specified transformation matrix.<br/>                      |
-| [**BoundingFrustum::Transform (BoundingFrustum&,float,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingFrustum::Transform+(BoundingFrustum&,float,XMVECTOR,XMVECTOR)**) | Transforms the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) using the specified scale, rotation and translation vectors.<br/> |
+| [**BoundingFrustum::Transform (BoundingFrustum&,XMMATRIX)**](https://msdn.microsoft.com/en-us/library/Hh855950(v=VS.85).aspx)                | Transforms the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) by the specified transformation matrix.<br/>                      |
+| [**BoundingFrustum::Transform (BoundingFrustum&,float,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh855955(v=VS.85).aspx) | Transforms the [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) using the specified scale, rotation and translation vectors.<br/> |
 
 
 
@@ -34,7 +34,7 @@ Transforms the [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-di
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum)
+[**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx)
 </dt> </dl>
 
  

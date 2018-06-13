@@ -19,13 +19,13 @@ Tests the BoundingSphere for intersection with an object.
 
 | Method                                                                                         | Description                                                                                                                              |
 |:-----------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**BoundingSphere::Intersects (XMVECTOR)**](https://www.bing.com/search?q=**BoundingSphere::Intersects+(XMVECTOR)**)                   | Tests the BoundingSphere for intersection with a Plane.<br/>                                                                       |
-| [**BoundingSphere::Intersects (const BoundingBox&)**](https://www.bing.com/search?q=**BoundingSphere::Intersects+(const+BoundingBox&)**)         | Tests the BoundingSphere for intersection with a BoundingBox.<br/>                                                                 |
-| [**BoundingSphere::Intersects (const BoundingSphere&)**](https://www.bing.com/search?q=**BoundingSphere::Intersects+(const+BoundingSphere&)**)      | Tests the BoundingSphere for intersection with a BoundingSphere.<br/>                                                              |
-| [**BoundingSphere::Intersects (const BoundingFrustum&)**](https://www.bing.com/search?q=**BoundingSphere::Intersects+(const+BoundingFrustum&)**)     | Test the [**BoundingSphere**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingsphere) for intersection with a [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).<br/>         |
-| [**BoundingSphere::Intersects (XMVECTOR,XMVECTOR,float&)**](https://www.bing.com/search?q=**BoundingSphere::Intersects+(XMVECTOR,XMVECTOR,float&)**)   | Tests the BoundingSphere for intersection with a ray.<br/>                                                                         |
-| [**BoundingSphere::Intersects (XMVECTOR,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingSphere::Intersects+(XMVECTOR,XMVECTOR,XMVECTOR)**) | Tests the BoundingSphere for intersection with a triangle.<br/>                                                                    |
-| [**BoundingSphere::Intersects (const BoundingOrientedBox&)**](https://www.bing.com/search?q=**BoundingSphere::Intersects+(const+BoundingOrientedBox&)**) | Test the [**BoundingSphere**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingsphere) for intersection with a [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
+| [**BoundingSphere::Intersects (XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh437828(v=VS.85).aspx)                   | Tests the BoundingSphere for intersection with a Plane.<br/>                                                                       |
+| [**BoundingSphere::Intersects (const BoundingBox&)**](https://msdn.microsoft.com/en-us/library/Hh437822(v=VS.85).aspx)         | Tests the BoundingSphere for intersection with a BoundingBox.<br/>                                                                 |
+| [**BoundingSphere::Intersects (const BoundingSphere&)**](https://msdn.microsoft.com/en-us/library/Hh437826(v=VS.85).aspx)      | Tests the BoundingSphere for intersection with a BoundingSphere.<br/>                                                              |
+| [**BoundingSphere::Intersects (const BoundingFrustum&)**](https://msdn.microsoft.com/en-us/library/Hh855914(v=VS.85).aspx)     | Test the [**BoundingSphere**](https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx) for intersection with a [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx).<br/>         |
+| [**BoundingSphere::Intersects (XMVECTOR,XMVECTOR,float&)**](https://msdn.microsoft.com/en-us/library/Hh437818(v=VS.85).aspx)   | Tests the BoundingSphere for intersection with a ray.<br/>                                                                         |
+| [**BoundingSphere::Intersects (XMVECTOR,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh437820(v=VS.85).aspx) | Tests the BoundingSphere for intersection with a triangle.<br/>                                                                    |
+| [**BoundingSphere::Intersects (const BoundingOrientedBox&)**](https://msdn.microsoft.com/en-us/library/Hh855928(v=VS.85).aspx) | Test the [**BoundingSphere**](https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx) for intersection with a [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).<br/> |
 
 
 
@@ -39,7 +39,7 @@ Tests the BoundingSphere for intersection with an object.
 **Reference**
 </dt> <dt>
 
-[**BoundingSphere**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingsphere)
+[**BoundingSphere**](https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -26,7 +26,7 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[BoundingSphere](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingsphere)
+[BoundingSphere](https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx)
 </dt> </dl>
 
  

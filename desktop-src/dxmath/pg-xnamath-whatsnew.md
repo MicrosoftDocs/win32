@@ -38,8 +38,8 @@ Here is how the DirectXMath library primarily differs from the XNA Math library:
 -   New color functionality (color space conversions, .NET color constants).
 -   Bounding volume types (a version of which was previously in the XNACollision header in the DirectX SDK Collision sample).
 -   No Xbox 360 version is available. The Xbox 360 XDK continues to ship XNAMath v2.x; removal of Xbox 360 specific data types and function variants.
--   Reworked [**XMVectorPermute**](https://www.bing.com/search?q=**XMVectorPermute**) for improved optimization for SSE and ARM-NEON intrinsics.
--   The [**XMMATRIX**](/windows/desktop/api/DirectXMath/) type is fully opaque. To access individual elements of **XMMATRIX**, use other types such as [**XMFLOAT4X4**](/windows/desktop/api/DirectXMath/).
+-   Reworked [**XMVectorPermute**](https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx) for improved optimization for SSE and ARM-NEON intrinsics.
+-   The [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) type is fully opaque. To access individual elements of **XMMATRIX**, use other types such as [**XMFLOAT4X4**](https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx).
 
 ## DirectXMath 3.06 differences from DirectXMath 3.03
 
@@ -49,19 +49,19 @@ The Windows SDK for Windows 8.1 ships with DirectXMath version 3.06.
 
 Here is how DirectXMath version 3.06 differs from DirectXMath version 3.03:
 
--   3.06 fixes load/store of [**XMFLOAT3SE**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3se) to properly match the DXGI\_FORMAT\_R9G9B9E5\_SHAREDEXP definition.
+-   3.06 fixes load/store of [**XMFLOAT3SE**](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx) to properly match the DXGI\_FORMAT\_R9G9B9E5\_SHAREDEXP definition.
 -   3.06 adds [**XMLoadUDecN4\_XR**](/windows/desktop/api/directxpackedvector.inl/nf-directxpackedvector-xmloadudecn4_xr) and [**XMStoreUDecN4\_XR**](/windows/desktop/api/directxpackedvector.inl/nf-directxpackedvector-xmstoreudecn4_xr) to match the DXGI\_FORMAT\_R10G10B10\_XR\_BIAS\_A2\_UNORM definition.
--   3.06 adds [**XMColorRGBToSRGB**](/windows/desktop/api/DirectXMath/) and [**XMColorSRGBToRGB**](/windows/desktop/api/DirectXMath/) to convert between linear RGB and sRGB.
--   3.06 adds [**XMVectorExp2**](/windows/desktop/api/directxmathvector.inl/), [**XMVectorLog2**](/windows/desktop/api/directxmathvector.inl/), [**XMVectorExpE**](/windows/desktop/api/directxmathvector.inl/), and [**XMVectorLogE**](/windows/desktop/api/directxmathvector.inl/) functions to provide base-e support in addition to the existing base-2 support.
-    -   [**XMVectorExp**](https://www.bing.com/search?q=**XMVectorExp**) and [**XMVectorLog**](https://www.bing.com/search?q=**XMVectorLog**) are now aliases for [**XMVectorExp2**](/windows/desktop/api/directxmathvector.inl/) and [**XMVectorLog2**](/windows/desktop/api/directxmathvector.inl/) respectively.
+-   3.06 adds [**XMColorRGBToSRGB**](https://msdn.microsoft.com/en-us/library/Dn322043(v=VS.85).aspx) and [**XMColorSRGBToRGB**](https://msdn.microsoft.com/en-us/library/Dn322044(v=VS.85).aspx) to convert between linear RGB and sRGB.
+-   3.06 adds [**XMVectorExp2**](https://msdn.microsoft.com/en-us/library/Dn280641(v=VS.85).aspx), [**XMVectorLog2**](https://msdn.microsoft.com/en-us/library/Dn280647(v=VS.85).aspx), [**XMVectorExpE**](https://msdn.microsoft.com/en-us/library/Dn280642(v=VS.85).aspx), and [**XMVectorLogE**](https://msdn.microsoft.com/en-us/library/Dn280648(v=VS.85).aspx) functions to provide base-e support in addition to the existing base-2 support.
+    -   [**XMVectorExp**](https://msdn.microsoft.com/en-us/library/Ee421017(v=VS.85).aspx) and [**XMVectorLog**](https://msdn.microsoft.com/en-us/library/Ee421175(v=VS.85).aspx) are now aliases for [**XMVectorExp2**](https://msdn.microsoft.com/en-us/library/Dn280641(v=VS.85).aspx) and [**XMVectorLog2**](https://msdn.microsoft.com/en-us/library/Dn280647(v=VS.85).aspx) respectively.
 -   3.06 uses the x86/x64 \_\_vectorcall calling-convention when available. 3.05 introduces XM\_CALLCONV, HXMVECTOR, and FXMMATRIX.
--   3.06 updates the matrix version of the **Transform** method for [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox) and [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum) to handle scaling.
+-   3.06 updates the matrix version of the **Transform** method for [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx) and [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx) to handle scaling.
 -   3.06 provides additional optimizations for **Stream** functions.
--   3.06 improves the [**XMVectorRound**](https://www.bing.com/search?q=**XMVectorRound**) algorithm.
--   The 3.06 implementations of the [**XMConvertHalfToFloat**](https://www.bing.com/search?q=**XMConvertHalfToFloat**) and [**XMConvertFloatToHalf**](https://www.bing.com/search?q=**XMConvertFloatToHalf**) functions now use IEEE 754 standard float16 behavior for INF/QNAN.
--   3.06 fixes an issue with the [**XMVectorFloor**](https://www.bing.com/search?q=**XMVectorFloor**) and [**XMVectorCeiling**](https://www.bing.com/search?q=**XMVectorCeiling**) functions when they are given whole odd numbers (for example, 105.0).
+-   3.06 improves the [**XMVectorRound**](https://msdn.microsoft.com/en-us/library/Ee421208(v=VS.85).aspx) algorithm.
+-   The 3.06 implementations of the [**XMConvertHalfToFloat**](https://msdn.microsoft.com/en-us/library/Ee419423(v=VS.85).aspx) and [**XMConvertFloatToHalf**](https://msdn.microsoft.com/en-us/library/Ee419421(v=VS.85).aspx) functions now use IEEE 754 standard float16 behavior for INF/QNAN.
+-   3.06 fixes an issue with the [**XMVectorFloor**](https://msdn.microsoft.com/en-us/library/Ee421024(v=VS.85).aspx) and [**XMVectorCeiling**](https://msdn.microsoft.com/en-us/library/Ee421007(v=VS.85).aspx) functions when they are given whole odd numbers (for example, 105.0).
 -   3.06 fixes potential warning C4723 when using operator/ or operator/=.
--   The 3.06 implementation of the [**XMVector3Cross**](https://www.bing.com/search?q=**XMVector3Cross**) function now ensures that the w component is zero on the Windows RT platform.
+-   The 3.06 implementation of the [**XMVector3Cross**](https://msdn.microsoft.com/en-us/library/Ee420806(v=VS.85).aspx) function now ensures that the w component is zero on the Windows RT platform.
 -   With 3.06, ARM-NEON code paths use multiply-by-scalar intrinsics when ARM-NEON intrinsics are supported.
 
 ## Related topics

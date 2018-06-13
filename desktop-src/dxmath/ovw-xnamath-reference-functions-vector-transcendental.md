@@ -19,31 +19,31 @@ Lists the transcendental vector functions.
 
 | Topic                                                     | Description                                                                                                |
 |-----------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| [**XMVectorACos**](https://www.bing.com/search?q=**XMVectorACos**)<br/>           | Computes the arccosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>          |
-| [**XMVectorACosEst**](https://www.bing.com/search?q=**XMVectorACosEst**)<br/>     | Estimates the arccosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>         |
-| [**XMVectorASin**](https://www.bing.com/search?q=**XMVectorASin**)<br/>           | Computes the arcsine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>            |
-| [**XMVectorASinEst**](https://www.bing.com/search?q=**XMVectorASinEst**)<br/>     | Estimates the arcsine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>           |
-| [**XMVectorATan**](https://www.bing.com/search?q=**XMVectorATan**)<br/>           | Computes the arctangent of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>         |
-| [**XMVectorATan2**](https://www.bing.com/search?q=**XMVectorATan2**)<br/>         | Computes the arctangent of *Y*/*X*.<br/>                                                             |
-| [**XMVectorATan2Est**](https://www.bing.com/search?q=**XMVectorATan2Est**)<br/>   | Estimates the arctangent of *Y*/*X*.<br/>                                                            |
-| [**XMVectorATanEst**](https://www.bing.com/search?q=**XMVectorATanEst**)<br/>     | Estimates the arctangent of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>        |
-| [**XMVectorCos**](https://www.bing.com/search?q=**XMVectorCos**)<br/>             | Computes the cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>             |
-| [**XMVectorCosEst**](https://www.bing.com/search?q=**XMVectorCosEst**)<br/>       | Estimates the cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>            |
-| [**XMVectorCosH**](https://www.bing.com/search?q=**XMVectorCosH**)<br/>           | Computes the hyperbolic cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>  |
-| [**XMVectorExp**](https://www.bing.com/search?q=**XMVectorExp**)<br/>             | Computes two raised to the power for each component.<br/>                                            |
-| [**XMVectorExp2**](/windows/desktop/api/directxmathvector.inl/)<br/>           | Computes two raised to the power for each component.<br/>                                            |
-| [**XMVectorExpE**](/windows/desktop/api/directxmathvector.inl/)<br/>           | Computes e (~2.71828) raised to the power for each component.<br/>                                   |
-| [**XMVectorLog**](https://www.bing.com/search?q=**XMVectorLog**)<br/>             | Computes the base two logarithm of each component of a vector.<br/>                                  |
-| [**XMVectorLog2**](/windows/desktop/api/directxmathvector.inl/)<br/>           | Computes the base two logarithm of each component of a vector.<br/>                                  |
-| [**XMVectorLogE**](/windows/desktop/api/directxmathvector.inl/)<br/>           | Computes the base e logarithm of each component of a vector.<br/>                                    |
-| [**XMVectorSin**](https://www.bing.com/search?q=**XMVectorSin**)<br/>             | Computes the sine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>               |
-| [**XMVectorSinCos**](https://www.bing.com/search?q=**XMVectorSinCos**)<br/>       | Computes the sine and cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>    |
-| [**XMVectorSinCosEst**](https://www.bing.com/search?q=**XMVectorSinCosEst**)<br/> | Estimates the sine and cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>   |
-| [**XMVectorSinEst**](https://www.bing.com/search?q=**XMVectorSinEst**)<br/>       | Estimates the sine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>              |
-| [**XMVectorSinH**](https://www.bing.com/search?q=**XMVectorSinH**)<br/>           | Computes the hyperbolic sine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>    |
-| [**XMVectorTan**](https://www.bing.com/search?q=**XMVectorTan**)<br/>             | Computes the tangent of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>            |
-| [**XMVectorTanEst**](https://www.bing.com/search?q=**XMVectorTanEst**)<br/>       | Estimates the tangent of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>           |
-| [**XMVectorTanH**](https://www.bing.com/search?q=**XMVectorTanH**)<br/>           | Computes the hyperbolic tangent of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/> |
+| [**XMVectorACos**](https://msdn.microsoft.com/en-us/library/Ee420989(v=VS.85).aspx)<br/>           | Computes the arccosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>          |
+| [**XMVectorACosEst**](https://msdn.microsoft.com/en-us/library/Ee420990(v=VS.85).aspx)<br/>     | Estimates the arccosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>         |
+| [**XMVectorASin**](https://msdn.microsoft.com/en-us/library/Ee420995(v=VS.85).aspx)<br/>           | Computes the arcsine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>            |
+| [**XMVectorASinEst**](https://msdn.microsoft.com/en-us/library/Ee420996(v=VS.85).aspx)<br/>     | Estimates the arcsine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>           |
+| [**XMVectorATan**](https://msdn.microsoft.com/en-us/library/Ee420997(v=VS.85).aspx)<br/>           | Computes the arctangent of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>         |
+| [**XMVectorATan2**](https://msdn.microsoft.com/en-us/library/Ee420998(v=VS.85).aspx)<br/>         | Computes the arctangent of *Y*/*X*.<br/>                                                             |
+| [**XMVectorATan2Est**](https://msdn.microsoft.com/en-us/library/Ee421001(v=VS.85).aspx)<br/>   | Estimates the arctangent of *Y*/*X*.<br/>                                                            |
+| [**XMVectorATanEst**](https://msdn.microsoft.com/en-us/library/Ee421002(v=VS.85).aspx)<br/>     | Estimates the arctangent of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>        |
+| [**XMVectorCos**](https://msdn.microsoft.com/en-us/library/Ee421009(v=VS.85).aspx)<br/>             | Computes the cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>             |
+| [**XMVectorCosEst**](https://msdn.microsoft.com/en-us/library/Ee421010(v=VS.85).aspx)<br/>       | Estimates the cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>            |
+| [**XMVectorCosH**](https://msdn.microsoft.com/en-us/library/Ee421011(v=VS.85).aspx)<br/>           | Computes the hyperbolic cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>  |
+| [**XMVectorExp**](https://msdn.microsoft.com/en-us/library/Ee421017(v=VS.85).aspx)<br/>             | Computes two raised to the power for each component.<br/>                                            |
+| [**XMVectorExp2**](https://msdn.microsoft.com/en-us/library/Dn280641(v=VS.85).aspx)<br/>           | Computes two raised to the power for each component.<br/>                                            |
+| [**XMVectorExpE**](https://msdn.microsoft.com/en-us/library/Dn280642(v=VS.85).aspx)<br/>           | Computes e (~2.71828) raised to the power for each component.<br/>                                   |
+| [**XMVectorLog**](https://msdn.microsoft.com/en-us/library/Ee421175(v=VS.85).aspx)<br/>             | Computes the base two logarithm of each component of a vector.<br/>                                  |
+| [**XMVectorLog2**](https://msdn.microsoft.com/en-us/library/Dn280647(v=VS.85).aspx)<br/>           | Computes the base two logarithm of each component of a vector.<br/>                                  |
+| [**XMVectorLogE**](https://msdn.microsoft.com/en-us/library/Dn280648(v=VS.85).aspx)<br/>           | Computes the base e logarithm of each component of a vector.<br/>                                    |
+| [**XMVectorSin**](https://msdn.microsoft.com/en-us/library/Ee421238(v=VS.85).aspx)<br/>             | Computes the sine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>               |
+| [**XMVectorSinCos**](https://msdn.microsoft.com/en-us/library/Ee421239(v=VS.85).aspx)<br/>       | Computes the sine and cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>    |
+| [**XMVectorSinCosEst**](https://msdn.microsoft.com/en-us/library/Ee421240(v=VS.85).aspx)<br/> | Estimates the sine and cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>   |
+| [**XMVectorSinEst**](https://msdn.microsoft.com/en-us/library/Ee421241(v=VS.85).aspx)<br/>       | Estimates the sine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>              |
+| [**XMVectorSinH**](https://msdn.microsoft.com/en-us/library/Ee421242(v=VS.85).aspx)<br/>           | Computes the hyperbolic sine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>    |
+| [**XMVectorTan**](https://msdn.microsoft.com/en-us/library/Ee421361(v=VS.85).aspx)<br/>             | Computes the tangent of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>            |
+| [**XMVectorTanEst**](https://msdn.microsoft.com/en-us/library/Ee421362(v=VS.85).aspx)<br/>       | Estimates the tangent of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>           |
+| [**XMVectorTanH**](https://msdn.microsoft.com/en-us/library/Ee421363(v=VS.85).aspx)<br/>           | Computes the hyperbolic tangent of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/> |
 
 
 
@@ -51,9 +51,9 @@ Lists the transcendental vector functions.
 
 ## Remarks
 
-[**XMVectorExp**](https://www.bing.com/search?q=**XMVectorExp**) is a compatibility alias for [**XMVectorExp2**](/windows/desktop/api/directxmathvector.inl/) for existing Windows 8 code. **XMVectorExp** is deprecated for Windows 8.1. Don't use it and instead use **XMVectorExp2** or [**XMVectorExpE**](/windows/desktop/api/directxmathvector.inl/).
+[**XMVectorExp**](https://msdn.microsoft.com/en-us/library/Ee421017(v=VS.85).aspx) is a compatibility alias for [**XMVectorExp2**](https://msdn.microsoft.com/en-us/library/Dn280641(v=VS.85).aspx) for existing Windows 8 code. **XMVectorExp** is deprecated for Windows 8.1. Don't use it and instead use **XMVectorExp2** or [**XMVectorExpE**](https://msdn.microsoft.com/en-us/library/Dn280642(v=VS.85).aspx).
 
-[**XMVectorLog**](https://www.bing.com/search?q=**XMVectorLog**) is a compatibility alias for [**XMVectorLog2**](/windows/desktop/api/directxmathvector.inl/) for existing Windows 8 code. **XMVectorLog** is deprecated for Windows 8.1. Don't use it and instead use **XMVectorLog2** or [**XMVectorLogE**](/windows/desktop/api/directxmathvector.inl/).
+[**XMVectorLog**](https://msdn.microsoft.com/en-us/library/Ee421175(v=VS.85).aspx) is a compatibility alias for [**XMVectorLog2**](https://msdn.microsoft.com/en-us/library/Dn280647(v=VS.85).aspx) for existing Windows 8 code. **XMVectorLog** is deprecated for Windows 8.1. Don't use it and instead use **XMVectorLog2** or [**XMVectorLogE**](https://msdn.microsoft.com/en-us/library/Dn280648(v=VS.85).aspx).
 
 ## Related topics
 

@@ -19,9 +19,9 @@ Creates an instance of the BoundingSphere class.
 
 | Constructor                                                                     | Description                                                 |
 |:--------------------------------------------------------------------------------|:------------------------------------------------------------|
-| [**DirectX.BoundingSphere ()**](https://www.bing.com/search?q=**DirectX.BoundingSphere+()**)                      | Creates an instance of the BoundingSphere class.<br/> |
-| [**DirectX.BoundingSphere (const XMFLOAT3&,float)**](https://www.bing.com/search?q=**DirectX.BoundingSphere+(const+XMFLOAT3&,float)**) | Creates an instance of the BoundingSphere class.<br/> |
-| [**DirectX.BoundingSphere (const BoundingSphere&)**](https://www.bing.com/search?q=**DirectX.BoundingSphere+(const+BoundingSphere&)**) | Creates an instance of the BoundingSphere class.<br/> |
+| [**DirectX.BoundingSphere ()**](https://msdn.microsoft.com/en-us/library/Hh437812(v=VS.85).aspx)                      | Creates an instance of the BoundingSphere class.<br/> |
+| [**DirectX.BoundingSphere (const XMFLOAT3&,float)**](https://msdn.microsoft.com/en-us/library/Hh437807(v=VS.85).aspx) | Creates an instance of the BoundingSphere class.<br/> |
+| [**DirectX.BoundingSphere (const BoundingSphere&)**](https://msdn.microsoft.com/en-us/library/Hh437814(v=VS.85).aspx) | Creates an instance of the BoundingSphere class.<br/> |
 
 
 
@@ -32,7 +32,7 @@ Creates an instance of the BoundingSphere class.
 **Reference**
 </dt> <dt>
 
-[**BoundingSphere**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingsphere)
+[**BoundingSphere**](https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx)
 </dt> </dl>
 
  

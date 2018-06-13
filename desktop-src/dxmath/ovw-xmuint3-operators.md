@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMUINT3 Operators
 
-The [**XMUINT3**](/windows/desktop/api/DirectXMath/) structure exposes the following operators.
+The [**XMUINT3**](https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -24,7 +24,7 @@ The [**XMUINT3**](/windows/desktop/api/DirectXMath/) structure exposes the follo
 
 | Methods                                              | Description                                                                                                        |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://www.bing.com/search?q=**operator+=**)<br/> | Assigns the vector component data from one instance of `XMUINT3` to the current instance of `XMUINT3`. <br/> |
+| [**operator =**](https://msdn.microsoft.com/en-us/library/Hh404754(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMUINT3` to the current instance of `XMUINT3`. <br/> |
 
 
 
@@ -40,7 +40,7 @@ The [**XMUINT3**](/windows/desktop/api/DirectXMath/) structure exposes the follo
 **Reference**
 </dt> <dt>
 
-[**XMUINT3**](/windows/desktop/api/DirectXMath/)
+[**XMUINT3**](https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx)
 </dt> </dl>
 
  

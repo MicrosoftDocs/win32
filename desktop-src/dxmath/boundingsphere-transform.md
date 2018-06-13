@@ -19,8 +19,8 @@ Transforms the BoundingSphere.
 
 | Method                                                                                                    | Description                                                                                           |
 |:----------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------|
-| [**BoundingSphere::Transform (BoundingSphere&,XMMATRIX)**](https://www.bing.com/search?q=**BoundingSphere::Transform+(BoundingSphere&,XMMATRIX)**)                | Transforms the BoundingSphere.<br/>                                                             |
-| [**BoundingSphere::Transform (BoundingSphere&,float,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingSphere::Transform+(BoundingSphere&,float,XMVECTOR,XMVECTOR)**) | Transforms the BoundingSphere using the specified scale, rotation and translation vectors.<br/> |
+| [**BoundingSphere::Transform (BoundingSphere&,XMMATRIX)**](https://msdn.microsoft.com/en-us/library/Hh437836(v=VS.85).aspx)                | Transforms the BoundingSphere.<br/>                                                             |
+| [**BoundingSphere::Transform (BoundingSphere&,float,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh437839(v=VS.85).aspx) | Transforms the BoundingSphere using the specified scale, rotation and translation vectors.<br/> |
 
 
 
@@ -34,7 +34,7 @@ Transforms the BoundingSphere.
 **Reference**
 </dt> <dt>
 
-[**BoundingSphere**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingsphere)
+[**BoundingSphere**](https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # BoundingFrustum constructors
 
-Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).
+Creates an instance of [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx).
 
 ### Overload list
 
@@ -19,10 +19,10 @@ Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollisi
 
 | Constructor                                                                                                             | Description                                                                   |
 |:------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**BoundingFrustum ()**](https://www.bing.com/search?q=**BoundingFrustum+()**)                                                                    | Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).<br/> |
-| [**BoundingFrustum (XMMATRIX)**](https://www.bing.com/search?q=**BoundingFrustum+(XMMATRIX)**)                                                            | Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).<br/> |
-| [**BoundingFrustum (const BoundingFrustum&)**](https://www.bing.com/search?q=**BoundingFrustum+(const+BoundingFrustum&)**)                                              | Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).<br/> |
-| [**BoundingFrustum (const XMFLOAT3&,const XMFLOAT4&,float,float,float,float,float,float)**](https://www.bing.com/search?q=**BoundingFrustum+(const+XMFLOAT3&,const+XMFLOAT4&,float,float,float,float,float,float)**) | Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum).<br/> |
+| [**BoundingFrustum ()**](https://msdn.microsoft.com/en-us/library/Hh855900(v=VS.85).aspx)                                                                    | Creates an instance of [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx).<br/> |
+| [**BoundingFrustum (XMMATRIX)**](https://msdn.microsoft.com/en-us/library/Hh855905(v=VS.85).aspx)                                                            | Creates an instance of [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx).<br/> |
+| [**BoundingFrustum (const BoundingFrustum&)**](https://msdn.microsoft.com/en-us/library/Hh855897(v=VS.85).aspx)                                              | Creates an instance of [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx).<br/> |
+| [**BoundingFrustum (const XMFLOAT3&,const XMFLOAT4&,float,float,float,float,float,float)**](https://msdn.microsoft.com/en-us/library/Hh855899(v=VS.85).aspx) | Creates an instance of [**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx).<br/> |
 
 
 
@@ -33,7 +33,7 @@ Creates an instance of [**BoundingFrustum**](/windows/desktop/api/DirectXCollisi
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingfrustum)
+[**BoundingFrustum**](https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx)
 </dt> </dl>
 
  

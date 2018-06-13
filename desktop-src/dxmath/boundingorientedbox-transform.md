@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # BoundingOrientedBox.Transform methods
 
-Transforms the [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).
+Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).
 
 ### Overload list
 
@@ -19,8 +19,8 @@ Transforms the [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/n
 
 | Method                                                                                                                   | Description                                                                   |
 |:-------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,XMMATRIX)**](https://www.bing.com/search?q=**BoundingOrientedBox::Transform+(BoundingOrientedBox&,XMMATRIX)**)                | Transforms the [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
-| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,float,XMVECTOR,XMVECTOR)**](https://www.bing.com/search?q=**BoundingOrientedBox::Transform+(BoundingOrientedBox&,float,XMVECTOR,XMVECTOR)**) | Transforms the [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox).<br/> |
+| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,XMMATRIX)**](https://msdn.microsoft.com/en-us/library/Hh855951(v=VS.85).aspx)                | Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).<br/> |
+| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,float,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/en-us/library/Hh855952(v=VS.85).aspx) | Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx).<br/> |
 
 
 
@@ -34,7 +34,7 @@ Transforms the [**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/n
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingorientedbox)
+[**BoundingOrientedBox**](https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx)
 </dt> </dl>
 
  

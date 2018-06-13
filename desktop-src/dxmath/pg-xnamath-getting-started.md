@@ -42,7 +42,7 @@ The DirectXMath library is included in the Windows SDK. Alternatively you can do
 
 ## Run-Time System Requirements
 
-The DirectXMath Library uses specialized processor instructions for vector operations when they are available. To avoid having a program generate "unknown instruction exception" faults, check for processor support by calling [**XMVerifyCPUSupport**](/windows/desktop/api/DirectXMath/) before using the DirectXMath Library.
+The DirectXMath Library uses specialized processor instructions for vector operations when they are available. To avoid having a program generate "unknown instruction exception" faults, check for processor support by calling [**XMVerifyCPUSupport**](https://msdn.microsoft.com/en-us/library/Ee421398(v=VS.85).aspx) before using the DirectXMath Library.
 
 These are the basic DirectXMath Library run-time support requirements:
 
@@ -51,7 +51,7 @@ These are the basic DirectXMath Library run-time support requirements:
 -   Compilation with [**\_XM\_NO\_INTRINSICS\_**](ovw-xnamath-reference-directives.md) defined requires only standard floating-point operation support.
 
 > [!Note]  
-> When you call [**XMVerifyCPUSupport**](/windows/desktop/api/DirectXMath/), include &lt;windows.h&gt; before you include &lt;DirectXMath.h&gt;. This is the only function in the library that requires any content from &lt;windows.h&gt; so you aren't required to include &lt;windows.h&gt; in every module that uses &lt;DirectXMath.h&gt;.
+> When you call [**XMVerifyCPUSupport**](https://msdn.microsoft.com/en-us/library/Ee421398(v=VS.85).aspx), include &lt;windows.h&gt; before you include &lt;DirectXMath.h&gt;. This is the only function in the library that requires any content from &lt;windows.h&gt; so you aren't required to include &lt;windows.h&gt; in every module that uses &lt;DirectXMath.h&gt;.
 
  
 
@@ -79,18 +79,18 @@ To use DirectXMath Library functions, include the DirectXMath.h, DirectXPackedVe
 
 ## Type Usage Guidelines
 
-The [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](/windows/desktop/api/DirectXMath/) types are the work horses for the DirectXMath Library. Every operation consumes or produces data of these types. Working with them is key to using the library. However, since DirectXMath makes use of the SIMD instruction sets, these data types are subject to a number of restrictions. It is critical that you understand these restrictions if you want to make good use of the DirectXMath functions.
+The [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) types are the work horses for the DirectXMath Library. Every operation consumes or produces data of these types. Working with them is key to using the library. However, since DirectXMath makes use of the SIMD instruction sets, these data types are subject to a number of restrictions. It is critical that you understand these restrictions if you want to make good use of the DirectXMath functions.
 
-You should think of [**XMVECTOR**](xmvector-data-type.md) as a proxy for a SIMD hardware register, and [**XMMATRIX**](/windows/desktop/api/DirectXMath/) as a proxy for a logical grouping of four SIMD hardware registers. These types are annotated to indicate they require 16-byte alignment to work correctly. The compiler will automatically place them correctly on the stack when they are used as a local variable, or place them in the data segment when they are used as a global variable. With proper conventions, they can also be passed safely as parameters to a function (see [Calling Conventions](pg-xnamath-internals.md) for details).
+You should think of [**XMVECTOR**](xmvector-data-type.md) as a proxy for a SIMD hardware register, and [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) as a proxy for a logical grouping of four SIMD hardware registers. These types are annotated to indicate they require 16-byte alignment to work correctly. The compiler will automatically place them correctly on the stack when they are used as a local variable, or place them in the data segment when they are used as a global variable. With proper conventions, they can also be passed safely as parameters to a function (see [Calling Conventions](pg-xnamath-internals.md) for details).
 
-Allocations from the heap, however, are more complicated. As such, you need to be careful whenever you use either [**XMVECTOR**](xmvector-data-type.md) or [**XMMATRIX**](/windows/desktop/api/DirectXMath/) as a member of a class or structure to be allocated from the heap. On Windows x64, all heap allocations are 16-byte aligned, but for Windows x86, they are only 8-byte aligned. There are options for allocating structures from the heap with 16-byte alignment (see [Properly Align Allocations](pg-xnamath-optimizing.md)). For C++ programs, you can use operator new/delete/new\[\]/delete\[\] overloads (either globally or class-specific) to enforce optimal alignment if desired.
+Allocations from the heap, however, are more complicated. As such, you need to be careful whenever you use either [**XMVECTOR**](xmvector-data-type.md) or [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) as a member of a class or structure to be allocated from the heap. On Windows x64, all heap allocations are 16-byte aligned, but for Windows x86, they are only 8-byte aligned. There are options for allocating structures from the heap with 16-byte alignment (see [Properly Align Allocations](pg-xnamath-optimizing.md)). For C++ programs, you can use operator new/delete/new\[\]/delete\[\] overloads (either globally or class-specific) to enforce optimal alignment if desired.
 
 > [!Note]  
-> As an alternative to enforcing alignment in your C++ class directly by overloading new/delete, you can use the [pImpl idiom](http://en.wikipedia.org/wiki/Opaque_pointer). If you ensure your **Impl** class is aligned via [**\_\_aligned\_malloc**](https://msdn.microsoft.com/windows/desktop/fb788d40-ee94-4039-aa4d-97d73dab1ca0) internally, you can then freely use aligned types within the internal implementation. This is a good option when the 'public' class is a Windows Runtime ref class or intended for use with [**std::shared\_ptr&lt;&gt;**](https://msdn.microsoft.com/windows/desktop/1469fc51-c658-43f1-886c-f4530dd84860), which can otherwise disrupt careful alignment.
+> As an alternative to enforcing alignment in your C++ class directly by overloading new/delete, you can use the [pImpl idiom](http://en.wikipedia.org/wiki/Opaque_pointer). If you ensure your **Impl** class is aligned via [**\_\_aligned\_malloc**](https://msdn.microsoft.com/en-us/library/8z34s9c6(v=VS.71).aspx) internally, you can then freely use aligned types within the internal implementation. This is a good option when the 'public' class is a Windows Runtime ref class or intended for use with [**std::shared\_ptr&lt;&gt;**](https://msdn.microsoft.com/en-us/library/Bb982026(v=VS.90).aspx), which can otherwise disrupt careful alignment.
 
  
 
-However, often it is easier and more compact to avoid using [**XMVECTOR**](xmvector-data-type.md) or [**XMMATRIX**](/windows/desktop/api/DirectXMath/) directly in a class or structure. Instead, make use of the [**XMFLOAT3**](/windows/desktop/api/DirectXMath/), [**XMFLOAT4**](/windows/desktop/api/DirectXMath/), [**XMFLOAT4X3**](/windows/desktop/api/DirectXMath/), [**XMFLOAT4X4**](/windows/desktop/api/DirectXMath/), and so on, as members of your structure. Further, you can use the [Vector Loading](ovw-xnamath-reference-functions-load.md) and [Vector Storage](ovw-xnamath-reference-functions-storage.md) functions to move the data efficiently into **XMVECTOR** or **XMMATRIX** local variables, perform computations, and store the results. There are also streaming functions ([**XMVector3TransformStream**](https://www.bing.com/search?q=**XMVector3TransformStream**), [**XMVector4TransformStream**](https://www.bing.com/search?q=**XMVector4TransformStream**), and so on) that efficiently operate directly on arrays of these data types.
+However, often it is easier and more compact to avoid using [**XMVECTOR**](xmvector-data-type.md) or [**XMMATRIX**](https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx) directly in a class or structure. Instead, make use of the [**XMFLOAT3**](https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx), [**XMFLOAT4**](https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx), [**XMFLOAT4X3**](https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx), [**XMFLOAT4X4**](https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx), and so on, as members of your structure. Further, you can use the [Vector Loading](ovw-xnamath-reference-functions-load.md) and [Vector Storage](ovw-xnamath-reference-functions-storage.md) functions to move the data efficiently into **XMVECTOR** or **XMMATRIX** local variables, perform computations, and store the results. There are also streaming functions ([**XMVector3TransformStream**](https://msdn.microsoft.com/en-us/library/Hh404780(v=VS.85).aspx), [**XMVector4TransformStream**](https://msdn.microsoft.com/en-us/library/Hh404783(v=VS.85).aspx), and so on) that efficiently operate directly on arrays of these data types.
 
 ## Creating Vectors
 
@@ -98,7 +98,7 @@ However, often it is easier and more compact to avoid using [**XMVECTOR**](xmvec
 
 Many operations require the use of constants in vector computations, and there are a number of ways to load an [**XMVECTOR**](xmvector-data-type.md) with the desired values.
 
--   If loading a scalar constant into all elements of an [**XMVECTOR**](xmvector-data-type.md), use [**XMVectorReplicate**](https://www.bing.com/search?q=**XMVectorReplicate**) or [**XMVectorReplicateInt**](https://www.bing.com/search?q=**XMVectorReplicateInt**).
+-   If loading a scalar constant into all elements of an [**XMVECTOR**](xmvector-data-type.md), use [**XMVectorReplicate**](https://msdn.microsoft.com/en-us/library/Ee421202(v=VS.85).aspx) or [**XMVectorReplicateInt**](https://msdn.microsoft.com/en-us/library/Hh404803(v=VS.85).aspx).
     ```
     XMVECTOR vFive = XMVectorReplicate( 5.f );
     ```
@@ -122,14 +122,14 @@ Many operations require the use of constants in vector computations, and there a
 
 ### VECTORS FROM VARIABLES
 
--   If creating a vector from a single scalar variable, see [**XMVectorReplicate**](https://www.bing.com/search?q=**XMVectorReplicate**) and [**XMVectorReplicateInt**](https://www.bing.com/search?q=**XMVectorReplicateInt**).
+-   If creating a vector from a single scalar variable, see [**XMVectorReplicate**](https://msdn.microsoft.com/en-us/library/Ee421202(v=VS.85).aspx) and [**XMVectorReplicateInt**](https://msdn.microsoft.com/en-us/library/Hh404803(v=VS.85).aspx).
     ```
     XMVECTOR v = XMVectorReplicate( f  );
     ```
 
     
 
--   If creating a vector from four scalar variables, see [**XMVectorSet**](https://www.bing.com/search?q=**XMVectorSet**) and [**XMVectorSetInt**](https://www.bing.com/search?q=**XMVectorSetInt**).
+-   If creating a vector from four scalar variables, see [**XMVectorSet**](https://msdn.microsoft.com/en-us/library/Ee421213(v=VS.85).aspx) and [**XMVectorSetInt**](https://msdn.microsoft.com/en-us/library/Hh404812(v=VS.85).aspx).
     ```
     XMVECTOR v = XMVectorSet( fx, fy, fz, fw );
     ```
@@ -145,14 +145,14 @@ Many operations require the use of constants in vector computations, and there a
 
     
 
--   If creating a vector from another vector with a single component replicated, use [**XMVectorSplatX**](https://www.bing.com/search?q=**XMVectorSplatX**), [**XMVectorSplatY**](https://www.bing.com/search?q=**XMVectorSplatY**), [**XMVectorSplatZ**](https://www.bing.com/search?q=**XMVectorSplatZ**), and [**XMVectorSplatW**](https://www.bing.com/search?q=**XMVectorSplatW**).
+-   If creating a vector from another vector with a single component replicated, use [**XMVectorSplatX**](https://msdn.microsoft.com/en-us/library/Ee421353(v=VS.85).aspx), [**XMVectorSplatY**](https://msdn.microsoft.com/en-us/library/Ee421354(v=VS.85).aspx), [**XMVectorSplatZ**](https://msdn.microsoft.com/en-us/library/Ee421355(v=VS.85).aspx), and [**XMVectorSplatW**](https://msdn.microsoft.com/en-us/library/Ee421352(v=VS.85).aspx).
     ```
     XMVECTOR vz = XMVectorSplatZ( v );
     ```
 
     
 
--   If creating a vector from another vector or pair of vectors with reordered components, see [**XMVectorSwizzle**](https://www.bing.com/search?q=**XMVectorSwizzle**) and [**XMVectorPermute**](https://www.bing.com/search?q=**XMVectorPermute**).
+-   If creating a vector from another vector or pair of vectors with reordered components, see [**XMVectorSwizzle**](https://msdn.microsoft.com/en-us/library/Hh404826(v=VS.85).aspx) and [**XMVectorPermute**](https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx).
     ```
     XMVECTOR v2 = XMVectorSwizzle<XM_SWIZZLE_Z, XM_SWIZZLE_Y, XM_SWIZZLE_W, XM_SWIZZLE_X>( v1 );
 
@@ -163,13 +163,13 @@ Many operations require the use of constants in vector computations, and there a
 
 ### VECTORS FROM MEMORY
 
--   For loading a single float value from memory, see [**XMVectorReplicatePtr**](https://www.bing.com/search?q=**XMVectorReplicatePtr**), [**XMVectorReplicateIntPtr**](https://www.bing.com/search?q=**XMVectorReplicateIntPtr**), [**XMLoadFloat**](/windows/desktop/api/DirectXMath/), and [**XMLoadInt**](/windows/desktop/api/DirectXMath/).
--   Common ways to load float arrays are: [**XMLoadFloat2**](/windows/desktop/api/DirectXMath/), [**XMLoadFloat3**](/windows/desktop/api/DirectXMath/), [**XMLoadFloat4**](/windows/desktop/api/DirectXMath/), [**XMLoadFloat3x3**](/windows/desktop/api/DirectXMath/), [**XMLoadFloat4x3**](/windows/desktop/api/DirectXMath/), and [**XMLoadFloat4x4**](/windows/desktop/api/DirectXMath/).
+-   For loading a single float value from memory, see [**XMVectorReplicatePtr**](https://msdn.microsoft.com/en-us/library/Ee421205(v=VS.85).aspx), [**XMVectorReplicateIntPtr**](https://msdn.microsoft.com/en-us/library/Hh404804(v=VS.85).aspx), [**XMLoadFloat**](https://msdn.microsoft.com/en-us/library/Ee419765(v=VS.85).aspx), and [**XMLoadInt**](https://msdn.microsoft.com/en-us/library/Hh404673(v=VS.85).aspx).
+-   Common ways to load float arrays are: [**XMLoadFloat2**](https://msdn.microsoft.com/en-us/library/Ee419767(v=VS.85).aspx), [**XMLoadFloat3**](https://msdn.microsoft.com/en-us/library/Ee419774(v=VS.85).aspx), [**XMLoadFloat4**](https://msdn.microsoft.com/en-us/library/Ee419874(v=VS.85).aspx), [**XMLoadFloat3x3**](https://msdn.microsoft.com/en-us/library/Ee419786(v=VS.85).aspx), [**XMLoadFloat4x3**](https://msdn.microsoft.com/en-us/library/Ee419881(v=VS.85).aspx), and [**XMLoadFloat4x4**](https://msdn.microsoft.com/en-us/library/Ee419885(v=VS.85).aspx).
 -   DirectXMath includes a rich set of types and related loads and stores for handling various data-structures and common GPU formats. See [Vector Load](ovw-xnamath-reference-functions-load.md) and [Vector Store](ovw-xnamath-reference-functions-storage.md).
 
 ## Extracting Components from Vectors
 
-SIMD processing is most efficient when data is loaded into the SIMD registers and fully processed before extracting the results. Conversion between scalar and vector forms is inefficient, so we recommend that you do it only when required. For this reason, functions in the DirectXMath library that produce a scalar value are returned in a vector form where the scalar result is replicated across the resulting vector (that is, [**XMVector2Dot**](https://www.bing.com/search?q=**XMVector2Dot**), [**XMVector3Length**](https://www.bing.com/search?q=**XMVector3Length**), and so on). However, when you need scalar values, here are a few choices on how to go about it:
+SIMD processing is most efficient when data is loaded into the SIMD registers and fully processed before extracting the results. Conversion between scalar and vector forms is inefficient, so we recommend that you do it only when required. For this reason, functions in the DirectXMath library that produce a scalar value are returned in a vector form where the scalar result is replicated across the resulting vector (that is, [**XMVector2Dot**](https://msdn.microsoft.com/en-us/library/Ee420755(v=VS.85).aspx), [**XMVector3Length**](https://msdn.microsoft.com/en-us/library/Ee420821(v=VS.85).aspx), and so on). However, when you need scalar values, here are a few choices on how to go about it:
 
 -   If a single scalar answer is computed, use of the [Vector Accessor Functions](ovw-xnamath-reference-functions-accessors.md) is appropriate:
     ```

@@ -24,7 +24,7 @@ The [**XMUBYTEN2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvec
 
 | Methods                                                | Description                                                                                                           |
 |--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://www.bing.com/search?q=**operator+=**)<br/> | Assigns the vector component data from one instance of `XMUBYTEN2` to the current instance of `XMUBYTEN2`.<br/> |
+| [**operator =**](https://msdn.microsoft.com/en-us/library/Hh404735(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMUBYTEN2` to the current instance of `XMUBYTEN2`.<br/> |
 
 
 

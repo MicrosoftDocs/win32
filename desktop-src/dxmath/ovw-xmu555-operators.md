@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMU555 Operators
 
-The [**XMU555**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu555) structure exposes the following operators.
+The [**XMU555**](https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -24,7 +24,7 @@ The [**XMU555**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector
 
 | Methods                                                           | Description                                                                                                          |
 |-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [**operator uint16\_t**](/windows/desktop/api/DirectXPackedVector/nf-directxpackedvector-xmu555-operator uint16_t)<br/> | Returns an instance of `uint16_t` containing the components of the `XMU555` instance in a packed format. <br/> |
+| [**operator uint16\_t**](https://msdn.microsoft.com/en-us/library/Hh404713(v=VS.85).aspx)<br/> | Returns an instance of `uint16_t` containing the components of the `XMU555` instance in a packed format. <br/> |
 | [**operator =**](xmu555-operator-eq.md)<br/>               | Assigns vector component data to the current instance of `XMU555`. <br/>                                       |
 
 
@@ -41,7 +41,7 @@ The [**XMU555**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector
 **Reference**
 </dt> <dt>
 
-[**XMU555**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmu555)
+[**XMU555**](https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx)
 </dt> </dl>
 
  

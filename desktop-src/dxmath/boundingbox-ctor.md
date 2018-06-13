@@ -19,9 +19,9 @@ Creates an instance of the `BoundingBox` class.
 
 | Constructor                                                                 | Description                                                |
 |:----------------------------------------------------------------------------|:-----------------------------------------------------------|
-| [**BoundingBox ()**](https://www.bing.com/search?q=**BoundingBox+()**)                                | Creates an instance of the `BoundingBox` class.<br/> |
-| [**BoundingBox (const BoundingBox&)**](https://www.bing.com/search?q=**BoundingBox+(const+BoundingBox&)**)              | Creates an instance of the `BoundingBox` class.<br/> |
-| [**BoundingBox (const XMFLOAT3&,const XMFLOAT3&)**](https://www.bing.com/search?q=**BoundingBox+(const+XMFLOAT3&,const+XMFLOAT3&)**) | Creates an instance of the `BoundingBox` class.<br/> |
+| [**BoundingBox ()**](https://msdn.microsoft.com/en-us/library/Hh437810(v=VS.85).aspx)                                | Creates an instance of the `BoundingBox` class.<br/> |
+| [**BoundingBox (const BoundingBox&)**](https://msdn.microsoft.com/en-us/library/Hh437808(v=VS.85).aspx)              | Creates an instance of the `BoundingBox` class.<br/> |
+| [**BoundingBox (const XMFLOAT3&,const XMFLOAT3&)**](https://msdn.microsoft.com/en-us/library/Hh437809(v=VS.85).aspx) | Creates an instance of the `BoundingBox` class.<br/> |
 
 
 

@@ -24,7 +24,7 @@ The [**XMSHORT2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvect
 
 | Methods                                               | Description                                                                                                          |
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://www.bing.com/search?q=**operator+=**)<br/> | Assigns the vector component data from one instance of `XMSHORT2` to the current instance of `XMSHORT2`. <br/> |
+| [**operator =**](https://msdn.microsoft.com/en-us/library/Ee420201(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMSHORT2` to the current instance of `XMSHORT2`. <br/> |
 
 
 

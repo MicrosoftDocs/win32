@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Constructors exposed by `XMFLOAT3SE`.
 
-Constructs instances of the [**XMFLOAT3SE**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3se) structure.
+Constructs instances of the [**XMFLOAT3SE**](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -37,8 +37,8 @@ Constructs instances of the [**XMFLOAT3SE**](/windows/desktop/api/DirectXPackedV
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT3SE ()</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3SE+()</strong>)</td>
-<td style="text-align: left;">Default constructor for <code>XMFLOAT3SE</code>.<br/> Default constructor for [<strong>XMFLOAT3SE</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3se).<br/>
+<td style="text-align: left;">[<strong>XMFLOAT3SE ()</strong>](https://msdn.microsoft.com/en-us/library/Ee419491(v=VS.85).aspx)</td>
+<td style="text-align: left;">Default constructor for <code>XMFLOAT3SE</code>.<br/> Default constructor for [<strong>XMFLOAT3SE</strong>](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx).<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -46,8 +46,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT3SE (uint32_t)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3SE+(uint32_t)</strong>)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3SE</code> from a <code>uint32_t</code> variable containing component data in a packed format.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3SE</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3se) from a <code>uint32_t</code> variable containing component data in a packed format.<br/>
+<td style="text-align: left;">[<strong>XMFLOAT3SE (uint32_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh437960(v=VS.85).aspx)</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3SE</code> from a <code>uint32_t</code> variable containing component data in a packed format.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3SE</strong>](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx) from a <code>uint32_t</code> variable containing component data in a packed format.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -55,8 +55,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT3SE (const float*)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3SE+(const+float*)</strong>)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3SE</code> from a three element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMFLOAT3SE</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3se) from a from a three element <code>float</code> array argument. <br/>
+<td style="text-align: left;">[<strong>XMFLOAT3SE (const float*)</strong>](https://msdn.microsoft.com/en-us/library/Ee419499(v=VS.85).aspx)</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3SE</code> from a three element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMFLOAT3SE</strong>](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx) from a from a three element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -64,8 +64,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT3SE (float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMFLOAT3SE+(float,float,float)</strong>)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3SE</code> from three <code>float</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3SE</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3se) from three <code>float</code> arguments.<br/>
+<td style="text-align: left;">[<strong>XMFLOAT3SE (float,float,float)</strong>](https://msdn.microsoft.com/en-us/library/Ee419494(v=VS.85).aspx)</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3SE</code> from three <code>float</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3SE</strong>](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx) from three <code>float</code> arguments.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -87,7 +87,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3SE**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmfloat3se)
+[**XMFLOAT3SE**](https://msdn.microsoft.com/en-us/library/Ee419489(v=VS.85).aspx)
 </dt> </dl>
 
  

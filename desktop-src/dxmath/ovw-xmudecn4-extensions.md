@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMUDECN4 Extensions
 
-[**XMUDECN4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmudecn4)A 4D vector for storing unsigned, normalized values as 10 bit unsigned x-,y-, and z- components and a 2 bit unsigned w-component.
+[**XMUDECN4**](https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx)A 4D vector for storing unsigned, normalized values as 10 bit unsigned x-,y-, and z- components and a 2 bit unsigned w-component.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -38,7 +38,7 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMUDECN4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmudecn4)
+[**XMUDECN4**](https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx)
 </dt> </dl>
 
  

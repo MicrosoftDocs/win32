@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMFLOAT3 Operators
 
-The [**XMFLOAT3**](/windows/desktop/api/DirectXMath/) structure exposes the following operators.
+The [**XMFLOAT3**](https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -24,7 +24,7 @@ The [**XMFLOAT3**](/windows/desktop/api/DirectXMath/) structure exposes the foll
 
 | Methods                                               | Description                                                                                                          |
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://www.bing.com/search?q=**operator+=**)<br/> | Assigns the vector component data from one instance of `XMFLOAT3` to the current instance of `XMFLOAT3`. <br/> |
+| [**operator =**](https://msdn.microsoft.com/en-us/library/Ee419607(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMFLOAT3` to the current instance of `XMFLOAT3`. <br/> |
 
 
 
@@ -40,7 +40,7 @@ The [**XMFLOAT3**](/windows/desktop/api/DirectXMath/) structure exposes the foll
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3**](/windows/desktop/api/DirectXMath/)
+[**XMFLOAT3**](https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx)
 </dt> </dl>
 
  

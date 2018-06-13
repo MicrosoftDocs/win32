@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # XMFLOAT4X4 Operators
 
-The [**XMFLOAT4X4**](/windows/desktop/api/DirectXMath/) structure exposes the following operators.
+The [**XMFLOAT4X4**](https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -24,7 +24,7 @@ The [**XMFLOAT4X4**](/windows/desktop/api/DirectXMath/) structure exposes the fo
 
 | Methods                                                      | Description                                                                                                              |
 |--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://www.bing.com/search?q=**operator+=**)<br/>      | Assigns the vector component data from one instance of `XMFLOAT4X4` to the current instance of `XMFLOAT4X4`. <br/> |
+| [**operator =**](https://msdn.microsoft.com/en-us/library/Ee419634(v=VS.85).aspx)<br/>      | Assigns the vector component data from one instance of `XMFLOAT4X4` to the current instance of `XMFLOAT4X4`. <br/> |
 | [**operator ()**](xmfloat4x4-operator-parens.md)<br/> | Accesses specific matrix elements referenced by row and column from the current instance of `XMFLOAT4X4`. <br/>    |
 
 
@@ -41,7 +41,7 @@ The [**XMFLOAT4X4**](/windows/desktop/api/DirectXMath/) structure exposes the fo
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X4**](/windows/desktop/api/DirectXMath/)
+[**XMFLOAT4X4**](https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Constructors exposed by `XMUDEC4`.
 
-Constructs instances of the [**XMUDEC4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmudec4) structure.
+Constructs instances of the [**XMUDEC4**](https://msdn.microsoft.com/en-us/library/Ee420508(v=VS.85).aspx) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -37,8 +37,8 @@ Constructs instances of the [**XMUDEC4**](/windows/desktop/api/DirectXPackedVect
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUDEC4 ()</strong>](https://www.bing.com/search?q=<strong>XMUDEC4+()</strong>)</td>
-<td style="text-align: left;">Default constructor for <code>XMUDEC4</code>. <br/> Default constructor for [<strong>XMUDEC4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmudec4) . <br/>
+<td style="text-align: left;">[<strong>XMUDEC4 ()</strong>](https://msdn.microsoft.com/en-us/library/Ee420510(v=VS.85).aspx)</td>
+<td style="text-align: left;">Default constructor for <code>XMUDEC4</code>. <br/> Default constructor for [<strong>XMUDEC4</strong>](https://msdn.microsoft.com/en-us/library/Ee420508(v=VS.85).aspx) . <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -46,8 +46,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMUDEC4 (uint32_t)</strong>](https://www.bing.com/search?q=<strong>XMUDEC4+(uint32_t)</strong>)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUDEC4</code> from a <code>uint32_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of [<strong>XMUDEC4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmudec4) from a <code>uint32_t</code> variable containing component data in a packed format. <br/>
+<td style="text-align: left;">[<strong>XMUDEC4 (uint32_t)</strong>](https://msdn.microsoft.com/en-us/library/Hh404739(v=VS.85).aspx)</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUDEC4</code> from a <code>uint32_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of [<strong>XMUDEC4</strong>](https://msdn.microsoft.com/en-us/library/Ee420508(v=VS.85).aspx) from a <code>uint32_t</code> variable containing component data in a packed format. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -55,8 +55,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUDEC4 (const float*)</strong>](https://www.bing.com/search?q=<strong>XMUDEC4+(const+float*)</strong>)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUDEC4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMUDEC4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmudec4) from a from a four element <code>float</code> array argument. <br/>
+<td style="text-align: left;">[<strong>XMUDEC4 (const float*)</strong>](https://msdn.microsoft.com/en-us/library/Ee420517(v=VS.85).aspx)</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUDEC4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMUDEC4</strong>](https://msdn.microsoft.com/en-us/library/Ee420508(v=VS.85).aspx) from a from a four element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -64,8 +64,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMUDEC4 (float,float,float,float)</strong>](https://www.bing.com/search?q=<strong>XMUDEC4+(float,float,float,float)</strong>)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUDEC4</code> from four <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMUDEC4</strong>](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmudec4) from four <code>float</code> arguments. <br/>
+<td style="text-align: left;">[<strong>XMUDEC4 (float,float,float,float)</strong>](https://msdn.microsoft.com/en-us/library/Ee420512(v=VS.85).aspx)</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUDEC4</code> from four <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMUDEC4</strong>](https://msdn.microsoft.com/en-us/library/Ee420508(v=VS.85).aspx) from four <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -87,7 +87,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUDEC4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmudec4)
+[**XMUDEC4**](https://msdn.microsoft.com/en-us/library/Ee420508(v=VS.85).aspx)
 </dt> </dl>
 
  
