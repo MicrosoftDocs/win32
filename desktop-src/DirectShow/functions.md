@@ -17,7 +17,7 @@ DirectShow provides the following function.
 
 | Function                                 | Description                                              |
 |------------------------------------------|----------------------------------------------------------|
-| [**AMGetErrorText**](/windows/desktop/api/errors/) | Retrieves the error message text for a given message ID. |
+| [**AMGetErrorText**](https://msdn.microsoft.com/en-us/library/Dd373430(v=VS.85).aspx) | Retrieves the error message text for a given message ID. |
 
 
 

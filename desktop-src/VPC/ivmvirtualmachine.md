@@ -28,7 +28,7 @@ Defines the interface for a virtual machine. **IVMVirtualMachine** can notify cl
 
 ## Members
 
-The **IVMVirtualMachine** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMVirtualMachine** also has these types of members:
+The **IVMVirtualMachine** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualMachine** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

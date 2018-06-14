@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_PhysicalMemoryArray class
 
-The **Win32\_PhysicalMemoryArray** [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents details about the computer system physical memory. This includes the number of memory devices, memory capacity available, and memory type—for example, system or video memory.
+The **Win32\_PhysicalMemoryArray** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) represents details about the computer system physical memory. This includes the number of memory devices, memory capacity available, and memory type—for example, system or video memory.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -94,7 +94,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Caption")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Caption")
 </dt> </dl>
 
 Short description of the object—a one-line string.
@@ -112,7 +112,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Name of the first concrete class that appears in the inheritance chain used in the creation of an instance. When used with the other key properties of the class, the property allows all instances of this class and its subclasses to be identified uniquely.
@@ -130,7 +130,7 @@ Data type: **real32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("inches")
+Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("inches")
 </dt> </dl>
 
 Depth of the physical package—in inches.
@@ -148,7 +148,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Description")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Description")
 </dt> </dl>
 
 Description of the object.
@@ -166,7 +166,7 @@ Data type: **real32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("inches")
+Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("inches")
 </dt> </dl>
 
 Height of the physical package—in inches.
@@ -199,7 +199,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Install Date")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Install Date")
 </dt> </dl>
 
 Date and time the object was installed. This property does not need a value to indicate that the object is installed.
@@ -217,7 +217,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 16\|Location")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 16\|Location")
 </dt> </dl>
 
 Physical location of the memory array.
@@ -342,7 +342,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Name of the organization responsible for producing the physical element.
@@ -360,7 +360,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 16\|Maximum Capacity")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 16\|Maximum Capacity")
 </dt> </dl>
 
 Use the **MaxCapacityEx** property instead.
@@ -380,7 +380,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 16\|Extended Maximum Capacity"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("kilobytes")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 16\|Extended Maximum Capacity"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("kilobytes")
 </dt> </dl>
 
 Maximum memory size (in bytes) installable for this particular memory array. If the size is unknown, the property is given a value of 0 (zero).
@@ -400,7 +400,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 16\|Number of Memory Devices")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 16\|Number of Memory Devices")
 </dt> </dl>
 
 Number of physical slots or sockets available in this memory array.
@@ -418,7 +418,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 16\|Memory Error Correction")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 16\|Memory Error Correction")
 </dt> </dl>
 
 Type of error correction used by the memory array.
@@ -494,7 +494,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Name by which the physical element is generally known.
@@ -512,7 +512,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Name")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Name")
 </dt> </dl>
 
 Label by which the object is known. When subclassed, the property can be overridden to be a key property.
@@ -545,7 +545,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Part number assigned by the organization responsible for producing or manufacturing the physical element.
@@ -608,7 +608,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Manufacturer-allocated number used to identify the physical element.
@@ -626,7 +626,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Stockkeeping unit number for the physical element.
@@ -644,7 +644,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (10), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Status")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", could apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither "OK" nor in one of the other states.
@@ -750,7 +750,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256), [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Tag"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI")
+Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Tag"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI")
 </dt> </dl>
 
 Unique identifier of the physical memory array.
@@ -770,7 +770,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 16\|Use")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 16\|Use")
 </dt> </dl>
 
 How memory is used in the computer system.
@@ -850,7 +850,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Version of the physical element.
@@ -868,7 +868,7 @@ Data type: **real32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("pounds")
+Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("pounds")
 </dt> </dl>
 
 Weight of the physical package in pounds.
@@ -886,7 +886,7 @@ Data type: **real32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("inches")
+Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("inches")
 </dt> </dl>
 
 Width of the physical package in inches.

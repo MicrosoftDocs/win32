@@ -13,11 +13,11 @@ ms.date: 05/31/2018
 
 Use the following enumeration types to implement RAS functionality.
 
-[**RASCONNSTATE**](/windows/desktop/api/Ras/)
+[**RASCONNSTATE**](https://msdn.microsoft.com/en-us/library/Aa376727(v=VS.85).aspx)
 
-[**RASCONNSUBSTATE**](/windows/desktop/api/Ras/)
+[**RASCONNSUBSTATE**](https://msdn.microsoft.com/en-us/library/Dd408103(v=VS.85).aspx)
 
-[**RASPROJECTION**](/windows/desktop/api/Ras/)
+[**RASPROJECTION**](https://msdn.microsoft.com/en-us/library/Aa377648(v=VS.85).aspx)
 
  
 

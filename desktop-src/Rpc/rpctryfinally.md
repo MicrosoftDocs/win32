@@ -21,9 +21,9 @@ ms.date: 05/31/2018
 
 # RpcTryFinally
 
-The **RpcTryFinally** statement provides structured termination handling. It an exception occurs during the execution statements of the code block associated with the **RpcTryFinally** statement, the statements in the code block associated with the [**RpcFinally**](/windows/desktop/api/Rpc/) statement are executed. All **RpcTryFinally** statements must be terminated by an [**RpcEndFinally**](/windows/desktop/api/Rpc/) statement.
+The **RpcTryFinally** statement provides structured termination handling. It an exception occurs during the execution statements of the code block associated with the **RpcTryFinally** statement, the statements in the code block associated with the [**RpcFinally**](https://msdn.microsoft.com/en-US/library/Aa375699(v=VS.80).aspx) statement are executed. All **RpcTryFinally** statements must be terminated by an [**RpcEndFinally**](https://msdn.microsoft.com/en-US/library/Aa375634(v=VS.80).aspx) statement.
 
-For more information, see [**RpcFinally**](/windows/desktop/api/Rpc/).
+For more information, see [**RpcFinally**](https://msdn.microsoft.com/en-US/library/Aa375699(v=VS.80).aspx).
 
 ## Requirements
 
@@ -41,10 +41,10 @@ For more information, see [**RpcFinally**](/windows/desktop/api/Rpc/).
 
 <dl> <dt>
 
-[**RpcFinally**](/windows/desktop/api/Rpc/)
+[**RpcFinally**](https://msdn.microsoft.com/en-US/library/Aa375699(v=VS.80).aspx)
 </dt> <dt>
 
-[**RpcEndFinally**](/windows/desktop/api/Rpc/)
+[**RpcEndFinally**](https://msdn.microsoft.com/en-US/library/Aa375634(v=VS.80).aspx)
 </dt> </dl>
 
  

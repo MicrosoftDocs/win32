@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IVectorChangedEventArgs interface
 
-Provides data for a [**VectorChanged**](https://msdn.microsoft.com/Windows.Foundation.Collections.IObservableVector`1.VectorChanged) event.
+Provides data for a [**VectorChanged**](https://msdn.microsoft.com/en-us/library/BR226053(v=Win.10).aspx) event.
 
 ## Members
 

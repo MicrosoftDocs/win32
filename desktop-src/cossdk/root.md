@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Root collection
 
-Contains the top-level collections in the catalog. It does not contain any [**COMAdminCatalogObject**](/windows/desktop/api/ComAdmin/) objects or support any properties.
+Contains the top-level collections in the catalog. It does not contain any [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) objects or support any properties.
 
-The **Root** collection does not support the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) and [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) methods of the [**COMAdminCatalogCollection**](/windows/desktop/api/ComAdmin/) object.
+The **Root** collection does not support the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) and [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) methods of the [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object.
 
 You cannot navigate to the **Root** collection from any collection.
 

@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 The following is a scenario showing how you can use the Certificate Services backup functions to back up a Certificate Services database and its associated files.
 
-1.  Load the Certadm.dll library into memory (by calling [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65)).
-2.  Retrieve the address of each of the necessary functions in Certadm.dll (by means of [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597)). Use these addresses when calling the functions in the remaining steps.
+1.  Load the Certadm.dll library into memory (by calling [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx)).
+2.  Retrieve the address of each of the necessary functions in Certadm.dll (by means of [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx)). Use these addresses when calling the functions in the remaining steps.
 3.  Call [**CertSrvIsServerOnline**](/windows/desktop/api/Certbcli/nf-certbcli-certsrvisserveronlinew) to determine whether Certificate Services is online. Certificate Services must be online for the backup operations to be successful.
 4.  Call [**CertSrvBackupPrepare**](/windows/desktop/api/Certbcli/nf-certbcli-certsrvbackuppreparew) to start a backup session. The resulting Certificate Services backup context handle will be used by many of the other backup functions.
 5.  Call [**CertSrvRestoreGetDatabaseLocations**](/windows/desktop/api/Certbcli/nf-certbcli-certsrvrestoregetdatabaselocationsw) to determine the restore map. The restore map contains the paths to be used when restoring the backup. Save the information retrieved by **CertSrvRestoreGetDatabaseLocations** to an application-specific location.
@@ -28,7 +28,7 @@ The following is a scenario showing how you can use the Certificate Services bac
 13. Backup the dynamic files identified in step 12, using routines separate from Certadm.dll.
 14. Call [**CertSrvBackupEnd**](/windows/desktop/api/Certbcli/nf-certbcli-certsrvbackupend) to end the backup session.
 15. Call [**CertSrvBackupFree**](/windows/desktop/api/Certbcli/nf-certbcli-certsrvbackupfree) as needed to release buffers allocated by certain Certificate Services backup functions. Calls to [**CertSrvBackupGetBackupLogs**](/windows/desktop/api/Certbcli/nf-certbcli-certsrvbackupgetbackuplogsw), [**CertSrvBackupGetDatabaseNames**](/windows/desktop/api/Certbcli/nf-certbcli-certsrvbackupgetdatabasenamesw), and [**CertSrvBackupGetDynamicFileList**](/windows/desktop/api/Certbcli/nf-certbcli-certsrvbackupgetdynamicfilelistw) will allocate buffers that can be freed by a call to **CertSrvBackupFree**.
-16. Release the Certadm.dll resources by calling [**FreeLibrary**](https://msdn.microsoft.com/823d3147-4ba8-4fe5-ade4-e5604f47eb0a).
+16. Release the Certadm.dll resources by calling [**FreeLibrary**](https://msdn.microsoft.com/en-us/library/ms683152(v=VS.85).aspx).
 
 For information about the privileges required to back up the Certificate Services database and associated files, see [Setting the Backup and Restore Privileges](setting-the-backup-and-restore-privileges.md).
 

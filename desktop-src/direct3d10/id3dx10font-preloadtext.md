@@ -32,7 +32,7 @@ HRESULT PreloadText(
 *pString* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a string of characters to be loaded into video memory. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR; otherwise, the data type resolves to LPCSTR. See Remarks.
 
@@ -41,7 +41,7 @@ Pointer to a string of characters to be loaded into video memory. If the compile
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**INT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of characters in the text string.
 
@@ -49,7 +49,7 @@ Number of characters in the text string.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA.
 

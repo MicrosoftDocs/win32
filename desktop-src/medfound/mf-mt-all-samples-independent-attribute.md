@@ -23,7 +23,7 @@ Treat as a Boolean value.
 
 If this attribute is **FALSE**, some samples cannot be used without referring to other samples in the stream. For example, if a video format contains delta frames, this attribute should be **FALSE**.
 
-This attribute corresponds to the **bTemporalCompression** field in the DirectShow [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02) structure.
+This attribute corresponds to the **bTemporalCompression** field in the DirectShow [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx) structure.
 
 Set this attribute to **TRUE** for all uncompressed media types.
 

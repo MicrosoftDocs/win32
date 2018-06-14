@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # XTYP\_ERROR transaction
 
-A Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](https://www.bing.com/search?q=*DdeCallback*), receives the **XTYP\_ERROR** transaction when a critical error occurs.
+A Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives the **XTYP\_ERROR** transaction when a critical error occurs.
 
 
 ```C++

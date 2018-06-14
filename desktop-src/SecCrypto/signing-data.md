@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Signing Data
 
-The following sections deal with encoding and decoding [*signed data*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50), including messages, certificates, [*certificate revocation lists*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CRLs), and [*certificate trust lists*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CTLs):
+The following sections deal with encoding and decoding [*signed data*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx), including messages, certificates, [*certificate revocation lists*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CRLs), and [*certificate trust lists*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CTLs):
 
 -   [Creating a Signed Message](creating-a-signed-message.md)
 -   [Procedure for Signing Data](procedure-for-signing-data.md)

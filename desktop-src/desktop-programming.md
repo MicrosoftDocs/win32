@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Get started learning the basics of building great desktop apps in this section.
 
-When you want to create a new desktop app, the first decision you make is whether to use the Win32 and COM API or .NET. C++ and Win32 gets you "closer to the metal," and lets you achieve the best performance for your app. .NET gets you to a higher level of coding and productivity with a less complex language. Learn which technology is best for your needs: [Choose Your Technology](https://www.bing.com/search?q=Choose+Your+Technology).
+When you want to create a new desktop app, the first decision you make is whether to use the Win32 and COM API or .NET. C++ and Win32 gets you "closer to the metal," and lets you achieve the best performance for your app. .NET gets you to a higher level of coding and productivity with a less complex language. Learn which technology is best for your needs: [Choose Your Technology](https://msdn.microsoft.com/en-us/library/Dn614993(v=VS.85).aspx).
 
 ## In this section
 

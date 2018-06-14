@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 Because image data transfer is stream-based in Windows Image Acquisition (WIA) 2.0, you do not need to specify a destination type (e.g. memory or file). The application simply gives WIA 2.0 the stream to use, and the driver reads or writes to the stream. The stream can be a file stream, a memory stream, or any other type of stream, and is transparent to the driver. Using streams also provides an easy integration with the Image Processing filter.
 
-Use the methods of the [**IWiaTransfer**](-wia-iwiatransfer.md) interface to transfer data from a WIA 2.0 device to an application. This interface is available through the [**IWiaItem2**](-wia-iwiaitem2.md) interface. The **IWiaTransfer** interface has methods for requesting uploading or downloading of data to and from a device. These methods take a callback that the application provides, and use an [IStream](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) provided by the application for the actual destination of the data transfer.
+Use the methods of the [**IWiaTransfer**](-wia-iwiatransfer.md) interface to transfer data from a WIA 2.0 device to an application. This interface is available through the [**IWiaItem2**](-wia-iwiaitem2.md) interface. The **IWiaTransfer** interface has methods for requesting uploading or downloading of data to and from a device. These methods take a callback that the application provides, and use an [IStream](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) provided by the application for the actual destination of the data transfer.
 
 Applications must query an image item to obtain a pointer to its [**IWiaTransfer**](-wia-iwiatransfer.md) interface, as shown in the following code sample:
 
@@ -32,7 +32,7 @@ Applications must query an image item to obtain a pointer to its [**IWiaTransfer
 
 
 
-In the previous code, we assume that **pWiaItem2** is a valid pointer to the [**IWiaItem2**](-wia-iwiaitem2.md) interface. The call to [IUnknown::QueryInterface](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) fills **pWiaTransfer** with a pointer to the [**IWiaTransfer**](-wia-iwiatransfer.md) interface of the item referred to by **pWiaItem2**.
+In the previous code, we assume that **pWiaItem2** is a valid pointer to the [**IWiaItem2**](-wia-iwiaitem2.md) interface. The call to [IUnknown::QueryInterface](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) fills **pWiaTransfer** with a pointer to the [**IWiaTransfer**](-wia-iwiatransfer.md) interface of the item referred to by **pWiaItem2**.
 
 The application then instantiates the callback object, as shown here.
 

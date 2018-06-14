@@ -45,9 +45,9 @@ To get the private codec data, perform the following steps:
 
 1.  Call [**IMFTransform::GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) to get a media type from the encoder. (This is step 6 from the previous section.)
 2.  Specify the target bitrate by setting the [**MF\_MT\_AVG\_BITRATE**](mf-mt-avg-bitrate-attribute.md) attribute on the media type.
-3.  Convert the media type into a [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/c545ddf7-9797-45ab-a42a-d8550b598e98) structure by calling the [**MFInitAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype) function.
+3.  Convert the media type into a [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx) structure by calling the [**MFInitAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype) function.
 4.  Query the encoder for the **IWMCodecPrivateData** interface.
-5.  Call the **IWMCodecPrivateData::SetPartialOutputType** method, passing in the converted [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/c545ddf7-9797-45ab-a42a-d8550b598e98) structure.
+5.  Call the **IWMCodecPrivateData::SetPartialOutputType** method, passing in the converted [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx) structure.
 6.  Call the **IWMCodecPrivateData::GetPrivateData** method twice, once to get the size of the buffer for the private data, and once to copy the data into the buffer.
 7.  Add the private data to the media type by setting the [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) attribute on the type.
 

@@ -53,16 +53,16 @@ Mesh containing the original and new parameterizations. It is required to store 
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**D3DDECLUSAGE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddeclusage.htm)**
+Type: **[**D3DDECLUSAGE**](https://msdn.microsoft.com/en-us/library/Bb172534(v=VS.85).aspx)**
 
-Vertex data usage (used in combination with UsageIndex) which identifies the component of the vertex declaration that contains the original parameterization in pMeshIn. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddeclusage.htm).
+Vertex data usage (used in combination with UsageIndex) which identifies the component of the vertex declaration that contains the original parameterization in pMeshIn. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/en-us/library/Bb172534(v=VS.85).aspx).
 
 </dd> <dt>
 
 *UsageIndex* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Zero-based index (used in combination with Usage), which identifies the component of the vertex declaration that contains the original parameterization in pMeshIn. The combination of D3DDECLUSAGE\_TEXCOORD and index 0 is required for the new parameterization; any other usage/index combination may be used.
 
@@ -79,7 +79,7 @@ Resampled texture.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

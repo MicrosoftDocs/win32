@@ -44,11 +44,11 @@ Each of these shader interfaces manages a compiled shader. The interface is crea
 <td>This interface encapsulates an HLSL dynamic linkage.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11ComputeShader</strong>](/windows/desktop/api/D3D11/)<br/></td>
+<td>[<strong>ID3D11ComputeShader</strong>](https://msdn.microsoft.com/en-us/library/Ff476363(v=VS.85).aspx)<br/></td>
 <td>A compute-shader interface manages an executable program (a compute shader) that controls the compute-shader stage.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11DomainShader</strong>](/windows/desktop/api/D3D11/)<br/></td>
+<td>[<strong>ID3D11DomainShader</strong>](https://msdn.microsoft.com/en-us/library/Ff476535(v=VS.85).aspx)<br/></td>
 <td>A domain-shader interface manages an executable program (a domain shader) that controls the domain-shader stage.<br/></td>
 </tr>
 <tr class="odd">
@@ -79,11 +79,11 @@ This interface is part of the HLSL shader linking technology that you can use on
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11GeometryShader</strong>](/windows/desktop/api/D3D11/)<br/></td>
+<td>[<strong>ID3D11GeometryShader</strong>](https://msdn.microsoft.com/en-us/library/Ff476536(v=VS.85).aspx)<br/></td>
 <td>A geometry-shader interface manages an executable program (a geometry shader) that controls the geometry-shader stage.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11HullShader</strong>](/windows/desktop/api/D3D11/)<br/></td>
+<td>[<strong>ID3D11HullShader</strong>](https://msdn.microsoft.com/en-us/library/Ff476537(v=VS.85).aspx)<br/></td>
 <td>A hull-shader interface manages an executable program (a hull shader) that controls the hull-shader stage.<br/></td>
 </tr>
 <tr class="even">
@@ -132,7 +132,7 @@ This interface is part of the HLSL shader linking technology that you can use on
 <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ID3D11PixelShader</strong>](/windows/desktop/api/D3D11/)<br/></td>
+<td>[<strong>ID3D11PixelShader</strong>](https://msdn.microsoft.com/en-us/library/Ff476576(v=VS.85).aspx)<br/></td>
 <td>A pixel-shader interface manages an executable program (a pixel shader) that controls the pixel-shader stage.<br/></td>
 </tr>
 <tr class="even">
@@ -160,7 +160,7 @@ This interface is part of the HLSL shader linking technology that you can use on
 <td>An [<strong>ID3D11ShaderTraceFactory</strong>](/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertracefactory) interface implements a method for generating shader trace information objects.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ID3D11VertexShader</strong>](/windows/desktop/api/D3D11/)<br/></td>
+<td>[<strong>ID3D11VertexShader</strong>](https://msdn.microsoft.com/en-us/library/Ff476641(v=VS.85).aspx)<br/></td>
 <td>A vertex-shader interface manages an executable program (a vertex shader) that controls the vertex-shader stage.<br/></td>
 </tr>
 </tbody>

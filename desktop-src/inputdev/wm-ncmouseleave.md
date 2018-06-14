@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_NCMOUSELEAVE message
 
-Posted to a window when the cursor leaves the nonclient area of the window specified in a prior call to [**TrackMouseEvent**](/windows/desktop/api/Winuser/nf-winuser-trackmouseevent).
+Posted to a window when the cursor leaves the nonclient area of the window specified in a prior call to [**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx).
 
 A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
 
@@ -56,7 +56,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-All tracking requested by [**TrackMouseEvent**](/windows/desktop/api/Winuser/nf-winuser-trackmouseevent) is canceled when this message is generated. The application must call **TrackMouseEvent** when the mouse reenters its window if it requires further tracking of mouse hover behavior.
+All tracking requested by [**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx) is canceled when this message is generated. The application must call **TrackMouseEvent** when the mouse reenters its window if it requires further tracking of mouse hover behavior.
 
 ## Requirements
 
@@ -77,10 +77,10 @@ All tracking requested by [**TrackMouseEvent**](/windows/desktop/api/Winuser/nf-
 **Reference**
 </dt> <dt>
 
-[**TrackMouseEvent**](/windows/desktop/api/Winuser/nf-winuser-trackmouseevent)
+[**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx)
 </dt> <dt>
 
-[**TRACKMOUSEEVENT**](/windows/desktop/api/Winuser/nf-winuser-trackmouseevent)
+[**TRACKMOUSEEVENT**](https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_SYSCOMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms646360)

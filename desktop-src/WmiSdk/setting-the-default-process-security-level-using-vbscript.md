@@ -35,7 +35,7 @@ Next
 
 
 
-You can also use a [moniker](constructing-a-moniker-string.md) in a call to [**GetObject**](https://msdn.microsoft.com/windows/desktop/47dd01cb-9468-481e-be7e-55f69a744635), and set the default security settings, as in the following example.
+You can also use a [moniker](constructing-a-moniker-string.md) in a call to [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx), and set the default security settings, as in the following example.
 
 
 ```VB

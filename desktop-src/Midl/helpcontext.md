@@ -83,7 +83,7 @@ Specifies statements that make up the element definition.
 
 The \[**helpcontext**\] attribute can be applied to the following elements: [**library**](library.md), \[[**importlib**](importlib.md)\], [**interface**](interface.md), [**dispinterface**](dispinterface.md), [**module**](module.md), [**typedef**](typedef.md), **method**, **property**, or [**coclass**](coclass.md).
 
-The *helpcontext-value* is a 32-bit context identifier within the Help file that can be retrieved with the [**GetDocumentation**](https://msdn.microsoft.com/windows/desktop/aa65e143-47db-4241-9c66-fe3a1dcf1f0a) functions in the [**ITypeLib**](https://msdn.microsoft.com/windows/desktop/c1e5d71f-6a4e-45f3-811d-f57024f81a55) and [**ITypeInfo**](https://msdn.microsoft.com/windows/desktop/f3356463-3373-4279-bae1-953378aa2680) interfaces.
+The *helpcontext-value* is a 32-bit context identifier within the Help file that can be retrieved with the [**GetDocumentation**](https://msdn.microsoft.com/en-us/library/ms221396(v=VS.71).aspx) functions in the [**ITypeLib**](https://msdn.microsoft.com/en-us/library/ms221549(v=VS.71).aspx) and [**ITypeInfo**](https://msdn.microsoft.com/en-us/library/ms221696(v=VS.71).aspx) interfaces.
 
 ## Examples
 
@@ -126,10 +126,10 @@ coclass Hello
 [**module**](module.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/windows/desktop/df7aa86f-1453-4409-939e-788d469d611e)
+[ODL File Syntax](https://msdn.microsoft.com/en-us/library/ms221683(v=VS.71).aspx)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/windows/desktop/86d64a4f-08eb-422a-bb1d-dfa868094645)
+[ODL File Example](https://msdn.microsoft.com/en-us/library/ms221308(v=VS.71).aspx)
 </dt> <dt>
 
 [**typedef**](typedef.md)

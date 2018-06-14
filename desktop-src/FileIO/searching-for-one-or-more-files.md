@@ -19,7 +19,7 @@ The [**FindFirstFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-findfirstfilee
 
 The [**FindClose**](/windows/desktop/api/FileAPI/nf-fileapi-findclose) function destroys handles created by [**FindFirstFile**](/windows/desktop/api/FileAPI/nf-fileapi-findfirstfilea) and [**FindFirstFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-findfirstfileexa).
 
-An application can search for a single file on a specific path by using the [**SearchPath**](/windows/desktop/api/WinBase/) function.
+An application can search for a single file on a specific path by using the [**SearchPath**](https://msdn.microsoft.com/en-us/library/Aa365527(v=VS.85).aspx) function.
 
  
 

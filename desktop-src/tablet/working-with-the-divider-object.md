@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The [Divider](https://www.bing.com/search?q=Divider) object provides access to the Tablet PC layout analysis features.
 
-In managed code, the [Divider](https://www.bing.com/search?q=Divider) object can be instantiated by calling one of the [Divider](https://www.bing.com/search?q=Divider) constructors. In Automation, this is called the [**InkDivider**](/windows/desktop/api/msinkaut15/) object, and it can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) method in C++.
+In managed code, the [Divider](https://www.bing.com/search?q=Divider) object can be instantiated by calling one of the [Divider](https://www.bing.com/search?q=Divider) constructors. In Automation, this is called the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object, and it can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) method in C++.
 
 You can obtain a snapshot of the current analysis result by calling the [Divide](https://www.bing.com/search?q=Divide) method of the [Divider](https://www.bing.com/search?q=Divider) object. The analysis result is returned in a [DivisionResult](https://www.bing.com/search?q=DivisionResult) object. Each time you call the Divide method, the Divider object creates a DivisionResult object. For more information about the DivisionResult object, see [Working with the DivisionResult Object](working-with-the-divisionresult-object.md).
 

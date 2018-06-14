@@ -73,7 +73,7 @@ Time value that affects the [**MCI\_PLAY**](mci-play.md) or [**MCI\_CUE**](mci-c
 
 Positions are specified in the current time format.
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -103,7 +103,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_PLAY**](mci-play.md)
 </dt> <dt>
 
-[**mciSendCommand**](/windows/desktop/api/Mmsystem/)
+[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

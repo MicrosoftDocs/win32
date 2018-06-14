@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Assistance Platform 1.0 Client](https://msdn.microsoft.com/windows/desktop/bbb2aeea-4013-471c-ad90-18b4e71844b7)
--   [Microsoft HTML Help 1.4](https://msdn.microsoft.com/windows/desktop/A2939059-CEAB-43ce-834B-D4F919AE2F08)
+-   [Assistance Platform 1.0 Client](https://msdn.microsoft.com/en-us/library/ms728717(v=VS.85).aspx)
+-   [Microsoft HTML Help 1.4](https://www.bing.com/search?q=Microsoft+HTML+Help+1.4)
 
  
 

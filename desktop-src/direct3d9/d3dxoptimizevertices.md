@@ -35,7 +35,7 @@ HRESULT D3DXOptimizeVertices(
 *pIndices* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to triangle list indices to use for ordering vertices.
 
@@ -44,7 +44,7 @@ Pointer to triangle list indices to use for ordering vertices.
 *NumFaces* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of faces in the triangle list.
 
@@ -53,7 +53,7 @@ Number of faces in the triangle list.
 *NumVertices* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of vertices referenced by the triangle list.
 
@@ -62,7 +62,7 @@ Number of vertices referenced by the triangle list.
 *Indices32Bit* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Flag indicating index type: **TRUE** if indices are 32-bit (more than 65535 vertices), **FALSE** if indices are 16-bit (65535 or fewer vertices).
 
@@ -71,7 +71,7 @@ Flag indicating index type: **TRUE** if indices are 32-bit (more than 65535 vert
 *pVertexRemap* \[in, out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to a destination buffer that will contain the new index for each vertex. The value stored in *pVertexRemap* for a given element is the source vertex location in the new vertex ordering.
 
@@ -79,7 +79,7 @@ Pointer to a destination buffer that will contain the new index for each vertex.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

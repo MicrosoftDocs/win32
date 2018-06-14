@@ -157,7 +157,7 @@ This topic describes the named constants used to identify text attributes of a M
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_HorizontalTextAlignmentAttributeId"></span><span id="uia_horizontaltextalignmentattributeid"></span><span id="UIA_HORIZONTALTEXTALIGNMENTATTRIBUTEID"></span><dl> <dt><strong>UIA_HorizontalTextAlignmentAttributeId</strong></dt> <dt>40009</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>HorizontalTextAlignment</strong> text attribute, which specifies how the text is aligned horizontally. This attribute is specified as a value from the [<strong>HorizontalTextAlignmentEnum</strong>](/windows/desktop/api/UIAutomationCore/) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>HorizontalTextAlignment_Left</strong>](/windows/desktop/api/UIAutomationCore/)<br/></td>
+<td style="text-align: left;">Identifies the <strong>HorizontalTextAlignment</strong> text attribute, which specifies how the text is aligned horizontally. This attribute is specified as a value from the [<strong>HorizontalTextAlignmentEnum</strong>](https://msdn.microsoft.com/en-us/library/Ee671233(v=VS.85).aspx) enumerated type. <br/> Variant type: <strong>VT_I4</strong><br/> Default value: [<strong>HorizontalTextAlignment_Left</strong>](https://msdn.microsoft.com/en-us/library/Ee671233(v=VS.85).aspx)<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_IndentationFirstLineAttributeId"></span><span id="uia_indentationfirstlineattributeid"></span><span id="UIA_INDENTATIONFIRSTLINEATTRIBUTEID"></span><dl> <dt><strong>UIA_IndentationFirstLineAttributeId</strong></dt> <dt>40010</dt> </dl></td>

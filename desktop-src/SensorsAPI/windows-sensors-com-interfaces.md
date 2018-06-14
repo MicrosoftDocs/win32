@@ -18,7 +18,7 @@ The Sensor API exposes the following COM interfaces.
 | Interface                                              | Description                                                                                                      |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | [**ILocationPermissions**](/windows/desktop/api/sensorsapi/nn-sensorsapi-ilocationpermissions)   | Provides the status of the system setting that allows users to change location settings.                         |
-| [**ILogicalSensorManager**](/windows/desktop/api/sensorsapi/) | Provides methods used by logical sensor authors to manage logical sensor connections.                            |
+| [**ILogicalSensorManager**](https://msdn.microsoft.com/en-us/library/Dd318934(v=VS.85).aspx) | Provides methods used by logical sensor authors to manage logical sensor connections.                            |
 | [**ISensor**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor)                             | Represents a sensor.                                                                                             |
 | [**ISensorCollection**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection)         | Represents a collection of sensors.                                                                              |
 | [**ISensorDataReport**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport)         | Represents a sensor data report.                                                                                 |

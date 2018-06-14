@@ -15,7 +15,7 @@ The lexicon, or list of possible words used by a particular recognizer's languag
 
 A phrase list provides another means of modifying the recognizer's vocabulary. Adding words to a phrase list extends the vocabulary; adding words and then constraining the recognizer to use only the phrase list (as opposed to the phrase list and the dictionaries) restricts the vocabulary.
 
-Previous releases of the Tablet PC Technology APIs relied on the concept of word lists. Word lists are almost identical to phrase lists and are used for the same purpose when working directly with a [**RecognizerContext**](/windows/desktop/api/msinkaut/) object in an application that is ink enabled. For more details about where and when to use word lists, see [Setting Context for Ink-Enabled Controls](setting-context-for-ink-enabled-controls.md).
+Previous releases of the Tablet PC Technology APIs relied on the concept of word lists. Word lists are almost identical to phrase lists and are used for the same purpose when working directly with a [**RecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object in an application that is ink enabled. For more details about where and when to use word lists, see [Setting Context for Ink-Enabled Controls](setting-context-for-ink-enabled-controls.md).
 
 When the size of the list with which you want to extend the lexicon exceeds 100,000 words, we recommend that you use a dictionary instead of a word list or phrase list.
 

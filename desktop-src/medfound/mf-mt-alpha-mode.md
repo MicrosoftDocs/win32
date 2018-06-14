@@ -21,7 +21,7 @@ Specifies whether the alpha mode for color media video types is premultiplied or
 
 ## Remarks
 
-This value can be cast to a [**DXGI\_ALPHA\_MODE**](https://msdn.microsoft.com/DD3D1E49-06D2-4FB9-A41B-86453D8E566F) value. If this attribute isn’t present, for backward compatibility, the value is **DXGI\_ALPHA\_MODE\_STRAIGHT** for video format supporting alpha channel, such as ARGB32, or **DXGI\_ALPHA\_MODE\_IGNORE** for video format without alpha channel, such as RGB32.
+This value can be cast to a [**DXGI\_ALPHA\_MODE**](https://msdn.microsoft.com/en-us/library/Hh404496(v=VS.85).aspx) value. If this attribute isn’t present, for backward compatibility, the value is **DXGI\_ALPHA\_MODE\_STRAIGHT** for video format supporting alpha channel, such as ARGB32, or **DXGI\_ALPHA\_MODE\_IGNORE** for video format without alpha channel, such as RGB32.
 
 ## Requirements
 

@@ -54,11 +54,11 @@ This section describes the Windows Shell Structures.
 </tr>
 <tr class="odd">
 <td>[<strong>ASSOCIATIONELEMENT</strong>](/windows/desktop/api/Shellapi/ns-shellapi-associationelement)<br/></td>
-<td>Defines information used by [<strong>AssocCreateForClasses</strong>](/windows/desktop/api/Shellapi/nf-shellapi-assoccreateforclasses) to retrieve an [<strong>IQueryAssociations</strong>](/windows/desktop/api/Shlwapi/) interface for a given file association.<br/></td>
+<td>Defines information used by [<strong>AssocCreateForClasses</strong>](/windows/desktop/api/Shellapi/nf-shellapi-assoccreateforclasses) to retrieve an [<strong>IQueryAssociations</strong>](https://msdn.microsoft.com/en-us/library/Bb761400(v=VS.85).aspx) interface for a given file association.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>BANDINFOSFB</strong>](/windows/desktop/api/Shlobj/ns-shlobj-bandinfosfb)<br/></td>
-<td>Contains information about a folder band. This structure is used with the [<strong>IShellFolderBand::GetBandInfoSFB</strong>](/windows/desktop/api/Shlobj/) and [<strong>IShellFolderBand::SetBandInfoSFB</strong>](/windows/desktop/api/Shlobj/) methods.<br/></td>
+<td>Contains information about a folder band. This structure is used with the [<strong>IShellFolderBand::GetBandInfoSFB</strong>](https://msdn.microsoft.com/en-us/library/Bb775035(v=VS.85).aspx) and [<strong>IShellFolderBand::SetBandInfoSFB</strong>](https://msdn.microsoft.com/en-us/library/Bb775041(v=VS.85).aspx) methods.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>BANDSITEINFO</strong>](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagbandsiteinfo)<br/></td>
@@ -69,7 +69,7 @@ This section describes the Windows Shell Structures.
 <td>Contains protected members of the base class. [<strong>BASEBROWSERDATA</strong>](/windows/desktop/api/Shdeprecated/ns-shdeprecated-basebrowserdatalh) defines the browser state and is used with [<strong>IBrowserService2::GetBaseBrowserData</strong>](/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-getbasebrowserdata) and [<strong>IBrowserService2::PutBaseBrowserData</strong>](/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-putbasebrowserdata).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>BORDERWIDTHS</strong>](/windows/desktop/api/Oleidl/)<br/></td>
+<td>[<strong>BORDERWIDTHS</strong>](https://msdn.microsoft.com/en-us/library/Cc136564(v=VS.85).aspx)<br/></td>
 <td>Defines the coordinates of the upper-left and lower-right corners of a border rectangle.<br/></td>
 </tr>
 <tr class="even">
@@ -126,7 +126,7 @@ This section describes the Windows Shell Structures.
 </tr>
 <tr class="odd">
 <td>[<strong>CPLINFO</strong>](/windows/desktop/api/Cpl/ns-cpl-tagcplinfo)<br/></td>
-<td>Contains resource information and an application-defined value for a dialog box supported by a Control Panel application. The [<strong>CPlApplet</strong>](/windows/desktop/api/Cpl/nc-cpl-applet_proc) function of the Control Panel application returns this information to the Control Panel in response to a [<strong>CPL_INQUIRE</strong>](cpl-inquire.md) message.<br/></td>
+<td>Contains resource information and an application-defined value for a dialog box supported by a Control Panel application. The [<strong>CPlApplet</strong>](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function of the Control Panel application returns this information to the Control Panel in response to a [<strong>CPL_INQUIRE</strong>](cpl-inquire.md) message.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</strong>](/windows/desktop/api/Credentialprovider/ns-credentialprovider-_credential_provider_credential_serialization)<br/></td>
@@ -210,11 +210,11 @@ In place of this structure, you can use the [<strong>DLLVERSIONINFO2</strong>](/
 <td>Contains the clipboard format definition for CFSTR_FILE_ATTRIBUTES_ARRAY.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>FILEDESCRIPTOR</strong>](/windows/desktop/api/Shlobj/ns-shlobj_core-_filedescriptora)<br/></td>
+<td>[<strong>FILEDESCRIPTOR</strong>](https://msdn.microsoft.com/en-us/library/Bb773288(v=VS.85).aspx)<br/></td>
 <td>Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX [drag-and-drop](dragdrop.md) operation.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>FILEGROUPDESCRIPTOR</strong>](/windows/desktop/api/Shlobj/ns-shlobj_core-_filegroupdescriptora)<br/></td>
+<td>[<strong>FILEGROUPDESCRIPTOR</strong>](https://msdn.microsoft.com/en-us/library/Bb773290(v=VS.85).aspx)<br/></td>
 <td>Defines the CF_FILEGROUPDESCRIPTOR clipboard format.<br/></td>
 </tr>
 <tr class="odd">
@@ -263,7 +263,7 @@ In place of this structure, you can use the [<strong>DLLVERSIONINFO2</strong>](/
 </tr>
 <tr class="even">
 <td>[<strong>ITEMSPACING</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-_itemspacing)<br/></td>
-<td>Stores the dimensions of the two possible sizes of icon spacing that are available for display: small and large. Used by [<strong>IShellFolderView::GetItemSpacing</strong>](/windows/desktop/api/shlobj_core/).<br/></td>
+<td>Stores the dimensions of the two possible sizes of icon spacing that are available for display: small and large. Used by [<strong>IShellFolderView::GetItemSpacing</strong>](https://msdn.microsoft.com/en-us/library/Bb774976(v=VS.85).aspx).<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>KNOWNFOLDER_DEFINITION</strong>](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-knownfolder_definition)<br/></td>
@@ -286,7 +286,7 @@ In place of this structure, you can use the [<strong>DLLVERSIONINFO2</strong>](/
 <td>Contains information that describes a network address.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>NET_ADDRESS_INFO</strong>](/windows/desktop/api/Iphlpapi/)<br/></td>
+<td>[<strong>NET_ADDRESS_INFO</strong>](https://msdn.microsoft.com/en-us/library/Bb773346(v=VS.85).aspx)<br/></td>
 <td>Describes a network address.<br/></td>
 </tr>
 <tr class="odd">
@@ -359,7 +359,7 @@ In place of this structure, you can use the [<strong>DLLVERSIONINFO2</strong>](/
 </tr>
 <tr class="even">
 <td>[<strong>SERIALIZEDPROPERTYVALUE</strong>](/windows/desktop/api/Propidl/ns-propidl-tagserializedpropertyvalue)<br/></td>
-<td>A range of memory of arbitrary type that represents a serialized [<strong>PROPVARIANT</strong>](https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1) structure. Programs should not inspect the contents of a [<strong>SERIALIZEDPROPERTYVALUE</strong>](/windows/desktop/api/Propidl/ns-propidl-tagserializedpropertyvalue); instead, they should manipulate it with the [<strong>StgSerializePropVariant</strong>](https://www.bing.com/search?q=<strong>StgSerializePropVariant</strong>) and [<strong>StgDeserializePropVariant</strong>](https://www.bing.com/search?q=<strong>StgDeserializePropVariant</strong>) functions.<br/></td>
+<td>A range of memory of arbitrary type that represents a serialized [<strong>PROPVARIANT</strong>](https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx) structure. Programs should not inspect the contents of a [<strong>SERIALIZEDPROPERTYVALUE</strong>](/windows/desktop/api/Propidl/ns-propidl-tagserializedpropertyvalue); instead, they should manipulate it with the [<strong>StgSerializePropVariant</strong>](https://www.bing.com/search?q=<strong>StgSerializePropVariant</strong>) and [<strong>StgDeserializePropVariant</strong>](https://www.bing.com/search?q=<strong>StgDeserializePropVariant</strong>) functions.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>SFV_CREATE</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-_sfv_create)<br/></td>
@@ -395,24 +395,24 @@ In place of this structure, you can use the [<strong>DLLVERSIONINFO2</strong>](/
 </tr>
 <tr class="odd">
 <td>[<strong>SHCOLUMNDATA</strong>](/windows/desktop/api/Shlobj/ns-shlobj-shcolumndata)<br/></td>
-<td>Contains information that identifies a particular file. It is used by [<strong>IColumnProvider::GetItemData</strong>](/windows/desktop/api/Shlobj/) when requesting data for a particular file.<br/></td>
+<td>Contains information that identifies a particular file. It is used by [<strong>IColumnProvider::GetItemData</strong>](https://msdn.microsoft.com/en-us/library/Bb776146(v=VS.85).aspx) when requesting data for a particular file.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHCOLUMNID</strong>](/windows/desktop/api/Shobjidl/)<br/></td>
+<td>[<strong>SHCOLUMNID</strong>](https://msdn.microsoft.com/en-us/library/Bb759748(v=VS.85).aspx)<br/></td>
 <td>Specifies the FMTID/PID identifier of a column that will be displayed by the Windows Explorer Details view. <br/>
 <blockquote>
 [!Note]<br />
-As of Windows Vista, [<strong>SHCOLUMNID</strong>](/windows/desktop/api/Shobjidl/) is considered a legacy form and should not be used. In its place, use the [<strong>PROPERTYKEY</strong>](https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea) structure.
+As of Windows Vista, [<strong>SHCOLUMNID</strong>](https://msdn.microsoft.com/en-us/library/Bb759748(v=VS.85).aspx) is considered a legacy form and should not be used. In its place, use the [<strong>PROPERTYKEY</strong>](https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx) structure.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>SHCOLUMNINFO</strong>](/windows/desktop/api/Shlobj/ns-shlobj-shcolumninfo)<br/></td>
-<td>Contains information about the properties of a column. It is used by [<strong>IColumnProvider::GetColumnInfo</strong>](/windows/desktop/api/Shlobj/).<br/></td>
+<td>Contains information about the properties of a column. It is used by [<strong>IColumnProvider::GetColumnInfo</strong>](https://msdn.microsoft.com/en-us/library/Bb776145(v=VS.85).aspx).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SHCOLUMNINIT</strong>](/windows/desktop/api/Shlobj/ns-shlobj-shcolumninit)<br/></td>
-<td>Passes initialization information to [<strong>IColumnProvider::Initialize</strong>](/windows/desktop/api/Shlobj/).<br/></td>
+<td>Passes initialization information to [<strong>IColumnProvider::Initialize</strong>](https://msdn.microsoft.com/en-us/library/Bb776148(v=VS.85).aspx).<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>SHDESCRIPTIONID</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-_shdescriptionid)<br/></td>
@@ -439,7 +439,7 @@ As of Windows Vista, [<strong>SHCOLUMNID</strong>](/windows/desktop/api/Shobjid
 <td>Contains a set of flags that indicate the current Shell settings. This structure is used with the [<strong>SHGetSettings</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsettings) function.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHELLSTATE</strong>](/windows/desktop/api/Shlobj/ns-shlobj_core-shellstatea)<br/></td>
+<td>[<strong>SHELLSTATE</strong>](https://msdn.microsoft.com/en-us/library/Bb759788(v=VS.85).aspx)<br/></td>
 <td>Contains settings for the Shell's state. This structure is used with the [<strong>SHGetSetSettings</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings) function.<br/></td>
 </tr>
 <tr class="even">
@@ -501,15 +501,15 @@ As of Windows Vista, the use of the [<strong>IFileOperation</strong>](/windows/
 </tr>
 <tr class="odd">
 <td>[<strong>STRRET</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_strret)<br/></td>
-<td>Contains strings returned from the [<strong>IShellFolder</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellfolder) interface methods.<br/></td>
+<td>Contains strings returned from the [<strong>IShellFolder</strong>](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) interface methods.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SV2CVW2_PARAMS</strong>](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-_sv2cvw2_params)<br/></td>
 <td>Holds the parameters for the [<strong>IShellView2::CreateViewWindow2</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-createviewwindow2) method.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SYNC_HANDLER_ITEM_INFO</strong>](/windows/desktop/api/Syncmgr/)<br/></td>
-<td>Defines a handler for a scheduled synchronization. Used with [<strong>ISyncSchedule::AddItem</strong>](/windows/desktop/api/Syncmgr/).<br/></td>
+<td>[<strong>SYNC_HANDLER_ITEM_INFO</strong>](https://msdn.microsoft.com/en-us/library/Bb759836(v=VS.85).aspx)<br/></td>
+<td>Defines a handler for a scheduled synchronization. Used with [<strong>ISyncSchedule::AddItem</strong>](https://msdn.microsoft.com/en-us/library/Bb774680(v=VS.85).aspx).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SYNCMGR_CONFLICT_ID_INFO</strong>](/windows/desktop/api/Syncmgr/ns-syncmgr-syncmgr_conflict_id_info)<br/></td>
@@ -541,7 +541,7 @@ As of Windows Vista, the use of the [<strong>IFileOperation</strong>](/windows/
 </tr>
 <tr class="odd">
 <td>[<strong>WALLPAPEROPT</strong>](/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagwallpaperopt)<br/></td>
-<td>Contains the wallpaper display options. Used with members of the [<strong>IActiveDesktop</strong>](https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691) interface.<br/></td>
+<td>Contains the wallpaper display options. Used with members of the [<strong>IActiveDesktop</strong>](https://msdn.microsoft.com/en-us/library/Bb776357(v=VS.85).aspx) interface.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>WINDOWDATA</strong>](/windows/desktop/api/Tlogstg/ns-tlogstg-_windowdata)<br/></td>

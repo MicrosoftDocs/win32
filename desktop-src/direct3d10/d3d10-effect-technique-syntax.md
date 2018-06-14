@@ -198,7 +198,7 @@ Effect state groups are listed in [effect state](d3d10-effect-states.md).
 
 ## Examples
 
-This example (from [CubeMapGS sample](https://msdn.microsoft.com/windows/desktop/7bb33415-9ed7-1a13-637b-df3669cae2fa)) sets blending state.
+This example (from [CubeMapGS sample](https://msdn.microsoft.com/en-us/library/Ee416398(v=VS.85).aspx)) sets blending state.
 
 
 ```
@@ -241,7 +241,7 @@ technique10
 
 
 
-This example sets shader state (from [BasicHLSL10 sample](https://msdn.microsoft.com/windows/desktop/e749975d-211e-f7ed-5dd1-b9c29681c71b)); which uses a vertex and pixel shader.
+This example sets shader state (from [BasicHLSL10 sample](https://msdn.microsoft.com/en-us/library/Ee416395(v=VS.85).aspx)); which uses a vertex and pixel shader.
 
 
 ```

@@ -15,7 +15,7 @@ Provides methods that define interaction between a user interface (UI) and the S
 
 ## Members
 
-The **ISearchItem** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **ISearchItem** also has these types of members:
+The **ISearchItem** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **ISearchItem** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -28,7 +28,7 @@ The **ISearchItem** interface has these methods.
 | Method                                                         | Description                                                                                                                               |
 |:---------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetParentFolder**](-search-isearchitem-getparentfolder.md) | Gets the **ISearchItem** object if the URL represents an actual Shell data source (also known as a Shell namespace extension).<br/> |
-| [**GetUIObjectOf**](/windows/desktop/api/shobjidl_core/)     | Gets the user interface (UI) object of **ISearchItem**.<br/>                                                                        |
+| [**GetUIObjectOf**](https://msdn.microsoft.com/en-us/library/Dd756721(v=VS.85).aspx)     | Gets the user interface (UI) object of **ISearchItem**.<br/>                                                                        |
 
 
 

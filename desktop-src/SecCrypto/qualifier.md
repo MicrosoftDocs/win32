@@ -20,7 +20,7 @@ The **Qualifier** object represents a Certification Practice Statement (CPS) poi
 The **Qualifier** object is used to perform the following tasks:
 
 -   Retrieve the object identifier of the qualifier.
--   Retrieve the Uniform Resource Identifier (URI) that points to a CPS published by the [*certification authority*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CA).
+-   Retrieve the Uniform Resource Identifier (URI) that points to a CPS published by the [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA).
 -   Retrieve the name of the organization associated with the qualifier.
 -   Retrieve the name and content of a user notice.
 

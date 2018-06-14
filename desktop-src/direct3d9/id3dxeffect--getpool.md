@@ -39,7 +39,7 @@ Pointer to a [**ID3DXEffectPool**](id3dxeffectpool.md) object.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 This method always returns the value S\_OK.
 

@@ -122,7 +122,7 @@ PRT factors the rendering process into two stages, as shown in the following dia
 
 3.  Compute the exit radiance.
 
-    Equation 1 now has to be evaluated at every point using either a vertex or pixel shader. Before the shader can be evaluated, constants have to be precomputed and loaded into the constant table (see the [PRT Demo Sample](https://msdn.microsoft.com/windows/desktop/3c77628b-4b3c-ba39-ba14-90f0dc32d724) for details). The shader itself is a straightforward implementation of this equation.
+    Equation 1 now has to be evaluated at every point using either a vertex or pixel shader. Before the shader can be evaluated, constants have to be precomputed and loaded into the constant table (see the [PRT Demo Sample](https://msdn.microsoft.com/en-us/library/Ee418763(v=VS.85).aspx) for details). The shader itself is a straightforward implementation of this equation.
 
     ```
     struct VS_OUTPUT

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Microsoft Enhanced DSS and Diffie-Hellman Cryptographic Provider
 
-The Microsoft enhanced DSS and [*Diffie-Hellman*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2) Cryptographic Provider supports *Diffie-Hellman* key exchange, SHA hashing, DSA data signing and verification (FIPS 186-2), and RC4 symmetric encryption algorithms.
+The Microsoft enhanced DSS and [*Diffie-Hellman*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) Cryptographic Provider supports *Diffie-Hellman* key exchange, SHA hashing, DSA data signing and verification (FIPS 186-2), and RC4 symmetric encryption algorithms.
 
 <dl> Provider type: **PROV\_DSS\_DH**  
 Provider name: **MS\_ENH\_DSS\_DH\_PROV**  
@@ -30,8 +30,8 @@ This cryptographic provider supports the following algorithms.
 | **CALG\_SHA1**        | Hash            | 160                 | Secure Hash Algorithm 1 (SHA-1).                                                                                                                           |
 | **CALG\_MD5**         | Hash            | 128                 | Message Digest 5 (MD5).                                                                                                                                    |
 | **CALG\_DSS\_SIGN**   | Signature       | 1024                | Digital Signature Algorithm (DSA).                                                                                                                         |
-| **CALG\_DH\_SF**      | Key exchange    | 1024                | Store and forward [*Diffie-Hellman*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2) key exchange algorithm. |
-| **CALG\_DH\_EPHEM**   | Key exchange    | 1024                | [*Diffie-Hellman*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2) ephemeral algorithm.                      |
+| **CALG\_DH\_SF**      | Key exchange    | 1024                | Store and forward [*Diffie-Hellman*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) key exchange algorithm. |
+| **CALG\_DH\_EPHEM**   | Key exchange    | 1024                | [*Diffie-Hellman*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) ephemeral algorithm.                      |
 
 
 

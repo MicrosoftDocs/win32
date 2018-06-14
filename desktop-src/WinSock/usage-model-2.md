@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # Usage Model
 
-Usage and implementation guidance for QoS-enabled applications and services are provided in a separate section in the Microsoft Windows Software Development Kit (SDK) that is dedicated to QoS. Please see the [Quality of Service (QoS)](https://msdn.microsoft.com/2a017166-eba4-4dd9-b623-f0d696e11de2) section of the Windows SDK for more detailed information on the QoS usage model.
+Usage and implementation guidance for QoS-enabled applications and services are provided in a separate section in the Microsoft Windows Software Development Kit (SDK) that is dedicated to QoS. Please see the [Quality of Service (QoS)](https://msdn.microsoft.com/en-US/library/Aa374094(v=VS.80).aspx) section of the Windows SDK for more detailed information on the QoS usage model.
 
 ## Related topics
 
 <dl> <dt>
 
-[Quality of Service (QoS)](https://msdn.microsoft.com/2a017166-eba4-4dd9-b623-f0d696e11de2)
+[Quality of Service (QoS)](https://msdn.microsoft.com/en-US/library/Aa374094(v=VS.80).aspx)
 </dt> <dt>
 
 [Quality of Service in the Windows Sockets 2 SPI](quality-of-service-in-the-windows-sockets-2-spi-2.md)

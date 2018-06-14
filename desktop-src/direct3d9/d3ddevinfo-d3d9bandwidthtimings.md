@@ -35,7 +35,7 @@ typedef struct D3DDEVINFO_D3D9BANDWIDTHTIMINGS {
 **MaxBandwidthUtilized**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -46,7 +46,7 @@ The bandwidth or maximum data transfer rate from the host CPU to the GPU. This i
 **FrontEndUploadMemoryUtilizedPercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -57,7 +57,7 @@ Memory utilized percentage when uploading data from the host CPU to the GPU.
 **VertexRateUtilizedPercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -68,7 +68,7 @@ Vertex throughput percentage. This is the number of vertices processed compared 
 **TriangleSetupRateUtilizedPercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -79,7 +79,7 @@ Triangle set-up throughput percentage. This is the number of triangles that are 
 **FillRateUtilizedPercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

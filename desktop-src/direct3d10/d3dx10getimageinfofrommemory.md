@@ -35,7 +35,7 @@ HRESULT D3DX10GetImageInfoFromMemory(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the image in memory.
 
@@ -44,7 +44,7 @@ Pointer to the image in memory.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Size of the image in memory, in bytes.
 
@@ -71,7 +71,7 @@ Information about the image in memory.
 *pHResult* \[out\]
 </dt> <dd>
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)\***
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)\***
 
 A pointer to the return value. May be **NULL**. If *pPump* is not **NULL**, then *pHResult* must be a valid memory location until the asynchronous execution completes.
 
@@ -79,7 +79,7 @@ A pointer to the return value. May be **NULL**. If *pPump* is not **NULL**, then
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

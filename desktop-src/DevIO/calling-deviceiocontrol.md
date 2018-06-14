@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Calling DeviceIoControl
 
-An application can use the [**DeviceIoControl**](/windows/desktop/api/Winbase/nf-classpnp-classsenddeviceiocontrolsynchronous) function to perform direct input and output operations on, or retrieve information about, a floppy disk drive, hard disk drive, tape drive, or CD-ROM drive. For a list of standard control codes included in the SDK documentation, see the Remarks section of **DeviceIoControl**.
+An application can use the [**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx) function to perform direct input and output operations on, or retrieve information about, a floppy disk drive, hard disk drive, tape drive, or CD-ROM drive. For a list of standard control codes included in the SDK documentation, see the Remarks section of **DeviceIoControl**.
 
-The following example demonstrates how to retrieve information about the first physical drive in the system. It uses the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function to retrieve the device handle to the first physical drive, and then uses [**DeviceIoControl**](/windows/desktop/api/Winbase/nf-classpnp-classsenddeviceiocontrolsynchronous) with the [IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY](https://msdn.microsoft.com/library/windows/desktop/aa365169) control code to fill a [**DISK\_GEOMETRY**](https://msdn.microsoft.com/library/windows/desktop/aa363972) structure with information about the drive.
+The following example demonstrates how to retrieve information about the first physical drive in the system. It uses the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function to retrieve the device handle to the first physical drive, and then uses [**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx) with the [IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY](https://msdn.microsoft.com/library/windows/desktop/aa365169) control code to fill a [**DISK\_GEOMETRY**](https://msdn.microsoft.com/library/windows/desktop/aa363972) structure with information about the drive.
 
 
 ```C++

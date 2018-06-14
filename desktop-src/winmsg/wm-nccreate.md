@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Sent prior to the [**WM\_CREATE**](wm-create.md) message when a window is first created.
 
-A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -36,7 +36,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to the [**CREATESTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagclientcreatestruct) structure that contains information about the window being created. The members of **CREATESTRUCT** are identical to the parameters of the [**CreateWindowEx**](/windows/desktop/api/Winuser/nf-winuser-createwindowexa) function.
+A pointer to the [**CREATESTRUCT**](https://msdn.microsoft.com/en-us/library/ms632603(v=VS.85).aspx) structure that contains information about the window being created. The members of **CREATESTRUCT** are identical to the parameters of the [**CreateWindowEx**](https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx) function.
 
 </dd> </dl>
 
@@ -44,7 +44,7 @@ A pointer to the [**CREATESTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagc
 
 Type: **LRESULT**
 
-If an application processes this message, it should return **TRUE** to continue creation of the window. If the application returns **FALSE**, the [**CreateWindow**](/windows/desktop/api/Winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](/windows/desktop/api/Winuser/nf-winuser-createwindowexa) function will return a **NULL** handle.
+If an application processes this message, it should return **TRUE** to continue creation of the window. If the application returns **FALSE**, the [**CreateWindow**](https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx) or [**CreateWindowEx**](https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx) function will return a **NULL** handle.
 
 ## Requirements
 
@@ -65,16 +65,16 @@ If an application processes this message, it should return **TRUE** to continue 
 **Reference**
 </dt> <dt>
 
-[**CreateWindow**](/windows/desktop/api/Winuser/nf-winuser-createwindowa)
+[**CreateWindow**](https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx)
 </dt> <dt>
 
-[**CreateWindowEx**](/windows/desktop/api/Winuser/nf-winuser-createwindowexa)
+[**CreateWindowEx**](https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx)
 </dt> <dt>
 
-[**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
-[**CREATESTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagclientcreatestruct)
+[**CREATESTRUCT**](https://msdn.microsoft.com/en-us/library/ms632603(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_CREATE**](wm-create.md)

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Retrieving the Last-Error Code
 
-When many system functions fail, they set the last-error code. If your application needs more details about an error, it can retrieve the last-error code using the [**GetLastError**](/windows/desktop/api/WinBase/) function and display a description of the error using the [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) function.
+When many system functions fail, they set the last-error code. If your application needs more details about an error, it can retrieve the last-error code using the [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) function and display a description of the error using the [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) function.
 
 The following example includes an error-handling function that prints the error message and terminates the process. The *lpszFunction* parameter is the name of the function that set the last-error code.
 

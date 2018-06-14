@@ -15,7 +15,7 @@ WinHTTP uses the following callback:
 
 <dl> <dt>
 
-[**WINHTTP\_STATUS\_CALLBACK**](/windows/desktop/api/Winhttp/nc-winhttp-winhttp_status_callback)
+[**WINHTTP\_STATUS\_CALLBACK**](https://msdn.microsoft.com/en-us/library/Aa383917(v=VS.85).aspx)
 </dt> <dd>
 
 Prototype for an application-defined status callback function.

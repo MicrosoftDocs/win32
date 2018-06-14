@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_SMBIOSMemory class
 
-The **Win32\_SMBIOSMemory** abstract [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents the properties of a computer system memory as seen through the system management BIOS (SMBIOS) interface. The SMBIOS interface does not distinguish between nonvolatile, volatile, and flash memories. The [**CIM\_Memory**](cim-memory.md) class is the parent class of all types of memory.
+The **Win32\_SMBIOSMemory** abstract [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) represents the properties of a computer system memory as seen through the system management BIOS (SMBIOS) interface. The SMBIOS interface does not distinguish between nonvolatile, volatile, and flash memories. The [**CIM\_Memory**](cim-memory.md) class is the parent class of all types of memory.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -161,7 +161,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Vendor Syndrome"), [**MAX**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Vendor Syndrome"), [**MAX**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Array of octets that hold additional error information. An example is Error Checking and Correcting (ECC) Syndrome, or the return of the check bits if a CRC-based error methodology is used. In the latter case, if a single bit error is recognized and the cyclical redundancy check (CRC) algorithm is known, it is possible to determine the exact bit that failed. This type of data (ECC Syndrome, Check Bit or Parity Bit data, or other vendor supplied information) is included in this field. If the **ErrorInfo** property is equal to 3 (OK), then this property has no meaning.
@@ -177,7 +177,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Operational State\|003.5", "MIB.IETF\|HOST-RESOURCES-MIB.hrDeviceStatus")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Operational State\|003.5", "MIB.IETF\|HOST-RESOURCES-MIB.hrDeviceStatus")
 </dt> </dl>
 
 Availability and status of the device.
@@ -380,7 +380,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIB.IETF\|HOST-RESOURCES-MIB.hrStorageAllocationUnits"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("bytes")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|HOST-RESOURCES-MIB.hrStorageAllocationUnits"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("bytes")
 </dt> </dl>
 
 Size in bytes of the blocks that form this storage extent. If unknown or if a block concept is not valid (for example, for aggregate extents, memory or logical disks), enter a 1.
@@ -400,7 +400,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Caption")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Caption")
 </dt> </dl>
 
 Short description of the object—a one-line string.
@@ -418,7 +418,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32")
+Qualifiers: [**Schema**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32")
 </dt> </dl>
 
 Win32 Configuration Manager error code.
@@ -778,7 +778,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32")
+Qualifiers: [**Schema**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32")
 </dt> </dl>
 
 If **TRUE**, the device is using a user-defined configuration.
@@ -796,7 +796,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Error Type")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Error Type")
 </dt> </dl>
 
 If **TRUE**, the most recent error was correctable. If the **ErrorInfo** property is equal to 3 (OK), then this property has no meaning.
@@ -812,7 +812,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 Name of the first concrete class that appears in the inheritance chain used in the creation of an instance. When used with the other key properties of the class, the property allows all instances of this class and its subclasses to be identified uniquely.
@@ -830,7 +830,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Description")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Description")
 </dt> </dl>
 
 Description of the object.
@@ -848,7 +848,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 Unique identifier of the logical device.
@@ -866,7 +866,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 19\|Memory Device Mapped Addresses\|Ending Address")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 19\|Memory Device Mapped Addresses\|Ending Address")
 </dt> </dl>
 
 Ending address, referenced by an application or operating system and mapped by a memory controller for this memory object. The ending address is specified in kilobytes.
@@ -884,7 +884,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Error Operation")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Error Operation")
 </dt> </dl>
 
 Memory access operation that caused the last error. The type of error is described by the **ErrorInfo** property. If **ErrorInfo** is equal to 3 (OK), then this property has no meaning.
@@ -937,7 +937,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Error Address")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Error Address")
 </dt> </dl>
 
 Address of the last memory error. The type of error is described by the **ErrorInfo** property. If **ErrorInfo** is equal to 3 (OK), then this property has no meaning.
@@ -970,7 +970,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ArrayType**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Indexed"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS"), [**MAX**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**ArrayType**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Indexed"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS"), [**MAX**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Array of data captured during the last erroneous memory access. The data occupies the first *n* octets of the array necessary to hold the number of bits specified by the **ErrorTransferSize** property. If **ErrorTransferSize** is 0 (zero), then this property has no meaning.
@@ -986,7 +986,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI")
 </dt> </dl>
 
 Ordering for data stored in the **ErrorData** property. If **ErrorTransferSize** is 0 (zero), then this property has no meaning.
@@ -1040,7 +1040,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_Memory**](cim-memory.md).**OtherErrorDescription**"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Error Type")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Memory**](cim-memory.md).**OtherErrorDescription**"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Error Type")
 </dt> </dl>
 
 Type of error that occurred most recently. The values 12 through 14 are unused. The ability to be corrected is indicated in the property **CorrectableError**.
@@ -1156,7 +1156,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("ErrorMethodology"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 16\|Physical Memory Array\|Memory Error Correction")
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("ErrorMethodology"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 16\|Physical Memory Array\|Memory Error Correction")
 </dt> </dl>
 
 Details on the parity or CRC algorithms, ECC or other mechanisms used.
@@ -1225,7 +1225,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Error Resolution"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("bytes")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Error Resolution"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("bytes")
 </dt> </dl>
 
 Range, in bytes, to which the last error can be resolved. For example, if error addresses are resolved to bit 11 (that is, on a typical page basis), then errors can be resolved to 4 KB boundaries and this property is set to 4000. If the **ErrorInfo** property is equal to 3 (OK), then this property has no meaning.
@@ -1243,7 +1243,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI")
 </dt> </dl>
 
 Time that the last memory error occurred. The type of error is described by the **ErrorInfo** property. If the **ErrorInfo** property is equal to 3 (OK), then this property has no meaning.
@@ -1259,7 +1259,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("bits")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("bits")
 </dt> </dl>
 
 Size of the data transfer in bits that caused the last error—0 (zero) indicates no error. If the **ErrorInfo** property is equal to 3 (OK), then this property should be set to 0 (zero).
@@ -1275,7 +1275,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Install Date")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Install Date")
 </dt> </dl>
 
 Date and time the object was installed. This property does not need a value to indicate that the object is installed.
@@ -1308,7 +1308,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Name")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Name")
 </dt> </dl>
 
 Label by which the object is known. When subclassed, the property can be overridden to be a key property.
@@ -1326,7 +1326,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIB.IETF\|HOST-RESOURCES-MIB.hrStorageSize")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIB.IETF\|HOST-RESOURCES-MIB.hrStorageSize")
 </dt> </dl>
 
 Total number of consecutive blocks, each block the size of the value contained in the **BlockSize** property, which form this storage extent. Total size of the storage extent can be calculated by multiplying the value of the **BlockSize** property by the value of this property. If the value of **BlockSize** is 1, this property is the total size of the storage extent.
@@ -1346,7 +1346,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_Memory**](cim-memory.md).**ErrorInfo**"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Memory**](cim-memory.md).**ErrorInfo**"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS")
 </dt> </dl>
 
 Free-form string that provides more information if the **ErrorType** property is set to 1; otherwise, this string has no meaning.
@@ -1362,7 +1362,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Schema**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32")
+Qualifiers: [**Schema**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32")
 </dt> </dl>
 
 Windows Plug and Play device identifier of the logical device.
@@ -1438,7 +1438,7 @@ The device can change its power state based on usage or other criteria.
 
 </dt> <dd>
 
-The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported. This method is found on the parent **CIM\_LogicalDevice** class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](https://msdn.microsoft.com/20ef6b88-2aaa-4e86-bc4a-bebc34069672).
+The [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) method is supported. This method is found on the parent **CIM\_LogicalDevice** class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](https://msdn.microsoft.com/en-us/library/Aa390351(v=VS.85).aspx).
 
 </dd> <dt>
 
@@ -1507,7 +1507,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 19\|Memory Device Mapped Addresses\|Starting Address")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 19\|Memory Device Mapped Addresses\|Starting Address")
 </dt> </dl>
 
 Beginning address that is referenced by an application or operating system, and mapped by a memory controller for this memory object. The starting address is specified in kilobytes.
@@ -1525,7 +1525,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (10), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Status")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", could apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither "OK" nor in one of the other states.
@@ -1631,7 +1631,7 @@ Data type: **uint16e**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|Operational State\|003.3")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|Operational State\|003.3")
 </dt> </dl>
 
 State of the logical device. If this property does not apply to the logical device, the value 5 (Not Applicable) should be used.
@@ -1686,7 +1686,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**CreationClassName**"), [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 Value of the scoping computer's **CreationClassName** property.
@@ -1704,7 +1704,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Error Address")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 18\|32-bit Memory Error Information\|Error Address")
 </dt> </dl>
 
 If **TRUE**, the address information in the **ErrorAddress** property is a system-level address. If **FALSE**, it is a physical address. If the **ErrorInfo** property is equal to 3 (OK), then this property has no meaning.
@@ -1720,7 +1720,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_System**](cim-system.md).**Name**"), [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 Name of the scoping system.

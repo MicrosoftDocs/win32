@@ -38,7 +38,7 @@ The following sections discuss examples of issues found with using managed code 
 
 ### Re-entrancy
 
-When the CLR blocks a single-threaded apartment (STA) thread, for example, due to a Monitor.Enter, WaitHandle.WaitOne, or contended [**lock**](https://msdn.microsoft.com/windows/desktop/656da1a4-707e-4ef6-9c6e-6d13b646af42) statement, the CLR, in its standard configuration, enters a nested message loop while it waits. Many extension methods are prohibited from processing messages, and this unpredictable and unexpected reentrancy can result in anomalous behavior which is difficult to reproduce and diagnose.
+When the CLR blocks a single-threaded apartment (STA) thread, for example, due to a Monitor.Enter, WaitHandle.WaitOne, or contended [**lock**](https://msdn.microsoft.com/en-us/library/c5kehkcz(v=VS.71).aspx) statement, the CLR, in its standard configuration, enters a nested message loop while it waits. Many extension methods are prohibited from processing messages, and this unpredictable and unexpected reentrancy can result in anomalous behavior which is difficult to reproduce and diagnose.
 
 ### The Multithreaded Apartment
 
@@ -48,8 +48,8 @@ The CLR creates *Runtime Callable Wrappers* for Component Object Model (COM) obj
 
 The CLR has weaker object lifetime guarantees than native code. Many extensions have reference count requirements on objects and interfaces, and the garbage-collection model employed by the CLR cannot fulfill these requirements.
 
--   If a CLR object obtains a reference to a COM object, the COM object reference held by the Runtime Callable Wrapper is not released until the Runtime Callable Wrapper is garbage-collected. Nondeterministic release behavior can conflict with some interface contracts. For example, the [**IPersistPropertyBag::Load**](https://msdn.microsoft.com/windows/desktop/fd187cae-5786-46c3-8812-ae6c7690b6ea) method requires that no reference to the property bag be retained by the object when the **Load** method returns.
--   If a CLR object reference is returned to native code, the Runtime Callable Wrapper relinquishes its reference to the CLR object when the Runtime Callable Wrapper's final call to [**Release**](https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) is made, but the underlying CLR object is not finalized until it is garbage-collected. Nondeterministic finalization can conflict with some interface contracts. For example, thumbnail handlers are required to release all resources immediately when their reference count drops to zero.
+-   If a CLR object obtains a reference to a COM object, the COM object reference held by the Runtime Callable Wrapper is not released until the Runtime Callable Wrapper is garbage-collected. Nondeterministic release behavior can conflict with some interface contracts. For example, the [**IPersistPropertyBag::Load**](https://www.bing.com/search?q=**IPersistPropertyBag::Load**) method requires that no reference to the property bag be retained by the object when the **Load** method returns.
+-   If a CLR object reference is returned to native code, the Runtime Callable Wrapper relinquishes its reference to the CLR object when the Runtime Callable Wrapper's final call to [**Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) is made, but the underlying CLR object is not finalized until it is garbage-collected. Nondeterministic finalization can conflict with some interface contracts. For example, thumbnail handlers are required to release all resources immediately when their reference count drops to zero.
 
 ## Acceptable Uses of Managed Code and Other Runtimes
 
@@ -61,9 +61,9 @@ It is acceptable to use managed code and other runtimes to implement out-of-proc
 
 Some extensions can be implemented either as in-process or out-of-process extensions. You can implement these extensions as out-of-process extensions if they do not meet these requirements for in-process extensions. The following list shows examples of extensions that can be implemented as either in-process or out-of-process extensions:
 
--   [**IExecuteCommand**](https://msdn.microsoft.com/a3432f1a-dd33-4e0d-8b26-1312bb5151f7) associated with a **DelegateExecute** entry registered under a **shell**\\*verb*\\**command** subkey.
--   [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) associated with the CLSID registered under a **shell**\\*verb*\\**DropTarget** subkey.
--   [**IExplorerCommandState**](https://msdn.microsoft.com/020a6f6f-1d45-44bd-a57f-ef8000976b5b) associated with a **CommandStateHandler** entry registered under a **shell**\\*verb* subkey.
+-   [**IExecuteCommand**](https://msdn.microsoft.com/en-us/library/Dd378382(v=VS.85).aspx) associated with a **DelegateExecute** entry registered under a **shell**\\*verb*\\**command** subkey.
+-   [**IDropTarget**](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx) associated with the CLSID registered under a **shell**\\*verb*\\**DropTarget** subkey.
+-   [**IExplorerCommandState**](https://msdn.microsoft.com/en-us/library/Dd378380(v=VS.85).aspx) associated with a **CommandStateHandler** entry registered under a **shell**\\*verb* subkey.
 
  
 

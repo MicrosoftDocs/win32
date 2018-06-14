@@ -34,7 +34,7 @@ If an error occurs, Microsoft DirectComposition returns a code as an **HRESULT**
 
 
 
-The window handle that was specified in a call to the [**IDCompositionDevice::CreateTargetForHwnd**](/windows/desktop/api/Dcomp/) method belongs to a different process from the one that created the device object.
+The window handle that was specified in a call to the [**IDCompositionDevice::CreateTargetForHwnd**](https://msdn.microsoft.com/en-us/library/Hh437396(v=VS.85).aspx) method belongs to a different process from the one that created the device object.
 
 
 </dt> </dl> </dd> <dt>
@@ -47,7 +47,7 @@ The window handle that was specified in a call to the [**IDCompositionDevice::Cr
 
 
 
-The surface was already being rendered when the application called the [**IDCompositionSurface::BeginDraw**](/windows/desktop/api/Dcomp/), [**IDCompositionSurface::SuspendDraw**](/windows/desktop/api/Dcomp/), or [**IDCompositionSurface::ResumeDraw**](/windows/desktop/api/Dcomp/) method. For more information, see Remarks.
+The surface was already being rendered when the application called the [**IDCompositionSurface::BeginDraw**](https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx), [**IDCompositionSurface::SuspendDraw**](https://msdn.microsoft.com/en-us/library/Hh449106(v=VS.85).aspx), or [**IDCompositionSurface::ResumeDraw**](https://msdn.microsoft.com/en-us/library/Hh449104(v=VS.85).aspx) method. For more information, see Remarks.
 
 
 </dt> </dl> </dd> <dt>
@@ -60,7 +60,7 @@ The surface was already being rendered when the application called the [**IDComp
 
 
 
-The application called the [**IDCompositionSurface::SuspendDraw**](/windows/desktop/api/Dcomp/), [**IDCompositionSurface::ResumeDraw**](/windows/desktop/api/Dcomp/), or [**IDCompositionSurface::EndDraw**](/windows/desktop/api/Dcomp/) method for a surface that is not being rendered. For more information, see Remarks.
+The application called the [**IDCompositionSurface::SuspendDraw**](https://msdn.microsoft.com/en-us/library/Hh449106(v=VS.85).aspx), [**IDCompositionSurface::ResumeDraw**](https://msdn.microsoft.com/en-us/library/Hh449104(v=VS.85).aspx), or [**IDCompositionSurface::EndDraw**](https://msdn.microsoft.com/en-us/library/Hh449102(v=VS.85).aspx) method for a surface that is not being rendered. For more information, see Remarks.
 
 
 </dt> </dl> </dd> <dt>
@@ -73,68 +73,68 @@ The application called the [**IDCompositionSurface::SuspendDraw**](/windows/desk
 
 
 
-The [**IDCompositionDevice::CreateTargetForHwnd**](/windows/desktop/api/Dcomp/) method was called with *hwnd* and *topmost* parameters for which a visual tree already exists.
+The [**IDCompositionDevice::CreateTargetForHwnd**](https://msdn.microsoft.com/en-us/library/Hh437396(v=VS.85).aspx) method was called with *hwnd* and *topmost* parameters for which a visual tree already exists.
 
 
 </dt> </dl> </dd> </dl>
 
 ## Remarks
 
-If a call to the [**IDCompositionSurface::BeginDraw**](/windows/desktop/api/Dcomp/) was the most recent action:
+If a call to the [**IDCompositionSurface::BeginDraw**](https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx) was the most recent action:
 
 
 
 | Calling this method:                                    | Returns this value:                               |
 |---------------------------------------------------------|---------------------------------------------------|
-| [**BeginDraw**](/windows/desktop/api/Dcomp/)     | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
-| [**EndDraw**](/windows/desktop/api/Dcomp/)         | S\_OK                                             |
-| [**SuspendDraw**](/windows/desktop/api/Dcomp/) | S\_OK                                             |
-| [**ResumeDraw**](/windows/desktop/api/Dcomp/)   | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
+| [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx)     | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
+| [**EndDraw**](https://msdn.microsoft.com/en-us/library/Hh449102(v=VS.85).aspx)         | S\_OK                                             |
+| [**SuspendDraw**](https://msdn.microsoft.com/en-us/library/Hh449106(v=VS.85).aspx) | S\_OK                                             |
+| [**ResumeDraw**](https://msdn.microsoft.com/en-us/library/Hh449104(v=VS.85).aspx)   | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
 
 
 
  
 
-If a call to the [**IDCompositionSurface::SuspendDraw**](/windows/desktop/api/Dcomp/) was the most recent action:
+If a call to the [**IDCompositionSurface::SuspendDraw**](https://msdn.microsoft.com/en-us/library/Hh449106(v=VS.85).aspx) was the most recent action:
 
 
 
 | Calling this method:                                    | Returns this value:                               |
 |---------------------------------------------------------|---------------------------------------------------|
-| [**BeginDraw**](/windows/desktop/api/Dcomp/)     | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
-| [**EndDraw**](/windows/desktop/api/Dcomp/)         | S\_OK                                             |
-| [**SuspendDraw**](/windows/desktop/api/Dcomp/) | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
-| [**ResumeDraw**](/windows/desktop/api/Dcomp/)   | S\_OK                                             |
+| [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx)     | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
+| [**EndDraw**](https://msdn.microsoft.com/en-us/library/Hh449102(v=VS.85).aspx)         | S\_OK                                             |
+| [**SuspendDraw**](https://msdn.microsoft.com/en-us/library/Hh449106(v=VS.85).aspx) | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
+| [**ResumeDraw**](https://msdn.microsoft.com/en-us/library/Hh449104(v=VS.85).aspx)   | S\_OK                                             |
 
 
 
  
 
-If a call to the [**IDCompositionSurface::ResumeDraw**](/windows/desktop/api/Dcomp/) was the most recent action:
+If a call to the [**IDCompositionSurface::ResumeDraw**](https://msdn.microsoft.com/en-us/library/Hh449104(v=VS.85).aspx) was the most recent action:
 
 
 
 | Calling this method:                                    | Returns this value:                                |
 |---------------------------------------------------------|----------------------------------------------------|
-| [**BeginDraw**](/windows/desktop/api/Dcomp/)     | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED**  |
-| [**EndDraw**](/windows/desktop/api/Dcomp/)         | S\_OK                                              |
-| [**SuspendDraw**](/windows/desktop/api/Dcomp/) | S\_OK                                              |
-| [**ResumeDraw**](/windows/desktop/api/Dcomp/)   | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED.** |
+| [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx)     | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED**  |
+| [**EndDraw**](https://msdn.microsoft.com/en-us/library/Hh449102(v=VS.85).aspx)         | S\_OK                                              |
+| [**SuspendDraw**](https://msdn.microsoft.com/en-us/library/Hh449106(v=VS.85).aspx) | S\_OK                                              |
+| [**ResumeDraw**](https://msdn.microsoft.com/en-us/library/Hh449104(v=VS.85).aspx)   | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED.** |
 
 
 
  
 
-If a call to the [**IDCompositionSurface::EndDraw**](/windows/desktop/api/Dcomp/) was the most recent action:
+If a call to the [**IDCompositionSurface::EndDraw**](https://msdn.microsoft.com/en-us/library/Hh449102(v=VS.85).aspx) was the most recent action:
 
 
 
 | Calling this method:                                    | Returns this value:                                     |
 |---------------------------------------------------------|---------------------------------------------------------|
-| [**BeginDraw**](/windows/desktop/api/Dcomp/)     | S\_OK                                                   |
-| [**EndDraw**](/windows/desktop/api/Dcomp/)         | **DCOMPOSITION\_ERROR\_SURFACE\_NOT\_BEING\_RENDERED.** |
-| [**SuspendDraw**](/windows/desktop/api/Dcomp/) | **DCOMPOSITION\_ERROR\_SURFACE\_NOT\_BEING\_RENDERED.** |
-| [**ResumeDraw**](/windows/desktop/api/Dcomp/)   | **DCOMPOSITION\_ERROR\_SURFACE\_NOT\_BEING\_RENDERED.** |
+| [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx)     | S\_OK                                                   |
+| [**EndDraw**](https://msdn.microsoft.com/en-us/library/Hh449102(v=VS.85).aspx)         | **DCOMPOSITION\_ERROR\_SURFACE\_NOT\_BEING\_RENDERED.** |
+| [**SuspendDraw**](https://msdn.microsoft.com/en-us/library/Hh449106(v=VS.85).aspx) | **DCOMPOSITION\_ERROR\_SURFACE\_NOT\_BEING\_RENDERED.** |
+| [**ResumeDraw**](https://msdn.microsoft.com/en-us/library/Hh449104(v=VS.85).aspx)   | **DCOMPOSITION\_ERROR\_SURFACE\_NOT\_BEING\_RENDERED.** |
 
 
 

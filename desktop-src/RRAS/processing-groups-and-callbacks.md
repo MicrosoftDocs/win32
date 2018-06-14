@@ -49,7 +49,7 @@ The tasks listed in this table do not occur in any specific order; rather, they 
 <li>Join or leave groups ( [<strong>PMGM_JOIN_ALERT_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_join_alert_callback), [<strong>PMGM_PRUNE_ALERT_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_prune_alert_callback)).</li>
 <li>Group membership changed by IGMP ( [<strong>PMGM_LOCAL_JOIN_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_local_join_callback), [<strong>PMGM_LOCAL_LEAVE_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_local_leave_callback)).</li>
 <li>Data received on wrong interface ( [<strong>PMGM_WRONG_IF_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_wrong_if_callback)).</li>
-<li>Data received from new sources or to a new group ( [<strong>PMGM_CREATION_ALERT_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_creation_alert_callback) and [<strong>PMGM_RPF_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_rpf_callback)).</li>
+<li>Data received from new sources or to a new group ( [<strong>PMGM_CREATION_ALERT_CALLBACK</strong>](https://msdn.microsoft.com/en-us/library/Aa376677(v=VS.85).aspx) and [<strong>PMGM_RPF_CALLBACK</strong>](/windows/desktop/api/Mgm/nc-mgm-pmgm_rpf_callback)).</li>
 </ul></td>
 <td>Using these callbacks, the multicast group manager is able to coordinate packet forwarding when several multicast routing protocols are present on a router.</td>
 </tr>

@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 
 # Command Messages
 
-The command-message interface is designed to be used by applications requiring a C-language interface to control multimedia devices. It uses a message-passing paradigm to communicate with MCI devices. You can send a command by using the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function.
+The command-message interface is designed to be used by applications requiring a C-language interface to control multimedia devices. It uses a message-passing paradigm to communicate with MCI devices. You can send a command by using the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function.
 
-The **mciSendCommand** function returns zero if successful. If the function fails, the low-order word of the return value contains an error code. You can pass this error code to the [**mciGetErrorString**](/windows/desktop/api/Mmsystem/) function to get a text description of the error.
+The **mciSendCommand** function returns zero if successful. If the function fails, the low-order word of the return value contains an error code. You can pass this error code to the [**mciGetErrorString**](https://msdn.microsoft.com/en-us/library/Dd757158(v=VS.85).aspx) function to get a text description of the error.
 
 ## Syntax of Command Messages
 
@@ -27,7 +27,7 @@ MCI command messages consist of the following elements:
 -   A structure containing parameters for the command
 -   A set of flags specifying options for the command and validating fields in the parameter block
 
-The following example uses the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function to send the [**MCI\_ PLAY**](mci-play.md) command to the device identified by a device identifier.
+The following example uses the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to send the [**MCI\_ PLAY**](mci-play.md) command to the device identified by a device identifier.
 
 
 ```C++

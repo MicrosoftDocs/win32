@@ -19,7 +19,7 @@ When the following types of applications are installed, installation information
 
 For all three instances, register COM library (DLL) information and application-specific information.
 
-The DLL registers the information for all its components by exporting [**DllRegisterServer**](/windows/desktop/api/Olectl/nf-olectl-dllregisterserver) and [**DllUnregisterServer**](/windows/desktop/api/Olectl/nf-olectl-dllunregisterserver). Use the following functions to register and unregister a component:
+The DLL registers the information for all its components by exporting [**DllRegisterServer**](https://msdn.microsoft.com/en-us/library/ms682162(v=VS.85).aspx) and [**DllUnregisterServer**](https://msdn.microsoft.com/en-us/library/ms691457(v=VS.85).aspx). Use the following functions to register and unregister a component:
 
 -   [**RegOpenKeyEx**](https://msdn.microsoft.com/library/windows/desktop/ms724897)
 -   [**RegCreateKeyEx**](https://msdn.microsoft.com/library/windows/desktop/ms724844)

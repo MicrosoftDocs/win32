@@ -19,12 +19,12 @@ The [**IMsRdpWorkspace**](imsrdpworkspace.md) interface exposes the following me
 
 ## In this section
 
--   [**ClearWorkspaceCredential method**](/windows/desktop/api/workspaceruntime/)
--   [**DisconnectWorkspace method**](/windows/desktop/api/workspaceruntime/)
--   [**IsWorkspaceCredentialSpecified method**](/windows/desktop/api/workspaceruntime/)
--   [**IsWorkspaceSSOEnabled method**](/windows/desktop/api/workspaceruntime/)
--   [**OnAuthenticated method**](/windows/desktop/api/workspaceruntime/)
--   [**StartWorkspace method**](/windows/desktop/api/workspaceruntime/)
+-   [**ClearWorkspaceCredential method**](https://msdn.microsoft.com/en-us/library/Ee351596(v=VS.85).aspx)
+-   [**DisconnectWorkspace method**](https://msdn.microsoft.com/en-us/library/Ee351597(v=VS.85).aspx)
+-   [**IsWorkspaceCredentialSpecified method**](https://msdn.microsoft.com/en-us/library/Ee351598(v=VS.85).aspx)
+-   [**IsWorkspaceSSOEnabled method**](https://msdn.microsoft.com/en-us/library/Ee351599(v=VS.85).aspx)
+-   [**OnAuthenticated method**](https://msdn.microsoft.com/en-us/library/Ee351600(v=VS.85).aspx)
+-   [**StartWorkspace method**](https://msdn.microsoft.com/en-us/library/Ee351601(v=VS.85).aspx)
 
  
 

@@ -15,7 +15,7 @@ There are three classes provided by the COMAdmin library (comadmin.dll), each of
 
 ## COMAdminCatalog
 
-The [**COMAdminCatalog**](/windows/desktop/api/ComAdmin/) class represents the catalog itself. An object created from **COMAdminCatalog** is the fundamental object that you use in programmatic administration. Besides establishing the basic connection with the catalog server when you instantiate it, **COMAdminCatalog** provides methods that enable you to do the following:
+The [**COMAdminCatalog**](https://msdn.microsoft.com/en-us/library/ms686842(v=VS.85).aspx) class represents the catalog itself. An object created from **COMAdminCatalog** is the fundamental object that you use in programmatic administration. Besides establishing the basic connection with the catalog server when you instantiate it, **COMAdminCatalog** provides methods that enable you to do the following:
 
 -   Get collections on the catalog.
 -   Connect to the catalog server on a remote machine.
@@ -24,11 +24,11 @@ The [**COMAdminCatalog**](/windows/desktop/api/ComAdmin/) class represents the c
 -   Start, stop, or refresh services running on the machine.
 -   Refresh, restore, or back up catalog information.
 
-In COM+ 1.0, the [**COMAdminCatalog**](/windows/desktop/api/ComAdmin/) class implements the [**ICOMAdminCatalog**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog) interface. In COM+ 1.5, the **COMAdminCatalog** class implements [**ICOMAdminCatalog2**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog2) as its default interface.
+In COM+ 1.0, the [**COMAdminCatalog**](https://msdn.microsoft.com/en-us/library/ms686842(v=VS.85).aspx) class implements the [**ICOMAdminCatalog**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog) interface. In COM+ 1.5, the **COMAdminCatalog** class implements [**ICOMAdminCatalog2**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog2) as its default interface.
 
 ## COMAdminCatalogCollection
 
-The [**COMAdminCatalogCollection**](/windows/desktop/api/ComAdmin/) class represents any collection in the catalog, by supplying a string naming the particular collection at object instantiation time. (Available catalog collections are named in the table at [COM+ Administration Collections](com--administration-collections.md).) Objects are created from this class when retrieving a top-level collection by calling the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) method of the [**COMAdminCatalog**](/windows/desktop/api/ComAdmin/) object. These objects are also created when retrieving a child collection by calling the **GetCollection** method of its parent collection object. **COMAdminCatalogCollection** objects enable you to do the following:
+The [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) class represents any collection in the catalog, by supplying a string naming the particular collection at object instantiation time. (Available catalog collections are named in the table at [COM+ Administration Collections](com--administration-collections.md).) Objects are created from this class when retrieving a top-level collection by calling the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) method of the [**COMAdminCatalog**](https://msdn.microsoft.com/en-us/library/ms686842(v=VS.85).aspx) object. These objects are also created when retrieving a child collection by calling the **GetCollection** method of its parent collection object. **COMAdminCatalogCollection** objects enable you to do the following:
 
 -   Enumerate through the items contained within the collection.
 -   Retrieve an item from the collection.
@@ -36,16 +36,16 @@ The [**COMAdminCatalogCollection**](/windows/desktop/api/ComAdmin/) class repres
 -   Save or discard any pending changes made to the collection or to the items it contains.
 -   Get a different collection in the catalog.
 
-The [**COMAdminCatalogObject**](/windows/desktop/api/ComAdmin/) class implements the [**ICatalogCollection**](/windows/desktop/api/ComAdmin/nn-comadmin-icatalogcollection) interface.
+The [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) class implements the [**ICatalogCollection**](/windows/desktop/api/ComAdmin/nn-comadmin-icatalogcollection) interface.
 
 ## COMAdminCatalogObject
 
-The [**COMAdminCatalogObject**](/windows/desktop/api/ComAdmin/) class represents any item that is contained within a collection. Objects are created from this class when getting an item through the [**Item**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-get_item) property of a catalog collection object. Objects created from the **COMAdminCatalogObject** class enable you to do the following:
+The [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) class represents any item that is contained within a collection. Objects are created from this class when getting an item through the [**Item**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-get_item) property of a catalog collection object. Objects created from the **COMAdminCatalogObject** class enable you to do the following:
 
 -   Get or set properties supported by the item that the object is being used to represent.
 -   Obtain information about the item and its properties.
 
-The [**COMAdminCatalogObject**](/windows/desktop/api/ComAdmin/) class implements the [**ICatalogObject**](/windows/desktop/api/ComAdmin/nn-comadmin-icatalogobject) interface.
+The [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) class implements the [**ICatalogObject**](/windows/desktop/api/ComAdmin/nn-comadmin-icatalogobject) interface.
 
 ## Related topics
 

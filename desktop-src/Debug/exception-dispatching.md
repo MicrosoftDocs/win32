@@ -28,9 +28,9 @@ When an exception occurs in user-mode code, the system uses the following search
 1.  If the process is being debugged, the system notifies the debugger. For more information, see [Debugger Exception Handling](debugger-exception-handling.md).
 2.  If the process is not being debugged, or if the associated debugger does not handle the exception, the system attempts to locate a frame-based exception handler by searching the stack frames of the thread in which the exception occurred. The system searches the current stack frame first, then searches through preceding stack frames in reverse order.
 3.  If no frame-based handler can be found, or no frame-based handler handles the exception, but the process is being debugged, the system notifies the debugger a second time.
-4.  If the process is not being debugged, or if the associated debugger does not handle the exception, the system provides default handling based on the exception type. For most exceptions, the default action is to call the [**ExitProcess**](https://msdn.microsoft.com/c26dbf15-62e8-4892-b7c5-2e6c085e4cd5) function.
+4.  If the process is not being debugged, or if the associated debugger does not handle the exception, the system provides default handling based on the exception type. For most exceptions, the default action is to call the [**ExitProcess**](https://msdn.microsoft.com/en-us/library/ms682658(v=VS.85).aspx) function.
 
-When an exception occurs in kernel-mode code, the system searches the stack frames of the kernel stack in an attempt to locate an exception handler. If a handler cannot be located or no handler handles the exception, the system is shut down as if the [**ExitWindows**](https://msdn.microsoft.com/7c76caac-459d-45df-ae00-bc208a9e7b22) function had been called.
+When an exception occurs in kernel-mode code, the system searches the stack frames of the kernel stack in an attempt to locate an exception handler. If a handler cannot be located or no handler handles the exception, the system is shut down as if the [**ExitWindows**](https://msdn.microsoft.com/en-us/library/Aa376867(v=VS.85).aspx) function had been called.
 
  
 

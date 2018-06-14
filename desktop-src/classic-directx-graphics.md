@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This section describes Microsoft DirectX graphics technologies that are minimally supported. This information is provided to support existing applications. We do not recommend using these technologies in new applications.
 
-For information about getting started with DirectX graphics, see [Getting Started with DirectX Graphics](https://www.bing.com/search?q=Getting+Started+with+DirectX+Graphics).
+For information about getting started with DirectX graphics, see [Getting Started with DirectX Graphics](https://msdn.microsoft.com/en-us/library/Hh309467(v=VS.85).aspx).
 
 ## In this section
 
@@ -25,7 +25,7 @@ For information about getting started with DirectX graphics, see [Getting Starte
 | [Direct3D 9 Graphics](https://msdn.microsoft.com/library/windows/desktop/bb219837)<br/>              | Provides information about programming with Microsoft Direct3D 9.<br/>                                                               |
 | [DirectDraw](https://msdn.microsoft.com/library/windows/desktop/gg426115)<br/>                        | Provides information about programming with DirectDraw.<br/>                                                                         |
 | [Technical Articles](https://msdn.microsoft.com/library/windows/desktop/ee416994)<br/>    | Provides a series of technical articles about developing games for Windows.<br/>                                                     |
-| [Where is the DirectX SDK?](https://www.bing.com/search?q=Where+is+the+DirectX+SDK?)<br/> | Provides information about where to find DirectX technologies, tools, and documentation that the DirectX SDK formerly provided.<br/> |
+| [Where is the DirectX SDK?](https://msdn.microsoft.com/en-us/library/Ee663275(v=VS.85).aspx)<br/> | Provides information about where to find DirectX technologies, tools, and documentation that the DirectX SDK formerly provided.<br/> |
 | [DirectX 9.0 for Managed Code](https://www.bing.com/search?q=DirectX+9.0+for+Managed+Code)<br/>          | Provides information about programming with DirectX 9.0 for Managed Code.<br/>                                                       |
 
 

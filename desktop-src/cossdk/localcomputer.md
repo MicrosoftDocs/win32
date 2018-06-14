@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # LocalComputer collection
 
-Contains a single object that corresponds to the computer whose catalog you are accessing. This object holds computer level settings information. If you call the [**Connect**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-connect) method on an object created from the [**COMAdminCatalog**](/windows/desktop/api/ComAdmin/) class, the object in the **LocalComputer** collection contains information about the remote computer whose catalog you are accessing.
+Contains a single object that corresponds to the computer whose catalog you are accessing. This object holds computer level settings information. If you call the [**Connect**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-connect) method on an object created from the [**COMAdminCatalog**](https://msdn.microsoft.com/en-us/library/ms686842(v=VS.85).aspx) class, the object in the **LocalComputer** collection contains information about the remote computer whose catalog you are accessing.
 
-This collection does not support the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) and [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) methods of the [**COMAdminCatalogCollection**](/windows/desktop/api/ComAdmin/) object.
+This collection does not support the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) and [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) methods of the [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object.
 
 ## Members
 
@@ -33,7 +33,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](/windows/desktop/api/ComAdmin/) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) object within the collection:
 
 -   [ApplicationProxyRSN](#applicationproxyrsn)
 -   [CISEnabled](#cisenabled)

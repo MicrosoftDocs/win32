@@ -50,7 +50,7 @@ EDITTEXT  3, 10, 10, 100, 10
 
 <dl> <dt>
 
-[Edit Controls](https://msdn.microsoft.com/windows/desktop/43baa58a-bc00-47c0-a3fe-413d50f08c29)
+[Edit Controls](https://www.bing.com/search?q=Edit+Controls)
 </dt> </dl>
 
  

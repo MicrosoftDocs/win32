@@ -25,8 +25,8 @@ Sets the sharpness of the effect.
 
 | Method                                                                                                  | Description                                  |
 |:--------------------------------------------------------------------------------------------------------|:---------------------------------------------|
-| [**SetSharpness**](/windows/desktop/api/dcomp/)                               | Sets the sharpness of the effect.<br/> |
-| [**SetSharpness (IDCompositionAnimation \*)**](/windows/desktop/api/dcomp/) | Sets the sharpness of the effect.<br/> |
+| [**SetSharpness**](https://msdn.microsoft.com/en-us/library/Dn919693(v=VS.85).aspx)                               | Sets the sharpness of the effect.<br/> |
+| [**SetSharpness (IDCompositionAnimation \*)**](https://msdn.microsoft.com/en-us/library/Dn919694(v=VS.85).aspx) | Sets the sharpness of the effect.<br/> |
 
 
 
@@ -34,7 +34,7 @@ Sets the sharpness of the effect.
 
 <dl> <dt>
 
-[**idcompositionaffinetransform2deffect**](/windows/desktop/api/dcomp/)
+[**idcompositionaffinetransform2deffect**](https://msdn.microsoft.com/en-us/library/Dn919690(v=VS.85).aspx)
 </dt> </dl>
 
  

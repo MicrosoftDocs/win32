@@ -32,7 +32,7 @@ D3DXQUATERNION* D3DXQuaternionRotationMatrix(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxquaternion.htm)\***
+Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result of the operation.
 
@@ -41,7 +41,7 @@ Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result 
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
@@ -49,7 +49,7 @@ Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
 ## Return value
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxquaternion.htm)\***
+Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to the D3DXQUATERNION structure built from a rotation matrix.
 

@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_PrinterController class
 
-The **Win32\_PrinterController** association [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) relates a printer and the local device to which the printer is connected. Note that this class only returns instances for local printers.
+The **Win32\_PrinterController** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates a printer and the local device to which the printer is connected. Note that this class only returns instances for local printers.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -107,7 +107,7 @@ Data type: **CIM\_Controller**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e)
+Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx)
 </dt> </dl>
 
 Reference to the [**CIM\_Controller**](cim-controller.md) instance representing the local device associated with this printer.
@@ -125,7 +125,7 @@ Data type: **Win32\_Printer**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e)
+Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx)
 </dt> </dl>
 
 Reference to the [**Win32\_Printer**](win32-printer.md) instance representing the printer associated with the local device.

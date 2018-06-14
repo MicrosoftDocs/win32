@@ -37,7 +37,7 @@ The Direct2D graphics pipeline is designed to scale from 96 DPI to 1200DPI.
 
 Starting with Windows 8, there are additional features for high-DPI support.
 
-If the device context DPI is high enough, Direct2D changes the threshold it uses to enable vertical antialiasing of text. This results in faster text rendering on high-DPI displays. Additionally, you can switch the unit mode to pixels instead of DIPs using the [**ID2D1DeviceContext::SetUnitMode**](/windows/desktop/api/D2d1_1/) method. If you set the unit mode to pixels and the device context DPI to the screen DPI, the optimization is still enabled.
+If the device context DPI is high enough, Direct2D changes the threshold it uses to enable vertical antialiasing of text. This results in faster text rendering on high-DPI displays. Additionally, you can switch the unit mode to pixels instead of DIPs using the [**ID2D1DeviceContext::SetUnitMode**](https://msdn.microsoft.com/en-us/library/Hh404539(v=VS.85).aspx) method. If you set the unit mode to pixels and the device context DPI to the screen DPI, the optimization is still enabled.
 
 ## What is a DIP?
 
@@ -55,7 +55,7 @@ To convert a physical pixel to a DIP, use this formula:
 
 > [!Note]
 >
-> Starting with Windows 8, you can switch the unit mode to pixels instead of DIPs using the [**ID2D1DeviceContext::SetUnitMode**](/windows/desktop/api/D2d1_1/) method.
+> Starting with Windows 8, you can switch the unit mode to pixels instead of DIPs using the [**ID2D1DeviceContext::SetUnitMode**](https://msdn.microsoft.com/en-us/library/Hh404539(v=VS.85).aspx) method.
 
  
 

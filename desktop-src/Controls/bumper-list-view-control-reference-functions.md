@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**LVGroupCompare**](/windows/desktop/api/Commctrl/)
+-   [**LVGroupCompare**](https://msdn.microsoft.com/en-us/library/Bb775142(v=VS.85).aspx)
 
  
 

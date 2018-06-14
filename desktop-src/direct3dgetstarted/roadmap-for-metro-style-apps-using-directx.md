@@ -134,10 +134,10 @@ If you're an old hand with C++ on Windows platforms, things may look just a litt
 
 | Topic                                                                                                   | Description                                                                                                             |
 |---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [**Visual C++ language reference (C++/CX)**](https://msdn.microsoft.com/windows/desktop/3f6abf92-4e5e-4ed8-8e11-f9252380d30a)<br/>           | High-level page that links to content related to C++.<br/>                                                        |
-| [**Quick Reference (Windows Runtime and Visual C++)**](https://msdn.microsoft.com/windows/desktop/ba457195-26e5-43aa-b99d-24a871e550f4)<br/> | Table that provides quick info about Visual C++ component extensions (C++/CX) operators and keywords.<br/>        |
-| [**Type system (C++/CX)**](https://msdn.microsoft.com/windows/desktop/b67bee8a-b526-4872-969e-ef22724e88fe)<br/>                             | Reference content for the types that are supported by C++/CX.<br/>                                                |
-| [**Namespaces (C++/CX)**](https://msdn.microsoft.com/windows/desktop/5ebc0b49-1f22-48a7-90c4-a310bab9aba6)<br/>                              | Reference content for the namespaces that contain C++-specific types that can be used in Windows Store apps.<br/> |
+| [**Visual C++ language reference (C++/CX)**](https://msdn.microsoft.com/en-us/library/Hh699871(v=VS.110).aspx)<br/>           | High-level page that links to content related to C++.<br/>                                                        |
+| [**Quick Reference (Windows Runtime and Visual C++)**](https://msdn.microsoft.com/en-us/library/BR212455(v=VS.110).aspx)<br/> | Table that provides quick info about Visual C++ component extensions (C++/CX) operators and keywords.<br/>        |
+| [**Type system (C++/CX)**](https://msdn.microsoft.com/en-us/library/Hh755822(v=VS.110).aspx)<br/>                             | Reference content for the types that are supported by C++/CX.<br/>                                                |
+| [**Namespaces (C++/CX)**](https://msdn.microsoft.com/en-us/library/Hh832106(v=VS.110).aspx)<br/>                              | Reference content for the namespaces that contain C++-specific types that can be used in Windows Store apps.<br/> |
 
 
 
@@ -149,8 +149,8 @@ If you're an old hand with C++ on Windows platforms, things may look just a litt
 |----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | [Asynchronous programming (DirectX and C++)](https://msdn.microsoft.com/library/windows/apps/hh994919)<br/> | Learn about asynchronous and multithreaded programming for DirectX apps and games.<br/>              |
 | [Asynchronous programming in C++](https://msdn.microsoft.com/library/windows/apps/hh780559)<br/>                    | Describes the basic ways to use the task class to consume Windows Runtime asynchronous methods.<br/> |
-| [**task Class (Concurrency Runtime)**](https://msdn.microsoft.com/windows/desktop/cdc3a8c0-5cbe-45a0-b5d5-e9f81d94df1a)<br/>                  | Reference documentation for the task class.<br/>                                                     |
-| [Task Parallelism (Concurrency Runtime)](https://msdn.microsoft.com/windows/desktop/42f05ac3-2098-494a-ba84-737fcdcad077)<br/>                | In-depth discussion about the task class and how to use it.<br/>                                     |
+| [**task Class (Concurrency Runtime)**](https://msdn.microsoft.com/en-us/library/Hh750113(v=VS.110).aspx)<br/>                  | Reference documentation for the task class.<br/>                                                     |
+| [Task Parallelism (Concurrency Runtime)](https://msdn.microsoft.com/en-us/library/Dd492427(v=VS.100).aspx)<br/>                | In-depth discussion about the task class and how to use it.<br/>                                     |
 
 
 
@@ -162,9 +162,9 @@ If you're an old hand with C++ on Windows platforms, things may look just a litt
 
 |                                                                                                  |                                                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [C++ Standard Template Library](https://msdn.microsoft.com/windows/desktop/59f76cd1-cf9d-4802-b9eb-d4b9cbe015d9)<br/>                 | Windows Runtime types play well with Standard Template Library types. Most C++ Windows Store apps use Standard Template Library collections and algorithms, except at the ABI boundary.<br/> |
-| [Parallel Patterns Library](https://msdn.microsoft.com/windows/desktop/40fd86b2-69fa-45e5-93d8-98a75636c242)<br/>                     | PPL provides algorithms and types that simplify task parallelism and data parallelism on the CPU. <br/>                                                                                      |
-| [C++ Accelerated Massive Parallelism (C++ AMP)](https://msdn.microsoft.com/windows/desktop/e27824cb-3167-409b-8c3f-a0e476d8f349)<br/> | C++ AMP provides access to the GPU for general-purpose data parallelism on video cards that support DirectX 11.<br/>                                                                         |
+| [C++ Standard Template Library](https://msdn.microsoft.com/en-us/library/c191tb28(v=VS.71).aspx)<br/>                 | Windows Runtime types play well with Standard Template Library types. Most C++ Windows Store apps use Standard Template Library collections and algorithms, except at the ABI boundary.<br/> |
+| [Parallel Patterns Library](https://msdn.microsoft.com/en-us/library/Dd492418(v=VS.100).aspx)<br/>                     | PPL provides algorithms and types that simplify task parallelism and data parallelism on the CPU. <br/>                                                                                      |
+| [C++ Accelerated Massive Parallelism (C++ AMP)](https://msdn.microsoft.com/en-us/library/Hh265137(v=VS.110).aspx)<br/> | C++ AMP provides access to the GPU for general-purpose data parallelism on video cards that support DirectX 11.<br/>                                                                         |
 
 
 

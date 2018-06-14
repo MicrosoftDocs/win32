@@ -42,13 +42,13 @@ You set the Clip property of a visual by using the [**IDCompositionVisual::SetCl
 
 ## Clip object
 
-A clip object is a Component Object Model (COM) object that represents a clip rectangle. You create a clip object by using the [**IDCompositionDevice::CreateRectangleClip**](/windows/desktop/api/Dcomp/) method, and then use the object's [**IDCompositionRectangleClip**](/windows/desktop/api/Dcomp/) interface to set the properties of the object. A newly created clip object has the minimum possible values for the Left and Top properties, and the maximum possible values for the Right and Bottom properties, effectively making it a no-op clip object. In other words, the object represents a clip rectangle that would include the entire bitmap content of a visual.
+A clip object is a Component Object Model (COM) object that represents a clip rectangle. You create a clip object by using the [**IDCompositionDevice::CreateRectangleClip**](https://msdn.microsoft.com/en-us/library/Hh437399(v=VS.85).aspx) method, and then use the object's [**IDCompositionRectangleClip**](https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx) interface to set the properties of the object. A newly created clip object has the minimum possible values for the Left and Top properties, and the maximum possible values for the Right and Bottom properties, effectively making it a no-op clip object. In other words, the object represents a clip rectangle that would include the entire bitmap content of a visual.
 
 A clip object includes a set of properties that enable you to specify rounded corners for the clip object. The properties enable you to set the x radius and y radius of each corner of the clipping object.
 
 ## Animated clip rectangle
 
-You can animate a clip rectangle by applying animation objects to the Left, Top, Right, and Bottom properties of a clip object. Use the [**IDCompositionVisual::SetClip(IDCompositionClip)**](/windows/desktop/api/Dcomp/) overloaded method to apply the animated clip rectangle to the Clip property of a visual.
+You can animate a clip rectangle by applying animation objects to the Left, Top, Right, and Bottom properties of a clip object. Use the [**IDCompositionVisual::SetClip(IDCompositionClip)**](https://msdn.microsoft.com/en-us/library/Hh449153(v=VS.85).aspx) overloaded method to apply the animated clip rectangle to the Clip property of a visual.
 
 For more information about animation objects, see [Animation](animation.md).
 

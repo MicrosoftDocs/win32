@@ -66,16 +66,16 @@ An autocomplete source that matches against items in the Shell namespace: files 
 
 </dd> </dl>
 
-There are occasions when, rather than immediately freeing the resources, you might want to retain the interface pointers to the various objects involved in autocomplete. In particular, this is done when you want to adjust the autocomplete behavior dynamically. The most common instance of this occurs when using the CLSID\_ACListISF object, which autocompletes from the Shell namespace and has the option ([**ACLO\_CURRENTDIR**](/windows/desktop/api/Shlobj_core/)) of enumerating from the current directory as well. For example, when you navigate to a new folder, Internet Explorer changes the Address bar's current directory and therefore the settings need to be changed dynamically. There are two ways to specify the directory that the CLSID\_ACListISF object should treat as the current directory:
+There are occasions when, rather than immediately freeing the resources, you might want to retain the interface pointers to the various objects involved in autocomplete. In particular, this is done when you want to adjust the autocomplete behavior dynamically. The most common instance of this occurs when using the CLSID\_ACListISF object, which autocompletes from the Shell namespace and has the option ([**ACLO\_CURRENTDIR**](https://msdn.microsoft.com/en-us/library/Bb776375(v=VS.85).aspx)) of enumerating from the current directory as well. For example, when you navigate to a new folder, Internet Explorer changes the Address bar's current directory and therefore the settings need to be changed dynamically. There are two ways to specify the directory that the CLSID\_ACListISF object should treat as the current directory:
 
 -   [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder) specifies the directory through an [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist).
--   [**ICurrentWorkingDirectory**](/windows/desktop/api/Shlobj/) specifies the directory through a path string.
+-   [**ICurrentWorkingDirectory**](https://msdn.microsoft.com/en-us/library/Bb775996(v=VS.85).aspx) specifies the directory through a path string.
 
-In the following, assume that **pal** is a pointer to the [**IACList**](/windows/desktop/api/Shlobj_core/) interface of a CLSID\_ACListISF object:
+In the following, assume that **pal** is a pointer to the [**IACList**](https://msdn.microsoft.com/en-us/library/Bb776378(v=VS.85).aspx) interface of a CLSID\_ACListISF object:
 
 -   Using [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder):
 
-    To tell the CLSID\_ACListISF object that a particular [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) should be treated as the current directory, you can use the object's [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder) interface. Since an **ITEMIDLIST** can refer to a virtual folder, this method is more flexible than using [**ICurrentWorkingDirectory**](/windows/desktop/api/Shlobj/).
+    To tell the CLSID\_ACListISF object that a particular [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) should be treated as the current directory, you can use the object's [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder) interface. Since an **ITEMIDLIST** can refer to a virtual folder, this method is more flexible than using [**ICurrentWorkingDirectory**](https://msdn.microsoft.com/en-us/library/Bb775996(v=VS.85).aspx).
 
     Note that the following examples use the templatized QueryInterface, which allows for a simplified parameter list.
 
@@ -92,9 +92,9 @@ In the following, assume that **pal** is a pointer to the [**IACList**](/windows
 
     
 
--   Using [**ICurrentWorkingDirectory**](/windows/desktop/api/Shlobj/):
+-   Using [**ICurrentWorkingDirectory**](https://msdn.microsoft.com/en-us/library/Bb775996(v=VS.85).aspx):
 
-    To give the CLSID\_ACListISF object a path as the current directory, you can use the object's [**ICurrentWorkingDirectory**](/windows/desktop/api/Shlobj/) interface.
+    To give the CLSID\_ACListISF object a path as the current directory, you can use the object's [**ICurrentWorkingDirectory**](https://msdn.microsoft.com/en-us/library/Bb775996(v=VS.85).aspx) interface.
 
     ```C++
     WCHAR pwszDirectory[MAX_PATH] = L"C:\\Program Files";

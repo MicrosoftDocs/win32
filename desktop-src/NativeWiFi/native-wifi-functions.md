@@ -25,7 +25,7 @@ The following functions enable software developers to use the functionality prov
 -   [**WFDStartOpenSession**](/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession)
 -   [**WFDDisplaySinkStop**](wfdstopdisplaysink.md)
 -   [**WFDUpdateDeviceVisibility**](/windows/desktop/api/wlanapi/nf-wlanapi-wfdupdatedevicevisibility)
--   [**WLAN\_NOTIFICATION\_CALLBACK**](/windows/desktop/api/wlanapi/nc-wlanapi-wlan_notification_callback)
+-   [**WLAN\_NOTIFICATION\_CALLBACK**](https://msdn.microsoft.com/en-us/library/ms706278(v=VS.85).aspx)
 -   [**WlanAllocateMemory**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanallocatememory)
 -   [**WlanCloseHandle**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanclosehandle)
 -   [**WlanConnect**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanconnect)

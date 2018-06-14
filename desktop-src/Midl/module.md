@@ -38,7 +38,7 @@ module modulename
 *attributes* 
 </dt> <dd>
 
-The \[[**uuid**](uuid.md)\], \[[**version**](version.md)\], \[[**helpstring**](helpstring.md)\], \[[**helpcontext**](helpcontext.md)\], \[[**hidden**](hidden.md)\], and \[[**dllname**](dllname-str-.md)\] attributes are accepted before a **module** statement. See [Attribute Descriptions](https://msdn.microsoft.com/windows/desktop/dff3a873-8f7c-435c-83c4-d77a72d362b1), in the OLE Automation book, for more information on the attributes accepted before a module definition. The \[**dllname**\] attribute is required. If the \[**uuid**\] attribute is omitted, the module is not uniquely specified in the system.
+The \[[**uuid**](uuid.md)\], \[[**version**](version.md)\], \[[**helpstring**](helpstring.md)\], \[[**helpcontext**](helpcontext.md)\], \[[**hidden**](hidden.md)\], and \[[**dllname**](dllname-str-.md)\] attributes are accepted before a **module** statement. See [Attribute Descriptions](https://msdn.microsoft.com/en-us/library/ms221663(v=VS.71).aspx), in the OLE Automation book, for more information on the attributes accepted before a module definition. The \[**dllname**\] attribute is required. If the \[**uuid**\] attribute is omitted, the module is not uniquely specified in the system.
 
 </dd> <dt>
 
@@ -106,7 +106,7 @@ module somemodule
 [**const**](const.md)
 </dt> <dt>
 
-[Contents of a Type Library](https://msdn.microsoft.com/windows/desktop/76b062d4-1a08-47f5-b4d4-064237cb1372)
+[Contents of a Type Library](https://msdn.microsoft.com/en-us/library/ms221355(v=VS.71).aspx)
 </dt> <dt>
 
 [**dllname**](dllname-str-.md)
@@ -127,7 +127,7 @@ module somemodule
 [**hidden**](hidden.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/windows/desktop/df7aa86f-1453-4409-939e-788d469d611e)
+[ODL File Syntax](https://msdn.microsoft.com/en-us/library/ms221683(v=VS.71).aspx)
 </dt> <dt>
 
 [**propget**](propget.md)
@@ -142,7 +142,7 @@ module somemodule
 [**string**](string.md)
 </dt> <dt>
 
-[**TYPEFLAGS**](https://msdn.microsoft.com/windows/desktop/bf34cc90-f772-4562-9d18-7cf35aeed41e)
+[**TYPEFLAGS**](https://msdn.microsoft.com/en-us/library/ms221509(v=VS.71).aspx)
 </dt> <dt>
 
 [**uuid**](uuid.md)

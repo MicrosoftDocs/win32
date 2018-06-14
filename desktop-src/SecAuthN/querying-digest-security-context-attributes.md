@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Querying Digest Security Context Attributes
 
-The [**QueryContextAttributes (Digest)**](/windows/desktop/api/Sspi/) function provides information about the current settings of a [*security context*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50).
+The [**QueryContextAttributes (Digest)**](https://msdn.microsoft.com/en-us/library/Aa379324(v=VS.85).aspx) function provides information about the current settings of a [*security context*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
 
 Microsoft Digest supports querying the following security context attributes.
 
@@ -20,7 +20,7 @@ Microsoft Digest supports querying the following security context attributes.
 | Attribute                   | Description                                                                                                                                                                                             |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | SECPKG\_ATTR\_KEY\_INFO     | Information relating to the signing and encryption algorithms in use.                                                                                                                                   |
-| SECPKG\_ATTR\_PACKAGE\_INFO | General information pertaining to Microsoft Digest, such as the maximum token size permitted by the [*security package*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50). |
+| SECPKG\_ATTR\_PACKAGE\_INFO | General information pertaining to Microsoft Digest, such as the maximum token size permitted by the [*security package*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx). |
 | SECPKG\_ATTR\_SIZES         | The maximum sizes permitted for message-related data such as signatures.                                                                                                                                |
 
 

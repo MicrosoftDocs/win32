@@ -47,7 +47,7 @@ Any files in the destination directory with the same name are overwritten. The p
 
 ### C++
 
-See [**ExtractFiles**](/windows/desktop/api/Mergemod/) function.
+See [**ExtractFiles**](https://msdn.microsoft.com/en-us/library/Aa369270(v=VS.85).aspx) function.
 
 ## Requirements
 

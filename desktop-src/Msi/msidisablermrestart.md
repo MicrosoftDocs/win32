@@ -19,8 +19,8 @@ The **MSIDISABLERMRESTART** property determines how applications or services tha
 
 | Value                                                                        | Meaning                                                                                                                                                                                      |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>0</dt> </dl> | All system services that were shut down to install the update are restarted. All applications that registered themselves with the [Restart Manager](https://msdn.microsoft.com/windows/desktop/44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) are restarted.<br/> |
-| <dl> <dt>1</dt> </dl> | Processes that were shut down using the [Restart Manager](https://msdn.microsoft.com/windows/desktop/44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) while installing the update will not be restarted after the update is applied.<br/>                           |
+| <dl> <dt>0</dt> </dl> | All system services that were shut down to install the update are restarted. All applications that registered themselves with the [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx) are restarted.<br/> |
+| <dl> <dt>1</dt> </dl> | Processes that were shut down using the [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx) while installing the update will not be restarted after the update is applied.<br/>                           |
 
 
 
@@ -28,7 +28,7 @@ The **MSIDISABLERMRESTART** property determines how applications or services tha
 
 ## Remarks
 
-The **MSIDISABLERMRESTART** Property is ignored if the [Restart Manager](https://msdn.microsoft.com/windows/desktop/44b7975a-0093-4c8f-9a14-2a6bfd7a68a5) is unavailable or disabled.
+The **MSIDISABLERMRESTART** Property is ignored if the [Restart Manager](https://msdn.microsoft.com/en-us/library/Cc948910(v=VS.85).aspx) is unavailable or disabled.
 
 ## Requirements
 

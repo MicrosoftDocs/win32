@@ -93,9 +93,9 @@ Applications meant to run only on Windows Vista and later should use **GetNLSVer
 
 ## Links to Other Resources
 
--   [Internationalization for Windows Applications](https://msdn.microsoft.com/90dbbd70-3609-4c12-bdc1-7fa222c96f67)
--   [GetNLSVersionEx Function](https://msdn.microsoft.com/255e6774-eb70-41db-a372-8796166ee8d6)
--   [GetNLSVersion Function](https://msdn.microsoft.com/09bc53e1-69f4-4a71-82b3-1b1b84a1b84f)
+-   [Internationalization for Windows Applications](https://msdn.microsoft.com/en-us/library/Dd318661(v=VS.85).aspx)
+-   [GetNLSVersionEx Function](https://msdn.microsoft.com/en-us/library/Dd318107(v=VS.85).aspx)
+-   [GetNLSVersion Function](https://msdn.microsoft.com/en-us/library/Dd318105(v=VS.85).aspx)
 -   [How to tell if the collation version changed](http://go.microsoft.com/fwlink/p/?linkid=151428)
 
  

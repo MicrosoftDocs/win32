@@ -15,8 +15,8 @@ ms.date: 05/31/2018
 
 This section explains the structures defined and used by Microsoft RPC.
 
--   [**NDR\_SCONTEXT**](/windows/desktop/api/Rpcndr/)
--   [**GUID**](/windows/desktop/api/Rpcdce/)
+-   [**NDR\_SCONTEXT**](https://msdn.microsoft.com/en-US/library/Aa374336(v=VS.80).aspx)
+-   [**GUID**](https://msdn.microsoft.com/en-US/library/Aa373931(v=VS.80).aspx)
 -   [**NDR\_USER\_MARSHAL\_INFO**](/windows/desktop/api/Rpcndr/ns-rpcndr-_ndr_user_marshal_info)
 -   [**NDR\_USER\_MARSHAL\_INFO\_LEVEL1**](/windows/desktop/api/Rpcndr/ns-rpcndr-_ndr_user_marshal_info_level1)
 -   [**RPC\_ASYNC\_NOTIFICATION\_INFO**](/windows/desktop/api/Rpcasync/ns-rpcasync-_rpc_async_notification_info)
@@ -50,7 +50,7 @@ This section explains the structures defined and used by Microsoft RPC.
 -   [**RPC\_SECURITY\_QOS\_V5**](/windows/desktop/api/Rpcdce/ns-rpcdce-_rpc_security_qos_v5_a)
 -   [**RPC\_STATS\_VECTOR**](/windows/desktop/api/Rpcdce/ns-rpcdce-rpc_stats_vector)
 -   [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/desktop/api/Rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a)
--   [**UUID**](/windows/desktop/api/Rpcdce/)
+-   [**UUID**](https://msdn.microsoft.com/en-US/library/Aa379358(v=VS.80).aspx)
 -   [**UUID\_VECTOR**](/windows/desktop/api/Rpcdce/ns-rpcdce-_uuid_vector)
 
  

@@ -25,8 +25,8 @@ Returns a subset of fonts matching the specified criteria.
 
 | Method                                                                                                                                                             | Description                                                                                 |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
-| [**GetMatchingFonts(const WCHAR\*, DWRITE\_FONT\_WEIGHT, DWRITE\_FONT\_STRETCH, DWRITE\_FONT\_STYLE, IDWriteFontSet\*\*)**](/windows/desktop/api/dwrite_3/) | Returns a list of fonts within the given WWS family prioritized by WWS distance.<br/> |
-| [**GetMatchingFonts(const DWRITE\_FONT\_PROPERTY\*, UINT32, IDWriteFontSet\*\*)**](/windows/desktop/api/dwrite_3/)                                          | Returns a subset of fonts filtered by the given properties.<br/>                      |
+| [**GetMatchingFonts(const WCHAR\*, DWRITE\_FONT\_WEIGHT, DWRITE\_FONT\_STRETCH, DWRITE\_FONT\_STYLE, IDWriteFontSet\*\*)**](https://msdn.microsoft.com/en-us/library/Dn933246(v=VS.85).aspx) | Returns a list of fonts within the given WWS family prioritized by WWS distance.<br/> |
+| [**GetMatchingFonts(const DWRITE\_FONT\_PROPERTY\*, UINT32, IDWriteFontSet\*\*)**](https://msdn.microsoft.com/en-us/library/Dn933245(v=VS.85).aspx)                                          | Returns a subset of fonts filtered by the given properties.<br/>                      |
 
 
 
@@ -34,7 +34,7 @@ Returns a subset of fonts matching the specified criteria.
 
 <dl> <dt>
 
-[**IDWriteFontSet**](/windows/desktop/api/dwrite_3/)
+[**IDWriteFontSet**](https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Smart Card Service Providers
 
-Smart Card Service Providers (SCSP) provide access to [*Smart Card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) capabilities. They can provide access to a single capability, such as the base service providers provided by the Smart Card SDK, or they can provide access to several capabilities to accomplish a more complex task.
+Smart Card Service Providers (SCSP) provide access to [*Smart Card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) capabilities. They can provide access to a single capability, such as the base service providers provided by the Smart Card SDK, or they can provide access to several capabilities to accomplish a more complex task.
 
 Service providers provide access through COM interfaces. The Smart Card SDK provides the COM interfaces used by its own base service providers as well as several application interfaces that can be used when developing custom service providers.
 

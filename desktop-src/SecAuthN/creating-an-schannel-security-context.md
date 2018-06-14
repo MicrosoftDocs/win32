@@ -15,17 +15,17 @@ To establish a [*security context*](https://msdn.microsoft.com/library/windows/d
 
 ## Client
 
-1.  The client calls the [**InitializeSecurityContext (General)**](/windows/desktop/api/Sspi/) function.
-2.  Schannel begins creating a security context according to the rules of the selected security protocol. The function's return code indicates whether the client must call the function again. [**InitializeSecurityContext (General)**](/windows/desktop/api/Sspi/) may return a token that represents the context.
+1.  The client calls the [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx) function.
+2.  Schannel begins creating a security context according to the rules of the selected security protocol. The function's return code indicates whether the client must call the function again. [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx) may return a token that represents the context.
 3.  If a token was returned, the client sends it to the server.
-4.  When [**InitializeSecurityContext (General)**](/windows/desktop/api/Sspi/) returns SEC\_E\_OK, the client is done. If the function returns SEC\_I\_CONTINUE\_NEEDED, the client must wait for the server to send it a token. When the client has the token from the server, it must call the **InitializeSecurityContext (General)** [*function*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-context-function-gly) again. (Return to step 2.)
+4.  When [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx) returns SEC\_E\_OK, the client is done. If the function returns SEC\_I\_CONTINUE\_NEEDED, the client must wait for the server to send it a token. When the client has the token from the server, it must call the **InitializeSecurityContext (General)** [*function*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-context-function-gly) again. (Return to step 2.)
 
 ## Server
 
-1.  The server waits for a client to send a message that contains a security token. The server passes the token received from the client into the [**AcceptSecurityContext (General)**](/windows/desktop/api/Sspi/) function.
+1.  The server waits for a client to send a message that contains a security token. The server passes the token received from the client into the [**AcceptSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa374703(v=VS.85).aspx) function.
 2.  Schannel builds on the partial security context represented by the token. Schannel returns a token to the server, and a return code indicating whether the server must call the function again.
 3.  If a token was returned, the server sends it to the client.
-4.  When [**AcceptSecurityContext (General)**](/windows/desktop/api/Sspi/) returns SEC\_E\_OK, the server is done. If the function returns SEC\_I\_CONTINUE\_NEEDED, then the server must wait for the client to send it a token. When the server has the token from the client, it must call the **AcceptSecurityContext (General)** function again. (Return to step 2.)
+4.  When [**AcceptSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa374703(v=VS.85).aspx) returns SEC\_E\_OK, the server is done. If the function returns SEC\_I\_CONTINUE\_NEEDED, then the server must wait for the client to send it a token. When the server has the token from the client, it must call the **AcceptSecurityContext (General)** function again. (Return to step 2.)
 
 If either function returns a value other than SEC\_E\_OK, SEC\_I\_CONTINUE\_NEEDED, or SEC\_E\_INCOMPLETE\_MESSAGE (see the following paragraph) an error has occurred. The client and server should call the [**DeleteSecurityContext**](/windows/desktop/api/Sspi/nf-sspi-deletesecuritycontext) function to delete the partially established security context.
 

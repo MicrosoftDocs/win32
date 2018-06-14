@@ -13,11 +13,11 @@ ms.date: 05/31/2018
 
 Security enables you to control access to window station objects. For more information about security, see [Access-Control Model](https://msdn.microsoft.com/library/windows/desktop/aa374876).
 
-You can specify a [security descriptor](https://msdn.microsoft.com/library/windows/desktop/aa379563) for a window station object when you call the [**CreateWindowStation**](/windows/desktop/api/Winuser/nf-winuser-createwindowstationa) function. If you specify NULL, the window station gets a default security descriptor. The ACLs in the default security descriptor for a window station come from the primary or impersonation token of the creator.
+You can specify a [security descriptor](https://msdn.microsoft.com/library/windows/desktop/aa379563) for a window station object when you call the [**CreateWindowStation**](https://msdn.microsoft.com/en-us/library/ms682496(v=VS.85).aspx) function. If you specify NULL, the window station gets a default security descriptor. The ACLs in the default security descriptor for a window station come from the primary or impersonation token of the creator.
 
 To get or set the security descriptor of a window station object, call the [**GetSecurityInfo**](https://msdn.microsoft.com/library/windows/desktop/aa446654) and [**SetSecurityInfo**](https://msdn.microsoft.com/library/windows/desktop/aa379588) functions.
 
-When you call the [**OpenWindowStation**](/windows/desktop/api/Winuser/nf-winuser-openwindowstationa) function, the system checks the requested access rights against the object's security descriptor.
+When you call the [**OpenWindowStation**](https://msdn.microsoft.com/en-us/library/ms684339(v=VS.85).aspx) function, the system checks the requested access rights against the object's security descriptor.
 
 The valid access rights for window station objects include the [standard access rights](https://msdn.microsoft.com/library/windows/desktop/aa379607) and some object-specific access rights. The following table lists the standard access rights used by all objects.
 

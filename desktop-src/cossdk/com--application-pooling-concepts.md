@@ -20,7 +20,7 @@ COM+ application pooling allows single-threaded processes to scale, similar to t
 
 All methods of the [**ICOMAdminCatalog2**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog2) interface support application pooling.
 
-COM+ application pooling is configurable per application by using the ConcurrentApps property of the [**COMAdminCatalogObject**](/windows/desktop/api/ComAdmin/) object in the [**Applications**](applications.md) collection. ConcurrentApps is an integer value that specifies the maximum number of simultaneous Dllhost processes that should be started to service activations for an application. This property can be set by using the Component Services administration tool or programmatically.
+COM+ application pooling is configurable per application by using the ConcurrentApps property of the [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) object in the [**Applications**](applications.md) collection. ConcurrentApps is an integer value that specifies the maximum number of simultaneous Dllhost processes that should be started to service activations for an application. This property can be set by using the Component Services administration tool or programmatically.
 
 If the ConcurrentApps property is set to 1, which is the default value, the COM+ Application Pooling service is disabled.
 

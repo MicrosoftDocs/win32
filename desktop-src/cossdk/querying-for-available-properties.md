@@ -15,7 +15,7 @@ If you are writing a general-purpose administration tool, you most likely will n
 
 The [**PropertyInfo**](propertyinfo.md) collection is available from any collection that you might be holding. The **PropertyInfo** collection contains an item for each available property. You can enumerate through these items to determine whether a given property is available.
 
-You can get the [**PropertyInfo**](propertyinfo.md) collection from any collection you are holding by using the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) method on the [**COMAdminCatalogCollection**](/windows/desktop/api/ComAdmin/) object, leaving the second parameter blank where you would normally specify a parent item's Key property.
+You can get the [**PropertyInfo**](propertyinfo.md) collection from any collection you are holding by using the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) method on the [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object, leaving the second parameter blank where you would normally specify a parent item's Key property.
 
 ## Related topics
 

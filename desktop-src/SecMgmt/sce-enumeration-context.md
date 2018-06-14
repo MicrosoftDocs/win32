@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SCE\_ENUMERATION\_CONTEXT
 
-The **SCE\_ENUMERATION\_CONTEXT** data type is an opaque handle provided by the Security Configuration tool set. It is used by the [**PFSCE\_QUERY\_INFO**](/windows/desktop/api/Scesvc/nc-scesvc-pfsce_query_info) function to navigate through the security database.
+The **SCE\_ENUMERATION\_CONTEXT** data type is an opaque handle provided by the Security Configuration tool set. It is used by the [**PFSCE\_QUERY\_INFO**](https://msdn.microsoft.com/en-us/library/ms721890(v=VS.85).aspx) function to navigate through the security database.
 
 
 ```C++
@@ -36,7 +36,7 @@ typedef ULONG SCE_ENUMERATION_CONTEXT, *PSCE_ENUMERATION_CONTEXT;
 
 <dl> <dt>
 
-[**PFSCE\_QUERY\_INFO**](/windows/desktop/api/Scesvc/nc-scesvc-pfsce_query_info)
+[**PFSCE\_QUERY\_INFO**](https://msdn.microsoft.com/en-us/library/ms721890(v=VS.85).aspx)
 </dt> </dl>
 
  

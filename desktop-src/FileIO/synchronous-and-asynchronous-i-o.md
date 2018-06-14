@@ -66,7 +66,7 @@ To cancel all pending asynchronous I/O operations, use either:
 
 Use [**CancelSynchronousIo**](cancelsynchronousio-func.md) to cancel pending synchronous I/O operations.
 
-The [**ReadFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-readfileex) and [**WriteFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-writefileex) functions enable an application to specify a routine to execute (see [**FileIOCompletionRoutine**](https://www.bing.com/search?q=**FileIOCompletionRoutine**)) when the asynchronous I/O request is completed.
+The [**ReadFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-readfileex) and [**WriteFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-writefileex) functions enable an application to specify a routine to execute (see [**FileIOCompletionRoutine**](https://msdn.microsoft.com/en-us/library/Aa364052(v=VS.85).aspx)) when the asynchronous I/O request is completed.
 
  
 

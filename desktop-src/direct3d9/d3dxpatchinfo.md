@@ -33,33 +33,33 @@ typedef struct D3DXPATCHINFO {
 **PatchType**
 </dt> <dd>
 
-Type: **[**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxpatchmeshtype.htm)**
+Type: **[**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/en-us/library/Bb205384(v=VS.85).aspx)**
 
 </dd> <dd>
 
-The patch type. For information about patch types, see [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxpatchmeshtype.htm).
+The patch type. For information about patch types, see [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/en-us/library/Bb205384(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Degree**
 </dt> <dd>
 
-Type: **[**D3DDEGREETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddegreetype.htm)**
+Type: **[**D3DDEGREETYPE**](https://msdn.microsoft.com/en-us/library/Bb172536(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Degree of the curves used to construct the patch. For information about the degrees supported, see [**D3DDEGREETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddegreetype.htm).
+Degree of the curves used to construct the patch. For information about the degrees supported, see [**D3DDEGREETYPE**](https://msdn.microsoft.com/en-us/library/Bb172536(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Basis**
 </dt> <dd>
 
-Type: **[**D3DBASISTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dbasistype.htm)**
+Type: **[**D3DBASISTYPE**](https://msdn.microsoft.com/en-us/library/Bb172507(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Type of curve used to construct the patch. For information about the basis types supported, see [**D3DBASISTYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dbasistype.htm).
+Type of curve used to construct the patch. For information about the basis types supported, see [**D3DBASISTYPE**](https://msdn.microsoft.com/en-us/library/Bb172507(v=VS.85).aspx).
 
 </dd> </dl>
 

@@ -11,12 +11,12 @@ ms.date: 05/31/2018
 
 # CompareStringWrapW function
 
-\[**CompareStringWrapW** is available for use in Windows XP. It will not be available in subsequent versions. You should use [**CompareStringW**](https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e) in its place.\]
+\[**CompareStringWrapW** is available for use in Windows XP. It will not be available in subsequent versions. You should use [**CompareStringW**](https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx) in its place.\]
 
 Compares two Unicode character strings, using a specified locale.
 
 > [!Note]  
-> **CompareStringWrapW** is a wrapper for the **CompareStringW** function. See the [**CompareString**](https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e) page for further usage notes.
+> **CompareStringWrapW** is a wrapper for the **CompareStringW** function. See the [**CompareString**](https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx) page for further usage notes.
 
  
 
@@ -45,7 +45,7 @@ int CompareStringWrapW(
 
 Type: **LCID**
 
-A locale identifier used for the comparison. This parameter can be one of the following predefined locale identifiers or a locale identifier created by the [**MAKELCID**](https://msdn.microsoft.com/2f8893a0-f916-4a62-a423-e525cf281fa4) macro.
+A locale identifier used for the comparison. This parameter can be one of the following predefined locale identifiers or a locale identifier created by the [**MAKELCID**](https://msdn.microsoft.com/en-us/library/Dd319052(v=VS.85).aspx) macro.
 
 <dt>
 
@@ -186,7 +186,7 @@ The number of characters in the string pointed to by the *lpString2* parameter. 
 
 Type: **int**
 
-If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4). **GetLastError** may return one of the following error codes.
+If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx). **GetLastError** may return one of the following error codes.
 
 -   ERROR\_INVALID\_FLAGS
 -   ERROR\_INVALID\_PARAMETER
@@ -205,9 +205,9 @@ If the function succeeds, the return value is one of the following values.
 
 ## Remarks
 
-**Security Warning:** Using this function incorrectly can compromise the security of your application. Strings that are not compared correctly can produce invalid input. Test strings to make sure they are valid before using them and provide error handlers. For more information, see [Security Considerations: International Features](https://msdn.microsoft.com/4034f479-ad29-4c6f-82c6-977f420c4d4d)
+**Security Warning:** Using this function incorrectly can compromise the security of your application. Strings that are not compared correctly can produce invalid input. Test strings to make sure they are valid before using them and provide error handlers. For more information, see [Security Considerations: International Features](https://msdn.microsoft.com/en-us/library/Dd374047(v=VS.85).aspx)
 
-The preferred method is to use [**CompareStringW**](https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e) in conjunction with the Microsoft Layer for Unicode (MSLU).
+The preferred method is to use [**CompareStringW**](https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx) in conjunction with the Microsoft Layer for Unicode (MSLU).
 
 **CompareStringWrapW** must be called directly from Shlwapi.dll, using ordinal 45.
 
@@ -228,7 +228,7 @@ The preferred method is to use [**CompareStringW**](https://msdn.microsoft.com/4
 
 <dl> <dt>
 
-[**CompareString**](https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e)
+[**CompareString**](https://msdn.microsoft.com/en-us/library/Dd317759(v=VS.85).aspx)
 </dt> </dl>
 
  

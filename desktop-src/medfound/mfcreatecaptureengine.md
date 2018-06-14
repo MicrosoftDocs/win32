@@ -43,7 +43,7 @@ If the function succeeds, it returns S\_OK. Otherwise, it returns an **HRESULT**
 
 ## Remarks
 
-This function has no associated import library and is not declared in a public header file. You must use the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to MFCaptureEngine.dll.
+This function has no associated import library and is not declared in a public header file. You must use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to MFCaptureEngine.dll.
 
 ## Requirements
 

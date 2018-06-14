@@ -25,8 +25,8 @@ Gets the number of characters for the given property name.
 
 | Method                                                                         | Description                                                                                        |
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
-| [**GetPropertyNameLength(U)**](/windows/desktop/api/D2d1_1/)     | Gets the number of characters for the given property name. This is a template overload.<br/> |
-| [**GetPropertyNameLength(UINT32)**](/windows/desktop/api/D2d1_1/) | Gets the number of characters for the given property name.<br/>                              |
+| [**GetPropertyNameLength(U)**](https://msdn.microsoft.com/en-us/library/JJ151733(v=VS.85).aspx)     | Gets the number of characters for the given property name. This is a template overload.<br/> |
+| [**GetPropertyNameLength(UINT32)**](https://msdn.microsoft.com/en-us/library/Hh446867(v=VS.85).aspx) | Gets the number of characters for the given property name.<br/>                              |
 
 
 
@@ -34,7 +34,7 @@ Gets the number of characters for the given property name.
 
 <dl> <dt>
 
-[**ID2D1Properties**](/windows/desktop/api/D2d1_1/)
+[**ID2D1Properties**](https://msdn.microsoft.com/en-us/library/Hh446854(v=VS.85).aspx)
 </dt> </dl>
 
  

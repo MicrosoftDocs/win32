@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Opening a Simple Device by Using the Device Name
 
-The following example opens a CD audio device by specifying the device name using the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function.
+The following example opens a CD audio device by specifying the device name using the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function.
 
 
 ```C++

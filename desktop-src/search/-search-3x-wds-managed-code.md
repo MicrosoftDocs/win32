@@ -65,7 +65,7 @@ The following screenshot represents a mock up of a sample application created wi
 **Other Resources**
 </dt> <dt>
 
-[Cross-Language Interoperability](https://msdn.microsoft.com/windows/desktop/50b25433-59f2-4c6f-9774-7d777cde6b0a)
+[Cross-Language Interoperability](https://msdn.microsoft.com/en-us/library/730f1wy3(v=VS.71).aspx)
 </dt> </dl>
 
  

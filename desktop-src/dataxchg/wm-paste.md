@@ -54,7 +54,7 @@ This message does not return a value.
 
 ## Remarks
 
-When sent to a combo box, the **WM\_PASTE** message is handled by its edit control. This message has no effect when sent to a combo box with the [**CBS\_DROPDOWNLIST**](https://msdn.microsoft.com/windows/desktop/4dc347b2-7da7-4aa0-b61f-781acf652d84) style.
+When sent to a combo box, the **WM\_PASTE** message is handled by its edit control. This message has no effect when sent to a combo box with the [**CBS\_DROPDOWNLIST**](https://www.bing.com/search?q=**CBS\_DROPDOWNLIST**) style.
 
 ## Requirements
 

@@ -44,7 +44,7 @@ A handle to the protected output object. This handle is obtained by calling [**C
 *pParameters* \[out\]
 </dt> <dd>
 
-A pointer to a [**DXGKMDT\_OPM\_ENCRYPTED\_PARAMETERS**](https://msdn.microsoft.com/43aa91cb-584e-47b7-a6d4-2e95adf24a28) structure that contains a 256-byte array. For more information about how to initialize this array, see [DxgkDdiOPMSetSigningKeyAndSequenceNumbers](http://msdn.microsoft.com/en-us/library/aa906703.aspx).
+A pointer to a [**DXGKMDT\_OPM\_ENCRYPTED\_PARAMETERS**](https://msdn.microsoft.com/en-us/library/Ff560863(v=VS.85).aspx) structure that contains a 256-byte array. For more information about how to initialize this array, see [DxgkDdiOPMSetSigningKeyAndSequenceNumbers](http://msdn.microsoft.com/en-us/library/aa906703.aspx).
 
 </dd> </dl>
 
@@ -56,7 +56,7 @@ If the method succeeds, it returns **STATUS\_SUCCESS**. Otherwise, it returns an
 
 Applications should call [**IOPMVideoOutput::FinishInitialization**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-finishinitialization) instead of calling this function.
 
-This function has no associated import library. To call this function, you must use the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to Gdi32.dll.
+This function has no associated import library. To call this function, you must use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Gdi32.dll.
 
 ## Requirements
 

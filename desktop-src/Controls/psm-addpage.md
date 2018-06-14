@@ -49,7 +49,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 The new page should be no larger than the largest page currently in the property sheet because the property sheet is not resized to fit the new page.
 
-A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the PSM\_ADDPAGE message in your implementation of [*PropSheetPageProc*](/windows/desktop/api/Prsht/nc-prsht-lpfnpspcallbacka) or while handling the following notifications and Windows messages.
+A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the PSM\_ADDPAGE message in your implementation of [*PropSheetPageProc*](https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx) or while handling the following notifications and Windows messages.
 
 -   [PSN\_APPLY](psn-apply.md)
 -   [PSN\_KILLACTIVE](psn-killactive.md)
@@ -58,7 +58,7 @@ A number of messages and one function call occur while the property sheet is man
 -   [**WM\_DESTROY**](https://msdn.microsoft.com/library/windows/desktop/ms632620)
 -   [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428)
 
-If you need to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](/windows/desktop/api/Prsht/nc-prsht-lpfnpspcallbacka) is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
+If you need to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx) is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
 
 ## Requirements
 

@@ -11,7 +11,7 @@
 ### [Canceling the Current Restart Manager Operation](canceling-the-current-restart-manager-operation.md)
 ## [Restart Manager Reference](restart-manager-reference.md)
 ### [Restart Manager Callback Functions](callback-functions.md)
-#### [RM_WRITE_STATUS_CALLBACK](/windows/desktop/api/RestartManager/nc-restartmanager-rm_write_status_callback)
+#### [RM_WRITE_STATUS_CALLBACK](https://msdn.microsoft.com/en-us/library/Aa373678(v=VS.85).aspx)
 ### [Restart Manager Enumerations](enumerations.md)
 #### [RM_APP_STATUS](/windows/desktop/api/RestartManager/ne-restartmanager-_rm_app_status)
 #### [RM_APP_TYPE](/windows/desktop/api/RestartManager/ne-restartmanager-_rm_app_type)

@@ -43,10 +43,10 @@ Pixel shaders have much fewer constant registers that cannot be indexed, so the 
 [Precomputed Radiance Transfer](precomputed-radiance-transfer.md)
 </dt> <dt>
 
-[PRT Demo Sample](https://msdn.microsoft.com/windows/desktop/3c77628b-4b3c-ba39-ba14-90f0dc32d724)
+[PRT Demo Sample](https://msdn.microsoft.com/en-us/library/Ee418763(v=VS.85).aspx)
 </dt> <dt>
 
-[PRT Simulator (prtcmdline.exe)](https://msdn.microsoft.com/windows/desktop/46c97762-faf0-95bd-47ac-a9a2c9c756cc)
+[PRT Simulator (prtcmdline.exe)](https://msdn.microsoft.com/en-us/library/Ee418766(v=VS.85).aspx)
 </dt> </dl>
 
  

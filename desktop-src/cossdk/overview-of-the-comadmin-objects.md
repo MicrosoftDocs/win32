@@ -24,9 +24,9 @@ To enable you to configure objects within this structure, the COMAdmin objects p
 
 To support these actions, the COMAdmin Library provides the following three classes:
 
--   [**COMAdminCatalog**](/windows/desktop/api/ComAdmin/), which represents the catalog itself.
--   [**COMAdminCatalogCollection**](/windows/desktop/api/ComAdmin/), which represents any collection.
--   [**COMAdminCatalogObject**](/windows/desktop/api/ComAdmin/), which represents any item in a collection.
+-   [**COMAdminCatalog**](https://msdn.microsoft.com/en-us/library/ms686842(v=VS.85).aspx), which represents the catalog itself.
+-   [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx), which represents any collection.
+-   [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx), which represents any item in a collection.
 
 For fuller descriptions of these classes, see [Summary Description of the COMAdmin Classes](summary-description-of-the-comadmin-classes.md) in this section.
 

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Using COM+ Services Through CoEnterServiceDomain and CoLeaveServiceDomain
 
-[**CoEnterServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coenterservicedomain) and [**CoLeaveServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coleaveservicedomain) are used together to surround an area of code that runs in its own context and can use COM+ services without the need for COM+ components. The COM+ services that are used in this context are configured through the [**CServiceConfig**](/windows/desktop/api/ComSvcs/) object that is passed in to **CoEnterServiceDomain**. The code that is surrounded by **CoEnterServiceDomain** and **CoLeaveServiceDomain** behaves as though it were a method that is called on an object created within this context.
+[**CoEnterServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coenterservicedomain) and [**CoLeaveServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coleaveservicedomain) are used together to surround an area of code that runs in its own context and can use COM+ services without the need for COM+ components. The COM+ services that are used in this context are configured through the [**CServiceConfig**](https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx) object that is passed in to **CoEnterServiceDomain**. The code that is surrounded by **CoEnterServiceDomain** and **CoLeaveServiceDomain** behaves as though it were a method that is called on an object created within this context.
 
-A scripting application can use this pair of functions to provide run-time support of COM+ services without components. For example, a scripting application can be developed to provide tags that allow the script writers to enter and leave a service domain within the script. When the scripting engine processes the script and encounters the tags, it can call [**CoEnterServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coenterservicedomain) with a preconfigured [**CServiceConfig**](/windows/desktop/api/ComSvcs/) object, run the necessary code, and then call [**CoLeaveServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coleaveservicedomain).
+A scripting application can use this pair of functions to provide run-time support of COM+ services without components. For example, a scripting application can be developed to provide tags that allow the script writers to enter and leave a service domain within the script. When the scripting engine processes the script and encounters the tags, it can call [**CoEnterServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coenterservicedomain) with a preconfigured [**CServiceConfig**](https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx) object, run the necessary code, and then call [**CoLeaveServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coleaveservicedomain).
 
 ## Component Services Administrative Tool
 
@@ -25,7 +25,7 @@ Does not apply.
 
 ## C/C++
 
-The following code fragment illustrates how to use COM+ services between calls to [**CoEnterServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coenterservicedomain) and [**CoLeaveServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coleaveservicedomain). Error handling is omitted for brevity. This code fragment uses the [**CServiceConfig**](/windows/desktop/api/ComSvcs/) object that was created and configured in [Configuring COM+ Services with CServiceConfig](configuring-com--services-with-cserviceconfig.md).
+The following code fragment illustrates how to use COM+ services between calls to [**CoEnterServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coenterservicedomain) and [**CoLeaveServiceDomain**](/windows/desktop/api/ComSvcs/nf-comsvcs-coleaveservicedomain). Error handling is omitted for brevity. This code fragment uses the [**CServiceConfig**](https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx) object that was created and configured in [Configuring COM+ Services with CServiceConfig](configuring-com--services-with-cserviceconfig.md).
 
 
 ```C++
@@ -59,7 +59,7 @@ CoLeaveServiceDomain(NULL);
 [Configuring COM+ Services with CServiceConfig](configuring-com--services-with-cserviceconfig.md)
 </dt> <dt>
 
-[**CServiceConfig**](/windows/desktop/api/ComSvcs/)
+[**CServiceConfig**](https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx)
 </dt> <dt>
 
 [Using COM+ Services Through CoCreateActivity](using-com--services-through-cocreateactivity.md)

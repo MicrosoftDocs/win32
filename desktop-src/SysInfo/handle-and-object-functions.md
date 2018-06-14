@@ -17,11 +17,11 @@ The following functions are used with handles and objects.
 
 | Function                                             | Description                                                                                  |
 |------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| [**CloseHandle**](/windows/desktop/api/Winbase/nf-lkmdtel-lkmdtelclosehandle)                   | Closes an open object handle.                                                                |
+| [**CloseHandle**](https://msdn.microsoft.com/en-us/library/ms724211(v=VS.85).aspx)                   | Closes an open object handle.                                                                |
 | [**CompareObjectHandles**](/windows/desktop/api/handleapi/nf-handleapi-compareobjecthandles) | Compares two object handles to determine if they refer to the same underlying kernel object. |
-| [**DuplicateHandle**](https://www.bing.com/search?q=**DuplicateHandle**)           | Duplicates an object handle.                                                                 |
-| [**GetHandleInformation**](https://www.bing.com/search?q=**GetHandleInformation**) | Retrieves certain properties of an object handle.                                            |
-| [**SetHandleInformation**](https://www.bing.com/search?q=**SetHandleInformation**) | Sets certain properties of an object handle.                                                 |
+| [**DuplicateHandle**](https://msdn.microsoft.com/en-us/library/ms724251(v=VS.85).aspx)           | Duplicates an object handle.                                                                 |
+| [**GetHandleInformation**](https://msdn.microsoft.com/en-us/library/ms724329(v=VS.85).aspx) | Retrieves certain properties of an object handle.                                            |
+| [**SetHandleInformation**](https://msdn.microsoft.com/en-us/library/ms724935(v=VS.85).aspx) | Sets certain properties of an object handle.                                                 |
 
 
 

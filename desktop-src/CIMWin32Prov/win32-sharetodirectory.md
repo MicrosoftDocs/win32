@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_ShareToDirectory class
 
-The **Win32\_ShareToDirectory** association [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) relates a shared resource on the computer system and the directory to which it is mapped.
+The **Win32\_ShareToDirectory** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates a shared resource on the computer system and the directory to which it is mapped.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -53,7 +53,7 @@ Data type: **Win32\_Share**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI\|Win32\_Share")
+Qualifiers: [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_Share")
 </dt> </dl>
 
 Reference to the instance representing the properties of a shared resource available through the directory.
@@ -69,7 +69,7 @@ Data type: **CIM\_Directory**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("CIM\|CIM\_Directory")
+Qualifiers: [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("CIM\|CIM\_Directory")
 </dt> </dl>
 
 Reference to the instance representing the properties of the directory that has been mapped to a shared resource.
@@ -94,7 +94,7 @@ Reference to the instance representing the properties of the directory that has 
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/windows/desktop/D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
+[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

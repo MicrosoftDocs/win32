@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Creating a Cabinet Callback Routine
 
-Because the Setup API does not supply a default cabinet callback routine, you need to supply a routine. The callback routine that the [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) function requires must have the same form as those pointed to by [FileCallback](/windows/desktop/api/setupapi/).
+Because the Setup API does not supply a default cabinet callback routine, you need to supply a routine. The callback routine that the [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) function requires must have the same form as those pointed to by [FileCallback](https://msdn.microsoft.com/en-us/library/Aa376970(v=VS.85).aspx).
 
 Following is the syntax that [**SetupIterateCabinet**](/windows/desktop/api/Setupapi/nf-setupapi-setupiteratecabineta) uses to send a notification to the callback routine.
 

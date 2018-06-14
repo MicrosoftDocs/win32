@@ -46,7 +46,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
     
 
-3.  Call the [**Start**](https://www.bing.com/search?q=**Start**) function on the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) that will be playing the streaming audio.
+3.  Call the [**Start**](https://msdn.microsoft.com/en-us/library/Ee418471(v=VS.85).aspx) function on the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) that will be playing the streaming audio.
 
     ```
     hr = pSourceVoice->Start( 0, 0 );
@@ -98,7 +98,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
     3.  Wait for the number of buffers queued on the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) to be less than the number of read buffers.
 
-        The state of the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) is checked with the [**GetState**](https://www.bing.com/search?q=**GetState**) function.
+        The state of the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) is checked with the [**GetState**](https://msdn.microsoft.com/en-us/library/Hh405047(v=VS.85).aspx) function.
 
         ```
         XAUDIO2_VOICE_STATE state;
@@ -110,7 +110,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
         
 
-    4.  Submit the current read buffer to the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) using the [**SubmitSourceBuffer**](https://www.bing.com/search?q=**SubmitSourceBuffer**) function.
+    4.  Submit the current read buffer to the [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) using the [**SubmitSourceBuffer**](https://msdn.microsoft.com/en-us/library/Ee418473(v=VS.85).aspx) function.
 
         ```
         XAUDIO2_BUFFER buf = {0};
@@ -152,7 +152,7 @@ To perform buffer reads in the streaming thread follow these steps:
 
 To create the callback class, create a class that inherits from the [**IXAudio2VoiceCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voicecallback) interface.
 
-The class should set an event in its [**OnBufferEnd**](https://www.bing.com/search?q=**OnBufferEnd**) method. This allows the streaming thread to put itself to sleep until the event signals it that XAudio2 has finished reading from an audio buffer. For more information about using callbacks with XAudio2, see [How to: Use Source Voice Callbacks](how-to--use-source-voice-callbacks.md).
+The class should set an event in its [**OnBufferEnd**](https://msdn.microsoft.com/en-us/library/Ee418474(v=VS.85).aspx) method. This allows the streaming thread to put itself to sleep until the event signals it that XAudio2 has finished reading from an audio buffer. For more information about using callbacks with XAudio2, see [How to: Use Source Voice Callbacks](how-to--use-source-voice-callbacks.md).
 
 
 ```

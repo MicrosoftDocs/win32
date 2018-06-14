@@ -65,13 +65,13 @@ The following code retrieves the IP address of a client from a collection of cli
 [Retrieving a Collection](https://msdn.microsoft.com/library/bb960708)
 </dt> <dt>
 
-[**SysAllocString**](https://msdn.microsoft.com/windows/desktop/9e0437a2-9b4a-4576-88b0-5cb9d08ca29b)
+[**SysAllocString**](https://msdn.microsoft.com/en-us/library/ms221458(v=VS.71).aspx)
 </dt> <dt>
 
-[**SysFreeString**](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)
+[**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx)
 </dt> <dt>
 
-[**VARIANT**](https://msdn.microsoft.com/windows/desktop/e305240e-9e11-4006-98cc-26f4932d2118)
+[**VARIANT**](https://msdn.microsoft.com/en-us/library/ms221627(v=VS.71).aspx)
 </dt> </dl>
 
  

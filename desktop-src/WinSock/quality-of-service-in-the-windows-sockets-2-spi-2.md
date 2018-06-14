@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Quality of Service in the Windows Sockets 2 SPI
 
-Quality of Service (QoS) is implemented in Windows through various QoS components supported on Windows Server 2003, Windows XP, and Windows 2000. A detailed explanation of QoS and its components is located in a section dedicated to Quality of Service, located in the Microsoft Windows Software Development Kit (SDK). Each QoS component, and the role it plays in the QoS implementation, is explained in this QoS section, with additional guidance provided for the implementation of QoS-enabled applications and services. Please see the [Quality of Service (QoS)](https://msdn.microsoft.com/2a017166-eba4-4dd9-b623-f0d696e11de2) section of the Windows SDK for more detailed information.
+Quality of Service (QoS) is implemented in Windows through various QoS components supported on Windows Server 2003, Windows XP, and Windows 2000. A detailed explanation of QoS and its components is located in a section dedicated to Quality of Service, located in the Microsoft Windows Software Development Kit (SDK). Each QoS component, and the role it plays in the QoS implementation, is explained in this QoS section, with additional guidance provided for the implementation of QoS-enabled applications and services. Please see the [Quality of Service (QoS)](https://msdn.microsoft.com/en-US/library/Aa374094(v=VS.80).aspx) section of the Windows SDK for more detailed information.
 
 This section describes Quality of Service capabilities available to Winsock developers. The following list describes the topics in this section:
 
@@ -24,7 +24,7 @@ This section describes Quality of Service capabilities available to Winsock deve
 
 <dl> <dt>
 
-[Quality of Service (QoS)](https://msdn.microsoft.com/2a017166-eba4-4dd9-b623-f0d696e11de2)
+[Quality of Service (QoS)](https://msdn.microsoft.com/en-US/library/Aa374094(v=VS.80).aspx)
 </dt> <dt>
 
 [What Is QoS?](http://go.microsoft.com/fwlink/p/?linkid=193471)

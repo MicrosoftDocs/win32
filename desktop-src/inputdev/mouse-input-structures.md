@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**MOUSEMOVEPOINT**](/windows/desktop/api/Winuser/nf-winuser-getmousemovepointsex)
--   [**TRACKMOUSEEVENT**](/windows/desktop/api/Winuser/nf-winuser-trackmouseevent)
+-   [**MOUSEMOVEPOINT**](https://msdn.microsoft.com/en-us/library/ms645603(v=VS.85).aspx)
+-   [**TRACKMOUSEEVENT**](https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx)
 
  
 

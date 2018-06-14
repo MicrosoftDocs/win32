@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Winlogon and Credential Providers
 
-[*Winlogon*](https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d) is the Windows module that performs interactive logon for a [*logon session*](https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f). Winlogon behavior can be customized by implementing and registering a Credential Provider.
+[*Winlogon*](https://msdn.microsoft.com/en-us/library/ms721635(v=VS.85).aspx) is the Windows module that performs interactive logon for a [*logon session*](https://msdn.microsoft.com/en-us/library/ms721592(v=VS.85).aspx). Winlogon behavior can be customized by implementing and registering a Credential Provider.
 
 For information about implementing a Credential Provider, see the following topics.
 
@@ -20,7 +20,7 @@ For information about implementing a Credential Provider, see the following topi
 | Topic                                                                                                           | Description                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | [Credential Provider driven Windows Logon Experience](http://go.microsoft.com/fwlink/?LinkId=717287)<br/> | Overview of Winlogon and Credential Provider architecture and a sample Credential Provider.<br/> |
-| [Shell Interfaces](https://msdn.microsoft.com/windows/desktop/05223970-14f5-44c2-937b-07826b8aecf9)<br/>                                                                | Credential Provider interface reference.<br/>                                                    |
+| [Shell Interfaces](https://msdn.microsoft.com/en-us/library/Bb774328(v=VS.85).aspx)<br/>                                                                | Credential Provider interface reference.<br/>                                                    |
 | [Credential Providers in Windows 10](credential-providers-in-windows.md)<br/>                            | Third-party credential providers and system credential providers in Windows 10.<br/>             |
 
 

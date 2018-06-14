@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # StreamSelectOperation.GetResults method
 
-Returns the results of the asynchronous operation started by [**SelectBestStreamAsync**](https://www.bing.com/search?q=**SelectBestStreamAsync**).
+Returns the results of the asynchronous operation started by [**SelectBestStreamAsync**](https://msdn.microsoft.com/en-us/library/Hh829001(v=VS.85).aspx).
 
 ## Syntax
 

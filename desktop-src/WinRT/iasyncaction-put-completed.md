@@ -59,7 +59,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IAsyncAction**](https://www.bing.com/search?q=**IAsyncAction**)
+[**IAsyncAction**](https://msdn.microsoft.com/en-us/library/BR205781(v=VS.85).aspx)
 </dt> </dl>
 
  

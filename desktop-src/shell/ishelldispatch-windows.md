@@ -48,13 +48,13 @@ This method has no parameters.
 
 ### JScript
 
-Type: **[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)\*\***
+Type: **[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)\*\***
 
 An object reference to the [**ShellWindows**](shellwindows.md) object.
 
 ### VB
 
-Type: **[**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)\*\***
+Type: **[**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)\*\***
 
 An object reference to the [**ShellWindows**](shellwindows.md) object.
 

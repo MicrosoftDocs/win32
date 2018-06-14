@@ -63,7 +63,7 @@ For palettized formats, the color of each pixel is specified as an index into a 
 
     
 
--   For RGB 24, every pixel is an [**RGBTRIPLE**](https://msdn.microsoft.com/bc1467a5-0027-4f22-bfc9-1deab562c573). Each color is one byte, with a value from 0 to 255, inclusive. The memory layout is: 
+-   For RGB 24, every pixel is an [**RGBTRIPLE**](https://msdn.microsoft.com/en-us/library/Dd162939(v=VS.85).aspx). Each color is one byte, with a value from 0 to 255, inclusive. The memory layout is: 
 
     |       |      |       |     |
     |-------|------|-------|-----|

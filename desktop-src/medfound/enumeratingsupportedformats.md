@@ -15,11 +15,11 @@ This topic describes the process of configuring the codec DMOs. Each codec has s
 
 ## Configuring DMO Inputs and Outputs
 
-Every DMO supports specific input and output types. You can retrieve supported types for inputs and outputs by calling [**IMediaObject::GetInputType**](https://msdn.microsoft.com/22693a22-97be-487d-ad17-31a2d8ee874c) for inputs and [**IMediaObject::GetOutputType**](https://msdn.microsoft.com/a7652472-4091-4ecf-b623-5c6eb01be44a) for outputs. You can enumerate the supported formats by making repeated calls to either method, incrementing the type index with each call. When the index exceeds that of the final supported type, the call returns DMO\_E\_NO\_MORE\_ITEMS.
+Every DMO supports specific input and output types. You can retrieve supported types for inputs and outputs by calling [**IMediaObject::GetInputType**](https://msdn.microsoft.com/en-us/library/Dd406952(v=VS.85).aspx) for inputs and [**IMediaObject::GetOutputType**](https://msdn.microsoft.com/en-us/library/Dd406956(v=VS.85).aspx) for outputs. You can enumerate the supported formats by making repeated calls to either method, incrementing the type index with each call. When the index exceeds that of the final supported type, the call returns DMO\_E\_NO\_MORE\_ITEMS.
 
 For the video codecs, only one output type or input type is enumerated for a given media subtype. For the audio codecs, each individual supported type is enumerated. For more information about supported types for individual codecs, see [Working with Audio](workingwithaudio.md) and [Working with Video](workingwithvideo.md).
 
-After you configure the media types for the input and output streams, set them by calling [**IMediaObject::SetInputType**](https://msdn.microsoft.com/6b466fe4-97a0-46f9-9e4b-461ee66095f1) and [**IMediaObject::SetOutputType**](https://msdn.microsoft.com/1dda3c55-d37b-4e04-9509-0e5197d6b019) respectively. Both of these methods return **DMO\_E\_TYPE\_NOT\_ACCEPTED** if the specified type is invalid.
+After you configure the media types for the input and output streams, set them by calling [**IMediaObject::SetInputType**](https://msdn.microsoft.com/en-us/library/Dd406962(v=VS.85).aspx) and [**IMediaObject::SetOutputType**](https://msdn.microsoft.com/en-us/library/Dd406963(v=VS.85).aspx) respectively. Both of these methods return **DMO\_E\_TYPE\_NOT\_ACCEPTED** if the specified type is invalid.
 
 ## Configuring the Codec DMOs for Encoding
 
@@ -42,7 +42,7 @@ The general order of operations for configuring a decoding DMO is as follows:
 3.  Configure the output type. The supported output types are different for different inputs.
 
 > [!Note]  
-> It is important to use the same media type for the decoder input as was used for the encoder output. This is because the Windows Media Audio and Video codecs use media formats with extra data. This data is appended to the structure pointed to by the **pbFormat** member of the [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/c545ddf7-9797-45ab-a42a-d8550b598e98) structure (usually [**VIDEOINFOHEADER**](https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932) or [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**)). For some types the extra data is part of the enumerated encoder output type. Other types require you to append this data manually. Without the extended format data, you cannot decode the compressed content.
+> It is important to use the same media type for the decoder input as was used for the encoder output. This is because the Windows Media Audio and Video codecs use media formats with extra data. This data is appended to the structure pointed to by the **pbFormat** member of the [**DMO\_MEDIA\_TYPE**](https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx) structure (usually [**VIDEOINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx) or [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**)). For some types the extra data is part of the enumerated encoder output type. Other types require you to append this data manually. Without the extended format data, you cannot decode the compressed content.
 
  
 

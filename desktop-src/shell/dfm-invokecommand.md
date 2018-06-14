@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # DFM\_INVOKECOMMAND message
 
-Sent by the default context menu implementation to request the callback function that handles the menu ([**LPFNDFMCALLBACK**](https://www.bing.com/search?q=**LPFNDFMCALLBACK**)) to invoke a menu command.
+Sent by the default context menu implementation to request the callback function that handles the menu ([**LPFNDFMCALLBACK**](https://msdn.microsoft.com/en-us/library/Bb776770(v=VS.85).aspx)) to invoke a menu command.
 
 
 ```C++

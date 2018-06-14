@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Programmatic Component Security
 
-When you use role-based security in the COM+ application that contains your component, you have access to programmatic security functionality from within your component. You can check role membership to determine whether particular sections of code are executed, you can access security information using the security call context object, and you can determine whether security is enabled for the current call. You can perform all of these tasks by using a reference to a [**SecurityCallContext**](/windows/desktop/api/ComSvcs/) object (for Microsoft Visual Basic applications) or a pointer to the [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext) interface (for C and Microsoft Visual C++ applications).
+When you use role-based security in the COM+ application that contains your component, you have access to programmatic security functionality from within your component. You can check role membership to determine whether particular sections of code are executed, you can access security information using the security call context object, and you can determine whether security is enabled for the current call. You can perform all of these tasks by using a reference to a [**SecurityCallContext**](https://msdn.microsoft.com/en-us/library/ms687633(v=VS.85).aspx) object (for Microsoft Visual Basic applications) or a pointer to the [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext) interface (for C and Microsoft Visual C++ applications).
 
 For more information regarding programmatic role-based security, see the following topics in this section:
 

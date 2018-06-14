@@ -51,7 +51,7 @@ retVal = Shell.GetSystemInformation(
 *sName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228)**
+Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
 
 A **String** that specifies the system information that is being requested.
 
@@ -111,7 +111,7 @@ ProcessorArchitecture
 
 **Integer**
 
-The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/971293b8-0af0-4bdf-a7d7-6b1bb80a469c) structure.
+The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/en-us/library/ms724958(v=VS.85).aspx) structure.
 
 PhysicalMemoryInstalled
 

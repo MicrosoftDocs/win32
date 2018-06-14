@@ -48,7 +48,7 @@ A character's class can be combined with zero or more word-break flags to form a
 
 The WBF\_BREAKAFTER value is used to allow wrapping after a character that does not mark the end of a word, such as a hyphen.
 
-You can replace the default word-break procedure for a rich edit control with your own procedure by using the [**EM\_SETWORDBREAKPROC**](em-setwordbreakproc.md) message. For more information about word-break procedures, see the description of the [*EditWordBreakProc*](https://www.bing.com/search?q=*EditWordBreakProc*) function.
+You can replace the default word-break procedure for a rich edit control with your own procedure by using the [**EM\_SETWORDBREAKPROC**](em-setwordbreakproc.md) message. For more information about word-break procedures, see the description of the [*EditWordBreakProc*](https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx) function.
 
 > [!Note]  
 > This replacement is not recommended for Microsoft Rich Edit 2.0 and later, due to the complexity of multilingual word breaking.

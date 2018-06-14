@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 Sent to all windows after the user has logged on or off. When the user logs on or off, the system updates the user-specific settings. The system sends this message immediately after updating the settings.
 
-A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
 
 > [!Note]  
 > This message is not supported as of Windows Vista.

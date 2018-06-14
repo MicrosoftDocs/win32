@@ -15,7 +15,7 @@ A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphic
 
 A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object is often associated with a particular display device. When you use a **Graphics** object to draw in a window, the **Graphics** object is also associated with that particular window.
 
-A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object can be thought of as a container because it holds a set of properties that influence drawing, and it is linked to device-specific information. You can create a secondary container within an existing **Graphics** object by calling the [BeginContainer](/windows/desktop/api/gdiplusgraphics/) method of that **Graphics** object.
+A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object can be thought of as a container because it holds a set of properties that influence drawing, and it is linked to device-specific information. You can create a secondary container within an existing **Graphics** object by calling the [BeginContainer](https://msdn.microsoft.com/en-us/library/ms535731(v=VS.85).aspx) method of that **Graphics** object.
 
 The following topics cover [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) objects and nested containers in more detail:
 

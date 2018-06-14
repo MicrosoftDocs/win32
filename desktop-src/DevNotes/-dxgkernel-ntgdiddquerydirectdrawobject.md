@@ -50,14 +50,14 @@ Handle to the previously-created kernel-mode DirectDraw device.
 *pHalInfo* \[out\]
 </dt> <dd>
 
-Pointer to a [**DD\_HALINFO**](https://msdn.microsoft.com/99ecd219-1e85-4904-867d-3efcb378bb11) structure that will be filled with the device's capabilities. See DDK documentation for details.
+Pointer to a [**DD\_HALINFO**](https://msdn.microsoft.com/en-us/library/Ff551627(v=VS.85).aspx) structure that will be filled with the device's capabilities. See DDK documentation for details.
 
 </dd> <dt>
 
 *pCallBackFlags* 
 </dt> <dd>
 
-Pointer to a caller-provided buffer that stores driver-reported callback flags. The buffer should be of size 3\*sizeof(DWORD) and stores callback flags in the following order: pCallBackFlags\[0\] for flags in [**DD\_CALLBACKS**](https://msdn.microsoft.com/windows/desktop/d68b2772-dca6-417a-8e03-d3b2843fb69d), pCallBackFlags\[1\] for flags in [**DD\_SURFACECALLBACKS**](https://msdn.microsoft.com/windows/desktop/a363446e-a9f7-4b32-acc2-c369d3dfe8f3), and pCallBackFlags\[2\] for flags in [**DD\_PALETTECALLBACKS**](https://msdn.microsoft.com/windows/desktop/742b03b0-f729-489c-a87f-b8eb404b6290). See DDK documentation for details.
+Pointer to a caller-provided buffer that stores driver-reported callback flags. The buffer should be of size 3\*sizeof(DWORD) and stores callback flags in the following order: pCallBackFlags\[0\] for flags in [**DD\_CALLBACKS**](https://msdn.microsoft.com/en-us/library/Ff550485(v=VS.85).aspx), pCallBackFlags\[1\] for flags in [**DD\_SURFACECALLBACKS**](https://msdn.microsoft.com/en-us/library/Ff551721(v=VS.85).aspx), and pCallBackFlags\[2\] for flags in [**DD\_PALETTECALLBACKS**](https://msdn.microsoft.com/en-us/library/Ff551681(v=VS.85).aspx). See DDK documentation for details.
 
 </dd> <dt>
 
@@ -71,28 +71,28 @@ Pointer to a table of Direct3D callback pointers. The table is filled with point
 *puD3dDriverData* \[out\]
 </dt> <dd>
 
-Pointer to [**D3DHAL\_GLOBALDRIVERDATA**](https://msdn.microsoft.com/windows/desktop/4aba7417-8391-4ae7-a449-dbc307cab530) data, as described in the DDK documentation.
+Pointer to [**D3DHAL\_GLOBALDRIVERDATA**](https://msdn.microsoft.com/en-us/library/Ff545963(v=VS.85).aspx) data, as described in the DDK documentation.
 
 </dd> <dt>
 
 *puD3dBufferCallbacks* \[out\]
 </dt> <dd>
 
-Pointer to a table of callback pointers. The table is filled with pointers to functions within Gdi32.dll that imitate a Direct3D display driver. This callback table is identical to the DDHAL\_DDEXEBUFCALLBACKS structure, which maps to the [**DD\_D3DBUFCALLBACKS**](https://msdn.microsoft.com/windows/desktop/59fa4043-6238-49f7-b9d6-58c1f215865a) structure discussed in the DDK documentation, except that members XxxD3DBuffer in **DD\_D3DBUFCALLBACKS** are replaced with XxxExecuteBuffer in DDHAL\_DDEXEBUFCALLBACKS.
+Pointer to a table of callback pointers. The table is filled with pointers to functions within Gdi32.dll that imitate a Direct3D display driver. This callback table is identical to the DDHAL\_DDEXEBUFCALLBACKS structure, which maps to the [**DD\_D3DBUFCALLBACKS**](https://msdn.microsoft.com/en-us/library/Ff550557(v=VS.85).aspx) structure discussed in the DDK documentation, except that members XxxD3DBuffer in **DD\_D3DBUFCALLBACKS** are replaced with XxxExecuteBuffer in DDHAL\_DDEXEBUFCALLBACKS.
 
 </dd> <dt>
 
 *puD3dTextureFormats* \[out\]
 </dt> <dd>
 
-Pointer to an array of [**DDSURFACEDESC**](https://msdn.microsoft.com/d6656bae-9f90-497b-82d5-be4be3213687) structures that define the set of permissible texture formats.
+Pointer to an array of [**DDSURFACEDESC**](https://msdn.microsoft.com/en-us/library/Ff550339(v=VS.85).aspx) structures that define the set of permissible texture formats.
 
 </dd> <dt>
 
 *puNumHeaps* \[out\]
 </dt> <dd>
 
-Pointer to the **dwNumHeaps** member of [**DD\_HALINFO**](https://msdn.microsoft.com/99ecd219-1e85-4904-867d-3efcb378bb11).**vmiData**. The **dwNumHeaps** member specifies the number of memory heaps in *puvmList*. See DDK documentation for details.
+Pointer to the **dwNumHeaps** member of [**DD\_HALINFO**](https://msdn.microsoft.com/en-us/library/Ff551627(v=VS.85).aspx).**vmiData**. The **dwNumHeaps** member specifies the number of memory heaps in *puvmList*. See DDK documentation for details.
 
 </dd> <dt>
 
@@ -106,14 +106,14 @@ Pointer to a list of video memory heap descriptors. Can be **NULL**. This parame
 *puNumFourCC* \[out\]
 </dt> <dd>
 
-Pointer to the **puNumFourCCCodes** member of [**DD\_HALINFO**](https://msdn.microsoft.com/99ecd219-1e85-4904-867d-3efcb378bb11).**ddCaps**. The **puNumFourCCCodes** member specifies the number of [Four-Character Codes (FOURCC)](https://msdn.microsoft.com/7627b580-4119-48e2-88b7-51b714b5d5b2) codes that the driver supports. See DDK documentation for details.
+Pointer to the **puNumFourCCCodes** member of [**DD\_HALINFO**](https://msdn.microsoft.com/en-us/library/Ff551627(v=VS.85).aspx).**ddCaps**. The **puNumFourCCCodes** member specifies the number of [Four-Character Codes (FOURCC)](https://msdn.microsoft.com/en-us/library/Dd375802(v=VS.85).aspx) codes that the driver supports. See DDK documentation for details.
 
 </dd> <dt>
 
 *puFourCC* \[out\]
 </dt> <dd>
 
-Pointer to a list of supported [Four-Character Codes (FOURCC)](https://msdn.microsoft.com/7627b580-4119-48e2-88b7-51b714b5d5b2) surface formats. Can be **NULL**.
+Pointer to a list of supported [Four-Character Codes (FOURCC)](https://msdn.microsoft.com/en-us/library/Dd375802(v=VS.85).aspx) surface formats. Can be **NULL**.
 
 </dd> </dl>
 
@@ -123,7 +123,7 @@ If successful, this function returns **TRUE**; otherwise it returns **FALSE**.
 
 ## Remarks
 
-A call to this function is designed to be made in a two-step process. In the first step, *puFourCC*, *puvmList* and *puD3dTextureFormats* should be **NULL**, and [**DdQueryDirectDrawObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddquerydirectdrawobject) will fill in [**DD\_HALINFO**](https://msdn.microsoft.com/99ecd219-1e85-4904-867d-3efcb378bb11).**ddCaps**.**dwNumFourCCCodes**, **DD\_HALINFO**.**vmiData**.**dwNumHeaps**, and [**D3DHAL\_GLOBALDRIVERDATA**](https://msdn.microsoft.com/windows/desktop/4aba7417-8391-4ae7-a449-dbc307cab530).**dwNumTextureFormats** with the number of entries that are to be returned. In the second call, the caller should allocate arrays of the indicated size and pass those pointers instead of **NULL** values in the *puFourCC*, *puvmList* and *puD3dTextureFormats* parameters. The arrays will then be populated with appropriate data.
+A call to this function is designed to be made in a two-step process. In the first step, *puFourCC*, *puvmList* and *puD3dTextureFormats* should be **NULL**, and [**DdQueryDirectDrawObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddquerydirectdrawobject) will fill in [**DD\_HALINFO**](https://msdn.microsoft.com/en-us/library/Ff551627(v=VS.85).aspx).**ddCaps**.**dwNumFourCCCodes**, **DD\_HALINFO**.**vmiData**.**dwNumHeaps**, and [**D3DHAL\_GLOBALDRIVERDATA**](https://msdn.microsoft.com/en-us/library/Ff545963(v=VS.85).aspx).**dwNumTextureFormats** with the number of entries that are to be returned. In the second call, the caller should allocate arrays of the indicated size and pass those pointers instead of **NULL** values in the *puFourCC*, *puvmList* and *puD3dTextureFormats* parameters. The arrays will then be populated with appropriate data.
 
 Applications are advised to use the DirectDraw and [Direct3D](http://msdn.microsoft.com/en-us/library/bb205147(VS.85).aspx) APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
 

@@ -21,7 +21,7 @@ An application or component can use the same directory service object creation w
 
 ## Using the IDsAdminCreateObj Interface
 
-An application or component (client) creates an instance of the [**IDsAdminCreateObj**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj) interface by calling [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) with the **CLSID\_DsAdminCreateObj** class identifier. COM must be initialized by calling [**CoInitialize**](https://msdn.microsoft.com/windows/desktop/0f171cf4-87b9-43a6-97f2-80ed344fe376) before **CoCreateInstance** is called.
+An application or component (client) creates an instance of the [**IDsAdminCreateObj**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj) interface by calling [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) with the **CLSID\_DsAdminCreateObj** class identifier. COM must be initialized by calling [**CoInitialize**](https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx) before **CoCreateInstance** is called.
 
 The client then calls [**IDsAdminCreateObj::Initialize**](/windows/desktop/api/DSAdmin/nf-dsadmin-idsadmincreateobj-initialize) to initialize the [**IDsAdminCreateObj**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj) object. **IDsAdminCreateObj::Initialize** accepts an [**IADsContainer**](https://msdn.microsoft.com/library/aa705985) interface pointer that represents the container that the object should be created in, and the class name of the object to be created. When creating user objects, it is also possible to specify an existing object that will be copied to the new object.
 

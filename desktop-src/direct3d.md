@@ -19,12 +19,12 @@ You can use Direct3D to draw 3-D graphics.
 
 | Topic                                                                         | Description                                                                                                                                                       |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Getting Started with Direct3D](https://www.bing.com/search?q=Getting+Started+with+Direct3D)<br/> | Describes how to get started using Direct3D.<br/>                                                                                                           |
-| [Direct3D 12 Graphics](https://msdn.microsoft.com/52094AE3-3B44-4689-9EE7-1BA1B3A779CB)<br/>            | Provides information about programming with Direct3D 12.<br/>                                                                                               |
-| [Direct3D 11 Graphics](https://msdn.microsoft.com/11413056-5033-4b4f-b80c-fccccb4057bc)<br/>    | Provides information about programming with Direct3D 11.<br/>                                                                                               |
-| [DXGI](https://msdn.microsoft.com/9565e874-5a8d-4b4b-a2a4-391e46922cc1)<br/>                              | Provides information about programming with the DXGI.<br/>                                                                                                  |
-| [HLSL](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl.htm)<br/>                              | Provides information about programming with the HLSL for DirectX. By using HLSL, you can create C-like programmable shaders for the Direct3D pipeline.<br/> |
-| [DDS](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_dds.htm)<br/>                                 | Provides information about programming with Microsoft DirectX DirectDraw Surface (DDS).<br/>                                                                |
+| [Getting Started with Direct3D](https://msdn.microsoft.com/en-us/library/Hh769064(v=VS.85).aspx)<br/> | Describes how to get started using Direct3D.<br/>                                                                                                           |
+| [Direct3D 12 Graphics](https://msdn.microsoft.com/en-us/library/Dn903821(v=VS.85).aspx)<br/>            | Provides information about programming with Direct3D 12.<br/>                                                                                               |
+| [Direct3D 11 Graphics](https://msdn.microsoft.com/en-us/library/Ff476080(v=VS.85).aspx)<br/>    | Provides information about programming with Direct3D 11.<br/>                                                                                               |
+| [DXGI](https://msdn.microsoft.com/en-us/library/Hh404534(v=VS.85).aspx)<br/>                              | Provides information about programming with the DXGI.<br/>                                                                                                  |
+| [HLSL](https://msdn.microsoft.com/en-us/library/Bb509561(v=VS.85).aspx)<br/>                              | Provides information about programming with the HLSL for DirectX. By using HLSL, you can create C-like programmable shaders for the Direct3D pipeline.<br/> |
+| [DDS](https://msdn.microsoft.com/en-us/library/Bb943990(v=VS.85).aspx)<br/>                                 | Provides information about programming with Microsoft DirectX DirectDraw Surface (DDS).<br/>                                                                |
 
 
 

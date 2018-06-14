@@ -19,7 +19,7 @@ A value specifying the size, in bytes, of the spatial audio metadata object type
 
 ## Remarks
 
-The metadata blob with the specified format is written using the [**ISpatialAudioMetadataWriter**](https://msdn.microsoft.com/F8CD8B79-9442-46D0-ABF5-5F6734474B01) interface and read using the [**ISpatialAudioMetadataReader**](https://msdn.microsoft.com/BD1AD4CE-6E88-4292-AA79-E71FE00C2078) interface. The metadata blob is opaque to the Media Foundation pipeline and components. The attribute is applied to the spatial audio media type.
+The metadata blob with the specified format is written using the [**ISpatialAudioMetadataWriter**](https://msdn.microsoft.com/en-us/library/Mt798197(v=VS.85).aspx) interface and read using the [**ISpatialAudioMetadataReader**](https://msdn.microsoft.com/en-us/library/Mt798191(v=VS.85).aspx) interface. The metadata blob is opaque to the Media Foundation pipeline and components. The attribute is applied to the spatial audio media type.
 
 ## Requirements
 

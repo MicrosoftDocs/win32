@@ -45,7 +45,7 @@ Clients may send their own messages to this log file through the [**Log**](merge
 
 ### C++
 
-See [**OpenLog**](/windows/desktop/api/Mergemod/) function.
+See [**OpenLog**](https://msdn.microsoft.com/en-us/library/Aa369277(v=VS.85).aspx) function.
 
 ## Requirements
 

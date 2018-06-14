@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # DFM\_GETDEFSTATICID message
 
-Sent by the default context menu implementation during creation, specifying the default menu command and allowing an alternate choice to be made. Used by [**LPFNDFMCALLBACK**](https://www.bing.com/search?q=**LPFNDFMCALLBACK**).
+Sent by the default context menu implementation during creation, specifying the default menu command and allowing an alternate choice to be made. Used by [**LPFNDFMCALLBACK**](https://msdn.microsoft.com/en-us/library/Bb776770(v=VS.85).aspx).
 
 
 ```C++

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using the Microsoft Gesture Recognizer Only
 
-You can use an ink collector ([**InkCollector**](/windows/desktop/api/msinkaut/), [**InkOverlay**](/windows/desktop/api/msinkaut/), or [InkPicture](inkpicture-control-reference.md)) to access the default Microsoft gesture recognizer directly.
+You can use an ink collector ([**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx), [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx), or [InkPicture](inkpicture-control-reference.md)) to access the default Microsoft gesture recognizer directly.
 
 To use an ink collector to access the gesture recognizer:
 
@@ -31,9 +31,9 @@ To use an ink collector to access the gesture recognizer:
 
 `inkOverlay.Gesture += new InkCollectorGestureEventHandler(inkOverlay_Gesture);`
 
-In **InkAndGesture** mode, each individual stroke is sent to the Microsoft gesture recognizer. If it is recognized as a gesture that you have enabled, an event notification is sent. If the application accepts the event notification, the stroke is erased. If the application does not accept the notification or if the stroke is not recognized to be a gesture, the stroke is stored in the [**Ink**](/windows/desktop/api/msinkaut/) object.
+In **InkAndGesture** mode, each individual stroke is sent to the Microsoft gesture recognizer. If it is recognized as a gesture that you have enabled, an event notification is sent. If the application accepts the event notification, the stroke is erased. If the application does not accept the notification or if the stroke is not recognized to be a gesture, the stroke is stored in the [**Ink**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object.
 
-In **GestureOnly** mode, the strokes are delimited by timeouts before and after the strokes. The strokes collected within the timeout are sent to the recognizer. If the strokes are recognized as a gesture that you have enabled, an event notification is sent. The application may accept or reject the event, effecting the corresponding action or not. In gesture-only mode, the strokes are never saved in the [**Ink**](/windows/desktop/api/msinkaut/) object.
+In **GestureOnly** mode, the strokes are delimited by timeouts before and after the strokes. The strokes collected within the timeout are sent to the recognizer. If the strokes are recognized as a gesture that you have enabled, an event notification is sent. The application may accept or reject the event, effecting the corresponding action or not. In gesture-only mode, the strokes are never saved in the [**Ink**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object.
 
 ## Related topics
 

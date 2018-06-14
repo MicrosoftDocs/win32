@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Playing the AVI File
 
-Before using the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function to send the [**MCI\_PLAY**](mci-play.md) command, your application allocates the memory for the structure, initializes the members it will use, and sets the flags corresponding to the members used in the structure. (If your application does not set a flag for a structure member, MCI drivers ignore the member.) For example, the following example plays a movie from the starting position specified by **dwFrom** to the ending position specified by **dwTo**. (If either position is zero, the example is written so that the position is not used.)
+Before using the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to send the [**MCI\_PLAY**](mci-play.md) command, your application allocates the memory for the structure, initializes the members it will use, and sets the flags corresponding to the members used in the structure. (If your application does not set a flag for a structure member, MCI drivers ignore the member.) For example, the following example plays a movie from the starting position specified by **dwFrom** to the ending position specified by **dwTo**. (If either position is zero, the example is written so that the position is not used.)
 
 
 ```C++

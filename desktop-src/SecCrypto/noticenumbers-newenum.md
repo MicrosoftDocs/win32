@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **\_NewEnum** property is available for use in the operating systems specified in the Requirements section. For more information, see [**Qualifier**](qualifier.md).\]
 
-The **\_NewEnum** property retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/windows/desktop/139e3c93-faef-4003-9079-e0e94494db3e) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
+The **\_NewEnum** property retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 
 ## Syntax
 
@@ -26,7 +26,7 @@ NoticeNumbers._NewEnum As IUnknown
 
 ## Property value
 
-An [**IEnumVARIANT**](https://msdn.microsoft.com/windows/desktop/139e3c93-faef-4003-9079-e0e94494db3e) interface on an object that can be used to enumerate the collection.
+An [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection.
 
 ## Requirements
 

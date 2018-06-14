@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 The status command requests status information from a device. All devices recognize this command.
 
-To send this command, call the [**mciSendString**](/windows/desktop/api/Mmsystem/) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](https://msdn.microsoft.com/en-us/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -813,7 +813,7 @@ Can be "wait", "notify", or both. For digital-video and VCR devices, "test" can 
 
 ## Return Value
 
-Returns information in the *lpszReturnString* parameter of [**mciSendString**](/windows/desktop/api/Mmsystem/). The information is dependent on the request type.
+Returns information in the *lpszReturnString* parameter of [**mciSendString**](https://msdn.microsoft.com/en-us/library/Dd757161(v=VS.85).aspx). The information is dependent on the request type.
 
 ## Remarks
 

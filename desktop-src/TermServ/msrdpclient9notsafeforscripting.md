@@ -40,7 +40,7 @@ This class implements the following interfaces.
 -   [**IMsRdpClient2**](imsrdpclient2.md)
 -   [**IMsRdpClient**](imsrdpclientshell2.md)
 -   [**IMsTscAx**](imstscax-interface.md)
--   [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+-   [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
 -   [**IMsTscAxEvents**](imstscaxevents-interface.md)
 -   [**IMsTscNonScriptable**](imstscnonscriptable-interface.md)
 -   [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md)
@@ -113,7 +113,7 @@ The **MsRdpClient9NotSafeForScripting** class has these methods.
 | [**SendRemoteAction**](imsrdpclient8-sendremoteaction.md)                                  | Causes an action to be performed in the remote session.<br/>                                                                                                                                                                                                                            |
 | [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md)                   | Sets the virtual channel options for the client control.<br/>                                                                                                                                                                                                                           |
 | [**SyncSessionDisplaySettings**](imsrdpclient9-syncsessiondisplaysettings.md)              | Synchronizes session display settings. <br/>                                                                                                                                                                                                                                            |
-| [**UpdateSessionDisplaySettings**](/windows/desktop/api/rdpappcontainerclient/)          | Updates session display settings. <br/>                                                                                                                                                                                                                                                 |
+| [**UpdateSessionDisplaySettings**](https://msdn.microsoft.com/en-us/library/Mt703457(v=VS.85).aspx)          | Updates session display settings. <br/>                                                                                                                                                                                                                                                 |
 
 
 

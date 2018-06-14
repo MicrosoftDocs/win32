@@ -13,17 +13,17 @@ ms.date: 05/31/2018
 
 The following example sets and gets a certificate store property, the localized store name. This property is not persisted when the store is closed.
 
-This example illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) functions:
+This example illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) functions:
 
 -   Opening a certificate store using [**CertOpenStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopenstore).
 -   Setting the localized name of the store using [**CertSetStoreProperty**](/windows/desktop/api/Wincrypt/nf-wincrypt-certsetstoreproperty).
 -   Retrieving the localized name of the store using [**CertGetStoreProperty**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetstoreproperty).
 -   Retrieving the predefined localized store name using [**CryptFindLocalizedName**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindlocalizedname).
--   Save the certificate store as a [*PKCS \#7*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) message to a file using [**CertSaveStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certsavestore).
--   Save the certificate store to a memory [*BLOB*](https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b) using [**CertSaveStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certsavestore).
+-   Save the certificate store as a [*PKCS \#7*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) message to a file using [**CertSaveStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certsavestore).
+-   Save the certificate store to a memory [*BLOB*](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx) using [**CertSaveStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certsavestore).
 -   Determine the number of signers of the PKCS \#7 message using [**CryptGetMessageSignercount**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetmessagesignercount).
 -   Open a certificate store from a PKCS \#7 message in memory using [**CryptGetMessageCertificates**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetmessagecertificates).
--   Initialize the [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier) and [**CRYPT\_HASH\_MESSAGE\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_hash_message_para) data structures needed to [*hash*](https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323) the message
+-   Initialize the [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier) and [**CRYPT\_HASH\_MESSAGE\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-_crypt_hash_message_para) data structures needed to [*hash*](https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx) the message
 -   Hash and encode the message using [**CryptHashMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashmessage).
 -   Determine whether changes have been made to an open certificate store and synchronizing the store if needed using [**CertControlStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcontrolstore).
 -   Closing a certificate store using [**CertCloseStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certclosestore) with the CERT\_CLOSE\_STORE\_FORCE\_FLAG.

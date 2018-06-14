@@ -21,11 +21,11 @@ ms.date: 05/31/2018
 
 # CDN\_INCLUDEITEM notification code
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](https://msdn.microsoft.com/windows/desktop/f8846148-89a5-4b9b-ad68-56137a5c2f65). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](https://msdn.microsoft.com/en-us/library/Bb776913(v=VS.85).aspx). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 Sent by an **Open** or **Save As** dialog box to determine whether the dialog box should display an item in a shell folder's item list. When the user opens a folder, the dialog box sends a **CDN\_INCLUDEITEM** notification for each item in the folder. The dialog box sends this notification only if the **OFN\_ENABLEINCLUDENOTIFY** flag was set when the dialog box was created.
 
-Your [*OFNHookProc*](https://www.bing.com/search?q=*OFNHookProc*) hook procedure receives this message in the form of a [**WM\_NOTIFY**](https://msdn.microsoft.com/windows/desktop/23ff9dc1-3d92-4e94-8df5-7a645039ce27) message.
+Your [*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx) hook procedure receives this message in the form of a [**WM\_NOTIFY**](https://www.bing.com/search?q=**WM\_NOTIFY**) message.
 
 
 ```C++
@@ -59,7 +59,7 @@ The **psf** member of the [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commd
 
 ## Return value
 
-If the [*OFNHookProc*](https://www.bing.com/search?q=*OFNHookProc*) hook procedure returns zero, the dialog box excludes the item from the list of items.
+If the [*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx) hook procedure returns zero, the dialog box excludes the item from the list of items.
 
 To include the item, return a nonzero value from the hook procedure.
 
@@ -92,7 +92,7 @@ The dialog box always includes items that have both the **SFGAO\_FILESYSTEM** an
 [**GetSaveFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea)
 </dt> <dt>
 
-[*OFNHookProc*](https://www.bing.com/search?q=*OFNHookProc*)
+[*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx)
 </dt> <dt>
 
 [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifyexa)

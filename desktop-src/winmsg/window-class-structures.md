@@ -11,8 +11,8 @@ ms.date: 05/31/2018
 
 # Window Class Structures
 
--   [**WNDCLASS**](/windows/desktop/api/Winuser/ns-winuser-tagwndclassa)
--   [**WNDCLASSEX**](/windows/desktop/api/Winuser/ns-winuser-tagwndclassexa)
+-   [**WNDCLASS**](https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx)
+-   [**WNDCLASSEX**](https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx)
 
  
 

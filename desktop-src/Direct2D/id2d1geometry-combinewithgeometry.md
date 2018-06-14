@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # ID2D1Geometry::CombineWithGeometry methods
 
-Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](/windows/desktop/api/d2d1/).
+Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx).
 
 ### Overload list
 
@@ -27,16 +27,16 @@ Combines this geometry with the specified geometry and stores the result in an [
 
 | Method                                                                                                                                                                                                                                                          | Description                                                                                                                                                    |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F&,ID2D1SimplifiedGeometrySink\*)**](/windows/desktop/api/d2d1/)              | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](/windows/desktop/api/d2d1/).<br/>  |
-| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F\*,ID2D1SimplifiedGeometrySink\*)**](/windows/desktop/api/d2d1/)             | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](/windows/desktop/api/d2d1/).<br/>  |
-| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F&,FLOAT,ID2D1SimplifiedGeometrySink\*)**](/windows/desktop/api/d2d1/)  | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](/windows/desktop/api/d2d1/).<br/>  |
-| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F\*,FLOAT,ID2D1SimplifiedGeometrySink\*)**](/windows/desktop/api/d2d1/) | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](/windows/desktop/api/d2d1/). <br/> |
+| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F&,ID2D1SimplifiedGeometrySink\*)**](https://msdn.microsoft.com/en-us/library/Dd316627(v=VS.85).aspx)              | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx).<br/>  |
+| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F\*,ID2D1SimplifiedGeometrySink\*)**](https://msdn.microsoft.com/en-us/library/Dd316621(v=VS.85).aspx)             | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx).<br/>  |
+| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F&,FLOAT,ID2D1SimplifiedGeometrySink\*)**](https://msdn.microsoft.com/en-us/library/Dd316624(v=VS.85).aspx)  | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx).<br/>  |
+| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F\*,FLOAT,ID2D1SimplifiedGeometrySink\*)**](https://msdn.microsoft.com/en-us/library/Dd316617(v=VS.85).aspx) | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/en-us/library/Dd316919(v=VS.85).aspx). <br/> |
 
 
 
 ## Examples
 
-The following code uses each of the different combine modes to combine two [**ID2D1EllipseGeometry**](/windows/desktop/api/d2d1/) objects.
+The following code uses each of the different combine modes to combine two [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/en-us/library/Dd371239(v=VS.85).aspx) objects.
 
 
 ```C++
@@ -219,7 +219,7 @@ This code produces the output shown in the following illustration.
 
 <dl> <dt>
 
-[**ID2D1Geometry**](/windows/desktop/api/d2d1/)
+[**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx)
 </dt> </dl>
 
  

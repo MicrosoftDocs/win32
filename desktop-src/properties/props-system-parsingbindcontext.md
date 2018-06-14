@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # System.ParsingBindContext
 
-Used to get the [**IBindCtx**](https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46) for an item to be parsed.
+Used to get the [**IBindCtx**](https://msdn.microsoft.com/en-us/library/ms693755(v=VS.85).aspx) for an item to be parsed.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 

@@ -19,9 +19,9 @@ The [**IMsRdpClientShell**](imsrdpclientshell.md) interface exposes the followin
 
 ## In this section
 
--   [**GetRdpProperty method**](/windows/desktop/api/rdpappcontainerclient/)
+-   [**GetRdpProperty method**](https://msdn.microsoft.com/en-us/library/Aa381303(v=VS.85).aspx)
 -   [**Launch method**](imsrdpclientshell-launch.md)
--   [**SetRdpProperty method**](/windows/desktop/api/rdpappcontainerclient/)
+-   [**SetRdpProperty method**](https://msdn.microsoft.com/en-us/library/Aa381312(v=VS.85).aspx)
 -   [**ShowTrustedSitesManagementDialog method**](imsrdpclientshell-showtrustedsitesmanagementdialog.md)
 
  

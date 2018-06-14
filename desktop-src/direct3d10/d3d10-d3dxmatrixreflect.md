@@ -32,7 +32,7 @@ D3DXMATRIX* D3DXMatrixReflect(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -41,7 +41,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *pPlane* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplane.htm)\***
+Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/en-us/library/Bb205385(v=VS.85).aspx)\***
 
 Pointer to the source [**D3DXPLANE**](d3d10-d3dxplane.md).
 
@@ -49,7 +49,7 @@ Pointer to the source [**D3DXPLANE**](d3d10-d3dxplane.md).
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a D3DXMATRIX structure that reflects the coordinate system about the source plane.
 

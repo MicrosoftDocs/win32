@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # GetStreamPropertiesOperation class
 
-Registers an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](https://www.bing.com/search?q=**GetStreamPropertiesAsync**) completes, and provides a method that returns the results of the operation.
+Registers an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](https://msdn.microsoft.com/en-us/library/Hh829001(v=VS.85).aspx) completes, and provides a method that returns the results of the operation.
 
 **GetStreamPropertiesOperation** has these types of members:
 
@@ -35,7 +35,7 @@ The **GetStreamPropertiesOperation** class has these methods.
 
 | Method                                                        | Description                                                                                                                                          |
 |:--------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetResults**](getstreampropertiesoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetStreamPropertiesAsync**](https://www.bing.com/search?q=**GetStreamPropertiesAsync**).<br/> |
+| [**GetResults**](getstreampropertiesoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetStreamPropertiesAsync**](https://msdn.microsoft.com/en-us/library/Hh829001(v=VS.85).aspx).<br/> |
 
 
 
@@ -49,7 +49,7 @@ The **GetStreamPropertiesOperation** class has these properties.
 
 | Property                                                               | Access type           | Description                                                                                                                                                                                   |
 |:-----------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Completed**](getstreampropertiesoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](https://www.bing.com/search?q=**GetStreamPropertiesAsync**) is completed.<br/> |
+| [**Completed**](getstreampropertiesoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetStreamPropertiesAsync**](https://msdn.microsoft.com/en-us/library/Hh829001(v=VS.85).aspx) is completed.<br/> |
 
 
 

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardCmd::get\_ApduReplyLength method
 
-\[The **get\_ApduReplyLength** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **get\_ApduReplyLength** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **get\_ApduReplyLength** method determines the length (in bytes) of the [*application protocol data unit*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) (APDU).
+The **get\_ApduReplyLength** method determines the length (in bytes) of the [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU).
 
 ## Syntax
 
@@ -64,7 +64,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 ## Examples
 
-The following example shows how to retrieve the length of the [*reply APDU*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd). The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
+The following example shows how to retrieve the length of the [*reply APDU*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx). The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
 
 
 ```C++

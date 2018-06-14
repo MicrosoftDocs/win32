@@ -137,9 +137,9 @@ To begin, you need to be able to accurately measure the execution time of a sing
 
 ### Pick an Accurate Measurement Tool Like QueryPerformanceCounter
 
-The Microsoft Windows operating system includes a high-resolution timer that can be used to measure high-resolution elapsed times. The current value of one such timer can be returned using [**QueryPerformanceCounter**](https://msdn.microsoft.com/windows/desktop/08169390-940b-4110-813a-249d107cc953). After invoking **QueryPerformanceCounter** to return start and stop values, the difference between the two values can be converted to the actual elapsed time (in seconds) using **QueryPerformanceCounter**.
+The Microsoft Windows operating system includes a high-resolution timer that can be used to measure high-resolution elapsed times. The current value of one such timer can be returned using [**QueryPerformanceCounter**](https://www.bing.com/search?q=**QueryPerformanceCounter**). After invoking **QueryPerformanceCounter** to return start and stop values, the difference between the two values can be converted to the actual elapsed time (in seconds) using **QueryPerformanceCounter**.
 
-The advantages of using [**QueryPerformanceCounter**](https://msdn.microsoft.com/windows/desktop/08169390-940b-4110-813a-249d107cc953) are that it is available in Windows and it is easy to use. Simply surround the calls with a **QueryPerformanceCounter** call and save the start and stop values. Therefore, this paper will demonstrate how to use **QueryPerformanceCounter** to profile execution times, similar to the way an instrumenting profiler would measure it. Here's an example that shows how to embed **QueryPerformanceCounter** in your source code:
+The advantages of using [**QueryPerformanceCounter**](https://www.bing.com/search?q=**QueryPerformanceCounter**) are that it is available in Windows and it is easy to use. Simply surround the calls with a **QueryPerformanceCounter** call and save the start and stop values. Therefore, this paper will demonstrate how to use **QueryPerformanceCounter** to profile execution times, similar to the way an instrumenting profiler would measure it. Here's an example that shows how to embed **QueryPerformanceCounter** in your source code:
 
 
 ```

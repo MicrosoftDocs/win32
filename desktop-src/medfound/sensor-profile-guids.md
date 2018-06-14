@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Sensor Profile GUIDs
 
-The following GUIDS define the different types of sensor profiles. These GUIDS are most commonly used in the [**SENSORPROFILEID**](https://www.bing.com/search?q=**SENSORPROFILEID**) structure.
+The following GUIDS define the different types of sensor profiles. These GUIDS are most commonly used in the [**SENSORPROFILEID**](https://msdn.microsoft.com/en-us/library/Mt845826(v=VS.85).aspx) structure.
 
 <dl> <dt>
 

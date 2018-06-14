@@ -22,7 +22,7 @@ The following enumerations are provided by COM:
 -   [**CALLFRAME\_FREE**](/windows/desktop/api/CallObj/ne-callobj-callframe_free)
 -   [**CALLFRAME\_WALK**](/windows/desktop/api/CallObj/ne-callobj-callframe_walk)
 -   [**CALLTYPE**](/windows/desktop/api/Objidl/ne-objidl-tagcalltype)
--   [**CLSCTX**](/windows/desktop/api/WTypes/ne-wtypesbase-tagclsctx)
+-   [**CLSCTX**](https://msdn.microsoft.com/en-us/library/ms693716(v=VS.85).aspx)
 -   [**CO\_MARSHALING\_CONTEXT\_ATTRIBUTES**](/windows/desktop/api/objidl/ne-objidl-co_marshaling_context_attributes)
 -   [**COINIT**](/windows/desktop/api/Objbase/ne-objbase-tagcoinit)
 -   [**COMSD**](/windows/desktop/api/Objbase/ne-objbase-tagcomsd)

@@ -87,7 +87,7 @@ The size in bytes of the data that the API wrote into *OutBuffer*. Important for
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7).
+If the function fails, the return value is one of the [system error codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx).
 
 ## Requirements
 

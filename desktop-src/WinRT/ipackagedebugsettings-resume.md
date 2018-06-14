@@ -45,7 +45,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-Each process receives the [**Resuming**](https://msdn.microsoft.com/Windows.ApplicationModel.Core.CoreApplication.Resuming) event. It can be useful for developers to step through how their apps respond to this event.
+Each process receives the [**Resuming**](https://msdn.microsoft.com/en-us/library/BR205859(v=Win.10).aspx) event. It can be useful for developers to step through how their apps respond to this event.
 
 ## Requirements
 
@@ -63,7 +63,7 @@ Each process receives the [**Resuming**](https://msdn.microsoft.com/Windows.Appl
 
 <dl> <dt>
 
-[**IPackageDebugSettings**](/windows/desktop/api/shobjidl_core/)
+[**IPackageDebugSettings**](https://msdn.microsoft.com/en-us/library/Hh438393(v=VS.85).aspx)
 </dt> </dl>
 
  

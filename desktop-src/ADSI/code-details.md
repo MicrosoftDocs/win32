@@ -57,7 +57,7 @@ The following table lists source code files that are included in the provider ex
 | [object.cpp](object-cpp.md)     | Example provider component object type list code for filtering.                                                                                                   |
 | [regdsapi.cpp](regdsapi-cpp.md) | Example provider component registry directory service APIs.                                                                                                       |
 | smpoper.cpp                      | Data conversion routines.                                                                                                                                         |
-| [stdfact.cpp](stdfact-cpp.md)   | Standard [**IClassFactory**](https://msdn.microsoft.com/windows/desktop/f624f833-2b69-43bc-92cd-c4ecbe6051c5) implementation.                                                                                                  |
+| [stdfact.cpp](stdfact-cpp.md)   | Standard [**IClassFactory**](https://msdn.microsoft.com/en-us/library/ms694364(v=VS.85).aspx) implementation.                                                                                                  |
 | adssmp.inf                       | Example directory data store registry data. For more information, see [Installing the Example Provider Component](installing-the-example-provider-component.md). |
 
 

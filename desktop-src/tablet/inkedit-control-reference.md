@@ -136,7 +136,7 @@ Creating the InkEdit control behind a transparent control (such as a GroupBox wi
 | [**Enabled**](/windows/desktop/api/inked/nf-inked-iinkedit-get_enabled)                       | Gets or sets a value that determines whether the InkEdit control can respond to user-generated events.<br/>                                                                     |
 | [**Factoid**](/windows/desktop/api/inked/nf-inked-iinkedit-get_factoid)                       | Gets or sets the [Factoid](factoid-constants.md) constant that a [**IInkRecognizer**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) object uses to constrain its search for the recognition result.<br/> |
 | [**Font**](/windows/desktop/api/inked/nf-inked-iinkedit-get_font)                             | Gets or sets the font of the text that the InkEdit control displays.<br/>                                                                                                       |
-| [**hWnd**](/windows/desktop/api/inked/nf-inked-iinkedit-get_hwnd)                             | Gets the window handle to which the [**InkDisp**](/windows/desktop/api/msinkaut/) control is bound.<br/>                                                                                     |
+| [**hWnd**](/windows/desktop/api/inked/nf-inked-iinkedit-get_hwnd)                             | Gets the window handle to which the [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) control is bound.<br/>                                                                                     |
 | [**InkInsertMode**](/windows/desktop/api/inked/nf-inked-iinkedit-get_inkinsertmode)           | Gets or sets a value that specifies how ink is inserted onto the InkEdit control, either as text or as ink.<br/>                                                                |
 | [**InkMode**](/windows/desktop/api/inked/nf-inked-iinkedit-get_inkmode)                       | Gets or sets a value that specifies whether ink collection is disabled, ink is collected, or ink and gestures are collected.<br/>                                               |
 | [**Locked**](/windows/desktop/api/inked/nf-inked-iinkedit-get_locked)                         | Gets or sets a value that specifies whether the InkEdit control is read-only or not.<br/>                                                                                       |
@@ -153,7 +153,7 @@ Creating the InkEdit control behind a transparent control (such as a GroupBox wi
 | [**SelColor**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selcolor)                     | Gets or sets the text color of the current text selection or insertion point (run time only).<br/>                                                                              |
 | [**SelFontName**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selfontname)               | Gets or sets the font name of the selected text within the InkEdit control (run time only).<br/>                                                                                |
 | [**SelFontSize**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selfontsize)               | Gets or sets the font size of the selected text within the InkEdit control (run time only).<br/>                                                                                |
-| [**SelInks**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selinks)                       | Gets or sets the array of embedded [**InkDisp**](/windows/desktop/api/msinkaut/) objects (if displayed as ink) that the current selection contains.<br/>                                     |
+| [**SelInks**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selinks)                       | Gets or sets the array of embedded [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) objects (if displayed as ink) that the current selection contains.<br/>                                     |
 | [**SelInksDisplayMode**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selinksdisplaymode) | Gets or sets a value that allows toggling the appearance of the selection between ink and text.<br/>                                                                            |
 | [**SelItalic**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selitalic)                   | Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is italic (run time only).<br/>                                |
 | [**SelLength**](/windows/desktop/api/inked/nf-inked-iinkedit-get_sellength)                   | Gets or sets the number of characters that are selected in the InkEdit control (run time only).<br/>                                                                            |
@@ -190,13 +190,13 @@ This object implements the **IInkEdit** COM interface.
 
 <dl> <dt>
 
-[**InkOverlay Class**](/windows/desktop/api/msinkaut/)
+[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
 </dt> <dt>
 
 [InkPicture Control Reference](inkpicture-control-reference.md)
 </dt> <dt>
 
-[**InkRecognizerContext Class**](/windows/desktop/api/msinkaut/)
+[**InkRecognizerContext Class**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx)
 </dt> </dl>
 
  

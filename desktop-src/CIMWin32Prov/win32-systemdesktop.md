@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_SystemDesktop class
 
-The **Win32\_SystemDesktop** association [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) relates a computer system and its desktop configuration.
+The **Win32\_SystemDesktop** association [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) relates a computer system and its desktop configuration.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -53,7 +53,7 @@ Data type: **Win32\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI\|Win32\_ComputerSystem")
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_ComputerSystem")
 </dt> </dl>
 
 Reference to the instance representing the computer system where the desktop configuration exists.
@@ -69,7 +69,7 @@ Data type: **Win32\_Desktop**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI\|Win32\_Desktop")
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_Desktop")
 </dt> </dl>
 
 Reference to the instance representing the configuration existing on the computer system.
@@ -101,7 +101,7 @@ The **Win32\_SystemDesktop** class is derived from [**Win32\_SystemSetting**](wi
 [**Win32\_SystemSetting**](win32-systemsetting.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/windows/desktop/D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
+[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -32,7 +32,7 @@ HRESULT GetName(
 *szName* \[in\]
 </dt> <dd>
 
-Type: **[**LPSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Address of a pointer to receive the name of this file data object. If this parameter is **NULL**, then puiSize will return the size of the string. If szName points to valid memory, the name of this file data object will be copied into szName up to the number of characters given by puiSize.
 
@@ -41,7 +41,7 @@ Address of a pointer to receive the name of this file data object. If this param
 *puiSize* \[in, out\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the size of the string that represents the name of this file data object. This parameter can be **NULL** if szName provides a reference to the name. This parameter will return the size of the string if szName is **NULL**.
 
@@ -49,7 +49,7 @@ Pointer to the size of the string that represents the name of this file data obj
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the following value will be returned: D3DXFERR\_BADVALUE.
 

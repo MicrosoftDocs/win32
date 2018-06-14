@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Sent when a window belonging to a different application than the active window is about to be activated. The message is sent to the application whose window is being activated and to the application whose window is being deactivated.
 
-A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -65,7 +65,7 @@ If an application processes this message, it should return zero.
 **Reference**
 </dt> <dt>
 
-[**WM\_ACTIVATE**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputmessages\wm_activate.htm)
+[**WM\_ACTIVATE**](https://msdn.microsoft.com/en-us/library/ms646274(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

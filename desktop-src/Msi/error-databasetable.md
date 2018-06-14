@@ -32,7 +32,7 @@ The collection is empty if the values do not apply to the type of the error. You
 
 ### C++
 
-See [**get\_DatabaseTable**](/windows/desktop/api/Mergemod/) function.
+See [**get\_DatabaseTable**](https://msdn.microsoft.com/en-us/library/Aa369251(v=VS.85).aspx) function.
 
 ## Requirements
 

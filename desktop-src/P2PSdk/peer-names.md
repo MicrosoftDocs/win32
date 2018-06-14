@@ -43,7 +43,7 @@ For an unsecured name, the Authority is zero (0), and the Classifier is the only
 
 ## PNRP and the Nearest Peer Name Instance
 
-There can be more than one instance of a peer name. When using [PNRP](pnrp-namespace-provider-api.md) to resolve a peer name, there is a concept of a **nearest** peer name instance, which means that the name has a service location closest to the **saHint** member specified in [**PNRPINFO\_V1**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1) or [**PNRPINFO\_V2**](/windows/desktop/api/Pnrpns/). If no hint is supplied, closest to one of the local IP addresses.
+There can be more than one instance of a peer name. When using [PNRP](pnrp-namespace-provider-api.md) to resolve a peer name, there is a concept of a **nearest** peer name instance, which means that the name has a service location closest to the **saHint** member specified in [**PNRPINFO\_V1**](/windows/desktop/api/Pnrpns/ns-pnrpns-_pnrpinfo_v1) or [**PNRPINFO\_V2**](https://msdn.microsoft.com/en-us/library/Aa371671(v=VS.85).aspx). If no hint is supplied, closest to one of the local IP addresses.
 
  
 

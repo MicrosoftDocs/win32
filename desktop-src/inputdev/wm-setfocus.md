@@ -75,7 +75,7 @@ To display a caret, an application should call the appropriate caret functions w
 **Reference**
 </dt> <dt>
 
-[**SetFocus**](/windows/desktop/api/Winuser/nf-winuser-setfocus)
+[**SetFocus**](https://msdn.microsoft.com/en-us/library/ms646312(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_KILLFOCUS**](wm-killfocus.md)

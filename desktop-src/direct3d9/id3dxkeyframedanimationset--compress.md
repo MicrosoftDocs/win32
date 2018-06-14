@@ -34,16 +34,16 @@ HRESULT Compress(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
-One of the [**D3DXCOMPRESSION\_FLAGS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxcompression_flags.htm) values that define the compression mode used for storing compressed animation set data. D3DXCOMPRESS\_DEFAULT is the only value currently supported.
+One of the [**D3DXCOMPRESSION\_FLAGS**](https://msdn.microsoft.com/en-us/library/Bb172734(v=VS.85).aspx) values that define the compression mode used for storing compressed animation set data. D3DXCOMPRESS\_DEFAULT is the only value currently supported.
 
 </dd> <dt>
 
 *Lossiness* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Desired compression loss ratio, in the range from 0 to 1.
 
@@ -69,7 +69,7 @@ Address of a pointer to the [**ID3DXBuffer**](id3dxbuffer.md) compressed animati
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following values: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

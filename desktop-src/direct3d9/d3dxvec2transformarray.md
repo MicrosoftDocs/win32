@@ -45,7 +45,7 @@ Pointer to the [**D3DXVECTOR4**](d3dxvector4.md) structure that is the result of
 *OutStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Stride between vectors in the output data stream.
 
@@ -63,7 +63,7 @@ Pointer to the source [**D3DXVECTOR2**](d3dxvector2.md) structure.
 *VStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Stride between vectors in the input data stream.
 
@@ -81,7 +81,7 @@ Pointer to the source [**D3DXMATRIX**](d3dxmatrix.md) structure.
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of elements in the array.
 

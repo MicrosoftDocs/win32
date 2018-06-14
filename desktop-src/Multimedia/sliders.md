@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # Sliders
 
-The slider controls are typically horizontal controls that can be adjusted to the left or right. These controls use the [**MIXERCONTROLDETAILS\_SIGNED**](/windows/desktop/api/mmeapi/) structure to retrieve and set control properties. The following table describes the types of sliders.
+The slider controls are typically horizontal controls that can be adjusted to the left or right. These controls use the [**MIXERCONTROLDETAILS\_SIGNED**](https://msdn.microsoft.com/en-us/library/Dd757297(v=VS.85).aspx) structure to retrieve and set control properties. The following table describes the types of sliders.
 
 
 

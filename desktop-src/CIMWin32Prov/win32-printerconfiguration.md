@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_PrinterConfiguration class
 
-The **Win32\_PrinterConfiguration** [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents the configuration for a printer device. This includes capabilities such as resolution, color, fonts, and orientation.
+The **Win32\_PrinterConfiguration** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) represents the configuration for a printer device. This includes capabilities such as resolution, color, fonts, and orientation.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -83,7 +83,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**Deprecated**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 Number of bits used to represent the color in this configuration (the bits per pixel). This property is obsolete. Instead, use properties in the [**Win32\_VideoController**](win32-videocontroller.md), [**Win32\_DesktopMonitor**](win32-desktopmonitor.md), or [**CIM\_VideoControllerResolution**](cim-videocontrollerresolution.md) classes to determine how color is represented.
@@ -99,7 +99,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Short textual description of the current object.
@@ -349,7 +349,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (dots per inch)
+Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (dots per inch)
 </dt> </dl>
 
 Print resolution in dots per inch along the x-axis (width) of the print job (similar to the obsolete **XResolution** property). This value is only set when the **PrintQuality** property of this class is positive.
@@ -472,7 +472,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**Deprecated**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 Number of pixels per logical inch. This obsolete property is valid only with devices that work with pixels, which excludes devices such as printers. There is no replacement value that applies to printers.
@@ -536,7 +536,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Name of the printer with which this configuration is associated. This value matches the **Name** property of the associated [**Win32\_Printer**](win32-printer.md) instance.
@@ -589,7 +589,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (Tenths of a millimeter)
+Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (Tenths of a millimeter)
 </dt> </dl>
 
 Length of the paper. To determine the size of the paper in inches, divide this value by 254.
@@ -622,7 +622,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (Tenths of a millimeter)
+Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (Tenths of a millimeter)
 </dt> </dl>
 
 Width of the paper. To determine the size of the paper in inches, divide this value by 254.
@@ -640,7 +640,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**Deprecated**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 This property is not supported.
@@ -656,7 +656,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**Deprecated**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 This property is not supported.
@@ -731,7 +731,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (Percent)
+Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (Percent)
 </dt> </dl>
 
 Factor by which the printed output is to be scaled. For example, a scale of 75 reduces the print output to 3/4 its original height and width.
@@ -747,7 +747,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Identifier by which the current object is known.
@@ -826,7 +826,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (dots per inch)
+Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (dots per inch)
 </dt> </dl>
 
 Print resolution along the y-axis (height) of the print job (similar to the obsolete **YResolution** property). This value is only set when the **PrintQuality** property of this class is positive.
@@ -842,7 +842,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**Deprecated**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 This property is obsolete. Use the **HorizontalResolution** property instead.
@@ -858,7 +858,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e)
+Qualifiers: [**Deprecated**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx)
 </dt> </dl>
 
 This property is obsolete. Use the **VerticalResolution** property instead.
@@ -938,7 +938,7 @@ Next
 
 <dl> <dt>
 
-[**CIM\_Setting**](https://msdn.microsoft.com/57c46b00-96c4-4df1-82ad-01f7b4f75ced)
+[**CIM\_Setting**](https://msdn.microsoft.com/en-us/library/Aa388461(v=VS.85).aspx)
 </dt> <dt>
 
 [Computer System Hardware Classes](computer-system-hardware-classes.md)

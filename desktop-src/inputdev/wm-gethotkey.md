@@ -67,7 +67,7 @@ The return value is the virtual-key code and modifiers for the hot key, or **NUL
 
 ## Remarks
 
-These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](/windows/desktop/api/Winuser/nf-winuser-registerhotkey) function.
+These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx) function.
 
 ## Requirements
 
@@ -88,7 +88,7 @@ These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](/wi
 **Reference**
 </dt> <dt>
 
-[**RegisterHotKey**](/windows/desktop/api/Winuser/nf-winuser-registerhotkey)
+[**RegisterHotKey**](https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_SETHOTKEY**](wm-sethotkey.md)

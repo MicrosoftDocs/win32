@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Displaying the Input Panel
 
-\[[**PenInputPanel**](/windows/desktop/api/msinkaut/) has been replaced by [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel) ([Microsoft.Ink.TextInput](https://www.bing.com/search?q=Microsoft.Ink.TextInput) for managed code). Please refer to the [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
+\[[**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) has been replaced by [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel) ([Microsoft.Ink.TextInput](https://www.bing.com/search?q=Microsoft.Ink.TextInput) for managed code). Please refer to the [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
 
 The order of the various focus events for a control is as follows:
 

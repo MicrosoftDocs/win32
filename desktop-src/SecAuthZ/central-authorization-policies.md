@@ -20,7 +20,7 @@ A CAP has the following attributes:
 -   Description
 -   Name
 
-A CAP is evaluated during access evaluation for files and folders on which an administrator enables it. During an [**AccessCheck**](/windows/desktop/api/Winbase/nf-ntifs-ntaccesscheckandauditalarm) call, the CAP check is logically combined with the discretionary ACL check; this means that in order to obtain access to a file to which the CAP applies, a user needs to have access both according to the CAP (its associated CAPRs) and the discretionary ACL on the file.
+A CAP is evaluated during access evaluation for files and folders on which an administrator enables it. During an [**AccessCheck**](https://msdn.microsoft.com/en-us/library/Aa374815(v=VS.85).aspx) call, the CAP check is logically combined with the discretionary ACL check; this means that in order to obtain access to a file to which the CAP applies, a user needs to have access both according to the CAP (its associated CAPRs) and the discretionary ACL on the file.
 
 Example CAP:
 

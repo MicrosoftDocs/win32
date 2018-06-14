@@ -36,7 +36,7 @@ The following features have been added in version 5.1 of WinHTTP:
 -   HTTP/1.1 chunked transfer support for HTTP responses.
 -   Keep-alive pooling of anonymous connections across sessions.
 -   Secure Sockets Layer (SSL) functionality, including client certificates. Supported SSL protocols include the following: SSL 2.0, SSL 3.0, and Transport Layer Security (TLS) 1.0.
--   Support for server and proxy authentication, including integrated support for Microsoft Passport 1.4 and the Negotiate/ [Kerberos](https://msdn.microsoft.com/windows/desktop/a53a1edf-f374-4cbf-8050-7cde45284157) package.
+-   Support for server and proxy authentication, including integrated support for Microsoft Passport 1.4 and the Negotiate/ [Kerberos](https://msdn.microsoft.com/en-us/library/ms690406(v=VS.85).aspx) package.
 -   Automatic handling of redirects unless suppressed.
 -   Scriptable interface in addition to the API.
 -   Trace utility to help troubleshoot problems.

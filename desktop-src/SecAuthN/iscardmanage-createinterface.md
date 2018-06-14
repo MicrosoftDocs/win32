@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ISCardManage::CreateInterface method
 
-\[The **CreateInterface** method is available for use in the operating systems specified in the Requirements section. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **CreateInterface** method is available for use in the operating systems specified in the Requirements section. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
 The **CreateInterface** method creates the specified interface.
 
@@ -82,7 +82,7 @@ The possible return values are the following:
 
 For a list of all the methods defined by the [**ISCardManage**](iscardmanage.md) interface, see **ISCardManage**.
 
-In addition to the COM error codes listed above, this interface may return a [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) error code if a smart card function was called to complete the request. For information about smart card error codes, see [Smart Card Return Values](authentication-return-values.md).
+In addition to the COM error codes listed above, this interface may return a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) error code if a smart card function was called to complete the request. For information about smart card error codes, see [Smart Card Return Values](authentication-return-values.md).
 
 ## Requirements
 

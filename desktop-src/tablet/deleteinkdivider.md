@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # DeleteInkDivider function
 
-Deletes an [**InkDivider**](/windows/desktop/api/msinkaut15/) object and releases associated resources.
+Deletes an [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object and releases associated resources.
 
 This function is not intended to be used by application code.
 
@@ -33,7 +33,7 @@ HRESULT WINAPI DeleteInkDivider(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](/windows/desktop/api/msinkaut15/) object.
+A handle to the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
 
 </dd> </dl>
 

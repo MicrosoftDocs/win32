@@ -28,7 +28,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The return value is S\_OK.
 

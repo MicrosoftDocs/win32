@@ -131,7 +131,7 @@ The following table lists the available input and output formats.
 
  
 
-See [Types of Bitmaps](https://msdn.microsoft.com/VS|gdicpp|~\gdiplus\aboutgdiplus\imagesbitmapsandmetafiles\typesofbitmaps.htm) for more information on some of these formats.
+See [Types of Bitmaps](https://msdn.microsoft.com/en-us/library/ms536393(v=VS.85).aspx) for more information on some of these formats.
 
 ## Requirements
 

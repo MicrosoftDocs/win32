@@ -33,7 +33,7 @@ D3DXMATRIX* D3DXMatrixMultiplyTranspose(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -42,7 +42,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *pM1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a source D3DXMATRIX structure (left hand side).
 
@@ -51,7 +51,7 @@ Pointer to a source D3DXMATRIX structure (left hand side).
 *pM2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a source D3DXMATRIX structure (right hand side).
 
@@ -59,7 +59,7 @@ Pointer to a source D3DXMATRIX structure (right hand side).
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a D3DXMATRIX structure that is the product of two matrices.
 

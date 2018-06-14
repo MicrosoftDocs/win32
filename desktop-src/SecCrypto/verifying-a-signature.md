@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Verifying a Signature
 
-To verify a signature, create a [*hash object*](https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323) using [**CryptCreateHash**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash). This hash object accumulates the data to be verified. The data is then added to the hash object with the [**CryptHashData**](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashdata) function.
+To verify a signature, create a [*hash object*](https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx) using [**CryptCreateHash**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash). This hash object accumulates the data to be verified. The data is then added to the hash object with the [**CryptHashData**](/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashdata) function.
 
 After the last block of data is added to the hash, use [**CryptVerifySignature**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifysignaturea) to verify the signature. The address of the signature data, a handle to the hash object, and the handle of the public keys are passed to **CryptVerifySignature**.
 

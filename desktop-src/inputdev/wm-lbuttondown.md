@@ -91,7 +91,7 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 
  
 
-To detect that the ALT key was pressed, check whether [**GetKeyState**](/windows/desktop/api/Winuser/nf-winuser-getkeystate) with **VK\_MENU** &lt; 0. Note, this must not be [**GetAsyncKeyState**](/windows/desktop/api/Winuser/nf-winuser-getasynckeystate).
+To detect that the ALT key was pressed, check whether [**GetKeyState**](https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx) with **VK\_MENU** &lt; 0. Note, this must not be [**GetAsyncKeyState**](https://msdn.microsoft.com/en-us/library/ms646293(v=VS.85).aspx).
 
 ## Requirements
 
@@ -118,13 +118,13 @@ To detect that the ALT key was pressed, check whether [**GetKeyState**](/windows
 [**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)
 </dt> <dt>
 
-[**GetCapture**](/windows/desktop/api/Winuser/nf-winuser-getcapture)
+[**GetCapture**](https://msdn.microsoft.com/en-us/library/ms646257(v=VS.85).aspx)
 </dt> <dt>
 
-[**GetKeyState**](/windows/desktop/api/Winuser/nf-winuser-getkeystate)
+[**GetKeyState**](https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetCapture**](/windows/desktop/api/Winuser/nf-winuser-setcapture)
+[**SetCapture**](https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_LBUTTONDBLCLK**](wm-lbuttondblclk.md)

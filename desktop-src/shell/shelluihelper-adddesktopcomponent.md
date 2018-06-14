@@ -35,7 +35,7 @@ iRetVal = ShellUIHelper.AddDesktopComponent(
 *sURL* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228)**
+Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
 
 A **String** value that specifies the URL of the new favorite item.
 
@@ -44,7 +44,7 @@ A **String** value that specifies the URL of the new favorite item.
 *sType* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228)**
+Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
 
 A **String** value that specifies the type of item being added. This can be one of the following values.
 

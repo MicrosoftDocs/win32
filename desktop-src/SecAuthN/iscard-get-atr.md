@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCard::get\_Atr method
 
-\[The **get\_Atr** method is available for use in the operating systems specified in the Requirements section. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **get\_Atr** method is available for use in the operating systems specified in the Requirements section. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **get\_Atr** method retrieves an [*ATR string*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) of the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50).
+The **get\_Atr** method retrieves an [*ATR string*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) of the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 
@@ -33,7 +33,7 @@ HRESULT get_Atr(
 *ppAtr* \[out\]
 </dt> <dd>
 
-Pointer to a byte buffer in the form of an [**IStream**](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) that will contain the ATR string on return.
+Pointer to a byte buffer in the form of an [**IStream**](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) that will contain the ATR string on return.
 
 </dd> </dl>
 

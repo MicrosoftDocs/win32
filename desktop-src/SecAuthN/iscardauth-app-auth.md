@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardAuth::APP\_Auth method
 
-\[The **APP\_Auth** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **APP\_Auth** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **APP\_Auth** method authenticates the application. It allows an application to authenticate itself (using a challenge/signature protocol) when authentication is requested by a [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50).
+The **APP\_Auth** method authenticates the application. It allows an application to authenticate itself (using a challenge/signature protocol) when authentication is requested by a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx).
 
 ## Syntax
 

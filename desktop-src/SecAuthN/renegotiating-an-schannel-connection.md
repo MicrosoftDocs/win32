@@ -15,16 +15,16 @@ To change a connection's attributes, such as the cipher suite or client authenti
 
 If the attributes you want to change are controlled by credentials, you must obtain new credentials before you renegotiate the connection. For more information, see [Obtaining Schannel Credentials](obtaining-schannel-credentials.md).
 
-To request a redo from a client application, call the [**InitializeSecurityContext (Schannel)**](/windows/desktop/api/Sspi/) function. Server applications call the [**AcceptSecurityContext (Schannel)**](/windows/desktop/api/Sspi/) function. Set the parameters as follows:
+To request a redo from a client application, call the [**InitializeSecurityContext (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa375924(v=VS.85).aspx) function. Server applications call the [**AcceptSecurityContext (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa374708(v=VS.85).aspx) function. Set the parameters as follows:
 
--   Specify the existing [*security context*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) in the *phContext* parameter.
+-   Specify the existing [*security context*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) in the *phContext* parameter.
 -   (Clients only) Specify the same server name (in the *pszTargetName* parameter) as specified when establishing the context.
 -   Specify new credentials, using the *phCredential* parameter, if applicable.
 -   If you want to change context attributes unrelated to the credentials, specify these attributes using the *fContextReq* parameter.
 
-After calling the appropriate function, your application should send the results to the client and continue processing incoming messages using the [**DecryptMessage (Schannel)**](/windows/desktop/api/Sspi/) function.
+After calling the appropriate function, your application should send the results to the client and continue processing incoming messages using the [**DecryptMessage (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa375348(v=VS.85).aspx) function.
 
-The [**DecryptMessage (Schannel)**](/windows/desktop/api/Sspi/) function will return SEC\_I\_RENEGOTIATE when Schannel is ready for your application to proceed. When you receive the SEC\_I\_RENEGOTIATE return code, your application must call [**AcceptSecurityContext (Schannel)**](/windows/desktop/api/Sspi/) (servers) or [**InitializeSecurityContext (Schannel)**](/windows/desktop/api/Sspi/) (clients), passing in empty input buffers. After this call returns a value, proceed as though your application were creating a new connection.
+The [**DecryptMessage (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa375348(v=VS.85).aspx) function will return SEC\_I\_RENEGOTIATE when Schannel is ready for your application to proceed. When you receive the SEC\_I\_RENEGOTIATE return code, your application must call [**AcceptSecurityContext (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa374708(v=VS.85).aspx) (servers) or [**InitializeSecurityContext (Schannel)**](https://msdn.microsoft.com/en-us/library/Aa375924(v=VS.85).aspx) (clients), passing in empty input buffers. After this call returns a value, proceed as though your application were creating a new connection.
 
  
 

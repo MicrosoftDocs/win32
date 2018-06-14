@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardCmd::put\_ApduReply method
 
-\[The **put\_ApduReply** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **put\_ApduReply** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **put\_ApduReply** method sets a new [*reply APDU*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd).
+The **put\_ApduReply** method sets a new [*reply APDU*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx).
 
 ## Syntax
 
@@ -64,7 +64,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 ## Examples
 
-The following example shows how to set a new [*reply APDU*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd). The example assumes that pIByteReply is a valid pointer to an instance of [**IByteBuffer**](ibytebuffer.md), and that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
+The following example shows how to set a new [*reply APDU*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx). The example assumes that pIByteReply is a valid pointer to an instance of [**IByteBuffer**](ibytebuffer.md), and that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
 
 
 ```C++

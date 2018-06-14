@@ -25,9 +25,9 @@ The following functions are used with character sets.
 | [**MultiByteToWideChar**](/windows/desktop/api/Stringapiset/nf-stringapiset-multibytetowidechar)             | Maps a character string to a UTF-16 (wide character) string.                                                          |
 | [**TranslateCharsetInfo**](/windows/desktop/api/Wingdi/nf-wingdi-translatecharsetinfo)           | Translates character set information and sets all members of a destination structure to appropriate values.           |
 | [**WideCharToMultiByte**](/windows/desktop/api/Stringapiset/nf-stringapiset-widechartomultibyte)             | Maps a UTF-16 (wide character) string to a new character string.                                                      |
-| [**BytesToUnicode**](/windows/desktop/api/Gb18030/)                       | Do not use.                                                                                                           |
+| [**BytesToUnicode**](https://msdn.microsoft.com/en-us/library/Dd317724(v=VS.85).aspx)                       | Do not use.                                                                                                           |
 | [**NlsDllCodePageTranslation**](/windows/desktop/api/Gb18030/nf-gb18030-nlsdllcodepagetranslation) | Do not use.                                                                                                           |
-| [**UnicodeToBytes**](/windows/desktop/api/Gb18030/)                       | Do not use.                                                                                                           |
+| [**UnicodeToBytes**](https://msdn.microsoft.com/en-us/library/Dd374082(v=VS.85).aspx)                       | Do not use.                                                                                                           |
 
 
 

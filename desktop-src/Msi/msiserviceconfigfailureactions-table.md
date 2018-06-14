@@ -75,7 +75,7 @@ This column specifies when to change the service's configuration. The following 
 <span id="ResetPeriod"></span><span id="resetperiod"></span><span id="RESETPERIOD"></span>ResetPeriod
 </dt> <dd>
 
-The reset period in seconds of service's failure count. The [Service Control Manager](https://msdn.microsoft.com/56ad011d-17c4-4410-b598-6ef47fb3638f) (SCM) counts the number of times each service has failed since the system was last restarted. The count is reset to zero if the service does not fail for the reset period. When the service fails for the Nth time, the system performs the action specified in the element \[N-1\] of the array specified in the Actions field.
+The reset period in seconds of service's failure count. The [Service Control Manager](https://msdn.microsoft.com/en-us/library/ms685150(v=VS.85).aspx) (SCM) counts the number of times each service has failed since the system was last restarted. The count is reset to zero if the service does not fail for the reset period. When the service fails for the Nth time, the system performs the action specified in the element \[N-1\] of the array specified in the Actions field.
 
 Leave ResetPeriod field empty to indicate that failure count should never be reset.
 
@@ -91,7 +91,7 @@ The message sent to users before restarting the computer in response to a **SC\_
 <span id="Command"></span><span id="command"></span><span id="COMMAND"></span>Command
 </dt> <dd>
 
-The command line run by the process created by the [**CreateProcess**](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc) function in response to a **SC\_ACTION\_RUN\_COMMAND** action specified in the Actions column. The new process runs under the same account as the service and only if the Action field is **SC\_ACTION\_RUN\_COMMAND**. You can use an empty string, "", to use the current command line unchanged. You can use \[~\] syntax of the [Formatted](formatted.md) data type to delete the current command line and run no operation when the service fails.
+The command line run by the process created by the [**CreateProcess**](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx) function in response to a **SC\_ACTION\_RUN\_COMMAND** action specified in the Actions column. The new process runs under the same account as the service and only if the Action field is **SC\_ACTION\_RUN\_COMMAND**. You can use an empty string, "", to use the current command line unchanged. You can use \[~\] syntax of the [Formatted](formatted.md) data type to delete the current command line and run no operation when the service fails.
 
 </dd> <dt>
 

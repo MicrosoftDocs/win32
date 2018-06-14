@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Time property
 
-The **Time** property is the current time in hours, minutes, and seconds as a string of literal text in the format HH:MM:SS using a 24 hour clock. For example, the time 6:57 p.m. is represented by "18:57:00". The format of the value depends upon the user's locale, and is the format obtained using [**GetTimeFormat**](https://msdn.microsoft.com/3db91d29-df97-4660-b3cd-0db5b42cfd01) function with the TIME\_FORCE24HOURFORMAT \| TIME\_NOTIMEMARKER option. The value of this property is set by the Windows Installer and not the package author.
+The **Time** property is the current time in hours, minutes, and seconds as a string of literal text in the format HH:MM:SS using a 24 hour clock. For example, the time 6:57 p.m. is represented by "18:57:00". The format of the value depends upon the user's locale, and is the format obtained using [**GetTimeFormat**](https://msdn.microsoft.com/en-us/library/Dd318130(v=VS.85).aspx) function with the TIME\_FORCE24HOURFORMAT \| TIME\_NOTIMEMARKER option. The value of this property is set by the Windows Installer and not the package author.
 
 ## Remarks
 

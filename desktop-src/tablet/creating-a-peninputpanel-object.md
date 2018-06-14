@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Creating a PenInputPanel Object
 
-\[[**PenInputPanel**](/windows/desktop/api/msinkaut/) has been replaced by [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel) and [Microsoft.Ink.TextInput](https://www.bing.com/search?q=Microsoft.Ink.TextInput). Please refer to the [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
+\[[**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) has been replaced by [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel) and [Microsoft.Ink.TextInput](https://www.bing.com/search?q=Microsoft.Ink.TextInput). Please refer to the [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
 
 Managed code constructors provide a convenient way to create a [PenInputPanel](https://www.bing.com/search?q=PenInputPanel) object and attach it to a control in one step. This C\# example creates a PenInputPanel object and attaches it to an existing [InkEdit](https://www.bing.com/search?q=InkEdit) control, `InkEdit1`, with one line of code.
 

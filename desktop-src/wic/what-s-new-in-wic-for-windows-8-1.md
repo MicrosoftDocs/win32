@@ -26,10 +26,10 @@ Starting in Windows 10, version 1507, WIC provides access to low level JPEG dat
 
 JPEG indexing is a technique that significantly improves the performance of randomly accessing small sub regions of a large JPEG image, at the cost of some additional memory usage. JPEG indexing can be leveraged by any caller of WIC.
 
-The [**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/EA1F1377-A314-4375-AB86-A36CFE5AF0C8) interface is designed to leverage JPEG indexing if it is turned on. For example, the ID2D1ImageSource API will only request the needed sections of the image in a scenario such as pan and zoom for a large resolution image. For more information, see the following topics:
+The [**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/en-us/library/Dn900414(v=VS.85).aspx) interface is designed to leverage JPEG indexing if it is turned on. For example, the ID2D1ImageSource API will only request the needed sections of the image in a scenario such as pan and zoom for a large resolution image. For more information, see the following topics:
 
 -   [**IWICJpegFrameDecode::SetIndexing**](/windows/desktop/api/Wincodec/nf-wincodec-iwicjpegframedecode-setindexing) method
--   [**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/EA1F1377-A314-4375-AB86-A36CFE5AF0C8) interface
+-   [**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/en-us/library/Dn900414(v=VS.85).aspx) interface
 
 ## What's new for Windows 8.1
 
@@ -37,7 +37,7 @@ The [**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/EA1F1377-A314-4375-
 
 Starting in Windows 8.1, WIC provides support for decoding, transforming and encoding JPEG Y'CbCr image data in its native format. This allows apps to significantly decrease processing time and memory consumption for certain imaging operations when working with Y'CbCr encoded JPEGs. For more information, see the following topics:
 
--   [Direct2D](-wic-sample-d2d-viewer.md)[YCbCr effect](https://msdn.microsoft.com/E4492996-54DA-4C5F-B44C-8FBE97C8DD7D)
+-   [Direct2D](-wic-sample-d2d-viewer.md)[YCbCr effect](https://msdn.microsoft.com/en-us/library/Dn280624(v=VS.85).aspx)
 -   [**IWICPlanarBitmapSourceTransform**](/windows/desktop/api/Wincodec/nn-wincodec-iwicplanarbitmapsourcetransform) interface
 -   [**IWICPlanarBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicplanarbitmapframeencode) interface
 
@@ -50,18 +50,18 @@ Starting in Windows 8.1, WIC adds a new codec that supports DDS images encoded 
 
 ## What's new for Windows 8
 
-In Windows 8, WIC has been updated with several new features. The updated version of WIC is also available on Windows 7 and Windows Server 2008 R2 via the [Platform Update for Windows 7](https://msdn.microsoft.com/C6DC0D38-E17C-4924-AF7C-6AE74C6C50D1), which is available through the [Platform Update for Windows 7](http://support.microsoft.com/kb/2670838).
+In Windows 8, WIC has been updated with several new features. The updated version of WIC is also available on Windows 7 and Windows Server 2008 R2 via the [Platform Update for Windows 7](https://msdn.microsoft.com/en-us/library/JJ863687(v=VS.85).aspx), which is available through the [Platform Update for Windows 7](http://support.microsoft.com/kb/2670838).
 
 ### Improved Direct2D integration
 
 WIC in Windows 8 provides these APIs to improve Direct2D integration with WIC:
 
--   [**IWICImageEncoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimageencoder) - A new interface which can encode Direct2D[**ID2D1Image**](https://msdn.microsoft.com/9f7b4546-edbe-4000-a4ce-1a69563ebf9d) content to an [IWICBitmapFrameEncode](-wic-imp-iwicbitmapframeencode.md). The methods of this interface take a pointer to [**WICImageParameters**](/windows/desktop/api/Wincodec/ns-wincodec-wicimageparameters), which are parameters to control encoding.
+-   [**IWICImageEncoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimageencoder) - A new interface which can encode Direct2D[**ID2D1Image**](https://msdn.microsoft.com/en-us/library/Hh446803(v=VS.85).aspx) content to an [IWICBitmapFrameEncode](-wic-imp-iwicbitmapframeencode.md). The methods of this interface take a pointer to [**WICImageParameters**](/windows/desktop/api/Wincodec/ns-wincodec-wicimageparameters), which are parameters to control encoding.
 -   [**IWICImagingFactory2**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory2) - New WIC factory with the [**CreateImageEncoder**](/windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder) method. This interface inherits from the original WIC factory, [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory), and is created the same way.
 
 ### Changes to BMP codec alpha support
 
-WIC in Windows 8 supports loading [**BITMAPV5HEADER**](https://msdn.microsoft.com/ec5db6f9-93fa-4dbe-afdb-c039292b26e3) image files as [WICPixelFormat32bppBGRA](-wic-codec-native-pixel-formats.md)-formatted images. In addition, the BMP encoder supports a new Boolean ,encoder option "EnableV5Header32bppBGRA", which instructs the encoder to write a **BITMAPV5HEADER** with the 32bppBGRA image data.
+WIC in Windows 8 supports loading [**BITMAPV5HEADER**](https://msdn.microsoft.com/en-us/library/Dd183381(v=VS.85).aspx) image files as [WICPixelFormat32bppBGRA](-wic-codec-native-pixel-formats.md)-formatted images. In addition, the BMP encoder supports a new Boolean ,encoder option "EnableV5Header32bppBGRA", which instructs the encoder to write a **BITMAPV5HEADER** with the 32bppBGRA image data.
 
 For more info about BMP formats, see [BMP Format Overview](bmp-format-overview.md).
 
@@ -109,7 +109,7 @@ Specifying **WINCODEC\_SDK\_VERSION1** will cause **CLSID\_WICPngDecoder1** to b
 
 When compiled against the Windows 8 SDK, **CLSID\_WICImagingFactory** is \#defined to **CLSID\_WICImagingFactory2** to promote newly compiled apps using the new PNG decoder behavior. Apps should continue to specify **CLSID\_WICImagingFactory**.
 
-Specifying **CLSID\_WICImagingFactory2** when calling [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) to create the imaging factory causes **CLSID\_WICPngDecoder2** to be created instead of **CLSID\_WICPngDecoder1** from the [**CreateDecoder**](/windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createdecoder) method and its variants. Also, a decoder component info enumerator will return **CLSID\_WICPngDecoder2** component info, but not **CLSID\_WICPngDecoder1** info.
+Specifying **CLSID\_WICImagingFactory2** when calling [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) to create the imaging factory causes **CLSID\_WICPngDecoder2** to be created instead of **CLSID\_WICPngDecoder1** from the [**CreateDecoder**](/windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createdecoder) method and its variants. Also, a decoder component info enumerator will return **CLSID\_WICPngDecoder2** component info, but not **CLSID\_WICPngDecoder1** info.
 
 Specifying **CLSID\_WICImagingFactory1** will cause **CLSID\_WICPngDecoder1** to be used instead of **CLSID\_WICPngDecoder2** in the above cases.
 
@@ -155,7 +155,7 @@ In Windows 7, the photo metadata handler and the metadata policy layer have bee
 
 ### Windows 7 features supported on Windows Vista and Windows Server 2008
 
-The [Platform Update for Windows Vista](https://msdn.microsoft.com/661f88f9-e5ba-412d-8cb4-f3f186568b74) is a set of run-time libraries that enables developers to target applications to both Windows 7 and Windows Vista. The Platform Update for Windows Server 2008 is a set of run-time libraries that enables developers to target applications to both Windows Server 2008 R2 and Windows Server 2008. The Platform Update for Windows Vista and the Platform Update for Windows Server 2008 will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require Platform Update for Windows Vista or Platform Update for Windows Server 2008 can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background. For more information about both updates, see Platform Update for Windows Vista
+The [Platform Update for Windows Vista](https://msdn.microsoft.com/en-us/library/Ee663867(v=VS.85).aspx) is a set of run-time libraries that enables developers to target applications to both Windows 7 and Windows Vista. The Platform Update for Windows Server 2008 is a set of run-time libraries that enables developers to target applications to both Windows Server 2008 R2 and Windows Server 2008. The Platform Update for Windows Vista and the Platform Update for Windows Server 2008 will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require Platform Update for Windows Vista or Platform Update for Windows Server 2008 can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background. For more information about both updates, see Platform Update for Windows Vista
 
  
 

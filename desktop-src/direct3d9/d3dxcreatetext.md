@@ -56,7 +56,7 @@ Device context, containing the font for output. The font selected by the device 
 *pText* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a string that specifies the text to generate. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the string data type resolves to LPCSTR. See Remarks.
 
@@ -65,7 +65,7 @@ Pointer to a string that specifies the text to generate. If the compiler setting
 *Deviation* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Maximum chordal deviation from TrueType font outlines.
 
@@ -74,7 +74,7 @@ Maximum chordal deviation from TrueType font outlines.
 *Extrusion* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Amount to extrude text in the negative z-direction.
 
@@ -101,15 +101,15 @@ Pointer to a buffer containing adjacency information. May be **NULL**.
 *pGlyphMetrics* \[out\]
 </dt> <dd>
 
-Type: **[**LPGLYPHMETRICSFLOAT**](https://msdn.microsoft.com/6ceccb76-be31-4a4d-b093-1f8e35261a60)**
+Type: **[**LPGLYPHMETRICSFLOAT**](https://msdn.microsoft.com/en-us/library/Dd374209(v=VS.85).aspx)**
 
-Pointer to an array of [**GLYPHMETRICSFLOAT**](https://msdn.microsoft.com/6ceccb76-be31-4a4d-b093-1f8e35261a60) structures that contain the glyph metric data. Each element contains information about the position and orientation of the corresponding glyph in the string. The number of elements in the array should be equal to the number of characters in the string. Note that the origin in each structure is not relative to the entire string, but rather is relative to that character cell. To compute the entire bounding box, add the increment for each glyph while traversing the string. If you are not concerned with the glyph sizes, set this parameter to **NULL**.
+Pointer to an array of [**GLYPHMETRICSFLOAT**](https://msdn.microsoft.com/en-us/library/Dd374209(v=VS.85).aspx) structures that contain the glyph metric data. Each element contains information about the position and orientation of the corresponding glyph in the string. The number of elements in the array should be equal to the number of characters in the string. Note that the origin in each structure is not relative to the entire string, but rather is relative to that character cell. To compute the entire bounding box, add the increment for each glyph while traversing the string. If you are not concerned with the glyph sizes, set this parameter to **NULL**.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

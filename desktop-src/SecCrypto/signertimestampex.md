@@ -11,10 +11,10 @@ ms.date: 05/31/2018
 
 # SignerTimeStampEx function
 
-The **SignerTimeStampEx** function time stamps the specified subject and optionally returns a pointer to a [**SIGNER\_CONTEXT**](signer-context.md) structure that contains a pointer to a [*BLOB*](https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b). This function supports Authenticode time stamping. To perform X.509 Public Key Infrastructure (RFC 3161) time stamping, use the [**SignerTimeStampEx2**](signertimestampex2.md) function.
+The **SignerTimeStampEx** function time stamps the specified subject and optionally returns a pointer to a [**SIGNER\_CONTEXT**](signer-context.md) structure that contains a pointer to a [*BLOB*](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx). This function supports Authenticode time stamping. To perform X.509 Public Key Infrastructure (RFC 3161) time stamping, use the [**SignerTimeStampEx2**](signertimestampex2.md) function.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
 
  
 
@@ -71,7 +71,7 @@ This parameter is optional and can be **NULL** if it is not included.
 *pSipData* \[in\]
 </dt> <dd>
 
-Optional. A 32-bit value that is passed as additional data to [*subject interface package*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SIP) functions. The format and content of this parameter is defined by the SIP provider.
+Optional. A 32-bit value that is passed as additional data to [*subject interface package*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) (SIP) functions. The format and content of this parameter is defined by the SIP provider.
 
 This parameter is optional and can be **NULL** if it is not included.
 

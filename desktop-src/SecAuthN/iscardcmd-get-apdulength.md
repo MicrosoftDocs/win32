@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardCmd::get\_ApduLength method
 
-\[The **get\_ApduLength** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **get\_ApduLength** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **get\_ApduLength** method determines the length, in bytes, f the [*application protocol data unit*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) (APDU).
+The **get\_ApduLength** method determines the length, in bytes, f the [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU).
 
 ## Syntax
 
@@ -56,7 +56,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-To retrieve the raw [*application protocol data unit*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) (APDU) from the byte buffer mapped through an **IStream** that contains the APDU message, call [**get\_Apdu**](iscardcmd-get-apdu.md).
+To retrieve the raw [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU) from the byte buffer mapped through an **IStream** that contains the APDU message, call [**get\_Apdu**](iscardcmd-get-apdu.md).
 
 For a list of all the methods provided by this interface, see [**ISCardCmd**](iscardcmd.md).
 
@@ -64,7 +64,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 ## Examples
 
-The following example shows how to retrieve the [*application protocol data unit*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) (APDU) length. The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
+The following example shows how to retrieve the [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU) length. The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
 
 
 ```C++

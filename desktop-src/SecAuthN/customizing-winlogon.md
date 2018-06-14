@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Customizing Winlogon
 
-Customize [*Winlogon*](https://msdn.microsoft.com/library/windows/desktop/ms721635#-security-winlogon-gly) behavior by implementing a Credential Provider. For information about Credential Providers, see [**ICredentialProvider Interface**](https://msdn.microsoft.com/windows/desktop/7ce6cd61-16d1-414e-b9b3-4929a65c0cc6).
+Customize [*Winlogon*](https://msdn.microsoft.com/library/windows/desktop/ms721635#-security-winlogon-gly) behavior by implementing a Credential Provider. For information about Credential Providers, see [**ICredentialProvider Interface**](https://msdn.microsoft.com/en-us/library/Bb776042(v=VS.85).aspx).
 
 **Windows Server 2003 and Windows XP:** Credential Providers are not supported.
 
@@ -41,7 +41,7 @@ A [*GINA*](https://msdn.microsoft.com/library/windows/desktop/ms721584#-security
 
 A GINA stub function can implement additional functionality in one or more of its export functions. For example, the [**WlxLoggedOutSAS**](/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedoutsas) function of a GINA stub might check the current time before calling the **WlxLoggedOutSAS** function of the MsGina.dll. If the current time was within a specific range, the stub function could display a message that indicates logon is disallowed during that time period and return **WLX\_SAS\_ACTION\_NONE** to Winlogon. The **WlxLoggedOutSAS** function of the MsGina.dll would then be called only during the allowed time period.
 
-The GINA stub application gets a dispatch table to Winlogon support functions through the *pWinlogonFunctions* parameter of the [**WlxInitialize**](/windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize) function. The GINA stub application can use this dispatch table to call Winlogon support functions. For example, A GINA stub application can call the [**WlxSasNotify**](/windows/desktop/api/wlxutil/) function to cause a [*secure attention sequence*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-secure-attention-sequence-gly) (SAS) event when a [*smart card*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-smart-card-gly) is inserted into a [*reader*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-reader-gly).
+The GINA stub application gets a dispatch table to Winlogon support functions through the *pWinlogonFunctions* parameter of the [**WlxInitialize**](/windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize) function. The GINA stub application can use this dispatch table to call Winlogon support functions. For example, A GINA stub application can call the [**WlxSasNotify**](https://msdn.microsoft.com/en-us/library/Aa380582(v=VS.85).aspx) function to cause a [*secure attention sequence*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-secure-attention-sequence-gly) (SAS) event when a [*smart card*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-smart-card-gly) is inserted into a [*reader*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-reader-gly).
 
 For more information about creating a GINA stub, see the Gina Stubs sample in the \\Samples\\Security\\Gina\\GinaStub directory of a Platform Software Development Kit (SDK) installation.
 
@@ -52,9 +52,9 @@ For more information about creating a GINA stub, see the Gina Stubs sample in th
 
 ## GINA Hooks
 
-A GINA hook is a GINA stub that, in its implementation of the [**WlxInitialize**](/windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize) function, replaces the pointer to the [**WlxDialogBoxParam**](/windows/desktop/api/wlxutil/) support function in the dispatch table with a pointer to its own implementation of the **WlxDialogBoxParam** function. As a result, each time the previously installed GINA (typically MsGina.dll) calls the **WlxDialogBoxParam** function, the function implemented by the GINA hook is called.
+A GINA hook is a GINA stub that, in its implementation of the [**WlxInitialize**](/windows/desktop/api/Winwlx/nf-winwlx-wlxinitialize) function, replaces the pointer to the [**WlxDialogBoxParam**](https://msdn.microsoft.com/en-us/library/Aa380558(v=VS.85).aspx) support function in the dispatch table with a pointer to its own implementation of the **WlxDialogBoxParam** function. As a result, each time the previously installed GINA (typically MsGina.dll) calls the **WlxDialogBoxParam** function, the function implemented by the GINA hook is called.
 
-The [**WlxDialogBoxParam**](/windows/desktop/api/wlxutil/) function implemented by the GINA hook can replace the [**DialogProc**](https://www.bing.com/search?q=**DialogProc**) callback procedure that responds to a specific dialog box event.
+The [**WlxDialogBoxParam**](https://msdn.microsoft.com/en-us/library/Aa380558(v=VS.85).aspx) function implemented by the GINA hook can replace the [**DialogProc**](https://www.bing.com/search?q=**DialogProc**) callback procedure that responds to a specific dialog box event.
 
 This gives the GINA hook full control over the appearance and behavior of all of the dialog boxes that MsGina.dll creates.
 

@@ -17,8 +17,8 @@ The following control codes are used with [file compression and decompression](f
 
 | Control Code                                             | Meaning                                                                                                                                     |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**FSCTL\_GET\_COMPRESSION**](/windows/desktop/api/WinIoCtl/) | Retrieves the current compression state of a file or directory on a volume whose file system supports per-stream compression.<br/>    |
-| [**FSCTL\_SET\_COMPRESSION**](/windows/desktop/api/WinIoCtl/) | Sets the compression state of a file or directory on a volume whose file system supports per-file and per-directory compression.<br/> |
+| [**FSCTL\_GET\_COMPRESSION**](https://msdn.microsoft.com/en-us/library/Aa364567(v=VS.85).aspx) | Retrieves the current compression state of a file or directory on a volume whose file system supports per-stream compression.<br/>    |
+| [**FSCTL\_SET\_COMPRESSION**](https://msdn.microsoft.com/en-us/library/Aa364592(v=VS.85).aspx) | Sets the compression state of a file or directory on a volume whose file system supports per-file and per-directory compression.<br/> |
 
 
 
@@ -32,9 +32,9 @@ The following control codes are used with [reparse points](reparse-points.md).
 
 | Control Code                                                                   | Description                                                                                                           |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [**FSCTL\_DELETE\_REPARSE\_POINT**](/windows/desktop/api/WinIoCtl/)<br/> | Deletes a reparse point from the specified file or directory.<br/>                                              |
-| [**FSCTL\_GET\_REPARSE\_POINT**](/windows/desktop/api/WinIoCtl/)<br/>       | Retrieves the reparse point data associated with the file or directory identified by the specified handle.<br/> |
-| [**FSCTL\_SET\_REPARSE\_POINT**](/windows/desktop/api/WinIoCtl/)<br/>       | Sets a reparse point on a file or directory.<br/>                                                               |
+| [**FSCTL\_DELETE\_REPARSE\_POINT**](https://msdn.microsoft.com/en-us/library/Aa364560(v=VS.85).aspx)<br/> | Deletes a reparse point from the specified file or directory.<br/>                                              |
+| [**FSCTL\_GET\_REPARSE\_POINT**](https://msdn.microsoft.com/en-us/library/Aa364571(v=VS.85).aspx)<br/>       | Retrieves the reparse point data associated with the file or directory identified by the specified handle.<br/> |
+| [**FSCTL\_SET\_REPARSE\_POINT**](https://msdn.microsoft.com/en-us/library/Aa364595(v=VS.85).aspx)<br/>       | Sets a reparse point on a file or directory.<br/>                                                               |
 
 
 

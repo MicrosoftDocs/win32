@@ -33,7 +33,7 @@ HRESULT D3DX10CreateAsyncResourceLoader(
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**HMODULE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Handle to the resource module. Use [GetModuleHandle Function](http://msdn.microsoft.com/en-us/library/ms683199.aspx) to get the handle.
 
@@ -42,7 +42,7 @@ Handle to the resource module. Use [GetModuleHandle Function](http://msdn.micros
 *pSrcResource* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Name of the resource in hSrcModule. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -59,7 +59,7 @@ The address of a pointer to the asynchronous-data processor (see [**ID3DX10DataP
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

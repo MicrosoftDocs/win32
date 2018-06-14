@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # WMT\_STATUS Event Notification in DirectShow
 
-Both the ASF Reader and the ASF Writer forward [**WMT\_STATUS**](/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status) events to applications. The writer forwards all such events, and the reader forwards only those that pertain to DRM license acquisition. To receive these event notifications in your application, add a case for the **EC\_WMT\_EVENT** in your event-handling function. The *lParam1* parameter associated with the event contains the **WMT\_STATUS** code (which can be **WMT\_ERROR**) and lParam2 contains an [**AM\_WMT\_EVENT\_DATA**](/windows/desktop/api/Evcode/) that includes the **HRESULT**.
+Both the ASF Reader and the ASF Writer forward [**WMT\_STATUS**](/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_status) events to applications. The writer forwards all such events, and the reader forwards only those that pertain to DRM license acquisition. To receive these event notifications in your application, add a case for the **EC\_WMT\_EVENT** in your event-handling function. The *lParam1* parameter associated with the event contains the **WMT\_STATUS** code (which can be **WMT\_ERROR**) and lParam2 contains an [**AM\_WMT\_EVENT\_DATA**](https://msdn.microsoft.com/en-us/library/Dd743050(v=VS.85).aspx) that includes the **HRESULT**.
 
  
 

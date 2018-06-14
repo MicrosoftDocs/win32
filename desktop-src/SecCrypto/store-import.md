@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The **Import** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://www.bing.com/search?q=**X509Store+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
-The **Import** method copies into an open [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) the contents of a previously exported certificate store. This method can only be used with a store that has been opened with read/write permission.
+The **Import** method copies into an open [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) the contents of a previously exported certificate store. This method can only be used with a store that has been opened with read/write permission.
 
 ## Syntax
 

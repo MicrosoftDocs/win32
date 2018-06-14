@@ -48,7 +48,7 @@
 ### [Network Management Functions](network-management-functions.md)
 #### [GetNetScheduleAccountInformation](/windows/desktop/api/AtAcct/nf-atacct-getnetscheduleaccountinformation)
 #### [NetAccessAdd](/windows/desktop/api/lmaccess/nf-lmaccess-netaccessadd)
-#### [NetAccessCheck](/windows/desktop/api/Lmaccess/)
+#### [NetAccessCheck](https://msdn.microsoft.com/en-us/library/Aa370291(v=VS.85).aspx)
 #### [NetAccessDel](/windows/desktop/api/lmaccess/nf-lmaccess-netaccessdel)
 #### [NetAccessEnum](/windows/desktop/api/lmaccess/nf-lmaccess-netaccessenum)
 #### [NetAccessGetInfo](/windows/desktop/api/lmaccess/nf-lmaccess-netaccessgetinfo)

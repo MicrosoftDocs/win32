@@ -57,7 +57,7 @@ This message has no return value.
 
 When you call the [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) function to create a **Font** dialog box, you can use the **lpLogFont** member of the [**CHOOSEFONT**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta) structure to specify a [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure containing initial values for the dialog box. Use the **WM\_CHOOSEFONT\_SETLOGFONT** message to specify a **LOGFONT** structure with different values while the **Font** dialog box is open.
 
-Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**CFHookProc**](https://www.bing.com/search?q=**CFHookProc**) hook procedure. The hook procedure can also send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) and [**WM\_CHOOSEFONT\_SETFLAGS**](wm-choosefont-setflags.md) messages.
+Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx) hook procedure. The hook procedure can also send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) and [**WM\_CHOOSEFONT\_SETFLAGS**](wm-choosefont-setflags.md) messages.
 
 ## Requirements
 
@@ -78,7 +78,7 @@ Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**C
 **Reference**
 </dt> <dt>
 
-[**CFHookProc**](https://www.bing.com/search?q=**CFHookProc**)
+[**CFHookProc**](https://msdn.microsoft.com/en-us/library/ms646909(v=VS.85).aspx)
 </dt> <dt>
 
 [**ChooseFont**](/windows/desktop/api/Commdlg/ns-commdlg-tagchoosefonta)

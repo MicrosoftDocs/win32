@@ -11,16 +11,16 @@ ms.date: 05/31/2018
 
 # Hook Structures
 
--   [**CBT\_CREATEWND**](/windows/desktop/api/Winuser/ns-winuser-tagcbt_createwnda)
--   [**CBTACTIVATESTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagcbtactivatestruct)
--   [**CWPRETSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagcwpretstruct)
--   [**CWPSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagcwpstruct)
--   [**DEBUGHOOKINFO**](/windows/desktop/api/Winuser/ns-winuser-tagdebughookinfo)
--   [**EVENTMSG**](/windows/desktop/api/Winuser/ns-winuser-tageventmsg)
--   [**KBDLLHOOKSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagkbdllhookstruct)
--   [**MOUSEHOOKSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagmousehookstruct)
--   [**MOUSEHOOKSTRUCTEX**](/windows/desktop/api/Winuser/ns-winuser-tagmousehookstructex)
--   [**MSLLHOOKSTRUCT**](/windows/desktop/api/Winuser/ns-winuser-tagmsllhookstruct)
+-   [**CBT\_CREATEWND**](https://msdn.microsoft.com/en-us/library/ms644962(v=VS.85).aspx)
+-   [**CBTACTIVATESTRUCT**](https://msdn.microsoft.com/en-us/library/ms644961(v=VS.85).aspx)
+-   [**CWPRETSTRUCT**](https://msdn.microsoft.com/en-us/library/ms644963(v=VS.85).aspx)
+-   [**CWPSTRUCT**](https://msdn.microsoft.com/en-us/library/ms644964(v=VS.85).aspx)
+-   [**DEBUGHOOKINFO**](https://msdn.microsoft.com/en-us/library/ms644965(v=VS.85).aspx)
+-   [**EVENTMSG**](https://msdn.microsoft.com/en-us/library/ms644966(v=VS.85).aspx)
+-   [**KBDLLHOOKSTRUCT**](https://msdn.microsoft.com/en-us/library/ms644967(v=VS.85).aspx)
+-   [**MOUSEHOOKSTRUCT**](https://msdn.microsoft.com/en-us/library/ms644968(v=VS.85).aspx)
+-   [**MOUSEHOOKSTRUCTEX**](https://msdn.microsoft.com/en-us/library/ms644969(v=VS.85).aspx)
+-   [**MSLLHOOKSTRUCT**](https://msdn.microsoft.com/en-us/library/ms644970(v=VS.85).aspx)
 
  
 

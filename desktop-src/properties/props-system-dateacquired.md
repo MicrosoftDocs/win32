@@ -49,7 +49,7 @@ PKEY values are defined in Propkey.h.
 [DateAcquired](https://www.bing.com/search?q=DateAcquired) is stored as a value in the main stream of the file, but it may not always be present. In those instances, the acquisition date can be approximated based on other known dates for the content. The metadata handler should use a set of rules to determine the date to return. The following example demonstrates this for music files.
 
 -   For purchased music, the file's creation time should be used if no acquired date is present. However, the download provider should set the [DateAcquired](https://www.bing.com/search?q=DateAcquired) property in the file.
--   For music files that the user or group "ripped" (copying music or video from a CD or DVD to a hard disk), the acquisition date should be the date that action took place. For instance, the [WM/EncodingTime](https://msdn.microsoft.com/264f379a-0bec-4143-bc23-ab45fb725af6) attribute.
+-   For music files that the user or group "ripped" (copying music or video from a CD or DVD to a hard disk), the acquisition date should be the date that action took place. For instance, the [WM/EncodingTime](https://msdn.microsoft.com/en-us/library/Dd564908(v=VS.85).aspx) attribute.
 -   For music copied from another location, the file's creation time should be used as the acquisition date.
 
 Examples of [System.DateAcquired](https://www.bing.com/search?q=System.DateAcquired) are the date and time when pictures are acquired from a camera or when music is purchased online. This is not the same as [System.DateImported](https://www.bing.com/search?q=System.DateImported).

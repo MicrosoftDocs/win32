@@ -34,7 +34,7 @@ D3DXMATRIX* D3DXMatrixLookAtRH(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -43,7 +43,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *pEye* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that defines the eye point. This value is used in translation.
 
@@ -52,7 +52,7 @@ Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that defines the eye poin
 *pAt* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to the D3DXVECTOR3 structure that defines the camera look-at target.
 
@@ -61,7 +61,7 @@ Pointer to the D3DXVECTOR3 structure that defines the camera look-at target.
 *pUp* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to the D3DXVECTOR3 structure that defines the current world's up, usually \[0, 1, 0\].
 
@@ -69,7 +69,7 @@ Pointer to the D3DXVECTOR3 structure that defines the current world's up, usuall
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a D3DXMATRIX structure that is a right-handed, look-at matrix.
 

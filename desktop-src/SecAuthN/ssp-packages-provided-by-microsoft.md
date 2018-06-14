@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SSP Packages Provided by Microsoft
 
-Following are the SSP [*authentication packages*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) provided by Microsoft.
+Following are the SSP [*authentication packages*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) provided by Microsoft.
 
 -   [Credential Security Support Provider](credential-security-support-provider.md)
 -   [Microsoft Negotiate](microsoft-negotiate.md)

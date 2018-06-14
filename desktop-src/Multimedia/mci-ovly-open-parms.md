@@ -95,7 +95,7 @@ Handle to parent window.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 You can use the [**MCI\_OPEN\_PARMS**](mci-open-parms.md) structure in place of **MCI\_OVLY\_OPEN\_PARMS** if you are not using the extended data members.
 
@@ -127,7 +127,7 @@ You can use the [**MCI\_OPEN\_PARMS**](mci-open-parms.md) structure in place of 
 [**MCI\_OPEN\_PARMS**](mci-open-parms.md)
 </dt> <dt>
 
-[**mciSendCommand**](/windows/desktop/api/Mmsystem/)
+[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

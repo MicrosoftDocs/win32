@@ -58,8 +58,8 @@ IDCompositionTransform *pTransforms[3];
 
 ### Step 3: Create the transform objects, set their properties, and add them to the transform group array
 
-1.  Use the [**IDCompositionDevice::CreateRotateTransform**](/windows/desktop/api/Dcomp/), [**::CreateScaleTransform**](/windows/desktop/api/Dcomp/), and [**::CreateTranslateTransform**](/windows/desktop/api/Dcomp/) methods to create the transform objects.
-2.  Use the member functions of the [**IDCompositionRotateTransform**](/windows/desktop/api/Dcomp/), [**IDCompositionScaleTransform**](/windows/desktop/api/Dcomp/), and [**IDCompositionTranslateTransform**](/windows/desktop/api/Dcomp/) interfaces to set the properties of the transforms.
+1.  Use the [**IDCompositionDevice::CreateRotateTransform**](https://msdn.microsoft.com/en-us/library/Hh437400(v=VS.85).aspx), [**::CreateScaleTransform**](https://msdn.microsoft.com/en-us/library/Hh437402(v=VS.85).aspx), and [**::CreateTranslateTransform**](https://msdn.microsoft.com/en-us/library/Hh437411(v=VS.85).aspx) methods to create the transform objects.
+2.  Use the member functions of the [**IDCompositionRotateTransform**](https://msdn.microsoft.com/en-us/library/Hh448924(v=VS.85).aspx), [**IDCompositionScaleTransform**](https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx), and [**IDCompositionTranslateTransform**](https://msdn.microsoft.com/en-us/library/Hh449113(v=VS.85).aspx) interfaces to set the properties of the transforms.
 3.  Copy the transform interface pointers to the transform group array.
 
 
@@ -137,7 +137,7 @@ if (SUCCEEDED(hr))
 
 ### Step 4: Create the transform group object
 
-Call the [**IDCompositionDevice::CreateTransformGroup**](/windows/desktop/api/Dcomp/) method to create the transform group object.
+Call the [**IDCompositionDevice::CreateTransformGroup**](https://msdn.microsoft.com/en-us/library/Hh437410(v=VS.85).aspx) method to create the transform group object.
 
 
 ```C++
@@ -152,7 +152,7 @@ if (SUCCEEDED(hr))
 
 ### Step 5: Apply the transform group object to the visual
 
-Use the [**IDCompositionVisual::SetTransform**](/windows/desktop/api/Dcomp/) method to associate the Transform property of the visual with the transform group object.
+Use the [**IDCompositionVisual::SetTransform**](https://msdn.microsoft.com/en-us/library/Hh449174(v=VS.85).aspx) method to associate the Transform property of the visual with the transform group object.
 
 
 ```C++
@@ -167,7 +167,7 @@ if (SUCCEEDED(hr))
 
 ### Step 6: Commit the composition
 
-Call the [**IDCompositionDevice::Commit**](/windows/desktop/api/Dcomp/) method to commit the updates to the visual to DirectComposition for processing. The result of applying the group of 2D transforms appears in the target window.
+Call the [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/en-us/library/Hh437393(v=VS.85).aspx) method to commit the updates to the visual to DirectComposition for processing. The result of applying the group of 2D transforms appears in the target window.
 
 
 ```C++

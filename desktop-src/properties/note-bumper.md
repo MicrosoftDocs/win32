@@ -17,8 +17,8 @@ ms.date: 05/31/2018
 
 | Topic                                                                      | Description                                                                                         |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [System.Note.Color](https://msdn.microsoft.com/862d64df-cbea-4b0a-9603-a60ca972a792)<br/>         |                                                                                                     |
-| [System.Note.ColorText](https://msdn.microsoft.com/d1f99772-42e9-41ea-8a36-29f8995f8dbe)<br/> | The user-friendly form of System.Note.Color. Not intended to be parsed programmatically.<br/> |
+| [System.Note.Color](https://msdn.microsoft.com/en-us/library/Bb787286(v=VS.85).aspx)<br/>         |                                                                                                     |
+| [System.Note.ColorText](https://msdn.microsoft.com/en-us/library/Bb787288(v=VS.85).aspx)<br/> | The user-friendly form of System.Note.Color. Not intended to be parsed programmatically.<br/> |
 
 
 

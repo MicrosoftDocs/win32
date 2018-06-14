@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Contains an object for each transient publisher property for the parent [**TransientSubscriptions**](transientsubscriptions.md) collection. Transient subscriptions can be created on the fly for running object instances, and they vanish when the object is destroyed.
 
-This collection supports the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) and [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) methods of the [**COMAdminCatalogCollection**](/windows/desktop/api/ComAdmin/) object.
+This collection supports the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) and [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) methods of the [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object.
 
 ## Members
 
@@ -33,7 +33,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](/windows/desktop/api/ComAdmin/) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) object within the collection:
 
 -   [Name](#name)
 -   [Value](#value)

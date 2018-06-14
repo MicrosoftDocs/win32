@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # RecognizerContext Object Events
 
-The following table describes which threads the [**RecognizerContext**](/windows/desktop/api/msinkaut/) object events can fire on.
+The following table describes which threads the [**RecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object events can fire on.
 
 
 
 | Event                                                                               | Threads                                                                                                                                                                                                              |
 |-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Recognition**](inkrecognizercontext-recognition.md)                             | Fires on the background recognition thread, or on the thread which calls the [**RecognizerContext**](/windows/desktop/api/msinkaut/) object's [**Recognize**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize) method.<br/> |
+| [**Recognition**](inkrecognizercontext-recognition.md)                             | Fires on the background recognition thread, or on the thread which calls the [**RecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object's [**Recognize**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize) method.<br/> |
 | [**RecognitionWithAlternates**](inkrecognizercontext-recognitionwithalternates.md) | Fires on the background recognition thread.<br/>                                                                                                                                                               |
 
 

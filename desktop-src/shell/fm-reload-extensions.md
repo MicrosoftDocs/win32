@@ -37,7 +37,7 @@ No return value.
 
 ## Remarks
 
-Other applications can use the [**PostMessage**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postmessage.htm) function to send this message to File Manager. To obtain the appropriate File Manager window handle, an application can specify "WFS\_Frame" as the *lpszClassName* parameter in a call to the [**FindWindow**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\findwindow.htm) function.
+Other applications can use the [**PostMessage**](https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx) function to send this message to File Manager. To obtain the appropriate File Manager window handle, an application can specify "WFS\_Frame" as the *lpszClassName* parameter in a call to the [**FindWindow**](https://msdn.microsoft.com/en-us/library/ms633499(v=VS.85).aspx) function.
 
 ## Requirements
 

@@ -58,7 +58,7 @@ MS Gothic=GOTEUDC.TTF
 
 When the Windows code page (system ACP) associated with the language for non-Unicode programs matches the subkey, the GDI subsystem looks to the subkey value pairs to obtain display information about the character. It first looks for a name matching the current font. If there is none, it examines the SystemDefaultEUDCFont value. If no value is defined, GDI treats the character as undefined.
 
-Note that the text itself does not have to be in the Windows code page. For example, assume that the code page has the identifier 1252, the default Windows code page for English. An application passes the single Unicode code point U+E000, in the Unicode private use area (PUA), to [**DrawText**](https://msdn.microsoft.com/fe412280-d797-4abd-8a29-107a9cd96145). In this case, GDI looks at the registry values under 1252 to obtain the font information for the character display properties.
+Note that the text itself does not have to be in the Windows code page. For example, assume that the code page has the identifier 1252, the default Windows code page for English. An application passes the single Unicode code point U+E000, in the Unicode private use area (PUA), to [**DrawText**](https://msdn.microsoft.com/en-us/library/Dd162498(v=VS.85).aspx). In this case, GDI looks at the registry values under 1252 to obtain the font information for the character display properties.
 
 ## Related topics
 

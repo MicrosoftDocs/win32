@@ -15,7 +15,7 @@ Specifies the complexity of the encoding algorithm. The value is an integer betw
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

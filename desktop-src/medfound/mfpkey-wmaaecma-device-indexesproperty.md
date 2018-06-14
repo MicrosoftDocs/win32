@@ -15,7 +15,7 @@ Specifies which audio devices the Voice Capture DSP uses for capturing and rende
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 
@@ -35,7 +35,7 @@ Set this property if you are using the DSP in source mode. The DSP ignores this 
 
 The value of the property is two 16-bit **WORD**s packed into a **DWORD**. The upper 16 bits specify the audio rendering device (typically a speaker), and the lower 16 bits specify the capture device (typically a microphone). Each device is specified as an index into the audio device collection. If the index is -1, the default device is used.
 
-The device index corresponds to the collection index used in the [**IMMDeviceCollection**](https://msdn.microsoft.com/4769b0a6-a319-4605-8742-5e7c285679cf) interface. The application must play the far-end voice through the selected rendering device. (The far-end voice is the voice of the person on the other end of the telephone line, which is played through the speaker on the user's computer.) If the selected rendering device does not have an active stream, the DSP cannot process any output.
+The device index corresponds to the collection index used in the [**IMMDeviceCollection**](https://msdn.microsoft.com/en-us/library/Dd371396(v=VS.85).aspx) interface. The application must play the far-end voice through the selected rendering device. (The far-end voice is the voice of the person on the other end of the telephone line, which is played through the speaker on the user's computer.) If the selected rendering device does not have an active stream, the DSP cannot process any output.
 
 The default value of this property is (-1, -1).
 

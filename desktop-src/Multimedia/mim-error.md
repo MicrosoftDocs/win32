@@ -46,7 +46,7 @@ Invalid MIDI message that was received. The message is packed into a doubleword 
 <span id="dwTimestamp"></span><span id="dwtimestamp"></span><span id="DWTIMESTAMP"></span>*dwTimestamp*
 </dt> <dd>
 
-Time that the message was received by the input device driver. The time stamp is specified in milliseconds, beginning at zero when the [**midiInStart**](https://www.bing.com/search?q=**midiInStart**) function was called.
+Time that the message was received by the input device driver. The time stamp is specified in milliseconds, beginning at zero when the [**midiInStart**](https://msdn.microsoft.com/en-us/library/Dd798462(v=VS.85).aspx) function was called.
 
 </dd> </dl>
 

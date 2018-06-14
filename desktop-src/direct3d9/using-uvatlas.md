@@ -123,7 +123,7 @@ User-defined adjacency information can be provided to the partitioning function 
 
 ### Example
 
-This example illustrates how you might use the UVAtlas APIs and the DirectX Viewer (Dxviewer.exe) to find and fix discontinuities in your model that can dramatically affect the size of your texture atlas. You can get Dxviewer.exe and learn about it from the DirectX SDK. Dxviewer.exe was removed from the DirectX SDK after the August 2009 version so to get it you'll need at least the August 2009 DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/d8765da9-e7cf-47e8-8bc3-4b29162da41b).
+This example illustrates how you might use the UVAtlas APIs and the DirectX Viewer (Dxviewer.exe) to find and fix discontinuities in your model that can dramatically affect the size of your texture atlas. You can get Dxviewer.exe and learn about it from the DirectX SDK. Dxviewer.exe was removed from the DirectX SDK after the August 2009 version so to get it you'll need at least the August 2009 DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/en-us/library/Ee663275(v=VS.85).aspx).
 
 Assume you started with some model in your favorite content generation software (this example uses a dwarf head model that was created in Maya). Export the textured model to an .x file and create a texture atlas with D3DXUVAtlasCreate. The resulting texture atlas would look something like the following illustration.
 
@@ -172,7 +172,7 @@ Packed charts are separated by a user-specified gutter width. The gutter width i
 
 In addition to being artist-invoked prior to texture painting, these functions can be integrated into an automated art pipeline. For example, a UVAtlas call can be issued automatically after an asset is updated, prior to performing a PRT simulation or normal mapping pass. This avoids any need to manually manual repair of an object's UV mapping if the mesh's topology has been modified.
 
-See the [UV Atlas Command-Line Tool (uvatlas.exe)](https://msdn.microsoft.com/windows/desktop/50af5da1-d516-ceca-45e6-22bd3d9ec445) for example usage of the UVAtlas functions.
+See the [UV Atlas Command-Line Tool (uvatlas.exe)](https://msdn.microsoft.com/en-us/library/Ee419017(v=VS.85).aspx) for example usage of the UVAtlas functions.
 
 ## Related topics
 

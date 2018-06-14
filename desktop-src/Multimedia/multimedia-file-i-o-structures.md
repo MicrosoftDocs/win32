@@ -24,8 +24,8 @@ ms.date: 05/31/2018
 
 The following structures are used with multimedia file I/O.
 
--   [**MMCKINFO**](https://www.bing.com/search?q=**MMCKINFO**)
--   [**MMIOINFO**](https://www.bing.com/search?q=**MMIOINFO**)
+-   [**MMCKINFO**](https://msdn.microsoft.com/en-us/library/Dd757312(v=VS.85).aspx)
+-   [**MMIOINFO**](https://msdn.microsoft.com/en-us/library/Dd757322(v=VS.85).aspx)
 
 ## Related topics
 

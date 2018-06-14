@@ -68,7 +68,7 @@ Not used with this operation; set to zero.
 *lpOutBuffer* 
 </dt> <dd>
 
-A pointer to a buffer that will receive a [**DISPLAY\_BRIGHTNESS**](/windows/desktop/api/WinNT/) structure.
+A pointer to a buffer that will receive a [**DISPLAY\_BRIGHTNESS**](https://msdn.microsoft.com/en-us/library/Aa372686(v=VS.85).aspx) structure.
 
 </dd> <dt>
 
@@ -146,7 +146,7 @@ Alternatively, you can define this control code as follows:
 [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216)
 </dt> <dt>
 
-[**DISPLAY\_BRIGHTNESS**](/windows/desktop/api/WinNT/)
+[**DISPLAY\_BRIGHTNESS**](https://msdn.microsoft.com/en-us/library/Aa372686(v=VS.85).aspx)
 </dt> <dt>
 
 [**IOCTL\_VIDEO\_SET\_DISPLAY\_BRIGHTNESS**](ioctl-video-set-display-brightness.md)

@@ -72,7 +72,7 @@ The values in this enumerated type are used by the D3DRS\_DEBUGMONITORTOKEN rend
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3drenderstatetype.htm)
+[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx)
 </dt> </dl>
 
  

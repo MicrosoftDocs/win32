@@ -23,7 +23,7 @@ float4x4 g_mWorld;
 
 
 
-Here is an example (from [SimpleSample10 Sample](https://msdn.microsoft.com/windows/desktop/2d17137c-9cb3-4393-907d-fda140e10359)) that gets these variables:
+Here is an example (from [SimpleSample10 Sample](https://msdn.microsoft.com/en-us/library/Ee416428(v=VS.85).aspx)) that gets these variables:
 
 
 ```

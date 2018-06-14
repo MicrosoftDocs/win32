@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 
  
 
-The **IUnknown** interface is the OLE interface from which AVIFile and AVIStream interfaces are derived. Interfaces used with AVI files rely on definitions of the [**QueryInterface**](/windows/desktop/api/unknwn/), [**AddRef**](/windows/desktop/api/unknwn/), and [**Release**](/windows/desktop/api/unknwn/) methods from this interface.
+The **IUnknown** interface is the OLE interface from which AVIFile and AVIStream interfaces are derived. Interfaces used with AVI files rely on definitions of the [**QueryInterface**](https://msdn.microsoft.com/en-us/library/Dd757101(v=VS.85).aspx), [**AddRef**](https://msdn.microsoft.com/en-us/library/Dd757100(v=VS.85).aspx), and [**Release**](https://msdn.microsoft.com/en-us/library/Dd757102(v=VS.85).aspx) methods from this interface.
 
 ## Related topics
 

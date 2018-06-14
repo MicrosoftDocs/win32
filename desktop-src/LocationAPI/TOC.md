@@ -39,7 +39,7 @@
 <!-- ERROR:##### [GetTimestamp Method](winlocation-com-ref/ilocationreport-gettimestamp.md)-->
 <!-- ERROR:##### [GetValue Method](winlocation-com-ref/ilocationreport-getvalue.md)-->
 ### [Structures and Enumeration Types](structures-and-enumeration-types.md)
-#### [LOCATION_DESIRED_ACCURACY](/windows/desktop/api/LocationApi/)
+#### [LOCATION_DESIRED_ACCURACY](https://msdn.microsoft.com/en-us/library/Dd756639(v=VS.85).aspx)
 <!-- ERROR:#### [LOCATION_REPORT_STATUS](winlocation-com-ref/location-report-status.md)-->
 ## [Location API Object Model Reference](windows-location-script-programming-reference.md)
 ### [LocationDisp.DispCivicAddressReport](locationdisp-dispcivicaddressreport.md)
@@ -73,7 +73,7 @@
 #### [ReportInterval Property](locationdisp-latlongreportfactory-reportinterval.md)
 #### [RequestPermissions Method](locationdisp-latlongreportfactory-requestpermissions.md)
 #### [Status Property](locationdisp-latlongreportfactory-status.md)
-#### [StopListeningForReports Method](/windows/desktop/api/locationapi/)
+#### [StopListeningForReports Method](https://msdn.microsoft.com/en-us/library/Dd317718(v=VS.85).aspx)
 ### [LocationDisp Events](locationdisp-events.md)
 #### [NewCivicAddressReport Event](newcivicaddressreport.md)
 #### [NewLatLongReport Event](newlatlongreport.md)

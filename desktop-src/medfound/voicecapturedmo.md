@@ -19,7 +19,7 @@ CLSID\_CWMAudioAEC
 
 ## Interfaces
 
--   [**IMediaObject**](https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b)
+-   [**IMediaObject**](https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx)
 -   **IPropertyStore**
 
 ## Properties
@@ -81,22 +81,22 @@ To use the Voice Capture DSP, perform the following steps.
 
 ### 1. Initialize the DMO
 
-Create the voice capture DMO by calling [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) with the CLSID **CLSID\_CWMAudioAEC**. The voice capture DSDP exposes only the [**IMediaObject**](https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b) and [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) interfaces, so it can only be used as a DMO.
+Create the voice capture DMO by calling [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) with the CLSID **CLSID\_CWMAudioAEC**. The voice capture DSDP exposes only the [**IMediaObject**](https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx) and [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) interfaces, so it can only be used as a DMO.
 
 The DMO defaults to source mode. To select filter mode, set the [MFPKEY\_WMAAECMA\_DMO\_SOURCE\_MODE](mfpkey-wmaaecma-dmo-source-modeproperty.md) property to **VARIANT\_FALSE**.
 
-Next, configure the internal properties of the DMO by using the [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) interface. The only property that an application must set is the [MFPKEY\_WMAAECMA\_SYSTEM\_MODE](mfpkey-wmaaecma-system-modeproperty.md) property. This property configures the processing pipeline within the DMO. The other properties are optional.
+Next, configure the internal properties of the DMO by using the [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) interface. The only property that an application must set is the [MFPKEY\_WMAAECMA\_SYSTEM\_MODE](mfpkey-wmaaecma-system-modeproperty.md) property. This property configures the processing pipeline within the DMO. The other properties are optional.
 
 ### 2. Set the Input and Output Formats
 
-If you are using the DMO in filter mode, set the input format by calling [**IMediaObject::SetInputType**](https://msdn.microsoft.com/6b466fe4-97a0-46f9-9e4b-461ee66095f1). The input format can be almost any valid uncompressed PCM or IEEE floating-point audio type. If the input format does not match the output format, the DMO automatically performs sample-rate conversion.
+If you are using the DMO in filter mode, set the input format by calling [**IMediaObject::SetInputType**](https://msdn.microsoft.com/en-us/library/Dd406962(v=VS.85).aspx). The input format can be almost any valid uncompressed PCM or IEEE floating-point audio type. If the input format does not match the output format, the DMO automatically performs sample-rate conversion.
 
 If you are using the DMO in source mode, do not set the input format. The DMO automatically configures the input format based on the audio devices.
 
-In either mode, set the output format by calling [**IMediaObject::SetOutputType**](https://msdn.microsoft.com/1dda3c55-d37b-4e04-9509-0e5197d6b019). The DMO can accept the following output formats:
+In either mode, set the output format by calling [**IMediaObject::SetOutputType**](https://msdn.microsoft.com/en-us/library/Dd406963(v=VS.85).aspx). The DMO can accept the following output formats:
 
 -   Subtype: **MEDIASUBTYPE\_PCM** or **MEDIASUBTYPE\_IEEE\_FLOAT**
--   Format block: [**WAVEFORMAT**](https://msdn.microsoft.com/48871868-792a-4479-9e92-95306c25673a) or [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**)
+-   Format block: [**WAVEFORMAT**](https://msdn.microsoft.com/en-us/library/Dd757712(v=VS.85).aspx) or [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**)
 -   Samples per second: 8,000; 11,025; 16,000; or 22,050
 -   Channels: 1 for AEC-only mode, 2 or 4 for microphone array processing
 -   Bits per sample: 16
@@ -140,16 +140,16 @@ if (SUCCEEDED(hr))
 
 ### 3. Process Data
 
-Before processing any data, it is recommended to call [**IMediaObject::AllocateStreamingResources**](https://msdn.microsoft.com/cd608bf2-50a5-4037-aeb5-c5c380c3d6df). This method allocates the resources used internally by the DMO. Call **AllocateStreamingResources** after the steps listed previously, not before. If you do not call this method, the DMO automatically allocates resources when data processing starts.
+Before processing any data, it is recommended to call [**IMediaObject::AllocateStreamingResources**](https://msdn.microsoft.com/en-us/library/Dd406943(v=VS.85).aspx). This method allocates the resources used internally by the DMO. Call **AllocateStreamingResources** after the steps listed previously, not before. If you do not call this method, the DMO automatically allocates resources when data processing starts.
 
-If you are using the DMO in filter mode, you must pass input data to the DMO by calling [**IMediaObject::ProcessInput**](https://msdn.microsoft.com/f52e9586-f65d-418f-8c1a-c97c0a81d253). The audio data from the microphone goes to stream 0, and the audio data from the speaker line goes to stream 1. If you are using the DMO in source mode, you do not need to call **ProcessInput**.
+If you are using the DMO in filter mode, you must pass input data to the DMO by calling [**IMediaObject::ProcessInput**](https://msdn.microsoft.com/en-us/library/Dd406959(v=VS.85).aspx). The audio data from the microphone goes to stream 0, and the audio data from the speaker line goes to stream 1. If you are using the DMO in source mode, you do not need to call **ProcessInput**.
 
 To get output data from the DSP, perform the following steps:
 
-1.  Create a buffer object to hold the output data. The buffer object must implement the [**IMediaBuffer**](https://msdn.microsoft.com/74d72ca6-f899-43fc-bdea-5208d920f314) interface. The size of the buffer depends on the requirements of your application. Allocating a larger buffer can reduce the chances of glitches occurring.
-2.  Declare a [**DMO\_OUTPUT\_DATA\_BUFFER**](https://msdn.microsoft.com/87fa2000-8dab-4f30-940a-14fb6699f616) structure and set the **pBuffer** member to point to your buffer object.
-3.  Pass the [**DMO\_OUTPUT\_DATA\_BUFFER**](https://msdn.microsoft.com/87fa2000-8dab-4f30-940a-14fb6699f616) structure to the [**IMediaObject::ProcessOutput**](https://msdn.microsoft.com/1a3b1192-f1e9-4f04-b543-d38692502b8e) method.
-4.  Continue to call this method for as long as the DMO has output data. The DSP signals that it has more output by setting the **DMO\_OUTPUT\_DATA\_BUFFERF\_INCOMPLETE** flag in the **dwStatus** member of the [**DMO\_OUTPUT\_DATA\_BUFFER**](https://msdn.microsoft.com/87fa2000-8dab-4f30-940a-14fb6699f616) structure.
+1.  Create a buffer object to hold the output data. The buffer object must implement the [**IMediaBuffer**](https://msdn.microsoft.com/en-us/library/Dd390166(v=VS.85).aspx) interface. The size of the buffer depends on the requirements of your application. Allocating a larger buffer can reduce the chances of glitches occurring.
+2.  Declare a [**DMO\_OUTPUT\_DATA\_BUFFER**](https://msdn.microsoft.com/en-us/library/Dd375507(v=VS.85).aspx) structure and set the **pBuffer** member to point to your buffer object.
+3.  Pass the [**DMO\_OUTPUT\_DATA\_BUFFER**](https://msdn.microsoft.com/en-us/library/Dd375507(v=VS.85).aspx) structure to the [**IMediaObject::ProcessOutput**](https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx) method.
+4.  Continue to call this method for as long as the DMO has output data. The DSP signals that it has more output by setting the **DMO\_OUTPUT\_DATA\_BUFFERF\_INCOMPLETE** flag in the **dwStatus** member of the [**DMO\_OUTPUT\_DATA\_BUFFER**](https://msdn.microsoft.com/en-us/library/Dd375507(v=VS.85).aspx) structure.
 
 ## Requirements
 

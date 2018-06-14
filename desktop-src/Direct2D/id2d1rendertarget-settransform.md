@@ -27,8 +27,8 @@ Applies the specified transform to the render target, replacing the existing tra
 
 | Method                                                                                              | Description                                                                                                                                                                |
 |:----------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SetTransform(D2D1\_MATRIX\_3X2\_F&)**](/windows/desktop/api/d2d1/)  | Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space. <br/> |
-| [**SetTransform(D2D1\_MATRIX\_3X2\_F\*)**](/windows/desktop/api/d2d1/) | Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space.<br/>  |
+| [**SetTransform(D2D1\_MATRIX\_3X2\_F&)**](https://msdn.microsoft.com/en-us/library/Dd316904(v=VS.85).aspx)  | Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space. <br/> |
+| [**SetTransform(D2D1\_MATRIX\_3X2\_F\*)**](https://msdn.microsoft.com/en-us/library/Dd316901(v=VS.85).aspx) | Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space.<br/>  |
 
 
 
@@ -65,7 +65,7 @@ For additional examples showing how to transform a render target, see [How to Sc
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](/windows/desktop/api/d2d1/)
+[**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx)
 </dt> <dt>
 
 [Transforms Overview](direct2d-transforms-overview.md)

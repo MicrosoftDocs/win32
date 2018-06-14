@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # RecognizerContextSet function
 
-Tests whether the [**InkDivider**](/windows/desktop/api/msinkaut15/) object can use the [**InkRecognizerContext**](/windows/desktop/api/msinkaut/) class to analyze words.
+Tests whether the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object can use the [**InkRecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) class to analyze words.
 
 This function is not intended to be used by application code.
 
@@ -33,7 +33,7 @@ HRESULT WINAPI RecognizerContextSet(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](/windows/desktop/api/msinkaut15/) object.
+A handle to the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
 
 </dd> </dl>
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CertStoreProvGetCRLProperty callback function
 
-The **CertStoreProvGetCRLProperty** callback function retrieves a specified property of a [*CRL*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
+The **CertStoreProvGetCRLProperty** callback function retrieves a specified property of a [*CRL*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
 
 ## Syntax
 
@@ -36,7 +36,7 @@ BOOL WINAPI CertStoreProvGetCRLProperty(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
+**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
 
 </dd> <dt>
 

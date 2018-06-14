@@ -33,7 +33,7 @@ FLOAT* D3DXSHMultiply3(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the output SH coefficients — the basis function *Y*ₗₘ is stored at l² + *m* + l. The order *N* determines the length of the array, where there should always be *N*² coefficients.
 
@@ -42,7 +42,7 @@ Pointer to the output SH coefficients — the basis function *Y*ₗₘ is stored
 *pF* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Input SH coefficients for first function.
 
@@ -51,7 +51,7 @@ Input SH coefficients for first function.
 *pG* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Second set of input SH coefficients.
 
@@ -59,7 +59,7 @@ Second set of input SH coefficients.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to SH output coefficients.
 

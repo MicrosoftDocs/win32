@@ -26,10 +26,10 @@ You must open a MIDI device before using it, and you should close the device as 
 
 | Value                                | Meaning                                            |
 |--------------------------------------|----------------------------------------------------|
-| [**midiInClose**](https://www.bing.com/search?q=**midiInClose**)   | Closes a specified MIDI input device.              |
-| [**midiInOpen**](https://www.bing.com/search?q=**midiInOpen**)     | Opens a specified MIDI input device for recording. |
-| [**midiOutClose**](https://www.bing.com/search?q=**midiOutClose**) | Closes a specified MIDI output device.             |
-| [**midiOutOpen**](https://www.bing.com/search?q=**midiOutOpen**)   | Opens a MIDI output device for playback.           |
+| [**midiInClose**](https://msdn.microsoft.com/en-us/library/Dd798452(v=VS.85).aspx)   | Closes a specified MIDI input device.              |
+| [**midiInOpen**](https://msdn.microsoft.com/en-us/library/Dd798458(v=VS.85).aspx)     | Opens a specified MIDI input device for recording. |
+| [**midiOutClose**](https://msdn.microsoft.com/en-us/library/Dd798468(v=VS.85).aspx) | Closes a specified MIDI output device.             |
+| [**midiOutOpen**](https://msdn.microsoft.com/en-us/library/Dd798476(v=VS.85).aspx)   | Opens a MIDI output device for playback.           |
 
 
 

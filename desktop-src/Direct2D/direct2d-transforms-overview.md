@@ -65,9 +65,9 @@ Because Direct2D supports only affine (linear) transformations, its transformati
 
  
 
-In Direct2D, this 3-by-2 matrix is represented by the [**D2D1\_MATRIX\_3X2**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f) structure. To simplify common matrix operations, Direct2D also provides a class named [**Matrix3x2F**](/windows/desktop/api/d2d1/nl-d2d1helper-matrix3x2f), which is derived from the **D2D1\_MATRIX\_3X2** structure.
+In Direct2D, this 3-by-2 matrix is represented by the [**D2D1\_MATRIX\_3X2**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f) structure. To simplify common matrix operations, Direct2D also provides a class named [**Matrix3x2F**](https://msdn.microsoft.com/en-us/library/Dd372275(v=VS.85).aspx), which is derived from the **D2D1\_MATRIX\_3X2** structure.
 
-The default constructor for [**Matrix3x2F**](/windows/desktop/api/d2d1/nl-d2d1helper-matrix3x2f) leaves the object uninitialized. To retrieve an identity matrix, use [**Matrix3x2F::Identity**](/windows/desktop/api/d2d1helper/nf-d2d1helper-identitymatrix).
+The default constructor for [**Matrix3x2F**](https://msdn.microsoft.com/en-us/library/Dd372275(v=VS.85).aspx) leaves the object uninitialized. To retrieve an identity matrix, use [**Matrix3x2F::Identity**](/windows/desktop/api/d2d1helper/nf-d2d1helper-identitymatrix).
 
 When an identity transform is applied to an object, it does not change the position, shape, or size of the object. It is similar to the way that multiplying a number by 1 does not change the number. In other words, the identity transform leaves the coordinates of points alone and does not shift the points to a new position. Any transform other than the identity transform will modify the position, shape, and/or size of objects.
 
@@ -102,9 +102,9 @@ For creating rotation, scale, skew, and translation transformations, the [**Matr
 
 ## Rendering Target Transforms
 
-A render target is a resource that inherits from the [**ID2D1RenderTarget**](/windows/desktop/api/d2d1/) interface. It creates resources for drawing and performs actual drawing operations. It also provides methods for transforming the coordinate space. You can call the [**ID2D1RenderTarget::SetTransform**](id2d1rendertarget-settransform.md) method to apply the specified transform to the render target. All subsequent drawing operations occur in the transformed space.
+A render target is a resource that inherits from the [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx) interface. It creates resources for drawing and performs actual drawing operations. It also provides methods for transforming the coordinate space. You can call the [**ID2D1RenderTarget::SetTransform**](id2d1rendertarget-settransform.md) method to apply the specified transform to the render target. All subsequent drawing operations occur in the transformed space.
 
-To render content, use the render target's drawing methods. Before you begin drawing, call the [**BeginDraw**](/windows/desktop/api/d2d1/) method. To finish rendering content, call the [**EndDraw**](/windows/desktop/api/d2d1/) method. For an example, see [How to Apply Multiple Transforms to an Object](how-to-apply-multiple-transforms.md).
+To render content, use the render target's drawing methods. Before you begin drawing, call the [**BeginDraw**](https://msdn.microsoft.com/en-us/library/Dd371768(v=VS.85).aspx) method. To finish rendering content, call the [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) method. For an example, see [How to Apply Multiple Transforms to an Object](how-to-apply-multiple-transforms.md).
 
 ## Brush Transforms
 
@@ -125,11 +125,11 @@ When you scale, move, translate, or skew geometries, you can directly apply a tr
 
  
 
-You can adjust the transform on a geometry by calling [**ID2D1Factory::CreateTransformedGeometry**](/windows/desktop/api/d2d1/) to create an [**ID2D1TransformedGeometry**](/windows/desktop/api/d2d1/) object. For more information about geometry transforms, see [Direct2D Geometries Overview](direct2d-geometries-overview.md).
+You can adjust the transform on a geometry by calling [**ID2D1Factory::CreateTransformedGeometry**](https://msdn.microsoft.com/en-us/library/Dd371304(v=VS.85).aspx) to create an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/en-us/library/Dd372252(v=VS.85).aspx) object. For more information about geometry transforms, see [Direct2D Geometries Overview](direct2d-geometries-overview.md).
 
 ## How a Render Target Transform Affects Clips
 
-The transform on a render target affects how the bounding box of an axis-aligned clip is computed. When the [**PushAxisAlignedClip**](/windows/desktop/api/d2d1/) is called, the *clipRect* parameter is transformed by the current world transform that is set on the render target. After the transform is applied to the *clipRect*, the axis-aligned bounding box for the *clipRect* is computed. For efficiency, the contents are clipped to this axis-aligned bounding box and not to the original *clipRect* that is passed in. The following diagrams show how a rotation transform is applied to the render target, the resulting *clipRect*, and a calculated axis-aligned bounding box.
+The transform on a render target affects how the bounding box of an axis-aligned clip is computed. When the [**PushAxisAlignedClip**](https://msdn.microsoft.com/en-us/library/Dd316860(v=VS.85).aspx) is called, the *clipRect* parameter is transformed by the current world transform that is set on the render target. After the transform is applied to the *clipRect*, the axis-aligned bounding box for the *clipRect* is computed. For efficiency, the contents are clipped to this axis-aligned bounding box and not to the original *clipRect* that is passed in. The following diagrams show how a rotation transform is applied to the render target, the resulting *clipRect*, and a calculated axis-aligned bounding box.
 
 1.  Assume that the rectangle in the following illustration is a render target that is aligned to the screen pixels.
 
@@ -139,7 +139,7 @@ The transform on a render target affects how the bounding box of an axis-aligned
 
     ![illustration of the original rectangle and a rotated rectangle (transformed render target)](images/pushaxisalignedclip-step2-transformed.png)
 
-3.  After [**PushAxisAlignedClip**](/windows/desktop/api/d2d1/) is called, the rotation transform is applied to the *clipRect*. In the following illustration, the blue rectangle represents the transformed *clipRect*.
+3.  After [**PushAxisAlignedClip**](https://msdn.microsoft.com/en-us/library/Dd316860(v=VS.85).aspx) is called, the rotation transform is applied to the *clipRect*. In the following illustration, the blue rectangle represents the transformed *clipRect*.
 
     ![illustration of a smaller blue rectangle (cliprect) inside the rotated rectangle (transformed render target)](images/pushaxisalignedclip-step3-cliprecttransformed.png)
 

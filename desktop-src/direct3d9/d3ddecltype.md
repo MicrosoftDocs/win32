@@ -175,7 +175,7 @@ Type field in the declaration is unused. This is designed for use with D3DDECLME
 
 Vertex data is declared with an array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) structures. Each element in the array contains a vertex declaration data type.
 
-Use the DirectX Caps Viewer Tool (DXCapsViewer.exe) to see which types are supported on your device. You can get this tool and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/d8765da9-e7cf-47e8-8bc3-4b29162da41b).
+Use the DirectX Caps Viewer Tool (DXCapsViewer.exe) to see which types are supported on your device. You can get this tool and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/en-us/library/Ee663275(v=VS.85).aspx).
 
 ## Requirements
 
@@ -194,7 +194,7 @@ Use the DirectX Caps Viewer Tool (DXCapsViewer.exe) to see which types are suppo
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DDECLMETHOD**](https://msdn.microsoft.com/VS|directx_sdk|~\d3ddeclmethod.htm)
+[**D3DDECLMETHOD**](https://msdn.microsoft.com/en-us/library/Bb172532(v=VS.85).aspx)
 </dt> </dl>
 
  

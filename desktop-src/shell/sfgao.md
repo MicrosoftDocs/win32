@@ -37,11 +37,11 @@ Attributes that can be retrieved on an item (file or folder) or set of items.
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SFGAO_CANLINK"></span><span id="sfgao_canlink"></span><dl> <dt><strong>SFGAO_CANLINK</strong></dt> <dt>0x00000004</dt> </dl></td>
-<td style="text-align: left;">Shortcuts can be created for the specified items. This attribute has the same value as [<strong>DROPEFFECT_LINK</strong>](https://msdn.microsoft.com/d8e46899-3fbf-4012-8dd3-67fa627526d5). <br/> If a namespace extension returns this attribute, a <strong>Create Shortcut</strong> entry with a default handler is added to the shortcut menu that is displayed during drag-and-drop operations. The extension can also implement its own handler for the <em>link</em> verb in place of the default. If the extension does so, it is responsible for creating the shortcut.<br/> A <strong>Create Shortcut</strong> item is also added to the Windows Explorer <strong>File</strong> menu and to normal shortcut menus.<br/> If the item is selected, your application's [<strong>IContextMenu::InvokeCommand</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) method is invoked with the <strong>lpVerb</strong> member of the [<strong>CMINVOKECOMMANDINFO</strong>](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-_cminvokecommandinfo) structure set to <em>link</em>. Your application is responsible for creating the link.<br/></td>
+<td style="text-align: left;">Shortcuts can be created for the specified items. This attribute has the same value as [<strong>DROPEFFECT_LINK</strong>](https://msdn.microsoft.com/en-us/library/ms693457(v=VS.85).aspx). <br/> If a namespace extension returns this attribute, a <strong>Create Shortcut</strong> entry with a default handler is added to the shortcut menu that is displayed during drag-and-drop operations. The extension can also implement its own handler for the <em>link</em> verb in place of the default. If the extension does so, it is responsible for creating the shortcut.<br/> A <strong>Create Shortcut</strong> item is also added to the Windows Explorer <strong>File</strong> menu and to normal shortcut menus.<br/> If the item is selected, your application's [<strong>IContextMenu::InvokeCommand</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) method is invoked with the <strong>lpVerb</strong> member of the [<strong>CMINVOKECOMMANDINFO</strong>](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-_cminvokecommandinfo) structure set to <em>link</em>. Your application is responsible for creating the link.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SFGAO_STORAGE"></span><span id="sfgao_storage"></span><dl> <dt><strong>SFGAO_STORAGE</strong></dt> <dt>0x00000008</dt> </dl></td>
-<td style="text-align: left;">The specified items can be bound to an [<strong>IStorage</strong>](https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487) object through [<strong>IShellFolder::BindToObject</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject). For more information about namespace manipulation capabilities, see <strong>IStorage</strong>.<br/></td>
+<td style="text-align: left;">The specified items can be bound to an [<strong>IStorage</strong>](https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx) object through [<strong>IShellFolder::BindToObject</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject). For more information about namespace manipulation capabilities, see <strong>IStorage</strong>.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SFGAO_CANRENAME"></span><span id="sfgao_canrename"></span><dl> <dt><strong>SFGAO_CANRENAME</strong></dt> <dt>0x00000010</dt> </dl></td>
@@ -73,10 +73,10 @@ Attributes that can be retrieved on an item (file or folder) or set of items.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SFGAO_ISSLOW"></span><span id="sfgao_isslow"></span><dl> <dt><strong>SFGAO_ISSLOW</strong></dt> <dt>0x00004000</dt> </dl></td>
-<td style="text-align: left;">Accessing the item (through [<strong>IStream</strong>](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) or other storage interfaces) is expected to be a slow operation. Applications should avoid accessing items flagged with SFGAO_ISSLOW. <br/>
+<td style="text-align: left;">Accessing the item (through [<strong>IStream</strong>](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) or other storage interfaces) is expected to be a slow operation. Applications should avoid accessing items flagged with SFGAO_ISSLOW. <br/>
 <blockquote>
 [!Note]<br />
-Opening a stream for an item is generally a slow operation at all times. SFGAO_ISSLOW indicates that it is expected to be especially slow, for example in the case of slow network connections or offline (FILE_ATTRIBUTE_OFFLINE) files. However, querying SFGAO_ISSLOW is itself a slow operation. Applications should query SFGAO_ISSLOW only on a background thread. An alternate method, such as retrieving the [<strong>PKEY_FileAttributes</strong>](https://msdn.microsoft.com/55b669e6-f8e1-4b31-8265-bb0621921563) property and testing for FILE_ATTRIBUTE_OFFLINE, could be used in place of a method call that involves SFGAO_ISSLOW.
+Opening a stream for an item is generally a slow operation at all times. SFGAO_ISSLOW indicates that it is expected to be especially slow, for example in the case of slow network connections or offline (FILE_ATTRIBUTE_OFFLINE) files. However, querying SFGAO_ISSLOW is itself a slow operation. Applications should query SFGAO_ISSLOW only on a background thread. An alternate method, such as retrieving the [<strong>PKEY_FileAttributes</strong>](https://msdn.microsoft.com/en-us/library/Bb760693(v=VS.85).aspx) property and testing for FILE_ATTRIBUTE_OFFLINE, could be used in place of a method call that involves SFGAO_ISSLOW.
 </blockquote>
 <br/></td>
 </tr>
@@ -94,7 +94,7 @@ Opening a stream for an item is generally a slow operation at all times. SFGAO_I
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SFGAO_READONLY"></span><span id="sfgao_readonly"></span><dl> <dt><strong>SFGAO_READONLY</strong></dt> <dt>0x00040000</dt> </dl></td>
-<td style="text-align: left;">The specified items are read-only. In the case of folders, this means that new items cannot be created in those folders. This should not be confused with the behavior specified by the FILE_ATTRIBUTE_READONLY flag retrieved by [<strong>IColumnProvider::GetItemData</strong>](/windows/desktop/api/Shlobj/) in a [<strong>SHCOLUMNDATA</strong>](/windows/desktop/api/Shlobj/ns-shlobj-shcolumndata) structure. FILE_ATTRIBUTE_READONLY has no meaning for Win32 file system folders.<br/></td>
+<td style="text-align: left;">The specified items are read-only. In the case of folders, this means that new items cannot be created in those folders. This should not be confused with the behavior specified by the FILE_ATTRIBUTE_READONLY flag retrieved by [<strong>IColumnProvider::GetItemData</strong>](https://msdn.microsoft.com/en-us/library/Bb776146(v=VS.85).aspx) in a [<strong>SHCOLUMNDATA</strong>](/windows/desktop/api/Shlobj/ns-shlobj-shcolumndata) structure. FILE_ATTRIBUTE_READONLY has no meaning for Win32 file system folders.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SFGAO_HIDDEN"></span><span id="sfgao_hidden"></span><dl> <dt><strong>SFGAO_HIDDEN</strong></dt> <dt>0x00080000</dt> </dl></td>
@@ -126,7 +126,7 @@ Opening a stream for an item is generally a slow operation at all times. SFGAO_I
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SFGAO_STORAGEANCESTOR"></span><span id="sfgao_storageancestor"></span><dl> <dt><strong>SFGAO_STORAGEANCESTOR</strong></dt> <dt>0x00800000</dt> </dl></td>
-<td style="text-align: left;">Children of this item are accessible through [<strong>IStream</strong>](https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531) or [<strong>IStorage</strong>](https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487). Those children are flagged with SFGAO_STORAGE or SFGAO_STREAM.<br/></td>
+<td style="text-align: left;">Children of this item are accessible through [<strong>IStream</strong>](https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx) or [<strong>IStorage</strong>](https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx). Those children are flagged with SFGAO_STORAGE or SFGAO_STREAM.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SFGAO_VALIDATE"></span><span id="sfgao_validate"></span><dl> <dt><strong>SFGAO_VALIDATE</strong></dt> <dt>0x01000000</dt> </dl></td>
@@ -170,7 +170,7 @@ Opening a stream for an item is generally a slow operation at all times. SFGAO_I
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SFGAO_PKEYSFGAOMASK"></span><span id="sfgao_pkeysfgaomask"></span><dl> <dt><strong>SFGAO_PKEYSFGAOMASK</strong></dt> <dt>0x81044000</dt> </dl></td>
-<td style="text-align: left;">Mask used by the [PKEY_SFGAOFlags](https://msdn.microsoft.com/0a63e019-a03c-43c2-b2dc-20ef7c37e0d3) property to determine attributes that are considered to cause slow calculations or lack context: SFGAO_ISSLOW, SFGAO_READONLY, SFGAO_HASSUBFOLDER, and SFGAO_VALIDATE. Callers normally do not use this value.<br/></td>
+<td style="text-align: left;">Mask used by the [PKEY_SFGAOFlags](https://msdn.microsoft.com/en-us/library/Bb787559(v=VS.85).aspx) property to determine attributes that are considered to cause slow calculations or lack context: SFGAO_ISSLOW, SFGAO_READONLY, SFGAO_HASSUBFOLDER, and SFGAO_VALIDATE. Callers normally do not use this value.<br/></td>
 </tr>
 </tbody>
 </table>

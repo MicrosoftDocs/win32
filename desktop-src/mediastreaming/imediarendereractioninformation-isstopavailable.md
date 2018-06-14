@@ -63,7 +63,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**IMediaRendererActionInformation**](https://www.bing.com/search?q=**IMediaRendererActionInformation**)
+[**IMediaRendererActionInformation**](https://msdn.microsoft.com/en-us/library/Hh828915(v=VS.85).aspx)
 </dt> </dl>
 
  

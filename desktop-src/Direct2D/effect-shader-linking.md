@@ -79,13 +79,13 @@ As a custom effect author, you should be aware of several key concepts and requi
 
 -   **No changes to effect interface implementations**
 
-    You do not need to modify any code implementing the various effect interfaces such as [ID2D1DrawTransform](/windows/desktop/api/d2d1effectauthor/).
+    You do not need to modify any code implementing the various effect interfaces such as [ID2D1DrawTransform](https://msdn.microsoft.com/en-us/library/Hh847992(v=VS.85).aspx).
 
 -   **Provide both a full and export function version of shaders**
 
     You must provide an export function version of your effect’s shaders which are linkable by Direct2D. In addition, you must also continue to provide the original, full shader; this is because Direct2D selects at runtime the right shader version depending on whether shader linking is to be applied to a particular link in the graph.
 
-    If a transform only provides the full pixel shader blob (via [ID2D1EffectContext::LoadPixelShader](/windows/desktop/api/D2D1EffectAuthor/)), it will not be linked to adjacent transforms.
+    If a transform only provides the full pixel shader blob (via [ID2D1EffectContext::LoadPixelShader](https://msdn.microsoft.com/en-us/library/Hh404476(v=VS.85).aspx)), it will not be linked to adjacent transforms.
 
 -   **Helper functions**
 

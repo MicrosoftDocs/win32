@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
  
 
-For every periodic timer creating by calling [**timeSetEvent**](/windows/desktop/api/TimeAPI/), the application must cancel the timer by calling the [**timeKillEvent**](/windows/desktop/api/TimeAPI/) function before it frees the memory that contains the callback function. To cancel a timer event, it might call the following function.
+For every periodic timer creating by calling [**timeSetEvent**](https://msdn.microsoft.com/en-us/library/Dd757634(v=VS.85).aspx), the application must cancel the timer by calling the [**timeKillEvent**](https://msdn.microsoft.com/en-us/library/Dd757630(v=VS.85).aspx) function before it frees the memory that contains the callback function. To cancel a timer event, it might call the following function.
 
 
 ```C++

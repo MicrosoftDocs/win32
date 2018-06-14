@@ -22,7 +22,7 @@ The following macros are used with MCI.
 -   [**MCI\_MAKE\_HMS**](mci-make-hms.md)
 -   [**MCI\_MAKE\_MSF**](mci-make-msf.md)
 -   [**MCI\_MAKE\_TMSF**](mci-make-tmsf.md)
--   [**MCI\_MSF\_FRAME**](/windows/desktop/api/Mmsystem/)
+-   [**MCI\_MSF\_FRAME**](https://msdn.microsoft.com/en-us/library/Dd743438(v=VS.85).aspx)
 -   [**MCI\_MSF\_MINUTE**](mci-msf-minute.md)
 -   [**MCI\_MSF\_SECOND**](mci-msf-second.md)
 -   [**MCI\_TMSF\_FRAME**](mci-tmsf-frame.md)

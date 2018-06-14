@@ -32,7 +32,7 @@ D3DXMATRIX* D3DXMatrixRotationX(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -41,7 +41,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *Angle* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Angle of rotation in radians. Angles are measured clockwise when looking along the rotation axis toward the origin.
 
@@ -49,7 +49,7 @@ Angle of rotation in radians. Angles are measured clockwise when looking along t
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a D3DXMATRIX structure rotated around the x-axis.
 

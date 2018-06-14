@@ -35,7 +35,7 @@ This topic shows you how to create a shortcut for your app, assign it an [AppUse
 
 ### Step 1: Prepare the shortcut to be created
 
-This example first determines the path of the user's app data folder through the [**GetEnvironmentVariable**](https://msdn.microsoft.com/1d4cc328-12e6-4aae-9f58-58675116ad54) function. It then composes the full path to the shortcut, determines that a shortcut of that name does not already exist at that location, and passes that information to another method which creates and installs the shortcut.
+This example first determines the path of the user's app data folder through the [**GetEnvironmentVariable**](https://msdn.microsoft.com/en-us/library/ms683188(v=VS.85).aspx) function. It then composes the full path to the shortcut, determines that a shortcut of that name does not already exist at that location, and passes that information to another method which creates and installs the shortcut.
 
 Note that the shortcut can be deployed per-user or per-app.
 
@@ -75,7 +75,7 @@ HRESULT DesktopToastsApp::TryCreateShortcut()
 
 ### Step 2: Create the shortcut and install it in the Start screen
 
-This example also retrieves the shortcut's property store and sets the required [System.AppUserModel.ID](https://msdn.microsoft.com/07858b3c-e601-40ec-a87a-d66612d5473a) property from a previously defined variable, `AppID`.
+This example also retrieves the shortcut's property store and sets the required [System.AppUserModel.ID](https://msdn.microsoft.com/en-us/library/Dd391569(v=VS.85).aspx) property from a previously defined variable, `AppID`.
 
 
 ```C++
@@ -153,7 +153,7 @@ As an alternative to the approach shown in this topic, you can use a framework s
 [Application User Model IDs (AppUserModelIDs)](appids.md)
 </dt> <dt>
 
-[How to: Install the Windows Installer XML (WiX) Tools](https://msdn.microsoft.com/windows/desktop/d02c70e2-3eea-46ea-b100-53e776852dde)
+[How to: Install the Windows Installer XML (WiX) Tools](https://msdn.microsoft.com/en-us/library/Gg513936(v=MSDN.10).aspx)
 </dt> <dt>
 
 [Sending toast notifications from desktop apps sample](http://go.microsoft.com/fwlink/p/?linkid=231503)
@@ -162,19 +162,19 @@ As an alternative to the approach shown in this topic, you can use a framework s
 [Toast notifications sample](http://go.microsoft.com/fwlink/p/?linkid=231503)
 </dt> <dt>
 
-[Toast XML schema](https://msdn.microsoft.com/06ae9be6-c573-4b35-83e0-371ed8299e33)
+[Toast XML schema](https://msdn.microsoft.com/en-us/library/BR230849(v=Win.10).aspx)
 </dt> <dt>
 
-[Toast notification overview](https://msdn.microsoft.com/14A07FCE-D631-4bad-AB99-305B703713E6)
+[Toast notification overview](https://msdn.microsoft.com/en-us/library/Hh779727(v=WIN.10).aspx)
 </dt> <dt>
 
-[Quickstart: Sending a toast notification](https://msdn.microsoft.com/098DF37C-4D40-4499-B809-CCB651DA1CBA)
+[Quickstart: Sending a toast notification](https://msdn.microsoft.com/en-us/library/Hh465448(v=Win.10).aspx)
 </dt> <dt>
 
 [Quickstart: Sending a toast push notification](https://www.bing.com/search?q=Quickstart:+Sending+a+toast+push+notification)
 </dt> <dt>
 
-[Guidelines and checklist for toast notifications](https://msdn.microsoft.com/windows/desktop/002951E3-3D2D-454A-A0B7-DAA5C1E7178A)
+[Guidelines and checklist for toast notifications](https://msdn.microsoft.com/en-us/library/Hh465391(v=Win.10).aspx)
 </dt> <dt>
 
 [How to add images to a toast template](https://www.bing.com/search?q=How+to+add+images+to+a+toast+template)
@@ -183,19 +183,19 @@ As an alternative to the approach shown in this topic, you can use a framework s
 [How to check toast notification settings](https://www.bing.com/search?q=How+to+check+toast+notification+settings)
 </dt> <dt>
 
-[How to choose and use a toast template](https://msdn.microsoft.com/windows/desktop/098DF37C-4D40-4499-B809-CCB651DA1CBA)
+[How to choose and use a toast template](https://msdn.microsoft.com/en-us/library/Hh465448(v=Win.10).aspx)
 </dt> <dt>
 
-[How to handle activation from a toast notification](https://msdn.microsoft.com/74BA3513-0A52-46a0-8769-ED58ABE7C05A)
+[How to handle activation from a toast notification](https://msdn.microsoft.com/en-us/library/Hh761468(v=WIN.10).aspx)
 </dt> <dt>
 
-[How to opt in for toast notifications](https://msdn.microsoft.com/809CDD36-6DE1-4de0-88B2-62B46CAFDB28)
+[How to opt in for toast notifications](https://msdn.microsoft.com/en-us/library/Hh781238(v=WIN.10).aspx)
 </dt> <dt>
 
-[Choosing a toast template](https://msdn.microsoft.com/windows/desktop/1A437614-4259-426b-8E3F-CA57368B2E7A)
+[Choosing a toast template](https://msdn.microsoft.com/en-us/library/Hh761494(v=WIN.10).aspx)
 </dt> <dt>
 
-[Toast audio options](https://msdn.microsoft.com/windows/desktop/12185879-1F9B-4bdc-99E7-A6F2F62806CB)
+[Toast audio options](https://msdn.microsoft.com/en-us/library/Hh761492(v=WIN.10).aspx)
 </dt> </dl>
 
  

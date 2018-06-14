@@ -26,7 +26,7 @@ Objects in Active Directory Domain Services have attributes that contain data ab
 |----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | [Active Directory Service Interfaces](https://msdn.microsoft.com/library/aa772170)         | [Accessing and Manipulating Data with ADSI](https://msdn.microsoft.com/library/aa772163) |
 | [Lightweight Directory Access Protocol](https://msdn.microsoft.com/library/aa367008) | [Modifying a Directory Entry](https://msdn.microsoft.com/library/aa367010)                             |
-| [System.DirectoryServices](https://msdn.microsoft.com/library/system.directoryservices.aspx) | [Directory Object Properties](https://msdn.microsoft.com/windows/desktop/78484bf5-6a3d-4de4-a843-8dd012c4a7b7)                         |
+| [System.DirectoryServices](https://msdn.microsoft.com/library/system.directoryservices.aspx) | [Directory Object Properties](https://msdn.microsoft.com/en-US/library/ms180858(v=VS.80).aspx)                         |
 
 
 

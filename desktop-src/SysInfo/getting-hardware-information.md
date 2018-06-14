@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Getting Hardware Information
 
-The following example uses the [**GetSystemInfo**](/windows/desktop/api/Winbase/) function to obtain hardware information such as the OEM identifier, processor type, page size, and so on. The example displays the information in the console.
+The following example uses the [**GetSystemInfo**](https://msdn.microsoft.com/en-us/library/ms724381(v=VS.85).aspx) function to obtain hardware information such as the OEM identifier, processor type, page size, and so on. The example displays the information in the console.
 
 
 ```C++

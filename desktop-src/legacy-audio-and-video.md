@@ -18,8 +18,8 @@ ms.date: 05/31/2018
 | Topic                                                                     | Description                                                             |
 |---------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | [DirectMusic](https://www.bing.com/search?q=DirectMusic)<br/>                                   |                                                                         |
-| [DirectSound](https://msdn.microsoft.com/windows/desktop/994fb8d3-0ff2-195e-ddb5-bb582ca4ff03)<br/>            | Describes how to use DirectSound to play and capture sounds.<br/> |
-| [Windows Multimedia](https://msdn.microsoft.com/c035f3d0-c2ca-4698-b5ae-281d5098a83d)<br/> |                                                                         |
+| [DirectSound](https://msdn.microsoft.com/en-us/library/Ee416960(v=VS.85).aspx)<br/>            | Describes how to use DirectSound to play and capture sounds.<br/> |
+| [Windows Multimedia](https://msdn.microsoft.com/en-us/library/Dd743883(v=VS.85).aspx)<br/> |                                                                         |
 
 
 

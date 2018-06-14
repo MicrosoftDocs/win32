@@ -33,7 +33,7 @@ typedef struct D3DLOCKED_BOX {
 **RowPitch**
 </dt> <dd>
 
-Type: **[**int**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**int**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -44,7 +44,7 @@ Byte offset from the left edge of one row to the left edge of the next row.
 **SlicePitch**
 </dt> <dd>
 
-Type: **[**int**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**int**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

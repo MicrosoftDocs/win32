@@ -37,7 +37,7 @@ typedef struct D3DXSHADER_CONSTANTTABLE {
 **Size**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -48,7 +48,7 @@ Size of the structure. See Remarks.
 **Creator**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -59,7 +59,7 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 **Version**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -70,7 +70,7 @@ Shader version.
 **Constants**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -81,7 +81,7 @@ Number of constants.
 **ConstantInfo**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -92,7 +92,7 @@ Array of constant information, D3DXSHADER\_CONSTANTINFO\[*Constants*\]. See [**D
 **Flags**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -103,7 +103,7 @@ The [D3DXSHADER Flags](d3dxshader-flags.md) flags used to compile the shader.
 **Target**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

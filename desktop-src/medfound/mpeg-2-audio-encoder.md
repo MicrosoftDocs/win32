@@ -84,7 +84,7 @@ In addition, the following values are supported for MPEG-2 LSF: <br/>
 <li>MPEG-1 mono: 192,000 bps = 24,000 bytes per second.</li>
 <li>MPEG-2 LSF, mono or stereo: 160,000 bps = 20,000 bytes per second.</li>
 </ul>
-This attribute can be set to other values. If the value is not valid according to MPEG specifications, the MFT will reject the media type.<br/> You can also set the bit rate by using the [<strong>ICodecAPI</strong>](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) interface. See Remarks for more information.<br/></td>
+This attribute can be set to other values. If the value is not valid according to MPEG specifications, the MFT will reject the media type.<br/> You can also set the bit rate by using the [<strong>ICodecAPI</strong>](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) interface. See Remarks for more information.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -175,37 +175,37 @@ The encoder does not support sample-rate conversion or stereo/mono conversion. I
 
 ## Codec Properties
 
-The encoder supports the following properties through the [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) interface.
+The encoder supports the following properties through the [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) interface.
 
 
 
 | Property                                                                                | Description                                                                                      | Default value                                                                                                                                                          |
 |-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [CODECAPI\_AVEncCommonMeanBitRate](https://msdn.microsoft.com/8519685a-4f5b-44af-ad46-09eba7a198c6)               | Specifies the average encoded bit rate, in bits per second.                                      | As described for the [MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND](mf-mt-audio-avg-bytes-per-second-attribute.md) attribute in the output media type.                      |
-| [CODECAPI\_AVEncMPACodingMode](https://msdn.microsoft.com/c1a303fd-3625-4051-b6b8-4f83cceec945)                       | Specifies the MPEG audio encoding mode.                                                          | Stereo for 2-channel audio, or single channel for 1-channel audio.<br/> For 2-channel audio, the encoder also supports dual channel and joint stereo.<br/> |
-| [CODECAPI\_AVEncMPACopyright](https://msdn.microsoft.com/6029c96f-b1dd-402f-9bac-9021bd897ee4)                         | Specifies whether to set the copyright bit in the MPEG audio stream.                             | No copyright.                                                                                                                                                          |
-| [CODECAPI\_AVEncMPAEmphasisType](https://msdn.microsoft.com/1c1f7ac0-48a1-46d6-a131-fe281f2c86ba)                   | Specifies the type of de-emphasis filter that should be used when the encoded stream is decoded. | No emphasis specified.                                                                                                                                                 |
-| [AVEncMPAEnableRedundancyProtection](https://msdn.microsoft.com/55f0de8b-26dd-4d48-b7ed-2ddcef630227) | Specifies whether to add a cyclic redundancy check (CRC) to the frame header.                    | A CRC checksum is written to the bit stream.                                                                                                                           |
-| [CODECAPI\_AVEncMPALayer](https://msdn.microsoft.com/cdfe21f6-44aa-4450-99a6-58b23f4b588a)                                 | Specifies the MPEG audio layer.                                                                  | Layer 2 audio.                                                                                                                                                         |
-| [CODECAPI\_AVEncMPAOriginalBitstream](https://msdn.microsoft.com/62b56868-684f-4f28-90da-dac19cb07946)         | Specifies whether to set for the original bit in the MPEG audio stream.                          | "Original" bit is off.                                                                                                                                                 |
-| [CODECAPI\_AVEncMPAPrivateUserBit](https://msdn.microsoft.com/e93a2456-1489-4904-9555-638c94739df5)               | Specifies whether to set for the private user bit in the MPEG audio stream.                      | Private user bit is off.                                                                                                                                               |
+| [CODECAPI\_AVEncCommonMeanBitRate](https://msdn.microsoft.com/en-us/library/Dd317662(v=VS.85).aspx)               | Specifies the average encoded bit rate, in bits per second.                                      | As described for the [MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND](mf-mt-audio-avg-bytes-per-second-attribute.md) attribute in the output media type.                      |
+| [CODECAPI\_AVEncMPACodingMode](https://msdn.microsoft.com/en-us/library/Dd317871(v=VS.85).aspx)                       | Specifies the MPEG audio encoding mode.                                                          | Stereo for 2-channel audio, or single channel for 1-channel audio.<br/> For 2-channel audio, the encoder also supports dual channel and joint stereo.<br/> |
+| [CODECAPI\_AVEncMPACopyright](https://msdn.microsoft.com/en-us/library/Dd317872(v=VS.85).aspx)                         | Specifies whether to set the copyright bit in the MPEG audio stream.                             | No copyright.                                                                                                                                                          |
+| [CODECAPI\_AVEncMPAEmphasisType](https://msdn.microsoft.com/en-us/library/Dd317873(v=VS.85).aspx)                   | Specifies the type of de-emphasis filter that should be used when the encoded stream is decoded. | No emphasis specified.                                                                                                                                                 |
+| [AVEncMPAEnableRedundancyProtection](https://msdn.microsoft.com/en-us/library/Dd317874(v=VS.85).aspx) | Specifies whether to add a cyclic redundancy check (CRC) to the frame header.                    | A CRC checksum is written to the bit stream.                                                                                                                           |
+| [CODECAPI\_AVEncMPALayer](https://msdn.microsoft.com/en-us/library/Dd317875(v=VS.85).aspx)                                 | Specifies the MPEG audio layer.                                                                  | Layer 2 audio.                                                                                                                                                         |
+| [CODECAPI\_AVEncMPAOriginalBitstream](https://msdn.microsoft.com/en-us/library/Dd317876(v=VS.85).aspx)         | Specifies whether to set for the original bit in the MPEG audio stream.                          | "Original" bit is off.                                                                                                                                                 |
+| [CODECAPI\_AVEncMPAPrivateUserBit](https://msdn.microsoft.com/en-us/library/Dd317877(v=VS.85).aspx)               | Specifies whether to set for the private user bit in the MPEG audio stream.                      | Private user bit is off.                                                                                                                                               |
 
 
 
  
 
-To get a pointer to the [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) interface, call [**QueryInterface**](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) on the MFT.
+To get a pointer to the [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) interface, call [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) on the MFT.
 
-The MFT implements the following [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) methods:
+The MFT implements the following [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) methods:
 
--   [**GetParameterRange**](https://msdn.microsoft.com/35bf758f-0ce3-4b3a-aae5-9d4326089743)
--   [**GetParameterValues**](https://msdn.microsoft.com/7f6c7db8-f71f-4ea7-8584-0df6e28c0fc9)
--   [**GetValue**](https://msdn.microsoft.com/863ba518-c3c6-47d8-96d8-445a7e4d02aa)
--   [**IsModifiable**](https://msdn.microsoft.com/5f7c7f72-02f2-4840-aaa2-9d26fe564577)
--   [**IsSupported**](https://msdn.microsoft.com/6f556532-1a49-45c1-b446-89c05e8a8237)
--   [**SetValue**](https://msdn.microsoft.com/e78a310a-3605-4cb3-a0c3-7864c890c1fa)
+-   [**GetParameterRange**](https://msdn.microsoft.com/en-us/library/Dd311956(v=VS.85).aspx)
+-   [**GetParameterValues**](https://msdn.microsoft.com/en-us/library/Dd311957(v=VS.85).aspx)
+-   [**GetValue**](https://msdn.microsoft.com/en-us/library/Dd311958(v=VS.85).aspx)
+-   [**IsModifiable**](https://msdn.microsoft.com/en-us/library/Dd311959(v=VS.85).aspx)
+-   [**IsSupported**](https://msdn.microsoft.com/en-us/library/Dd311960(v=VS.85).aspx)
+-   [**SetValue**](https://msdn.microsoft.com/en-us/library/Dd311966(v=VS.85).aspx)
 
-All other [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) methods return **E\_NOTIMPL**.
+All other [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) methods return **E\_NOTIMPL**.
 
 ## Remarks
 
@@ -228,12 +228,12 @@ To change any of the default settings on the encoder, perform the following step
 4.  Call [**IMFTransform::SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype) to set the output media type. If you set your own value for [MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND](mf-mt-audio-avg-bytes-per-second-attribute.md) and the MFT rejects the output media type, it is likely because you specified an invalid bit rate.
 5.  Call [**IMFTransform::GetInputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputavailabletype) to enumerate the input media type. Because the sample rate and number of channels must be identical to the output type, only two options are enumerated: 32-bit floating-point PCM input and 16-bit integer PCM input. Select one of these.
 6.  Call [**IMFTransform::SetInputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setinputtype) to set the input media type.
-7.  Optional: To encode Layer 1 audio, set the [CODECAPI\_AVEncMPALayer](https://msdn.microsoft.com/cdfe21f6-44aa-4450-99a6-58b23f4b588a) property to **eAVEncMPALayer\_1**.
-8.  Optional: To change the bit rate, set the [CODECAPI\_ AVEncCommonMeanBitRate](https://msdn.microsoft.com/8519685a-4f5b-44af-ad46-09eba7a198c6) property. The bit rate must be one of the valid bit rates listed in the MPEG-1 or MPEG-2 LSF specifications. Alternatively, you can call [**ICodecAPI::GetParameterValues**](https://msdn.microsoft.com/7f6c7db8-f71f-4ea7-8584-0df6e28c0fc9) to get a list of valid bit rates, based on the current settings.
-9.  Optional: With 2-channel audio, you can set the [CODECAPI\_ AVEncMPACodingMode](https://msdn.microsoft.com/c1a303fd-3625-4051-b6b8-4f83cceec945) property to change the coding mode to dual channel or joint stereo. You can call [**ICodecAPI::GetParameterRange**](https://msdn.microsoft.com/35bf758f-0ce3-4b3a-aae5-9d4326089743) to get the valid options. (For 1-channel audio, the only option is mono.)
-10. Optional: Set any of the other [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) properties listed previously.
+7.  Optional: To encode Layer 1 audio, set the [CODECAPI\_AVEncMPALayer](https://msdn.microsoft.com/en-us/library/Dd317875(v=VS.85).aspx) property to **eAVEncMPALayer\_1**.
+8.  Optional: To change the bit rate, set the [CODECAPI\_ AVEncCommonMeanBitRate](https://msdn.microsoft.com/en-us/library/Dd317662(v=VS.85).aspx) property. The bit rate must be one of the valid bit rates listed in the MPEG-1 or MPEG-2 LSF specifications. Alternatively, you can call [**ICodecAPI::GetParameterValues**](https://msdn.microsoft.com/en-us/library/Dd311957(v=VS.85).aspx) to get a list of valid bit rates, based on the current settings.
+9.  Optional: With 2-channel audio, you can set the [CODECAPI\_ AVEncMPACodingMode](https://msdn.microsoft.com/en-us/library/Dd317871(v=VS.85).aspx) property to change the coding mode to dual channel or joint stereo. You can call [**ICodecAPI::GetParameterRange**](https://msdn.microsoft.com/en-us/library/Dd311956(v=VS.85).aspx) to get the valid options. (For 1-channel audio, the only option is mono.)
+10. Optional: Set any of the other [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) properties listed previously.
 
-It is important to follow the order of these steps. In particular, set the output media type before changing any [**ICodecAPI**](https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073) properties. Also, you must set **ICodecAPI** properties before the MFT receives the first input sample. After the MFT receives input, the codec properties are read-only, and [**ICodecAPI::SetValue**](https://msdn.microsoft.com/e78a310a-3605-4cb3-a0c3-7864c890c1fa) returns the value **S\_FALSE**.
+It is important to follow the order of these steps. In particular, set the output media type before changing any [**ICodecAPI**](https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx) properties. Also, you must set **ICodecAPI** properties before the MFT receives the first input sample. After the MFT receives input, the codec properties are read-only, and [**ICodecAPI::SetValue**](https://msdn.microsoft.com/en-us/library/Dd311966(v=VS.85).aspx) returns the value **S\_FALSE**.
 
 ### Supported Bit Rates
 

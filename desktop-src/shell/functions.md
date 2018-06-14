@@ -44,7 +44,7 @@ This section describes the Windows Shell functions.
 </tr>
 <tr class="even">
 <td>[<strong>AssocCreateForClasses</strong>](/windows/desktop/api/Shellapi/nf-shellapi-assoccreateforclasses)<br/></td>
-<td>Retrieves an object that implements an [<strong>IQueryAssociations</strong>](/windows/desktop/api/Shlwapi/) interface.<br/></td>
+<td>Retrieves an object that implements an [<strong>IQueryAssociations</strong>](https://msdn.microsoft.com/en-us/library/Bb761400(v=VS.85).aspx) interface.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>AssocGetDetailsOfPropKey</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-assocgetdetailsofpropkey)<br/></td>
@@ -68,7 +68,7 @@ This function is not supported as of Windows 8.
 <td>Parses a Unicode command line string and returns an array of pointers to the command line arguments, along with a count of such arguments, in a way that is similar to the standard C run-time <em>argv</em> and <em>argc</em> values.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>APPLET_PROC</strong>](/windows/desktop/api/Cpl/nc-cpl-applet_proc)<br/></td>
+<td>[<strong>APPLET_PROC</strong>](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx)<br/></td>
 <td>Serves as the entry point for a Control Panel application. This is a library-defined callback function.<br/></td>
 </tr>
 <tr class="even">
@@ -77,7 +77,7 @@ This function is not supported as of Windows 8.
 </tr>
 <tr class="odd">
 <td>[<strong>CreateEnvironmentBlock</strong>](/windows/desktop/api/Userenv/nf-userenv-createenvironmentblock)<br/></td>
-<td>Retrieves the environment variables for the specified user. This block can then be passed to the [<strong>CreateProcessAsUser</strong>](https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8) function.<br/></td>
+<td>Retrieves the environment variables for the specified user. This block can then be passed to the [<strong>CreateProcessAsUser</strong>](https://msdn.microsoft.com/en-us/library/ms682429(v=VS.85).aspx) function.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>CreateMRUListW</strong>](createmrulist.md)<br/></td>
@@ -136,7 +136,7 @@ This function is not supported as of Windows 8.
 <td>Retrieves the position of the mouse pointer at the time a file was dropped during a drag-and-drop operation.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>DuplicateIcon</strong>](/windows/desktop/api/Shellapi/)<br/></td>
+<td>[<strong>DuplicateIcon</strong>](https://msdn.microsoft.com/en-us/library/Bb776411(v=VS.85).aspx)<br/></td>
 <td>Creates a duplicate of a specified icon.<br/></td>
 </tr>
 <tr class="odd">
@@ -144,16 +144,16 @@ This function is not supported as of Windows 8.
 <td>Expands the source string by using the environment block established for the specified user.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ExtractAssociatedIcon</strong>](/windows/desktop/api/Shellapi/)<br/></td>
+<td>[<strong>ExtractAssociatedIcon</strong>](https://msdn.microsoft.com/en-us/library/Bb776414(v=VS.85).aspx)<br/></td>
 <td>Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ExtractIcon</strong>](/windows/desktop/api/Shellapi/)<br/></td>
-<td>Gets a handle to an icon from the specified executable file, DLL, or icon file. <br/> To retrieve an array of handles to large or small icons, use the [<strong>ExtractIconEx</strong>](/windows/desktop/api/Shellapi/) function.<br/></td>
+<td>[<strong>ExtractIcon</strong>](https://msdn.microsoft.com/en-us/library/Bb776416(v=VS.85).aspx)<br/></td>
+<td>Gets a handle to an icon from the specified executable file, DLL, or icon file. <br/> To retrieve an array of handles to large or small icons, use the [<strong>ExtractIconEx</strong>](https://msdn.microsoft.com/en-us/library/Bb776417(v=VS.85).aspx) function.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ExtractIconEx</strong>](/windows/desktop/api/Shellapi/)<br/></td>
-<td>The [<strong>ExtractIconEx</strong>](/windows/desktop/api/Shellapi/) function creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file.<br/></td>
+<td>[<strong>ExtractIconEx</strong>](https://msdn.microsoft.com/en-us/library/Bb776417(v=VS.85).aspx)<br/></td>
+<td>The [<strong>ExtractIconEx</strong>](https://msdn.microsoft.com/en-us/library/Bb776417(v=VS.85).aspx) function creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>FileIconInit</strong>](fileiconinit.md)<br/></td>
@@ -200,7 +200,7 @@ This function is not supported as of Windows 8.
 <td>Gets the location of the registry storage associated with an app container.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetContractDelegateWindow</strong>](/windows/desktop/api/Shobjidl/)<br/></td>
+<td>[<strong>GetContractDelegateWindow</strong>](https://msdn.microsoft.com/en-us/library/JJ152005(v=VS.85).aspx)<br/></td>
 <td>Retrieves a window that has been set as a delegate for an app's primary foreground window for the purpose of associating the delegate window with the app's contracts. Use this function if you are a developer writing a Windows Store app in native C++.<br/></td>
 </tr>
 <tr class="odd">
@@ -213,7 +213,7 @@ This function is not supported as of Windows 8.
 </tr>
 <tr class="odd">
 <td>[<strong>GetDpiForShellUiComponent</strong>](/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-getdpiforshelluicomponent)<br/></td>
-<td>Retrieves the dots per inch (dpi) occupied by a [<strong>SHELL_UI_COMPONENT</strong>](/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-shell_ui_component) based on the current scale factor and [<strong>PROCESS_DPI_AWARENESS</strong>](https://msdn.microsoft.com/50130739-E8A8-4B92-9B80-3BBBE57EBE0C).<br/></td>
+<td>Retrieves the dots per inch (dpi) occupied by a [<strong>SHELL_UI_COMPONENT</strong>](/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-shell_ui_component) based on the current scale factor and [<strong>PROCESS_DPI_AWARENESS</strong>](https://msdn.microsoft.com/en-us/library/Dn280512(v=VS.85).aspx).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>GetMenuContextHelpId</strong>](/windows/desktop/api/Winuser/nf-winuser-getmenucontexthelpid)<br/></td>
@@ -324,7 +324,7 @@ This function is not supported as of Windows 8.
 <td>Retrieves the next [<strong>SHITEMID</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_shitemid) structure in an [<strong>ITEMIDLIST</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) structure.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ILNext(PUIDLIST_RELATIVE)</strong>](/windows/desktop/api/Shlobj_core/)<br/></td>
+<td>[<strong>ILNext(PUIDLIST_RELATIVE)</strong>](https://msdn.microsoft.com/en-us/library/Bb776455(v=VS.85).aspx)<br/></td>
 <td>Retrieves the next [<strong>SHITEMID</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_shitemid) structure in an [<strong>ITEMIDLIST</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) structure.<br/></td>
 </tr>
 <tr class="even">
@@ -340,7 +340,7 @@ This function is not supported as of Windows 8.
 <td>Skips a given number of bytes in a constant, unaligned, relative [<strong>ITEMIDLIST</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) structure.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>ILSkip(PUIDLIST_RELATIVE, UINT)</strong>](/windows/desktop/api/Shlobj_core/)<br/></td>
+<td>[<strong>ILSkip(PUIDLIST_RELATIVE, UINT)</strong>](https://msdn.microsoft.com/en-us/library/Bb776459(v=VS.85).aspx)<br/></td>
 <td>Skips a given number of bytes in an unaligned, relative [<strong>ITEMIDLIST</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_itemidlist) structure.<br/></td>
 </tr>
 <tr class="even">
@@ -609,7 +609,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 </tr>
 <tr class="odd">
 <td>[<strong>SHEvaluateSystemCommandTemplate</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shevaluatesystemcommandtemplate)<br/></td>
-<td>Enforces strict validation of parameters used in a call to [<strong>CreateProcess</strong>](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc) or [<strong>ShellExecute</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea).<br/></td>
+<td>Enforces strict validation of parameters used in a call to [<strong>CreateProcess</strong>](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx) or [<strong>ShellExecute</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SHFileOperation</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa)<br/></td>
@@ -625,7 +625,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 </tr>
 <tr class="odd">
 <td>[<strong>SHGetDesktopFolder</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdesktopfolder)<br/></td>
-<td>Retrieves the [<strong>IShellFolder</strong>](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellfolder) interface for the desktop folder, which is the root of the Shell's namespace.<br/></td>
+<td>Retrieves the [<strong>IShellFolder</strong>](https://msdn.microsoft.com/en-us/library/Bb775075(v=VS.85).aspx) interface for the desktop folder, which is the root of the Shell's namespace.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SHGetDiskFreeSpaceEx</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shgetdiskfreespaceexa)<br/></td>
@@ -640,7 +640,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 <td>Retrieves information about an object in the file system, such as a file, folder, directory, or drive root.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHGetFolderPathEx</strong>](/windows/desktop/api/Shlobj/)<br/></td>
+<td>[<strong>SHGetFolderPathEx</strong>](https://msdn.microsoft.com/en-us/library/Mt757093(v=VS.85).aspx)<br/></td>
 <td>Retrieves the full path of a known folder identified by the folder's [<strong>KNOWNFOLDERID</strong>](knownfolderid.md). This extends [<strong>SHGetKnownFolderPath</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath) by allowing you to set the initial size of the string buffer.<br/></td>
 </tr>
 <tr class="even">
@@ -661,7 +661,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 </tr>
 <tr class="even">
 <td>[<strong>SHGetItemFromDataObject</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetitemfromdataobject)<br/></td>
-<td>Creates an [<strong>IShellItem</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) or related object based on an item specified by an [<strong>IDataObject</strong>](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4).<br/></td>
+<td>Creates an [<strong>IShellItem</strong>](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) or related object based on an item specified by an [<strong>IDataObject</strong>](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx).<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>SHGetItemFromObject</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetitemfromobject)<br/></td>
@@ -688,8 +688,8 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 <td>Retrieves the display name of an item identified by its IDList.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHGetNameFromPropertyKey</strong>](/windows/desktop/api/Shobjidl/)<br/></td>
-<td>Retrieves the property's canonical name given its [<strong>PROPERTYKEY</strong>](https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea).<br/></td>
+<td>[<strong>SHGetNameFromPropertyKey</strong>](https://msdn.microsoft.com/en-us/library/Bb762192(v=VS.85).aspx)<br/></td>
+<td>Retrieves the property's canonical name given its [<strong>PROPERTYKEY</strong>](https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SHGetNewLinkInfo</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shgetnewlinkinfoa)<br/></td>
@@ -720,7 +720,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 <td>Retrieves a specified user's unread message count for any or all email accounts.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHIsFileAvailableOffline</strong>](https://msdn.microsoft.com/9acf212d-9309-42b0-ba96-faa0ecf0b865)<br/></td>
+<td>[<strong>SHIsFileAvailableOffline</strong>](https://msdn.microsoft.com/en-us/library/Bb762212(v=VS.85).aspx)<br/></td>
 <td>Determines whether a file or folder is available for offline use. This function also determines whether the file would be opened from the network, from the local Offline Files cache, or from both locations.<br/></td>
 </tr>
 <tr class="even">
@@ -728,7 +728,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 <td>Creates an instance of the specified object class from within the context of the Shell's process. <br/> <strong>Windows Vista</strong> and later: This function has been disabled and returns E_NOTIMPL.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SHLoadNonloadedIconOverlayIdentifiers</strong>](https://msdn.microsoft.com/d2c4f37e-6e9d-4536-90ea-d69461c4105a)<br/></td>
+<td>[<strong>SHLoadNonloadedIconOverlayIdentifiers</strong>](https://msdn.microsoft.com/en-us/library/Bb762215(v=VS.85).aspx)<br/></td>
 <td>Signals the Shell that during the next operation requiring overlay information, it should load icon overlay identifiers that either failed creation or were not present for creation at startup. Identifiers that have already been loaded are not affected.<br/></td>
 </tr>
 <tr class="even">
@@ -748,7 +748,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 <td>Displays the <strong>Open With</strong> dialog box.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>ShowShareFolderUI</strong>](https://msdn.microsoft.com/e622e4bb-eaf7-494f-b2a2-78ba1311a496)<br/></td>
+<td>[<strong>ShowShareFolderUI</strong>](https://msdn.microsoft.com/en-us/library/Bb762235(v=VS.85).aspx)<br/></td>
 <td>Displays the <strong>Folder Sharing</strong> tab on the properties sheet for the specified folder.<br/></td>
 </tr>
 <tr class="odd">
@@ -756,7 +756,7 @@ It is recommended that you use [<strong>SHCreateItemWithParent</strong>](/window
 <td>Translates a Shell namespace object's display name into an item identifier list and returns the attributes of the object. This function is the preferred method to convert a string to a PIDL.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SHPathPrepareForWrite</strong>](https://msdn.microsoft.com/1b65e34f-2c31-421b-9d27-ed263dfb372b)<br/></td>
+<td>[<strong>SHPathPrepareForWrite</strong>](https://msdn.microsoft.com/en-us/library/Bb762237(v=VS.85).aspx)<br/></td>
 <td>Checks to see if the path exists. This includes remounting mapped network drives, prompting for ejectable media to be reinserted, creating the paths, prompting for the media to be formatted, and providing the appropriate user interfaces, if necessary. Read/write permissions for the medium are not checked.<br/></td>
 </tr>
 <tr class="odd">
@@ -806,7 +806,7 @@ This function is not supported as of Windows Vista
 </tr>
 <tr class="odd">
 <td>[<strong>SHTestTokenMembership</strong>](/windows/desktop/api/Shellapi/nf-shellapi-shtesttokenmembership)<br/></td>
-<td>Uses [<strong>CheckTokenMembership</strong>](https://msdn.microsoft.com/c254a167-c4e7-4b84-9be3-6862761309f8) to test whether the given token is a member of the local group with the specified RID.<br/></td>
+<td>Uses [<strong>CheckTokenMembership</strong>](https://msdn.microsoft.com/en-us/library/Aa376389(v=VS.85).aspx) to test whether the given token is a member of the local group with the specified RID.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SHUpdateImage</strong>](/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea)<br/></td>
@@ -854,7 +854,7 @@ Windows XP SP2 or later: This function is no longer supported.
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>WinExecError</strong>](/windows/desktop/api/Shellapi/)<br/></td>
+<td>[<strong>WinExecError</strong>](https://msdn.microsoft.com/en-us/library/Bb762266(v=VS.85).aspx)<br/></td>
 <td>Retrieves the error value generated if the [WinExec](http://go.microsoft.com/fwlink/p/?linkid=238266) function cannot run a specified application. <br/></td>
 </tr>
 <tr class="odd">

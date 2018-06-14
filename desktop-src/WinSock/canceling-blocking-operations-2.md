@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Canceling Blocking Operations
 
-A thread may, at any time, call [WSAIsBlocking](/windows/desktop/api/winsock2/nf-winsock2-wsaisblocking) to determine whether or not a blocking call is currently in progress. (This function is implemented within the Windows Sockets 1.1 compatibility shims and hence has no SPI counterpart.) Clearly this is only possible when pseudo blocking, as opposed to true blocking, is being employed by the service provider. When necessary, [**WSPCancelBlockingCall**](/windows/desktop/api/Ws2spi/) may be called at any time to cancel any current pseudo blocking operation.
+A thread may, at any time, call [WSAIsBlocking](/windows/desktop/api/winsock2/nf-winsock2-wsaisblocking) to determine whether or not a blocking call is currently in progress. (This function is implemented within the Windows Sockets 1.1 compatibility shims and hence has no SPI counterpart.) Clearly this is only possible when pseudo blocking, as opposed to true blocking, is being employed by the service provider. When necessary, [**WSPCancelBlockingCall**](https://msdn.microsoft.com/en-us/library/ms742269(v=VS.85).aspx) may be called at any time to cancel any current pseudo blocking operation.
 
  
 

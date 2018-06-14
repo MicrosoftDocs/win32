@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Adding a Network Connection
 
-To make a connection to a network resource described by a [**NETRESOURCE**](/windows/desktop/api/Winnetwk/ns-winnetwk-_netresourcea) structure, an application can call the [**WNetAddConnection2**](/windows/desktop/api/Winnetwk/nf-winnetwk-wnetaddconnection2a), the [**WNetAddConnection3**](/windows/desktop/api/Winnetwk/nf-winnetwk-wnetaddconnection3a), or the [**WNetUseConnection**](/windows/desktop/api/Winnetwk/nf-winnetwk-wnetuseconnectiona) function. The following example demonstrates use of the **WNetAddConnection2** function.
+To make a connection to a network resource described by a [**NETRESOURCE**](/windows/desktop/api/Winnetwk/ns-winnetwk-_netresourcea) structure, an application can call the [**WNetAddConnection2**](https://msdn.microsoft.com/en-us/library/Aa385413(v=VS.85).aspx), the [**WNetAddConnection3**](https://msdn.microsoft.com/en-us/library/Aa385418(v=VS.85).aspx), or the [**WNetUseConnection**](https://msdn.microsoft.com/en-us/library/Aa385482(v=VS.85).aspx) function. The following example demonstrates use of the **WNetAddConnection2** function.
 
 The code sample calls the **WNetAddConnection2** function, specifying that the system should update the user's profile with the information, creating a "remembered" or persistent connection. The sample calls an application-defined error handler to process errors, and the [**TextOut**](https://msdn.microsoft.com/library/windows/desktop/dd145133) function for printing.
 
@@ -61,7 +61,7 @@ printf("Connected to the specified resource.\n");
 
 
 
-The [**WNetAddConnection**](/windows/desktop/api/Winnetwk/nf-winnetwk-wnetaddconnection2a) function is supported for compatibility with earlier versions of Windows for Workgroups. New applications should call the [**WNetAddConnection2**](/windows/desktop/api/Winnetwk/nf-winnetwk-wnetaddconnection2a) function or the [**WNetAddConnection3**](/windows/desktop/api/Winnetwk/nf-winnetwk-wnetaddconnection3a) function.
+The [**WNetAddConnection**](https://msdn.microsoft.com/en-us/library/Aa385410(v=VS.85).aspx) function is supported for compatibility with earlier versions of Windows for Workgroups. New applications should call the [**WNetAddConnection2**](https://msdn.microsoft.com/en-us/library/Aa385413(v=VS.85).aspx) function or the [**WNetAddConnection3**](https://msdn.microsoft.com/en-us/library/Aa385418(v=VS.85).aspx) function.
 
 For more information about using an application-defined error handler, see [Retrieving Network Errors](retrieving-network-errors.md).
 

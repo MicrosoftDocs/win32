@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 -   [**NMTVDISPINFOEX**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvdispinfoexa)
 -   [**NMTVGETINFOTIP**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtvgetinfotipa)
 -   [**NMTVITEMCHANGE**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvitemchange)
--   [**NMTVITEMRECT**](/windows/desktop/api/Commctrl/)
+-   [**NMTVITEMRECT**](https://msdn.microsoft.com/en-us/library/Bb773428(v=VS.85).aspx)
 -   [**NMTVKEYDOWN**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvkeydown)
 -   [**NMTVSTATEIMAGECHANGING**](/windows/desktop/api/Commctrl/ns-commctrl-tagnmtvstateimagechanging)
 -   [**TVGETITEMPARTRECTINFO**](/windows/desktop/api/Commctrl/ns-commctrl-tagtvgetitempartrectinfo)

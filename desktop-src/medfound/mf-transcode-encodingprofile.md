@@ -29,8 +29,8 @@ Use this attribute when transcoding to a device that supports Windows Media. If 
 
 The value of this attribute can be any of the conformance template strings listed in the following topics:
 
--   [Audio Device Conformance Templates](https://msdn.microsoft.com/dad3dd2c-595e-45ce-bd84-2a20bc656cfb)
--   [Video Device Conformance Templates](https://msdn.microsoft.com/0a91167c-8799-4ce8-a377-c4e613567d0f)
+-   [Audio Device Conformance Templates](https://msdn.microsoft.com/en-us/library/Dd743069(v=VS.85).aspx)
+-   [Video Device Conformance Templates](https://msdn.microsoft.com/en-us/library/Dd743969(v=VS.85).aspx)
 
 For Windows Media Video encoding, the topology builder uses this attribute to set the [**MFPKEY\_DECODERCOMPLEXITYREQUESTED**](mfpkey-decodercomplexityrequestedproperty.md) property on the encoder. The encoder will attempt to use the specified template to encode the content. To get the actual template, traverse the nodes of the transcode topology to get a pointer to the encoder node. Then get the value of the [**MFPKEY\_DECODERCOMPLEXITYPROFILE**](mfpkey-decodercomplexityprofileproperty.md) property from the encoder.
 

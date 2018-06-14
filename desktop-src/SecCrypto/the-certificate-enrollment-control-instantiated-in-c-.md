@@ -15,7 +15,7 @@ The following C++ example initializes COM, creates an instance of the [Certifica
 
 ## Example in C++
 
-The following example creates an instance of the [Certificate Enrollment Control](certificate-enrollment-control.md) and displays the value of the [**MyStoreName**](/windows/desktop/api/Xenroll/) property. This example uses the [**ICEnroll4**](/windows/desktop/api/Xenroll/nn-xenroll-icenroll4) interface.
+The following example creates an instance of the [Certificate Enrollment Control](certificate-enrollment-control.md) and displays the value of the [**MyStoreName**](https://msdn.microsoft.com/en-us/library/Aa383167(v=VS.85).aspx) property. This example uses the [**ICEnroll4**](/windows/desktop/api/Xenroll/nn-xenroll-icenroll4) interface.
 
 
 ```C++

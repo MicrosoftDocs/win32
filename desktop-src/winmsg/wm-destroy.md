@@ -15,7 +15,7 @@ Sent when a window is being destroyed. It is sent to the window procedure of the
 
 This message is sent first to the window being destroyed and then to the child windows (if any) as they are destroyed. During the processing of the message, it can be assumed that all child windows still exist.
 
-A window receives this message through its [**WindowProc**](/windows/desktop/api/Winuser/nf-winuser-callwindowproca) function.
+A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx) function.
 
 
 ```C++
@@ -50,7 +50,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-If the window being destroyed is part of the clipboard viewer chain (set by calling the [**SetClipboardViewer**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\setclipboardviewer.htm) function), the window must remove itself from the chain by processing the [**ChangeClipboardChain**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\changeclipboardchain.htm) function before returning from the **WM\_DESTROY** message.
+If the window being destroyed is part of the clipboard viewer chain (set by calling the [**SetClipboardViewer**](https://msdn.microsoft.com/en-us/library/ms649052(v=VS.85).aspx) function), the window must remove itself from the chain by processing the [**ChangeClipboardChain**](https://msdn.microsoft.com/en-us/library/ms649034(v=VS.85).aspx) function before returning from the **WM\_DESTROY** message.
 
 ## Requirements
 
@@ -71,16 +71,16 @@ If the window being destroyed is part of the clipboard viewer chain (set by call
 **Reference**
 </dt> <dt>
 
-[**ChangeClipboardChain**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\changeclipboardchain.htm)
+[**ChangeClipboardChain**](https://msdn.microsoft.com/en-us/library/ms649034(v=VS.85).aspx)
 </dt> <dt>
 
-[**DestroyWindow**](/windows/desktop/api/Winuser/nf-winuser-destroywindow)
+[**DestroyWindow**](https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx)
 </dt> <dt>
 
-[**PostQuitMessage**](/windows/desktop/api/Winuser/nf-winuser-postquitmessage)
+[**PostQuitMessage**](https://msdn.microsoft.com/en-us/library/ms644945(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetClipboardViewer**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\setclipboardviewer.htm)
+[**SetClipboardViewer**](https://msdn.microsoft.com/en-us/library/ms649052(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_CLOSE**](wm-close.md)

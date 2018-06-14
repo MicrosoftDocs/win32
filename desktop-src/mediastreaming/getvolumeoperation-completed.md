@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # GetVolumeOperation.Completed property
 
-Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetVolumeAsync**](https://www.bing.com/search?q=**GetVolumeAsync**) is completed.
+Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetVolumeAsync**](https://msdn.microsoft.com/en-us/library/Hh828933(v=VS.85).aspx) is completed.
 
 This property is read/write.
 

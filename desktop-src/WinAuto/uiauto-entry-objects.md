@@ -19,9 +19,9 @@ This section provides reference documentation for the Microsoft UI Automation ob
 
 | Class                                                                             | Description                                                                                          |
 |-----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [**CUIAutomation**](/windows/desktop/api/UIAutomationClient/)<br/>                   | Implements the [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface.<br/>                   |
-| [**CUIAutomation8**](/windows/desktop/api/UIAutomationCore/)<br/>                 | Implements the [**IUIAutomation2**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface for Windows 8.<br/>    |
-| [**CUIAutomationRegistrar**](/windows/desktop/api/UIAutomationCore/)<br/> | Implements the [**IUIAutomationRegistrar**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iuiautomationregistrar) interface.<br/> |
+| [**CUIAutomation**](https://msdn.microsoft.com/en-us/library/Ff384838(v=VS.85).aspx)<br/>                   | Implements the [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface.<br/>                   |
+| [**CUIAutomation8**](https://msdn.microsoft.com/en-us/library/Hh448746(v=VS.85).aspx)<br/>                 | Implements the [**IUIAutomation2**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface for Windows 8.<br/>    |
+| [**CUIAutomationRegistrar**](https://msdn.microsoft.com/en-us/library/Ff384837(v=VS.85).aspx)<br/> | Implements the [**IUIAutomationRegistrar**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iuiautomationregistrar) interface.<br/> |
 
 
 

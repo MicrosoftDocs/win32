@@ -46,7 +46,7 @@ The schema subsystem consists of the following:
 
 ## Why Use a Schema?
 
-Properties, by themselves, are not type-safe. A component can assign a numerical value to the System.Author property, or a [**FILETIME**](https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1) date-stamp to the System.Music.AlbumTitle property, and, without any further enforcement or guidance, the property stores will allow it. So, we needed a notion to "schematize" the properties, which brings us to the schema subsystem.
+Properties, by themselves, are not type-safe. A component can assign a numerical value to the System.Author property, or a [**FILETIME**](https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx) date-stamp to the System.Music.AlbumTitle property, and, without any further enforcement or guidance, the property stores will allow it. So, we needed a notion to "schematize" the properties, which brings us to the schema subsystem.
 
 ## What Are the Major Schema Parts?
 

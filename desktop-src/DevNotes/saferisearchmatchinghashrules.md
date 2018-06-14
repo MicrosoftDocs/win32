@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 Gets the level of a hash identification rule that matches the specified hash.
 
-This function has no associated import library and is not declared in a public header. You must define a function pointer with the signature of this function, and you must use the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to Advapi32.dll.
+This function has no associated import library and is not declared in a public header. You must define a function pointer with the signature of this function, and you must use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Advapi32.dll.
 
-We recommend using the [**SaferIdentifyLevel**](https://msdn.microsoft.com/f82c4f40-5c37-4f97-95a2-4b2cc26bf41e) function to evaluate software restriction policies.
+We recommend using the [**SaferIdentifyLevel**](https://msdn.microsoft.com/en-us/library/ms722428(v=VS.85).aspx) function to evaluate software restriction policies.
 
 ## Syntax
 

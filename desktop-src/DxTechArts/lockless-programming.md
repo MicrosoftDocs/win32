@@ -280,7 +280,7 @@ One of the advantages of using the synchronization primitives provided by the op
 
 A compiler's job is to aggressively optimize your code in order to improve performance. This includes rearranging instructions wherever it is helpful and wherever it will not change behavior. Because the C++ Standard never mentions multithreading, and because the compiler doesn't know what code needs to be thread-safe, the compiler assumes that your code is single-threaded when deciding what rearrangements it can safely do. Therefore, you need to tell the compiler when it is not allowed to reorder reads and writes.
 
-With Visual C++ you can prevent compiler reordering by using the compiler intrinsic [**\_ReadWriteBarrier**](https://msdn.microsoft.com/windows/desktop/dd9f58b5-8bb6-494e-bb0f-9fe184f3908d). Where you insert **\_ReadWriteBarrier** into your code, the compiler will not move reads and writes across it.
+With Visual C++ you can prevent compiler reordering by using the compiler intrinsic [**\_ReadWriteBarrier**](https://msdn.microsoft.com/en-us/library/f20w0x5e(v=VS.71).aspx). Where you insert **\_ReadWriteBarrier** into your code, the compiler will not move reads and writes across it.
 
 ``` syntax
 #if _MSC_VER < 1400
@@ -323,11 +323,11 @@ for( int i = 0; i < numSprites; ++i )
 }
 ```
 
-It is important to understand that [**\_ReadWriteBarrier**](https://msdn.microsoft.com/windows/desktop/dd9f58b5-8bb6-494e-bb0f-9fe184f3908d) does not insert any additional instructions, and it does not prevent the CPU from rearranging reads and writes—it only prevents the compiler from rearranging them. Thus, **\_ReadWriteBarrier** is sufficient when you implement a write-release barrier on x86 and x64 (because x86 and x64 do not reorder writes, and a normal write is sufficient for releasing a lock), but in most other cases, it is also necessary to prevent the CPU from reordering reads and writes.
+It is important to understand that [**\_ReadWriteBarrier**](https://msdn.microsoft.com/en-us/library/f20w0x5e(v=VS.71).aspx) does not insert any additional instructions, and it does not prevent the CPU from rearranging reads and writes—it only prevents the compiler from rearranging them. Thus, **\_ReadWriteBarrier** is sufficient when you implement a write-release barrier on x86 and x64 (because x86 and x64 do not reorder writes, and a normal write is sufficient for releasing a lock), but in most other cases, it is also necessary to prevent the CPU from reordering reads and writes.
 
-You can also use [**\_ReadWriteBarrier**](https://msdn.microsoft.com/windows/desktop/dd9f58b5-8bb6-494e-bb0f-9fe184f3908d) when you write to non-cacheable write-combined memory to prevent reordering of writes. In this case **\_ReadWriteBarrier** helps to improve performance, by guaranteeing that the writes happen in the processor's preferred linear order.
+You can also use [**\_ReadWriteBarrier**](https://msdn.microsoft.com/en-us/library/f20w0x5e(v=VS.71).aspx) when you write to non-cacheable write-combined memory to prevent reordering of writes. In this case **\_ReadWriteBarrier** helps to improve performance, by guaranteeing that the writes happen in the processor's preferred linear order.
 
-It is also possible to use the [**\_ReadBarrier**](https://msdn.microsoft.com/windows/desktop/f9e54a92-61bc-4f55-8195-b8932065a796) and [**\_WriteBarrier**](https://msdn.microsoft.com/windows/desktop/a5ffdad9-0ca1-4eb7-b2f3-0f092c4bf4b5) intrinsics for more precise control of compiler reordering. The compiler will not move reads across a **\_ReadBarrier**, and it will not move writes across a **\_WriteBarrier**.
+It is also possible to use the [**\_ReadBarrier**](https://msdn.microsoft.com/en-US/library/z055s48f(v=VS.80).aspx) and [**\_WriteBarrier**](https://msdn.microsoft.com/en-US/library/65tt87y8(v=VS.80).aspx) intrinsics for more precise control of compiler reordering. The compiler will not move reads across a **\_ReadBarrier**, and it will not move writes across a **\_WriteBarrier**.
 
 ## Preventing CPU Reordering
 
@@ -473,7 +473,7 @@ Lockless algorithms are not guaranteed to be faster than algorithms that use loc
 
 ## References
 
--   MSDN Library. "[**volatile (C++)**](https://msdn.microsoft.com/windows/desktop/81db4a85-ed5a-4a2c-9a53-5d07a771d2de)." C++ Language Reference.
+-   MSDN Library. "[**volatile (C++)**](https://msdn.microsoft.com/en-us/library/12a04hfd(v=VS.71).aspx)." C++ Language Reference.
 -   Vance Morrison. "[Understand the Impact of Low-Lock Techniques in Multithreaded Apps](http://msdn.microsoft.com/magazine/cc163715.aspx)." MSDN Magazine, October 2005.
 -   Lyons, Michael. "[PowerPC Storage Model and AIX Programming](http://www-128.ibm.com/developerworks/eserver/articles/powerpc.mdl)." IBM developerWorks, 16 Nov 2005.
 -   McKenney, Paul E. "[Memory Ordering in Modern Microprocessors, Part II](http://www.linuxjournal.com/article/8212)." Linux Journal, September 2005. \[This article has some x86 details.\]

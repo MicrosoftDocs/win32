@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 The MCI\_WHERE command obtains the clipping rectangle for the video device. Digital-video, and video-overlay devices recognize this command. The **top** and **left** members of the returned [RECT](http://go.microsoft.com/fwlink/p/?linkid=16998) contain the origin of the clipping rectangle, and the **right** and **bottom** members contain the width and height of the clipping rectangle. (This is not the standard use of the **right** and **bottom** members.)
 
-To send this command, call the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++
@@ -117,7 +117,7 @@ Obtains a description of the display-window frame.
 
 </dt> <dd></dd> </dl>
 
-For digital-video devices, the *lpQuery* parameter points to an **MCI\_DGV\_WHERE\_PARMS** structure. The **MCI\_DGV\_WHERE\_PARMS** structure is identical to the [**MCI\_DGV\_RECT\_PARMS**](/windows/desktop/api/Digitalv/) structure.
+For digital-video devices, the *lpQuery* parameter points to an **MCI\_DGV\_WHERE\_PARMS** structure. The **MCI\_DGV\_WHERE\_PARMS** structure is identical to the [**MCI\_DGV\_RECT\_PARMS**](https://msdn.microsoft.com/en-us/library/Dd743400(v=VS.85).aspx) structure.
 
 The following additional flags are used with the **overlay** device type:
 

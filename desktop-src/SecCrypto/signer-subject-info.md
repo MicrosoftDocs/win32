@@ -56,7 +56,7 @@ This member is reserved. It must be set to zero.
 **dwSubjectChoice**
 </dt> <dd>
 
-Specifies whether the subject is a file or a [*BLOB*](https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b). This member can be one or more of the following values.
+Specifies whether the subject is a file or a [*BLOB*](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx). This member can be one or more of the following values.
 
 
 

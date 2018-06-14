@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Windows Gadget Platform](https://msdn.microsoft.com/86b03d82-a2f2-491b-888c-f86bb36f25dc)
--   [Windows Sidebar](https://msdn.microsoft.com/VS|sidebar|~\sidebar\sidebar_entry.htm)
+-   [Windows Gadget Platform](https://msdn.microsoft.com/en-us/library/Dd370869(v=VS.85).aspx)
+-   [Windows Sidebar](https://msdn.microsoft.com/en-us/library/Aa965850(v=VS.85).aspx)
 
  
 

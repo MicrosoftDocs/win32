@@ -42,7 +42,7 @@ For more information, see [How to initialize DirectComposition](initialize-direc
 
 ### Step 2: Create an animation object
 
-Use the [**CreateAnimation**](/windows/desktop/api/Dcomp/) method to create an animation object.
+Use the [**CreateAnimation**](https://msdn.microsoft.com/en-us/library/Hh437394(v=VS.85).aspx) method to create an animation object.
 
 
 ```C++
@@ -158,7 +158,7 @@ IDCompositionEffectGroup *m_pEffectGroup;
 
 ### Step 5: Commit the composition
 
-Call the [**IDCompositionDevice::Commit**](/windows/desktop/api/Dcomp/) method to commit the visual to DirectComposition for rendering to the target window. As the visual is rendered, the animation causes the visual's opacity to change from transparent to fully opaque over a period of two seconds.
+Call the [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/en-us/library/Hh437393(v=VS.85).aspx) method to commit the visual to DirectComposition for rendering to the target window. As the visual is rendered, the animation causes the visual's opacity to change from transparent to fully opaque over a period of two seconds.
 
 
 ```C++

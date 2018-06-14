@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # KERB\_SMARTCARD\_CSP\_INFO structure
 
-The **KERB\_SMARTCARD\_CSP\_INFO** structure contains information about a smart card [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP).
+The **KERB\_SMARTCARD\_CSP\_INFO** structure contains information about a smart card [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP).
 
 This structure is not declared in a public header.
 

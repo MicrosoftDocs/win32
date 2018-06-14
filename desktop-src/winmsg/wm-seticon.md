@@ -57,7 +57,7 @@ The return value is a handle to the previous large or small icon, depending on t
 
 ## Remarks
 
-The [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function returns a handle to the previous large or small icon associated with the window, depending on the value of *wParam*.
+The [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function returns a handle to the previous large or small icon associated with the window, depending on the value of *wParam*.
 
 ## Requirements
 
@@ -78,7 +78,7 @@ The [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) 
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_GETICON**](wm-geticon.md)

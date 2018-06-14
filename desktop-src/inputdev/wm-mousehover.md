@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_MOUSEHOVER message
 
-Posted to a window when the cursor hovers over the client area of the window for the period of time specified in a prior call to [**TrackMouseEvent**](/windows/desktop/api/Winuser/nf-winuser-trackmouseevent).
+Posted to a window when the cursor hovers over the client area of the window for the period of time specified in a prior call to [**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx).
 
 A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
 
@@ -74,7 +74,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-Hover tracking stops when **WM\_MOUSEHOVER** is generated. The application must call [**TrackMouseEvent**](/windows/desktop/api/Winuser/nf-winuser-trackmouseevent) again if it requires further tracking of mouse hover behavior.
+Hover tracking stops when **WM\_MOUSEHOVER** is generated. The application must call [**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx) again if it requires further tracking of mouse hover behavior.
 
 Use the following code to obtain the horizontal and vertical position:
 
@@ -118,16 +118,16 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 [**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)
 </dt> <dt>
 
-[**GetCapture**](/windows/desktop/api/Winuser/nf-winuser-getcapture)
+[**GetCapture**](https://msdn.microsoft.com/en-us/library/ms646257(v=VS.85).aspx)
 </dt> <dt>
 
-[**SetCapture**](/windows/desktop/api/Winuser/nf-winuser-setcapture)
+[**SetCapture**](https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx)
 </dt> <dt>
 
-[**TrackMouseEvent**](/windows/desktop/api/Winuser/nf-winuser-trackmouseevent)
+[**TrackMouseEvent**](https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx)
 </dt> <dt>
 
-[**TRACKMOUSEEVENT**](/windows/desktop/api/Winuser/nf-winuser-trackmouseevent)
+[**TRACKMOUSEEVENT**](https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

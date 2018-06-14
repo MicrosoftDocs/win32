@@ -95,7 +95,7 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
 | Major type       | **MEDIATYPE\_Audio**                 |
 | Subtype          | **MEDIASUBTYPE\_MPEG2\_AUDIO**       |
 | Format Type      | **FORMAT\_WaveFormatEx**             |
-| Format Structure | [**WAVEFORMATEX**](/windows/desktop/api/mmreg/) |
+| Format Structure | [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) |
 
 
 

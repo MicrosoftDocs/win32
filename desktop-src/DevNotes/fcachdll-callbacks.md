@@ -14,9 +14,9 @@ ms.date: 05/31/2018
 ## In this section
 
 -   [*CACHE\_DESTROY\_CALLBACK*](/windows/desktop/api/Filehc/nc-filehc-cache_destroy_callback)
--   [**CACHE\_READ\_CALLBACK**](/windows/desktop/api/Filehc/nc-filehc-cache_read_callback)
--   [**FCACHE\_CREATE\_CALLBACK**](/windows/desktop/api/Filehc/nc-filehc-fcache_create_callback)
--   [**FCACHE\_RICHCREATE\_CALLBACK**](/windows/desktop/api/Filehc/nc-filehc-fcache_richcreate_callback)
+-   [**CACHE\_READ\_CALLBACK**](https://msdn.microsoft.com/en-us/library/Bb432262(v=VS.85).aspx)
+-   [**FCACHE\_CREATE\_CALLBACK**](https://msdn.microsoft.com/en-us/library/Bb432261(v=VS.85).aspx)
+-   [**FCACHE\_RICHCREATE\_CALLBACK**](https://msdn.microsoft.com/en-us/library/Bb432263(v=VS.85).aspx)
 
  
 

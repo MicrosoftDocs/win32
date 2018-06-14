@@ -13,11 +13,11 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**HARDWAREINPUT**](/windows/desktop/api/Winuser/ns-winuser-taghardwareinput)
--   [**INPUT**](/windows/desktop/api/Winuser/ne-winuser-taginput_message_device_type)
--   [**KEYBDINPUT**](/windows/desktop/api/Winuser/ns-winuser-tagkeybdinput)
--   [**LASTINPUTINFO**](/windows/desktop/api/Winuser/nf-winuser-getlastinputinfo)
--   [**MOUSEINPUT**](/windows/desktop/api/Winuser/ns-winuser-tagmouseinput)
+-   [**HARDWAREINPUT**](https://msdn.microsoft.com/en-us/library/ms646269(v=VS.85).aspx)
+-   [**INPUT**](https://msdn.microsoft.com/en-us/library/ms646270(v=VS.85).aspx)
+-   [**KEYBDINPUT**](https://msdn.microsoft.com/en-us/library/ms646271(v=VS.85).aspx)
+-   [**LASTINPUTINFO**](https://msdn.microsoft.com/en-us/library/ms646272(v=VS.85).aspx)
+-   [**MOUSEINPUT**](https://msdn.microsoft.com/en-us/library/ms646273(v=VS.85).aspx)
 
  
 

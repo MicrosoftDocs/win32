@@ -32,7 +32,7 @@ D3DXVECTOR3* D3DXVec3Normalize(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
+Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that is the result of the operation.
 
@@ -41,7 +41,7 @@ Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that is the result of the
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to the source D3DXVECTOR3 structure.
 
@@ -49,7 +49,7 @@ Pointer to the source D3DXVECTOR3 structure.
 
 ## Return value
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
+Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR3 structure that is the normalized version of the specified vector.
 

@@ -22,7 +22,7 @@ Cryptography objects are categorized according to usage as follows:
 
 ## Certificate Store Objects
 
-The following objects work with [*certificate stores*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) and the certificates in those stores. CAPICOM supports the use of Current User, Local Machine, memory, and Active Directory certificate stores.
+The following objects work with [*certificate stores*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) and the certificates in those stores. CAPICOM supports the use of Current User, Local Machine, memory, and Active Directory certificate stores.
 
 
 
@@ -100,7 +100,7 @@ The following objects are exported to change default behaviors of other objects 
 
 | Object                                         | Description                                                                                                                                     |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Algorithm**](algorithm.md)                 | Sets the algorithm and [*key length*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33) to be used in cryptographic operations. |
+| [**Algorithm**](algorithm.md)                 | Sets the algorithm and [*key length*](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx) to be used in cryptographic operations. |
 | [**Attribute**](attribute.md)                 | Provides a single piece of added information about a signature, such as the time of signing.                                                    |
 | [**Attributes**](attributes.md)               | Collection of [**Attribute**](attribute.md) objects.                                                                                           |
 | [**BasicConstraints**](basicconstraints.md)   | Provides read-only access to basic constraints on the uses of a certificate.                                                                    |
@@ -131,7 +131,7 @@ The following object is used for certificate enrollment.
 
 | Object                     | Description                                                                                                                                      |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CEnroll**](/windows/desktop/api/xenroll/) | Object that represents the Certificate Enrollment Control. It is primarily used when programming in Visual Basic or another Automation language. |
+| [**CEnroll**](https://msdn.microsoft.com/en-us/library/Aa376007(v=VS.85).aspx) | Object that represents the Certificate Enrollment Control. It is primarily used when programming in Visual Basic or another Automation language. |
 
 
 

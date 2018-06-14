@@ -82,7 +82,7 @@ It is recommended that the Windows Installer service be stopped when using the u
 -   Treat the return of either **ERROR\_SUCCESS** or **ERROR\_SUCCESS\_REBOOT\_REQUIRED** as meaning success.
 -   Invoke Msiexec on the application's package and run other setup code specific to the application. If the setup application uses [**MsiInstallProduct**](/windows/desktop/api/Msi/nf-msi-msiinstallproducta), then the application must load MSI.DLL from the system directory. If no reboot occurs and if the redistributable returned **ERROR\_SUCCESS\_REBOOT\_REQUIRED**, then prompt the user for a reboot to complete the setup of the Windows Installer binaries. If a reboot occurs, no additional steps are required.
     > [!Note]  
-    > Applications that call [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) on the new MSI.DLL after the redistributable package returns success must ensure that an older version of MSI.DLL has not already been loaded within the process. If an older version of MSI.DLL was loaded, it must be unloaded from the process address space prior to calling **LoadLibrary** for the new MSI.DLL.
+    > Applications that call [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) on the new MSI.DLL after the redistributable package returns success must ensure that an older version of MSI.DLL has not already been loaded within the process. If an older version of MSI.DLL was loaded, it must be unloaded from the process address space prior to calling **LoadLibrary** for the new MSI.DLL.
 
      
 

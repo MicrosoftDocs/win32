@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following example combines signing and encoding a message, and decoding a signed message and verifying the signature. The two operations would usually be in separate programs. The encoding example would create the encoded message, save it to a disk file or in some other way send it to another user. The decoding example would receive the encoded message, decode it, and verify the signature. The two processes have been combined here to show both procedures working.
 
-Signing and encoding a message does not ensure privacy for that message. Rather it ensures the authenticity of the message. Because the message is signed with the sender's private key, when the receiver of the message decrypts the signature with the sender's [*public key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) (available from the certificate that is sent along with the message), the receiver can be sure that the message was sent by the person or entity associated with the certificate and that the message was not changed after it was signed.
+Signing and encoding a message does not ensure privacy for that message. Rather it ensures the authenticity of the message. Because the message is signed with the sender's private key, when the receiver of the message decrypts the signature with the sender's [*public key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) (available from the certificate that is sent along with the message), the receiver can be sure that the message was sent by the person or entity associated with the certificate and that the message was not changed after it was signed.
 
 This example illustrates the following tasks and CryptoAPI functions for encoding a message:
 
@@ -26,12 +26,12 @@ This example illustrates the following tasks and CryptoAPI functions for encodin
 This example illustrates the following tasks and CryptoAPI functions for decoding a message and verifying the signature:
 
 -   Opening a message for decoding with [**CryptMsgOpenToDecode**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgopentodecode).
--   Adding the encoded [*BLOB*](https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b) to the message to be decoded by using [**CryptMsgUpdate**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgupdate).
+-   Adding the encoded [*BLOB*](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx) to the message to be decoded by using [**CryptMsgUpdate**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgupdate).
 -   Decoding the message using [**CryptMsgGetParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsggetparam).
 -   Opening a certificate store in memory with [**CertOpenStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopenstore) using the message received and decoded.
 -   Using [**CertGetSubjectCertificateFromStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetsubjectcertificatefromstore) to get the certificate of the message's signer.
 -   Verifying a message's signature using [**CryptMsgControl**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgcontrol).
--   Freeing memory, closing [*certificate stores*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb), and freeing [*certificate context*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
+-   Freeing memory, closing [*certificate stores*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx), and freeing [*certificate context*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
 
 For an example of how to perform these similar operations using a stream callback, see [Example C Program: Encoding and Decoding a Message Using a Stream](example-c-program--encoding-and-decoding-a-message-using-a-stream.md).
 

@@ -74,7 +74,7 @@ The return value is ignored.
 **Reference**
 </dt> <dt>
 
-[*TaskDialogCallbackProc*](/windows/desktop/api/Commctrl/nc-commctrl-pftaskdialogcallback)
+[*TaskDialogCallbackProc*](https://msdn.microsoft.com/en-us/library/Bb760542(v=VS.85).aspx)
 </dt> </dl>
 
  

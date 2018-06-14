@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The **getCertTemplateSMIME** method is used to determine whether a certificate template contains the szOID\_PKIX\_KP\_EMAIL\_PROTECTION key usage.
 
-If this key usage is part of the certificate template, the certificate template supports [*Secure/Multipurpose Internet Mail Extensions*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (S/MIME) operations.
+If this key usage is part of the certificate template, the certificate template supports [*Secure/Multipurpose Internet Mail Extensions*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) (S/MIME) operations.
 
 ## Syntax
 
@@ -102,7 +102,7 @@ The constant for szOID\_PKIX\_KP\_EMAIL\_PROTECTION is defined in Wincrypt.h.
 [**ISCrdEnr**](iscrdenr.md)
 </dt> <dt>
 
-[**ISCrdEnr::enroll**](/windows/desktop/api/certenroll/)
+[**ISCrdEnr::enroll**](https://msdn.microsoft.com/en-us/library/Aa386564(v=VS.85).aspx)
 </dt> </dl>
 
  

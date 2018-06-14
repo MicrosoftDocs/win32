@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # GetTransportInformationOperation::Completed property
 
-Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetTransportInformationAsync**](https://www.bing.com/search?q=**GetTransportInformationAsync**) is completed.
+Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetTransportInformationAsync**](https://msdn.microsoft.com/en-us/library/Hh828932(v=VS.85).aspx) is completed.
 
 This property is read/write.
 

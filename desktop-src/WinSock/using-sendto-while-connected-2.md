@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using Sendto While Connected
 
-[**WSPSendTo**](/windows/desktop/api/Ws2spi/) will always deliver the data to the specified address, even though a designated peer for the sending socket has been established in [**WSPConnect**](/windows/desktop/api/Ws2spi/).
+[**WSPSendTo**](https://msdn.microsoft.com/en-us/library/ms742291(v=VS.85).aspx) will always deliver the data to the specified address, even though a designated peer for the sending socket has been established in [**WSPConnect**](https://msdn.microsoft.com/en-us/library/ms742272(v=VS.85).aspx).
 
  
 

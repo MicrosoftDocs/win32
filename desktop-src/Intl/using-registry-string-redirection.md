@@ -53,7 +53,7 @@ When the MUI application displays its name in the shell user interface, an InfoT
 
 ### Prepare Resources for a Shortcut Created with Windows Installer
 
-If you use Windows Installer (MSI) to create a shortcut, string resources include shortcut display name and description. In the [MSI shortcut table](https://msdn.microsoft.com/86b5b51e-e5f4-4f42-84f9-1faa29ea7a84), the resource DLL is referenced in the appropriate columns and the resource identifiers for your shortcut display name and description are used in the corresponding resource identifier columns.
+If you use Windows Installer (MSI) to create a shortcut, string resources include shortcut display name and description. In the [MSI shortcut table](https://msdn.microsoft.com/en-us/library/Aa371847(v=VS.85).aspx), the resource DLL is referenced in the appropriate columns and the resource identifiers for your shortcut display name and description are used in the corresponding resource identifier columns.
 
 So that the application shortcut works properly with MUI resource technology, keep the following points in mind when preparing the shortcut strings:
 

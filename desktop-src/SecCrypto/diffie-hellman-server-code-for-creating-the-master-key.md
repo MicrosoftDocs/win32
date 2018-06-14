@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Diffie-Hellman Server Code for Creating the Master Key
 
-The following example shows typical [*Diffie-Hellman*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2)/Schannel server-side code for creating a [*master key*](https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1).
+The following example shows typical [*Diffie-Hellman*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx)/Schannel server-side code for creating a [*master key*](https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx).
 
 
 ```C++

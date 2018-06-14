@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # GetPositionInformationOperation.GetResults method
 
-Returns the results of the asynchronous operation started by [**GetPositionInformationAsync**](https://www.bing.com/search?q=**GetPositionInformationAsync**).
+Returns the results of the asynchronous operation started by [**GetPositionInformationAsync**](https://msdn.microsoft.com/en-us/library/Hh828931(v=VS.85).aspx).
 
 ## Syntax
 
@@ -41,7 +41,7 @@ HRESULT GetResults(
 *value* \[out, retval\]
 </dt> <dd>
 
-A reference to a [**PositionInformation**](https://www.bing.com/search?q=**PositionInformation**) structure that contains the results of the operation.
+A reference to a [**PositionInformation**](https://msdn.microsoft.com/en-us/library/Hh828991(v=VS.85).aspx) structure that contains the results of the operation.
 
 </dd> </dl>
 

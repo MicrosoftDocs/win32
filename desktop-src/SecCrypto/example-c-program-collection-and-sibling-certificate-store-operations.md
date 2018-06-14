@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Example C Program: Collection and Sibling Certificate Store Operations
 
-The following example demonstrates the concept of the collection store, a temporary [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) that actually includes the contents of several certificate stores. One or more stores may be added to a collection that can access the contents of any of the stores in the collection with a single function call.
+The following example demonstrates the concept of the collection store, a temporary [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) that actually includes the contents of several certificate stores. One or more stores may be added to a collection that can access the contents of any of the stores in the collection with a single function call.
 
-This example illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) functions:
+This example illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) functions:
 
 -   Opening and closing a collection store, a memory store and a system store using [**CertOpenStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopenstore) and [**CertCloseStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certclosestore).
 -   Adding a sibling store to a collection store using [**CertAddStoreToCollection**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddstoretocollection).
@@ -26,7 +26,7 @@ This example illustrates the following tasks and [*CryptoAPI*](https://msdn.micr
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 
-This example uses the **CreateMyDACL** function, defined in the [Creating a DACL](https://msdn.microsoft.com/f8ec202f-4f34-4123-8f3c-cfc5960b4dc2) topic, to ensure the open file is created with a proper DACL.
+This example uses the **CreateMyDACL** function, defined in the [Creating a DACL](https://msdn.microsoft.com/en-us/library/ms717798(v=VS.85).aspx) topic, to ensure the open file is created with a proper DACL.
 
 The following example opens a collection store, creates a new certificate store in memory, and adds the new store as a sibling store to the collection store. The program then opens a system store and retrieves a certificate. That certificate is added to the memory store. A second certificate is retrieved from the system store and a link to that certificate is added to the memory store. The certificate and the link are then retrieved from the collection store showing that certificates and links in a sibling store can be retrieved from the collection store. The memory is saved to disk. The memory store is then removed from the collection. The link added to the memory store can still be found in the memory store but can no longer be found in the collection store. All of the stores and files are closed, then the file store is reopened and a search is done for the certificate link. The success of this program depends upon a My store being available. That store must include a certificate with the subject "Insert\_cert\_subject\_name1" and a second certificate with the subject "Insert\_cert\_subject\_name2". The names of the subjects should be changed to the names of certificate subjects known to be in the My store.
 

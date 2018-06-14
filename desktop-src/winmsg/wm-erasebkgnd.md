@@ -46,9 +46,9 @@ An application should return nonzero if it erases the background; otherwise, it 
 
 ## Remarks
 
-The [**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca) function erases the background by using the class background brush specified by the **hbrBackground** member of the [**WNDCLASS**](/windows/desktop/api/Winuser/ns-winuser-tagwndclassa) structure. If **hbrBackground** is **NULL**, the application should process the **WM\_ERASEBKGND** message and erase the background.
+The [**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx) function erases the background by using the class background brush specified by the **hbrBackground** member of the [**WNDCLASS**](https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx) structure. If **hbrBackground** is **NULL**, the application should process the **WM\_ERASEBKGND** message and erase the background.
 
-An application should return nonzero in response to **WM\_ERASEBKGND** if it processes the message and erases the background; this indicates that no further erasing is required. If the application returns zero, the window will remain marked for erasing. (Typically, this indicates that the **fErase** member of the [**PAINTSTRUCT**](https://msdn.microsoft.com/1f8c6dd2-e511-48f2-8ab0-d2fadb1ce433) structure will be **TRUE**.)
+An application should return nonzero in response to **WM\_ERASEBKGND** if it processes the message and erases the background; this indicates that no further erasing is required. If the application returns zero, the window will remain marked for erasing. (Typically, this indicates that the **fErase** member of the [**PAINTSTRUCT**](https://msdn.microsoft.com/en-us/library/Dd162768(v=VS.85).aspx) structure will be **TRUE**.)
 
 ## Requirements
 
@@ -69,25 +69,25 @@ An application should return nonzero in response to **WM\_ERASEBKGND** if it pro
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](/windows/desktop/api/Winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx)
 </dt> <dt>
 
-[**WNDCLASS**](/windows/desktop/api/Winuser/ns-winuser-tagwndclassa)
+[**WNDCLASS**](https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**
 </dt> <dt>
 
-[Icons](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\icons.htm)
+[Icons](https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx)
 </dt> <dt>
 
 **Other Resources**
 </dt> <dt>
 
-[**BeginPaint**](https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9)
+[**BeginPaint**](https://msdn.microsoft.com/en-us/library/Dd183362(v=VS.85).aspx)
 </dt> <dt>
 
-[**PAINTSTRUCT**](https://msdn.microsoft.com/1f8c6dd2-e511-48f2-8ab0-d2fadb1ce433)
+[**PAINTSTRUCT**](https://msdn.microsoft.com/en-us/library/Dd162768(v=VS.85).aspx)
 </dt> </dl>
 
  

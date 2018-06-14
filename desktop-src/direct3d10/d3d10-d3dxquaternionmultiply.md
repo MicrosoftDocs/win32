@@ -59,7 +59,7 @@ Pointer to a source [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) structure.
 
 ## Return value
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxquaternion.htm)\***
+Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) structure that is the product of two quaternions.
 

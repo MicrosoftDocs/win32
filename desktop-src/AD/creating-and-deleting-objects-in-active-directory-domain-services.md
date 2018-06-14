@@ -27,7 +27,7 @@ The procedure used to programmatically create and delete objects in Active Direc
 |----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | [Active Directory Service Interfaces](https://msdn.microsoft.com/library/aa772170)         | [Creating and Deleting Objects](https://msdn.microsoft.com/library/aa772364)             |
 | [Lightweight Directory Access Protocol](https://msdn.microsoft.com/library/aa367008) | [Modifying a Directory Entry](https://msdn.microsoft.com/library/aa367010)                 |
-| [System.DirectoryServices](https://msdn.microsoft.com/library/system.directoryservices.aspx) | [Create, Delete, Rename and Move Objects](https://msdn.microsoft.com/windows/desktop/8d37fcda-e202-4707-bd8a-8b72684e2e16) |
+| [System.DirectoryServices](https://msdn.microsoft.com/library/system.directoryservices.aspx) | [Create, Delete, Rename and Move Objects](https://msdn.microsoft.com/en-US/library/ms180850(v=VS.80).aspx) |
 
 
 

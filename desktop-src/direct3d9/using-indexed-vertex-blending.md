@@ -31,7 +31,7 @@ m_pD3DDevice->SetRenderState( D3DRS_INDEXEDVERTEXBLENDENABLE, TRUE );
 
 
 
-To enable or disable vertex blending, set the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) render state to a value other than D3DRS\_DISABLE from the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dvertexblendflags.htm) enumerated type. If this render state is not set to D3DRS\_DISABLE, then you must pass the required number of weights for each vertex. The following code example uses **IDirect3DDevice9::SetRenderState** to enable vertex blending with three weights for each vertex.
+To enable or disable vertex blending, set the [**IDirect3DDevice9::SetRenderState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate) render state to a value other than D3DRS\_DISABLE from the [**D3DVERTEXBLENDFLAGS**](https://msdn.microsoft.com/en-us/library/Bb172628(v=VS.85).aspx) enumerated type. If this render state is not set to D3DRS\_DISABLE, then you must pass the required number of weights for each vertex. The following code example uses **IDirect3DDevice9::SetRenderState** to enable vertex blending with three weights for each vertex.
 
 
 ```
@@ -83,7 +83,7 @@ struct VERTEX
 
 
 
-When a legacy vertex shader is used, matrix indices are passed together with vertex positions using D3DFVF\_XYZBn flags. Matrix indices are passed as bytes inside a DWORD and must be present immediately after the last vertex weight. Vertex weights are also passed using D3DFVF\_XYZBn. A packed DWORD contains index3, index2, index1, and index0, where index0 is located in the lowest byte of the DWORD. The number of used world-matrix indices is equal to the number passed to the number of matrices used for blending as defined by [**D3DRS\_VERTEXBLEND**](https://msdn.microsoft.com/VS|directx_sdk|~\d3drenderstatetype.htm).
+When a legacy vertex shader is used, matrix indices are passed together with vertex positions using D3DFVF\_XYZBn flags. Matrix indices are passed as bytes inside a DWORD and must be present immediately after the last vertex weight. Vertex weights are also passed using D3DFVF\_XYZBn. A packed DWORD contains index3, index2, index1, and index0, where index0 is located in the lowest byte of the DWORD. The number of used world-matrix indices is equal to the number passed to the number of matrices used for blending as defined by [**D3DRS\_VERTEXBLEND**](https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx).
 
 When a declaration is used, D3DVSDE\_BLENDINDICES defines the input vertex register to get matrix indices from. Matrix indices must be passed as D3DVSDT\_UBYTE4.
 

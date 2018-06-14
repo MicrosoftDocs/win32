@@ -15,7 +15,7 @@ The following enumeration types are used to retrieve or set system information.
 
 <dl>
 
-[**COMPUTER\_NAME\_FORMAT**](/windows/desktop/api/Winbase/)  
+[**COMPUTER\_NAME\_FORMAT**](https://msdn.microsoft.com/en-us/library/ms724224(v=VS.85).aspx)  
 [**EXTENDED\_NAME\_FORMAT**](/windows/desktop/api/Secext/ne-secext-extended_name_format)  
 [**FIRMWARE\_TYPE**](/windows/desktop/api/Winnt/ne-winnt-_firmware_type)  
 [**IMAGE\_FILE\_MACHINE**](https://msdn.microsoft.com/library/windows/desktop/mt804320)  

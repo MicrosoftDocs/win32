@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CreateInkDivider function
 
-Instantiates an implementation of the [**InkDivider**](/windows/desktop/api/msinkaut15/) interface and returns its handle.
+Instantiates an implementation of the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) interface and returns its handle.
 
 This function is not intended to be used by application code.
 
@@ -34,7 +34,7 @@ Returns a handle to the created object.
 
 ## Remarks
 
-This class inherits from the [**InkDivider**](/windows/desktop/api/msinkaut15/) base class and implements virtual functions.
+This class inherits from the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) base class and implements virtual functions.
 
 ## Requirements
 

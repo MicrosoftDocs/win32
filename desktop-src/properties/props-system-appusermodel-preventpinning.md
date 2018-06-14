@@ -15,7 +15,7 @@ Disables the ability of a shortcut or window to be pinned to the taskbar or the 
 
 This property must be set on a window before the [PKEY\_AppUserModel\_ID](https://www.bing.com/search?q=PKEY\_AppUserModel\_ID) property. After the PKEY\_AppUserModel\_ID property is set, changes to [PKEY\_AppUserModel\_PreventPinning](https://www.bing.com/search?q=PKEY\_AppUserModel\_PreventPinning) are ignored.
 
-For more information about Application User Model IDs (AppUserModelIDs) and other methods of excluding an item from being pinned to the taskbar and from MFU inclusion, see [Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f).
+For more information about Application User Model IDs (AppUserModelIDs) and other methods of excluding an item from being pinned to the taskbar and from MFU inclusion, see [Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/en-us/library/Dd378459(v=VS.85).aspx).
 
 To set this property on a window, use [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](https://www.bing.com/search?q=**IPropertyStore**) object to set the [System.AppUserModel.PreventPinning](https://www.bing.com/search?q=System.AppUserModel.PreventPinning) property of that window.
 
@@ -49,7 +49,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f)
+[Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/en-us/library/Dd378459(v=VS.85).aspx)
 </dt> <dt>
 
 [System.AppUserModel.ID](https://www.bing.com/search?q=System.AppUserModel.ID)

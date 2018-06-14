@@ -96,7 +96,7 @@ The following table lists valid values. Set one of the first three values and **
 
 ## Remarks
 
-Note that if the value in the Type field is **msidbLocatorTypeRawValue**, the installer sets the value of the property specified in the Property field of the [AppSearch](appsearch-table.md) table to the registry value. The installer adds a prefix to the registry value that identifies the type of registry value. For more information about types of registry values, see [Registry Value Types](https://msdn.microsoft.com/5fd828d6-4d62-4823-a2f1-15782b5cd28c).
+Note that if the value in the Type field is **msidbLocatorTypeRawValue**, the installer sets the value of the property specified in the Property field of the [AppSearch](appsearch-table.md) table to the registry value. The installer adds a prefix to the registry value that identifies the type of registry value. For more information about types of registry values, see [Registry Value Types](https://msdn.microsoft.com/en-us/library/ms724884(v=VS.85).aspx).
 
 
 

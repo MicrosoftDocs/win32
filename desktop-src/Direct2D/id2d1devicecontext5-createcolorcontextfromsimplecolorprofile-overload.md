@@ -25,8 +25,8 @@ Creates a color context from a simple color profile. It is only valid to use thi
 
 | Method                                                                                                                                                                      | Description                                                                                                                                   |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateColorContextFromSimpleColorProfile(D2D1\_SIMPLE\_COLOR\_PROFILE \*, ID2D1ColorContext1 \*\*)**](/windows/desktop/api/d2d1_3/)  | Creates a color context from a simple color profile. It is only valid to use this with the Color Management Effect in 'Best' mode.<br/> |
-| [**CreateColorContextFromSimpleColorProfile(D2D1\_SIMPLE\_COLOR\_PROFILE &, ID2D1ColorContext1 \*\*)**](/windows/desktop/api/d2d1_3/) | Creates a color context from a simple color profile. It is only valid to use this with the Color Management Effect in 'Best' mode.<br/> |
+| [**CreateColorContextFromSimpleColorProfile(D2D1\_SIMPLE\_COLOR\_PROFILE \*, ID2D1ColorContext1 \*\*)**](https://msdn.microsoft.com/en-us/library/Mt797808(v=VS.85).aspx)  | Creates a color context from a simple color profile. It is only valid to use this with the Color Management Effect in 'Best' mode.<br/> |
+| [**CreateColorContextFromSimpleColorProfile(D2D1\_SIMPLE\_COLOR\_PROFILE &, ID2D1ColorContext1 \*\*)**](https://msdn.microsoft.com/en-us/library/Mt492596(v=VS.85).aspx) | Creates a color context from a simple color profile. It is only valid to use this with the Color Management Effect in 'Best' mode.<br/> |
 
 
 
@@ -34,7 +34,7 @@ Creates a color context from a simple color profile. It is only valid to use thi
 
 <dl> <dt>
 
-[**ID2D1DeviceContext5**](/windows/desktop/api/d2d1_3/)
+[**ID2D1DeviceContext5**](https://msdn.microsoft.com/en-us/library/Mt797806(v=VS.85).aspx)
 </dt> </dl>
 
  

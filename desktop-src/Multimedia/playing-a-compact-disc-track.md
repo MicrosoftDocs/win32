@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Playing a Compact Disc Track
 
-The following example opens a CD audio device, plays the track specified by the *bTrack* parameter, and closes the device after playback is complete. It uses the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function.
+The following example opens a CD audio device, plays the track specified by the *bTrack* parameter, and closes the device after playback is complete. It uses the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function.
 
 
 ```C++

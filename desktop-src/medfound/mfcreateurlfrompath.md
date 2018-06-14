@@ -41,7 +41,7 @@ A null-terminated string that contains the path. The maximum length of the strin
 *ppwszFileURL* \[out\]
 </dt> <dd>
 
-Receives a null-terminated string that contains the URL. The caller must free the string by calling [**CoTaskMemFree**](https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7).
+Receives a null-terminated string that contains the URL. The caller must free the string by calling [**CoTaskMemFree**](https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx).
 
 </dd> </dl>
 
@@ -62,7 +62,7 @@ The function returns an **HRESULT**. Possible values include, but are not limite
 
 ## Remarks
 
-This function has no associated import library. To call this function, you must use the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions to dynamically link to Mfplat.dll.
+This function has no associated import library. To call this function, you must use the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mfplat.dll.
 
 ## Requirements
 

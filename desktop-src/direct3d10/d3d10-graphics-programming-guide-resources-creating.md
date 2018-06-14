@@ -145,7 +145,7 @@ ID3D10Buffer *g_pIndexBuffer = NULL;
 
 ## Create a Constant Buffer
 
-Direct3D 10 introduces a constant buffer. A constant buffer, or shader constant buffer, is a buffer that contains shader constants. Here is an example of creating a constant buffer, taken from the [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/windows/desktop/61f892cf-4760-177b-5048-0ba3906d8bfc).
+Direct3D 10 introduces a constant buffer. A constant buffer, or shader constant buffer, is a buffer that contains shader constants. Here is an example of creating a constant buffer, taken from the [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/en-us/library/Ee416414(v=VS.85).aspx).
 
 
 ```
@@ -177,7 +177,7 @@ struct VS_CONSTANT_BUFFER
 
 
 
-Note that when using the [**ID3D10Effect Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effect) interface the process of creating, binding and comitting a constant buffer is handled by the **ID3D10Effect Interface** instance. In that case it is only nescesary to get the variable from the effect with one of the GetVariable methods such as [**GetVariableByName**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-getvariablebyname) and update the variable with one of the SetVariable methods such as [**SetMatrix**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrix). For an example of using **ID3D10Effect Interface** to manage a constant buffer see [Tutorial 7: Texture Mapping and Constant Buffers](https://msdn.microsoft.com/windows/desktop/f604f2b2-ffcc-7b5d-2bba-28a66584232c).
+Note that when using the [**ID3D10Effect Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effect) interface the process of creating, binding and comitting a constant buffer is handled by the **ID3D10Effect Interface** instance. In that case it is only nescesary to get the variable from the effect with one of the GetVariable methods such as [**GetVariableByName**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effect-getvariablebyname) and update the variable with one of the SetVariable methods such as [**SetMatrix**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrix). For an example of using **ID3D10Effect Interface** to manage a constant buffer see [Tutorial 7: Texture Mapping and Constant Buffers](https://msdn.microsoft.com/en-us/library/Ee416442(v=VS.85).aspx).
 
 ## Related topics
 

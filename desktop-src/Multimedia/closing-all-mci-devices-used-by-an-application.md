@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Closing All MCI Devices Used by an Application
 
-The following example closes all of the MCI devices that are opened by an application using the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function.
+The following example closes all of the MCI devices that are opened by an application using the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function.
 
 
 ```C++

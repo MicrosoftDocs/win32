@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[The following structure is available for use in Windows Server 2012 R2. It may be altered or unavailable in subsequent versions.\]
 
-Used with the [**IOCTL\_SCSI\_MINIPORT**](https://msdn.microsoft.com/5a9facc7-c83e-4dd4-9fb4-e3385c1b94ea) IOCTL and the CTLCODE\_ISCSITGT\_SPT\_SESSION\_START (0x100) control code to start a session.
+Used with the [**IOCTL\_SCSI\_MINIPORT**](https://msdn.microsoft.com/en-us/library/Ff560512(v=VS.85).aspx) IOCTL and the CTLCODE\_ISCSITGT\_SPT\_SESSION\_START (0x100) control code to start a session.
 
 ## Syntax
 
@@ -103,7 +103,7 @@ Optional. Challenge Handshake Authentication Protocol (CHAP) user name if CHAP i
 [iSCSI Target Pass-Through](iscsi-target-pass-through.md)
 </dt> <dt>
 
-[**SRB\_IO\_CONTROL**](https://msdn.microsoft.com/754d2a4c-6a22-4c25-87e2-e30e87b9c1ba)
+[**SRB\_IO\_CONTROL**](https://msdn.microsoft.com/en-us/library/Ff566339(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -28,7 +28,7 @@ SFVM_SETPOINTS
 <dl> <dt>
 
 *pdtobj* \[in\]
-</dt> <dd>A pointer to an [**IDataObject**](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4) of the **Copy** and **Cut** commands.</dd> </dl>
+</dt> <dd>A pointer to an [**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx) of the **Copy** and **Cut** commands.</dd> </dl>
 
 ## Return value
 

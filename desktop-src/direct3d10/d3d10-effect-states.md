@@ -72,7 +72,7 @@ Effect states are name value pairs in the form of an expression.
 
  
 
-See [Sampler Type (DirectX HLSL)](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_sampler.htm) for examples.
+See [Sampler Type (DirectX HLSL)](https://msdn.microsoft.com/en-us/library/Bb509644(v=VS.85).aspx) for examples.
 
 ## Effect Object State
 
@@ -131,7 +131,7 @@ SetBlendState( NoBlend, float4( 0.0f, 0.0f, 0.0f, 0.0f ), 0xFFFFFFFF );
 
 
 
-For a tutorial describing the use of states see [State Management](https://msdn.microsoft.com/windows/desktop/be31385b-36ff-48e6-149b-423e356917a8).
+For a tutorial describing the use of states see [State Management](https://msdn.microsoft.com/en-us/library/Ee416550(v=VS.85).aspx).
 
 ## Related topics
 

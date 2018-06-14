@@ -32,13 +32,13 @@ This `IMediaObjectImpl` template exposes the following members.
 | [**CheckTypesSet**](/windows/desktop/api/Dmoimpl/nf-dmoimpl-imediaobjectimpl-checktypesset)                     | Determines whether all of the non-optional streams have media types. |
 | [**InputType**](/windows/desktop/api/Dmoimpl/nf-dmoimpl-imediaobjectimpl-inputtype)                             | Retrieves the current media type for a specified input stream.       |
 | [**InputTypeSet**](/windows/desktop/api/Dmoimpl/nf-dmoimpl-imediaobjectimpl-inputtypeset)                       | Queries whether the media type was set on an input stream.           |
-| [**InternalAcceptingInput**](/windows/desktop/api/Dmoimpl/)   | Queries whether an input stream can accept more input.               |
-| [**InternalCheckInputType**](/windows/desktop/api/Dmoimpl/)   | Queries whether an input stream can accept a given media type.       |
-| [**InternalCheckOutputType**](/windows/desktop/api/Dmoimpl/) | Queries whether an output stream can accept a given media type.      |
-| [**Lock**](/windows/desktop/api/Dmoimpl/)                                       | Locks the DMO                                                        |
+| [**InternalAcceptingInput**](https://msdn.microsoft.com/en-us/library/Dd406931(v=VS.85).aspx)   | Queries whether an input stream can accept more input.               |
+| [**InternalCheckInputType**](https://msdn.microsoft.com/en-us/library/Dd406932(v=VS.85).aspx)   | Queries whether an input stream can accept a given media type.       |
+| [**InternalCheckOutputType**](https://msdn.microsoft.com/en-us/library/Dd406933(v=VS.85).aspx) | Queries whether an output stream can accept a given media type.      |
+| [**Lock**](https://msdn.microsoft.com/en-us/library/Dd406934(v=VS.85).aspx)                                       | Locks the DMO                                                        |
 | [**OutputType**](/windows/desktop/api/Dmoimpl/nf-dmoimpl-imediaobjectimpl-outputtype)                           | Retrieves the current media type for a specified output stream.      |
 | [**OutputTypeSet**](/windows/desktop/api/Dmoimpl/nf-dmoimpl-imediaobjectimpl-outputtypeset)                     | Queries whether the media type was set on an output stream.          |
-| [**Unlock**](/windows/desktop/api/Dmoimpl/)                                   | Unlocks the DMO                                                      |
+| [**Unlock**](https://msdn.microsoft.com/en-us/library/Dd406938(v=VS.85).aspx)                                   | Unlocks the DMO                                                      |
 
 
 

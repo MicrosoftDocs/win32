@@ -27,10 +27,10 @@ Describes the intersection between this geometry and the specified geometry.
 
 | Method                                                                                                                                                                                                            | Description                                                                                                                                                      |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CompareWithGeometry(ID2D1Geometry\*,D2D1\_MATRIX\_3X2\_F&,D2D1\_GEOMETRY\_RELATION\*)**](/windows/desktop/api/d2d1/)              | Describes the intersection between this geometry and the specified geometry. The comparison is performed using the default flattening tolerance.<br/>      |
-| [**CompareWithGeometry(ID2D1Geometry\*,D2D1\_MATRIX\_3X2\_F\*,D2D1\_GEOMETRY\_RELATION\*)**](/windows/desktop/api/d2d1/)             | Describes the intersection between this geometry and the specified geometry. The comparison is performed using the default flattening tolerance.<br/>      |
-| [**CompareWithGeometry(ID2D1Geometry\*,D2D1\_MATRIX\_3X2\_F&,FLOAT,D2D1\_GEOMETRY\_RELATION\*)**](/windows/desktop/api/d2d1/)  | Describes the intersection between this geometry and the specified geometry. The comparison is performed using the specified flattening tolerance.<br/>    |
-| [**CompareWithGeometry(ID2D1Geometry\*,D2D1\_MATRIX\_3X2\_F\*,FLOAT,D2D1\_GEOMETRY\_RELATION\*)**](/windows/desktop/api/d2d1/) | Describes the intersection between this geometry and the specified geometry. The comparison is performed by using the specified flattening tolerance.<br/> |
+| [**CompareWithGeometry(ID2D1Geometry\*,D2D1\_MATRIX\_3X2\_F&,D2D1\_GEOMETRY\_RELATION\*)**](https://msdn.microsoft.com/en-us/library/Dd316638(v=VS.85).aspx)              | Describes the intersection between this geometry and the specified geometry. The comparison is performed using the default flattening tolerance.<br/>      |
+| [**CompareWithGeometry(ID2D1Geometry\*,D2D1\_MATRIX\_3X2\_F\*,D2D1\_GEOMETRY\_RELATION\*)**](https://msdn.microsoft.com/en-us/library/Dd316632(v=VS.85).aspx)             | Describes the intersection between this geometry and the specified geometry. The comparison is performed using the default flattening tolerance.<br/>      |
+| [**CompareWithGeometry(ID2D1Geometry\*,D2D1\_MATRIX\_3X2\_F&,FLOAT,D2D1\_GEOMETRY\_RELATION\*)**](https://msdn.microsoft.com/en-us/library/Dd316635(v=VS.85).aspx)  | Describes the intersection between this geometry and the specified geometry. The comparison is performed using the specified flattening tolerance.<br/>    |
+| [**CompareWithGeometry(ID2D1Geometry\*,D2D1\_MATRIX\_3X2\_F\*,FLOAT,D2D1\_GEOMETRY\_RELATION\*)**](https://msdn.microsoft.com/en-us/library/Dd316630(v=VS.85).aspx) | Describes the intersection between this geometry and the specified geometry. The comparison is performed by using the specified flattening tolerance.<br/> |
 
 
 
@@ -55,7 +55,7 @@ For more information about how to interpret other possible return values, see [*
 
 <dl> <dt>
 
-[**ID2D1Geometry**](/windows/desktop/api/d2d1/)
+[**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx)
 </dt> </dl>
 
  

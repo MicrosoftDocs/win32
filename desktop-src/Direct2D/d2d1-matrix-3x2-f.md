@@ -26,7 +26,7 @@ typedef D2D_MATRIX_3X2_F D2D1_MATRIX_3X2_F;
 
 **D2D1\_MATRIX\_3X2** is a new name for the [**D2D\_MATRIX\_3X2\_F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f) structure. For a list of fields provided by the matrix, see [**D2D\_MATRIX\_3X2\_F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f).
 
-To simplify common matrix operations, Direct2D provides the [**D2D1::Matrix3x2F**](/windows/desktop/api/d2d1/nl-d2d1helper-matrix3x2f) class, which is derived from the [**D2D1\_MATRIX\_3X2**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f) structure. The **Matrix3x2F** class provides a set of helper methods for performing common tasks, such as creating a translation or skew matrix.
+To simplify common matrix operations, Direct2D provides the [**D2D1::Matrix3x2F**](https://msdn.microsoft.com/en-us/library/Dd372275(v=VS.85).aspx) class, which is derived from the [**D2D1\_MATRIX\_3X2**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f) structure. The **Matrix3x2F** class provides a set of helper methods for performing common tasks, such as creating a translation or skew matrix.
 
 ## Examples
 
@@ -85,7 +85,7 @@ Code has been omitted from this example. For more information about transforms, 
 
 <dl> <dt>
 
-[**D2D1::Matrix3x2F**](/windows/desktop/api/d2d1/nl-d2d1helper-matrix3x2f)
+[**D2D1::Matrix3x2F**](https://msdn.microsoft.com/en-us/library/Dd372275(v=VS.85).aspx)
 </dt> <dt>
 
 [Transforms Overview](direct2d-transforms-overview.md)

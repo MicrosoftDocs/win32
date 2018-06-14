@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # PROV\_RSA\_FULL
 
-The PROV\_RSA\_FULL provider type supports both [*digital signatures*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2) and data encryption. It is considered a general purpose CSP. The RSA public key algorithm is used for all public key operations.
+The PROV\_RSA\_FULL provider type supports both [*digital signatures*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) and data encryption. It is considered a general purpose CSP. The RSA public key algorithm is used for all public key operations.
 
 ## Algorithms Supported
 
@@ -21,10 +21,10 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                                                                                              |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Key Exchange | [*RSA*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd)                                                                       |
+| Key Exchange | [*RSA*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx)                                                                       |
 | Signature    | RSA                                                                                                                               |
-| Encryption   | [*RC2*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd)[*RC4*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd)<br/> |
-| Hashing      | [*MD5*](https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1)[*SHA*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50)<br/> |
+| Encryption   | [*RC2*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx)[*RC4*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx)<br/> |
+| Hashing      | [*MD5*](https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx)[*SHA*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx)<br/> |
 
 
 

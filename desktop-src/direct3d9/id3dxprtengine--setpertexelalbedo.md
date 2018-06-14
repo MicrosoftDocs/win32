@@ -42,7 +42,7 @@ Pointer to an [**IDirect3DTexture9**](/windows/desktop/api/d3d9helper/nn-d3d9-id
 *NumChannels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of color channels to set. Set to 1 to specify gray materials (R = G = B), or 3 to enable color bleeding effects.
 
@@ -59,7 +59,7 @@ Optional pointer to an [**ID3DXTextureGutterHelper**](id3dxtexturegutterhelper.m
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is S\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DERR\_NOTAVAILABLED3DERR\_OUTOFVIDEOMEMORY, D3DERR\_WASSTILLDRAWING, E\_OUTOFMEMORY.
 

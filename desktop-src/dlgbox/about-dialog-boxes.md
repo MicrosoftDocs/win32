@@ -188,11 +188,11 @@ Although other menus in dialog boxes are not recommended, a dialog box template 
 
 The system uses the average character width of the dialog box font to calculate the position and dimensions of the dialog box. By default, the system draws all text in a dialog box using the **SYSTEM\_FONT** font.
 
-To specify a font for a dialog box other than the default, you must create the dialog box using a dialog box template. In a template resource, use the [FONT Statement](https://msdn.microsoft.com/windows/desktop/d7b0f382-bc45-4405-a30e-0b571fdfd1db). In a dialog box template, set the **DS\_SETFONT** or **DS\_SHELLFONT** style and specify a point size and a typeface name. Even if a dialog box template specifies a font in this manner, the system always uses the system font for the dialog box title and dialog box menus.
+To specify a font for a dialog box other than the default, you must create the dialog box using a dialog box template. In a template resource, use the [FONT Statement](https://msdn.microsoft.com/en-us/library/Aa381013(v=VS.85).aspx). In a dialog box template, set the **DS\_SETFONT** or **DS\_SHELLFONT** style and specify a point size and a typeface name. Even if a dialog box template specifies a font in this manner, the system always uses the system font for the dialog box title and dialog box menus.
 
 When the dialog box has the **DS\_SETFONT** or **DS\_SHELLFONT** style, the system sends a [**WM\_SETFONT**](https://msdn.microsoft.com/library/windows/desktop/ms632642) message to the dialog box procedure and to each control as it creates the control. The dialog box procedure is responsible for saving the font handle passed with the **WM\_SETFONT** message and selecting the handle into the display device context whenever it writes text to the window. Predefined controls do this by default.
 
-The system font can vary between different versions of Windows. To have your application use the system font no matter which system it is running on, use **DS\_SHELLFONT** with the typeface MS Shell Dlg, and use the [DIALOGEX Resource](https://msdn.microsoft.com/windows/desktop/3ff28b68-e8b4-444d-8e26-5119ed30e44e) instead of the [DIALOG Resource](https://msdn.microsoft.com/windows/desktop/d166fb7d-0fe5-4e48-a545-19acc0ff80f1). The system maps this typeface such that your dialog box will use the Tahoma font. Note that **DS\_SHELLFONT** has no effect if the typeface is not MS Shell Dlg.
+The system font can vary between different versions of Windows. To have your application use the system font no matter which system it is running on, use **DS\_SHELLFONT** with the typeface MS Shell Dlg, and use the [DIALOGEX Resource](https://msdn.microsoft.com/en-us/library/Aa381002(v=VS.85).aspx) instead of the [DIALOG Resource](https://msdn.microsoft.com/en-us/library/Aa381003(v=VS.85).aspx). The system maps this typeface such that your dialog box will use the Tahoma font. Note that **DS\_SHELLFONT** has no effect if the typeface is not MS Shell Dlg.
 
 ### Templates in Memory
 
@@ -216,7 +216,7 @@ In both the standard and extended templates for dialog boxes, the header include
 
 In an extended template, the [**DLGTEMPLATEEX**](dlgtemplateex.md) header also specifies the following additional information:
 
--   The help context identifier of the dialog box window when the system sends a [**WM\_HELP**](https://msdn.microsoft.com/windows/desktop/6a090125-67dd-4267-9973-10e32c6e4f1f) message.
+-   The help context identifier of the dialog box window when the system sends a [**WM\_HELP**](https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx) message.
 -   If the dialog box has the **DS\_SETFONT** or **DS\_SHELLFONT** style, the header specifies the font weight and indicates whether the font is italic.
 
 ### Control Definitions
@@ -232,7 +232,7 @@ In both the standard and extended templates, the control definition includes the
 -   A null-terminated Unicode string that specifies the initial text of the control, or an ordinal value that identifies a resource, such as an icon, in an executable file.
 -   An optional variable-length block of creation data. When the system creates the control, it passes a pointer to this data in the *lParam* parameter of the [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619) message that it sends to the control.
 
-In an extended template, the control definition also specifies a help context identifier for the control when the system sends a [**WM\_HELP**](https://msdn.microsoft.com/windows/desktop/6a090125-67dd-4267-9973-10e32c6e4f1f) message.
+In an extended template, the control definition also specifies a help context identifier for the control when the system sends a [**WM\_HELP**](https://msdn.microsoft.com/en-us/library/Bb774305(v=VS.85).aspx) message.
 
  
 

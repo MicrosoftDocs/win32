@@ -51,7 +51,7 @@ This function returns a pointer to a [**D3DXVECTOR3**](d3dxvector3.md) structure
 *pAngle* \[in, out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 This function returns a pointer to a FLOAT value that identifies the quaternion's angle of rotation in radians.
 

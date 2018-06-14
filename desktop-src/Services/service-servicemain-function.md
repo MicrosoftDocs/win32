@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # Service ServiceMain Function
 
-When a service control program requests that a new service run, the Service Control Manager (SCM) starts the service and sends a start request to the control dispatcher. The control dispatcher creates a new thread to execute the [**ServiceMain**](https://www.bing.com/search?q=**ServiceMain**) function for the service. For an example, see [Writing a ServiceMain Function](writing-a-servicemain-function.md).
+When a service control program requests that a new service run, the Service Control Manager (SCM) starts the service and sends a start request to the control dispatcher. The control dispatcher creates a new thread to execute the [**ServiceMain**](https://msdn.microsoft.com/en-us/library/ms685138(v=VS.85).aspx) function for the service. For an example, see [Writing a ServiceMain Function](writing-a-servicemain-function.md).
 
-The [**ServiceMain**](https://www.bing.com/search?q=**ServiceMain**) function should perform the following tasks:
+The [**ServiceMain**](https://msdn.microsoft.com/en-us/library/ms685138(v=VS.85).aspx) function should perform the following tasks:
 
 1.  Initialize all global variables.
 2.  Call the [**RegisterServiceCtrlHandler**](/windows/desktop/api/Winsvc/nf-winsvc-registerservicectrlhandlera) function immediately to register a [**Handler**](/windows/desktop/api/Winsvc/nc-winsvc-lphandler_function) function to handle control requests for the service. The return value of **RegisterServiceCtrlHandler** is a *service status handle* that will be used in calls to notify the SCM of the service status.
-3.  Perform initialization. If the execution time of the initialization code is expected to be very short (less than one second), initialization can be performed directly in [**ServiceMain**](https://www.bing.com/search?q=**ServiceMain**).
+3.  Perform initialization. If the execution time of the initialization code is expected to be very short (less than one second), initialization can be performed directly in [**ServiceMain**](https://msdn.microsoft.com/en-us/library/ms685138(v=VS.85).aspx).
 
     If the initialization time is expected to be longer than one second, the service should use one of the following initialization techniques:
 

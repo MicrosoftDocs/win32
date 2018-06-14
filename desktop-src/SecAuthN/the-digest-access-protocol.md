@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # The Digest Access Protocol
 
-The Digest Access protocol specified by [RFC 2617](http://go.microsoft.com/fwlink/p/?linkid=84049) is implemented by the Microsoft Digest [*security support provider*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SSP). The implementation consists of a set of [Microsoft Security Support Provider Interface](sspi.md) (SSPI) security context functions that client/server applications call to:
+The Digest Access protocol specified by [RFC 2617](http://go.microsoft.com/fwlink/p/?linkid=84049) is implemented by the Microsoft Digest [*security support provider*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) (SSP). The implementation consists of a set of [Microsoft Security Support Provider Interface](sspi.md) (SSPI) security context functions that client/server applications call to:
 
--   Establish a [*security context*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) for message exchange.
--   Obtain data objects required by the Digest SSP, such as [*credentials*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) and context handles.
--   Access message [*integrity*](https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70) and confidentiality mechanisms.
+-   Establish a [*security context*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) for message exchange.
+-   Obtain data objects required by the Digest SSP, such as [*credentials*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) and context handles.
+-   Access message [*integrity*](https://msdn.microsoft.com/en-us/library/ms721588(v=VS.85).aspx) and confidentiality mechanisms.
 
 Digest Access authentication takes place within paired request/response transactions, with requests originating on the client and responses originating on the server. A successful Digest Access authentication requires two request/response pairs.
 
@@ -29,14 +29,14 @@ The process starts with the client requesting an access-protected resource from 
 
 The server receives HTTP Request 1 and determines that the resource requires authentication information that was not included in the request. The server generates a challenge for the client as follows:
 
-1.  The server obtains its [*credentials*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) by calling the [**AcquireCredentialsHandle**](/windows/desktop/api/Sspi/) function.
-2.  The server generates the Digest challenge by calling the [**AcceptSecurityContext (General)**](/windows/desktop/api/Sspi/) function.
-3.  The server sends a WWW-Authenticate header as its response to the client's request (shown as HTTP Response 1). The header contains the Digest challenge and an opaque directive that contains a reference to a partial [*security context*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) established for the client. The header is sent with a 401 status code that indicates that the client request generated an unauthorized access error. For more information about the Digest challenge, see [Contents of a Digest Challenge](contents-of-a-digest-challenge.md) and [Generating the Digest Challenge](generating-the-digest-challenge.md).
+1.  The server obtains its [*credentials*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) by calling the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/en-us/library/Aa374712(v=VS.85).aspx) function.
+2.  The server generates the Digest challenge by calling the [**AcceptSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa374703(v=VS.85).aspx) function.
+3.  The server sends a WWW-Authenticate header as its response to the client's request (shown as HTTP Response 1). The header contains the Digest challenge and an opaque directive that contains a reference to a partial [*security context*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) established for the client. The header is sent with a 401 status code that indicates that the client request generated an unauthorized access error. For more information about the Digest challenge, see [Contents of a Digest Challenge](contents-of-a-digest-challenge.md) and [Generating the Digest Challenge](generating-the-digest-challenge.md).
 4.  The client receives HTTP Response 1, extracts the Digest challenge sent by the server, and generates a Digest challenge response as follows:
-    1.  The user's credentials are obtained either by calling the [**AcquireCredentialsHandle**](/windows/desktop/api/Sspi/) function or by interactively prompting the user for credentials.
-    2.  The challenge and credentials information are passed to the [**InitializeSecurityContext (General)**](/windows/desktop/api/Sspi/) function, which generates the Digest challenge response.
+    1.  The user's credentials are obtained either by calling the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/en-us/library/Aa374712(v=VS.85).aspx) function or by interactively prompting the user for credentials.
+    2.  The challenge and credentials information are passed to the [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa375506(v=VS.85).aspx) function, which generates the Digest challenge response.
 5.  The client sends an Authorization header that contains the challenge response to the server (shown as HTTP Request 2). For more information about the Digest challenge response, see [Contents of a Digest Challenge Response](contents-of-a-digest-challenge-response.md) and [Generating the Digest Challenge Response](generating-the-digest-challenge-response.md).
-6.  The server receives HTTP Request 2, extracts the challenge response sent by the client, and authenticates the information by calling the [**AcceptSecurityContext (General)**](/windows/desktop/api/Sspi/) function. For details about the authentication process, see [Initial Authentication using Microsoft Digest](initial-authentication-using-microsoft-digest.md).
+6.  The server receives HTTP Request 2, extracts the challenge response sent by the client, and authenticates the information by calling the [**AcceptSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa374703(v=VS.85).aspx) function. For details about the authentication process, see [Initial Authentication using Microsoft Digest](initial-authentication-using-microsoft-digest.md).
 7.  The server sends HTTP Response 2 back to the client as the second and final response required by the Digest Access protocol. If the authentication is successful, this response contains the requested resource.
 
 ## Related topics

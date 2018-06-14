@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The WNet functions return error codes for compatibility with Windows for Workgroups. Each WNet function also sets the error code value returned by [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
 
-When one of the WNet functions returns ERROR\_EXTENDED\_ERROR, an application can call the [**WNetGetLastError**](/windows/desktop/api/Winnetwk/nf-winnetwk-wnetgetlasterrora) function to retrieve additional information about the error. This information is usually specific to the network provider.
+When one of the WNet functions returns ERROR\_EXTENDED\_ERROR, an application can call the [**WNetGetLastError**](https://msdn.microsoft.com/en-us/library/Aa385459(v=VS.85).aspx) function to retrieve additional information about the error. This information is usually specific to the network provider.
 
 The following example illustrates an application-defined error-handling function (NetErrorHandler). The function takes three arguments: a window handle, the error code returned by one of the WNet functions, and the name of the function that produced the error. If the error code is ERROR\_EXTENDED\_ERROR, NetErrorHandler calls **WNetGetLastError** to get extended error information and prints the information. The sample calls the [**MessageBox**](https://www.bing.com/search?q=**MessageBox**) function to process messages.
 

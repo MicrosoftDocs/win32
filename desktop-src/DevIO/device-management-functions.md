@@ -17,7 +17,7 @@ The following functions are used in device management.
 
 | Function                                                             | Description                                                                           |
 |----------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [**DeviceIoControl**](/windows/desktop/api/Winbase/nf-classpnp-classsenddeviceiocontrolsynchronous)                           | Sends a control code directly to a specified device driver.                           |
+| [**DeviceIoControl**](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx)                           | Sends a control code directly to a specified device driver.                           |
 | [**InstallNewDevice**](installnewdevice.md)                         | Installs a new device. The user is prompted to select the device.                     |
 | [**RegisterDeviceNotification**](/windows/desktop/api/Winuser/nf-winuser-registerdevicenotificationa)     | Registers the device or type of device for which a window will receive notifications. |
 | [**UnregisterDeviceNotification**](/windows/desktop/api/Winuser/nf-winuser-unregisterdevicenotification) | Closes the specified device notification handle.                                      |

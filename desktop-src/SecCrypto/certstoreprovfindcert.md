@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CertStoreProvFindCert callback function
 
-The **CertStoreProvFindCert** callback function enumerates or finds the first or next certificate in an [*external store*](https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091) that matches specified criteria.
+The **CertStoreProvFindCert** callback function enumerates or finds the first or next certificate in an [*external store*](https://msdn.microsoft.com/en-us/library/ms721575(v=VS.85).aspx) that matches specified criteria.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ BOOL WINAPI CertStoreProvFindCert(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
+**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
 
 </dd> <dt>
 

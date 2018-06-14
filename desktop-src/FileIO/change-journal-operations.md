@@ -13,12 +13,12 @@ ms.date: 05/31/2018
 
 The following list identifies the control codes that work with the NTFS file system update sequence number (USN) change journal.
 
--   [**FSCTL\_CREATE\_USN\_JOURNAL**](/windows/desktop/api/WinIoCtl/)
--   [**FSCTL\_DELETE\_USN\_JOURNAL**](/windows/desktop/api/WinIoCtl/)
--   [**FSCTL\_ENUM\_USN\_DATA**](/windows/desktop/api/WinIoCtl/)
--   [**FSCTL\_MARK\_HANDLE**](/windows/desktop/api/WinIoCtl/)
--   [**FSCTL\_QUERY\_USN\_JOURNAL**](/windows/desktop/api/WinIoCtl/)
--   [**FSCTL\_READ\_USN\_JOURNAL**](/windows/desktop/api/WinIoCtl/)
+-   [**FSCTL\_CREATE\_USN\_JOURNAL**](https://msdn.microsoft.com/en-us/library/Aa364558(v=VS.85).aspx)
+-   [**FSCTL\_DELETE\_USN\_JOURNAL**](https://msdn.microsoft.com/en-us/library/Aa364561(v=VS.85).aspx)
+-   [**FSCTL\_ENUM\_USN\_DATA**](https://msdn.microsoft.com/en-us/library/Aa364563(v=VS.85).aspx)
+-   [**FSCTL\_MARK\_HANDLE**](https://msdn.microsoft.com/en-us/library/Aa364576(v=VS.85).aspx)
+-   [**FSCTL\_QUERY\_USN\_JOURNAL**](https://msdn.microsoft.com/en-us/library/Aa364583(v=VS.85).aspx)
+-   [**FSCTL\_READ\_USN\_JOURNAL**](https://msdn.microsoft.com/en-us/library/Aa364586(v=VS.85).aspx)
 
 The following list identifies the structures information that relates to the NTFS file system USN change journal.
 

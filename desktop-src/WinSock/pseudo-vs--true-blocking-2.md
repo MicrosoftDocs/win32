@@ -15,7 +15,7 @@ In 16 Windows environments, true blocking is not supported by the operating syst
 
 -   The service provider initiates the operation, and then enters a loop during which it dispatches any Windows messages (yielding the processor to another thread if necessary)
 -   It then checks for the completion of the Windows Sockets function.
--   If the function has completed, or if [**WSPCancelBlockingCall**](/windows/desktop/api/Ws2spi/) has been invoked, the loop is terminated and the blocking function completes with an appropriate result.
+-   If the function has completed, or if [**WSPCancelBlockingCall**](https://msdn.microsoft.com/en-us/library/ms742269(v=VS.85).aspx) has been invoked, the loop is terminated and the blocking function completes with an appropriate result.
 
 This is what is meant by the term pseudo blocking, and the loop referred to above is known as the default blocking hook.
 

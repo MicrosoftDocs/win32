@@ -37,7 +37,7 @@ D3DXMATRIX* D3DXMatrixTransformation2D(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that contains the result of the transformations.
 
@@ -46,7 +46,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that contains the
 *pScalingCenter* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR2**](d3d10-d3dxvector2.md), a point identifying the scaling center. If this argument is **NULL**, an identity M<sub>sc</sub> matrix is applied to the formula in Remarks.
 
@@ -55,7 +55,7 @@ Pointer to a [**D3DXVECTOR2**](d3d10-d3dxvector2.md), a point identifying the sc
 *ScalingRotation* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to the scaling rotation factor.
 
@@ -64,7 +64,7 @@ Pointer to the scaling rotation factor.
 *pScaling* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR2 structure, a point identifying the scale. If this argument is **NULL**, an identity Mₛ matrix is applied to the formula in Remarks.
 
@@ -73,7 +73,7 @@ Pointer to a D3DXVECTOR2 structure, a point identifying the scale. If this argum
 *pRotationCenter* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR2 structure, a point identifying the rotation center. If this argument is **NULL**, an identity M<sub>rc</sub> matrix is applied to the formula in Remarks.
 
@@ -82,7 +82,7 @@ Pointer to a D3DXVECTOR2 structure, a point identifying the rotation center. If 
 *Rotation* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The angle of rotation in radians.
 
@@ -91,7 +91,7 @@ The angle of rotation in radians.
 *pTranslation* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector2.htm)\***
+Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/en-us/library/Bb205544(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR2 structure, identifying the translation. If this argument is **NULL**, an identity Mₜ matrix is applied to the formula in Remarks.
 
@@ -99,7 +99,7 @@ Pointer to a D3DXVECTOR2 structure, identifying the translation. If this argumen
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to a D3DXMATRIX structure that contains the transformation matrix.
 

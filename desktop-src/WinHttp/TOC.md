@@ -110,7 +110,7 @@
 ##### [WinHttpWebSocketSend](/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketsend)
 ##### [WinHttpWebSocketShutdown](/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown)
 #### [WinHTTP Callbacks](winhttp-prototypes.md)
-##### [WINHTTP_STATUS_CALLBACK](/windows/desktop/api/Winhttp/nc-winhttp-winhttp_status_callback)
+##### [WINHTTP_STATUS_CALLBACK](https://msdn.microsoft.com/en-us/library/Aa383917(v=VS.85).aspx)
 #### [WinHTTP Structures](winhttp-structures.md)
 ##### [HTTP_VERSION_INFO](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_1)
 ##### [URL_COMPONENTS](/windows/desktop/api/Winhttp/ns-winhttp-__unnamed_struct_2)

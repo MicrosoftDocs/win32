@@ -32,7 +32,7 @@ The retrieval is non-destructive. Multiple instances of the error collection may
 
 ### C++
 
-See [**get\_Errors**](/windows/desktop/api/Mergemod/) Function.
+See [**get\_Errors**](https://msdn.microsoft.com/en-us/library/Aa369272(v=VS.85).aspx) Function.
 
 ## Requirements
 

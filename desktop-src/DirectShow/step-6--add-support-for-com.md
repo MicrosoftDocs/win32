@@ -17,11 +17,11 @@ The final step is to add support for COM.
 
 ## Reference Counting
 
-You do not have to implement [**IUnknown::AddRef**](https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63) or [**IUnknown::Release**](https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a). All of the filter and pin classes derive from [**CUnknown**](cunknown.md), which handles reference counting.
+You do not have to implement [**IUnknown::AddRef**](https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx) or [**IUnknown::Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx). All of the filter and pin classes derive from [**CUnknown**](cunknown.md), which handles reference counting.
 
 ## QueryInterface
 
-All of the filter and pin classes implement [**IUnknown::QueryInterface**](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) for any COM interfaces they inherit. For example, [**CTransformFilter**](ctransformfilter.md) inherits [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) (through [**CBaseFilter**](cbasefilter.md)). If your filter does not expose any additional interfaces, you do not have to do anything else.
+All of the filter and pin classes implement [**IUnknown::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) for any COM interfaces they inherit. For example, [**CTransformFilter**](ctransformfilter.md) inherits [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) (through [**CBaseFilter**](cbasefilter.md)). If your filter does not expose any additional interfaces, you do not have to do anything else.
 
 To expose additional interfaces, override the [**CUnknown::NonDelegatingQueryInterface**](cunknown-nondelegatingqueryinterface.md) method. For example, suppose your filter implements a custom interface named IMyCustomInterface. To expose this interface to clients, do the following:
 
@@ -54,7 +54,7 @@ For more information, see [How to Implement IUnknown](how-to-implement-iunknown.
 
 ## Object Creation
 
-If you plan to package your filter in a DLL and make it available to other clients, you must support [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) and other related COM functions. The base class library implements most of this; you just need to provide some information about your filter. This section gives a brief overview of what to do. For details, see [How to Create a DirectShow Filter DLL](how-to-create-a-dll.md).
+If you plan to package your filter in a DLL and make it available to other clients, you must support [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) and other related COM functions. The base class library implements most of this; you just need to provide some information about your filter. This section gives a brief overview of what to do. For details, see [How to Create a DirectShow Filter DLL](how-to-create-a-dll.md).
 
 First, write a static class method that returns a new instance of your filter. You can name this method anything you like, but the signature must match the one shown in the following example:
 
@@ -119,7 +119,7 @@ STDAPI DllUnregisterServer()
 
 ## Filter Registry Entries
 
-The previous examples show how to register a filter's CLSID for COM. For many filters, this is sufficient. The client is then expected to create the filter using [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) and add it to the filter graph by calling [**IFilterGraph::AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter). In some cases, however, you might want to provide additional information about the filter in the registry. This information does the following:
+The previous examples show how to register a filter's CLSID for COM. For many filters, this is sufficient. The client is then expected to create the filter using [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) and add it to the filter graph by calling [**IFilterGraph::AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter). In some cases, however, you might want to provide additional information about the filter in the registry. This information does the following:
 
 -   Enables clients to discover the filter using the [Filter Mapper](filter-mapper.md) or the [System Device Enumerator](system-device-enumerator.md).
 -   Enables the Filter Graph Manager to discover the filter during automatic graph building.

@@ -44,7 +44,7 @@ objApplication = IShellDispatch.Application
 
 ## Property value
 
-A variable of type [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) that receives the application object.
+A variable of type [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) that receives the application object.
 
 ## Remarks
 

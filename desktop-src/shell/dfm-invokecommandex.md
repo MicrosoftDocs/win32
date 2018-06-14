@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # DFM\_INVOKECOMMANDEX message
 
-Sent by the default context menu implementation to request [**LPFNDFMCALLBACK**](https://www.bing.com/search?q=**LPFNDFMCALLBACK**) to invoke an extended menu command.
+Sent by the default context menu implementation to request [**LPFNDFMCALLBACK**](https://msdn.microsoft.com/en-us/library/Bb776770(v=VS.85).aspx) to invoke an extended menu command.
 
 
 ```C++

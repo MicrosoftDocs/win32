@@ -86,7 +86,7 @@ To retrieve a pointer to the [**IBitsPeerCacheAdministration**](/windows/desktop
 
 
 
-BITS requires that the client's interface proxies use either the IDENTIFY or IMPERSONATE level of impersonation. If the application does not call [**CoInitializeSecurity**](https://msdn.microsoft.com/windows/desktop/e0933741-6b75-4ce1-aa63-6240e4a7130f), COM uses IDENTIFY by default. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set. If you provide a library that exercises the BITS interfaces, and an application that calls your library sets the impersonation level below IDENTIFY, then you will need to call [**CoSetProxyBlanket**](https://msdn.microsoft.com/windows/desktop/c2e5e681-8fa5-4b02-b59d-ba796eb0dccf) to set the correct impersonation level for each BITS interface that you call.
+BITS requires that the client's interface proxies use either the IDENTIFY or IMPERSONATE level of impersonation. If the application does not call [**CoInitializeSecurity**](https://msdn.microsoft.com/en-us/library/ms693736(v=VS.85).aspx), COM uses IDENTIFY by default. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set. If you provide a library that exercises the BITS interfaces, and an application that calls your library sets the impersonation level below IDENTIFY, then you will need to call [**CoSetProxyBlanket**](https://msdn.microsoft.com/en-us/library/ms692692(v=VS.85).aspx) to set the correct impersonation level for each BITS interface that you call.
 
 Before your application exits, release your copy of the [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) interface pointer, as shown in the following example.
 

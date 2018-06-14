@@ -15,7 +15,7 @@ The [MsiAssembly Table](msiassembly-table.md) and MsiAssemblyName Table specify 
 
 The MsiAssemblyName Table specifies the schema for the elements of a strong assembly cache name for a .NET Framework or Win32 assembly. The name is constructed by appending all elements with the same Component\_ key. See the following example.
 
-Windows Installer can install Win32 assemblies as [side-by-side assemblies](side-by-side-assemblies.md). For more information, see the [Side-by-Side Assembly API](https://msdn.microsoft.com/70c1cdc4-7e8c-4d13-b371-c085f6c6eafe).
+Windows Installer can install Win32 assemblies as [side-by-side assemblies](side-by-side-assemblies.md). For more information, see the [Side-by-Side Assembly API](https://msdn.microsoft.com/en-us/library/Aa376204(v=VS.85).aspx).
 
 The MsiAssemblyName Table has the following columns.
 

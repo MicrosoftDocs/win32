@@ -37,7 +37,7 @@ HRESULT D3DXSaveMeshToX(
 *pFilename* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCTSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Pointer to a string that specifies the filename. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the string data type resolves to LPCSTR. See Remarks.
 
@@ -55,7 +55,7 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) interface, representing the mesh to 
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the mesh. This parameter may be **NULL**.
 
@@ -82,7 +82,7 @@ Pointer to an array of effect instances, one per attribute group in the mesh. Th
 *NumMaterials* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of [**D3DXMATERIAL**](d3dxmaterial.md) structures in the *pMaterials* array.
 
@@ -91,7 +91,7 @@ Number of [**D3DXMATERIAL**](d3dxmaterial.md) structures in the *pMaterials* arr
 *Format* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 A combination of file format and save options when saving an .x file. See [D3DX X File Constants](dx9-graphics-reference-d3dx-x-file-constants.md).
 
@@ -99,7 +99,7 @@ A combination of file format and save options when saving an .x file. See [D3DX 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL.
 

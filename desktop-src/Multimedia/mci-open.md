@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 The MCI\_OPEN command initializes a device or file. All devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++
@@ -68,7 +68,7 @@ Returns zero if successful or an error otherwise.
 
 ## Remarks
 
-The MCI\_OPEN\_TYPE flag must be used whenever a device is specified in the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function. If you open a device by specifying a device-type constant, you must specify the MCI\_OPEN\_TYPE\_ID flag in addition to MCI\_OPEN\_TYPE. For a list of device-type constants, see [MCI Device Types](mci-device-types.md).
+The MCI\_OPEN\_TYPE flag must be used whenever a device is specified in the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function. If you open a device by specifying a device-type constant, you must specify the MCI\_OPEN\_TYPE\_ID flag in addition to MCI\_OPEN\_TYPE. For a list of device-type constants, see [MCI Device Types](mci-device-types.md).
 
 If the MCI\_OPEN\_SHAREABLE flag is not specified when a device or file is initially opened, all subsequent MCI\_OPEN commands to the device or file will fail. If the device or file is already open and this flag is not specified, the call will fail even if the first open command specified MCI\_OPEN\_SHAREABLE. Files opened for the MCISEQ.DRV and MCIWAVE.DRV devices are nonsharable.
 

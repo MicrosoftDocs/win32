@@ -34,7 +34,7 @@ HRESULT D3DXMatrixDecompose(
 *pOutScale* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
+Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to the output [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that contains scaling factors applied along the x, y, and z-axes.
 
@@ -43,7 +43,7 @@ Pointer to the output [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that contains scal
 *pOutRotation* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxquaternion.htm)\***
+Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that describes the rotation.
 
@@ -52,7 +52,7 @@ Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that describes the 
 *pOutTranslation* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
+Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to the D3DXVECTOR3 vector that describes the translation.
 
@@ -61,7 +61,7 @@ Pointer to the D3DXVECTOR3 vector that describes the translation.
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxmatrix.htm)\***
+Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/en-us/library/Bb172912(v=VS.85).aspx)\***
 
 Pointer to an input [**D3DXMATRIX**](d3d10-d3dxmatrix.md) matrix to decompose.
 
@@ -69,7 +69,7 @@ Pointer to an input [**D3DXMATRIX**](d3d10-d3dxmatrix.md) matrix to decompose.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is S\_OK. If the function fails, the return value can be the following: D3DERR\_INVALIDCALL.
 

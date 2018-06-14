@@ -37,7 +37,7 @@ The value set for **ActivateAtStorage** is also the default behavior when CLSCTX
 
 <dl> <dt>
 
-[**CLSCTX**](/windows/desktop/api/WTypes/ne-wtypesbase-tagclsctx)
+[**CLSCTX**](https://msdn.microsoft.com/en-us/library/ms693716(v=VS.85).aspx)
 </dt> <dt>
 
 [**CoGetInstanceFromFile**](/windows/desktop/api/Objbase/nf-objbase-cogetinstancefromfile)

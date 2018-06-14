@@ -63,7 +63,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**IDeviceIcon**](https://www.bing.com/search?q=**IDeviceIcon**)
+[**IDeviceIcon**](https://msdn.microsoft.com/en-us/library/Hh828909(v=VS.85).aspx)
 </dt> </dl>
 
  

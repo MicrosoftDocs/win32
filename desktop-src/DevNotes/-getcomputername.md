@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[This function is a wrapper over the **GetComputerName** function. This function may be altered or unavailable in the future. Applications should call **GetComputerName** directly.\]
 
-Gets the computer name. See [**GetComputerName**](https://msdn.microsoft.com/8ca3e611-e5fb-4909-adf6-98eb8552c9e1).
+Gets the computer name. See [**GetComputerName**](https://msdn.microsoft.com/en-us/library/ms724295(v=VS.85).aspx).
 
 ## Syntax
 
@@ -47,7 +47,7 @@ BOOL _GetComputerName(
 
 <dl> <dt>
 
-[**GetComputerName**](https://msdn.microsoft.com/8ca3e611-e5fb-4909-adf6-98eb8552c9e1)
+[**GetComputerName**](https://msdn.microsoft.com/en-us/library/ms724295(v=VS.85).aspx)
 </dt> </dl>
 
  

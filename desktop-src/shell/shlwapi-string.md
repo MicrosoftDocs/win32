@@ -215,7 +215,7 @@ Do not use this function or the <strong>StrCatN</strong> macro. See Remarks for 
 </tr>
 <tr class="odd">
 <td>[<strong>StrRetToBSTR</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strrettobstr)<br/></td>
-<td>Accepts a [<strong>STRRET</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_strret) structure returned by [<strong>IShellFolder::GetDisplayNameOf</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) that contains or points to a string, and returns that string as a [<strong>BSTR</strong>](https://msdn.microsoft.com/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228).<br/></td>
+<td>Accepts a [<strong>STRRET</strong>](/windows/desktop/api/Shtypes/ns-shtypes-_strret) structure returned by [<strong>IShellFolder::GetDisplayNameOf</strong>](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) that contains or points to a string, and returns that string as a [<strong>BSTR</strong>](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>StrRetToBuf</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-strrettobufa)<br/></td>
@@ -263,7 +263,7 @@ Do not use this function or the <strong>StrCatN</strong> macro. See Remarks for 
 </tr>
 <tr class="odd">
 <td>[<strong>wnsprintf</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-wnsprintfa)<br/></td>
-<td>Takes a variable-length argument list and returns the values of the arguments as a [<strong>printf</strong>](https://msdn.microsoft.com/windows/desktop/77a854ae-5b48-4865-89f4-f2dc5cf80f52)-style formatted string. <br/>
+<td>Takes a variable-length argument list and returns the values of the arguments as a [<strong>printf</strong>](https://msdn.microsoft.com/en-us/library/wc7014hz(v=VS.71).aspx)-style formatted string. <br/>
 <blockquote>
 [!Note]<br />
 Do not use this function. See Remarks for alternative functions.
@@ -272,7 +272,7 @@ Do not use this function. See Remarks for alternative functions.
 </tr>
 <tr class="even">
 <td>[<strong>wvnsprintf</strong>](/windows/desktop/api/Shlwapi/nf-shlwapi-wvnsprintfa)<br/></td>
-<td>Takes a list of arguments and returns the values of the arguments as a [<strong>printf</strong>](https://msdn.microsoft.com/windows/desktop/77a854ae-5b48-4865-89f4-f2dc5cf80f52)-style formatted string. <br/>
+<td>Takes a list of arguments and returns the values of the arguments as a [<strong>printf</strong>](https://msdn.microsoft.com/en-us/library/wc7014hz(v=VS.71).aspx)-style formatted string. <br/>
 <blockquote>
 [!Note]<br />
 Do not use this function. See Remarks for alternative functions.

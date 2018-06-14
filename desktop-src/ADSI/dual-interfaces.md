@@ -26,7 +26,7 @@ All methods on a COM interface must:
 
 To retain compatibility with Automation controllers, all parameters and return types should be within the subset defined by the Automation VARIANT data type. For more information, see **VARIANT** and **VARIANTARG** in the Platform Software Development Kit (SDK).
 
-A provider Active Directory object can expose interfaces that use data types other than those in the **VARIANT** subset. However, Automation controllers such as Visual Basic are not able to call those interfaces. Most ADSI provider interfaces are derived from [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) and can be used as **IDispatch** interface pointers. However, the [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject), [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch), and [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension) ADSI interfaces are not derived from **IDispatch**.
+A provider Active Directory object can expose interfaces that use data types other than those in the **VARIANT** subset. However, Automation controllers such as Visual Basic are not able to call those interfaces. Most ADSI provider interfaces are derived from [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) and can be used as **IDispatch** interface pointers. However, the [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject), [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch), and [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension) ADSI interfaces are not derived from **IDispatch**.
 
  
 

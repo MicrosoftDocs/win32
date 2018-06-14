@@ -19,7 +19,7 @@ For [WPP](about-event-tracing.md) providers, see [Writing WPP Events](windows-so
 
 For [manifest-based](about-event-tracing.md) providers, see [Writing Manifest-based Events](writing-manifest-based-events.md).
 
-For [TraceLogging](about-event-tracing.md) providers, see [Using TraceLogging](https://msdn.microsoft.com/CEC57517-7A0E-45AA-85F7-F358AE51EF4A).
+For [TraceLogging](about-event-tracing.md) providers, see [Using TraceLogging](https://msdn.microsoft.com/en-us/library/Dn904630(v=VS.85).aspx).
 
  
 

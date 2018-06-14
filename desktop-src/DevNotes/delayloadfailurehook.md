@@ -62,7 +62,7 @@ The address of the callback function.
 
 <dl> <dt>
 
-[Failure Hooks](https://msdn.microsoft.com/windows/desktop/12bb303b-ffe6-4471-bffe-9ef4f8bb2d30)
+[Failure Hooks](https://msdn.microsoft.com/en-us/library/sfcfb0a3(v=VS.71).aspx)
 </dt> </dl>
 
  

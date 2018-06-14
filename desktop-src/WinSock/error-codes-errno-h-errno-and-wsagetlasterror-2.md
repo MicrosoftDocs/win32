@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Error Codes - errno, h\_errno and WSAGetLastError
 
-In Winsock applications, error codes are retrieved using the [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) function, the Windows Sockets substitute for the Windows [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4) function. The error codes returned by Windows Sockets are similar to UNIX socket error code constants, but the constants are all prefixed with WSA. So in Winsock applications the WSAEWOULDBLOCK error code would be returned, while in UNIX applications the EWOULDBLOCK error code would be returned.
+In Winsock applications, error codes are retrieved using the [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) function, the Windows Sockets substitute for the Windows [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) function. The error codes returned by Windows Sockets are similar to UNIX socket error code constants, but the constants are all prefixed with WSA. So in Winsock applications the WSAEWOULDBLOCK error code would be returned, while in UNIX applications the EWOULDBLOCK error code would be returned.
 
 Error codes set by Windows Sockets are not made available through the *errno* variable. Additionally, for the **getXbyY** class of functions, error codes are not made available through the *h\_errno* variable. The [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) function is intended to provide a reliable way for a thread in a multithreaded process to obtain per-thread error information.
 

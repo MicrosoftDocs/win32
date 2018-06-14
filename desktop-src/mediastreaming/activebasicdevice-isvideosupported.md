@@ -63,7 +63,7 @@ A pointer to a **boolean** that indicates if the device supports video.
 
 <dl> <dt>
 
-[**ActiveBasicDevice**](https://www.bing.com/search?q=**ActiveBasicDevice**)
+[**ActiveBasicDevice**](https://msdn.microsoft.com/en-us/library/Dn385755(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -11,14 +11,14 @@ ms.date: 05/31/2018
 
 # Example C Program: Exporting a Session Key
 
-The following example creates a random session key and creates an exportable [*key BLOB*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33). The example illustrates the use of [**CryptGetUserKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey), [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey), and related functions.
+The following example creates a random session key and creates an exportable [*key BLOB*](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx). The example illustrates the use of [**CryptGetUserKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey), [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey), and related functions.
 
 This example illustrates the following tasks and CryptoAPI functions:
 
 -   Acquiring a CSP context using [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta).
 -   Gaining access to two different pairs of public/private keys using [**CryptGetUserKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey).
 -   Generating an exportable session key using [**CryptGenKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey).
--   Creating a [*simple key BLOB*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) containing a session key using [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey).
+-   Creating a [*simple key BLOB*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) containing a session key using [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey).
 -   Destroying a session key and access to the two pairs of public/private keys using [**CryptDestroyKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroykey).
 -   Releasing the CSP context using [**CryptReleaseContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptreleasecontext).
 

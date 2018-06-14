@@ -127,11 +127,11 @@ The default behavior of the [PenInputPanel](https://www.bing.com/search?q=PenInp
 
 ### Text Services Framework Correction User Interface
 
-In this sample all of the input fields are [InkEdit](https://www.bing.com/search?q=InkEdit) controls. This is significant because the InkEdit control has built-in support for the [Text Services Framework](https://msdn.microsoft.com/ecc34b2e-89e8-48a8-8a8e-442d2145fe24) (TSF) and is thus capable of supporting the in-place correction user interface for input received from the [PenInputPanel](https://www.bing.com/search?q=PenInputPanel) object.
+In this sample all of the input fields are [InkEdit](https://www.bing.com/search?q=InkEdit) controls. This is significant because the InkEdit control has built-in support for the [Text Services Framework](https://msdn.microsoft.com/en-us/library/ms629032(v=VS.85).aspx) (TSF) and is thus capable of supporting the in-place correction user interface for input received from the [PenInputPanel](https://www.bing.com/search?q=PenInputPanel) object.
 
 The default value for [EnableTsf](https://www.bing.com/search?q=EnableTsf) is **TRUE**. This causes the [PenInputPanel](https://www.bing.com/search?q=PenInputPanel) object to attempt to start the Text Services Framework (TSF) on the attached control. If successful, the correction user interface shows in the control, and it allows access to recognition alternates. Calling this method with a **FALSE** parameter attempts to shut down TSF on the attached control.
 
-The [InkEdit](https://www.bing.com/search?q=InkEdit) control already provides a correction user interface, but in the sample [EnableTsf](https://www.bing.com/search?q=EnableTsf) is used to enable the [PenInputPanel](https://www.bing.com/search?q=PenInputPanel) to use the TSF insertion recognizer context rather than the [**SendInput**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\sendinput.htm) function to send the handwriting recognition results into the control. The result is that text can be inserted even if the field no longer has focus.
+The [InkEdit](https://www.bing.com/search?q=InkEdit) control already provides a correction user interface, but in the sample [EnableTsf](https://www.bing.com/search?q=EnableTsf) is used to enable the [PenInputPanel](https://www.bing.com/search?q=PenInputPanel) to use the TSF insertion recognizer context rather than the [**SendInput**](https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx) function to send the handwriting recognition results into the control. The result is that text can be inserted even if the field no longer has focus.
 
 
 ```C++

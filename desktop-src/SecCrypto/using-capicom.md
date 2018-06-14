@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 This section includes scenarios that use CAPICOM procedures.
 
 > [!Note]  
-> Creating [*digital signatures*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2) and un-enveloping messages with CAPICOM is done using Public Key Infrastructure (PKI) cryptography and can only be done if the signer or user decrypting an enveloped message has access to a certificate with an available, associated private key. To decrypt an enveloped message, a certificate with access to the private key must be in the MY store.
+> Creating [*digital signatures*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx) and un-enveloping messages with CAPICOM is done using Public Key Infrastructure (PKI) cryptography and can only be done if the signer or user decrypting an enveloped message has access to a certificate with an available, associated private key. To decrypt an enveloped message, a certificate with access to the private key must be in the MY store.
 
  
 

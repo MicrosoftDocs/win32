@@ -33,7 +33,7 @@ Note that the **\_\_try** block and the exception-handler block require braces (
 
 The **\_\_try** block contains the guarded body of code that the exception handler protects. A function can have any number of exception handlers, and these exception-handling statements can be nested within the same function or in different functions. If an exception occurs within the **\_\_try** block, the system takes control and begins the search for an exception handler. For a detailed description of this search, see [Exception Handling](exception-handling.md).
 
-The exception handler receives only exceptions that occur within a single thread. This means that if a **\_\_try** block contains a call to the [**CreateProcess**](https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc) or [**CreateThread**](https://msdn.microsoft.com/202a4b42-513a-45de-894a-72e56c706a58) function, exceptions that occur within the new process or thread are not dispatched to this handler.
+The exception handler receives only exceptions that occur within a single thread. This means that if a **\_\_try** block contains a call to the [**CreateProcess**](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx) or [**CreateThread**](https://msdn.microsoft.com/en-us/library/ms682453(v=VS.85).aspx) function, exceptions that occur within the new process or thread are not dispatched to this handler.
 
 The system evaluates the filter expression of each exception handler guarding the code in which the exception occurred until either the exception is handled or there are no more handlers. A filter expression must be evaluated as one of the three following values.
 

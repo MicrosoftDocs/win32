@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Service Object Error Handling
 
-When an error occurs in a service object, the return value for the call [**IDispatch::Invoke**](https://msdn.microsoft.com/windows/desktop/964ade8e-9d8a-4d32-bd47-aa678912a54d) should be DISP\_E\_EXCEPTION, and the *pExceptInfo* parameter pointer to an [**EXCEPTINFO**](https://msdn.microsoft.com/windows/desktop/29583e58-10a6-4679-a5c6-d51f2b50b074) structure in the should be filled in.
+When an error occurs in a service object, the return value for the call [**IDispatch::Invoke**](https://msdn.microsoft.com/en-us/library/ms221479(v=VS.71).aspx) should be DISP\_E\_EXCEPTION, and the *pExceptInfo* parameter pointer to an [**EXCEPTINFO**](https://msdn.microsoft.com/en-us/library/ms221133(v=VS.71).aspx) structure in the should be filled in.
 
-Specifically, the **bstrSource**, and **bstrDescription** members of the [**EXCEPTINFO**](https://msdn.microsoft.com/windows/desktop/29583e58-10a6-4679-a5c6-d51f2b50b074) structure are used by the Device Host with UPnP technology to create a UPnP Fault response; **bstrSource** is the error code and **bstrDescription** is the error description.
+Specifically, the **bstrSource**, and **bstrDescription** members of the [**EXCEPTINFO**](https://msdn.microsoft.com/en-us/library/ms221133(v=VS.71).aspx) structure are used by the Device Host with UPnP technology to create a UPnP Fault response; **bstrSource** is the error code and **bstrDescription** is the error description.
 
  
 

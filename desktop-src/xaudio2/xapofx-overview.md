@@ -34,7 +34,7 @@ XAPOFX provides the [**CreateFX**](/windows/desktop/api/XAPOFX/nf-xapofx-createf
 
 ## Using XAPOFX in XAudio2
 
-Effects instantiated with [**CreateFX**](/windows/desktop/api/XAPOFX/nf-xapofx-createfx) are used in XAudio2 by attaching them to voices. Each XAudio2 voice has an effect chain containing zero or more audio effects. Audio data sent to a voice is passed through each effect in the chain before it is sent to the voice's output targets. The voice takes the output of each effect, and feeds it into the next effect in the chain until no effects are left in the chain. To attach an XAPOFX effect to an XAudio2 voice, fill out an [**XAUDIO2\_EFFECT\_CHAIN**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_effect_chain) structure with the effect's information, and pass it to [**IXAudio2Voice::SetEffectChain**](https://www.bing.com/search?q=**IXAudio2Voice::SetEffectChain**).
+Effects instantiated with [**CreateFX**](/windows/desktop/api/XAPOFX/nf-xapofx-createfx) are used in XAudio2 by attaching them to voices. Each XAudio2 voice has an effect chain containing zero or more audio effects. Audio data sent to a voice is passed through each effect in the chain before it is sent to the voice's output targets. The voice takes the output of each effect, and feeds it into the next effect in the chain until no effects are left in the chain. To attach an XAPOFX effect to an XAudio2 voice, fill out an [**XAUDIO2\_EFFECT\_CHAIN**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_effect_chain) structure with the effect's information, and pass it to [**IXAudio2Voice::SetEffectChain**](https://msdn.microsoft.com/en-us/library/Ee418594(v=VS.85).aspx).
 
 For more information about XAudio2 effect chains, see [XAudio2 Audio Effects](xaudio2-audio-effects.md).
 

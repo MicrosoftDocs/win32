@@ -59,7 +59,7 @@ The return value is **TRUE** if the function is successful. Otherwise, it is **N
 
 ## Remarks
 
-It is recommended that applications use the **IDirectDrawGammaControl::SetGammaRamp** or [**IDirect3DDevice9::SetGammaRamp**](https://msdn.microsoft.com/VS|directx_sdk|~\idirect3ddevice9__setgammaramp.htm) methods instead because these methods offer the same functionality independent of the operating system.
+It is recommended that applications use the **IDirectDrawGammaControl::SetGammaRamp** or [**IDirect3DDevice9::SetGammaRamp**](https://msdn.microsoft.com/en-us/library/Bb174434(v=VS.85).aspx) methods instead because these methods offer the same functionality independent of the operating system.
 
 ## Requirements
 

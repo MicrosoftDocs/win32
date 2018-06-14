@@ -47,7 +47,7 @@ The return value is ignored.
 
 ## Remarks
 
-The button ID specified by *wParam* is sent to the [**TaskDialogCallbackProc**](/windows/desktop/api/Commctrl/nc-commctrl-pftaskdialogcallback) callback function as part of a [TDN\_BUTTON\_CLICKED](tdn-button-clicked.md) notification code. After the callback function returns, the task dialog is closed if S\_OK was returned from the callback function. If S\_FALSE was returned from the callback function, the task dialog remains active.
+The button ID specified by *wParam* is sent to the [**TaskDialogCallbackProc**](https://msdn.microsoft.com/en-us/library/Bb760542(v=VS.85).aspx) callback function as part of a [TDN\_BUTTON\_CLICKED](tdn-button-clicked.md) notification code. After the callback function returns, the task dialog is closed if S\_OK was returned from the callback function. If S\_FALSE was returned from the callback function, the task dialog remains active.
 
 ## Requirements
 

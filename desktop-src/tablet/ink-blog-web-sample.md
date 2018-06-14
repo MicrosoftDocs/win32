@@ -185,7 +185,7 @@ Another important public member of the `InkArea` control class is the `DisposeRe
 
 ## InkBlogWeb Project
 
-The InkBlogWeb project is a Web Setup deployment project that references the `InkArea` control to provide the blogging functionality. For more information about Web Setup deployment projects, see [Deployment of a Web Setup Project](https://msdn.microsoft.com/windows/desktop/729e67d7-e91b-49e0-b1c1-186642ab6507).
+The InkBlogWeb project is a Web Setup deployment project that references the `InkArea` control to provide the blogging functionality. For more information about Web Setup deployment projects, see [Deployment of a Web Setup Project](https://msdn.microsoft.com/en-us/library/k8kzx145(v=VS.71).aspx).
 
 There are two .aspx files that implement the blogging sample: Default.aspx and AddBlog.aspx. Default.aspx is the default page for the InkBlogWeb application. The code behind file for this page is Default.aspx.cs. This page provides a link to the page containing the new blog entry form and displays any existing blog entries. This process is described later, after the following examination of the new blog entry form page, AddBlog.aspx.
 

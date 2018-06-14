@@ -59,7 +59,7 @@ For more information on which operating systems are required for a particular fu
 [Windows GDI](https://msdn.microsoft.com/library/windows/desktop/dd145203)
 </dt> <dt>
 
-[Windows Image Acquisition](https://msdn.microsoft.com/windows/desktop/8f32422e-25ec-48bc-9d79-57dbb3b53e93)
+[Windows Image Acquisition](https://www.bing.com/search?q=Windows+Image+Acquisition)
 </dt> <dt>
 
 [Windows Multimedia](https://msdn.microsoft.com/library/windows/desktop/dd743883)

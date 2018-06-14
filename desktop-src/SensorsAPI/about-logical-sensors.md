@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 After a logical sensor is installed on the user's computer, you can use it in the same way as a hardware-based sensor. The Sensor API will provide an [**ISensor**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor) interface to represent the logical sensor, and your program can request data through the same mechanisms as you would use for any other type of sensor. Logical sensors can also use the platform-defined sensor categories, types, data types, properties, and events. Or you can define custom values.
 
-The [**ILogicalSensorManager**](/windows/desktop/api/sensorsapi/) interface enables developers who create logical sensors to manage connections to the Sensor and Location platform.
+The [**ILogicalSensorManager**](https://msdn.microsoft.com/en-us/library/Dd318934(v=VS.85).aspx) interface enables developers who create logical sensors to manage connections to the Sensor and Location platform.
 
 > [!Note]  
 > As with other drivers, installing or uninstalling a logical sensor driver requires administrator privileges.
@@ -26,7 +26,7 @@ To try using a sample logical sensor, see [About the Samples and Tools](about-th
 
 ## Managing Logical Sensors
 
-[**ILogicalSensorManager**](/windows/desktop/api/sensorsapi/) has the following methods:
+[**ILogicalSensorManager**](https://msdn.microsoft.com/en-us/library/Dd318934(v=VS.85).aspx) has the following methods:
 
 -   [**Connect**](https://www.bing.com/search?q=**Connect**)
 -   [**Disconnect**](https://www.bing.com/search?q=**Disconnect**)

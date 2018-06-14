@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_OSRecoveryConfiguration class
 
-The **Win32\_OSRecoveryConfiguration** [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents the types of information that will be gathered from memory when the operating system fails. This includes boot failures and system crashes.
+The **Win32\_OSRecoveryConfiguration** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) represents the types of information that will be gathered from memory when the operating system fails. This includes boot failures and system crashes.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -66,7 +66,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|AutoReboot")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|AutoReboot")
 </dt> </dl>
 
 System will automatically reboot during a recovery operation.
@@ -82,7 +82,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Short textual description of the current object.
@@ -100,7 +100,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|DumpFile")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|DumpFile")
 </dt> </dl>
 
 Full path to the debug file. A debug file is created with the memory state of the computer after a computer failure.
@@ -206,7 +206,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|KernelDumpOnly")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|KernelDumpOnly")
 </dt> </dl>
 
 Only kernel debug information will be written to the debug log file. If **TRUE**, then only the state of the kernel is written to a file in the event of a system failure. If **FALSE**, the system will try to log the state of the memory, and any devices that can provide information about the system when it failed.
@@ -222,7 +222,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|MiniDumpDir")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|MiniDumpDir")
 </dt> </dl>
 
 Directory where small memory dump files will be recorded and accumulated.
@@ -240,7 +240,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI")
+Qualifiers: [**key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI")
 </dt> </dl>
 
 Identifying name for this instance of the **Win32\_OSRecoveryConfiguration** class.
@@ -256,7 +256,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|Overwrite")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|Overwrite")
 </dt> </dl>
 
 New debug file will overwrite an existing one.
@@ -272,7 +272,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|SendAlert")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|SendAlert")
 </dt> </dl>
 
 Alert message will be sent to the system administrator in the event of an operating system failure.
@@ -288,7 +288,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Identifier by which the current object is known.
@@ -306,7 +306,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|CrashDumpEnabled")
+Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|CrashDumpEnabled")
 </dt> </dl>
 
 Debugging information is to be written to a log file.
@@ -322,7 +322,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|LogEvent")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32Registry\|SYSTEM\\\\CurrentControlSet\\\\Control\\\\CrashControl\|LogEvent")
 </dt> </dl>
 
 Events will be written to a system log.
@@ -354,7 +354,7 @@ The **Win32\_OSRecoveryConfiguration** class is derived from [**CIM\_Setting**](
 [**CIM\_Setting**](cim-setting.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/windows/desktop/D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
+[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

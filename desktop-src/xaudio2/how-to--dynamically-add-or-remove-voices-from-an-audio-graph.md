@@ -19,7 +19,7 @@ Adding and removing voices from an audio graph is very similar to adding or remo
 
 -   To add a voice or subgraph to an audio graph
 
-    Set the output of a voice in the graph, the parent voice, to the voice to be added using the [**SetOutputVoices**](https://www.bing.com/search?q=**SetOutputVoices**) function. Set the output of the new voice to the original child of the parent voice.
+    Set the output of a voice in the graph, the parent voice, to the voice to be added using the [**SetOutputVoices**](https://msdn.microsoft.com/en-us/library/Ee418599(v=VS.85).aspx) function. Set the output of the new voice to the original child of the parent voice.
 
     ```
     XAUDIO2_SEND_DESCRIPTOR send = {0, pNewVoice};

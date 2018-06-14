@@ -51,7 +51,7 @@ retVal = IShellDispatch2.GetSystemInformation(
 *sName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228)**
+Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
 
 A **String** that specifies the system information that is being requested.
 
@@ -73,7 +73,7 @@ Returns the value of the requested system information. The return type depends o
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.GetSystemInformation**](https://msdn.microsoft.com/94C10DD6-FE49-4dd4-AEED-69B73A75EDEF) method.
+This method is implemented and accessed through the [**Shell.GetSystemInformation**](https://msdn.microsoft.com/en-us/library/Gg537740(v=VS.85).aspx) method.
 
 This method can be used to request many system information values. The following table gives the *sName* value that is used to request the information and the associated type of the returned value.
 
@@ -113,7 +113,7 @@ ProcessorArchitecture
 
 **Integer**
 
-The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/971293b8-0af0-4bdf-a7d7-6b1bb80a469c) structure.
+The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/en-us/library/ms724958(v=VS.85).aspx) structure.
 
 PhysicalMemoryInstalled
 

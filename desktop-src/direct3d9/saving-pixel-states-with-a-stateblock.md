@@ -32,8 +32,8 @@ The following table includes all render states that set-up pixel state:
 |--------------------------------------------|--------------------|
 | D3DRS\_ZENABLE                             | D3DZB\_FALSE       |
 | D3DRS\_SPECULARENABLE                      | **FALSE**          |
-| [**D3DFILLMODE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dfillmode.htm)   | D3DFILL\_SOLID     |
-| [**D3DSHADEMODE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dshademode.htm) | D3DSHADE\_GOURAUD  |
+| [**D3DFILLMODE**](https://msdn.microsoft.com/en-us/library/Bb172556(v=VS.85).aspx)   | D3DFILL\_SOLID     |
+| [**D3DSHADEMODE**](https://msdn.microsoft.com/en-us/library/Bb172605(v=VS.85).aspx) | D3DSHADE\_GOURAUD  |
 | D3DRS\_ZWRITEENABLE                        | **TRUE**           |
 | D3DRS\_ALPHATESTENABLE                     | **FALSE**          |
 | D3DRS\_LASTPIXEL                           | **TRUE**           |
@@ -79,7 +79,7 @@ The following table includes all render states that set-up pixel state:
 | D3DRS\_DIFFUSEMATERIALSOURCE               | D3DMCS\_COLOR1     |
 | D3DRS\_SPECULARMATERIALSOURCE              | D3DMCS\_COLOR2     |
 | D3DRS\_COLORWRITEENABLE                    | 0x0000000f         |
-| [**D3DBLENDOP**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dblendop.htm)     | D3DBLENDOP\_ADD    |
+| [**D3DBLENDOP**](https://msdn.microsoft.com/en-us/library/Bb172509(v=VS.85).aspx)     | D3DBLENDOP\_ADD    |
 | D3DRS\_SCISSORTESTENABLE                   | **FALSE**          |
 | D3DRS\_SLOPESCALEDEPTHBIAS                 | 0                  |
 | D3DRS\_ANTIALIASEDLINEENABLE               | **FALSE**          |

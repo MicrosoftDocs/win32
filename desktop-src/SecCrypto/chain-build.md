@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Chain Class**](https://www.bing.com/search?q=**X509Chain+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
-The **Build** method builds a certificate verification chain from an end certificate to the trusted [*root certificate*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd) and returns a Boolean value that indicates the overall validity of the chain.
+The **Build** method builds a certificate verification chain from an end certificate to the trusted [*root certificate*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx) and returns a Boolean value that indicates the overall validity of the chain.
 
 ## Syntax
 
@@ -43,9 +43,9 @@ A Boolean value that indicates the overall validity of the chain. Overall validi
 
 ## Remarks
 
-The chain is built using the [**CertificateStatus.CheckFlag**](certificatestatus-checkflag.md) property as well as application and certificate policies specified by a [**CertificateStatus**](certificatestatus.md) object. The returned collection is ordered; the first certificate in the collection, **Certificates.Item**(1), is the end certificate of the chain. The last certificate in the collection, **Certificates.Item**(**Certificates.Count**), is the [*root certificate*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd) of the chain. **Certificates.Item**(0) represents the entire chain.
+The chain is built using the [**CertificateStatus.CheckFlag**](certificatestatus-checkflag.md) property as well as application and certificate policies specified by a [**CertificateStatus**](certificatestatus.md) object. The returned collection is ordered; the first certificate in the collection, **Certificates.Item**(1), is the end certificate of the chain. The last certificate in the collection, **Certificates.Item**(**Certificates.Count**), is the [*root certificate*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx) of the chain. **Certificates.Item**(0) represents the entire chain.
 
-Each time the **Chain.Build** method is called, the [*state*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) of the [**Chain**](chain.md) object is reset.
+Each time the **Chain.Build** method is called, the [*state*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) of the [**Chain**](chain.md) object is reset.
 
 ## Requirements
 

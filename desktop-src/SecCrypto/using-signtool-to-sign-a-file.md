@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using SignTool to Sign a File
 
-The following command signs the file named MyControl.exe using a [*certificate*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) stored in a Personal Information Exchange (PFX) file:
+The following command signs the file named MyControl.exe using a [*certificate*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) stored in a Personal Information Exchange (PFX) file:
 
 **SignTool sign /f***MyCert***.pfx MyControl.exe**
 
@@ -41,15 +41,15 @@ The following command signs an ActiveX control and provides information that is 
 
 **SignTool sign /f MyCert.pfx /d "***My Product Name***" /du "http://www.***example***.com/***my\_product***/info.html" MyControl.exe**
 
-The following command signs the file using a certificate whose [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) information is protected by a hardware cryptography module. For example purposes, assume that the certificate called "My High-Value Certificate," has a private key installed in a hardware cryptography module, and the certificate is properly installed.
+The following command signs the file using a certificate whose [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) information is protected by a hardware cryptography module. For example purposes, assume that the certificate called "My High-Value Certificate," has a private key installed in a hardware cryptography module, and the certificate is properly installed.
 
 **SignTool sign /n "My High-Value Certificate" MyControl.exe**
 
-The following command signs the file using a certificate whose [*private key*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) information is protected by a hardware cryptography module. A computer store is specified for the [*certification authority*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CA) store.
+The following command signs the file using a certificate whose [*private key*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) information is protected by a hardware cryptography module. A computer store is specified for the [*certification authority*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CA) store.
 
 **SignTool sign /n "***My High Value Certificate***" /sm /s CA MyControl.exe**
 
-The following command signs the file using a certificate stored in a file. The private key information is protected by a hardware cryptography module, and the [*cryptographic service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP)and [*key container*](https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33) are specified by name. This command is useful if the certificate is not properly installed.
+The following command signs the file using a certificate stored in a file. The private key information is protected by a hardware cryptography module, and the [*cryptographic service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP)and [*key container*](https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx) are specified by name. This command is useful if the certificate is not properly installed.
 
 **SignTool sign /f***HighValue***.cer /csp "***Hardware Cryptography Module***" /k***HighValueContainer***MyControl.exe**
 

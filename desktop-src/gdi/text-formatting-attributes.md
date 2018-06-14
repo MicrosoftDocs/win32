@@ -15,7 +15,7 @@ An application can use six functions to set the text-formatting attributes for a
 
 ## Text Alignment
 
-Applications can use the [SetTextAlign](/windows/desktop/api/Wingdi/nf-wingdi-settextalign) function to specify how the system should position the characters in a string of text when they call one of the drawing functions. This function can be used to position headings, page numbers, callouts, and so on. The system positions a string of text by aligning a reference point on an imaginary rectangle that surrounds the string, with the current cursor position or with a point passed as an argument to one of the text drawing functions. The [**SetTextAlign**](https://msdn.microsoft.com/422868c5-14c9-4374-9cc5-b7bf91ab9eb4) function lets the application specify the location of this reference point. The following is a list of the possible reference point locations.
+Applications can use the [SetTextAlign](/windows/desktop/api/Wingdi/nf-wingdi-settextalign) function to specify how the system should position the characters in a string of text when they call one of the drawing functions. This function can be used to position headings, page numbers, callouts, and so on. The system positions a string of text by aligning a reference point on an imaginary rectangle that surrounds the string, with the current cursor position or with a point passed as an argument to one of the text drawing functions. The [**SetTextAlign**](https://msdn.microsoft.com/en-us/library/Dd145091(v=VS.85).aspx) function lets the application specify the location of this reference point. The following is a list of the possible reference point locations.
 
 
 
@@ -43,7 +43,7 @@ The default text alignment for a device context is the upper-left corner of the 
 
 ## Intercharacter Spacing
 
-Applications can use the [SetTextCharacterExtra](/windows/desktop/api/Wingdi/nf-wingdi-settextcharacterextra) function to alter the intercharacter spacing for all text output operations in a specified device context. The following illustration shows a string of text drawn twice by calling the [TextOut](/windows/desktop/api/Wingdi/nf-wingdi-textouta) function. Before drawing the text the second time, the [**SetTextCharacterExtra**](https://msdn.microsoft.com/83b7d225-4fb9-4c75-bc4a-e1bea7f901f1) function was called to increment the intercharacter spacing.
+Applications can use the [SetTextCharacterExtra](/windows/desktop/api/Wingdi/nf-wingdi-settextcharacterextra) function to alter the intercharacter spacing for all text output operations in a specified device context. The following illustration shows a string of text drawn twice by calling the [TextOut](/windows/desktop/api/Wingdi/nf-wingdi-textouta) function. Before drawing the text the second time, the [**SetTextCharacterExtra**](https://msdn.microsoft.com/en-us/library/Dd145092(v=VS.85).aspx) function was called to increment the intercharacter spacing.
 
 ![illustration shoing the same text twice: first with normal intercharacter spacing, then with wider spacing](images/csftx-06.png)
 
@@ -51,7 +51,7 @@ The default intercharacter spacing value for any device context is zero. An appl
 
 ## Text Justification
 
-Applications can use the [GetTextExtentPoint32](/windows/desktop/api/Wingdi/nf-wingdi-gettextextentpoint32a) and [SetTextJustification](/windows/desktop/api/Wingdi/nf-wingdi-settextjustification) functions to justify a line of text. Text justification is a common operation in any desktop publishing and in most word processing applications. The [**GetTextExtentPoint32**](https://msdn.microsoft.com/530280ee-dfd8-4905-9b72-6c19efcff133) function computes the width and height of a string of text. After the width is computed, the application can call the [**SetTextJustification**](https://msdn.microsoft.com/55fb5a28-b7da-40d8-8e64-4b42c23fa8b1) function to distribute extra spacing between each of the words in a line of text. The following illustration shows a paragraph of text printed twice: in the first paragraph, the text was not justified; in the second paragraph, the text was justified by calling the **GetTextExtentPoint32** and **SetTextJustification** functions.
+Applications can use the [GetTextExtentPoint32](/windows/desktop/api/Wingdi/nf-wingdi-gettextextentpoint32a) and [SetTextJustification](/windows/desktop/api/Wingdi/nf-wingdi-settextjustification) functions to justify a line of text. Text justification is a common operation in any desktop publishing and in most word processing applications. The [**GetTextExtentPoint32**](https://msdn.microsoft.com/en-us/library/Dd144938(v=VS.85).aspx) function computes the width and height of a string of text. After the width is computed, the application can call the [**SetTextJustification**](https://msdn.microsoft.com/en-us/library/Dd145094(v=VS.85).aspx) function to distribute extra spacing between each of the words in a line of text. The following illustration shows a paragraph of text printed twice: in the first paragraph, the text was not justified; in the second paragraph, the text was justified by calling the **GetTextExtentPoint32** and **SetTextJustification** functions.
 
 ![illustration showing a paragraph that aligns only on the left, then the same paragraph aligned on the left and right](images/csftx-05.png)
 

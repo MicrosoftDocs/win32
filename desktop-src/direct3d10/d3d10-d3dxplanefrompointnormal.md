@@ -33,7 +33,7 @@ D3DXPLANE* D3DXPlaneFromPointNormal(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXPLANE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplane.htm)\***
+Type: **[**D3DXPLANE**](https://msdn.microsoft.com/en-us/library/Bb205385(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXPLANE**](d3d10-d3dxplane.md) that is the result of the operation.
 
@@ -42,7 +42,7 @@ Pointer to the [**D3DXPLANE**](d3d10-d3dxplane.md) that is the result of the ope
 *pPoint* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), defining the point used to construct the plane.
 
@@ -51,7 +51,7 @@ Pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md), defining the point used to
 *pNormal* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
+Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
 
 Pointer to a D3DXVECTOR3 structure, defining the normal used to construct the plane.
 
@@ -59,7 +59,7 @@ Pointer to a D3DXVECTOR3 structure, defining the normal used to construct the pl
 
 ## Return value
 
-Type: **[**D3DXPLANE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplane.htm)\***
+Type: **[**D3DXPLANE**](https://msdn.microsoft.com/en-us/library/Bb205385(v=VS.85).aspx)\***
 
 Pointer to the D3DXPLANE structure constructed from the point and the normal.
 

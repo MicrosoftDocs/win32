@@ -29,7 +29,7 @@ This section contains Properties for the InkPicture Control.
 <tbody>
 <tr class="odd">
 <td>[<strong>AutoRedraw Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_autoredraw)</td>
-<td>Gets or sets a value that specifies whether the [InkPicture](inkpicture-control-reference.md) control repaints when the window is invalidated (whether the [<strong>InkDisp</strong>](/windows/desktop/api/msinkaut/) object currently associated with InkPicture control is automatically redrawn when the window associated with the InkPicture receives a WM_PAINT message).<br/></td>
+<td>Gets or sets a value that specifies whether the [InkPicture](inkpicture-control-reference.md) control repaints when the window is invalidated (whether the [<strong>InkDisp</strong>](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object currently associated with InkPicture control is automatically redrawn when the window associated with the InkPicture receives a WM_PAINT message).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>BackColor</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_backcolor)</td>
@@ -48,12 +48,12 @@ This section contains Properties for the InkPicture Control.
 <td>Gets the [<strong>IInkCursors</strong>](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors) collection available for use in the [InkPicture](inkpicture-control-reference.md) control's inking region.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CustomStrokes</strong>](/windows/desktop/api/msinkaut/)</td>
+<td>[<strong>CustomStrokes</strong>](https://msdn.microsoft.com/en-us/library/ms703274(v=VS.85).aspx)</td>
 <td>Gets the [<strong>IInkCustomStrokes</strong>](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes) collection to be persisted with the ink (design-time only).<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>DefaultDrawingAttributes Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes)</td>
-<td>Gets or sets the default [<strong>InkDrawingAttributes</strong>](/windows/desktop/api/msinkaut/) collection to use when drawing and displaying ink (run time only).<br/></td>
+<td>Gets or sets the default [<strong>InkDrawingAttributes</strong>](https://msdn.microsoft.com/en-us/library/ms695050(v=VS.85).aspx) collection to use when drawing and displaying ink (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>DesiredPacketDescription Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription)</td>
@@ -90,7 +90,7 @@ This property is equivalent to the [<strong>InkEnabled</strong>](/windows/deskto
 </tr>
 <tr class="odd">
 <td>[<strong>Ink</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink)</td>
-<td>Gets or sets the [<strong>InkDisp</strong>](/windows/desktop/api/msinkaut/) object that is associated with the [InkPicture](inkpicture-control-reference.md) control (run time only).<br/></td>
+<td>Gets or sets the [<strong>InkDisp</strong>](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object that is associated with the [InkPicture](inkpicture-control-reference.md) control (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>InkEnabled</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled)</td>
@@ -118,11 +118,11 @@ This property is equivalent to the [<strong>InkEnabled</strong>](/windows/deskto
 </tr>
 <tr class="even">
 <td>[<strong>Renderer Property</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_renderer)</td>
-<td>Gets or sets the [<strong>InkRenderer</strong>](/windows/desktop/api/msinkaut/) object that is used to draw ink on the [InkPicture](inkpicture-control-reference.md) control (run time only).<br/></td>
+<td>Gets or sets the [<strong>InkRenderer</strong>](https://msdn.microsoft.com/en-us/library/ms699463(v=VS.85).aspx) object that is used to draw ink on the [InkPicture](inkpicture-control-reference.md) control (run time only).<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>Selection</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection)</td>
-<td>Gets the [InkStrokes](/windows/desktop/api/msinkaut/) collection currently selected inside the [InkPicture](inkpicture-control-reference.md) control (run time only).<br/></td>
+<td>Gets the [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection currently selected inside the [InkPicture](inkpicture-control-reference.md) control (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>SizeMode</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode)</td>

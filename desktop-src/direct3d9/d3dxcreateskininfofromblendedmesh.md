@@ -43,7 +43,7 @@ Pointer to an [**ID3DXBaseMesh**](id3dxbasemesh.md) object, the mesh from which 
 *NumBones* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The length of the array attached to the BoneId. See [**D3DXBONECOMBINATION**](d3dxbonecombination.md).
 
@@ -69,7 +69,7 @@ Address of a pointer to an [**ID3DXSkinInfo**](id3dxskininfo.md) interface repre
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be the following: E\_OUTOFMEMORY.
 

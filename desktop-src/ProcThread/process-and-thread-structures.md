@@ -17,7 +17,7 @@ This topic lists structures that are used with processes, threads, processors, j
 
 The following structures are used with processes and threads:
 
--   [**APP\_MEMORY\_INFORMATION**](https://www.bing.com/search?q=**APP\_MEMORY\_INFORMATION**)
+-   [**APP\_MEMORY\_INFORMATION**](https://msdn.microsoft.com/en-us/library/Mt767995(v=VS.85).aspx)
 -   [**AR\_STATE**](/windows/desktop/api/WinUser/ne-winuser-tagar_state)
 -   [**CACHE\_DESCRIPTOR**](/windows/desktop/api/WinNT/ns-winnt-_cache_descriptor)
 -   [**IO\_COUNTERS**](/windows/desktop/api/WinNT/ns-winnt-_io_counters)
@@ -25,7 +25,7 @@ The following structures are used with processes and threads:
 -   [**PEB**](/windows/desktop/api/Winternl/ns-winternl-_peb)
 -   [**PEB\_LDR\_DATA**](/windows/desktop/api/Winternl/ns-winternl-_peb_ldr_data)
 -   [**PROCESS\_INFORMATION**](/windows/desktop/api/WinBase/ns-processthreadsapi-_process_information)
--   [**PROCESS\_MEMORY\_EXHAUSTION\_INFO**](https://www.bing.com/search?q=**PROCESS\_MEMORY\_EXHAUSTION\_INFO**)
+-   [**PROCESS\_MEMORY\_EXHAUSTION\_INFO**](https://msdn.microsoft.com/en-us/library/Mt767997(v=VS.85).aspx)
 -   [**PROCESS\_MITIGATION\_ASLR\_POLICY**](/windows/desktop/api/WinNT/ns-winnt-_process_mitigation_aslr_policy)
 -   [**PROCESS\_MITIGATION\_BINARY\_SIGNATURE\_POLICY**](/windows/desktop/api/WinNT/ns-winnt-_process_mitigation_binary_signature_policy)
 -   [**PROCESS\_MITIGATION\_CONTROL\_FLOW\_GUARD\_POLICY**](/windows/desktop/api/WinNT/ns-winnt-_process_mitigation_control_flow_guard_policy)

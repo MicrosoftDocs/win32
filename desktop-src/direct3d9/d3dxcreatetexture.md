@@ -47,7 +47,7 @@ Pointer to an [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idi
 *Width* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Width in pixels. If this value is 0, a value of 1 is used. See Remarks.
 
@@ -56,7 +56,7 @@ Width in pixels. If this value is 0, a value of 1 is used. See Remarks.
 *Height* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Height in pixels. If this value is 0, a value of 1 is used. See Remarks.
 
@@ -65,7 +65,7 @@ Height in pixels. If this value is 0, a value of 1 is used. See Remarks.
 *MipLevels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a complete mipmap chain is created.
 
@@ -74,7 +74,7 @@ Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a comple
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 0, [**D3DUSAGE\_RENDERTARGET**](d3dusage.md), or **D3DUSAGE\_DYNAMIC**. Setting this flag to **D3DUSAGE\_RENDERTARGET** indicates that the surface is to be used as a render target by calling the [**SetRenderTarget**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget) method. If either **D3DUSAGE\_RENDERTARGET** or **D3DUSAGE\_DYNAMIC** is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat). For more information about using dynamic textures, see [Using Dynamic Textures](performance-optimizations.md).
 
@@ -92,9 +92,9 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the requeste
 *Pool* \[in\]
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm)**
+Type: **[**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx)**
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm) enumerated type, describing the memory class into which the texture should be placed.
+Member of the [**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) enumerated type, describing the memory class into which the texture should be placed.
 
 </dd> <dt>
 
@@ -109,7 +109,7 @@ Address of a pointer to an [**IDirect3DTexture9**](/windows/desktop/api/d3d9help
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DERR\_NOTAVAILABLE, D3DERR\_OUTOFVIDEOMEMORY, E\_OUTOFMEMORY.
 

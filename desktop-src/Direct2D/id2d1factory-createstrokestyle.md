@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # ID2D1Factory::CreateStrokeStyle methods
 
-Creates an [**ID2D1StrokeStyle**](/windows/desktop/api/d2d1/) that describes start cap, dash pattern, and other features of a stroke.
+Creates an [**ID2D1StrokeStyle**](https://msdn.microsoft.com/en-us/library/Dd372217(v=VS.85).aspx) that describes start cap, dash pattern, and other features of a stroke.
 
 ### Overload list
 
@@ -27,8 +27,8 @@ Creates an [**ID2D1StrokeStyle**](/windows/desktop/api/d2d1/) that describes sta
 
 | Method                                                                                                                                                                                                  | Description                                                                                                                                |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateStrokeStyle(D2D1\_STROKE\_STYLE\_PROPERTIES&, FLOAT\*, UINT, ID2D1StrokeStyle\*\*)**](/windows/desktop/api/d2d1/)  | Creates an [**ID2D1StrokeStyle**](/windows/desktop/api/d2d1/) that describes start cap, dash pattern, and other features of a stroke.<br/> |
-| [**CreateStrokeStyle(D2D1\_STROKE\_STYLE\_PROPERTIES\*, FLOAT\*, UINT, ID2D1StrokeStyle\*\*)**](/windows/desktop/api/d2d1/) | Creates an [**ID2D1StrokeStyle**](/windows/desktop/api/d2d1/) that describes start cap, dash pattern, and other features of a stroke.<br/> |
+| [**CreateStrokeStyle(D2D1\_STROKE\_STYLE\_PROPERTIES&, FLOAT\*, UINT, ID2D1StrokeStyle\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371301(v=VS.85).aspx)  | Creates an [**ID2D1StrokeStyle**](https://msdn.microsoft.com/en-us/library/Dd372217(v=VS.85).aspx) that describes start cap, dash pattern, and other features of a stroke.<br/> |
+| [**CreateStrokeStyle(D2D1\_STROKE\_STYLE\_PROPERTIES\*, FLOAT\*, UINT, ID2D1StrokeStyle\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371298(v=VS.85).aspx) | Creates an [**ID2D1StrokeStyle**](https://msdn.microsoft.com/en-us/library/Dd372217(v=VS.85).aspx) that describes start cap, dash pattern, and other features of a stroke.<br/> |
 
 
 
@@ -92,7 +92,7 @@ m_pRenderTarget->DrawLine(
 
 <dl> <dt>
 
-[**ID2D1Factory**](/windows/desktop/api/d2d1/)
+[**ID2D1Factory**](https://msdn.microsoft.com/en-us/library/Dd371246(v=VS.85).aspx)
 </dt> </dl>
 
  

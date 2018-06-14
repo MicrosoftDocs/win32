@@ -32,10 +32,10 @@ The following procedure describes how to create a new work item task.
 
 **To create a new work item task**
 
-1.  Call [**CoInitialize**](https://msdn.microsoft.com/windows/desktop/0f171cf4-87b9-43a6-97f2-80ed344fe376) to initialize the COM library and [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) to get a Task Scheduler object. (This example assumes that the Task Scheduler service is running.)
+1.  Call [**CoInitialize**](https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx) to initialize the COM library and [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) to get a Task Scheduler object. (This example assumes that the Task Scheduler service is running.)
 2.  Call [**ITaskScheduler::NewWorkItem**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-newworkitem) to create a new task. (This method returns a pointer to an [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) interface.)
-3.  Save the new task to disk by calling [**IPersistFile::Save**](https://msdn.microsoft.com/windows/desktop/da9581e8-98c7-4592-8ee1-a1bc8232635b). (The [**IPersistFile**](https://msdn.microsoft.com/windows/desktop/7d34507f-8a16-43b4-8225-010798abc546) interface is a standard COM interface supported by the **ITask** interface.)
-4.  Call **ITask::Release** to release all resources. (Note that [**Release**](https://msdn.microsoft.com/windows/desktop/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) is an [**IUnknown**](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) method inherited by [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask).)
+3.  Save the new task to disk by calling [**IPersistFile::Save**](https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx). (The [**IPersistFile**](https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx) interface is a standard COM interface supported by the **ITask** interface.)
+4.  Call **ITask::Release** to release all resources. (Note that [**Release**](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) is an [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) method inherited by [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask).)
 
 
 

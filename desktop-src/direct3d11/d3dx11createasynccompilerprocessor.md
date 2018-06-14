@@ -145,7 +145,7 @@ Address of a pointer to a buffer that contains the data processor created (see [
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11-graphics-reference-returnvalues.md).
 
@@ -153,9 +153,9 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 
 There s no implementation of the  async loader  outside of D3DX 10, and D3DX 11.
 
-For Windows Store apps, the DirectX samples (for example, the [Direct3D tutorial sample](http://go.microsoft.com/fwlink/p/?linkid=255263)) include the **BasicLoader** module that uses the Windows Runtime asynchronous programming model ([**AsyncBase**](https://msdn.microsoft.com/windows/desktop/64259b9b-f427-4ffd-a611-e7a2f82362b2)).
+For Windows Store apps, the DirectX samples (for example, the [Direct3D tutorial sample](http://go.microsoft.com/fwlink/p/?linkid=255263)) include the **BasicLoader** module that uses the Windows Runtime asynchronous programming model ([**AsyncBase**](https://msdn.microsoft.com/en-us/library/BR244878(v=VS.110).aspx)).
 
-For Win32 desktop apps, you can use the [Concurrency Runtime](https://msdn.microsoft.com/windows/desktop/56237d96-10b0-494a-9cb4-f5c5090436c5) to implement something similar to the Windows Runtime asynchronous programming model.
+For Win32 desktop apps, you can use the [Concurrency Runtime](https://msdn.microsoft.com/en-us/library/Ee207192(v=VS.100).aspx) to implement something similar to the Windows Runtime asynchronous programming model.
 
 ## Requirements
 

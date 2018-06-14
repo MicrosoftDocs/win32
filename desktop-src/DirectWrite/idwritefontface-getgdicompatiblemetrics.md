@@ -100,7 +100,7 @@ Standard HRESULT error code.
 
 <dl> <dt>
 
-[**IDWriteFontFace**](/windows/desktop/api/dwrite/)
+[**IDWriteFontFace**](https://msdn.microsoft.com/en-us/library/Dd370983(v=VS.85).aspx)
 </dt> <dt>
 
 [**IDWriteFontFace**](https://msdn.microsoft.com/library/windows/desktop/dd370983)

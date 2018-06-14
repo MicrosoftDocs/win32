@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Using Timer Queues
 
-The following example creates a timer routine that will be executed by a thread from a [timer queue](timer-queues.md) after a 10 second delay. First, the code uses the [**CreateEvent**](/windows/desktop/api/WinBase/nf-synchapi-createeventa) function to create an event object that is signaled when the timer-queue thread completes. Then it creates a timer queue and a timer-queue timer, using the [**CreateTimerQueue**](/windows/desktop/api/WinBase/) and [**CreateTimerQueueTimer**](/windows/desktop/api/WinBase/) functions, respectively. The code uses the [**WaitForSingleObject**](/windows/desktop/api/WinBase/nf-synchapi-waitforsingleobject) function to determine when the timer routine has completed. Finally, the code calls [**DeleteTimerQueue**](/windows/desktop/api/WinBase/nf-winbase-deletetimerqueue) to clean up.
+The following example creates a timer routine that will be executed by a thread from a [timer queue](timer-queues.md) after a 10 second delay. First, the code uses the [**CreateEvent**](/windows/desktop/api/WinBase/nf-synchapi-createeventa) function to create an event object that is signaled when the timer-queue thread completes. Then it creates a timer queue and a timer-queue timer, using the [**CreateTimerQueue**](https://msdn.microsoft.com/en-us/library/ms682483(v=VS.85).aspx) and [**CreateTimerQueueTimer**](https://msdn.microsoft.com/en-us/library/ms682485(v=VS.85).aspx) functions, respectively. The code uses the [**WaitForSingleObject**](/windows/desktop/api/WinBase/nf-synchapi-waitforsingleobject) function to determine when the timer routine has completed. Finally, the code calls [**DeleteTimerQueue**](/windows/desktop/api/WinBase/nf-winbase-deletetimerqueue) to clean up.
 
-For more information on the timer routine, see [**WaitOrTimerCallback**](/windows/desktop/api/WinBase/).
+For more information on the timer routine, see [**WaitOrTimerCallback**](https://msdn.microsoft.com/en-us/library/ms687066(v=VS.85).aspx).
 
 
 ```C++

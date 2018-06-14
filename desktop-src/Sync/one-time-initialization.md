@@ -41,7 +41,7 @@ The following steps describe synchronous one-time initialization that does not u
 
 The following steps describe synchronous one-time initialization that uses a callback function.
 
-1.  The first thread to successfully call the [**InitOnceExecuteOnce**](/windows/desktop/api/WinBase/nf-synchapi-initonceexecuteonce) function passes a pointer to an application-defined [*InitOnceCallback*](https://www.bing.com/search?q=*InitOnceCallback*) callback function and any data required by the callback function. If the call succeeds, the *InitOnceCallback* callback function executes.
+1.  The first thread to successfully call the [**InitOnceExecuteOnce**](/windows/desktop/api/WinBase/nf-synchapi-initonceexecuteonce) function passes a pointer to an application-defined [*InitOnceCallback*](https://msdn.microsoft.com/en-us/library/ms683490(v=VS.85).aspx) callback function and any data required by the callback function. If the call succeeds, the *InitOnceCallback* callback function executes.
 2.  Subsequent threads that attempt initialization are blocked until the first thread either completes initialization or fails. If the first thread fails, the next thread is allowed to attempt the initialization, and so on.
 3.  When initialization is finished, the callback function returns. The callback function can optionally create a synchronization object (or other context data) and specify it in its *Context* output parameter.
 4.  If the initialization succeeds, the state of the one-time initialization structure is changed to initialized and the *Context* handle (if any) is stored in the initialization structure. Subsequent initialization attempts return this context data. If the initialization fails, the data is **NULL**.

@@ -43,9 +43,9 @@ Returns the value the controller specified in the *EnableLevel* parameter when c
 
 To determine if the function failed or the controller set the enable flags to 0, follow these steps:
 
--   Call the [**SetLastError**](https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63) function to set the last error to **ERROR\_SUCCESS**.
+-   Call the [**SetLastError**](https://msdn.microsoft.com/en-us/library/ms680627(v=VS.85).aspx) function to set the last error to **ERROR\_SUCCESS**.
 -   Call the **GetTraceEnableLevel** function to retrieve the enable level.
--   If the enable level value is 0, call the [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4) function to retrieve the last known error.
+-   If the enable level value is 0, call the [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) function to retrieve the last known error.
 -   If the last known error is **ERROR\_SUCCESS**, the controller set the enable level to 0; otherwise, the **GetTraceEnableLevel** function failed with the last known error.
 
 ## Remarks

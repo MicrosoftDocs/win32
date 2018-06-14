@@ -56,7 +56,7 @@ This method can return one of these values.
 
 ## Remarks
 
-Each process receives the [**Suspending**](https://msdn.microsoft.com/Windows.ApplicationModel.Core.CoreApplication.Suspending) event. It can be useful for developers to step through how their apps respond to this event.
+Each process receives the [**Suspending**](https://msdn.microsoft.com/en-us/library/BR205860(v=Win.10).aspx) event. It can be useful for developers to step through how their apps respond to this event.
 
 ## Requirements
 
@@ -74,7 +74,7 @@ Each process receives the [**Suspending**](https://msdn.microsoft.com/Windows.Ap
 
 <dl> <dt>
 
-[**IPackageDebugSettings**](/windows/desktop/api/shobjidl_core/)
+[**IPackageDebugSettings**](https://msdn.microsoft.com/en-us/library/Hh438393(v=VS.85).aspx)
 </dt> </dl>
 
  

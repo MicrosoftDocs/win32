@@ -99,7 +99,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="odd">
 <td><strong>/csp</strong> <em>CSPName</em></td>
-<td>Specifies the [<em>cryptographic service provider</em>](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSP) that contains the [<em>private key</em>](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) container.<br/></td>
+<td>Specifies the [<em>cryptographic service provider</em>](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSP) that contains the [<em>private key</em>](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) container.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>/d</strong> <em>Desc</em></td>
@@ -143,7 +143,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="even">
 <td><strong>/fd</strong></td>
-<td>Specifies the file digest algorithm to use to create file signatures. The default algorithm is [<em>Secure Hash Algorithm</em>](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SHA-1).<br/> <strong>Windows Vista and earlier:</strong> This flag is not supported.<br/></td>
+<td>Specifies the file digest algorithm to use to create file signatures. The default algorithm is [<em>Secure Hash Algorithm</em>](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) (SHA-1).<br/> <strong>Windows Vista and earlier:</strong> This flag is not supported.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/j</strong> <em>DLL</em></td>
@@ -167,7 +167,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="even">
 <td><strong>/p</strong> <em>Password</em></td>
-<td>Specifies the password to use when opening a PFX file. A PFX file can be specified by using the <strong>/f</strong> option. For information about protecting passwords, see [Handling Passwords](https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf).<br/></td>
+<td>Specifies the password to use when opening a PFX file. A PFX file can be specified by using the <strong>/f</strong> option. For information about protecting passwords, see [Handling Passwords](https://msdn.microsoft.com/en-us/library/ms717799(v=VS.85).aspx).<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/p7</strong> <em>Path</em></td>
@@ -179,7 +179,7 @@ The following options apply to the **sign** command.
 </tr>
 <tr class="odd">
 <td><strong>/p7co</strong> <em>OID</em></td>
-<td>Specifies the [<em>object identifier</em>](https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521) (OID) that identifies the signed PKCS #7 content.<br/></td>
+<td>Specifies the [<em>object identifier</em>](https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx) (OID) that identifies the signed PKCS #7 content.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>/ph</strong></td>
@@ -236,7 +236,7 @@ The <strong>/td</strong> switch must be declared after the <strong>/tr</strong> 
 </tr>
 <tr class="even">
 <td><strong>/u</strong> <em>Usage</em></td>
-<td>Specifies the [<em>enhanced key usage</em>](https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091) (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is &quot;Code Signing&quot; (1.3.6.1.5.5.7.3.3).<br/></td>
+<td>Specifies the [<em>enhanced key usage</em>](https://msdn.microsoft.com/en-us/library/ms721575(v=VS.85).aspx) (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is &quot;Code Signing&quot; (1.3.6.1.5.5.7.3.3).<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/uw</strong></td>

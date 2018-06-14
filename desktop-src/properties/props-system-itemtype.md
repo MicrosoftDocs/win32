@@ -110,7 +110,7 @@ Example values:
 [queryControl](https://www.bing.com/search?q=queryControl)
 </dt> <dt>
 
-[Programmatic Identifiers](https://msdn.microsoft.com/f2b666d6-bf22-47b5-87e1-8de5ff51c152)
+[Programmatic Identifiers](https://msdn.microsoft.com/en-us/library/Cc144152(v=VS.85).aspx)
 </dt> </dl>
 
  

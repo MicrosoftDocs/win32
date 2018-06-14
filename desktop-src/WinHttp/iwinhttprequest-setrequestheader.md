@@ -49,7 +49,7 @@ The return value is **S\_OK** on success or an error value otherwise.
 
 ## Remarks
 
-Headers are transferred across redirects. This can create a security vulnerability. To avoid having headers transferred if a redirect occurs, use the [*WINHTTP\_STATUS\_CALLBACK*](/windows/desktop/api/Winhttp/nc-winhttp-winhttp_status_callback) callback to correct the specific headers when a redirect occurs.
+Headers are transferred across redirects. This can create a security vulnerability. To avoid having headers transferred if a redirect occurs, use the [*WINHTTP\_STATUS\_CALLBACK*](https://msdn.microsoft.com/en-us/library/Aa383917(v=VS.85).aspx) callback to correct the specific headers when a redirect occurs.
 
 The **SetRequestHeader** method enables the calling application to add or delete an HTTP request header prior to sending the request. The header name is given in *Header*, and the header token or value is given in *Value*. To add a header, supply a header name and value. If another header already exists with this name, it is replaced. To delete a header, set *Header* to the name of the header to delete and set *Value* to **NULL**.
 

@@ -41,14 +41,14 @@ case WM_WINDOWPOSCHANGED:
 
 
 
-If the window is located on a new monitor, then you must create rendering parameters for the new monitor by using the [**IDWriteFactory::CreateMonitorRenderingParams**](/windows/desktop/api/dwrite/) method.
+If the window is located on a new monitor, then you must create rendering parameters for the new monitor by using the [**IDWriteFactory::CreateMonitorRenderingParams**](https://msdn.microsoft.com/en-us/library/Dd368199(v=VS.85).aspx) method.
 
 > [!Note]  
-> Do not use the [**IDWriteFactory::CreateRenderingParams**](/windows/desktop/api/dwrite/) method to create the rendering parameters, because it always creates parameters for the primary monitor.
+> Do not use the [**IDWriteFactory::CreateRenderingParams**](https://msdn.microsoft.com/en-us/library/Dd368201(v=VS.85).aspx) method to create the rendering parameters, because it always creates parameters for the primary monitor.
 
  
 
-When you have an [**IDWriteRenderingParams**](/windows/desktop/api/dwrite/) object, set the rendering parameters for the render target by using the [**ID2DRenderTarget::SetTextRenderingParams**](https://msdn.microsoft.com/library/windows/desktop/dd316898) method.
+When you have an [**IDWriteRenderingParams**](https://msdn.microsoft.com/en-us/library/Dd371285(v=VS.85).aspx) object, set the rendering parameters for the render target by using the [**ID2DRenderTarget::SetTextRenderingParams**](https://msdn.microsoft.com/library/windows/desktop/dd316898) method.
 
 Finally, use the [**InvalidateRect**](https://msdn.microsoft.com/library/windows/desktop/dd145002) function to cause the window to redraw with the new rendering parameters.
 

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # WM\_HOTKEY message
 
-Posted when the user presses a hot key registered by the [**RegisterHotKey**](/windows/desktop/api/Winuser/nf-winuser-registerhotkey) function. The message is placed at the top of the message queue associated with the thread that registered the hot key.
+Posted when the user presses a hot key registered by the [**RegisterHotKey**](https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx) function. The message is placed at the top of the message queue associated with the thread that registered the hot key.
 
 
 ```C++
@@ -95,7 +95,7 @@ The low-order word specifies the keys that were to be pressed in combination wit
 **Reference**
 </dt> <dt>
 
-[**RegisterHotKey**](/windows/desktop/api/Winuser/nf-winuser-registerhotkey)
+[**RegisterHotKey**](https://msdn.microsoft.com/en-us/library/ms646309(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_GETHOTKEY**](wm-gethotkey.md)

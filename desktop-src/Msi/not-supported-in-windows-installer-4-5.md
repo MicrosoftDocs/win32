@@ -91,9 +91,9 @@ The following features are not supported in Windows Installer 4.5 and earlier v
 
 Windows Installer 4.5 does not support some features that enable a single installation package to be installed in either the per-machine or per-user installation context. For more information, see [Single Package Authoring](single-package-authoring.md).
 
-Windows Installer 4.5 does not support some services configuration options that can enable a package to customize the [services](https://msdn.microsoft.com/711391da-05c6-4d89-88d6-c68c2e5c2f86) on a computer. For more information, see [Using Services Configuration](using-services-configuration.md).
+Windows Installer 4.5 does not support some services configuration options that can enable a package to customize the [services](https://msdn.microsoft.com/en-us/library/ms685141(v=VS.85).aspx) on a computer. For more information, see [Using Services Configuration](using-services-configuration.md).
 
-Windows Installer 4.5 does not support some features that enable the Windows Installer to secure new accounts, Windows [Services](https://msdn.microsoft.com/711391da-05c6-4d89-88d6-c68c2e5c2f86), files, folders, and registry keys. For information, see [Securing Resources](securing-resources-.md).
+Windows Installer 4.5 does not support some features that enable the Windows Installer to secure new accounts, Windows [Services](https://msdn.microsoft.com/en-us/library/ms685141(v=VS.85).aspx), files, folders, and registry keys. For information, see [Securing Resources](securing-resources-.md).
 
 Windows Installer 4.5 does not support some features that enable the installation to enumerate all components installed on the computer and obtain the key path for the component. For more information, see [Enumerating Components](enumerating-components-.md).
 

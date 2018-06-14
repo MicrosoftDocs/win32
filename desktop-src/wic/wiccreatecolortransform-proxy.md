@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WICCreateColorTransform\_Proxy function
 
-Creates an color transform object that implements [**IWICColorTransform**](https://msdn.microsoft.com/windows/desktop/6c8ae787-3175-4128-ae9f-e11cb0e4c317). This COM object supports the free-threaded object model.
+Creates an color transform object that implements [**IWICColorTransform**](https://msdn.microsoft.com/en-us/library/Ee690201(v=VS.85).aspx). This COM object supports the free-threaded object model.
 
 ## Syntax
 

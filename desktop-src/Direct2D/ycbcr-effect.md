@@ -29,7 +29,7 @@ The CLSID for this effect is CLSID\_D2D1YCbCr.
 | Display name and index enumeration                                          | Description                                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ChromaSubsampling<br/> D2D1\_YCBCR\_CHROMA\_SUBSAMPLING<br/>    | Specifies the chroma subsampling of the input chroma image. <br/> The type is D2D1\_YCBCR\_CHROMA\_SUBSAMPLING.<br/> The default value is D2D1\_YCBCR\_CHROMA\_SUBSAMPLING\_AUTO.<br/>                                                                                                |
-| TransformMatrix <br/> D2D1\_YCBCR\_PROP\_TRANSFORM\_MATRIX<br/> | A [3x2 Matrix](https://msdn.microsoft.com/windows/desktop/8f153d5e-ed61-4aa5-a7cd-286f0c427a13) specifying the axis-aligned affine transform of the image. Axis aligned transforms include Scale, Flips, and 90 degree rotations. <br/> The type is D2D1\_MATRIX\_3X2\_F.<br/> The default value is Matrix3x2F::Identity().<br/> |
+| TransformMatrix <br/> D2D1\_YCBCR\_PROP\_TRANSFORM\_MATRIX<br/> | A [3x2 Matrix](https://msdn.microsoft.com/en-us/library/ms750596(v=VS.85).aspx) specifying the axis-aligned affine transform of the image. Axis aligned transforms include Scale, Flips, and 90 degree rotations. <br/> The type is D2D1\_MATRIX\_3X2\_F.<br/> The default value is Matrix3x2F::Identity().<br/> |
 | InterpolationMode<br/> D2D1\_YCBCR\_INTERPOLATION\_MODE<br/>    | The interpolation mode.<br/> The type is D2D1\_YCBCR\_INTERPOLATION\_MODE.<br/>                                                                                                                                                                                                             |
 
 
@@ -94,7 +94,7 @@ The effect performs the transform operation and then applies a bounding box arou
 
 <dl> <dt>
 
-[**ID2D1Effect**](/windows/desktop/api/D2d1_1/)
+[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
 </dt> <dt>
 
 [JPEG YCbCr Support](https://msdn.microsoft.com/library/windows/desktop/dn424131)

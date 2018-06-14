@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SecBuffer and SecBufferDesc Example Code
 
-This example demonstrates how to initialize an array of security buffers. It shows input security buffers initialized by the server side of a connection to prepare for a call to [**AcceptSecurityContext (General)**](/windows/desktop/api/Sspi/). Note that the last buffer contains the opaque security token received by the client and that the SECBUFFER\_READONLY flag is set on [**SecBuffer**](/windows/desktop/api/Sspi/ns-sspi-_secbuffer).
+This example demonstrates how to initialize an array of security buffers. It shows input security buffers initialized by the server side of a connection to prepare for a call to [**AcceptSecurityContext (General)**](https://msdn.microsoft.com/en-us/library/Aa374703(v=VS.85).aspx). Note that the last buffer contains the opaque security token received by the client and that the SECBUFFER\_READONLY flag is set on [**SecBuffer**](/windows/desktop/api/Sspi/ns-sspi-_secbuffer).
 
 
 ```C++

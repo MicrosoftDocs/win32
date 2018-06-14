@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CPL\_INIT message
 
-Sent to the [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) function of a Control Panel application to prompt it to perform global initialization, especially memory allocation.
+Sent to the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function of a Control Panel application to prompt it to perform global initialization, especially memory allocation.
 
 
 ```C++
@@ -45,9 +45,9 @@ Sent to the [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) functio
 
 ## Return value
 
-If initialization succeeds, the [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) function should return nonzero. Otherwise, it should return zero.
+If initialization succeeds, the [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) function should return nonzero. Otherwise, it should return zero.
 
-If [**CPlApplet**](/windows/desktop/api/Cpl/nc-cpl-applet_proc) returns zero, the controlling application ends communication and releases the DLL containing the Control Panel application.
+If [**CPlApplet**](https://msdn.microsoft.com/en-us/library/Bb776392(v=VS.85).aspx) returns zero, the controlling application ends communication and releases the DLL containing the Control Panel application.
 
 ## Remarks
 
@@ -71,7 +71,7 @@ This message is sent immediately after the DLL containing the application is loa
 
 <dl> <dt>
 
-[**FreeLibrary**](https://msdn.microsoft.com/823d3147-4ba8-4fe5-ade4-e5604f47eb0a)
+[**FreeLibrary**](https://msdn.microsoft.com/en-us/library/ms683152(v=VS.85).aspx)
 </dt> </dl>
 
  

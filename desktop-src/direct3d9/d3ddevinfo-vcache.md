@@ -34,7 +34,7 @@ typedef struct D3DDEVINFO_VCACHE {
 **Pattern**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -45,7 +45,7 @@ Bit pattern. Return value must be the FOURCC ('C', 'A', 'C', 'H').
 **OptMethod**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -56,7 +56,7 @@ Optimizations method. Use 0 to get the longest strips. Use 1 to optimize the ver
 **CacheSize**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -67,7 +67,7 @@ Cache size used as a target for optimization. This is required only if OptMethod
 **MagicNumber**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

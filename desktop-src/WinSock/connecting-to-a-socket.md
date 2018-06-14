@@ -42,7 +42,7 @@ if (ConnectSocket == INVALID_SOCKET) {
 
 
 
-The [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function is used to determine the values in the [**sockaddr**](sockaddr-2.md) structure. In this example, the first IP address returned by the **getaddrinfo** function is used to specify the **sockaddr** structure passed to the [**connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect). If the **connect** call fails to the first IP address, then try the next [**addrinfo**](/windows/desktop/api/Ws2tcpip/nc-ws2tcpip-lpfn_freeaddrinfo) structure in the linked list returned from the **getaddrinfo** function.
+The [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) function is used to determine the values in the [**sockaddr**](sockaddr-2.md) structure. In this example, the first IP address returned by the **getaddrinfo** function is used to specify the **sockaddr** structure passed to the [**connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect). If the **connect** call fails to the first IP address, then try the next [**addrinfo**](https://msdn.microsoft.com/en-us/library/ms737530(v=VS.85).aspx) structure in the linked list returned from the **getaddrinfo** function.
 
 The information specified in the [**sockaddr**](sockaddr-2.md) structure includes:
 

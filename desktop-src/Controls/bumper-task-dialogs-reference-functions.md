@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 ## In This Section
 
 -   [**TaskDialog**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialog)
--   [**TaskDialogCallbackProc**](/windows/desktop/api/Commctrl/nc-commctrl-pftaskdialogcallback)
+-   [**TaskDialogCallbackProc**](https://msdn.microsoft.com/en-us/library/Bb760542(v=VS.85).aspx)
 -   [**TaskDialogIndirect**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect)
 
  

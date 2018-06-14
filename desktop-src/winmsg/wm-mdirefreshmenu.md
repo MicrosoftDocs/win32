@@ -48,7 +48,7 @@ If the message fails, the return value is **NULL**.
 
 ## Remarks
 
-After sending this message, an application must call the [**DrawMenuBar**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\drawmenubar.htm) function to update the menu bar.
+After sending this message, an application must call the [**DrawMenuBar**](https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx) function to update the menu bar.
 
 ## Requirements
 
@@ -69,7 +69,7 @@ After sending this message, an application must call the [**DrawMenuBar**](https
 **Reference**
 </dt> <dt>
 
-[**DrawMenuBar**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\drawmenubar.htm)
+[**DrawMenuBar**](https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx)
 </dt> <dt>
 
 [**WM\_MDISETMENU**](wm-mdisetmenu.md)

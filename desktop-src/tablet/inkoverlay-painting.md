@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkOverlay.Painting event
 
-Occurs before the [**InkOverlay**](/windows/desktop/api/msinkaut/) object or [InkPicture](inkpicture-control-reference.md) has completed redrawing itself.
+Occurs before the [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object or [InkPicture](inkpicture-control-reference.md) has completed redrawing itself.
 
 ## Syntax
 
@@ -76,7 +76,7 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 <dl> <dt>
 
-[**InkOverlay Class**](/windows/desktop/api/msinkaut/)
+[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
 </dt> </dl>
 
  

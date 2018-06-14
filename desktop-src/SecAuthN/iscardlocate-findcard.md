@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardLocate::FindCard method
 
-\[The **FindCard** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **FindCard** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **FindCard** method searches for the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) and opens a valid connection to it.
+The **FindCard** method searches for the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) and opens a valid connection to it.
 
 ## Syntax
 
@@ -69,7 +69,7 @@ T0\|T1
 *lFlags* \[in\]
 </dt> <dd>
 
-Specifies when [*user interface*](https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb) is displayed:
+Specifies when [*user interface*](https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx) is displayed:
 
 
 
@@ -88,7 +88,7 @@ Specifies when [*user interface*](https://msdn.microsoft.com/264f6cb6-36c6-4cdb-
 *ppCardInfo* \[out\]
 </dt> <dd>
 
-Pointer to a pointer to a data structure that contains or returns information about the opened [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50), if successful. Will be **NULL** if operation has failed.
+Pointer to a pointer to a data structure that contains or returns information about the opened [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx), if successful. Will be **NULL** if operation has failed.
 
 </dd> </dl>
 

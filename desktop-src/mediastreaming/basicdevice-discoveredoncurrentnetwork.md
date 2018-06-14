@@ -44,7 +44,7 @@ A pointer to a boolean value that is **True** if the device is on the current ne
 
 <dl> <dt>
 
-[**BasicDevice**](https://www.bing.com/search?q=**BasicDevice**)
+[**BasicDevice**](https://msdn.microsoft.com/en-us/library/Hh828813(v=VS.85).aspx)
 </dt> </dl>
 
  

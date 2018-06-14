@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # How to Draw a Bitmap
 
-To render a bitmap, use the [**ID2D1RenderTarget::DrawBitmap**](id2d1rendertarget-drawbitmap.md) method. The following example shows how to use the **DrawBitmap** method to draw an [**ID2D1Bitmap**](/windows/desktop/api/d2d1/). It creates the output shown in the following illustration.
+To render a bitmap, use the [**ID2D1RenderTarget::DrawBitmap**](id2d1rendertarget-drawbitmap.md) method. The following example shows how to use the **DrawBitmap** method to draw an [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx). It creates the output shown in the following illustration.
 
 ![illustration of an original bitmap and resulting bitmaps with different opacity settings and transformations](images/drawbitmapexample.png)
 
-First, create an [**ID2D1Bitmap**](/windows/desktop/api/d2d1/). The following example loads a bitmap from the application's resource file and stores it as *m\_pBitmap*. (To see how the `LoadResourceBitmap` method is implemented, refer to [How to Load a Bitmap from a Resource](how-to-load-a-bitmap-from-a-resource.md).)
+First, create an [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx). The following example loads a bitmap from the application's resource file and stores it as *m\_pBitmap*. (To see how the `LoadResourceBitmap` method is implemented, refer to [How to Load a Bitmap from a Resource](how-to-load-a-bitmap-from-a-resource.md).)
 
 
 ```C++
@@ -33,9 +33,9 @@ hr = LoadResourceBitmap(
 
 
 
-Create the [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) in the same method where you created the render target that you will use to draw the bitmap, and release the bitmap when the render target is released.
+Create the [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) in the same method where you created the render target that you will use to draw the bitmap, and release the bitmap when the render target is released.
 
-Once the bitmap is created, render it. The following example uses the [**DrawBitmap**](/windows/desktop/api/d2d1/) method to render a bitmap several times using different size and opacity settings.
+Once the bitmap is created, render it. The following example uses the [**DrawBitmap**](https://msdn.microsoft.com/en-us/library/Dd371876(v=VS.85).aspx) method to render a bitmap several times using different size and opacity settings.
 
 
 ```C++
@@ -173,7 +173,7 @@ HRESULT DrawBitmapExample::OnRender()
 
 
 
-The [**DrawBitmap**](id2d1rendertarget-drawbitmap.md) method does not return an error code if it fails. To determine whether a drawing operation (such as **DrawBitmap**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](/windows/desktop/api/d2d1/) method, as shown in the following example.
+The [**DrawBitmap**](id2d1rendertarget-drawbitmap.md) method does not return an error code if it fails. To determine whether a drawing operation (such as **DrawBitmap**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) method, as shown in the following example.
 
 
 ```C++
@@ -191,7 +191,7 @@ Code has been omitted from this example.
 [**DrawBitmap**](id2d1rendertarget-drawbitmap.md)
 </dt> <dt>
 
-[**ID2D1Bitmap**](/windows/desktop/api/d2d1/)
+[**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx)
 </dt> <dt>
 
 [How to Load a Bitmap from a Resource](how-to-load-a-bitmap-from-a-resource.md)

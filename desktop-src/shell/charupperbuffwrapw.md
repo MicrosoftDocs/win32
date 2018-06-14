@@ -11,12 +11,12 @@ ms.date: 05/31/2018
 
 # CharUpperBuffWrapW function
 
-\[**CharUpperBuffWrapW** is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharUpperBuffW**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupperbuff.htm) in its place.\]
+\[**CharUpperBuffWrapW** is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharUpperBuffW**](https://msdn.microsoft.com/en-us/library/ms647475(v=VS.85).aspx) in its place.\]
 
 Converts lowercase characters in a buffer to uppercase characters. The function converts the characters in place.
 
 > [!Note]  
-> **CharUpperBuffWrapW** is a wrapper for the **CharUpperBuffW** function. See the [**CharUpperBuff**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupperbuff.htm) page for further usage notes.
+> **CharUpperBuffWrapW** is a wrapper for the **CharUpperBuffW** function. See the [**CharUpperBuff**](https://msdn.microsoft.com/en-us/library/ms647475(v=VS.85).aspx) page for further usage notes.
 
  
 
@@ -62,7 +62,7 @@ The number of characters processed.
 
 ## Remarks
 
-The preferred method is to use [**CharUpperBuffW**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupperbuff.htm) in conjunction with the Microsoft Layer for Unicode (MSLU).
+The preferred method is to use [**CharUpperBuffW**](https://msdn.microsoft.com/en-us/library/ms647475(v=VS.85).aspx) in conjunction with the Microsoft Layer for Unicode (MSLU).
 
 **CharUpperBuffWrapW** must be called directly from Shlwapi.dll, using ordinal 44.
 
@@ -82,7 +82,7 @@ The preferred method is to use [**CharUpperBuffW**](https://msdn.microsoft.com/V
 
 <dl> <dt>
 
-[**CharUpperBuff**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupperbuff.htm)
+[**CharUpperBuff**](https://msdn.microsoft.com/en-us/library/ms647475(v=VS.85).aspx)
 </dt> </dl>
 
  

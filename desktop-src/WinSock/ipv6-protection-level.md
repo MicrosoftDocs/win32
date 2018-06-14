@@ -103,7 +103,7 @@ On Windows Vista and Windows Server 2008, the default value for IPV6\_PROTECTI
 
 On Windows Server 2003 and Windows XP, the default value for IPV6\_PROTECTION\_LEVEL is **PROTECTION\_LEVEL\_EDGERESTRICTED**. Unless you have set the IPV6\_PROTECTION\_LEVEL socket option to **PROTECTION\_LEVEL\_UNRESTRICTED**, you would not receive any Teredo traffic.
 
-Depending on the IPV6\_PROTECTION\_LEVEL, an application that requires unsolicited traffic from the Internet may not be capable of receiving unsolicited traffic. However, these requirements are not necessary for receiving solicited traffic over the Windows Teredo interface. For more details on the interaction with Teredo, see [Receiving Solicited Traffic Over Teredo](https://msdn.microsoft.com/bff5d65e-050d-4b09-9982-8024612ffa6e).
+Depending on the IPV6\_PROTECTION\_LEVEL, an application that requires unsolicited traffic from the Internet may not be capable of receiving unsolicited traffic. However, these requirements are not necessary for receiving solicited traffic over the Windows Teredo interface. For more details on the interaction with Teredo, see [Receiving Solicited Traffic Over Teredo](https://msdn.microsoft.com/en-us/library/Aa965910(v=VS.85).aspx).
 
 When incoming packets or connections are refused due to the set protection level, rejection is handled as if no application was listening on that socket.
 
@@ -120,7 +120,7 @@ When incoming packets or connections are refused due to the set protection level
 [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt)
 </dt> <dt>
 
-[Receiving Solicited Traffic Over Teredo](https://msdn.microsoft.com/bff5d65e-050d-4b09-9982-8024612ffa6e)
+[Receiving Solicited Traffic Over Teredo](https://msdn.microsoft.com/en-us/library/Aa965910(v=VS.85).aspx)
 </dt> <dt>
 
 [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt)

@@ -60,7 +60,7 @@ A value that determines whether the certificate template's real name or display 
 *pbstrCertTemplateName* \[out\]
 </dt> <dd>
 
-A pointer to a string that returns the name of the certificate template which will be used in the [*certificate request*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
+A pointer to a string that returns the name of the certificate template which will be used in the [*certificate request*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
 
 </dd> </dl>
 
@@ -74,7 +74,7 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 
 ### VB
 
-A string that represents the name of the certificate template which will be used in the [*certificate request*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
+A string that represents the name of the certificate template which will be used in the [*certificate request*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
 
 ## Remarks
 

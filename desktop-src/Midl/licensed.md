@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # licensed attribute
 
-The **\[licensed\]** attribute indicates that the [**coclass**](coclass.md) to which it applies is licensed, and must be instantiated using [**IClassFactory2**](https://msdn.microsoft.com/windows/desktop/c49c7612-3b1f-4535-baf3-8458b3f34f95).
+The **\[licensed\]** attribute indicates that the [**coclass**](coclass.md) to which it applies is licensed, and must be instantiated using [**IClassFactory2**](https://msdn.microsoft.com/en-us/library/ms692720(v=VS.85).aspx).
 
 ``` syntax
 [
@@ -59,7 +59,7 @@ Specifies statements that make up the [**coclass**](coclass.md) definition.
 
 ## Remarks
 
-Licensing is a feature of COM that provides control over object creation. Licensed objects can be created only by clients that are authorized to use them. Licensing is implemented in COM through the [**IClassFactory2**](https://msdn.microsoft.com/windows/desktop/c49c7612-3b1f-4535-baf3-8458b3f34f95) interface and by support for a license key that can be passed at run time.
+Licensing is a feature of COM that provides control over object creation. Licensed objects can be created only by clients that are authorized to use them. Licensing is implemented in COM through the [**IClassFactory2**](https://msdn.microsoft.com/en-us/library/ms692720(v=VS.85).aspx) interface and by support for a license key that can be passed at run time.
 
 ### Flags
 
@@ -86,7 +86,7 @@ coclass MyClass
 [**coclass**](coclass.md)
 </dt> <dt>
 
-[Contents of a Type Library](https://msdn.microsoft.com/windows/desktop/76b062d4-1a08-47f5-b4d4-064237cb1372)
+[Contents of a Type Library](https://msdn.microsoft.com/en-us/library/ms221355(v=VS.71).aspx)
 </dt> <dt>
 
 [**control**](control.md)
@@ -104,10 +104,10 @@ coclass MyClass
 [**hidden**](hidden.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/windows/desktop/df7aa86f-1453-4409-939e-788d469d611e)
+[ODL File Syntax](https://msdn.microsoft.com/en-us/library/ms221683(v=VS.71).aspx)
 </dt> <dt>
 
-[TYPEFLAGS](https://msdn.microsoft.com/windows/desktop/bf34cc90-f772-4562-9d18-7cf35aeed41e)
+[TYPEFLAGS](https://msdn.microsoft.com/en-us/library/ms221509(v=VS.71).aspx)
 </dt> <dt>
 
 [**version**](version.md)

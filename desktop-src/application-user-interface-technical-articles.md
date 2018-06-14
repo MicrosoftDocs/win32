@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 This section contains the technical articles related to user interface development.
 
--   [Developing International Software](https://www.bing.com/search?q=Developing+International+Software)
--   [The Human Factor in User Interface Design](https://www.bing.com/search?q=The+Human+Factor+in+User+Interface+Design)
+-   [Developing International Software](https://msdn.microsoft.com/en-us/library/Hh529131(v=VS.85).aspx)
+-   [The Human Factor in User Interface Design](https://msdn.microsoft.com/en-us/library/Hh546984(v=VS.85).aspx)
 
  
 

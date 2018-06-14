@@ -25,8 +25,8 @@ Windows defines the following data types for MIDI output functions.
 | Value                              | Meaning                                                                              |
 |------------------------------------|--------------------------------------------------------------------------------------|
 | **HMIDIOUT**                       | Handle of a MIDI output device.                                                      |
-| [**MIDIHDR**](https://www.bing.com/search?q=**MIDIHDR**)         | Header for a block of MIDI system-exclusive or stream data.                          |
-| [**MIDIOUTCAPS**](https://www.bing.com/search?q=**MIDIOUTCAPS**) | Structure used to inquire about the capabilities of a particular MIDI output device. |
+| [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx)         | Header for a block of MIDI system-exclusive or stream data.                          |
+| [**MIDIOUTCAPS**](https://msdn.microsoft.com/en-us/library/Dd798467(v=VS.85).aspx) | Structure used to inquire about the capabilities of a particular MIDI output device. |
 
 
 

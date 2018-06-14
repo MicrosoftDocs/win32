@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Obtaining a File Name From a File Handle
 
-[**GetFinalPathNameByHandle**](https://msdn.microsoft.com/02783ba9-a8d7-482f-a8b1-7cac934cf476), introduced in Windows Vista and Windows Server 2008, will return a path from a handle. If you need to do this on earlier releases of Windows, the following example obtains a file name from a handle to a file object using a file mapping object. It uses the [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) and [**MapViewOfFile**](https://www.bing.com/search?q=**MapViewOfFile**) functions to create the mapping. Next, it uses the [**GetMappedFileName**](https://www.bing.com/search?q=**GetMappedFileName**) function to obtain the file name. For remote files, it prints the device path received from this function. For local files, it converts the path to use a drive letter and prints this path. To test this code, create a **main** function that opens a file using [**CreateFile**](https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b) and passes the resulting handle to `GetFileNameFromHandle`.
+[**GetFinalPathNameByHandle**](https://msdn.microsoft.com/en-us/library/Aa364962(v=VS.85).aspx), introduced in Windows Vista and Windows Server 2008, will return a path from a handle. If you need to do this on earlier releases of Windows, the following example obtains a file name from a handle to a file object using a file mapping object. It uses the [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) and [**MapViewOfFile**](https://msdn.microsoft.com/en-us/library/Aa366761(v=VS.85).aspx) functions to create the mapping. Next, it uses the [**GetMappedFileName**](https://www.bing.com/search?q=**GetMappedFileName**) function to obtain the file name. For remote files, it prints the device path received from this function. For local files, it converts the path to use a drive letter and prints this path. To test this code, create a **main** function that opens a file using [**CreateFile**](https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx) and passes the resulting handle to `GetFileNameFromHandle`.
 
 
 ```C++
@@ -147,7 +147,7 @@ int _tmain(int argc, TCHAR *argv[])
 [Using File Mapping](using-file-mapping.md)
 </dt> <dt>
 
-[**GetFinalPathNameByHandle**](https://msdn.microsoft.com/02783ba9-a8d7-482f-a8b1-7cac934cf476)
+[**GetFinalPathNameByHandle**](https://msdn.microsoft.com/en-us/library/Aa364962(v=VS.85).aspx)
 </dt> </dl>
 
  

@@ -20,7 +20,7 @@ All COM objects implement one or more interfaces. When you create a custom COM o
 -   [Files Generated for a COM Interface](files-generated-for-a-com-interface.md)
 -   [Marshaling OLE Data Types](marshaling-ole-data-types.md)
 
-For more information on defining COM interfaces with MIDL, see [Defining COM Interfaces](https://msdn.microsoft.com/windows/desktop/8a94bd7d-d101-411c-97de-9e9a46bf9591). For more information on building generated files for various platforms, see [Targeting Stubs for Specific 32-bit or 64-bit Platforms](targeting-stubs-for-specific-32-bit-or-64-bit-platforms.md).
+For more information on defining COM interfaces with MIDL, see [Defining COM Interfaces](https://msdn.microsoft.com/en-us/library/ms688488(v=VS.85).aspx). For more information on building generated files for various platforms, see [Targeting Stubs for Specific 32-bit or 64-bit Platforms](targeting-stubs-for-specific-32-bit-or-64-bit-platforms.md).
 
  
 

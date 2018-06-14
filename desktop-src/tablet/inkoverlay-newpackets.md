@@ -97,7 +97,7 @@ To set which properties are contained in this array, use the [**DesiredPacketDes
 
 <dl> <dt>
 
-[**InkOverlay Class**](/windows/desktop/api/msinkaut/)
+[**InkOverlay Class**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx)
 </dt> <dt>
 
 [**NewInAirPackets Event**](inkcollector-newinairpackets.md)

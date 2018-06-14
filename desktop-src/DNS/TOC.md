@@ -64,7 +64,7 @@
 #### [DNS_RRSIG_DATA](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_16)
 #### [DNS_RECORD](/windows/desktop/api/Windns/ns-windns-_dnsrecorda)
 #### [DNS_RECORD_FLAGS](/windows/desktop/api/Windns/ns-windns-_dnsrecordflags)
-#### [DNS_SIG_DATA](/windows/desktop/api/Windns/)
+#### [DNS_SIG_DATA](https://msdn.microsoft.com/en-us/library/ms682094(v=VS.85).aspx)
 #### [DNS_SOA_DATA](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_5)
 #### [DNS_SRV_DATA](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_30)
 #### [DNS_TKEY_DATA](/windows/desktop/api/Windns/ns-windns-__unnamed_struct_35)

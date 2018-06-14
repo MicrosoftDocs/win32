@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following structure is used with window stations and desktops:
 
--   [**USEROBJECTFLAGS**](/windows/desktop/api/Winuser/ns-winuser-taguserobjectflags)
+-   [**USEROBJECTFLAGS**](https://msdn.microsoft.com/en-us/library/ms686892(v=VS.85).aspx)
 
  
 

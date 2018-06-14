@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # XTYP\_ADVSTART transaction
 
-A client uses the **XTYP\_ADVSTART** transaction to establish an advise loop with a server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://www.bing.com/search?q=*DdeCallback*), receives this transaction when a client specifies **XTYP\_ADVSTART** as the *wType* parameter of the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function.
+A client uses the **XTYP\_ADVSTART** transaction to establish an advise loop with a server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](https://msdn.microsoft.com/en-us/library/ms648742(v=VS.85).aspx), receives this transaction when a client specifies **XTYP\_ADVSTART** as the *wType* parameter of the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function.
 
 
 ```C++

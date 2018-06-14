@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # Creating and Deleting a File
 
-To create a file, set the *dwOpenFlags* parameter of the [**mmioOpen**](https://www.bing.com/search?q=**mmioOpen**) function to MMIO\_CREATE. The following example creates a file and opens it for reading and writing.
+To create a file, set the *dwOpenFlags* parameter of the [**mmioOpen**](https://msdn.microsoft.com/en-us/library/Dd757331(v=VS.85).aspx) function to MMIO\_CREATE. The following example creates a file and opens it for reading and writing.
 
 
 ```C++

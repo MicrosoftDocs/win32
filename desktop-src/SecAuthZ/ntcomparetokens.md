@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # NtCompareTokens function
 
-The **NtCompareTokens** function compares two [*access tokens*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly) and determines whether they are equivalent with respect to a call to the [**AccessCheck**](/windows/desktop/api/Winbase/nf-ntifs-ntaccesscheckandauditalarm) function.
+The **NtCompareTokens** function compares two [*access tokens*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly) and determines whether they are equivalent with respect to a call to the [**AccessCheck**](https://msdn.microsoft.com/en-us/library/Aa374815(v=VS.85).aspx) function.
 
 ## Syntax
 

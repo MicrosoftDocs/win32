@@ -41,18 +41,18 @@ typedef struct D3DXEVENT_DESC {
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxevent_type.htm)**
+Type: **[**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb172827(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Event type, as defined in [**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxevent_type.htm).
+Event type, as defined in [**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb172827(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Track**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -63,7 +63,7 @@ Event track identifier.
 **StartTime**
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -74,7 +74,7 @@ Start time of the event in global time.
 **Duration**
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -85,18 +85,18 @@ Duration of the event in global time.
 **Transition**
 </dt> <dd>
 
-Type: **[**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxtransition_type.htm)**
+Type: **[**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205475(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Transition style of the event, as defined in [**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxtransition_type.htm).
+Transition style of the event, as defined in [**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/en-us/library/Bb205475(v=VS.85).aspx).
 
 </dd> <dt>
 
 **Weight**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -107,7 +107,7 @@ Track weight for the event.
 **Speed**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -118,7 +118,7 @@ Track speed for the event.
 **Position**
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DOUBLE**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -129,7 +129,7 @@ Track position for the event.
 **Enable**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

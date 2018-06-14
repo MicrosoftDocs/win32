@@ -51,7 +51,7 @@ If the function succeeds, it returns **S\_OK**; otherwise, it returns an error c
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) and [**GetProcAddress**](https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx) functions.
 
 ## Requirements
 
@@ -70,7 +70,7 @@ This function has no associated import library or header file; you must call it 
 [**DeleteExtractedFiles**](deleteextractedfiles.md)
 </dt> <dt>
 
-[**ERF**](/windows/desktop/api/Fdi/ns-acpitabl-_firmware_boot_performance_table)
+[**ERF**](https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx)
 </dt> <dt>
 
 [**SESSION**](session.md)

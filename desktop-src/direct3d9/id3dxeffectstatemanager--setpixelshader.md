@@ -39,7 +39,7 @@ A pointer to a pixel shader object. See [**IDirect3DPixelShader9**](/windows/des
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardCmd::get\_ReplyNad method
 
-\[The **get\_ReplyNad** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **get\_ReplyNad** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **get\_ReplyNad** method retrieves the node address (Nad) used by the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) in the reply message.
+The **get\_ReplyNad** method retrieves the node address (Nad) used by the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) in the reply message.
 
 ## Syntax
 
@@ -59,7 +59,7 @@ In addition to the COM error codes listed above, this method may return a smart 
 
 ## Examples
 
-The following example shows how to retrieve the node address (Nad) used by the [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) in the reply message. The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
+The following example shows how to retrieve the node address (Nad) used by the [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) in the reply message. The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
 
 
 ```C++

@@ -109,7 +109,7 @@ The following functions are used with XML nodes:
 The following macros are used with XML nodes:
 
 -   [**WS\_XML\_STRING\_DICTIONARY\_VALUE**](/windows/desktop/api/WebServices/nf-webservices-ws_xml_string_dictionary_value)
--   [**WS\_XML\_STRING\_NULL**](/windows/desktop/api/WebServices/)
+-   [**WS\_XML\_STRING\_NULL**](https://msdn.microsoft.com/en-us/library/Dd323562(v=VS.85).aspx)
 -   [**WS\_XML\_STRING\_VALUE**](/windows/desktop/api/WebServices/nf-webservices-ws_xml_string_value)
 
 The following structures are used with XML nodes:

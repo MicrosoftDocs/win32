@@ -32,7 +32,7 @@ ms.date: 05/31/2018
 <td>Enables advanced media capture.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IAdvancedMediaCaptureInitializationSettings</strong>](https://msdn.microsoft.com/8a7978c1-1919-4b49-9848-6d972e3e94f5)<br/></td>
+<td>[<strong>IAdvancedMediaCaptureInitializationSettings</strong>](https://msdn.microsoft.com/en-us/library/Hh802710(v=VS.85).aspx)<br/></td>
 <td>Provides initialization settings for advanced media capture.<br/></td>
 </tr>
 <tr class="odd">
@@ -69,11 +69,11 @@ ms.date: 05/31/2018
 </tr>
 <tr class="odd">
 <td>[<strong>IEVRFilterConfig</strong>](/windows/desktop/api/evr/nn-evr-ievrfilterconfig)<br/></td>
-<td>Sets the number of input pins on the DirectShow [<strong>Enhanced Video Renderer</strong>](https://msdn.microsoft.com/ead99cb3-2be2-42c6-ac22-be0c2ddf28d5) (EVR) filter.<br/></td>
+<td>Sets the number of input pins on the DirectShow [<strong>Enhanced Video Renderer</strong>](https://msdn.microsoft.com/en-us/library/Dd375607(v=VS.85).aspx) (EVR) filter.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>IEVRFilterConfigEx</strong>](/windows/desktop/api/evr/nn-evr-ievrfilterconfigex)<br/></td>
-<td>Configures the DirectShow [<strong>Enhanced Video Renderer</strong>](https://msdn.microsoft.com/ead99cb3-2be2-42c6-ac22-be0c2ddf28d5) (EVR) filter.<br/></td>
+<td>Configures the DirectShow [<strong>Enhanced Video Renderer</strong>](https://msdn.microsoft.com/en-us/library/Dd375607(v=VS.85).aspx) (EVR) filter.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IEVRTrustedVideoPlugin</strong>](/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin)<br/></td>
@@ -593,7 +593,7 @@ ms.date: 05/31/2018
 </tr>
 <tr class="even">
 <td>[<strong>IMFPMPHostApp</strong>](/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp)<br/></td>
-<td>Allows a media source to create a [Windows Runtime](https://msdn.microsoft.com/0F8E8DC8-AAFA-4F4F-A81A-42AF5867FC5A) object in the [Protected Media Path](protected-media-path.md) (PMP) process. <br/></td>
+<td>Allows a media source to create a [Windows Runtime](https://msdn.microsoft.com/en-us/library/BR224617(v=VS.85).aspx) object in the [Protected Media Path](protected-media-path.md) (PMP) process. <br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IMFPMPServer</strong>](/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver)<br/></td>
@@ -920,7 +920,7 @@ ms.date: 05/31/2018
 <td>Initializes a video mixer or presenter.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IMFTrackedSample</strong>](/windows/desktop/api/evr/nn-mfidl-imftrackedsample)<br/></td>
+<td>[<strong>IMFTrackedSample</strong>](https://msdn.microsoft.com/en-us/library/ms697026(v=VS.85).aspx)<br/></td>
 <td>Tracks the reference counts on a video media sample.<br/></td>
 </tr>
 <tr class="odd">
@@ -1029,7 +1029,7 @@ ms.date: 05/31/2018
 </tr>
 <tr class="odd">
 <td>[<strong>IPlayToSourceClassFactory</strong>](/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory)<br/></td>
-<td>Creates an instance of the [<strong>PlayToSource</strong>](https://msdn.microsoft.com/Windows.Media.PlayTo.PlayToSource) object.<br/></td>
+<td>Creates an instance of the [<strong>PlayToSource</strong>](https://msdn.microsoft.com/en-us/library/BR207006(v=Win.10).aspx) object.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>IWMCodecLeakyBucket</strong>](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecleakybucket)<br/></td>

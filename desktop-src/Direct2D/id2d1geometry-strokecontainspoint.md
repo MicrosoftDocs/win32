@@ -27,10 +27,10 @@ Determines whether the geometry's stroke contains the specified point.
 
 | Method                                                                                                                                                                                                                     | Description                                                                                                                                   |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,BOOL\*)**](/windows/desktop/api/d2d1/)             | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
-| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,BOOL\*)**](/windows/desktop/api/d2d1/)              | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
-| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,FLOAT,BOOL\*)**](/windows/desktop/api/d2d1/) | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
-| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,FLOAT,BOOL\*)**](/windows/desktop/api/d2d1/)  | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
+| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,BOOL\*)**](https://msdn.microsoft.com/en-us/library/Dd316742(v=VS.85).aspx)             | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
+| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,BOOL\*)**](https://msdn.microsoft.com/en-us/library/Dd316748(v=VS.85).aspx)              | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
+| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,FLOAT,BOOL\*)**](https://msdn.microsoft.com/en-us/library/Dd316739(v=VS.85).aspx) | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
+| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,FLOAT,BOOL\*)**](https://msdn.microsoft.com/en-us/library/Dd316744(v=VS.85).aspx)  | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
 
 
 
@@ -49,7 +49,7 @@ Determines whether the geometry's stroke contains the specified point.
 
 <dl> <dt>
 
-[**ID2D1Geometry**](/windows/desktop/api/d2d1/)
+[**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx)
 </dt> </dl>
 
  

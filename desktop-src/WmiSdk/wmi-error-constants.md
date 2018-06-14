@@ -326,7 +326,7 @@ This error may be caused by many conditions, including the following:
 
 -   Provider is using a WMI DLL that does not match the .lib file used when the provider was built.
 -   Provider's DLL, or any of the DLLs on which it depends, is corrupt.
--   Provider failed to export [**DllRegisterServer**](https://msdn.microsoft.com/windows/desktop/4442206b-b2ad-47d7-8add-18002c44c5a2).
+-   Provider failed to export [**DllRegisterServer**](https://msdn.microsoft.com/en-us/library/ms682162(v=VS.85).aspx).
 -   In-process provider was not registered using the **regsvr32** command.
 -   Out-of-process provider was not registered using the **/regserver** switch. For example, **myprog.exe /regserver**.
 

@@ -25,8 +25,8 @@ Sets the paint color that is used if the paint type is D2D1\_SVG\_PAINT\_TYPE\_C
 
 | Method                                                         | Description                                                                                      |
 |:---------------------------------------------------------------|:-------------------------------------------------------------------------------------------------|
-| [**SetColor(D2D1\_COLOR\_F \*)**](/windows/desktop/api/d2d1svg/)  | Sets the paint color that is used if the paint type is D2D1\_SVG\_PAINT\_TYPE\_COLOR.<br/> |
-| [**SetColor(D2D1\_COLOR\_F &)**](/windows/desktop/api/d2d1svg/) | Sets the paint color that is used if the paint type is D2D1\_SVG\_PAINT\_TYPE\_COLOR.<br/> |
+| [**SetColor(D2D1\_COLOR\_F \*)**](https://msdn.microsoft.com/en-us/library/Mt797898(v=VS.85).aspx)  | Sets the paint color that is used if the paint type is D2D1\_SVG\_PAINT\_TYPE\_COLOR.<br/> |
+| [**SetColor(D2D1\_COLOR\_F &)**](https://msdn.microsoft.com/en-us/library/Mt797899(v=VS.85).aspx) | Sets the paint color that is used if the paint type is D2D1\_SVG\_PAINT\_TYPE\_COLOR.<br/> |
 
 
 
@@ -34,7 +34,7 @@ Sets the paint color that is used if the paint type is D2D1\_SVG\_PAINT\_TYPE\_C
 
 <dl> <dt>
 
-[**ID2D1SvgPaint**](/windows/desktop/api/d2d1svg/)
+[**ID2D1SvgPaint**](https://msdn.microsoft.com/en-us/library/Mt797893(v=VS.85).aspx)
 </dt> </dl>
 
  

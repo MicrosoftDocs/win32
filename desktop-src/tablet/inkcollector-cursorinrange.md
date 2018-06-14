@@ -80,7 +80,7 @@ The **CursorInRange** event is fired even when in select or erase mode, not just
 
 <dl> <dt>
 
-[**InkCollector Class**](/windows/desktop/api/msinkaut/)
+[**InkCollector Class**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx)
 </dt> <dt>
 
 [**CursorOutOfRange Event**](inkcollector-cursoroutofrange.md)

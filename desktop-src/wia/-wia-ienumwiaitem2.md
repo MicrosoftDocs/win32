@@ -15,7 +15,7 @@ Used by applications to enumerate [**IWiaItem2**](-wia-iwiaitem2.md) objects in 
 
 ## Members
 
-The **IEnumWiaItem2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IEnumWiaItem2** also has these types of members:
+The **IEnumWiaItem2** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IEnumWiaItem2** also has these types of members:
 
 -   [Methods](#methods)
 

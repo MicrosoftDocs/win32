@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # LogonUser property
 
-The **LogonUser** property is the user name for the currently logged on user. Set by the installer by a system call to [**GetUserName**](https://msdn.microsoft.com/87adc46a-c069-4ee5-900a-03b646306e64).
+The **LogonUser** property is the user name for the currently logged on user. Set by the installer by a system call to [**GetUserName**](https://msdn.microsoft.com/en-us/library/ms724432(v=VS.85).aspx).
 
 ## Requirements
 

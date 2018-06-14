@@ -17,15 +17,15 @@ ms.date: 05/31/2018
 
 # Domain Browser
 
-Using the [**IDsBrowseDomainTree**](/windows/desktop/api/Dsclient/) interface, an application can display a domain browser dialog box and obtain the DNS name of the domain selected by the user. An application can also use the **IDsBrowseDomainTree** interface to obtain data about all domain trees and domains within a forest.
+Using the [**IDsBrowseDomainTree**](https://msdn.microsoft.com/en-us/library/ms676955(v=VS.85).aspx) interface, an application can display a domain browser dialog box and obtain the DNS name of the domain selected by the user. An application can also use the **IDsBrowseDomainTree** interface to obtain data about all domain trees and domains within a forest.
 
-An instance of the [**IDsBrowseDomainTree**](/windows/desktop/api/Dsclient/) interface is created by calling [**CoCreateInstance**](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) with the **CLSID\_DsDomainTreeBrowser** class identifier as shown below.
+An instance of the [**IDsBrowseDomainTree**](https://msdn.microsoft.com/en-us/library/ms676955(v=VS.85).aspx) interface is created by calling [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) with the **CLSID\_DsDomainTreeBrowser** class identifier as shown below.
 
-The [**IDsBrowseDomainTree::SetComputer**](/windows/desktop/api/Dsclient/) method can be used to specify which computer and credentials are used as the basis for retrieving the domain data. When **SetComputer** is called on a particular [**IDsBrowseDomainTree**](/windows/desktop/api/Dsclient/) instance, [**IDsBrowseDomainTree::FlushCachedDomains**](/windows/desktop/api/Dsclient/) must be called before **SetComputer** is called again.
+The [**IDsBrowseDomainTree::SetComputer**](https://msdn.microsoft.com/en-us/library/ms676960(v=VS.85).aspx) method can be used to specify which computer and credentials are used as the basis for retrieving the domain data. When **SetComputer** is called on a particular [**IDsBrowseDomainTree**](https://msdn.microsoft.com/en-us/library/ms676955(v=VS.85).aspx) instance, [**IDsBrowseDomainTree::FlushCachedDomains**](https://msdn.microsoft.com/en-us/library/ms676957(v=VS.85).aspx) must be called before **SetComputer** is called again.
 
-The [**IDsBrowseDomainTree::BrowseTo**](/windows/desktop/api/Dsclient/) method is used to display the domain browser dialog box. When the user selects a domain and clicks the **OK** button, the **IDsBrowseDomainTree::BrowseTo** returns **S\_OK** and the *ppszTargetPath* parameter contains the name of the selected domain. When the name string is no longer required, the caller must free the string by calling [**CoTaskMemFree**](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7).
+The [**IDsBrowseDomainTree::BrowseTo**](https://msdn.microsoft.com/en-us/library/ms676956(v=VS.85).aspx) method is used to display the domain browser dialog box. When the user selects a domain and clicks the **OK** button, the **IDsBrowseDomainTree::BrowseTo** returns **S\_OK** and the *ppszTargetPath* parameter contains the name of the selected domain. When the name string is no longer required, the caller must free the string by calling [**CoTaskMemFree**](https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx).
 
-The following code example shows how to use the [**IDsBrowseDomainTree**](/windows/desktop/api/Dsclient/) interface to display the domain browser dialog box.
+The following code example shows how to use the [**IDsBrowseDomainTree**](https://msdn.microsoft.com/en-us/library/ms676955(v=VS.85).aspx) interface to display the domain browser dialog box.
 
 
 ```C++
@@ -74,9 +74,9 @@ void main(void)
 
 
 
-The [**IDsBrowseDomainTree::GetDomains**](/windows/desktop/api/Dsclient/) method is used to obtain domain tree data. The domain data is supplied in a [**DOMAINTREE**](/windows/desktop/api/Dsclient/ns-dsclient-domain_tree) structure. The **DOMAINTREE** structure contains the size of the structure and the number of domain elements in the tree. The **DOMAINTREE** structure also contains one or more [**DOMAINDESC**](/windows/desktop/api/Dsclient/ns-dsclient-_domaindesc) structures. The **DOMAINDESC** contains data about a single element in the domain tree, including child and sibling data. The siblings of a domain can be enumerated by accessing the **pdNextSibling** member of each subsequent **DOMAINDESC** structure. The children of the domain can be retrieved in a similar manner by accessing the **pdChildList** member of each subsequent **DOMAINDESC** structure.
+The [**IDsBrowseDomainTree::GetDomains**](https://msdn.microsoft.com/en-us/library/ms676959(v=VS.85).aspx) method is used to obtain domain tree data. The domain data is supplied in a [**DOMAINTREE**](/windows/desktop/api/Dsclient/ns-dsclient-domain_tree) structure. The **DOMAINTREE** structure contains the size of the structure and the number of domain elements in the tree. The **DOMAINTREE** structure also contains one or more [**DOMAINDESC**](/windows/desktop/api/Dsclient/ns-dsclient-_domaindesc) structures. The **DOMAINDESC** contains data about a single element in the domain tree, including child and sibling data. The siblings of a domain can be enumerated by accessing the **pdNextSibling** member of each subsequent **DOMAINDESC** structure. The children of the domain can be retrieved in a similar manner by accessing the **pdChildList** member of each subsequent **DOMAINDESC** structure.
 
-The following code example shows how to obtain and access the domain tree data using the [**IDsBrowseDomainTree::GetDomains**](/windows/desktop/api/Dsclient/) method.
+The following code example shows how to obtain and access the domain tree data using the [**IDsBrowseDomainTree::GetDomains**](https://msdn.microsoft.com/en-us/library/ms676959(v=VS.85).aspx) method.
 
 
 ```C++

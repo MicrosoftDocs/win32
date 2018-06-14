@@ -46,7 +46,7 @@ Handle to the MIDI input device that received the invalid message.
 <span id="lpMidiHdr"></span><span id="lpmidihdr"></span><span id="LPMIDIHDR"></span>*lpMidiHdr*
 </dt> <dd>
 
-Pointer to a [**MIDIHDR**](https://www.bing.com/search?q=**MIDIHDR**) structure identifying the buffer containing the invalid message.
+Pointer to a [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx) structure identifying the buffer containing the invalid message.
 
 </dd> </dl>
 
@@ -56,7 +56,7 @@ This message does not return a value.
 
 ## Remarks
 
-The returned buffer might not be full. To determine the number of bytes recorded into the returned buffer, use the **dwBytesRecorded** member of the [**MIDIHDR**](https://www.bing.com/search?q=**MIDIHDR**) structure specified by *lpMidiHdr*.
+The returned buffer might not be full. To determine the number of bytes recorded into the returned buffer, use the **dwBytesRecorded** member of the [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx) structure specified by *lpMidiHdr*.
 
 ## Requirements
 

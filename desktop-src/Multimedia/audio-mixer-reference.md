@@ -24,44 +24,44 @@ This section describes the functions, structures, and messages associated with a
 ## Querying Devices
 
 -   [**MIXERCAPS**](/windows/desktop/api/Mmsystem/ns-mmeapi-tagmixercapsa)
--   [**mixerGetDevCaps**](https://www.bing.com/search?q=**mixerGetDevCaps**)
--   [**mixerGetNumDevs**](https://www.bing.com/search?q=**mixerGetNumDevs**)
+-   [**mixerGetDevCaps**](https://msdn.microsoft.com/en-us/library/Dd757300(v=VS.85).aspx)
+-   [**mixerGetNumDevs**](https://msdn.microsoft.com/en-us/library/Dd757304(v=VS.85).aspx)
 
 ## Opening and Closing
 
--   [**mixerClose**](https://www.bing.com/search?q=**mixerClose**)
--   [**mixerOpen**](https://www.bing.com/search?q=**mixerOpen**)
+-   [**mixerClose**](https://msdn.microsoft.com/en-us/library/Dd757292(v=VS.85).aspx)
+-   [**mixerOpen**](https://msdn.microsoft.com/en-us/library/Dd757308(v=VS.85).aspx)
 
 ## Retrieving Mixer Identifiers
 
--   [**mixerGetID**](https://www.bing.com/search?q=**mixerGetID**)
+-   [**mixerGetID**](https://msdn.microsoft.com/en-us/library/Dd757301(v=VS.85).aspx)
 
 ## Retrieving Line Controls
 
 -   [**MIXERCONTROL**](/windows/desktop/api/Mmsystem/ns-mmeapi-tagmixercontrola)
--   [**mixerGetLineControls**](https://www.bing.com/search?q=**mixerGetLineControls**)
+-   [**mixerGetLineControls**](https://msdn.microsoft.com/en-us/library/Dd757302(v=VS.85).aspx)
 -   [**MIXERLINECONTROLS**](/windows/desktop/api/Mmsystem/ns-mmeapi-tagmixerlinecontrolsa)
 
 ## Changing Control Attributes
 
 -   [**MIXERCONTROLDETAILS**](/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontroldetails_listtexta)
--   [**MIXERCONTROLDETAILS\_BOOLEAN**](/windows/desktop/api/mmeapi/)
--   [**MIXERCONTROLDETAILS\_LISTTEXT**](/windows/desktop/api/mmeapi/)
--   [**MIXERCONTROLDETAILS\_SIGNED**](/windows/desktop/api/mmeapi/)
--   [**MIXERCONTROLDETAILS\_UNSIGNED**](/windows/desktop/api/mmeapi/)
--   [**mixerGetControlDetails**](https://www.bing.com/search?q=**mixerGetControlDetails**)
--   [**mixerSetControlDetails**](https://www.bing.com/search?q=**mixerSetControlDetails**)
+-   [**MIXERCONTROLDETAILS\_BOOLEAN**](https://msdn.microsoft.com/en-us/library/Dd757295(v=VS.85).aspx)
+-   [**MIXERCONTROLDETAILS\_LISTTEXT**](https://msdn.microsoft.com/en-us/library/Dd757296(v=VS.85).aspx)
+-   [**MIXERCONTROLDETAILS\_SIGNED**](https://msdn.microsoft.com/en-us/library/Dd757297(v=VS.85).aspx)
+-   [**MIXERCONTROLDETAILS\_UNSIGNED**](https://msdn.microsoft.com/en-us/library/Dd757298(v=VS.85).aspx)
+-   [**mixerGetControlDetails**](https://msdn.microsoft.com/en-us/library/Dd757299(v=VS.85).aspx)
+-   [**mixerSetControlDetails**](https://msdn.microsoft.com/en-us/library/Dd757309(v=VS.85).aspx)
 
 ## Retrieving Line Information
 
--   [**mixerGetLineInfo**](https://www.bing.com/search?q=**mixerGetLineInfo**)
+-   [**mixerGetLineInfo**](https://msdn.microsoft.com/en-us/library/Dd757303(v=VS.85).aspx)
 -   [**MIXERLINE**](/windows/desktop/api/Mmsystem/ns-mmeapi-tagmixerlinea)
 -   [**MM\_MIXM\_CONTROL\_CHANGE**](mm-mixm-control-change.md)
 -   [**MM\_MIXM\_LINE\_CHANGE**](mm-mixm-line-change.md)
 
 ## Sending User-Defined Messages
 
--   [**mixerMessage**](https://www.bing.com/search?q=**mixerMessage**)
+-   [**mixerMessage**](https://msdn.microsoft.com/en-us/library/Dd757307(v=VS.85).aspx)
 
 ## Related topics
 

@@ -19,7 +19,7 @@ This section contains the classes and interfaces that are used for the math inpu
 
 | Interface                                                     | Description                                                       |
 |---------------------------------------------------------------|-------------------------------------------------------------------|
-| [**\_IMathInputControlEvents**](/windows/desktop/api/micaut/) | Exposes the math input control event handlers.                    |
+| [**\_IMathInputControlEvents**](https://msdn.microsoft.com/en-us/library/Dd317349(v=VS.85).aspx) | Exposes the math input control event handlers.                    |
 | [**IMathInputControl**](/windows/desktop/api/micaut/nn-micaut-imathinputcontrol)                | Exposes methods that turn ink input into interpreted math output. |
 
 

@@ -35,7 +35,7 @@ This class implements the following interfaces.
 -   [**IMsRdpClient2**](imsrdpclient2.md)
 -   [**IMsRdpClient**](imsrdpclientshell2.md)
 -   [**IMsTscAx**](imstscax-interface.md)
--   [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
+-   [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx)
 -   [**IMsTscAxEvents**](imstscaxevents-interface.md)
 -   [**IMsTscNonScriptable**](imstscnonscriptable-interface.md)
 -   [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md)

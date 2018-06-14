@@ -18,7 +18,7 @@ Specifies the icon used for the shortcut created on the taskbar when the user ch
 
 [System.AppUserModel.RelaunchIconResource](https://www.bing.com/search?q=System.AppUserModel.RelaunchIconResource) is an optional property. If it is not set, the icon of the target of the relaunch command ([System.AppUserModel.RelaunchCommand](https://www.bing.com/search?q=System.AppUserModel.RelaunchCommand)) is used. However, because that can lead to undesired results, we strongly encourage you to provide an icon explicitly through this property.
 
-This property is used only if a window has an explicit Application User Model ID (AppUserModelID) ([System.AppUserModel.ID](https://www.bing.com/search?q=System.AppUserModel.ID), set through [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow)). If the window does not have an explicit AppUserModelID (System.AppUserModel.ID), this property is ignored and the window is grouped and pinned as if it were part of its owning process. For more information on the application of explicit AppUserModelIDs and their effect on taskbar pinning, see [Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f). This property is meant to be used by applications or windows that want to provide non-default relaunch information. For more information, see [System.AppUserModel.RelaunchCommand](https://www.bing.com/search?q=System.AppUserModel.RelaunchCommand).
+This property is used only if a window has an explicit Application User Model ID (AppUserModelID) ([System.AppUserModel.ID](https://www.bing.com/search?q=System.AppUserModel.ID), set through [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow)). If the window does not have an explicit AppUserModelID (System.AppUserModel.ID), this property is ignored and the window is grouped and pinned as if it were part of its owning process. For more information on the application of explicit AppUserModelIDs and their effect on taskbar pinning, see [Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/en-us/library/Dd378459(v=VS.85).aspx). This property is meant to be used by applications or windows that want to provide non-default relaunch information. For more information, see [System.AppUserModel.RelaunchCommand](https://www.bing.com/search?q=System.AppUserModel.RelaunchCommand).
 
 If an explicit AppUserModelID is set on the window, but this property is not set, the system attempts to find a shortcut with the same AppUserModelID, and pins that shortcut to the taskbar to represent the window. If no such shortcut can be located, then the backing executable of the process that owns it is used.
 
@@ -65,7 +65,7 @@ propertyDescription
 
 <dl> <dt>
 
-[Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f)
+[Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/en-us/library/Dd378459(v=VS.85).aspx)
 </dt> <dt>
 
 [System.AppUserModel.ID](https://www.bing.com/search?q=System.AppUserModel.ID)

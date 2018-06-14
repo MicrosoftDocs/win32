@@ -75,7 +75,7 @@ Device name for GDI.
 **DriverVersion**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea)**
+Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/en-us/library/Aa383713(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -86,7 +86,7 @@ Identify the version of the Direct3D driver. It is legal to do less than and gre
 **DriverVersionLowPart**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -97,7 +97,7 @@ Identify the version of the Direct3D driver. It is legal to do &lt; and &gt; com
 **DriverVersionHighPart**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -108,7 +108,7 @@ Identify the version of the Direct3D driver. It is legal to do &lt; and &gt; com
 **VendorId**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -119,7 +119,7 @@ Can be used to help identify a particular chip set. Query this member to identif
 **DeviceId**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -130,7 +130,7 @@ Can be used to help identify a particular chip set. Query this member to identif
 **SubSysId**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -141,7 +141,7 @@ Can be used to help identify a particular chip set. Query this member to identif
 **Revision**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -163,7 +163,7 @@ Can be queried to check changes in the driver and chip set. This GUID is a uniqu
 **WHQLLevel**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

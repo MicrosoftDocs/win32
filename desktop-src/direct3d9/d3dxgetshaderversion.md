@@ -31,7 +31,7 @@ DWORD D3DXGetShaderVersion(
 *pFunction* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the function DWORD stream.
 
@@ -39,7 +39,7 @@ Pointer to the function DWORD stream.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Returns the shader version of the given shader, or zero if the shader function is **NULL**.
 

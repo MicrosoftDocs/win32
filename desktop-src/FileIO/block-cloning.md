@@ -64,7 +64,7 @@ After the modifying write, region B is still shared on disk. Note that if region
 [**DUPLICATE\_EXTENTS\_DATA**](/windows/desktop/api/WinIoCtl/ns-winioctl-_duplicate_extents_data)
 </dt> <dt>
 
-[**FSCTL\_DUPLICATE\_EXTENTS\_TO\_FILE**](/windows/desktop/api/WinIoCtl/)
+[**FSCTL\_DUPLICATE\_EXTENTS\_TO\_FILE**](https://msdn.microsoft.com/en-us/library/Mt590823(v=VS.85).aspx)
 </dt> </dl>
 
  

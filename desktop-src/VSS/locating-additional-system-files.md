@@ -34,7 +34,7 @@ In addition to the enumerated operating system and driver binary files that are 
 
 All the components reported by a VSS system state writer are part of system state except those for which the VSS\_CF\_NOT\_SYSTEM\_STATE flag is set.
 
-Backup programs should also set the **LastRestoreId** registry key. For more information, see [Registry Keys and Values for Backup and Restore](https://msdn.microsoft.com/83449f78-cca1-449b-8c5f-3c8a91c8b3e7).
+Backup programs should also set the **LastRestoreId** registry key. For more information, see [Registry Keys and Values for Backup and Restore](https://msdn.microsoft.com/en-us/library/Bb891959(v=VS.85).aspx).
 
 > [!Note]  
 > In Windows Vista, Windows Server 2008, and later, the names and locations of some system files have been changed as follows.

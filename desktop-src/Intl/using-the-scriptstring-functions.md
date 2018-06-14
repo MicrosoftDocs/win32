@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using the ScriptString Functions
 
-For an application dealing with unformatted text, Uniscribe provides the **ScriptString\*** functions. These functions are similar to [**ExtTextOut**](https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37), [**DrawText**](https://msdn.microsoft.com/fe412280-d797-4abd-8a29-107a9cd96145), and [**GetTextExtent**](CDC::GetTextExtent), but they provide full complex script support, including caret placement. These functions are similar to the other Uniscribe functions, but are tailored to the simpler requirements of plain text processing.
+For an application dealing with unformatted text, Uniscribe provides the **ScriptString\*** functions. These functions are similar to [**ExtTextOut**](https://msdn.microsoft.com/en-us/library/Dd162713(v=VS.85).aspx), [**DrawText**](https://msdn.microsoft.com/en-us/library/Dd162498(v=VS.85).aspx), and [**GetTextExtent**](CDC::GetTextExtent), but they provide full complex script support, including caret placement. These functions are similar to the other Uniscribe functions, but are tailored to the simpler requirements of plain text processing.
 
 The following table details the **ScriptString\*** functions and any counterparts in the other Uniscribe functions.
 
@@ -50,7 +50,7 @@ The following table details the **ScriptString\*** functions and any counterpart
 </tr>
 <tr class="odd">
 <td>[<strong>ScriptStringGetOrder</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptstringgetorder)</td>
-<td>Maps character glyph positions in a similar way to [GetCharacterPlacement](https://msdn.microsoft.com/80d3f4b3-503b-4abb-826c-e5c09972ba2f), for legacy use only. This function does not work well with scripts that generate more than one glyph per code point.</td>
+<td>Maps character glyph positions in a similar way to [GetCharacterPlacement](https://msdn.microsoft.com/en-us/library/Dd144860(v=VS.85).aspx), for legacy use only. This function does not work well with scripts that generate more than one glyph per code point.</td>
 </tr>
 <tr class="even">
 <td>[<strong>ScriptStringOut</strong>](/windows/desktop/api/Usp10/nf-usp10-scriptstringout)</td>

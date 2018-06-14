@@ -11,13 +11,13 @@ ms.date: 05/31/2018
 
 # ISCardLocate interface
 
-\[The **ISCardLocate** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **ISCardLocate** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The **ISCardLocate** interface provides services for locating a [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) by its name.
+The **ISCardLocate** interface provides services for locating a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) by its name.
 
-This interface can display the smart card [*user interface*](https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb) if it is required.
+This interface can display the smart card [*user interface*](https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx) if it is required.
 
-The following scenario shows a typical use of the **ISCardLocate** interface. The **ISCardLocate** interface is used to build an [*application protocol data unit*](https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02) (APDU).
+The following scenario shows a typical use of the **ISCardLocate** interface. The **ISCardLocate** interface is used to build an [*application protocol data unit*](https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx) (APDU).
 
 **To locate a specific card using its name**
 
@@ -29,7 +29,7 @@ The following scenario shows a typical use of the **ISCardLocate** interface. Th
 
 ## Members
 
-The **ISCardLocate** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **ISCardLocate** also has these types of members:
+The **ISCardLocate** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ISCardLocate** also has these types of members:
 
 -   [Methods](#methods)
 

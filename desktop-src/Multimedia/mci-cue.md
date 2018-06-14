@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 The MCI\_CUE command cues a device so that playback or recording begins with minimum delay. Digital-video, VCR, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

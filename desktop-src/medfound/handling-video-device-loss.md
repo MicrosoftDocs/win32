@@ -21,7 +21,7 @@ This topic describes how to detect device loss when using a video capture device
 
 ## Register For Device Notification
 
-Before you start capturing from the device, call the [**RegisterDeviceNotification**](https://msdn.microsoft.com/82094d95-9af3-4222-9c5e-ce2df9bab5e3) function to register for device notifications. Register for the **KSCATEGORY\_CAPTURE** device class, as shown in the following code.
+Before you start capturing from the device, call the [**RegisterDeviceNotification**](https://msdn.microsoft.com/en-us/library/Aa363431(v=VS.85).aspx) function to register for device notifications. Register for the **KSCATEGORY\_CAPTURE** device class, as shown in the following code.
 
 
 ```C++
@@ -78,7 +78,7 @@ HRESULT GetSymbolicLink(IMFActivate *pActivate)
 
 ## Handle WM\_DEVICECHANGE
 
-In your message loop, listen for [**WM\_DEVICECHANGE**](https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4) messages. The *lParam* message parameter is a pointer to a [**DEV\_BROADCAST\_HDR**](https://msdn.microsoft.com/4fc81fcb-b9fe-4016-b639-a43845af2c5f) structure.
+In your message loop, listen for [**WM\_DEVICECHANGE**](https://msdn.microsoft.com/en-us/library/Aa363480(v=VS.85).aspx) messages. The *lParam* message parameter is a pointer to a [**DEV\_BROADCAST\_HDR**](https://msdn.microsoft.com/en-us/library/Aa363246(v=VS.85).aspx) structure.
 
 
 ```C++
@@ -104,7 +104,7 @@ In your message loop, listen for [**WM\_DEVICECHANGE**](https://msdn.microsoft.c
 
 Next, compare the device notification message against the symbolic link of your device, as follows:
 
-1.  Check the **dbch\_devicetype** member of the [**DEV\_BROADCAST\_HDR**](https://msdn.microsoft.com/4fc81fcb-b9fe-4016-b639-a43845af2c5f) structure. If the value is **DBT\_DEVTYP\_DEVICEINTERFACE**, cast the structure pointer to a [**DEV\_BROADCAST\_DEVICEINTERFACE**](https://msdn.microsoft.com/23e6b2b9-2053-4dfa-9c0a-283279f086b8) structure.
+1.  Check the **dbch\_devicetype** member of the [**DEV\_BROADCAST\_HDR**](https://msdn.microsoft.com/en-us/library/Aa363246(v=VS.85).aspx) structure. If the value is **DBT\_DEVTYP\_DEVICEINTERFACE**, cast the structure pointer to a [**DEV\_BROADCAST\_DEVICEINTERFACE**](https://msdn.microsoft.com/en-us/library/Aa363244(v=VS.85).aspx) structure.
 2.  Compare the **dbcc\_name** member of this structure to the symbolic link of the device.
 
 
@@ -153,7 +153,7 @@ HRESULT CheckDeviceLost(DEV_BROADCAST_HDR *pHdr, BOOL *pbDeviceLost)
 
 ## Unregister For Notification
 
-Before the application exits, call [**UnregisterDeviceNotification**](https://msdn.microsoft.com/bcc0cf87-f996-47b5-937c-14a6332d00d9) to unregister for device notifications/
+Before the application exits, call [**UnregisterDeviceNotification**](https://msdn.microsoft.com/en-us/library/Aa363475(v=VS.85).aspx) to unregister for device notifications/
 
 
 ```C++

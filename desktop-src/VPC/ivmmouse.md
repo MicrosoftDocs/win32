@@ -28,7 +28,7 @@ Controls the mouse device within a virtual machine (VM). The **IVMMouse** for a 
 
 ## Members
 
-The **IVMMouse** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMMouse** also has these types of members:
+The **IVMMouse** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMMouse** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)

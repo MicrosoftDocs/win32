@@ -26,7 +26,7 @@ The root factory interface for all [DirectWrite](direct-write-portal.md) objects
 
 ## Members
 
-The **IDWriteFactory1** interface inherits from [**IDWriteFactory1**](/windows/desktop/api/dwrite_1/). **IDWriteFactory2** also has these types of members:
+The **IDWriteFactory1** interface inherits from [**IDWriteFactory1**](https://msdn.microsoft.com/en-us/library/Hh780401(v=VS.85).aspx). **IDWriteFactory2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -39,10 +39,10 @@ The **IDWriteFactory1** interface has these methods.
 | Method                                                                             | Description                                                                                                |
 |:-----------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|
 | [**CreateCustomRenderingParams**](idwritefactory2-createcustomrenderingparams.md) | Creates a rendering parameters object with the specified properties.<br/>                            |
-| [**CreateFontFallbackBuilder**](/windows/desktop/api/dwrite_2/)     | Creates a font fallback builder object.<br/>                                                         |
+| [**CreateFontFallbackBuilder**](https://msdn.microsoft.com/en-us/library/Dn280449(v=VS.85).aspx)     | Creates a font fallback builder object.<br/>                                                         |
 | [**CreateGlyphRunAnalysis**](idwritefactory2-createglyphrunanalysis.md)           | Creates a glyph run analysis object, which encapsulates information used to render a glyph run.<br/> |
 | [**GetSystemFontFallback**](idwritefactory2-getsystemfontfallback.md)             | Creates a font fallback object from the system font fallback list.<br/>                              |
-| [**TranslateColorGlyphRun**](/windows/desktop/api/dwrite_2/)           | This method is called on a glyph run to translate it in to multiple color glyph runs.<br/>           |
+| [**TranslateColorGlyphRun**](https://msdn.microsoft.com/en-us/library/Dn280451(v=VS.85).aspx)           | This method is called on a glyph run to translate it in to multiple color glyph runs.<br/>           |
 
 
 
@@ -66,10 +66,10 @@ The **IDWriteFactory1** interface has these methods.
 
 <dl> <dt>
 
-[**IDWriteFactory1**](/windows/desktop/api/dwrite_1/)
+[**IDWriteFactory1**](https://msdn.microsoft.com/en-us/library/Hh780401(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDWriteFactory**](/windows/desktop/api/dwrite/)
+[**IDWriteFactory**](https://msdn.microsoft.com/en-us/library/Dd368183(v=VS.85).aspx)
 </dt> </dl>
 
  

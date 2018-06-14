@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](https://www.bing.com/search?q=**X509Certificate2Collection+Class**) in the [**System.Security.Cryptography.X509Certificates**](https://www.bing.com/search?q=**System.Security.Cryptography.X509Certificates**) namespace.\]
 
-The **Certificates** object represents a collection of [**Certificate**](certificate.md) objects. Each [**Certificate**](certificate.md) object represents a single [*digital certificate*](https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2).
+The **Certificates** object represents a collection of [**Certificate**](certificate.md) objects. Each [**Certificate**](certificate.md) object represents a single [*digital certificate*](https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx).
 
 The **Certificates** object exposes the following interfaces:
 
@@ -65,7 +65,7 @@ The **Certificates** object has these properties.
 
 | Property                                             | Access type          | Description                                                                                                                                                                                                                     |
 |:-----------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](certificates-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/windows/desktop/139e3c93-faef-4003-9079-e0e94494db3e) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](certificates-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/en-us/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
 | [**Count**](certificates-count.md)<br/>       | Read-only<br/> | Retrieves the number of [**Certificate**](certificate.md) objects in the collection.<br/>                                                                                                                                |
 | [**Item**](certificates-item.md)<br/>         | Read-only<br/> | Retrieves a [**Certificate**](certificate.md) object that represents the indexed certificate of the collection. This is the default property.<br/> (Inherited from **CertificatesICertificates2ICertificates**)          |
 

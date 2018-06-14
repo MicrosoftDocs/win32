@@ -60,7 +60,7 @@ Interface identifier for the sink interface.
 *punk* \[in\]
 </dt> <dd>
 
-Pointer to [IUnknown](https://msdn.microsoft.com/windows/desktop/33f1d79a-33fc-4ce5-a372-e08bda378332) for the sink interface specified by *riid*. This parameter cannot be set to **NULL**.
+Pointer to [IUnknown](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) for the sink interface specified by *riid*. This parameter cannot be set to **NULL**.
 
 </dd> <dt>
 

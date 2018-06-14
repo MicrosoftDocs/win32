@@ -19,10 +19,10 @@ The following topics describe the COM enumerations for the Windows Machine Learn
 
 | Topic                                                                              | Description                                                     |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------|
-| [**WINML\_BINDING\_TYPE**](https://msdn.microsoft.com/482DA039-2A91-4030-966A-6BFB2C9564C0)<br/>          | Specifies the different types of WinML bindings.<br/>     |
-| [**WINML\_FEATURE\_TYPE**](https://msdn.microsoft.com/179DD392-15B6-4BDE-8BD3-91256951DCD3)<br/>          | Specifies the different types of WinML features.<br/>     |
-| [**WINML\_RUNTIME\_TYPE**](https://msdn.microsoft.com/5F522511-6186-4C1F-9315-3E382E87F62C)<br/>          | Specifies the different types of WinML runtimes.<br/>     |
-| [**WINML\_TENSOR\_DATA\_TYPE**](https://msdn.microsoft.com/A8EB60A1-F769-460F-8C94-5D1DE3A1820F)<br/> | Specifies the different data types of WinML tensors.<br/> |
+| [**WINML\_BINDING\_TYPE**](https://msdn.microsoft.com/en-us/library/Mt845852(v=VS.85).aspx)<br/>          | Specifies the different types of WinML bindings.<br/>     |
+| [**WINML\_FEATURE\_TYPE**](https://msdn.microsoft.com/en-us/library/Mt845853(v=VS.85).aspx)<br/>          | Specifies the different types of WinML features.<br/>     |
+| [**WINML\_RUNTIME\_TYPE**](https://msdn.microsoft.com/en-us/library/Mt845860(v=VS.85).aspx)<br/>          | Specifies the different types of WinML runtimes.<br/>     |
+| [**WINML\_TENSOR\_DATA\_TYPE**](https://msdn.microsoft.com/en-us/library/Mt845864(v=VS.85).aspx)<br/> | Specifies the different data types of WinML tensors.<br/> |
 
 
 

@@ -83,7 +83,7 @@ Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) structure, specifying the directi
 *pU* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Barycentric hit coordinates, U.
 
@@ -92,7 +92,7 @@ Barycentric hit coordinates, U.
 *pV* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Barycentric hit coordinates, V.
 
@@ -101,7 +101,7 @@ Barycentric hit coordinates, V.
 *pDist* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Ray-intersection parameter distance.
 
@@ -109,7 +109,7 @@ Ray-intersection parameter distance.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Returns **TRUE** if the ray intersects the area of the triangle. Otherwise, returns **FALSE**.
 

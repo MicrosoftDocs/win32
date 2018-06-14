@@ -39,7 +39,7 @@ When you query for a class name but specify no instances, WMI returns the class 
 
 **To retrieve a class definition in VBScript**
 
--   You can use the moniker connection either with a query or [**GetObject**](https://msdn.microsoft.com/windows/desktop/a953c6b8-88b3-45c4-93ca-6813c5385675). You can also use [**SWbemServices.Get**](swbemservices-get.md).
+-   You can use the moniker connection either with a query or [**GetObject**](https://msdn.microsoft.com/en-us/library/ebdktb00(v=VS.71).aspx). You can also use [**SWbemServices.Get**](swbemservices-get.md).
 
     The following example shows how to use [GetObject](https://msdn.microsoft.com/library/kdccchxa.aspx) to get a class definition.
 

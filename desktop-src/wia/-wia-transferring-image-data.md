@@ -30,9 +30,9 @@ Applications must query an image item to obtain a pointer to its [**IWiaDataTran
 
 
 
-In the previous code, it is assumed that **pWiaItem** is a valid pointer to the [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) interface. The call to [IUnknown::QueryInterface](https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d) fills **pWiaDataTransfer** with a pointer to the [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) interface of the item referred to by **pWiaItem**.
+In the previous code, it is assumed that **pWiaItem** is a valid pointer to the [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) interface. The call to [IUnknown::QueryInterface](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) fills **pWiaDataTransfer** with a pointer to the [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) interface of the item referred to by **pWiaItem**.
 
-The application then sets the [STGMEDIUM](https://msdn.microsoft.com/5d05819a-10db-4d8e-91e4-8a7c05885cde) structure members. For information, see STGMEDIUM and [TYMED](https://msdn.microsoft.com/ac41286f-7c67-444a-81b7-21b61079bbf5).
+The application then sets the [STGMEDIUM](https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx) structure members. For information, see STGMEDIUM and [TYMED](https://msdn.microsoft.com/en-us/library/ms691227(v=VS.85).aspx).
 
 
 ```
@@ -59,7 +59,7 @@ The application then calls the [**IWiaDataTransfer::idtGetData**](/windows/deskt
 
 In the call to [**IWiaDataTransfer::idtGetData**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetdata), the second parameter specifies a pointer to the [**IWiaDataCallback**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatacallback) interface. Applications must implement this interface to receive callbacks during data transfers. For information about implementing this interface, see [**IWiaDataCallback::BandedDataCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback).
 
-The application then releases the pointers to the [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) interface and frees any data allocated in the [STGMEDIUM](https://msdn.microsoft.com/5d05819a-10db-4d8e-91e4-8a7c05885cde) structure.
+The application then releases the pointers to the [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) interface and frees any data allocated in the [STGMEDIUM](https://msdn.microsoft.com/en-us/library/ms683812(v=VS.85).aspx) structure.
 
 The application can also transfer the image using in-memory data transfers instead of file transfers. In this case, the application uses the idtGetBandedData method in place of the idtGetData method.
 

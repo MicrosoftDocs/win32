@@ -29,15 +29,15 @@ The following messages can be sent to a window or thread for managing playback o
 
 | Value                                  | Meaning                                                                                                                                                                  |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**MM\_MOM\_CLOSE**](mm-mom-close.md) | Sent when the device is closed by using the [**midiOutClose**](https://www.bing.com/search?q=**midiOutClose**) function.                                                                               |
-| [**MM\_MOM\_DONE**](mm-mom-done.md)   | Sent when the device driver is finished with a data block sent by using the [**midiOutLongMsg**](https://www.bing.com/search?q=**midiOutLongMsg**) or [**midiStreamOut**](https://www.bing.com/search?q=**midiStreamOut**) function. |
-| [**MM\_MOM\_OPEN**](mm-mom-open.md)   | Sent when the device is opened by using the [**midiOutOpen**](https://www.bing.com/search?q=**midiOutOpen**) function.                                                                                 |
+| [**MM\_MOM\_CLOSE**](mm-mom-close.md) | Sent when the device is closed by using the [**midiOutClose**](https://msdn.microsoft.com/en-us/library/Dd798468(v=VS.85).aspx) function.                                                                               |
+| [**MM\_MOM\_DONE**](mm-mom-done.md)   | Sent when the device driver is finished with a data block sent by using the [**midiOutLongMsg**](https://msdn.microsoft.com/en-us/library/Dd798474(v=VS.85).aspx) or [**midiStreamOut**](https://msdn.microsoft.com/en-us/library/Dd798487(v=VS.85).aspx) function. |
+| [**MM\_MOM\_OPEN**](mm-mom-open.md)   | Sent when the device is opened by using the [**midiOutOpen**](https://msdn.microsoft.com/en-us/library/Dd798476(v=VS.85).aspx) function.                                                                                 |
 
 
 
  
 
-A *wParam* parameter and an *lParam* parameter are associated with each of these messages. The *wParam* parameter always specifies the handle of an open MIDI device. For [**MM\_MOM\_DONE**](mm-mom-done.md), *lParam* specifies an address of a [**MIDIHDR**](https://www.bing.com/search?q=**MIDIHDR**) structure identifying the completed data block. The *lParam* parameter is unused for [**MM\_MOM\_CLOSE**](mm-mom-close.md) and [**MM\_MOM\_OPEN**](mm-mom-open.md).
+A *wParam* parameter and an *lParam* parameter are associated with each of these messages. The *wParam* parameter always specifies the handle of an open MIDI device. For [**MM\_MOM\_DONE**](mm-mom-done.md), *lParam* specifies an address of a [**MIDIHDR**](https://msdn.microsoft.com/en-us/library/Dd798449(v=VS.85).aspx) structure identifying the completed data block. The *lParam* parameter is unused for [**MM\_MOM\_CLOSE**](mm-mom-close.md) and [**MM\_MOM\_OPEN**](mm-mom-open.md).
 
 The most useful message is probably MM\_MOM\_DONE. Unless you need to allocate memory or initialize variables, you probably do not need to process MM\_MOM\_OPEN and MM\_MOM\_CLOSE. When playback of a data block is complete, you can clean up and free the data block.
 

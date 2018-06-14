@@ -39,7 +39,7 @@ pd3dDevice->CreateBlendState1(&amp;BlendState, &amp;g_pBlendStateNoBlend);
 
 
 
-This example is similar to the [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/windows/desktop/61f892cf-4760-177b-5048-0ba3906d8bfc).
+This example is similar to the [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/en-us/library/Ee416414(v=VS.85).aspx).
 
 ## Bind the Blend State
 

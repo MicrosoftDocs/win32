@@ -34,7 +34,7 @@
 #### [ILocationPermissions](/windows/desktop/api/sensorsapi/nn-sensorsapi-ilocationpermissions)
 <!-- ERROR:##### [GetGlobalLocationPermission method](winsensors-com-ref/ilocationpermissions-getgloballocationpermission.md)-->
 ##### [CheckLocationCapability method](/windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-checklocationcapability)
-#### [ILogicalSensorManager](/windows/desktop/api/sensorsapi/)
+#### [ILogicalSensorManager](https://msdn.microsoft.com/en-us/library/Dd318934(v=VS.85).aspx)
 <!-- ERROR:##### [Connect Method](winsensors-com-ref/ilogicalsensormanager-connect.md)-->
 <!-- ERROR:##### [Disconnect Method](winsensors-com-ref/ilogicalsensormanager-disconnect.md)-->
 <!-- ERROR:##### [Uninstall Method](winsensors-com-ref/ilogicalsensormanager-uninstall.md)-->

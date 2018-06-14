@@ -35,7 +35,7 @@ typedef struct D3DXSHADER_CONSTANTINFO {
 **Name**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -46,18 +46,18 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 **RegisterSet**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Register set. See [**D3DXREGISTER\_SET**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxregister_set.htm).
+Register set. See [**D3DXREGISTER\_SET**](https://msdn.microsoft.com/en-us/library/Bb205424(v=VS.85).aspx).
 
 </dd> <dt>
 
 **RegisterIndex**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -68,7 +68,7 @@ The register index.
 **RegisterCount**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -79,7 +79,7 @@ Number of registers.
 **Reserved**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**WORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -90,7 +90,7 @@ Reserved.
 **TypeInfo**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -101,7 +101,7 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 **DefaultValue**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

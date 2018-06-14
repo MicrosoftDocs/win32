@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Microsoft Windows Search uses property handlers to extract the values of properties from items and uses the property system schema to determine how a specific property should be indexed. To read and index property values, property handlers are invoked out-of-process by Windows Search to improve security and robustness. In contrast, property handlers are invoked in-process by Windows Explorer to read and write property values.
 
-This topic supplements the [Property System](https://msdn.microsoft.com/windows/desktop/9dacd399-2cf3-40dd-9501-f26f0281500d) topic with information specific to Windows Search and contains the following sections:
+This topic supplements the [Property System](https://msdn.microsoft.com/en-us/library/Cc144125(v=VS.85).aspx) topic with information specific to Windows Search and contains the following sections:
 
 -   [Design Decisions for Property Handlers](#design-decisions-for-property-handlers)
     -   [Property Decisions](#property-decisions)
@@ -81,7 +81,7 @@ We recommend using a matrix to help you design your properties:
 
  
 
-For each of these properties, you need to determine what attributes it should have and then describe them formally in Property Description XML files (.propdesc). Attributes include the property's data type, label, help string and more. For indexable properties, you should pay particular attention to the following property attributes found in the [searchInfo](https://msdn.microsoft.com/windows/desktop/1cb0b630-323c-41cf-8aaf-db3028b2e369)   XML element of the Property Description file.
+For each of these properties, you need to determine what attributes it should have and then describe them formally in Property Description XML files (.propdesc). Attributes include the property's data type, label, help string and more. For indexable properties, you should pay particular attention to the following property attributes found in the [searchInfo](https://msdn.microsoft.com/en-us/library/Bb773885(v=VS.85).aspx)   XML element of the Property Description file.
 
 
 
@@ -184,11 +184,11 @@ Developing a property handler involves implementing the following interfaces:
 
 ### IInitializeWithStream
 
-As described in the [Property System](https://msdn.microsoft.com/windows/desktop/9dacd399-2cf3-40dd-9501-f26f0281500d) topic, we strongly recommend implementing property handlers with **IInitializeWithStream** to do stream-based initialization. If you chose not to implement IInitializeWithStream, the property handler must opt out of running in the isolation process by setting the DisableProcessIsolation flag on the property handler's registry key. Disabling process isolation is generally intended only for legacy property handlers and should be strenuously avoided by any new code.
+As described in the [Property System](https://msdn.microsoft.com/en-us/library/Cc144125(v=VS.85).aspx) topic, we strongly recommend implementing property handlers with **IInitializeWithStream** to do stream-based initialization. If you chose not to implement IInitializeWithStream, the property handler must opt out of running in the isolation process by setting the DisableProcessIsolation flag on the property handler's registry key. Disabling process isolation is generally intended only for legacy property handlers and should be strenuously avoided by any new code.
 
 ### IPropertyStore
 
-To create a property handler, you must implement the [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) interface with the following methods.
+To create a property handler, you must implement the [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) interface with the following methods.
 
 
 
@@ -208,7 +208,7 @@ To create a property handler, you must implement the [**IPropertyStore**](https:
 
  
 
-Important considerations for implementing this interface are included in the [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653) documentation.
+Important considerations for implementing this interface are included in the [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx) documentation.
 
 > [!Note]  
 > If your property handler emits multiple values for the same property for a given item, only the last value emitted is stored in the catalog.
@@ -331,7 +331,7 @@ You can use the CLSID listed in the following table to register the system-suppl
 
  
 
-Before creating a custom property, you should be sure there isn't a system-defined property you can use instead. You can enumerate the system-defined properties by calling [**PSEnumeratePropertyDescriptions**](https://msdn.microsoft.com/687d5a32-3a2e-4b9b-b06c-ca06a6cd1595) or using the prop.exe command line tool.
+Before creating a custom property, you should be sure there isn't a system-defined property you can use instead. You can enumerate the system-defined properties by calling [**PSEnumeratePropertyDescriptions**](https://msdn.microsoft.com/en-us/library/Bb776495(v=VS.85).aspx) or using the prop.exe command line tool.
 
 The system schema defines how these properties interact with the indexer, and you cannot change that. Furthermore, the application you use to create, edit and save your file type needs to conform to certain behavior as well. For example, if the application implements safe save (whereby a temporary file is created during editing, and then ReplaceFile() is used to swap the new version for the old), it must transfer all of the properties from the original file to the new file. Failure to do means the file loses properties added by users or other applications.
 
@@ -410,7 +410,7 @@ System.FileOwner;System.ComputerName
 **Other Resources**
 </dt> <dt>
 
-[Property System](https://msdn.microsoft.com/windows/desktop/9dacd399-2cf3-40dd-9501-f26f0281500d)
+[Property System](https://msdn.microsoft.com/en-us/library/Cc144125(v=VS.85).aspx)
 </dt> <dt>
 
 [System Properties](http://msdn.microsoft.com/en-us/library/bb763010(VS.85).aspx)

@@ -57,7 +57,7 @@ The input code. This parameter can be one of the following values.
 *lParam* 
 </dt> <dd>
 
-A handle to the [**RAWINPUT**](/windows/desktop/api/Winuser/nf-winuser-defrawinputproc) structure that contains the raw input from the device.
+A handle to the [**RAWINPUT**](https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx) structure that contains the raw input from the device.
 
 </dd> </dl>
 
@@ -67,11 +67,11 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-To get the *wParam* value, use the [**GET\_RAWINPUT\_CODE\_WPARAM**](/windows/desktop/api/Winuser/nf-winuser-get_rawinput_code_wparam) macro.
+To get the *wParam* value, use the [**GET\_RAWINPUT\_CODE\_WPARAM**](https://msdn.microsoft.com/en-us/library/ms645592(v=VS.85).aspx) macro.
 
-Note that *lParam* has the handle to the [**RAWINPUT**](/windows/desktop/api/Winuser/nf-winuser-defrawinputproc) structure, not a pointer to it. To get the raw data, use the handle in the call to [**GetRawInputData**](/windows/desktop/api/Winuser/nf-winuser-getrawinputdata).
+Note that *lParam* has the handle to the [**RAWINPUT**](https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx) structure, not a pointer to it. To get the raw data, use the handle in the call to [**GetRawInputData**](https://msdn.microsoft.com/en-us/library/ms645596(v=VS.85).aspx).
 
-Raw input is available only when the application calls [**RegisterRawInputDevices**](/windows/desktop/api/Winuser/nf-winuser-registerrawinputdevices) with valid device specifications
+Raw input is available only when the application calls [**RegisterRawInputDevices**](https://msdn.microsoft.com/en-us/library/ms645600(v=VS.85).aspx) with valid device specifications
 
 ## Requirements
 
@@ -92,16 +92,16 @@ Raw input is available only when the application calls [**RegisterRawInputDevice
 **Reference**
 </dt> <dt>
 
-[**GetRawInputData**](/windows/desktop/api/Winuser/nf-winuser-getrawinputdata)
+[**GetRawInputData**](https://msdn.microsoft.com/en-us/library/ms645596(v=VS.85).aspx)
 </dt> <dt>
 
-[**RegisterRawInputDevices**](/windows/desktop/api/Winuser/nf-winuser-registerrawinputdevices)
+[**RegisterRawInputDevices**](https://msdn.microsoft.com/en-us/library/ms645600(v=VS.85).aspx)
 </dt> <dt>
 
-[**RAWINPUT**](/windows/desktop/api/Winuser/nf-winuser-defrawinputproc)
+[**RAWINPUT**](https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx)
 </dt> <dt>
 
-[**GET\_RAWINPUT\_CODE\_WPARAM**](/windows/desktop/api/Winuser/nf-winuser-get_rawinput_code_wparam)
+[**GET\_RAWINPUT\_CODE\_WPARAM**](https://msdn.microsoft.com/en-us/library/ms645592(v=VS.85).aspx)
 </dt> <dt>
 
 **Conceptual**

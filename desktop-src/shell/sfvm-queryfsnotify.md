@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[**SFVM\_QUERYFSNOTIFY** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-Allows the callback object to register a folder so that changes to that folder's view will generate notifications. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/desktop/api/Shlobj/).
+Allows the callback object to register a folder so that changes to that folder's view will generate notifications. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).
 
 
 ```C++

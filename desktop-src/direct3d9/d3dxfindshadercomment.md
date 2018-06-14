@@ -34,7 +34,7 @@ HRESULT D3DXFindShaderComment(
 *pFunction* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **const [**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the shader function DWORD stream.
 
@@ -43,7 +43,7 @@ Pointer to the shader function DWORD stream.
 *FourCC* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 FOURCC code that identifies the comment block. See [FourCC Formats](d3dformat.md).
 
@@ -52,7 +52,7 @@ FOURCC code that identifies the comment block. See [FourCC Formats](d3dformat.md
 *ppData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**LPCVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Returns a pointer to the comment data (not including the comment token and FOURCC code). This value can be **NULL**.
 
@@ -61,7 +61,7 @@ Returns a pointer to the comment data (not including the comment token and FOURC
 *pSizeInBytes* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Returns the size of the comment data in bytes. This value can be **NULL**.
 
@@ -69,7 +69,7 @@ Returns the size of the comment data in bytes. This value can be **NULL**.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the comment is not found, and no other error has occurred, S\_FALSE is returned.
 

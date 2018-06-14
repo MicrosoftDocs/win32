@@ -25,7 +25,7 @@ This topic is organized as follows:
 Additional information can be found on the following topics:
 
 -   [How To Choose a File Type Extension](how-to-choose-a-file-type-extension.md)
--   [How To Define File Type Attributes](https://msdn.microsoft.com/windows/desktop/EE35E3E7-0573-45CA-A21A-89E50B86487D)
+-   [How To Define File Type Attributes](https://msdn.microsoft.com/en-us/library/Hh127434(v=VS.85).aspx)
 -   [How To Include an Application on the Open with Dialog Box](how-to-include-an-application-on-the-open-with-dialog-box.md)
 -   [How To Exclude an Application from the Open with Dialog Box for Unassociated File Types](how-to-exclude-an-application-from-the-open-with-dialog-box-for-unassociated-file-types.md)
 
@@ -105,7 +105,7 @@ HKEY_CLASSES_ROOT
 Important considerations about file types include:
 
 -   The **HKEY\_CLASSES\_ROOT** subtree is a view formed by merging **HKEY\_CURRENT\_USER**\\**Software**\\**Classes** and **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Classes**
--   In general, **HKEY\_CLASSES\_ROOT** is intended to be read from but not written to. For more information, see the [HKEY\_CLASSES\_ROOT](https://msdn.microsoft.com/b404875f-11e1-48f2-98d2-0378a0646ed3) article.
+-   In general, **HKEY\_CLASSES\_ROOT** is intended to be read from but not written to. For more information, see the [HKEY\_CLASSES\_ROOT](https://msdn.microsoft.com/en-us/library/ms724475(v=VS.85).aspx) article.
 -   To register a file type globally on a particular computer, create an entry for the file type in the **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Classes** subkey.
 -   To make a file type registration visible to the current user only, create an entry for the file type in the **HKEY\_CURRENT\_USER**\\**Software**\\**Classes** subkey.
 -   An application can provide its own implementation of a verb, such as open or play, as shown in the following registry example.
@@ -121,7 +121,7 @@ Important considerations about file types include:
     Subkeys of the verb subkey include the command line and the drop target method: **command** and **DropTarget**.
 
 -   When you create or change a file association, it is important to notify the system that you have made a change. Do so by calling [**SHChangeNotify**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify) and specifying the **SHCNE\_ASSOCCHANGED** event. If you do not call **SHChangeNotify**, the change may not be recognized until after the system is rebooted.
--   To retrieve registry information regarding a file association, use the [**IQueryAssociations**](/windows/desktop/api/Shlwapi/) interface. For a scenario that illustrates this procedure, see [File Association Sample Scenario](fa-sample-scenarios.md).
+-   To retrieve registry information regarding a file association, use the [**IQueryAssociations**](https://msdn.microsoft.com/en-us/library/Bb761400(v=VS.85).aspx) interface. For a scenario that illustrates this procedure, see [File Association Sample Scenario](fa-sample-scenarios.md).
 
 > [!Note]  
 > Both the **App Paths** and **Applications** registry subkeys are used to register and control the behavior of the system on behalf of applications. For more detailed information about this functionality, see [Application Registration](app-registration.md).

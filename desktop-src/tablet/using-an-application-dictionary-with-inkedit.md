@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Using an Application Dictionary with InkEdit
 
-To create an application dictionary, it is necessary to set the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of the [**RecognizerContext**](/windows/desktop/api/msinkaut/) object. The [InkEdit](inkedit-control-reference.md) control does not expose the **RecognizerContext** object, so it is not possible to directly set the **WordList** property of the InkEdit control's **RecognizerContext** object.
+To create an application dictionary, it is necessary to set the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of the [**RecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object. The [InkEdit](inkedit-control-reference.md) control does not expose the **RecognizerContext** object, so it is not possible to directly set the **WordList** property of the InkEdit control's **RecognizerContext** object.
 
-To use an application dictionary with an [InkEdit](inkedit-control-reference.md) control, you must take the strokes out of the InkEdit control, pass them to a new [**RecognizerContext**](/windows/desktop/api/msinkaut/) object with the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property set to a [**WordList**](/windows/desktop/api/msinkaut/) containing the application dictionary, store the results from this **RecognizerContext** object, and then pass the results back to the InkEdit control.
+To use an application dictionary with an [InkEdit](inkedit-control-reference.md) control, you must take the strokes out of the InkEdit control, pass them to a new [**RecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object with the [**WordList**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property set to a [**WordList**](https://msdn.microsoft.com/en-us/library/ms703370(v=VS.85).aspx) containing the application dictionary, store the results from this **RecognizerContext** object, and then pass the results back to the InkEdit control.
 
 ## Example
 

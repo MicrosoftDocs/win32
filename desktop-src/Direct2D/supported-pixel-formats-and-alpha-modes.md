@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 # Supported Pixel Formats and Alpha Modes
 
-This topic describes the pixel formats and alpha modes supported by the various parts of Direct2D, including each render target type, the [**ID2D1Bitmap**](/windows/desktop/api/d2d1/), and [**ID2D1ImageSource**](/windows/desktop/api/D2d1_3/). It contains the following sections.
+This topic describes the pixel formats and alpha modes supported by the various parts of Direct2D, including each render target type, the [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx), and [**ID2D1ImageSource**](https://msdn.microsoft.com/en-us/library/Dn900413(v=VS.85).aspx). It contains the following sections.
 
 -   [Supported YUV Formats for DXGI Image Source](#supported-yuv-formats-for-dxgi-image-source)
 -   [Specifying a Pixel Format for a Render Target](#specifying-a-pixel-format-for-a-render-target)
@@ -36,11 +36,11 @@ This topic describes the pixel formats and alpha modes supported by the various 
 
 ## Supported YUV Formats for DXGI Image Source
 
-An [**ID2D1ImageSource**](/windows/desktop/api/D2d1_3/) is an abstracted provider of pixels. It can be instantiated from either WIC ([**CreateImageSourceFromWic**](/windows/desktop/api/d2d1_3/nf-d2d1_3-createimagesourcefromwic)) or an [**IDXGISurface**](https://msdn.microsoft.com/library/windows/desktop/bb174565) ([**CreateImageSourceFromDxgi**](/windows/desktop/api/D2d1_3/)).
+An [**ID2D1ImageSource**](https://msdn.microsoft.com/en-us/library/Dn900413(v=VS.85).aspx) is an abstracted provider of pixels. It can be instantiated from either WIC ([**CreateImageSourceFromWic**](/windows/desktop/api/d2d1_3/nf-d2d1_3-createimagesourcefromwic)) or an [**IDXGISurface**](https://msdn.microsoft.com/library/windows/desktop/bb174565) ([**CreateImageSourceFromDxgi**](https://msdn.microsoft.com/en-us/library/Dn890791(v=VS.85).aspx)).
 
-[**ID2D1ImageSourceFromWic**](/windows/desktop/api/d2d1_3/) supports the same set of pixel formats and alpha modes as [**ID2D1Bitmap**](/windows/desktop/api/d2d1/).
+[**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/en-us/library/Dn900414(v=VS.85).aspx) supports the same set of pixel formats and alpha modes as [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx).
 
-In addition to the above, an [**ID2D1ImageSource**](/windows/desktop/api/D2d1_3/) that is instantiated from [**IDXGISurface**](https://msdn.microsoft.com/library/windows/desktop/bb174565) also supports some YUV pixel formats, including planar data split into multiple surfaces. See [**CreateImageSourceFromDxgi**](/windows/desktop/api/D2d1_3/) for more information about requirements for each pixel format.
+In addition to the above, an [**ID2D1ImageSource**](https://msdn.microsoft.com/en-us/library/Dn900413(v=VS.85).aspx) that is instantiated from [**IDXGISurface**](https://msdn.microsoft.com/library/windows/desktop/bb174565) also supports some YUV pixel formats, including planar data split into multiple surfaces. See [**CreateImageSourceFromDxgi**](https://msdn.microsoft.com/en-us/library/Dn890791(v=VS.85).aspx) for more information about requirements for each pixel format.
 
 
 
@@ -61,14 +61,14 @@ In addition to the above, an [**ID2D1ImageSource**](/windows/desktop/api/D2d1_3/
 
 ## Specifying a Pixel Format for a Render Target
 
-When you create a render target, you must specify its pixel format. To specify the pixel format, you use a [**D2D1\_PIXEL\_FORMAT**](/windows/desktop/api/dcommon/ns-dcommon-d2d1_pixel_format) structure to set the **pixelFormat** member of a [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure. Then, you pass that structure to the appropriate Create method, such as [**ID2D1Factory::CreateHwndRenderTarget**](/windows/desktop/api/d2d1/).
+When you create a render target, you must specify its pixel format. To specify the pixel format, you use a [**D2D1\_PIXEL\_FORMAT**](/windows/desktop/api/dcommon/ns-dcommon-d2d1_pixel_format) structure to set the **pixelFormat** member of a [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure. Then, you pass that structure to the appropriate Create method, such as [**ID2D1Factory::CreateHwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371275(v=VS.85).aspx).
 
 The [**D2D1\_PIXEL\_FORMAT**](/windows/desktop/api/dcommon/ns-dcommon-d2d1_pixel_format) structure has two fields:
 
 -   **format**, a [DXGI\_FORMAT](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) value that describes the size and arrangement of channels in each pixel, and
 -   **alpha**, a [**D2D1\_ALPHA\_MODE**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) value that describes how alpha information is interpreted.
 
-The following example creates a [**D2D1\_PIXEL\_FORMAT**](/windows/desktop/api/dcommon/ns-dcommon-d2d1_pixel_format) structure and uses it to specify the pixel format and alpha mode of an [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/).
+The following example creates a [**D2D1\_PIXEL\_FORMAT**](/windows/desktop/api/dcommon/ns-dcommon-d2d1_pixel_format) structure and uses it to specify the pixel format and alpha mode of an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx).
 
 
 ```C++
@@ -105,18 +105,18 @@ Different render targets support different format and alpha mode combinations. T
 
 ## Supported Formats for ID2D1HwndRenderTarget
 
-The supported formats for an [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/) depend on whether it renders by using hardware or software, or whether Direct2D handles the rendering mode automatically by default.
+The supported formats for an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) depend on whether it renders by using hardware or software, or whether Direct2D handles the rendering mode automatically by default.
 
 > [!Note]  
 > We recommend that you use [**DXGI\_FORMAT\_B8G8R8A8\_UNORM**](https://msdn.microsoft.com/library/windows/desktop/bb173059) as the pixel format for better performance. This is particularly helpful for software render targets. BGRA format targets perform better than RGBA formats.
 
  
 
-When you create an [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/), you use the [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure to specify rendering options. The options include the pixel format, as noted in the previous section. The type field of this structure enables you to specify whether the render target renders to hardware or software, or whether Direct2D should automatically determine the rendering mode.
+When you create an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx), you use the [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure to specify rendering options. The options include the pixel format, as noted in the previous section. The type field of this structure enables you to specify whether the render target renders to hardware or software, or whether Direct2D should automatically determine the rendering mode.
 
 To enable Direct2D to determine whether the render target uses hardware or software rendering, use the [**D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT**](https://msdn.microsoft.com/library/windows/desktop/dd756630) setting.
 
-The following table lists the supported formats for [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/) objects that are created by using the [**D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT**](https://msdn.microsoft.com/library/windows/desktop/dd756630) setting.
+The following table lists the supported formats for [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) objects that are created by using the [**D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT**](https://msdn.microsoft.com/library/windows/desktop/dd756630) setting.
 
 
 
@@ -133,7 +133,7 @@ The following table lists the supported formats for [**ID2D1HwndRenderTarget**](
 
  
 
-To force a render target to use hardware rendering, use the [**D2D1\_RENDER\_TARGET\_TYPE\_HARDWARE**](https://msdn.microsoft.com/library/windows/desktop/dd756630) setting. The following table lists the supported formats for [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/) objects that explicitly use hardware rendering.
+To force a render target to use hardware rendering, use the [**D2D1\_RENDER\_TARGET\_TYPE\_HARDWARE**](https://msdn.microsoft.com/library/windows/desktop/dd756630) setting. The following table lists the supported formats for [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) objects that explicitly use hardware rendering.
 
 
 
@@ -153,7 +153,7 @@ To force a render target to use hardware rendering, use the [**D2D1\_RENDER\_TAR
 
  
 
-To force a render target to use software rendering, use the [**D2D1\_RENDER\_TARGET\_TYPE\_SOFTWARE**](https://msdn.microsoft.com/library/windows/desktop/dd756630) setting. The following table lists the supported formats for [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/) objects that explicitly use software rendering.
+To force a render target to use software rendering, use the [**D2D1\_RENDER\_TARGET\_TYPE\_SOFTWARE**](https://msdn.microsoft.com/library/windows/desktop/dd756630) setting. The following table lists the supported formats for [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) objects that explicitly use software rendering.
 
 
 
@@ -170,11 +170,11 @@ To force a render target to use software rendering, use the [**D2D1\_RENDER\_TAR
 
  
 
-Regardless of whether the [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/) is hardware accelerated, the [DXGI\_FORMAT\_UNKNOWN](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) format uses [DXGI\_FORMAT\_B8G8R8A8](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) by default and the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode uses **D2D1\_ALPHA\_MODE\_IGNORE** by default.
+Regardless of whether the [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) is hardware accelerated, the [DXGI\_FORMAT\_UNKNOWN](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) format uses [DXGI\_FORMAT\_B8G8R8A8](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) by default and the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode uses **D2D1\_ALPHA\_MODE\_IGNORE** by default.
 
 ## Supported formats for ID2D1DeviceContext
 
-Starting with Windows 8 the [**device context**](/windows/desktop/api/D2d1_1/) takes advantage of more of the [**Direct3D high color formats**](https://msdn.microsoft.com/library/windows/desktop/bb173059) like:
+Starting with Windows 8 the [**device context**](https://msdn.microsoft.com/en-us/library/Hh404479(v=VS.85).aspx) takes advantage of more of the [**Direct3D high color formats**](https://msdn.microsoft.com/library/windows/desktop/bb173059) like:
 
 -   DXGI\_FORMAT\_B8G8R8A8\_UNORM\_SRGB
 -   DXGI\_FORMAT\_R8G8B8A8\_UNORM\_SRGB
@@ -182,13 +182,13 @@ Starting with Windows 8 the [**device context**](/windows/desktop/api/D2d1_1/) 
 -   DXGI\_FORMAT\_R16G16B16A16\_FLOAT
 -   DXGI\_FORMAT\_R32G32B32A32\_FLOAT
 
-Use the [**ID2D1DeviceContext::IsDxgiFormatSupported**](/windows/desktop/api/D2d1_1/) method to see if a format works on a particular device context. These formats may also work on an [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/).
+Use the [**ID2D1DeviceContext::IsDxgiFormatSupported**](https://msdn.microsoft.com/en-us/library/Hh847982(v=VS.85).aspx) method to see if a format works on a particular device context. These formats may also work on an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx).
 
-These formats are in addition to the formats supported by the [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/) interface in Windows 7. See [Devices and Device Contexts](devices-and-device-contexts.md) for more information.
+These formats are in addition to the formats supported by the [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) interface in Windows 7. See [Devices and Device Contexts](devices-and-device-contexts.md) for more information.
 
 ## Supported Formats for Compatible Render Target
 
-A compatible render target (an [**ID2D1BitmapRenderTarget**](/windows/desktop/api/d2d1/) that is created by one of the [**ID2D1RenderTarget::CreateCompatibleRenderTarget**](https://msdn.microsoft.com/library/windows/desktop/dd371825) methods) inherits the supported formats and alpha modes of the render target that created it. A compatible render target also supports the following format and alpha mode combinations, regardless of what its parent supports.
+A compatible render target (an [**ID2D1BitmapRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371146(v=VS.85).aspx) that is created by one of the [**ID2D1RenderTarget::CreateCompatibleRenderTarget**](https://msdn.microsoft.com/library/windows/desktop/dd371825) methods) inherits the supported formats and alpha modes of the render target that created it. A compatible render target also supports the following format and alpha mode combinations, regardless of what its parent supports.
 
 
 
@@ -206,7 +206,7 @@ The [DXGI\_FORMAT\_UNKNOWN](http://msdn.microsoft.com/library/bb173059(VS.85).as
 
 ## Supported Formats for DXGI Surface Render Target
 
-A DXGI render target is an [**ID2D1RenderTarget**](/windows/desktop/api/d2d1/) that is created by one of the [**ID2D1Factory::CreateDxgiSurfaceRenderTarget**](/windows/desktop/api/d2d1/) methods. It supports the following format and alpha mode combinations.
+A DXGI render target is an [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx) that is created by one of the [**ID2D1Factory::CreateDxgiSurfaceRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371264(v=VS.85).aspx) methods. It supports the following format and alpha mode combinations.
 
 
 
@@ -234,7 +234,7 @@ The [DXGI\_FORMAT\_UNKNOWN](http://msdn.microsoft.com/library/bb173059(VS.85).as
 
 ## Supported Formats for WIC Bitmap Render Target
 
-A WIC bitmap render target is an [**ID2D1RenderTarget**](/windows/desktop/api/d2d1/) that is created by one of the [**ID2D1Factory::CreateWicBitmapRenderTarget**](/windows/desktop/api/d2d1/) methods. It supports the following format and alpha mode combinations.
+A WIC bitmap render target is an [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx) that is created by one of the [**ID2D1Factory::CreateWicBitmapRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371309(v=VS.85).aspx) methods. It supports the following format and alpha mode combinations.
 
 
 
@@ -260,7 +260,7 @@ The[DXGI\_FORMAT\_UNKNOWN](http://msdn.microsoft.com/library/bb173059(VS.85).asp
 
 ## Supported Formats for ID2D1DCRenderTarget
 
-An [**ID2D1DCRenderTarget**](/windows/desktop/api/d2d1/) supports the following format and alpha mode combinations.
+An [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371213(v=VS.85).aspx) supports the following format and alpha mode combinations.
 
 
 
@@ -273,11 +273,11 @@ An [**ID2D1DCRenderTarget**](/windows/desktop/api/d2d1/) supports the following 
 
  
 
-Do not use the [DXGI\_FORMAT\_UNKNOWN](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) format or the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode with an [**ID2D1DCRenderTarget**](/windows/desktop/api/d2d1/). It has no default value and will cause the **ID2D1DCRenderTarget** creation to fail.
+Do not use the [DXGI\_FORMAT\_UNKNOWN](http://msdn.microsoft.com/library/bb173059(VS.85).aspx) format or the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode with an [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371213(v=VS.85).aspx). It has no default value and will cause the **ID2D1DCRenderTarget** creation to fail.
 
 ## Specifying a Pixel Format for an ID2D1Bitmap
 
-Generally, [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) objects support the following formats and alpha modes (with some restrictions, described in the paragraphs that follow.)
+Generally, [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) objects support the following formats and alpha modes (with some restrictions, described in the paragraphs that follow.)
 
 
 
@@ -307,9 +307,9 @@ Generally, [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) objects support the fol
 
  
 
-When you use the [**ID2D1RenderTarget::CreateSharedBitmap**](/windows/desktop/api/d2d1/) method, you use the **pixelFormat** field of a [**D2D1\_BITMAP\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_properties) structure to specify the pixel format of the new render target. It must match the pixel format of the [**ID2D1Bitmap**](/windows/desktop/api/d2d1/) source.
+When you use the [**ID2D1RenderTarget::CreateSharedBitmap**](https://msdn.microsoft.com/en-us/library/Dd371865(v=VS.85).aspx) method, you use the **pixelFormat** field of a [**D2D1\_BITMAP\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_properties) structure to specify the pixel format of the new render target. It must match the pixel format of the [**ID2D1Bitmap**](https://msdn.microsoft.com/en-us/library/Dd371109(v=VS.85).aspx) source.
 
-When you use the [**CreateBitmapFromWicBitmap**](/windows/desktop/api/d2d1/) method, you use the **pixelFormat** field of a [**D2D1\_BITMAP\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_properties) structure (instead of the **pixelFormat** member of a [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure) to specify the pixel format of the new render target. It must match the pixel format of the WIC bitmap source.
+When you use the [**CreateBitmapFromWicBitmap**](https://msdn.microsoft.com/en-us/library/Dd371797(v=VS.85).aspx) method, you use the **pixelFormat** field of a [**D2D1\_BITMAP\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_properties) structure (instead of the **pixelFormat** member of a [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure) to specify the pixel format of the new render target. It must match the pixel format of the WIC bitmap source.
 
 > [!Note]  
 > For more information about support for block compressed (BCₙ) pixel formats, see [Block compression](block-compression.md).
@@ -318,7 +318,7 @@ When you use the [**CreateBitmapFromWicBitmap**](/windows/desktop/api/d2d1/) met
 
 ### Supported WIC Formats
 
-When you use the [**CreateBitmapFromWicBitmap**](/windows/desktop/api/d2d1/) method to create a bitmap from a WIC bitmap, or when you use the [**CreateSharedBitmap**](/windows/desktop/api/d2d1/) method with an [**IWICBitmapLock**](https://msdn.microsoft.com/windows/desktop/c0ddbc25-6abe-484b-a545-3b9376c514df), the WIC source must be in a format supported by Direct2D.
+When you use the [**CreateBitmapFromWicBitmap**](https://msdn.microsoft.com/en-us/library/Dd371797(v=VS.85).aspx) method to create a bitmap from a WIC bitmap, or when you use the [**CreateSharedBitmap**](https://msdn.microsoft.com/en-us/library/Dd371865(v=VS.85).aspx) method with an [**IWICBitmapLock**](https://msdn.microsoft.com/en-us/library/Ee690161(v=VS.85).aspx), the WIC source must be in a format supported by Direct2D.
 
 
 
@@ -357,19 +357,19 @@ When describing an RGBA color by using straight alpha, the alpha value of the co
 
 When describing an RGBA color by using premultiplied alpha, each color is multiplied by the alpha value: (255 \* 0.6, 0 \* 0.6, 0 \* 0.6, 255 \* 0.6) = (153, 0, 0, 153).
 
-Regardless of the alpha mode of the render target, [**D2D1\_COLOR\_F**](d2d1-color-f.md) values are always interpreted as straight alpha. For example, when specifying the color of an [**ID2D1SolidColorBrush**](/windows/desktop/api/d2d1/) for use with a render target that uses the premultiplied alpha mode, specify the color just as you would if the render target used straight alpha. When you paint with the brush, Direct2D translates the color to the destination format for you.
+Regardless of the alpha mode of the render target, [**D2D1\_COLOR\_F**](d2d1-color-f.md) values are always interpreted as straight alpha. For example, when specifying the color of an [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/en-us/library/Dd372207(v=VS.85).aspx) for use with a render target that uses the premultiplied alpha mode, specify the color just as you would if the render target used straight alpha. When you paint with the brush, Direct2D translates the color to the destination format for you.
 
 ### Alpha Mode for Render Targets
 
 Regardless of the alpha mode setting, a render target's contents support transparency. For example, if you draw a partly transparent red rectangle with a render target with an alpha mode of [**D2D1\_ALPHA\_MODE\_IGNORE**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode), the rectangle will appear pink (if the background is white).
 
-If you draw a partly transparent red rectangle when the alpha mode is [**D2D1\_ALPHA\_MODE\_PREMULTIPLIED**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode), the rectangle will appear pink (assuming the background is white) and you can see through it to whatever is behind the render target. This is useful when you use a [**ID2D1DCRenderTarget**](/windows/desktop/api/d2d1/) to render to a transparent window or when you use an compatible render target (a render targeted created by the [**CreateCompatibleRenderTarget**](/windows/desktop/api/d2d1/nf-d2d1-createcompatiblerendertarget) method) to create a bitmap that supports transparency.
+If you draw a partly transparent red rectangle when the alpha mode is [**D2D1\_ALPHA\_MODE\_PREMULTIPLIED**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode), the rectangle will appear pink (assuming the background is white) and you can see through it to whatever is behind the render target. This is useful when you use a [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371213(v=VS.85).aspx) to render to a transparent window or when you use an compatible render target (a render targeted created by the [**CreateCompatibleRenderTarget**](/windows/desktop/api/d2d1/nf-d2d1-createcompatiblerendertarget) method) to create a bitmap that supports transparency.
 
 ### ClearType and Alpha Modes
 
 If you specify an alpha mode other than [**D2D1\_ALPHA\_MODE\_IGNORE**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) for a render target, the text antialiasing mode automatically changes from [**D2D1\_TEXT\_ANTIALIAS\_MODE CLEARTYPE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode) to **D2D1\_TEXT\_ANTIALIAS\_MODE GRAYSCALE**. (When you specify an alpha mode of **D2D1\_ALPHA\_MODE\_UNKNOWN**, Direct2D sets the alpha for you, depending on the kind of render target.)
 
-You can use the [**SetTextAntialiasMode**](/windows/desktop/api/d2d1/) method to change the text antialias mode back to [**D2D1\_TEXT\_ANTIALIAS\_MODE CLEARTYPE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode), but rendering ClearType text to a transparent surface can create unpredictable results. If you want to render ClearType text to an transparent render target, we recommend that you use one of the following two techniques.
+You can use the [**SetTextAntialiasMode**](https://msdn.microsoft.com/en-us/library/Dd316897(v=VS.85).aspx) method to change the text antialias mode back to [**D2D1\_TEXT\_ANTIALIAS\_MODE CLEARTYPE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode), but rendering ClearType text to a transparent surface can create unpredictable results. If you want to render ClearType text to an transparent render target, we recommend that you use one of the following two techniques.
 
 -   Use the [**PushAxisAlignedClip**](/windows/desktop/api/d2d1_1/nf-d2d1-pushaxisalignedclip) method to clip the render target to the area where the text will be rendered, then call the [**Clear**](id2d1rendertarget-clear.md) method and specify an opaque color, then render your text.
 -   Use [**DrawRectangle**](/windows/desktop/api/d2d1_1/nf-d2d1-drawrectangle) to draw an opaque rectangle behind the area where the text will be rendered.

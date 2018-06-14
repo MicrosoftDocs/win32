@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # InkRecognizerContext.RecognitionWithAlternates event
 
-Occurs when the [**InkRecognizerContext Class**](/windows/desktop/api/msinkaut/) has generated results after calling the [**BackgroundRecognizeWithAlternates Method**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates) method.
+Occurs when the [**InkRecognizerContext Class**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) has generated results after calling the [**BackgroundRecognizeWithAlternates Method**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates) method.
 
 ## Syntax
 
@@ -59,9 +59,9 @@ This event does not return a value.
 
 ## Remarks
 
-The behavior of the application programming interface (API) is unpredictable if you try to gain access to the original [**InkRecognizerContext**](/windows/desktop/api/msinkaut/) object from the recognition event handler. Do not attempt to do this. Instead, if you need to do this, create a flag and set it in the [**Recognition**](inkrecognizercontext-recognition.md) event handler. Then you can poll that flag to determine when to change the **InkRecognizerContext** properties outside of the event handler.
+The behavior of the application programming interface (API) is unpredictable if you try to gain access to the original [**InkRecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object from the recognition event handler. Do not attempt to do this. Instead, if you need to do this, create a flag and set it in the [**Recognition**](inkrecognizercontext-recognition.md) event handler. Then you can poll that flag to determine when to change the **InkRecognizerContext** properties outside of the event handler.
 
-This event method is defined in the \_IInkEvents interface. The \_IInkEvents interface implements the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface with an identifier of DISPID\_IRERecognitionWithAlternates.
+This event method is defined in the \_IInkEvents interface. The \_IInkEvents interface implements the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IRERecognitionWithAlternates.
 
 ## Requirements
 
@@ -80,7 +80,7 @@ This event method is defined in the \_IInkEvents interface. The \_IInkEvents int
 
 <dl> <dt>
 
-[**InkRecognizerContext Class**](/windows/desktop/api/msinkaut/)
+[**InkRecognizerContext Class**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx)
 </dt> <dt>
 
 [**BackgroundRecognizeWithAlternates Method**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates)

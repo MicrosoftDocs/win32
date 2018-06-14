@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 Sent by an Explorer-style **Open** or **Save As** dialog box when the user specifies a file name and clicks the **OK** button.
 
-Your [*OFNHookProc*](https://www.bing.com/search?q=*OFNHookProc*) hook procedure receives this message in the form of a [**WM\_NOTIFY**](https://msdn.microsoft.com/windows/desktop/23ff9dc1-3d92-4e94-8df5-7a645039ce27) message.
+Your [*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx) hook procedure receives this message in the form of a [**WM\_NOTIFY**](https://www.bing.com/search?q=**WM\_NOTIFY**) message.
 
 
 ```C++
@@ -49,7 +49,7 @@ This parameter is not used.
 
 A pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure.
 
-The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure contains an [**NMHDR**](https://msdn.microsoft.com/windows/desktop/0c8b116b-82ad-495a-b19d-8c172e0b2608) structure whose **code** member indicates the **CDN\_FILEOK** notification message.
+The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure contains an [**NMHDR**](https://www.bing.com/search?q=**NMHDR**) structure whose **code** member indicates the **CDN\_FILEOK** notification message.
 
 The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya) structure also contains a pointer to an [**OPENFILENAME**](/windows/desktop/api/Commdlg/ns-commdlg-tagofna) structure whose **lpstrFile** member specifies the address of the selected file name.
 
@@ -90,7 +90,7 @@ The system sends this notification only if the dialog box was created using the 
 [**GetSaveFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea)
 </dt> <dt>
 
-[*OFNHookProc*](https://www.bing.com/search?q=*OFNHookProc*)
+[*OFNHookProc*](https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx)
 </dt> <dt>
 
 [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-_ofnotifya)
@@ -111,7 +111,7 @@ The system sends this notification only if the dialog box was created using the 
 **Other Resources**
 </dt> <dt>
 
-[**WM\_NOTIFY**](https://msdn.microsoft.com/windows/desktop/23ff9dc1-3d92-4e94-8df5-7a645039ce27)
+[**WM\_NOTIFY**](https://www.bing.com/search?q=**WM\_NOTIFY**)
 </dt> </dl>
 
  

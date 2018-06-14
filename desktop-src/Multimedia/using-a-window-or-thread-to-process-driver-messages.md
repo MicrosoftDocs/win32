@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # Using a Window or Thread to Process Driver Messages
 
-To use a window callback function, specify the CALLBACK\_WINDOW flag in the *fdwOpen* parameter and a window handle in the low-order word of the *dwCallback* parameter of the [**waveInOpen**](https://www.bing.com/search?q=**waveInOpen**) or [**waveOutOpen**](https://www.bing.com/search?q=**waveOutOpen**) function. Driver messages will be sent to the window procedure for the window identified by the handle in *dwCallback*.
+To use a window callback function, specify the CALLBACK\_WINDOW flag in the *fdwOpen* parameter and a window handle in the low-order word of the *dwCallback* parameter of the [**waveInOpen**](https://msdn.microsoft.com/en-us/library/Dd743847(v=VS.85).aspx) or [**waveOutOpen**](https://msdn.microsoft.com/en-us/library/Dd743866(v=VS.85).aspx) function. Driver messages will be sent to the window procedure for the window identified by the handle in *dwCallback*.
 
 Similarly, to use a thread callback, specify CALLBACK\_THREAD and a thread handle in the call to **waveInOpen** or **waveOutOpen**. In this case, messages are posted to the specified thread instead of to a window.
 

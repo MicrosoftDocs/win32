@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 # ISCardManage interface
 
-\[The **ISCardManage** interface no longer available for use as of Windows Server 2008, Windows Vista, and Windows Server 2003 with Service Pack 1 (SP1) and later. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **ISCardManage** interface no longer available for use as of Windows Server 2008, Windows Vista, and Windows Server 2003 with Service Pack 1 (SP1) and later. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The following interface definition is provided as a standard that can be followed when developing a [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) [*service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
+The following interface definition is provided as a standard that can be followed when developing a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) [*service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
 
-The **ISCardManage** interface must be provided. It is used for attaching to a specific [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) or [*reader*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd), for creating other optional interfaces to perform specific smart card functions, for locking a specific smart card for exclusive use, and for getting the status of a smart card or reader. As a set, these services can be responsible for maintaining a well-defined context within which an application can communicate with a [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) or [*reader*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd).
+The **ISCardManage** interface must be provided. It is used for attaching to a specific [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) or [*reader*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx), for creating other optional interfaces to perform specific smart card functions, for locking a specific smart card for exclusive use, and for getting the status of a smart card or reader. As a set, these services can be responsible for maintaining a well-defined context within which an application can communicate with a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) or [*reader*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx).
 
 Following is a typical use of **ISCardManage** interface.
 
@@ -29,7 +29,7 @@ Following is a typical use of **ISCardManage** interface.
 
 ## Members
 
-The **ISCardManage** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **ISCardManage** also has these types of members:
+The **ISCardManage** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ISCardManage** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -41,7 +41,7 @@ The **ISCardManage** interface has these methods.
 
 | Method                                                            | Description                                                                                                                                                                                                                                                                |
 |:------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AttachByHandle**](iscardmanage-attachbyhandle.md)             | Allows an application to create a communication link to a smart card using a handle returned by the smart card [*resource manager*](https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd).<br/>                                              |
+| [**AttachByHandle**](iscardmanage-attachbyhandle.md)             | Allows an application to create a communication link to a smart card using a handle returned by the smart card [*resource manager*](https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx).<br/>                                              |
 | [**AttachByIFD**](iscardmanage-attachbyifd.md)                   | Allows an application to request establishment of a context for a specific reader referenced with a display name.<br/>                                                                                                                                               |
 | [**CreateCardAuth**](iscardmanage-createcardauth.md)             | Allows the creation of a [**ISCardAuth**](iscardauth.md) interface.<br/>                                                                                                                                                                                            |
 | [**CreateCHVerification**](iscardmanage-createchverification.md) | Allows the creation of a [**ISCardVerify**](iscardverify.md) interface.<br/>                                                                                                                                                                                        |

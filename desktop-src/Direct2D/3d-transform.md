@@ -184,7 +184,7 @@ For an example of this effect, download the [Direct2D 3D transform effect sample
 
 <dl> <dt>
 
-[**ID2D1Effect**](/windows/desktop/api/D2d1_1/)
+[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
 </dt> </dl>
 
  

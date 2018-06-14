@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 -   [Active Directory Lightweight Directory Services](https://msdn.microsoft.com/library/aa705886)
 -   [Active Directory Schema](https://msdn.microsoft.com/library/ms675085)
 -   [Active Directory WMI Provider](https://msdn.microsoft.com/library/aa384753)
--   [Microsoft UDDI SDK](https://msdn.microsoft.com/windows/desktop/ac915f15-6640-47f3-ae64-1a31e7220552)
+-   [Microsoft UDDI SDK](https://msdn.microsoft.com/en-us/library/Aa966237(v=BTS.10).aspx)
 -   [UDDI Class Library](https://msdn.microsoft.com/library/ee294451(BTS.10).aspx)
 
  

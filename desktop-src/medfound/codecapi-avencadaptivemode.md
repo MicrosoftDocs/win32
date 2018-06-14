@@ -23,7 +23,7 @@ Specifies the adaptive encoding mode for a video encoder.
 
 ## Property value
 
-The value of this property is a bitwise **OR** of values from the [**eAVEncAdaptiveMode**](/windows/desktop/api/codecapi/) enumeration.
+The value of this property is a bitwise **OR** of values from the [**eAVEncAdaptiveMode**](https://msdn.microsoft.com/en-us/library/Hh447684(v=VS.85).aspx) enumeration.
 
 ## Requirements
 

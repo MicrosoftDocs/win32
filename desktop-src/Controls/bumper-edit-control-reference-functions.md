@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**EditWordBreakProc**](https://www.bing.com/search?q=**EditWordBreakProc**)
+-   [**EditWordBreakProc**](https://msdn.microsoft.com/en-us/library/Bb761709(v=VS.85).aspx)
 
  
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Thread Environment Block (Debugging Notes)
 
-The Thread Environment Block ([**TEB structure**](https://msdn.microsoft.com/fc77fc09-6319-4daa-ac96-1ded661ef800)) holds context information for a thread.
+The Thread Environment Block ([**TEB structure**](https://msdn.microsoft.com/en-us/library/ms686708(v=VS.85).aspx)) holds context information for a thread.
 
 In the following versions of Windows, the offset of the 32-bit TEB address within the 64-bit TEB is 0. This can be used to directly access the 32-bit TEB of a WOW64 thread. This might change in later versions of Windows
 

@@ -33,9 +33,9 @@ These functions cannot be called from within a filter function, but their return
 
 The advantage of a filter function is that it can handle an exception and return a value that causes the system to continue execution from the point at which the exception occurred. With an exception-handler block, in contrast, execution continues sequentially from the exception handler rather than from the point of the exception.
 
-Handling an exception may be as simple as noting an error and setting a flag that will be examined later, printing a warning or error message, or taking some other limited action. If execution can be continued, it may also be necessary to change the machine state by modifying the context record. For an example of a filter function that handles a page fault exception, see [Using the Virtual Memory Functions](https://msdn.microsoft.com/4437beb4-14cf-4028-a8ab-ad18a189cd81).
+Handling an exception may be as simple as noting an error and setting a flag that will be examined later, printing a warning or error message, or taking some other limited action. If execution can be continued, it may also be necessary to change the machine state by modifying the context record. For an example of a filter function that handles a page fault exception, see [Using the Virtual Memory Functions](https://msdn.microsoft.com/en-us/library/Aa366885(v=VS.85).aspx).
 
-The [**UnhandledExceptionFilter**](/windows/desktop/api/WinBase/) function can be used as a filter function in a filter expression. It returns EXCEPTION\_EXECUTE\_HANDLER unless the process is being debugged, in which case it returns EXCEPTION\_CONTINUE\_SEARCH.
+The [**UnhandledExceptionFilter**](https://msdn.microsoft.com/en-us/library/ms681401(v=VS.85).aspx) function can be used as a filter function in a filter expression. It returns EXCEPTION\_EXECUTE\_HANDLER unless the process is being debugged, in which case it returns EXCEPTION\_CONTINUE\_SEARCH.
 
  
 

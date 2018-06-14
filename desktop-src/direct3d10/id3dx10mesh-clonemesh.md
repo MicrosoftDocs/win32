@@ -35,7 +35,7 @@ HRESULT CloneMesh(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Creation flags to be applied to the new mesh. See [**D3DX10\_MESH**](d3dx10-mesh.md).
 
@@ -44,7 +44,7 @@ Creation flags to be applied to the new mesh. See [**D3DX10\_MESH**](d3dx10-mesh
 *pPosSemantic* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPCSTR**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The semantic name for the position data.
 
@@ -62,7 +62,7 @@ Array of D3D10\_INPUT\_ELEMENT\_DESC structures, describing the vertex format fo
 *DeclCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 The number of elements in the pDesc array.
 
@@ -79,7 +79,7 @@ The new mesh.
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 

@@ -17,7 +17,7 @@ The information on this page is intended to be used by programmers so that the s
 
 The System Error Codes are very broad. Each one can occur in one of many hundreds of locations in the system. Consequently the descriptions of these codes cannot be very specific. Use of these codes requires some amount of investigation and analysis. You need to note both the programmatic and the run-time context in which these errors occur. Because these codes are defined in WinError.h for anyone to use, sometimes the codes are returned by non-system software. Sometimes the code is returned by a function deep in the stack and far removed from your code that is handling the error.
 
-The following list describes [system error codes](system-error-codes.md) (errors 12000 to 15999). They are returned by the [**GetLastError**](/windows/desktop/api/WinBase/) function when many functions fail. To retrieve the description text for the error in your application, use the [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) function with the **FORMAT\_MESSAGE\_FROM\_SYSTEM** flag.
+The following list describes [system error codes](system-error-codes.md) (errors 12000 to 15999). They are returned by the [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx) function when many functions fail. To retrieve the description text for the error in your application, use the [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) function with the **FORMAT\_MESSAGE\_FROM\_SYSTEM** flag.
 
 <dl> <dt>
 
@@ -29,7 +29,7 @@ The following list describes [system error codes](system-error-codes.md) (errors
 
 
 
-See [Internet Error Codes](https://msdn.microsoft.com/338bf65f-ebe5-4434-8407-9ab2a4c8d381) and WinInet.h.
+See [Internet Error Codes](https://msdn.microsoft.com/en-us/library/Aa385465(v=VS.85).aspx) and WinInet.h.
 
 
 </dt> </dl> </dd> <dt>
@@ -1108,7 +1108,7 @@ Failed to obtain Kerberos server credentials for ISAKMP/ERROR\_IPSEC\_IKE servic
 
 
 
-Failed to determine SSPI principal name for ISAKMP/ERROR\_IPSEC\_IKE service ([**QueryCredentialsAttributes**](https://msdn.microsoft.com/a8ba6f73-8469-431b-b185-183b45b2c533)).
+Failed to determine SSPI principal name for ISAKMP/ERROR\_IPSEC\_IKE service ([**QueryCredentialsAttributes**](https://msdn.microsoft.com/en-us/library/Aa379342(v=VS.85).aspx)).
 
 
 </dt> </dl> </dd> <dt>
@@ -4527,7 +4527,7 @@ The monitor returned an invalid monitor technology type. CRT, Plasma and LCD (TF
 
 
 
-The caller of [**SetMonitorColorTemperature**](https://msdn.microsoft.com/a7f2753c-810f-41e5-9378-4072e8d4bc38) specified a color temperature that the current monitor did not support. This error implies that the monitor violated the MCCS 2.0 or MCCS 2.0 Revision 1 specification.
+The caller of [**SetMonitorColorTemperature**](https://msdn.microsoft.com/en-us/library/Dd692973(v=VS.85).aspx) specified a color temperature that the current monitor did not support. This error implies that the monitor violated the MCCS 2.0 or MCCS 2.0 Revision 1 specification.
 
 
 </dt> </dl> </dd> <dt>

@@ -15,7 +15,7 @@ Applications use the methods of the IDirectXFileSaveObject interface to create d
 
 ## Members
 
-The **IDirectXFileSaveObject** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IDirectXFileSaveObject** also has these types of members:
+The **IDirectXFileSaveObject** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IDirectXFileSaveObject** also has these types of members:
 
 -   [Methods](#methods)
 

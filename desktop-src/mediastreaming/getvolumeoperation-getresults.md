@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # GetVolumeOperation.GetResults method
 
-Returns the results of the asynchronous operation started by [**GetVolumeAsync**](https://www.bing.com/search?q=**GetVolumeAsync**).
+Returns the results of the asynchronous operation started by [**GetVolumeAsync**](https://msdn.microsoft.com/en-us/library/Hh828933(v=VS.85).aspx).
 
 ## Syntax
 

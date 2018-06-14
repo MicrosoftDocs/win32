@@ -19,11 +19,11 @@ Specifies the MPEG-2 or H.264 profile in a video media type.
 
 ## Remarks
 
-For MPEG-2 video, the value of this attribute is a member of the [**AM\_MPEG2Profile**](https://msdn.microsoft.com/1f03a556-feb7-40c7-a3df-818de6873049) enumeration.
+For MPEG-2 video, the value of this attribute is a member of the [**AM\_MPEG2Profile**](https://msdn.microsoft.com/en-us/library/Dd373479(v=VS.85).aspx) enumeration.
 
 For H.264 video, the value is a member of the [**eAVEncH264VProfile**](/windows/desktop/api/codecapi/ne-codecapi-eavench264vprofile) enumeration.
 
-This attribute corresponds to the **dwProfile** member of the [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/1a6ab686-99a1-40c2-addf-7fa215e2311a) structure.
+This attribute corresponds to the **dwProfile** member of the [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/en-us/library/Dd390707(v=VS.85).aspx) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

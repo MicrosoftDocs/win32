@@ -17,25 +17,25 @@ Because sensors can reveal sensitive information, Windows requires that users en
 
 You may want to request permission when you want to use sensors for which the current [**SensorState**](https://www.bing.com/search?q=**SensorState**) is SENSOR\_STATE\_ACCESS\_DENIED.
 
-To request permissions, call the [**ISensorManager::RequestPermissions**](https://msdn.microsoft.com/6a21820c-4f13-4220-ad13-34d0226597b6) method. When you call this method, Windows opens the **Enable sensors** dialog box to prompt the user to enable the sensors you requested. This dialog box provides the user with the names of the sensors you requested. The user can choose one of the following options:
+To request permissions, call the [**ISensorManager::RequestPermissions**](https://msdn.microsoft.com/en-us/library/Dd318867(v=VS.85).aspx) method. When you call this method, Windows opens the **Enable sensors** dialog box to prompt the user to enable the sensors you requested. This dialog box provides the user with the names of the sensors you requested. The user can choose one of the following options:
 
 -   **Enable these sensors**.
 -   **Don't enable these sensors**.
 -   **Open Control Panel for more options**.
 
-If a user chooses **Don't enable these sensors**, Windows will not show the **Enable sensors** dialog box again for those particular sensors, even if your program calls [**RequestPermissions**](https://msdn.microsoft.com/6a21820c-4f13-4220-ad13-34d0226597b6). If the user chooses any other option, Windows will allow the dialog box to be displayed when requested. If your call to **RequestPermissions** contains some sensors that the user has previously chosen to keep disabled, the Sensor API will remove these sensors from the list of sensors the user sees.
+If a user chooses **Don't enable these sensors**, Windows will not show the **Enable sensors** dialog box again for those particular sensors, even if your program calls [**RequestPermissions**](https://msdn.microsoft.com/en-us/library/Dd318867(v=VS.85).aspx). If the user chooses any other option, Windows will allow the dialog box to be displayed when requested. If your call to **RequestPermissions** contains some sensors that the user has previously chosen to keep disabled, the Sensor API will remove these sensors from the list of sensors the user sees.
 
 ### Modal or Modeless Behavior
 
-The [**RequestPermissions**](https://msdn.microsoft.com/6a21820c-4f13-4220-ad13-34d0226597b6) method takes a **Boolean** argument that determines whether the **Enable sensors** dialog box is displayed as a modal or modeless window. This setting also affects whether the behavior of the dialog box return code is synchronous or asynchronous.
+The [**RequestPermissions**](https://msdn.microsoft.com/en-us/library/Dd318867(v=VS.85).aspx) method takes a **Boolean** argument that determines whether the **Enable sensors** dialog box is displayed as a modal or modeless window. This setting also affects whether the behavior of the dialog box return code is synchronous or asynchronous.
 
-When modal, the dialog box has exclusive focus among application windows until the user chooses an option, and the **HRESULT** return code from your call to [**RequestPermissions**](https://msdn.microsoft.com/6a21820c-4f13-4220-ad13-34d0226597b6) indicates the user choice. When modeless, the dialog box does not have exclusive focus and your call to **RequestPermissions** returns immediately. In this case, the return code indicates whether the method succeeded, but cannot be used to ascertain the user's choice. You can then determine which sensors have been enabled by handling the [**OnStateChanged**](https://www.bing.com/search?q=**OnStateChanged**) event and checking each sensor for SENSOR\_STATE\_READY.
+When modal, the dialog box has exclusive focus among application windows until the user chooses an option, and the **HRESULT** return code from your call to [**RequestPermissions**](https://msdn.microsoft.com/en-us/library/Dd318867(v=VS.85).aspx) indicates the user choice. When modeless, the dialog box does not have exclusive focus and your call to **RequestPermissions** returns immediately. In this case, the return code indicates whether the method succeeded, but cannot be used to ascertain the user's choice. You can then determine which sensors have been enabled by handling the [**OnStateChanged**](https://www.bing.com/search?q=**OnStateChanged**) event and checking each sensor for SENSOR\_STATE\_READY.
 
-For more information about return codes, see the [**RequestPermissions**](https://msdn.microsoft.com/6a21820c-4f13-4220-ad13-34d0226597b6) reference page.
+For more information about return codes, see the [**RequestPermissions**](https://msdn.microsoft.com/en-us/library/Dd318867(v=VS.85).aspx) reference page.
 
 ### Best Practice: Avoid Multiple Modeless Calls to RequestPermissions
 
-Repeated modeless calls to [**RequestPermissions**](https://msdn.microsoft.com/6a21820c-4f13-4220-ad13-34d0226597b6) will display multiple instances of the **Enable these sensors** dialog box, and can potentially flood the screen with dialog boxes, resulting in a poor user experience. If you think that after your first call to **RequestPermissions**, other location sensors might be installed, requiring another call to **RequestPermissions**, you should either call **RequestPermissions** modally, or wait until all location sensors are installed to make a modeless call.
+Repeated modeless calls to [**RequestPermissions**](https://msdn.microsoft.com/en-us/library/Dd318867(v=VS.85).aspx) will display multiple instances of the **Enable these sensors** dialog box, and can potentially flood the screen with dialog boxes, resulting in a poor user experience. If you think that after your first call to **RequestPermissions**, other location sensors might be installed, requiring another call to **RequestPermissions**, you should either call **RequestPermissions** modally, or wait until all location sensors are installed to make a modeless call.
 
 ## Related topics
 

@@ -27,10 +27,10 @@ Calculates the length of the geometry as though each segment were unrolled into 
 
 | Method                                                                                                                          | Description                                                                                         |
 |:--------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [**ComputeLength(D2D1\_MATRIX\_3X2\_F&,FLOAT\*)**](/windows/desktop/api/d2d1/)              | Calculates the length of the geometry as though each segment were unrolled into a line.<br/>  |
-| [**ComputeLength(D2D1\_MATRIX\_3X2\_F\*,FLOAT\*)**](/windows/desktop/api/d2d1/)             | Calculates the length of the geometry as though each segment were unrolled into a line.<br/>  |
-| [**ComputeLength(D2D1\_MATRIX\_3X2\_F&,FLOAT,FLOAT\*)**](/windows/desktop/api/d2d1/)  | Calculates the length of the geometry as though each segment were unrolled into a line.<br/>  |
-| [**ComputeLength(D2D1\_MATRIX\_3X2\_F\*,FLOAT,FLOAT\*)**](/windows/desktop/api/d2d1/) | Calculates the length of the geometry as though each segment were unrolled into a line. <br/> |
+| [**ComputeLength(D2D1\_MATRIX\_3X2\_F&,FLOAT\*)**](https://msdn.microsoft.com/en-us/library/Dd316672(v=VS.85).aspx)              | Calculates the length of the geometry as though each segment were unrolled into a line.<br/>  |
+| [**ComputeLength(D2D1\_MATRIX\_3X2\_F\*,FLOAT\*)**](https://msdn.microsoft.com/en-us/library/Dd316658(v=VS.85).aspx)             | Calculates the length of the geometry as though each segment were unrolled into a line.<br/>  |
+| [**ComputeLength(D2D1\_MATRIX\_3X2\_F&,FLOAT,FLOAT\*)**](https://msdn.microsoft.com/en-us/library/Dd316671(v=VS.85).aspx)  | Calculates the length of the geometry as though each segment were unrolled into a line.<br/>  |
+| [**ComputeLength(D2D1\_MATRIX\_3X2\_F\*,FLOAT,FLOAT\*)**](https://msdn.microsoft.com/en-us/library/Dd316654(v=VS.85).aspx) | Calculates the length of the geometry as though each segment were unrolled into a line. <br/> |
 
 
 
@@ -88,7 +88,7 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**ID2D1Geometry**](/windows/desktop/api/d2d1/)
+[**ID2D1Geometry**](https://msdn.microsoft.com/en-us/library/Dd316578(v=VS.85).aspx)
 </dt> </dl>
 
  

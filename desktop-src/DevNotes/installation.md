@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**CoInstall**](/windows/desktop/api/Objbase/)
+-   [**CoInstall**](https://msdn.microsoft.com/en-us/library/Bb432203(v=VS.85).aspx)
 -   [**IcfgInstallInetComponents**](icfginstallinetcomponents.md)
 -   [**IcfgNeedInetComponents**](icfgneedinetcomponents.md)
 -   [**InstallCatalog**](installcatalog.md)

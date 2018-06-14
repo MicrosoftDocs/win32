@@ -38,7 +38,7 @@ Up to three flags can be set, using a bitwise **OR**. Flags in the range 0x00 th
 
 In COPP emulation mode, the driver does not use the modifier flags, but it might set the **OPM\_COPP\_COMPATIBLE\_BUS\_TYPE\_INTEGRATED** flag.
 
-The OPM\_BUG\_TYPE\_Xxxx flags and the **OPM\_COPP\_COMPATIBLE\_BUS\_TYPE\_INTEGRATED** flag are equivalent to values from the [**COPP\_BusType**](https://msdn.microsoft.com/eb3666bd-1987-419f-8d48-0dbca147bf7e) enumeration used in Certified Output Protection Protocol (COPP).
+The OPM\_BUG\_TYPE\_Xxxx flags and the **OPM\_COPP\_COMPATIBLE\_BUS\_TYPE\_INTEGRATED** flag are equivalent to values from the [**COPP\_BusType**](https://msdn.microsoft.com/en-us/library/Dd387934(v=VS.85).aspx) enumeration used in Certified Output Protection Protocol (COPP).
 
 ## Requirements
 

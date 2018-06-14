@@ -17,7 +17,7 @@ The version for this interface is 1.0. Method calls are received at a dynamicall
 
 ## Members
 
-The **IProvidePropertyBuilder:IUnknown** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IProvidePropertyBuilder** also has these types of members:
+The **IProvidePropertyBuilder:IUnknown** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IProvidePropertyBuilder** also has these types of members:
 
 -   [Methods](#methods)
 

@@ -29,7 +29,7 @@ SMC_SFDDRESTRICTED
 *pDropTarget* 
 </dt> <dd>
 
-The address of a void pointer that receives a pointer to your [**IDropTarget**](https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8) interface. Set this value to **NULL** if you do not want to accept the data object.
+The address of a void pointer that receives a pointer to your [**IDropTarget**](https://msdn.microsoft.com/en-us/library/ms679679(v=VS.85).aspx) interface. Set this value to **NULL** if you do not want to accept the data object.
 
 </dd> </dl>
 

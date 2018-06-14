@@ -99,7 +99,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 Some WIA 2.0 hardware devices allow applications to create new items in the [**IWiaItem2**](-wia-iwiaitem2.md) tree that represents the device. Applications must test the devices to see if they support this capability. Use the IEnumWIA\_DEV\_CAPS interface to enumerate the current device's capabilities.
 
-If the device allows the creation of new items in the [**IWiaItem2**](-wia-iwiaitem2.md) tree, invoking **IWiaItem2::CreateChildItem** creates a new **IWiaItem2** object that is a child of the current node. It passes a pointer to the new node to the application through the *ppIWiaItem2* parameter. Applications must call the [IUnknown::Release](https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
+If the device allows the creation of new items in the [**IWiaItem2**](-wia-iwiaitem2.md) tree, invoking **IWiaItem2::CreateChildItem** creates a new **IWiaItem2** object that is a child of the current node. It passes a pointer to the new node to the application through the *ppIWiaItem2* parameter. Applications must call the [IUnknown::Release](https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
 
 If *lCreationFlags* is COPY\_PARENT\_PROPERTY\_VALUES and *lItemFlags* is zero, the function returns E\_INVALIDARG.
 

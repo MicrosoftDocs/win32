@@ -40,7 +40,7 @@ This event does not return a value.
 
 ## Remarks
 
-To handle notifications from this event, register a [**RenderingParametersUpdateHandler**](/windows/desktop/api/mfidl/) event handler function using the [**add\_RenderingParametersUpdate**](https://www.bing.com/search?q=**add\_RenderingParametersUpdate**) method. To unregister the event handler, use the [**remove\_RenderingParametersUpdate**](https://www.bing.com/search?q=**remove\_RenderingParametersUpdate**) method.
+To handle notifications from this event, register a [**RenderingParametersUpdateHandler**](https://msdn.microsoft.com/en-us/library/Hh828994(v=VS.85).aspx) event handler function using the [**add\_RenderingParametersUpdate**](https://msdn.microsoft.com/en-us/library/Hh828928(v=VS.85).aspx) method. To unregister the event handler, use the [**remove\_RenderingParametersUpdate**](https://msdn.microsoft.com/en-us/library/Hh828940(v=VS.85).aspx) method.
 
  
 

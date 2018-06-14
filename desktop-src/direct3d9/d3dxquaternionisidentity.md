@@ -39,7 +39,7 @@ Pointer to the [**D3DXQUATERNION**](d3dxquaternion.md) structure that will be te
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 If the quaternion is an identity quaternion, this function returns **TRUE**. Otherwise, this function returns **FALSE**.
 

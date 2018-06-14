@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # Resetting MIDI Output
 
-The [**midiOutReset**](https://www.bing.com/search?q=**midiOutReset**) function turns off all notes on all MIDI channels for a specified MIDI device. Then, the function marks any pending system-exclusive buffers as done and returns them to the application. This function can be useful in an application that uses MIDI output to provide the user with the ability to reset MIDI output.
+The [**midiOutReset**](https://msdn.microsoft.com/en-us/library/Dd798479(v=VS.85).aspx) function turns off all notes on all MIDI channels for a specified MIDI device. Then, the function marks any pending system-exclusive buffers as done and returns them to the application. This function can be useful in an application that uses MIDI output to provide the user with the ability to reset MIDI output.
 
 > [!Note]  
 > Terminating a system-exclusive message without sending an EOX (end-of-exclusive) byte can cause problems for the receiving device. The **midiOutReset** function does not send an EOX byte when it terminates a system-exclusive message, because applications are responsible for doing this.

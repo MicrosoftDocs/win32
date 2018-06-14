@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 CryptXML allows developers to extend natively supported cryptographic algorithms by registering a system wide cryptographic extension DLL. Extension DLLs extend the algorithms supported by **SignatureMethod** and **DigestMethod** XML elements. Extension DLLs can support algorithms that encode additional parameters into the XML digital signature.
 
-All extensions DLLs must support the [**CryptXmlDllGetInterface**](/windows/desktop/api/Cryptxml/nc-cryptxml-cryptxmldllgetinterface) function, which returns a pointer to a [**CRYPT\_XML\_CRYPTOGRAPHIC\_INTERFACE**](/windows/desktop/api/Cryptxml/ns-cryptxml-_crypt_xml_cryptographic_interface) structure. This structure provides function pointers to implemented cryptographic extension functions. The functions supported depend on the type of cryptographic algorithm supported and whether the algorithm must encode parameters into the XML digital signature.
+All extensions DLLs must support the [**CryptXmlDllGetInterface**](https://msdn.microsoft.com/en-us/library/Dd433817(v=VS.85).aspx) function, which returns a pointer to a [**CRYPT\_XML\_CRYPTOGRAPHIC\_INTERFACE**](/windows/desktop/api/Cryptxml/ns-cryptxml-_crypt_xml_cryptographic_interface) structure. This structure provides function pointers to implemented cryptographic extension functions. The functions supported depend on the type of cryptographic algorithm supported and whether the algorithm must encode parameters into the XML digital signature.
 
 Cryptographic extensions functions include the following function pointers:
 
@@ -22,35 +22,35 @@ Cryptographic extensions functions include the following function pointers:
 <span id="Required_functions"></span><span id="required_functions"></span><span id="REQUIRED_FUNCTIONS"></span>Required functions
 </dt> <dd>
 
--   [**CryptXmlDllGetInterface**](/windows/desktop/api/Cryptxml/nc-cryptxml-cryptxmldllgetinterface)
--   [**CryptXmlDllGetAlgorithmInfo**](/windows/desktop/api/Cryptxml/nc-cryptxml-cryptxmldllgetalgorithminfo)
+-   [**CryptXmlDllGetInterface**](https://msdn.microsoft.com/en-us/library/Dd433817(v=VS.85).aspx)
+-   [**CryptXmlDllGetAlgorithmInfo**](https://msdn.microsoft.com/en-us/library/Dd433816(v=VS.85).aspx)
 
 </dd> <dt>
 
 <span id="Digest_Method_functions"></span><span id="digest_method_functions"></span><span id="DIGEST_METHOD_FUNCTIONS"></span>Digest Method functions
 </dt> <dd>
 
--   [**CryptXmlDllCloseDigest**](/windows/desktop/api/Cryptxml/nc-cryptxml-cryptxmldllclosedigest)
--   [**CryptXmlDllCreateDigest**](/windows/desktop/api/Cryptxml/nc-cryptxml-cryptxmldllcreatedigest)
--   [**CryptXmlDllDigestData**](/windows/desktop/api/Cryptxml/nc-cryptxml-cryptxmldlldigestdata)
--   [**CryptXmlDllFinalizeDigest**](/windows/desktop/api/Cryptxml/nc-cryptxml-cryptxmldllfinalizedigest)
+-   [**CryptXmlDllCloseDigest**](https://msdn.microsoft.com/en-us/library/Dd433809(v=VS.85).aspx)
+-   [**CryptXmlDllCreateDigest**](https://msdn.microsoft.com/en-us/library/Dd433810(v=VS.85).aspx)
+-   [**CryptXmlDllDigestData**](https://msdn.microsoft.com/en-us/library/Dd433812(v=VS.85).aspx)
+-   [**CryptXmlDllFinalizeDigest**](https://msdn.microsoft.com/en-us/library/Dd433815(v=VS.85).aspx)
 
 </dd> <dt>
 
 <span id="Signature_Method_Functions"></span><span id="signature_method_functions"></span><span id="SIGNATURE_METHOD_FUNCTIONS"></span>Signature Method Functions
 </dt> <dd>
 
--   [**CryptXmlDllSignData**](/windows/desktop/api/Cryptxml/nc-cryptxml-cryptxmldllsigndata)
--   [**CryptXmlDllVerifySignature**](/windows/desktop/api/Cryptxml/nc-cryptxml-cryptxmldllverifysignature)
--   [**CryptXmlDllCreateKey**](/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllcreatekey)
--   [**CryptXmlDllEncodeKeyValue**](/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllencodekeyvalue)
+-   [**CryptXmlDllSignData**](https://msdn.microsoft.com/en-us/library/Dd433818(v=VS.85).aspx)
+-   [**CryptXmlDllVerifySignature**](https://msdn.microsoft.com/en-us/library/Dd433819(v=VS.85).aspx)
+-   [**CryptXmlDllCreateKey**](https://msdn.microsoft.com/en-us/library/Dd433811(v=VS.85).aspx)
+-   [**CryptXmlDllEncodeKeyValue**](https://msdn.microsoft.com/en-us/library/Dd433814(v=VS.85).aspx)
 
 </dd> <dt>
 
 <span id="For_algorithms_with_default_encoded_parameters"></span><span id="for_algorithms_with_default_encoded_parameters"></span><span id="FOR_ALGORITHMS_WITH_DEFAULT_ENCODED_PARAMETERS"></span>For algorithms with default encoded parameters
 </dt> <dd>
 
--   [**CryptXmlDllEncodeAlgorithm**](/windows/desktop/api/Cryptxml/nc-cryptxml-cryptxmldllencodealgorithm)
+-   [**CryptXmlDllEncodeAlgorithm**](https://msdn.microsoft.com/en-us/library/Dd433813(v=VS.85).aspx)
 
 </dd> </dl>
 
@@ -102,7 +102,7 @@ Each key contains the following settings.
 <td>Required.<br/>The absolute path to the XML Cryptographic Provider DLL.
 <blockquote>
 <p>[!Note]We recommend that cryptographic extension DLLs be located in directories that can only be written to by applications with administrative privilege.</p>
-<p>[<strong>LoadLibrary</strong>](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) is used to load the cryptographic extension DLL.<br/></p>
+<p>[<strong>LoadLibrary</strong>](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) is used to load the cryptographic extension DLL.<br/></p>
 </blockquote>
 <br/></td>
 </tr>

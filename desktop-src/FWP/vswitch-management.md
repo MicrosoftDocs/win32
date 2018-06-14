@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**FWPM\_VSWITCH\_EVENT\_CALLBACK0**](/windows/desktop/api/Fwpmu/nc-fwpmu-fwpm_vswitch_event_callback0)
+-   [**FWPM\_VSWITCH\_EVENT\_CALLBACK0**](https://msdn.microsoft.com/en-us/library/Hh447387(v=VS.85).aspx)
 -   [**FwpmvSwitchEventsGetSecurityInfo0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventsgetsecurityinfo0)
 -   [**FwpmvSwitchEventsSetSecurityInfo0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventssetsecurityinfo0)
 -   [**FwpmvSwitchEventSubscribe0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventsubscribe0)

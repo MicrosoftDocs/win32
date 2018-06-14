@@ -49,7 +49,7 @@ The return value is ignored.
 
 To launch a wizard task dialog, use the [**TaskDialogIndirect**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect) function. As the user navigates using the wizard, send this message to the task dialog to display the next page. A new task dialog (looks like a new page) is created with the elements specified in the structure pointed to by *lParam*. At creation, the entire contents of the dialog frame are destroyed and reconstructed. As a result, any state information held by controls (for example, a progress bar, expando button, or verification checkbox) in the dialog is lost.
 
-The layout of the task dialog may fail and this may not be reflected in the return value. A return value of S\_OK reflects only that the task dialog received the message and attempted to process it. If the layout of the task dialog fails (the task dialog cannot be displayed), the dialog will close and an **HRESULT** code is returned at the registered callback function. For more information on the callback function syntax, see [*TaskDialogCallbackProc*](/windows/desktop/api/Commctrl/nc-commctrl-pftaskdialogcallback).
+The layout of the task dialog may fail and this may not be reflected in the return value. A return value of S\_OK reflects only that the task dialog received the message and attempted to process it. If the layout of the task dialog fails (the task dialog cannot be displayed), the dialog will close and an **HRESULT** code is returned at the registered callback function. For more information on the callback function syntax, see [*TaskDialogCallbackProc*](https://msdn.microsoft.com/en-us/library/Bb760542(v=VS.85).aspx).
 
 ## Requirements
 

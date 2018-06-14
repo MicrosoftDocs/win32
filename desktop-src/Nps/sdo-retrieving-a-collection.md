@@ -114,9 +114,9 @@ The following code retrieves the clients collection for the Network Policy Serve
 
 The pSdoServiceControl variable contains a pointer to a Server Data Object for NPS. For more information, see the topic [Retrieving a Service SDO](https://msdn.microsoft.com/library/bb960709).
 
-The vtClientsCollection variable is of type [\_variant\_t](Http://go.microsoft.com/fwlink/p/?linkid=83857). A \_variant\_t object encapsulates, or encloses, the [**VARIANT**](https://msdn.microsoft.com/windows/desktop/e305240e-9e11-4006-98cc-26f4932d2118) data type. The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](https://msdn.microsoft.com/windows/desktop/96aeb671-5528-4d3c-8e70-313716550b42) and [**VariantClear**](https://msdn.microsoft.com/windows/desktop/28741d81-8404-4f85-95d3-5c209ec13835) as appropriate.
+The vtClientsCollection variable is of type [\_variant\_t](Http://go.microsoft.com/fwlink/p/?linkid=83857). A \_variant\_t object encapsulates, or encloses, the [**VARIANT**](https://msdn.microsoft.com/en-us/library/ms221627(v=VS.71).aspx) data type. The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](https://msdn.microsoft.com/en-us/library/ms221402(v=VS.71).aspx) and [**VariantClear**](https://msdn.microsoft.com/en-us/library/ms221165(v=VS.71).aspx) as appropriate.
 
-After the call to "pSdo-&gt;GetProperty()", the vtProtocolsCollection variable specifies an object. The **pdispVal** member of vtProtocolsCollection contains a pointer to the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface for the object.
+After the call to "pSdo-&gt;GetProperty()", the vtProtocolsCollection variable specifies an object. The **pdispVal** member of vtProtocolsCollection contains a pointer to the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface for the object.
 
 The above sample code can be adapted to retrieve other NPS collections, for example the NPS Request Handlers collections. The [**IASPROPERTIES**](https://msdn.microsoft.com/library/bb960636) enumeration type enumerated values that correspond to the available NPS collections.
 
@@ -139,13 +139,13 @@ The above sample code can be adapted to retrieve other NPS collections, for exam
 [Retrieving a Service SDO](https://msdn.microsoft.com/library/bb960709)
 </dt> <dt>
 
-[**VariantClear**](https://msdn.microsoft.com/windows/desktop/28741d81-8404-4f85-95d3-5c209ec13835)
+[**VariantClear**](https://msdn.microsoft.com/en-us/library/ms221165(v=VS.71).aspx)
 </dt> <dt>
 
-[**VariantInit**](https://msdn.microsoft.com/windows/desktop/96aeb671-5528-4d3c-8e70-313716550b42)
+[**VariantInit**](https://msdn.microsoft.com/en-us/library/ms221402(v=VS.71).aspx)
 </dt> <dt>
 
-[**VARIANT**](https://msdn.microsoft.com/windows/desktop/e305240e-9e11-4006-98cc-26f4932d2118)
+[**VARIANT**](https://msdn.microsoft.com/en-us/library/ms221627(v=VS.71).aspx)
 </dt> </dl>
 
  

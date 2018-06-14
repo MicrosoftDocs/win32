@@ -15,11 +15,11 @@ Specifies the device role for the audio stream.
 
 ## Data type
 
-**[**ERole**](https://msdn.microsoft.com/0d0d3174-8489-4951-858c-024d58477ae0)** stored as **UINT32**
+**[**ERole**](https://msdn.microsoft.com/en-us/library/Dd370842(v=VS.85).aspx)** stored as **UINT32**
 
 ## Remarks
 
-The value of this attribute is a member of the [**ERole**](https://msdn.microsoft.com/0d0d3174-8489-4951-858c-024d58477ae0) enumeration.
+The value of this attribute is a member of the [**ERole**](https://msdn.microsoft.com/en-us/library/Dd370842(v=VS.85).aspx) enumeration.
 
 This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance) method to initialize the Media Engine. The attribute is optional.
 

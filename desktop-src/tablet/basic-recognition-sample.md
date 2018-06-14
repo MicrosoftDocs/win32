@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This application demonstrates how you can build a simple *handwriting* recognition application.
 
-This program creates an [**InkCollector**](/windows/desktop/api/msinkaut/) object to *ink*-enable the window and a default *recognizer context* object. Upon receiving the "Recognize!" command, fired from the application's menu, the collected ink strokes are passed to the recognizer context. The best result string is presented in a message box.
+This program creates an [**InkCollector**](https://msdn.microsoft.com/en-us/library/ms695519(v=VS.85).aspx) object to *ink*-enable the window and a default *recognizer context* object. Upon receiving the "Recognize!" command, fired from the application's menu, the collected ink strokes are passed to the recognizer context. The best result string is presented in a message box.
 
 ## Creating the RecognizerContext Object
 
@@ -41,7 +41,7 @@ case WM_CREATE:
 
 ## Recognizing the Strokes
 
-The recognize command is received when the user clicks the Recognize! menu item. The code gets a pointer to the ink [**InkStrokes**](/windows/desktop/api/msinkaut/) (pIInkStrokes) off of the [**InkDisp**](/windows/desktop/api/msinkaut/) object, and then passes the **InkStrokes** to the recognizer context using a call to putref\_Strokes.
+The recognize command is received when the user clicks the Recognize! menu item. The code gets a pointer to the ink [**InkStrokes**](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) (pIInkStrokes) off of the [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object, and then passes the **InkStrokes** to the recognizer context using a call to putref\_Strokes.
 
 
 ```C++
@@ -65,7 +65,7 @@ The recognize command is received when the user clicks the Recognize! menu item.
 
 
 
-The code then calls the [**Recognize**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize) method of the [**InkRecognizerContext**](/windows/desktop/api/msinkaut/) object, passing in a pointer to an [**IInkRecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult) object to hold the results.
+The code then calls the [**Recognize**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize) method of the [**InkRecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object, passing in a pointer to an [**IInkRecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult) object to hold the results.
 
 
 ```C++

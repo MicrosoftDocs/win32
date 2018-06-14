@@ -172,7 +172,7 @@ The first render draws forward-facing polygons, and increments the stencil-buffe
 
 This means that the shadow geometry is drawn twice per light source, hence putting pressure on the vertex throughput of the GPU. The two-sided stencil feature has been designed to mitigate this situation. In this approach, there are two sets of stencil state (named below), one set each for the front-facing triangles and the other for the back-facing triangles. This way, only a single pass is drawn per shadow volume, per light.
 
-An example of two-sided stencil implementation can be found in the [ShadowVolume10 Sample](https://msdn.microsoft.com/windows/desktop/72d597de-ff2c-45cb-eb04-37a253bf005c).
+An example of two-sided stencil implementation can be found in the [ShadowVolume10 Sample](https://msdn.microsoft.com/en-us/library/Ee416427(v=VS.85).aspx).
 
 ### Reading the Depth-Stencil Buffer as a Texture
 
@@ -200,7 +200,7 @@ In the first render pass the depth buffer is bound as described in the [Bind Dep
 
 In the second render pass the [**ID3D11DeviceContext::OMSetRenderTargets**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-omsetrendertargets) function is used to set the depth-stencil view to **NULL** or a different depth-stencil resource and the shader resource view is passed to the shader using [**ID3D11EffectShaderResourceVariable::SetResource**](id3dx11effectshaderresourcevariable-setresource.md). This allows the shader to look up the depth values calculated in the first rendering pass. Note that a transformation will need to be applied to retrieve depth values if the point of view of the first render pass is different from the second render pass. For example, if a shadow mapping technique is being used the first render pass will be from the perspective of a light source while the second render pass will from the viewer's perspective.
 
-An example of reading the depth-stencil buffer as a texture can be found in the [softparticles sample](https://msdn.microsoft.com/windows/desktop/147358f4-bde1-1919-3d06-11bbc2838f9b).
+An example of reading the depth-stencil buffer as a texture can be found in the [softparticles sample](https://msdn.microsoft.com/en-us/library/Ee416430(v=VS.85).aspx).
 
 ## Related topics
 

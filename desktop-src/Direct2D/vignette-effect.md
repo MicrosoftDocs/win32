@@ -69,7 +69,7 @@ The properties for the vignette effect are defined by the [**D2D1\_VIGNETTE\_PRO
 
 <dl> <dt>
 
-[**ID2D1Effect**](/windows/desktop/api/D2d1_1/)
+[**ID2D1Effect**](https://msdn.microsoft.com/en-us/library/Hh404566(v=VS.85).aspx)
 </dt> </dl>
 
  

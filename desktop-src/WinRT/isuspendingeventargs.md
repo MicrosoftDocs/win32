@@ -35,7 +35,7 @@ The **ISuspendingEventArgs** interface has these properties.
 
 ## Remarks
 
-This object is accessed when you implement event handlers like [**SuspendingEventHandler**](https://msdn.microsoft.com/Windows.UI.WebUI.SuspendingEventHandler), [**SuspendingEventHandler**](https://msdn.microsoft.com/Windows.UI.Xaml.SuspendingEventHandler), and [**add\_Suspending**](https://www.bing.com/search?q=**add\_Suspending**) to respond to app suspending events.
+This object is accessed when you implement event handlers like [**SuspendingEventHandler**](https://msdn.microsoft.com/en-us/library/BR242303(v=Win.10).aspx), [**SuspendingEventHandler**](https://msdn.microsoft.com/en-us/library/BR244262(v=Win.10).aspx), and [**add\_Suspending**](https://msdn.microsoft.com/en-us/library/Hh438376(v=VS.85).aspx) to respond to app suspending events.
 
 ## Requirements
 

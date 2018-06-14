@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MMIOM\_WRITE message
 
-The **MMIOM\_WRITE** message is sent to an I/O procedure by the [**mmioWrite**](https://www.bing.com/search?q=**mmioWrite**) function to request that data be written to an open file.
+The **MMIOM\_WRITE** message is sent to an I/O procedure by the [**mmioWrite**](https://msdn.microsoft.com/en-us/library/Dd757341(v=VS.85).aspx) function to request that data be written to an open file.
 
 
 ```C++
@@ -56,7 +56,7 @@ Returns the number of bytes actually written to the file. If there is an error, 
 
 ## Remarks
 
-The I/O procedure is responsible for updating the **lDiskOffset** member of the [**MMIOINFO**](https://www.bing.com/search?q=**MMIOINFO**) structure to reflect the new file position after the write operation.
+The I/O procedure is responsible for updating the **lDiskOffset** member of the [**MMIOINFO**](https://msdn.microsoft.com/en-us/library/Dd757322(v=VS.85).aspx) structure to reflect the new file position after the write operation.
 
 ## Requirements
 

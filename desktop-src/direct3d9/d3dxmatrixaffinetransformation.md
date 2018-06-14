@@ -44,7 +44,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *Scaling* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Scaling factor.
 

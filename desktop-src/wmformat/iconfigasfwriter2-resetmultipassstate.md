@@ -59,7 +59,7 @@ This method must be called to reset the internal state of the filter whenever a 
 
 <dl> <dt>
 
-[**IConfigAsfWriter2 Interface**](/windows/desktop/api/dshowasf/)
+[**IConfigAsfWriter2 Interface**](https://msdn.microsoft.com/en-us/library/Dd743206(v=VS.85).aspx)
 </dt> </dl>
 
  

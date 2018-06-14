@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MM\_MIM\_MOREDATA message
 
-The **MM\_MIM\_MOREDATA** message is sent to a callback window when a MIDI message is received by a MIDI input device but the application is not processing [**MIM\_DATA**](mim-data.md) messages fast enough to keep up with the input device driver. The window receives this message only when the application specifies MIDI\_IO\_STATUS in the call to the [**midiInOpen**](https://www.bing.com/search?q=**midiInOpen**) function.
+The **MM\_MIM\_MOREDATA** message is sent to a callback window when a MIDI message is received by a MIDI input device but the application is not processing [**MIM\_DATA**](mim-data.md) messages fast enough to keep up with the input device driver. The window receives this message only when the application specifies MIDI\_IO\_STATUS in the call to the [**midiInOpen**](https://msdn.microsoft.com/en-us/library/Dd798458(v=VS.85).aspx) function.
 
 
 ```C++

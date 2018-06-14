@@ -139,7 +139,7 @@ There are two default constant buffers available, $Global and $Param. Variables 
 
 ## Examples
 
-Here is an example from [Skinning10 Sample](https://msdn.microsoft.com/windows/desktop/14a8cdff-daa9-0ad0-dfeb-ed82a3f04eda) that is a texture buffer made up of an array of matrices.
+Here is an example from [Skinning10 Sample](https://msdn.microsoft.com/en-us/library/Ee416429(v=VS.85).aspx) that is a texture buffer made up of an array of matrices.
 
 
 ```

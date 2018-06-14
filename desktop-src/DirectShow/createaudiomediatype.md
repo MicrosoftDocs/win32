@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # CreateAudioMediaType function
 
-The **CreateAudioMediaType** function initializes a media type from a [**WAVEFORMATEX**](/windows/desktop/api/mmreg/) structure.
+The **CreateAudioMediaType** function initializes a media type from a [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) structure.
 
 ## Syntax
 
@@ -33,7 +33,7 @@ HRESULT STDAPI CreateAudioMediaType(
 *pwfx* 
 </dt> <dd>
 
-Pointer to the supplied [**WAVEFORMATEX**](/windows/desktop/api/mmreg/) structure.
+Pointer to the supplied [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) structure.
 
 </dd> <dt>
 

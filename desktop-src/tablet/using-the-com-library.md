@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The Tablet PC managed library reference can now be found in the regular Windows Vista SDK Class Library reference section. It provides an object model for Microsoft Visual C++. The majority of the objects in the COM Library are identical to those found in the Tablet PC Managed API.
 
-However, the COM API contains some members in addition to those found in the Managed API because of differences between the standard Microsoft Win32 environment and the Microsoft .NET Frameworksoftware development kit (SDK) environment. For example, the InkRectangle and InkTransform objects are used in COM, but the FrameworkSDK provides native implementation for [**InkRectangle Class**](/windows/desktop/api/msinkaut/) and [**InkTransform Class**](/windows/desktop/api/msinkaut/) that eliminates the need for these objects in the Tablet PC platform Managed API.
+However, the COM API contains some members in addition to those found in the Managed API because of differences between the standard Microsoft Win32 environment and the Microsoft .NET Frameworksoftware development kit (SDK) environment. For example, the InkRectangle and InkTransform objects are used in COM, but the FrameworkSDK provides native implementation for [**InkRectangle Class**](https://msdn.microsoft.com/en-us/library/ms700607(v=VS.85).aspx) and [**InkTransform Class**](https://msdn.microsoft.com/en-us/library/ms700610(v=VS.85).aspx) that eliminates the need for these objects in the Tablet PC platform Managed API.
 
 > [!Note]  
 > The objects in the COM API and the ink controls are not designed for use in Active Server Pages (ASP).
@@ -26,7 +26,7 @@ If you pass in a **NULL** value as the index to any of the collection objects in
 
 The **\_NewEnum** property is marked restricted in the Interface Definition Language (IDL) definition for the collection interfaces.
 
-In C++, use a `For...` loop to iterate through a collection by first obtaining the collection's length. The example below shows how to iterate through the strokes of an [**InkDisp**](/windows/desktop/api/msinkaut/) object, `pInk`.
+In C++, use a `For...` loop to iterate through a collection by first obtaining the collection's length. The example below shows how to iterate through the strokes of an [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object, `pInk`.
 
 
 ```C++
@@ -69,7 +69,7 @@ The Tablet PC environment is multithreaded. Refer to COM documentation for multi
 
 ## Support for Aggregation
 
-Aggregation has been tested for only the [InkEdit](inkedit-control-reference.md) control, the [InkPicture](inkpicture-control-reference.md) control, the [**InkDisp**](/windows/desktop/api/msinkaut/) object, and the [**InkOverlay**](/windows/desktop/api/msinkaut/) object. Aggregation has not been tested for other controls and objects in the library.
+Aggregation has been tested for only the [InkEdit](inkedit-control-reference.md) control, the [InkPicture](inkpicture-control-reference.md) control, the [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object, and the [**InkOverlay**](https://msdn.microsoft.com/en-us/library/ms698599(v=VS.85).aspx) object. Aggregation has not been tested for other controls and objects in the library.
 
 ## C++
 
@@ -83,13 +83,13 @@ The value in the first member of the structure, vt, describes which of the union
 
 Before using the structure, initialize it by calling the VariantInit COM function. When finished with the structure, clear it before the memory that contains the VARIANT is freed by calling VariantClear.
 
-For more information on the VARIANT structure, see [VARIANT and VARIANTARG Data Types](https://msdn.microsoft.com/windows/desktop/e305240e-9e11-4006-98cc-26f4932d2118).
+For more information on the VARIANT structure, see [VARIANT and VARIANTARG Data Types](https://msdn.microsoft.com/en-us/library/ms221627(v=VS.71).aspx).
 
 The SAFEARRAY structure is provided as a way to safely work with arrays in COM. The VARIANT's parray field is a pointer to a SAFEARRAY. Use functions such as SafeArrayCreateVector, SafeArrayAccessData, and SafeArrayUnaccessData to create and fill a SAFEARRAY in a VARIANT.
 
-For more information on the SAFEARRAY data type, see [SafeArray Data Type](https://msdn.microsoft.com/windows/desktop/9ec8025b-4763-4526-ab45-390c5d8b3b1e).
+For more information on the SAFEARRAY data type, see [SafeArray Data Type](https://msdn.microsoft.com/en-us/library/ms221482(v=VS.71).aspx).
 
-This C++ example creates an [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) , `pInkStrokeDisp`, in an [**InkDisp**](/windows/desktop/api/msinkaut/) object, `pInk`, from an array of point data.
+This C++ example creates an [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) , `pInkStrokeDisp`, in an [**InkDisp**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object, `pInk`, from an array of point data.
 
 
 ```C++
@@ -144,9 +144,9 @@ VariantClear( &amp;varPK );
 
 The supported string format for COM is BSTR. A BSTR has a pointer to a zero-terminated string, but it also contains the length of the string (in bytes, not counting the terminator), which is stored in the 4 bytes immediately preceding the first character of the string.
 
-For more information on BSTR, see [BSTR Data Type](https://msdn.microsoft.com/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228).
+For more information on BSTR, see [BSTR Data Type](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx).
 
-This C++ sample shows how to set the factoid on an [**InkRecognizerContext**](/windows/desktop/api/msinkaut/) using a BSTR.
+This C++ sample shows how to set the factoid on an [**InkRecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) using a BSTR.
 
 
 ```C++

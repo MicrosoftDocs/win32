@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_Thread class
 
-The **Win32\_Thread** [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents a thread of execution. While a process must have one thread of execution, the process can create other threads to execute tasks in parallel. Threads share the process environment, thus multiple threads under the same process use less memory than the same number of processes.
+The **Win32\_Thread** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) represents a thread of execution. While a process must have one thread of execution, the process can create other threads to execute tasks in parallel. Threads share the process environment, thus multiple threads under the same process use less memory than the same number of processes.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -73,7 +73,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Caption")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Caption")
 </dt> </dl>
 
 Short description of the object.
@@ -91,7 +91,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Cim\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**Cim\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Name of the first concrete class to appear in the inheritance chain used in the creation of an instance. When used with the other key properties of the class, this property allows all instances of this class and its subclasses to be uniquely identified.
@@ -109,7 +109,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_Process**](cim-process.md).**CSCreationClassName**"), [**Cim\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Process**](cim-process.md).**CSCreationClassName**"), [**Cim\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Creation class name of the scoping computer system.
@@ -127,7 +127,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_Process**](cim-process.md).**CSName**"), [**Cim\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Process**](cim-process.md).**CSName**"), [**Cim\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Name of the scoping computer system.
@@ -145,7 +145,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Description")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Description")
 </dt> </dl>
 
 Description of the object.
@@ -163,7 +163,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Performance Data Structures\|[**PERF\_OBJECT\_TYPE**](https://msdn.microsoft.com/9ed4f890-6256-45fd-a310-b5963a6131ae)\|PerfTime"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("milliseconds")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Performance Data Structures\|[**PERF\_OBJECT\_TYPE**](https://msdn.microsoft.com/en-us/library/Aa373160(v=VS.85).aspx)\|PerfTime"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("milliseconds")
 </dt> </dl>
 
 Total execution time, in milliseconds, given to this thread since its creation.
@@ -247,7 +247,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256), [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Handle"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Tool Help Structures\|[**THREADENTRY32**](https://msdn.microsoft.com/923feca1-8807-4752-8a5a-79075688aabd)\|th32ThreadID")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Handle"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Tool Help Structures\|[**THREADENTRY32**](https://msdn.microsoft.com/en-us/library/ms686735(v=VS.85).aspx)\|th32ThreadID")
 </dt> </dl>
 
 Handle to a thread. The handle has full access rights by default. With the correct security access, the handle can be used in any function that accepts a thread handle. Depending on the inheritance flag specified when it is created, this handle can be inherited by child processes.
@@ -263,7 +263,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Install Date")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Install Date")
 </dt> </dl>
 
 Object was installed. This property does not need a value to indicate that the object is installed.
@@ -281,7 +281,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("KernelModeTime"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Performance Data Structures\|[**PERF\_OBJECT\_TYPE**](https://msdn.microsoft.com/9ed4f890-6256-45fd-a310-b5963a6131ae)\|PrivilegedTime"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("100 nanoseconds")
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("KernelModeTime"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Performance Data Structures\|[**PERF\_OBJECT\_TYPE**](https://msdn.microsoft.com/en-us/library/Aa373160(v=VS.85).aspx)\|PrivilegedTime"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("100 nanoseconds")
 </dt> </dl>
 
 Time in kernel mode, in 100 nanosecond units. If this information is not available, a value of 0 (zero) should be used.
@@ -299,7 +299,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Name")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Name")
 </dt> </dl>
 
 Label by which the object is known. When subclassed, the property can be overridden to be a key property.
@@ -317,7 +317,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_Process**](cim-process.md).**OSCreationClassName**"), [**Cim\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Process**](cim-process.md).**OSCreationClassName**"), [**Cim\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Creation class name of the scoping operating system.
@@ -335,7 +335,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_Process**](cim-process.md).**OSName**"), [**Cim\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Process**](cim-process.md).**OSName**"), [**Cim\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Name of the scoping operating system.
@@ -353,7 +353,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Priority"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Tool Help Structures\|[**THREADENTRY32**](https://msdn.microsoft.com/923feca1-8807-4752-8a5a-79075688aabd)\|tpDeltaPri")
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Priority"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Tool Help Structures\|[**THREADENTRY32**](https://msdn.microsoft.com/en-us/library/ms686735(v=VS.85).aspx)\|tpDeltaPri")
 </dt> </dl>
 
 Dynamic priority of the thread. Each thread has a dynamic priority that the scheduler uses to determine which thread to execute. Initially, a thread's dynamic priority is the same as its base priority. The system can raise and lower the dynamic priority, to ensure that it is responsive (guaranteeing that no threads are starved for processor time). The system does not boost the priority of threads with a base priority level between 16 and 31. Only threads with a base priority between 0 and 15 receive dynamic priority boosts. Higher numbers indicate higher priorities.
@@ -369,7 +369,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Performance Data Structures\|[**PERF\_OBJECT\_TYPE**](https://msdn.microsoft.com/9ed4f890-6256-45fd-a310-b5963a6131ae)\|PerfPriorityBase")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Performance Data Structures\|[**PERF\_OBJECT\_TYPE**](https://msdn.microsoft.com/en-us/library/Aa373160(v=VS.85).aspx)\|PerfPriorityBase")
 </dt> </dl>
 
 Current base priority of a thread. The operating system may raise the thread's dynamic priority above the base priority if the thread is handling user input, or lower it toward the base priority if the thread becomes compute-bound. The **PriorityBase** property can have a value between 0 and 31.
@@ -385,7 +385,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Propagated**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_Process**](cim-process.md).**CreationClassName**"), [**Cim\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Process**](cim-process.md).**CreationClassName**"), [**Cim\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Value of the scoping process **CreationClassName** property.
@@ -403,7 +403,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256), [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("ProcessHandle"), [**Propagated**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_Process**](cim-process.md).**Handle**"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Tool Help Structures\|[**THREADENTRY32**](https://msdn.microsoft.com/923feca1-8807-4752-8a5a-79075688aabd)\|th32OwnerProcessID")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("ProcessHandle"), [**Propagated**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Process**](cim-process.md).**Handle**"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Tool Help Structures\|[**THREADENTRY32**](https://msdn.microsoft.com/en-us/library/ms686735(v=VS.85).aspx)\|th32OwnerProcessID")
 </dt> </dl>
 
 Process that created the thread. The contents of this property can be used by Windows application programming interface (API) elements.
@@ -419,7 +419,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WIn32API\|Thread Object\|LPTHREAD\_START\_ROUTINE\|lpStartAddress")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WIn32API\|Thread Object\|LPTHREAD\_START\_ROUTINE\|lpStartAddress")
 </dt> </dl>
 
 Starting address of the thread. Because any application with appropriate access to the thread can change the thread's context, this value may only be an approximation of the thread's starting address.
@@ -435,7 +435,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (10), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Status")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", could apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither "OK" nor in one of the other states.
@@ -541,7 +541,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Thread State")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Thread State")
 </dt> </dl>
 
 Current execution state for the thread.
@@ -647,7 +647,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Thread Wait Reason")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Thread Wait Reason")
 </dt> </dl>
 
 Reason why the thread is waiting. This value is only valid if the **ThreadState** member is set to Transition (6). Event pairs allow communication with protected subsystems.
@@ -816,7 +816,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("UserModeTime"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Win32API\|Performance Data Structures\|[**PERF\_OBJECT\_TYPE**](https://msdn.microsoft.com/9ed4f890-6256-45fd-a310-b5963a6131ae)\|UserTime"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("100 nanoseconds")
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("UserModeTime"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Win32API\|Performance Data Structures\|[**PERF\_OBJECT\_TYPE**](https://msdn.microsoft.com/en-us/library/Aa373160(v=VS.85).aspx)\|UserTime"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("100 nanoseconds")
 </dt> </dl>
 
 Time in user mode, in 100 nanoseconds units. If this information is not available, a value of 0 (zero) should be used.
@@ -888,7 +888,7 @@ Next
 [**CIM\_Thread**](cim-thread.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/windows/desktop/D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
+[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
 </dt> </dl>
 
  

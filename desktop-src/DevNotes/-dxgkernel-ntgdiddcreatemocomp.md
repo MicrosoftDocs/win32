@@ -41,7 +41,7 @@ Handle to a previously created DirectDraw kernel-mode object for the device on w
 *puCreateMoCompData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_CREATEMOCOMPDATA**](https://msdn.microsoft.com/windows/desktop/53b2aa38-b007-4938-8fdb-c3482735ae36) structure that contains the information required to begin using motion compensation.
+Pointer to a [**DD\_CREATEMOCOMPDATA**](https://msdn.microsoft.com/en-us/library/Ff550529(v=VS.85).aspx) structure that contains the information required to begin using motion compensation.
 
 </dd> </dl>
 

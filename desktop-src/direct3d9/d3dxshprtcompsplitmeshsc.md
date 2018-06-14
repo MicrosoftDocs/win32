@@ -46,7 +46,7 @@ HRESULT D3DXSHPRTCompSplitMeshSC(
 *pClusterIDs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 *NumVertices* cluster IDs (extracted from a compressed buffer.)
 
@@ -55,7 +55,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d
 *NumVertices* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of vertices in original mesh.
 
@@ -64,7 +64,7 @@ Number of vertices in original mesh.
 *NumCs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of clusters (input parameter to compression.)
 
@@ -73,7 +73,7 @@ Number of clusters (input parameter to compression.)
 *pSClusterIDs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Array of size *NumCs* that will contain super cluster IDs.
 
@@ -82,7 +82,7 @@ Array of size *NumCs* that will contain super cluster IDs.
 *NumSCs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of super clusters allocated in [**D3DXSHPRTCompSuperCluster**](d3dxshprtcompsupercluster.md).
 
@@ -91,7 +91,7 @@ Number of super clusters allocated in [**D3DXSHPRTCompSuperCluster**](d3dxshprtc
 *pInputIB* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LPVOID**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Raw index buffer for mesh. The format depends on *InputIBIs32Bit*.
 
@@ -100,7 +100,7 @@ Raw index buffer for mesh. The format depends on *InputIBIs32Bit*.
 *InputIBIs32Bit* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 If **TRUE**, the index buffer is set to 32 bit; otherwise, 16 bit.
 
@@ -109,7 +109,7 @@ If **TRUE**, the index buffer is set to 32 bit; otherwise, 16 bit.
 *NumFaces* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Number of faces in the original mesh (*pInputIB* is 3 times this length.)
 
@@ -127,7 +127,7 @@ Raw index buffer that will contain the resulting split faces. Format determined 
 *pIBDataLength* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Length of *ppIBData*, assigned in function.
 
@@ -136,7 +136,7 @@ Length of *ppIBData*, assigned in function.
 *OutputIBIs32Bit* \[in, out\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**BOOL**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 If **TRUE**, allocates an unsigned integer array; otherwise, allocates an unsigned short array.
 
@@ -163,7 +163,7 @@ New vertex data structure. Size of *pVertDataLength*.
 *pVertDataLength* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Number of new vertices in split mesh. Assigned in function.
 
@@ -172,7 +172,7 @@ Number of new vertices in split mesh. Assigned in function.
 *pSCClusterList* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Array of length *NumCs* which *pSCData* indexes into (*pClusterIDs*\* fields) for each supercluster, contains clusters sorted by supercluster.
 
@@ -189,7 +189,7 @@ Structure per super cluster. Contains indices into *ppIBData*, *pSCClusterList*,
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_INVALIDCALL, D3DXERR\_INVALIDDATA, E\_OUTOFMEMORY.
 

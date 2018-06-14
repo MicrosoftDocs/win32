@@ -14,7 +14,7 @@ Exposes methods that allow a Shell extension to provide a searchable namespace.
 
 ## Members
 
-The **IShellFolderSearchable** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) interface. **IShellFolderSearchable** also has these types of members:
+The **IShellFolderSearchable** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) interface. **IShellFolderSearchable** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -27,7 +27,7 @@ The **IShellFolderSearchable** interface has these methods.
 | Method                                                                | Description                                                               |
 |:----------------------------------------------------------------------|:--------------------------------------------------------------------------|
 | [**CancelAsyncSearch**](ishellfoldersearchable-cancelasyncsearch.md) | Begins the process of canceling a pending asynchronous search.<br/> |
-| [**FindString**](/windows/desktop/api/mmc/)               | Begins a search for a specified search string.<br/>                 |
+| [**FindString**](https://msdn.microsoft.com/en-us/library/Bb775029(v=VS.85).aspx)               | Begins a search for a specified search string.<br/>                 |
 | [**InvalidateSearch**](ishellfoldersearchable-invalidatesearch.md)   | Makes this PIDL an invalid portion of the Shell folder.<br/>        |
 
 

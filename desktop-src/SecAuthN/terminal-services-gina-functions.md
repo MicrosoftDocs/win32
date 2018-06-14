@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Terminal Services GINA Functions
 
-When Terminal Services are enabled, the [*GINA*](https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a) must call [*Winlogon*](https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d) support functions to complete the setup for each user, to query the [*credentials*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) of a Terminal Services client session, and to disconnect from a Terminal Services network session.
+When Terminal Services are enabled, the [*GINA*](https://msdn.microsoft.com/en-us/library/ms721584(v=VS.85).aspx) must call [*Winlogon*](https://msdn.microsoft.com/en-us/library/ms721635(v=VS.85).aspx) support functions to complete the setup for each user, to query the [*credentials*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) of a Terminal Services client session, and to disconnect from a Terminal Services network session.
 
 > [!Note]  
 > GINA DLLs are ignored in Windows Vista.
@@ -24,11 +24,11 @@ These support functions include the following.
 
 | Function                                                                     | Description                                                                                         |
 |------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [**WlxWin31Migrate**](/windows/desktop/api/wlxutil/)                                   | Completes the setup of the user.                                                                    |
-| [**WlxQueryClientCredentials**](/windows/desktop/api/wlxutil/)               | Called to query the credentials of remote clients that are not using an Internet connector license. |
-| [**WlxQueryInetConnectorCredentials**](/windows/desktop/api/wlxutil/) | Called to query the credentials of remote clients that are using an Internet connector license.     |
-| [**WlxQueryTerminalServicesData**](/windows/desktop/api/wlxutil/)         | Called to retrieve Terminal Services user configuration information.                                |
-| [**WlxDisconnect**](/windows/desktop/api/wlxutil/)                                       | Called to disconnect from a Terminal Services network session.                                      |
+| [**WlxWin31Migrate**](https://msdn.microsoft.com/en-us/library/Aa381090(v=VS.85).aspx)                                   | Completes the setup of the user.                                                                    |
+| [**WlxQueryClientCredentials**](https://msdn.microsoft.com/en-us/library/Aa380576(v=VS.85).aspx)               | Called to query the credentials of remote clients that are not using an Internet connector license. |
+| [**WlxQueryInetConnectorCredentials**](https://msdn.microsoft.com/en-us/library/Aa380578(v=VS.85).aspx) | Called to query the credentials of remote clients that are using an Internet connector license.     |
+| [**WlxQueryTerminalServicesData**](https://msdn.microsoft.com/en-us/library/Aa380579(v=VS.85).aspx)         | Called to retrieve Terminal Services user configuration information.                                |
+| [**WlxDisconnect**](https://msdn.microsoft.com/en-us/library/Aa380559(v=VS.85).aspx)                                       | Called to disconnect from a Terminal Services network session.                                      |
 
 
 

@@ -43,9 +43,9 @@ Address of a pointer to an [**ID3DXBuffer**](id3dxbuffer.md) that will store the
 *DestFormat* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dximage_fileformat.htm)**
+Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/en-us/library/Bb172878(v=VS.85).aspx)**
 
-[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dximage_fileformat.htm) specifying the file format to use when saving. This function supports saving to all **D3DXIMAGE\_FILEFORMAT** formats except Portable Pixmap (.ppm) and Targa/Truevision Graphics Adapter (.tga).
+[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/en-us/library/Bb172878(v=VS.85).aspx) specifying the file format to use when saving. This function supports saving to all **D3DXIMAGE\_FILEFORMAT** formats except Portable Pixmap (.ppm) and Targa/Truevision Graphics Adapter (.tga).
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ Pointer to a [**PALETTEENTRY**](/windows/desktop/api/Wingdi/ns-wingdi-tagpalette
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be the following: D3DERR\_INVALIDCALL.
 

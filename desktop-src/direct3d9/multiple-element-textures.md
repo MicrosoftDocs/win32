@@ -33,7 +33,7 @@ The usage of multiple-element textures follows these steps:
 
 1.  Applications discover support for this feature by checking for the availability of multiple-element texture formats.
 2.  The application creates these surfaces by calling [**CreateTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createtexture).
-3.  The application sets the surface as a render target using the [**SetRenderTarget**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget) call. The pixel shader provides output to the surfaces using the [mov - ps](https://msdn.microsoft.com/VS|directx_sdk|~\mov___ps.htm) instruction.
+3.  The application sets the surface as a render target using the [**SetRenderTarget**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget) call. The pixel shader provides output to the surfaces using the [mov - ps](https://msdn.microsoft.com/en-us/library/Bb147213(v=VS.85).aspx) instruction.
 4.  [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-settexture) is called to set a multiple-element texture surface to a particular stage. As with other textures, the same surface is allowed to be set to multiple stages at once.
 5.  [**SetSamplerState**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-setsamplerstate) is called to set D3DSAMP\_ELEMENTINDEX to the appropriate element number in the multiple-element texture from which the sampler samples. Default value for this state is 0, which means non-multiple-element textures will work. Setting this state to an inappropriate number results in an undefined behavior - if the multiple-element texture is only two elements wide but the sampler is asked to sample from the fourth element, for example.
 

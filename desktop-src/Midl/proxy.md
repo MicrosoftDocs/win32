@@ -90,7 +90,7 @@ Interfaces can be marked with the TYPEFLAG\_PROXY flag to indicate they will be 
 [**dual**](dual.md)
 </dt> <dt>
 
-[**TYPEFLAGS**](https://msdn.microsoft.com/windows/desktop/bf34cc90-f772-4562-9d18-7cf35aeed41e)
+[**TYPEFLAGS**](https://msdn.microsoft.com/en-us/library/ms221509(v=VS.71).aspx)
 </dt> </dl>
 
  

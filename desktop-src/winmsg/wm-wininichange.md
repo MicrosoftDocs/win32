@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # WM\_WININICHANGE message
 
-An application sends the **WM\_WININICHANGE** message to all top-level windows after making a change to the WIN.INI file. The [**SystemParametersInfo**](/windows/desktop/api/Winuser/nf-winuser-systemparametersinfoa) function sends this message after an application uses the function to change a setting in WIN.INI.
+An application sends the **WM\_WININICHANGE** message to all top-level windows after making a change to the WIN.INI file. The [**SystemParametersInfo**](https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx) function sends this message after an application uses the function to change a setting in WIN.INI.
 
 > [!Note]  
 > The **WM\_WININICHANGE** message is provided only for compatibility with earlier versions of the system. Applications should use the [**WM\_SETTINGCHANGE**](wm-settingchange.md) message.
@@ -77,7 +77,7 @@ The change in the storage location has no effect on the behavior of this message
 
 <dl> <dt>
 
-[**SystemParametersInfo**](/windows/desktop/api/Winuser/nf-winuser-systemparametersinfoa)
+[**SystemParametersInfo**](https://msdn.microsoft.com/en-us/library/ms724947(v=VS.85).aspx)
 </dt> </dl>
 
  

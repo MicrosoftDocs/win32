@@ -19,7 +19,7 @@ Audio auxiliary (AAUX) source pack for the first audio block in a digital video 
 
 ## Remarks
 
-This attribute corresponds to the **dwDVAAuxSrc** member of the DirectShow [**DVINFO**](https://msdn.microsoft.com/285a56fc-9c25-4c5a-ae6a-146c17b00e84) structure.
+This attribute corresponds to the **dwDVAAuxSrc** member of the DirectShow [**DVINFO**](https://msdn.microsoft.com/en-us/library/Dd388639(v=VS.85).aspx) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

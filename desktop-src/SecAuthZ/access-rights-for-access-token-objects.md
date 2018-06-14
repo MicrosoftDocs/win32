@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 An application cannot change the access control list of an object unless the application has the rights to do so. These rights are controlled by a security descriptor in the access token for the object. For more information about security, see [Access Control Model](access-control-model.md).
 
-To get or set the [security descriptor](security-descriptors.md) for an [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly), call the [**GetKernelObjectSecurity**](https://www.bing.com/search?q=**GetKernelObjectSecurity**) and [**SetKernelObjectSecurity**](https://www.bing.com/search?q=**SetKernelObjectSecurity**) functions.
+To get or set the [security descriptor](security-descriptors.md) for an [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly), call the [**GetKernelObjectSecurity**](https://msdn.microsoft.com/en-us/library/Aa446641(v=VS.85).aspx) and [**SetKernelObjectSecurity**](https://msdn.microsoft.com/en-us/library/Aa379578(v=VS.85).aspx) functions.
 
-When you call the [**OpenProcessToken**](/windows/desktop/api/Winbase/nf-ntifs-ntopenprocesstoken) or [**OpenThreadToken**](/windows/desktop/api/Winbase/nf-ntifs-ntopenthreadtoken) function to get a handle to an access token, the system checks the requested [access rights](access-rights-and-access-masks.md) against the DACL in the token's security descriptor.
+When you call the [**OpenProcessToken**](https://msdn.microsoft.com/en-us/library/Aa379295(v=VS.85).aspx) or [**OpenThreadToken**](https://msdn.microsoft.com/en-us/library/Aa379296(v=VS.85).aspx) function to get a handle to an access token, the system checks the requested [access rights](access-rights-and-access-masks.md) against the DACL in the token's security descriptor.
 
 The following are valid access rights for access-token objects:
 

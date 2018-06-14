@@ -42,7 +42,7 @@ Reference documentation for the Windows Ribbon framework constants and enumerati
 <td>Specifies values that identify the types of changes that can be made to a collection.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UI_COMMANDCATEGORY</strong>](/windows/desktop/api/Uiribbon/)<br/></td>
+<td>[<strong>UI_COMMANDCATEGORY</strong>](https://msdn.microsoft.com/en-us/library/Hh448736(v=VS.85).aspx)<br/></td>
 <td>Specifies values that indicate whether a Command was defined at compile time or at run time.<br/></td>
 </tr>
 <tr class="odd">

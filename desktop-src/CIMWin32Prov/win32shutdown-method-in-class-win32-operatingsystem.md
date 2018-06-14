@@ -17,9 +17,9 @@ ms.date: 05/31/2018
 
 # Win32Shutdown method of the Win32\_OperatingSystem class
 
-The **Win32Shutdown**   [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) method provides the full set of shutdown options supported by Win32 operating systems. These include logoff, shutdown, reboot, and forcing a logoff, shutdown, or reboot.
+The **Win32Shutdown**   [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) method provides the full set of shutdown options supported by Win32 operating systems. These include logoff, shutdown, reboot, and forcing a logoff, shutdown, or reboot.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/en-us/library/Aa384832(v=VS.85).aspx).
 
 ## Syntax
 
@@ -117,7 +117,7 @@ A means to extend **Win32Shutdown**. Currently, the *Reserved* parameter is igno
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/b560f37c-da22-4745-8d1f-b27afdf572ec) or [**WbemErrorEnum**](https://msdn.microsoft.com/6accd7c9-cb12-4eba-aff0-0aa38324b4ff). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7).
+Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/en-us/library/Aa394559(v=VS.85).aspx) or [**WbemErrorEnum**](https://msdn.microsoft.com/en-us/library/Aa393978(v=VS.85).aspx). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx).
 
 <dl> <dt>
 
@@ -222,7 +222,7 @@ Next
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/windows/desktop/D0756D8C-A3D3-4C75-96A3-8C7F05300B39)
+[Operating System Classes](https://msdn.microsoft.com/en-us/library/Dn792258(v=VS.85).aspx)
 </dt> <dt>
 
 [**Win32\_OperatingSystem**](win32-operatingsystem.md)
@@ -231,10 +231,10 @@ Next
 [**Win32ShutdownTracker**](win32shutdowntracker-method-in-class-win32-operatingsystem.md)
 </dt> <dt>
 
-[WMI Tasks: Desktop Management](https://msdn.microsoft.com/bb8356bf-de38-4925-a501-6ad47d23ea8f)
+[WMI Tasks: Desktop Management](https://msdn.microsoft.com/en-us/library/Aa394591(v=VS.85).aspx)
 </dt> <dt>
 
-[Executing Privileged Operations Using VBScript](https://msdn.microsoft.com/65b923d5-5244-498d-9644-d4978fb84f85)
+[Executing Privileged Operations Using VBScript](https://msdn.microsoft.com/en-us/library/Aa390430(v=VS.85).aspx)
 </dt> </dl>
 
  

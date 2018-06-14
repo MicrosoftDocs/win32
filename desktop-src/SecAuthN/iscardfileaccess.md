@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCardFileAccess interface
 
-\[The **ISCardFileAccess** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7) provide similar functionality.\]
+\[The **ISCardFileAccess** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/en-us/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
 
-The following interface definition is provided as a standard that can be followed when developing a [*smart card*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) [*service provider*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
+The following interface definition is provided as a standard that can be followed when developing a [*smart card*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) [*service provider*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
 
 The **ISCardFileAccess** interface can be used to implement a high-level interface to a card-based file system with an underlying card file system based on the structure defined in ISO/IEC 7816-4. Other implementations are possible, but this is expected to be the most common.
 
@@ -31,7 +31,7 @@ Following is a typical use of the **ISCardFileAccess** interface. In this case, 
 
 ## Members
 
-The **ISCardFileAccess** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **ISCardFileAccess** also has these types of members:
+The **ISCardFileAccess** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **ISCardFileAccess** also has these types of members:
 
 -   [Methods](#methods)
 

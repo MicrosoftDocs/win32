@@ -25,8 +25,8 @@ Sets the starting point for this ink object. This determines where this ink obje
 
 | Method                                                                | Description                                                                                                         |
 |:----------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
-| [**SetStartPoint (D2D1\_INK\_POINT\*)**](/windows/desktop/api/d2d1_3/)  | Sets the starting point for this ink object. This determines where this ink object will start rendering.<br/> |
-| [**SetStartPoint (D2D1\_INK\_POINT&)**](/windows/desktop/api/d2d1_3/) | Sets the starting point for this ink object. This determines where this ink object will start rendering.<br/> |
+| [**SetStartPoint (D2D1\_INK\_POINT\*)**](https://msdn.microsoft.com/en-us/library/Dn900445(v=VS.85).aspx)  | Sets the starting point for this ink object. This determines where this ink object will start rendering.<br/> |
+| [**SetStartPoint (D2D1\_INK\_POINT&)**](https://msdn.microsoft.com/en-us/library/Dn900446(v=VS.85).aspx) | Sets the starting point for this ink object. This determines where this ink object will start rendering.<br/> |
 
 
 
@@ -34,7 +34,7 @@ Sets the starting point for this ink object. This determines where this ink obje
 
 <dl> <dt>
 
-[**ID2D1Ink**](/windows/desktop/api/d2d1_3/)
+[**ID2D1Ink**](https://msdn.microsoft.com/en-us/library/Dn900426(v=VS.85).aspx)
 </dt> </dl>
 
  

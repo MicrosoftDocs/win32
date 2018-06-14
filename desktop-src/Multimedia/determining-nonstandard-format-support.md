@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # Determining Nonstandard Format Support
 
-To see whether a device supports a particular format (standard or nonstandard), you can call the [**waveOutOpen**](https://www.bing.com/search?q=**waveOutOpen**) function with the WAVE\_FORMAT\_QUERY flag. The following example uses this technique to determine whether a waveform-audio device supports a specified format.
+To see whether a device supports a particular format (standard or nonstandard), you can call the [**waveOutOpen**](https://msdn.microsoft.com/en-us/library/Dd743866(v=VS.85).aspx) function with the WAVE\_FORMAT\_QUERY flag. The following example uses this technique to determine whether a waveform-audio device supports a specified format.
 
 
 ```C++
@@ -41,7 +41,7 @@ MMRESULT IsFormatSupported(LPWAVEFORMATEX pwfx, UINT uDeviceID)
 
 
 
-This technique for determining nonstandard format support also applies to waveform-audio input devices. The only difference is that the [**waveInOpen**](https://www.bing.com/search?q=**waveInOpen**) function is used in place of [**waveOutOpen**](https://www.bing.com/search?q=**waveOutOpen**) to query for format support.
+This technique for determining nonstandard format support also applies to waveform-audio input devices. The only difference is that the [**waveInOpen**](https://msdn.microsoft.com/en-us/library/Dd743847(v=VS.85).aspx) function is used in place of [**waveOutOpen**](https://msdn.microsoft.com/en-us/library/Dd743866(v=VS.85).aspx) to query for format support.
 
 To determine whether a particular waveform-audio data format is supported by any of the waveform-audio devices in a system, use the technique illustrated in the previous example, but specify the WAVE\_MAPPER constant for the *uDeviceID* parameter.
 

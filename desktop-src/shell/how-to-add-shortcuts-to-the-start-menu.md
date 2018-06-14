@@ -17,7 +17,7 @@ To add an item to the **Programs** submenu, follow these steps.
 
 ### Step 1:
 
-Create a [shell link](https://msdn.microsoft.com/32ad306d-54bd-4130-ad30-08db50ef106e) by using the [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka) interface.
+Create a [shell link](https://msdn.microsoft.com/en-us/library/Bb776891(v=VS.85).aspx) by using the [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka) interface.
 
 ### Step 2:
 

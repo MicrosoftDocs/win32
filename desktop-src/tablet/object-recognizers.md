@@ -22,7 +22,7 @@ Usually, the objects that are recognized by such a recognizer are in a two-dimen
 
 Because of the very general nature of these relationships, it is extremely difficult to define the set of interfaces that will work for every object recognizer.
 
-The Tablet PC Technology provides a basic framework for object recognizers in the Managed Library and Automation interfaces. However, you must develop custom interfaces that describe complex spatial relationships between recognized objects for each object recognizer. Specifically, for object recognizers, the platform provides the basic [**RecognizerContext**](/windows/desktop/api/msinkaut/) object for associating the [**Ink**](/windows/desktop/api/msinkaut/) object with the recognizer context and for calling the recognizer to perform the recognition.
+The Tablet PC Technology provides a basic framework for object recognizers in the Managed Library and Automation interfaces. However, you must develop custom interfaces that describe complex spatial relationships between recognized objects for each object recognizer. Specifically, for object recognizers, the platform provides the basic [**RecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object for associating the [**Ink**](https://msdn.microsoft.com/en-us/library/ms704893(v=VS.85).aspx) object with the recognizer context and for calling the recognizer to perform the recognition.
 
  
 

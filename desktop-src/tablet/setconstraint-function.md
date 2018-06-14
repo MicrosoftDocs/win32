@@ -92,7 +92,7 @@ The recognizer flag **RECOFLAG\_PREFIXOK** does not pertain to a constraint. For
 [**SetFlags**](/windows/desktop/api/recapis/nf-recapis-setflags)
 </dt> <dt>
 
-[**SetTextContext**](https://msdn.microsoft.com/f5461326-3def-4564-81ea-32a63b889da0)
+[**SetTextContext**](https://msdn.microsoft.com/en-us/library/ms704873(v=VS.85).aspx)
 </dt> </dl>
 
  

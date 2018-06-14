@@ -27,9 +27,9 @@ Creates a Direct2D bitmap.
 
 | Method                                                                                                                                                                                                   | Description                                                                    |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|
-| [**CreateBitmap(D2D1\_SIZE\_U,D2D1\_BITMAP\_PROPERTIES&,ID2D1Bitmap\*\*)**](/windows/desktop/api/d2d1/)                                | Creates an uninitialized Direct2D bitmap. <br/>                          |
-| [**CreateBitmap(D2D1\_SIZE\_U,void\*,UINT32,D2D1\_BITMAP\_PROPERTIES\*,ID2D1Bitmap\*\*)**](/windows/desktop/api/d2d1/) | Creates a Direct2D bitmap from a pointer to in-memory source data.<br/>  |
-| [**CreateBitmap(D2D1\_SIZE\_U,void\*,UINT32,D2D1\_BITMAP\_PROPERTIES&,ID2D1Bitmap\*\*)**](/windows/desktop/api/d2d1/)  | Creates a Direct2D bitmap from a pointer to in-memory source data. <br/> |
+| [**CreateBitmap(D2D1\_SIZE\_U,D2D1\_BITMAP\_PROPERTIES&,ID2D1Bitmap\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371806(v=VS.85).aspx)                                | Creates an uninitialized Direct2D bitmap. <br/>                          |
+| [**CreateBitmap(D2D1\_SIZE\_U,void\*,UINT32,D2D1\_BITMAP\_PROPERTIES\*,ID2D1Bitmap\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371800(v=VS.85).aspx) | Creates a Direct2D bitmap from a pointer to in-memory source data.<br/>  |
+| [**CreateBitmap(D2D1\_SIZE\_U,void\*,UINT32,D2D1\_BITMAP\_PROPERTIES&,ID2D1Bitmap\*\*)**](https://msdn.microsoft.com/en-us/library/Dd371803(v=VS.85).aspx)  | Creates a Direct2D bitmap from a pointer to in-memory source data. <br/> |
 
 
 
@@ -48,7 +48,7 @@ Creates a Direct2D bitmap.
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](/windows/desktop/api/d2d1/)
+[**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx)
 </dt> </dl>
 
  

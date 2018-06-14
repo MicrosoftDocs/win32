@@ -64,7 +64,7 @@ For C++ development, see the [**IEmailAction**](/windows/desktop/api/taskschd/nn
 
 For script development, see the [**EmailAction**](emailaction.md) object.
 
-**Windows 8 and Windows Server 2012:** This element has been removed. Please use IExecAction with the powershell [**Send-MailMessage**](https://msdn.microsoft.com/windows/desktop/796227F5-C9FF-402D-8A04-CDE9E0C180EE) cmdlet as a workaround.
+**Windows 8 and Windows Server 2012:** This element has been removed. Please use IExecAction with the powershell [**Send-MailMessage**](https://msdn.microsoft.com/en-us/library/Hh849925(v=WPS.620).aspx) cmdlet as a workaround.
 
 ## Examples
 

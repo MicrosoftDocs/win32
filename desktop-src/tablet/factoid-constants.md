@@ -41,7 +41,7 @@ Defines constant string values that are used to increase recognition accuracy by
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="___________FACTOID_WORDLIST_________"></span><span id="___________factoid_wordlist_________"></span><dl> <dt> <strong>FACTOID_WORDLIST</strong> </dt> </dl></td>
-<td style="text-align: left;">Indicates to a recognizer to use a programmatically-defined list of words. The list of words is defined by the [<strong>WordList</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of a [<strong>InkRecognizerContext</strong>](/windows/desktop/api/msinkaut/) object. <br/>
+<td style="text-align: left;">Indicates to a recognizer to use a programmatically-defined list of words. The list of words is defined by the [<strong>WordList</strong>](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) property of a [<strong>InkRecognizerContext</strong>](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object. <br/>
 <blockquote>
 [!Note]<br />
 If a string is added to a word list, its capitalized versions are also implicitly added. For instance, adding &quot;hello&quot; implicitly adds &quot;Hello&quot; and &quot;HELLO&quot;.
@@ -247,7 +247,7 @@ The following combinations of factoids are supported for western languages only.
 
 If you are using the [InkEdit](inkedit-control-reference.md) control, the factoid can be set as a property of the control.
 
-If you are using the Tablet PC Platform APIs, you can set the [**Factoid**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid) property on an [**InkRecognizerContext**](/windows/desktop/api/msinkaut/) object.
+If you are using the Tablet PC Platform APIs, you can set the [**Factoid**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid) property on an [**InkRecognizerContext**](https://msdn.microsoft.com/en-us/library/ms696371(v=VS.85).aspx) object.
 
 Alternatively, you can set this property with the actual factoid string constant.
 

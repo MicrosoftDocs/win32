@@ -24,10 +24,10 @@ This section contains information about the interfaces and classes used in the r
 
 | Class                                                      | Description                                                                                     |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| [**RealTimeStylus Class**](/windows/desktop/api/RTSCom/)       | Implements the [**IRealTimeStylus**](/windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus) interface.<br/>                 |
-| [**DynamicRenderer Class**](/windows/desktop/api/RTSCom/)     | Implements the [**IDynamicRenderer Interface**](/windows/desktop/api/RTSCom/nn-rtscom-idynamicrenderer) interface.<br/>     |
-| [**GestureRecognizer Class**](/windows/desktop/api/RTSCom/) | Implements the [**IGestureRecognizer Interface**](/windows/desktop/api/RTSCom/nn-rtscom-igesturerecognizer) interface.<br/> |
-| [**StrokeBuilder Class**](/windows/desktop/api/RTSCom/)         | Implements the [**IStrokeBuilder Interface**](/windows/desktop/api/RTSCom/nn-rtscom-istrokebuilder) interface.<br/>         |
+| [**RealTimeStylus Class**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx)       | Implements the [**IRealTimeStylus**](/windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus) interface.<br/>                 |
+| [**DynamicRenderer Class**](https://msdn.microsoft.com/en-us/library/ms701168(v=VS.85).aspx)     | Implements the [**IDynamicRenderer Interface**](/windows/desktop/api/RTSCom/nn-rtscom-idynamicrenderer) interface.<br/>     |
+| [**GestureRecognizer Class**](https://msdn.microsoft.com/en-us/library/ms700623(v=VS.85).aspx) | Implements the [**IGestureRecognizer Interface**](/windows/desktop/api/RTSCom/nn-rtscom-igesturerecognizer) interface.<br/> |
+| [**StrokeBuilder Class**](https://msdn.microsoft.com/en-us/library/ms695034(v=VS.85).aspx)         | Implements the [**IStrokeBuilder Interface**](/windows/desktop/api/RTSCom/nn-rtscom-istrokebuilder) interface.<br/>         |
 
 
 
@@ -39,16 +39,16 @@ This section contains information about the interfaces and classes used in the r
 
 | Interface                                                                          | Description                                                                                                                                                                                 |
 |------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IDynamicRenderer Interface**](/windows/desktop/api/RTSCom/nn-rtscom-idynamicrenderer)                             | Exposes methods enabling you to control the display of stylus data in real time as the data is being handled by the [**RealTimeStylus Class**](/windows/desktop/api/RTSCom/) object.<br/> |
+| [**IDynamicRenderer Interface**](/windows/desktop/api/RTSCom/nn-rtscom-idynamicrenderer)                             | Exposes methods enabling you to control the display of stylus data in real time as the data is being handled by the [**RealTimeStylus Class**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object.<br/> |
 | [**IGestureRecognizer Interface**](/windows/desktop/api/RTSCom/nn-rtscom-igesturerecognizer)                         | Exposes methods enabling you to react to events by recognizing stylus gestures and enabling you to add data to the input queue.<br/>                                                  |
 | [**IRealTimeStylus**](/windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus)                                         | Handles the stylus packet data from a digitizer in real time.<br/>                                                                                                                    |
 | [**IRealTimeStylus2**](/windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus2)                                       | Extends the IRealTimeStylus interface.<br/>                                                                                                                                           |
 | [**IRealTimeStylus3**](/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3)                                       | Extends the IRealTimeStylus interface.<br/>                                                                                                                                           |
-| [**IRealTimeStylusSynchronization Interface**](/windows/desktop/api/RTSCom/nn-rtscom-irealtimestylussynchronization) | Synchronizes access to the [**RealTimeStylus Class**](/windows/desktop/api/RTSCom/) object.<br/>                                                                                          |
+| [**IRealTimeStylusSynchronization Interface**](/windows/desktop/api/RTSCom/nn-rtscom-irealtimestylussynchronization) | Synchronizes access to the [**RealTimeStylus Class**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) object.<br/>                                                                                          |
 | [**IStrokeBuilder Interface**](/windows/desktop/api/RTSCom/nn-rtscom-istrokebuilder)                                 | Exposes methods that enable you to programmatically create strokes.<br/>                                                                                                              |
 | [**IStylusPlugin Interface**](/windows/desktop/api/RTSCom/nn-rtscom-istylusplugin)                                   | Exposes methods enabling you to receive notifications of events and to perform custom processing based on those events.<br/>                                                          |
-| [**IStylusAsyncPlugin**](/windows/desktop/api/RTSCom/)                                   | Represents an asynchronous plug-in that can be added to the [**RealTimeStylus Class**](/windows/desktop/api/RTSCom/) asynchronous plug-in collection.<br/>                                |
-| [**IStylusSyncPlugin**](/windows/desktop/api/RTSCom/)                                     | Represents a synchronous plug-in that can be added to the [**RealTimeStylus Class**](/windows/desktop/api/RTSCom/) synchronous plug-in collection.<br/>                                   |
+| [**IStylusAsyncPlugin**](https://msdn.microsoft.com/en-us/library/ms702522(v=VS.85).aspx)                                   | Represents an asynchronous plug-in that can be added to the [**RealTimeStylus Class**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) asynchronous plug-in collection.<br/>                                |
+| [**IStylusSyncPlugin**](https://msdn.microsoft.com/en-us/library/ms704312(v=VS.85).aspx)                                     | Represents a synchronous plug-in that can be added to the [**RealTimeStylus Class**](https://msdn.microsoft.com/en-us/library/ms704918(v=VS.85).aspx) synchronous plug-in collection.<br/>                                   |
 
 
 

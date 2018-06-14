@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Example C Program: Creating a Certificate Chain
 
-The following example creates and installs a nondefault certificate chain engine. The engine is used to build certificate chains for each of the certificates in a [*certificate store*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb).
+The following example creates and installs a nondefault certificate chain engine. The engine is used to build certificate chains for each of the certificates in a [*certificate store*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx).
 
-This example illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) functions:
+This example illustrates the following tasks and [*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) functions:
 
 -   Preparing to create a nondefault certificate chain engine by declaring and initializing a [**CERT\_CHAIN\_ENGINE\_CONFIG**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cert_chain_engine_config) data structure.
 -   Creating the search engine using [**CertCreateCertificateChainEngine**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcreatecertificatechainengine).

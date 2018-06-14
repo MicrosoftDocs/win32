@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 While the functions discussed in the preceding work well for many languages, they may not deal with the needs of complex scripts. *Complex scripts* are languages whose printed form is not rendered in a simple way. For example, a complex script may allow bidirectional rendering, contextual shaping of glyphs, or combining characters. Due to these special requirements, the control of text output must be very flexible.
 
-Functions that display text [**TextOut**](/windows/desktop/api/Wingdi/nf-wingdi-textouta), [**ExtTextOut**](/windows/desktop/api/Wingdi/nf-wingdi-exttextouta), [**TabbedTextOut**](/windows/desktop/api/Winuser/nf-winuser-tabbedtextouta), [**DrawText**](/windows/desktop/api/Winuser/nf-winuser-drawtext), and [**GetTextExtentExPoint**](/windows/desktop/api/Wingdi/nf-wingdi-gettextextentexpointa) have been extended to support complex scripts. In general, this support is transparent to the application. However, applications should save characters in a buffer and display a whole line of text at one time, so that the complex script shaping modules can use context to reorder and generate glyphs correctly. In addition, because the width of a glyph can vary by context, applications should use [**GetTextExtentExPoint**](https://msdn.microsoft.com/b873a059-5aa3-47d0-b109-7acd542c7d79) to determine line length rather than using cached character widths.
+Functions that display text [**TextOut**](/windows/desktop/api/Wingdi/nf-wingdi-textouta), [**ExtTextOut**](/windows/desktop/api/Wingdi/nf-wingdi-exttextouta), [**TabbedTextOut**](/windows/desktop/api/Winuser/nf-winuser-tabbedtextouta), [**DrawText**](/windows/desktop/api/Winuser/nf-winuser-drawtext), and [**GetTextExtentExPoint**](/windows/desktop/api/Wingdi/nf-wingdi-gettextextentexpointa) have been extended to support complex scripts. In general, this support is transparent to the application. However, applications should save characters in a buffer and display a whole line of text at one time, so that the complex script shaping modules can use context to reorder and generate glyphs correctly. In addition, because the width of a glyph can vary by context, applications should use [**GetTextExtentExPoint**](https://msdn.microsoft.com/en-us/library/Dd144935(v=VS.85).aspx) to determine line length rather than using cached character widths.
 
 In addition, complex script-aware applications should consider adding support for right-to-left reading order and right alignment to their applications. You can toggle the reading order or alignment between left and right with the following code:
 
@@ -46,7 +46,7 @@ lAlign = TA_RIGHT^TA_RTLREADING;  //pre-inline !
 
 
 
-You can also process complex scripts with Uniscribe. Uniscribe is a set of functions that allow a fine degree of control for complex scripts. For more information, see [Uniscribe](https://msdn.microsoft.com/de7a882f-ed74-4be2-b66d-59c2e50dc07a) and [Processing Complex Scripts](https://msdn.microsoft.com/1190baed-5959-4f7a-8946-ac3b3da85821).
+You can also process complex scripts with Uniscribe. Uniscribe is a set of functions that allow a fine degree of control for complex scripts. For more information, see [Uniscribe](https://msdn.microsoft.com/en-us/library/Dd374091(v=VS.85).aspx) and [Processing Complex Scripts](https://msdn.microsoft.com/en-us/library/Dd319103(v=VS.85).aspx).
 
  
 

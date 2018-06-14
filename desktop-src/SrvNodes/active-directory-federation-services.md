@@ -17,7 +17,7 @@ Active Directory Federation Service (AD FS) is an authentication and authorizati
 
 <dl> <dt>
 
-[Active Directory Federation Services Overview](https://msdn.microsoft.com/windows/desktop/8337c432-1b57-4f9d-9a50-87484cd10161)
+[Active Directory Federation Services Overview](https://msdn.microsoft.com/en-us/library/ms674895(v=VS.85).aspx)
 </dt> <dd>
 
 Overview information about AD FS.

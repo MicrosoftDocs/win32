@@ -20,9 +20,9 @@ ms.date: 05/31/2018
 
 The following structures are used with multimedia joysticks.
 
--   [**JOYCAPS**](https://www.bing.com/search?q=**JOYCAPS**)
--   [**JOYINFO**](https://www.bing.com/search?q=**JOYINFO**)
--   [**JOYINFOEX**](https://www.bing.com/search?q=**JOYINFOEX**)
+-   [**JOYCAPS**](https://msdn.microsoft.com/en-us/library/Dd757103(v=VS.85).aspx)
+-   [**JOYINFO**](https://msdn.microsoft.com/en-us/library/Dd757110(v=VS.85).aspx)
+-   [**JOYINFOEX**](https://msdn.microsoft.com/en-us/library/Dd757112(v=VS.85).aspx)
 
 ## Related topics
 

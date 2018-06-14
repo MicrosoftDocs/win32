@@ -27,7 +27,7 @@ Arabic and many other languages have classical shapes for numbers that are diffe
 
 Unicode provides separate code points for each digit shape. Thus, to access special language digit shapes, your application can use the relevant Unicode character codes for the digits above, U+0030 through U+0039. These codes are always displayed with the appropriate shape, subject to font availability.
 
-The Unicode character codes U+0030 through U+0039 nominally represent the European digits 0 through 9, but their digit shape can be altered. GDI and DirectWrite text APIs provide mechanisms for applications to control this behavior. (See, for instance, [**ScriptApplyDigitSubstitution**](/windows/desktop/api/Usp10/nf-usp10-scriptapplydigitsubstitution) or [**IDWriteTextAnalysisSink::SetNumberSubstitution**](https://msdn.microsoft.com/09b00b49-702e-4cef-bf1c-397c5d572513).) The behavior in some shell controls and user interface frameworks may respond to user locale settings for digit substitution; the [LOCALE\_IDIGITSUBSTITUTION](locale-idigitsubstitution.md) LCTYPE can be used to obtain default digit substitution settings for different locales or the current user's desktop settings for digit substitution.
+The Unicode character codes U+0030 through U+0039 nominally represent the European digits 0 through 9, but their digit shape can be altered. GDI and DirectWrite text APIs provide mechanisms for applications to control this behavior. (See, for instance, [**ScriptApplyDigitSubstitution**](/windows/desktop/api/Usp10/nf-usp10-scriptapplydigitsubstitution) or [**IDWriteTextAnalysisSink::SetNumberSubstitution**](https://msdn.microsoft.com/en-us/library/Dd371312(v=VS.85).aspx).) The behavior in some shell controls and user interface frameworks may respond to user locale settings for digit substitution; the [LOCALE\_IDIGITSUBSTITUTION](locale-idigitsubstitution.md) LCTYPE can be used to obtain default digit substitution settings for different locales or the current user's desktop settings for digit substitution.
 
 ## Native Digits
 
@@ -44,7 +44,7 @@ The application can use digit substitution to tell the operating system how to p
 
 ## Digit Shaping for a Single Function
 
-The [ExtTextOut](https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37), [GetCharacterPlacement](https://msdn.microsoft.com/80d3f4b3-503b-4abb-826c-e5c09972ba2f), and [GCP\_RESULTS](https://msdn.microsoft.com/7692637e-963a-4e0a-8a04-e05a6d01c417) functions have flags that govern the substitution of Unicode codes U+0030 through U+0039 for the duration of the function call. These flags override regional settings in the Control Panel, but do not reset the settings. Also, they do not override the Unicode codes NADS and NODS. The following flags are available.
+The [ExtTextOut](https://msdn.microsoft.com/en-us/library/Dd162713(v=VS.85).aspx), [GetCharacterPlacement](https://msdn.microsoft.com/en-us/library/Dd144860(v=VS.85).aspx), and [GCP\_RESULTS](https://msdn.microsoft.com/en-us/library/Dd144842(v=VS.85).aspx) functions have flags that govern the substitution of Unicode codes U+0030 through U+0039 for the duration of the function call. These flags override regional settings in the Control Panel, but do not reset the settings. Also, they do not override the Unicode codes NADS and NODS. The following flags are available.
 
 
 

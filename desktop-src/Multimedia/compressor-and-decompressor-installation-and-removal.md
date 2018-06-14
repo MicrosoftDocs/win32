@@ -28,7 +28,7 @@ An application can restrict the use of a compressor or decompressor by installin
 
 Alternatively, to use a function internally as a compressor or decompressor without installing it in the registry, an application can use the [**ICOpenFunction**](/windows/desktop/api/Vfw/nf-vfw-icopenfunction) function. This function requires the calling application to have the address of the function to be used as a compressor or decompressor. When the application finishes using the function, it must close it by using **ICClose**. Because the function was not installed, the application does not need to remove the function from the registry.
 
-The internal structure of a function used as a compressor or decompressor should be the same as the [DriverProc](https://www.bing.com/search?q=DriverProc) entry-point function used by installable drivers. For more information about the **DriverProc** entry-point function, see [Installable Drivers](installable-drivers.md).
+The internal structure of a function used as a compressor or decompressor should be the same as the [DriverProc](https://msdn.microsoft.com/en-us/library/Dd797918(v=VS.85).aspx) entry-point function used by installable drivers. For more information about the **DriverProc** entry-point function, see [Installable Drivers](installable-drivers.md).
 
 > [!Note]  
 > An application installing a function as a compressor or decompressor must remove the function before the application is closed so other applications do not try to use the function. When removing a function, the application must identify it with the four-character code used to install it.

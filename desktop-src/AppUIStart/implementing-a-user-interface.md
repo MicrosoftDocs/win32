@@ -39,7 +39,7 @@ When you implement the user interface for an application, consider the following
 
 -   Command structure
 
-    Determine whether to implement a traditional command structure based on menus and toolbars, or an alternative command structure based on the Windows Ribbon Framework. For more information, see [Menus](https://msdn.microsoft.com/library/windows/desktop/ms646977), [Toolbars](https://msdn.microsoft.com/library/windows/desktop/bb760435), and [Windows Ribbon Framework](https://msdn.microsoft.com/windows/desktop/c6108c38-17ef-4d8a-ab32-171bc496d44c).
+    Determine whether to implement a traditional command structure based on menus and toolbars, or an alternative command structure based on the Windows Ribbon Framework. For more information, see [Menus](https://msdn.microsoft.com/library/windows/desktop/ms646977), [Toolbars](https://msdn.microsoft.com/library/windows/desktop/bb760435), and [Windows Ribbon Framework](https://www.bing.com/search?q=Windows+Ribbon+Framework).
 
 -   Windows and dialog boxes
 

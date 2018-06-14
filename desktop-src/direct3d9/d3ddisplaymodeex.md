@@ -36,7 +36,7 @@ typedef struct {
 **Size**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -47,7 +47,7 @@ The size of this structure. This should always be set to sizeof(D3DDISPLAYMODEEX
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -58,7 +58,7 @@ Width of the display mode.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -69,7 +69,7 @@ Height of the display mode.
 **RefreshRate**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -91,11 +91,11 @@ Format of the display mode. See [D3DFORMAT](d3dformat.md).
 **ScanLineOrdering**
 </dt> <dd>
 
-Type: **[**D3DSCANLINEORDERING**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dscanlineordering.htm)**
+Type: **[**D3DSCANLINEORDERING**](https://msdn.microsoft.com/en-us/library/Bb172604(v=VS.85).aspx)**
 
 </dd> <dd>
 
-Indicates whether the scanline order is progressive or interlaced. See [**D3DSCANLINEORDERING**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dscanlineordering.htm).
+Indicates whether the scanline order is progressive or interlaced. See [**D3DSCANLINEORDERING**](https://msdn.microsoft.com/en-us/library/Bb172604(v=VS.85).aspx).
 
 </dd> </dl>
 

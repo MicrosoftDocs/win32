@@ -64,7 +64,7 @@ WIC includes several built-in codecs. The following standard codecs are provided
 [How to Write a WIC-Enabled CODEC](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[AITCodec Sample CODEC](https://msdn.microsoft.com/windows/desktop/f6a44610-0d30-420e-aaf9-c7f436f3c195)
+[AITCodec Sample CODEC](https://msdn.microsoft.com/en-us/library/ms771770(v=VS.85).aspx)
 </dt> </dl>
 
  

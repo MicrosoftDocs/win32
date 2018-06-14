@@ -51,8 +51,8 @@ ms.date: 05/31/2018
 -   [**StringCchVPrintf\_lEx**](/windows/desktop/api/StrSafe/nf-strsafe-stringcchvprintf_lexa)
 -   [**StringCchVPrintf**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchvprintfa)
 -   [**StringCchVPrintfEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchvprintfexa)
--   [**UnalignedStringCbLength**](/windows/desktop/api/StrSafe/nf-strsafe-unalignedstringcblengthw)
--   [**UnalignedStringCchLength**](/windows/desktop/api/StrSafe/nf-strsafe-unalignedstringcchlengthw)
+-   [**UnalignedStringCbLength**](https://www.bing.com/search?q=**UnalignedStringCbLength**)
+-   [**UnalignedStringCchLength**](https://www.bing.com/search?q=**UnalignedStringCchLength**)
 
  
 

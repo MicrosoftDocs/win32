@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # MEStreamSinkDeviceChanged event
 
-Raised by the stream sinks of the enhanced video renderer (EVR) if the video device changes. For example, the EVR raises this event when it receives an [**EC\_DISPLAY\_CHANGED**](https://msdn.microsoft.com/1f5b066b-6d5d-44bb-851a-424b2bd389c0) event.
+Raised by the stream sinks of the enhanced video renderer (EVR) if the video device changes. For example, the EVR raises this event when it receives an [**EC\_DISPLAY\_CHANGED**](https://msdn.microsoft.com/en-us/library/Dd319492(v=VS.85).aspx) event.
 
 The Media Foundation pipeline responds to this event by resubmitting all sample requests that failed while the device was changing.
 

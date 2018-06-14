@@ -88,7 +88,7 @@ Wscript.Echo "Operation = " & LastError.operation & VBCRLF & "ParameterInfo = " 
 
 ## Handling an Error Using C++
 
-A WMI client application can receive either COM-specific or WMI-specific errors. The COM errors conform to the structure of COM error codes. All WMI interfaces can return a COM-specific error except the [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext), [**IWbemClassObject**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject), and [**IWbemQualifierSet**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemqualifierset) interfaces. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/windows/desktop/15f3ae3e-1794-4948-a7aa-6309a703364b). The reference pages of the WMI interfaces list the appropriate WMI error codes in the Error Codes section.
+A WMI client application can receive either COM-specific or WMI-specific errors. The COM errors conform to the structure of COM error codes. All WMI interfaces can return a COM-specific error except the [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext), [**IWbemClassObject**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject), and [**IWbemQualifierSet**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemqualifierset) interfaces. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/en-us/library/ms679692(v=VS.85).aspx). The reference pages of the WMI interfaces list the appropriate WMI error codes in the Error Codes section.
 
 A client application must follow the COM standards for checking status and error return codes. The main difference you must choose is whether you wish to retrieve the error code from a synchronous, semisynchronous, or asynchronous call.
 
@@ -98,9 +98,9 @@ A client application must follow the COM standards for checking status and error
 
     Make sure to call [GetErrorInfo]( http://go.microsoft.com/fwlink/p/?linkid=119575) immediately after an interface method indicates an error. This includes any of the [**IWbemCallResult**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemcallresult) methods you call while processing a semisynchronous process.
 
-2.  Examine the returned COM error object with a call to the [**IErrorInterface::QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) method.
+2.  Examine the returned COM error object with a call to the [**IErrorInterface::QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) method.
 
-    Make sure to specify IID\_WbemClassObject for the *riid* parameter in the [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) call. The **QueryInterface** method returns an instance of a WMI class, typically [**\_\_ExtendedStatus**](--extendedstatus.md).
+    Make sure to specify IID\_WbemClassObject for the *riid* parameter in the [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) call. The **QueryInterface** method returns an instance of a WMI class, typically [**\_\_ExtendedStatus**](--extendedstatus.md).
 
 WMI does not deliver the error object through [GetErrorInfo]( http://go.microsoft.com/fwlink/p/?linkid=119575) for an asynchronous call because there is no way to know when, or on which thread the asynchronous call occurred. Therefore, your code can only handle specific errors or pass the call failure through COM.
 

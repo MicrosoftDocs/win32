@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Cause
 
-In addition to all the information elements previously described, which could be specified in the ATM-specific [**QoS**](https://msdn.microsoft.com/859faa13-bd66-46ee-8452-6ff5d53d66c9) structure while calling [**WSAConnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect), there is a Cause IE that can only be used during the call release. Upon disconnecting, Windows Sockets 2 applications can optionally specify this IE as the disconnect data in [**WSASendDisconnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsasenddisconnect). The remote party can retrieve this IE through [**WSARecvDisconnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvdisconnect) after receiving the FD\_CLOSE notification.
+In addition to all the information elements previously described, which could be specified in the ATM-specific [**QoS**](https://msdn.microsoft.com/en-US/library/Aa374024(v=VS.80).aspx) structure while calling [**WSAConnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect), there is a Cause IE that can only be used during the call release. Upon disconnecting, Windows Sockets 2 applications can optionally specify this IE as the disconnect data in [**WSASendDisconnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsasenddisconnect). The remote party can retrieve this IE through [**WSARecvDisconnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvdisconnect) after receiving the FD\_CLOSE notification.
 
 ``` syntax
 #include <windows.h>

@@ -42,7 +42,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > \[!Caution\]  
-> To avoid a memory leak, call [**SysFreeString**](https://msdn.microsoft.com/windows/desktop/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) on \**pbstrContextNodeType* when you no longer need to use the string.
+> To avoid a memory leak, call [**SysFreeString**](https://msdn.microsoft.com/en-us/library/ms221481(v=VS.71).aspx) on \**pbstrContextNodeType* when you no longer need to use the string.
 
  
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # ISCrdEnr::CSPCount property
 
-The **CSPCount** property retrieves the number of [*cryptographic service providers*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) (CSPs).
+The **CSPCount** property retrieves the number of [*cryptographic service providers*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) (CSPs).
 
 This property is read-only.
 

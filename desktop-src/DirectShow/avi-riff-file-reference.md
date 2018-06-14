@@ -115,7 +115,7 @@ One or more 'strl' lists follow the main header. A 'strl' list is required for e
 
 The stream header chunk ('strh') consists of an [**AVISTREAMHEADER**](/windows/desktop/api/avifmt/ns-avifmt-avistreamheader) structure.
 
-A stream format chunk ('strf') must follow the stream header chunk. The stream format chunk describes the format of the data in the stream. The data contained in this chunk depends on the stream type. For video streams, the information is a [**BITMAPINFO**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure, including palette information if appropriate. For audio streams, the information is a [**WAVEFORMATEX**](/windows/desktop/api/mmreg/) structure.
+A stream format chunk ('strf') must follow the stream header chunk. The stream format chunk describes the format of the data in the stream. The data contained in this chunk depends on the stream type. For video streams, the information is a [**BITMAPINFO**](/windows/desktop/api/WinGDI/ns-wingdi-tagbitmapinfoheader) structure, including palette information if appropriate. For audio streams, the information is a [**WAVEFORMATEX**](https://www.bing.com/search?q=**WAVEFORMATEX**) structure.
 
 If the stream-header data ('strd') chunk is present, it follows the stream format chunk. The format and content of this chunk are defined by the codec driver. Typically, drivers use this information for configuration. Applications that read and write AVI files do not need to interpret this information; they simple transfer it to and from the driver as a memory block.
 

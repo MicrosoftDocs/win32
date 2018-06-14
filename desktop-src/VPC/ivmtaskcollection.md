@@ -28,7 +28,7 @@ Defines the collection of task objects. To obtain an **IVMTaskCollection** objec
 
 ## Members
 
-The **IVMTaskCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface. **IVMTaskCollection** also has these types of members:
+The **IVMTaskCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) interface. **IVMTaskCollection** also has these types of members:
 
 -   [Properties](#properties)
 

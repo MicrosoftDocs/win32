@@ -41,7 +41,7 @@ The [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) objec
 *Strokes* \[in\]
 </dt> <dd>
 
-The [InkStrokes](/windows/desktop/api/msinkaut/) collection that contains the [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects that make up this gesture.
+The [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection that contains the [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects that make up this gesture.
 
 </dd> <dt>
 
@@ -57,7 +57,7 @@ For more information about the VARIANT structure, see [Using the COM Library](us
 *Cancel* \[in, out\]
 </dt> <dd>
 
-Whether the [InkStrokes](/windows/desktop/api/msinkaut/) collection that makes up this gesture should be canceled, so as not to erase the ink and to fire the [**Stroke**](inkedit-stroke.md) event.
+Whether the [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection that makes up this gesture should be canceled, so as not to erase the ink and to fire the [**Stroke**](inkedit-stroke.md) event.
 
 </dd> </dl>
 
@@ -71,7 +71,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 A **Gesture** event is raised only if the [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) for the [**IInkGesture**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture) object is the first **IInkStrokeDisp** object since the last call to the [**Recognize**](/windows/desktop/api/inked/nf-inked-iinkedit-recognize) method or the last firing of the recognition timeout.
 
-If the **Gesture** event is canceled, the [**Stroke**](inkedit-stroke.md) event is raised for the [InkStrokes](/windows/desktop/api/msinkaut/) collection that raised the **Gesture** event.
+If the **Gesture** event is canceled, the [**Stroke**](inkedit-stroke.md) event is raised for the [InkStrokes](https://msdn.microsoft.com/en-us/library/ms703293(v=VS.85).aspx) collection that raised the **Gesture** event.
 
 For this event to occur, the [InkEdit](inkedit-control-reference.md) control must subscribe to a set of application gestures. To set the InkEdit control's interest in a set of gestures, call the [**SetGestureStatus**](/windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus) method.
 

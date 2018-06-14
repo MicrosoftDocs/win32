@@ -73,7 +73,7 @@
 #### [GetServiceKeyName](/windows/desktop/api/Winsvc/nf-winsvc-getservicekeynamea)
 #### [Handler](/windows/desktop/api/Winsvc/nc-winsvc-lphandler_function)
 #### [HandlerEx](/windows/desktop/api/WinSvc/nc-winsvc-lphandler_function_ex)
-#### [InstallELAMCertificateInfo](/windows/desktop/api/windows/)
+#### [InstallELAMCertificateInfo](https://msdn.microsoft.com/en-us/library/Dn369255(v=VS.85).aspx)
 #### [LockServiceDatabase](/windows/desktop/api/Winsvc/nf-winsvc-lockservicedatabase)
 #### [NotifyBootConfigStatus](/windows/desktop/api/Winsvc/nf-winsvc-notifybootconfigstatus)
 #### [NotifyServiceStatusChange](/windows/desktop/api/Winsvc/nf-winsvc-notifyservicestatuschangea)

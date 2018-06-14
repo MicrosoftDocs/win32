@@ -34,7 +34,7 @@ typedef struct D3DRECT {
 **x1**
 </dt> <dd>
 
-Type: **[**LONG**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LONG**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -45,7 +45,7 @@ The x-coordinate of the upper-left corner of the rectangle.
 **y1**
 </dt> <dd>
 
-Type: **[**LONG**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LONG**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -56,7 +56,7 @@ The y-coordinate of the upper-left corner of the rectangle.
 **x2**
 </dt> <dd>
 
-Type: **[**LONG**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LONG**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -67,7 +67,7 @@ The x-coordinate of the lower-right corner of the rectangle.
 **y2**
 </dt> <dd>
 
-Type: **[**LONG**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**LONG**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 

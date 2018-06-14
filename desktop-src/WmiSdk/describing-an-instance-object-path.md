@@ -73,7 +73,7 @@ The following procedure describes how to retrieve a class instance.
 
 **To retrieve a class instance**
 
-1.  Initialize a string that contains the object path with a call to the [**SysAllocString**](https://msdn.microsoft.com/windows/desktop/9e0437a2-9b4a-4576-88b0-5cb9d08ca29b) function.
+1.  Initialize a string that contains the object path with a call to the [**SysAllocString**](https://msdn.microsoft.com/en-us/library/ms221458(v=VS.71).aspx) function.
 2.  Initialize an object that will receive the instance.
 3.  Retrieve the object with a call to [**IWbemServices::GetObject**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject) or [**IWbemServices::GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync).
 

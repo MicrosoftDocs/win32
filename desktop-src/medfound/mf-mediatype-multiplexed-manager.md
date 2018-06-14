@@ -15,7 +15,7 @@ Provides an instance of [**IMFMuxStreamMediaTypeManager**](/windows/desktop/api/
 
 ## Data type
 
-**[**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332)**
+**[**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx)**
 
 ## Remarks
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Creating Threads
 
-The [**CreateThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-createthread) function creates a new thread for a process. The creating thread must specify the starting address of the code that the new thread is to execute. Typically, the starting address is the name of a function defined in the program code (for more information, see [*ThreadProc*](/windows/desktop/api/WinBase/)). This function takes a single parameter and returns a **DWORD** value. A process can have multiple threads simultaneously executing the same function.
+The [**CreateThread**](/windows/desktop/api/WinBase/nf-processthreadsapi-createthread) function creates a new thread for a process. The creating thread must specify the starting address of the code that the new thread is to execute. Typically, the starting address is the name of a function defined in the program code (for more information, see [*ThreadProc*](https://msdn.microsoft.com/en-us/library/ms686736(v=VS.85).aspx)). This function takes a single parameter and returns a **DWORD** value. A process can have multiple threads simultaneously executing the same function.
 
 The following is a simple example that demonstrates how to create a new thread that executes the locally defined function, `MyThreadFunction`.
 

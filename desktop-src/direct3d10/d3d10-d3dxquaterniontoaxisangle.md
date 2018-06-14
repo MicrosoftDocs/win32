@@ -33,7 +33,7 @@ void D3DXQuaternionToAxisAngle(
 *pQ* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxquaternion.htm)\***
+Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/en-us/library/Bb205402(v=VS.85).aspx)\***
 
 Pointer to the source [**D3DXQUATERNION**](d3d10-d3dxquaternion.md).
 
@@ -42,7 +42,7 @@ Pointer to the source [**D3DXQUATERNION**](d3d10-d3dxquaternion.md).
 *pAxis* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxvector3.htm)\***
+Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/en-us/library/Bb205546(v=VS.85).aspx)\***
 
 This function returns a pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that identifies the quaternion's axis of rotation.
 
@@ -51,7 +51,7 @@ This function returns a pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) tha
 *pAngle* \[in, out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**FLOAT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 This function returns a pointer to a FLOAT value that identifies the quaternion's angle of rotation in radians.
 

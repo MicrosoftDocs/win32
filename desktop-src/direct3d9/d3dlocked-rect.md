@@ -32,7 +32,7 @@ typedef struct D3DLOCKED_RECT {
 **Pitch**
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**INT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -47,7 +47,7 @@ Type: **void\***
 
 </dd> <dd>
 
-Pointer to the locked bits. If a [**RECT**](https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8) was provided to the [**LockRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dsurface9-lockrect) call, pBits will be appropriately offset from the start of the surface.
+Pointer to the locked bits. If a [**RECT**](https://msdn.microsoft.com/en-us/library/Dd162897(v=VS.85).aspx) was provided to the [**LockRect**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dsurface9-lockrect) call, pBits will be appropriately offset from the start of the surface.
 
 </dd> </dl>
 

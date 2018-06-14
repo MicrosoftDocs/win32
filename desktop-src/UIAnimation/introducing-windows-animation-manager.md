@@ -260,7 +260,7 @@ if (SUCCEEDED(hr))
 
 
 
-The following example code is taken from MainWindow.cpp in the Windows Animation sample [Timer-Driven Animation](timer-driven-animation-sample.md); see the CMainWindow::InitializeAnimation method. It calls the [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) method on the animation manager object to get a pointer to [**IUIAnimationTimerUpdateHandler**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimerupdatehandler), then connects the [**UIAnimationManager**](/windows/desktop/api/UIAnimation/) and [**UIAnimationTimer**](/windows/desktop/api/UIAnimation/) objects by setting the animation manager as the timer's update handler using the [**IUIAnimationTimer::SetTimerUpdateHandler**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimer-settimerupdatehandler) method. Note that it is not necessary to explicitly clear this connection; the connection is cleared safely after the application releases both the animation manager and the animation timer.
+The following example code is taken from MainWindow.cpp in the Windows Animation sample [Timer-Driven Animation](timer-driven-animation-sample.md); see the CMainWindow::InitializeAnimation method. It calls the [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) method on the animation manager object to get a pointer to [**IUIAnimationTimerUpdateHandler**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimerupdatehandler), then connects the [**UIAnimationManager**](https://msdn.microsoft.com/en-us/library/Dd317019(v=VS.85).aspx) and [**UIAnimationTimer**](https://msdn.microsoft.com/en-us/library/Dd317021(v=VS.85).aspx) objects by setting the animation manager as the timer's update handler using the [**IUIAnimationTimer::SetTimerUpdateHandler**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimer-settimerupdatehandler) method. Note that it is not necessary to explicitly clear this connection; the connection is cleared safely after the application releases both the animation manager and the animation timer.
 
 
 ```C++
@@ -319,10 +319,10 @@ After completing this step, the next step is: [Read the Animation Variable Value
 [**IUIAnimationTimer::SetTimerUpdateHandler**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtimer-settimerupdatehandler)
 </dt> <dt>
 
-[**UIAnimationManager**](/windows/desktop/api/UIAnimation/)
+[**UIAnimationManager**](https://msdn.microsoft.com/en-us/library/Dd317019(v=VS.85).aspx)
 </dt> <dt>
 
-[**UIAnimationTimer**](/windows/desktop/api/UIAnimation/)
+[**UIAnimationTimer**](https://msdn.microsoft.com/en-us/library/Dd317021(v=VS.85).aspx)
 </dt> <dt>
 
 [Windows Animation Overview](scenic-animation-api-overview.md)

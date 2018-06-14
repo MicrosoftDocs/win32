@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using a Termination Handler
 
-The following example shows how a termination handler is used to ensure that resources are released when execution of a guarded body of code terminates. In this case, a thread uses the [**EnterCriticalSection**](https://msdn.microsoft.com/bb307b7a-66fc-4d19-b774-deca8bf90492) function to wait for ownership of a critical section object. When the thread is finished executing the code that is protected by the critical section, it must call the [**LeaveCriticalSection**](https://msdn.microsoft.com/cf740e1d-351f-478c-bdbb-4a776b84acc5) function to make the critical section object available to other threads. Using a termination handler guarantees that this will happen. For more information, see [critical section objects](https://msdn.microsoft.com/2ec11a42-3d12-4d60-9dd7-dc38926d56e1).
+The following example shows how a termination handler is used to ensure that resources are released when execution of a guarded body of code terminates. In this case, a thread uses the [**EnterCriticalSection**](https://msdn.microsoft.com/en-us/library/ms682608(v=VS.85).aspx) function to wait for ownership of a critical section object. When the thread is finished executing the code that is protected by the critical section, it must call the [**LeaveCriticalSection**](https://msdn.microsoft.com/en-us/library/ms684169(v=VS.85).aspx) function to make the critical section object available to other threads. Using a termination handler guarantees that this will happen. For more information, see [critical section objects](https://msdn.microsoft.com/en-us/library/ms682530(v=VS.85).aspx).
 
 
 ```C++

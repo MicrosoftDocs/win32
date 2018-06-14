@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 \[**SFVM\_GETDETAILSOF** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-Allows the callback object to provide the details for an item in a Shell folder. Use only if a call to [**IShellFolder2::GetDetailsOf**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsof) fails and there is no [**IShellDetails::GetDetailsOf**](/windows/desktop/api/Shlobj_core/) method available to call. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/desktop/api/Shlobj/).
+Allows the callback object to provide the details for an item in a Shell folder. Use only if a call to [**IShellFolder2::GetDetailsOf**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsof) fails and there is no [**IShellDetails::GetDetailsOf**](https://msdn.microsoft.com/en-us/library/Bb775104(v=VS.85).aspx) method available to call. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/en-us/library/Bb774968(v=VS.85).aspx).
 
 
 ```C++

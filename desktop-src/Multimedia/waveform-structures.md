@@ -17,14 +17,14 @@ ms.date: 05/31/2018
 
 # Waveform Structures
 
--   [**PCMWAVEFORMAT**](https://www.bing.com/search?q=**PCMWAVEFORMAT**)
+-   [**PCMWAVEFORMAT**](https://msdn.microsoft.com/en-us/library/Dd743663(v=VS.85).aspx)
 -   [**WAVEFILTER**](/windows/desktop/api/Mmreg/ns-mmreg-wavefilter_tag)
 -   [**WAVEFORMAT**](/windows/desktop/api/mmeapi/ns-mmeapi-twaveformatex)
--   [**WAVEFORMATEX**](/windows/desktop/api/Mmreg/)
--   [**WAVEFORMATEXTENSIBLE**](/windows/desktop/api/Mmreg/)
--   [**WAVEHDR**](https://www.bing.com/search?q=**WAVEHDR**)
--   [**WAVEINCAPS**](https://www.bing.com/search?q=**WAVEINCAPS**)
--   [**WAVEOUTCAPS**](https://www.bing.com/search?q=**WAVEOUTCAPS**)
+-   [**WAVEFORMATEX**](https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx)
+-   [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/en-us/library/Dd757714(v=VS.85).aspx)
+-   [**WAVEHDR**](https://msdn.microsoft.com/en-us/library/Dd743837(v=VS.85).aspx)
+-   [**WAVEINCAPS**](https://msdn.microsoft.com/en-us/library/Dd743839(v=VS.85).aspx)
+-   [**WAVEOUTCAPS**](https://msdn.microsoft.com/en-us/library/Dd743855(v=VS.85).aspx)
 
 ## Related topics
 

@@ -112,7 +112,7 @@ VOID ErrorExit (LPSTR lpszMessage)
 
 <dl> <dt>
 
-[Using Thread Local Storage in a Dynamic-Link Library](https://msdn.microsoft.com/a300f223-b513-4a22-a7a4-5d98cf74d77d)
+[Using Thread Local Storage in a Dynamic-Link Library](https://msdn.microsoft.com/en-us/library/ms686997(v=VS.85).aspx)
 </dt> </dl>
 
  

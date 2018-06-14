@@ -64,7 +64,7 @@ The system and boot files include:
     </dl>
 -   The WFP service catalog file must be backed up prior to backing up the WFP files, and it is found under: <dl> %SystemRoot%\\System32\\CatRoot\\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}  
     </dl>
--   All files protected by [*System File Protection*](vssgloss-s.md) and enumerated by [**SfcGetNextProtectedFile**](https://msdn.microsoft.com/122261d5-b758-4088-8c8b-64b38c6092f1) (see VSS Restore Operations of WFP Protected Files)
+-   All files protected by [*System File Protection*](vssgloss-s.md) and enumerated by [**SfcGetNextProtectedFile**](https://msdn.microsoft.com/en-us/library/Aa382534(v=VS.85).aspx) (see VSS Restore Operations of WFP Protected Files)
 -   The Performance Counter Configuration files: <dl> %SystemRoot%\\System32\\Perf?00?.dat  
     %SystemRoot%\\System32\\Perf?00?.bak  
     </dl>

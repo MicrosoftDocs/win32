@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 The base class for the performance counter classes [**Win32\_PerfRawData**](win32-perfrawdata.md) and [**Win32\_PerfFormattedData**](win32-perfformatteddata.md).
 
-**Win32\_Perf** defines the required timestamp and frequency properties used in the [**CounterType**](https://msdn.microsoft.com/aa79fcdb-503f-4928-b2b7-f07baeaf9fb5) algorithms for the performance counter classes.
+**Win32\_Perf** defines the required timestamp and frequency properties used in the [**CounterType**](https://msdn.microsoft.com/en-us/library/Aa389383(v=VS.85).aspx) algorithms for the performance counter classes.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -62,7 +62,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Short textual description for the statistic or metric.
@@ -140,7 +140,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Label by which the statistic or metric is known. When subclassed, this property can be overridden to be a key property.
@@ -221,13 +221,13 @@ The **Win32\_Perf** class derives from [**CIM\_StatisticalInformation**](cim-sta
 [Performance Counter Classes](performance-counter-classes.md)
 </dt> <dt>
 
-[Accessing WMI Preinstalled Performance Classes](https://msdn.microsoft.com/2158385f-d0dc-4102-84db-ce02d2b0ee53)
+[Accessing WMI Preinstalled Performance Classes](https://msdn.microsoft.com/en-us/library/Aa384740(v=VS.85).aspx)
 </dt> <dt>
 
-[WMI Tasks: Performance Monitoring](https://msdn.microsoft.com/4c88de96-992e-4d34-ba93-35d2b6e73c1d)
+[WMI Tasks: Performance Monitoring](https://msdn.microsoft.com/en-us/library/Aa394597(v=VS.85).aspx)
 </dt> <dt>
 
-[Accessing Performance Data in Script](https://msdn.microsoft.com/79e47173-c8b6-452d-9400-93e2bd6e9da5)
+[Accessing Performance Data in Script](https://msdn.microsoft.com/en-us/library/Aa384728(v=VS.85).aspx)
 </dt> </dl>
 
  

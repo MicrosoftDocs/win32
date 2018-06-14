@@ -25,10 +25,10 @@ To obtain the current or peak size of the working set for your process, use the 
 
 <dl> <dt>
 
-[Memory Performance Information](https://msdn.microsoft.com/b27ca747-8fd2-4267-9979-4e2e14a5a19f)
+[Memory Performance Information](https://msdn.microsoft.com/en-us/library/Aa965225(v=VS.85).aspx)
 </dt> <dt>
 
-[Working Set](https://msdn.microsoft.com/ff05276a-1d40-4844-b649-10e32e3f1937)
+[Working Set](https://msdn.microsoft.com/en-us/library/Cc441804(v=VS.85).aspx)
 </dt> </dl>
 
  

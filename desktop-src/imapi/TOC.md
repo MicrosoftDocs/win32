@@ -326,7 +326,7 @@
 ##### [put_LastAccessedTime Method](/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_lastaccessedtime)
 ##### [put_LastModifiedTime Method](/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_lastmodifiedtime)
 #### [IFsiNamedStreams](/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsinamedstreams)
-##### [get_NewEnum Method](/windows/desktop/api/eventsys/)
+##### [get_NewEnum Method](https://msdn.microsoft.com/en-us/library/Cc507541(v=VS.85).aspx)
 ##### [get_Item Method](/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_item)
 ##### [get_Count Method](/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_count)
 ##### [get_EnumNamedStreams Method](/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_enumnamedstreams)

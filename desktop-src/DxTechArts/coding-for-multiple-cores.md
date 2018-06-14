@@ -269,7 +269,7 @@ The **\_\_declspec(thread)** technique does not work with dynamically loaded DLL
 
 ## Destroying Threads
 
-The only safe way to destroy a thread is to have the thread itself exit, either by returning from the main thread function or by having the thread call [**ExitThread**](https://msdn.microsoft.com/library/windows/desktop/ms682659) or [**\_endthreadex**](https://msdn.microsoft.com/windows/desktop/18a91f2f-659e-40b4-b266-ec12dcf2abf5). If a thread is created with [**\_beginthreadex**](https://www.bing.com/search?q=**\_beginthreadex**), then it should use **\_endthreadex** or return from the main thread function, since using **ExitThread** won't properly free CRT resources. Never call the [**TerminateThread**](https://msdn.microsoft.com/library/windows/desktop/ms686717) function, because the thread will not be properly cleaned up. Threads should always commit suicide—they should never be murdered.
+The only safe way to destroy a thread is to have the thread itself exit, either by returning from the main thread function or by having the thread call [**ExitThread**](https://msdn.microsoft.com/library/windows/desktop/ms682659) or [**\_endthreadex**](https://msdn.microsoft.com/en-us/library/hw264s73(v=VS.71).aspx). If a thread is created with [**\_beginthreadex**](https://www.bing.com/search?q=**\_beginthreadex**), then it should use **\_endthreadex** or return from the main thread function, since using **ExitThread** won't properly free CRT resources. Never call the [**TerminateThread**](https://msdn.microsoft.com/library/windows/desktop/ms686717) function, because the thread will not be properly cleaned up. Threads should always commit suicide—they should never be murdered.
 
 ## OpenMP
 

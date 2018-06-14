@@ -15,11 +15,11 @@ Specifies the category of the audio stream.
 
 ## Data type
 
-**[**AUDIO\_STREAM\_CATEGORY**](https://msdn.microsoft.com/B6B9195A-2704-4633-AFCF-B01CED6B6DB4)**
+**[**AUDIO\_STREAM\_CATEGORY**](https://msdn.microsoft.com/en-us/library/Hh404178(v=VS.85).aspx)**
 
 ## Remarks
 
-The value of this attribute is a member of the [**AUDIO\_STREAM\_CATEGORY**](https://msdn.microsoft.com/B6B9195A-2704-4633-AFCF-B01CED6B6DB4) enumeration.
+The value of this attribute is a member of the [**AUDIO\_STREAM\_CATEGORY**](https://msdn.microsoft.com/en-us/library/Hh404178(v=VS.85).aspx) enumeration.
 
 This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance) method to initialize the Media Engine. The attribute is optional.
 

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Most Windows Sockets 2 functions do not return the specific cause of an error when the function returns. For information, see the [Handling Winsock Errors](handling-winsock-errors.md) topic.
 
-The [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) function returns the last error that occurred for the calling thread. When a particular Windows Sockets function indicates an error has occurred, this function should be called immediately to retrieve the extended error code for the failing function call. These error codes and a short text description associated with an error code are defined in the *Winerror.h* header file. The [**FormatMessage**](https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c) function can be used to obtain the message string for the returned error.
+The [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) function returns the last error that occurred for the calling thread. When a particular Windows Sockets function indicates an error has occurred, this function should be called immediately to retrieve the extended error code for the failing function call. These error codes and a short text description associated with an error code are defined in the *Winerror.h* header file. The [**FormatMessage**](https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx) function can be used to obtain the message string for the returned error.
 
 For information on how to handle error codes when porting socket applications to Winsock, see [Error Codes - errno, h\_errno and WSAGetLastError](error-codes-errno-h-errno-and-wsagetlasterror-2.md).
 
@@ -268,7 +268,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="even">
 <td><span id="WSAEPROVIDERFAILEDINIT"></span><span id="wsaeproviderfailedinit"></span><dl> <dt><strong>WSAEPROVIDERFAILEDINIT</strong></dt> <dt>10106</dt> </dl></td>
-<td><dl> <dt><span id="Service_provider_failed_to_initialize."></span><span id="service_provider_failed_to_initialize."></span><span id="SERVICE_PROVIDER_FAILED_TO_INITIALIZE."></span>Service provider failed to initialize.</dt> <dd> The requested service provider could not be loaded or initialized. This error is returned if either a service provider's DLL could not be loaded ([<strong>LoadLibrary</strong>](https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65) failed) or the provider's [<strong>WSPStartup</strong>](/windows/desktop/api/Ws2spi/nf-ws2spi-wspstartup) or [<strong>NSPStartup</strong>](/windows/desktop/api/Ws2spi/nf-ws2spi-nspstartup) function failed.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Service_provider_failed_to_initialize."></span><span id="service_provider_failed_to_initialize."></span><span id="SERVICE_PROVIDER_FAILED_TO_INITIALIZE."></span>Service provider failed to initialize.</dt> <dd> The requested service provider could not be loaded or initialized. This error is returned if either a service provider's DLL could not be loaded ([<strong>LoadLibrary</strong>](https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx) failed) or the provider's [<strong>WSPStartup</strong>](/windows/desktop/api/Ws2spi/nf-ws2spi-wspstartup) or [<strong>NSPStartup</strong>](/windows/desktop/api/Ws2spi/nf-ws2spi-nspstartup) function failed.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSASYSCALLFAILURE"></span><span id="wsasyscallfailure"></span><dl> <dt><strong>WSASYSCALLFAILURE</strong></dt> <dt>10107</dt> </dl></td>
@@ -360,7 +360,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="odd">
 <td><span id="WSA_QOS_EFLOWSPEC"></span><span id="wsa_qos_eflowspec"></span><dl> <dt><strong>WSA_QOS_EFLOWSPEC</strong></dt> <dt>11017</dt> </dl></td>
-<td><dl> <dt><span id="QoS_flowspec_error."></span><span id="qos_flowspec_error."></span><span id="QOS_FLOWSPEC_ERROR."></span>QoS flowspec error.</dt> <dd> An invalid or inconsistent flowspec was found in the [<strong>QOS</strong>](https://msdn.microsoft.com/859faa13-bd66-46ee-8452-6ff5d53d66c9) structure.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="QoS_flowspec_error."></span><span id="qos_flowspec_error."></span><span id="QOS_FLOWSPEC_ERROR."></span>QoS flowspec error.</dt> <dd> An invalid or inconsistent flowspec was found in the [<strong>QOS</strong>](https://msdn.microsoft.com/en-US/library/Aa374024(v=VS.80).aspx) structure.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSA_QOS_EPROVSPECBUF"></span><span id="wsa_qos_eprovspecbuf"></span><dl> <dt><strong>WSA_QOS_EPROVSPECBUF</strong></dt> <dt>11018</dt> </dl></td>
@@ -445,7 +445,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 [Handling Winsock Errors](handling-winsock-errors.md)
 </dt> <dt>
 
-[**FormatMessage**](https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c)
+[**FormatMessage**](https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx)
 </dt> <dt>
 
 [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror)

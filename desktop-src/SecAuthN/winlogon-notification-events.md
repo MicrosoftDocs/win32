@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Winlogon Notification Events
 
-[*Winlogon*](https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d) can inform your notification package of the following events.
+[*Winlogon*](https://msdn.microsoft.com/en-us/library/ms721635(v=VS.85).aspx) can inform your notification package of the following events.
 
 
 

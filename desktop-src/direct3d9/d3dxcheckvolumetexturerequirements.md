@@ -47,7 +47,7 @@ Pointer to an [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idi
 *pWidth* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the requested width in pixels, or **NULL**. Returns the corrected size.
 
@@ -56,7 +56,7 @@ Pointer to the requested width in pixels, or **NULL**. Returns the corrected siz
 *pHeight* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the requested height in pixels, or **NULL**. Returns the corrected size.
 
@@ -65,7 +65,7 @@ Pointer to the requested height in pixels, or **NULL**. Returns the corrected si
 *pDepth* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the requested depth in pixels, or **NULL**. Returns the corrected size.
 
@@ -74,7 +74,7 @@ Pointer to the requested depth in pixels, or **NULL**. Returns the corrected siz
 *pNumMipLevels* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)\***
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)\***
 
 Pointer to the number of requested mipmap levels, or **NULL**. Returns the corrected number of mipmap levels.
 
@@ -83,7 +83,7 @@ Pointer to the number of requested mipmap levels, or **NULL**. Returns the corre
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**DWORD**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Currently not used, set to 0.
 
@@ -101,15 +101,15 @@ Pointer to a member of the [D3DFORMAT](d3dformat.md) enumerated type. Specifies 
 *Pool* \[in\]
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm)**
+Type: **[**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx)**
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dpool.htm) enumerated type, describing the memory class into which the volume texture should be placed.
+Member of the [**D3DPOOL**](https://msdn.microsoft.com/en-us/library/Bb172584(v=VS.85).aspx) enumerated type, describing the memory class into which the volume texture should be placed.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the function succeeds, the return value is D3D\_OK. If the function fails, the return value can be one of the following: D3DERR\_NOTAVAILABLE, D3DERR\_INVALIDCALL.
 

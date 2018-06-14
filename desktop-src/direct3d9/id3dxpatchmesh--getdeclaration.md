@@ -33,13 +33,13 @@ HRESULT GetDeclaration(
 
 Type: **[**LPD3DVERTEXELEMENT9**](d3dvertexelement9.md)**
 
-Array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements describing the vertex format of the mesh vertices. The dimension of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](https://msdn.microsoft.com/VS|directx_sdk|~\max_fvf_decl_size.htm). The vertex element array ends with the [**D3DDECL\_END**](d3ddecl-end.md) macro.
+Array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements describing the vertex format of the mesh vertices. The dimension of this declarator array is [**MAX\_FVF\_DECL\_SIZE**](https://msdn.microsoft.com/en-us/library/Bb147183(v=VS.85).aspx). The vertex element array ends with the [**D3DDECL\_END**](d3ddecl-end.md) macro.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be one of the following: D3DERR\_INVALIDCALL, E\_OUTOFMEMORY.
 

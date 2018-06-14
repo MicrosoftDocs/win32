@@ -32,7 +32,7 @@ D3DXPLANE* D3DXPlaneNormalize(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXPLANE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplane.htm)\***
+Type: **[**D3DXPLANE**](https://msdn.microsoft.com/en-us/library/Bb205385(v=VS.85).aspx)\***
 
 Pointer to the [**D3DXPLANE**](d3d10-d3dxplane.md) that is the result of the operation.
 
@@ -41,7 +41,7 @@ Pointer to the [**D3DXPLANE**](d3d10-d3dxplane.md) that is the result of the ope
 *pP* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplane.htm)\***
+Type: **const [**D3DXPLANE**](https://msdn.microsoft.com/en-us/library/Bb205385(v=VS.85).aspx)\***
 
 Pointer to the source D3DXPLANE structure.
 
@@ -49,7 +49,7 @@ Pointer to the source D3DXPLANE structure.
 
 ## Return value
 
-Type: **[**D3DXPLANE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dxplane.htm)\***
+Type: **[**D3DXPLANE**](https://msdn.microsoft.com/en-us/library/Bb205385(v=VS.85).aspx)\***
 
 Pointer to a D3DXPLANE structure that represents the normal of the plane.
 

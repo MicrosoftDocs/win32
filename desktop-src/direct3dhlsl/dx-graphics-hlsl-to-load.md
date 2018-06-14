@@ -137,7 +137,7 @@ This function is supported in the following shader models.
 
 ## Example
 
-This partial code example is from the Paint.fx file in the [AdvancedParticles Sample](https://msdn.microsoft.com/windows/desktop/73e8d569-2eb1-5b39-7b09-742b8f7a4202).
+This partial code example is from the Paint.fx file in the [AdvancedParticles Sample](https://msdn.microsoft.com/en-us/library/Ee416394(v=VS.85).aspx).
 
 
 ```

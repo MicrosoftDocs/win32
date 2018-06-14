@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # nonextensible attribute
 
-The **\[nonextensible\]** attribute specifies that the [**IDispatch**](https://msdn.microsoft.com/windows/desktop/ebbff4bc-36b2-4861-9efa-ffa45e013eb5) implementation includes only the properties and methods listed in the interface description and cannot be extended with additional members at run time. (By default, Automation assumes that interfaces may add members at run time; that is, it assumes they are extensible.)
+The **\[nonextensible\]** attribute specifies that the [**IDispatch**](https://msdn.microsoft.com/en-us/library/ms221608(v=VS.71).aspx) implementation includes only the properties and methods listed in the interface description and cannot be extended with additional members at run time. (By default, Automation assumes that interfaces may add members at run time; that is, it assumes they are extensible.)
 
 ``` syntax
 [
@@ -96,7 +96,7 @@ library Hello
 
 <dl> <dt>
 
-[Contents of a Type Library](https://msdn.microsoft.com/windows/desktop/76b062d4-1a08-47f5-b4d4-064237cb1372)
+[Contents of a Type Library](https://msdn.microsoft.com/en-us/library/ms221355(v=VS.71).aspx)
 </dt> <dt>
 
 [**dispinterface**](dispinterface.md)
@@ -111,13 +111,13 @@ library Hello
 [**interface**](interface.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/windows/desktop/df7aa86f-1453-4409-939e-788d469d611e)
+[ODL File Syntax](https://msdn.microsoft.com/en-us/library/ms221683(v=VS.71).aspx)
 </dt> <dt>
 
 [**oleautomation**](oleautomation.md)
 </dt> <dt>
 
-[**TYPEFLAGS**](https://msdn.microsoft.com/windows/desktop/bf34cc90-f772-4562-9d18-7cf35aeed41e)
+[**TYPEFLAGS**](https://msdn.microsoft.com/en-us/library/ms221509(v=VS.71).aspx)
 </dt> </dl>
 
  

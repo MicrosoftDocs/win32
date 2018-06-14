@@ -19,10 +19,10 @@ The following enumerations are used with the process and thread functions:
 -   [**LOGICAL\_PROCESSOR\_RELATIONSHIP**](/windows/desktop/api/WinNT/ne-winnt-_logical_processor_relationship)
 -   [**JOB\_OBJECT\_NET\_RATE\_CONTROL\_FLAGS**](/windows/desktop/api/Winnt/ne-winnt-job_object_net_rate_control_flags)
 -   [**PROCESS\_INFORMATION\_CLASS**](https://www.bing.com/search?q=**PROCESS\_INFORMATION\_CLASS**)
--   [**PROCESS\_MEMORY\_EXHAUSTION\_TYPE**](https://www.bing.com/search?q=**PROCESS\_MEMORY\_EXHAUSTION\_TYPE**)
+-   [**PROCESS\_MEMORY\_EXHAUSTION\_TYPE**](https://msdn.microsoft.com/en-us/library/Mt767998(v=VS.85).aspx)
 -   [**PROCESS\_MITIGATION\_POLICY**](/windows/desktop/api/WinNT/ne-winnt-_process_mitigation_policy)
 -   [**PROCESSOR\_CACHE\_TYPE**](/windows/desktop/api/WinNT/ne-winnt-_processor_cache_type)
--   [**UMS\_THREAD\_INFO\_CLASS**](/windows/desktop/api/WinBase/)
+-   [**UMS\_THREAD\_INFO\_CLASS**](https://msdn.microsoft.com/en-us/library/Dd627186(v=VS.85).aspx)
 
  
 

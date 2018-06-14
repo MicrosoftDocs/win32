@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Recording with a Waveform-Audio Device
 
-The following example opens a waveform-audio device with a new file, records for the specified time, plays the recording, and prompts the user to save the recording if desired. It uses the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function.
+The following example opens a waveform-audio device with a new file, records for the specified time, plays the recording, and prompts the user to save the recording if desired. It uses the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function.
 
 
 ```C++

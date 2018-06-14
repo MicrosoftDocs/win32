@@ -15,9 +15,9 @@ Contains an object for each COM+ application installed on the local computer. Th
 
 You set properties for components within an application by using the related [**Components**](components.md) collection. You assign roles to an application by using the related [**Roles**](roles.md) collection.
 
-To install components into an application, use methods on the [**COMAdminCatalog**](/windows/desktop/api/ComAdmin/) object. To install an application from a file or to shut down or export an application, also use methods on the **COMAdminCatalog** object. Otherwise, to create a new application, you can add an object to the **Applications** collection.
+To install components into an application, use methods on the [**COMAdminCatalog**](https://msdn.microsoft.com/en-us/library/ms686842(v=VS.85).aspx) object. To install an application from a file or to shut down or export an application, also use methods on the **COMAdminCatalog** object. Otherwise, to create a new application, you can add an object to the **Applications** collection.
 
-This collection supports the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) and [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) methods of the [**COMAdminCatalogCollection**](/windows/desktop/api/ComAdmin/) object.
+This collection supports the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) and [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) methods of the [**COMAdminCatalogCollection**](https://msdn.microsoft.com/en-us/library/ms679474(v=VS.85).aspx) object.
 
 ## Members
 
@@ -42,7 +42,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](/windows/desktop/api/ComAdmin/) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](https://msdn.microsoft.com/en-us/library/ms679228(v=VS.85).aspx) object within the collection:
 
 -   [3GigSupportEnabled](#3gigsupportenabled)
 -   [AccessChecksLevel](#accesscheckslevel)

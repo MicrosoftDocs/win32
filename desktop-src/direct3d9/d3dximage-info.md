@@ -37,7 +37,7 @@ typedef struct D3DXIMAGE_INFO {
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -48,7 +48,7 @@ Width of original image in pixels.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -59,7 +59,7 @@ Height of original image in pixels.
 **Depth**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -70,7 +70,7 @@ Depth of original image in pixels.
 **MipLevels**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**UINT**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -92,7 +92,7 @@ A value from the [D3DFORMAT](d3dformat.md) enumerated type that most closely des
 **ResourceType**
 </dt> <dd>
 
-Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dresourcetype.htm)**
+Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/en-us/library/Bb172601(v=VS.85).aspx)**
 
 </dd> <dd>
 
@@ -103,7 +103,7 @@ Represents the type of the texture stored in the file. It is either D3DRTYPE\_TE
 **ImageFileFormat**
 </dt> <dd>
 
-Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dximage_fileformat.htm)**
+Type: **[**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/en-us/library/Bb172878(v=VS.85).aspx)**
 
 </dd> <dd>
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Format Support for Direct3D Feature Level 11.0 Hardware
 
-This section specifies the formats ([**DXGI\_FORMAT**](https://msdn.microsoft.com/VS|directx_sdk|~\dxgi_format.htm) values) that are supported in Direct3D Feature Level 11.0 hardware.
+This section specifies the formats ([**DXGI\_FORMAT**](https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx) values) that are supported in Direct3D Feature Level 11.0 hardware.
 
 The following tables summarize the feature support, using the key.
 
@@ -207,7 +207,7 @@ The purpose of the format can change from one hardware feature level to the next
 
 <dl> <dt>
 
-[D3D12 Hardware Feature Levels](https://msdn.microsoft.com/B8304E29-A532-464E-8FAF-075228D8FB73)
+[D3D12 Hardware Feature Levels](https://msdn.microsoft.com/en-us/library/Mt186615(v=VS.85).aspx)
 </dt> <dt>
 
 [Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)

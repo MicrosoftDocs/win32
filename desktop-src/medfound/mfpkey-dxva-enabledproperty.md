@@ -15,7 +15,7 @@ Specifies whether the decoder will use DirectX video acceleration hardware, if a
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653).
+Available only by using [**IPropertyStore**](https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx).
 
 ## Data Type
 

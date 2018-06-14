@@ -55,7 +55,7 @@ iRetVal = IShellDispatch2.FindPrinter(
 *sName* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228)**
+Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the printer name.
 
@@ -64,7 +64,7 @@ A **String** that contains the printer name.
 *sLocation* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228)**
+Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the printer location.
 
@@ -73,7 +73,7 @@ A **String** that contains the printer location.
 *sModel* \[in, optional\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228)**
+Type: **[**BSTR**](https://msdn.microsoft.com/en-us/library/ms221069(v=VS.71).aspx)**
 
 A **String** that contains the printer model.
 
@@ -81,7 +81,7 @@ A **String** that contains the printer model.
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.FindPrinter**](https://msdn.microsoft.com/61C700CF-623B-4c99-A211-AC26A1E4AE85) method.
+This method is implemented and accessed through the [**Shell.FindPrinter**](https://msdn.microsoft.com/en-us/library/Gg537738(v=VS.85).aspx) method.
 
 If you assign strings to one or more of the optional parameters, they are displayed as default values in the associated edit control when the **Find Printer** dialog box is displayed. The user can either accept or override these values. If no value is assigned to a parameter, the associated edit box is empty and the user must enter a value.
 

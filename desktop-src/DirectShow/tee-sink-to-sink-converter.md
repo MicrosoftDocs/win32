@@ -15,7 +15,7 @@ The Tee/Sink-to-Sink Converter is a kernel-mode, KsProxy-based filter. It is use
 
 The Tee/Sink-to-Sink Converter appears in the "WDM Streaming Tee/Splitter Devices" filter category (AM\_KSCATEGORY\_SPLITTER).
 
-Because this is a kernel-mode filter, applications cannot create it directly using [**CoCreateInstance**](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec). Instead, use the [System Device Enumerator](system-device-enumerator.md). For more information, see [Creating Kernel-Mode Filters](creating-kernel-mode-filters.md).
+Because this is a kernel-mode filter, applications cannot create it directly using [**CoCreateInstance**](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx). Instead, use the [System Device Enumerator](system-device-enumerator.md). For more information, see [Creating Kernel-Mode Filters](creating-kernel-mode-filters.md).
 
 ## Related topics
 

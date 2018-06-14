@@ -49,7 +49,7 @@ When this method returns successfully, contains the interface pointer requested 
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns S\_OK on successful completion. Returns E\_NOINTERFACE if the requested interface can't be found.
 

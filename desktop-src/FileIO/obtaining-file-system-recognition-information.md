@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 [File system recognition](file-system-recognition.md) is the ability to recognize storage media that contain a valid file system/volume layout that has not been defined yet, but the media is able to identify itself through the presence of the recognition structure defined internally by Windows.
 
-Because no existing file system will recognize a new disk layout, the "RAW" file system will mount the volume and provide direct block level access. The "RAW" file system, incorporated in *NtosKrnl*, will have the ability to read the file system recognition structure and provide applications access to such structures through the file system control request [**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](/windows/desktop/api/WinIoCtl/), shown in the following example.
+Because no existing file system will recognize a new disk layout, the "RAW" file system will mount the volume and provide direct block level access. The "RAW" file system, incorporated in *NtosKrnl*, will have the ability to read the file system recognition structure and provide applications access to such structures through the file system control request [**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](https://msdn.microsoft.com/en-us/library/Dd442655(v=VS.85).aspx), shown in the following example.
 
 
 ```C++
@@ -96,7 +96,7 @@ exit:
 [**FILE\_SYSTEM\_RECOGNITION\_STRUCTURE**](file-system-recognition-structure.md)
 </dt> <dt>
 
-[**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](/windows/desktop/api/WinIoCtl/)
+[**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](https://msdn.microsoft.com/en-us/library/Dd442655(v=VS.85).aspx)
 </dt> </dl>
 
  

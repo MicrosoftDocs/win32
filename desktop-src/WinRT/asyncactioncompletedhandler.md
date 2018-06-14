@@ -35,7 +35,7 @@ The **AsyncActionCompletedHandler** interface has these methods.
 
 ## Remarks
 
-Assign an **AsyncActionCompletedHandler** to an [**IAsyncAction**](https://www.bing.com/search?q=**IAsyncAction**) to receive a notification when the asynchronous action completes.
+Assign an **AsyncActionCompletedHandler** to an [**IAsyncAction**](https://msdn.microsoft.com/en-us/library/BR205781(v=VS.85).aspx) to receive a notification when the asynchronous action completes.
 
 ## Requirements
 

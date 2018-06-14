@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Render Targets Overview
 
-A render target is a resource that inherits from the [**ID2D1RenderTarget**](/windows/desktop/api/d2d1/) interface. A render target creates resources for drawing and performs actual drawing operations. This topic describes the different types of Direct2D render targets and how to use them.
+A render target is a resource that inherits from the [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx) interface. A render target creates resources for drawing and performs actual drawing operations. This topic describes the different types of Direct2D render targets and how to use them.
 
 -   [Render Targets](#render-targets-overview)
     -   [Render Target Features](#render-target-features)
@@ -24,10 +24,10 @@ A render target is a resource that inherits from the [**ID2D1RenderTarget**](/wi
 
 ## Render Targets
 
-A render target is a resource that inherits from the [**ID2D1RenderTarget**](/windows/desktop/api/d2d1/) interface. A render target creates resources for drawing and performs actual drawing operations. There are several kinds of render targets that can be used to render graphics in the following ways:
+A render target is a resource that inherits from the [**ID2D1RenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371766(v=VS.85).aspx) interface. A render target creates resources for drawing and performs actual drawing operations. There are several kinds of render targets that can be used to render graphics in the following ways:
 
--   [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/) objects render content to a window.
--   [**ID2D1DCRenderTarget**](/windows/desktop/api/d2d1/) objects render to a GDI device context.
+-   [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) objects render content to a window.
+-   [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371213(v=VS.85).aspx) objects render to a GDI device context.
 -   Bitmap render target objects render content to an off-screen bitmap.
 -   DXGI render target objects render to a DXGI surface for use with Direct3D.
 
@@ -37,11 +37,11 @@ Because a render target is associated with a particular rendering device, it is 
 
 You can specify whether a render target uses hardware acceleration and whether remote display is rendered by a local or a remote computer. Render targets can be set up for aliased or antialiased rendering. For rendering scenes with a large number of primitives, a developer can also render 2-D graphics in aliased mode and use D3D multisample antialiasing to achieve greater scalability.
 
-Render targets can also group drawing operations into layers represented by the [**ID2D1Layer**](/windows/desktop/api/d2d1/) interface. Layers are useful for collecting drawing operations to be composited together when rendering a frame. For some scenarios, this can be a useful alternative to rendering to a bitmap render target, and then reusing the bitmap contents, as allocation costs for layering are lower than for an [**ID2D1BitmapRenderTarget**](/windows/desktop/api/d2d1/).
+Render targets can also group drawing operations into layers represented by the [**ID2D1Layer**](https://msdn.microsoft.com/en-us/library/Dd371483(v=VS.85).aspx) interface. Layers are useful for collecting drawing operations to be composited together when rendering a frame. For some scenarios, this can be a useful alternative to rendering to a bitmap render target, and then reusing the bitmap contents, as allocation costs for layering are lower than for an [**ID2D1BitmapRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371146(v=VS.85).aspx).
 
 Render targets can create new render targets that are compatible with themselves, which is useful for intermediate off-screen rendering while retaining the various render-target properties that were set on the original.
 
-It is also possible to render using GDI on a Direct2D render target by calling [**QueryInterface**](https://msdn.microsoft.com/windows/desktop/54d5ff80-18db-43f2-b636-f93ac053146d) on a render target for [**ID2D1GdiInteropRenderTarget**](/windows/desktop/api/d2d1/), which has [**GetDC**](/windows/desktop/api/d2d1/) and [**ReleaseDC**](/windows/desktop/api/d2d1/) methods on it that can be used to retrieve a GDI device context. Rendering via GDI is possible only if the render target was created with the [**D2D1\_RENDER\_TARGET\_USAGE\_GDI\_COMPATIBLE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_usage) flag set. This is useful for applications that are primarily rendering with Direct2D but have an extensibility model or other legacy content that requires the ability to render with GDI. For more information, see the [Direct2D and GDI Interoperation Overview](direct2d-and-gdi-interoperation-overview.md).
+It is also possible to render using GDI on a Direct2D render target by calling [**QueryInterface**](https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx) on a render target for [**ID2D1GdiInteropRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371321(v=VS.85).aspx), which has [**GetDC**](https://msdn.microsoft.com/en-us/library/Dd371323(v=VS.85).aspx) and [**ReleaseDC**](https://msdn.microsoft.com/en-us/library/Dd371327(v=VS.85).aspx) methods on it that can be used to retrieve a GDI device context. Rendering via GDI is possible only if the render target was created with the [**D2D1\_RENDER\_TARGET\_USAGE\_GDI\_COMPATIBLE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_usage) flag set. This is useful for applications that are primarily rendering with Direct2D but have an extensibility model or other legacy content that requires the ability to render with GDI. For more information, see the [Direct2D and GDI Interoperation Overview](direct2d-and-gdi-interoperation-overview.md).
 
 ### Render Target Resources
 
@@ -54,7 +54,7 @@ Like a factory, a render target can create drawing resources. Any resources crea
 
 ### Drawing Commands
 
-To render content, you use the render target drawing methods. Before you begin drawing, you call the [**ID2D1RenderTarget::BeginDraw**](/windows/desktop/api/d2d1/) method. After you finished drawing, you call the [**ID2D1RenderTarget::EndDraw**](/windows/desktop/api/d2d1/) method. Between these calls, you use Draw and Fill methods to render drawing resources. Most Draw and Fill methods take a shape (either a primitive or a geometry) and a brush for filling or outlining the shape.
+To render content, you use the render target drawing methods. Before you begin drawing, you call the [**ID2D1RenderTarget::BeginDraw**](https://msdn.microsoft.com/en-us/library/Dd371768(v=VS.85).aspx) method. After you finished drawing, you call the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) method. Between these calls, you use Draw and Fill methods to render drawing resources. Most Draw and Fill methods take a shape (either a primitive or a geometry) and a brush for filling or outlining the shape.
 
 Render targets provide methods for clipping, applying opacity masks, and transforming the coordinate space.
 
@@ -62,11 +62,11 @@ Direct2D uses a left-handed coordinate system: positive x-axis values proceed to
 
 ### Error Handling
 
-Render target drawing commands do not indicate whether the requested operation was successful. To find out whether there are drawing errors, call the render target [**Flush**](/windows/desktop/api/d2d1/) method or [**EndDraw**](/windows/desktop/api/d2d1/) method to obtain an **HRESULT**.
+Render target drawing commands do not indicate whether the requested operation was successful. To find out whether there are drawing errors, call the render target [**Flush**](https://msdn.microsoft.com/en-us/library/Dd316801(v=VS.85).aspx) method or [**EndDraw**](https://msdn.microsoft.com/en-us/library/Dd371924(v=VS.85).aspx) method to obtain an **HRESULT**.
 
 ## Example: Render Content to a Window
 
-The following example uses the [**CreateHwndRenderTarget**](/windows/desktop/api/d2d1/nf-d2d1-createhwndrendertarget) method to create an [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/).
+The following example uses the [**CreateHwndRenderTarget**](/windows/desktop/api/d2d1/nf-d2d1-createhwndrendertarget) method to create an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx).
 
 
 ```C++
@@ -88,7 +88,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
-The next example uses the [**ID2D1HwndRenderTarget**](/windows/desktop/api/d2d1/) to draw text to the window.
+The next example uses the [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/en-us/library/Dd371461(v=VS.85).aspx) to draw text to the window.
 
 
 ```C++

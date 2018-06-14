@@ -56,7 +56,7 @@ If a component doing administration operations within a transaction were to hang
 
 ## Scripting with a TransactionContext Object
 
-A simple way to do administration operations within transactions is to use a [**TransactionContext**](/windows/desktop/api/ComSvcs/) object to control the transaction. For example, the following Visual Basic script demonstrates how to transactionally add two new applications so that either both applications or neither application is created:
+A simple way to do administration operations within transactions is to use a [**TransactionContext**](https://msdn.microsoft.com/en-us/library/ms687785(v=VS.85).aspx) object to control the transaction. For example, the following Visual Basic script demonstrates how to transactionally add two new applications so that either both applications or neither application is created:
 
 
 ```VB

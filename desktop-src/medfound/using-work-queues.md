@@ -94,7 +94,7 @@ Scheduled work items always use the MFASYNC\_CALLBACK\_QUEUE\_TIMER platform wor
 
 The [**MFAddPeriodicCallback**](/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback) function schedules a callback to be invoked periodically until you cancel it. The callback interval is fixed; applications cannot change it. To find out the exact interval, call [**MFGetTimerPeriodicity**](/windows/desktop/api/mfapi/nf-mfapi-mfgettimerperiodicity). The interval is on the order of 10 milliseconds, so this function is meant for situations where you need a frequent "tick," such as implementing a presentation clock. If you want to schedule an operation to occur less frequently, use a scheduled work item, as described previously.
 
-Unlike the other callbacks described in this topic, the periodic callback does not use the [**IMFAsyncCallback**](/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback) interface. Instead, it uses a function pointer. For more information, see [**MFPERIODICCALLBACK Callback**](https://www.bing.com/search?q=**MFPERIODICCALLBACK+Callback**).
+Unlike the other callbacks described in this topic, the periodic callback does not use the [**IMFAsyncCallback**](/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback) interface. Instead, it uses a function pointer. For more information, see [**MFPERIODICCALLBACK Callback**](https://msdn.microsoft.com/en-us/library/ms701545(v=VS.85).aspx).
 
 To cancel the periodic callback, call [**MFRemovePeriodicCallback**](/windows/desktop/api/mfapi/nf-mfapi-mfremoveperiodiccallback).
 

@@ -19,7 +19,7 @@ Contains miscellaneous flags for an MPEG-2 video media type.
 
 ## Remarks
 
-This attribute corresponds to the **dwFlags** member of the [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/1a6ab686-99a1-40c2-addf-7fa215e2311a) structure. For a list of valid flags, see the documentation for **MPEG2VIDEOINFO**.
+This attribute corresponds to the **dwFlags** member of the [**MPEG2VIDEOINFO**](https://msdn.microsoft.com/en-us/library/Dd390707(v=VS.85).aspx) structure. For a list of valid flags, see the documentation for **MPEG2VIDEOINFO**.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

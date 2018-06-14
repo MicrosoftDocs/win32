@@ -44,7 +44,7 @@ You can use the following general-use APIs to access NVMe drives in Windows 10.
 -   [**IOCTL\_STORAGE\_QUERY\_PROPERTY**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) : Use this IOCTL with the **STORAGE\_PROPERTY\_QUERY** structure to retrieve device information. For more info, see [Protocol-specific queries](#protocol-specific-queries) and [Temperature queries](#temperature-queries).
 
 -   [**STORAGE\_PROPERTY\_QUERY**](/windows/desktop/api/WinIoCtl/ns-winioctl-_storage_property_query) : This structure includes the **PropertyId** and **AdditionalParameters** fields to specify the data to be queried. In the **PropertyId** filed, use the **STORAGE\_PROPERTY\_ID** enumeration to specify the type of data. Use the **AdditionalParameters** field to specify more details, depending on the type of data. For protocol-specific data, use the **STORAGE\_PROTOCOL\_SPECIFIC\_DATA** structure in the **AdditionalParameters** field. For temperature data, use the **STORAGE\_TEMPERATURE\_INFO** structure in the **AdditionalParameters** field.
--   [**STORAGE\_PROPERTY\_ID**](/windows/desktop/api/WinIoCtl/) : This enumeration includes new values that allow **IOCTL\_STORAGE\_QUERY\_PROPERTY** to retrieve protocol-specific and temperature information.
+-   [**STORAGE\_PROPERTY\_ID**](https://msdn.microsoft.com/en-us/library/Ff800839(v=VS.85).aspx) : This enumeration includes new values that allow **IOCTL\_STORAGE\_QUERY\_PROPERTY** to retrieve protocol-specific and temperature information.
 
     -   **StorageAdapterProtocolSpecificProperty**
     -   **StorageDeviceProtocolSpecificProperty**

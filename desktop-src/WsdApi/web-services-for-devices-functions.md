@@ -13,8 +13,8 @@ ms.date: 05/31/2018
 
 The Web Services on Devices programming interface defines and uses the following functions:
 
--   [**PWSD\_SOAP\_MESSAGE\_HANDLER**](https://www.bing.com/search?q=**PWSD\_SOAP\_MESSAGE\_HANDLER**)
--   [**WSD\_STUB\_FUNCTION**](https://www.bing.com/search?q=**WSD\_STUB\_FUNCTION**)
+-   [**PWSD\_SOAP\_MESSAGE\_HANDLER**](https://msdn.microsoft.com/en-us/library/Aa386274(v=VS.85).aspx)
+-   [**WSD\_STUB\_FUNCTION**](https://msdn.microsoft.com/en-us/library/Aa386626(v=VS.85).aspx)
 -   [**WSDAllocateLinkedMemory**](/windows/desktop/api/WsdUtil/nf-wsdutil-wsdallocatelinkedmemory)
 -   [**WSDAttachLinkedMemory**](/windows/desktop/api/WsdUtil/nf-wsdutil-wsdattachlinkedmemory)
 -   [**WSDCreateDeviceHost**](/windows/desktop/api/WsdHost/nf-wsdhost-wsdcreatedevicehost)

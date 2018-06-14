@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # EVRConfig\_ForceBatching attribute
 
-Forces the Enhanced Video Renderer (EVR) to batch calls to the [**IDirect3D9Device::Present**](https://msdn.microsoft.com/VS|directx_sdk|~\idirect3ddevice9__present.htm) method.
+Forces the Enhanced Video Renderer (EVR) to batch calls to the [**IDirect3D9Device::Present**](https://msdn.microsoft.com/en-us/library/Bb174423(v=VS.85).aspx) method.
 
 ## Data type
 

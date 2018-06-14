@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # D3DX10ReflectShader function
 
-This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- no longer exists. Instead, use [**D3DReflect**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dreflect.htm) or [**D3D11Reflect**](https://msdn.microsoft.com/855097c7-988b-4ab6-90c5-e5dd0bc9e1e0).
+This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- no longer exists. Instead, use [**D3DReflect**](https://msdn.microsoft.com/en-us/library/Dd607334(v=VS.85).aspx) or [**D3D11Reflect**](https://msdn.microsoft.com/en-us/library/Ff728670(v=VS.85).aspx).
 
 ## Syntax
 
@@ -35,14 +35,14 @@ HRESULT D3DX10ReflectShader(
 
 Type: **const void\***
 
-A pointer to the compiled shader. To get this pointer see [Getting a Pointer to a Compiled Shader](https://msdn.microsoft.com/VS|directx_sdk|~\dx_graphics_hlsl_using_shaders_10.htm).
+A pointer to the compiled shader. To get this pointer see [Getting a Pointer to a Compiled Shader](https://msdn.microsoft.com/en-us/library/Bb509703(v=VS.85).aspx).
 
 </dd> <dt>
 
 *BytecodeLength* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46)**
+Type: **[**SIZE\_T**](https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx)**
 
 Length of pShaderBytecode.
 
@@ -59,7 +59,7 @@ Address of a shader reflection interface (see [**ID3D10ShaderReflection1 Interfa
 
 ## Return value
 
-Type: **[**HRESULT**](https://msdn.microsoft.com/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
+Type: **[**HRESULT**](https://msdn.microsoft.com/en-us/library/Bb401631(v=MSDN.10).aspx)**
 
 Returns one of the following [Direct3D 10 Return Codes](d3d10-graphics-reference-returnvalues.md).
 
@@ -74,7 +74,7 @@ pVSBuf
 
 
 
-which you can see in [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/windows/desktop/61f892cf-4760-177b-5048-0ba3906d8bfc)).
+which you can see in [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/en-us/library/Ee416414(v=VS.85).aspx)).
 
 
 ```

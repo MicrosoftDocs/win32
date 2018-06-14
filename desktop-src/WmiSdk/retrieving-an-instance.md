@@ -108,11 +108,11 @@ You can retrieve either a specific WMI class instance, or a collection of WMI cl
 
     You can implicitly call the **Get** method by accessing the instance. For more information, see [Retrieving Part of a WMI Instance](retrieving-part-of-an-instance.md).
 
-Retrieve a local copy of the instance with a call to the VBScript [**GetObject**](https://msdn.microsoft.com/windows/desktop/47dd01cb-9468-481e-be7e-55f69a744635) method.
+Retrieve a local copy of the instance with a call to the VBScript [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx) method.
 
 **To retrieve an instance of a WMI class using VBScript**
 
--   Call [**GetObject**](https://msdn.microsoft.com/windows/desktop/47dd01cb-9468-481e-be7e-55f69a744635) with the object path of the instance as shown in the following example.
+-   Call [**GetObject**](https://msdn.microsoft.com/en-us/library/e9waz863(v=VS.71).aspx) with the object path of the instance as shown in the following example.
 
     ```VB
     Set objinst = GetObject("WinMgmts:Win32_LogicalDisk='C:'")

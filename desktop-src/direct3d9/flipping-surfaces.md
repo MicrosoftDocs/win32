@@ -21,7 +21,7 @@ When you use [**IDirect3DDevice9::Present**](/windows/desktop/api/d3d9helper/nf-
 
 You can create addition swap chains for a device by calling [**IDirect3DDevice9::CreateAdditionalSwapChain**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-createadditionalswapchain). An application can create one swap chain per view and associate each swap chain with a particular window. The application renders images in the back buffers of each swap chain, and then presents them individually. The two parameters that **IDirect3DDevice9::CreateAdditionalSwapChain** takes are a pointer to a [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md) structure and the address of a pointer to an [**IDirect3DSwapChain9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dswapchain9) interface. You can then use [**IDirect3DSwapChain9::Present**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dswapchain9-present) to display the contents of the next back buffer to the front buffer. Note that a device can only have one full-screen swap chain.
 
-You can gain access to a specific back buffer by calling the [**IDirect3DDevice9::GetBackBuffer**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getbackbuffer) or [**IDirect3DSwapChain9::GetBackBuffer**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dswapchain9-getbackbuffer) methods, which return a pointer to an [**IDirect3DSurface9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9) interface that represents the returned back buffer surface. Note that calling this method increases the internal reference count on the [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) interface so be sure to call [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332) when you are done using this surface or you will have a memory leak.
+You can gain access to a specific back buffer by calling the [**IDirect3DDevice9::GetBackBuffer**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3ddevice9-getbackbuffer) or [**IDirect3DSwapChain9::GetBackBuffer**](/windows/desktop/api/d3d9helper/nf-d3d9-idirect3dswapchain9-getbackbuffer) methods, which return a pointer to an [**IDirect3DSurface9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3dsurface9) interface that represents the returned back buffer surface. Note that calling this method increases the internal reference count on the [**IDirect3DDevice9**](/windows/desktop/api/d3d9helper/nn-d3d9-idirect3ddevice9) interface so be sure to call [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx) when you are done using this surface or you will have a memory leak.
 
 Remember, Direct3D flips surfaces by swapping surface memory pointers within the swap chain, not by swapping the surfaces themselves. This means that you will always render to the back buffer that will be displayed next.
 
@@ -33,7 +33,7 @@ While such "Present" operations are almost invariably implemented by flip operat
 
 The discussion above applies to the commonly used case of a full-screen swap chain created with D3DSWAPEFFECT\_FLIP.
 
-For a more general discussion of the different swap effects for both windowed and full-screen swap chains, see [**D3DSWAPEFFECT**](https://msdn.microsoft.com/VS|directx_sdk|~\d3dswapeffect.htm).
+For a more general discussion of the different swap effects for both windowed and full-screen swap chains, see [**D3DSWAPEFFECT**](https://msdn.microsoft.com/en-us/library/Bb172612(v=VS.85).aspx).
 
 ## Related topics
 

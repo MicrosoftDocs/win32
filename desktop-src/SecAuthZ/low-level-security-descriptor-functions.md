@@ -47,7 +47,7 @@ There are several pairs of low-level functions for setting and retrieving an obj
 <li>[Mutexes](https://msdn.microsoft.com/library/windows/desktop/ms686670)</li>
 <li>[Waitable timers](https://msdn.microsoft.com/library/windows/desktop/ms686670)</li>
 </ul></td>
-<td>Use the [<strong>GetKernelObjectSecurity</strong>](https://www.bing.com/search?q=<strong>GetKernelObjectSecurity</strong>) and [<strong>SetKernelObjectSecurity</strong>](https://www.bing.com/search?q=<strong>SetKernelObjectSecurity</strong>) functions.</td>
+<td>Use the [<strong>GetKernelObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa446641(v=VS.85).aspx) and [<strong>SetKernelObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa379578(v=VS.85).aspx) functions.</td>
 </tr>
 <tr class="odd">
 <td><ul>
@@ -84,7 +84,7 @@ There are several pairs of low-level functions for setting and retrieving an obj
 <td><ul>
 <li>[Private objects (objects private to the creating application)](acl-based-access-control.md)</li>
 </ul></td>
-<td>Use the [<strong>CreatePrivateObjectSecurity</strong>](https://www.bing.com/search?q=<strong>CreatePrivateObjectSecurity</strong>), [<strong>DestroyPrivateObjectSecurity</strong>](https://www.bing.com/search?q=<strong>DestroyPrivateObjectSecurity</strong>), [<strong>GetPrivateObjectSecurity</strong>](https://www.bing.com/search?q=<strong>GetPrivateObjectSecurity</strong>) and [<strong>SetPrivateObjectSecurity</strong>](https://www.bing.com/search?q=<strong>SetPrivateObjectSecurity</strong>) functions.</td>
+<td>Use the [<strong>CreatePrivateObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa376405(v=VS.85).aspx), [<strong>DestroyPrivateObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa446613(v=VS.85).aspx), [<strong>GetPrivateObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa446646(v=VS.85).aspx) and [<strong>SetPrivateObjectSecurity</strong>](https://msdn.microsoft.com/en-us/library/Aa379580(v=VS.85).aspx) functions.</td>
 </tr>
 </tbody>
 </table>

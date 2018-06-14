@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IMediaRendererActionInformation::IsPlayAvailable method
 
-Retrieves a value that indicates whether the DMR is currently accepting the accepting the [**PlayAsync**](https://www.bing.com/search?q=**PlayAsync**) and [**PlayAtSpeedAsync**](https://www.bing.com/search?q=**PlayAtSpeedAsync**) methods.
+Retrieves a value that indicates whether the DMR is currently accepting the accepting the [**PlayAsync**](https://msdn.microsoft.com/en-us/library/Hh828938(v=VS.85).aspx) and [**PlayAtSpeedAsync**](https://msdn.microsoft.com/en-us/library/Hh828939(v=VS.85).aspx) methods.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ HRESULT IsPlayAvailable(
 *value* \[out\]
 </dt> <dd>
 
-A boolean value that is **True** if the DMR is currently accepting the accepting the [**PlayAsync**](https://www.bing.com/search?q=**PlayAsync**) and [**PlayAtSpeedAsync**](https://www.bing.com/search?q=**PlayAtSpeedAsync**) methods and **False** if it is not.
+A boolean value that is **True** if the DMR is currently accepting the accepting the [**PlayAsync**](https://msdn.microsoft.com/en-us/library/Hh828938(v=VS.85).aspx) and [**PlayAtSpeedAsync**](https://msdn.microsoft.com/en-us/library/Hh828939(v=VS.85).aspx) methods and **False** if it is not.
 
 </dd> </dl>
 
@@ -63,7 +63,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**IMediaRendererActionInformation**](https://www.bing.com/search?q=**IMediaRendererActionInformation**)
+[**IMediaRendererActionInformation**](https://msdn.microsoft.com/en-us/library/Hh828915(v=VS.85).aspx)
 </dt> </dl>
 
  

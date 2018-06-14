@@ -28,7 +28,7 @@ In either case, you will normally not want to launch another application while t
 
 Users can manually suppress AutoRun by holding down the SHIFT key when they insert the CD-ROM. However, it is usually preferable to handle this operation programmatically rather than depending on the user.
 
-With systems that have Shell [version 4.70](versions.md) and later, Windows sends a "QueryCancelAutoPlay" message to the foreground window. Your application can respond to this message to suppress AutoRun. This approach is used by system utilities such as the [Open](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\aboutcommondialogboxes\openandsaveasdialogboxes.htm) common dialog box to disable AutoRun.
+With systems that have Shell [version 4.70](versions.md) and later, Windows sends a "QueryCancelAutoPlay" message to the foreground window. Your application can respond to this message to suppress AutoRun. This approach is used by system utilities such as the [Open](https://msdn.microsoft.com/en-us/library/ms646960(v=VS.85).aspx) common dialog box to disable AutoRun.
 
 The following code fragments illustrate how to set up and handle this message. Your application must be running in the foreground window. First, register "QueryCancelAutoPlay" as a Windows message:
 
@@ -65,7 +65,7 @@ LRESULT WndProc(HWND hwnd, UINT uMsg,  WPARAM wParam, LPARAM lParam)
 
 
 
-If your application is using a dialog box and needs to respond to a "QueryCancelAutoPlay" message, it cannot simply return **TRUE** or **FALSE**. Instead, call [**SetWindowLong**](https://msdn.microsoft.com/VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setwindowlong.htm) with *nIndex* set to **DWL\_MSGRESULT**. Set the *dwNewLong* parameter to **TRUE** to cancel AutoRun, and **FALSE** to enable it. For example, the following sample dialog box procedure cancels AutoRun when it receives a "QueryCancelAutoPlay" message.
+If your application is using a dialog box and needs to respond to a "QueryCancelAutoPlay" message, it cannot simply return **TRUE** or **FALSE**. Instead, call [**SetWindowLong**](https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx) with *nIndex* set to **DWL\_MSGRESULT**. Set the *dwNewLong* parameter to **TRUE** to cancel AutoRun, and **FALSE** to enable it. For example, the following sample dialog box procedure cancels AutoRun when it receives a "QueryCancelAutoPlay" message.
 
 
 ```C++
@@ -148,7 +148,7 @@ The following table gives the bits and bitmask constants, that can be set in the
 
 AutoRun is primarily intended for public distribution of applications on CD-ROM and DVD-ROM, and its use is discouraged for other storage media. However, it is often useful to enable AutoRun on other types of removable storage media. This feature is typically used simplify the debugging of AutoRun.inf files. AutoRun only works on removable storage devices when the following criteria are met:
 
--   The device must have AutoRun-compatible drivers. To be AutoRun-compatible, a driver must notify the system that a disk has been inserted by sending a [**WM\_DEVICECHANGE**](https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4) message.
+-   The device must have AutoRun-compatible drivers. To be AutoRun-compatible, a driver must notify the system that a disk has been inserted by sending a [**WM\_DEVICECHANGE**](https://msdn.microsoft.com/en-us/library/Aa363480(v=VS.85).aspx) message.
 -   The root directory of the inserted media must contain an Autorun.inf file.
 -   The device must not have AutoRun disabled through the [registry](#using-the-registry-to-disable-autorun).
 -   The foreground application has not [suppressed](#suppressing-autorun-programmatically) AutoRun.
@@ -160,7 +160,7 @@ AutoRun is primarily intended for public distribution of applications on CD-ROM 
 
 Normally, AutoRun starts automatically, but it can also be started manually. If the device meets the criteria listed above, the drive letter's shortcut menu will include an **AutoPlay** command. To run AutoRun manually, either right-click the drive icon and select **AutoPlay** from the shortcut menu or double-click the drive icon. If the drivers are not AutoRun-compatible, the shortcut menu will not have an **AutoPlay** item and AutoRun cannot be started.
 
-AutoRun-compatible drivers are provided with some removable disk drives, as well as some other types of removable media such as CompactFlash cards. AutoRun also works with network drives that are mapped to a drive letter with Windows Explorer or mounted with the [Microsoft Management Console (MMC)](https://msdn.microsoft.com/d001aa6d-9d31-4b83-9d96-b3cbc6b6d0a8). As with mounted hardware, a mounted network drive must have an Autorun.inf file in its root directory, and must not be disabled through the [registry](#using-the-registry-to-disable-autorun).
+AutoRun-compatible drivers are provided with some removable disk drives, as well as some other types of removable media such as CompactFlash cards. AutoRun also works with network drives that are mapped to a drive letter with Windows Explorer or mounted with the [Microsoft Management Console (MMC)](https://msdn.microsoft.com/en-us/library/Aa814987(v=VS.85).aspx). As with mounted hardware, a mounted network drive must have an Autorun.inf file in its root directory, and must not be disabled through the [registry](#using-the-registry-to-disable-autorun).
 
  
 

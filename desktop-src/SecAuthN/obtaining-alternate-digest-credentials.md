@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Obtaining Alternate Digest Credentials
 
-To obtain [*credentials*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) other than those associated with the current logon [*session*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50), populate a [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/desktop/api/Rpcdce/ns-sspi-_sec_winnt_auth_identity_a) structure with information for the alternate [*security principal*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50). Pass the structure to the [**AcquireCredentialsHandle**](/windows/desktop/api/Sspi/) function using the *pAuthData* parameter.
+To obtain [*credentials*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) other than those associated with the current logon [*session*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx), populate a [**SEC\_WINNT\_AUTH\_IDENTITY**](https://msdn.microsoft.com/en-us/library/Aa380131(v=VS.85).aspx) structure with information for the alternate [*security principal*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx). Pass the structure to the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/en-us/library/Aa374712(v=VS.85).aspx) function using the *pAuthData* parameter.
 
-The following table describes the members of the [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/desktop/api/Rpcdce/ns-sspi-_sec_winnt_auth_identity_a) structure.
+The following table describes the members of the [**SEC\_WINNT\_AUTH\_IDENTITY**](https://msdn.microsoft.com/en-us/library/Aa380131(v=VS.85).aspx) structure.
 
 
 
@@ -25,7 +25,7 @@ The following table describes the members of the [**SEC\_WINNT\_AUTH\_IDENTITY**
 | **DomainLength**   | The length of the **Domain** member, in characters. Omit the terminating null.                                                       |
 | **Password**       | Null-terminated string containing the password of the security principal.                                                            |
 | **PasswordLength** | The length of the **Password** member, in characters. Omit the terminating null.                                                     |
-| **Flags**          | Indicates whether the string members are in ANSI or [*Unicode*](https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb) format.  |
+| **Flags**          | Indicates whether the string members are in ANSI or [*Unicode*](https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx) format.  |
 
 
 
@@ -38,7 +38,7 @@ The following table lists the valid values for the **Flags** member of the struc
 | Constant                            | Description                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | SEC\_WINNT\_AUTH\_IDENTITY\_ANSI    | Strings in this structure are in ANSI format.                                                                    |
-| SEC\_WINNT\_AUTH\_IDENTITY\_UNICODE | Strings in this structure are in [*Unicode*](https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb) format. |
+| SEC\_WINNT\_AUTH\_IDENTITY\_UNICODE | Strings in this structure are in [*Unicode*](https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx) format. |
 
 
 

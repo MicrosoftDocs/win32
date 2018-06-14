@@ -11,10 +11,10 @@ ms.date: 05/31/2018
 
 # MDI Functions
 
--   [**CreateMDIWindow**](/windows/desktop/api/Winuser/nf-winuser-createmdiwindowa)
--   [**DefFrameProc**](/windows/desktop/api/Winuser/nf-winuser-defframeproca)
--   [**DefMDIChildProc**](/windows/desktop/api/Winuser/nf-winuser-defmdichildproca)
--   [**TranslateMDISysAccel**](/windows/desktop/api/Winuser/nf-winuser-translatemdisysaccel)
+-   [**CreateMDIWindow**](https://msdn.microsoft.com/en-us/library/ms644923(v=VS.85).aspx)
+-   [**DefFrameProc**](https://msdn.microsoft.com/en-us/library/ms644924(v=VS.85).aspx)
+-   [**DefMDIChildProc**](https://msdn.microsoft.com/en-us/library/ms644925(v=VS.85).aspx)
+-   [**TranslateMDISysAccel**](https://msdn.microsoft.com/en-us/library/ms644926(v=VS.85).aspx)
 
  
 

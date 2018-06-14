@@ -47,7 +47,7 @@ A statement contained information with a format or size different from the expec
 <span id="tools.u_5_gly"></span><span id="TOOLS.U_5_GLY"></span>**Unknown DIB header format**
 </dt> <dd>
 
-The device-independent bitmap (DIB) header is not a [**BITMAPCOREHEADER**](https://msdn.microsoft.com/windows/desktop/0182adcd-dbba-43de-b41b-ab2f0fd8f7bf) or [**BITMAPINFOHEADER**](https://msdn.microsoft.com/windows/desktop/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1) structure.
+The device-independent bitmap (DIB) header is not a [**BITMAPCOREHEADER**](https://msdn.microsoft.com/en-us/library/Dd183372(v=VS.85).aspx) or [**BITMAPINFOHEADER**](https://msdn.microsoft.com/en-us/library/Dd183376(v=VS.85).aspx) structure.
 
 </dd> <dt>
 

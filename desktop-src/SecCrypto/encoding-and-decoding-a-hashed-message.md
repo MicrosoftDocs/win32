@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Encoding and Decoding a Hashed Message
 
-Hashed data consists of content of any type and a [*hash*](https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323) of the content. It can be used when it is only necessary to confirm that the message content has not been modified since the hash was created.
+Hashed data consists of content of any type and a [*hash*](https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx) of the content. It can be used when it is only necessary to confirm that the message content has not been modified since the hash was created.
 
 When creating a hashed message, there can be multiple hash algorithms and multiple hashes. The following illustration depicts the tasks required to encode a hashed message. The procedure is described in the text that follows the illustration.
 
@@ -34,13 +34,13 @@ To use low-level message functions to accomplish the tasks just outlined, use th
 4.  Call [**CryptMsgCalculateEncodedLength**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgcalculateencodedlength) to get the size of the encoded message BLOB. Allocate memory for it.
 5.  Call [**CryptMsgOpenToEncode**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgopentoencode), passing in CMSG\_HASHED for the *dwMsgType* parameter and a pointer to [**CMSG\_HASHED\_ENCODE\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-_cmsg_hashed_encode_info) for the *pvMsgEncodeInfo* parameter. As a result of this call, you get a handle to the opened message.
 6.  Call [**CryptMsgUpdate**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgupdate), passing in the handle retrieved in step 5 and a pointer to the data that is to be hashed and encoded. This function can be called as many times as necessary to complete the encoding process.
-7.  Call [**CryptMsgGetParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsggetparam), passing in the handle retrieved in step 5 and the appropriate parameter types to access the desired, encoded data. For example, pass in CMSG\_CONTENT\_PARAM to get a pointer to the entire [*PKCS \#7*](https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a) message.
+7.  Call [**CryptMsgGetParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsggetparam), passing in the handle retrieved in step 5 and the appropriate parameter types to access the desired, encoded data. For example, pass in CMSG\_CONTENT\_PARAM to get a pointer to the entire [*PKCS \#7*](https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx) message.
 
-    If the result of this encoding is to be used as the [*inner data*](https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70) for another encoded message, such as an enveloped message, CMSG\_BARE\_CONTENT\_PARAM must be passed. For an example showing this, see [Alternate Code for Encoding an Enveloped Message](alternate-code-for-encoding-an-enveloped-message.md).
+    If the result of this encoding is to be used as the [*inner data*](https://msdn.microsoft.com/en-us/library/ms721588(v=VS.85).aspx) for another encoded message, such as an enveloped message, CMSG\_BARE\_CONTENT\_PARAM must be passed. For an example showing this, see [Alternate Code for Encoding an Enveloped Message](alternate-code-for-encoding-an-enveloped-message.md).
 
 8.  Close the message by calling [**CryptMsgClose**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgclose).
 
-The result of this procedure is an encoded message that contains the original data, the hashing algorithms, and the [*hash*](https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323) of that data. A pointer to the encoded message [*BLOB*](https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b) is obtained in step 7.
+The result of this procedure is an encoded message that contains the original data, the hashing algorithms, and the [*hash*](https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx) of that data. A pointer to the encoded message [*BLOB*](https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx) is obtained in step 7.
 
 The following two procedures decode and then verify hashed data.
 

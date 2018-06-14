@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Using PlaySound to Loop Sounds
 
-If you specify the SND\_LOOP and SND\_ASYNC flags for the *fdwSound* parameter of the [**PlaySound**](/windows/desktop/api/Mmsystem/) function, the sound will continue to play repeatedly as shown in the following example:
+If you specify the SND\_LOOP and SND\_ASYNC flags for the *fdwSound* parameter of the [**PlaySound**](https://msdn.microsoft.com/en-us/library/Dd743680(v=VS.85).aspx) function, the sound will continue to play repeatedly as shown in the following example:
 
 
 ```C++

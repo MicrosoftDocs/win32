@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # How to Create Data Handlers
 
-When a file is copied to the clipboard or dragged and dropped, the Shell creates a data object that supports a variety of standard [clipboard formats](dragdrop.md). For files that are of a specific file type, you can extend the available clipboard formats by implementing and registering a *data handler*. When a file of the file type is transferred, the Shell delegates calls to the data object's [**IDataObject**](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4) interface to the data handler if one of the custom formats is used.
+When a file is copied to the clipboard or dragged and dropped, the Shell creates a data object that supports a variety of standard [clipboard formats](dragdrop.md). For files that are of a specific file type, you can extend the available clipboard formats by implementing and registering a *data handler*. When a file of the file type is transferred, the Shell delegates calls to the data object's [**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx) interface to the data handler if one of the custom formats is used.
 
 The general procedures for implementing and registering a Shell extension handler are discussed in [Creating Shell Extension Handlers](handlers.md). This document focuses on those aspects of implementation that are specific to data handlers.
 
@@ -22,11 +22,11 @@ The general procedures for implementing and registering a Shell extension handle
 
 ### Step 1: Implementing Data Handlers
 
-Like all Shell extension handlers, data handlers are in-process Component Object Model (COM) objects implemented as DLLs. They export two interfaces in addition to [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332): [**IPersistFile**](https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546) and [**IDataObject**](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4).
+Like all Shell extension handlers, data handlers are in-process Component Object Model (COM) objects implemented as DLLs. They export two interfaces in addition to [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx): [**IPersistFile**](https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx) and [**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx).
 
-The Shell initializes the handler through its [**IPersistFile**](https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546) interface. It uses this interface to request the handler's class identifier (CLSID) and provides it with the file's name. For a general discussion of how to implement Shell extension handlers, including the **IPersistFile** interface, see [Creating Shell Extension Handlers](handlers.md).
+The Shell initializes the handler through its [**IPersistFile**](https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx) interface. It uses this interface to request the handler's class identifier (CLSID) and provides it with the file's name. For a general discussion of how to implement Shell extension handlers, including the **IPersistFile** interface, see [Creating Shell Extension Handlers](handlers.md).
 
-Once the data handler is initialized, the Shell delegates calls from the data object to the handler's [**IDataObject**](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4) interface if one of the custom formats is used.
+Once the data handler is initialized, the Shell delegates calls from the data object to the handler's [**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx) interface if one of the custom formats is used.
 
 ### Step 2: Registering Data Handlers
 
@@ -59,10 +59,10 @@ HKEY_CLASSES_ROOT
 [Creating Shell Extension Handlers](handlers.md)
 </dt> <dt>
 
-[**IPersistFile**](https://msdn.microsoft.com/7d34507f-8a16-43b4-8225-010798abc546)
+[**IPersistFile**](https://msdn.microsoft.com/en-us/library/ms687223(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDataObject**](https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4)
+[**IDataObject**](https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx)
 </dt> </dl>
 
  

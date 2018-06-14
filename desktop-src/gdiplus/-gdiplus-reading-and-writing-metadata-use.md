@@ -62,9 +62,9 @@ The total size of the metadata is 436 bytes.
 
 
 
-GDI+ stores an individual piece of metadata in a [**PropertyItem**](/windows/desktop/api/Gdiplusimaging/) object. You can call the **GetAllPropertyItems** method of the [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) class to retrieve all the metadata from a file. The **GetAllPropertyItems** method returns an array of **PropertyItem** objects. Before you call **GetAllPropertyItems**, you must allocate a buffer large enough to receive that array. You can call the **GetPropertySize** method of the **Image** class to get the size (in bytes) of the required buffer.
+GDI+ stores an individual piece of metadata in a [**PropertyItem**](https://msdn.microsoft.com/en-us/library/ms534493(v=VS.85).aspx) object. You can call the **GetAllPropertyItems** method of the [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) class to retrieve all the metadata from a file. The **GetAllPropertyItems** method returns an array of **PropertyItem** objects. Before you call **GetAllPropertyItems**, you must allocate a buffer large enough to receive that array. You can call the **GetPropertySize** method of the **Image** class to get the size (in bytes) of the required buffer.
 
-A [**PropertyItem**](/windows/desktop/api/Gdiplusimaging/) object has the following four public members:
+A [**PropertyItem**](https://msdn.microsoft.com/en-us/library/ms534493(v=VS.85).aspx) object has the following four public members:
 
 
 
@@ -244,7 +244,7 @@ The exposure time is 1/125.
 
 ## Writing Metadata to a File
 
-To write an item of metadata to an [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) object, initialize a [**PropertyItem**](/windows/desktop/api/Gdiplusimaging/) object and then pass the address of that **PropertyItem** object to the **SetPropertyItem** method of the **Image** object.
+To write an item of metadata to an [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) object, initialize a [**PropertyItem**](https://msdn.microsoft.com/en-us/library/ms534493(v=VS.85).aspx) object and then pass the address of that **PropertyItem** object to the **SetPropertyItem** method of the **Image** object.
 
 The following console application writes one item (the image title) of metadata to an [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) object and then saves the image in the disk file FakePhoto2.jpg. The main function relies on the helper function GetEncoderClsid, which is shown in the topic [Retrieving the Class Identifier for an Encoder](-gdiplus-retrieving-the-class-identifier-for-an-encoder-use.md).
 

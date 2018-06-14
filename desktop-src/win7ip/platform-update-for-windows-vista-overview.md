@@ -144,7 +144,7 @@ All APIs are supported on previous versions of Windows that are eligible for the
 
 UI Automation is a newer technology that implements the UI Automation specification and addresses many of the limitations of Microsoft Active Accessibility. It is a set of APIs that provides programmatic access to the user interface elements of applications. The provided API help Assistive Technology products and automated testing tools access, identify, and manipulate the standard and custom UI elements of an application.
 
-For more information about UI Automation, see [Windows Automation API: UI Automation](https://msdn.microsoft.com/windows/desktop/700ca38d-ff40-472b-a95a-11fa94c3bc1d).
+For more information about UI Automation, see [Windows Automation API: UI Automation](https://msdn.microsoft.com/en-us/library/Ee684009(v=VS.85).aspx).
 
 ### Supported UI Automation API Elements
 
@@ -351,7 +351,7 @@ The Windows Ribbon (Ribbon) framework is a rich command presentation system that
 
 The framework is a collection of Microsoft Win32 APIs that provide a host of new user interface capabilities for Windows developers and includes both the Ribbon and a context menu system.
 
-For more information about the Ribbon framework, see [Introducing the Windows Ribbon Framework](https://msdn.microsoft.com/windows/desktop/bc19d5eb-e3a4-4022-8051-512cb3a3e065).
+For more information about the Ribbon framework, see [Introducing the Windows Ribbon Framework](https://www.bing.com/search?q=Introducing+the+Windows+Ribbon+Framework).
 
 ### Supported Ribbon Framework API Elements
 

@@ -17,11 +17,11 @@ ms.date: 05/31/2018
 
 This category of interfaces includes the following:
 
--   [**ICommonQuery**](/windows/desktop/api/Cmnquery/)
--   [**IDsBrowseDomainTree**](/windows/desktop/api/Dsclient/)
--   [**IDsDisplaySpecifier**](/windows/desktop/api/Dsclient/)
--   [**IPersistQuery**](/windows/desktop/api/Cmnquery/)
--   [**IQueryForm**](/windows/desktop/api/Cmnquery/)
+-   [**ICommonQuery**](https://msdn.microsoft.com/en-us/library/ms676932(v=VS.85).aspx)
+-   [**IDsBrowseDomainTree**](https://msdn.microsoft.com/en-us/library/ms676955(v=VS.85).aspx)
+-   [**IDsDisplaySpecifier**](https://msdn.microsoft.com/en-us/library/ms676961(v=VS.85).aspx)
+-   [**IPersistQuery**](https://msdn.microsoft.com/en-us/library/ms677246(v=VS.85).aspx)
+-   [**IQueryForm**](https://msdn.microsoft.com/en-us/library/ms677262(v=VS.85).aspx)
 
 ## See Also
 

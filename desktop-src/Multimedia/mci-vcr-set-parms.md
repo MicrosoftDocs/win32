@@ -159,7 +159,7 @@ Videotape length needed to brake the VCR transport when a [**MCI\_STOP**](mci-st
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function to validate the members.
 
 ## Requirements
 
@@ -192,7 +192,7 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_STOP**](mci-stop.md)
 </dt> <dt>
 
-[**mciSendCommand**](/windows/desktop/api/Mmsystem/)
+[**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx)
 </dt> </dl>
 
  

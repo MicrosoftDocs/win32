@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SetLineHeight function
 
-Sets the [**LineHeight**](/windows/desktop/api/msinkaut15/) property on the [**InkDivider**](/windows/desktop/api/msinkaut15/) object.
+Sets the [**LineHeight**](https://msdn.microsoft.com/en-us/library/ms699524(v=VS.85).aspx) property on the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
 
 This helper function is not intended to be used by application code.
 
@@ -34,14 +34,14 @@ HRESULT WINAPI SetLineHeight(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](/windows/desktop/api/msinkaut15/) object.
+A handle to the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object.
 
 </dd> <dt>
 
 *lLineHeight* \[in\]
 </dt> <dd>
 
-The [**LineHeight**](/windows/desktop/api/msinkaut15/) property of the [**InkDivider**](/windows/desktop/api/msinkaut15/) object, in HIMETRIC units.
+The [**LineHeight**](https://msdn.microsoft.com/en-us/library/ms699524(v=VS.85).aspx) property of the [**InkDivider**](https://msdn.microsoft.com/en-us/library/ms696382(v=VS.85).aspx) object, in HIMETRIC units.
 
 </dd> </dl>
 

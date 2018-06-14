@@ -74,7 +74,7 @@ Underlines and strikethroughs do not contribute to the black box determination, 
 
 <dl> <dt>
 
-[**IDWriteTextLayout**](/windows/desktop/api/dwrite/)
+[**IDWriteTextLayout**](https://msdn.microsoft.com/en-us/library/Dd316718(v=VS.85).aspx)
 </dt> <dt>
 
 [**IDWriteTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd316718)

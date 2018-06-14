@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 The MCI\_BREAK command sets a break key for an MCI device. MCI supports this command directly rather than passing it to the device. Any MCI application can use this command.
 
-To send this command, call the [**mciSendCommand**](/windows/desktop/api/Mmsystem/) function with the following parameters.
+To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/en-us/library/Dd757160(v=VS.85).aspx) function with the following parameters.
 
 
 ```C++

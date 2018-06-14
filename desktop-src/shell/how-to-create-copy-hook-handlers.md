@@ -21,9 +21,9 @@ The general procedures for implementing and registering a Shell extension handle
 
 ### Step 1: Implementing Copy Hook Handlers
 
-Like all Shell extension handlers, copy hook handlers are in-process Component Object Model (COM) objects implemented as DLLs. They export one interface in addition to [**IUnknown**](https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332): [**ICopyHook**](/windows/desktop/api/Shlobj/). The Shell initializes the handler directly, so there is no need for an initialization interface such as [**IShellExtInit**](/windows/desktop/api/Shobjidl/nn-shobjidl_core-ishellextinit).
+Like all Shell extension handlers, copy hook handlers are in-process Component Object Model (COM) objects implemented as DLLs. They export one interface in addition to [**IUnknown**](https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx): [**ICopyHook**](https://msdn.microsoft.com/en-us/library/Bb776049(v=VS.85).aspx). The Shell initializes the handler directly, so there is no need for an initialization interface such as [**IShellExtInit**](https://msdn.microsoft.com/en-us/library/Bb775096(v=VS.85).aspx).
 
-The [**ICopyHook**](/windows/desktop/api/Shlobj/) interface has a single method, [**ICopyHook::CopyCallback**](/windows/desktop/api/Shlobj/). When a folder is about to be moved, the Shell calls this method. It passes in a variety of information, including:
+The [**ICopyHook**](https://msdn.microsoft.com/en-us/library/Bb776049(v=VS.85).aspx) interface has a single method, [**ICopyHook::CopyCallback**](https://msdn.microsoft.com/en-us/library/Bb776048(v=VS.85).aspx). When a folder is about to be moved, the Shell calls this method. It passes in a variety of information, including:
 
 -   The folder's name.
 -   The folder's destination or new name.
@@ -31,7 +31,7 @@ The [**ICopyHook**](/windows/desktop/api/Shlobj/) interface has a single method,
 -   The attributes of the source and destination folders.
 -   A window handle that can be used to display a user interface.
 
-When your handler's [**ICopyHook::CopyCallback**](/windows/desktop/api/Shlobj/) method is called, it returns one of the three following values to indicate to the Shell how it should proceed.
+When your handler's [**ICopyHook::CopyCallback**](https://msdn.microsoft.com/en-us/library/Bb776048(v=VS.85).aspx) method is called, it returns one of the three following values to indicate to the Shell how it should proceed.
 
 
 
@@ -75,7 +75,7 @@ Copy hook handlers are global. The Shell calls all registered handlers every tim
 [Creating Shell Extension Handlers](handlers.md)
 </dt> <dt>
 
-[**ICopyHook**](/windows/desktop/api/Shlobj/)
+[**ICopyHook**](https://msdn.microsoft.com/en-us/library/Bb776049(v=VS.85).aspx)
 </dt> </dl>
 
  

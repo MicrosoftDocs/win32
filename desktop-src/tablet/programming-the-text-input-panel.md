@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Programming the Text Input Panel
 
-Starting with Windows Vista, the [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel) supersedes the [**PenInputPanel**](/windows/desktop/api/msinkaut/) for controlling the onscreen appearance and behavior of the Tablet Input Panel.
+Starting with Windows Vista, the [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel) supersedes the [**PenInputPanel**](https://msdn.microsoft.com/en-us/library/ms701739(v=VS.85).aspx) for controlling the onscreen appearance and behavior of the Tablet Input Panel.
 
 The following sections describe programming the Input Panel using the Text Input Panel application programming interfaces.
 

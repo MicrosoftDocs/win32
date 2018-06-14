@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # GetVolumeOperation class
 
-Registers an event handler that is invoked when the asynchronous operation started by [**GetVolumeAsync**](https://www.bing.com/search?q=**GetVolumeAsync**) completes, and provides a method that returns the results of the operation.
+Registers an event handler that is invoked when the asynchronous operation started by [**GetVolumeAsync**](https://msdn.microsoft.com/en-us/library/Hh828933(v=VS.85).aspx) completes, and provides a method that returns the results of the operation.
 
 **GetVolumeOperation** has these types of members:
 
@@ -35,7 +35,7 @@ The **GetVolumeOperation** class has these methods.
 
 | Method                                              | Description                                                                                                                      |
 |:----------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------|
-| [**GetResults**](getvolumeoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetVolumeAsync**](https://www.bing.com/search?q=**GetVolumeAsync**).<br/> |
+| [**GetResults**](getvolumeoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetVolumeAsync**](https://msdn.microsoft.com/en-us/library/Hh828933(v=VS.85).aspx).<br/> |
 
 
 
@@ -49,7 +49,7 @@ The **GetVolumeOperation** class has these properties.
 
 | Property                                                     | Access type           | Description                                                                                                                                                                |
 |:-------------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Completed**](getvolumeoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetVolumeAsync**](https://www.bing.com/search?q=**GetVolumeAsync**) is completed. <br/> |
+| [**Completed**](getvolumeoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetVolumeAsync**](https://msdn.microsoft.com/en-us/library/Hh828933(v=VS.85).aspx) is completed. <br/> |
 
 
 

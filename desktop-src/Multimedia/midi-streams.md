@@ -23,14 +23,14 @@ The following functions work with streams.
 
 | Value                                            | Meaning                                                                 |
 |--------------------------------------------------|-------------------------------------------------------------------------|
-| [**midiStreamClose**](https://www.bing.com/search?q=**midiStreamClose**)       | Closes a MIDI stream.                                                   |
-| [**midiStreamOpen**](https://www.bing.com/search?q=**midiStreamOpen**)         | Opens a MIDI stream and retrieves a handle.                             |
-| [**midiStreamOut**](https://www.bing.com/search?q=**midiStreamOut**)           | Plays or queues a stream (buffer) of MIDI data to a MIDI output device. |
-| [**midiStreamPause**](https://www.bing.com/search?q=**midiStreamPause**)       | Pauses playback of a specified MIDI stream.                             |
-| [**midiStreamPosition**](https://www.bing.com/search?q=**midiStreamPosition**) | Retrieves the current position in a MIDI stream.                        |
-| [**midiStreamProperty**](https://www.bing.com/search?q=**midiStreamProperty**) | Sets and retrieves stream properties.                                   |
-| [**midiStreamRestart**](https://www.bing.com/search?q=**midiStreamRestart**)   | Restarts playback of a paused MIDI stream.                              |
-| [**midiStreamStop**](https://www.bing.com/search?q=**midiStreamStop**)         | Turns off all notes on all MIDI channels for the specified MIDI stream. |
+| [**midiStreamClose**](https://msdn.microsoft.com/en-us/library/Dd798485(v=VS.85).aspx)       | Closes a MIDI stream.                                                   |
+| [**midiStreamOpen**](https://msdn.microsoft.com/en-us/library/Dd798486(v=VS.85).aspx)         | Opens a MIDI stream and retrieves a handle.                             |
+| [**midiStreamOut**](https://msdn.microsoft.com/en-us/library/Dd798487(v=VS.85).aspx)           | Plays or queues a stream (buffer) of MIDI data to a MIDI output device. |
+| [**midiStreamPause**](https://msdn.microsoft.com/en-us/library/Dd798488(v=VS.85).aspx)       | Pauses playback of a specified MIDI stream.                             |
+| [**midiStreamPosition**](https://msdn.microsoft.com/en-us/library/Dd798489(v=VS.85).aspx) | Retrieves the current position in a MIDI stream.                        |
+| [**midiStreamProperty**](https://msdn.microsoft.com/en-us/library/Dd798490(v=VS.85).aspx) | Sets and retrieves stream properties.                                   |
+| [**midiStreamRestart**](https://msdn.microsoft.com/en-us/library/Dd798491(v=VS.85).aspx)   | Restarts playback of a paused MIDI stream.                              |
+| [**midiStreamStop**](https://msdn.microsoft.com/en-us/library/Dd798492(v=VS.85).aspx)         | Turns off all notes on all MIDI channels for the specified MIDI stream. |
 
 
 

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # ISCrdEnr::getEnrolledCertificateName method
 
-The **getEnrolledCertificateName** method retrieves the name of the certificate resulting from an earlier successful call to [**ISCrdEnr::enroll**](/windows/desktop/api/certenroll/).
+The **getEnrolledCertificateName** method retrieves the name of the certificate resulting from an earlier successful call to [**ISCrdEnr::enroll**](https://msdn.microsoft.com/en-us/library/Aa386564(v=VS.85).aspx).
 
-This method can also be used to display the certificate in a dialog box. This method calls the [*CryptoAPI*](https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb) function [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa).
+This method can also be used to display the certificate in a dialog box. This method calls the [*CryptoAPI*](https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx) function [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa).
 
 ## Syntax
 
@@ -80,7 +80,7 @@ A string that represents the retrieved certificate name.
 
 ## Remarks
 
-Because this method operates on an existing certificate, you must have successfully called [**IScrdEnr::enroll**](/windows/desktop/api/certenroll/) before you can call **getEnrolledCertificateName**.
+Because this method operates on an existing certificate, you must have successfully called [**IScrdEnr::enroll**](https://msdn.microsoft.com/en-us/library/Aa386564(v=VS.85).aspx) before you can call **getEnrolledCertificateName**.
 
 The **getEnrolledCertificateName** method calls the [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa) function to retrieve the certificate name according to the sequence described for the CERT\_NAME\_SIMPLE\_DISPLAY\_TYPE value of **CertGetNameString**'s *dwType* parameter.
 
@@ -104,7 +104,7 @@ The **getEnrolledCertificateName** method calls the [**CertGetNameString**](/win
 [**ISCrdEnr**](iscrdenr.md)
 </dt> <dt>
 
-[**ISCrdEnr::enroll**](/windows/desktop/api/certenroll/)
+[**ISCrdEnr::enroll**](https://msdn.microsoft.com/en-us/library/Aa386564(v=VS.85).aspx)
 </dt> </dl>
 
  

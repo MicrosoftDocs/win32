@@ -25,7 +25,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncCommonStreamEndHandling**](/windows/desktop/api/codecapi/) enumeration.
+The value of this property is a member of the [**eAVEncCommonStreamEndHandling**](https://msdn.microsoft.com/en-us/library/Dd388776(v=VS.85).aspx) enumeration.
 
 ## Requirements
 

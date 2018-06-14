@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Schannel Error Codes for TLS and SSL Alerts
 
-[*Schannel*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) returns the following error messages when the corresponding alert is received from the [*Transport Layer Security*](https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f) (TLS) or [*Secure Sockets Layer*](https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50) (SSL) protocols. The error messages are defined in Winerror.h.
+[*Schannel*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) returns the following error messages when the corresponding alert is received from the [*Transport Layer Security*](https://msdn.microsoft.com/en-us/library/ms721627(v=VS.85).aspx) (TLS) or [*Secure Sockets Layer*](https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx) (SSL) protocols. The error messages are defined in Winerror.h.
 
 
 

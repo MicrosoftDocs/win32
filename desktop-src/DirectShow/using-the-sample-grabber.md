@@ -356,7 +356,7 @@ For an uncompressed video stream, the format information is contained in a [**VI
 Here is the complete code for the previous examples.
 
 > [!Note]  
-> This example uses the [SafeRelease](https://msdn.microsoft.com/2e9af7bc-f478-4a9c-b28f-b0a72fa9ec75) function to release interface pointers.
+> This example uses the [SafeRelease](https://msdn.microsoft.com/en-us/library/Dd940435(v=VS.85).aspx) function to release interface pointers.
 
  
 

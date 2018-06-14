@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Win32\_SystemSlot class
 
-The **Win32\_SystemSlot** [WMI class](https://msdn.microsoft.com/cfe4bcca-692e-45cd-a840-93ebfe4ae267) represents physical connection points including ports, motherboard slots and peripherals, and proprietary connection points.
+The **Win32\_SystemSlot** [WMI class](https://msdn.microsoft.com/en-us/library/Aa393244(v=VS.85).aspx) represents physical connection points including ports, motherboard slots and peripherals, and proprietary connection points.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -86,7 +86,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 9\|Bus Number")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 9\|Bus Number")
 </dt> </dl>
 
 SMBIOS Bus Number.
@@ -106,7 +106,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Caption")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Caption")
 </dt> </dl>
 
 Short description of an object—a one-line string.
@@ -139,7 +139,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("ConnectorType"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 9\|Slot Type")
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("ConnectorType"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 9\|Slot Type")
 </dt> </dl>
 
 Array of physical attributes of the connector that this slot uses.
@@ -870,7 +870,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/63bdbafc-51f3-4714-8b7e-9d5a61cef45e), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**CIM\_Key**](https://msdn.microsoft.com/en-us/library/Aa393651(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Name of the first concrete class that appears in the inheritance chain used in the creation of an instance. When used with the other key properties of a class, this property allows all instances of this class and its subclasses to be identified uniquely.
@@ -888,7 +888,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 9\|Current Usage")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 9\|Current Usage")
 </dt> </dl>
 
 Status of system slot use.
@@ -945,7 +945,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Description")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Description")
 </dt> </dl>
 
 Description of the object.
@@ -963,7 +963,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 9\|Device Number")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 9\|Device Number")
 </dt> </dl>
 
 SMBIOS Device Number.
@@ -983,7 +983,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 9\|Function Number")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 9\|Function Number")
 </dt> </dl>
 
 SMBIOS Function Number.
@@ -1003,7 +1003,7 @@ Data type: **real32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("inches")
+Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("inches")
 </dt> </dl>
 
 Maximum height of an adapter card that can be inserted into the slot—in inches.
@@ -1021,7 +1021,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Install Date")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Install Date")
 </dt> </dl>
 
 Date and time the object is installed. This property does not need a value to indicate that the object is installed.
@@ -1039,7 +1039,7 @@ Data type: **real32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("inches")
+Qualifiers: [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("inches")
 </dt> </dl>
 
 Maximum length of an adapter card that can be inserted into the slot—in inches.
@@ -1057,7 +1057,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Name of the organization that produces the physical element.
@@ -1075,7 +1075,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MaxDataWidth"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|System Slot\|004.3"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("bits")
+Qualifiers: [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MaxDataWidth"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|System Slot\|004.3"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("bits")
 </dt> </dl>
 
 Maximum bus width of adapter cards that can be inserted into this slot—in bits. This can be one of the following values.
@@ -1154,7 +1154,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Name for the physical element.
@@ -1172,7 +1172,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Name")
+Qualifiers: [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Name")
 </dt> </dl>
 
 Label for the object. When subclassed, this property can be overridden to be a key property.
@@ -1222,7 +1222,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256)
 </dt> </dl>
 
 Part number that the producer or manufacturer assigns to the physical element.
@@ -1240,7 +1240,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 9\|Slot Characteristics 2")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 9\|Slot Characteristics 2")
 </dt> </dl>
 
 If **TRUE**, the PCI bus Power Management Enabled (PME) signal is supported by this slot.
@@ -1273,7 +1273,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_Slot**](cim-slot.md).**SpecialPurpose**")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Slot**](cim-slot.md).**SpecialPurpose**")
 </dt> </dl>
 
 Free-form string that describes how this slot is physically unique and may hold special types of hardware. This property only has meaning when the corresponding property **SpecialPurpose** is **TRUE**.
@@ -1291,7 +1291,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 9\|Segment Group Number")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 9\|Segment Group Number")
 </dt> </dl>
 
 SMBIOS Segment Group Number.
@@ -1311,7 +1311,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Manufacturer-allocated number used to identify the physical element.
@@ -1329,7 +1329,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 9\|Slot Characteristics 1")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 9\|Slot Characteristics 1")
 </dt> </dl>
 
 If **TRUE**, two or more slots share a location on the baseboard, such as a PCI/EISA shared slot.
@@ -1347,7 +1347,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Stockkeeping unit number for the physical element.
@@ -1365,7 +1365,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("SMBIOS\|Type 9\|Slot Designation")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("SMBIOS\|Type 9\|Slot Designation")
 </dt> </dl>
 
 SMBIOS string that identifies the system slot designation of the slot on the motherboard.
@@ -1385,7 +1385,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("[**CIM\_Slot**](cim-slot.md).**PurposeDescription**")
+Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("[**CIM\_Slot**](cim-slot.md).**PurposeDescription**")
 </dt> </dl>
 
 If **TRUE**, this slot is physically unique and may hold special types of hardware, such as a graphics processor slot. If **TRUE**, then **PurposeDescription** should specify the nature of the uniqueness or purpose of the slot.
@@ -1403,7 +1403,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (10), [**DisplayName**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Status")
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Status")
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", could apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is online, yet the managed element is neither "OK" nor in one of the other states.
@@ -1526,7 +1526,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/838d295f-e812-4e46-99a4-d2714a0ae8dc), [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (256), [**Override**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("Tag"), [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("WMI")
+Qualifiers: [**Key**](https://msdn.microsoft.com/en-us/library/Aa392157(v=VS.85).aspx), [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (256), [**Override**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("Tag"), [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("WMI")
 </dt> </dl>
 
 System slot represented by an instance of this class.
@@ -1546,7 +1546,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|System Slot\|004.11"), [**Units**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("milliwatts")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|System Slot\|004.11"), [**Units**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("milliwatts")
 </dt> </dl>
 
 Maximum thermal dissipation of the slot in milliwatts.
@@ -1564,7 +1564,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|System Slot\|004.9")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|System Slot\|004.9")
 </dt> </dl>
 
 Array of enumerated integers indicating the Vcc voltage supported by this slot.
@@ -1616,7 +1616,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) (64)
+Qualifiers: [**MaxLen**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) (64)
 </dt> </dl>
 
 Version of the physical element.
@@ -1634,7 +1634,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/671ea769-f68d-4788-96f5-c4f86ab3b00e) ("MIF.DMTF\|System Slot\|004.10")
+Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/en-us/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|System Slot\|004.10")
 </dt> </dl>
 
 Array of enumerated integers indicating the Vpp voltage supported by this slot.

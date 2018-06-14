@@ -52,7 +52,7 @@ Flags specifying the type of name. The default is DOWNLEVEL\_LOCALE\_NAME.
 
 Returns the locale identifier that corresponds to the locale name if successful.
 
-The function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4), which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
 
 -   ERROR\_INVALID\_FLAGS. The values supplied for flags were not valid.
 -   ERROR\_INVALID\_PARAMETER. Any of the parameter values were invalid.

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Creating a WIA Device Manager
 
-The first step in using Windows Image Acquisition (WIA) services is to obtain an [**IWiaDevMgr**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr) interface pointer (if you are programming for Windows XP or earlier) or an [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) interface pointer (if you are programming for Windows Vista or later). To do this, call [CoCreateInstance](https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) with the appropriate parameters. The sample application WiaSSamp creates a device manager within a global function implemented by the following code:
+The first step in using Windows Image Acquisition (WIA) services is to obtain an [**IWiaDevMgr**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr) interface pointer (if you are programming for Windows XP or earlier) or an [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) interface pointer (if you are programming for Windows Vista or later). To do this, call [CoCreateInstance](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) with the appropriate parameters. The sample application WiaSSamp creates a device manager within a global function implemented by the following code:
 
 
 ```
@@ -52,7 +52,7 @@ The first step in using Windows Image Acquisition (WIA) services is to obtain an
 
 In this example, CLSID\_WiaDevMgr and IID\_IWiaDevMgr are WIA constants that represent the class ID and the interface ID of [**IWiaDevMgr**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr), respectively. CLSID\_WiaDevMgr2 and IID\_IWiaDevMgr2 are WIA constants that represent the class ID and the interface ID of [**IWiaDevMgr2**](-wia-iwiadevmgr2.md), respectively.
 
-The value for the *dwClsContext* argument of the [CoCreateInstance](https://msdn.microsoft.com/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec) call must be CLSCTX\_LOCAL\_SERVER. No other server type is supported, and Component Object Model (COM) rejects any other value for this parameter.
+The value for the *dwClsContext* argument of the [CoCreateInstance](https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx) call must be CLSCTX\_LOCAL\_SERVER. No other server type is supported, and Component Object Model (COM) rejects any other value for this parameter.
 
  
 

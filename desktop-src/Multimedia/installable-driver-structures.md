@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 The following structure can be used with installable drivers.
 
-[**DRVCONFIGINFO**](https://www.bing.com/search?q=**DRVCONFIGINFO**)
+[**DRVCONFIGINFO**](https://msdn.microsoft.com/en-us/library/Dd797923(v=VS.85).aspx)
 
  
 
