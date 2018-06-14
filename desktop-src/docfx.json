@@ -40,7 +40,10 @@
       "breadcrumb_path": "/windows/desktop/breadcrumb/toc.json",
       "extendBreadcrumb": true
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "feedback_system": {
+        "docs-ref-autogen/**/*": "None"
+    },
     "template": [],
     "dest": "desktop",
     "markdownEngineName": "markdig"
