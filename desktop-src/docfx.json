@@ -43,6 +43,7 @@
     "fileMetadata": {
       "feedback_system": {
         "docs-ref-autogen/**/*": "None"
+      }
     },
     "template": [],
     "dest": "desktop",
