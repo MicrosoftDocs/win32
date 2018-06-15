@@ -376,10 +376,10 @@ Next</code></pre></td>
 [$string] $Comp = &quot;.&quot;
 }
 
-# Get computer object
+<# Get computer object #>
 $Computer = Get-WmiObject -Class Win32_ComputerSystem -ComputerName $comp
 
-#Rename the Computer
+<# Rename the Computer #>
 $Return  = $Computer.Rename($NewName)
 
 if ($return.ReturnValue -eq 0) {
